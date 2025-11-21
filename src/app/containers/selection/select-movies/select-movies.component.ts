@@ -1,4 +1,4 @@
-import { Component, signal, computed } from '@angular/core';
+import { Component, signal, computed, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import { Movie } from '../../../models/movie-model';
@@ -26,6 +26,8 @@ import {
   moviesSagaPage5,
 } from '../../../utils/guillaume/movies';
 import { williamMovies } from '../../../utils/william/movies';
+import { Params } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-select-movies',
@@ -34,6 +36,7 @@ import { williamMovies } from '../../../utils/william/movies';
   styleUrls: ['./select-movies.component.scss'],
 })
 export class SelectMoviesComponent {
+  activatedRoute = inject(ActivatedRoute);
   // Tous les films de tous les utilisateurs
   allMovies = signal<Movie[]>([
     // Guillaume
@@ -62,6 +65,14 @@ export class SelectMoviesComponent {
     ...williamMovies,
     // Kevin - à ajouter quand disponible
   ]);
+
+  username = computed<string>(() => {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? params['id'].charAt(0).toUpperCase() + params['id'].slice(1)
+      : 'guillaume';
+  });
 
   // Films sélectionnés
   selectedMovies = signal<Set<string>>(new Set());
