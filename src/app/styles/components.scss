@@ -1,0 +1,198 @@
+// Styles de base pour les cartes de composants
+@mixin component-card-base {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+// Styles de base pour les couvertures
+@mixin component-cover-base {
+  flex-shrink: 0;
+  width: 120px;
+  height: 180px;
+  overflow: hidden;
+}
+
+// Styles de base pour les images de couverture
+@mixin component-cover-image-base {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+// Styles de base pour les informations
+@mixin component-info-base {
+  padding: 16px 16px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+// Styles de base pour les titres
+@mixin component-title-base {
+  margin: 0 0 8px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2c3e50;
+  line-height: 1.3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+// Styles de base pour les auteurs/réalisateurs
+@mixin component-author-base {
+  margin: 0 0 8px 0;
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+// Styles de base pour les informations secondaires (acteurs, pages, etc.)
+@mixin component-secondary-info-base {
+  margin: 0 0 8px 0;
+  font-size: 0.85rem;
+  color: #95a5a6;
+}
+
+// Styles de base pour les informations spéciales (saisons, épisodes, etc.)
+@mixin component-special-info-base {
+  margin: 0 0 4px 0;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+// Styles de base pour les dates
+@mixin component-date-base {
+  margin: 0 0 4px 0;
+  font-size: 0.85rem;
+  color: #95a5a6;
+}
+
+// Styles de base pour les re-visionnages/relectures
+@mixin component-times-base {
+  margin: 0 0 8px 0;
+  font-size: 0.85rem;
+  color: #e74c3c;
+  font-weight: 500;
+}
+
+// Styles de base pour les notes
+@mixin component-rating-base {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+// Styles de base pour les étoiles
+@mixin component-stars-base {
+  display: flex;
+  gap: 2px;
+}
+
+// Styles de base pour une étoile
+@mixin component-star-base {
+  font-size: 1rem;
+  position: relative;
+  width: 1em;
+  height: 1em;
+
+  &.star-full::before {
+    content: '★';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #f39c12;
+  }
+
+  &.star-empty::before {
+    content: '☆';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #bdc3c7;
+  }
+
+  &.star-half::before {
+    content: '☆';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #bdc3c7;
+  }
+
+  &.star-half::after {
+    content: '★';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #f39c12;
+    overflow: hidden;
+    clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+  }
+}
+
+// Styles de base pour le texte de note
+@mixin component-rating-text-base {
+  font-size: 0.85rem;
+  color: #7f8c8d;
+  font-weight: 500;
+}
+
+// Styles de base pour les genres
+@mixin component-genre-base {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #3498db;
+  background: #ecf0f1;
+  padding: 4px 8px;
+  border-radius: 12px;
+  display: inline-block;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+// Mixin pour réinitialiser les marges des paragraphes
+@mixin component-reset-paragraphs {
+  p {
+    margin: 0 !important;
+  }
+}
+
+.app-dropdown {
+  padding: 8px 12px;
+  border: 2px solid #ecf0f1;
+  border-radius: 8px;
+  background-color: white;
+  color: #2c3e50;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 180px;
+}
+
+.app-dropdown:hover {
+  border-color: #bdc3c7;
+}
+
+.app-dropdown:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+.app-dropdown option {
+  padding: 8px;
+  background-color: white;
+  color: #2c3e50;
+}

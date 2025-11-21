@@ -1,0 +1,41 @@
+.sort-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.sort-container label {
+  color: #34495e;
+  font-size: 1rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.sort-dropdown {
+  padding: 8px 12px;
+  border: 2px solid #ecf0f1;
+  border-radius: 8px;
+  background-color: white;
+  color: #2c3e50;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 180px;
+}
+
+.sort-dropdown:hover {
+  border-color: #bdc3c7;
+}
+
+.sort-dropdown:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+.sort-dropdown option {
+  padding: 8px;
+  background-color: white;
+  color: #2c3e50;
+}

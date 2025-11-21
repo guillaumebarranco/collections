@@ -1,0 +1,56 @@
+<app-menu></app-menu>
+
+<div class="select-movies-container">
+  <div class="header">
+    <h1>Sélectionner des films</h1>
+    <p class="subtitle">
+      Cliquez sur les affiches pour sélectionner vos films préférés
+    </p>
+  </div>
+
+  <div class="toolbar">
+    <div class="selection-info">
+      <span class="count">{{ selectedCount() }} film(s) sélectionné(s)</span>
+      <span class="total">sur {{ allMovies().length }}</span>
+    </div>
+
+    <div class="actions">
+      <button class="btn btn-secondary" (click)="selectAll()">
+        Tout sélectionner
+      </button>
+      <button class="btn btn-secondary" (click)="deselectAll()">
+        Tout désélectionner
+      </button>
+      <button
+        class="btn btn-primary"
+        (click)="exportSelectedMovies()"
+        [disabled]="selectedCount() === 0"
+      >
+        📥 Exporter ma liste de films ({{ selectedCount() }})
+      </button>
+    </div>
+  </div>
+
+  <div class="movies-grid">
+    @for (movie of allMovies(); track `${movie.title}-${movie.releaseDate}`) {
+    <div
+      class="movie-poster"
+      [class.selected]="isSelected(movie)"
+      (click)="toggleSelection(movie)"
+      [title]="movie.title + ' (' + movie.releaseDate.substring(0, 4) + ')'"
+    >
+      <img [src]="movie.coverUrl" [alt]="movie.title" />
+      <div class="overlay">
+        <div class="checkmark">✓</div>
+        <div class="movie-info">
+          <span class="movie-title">{{ movie.title }}</span>
+          <span class="movie-year"
+            >({{ movie.releaseDate.substring(0, 4) }})</span
+          >
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>
+

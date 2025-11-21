@@ -1,0 +1,56 @@
+<app-menu></app-menu>
+
+<div class="select-series-container">
+  <div class="header">
+    <h1>Sélectionner des séries</h1>
+    <p class="subtitle">
+      Cliquez sur les affiches pour sélectionner vos séries préférées
+    </p>
+  </div>
+
+  <div class="toolbar">
+    <div class="selection-info">
+      <span class="count">{{ selectedCount() }} série(s) sélectionnée(s)</span>
+      <span class="total">sur {{ allSeries().length }}</span>
+    </div>
+
+    <div class="actions">
+      <button class="btn btn-secondary" (click)="selectAll()">
+        Tout sélectionner
+      </button>
+      <button class="btn btn-secondary" (click)="deselectAll()">
+        Tout désélectionner
+      </button>
+      <button
+        class="btn btn-primary"
+        (click)="exportSelectedSeries()"
+        [disabled]="selectedCount() === 0"
+      >
+        📥 Exporter ma liste de séries ({{ selectedCount() }})
+      </button>
+    </div>
+  </div>
+
+  <div class="series-grid">
+    @for (serie of allSeries(); track `${serie.title}-${serie.releaseDate}`) {
+    <div
+      class="serie-poster"
+      [class.selected]="isSelected(serie)"
+      (click)="toggleSelection(serie)"
+      [title]="serie.title + ' (' + serie.releaseDate.substring(0, 4) + ')'"
+    >
+      <img [src]="serie.coverUrl" [alt]="serie.title" />
+      <div class="overlay">
+        <div class="checkmark">✓</div>
+        <div class="serie-info">
+          <span class="serie-title">{{ serie.title }}</span>
+          <span class="serie-year"
+            >({{ serie.releaseDate.substring(0, 4) }})</span
+          >
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>
+

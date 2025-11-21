@@ -1,0 +1,54 @@
+<app-menu></app-menu>
+
+<div class="select-manwhas-container">
+  <div class="header">
+    <h1>Sélectionner des manwhas</h1>
+    <p class="subtitle">
+      Cliquez sur les couvertures pour sélectionner vos manwhas préférés
+    </p>
+  </div>
+
+  <div class="toolbar">
+    <div class="selection-info">
+      <span class="count">{{ selectedCount() }} manwha(s) sélectionné(s)</span>
+      <span class="total">sur {{ allManwhas().length }}</span>
+    </div>
+
+    <div class="actions">
+      <button class="btn btn-secondary" (click)="selectAll()">
+        Tout sélectionner
+      </button>
+      <button class="btn btn-secondary" (click)="deselectAll()">
+        Tout désélectionner
+      </button>
+      <button
+        class="btn btn-primary"
+        (click)="exportSelectedManwhas()"
+        [disabled]="selectedCount() === 0"
+      >
+        📥 Exporter ma liste de manwhas ({{ selectedCount() }})
+      </button>
+    </div>
+  </div>
+
+  <div class="manwhas-grid">
+    @for (manwha of allManwhas(); track `${manwha.title}-${manwha.author}`) {
+    <div
+      class="manwha-cover"
+      [class.selected]="isSelected(manwha)"
+      (click)="toggleSelection(manwha)"
+      [title]="manwha.title + ' - ' + manwha.author"
+    >
+      <img [src]="manwha.coverUrl" [alt]="manwha.title" />
+      <div class="overlay">
+        <div class="checkmark">✓</div>
+        <div class="manwha-info">
+          <span class="manwha-title">{{ manwha.title }}</span>
+          <span class="manwha-author">{{ manwha.author }}</span>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>
+

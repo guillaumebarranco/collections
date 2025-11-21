@@ -1,0 +1,41 @@
+<app-menu></app-menu>
+
+<div class="series-container">
+  <h1>Séries visionnées ({{ allSeries().length }})</h1>
+
+  @if(allSeries().length === 0) {
+  <div class="empty-state">
+    <p class="empty-message">Vous n'avez aucune série dans votre collection.</p>
+    <p class="empty-subtitle">
+      Commencez dès maintenant à créer votre sériethèque personnelle !
+    </p>
+    <button class="btn btn-primary" [routerLink]="getSelectSeriesRoute()">
+      Sélectionner mes séries
+    </button>
+  </div>
+  }
+
+  <div class="series-header">
+    <app-stats-display
+      [stats]="stats()"
+      [count]="allSeries().length"
+      countLabel="séries"
+    >
+    </app-stats-display>
+
+    <app-sort-dropdown
+      [sortOptions]="sortOptions()"
+      [selectedSort]="selectedSort()"
+      (sortChange)="onSortChange($event)"
+    >
+    </app-sort-dropdown>
+  </div>
+
+  <div class="series">
+    @for (serie of sortedSeries(); track serie.title) {
+    <div class="serie-card">
+      <app-serie [serie]="serie"></app-serie>
+    </div>
+    }
+  </div>
+</div>

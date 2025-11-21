@@ -1,0 +1,37 @@
+@if (isOpen() && album()) {
+  <div class="modal-overlay" (click)="onOverlayClick()">
+    <div class="modal-content" (click)="onModalContentClick($event)">
+      <div class="modal-header">
+        <div class="modal-header-info">
+          <img [src]="album()!.coverUrl || '/musics_pictures/default.jpg'"
+               [alt]="album()!.name"
+               class="modal-cover" />
+          <div class="modal-title-info">
+            <h2>{{ album()!.name }}</h2>
+            <p class="modal-artist">{{ album()!.artist }}</p>
+            <p class="modal-stats">
+              {{ album()!.musics.length }} titres • {{ formatAlbumDuration(album()!.totalDuration) }}
+            </p>
+          </div>
+        </div>
+        <button class="modal-close" (click)="onOverlayClick()">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="tracklist">
+          @for (music of album()!.musics; track music.title; let i = $index) {
+            <div class="track-item">
+              <span class="track-number">{{ i + 1 }}</span>
+              <div class="track-info">
+                <span class="track-title">{{ music.title }}</span>
+                <span class="track-duration">{{ formatDuration(music.duration) }}</span>
+              </div>
+              <span class="track-listens">🎧 {{ music.timesListened }}</span>
+            </div>
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+}
+

@@ -1,0 +1,131 @@
+<app-menu></app-menu>
+
+<div class="dashboard-container">
+  <h1>Tableau de bord</h1>
+
+  <div class="dashboard-sections">
+    <!-- Statistiques générales -->
+    <div class="dashboard-section">
+      <h2>📊 Vue d'ensemble</h2>
+      <app-stats-display [stats]="stats()" [count]="0" countLabel="">
+      </app-stats-display>
+    </div>
+
+    <!-- Top 5 -->
+    <div class="dashboard-section">
+      <h2>🏆 Top 5</h2>
+
+      <div class="top5-grid">
+        <!-- Top 5 Livres -->
+        <div class="top5-category">
+          <h3>📖 Livres les plus lus</h3>
+          <div class="top5-list">
+            @for (book of topBooks(); track book.title; let i = $index) {
+            <div class="top5-item">
+              <span class="rank">#{{ i + 1 }}</span>
+              <span class="title">{{ book.title }}</span>
+              <span class="count"
+                >{{ book.readTimes }}x ({{ book.formattedReadingTime }})</span
+              >
+            </div>
+            } @if (topBooks().length === 0) {
+            <div class="no-data">Aucun livre relu</div>
+            }
+          </div>
+        </div>
+
+        <!-- Top 5 Mangas -->
+        <div class="top5-category">
+          <h3>📚 Mangas les plus lus</h3>
+          <div class="top5-list">
+            @for (manga of topMangas(); track manga.title; let i = $index) {
+            <div class="top5-item">
+              <span class="rank">#{{ i + 1 }}</span>
+              <span class="title">{{ manga.title }}</span>
+              <span class="count"
+                >{{ manga.readTimes }}x ({{ manga.formattedReadingTime }})</span
+              >
+            </div>
+            } @if (topMangas().length === 0) {
+            <div class="no-data">Aucun manga relu</div>
+            }
+          </div>
+        </div>
+
+        <!-- Top 5 Films -->
+        <div class="top5-category">
+          <h3>🎬 Films les plus vus</h3>
+          <div class="top5-list">
+            @for (movie of topMovies(); track movie.title; let i = $index) {
+            <div class="top5-item">
+              <span class="rank">#{{ i + 1 }}</span>
+              <span class="title">{{ movie.title }}</span>
+              <span class="count"
+                >{{ movie.timesWatched }}x ({{
+                  movie.formattedWatchingTime
+                }})</span
+              >
+            </div>
+            } @if (topMovies().length === 0) {
+            <div class="no-data">Aucun film revu</div>
+            }
+          </div>
+        </div>
+
+        <!-- Top 5 Séries -->
+        <div class="top5-category">
+          <h3>📺 Séries les plus vues</h3>
+          <div class="top5-list">
+            @for (serie of topSeries(); track serie.title; let i = $index) {
+            <div class="top5-item">
+              <span class="rank">#{{ i + 1 }}</span>
+              <span class="title">{{ serie.title }}</span>
+              <span class="count"
+                >{{ serie.timesWatched }}x ({{
+                  serie.formattedWatchingTime
+                }})</span
+              >
+            </div>
+            } @if (topSeries().length === 0) {
+            <div class="no-data">Aucune série revue</div>
+            }
+          </div>
+        </div>
+
+        <!-- Top 5 Jeux -->
+        <div class="top5-category">
+          <h3>🎮 Jeux avec le plus de temps passé</h3>
+          <div class="top5-list">
+            @for (game of topGames(); track game.title; let i = $index) {
+            <div class="top5-item">
+              <span class="rank">#{{ i + 1 }}</span>
+              <span class="title">{{ game.title }}</span>
+              <span class="count">{{ game.formattedPlayedTime }}</span>
+            </div>
+            } @if (topGames().length === 0) {
+            <div class="no-data">Aucun jeu avec du temps passé</div>
+            }
+          </div>
+        </div>
+
+        <!-- Top 5 Musiques -->
+        <div class="top5-category">
+          <h3>🎵 Musiques les plus écoutées</h3>
+          <div class="top5-list">
+            @for (music of topMusics(); track music.title; let i = $index) {
+            <div class="top5-item">
+              <span class="rank">#{{ i + 1 }}</span>
+              <span class="title">{{ music.title }} - {{ music.artist }}</span>
+              <span class="count"
+                >{{ music.timesListened }}x ({{ music.formattedListeningTime }})</span
+              >
+            </div>
+            } @if (topMusics().length === 0) {
+            <div class="no-data">Aucune musique écoutée</div>
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

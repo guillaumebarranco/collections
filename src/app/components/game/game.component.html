@@ -1,0 +1,24 @@
+<div class="game-card">
+  <div class="game-cover">
+    <img [src]="game.coverUrl" [alt]="game.title" class="cover-image">
+  </div>
+  <div class="game-info">
+    <h3 class="game-title">{{ game.title }}</h3>
+    <p class="game-editor">{{ game.editor }}</p>
+    <p class="game-platform">Plateforme: {{ game.platform }}</p>
+    <p class="game-saga">Saga: {{ game.saga }}</p>
+    <p class="game-release">Sortie: {{ game.releaseDate | date:'dd/MM/yyyy' }}</p>
+    <p class="game-time">Temps passé: {{ game.averageTimeToFinish * game.timesFinished + game.additionnalEstimatedTime
+      }}h</p>
+    <p class="game-finished">Terminé {{ game.timesFinished }} fois</p>
+
+    <div class="game-rating">
+      <span class="stars">
+        <span *ngFor="let star of getRatingStars(game.rating || 0)" [class]="'star star-' + star.type">
+          {{ star.type === 'full' ? '★' : star.type === 'half' ? '☆' : '☆' }}
+        </span>
+      </span>
+      <span class="rating-text">{{ game.rating }}/5</span>
+    </div>
+  </div>
+</div>

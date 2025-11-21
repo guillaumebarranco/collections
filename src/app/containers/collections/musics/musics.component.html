@@ -1,0 +1,130 @@
+<app-menu></app-menu>
+
+<div class="musics-container">
+  <h1>Musiques écoutées ({{ allMusics().length }})</h1>
+
+  @if(allMusics().length === 0) {
+  <div class="empty-state">
+    <p class="empty-message">
+      Vous n'avez aucune musique dans votre collection.
+    </p>
+    <p class="empty-subtitle">
+      Commencez dès maintenant à créer votre playlist personnelle !
+    </p>
+    <button class="btn btn-primary" [routerLink]="getSelectMusicsRoute()">
+      Sélectionner mes musiques
+    </button>
+  </div>
+  }
+
+  <div class="musics-header">
+    <app-stats-display
+      [stats]="stats()"
+      [count]="allMusics().length"
+      countLabel="musiques"
+    >
+    </app-stats-display>
+
+    <div class="musics-filters">
+      <div class="musics-filters-item">
+        <p>Vue :</p>
+        <select
+          class="app-dropdown"
+          [(ngModel)]="selectedViewMode"
+          (change)="onViewModeChange($any($event.target).value)"
+          style="margin-bottom: 8px"
+        >
+          <option *ngFor="let option of viewModeOptions" [value]="option.value">
+            {{ option.label }}
+          </option>
+        </select>
+      </div>
+
+      <div class="musics-filters-item">
+        <p>Filtrer :</p>
+        <select
+          class="app-dropdown"
+          [(ngModel)]="selectedFilter"
+          (change)="onFilterChange($any($event.target).value)"
+          style="margin-bottom: 8px"
+        >
+          <option *ngFor="let option of filterOptions" [value]="option.value">
+            {{ option.label }}
+          </option>
+        </select>
+      </div>
+
+      <app-sort-dropdown
+        [sortOptions]="sortOptions"
+        [selectedSort]="selectedSort()"
+        (sortChange)="onSortChange($event)"
+      >
+      </app-sort-dropdown>
+    </div>
+  </div>
+
+  <p>Résultats affichés: {{ filteredMusics().length }}</p>
+
+  @if (selectedFilter() === 'popular' && filteredMusics().length === 0) {
+  <p class="empty-message">Aucune chanson n'a été écoutée plus de 10 fois.</p>
+  } @if (selectedViewMode() === 'albums') {
+  <!-- Vue par Albums -->
+  @if (completeAlbums().length > 0) {
+  <div class="section">
+    <h2 class="section-title">
+      💿 Albums complets ({{ completeAlbums().length }})
+    </h2>
+    <div class="albums-grid">
+      @for (album of completeAlbums(); track `${album.name}-${album.artist}`) {
+      <div class="album-card" (click)="openAlbumModal(album)">
+        <div class="album-cover">
+          <img
+            [src]="album.coverUrl || '/musics_pictures/default.jpg'"
+            [alt]="album.name"
+          />
+          <div class="album-overlay">
+            <span class="album-count">{{ album.musics.length }} titres</span>
+          </div>
+        </div>
+        <div class="album-info">
+          <h3 class="album-name">{{ album.name }}</h3>
+          <p class="album-artist">{{ album.artist }}</p>
+          <p class="album-duration">
+            {{ formatAlbumDuration(album.totalDuration) }}
+          </p>
+        </div>
+      </div>
+      }
+    </div>
+  </div>
+  } @if (sortedStandaloneMusics().length > 0) {
+  <div class="section">
+    <h2 class="section-title">
+      🎵 Musiques ({{ sortedStandaloneMusics().length }})
+    </h2>
+    <div class="musics">
+      @for (music of sortedStandaloneMusics(); track
+      `${music.title}-${music.artist}`) {
+      <div class="music-card">
+        <app-music [music]="music"></app-music>
+      </div>
+      }
+    </div>
+  </div>
+  } } @else {
+  <!-- Vue toutes les musiques -->
+  <div class="musics">
+    @for (music of sortedMusics(); track `${music.title}-${music.artist}`) {
+    <div class="music-card">
+      <app-music [music]="music"></app-music>
+    </div>
+    }
+  </div>
+  }
+</div>
+
+<app-album-modal
+  [album]="selectedAlbum()"
+  [isOpen]="isAlbumModalOpen()"
+  (close)="closeAlbumModal()"
+></app-album-modal>

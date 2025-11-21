@@ -1,0 +1,45 @@
+// Import des styles partagés pour les containers
+@use './app/styles/containers.scss';
+@use './app/styles/components.scss';
+
+$dark_blue: #25645d;
+
+@font-face {
+  font-family: "SF Cosmic Age";
+  src: url("/SFCosmicAge.otf");
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+  color: #bbb;
+  font-family: "Open Sans", sans-serif;
+  font-size: em(14);
+}
+
+p {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+a {
+  color: #3bc1ee;
+  line-height: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  color: $dark_blue;
+  font-family: "Oswald", sans-serif;
+}
+
+ul li {
+  list-style: none;
+  font-size: 14px;
+}

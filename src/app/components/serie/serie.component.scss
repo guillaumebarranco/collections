@@ -1,0 +1,80 @@
+@use '../../styles/components.scss' as components;
+
+.serie-card {
+  @include components.component-card-base;
+}
+
+p {
+  margin: 0 !important;
+}
+
+.serie-cover {
+  @include components.component-cover-base;
+}
+
+.cover-image {
+  @include components.component-cover-image-base;
+}
+
+.serie-info {
+  @include components.component-info-base;
+}
+
+.serie-title {
+  @include components.component-title-base;
+}
+
+.serie-director {
+  @include components.component-author-base;
+}
+
+.serie-actors {
+  @include components.component-secondary-info-base;
+}
+
+.serie-seasons {
+  @include components.component-special-info-base;
+  color: #3498db;
+}
+
+.serie-episodes {
+  @include components.component-special-info-base;
+  color: #e74c3c;
+}
+
+.serie-length {
+  @include components.component-secondary-info-base;
+}
+
+.serie-release-date {
+  @include components.component-date-base;
+}
+
+.serie-end-date {
+  @include components.component-special-info-base;
+  color: #27ae60;
+}
+
+.serie-times-watched {
+  @include components.component-times-base;
+}
+
+.serie-rating {
+  @include components.component-rating-base;
+}
+
+.stars {
+  @include components.component-stars-base;
+}
+
+.star {
+  @include components.component-star-base;
+}
+
+.rating-text {
+  @include components.component-rating-text-base;
+}
+
+.serie-genre {
+  @include components.component-genre-base;
+}

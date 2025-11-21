@@ -1,0 +1,9 @@
+<div class="stats-container">
+  @for (stat of stats; track stat.label) {
+  <div class="stat-item" [ngClass]="'stat-' + stat.color">
+    <span>{{ stat.icon }} {{ stat.label }} :</span>
+    <strong>{{ stat.value }}</strong>
+  </div>
+  }
+
+</div>

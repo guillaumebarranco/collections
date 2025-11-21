@@ -1,0 +1,42 @@
+<app-menu></app-menu>
+
+<div class="movies-container">
+  <h1>Films visionnés ({{ allMovies().length }})</h1>
+
+  @if(allMovies().length === 0) {
+  <div class="empty-state">
+    <p class="empty-message">Vous n'avez aucun film dans votre collection.</p>
+    <p class="empty-subtitle">
+      Commencez dès maintenant à créer votre cinémathèque personnelle !
+    </p>
+    <button class="btn btn-primary" [routerLink]="getSelectMoviesRoute()">
+      Sélectionner mes films
+    </button>
+  </div>
+  }
+
+  <div class="movies-header">
+    <app-stats-display
+      [stats]="stats()"
+      [count]="allMovies().length"
+      countLabel="films"
+    >
+    </app-stats-display>
+
+    <app-sort-dropdown
+      [sortOptions]="sortOptions"
+      [selectedSort]="selectedSort()"
+      (sortChange)="onSortChange($event)"
+    >
+    </app-sort-dropdown>
+  </div>
+
+  <div class="movies">
+    @for (movie of sortedMovies(); track `${movie.title}-${movie.releaseDate}`)
+    {
+    <div class="movie-card">
+      <app-movie [movie]="movie"></app-movie>
+    </div>
+    }
+  </div>
+</div>

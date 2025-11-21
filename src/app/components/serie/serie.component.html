@@ -1,0 +1,38 @@
+<div class="serie-card">
+  <div class="serie-cover">
+    <img [src]="serie.coverUrl" [alt]="serie.title" class="cover-image">
+  </div>
+  <div class="serie-info">
+    <h3 class="serie-title">{{ serie.title }}</h3>
+    <p class="serie-director">Créé par {{ serie.director }}</p>
+    @if (serie.actors && serie.actors.length > 0) {
+    <p class="serie-actors">Avec {{ serie.actors[0].name }}{{ serie.actors.length > 1 ? ', ' + serie.actors[1].name : ''
+      }}</p>
+    }
+    @if (serie.nbSeasons > 0) {
+    <p class="serie-seasons">{{ serie.nbSeasons }} saison{{ serie.nbSeasons > 1 ? 's' : '' }}</p>
+    }
+    @if (serie.nbEpisodesTotal > 0) {
+    <p class="serie-episodes">{{ serie.nbEpisodesTotal }} épisode{{ serie.nbEpisodesTotal > 1 ? 's' : '' }}</p>
+    }
+    @if (serie.totalLength > 0) {
+    <p class="serie-length">{{ serie.totalLength }} min</p>
+    }
+    <p class="serie-release-date">{{ serie.releaseDate | date:'yyyy' }}</p>
+    @if (serie.endDate) {
+    <p class="serie-end-date">Terminé en {{ serie.endDate | date:'yyyy' }}</p>
+    }
+    @if (serie.timesWatched > 1) {
+    <p class="serie-times-watched">Visionné environ {{ serie.timesWatched }} fois</p>
+    }
+    @if (serie.timesWatched === 1) {
+    <p class="serie-times-watched">Visionné {{ serie.timesWatched }} fois</p>
+    }
+    <div class="serie-rating">
+      <span class="stars">
+        <span *ngFor="let star of getRatingStars(serie.rating || 0)" [class]="'star star-' + star.type"></span>
+      </span>
+      <span class="rating-text">{{ serie.rating }}/5</span>
+    </div>
+  </div>
+</div>

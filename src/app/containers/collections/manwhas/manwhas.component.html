@@ -1,0 +1,41 @@
+<app-menu></app-menu>
+
+<div class="manwhas-container">
+  <h1>Manwhas lus ({{ allManwhas().length }})</h1>
+
+  @if(allManwhas().length === 0) {
+  <div class="empty-state">
+    <p class="empty-message">Vous n'avez aucun manwha dans votre collection.</p>
+    <p class="empty-subtitle">
+      Commencez dès maintenant à créer votre manhwathèque personnelle !
+    </p>
+    <button class="btn btn-primary" [routerLink]="getSelectManwhasRoute()">
+      Sélectionner mes manwhas
+    </button>
+  </div>
+  }
+
+  <div class="manwhas-header">
+    <app-stats-display
+      [stats]="stats()"
+      [count]="allManwhas().length"
+      countLabel="manwhas"
+    >
+    </app-stats-display>
+
+    <app-sort-dropdown
+      [sortOptions]="sortOptions()"
+      [selectedSort]="selectedSort()"
+      (sortChange)="onSortChange($event)"
+    >
+    </app-sort-dropdown>
+  </div>
+
+  <div class="manwhas">
+    @for (manwha of sortedManwhas(); track manwha.title) {
+    <div class="manwha-card">
+      <app-book [book]="manwha"></app-book>
+    </div>
+    }
+  </div>
+</div>

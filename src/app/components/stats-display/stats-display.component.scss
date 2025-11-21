@@ -1,0 +1,97 @@
+.stats-container {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.stat-item {
+  color: #fffbe6;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.stat-item strong {
+  margin-left: 6px;
+  font-size: 1.15em;
+}
+
+.stat-primary {
+  background: #7f53ac;
+  box-shadow: 0 2px 8px rgba(127, 83, 172, 0.08);
+}
+
+.stat-primary strong {
+  color: #ffe082;
+}
+
+.stat-secondary {
+  background: #6c757d;
+  box-shadow: 0 2px 8px rgba(108, 117, 125, 0.08);
+}
+
+.stat-secondary strong {
+  color: #dee2e6;
+}
+
+.stat-success {
+  background: #4caf50;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.08);
+}
+
+.stat-success strong {
+  color: #c8e6c9;
+}
+
+.stat-warning {
+  background: #ff9800;
+  box-shadow: 0 2px 8px rgba(255, 152, 0, 0.08);
+}
+
+.stat-warning strong {
+  color: #ffe0b2;
+}
+
+.stat-info {
+  background: #2196f3;
+  box-shadow: 0 2px 8px rgba(33, 150, 243, 0.08);
+}
+
+.stat-info strong {
+  color: #bbdefb;
+}
+
+.stat-danger {
+  background: #dc3545;
+  box-shadow: 0 2px 8px rgba(220, 53, 69, 0.15);
+}
+
+.stat-danger strong {
+  color: #ffcdd2;
+}
+
+.stats-count {
+  color: #6c757d;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-left: auto;
+}
+
+// Responsive
+@media (max-width: 768px) {
+  .stats-container {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .stats-count {
+    margin-left: 0;
+  }
+}

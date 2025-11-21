@@ -1,0 +1,71 @@
+@use '../../../styles/containers.scss' as containers;
+
+.mangas-container {
+  @include containers.container-base;
+
+  .empty-state {
+    @include containers.empty-state-base;
+  }
+
+  .btn-primary {
+    @include containers.btn-primary-base;
+  }
+}
+
+.mangas-header {
+  @include containers.header-base;
+}
+
+.mangas-count {
+  @include containers.count;
+}
+
+.mangas-tomes {
+  color: #fffbe6;
+  background: #7f53ac;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-right: 18px;
+  box-shadow: 0 2px 8px rgba(127, 83, 172, 0.08);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.mangas-tomes strong {
+  color: #ffe082;
+  margin-left: 6px;
+  font-size: 1.15em;
+}
+
+.mangas {
+  @include containers.grid-base;
+}
+
+.manga-card {
+  @include containers.card-base;
+}
+
+// Responsive
+@include containers.responsive-base {
+  .mangas-container {
+    padding: 15px;
+
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+  .mangas-header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .mangas {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+  }
+}

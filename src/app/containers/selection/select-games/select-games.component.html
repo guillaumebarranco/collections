@@ -1,0 +1,56 @@
+<app-menu></app-menu>
+
+<div class="select-games-container">
+  <div class="header">
+    <h1>Sélectionner des jeux</h1>
+    <p class="subtitle">
+      Cliquez sur les jaquettes pour sélectionner vos jeux préférés
+    </p>
+  </div>
+
+  <div class="toolbar">
+    <div class="selection-info">
+      <span class="count">{{ selectedCount() }} jeu(x) sélectionné(s)</span>
+      <span class="total">sur {{ allGames().length }}</span>
+    </div>
+
+    <div class="actions">
+      <button class="btn btn-secondary" (click)="selectAll()">
+        Tout sélectionner
+      </button>
+      <button class="btn btn-secondary" (click)="deselectAll()">
+        Tout désélectionner
+      </button>
+      <button
+        class="btn btn-primary"
+        (click)="exportSelectedGames()"
+        [disabled]="selectedCount() === 0"
+      >
+        📥 Exporter ma liste de jeux ({{ selectedCount() }})
+      </button>
+    </div>
+  </div>
+
+  <div class="games-grid">
+    @for (game of allGames(); track `${game.title}-${game.releaseDate}`) {
+    <div
+      class="game-cover"
+      [class.selected]="isSelected(game)"
+      (click)="toggleSelection(game)"
+      [title]="game.title + ' (' + game.releaseDate.substring(0, 4) + ')'"
+    >
+      <img [src]="game.coverUrl" [alt]="game.title" />
+      <div class="overlay">
+        <div class="checkmark">✓</div>
+        <div class="game-info">
+          <span class="game-title">{{ game.title }}</span>
+          <span class="game-year"
+            >({{ game.releaseDate.substring(0, 4) }})</span
+          >
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>
+

@@ -1,0 +1,93 @@
+<app-menu></app-menu>
+
+<div class="books-container">
+  <h1>Livres lus ({{ allBooks().length }})</h1>
+
+  @if(allBooks().length === 0) {
+  <div class="empty-state">
+    <p class="empty-message">Vous n'avez aucun livre dans votre collection.</p>
+    <p class="empty-subtitle">
+      Commencez dès maintenant à créer votre bibliothèque personnelle !
+    </p>
+    <button class="btn btn-primary" [routerLink]="getSelectBooksRoute()">
+      Sélectionner mes livres
+    </button>
+  </div>
+  }
+
+  <div class="books-header">
+    <app-stats-display
+      [stats]="stats()"
+      [count]="allBooks().length"
+      countLabel="livres"
+    >
+    </app-stats-display>
+
+    <div class="books-filters">
+      <div class="books-filters-item">
+        <p>Grouper par :</p>
+        <select
+          class="app-dropdown"
+          [(ngModel)]="selectedGroupBy"
+          (change)="onGroupByChange($any($event.target).value)"
+          style="margin-bottom: 8px"
+        >
+          <option *ngFor="let option of groupByOptions" [value]="option.value">
+            {{ option.label }}
+          </option>
+        </select>
+      </div>
+
+      <!-- Dropdown de filtre d'années -->
+      <div class="books-filters-item">
+        <p>Filtrer par année :</p>
+        <select
+          class="app-dropdown"
+          [(ngModel)]="selectedYearFilter"
+          (change)="onYearFilterChange($any($event.target).value)"
+          style="margin-bottom: 8px"
+        >
+          <option
+            *ngFor="let option of yearFilterOptions"
+            [value]="option.value"
+          >
+            {{ option.label }}
+          </option>
+        </select>
+      </div>
+
+      <app-sort-dropdown
+        [sortOptions]="sortOptions"
+        [selectedSort]="selectedSort()"
+        (sortChange)="onSortChange($event)"
+      >
+      </app-sort-dropdown>
+    </div>
+  </div>
+
+  @if(selectedYearFilter() !== 'all') {
+  <p>Résultats affichés: {{ sortedBooks().length }}</p>
+  } @if(groupedBooks()) { Groupement activé, le tri ne sera pas pris en compte.
+  } @if (groupedBooks()) {
+  <div class="books-groups">
+    @for (group of groupedBooks(); track group.key) {
+    <h2>{{ group.key }} ({{ group.books.length }})</h2>
+    <div class="books">
+      @for (book of group.books; track book.title) {
+      <div class="book-card">
+        <app-book [book]="book"></app-book>
+      </div>
+      }
+    </div>
+    }
+  </div>
+  } @else {
+  <div class="books">
+    @for (book of sortedBooks(); track book.title) {
+    <div class="book-card">
+      <app-book [book]="book"></app-book>
+    </div>
+    }
+  </div>
+  }
+</div>

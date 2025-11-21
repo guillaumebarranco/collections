@@ -1,0 +1,41 @@
+<app-menu></app-menu>
+
+<div class="mangas-container">
+  <h1>Mangas lus ({{ allMangas().length }})</h1>
+
+  @if(allMangas().length === 0) {
+  <div class="empty-state">
+    <p class="empty-message">Vous n'avez aucun manga dans votre collection.</p>
+    <p class="empty-subtitle">
+      Commencez dès maintenant à créer votre mangathèque personnelle !
+    </p>
+    <button class="btn btn-primary" [routerLink]="getSelectMangasRoute()">
+      Sélectionner mes mangas
+    </button>
+  </div>
+  }
+
+  <div class="mangas-header">
+    <app-stats-display
+      [stats]="stats()"
+      [count]="allMangas().length"
+      countLabel="mangas"
+    >
+    </app-stats-display>
+
+    <app-sort-dropdown
+      [sortOptions]="sortOptions()"
+      [selectedSort]="selectedSort()"
+      (sortChange)="onSortChange($event)"
+    >
+    </app-sort-dropdown>
+  </div>
+
+  <div class="mangas">
+    @for (manga of sortedMangas(); track manga.title) {
+    <div class="manga-card">
+      <app-book [book]="manga"></app-book>
+    </div>
+    }
+  </div>
+</div>

@@ -1,0 +1,51 @@
+@use '../../../styles/containers.scss' as containers;
+
+.games-container {
+  @include containers.container-base;
+
+  .empty-state {
+    @include containers.empty-state-base;
+  }
+
+  .btn-primary {
+    @include containers.btn-primary-base;
+  }
+}
+
+.games-header {
+  @include containers.header-base;
+}
+
+.games-count {
+  @include containers.count;
+}
+
+.games {
+  @include containers.grid-base;
+}
+
+.game-card {
+  @include containers.card-base;
+}
+
+// Responsive
+@include containers.responsive-base {
+  .games-container {
+    padding: 15px;
+
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+  .games-header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .games {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+  }
+}

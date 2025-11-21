@@ -1,0 +1,41 @@
+<app-menu></app-menu>
+
+<div class="games-container">
+  <h1>🎮 Jeux vidéo ({{ allGames().length }})</h1>
+
+  @if(allGames().length === 0) {
+  <div class="empty-state">
+    <p class="empty-message">Vous n'avez aucun jeu dans votre collection.</p>
+    <p class="empty-subtitle">
+      Commencez dès maintenant à créer votre ludothèque personnelle !
+    </p>
+    <button class="btn btn-primary" [routerLink]="getSelectGamesRoute()">
+      Sélectionner mes jeux
+    </button>
+  </div>
+  }
+
+  <div class="games-header">
+    <app-stats-display
+      [stats]="stats()"
+      [count]="allGames().length"
+      countLabel="jeux"
+    >
+    </app-stats-display>
+
+    <app-sort-dropdown
+      [sortOptions]="sortOptions()"
+      [selectedSort]="selectedSort()"
+      (sortChange)="onSortChange($event)"
+    >
+    </app-sort-dropdown>
+  </div>
+
+  <div class="games">
+    @for (game of sortedGames(); track game.title) {
+    <div class="game-card">
+      <app-game [game]="game"></app-game>
+    </div>
+    }
+  </div>
+</div>

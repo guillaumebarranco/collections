@@ -1,0 +1,65 @@
+@use '../../styles/components.scss' as components;
+
+.movie-card {
+  @include components.component-card-base;
+}
+
+p {
+  margin: 0 !important;
+}
+
+.movie-cover {
+  @include components.component-cover-base;
+}
+
+.cover-image {
+  @include components.component-cover-image-base;
+}
+
+.movie-info {
+  @include components.component-info-base;
+}
+
+.movie-title {
+  @include components.component-title-base;
+}
+
+.movie-director {
+  @include components.component-author-base;
+}
+
+.movie-actors {
+  @include components.component-secondary-info-base;
+}
+
+.movie-length {
+  @include components.component-secondary-info-base;
+}
+
+.movie-release-date {
+  @include components.component-date-base;
+}
+
+.movie-times-watched {
+  @include components.component-times-base;
+}
+
+.movie-rating {
+  @include components.component-rating-base;
+}
+
+.stars {
+  @include components.component-stars-base;
+}
+
+.star {
+  @include components.component-star-base;
+}
+
+.rating-text {
+  @include components.component-rating-text-base;
+}
+
+.movie-genre {
+  @include components.component-genre-base;
+}

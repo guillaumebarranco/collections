@@ -1,0 +1,54 @@
+<app-menu></app-menu>
+
+<div class="select-books-container">
+  <div class="header">
+    <h1>Sélectionner des livres</h1>
+    <p class="subtitle">
+      Cliquez sur les couvertures pour sélectionner vos livres préférés
+    </p>
+  </div>
+
+  <div class="toolbar">
+    <div class="selection-info">
+      <span class="count">{{ selectedCount() }} livre(s) sélectionné(s)</span>
+      <span class="total">sur {{ allBooks().length }}</span>
+    </div>
+
+    <div class="actions">
+      <button class="btn btn-secondary" (click)="selectAll()">
+        Tout sélectionner
+      </button>
+      <button class="btn btn-secondary" (click)="deselectAll()">
+        Tout désélectionner
+      </button>
+      <button
+        class="btn btn-primary"
+        (click)="exportSelectedBooks()"
+        [disabled]="selectedCount() === 0"
+      >
+        📥 Exporter ma liste de livres ({{ selectedCount() }})
+      </button>
+    </div>
+  </div>
+
+  <div class="books-grid">
+    @for (book of allBooks(); track `${book.title}-${book.author}`) {
+    <div
+      class="book-cover"
+      [class.selected]="isSelected(book)"
+      (click)="toggleSelection(book)"
+      [title]="book.title + ' - ' + book.author"
+    >
+      <img [src]="book.coverUrl" [alt]="book.title" />
+      <div class="overlay">
+        <div class="checkmark">✓</div>
+        <div class="book-info">
+          <span class="book-title">{{ book.title }}</span>
+          <span class="book-author">{{ book.author }}</span>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>
+

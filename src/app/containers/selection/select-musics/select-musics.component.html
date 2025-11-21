@@ -1,0 +1,54 @@
+<app-menu></app-menu>
+
+<div class="select-musics-container">
+  <div class="header">
+    <h1>Sélectionner des musiques</h1>
+    <p class="subtitle">
+      Cliquez sur les pochettes pour sélectionner vos musiques préférées
+    </p>
+  </div>
+
+  <div class="toolbar">
+    <div class="selection-info">
+      <span class="count">{{ selectedCount() }} musique(s) sélectionnée(s)</span>
+      <span class="total">sur {{ allMusics().length }}</span>
+    </div>
+
+    <div class="actions">
+      <button class="btn btn-secondary" (click)="selectAll()">
+        Tout sélectionner
+      </button>
+      <button class="btn btn-secondary" (click)="deselectAll()">
+        Tout désélectionner
+      </button>
+      <button
+        class="btn btn-primary"
+        (click)="exportSelectedMusics()"
+        [disabled]="selectedCount() === 0"
+      >
+        📥 Exporter ma liste de musiques ({{ selectedCount() }})
+      </button>
+    </div>
+  </div>
+
+  <div class="musics-grid">
+    @for (music of allMusics(); track `${music.title}-${music.artist}`) {
+    <div
+      class="music-cover"
+      [class.selected]="isSelected(music)"
+      (click)="toggleSelection(music)"
+      [title]="music.title + ' - ' + music.artist"
+    >
+      <img [src]="music.coverUrl" [alt]="music.title" />
+      <div class="overlay">
+        <div class="checkmark">✓</div>
+        <div class="music-info">
+          <span class="music-title">{{ music.title }}</span>
+          <span class="music-artist">{{ music.artist }}</span>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>
+

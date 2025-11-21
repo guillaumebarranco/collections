@@ -1,0 +1,47 @@
+{
+  "files.trimTrailingWhitespace": true,
+  "editor.formatOnSave": true,
+  "scss.lint.boxModel": "warning",
+  "editor.tabSize": 2,
+  "html.format.enable": true,
+  "importSorter.sortConfiguration.customOrderingRules.rules": [
+    {
+      "regex": "^@angular",
+      "orderLevel": 0,
+      "numberOfEmptyLinesAfterGroup": 1,
+      "type": "path"
+    },
+    {
+      "regex": "^(?!@(test|core|shared|infrastructure|applications|application-configurations|auth|chart-xpress|dashboard|devices|ews|hubs|server-settings|networks|neuron-settings|profile-configuration|profiles|support|vitals-plus|vitals-stream))[@]",
+      "orderLevel": 10,
+      "numberOfEmptyLinesAfterGroup": 1
+    },
+    {
+      "regex": "^@test",
+      "orderLevel": 30,
+      "numberOfEmptyLinesAfterGroup": 0
+    },
+    {
+      "regex": "^@core",
+      "orderLevel": 40,
+      "numberOfEmptyLinesAfterGroup": 0
+    },
+    {
+      "regex": "^@shared",
+      "orderLevel": 50,
+      "numberOfEmptyLinesAfterGroup": 0
+    },
+    {
+      "regex": "^@infrastructure",
+      "orderLevel": 55,
+      "numberOfEmptyLinesAfterGroup": 0
+    },
+    {
+      "regex": "^[.]",
+      "orderLevel": 200
+    }
+  ],
+  "importSorter.generalConfiguration.exclude": ["polyfills.ts"],
+  "importSorter.generalConfiguration.sortOnBeforeSave": true,
+  "search.usePCRE2": true
+}

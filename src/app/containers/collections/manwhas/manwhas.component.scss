@@ -1,0 +1,71 @@
+@use '../../../styles/containers.scss' as containers;
+
+.manwhas-container {
+  @include containers.container-base;
+
+  .empty-state {
+    @include containers.empty-state-base;
+  }
+
+  .btn-primary {
+    @include containers.btn-primary-base;
+  }
+}
+
+.manwhas-header {
+  @include containers.header-base;
+}
+
+.manwhas-count {
+  @include containers.count;
+}
+
+.manwhas-tomes {
+  color: #fffbe6;
+  background: #7f53ac;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-right: 18px;
+  box-shadow: 0 2px 8px rgba(127, 83, 172, 0.08);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.manwhas-tomes strong {
+  color: #ffe082;
+  margin-left: 6px;
+  font-size: 1.15em;
+}
+
+.manwhas {
+  @include containers.grid-base;
+}
+
+.manwha-card {
+  @include containers.card-base;
+}
+
+// Responsive
+@include containers.responsive-base {
+  .manwhas-container {
+    padding: 15px;
+
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+  .manwhas-header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .manwhas {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+  }
+}

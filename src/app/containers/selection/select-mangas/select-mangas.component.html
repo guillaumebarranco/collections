@@ -1,0 +1,54 @@
+<app-menu></app-menu>
+
+<div class="select-mangas-container">
+  <div class="header">
+    <h1>Sélectionner des mangas</h1>
+    <p class="subtitle">
+      Cliquez sur les couvertures pour sélectionner vos mangas préférés
+    </p>
+  </div>
+
+  <div class="toolbar">
+    <div class="selection-info">
+      <span class="count">{{ selectedCount() }} manga(s) sélectionné(s)</span>
+      <span class="total">sur {{ allMangas().length }}</span>
+    </div>
+
+    <div class="actions">
+      <button class="btn btn-secondary" (click)="selectAll()">
+        Tout sélectionner
+      </button>
+      <button class="btn btn-secondary" (click)="deselectAll()">
+        Tout désélectionner
+      </button>
+      <button
+        class="btn btn-primary"
+        (click)="exportSelectedMangas()"
+        [disabled]="selectedCount() === 0"
+      >
+        📥 Exporter ma liste de mangas ({{ selectedCount() }})
+      </button>
+    </div>
+  </div>
+
+  <div class="mangas-grid">
+    @for (manga of allMangas(); track `${manga.title}-${manga.author}`) {
+    <div
+      class="manga-cover"
+      [class.selected]="isSelected(manga)"
+      (click)="toggleSelection(manga)"
+      [title]="manga.title + ' - ' + manga.author"
+    >
+      <img [src]="manga.coverUrl" [alt]="manga.title" />
+      <div class="overlay">
+        <div class="checkmark">✓</div>
+        <div class="manga-info">
+          <span class="manga-title">{{ manga.title }}</span>
+          <span class="manga-author">{{ manga.author }}</span>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>
+

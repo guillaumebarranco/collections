@@ -1,0 +1,57 @@
+@use '../../styles/components.scss' as components;
+
+.book-card {
+  @include components.component-card-base;
+}
+
+p {
+  margin: 0 !important;
+}
+
+.book-cover {
+  @include components.component-cover-base;
+}
+
+.cover-image {
+  @include components.component-cover-image-base;
+}
+
+.book-info {
+  @include components.component-info-base;
+}
+
+.book-title {
+  @include components.component-title-base;
+}
+
+.book-author {
+  @include components.component-author-base;
+}
+
+.book-pages {
+  @include components.component-secondary-info-base;
+}
+
+.book-read-times {
+  @include components.component-times-base;
+}
+
+.book-rating {
+  @include components.component-rating-base;
+}
+
+.stars {
+  @include components.component-stars-base;
+}
+
+.star {
+  @include components.component-star-base;
+}
+
+.rating-text {
+  @include components.component-rating-text-base;
+}
+
+.book-genre {
+  @include components.component-genre-base;
+}
