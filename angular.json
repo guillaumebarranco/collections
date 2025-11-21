@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "webarranco": {
+    "collections": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -58,10 +58,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "webarranco:build:production"
+              "buildTarget": "collections:build:production"
             },
             "development": {
-              "buildTarget": "webarranco:build:development"
+              "buildTarget": "collections:build:development"
             }
           },
           "defaultConfiguration": "development"
