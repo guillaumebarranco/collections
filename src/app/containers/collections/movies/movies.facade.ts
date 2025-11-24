@@ -31,6 +31,7 @@ import {
 import { williamMovies } from '../../../utils/william/movies';
 import { amandineMovies1 } from '../../../utils/amandine/movies/amandine_movies_1';
 import { amandineMovies2 } from '../../../utils/amandine/movies/amandine_movies_2';
+import { baseMoviesFromAmandine } from '../../../utils/movies/movies_from_amandine';
 
 const allBaseMovies: BaseMovie[] = [
   ...baseMoviesPage1,
@@ -44,6 +45,7 @@ const allBaseMovies: BaseMovie[] = [
   ...baseMoviesAnimated,
   ...baseMoviesSagaPage1,
   ...baseMoviesSagaPage2,
+  ...baseMoviesFromAmandine,
 ];
 
 export function getAllMovies(): { [key: string]: Movie[] } {
@@ -74,20 +76,29 @@ export function getAllMoviesMerged(): Movie[] {
 
 function getAllMoviesData(movies: UserMovie[]): Movie[] {
   return movies.map((movie: UserMovie) => {
-    const matchingBaseMovie = allBaseMovies.find(
+    const matchingBaseMovie = allBaseMovies.filter(
       (baseMovie: BaseMovie) => baseMovie.title === movie.title
     );
+
+    // For the case when multiple movies have the same name, hence matching from movie director
+    const definitiveMatchingMovie =
+      matchingBaseMovie.length === 1
+        ? matchingBaseMovie[0]
+        : matchingBaseMovie.filter((baseMovie: BaseMovie) => {
+            return baseMovie.director === movie.director;
+          })[0];
+
     return {
       title: movie.title,
       director: movie.director,
       rating: movie.rating,
       timesWatched: movie.timesWatched,
       lastViewedDate: movie.lastViewedDate,
-      actors: matchingBaseMovie?.actors || [],
-      coverUrl: matchingBaseMovie?.coverUrl || '',
-      releaseDate: matchingBaseMovie?.releaseDate || '',
-      length: matchingBaseMovie?.length || 0,
-      genre: matchingBaseMovie?.genre || '',
+      actors: definitiveMatchingMovie?.actors || [],
+      coverUrl: definitiveMatchingMovie?.coverUrl || '',
+      releaseDate: definitiveMatchingMovie?.releaseDate || '',
+      length: definitiveMatchingMovie?.length || 0,
+      genre: definitiveMatchingMovie?.genre || '',
     };
   });
 }

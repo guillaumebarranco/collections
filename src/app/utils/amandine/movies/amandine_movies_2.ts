@@ -37,7 +37,7 @@ export const amandineMovies2: UserMovie[] = [
     lastViewedDate: '',
   },
   {
-    title: 'Donjons & Dragons : L\'Honneur des voleurs',
+    title: "Donjons & Dragons : L'Honneur des voleurs",
     director: 'John Francis Daley, Jonathan Goldstein',
     rating: 0,
     timesWatched: 1,
@@ -93,7 +93,7 @@ export const amandineMovies2: UserMovie[] = [
     lastViewedDate: '',
   },
   {
-    title: 'The King\'s Man : Première mission',
+    title: "The King's Man : Première mission",
     director: 'Matthew Vaughn',
     rating: 0,
     timesWatched: 1,
@@ -107,13 +107,6 @@ export const amandineMovies2: UserMovie[] = [
     lastViewedDate: '',
   },
   {
-    title: 'Squid Game',
-    director: 'Hwang Dong-hyuk',
-    rating: 0,
-    timesWatched: 1,
-    lastViewedDate: '',
-  },
-  {
     title: 'Cendrillon',
     director: 'Kay Cannon',
     rating: 0,
@@ -121,14 +114,14 @@ export const amandineMovies2: UserMovie[] = [
     lastViewedDate: '',
   },
   {
-    title: 'He\'s All That',
+    title: "He's All That",
     director: 'Mark Waters',
     rating: 0,
     timesWatched: 1,
     lastViewedDate: '',
   },
   {
-    title: 'S.O.S. Fantômes : L\'Héritage',
+    title: "S.O.S. Fantômes : L'Héritage",
     director: 'Jason Reitman',
     rating: 0,
     timesWatched: 1,
@@ -165,13 +158,6 @@ export const amandineMovies2: UserMovie[] = [
   {
     title: 'À tous les garçons : Pour toujours et à jamais',
     director: 'Michael Fimognari',
-    rating: 0,
-    timesWatched: 1,
-    lastViewedDate: '',
-  },
-  {
-    title: 'Le Jeu de la dame',
-    director: 'Scott Frank',
     rating: 0,
     timesWatched: 1,
     lastViewedDate: '',
@@ -226,7 +212,7 @@ export const amandineMovies2: UserMovie[] = [
     lastViewedDate: '',
   },
   {
-    title: 'À tous les garçons : P.S. Je t\'aime toujours',
+    title: "À tous les garçons : P.S. Je t'aime toujours",
     director: 'Michael Fimognari',
     rating: 0,
     timesWatched: 1,
@@ -380,7 +366,7 @@ export const amandineMovies2: UserMovie[] = [
     lastViewedDate: '',
   },
   {
-    title: 'Le Crime de l\'Orient-Express',
+    title: "Le Crime de l'Orient-Express",
     director: 'Kenneth Branagh',
     rating: 0,
     timesWatched: 1,
@@ -520,7 +506,7 @@ export const amandineMovies2: UserMovie[] = [
     lastViewedDate: '',
   },
   {
-    title: 'Le Monde fantastique d\'Oz',
+    title: "Le Monde fantastique d'Oz",
     director: 'Sam Raimi',
     rating: 0,
     timesWatched: 1,
@@ -653,7 +639,7 @@ export const amandineMovies2: UserMovie[] = [
     lastViewedDate: '',
   },
   {
-    title: 'L\'Apprenti sorcier',
+    title: "L'Apprenti sorcier",
     director: 'Jon Turteltaub',
     rating: 0,
     timesWatched: 1,
@@ -681,7 +667,7 @@ export const amandineMovies2: UserMovie[] = [
     lastViewedDate: '',
   },
   {
-    title: 'Jennifer\'s Body',
+    title: "Jennifer's Body",
     director: 'Karyn Kusama',
     rating: 0,
     timesWatched: 1,
@@ -737,7 +723,7 @@ export const amandineMovies2: UserMovie[] = [
     lastViewedDate: '',
   },
   {
-    title: 'L\'Étrange Histoire de Benjamin Button',
+    title: "L'Étrange Histoire de Benjamin Button",
     director: 'David Fincher',
     rating: 0,
     timesWatched: 1,
@@ -891,7 +877,7 @@ export const amandineMovies2: UserMovie[] = [
     lastViewedDate: '',
   },
   {
-    title: 'Lemony Snicket\'s A Series of Unfortunate Events',
+    title: "Lemony Snicket's A Series of Unfortunate Events",
     director: 'Brad Silberling',
     rating: 0,
     timesWatched: 1,
@@ -962,7 +948,7 @@ export const amandineMovies2: UserMovie[] = [
   },
   {
     title: 'Ella au pays enchanté',
-    director: 'Tommy O\'Haver',
+    director: "Tommy O'Haver",
     rating: 0,
     timesWatched: 1,
     lastViewedDate: '',
@@ -1017,7 +1003,7 @@ export const amandineMovies2: UserMovie[] = [
     lastViewedDate: '',
   },
   {
-    title: 'Comment se débarrasser d\'un mec en 10 jours',
+    title: "Comment se débarrasser d'un mec en 10 jours",
     director: 'Donald Petrie',
     rating: 0,
     timesWatched: 1,
@@ -1108,7 +1094,7 @@ export const amandineMovies2: UserMovie[] = [
     lastViewedDate: '',
   },
   {
-    title: 'La Revanche d\'une blonde',
+    title: "La Revanche d'une blonde",
     director: 'Robert Luketic',
     rating: 0,
     timesWatched: 1,
@@ -1122,7 +1108,7 @@ export const amandineMovies2: UserMovie[] = [
     lastViewedDate: '',
   },
   {
-    title: 'Atlantis : L\'Empire perdu',
+    title: "Atlantis : L'Empire perdu",
     director: 'Gary Trousdale, Kirk Wise',
     rating: 0,
     timesWatched: 1,
@@ -1143,7 +1129,7 @@ export const amandineMovies2: UserMovie[] = [
     lastViewedDate: '',
   },
   {
-    title: 'Kuzco, l\'Empereur mégalo',
+    title: "Kuzco, l'Empereur mégalo",
     director: 'Mark Dindal',
     rating: 0,
     timesWatched: 1,
@@ -1192,14 +1178,14 @@ export const amandineMovies2: UserMovie[] = [
     lastViewedDate: '',
   },
   {
-    title: 'La Route d\'Eldorado',
+    title: "La Route d'Eldorado",
     director: 'Bibo Bergeron, Don Paul',
     rating: 0,
     timesWatched: 1,
     lastViewedDate: '',
   },
   {
-    title: 'La Petite Sirène 2 : Retour à l\'océan',
+    title: "La Petite Sirène 2 : Retour à l'océan",
     director: 'Jim Kammerud, Brian Smith',
     rating: 0,
     timesWatched: 1,
@@ -1248,7 +1234,7 @@ export const amandineMovies2: UserMovie[] = [
     lastViewedDate: '',
   },
   {
-    title: 'Le Prince d\'Égypte',
+    title: "Le Prince d'Égypte",
     director: 'Brenda Chapman, Steve Hickner',
     rating: 0,
     timesWatched: 1,
@@ -1262,7 +1248,7 @@ export const amandineMovies2: UserMovie[] = [
     lastViewedDate: '',
   },
   {
-    title: 'Le Roi Lion 2 : L\'Honneur de la tribu',
+    title: "Le Roi Lion 2 : L'Honneur de la tribu",
     director: 'Darrell Rooney, Rob LaDuca',
     rating: 0,
     timesWatched: 1,
@@ -1325,7 +1311,7 @@ export const amandineMovies2: UserMovie[] = [
     lastViewedDate: '',
   },
   {
-    title: 'Souviens-toi... l\'été dernier',
+    title: "Souviens-toi... l'été dernier",
     director: 'Jim Gillespie',
     rating: 0,
     timesWatched: 1,
@@ -1341,13 +1327,6 @@ export const amandineMovies2: UserMovie[] = [
   {
     title: 'Face/Off',
     director: 'John Woo',
-    rating: 0,
-    timesWatched: 1,
-    lastViewedDate: '',
-  },
-  {
-    title: 'Batman et Robin',
-    director: 'Joel Schumacher',
     rating: 0,
     timesWatched: 1,
     lastViewedDate: '',
@@ -1458,7 +1437,7 @@ export const amandineMovies2: UserMovie[] = [
     lastViewedDate: '',
   },
   {
-    title: 'L\'Étrange Noël de monsieur Jack',
+    title: "L'Étrange Noël de monsieur Jack",
     director: 'Henry Selick',
     rating: 0,
     timesWatched: 1,
@@ -1474,13 +1453,6 @@ export const amandineMovies2: UserMovie[] = [
   {
     title: '3 Ninjas',
     director: 'Jon Turteltaub',
-    rating: 0,
-    timesWatched: 1,
-    lastViewedDate: '',
-  },
-  {
-    title: 'Batman : Le Défi',
-    director: 'Tim Burton',
     rating: 0,
     timesWatched: 1,
     lastViewedDate: '',
@@ -1514,7 +1486,7 @@ export const amandineMovies2: UserMovie[] = [
     lastViewedDate: '',
   },
   {
-    title: 'Edward aux mains d\'argent',
+    title: "Edward aux mains d'argent",
     director: 'Tim Burton',
     rating: 0,
     timesWatched: 1,
@@ -1766,7 +1738,7 @@ export const amandineMovies2: UserMovie[] = [
     lastViewedDate: '',
   },
   {
-    title: 'Le Magicien d\'Oz',
+    title: "Le Magicien d'Oz",
     director: 'Victor Fleming',
     rating: 0,
     timesWatched: 1,

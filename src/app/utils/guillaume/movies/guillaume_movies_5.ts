@@ -302,4 +302,25 @@ export const guillaumeMoviesPage5: UserMovie[] = [
     timesWatched: 3,
     lastViewedDate: '',
   },
+  {
+    title: 'Le Manoir hanté et les 999 Fantômes',
+    director: 'Rob Minkoff',
+    rating: 3,
+    timesWatched: 1,
+    lastViewedDate: '',
+  },
+  {
+    title: 'Stuart Little',
+    director: 'Rob Minkoff',
+    rating: 0,
+    timesWatched: 1,
+    lastViewedDate: '',
+  },
+  {
+    title: "L'Apprenti sorcier",
+    director: 'Jon Turteltaub',
+    rating: 3,
+    timesWatched: 1,
+    lastViewedDate: '',
+  },
 ];
