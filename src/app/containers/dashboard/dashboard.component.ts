@@ -51,6 +51,7 @@ import { williamMovies } from '../../utils/william/movies';
 import { Game } from '../../models/game-model';
 import { Serie } from '../../models/serie-model';
 import { getTotalPagesRead, MINUTES_PER_PAGE } from '../../utils/stats.utils';
+import { amandineMovies } from '../../utils/amandine/movies/amandie_movies';
 
 interface TopBook extends Book {
   formattedReadingTime: string;
@@ -86,6 +87,7 @@ export class DashboardComponent {
     guillaume: [...books, ...booksFantasySaga, ...booksSaga],
     kevin: [...kevinBooks1, ...kevinBooks2],
     william: [],
+    amandine: [],
   });
 
   allBooks = computed<Book[]>(() => {
@@ -123,6 +125,7 @@ export class DashboardComponent {
     ],
     william: [...williamMovies],
     kevin: [],
+    amandine: [...amandineMovies],
   });
 
   allMovies = computed<Movie[]>(() => {
@@ -137,6 +140,7 @@ export class DashboardComponent {
     guillaume: [...series1, ...series2],
     william: [],
     kevin: [],
+    amandine: [],
   });
 
   allSeries = computed<Serie[]>(() => {
@@ -151,6 +155,7 @@ export class DashboardComponent {
     guillaume: [...games1, ...games2, ...games3, ...games4],
     william: [],
     kevin: [],
+    amandine: [],
   });
 
   allGames = computed<Game[]>(() => {
@@ -165,6 +170,7 @@ export class DashboardComponent {
     guillaume: [...mangas],
     william: [],
     kevin: [],
+    amandine: [],
   });
 
   allMangas = computed<any[]>(() => {
@@ -185,6 +191,7 @@ export class DashboardComponent {
     guillaume: [...manwhas],
     william: [],
     kevin: [],
+    amandine: [],
   });
 
   allManwhas = computed<any[]>(() => {
@@ -205,6 +212,7 @@ export class DashboardComponent {
     guillaume: [...musics],
     william: [],
     kevin: [],
+    amandine: [],
   });
 
   allMusics = computed<Music[]>(() => {
@@ -337,11 +345,10 @@ export class DashboardComponent {
       0
     );
 
-    const musicsTotalTime =
-      this.allMusics().reduce(
-        (sum, music) => sum + (music.duration / 3600) * music.timesListened,
-        0
-      );
+    const musicsTotalTime = this.allMusics().reduce(
+      (sum, music) => sum + (music.duration / 3600) * music.timesListened,
+      0
+    );
 
     const totalCumulativeTime =
       booksTotalReadingTime +

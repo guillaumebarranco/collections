@@ -40,6 +40,7 @@ import {
 } from '../../../utils/guillaume/movies';
 import { williamMovies } from '../../../utils/william/movies';
 import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
+import { amandineMovies } from '../../../utils/amandine/movies/amandie_movies';
 
 @Component({
   selector: 'app-movies',
@@ -101,6 +102,7 @@ export class MoviesComponent {
     ],
     william: [...williamMovies],
     kevin: [],
+    amandine: [...amandineMovies],
   });
 
   allMovies = computed<Movie[]>(() => {
