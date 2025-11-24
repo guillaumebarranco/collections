@@ -1,6 +1,10 @@
 <div class="movie-card">
   <div class="movie-cover">
-    <img [src]="movie.coverUrl" [alt]="movie.title" class="cover-image" />
+    <img
+      [src]="movie.coverUrl || '/movies_pictures/poster.jpg'"
+      [alt]="movie.title"
+      class="cover-image"
+    />
   </div>
   <div class="movie-info">
     <h3 class="movie-title">{{ movie.title }}</h3>
