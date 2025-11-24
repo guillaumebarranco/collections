@@ -18,40 +18,16 @@ import {
   booksSaga,
 } from '../../utils/guillaume/books';
 
-import {
-  moviesPage1,
-  moviesPage2,
-  moviesPage3,
-  moviesPage4,
-  moviesPage5,
-  moviesPage6,
-  moviesPage7,
-  moviesPage8,
-  moviesPage9,
-  moviesMcu,
-  moviesDc,
-  moviesOtherSuperheroes,
-  moviesLove1,
-  moviesLove2,
-  moviesAnimated1,
-  moviesAnimated2,
-  moviesSagaPage1,
-  moviesSagaPage2,
-  moviesSagaPage3,
-  moviesSagaPage4,
-  moviesSagaPage5,
-} from '../../utils/guillaume/movies';
 import { musics } from '../../utils/guillaume/musics';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Book } from '../../models/book-model';
 import { kevinBooks1, kevinBooks2 } from '../../utils/kevin/books';
 import { Movie } from '../../models/movie-model';
 import { Music } from '../../models/music-model';
-import { williamMovies } from '../../utils/william/movies';
 import { Game } from '../../models/game-model';
 import { Serie } from '../../models/serie-model';
 import { getTotalPagesRead, MINUTES_PER_PAGE } from '../../utils/stats.utils';
-import { amandineMovies } from '../../utils/amandine/movies/amandie_movies';
+import { getAllMovies } from '../collections/movies/movies.facade';
 
 interface TopBook extends Book {
   formattedReadingTime: string;
@@ -99,34 +75,7 @@ export class DashboardComponent {
       : this.booksList()['guillaume'];
   });
 
-  moviesList = signal<{ [key: string]: Movie[] }>({
-    guillaume: [
-      ...moviesPage1,
-      ...moviesPage2,
-      ...moviesPage3,
-      ...moviesPage4,
-      ...moviesPage5,
-      ...moviesPage6,
-      ...moviesPage7,
-      ...moviesPage8,
-      ...moviesPage9,
-      ...moviesSagaPage1,
-      ...moviesSagaPage2,
-      ...moviesSagaPage3,
-      ...moviesSagaPage4,
-      ...moviesSagaPage5,
-      ...moviesLove1,
-      ...moviesLove2,
-      ...moviesMcu,
-      ...moviesDc,
-      ...moviesOtherSuperheroes,
-      ...moviesAnimated1,
-      ...moviesAnimated2,
-    ],
-    william: [...williamMovies],
-    kevin: [],
-    amandine: [...amandineMovies],
-  });
+  moviesList = signal<{ [key: string]: Movie[] }>(getAllMovies());
 
   allMovies = computed<Movie[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;

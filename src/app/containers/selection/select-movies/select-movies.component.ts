@@ -2,32 +2,9 @@ import { Component, signal, computed, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import { Movie } from '../../../models/movie-model';
-import {
-  moviesPage1,
-  moviesPage2,
-  moviesPage3,
-  moviesPage4,
-  moviesPage5,
-  moviesPage6,
-  moviesPage7,
-  moviesPage8,
-  moviesPage9,
-  moviesMcu,
-  moviesDc,
-  moviesOtherSuperheroes,
-  moviesLove1,
-  moviesLove2,
-  moviesAnimated1,
-  moviesAnimated2,
-  moviesSagaPage1,
-  moviesSagaPage2,
-  moviesSagaPage3,
-  moviesSagaPage4,
-  moviesSagaPage5,
-} from '../../../utils/guillaume/movies';
-import { williamMovies } from '../../../utils/william/movies';
 import { Params } from '@angular/router';
 import { ActivatedRoute } from '@angular/router';
+import { getAllMoviesMerged } from '../../collections/movies/movies.facade';
 
 @Component({
   selector: 'app-select-movies',
@@ -38,33 +15,7 @@ import { ActivatedRoute } from '@angular/router';
 export class SelectMoviesComponent {
   activatedRoute = inject(ActivatedRoute);
   // Tous les films de tous les utilisateurs
-  allMovies = signal<Movie[]>([
-    // Guillaume
-    ...moviesPage1,
-    ...moviesPage2,
-    ...moviesPage3,
-    ...moviesPage4,
-    ...moviesPage5,
-    ...moviesPage6,
-    ...moviesPage7,
-    ...moviesPage8,
-    ...moviesPage9,
-    ...moviesSagaPage1,
-    ...moviesSagaPage2,
-    ...moviesSagaPage3,
-    ...moviesSagaPage4,
-    ...moviesSagaPage5,
-    ...moviesLove1,
-    ...moviesLove2,
-    ...moviesMcu,
-    ...moviesDc,
-    ...moviesOtherSuperheroes,
-    ...moviesAnimated1,
-    ...moviesAnimated2,
-    // William
-    ...williamMovies,
-    // Kevin - à ajouter quand disponible
-  ]);
+  allMovies = signal<Movie[]>(getAllMoviesMerged());
 
   username = computed<string>(() => {
     const params: Params = this.activatedRoute.snapshot.params;

@@ -15,32 +15,8 @@ import {
   getTotalDuration,
 } from '../../../utils/stats.utils';
 import { Movie } from '../../../models/movie-model';
-import {
-  moviesPage1,
-  moviesPage2,
-  moviesPage3,
-  moviesPage4,
-  moviesPage5,
-  moviesPage6,
-  moviesPage7,
-  moviesPage8,
-  moviesPage9,
-  moviesMcu,
-  moviesDc,
-  moviesOtherSuperheroes,
-  moviesLove1,
-  moviesLove2,
-  moviesAnimated1,
-  moviesAnimated2,
-  moviesSagaPage1,
-  moviesSagaPage2,
-  moviesSagaPage3,
-  moviesSagaPage4,
-  moviesSagaPage5,
-} from '../../../utils/guillaume/movies';
-import { williamMovies } from '../../../utils/william/movies';
 import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
-import { amandineMovies } from '../../../utils/amandine/movies/amandie_movies';
+import { getAllMovies } from './movies.facade';
 
 @Component({
   selector: 'app-movies',
@@ -76,34 +52,7 @@ export class MoviesComponent {
     { value: 'lastViewedDate-asc', label: 'Dernier visionnage (ancien)' },
   ];
 
-  moviesList = signal<{ [key: string]: Movie[] }>({
-    guillaume: [
-      ...moviesPage1,
-      ...moviesPage2,
-      ...moviesPage3,
-      ...moviesPage4,
-      ...moviesPage5,
-      ...moviesPage6,
-      ...moviesPage7,
-      ...moviesPage8,
-      ...moviesPage9,
-      ...moviesSagaPage1,
-      ...moviesSagaPage2,
-      ...moviesSagaPage3,
-      ...moviesSagaPage4,
-      ...moviesSagaPage5,
-      ...moviesLove1,
-      ...moviesLove2,
-      ...moviesMcu,
-      ...moviesDc,
-      ...moviesOtherSuperheroes,
-      ...moviesAnimated1,
-      ...moviesAnimated2,
-    ],
-    william: [...williamMovies],
-    kevin: [],
-    amandine: [...amandineMovies],
-  });
+  moviesList = signal<{ [key: string]: Movie[] }>(getAllMovies());
 
   allMovies = computed<Movie[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
