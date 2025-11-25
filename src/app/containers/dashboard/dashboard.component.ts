@@ -6,22 +6,19 @@ import {
   StatItem,
 } from '../../components/stats-display/stats-display.component';
 
-import { mangas } from '../../utils/guillaume/mangas/mangas';
-import { manwhas } from '../../utils/guillaume/mangas/manwhas';
-
-import { guillaumeSeries } from '../../utils/guillaume/series';
-import { games1, games2, games3, games4 } from '../../utils/guillaume/games';
+import { mangas } from '../../utils/users/guillaume/mangas/mangas';
+import { manwhas } from '../../utils/users/guillaume/mangas/manwhas';
 
 import {
-  books,
-  booksFantasySaga,
-  booksSaga,
-} from '../../utils/guillaume/books';
+  games1,
+  games2,
+  games3,
+  games4,
+} from '../../utils/users/guillaume/games';
 
-import { musics } from '../../utils/guillaume/musics';
+import { musics } from '../../utils/users/guillaume/musics';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Book } from '../../models/book-model';
-import { kevinBooks1, kevinBooks2 } from '../../utils/kevin/books';
 import { Movie } from '../../models/movie-model';
 import { Music } from '../../models/music-model';
 import { Game } from '../../models/game-model';
@@ -29,6 +26,7 @@ import { Serie } from '../../models/serie-model';
 import { getTotalPagesRead, MINUTES_PER_PAGE } from '../../utils/stats.utils';
 import { getAllMovies } from '../../facades/movies.facade';
 import { getAllSeries } from '../../facades/series.facade';
+import { getAllBooks } from '../../facades/books.facade';
 
 interface TopBook extends Book {
   formattedReadingTime: string;
@@ -60,12 +58,7 @@ interface TopMusic extends Music {
 export class DashboardComponent {
   activatedRoute = inject(ActivatedRoute);
 
-  booksList = signal<{ [key: string]: Book[] }>({
-    guillaume: [...books, ...booksFantasySaga, ...booksSaga],
-    kevin: [...kevinBooks1, ...kevinBooks2],
-    william: [],
-    amandine: [],
-  });
+  booksList = signal<{ [key: string]: Book[] }>(getAllBooks());
 
   allBooks = computed<Book[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;

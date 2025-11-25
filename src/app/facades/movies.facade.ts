@@ -12,7 +12,7 @@ import {
   baseMoviesAnimated,
   baseMoviesSagaPage1,
   baseMoviesSagaPage2,
-} from '../utils/movies/index';
+} from '../utils/entities/movies/index';
 
 import {
   guillaumeMoviesPage1,
@@ -27,11 +27,11 @@ import {
   guillaumeMoviesAnimated,
   guillaumeMoviesSagaPage1,
   guillaumeMoviesSagaPage2,
-} from '../utils/guillaume/movies';
-import { williamMovies } from '../utils/william/movies';
-import { amandineMovies1 } from '../utils/amandine/movies/amandine_movies_1';
-import { amandineMovies2 } from '../utils/amandine/movies/amandine_movies_2';
-import { baseMoviesFromAmandine } from '../utils/movies/movies_from_amandine';
+} from '../utils/users/guillaume/movies';
+import { williamMovies } from '../utils/users/william/movies';
+import { amandineMovies1 } from '../utils/users/amandine/movies/amandine_movies_1';
+import { amandineMovies2 } from '../utils/users/amandine/movies/amandine_movies_2';
+import { baseMoviesFromAmandine } from '../utils/entities/movies/movies_from_amandine';
 
 const allBaseMovies: BaseMovie[] = [
   ...baseMoviesPage1,

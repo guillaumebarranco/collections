@@ -1,0 +1,313 @@
+import { BaseBook } from '../../../models/book-model';
+
+export const baseBooksFantasySaga: BaseBook[] = [
+  {
+    title: 'Le grand éveil',
+    author: 'Sara Schneider',
+    coverUrl:
+      '/books_pictures/les_enfants_daliel_tome_1_le_grand_eveil-1301631-264-432.jpg',
+    pages: 411,
+    genre: 'Fantasy',
+    saga: "Les enfants d'Aliel",
+    sagaOrder: 1,
+  },
+  {
+    title: 'Le cheval de feu',
+    author: 'Sara Schneider',
+    coverUrl:
+      '/books_pictures/les_enfants_daliel_tome_2_le_cheval_de_feu-1235625-264-432.jpg',
+    pages: 411,
+    genre: 'Fantasy',
+    saga: "Les enfants d'Aliel",
+    sagaOrder: 2,
+  },
+  {
+    title: "Mâchoires d'écume",
+    author: 'Sara Schneider',
+    coverUrl:
+      '/books_pictures/les_enfants_daliel_tome_3_machoires_decume-1347405-264-432.jpg',
+    pages: 411,
+    genre: 'Fantasy',
+    saga: "Les enfants d'Aliel",
+    sagaOrder: 3,
+  },
+  {
+    title: "Le porteur d'espoir",
+    author: 'Sara Schneider',
+    coverUrl:
+      '/books_pictures/les_enfants_daliel_tome_4_le_porteur_despoir-1497527-264-432.jpg',
+    pages: 411,
+    genre: 'Fantasy',
+    saga: "Les enfants d'Aliel",
+    sagaOrder: 4,
+  },
+  {
+    title: 'Ciel de cendres',
+    author: 'Sara Schneider',
+    coverUrl:
+      '/books_pictures/les_enfants_daliel_tome_5_ciel_de_cendres-5009301-264-432.jpg',
+    pages: 411,
+    genre: 'Fantasy',
+    saga: "Les enfants d'Aliel",
+    sagaOrder: 5,
+  },
+  {
+    title: "D'un monde à l'autre",
+    author: 'Pierre Bottero',
+    coverUrl:
+      '/books_pictures/la_quete_dewilan_tome_1_dun_monde_a_lautre-605310-264-432.jpg',
+    pages: 411,
+    genre: 'Fantasy',
+    saga: 'Ewilan',
+    sagaOrder: 1,
+  },
+  {
+    title: 'Les frontières de glace',
+    author: 'Pierre Bottero',
+    coverUrl:
+      '/books_pictures/la_quete_dewilan_tome_2_les_frontieres_de_glace-605311-264-432.jpg',
+    pages: 411,
+    genre: 'Fantasy',
+    saga: 'Ewilan',
+    sagaOrder: 2,
+  },
+  {
+    title: "L'île du destin",
+    author: 'Pierre Bottero',
+    coverUrl:
+      '/books_pictures/la_quete_dewilan_tome_3_lile_du_destin-605313-264-432.jpg',
+    pages: 411,
+    genre: 'Fantasy',
+    saga: 'Ewilan',
+    sagaOrder: 3,
+  },
+  {
+    title: 'La Forêt des captifs',
+    author: 'Pierre Bottero',
+    coverUrl:
+      '/books_pictures/les_mondes_dewilan_tome_1_la_foret_des_captifs-686716-264-432.jpg',
+    pages: 411,
+    genre: 'Fantasy',
+    saga: 'Ewilan',
+    sagaOrder: 4,
+  },
+  {
+    title: "L'Œil d'Otolep",
+    author: 'Pierre Bottero',
+    coverUrl:
+      '/books_pictures/les_mondes_dewilan_tome_2_loeil_dotolep-6550-264-432.jpg',
+    pages: 411,
+    genre: 'Fantasy',
+    saga: 'Ewilan',
+    sagaOrder: 5,
+  },
+  {
+    title: 'Les Tentacules du mal',
+    author: 'Pierre Bottero',
+    coverUrl:
+      '/books_pictures/les_mondes_dewilan_tome_3_les_tentacules_du_mal-6551-264-432.jpg',
+    pages: 411,
+    genre: 'Fantasy',
+    saga: 'Ewilan',
+    sagaOrder: 6,
+  },
+  {
+    title: 'Ellana',
+    author: 'Pierre Bottero',
+    coverUrl:
+      '/books_pictures/le_pacte_des_marchombres_tome_1_ellana-54302-264-432.jpg',
+    pages: 411,
+    genre: 'Fantasy',
+    saga: 'Ewilan',
+    sagaOrder: 7,
+  },
+  {
+    title: "Ellana, l'Envol",
+    author: 'Pierre Bottero',
+    coverUrl:
+      '/books_pictures/le_pacte_des_marchombres_tome_2_ellana_lenvol-6778-264-432.jpg',
+    pages: 411,
+    genre: 'Fantasy',
+    saga: 'Ewilan',
+    sagaOrder: 8,
+  },
+  {
+    title: 'Ellana, la Prophétie',
+    author: 'Pierre Bottero',
+    coverUrl:
+      '/books_pictures/le_pacte_des_marchombres_tome_3_ellana_la_prophetie-6781-264-432.jpg',
+    pages: 411,
+    genre: 'Fantasy',
+    saga: 'Ewilan',
+    sagaOrder: 9,
+  },
+  {
+    title: 'Les sortceliers',
+    author: 'Sophie Audouin-Mamikonian',
+    coverUrl:
+      '/books_pictures/tara_duncan_tome_1_les_sortceliers-2285542-264-432.jpg',
+    pages: 501,
+    genre: 'Fantasy',
+    saga: 'Tara Duncan',
+    sagaOrder: 1,
+  },
+  {
+    title: 'Le livre interdit',
+    author: 'Sophie Audouin-Mamikonian',
+    coverUrl:
+      '/books_pictures/tara_duncan_tome_2_le_livre_interdit-52137-264-432.jpg',
+    pages: 502,
+    genre: 'Fantasy',
+    saga: 'Tara Duncan',
+    sagaOrder: 2,
+  },
+  {
+    title: 'Le sceptre maudit',
+    author: 'Sophie Audouin-Mamikonian',
+    coverUrl:
+      '/books_pictures/tara_duncan_tome_3_le_sceptre_maudit-236537-264-432.jpg',
+    pages: 503,
+    genre: 'Fantasy',
+    saga: 'Tara Duncan',
+    sagaOrder: 3,
+  },
+  {
+    title: 'Le dragon renégat',
+    author: 'Sophie Audouin-Mamikonian',
+    coverUrl:
+      '/books_pictures/tara_duncan_tome_4_le_dragon_renegat-9381-264-432.jpg',
+    pages: 507,
+    genre: 'Fantasy',
+    saga: 'Tara Duncan',
+    sagaOrder: 4,
+  },
+  {
+    title: 'Le continent interdit',
+    author: 'Sophie Audouin-Mamikonian',
+    coverUrl:
+      '/books_pictures/tara_duncan_tome_5_le_continent_interdit-39259-264-432.jpg',
+    pages: 506,
+    genre: 'Fantasy',
+    saga: 'Tara Duncan',
+    sagaOrder: 5,
+  },
+  {
+    title: 'Dans le piège de Magister',
+    author: 'Sophie Audouin-Mamikonian',
+    coverUrl:
+      '/books_pictures/tara_duncan_tome_6_dans_le_piege_de_magister-100912-264-432.jpg',
+    pages: 508,
+    genre: 'Fantasy',
+    saga: 'Tara Duncan',
+    sagaOrder: 6,
+  },
+  {
+    title: "Tara Duncan et l'invasion fantôme",
+    author: 'Sophie Audouin-Mamikonian',
+    coverUrl:
+      '/books_pictures/tara_duncan_tome_7_linvasion_fantome-118545-264-432.jpg',
+    pages: 504,
+    genre: 'Fantasy',
+    saga: 'Tara Duncan',
+    sagaOrder: 7,
+  },
+  {
+    title: "L'impératrice maléfique",
+    author: 'Sophie Audouin-Mamikonian',
+    coverUrl:
+      '/books_pictures/tara_duncan_tome_8_limperatrice_malefique-68463-264-432.jpg',
+    pages: 505,
+    genre: 'Fantasy',
+    saga: 'Tara Duncan',
+    sagaOrder: 8,
+  },
+  {
+    title: 'Tara Duncan contre la reine noire',
+    author: 'Sophie Audouin-Mamikonian',
+    coverUrl:
+      '/books_pictures/tara_duncan_tome_9_tara_duncan_contre_la_reine_noire-233246-264-432.jpg',
+    pages: 503,
+    genre: 'Fantasy',
+    saga: 'Tara Duncan',
+    sagaOrder: 9,
+  },
+  {
+    title: 'Dragons contre Démons',
+    author: 'Sophie Audouin-Mamikonian',
+    coverUrl:
+      '/books_pictures/tara_duncan_tome_10_dragons_contre_demons-2576032-264-432.jpg',
+    pages: 527,
+    genre: 'Fantasy',
+    saga: 'Tara Duncan',
+    sagaOrder: 10,
+  },
+  {
+    title: 'La Guerre des planètes',
+    author: 'Sophie Audouin-Mamikonian',
+    coverUrl:
+      '/books_pictures/tara_duncan_tome_11_la_guerre_des_planetes-323656-264-432.jpg',
+    pages: 519,
+    genre: 'Fantasy',
+    saga: 'Tara Duncan',
+    sagaOrder: 11,
+  },
+  {
+    title: "L'Ultime Combat",
+    author: 'Sophie Audouin-Mamikonian',
+    coverUrl:
+      '/books_pictures/tara_duncan_tome_12_lultime_combat-493535-264-432.jpg',
+    pages: 518,
+    genre: 'Fantasy',
+    saga: 'Tara Duncan',
+    sagaOrder: 12,
+  },
+  {
+    title: 'Tara et Cal',
+    author: 'Sophie Audouin-Mamikonian',
+    coverUrl:
+      '/books_pictures/tara_duncan_tome_13_tara_et_cal-684594-264-432.jpg',
+    pages: 520,
+    genre: 'Fantasy',
+    saga: 'Tara Duncan',
+    sagaOrder: 13,
+  },
+  {
+    title: "Le Trône de fer, L'Intégrale Tome 1",
+    author: 'George R.R. Martin',
+    coverUrl:
+      '/books_pictures/le_trone_de_fer_integrale_tome_1-89278-264-432.jpg',
+    pages: 835,
+    genre: 'Fantasy',
+    saga: 'Le Trône de fer',
+    sagaOrder: 1,
+  },
+  {
+    title: "Le Trône de fer, L'Intégrale Tome 2",
+    author: 'George R.R. Martin',
+    coverUrl:
+      '/books_pictures/le_trone_de_fer_integrale_tome_2-1235271-264-432.jpg',
+    pages: 960,
+    genre: 'Fantasy',
+    saga: 'Le Trône de fer',
+    sagaOrder: 2,
+  },
+  {
+    title: "Le Trône de fer, L'Intégrale Tome 3",
+    author: 'George R.R. Martin',
+    coverUrl:
+      '/books_pictures/le_trone_de_fer_integrale_tome_3-4198983-264-432.jpg',
+    pages: 1149,
+    genre: 'Fantasy',
+    saga: 'Le Trône de fer',
+    sagaOrder: 3,
+  },
+  {
+    title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
+    author: 'J.R.R. Tolkien',
+    coverUrl: '/books_pictures/61_9782266346764_1_75.jpg',
+    pages: 576,
+    genre: 'Fantasy',
+    saga: 'Le Seigneur des Anneaux',
+    sagaOrder: 1,
+  },
+];

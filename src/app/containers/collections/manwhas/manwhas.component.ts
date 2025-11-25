@@ -6,7 +6,7 @@ import {
   SortDropdownComponent,
   SortOption,
 } from '../../../components/sort-dropdown/sort-dropdown.component';
-import { manwhas } from '../../../utils/guillaume/mangas/manwhas';
+import { manwhas } from '../../../utils/users/guillaume/mangas/manwhas';
 import { Book } from '../../../models/book-model';
 import { ActivatedRoute, Params, RouterLink } from '@angular/router';
 import {

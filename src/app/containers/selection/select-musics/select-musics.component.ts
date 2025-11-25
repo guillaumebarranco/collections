@@ -2,7 +2,7 @@ import { Component, signal, computed } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import { Music } from '../../../models/music-model';
-import { musics } from '../../../utils/guillaume/musics';
+import { musics } from '../../../utils/users/guillaume/musics';
 
 @Component({
   selector: 'app-select-musics',

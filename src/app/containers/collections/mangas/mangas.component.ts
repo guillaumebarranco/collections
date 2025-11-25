@@ -11,7 +11,7 @@ import {
   StatItem,
 } from '../../../components/stats-display/stats-display.component';
 import { Book } from '../../../models/book-model';
-import { mangas } from '../../../utils/guillaume/mangas/mangas';
+import { mangas } from '../../../utils/users/guillaume/mangas/mangas';
 import {
   getTotalMangaPages,
   getTotalMangaTomesRead,

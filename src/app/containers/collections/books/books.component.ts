@@ -12,18 +12,14 @@ import {
   StatItem,
 } from '../../../components/stats-display/stats-display.component';
 import { Book } from '../../../models/book-model';
-import {
-  books,
-  booksFantasySaga,
-  booksSaga,
-} from '../../../utils/guillaume/books';
+
 import {
   getTotalPages,
   getTotalPagesRead,
   getEstimatedReadingTime,
 } from '../../../utils/stats.utils';
 import { ActivatedRoute, Params, RouterLink } from '@angular/router';
-import { kevinBooks1, kevinBooks2 } from '../../../utils/kevin/books';
+import { getAllBooks } from '../../../facades/books.facade';
 
 @Component({
   selector: 'app-books',
@@ -76,11 +72,7 @@ export class BooksComponent {
     { value: 'genre', label: 'Genre' },
   ];
 
-  booksList = signal<{ [key: string]: Book[] }>({
-    guillaume: [...books, ...booksFantasySaga, ...booksSaga],
-    kevin: [...kevinBooks1, ...kevinBooks2],
-    william: [],
-  });
+  booksList = signal<{ [key: string]: Book[] }>(getAllBooks());
 
   allBooks = computed<Book[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;

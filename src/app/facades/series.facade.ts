@@ -1,8 +1,8 @@
 import { Serie, BaseSerie, UserSerie } from '../models/serie-model';
 
-import { baseSeries } from '../utils/series/base_series';
+import { baseSeries } from '../utils/entities/series/base_series';
 
-import { guillaumeSeries } from '../utils/guillaume/series';
+import { guillaumeSeries } from '../utils/users/guillaume/series';
 
 const allBaseSeries: BaseSerie[] = [...baseSeries];
 

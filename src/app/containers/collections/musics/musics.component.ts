@@ -16,7 +16,7 @@ import {
   Album,
 } from '../../../components/album-modal/album-modal.component';
 import { Music } from '../../../models/music-model';
-import { musics } from '../../../utils/guillaume/musics';
+import { musics } from '../../../utils/users/guillaume/musics';
 import { ActivatedRoute, Params, RouterLink } from '@angular/router';
 
 const MIN_SONGS_PER_ALBUM = 8;

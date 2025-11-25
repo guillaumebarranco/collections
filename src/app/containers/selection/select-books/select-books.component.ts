@@ -2,12 +2,7 @@ import { Component, signal, computed } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import { Book } from '../../../models/book-model';
-import {
-  books,
-  booksFantasySaga,
-  booksSaga,
-} from '../../../utils/guillaume/books';
-import { kevinBooks1, kevinBooks2 } from '../../../utils/kevin/books';
+import { getAllBooksMerged } from '../../../facades/books.facade';
 
 @Component({
   selector: 'app-select-books',
@@ -17,15 +12,7 @@ import { kevinBooks1, kevinBooks2 } from '../../../utils/kevin/books';
 })
 export class SelectBooksComponent {
   // Tous les livres de tous les utilisateurs
-  allBooks = signal<Book[]>([
-    // Guillaume
-    ...books,
-    ...booksFantasySaga,
-    ...booksSaga,
-    // Kevin
-    ...kevinBooks1,
-    ...kevinBooks2,
-  ]);
+  allBooks = signal<Book[]>(getAllBooksMerged());
 
   // Livres sélectionnés
   selectedBooks = signal<Set<string>>(new Set());

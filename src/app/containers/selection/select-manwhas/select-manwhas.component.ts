@@ -2,7 +2,7 @@ import { Component, signal, computed } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import { Book } from '../../../models/book-model';
-import { manwhas } from '../../../utils/guillaume/mangas/manwhas';
+import { manwhas } from '../../../utils/users/guillaume/mangas/manwhas';
 
 @Component({
   selector: 'app-select-manwhas',

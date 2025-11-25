@@ -1,14 +1,22 @@
-export interface Book {
+export interface MandatoryBookData {
   title: string;
   author: string;
+}
+
+export interface BaseBook extends MandatoryBookData {
   coverUrl: string;
-  readDate: string;
-  rating: number;
   pages?: number;
   genre: string;
   saga: string;
   sagaOrder: number;
-  readTimes?: number;
   nbTomes?: number;
   isFinished?: boolean;
 }
+
+export interface UserBook extends MandatoryBookData {
+  readDate: string;
+  rating: number;
+  readTimes?: number;
+}
+
+export interface Book extends BaseBook, UserBook {}

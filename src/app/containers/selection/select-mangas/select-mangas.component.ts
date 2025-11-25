@@ -2,7 +2,7 @@ import { Component, signal, computed } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import { Book } from '../../../models/book-model';
-import { mangas } from '../../../utils/guillaume/mangas/mangas';
+import { mangas } from '../../../utils/users/guillaume/mangas/mangas';
 
 @Component({
   selector: 'app-select-mangas',

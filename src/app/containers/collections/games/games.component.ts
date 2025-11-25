@@ -11,7 +11,12 @@ import {
   StatItem,
 } from '../../../components/stats-display/stats-display.component';
 import { Game } from '../../../models/game-model';
-import { games1, games2, games3, games4 } from '../../../utils/guillaume/games';
+import {
+  games1,
+  games2,
+  games3,
+  games4,
+} from '../../../utils/users/guillaume/games';
 import {
   formatTimeStats,
   ItemWithGameLength,
