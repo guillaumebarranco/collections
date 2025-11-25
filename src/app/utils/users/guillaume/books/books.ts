@@ -426,13 +426,20 @@ export const guillaumeBooks: UserBook[] = [
     author: 'Aricia Favalli',
     readDate: '2025-09-24',
     rating: 3,
-    readTimes: 0,
+    readTimes: 1,
   },
   {
     title: 'Alchemised',
     author: 'SenLinYu',
     readDate: '2025-10-11',
     rating: 4.75,
-    readTimes: 0,
+    readTimes: 1,
+  },
+  {
+    title: 'Une seconde chance',
+    author: 'Nicholas Sparks',
+    readDate: '2025-11-03',
+    rating: 3,
+    readTimes: 1,
   },
 ];

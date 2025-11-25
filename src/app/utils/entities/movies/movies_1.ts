@@ -764,7 +764,7 @@ export const baseMoviesPage1: BaseMovie[] = [
       { name: 'Béatrice Dalle' },
       { name: 'Vincent Elbaz' },
     ],
-    coverUrl: '/movies_pictures/dans_tes_reves.jpg',
+    coverUrl: '/movies_pictures/18411781.jpg',
     releaseDate: '2005-10-05',
     length: 95,
     genre: 'Comedy, Drama',

@@ -559,4 +559,13 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
   },
+  {
+    title: 'Une seconde chance',
+    author: 'Nicholas Sparks',
+    coverUrl: '/books_pictures/61dlBm9b5XL._AC_UF1000,1000_QL80_.jpg',
+    pages: 320,
+    genre: 'Romance',
+    saga: '',
+    sagaOrder: 0,
+  },
 ];

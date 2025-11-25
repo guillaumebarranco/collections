@@ -541,7 +541,7 @@ export const guillaumeMoviesPage1: UserMovie[] = [
     title: 'Dans tes rêves',
     director: 'Denis Thybaud',
     rating: 0,
-    timesWatched: 0,
+    timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
   },

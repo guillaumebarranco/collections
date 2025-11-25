@@ -41,6 +41,15 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 4,
   },
   {
+    title: 'Lever de soleil sur la moisson',
+    author: 'Suzanne Collins',
+    coverUrl: '/books_pictures/61I3DDpN-xL._AC_UF1000,1000_QL80_.jpg',
+    pages: 448,
+    genre: 'Science Fiction',
+    saga: 'Hunger Games',
+    sagaOrder: 5,
+  },
+  {
     title: "Harry Potter à l'école des sorciers",
     author: 'J.K. Rowling',
     coverUrl:

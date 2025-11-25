@@ -996,4 +996,22 @@ export const baseMoviesPage3: BaseMovie[] = [
     length: 141,
     genre: 'Science Fiction',
   },
+  {
+    title: 'Fourmiz',
+    director: 'Eric Darnell, Tim Johnson',
+    actors: [{ name: 'Woody Allen' }, { name: 'Sharon Stone' }],
+    coverUrl: '/movies_pictures/fourmiz-a-354x500.jpg',
+    releaseDate: '1998-10-02',
+    length: 83,
+    genre: 'Animation',
+  },
+  {
+    title: 'Léon',
+    director: 'Luc Besson',
+    actors: [{ name: 'Jean Reno' }, { name: 'Natalie Portman' }],
+    coverUrl: '/movies_pictures/leon.jpg',
+    releaseDate: '1994-09-14',
+    length: 110,
+    genre: 'Action',
+  },
 ];

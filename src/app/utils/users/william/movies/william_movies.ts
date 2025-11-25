@@ -57,4 +57,12 @@ export const williamMovies: UserMovie[] = [
     firstViewedDate: '2025-10-23',
     lastViewedDate: '2025-10-23',
   },
+  {
+    title: 'Ratatouille',
+    director: 'Brad Bird',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '2025-08-23',
+    lastViewedDate: '2025-08-23',
+  },
 ];

@@ -30,6 +30,13 @@ export const guillaumeBooksSaga: UserBook[] = [
     readTimes: 1,
   },
   {
+    title: 'Lever de soleil sur la moisson',
+    author: 'Suzanne Collins',
+    readDate: '2025-11-12',
+    rating: 4,
+    readTimes: 1,
+  },
+  {
     title: "Harry Potter à l'école des sorciers",
     author: 'J.K. Rowling',
     readDate: '2004-07-01',
