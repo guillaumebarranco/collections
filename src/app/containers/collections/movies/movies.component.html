@@ -1,13 +1,18 @@
 <app-menu></app-menu>
 
 <div class="movies-container">
-  <h1>Films visionnés ({{ allMovies().length }})</h1>
+  <h1>
+    {{
+      selectedView() === 'watchlist' ? 'Films à voir' : 'Films visionnés'
+    }}
+    ({{ filteredMovies().length }})
+  </h1>
 
-  @if(allMovies().length === 0) {
+  @if(filteredMovies().length === 0) {
   <div class="empty-state">
-    <p class="empty-message">Vous n'avez aucun film dans votre collection.</p>
+    <p class="empty-message">Aucun film à afficher pour cette sélection.</p>
     <p class="empty-subtitle">
-      Commencez dès maintenant à créer votre cinémathèque personnelle !
+      Passez sur l'autre vue ou ajoutez de nouveaux films à votre collection.
     </p>
     <button class="btn btn-primary" [routerLink]="getSelectMoviesRoute()">
       Sélectionner mes films
@@ -18,17 +23,31 @@
   <div class="movies-header">
     <app-stats-display
       [stats]="stats()"
-      [count]="allMovies().length"
+      [count]="filteredMovies().length"
       countLabel="films"
     >
     </app-stats-display>
 
-    <app-sort-dropdown
-      [sortOptions]="sortOptions"
-      [selectedSort]="selectedSort()"
-      (sortChange)="onSortChange($event)"
-    >
-    </app-sort-dropdown>
+    <div class="movies-filters">
+      <app-sort-dropdown
+        [sortOptions]="sortOptions"
+        [selectedSort]="selectedSort()"
+        (sortChange)="onSortChange($event)"
+      >
+      </app-sort-dropdown>
+
+      <label class="movies-view-select">
+        <span>Afficher</span>
+        <select
+          [value]="selectedView()"
+          (change)="onViewChange(($any($event.target).value))"
+        >
+          @for (option of movieViewOptions; track option.value) {
+          <option [value]="option.value">{{ option.label }}</option>
+          }
+        </select>
+      </label>
+    </div>
   </div>
 
   <div class="movies">

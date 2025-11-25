@@ -16,7 +16,12 @@ import {
 } from '../../../utils/stats.utils';
 import { Movie } from '../../../models/movie-model';
 import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
-import { getAllMovies } from '../../../facades/movies.facade';
+import {
+  getAllMovies,
+  getAllWatchlistMovies,
+} from '../../../facades/movies.facade';
+
+type MovieView = 'watched' | 'watchlist';
 
 @Component({
   selector: 'app-movies',
@@ -36,6 +41,7 @@ export class MoviesComponent {
   activatedRoute = inject(ActivatedRoute);
 
   selectedSort = signal<string>('rating');
+  selectedView = signal<MovieView>('watched');
 
   sortOptions: SortOption[] = [
     { value: 'title', label: 'Titre (A-Z)' },
@@ -52,7 +58,24 @@ export class MoviesComponent {
     { value: 'lastViewedDate-asc', label: 'Dernier visionnage (ancien)' },
   ];
 
+  movieViewOptions: { value: MovieView; label: string }[] = [
+    { value: 'watched', label: 'Films vus' },
+    { value: 'watchlist', label: 'Films à voir' },
+  ];
+
   moviesList = signal<{ [key: string]: Movie[] }>(getAllMovies());
+
+  watchingMoviesList = signal<{ [key: string]: Movie[] }>(
+    getAllWatchlistMovies()
+  );
+
+  allWatchlistMovies = computed<Movie[]>(() => {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? this.watchingMoviesList()[params['id']] || []
+      : this.watchingMoviesList()['guillaume'];
+  });
 
   allMovies = computed<Movie[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
@@ -62,8 +85,17 @@ export class MoviesComponent {
       : this.moviesList()['guillaume'];
   });
 
+  filteredMovies = computed<Movie[]>(() => {
+    const movies =
+      this.selectedView() === 'watchlist'
+        ? this.allWatchlistMovies()
+        : this.allMovies();
+
+    return movies;
+  });
+
   sortedMovies = computed<Movie[]>(() => {
-    const sortedMovies = [...this.allMovies()];
+    const sortedMovies = [...this.filteredMovies()];
 
     switch (this.selectedSort()) {
       case 'title':
@@ -130,8 +162,8 @@ export class MoviesComponent {
   });
 
   stats = computed<StatItem[]>(() => {
-    const totalDuration = getTotalDuration(this.allMovies());
-    const totalWatchingTime = getTotalWatchingTime(this.allMovies());
+    const totalDuration = getTotalDuration(this.filteredMovies());
+    const totalWatchingTime = getTotalWatchingTime(this.filteredMovies());
 
     return [
       {
@@ -157,5 +189,9 @@ export class MoviesComponent {
 
   onSortChange(sortValue: string) {
     this.selectedSort.set(sortValue);
+  }
+
+  onViewChange(view: MovieView) {
+    this.selectedView.set(view);
   }
 }
