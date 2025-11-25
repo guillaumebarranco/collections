@@ -2,8 +2,20 @@
 
 <div class="select-movies-container">
   <div class="header">
-    <h1>Sélectionner des films</h1>
+    <h1>
+      {{ isWatchlistMode() ? 'Sélectionner des films pour ma watchlist' : 'Sélectionner des films' }}
+    </h1>
 
+    @if(isWatchlistMode()) {
+    <p>
+      Bonjour {{ username() }} 👋 <br /><br />
+      Tu es en mode "Watchlist" ! Ici, tu peux sélectionner les films que tu souhaites ajouter à ta liste de films à voir.
+      <br /><br />
+      Les films que tu as déjà vus sont automatiquement exclus de cette liste pour t'éviter les doublons.
+      <br /><br />
+      Sélectionne les films que tu aimerais voir et télécharge le fichier JSON pour construire ta watchlist.
+    </p>
+    } @else {
     <p>
       Bonjour {{ username() }} 👋 <br /><br />
       Si tu es ici, c'est que tu souhaites pouvoir faire ta collection de films
@@ -66,6 +78,7 @@
         et tu pourras profiter de l'outil tranquillement :)
       </li>
     </ul>
+    }
   </div>
 
   <div class="toolbar">
@@ -86,7 +99,7 @@
         (click)="exportSelectedMovies()"
         [disabled]="selectedCount() === 0"
       >
-        📥 Exporter ma liste de films ({{ selectedCount() }})
+        📥 {{ isWatchlistMode() ? 'Exporter ma watchlist' : 'Exporter ma liste de films' }} ({{ selectedCount() }})
       </button>
     </div>
   </div>

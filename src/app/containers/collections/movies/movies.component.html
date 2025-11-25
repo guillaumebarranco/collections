@@ -2,9 +2,7 @@
 
 <div class="movies-container">
   <h1>
-    {{
-      selectedView() === 'watchlist' ? 'Films à voir' : 'Films visionnés'
-    }}
+    {{ selectedView() === "watchlist" ? "Films à voir" : "Films visionnés" }}
     ({{ filteredMovies().length }})
   </h1>
 
@@ -40,7 +38,7 @@
         <span>Afficher</span>
         <select
           [value]="selectedView()"
-          (change)="onViewChange(($any($event.target).value))"
+          (change)="onViewChange($any($event.target).value)"
         >
           @for (option of movieViewOptions; track option.value) {
           <option [value]="option.value">{{ option.label }}</option>
@@ -49,6 +47,18 @@
       </label>
     </div>
   </div>
+
+  @if(selectedView() === 'watchlist') {
+  <div class="watchlist-actions">
+    <button
+      class="btn btn-primary"
+      [routerLink]="getSelectWatchlistRoute()"
+      [queryParams]="{ watchlist: 'true' }"
+    >
+      Ajouter des films à ma watchlist
+    </button>
+  </div>
+  }
 
   <div class="movies">
     @for (movie of sortedMovies(); track `${movie.title}-${movie.releaseDate}`)

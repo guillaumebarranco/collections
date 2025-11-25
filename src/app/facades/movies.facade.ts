@@ -84,6 +84,11 @@ export function getAllMoviesMerged(): Movie[] {
   return Object.values(getAllMovies()).flat();
 }
 
+export function getMoviesByUser(userId: string): Movie[] {
+  const allMoviesData = getAllMovies();
+  return allMoviesData[userId] || [];
+}
+
 function getAllMoviesData(movies: UserMovie[]): Movie[] {
   return movies.map((movie: UserMovie) => {
     const matchingBaseMovie = allBaseMovies.filter(

@@ -187,6 +187,13 @@ export class MoviesComponent {
     return hasNameParam ? `/${params['id']}/select-movies` : '/select-movies';
   }
 
+  getSelectWatchlistRoute(): string[] {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    const userId = hasNameParam ? params['id'] : 'guillaume';
+    return hasNameParam ? [`/${userId}`, 'select-movies'] : ['/select-movies'];
+  }
+
   onSortChange(sortValue: string) {
     this.selectedSort.set(sortValue);
   }
