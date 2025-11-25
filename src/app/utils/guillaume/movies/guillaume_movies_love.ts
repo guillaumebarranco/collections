@@ -6,6 +6,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Hugo Gélin',
     rating: 4.5,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -13,6 +14,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Mike Rohl',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -20,6 +22,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Claire Scanlon',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -27,6 +30,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Liz W. Garcia',
     rating: 3.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '2025-03-08',
   },
   {
@@ -34,6 +38,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'João Canijo',
     rating: 3.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '2025-02-08',
   },
   {
@@ -41,6 +46,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Elizabeth Allen Rosenbaum',
     rating: 4.25,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -48,6 +54,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Diego Freitas',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -55,6 +62,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Vanessa Caswill',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -62,6 +70,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Alauda Ruiz de Azúa',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -69,6 +78,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Michael Lewen',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -76,6 +86,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Stuart McDonald',
     rating: 3.5,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -83,6 +94,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Arie Posin',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -90,6 +102,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Marçal Forés',
     rating: 2.75,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -97,6 +110,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Hernán Jiménez',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -104,6 +118,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Steven Tsuchida',
     rating: 2.75,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -111,6 +126,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Bill Condon',
     rating: 3.5,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -118,6 +134,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Ross Katz',
     rating: 4,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '2025-02-05',
   },
   {
@@ -125,6 +142,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'George Nolfi',
     rating: 3.75,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -132,6 +150,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Lone Scherfig',
     rating: 3.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -139,6 +158,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Ivan Reitman',
     rating: 3.75,
     timesWatched: 20,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -146,6 +166,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Edward Zwick',
     rating: 4,
     timesWatched: 20,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -153,6 +174,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Anne Fletcher',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -160,6 +182,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Jon M. Chu',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -167,6 +190,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Jon M. Chu',
     rating: 3.75,
     timesWatched: 15,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -174,6 +198,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Pascal Chaumeil',
     rating: 4,
     timesWatched: 20,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -181,6 +206,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Allen Coulter',
     rating: 3.75,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '2025-04-12',
   },
   {
@@ -188,6 +214,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Garry Marshall',
     rating: 3.25,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -195,6 +222,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Anne Fletcher',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -202,6 +230,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Burr Steers',
     rating: 3,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -209,6 +238,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Marc Webb',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -216,6 +246,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Tom Vaughan',
     rating: 3,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -223,6 +254,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Jason Reitman',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -230,6 +262,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Joe Wright',
     rating: 3.25,
     timesWatched: 2,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -237,6 +270,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Woody Allen',
     rating: 3.75,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -244,6 +278,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Andy Tennant',
     rating: 4.25,
     timesWatched: 30,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -251,6 +286,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Forest Whitaker',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -258,6 +294,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Michel Gondry',
     rating: 3.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -265,6 +302,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Luke Greenfield',
     rating: 3.5,
     timesWatched: 10,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -272,6 +310,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Peter Segal',
     rating: 4.25,
     timesWatched: 30,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -279,6 +318,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Richard Curtis',
     rating: 3.5,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -286,6 +326,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Adam Shankman',
     rating: 4,
     timesWatched: 10,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -293,6 +334,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Michael Bay',
     rating: 4,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -300,6 +342,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Nancy Meyers',
     rating: 3.75,
     timesWatched: 20,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -307,6 +350,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Roger Michell',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -314,6 +358,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Martin Brest',
     rating: 2,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '2025-04-13',
   },
   {
@@ -321,6 +366,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Garry Marshall',
     rating: 4,
     timesWatched: 10,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -328,6 +374,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Filip Zylber',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -335,6 +382,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Damien Chazelle',
     rating: 3.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -342,6 +390,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Claude Zidi Jr.',
     rating: 3.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '2025-04-31',
   },
   {
@@ -349,6 +398,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Mike Rohl',
     rating: 2.75,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -356,6 +406,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'John Whitesell',
     rating: 2.75,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -363,6 +414,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Bruno Garotti',
     rating: 3.25,
     timesWatched: 2,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -370,6 +422,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Oliver Kienle',
     rating: 2.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -377,6 +430,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Paul Feig',
     rating: 2.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -384,6 +438,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Michael Lehmann',
     rating: 3.5,
     timesWatched: 15,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
 ];

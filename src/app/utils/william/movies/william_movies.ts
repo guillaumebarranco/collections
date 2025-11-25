@@ -6,6 +6,7 @@ export const williamMovies: UserMovie[] = [
     director: 'John Lasseter',
     rating: 0,
     timesWatched: 10,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -13,6 +14,7 @@ export const williamMovies: UserMovie[] = [
     director: 'John Lasseter, Brad Lewis',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '2025-11-23',
     lastViewedDate: '2025-11-23',
   },
   {
@@ -20,6 +22,7 @@ export const williamMovies: UserMovie[] = [
     director: 'Brian Fee',
     rating: 0,
     timesWatched: 6,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -27,6 +30,7 @@ export const williamMovies: UserMovie[] = [
     director: 'Klay Hall',
     rating: 0,
     timesWatched: 2,
+    firstViewedDate: '2025-08-14',
     lastViewedDate: '2025-08-14',
   },
   {
@@ -34,6 +38,7 @@ export const williamMovies: UserMovie[] = [
     director: 'Roberts Gannaway',
     rating: 0,
     timesWatched: 4,
+    firstViewedDate: '2025-09-14',
     lastViewedDate: '2025-09-14',
   },
   {
@@ -41,6 +46,7 @@ export const williamMovies: UserMovie[] = [
     director: 'Andrew Stanton',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '2025-09-23',
     lastViewedDate: '2025-09-23',
   },
   {
@@ -48,6 +54,7 @@ export const williamMovies: UserMovie[] = [
     director: 'Andrew Stanton, Angus MacLane',
     rating: 0,
     timesWatched: 2,
+    firstViewedDate: '2025-10-23',
     lastViewedDate: '2025-10-23',
   },
 ];

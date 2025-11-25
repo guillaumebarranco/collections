@@ -11,12 +11,12 @@ import {
   StatItem,
 } from '../../../components/stats-display/stats-display.component';
 import { Serie } from '../../../models/serie-model';
-import { series1, series2 } from '../../../utils/guillaume/series';
 import {
   getTotalWatchingTime,
   getTotalDuration,
 } from '../../../utils/stats.utils';
 import { ActivatedRoute, Params, RouterLink } from '@angular/router';
+import { getAllSeries } from '../../../facades/series.facade';
 
 @Component({
   selector: 'app-series',
@@ -53,11 +53,7 @@ export class SeriesComponent {
     { value: 'nbEpisodesTotal-asc', label: 'Épisodes (faible)' },
   ]);
 
-  seriesList = signal<{ [key: string]: Serie[] }>({
-    guillaume: [...series1, ...series2],
-    william: [],
-    kevin: [],
-  });
+  seriesList = signal<{ [key: string]: Serie[] }>(getAllSeries());
 
   allSeries = computed<Serie[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;

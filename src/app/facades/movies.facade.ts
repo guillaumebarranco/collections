@@ -1,4 +1,4 @@
-import { Movie, BaseMovie, UserMovie } from '../../../models/movie-model';
+import { Movie, BaseMovie, UserMovie } from '../models/movie-model';
 
 import {
   baseMoviesPage1,
@@ -12,7 +12,7 @@ import {
   baseMoviesAnimated,
   baseMoviesSagaPage1,
   baseMoviesSagaPage2,
-} from '../../../utils/movies/index';
+} from '../utils/movies/index';
 
 import {
   guillaumeMoviesPage1,
@@ -27,11 +27,11 @@ import {
   guillaumeMoviesAnimated,
   guillaumeMoviesSagaPage1,
   guillaumeMoviesSagaPage2,
-} from '../../../utils/guillaume/movies';
-import { williamMovies } from '../../../utils/william/movies';
-import { amandineMovies1 } from '../../../utils/amandine/movies/amandine_movies_1';
-import { amandineMovies2 } from '../../../utils/amandine/movies/amandine_movies_2';
-import { baseMoviesFromAmandine } from '../../../utils/movies/movies_from_amandine';
+} from '../utils/guillaume/movies';
+import { williamMovies } from '../utils/william/movies';
+import { amandineMovies1 } from '../utils/amandine/movies/amandine_movies_1';
+import { amandineMovies2 } from '../utils/amandine/movies/amandine_movies_2';
+import { baseMoviesFromAmandine } from '../utils/movies/movies_from_amandine';
 
 const allBaseMovies: BaseMovie[] = [
   ...baseMoviesPage1,
@@ -93,6 +93,7 @@ function getAllMoviesData(movies: UserMovie[]): Movie[] {
       director: movie.director,
       rating: movie.rating,
       timesWatched: movie.timesWatched,
+      firstViewedDate: movie.firstViewedDate,
       lastViewedDate: movie.lastViewedDate,
       actors: definitiveMatchingMovie?.actors || [],
       coverUrl: definitiveMatchingMovie?.coverUrl || '',

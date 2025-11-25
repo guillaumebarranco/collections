@@ -6,6 +6,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Dean DeBlois, Chris Sanders',
     rating: 4,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -13,6 +14,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Dean DeBlois',
     rating: 3.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -20,6 +22,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Dean DeBlois',
     rating: 3.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -27,6 +30,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Bob Persichetti, Peter Ramsey, Rodney Rothman',
     rating: 4,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -34,6 +38,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Joaquim Dos Santos, Kemp Powers, Justin K. Thompson',
     rating: 4,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -41,6 +46,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Rich Moore',
     rating: 3.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -48,6 +54,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Rich Moore, Phil Johnston',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -55,6 +62,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Aaron Horvath, Michael Jelenic',
     rating: 4,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -62,6 +70,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Jared Bush, Byron Howard',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -69,6 +78,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'John Lasseter',
     rating: 3.75,
     timesWatched: 10,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -76,6 +86,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Brian Fee',
     rating: 3.5,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -83,6 +94,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Tom McGrath',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -90,6 +102,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Ron Clements, John Musker',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -97,6 +110,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Pete Docter',
     rating: 3.75,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -104,6 +118,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Don Hall, Chris Williams',
     rating: 3.75,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -111,6 +126,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Chris Buck, Jennifer Lee',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -118,6 +134,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Pierre Coffin, Chris Renaud',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -125,6 +142,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Pierre Coffin, Chris Renaud',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -132,6 +150,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Peter Ramsey',
     rating: 3.5,
     timesWatched: 2,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -139,6 +158,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Chris Wedge, Carlos Saldanha',
     rating: 4.25,
     timesWatched: 30,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -146,6 +166,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Carlos Saldanha',
     rating: 4,
     timesWatched: 15,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -153,6 +174,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Carlos Saldanha',
     rating: 4,
     timesWatched: 15,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -160,6 +182,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Steve Martino, Mike Thurmeier',
     rating: 3.75,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -167,6 +190,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Mark Andrews, Brenda Chapman',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -174,6 +198,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Luc Besson',
     rating: 4.25,
     timesWatched: 20,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -181,6 +206,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Luc Besson',
     rating: 3.25,
     timesWatched: 2,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -188,6 +214,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Luc Besson',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -195,6 +222,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Ron Clements, John Musker',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -202,6 +230,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Phil Lord, Christopher Miller',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -209,6 +238,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Rob Letterman, Conrad Vernon',
     rating: 4,
     timesWatched: 20,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -216,6 +246,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Andrew Stanton',
     rating: 3.75,
     timesWatched: 2,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -223,6 +254,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Mark Osborne, John Stevenson',
     rating: 3.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -230,6 +262,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Steve Hickner, Simon J. Smith',
     rating: 2.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -237,6 +270,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'David Silverman',
     rating: 4.5,
     timesWatched: 40,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -244,6 +278,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Brad Bird',
     rating: 3.75,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -251,6 +286,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Andrew Adamson, Vicky Jenson',
     rating: 4,
     timesWatched: 10,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -258,6 +294,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Andrew Adamson, Kelly Asbury, Conrad Vernon',
     rating: 3.5,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -265,6 +302,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Chris Miller',
     rating: 3.25,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -272,6 +310,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Mike Mitchell',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -279,6 +318,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Brad Bird',
     rating: 4.5,
     timesWatched: 30,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -286,6 +326,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Brad Bird',
     rating: 3.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -293,6 +334,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Andrew Stanton',
     rating: 3.5,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -300,6 +342,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Pete Docter',
     rating: 3.5,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -307,6 +350,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'John Lasseter',
     rating: 3.5,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -314,6 +358,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'John Lasseter',
     rating: 3.5,
     timesWatched: 2,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -321,6 +366,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Lee Unkrich',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -328,6 +374,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Trey Parker',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -335,6 +382,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Chris Buck, Kevin Lima',
     rating: 4.25,
     timesWatched: 10,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -342,6 +390,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Eric Darnell, Tim Johnson',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -349,6 +398,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Tony Bancroft, Barry Cook',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -356,6 +406,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Hayao Miyazaki',
     rating: 3.25,
     timesWatched: 2,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -363,6 +414,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Ron Clements, John Musker',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -370,6 +422,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Mike Gabriel, Eric Goldberg',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -377,6 +430,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Joe Pytka',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -384,6 +438,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Roger Allers, Rob Minkoff',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -391,6 +446,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Ron Clements, John Musker',
     rating: 4.5,
     timesWatched: 30,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -398,6 +454,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Ron Clements, John Musker',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -405,6 +462,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Clyde Geronimi, Wilfred Jackson, Hamilton Luske',
     rating: 3.25,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -413,6 +471,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
       'Norman Ferguson, T. Hee, Wilfred Jackson, Jack Kinney, Hamilton Luske, Bill Roberts, Ben Sharpsteen',
     rating: 2.75,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -420,6 +479,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Tom McGrath',
     rating: 4.25,
     timesWatched: 10,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -427,6 +487,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Jimmy Hayward, Steve Martino',
     rating: 2.75,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -434,6 +495,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     director: 'Don Hall, Carlos López Estrada',
     rating: 4,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
 ];

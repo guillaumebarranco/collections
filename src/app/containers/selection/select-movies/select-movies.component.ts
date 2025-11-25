@@ -4,7 +4,7 @@ import { MenuComponent } from '../../../components/menu/menu.component';
 import { Movie } from '../../../models/movie-model';
 import { Params } from '@angular/router';
 import { ActivatedRoute } from '@angular/router';
-import { getAllMoviesMerged } from '../../collections/movies/movies.facade';
+import { getAllMoviesMerged } from '../../../facades/movies.facade';
 
 @Component({
   selector: 'app-select-movies',

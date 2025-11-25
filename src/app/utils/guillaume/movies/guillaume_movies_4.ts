@@ -6,6 +6,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Robert Stromberg',
     rating: 2.75,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '2014-05-30',
   },
   {
@@ -13,6 +14,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Doug Liman',
     rating: 4.5,
     timesWatched: 10,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -20,6 +22,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'José Padilha',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -27,6 +30,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Martin Scorsese',
     rating: 4.25,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -34,6 +38,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Ben Stiller',
     rating: 3.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -41,6 +46,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Denis Villeneuve',
     rating: 4,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -48,6 +54,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Alfonso Cuarón',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -55,6 +62,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Neill Blomkamp',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -62,6 +70,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Lee Daniels',
     rating: 3.75,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -69,6 +78,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Mikael Håfström',
     rating: 3.25,
     timesWatched: 2,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -76,6 +86,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Guillermo del Toro',
     rating: 2.75,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -83,6 +94,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Marc Forster',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -90,6 +102,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'James Wan',
     rating: 2.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -97,6 +110,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'M. Night Shyamalan',
     rating: 2.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '2013-05-31',
   },
   {
@@ -104,6 +118,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Michael Bay',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -111,6 +126,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Joseph Kosinski',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -118,6 +134,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Quentin Tarantino',
     rating: 3.75,
     timesWatched: 2,
+    firstViewedDate: '',
     lastViewedDate: '2012-12-25',
   },
   {
@@ -125,6 +142,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Thomas Sorriaux',
     rating: 2.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -132,6 +150,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Pete Travis',
     rating: 2.75,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -139,6 +158,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Simon West',
     rating: 2.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -146,6 +166,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Larry Charles',
     rating: 3.25,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -153,6 +174,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Scott Hicks',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -160,6 +182,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Ridley Scott',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -167,6 +190,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Phil Lord, Christopher Miller',
     rating: 3.5,
     timesWatched: 2,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
 
@@ -175,6 +199,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'McG',
     rating: 2.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -182,6 +207,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Josh Trank',
     rating: 3.75,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -189,6 +215,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Andrew Niccol',
     rating: 4.75,
     timesWatched: 15,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -196,6 +223,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Craig Brewer',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -203,6 +231,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Shawn Levy',
     rating: 3.5,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '2025-02-07',
   },
   {
@@ -210,6 +239,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Olivier Nakache, Éric Toledano',
     rating: 5,
     timesWatched: 15,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -217,6 +247,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: "Gavin O'Connor",
     rating: 3.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -224,6 +255,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Michael Jai White',
     rating: 2.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -231,6 +263,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Gareth Evans',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -238,6 +271,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Jon Favreau',
     rating: 2,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -245,6 +279,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Andrei Konchalovsky',
     rating: 3.25,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -252,6 +287,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Peter Weir',
     rating: 3.75,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -259,6 +295,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Mark DiSalle, David Worth',
     rating: 3,
     timesWatched: 2,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -266,6 +303,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Robert Zemeckis',
     rating: 3.75,
     timesWatched: 10,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -273,6 +311,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Newt Arnold',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -280,6 +319,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Barry Levinson',
     rating: 3.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -287,6 +327,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Paul Michael Glaser',
     rating: 3,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -294,6 +335,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Paul Verhoeven',
     rating: 3.5,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -301,6 +343,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Alex Proyas',
     rating: 3.25,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -308,6 +351,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Glenn Ficarra, John Requa',
     rating: 3.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -315,6 +359,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Gabriele Muccino',
     rating: 3.75,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -322,6 +367,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Peyton Reed',
     rating: 3.25,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -329,6 +375,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Clint Eastwood',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -336,6 +383,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Tony Jaa',
     rating: 2.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
 
@@ -344,6 +392,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'D.J. Caruso',
     rating: 4.5,
     timesWatched: 15,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -351,6 +400,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Danny Boyle',
     rating: 4,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -358,6 +408,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Paul W.S. Anderson',
     rating: 3.5,
     timesWatched: 10,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -365,6 +416,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Eric Brevig',
     rating: 3.5,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '2025-01-11',
   },
   {
@@ -372,6 +424,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Timur Bekmambetov',
     rating: 3,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -379,6 +432,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Dennis Dugan',
     rating: 3.25,
     timesWatched: 10,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -386,6 +440,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Lana Wachowski, Lilly Wachowski',
     rating: 3,
     timesWatched: 2,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -393,6 +448,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Dennis Gansel',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -400,6 +456,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Jeff Wadlow',
     rating: 4,
     timesWatched: 20,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -407,6 +464,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Doug Liman',
     rating: 3.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -414,6 +472,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Francis Lawrence',
     rating: 3.75,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -421,6 +480,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Oren Peli',
     rating: 2.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -428,6 +488,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Ben Affleck',
     rating: 3.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -435,6 +496,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Sean Penn',
     rating: 3.5,
     timesWatched: 2,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -442,6 +504,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Mikael Håfström',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -449,6 +512,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Tom Shadyac',
     rating: 2,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -456,6 +520,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Joel Coen, Ethan Coen',
     rating: 2.75,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '2025-04-09',
   },
   {
@@ -463,6 +528,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Juan Carlos Fresnadillo',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -470,6 +536,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'James Foley',
     rating: 3,
     timesWatched: 2,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -477,6 +544,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'D.J. Caruso',
     rating: 3.25,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -484,6 +552,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Greg Mottola',
     rating: 2.5,
     timesWatched: 2,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -491,6 +560,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'David Fincher',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -498,6 +568,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Mennan Yapo',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -505,6 +576,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Richard LaGravenese',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -512,6 +584,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Chuck Russell',
     rating: 3.75,
     timesWatched: 15,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -519,6 +592,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Jean-Claude Van Damme',
     rating: 3,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -526,6 +600,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Danny Boyle',
     rating: 2.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -533,6 +608,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Joe Johnston',
     rating: 3,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -540,6 +616,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'David Fincher',
     rating: 4,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -547,6 +624,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Irwin Winkler',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -554,6 +632,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Kevin Reynolds',
     rating: 3,
     timesWatched: 2,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -561,6 +640,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Geoff Murphy',
     rating: 3.25,
     timesWatched: 15,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -568,6 +648,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Danny Cannon',
     rating: 3.5,
     timesWatched: 10,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
 
@@ -576,6 +657,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Bryan Singer',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -583,6 +665,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Steven E. de Souza',
     rating: 2.75,
     timesWatched: 2,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -590,6 +673,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Hervé Palud',
     rating: 3.5,
     timesWatched: 10,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -597,6 +681,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     director: 'Peter Farrelly, Bobby Farrelly',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
 ];

@@ -16,7 +16,7 @@ import {
 } from '../../../utils/stats.utils';
 import { Movie } from '../../../models/movie-model';
 import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
-import { getAllMovies } from './movies.facade';
+import { getAllMovies } from '../../../facades/movies.facade';
 
 @Component({
   selector: 'app-movies',

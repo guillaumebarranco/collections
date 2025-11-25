@@ -6,6 +6,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Joss Whedon',
     rating: 4.75,
     timesWatched: 30,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -13,6 +14,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Joss Whedon',
     rating: 3.75,
     timesWatched: 10,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -20,6 +22,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Anthony Russo, Joe Russo',
     rating: 4.5,
     timesWatched: 10,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -27,6 +30,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Anthony Russo, Joe Russo',
     rating: 4.25,
     timesWatched: 10,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -34,6 +38,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Joe Johnston',
     rating: 3.75,
     timesWatched: 10,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -41,6 +46,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Anthony Russo, Joe Russo',
     rating: 3.5,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -48,6 +54,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Anthony Russo, Joe Russo',
     rating: 3.75,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -55,6 +62,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Julius Onah',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '2025-06-14',
   },
   {
@@ -62,6 +70,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Jon Favreau',
     rating: 4.5,
     timesWatched: 20,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -69,6 +78,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Jon Favreau',
     rating: 3.5,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -76,6 +86,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Shane Black',
     rating: 3.5,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -83,6 +94,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Louis Leterrier',
     rating: 3.75,
     timesWatched: 10,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -90,6 +102,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Kenneth Branagh',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -97,6 +110,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Alan Taylor',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -104,6 +118,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Taika Waititi',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -111,6 +126,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Taika Waititi',
     rating: 3.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -118,6 +134,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Anna Boden, Ryan Fleck',
     rating: 3.75,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -125,6 +142,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Nia DaCosta',
     rating: 3.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '2025-05-10',
   },
   {
@@ -132,6 +150,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Destin Daniel Cretton',
     rating: 3.75,
     timesWatched: 2,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -139,6 +158,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Scott Derrickson',
     rating: 4,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -146,6 +166,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Sam Raimi',
     rating: 3.75,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -153,6 +174,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Ryan Coogler',
     rating: 4.25,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -160,6 +182,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Ryan Coogler',
     rating: 3.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -167,6 +190,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'James Gunn',
     rating: 4.25,
     timesWatched: 10,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -174,6 +198,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'James Gunn',
     rating: 3.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -181,6 +206,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'James Gunn',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -188,6 +214,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Peyton Reed',
     rating: 3.75,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -195,6 +222,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Peyton Reed',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -202,6 +230,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Peyton Reed',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -209,6 +238,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Jon Watts',
     rating: 3.5,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -216,6 +246,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Jon Watts',
     rating: 3.75,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -223,6 +254,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Jon Watts',
     rating: 3.75,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -230,6 +262,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Cate Shortland',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -237,6 +270,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Chloé Zhao',
     rating: 3.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -244,6 +278,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     director: 'Shawn Levy',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '2025-04-26',
   },
 ];

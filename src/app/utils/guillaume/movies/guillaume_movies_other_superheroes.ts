@@ -6,6 +6,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'Tim Miller',
     rating: 3.75,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -13,6 +14,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'David Leitch',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -20,6 +22,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'Mark Steven Johnson',
     rating: 3.5,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -27,6 +30,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'Bryan Singer',
     rating: 3.5,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -34,6 +38,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'Bryan Singer',
     rating: 3.25,
     timesWatched: 2,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -41,6 +46,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'Brett Ratner',
     rating: 3.75,
     timesWatched: 10,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -48,6 +54,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'Gavin Hood',
     rating: 3,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -55,6 +62,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'James Mangold',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -62,6 +70,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'James Mangold',
     rating: 3.75,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -69,6 +78,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'Matthew Vaughn',
     rating: 4,
     timesWatched: 10,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -76,6 +86,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'Bryan Singer',
     rating: 3.75,
     timesWatched: 2,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -83,6 +94,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'Bryan Singer',
     rating: 3.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -90,6 +102,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'Simon Kinberg',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -97,6 +110,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'Ruben Fleischer',
     rating: 3.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -104,6 +118,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'Andy Serkis',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -111,6 +126,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'Sam Raimi',
     rating: 4.5,
     timesWatched: 40,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -118,6 +134,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'Sam Raimi',
     rating: 4.25,
     timesWatched: 30,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -125,6 +142,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'Sam Raimi',
     rating: 3.75,
     timesWatched: 20,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -132,6 +150,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'Marc Webb',
     rating: 4,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -139,6 +158,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'Marc Webb',
     rating: 3.5,
     timesWatched: 2,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -146,6 +166,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'Matthew Vaughn',
     rating: 3.75,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -153,6 +174,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'Jeff Wadlow',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -160,6 +182,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'Peter Berg',
     rating: 3.75,
     timesWatched: 15,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -167,6 +190,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'Tim Story',
     rating: 3.75,
     timesWatched: 10,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -174,6 +198,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'Tim Story',
     rating: 3.75,
     timesWatched: 10,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -181,6 +206,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'Mark Steven Johnson',
     rating: 3.25,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -188,6 +214,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'Mike Mitchell',
     rating: 3.25,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -195,6 +222,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'Ang Lee',
     rating: 3,
     timesWatched: 2,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -202,6 +230,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'Jonathan Hensleigh',
     rating: 4,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -209,6 +238,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     director: 'Josh Trank',
     rating: 2.75,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
 ];

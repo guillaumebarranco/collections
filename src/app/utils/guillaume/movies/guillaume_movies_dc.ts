@@ -6,6 +6,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     director: 'Martin Campbell',
     rating: 3.25,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -13,6 +14,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     director: 'Tim Burton',
     rating: 3.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -20,6 +22,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     director: 'Tim Burton',
     rating: 3.5,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -27,6 +30,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     director: 'Joel Schumacher',
     rating: 3.75,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -34,6 +38,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     director: 'Joel Schumacher',
     rating: 3.25,
     timesWatched: 2,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -41,6 +46,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     director: 'Christopher Nolan',
     rating: 4.25,
     timesWatched: 10,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -48,6 +54,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     director: 'Christopher Nolan',
     rating: 5,
     timesWatched: 30,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -55,6 +62,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     director: 'Christopher Nolan',
     rating: 4.5,
     timesWatched: 15,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -62,6 +70,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     director: 'Matt Reeves',
     rating: 4,
     timesWatched: 2,
+    firstViewedDate: '',
     lastViewedDate: '2025-05-04',
   },
   {
@@ -69,6 +78,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     director: 'Zack Snyder',
     rating: 3.75,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -76,6 +86,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     director: 'David F. Sandberg',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -83,6 +94,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     director: 'James Wan',
     rating: 3.75,
     timesWatched: 2,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -90,6 +102,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     director: 'Jaume Collet-Serra',
     rating: 3.75,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -97,6 +110,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     director: 'Zack Snyder',
     rating: 3.75,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '2021-03-18',
   },
   {
@@ -104,6 +118,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     director: 'David Ayer',
     rating: 3.25,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -111,6 +126,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     director: 'Zack Snyder',
     rating: 4.5,
     timesWatched: 20,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -118,6 +134,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     director: 'James Gunn',
     rating: 3.75,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '2025-07-13',
   },
   {
@@ -125,6 +142,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     director: 'Zack Snyder',
     rating: 3.75,
     timesWatched: 5,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -132,6 +150,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     director: 'Pitof',
     rating: 3.5,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -139,6 +158,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     director: 'Patty Jenkins',
     rating: 3.75,
     timesWatched: 3,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -146,6 +166,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     director: 'Patty Jenkins',
     rating: 2.75,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -153,6 +174,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     director: 'Andy Muschietti',
     rating: 3,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -160,6 +182,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     director: 'Cathy Yan',
     rating: 3.75,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
 ];

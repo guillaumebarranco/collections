@@ -1,14 +1,28 @@
-export interface Serie {
+// export interface Serie {
+//   totalLength: number;
+// }
+
+export interface MandatorySerieData {
   title: string;
   director: string;
-  actors: { name: string }[];
+}
+
+export interface BaseSerie extends MandatorySerieData {
+  actors: {
+    name: string;
+  }[];
   coverUrl: string;
   releaseDate: string;
   endDate: string;
-  rating: number;
+  genre: string;
   nbEpisodesTotal: number;
   nbSeasons: number;
-  timesWatched: number;
-  genre: string;
   totalLength: number;
 }
+
+export interface UserSerie extends MandatorySerieData {
+  rating: number;
+  timesWatched: number;
+}
+
+export interface Serie extends BaseSerie, UserSerie {}

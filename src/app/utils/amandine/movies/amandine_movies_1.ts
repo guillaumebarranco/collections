@@ -6,6 +6,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Alex Proyas',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -13,6 +14,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Bong Joon-ho',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -20,6 +22,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Alexandre de La Patellière, Matthieu Delaporte',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -27,6 +30,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Christopher Nolan',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -34,6 +38,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Greta Gerwig',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -41,6 +46,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Damien Chazelle',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -48,6 +54,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Paul Feig',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -55,6 +62,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Shawn Levy',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -62,6 +70,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Christopher Nolan',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -69,6 +78,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Niki Caro',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -76,6 +86,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Max Barbakow',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -83,6 +94,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Jason Lei Howden',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -90,6 +102,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Todd Phillips',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -97,6 +110,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Cédric Klapisch',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -104,6 +118,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Guy Ritchie',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -111,6 +126,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Antonin Baudry',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -118,6 +134,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Bradley Cooper',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -125,6 +142,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -132,6 +150,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Jean-Charles Tacchella',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -139,6 +158,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Claude Zidi',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -146,6 +166,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Martin Scorsese',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -153,6 +174,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Gérard Oury',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -160,6 +182,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Gérard Oury',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -167,6 +190,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Jean Girault',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -174,6 +198,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Alfred Hitchcock',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -181,6 +206,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Alfred Hitchcock',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -188,6 +214,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Charles Chaplin',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -195,6 +222,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Raja Gosnell',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -202,6 +230,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Julien Seri',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -209,6 +238,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Matthew Vaughn',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -216,6 +246,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Edgar Wright',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -223,6 +254,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Sam Taylor-Johnson',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -230,6 +262,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Matthew Vaughn',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -237,6 +270,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Luc Besson',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -244,6 +278,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Gordon Chan',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -251,6 +286,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Kevin Donovan',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -258,6 +294,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'James Huth',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -265,6 +302,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -272,6 +310,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Charles Nemes',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -279,6 +318,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Emile Ardolino',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -286,6 +326,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Martin Brest',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -293,6 +334,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Robert Stromberg',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -300,6 +342,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Martin Scorsese',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -307,6 +350,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Alfonso Cuarón',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -314,6 +358,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Neill Blomkamp',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -321,6 +366,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Lee Daniels',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -328,6 +374,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Marc Forster',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -335,6 +382,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Quentin Tarantino',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -342,6 +390,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Andrew Niccol',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -349,6 +398,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Craig Brewer',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -356,6 +406,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Olivier Nakache, Éric Toledano',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -363,6 +414,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Robert Zemeckis',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -370,6 +422,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Seth Gordon',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -377,6 +430,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Nicolas Winding Refn',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -384,6 +438,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Michel Hazanavicius',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -391,6 +446,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Zack Snyder',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -398,6 +454,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'David Fincher',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -405,6 +462,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Danny Boyle',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -412,6 +470,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Darren Aronofsky',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -419,6 +478,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Christopher Nolan',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -426,6 +486,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Michaël Youn',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -433,6 +494,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Harald Zwart',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -440,6 +502,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Tim Burton',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -447,6 +510,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Martin Scorsese',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -454,6 +518,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Chris Columbus',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -461,6 +526,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Ruben Fleischer',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -468,6 +534,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Jaco Van Dormael',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -475,6 +542,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Quentin Tarantino',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -482,6 +550,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Quentin Tarantino',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -489,6 +558,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -496,6 +566,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Jean-Marie Poiré',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -503,6 +574,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Andrew Davis',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -510,6 +582,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Clint Eastwood',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -517,6 +590,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Danny Boyle',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -524,6 +598,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Timur Bekmambetov',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -531,6 +606,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Doug Liman',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -538,6 +614,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Francis Lawrence',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -545,6 +622,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Juan Carlos Fresnadillo',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -552,6 +630,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Joe Johnston',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -559,6 +638,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Kevin Reynolds',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -566,6 +646,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Danny Cannon',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -573,6 +654,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Hervé Palud',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -580,6 +662,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Gabriele Muccino',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -587,6 +670,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Pierre Salvadori',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -594,6 +678,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Zack Snyder',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -601,6 +686,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Edward Zwick',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -608,6 +694,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Claude Zidi Jr.',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -615,6 +702,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'David Frankel',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -622,6 +710,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Ron Howard',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -630,6 +719,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Andrew Adamson',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -637,6 +727,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Peter Jackson',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -644,6 +735,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Kirk Jones',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -651,6 +743,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Andrew Niccol',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -658,6 +751,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Judd Apatow',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -665,6 +759,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Tim Burton',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -672,6 +767,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Doug Liman',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -679,6 +775,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Adam Shankman',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -686,6 +783,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Clint Eastwood',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -693,6 +791,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Luc Besson',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -700,6 +799,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Chuck Russell',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -707,6 +807,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'James Cameron',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -714,6 +815,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Robert Zemeckis',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -721,6 +823,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Jan de Bont',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -728,6 +831,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Quentin Tarantino',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -735,6 +839,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Alain Berbérian',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -742,6 +847,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Chris Columbus',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -749,6 +855,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Francis Veber',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -756,6 +863,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Jim Gillespie',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -763,6 +871,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Rawson Marshall Thurber',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -770,6 +879,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Roland Emmerich',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -777,6 +887,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Stephen Sommers',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -784,6 +895,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Edgar Wright',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -791,6 +903,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Christophe Barratier',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -798,6 +911,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Jeff Schaffer',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -805,6 +919,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'François Desagnat, Thomas Sorriaux',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -812,6 +927,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'James Wan',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -819,6 +935,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Eric Bress, J. Mackye Gruber',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -826,6 +943,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Tom Shadyac',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -833,6 +951,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Richard Berry',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -840,6 +959,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -847,6 +967,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Kurt Wimmer',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -854,6 +975,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Danny Boyle',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -861,6 +983,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Gore Verbinski',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -868,6 +991,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Joel Schumacher',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -875,6 +999,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'David Fincher',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -882,6 +1007,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Alain Chabat',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -889,6 +1015,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Luc Besson',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -896,6 +1023,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Sam Mendes',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -903,6 +1031,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'M. Night Shyamalan',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -910,6 +1039,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Barry Sonnenfeld',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -917,6 +1047,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Roger Kumble',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -924,6 +1055,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Michael Bay',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -931,6 +1063,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Roland Emmerich',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -938,6 +1071,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Jonathan Lynn',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -945,6 +1079,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Frank Darabont',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -952,6 +1087,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Étienne Chatiliez',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -959,6 +1095,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'James Wong',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -966,6 +1103,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Gérard Krawczyk',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -973,6 +1111,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Stephen Chow',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -980,6 +1119,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Kinji Fukasaku',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -987,6 +1127,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Donald Petrie',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -994,6 +1135,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Guy Ritchie',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1001,6 +1143,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Darren Aronofsky',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1008,6 +1151,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Ridley Scott',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1015,6 +1159,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Will Gluck',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1022,6 +1167,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Duncan Jones',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1029,6 +1175,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Paul Weiland',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1036,6 +1183,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Gary Winick',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1043,6 +1191,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Chris Columbus',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1050,6 +1199,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Chris Columbus',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1057,6 +1207,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Alfonso Cuarón',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1064,6 +1215,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Mike Newell',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1071,6 +1223,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'David Yates',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1078,6 +1231,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'David Yates',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1085,6 +1239,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'David Yates',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1092,6 +1247,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'David Yates',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1099,6 +1255,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'George Lucas',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1106,6 +1263,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'George Lucas',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1113,6 +1271,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'George Lucas',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1120,6 +1279,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'George Lucas',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1127,6 +1287,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Irvin Kershner',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1134,6 +1295,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Richard Marquand',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1141,6 +1303,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'J.J. Abrams',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1148,6 +1311,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Rian Johnson',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1155,6 +1319,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'James Cameron',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1162,6 +1327,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Denis Villeneuve',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1169,6 +1335,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Denis Villeneuve',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1176,6 +1343,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Kyle Newacheck',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1183,6 +1351,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'David Yates',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1190,6 +1359,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'David Yates',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1197,6 +1367,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'David Yates',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1204,6 +1375,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Harry Bradbeer',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1211,6 +1383,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Harry Bradbeer',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1218,6 +1391,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Rian Johnson',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1225,6 +1399,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Rian Johnson',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1232,6 +1407,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Lee Tamahori',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1239,6 +1415,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Martin Campbell',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1246,6 +1423,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Marc Forster',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1253,6 +1431,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Sam Mendes',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1260,6 +1439,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Sam Mendes',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1267,6 +1447,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Cary Joji Fukunaga',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1274,6 +1455,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Michel Hazanavicius',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1281,6 +1463,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Michel Hazanavicius',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1288,6 +1471,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'M. Night Shyamalan',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1295,6 +1479,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'M. Night Shyamalan',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1302,6 +1487,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Louis Leterrier',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1309,6 +1495,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Neil Burger',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1316,6 +1503,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Pierre Morel',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1323,6 +1511,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Wes Ball',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1330,6 +1519,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Gary Ross',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1337,6 +1527,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Francis Lawrence',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1344,6 +1535,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Todd Phillips',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1351,6 +1543,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Todd Phillips',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1358,6 +1551,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'John McTiernan',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1365,6 +1559,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Renny Harlin',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1372,6 +1567,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'John McTiernan',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1379,6 +1575,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Len Wiseman',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1386,6 +1583,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Catherine Hardwicke',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1393,6 +1591,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Chris Weitz',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1400,6 +1599,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'David Slade',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1407,6 +1607,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Bill Condon',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1414,6 +1615,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Bill Condon',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1421,6 +1623,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Len Wiseman',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1428,6 +1631,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Len Wiseman',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1435,6 +1639,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Patrick Tatopoulos',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1442,6 +1647,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Måns Mårlind, Björn Stein',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1449,6 +1655,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'James Wong',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1456,6 +1663,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'David R. Ellis',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1463,6 +1671,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'James Wong',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1470,6 +1679,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'David R. Ellis',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1477,6 +1687,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'James Cameron',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1484,6 +1695,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Paul Weitz, Chris Weitz',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1491,6 +1703,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'J.B. Rogers',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1498,6 +1711,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Shawn Levy',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1505,6 +1719,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Shawn Levy',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1512,6 +1727,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Paul W.S. Anderson',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1519,6 +1735,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Alexander Witt',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1526,6 +1743,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Brett Ratner',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1533,6 +1751,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Brett Ratner',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1540,6 +1759,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Brett Ratner',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1547,6 +1767,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Steven Soderbergh',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1554,6 +1775,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Steven Soderbergh',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1561,6 +1783,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Steven Soderbergh',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1568,6 +1791,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Gary Ross',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1575,6 +1799,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Gore Verbinski',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1582,6 +1807,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Gore Verbinski',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1589,6 +1815,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Gore Verbinski',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1596,6 +1823,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Gérard Pirès',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1603,6 +1831,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Gérard Krawczyk',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1610,6 +1839,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Gérard Krawczyk',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1617,6 +1847,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Gérard Krawczyk',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1624,6 +1855,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Keenen Ivory Wayans',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1631,6 +1863,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Keenen Ivory Wayans',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1638,6 +1871,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Quentin Tarantino',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1645,6 +1879,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Quentin Tarantino',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1652,6 +1887,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Guillermo del Toro',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1659,6 +1895,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Guillermo del Toro',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1666,6 +1903,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Patrice Leconte',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1673,6 +1911,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Patrice Leconte',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1680,6 +1919,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Patrice Leconte',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1687,6 +1927,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Louis Leterrier, Corey Yuen',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1694,6 +1935,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Rob Cohen',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1701,6 +1943,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Frank Miller, Robert Rodriguez',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1708,6 +1951,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Stephen Norrington',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1715,6 +1959,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Guillermo del Toro',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1722,6 +1967,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Lana Wachowski, Lilly Wachowski',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1729,6 +1975,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Robert Rodriguez',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1736,6 +1983,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Michael Bay',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1743,6 +1991,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Michael Bay',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1750,6 +1999,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Barry Sonnenfeld',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1757,6 +2007,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Barry Sonnenfeld',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1764,6 +2015,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Barry Sonnenfeld',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1771,6 +2023,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Simon West',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1778,6 +2031,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Jan de Bont',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1785,6 +2039,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Stephen Sommers',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1792,6 +2047,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Stephen Sommers',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1799,6 +2055,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Rob Cohen',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1806,6 +2063,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Richard Donner',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1813,6 +2071,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Richard Donner',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1820,6 +2079,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Richard Donner',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1827,6 +2087,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Richard Donner',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1834,6 +2095,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'John McTiernan',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1841,6 +2103,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Stephen Hopkins',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1848,6 +2111,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Nimród Antal',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1855,6 +2119,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Ridley Scott',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1862,6 +2127,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'James Cameron',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1869,6 +2135,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'David Fincher',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1876,6 +2143,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Jean-Pierre Jeunet',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1883,6 +2151,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Paul W.S. Anderson',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1890,6 +2159,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Colin Strause, Greg Strause',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1897,6 +2167,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Chris Columbus',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1904,6 +2175,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Chris Columbus',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1911,6 +2183,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Robert Zemeckis',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1918,6 +2191,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Ted Kotcheff',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1925,6 +2199,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Hugo Gélin',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1932,6 +2207,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Mike Rohl',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1939,6 +2215,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'João Canijo',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1946,6 +2223,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Vanessa Caswill',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1953,6 +2231,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Hernán Jiménez',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1960,6 +2239,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Bill Condon',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1967,6 +2247,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Lone Scherfig',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1974,6 +2255,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Ivan Reitman',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1981,6 +2263,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Edward Zwick',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1988,6 +2271,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Anne Fletcher',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -1995,6 +2279,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Jon M. Chu',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2002,6 +2287,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Jon M. Chu',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2009,6 +2295,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Pascal Chaumeil',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2016,6 +2303,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Garry Marshall',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2023,6 +2311,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Anne Fletcher',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2030,6 +2319,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Burr Steers',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2037,6 +2327,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Tom Vaughan',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2044,6 +2335,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Joe Wright',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2051,6 +2343,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Woody Allen',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2058,6 +2351,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Andy Tennant',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2065,6 +2359,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Peter Segal',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2072,6 +2367,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Richard Curtis',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2079,6 +2375,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Adam Shankman',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2086,6 +2383,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Michael Bay',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2093,6 +2391,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Nancy Meyers',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2100,6 +2399,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Roger Michell',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2107,6 +2407,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Martin Brest',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2114,6 +2415,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Garry Marshall',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2121,6 +2423,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Damien Chazelle',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2128,6 +2431,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Claude Zidi Jr.',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2135,6 +2439,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Mike Rohl',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2142,6 +2447,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'John Whitesell',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2149,6 +2455,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Joss Whedon',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2156,6 +2463,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Joss Whedon',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2163,6 +2471,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Anthony Russo, Joe Russo',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2170,6 +2479,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Anthony Russo, Joe Russo',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2177,6 +2487,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Joe Johnston',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2184,6 +2495,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Anthony Russo, Joe Russo',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2191,6 +2503,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Anthony Russo, Joe Russo',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2198,6 +2511,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Jon Favreau',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2205,6 +2519,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Jon Favreau',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2212,6 +2527,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Louis Leterrier',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2219,6 +2535,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Kenneth Branagh',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2226,6 +2543,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Alan Taylor',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2233,6 +2551,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'James Gunn',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2240,6 +2559,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'James Gunn',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2247,6 +2567,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Peyton Reed',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2254,6 +2575,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Tim Burton',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2261,6 +2583,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Tim Burton',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2268,6 +2591,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Joel Schumacher',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2275,6 +2599,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Joel Schumacher',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2282,6 +2607,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Christopher Nolan',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2289,6 +2615,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Christopher Nolan',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2296,6 +2623,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Christopher Nolan',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2303,6 +2631,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'David Ayer',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2310,6 +2639,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Zack Snyder',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2317,6 +2647,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Pitof',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2324,6 +2655,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Patty Jenkins',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2331,6 +2663,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Tim Miller',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2338,6 +2671,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'David Leitch',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2345,6 +2679,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Bryan Singer',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2352,6 +2687,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Bryan Singer',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2359,6 +2695,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Brett Ratner',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2366,6 +2703,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Gavin Hood',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2373,6 +2711,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Matthew Vaughn',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2380,6 +2719,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Bryan Singer',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2387,6 +2727,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Bryan Singer',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2394,6 +2735,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Ruben Fleischer',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2401,6 +2743,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Sam Raimi',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2408,6 +2751,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Sam Raimi',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2415,6 +2759,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Sam Raimi',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2422,6 +2767,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Marc Webb',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2429,6 +2775,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Marc Webb',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2436,6 +2783,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Matthew Vaughn',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2443,6 +2791,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Jeff Wadlow',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2450,6 +2799,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Peter Berg',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2457,6 +2807,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Tim Story',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2464,6 +2815,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Tim Story',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2471,6 +2823,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Mark Steven Johnson',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2478,6 +2831,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Mike Mitchell',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2485,6 +2839,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Ang Lee',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2492,6 +2847,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Dean DeBlois, Chris Sanders',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2499,6 +2855,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Dean DeBlois',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2506,6 +2863,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Rich Moore',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2513,6 +2871,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Aaron Horvath, Michael Jelenic',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2520,6 +2879,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Jared Bush, Byron Howard',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2527,6 +2887,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Tom McGrath',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2534,6 +2895,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Ron Clements, John Musker',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2541,6 +2903,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Pete Docter',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2548,6 +2911,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Don Hall, Chris Williams',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2555,6 +2919,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Chris Buck, Jennifer Lee',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2562,6 +2927,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Pierre Coffin, Chris Renaud',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2569,6 +2935,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Pierre Coffin, Chris Renaud',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2576,6 +2943,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Chris Wedge, Carlos Saldanha',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2583,6 +2951,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Carlos Saldanha',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2590,6 +2959,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Mark Andrews, Brenda Chapman',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2597,6 +2967,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Luc Besson',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2604,6 +2975,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Luc Besson',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2611,6 +2983,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Ron Clements, John Musker',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2618,6 +2991,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Phil Lord, Christopher Miller',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2625,6 +2999,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Andrew Stanton',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2632,6 +3007,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Mark Osborne, John Stevenson',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2639,6 +3015,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'David Silverman',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2646,6 +3023,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Brad Bird',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2653,6 +3031,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Andrew Adamson, Vicky Jenson',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2660,6 +3039,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Andrew Adamson, Kelly Asbury, Conrad Vernon',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2667,6 +3047,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Chris Miller',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2674,6 +3055,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Brad Bird',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2681,6 +3063,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Brad Bird',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2688,6 +3071,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Andrew Stanton',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2695,6 +3079,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Pete Docter',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2702,6 +3087,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'John Lasseter',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2709,6 +3095,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'John Lasseter',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2716,6 +3103,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Lee Unkrich',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2723,6 +3111,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Trey Parker',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2730,6 +3119,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Chris Buck, Kevin Lima',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2737,6 +3127,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Eric Darnell, Tim Johnson',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2744,6 +3135,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Tony Bancroft, Barry Cook',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2751,6 +3143,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Hayao Miyazaki',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2758,6 +3151,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Ron Clements, John Musker',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2765,6 +3159,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Mike Gabriel, Eric Goldberg',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2772,6 +3167,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Joe Pytka',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2779,6 +3175,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Roger Allers, Rob Minkoff',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2786,6 +3183,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Ron Clements, John Musker',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2793,6 +3191,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Ron Clements, John Musker',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2800,6 +3199,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Clyde Geronimi, Wilfred Jackson, Hamilton Luske',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2808,6 +3208,7 @@ export const amandineMovies1: UserMovie[] = [
       'Norman Ferguson, T. Hee, Wilfred Jackson, Jack Kinney, Hamilton Luske, Bill Roberts, Ben Sharpsteen',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2815,6 +3216,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Don Hall, Carlos López Estrada',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
   {
@@ -2822,6 +3224,7 @@ export const amandineMovies1: UserMovie[] = [
     director: 'Andrew Stanton',
     rating: 0,
     timesWatched: 1,
+    firstViewedDate: '',
     lastViewedDate: '',
   },
 ];

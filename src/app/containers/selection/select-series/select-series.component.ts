@@ -2,7 +2,7 @@ import { Component, signal, computed } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import { Serie } from '../../../models/serie-model';
-import { series1, series2 } from '../../../utils/guillaume/series';
+import { getAllSeriesMerged } from '../../../facades/series.facade';
 
 @Component({
   selector: 'app-select-series',
@@ -12,11 +12,7 @@ import { series1, series2 } from '../../../utils/guillaume/series';
 })
 export class SelectSeriesComponent {
   // Toutes les séries de tous les utilisateurs
-  allSeries = signal<Serie[]>([
-    // Guillaume
-    ...series1,
-    ...series2,
-  ]);
+  allSeries = signal<Serie[]>(getAllSeriesMerged());
 
   // Séries sélectionnées
   selectedSeries = signal<Set<string>>(new Set());
