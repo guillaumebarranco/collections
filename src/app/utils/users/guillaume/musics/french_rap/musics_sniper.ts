@@ -99,7 +99,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 378,
     genre: 'Rap/Hip-Hop',
-    timesListened: 50,
+    timesListened: 1,
   },
   {
     title: 'Intro "Du rire aux larmes"',

@@ -1778,18 +1778,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Hotel Room',
-    artist: 'Lord Kossity',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
     title: 'Kiss Me Thru The Phone',
     artist: 'Soulja Boy',
     album: 'Unknown',
@@ -16440,18 +16428,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Armstrong',
     artist: 'Claude Nougaro',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Tombé pour elle (feat. Amel Bent)',
-    artist: 'La Fouine',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',

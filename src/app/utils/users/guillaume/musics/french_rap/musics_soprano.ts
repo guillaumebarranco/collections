@@ -604,4 +604,15 @@ export const musicsSoprano: Music[] = [
     genre: 'Rap/Hip-Hop',
     timesListened: 2,
   },
+  {
+    title: "J'étais comme eux (feat. Demon One)",
+    artist: 'Soprano',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Rap/Hip-Hop',
+    timesListened: 80,
+  },
 ];

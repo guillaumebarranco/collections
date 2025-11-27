@@ -1,4 +1,3 @@
-import { musicsOrelsan1 } from './musics_orelsan_1';
 import { musicsDisiz1 } from './musics_disiz_1';
 import { musicsDisiz2 } from './musics_disiz_2';
 import { musicsDisiz3 } from './musics_disiz_3';
@@ -21,15 +20,14 @@ import { musicsYoussoupha } from './musics_youssoupha';
 import { musicsDace } from './musics_dace';
 import { musicsMcSolaar } from './musics_mc_solaar';
 import { musicsRapFrVarious } from './musics_rap_fr_various';
-import { musicsOrelsan2 } from './musics_orelsan_2';
 import { musicsDiams } from './musics_diams';
-import { musicsKizito } from './musics_kizito';
 import { musicsSinik } from './musics_sinik';
 import { musicsBooba } from './musics_booba';
+import { musicsLaFouine } from './musics_la_fouine';
+import { musicsOrelsan } from './musics_orelsan';
 
 export const frenchRapMusics = [
-  ...musicsOrelsan1,
-  ...musicsOrelsan2,
+  ...musicsOrelsan,
   ...musicsDisiz1,
   ...musicsDisiz2,
   ...musicsDisiz3,
@@ -52,8 +50,8 @@ export const frenchRapMusics = [
   ...musicsDace,
   ...musicsMcSolaar,
   ...musicsDiams,
-  ...musicsKizito,
   ...musicsSinik,
   ...musicsBooba,
   ...musicsRapFrVarious,
+  ...musicsLaFouine,
 ];
