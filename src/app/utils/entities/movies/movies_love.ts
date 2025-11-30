@@ -56,6 +56,22 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
   },
   {
+    title: 'Champagne Problems',
+    director: 'Mark Steven Johnson',
+    actors: [
+      {
+        name: 'Minka Kelly',
+      },
+      {
+        name: 'Tom Wozniczka',
+      },
+    ],
+    coverUrl: '/movies_pictures/champagne-problems-0-150-0-225-crop.jpg',
+    releaseDate: '2025-11-19',
+    length: 104,
+    genre: 'Romance',
+  },
+  {
     title: 'Tout le Bleu du Ciel',
     director: 'João Canijo',
     actors: [
@@ -590,5 +606,21 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2002-03-01',
     length: 96,
     genre: 'Comedy',
+  },
+  {
+    title: 'Coup de foudre à Manhattan',
+    director: 'Wayne Wang',
+    actors: [
+      {
+        name: 'Jennifer Lopez',
+      },
+      {
+        name: 'Ralph Fiennes',
+      },
+    ],
+    coverUrl: '/movies_pictures/maid-in-manhattan-0-150-0-225-crop.jpg',
+    releaseDate: '2002-12-13',
+    length: 105,
+    genre: 'Romance',
   },
 ];

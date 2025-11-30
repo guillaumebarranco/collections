@@ -3,82 +3,92 @@
 <div class="select-movies-container">
   <div class="header">
     <h1>
-      {{ isWatchlistMode() ? 'Sélectionner des films pour ma watchlist' : 'Sélectionner des films' }}
+      {{
+        isWatchOrReadlistMode()
+          ? "Sélectionner des films pour ma watchlist"
+          : "Sélectionner des films"
+      }}
     </h1>
 
-    @if(isWatchlistMode()) {
-    <p>
-      Bonjour {{ username() }} 👋 <br /><br />
-      Tu es en mode "Watchlist" ! Ici, tu peux sélectionner les films que tu souhaites ajouter à ta liste de films à voir.
-      <br /><br />
-      Les films que tu as déjà vus sont automatiquement exclus de cette liste pour t'éviter les doublons.
-      <br /><br />
-      Sélectionne les films que tu aimerais voir et télécharge le fichier JSON pour construire ta watchlist.
-    </p>
-    } @else {
-    <p>
-      Bonjour {{ username() }} 👋 <br /><br />
-      Si tu es ici, c'est que tu souhaites pouvoir faire ta collection de films
-      regardés, pouvoir les noter, les trier par préférence, par date de sortie
-      ou de dernier visionnage, etc... <br /><br />
-      Comment ça marche ? <br />
-    </p>
+    <div class="selection-description">
+      @if(isWatchOrReadlistMode()) {
+      <p>
+        Bonjour {{ username() }} 👋 <br /><br />
+        Tu es en mode "Watchlist" ! Ici, tu peux sélectionner les films que tu
+        souhaites ajouter à ta liste de films à voir.
+        <br /><br />
+        Les films que tu as déjà vus sont automatiquement exclus de cette liste
+        pour t'éviter les doublons.
+        <br /><br />
+        Sélectionne les films que tu aimerais voir et télécharge le fichier JSON
+        pour construire ta watchlist.
+      </p>
+      } @else {
+      <p>
+        Bonjour {{ username() }} 👋 <br /><br />
+        Si tu es ici, c'est que tu souhaites pouvoir faire ta collection de
+        films regardés, pouvoir les noter, les trier par préférence, par date de
+        sortie ou de dernier visionnage, etc... <br /><br />
+        Comment ça marche ? <br />
+      </p>
 
-    <ul>
-      <li>
-        1. Parmi tous les films présents sur cette page, sélectionne ceux que tu
-        as regardés. Ensuite, clique sur le bouton "Exporter ma liste de films"
-        pour télécharger un fichier JSON de ta collection, que tu pourras
-        m'envoyer.
-      </li>
-      <li>
-        2. Une fois ceci fait, il faut créer un compte sur
-        <a href="https://letterboxd.com/" target="_blank">Letterboxd</a> et
-        ajouter ta collection de films dessus. C'est rapide ne t'en fais pas, et
-        c'est surtout que ce site répertorie tous les films possibles et
-        imaginables. Tu as fait ta première sélection grosse maille parmi les
-        films existants sur cette page, et Letterboxd va t'aider à compléter.
-        Pas besoin d'ajouter les films que tu as déjà sélectionnés sur cette
-        page sur ta sélection Letterboxd, mais si tu le fais et qu'il y a des
-        doublons, ce ne sera pas grave ne t'en fais pas. <br /><br />
-        Voici des exemples de listes Letterboxd à parcourir pour sélectionner
-        des films :
-        <a
-          href="https://letterboxd.com/el_duderinno/list/top-2000-most-watched/"
-          target="_blank"
-          >https://letterboxd.com/el_duderinno/list/top-2000-most-watched/</a
-        >
-        ou encore
-        <a
-          href="https://letterboxd.com/hershwin/list/movies-with-over-100000-views/"
-          target="_blank"
-          >https://letterboxd.com/hershwin/list/movies-with-over-100000-views/</a
-        >
-      </li>
-      <li>
-        3. Une fois ta sélection Letterboxd faite, il faut m'envoyer l'URL de ta
-        liste. Elle est normalement publique, il s'agit juste de mettre ton nom
-        d'utilisateur dans l'URL de cette façon :
-        <a href="https://letterboxd.com/webarranco/watchlist/" target="_blank"
-          >https://letterboxd.com/webarranco/watchlist/</a
-        >
-      </li>
-      <li>
-        4. Tu n'auras désormais plus besoin de Letterboxd, c'était juste pour
-        faire cette liste initiale complète ! Une fois que tu m'a envoyé le
-        fichier JSON avec la sélection que tu as faite sur cette page, ainsi que
-        l'URL de ta watchlist Letterboxd, je rentrerai toutes les données dans
-        ton profil et tu pourras avoir une superbe vue de tous tes films, et tu
-        pourras ensuite les mettre à jour individuellement pour renseigner la
-        note de chacun ou le nombre de visionnages etc... Enjoy !
-      </li>
-      <li>
-        5. En dernière étape une fois que tout cela sera fait, on trouvera un
-        moyen d'ajouter de nouveaux films au fur et à mesure que tu en regardes
-        et tu pourras profiter de l'outil tranquillement :)
-      </li>
-    </ul>
-    }
+      <ul>
+        <li>
+          1. Parmi tous les films présents sur cette page, sélectionne ceux que
+          tu as regardés. Ensuite, clique sur le bouton "Exporter ma liste de
+          films" pour télécharger un fichier JSON de ta collection, que tu
+          pourras m'envoyer.
+        </li>
+        <li>
+          2. Une fois ceci fait, il faut créer un compte sur
+          <a href="https://letterboxd.com/" target="_blank">Letterboxd</a> et
+          ajouter ta collection de films dessus. C'est rapide ne t'en fais pas,
+          et c'est surtout que ce site répertorie tous les films possibles et
+          imaginables. Tu as fait ta première sélection grosse maille parmi les
+          films existants sur cette page, et Letterboxd va t'aider à compléter.
+          Pas besoin d'ajouter les films que tu as déjà sélectionnés sur cette
+          page sur ta sélection Letterboxd, mais si tu le fais et qu'il y a des
+          doublons, ce ne sera pas grave ne t'en fais pas. <br /><br />
+          Voici des exemples de listes Letterboxd à parcourir pour sélectionner
+          des films :
+          <a
+            href="https://letterboxd.com/el_duderinno/list/top-2000-most-watched/"
+            target="_blank"
+            >https://letterboxd.com/el_duderinno/list/top-2000-most-watched/</a
+          >
+          ou encore
+          <a
+            href="https://letterboxd.com/hershwin/list/movies-with-over-100000-views/"
+            target="_blank"
+            >https://letterboxd.com/hershwin/list/movies-with-over-100000-views/</a
+          >
+        </li>
+        <li>
+          3. Une fois ta sélection Letterboxd faite, il faut m'envoyer l'URL de
+          ta liste. Elle est normalement publique, il s'agit juste de mettre ton
+          nom d'utilisateur dans l'URL de cette façon :
+          <a href="https://letterboxd.com/webarranco/watchlist/" target="_blank"
+            >https://letterboxd.com/webarranco/watchlist/</a
+          >
+        </li>
+        <li>
+          4. Tu n'auras désormais plus besoin de Letterboxd, c'était juste pour
+          faire cette liste initiale complète ! Une fois que tu m'a envoyé le
+          fichier JSON avec la sélection que tu as faite sur cette page, ainsi
+          que l'URL de ta watchlist Letterboxd, je rentrerai toutes les données
+          dans ton profil et tu pourras avoir une superbe vue de tous tes films,
+          et tu pourras ensuite les mettre à jour individuellement pour
+          renseigner la note de chacun ou le nombre de visionnages etc... Enjoy
+          !
+        </li>
+        <li>
+          5. En dernière étape une fois que tout cela sera fait, on trouvera un
+          moyen d'ajouter de nouveaux films au fur et à mesure que tu en
+          regardes et tu pourras profiter de l'outil tranquillement :)
+        </li>
+      </ul>
+      }
+    </div>
   </div>
 
   <div class="toolbar">
@@ -99,7 +109,13 @@
         (click)="exportSelectedMovies()"
         [disabled]="selectedCount() === 0"
       >
-        📥 {{ isWatchlistMode() ? 'Exporter ma watchlist' : 'Exporter ma liste de films' }} ({{ selectedCount() }})
+        📥
+        {{
+          isWatchOrReadlistMode()
+            ? "Exporter ma watchlist"
+            : "Exporter ma liste de films"
+        }}
+        ({{ selectedCount() }})
       </button>
     </div>
   </div>

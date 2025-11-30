@@ -1,16 +1,18 @@
-import { Component, signal, computed } from '@angular/core';
+import { Component, signal, computed, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import { Serie } from '../../../models/serie-model';
 import { getAllSeriesMerged } from '../../../facades/series.facade';
+import { ActivatedRoute, Params } from '@angular/router';
+import { SelectEntitiesComponent } from '../select-base.component';
 
 @Component({
   selector: 'app-select-series',
   imports: [CommonModule, MenuComponent],
   templateUrl: './select-series.component.html',
-  styleUrls: ['./select-series.component.scss'],
+  styleUrls: ['./select-series.component.scss', '../select-base.scss'],
 })
-export class SelectSeriesComponent {
+export class SelectSeriesComponent extends SelectEntitiesComponent {
   // Toutes les séries de tous les utilisateurs
   allSeries = signal<Serie[]>(getAllSeriesMerged());
 

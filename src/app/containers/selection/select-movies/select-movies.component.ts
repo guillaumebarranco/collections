@@ -7,36 +7,18 @@ import {
   getAllMoviesMerged,
   getMoviesByUser,
 } from '../../../facades/movies.facade';
+import { SelectEntitiesComponent } from '../select-base.component';
 
 @Component({
   selector: 'app-select-movies',
   imports: [CommonModule, MenuComponent],
   templateUrl: './select-movies.component.html',
-  styleUrls: ['./select-movies.component.scss'],
+  styleUrls: ['./select-movies.component.scss', '../select-base.scss'],
 })
-export class SelectMoviesComponent {
-  activatedRoute = inject(ActivatedRoute);
-
-  // Mode watchlist détecté depuis query params
-  isWatchlistMode = computed<boolean>(() => {
-    const queryParams = this.activatedRoute.snapshot.queryParams;
-    return queryParams['watchlist'] === 'true';
-  });
-
-  // ID de l'utilisateur depuis les params
-  userId = computed<string>(() => {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam ? params['id'] : 'guillaume';
-  });
-
-  username = computed<string>(() => {
-    return this.userId().charAt(0).toUpperCase() + this.userId().slice(1);
-  });
-
+export class SelectMoviesComponent extends SelectEntitiesComponent {
   // Films déjà vus par l'utilisateur (pour les exclure en mode watchlist)
   watchedMovies = computed<Set<string>>(() => {
-    if (!this.isWatchlistMode()) {
+    if (!this.isWatchOrReadlistMode()) {
       return new Set();
     }
     const userMovies = getMoviesByUser(this.userId());
@@ -49,7 +31,7 @@ export class SelectMoviesComponent {
   allMovies = computed<Movie[]>(() => {
     const allMoviesList = getAllMoviesMerged();
 
-    if (!this.isWatchlistMode()) {
+    if (!this.isWatchOrReadlistMode()) {
       return allMoviesList;
     }
 
@@ -117,7 +99,7 @@ export class SelectMoviesComponent {
     let jsonContent: string;
     let fileName: string;
 
-    if (this.isWatchlistMode()) {
+    if (this.isWatchOrReadlistMode()) {
       // Format watchlist : UserMovie avec rating: 0, timesWatched: 0
       const watchlistMovies = selectedMovies.map((movie) => ({
         title: movie.title,

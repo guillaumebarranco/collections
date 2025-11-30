@@ -3,14 +3,15 @@ import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import { Book } from '../../../models/book-model';
 import { getAllBooksMerged } from '../../../facades/books.facade';
+import { SelectEntitiesComponent } from '../select-base.component';
 
 @Component({
   selector: 'app-select-books',
   imports: [CommonModule, MenuComponent],
   templateUrl: './select-books.component.html',
-  styleUrls: ['./select-books.component.scss'],
+  styleUrls: ['./select-books.component.scss', '../select-base.scss'],
 })
-export class SelectBooksComponent {
+export class SelectBooksComponent extends SelectEntitiesComponent {
   // Tous les livres de tous les utilisateurs
   allBooks = signal<Book[]>(getAllBooksMerged());
 

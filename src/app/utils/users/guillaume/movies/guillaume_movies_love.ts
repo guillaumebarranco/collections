@@ -34,6 +34,14 @@ export const guillaumeMoviesLove: UserMovie[] = [
     lastViewedDate: '2025-03-08',
   },
   {
+    title: 'Champagne Problems',
+    director: 'Mark Steven Johnson',
+    rating: 2.25,
+    timesWatched: 1,
+    firstViewedDate: '2026-11-27',
+    lastViewedDate: '2026-11-27',
+  },
+  {
     title: 'Tout le Bleu du Ciel',
     director: 'João Canijo',
     rating: 3.5,
@@ -440,5 +448,13 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 15,
     firstViewedDate: '',
     lastViewedDate: '',
+  },
+  {
+    title: 'Coup de foudre à Manhattan',
+    director: 'Wayne Wang',
+    rating: 3.25,
+    timesWatched: 1,
+    firstViewedDate: '2025-11-28',
+    lastViewedDate: '2025-11-28',
   },
 ];

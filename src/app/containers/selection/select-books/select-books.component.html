@@ -3,9 +3,81 @@
 <div class="select-books-container">
   <div class="header">
     <h1>Sélectionner des livres</h1>
-    <p class="subtitle">
-      Cliquez sur les couvertures pour sélectionner vos livres préférés
-    </p>
+
+    <div class="selection-description">
+      @if(isWatchOrReadlistMode()) {
+      <p>
+        Bonjour {{ username() }} 👋 <br /><br />
+        Tu es en mode "Readlist" ! Ici, tu peux sélectionner les films que tu
+        souhaites ajouter à ta liste de films à voir.
+        <br /><br />
+        Les films que tu as déjà vus sont automatiquement exclus de cette liste
+        pour t'éviter les doublons.
+        <br /><br />
+        Sélectionne les films que tu aimerais voir et télécharge le fichier JSON
+        pour construire ta readlist.
+      </p>
+      } @else {
+      <p>
+        Bonjour {{ username() }} 👋 <br /><br />
+        Si tu es ici, c'est que tu souhaites pouvoir faire ta collection de
+        livres regardés, pouvoir les noter, les trier par préférence, par date
+        de sortie ou de dernière lecture, etc... <br /><br />
+        Comment ça marche ? <br />
+      </p>
+
+      <ul>
+        <li>
+          1. Parmi tous les livres présents sur cette page, sélectionne ceux que
+          tu as lus. Ensuite, clique sur le bouton "Exporter ma liste de livres"
+          pour télécharger un fichier JSON de ta collection, que tu pourras
+          m'envoyer.
+        </li>
+        <li>
+          2. Une fois ceci fait, il faut créer un compte sur
+          <a href="https://goodreads.com/" target="_blank">Goodreads</a> ou bien
+          <a href="https://babelio.com/" target="_blank">Babelio</a> et ajouter
+          ta collection de livres dessus. C'est rapide ne t'en fais pas, et
+          c'est surtout que ce site répertorie tous les livres possibles et
+          imaginables. Tu as fait ta première sélection grosse maille parmi les
+          livres existants sur cette page, et Goodreads ou Babelion vont t'aider
+          à compléter. Pas besoin d'ajouter les livres que tu as déjà
+          sélectionnés sur cette page sur ta sélection, mais si tu le fais et
+          qu'il y a des doublons, ce ne sera pas grave ne t'en fais pas.
+        </li>
+        <li>
+          3. Une fois ta sélection faite, il faut m'envoyer l'URL de ta liste.
+          Elle est normalement publique, il s'agit juste de mettre ton nom
+          d'utilisateur dans l'URL de cette façon :
+          <a
+            href="https://www.goodreads.com/user/show/174880698-guillaume-barranco"
+            target="_blank"
+            >https://www.goodreads.com/user/show/174880698-guillaume-barranco</a
+          >
+          ou
+          <a
+            href="https://www.babelio.com/monprofil.php?id_user=1763798"
+            target="_blank"
+            >https://www.babelio.com/monprofil.php?id_user=1763798</a
+          >
+        </li>
+        <li>
+          4. Tu n'auras désormais plus besoin de cet outil, c'était juste pour
+          faire cette liste initiale complète ! Une fois que tu m'a envoyé le
+          fichier JSON avec la sélection que tu as faite sur cette page, ainsi
+          que l'URL de ta readlist, je rentrerai toutes les données dans ton
+          profil et tu pourras avoir une superbe vue de tous tes livres, et tu
+          pourras ensuite les mettre à jour individuellement pour renseigner la
+          note de chacun ou le nombre de lectures etc... Enjoy !
+        </li>
+        <li>
+          5. En dernière étape une fois que tout cela sera fait, on trouvera un
+          moyen d'ajouter de nouveaux livres au fur et à mesure que tu en
+          regardes et tu pourras profiter de l'outil tranquillement :)
+        </li>
+      </ul>
+      }
+    </div>
   </div>
 
   <div class="toolbar">
@@ -51,4 +123,3 @@
     }
   </div>
 </div>
-
