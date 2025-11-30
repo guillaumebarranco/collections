@@ -35,7 +35,18 @@ export function getAllBooks(): { [key: string]: Book[] } {
 }
 
 export function getAllBooksMerged(): Book[] {
-  return Object.values(getAllBooks()).flat();
+  return Object.values(getAllBooks())
+    .flat()
+    .reduce((acc: Book[], item: Book) => {
+      if (
+        acc.find(
+          (book) => book.title === item.title && book.author === item.author
+        )
+      ) {
+        return acc;
+      }
+      return [...acc, item];
+    }, []);
 }
 
 function getAllBooksData(books: UserBook[]): Book[] {

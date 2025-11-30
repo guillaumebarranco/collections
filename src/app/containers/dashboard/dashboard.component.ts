@@ -9,13 +9,6 @@ import {
 import { mangas } from '../../utils/users/guillaume/mangas/mangas';
 import { manwhas } from '../../utils/users/guillaume/mangas/manwhas';
 
-import {
-  games1,
-  games2,
-  games3,
-  games4,
-} from '../../utils/users/guillaume/games';
-
 import { musics } from '../../utils/users/guillaume/musics';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Book } from '../../models/book-model';
@@ -27,6 +20,7 @@ import { getTotalPagesRead, MINUTES_PER_PAGE } from '../../utils/stats.utils';
 import { getAllMovies } from '../../facades/movies.facade';
 import { getAllSeries } from '../../facades/series.facade';
 import { getAllBooks } from '../../facades/books.facade';
+import { getAllGames } from '../../facades/games.facade';
 
 interface TopBook extends Book {
   formattedReadingTime: string;
@@ -89,12 +83,7 @@ export class DashboardComponent {
       : this.seriesList()['guillaume'];
   });
 
-  gamesList = signal<{ [key: string]: Game[] }>({
-    guillaume: [...games1, ...games2, ...games3, ...games4],
-    william: [],
-    kevin: [],
-    amandine: [],
-  });
+  gamesList = signal<{ [key: string]: Game[] }>(getAllGames());
 
   allGames = computed<Game[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;

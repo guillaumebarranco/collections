@@ -81,7 +81,19 @@ export function getAllWatchlistMovies(): { [key: string]: Movie[] } {
 }
 
 export function getAllMoviesMerged(): Movie[] {
-  return Object.values(getAllMovies()).flat();
+  return Object.values(getAllMovies())
+    .flat()
+    .reduce((acc: Movie[], item: Movie) => {
+      if (
+        acc.find(
+          (movie) =>
+            movie.title === item.title && movie.director === item.director
+        )
+      ) {
+        return acc;
+      }
+      return [...acc, item];
+    }, []);
 }
 
 export function getMoviesByUser(userId: string): Movie[] {

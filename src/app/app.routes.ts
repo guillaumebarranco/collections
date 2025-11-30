@@ -6,7 +6,6 @@ import { MoviesComponent } from './containers/collections/movies/movies.componen
 import { SeriesComponent } from './containers/collections/series/series.component';
 import { GamesComponent } from './containers/collections/games/games.component';
 import { DashboardComponent } from './containers/dashboard/dashboard.component';
-import { NewsComponent } from './containers/news/news';
 import { SelectMoviesComponent } from './containers/selection/select-movies/select-movies.component';
 import { SelectBooksComponent } from './containers/selection/select-books/select-books.component';
 import { SelectSeriesComponent } from './containers/selection/select-series/select-series.component';
@@ -58,10 +57,6 @@ export const routes: Routes = [
   {
     path: 'musics',
     component: MusicsComponent,
-  },
-  {
-    path: 'news',
-    component: NewsComponent,
   },
   {
     path: 'select-movies',

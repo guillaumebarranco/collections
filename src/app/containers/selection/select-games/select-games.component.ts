@@ -2,12 +2,7 @@ import { Component, signal, computed } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import { Game } from '../../../models/game-model';
-import {
-  games1,
-  games2,
-  games3,
-  games4,
-} from '../../../utils/users/guillaume/games';
+import { getAllGamesMerged } from '../../../facades/games.facade';
 
 @Component({
   selector: 'app-select-games',
@@ -17,13 +12,7 @@ import {
 })
 export class SelectGamesComponent {
   // Tous les jeux de tous les utilisateurs
-  allGames = signal<Game[]>([
-    // Guillaume
-    ...games1,
-    ...games2,
-    ...games3,
-    ...games4,
-  ]);
+  allGames = signal<Game[]>(getAllGamesMerged());
 
   // Jeux sélectionnés
   selectedGames = signal<Set<string>>(new Set());

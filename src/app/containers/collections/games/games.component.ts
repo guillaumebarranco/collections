@@ -12,17 +12,12 @@ import {
 } from '../../../components/stats-display/stats-display.component';
 import { Game } from '../../../models/game-model';
 import {
-  games1,
-  games2,
-  games3,
-  games4,
-} from '../../../utils/users/guillaume/games';
-import {
   formatTimeStats,
   ItemWithGameLength,
   TimeStats,
 } from '../../../utils/stats.utils';
 import { ActivatedRoute, Params, RouterLink } from '@angular/router';
+import { getAllGames } from '../../../facades/games.facade';
 
 export function getTotalDuration(items: ItemWithGameLength[]): TimeStats {
   let totalHours = 0;
@@ -82,11 +77,7 @@ export class GamesComponent {
     { value: 'totalPlayedTime-asc', label: 'Temps passé (faible)' },
   ]);
 
-  gamesList = signal<{ [key: string]: Game[] }>({
-    guillaume: [...games1, ...games2, ...games3, ...games4],
-    william: [],
-    kevin: [],
-  });
+  gamesList = signal<{ [key: string]: Game[] }>(getAllGames());
 
   allGames = computed<Game[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;

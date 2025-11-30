@@ -16,7 +16,19 @@ export function getAllSeries(): { [key: string]: Serie[] } {
 }
 
 export function getAllSeriesMerged(): Serie[] {
-  return Object.values(getAllSeries()).flat();
+  return Object.values(getAllSeries())
+    .flat()
+    .reduce((acc: Serie[], item: Serie) => {
+      if (
+        acc.find(
+          (serie) =>
+            serie.title === item.title && serie.director === item.director
+        )
+      ) {
+        return acc;
+      }
+      return [...acc, item];
+    }, []);
 }
 
 function getAllSeriesData(series: UserSerie[]): Serie[] {
