@@ -40,7 +40,7 @@ export class MoviesComponent {
   router = inject(Router);
   activatedRoute = inject(ActivatedRoute);
 
-  selectedSort = signal<string>('rating');
+  selectedSort = signal<string>('lastViewedDate');
   selectedView = signal<MovieView>('watched');
 
   sortOptions: SortOption[] = [

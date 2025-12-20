@@ -1,6 +1,6 @@
 <div class="book-card">
   <div class="book-cover">
-    <img [src]="book.coverUrl" [alt]="book.title" class="cover-image">
+    <img [src]="book.coverUrl" [alt]="book.title" class="cover-image" />
   </div>
   <div class="book-info">
     <h3 class="book-title">{{ book.title }}</h3>
@@ -10,24 +10,26 @@
     <p class="book-author">{{ book.author }}</p>
     @if (book.pages) {
     <p class="book-pages">{{ book.pages }} pages</p>
-    }
-    @if (book.nbTomes) {
+    } @if (book.nbTomes) {
     <p>
       <span class="book-pages">{{ book.nbTomes }} tomes</span>
       @if(!book.isFinished) {
       <span class="book-pages"> (En cours)</span>
       }
     </p>
-    }
-    @if (book.readDate.includes('-')) {
-    <p class="book-read-times">Lu le {{ book.readDate | date:'dd/MM/yyyy' }}</p>
-    }
-    @if (book.readTimes && book.readTimes > 1) {
+    } @if (book.readDate.includes('-')) {
+    <p class="book-read-times">
+      Lu le {{ book.readDate | date : "dd/MM/yyyy" }}
+    </p>
+    } @if (book.readTimes && book.readTimes > 1) {
     <p class="book-read-times">📖 Lu {{ book.readTimes }} fois</p>
     }
     <div class="book-rating">
       <span class="stars">
-        <span *ngFor="let star of getRatingStars(book.rating || 0)" [class]="'star star-' + star.type"></span>
+        <span
+          *ngFor="let star of getRatingStars(book.rating || 0)"
+          [class]="'star star-' + star.type"
+        ></span>
       </span>
       <span class="rating-text">{{ book.rating }}/5</span>
     </div>

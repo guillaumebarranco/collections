@@ -38,8 +38,8 @@ export const guillaumeMoviesLove: UserMovie[] = [
     director: 'Mark Steven Johnson',
     rating: 2.25,
     timesWatched: 1,
-    firstViewedDate: '2026-11-27',
-    lastViewedDate: '2026-11-27',
+    firstViewedDate: '2025-11-27',
+    lastViewedDate: '2025-11-27',
   },
   {
     title: 'Tout le Bleu du Ciel',

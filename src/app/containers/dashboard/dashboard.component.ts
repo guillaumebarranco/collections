@@ -53,6 +53,30 @@ export class DashboardComponent {
   activatedRoute = inject(ActivatedRoute);
 
   booksList = signal<{ [key: string]: Book[] }>(getAllBooks());
+  moviesList = signal<{ [key: string]: Movie[] }>(getAllMovies());
+  seriesList = signal<{ [key: string]: Serie[] }>(getAllSeries());
+  gamesList = signal<{ [key: string]: Game[] }>(getAllGames());
+
+  mangasList = signal<{ [key: string]: any[] }>({
+    guillaume: [...mangas],
+    william: [],
+    kevin: [],
+    amandine: [],
+  });
+
+  manwhasList = signal<{ [key: string]: any[] }>({
+    guillaume: [...manwhas],
+    william: [],
+    kevin: [],
+    amandine: [],
+  });
+
+  musicsList = signal<{ [key: string]: Music[] }>({
+    guillaume: [...musics],
+    william: [],
+    kevin: [],
+    amandine: [],
+  });
 
   allBooks = computed<Book[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
@@ -63,8 +87,6 @@ export class DashboardComponent {
       : this.booksList()['guillaume'];
   });
 
-  moviesList = signal<{ [key: string]: Movie[] }>(getAllMovies());
-
   allMovies = computed<Movie[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
@@ -72,8 +94,6 @@ export class DashboardComponent {
       ? this.moviesList()[params['id']]
       : this.moviesList()['guillaume'];
   });
-
-  seriesList = signal<{ [key: string]: Serie[] }>(getAllSeries());
 
   allSeries = computed<Serie[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
@@ -83,21 +103,12 @@ export class DashboardComponent {
       : this.seriesList()['guillaume'];
   });
 
-  gamesList = signal<{ [key: string]: Game[] }>(getAllGames());
-
   allGames = computed<Game[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
       ? this.gamesList()[params['id']]
       : this.gamesList()['guillaume'];
-  });
-
-  mangasList = signal<{ [key: string]: any[] }>({
-    guillaume: [...mangas],
-    william: [],
-    kevin: [],
-    amandine: [],
   });
 
   allMangas = computed<any[]>(() => {
@@ -114,13 +125,6 @@ export class DashboardComponent {
     }));
   });
 
-  manwhasList = signal<{ [key: string]: any[] }>({
-    guillaume: [...manwhas],
-    william: [],
-    kevin: [],
-    amandine: [],
-  });
-
   allManwhas = computed<any[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
@@ -133,13 +137,6 @@ export class DashboardComponent {
       readTimes: manwha._readTimes || 1,
       nbTomes: manwha._source.manga.france.nbBooks || 0,
     }));
-  });
-
-  musicsList = signal<{ [key: string]: Music[] }>({
-    guillaume: [...musics],
-    william: [],
-    kevin: [],
-    amandine: [],
   });
 
   allMusics = computed<Music[]>(() => {

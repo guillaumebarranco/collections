@@ -466,6 +466,14 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     lastViewedDate: '2022-12-23',
   },
   {
+    title: 'Wake up dead man : une histoire à couteaux tirés',
+    director: 'Rian Johnson',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2025-12-17',
+    lastViewedDate: '2025-12-17',
+  },
+  {
     title: 'James Bond: Meurs un autre jour',
     director: 'Lee Tamahori',
     rating: 3,

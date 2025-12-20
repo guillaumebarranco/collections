@@ -215,6 +215,20 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     genre: 'Enquête',
   },
   {
+    title: 'Wake up dead man : une histoire à couteaux tirés',
+    director: 'Rian Johnson',
+    actors: [
+      {
+        name: 'Daniel Craig',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/image_1199205_20251218_ob_8bc67b_df38f06c165af14b3883e76218ab7678.webp',
+    releaseDate: '2025-12-12',
+    length: 135,
+    genre: 'Enquête',
+  },
+  {
     title: 'James Bond: Meurs un autre jour',
     director: 'Lee Tamahori',
     actors: [{ name: 'Pierce Brosnan' }],

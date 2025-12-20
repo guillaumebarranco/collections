@@ -442,4 +442,18 @@ export const guillaumeBooks: UserBook[] = [
     rating: 3,
     readTimes: 1,
   },
+  {
+    title: "L'Odyssée",
+    author: 'Homère',
+    readDate: '2025-12-02',
+    rating: 3.75,
+    readTimes: 1,
+  },
+  {
+    title: 'Adam',
+    author: 'Eny Heli',
+    readDate: '2025-12-06',
+    rating: 4.5,
+    readTimes: 1,
+  },
 ];

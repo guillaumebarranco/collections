@@ -568,4 +568,22 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
   },
+  {
+    title: "L'Odyssée",
+    author: 'Homère',
+    coverUrl: '/books_pictures/61pvUL4GBvL._SL1491_.jpg',
+    pages: 480,
+    genre: 'Classiques',
+    saga: '',
+    sagaOrder: 0,
+  },
+  {
+    title: 'Adam',
+    author: 'Eny Heli',
+    coverUrl: '/books_pictures/61F72yE7irL.jpg',
+    pages: 350,
+    genre: 'Dark Romance',
+    saga: '',
+    sagaOrder: 0,
+  },
 ];
