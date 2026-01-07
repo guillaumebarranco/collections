@@ -61,6 +61,7 @@ export class BooksComponent {
 
   yearFilterOptions = [
     { value: 'all', label: 'Toutes' },
+    { value: '2026', label: '2026' },
     { value: '2025', label: '2025' },
     { value: '2024', label: '2024' },
     { value: 'before2024', label: 'Avant 2024' },
@@ -93,7 +94,11 @@ export class BooksComponent {
     let filteredBooks = [...this.allBooks()];
 
     // Filtrage par année
-    if (this.selectedYearFilter() === '2025') {
+    if (this.selectedYearFilter() === '2026') {
+      filteredBooks = filteredBooks.filter((b) =>
+        b.readDate.startsWith('2026')
+      );
+    } else if (this.selectedYearFilter() === '2025') {
       filteredBooks = filteredBooks.filter((b) =>
         b.readDate.startsWith('2025')
       );

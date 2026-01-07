@@ -995,4 +995,31 @@ export const baseMoviesPage1: BaseMovie[] = [
     length: 81,
     genre: 'Thriller',
   },
+  {
+    title: 'La femme de ménage',
+    director: 'Paul Feig',
+    actors: [
+      { name: 'Sydney Sweeney' },
+      { name: 'Amanda Seyfried' },
+      { name: 'Brandon Sklenar' },
+    ],
+    coverUrl: '/movies_pictures/eda3bba832e22c79ea22117b058f84e5.webp',
+    releaseDate: '2025-12-24',
+    length: 150,
+    genre: 'Thriller',
+  },
+  {
+    title: 'Eaux profondes',
+    director: 'Adrian Lyne',
+    actors: [
+      { name: 'Ben Affleck' },
+      { name: 'Ana de Armas' },
+      { name: 'Jacob Elordi' },
+    ],
+    coverUrl:
+      '/movies_pictures/c57fc0bb7f1b83e5f8f5c97bf2605a73727f3094c3aa077c88ac17f2e48dd864.jpg',
+    releaseDate: '2022-03-18',
+    length: 115,
+    genre: 'Thriller',
+  },
 ];

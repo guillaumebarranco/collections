@@ -5,7 +5,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     title: 'Hunger Games',
     author: 'Suzanne Collins',
     readDate: '2025-02-12',
-    rating: 4,
+    rating: 4.25,
     readTimes: 1,
   },
   {
@@ -96,7 +96,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     title: 'Fascination',
     author: 'Stephenie Meyer',
     readDate: '2010-07-16',
-    rating: 4.5,
+    rating: 4.75,
     readTimes: 30,
   },
   {

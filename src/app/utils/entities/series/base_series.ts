@@ -216,10 +216,10 @@ export const baseSeries: BaseSerie[] = [
       '/series_pictures/MV5BMjg2NmM0MTEtYWY2Yy00NmFlLTllNTMtMjVkZjEwMGVlNzdjXkEyXkFqcGc@._V1_.jpg',
     releaseDate: '2016-07-15',
     endDate: '',
-    totalLength: 2040,
+    totalLength: 2760,
     genre: 'Drama, Fantasy, Horror',
-    nbSeasons: 4,
-    nbEpisodesTotal: 34,
+    nbSeasons: 5,
+    nbEpisodesTotal: 42,
   },
   {
     title: 'Lupin',

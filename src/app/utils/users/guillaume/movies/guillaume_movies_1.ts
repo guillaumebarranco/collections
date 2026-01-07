@@ -380,7 +380,7 @@ export const guillaumeMoviesPage1: UserMovie[] = [
   {
     title: 'La carte qui mène à toi',
     director: 'Inconnu',
-    rating: 3.5,
+    rating: 3.75,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '2025-07-13',
@@ -412,7 +412,7 @@ export const guillaumeMoviesPage1: UserMovie[] = [
   {
     title: 'Source Code',
     director: 'Duncan Jones',
-    rating: 4.25,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '2025-09-01',
@@ -532,7 +532,7 @@ export const guillaumeMoviesPage1: UserMovie[] = [
   {
     title: 'Forever My Girl',
     director: 'Bethany Ashton Wolf',
-    rating: 3.25,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '2025-08-28',
@@ -540,9 +540,25 @@ export const guillaumeMoviesPage1: UserMovie[] = [
   {
     title: 'Dans tes rêves',
     director: 'Denis Thybaud',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2013-03-02',
+    lastViewedDate: '2013-03-02',
+  },
+  {
+    title: 'La femme de ménage',
+    director: 'Paul Feig',
+    rating: 3.25,
+    timesWatched: 1,
+    firstViewedDate: '2026-01-02',
+    lastViewedDate: '2026-01-02',
+  },
+  {
+    title: 'Eaux profondes',
+    director: 'Adrian Lyne',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2026-01-03',
+    lastViewedDate: '2026-01-03',
   },
 ];
