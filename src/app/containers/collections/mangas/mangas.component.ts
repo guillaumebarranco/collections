@@ -9,6 +9,7 @@ import {
 import {
   StatsDisplayComponent,
   StatItem,
+  StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
 import { Book } from '../../../models/book-model';
 import { mangas } from '../../../utils/users/guillaume/mangas/mangas';
@@ -72,7 +73,7 @@ export class MangasComponent {
     const hasNameParam = params['id'] !== undefined;
 
     const mangas = hasNameParam
-      ? this.mangasList()[params['id']]
+      ? this.mangasList()[params['id']] || []
       : this.mangasList()['guillaume'];
 
     return mangas.map((manga: any) => {
@@ -177,31 +178,31 @@ export class MangasComponent {
         label: 'Total des tomes',
         value: `${totalTomes.toLocaleString()} tomes`,
         icon: '📚',
-        color: 'success',
+        color: StatItemColor.SUCCESS,
       },
       {
         label: 'Total des pages',
         value: `${totalPages.toLocaleString()} pages`,
         icon: '📖',
-        color: 'info',
+        color: StatItemColor.INFO,
       },
       {
         label: 'Total des tomes lus (avec relectures)',
         value: `${totalTomesRead.toLocaleString()} tomes`,
         icon: '📚',
-        color: 'success',
+        color: StatItemColor.SUCCESS,
       },
       {
         label: 'Total des pages lues (avec relectures)',
         value: `${totalPagesRead.toLocaleString()} pages`,
         icon: '📖',
-        color: 'info',
+        color: StatItemColor.INFO,
       },
       {
         label: 'Temps estimé de lecture',
         value: estimatedReadingTime.formatted,
         icon: '⏱️',
-        color: 'primary',
+        color: StatItemColor.PRIMARY,
       },
     ];
   });

@@ -9,6 +9,7 @@ import {
 import {
   StatsDisplayComponent,
   StatItem,
+  StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
 import { Game } from '../../../models/game-model';
 import {
@@ -83,7 +84,7 @@ export class GamesComponent {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
-      ? this.gamesList()[params['id']]
+      ? this.gamesList()[params['id']] || []
       : this.gamesList()['guillaume'];
   });
 
@@ -181,13 +182,13 @@ export class GamesComponent {
         label: 'Temps total pour terminer tous les jeux',
         value: totalTime.formatted,
         icon: '🎮',
-        color: 'success',
+        color: StatItemColor.SUCCESS,
       },
       {
         label: 'Temps total passé à jouer',
         value: totalPlayTime.formatted,
         icon: '⏱️',
-        color: 'primary',
+        color: StatItemColor.PRIMARY,
       },
     ];
   });

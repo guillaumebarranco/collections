@@ -1,9 +1,29 @@
 <app-menu></app-menu>
 
 <div class="books-container">
-  <h1>Livres lus ({{ allBooks().length }})</h1>
+  <h1>
+    {{ selectedView() === "readlist" ? "Livres à lire" : "Livres lus" }}
+    ({{ filteredBooks().length }})
+  </h1>
 
-  @if(allBooks().length === 0) {
+  <div class="books-view-toggle">
+    <button
+      class="toggle-option"
+      [class.active]="selectedView() === 'read'"
+      (click)="onViewChange('read')"
+    >
+      Livres lus
+    </button>
+    <button
+      class="toggle-option"
+      [class.active]="selectedView() === 'readlist'"
+      (click)="onViewChange('readlist')"
+    >
+      Livres à lire
+    </button>
+  </div>
+
+  @if(filteredBooks().length === 0) {
   <div class="empty-state">
     <p class="empty-message">Vous n'avez aucun livre dans votre collection.</p>
     <p class="empty-subtitle">
@@ -18,7 +38,7 @@
   <div class="books-header">
     <app-stats-display
       [stats]="stats()"
-      [count]="allBooks().length"
+      [count]="filteredBooks().length"
       countLabel="livres"
     >
     </app-stats-display>
@@ -39,6 +59,7 @@
       </div>
 
       <!-- Dropdown de filtre d'années -->
+      @if(selectedView() === 'read') {
       <div class="books-filters-item">
         <p>Filtrer par année :</p>
         <select
@@ -55,6 +76,7 @@
           </option>
         </select>
       </div>
+      }
 
       <app-sort-dropdown
         [sortOptions]="sortOptions"

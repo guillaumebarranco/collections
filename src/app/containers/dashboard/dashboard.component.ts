@@ -4,6 +4,7 @@ import { MenuComponent } from '../../components/menu/menu.component';
 import {
   StatsDisplayComponent,
   StatItem,
+  StatItemColor,
 } from '../../components/stats-display/stats-display.component';
 
 import { mangas } from '../../utils/users/guillaume/mangas/mangas';
@@ -83,7 +84,7 @@ export class DashboardComponent {
     const hasNameParam = params['id'] !== undefined;
 
     return hasNameParam
-      ? this.booksList()[params['id']]
+      ? this.booksList()[params['id']] || []
       : this.booksList()['guillaume'];
   });
 
@@ -91,7 +92,7 @@ export class DashboardComponent {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
-      ? this.moviesList()[params['id']]
+      ? this.moviesList()[params['id']] || []
       : this.moviesList()['guillaume'];
   });
 
@@ -99,7 +100,7 @@ export class DashboardComponent {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
-      ? this.seriesList()[params['id']]
+      ? this.seriesList()[params['id']] || []
       : this.seriesList()['guillaume'];
   });
 
@@ -107,7 +108,7 @@ export class DashboardComponent {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
-      ? this.gamesList()[params['id']]
+      ? this.gamesList()[params['id']] || []
       : this.gamesList()['guillaume'];
   });
 
@@ -115,7 +116,7 @@ export class DashboardComponent {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     const mangas = hasNameParam
-      ? this.mangasList()[params['id']]
+      ? this.mangasList()[params['id']] || []
       : this.mangasList()['guillaume'];
 
     return mangas.map((manga) => ({
@@ -129,7 +130,7 @@ export class DashboardComponent {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     const manwhas = hasNameParam
-      ? this.manwhasList()[params['id']]
+      ? this.manwhasList()[params['id']] || []
       : this.manwhasList()['guillaume'];
 
     return manwhas.map((manwha) => ({
@@ -143,7 +144,7 @@ export class DashboardComponent {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
-      ? this.musicsList()[params['id']]
+      ? this.musicsList()[params['id']] || []
       : this.musicsList()['guillaume'];
   });
 
@@ -287,43 +288,43 @@ export class DashboardComponent {
         label: 'Livres lus',
         value: this.allBooks().length.toString(),
         icon: '📖',
-        color: 'primary',
+        color: StatItemColor.PRIMARY,
       },
       {
         label: 'Mangas lus',
         value: this.allMangas().length.toString(),
         icon: '📚',
-        color: 'secondary',
+        color: StatItemColor.SECONDARY,
       },
       {
         label: 'Manwhas lus',
         value: this.allManwhas().length.toString(),
         icon: '📖',
-        color: 'info',
+        color: StatItemColor.INFO,
       },
       {
         label: 'Films vus',
         value: this.allMovies().length.toString(),
         icon: '🎬',
-        color: 'warning',
+        color: StatItemColor.WARNING,
       },
       {
         label: 'Séries vues',
         value: this.allSeries().length.toString(),
         icon: '📺',
-        color: 'info',
+        color: StatItemColor.INFO,
       },
       {
         label: 'Jeux joués',
         value: this.allGames().length.toString(),
         icon: '🎮',
-        color: 'success',
+        color: StatItemColor.SUCCESS,
       },
       {
         label: 'Musiques écoutées',
         value: this.allMusics().length.toString(),
         icon: '🎵',
-        color: 'warning',
+        color: StatItemColor.WARNING,
       },
       {
         label: 'Temps total passé à lire (livres + mangas + manwhas)',
@@ -333,31 +334,31 @@ export class DashboardComponent {
             manwhasTotalReadingTime
         ),
         icon: '📖',
-        color: 'primary',
+        color: StatItemColor.PRIMARY,
       },
       {
         label: 'Temps total passé à regarder (films + séries)',
         value: this.formatTime(totalWatchingTime),
         icon: '📺',
-        color: 'success',
+        color: StatItemColor.SUCCESS,
       },
       {
         label: 'Temps total passé à jouer',
         value: this.formatTime(gamesTotalTime),
         icon: '🎮',
-        color: 'secondary',
+        color: StatItemColor.SECONDARY,
       },
       {
         label: 'Temps total passé à écouter de la musique',
         value: this.formatTime(musicsTotalTime),
         icon: '🎵',
-        color: 'warning',
+        color: StatItemColor.WARNING,
       },
       {
         label: 'TEMPS TOTAL CUMULÉ (toutes activités)',
         value: this.formatTime(totalCumulativeTime),
         icon: '⏱️',
-        color: 'danger',
+        color: StatItemColor.DANGER,
       },
     ];
   });

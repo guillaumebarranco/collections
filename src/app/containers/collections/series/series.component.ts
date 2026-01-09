@@ -9,6 +9,7 @@ import {
 import {
   StatsDisplayComponent,
   StatItem,
+  StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
 import { Serie } from '../../../models/serie-model';
 import {
@@ -59,7 +60,7 @@ export class SeriesComponent {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
-      ? this.seriesList()[params['id']]
+      ? this.seriesList()[params['id']] || []
       : this.seriesList()['guillaume'];
   });
 
@@ -129,13 +130,13 @@ export class SeriesComponent {
         label: 'Durée totale de toutes les séries',
         value: totalDuration.formatted,
         icon: '📺',
-        color: 'success',
+        color: StatItemColor.SUCCESS,
       },
       {
         label: 'Temps total passé devant des séries',
         value: totalWatchingTime.formatted,
         icon: '⏱️',
-        color: 'primary',
+        color: StatItemColor.PRIMARY,
       },
     ];
   });

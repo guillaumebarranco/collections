@@ -12,7 +12,8 @@ import {
   baseMoviesAnimated,
   baseMoviesSagaPage1,
   baseMoviesSagaPage2,
-} from '../utils/entities/movies/index';
+  baseMoviesFromAmandine,
+} from '../utils/entities/movies';
 
 import {
   guillaumeMoviesPage1,
@@ -31,7 +32,6 @@ import {
 import { williamMovies } from '../utils/users/william/movies';
 import { amandineMovies1 } from '../utils/users/amandine/movies/amandine_movies_1';
 import { amandineMovies2 } from '../utils/users/amandine/movies/amandine_movies_2';
-import { baseMoviesFromAmandine } from '../utils/entities/movies/movies_from_amandine';
 import { guillaumeWatchlistMovies } from '../utils/users/guillaume/movies/guillaume_watchlist_movies';
 
 const allBaseMovies: BaseMovie[] = [

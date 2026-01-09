@@ -1,4 +1,5 @@
 @use '../../../styles/containers.scss' as containers;
+@use '../../../styles/toggle.scss' as toggle;
 
 .books-container {
   @include containers.container-base;
@@ -10,6 +11,10 @@
   .btn-primary {
     @include containers.btn-primary-base;
   }
+}
+
+.books-view-toggle {
+  @include toggle.view-toggle;
 }
 
 .books-header {
@@ -101,6 +106,16 @@
     flex-direction: column;
     gap: 15px;
     text-align: center;
+  }
+
+  .books-view-toggle {
+    max-width: 100%;
+    margin: 15px 0;
+
+    .toggle-option {
+      padding: 10px 16px;
+      font-size: 0.9rem;
+    }
   }
 
   .books {

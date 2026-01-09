@@ -9,6 +9,7 @@ import {
 import {
   StatsDisplayComponent,
   StatItem,
+  StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
 import {
   getTotalWatchingTime,
@@ -170,13 +171,13 @@ export class MoviesComponent {
         label: 'Durée totale de tous les films',
         value: totalDuration.formatted,
         icon: '🎬',
-        color: 'success',
+        color: StatItemColor.SUCCESS,
       },
       {
         label: 'Temps total passé devant des films',
         value: totalWatchingTime.formatted,
         icon: '⏱️',
-        color: 'primary',
+        color: StatItemColor.PRIMARY,
       },
     ];
   });

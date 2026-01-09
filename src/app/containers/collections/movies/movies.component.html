@@ -6,6 +6,23 @@
     ({{ filteredMovies().length }})
   </h1>
 
+  <div class="movies-view-toggle">
+    <button
+      class="toggle-option"
+      [class.active]="selectedView() === 'watched'"
+      (click)="onViewChange('watched')"
+    >
+      Films vus
+    </button>
+    <button
+      class="toggle-option"
+      [class.active]="selectedView() === 'watchlist'"
+      (click)="onViewChange('watchlist')"
+    >
+      Films à voir
+    </button>
+  </div>
+
   @if(filteredMovies().length === 0) {
   <div class="empty-state">
     <p class="empty-message">Aucun film à afficher pour cette sélection.</p>
@@ -33,18 +50,6 @@
         (sortChange)="onSortChange($event)"
       >
       </app-sort-dropdown>
-
-      <label class="movies-view-select">
-        <span>Afficher</span>
-        <select
-          [value]="selectedView()"
-          (change)="onViewChange($any($event.target).value)"
-        >
-          @for (option of movieViewOptions; track option.value) {
-          <option [value]="option.value">{{ option.label }}</option>
-          }
-        </select>
-      </label>
     </div>
   </div>
 

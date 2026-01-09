@@ -4,6 +4,8 @@ import {
   baseBooks,
   baseBooksFantasySaga,
   baseBooksSaga,
+  baseBooksFromKevin,
+  baseFromReadlistBooks,
 } from '../utils/entities/books';
 
 import {
@@ -12,7 +14,6 @@ import {
   guillaumeBooksSaga,
 } from '../utils/users/guillaume/books';
 import { kevinBooks1, kevinBooks2 } from '../utils/users/kevin/books';
-import { baseBooksFromKevin } from '../utils/entities/books/books_from_kevin';
 
 const allBaseBooks: BaseBook[] = [
   ...baseBooks,
@@ -31,6 +32,20 @@ export function getAllBooks(): { [key: string]: Book[] } {
     william: getAllBooksData([]),
     kevin: getAllBooksData([...kevinBooks1, ...kevinBooks2]),
     amandine: getAllBooksData([]),
+  };
+}
+
+export function getAllReadlistBooks(): { [key: string]: Book[] } {
+  return {
+    guillaume: baseFromReadlistBooks.map((baseBook: BaseBook) => ({
+      ...baseBook,
+      readDate: '',
+      rating: 0,
+      readTimes: 0,
+    })),
+    william: [],
+    kevin: [],
+    amandine: [],
   };
 }
 

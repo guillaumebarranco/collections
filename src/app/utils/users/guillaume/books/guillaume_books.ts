@@ -412,7 +412,7 @@ export const guillaumeBooks: UserBook[] = [
     author: 'Eny Heli',
     readDate: '2025-09-11',
     rating: 4.5,
-    readTimes: 1,
+    readTimes: 2,
   },
   {
     title: 'Un choix',

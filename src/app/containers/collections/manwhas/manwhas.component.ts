@@ -18,6 +18,7 @@ import {
 import {
   StatsDisplayComponent,
   StatItem,
+  StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
 @Component({
   selector: 'app-manwhas',
@@ -64,7 +65,7 @@ export class ManwhasComponent {
     const hasNameParam = params['id'] !== undefined;
 
     const manwhas = hasNameParam
-      ? this.manwhasList()[params['id']]
+      ? this.manwhasList()[params['id']] || []
       : this.manwhasList()['guillaume'];
 
     return manwhas.map((manga: any) => {
@@ -171,31 +172,31 @@ export class ManwhasComponent {
         label: 'Total des tomes',
         value: `${totalTomes.toLocaleString()} tomes`,
         icon: '📚',
-        color: 'success',
+        color: StatItemColor.SUCCESS,
       },
       {
         label: 'Total des pages',
         value: `${totalPages.toLocaleString()} pages`,
         icon: '📖',
-        color: 'info',
+        color: StatItemColor.INFO,
       },
       {
         label: 'Total des tomes lus (avec relectures)',
         value: `${totalTomesRead.toLocaleString()} tomes`,
         icon: '📚',
-        color: 'success',
+        color: StatItemColor.SUCCESS,
       },
       {
         label: 'Total des pages lues (avec relectures)',
         value: `${totalPagesRead.toLocaleString()} pages`,
         icon: '📖',
-        color: 'info',
+        color: StatItemColor.INFO,
       },
       {
         label: 'Temps estimé de lecture',
         value: estimatedReadingTime.formatted,
         icon: '⏱️',
-        color: 'primary',
+        color: StatItemColor.PRIMARY,
       },
     ];
   });

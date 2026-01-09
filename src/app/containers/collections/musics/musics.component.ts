@@ -10,6 +10,7 @@ import {
 import {
   StatsDisplayComponent,
   StatItem,
+  StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
 import {
   AlbumModalComponent,
@@ -90,7 +91,7 @@ export class MusicsComponent {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
-      ? this.musicsList()[params['id']]
+      ? this.musicsList()[params['id']] || []
       : this.musicsList()['guillaume'];
   });
 
@@ -244,13 +245,13 @@ export class MusicsComponent {
         label: 'Durée totale de toutes les musiques',
         value: totalDuration,
         icon: '🎵',
-        color: 'success',
+        color: StatItemColor.SUCCESS,
       },
       {
         label: 'Temps total passé en écoute',
         value: totalListeningTime,
         icon: '🎧',
-        color: 'primary',
+        color: StatItemColor.PRIMARY,
       },
     ];
   });

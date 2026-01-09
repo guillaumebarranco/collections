@@ -1,4 +1,5 @@
 @use '../../../styles/containers.scss' as containers;
+@use '../../../styles/toggle.scss' as toggle;
 
 .movies-container {
   @include containers.container-base;
@@ -40,34 +41,8 @@
   @include containers.count;
 }
 
-.movies-view-select {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  font-size: 0.95rem;
-  color: #34495e;
-
-  span {
-    white-space: nowrap;
-  }
-
-  select {
-    padding: 8px 12px;
-    border-radius: 8px;
-    border: 2px solid #ecf0f1;
-    font-size: 0.95rem;
-    background-color: #fff;
-    color: #2c3e50;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    min-width: 180px;
-
-    &:focus {
-      outline: none;
-      border-color: #6366f1;
-      box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
-    }
-  }
+.movies-view-toggle {
+  @include toggle.view-toggle;
 }
 
 .movies {
@@ -136,18 +111,15 @@
     .movies-filters {
       width: 100%;
     }
+  }
 
-    .movies-view-select {
-      flex-direction: column;
-      align-items: flex-start;
+  .movies-view-toggle {
+    max-width: 100%;
+    margin: 15px 0;
 
-      span {
-        margin-bottom: 4px;
-      }
-
-      select {
-        width: 100%;
-      }
+    .toggle-option {
+      padding: 10px 16px;
+      font-size: 0.9rem;
     }
   }
 
