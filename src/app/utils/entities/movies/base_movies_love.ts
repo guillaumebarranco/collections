@@ -501,7 +501,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
   },
   {
-    title: 'Amour au Carré',
+    title: "L'Amour puissance mille",
     director: 'Filip Zylber',
     actors: [
       {

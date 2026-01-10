@@ -330,10 +330,8 @@ export class BooksComponent implements OnInit {
   });
 
   stats = computed<StatItem[]>(() => {
-    const booksToUse =
-      this.selectedView() === 'readlist'
-        ? this.allReadlistBooks()
-        : this.allBooks();
+    // Utiliser les livres filtrés pour les stats
+    const booksToUse = this.filteredBooksByYear();
     const totalPages = getTotalPages(booksToUse);
     const totalPagesRead = getTotalPagesRead(booksToUse);
 

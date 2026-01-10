@@ -1,5 +1,13 @@
-import { Component, inject, signal, computed } from '@angular/core';
+import {
+  Component,
+  inject,
+  signal,
+  computed,
+  effect,
+  OnInit,
+} from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { MovieComponent } from '../../../components/movie/movie.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import {
@@ -29,6 +37,7 @@ type MovieView = 'watched' | 'watchlist';
   imports: [
     RouterLink,
     CommonModule,
+    FormsModule,
     MovieComponent,
     MenuComponent,
     SortDropdownComponent,
@@ -37,12 +46,81 @@ type MovieView = 'watched' | 'watchlist';
   templateUrl: './movies.component.html',
   styleUrls: ['./movies.component.scss'],
 })
-export class MoviesComponent {
+export class MoviesComponent implements OnInit {
   router = inject(Router);
   activatedRoute = inject(ActivatedRoute);
+  private isInitializing = false;
 
   selectedSort = signal<string>('lastViewedDate');
   selectedView = signal<MovieView>('watched');
+  selectedYearFilter = signal<string>('all');
+
+  constructor() {
+    // Synchroniser les changements de filtres/tri avec l'URL
+    effect(() => {
+      if (this.isInitializing) return;
+
+      const queryParams: any = {};
+
+      if (this.selectedView() !== 'watched') {
+        queryParams.view = this.selectedView();
+      }
+
+      if (this.selectedSort() !== 'lastViewedDate') {
+        queryParams.sort = this.selectedSort();
+      }
+
+      if (this.selectedYearFilter() !== 'all') {
+        queryParams.year = this.selectedYearFilter();
+      }
+
+      this.router.navigate([], {
+        relativeTo: this.activatedRoute,
+        queryParams: Object.keys(queryParams).length > 0 ? queryParams : {},
+        queryParamsHandling: 'merge',
+        replaceUrl: true,
+      });
+    });
+  }
+
+  ngOnInit() {
+    // Lire les paramètres de l'URL au démarrage
+    this.loadParamsFromUrl(this.activatedRoute.snapshot.queryParams);
+
+    // Écouter les changements de query params (navigation avant/arrière)
+    this.activatedRoute.queryParams.subscribe((queryParams) => {
+      this.isInitializing = true;
+      this.loadParamsFromUrl(queryParams);
+      this.isInitializing = false;
+    });
+  }
+
+  private loadParamsFromUrl(queryParams: Params) {
+    if (
+      queryParams['view'] === 'watchlist' ||
+      queryParams['view'] === 'watched'
+    ) {
+      this.selectedView.set(queryParams['view'] as MovieView);
+    }
+
+    if (queryParams['sort']) {
+      const validSort = this.sortOptions.find(
+        (opt) => opt.value === queryParams['sort']
+      );
+      if (validSort) {
+        this.selectedSort.set(queryParams['sort']);
+      }
+    }
+
+    if (queryParams['year']) {
+      const validYear = this.yearFilterOptions.find(
+        (opt) => opt.value === queryParams['year']
+      );
+      if (validYear) {
+        this.selectedYearFilter.set(queryParams['year']);
+      }
+    }
+  }
 
   sortOptions: SortOption[] = [
     { value: 'title', label: 'Titre (A-Z)' },
@@ -62,6 +140,24 @@ export class MoviesComponent {
   movieViewOptions: { value: MovieView; label: string }[] = [
     { value: 'watched', label: 'Films vus' },
     { value: 'watchlist', label: 'Films à voir' },
+  ];
+
+  yearFilterOptions = [
+    { value: 'all', label: 'Toutes' },
+    { value: '2026', label: '2026' },
+    { value: '2025', label: '2025' },
+    { value: '2024', label: '2024' },
+    { value: '2023', label: '2023' },
+    { value: '2022', label: '2022' },
+    { value: '2021', label: '2021' },
+    { value: '2020', label: '2020' },
+    { value: '2019', label: '2019' },
+    { value: '2018', label: '2018' },
+    { value: '2017', label: '2017' },
+    { value: '2016', label: '2016' },
+    { value: '2015', label: '2015' },
+    { value: '2014', label: '2014' },
+    { value: 'before2014', label: 'Avant 2014' },
   ];
 
   moviesList = signal<{ [key: string]: Movie[] }>(getAllMovies());
@@ -95,8 +191,34 @@ export class MoviesComponent {
     return movies;
   });
 
+  filteredMoviesByYear = computed<Movie[]>(() => {
+    let filteredMovies = [...this.filteredMovies()];
+
+    // Filtrage par année (seulement pour les films vus, basé sur firstViewedDate)
+    if (this.selectedView() === 'watched') {
+      if (
+        [
+          2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016,
+          2015, 2014,
+        ].includes(Number(this.selectedYearFilter()))
+      ) {
+        filteredMovies = filteredMovies.filter((m) =>
+          m.firstViewedDate?.startsWith(this.selectedYearFilter())
+        );
+      } else if (this.selectedYearFilter() === 'before2014') {
+        filteredMovies = filteredMovies.filter((m) => {
+          if (!m.firstViewedDate) return true;
+          const year = parseInt(m.firstViewedDate.substring(0, 4));
+          return year < 2014;
+        });
+      }
+    }
+
+    return filteredMovies;
+  });
+
   sortedMovies = computed<Movie[]>(() => {
-    const sortedMovies = [...this.filteredMovies()];
+    const sortedMovies = [...this.filteredMoviesByYear()];
 
     switch (this.selectedSort()) {
       case 'title':
@@ -163,8 +285,10 @@ export class MoviesComponent {
   });
 
   stats = computed<StatItem[]>(() => {
-    const totalDuration = getTotalDuration(this.filteredMovies());
-    const totalWatchingTime = getTotalWatchingTime(this.filteredMovies());
+    // Utiliser les films filtrés pour les stats
+    const moviesToUse = this.filteredMoviesByYear();
+    const totalDuration = getTotalDuration(moviesToUse);
+    const totalWatchingTime = getTotalWatchingTime(moviesToUse);
 
     return [
       {
@@ -201,5 +325,9 @@ export class MoviesComponent {
 
   onViewChange(view: MovieView) {
     this.selectedView.set(view);
+  }
+
+  onYearFilterChange(year: string) {
+    this.selectedYearFilter.set(year);
   }
 }

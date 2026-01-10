@@ -90,7 +90,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     ],
     coverUrl: '/movies_pictures/389270-guns-akimbo-0-150-0-225-crop.jpg',
     releaseDate: '2020-02-28',
-    length: 95,
+    length: 97,
     genre: 'Action',
   },
   {
@@ -169,7 +169,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     ],
     coverUrl: '/movies_pictures/415280-the-wolf-s-call-0-150-0-225-crop.jpg',
     releaseDate: '2019-02-20',
-    length: 115,
+    length: 116,
     genre: 'Thriller',
   },
   {
@@ -768,7 +768,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     actors: [{ name: 'Tony Jaa' }],
     coverUrl: '/movies_pictures/47454-the-protector-0-150-0-225-crop.jpg',
     releaseDate: '2005-08-11',
-    length: 110,
+    length: 111,
     genre: 'Action',
   },
   {

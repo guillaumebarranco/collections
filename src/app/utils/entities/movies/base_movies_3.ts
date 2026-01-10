@@ -127,7 +127,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     coverUrl:
       '/movies_pictures/221232-maze-runner-the-scorch-trials-0-150-0-225-crop.jpg',
     releaseDate: '2015-09-18',
-    length: 132,
+    length: 131,
     genre: 'Action',
   },
   {
@@ -259,21 +259,12 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Comedy',
   },
   {
-    title: 'Brick',
-    director: 'Rian Johnson',
-    actors: [{ name: 'Joseph Gordon-Levitt' }],
-    coverUrl: '/movies_pictures/brick.webp',
-    releaseDate: '2005-01-20',
-    length: 110,
-    genre: 'Crime',
-  },
-  {
     title: 'La guerre des mondes',
     director: 'Steven Spielberg',
     actors: [{ name: 'Tom Cruise' }],
     coverUrl: '/movies_pictures/war_of_the_worlds.jpg',
     releaseDate: '2005-06-29',
-    length: 116,
+    length: 117,
     genre: 'Science Fiction',
   },
   {
@@ -510,7 +501,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     actors: [{ name: 'Sean Faris' }],
     coverUrl: '/movies_pictures/47713-never-back-down-0-150-0-225-crop.jpg',
     releaseDate: '2008-03-14',
-    length: 110,
+    length: 113,
     genre: 'Action',
   },
   {
@@ -573,7 +564,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     actors: [{ name: 'Steve Carell' }],
     coverUrl: '/movies_pictures/50146-evan-almighty-0-150-0-225-crop.jpg',
     releaseDate: '2007-06-22',
-    length: 95,
+    length: 96,
     genre: 'Comedy',
   },
   {
@@ -591,7 +582,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     actors: [{ name: 'Robert Carlyle' }],
     coverUrl: '/movies_pictures/28_jours_plus_tard.jpg',
     releaseDate: '2007-05-11',
-    length: 100,
+    length: 99,
     genre: 'Horror',
   },
   {
@@ -820,7 +811,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     actors: [{ name: 'Emily Browning' }],
     coverUrl: '/movies_pictures/sucker-punch-original-0-150-0-225-crop.jpg',
     releaseDate: '2011-03-25',
-    length: 110,
+    length: 109,
     genre: 'Action',
   },
   {

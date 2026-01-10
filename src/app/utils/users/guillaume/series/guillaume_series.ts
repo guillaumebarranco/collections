@@ -52,7 +52,7 @@ export const guillaumeSeries: UserSerie[] = [
   {
     title: 'Breaking Bad',
     director: 'Vince Gilligan',
-    rating: 3.75,
+    rating: 3.5,
     timesWatched: 1,
   },
   {
@@ -64,7 +64,7 @@ export const guillaumeSeries: UserSerie[] = [
   {
     title: 'You',
     director: 'Greg Berlanti',
-    rating: 3.75,
+    rating: 4,
     timesWatched: 2,
   },
   {
@@ -95,7 +95,7 @@ export const guillaumeSeries: UserSerie[] = [
     title: 'La servante écarlate',
     director: 'Bruce Miller',
     rating: 3.5,
-    timesWatched: 1,
+    timesWatched: 0.5,
   },
   {
     title: 'Arcane',
@@ -136,13 +136,13 @@ export const guillaumeSeries: UserSerie[] = [
   {
     title: 'Luke Cage',
     director: 'Cheo Hodari Coker',
-    rating: 3.5,
+    rating: 3.25,
     timesWatched: 1,
   },
   {
     title: 'Iron Fist',
     director: 'Scott Buck',
-    rating: 3.25,
+    rating: 3.5,
     timesWatched: 1,
   },
   {
@@ -214,7 +214,7 @@ export const guillaumeSeries: UserSerie[] = [
   {
     title: 'Montre jamais ça à personne',
     director: 'Hugo Benamozig, David Caviglioli',
-    rating: 3.25,
+    rating: 3.5,
     timesWatched: 1,
   },
   {
@@ -244,7 +244,7 @@ export const guillaumeSeries: UserSerie[] = [
   {
     title: 'La Casa de Papel',
     director: 'Álex Pina',
-    rating: 3.25,
+    rating: 3.5,
     timesWatched: 1,
   },
   {
@@ -293,6 +293,54 @@ export const guillaumeSeries: UserSerie[] = [
     title: 'Superman & Lois',
     director: 'Greg Berlanti, Todd Helbing',
     rating: 4,
+    timesWatched: 1,
+  },
+  {
+    title: 'Locke & Key',
+    director: 'Carlton Cuse',
+    rating: 3.5,
+    timesWatched: 1,
+  },
+  {
+    title: 'Unorthodox',
+    director: 'Maria Schrader',
+    rating: 3.25,
+    timesWatched: 1,
+  },
+  {
+    title: 'Mon amie Adèle',
+    director: 'Erik Richter Strand',
+    rating: 4,
+    timesWatched: 1,
+  },
+  {
+    title: 'Emily in Paris',
+    director: 'Darren Star',
+    rating: 3.25,
+    timesWatched: 1,
+  },
+  {
+    title: 'The Glory',
+    director: 'Ahn Gil-ho',
+    rating: 4.5,
+    timesWatched: 1,
+  },
+  {
+    title: 'FUBAR',
+    director: 'Nick Santora',
+    rating: 3.5,
+    timesWatched: 1,
+  },
+  {
+    title: 'En un battement',
+    director: 'Inconnu',
+    rating: 3.25,
+    timesWatched: 1,
+  },
+  {
+    title: 'One Piece',
+    director: 'Matt Owens, Steven Maeda',
+    rating: 4.25,
     timesWatched: 1,
   },
 ];

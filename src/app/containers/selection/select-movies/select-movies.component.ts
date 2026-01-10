@@ -5,6 +5,7 @@ import { Movie } from '../../../models/movie-model';
 import { Params, ActivatedRoute } from '@angular/router';
 import {
   getAllMoviesMerged,
+  getCurrentWatchlistMoviesByUser,
   getMoviesByUser,
 } from '../../../facades/movies.facade';
 import { SelectEntitiesComponent } from '../select-base.component';
@@ -27,6 +28,16 @@ export class SelectMoviesComponent extends SelectEntitiesComponent {
     );
   });
 
+  alreadyInWatchlistMovies = computed<Set<string>>(() => {
+    if (!this.isWatchOrReadlistMode()) {
+      return new Set();
+    }
+    const userMovies = getCurrentWatchlistMoviesByUser(this.userId());
+    return new Set(
+      userMovies.map((movie) => `${movie.title}-${movie.releaseDate}`)
+    );
+  });
+
   // Tous les films de tous les utilisateurs, filtrés si mode watchlist
   allMovies = computed<Movie[]>(() => {
     const allMoviesList = getAllMoviesMerged();
@@ -35,10 +46,13 @@ export class SelectMoviesComponent extends SelectEntitiesComponent {
       return allMoviesList;
     }
 
-    // En mode watchlist, exclure les films déjà vus
-    const watchedKeys = this.watchedMovies();
+    // En mode watchlist, exclure les films déjà vus + ceux déjà présents dans la watchlist
     return allMoviesList.filter(
-      (movie) => !watchedKeys.has(`${movie.title}-${movie.releaseDate}`)
+      (movie) =>
+        !this.watchedMovies().has(`${movie.title}-${movie.releaseDate}`) &&
+        !this.alreadyInWatchlistMovies().has(
+          `${movie.title}-${movie.releaseDate}`
+        )
     );
   });
 

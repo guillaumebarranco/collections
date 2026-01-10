@@ -1,0 +1,125 @@
+<div class="entities-stats-container">
+  <h2>📊 Statistiques par entité</h2>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    @for (entity of entities; track entity) {
+    <button
+      class="tab-button"
+      [class.active]="selectedEntity() === entity"
+      (click)="selectEntity(entity)"
+    >
+      {{ getEntityLabel(entity) }}
+    </button>
+    }
+  </div>
+
+  <!-- Stats Content -->
+  <div class="stats-content">
+    @if (stats().topActors && stats().topActors!.length > 0) {
+    <div class="stats-section">
+      <h3>{{ getStatsLabel("topActors") }}</h3>
+      <div class="stats-list">
+        @for (item of stats().topActors; track item.name; let i = $index) {
+        <div class="stat-item">
+          <span class="rank">#{{ i + 1 }}</span>
+          <span class="name">{{ item.name }}</span>
+          <span class="count">{{ item.count }}</span>
+        </div>
+        }
+      </div>
+    </div>
+    } @if (stats().topDirectors && stats().topDirectors!.length > 0) {
+    <div class="stats-section">
+      <h3>{{ getStatsLabel("topDirectors") }}</h3>
+      <div class="stats-list">
+        @for (item of stats().topDirectors; track item.name; let i = $index) {
+        <div class="stat-item">
+          <span class="rank">#{{ i + 1 }}</span>
+          <span class="name">{{ item.name }}</span>
+          <span class="count">{{ item.count }}</span>
+        </div>
+        }
+      </div>
+    </div>
+    } @if (stats().topAuthors && stats().topAuthors!.length > 0) {
+    <div class="stats-section">
+      <h3>{{ getStatsLabel("topAuthors") }}</h3>
+      <div class="stats-list">
+        @for (item of stats().topAuthors; track item.name; let i = $index) {
+        <div class="stat-item">
+          <span class="rank">#{{ i + 1 }}</span>
+          <span class="name">{{ item.name }}</span>
+          <span class="count">{{ item.count }}</span>
+        </div>
+        }
+      </div>
+    </div>
+    } @if (stats().topArtists && stats().topArtists!.length > 0) {
+    <div class="stats-section">
+      <h3>{{ getStatsLabel("topArtists") }}</h3>
+      <div class="stats-list">
+        @for (item of stats().topArtists; track item.name; let i = $index) {
+        <div class="stat-item">
+          <span class="rank">#{{ i + 1 }}</span>
+          <span class="name">{{ item.name }}</span>
+          <span class="count">{{ item.count }}</span>
+        </div>
+        }
+      </div>
+    </div>
+    } @if (stats().topGenres && stats().topGenres!.length > 0) {
+    <div class="stats-section">
+      <h3>{{ getStatsLabel("topGenres") }}</h3>
+      <div class="stats-list">
+        @for (item of stats().topGenres; track item.name; let i = $index) {
+        <div class="stat-item">
+          <span class="rank">#{{ i + 1 }}</span>
+          <span class="name">{{ item.name }}</span>
+          <span class="count">{{ item.count }}</span>
+        </div>
+        }
+      </div>
+    </div>
+    } @if (stats().topSagas && stats().topSagas!.length > 0) {
+    <div class="stats-section">
+      <h3>{{ getStatsLabel("topSagas") }}</h3>
+      <div class="stats-list">
+        @for (item of stats().topSagas; track item.name; let i = $index) {
+        <div class="stat-item">
+          <span class="rank">#{{ i + 1 }}</span>
+          <span class="name">{{ item.name }}</span>
+          <span class="count">{{ item.count }}</span>
+        </div>
+        }
+      </div>
+    </div>
+    } @if (stats().topEditors && stats().topEditors!.length > 0) {
+    <div class="stats-section">
+      <h3>{{ getStatsLabel("topEditors") }}</h3>
+      <div class="stats-list">
+        @for (item of stats().topEditors!; track item.name; let i = $index) {
+        <div class="stat-item">
+          <span class="rank">#{{ i + 1 }}</span>
+          <span class="name">{{ item.name }}</span>
+          <span class="count">{{ item.count }}</span>
+        </div>
+        }
+      </div>
+    </div>
+    } @if (stats().topPlatforms && stats().topPlatforms!.length > 0) {
+    <div class="stats-section">
+      <h3>{{ getStatsLabel("topPlatforms") }}</h3>
+      <div class="stats-list">
+        @for (item of stats().topPlatforms!; track item.name; let i = $index) {
+        <div class="stat-item">
+          <span class="rank">#{{ i + 1 }}</span>
+          <span class="name">{{ item.name }}</span>
+          <span class="count">{{ item.count }}</span>
+        </div>
+        }
+      </div>
+    </div>
+    }
+  </div>
+</div>

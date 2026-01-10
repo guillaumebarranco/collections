@@ -3,7 +3,7 @@
 <div class="movies-container">
   <h1>
     {{ selectedView() === "watchlist" ? "Films à voir" : "Films visionnés" }}
-    ({{ filteredMovies().length }})
+    ({{ filteredMoviesByYear().length }})
   </h1>
 
   <div class="movies-view-toggle">
@@ -23,7 +23,7 @@
     </button>
   </div>
 
-  @if(filteredMovies().length === 0) {
+  @if(filteredMoviesByYear().length === 0) {
   <div class="empty-state">
     <p class="empty-message">Aucun film à afficher pour cette sélection.</p>
     <p class="empty-subtitle">
@@ -38,12 +38,32 @@
   <div class="movies-header">
     <app-stats-display
       [stats]="stats()"
-      [count]="filteredMovies().length"
+      [count]="filteredMoviesByYear().length"
       countLabel="films"
     >
     </app-stats-display>
 
     <div class="movies-filters">
+      <!-- Dropdown de filtre d'années -->
+      @if(selectedView() === 'watched') {
+      <div class="movies-filters-item">
+        <p>Filtrer par année :</p>
+        <select
+          class="app-dropdown"
+          [(ngModel)]="selectedYearFilter"
+          (change)="onYearFilterChange($any($event.target).value)"
+          style="margin-bottom: 8px"
+        >
+          <option
+            *ngFor="let option of yearFilterOptions"
+            [value]="option.value"
+          >
+            {{ option.label }}
+          </option>
+        </select>
+      </div>
+      }
+
       <app-sort-dropdown
         [sortOptions]="sortOptions"
         [selectedSort]="selectedSort()"
@@ -52,6 +72,10 @@
       </app-sort-dropdown>
     </div>
   </div>
+
+  @if(selectedYearFilter() !== 'all' && selectedView() === 'watched') {
+  <p>Résultats affichés: {{ sortedMovies().length }}</p>
+  }
 
   @if(selectedView() === 'watchlist') {
   <div class="watchlist-actions">

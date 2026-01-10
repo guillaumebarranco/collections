@@ -101,6 +101,11 @@ export function getMoviesByUser(userId: string): Movie[] {
   return allMoviesData[userId] || [];
 }
 
+export function getCurrentWatchlistMoviesByUser(userId: string): Movie[] {
+  const allWatchlistMoviesData = getAllWatchlistMovies();
+  return allWatchlistMoviesData[userId] || [];
+}
+
 function getAllMoviesData(movies: UserMovie[]): Movie[] {
   return movies.map((movie: UserMovie) => {
     const matchingBaseMovie = allBaseMovies.filter(

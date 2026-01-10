@@ -6,6 +6,7 @@ import {
   StatItem,
   StatItemColor,
 } from '../../components/stats-display/stats-display.component';
+import { DashboardEntitiesStatsComponent } from '../../components/dashboard-entities-stats/dashboard-entities-stats.component';
 
 import { mangas } from '../../utils/users/guillaume/mangas/mangas';
 import { manwhas } from '../../utils/users/guillaume/mangas/manwhas';
@@ -46,7 +47,12 @@ interface TopMusic extends Music {
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [CommonModule, MenuComponent, StatsDisplayComponent],
+  imports: [
+    CommonModule,
+    MenuComponent,
+    StatsDisplayComponent,
+    DashboardEntitiesStatsComponent,
+  ],
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.scss'],
 })

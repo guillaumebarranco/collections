@@ -22,6 +22,15 @@
     gap: 12px;
     min-width: 320px;
   }
+
+  .movies-filters-item {
+    display: flex;
+    gap: 10px;
+    color: #34495e;
+    font-size: 1rem;
+    font-weight: 500;
+    white-space: nowrap;
+  }
 }
 
 .watchlist-actions {

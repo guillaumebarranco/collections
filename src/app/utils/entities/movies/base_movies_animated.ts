@@ -119,7 +119,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     coverUrl:
       '/movies_pictures/dWg33ektXuHmxjSjEulwDPTWbC2-0-150-0-225-crop.jpg',
     releaseDate: '2006-06-09',
-    length: 117,
+    length: 116,
     genre: 'Animation',
   },
   {
@@ -527,7 +527,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     actors: [{ name: 'Ming-Na Wen' }],
     coverUrl: '/movies_pictures/266675-mulan-0-150-0-225-crop.jpg',
     releaseDate: '1998-06-19',
-    length: 88,
+    length: 87,
     genre: 'Animation',
   },
   {

@@ -11,7 +11,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     ],
     coverUrl: '/movies_pictures/i_robot.jpg',
     releaseDate: '2004-12-10',
-    length: 101,
+    length: 115,
     genre: 'Science Fiction',
   },
 
@@ -25,7 +25,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     ],
     coverUrl: '/movies_pictures/620281-mickey-17-0-150-0-225-crop.jpg',
     releaseDate: '2025-01-31',
-    length: 115,
+    length: 137,
     genre: 'Science Fiction',
   },
 
@@ -39,7 +39,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     ],
     coverUrl: '/movies_pictures/905876-carry-on-2024-0-150-0-225-crop.jpg',
     releaseDate: '2024-11-15',
-    length: 105,
+    length: 119,
     genre: 'Action',
   },
   {
@@ -53,7 +53,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     coverUrl:
       '/movies_pictures/977835-the-count-of-monte-cristo-2024-0-150-0-225-crop.jpg',
     releaseDate: '2024-06-28',
-    length: 120,
+    length: 178,
     genre: 'Adventure',
   },
   {
@@ -79,7 +79,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     ],
     coverUrl: '/movies_pictures/291213-road-house-0-150-0-225-crop.jpg',
     releaseDate: '2024-03-21',
-    length: 114,
+    length: 121,
     genre: 'Action',
   },
   {
@@ -400,7 +400,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     actors: [{ name: 'Éric Berger' }],
     coverUrl: '/movies_pictures/50585-tanguy-0-150-0-225-crop.jpg',
     releaseDate: '2001-12-19',
-    length: 95,
+    length: 108,
     genre: 'Comedy',
   },
   {
@@ -464,7 +464,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     actors: [{ name: 'Tatsuya Fujiwara' }],
     coverUrl: '/movies_pictures/49810-battle-royale-0-150-0-225-crop.jpg',
     releaseDate: '2000-12-16',
-    length: 114,
+    length: 113,
     genre: 'Thriller',
   },
   {
@@ -473,7 +473,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     actors: [{ name: 'Sandra Bullock' }],
     coverUrl: '/movies_pictures/51006-miss-congeniality-0-150-0-225-crop.jpg',
     releaseDate: '2000-12-22',
-    length: 111,
+    length: 109,
     genre: 'Comedy',
   },
   {
@@ -648,7 +648,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     actors: [{ name: 'Aisling Franciosi' }],
     coverUrl: '/movies_pictures/f1c06582c665ba69d863934d8b176d25.jpg',
     releaseDate: '2024-01-01',
-    length: 100,
+    length: 113,
     genre: 'Romance',
   },
   {
@@ -680,7 +680,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     ],
     coverUrl: '/movies_pictures/72b74175dd05a704ebed57975b0f6487.jpg',
     releaseDate: '2025-05-02',
-    length: 130,
+    length: 126,
     genre: 'Action',
   },
   {
@@ -744,7 +744,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     actors: [{ name: 'Jake Gyllenhaal' }, { name: 'Mélanie Laurent' }],
     coverUrl: '/movies_pictures/317481.webp',
     releaseDate: '2013-09-08',
-    length: 91,
+    length: 90,
     genre: 'Thriller',
   },
   {
@@ -753,7 +753,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     actors: [{ name: 'Alex Roe' }, { name: 'Jessica Rothe' }],
     coverUrl: '/movies_pictures/forever_my_girl.jpg',
     releaseDate: '2018-01-19',
-    length: 108,
+    length: 104,
     genre: 'Romance',
   },
   {
@@ -838,7 +838,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     actors: [{ name: 'Gérard Jugnot' }],
     coverUrl: '/movies_pictures/les_choristes.jpg',
     releaseDate: '2004-03-17',
-    length: 97,
+    length: 95,
     genre: 'Drama',
   },
   {
@@ -847,7 +847,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     actors: [{ name: 'Scott Mechlowicz' }],
     coverUrl: '/movies_pictures/47243-eurotrip-0-150-0-225-crop.jpg',
     releaseDate: '2004-02-20',
-    length: 93,
+    length: 92,
     genre: 'Comedy',
   },
   {
@@ -911,7 +911,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     actors: [{ name: 'Richard Berry' }],
     coverUrl: '/movies_pictures/6543-i-cesar-0-150-0-225-crop.jpg',
     releaseDate: '2003-04-30',
-    length: 95,
+    length: 91,
     genre: 'Comedy',
   },
   {
@@ -965,7 +965,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     actors: [{ name: 'Trevor Fehrman' }],
     coverUrl: '/movies_pictures/41348-cheats-0-150-0-225-crop.jpg',
     releaseDate: '2002-09-13',
-    length: 85,
+    length: 86,
     genre: 'Comedy',
   },
   {
