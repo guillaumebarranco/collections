@@ -13,6 +13,8 @@ import {
   baseMoviesSagaPage1,
   baseMoviesSagaPage2,
   baseMoviesFromAmandine,
+  baseMoviesFromRonanLetterboxd,
+  baseMoviesFromRonanLetterboxdNoPictures,
 } from '../utils/entities/movies';
 
 import {
@@ -34,6 +36,7 @@ import { amandineMovies1 } from '../utils/users/amandine/movies/amandine_movies_
 import { amandineMovies2 } from '../utils/users/amandine/movies/amandine_movies_2';
 import { guillaumeWatchlistMovies } from '../utils/users/guillaume/movies/guillaume_watchlist_movies';
 import { ronanMovies } from '../utils/users/ronan/movies/ronan_movies';
+import { ronanLetterboxdMovies } from '../utils/users/ronan/movies/ronan_letterboxd_movies';
 
 const allBaseMovies: BaseMovie[] = [
   ...baseMoviesPage1,
@@ -48,6 +51,8 @@ const allBaseMovies: BaseMovie[] = [
   ...baseMoviesSagaPage1,
   ...baseMoviesSagaPage2,
   ...baseMoviesFromAmandine,
+  ...baseMoviesFromRonanLetterboxd,
+  ...baseMoviesFromRonanLetterboxdNoPictures,
 ];
 
 export function getAllMovies(): { [key: string]: Movie[] } {
@@ -69,7 +74,7 @@ export function getAllMovies(): { [key: string]: Movie[] } {
     william: getAllMoviesData([...williamMovies]),
     kevin: [],
     amandine: getAllMoviesData([...amandineMovies1, ...amandineMovies2]),
-    ronan: getAllMoviesData([...ronanMovies]),
+    ronan: getAllMoviesData([...ronanMovies, ...ronanLetterboxdMovies]),
   };
 }
 
