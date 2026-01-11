@@ -30,7 +30,7 @@ import {
   getAllWatchlistMovies,
 } from '../../../facades/movies.facade';
 
-type MovieView = 'watched' | 'watchlist';
+type MovieView = 'watched' | 'cinema' | 'watchlist';
 
 @Component({
   selector: 'app-movies',
@@ -98,7 +98,8 @@ export class MoviesComponent implements OnInit {
   private loadParamsFromUrl(queryParams: Params) {
     if (
       queryParams['view'] === 'watchlist' ||
-      queryParams['view'] === 'watched'
+      queryParams['view'] === 'watched' ||
+      queryParams['view'] === 'cinema'
     ) {
       this.selectedView.set(queryParams['view'] as MovieView);
     }
@@ -139,6 +140,7 @@ export class MoviesComponent implements OnInit {
 
   movieViewOptions: { value: MovieView; label: string }[] = [
     { value: 'watched', label: 'Films vus' },
+    { value: 'cinema', label: 'Films vus au cinéma' },
     { value: 'watchlist', label: 'Films à voir' },
   ];
 
@@ -157,7 +159,19 @@ export class MoviesComponent implements OnInit {
     { value: '2016', label: '2016' },
     { value: '2015', label: '2015' },
     { value: '2014', label: '2014' },
-    { value: 'before2014', label: 'Avant 2014' },
+    { value: '2013', label: '2013' },
+    { value: '2012', label: '2012' },
+    { value: '2011', label: '2011' },
+    { value: '2010', label: '2010' },
+    { value: '2009', label: '2009' },
+    { value: '2008', label: '2008' },
+    { value: '2007', label: '2007' },
+    { value: '2006', label: '2006' },
+    { value: '2005', label: '2005' },
+    { value: '2004', label: '2004' },
+    { value: '2003', label: '2003' },
+    { value: '2002', label: '2002' },
+    { value: 'before2002', label: 'Avant 2002' },
   ];
 
   moviesList = signal<{ [key: string]: Movie[] }>(getAllMovies());
@@ -183,33 +197,37 @@ export class MoviesComponent implements OnInit {
   });
 
   filteredMovies = computed<Movie[]>(() => {
-    const movies =
-      this.selectedView() === 'watchlist'
-        ? this.allWatchlistMovies()
-        : this.allMovies();
+    if (this.selectedView() === 'watchlist') {
+      return this.allWatchlistMovies();
+    }
 
-    return movies;
+    if (this.selectedView() === 'cinema') {
+      return this.allMovies().filter((movie) => movie.seenAtCinema === true);
+    }
+
+    return this.allMovies();
   });
 
   filteredMoviesByYear = computed<Movie[]>(() => {
     let filteredMovies = [...this.filteredMovies()];
 
-    // Filtrage par année (seulement pour les films vus, basé sur firstViewedDate)
-    if (this.selectedView() === 'watched') {
+    // Filtrage par année (seulement pour les films vus et vus au cinéma, basé sur firstViewedDate)
+    if (this.selectedView() === 'watched' || this.selectedView() === 'cinema') {
       if (
         [
           2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016,
-          2015, 2014,
+          2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005,
+          2004, 2003, 2002,
         ].includes(Number(this.selectedYearFilter()))
       ) {
         filteredMovies = filteredMovies.filter((m) =>
           m.firstViewedDate?.startsWith(this.selectedYearFilter())
         );
-      } else if (this.selectedYearFilter() === 'before2014') {
+      } else if (this.selectedYearFilter() === 'before2002') {
         filteredMovies = filteredMovies.filter((m) => {
           if (!m.firstViewedDate) return true;
           const year = parseInt(m.firstViewedDate.substring(0, 4));
-          return year < 2014;
+          return year < 2002;
         });
       }
     }

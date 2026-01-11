@@ -132,6 +132,7 @@ function getAllMoviesData(movies: UserMovie[]): Movie[] {
       releaseDate: definitiveMatchingMovie?.releaseDate || '',
       length: definitiveMatchingMovie?.length || 0,
       genre: definitiveMatchingMovie?.genre || '',
+      seenAtCinema: movie.seenAtCinema,
     };
   });
 }

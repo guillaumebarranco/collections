@@ -8,6 +8,7 @@ export const williamMovies: UserMovie[] = [
     timesWatched: 10,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Cars 2',
@@ -16,6 +17,7 @@ export const williamMovies: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2025-11-23',
     lastViewedDate: '2025-11-23',
+    seenAtCinema: false,
   },
   {
     title: 'Cars 3',
@@ -24,6 +26,7 @@ export const williamMovies: UserMovie[] = [
     timesWatched: 6,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Planes',
@@ -32,6 +35,7 @@ export const williamMovies: UserMovie[] = [
     timesWatched: 2,
     firstViewedDate: '2025-08-14',
     lastViewedDate: '2025-08-14',
+    seenAtCinema: false,
   },
   {
     title: 'Planes 2',
@@ -40,6 +44,7 @@ export const williamMovies: UserMovie[] = [
     timesWatched: 4,
     firstViewedDate: '2025-09-14',
     lastViewedDate: '2025-09-14',
+    seenAtCinema: false,
   },
   {
     title: 'Le monde de Nemo',
@@ -48,6 +53,7 @@ export const williamMovies: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2025-09-23',
     lastViewedDate: '2025-09-23',
+    seenAtCinema: false,
   },
   {
     title: 'Le monde de Dory',
@@ -56,6 +62,7 @@ export const williamMovies: UserMovie[] = [
     timesWatched: 2,
     firstViewedDate: '2025-10-23',
     lastViewedDate: '2025-10-23',
+    seenAtCinema: false,
   },
   {
     title: 'Ratatouille',
@@ -64,5 +71,6 @@ export const williamMovies: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2025-08-23',
     lastViewedDate: '2025-08-23',
+    seenAtCinema: false,
   },
 ];

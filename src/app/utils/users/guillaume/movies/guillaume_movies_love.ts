@@ -8,6 +8,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'The Princess Switch',
@@ -16,6 +17,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2024-12-29',
     lastViewedDate: '2024-12-29',
+    seenAtCinema: false,
   },
   {
     title: 'Petits coups montés',
@@ -24,6 +26,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2023-01-16',
     lastViewedDate: '2023-01-16',
+    seenAtCinema: false,
   },
   {
     title: 'The life list',
@@ -32,6 +35,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2025-04-15',
     lastViewedDate: '2025-04-15',
+    seenAtCinema: false,
   },
   {
     title: 'Champagne Problems',
@@ -40,6 +44,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2025-11-27',
     lastViewedDate: '2025-11-27',
+    seenAtCinema: false,
   },
   {
     title: 'Tout le Bleu du Ciel',
@@ -48,6 +53,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2025-03-03',
     lastViewedDate: '2025-03-03',
+    seenAtCinema: false,
   },
   {
     title: 'Nos coeurs meurtris',
@@ -56,6 +62,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '2022-09-19',
     lastViewedDate: '2025-09-19',
+    seenAtCinema: false,
   },
   {
     title: 'Au plaisir de se faire trahir',
@@ -64,6 +71,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2024-09-30',
     lastViewedDate: '2024-09-30',
+    seenAtCinema: false,
   },
   {
     title: "La Probabilité statistique de l'amour au premier regard",
@@ -72,6 +80,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2024-09-19',
     lastViewedDate: '2024-09-19',
+    seenAtCinema: false,
   },
   {
     title: 'Ce sera toi',
@@ -80,6 +89,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2024-06-28',
     lastViewedDate: '2024-06-28',
+    seenAtCinema: false,
   },
   {
     title: 'Hello, goodbye and everything in between',
@@ -88,6 +98,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2022-10-31',
     lastViewedDate: '2022-10-31',
+    seenAtCinema: false,
   },
   {
     title: 'Un Accord Parfait',
@@ -96,6 +107,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 3,
     firstViewedDate: '2023-11-09',
     lastViewedDate: '2023-11-09',
+    seenAtCinema: false,
   },
   {
     title: 'The In-between',
@@ -104,6 +116,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2022-04-10',
     lastViewedDate: '2022-04-10',
+    seenAtCinema: false,
   },
   {
     title: 'À Travers Ma Fenêtre',
@@ -112,6 +125,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2022-11-05',
     lastViewedDate: '2022-11-05',
+    seenAtCinema: false,
   },
   {
     title: 'Love Hard',
@@ -120,6 +134,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2022-10-30',
     lastViewedDate: '2022-10-30',
+    seenAtCinema: false,
   },
   {
     title: "L'Amour complexe",
@@ -128,6 +143,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2021-08-08',
     lastViewedDate: '2021-08-08',
+    seenAtCinema: false,
   },
   {
     title: 'La Belle et la Bête',
@@ -136,6 +152,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Un choix',
@@ -144,6 +161,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '2025-02-05',
+    seenAtCinema: false,
   },
   {
     title: "L'agence",
@@ -152,6 +170,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Un jour',
@@ -160,6 +179,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2024-10-23',
     lastViewedDate: '2024-10-23',
+    seenAtCinema: false,
   },
   {
     title: 'Sex Friends',
@@ -168,6 +188,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 20,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Love & autres drogues',
@@ -176,6 +197,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 20,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Sexy Dance',
@@ -184,6 +206,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Sexy Dance 2',
@@ -192,6 +215,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Sexy Dance 3D',
@@ -200,14 +224,16 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 15,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: "L'Arnacœur",
     director: 'Pascal Chaumeil',
     rating: 4,
     timesWatched: 20,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2010-03-22',
+    lastViewedDate: '2010-03-22',
+    seenAtCinema: true,
   },
   {
     title: 'Remember Me',
@@ -216,6 +242,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2025-04-22',
     lastViewedDate: '2025-04-22',
+    seenAtCinema: false,
   },
   {
     title: "Valentine's Day",
@@ -224,6 +251,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'La proposition',
@@ -232,6 +260,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: '17 ans encore',
@@ -240,6 +269,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: '(500) Jours Ensemble',
@@ -248,6 +278,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Jackpot',
@@ -256,6 +287,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Juno',
@@ -264,6 +296,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Orgueil et Préjugés',
@@ -272,6 +305,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Match Point',
@@ -280,6 +314,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Hitch : Expert en Séduction',
@@ -288,6 +323,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 30,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'First Daughter',
@@ -296,6 +332,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2025-01-10',
     lastViewedDate: '2025-01-10',
+    seenAtCinema: false,
   },
   {
     title: 'Eternal Sunshine of the Spotless Mind',
@@ -304,6 +341,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2019-06-18',
     lastViewedDate: '2019-06-18',
+    seenAtCinema: false,
   },
   {
     title: 'The Girl Next Door',
@@ -312,6 +350,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 10,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Amour & Amnésie',
@@ -320,6 +359,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 30,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Love Actually',
@@ -328,6 +368,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: "Le temps d'un automne",
@@ -336,6 +377,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 10,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Pearl Harbor',
@@ -344,6 +386,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2022-11-03',
     lastViewedDate: '2022-11-03',
+    seenAtCinema: false,
   },
   {
     title: 'Ce que Veulent les Femmes',
@@ -352,6 +395,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 20,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Coup de foudre à Notting Hill',
@@ -360,6 +404,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Rencontre avec Joe Black',
@@ -368,6 +413,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2025-04-13',
     lastViewedDate: '2025-04-13',
+    seenAtCinema: false,
   },
   {
     title: 'Pretty Woman',
@@ -376,6 +422,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 10,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: "L'Amour puissance mille",
@@ -384,6 +431,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2022-10-31',
     lastViewedDate: '2022-10-31',
+    seenAtCinema: false,
   },
   {
     title: 'La La Land',
@@ -392,6 +440,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2019-02-13',
     lastViewedDate: '2019-02-13',
+    seenAtCinema: false,
   },
   {
     title: "L'amour ouf",
@@ -400,6 +449,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2025-04-31',
     lastViewedDate: '2025-04-31',
+    seenAtCinema: false,
   },
   {
     title: 'The Princess Switch : Switched Again',
@@ -408,6 +458,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2024-12-30',
     lastViewedDate: '2024-12-30',
+    seenAtCinema: false,
   },
   {
     title: 'Holidate',
@@ -416,6 +467,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2020-11-08',
     lastViewedDate: '2020-11-08',
+    seenAtCinema: false,
   },
   {
     title: 'Rich in Love',
@@ -424,6 +476,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 2,
     firstViewedDate: '2025-02-22',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Isi & Ossi',
@@ -432,6 +485,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2022-11-14',
     lastViewedDate: '2022-11-14',
+    seenAtCinema: false,
   },
   {
     title: 'Last Christmas',
@@ -440,6 +494,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2023-01-16',
     lastViewedDate: '2023-01-16',
+    seenAtCinema: false,
   },
   {
     title: '40 jours et 40 nuits',
@@ -448,6 +503,7 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 15,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Coup de foudre à Manhattan',
@@ -456,5 +512,6 @@ export const guillaumeMoviesLove: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2025-11-28',
     lastViewedDate: '2025-11-28',
+    seenAtCinema: false,
   },
 ];

@@ -8,6 +8,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Dragons 2',
@@ -16,6 +17,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2017-07-15',
     lastViewedDate: '2017-07-15',
+    seenAtCinema: false,
   },
   {
     title: 'Dragons 3: Le monde perdu',
@@ -24,6 +26,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Spider-Man: Into the Spider-Verse',
@@ -32,6 +35,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Spider-Man : À Travers le Spider-Verse',
@@ -40,6 +44,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Les Mondes de Ralph',
@@ -48,6 +53,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Ralph Breaks the Internet',
@@ -56,6 +62,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Super Mario Bros. le Film',
@@ -64,6 +71,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2024-11-14',
     lastViewedDate: '2024-11-14',
+    seenAtCinema: false,
   },
   {
     title: 'Encanto',
@@ -72,6 +80,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Cars',
@@ -80,6 +89,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 10,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Cars 3',
@@ -88,6 +98,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Baby boss',
@@ -96,6 +107,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Vaiana',
@@ -104,6 +116,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Vice-Versa',
@@ -112,6 +125,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Les Nouveaux Héros',
@@ -120,6 +134,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'La Reine des Neiges',
@@ -128,6 +143,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Moi, Moche et Méchant',
@@ -136,6 +152,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Moi, Moche et Méchant 2',
@@ -144,6 +161,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Les Cinq Légendes',
@@ -152,6 +170,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: "L'Âge de Glace",
@@ -160,6 +179,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 30,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: "L'Âge de Glace 2",
@@ -168,14 +188,16 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 15,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: "L'Âge de Glace 3 : Le Temps des Dinosaures",
     director: 'Carlos Saldanha',
     rating: 4,
     timesWatched: 15,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2009-07-06',
+    lastViewedDate: '2009-07-06',
+    seenAtCinema: true,
   },
   {
     title: "L'Âge de Glace 4 : La Dérive des Continents",
@@ -184,6 +206,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Rebelle',
@@ -192,6 +215,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Arthur et les Minimoys',
@@ -200,6 +224,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 20,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Arthur et la Vengeance de Maltazard',
@@ -208,6 +233,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Arthur 3 : La Guerre des Deux Mondes',
@@ -216,6 +242,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'La Princesse et la Grenouille',
@@ -224,6 +251,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2016-01-30',
     lastViewedDate: '2016-01-30',
+    seenAtCinema: false,
   },
   {
     title: 'Tempête de Boulettes Géantes',
@@ -232,6 +260,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Monstres contre Aliens',
@@ -240,14 +269,16 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 20,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'WALL-E',
     director: 'Andrew Stanton',
     rating: 3.75,
     timesWatched: 2,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2008-07-02',
+    lastViewedDate: '2008-07-02',
+    seenAtCinema: true,
   },
   {
     title: 'Kung Fu Panda',
@@ -256,6 +287,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2016-03-30',
     lastViewedDate: '2016-03-30',
+    seenAtCinema: false,
   },
   {
     title: 'Raiponce',
@@ -264,6 +296,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2016-04-16',
     lastViewedDate: '2016-04-16',
+    seenAtCinema: false,
   },
   {
     title: "Bee Movie : Drôle d'Abeille",
@@ -272,14 +305,16 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Les Simpson, le Film',
     director: 'David Silverman',
     rating: 4.5,
     timesWatched: 40,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2007-08-01',
+    lastViewedDate: '2007-08-01',
+    seenAtCinema: true,
   },
   {
     title: 'Ratatouille',
@@ -288,6 +323,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Shrek',
@@ -296,14 +332,16 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 10,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Shrek 2',
     director: 'Andrew Adamson, Kelly Asbury, Conrad Vernon',
     rating: 3.5,
     timesWatched: 5,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2004-05-24',
+    lastViewedDate: '2004-05-24',
+    seenAtCinema: true,
   },
   {
     title: 'Shrek le Troisième',
@@ -312,6 +350,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Shrek 4 : Il Était une Fois',
@@ -320,22 +359,25 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Les Indestructibles',
     director: 'Brad Bird',
     rating: 4.5,
     timesWatched: 30,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2004-11-10',
+    lastViewedDate: '2004-11-10',
+    seenAtCinema: true,
   },
   {
     title: 'Les Indestructibles 2',
     director: 'Brad Bird',
     rating: 3.5,
     timesWatched: 1,
-    firstViewedDate: '2018-11-27  ',
+    firstViewedDate: '2018-11-27',
     lastViewedDate: '2018-11-27',
+    seenAtCinema: true,
   },
   {
     title: 'Le monde de Nemo',
@@ -344,6 +386,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Monstres et Cie',
@@ -352,6 +395,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Toy Story',
@@ -360,6 +404,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Toy Story 2',
@@ -368,6 +413,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Toy Story 3',
@@ -376,6 +422,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'South Park, le Film',
@@ -384,6 +431,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Tarzan',
@@ -392,6 +440,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 10,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Fourmiz',
@@ -400,6 +449,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Mulan',
@@ -408,6 +458,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Princesse Mononoké',
@@ -416,6 +467,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Hercule',
@@ -424,6 +476,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Pocahontas',
@@ -432,6 +485,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Space Jam',
@@ -440,6 +494,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Le Roi Lion',
@@ -448,6 +503,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Aladdin',
@@ -456,6 +512,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 30,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'La petite sirène',
@@ -464,6 +521,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Peter Pan',
@@ -472,6 +530,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Pinocchio',
@@ -481,6 +540,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Megamind',
@@ -489,6 +549,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 10,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Horton',
@@ -497,6 +558,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Raya et le Dernier Dragon',
@@ -505,5 +567,6 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
     timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
 ];

@@ -8,14 +8,16 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2014-05-30',
     lastViewedDate: '2014-05-30',
+    seenAtCinema: true,
   },
   {
     title: 'Edge of Tomorrow',
     director: 'Doug Liman',
     rating: 4.5,
     timesWatched: 10,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2014-06-11',
+    lastViewedDate: '2014-06-11',
+    seenAtCinema: true,
   },
   {
     title: 'Robocop',
@@ -24,6 +26,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Le Loup de Wall Street',
@@ -32,6 +35,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'La Vie Rêvée de Walter Mitty',
@@ -40,6 +44,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2013-09-13',
     lastViewedDate: '2013-09-13',
+    seenAtCinema: false,
   },
   {
     title: 'Prisoners',
@@ -48,6 +53,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2024-03-05',
     lastViewedDate: '2024-03-05',
+    seenAtCinema: false,
   },
   {
     title: 'Gravity',
@@ -56,6 +62,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Elysium',
@@ -64,6 +71,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Le Majordome',
@@ -72,6 +80,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Evasion',
@@ -80,6 +89,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Pacific Rim',
@@ -88,6 +98,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2013-07-30',
     lastViewedDate: '2013-07-30',
+    seenAtCinema: true,
   },
   {
     title: 'World War Z',
@@ -96,14 +107,16 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'The Conjuring : Les Dossiers Warren',
     director: 'James Wan',
     rating: 2.5,
     timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2013-07-24',
+    lastViewedDate: '2013-07-24',
+    seenAtCinema: true,
   },
   {
     title: 'After Earth',
@@ -112,6 +125,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2013-05-31',
     lastViewedDate: '2013-05-31',
+    seenAtCinema: false,
   },
   {
     title: 'No pain no gain',
@@ -120,6 +134,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Oblivion',
@@ -128,6 +143,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Django Unchained',
@@ -136,6 +152,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 2,
     firstViewedDate: '2012-12-25',
     lastViewedDate: '2012-12-25',
+    seenAtCinema: true,
   },
   {
     title: 'Les seigneurs',
@@ -144,6 +161,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2012-09-30',
     lastViewedDate: '2012-09-30',
+    seenAtCinema: true,
   },
   {
     title: 'Dredd',
@@ -152,6 +170,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Expendables 2',
@@ -160,6 +179,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'The Dictator',
@@ -168,6 +188,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'The Lucky One',
@@ -176,6 +197,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2022-10-17',
     lastViewedDate: '2022-10-17',
+    seenAtCinema: false,
   },
   {
     title: 'Prometheus',
@@ -184,6 +206,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: '21 Jump Street',
@@ -192,8 +215,8 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
-
   {
     title: 'Target',
     director: 'McG',
@@ -201,6 +224,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Chronicle',
@@ -209,6 +233,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 3,
     firstViewedDate: '2012-02-30',
     lastViewedDate: '2012-02-30',
+    seenAtCinema: true,
   },
   {
     title: 'Time Out',
@@ -217,6 +242,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 15,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Footloose',
@@ -225,14 +251,16 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2022-10-28',
     lastViewedDate: '2022-10-28',
+    seenAtCinema: false,
   },
   {
     title: 'Real Steel',
     director: 'Shawn Levy',
     rating: 3.5,
     timesWatched: 5,
-    firstViewedDate: '',
+    firstViewedDate: '2011-10-12',
     lastViewedDate: '2025-02-07',
+    seenAtCinema: true,
   },
   {
     title: 'Intouchables',
@@ -241,6 +269,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 15,
     firstViewedDate: '2011-11-06',
     lastViewedDate: '2011-11-06',
+    seenAtCinema: true,
   },
   {
     title: 'Warrior',
@@ -249,6 +278,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2024-02-09',
     lastViewedDate: '2024-02-09',
+    seenAtCinema: false,
   },
   {
     title: 'Never Back Down 2: The Beatdown',
@@ -257,6 +287,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'The Raid',
@@ -265,6 +296,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Cowboys & Aliens',
@@ -273,6 +305,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Tango & Cash',
@@ -281,6 +314,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Le cercle des poètes disparus',
@@ -289,6 +323,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Kickboxer',
@@ -297,6 +332,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Qui veut la peau de Roger Rabbit',
@@ -305,6 +341,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 10,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Bloodsport',
@@ -313,6 +350,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Good Morning, Vietnam',
@@ -321,6 +359,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'The Running Man',
@@ -329,6 +368,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'RoboCop',
@@ -337,6 +377,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Prédictions',
@@ -345,6 +386,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'I Love You Phillip Morris',
@@ -353,14 +395,16 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Sept Vies',
     director: 'Gabriele Muccino',
     rating: 3.75,
     timesWatched: 3,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2008-12-24',
+    lastViewedDate: '2008-12-24',
+    seenAtCinema: true,
   },
   {
     title: 'Yes Man',
@@ -369,6 +413,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Gran Torino',
@@ -377,6 +422,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Ong Bak 2',
@@ -385,6 +431,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
 
   {
@@ -394,6 +441,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 15,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Slumdog Millionaire',
@@ -402,6 +450,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2017-04-11',
     lastViewedDate: '2017-04-11',
+    seenAtCinema: false,
   },
   {
     title: 'Course à la mort',
@@ -410,6 +459,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 15,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Voyage au Centre de la Terre',
@@ -418,14 +468,16 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '2025-01-11',
+    seenAtCinema: false,
   },
   {
     title: 'Wanted : Choisis ton Destin',
     director: 'Timur Bekmambetov',
     rating: 3,
     timesWatched: 3,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2008-07-02',
+    lastViewedDate: '2008-07-02',
+    seenAtCinema: true,
   },
   {
     title: 'Rien que pour vos cheveux',
@@ -434,6 +486,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 10,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Speed Racer',
@@ -442,6 +495,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'La vague',
@@ -450,6 +504,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Never Back Down',
@@ -458,6 +513,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 20,
     firstViewedDate: '2008-02-07',
     lastViewedDate: '2008-02-07',
+    seenAtCinema: true,
   },
   {
     title: 'Jumper',
@@ -466,14 +522,16 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2016-02-28',
     lastViewedDate: '2016-02-28',
+    seenAtCinema: false,
   },
   {
     title: 'Je Suis une Légende',
     director: 'Francis Lawrence',
     rating: 3.75,
     timesWatched: 5,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2007-12-19',
+    lastViewedDate: '2007-12-19',
+    seenAtCinema: true,
   },
   {
     title: 'Paranormal Activity',
@@ -482,6 +540,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Gone Baby Gone',
@@ -490,6 +549,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2024-06-05',
     lastViewedDate: '2024-06-05',
+    seenAtCinema: false,
   },
   {
     title: 'Into the Wild',
@@ -498,6 +558,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'La chambre 1408',
@@ -506,6 +567,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Evan tout-puissant',
@@ -514,6 +576,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'No Country for Old Men',
@@ -522,6 +585,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2025-04-09',
     lastViewedDate: '2025-04-09',
+    seenAtCinema: false,
   },
   {
     title: '28 Semaines Plus Tard',
@@ -530,6 +594,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Dangereuse séduction',
@@ -538,6 +603,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '2024-05-17',
+    seenAtCinema: false,
   },
   {
     title: 'Paranoïak',
@@ -546,6 +612,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Supergrave',
@@ -554,6 +621,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Zodiac',
@@ -562,6 +630,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2016-03-02',
     lastViewedDate: '2016-03-02',
+    seenAtCinema: false,
   },
   {
     title: 'Premonition',
@@ -570,6 +639,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Ecrire pour exister',
@@ -578,6 +648,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: "L'effaceur",
@@ -586,6 +657,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 15,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'La quête',
@@ -594,6 +666,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Trainspotting',
@@ -602,6 +675,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Jumanji',
@@ -610,6 +684,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Seven',
@@ -618,6 +693,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'The Net',
@@ -626,6 +702,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Waterworld',
@@ -634,6 +711,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Piège à grande vitesse',
@@ -642,6 +720,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 15,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Judge Dredd',
@@ -650,8 +729,8 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 10,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
-
   {
     title: 'The Usual Suspects',
     director: 'Bryan Singer',
@@ -659,6 +738,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2016-03-16',
     lastViewedDate: '2016-03-16',
+    seenAtCinema: false,
   },
   {
     title: 'Street Fighter',
@@ -667,6 +747,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Un indien dans la ville',
@@ -675,6 +756,7 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 10,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Dumb & Dumber',
@@ -683,5 +765,6 @@ export const guillaumeMoviesPage4: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
 ];

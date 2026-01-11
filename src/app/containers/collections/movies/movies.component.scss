@@ -52,6 +52,12 @@
 
 .movies-view-toggle {
   @include toggle.view-toggle;
+  max-width: 600px; // Ajusté pour accommoder 3 boutons
+
+  .toggle-option {
+    padding: 12px 16px; // Réduit le padding pour mieux accommoder 3 boutons
+    font-size: 0.95rem; // Légèrement réduit pour éviter le débordement
+  }
 }
 
 .movies {

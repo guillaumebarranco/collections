@@ -8,6 +8,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 30,
     firstViewedDate: '2012-05-04',
     lastViewedDate: '2012-05-04',
+    seenAtCinema: true,
   },
   {
     title: "Avengers : L'Ère d'Ultron",
@@ -16,6 +17,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 10,
     firstViewedDate: '2015-05-01',
     lastViewedDate: '2015-05-01',
+    seenAtCinema: true,
   },
   {
     title: 'Avengers: Infinity War',
@@ -24,6 +26,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 10,
     firstViewedDate: '2018-04-26',
     lastViewedDate: '2018-04-26',
+    seenAtCinema: true,
   },
   {
     title: 'Avengers: Endgame',
@@ -32,6 +35,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 10,
     firstViewedDate: '2019-04-25',
     lastViewedDate: '2019-04-25',
+    seenAtCinema: true,
   },
   {
     title: 'Captain America : First Avenger',
@@ -40,14 +44,16 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 10,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: "Captain America : Le Soldat de l'Hiver",
     director: 'Anthony Russo, Joe Russo',
     rating: 3.5,
     timesWatched: 3,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2014-04-09',
+    lastViewedDate: '2014-04-09',
+    seenAtCinema: true,
   },
   {
     title: 'Captain America : Civil War',
@@ -56,6 +62,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 3,
     firstViewedDate: '2016-05-06',
     lastViewedDate: '2016-05-06',
+    seenAtCinema: true,
   },
   {
     title: 'Captain America: Brave New World',
@@ -64,6 +71,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2025-06-14',
     lastViewedDate: '2025-06-14',
+    seenAtCinema: false,
   },
   {
     title: 'Iron Man',
@@ -72,14 +80,16 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 20,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Iron Man 2',
     director: 'Jon Favreau',
     rating: 3.5,
     timesWatched: 5,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2010-05-12',
+    lastViewedDate: '2010-05-12',
+    seenAtCinema: true,
   },
   {
     title: 'Iron Man 3',
@@ -88,6 +98,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 3,
     firstViewedDate: '2013-05-03',
     lastViewedDate: '2013-05-03',
+    seenAtCinema: true,
   },
   {
     title: "L'Incroyable Hulk",
@@ -96,6 +107,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 10,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Thor',
@@ -104,6 +116,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Thor: The Dark World',
@@ -112,6 +125,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Thor: Ragnarok',
@@ -120,6 +134,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Thor : Love & Thunder',
@@ -128,14 +143,16 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Captain Marvel',
     director: 'Anna Boden, Ryan Fleck',
     rating: 3.75,
     timesWatched: 3,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2019-03-13',
+    lastViewedDate: '2019-03-13',
+    seenAtCinema: true,
   },
   {
     title: 'Les Marvels',
@@ -144,6 +161,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2025-05-10',
     lastViewedDate: '2025-05-10',
+    seenAtCinema: false,
   },
   {
     title: 'Shang-Chi et la Légende des Dix Anneaux',
@@ -152,6 +170,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Doctor Strange',
@@ -160,6 +179,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '2016-03-04',
     lastViewedDate: '2016-03-04',
+    seenAtCinema: true,
   },
   {
     title: 'Doctor Strange dans le Multivers de la Folie',
@@ -168,6 +188,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Black Panther',
@@ -176,22 +197,25 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '2018-02-16',
     lastViewedDate: '2018-02-16',
+    seenAtCinema: true,
   },
   {
     title: 'Black Panther : Wakanda pour Toujours',
     director: 'Ryan Coogler',
     rating: 3.5,
     timesWatched: 1,
-    firstViewedDate: '2023-03-10',
-    lastViewedDate: '2023-03-10',
+    firstViewedDate: '2022-11-16',
+    lastViewedDate: '2022-11-16',
+    seenAtCinema: true,
   },
   {
     title: 'Les Gardiens de la Galaxie',
     director: 'James Gunn',
     rating: 4.25,
     timesWatched: 10,
-    firstViewedDate: '2017-05-05',
-    lastViewedDate: '2017-05-05',
+    firstViewedDate: '2014-08-25',
+    lastViewedDate: '2014-08-25',
+    seenAtCinema: true,
   },
   {
     title: 'Les Gardiens de la Galaxie Vol. 2',
@@ -200,6 +224,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Les Gardiens de la Galaxie Vol. 3',
@@ -208,14 +233,16 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Ant-Man',
     director: 'Peyton Reed',
     rating: 3.75,
     timesWatched: 5,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2015-07-22',
+    lastViewedDate: '2015-07-22',
+    seenAtCinema: true,
   },
   {
     title: 'Ant-Man et la Guêpe',
@@ -224,6 +251,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Ant-Man et la Guêpe : Quantumania',
@@ -232,6 +260,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Spider-Man: Homecoming',
@@ -240,6 +269,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 3,
     firstViewedDate: '2017-07-07',
     lastViewedDate: '2017-07-07',
+    seenAtCinema: true,
   },
   {
     title: 'Spider-Man: Far From Home',
@@ -248,6 +278,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 3,
     firstViewedDate: '2019-07-02',
     lastViewedDate: '2019-07-02',
+    seenAtCinema: true,
   },
   {
     title: 'Spider-Man : No Way Home',
@@ -256,6 +287,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2021-12-17',
     lastViewedDate: '2021-12-17',
+    seenAtCinema: true,
   },
   {
     title: 'Black Widow',
@@ -264,6 +296,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Les Éternels',
@@ -272,6 +305,7 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Deadpool et Wolverine',
@@ -280,5 +314,6 @@ export const guillaumeMoviesMcu: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2025-04-26',
     lastViewedDate: '2025-04-26',
+    seenAtCinema: false,
   },
 ];

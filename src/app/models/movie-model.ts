@@ -18,6 +18,7 @@ export interface UserMovie extends MandatoryMovieData {
   timesWatched: number;
   firstViewedDate: string;
   lastViewedDate: string;
+  seenAtCinema: boolean;
 }
 
 export interface Movie extends BaseMovie, UserMovie {}

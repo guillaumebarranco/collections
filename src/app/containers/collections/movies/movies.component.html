@@ -2,7 +2,7 @@
 
 <div class="movies-container">
   <h1>
-    {{ selectedView() === "watchlist" ? "Films à voir" : "Films visionnés" }}
+    {{ selectedView() === "watchlist" ? "Films à voir" : selectedView() === "cinema" ? "Films vus au cinéma" : "Films visionnés" }}
     ({{ filteredMoviesByYear().length }})
   </h1>
 
@@ -13,6 +13,13 @@
       (click)="onViewChange('watched')"
     >
       Films vus
+    </button>
+    <button
+      class="toggle-option"
+      [class.active]="selectedView() === 'cinema'"
+      (click)="onViewChange('cinema')"
+    >
+      Films vus au cinéma
     </button>
     <button
       class="toggle-option"
@@ -45,7 +52,7 @@
 
     <div class="movies-filters">
       <!-- Dropdown de filtre d'années -->
-      @if(selectedView() === 'watched') {
+      @if(selectedView() === 'watched' || selectedView() === 'cinema') {
       <div class="movies-filters-item">
         <p>Filtrer par année :</p>
         <select
@@ -73,7 +80,7 @@
     </div>
   </div>
 
-  @if(selectedYearFilter() !== 'all' && selectedView() === 'watched') {
+  @if(selectedYearFilter() !== 'all' && (selectedView() === 'watched' || selectedView() === 'cinema')) {
   <p>Résultats affichés: {{ sortedMovies().length }}</p>
   }
 

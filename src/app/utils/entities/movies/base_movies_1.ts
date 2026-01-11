@@ -662,11 +662,11 @@ export const baseMoviesPage1: BaseMovie[] = [
   },
   {
     title: 'French Lover',
-    director: 'Inconnu',
-    actors: [{ name: 'Acteur principal' }],
+    director: 'Nina Rives',
+    actors: [{ name: 'Omar Sy' }],
     coverUrl:
       '/movies_pictures/AAAABWVgN_6qNZk70MFWrIUY6kiYXI907aDytmsBt7M1eQ_o.jpg',
-    releaseDate: '2024-01-01',
+    releaseDate: '2025-01-01',
     length: 95,
     genre: 'Romance',
   },
@@ -1021,5 +1021,43 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2022-03-18',
     length: 115,
     genre: 'Thriller',
+  },
+  {
+    title: 'Malavita',
+    director: 'Luc Besson',
+    actors: [
+      {
+        name: 'Robert De Niro',
+      },
+      {
+        name: 'Michelle Pfeiffer',
+      },
+      {
+        name: 'Tommy Lee Jones',
+      },
+    ],
+    coverUrl: '',
+    releaseDate: '2013-10-23',
+    length: 111,
+    genre: 'Comédie, Thriller',
+  },
+  {
+    title: 'La princesse de Montpensier',
+    director: 'Bertrand Tavernier',
+    actors: [
+      {
+        name: 'Mélanie Thierry',
+      },
+      {
+        name: 'Lambert Wilson',
+      },
+      {
+        name: 'Grégoire Leprince-Ringuet',
+      },
+    ],
+    coverUrl: '',
+    releaseDate: '2010-11-03',
+    length: 139,
+    genre: 'Drame, Historique',
   },
 ];

@@ -8,6 +8,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 3,
     firstViewedDate: '2016-02-12',
     lastViewedDate: '2016-02-12',
+    seenAtCinema: true,
   },
   {
     title: 'Deadpool 2',
@@ -16,6 +17,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2018-05-18',
     lastViewedDate: '2018-05-18',
+    seenAtCinema: true,
   },
   {
     title: 'Daredevil',
@@ -24,6 +26,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'X-Men',
@@ -32,6 +35,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'X-men 2',
@@ -40,14 +44,16 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: "X-Men : L'Affrontement Final",
     director: 'Brett Ratner',
     rating: 3.75,
     timesWatched: 10,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2006-05-31',
+    lastViewedDate: '2006-05-31',
+    seenAtCinema: true,
   },
   {
     title: 'X-Men Origins : Wolverine',
@@ -56,6 +62,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'The Wolverine',
@@ -64,6 +71,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2013-07-28',
     lastViewedDate: '2013-07-28',
+    seenAtCinema: true,
   },
   {
     title: 'Logan',
@@ -72,6 +80,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2017-03-03',
     lastViewedDate: '2017-03-03',
+    seenAtCinema: true,
   },
   {
     title: 'X-Men : Le Commencement',
@@ -80,6 +89,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 10,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'X-Men : Days of Future Past',
@@ -88,6 +98,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 2,
     firstViewedDate: '2014-03-21',
     lastViewedDate: '2014-03-21',
+    seenAtCinema: true,
   },
   {
     title: 'X-Men : Apocalypse',
@@ -96,6 +107,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2016-05-27',
     lastViewedDate: '2016-05-27',
+    seenAtCinema: true,
   },
   {
     title: 'X-Men :Dark Phoenix',
@@ -104,6 +116,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2019-05-24',
     lastViewedDate: '2019-05-24',
+    seenAtCinema: true,
   },
   {
     title: 'Venom',
@@ -112,6 +125,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2021-07-14',
     lastViewedDate: '2021-07-14',
+    seenAtCinema: false,
   },
   {
     title: 'Venom : Let There Be Carnage',
@@ -120,6 +134,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2023-04-12',
     lastViewedDate: '2023-04-12',
+    seenAtCinema: false,
   },
   {
     title: 'Spider-Man',
@@ -128,6 +143,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 40,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Spider-Man 2',
@@ -136,14 +152,16 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 30,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Spider-Man 3',
     director: 'Sam Raimi',
     rating: 3.75,
     timesWatched: 20,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2007-05-09',
+    lastViewedDate: '2007-05-09',
+    seenAtCinema: true,
   },
   {
     title: 'The Amazing Spider-Man',
@@ -152,6 +170,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '2012-07-03',
     lastViewedDate: '2012-07-03',
+    seenAtCinema: true,
   },
   {
     title: "The Amazing Spider-Man : Le Destin d'un Héros",
@@ -160,6 +179,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 2,
     firstViewedDate: '2014-08-01',
     lastViewedDate: '2014-08-01',
+    seenAtCinema: true,
   },
   {
     title: 'Kick-Ass',
@@ -168,6 +188,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Kick-Ass 2',
@@ -176,6 +197,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Hancock',
@@ -184,6 +206,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 15,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Les 4 Fantastiques',
@@ -192,6 +215,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 10,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: "Les 4 Fantastiques et le Surfeur d'Argent",
@@ -200,6 +224,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 10,
     firstViewedDate: '2012-07-13',
     lastViewedDate: '2012-07-13',
+    seenAtCinema: true,
   },
   {
     title: 'Ghost Rider',
@@ -208,6 +233,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Sky High',
@@ -216,6 +242,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Hulk',
@@ -224,6 +251,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'The Punisher',
@@ -232,6 +260,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Les 4 Fantastiques',
@@ -240,5 +269,6 @@ export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
 ];

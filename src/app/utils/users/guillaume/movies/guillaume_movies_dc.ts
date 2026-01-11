@@ -8,6 +8,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Batman',
@@ -16,6 +17,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2017-07-14',
     lastViewedDate: '2017-07-14',
+    seenAtCinema: false,
   },
   {
     title: 'Batman Returns',
@@ -24,6 +26,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Batman Forever',
@@ -32,6 +35,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Batman & Robin',
@@ -40,6 +44,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Batman Begins',
@@ -48,6 +53,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     timesWatched: 10,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'The Dark Knight : Le Chevalier Noir',
@@ -56,6 +62,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     timesWatched: 30,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'The Dark Knight Rises',
@@ -64,14 +71,16 @@ export const guillaumeMoviesDc: UserMovie[] = [
     timesWatched: 15,
     firstViewedDate: '2012-07-20',
     lastViewedDate: '2012-07-20',
+    seenAtCinema: true,
   },
   {
     title: 'The Batman',
     director: 'Matt Reeves',
     rating: 4,
     timesWatched: 2,
-    firstViewedDate: '2025-05-04',
+    firstViewedDate: '2022-05-04',
     lastViewedDate: '2025-05-04',
+    seenAtCinema: true,
   },
   {
     title: "Batman v Superman : L'Aube de la Justice",
@@ -80,6 +89,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     timesWatched: 3,
     firstViewedDate: '2016-03-25',
     lastViewedDate: '2016-03-25',
+    seenAtCinema: true,
   },
   {
     title: 'Shazam!',
@@ -88,6 +98,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2022-05-04',
     lastViewedDate: '2022-05-04',
+    seenAtCinema: false,
   },
   {
     title: 'Aquaman',
@@ -96,6 +107,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Black Adam',
@@ -104,6 +116,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: "Zack Snyder's Justice League",
@@ -112,14 +125,16 @@ export const guillaumeMoviesDc: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2021-03-18',
     lastViewedDate: '2021-03-18',
+    seenAtCinema: false,
   },
   {
     title: 'Suicide Squad',
     director: 'David Ayer',
     rating: 3.25,
     timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2016-08-10',
+    lastViewedDate: '2016-08-10',
+    seenAtCinema: true,
   },
   {
     title: 'Man of Steel',
@@ -128,6 +143,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     timesWatched: 20,
     firstViewedDate: '2013-06-14',
     lastViewedDate: '2013-06-14',
+    seenAtCinema: true,
   },
   {
     title: 'Superman',
@@ -136,6 +152,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2025-07-13',
     lastViewedDate: '2025-07-13',
+    seenAtCinema: true,
   },
   {
     title: 'Watchmen : Les Gardiens',
@@ -144,6 +161,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Catwoman',
@@ -152,14 +170,16 @@ export const guillaumeMoviesDc: UserMovie[] = [
     timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '',
+    seenAtCinema: false,
   },
   {
     title: 'Wonder Woman',
     director: 'Patty Jenkins',
     rating: 3.75,
     timesWatched: 3,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2017-06-07',
+    lastViewedDate: '2017-06-07',
+    seenAtCinema: true,
   },
   {
     title: 'Wonder Woman 1984',
@@ -168,6 +188,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2021-05-08',
     lastViewedDate: '2021-05-08',
+    seenAtCinema: false,
   },
   {
     title: 'The Flash',
@@ -176,6 +197,7 @@ export const guillaumeMoviesDc: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2024-02-20',
     lastViewedDate: '2024-02-20',
+    seenAtCinema: false,
   },
   {
     title: 'Birds of Prey',
@@ -184,5 +206,6 @@ export const guillaumeMoviesDc: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '2023-06-20',
     lastViewedDate: '2023-06-20',
+    seenAtCinema: false,
   },
 ];
