@@ -14,6 +14,7 @@ import {
   guillaumeBooksSaga,
 } from '../utils/users/guillaume/books';
 import { kevinBooks1, kevinBooks2 } from '../utils/users/kevin/books';
+import { ronanBooks } from '../utils/users/ronan/books/ronan_books';
 
 const allBaseBooks: BaseBook[] = [
   ...baseBooks,
@@ -32,6 +33,7 @@ export function getAllBooks(): { [key: string]: Book[] } {
     william: getAllBooksData([]),
     kevin: getAllBooksData([...kevinBooks1, ...kevinBooks2]),
     amandine: getAllBooksData([]),
+    ronan: getAllBooksData([...ronanBooks]),
   };
 }
 
