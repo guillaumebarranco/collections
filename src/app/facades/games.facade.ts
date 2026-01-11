@@ -3,6 +3,7 @@ import { Game, BaseGame, UserGame } from '../models/game-model';
 import { baseGames } from '../utils/entities/games/base_games';
 
 import { guillaumeGames } from '../utils/users/guillaume/games';
+import { ronanGames } from '../utils/users/ronan/games/ronan_games';
 
 const allBaseGames: BaseGame[] = [...baseGames];
 
@@ -12,6 +13,7 @@ export function getAllGames(): { [key: string]: Game[] } {
     william: getAllGamesData([]),
     kevin: [],
     amandine: getAllGamesData([]),
+    ronan: getAllGamesData([...ronanGames]),
   };
 }
 
