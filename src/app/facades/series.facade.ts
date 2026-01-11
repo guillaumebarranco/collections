@@ -3,6 +3,7 @@ import { Serie, BaseSerie, UserSerie } from '../models/serie-model';
 import { baseSeries } from '../utils/entities/series/base_series';
 
 import { guillaumeSeries } from '../utils/users/guillaume/series';
+import { ronanSeries } from '../utils/users/ronan/series/ronan_series';
 
 const allBaseSeries: BaseSerie[] = [...baseSeries];
 
@@ -12,6 +13,7 @@ export function getAllSeries(): { [key: string]: Serie[] } {
     william: getAllSeriesData([]),
     kevin: [],
     amandine: getAllSeriesData([]),
+    ronan: getAllSeriesData([...ronanSeries]),
   };
 }
 
