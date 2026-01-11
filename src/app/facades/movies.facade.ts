@@ -33,6 +33,7 @@ import { williamMovies } from '../utils/users/william/movies';
 import { amandineMovies1 } from '../utils/users/amandine/movies/amandine_movies_1';
 import { amandineMovies2 } from '../utils/users/amandine/movies/amandine_movies_2';
 import { guillaumeWatchlistMovies } from '../utils/users/guillaume/movies/guillaume_watchlist_movies';
+import { ronanMovies } from '../utils/users/ronan/movies/ronan_movies';
 
 const allBaseMovies: BaseMovie[] = [
   ...baseMoviesPage1,
@@ -68,6 +69,7 @@ export function getAllMovies(): { [key: string]: Movie[] } {
     william: getAllMoviesData([...williamMovies]),
     kevin: [],
     amandine: getAllMoviesData([...amandineMovies1, ...amandineMovies2]),
+    ronan: getAllMoviesData([...ronanMovies]),
   };
 }
 
@@ -77,6 +79,7 @@ export function getAllWatchlistMovies(): { [key: string]: Movie[] } {
     william: getAllMoviesData([]),
     kevin: [],
     amandine: getAllMoviesData([]),
+    ronan: getAllMoviesData([]),
   };
 }
 
