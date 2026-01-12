@@ -10,7 +10,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Carry-On',
     director: 'Jaume Collet-Serra',
@@ -20,7 +19,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Road House',
     director: 'Doug Liman',
@@ -30,7 +28,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Damsel',
     director: 'Juan Carlos Fresnadillo',
@@ -40,7 +37,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Sly',
     director: 'Thom Zimny',
@@ -50,7 +46,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Arnold',
     director: 'Lesley Chilcott',
@@ -60,7 +55,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Samaritan',
     director: 'Julius Avery',
@@ -70,7 +64,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Prey',
     director: 'Dan Trachtenberg',
@@ -80,7 +73,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'The Adam Project',
     director: 'Shawn Levy',
@@ -90,7 +82,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Red Notice',
     director: 'Rawson Marshall Thurber',
@@ -100,7 +91,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'The Guilty',
     director: 'Antoine Fuqua',
@@ -110,7 +100,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'The Terminal',
     director: 'Steven Spielberg',
@@ -120,7 +109,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Tanguy',
     director: 'Étienne Chatiliez',
@@ -130,7 +118,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Wasabi',
     director: 'Gérard Krawczyk',
@@ -140,7 +127,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Training Day',
     director: 'Antoine Fuqua',
@@ -150,7 +136,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Battle Royale',
     director: 'Kinji Fukasaku',
@@ -160,7 +145,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Memento',
     director: 'Christopher Nolan',
@@ -170,7 +154,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Snatch',
     director: 'Guy Ritchie',
@@ -180,7 +163,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Gladiator',
     director: 'Ridley Scott',
@@ -190,7 +172,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Source Code',
     director: 'Duncan Jones',
@@ -200,7 +181,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Superman',
     director: 'Richard Donner',
@@ -210,7 +190,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Superman II',
     director: 'Richard Lester',
@@ -220,7 +199,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Superman Returns',
     director: 'Bryan Singer',
@@ -230,7 +208,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Enemy',
     director: 'Denis Villeneuve',
@@ -240,7 +217,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Chaos Walking',
     director: 'Doug Liman',
@@ -250,7 +226,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Love and Monsters',
     director: 'Michael Matthews',
@@ -260,7 +235,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Mulan',
     director: 'Niki Caro',
@@ -270,7 +244,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Palm Springs',
     director: 'Max Barbakow',
@@ -280,7 +253,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Guns Akimbo',
     director: 'Jason Lei Howden',
@@ -290,7 +262,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Bird Box',
     director: 'Susanne Bier',
@@ -300,7 +271,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'E.T. the Extra-Terrestrial',
     director: 'Steven Spielberg',
@@ -310,7 +280,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'The Shining',
     director: 'Stanley Kubrick',
@@ -320,7 +289,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Taxi Driver',
     director: 'Martin Scorsese',
@@ -330,7 +298,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Le Gendarme de Saint-Tropez',
     director: 'Jean Girault',
@@ -340,7 +307,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Yamakasi',
     director: 'Julien Seri',
@@ -350,7 +316,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'DodgeBall: Même pas mal',
     director: 'Rawson Marshall Thurber',
@@ -360,7 +325,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Garfield',
     director: 'Peter Hewitt',
@@ -370,7 +334,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Harold & Kumar Go to White Castle',
     director: 'Danny Leiner',
@@ -380,7 +343,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'The Day After Tomorrow',
     director: 'Roland Emmerich',
@@ -390,7 +352,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Van Helsing',
     director: 'Stephen Sommers',
@@ -400,7 +361,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Man on Fire',
     director: 'Tony Scott',
@@ -410,7 +370,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Shaun of the Dead',
     director: 'Edgar Wright',
@@ -420,7 +379,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'EuroTrip',
     director: 'Jeff Schaffer',
@@ -430,7 +388,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'RRRrrrr!!!',
     director: 'Alain Chabat',
@@ -440,7 +397,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Saw',
     director: 'James Wan',
@@ -450,7 +406,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Oldboy',
     director: 'Park Chan-wook',
@@ -460,7 +415,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Bruce tout-puissant',
     director: 'Tom Shadyac',
@@ -470,7 +424,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Moi, Cesar, 10 ans et demi, 1m39',
     director: 'Richard Berry',
@@ -480,7 +433,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Equilibrium',
     director: 'Kurt Wimmer',
@@ -490,7 +442,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Minority Report',
     director: 'Steven Spielberg',
@@ -500,7 +451,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Panic Room',
     director: 'David Fincher',
@@ -510,7 +460,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Le Cinquième Élément',
     director: 'Luc Besson',
@@ -520,7 +469,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'American Beauty',
     director: 'Sam Mendes',
@@ -530,7 +478,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Wild Wild West',
     director: 'Barry Sonnenfeld',
@@ -540,7 +487,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Armageddon',
     director: 'Michael Bay',
@@ -550,7 +496,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'The Truman Show',
     director: 'Peter Weir',
@@ -560,7 +505,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Godzilla',
     director: 'Roland Emmerich',
@@ -570,7 +514,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Death Note',
     director: 'Adam Wingard',
@@ -580,7 +523,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Atomic Blonde',
     director: 'David Leitch',
@@ -590,7 +532,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Baby Driver',
     director: 'Edgar Wright',
@@ -600,7 +541,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Swiss Army Man',
     director: 'Dan Kwan, Daniel Scheinert',
@@ -610,7 +550,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Room',
     director: 'Lenny Abrahamson',
@@ -620,7 +559,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Gone Girl',
     director: 'David Fincher',
@@ -630,7 +568,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Brice de Nice',
     director: 'James Huth',
@@ -640,7 +577,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Dirty Dancing',
     director: 'Emile Ardolino',
@@ -650,7 +586,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Scarface',
     director: 'Brian De Palma',
@@ -660,7 +595,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Hors de Prix',
     director: 'Pierre Salvadori',
@@ -670,7 +604,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: '300',
     director: 'Zack Snyder',
@@ -680,7 +613,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Camping',
     director: 'Fabien Onteniente',
@@ -690,7 +622,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Incontrôlable',
     director: 'Raffy Shart',
@@ -700,7 +631,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'King Kong',
     director: 'Peter Jackson',
@@ -710,7 +640,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Nanny McPhee',
     director: 'Kirk Jones',
@@ -720,7 +649,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Mr. & Mrs. Smith',
     director: 'Doug Liman',
@@ -730,7 +658,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'The Descent',
     director: 'Neil Marshall',
@@ -740,7 +667,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Million Dollar Baby',
     director: 'Clint Eastwood',
@@ -750,7 +676,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'The Mask',
     director: 'Chuck Russell',
@@ -760,7 +685,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Forrest Gump',
     director: 'Robert Zemeckis',
@@ -770,7 +694,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Pulp Fiction',
     director: 'Quentin Tarantino',
@@ -780,7 +703,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Mrs. Doubtfire',
     director: 'Chris Columbus',
@@ -790,7 +712,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'The Big Lebowski',
     director: 'Joel Coen, Ethan Coen',
@@ -800,7 +721,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Edge of Tomorrow',
     director: 'Doug Liman',
@@ -810,7 +730,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Prisoners',
     director: 'Denis Villeneuve',
@@ -820,7 +739,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Gravity',
     director: 'Alfonso Cuarón',
@@ -830,7 +748,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'World War Z',
     director: 'Marc Forster',
@@ -840,7 +757,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'After Earth',
     director: 'M. Night Shyamalan',
@@ -850,7 +766,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Oblivion',
     director: 'Joseph Kosinski',
@@ -860,7 +775,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Django Unchained',
     director: 'Quentin Tarantino',
@@ -870,7 +784,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Dredd',
     director: 'Pete Travis',
@@ -880,7 +793,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'The Dictator',
     director: 'Larry Charles',
@@ -890,7 +802,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'The Lucky One',
     director: 'Scott Hicks',
@@ -900,7 +811,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Prometheus',
     director: 'Ridley Scott',
@@ -910,7 +820,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: '21 Jump Street',
     director: 'Phil Lord, Christopher Miller',
@@ -920,7 +829,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Chronicle',
     director: 'Josh Trank',
@@ -930,7 +838,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Real Steel',
     director: 'Shawn Levy',
@@ -940,7 +847,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Intouchables',
     director: 'Olivier Nakache, Éric Toledano',
@@ -950,7 +856,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Warrior',
     director: "Gavin O'Connor",
@@ -960,7 +865,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Never Back Down 2: The Beatdown',
     director: 'Michael Jai White',
@@ -970,7 +874,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'The Raid',
     director: 'Gareth Evans',
@@ -980,7 +883,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Bloodsport',
     director: 'Newt Arnold',
@@ -990,7 +892,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'RoboCop',
     director: 'Paul Verhoeven',
@@ -1000,7 +901,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'I Love You Phillip Morris',
     director: 'Glenn Ficarra, John Requa',
@@ -1010,7 +910,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Gran Torino',
     director: 'Clint Eastwood',
@@ -1020,7 +919,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Eagle Eye',
     director: 'D.J. Caruso',
@@ -1030,7 +928,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Slumdog Millionaire',
     director: 'Danny Boyle',
@@ -1040,7 +937,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Wanted : Choisis ton Destin',
     director: 'Timur Bekmambetov',
@@ -1050,7 +946,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Never Back Down',
     director: 'Jeff Wadlow',
@@ -1060,7 +955,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Jumper',
     director: 'Doug Liman',
@@ -1070,7 +964,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Paranormal Activity',
     director: 'Oren Peli',
@@ -1080,7 +973,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Into the Wild',
     director: 'Sean Penn',
@@ -1090,7 +982,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Evan tout-puissant',
     director: 'Tom Shadyac',
@@ -1100,7 +991,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'No Country for Old Men',
     director: 'Joel Coen, Ethan Coen',
@@ -1110,7 +1000,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Zodiac',
     director: 'David Fincher',
@@ -1120,7 +1009,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Jumanji',
     director: 'Joe Johnston',
@@ -1130,7 +1018,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Judge Dredd',
     director: 'Danny Cannon',
@@ -1140,7 +1027,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'The Usual Suspects',
     director: 'Bryan Singer',
@@ -1150,7 +1036,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Un indien dans la ville',
     director: 'Hervé Palud',
@@ -1160,7 +1045,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Les Tuche',
     director: 'Olivier Baroux',
@@ -1170,7 +1054,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Super 8',
     director: 'J.J. Abrams',
@@ -1180,7 +1063,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Sucker Punch',
     director: 'Zack Snyder',
@@ -1190,7 +1072,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Paul',
     director: 'Greg Mottola',
@@ -1200,7 +1081,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'The Social Network',
     director: 'David Fincher',
@@ -1210,7 +1090,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: '127 Heures',
     director: 'Danny Boyle',
@@ -1220,7 +1099,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Black Swan',
     director: 'Darren Aronofsky',
@@ -1230,7 +1108,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Inception',
     director: 'Christopher Nolan',
@@ -1240,7 +1117,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Fatal',
     director: 'Michaël Youn',
@@ -1250,7 +1126,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'The Karate Kid',
     director: 'Harald Zwart',
@@ -1260,7 +1135,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Shutter Island',
     director: 'Martin Scorsese',
@@ -1270,7 +1144,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Brothers',
     director: 'Jim Sheridan',
@@ -1280,7 +1153,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Lucky Luke',
     director: 'James Huth',
@@ -1290,7 +1162,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: '2012',
     director: 'Roland Emmerich',
@@ -1300,7 +1171,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Zombieland',
     director: 'Ruben Fleischer',
@@ -1310,7 +1180,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Mr. Nobody',
     director: 'Jaco Van Dormael',
@@ -1320,7 +1189,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Inglourious Basterds',
     director: 'Quentin Tarantino',
@@ -1330,7 +1198,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Basic Instinct',
     director: 'Paul Verhoeven',
@@ -1340,7 +1207,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Reservoir Dogs',
     director: 'Quentin Tarantino',
@@ -1350,7 +1216,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Point Break',
     director: 'Kathryn Bigelow',
@@ -1360,7 +1225,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Total Recall',
     director: 'Paul Verhoeven',
@@ -1370,7 +1234,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Last Action Hero',
     director: 'John McTiernan',
@@ -1380,7 +1243,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Jurassic Park',
     director: 'Steven Spielberg',
@@ -1390,7 +1252,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Demolition Man',
     director: 'Marco Brambilla',
@@ -1400,7 +1261,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Stuart Little',
     director: 'Rob Minkoff',
@@ -1410,7 +1270,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Léon',
     director: 'Luc Besson',
@@ -1420,7 +1279,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Cars 2',
     director: 'John Lasseter, Brad Lewis',
@@ -1430,7 +1288,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: '1001 Pattes',
     director: 'John Lasseter, Andrew Stanton',
@@ -1440,7 +1297,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Boss Level',
     director: 'Joe Carnahan',
@@ -1450,7 +1306,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Parasite',
     director: 'Bong Joon-ho',
@@ -1460,7 +1315,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Iron Man',
     director: 'Jon Favreau',
@@ -1470,7 +1324,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Iron Man 2',
     director: 'Jon Favreau',
@@ -1480,7 +1333,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Batman',
     director: 'Tim Burton',
@@ -1490,7 +1342,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Batman Returns',
     director: 'Tim Burton',
@@ -1500,7 +1351,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Batman Forever',
     director: 'Joel Schumacher',
@@ -1510,7 +1360,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Batman & Robin',
     director: 'Joel Schumacher',
@@ -1520,7 +1369,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Batman Begins',
     director: 'Christopher Nolan',
@@ -1530,7 +1378,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "Zack Snyder's Justice League",
     director: 'Zack Snyder',
@@ -1540,7 +1387,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Catwoman',
     director: 'Pitof',
@@ -1550,7 +1396,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Wonder Woman 1984',
     director: 'Patty Jenkins',
@@ -1560,7 +1405,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Daredevil',
     director: 'Mark Steven Johnson',
@@ -1570,7 +1414,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'X-Men',
     director: 'Bryan Singer',
@@ -1580,7 +1423,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Spider-Man',
     director: 'Sam Raimi',
@@ -1590,7 +1432,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Kick-Ass',
     director: 'Matthew Vaughn',
@@ -1600,7 +1441,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Hancock',
     director: 'Peter Berg',
@@ -1610,7 +1450,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Sky High',
     director: 'Mike Mitchell',
@@ -1620,7 +1459,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Hulk',
     director: 'Ang Lee',
@@ -1630,7 +1468,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "L'Arnacœur",
     director: 'Pascal Chaumeil',
@@ -1640,7 +1477,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Remember Me',
     director: 'Allen Coulter',
@@ -1650,7 +1486,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "Valentine's Day",
     director: 'Garry Marshall',
@@ -1660,7 +1495,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: '(500) Jours Ensemble',
     director: 'Marc Webb',
@@ -1670,7 +1504,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Juno',
     director: 'Jason Reitman',
@@ -1680,7 +1513,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Hitch : Expert en Séduction',
     director: 'Andy Tennant',
@@ -1690,7 +1522,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Eternal Sunshine of the Spotless Mind',
     director: 'Michel Gondry',
@@ -1700,7 +1531,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'The Girl Next Door',
     director: 'Luke Greenfield',
@@ -1710,7 +1540,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Love Actually',
     director: 'Richard Curtis',
@@ -1720,7 +1549,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Pearl Harbor',
     director: 'Michael Bay',
@@ -1730,7 +1558,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Coup de foudre à Notting Hill',
     director: 'Roger Michell',
@@ -1740,7 +1567,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Pretty Woman',
     director: 'Garry Marshall',
@@ -1750,7 +1576,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Holidate',
     director: 'John Whitesell',
@@ -1760,7 +1585,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Dragons',
     director: 'Dean DeBlois, Chris Sanders',
@@ -1770,7 +1594,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Ralph Breaks the Internet',
     director: 'Rich Moore, Phil Johnston',
@@ -1780,7 +1603,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Encanto',
     director: 'Jared Bush, Byron Howard',
@@ -1790,7 +1612,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Cars',
     director: 'John Lasseter',
@@ -1800,7 +1621,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Cars 3',
     director: 'Brian Fee',
@@ -1810,7 +1630,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Les Nouveaux Héros',
     director: 'Don Hall, Chris Williams',
@@ -1820,7 +1639,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Rebelle',
     director: 'Mark Andrews, Brenda Chapman',
@@ -1830,7 +1648,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Kung Fu Panda',
     director: 'Mark Osborne, John Stevenson',
@@ -1840,7 +1657,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Raiponce',
     director: 'Nathan Greno, Byron Howard',
@@ -1850,7 +1666,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Ratatouille',
     director: 'Brad Bird',
@@ -1860,7 +1675,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Shrek',
     director: 'Andrew Adamson, Vicky Jenson',
@@ -1870,7 +1684,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Shrek 2',
     director: 'Andrew Adamson, Kelly Asbury, Conrad Vernon',
@@ -1880,7 +1693,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Les Indestructibles',
     director: 'Brad Bird',
@@ -1890,7 +1702,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Monstres et Cie',
     director: 'Pete Docter',
@@ -1900,7 +1711,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Toy Story',
     director: 'John Lasseter',
@@ -1910,7 +1720,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Toy Story 2',
     director: 'John Lasseter',
@@ -1920,7 +1729,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'South Park, le Film',
     director: 'Trey Parker',
@@ -1930,7 +1738,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Tarzan',
     director: 'Chris Buck, Kevin Lima',
@@ -1940,7 +1747,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Princesse Mononoké',
     director: 'Hayao Miyazaki',
@@ -1950,7 +1756,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Hercule',
     director: 'Ron Clements, John Musker',
@@ -1960,7 +1765,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Pocahontas',
     director: 'Mike Gabriel, Eric Goldberg',
@@ -1970,7 +1774,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Space Jam',
     director: 'Joe Pytka',
@@ -1980,7 +1783,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Le Roi Lion',
     director: 'Roger Allers, Rob Minkoff',
@@ -1990,7 +1792,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Aladdin',
     director: 'Ron Clements, John Musker',
@@ -2000,7 +1801,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Peter Pan',
     director: 'Clyde Geronimi, Wilfred Jackson, Hamilton Luske',
@@ -2010,7 +1810,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Pinocchio',
     director:
@@ -2021,7 +1820,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Raya et le Dernier Dragon',
     director: 'Don Hall, Carlos López Estrada',
@@ -2031,7 +1829,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: '2 Fast 2 Furious',
     director: 'John Singleton',
@@ -2041,7 +1838,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Rocky',
     director: 'John G. Avildsen',
@@ -2051,7 +1847,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Rocky II',
     director: 'Sylvester Stallone',
@@ -2061,7 +1856,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Rocky III',
     director: 'Sylvester Stallone',
@@ -2071,7 +1865,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Rocky IV',
     director: 'Sylvester Stallone',
@@ -2081,7 +1874,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Rocky V',
     director: 'John G. Avildsen',
@@ -2091,7 +1883,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Rocky Balboa',
     director: 'Sylvester Stallone',
@@ -2101,7 +1892,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'The Terminator',
     director: 'James Cameron',
@@ -2111,7 +1901,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Terminator 2: Judgment Day',
     director: 'James Cameron',
@@ -2121,7 +1910,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Terminator 3: Rise of the Machines',
     director: 'Jonathan Mostow',
@@ -2131,7 +1919,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Terminator: Dark Fate',
     director: 'Tim Miller',
@@ -2141,7 +1928,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Murder Mystery',
     director: 'Kyle Newacheck',
@@ -2151,7 +1937,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'John Wick',
     director: 'Chad Stahelski',
@@ -2161,7 +1946,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Enola Holmes',
     director: 'Harry Bradbeer',
@@ -2171,7 +1955,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Wake up dead man : une histoire à couteaux tirés',
     director: 'Rian Johnson',
@@ -2181,7 +1964,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'James Bond : Casino Royale',
     director: 'Martin Campbell',
@@ -2191,7 +1973,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'James Bond : Skyfall',
     director: 'Sam Mendes',
@@ -2201,7 +1982,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'James Bond : Spectre',
     director: 'Sam Mendes',
@@ -2211,7 +1991,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Split',
     director: 'M. Night Shyamalan',
@@ -2221,7 +2000,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Divergente',
     director: 'Neil Burger',
@@ -2231,7 +2009,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Taken',
     director: 'Pierre Morel',
@@ -2241,7 +2018,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Underworld',
     director: 'Len Wiseman',
@@ -2251,7 +2027,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Banlieue 13',
     director: 'Pierre Morel',
@@ -2261,7 +2036,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Banlieue 13 : Ultimatum',
     director: 'Patrick Alessandrin',
@@ -2271,7 +2045,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Rush Hour',
     director: 'Brett Ratner',
@@ -2281,7 +2054,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "Ocean's Eleven",
     director: 'Steven Soderbergh',
@@ -2291,7 +2063,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Taxi',
     director: 'Gérard Pirès',
@@ -2301,7 +2072,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Taxi 2',
     director: 'Gérard Krawczyk',
@@ -2311,7 +2081,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Taxi 3',
     director: 'Gérard Krawczyk',
@@ -2321,7 +2090,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Taxi 4',
     director: 'Gérard Krawczyk',
@@ -2331,7 +2099,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Scary Movie',
     director: 'Keenen Ivory Wayans',
@@ -2341,7 +2108,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Scary Movie 2',
     director: 'Keenen Ivory Wayans',
@@ -2351,7 +2117,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Scary Movie 3',
     director: 'David Zucker',
@@ -2361,7 +2126,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Scary Movie 4',
     director: 'David Zucker',
@@ -2371,7 +2135,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Kill Bill: Vol. 1',
     director: 'Quentin Tarantino',
@@ -2381,7 +2144,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Kill Bill: Vol. 2',
     director: 'Quentin Tarantino',
@@ -2391,7 +2153,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Hellboy',
     director: 'Guillermo del Toro',
@@ -2401,7 +2162,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Le Transporteur',
     director: 'Louis Leterrier, Corey Yuen',
@@ -2411,7 +2171,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'xXx',
     director: 'Rob Cohen',
@@ -2421,7 +2180,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Sin City',
     director: 'Frank Miller, Robert Rodriguez',
@@ -2431,7 +2189,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Blade',
     director: 'Stephen Norrington',
@@ -2441,7 +2198,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Blade II',
     director: 'Guillermo del Toro',
@@ -2451,7 +2207,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Scooby-Doo',
     director: 'Raja Gosnell',
@@ -2461,7 +2216,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Scooby-Doo 2: Monsters Unleashed',
     director: 'Raja Gosnell',
@@ -2471,7 +2225,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'The Matrix Reloaded',
     director: 'Lana Wachowski, Lilly Wachowski',
@@ -2481,7 +2234,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'The Matrix Revolutions',
     director: 'Lana Wachowski, Lilly Wachowski',
@@ -2491,7 +2243,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Spy Kids',
     director: 'Robert Rodriguez',
@@ -2501,7 +2252,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Spy Kids 3-D: Game Over',
     director: 'Robert Rodriguez',
@@ -2511,7 +2261,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Bad Boys',
     director: 'Michael Bay',
@@ -2521,7 +2270,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Bad Boys II',
     director: 'Michael Bay',
@@ -2531,7 +2279,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Men in Black',
     director: 'Barry Sonnenfeld',
@@ -2541,7 +2288,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Men in Black II',
     director: 'Barry Sonnenfeld',
@@ -2551,7 +2297,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Men in Black 3',
     director: 'Barry Sonnenfeld',
@@ -2561,7 +2306,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Lara Croft : Tomb Raider',
     director: 'Simon West',
@@ -2571,7 +2315,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Predator',
     director: 'John McTiernan',
@@ -2581,7 +2324,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Alien',
     director: 'Ridley Scott',
@@ -2591,7 +2333,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Independence Day',
     director: 'Roland Emmerich',
@@ -2601,7 +2342,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Retour vers le futur',
     director: 'Robert Zemeckis',
@@ -2611,7 +2351,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Scream',
     director: 'Wes Craven',
@@ -2621,7 +2360,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Scream 2',
     director: 'Wes Craven',
@@ -2631,7 +2369,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Scream 3',
     director: 'Wes Craven',
@@ -2641,7 +2378,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Scream 4',
     director: 'Wes Craven',
@@ -2651,7 +2387,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'American Pie',
     director: 'Paul Weitz, Chris Weitz',
@@ -2661,7 +2396,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'American Pie 2',
     director: 'J.B. Rogers',
@@ -2671,7 +2405,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'American Pie Presents: Beta House',
     director: 'Andrew Waller',
@@ -2681,7 +2414,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'American Pie Presents: The Naked Mile',
     director: 'Joe Nussbaum',
@@ -2691,7 +2423,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'American Pie Presents: Band Camp',
     director: 'Steve Rash',
@@ -2701,7 +2432,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'American Pie Presents: The Book of Love',
     director: 'John Putch',
@@ -2711,7 +2441,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Someone, Somewhere',
     director: 'Cédric Klapisch',
@@ -2721,7 +2450,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Frankenstein',
     director: 'Guillermo del Toro',
@@ -2731,7 +2459,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Wicked',
     director: 'Jon M. Chu',
@@ -2741,7 +2468,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Morbius',
     director: 'Daniel Espinosa',
@@ -2751,7 +2477,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'West Side Story',
     director: 'Steven Spielberg',
@@ -2761,7 +2486,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Old',
     director: 'M. Night Shyamalan',
@@ -2771,7 +2495,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Luca',
     director: 'Enrico Casarosa',
@@ -2781,7 +2504,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'The Gentlemen',
     director: 'Guy Ritchie',
@@ -2791,7 +2513,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'The King',
     director: 'David Michôd',
@@ -2801,7 +2522,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'BlacKkKlansman',
     director: 'Spike Lee',
@@ -2811,7 +2531,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'The Lego Movie',
     director: 'Phil Lord, Christopher Miller',
@@ -2821,7 +2540,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Snowpiercer',
     director: 'Bong Joon-ho',
@@ -2831,7 +2549,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Ted',
     director: 'Seth MacFarlane',
@@ -2841,7 +2558,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Kung Fu Panda 2',
     director: 'Jennifer Yuh Nelson',
@@ -2851,7 +2567,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Rio',
     director: 'Carlos Saldanha',
@@ -2861,7 +2576,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Sherlock Holmes',
     director: 'Guy Ritchie',
@@ -2871,7 +2585,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Là-haut',
     director: 'Pete Docter, Bob Peterson',
@@ -2881,7 +2594,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Mamma Mia!',
     director: 'Phyllida Lloyd',
@@ -2891,7 +2603,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Alvin et les Chipmunks',
     director: 'Tim Hill',
@@ -2901,7 +2612,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Stardust',
     director: 'Matthew Vaughn',
@@ -2911,7 +2621,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Madagascar',
     director: 'Eric Darnell, Tom McGrath',
@@ -2921,7 +2630,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Troy',
     director: 'Wolfgang Petersen',
@@ -2931,7 +2639,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Big Fish',
     director: 'Tim Burton',
@@ -2941,7 +2648,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: '8 Mile',
     director: 'Curtis Hanson',
@@ -2951,7 +2657,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Insomnia',
     director: 'Christopher Nolan',
@@ -2961,7 +2666,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Le Voyage de Chihiro',
     director: 'Hayao Miyazaki',
@@ -2971,7 +2675,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Sleepy Hollow',
     director: 'Tim Burton',
@@ -2981,7 +2684,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Fight Club',
     director: 'David Fincher',
@@ -2991,7 +2693,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Mon voisin Totoro',
     director: 'Hayao Miyazaki',
@@ -3001,7 +2702,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Beetlejuice',
     director: 'Tim Burton',
@@ -3011,7 +2711,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Le Château dans le ciel',
     director: 'Hayao Miyazaki',
@@ -3021,7 +2720,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Gremlins',
     director: 'Joe Dante',
@@ -3031,7 +2729,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'West Side Story',
     director: 'Robert Wise, Jerome Robbins',
@@ -3041,7 +2738,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Cinq nuits chez Freddy 2',
     rating: 2,
@@ -3051,7 +2747,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Emma Tammi',
   },
-
   {
     title: 'Ballerina',
     rating: 3.5,
@@ -3061,7 +2756,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Len Wiseman',
   },
-
   {
     title: 'Destination Finale : Bloodlines',
     rating: 2.5,
@@ -3071,7 +2765,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Zach Lipovsky, Adam B. Stein',
   },
-
   {
     title: 'Astérix et Obélix : Le Combat des chefs',
     rating: 3.5,
@@ -3081,7 +2774,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Alain Chabat, Fabrice Joubert',
   },
-
   {
     title: 'Until Dawn : La mort sans fin',
     rating: 2.5,
@@ -3091,7 +2783,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'David F. Sandberg',
   },
-
   {
     title: 'Gladiator II',
     rating: 3,
@@ -3101,7 +2792,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Ridley Scott',
   },
-
   {
     title: 'Le Robot sauvage',
     rating: 4,
@@ -3111,7 +2801,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Chris Sanders',
   },
-
   {
     title: 'Anora',
     rating: 3.5,
@@ -3121,7 +2810,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Sean Baker',
   },
-
   {
     title: 'The Substance',
     rating: 3.5,
@@ -3131,7 +2819,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Coralie Fargeat',
   },
-
   {
     title: 'The Marching Band',
     rating: 4,
@@ -3141,7 +2828,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Emmanuel Courcol',
   },
-
   {
     title: 'Emilia Pérez',
     rating: 4,
@@ -3151,7 +2837,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Jacques Audiard',
   },
-
   {
     title: 'Megalopolis',
     rating: 1,
@@ -3161,7 +2846,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Francis Ford Coppola',
   },
-
   {
     title: 'Rebel Moon – Part Two: The Scargiver',
     rating: 2.5,
@@ -3171,7 +2855,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Zack Snyder',
   },
-
   {
     title: 'Godzilla × Kong: The New Empire',
     rating: 2.5,
@@ -3181,7 +2864,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Adam Wingard',
   },
-
   {
     title: 'Madame Web',
     rating: 2,
@@ -3191,7 +2873,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'S.J. Clarkson',
   },
-
   {
     title: 'Argylle',
     rating: 2,
@@ -3201,7 +2882,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Matthew Vaughn',
   },
-
   {
     title: 'Rebel Moon - Partie 1 : Enfant du feu',
     rating: 3,
@@ -3211,7 +2891,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Zack Snyder',
   },
-
   {
     title: 'Les Trois Mousquetaires : Milady',
     rating: 3.5,
@@ -3221,7 +2900,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Martin Bourboulon',
   },
-
   {
     title: 'Wish : Asha et la Bonne Étoile',
     rating: 2,
@@ -3231,7 +2909,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Chris Buck, Fawn Veerasunthorn',
   },
-
   {
     title: "Hunger Games : La Ballade du serpent et de l'oiseau chanteur",
     rating: 3.5,
@@ -3241,7 +2918,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Francis Lawrence',
   },
-
   {
     title: 'Pauvres Créatures',
     rating: 2.5,
@@ -3251,7 +2927,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Yórgos Lánthimos',
   },
-
   {
     title: 'The Equalizer 3',
     rating: 3,
@@ -3261,7 +2936,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Antoine Fuqua',
   },
-
   {
     title: 'Teenage Mutant Ninja Turtles: Mutant Mayhem',
     rating: 3.5,
@@ -3271,7 +2945,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Jeff Rowe, Kyler Spears',
   },
-
   {
     title: 'Yannick',
     rating: 3.5,
@@ -3281,7 +2954,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Quentin Dupieux',
   },
-
   {
     title: 'Insidious: The Red Door',
     rating: 3,
@@ -3291,7 +2963,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Patrick Wilson',
   },
-
   {
     title: 'Nimona',
     rating: 3.5,
@@ -3301,7 +2972,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Nick Bruno, Troy Quane',
   },
-
   {
     title: 'Extraction 2',
     rating: 3.5,
@@ -3311,7 +2981,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Sam Hargrave',
   },
-
   {
     title: 'Mon crime',
     rating: 1,
@@ -3321,7 +2990,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'François Ozon',
   },
-
   {
     title: 'Transformers: Rise of the Beasts',
     rating: 3,
@@ -3331,7 +2999,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Steven Caple Jr.',
   },
-
   {
     title: 'Killers of the Flower Moon',
     rating: 3.5,
@@ -3341,7 +3008,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Martin Scorsese',
   },
-
   {
     title: "The Three Musketeers: D'Artagnan",
     rating: 3.5,
@@ -3351,7 +3017,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Martin Bourboulon',
   },
-
   {
     title: 'Shazam! La Rage des Dieux',
     rating: 2,
@@ -3361,7 +3026,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'David F. Sandberg',
   },
-
   {
     title: 'Knock at the Cabin',
     rating: 3,
@@ -3371,7 +3035,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'M. Night Shyamalan',
   },
-
   {
     title: "Past Lives – Nos vies d'avant",
     rating: 3,
@@ -3381,7 +3044,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Celine Song',
   },
-
   {
     title: 'Alibi.com 2',
     rating: 3,
@@ -3391,7 +3053,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Philippe Lacheau',
   },
-
   {
     title: 'Slumberland',
     rating: 3,
@@ -3401,7 +3062,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Francis Lawrence',
   },
-
   {
     title: 'Star Wars: Tales of the Jedi',
     rating: 3.5,
@@ -3411,7 +3071,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Dave Filoni, Charles Murray',
   },
-
   {
     title: 'Werewolf by Night',
     rating: 3.5,
@@ -3421,7 +3080,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Michael Giacchino',
   },
-
   {
     title: 'The Fabelmans',
     rating: 4,
@@ -3431,7 +3089,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Steven Spielberg',
   },
-
   {
     title: 'The Whale',
     rating: 4,
@@ -3441,7 +3098,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Darren Aronofsky',
   },
-
   {
     title: 'Krypto et les Super-Animaux',
     rating: 2.5,
@@ -3451,7 +3107,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Jared Stern, Sam Levine',
   },
-
   {
     title: 'One Piece Film: Red',
     rating: 3,
@@ -3461,7 +3116,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Gorō Taniguchi',
   },
-
   {
     title: 'The Princess',
     rating: 2.5,
@@ -3471,7 +3125,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Le-Van Kiet',
   },
-
   {
     title: 'Le Visiteur du Futur',
     rating: 3,
@@ -3481,7 +3134,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'François Descraques',
   },
-
   {
     title: "Jurassic World : Le Monde d'après",
     rating: 3.5,
@@ -3491,7 +3143,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Colin Trevorrow',
   },
-
   {
     title: 'Ténor',
     rating: 3.5,
@@ -3501,7 +3152,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Claude Zidi Jr.',
   },
-
   {
     title: 'Ambulance',
     rating: 3,
@@ -3511,7 +3161,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Michael Bay',
   },
-
   {
     title: 'The Lost City',
     rating: 2.5,
@@ -3521,7 +3170,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Aaron Nee, Adam Nee',
   },
-
   {
     title: 'The Matrix Resurrections',
     rating: 1.5,
@@ -3531,7 +3179,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Lana Wachowski',
   },
-
   {
     title: 'tick, tick... BOOM!',
     rating: 4.5,
@@ -3541,7 +3188,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Lin-Manuel Miranda',
   },
-
   {
     title: 'Army of Thieves',
     rating: 2.5,
@@ -3551,7 +3197,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Matthias Schweighöfer',
   },
-
   {
     title: 'The Last Duel',
     rating: 3.5,
@@ -3561,7 +3206,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Ridley Scott',
   },
-
   {
     title: 'The Stronghold',
     rating: 4,
@@ -3571,7 +3215,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Cédric Jimenez',
   },
-
   {
     title: 'The Trip',
     rating: 2.5,
@@ -3581,7 +3224,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Tommy Wirkola',
   },
-
   {
     title: 'The Suicide Squad',
     rating: 3.5,
@@ -3591,7 +3233,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'James Gunn',
   },
-
   {
     title: 'Space Jam : Nouvelle Ère',
     rating: 1.5,
@@ -3601,7 +3242,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Malcolm D. Lee',
   },
-
   {
     title: 'Un papa hors pair',
     rating: 3.5,
@@ -3611,7 +3251,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Paul Weitz',
   },
-
   {
     title: 'Hitman & Bodyguard 2',
     rating: 2.5,
@@ -3621,7 +3260,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Patrick Hughes',
   },
-
   {
     title: 'Un homme en colère',
     rating: 3.5,
@@ -3631,7 +3269,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Guy Ritchie',
   },
-
   {
     title: 'Godzilla vs. Kong',
     rating: 3,
@@ -3641,7 +3278,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Adam Wingard',
   },
-
   {
     title: 'Boîte noire',
     rating: 4,
@@ -3651,7 +3287,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Yann Gozlan',
   },
-
   {
     title: 'Malcolm & Marie',
     rating: 3,
@@ -3661,7 +3296,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Sam Levinson',
   },
-
   {
     title: 'The Little Things',
     rating: 3,
@@ -3671,7 +3305,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'John Lee Hancock',
   },
-
   {
     title: 'Soul',
     rating: 3,
@@ -3681,7 +3314,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Pete Docter, Kemp Powers',
   },
-
   {
     title: 'Lost Bullet',
     rating: 3.5,
@@ -3691,7 +3323,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Guillaume Pierret',
   },
-
   {
     title: 'Da 5 Bloods : Frères de sang',
     rating: 3,
@@ -3701,7 +3332,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Spike Lee',
   },
-
   {
     title: 'Extraction',
     rating: 3,
@@ -3711,7 +3341,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Sam Hargrave',
   },
-
   {
     title: 'Les Nouveaux Mutants',
     rating: 3,
@@ -3721,7 +3350,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Josh Boone',
   },
-
   {
     title: 'Sans un bruit 2',
     rating: 3,
@@ -3731,7 +3359,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'John Krasinski',
   },
-
   {
     title: 'Bloodshot',
     rating: 2,
@@ -3741,7 +3368,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Dave Wilson',
   },
-
   {
     title: 'The Invisible Man',
     rating: 3,
@@ -3751,7 +3377,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Leigh Whannell',
   },
-
   {
     title: 'En avant',
     rating: 3,
@@ -3761,7 +3386,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Dan Scanlon',
   },
-
   {
     title: 'Bad Boys for Life',
     rating: 2.5,
@@ -3771,7 +3395,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Adil El Arbi, Bilall Fallah',
   },
-
   {
     title: 'Zombieland: Double Tap',
     rating: 3,
@@ -3781,7 +3404,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Ruben Fleischer',
   },
-
   {
     title: 'Gemini Man',
     rating: 3,
@@ -3791,7 +3413,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Ang Lee',
   },
-
   {
     title: 'Le Mans 66',
     rating: 3.5,
@@ -3801,7 +3422,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'James Mangold',
   },
-
   {
     title: 'Marriage Story',
     rating: 3,
@@ -3811,7 +3431,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Noah Baumbach',
   },
-
   {
     title: 'Play',
     rating: 3.5,
@@ -3821,7 +3440,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Anthony Marciano',
   },
-
   {
     title: 'It Chapter Two',
     rating: 3,
@@ -3831,7 +3449,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Andy Muschietti',
   },
-
   {
     title: 'Toy Story 4',
     rating: 4,
@@ -3841,7 +3458,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Josh Cooley',
   },
-
   {
     title: 'The Specials',
     rating: 3.5,
@@ -3851,7 +3467,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Éric Toledano, Olivier Nakache',
   },
-
   {
     title: 'Yesterday',
     rating: 3,
@@ -3861,7 +3476,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Danny Boyle',
   },
-
   {
     title: 'Tolkien',
     rating: 2.5,
@@ -3871,7 +3485,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Dome Karukoski',
   },
-
   {
     title: 'Hellboy',
     rating: 3,
@@ -3881,7 +3494,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Neil Marshall',
   },
-
   {
     title: 'Bumblebee',
     rating: 2.5,
@@ -3891,7 +3503,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Travis Knight',
   },
-
   {
     title: 'The Meg',
     rating: 2,
@@ -3901,7 +3512,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Jon Turteltaub',
   },
-
   {
     title: 'Skyscraper',
     rating: 2,
@@ -3911,7 +3521,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Rawson Marshall Thurber',
   },
-
   {
     title: 'Astérix : Le Secret de la potion magique',
     rating: 3.5,
@@ -3921,7 +3530,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Louis Clichy, Alexandre Astier',
   },
-
   {
     title: 'Pacific Rim: Uprising',
     rating: 3,
@@ -3931,7 +3539,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Steven S. DeKnight',
   },
-
   {
     title: 'Justice League',
     rating: 1,
@@ -3941,7 +3548,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Zack Snyder',
   },
-
   {
     title: 'Blade Runner 2049',
     rating: 3.5,
@@ -3951,7 +3557,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Denis Villeneuve',
   },
-
   {
     title: 'Lady Bird',
     rating: 3.5,
@@ -3961,7 +3566,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Greta Gerwig',
   },
-
   {
     title: 'La Colle',
     rating: 2,
@@ -3971,7 +3575,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Alexandre Castagnetti',
   },
-
   {
     title: 'American Assassin',
     rating: 3.5,
@@ -3981,7 +3584,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Michael Cuesta',
   },
-
   {
     title: 'Transformers: The Last Knight',
     rating: 2.5,
@@ -3991,7 +3593,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Michael Bay',
   },
-
   {
     title: 'Good Time',
     rating: 3,
@@ -4001,7 +3602,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Josh Safdie, Benny Safdie',
   },
-
   {
     title: 'Power Rangers',
     rating: 2.5,
@@ -4011,7 +3611,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Dean Israelite',
   },
-
   {
     title: 'Get Out',
     rating: 3.5,
@@ -4021,7 +3620,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Jordan Peele',
   },
-
   {
     title: 'Call Me by Your Name',
     rating: 3.5,
@@ -4031,7 +3629,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Luca Guadagnino',
   },
-
   {
     title: 'Alibi.com',
     rating: 3,
@@ -4041,7 +3638,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Philippe Lacheau',
   },
-
   {
     title: 'Sing',
     rating: 3,
@@ -4051,7 +3647,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Garth Jennings',
   },
-
   {
     title: 'War Dogs',
     rating: 3.5,
@@ -4061,7 +3656,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Todd Phillips',
   },
-
   {
     title: 'The Nice Guys',
     rating: 4,
@@ -4071,7 +3665,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Shane Black',
   },
-
   {
     title: 'Kung Fu Panda 3',
     rating: 3,
@@ -4081,7 +3674,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Jennifer Yuh Nelson, Alessandro Carloni',
   },
-
   {
     title: 'Ip Man 3',
     rating: 2.5,
@@ -4091,7 +3683,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Wilson Yip',
   },
-
   {
     title: 'Crimson Peak',
     rating: 3,
@@ -4101,7 +3692,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Guillermo del Toro',
   },
-
   {
     title: 'Hitman: Agent 47',
     rating: 2.5,
@@ -4111,7 +3701,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Aleksander Bach',
   },
-
   {
     title: 'Sicario',
     rating: 4,
@@ -4121,7 +3710,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Denis Villeneuve',
   },
-
   {
     title: 'Maggie',
     rating: 3,
@@ -4131,7 +3719,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Henry Hobson',
   },
-
   {
     title: 'Batman vs. Robin',
     rating: 2.5,
@@ -4141,7 +3728,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Jay Oliva',
   },
-
   {
     title: 'Chappie',
     rating: 4,
@@ -4151,7 +3737,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Neill Blomkamp',
   },
-
   {
     title: 'Astérix : Le Domaine des dieux',
     rating: 3.5,
@@ -4161,7 +3746,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Louis Clichy, Alexandre Astier',
   },
-
   {
     title: 'Horrible Bosses 2',
     rating: 3.5,
@@ -4171,7 +3755,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Sean Anders',
   },
-
   {
     title: 'Fury',
     rating: 4,
@@ -4181,7 +3764,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'David Ayer',
   },
-
   {
     title: '22 Jump Street',
     rating: 4,
@@ -4191,7 +3773,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Phil Lord, Chris Miller',
   },
-
   {
     title: 'The Grand Budapest Hotel',
     rating: 1,
@@ -4201,7 +3782,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Wes Anderson',
   },
-
   {
     title: 'The Monuments Men',
     rating: 3,
@@ -4211,7 +3791,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'George Clooney',
   },
-
   {
     title: 'Whiplash',
     rating: 4,
@@ -4221,7 +3800,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Damien Chazelle',
   },
-
   {
     title: 'Paranormal Activity: The Marked Ones',
     rating: 3,
@@ -4231,7 +3809,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Christopher Landon',
   },
-
   {
     title: 'Her',
     rating: 4,
@@ -4241,7 +3818,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Spike Jonze',
   },
-
   {
     title: 'Dallas Buyers Club',
     rating: 3.5,
@@ -4251,7 +3827,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Jean-Marc Vallée',
   },
-
   {
     title: 'Escape Plan',
     rating: 2,
@@ -4261,7 +3836,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Mikael Håfström',
   },
-
   {
     title: 'Star Trek Into Darkness',
     rating: 3.5,
@@ -4271,7 +3845,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'J.J. Abrams',
   },
-
   {
     title: 'Dragon Ball Z: Battle of Gods',
     rating: 2,
@@ -4281,7 +3854,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Masahiro Hosoda',
   },
-
   {
     title: 'Evil Dead',
     rating: 3,
@@ -4291,7 +3863,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Fede Álvarez',
   },
-
   {
     title: 'Jobs',
     rating: 2.5,
@@ -4301,7 +3872,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Joshua Michael Stern',
   },
-
   {
     title: 'Hansel & Gretel : Witch Hunters',
     rating: 3,
@@ -4311,7 +3881,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Tommy Wirkola',
   },
-
   {
     title: 'Gangster Squad',
     rating: 3.5,
@@ -4321,7 +3890,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Ruben Fleischer',
   },
-
   {
     title: 'Batman: The Dark Knight Returns, Part 2',
     rating: 3.5,
@@ -4331,7 +3899,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Jay Oliva',
   },
-
   {
     title: 'Astérix et Obélix : Au service de Sa Majesté',
     rating: 1.5,
@@ -4341,7 +3908,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Laurent Tirard',
   },
-
   {
     title: 'Paranormal Activity 4',
     rating: 3,
@@ -4351,7 +3917,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Henry Joost, Ariel Schulman',
   },
-
   {
     title: 'Seven Psychopaths',
     rating: 3,
@@ -4361,7 +3926,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Martin McDonagh',
   },
-
   {
     title: 'Batman: The Dark Knight Returns, Part 1',
     rating: 3.5,
@@ -4371,7 +3935,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Jay Oliva',
   },
-
   {
     title: 'Magic Mike',
     rating: 3.5,
@@ -4381,7 +3944,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Steven Soderbergh',
   },
-
   {
     title: 'Battleship',
     rating: 3,
@@ -4391,7 +3953,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Peter Berg',
   },
-
   {
     title: 'American Reunion',
     rating: 2.5,
@@ -4401,7 +3962,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Jon Hurwitz, Hayden Schlossberg',
   },
-
   {
     title: 'Sinister',
     rating: 3,
@@ -4411,7 +3971,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Scott Derrickson',
   },
-
   {
     title: 'Paranormal Activity 3',
     rating: 3.5,
@@ -4421,7 +3980,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Henry Joost, Ariel Schulman',
   },
-
   {
     title: 'Batman: Year One',
     rating: 2.5,
@@ -4431,7 +3989,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Sam Liu, Lauren Montgomery',
   },
-
   {
     title: 'Bad Teacher',
     rating: 2.5,
@@ -4441,7 +3998,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Jake Kasdan',
   },
-
   {
     title: 'Paranormal Activity 2',
     rating: 3,
@@ -4451,7 +4007,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Tod Williams',
   },
-
   {
     title: 'Incendies',
     rating: 3.5,
@@ -4461,7 +4016,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Denis Villeneuve',
   },
-
   {
     title: 'Piranha 3D',
     rating: 2,
@@ -4471,7 +4025,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Alexandre Aja',
   },
-
   {
     title: 'Scott Pilgrim',
     rating: 3,
@@ -4481,7 +4034,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Edgar Wright',
   },
-
   {
     title: 'One Piece Film: Strong World',
     rating: 3.5,
@@ -4491,7 +4043,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Munehisa Sakai',
   },
-
   {
     title: 'Saw VI',
     rating: 2,
@@ -4501,7 +4052,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Kevin Greutert',
   },
-
   {
     title: 'Coco',
     rating: 1,
@@ -4511,7 +4061,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Lee Unkrich',
   },
-
   {
     title: 'Là-haut',
     rating: 3,
@@ -4521,7 +4070,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Pete Docter',
   },
-
   {
     title: 'Star Trek',
     rating: 4,
@@ -4531,7 +4079,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'J.J. Abrams',
   },
-
   {
     title: 'Ip Man',
     rating: 3.5,
@@ -4541,7 +4088,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Wilson Yip',
   },
-
   {
     title: 'Saw V',
     rating: 2,
@@ -4551,7 +4097,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'David Hackl',
   },
-
   {
     title: 'Hitman',
     rating: 2.5,
@@ -4561,7 +4106,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Xavier Gens',
   },
-
   {
     title: 'Saw IV',
     rating: 2,
@@ -4571,7 +4115,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Darren Lynn Bousman',
   },
-
   {
     title: 'Funny Games U.S.',
     rating: 2.5,
@@ -4581,7 +4124,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Michael Haneke',
   },
-
   {
     title: '[REC]',
     rating: 3.5,
@@ -4591,7 +4133,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Jaume Balagueró, Paco Plaza',
   },
-
   {
     title: 'High School Musical 2',
     rating: 1,
@@ -4601,7 +4142,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Kenny Ortega',
   },
-
   {
     title: 'Sunshine',
     rating: 3,
@@ -4611,7 +4151,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Danny Boyle',
   },
-
   {
     title: 'TMNT : Les Tortues Ninja',
     rating: 3,
@@ -4621,7 +4160,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Kevin Munroe',
   },
-
   {
     title: 'Hot Fuzz',
     rating: 3.5,
@@ -4631,7 +4169,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Edgar Wright',
   },
-
   {
     title: 'Eragon',
     rating: 2.5,
@@ -4641,7 +4178,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Stefen Fangmeier',
   },
-
   {
     title: 'Saw III',
     rating: 3,
@@ -4651,7 +4187,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Darren Lynn Bousman',
   },
-
   {
     title: 'Nos jours heureux',
     rating: 3.5,
@@ -4661,7 +4196,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Éric Toledano, Olivier Nakache',
   },
-
   {
     title: 'Astérix et les Vikings',
     rating: 3,
@@ -4671,7 +4205,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Stefan Fjeldmark, Jesper Møller',
   },
-
   {
     title: 'Little Miss Sunshine',
     rating: 4,
@@ -4681,7 +4214,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Jonathan Dayton, Valerie Faris',
   },
-
   {
     title: 'Saw II',
     rating: 3,
@@ -4691,7 +4223,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Darren Lynn Bousman',
   },
-
   {
     title: 'Le Secret de Brokeback Mountain',
     rating: 3.5,
@@ -4701,7 +4232,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Ang Lee',
   },
-
   {
     title: 'Kiss Kiss Bang Bang',
     rating: 2,
@@ -4711,7 +4241,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Shane Black',
   },
-
   {
     title: 'Le Château ambulant',
     rating: 3.5,
@@ -4721,7 +4250,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Hayao Miyazaki',
   },
-
   {
     title: 'Les Choristes',
     rating: 3.5,
@@ -4731,7 +4259,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Christophe Barratier',
   },
-
   {
     title: 'Lost in Translation',
     rating: 3.5,
@@ -4741,7 +4268,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Sofia Coppola',
   },
-
   {
     title: 'Mystic River',
     rating: 3.5,
@@ -4751,7 +4277,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Clint Eastwood',
   },
-
   {
     title: 'Identity',
     rating: 3,
@@ -4761,7 +4286,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'James Mangold',
   },
-
   {
     title: 'Gangs of New York',
     rating: 4,
@@ -4771,7 +4295,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Martin Scorsese',
   },
-
   {
     title: 'Hero',
     rating: 3,
@@ -4781,7 +4304,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Zhang Yimou',
   },
-
   {
     title: 'Zoolander',
     rating: 3.5,
@@ -4791,7 +4313,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Ben Stiller',
   },
-
   {
     title: 'Hannibal',
     rating: 3,
@@ -4801,7 +4322,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Ridley Scott',
   },
-
   {
     title: 'Le Pacte des loups',
     rating: 2.5,
@@ -4811,7 +4331,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Christophe Gans',
   },
-
   {
     title: 'Donnie Darko',
     rating: 3.5,
@@ -4821,7 +4340,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Richard Kelly',
   },
-
   {
     title: "Kuzco, l'empereur mégalo",
     rating: 4,
@@ -4831,7 +4349,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Mark Dindal',
   },
-
   {
     title: 'Erin Brockovich, seule contre tous',
     rating: 3,
@@ -4841,7 +4358,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Steven Soderbergh',
   },
-
   {
     title: 'American Psycho',
     rating: 2.5,
@@ -4851,7 +4367,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Mary Harron',
   },
-
   {
     title: 'American History X',
     rating: 4,
@@ -4861,7 +4376,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Tony Kaye',
   },
-
   {
     title: 'The Game',
     rating: 2,
@@ -4871,7 +4385,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'David Fincher',
   },
-
   {
     title: 'George de la jungle',
     rating: 3,
@@ -4881,7 +4394,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Sam Weisman',
   },
-
   {
     title: 'Heat',
     rating: 3.5,
@@ -4891,7 +4403,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Michael Mann',
   },
-
   {
     title: 'The Crow',
     rating: 3.5,
@@ -4901,7 +4412,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Alex Proyas',
   },
-
   {
     title: 'Dragon Ball Z: Bojack Unbound',
     rating: 3,
@@ -4911,7 +4421,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Yoshihiro Ueda',
   },
-
   {
     title: 'Sister Act',
     rating: 2.5,
@@ -4921,7 +4430,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Emile Ardolino',
   },
-
   {
     title: 'Thelma et Louise',
     rating: 4,
@@ -4931,7 +4439,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Ridley Scott',
   },
-
   {
     title: 'Dragon Ball Z: The Tree of Might',
     rating: 3,
@@ -4941,7 +4448,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Daisuke Nishio',
   },
-
   {
     title: 'Rain Man',
     rating: 4,
@@ -4951,7 +4457,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Barry Levinson',
   },
-
   {
     title: 'Akira',
     rating: 2.5,
@@ -4961,7 +4466,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Katsuhiro Ōtomo',
   },
-
   {
     title: 'Big',
     rating: 2.5,
@@ -4971,7 +4475,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Penny Marshall',
   },
-
   {
     title: 'Willow',
     rating: 3,
@@ -4981,7 +4484,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Ron Howard',
   },
-
   {
     title: 'Full Metal Jacket',
     rating: 3,
@@ -4991,7 +4493,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Stanley Kubrick',
   },
-
   {
     title: 'Evil Dead II',
     rating: 2.5,
@@ -5001,7 +4502,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Sam Raimi',
   },
-
   {
     title: 'Stand by Me',
     rating: 3.5,
@@ -5011,7 +4511,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Rob Reiner',
   },
-
   {
     title: 'La Folle Journée de Ferris Bueller',
     rating: 3.5,
@@ -5021,7 +4520,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'John Hughes',
   },
-
   {
     title: 'Top Gun',
     rating: 3.5,
@@ -5031,7 +4529,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Tony Scott',
   },
-
   {
     title: 'Les Goonies',
     rating: 3.5,
@@ -5041,7 +4538,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Richard Donner',
   },
-
   {
     title: 'Amadeus',
     rating: 3,
@@ -5051,7 +4547,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Miloš Forman',
   },
-
   {
     title: 'Risky Business',
     rating: 2.5,
@@ -5061,7 +4556,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Paul Brickman',
   },
-
   {
     title: 'Conan le Barbare',
     rating: 2.5,
@@ -5071,7 +4565,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'John Milius',
   },
-
   {
     title: 'Evil Dead',
     rating: 3,
@@ -5081,7 +4574,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Sam Raimi',
   },
-
   {
     title: "Il était une fois dans l'Ouest",
     rating: 4,
@@ -5091,7 +4583,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Sergio Leone',
   },
-
   {
     title: 'Astérix et Cléopâtre',
     rating: 3,
@@ -5101,7 +4592,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'René Goscinny, Albert Uderzo',
   },
-
   {
     title: 'Casablanca',
     rating: 3.5,
@@ -5111,7 +4601,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Michael Curtiz',
   },
-
   {
     title: 'Le haut du panier',
     director: 'Jeremiah Zagar',
@@ -5121,7 +4610,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Premier contact',
     director: 'Denis Villeneuve',
@@ -5131,7 +4619,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Le silence des agneaux',
     director: 'Jonathan Demme',
@@ -5141,7 +4628,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Le chant du loup',
     director: 'Antonin Baudry',
@@ -5151,7 +4637,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Les aventures de Rabbi Jacob',
     director: 'Gérard Oury',
@@ -5161,7 +4646,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'La Folie des grandeurs',
     director: 'Gérard Oury',
@@ -5171,7 +4655,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: '12 hommes en colère',
     director: 'Sidney Lumet',
@@ -5181,7 +4664,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Les 11 commandements',
     director: 'François Desagnat, Thomas Sorriaux',
@@ -5191,7 +4673,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Attrape-moi si tu peux',
     director: 'Steven Spielberg',
@@ -5201,7 +4682,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'La Ligne Verte',
     director: 'Frank Darabont',
@@ -5211,7 +4691,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'La tour Montparnasse infernale',
     director: 'Charles Nemes',
@@ -5221,7 +4700,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Over the Top : Le bras de fer',
     director: 'Menahem Golan',
@@ -5231,7 +4709,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Karate Kid',
     director: 'John G. Avildsen',
@@ -5241,7 +4718,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'À la Recherche du Bonheur',
     director: 'Gabriele Muccino',
@@ -5251,7 +4727,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Blood Diamond',
     director: 'Edward Zwick',
@@ -5261,7 +4736,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Le Prestige',
     director: 'Christopher Nolan',
@@ -5271,7 +4745,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Admis à tout prix',
     director: 'Steve Pink',
@@ -5281,7 +4754,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Nos Jours heureux',
     director: 'Claude Zidi Jr.',
@@ -5291,7 +4763,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Da Vinci Code',
     director: 'Ron Howard',
@@ -5301,7 +4772,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: '40 Ans, Toujours Puceau',
     director: 'Judd Apatow',
@@ -5311,7 +4781,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Charlie et la Chocolaterie',
     director: 'Tim Burton',
@@ -5321,7 +4790,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Le Dîner de Cons',
     director: 'Francis Veber',
@@ -5331,7 +4799,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Will Hunting',
     director: 'Gus Van Sant',
@@ -5341,7 +4808,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Le Loup de Wall Street',
     director: 'Martin Scorsese',
@@ -5351,7 +4817,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'La Vie Rêvée de Walter Mitty',
     director: 'Ben Stiller',
@@ -5361,7 +4826,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'The Conjuring : Les Dossiers Warren',
     director: 'James Wan',
@@ -5371,7 +4835,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'No pain no gain',
     director: 'Michael Bay',
@@ -5381,7 +4844,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Time Out',
     director: 'Andrew Niccol',
@@ -5391,7 +4853,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Qui veut la peau de Roger Rabbit',
     director: 'Robert Zemeckis',
@@ -5401,7 +4862,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Voyage au Centre de la Terre',
     director: 'Eric Brevig',
@@ -5411,7 +4871,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Je Suis une Légende',
     director: 'Francis Lawrence',
@@ -5421,7 +4880,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Supergrave',
     director: 'Greg Mottola',
@@ -5431,7 +4889,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Premonition',
     director: 'Mennan Yapo',
@@ -5441,7 +4898,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Seven',
     director: 'David Fincher',
@@ -5451,7 +4907,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Comment tuer son boss',
     director: 'Seth Gordon',
@@ -5461,7 +4916,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'The Artist',
     director: 'Michel Hazanavicius',
@@ -5471,7 +4925,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Percy Jackson : Le Voleur de Foudre',
     director: 'Chris Columbus',
@@ -5481,7 +4934,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Le Manoir hanté et les 999 Fantômes',
     director: 'Rob Minkoff',
@@ -5491,7 +4943,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Hook ou la Revanche du capitaine Crochet',
     director: 'Steven Spielberg',
@@ -5501,7 +4952,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Fourmiz',
     director: 'Eric Darnell, Tim Johnson',
@@ -5511,7 +4961,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Eh mec, elle est où ma caisse ?',
     director: 'Frédéric Forestier',
@@ -5521,7 +4970,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Amour et turbulences',
     director: 'Alexandre Castagnetti',
@@ -5531,7 +4979,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'From Paris with Love',
     director: 'Pierre Morel',
@@ -5541,7 +4988,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Seul au monde',
     director: 'Robert Zemeckis',
@@ -5551,7 +4997,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Fighting',
     director: 'Dito Montiel',
@@ -5561,7 +5006,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Ali G',
     director: 'Mark Mylod',
@@ -5571,7 +5015,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Pas un bruit',
     director: 'Mike Flanagan',
@@ -5581,7 +5024,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Adam à travers le temps',
     director: 'Shawn Levy',
@@ -5591,7 +5033,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Deux moi',
     director: 'Cédric Klapisch',
@@ -5601,7 +5042,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Watchmen : Les Gardiens',
     director: 'Zack Snyder',
@@ -5611,7 +5051,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'X-men 2',
     director: 'Bryan Singer',
@@ -5621,7 +5060,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'X-Men Origins : Wolverine',
     director: 'Gavin Hood',
@@ -5631,7 +5069,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Venom : Let There Be Carnage',
     director: 'Andy Serkis',
@@ -5641,7 +5078,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Mon inconnue',
     director: 'Hugo Gélin',
@@ -5651,7 +5087,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Un jour',
     director: 'Lone Scherfig',
@@ -5661,7 +5096,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Sexy Dance 3D',
     director: 'Jon M. Chu',
@@ -5671,7 +5105,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'La proposition',
     director: 'Anne Fletcher',
@@ -5681,7 +5114,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: '17 ans encore',
     director: 'Burr Steers',
@@ -5691,7 +5123,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Ce que Veulent les Femmes',
     director: 'Nancy Meyers',
@@ -5701,7 +5132,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Arthur et la Vengeance de Maltazard',
     director: 'Luc Besson',
@@ -5711,7 +5141,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'WALL-E',
     director: 'Andrew Stanton',
@@ -5721,7 +5150,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Shrek le Troisième',
     director: 'Chris Miller',
@@ -5731,7 +5159,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Shrek 4 : Il Était une Fois',
     director: 'Mike Mitchell',
@@ -5741,7 +5168,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Star Wars : Épisode 1 - La menace fantôme',
     director: 'George Lucas',
@@ -5751,7 +5177,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Star Wars : Episode 4 - Un nouvel espoir',
     director: 'George Lucas',
@@ -5761,7 +5186,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Star Wars : Episode 6 - Le retour du Jedi',
     director: 'Richard Marquand',
@@ -5771,7 +5195,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Fast and Furious',
     director: 'Rob Cohen',
@@ -5781,7 +5204,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Fast and Furious : Tokyo Drift',
     director: 'Justin Lin',
@@ -5791,7 +5213,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Fast & Furious 4',
     director: 'Justin Lin',
@@ -5801,7 +5222,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Terminator Renaissance',
     director: 'McG',
@@ -5811,7 +5231,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'John Wick : Chapitre 2',
     director: 'Chad Stahelski',
@@ -5821,7 +5240,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Jack Reacher : Never Go Back',
     director: 'Edward Zwick',
@@ -5831,7 +5249,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'A couteaux tirés 2 : Glass Onion',
     director: 'Rian Johnson',
@@ -5841,7 +5258,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'James Bond : Quantum of Solace',
     director: 'Marc Forster',
@@ -5851,7 +5267,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'OSS 117 : Rio ne Répond Plus',
     director: 'Michel Hazanavicius',
@@ -5861,7 +5276,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Le Labyrinthe',
     director: 'Wes Ball',
@@ -5871,7 +5285,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Very Bad Trip',
     director: 'Todd Phillips',
@@ -5881,7 +5294,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Die Hard : Piège de cristal',
     director: 'John McTiernan',
@@ -5891,7 +5303,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Die Hard 3 : une journée en enfer',
     director: 'John McTiernan',
@@ -5901,7 +5312,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Die Hard 4 : Retour en Enfer',
     director: 'Len Wiseman',
@@ -5911,7 +5321,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Twilight : Chapitre 1 - Fascination',
     director: 'Catherine Hardwicke',
@@ -5921,7 +5330,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Underworld : Évolution',
     director: 'Len Wiseman',
@@ -5931,7 +5339,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Destination Finale',
     director: 'James Wong',
@@ -5941,7 +5348,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Pirates des Caraïbes : La malédiction du Black Pearl',
     director: 'Gore Verbinski',
@@ -5951,7 +5357,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Pirates des Caraïbes 2 : Le Secret du Coffre Maudit',
     director: 'Gore Verbinski',
@@ -5961,7 +5366,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Blade : Trinity',
     director: 'David S. Goyer',
@@ -5971,7 +5375,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Tomb Raider : le berceau de la vie',
     director: 'Jan de Bont',
@@ -5981,7 +5384,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Alien vs. Predator',
     director: 'Paul W.S. Anderson',
@@ -5991,7 +5393,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Independence Day : Resurgence',
     director: 'Roland Emmerich',
@@ -6001,7 +5402,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Retour vers le futur 2',
     director: 'Robert Zemeckis',
@@ -6011,7 +5411,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Rambo : First Blood',
     director: 'Ted Kotcheff',
@@ -6021,7 +5420,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'American Pie 3 : Marions-les',
     director: 'Jesse Dylan',
@@ -6031,7 +5429,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'American Pie 4',
     director: 'Jon Hurwitz, Hayden Schlossberg',
@@ -6041,7 +5438,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Élémentaire',
     director: 'Peter Sohn',
@@ -6051,7 +5447,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'The Kissing Booth 2',
     director: 'Vince Marcello',
@@ -6061,7 +5456,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Rocketman',
     director: 'Dexter Fletcher',
@@ -6071,7 +5465,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Monsters University',
     director: 'Dan Scanlon',
@@ -6081,7 +5474,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Gatsby le Magnifique',
     director: 'Baz Luhrmann',
@@ -6091,7 +5483,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Hôtel Transylvanie',
     director: 'Genndy Tartakovsky',
@@ -6101,7 +5492,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'District 9',
     director: 'Neill Blomkamp',
@@ -6111,7 +5501,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Public Enemies',
     director: 'Michael Mann',
@@ -6121,7 +5510,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Bolt',
     director: 'Chris Williams, Byron Howard',
@@ -6131,7 +5519,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Madagascar 2',
     director: 'Eric Darnell, Tom McGrath',
@@ -6141,7 +5528,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Sex and the City',
     director: 'Michael Patrick King',
@@ -6151,7 +5537,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Benjamin Gates et le Trésor des Templiers',
     director: 'Jon Turteltaub',
@@ -6161,7 +5546,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Mulan 2',
     director: 'Darrell Rooney, Lynne Southerland',
@@ -6171,7 +5555,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: '30 ans sinon rien',
     director: 'Gary Winick',
@@ -6181,7 +5564,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Le Dernier Samouraï',
     director: 'Edward Zwick',
@@ -6191,7 +5573,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Frère des ours',
     director: 'Aaron Blaise, Robert Walker',
@@ -6201,7 +5582,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Mon beau-père et moi',
     director: 'Jay Roach',
@@ -6211,7 +5591,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Le Monde magique de la Belle et la Bête',
     director: 'Bob Kline',
@@ -6221,7 +5600,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Austin Powers',
     director: 'Jay Roach',
@@ -6231,7 +5609,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Les 101 Dalmatiens',
     director: 'Stephen Herek',
@@ -6241,7 +5618,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Le Bossu de Notre-Dame',
     director: 'Gary Trousdale, Kirk Wise',
@@ -6251,7 +5627,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Un jour sans fin',
     director: 'Harold Ramis',
@@ -6261,7 +5636,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Indiana Jones et la Dernière Croisade',
     director: 'Steven Spielberg',
@@ -6271,7 +5645,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Indiana Jones et le Temple maudit',
     director: 'Steven Spielberg',
@@ -6281,7 +5654,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Les 101 Dalmatiens',
     director: 'Clyde Geronimi, Hamilton Luske',
@@ -6291,7 +5663,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Pierre et le Loup',
     director: 'Clyde Geronimi',
@@ -6301,7 +5672,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Escape Game',
     rating: 2,
@@ -6311,7 +5681,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Adam Robitel',
   },
-
   {
     title: 'Mission : Impossible – Fallout',
     rating: 4.5,
@@ -6321,7 +5690,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Christopher McQuarrie',
   },
-
   {
     title: 'Ne coupez pas !',
     rating: 3,
@@ -6331,7 +5699,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: "Shin'ichirō Ueda",
   },
-
   {
     title: 'Ça',
     rating: 3.5,
@@ -6341,7 +5708,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Andy Muschietti',
   },
-
   {
     title: 'Star Trek : Sans limites',
     rating: 4,
@@ -6351,7 +5717,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Justin Lin',
   },
-
   {
     title: 'Dernier train pour Busan',
     rating: 2.5,
@@ -6361,7 +5726,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Yeon Sang-ho',
   },
-
   {
     title: 'Conjuring 2 : Le Cas Enfield',
     rating: 4,
@@ -6371,7 +5735,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'James Wan',
   },
-
   {
     title: 'Insidious : Chapitre 2',
     rating: 3,
@@ -6381,7 +5744,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'James Wan',
   },
-
   {
     title: 'New York Melody',
     rating: 4,
@@ -6391,7 +5753,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'John Carney',
   },
-
   {
     title: 'Percy Jackson : La Mer des monstres',
     rating: 2.5,
@@ -6401,7 +5762,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Thor Freudenthal',
   },
-
   {
     title: 'G.I. Joe : Conspiration',
     rating: 2.5,
@@ -6411,7 +5771,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Jon M. Chu',
   },
-
   {
     title: 'Sexy Dance 4 : Miami Heat',
     rating: 3.5,
@@ -6421,7 +5780,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Scott Speer',
   },
-
   {
     title: 'Happy New Year',
     rating: 2.5,
@@ -6431,7 +5789,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Garry Marshall',
   },
-
   {
     title: 'Mission : Impossible - Protocole Fantôme',
     rating: 3.5,
@@ -6441,7 +5798,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Brad Bird',
   },
-
   {
     title: '10 ans déjà !',
     rating: 3.5,
@@ -6451,7 +5807,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Jamie Linden',
   },
-
   {
     title: 'Saw 3D : Chapitre final',
     rating: 2.5,
@@ -6461,7 +5816,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Kevin Greutert',
   },
-
   {
     title: 'Superman/Batman : Apocalypse',
     rating: 3.5,
@@ -6471,7 +5825,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Lauren Montgomery',
   },
-
   {
     title: 'Batman et Red Hood : Sous le masque rouge',
     rating: 3,
@@ -6481,7 +5834,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Brandon Vietti',
   },
-
   {
     title: 'Ip Man 2 : Le Retour du grand maître',
     rating: 2,
@@ -6491,7 +5843,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Wilson Yip',
   },
-
   {
     title: 'Nanny McPhee et le Big Bang',
     rating: 3.5,
@@ -6501,7 +5852,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Susanna White',
   },
-
   {
     title: 'G.I. Joe : Le Réveil du Cobra',
     rating: 3,
@@ -6511,7 +5861,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Stephen Sommers',
   },
-
   {
     title: 'High School Musical 3 : Nos années lycée',
     rating: 2,
@@ -6521,7 +5870,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Kenny Ortega',
   },
-
   {
     title: 'Hannibal Lecter : Les Origines du mal',
     rating: 3,
@@ -6531,7 +5879,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Peter Webber',
   },
-
   {
     title: 'Mission : Impossible III',
     rating: 4.5,
@@ -6541,7 +5888,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'J.J. Abrams',
   },
-
   {
     title: 'Treize à la douzaine 2',
     rating: 3.5,
@@ -6551,7 +5897,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Adam Shankman',
   },
-
   {
     title: 'Gang de requins',
     rating: 3.5,
@@ -6561,7 +5906,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Vicky Jenson, Bibo Bergeron, Rob Letterman',
   },
-
   {
     title: 'Collatéral',
     rating: 3.5,
@@ -6571,7 +5915,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Michael Mann',
   },
-
   {
     title: 'Rock Academy',
     rating: 4.5,
@@ -6581,7 +5924,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Richard Linklater',
   },
-
   {
     title: 'Comment se faire larguer en dix leçons',
     rating: 2.5,
@@ -6591,7 +5933,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Donald Petrie',
   },
-
   {
     title: 'La Planète au trésor : Un nouvel univers',
     rating: 3,
@@ -6601,7 +5942,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Ron Clements, John Musker',
   },
-
   {
     title: 'Spy Kids 2 : Espions en herbe',
     rating: 2.5,
@@ -6611,7 +5951,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Robert Rodriguez',
   },
-
   {
     title: 'La Légende de Tarzan et Jane',
     rating: 2.5,
@@ -6621,7 +5960,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Steve Loter, Victor Cook',
   },
-
   {
     title: 'Le Projet Blair Witch',
     rating: 2.5,
@@ -6631,7 +5969,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Daniel Myrick, Eduardo Sánchez',
   },
-
   {
     title: 'Le Monde perdu : Jurassic Park',
     rating: 3.5,
@@ -6641,7 +5978,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Steven Spielberg',
   },
-
   {
     title: 'Mission : Impossible',
     rating: 3,
@@ -6651,7 +5987,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Brian De Palma',
   },
-
   {
     title: 'Dragon Ball Z : Fusions',
     rating: 3,
@@ -6661,7 +5996,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Shigeyasu Yamauchi',
   },
-
   {
     title: 'Dragon Ball Z : Bio-Broly',
     rating: 2.5,
@@ -6671,7 +6005,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Yoshihiro Ueda',
   },
-
   {
     title: 'Sister Act, acte 2',
     rating: 2.5,
@@ -6681,7 +6014,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Bill Duke',
   },
-
   {
     title: 'La Liste de Schindler',
     rating: 3.5,
@@ -6691,7 +6023,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Steven Spielberg',
   },
-
   {
     title: 'Dragon Ball Z : Broly le super guerrier',
     rating: 3,
@@ -6701,7 +6032,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Shigeyasu Yamauchi',
   },
-
   {
     title: 'Les Tortues Ninja 2 : Les héros sont de retour',
     rating: 3,
@@ -6711,7 +6041,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Michael Pressman',
   },
-
   {
     title: 'Dragon Ball Z : Le Robot des glaces',
     rating: 4,
@@ -6721,7 +6050,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Daisuke Nishio',
   },
-
   {
     title: 'Superman IV : Le Face-à-face',
     rating: 2.5,
@@ -6731,7 +6059,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Sidney J. Furie',
   },
-
   {
     title: 'Breakfast Club',
     rating: 2.5,
@@ -6741,7 +6068,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'John Hughes',
   },
-
   {
     title: 'Les Dents de la mer, 2ᵉ partie',
     rating: 3,
@@ -6751,7 +6077,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Jeannot Szwarc',
   },
-
   {
     title: "L'exorciste",
     director: 'William Friedkin',
@@ -6761,7 +6086,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Les temps modernes',
     director: 'Charles Chaplin',
@@ -6771,7 +6095,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "L'effet papillon",
     director: 'Eric Bress, J. Mackye Gruber',
@@ -6781,7 +6104,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: '28 jours plus tard',
     director: 'Danny Boyle',
@@ -6791,7 +6113,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "L'Avocat du Diable",
     director: 'Taylor Hackford',
@@ -6801,7 +6122,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'La guerre des mondes',
     director: 'Steven Spielberg',
@@ -6811,7 +6131,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Les Infiltrés',
     director: 'Martin Scorsese',
@@ -6821,7 +6140,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "Le Diable s'Habille en Prada",
     director: 'David Frankel',
@@ -6831,7 +6149,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'V pour Vendetta',
     director: 'James McTeigue',
@@ -6841,7 +6158,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title:
       "Le Monde de Narnia : Le Lion, la Sorcière Blanche et l'Armoire Magique",
@@ -6852,7 +6168,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'La cité de la peur',
     director: 'Alain Berbérian',
@@ -6862,7 +6177,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "Je Sais ce que Vous Avez Fait l'Été Dernier",
     director: 'Jim Gillespie',
@@ -6872,7 +6186,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Maléfique',
     director: 'Robert Stromberg',
@@ -6882,7 +6195,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Les seigneurs',
     director: 'Olivier Dahan',
@@ -6892,7 +6204,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Expendables 2',
     director: 'Simon West',
@@ -6902,7 +6213,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Le cercle des poètes disparus',
     director: 'Peter Weir',
@@ -6912,7 +6222,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Sept Vies',
     director: 'Gabriele Muccino',
@@ -6922,7 +6231,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Course à la mort',
     director: 'Paul W.S. Anderson',
@@ -6932,7 +6240,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Rien que pour vos cheveux',
     director: 'Dennis Dugan',
@@ -6942,7 +6249,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: '28 Semaines Plus Tard',
     director: 'Juan Carlos Fresnadillo',
@@ -6952,7 +6258,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Paranoïak',
     director: 'D.J. Caruso',
@@ -6962,7 +6267,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Dumb & Dumber',
     director: 'Peter Farrelly, Bobby Farrelly',
@@ -6972,7 +6276,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Expendables : Unité Spéciale',
     director: 'Sylvester Stallone',
@@ -6982,7 +6285,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Le Choc des Titans',
     director: 'Louis Leterrier',
@@ -6992,7 +6294,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Alice au Pays des Merveilles',
     director: 'Tim Burton',
@@ -7002,7 +6303,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Les visiteurs',
     director: 'Jean-Marie Poiré',
@@ -7012,7 +6312,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Cendrillon',
     director: 'Clyde Geronimi, Wilfred Jackson',
@@ -7022,7 +6321,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'La Belle au bois dormant',
     director: 'Clyde Geronimi',
@@ -7032,7 +6330,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "L'Incroyable Hulk",
     director: 'Louis Leterrier',
@@ -7042,7 +6339,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "X-Men : L'Affrontement Final",
     director: 'Brett Ratner',
@@ -7052,7 +6348,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'X-Men : Le Commencement',
     director: 'Matthew Vaughn',
@@ -7062,7 +6357,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Les 4 Fantastiques',
     director: 'Tim Story',
@@ -7072,7 +6366,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "Les 4 Fantastiques et le Surfeur d'Argent",
     director: 'Tim Story',
@@ -7082,7 +6375,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "La Probabilité statistique de l'amour au premier regard",
     director: 'Vanessa Caswill',
@@ -7092,7 +6384,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "L'agence",
     director: 'George Nolfi',
@@ -7102,7 +6393,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Love & autres drogues',
     director: 'Edward Zwick',
@@ -7112,7 +6402,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Sexy Dance',
     director: 'Anne Fletcher',
@@ -7122,7 +6411,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Sexy Dance 2',
     director: 'Jon M. Chu',
@@ -7132,7 +6420,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Jackpot',
     director: 'Tom Vaughan',
@@ -7142,7 +6429,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Amour & Amnésie',
     director: 'Peter Segal',
@@ -7152,7 +6438,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: '40 jours et 40 nuits',
     director: 'Michael Lehmann',
@@ -7162,7 +6447,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Les Mondes de Ralph',
     director: 'Rich Moore',
@@ -7172,7 +6456,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'La Reine des Neiges',
     director: 'Chris Buck, Jennifer Lee',
@@ -7182,7 +6465,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Moi, Moche et Méchant',
     director: 'Pierre Coffin, Chris Renaud',
@@ -7192,7 +6474,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Les Cinq Légendes',
     director: 'Peter Ramsey',
@@ -7202,7 +6483,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "L'Âge de Glace",
     director: 'Chris Wedge, Carlos Saldanha',
@@ -7212,7 +6492,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "L'Âge de Glace 2",
     director: 'Carlos Saldanha',
@@ -7222,7 +6501,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "L'Âge de Glace 4 : La Dérive des Continents",
     director: 'Steve Martino, Mike Thurmeier',
@@ -7232,7 +6510,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Arthur 3 : La Guerre des Deux Mondes',
     director: 'Luc Besson',
@@ -7242,7 +6519,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'La Princesse et la Grenouille',
     director: 'Ron Clements, John Musker',
@@ -7252,7 +6528,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Monstres contre Aliens',
     director: 'Rob Letterman, Conrad Vernon',
@@ -7262,7 +6537,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Les Simpson, le Film',
     director: 'David Silverman',
@@ -7272,7 +6546,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Le monde de Nemo',
     director: 'Andrew Stanton',
@@ -7282,7 +6555,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'La petite sirène',
     director: 'Ron Clements, John Musker',
@@ -7292,7 +6564,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "Star Wars: Episode 2 - L'attaque des clones",
     director: 'George Lucas',
@@ -7302,7 +6573,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "Star Wars : Episode 5 - L'empire contre-attaque",
     director: 'Irvin Kershner',
@@ -7312,7 +6582,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Fast & Furious 5',
     director: 'Justin Lin',
@@ -7322,7 +6591,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'A couteaux tirés',
     director: 'Rian Johnson',
@@ -7332,7 +6600,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "OSS 117 : Le Caire, Nid d'Espions",
     director: 'Michel Hazanavicius',
@@ -7342,7 +6609,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'OSS 117 : Alerte Rouge en Afrique Noire',
     director: 'Nicolas Bedos',
@@ -7352,7 +6618,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Incassable',
     director: 'M. Night Shyamalan',
@@ -7362,7 +6627,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'La mémoire dans la peau',
     director: 'Doug Liman',
@@ -7372,7 +6636,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'La Mort dans la Peau',
     director: 'Paul Greengrass',
@@ -7382,7 +6645,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'La Vengeance dans la Peau',
     director: 'Paul Greengrass',
@@ -7392,7 +6654,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Die Hard 2 : 58 minutes pour vivre',
     director: 'Renny Harlin',
@@ -7402,7 +6663,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Destination Finale 2',
     director: 'David R. Ellis',
@@ -7412,7 +6672,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Destination Finale 3',
     director: 'James Wong',
@@ -7422,7 +6681,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Destination Finale 4',
     director: 'David R. Ellis',
@@ -7432,7 +6690,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Destination Finale 5',
     director: 'Steven Quale',
@@ -7442,7 +6699,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'La nuit au musée',
     director: 'Shawn Levy',
@@ -7452,7 +6708,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'La Nuit au musée 2',
     director: 'Shawn Levy',
@@ -7462,7 +6717,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "Pirates des Caraïbes 3 : Jusqu'au Bout du Monde",
     director: 'Gore Verbinski',
@@ -7472,7 +6726,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "Hellboy 2 : Les Légions d'Or Maudites",
     director: 'Guillermo del Toro',
@@ -7482,7 +6735,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Les bronzés',
     director: 'Patrice Leconte',
@@ -7492,7 +6744,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Les bronzés font du ski',
     director: 'Patrice Leconte',
@@ -7502,7 +6753,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Le Transporteur 2',
     director: 'Louis Leterrier',
@@ -7512,7 +6762,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Le Transporteur 3',
     director: 'Olivier Megaton',
@@ -7522,7 +6771,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "Sin City : J'ai Tué pour Elle",
     director: 'Frank Miller, Robert Rodriguez',
@@ -7532,7 +6780,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Matrix',
     director: 'Lana Wachowski, Lilly Wachowski',
@@ -7542,7 +6789,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "Spy Kids 2: L'île des rêves perdus",
     director: 'Robert Rodriguez',
@@ -7552,7 +6798,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'La Momie',
     director: 'Stephen Sommers',
@@ -7562,7 +6807,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Le Retour de la Momie',
     director: 'Stephen Sommers',
@@ -7572,7 +6816,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "La momie : la tombe de l'empereur dragon",
     director: 'Rob Cohen',
@@ -7582,7 +6825,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "L'arme fatale",
     director: 'Richard Donner',
@@ -7592,7 +6834,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "Maman j'ai raté l'avion",
     director: 'Chris Columbus',
@@ -7602,7 +6843,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Retour vers le futur 3',
     director: 'Robert Zemeckis',
@@ -7612,7 +6852,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Rambo 2 : la mission',
     director: 'George P. Cosmatos',
@@ -7622,7 +6861,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Le Parrain',
     director: 'Francis Ford Coppola',
@@ -7632,7 +6870,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Le Parrain 2',
     director: 'Francis Ford Coppola',
@@ -7642,7 +6879,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Le monde de Dory',
     director: 'Andrew Stanton, Angus MacLane',
@@ -7652,7 +6888,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "S.O.S. Fantômes : L'Héritage",
     director: 'Jason Reitman',
@@ -7662,7 +6897,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Maléfique : Le Pouvoir du Mal',
     director: 'Joachim Rønning',
@@ -7672,7 +6906,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Le Nouveau Stagiaire',
     director: 'Nancy Meyers',
@@ -7682,7 +6915,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Les Aventures de Tintin',
     director: 'Steven Spielberg',
@@ -7692,7 +6924,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'La Planète des singes : Les Origines',
     director: 'Rupert Wyatt',
@@ -7702,7 +6933,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Les Noces funèbres',
     director: 'Tim Burton, Mike Johnson',
@@ -7712,7 +6942,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "Comment se débarrasser d'un mec en 10 jours",
     director: 'Donald Petrie',
@@ -7722,7 +6951,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'La Planète au trésor',
     director: 'Ron Clements, John Musker',
@@ -7732,7 +6960,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "Atlantis : L'Empire perdu",
     director: 'Gary Trousdale, Kirk Wise',
@@ -7742,7 +6969,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Drôles de dames',
     director: 'McG',
@@ -7752,7 +6978,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: "La Route d'Eldorado",
     director: 'Bibo Bergeron, Don Paul',
@@ -7762,7 +6987,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'S.O.S. Fantômes',
     director: 'Ivan Reitman',
@@ -7772,7 +6996,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Le Livre de la jungle',
     director: 'Wolfgang Reitherman',
@@ -7782,7 +7005,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Alice au pays des merveilles',
     director: 'Clyde Geronimi, Wilfred Jackson',
@@ -7792,7 +7014,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Dragons 3 : Le Monde caché',
     rating: 3, // How to Train Your Dragon: The Hidden World (2019) ★★★
@@ -7802,7 +7023,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Dean DeBlois',
   },
-
   {
     title: "Sale temps à l'hôtel El Royale",
     rating: 2.5, // Bad Times at the El Royale (2018) ★★½
@@ -7812,7 +7032,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Drew Goddard',
   },
-
   {
     title: "À tous les garçons que j'ai aimés",
     rating: 4, // To All the Boys I've Loved Before (2018) ★★★★
@@ -7822,7 +7041,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Susan Johnson',
   },
-
   {
     title: 'Equalizer 2',
     rating: 3, // The Equalizer 2 (2018) ★★★
@@ -7832,7 +7050,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Antoine Fuqua',
   },
-
   {
     title: 'Le Labyrinthe : Le Remède mortel',
     rating: 3, // Maze Runner: The Death Cure (2018) ★★★
@@ -7842,7 +7059,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Wes Ball',
   },
-
   {
     title: "La Forme de l'eau",
     rating: 2.5, // The Shape of Water (2017) ★★½
@@ -7852,7 +7068,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Guillermo del Toro',
   },
-
   {
     title: 'La Tour sombre',
     rating: 2.5, // The Dark Tower (2017) ★★½
@@ -7862,7 +7077,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Nikolaj Arcel',
   },
-
   {
     title: 'Dunkerque',
     rating: 3.5, // Dunkirk (2017) ★★★½
@@ -7872,7 +7086,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Christopher Nolan',
   },
-
   {
     title: "Le Roi Arthur : La Légende d'Excalibur",
     rating: 4, // King Arthur: Legend of the Sword (2017) ★★★★
@@ -7882,7 +7095,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Guy Ritchie',
   },
-
   {
     title: 'The Boyfriend : Pourquoi lui ?',
     rating: 3,
@@ -7892,7 +7104,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'John Hamburg',
   },
-
   {
     title: 'American Nightmare 3 : Élections',
     rating: 2.5, // The Purge: Election Year (2016) ★★½
@@ -7902,7 +7113,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'James DeMonaco',
   },
-
   {
     title: "Alice de l'autre côté du miroir",
     rating: 2.5, // Alice Through the Looking Glass (2016) ★★½
@@ -7912,7 +7122,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'James Bobin',
   },
-
   {
     title: 'Le Chasseur et la Reine des glaces',
     rating: 3, // The Huntsman: Winter's War (2016) ★★★
@@ -7922,7 +7131,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Cedric Nicolas-Troyan',
   },
-
   {
     title: 'Le Livre de la jungle',
     rating: 3, // The Jungle Book (2016) ★★★
@@ -7932,7 +7140,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Jon Favreau',
   },
-
   {
     title: 'Les Huit Salopards',
     rating: 3, // The Hateful Eight (2015) ★★★
@@ -7942,7 +7149,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Quentin Tarantino',
   },
-
   {
     title: 'Agents très spéciaux : Code U.N.C.L.E.',
     rating: 4, // The Man from U.N.C.L.E. (2015) ★★★★
@@ -7952,7 +7158,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Guy Ritchie',
   },
-
   {
     title: 'Éternelle Adaline',
     rating: 2.5, // The Age of Adaline (2015) ★★½
@@ -7962,7 +7167,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Lee Toland Krieger',
   },
-
   {
     title: 'Le Hobbit : La Bataille des Cinq Armées',
     rating: 3.5, // The Hobbit: The Battle of the Five Armies (2014) ★★★½
@@ -7972,7 +7176,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Peter Jackson',
   },
-
   {
     title: 'American Nightmare 2 : Anarchy',
     rating: 2.5, // The Purge: Anarchy (2014) ★★½
@@ -7982,7 +7185,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'James DeMonaco',
   },
-
   {
     title: 'Noé',
     rating: 2.5, // Noah (2014) ★★½
@@ -7992,7 +7194,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Darren Aronofsky',
   },
-
   {
     title: "300 : La Naissance d'un Empire",
     rating: 3, // 300: Rise of an Empire (2014) ★★★
@@ -8002,7 +7203,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Noam Murro',
   },
-
   {
     title: 'Le Hobbit : La Désolation de Smaug',
     rating: 4,
@@ -8012,7 +7212,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Peter Jackson',
   },
-
   {
     title: 'Et (beaucoup) plus si affinités',
     rating: 2.5, // What If (2013) ★★½
@@ -8022,7 +7221,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Michael Dowse',
   },
-
   {
     title: 'Les Miller, une famille en herbe',
     rating: 3.5, // We're the Millers (2013) ★★★½
@@ -8032,7 +7230,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Rawson Marshall Thurber',
   },
-
   {
     title: 'Copains pour toujours 2',
     rating: 3, // Grown Ups 2 (2013) ★★★
@@ -8042,7 +7239,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Dennis Dugan',
   },
-
   {
     title: 'Les Stagiaires',
     rating: 3, // The Internship (2013) ★★★
@@ -8052,7 +7248,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Shawn Levy',
   },
-
   {
     title: "C'est la fin",
     rating: 3, // This Is the End (2013) ★★★
@@ -8062,7 +7257,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Evan Goldberg, Seth Rogen',
   },
-
   {
     title: 'American Nightmare',
     rating: 2.5, // The Purge (2013) ★★½
@@ -8072,7 +7266,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'James DeMonaco',
   },
-
   {
     title: 'Le Monde de Charlie',
     rating: 3, // The Perks of Being a Wallflower (2012) ★★★
@@ -8082,7 +7275,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Stephen Chbosky',
   },
-
   {
     title: "Superman contre l'Élite",
     rating: 2.5, // Superman vs. The Elite (2012) ★★½
@@ -8092,7 +7284,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Michael Chang',
   },
-
   {
     title: 'Blanche-Neige et le Chasseur',
     rating: 3, // Snow White and the Huntsman (2012) ★★★
@@ -8102,7 +7293,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Rupert Sanders',
   },
-
   {
     title: "Madagascar 3 : Bons Baisers d'Europe",
     rating: 3.5, // Madagascar 3: Europe's Most Wanted (2012) ★★★½
@@ -8112,7 +7302,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Eric Darnell, Tom McGrath, Conrad Vernon',
   },
-
   {
     title: 'Le Lorax',
     rating: 2.5, // The Lorax (2012) ★★½
@@ -8122,7 +7311,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Chris Renaud, Kyle Balda',
   },
-
   {
     title: "Voyage au centre de la Terre 2 : L'Île mystérieuse",
     rating: 2.5, // Journey 2: The Mysterious Island (2012) ★★½
@@ -8132,7 +7320,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Brad Peyton',
   },
-
   {
     title: 'La Cabane dans les bois',
     rating: 3.5, // The Cabin in the Woods (2011) ★★★½
@@ -8142,7 +7329,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Drew Goddard',
   },
-
   {
     title: "Sherlock Holmes : Jeu d'ombres",
     rating: 4,
@@ -8152,7 +7338,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Guy Ritchie',
   },
-
   {
     title: 'Les Aventures de Tintin : Le Secret de la Licorne',
     rating: 3, // The Adventures of Tintin (2011) ★★★
@@ -8162,7 +7347,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Steven Spielberg',
   },
-
   {
     title: "S'ex list",
     rating: 3, // What's Your Number? (2011) ★★★
@@ -8172,7 +7356,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Mark Mylod',
   },
-
   {
     title: 'Les Trois Mousquetaires',
     rating: 2.5, // The Three Musketeers (2011) ★★½
@@ -8182,7 +7365,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Paul W.S. Anderson',
   },
-
   {
     title: 'La Couleur des sentiments',
     rating: 3.5, // The Help (2011) ★★★½
@@ -8192,7 +7374,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Tate Taylor',
   },
-
   {
     title: 'La Colline aux coquelicots',
     rating: 2.5, // From Up on Poppy Hill (2011) ★★½
@@ -8202,7 +7383,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Gorō Miyazaki',
   },
-
   {
     title: 'Transformers : La Face cachée de la Lune',
     rating: 4, // Transformers: Dark of the Moon (2011) ★★★★
@@ -8212,7 +7392,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Michael Bay',
   },
-
   {
     title: 'Copains pour toujours',
     rating: 3, // Grown Ups (2010) ★★★
@@ -8222,7 +7401,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Dennis Dugan',
   },
-
   {
     title: 'Superman/Batman : Ennemis publics',
     rating: 4,
@@ -8232,7 +7410,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Sam Liu',
   },
-
   {
     title: 'Indiana Jones et le Royaume du crâne de cristal',
     rating: 3, // Indiana Jones and the Kingdom of the Crystal Skull (2008) ★★★
@@ -8242,7 +7419,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Steven Spielberg',
   },
-
   {
     title: 'Les Chroniques de Spiderwick',
     rating: 3,
@@ -8252,7 +7428,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Mark Waters',
   },
-
   {
     title: 'Astérix aux Jeux Olympiques',
     rating: 2.5, // Asterix at the Olympic Games (2008) ★★½
@@ -8262,7 +7437,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Frédéric Forestier, Thomas Langmann',
   },
-
   {
     title: "À la croisée des mondes : La Boussole d'or",
     rating: 2.5, // The Golden Compass (2007) ★★½
@@ -8272,7 +7446,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Chris Weitz',
   },
-
   {
     title: 'Boulevard de la mort',
     rating: 3, // Death Proof (2007) ★★★
@@ -8282,7 +7455,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Quentin Tarantino',
   },
-
   {
     title: "Pirates des Caraïbes : Jusqu'au bout du monde",
     rating: 3,
@@ -8292,7 +7464,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Gore Verbinski',
   },
-
   {
     title: 'Admis à tous prix',
     rating: 3.5, // Accepted (2006) ★★★½
@@ -8302,7 +7473,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Steve Pink',
   },
-
   {
     title: "Inside Man : L'Homme de l'intérieur",
     rating: 4,
@@ -8312,7 +7482,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Spike Lee',
   },
-
   {
     title: 'High School Musical : Premiers pas sur scène',
     rating: 2, // High School Musical (2006) ★★
@@ -8322,7 +7491,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Kenny Ortega',
   },
-
   {
     title: 'Le Fils du Mask',
     rating: 2, // Son of the Mask (2005) ★★
@@ -8332,7 +7500,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Lawrence Guterman',
   },
-
   {
     title: 'Le Pôle Express',
     rating: 3.5,
@@ -8342,7 +7509,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Robert Zemeckis',
   },
-
   {
     title: "Master and Commander : De l'autre côté du monde",
     rating: 3,
@@ -8352,7 +7518,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Peter Weir',
   },
-
   {
     title: 'Batman : La Mystérieuse Batwoman',
     rating: 4,
@@ -8362,7 +7527,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Curt Geda',
   },
-
   {
     title: 'American Pie : Marions-les !',
     rating: 3,
@@ -8372,7 +7536,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Jesse Dylan',
   },
-
   {
     title: 'Le Seigneur des anneaux : Les Deux Tours',
     rating: 5, // The Lord of the Rings: The Two Towers (2002) ★★★★★
@@ -8382,7 +7545,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Peter Jackson',
   },
-
   {
     title: "Le Seigneur des anneaux : La Communauté de l'anneau",
     rating: 5, // The Lord of the Rings: The Fellowship of the Ring (2001) ★★★★★
@@ -8392,7 +7554,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Peter Jackson',
   },
-
   {
     title: "Atlantide, l'empire perdu",
     rating: 3.5, // Atlantis: The Lost Empire (2001) ★★★½
@@ -8402,7 +7563,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Gary Trousdale, Kirk Wise',
   },
-
   {
     title: 'Mission : Impossible 2',
     rating: 2,
@@ -8412,7 +7572,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'John Woo',
   },
-
   {
     title: "La Route d'Eldorado",
     rating: 3.5, // The Road to El Dorado (2000) ★★★½
@@ -8422,7 +7581,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Éric Bergeron, Don Paul',
   },
-
   {
     title: 'Ghost Dog : La Voie du samouraï',
     rating: 1.5,
@@ -8432,7 +7590,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Jim Jarmusch',
   },
-
   {
     title: "Dragon Ball Z : L'Attaque du dragon",
     rating: 2,
@@ -8442,7 +7599,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Mitsuo Hashimoto',
   },
-
   {
     title: 'Dragon Ball Z : Rivaux dangereux',
     rating: 2,
@@ -8452,7 +7608,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Shigeyasu Yamauchi',
   },
-
   {
     title: 'Les Tortues Ninja 3',
     rating: 3,
@@ -8462,7 +7617,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Stuart Gillard',
   },
-
   {
     title: "Dragon Ball Z : L'Histoire de Trunks",
     rating: 2,
@@ -8472,7 +7626,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Yoshihiro Ueda',
   },
-
   {
     title: 'Bodyguard',
     rating: 3.5, // The Bodyguard (1992) ★★★½
@@ -8482,7 +7635,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Mick Jackson',
   },
-
   {
     title: 'Le Dernier des Mohicans',
     rating: 4, // The Last of the Mohicans (1992) ★★★★
@@ -8492,7 +7644,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Michael Mann',
   },
-
   {
     title: "Dragon Ball Z : L'Offensive des cyborgs",
     rating: 2,
@@ -8502,7 +7653,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Kazuhito Kikuchi',
   },
-
   {
     title: 'Dragon Ball Z : La Revanche de Cooler',
     rating: 3,
@@ -8512,7 +7662,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Mitsuo Hashimoto',
   },
-
   {
     title: 'Dragon Ball Z : La Menace de Namek',
     rating: 2,
@@ -8522,7 +7671,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Mitsuo Hashimoto',
   },
-
   {
     title: 'Dragon Ball Z : Le Père de Sangoku',
     rating: 2,
@@ -8532,7 +7680,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Mitsuo Hashimoto',
   },
-
   {
     title: 'Les Tortues Ninja',
     rating: 3,
@@ -8542,7 +7689,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Steve Barron',
   },
-
   {
     title: 'Dragon Ball Z : À la poursuite de Garlic',
     rating: 2,
@@ -8552,7 +7698,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Daisuke Nishio',
   },
-
   {
     title: 'Inssaisissables 2',
     director: 'Jon M. Chu',
@@ -8562,7 +7707,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
-
   {
     title: 'Nicky Larson Private Eyes',
     rating: 3.5, // City Hunter: Shinjuku Private Eyes (2019) - not found in ratings list
@@ -8572,7 +7716,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Kenji Kodama',
   },
-
   {
     title: 'Beauté cachée',
     rating: 3, // Collateral Beauty (2016) - not found in ratings list
@@ -8582,7 +7725,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'David Frankel',
   },
-
   {
     title: "Les Figures de l'ombre",
     rating: 3, // Hidden Figures (2016) - not found in ratings list
@@ -8592,7 +7734,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Theodore Melfi',
   },
-
   {
     title: 'Le Secret de Charlie',
     rating: 2.5, // Charlie St. Cloud (2010) - not found in ratings list
@@ -8602,7 +7743,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Burr Steers',
   },
-
   {
     title: 'Le Dernier Exorcisme',
     rating: 2.5, // The Last Exorcism (2010) - not found in ratings list
@@ -8612,7 +7752,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Daniel Stamm',
   },
-
   {
     title: 'La Rafle',
     rating: 3.5, // The Round Up (2010) - not found in ratings list
@@ -8622,7 +7761,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Roselyne Bosch',
   },
-
   {
     title: "Le Livre d'Eli",
     rating: 3.5, // The Book of Eli (2010) - not found in ratings list
@@ -8632,7 +7770,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Albert Hughes, Allen Hughes',
   },
-
   {
     title: 'La Route',
     rating: 3.5, // The Road (2009) - not found in ratings list
@@ -8642,7 +7779,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'John Hillcoat',
   },
-
   {
     title: 'Madagascar 2 : La grande évasion',
     rating: 3,
@@ -8652,7 +7788,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Eric Darnell, Tom McGrath',
   },
-
   {
     title: "Les Fils de l'homme",
     rating: 4.5, // Children of Men (2006) - not found in ratings list
@@ -8662,7 +7797,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Alfonso Cuarón',
   },
-
   {
     title: 'La Colline a des yeux',
     rating: 2.5,
@@ -8672,7 +7806,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Alexandre Aja',
   },
-
   {
     title: 'Hooligans',
     rating: 4, // Green Street Hooligans (2005) - not found in ratings list
@@ -8682,7 +7815,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Lexi Alexander',
   },
-
   {
     title: 'Les Dalton',
     rating: 0.5, // The Daltons (2004) - not found in ratings list
@@ -8692,7 +7824,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Philippe Haïm',
   },
-
   {
     title: 'F.B.I. : Fausses blondes infiltrées',
     rating: 3, // White Chicks (2004) - not found in ratings list
@@ -8702,7 +7833,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Keenen Ivory Wayans',
   },
-
   {
     title: 'Deux Frères',
     rating: 3,
@@ -8712,7 +7842,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Jean-Jacques Annaud',
   },
-
   {
     title: "L'Armée des morts",
     rating: 2.5, // Dawn of the Dead (2004) - not found in ratings list
@@ -8722,7 +7851,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Zack Snyder',
   },
-
   {
     title: 'Treize à la douzaine',
     rating: 3, // Cheaper by the Dozen (2003) - not found in ratings list
@@ -8732,7 +7860,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Shawn Levy',
   },
-
   {
     title: 'Le Seigneur des anneaux : Le Retour du roi',
     rating: 5, // The Lord of the Rings: The Return of the King (2003) - not found in ratings list
@@ -8742,7 +7869,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Peter Jackson',
   },
-
   {
     title: 'Dragon rouge',
     rating: 3,
@@ -8752,7 +7878,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Brett Ratner',
   },
-
   {
     title: 'Charlie et ses drôles de dames',
     rating: 2,
@@ -8762,7 +7887,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'McG',
   },
-
   {
     title: 'Le Masque de Zorro',
     rating: 4, // The Mask of Zorro (1998) - not found in ratings list
@@ -8772,7 +7896,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Martin Campbell',
   },
-
   {
     title: 'La Course au jouet',
     rating: 2, // Jingle All the Way (1996) - not found in ratings list
@@ -8782,7 +7905,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Brian Levant',
   },
-
   {
     title: 'Lancelot, le premier chevalier',
     rating: 2.5, // First Knight (1995) - not found in ratings list
@@ -8792,7 +7914,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Jerry Zucker',
   },
-
   {
     title: 'Astérix et les Indiens',
     rating: 2.5, // Asterix Conquers America (1994) - not found in ratings list
@@ -8802,7 +7923,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Gerhard Hahn',
   },
-
   {
     title: 'Dracula',
     rating: 2.5,
@@ -8812,7 +7932,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Francis Ford Coppola',
   },
-
   {
     title: 'Dragon Ball Z : Cent Mille Guerriers de métal',
     rating: 3.5,
@@ -8822,7 +7941,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Daisuke Nishio',
   },
-
   {
     title: 'S.O.S. Fantômes 2',
     rating: 2.5,
@@ -8832,7 +7950,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Ivan Reitman',
   },
-
   {
     title: "L'Histoire sans fin",
     rating: 2,
@@ -8842,7 +7959,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Wolfgang Petersen',
   },
-
   {
     title: "Les Aventuriers de l'Arche perdue",
     rating: 4, // Raiders of the Lost Ark (1981) - not found in ratings list
@@ -8852,7 +7968,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Steven Spielberg',
   },
-
   {
     title: 'Les Dents de la mer',
     rating: 4, // Jaws (1975) - not found in ratings list
@@ -8862,7 +7977,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
     director: 'Steven Spielberg',
   },
-
   {
     title: 'Les Valseuses',
     rating: 1, // Going Places (1974) - not found in ratings list
