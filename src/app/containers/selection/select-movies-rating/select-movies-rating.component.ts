@@ -5,14 +5,16 @@ import { Movie } from '../../../models/movie-model';
 import { getMoviesByUser } from '../../../facades/movies.facade';
 import { SelectEntitiesComponent } from '../select-base.component';
 
+interface StarInfo {
+  type: 'full' | 'half' | 'empty';
+  value: number;
+}
+
 @Component({
   selector: 'app-select-movies-rating',
   imports: [CommonModule, MenuComponent],
   templateUrl: './select-movies-rating.component.html',
-  styleUrls: [
-    './select-movies-rating.component.scss',
-    '../select-base.scss',
-  ],
+  styleUrls: ['./select-movies-rating.component.scss', '../select-base.scss'],
 })
 export class SelectMoviesRatingComponent extends SelectEntitiesComponent {
   // Tous les films de l'utilisateur
@@ -24,9 +26,7 @@ export class SelectMoviesRatingComponent extends SelectEntitiesComponent {
   moviesRatings = signal<Map<string, number>>(new Map());
 
   // Valeurs possibles pour rating (0 à 5 avec incréments de 0.5)
-  readonly ratingOptions = [
-    0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5,
-  ];
+  readonly ratingOptions = [0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5];
 
   // Générer une clé unique pour un film
   private getMovieKey(movie: Movie): string {
@@ -56,11 +56,6 @@ export class SelectMoviesRatingComponent extends SelectEntitiesComponent {
     }).length;
   });
 
-  interface StarInfo {
-    type: 'full' | 'half' | 'empty';
-    value: number;
-  }
-
   // Obtenir les étoiles pour un rating (similaire au codebase)
   getRatingStars(rating: number): StarInfo[] {
     const stars: StarInfo[] = [];
@@ -85,8 +80,7 @@ export class SelectMoviesRatingComponent extends SelectEntitiesComponent {
       return {
         title: movie.title,
         director: movie.director,
-        rating:
-          updatedRating !== undefined ? updatedRating : movie.rating,
+        rating: updatedRating !== undefined ? updatedRating : movie.rating,
       };
     });
 
