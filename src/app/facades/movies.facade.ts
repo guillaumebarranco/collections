@@ -14,7 +14,6 @@ import {
   baseMoviesSagaPage2,
   baseMoviesFromAmandine,
   baseMoviesFromRonanLetterboxd,
-  baseMoviesFromRonanLetterboxdNoPictures,
 } from '../utils/entities/movies';
 
 import {
@@ -52,7 +51,6 @@ const allBaseMovies: BaseMovie[] = [
   ...baseMoviesSagaPage2,
   ...baseMoviesFromAmandine,
   ...baseMoviesFromRonanLetterboxd,
-  ...baseMoviesFromRonanLetterboxdNoPictures,
 ];
 
 export function getAllMovies(): { [key: string]: Movie[] } {
