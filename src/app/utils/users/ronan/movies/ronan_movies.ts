@@ -2293,26 +2293,6 @@ export const ronanMovies: UserMovie[] = [
   },
 
   {
-    title: "Ocean's Twelve",
-    director: 'Steven Soderbergh',
-    rating: 4,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-  },
-
-  {
-    title: "Ocean's Thirteen",
-    director: 'Steven Soderbergh',
-    rating: 3.5,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-  },
-
-  {
     title: 'Taxi',
     director: 'Gérard Pirès',
     rating: 3.5,
@@ -4403,16 +4383,6 @@ export const ronanMovies: UserMovie[] = [
   },
 
   {
-    title: 'Rebelle',
-    rating: 3,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Mark Andrews, Brenda Chapman',
-  },
-
-  {
     title: 'Battleship',
     rating: 3,
     timesWatched: 1,
@@ -4510,16 +4480,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
     director: 'Edgar Wright',
-  },
-
-  {
-    title: "L'Arnacœur",
-    rating: 3.5,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Pascal Chaumeil',
   },
 
   {
@@ -4833,16 +4793,6 @@ export const ronanMovies: UserMovie[] = [
   },
 
   {
-    title: 'Le Voyage de Chihiro',
-    rating: 4,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Hayao Miyazaki',
-  },
-
-  {
     title: 'Hannibal',
     rating: 3,
     timesWatched: 1,
@@ -4930,16 +4880,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
     director: 'Sam Weisman',
-  },
-
-  {
-    title: 'Le Cinquième Élément',
-    rating: 4,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Luc Besson',
   },
 
   {
@@ -5043,16 +4983,6 @@ export const ronanMovies: UserMovie[] = [
   },
 
   {
-    title: 'Mon voisin Totoro',
-    rating: 3,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Hayao Miyazaki',
-  },
-
-  {
     title: 'Full Metal Jacket',
     rating: 3,
     timesWatched: 1,
@@ -5080,16 +5010,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
     director: 'Rob Reiner',
-  },
-
-  {
-    title: 'Le Château dans le ciel',
-    rating: 3,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Hayao Miyazaki',
   },
 
   {
@@ -6633,16 +6553,6 @@ export const ronanMovies: UserMovie[] = [
   },
 
   {
-    title: 'Benjamin Gates et le Trésor des Templiers',
-    rating: 1.5,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Jon Turteltaub',
-  },
-
-  {
     title: 'Gang de requins',
     rating: 3.5,
     timesWatched: 1,
@@ -6660,16 +6570,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
     director: 'Michael Mann',
-  },
-
-  {
-    title: '30 ans sinon rien',
-    rating: 3,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Gary Winick',
   },
 
   {
@@ -6720,16 +6620,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
     director: 'Steve Loter, Victor Cook',
-  },
-
-  {
-    title: 'Seul au monde',
-    rating: 4,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Robert Zemeckis',
   },
 
   {
@@ -6833,16 +6723,6 @@ export const ronanMovies: UserMovie[] = [
   },
 
   {
-    title: 'Indiana Jones et la Dernière Croisade',
-    rating: 4,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Steven Spielberg',
-  },
-
-  {
     title: 'Superman IV : Le Face-à-face',
     rating: 2.5,
     timesWatched: 1,
@@ -6860,16 +6740,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
     director: 'John Hughes',
-  },
-
-  {
-    title: 'Indiana Jones et le Temple maudit',
-    rating: 2,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Steven Spielberg',
   },
 
   {
@@ -6896,16 +6766,6 @@ export const ronanMovies: UserMovie[] = [
     title: 'Les temps modernes',
     director: 'Charles Chaplin',
     rating: 3.5,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-  },
-
-  {
-    title: 'Les choristes',
-    director: 'Christophe Barratier',
-    rating: 3.5, // The Chorus (2004) ★★★½
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -6987,16 +6847,6 @@ export const ronanMovies: UserMovie[] = [
       "Le Monde de Narnia : Le Lion, la Sorcière Blanche et l'Armoire Magique",
     director: 'Andrew Adamson',
     rating: 3, // The Chronicles of Narnia: The Lion, the Witch and the Wardrobe (2005) ★★★
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-  },
-
-  {
-    title: 'Leon',
-    director: 'Luc Besson',
-    rating: 4, // Léon: The Professional (1994) ★★★★
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -7374,16 +7224,6 @@ export const ronanMovies: UserMovie[] = [
   },
 
   {
-    title: "L'Âge de Glace 3 : Le Temps des Dinosaures",
-    director: 'Carlos Saldanha',
-    rating: 4, // Ice Age: Dawn of the Dinosaurs (2009) ★★★★
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-  },
-
-  {
     title: "L'Âge de Glace 4 : La Dérive des Continents",
     director: 'Steve Martino, Mike Thurmeier',
     rating: 2, // Ice Age: Continental Drift (2012) ★★
@@ -7754,39 +7594,9 @@ export const ronanMovies: UserMovie[] = [
   },
 
   {
-    title: "L'arme fatale 2",
-    director: 'Richard Donner',
-    rating: 4, // Lethal Weapon 2 (1989) ★★★★
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-  },
-
-  {
-    title: "L'arme fatale 3",
-    director: 'Richard Donner',
-    rating: 3.5, // Lethal Weapon 3 (1992) ★★★½
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-  },
-
-  {
     title: "Maman j'ai raté l'avion",
     director: 'Chris Columbus',
     rating: 3.5, // Home Alone (1990) ★★★½
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-  },
-
-  {
-    title: "Maman j'ai raté l'avion 2",
-    director: 'Chris Columbus',
-    rating: 3.5, // Home Alone 2: Lost in New York (1992) ★★★½
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -7927,16 +7737,6 @@ export const ronanMovies: UserMovie[] = [
     title: "Atlantis : L'Empire perdu",
     director: 'Gary Trousdale, Kirk Wise',
     rating: 3.5, // Atlantis: The Lost Empire (2001) ★★★½
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-  },
-
-  {
-    title: "Kuzco, l'Empereur mégalo",
-    director: 'Mark Dindal',
-    rating: 4, // The Emperor's New Groove (2000) ★★★★
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -8284,16 +8084,6 @@ export const ronanMovies: UserMovie[] = [
   },
 
   {
-    title: "L'Âge de glace 4 : La Dérive des continents",
-    rating: 2, // Ice Age: Continental Drift (2012) ★★
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Steve Martino, Mike Thurmeier',
-  },
-
-  {
     title: "Superman contre l'Élite",
     rating: 2.5, // Superman vs. The Elite (2012) ★★½
     timesWatched: 1,
@@ -8404,16 +8194,6 @@ export const ronanMovies: UserMovie[] = [
   },
 
   {
-    title: 'La Planète des singes : Les Origines',
-    rating: 4, // Rise of the Planet of the Apes (2011) ★★★★
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Rupert Wyatt',
-  },
-
-  {
     title: 'La Colline aux coquelicots',
     rating: 2.5, // From Up on Poppy Hill (2011) ★★½
     timesWatched: 1,
@@ -8454,16 +8234,6 @@ export const ronanMovies: UserMovie[] = [
   },
 
   {
-    title: 'La Nuit au musée 2',
-    rating: 3, // Night at the Museum: Battle of the Smithsonian (2009) ★★★
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Shawn Levy',
-  },
-
-  {
     title: 'Indiana Jones et le Royaume du crâne de cristal',
     rating: 3, // Indiana Jones and the Kingdom of the Crystal Skull (2008) ★★★
     timesWatched: 1,
@@ -8481,16 +8251,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
     director: 'Mark Waters',
-  },
-
-  {
-    title: 'Sexy Dance 2',
-    rating: 3, // Step Up 2: The Streets (2008) ★★★
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Jon M. Chu',
   },
 
   {
@@ -8534,26 +8294,6 @@ export const ronanMovies: UserMovie[] = [
   },
 
   {
-    title: 'Paranoïak',
-    rating: 3, // Disturbia (2007) ★★★
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'D.J. Caruso',
-  },
-
-  {
-    title: 'Les Infiltrés',
-    rating: 4, // The Departed (2006) ★★★★
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Martin Scorsese',
-  },
-
-  {
     title: 'Admis à tous prix',
     rating: 3.5, // Accepted (2006) ★★★½
     timesWatched: 1,
@@ -8581,27 +8321,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
     director: 'Kenny Ortega',
-  },
-
-  {
-    title:
-      "Le Monde de Narnia : Le Lion, la Sorcière blanche et l'Armoire magique",
-    rating: 3, // The Chronicles of Narnia: The Lion, the Witch and the Wardrobe (2005) ★★★
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Andrew Adamson',
-  },
-
-  {
-    title: 'Les Noces funèbres',
-    rating: 3.5, // Corpse Bride (2005) ★★★½
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Tim Burton, Mike Johnson',
   },
 
   {
@@ -8835,16 +8554,6 @@ export const ronanMovies: UserMovie[] = [
   },
 
   {
-    title: 'S.O.S. Fantômes',
-    rating: 3.5, // Ghostbusters (1984) ★★★½
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Ivan Reitman',
-  },
-
-  {
     title: 'Inssaisissables 2',
     director: 'Jon M. Chu',
     rating: 3, // Now You See Me 2 (2016) - not found in ratings list
@@ -8925,16 +8634,6 @@ export const ronanMovies: UserMovie[] = [
   },
 
   {
-    title: 'La Princesse et la Grenouille',
-    rating: 3,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Ron Clements, John Musker',
-  },
-
-  {
     title: 'La Route',
     rating: 3.5, // The Road (2009) - not found in ratings list
     timesWatched: 1,
@@ -8972,16 +8671,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
     director: 'Alexandre Aja',
-  },
-
-  {
-    title: '40 ans, toujours puceau',
-    rating: 2.5,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Judd Apatow',
   },
 
   {
@@ -9115,16 +8804,6 @@ export const ronanMovies: UserMovie[] = [
   },
 
   {
-    title: 'La Cité de la peur',
-    rating: 3.5, // Fear City: A Family-Style Comedy (1994) - not found in ratings list
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Alain Berbérian',
-  },
-
-  {
     title: 'Dracula',
     rating: 2.5,
     timesWatched: 1,
@@ -9192,25 +8871,5 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
     director: 'Bertrand Blier',
-  },
-
-  {
-    title: 'Le Livre de la jungle',
-    rating: 3,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Wolfgang Reitherman',
-  },
-
-  {
-    title: 'La Belle au bois dormant',
-    rating: 3, // Sleeping Beauty (1959) - not found in ratings list
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Clyde Geronimi',
   },
 ];

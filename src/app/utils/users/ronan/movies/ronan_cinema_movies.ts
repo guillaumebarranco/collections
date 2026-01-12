@@ -321,15 +321,6 @@ export const ronanCinemaMovies: UserMovie[] = [
     seenAtCinema: true,
   },
 
-  {
-    title: 'Coco',
-    director: 'Lee Unkrich',
-    rating: 1,
-    timesWatched: 1,
-    firstViewedDate: '2017-11-22',
-    lastViewedDate: '',
-    seenAtCinema: true,
-  },
 
   {
     title: 'Avengers: Infinity War',
@@ -2621,15 +2612,6 @@ export const ronanCinemaMovies: UserMovie[] = [
     director: 'Taika Waititi, Jemaine Clement',
   },
 
-  {
-    title: 'Gatsby le Magnifique',
-    rating: 2.5,
-    timesWatched: 1,
-    firstViewedDate: '2013-05-10',
-    lastViewedDate: '',
-    seenAtCinema: true,
-    director: 'Baz Luhrmann',
-  },
 
   {
     title: 'One Piece Film Z',
@@ -3101,15 +3083,6 @@ export const ronanCinemaMovies: UserMovie[] = [
     seenAtCinema: true,
   },
 
-  {
-    title: 'Le Livre de la jungle',
-    director: 'Jon Favreau',
-    rating: 3, // The Jungle Book (2016) ★★★
-    timesWatched: 1,
-    firstViewedDate: '2016-04-15',
-    lastViewedDate: '',
-    seenAtCinema: true,
-  },
 
   {
     title: 'Le Grinch',
@@ -3141,15 +3114,6 @@ export const ronanCinemaMovies: UserMovie[] = [
     director: 'Gerard McMurray',
   },
 
-  {
-    title: 'Jumanji : Bienvenue dans la jungle',
-    rating: 3.5,
-    timesWatched: 1,
-    firstViewedDate: '2017-12-20',
-    lastViewedDate: '',
-    seenAtCinema: true,
-    director: 'Jake Kasdan',
-  },
 
   {
     title: 'La Planète des singes : Suprématie',
@@ -3161,15 +3125,6 @@ export const ronanCinemaMovies: UserMovie[] = [
     director: 'Matt Reeves',
   },
 
-  {
-    title: 'Pirates des Caraïbes : La Vengeance de Salazar',
-    rating: 3,
-    timesWatched: 1,
-    firstViewedDate: '2017-05-26',
-    lastViewedDate: '',
-    seenAtCinema: true,
-    director: 'Joachim Rønning, Espen Sandberg',
-  },
 
   {
     title: 'Lego Batman, le film',
@@ -3201,15 +3156,6 @@ export const ronanCinemaMovies: UserMovie[] = [
     director: 'Francis Lawrence',
   },
 
-  {
-    title: 'Le Labyrinthe : La Terre brûlée',
-    rating: 4,
-    timesWatched: 1,
-    firstViewedDate: '2015-09-18',
-    lastViewedDate: '',
-    seenAtCinema: true,
-    director: 'Wes Ball',
-  },
 
   {
     title: 'À la poursuite de demain',
@@ -3311,25 +3257,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     director: 'Jorge Dorado',
   },
 
-  {
-    title: 'Les Seigneurs',
-    rating: 0.5, // The Dream Team (2012) ★
-    timesWatched: 1,
-    firstViewedDate: '2012-09-26',
-    lastViewedDate: '',
-    seenAtCinema: true,
-    director: 'Olivier Dahan',
-  },
 
-  {
-    title: 'Sex Friends',
-    rating: 3, // No Strings Attached (2011) ★★★
-    timesWatched: 1,
-    firstViewedDate: '2011-02-16',
-    lastViewedDate: '',
-    seenAtCinema: true,
-    director: 'Ivan Reitman',
-  },
 
   {
     title: 'Mary',
