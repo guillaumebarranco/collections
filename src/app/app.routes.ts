@@ -7,6 +7,8 @@ import { SeriesComponent } from './containers/collections/series/series.componen
 import { GamesComponent } from './containers/collections/games/games.component';
 import { DashboardComponent } from './containers/dashboard/dashboard.component';
 import { SelectMoviesComponent } from './containers/selection/select-movies/select-movies.component';
+import { SelectMoviesTimesWatchedComponent } from './containers/selection/select-movies-times-watched/select-movies-times-watched.component';
+import { SelectMoviesRatingComponent } from './containers/selection/select-movies-rating/select-movies-rating.component';
 import { SelectBooksComponent } from './containers/selection/select-books/select-books.component';
 import { SelectSeriesComponent } from './containers/selection/select-series/select-series.component';
 import { SelectMangasComponent } from './containers/selection/select-mangas/select-mangas.component';
@@ -61,6 +63,14 @@ export const routes: Routes = [
   {
     path: 'select-movies',
     component: SelectMoviesComponent,
+  },
+  {
+    path: 'select-movies-times-watched',
+    component: SelectMoviesTimesWatchedComponent,
+  },
+  {
+    path: 'select-movies-rating',
+    component: SelectMoviesRatingComponent,
   },
   {
     path: 'select-books',
@@ -134,6 +144,14 @@ export const routes: Routes = [
       {
         path: 'select-movies',
         component: SelectMoviesComponent,
+      },
+      {
+        path: 'select-movies-times-watched',
+        component: SelectMoviesTimesWatchedComponent,
+      },
+      {
+        path: 'select-movies-rating',
+        component: SelectMoviesRatingComponent,
       },
       {
         path: 'select-books',

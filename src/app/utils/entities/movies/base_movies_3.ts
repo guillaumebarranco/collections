@@ -215,7 +215,17 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Birdman',
     director: 'Alejandro G. Iñárritu',
-    actors: [{ name: 'Michael Keaton' }],
+    actors: [
+      {
+        name: 'Michael Keaton',
+      },
+      {
+        name: 'Edward Norton',
+      },
+      {
+        name: 'Emma Stone',
+      },
+    ],
     coverUrl: '/movies_pictures/139795-birdman-0-150-0-225-crop.jpg',
     releaseDate: '2014-10-17',
     length: 119,

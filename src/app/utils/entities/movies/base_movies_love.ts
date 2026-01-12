@@ -623,4 +623,23 @@ export const baseMoviesLove: BaseMovie[] = [
     length: 105,
     genre: 'Romance',
   },
+  {
+    title: 'Love again: un peu, beaucoup, passionnément',
+    director: 'James C. Strouse',
+    actors: [
+      {
+        name: 'Priyanka Chopra Jonas',
+      },
+      {
+        name: 'Sam Heughan',
+      },
+      {
+        name: 'Céline Dion',
+      },
+    ],
+    coverUrl: '/movies_pictures/3006482.jpg',
+    releaseDate: '2023-06-07',
+    length: 105,
+    genre: 'Romance',
+  },
 ];

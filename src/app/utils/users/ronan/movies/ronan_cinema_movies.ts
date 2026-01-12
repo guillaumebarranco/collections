@@ -1875,15 +1875,6 @@ export const ronanCinemaMovies: UserMovie[] = [
     director: 'Gary Shore',
   },
   {
-    title: 'Birdman',
-    rating: 4,
-    timesWatched: 1,
-    firstViewedDate: '2015-02-25',
-    lastViewedDate: '',
-    seenAtCinema: true,
-    director: 'Alejandro González Iñárritu',
-  },
-  {
     title: 'Step Up: All In',
     rating: 3.5,
     timesWatched: 1,

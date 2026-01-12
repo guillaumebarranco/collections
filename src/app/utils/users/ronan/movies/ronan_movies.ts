@@ -4188,15 +4188,6 @@ export const ronanMovies: UserMovie[] = [
     director: 'Darren Lynn Bousman',
   },
   {
-    title: 'Nos jours heureux',
-    rating: 3.5,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Éric Toledano, Olivier Nakache',
-  },
-  {
     title: 'Astérix et les Vikings',
     rating: 3,
     timesWatched: 1,
@@ -4251,7 +4242,7 @@ export const ronanMovies: UserMovie[] = [
     director: 'Hayao Miyazaki',
   },
   {
-    title: 'Les Choristes',
+    title: 'Les choristes',
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',

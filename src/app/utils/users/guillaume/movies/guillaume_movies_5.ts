@@ -886,7 +886,7 @@ export const guillaumeMoviesPage5: UserMovie[] = [
   {
     title: 'Parasite',
     director: 'Bong Joon-ho',
-    rating: 3.75,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '2026-01-11',
     lastViewedDate: '2026-01-11',
@@ -909,5 +909,14 @@ export const guillaumeMoviesPage5: UserMovie[] = [
     firstViewedDate: '2010-11-08',
     lastViewedDate: '2010-11-08',
     seenAtCinema: true,
+  },
+  {
+    title: 'Le Fils du Mask',
+    director: 'Lawrence Guterman',
+    rating: 3.25,
+    timesWatched: 10,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
   },
 ];

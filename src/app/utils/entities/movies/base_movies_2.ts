@@ -637,7 +637,17 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Nos Jours heureux',
     director: 'Claude Zidi Jr.',
-    actors: [{ name: 'Vincent Claude' }],
+    actors: [
+      {
+        name: 'Jean-Paul Rouve',
+      },
+      {
+        name: 'Marilou Berry',
+      },
+      {
+        name: 'Omar Sy',
+      },
+    ],
     coverUrl: '/movies_pictures/39863-those-happy-days-0-150-0-225-crop.jpg',
     releaseDate: '2006-07-19',
     length: 95,

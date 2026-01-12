@@ -514,4 +514,13 @@ export const guillaumeMoviesLove: UserMovie[] = [
     lastViewedDate: '2025-11-28',
     seenAtCinema: false,
   },
+  {
+    title: 'Love again: un peu, beaucoup, passionnément',
+    director: 'James C. Strouse',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2026-01-12',
+    lastViewedDate: '2026-01-12',
+    seenAtCinema: false,
+  },
 ];

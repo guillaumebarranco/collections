@@ -1,0 +1,70 @@
+<app-menu></app-menu>
+
+<div class="select-movies-times-watched-container">
+  <div class="header">
+    <h1>Mettre à jour le nombre de visionnages de mes films</h1>
+
+    <div class="selection-description">
+      <p>
+        Bonjour {{ username() }} 👋 <br /><br />
+        Sur cette page, tu peux mettre à jour le nombre de fois que tu as vu chaque
+        film de ta collection. <br /><br />
+        Passe ta souris sur un film pour voir les options de visionnages disponibles
+        et clique sur le nombre correspondant. <br /><br />
+        Une fois que tu as terminé, clique sur le bouton "Exporter" pour télécharger
+        le fichier JSON avec tes mises à jour.
+      </p>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <div class="selection-info">
+      <span class="count">{{ modifiedCount() }} film(s) modifié(s)</span>
+      <span class="total">sur {{ allMovies().length }}</span>
+    </div>
+
+    <div class="actions">
+      <button
+        class="btn btn-primary"
+        (click)="exportMoviesTimesWatched()"
+        [disabled]="allMovies().length === 0"
+      >
+        📥 Exporter mes films avec timesWatched ({{ allMovies().length }})
+      </button>
+    </div>
+  </div>
+
+  <div class="movies-grid">
+    @for (movie of allMovies(); track `${movie.title}-${movie.releaseDate}`) {
+    <div
+      class="movie-poster"
+      [title]="movie.title + ' (' + movie.releaseDate.substring(0, 4) + ')'"
+    >
+      <img [src]="movie.coverUrl" [alt]="movie.title" />
+      <div class="overlay">
+        <div class="movie-info">
+          <span class="movie-title">{{ movie.title }}</span>
+          <span class="movie-year"
+            >({{ movie.releaseDate.substring(0, 4) }})</span
+          >
+          <span class="current-times-watched"
+            >Visionnages : {{ getTimesWatched(movie) }} fois</span
+          >
+        </div>
+        <div class="times-watched-buttons">
+          @for (times of timesWatchedOptions; track times) {
+          <button
+            class="times-btn"
+            [class.active]="getTimesWatched(movie) === times"
+            (click)="updateTimesWatched(movie, times); $event.stopPropagation()"
+            (mousedown)="$event.stopPropagation()"
+          >
+            {{ times }}
+          </button>
+          }
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>

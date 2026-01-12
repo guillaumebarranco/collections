@@ -84,10 +84,10 @@ export function getAllMovies(): { [key: string]: Movie[] } {
 export function getAllWatchlistMovies(): { [key: string]: Movie[] } {
   return {
     guillaume: getAllMoviesData([...guillaumeWatchlistMovies]),
-    william: getAllMoviesData([]),
+    william: [],
     kevin: [],
-    amandine: getAllMoviesData([]),
-    ronan: getAllMoviesData([]),
+    amandine: [],
+    ronan: [],
   };
 }
 

@@ -2,7 +2,13 @@
 
 <div class="movies-container">
   <h1>
-    {{ selectedView() === "watchlist" ? "Films à voir" : selectedView() === "cinema" ? "Films vus au cinéma" : "Films visionnés" }}
+    {{
+      selectedView() === "watchlist"
+        ? "Films à voir"
+        : selectedView() === "cinema"
+        ? "Films vus au cinéma"
+        : "Films visionnés"
+    }}
     ({{ filteredMoviesByYear().length }})
   </h1>
 
@@ -30,28 +36,26 @@
     </button>
   </div>
 
-  @if(filteredMoviesByYear().length === 0) {
+  @if(filteredMoviesByYear().length === 0 && selectedView() !== 'watchlist') {
   <div class="empty-state">
     <p class="empty-message">Aucun film à afficher pour cette sélection.</p>
     <p class="empty-subtitle">
-      @if(selectedView() === 'cinema') {
-        Sélectionnez parmi vos films vus ceux que vous avez vus au cinéma.
-      } @else {
-        Passez sur l'autre vue ou ajoutez de nouveaux films à votre collection.
-      }
+      @if(selectedView() === 'cinema') { Sélectionnez parmi vos films vus ceux
+      que vous avez vus au cinéma. } @else { Passez sur l'autre vue ou ajoutez
+      de nouveaux films à votre collection. }
     </p>
     @if(selectedView() === 'cinema') {
-      <button
-        class="btn btn-primary"
-        [routerLink]="getSelectCinemaRoute()"
-        [queryParams]="{ cinema: 'true' }"
-      >
-        Sélectionner mes films vus au cinéma
-      </button>
+    <button
+      class="btn btn-primary"
+      [routerLink]="getSelectCinemaRoute()"
+      [queryParams]="{ cinema: 'true' }"
+    >
+      Sélectionner mes films vus au cinéma
+    </button>
     } @else {
-      <button class="btn btn-primary" [routerLink]="getSelectMoviesRoute()">
-        Sélectionner mes films
-      </button>
+    <button class="btn btn-primary" [routerLink]="getSelectMoviesRoute()">
+      Sélectionner mes films
+    </button>
     }
   </div>
   }
@@ -94,11 +98,10 @@
     </div>
   </div>
 
-  @if(selectedYearFilter() !== 'all' && (selectedView() === 'watched' || selectedView() === 'cinema')) {
+  @if(selectedYearFilter() !== 'all' && (selectedView() === 'watched' ||
+  selectedView() === 'cinema')) {
   <p>Résultats affichés: {{ sortedMovies().length }}</p>
-  }
-
-  @if(selectedView() === 'watchlist') {
+  } @if(selectedView() === 'watchlist') {
   <div class="watchlist-actions">
     <button
       class="btn btn-primary"

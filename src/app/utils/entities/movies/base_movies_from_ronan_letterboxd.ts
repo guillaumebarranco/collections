@@ -5546,26 +5546,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Action',
   },
   {
-    title: 'Birdman',
-    director: 'Alejandro González Iñárritu',
-    actors: [
-      {
-        name: 'Michael Keaton',
-      },
-      {
-        name: 'Edward Norton',
-      },
-      {
-        name: 'Emma Stone',
-      },
-    ],
-    coverUrl:
-      '/movies_pictures/birdman_or_the_unexpected_virtue_of_ignorance.jpg',
-    releaseDate: '2015-02-25',
-    length: 119,
-    genre: 'Drame',
-  },
-  {
     title: 'Ninja Turtles',
     director: 'Jonathan Liebesman',
     actors: [
@@ -8072,25 +8052,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     coverUrl: '/movies_pictures/accepted.jpg',
     releaseDate: '2006-06-07',
     length: 93,
-    genre: 'Comédie',
-  },
-  {
-    title: 'Nos jours heureux',
-    director: 'Éric Toledano, Olivier Nakache',
-    actors: [
-      {
-        name: 'Jean-Paul Rouve',
-      },
-      {
-        name: 'Marilou Berry',
-      },
-      {
-        name: 'Omar Sy',
-      },
-    ],
-    coverUrl: '/movies_pictures/those_happy_days.jpg',
-    releaseDate: '2006-10-25',
-    length: 104,
     genre: 'Comédie',
   },
   {
