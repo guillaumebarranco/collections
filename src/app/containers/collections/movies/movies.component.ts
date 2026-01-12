@@ -337,6 +337,12 @@ export class MoviesComponent implements OnInit {
     return hasNameParam ? [`/${userId}`, 'select-movies'] : ['/select-movies'];
   }
 
+  getSelectCinemaRoute(): string[] {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam ? [`/${params['id']}`, 'select-movies'] : ['/select-movies'];
+  }
+
   onSortChange(sortValue: string) {
     this.selectedSort.set(sortValue);
   }

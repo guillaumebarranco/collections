@@ -34,11 +34,25 @@
   <div class="empty-state">
     <p class="empty-message">Aucun film à afficher pour cette sélection.</p>
     <p class="empty-subtitle">
-      Passez sur l'autre vue ou ajoutez de nouveaux films à votre collection.
+      @if(selectedView() === 'cinema') {
+        Sélectionnez parmi vos films vus ceux que vous avez vus au cinéma.
+      } @else {
+        Passez sur l'autre vue ou ajoutez de nouveaux films à votre collection.
+      }
     </p>
-    <button class="btn btn-primary" [routerLink]="getSelectMoviesRoute()">
-      Sélectionner mes films
-    </button>
+    @if(selectedView() === 'cinema') {
+      <button
+        class="btn btn-primary"
+        [routerLink]="getSelectCinemaRoute()"
+        [queryParams]="{ cinema: 'true' }"
+      >
+        Sélectionner mes films vus au cinéma
+      </button>
+    } @else {
+      <button class="btn btn-primary" [routerLink]="getSelectMoviesRoute()">
+        Sélectionner mes films
+      </button>
+    }
   </div>
   }
 

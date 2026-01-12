@@ -13,6 +13,12 @@ export class SelectEntitiesComponent {
     return queryParams['watchlist'] === 'true';
   });
 
+  // Mode cinema détecté depuis query params
+  isCinemaMode = computed<boolean>(() => {
+    const queryParams = this.activatedRoute.snapshot.queryParams;
+    return queryParams['cinema'] === 'true';
+  });
+
   // ID de l'utilisateur depuis les params
   userId = computed<string>(() => {
     const params: Params = this.activatedRoute.snapshot.params;

@@ -38,8 +38,13 @@ export class SelectMoviesComponent extends SelectEntitiesComponent {
     );
   });
 
-  // Tous les films de tous les utilisateurs, filtrés si mode watchlist
+  // Tous les films de tous les utilisateurs, filtrés si mode watchlist ou cinema
   allMovies = computed<Movie[]>(() => {
+    // En mode cinema, afficher uniquement les films vus par l'utilisateur
+    if (this.isCinemaMode()) {
+      return getMoviesByUser(this.userId());
+    }
+
     const allMoviesList = getAllMoviesMerged();
 
     if (!this.isWatchOrReadlistMode()) {
@@ -125,6 +130,21 @@ export class SelectMoviesComponent extends SelectEntitiesComponent {
       }));
       jsonContent = JSON.stringify(watchlistMovies, null, 2);
       fileName = `my-watchlist-${this.userId()}-${new Date().getTime()}.json`;
+    } else if (this.isCinemaMode()) {
+      // Format cinema : conserver toutes les propriétés du film mais mettre seenAtCinema à true
+      const cinemaMovies = selectedMovies.map((movie) => {
+        return {
+          title: movie.title,
+          director: movie.director,
+          rating: movie.rating,
+          timesWatched: movie.timesWatched,
+          firstViewedDate: movie.firstViewedDate,
+          lastViewedDate: movie.lastViewedDate,
+          seenAtCinema: true,
+        };
+      });
+      jsonContent = JSON.stringify(cinemaMovies, null, 2);
+      fileName = `my-cinema-movies-${this.userId()}-${new Date().getTime()}.json`;
     } else {
       // Format normal : Movie complet
       const moviesList = selectedMovies.map((movie) => {

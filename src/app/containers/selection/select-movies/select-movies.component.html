@@ -6,6 +6,8 @@
       {{
         isWatchOrReadlistMode()
           ? "Sélectionner des films pour ma watchlist"
+          : isCinemaMode()
+          ? "Sélectionner mes films vus au cinéma"
           : "Sélectionner des films"
       }}
     </h1>
@@ -22,6 +24,16 @@
         <br /><br />
         Sélectionne les films que tu aimerais voir et télécharge le fichier JSON
         pour construire ta watchlist.
+      </p>
+      } @else if(isCinemaMode()) {
+      <p>
+        Bonjour {{ username() }} 👋 <br /><br />
+        Tu es en mode "Films vus au cinéma" ! Ici, tu peux sélectionner parmi
+        tous les films que tu as vus ceux que tu as visionnés au cinéma.
+        <br /><br />
+        Sélectionne les films que tu as vus au cinéma et télécharge le fichier
+        JSON. Les films sélectionnés auront la propriété seenAtCinema définie à
+        true dans l'export.
       </p>
       } @else {
       <p>
@@ -114,6 +126,8 @@
         {{
           isWatchOrReadlistMode()
             ? "Exporter ma watchlist"
+            : isCinemaMode()
+            ? "Exporter mes films vus au cinéma"
             : "Exporter ma liste de films"
         }}
         ({{ selectedCount() }})
