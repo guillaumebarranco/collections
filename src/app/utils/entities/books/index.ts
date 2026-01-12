@@ -2,4 +2,5 @@ export { baseBooks } from './base_books';
 export { baseBooksFantasySaga } from './base_books_fantasy_saga';
 export { baseBooksSaga } from './base_books_saga';
 export { baseBooksFromKevin } from './base_books_from_kevin';
+export { baseBooksFromRonan } from './base_books_from_ronan';
 export { baseFromReadlistBooks } from './base_from_readlist_books';

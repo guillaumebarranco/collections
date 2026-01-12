@@ -5,6 +5,7 @@ import {
   baseBooksFantasySaga,
   baseBooksSaga,
   baseBooksFromKevin,
+  baseBooksFromRonan,
   baseFromReadlistBooks,
 } from '../utils/entities/books';
 
@@ -21,6 +22,8 @@ const allBaseBooks: BaseBook[] = [
   ...baseBooksFantasySaga,
   ...baseBooksSaga,
   ...baseBooksFromKevin,
+  ...baseBooksFromRonan,
+  ...baseFromReadlistBooks,
 ];
 
 export function getAllBooks(): { [key: string]: Book[] } {
