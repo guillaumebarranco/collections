@@ -1,0 +1,3343 @@
+import { UserMovie } from '../../../../models/movie-model';
+
+export const ronanCinemaMovies: UserMovie[] = [
+  {
+    title: 'Mickey 17',
+    director: 'Bong Joon-ho',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2025-01-31',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Le Comte de Monte-Cristo',
+    director: 'Alexandre de La Patellière, Matthieu Delaporte',
+    rating: 5,
+    timesWatched: 1,
+    firstViewedDate: '2024-06-28',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Challengers',
+    director: 'Luca Guadagnino',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2024-04-26',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Gran Turismo',
+    director: 'Neill Blomkamp',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2023-08-25',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Oppenheimer',
+    director: 'Christopher Nolan',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2023-07-21',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Barbie',
+    director: 'Greta Gerwig',
+    rating: 2,
+    timesWatched: 1,
+    firstViewedDate: '2023-07-21',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Creed III',
+    director: 'Michael B. Jordan',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2023-03-03',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Babylon',
+    director: 'Damien Chazelle',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2022-12-23',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Bullet Train',
+    director: 'David Leitch',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2022-08-05',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Everything Everywhere All at Once',
+    director: 'Daniel Kwan, Daniel Scheinert',
+    rating: 4.5,
+    timesWatched: 1,
+    firstViewedDate: '2022-03-25',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Free Guy',
+    director: 'Shawn Levy',
+    rating: 2,
+    timesWatched: 1,
+    firstViewedDate: '2021-08-13',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Thunderbolts',
+    director: 'Jake Schreier',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2025-05-02',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Tenet',
+    director: 'Christopher Nolan',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2020-09-03',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Joker',
+    director: 'Todd Phillips',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2019-10-04',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Aladdin',
+    director: 'Guy Ritchie',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2019-05-24',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Alita: Battle Angel',
+    director: 'Robert Rodriguez',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2019-02-14',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'A Star Is Born',
+    director: 'Bradley Cooper',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2018-10-05',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Ready Player One',
+    director: 'Steven Spielberg',
+    rating: 5,
+    timesWatched: 1,
+    firstViewedDate: '2018-03-29',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Astérix & Obélix : Mission Cléopâtre',
+    director: 'Alain Chabat',
+    rating: 5,
+    timesWatched: 1,
+    firstViewedDate: '2002-01-30',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Kingsman: The Golden Circle',
+    director: 'Matthew Vaughn',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2017-09-22',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: "The Hitman's Bodyguard",
+    director: 'Patrick Hughes',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2017-08-18',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: "Comment c'est loin",
+    director: 'Orelsan',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2015-12-09',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Creed',
+    director: 'Ryan Coogler',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2015-11-25',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'The Visit',
+    director: 'M. Night Shyamalan',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2015-09-11',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Pixels',
+    director: 'Chris Columbus',
+    rating: 2,
+    timesWatched: 1,
+    firstViewedDate: '2015-07-24',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Interstellar',
+    director: 'Christopher Nolan',
+    rating: 5,
+    timesWatched: 1,
+    firstViewedDate: '2014-11-07',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Birdman',
+    director: 'Alejandro G. Iñárritu',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2014-10-17',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Lucy',
+    director: 'Luc Besson',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2014-07-25',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Elysium',
+    director: 'Neill Blomkamp',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2013-08-09',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Pacific Rim',
+    director: 'Guillermo del Toro',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2013-07-12',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Yes Man',
+    director: 'Peyton Reed',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2008-12-19',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Drive',
+    director: 'Nicolas Winding Refn',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2011-09-16',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Coco',
+    director: 'Lee Unkrich',
+    rating: 1,
+    timesWatched: 1,
+    firstViewedDate: '2017-11-22',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Avengers: Infinity War',
+    director: 'Anthony Russo, Joe Russo',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2018-04-27',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Avengers: Endgame',
+    director: 'Anthony Russo, Joe Russo',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2019-04-26',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Captain America: Brave New World',
+    director: 'Julius Onah',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2025-02-14',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Iron Man 3',
+    director: 'Shane Black',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2013-05-03',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Thor',
+    director: 'Kenneth Branagh',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2011-05-06',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Thor: The Dark World',
+    director: 'Alan Taylor',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2013-11-08',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Thor: Ragnarok',
+    director: 'Taika Waititi',
+    rating: 2,
+    timesWatched: 1,
+    firstViewedDate: '2017-11-03',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Captain Marvel',
+    director: 'Anna Boden, Ryan Fleck',
+    rating: 2,
+    timesWatched: 1,
+    firstViewedDate: '2019-03-08',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Shang-Chi et la Légende des Dix Anneaux',
+    director: 'Destin Daniel Cretton',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2021-09-03',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Doctor Strange',
+    director: 'Scott Derrickson',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2016-11-04',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Black Panther',
+    director: 'Ryan Coogler',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2018-02-16',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Ant-Man',
+    director: 'Peyton Reed',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2015-07-17',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Spider-Man: Homecoming',
+    director: 'Jon Watts',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2017-07-07',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Spider-Man: Far From Home',
+    director: 'Jon Watts',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2019-07-02',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Black Widow',
+    director: 'Cate Shortland',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2021-07-09',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Deadpool et Wolverine',
+    director: 'Shawn Levy',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2024-07-26',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Green Lantern',
+    director: 'Martin Campbell',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2011-06-17',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'The Dark Knight Rises',
+    director: 'Christopher Nolan',
+    rating: 5,
+    timesWatched: 1,
+    firstViewedDate: '2012-07-20',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'The Batman',
+    director: 'Matt Reeves',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2022-03-04',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Shazam!',
+    director: 'David F. Sandberg',
+    rating: 2,
+    timesWatched: 1,
+    firstViewedDate: '2019-04-05',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Aquaman',
+    director: 'James Wan',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2018-12-21',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Black Adam',
+    director: 'Jaume Collet-Serra',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2022-10-21',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Suicide Squad',
+    director: 'David Ayer',
+    rating: 2,
+    timesWatched: 1,
+    firstViewedDate: '2016-08-05',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Man of Steel',
+    director: 'Zack Snyder',
+    rating: 5,
+    timesWatched: 1,
+    firstViewedDate: '2013-06-14',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Superman',
+    director: 'James Gunn',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2025-07-11',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Wonder Woman',
+    director: 'Patty Jenkins',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2017-06-02',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'The Flash',
+    director: 'Andy Muschietti',
+    rating: 2,
+    timesWatched: 1,
+    firstViewedDate: '2023-06-16',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Birds of Prey',
+    director: 'Cathy Yan',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2020-02-07',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Deadpool',
+    director: 'Tim Miller',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2016-02-12',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Deadpool 2',
+    director: 'David Leitch',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2018-05-18',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'The Wolverine',
+    director: 'James Mangold',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2013-07-26',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Logan',
+    director: 'James Mangold',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2017-03-03',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'X-Men : Days of Future Past',
+    director: 'Bryan Singer',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2014-05-23',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Venom',
+    director: 'Ruben Fleischer',
+    rating: 2,
+    timesWatched: 1,
+    firstViewedDate: '2018-10-05',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Spider-Man 2',
+    director: 'Sam Raimi',
+    rating: 4.5,
+    timesWatched: 1,
+    firstViewedDate: '2004-06-30',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Spider-Man 3',
+    director: 'Sam Raimi',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2007-05-04',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'The Amazing Spider-Man',
+    director: 'Marc Webb',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2012-07-03',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Kick-Ass 2',
+    director: 'Jeff Wadlow',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2013-08-16',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Ghost Rider',
+    director: 'Mark Steven Johnson',
+    rating: 2,
+    timesWatched: 1,
+    firstViewedDate: '2007-02-16',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'La La Land',
+    director: 'Damien Chazelle',
+    rating: 5,
+    timesWatched: 1,
+    firstViewedDate: '2016-12-09',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Dragons 2',
+    director: 'Dean DeBlois',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2014-06-13',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Spider-Man: Into the Spider-Verse',
+    director: 'Bob Persichetti, Peter Ramsey, Rodney Rothman',
+    rating: 5,
+    timesWatched: 1,
+    firstViewedDate: '2018-12-14',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Vaiana',
+    director: 'Ron Clements, John Musker',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2016-11-23',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Vice-Versa',
+    director: 'Pete Docter',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2015-06-19',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Arthur et les Minimoys',
+    director: 'Luc Besson',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2006-12-13',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Les Indestructibles 2',
+    director: 'Brad Bird',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2018-06-15',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Toy Story 3',
+    director: 'Lee Unkrich',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2010-06-18',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Megamind',
+    director: 'Tom McGrath',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2010-11-05',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Solo: A Star Wars Story',
+    director: 'Ron Howard',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2018-05-25',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Fast & Furious 6',
+    director: 'Justin Lin',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2013-05-24',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Fast & Furious Presents: Hobbs & Shaw',
+    director: 'David Leitch',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2019-08-02',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Terminator Genisys',
+    director: 'Alan Taylor',
+    rating: 2,
+    timesWatched: 1,
+    firstViewedDate: '2015-07-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Dune',
+    director: 'Denis Villeneuve',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2021-10-22',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Jack Reacher',
+    director: 'Christopher McQuarrie',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2012-12-21',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Glass',
+    director: 'M. Night Shyamalan',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2019-01-18',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Creed II',
+    director: 'Steven Caple Jr.',
+    rating: 5,
+    timesWatched: 1,
+    firstViewedDate: '2018-11-21',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Taken 2',
+    director: 'Olivier Megaton',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2012-10-05',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Taken 3',
+    director: 'Olivier Megaton',
+    rating: 2,
+    timesWatched: 1,
+    firstViewedDate: '2015-01-09',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Transformers',
+    director: 'Michael Bay',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2007-07-03',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'RED',
+    director: 'Robert Schwentke',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2010-10-15',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'RED 2',
+    director: 'Dean Parisot',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2013-07-19',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: "Ocean's Eight",
+    director: 'Gary Ross',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2018-06-08',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Avatar',
+    director: 'James Cameron',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2009-12-18',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Wonka',
+    director: 'Paul King',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2023-12-15',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: "Donjons & Dragons : L'Honneur des voleurs",
+    director: 'John Francis Daley, Jonathan Goldstein',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2023-03-31',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Elvis',
+    director: 'Baz Luhrmann',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2022-06-24',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Cruella',
+    director: 'Craig Gillespie',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2021-05-28',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: '1917',
+    director: 'Sam Mendes',
+    rating: 4.5,
+    timesWatched: 1,
+    firstViewedDate: '2019-12-25',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Jurassic World: Fallen Kingdom',
+    director: 'J.A. Bayona',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2018-06-22',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Tomb Raider',
+    director: 'Roar Uthaug',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2018-03-16',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'The Greatest Showman',
+    director: 'Michael Gracey',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2017-12-20',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Warcraft',
+    director: 'Duncan Jones',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2016-06-10',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Zootopie',
+    director: 'Byron Howard, Rich Moore',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2016-03-04',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Jurassic World',
+    director: 'Colin Trevorrow',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2015-06-12',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Titanic',
+    director: 'James Cameron',
+    rating: 5,
+    timesWatched: 1,
+    firstViewedDate: '1997-12-19',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Avatar : De feu et de cendres',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2025-12-17',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'James Cameron',
+  },
+
+  {
+    title: 'Zootopie 2',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2025-11-26',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Jared Bush, Byron Howard',
+  },
+
+  {
+    title: 'Wicked: For Good',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2025-11-19',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Jon M. Chu',
+  },
+
+  {
+    title: 'Running Man',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2025-11-19',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Edgar Wright',
+  },
+
+  {
+    title: 'Insaisissables 3',
+    rating: 2,
+    timesWatched: 1,
+    firstViewedDate: '2025-11-12',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Ruben Fleischer',
+  },
+
+  {
+    title: 'TRON : Ares',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2025-10-08',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Joachim Rønning',
+  },
+
+  {
+    title: 'A Big Bold Beautiful Journey',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2025-10-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Kogonada',
+  },
+
+  {
+    title: 'One Battle After Another',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2025-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Paul Thomas Anderson',
+  },
+
+  {
+    title: "Conjuring : L'Heure du jugement",
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2025-09-10',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Michael Chaves',
+  },
+
+  {
+    title: 'Smashing Machine',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2025-10-29',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Benny Safdie',
+  },
+
+  {
+    title: 'Jay Kelly',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2025-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Noah Baumbach',
+  },
+
+  {
+    title: 'Adieu Jean-Pat',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2025-09-03',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Cécilia Rouaud',
+  },
+
+  {
+    title: 'Pris au piège',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2025-08-27',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Darren Aronofsky',
+  },
+
+  {
+    title: 'Évanouis',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2025-08-06',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Zach Cregger',
+  },
+
+  {
+    title: 'Jurassic World : Renaissance',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2025-07-04',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Gareth Edwards',
+  },
+
+  {
+    title: 'F1',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2025-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Joseph Kosinski',
+  },
+
+  {
+    title: 'Dragons',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2025-06-11',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Dean DeBlois',
+  },
+
+  {
+    title: 'Le Son des souvenirs',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2025-02-25',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Oliver Hermanus',
+  },
+
+  {
+    title: "The Party's Over!",
+    rating: 2,
+    timesWatched: 1,
+    firstViewedDate: '2025-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Antony Cordier',
+  },
+
+  {
+    title: 'Highest 2 Lowest',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2025-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Spike Lee',
+  },
+
+  {
+    title: 'Alpha',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2025-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Julia Ducournau',
+  },
+
+  {
+    title: 'The Phoenician Scheme',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2025-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Wes Anderson',
+  },
+
+  {
+    title: 'Exit 8',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2025-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Genki Kawamura',
+  },
+
+  {
+    title: 'Eddington',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2025-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Ari Aster',
+  },
+
+  {
+    title: 'Partir un jour',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2025-05-14',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Amélie Bonnin',
+  },
+
+  {
+    title: 'Karate Kid: Legends',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2025-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Jonathan Entwistle',
+  },
+
+  {
+    title: 'Mission: Impossible – The Final Reckoning',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2025-05-21',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Christopher McQuarrie',
+  },
+
+  {
+    title: 'Last Bullet',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2025-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Guillaume Pierret',
+  },
+
+  {
+    title: 'Train Dreams',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2025-11-07',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Clint Bentley',
+  },
+
+  {
+    title: 'Un parfait inconnu',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2025-01-29',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'James Mangold',
+  },
+
+  {
+    title: 'The Lord of the Rings: The War of the Rohirrim',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2024-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Kenji Kamiyama',
+  },
+
+  {
+    title: 'Vaiana 2',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2024-11-27',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'David G. Derrick Jr., Jason Hand, Dana Ledoux Miller',
+  },
+
+  {
+    title: 'Nosferatu',
+    rating: 2,
+    timesWatched: 1,
+    firstViewedDate: '2024-12-25',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Robert Eggers',
+  },
+
+  {
+    title: 'Juré n°2',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2024-10-30',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Clint Eastwood',
+  },
+
+  {
+    title: 'Loups-Garous',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2024-10-23',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'François Uzan',
+  },
+
+  {
+    title: 'Caddo Lake',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2024-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Celine Held, Logan George',
+  },
+
+  {
+    title: 'Heretic',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2024-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Scott Beck, Bryan Woods',
+  },
+
+  {
+    title: 'Life of Chuck',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2025-06-11',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Mike Flanagan',
+  },
+
+  {
+    title: 'We Live in Time',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2024-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'John Crowley',
+  },
+
+  {
+    title: 'Joker : Folie à Deux',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2024-10-02',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Todd Phillips',
+  },
+
+  {
+    title: 'Beetlejuice Beetlejuice',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2024-09-11',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Tim Burton',
+  },
+
+  {
+    title: 'Trap',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2024-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'M. Night Shyamalan',
+  },
+
+  {
+    title: 'Twisters',
+    rating: 2,
+    timesWatched: 1,
+    firstViewedDate: '2024-07-17',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Lee Isaac Chung',
+  },
+
+  {
+    title: 'Fly Me to the Moon',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2024-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Greg Berlanti',
+  },
+
+  {
+    title: 'Kingdom of the Planet of the Apes',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2024-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Wes Ball',
+  },
+
+  {
+    title: 'A Little Something Extra',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2024-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Artus',
+  },
+
+  {
+    title: 'Ghostbusters: Frozen Empire',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2024-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Gil Kenan',
+  },
+
+  {
+    title: 'Civil War',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2024-04-17',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Alex Garland',
+  },
+
+  {
+    title: 'The Fall Guy',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2024-05-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'David Leitch',
+  },
+
+  {
+    title: 'Monkey Man',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2024-04-17',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Dev Patel',
+  },
+
+  {
+    title: 'Kung Fu Panda 4',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2024-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Mike Mitchell, Stephanie Ma Stine',
+  },
+
+  {
+    title: 'Code 8 : Partie II',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2024-02-28',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Jeff Chan',
+  },
+
+  {
+    title: 'Aquaman et le Royaume perdu',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2023-12-20',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'James Wan',
+  },
+
+  {
+    title: 'Tout sauf toi',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2024-01-24',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Will Gluck',
+  },
+
+  {
+    title: 'Iron Claw',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2024-01-24',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Sean Durkin',
+  },
+
+  {
+    title: 'Godzilla Minus One',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2023-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Takashi Yamazaki',
+  },
+
+  {
+    title: 'Cinq nuits chez Freddy',
+    rating: 2,
+    timesWatched: 1,
+    firstViewedDate: '2023-11-08',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Emma Tammi',
+  },
+
+  {
+    title: 'The Creator',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2023-09-27',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Gareth Edwards',
+  },
+
+  {
+    title: 'The Killer',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2023-10-27',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'David Fincher',
+  },
+
+  {
+    title: 'Ferrari',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2024-03-08',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Michael Mann',
+  },
+
+  {
+    title: 'Blue Beetle',
+    rating: 1.5,
+    timesWatched: 1,
+    firstViewedDate: '2023-08-16',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Angel Manuel Soto',
+  },
+
+  {
+    title: 'Le Manoir hanté',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2023-07-26',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Justin Simien',
+  },
+
+  {
+    title: 'Mission: Impossible – Dead Reckoning Partie 1',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2023-07-12',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Christopher McQuarrie',
+  },
+
+  {
+    title: 'Le Challenge',
+    rating: 2,
+    timesWatched: 1,
+    firstViewedDate: '2023-06-21',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Gene Stupnitsky',
+  },
+
+  {
+    title: 'Indiana Jones and the Dial of Destiny',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2023-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'James Mangold',
+  },
+
+  {
+    title: 'AKA',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2023-04-28',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Morgan S. Dalibert',
+  },
+
+  {
+    title: 'Air',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2023-04-05',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Ben Affleck',
+  },
+
+  {
+    title: 'Scream VI',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2023-03-08',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Matt Bettinelli-Olpin, Tyler Gillett',
+  },
+
+  {
+    title: "Astérix et Obélix : L'Empire du Milieu",
+    rating: 1,
+    timesWatched: 1,
+    firstViewedDate: '2023-02-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Guillaume Canet',
+  },
+
+  {
+    title: 'Balle perdue 2',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2022-11-10',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Guillaume Pierret',
+  },
+
+  {
+    title: 'Le Menu',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2022-11-23',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Mark Mylod',
+  },
+
+  {
+    title: 'Athena',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2022-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Romain Gavras',
+  },
+
+  {
+    title: 'The Gray Man',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2022-07-22',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Anthony Russo, Joe Russo',
+  },
+
+  {
+    title: 'Le Monstre des mers',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2022-07-08',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Chris Williams',
+  },
+
+  {
+    title: 'The Night of the 12th',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2022-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Dominik Moll',
+  },
+
+  {
+    title: 'Uncharted',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2022-02-16',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Ruben Fleischer',
+  },
+
+  {
+    title: 'Scream',
+    rating: 4.5,
+    timesWatched: 1,
+    firstViewedDate: '2022-01-12',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Matt Bettinelli-Olpin, Tyler Gillett',
+  },
+
+  {
+    title: 'Super-héros malgré lui',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2022-02-02',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Philippe Lacheau',
+  },
+
+  {
+    title: "Conjuring : Sous l'emprise du diable",
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2021-06-09',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Michael Chaves',
+  },
+
+  {
+    title: 'The Woman in the Window',
+    rating: 2,
+    timesWatched: 1,
+    firstViewedDate: '2021-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Joe Wright',
+  },
+
+  {
+    title: 'Army of the Dead',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2021-05-21',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Zack Snyder',
+  },
+
+  {
+    title: 'Sonic the Hedgehog',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2020-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Jeff Fowler',
+  },
+
+  {
+    title: 'Jumanji: Next Level',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2019-12-04',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Jake Kasdan',
+  },
+
+  {
+    title: 'Code 8',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2019-12-13',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Jeff Chan',
+  },
+
+  {
+    title: 'Men in Black: International',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2019-06-12',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'F. Gary Gray',
+  },
+
+  {
+    title: 'Godzilla: King of the Monsters',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2019-01-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Michael Dougherty',
+  },
+
+  {
+    title: 'Crazy Rich Asians',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2018-11-07',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Jon M. Chu',
+  },
+
+  {
+    title: 'Sans un bruit',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2018-06-20',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'John Krasinski',
+  },
+
+  {
+    title: 'The Babysitter',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2017-10-13',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'McG',
+  },
+
+  {
+    title: "Assassin's Creed",
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2016-12-21',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Justin Kurzel',
+  },
+
+  {
+    title: 'Les Trolls',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2016-10-19',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Mike Mitchell, Walt Dohrn',
+  },
+
+  {
+    title: 'Moonlight',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2017-02-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Barry Jenkins',
+  },
+
+  {
+    title: 'Tarzan',
+    rating: 4.5,
+    timesWatched: 1,
+    firstViewedDate: '2016-07-06',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'David Yates',
+  },
+
+  {
+    title: 'Teenage Mutant Ninja Turtles: Out of the Shadows',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2016-06-29',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Dave Green',
+  },
+
+  {
+    title: 'Money Monster',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2016-05-12',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Jodie Foster',
+  },
+
+  {
+    title: 'Five',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2016-08-31',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Igor Gotesman',
+  },
+
+  {
+    title: 'Steve Jobs',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2016-02-03',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Danny Boyle',
+  },
+
+  {
+    title: 'Ted 2',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2015-08-05',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Seth MacFarlane',
+  },
+
+  {
+    title: 'Magic Mike XXL',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2015-07-08',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Gregory Jacobs',
+  },
+
+  {
+    title: 'Dope',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2015-11-04',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Rick Famuyiwa',
+  },
+
+  {
+    title: 'Dracula Untold',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2014-10-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Gary Shore',
+  },
+
+  {
+    title: 'Birdman',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2015-02-25',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Alejandro González Iñárritu',
+  },
+
+  {
+    title: 'Step Up: All In',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2014-08-08',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Trish Sie',
+  },
+
+  {
+    title: 'Godzilla',
+    rating: 2,
+    timesWatched: 1,
+    firstViewedDate: '2014-05-14',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Gareth Edwards',
+  },
+
+  {
+    title: 'The Raid 2',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2014-07-23',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Gareth Evans',
+  },
+
+  {
+    title: 'Out of the Furnace',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2014-01-15',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Scott Cooper',
+  },
+
+  {
+    title: 'Mama',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2013-05-15',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Andrés Muschietti',
+  },
+
+  {
+    title: 'Cloud Atlas',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2013-03-13',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Lana Wachowski, Lilly Wachowski, Tom Tykwer',
+  },
+
+  {
+    title: 'Un monstre à Paris',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2011-10-12',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Bibo Bergeron',
+  },
+
+  {
+    title: 'Raiponce',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2010-12-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Byron Howard, Nathan Greno',
+  },
+
+  {
+    title: 'Insidious',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2011-06-15',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'James Wan',
+  },
+
+  {
+    title: 'Le Chat Potté 2 : La Dernière Quête',
+    director: 'Joel Crawford',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2022-12-21',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Top Gun : Maverick',
+    director: 'Joseph Kosinski',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2022-05-27',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Les 4 fantastiques',
+    director: 'Matt Shakman',
+    rating: 4.5,
+    timesWatched: 1,
+    firstViewedDate: '2025-07-25',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'La femme de ménage',
+    director: 'Paul Feig',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2025-12-24',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Valerian and the City of a Thousand Planets',
+    director: 'Luc Besson',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2017-07-21',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Le Labyrinthe : La Terre Brûlée',
+    director: 'Wes Ball',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2015-09-18',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'La rage au ventre',
+    director: 'Antoine Fuqua',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2015-07-24',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Diversion',
+    director: 'Glenn Ficarra, John Requa',
+    rating: 4.5,
+    timesWatched: 1,
+    firstViewedDate: '2015-02-27',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Kingsman : Services Secrets',
+    director: 'Matthew Vaughn',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2015-02-13',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Robocop',
+    director: 'José Padilha',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2014-02-12',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Avengers',
+    director: 'Joss Whedon',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2012-05-04',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Captain America : First Avenger',
+    director: 'Joe Johnston',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2011-07-22',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Captain America : Civil War',
+    director: 'Anthony Russo, Joe Russo',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2016-05-06',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Thor : Love & Thunder',
+    director: 'Taika Waititi',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2022-07-08',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Les Marvels',
+    director: 'Nia DaCosta',
+    rating: 2,
+    timesWatched: 1,
+    firstViewedDate: '2023-11-10',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Doctor Strange dans le Multivers de la Folie',
+    director: 'Sam Raimi',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2022-05-06',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Black Panther : Wakanda pour Toujours',
+    director: 'Ryan Coogler',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2022-11-11',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Spider-Man : No Way Home',
+    director: 'Jon Watts',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2021-12-17',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'The Dark Knight : Le Chevalier Noir',
+    director: 'Christopher Nolan',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2008-07-18',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'X-Men : Apocalypse',
+    director: 'Bryan Singer',
+    rating: 2,
+    timesWatched: 1,
+    firstViewedDate: '2016-05-27',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'X-Men :Dark Phoenix',
+    director: 'Simon Kinberg',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2019-06-07',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Dragons 3: Le monde perdu',
+    director: 'Dean DeBlois',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2019-02-22',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Super Mario Bros. le Film',
+    director: 'Aaron Horvath, Michael Jelenic',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2023-04-05',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Harry Potter et le prince de sang-mêlé',
+    director: 'David Yates',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2009-07-15',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Harry Potter et les reliques de la mort - partie 1',
+    director: 'David Yates',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2010-11-19',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Star Wars : Épisode 3 - La revanche des Sith',
+    director: 'George Lucas',
+    rating: 4.5,
+    timesWatched: 1,
+    firstViewedDate: '2005-05-19',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Star Wars : Episode 7 - Le réveil de la Force',
+    director: 'J.J. Abrams',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2015-12-18',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Star Wars : Episode 8 - Le dernier Jedi',
+    director: 'Rian Johnson',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2017-12-15',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Rogue One : A Star Wars Story',
+    director: 'Gareth Edwards',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2016-12-16',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Dune : Partie 2',
+    director: 'Denis Villeneuve',
+    rating: 5,
+    timesWatched: 1,
+    firstViewedDate: '2024-03-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'John Wick: Chapter 3 - Parabellum',
+    director: 'Chad Stahelski',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2019-05-17',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Le Labyrinthe 2 : Le remède mortel',
+    director: 'Wes Ball',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2018-01-26',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Hunger Games',
+    director: 'Gary Ross',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2012-03-23',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Hunger Games : La Révolte - Partie 1',
+    director: 'Francis Lawrence',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2014-11-21',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Transformers 2 : La Revanche',
+    director: 'Michael Bay',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2009-06-24',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Twilight : Chapitre 4 - Révélation - Partie 1',
+    director: 'Bill Condon',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2011-11-18',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Green Book : Sur les routes du Sud',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2019-01-23',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Peter Farrelly',
+  },
+
+  {
+    title: 'Hérédité',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2018-06-13',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Ari Aster',
+  },
+
+  {
+    title: 'Life : Origine inconnue',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2017-04-19',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Daniel Espinosa',
+  },
+
+  {
+    title: 'Mission : Impossible – Rogue Nation',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2015-08-12',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Christopher McQuarrie',
+  },
+
+  {
+    title: 'Paranormal Activity 5 : Ghost Dimension',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2015-10-21',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Gregory Plotkin',
+  },
+
+  {
+    title: 'Ninja Turtles',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2014-10-15',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Jonathan Liebesman',
+  },
+
+  {
+    title: 'Vampires en toute intimité',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2015-02-11',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Taika Waititi, Jemaine Clement',
+  },
+
+  {
+    title: 'Gatsby le Magnifique',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2013-05-10',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Baz Luhrmann',
+  },
+
+  {
+    title: 'One Piece Film Z',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2013-05-15',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Tatsuya Nagamine',
+  },
+
+  {
+    title: 'Le Hobbit : Un voyage inattendu',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2012-12-14',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Peter Jackson',
+  },
+
+  {
+    title: 'Phone Game',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2002-09-10',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Joel Schumacher',
+  },
+
+  {
+    title: "Avengers : L'Ère d'Ultron",
+    director: 'Joss Whedon',
+    rating: 4, // Avengers: Age of Ultron (2015) ★★★★
+    timesWatched: 1,
+    firstViewedDate: '2015-05-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: "Captain America : Le Soldat de l'Hiver",
+    director: 'Anthony Russo, Joe Russo',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2014-04-04',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Les Gardiens de la Galaxie',
+    director: 'James Gunn',
+    rating: 4, // Guardians of the Galaxy (2014) ★★★★
+    timesWatched: 1,
+    firstViewedDate: '2014-08-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Les Gardiens de la Galaxie Vol. 2',
+    director: 'James Gunn',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2017-05-05',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Les Gardiens de la Galaxie Vol. 3',
+    director: 'James Gunn',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2023-05-05',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Ant-Man et la Guêpe',
+    director: 'Peyton Reed',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2018-07-06',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Ant-Man et la Guêpe : Quantumania',
+    director: 'Peyton Reed',
+    rating: 2,
+    timesWatched: 1,
+    firstViewedDate: '2023-02-17',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Les Éternels',
+    director: 'Chloé Zhao',
+    rating: 3, // Eternals (2021) ★★★
+    timesWatched: 1,
+    firstViewedDate: '2021-11-05',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: "Batman v Superman : L'Aube de la Justice",
+    director: 'Zack Snyder',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2016-03-25',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: "The Amazing Spider-Man : Le Destin d'un Héros",
+    director: 'Marc Webb',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2014-05-02',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Les 4 Fantastiques',
+    director: 'Josh Trank',
+    rating: 0.5, // Fantastic Four (2015) ★
+    timesWatched: 1,
+    firstViewedDate: '2015-08-07',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Sex Friends',
+    director: 'Ivan Reitman',
+    rating: 3, // No Strings Attached (2011) ★★★
+    timesWatched: 1,
+    firstViewedDate: '2011-02-16',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: "L'amour ouf",
+    director: 'Claude Zidi Jr.',
+    rating: 3.5, // Beating Hearts (2024) ★★★½
+    timesWatched: 1,
+    firstViewedDate: '2024-01-31',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Spider-Man : À Travers le Spider-Verse',
+    director: 'Joaquim Dos Santos, Kemp Powers, Justin K. Thompson',
+    rating: 5,
+    timesWatched: 1,
+    firstViewedDate: '2023-06-02',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: "Harry Potter à l'école des sorciers",
+    director: 'Chris Columbus',
+    rating: 3.5, // Harry Potter and the Philosopher's Stone (2001) ★★★½
+    timesWatched: 1,
+    firstViewedDate: '2001-11-16',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Harry Potter et la chambre des secrets',
+    director: 'Chris Columbus',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2002-11-15',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: "Harry Potter et le prisonnier d'Azkaban",
+    director: 'Alfonso Cuarón',
+    rating: 4, // Harry Potter and the Prisoner of Azkaban (2004) ★★★★
+    timesWatched: 1,
+    firstViewedDate: '2004-06-04',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Harry Potter et la coupe de feu',
+    director: 'Mike Newell',
+    rating: 4, // Harry Potter and the Goblet of Fire (2005) ★★★★
+    timesWatched: 1,
+    firstViewedDate: '2005-11-18',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: "Harry Potter et l'ordre du phénix",
+    director: 'David Yates',
+    rating: 3, // Harry Potter and the Order of the Phoenix (2007) ★★★
+    timesWatched: 1,
+    firstViewedDate: '2007-07-11',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Harry Potter et les reliques de la mort - partie 2',
+    director: 'David Yates',
+    rating: 4, // Harry Potter and the Deathly Hallows: Part 2 (2011) ★★★★
+    timesWatched: 1,
+    firstViewedDate: '2011-07-15',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: "Star Wars : Episode 9 - L'ascension de Skywalker",
+    director: 'J.J. Abrams',
+    rating: 4.5,
+    timesWatched: 1,
+    firstViewedDate: '2019-12-20',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Fast & Furious 7',
+    director: 'James Wan',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2015-04-03',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Fast & Furious 9',
+    director: 'Justin Lin',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2021-06-25',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Fast & Furious X',
+    director: 'Louis Leterrier',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2023-05-19',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'John Wick : Chapitre 4',
+    director: 'Chad Stahelski',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2023-03-24',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Les Animaux Fantastiques',
+    director: 'David Yates',
+    rating: 3, // Fantastic Beasts and Where to Find Them (2016) ★★★
+    timesWatched: 1,
+    firstViewedDate: '2016-11-18',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Les Animaux Fantastiques 2 : Les crimes de Grindelwald',
+    director: 'David Yates',
+    rating: 3, // Fantastic Beasts: The Crimes of Grindelwald (2018) ★★★
+    timesWatched: 1,
+    firstViewedDate: '2018-11-16',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Les Animaux Fantastiques 3 : Les Secrets de Dumbledore',
+    director: 'David Yates',
+    rating: 2, // Fantastic Beasts: The Secrets of Dumbledore (2022) ★★
+    timesWatched: 1,
+    firstViewedDate: '2022-04-15',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'James Bond : Mourir Peut Attendre',
+    director: 'Cary Joji Fukunaga',
+    rating: 4, // No Time to Die (2021) ★★★★
+    timesWatched: 1,
+    firstViewedDate: '2021-10-08',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Inssaisissables',
+    director: 'Louis Leterrier',
+    rating: 4, // Now You See Me (2013) ★★★★
+    timesWatched: 1,
+    firstViewedDate: '2013-05-31',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Transformers 3 : La Face Cachée de la Lune',
+    director: 'Michael Bay',
+    rating: 4, // Transformers: Dark of the Moon (2011) ★★★★
+    timesWatched: 1,
+    firstViewedDate: '2011-06-29',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: "Transformers 4 : L'Âge de l'Extinction",
+    director: 'Michael Bay',
+    rating: 3, // Transformers: Age of Extinction (2014) ★★★
+    timesWatched: 1,
+    firstViewedDate: '2014-06-27',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Very Bad Trip 2',
+    director: 'Todd Phillips',
+    rating: 3, // The Hangover Part II (2011) ★★★
+    timesWatched: 1,
+    firstViewedDate: '2011-05-26',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Very Bad Trip 3',
+    director: 'Todd Phillips',
+    rating: 3, // The Hangover Part III (2013) ★★★
+    timesWatched: 1,
+    firstViewedDate: '2013-05-23',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Twilight : Chapitre 2 - Tentation',
+    director: 'Chris Weitz',
+    rating: 2.5, // The Twilight Saga: New Moon (2009) ★★½
+    timesWatched: 1,
+    firstViewedDate: '2009-11-20',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Twilight : Chapitre 3 - Hésitation',
+    director: 'David Slade',
+    rating: 3, // The Twilight Saga: Eclipse (2010) ★★★
+    timesWatched: 1,
+    firstViewedDate: '2010-06-30',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Twilight : Chapitre 4 - Révélation - Partie 2',
+    director: 'Bill Condon',
+    rating: 3, // The Twilight Saga: Breaking Dawn – Part 2 (2012) ★★★
+    timesWatched: 1,
+    firstViewedDate: '2012-11-16',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Underworld : Éveil',
+    director: 'Måns Mårlind, Björn Stein',
+    rating: 3, // Underworld: Awakening (2012) ★★★
+    timesWatched: 1,
+    firstViewedDate: '2012-01-20',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Les Bronzés 3 : Amis pour la Vie',
+    director: 'Patrice Leconte',
+    rating: 2.5, // French Fried Vacations 3: Friends Forever (2006) ★★½
+    timesWatched: 1,
+    firstViewedDate: '2006-01-25',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: "Avatar 2 : La Voie de l'Eau",
+    director: 'James Cameron',
+    rating: 4, // Avatar: The Way of Water (2022) ★★★★
+    timesWatched: 1,
+    firstViewedDate: '2022-12-16',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: "The King's Man : Première mission",
+    director: 'Matthew Vaughn',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2021-12-22',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'La Reine des neiges 2',
+    director: 'Chris Buck, Jennifer Lee',
+    rating: 3, // Frozen II (2019) ★★★
+    timesWatched: 1,
+    firstViewedDate: '2019-11-22',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Jumanji : Bienvenue dans la jungle',
+    director: 'Jake Kasdan',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2017-12-20',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Pirates des Caraïbes : La Vengeance de Salazar',
+    director: 'Joachim Rønning, Espen Sandberg',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2017-05-26',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Le Livre de la jungle',
+    director: 'Jon Favreau',
+    rating: 3, // The Jungle Book (2016) ★★★
+    timesWatched: 1,
+    firstViewedDate: '2016-04-15',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Le Grinch',
+    director: 'Ron Howard',
+    rating: 4, // How the Grinch Stole Christmas (2000) ★★★★
+    timesWatched: 1,
+    firstViewedDate: '2000-11-17',
+    lastViewedDate: '',
+    seenAtCinema: true,
+  },
+
+  {
+    title: 'Le Grinch',
+    rating: 3, // The Grinch (2018) ★★★
+    timesWatched: 1,
+    firstViewedDate: '2018-11-28',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Yarrow Cheney, Scott Mosier',
+  },
+
+  {
+    title: 'American Nightmare 4 : Les Origines',
+    rating: 2.5, // The First Purge (2018) ★★½
+    timesWatched: 1,
+    firstViewedDate: '2018-07-04',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Gerard McMurray',
+  },
+
+  {
+    title: 'Jumanji : Bienvenue dans la jungle',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2017-12-20',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Jake Kasdan',
+  },
+
+  {
+    title: 'La Planète des singes : Suprématie',
+    rating: 4, // War for the Planet of the Apes (2017) ★★★★
+    timesWatched: 1,
+    firstViewedDate: '2017-08-02',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Matt Reeves',
+  },
+
+  {
+    title: 'Pirates des Caraïbes : La Vengeance de Salazar',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2017-05-26',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Joachim Rønning, Espen Sandberg',
+  },
+
+  {
+    title: 'Lego Batman, le film',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2017-02-08',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Chris McKay',
+  },
+
+  {
+    title: 'Nos pires voisins 2',
+    rating: 3, // Neighbors 2: Sorority Rising (2016) ★★★
+    timesWatched: 1,
+    firstViewedDate: '2016-07-06',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Nicholas Stoller',
+  },
+
+  {
+    title: 'Hunger Games : La Révolte, partie 2',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2015-11-18',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Francis Lawrence',
+  },
+
+  {
+    title: 'Le Labyrinthe : La Terre brûlée',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2015-09-18',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Wes Ball',
+  },
+
+  {
+    title: 'À la poursuite de demain',
+    rating: 3, // Tomorrowland (2015) ★★★
+    timesWatched: 1,
+    firstViewedDate: '2015-05-20',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Brad Bird',
+  },
+
+  {
+    title: "Dragon Ball Z : La Résurrection de 'F'",
+    rating: 2,
+    timesWatched: 1,
+    firstViewedDate: '2015-09-11',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Tadayoshi Yamamuro',
+  },
+
+  {
+    title: 'Hunger Games : La Révolte, partie 1',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2014-11-19',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Francis Lawrence',
+  },
+
+  {
+    title: 'Equalizer',
+    rating: 3.5, // The Equalizer (2014) ★★★½
+    timesWatched: 1,
+    firstViewedDate: '2014-10-01',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Antoine Fuqua',
+  },
+
+  {
+    title: "La Planète des singes : l'affrontement",
+    rating: 4, // Dawn of the Planet of the Apes (2014) ★★★★
+    timesWatched: 1,
+    firstViewedDate: '2014-07-30',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Matt Reeves',
+  },
+
+  {
+    title: "Transformers : L'Âge de l'extinction",
+    rating: 3, // Transformers: Age of Extinction (2014) ★★★
+    timesWatched: 1,
+    firstViewedDate: '2014-07-16',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Michael Bay',
+  },
+
+  {
+    title: 'Nos pires voisins',
+    rating: 3.5, // Neighbors (2014) ★★★½
+    timesWatched: 1,
+    firstViewedDate: '2014-05-28',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Nicholas Stoller',
+  },
+
+  {
+    title: 'Mister Babadook',
+    rating: 3, // The Babadook (2014) ★★★
+    timesWatched: 1,
+    firstViewedDate: '2014-07-30',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Jennifer Kent',
+  },
+
+  {
+    title: "Hunger Games : L'Embrasement",
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2013-11-27',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Francis Lawrence',
+  },
+
+  {
+    title: 'Mindscape',
+    rating: 3, // Anna (2013) ★★★
+    timesWatched: 1,
+    firstViewedDate: '2014-06-11',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Jorge Dorado',
+  },
+
+  {
+    title: 'Les Seigneurs',
+    rating: 0.5, // The Dream Team (2012) ★
+    timesWatched: 1,
+    firstViewedDate: '2012-09-26',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Olivier Dahan',
+  },
+
+  {
+    title: 'Sex Friends',
+    rating: 3, // No Strings Attached (2011) ★★★
+    timesWatched: 1,
+    firstViewedDate: '2011-02-16',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Ivan Reitman',
+  },
+
+  {
+    title: 'Mary',
+    rating: 3.5, // Gifted (2017) - not found in ratings list
+    timesWatched: 1,
+    firstViewedDate: '2017-09-13',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    director: 'Marc Webb',
+  },
+];
