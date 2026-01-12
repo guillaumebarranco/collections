@@ -183,7 +183,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
   },
   {
     title: 'Ne coupez pas !',
-    director: 'Shin\'ichirō Ueda',
+    director: "Shin'ichirō Ueda",
     actors: [{ name: 'Inconnu' }],
     coverUrl: '/movies_pictures/one_cut_of_the_dead.jpg',
     releaseDate: '2019-04-24',
@@ -318,7 +318,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Aventure',
   },
   {
-    title: 'Le Roi Arthur : La Légende d\'Excalibur',
+    title: "Le Roi Arthur : La Légende d'Excalibur",
     director: 'Guy Ritchie',
     actors: [{ name: 'Inconnu' }],
     coverUrl: '/movies_pictures/king_arthur_legend_of_the_sword.jpg',
@@ -489,7 +489,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Action',
   },
   {
-    title: 'Alice de l\'autre côté du miroir',
+    title: "Alice de l'autre côté du miroir",
     director: 'James Bobin',
     actors: [{ name: 'Inconnu' }],
     coverUrl: '/movies_pictures/alice_through_the_looking_glass.jpg',
@@ -2078,7 +2078,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Thriller',
   },
   {
-    title: 'Les Fils de l\'homme',
+    title: "Les Fils de l'homme",
     director: 'Alfonso Cuarón',
     actors: [{ name: 'Inconnu' }],
     coverUrl: '/movies_pictures/children_of_men.jpg',
@@ -2123,7 +2123,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Animation',
   },
   {
-    title: 'Inside Man : L\'Homme de l\'intérieur',
+    title: "Inside Man : L'Homme de l'intérieur",
     director: 'Spike Lee',
     actors: [{ name: 'Inconnu' }],
     coverUrl: '/movies_pictures/inside_man.jpg',
@@ -2168,7 +2168,8 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Comédie',
   },
   {
-    title: "Le Monde de Narnia : Le Lion, la Sorcière blanche et l'Armoire magique",
+    title:
+      "Le Monde de Narnia : Le Lion, la Sorcière blanche et l'Armoire magique",
     director: 'Andrew Adamson',
     actors: [{ name: 'Inconnu' }],
     coverUrl:
@@ -2349,7 +2350,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Drame',
   },
   {
-    title: 'L\'Armée des morts',
+    title: "L'Armée des morts",
     director: 'Zack Snyder',
     actors: [{ name: 'Inconnu' }],
     coverUrl: '/movies_pictures/dawn_of_the_dead.jpg',
@@ -2395,7 +2396,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Drame',
   },
   {
-    title: 'Master and Commander : De l\'autre côté du monde',
+    title: "Master and Commander : De l'autre côté du monde",
     director: 'Peter Weir',
     actors: [{ name: 'Inconnu' }],
     coverUrl:
@@ -2549,7 +2550,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Animation',
   },
   {
-    title: 'Le Seigneur des anneaux : La Communauté de l\'anneau',
+    title: "Le Seigneur des anneaux : La Communauté de l'anneau",
     director: 'Peter Jackson',
     actors: [{ name: 'Inconnu' }],
     coverUrl:
@@ -2577,7 +2578,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Animation',
   },
   {
-    title: 'Atlantide, l\'empire perdu',
+    title: "Atlantide, l'empire perdu",
     director: 'Gary Trousdale, Kirk Wise',
     actors: [{ name: 'Inconnu' }],
     coverUrl: '/movies_pictures/atlantis_the_lost_empire.jpg',
@@ -2649,7 +2650,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Action',
   },
   {
-    title: 'La Route d\'Eldorado',
+    title: "La Route d'Eldorado",
     director: 'Éric Bergeron, Don Paul',
     actors: [{ name: 'Inconnu' }],
     coverUrl: '/movies_pictures/the_road_to_el_dorado.jpg',
@@ -2748,7 +2749,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Comédie',
   },
   {
-    title: 'Les Ailes de l\'enfer',
+    title: "Les Ailes de l'enfer",
     director: 'Simon West',
     actors: [{ name: 'Inconnu' }],
     coverUrl: '/movies_pictures/con_air.jpg',
@@ -2802,7 +2803,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Action',
   },
   {
-    title: 'Dragon Ball Z : L\'Attaque du dragon',
+    title: "Dragon Ball Z : L'Attaque du dragon",
     director: 'Mitsuo Hashimoto',
     actors: [{ name: 'Inconnu' }],
     coverUrl: '/movies_pictures/dragon_ball_z_wrath_of_the_dragon.jpg',
@@ -2920,7 +2921,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Animation',
   },
   {
-    title: 'Dragon Ball Z : L\'Histoire de Trunks',
+    title: "Dragon Ball Z : L'Histoire de Trunks",
     director: 'Yoshihiro Ueda',
     actors: [{ name: 'Inconnu' }],
     coverUrl: '/movies_pictures/dragon_ball_z_the_history_of_trunks.jpg',
@@ -2965,7 +2966,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Aventure',
   },
   {
-    title: 'Dragon Ball Z : L\'Offensive des cyborgs',
+    title: "Dragon Ball Z : L'Offensive des cyborgs",
     director: 'Kazuhito Kikuchi',
     actors: [{ name: 'Inconnu' }],
     coverUrl: '/movies_pictures/dragon_ball_z_super_android_13.jpg',
@@ -3245,7 +3246,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Aventure',
   },
   {
-    title: 'L\'Histoire sans fin',
+    title: "L'Histoire sans fin",
     director: 'Wolfgang Petersen',
     actors: [{ name: 'Inconnu' }],
     coverUrl: '/movies_pictures/the_neverending_story.jpg',
@@ -3281,7 +3282,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Horreur',
   },
   {
-    title: 'Les Aventuriers de l\'Arche perdue',
+    title: "Les Aventuriers de l'Arche perdue",
     director: 'Steven Spielberg',
     actors: [{ name: 'Inconnu' }],
     coverUrl: '/movies_pictures/raiders_of_the_lost_ark.jpg',
@@ -3326,7 +3327,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Comédie',
   },
   {
-    title: 'Il était une fois dans l\'Ouest',
+    title: "Il était une fois dans l'Ouest",
     director: 'Sergio Leone',
     actors: [{ name: 'Inconnu' }],
     coverUrl: '/movies_pictures/once_upon_a_time_in_the_west.jpg',

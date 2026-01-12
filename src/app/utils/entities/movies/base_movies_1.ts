@@ -532,7 +532,7 @@ export const baseMoviesPage1: BaseMovie[] = [
   },
   {
     title: '84 m²',
-    director: 'Inconnu',
+    director: 'Kim Tae-joon',
     actors: [{ name: 'Acteur principal' }],
     coverUrl: '/movies_pictures/b8e7d5e682836c190da279d7aa0c23b4.webp',
     releaseDate: '2024-01-01',
@@ -550,7 +550,7 @@ export const baseMoviesPage1: BaseMovie[] = [
   },
   {
     title: 'La carte qui mène à toi',
-    director: 'Inconnu',
+    director: 'Lasse Hallström',
     actors: [{ name: 'Acteur principal' }],
     coverUrl: '/movies_pictures/1254072.webp',
     releaseDate: '2024-01-01',
@@ -626,7 +626,7 @@ export const baseMoviesPage1: BaseMovie[] = [
   },
   {
     title: 'Une femme en jeu',
-    director: 'Inconnu',
+    director: 'Anna Kendrick',
     actors: [{ name: 'Acteur principal' }],
     coverUrl: '/movies_pictures/96870dc4da3356ac6b13fb5359f5cd56.jpg',
     releaseDate: '2024-01-01',
@@ -694,7 +694,7 @@ export const baseMoviesPage1: BaseMovie[] = [
   },
   {
     title: 'Maintenance Required',
-    director: 'Inconnu',
+    director: 'Lacey Uhlemeyer',
     actors: [{ name: 'Acteur principal' }],
     coverUrl:
       '/movies_pictures/MV5BNGZlN2Y5ZGEtMmU0MS00ZWI0L_FMjpg_UX1000_.jpg',

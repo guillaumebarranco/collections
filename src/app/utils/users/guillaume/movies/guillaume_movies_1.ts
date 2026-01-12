@@ -408,7 +408,7 @@ export const guillaumeMoviesPage1: UserMovie[] = [
   },
   {
     title: '84 m²',
-    director: 'Inconnu',
+    director: 'Kim Tae-joon',
     rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '2025-08-18',
@@ -426,7 +426,7 @@ export const guillaumeMoviesPage1: UserMovie[] = [
   },
   {
     title: 'La carte qui mène à toi',
-    director: 'Inconnu',
+    director: 'Lasse Hallström',
     rating: 3.75,
     timesWatched: 1,
     firstViewedDate: '2025-07-13',
@@ -480,7 +480,7 @@ export const guillaumeMoviesPage1: UserMovie[] = [
   },
   {
     title: 'Une femme en jeu',
-    director: 'Inconnu',
+    director: 'Anna Kendrick',
     rating: 3.25,
     timesWatched: 1,
     firstViewedDate: '2025-08-19',
@@ -543,7 +543,7 @@ export const guillaumeMoviesPage1: UserMovie[] = [
   },
   {
     title: 'Maintenance Required',
-    director: 'Inconnu',
+    director: 'Lacey Uhlemeyer',
     rating: 3.75,
     timesWatched: 1,
     firstViewedDate: '2025-10-13',

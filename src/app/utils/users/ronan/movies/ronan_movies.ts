@@ -345,7 +345,7 @@ export const ronanMovies: UserMovie[] = [
   },
   {
     title: 'Une femme en jeu',
-    director: 'Inconnu',
+    director: 'Anna Kendrick',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '2025-08-19',

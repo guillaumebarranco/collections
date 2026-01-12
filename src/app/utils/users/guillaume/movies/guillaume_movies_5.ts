@@ -786,7 +786,7 @@ export const guillaumeMoviesPage5: UserMovie[] = [
   },
   {
     title: 'Prise au jeu',
-    director: 'Inconnu',
+    director: 'Trish Sie',
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2024-04-03',
@@ -822,7 +822,7 @@ export const guillaumeMoviesPage5: UserMovie[] = [
   },
   {
     title: "Par-delà l'univers",
-    director: 'Inconnu',
+    director: 'Diego Freitas',
     rating: 3.75,
     timesWatched: 1,
     firstViewedDate: '2024-10-23',
