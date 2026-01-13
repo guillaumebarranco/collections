@@ -4,6 +4,20 @@
   @include containers.container-base;
 }
 
+.dashboard-character {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.character-image {
+  width: 200px;
+  height: auto;
+  max-width: 100%;
+}
+
 .dashboard-sections {
   display: flex;
   flex-direction: column;
@@ -199,6 +213,14 @@
   text-align: center;
   gap: 20px;
 
+  .dashboard-character {
+    margin-bottom: 10px;
+  }
+
+  .character-image {
+    width: 250px;
+    height: auto;
+  }
 
   h1 {
     font-size: 2.5rem;

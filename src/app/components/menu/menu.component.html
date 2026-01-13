@@ -1,8 +1,16 @@
 <nav class="menu">
   <div class="menu-container">
+    <div class="menu-logo">
+      <span class="logo-text">Makya</span>
+      <img src="/logo.png" alt="Makya" class="logo-image" />
+    </div>
     <div class="menu-items">
-      <button *ngFor="let item of visibleMenuItems" class="menu-item" [class.active]="isActive(item.route)"
-        (click)="navigateTo(item.route)">
+      <button
+        *ngFor="let item of visibleMenuItems"
+        class="menu-item"
+        [class.active]="isActive(item.route)"
+        (click)="navigateTo(item.route)"
+      >
         <span class="menu-icon">{{ item.icon }}</span>
         <span class="menu-label">{{ item.label }}</span>
       </button>

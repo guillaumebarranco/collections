@@ -2,6 +2,9 @@
 
 @if (userId() && userHasData()) {
 <div class="dashboard-container">
+  <div class="dashboard-character">
+    <img src="/logo.png" alt="Makya" class="character-image" />
+  </div>
   <h1>Tableau de bord</h1>
 
   <div class="dashboard-sections">
@@ -137,6 +140,9 @@
 </div>
 } @if(userId() && !userHasData()) {
 <div class="dashboard-container dashboard-logged-user-no-data">
+  <div class="dashboard-character">
+    <img src="/logo.png" alt="Makya" class="character-image" />
+  </div>
   <h1>Tableau de bord</h1>
   <p>
     Vous n'avez pas encore de données dans votre tableau de bord. <br /><br />
@@ -151,7 +157,10 @@
 </div>
 } @if (!userId()) {
 <div class="dashboard-container dashboard-unlogged-user">
-  <h1>Bienvenue sur Collections !</h1>
+  <div class="dashboard-character">
+    <img src="/logo.png" alt="Makya" class="character-image" />
+  </div>
+  <h1>Bienvenue sur Makya !</h1>
 
   <div class="already-user">
     <p>
