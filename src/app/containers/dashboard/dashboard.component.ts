@@ -182,12 +182,12 @@ export class DashboardComponent {
 
   userHasData = computed<boolean>(() => {
     return (
-      this.allBooks().length > 0 &&
-      this.allMangas().length > 0 &&
-      this.allManwhas().length > 0 &&
-      this.allMovies().length > 0 &&
-      this.allSeries().length > 0 &&
-      this.allGames().length > 0 &&
+      this.allBooks().length > 0 ||
+      this.allMangas().length > 0 ||
+      this.allManwhas().length > 0 ||
+      this.allMovies().length > 0 ||
+      this.allSeries().length > 0 ||
+      this.allGames().length > 0 ||
       this.allMusics().length > 0
     );
   });

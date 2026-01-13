@@ -5,10 +5,6 @@
 
   .header {
     @extend %select-header;
-
-    h1 {
-      color: #999;
-    }
   }
 
   .movie-info {
