@@ -1,0 +1,74 @@
+<app-menu></app-menu>
+
+<div class="select-games-rating-container">
+  <div class="header">
+    <h1>Mettre à jour les notes de mes jeux</h1>
+
+    <div class="selection-description">
+      <p>
+        Bonjour {{ username() }} 👋 <br /><br />
+        Sur cette page, tu peux mettre à jour la note de chaque jeu de ta
+        collection. <br /><br />
+        Passe ta souris sur un jeu pour voir les options de notes disponibles
+        et clique sur la note correspondante. <br /><br />
+        Une fois que tu as terminé, clique sur le bouton "Exporter" pour
+        télécharger le fichier JSON avec tes mises à jour.
+      </p>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <div class="selection-info">
+      <span class="count">{{ modifiedCount() }} jeu(x) modifié(s)</span>
+      <span class="total">sur {{ allGames().length }}</span>
+    </div>
+
+    <div class="actions">
+      <button
+        class="btn btn-primary"
+        (click)="exportGamesRatings()"
+        [disabled]="allGames().length === 0"
+      >
+        📥 Exporter mes jeux avec rating ({{ allGames().length }})
+      </button>
+    </div>
+  </div>
+
+  <div class="games-grid">
+    @for (game of allGames(); track `${game.title}-${game.releaseDate}`) {
+    <div
+      class="game-cover"
+      [title]="game.title + ' (' + game.releaseDate.substring(0, 4) + ')'"
+    >
+      <img [src]="game.coverUrl" [alt]="game.title" />
+      <div class="overlay">
+        <div class="game-info">
+          <span class="game-title">{{ game.title }}</span>
+          <span class="game-editor">{{ game.editor }}</span>
+          <div class="current-rating">
+            <span class="rating-label">Note actuelle :</span>
+            <div class="stars-display">
+              @for (star of getRatingStars(getRating(game)); track star.value) {
+              <span [class]="'star star-' + star.type"></span>
+              }
+              <span class="rating-value">{{ getRating(game) }}</span>
+            </div>
+          </div>
+        </div>
+        <div class="rating-buttons">
+          @for (rating of ratingOptions; track rating) {
+          <button
+            class="rating-btn"
+            [class.active]="getRating(game) === rating"
+            (click)="updateRating(game, rating); $event.stopPropagation()"
+            (mousedown)="$event.stopPropagation()"
+          >
+            {{ rating }}
+          </button>
+          }
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>

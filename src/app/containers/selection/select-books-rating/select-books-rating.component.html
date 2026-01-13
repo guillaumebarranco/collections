@@ -1,0 +1,71 @@
+<app-menu></app-menu>
+
+<div class="select-books-rating-container">
+  <div class="header">
+    <h1>Mettre à jour les notes de mes livres</h1>
+
+    <div class="selection-description">
+      <p>
+        Bonjour {{ username() }} 👋 <br /><br />
+        Sur cette page, tu peux mettre à jour la note de chaque livre de ta
+        collection. <br /><br />
+        Passe ta souris sur un livre pour voir les options de notes disponibles
+        et clique sur la note correspondante. <br /><br />
+        Une fois que tu as terminé, clique sur le bouton "Exporter" pour
+        télécharger le fichier JSON avec tes mises à jour.
+      </p>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <div class="selection-info">
+      <span class="count">{{ modifiedCount() }} livre(s) modifié(s)</span>
+      <span class="total">sur {{ allBooks().length }}</span>
+    </div>
+
+    <div class="actions">
+      <button
+        class="btn btn-primary"
+        (click)="exportBooksRatings()"
+        [disabled]="allBooks().length === 0"
+      >
+        📥 Exporter mes livres avec rating ({{ allBooks().length }})
+      </button>
+    </div>
+  </div>
+
+  <div class="books-grid">
+    @for (book of allBooks(); track `${book.title}-${book.author}`) {
+    <div class="book-cover" [title]="book.title + ' - ' + book.author">
+      <img [src]="book.coverUrl" [alt]="book.title" />
+      <div class="overlay">
+        <div class="book-info">
+          <span class="book-title">{{ book.title }}</span>
+          <span class="book-author">{{ book.author }}</span>
+          <div class="current-rating">
+            <span class="rating-label">Note actuelle :</span>
+            <div class="stars-display">
+              @for (star of getRatingStars(getRating(book)); track star.value) {
+              <span [class]="'star star-' + star.type"></span>
+              }
+              <span class="rating-value">{{ getRating(book) }}</span>
+            </div>
+          </div>
+        </div>
+        <div class="rating-buttons">
+          @for (rating of ratingOptions; track rating) {
+          <button
+            class="rating-btn"
+            [class.active]="getRating(book) === rating"
+            (click)="updateRating(book, rating); $event.stopPropagation()"
+            (mousedown)="$event.stopPropagation()"
+          >
+            {{ rating }}
+          </button>
+          }
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>

@@ -3,7 +3,26 @@
 <div class="games-container">
   <h1>🎮 Jeux vidéo ({{ allGames().length }})</h1>
 
-  @if(allGames().length === 0) {
+  @if(allGames().length !== 0) {
+  <div class="games-header-top">
+    <div class="games-actions">
+      <button
+        class="btn btn-small"
+        [routerLink]="getSelectGamesRatingRoute()"
+        title="Mettre à jour les notes de mes jeux"
+      >
+        ⭐ Notes
+      </button>
+      <button
+        class="btn btn-small"
+        [routerLink]="getSelectGamesTimesFinishedRoute()"
+        title="Mettre à jour le nombre de fois que j'ai terminé mes jeux"
+      >
+        🎮 Terminés
+      </button>
+    </div>
+  </div>
+  } @if(allGames().length === 0) {
   <div class="empty-state">
     <p class="empty-message">Vous n'avez aucun jeu dans votre collection.</p>
     <p class="empty-subtitle">

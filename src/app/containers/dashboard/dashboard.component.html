@@ -1,5 +1,6 @@
 <app-menu></app-menu>
 
+@if (userId() && userHasData()) {
 <div class="dashboard-container">
   <h1>Tableau de bord</h1>
 
@@ -120,7 +121,9 @@
               <span class="rank">#{{ i + 1 }}</span>
               <span class="title">{{ music.title }} - {{ music.artist }}</span>
               <span class="count"
-                >{{ music.timesListened }}x ({{ music.formattedListeningTime }})</span
+                >{{ music.timesListened }}x ({{
+                  music.formattedListeningTime
+                }})</span
               >
             </div>
             } @if (topMusics().length === 0) {
@@ -132,3 +135,39 @@
     </div>
   </div>
 </div>
+} @if(userId() && !userHasData()) {
+<div class="dashboard-container dashboard-logged-user-no-data">
+  <h1>Tableau de bord</h1>
+  <p>
+    Vous n'avez pas encore de données dans votre tableau de bord. <br /><br />
+    Vous pouvez commencer par ajouter ce que vous voulez : livres, films,
+    séries, jeux, musiques, etc. via les boutons du menu ! <br /><br />
+
+    Cela vous permettra par la suite d'avoir accès à un maximum de statistiques
+    une fois vos données remplies ! Vous pourrez utiliser cette application pour
+    mettre à jour vos lectures, visionnages... Vous pouvez noter vos oeuvres
+    selon vos goûts et critères, et bien plus encore !
+  </p>
+</div>
+} @if (!userId()) {
+<div class="dashboard-container dashboard-unlogged-user">
+  <h1>Bienvenue sur Collections !</h1>
+
+  <div class="already-user">
+    <p>
+      Saisissez votre nom d'utilisateur pour accéder à votre tableau de bord.
+    </p>
+    <div>
+      <input
+        type="text"
+        placeholder="Nom d'utilisateur"
+        (input)="onInput($event)"
+        (keydown.enter)="onSubmit()"
+      />
+    </div>
+    <button [disabled]="!filledUserId()" (click)="onSubmit()">
+      Aller sur mon tableau de bord
+    </button>
+  </div>
+</div>
+}

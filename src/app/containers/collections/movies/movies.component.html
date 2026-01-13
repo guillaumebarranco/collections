@@ -12,31 +12,50 @@
     ({{ filteredMoviesByYear().length }})
   </h1>
 
-  <div class="movies-view-toggle">
-    <button
-      class="toggle-option"
-      [class.active]="selectedView() === 'watched'"
-      (click)="onViewChange('watched')"
-    >
-      Films vus
-    </button>
-    <button
-      class="toggle-option"
-      [class.active]="selectedView() === 'cinema'"
-      (click)="onViewChange('cinema')"
-    >
-      Films vus au cinéma
-    </button>
-    <button
-      class="toggle-option"
-      [class.active]="selectedView() === 'watchlist'"
-      (click)="onViewChange('watchlist')"
-    >
-      Films à voir
-    </button>
-  </div>
+  @if(filteredMoviesByYear().length !== 0) {
+  <div class="movies-header-top">
+    <div class="movies-view-toggle">
+      <button
+        class="toggle-option"
+        [class.active]="selectedView() === 'watched'"
+        (click)="onViewChange('watched')"
+      >
+        Films vus
+      </button>
+      <button
+        class="toggle-option"
+        [class.active]="selectedView() === 'cinema'"
+        (click)="onViewChange('cinema')"
+      >
+        Films vus au cinéma
+      </button>
+      <button
+        class="toggle-option"
+        [class.active]="selectedView() === 'watchlist'"
+        (click)="onViewChange('watchlist')"
+      >
+        Films à voir
+      </button>
+    </div>
 
-  @if(filteredMoviesByYear().length === 0 && selectedView() !== 'watchlist') {
+    <div class="movies-actions">
+      <button
+        class="btn btn-small"
+        [routerLink]="getSelectMoviesRatingRoute()"
+        title="Mettre à jour les notes de mes films"
+      >
+        ⭐ Notes
+      </button>
+      <button
+        class="btn btn-small"
+        [routerLink]="getSelectMoviesTimesWatchedRoute()"
+        title="Mettre à jour le nombre de visionnages de mes films"
+      >
+        🎬 Visionnages
+      </button>
+    </div>
+  </div>
+  } @if(filteredMoviesByYear().length === 0 && selectedView() !== 'watchlist') {
   <div class="empty-state">
     <p class="empty-message">Aucun film à afficher pour cette sélection.</p>
     <p class="empty-subtitle">

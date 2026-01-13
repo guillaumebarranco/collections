@@ -10,3 +10,4 @@ export { guillaumeMoviesLove } from './guillaume_movies_love';
 export { guillaumeMoviesAnimated } from './guillaume_movies_animated';
 export { guillaumeMoviesSagaPage1 } from './guillaume_movies_saga_1';
 export { guillaumeMoviesSagaPage2 } from './guillaume_movies_saga_2';
+export { guillaumeWatchlistMovies } from './guillaume_watchlist_movies';

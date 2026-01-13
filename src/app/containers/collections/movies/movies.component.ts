@@ -343,6 +343,22 @@ export class MoviesComponent implements OnInit {
     return hasNameParam ? [`/${params['id']}`, 'select-movies'] : ['/select-movies'];
   }
 
+  getSelectMoviesRatingRoute(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? `/${params['id']}/select-movies-rating`
+      : '/select-movies-rating';
+  }
+
+  getSelectMoviesTimesWatchedRoute(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? `/${params['id']}/select-movies-times-watched`
+      : '/select-movies-times-watched';
+  }
+
   onSortChange(sortValue: string) {
     this.selectedSort.set(sortValue);
   }

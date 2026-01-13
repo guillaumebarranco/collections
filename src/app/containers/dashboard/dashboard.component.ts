@@ -12,7 +12,7 @@ import { mangas } from '../../utils/users/guillaume/mangas/mangas';
 import { manwhas } from '../../utils/users/guillaume/mangas/manwhas';
 
 import { musics } from '../../utils/users/guillaume/musics';
-import { ActivatedRoute, Params } from '@angular/router';
+import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
 import { Book } from '../../models/book-model';
 import { Movie } from '../../models/movie-model';
 import { Music } from '../../models/music-model';
@@ -48,6 +48,7 @@ interface TopMusic extends Music {
   selector: 'app-dashboard',
   standalone: true,
   imports: [
+    RouterModule,
     CommonModule,
     MenuComponent,
     StatsDisplayComponent,
@@ -58,6 +59,9 @@ interface TopMusic extends Music {
 })
 export class DashboardComponent {
   activatedRoute = inject(ActivatedRoute);
+  router = inject(Router);
+
+  filledUserId = signal<string>('');
 
   booksList = signal<{ [key: string]: Book[] }>(getAllBooks());
   moviesList = signal<{ [key: string]: Movie[] }>(getAllMovies());
@@ -69,6 +73,7 @@ export class DashboardComponent {
     william: [],
     kevin: [],
     amandine: [],
+    ronan: [],
   });
 
   manwhasList = signal<{ [key: string]: any[] }>({
@@ -76,6 +81,7 @@ export class DashboardComponent {
     william: [],
     kevin: [],
     amandine: [],
+    ronan: [],
   });
 
   musicsList = signal<{ [key: string]: Music[] }>({
@@ -83,6 +89,12 @@ export class DashboardComponent {
     william: [],
     kevin: [],
     amandine: [],
+    ronan: [],
+  });
+
+  userId = computed<string>(() => {
+    const params: Params = this.activatedRoute.snapshot.params;
+    return params['id'];
   });
 
   allBooks = computed<Book[]>(() => {
@@ -90,40 +102,50 @@ export class DashboardComponent {
     const hasNameParam = params['id'] !== undefined;
 
     return hasNameParam
-      ? this.booksList()[params['id']] || []
-      : this.booksList()['guillaume'];
+      ? Boolean(this.booksList()[this.userId()])
+        ? this.booksList()[this.userId()]
+        : []
+      : [];
   });
 
   allMovies = computed<Movie[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
-      ? this.moviesList()[params['id']] || []
-      : this.moviesList()['guillaume'];
+      ? Boolean(this.moviesList()[this.userId()])
+        ? this.moviesList()[this.userId()]
+        : []
+      : [];
   });
 
   allSeries = computed<Serie[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
-      ? this.seriesList()[params['id']] || []
-      : this.seriesList()['guillaume'];
+      ? Boolean(this.seriesList()[this.userId()])
+        ? this.seriesList()[this.userId()]
+        : []
+      : [];
   });
 
   allGames = computed<Game[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
-      ? this.gamesList()[params['id']] || []
-      : this.gamesList()['guillaume'];
+      ? Boolean(this.gamesList()[this.userId()])
+        ? this.gamesList()[this.userId()]
+        : []
+      : [];
   });
 
   allMangas = computed<any[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     const mangas = hasNameParam
-      ? this.mangasList()[params['id']] || []
-      : this.mangasList()['guillaume'];
+      ? Boolean(this.mangasList()[this.userId()])
+        ? this.mangasList()[this.userId()]
+        : []
+      : [];
 
     return mangas.map((manga) => ({
       title: manga._source.manga.frenchName || manga._source.manga.name,
@@ -136,8 +158,10 @@ export class DashboardComponent {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     const manwhas = hasNameParam
-      ? this.manwhasList()[params['id']] || []
-      : this.manwhasList()['guillaume'];
+      ? Boolean(this.manwhasList()[this.userId()])
+        ? this.manwhasList()[this.userId()]
+        : []
+      : [];
 
     return manwhas.map((manwha) => ({
       title: manwha._source.manga.frenchName || manwha._source.manga.name,
@@ -150,8 +174,22 @@ export class DashboardComponent {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
-      ? this.musicsList()[params['id']] || []
-      : this.musicsList()['guillaume'];
+      ? Boolean(this.musicsList()[this.userId()])
+        ? this.musicsList()[this.userId()]
+        : []
+      : [];
+  });
+
+  userHasData = computed<boolean>(() => {
+    return (
+      this.allBooks().length > 0 &&
+      this.allMangas().length > 0 &&
+      this.allManwhas().length > 0 &&
+      this.allMovies().length > 0 &&
+      this.allSeries().length > 0 &&
+      this.allGames().length > 0 &&
+      this.allMusics().length > 0
+    );
   });
 
   topBooks = computed<TopBook[]>(() => {
@@ -375,5 +413,14 @@ export class DashboardComponent {
       return `${days.toFixed(1)}j`;
     }
     return `${hours.toFixed(1)}h`;
+  }
+
+  onInput(event: Event): void {
+    const input = event.target as HTMLInputElement;
+    this.filledUserId.set(input.value);
+  }
+
+  onSubmit(): void {
+    this.router.navigate([this.filledUserId().toLowerCase()]);
   }
 }

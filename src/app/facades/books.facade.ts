@@ -13,9 +13,16 @@ import {
   guillaumeBooks,
   guillaumeBooksFantasySaga,
   guillaumeBooksSaga,
+  guillaumeReadlistBooks,
 } from '../utils/users/guillaume/books';
-import { kevinBooks1, kevinBooks2 } from '../utils/users/kevin/books';
-import { ronanBooks } from '../utils/users/ronan/books/ronan_books';
+import {
+  kevinBooks1,
+  kevinBooks2,
+  kevinReadListBooks,
+} from '../utils/users/kevin/books';
+import { ronanBooks, ronanReadListBooks } from '../utils/users/ronan/books';
+import { amandineBooks } from '../utils/users/amandine/books';
+import { amandineReadListBooks } from '../utils/users/amandine/books';
 
 const allBaseBooks: BaseBook[] = [
   ...baseBooks,
@@ -35,22 +42,18 @@ export function getAllBooks(): { [key: string]: Book[] } {
     ]),
     william: getAllBooksData([]),
     kevin: getAllBooksData([...kevinBooks1, ...kevinBooks2]),
-    amandine: getAllBooksData([]),
+    amandine: getAllBooksData([...amandineBooks]),
     ronan: getAllBooksData([...ronanBooks]),
   };
 }
 
 export function getAllReadlistBooks(): { [key: string]: Book[] } {
   return {
-    guillaume: baseFromReadlistBooks.map((baseBook: BaseBook) => ({
-      ...baseBook,
-      readDate: '',
-      rating: 0,
-      readTimes: 0,
-    })),
+    guillaume: getAllBooksData([...guillaumeReadlistBooks]),
     william: [],
-    kevin: [],
-    amandine: [],
+    kevin: getAllBooksData([...kevinReadListBooks]),
+    amandine: getAllBooksData([...amandineReadListBooks]),
+    ronan: getAllBooksData([...ronanReadListBooks]),
   };
 }
 
@@ -67,6 +70,11 @@ export function getAllBooksMerged(): Book[] {
       }
       return [...acc, item];
     }, []);
+}
+
+export function getBooksByUser(userId: string): Book[] {
+  const allBooksData = getAllBooks();
+  return allBooksData[userId] || [];
 }
 
 function getAllBooksData(books: UserBook[]): Book[] {

@@ -32,6 +32,11 @@ export function getAllGamesMerged(): Game[] {
     }, []);
 }
 
+export function getGamesByUser(userId: string): Game[] {
+  const allGamesData = getAllGames();
+  return allGamesData[userId] || [];
+}
+
 function getAllGamesData(games: UserGame[]): Game[] {
   return games.map((game: UserGame) => {
     const matchingBaseGame = allBaseGames.filter(

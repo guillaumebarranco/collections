@@ -403,4 +403,20 @@ export class BooksComponent implements OnInit {
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam ? `/${params['id']}/select-books` : '/select-books';
   }
+
+  getSelectBooksRatingRoute(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? `/${params['id']}/select-books-rating`
+      : '/select-books-rating';
+  }
+
+  getSelectBooksTimesReadRoute(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? `/${params['id']}/select-books-times-read`
+      : '/select-books-times-read';
+  }
 }

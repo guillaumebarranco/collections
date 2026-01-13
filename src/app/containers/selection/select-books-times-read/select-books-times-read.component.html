@@ -1,0 +1,65 @@
+<app-menu></app-menu>
+
+<div class="select-books-times-read-container">
+  <div class="header">
+    <h1>Mettre à jour le nombre de lectures de mes livres</h1>
+
+    <div class="selection-description">
+      <p>
+        Bonjour {{ username() }} 👋 <br /><br />
+        Sur cette page, tu peux mettre à jour le nombre de fois que tu as lu
+        chaque livre de ta collection. <br /><br />
+        Passe ta souris sur un livre pour voir les options de lectures
+        disponibles et clique sur le nombre correspondant. <br /><br />
+        Une fois que tu as terminé, clique sur le bouton "Exporter" pour
+        télécharger le fichier JSON avec tes mises à jour.
+      </p>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <div class="selection-info">
+      <span class="count">{{ modifiedCount() }} livre(s) modifié(s)</span>
+      <span class="total">sur {{ allBooks().length }}</span>
+    </div>
+
+    <div class="actions">
+      <button
+        class="btn btn-primary"
+        (click)="exportBooksTimesRead()"
+        [disabled]="allBooks().length === 0"
+      >
+        📥 Exporter mes livres avec readTimes ({{ allBooks().length }})
+      </button>
+    </div>
+  </div>
+
+  <div class="books-grid">
+    @for (book of allBooks(); track `${book.title}-${book.author}`) {
+    <div class="book-cover" [title]="book.title + ' - ' + book.author">
+      <img [src]="book.coverUrl" [alt]="book.title" />
+      <div class="overlay">
+        <div class="book-info">
+          <span class="book-title">{{ book.title }}</span>
+          <span class="book-author">{{ book.author }}</span>
+          <span class="current-times-read"
+            >Lectures : {{ getTimesRead(book) }} fois</span
+          >
+        </div>
+        <div class="times-read-buttons">
+          @for (times of timesReadOptions; track times) {
+          <button
+            class="times-btn"
+            [class.active]="getTimesRead(book) === times"
+            (click)="updateTimesRead(book, times); $event.stopPropagation()"
+            (mousedown)="$event.stopPropagation()"
+          >
+            {{ times }}
+          </button>
+          }
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>

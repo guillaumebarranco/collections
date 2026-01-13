@@ -202,4 +202,20 @@ export class GamesComponent {
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam ? `/${params['id']}/select-games` : '/select-games';
   }
+
+  getSelectGamesRatingRoute(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? `/${params['id']}/select-games-rating`
+      : '/select-games-rating';
+  }
+
+  getSelectGamesTimesFinishedRoute(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? `/${params['id']}/select-games-times-finished`
+      : '/select-games-times-finished';
+  }
 }

@@ -1,0 +1,68 @@
+<app-menu></app-menu>
+
+<div class="select-games-times-finished-container">
+  <div class="header">
+    <h1>Mettre à jour le nombre de fois que j'ai terminé mes jeux</h1>
+
+    <div class="selection-description">
+      <p>
+        Bonjour {{ username() }} 👋 <br /><br />
+        Sur cette page, tu peux mettre à jour le nombre de fois que tu as terminé chaque
+        jeu de ta collection. <br /><br />
+        Passe ta souris sur un jeu pour voir les options disponibles
+        et clique sur le nombre correspondant. <br /><br />
+        Une fois que tu as terminé, clique sur le bouton "Exporter" pour télécharger
+        le fichier JSON avec tes mises à jour.
+      </p>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <div class="selection-info">
+      <span class="count">{{ modifiedCount() }} jeu(x) modifié(s)</span>
+      <span class="total">sur {{ allGames().length }}</span>
+    </div>
+
+    <div class="actions">
+      <button
+        class="btn btn-primary"
+        (click)="exportGamesTimesFinished()"
+        [disabled]="allGames().length === 0"
+      >
+        📥 Exporter mes jeux avec timesFinished ({{ allGames().length }})
+      </button>
+    </div>
+  </div>
+
+  <div class="games-grid">
+    @for (game of allGames(); track `${game.title}-${game.releaseDate}`) {
+    <div
+      class="game-cover"
+      [title]="game.title + ' (' + game.releaseDate.substring(0, 4) + ')'"
+    >
+      <img [src]="game.coverUrl" [alt]="game.title" />
+      <div class="overlay">
+        <div class="game-info">
+          <span class="game-title">{{ game.title }}</span>
+          <span class="game-editor">{{ game.editor }}</span>
+          <span class="current-times-finished"
+            >Terminé : {{ getTimesFinished(game) }} fois</span
+          >
+        </div>
+        <div class="times-finished-buttons">
+          @for (times of timesFinishedOptions; track times) {
+          <button
+            class="times-btn"
+            [class.active]="getTimesFinished(game) === times"
+            (click)="updateTimesFinished(game, times); $event.stopPropagation()"
+            (mousedown)="$event.stopPropagation()"
+          >
+            {{ times }}
+          </button>
+          }
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>

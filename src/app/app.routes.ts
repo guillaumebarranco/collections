@@ -10,10 +10,16 @@ import { SelectMoviesComponent } from './containers/selection/select-movies/sele
 import { SelectMoviesTimesWatchedComponent } from './containers/selection/select-movies-times-watched/select-movies-times-watched.component';
 import { SelectMoviesRatingComponent } from './containers/selection/select-movies-rating/select-movies-rating.component';
 import { SelectBooksComponent } from './containers/selection/select-books/select-books.component';
+import { SelectBooksRatingComponent } from './containers/selection/select-books-rating/select-books-rating.component';
+import { SelectBooksTimesReadComponent } from './containers/selection/select-books-times-read/select-books-times-read.component';
 import { SelectSeriesComponent } from './containers/selection/select-series/select-series.component';
+import { SelectSeriesRatingComponent } from './containers/selection/select-series-rating/select-series-rating.component';
+import { SelectSeriesTimesWatchedComponent } from './containers/selection/select-series-times-watched/select-series-times-watched.component';
 import { SelectMangasComponent } from './containers/selection/select-mangas/select-mangas.component';
 import { SelectManwhasComponent } from './containers/selection/select-manwhas/select-manwhas.component';
 import { SelectGamesComponent } from './containers/selection/select-games/select-games.component';
+import { SelectGamesRatingComponent } from './containers/selection/select-games-rating/select-games-rating.component';
+import { SelectGamesTimesFinishedComponent } from './containers/selection/select-games-times-finished/select-games-times-finished.component';
 import { MusicsComponent } from './containers/collections/musics/musics.component';
 import { SelectMusicsComponent } from './containers/selection/select-musics/select-musics.component';
 
@@ -21,22 +27,6 @@ export const routes: Routes = [
   {
     path: '',
     component: DashboardComponent,
-  },
-  {
-    path: 'dashboard',
-    component: DashboardComponent,
-  },
-  {
-    path: 'books',
-    component: BooksComponent,
-  },
-  {
-    path: 'mangas',
-    component: MangasComponent,
-  },
-  {
-    path: 'manwhas',
-    component: ManwhasComponent,
   },
   {
     path: 'movies',
@@ -77,8 +67,24 @@ export const routes: Routes = [
     component: SelectBooksComponent,
   },
   {
+    path: 'select-books-times-read',
+    component: SelectBooksTimesReadComponent,
+  },
+  {
+    path: 'select-books-rating',
+    component: SelectBooksRatingComponent,
+  },
+  {
     path: 'select-series',
     component: SelectSeriesComponent,
+  },
+  {
+    path: 'select-series-rating',
+    component: SelectSeriesRatingComponent,
+  },
+  {
+    path: 'select-series-times-watched',
+    component: SelectSeriesTimesWatchedComponent,
   },
   {
     path: 'select-mangas',
@@ -91,6 +97,14 @@ export const routes: Routes = [
   {
     path: 'select-games',
     component: SelectGamesComponent,
+  },
+  {
+    path: 'select-games-rating',
+    component: SelectGamesRatingComponent,
+  },
+  {
+    path: 'select-games-times-finished',
+    component: SelectGamesTimesFinishedComponent,
   },
   {
     path: 'select-musics',
@@ -158,8 +172,24 @@ export const routes: Routes = [
         component: SelectBooksComponent,
       },
       {
+        path: 'select-books-times-read',
+        component: SelectBooksTimesReadComponent,
+      },
+      {
+        path: 'select-books-rating',
+        component: SelectBooksRatingComponent,
+      },
+      {
         path: 'select-series',
         component: SelectSeriesComponent,
+      },
+      {
+        path: 'select-series-rating',
+        component: SelectSeriesRatingComponent,
+      },
+      {
+        path: 'select-series-times-watched',
+        component: SelectSeriesTimesWatchedComponent,
       },
       {
         path: 'select-mangas',
@@ -172,6 +202,14 @@ export const routes: Routes = [
       {
         path: 'select-games',
         component: SelectGamesComponent,
+      },
+      {
+        path: 'select-games-rating',
+        component: SelectGamesRatingComponent,
+      },
+      {
+        path: 'select-games-times-finished',
+        component: SelectGamesTimesFinishedComponent,
       },
       {
         path: 'select-musics',

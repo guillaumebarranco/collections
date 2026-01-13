@@ -1,0 +1,70 @@
+<app-menu></app-menu>
+
+<div class="select-series-times-watched-container">
+  <div class="header">
+    <h1>Mettre à jour le nombre de visionnages de mes séries</h1>
+
+    <div class="selection-description">
+      <p>
+        Bonjour {{ username() }} 👋 <br /><br />
+        Sur cette page, tu peux mettre à jour le nombre de fois que tu as vu chaque
+        série de ta collection. <br /><br />
+        Passe ta souris sur une série pour voir les options de visionnages disponibles
+        et clique sur le nombre correspondant. <br /><br />
+        Une fois que tu as terminé, clique sur le bouton "Exporter" pour télécharger
+        le fichier JSON avec tes mises à jour.
+      </p>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <div class="selection-info">
+      <span class="count">{{ modifiedCount() }} série(s) modifiée(s)</span>
+      <span class="total">sur {{ allSeries().length }}</span>
+    </div>
+
+    <div class="actions">
+      <button
+        class="btn btn-primary"
+        (click)="exportSeriesTimesWatched()"
+        [disabled]="allSeries().length === 0"
+      >
+        📥 Exporter mes séries avec timesWatched ({{ allSeries().length }})
+      </button>
+    </div>
+  </div>
+
+  <div class="series-grid">
+    @for (serie of allSeries(); track `${serie.title}-${serie.releaseDate}`) {
+    <div
+      class="serie-poster"
+      [title]="serie.title + ' (' + serie.releaseDate.substring(0, 4) + ')'"
+    >
+      <img [src]="serie.coverUrl" [alt]="serie.title" />
+      <div class="overlay">
+        <div class="serie-info">
+          <span class="serie-title">{{ serie.title }}</span>
+          <span class="serie-year"
+            >({{ serie.releaseDate.substring(0, 4) }})</span
+          >
+          <span class="current-times-watched"
+            >Visionnages : {{ getTimesWatched(serie) }} fois</span
+          >
+        </div>
+        <div class="times-watched-buttons">
+          @for (times of timesWatchedOptions; track times) {
+          <button
+            class="times-btn"
+            [class.active]="getTimesWatched(serie) === times"
+            (click)="updateTimesWatched(serie, times); $event.stopPropagation()"
+            (mousedown)="$event.stopPropagation()"
+          >
+            {{ times }}
+          </button>
+          }
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>

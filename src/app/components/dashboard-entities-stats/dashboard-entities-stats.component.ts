@@ -56,7 +56,7 @@ export class DashboardEntitiesStatsComponent {
 
   userId = computed<string>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
-    return params['id'] || 'guillaume';
+    return params['id'];
   });
 
   allMovies = computed<Movie[]>(() => {
@@ -274,9 +274,7 @@ export class DashboardEntitiesStatsComponent {
       new Set(musics.map((m) => `${m.title}|${m.artist}`))
     ).map((key) => {
       const [title, artist] = key.split('|');
-      return musics.find(
-        (m) => m.title === title && m.artist === artist
-      )!;
+      return musics.find((m) => m.title === title && m.artist === artist)!;
     });
 
     // Artistes les plus écoutés

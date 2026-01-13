@@ -150,4 +150,20 @@ export class SeriesComponent {
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam ? `/${params['id']}/select-series` : '/select-series';
   }
+
+  getSelectSeriesRatingRoute(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? `/${params['id']}/select-series-rating`
+      : '/select-series-rating';
+  }
+
+  getSelectSeriesTimesWatchedRoute(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? `/${params['id']}/select-series-times-watched`
+      : '/select-series-times-watched';
+  }
 }

@@ -29,14 +29,20 @@ import {
   guillaumeMoviesAnimated,
   guillaumeMoviesSagaPage1,
   guillaumeMoviesSagaPage2,
+  guillaumeWatchlistMovies,
 } from '../utils/users/guillaume/movies';
 import { williamMovies } from '../utils/users/william/movies';
-import { amandineMovies1 } from '../utils/users/amandine/movies/amandine_movies_1';
-import { amandineMovies2 } from '../utils/users/amandine/movies/amandine_movies_2';
-import { guillaumeWatchlistMovies } from '../utils/users/guillaume/movies/guillaume_watchlist_movies';
-import { ronanMovies } from '../utils/users/ronan/movies/ronan_movies';
-import { ronanLetterboxdMovies } from '../utils/users/ronan/movies/ronan_letterboxd_movies';
-import { ronanCinemaMovies } from '../utils/users/ronan/movies/ronan_cinema_movies';
+import {
+  amandineMovies1,
+  amandineMovies2,
+  amandineWatchlistMovies,
+} from '../utils/users/amandine/movies';
+import {
+  ronanMovies,
+  ronanLetterboxdMovies,
+  ronanCinemaMovies,
+  ronanWatchlistMovies,
+} from '../utils/users/ronan/movies';
 
 const allBaseMovies: BaseMovie[] = [
   ...baseMoviesPage1,
@@ -86,8 +92,8 @@ export function getAllWatchlistMovies(): { [key: string]: Movie[] } {
     guillaume: getAllMoviesData([...guillaumeWatchlistMovies]),
     william: [],
     kevin: [],
-    amandine: [],
-    ronan: [],
+    amandine: getAllMoviesData([...amandineWatchlistMovies]),
+    ronan: getAllMoviesData([...ronanWatchlistMovies]),
   };
 }
 

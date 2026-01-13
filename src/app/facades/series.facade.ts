@@ -33,6 +33,11 @@ export function getAllSeriesMerged(): Serie[] {
     }, []);
 }
 
+export function getSeriesByUser(userId: string): Serie[] {
+  const allSeriesData = getAllSeries();
+  return allSeriesData[userId] || [];
+}
+
 function getAllSeriesData(series: UserSerie[]): Serie[] {
   return series.map((serie: UserSerie) => {
     const matchingBaseSerie = allBaseSeries.filter(

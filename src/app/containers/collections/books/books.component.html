@@ -6,24 +6,43 @@
     ({{ filteredBooks().length }})
   </h1>
 
-  <div class="books-view-toggle">
-    <button
-      class="toggle-option"
-      [class.active]="selectedView() === 'read'"
-      (click)="onViewChange('read')"
-    >
-      Livres lus
-    </button>
-    <button
-      class="toggle-option"
-      [class.active]="selectedView() === 'readlist'"
-      (click)="onViewChange('readlist')"
-    >
-      Livres à lire
-    </button>
-  </div>
+  @if(filteredBooks().length !== 0) {
+  <div class="books-header-top">
+    <div class="books-view-toggle">
+      <button
+        class="toggle-option"
+        [class.active]="selectedView() === 'read'"
+        (click)="onViewChange('read')"
+      >
+        Livres lus
+      </button>
+      <button
+        class="toggle-option"
+        [class.active]="selectedView() === 'readlist'"
+        (click)="onViewChange('readlist')"
+      >
+        Livres à lire
+      </button>
+    </div>
 
-  @if(filteredBooks().length === 0) {
+    <div class="books-actions">
+      <button
+        class="btn btn-small"
+        [routerLink]="getSelectBooksRatingRoute()"
+        title="Mettre à jour les notes de mes livres"
+      >
+        ⭐ Notes
+      </button>
+      <button
+        class="btn btn-small"
+        [routerLink]="getSelectBooksTimesReadRoute()"
+        title="Mettre à jour le nombre de lectures de mes livres"
+      >
+        📖 Lectures
+      </button>
+    </div>
+  </div>
+  } @if(filteredBooks().length === 0) {
   <div class="empty-state">
     <p class="empty-message">Vous n'avez aucun livre dans votre collection.</p>
     <p class="empty-subtitle">
