@@ -23,6 +23,7 @@ export interface BaseSerie extends MandatorySerieData {
 export interface UserSerie extends MandatorySerieData {
   rating: number;
   timesWatched: number;
+  stoppedAtSeason: number;
 }
 
 export interface Serie extends BaseSerie, UserSerie {}

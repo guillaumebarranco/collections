@@ -239,13 +239,16 @@ export class DashboardComponent {
   topSeries = computed<TopSerie[]>(() => {
     return this.allSeries()
       .filter((serie) => serie.timesWatched > 1)
-      .map((serie) => ({
-        ...serie,
-        totalWatchingTime: (serie.totalLength / 60) * serie.timesWatched, // Convertir minutes en heures
-        formattedWatchingTime: this.formatTime(
-          (serie.totalLength / 60) * serie.timesWatched
-        ),
-      }))
+      .map((serie) => {
+        const effectiveLength = this.getEffectiveSerieLength(serie);
+        return {
+          ...serie,
+          totalWatchingTime: (effectiveLength / 60) * serie.timesWatched, // Convertir minutes en heures
+          formattedWatchingTime: this.formatTime(
+            (effectiveLength / 60) * serie.timesWatched
+          ),
+        };
+      })
       .sort((a, b) => b.timesWatched - a.timesWatched)
       .slice(0, 5);
   });
@@ -302,7 +305,10 @@ export class DashboardComponent {
         0
       ) +
       this.allSeries().reduce(
-        (sum, serie) => sum + (serie.totalLength / 60) * serie.timesWatched,
+        (sum, serie) => {
+          const effectiveLength = this.getEffectiveSerieLength(serie);
+          return sum + (effectiveLength / 60) * serie.timesWatched;
+        },
         0
       );
 
@@ -413,6 +419,19 @@ export class DashboardComponent {
       return `${days.toFixed(1)}j`;
     }
     return `${hours.toFixed(1)}h`;
+  }
+
+  private getEffectiveSerieLength(serie: Serie): number {
+    // Si stoppedAtSeason est 0, on utilise la longueur totale
+    if (!serie.stoppedAtSeason || serie.stoppedAtSeason === 0) {
+      return serie.totalLength;
+    }
+    // Sinon, on calcule proportionnellement : (stoppedAtSeason / nbSeasons) * totalLength
+    if (serie.nbSeasons > 0) {
+      return (serie.stoppedAtSeason / serie.nbSeasons) * serie.totalLength;
+    }
+    // Fallback si nbSeasons est 0 ou invalide
+    return serie.totalLength;
   }
 
   onInput(event: Event): void {

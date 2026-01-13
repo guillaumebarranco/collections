@@ -19,6 +19,8 @@ import {
 import { ActivatedRoute, Params, RouterLink } from '@angular/router';
 import { getAllSeries } from '../../../facades/series.facade';
 
+type SerieView = 'finished' | 'stopped';
+
 @Component({
   selector: 'app-series',
   imports: [
@@ -36,6 +38,7 @@ export class SeriesComponent {
   activatedRoute = inject(ActivatedRoute);
 
   selectedSort = signal<string>('rating');
+  selectedView = signal<SerieView>('finished');
 
   sortOptions = signal<SortOption[]>([
     { value: 'title', label: 'Titre (A-Z)' },
@@ -64,66 +67,85 @@ export class SeriesComponent {
       : this.seriesList()['guillaume'];
   });
 
+  filteredSeries = computed<Serie[]>(() => {
+    if (this.selectedView() === 'stopped') {
+      return this.allSeries().filter(
+        (serie) => serie.stoppedAtSeason && serie.stoppedAtSeason > 0
+      );
+    }
+    // 'finished' - séries avec stoppedAtSeason === 0 ou non défini
+    return this.allSeries().filter(
+      (serie) => !serie.stoppedAtSeason || serie.stoppedAtSeason === 0
+    );
+  });
+
   sortedSeries = computed<Serie[]>(() => {
+    const seriesToSort = [...this.filteredSeries()];
     switch (this.selectedSort()) {
       case 'title':
-        return this.allSeries().sort((a, b) => a.title.localeCompare(b.title));
+        return seriesToSort.sort((a, b) => a.title.localeCompare(b.title));
       case 'title-desc':
-        return this.allSeries().sort((a, b) => b.title.localeCompare(a.title));
+        return seriesToSort.sort((a, b) => b.title.localeCompare(a.title));
       case 'releaseDate':
-        return this.allSeries().sort(
+        return seriesToSort.sort(
           (a, b) =>
             new Date(b.releaseDate).getTime() -
             new Date(a.releaseDate).getTime()
         );
       case 'releaseDate-asc':
-        return this.allSeries().sort(
+        return seriesToSort.sort(
           (a, b) =>
             new Date(a.releaseDate).getTime() -
             new Date(b.releaseDate).getTime()
         );
       case 'rating':
-        return this.allSeries().sort((a, b) => {
+        return seriesToSort.sort((a, b) => {
           if (b.rating !== a.rating) {
             return b.rating - a.rating;
           }
           return b.timesWatched - a.timesWatched;
         });
       case 'rating-asc':
-        return this.allSeries().sort((a, b) => {
+        return seriesToSort.sort((a, b) => {
           if (a.rating !== b.rating) {
             return a.rating - b.rating;
           }
           return b.timesWatched - a.timesWatched;
         });
       case 'timesWatched':
-        return this.allSeries().sort((a, b) => b.timesWatched - a.timesWatched);
+        return seriesToSort.sort((a, b) => b.timesWatched - a.timesWatched);
       case 'timesWatched-asc':
-        return this.allSeries().sort((a, b) => a.timesWatched - b.timesWatched);
+        return seriesToSort.sort((a, b) => a.timesWatched - b.timesWatched);
       case 'totalLength':
-        return this.allSeries().sort((a, b) => b.totalLength - a.totalLength);
+        return seriesToSort.sort((a, b) => b.totalLength - a.totalLength);
       case 'totalLength-asc':
-        return this.allSeries().sort((a, b) => a.totalLength - b.totalLength);
+        return seriesToSort.sort((a, b) => a.totalLength - b.totalLength);
       case 'nbSeasons':
-        return this.allSeries().sort((a, b) => b.nbSeasons - a.nbSeasons);
+        return seriesToSort.sort((a, b) => b.nbSeasons - a.nbSeasons);
       case 'nbSeasons-asc':
-        return this.allSeries().sort((a, b) => a.nbSeasons - b.nbSeasons);
+        return seriesToSort.sort((a, b) => a.nbSeasons - b.nbSeasons);
       case 'nbEpisodesTotal':
-        return this.allSeries().sort(
+        return seriesToSort.sort(
           (a, b) => b.nbEpisodesTotal - a.nbEpisodesTotal
         );
       case 'nbEpisodesTotal-asc':
-        return this.allSeries().sort(
+        return seriesToSort.sort(
           (a, b) => a.nbEpisodesTotal - b.nbEpisodesTotal
         );
       default:
-        return this.allSeries().sort((a, b) => a.title.localeCompare(b.title));
+        return seriesToSort.sort((a, b) => a.title.localeCompare(b.title));
     }
   });
 
   stats = computed<StatItem[]>(() => {
-    const totalDuration = getTotalDuration(this.allSeries());
-    const totalWatchingTime = getTotalWatchingTime(this.allSeries());
+    // Utiliser les séries filtrées pour les stats avec longueur effective
+    const seriesToUse = this.filteredSeries();
+    const seriesWithEffectiveLength = seriesToUse.map((serie) => ({
+      ...serie,
+      totalLength: Math.round(this.getEffectiveSerieLength(serie)),
+    }));
+    const totalDuration = getTotalDuration(seriesWithEffectiveLength);
+    const totalWatchingTime = getTotalWatchingTime(seriesWithEffectiveLength);
 
     return [
       {
@@ -141,8 +163,25 @@ export class SeriesComponent {
     ];
   });
 
+  private getEffectiveSerieLength(serie: Serie): number {
+    // Si stoppedAtSeason est 0, on utilise la longueur totale
+    if (!serie.stoppedAtSeason || serie.stoppedAtSeason === 0) {
+      return serie.totalLength;
+    }
+    // Sinon, on calcule proportionnellement : (stoppedAtSeason / nbSeasons) * totalLength
+    if (serie.nbSeasons > 0) {
+      return (serie.stoppedAtSeason / serie.nbSeasons) * serie.totalLength;
+    }
+    // Fallback si nbSeasons est 0 ou invalide
+    return serie.totalLength;
+  }
+
   onSortChange(sortValue: string) {
     this.selectedSort.set(sortValue);
+  }
+
+  onViewChange(view: SerieView) {
+    this.selectedView.set(view);
   }
 
   getSelectSeriesRoute(): string {

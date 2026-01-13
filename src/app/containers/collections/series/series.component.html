@@ -1,10 +1,34 @@
 <app-menu></app-menu>
 
 <div class="series-container">
-  <h1>Séries visionnées ({{ allSeries().length }})</h1>
+  <h1>
+    {{
+      selectedView() === "stopped"
+        ? "Séries stoppées"
+        : "Séries finies"
+    }}
+    ({{ filteredSeries().length }})
+  </h1>
 
   @if(allSeries().length !== 0) {
   <div class="series-header-top">
+    <div class="series-view-toggle">
+      <button
+        class="toggle-option"
+        [class.active]="selectedView() === 'finished'"
+        (click)="onViewChange('finished')"
+      >
+        Séries finies
+      </button>
+      <button
+        class="toggle-option"
+        [class.active]="selectedView() === 'stopped'"
+        (click)="onViewChange('stopped')"
+      >
+        Séries stoppées
+      </button>
+    </div>
+
     <div class="series-actions">
       <button
         class="btn btn-small"
@@ -37,7 +61,7 @@
   <div class="series-header">
     <app-stats-display
       [stats]="stats()"
-      [count]="allSeries().length"
+      [count]="filteredSeries().length"
       countLabel="séries"
     >
     </app-stats-display>

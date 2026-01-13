@@ -57,6 +57,7 @@ function getAllSeriesData(series: UserSerie[]): Serie[] {
       director: serie.director,
       rating: serie.rating,
       timesWatched: serie.timesWatched,
+      stoppedAtSeason: serie.stoppedAtSeason || 0,
       actors: definitiveMatchingSerie?.actors || [],
       coverUrl: definitiveMatchingSerie?.coverUrl || '',
       releaseDate: definitiveMatchingSerie?.releaseDate || '',

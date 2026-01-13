@@ -39,9 +39,11 @@ export const PAGES_PER_MANGA_TOME = 200;
 export const MINUTES_PER_MANGA_TOME = 30;
 
 export function formatTimeStats(totalMinutes: number): TimeStats {
-  const days = Math.floor(totalMinutes / (24 * 60));
-  const hours = Math.floor((totalMinutes % (24 * 60)) / 60);
-  const minutes = totalMinutes % 60;
+  // Arrondir totalMinutes à l'entier le plus proche pour éviter les décimales dans les minutes
+  const roundedMinutes = Math.round(totalMinutes);
+  const days = Math.floor(roundedMinutes / (24 * 60));
+  const hours = Math.floor((roundedMinutes % (24 * 60)) / 60);
+  const minutes = Math.round(roundedMinutes % 60);
   let formatted = '';
   if (days > 0) formatted += `${days} jours`;
   if (hours > 0) formatted += (formatted ? ', ' : '') + `${hours} heures`;
