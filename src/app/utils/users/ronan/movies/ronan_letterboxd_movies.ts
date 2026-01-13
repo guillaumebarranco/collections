@@ -14,7 +14,7 @@ export const ronanLetterboxdMovies: UserMovie[] = [
     title: 'Sexe entre amis',
     director: 'Will Gluck',
     rating: 0, // Friends with Benefits - not found in ratings list
-    timesWatched: 1,
+    timesWatched: 10,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
@@ -50,7 +50,7 @@ export const ronanLetterboxdMovies: UserMovie[] = [
     title: 'Target',
     director: 'McG',
     rating: 0, // Target (no McG movie with this title)
-    timesWatched: 1,
+    timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
@@ -68,7 +68,7 @@ export const ronanLetterboxdMovies: UserMovie[] = [
     title: "L'Apprenti sorcier",
     director: 'Jon Turteltaub',
     rating: 0, // The Sorcerer's Apprentice (2010) - not found in ratings list
-    timesWatched: 1,
+    timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
@@ -131,7 +131,7 @@ export const ronanLetterboxdMovies: UserMovie[] = [
     title: 'Le Prénom',
     director: 'Alexandre de La Patellière, Matthieu Delaporte',
     rating: 0, // What's in a Name? (2012) - not found in ratings list
-    timesWatched: 1,
+    timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
@@ -140,7 +140,7 @@ export const ronanLetterboxdMovies: UserMovie[] = [
     title: 'Malavita',
     director: 'Luc Besson',
     rating: 0, // The Family (2013) - not found in ratings list
-    timesWatched: 1,
+    timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
@@ -149,7 +149,7 @@ export const ronanLetterboxdMovies: UserMovie[] = [
     title: 'The Punisher',
     director: 'Jonathan Hensleigh',
     rating: 0, // The Punisher (2004) - not found in ratings list
-    timesWatched: 1,
+    timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
@@ -239,7 +239,7 @@ export const ronanLetterboxdMovies: UserMovie[] = [
     title: 'Miss Peregrine et les Enfants particuliers',
     director: 'Tim Burton',
     rating: 0, // Miss Peregrine's Home for Peculiar Children (2016) - not found in ratings list
-    timesWatched: 1,
+    timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
@@ -248,7 +248,7 @@ export const ronanLetterboxdMovies: UserMovie[] = [
     title: "Le Monde fantastique d'Oz",
     director: 'Sam Raimi',
     rating: 0, // Oz the Great and Powerful (2013) - not found in ratings list
-    timesWatched: 1,
+    timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
@@ -266,7 +266,7 @@ export const ronanLetterboxdMovies: UserMovie[] = [
     title: 'Dark Shadows',
     director: 'Tim Burton',
     rating: 0, // Dark Shadows (2012) - not found in ratings list
-    timesWatched: 1,
+    timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
@@ -320,7 +320,7 @@ export const ronanLetterboxdMovies: UserMovie[] = [
     title: "L'Étrange Histoire de Benjamin Button",
     director: 'David Fincher',
     rating: 0, // The Curious Case of Benjamin Button (2008) - not found in ratings list
-    timesWatched: 1,
+    timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
@@ -329,7 +329,7 @@ export const ronanLetterboxdMovies: UserMovie[] = [
     title: 'Le Monde de Narnia : Le Prince Caspian',
     director: 'Andrew Adamson',
     rating: 0, // The Chronicles of Narnia: Prince Caspian (2008) - not found in ratings list
-    timesWatched: 1,
+    timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
@@ -365,7 +365,7 @@ export const ronanLetterboxdMovies: UserMovie[] = [
     title: 'Lilo et Stitch',
     director: 'Dean DeBlois, Chris Sanders',
     rating: 0, // Lilo & Stitch (2002) - not found in ratings list
-    timesWatched: 1,
+    timesWatched: 10,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
@@ -374,7 +374,7 @@ export const ronanLetterboxdMovies: UserMovie[] = [
     title: 'Chicken Run',
     director: 'Peter Lord, Nick Park',
     rating: 0, // Chicken Run (2000) - not found in ratings list
-    timesWatched: 1,
+    timesWatched: 10,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
@@ -383,7 +383,7 @@ export const ronanLetterboxdMovies: UserMovie[] = [
     title: 'Dinosaure',
     director: 'Ralph Zondag, Eric Leighton',
     rating: 0, // Dinosaur (2000) - not found in ratings list
-    timesWatched: 1,
+    timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
@@ -392,7 +392,7 @@ export const ronanLetterboxdMovies: UserMovie[] = [
     title: "Le Prince d'Égypte",
     director: 'Brenda Chapman, Steve Hickner',
     rating: 0, // The Prince of Egypt (1998) - not found in ratings list
-    timesWatched: 1,
+    timesWatched: 10,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
@@ -401,7 +401,7 @@ export const ronanLetterboxdMovies: UserMovie[] = [
     title: "Le Roi Lion 2 : L'Honneur de la tribu",
     director: 'Darrell Rooney, Rob LaDuca',
     rating: 0, // The Lion King II: Simba's Pride (1998) - not found in ratings list
-    timesWatched: 1,
+    timesWatched: 15,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
@@ -437,7 +437,7 @@ export const ronanLetterboxdMovies: UserMovie[] = [
     title: 'Matilda',
     director: 'Danny DeVito',
     rating: 0, // Matilda (1996) - not found in ratings list
-    timesWatched: 1,
+    timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
@@ -464,7 +464,7 @@ export const ronanLetterboxdMovies: UserMovie[] = [
     title: '3 Ninjas',
     director: 'Jon Turteltaub',
     rating: 0, // 3 Ninjas (1992) - not found in ratings list
-    timesWatched: 1,
+    timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
@@ -491,7 +491,7 @@ export const ronanLetterboxdMovies: UserMovie[] = [
     title: 'Grease',
     director: 'Randal Kleiser',
     rating: 0, // Grease (1978) - not found in ratings list
-    timesWatched: 1,
+    timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
@@ -500,7 +500,7 @@ export const ronanLetterboxdMovies: UserMovie[] = [
     title: 'Mary Poppins',
     director: 'Robert Stevenson',
     rating: 0, // Mary Poppins (1964) - not found in ratings list
-    timesWatched: 1,
+    timesWatched: 15,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
@@ -509,7 +509,7 @@ export const ronanLetterboxdMovies: UserMovie[] = [
     title: 'Bambi',
     director: 'David Hand',
     rating: 0, // Bambi (1942) - not found in ratings list
-    timesWatched: 1,
+    timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
@@ -518,7 +518,7 @@ export const ronanLetterboxdMovies: UserMovie[] = [
     title: 'Dumbo',
     director: 'Ben Sharpsteen',
     rating: 0, // Dumbo (1941) - not found in ratings list
-    timesWatched: 1,
+    timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
@@ -536,7 +536,7 @@ export const ronanLetterboxdMovies: UserMovie[] = [
     title: 'Blanche-Neige et les Sept Nains',
     director: 'David Hand',
     rating: 0, // Snow White and the Seven Dwarfs (1937) - not found in ratings list
-    timesWatched: 1,
+    timesWatched: 10,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
