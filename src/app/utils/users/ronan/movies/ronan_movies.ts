@@ -2766,15 +2766,6 @@ export const ronanMovies: UserMovie[] = [
     director: 'Zach Lipovsky, Adam B. Stein',
   },
   {
-    title: 'Astérix et Obélix : Le Combat des chefs',
-    rating: 3.5,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Alain Chabat, Fabrice Joubert',
-  },
-  {
     title: 'Until Dawn : La mort sans fin',
     rating: 2.5,
     timesWatched: 1,
@@ -3061,15 +3052,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
     director: 'Francis Lawrence',
-  },
-  {
-    title: 'Star Wars: Tales of the Jedi',
-    rating: 3.5,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Dave Filoni, Charles Murray',
   },
   {
     title: 'Werewolf by Night',
@@ -5646,15 +5628,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
   },
   {
-    title: 'Les 101 Dalmatiens',
-    director: 'Clyde Geronimi, Hamilton Luske',
-    rating: 3,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-  },
-  {
     title: 'Pierre et le Loup',
     director: 'Clyde Geronimi',
     rating: 2.5,
@@ -5923,15 +5896,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
     director: 'Donald Petrie',
-  },
-  {
-    title: 'La Planète au trésor : Un nouvel univers',
-    rating: 3,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Ron Clements, John Musker',
   },
   {
     title: 'Spy Kids 2 : Espions en herbe',
@@ -7330,24 +7294,6 @@ export const ronanMovies: UserMovie[] = [
     director: 'Guy Ritchie',
   },
   {
-    title: 'Les Aventures de Tintin : Le Secret de la Licorne',
-    rating: 3, // The Adventures of Tintin (2011) ★★★
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Steven Spielberg',
-  },
-  {
-    title: "S'ex list",
-    rating: 3, // What's Your Number? (2011) ★★★
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Mark Mylod',
-  },
-  {
     title: 'Les Trois Mousquetaires',
     rating: 2.5, // The Three Musketeers (2011) ★★½
     timesWatched: 1,
@@ -7546,15 +7492,6 @@ export const ronanMovies: UserMovie[] = [
     director: 'Peter Jackson',
   },
   {
-    title: "Atlantide, l'empire perdu",
-    rating: 3.5, // Atlantis: The Lost Empire (2001) ★★★½
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Gary Trousdale, Kirk Wise',
-  },
-  {
     title: 'Mission : Impossible 2',
     rating: 2,
     timesWatched: 1,
@@ -7562,15 +7499,6 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
     director: 'John Woo',
-  },
-  {
-    title: "La Route d'Eldorado",
-    rating: 3.5, // The Road to El Dorado (2000) ★★★½
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    director: 'Éric Bergeron, Don Paul',
   },
   {
     title: 'Ghost Dog : La Voie du samouraï',

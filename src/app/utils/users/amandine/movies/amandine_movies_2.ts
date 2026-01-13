@@ -2117,15 +2117,6 @@ export const amandineMovies2: UserMovie[] = [
     seenAtCinema: false,
   },
   {
-    title: 'Les 101 Dalmatiens',
-    director: 'Clyde Geronimi, Hamilton Luske',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-  },
-  {
     title: 'La Belle au bois dormant',
     director: 'Clyde Geronimi',
     rating: 0,

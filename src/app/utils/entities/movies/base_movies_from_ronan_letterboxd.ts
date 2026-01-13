@@ -828,34 +828,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: '',
   },
   {
-    title: 'Astérix et Obélix : Le Combat des chefs',
-    director: 'Alain Chabat, Fabrice Joubert',
-    actors: [
-      {
-        name: 'Tom Cruise',
-      },
-      {
-        name: 'Hayley Atwell',
-      },
-      {
-        name: 'Ving Rhames',
-      },
-      {
-        name: 'Simon Pegg',
-      },
-      {
-        name: 'Esai Morales',
-      },
-      {
-        name: 'Pom Klementieff',
-      },
-    ],
-    coverUrl: '/movies_pictures/ast_rix_et_ob_lix_le_combat_des_chefs.jpg',
-    releaseDate: '2025-04-30',
-    length: 150,
-    genre: 'Animation',
-  },
-  {
     title: 'Until Dawn : La mort sans fin',
     director: 'David F. Sandberg',
     actors: [
@@ -2580,25 +2552,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2022-01-01',
     length: 0,
     genre: '',
-  },
-  {
-    title: 'Star Wars: Tales of the Jedi',
-    director: 'Dave Filoni, Charles Murray',
-    actors: [
-      {
-        name: 'Corey Burton',
-      },
-      {
-        name: 'Janina Gavankar',
-      },
-      {
-        name: 'Bryce Dallas Howard',
-      },
-    ],
-    coverUrl: '/movies_pictures/star_wars_tales_of_the_jedi.jpg',
-    releaseDate: '2022-10-26',
-    length: 90,
-    genre: 'Animation',
   },
   {
     title: 'Werewolf by Night',
@@ -6798,25 +6751,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Action',
   },
   {
-    title: 'Les Aventures de Tintin : Le Secret de la Licorne',
-    director: 'Steven Spielberg',
-    actors: [
-      {
-        name: 'Jamie Bell',
-      },
-      {
-        name: 'Andy Serkis',
-      },
-      {
-        name: 'Daniel Craig',
-      },
-    ],
-    coverUrl: '/movies_pictures/the_adventures_of_tintin.jpg',
-    releaseDate: '2011-10-26',
-    length: 107,
-    genre: 'Animation',
-  },
-  {
     title: 'Paranormal Activity 3',
     director: 'Henry Joost, Ariel Schulman',
     actors: [
@@ -6853,25 +6787,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2011-10-12',
     length: 82,
     genre: 'Animation',
-  },
-  {
-    title: "S'ex list",
-    director: 'Mark Mylod',
-    actors: [
-      {
-        name: 'Ralph Fiennes',
-      },
-      {
-        name: 'Anya Taylor-Joy',
-      },
-      {
-        name: 'Nicholas Hoult',
-      },
-    ],
-    coverUrl: '/movies_pictures/what_s_your_number.jpg',
-    releaseDate: '2011-10-05',
-    length: 106,
-    genre: 'Comédie',
   },
   {
     title: 'Batman: Year One',
@@ -8833,25 +8748,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Drame',
   },
   {
-    title: 'La Planète au trésor : Un nouvel univers',
-    director: 'Ron Clements, John Musker',
-    actors: [
-      {
-        name: 'Joseph Gordon-Levitt',
-      },
-      {
-        name: 'Emma Thompson',
-      },
-      {
-        name: 'Martin Short',
-      },
-    ],
-    coverUrl: '/movies_pictures/treasure_planet.jpg',
-    releaseDate: '2002-11-27',
-    length: 95,
-    genre: 'Animation',
-  },
-  {
     title: 'Dragon rouge',
     director: 'Brett Ratner',
     actors: [
@@ -8983,25 +8879,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Animation',
   },
   {
-    title: "Atlantide, l'empire perdu",
-    director: 'Gary Trousdale, Kirk Wise',
-    actors: [
-      {
-        name: 'Michael J. Fox',
-      },
-      {
-        name: 'Cree Summer',
-      },
-      {
-        name: 'James Garner',
-      },
-    ],
-    coverUrl: '/movies_pictures/atlantis_the_lost_empire.jpg',
-    releaseDate: '2001-11-28',
-    length: 95,
-    genre: 'Animation',
-  },
-  {
     title: 'Hannibal',
     director: 'Ridley Scott',
     actors: [
@@ -9124,25 +9001,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2000-07-26',
     length: 126,
     genre: 'Action',
-  },
-  {
-    title: "La Route d'Eldorado",
-    director: 'Éric Bergeron, Don Paul',
-    actors: [
-      {
-        name: 'Kevin Kline',
-      },
-      {
-        name: 'Kenneth Branagh',
-      },
-      {
-        name: 'Rosie Perez',
-      },
-    ],
-    coverUrl: '/movies_pictures/the_road_to_el_dorado.jpg',
-    releaseDate: '2000-10-25',
-    length: 89,
-    genre: 'Animation',
   },
   {
     title: 'Erin Brockovich, seule contre tous',
