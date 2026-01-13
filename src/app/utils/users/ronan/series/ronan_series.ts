@@ -254,6 +254,12 @@ export const ronanSeries: UserSerie[] = [
     timesWatched: 1,
   },
   {
+    title: 'Ahsoka',
+    director: 'Dave Filoni',
+    rating: 0,
+    timesWatched: 1,
+  },
+  {
     title: 'Altered Carbon',
     director: 'Laeta Kalogridis',
     rating: 0,

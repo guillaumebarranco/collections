@@ -51,6 +51,23 @@ export const baseSeries: BaseSerie[] = [
     nbEpisodesTotal: 136,
   },
   {
+    title: 'Ahsoka',
+    director: 'Dave Filoni',
+    actors: [
+      { name: 'Rosario Dawson' },
+      { name: 'Natasha Liu Bordizzo' },
+      { name: 'Mary Elizabeth Winstead' },
+      { name: 'Ray Stevenson' },
+    ],
+    coverUrl: '/series_pictures/0096637.webp',
+    releaseDate: '2023-08-22',
+    endDate: '',
+    totalLength: 480,
+    genre: 'Action, Adventure, Drama',
+    nbSeasons: 1,
+    nbEpisodesTotal: 8,
+  },
+  {
     title: 'Altered Carbon',
     director: 'Laeta Kalogridis',
     actors: [
@@ -1728,5 +1745,22 @@ export const baseSeries: BaseSerie[] = [
     genre: 'Animation, Action, Adventure',
     nbSeasons: 4,
     nbEpisodesTotal: 112,
+  },
+  {
+    title: 'Yu Yu Hakusho (live-action)',
+    director: 'Shô Tsukikawa',
+    actors: [
+      { name: 'Takumi Kitamura' },
+      { name: 'Jun Shison' },
+      { name: 'Kanata Hongô' },
+      { name: 'Shûhei Uesugi' },
+    ],
+    coverUrl: '/series_pictures/2684246.webp',
+    releaseDate: '2023-12-14',
+    endDate: '2023-12-14',
+    totalLength: 300,
+    genre: 'Action, Adventure, Fantasy',
+    nbSeasons: 1,
+    nbEpisodesTotal: 5,
   },
 ];

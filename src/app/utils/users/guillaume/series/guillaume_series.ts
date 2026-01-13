@@ -343,4 +343,10 @@ export const guillaumeSeries: UserSerie[] = [
     rating: 4.25,
     timesWatched: 1,
   },
+  {
+    title: 'Yu Yu Hakusho (live-action)',
+    director: 'Shô Tsukikawa',
+    rating: 0,
+    timesWatched: 1,
+  },
 ];
