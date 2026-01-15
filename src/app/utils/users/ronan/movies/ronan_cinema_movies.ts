@@ -7,7 +7,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2025-01-31',
-    lastViewedDate: '',
+    lastViewedDate: '2025-01-31',
     seenAtCinema: true,
   },
   {
@@ -25,7 +25,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2024-04-26',
-    lastViewedDate: '',
+    lastViewedDate: '2024-04-26',
     seenAtCinema: true,
   },
   {
@@ -43,7 +43,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2023-07-21',
-    lastViewedDate: '',
+    lastViewedDate: '2023-07-21',
     seenAtCinema: true,
   },
   {
@@ -52,7 +52,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2,
     timesWatched: 1,
     firstViewedDate: '2023-07-21',
-    lastViewedDate: '',
+    lastViewedDate: '2023-07-21',
     seenAtCinema: true,
   },
   {
@@ -61,7 +61,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2023-03-03',
-    lastViewedDate: '',
+    lastViewedDate: '2023-03-03',
     seenAtCinema: true,
   },
   {
@@ -70,7 +70,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2022-12-23',
-    lastViewedDate: '',
+    lastViewedDate: '2022-12-23',
     seenAtCinema: true,
   },
   {
@@ -88,7 +88,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4.5,
     timesWatched: 1,
     firstViewedDate: '2022-03-25',
-    lastViewedDate: '',
+    lastViewedDate: '2022-03-25',
     seenAtCinema: true,
   },
   {
@@ -97,7 +97,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2,
     timesWatched: 1,
     firstViewedDate: '2021-08-13',
-    lastViewedDate: '',
+    lastViewedDate: '2021-08-13',
     seenAtCinema: true,
   },
   {
@@ -106,7 +106,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2025-05-02',
-    lastViewedDate: '',
+    lastViewedDate: '2025-05-02',
     seenAtCinema: true,
   },
   {
@@ -133,7 +133,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2019-05-24',
-    lastViewedDate: '',
+    lastViewedDate: '2019-05-24',
     seenAtCinema: true,
   },
   {
@@ -151,7 +151,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2018-10-05',
-    lastViewedDate: '',
+    lastViewedDate: '2018-10-05',
     seenAtCinema: true,
   },
   {
@@ -214,7 +214,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2015-09-11',
-    lastViewedDate: '',
+    lastViewedDate: '2015-09-11',
     seenAtCinema: true,
   },
   {
@@ -223,7 +223,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2,
     timesWatched: 1,
     firstViewedDate: '2015-07-24',
-    lastViewedDate: '',
+    lastViewedDate: '2015-07-24',
     seenAtCinema: true,
   },
   {
@@ -250,7 +250,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2014-07-25',
-    lastViewedDate: '',
+    lastViewedDate: '2014-07-25',
     seenAtCinema: true,
   },
   {
@@ -259,7 +259,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2013-08-09',
-    lastViewedDate: '',
+    lastViewedDate: '2013-08-09',
     seenAtCinema: true,
   },
   {
@@ -314,7 +314,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2025-02-14',
-    lastViewedDate: '',
+    lastViewedDate: '2025-02-14',
     seenAtCinema: true,
   },
   {
@@ -422,7 +422,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2021-07-09',
-    lastViewedDate: '',
+    lastViewedDate: '2021-07-09',
     seenAtCinema: true,
   },
   {
@@ -431,7 +431,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2024-07-26',
-    lastViewedDate: '',
+    lastViewedDate: '2024-07-26',
     seenAtCinema: true,
   },
   {
@@ -485,7 +485,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2022-10-21',
-    lastViewedDate: '',
+    lastViewedDate: '2022-10-21',
     seenAtCinema: true,
   },
   {
@@ -512,7 +512,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2025-07-11',
-    lastViewedDate: '',
+    lastViewedDate: '2025-07-11',
     seenAtCinema: true,
   },
   {
@@ -530,7 +530,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2,
     timesWatched: 1,
     firstViewedDate: '2023-06-16',
-    lastViewedDate: '',
+    lastViewedDate: '2023-06-16',
     seenAtCinema: true,
   },
   {
@@ -539,7 +539,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2020-02-07',
-    lastViewedDate: '',
+    lastViewedDate: '2020-02-07',
     seenAtCinema: true,
   },
   {
@@ -593,7 +593,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2,
     timesWatched: 1,
     firstViewedDate: '2018-10-05',
-    lastViewedDate: '',
+    lastViewedDate: '2018-10-05',
     seenAtCinema: true,
   },
   {
@@ -746,7 +746,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2019-08-02',
-    lastViewedDate: '',
+    lastViewedDate: '2019-08-02',
     seenAtCinema: true,
   },
   {
@@ -755,7 +755,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2,
     timesWatched: 1,
     firstViewedDate: '2015-07-01',
-    lastViewedDate: '',
+    lastViewedDate: '2015-07-01',
     seenAtCinema: true,
   },
   {
@@ -773,7 +773,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2012-12-21',
-    lastViewedDate: '',
+    lastViewedDate: '2012-12-21',
     seenAtCinema: true,
   },
   {
@@ -782,7 +782,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2019-01-18',
-    lastViewedDate: '',
+    lastViewedDate: '2019-01-18',
     seenAtCinema: true,
   },
   {
@@ -809,7 +809,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2,
     timesWatched: 1,
     firstViewedDate: '2015-01-09',
-    lastViewedDate: '',
+    lastViewedDate: '2015-01-09',
     seenAtCinema: true,
   },
   {
@@ -863,7 +863,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '2023-12-15',
-    lastViewedDate: '',
+    lastViewedDate: '2023-12-15',
     seenAtCinema: true,
   },
   {
@@ -872,7 +872,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2023-03-31',
-    lastViewedDate: '',
+    lastViewedDate: '2023-03-31',
     seenAtCinema: true,
   },
   {
@@ -881,7 +881,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2022-06-24',
-    lastViewedDate: '',
+    lastViewedDate: '2022-06-24',
     seenAtCinema: true,
   },
   {
@@ -890,7 +890,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2021-05-28',
-    lastViewedDate: '',
+    lastViewedDate: '2021-05-28',
     seenAtCinema: true,
   },
   {
@@ -899,7 +899,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4.5,
     timesWatched: 1,
     firstViewedDate: '2019-12-25',
-    lastViewedDate: '',
+    lastViewedDate: '2019-12-25',
     seenAtCinema: true,
   },
   {
@@ -908,7 +908,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2018-06-22',
-    lastViewedDate: '',
+    lastViewedDate: '2018-06-22',
     seenAtCinema: true,
   },
   {
@@ -953,7 +953,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2015-06-12',
-    lastViewedDate: '',
+    lastViewedDate: '2015-06-12',
     seenAtCinema: true,
   },
   {
@@ -971,7 +971,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2025-12-17',
-    lastViewedDate: '',
+    lastViewedDate: '2025-12-17',
     seenAtCinema: true,
   },
   {
@@ -980,7 +980,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2025-11-26',
-    lastViewedDate: '',
+    lastViewedDate: '2025-11-26',
     seenAtCinema: true,
   },
   {
@@ -989,7 +989,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2025-11-19',
-    lastViewedDate: '',
+    lastViewedDate: '2025-11-19',
     seenAtCinema: true,
   },
   {
@@ -998,7 +998,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2025-11-19',
-    lastViewedDate: '',
+    lastViewedDate: '2025-11-19',
     seenAtCinema: true,
   },
   {
@@ -1007,7 +1007,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2,
     timesWatched: 1,
     firstViewedDate: '2025-11-12',
-    lastViewedDate: '',
+    lastViewedDate: '2025-11-12',
     seenAtCinema: true,
   },
   {
@@ -1016,7 +1016,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '2025-10-08',
-    lastViewedDate: '',
+    lastViewedDate: '2025-10-08',
     seenAtCinema: true,
   },
   {
@@ -1025,7 +1025,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2025-10-01',
-    lastViewedDate: '',
+    lastViewedDate: '2025-10-01',
     seenAtCinema: true,
   },
   {
@@ -1034,7 +1034,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2025-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2025-01-01',
     seenAtCinema: true,
   },
   {
@@ -1043,7 +1043,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '2025-09-10',
-    lastViewedDate: '',
+    lastViewedDate: '2025-09-10',
     seenAtCinema: true,
   },
   {
@@ -1052,7 +1052,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2025-10-29',
-    lastViewedDate: '',
+    lastViewedDate: '2025-10-29',
     seenAtCinema: true,
   },
   {
@@ -1061,7 +1061,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2025-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2025-01-01',
     seenAtCinema: true,
   },
   {
@@ -1070,7 +1070,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '2025-09-03',
-    lastViewedDate: '',
+    lastViewedDate: '2025-09-03',
     seenAtCinema: true,
   },
   {
@@ -1079,7 +1079,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2025-08-27',
-    lastViewedDate: '',
+    lastViewedDate: '2025-08-27',
     seenAtCinema: true,
   },
   {
@@ -1088,7 +1088,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2025-08-06',
-    lastViewedDate: '',
+    lastViewedDate: '2025-08-06',
     seenAtCinema: true,
   },
   {
@@ -1097,7 +1097,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2025-07-04',
-    lastViewedDate: '',
+    lastViewedDate: '2025-07-04',
     seenAtCinema: true,
   },
   {
@@ -1106,7 +1106,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2025-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2025-01-01',
     seenAtCinema: true,
   },
   {
@@ -1115,7 +1115,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2025-06-11',
-    lastViewedDate: '',
+    lastViewedDate: '2025-06-11',
     seenAtCinema: true,
   },
   {
@@ -1124,7 +1124,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2025-02-25',
-    lastViewedDate: '',
+    lastViewedDate: '2025-02-25',
     seenAtCinema: true,
   },
   {
@@ -1133,7 +1133,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2,
     timesWatched: 1,
     firstViewedDate: '2025-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2025-01-01',
     seenAtCinema: true,
   },
   {
@@ -1142,7 +1142,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2025-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2025-01-01',
     seenAtCinema: true,
   },
   {
@@ -1151,7 +1151,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2025-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2025-01-01',
     seenAtCinema: true,
   },
   {
@@ -1160,7 +1160,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2025-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2025-01-01',
     seenAtCinema: true,
   },
   {
@@ -1169,7 +1169,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2025-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2025-01-01',
     seenAtCinema: true,
   },
   {
@@ -1178,7 +1178,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2025-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2025-01-01',
     seenAtCinema: true,
   },
   {
@@ -1187,7 +1187,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2025-05-14',
-    lastViewedDate: '',
+    lastViewedDate: '2025-05-14',
     seenAtCinema: true,
   },
   {
@@ -1196,7 +1196,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2025-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2025-01-01',
     seenAtCinema: true,
   },
   {
@@ -1205,7 +1205,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2025-05-21',
-    lastViewedDate: '',
+    lastViewedDate: '2025-05-21',
     seenAtCinema: true,
   },
   {
@@ -1214,7 +1214,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2025-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2025-01-01',
     seenAtCinema: true,
   },
   {
@@ -1223,7 +1223,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2025-11-07',
-    lastViewedDate: '',
+    lastViewedDate: '2025-11-07',
     seenAtCinema: true,
   },
   {
@@ -1232,7 +1232,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2025-01-29',
-    lastViewedDate: '',
+    lastViewedDate: '2025-01-29',
     seenAtCinema: true,
   },
   {
@@ -1241,7 +1241,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2024-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2024-01-01',
     seenAtCinema: true,
   },
   {
@@ -1250,7 +1250,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2024-11-27',
-    lastViewedDate: '',
+    lastViewedDate: '2024-11-27',
     seenAtCinema: true,
   },
   {
@@ -1259,7 +1259,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2,
     timesWatched: 1,
     firstViewedDate: '2024-12-25',
-    lastViewedDate: '',
+    lastViewedDate: '2024-12-25',
     seenAtCinema: true,
   },
   {
@@ -1268,7 +1268,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2024-10-30',
-    lastViewedDate: '',
+    lastViewedDate: '2024-10-30',
     seenAtCinema: true,
   },
   {
@@ -1277,7 +1277,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '2024-10-23',
-    lastViewedDate: '',
+    lastViewedDate: '2024-10-23',
     seenAtCinema: true,
   },
   {
@@ -1286,7 +1286,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2024-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2024-01-01',
     seenAtCinema: true,
   },
   {
@@ -1295,7 +1295,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2024-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2024-01-01',
     seenAtCinema: true,
   },
   {
@@ -1304,7 +1304,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2025-06-11',
-    lastViewedDate: '',
+    lastViewedDate: '2025-06-11',
     seenAtCinema: true,
   },
   {
@@ -1313,7 +1313,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2024-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2024-01-01',
     seenAtCinema: true,
   },
   {
@@ -1322,7 +1322,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '2024-10-02',
-    lastViewedDate: '',
+    lastViewedDate: '2024-10-02',
     seenAtCinema: true,
   },
   {
@@ -1331,7 +1331,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2024-09-11',
-    lastViewedDate: '',
+    lastViewedDate: '2024-09-11',
     seenAtCinema: true,
   },
   {
@@ -1340,7 +1340,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '2024-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2024-01-01',
     seenAtCinema: true,
   },
   {
@@ -1349,7 +1349,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2,
     timesWatched: 1,
     firstViewedDate: '2024-07-17',
-    lastViewedDate: '',
+    lastViewedDate: '2024-07-17',
     seenAtCinema: true,
   },
   {
@@ -1358,7 +1358,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2024-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2024-01-01',
     seenAtCinema: true,
   },
   {
@@ -1367,7 +1367,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2024-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2024-01-01',
     seenAtCinema: true,
   },
   {
@@ -1376,7 +1376,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2024-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2024-01-01',
     seenAtCinema: true,
   },
   {
@@ -1385,7 +1385,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2024-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2024-01-01',
     seenAtCinema: true,
   },
   {
@@ -1394,7 +1394,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2024-04-17',
-    lastViewedDate: '',
+    lastViewedDate: '2024-04-17',
     seenAtCinema: true,
   },
   {
@@ -1403,7 +1403,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2024-05-01',
-    lastViewedDate: '',
+    lastViewedDate: '2024-05-01',
     seenAtCinema: true,
   },
   {
@@ -1412,7 +1412,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2024-04-17',
-    lastViewedDate: '',
+    lastViewedDate: '2024-04-17',
     seenAtCinema: true,
   },
   {
@@ -1421,7 +1421,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '2024-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2024-01-01',
     seenAtCinema: true,
   },
   {
@@ -1430,7 +1430,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2024-02-28',
-    lastViewedDate: '',
+    lastViewedDate: '2024-02-28',
     seenAtCinema: true,
   },
   {
@@ -1439,7 +1439,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '2023-12-20',
-    lastViewedDate: '',
+    lastViewedDate: '2023-12-20',
     seenAtCinema: true,
   },
   {
@@ -1448,7 +1448,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2024-01-24',
-    lastViewedDate: '',
+    lastViewedDate: '2024-01-24',
     seenAtCinema: true,
   },
   {
@@ -1457,7 +1457,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2024-01-24',
-    lastViewedDate: '',
+    lastViewedDate: '2024-01-24',
     seenAtCinema: true,
   },
   {
@@ -1466,7 +1466,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2023-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2023-01-01',
     seenAtCinema: true,
   },
   {
@@ -1475,7 +1475,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2,
     timesWatched: 1,
     firstViewedDate: '2023-11-08',
-    lastViewedDate: '',
+    lastViewedDate: '2023-11-08',
     seenAtCinema: true,
   },
   {
@@ -1484,7 +1484,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2023-09-27',
-    lastViewedDate: '',
+    lastViewedDate: '2023-09-27',
     seenAtCinema: true,
   },
   {
@@ -1493,7 +1493,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2023-10-27',
-    lastViewedDate: '',
+    lastViewedDate: '2023-10-27',
     seenAtCinema: true,
   },
   {
@@ -1502,7 +1502,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2024-03-08',
-    lastViewedDate: '',
+    lastViewedDate: '2024-03-08',
     seenAtCinema: true,
   },
   {
@@ -1511,7 +1511,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 1.5,
     timesWatched: 1,
     firstViewedDate: '2023-08-16',
-    lastViewedDate: '',
+    lastViewedDate: '2023-08-16',
     seenAtCinema: true,
   },
   {
@@ -1520,7 +1520,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2023-07-26',
-    lastViewedDate: '',
+    lastViewedDate: '2023-07-26',
     seenAtCinema: true,
   },
   {
@@ -1529,7 +1529,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2023-07-12',
-    lastViewedDate: '',
+    lastViewedDate: '2023-07-12',
     seenAtCinema: true,
   },
   {
@@ -1538,7 +1538,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2,
     timesWatched: 1,
     firstViewedDate: '2023-06-21',
-    lastViewedDate: '',
+    lastViewedDate: '2023-06-21',
     seenAtCinema: true,
   },
   {
@@ -1547,7 +1547,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2023-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2023-01-01',
     seenAtCinema: true,
   },
   {
@@ -1556,7 +1556,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2023-04-28',
-    lastViewedDate: '',
+    lastViewedDate: '2023-04-28',
     seenAtCinema: true,
   },
   {
@@ -1565,7 +1565,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2023-04-05',
-    lastViewedDate: '',
+    lastViewedDate: '2023-04-05',
     seenAtCinema: true,
   },
   {
@@ -1574,7 +1574,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2023-03-08',
-    lastViewedDate: '',
+    lastViewedDate: '2023-03-08',
     seenAtCinema: true,
   },
   {
@@ -1583,7 +1583,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 1,
     timesWatched: 1,
     firstViewedDate: '2023-02-01',
-    lastViewedDate: '',
+    lastViewedDate: '2023-02-01',
     seenAtCinema: true,
   },
   {
@@ -1592,7 +1592,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2022-11-10',
-    lastViewedDate: '',
+    lastViewedDate: '2022-11-10',
     seenAtCinema: true,
   },
   {
@@ -1601,7 +1601,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2022-11-23',
-    lastViewedDate: '',
+    lastViewedDate: '2022-11-23',
     seenAtCinema: true,
   },
   {
@@ -1610,7 +1610,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2022-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2022-01-01',
     seenAtCinema: true,
   },
   {
@@ -1619,7 +1619,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '2022-07-22',
-    lastViewedDate: '',
+    lastViewedDate: '2022-07-22',
     seenAtCinema: true,
   },
   {
@@ -1628,7 +1628,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2022-07-08',
-    lastViewedDate: '',
+    lastViewedDate: '2022-07-08',
     seenAtCinema: true,
   },
   {
@@ -1637,7 +1637,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2022-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2022-01-01',
     seenAtCinema: true,
   },
   {
@@ -1646,7 +1646,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2022-02-16',
-    lastViewedDate: '',
+    lastViewedDate: '2022-02-16',
     seenAtCinema: true,
   },
   {
@@ -1655,7 +1655,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4.5,
     timesWatched: 1,
     firstViewedDate: '2022-01-12',
-    lastViewedDate: '',
+    lastViewedDate: '2022-01-12',
     seenAtCinema: true,
   },
   {
@@ -1664,7 +1664,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2022-02-02',
-    lastViewedDate: '',
+    lastViewedDate: '2022-02-02',
     seenAtCinema: true,
   },
   {
@@ -1673,7 +1673,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '2021-06-09',
-    lastViewedDate: '',
+    lastViewedDate: '2021-06-09',
     seenAtCinema: true,
   },
   {
@@ -1682,7 +1682,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2,
     timesWatched: 1,
     firstViewedDate: '2021-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2021-01-01',
     seenAtCinema: true,
   },
   {
@@ -1691,7 +1691,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2021-05-21',
-    lastViewedDate: '',
+    lastViewedDate: '2021-05-21',
     seenAtCinema: true,
   },
   {
@@ -1700,7 +1700,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2020-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2020-01-01',
     seenAtCinema: true,
   },
   {
@@ -1709,7 +1709,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2019-12-04',
-    lastViewedDate: '',
+    lastViewedDate: '2019-12-04',
     seenAtCinema: true,
   },
   {
@@ -1718,7 +1718,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2019-12-13',
-    lastViewedDate: '',
+    lastViewedDate: '2019-12-13',
     seenAtCinema: true,
   },
   {
@@ -1727,7 +1727,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '2019-06-12',
-    lastViewedDate: '',
+    lastViewedDate: '2019-06-12',
     seenAtCinema: true,
   },
   {
@@ -1736,7 +1736,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '2019-01-01',
-    lastViewedDate: '',
+    lastViewedDate: '2019-01-01',
     seenAtCinema: true,
   },
   {
@@ -1745,7 +1745,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '2018-11-07',
-    lastViewedDate: '',
+    lastViewedDate: '2018-11-07',
     seenAtCinema: true,
   },
   {
@@ -1754,7 +1754,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2018-06-20',
-    lastViewedDate: '',
+    lastViewedDate: '2018-06-20',
     seenAtCinema: true,
   },
   {
@@ -1763,7 +1763,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '2017-10-13',
-    lastViewedDate: '',
+    lastViewedDate: '2017-10-13',
     seenAtCinema: true,
   },
   {
@@ -1772,7 +1772,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '2016-12-21',
-    lastViewedDate: '',
+    lastViewedDate: '2016-12-21',
     seenAtCinema: true,
   },
   {
@@ -1781,7 +1781,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '2016-10-19',
-    lastViewedDate: '',
+    lastViewedDate: '2016-10-19',
     seenAtCinema: true,
   },
   {
@@ -1790,7 +1790,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2017-02-01',
-    lastViewedDate: '',
+    lastViewedDate: '2017-02-01',
     seenAtCinema: true,
   },
   {
@@ -1799,7 +1799,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4.5,
     timesWatched: 1,
     firstViewedDate: '2016-07-06',
-    lastViewedDate: '',
+    lastViewedDate: '2016-07-06',
     seenAtCinema: true,
   },
   {
@@ -1808,7 +1808,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2016-06-29',
-    lastViewedDate: '',
+    lastViewedDate: '2016-06-29',
     seenAtCinema: true,
   },
   {
@@ -1817,7 +1817,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2016-05-12',
-    lastViewedDate: '',
+    lastViewedDate: '2016-05-12',
     seenAtCinema: true,
   },
   {
@@ -1826,7 +1826,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2016-08-31',
-    lastViewedDate: '',
+    lastViewedDate: '2016-08-31',
     seenAtCinema: true,
   },
   {
@@ -1835,7 +1835,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2016-02-03',
-    lastViewedDate: '',
+    lastViewedDate: '2016-02-03',
     seenAtCinema: true,
   },
   {
@@ -1844,7 +1844,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '2015-08-05',
-    lastViewedDate: '',
+    lastViewedDate: '2015-08-05',
     seenAtCinema: true,
   },
   {
@@ -1853,7 +1853,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2015-07-08',
-    lastViewedDate: '',
+    lastViewedDate: '2015-07-08',
     seenAtCinema: true,
   },
   {
@@ -1862,7 +1862,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2015-11-04',
-    lastViewedDate: '',
+    lastViewedDate: '2015-11-04',
     seenAtCinema: true,
   },
   {
@@ -1871,7 +1871,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2014-10-01',
-    lastViewedDate: '',
+    lastViewedDate: '2014-10-01',
     seenAtCinema: true,
   },
   {
@@ -1880,7 +1880,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2014-08-08',
-    lastViewedDate: '',
+    lastViewedDate: '2014-08-08',
     seenAtCinema: true,
   },
   {
@@ -1889,7 +1889,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2,
     timesWatched: 1,
     firstViewedDate: '2014-05-14',
-    lastViewedDate: '',
+    lastViewedDate: '2014-05-14',
     seenAtCinema: true,
   },
   {
@@ -1898,7 +1898,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2014-07-23',
-    lastViewedDate: '',
+    lastViewedDate: '2014-07-23',
     seenAtCinema: true,
   },
   {
@@ -1907,7 +1907,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2014-01-15',
-    lastViewedDate: '',
+    lastViewedDate: '2014-01-15',
     seenAtCinema: true,
   },
   {
@@ -1916,7 +1916,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2013-05-15',
-    lastViewedDate: '',
+    lastViewedDate: '2013-05-15',
     seenAtCinema: true,
   },
   {
@@ -1925,7 +1925,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2013-03-13',
-    lastViewedDate: '',
+    lastViewedDate: '2013-03-13',
     seenAtCinema: true,
   },
   {
@@ -1934,7 +1934,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2011-10-12',
-    lastViewedDate: '',
+    lastViewedDate: '2011-10-12',
     seenAtCinema: true,
   },
   {
@@ -1943,7 +1943,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2010-12-01',
-    lastViewedDate: '',
+    lastViewedDate: '2010-12-01',
     seenAtCinema: true,
   },
   {
@@ -1952,7 +1952,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2011-06-15',
-    lastViewedDate: '',
+    lastViewedDate: '2011-06-15',
     seenAtCinema: true,
   },
   {
@@ -1961,7 +1961,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2022-12-21',
-    lastViewedDate: '',
+    lastViewedDate: '2022-12-21',
     seenAtCinema: true,
   },
   {
@@ -1970,7 +1970,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2022-05-27',
-    lastViewedDate: '',
+    lastViewedDate: '2022-05-27',
     seenAtCinema: true,
   },
   {
@@ -1979,7 +1979,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4.5,
     timesWatched: 1,
     firstViewedDate: '2025-07-25',
-    lastViewedDate: '',
+    lastViewedDate: '2025-07-25',
     seenAtCinema: true,
   },
   {
@@ -1988,7 +1988,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2025-12-24',
-    lastViewedDate: '',
+    lastViewedDate: '2025-12-24',
     seenAtCinema: true,
   },
   {
@@ -1997,7 +1997,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2017-07-21',
-    lastViewedDate: '',
+    lastViewedDate: '2017-07-21',
     seenAtCinema: true,
   },
   {
@@ -2006,7 +2006,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2015-09-18',
-    lastViewedDate: '',
+    lastViewedDate: '2015-09-18',
     seenAtCinema: true,
   },
   {
@@ -2042,7 +2042,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '2014-02-12',
-    lastViewedDate: '',
+    lastViewedDate: '2014-02-12',
     seenAtCinema: true,
   },
   {
@@ -2078,7 +2078,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2022-07-08',
-    lastViewedDate: '',
+    lastViewedDate: '2022-07-08',
     seenAtCinema: true,
   },
   {
@@ -2087,7 +2087,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2,
     timesWatched: 1,
     firstViewedDate: '2023-11-10',
-    lastViewedDate: '',
+    lastViewedDate: '2023-11-10',
     seenAtCinema: true,
   },
   {
@@ -2105,7 +2105,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2022-11-11',
-    lastViewedDate: '',
+    lastViewedDate: '2022-11-11',
     seenAtCinema: true,
   },
   {
@@ -2141,7 +2141,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2019-06-07',
-    lastViewedDate: '',
+    lastViewedDate: '2019-06-07',
     seenAtCinema: true,
   },
   {
@@ -2150,7 +2150,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2019-02-22',
-    lastViewedDate: '',
+    lastViewedDate: '2019-02-22',
     seenAtCinema: true,
   },
   {
@@ -2159,7 +2159,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2023-04-05',
-    lastViewedDate: '',
+    lastViewedDate: '2023-04-05',
     seenAtCinema: true,
   },
   {
@@ -2240,7 +2240,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2018-01-26',
-    lastViewedDate: '',
+    lastViewedDate: '2018-01-26',
     seenAtCinema: true,
   },
   {
@@ -2285,7 +2285,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2019-01-23',
-    lastViewedDate: '',
+    lastViewedDate: '2019-01-23',
     seenAtCinema: true,
   },
   {
@@ -2294,7 +2294,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2018-06-13',
-    lastViewedDate: '',
+    lastViewedDate: '2018-06-13',
     seenAtCinema: true,
   },
   {
@@ -2303,7 +2303,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2017-04-19',
-    lastViewedDate: '',
+    lastViewedDate: '2017-04-19',
     seenAtCinema: true,
   },
   {
@@ -2312,7 +2312,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2015-08-12',
-    lastViewedDate: '',
+    lastViewedDate: '2015-08-12',
     seenAtCinema: true,
   },
   {
@@ -2321,7 +2321,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2015-10-21',
-    lastViewedDate: '',
+    lastViewedDate: '2015-10-21',
     seenAtCinema: true,
   },
   {
@@ -2330,7 +2330,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2014-10-15',
-    lastViewedDate: '',
+    lastViewedDate: '2014-10-15',
     seenAtCinema: true,
   },
   {
@@ -2339,7 +2339,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2015-02-11',
-    lastViewedDate: '',
+    lastViewedDate: '2015-02-11',
     seenAtCinema: true,
   },
 
@@ -2349,7 +2349,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2013-05-15',
-    lastViewedDate: '',
+    lastViewedDate: '2013-05-15',
     seenAtCinema: true,
   },
   {
@@ -2358,7 +2358,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2012-12-14',
-    lastViewedDate: '',
+    lastViewedDate: '2012-12-14',
     seenAtCinema: true,
   },
   {
@@ -2367,7 +2367,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2002-09-10',
-    lastViewedDate: '',
+    lastViewedDate: '2002-09-10',
     seenAtCinema: true,
   },
   {
@@ -2412,7 +2412,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2023-05-05',
-    lastViewedDate: '',
+    lastViewedDate: '2023-05-05',
     seenAtCinema: true,
   },
   {
@@ -2430,7 +2430,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2,
     timesWatched: 1,
     firstViewedDate: '2023-02-17',
-    lastViewedDate: '',
+    lastViewedDate: '2023-02-17',
     seenAtCinema: true,
   },
   {
@@ -2439,7 +2439,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3, // Eternals (2021) ★★★
     timesWatched: 1,
     firstViewedDate: '2021-11-05',
-    lastViewedDate: '',
+    lastViewedDate: '2021-11-05',
     seenAtCinema: true,
   },
   {
@@ -2484,7 +2484,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5, // Beating Hearts (2024) ★★★½
     timesWatched: 1,
     firstViewedDate: '2024-01-31',
-    lastViewedDate: '',
+    lastViewedDate: '2024-01-31',
     seenAtCinema: true,
   },
   {
@@ -2574,7 +2574,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2021-06-25',
-    lastViewedDate: '',
+    lastViewedDate: '2021-06-25',
     seenAtCinema: true,
   },
   {
@@ -2583,7 +2583,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2023-05-19',
-    lastViewedDate: '',
+    lastViewedDate: '2023-05-19',
     seenAtCinema: true,
   },
   {
@@ -2592,7 +2592,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2023-03-24',
-    lastViewedDate: '',
+    lastViewedDate: '2023-03-24',
     seenAtCinema: true,
   },
   {
@@ -2619,7 +2619,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2, // Fantastic Beasts: The Secrets of Dumbledore (2022) ★★
     timesWatched: 1,
     firstViewedDate: '2022-04-15',
-    lastViewedDate: '',
+    lastViewedDate: '2022-04-15',
     seenAtCinema: true,
   },
   {
@@ -2628,7 +2628,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4, // No Time to Die (2021) ★★★★
     timesWatched: 1,
     firstViewedDate: '2021-10-08',
-    lastViewedDate: '',
+    lastViewedDate: '2021-10-08',
     seenAtCinema: true,
   },
   {
@@ -2709,7 +2709,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3, // Underworld: Awakening (2012) ★★★
     timesWatched: 1,
     firstViewedDate: '2012-01-20',
-    lastViewedDate: '',
+    lastViewedDate: '2012-01-20',
     seenAtCinema: true,
   },
   {
@@ -2736,7 +2736,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '2021-12-22',
-    lastViewedDate: '',
+    lastViewedDate: '2021-12-22',
     seenAtCinema: true,
   },
   {
@@ -2745,7 +2745,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3, // Frozen II (2019) ★★★
     timesWatched: 1,
     firstViewedDate: '2019-11-22',
-    lastViewedDate: '',
+    lastViewedDate: '2019-11-22',
     seenAtCinema: true,
   },
   {
@@ -2782,7 +2782,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3, // The Grinch (2018) ★★★
     timesWatched: 1,
     firstViewedDate: '2018-11-28',
-    lastViewedDate: '',
+    lastViewedDate: '2018-11-28',
     seenAtCinema: true,
   },
   {
@@ -2791,7 +2791,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2.5, // The First Purge (2018) ★★½
     timesWatched: 1,
     firstViewedDate: '2018-07-04',
-    lastViewedDate: '',
+    lastViewedDate: '2018-07-04',
     seenAtCinema: true,
   },
 
@@ -2801,7 +2801,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4, // War for the Planet of the Apes (2017) ★★★★
     timesWatched: 1,
     firstViewedDate: '2017-08-02',
-    lastViewedDate: '',
+    lastViewedDate: '2017-08-02',
     seenAtCinema: true,
   },
 
@@ -2811,7 +2811,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2017-02-08',
-    lastViewedDate: '',
+    lastViewedDate: '2017-02-08',
     seenAtCinema: true,
   },
   {
@@ -2820,7 +2820,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3, // Neighbors 2: Sorority Rising (2016) ★★★
     timesWatched: 1,
     firstViewedDate: '2016-07-06',
-    lastViewedDate: '',
+    lastViewedDate: '2016-07-06',
     seenAtCinema: true,
   },
   {
@@ -2829,7 +2829,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2015-11-18',
-    lastViewedDate: '',
+    lastViewedDate: '2015-11-18',
     seenAtCinema: true,
   },
 
@@ -2839,7 +2839,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3, // Tomorrowland (2015) ★★★
     timesWatched: 1,
     firstViewedDate: '2015-05-20',
-    lastViewedDate: '',
+    lastViewedDate: '2015-05-20',
     seenAtCinema: true,
   },
   {
@@ -2848,7 +2848,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 2,
     timesWatched: 1,
     firstViewedDate: '2015-09-11',
-    lastViewedDate: '',
+    lastViewedDate: '2015-09-11',
     seenAtCinema: true,
   },
   {
@@ -2857,7 +2857,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2014-11-19',
-    lastViewedDate: '',
+    lastViewedDate: '2014-11-19',
     seenAtCinema: true,
   },
   {
@@ -2866,7 +2866,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5, // The Equalizer (2014) ★★★½
     timesWatched: 1,
     firstViewedDate: '2014-10-01',
-    lastViewedDate: '',
+    lastViewedDate: '2014-10-01',
     seenAtCinema: true,
   },
   {
@@ -2875,7 +2875,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4, // Dawn of the Planet of the Apes (2014) ★★★★
     timesWatched: 1,
     firstViewedDate: '2014-07-30',
-    lastViewedDate: '',
+    lastViewedDate: '2014-07-30',
     seenAtCinema: true,
   },
   {
@@ -2884,7 +2884,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3, // Transformers: Age of Extinction (2014) ★★★
     timesWatched: 1,
     firstViewedDate: '2014-07-16',
-    lastViewedDate: '',
+    lastViewedDate: '2014-07-16',
     seenAtCinema: true,
   },
   {
@@ -2893,7 +2893,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5, // Neighbors (2014) ★★★½
     timesWatched: 1,
     firstViewedDate: '2014-05-28',
-    lastViewedDate: '',
+    lastViewedDate: '2014-05-28',
     seenAtCinema: true,
   },
   {
@@ -2902,7 +2902,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3, // The Babadook (2014) ★★★
     timesWatched: 1,
     firstViewedDate: '2014-07-30',
-    lastViewedDate: '',
+    lastViewedDate: '2014-07-30',
     seenAtCinema: true,
   },
   {
@@ -2911,7 +2911,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '2013-11-27',
-    lastViewedDate: '',
+    lastViewedDate: '2013-11-27',
     seenAtCinema: true,
   },
   {
@@ -2920,7 +2920,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3, // Anna (2013) ★★★
     timesWatched: 1,
     firstViewedDate: '2014-06-11',
-    lastViewedDate: '',
+    lastViewedDate: '2014-06-11',
     seenAtCinema: true,
   },
 
@@ -2930,7 +2930,7 @@ export const ronanCinemaMovies: UserMovie[] = [
     rating: 3.5, // Gifted (2017) - not found in ratings list
     timesWatched: 1,
     firstViewedDate: '2017-09-13',
-    lastViewedDate: '',
+    lastViewedDate: '2017-09-13',
     seenAtCinema: true,
   },
 ];

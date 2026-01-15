@@ -919,7 +919,7 @@ export const ronanGames: UserGame[] = [
     additionnalEstimatedTime: 0,
   },
   {
-    title: "Uncharted 3 : L'illusion de Drake ",
+    title: "Uncharted 3 : L'illusion de Drake",
     editor: 'Naughty Dog',
     rating: 0,
     timesFinished: 0,

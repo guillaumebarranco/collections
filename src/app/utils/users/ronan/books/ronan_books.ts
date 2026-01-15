@@ -355,7 +355,7 @@ export const ronanBooks: UserBook[] = [
     title:
       "Le Monde de Narnia (Tome 2) Le Lion, la Sorcière blanche et l'Armoire magique",
     author: 'C.S. Lewis',
-    rating: 0,
+    rating: 4,
     readDate: '2026-01-14',
     readTimes: 1,
   },
