@@ -54,7 +54,7 @@ export class EditMovieComponent {
 
   public apiUrl = document.location.origin.includes('localhost')
     ? `http://localhost:3001`
-    : 'https://makya.webarranco.fr:3001';
+    : 'https://makya.webarranco.fr/api/';
 
   updateField<K extends keyof EditMovieForm>(field: K, value: string | number) {
     const current = this.movieForm();
@@ -107,7 +107,7 @@ export class EditMovieComponent {
     this.isSaving.set(true);
     try {
       const userId = this.getCurrentUserId();
-      const response = await fetch(`${this.apiUrl}/api/movies`, {
+      const response = await fetch(`${this.apiUrl}/movies`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
