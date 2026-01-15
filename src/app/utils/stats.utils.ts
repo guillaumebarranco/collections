@@ -60,8 +60,6 @@ export function getTotalWatchingTime(items: ItemWithLength[]): TimeStats {
     const length = item.length || item.totalLength;
     if (length && item.timesWatched) {
       totalMinutes += length * item.timesWatched;
-    } else {
-      console.log(`Missing data for: ${item.title}`);
     }
   }
   return formatTimeStats(totalMinutes);
@@ -73,8 +71,6 @@ export function getTotalDuration(items: ItemWithLength[]): TimeStats {
     const length = item.length || item.totalLength;
     if (length) {
       totalMinutes += length;
-    } else {
-      console.log(`Missing data for: ${item.title}`);
     }
   }
   return formatTimeStats(totalMinutes);
@@ -85,8 +81,6 @@ export function getTotalPages(items: ItemWithPages[]): number {
   for (const item of items) {
     if (item.pages) {
       totalPages += item.pages;
-    } else {
-      console.log(`Missing pages for: ${item.title}`);
     }
   }
   return totalPages;
@@ -97,8 +91,6 @@ export function getTotalPagesRead(items: ItemWithPages[]): number {
   for (const item of items) {
     if (item.pages && item.readTimes) {
       totalPages += item.pages * item.readTimes;
-    } else {
-      console.log(`Missing data for: ${item.title}`);
     }
   }
   return totalPages;
@@ -111,8 +103,6 @@ export function getTotalMangaPages(items: ItemWithTomes[]): number {
       const pagesPerRead = item.nbTomes * PAGES_PER_MANGA_TOME;
       const readTimes = item.readTimes || 1;
       totalPages += pagesPerRead * readTimes;
-    } else {
-      console.log(`Missing tomes for: ${item.title}`);
     }
   }
   return totalPages;
@@ -124,8 +114,6 @@ export function getTotalMangaTomesRead(items: ItemWithTomes[]): number {
     if (item.nbTomes) {
       const readTimes = item.readTimes || 1;
       totalTomes += item.nbTomes * readTimes;
-    } else {
-      console.log(`Missing tomes for: ${item.title}`);
     }
   }
   return totalTomes;
@@ -146,8 +134,6 @@ export function getEstimatedMangaReadingTime(
       const minutesPerRead = item.nbTomes * MINUTES_PER_MANGA_TOME;
       const readTimes = item.readTimes || 1;
       totalMinutes += minutesPerRead * readTimes;
-    } else {
-      console.log(`Missing tomes for: ${item.title}`);
     }
   }
   return formatTimeStats(totalMinutes);

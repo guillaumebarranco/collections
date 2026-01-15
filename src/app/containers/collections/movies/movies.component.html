@@ -12,7 +12,7 @@
     ({{ filteredMoviesByYear().length }})
   </h1>
 
-  @if(filteredMoviesByYear().length !== 0) {
+  @if(allMovies().length !== 0) {
   <div class="movies-header-top">
     <div class="movies-view-toggle">
       <button
@@ -123,6 +123,15 @@
       >
       </app-sort-dropdown>
     </div>
+  </div>
+
+  <div class="movies-search">
+    <input
+      type="text"
+      placeholder="Rechercher par titre, réalisateur, acteur..."
+      [ngModel]="searchTerm()"
+      (ngModelChange)="onSearchChange($event)"
+    />
   </div>
 
   @if(selectedYearFilter() !== 'all' && (selectedView() === 'watched' ||

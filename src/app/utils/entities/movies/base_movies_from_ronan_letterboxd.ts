@@ -8618,25 +8618,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Drame',
   },
   {
-    title: 'American Pie : Marions-les !',
-    director: 'Jesse Dylan',
-    actors: [
-      {
-        name: 'Jason Biggs',
-      },
-      {
-        name: 'Alyson Hannigan',
-      },
-      {
-        name: 'Seann William Scott',
-      },
-    ],
-    coverUrl: '/movies_pictures/american_wedding.jpg',
-    releaseDate: '2003-10-15',
-    length: 96,
-    genre: 'Comédie',
-  },
-  {
     title: 'Mystic River',
     director: 'Clint Eastwood',
     actors: [

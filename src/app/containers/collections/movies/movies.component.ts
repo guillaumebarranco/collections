@@ -54,6 +54,7 @@ export class MoviesComponent implements OnInit {
   selectedSort = signal<string>('lastViewedDate');
   selectedView = signal<MovieView>('watched');
   selectedYearFilter = signal<string>('all');
+  searchTerm = signal<string>('');
 
   constructor() {
     // Synchroniser les changements de filtres/tri avec l'URL
@@ -197,15 +198,21 @@ export class MoviesComponent implements OnInit {
   });
 
   filteredMovies = computed<Movie[]>(() => {
+    let movies: Movie[] = [];
     if (this.selectedView() === 'watchlist') {
-      return this.allWatchlistMovies();
+      movies = this.allWatchlistMovies();
+    } else if (this.selectedView() === 'cinema') {
+      movies = this.allMovies().filter((movie) => movie.seenAtCinema === true);
+    } else {
+      movies = this.allMovies();
     }
 
-    if (this.selectedView() === 'cinema') {
-      return this.allMovies().filter((movie) => movie.seenAtCinema === true);
+    const term = this.searchTerm().trim().toLowerCase();
+    if (!term) {
+      return movies;
     }
 
-    return this.allMovies();
+    return movies.filter((movie) => this.matchesSearch(movie, term));
   });
 
   filteredMoviesByYear = computed<Movie[]>(() => {
@@ -387,5 +394,32 @@ export class MoviesComponent implements OnInit {
 
   onYearFilterChange(year: string) {
     this.selectedYearFilter.set(year);
+  }
+
+  onSearchChange(value: string) {
+    this.searchTerm.set(value);
+  }
+
+  private matchesSearch(movie: Movie, term: string): boolean {
+    const actors = movie.actors?.map((actor) => actor.name).join(' ') || '';
+    const haystack = [
+      movie.title,
+      movie.director,
+      actors,
+      movie.genre,
+    ]
+      .filter(Boolean)
+      .join(' ');
+
+    const normalizedHaystack = this.normalizeSearchText(haystack);
+    const normalizedTerm = this.normalizeSearchText(term);
+    return normalizedHaystack.includes(normalizedTerm);
+  }
+
+  private normalizeSearchText(value: string): string {
+    return value
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase();
   }
 }

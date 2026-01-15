@@ -1,4 +1,12 @@
-<a class="movie-card" (click)="navigateToEdit()">
+<div class="movie-card">
+  <button
+    type="button"
+    class="edit-button"
+    aria-label="Éditer le film"
+    (click)="navigateToEdit()"
+  >
+    ✏️
+  </button>
   <div class="movie-cover">
     <img
       [src]="movie.coverUrl || '/movies_pictures/poster.jpg'"
@@ -32,4 +40,4 @@
     </div>
     <!-- <p class="movie-genre">{{ movie.genre }}</p> -->
   </div>
-</a>
+</div>

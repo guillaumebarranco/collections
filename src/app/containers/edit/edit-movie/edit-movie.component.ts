@@ -152,7 +152,6 @@ export class EditMovieComponent {
         return;
       }
 
-      console.log('edit-movie:submit', payload);
       if (this.dialogRef) {
         this.dialogRef.close({ updated: true, payload });
       }

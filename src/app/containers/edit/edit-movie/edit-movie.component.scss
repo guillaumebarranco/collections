@@ -2,6 +2,7 @@
   max-width: 720px;
   margin: 0 auto;
   padding: 24px;
+  position: relative;
 }
 
 .back-link {
@@ -22,6 +23,33 @@
 }
 
 .back-link:focus-visible {
+  outline: 2px solid #2f6fed;
+  outline-offset: 2px;
+}
+
+.dialog-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  border: none;
+  background: #f2f4f8;
+  color: #1a1a1a;
+  font-size: 1rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+}
+
+.dialog-close:hover {
+  background: #e5e9f2;
+}
+
+.dialog-close:focus-visible {
   outline: 2px solid #2f6fed;
   outline-offset: 2px;
 }

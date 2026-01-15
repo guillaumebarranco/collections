@@ -56,8 +56,6 @@ export function getTotalPlayedTime(items: ItemWithGameLength[]): TimeStats {
 
     if (length) {
       totalHours += length;
-    } else {
-      console.log(`Missing data for: ${item.title}`);
     }
   }
   return formatTimeStats(totalHours * 60);

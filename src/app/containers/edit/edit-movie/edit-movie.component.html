@@ -4,8 +4,13 @@
     Retour aux films
   </button>
   } @else {
-  <button (click)="navigateToMovies()" class="back-link">
-    Fermer
+  <button
+    type="button"
+    class="dialog-close"
+    aria-label="Fermer"
+    (click)="navigateToMovies()"
+  >
+    ✕
   </button>
   }
 

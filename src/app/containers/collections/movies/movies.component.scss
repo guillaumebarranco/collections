@@ -23,6 +23,15 @@
     min-width: 320px;
   }
 
+  .movies-search input {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    font-size: 0.95rem;
+  }
+
   .movies-filters-item {
     display: flex;
     gap: 10px;
@@ -31,6 +40,20 @@
     font-weight: 500;
     white-space: nowrap;
   }
+}
+
+.movies-search {
+  margin: 12px 0 4px;
+  max-width: 420px;
+}
+
+.movies-search input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  font-size: 0.95rem;
 }
 
 .watchlist-actions {
