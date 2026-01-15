@@ -13,7 +13,7 @@ export const ronanSeries: UserSerie[] = [
     director: 'Carter Bays, Craig Thomas',
     rating: 0,
     stoppedAtSeason: 0,
-    timesWatched: 1,
+    timesWatched: 10,
   },
   {
     title: 'Loki',
@@ -55,14 +55,14 @@ export const ronanSeries: UserSerie[] = [
     director: 'Vince Gilligan',
     rating: 0,
     stoppedAtSeason: 0,
-    timesWatched: 1,
+    timesWatched: 2,
   },
   {
     title: 'Umbrella Academy',
     director: 'Steve Blackman',
     rating: 0,
     stoppedAtSeason: 0,
-    timesWatched: 1,
+    timesWatched: 2,
   },
   {
     title: 'You',
@@ -90,7 +90,7 @@ export const ronanSeries: UserSerie[] = [
     director: 'The Duffer Brothers',
     rating: 0,
     stoppedAtSeason: 0,
-    timesWatched: 1,
+    timesWatched: 2,
   },
   {
     title: 'Lupin',
@@ -104,7 +104,7 @@ export const ronanSeries: UserSerie[] = [
     director: 'Pascal Charrue, Arnaud Delord',
     rating: 0,
     stoppedAtSeason: 0,
-    timesWatched: 1,
+    timesWatched: 2,
   },
   {
     title: 'South Park',
@@ -118,7 +118,7 @@ export const ronanSeries: UserSerie[] = [
     director: 'Drew Goddard',
     rating: 0,
     stoppedAtSeason: 0,
-    timesWatched: 1,
+    timesWatched: 3,
   },
   {
     title: 'Daredevil : Born Again',
@@ -153,7 +153,7 @@ export const ronanSeries: UserSerie[] = [
     director: 'Douglas Petrie, Marco Ramirez',
     rating: 0,
     stoppedAtSeason: 0,
-    timesWatched: 1,
+    timesWatched: 2,
   },
   {
     title: 'The Last of Us',
@@ -202,7 +202,7 @@ export const ronanSeries: UserSerie[] = [
     director: 'Greg Berlanti, Marc Guggenheim',
     rating: 0,
     stoppedAtSeason: 0,
-    timesWatched: 1,
+    timesWatched: 2,
   },
   {
     title: 'The Flash',
@@ -293,7 +293,7 @@ export const ronanSeries: UserSerie[] = [
     director: 'Jed Whedon, Maurissa Tancharoen',
     rating: 0,
     stoppedAtSeason: 0,
-    timesWatched: 1,
+    timesWatched: 2,
   },
   {
     title: 'Ahsoka',
@@ -328,7 +328,7 @@ export const ronanSeries: UserSerie[] = [
     director: 'Jonathan Cohen, Ramzy Bedia',
     rating: 0,
     stoppedAtSeason: 0,
-    timesWatched: 1,
+    timesWatched: 3,
   },
   {
     title: 'Bodyguard',
@@ -349,7 +349,7 @@ export const ronanSeries: UserSerie[] = [
     director: 'Dan Harmon',
     rating: 0,
     stoppedAtSeason: 0,
-    timesWatched: 1,
+    timesWatched: 2,
   },
   {
     title: 'Constantine',
@@ -363,7 +363,7 @@ export const ronanSeries: UserSerie[] = [
     director: 'Tetsurō Araki',
     rating: 0,
     stoppedAtSeason: 0,
-    timesWatched: 1,
+    timesWatched: 2,
   },
   {
     title: 'Desperate Housewives',
@@ -377,7 +377,7 @@ export const ronanSeries: UserSerie[] = [
     director: 'James Manos Jr.',
     rating: 0,
     stoppedAtSeason: 0,
-    timesWatched: 1,
+    timesWatched: 2,
   },
   {
     title: 'Family Business',
@@ -391,7 +391,7 @@ export const ronanSeries: UserSerie[] = [
     director: 'David Benioff, D.B. Weiss',
     rating: 0,
     stoppedAtSeason: 0,
-    timesWatched: 1,
+    timesWatched: 2,
   },
   {
     title: 'Gotham',
@@ -412,7 +412,7 @@ export const ronanSeries: UserSerie[] = [
     director: 'Tim Kring',
     rating: 0,
     stoppedAtSeason: 0,
-    timesWatched: 1,
+    timesWatched: 2,
   },
   {
     title: 'Heroes Reborn',
@@ -447,7 +447,7 @@ export const ronanSeries: UserSerie[] = [
     director: 'Linwood Boomer',
     rating: 0,
     stoppedAtSeason: 0,
-    timesWatched: 1,
+    timesWatched: 3,
   },
   {
     title: 'Mindhunter',
@@ -468,14 +468,14 @@ export const ronanSeries: UserSerie[] = [
     director: 'Frédéric Garcia',
     rating: 0,
     stoppedAtSeason: 0,
-    timesWatched: 1,
+    timesWatched: 2,
   },
   {
     title: 'Naruto',
     director: 'Masashi Kishimoto',
     rating: 0,
     stoppedAtSeason: 0,
-    timesWatched: 1,
+    timesWatched: 3,
   },
   {
     title: 'Penny Dreadful',
@@ -524,7 +524,7 @@ export const ronanSeries: UserSerie[] = [
     director: 'Steven S. DeKnight',
     rating: 0,
     stoppedAtSeason: 0,
-    timesWatched: 1,
+    timesWatched: 2,
   },
   {
     title: 'Star Wars Rebels',
@@ -552,7 +552,7 @@ export const ronanSeries: UserSerie[] = [
     director: 'Jeff Davis',
     rating: 0,
     stoppedAtSeason: 0,
-    timesWatched: 1,
+    timesWatched: 2,
   },
   {
     title: 'The Big Bang Theory',
@@ -573,7 +573,7 @@ export const ronanSeries: UserSerie[] = [
     director: 'Baz Luhrmann, Stephen Adly Guirgis',
     rating: 0,
     stoppedAtSeason: 0,
-    timesWatched: 1,
+    timesWatched: 2,
   },
   {
     title: 'The Office',
@@ -615,7 +615,7 @@ export const ronanSeries: UserSerie[] = [
     director: 'Julie Plec, Kevin Williamson',
     rating: 0,
     stoppedAtSeason: 0,
-    timesWatched: 1,
+    timesWatched: 2,
   },
   {
     title: 'Vikings',
