@@ -136,7 +136,7 @@
     @for (movie of sortedMovies(); track `${movie.title}-${movie.releaseDate}`)
     {
     <div class="movie-card">
-      <app-movie [movie]="movie"></app-movie>
+      <app-movie [movie]="movie" (movieUpdated)="refreshMovies()"></app-movie>
     </div>
     }
   </div>

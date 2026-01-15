@@ -1,7 +1,13 @@
 <div class="edit-movie">
+  @if(!isDialogMode()) {
   <button (click)="navigateToMovies()" class="back-link">
     Retour aux films
   </button>
+  } @else {
+  <button (click)="navigateToMovies()" class="back-link">
+    Fermer
+  </button>
+  }
 
   <h1 class="title">Éditer un film</h1>
 

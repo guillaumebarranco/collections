@@ -5,11 +5,11 @@ import {
   ActivatedRoute,
   ParamMap,
   Router,
-  RouterLink,
   RouterModule,
 } from '@angular/router';
 import { Movie } from '../../../models/movie-model';
 import { getMoviesByUser } from '../../../facades/movies.facade';
+import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 
 type EditMovieForm = {
   title: string;
@@ -25,6 +25,11 @@ type EditMovieForm = {
   coverUrl: string;
 };
 
+type EditMovieDialogData = {
+  movie: Movie;
+  userId?: string;
+};
+
 const DEFAULT_USER_ID = 'guillaume';
 
 @Component({
@@ -37,6 +42,15 @@ const DEFAULT_USER_ID = 'guillaume';
 export class EditMovieComponent {
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
+  private readonly dialogRef = inject(MatDialogRef<EditMovieComponent>, {
+    optional: true,
+  });
+  private readonly dialogData = inject<EditMovieDialogData | null>(
+    MAT_DIALOG_DATA,
+    {
+      optional: true,
+    }
+  );
 
   readonly movieForm = signal<EditMovieForm | null>(null);
   readonly movieNotFound = signal<boolean>(false);
@@ -47,16 +61,22 @@ export class EditMovieComponent {
   });
 
   constructor() {
+    if (this.dialogData?.movie) {
+      this.movieForm.set(this.toForm(this.dialogData.movie));
+      this.movieNotFound.set(false);
+      return;
+    }
+
     this.activatedRoute.paramMap.subscribe((params) => {
       void this.loadMovieFromSlug(params);
     });
   }
 
-  // public apiUrl = document.location.origin.includes('localhost')
-  //   ? `http://localhost:3001`
-  //   : 'https://makya.webarranco.fr/api/';
+  public apiUrl = document.location.origin.includes('localhost')
+    ? `http://localhost:3001/api`
+    : 'https://makya.webarranco.fr/api';
 
-  public apiUrl = 'https://makya.webarranco.fr/api';
+  // public apiUrl = 'https://makya.webarranco.fr/api';
 
   updateField<K extends keyof EditMovieForm>(field: K, value: string | number) {
     const current = this.movieForm();
@@ -133,6 +153,9 @@ export class EditMovieComponent {
       }
 
       console.log('edit-movie:submit', payload);
+      if (this.dialogRef) {
+        this.dialogRef.close({ updated: true, payload });
+      }
     } catch (error) {
       console.error('edit-movie:error', error);
     } finally {
@@ -141,8 +164,16 @@ export class EditMovieComponent {
   }
 
   navigateToMovies() {
+    if (this.dialogRef) {
+      this.dialogRef.close();
+      return;
+    }
     const userId = this.getCurrentUserId();
     this.router.navigate(['/', userId, 'movies']);
+  }
+
+  isDialogMode(): boolean {
+    return Boolean(this.dialogRef);
   }
 
   private async loadMovieFromSlug(params: ParamMap) {
@@ -164,6 +195,9 @@ export class EditMovieComponent {
   }
 
   private getCurrentUserId(): string {
+    if (this.dialogData?.userId) {
+      return this.dialogData.userId;
+    }
     const directId = this.activatedRoute.snapshot.params['id'];
     const parentId = this.activatedRoute.parent?.snapshot.params['id'];
     return directId || parentId || DEFAULT_USER_ID;

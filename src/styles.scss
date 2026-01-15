@@ -1,6 +1,11 @@
+
 // Import des styles partagés pour les containers
 @use './app/styles/containers.scss';
 @use './app/styles/components.scss';
+
+
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
 
 $dark_blue: #25645d;
 

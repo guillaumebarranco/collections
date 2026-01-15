@@ -94,7 +94,7 @@ export class MoviesComponent implements OnInit {
       this.isInitializing = false;
     });
 
-    void this.loadMoviesData();
+    void this.refreshMovies();
   }
 
   private loadParamsFromUrl(queryParams: Params) {
@@ -361,7 +361,7 @@ export class MoviesComponent implements OnInit {
       : '/select-movies-times-watched';
   }
 
-  private async loadMoviesData() {
+  async refreshMovies() {
     const userId = this.getActiveUserId();
     const [movies, watchlist] = await Promise.all([
       getAllMovies(userId),

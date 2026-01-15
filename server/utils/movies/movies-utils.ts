@@ -1,10 +1,10 @@
-const express = require('express');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = 3001;
 const USERS_MOVIES_DIR = path.join(
   __dirname,
+  '..',
+  '..',
   '..',
   'src',
   'app',
@@ -12,13 +12,7 @@ const USERS_MOVIES_DIR = path.join(
   'users'
 );
 
-function setCors(res) {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-}
-
-function normalizeNumber(value, field) {
+function normalizeNumber(value: any, field: string) {
   if (value === undefined || value === null) return undefined;
   const parsed = Number(value);
   if (Number.isNaN(parsed)) {
@@ -27,7 +21,7 @@ function normalizeNumber(value, field) {
   return parsed;
 }
 
-function normalizeBoolean(value, field) {
+function normalizeBoolean(value: any, field: string) {
   if (value === undefined || value === null) return undefined;
   if (typeof value === 'boolean') return value;
   if (value === 'true') return true;
@@ -35,7 +29,7 @@ function normalizeBoolean(value, field) {
   throw new Error(`Invalid boolean for ${field}`);
 }
 
-function normalizeString(value, field) {
+function normalizeString(value: any, field: string) {
   if (value === undefined || value === null) return undefined;
   if (typeof value !== 'string') {
     throw new Error(`Invalid string for ${field}`);
@@ -43,7 +37,7 @@ function normalizeString(value, field) {
   return value;
 }
 
-function parseStringField(objectText, key) {
+function parseStringField(objectText: string, key: string) {
   const regex = new RegExp(`${key}\\s*:\\s*(['"])((?:\\\\.|(?!\\1).)*)\\1`);
   const match = objectText.match(regex);
   if (!match) return null;
@@ -53,7 +47,7 @@ function parseStringField(objectText, key) {
     .replace(/\\\\/g, '\\');
 }
 
-function parseNumberField(objectText, key) {
+function parseNumberField(objectText: string, key: string) {
   const regex = new RegExp(`${key}\\s*:\\s*([^,\\n]+)`);
   const match = objectText.match(regex);
   if (!match) return null;
@@ -61,14 +55,14 @@ function parseNumberField(objectText, key) {
   return Number.isNaN(parsed) ? null : parsed;
 }
 
-function parseBooleanField(objectText, key) {
+function parseBooleanField(objectText: string, key: string) {
   const regex = new RegExp(`${key}\\s*:\\s*(true|false)`);
   const match = objectText.match(regex);
   if (!match) return null;
   return match[1] === 'true';
 }
 
-function parseMoviesFromFile(content) {
+function parseMoviesFromFile(content: string): any[] {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     return [];
@@ -80,7 +74,7 @@ function parseMoviesFromFile(content) {
     return [];
   }
 
-  const movies = [];
+  const movies: any[] = [];
   let i = arrayStart;
   let depth = 0;
   let objectStart = -1;
@@ -121,13 +115,11 @@ function parseMoviesFromFile(content) {
   return movies;
 }
 
-function replaceField(objectText, key, value) {
+function replaceField(objectText: string, key: string, value: any) {
   if (value === undefined) return objectText;
   let next = objectText;
   if (typeof value === 'string') {
-    const regex = new RegExp(
-      `(${key}\\s*:\\s*)(['"])((?:\\\\.|(?!\\2).)*)\\2`
-    );
+    const regex = new RegExp(`(${key}\\s*:\\s*)(['"])((?:\\\\.|(?!\\2).)*)\\2`);
     if (!regex.test(next)) {
       throw new Error(`Field ${key} not found`);
     }
@@ -161,7 +153,7 @@ function replaceField(objectText, key, value) {
   return next;
 }
 
-function updateMovieInFile(content, payload) {
+function updateMovieInFile(content: string, payload: any) {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     throw new Error('Array not found');
@@ -206,11 +198,7 @@ function updateMovieInFile(content, payload) {
             'lastViewedDate',
             payload.lastViewedDate
           );
-          updated = replaceField(
-            updated,
-            'seenAtCinema',
-            payload.seenAtCinema
-          );
+          updated = replaceField(updated, 'seenAtCinema', payload.seenAtCinema);
 
           return (
             content.slice(0, objectStart) +
@@ -226,7 +214,7 @@ function updateMovieInFile(content, payload) {
   throw new Error('Movie not found');
 }
 
-function getUserMoviesFiles(userId) {
+function getUserMoviesFiles(userId: string) {
   const userMoviesDir = path.join(USERS_MOVIES_DIR, userId, 'movies');
   if (!fs.existsSync(userMoviesDir)) {
     throw new Error(`User movies directory not found: ${userId}`);
@@ -234,126 +222,17 @@ function getUserMoviesFiles(userId) {
 
   return fs
     .readdirSync(userMoviesDir)
-    .filter((file) => file.endsWith('.ts') && file !== 'index.ts')
-    .map((file) => path.join(userMoviesDir, file));
+    .filter((file: string) => file.endsWith('.ts') && file !== 'index.ts')
+    .map((file: string) => path.join(userMoviesDir, file));
 }
 
-const app = express();
+module.exports = {
+  normalizeNumber,
+  normalizeBoolean,
+  normalizeString,
+  parseMoviesFromFile,
+  updateMovieInFile,
+  getUserMoviesFiles,
+};
 
-app.use((req, res, next) => {
-  setCors(res);
-  if (req.method === 'OPTIONS') {
-    res.sendStatus(204);
-    return;
-  }
-  next();
-});
-
-app.use(express.json({ limit: '1mb' }));
-
-app.get('/api/movies/:userId', (req, res) => {
-  try {
-    const userId = normalizeString(req.params.userId, 'userId');
-    if (!userId) {
-      res.status(400).json({ error: 'Missing userId' });
-      return;
-    }
-
-    const movieFiles = getUserMoviesFiles(userId);
-    const movies = movieFiles.flatMap((movieFile) => {
-      const fileContent = fs.readFileSync(movieFile, 'utf8');
-      return parseMoviesFromFile(fileContent);
-    });
-
-    res.json(movies);
-  } catch (error) {
-    res.status(500).json({ error: error.message || 'Unknown error' });
-  }
-});
-
-app.post('/api/movies', (req, res) => {
-  try {
-    const input = req.body || {};
-
-    const userId = normalizeString(input.userId, 'userId');
-    if (!userId) {
-      res.status(400).json({ error: 'Missing userId' });
-      return;
-    }
-
-    const title = normalizeString(input.title, 'title');
-    const director = normalizeString(input.director, 'director');
-    if (!title || !director) {
-      res.status(400).json({ error: 'Missing title or director' });
-      return;
-    }
-
-    const payload = {
-      title,
-      director,
-      rating: normalizeNumber(input.rating, 'rating'),
-      timesWatched: normalizeNumber(input.timesWatched, 'timesWatched'),
-      firstViewedDate: normalizeString(
-        input.firstViewedDate,
-        'firstViewedDate'
-      ),
-      lastViewedDate: normalizeString(
-        input.lastViewedDate,
-        'lastViewedDate'
-      ),
-      seenAtCinema: normalizeBoolean(input.seenAtCinema, 'seenAtCinema'),
-    };
-
-    const movieFiles = getUserMoviesFiles(userId);
-    let updatedFile = null;
-
-    for (const movieFile of movieFiles) {
-      const fileContent = fs.readFileSync(movieFile, 'utf8');
-      try {
-        const updatedContent = updateMovieInFile(fileContent, payload);
-        fs.writeFileSync(movieFile, updatedContent, 'utf8');
-        updatedFile = movieFile;
-        break;
-      } catch (error) {
-        if (error.message !== 'Movie not found') {
-          throw error;
-        }
-      }
-    }
-
-    if (!updatedFile) {
-      res.status(404).json({ error: 'Movie not found' });
-      return;
-    }
-
-    res.json({
-      ok: true,
-      movie: { title: payload.title, director: payload.director },
-      file: updatedFile,
-    });
-
-    console.log(
-      'movie:update',
-      JSON.stringify({
-        file: updatedFile,
-        title: payload.title,
-        director: payload.director,
-        rating: payload.rating,
-        timesWatched: payload.timesWatched,
-        firstViewedDate: payload.firstViewedDate,
-        lastViewedDate: payload.lastViewedDate,
-        seenAtCinema: payload.seenAtCinema,
-      })
-    );
-  } catch (error) {
-    res.status(500).json({ error: error.message || 'Unknown error' });
-  }
-});
-
-app.use((_req, res) => {
-  res.status(404).json({ error: 'Not found' });
-});
-
-app.listen(PORT, () => {
-  console.log(`Edit movie server running on http://localhost:${PORT}`);
-});
+export {};
