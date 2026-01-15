@@ -53,8 +53,8 @@ export class EditMovieComponent {
   }
 
   public apiUrl = document.location.origin.includes('localhost')
-    ? `localhost:3001`
-    : 'makya.webarranco.fr:3001';
+    ? `http://localhost:3001`
+    : 'https://makya.webarranco.fr:3001';
 
   updateField<K extends keyof EditMovieForm>(field: K, value: string | number) {
     const current = this.movieForm();
