@@ -4,16 +4,20 @@
       <span class="logo-text">Makya</span>
       <img src="/logo.png" alt="Makya" class="logo-image" />
     </div>
+
     <div class="menu-items">
+      @for (item of visibleMenuItems; let i = $index; track item.label) {
       <button
-        *ngFor="let item of visibleMenuItems"
         class="menu-item"
         [class.active]="isActive(item.route)"
+        [class.hide-on-mobile]="i > 4"
         (click)="navigateTo(item.route)"
       >
         <span class="menu-icon">{{ item.icon }}</span>
         <span class="menu-label">{{ item.label }}</span>
       </button>
+      }
     </div>
+    <span class="menu-user">{{ currentUser() }}</span>
   </div>
 </nav>

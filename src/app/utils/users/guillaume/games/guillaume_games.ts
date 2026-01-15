@@ -481,7 +481,7 @@ export const guillaumeGames: UserGame[] = [
   },
   // Injustice
   {
-    title: 'Injustice: Gods Among Us Ultimate Edition',
+    title: 'Injustice : Les Dieux sont Parmi Nous - Ultimate Edition',
     editor: 'NetherRealm Studios',
     rating: 3,
     platined: false,

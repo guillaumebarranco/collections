@@ -1,4 +1,10 @@
-import { Component, OnInit, HostListener, inject } from '@angular/core';
+import {
+  Component,
+  OnInit,
+  HostListener,
+  inject,
+  computed,
+} from '@angular/core';
 import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
@@ -15,6 +21,16 @@ export class MenuComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
   router = inject(Router);
 
+  currentUser = computed(() => {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam ? this.capitalizeFirstLetter(params['id']) : '';
+  });
+
+  capitalizeFirstLetter(val: string) {
+    return String(val).charAt(0).toUpperCase() + String(val).slice(1);
+  }
+
   menuItems = [
     {
       label: 'Home',
@@ -27,18 +43,6 @@ export class MenuComponent implements OnInit {
       route: this.getRoute('books'),
       icon: '📚',
       hideOnMobile: false,
-    },
-    {
-      label: 'Mangas',
-      route: this.getRoute('mangas'),
-      icon: '📖',
-      hideOnMobile: false,
-    },
-    {
-      label: 'Manwhas',
-      route: this.getRoute('manwhas'),
-      icon: '🎨',
-      hideOnMobile: true,
     },
     {
       label: 'Films',
@@ -57,6 +61,18 @@ export class MenuComponent implements OnInit {
       route: this.getRoute('games'),
       icon: '🎮',
       hideOnMobile: false,
+    },
+    {
+      label: 'Mangas',
+      route: this.getRoute('mangas'),
+      icon: '📖',
+      hideOnMobile: false,
+    },
+    {
+      label: 'Manwhas',
+      route: this.getRoute('manwhas'),
+      icon: '🎨',
+      hideOnMobile: true,
     },
     {
       label: 'Musiques',

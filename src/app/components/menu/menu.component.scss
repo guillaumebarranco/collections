@@ -13,12 +13,18 @@
   color: white;
 }
 
+.menu-user {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
 .menu-container {
-  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 20px;
 }
 
@@ -100,7 +106,15 @@
 
 // Responsive design
 @media (max-width: 1023px) {
+  .menu-item.hide-on-mobile {
+    display: none;
+  }
+
   .menu-logo {
+    display: none;
+  }
+
+  .menu-user {
     display: none;
   }
 }

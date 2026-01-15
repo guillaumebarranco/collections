@@ -146,14 +146,6 @@ export const ronanGames: UserGame[] = [
     additionnalEstimatedTime: 0,
   },
   {
-    title: 'Batman: Arkham Asylum',
-    editor: 'Rocksteady Studios',
-    rating: 0,
-    platined: false,
-    timesFinished: 0,
-    additionnalEstimatedTime: 0,
-  },
-  {
     title: 'The Amazing Spider-Man',
     editor: 'Beenox',
     rating: 0,
@@ -188,14 +180,6 @@ export const ronanGames: UserGame[] = [
   {
     title: 'BioShock Infinite',
     editor: 'Irrational Games',
-    rating: 0,
-    platined: false,
-    timesFinished: 0,
-    additionnalEstimatedTime: 0,
-  },
-  {
-    title: 'Injustice: Gods Among Us Ultimate Edition',
-    editor: 'NetherRealm Studios',
     rating: 0,
     platined: false,
     timesFinished: 0,
