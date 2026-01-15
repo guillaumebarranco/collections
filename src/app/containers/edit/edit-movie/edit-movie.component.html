@@ -1,0 +1,88 @@
+<div class="edit-movie">
+  <button (click)="navigateToMovies()" class="back-link">
+    Retour aux films
+  </button>
+
+  <h1 class="title">Éditer un film</h1>
+
+  @if(movieNotFound()) {
+  <p class="not-found">Aucun film trouvé pour ce slug.</p>
+  } @else {
+
+  <img [src]="movieForm()?.coverUrl" alt="Cover" width="200" />
+
+  <form *ngIf="movieForm()" class="edit-form" (ngSubmit)="onSubmit()">
+    <div class="form-row">
+      <label for="title">Titre</label>
+      <input
+        id="title"
+        type="text"
+        [ngModel]="movieForm()?.title"
+        (ngModelChange)="updateField('title', $event)"
+        name="title"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="rating">Note</label>
+      <input
+        id="rating"
+        type="number"
+        step="0.25"
+        min="0"
+        max="5"
+        [ngModel]="movieForm()?.rating"
+        (ngModelChange)="updateField('rating', $event)"
+        name="rating"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="timesWatched">Visionnages</label>
+      <input
+        id="timesWatched"
+        type="number"
+        min="0"
+        [ngModel]="movieForm()?.timesWatched"
+        (ngModelChange)="updateField('timesWatched', $event)"
+        name="timesWatched"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="firstViewedDate">Premier visionnage</label>
+      <input
+        id="firstViewedDate"
+        type="date"
+        [ngModel]="movieForm()?.firstViewedDate"
+        (ngModelChange)="updateField('firstViewedDate', $event)"
+        name="firstViewedDate"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="lastViewedDate">Dernier visionnage</label>
+      <input
+        id="lastViewedDate"
+        type="date"
+        [ngModel]="movieForm()?.lastViewedDate"
+        (ngModelChange)="updateField('lastViewedDate', $event)"
+        name="lastViewedDate"
+      />
+    </div>
+
+    <div class="form-row checkbox-row">
+      <label for="seenAtCinema">Vu au cinéma</label>
+      <input
+        id="seenAtCinema"
+        type="checkbox"
+        [checked]="movieForm()?.seenAtCinema"
+        (change)="updateCheckbox('seenAtCinema', $any($event).target.checked)"
+        name="seenAtCinema"
+      />
+    </div>
+
+    <button type="submit" class="submit-btn">Modifier</button>
+  </form>
+  }
+</div>

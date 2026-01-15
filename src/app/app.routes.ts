@@ -22,6 +22,7 @@ import { SelectGamesRatingComponent } from './containers/selection/select-games-
 import { SelectGamesTimesFinishedComponent } from './containers/selection/select-games-times-finished/select-games-times-finished.component';
 import { MusicsComponent } from './containers/collections/musics/musics.component';
 import { SelectMusicsComponent } from './containers/selection/select-musics/select-musics.component';
+import { EditMovieComponent } from './containers/edit/edit-movie/edit-movie.component';
 
 export const routes: Routes = [
   {
@@ -118,6 +119,10 @@ export const routes: Routes = [
         component: DashboardComponent,
       },
       {
+        path: 'edit-movie/:slug',
+        component: EditMovieComponent,
+      },
+      {
         path: 'dashboard',
         component: DashboardComponent,
       },
@@ -137,6 +142,10 @@ export const routes: Routes = [
         path: 'movies',
         component: MoviesComponent,
         children: [
+          {
+            path: 'edit/:slug',
+            component: EditMovieComponent,
+          },
           {
             path: ':id',
             component: MoviesComponent,

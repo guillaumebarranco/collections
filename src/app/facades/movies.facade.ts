@@ -39,7 +39,6 @@ import {
 } from '../utils/users/amandine/movies';
 import {
   ronanMovies,
-  ronanLetterboxdMovies,
   ronanCinemaMovies,
   ronanWatchlistMovies,
 } from '../utils/users/ronan/movies';
@@ -79,11 +78,7 @@ export function getAllMovies(): { [key: string]: Movie[] } {
     william: getAllMoviesData([...williamMovies]),
     kevin: [],
     amandine: getAllMoviesData([...amandineMovies1, ...amandineMovies2]),
-    ronan: getAllMoviesData([
-      ...ronanMovies,
-      ...ronanLetterboxdMovies,
-      ...ronanCinemaMovies,
-    ]),
+    ronan: getAllMoviesData([...ronanMovies, ...ronanCinemaMovies]),
   };
 }
 

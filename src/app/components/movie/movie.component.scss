@@ -2,6 +2,9 @@
 
 .movie-card {
   @include components.component-card-base;
+  display: block;
+  color: inherit;
+  text-decoration: none;
 }
 
 p {

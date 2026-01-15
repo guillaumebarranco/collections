@@ -5052,22 +5052,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Horreur',
   },
   {
-    title: 'Le Nouveau Stagiaire',
-    director: 'Nancy Meyers',
-    actors: [
-      {
-        name: 'Robert De Niro',
-      },
-      {
-        name: 'Anne Hathaway',
-      },
-    ],
-    coverUrl: '/movies_pictures/the_intern.jpg',
-    releaseDate: '2015-10-07',
-    length: 121,
-    genre: 'Comédie',
-  },
-  {
     title: 'Le Labyrinthe : La Terre brûlée',
     director: 'Wes Ball',
     actors: [
