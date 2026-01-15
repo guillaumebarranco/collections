@@ -7,8 +7,8 @@ const addExistingRouter = require('./add-existing');
 
 const router = express.Router();
 
-router.use(getMoviesRouter);
 router.use(getEntitiesRouter);
+router.use(getMoviesRouter);
 router.use(saveMovieRouter);
 router.use(addMovieRouter);
 router.use(addExistingRouter);
