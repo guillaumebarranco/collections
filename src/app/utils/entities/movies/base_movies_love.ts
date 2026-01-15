@@ -72,6 +72,22 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
   },
   {
+    title: 'People We Meet on Vacation',
+    director: 'Brett Haley',
+    actors: [
+      {
+        name: 'Emily Bader',
+      },
+      {
+        name: 'Tom Blyth',
+      },
+    ],
+    coverUrl: '/movies_pictures/people-we-meet-on-vacation-1.jpg',
+    releaseDate: '2026-01-09',
+    length: 118,
+    genre: 'Romance',
+  },
+  {
     title: 'Tout le Bleu du Ciel',
     director: 'João Canijo',
     actors: [

@@ -11,6 +11,16 @@ export const baseBooksFromRonan: BaseBook[] = [
     sagaOrder: 1,
   },
   {
+    title:
+      "Le Monde de Narnia (Tome 2) Le Lion, la Sorcière blanche et l'Armoire magique",
+    author: 'C.S. Lewis',
+    coverUrl: '/books_pictures/81bMOFj57eL._UF1000,1000_QL80_.jpg',
+    pages: 224,
+    genre: 'Fantasy',
+    saga: 'Le Monde de Narnia',
+    sagaOrder: 2,
+  },
+  {
     title: 'Les disparus du phare de Tévennec',
     author: 'Aricia Favalli',
     coverUrl: '/books_pictures/23_9782322616039_1_75.jpg',

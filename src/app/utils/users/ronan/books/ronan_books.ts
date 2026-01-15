@@ -40,7 +40,7 @@ export const ronanBooks: UserBook[] = [
     title: 'Viridia: Les racines du pouvoir',
     author: 'Aricia Favalli',
     rating: 4,
-    readDate: '',
+    readDate: '2025-05-08',
     readTimes: 1,
   },
   {
@@ -313,7 +313,7 @@ export const ronanBooks: UserBook[] = [
     title: 'La femme de ménage',
     author: 'Freida McFadden',
     rating: 2,
-    readDate: '',
+    readDate: '2025-10-22',
     readTimes: 1,
   },
   {
@@ -352,10 +352,18 @@ export const ronanBooks: UserBook[] = [
     readTimes: 1,
   },
   {
+    title:
+      "Le Monde de Narnia (Tome 2) Le Lion, la Sorcière blanche et l'Armoire magique",
+    author: 'C.S. Lewis',
+    rating: 0,
+    readDate: '2026-01-14',
+    readTimes: 1,
+  },
+  {
     title: 'Les disparus du phare de Tévennec',
     author: 'Aricia Favalli',
     rating: 4,
-    readDate: '',
+    readDate: '2026-01-04',
     readTimes: 1,
   },
   {

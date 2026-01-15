@@ -47,6 +47,15 @@ export const guillaumeMoviesLove: UserMovie[] = [
     seenAtCinema: false,
   },
   {
+    title: 'People We Meet on Vacation',
+    director: 'Brett Haley',
+    rating: 3.75,
+    timesWatched: 1,
+    firstViewedDate: '2026-01-15',
+    lastViewedDate: '2026-01-15',
+    seenAtCinema: false,
+  },
+  {
     title: 'Tout le Bleu du Ciel',
     director: 'João Canijo',
     rating: 3.5,
