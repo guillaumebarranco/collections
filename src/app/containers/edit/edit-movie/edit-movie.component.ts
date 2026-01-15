@@ -48,13 +48,15 @@ export class EditMovieComponent {
 
   constructor() {
     this.activatedRoute.paramMap.subscribe((params) => {
-      this.loadMovieFromSlug(params);
+      void this.loadMovieFromSlug(params);
     });
   }
 
-  public apiUrl = document.location.origin.includes('localhost')
-    ? `http://localhost:3001`
-    : 'https://makya.webarranco.fr/api/';
+  // public apiUrl = document.location.origin.includes('localhost')
+  //   ? `http://localhost:3001`
+  //   : 'https://makya.webarranco.fr/api/';
+
+  public apiUrl = 'https://makya.webarranco.fr/api';
 
   updateField<K extends keyof EditMovieForm>(field: K, value: string | number) {
     const current = this.movieForm();
@@ -143,10 +145,10 @@ export class EditMovieComponent {
     this.router.navigate(['/', userId, 'movies']);
   }
 
-  private loadMovieFromSlug(params: ParamMap) {
+  private async loadMovieFromSlug(params: ParamMap) {
     const slug = params.get('slug') || '';
     const userId = this.getCurrentUserId();
-    const movies = getMoviesByUser(userId);
+    const movies = await getMoviesByUser(userId);
     const matched = movies.find((movie) => {
       return this.toSlug(`${movie.title} ${movie.director}`) === slug;
     });

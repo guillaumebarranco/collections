@@ -1,4 +1,4 @@
-import { Component, signal, computed, inject } from '@angular/core';
+import { Component, signal, computed, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import { Movie } from '../../../models/movie-model';
@@ -16,13 +16,22 @@ import { SelectEntitiesComponent } from '../select-base.component';
   templateUrl: './select-movies.component.html',
   styleUrls: ['./select-movies.component.scss', '../select-base.scss'],
 })
-export class SelectMoviesComponent extends SelectEntitiesComponent {
+export class SelectMoviesComponent
+  extends SelectEntitiesComponent
+  implements OnInit
+{
+  private isLoading = false;
+
+  userMovies = signal<Movie[]>([]);
+  watchlistMovies = signal<Movie[]>([]);
+  allMoviesMergedList = signal<Movie[]>([]);
+
   // Films déjà vus par l'utilisateur (pour les exclure en mode watchlist)
   watchedMovies = computed<Set<string>>(() => {
     if (!this.isWatchOrReadlistMode()) {
       return new Set();
     }
-    const userMovies = getMoviesByUser(this.userId());
+    const userMovies = this.userMovies();
     return new Set(
       userMovies.map((movie) => `${movie.title}-${movie.releaseDate}`)
     );
@@ -32,7 +41,7 @@ export class SelectMoviesComponent extends SelectEntitiesComponent {
     if (!this.isWatchOrReadlistMode()) {
       return new Set();
     }
-    const userMovies = getCurrentWatchlistMoviesByUser(this.userId());
+    const userMovies = this.watchlistMovies();
     return new Set(
       userMovies.map((movie) => `${movie.title}-${movie.releaseDate}`)
     );
@@ -42,10 +51,10 @@ export class SelectMoviesComponent extends SelectEntitiesComponent {
   allMovies = computed<Movie[]>(() => {
     // En mode cinema, afficher uniquement les films vus par l'utilisateur
     if (this.isCinemaMode()) {
-      return getMoviesByUser(this.userId());
+      return this.userMovies();
     }
 
-    const allMoviesList = getAllMoviesMerged();
+    const allMoviesList = this.allMoviesMergedList();
 
     if (!this.isWatchOrReadlistMode()) {
       return allMoviesList;
@@ -175,5 +184,24 @@ export class SelectMoviesComponent extends SelectEntitiesComponent {
     // Nettoyer
     document.body.removeChild(link);
     window.URL.revokeObjectURL(url);
+  }
+
+  ngOnInit() {
+    void this.loadMoviesData();
+  }
+
+  private async loadMoviesData() {
+    if (this.isLoading) return;
+    this.isLoading = true;
+    const userId = this.userId();
+    const [movies, watchlist, allMovies] = await Promise.all([
+      getMoviesByUser(userId),
+      getCurrentWatchlistMoviesByUser(userId),
+      getAllMoviesMerged(userId),
+    ]);
+    this.userMovies.set(movies);
+    this.watchlistMovies.set(watchlist);
+    this.allMoviesMergedList.set(allMovies);
+    this.isLoading = false;
   }
 }

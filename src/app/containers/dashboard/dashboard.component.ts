@@ -1,4 +1,4 @@
-import { Component, computed, inject, signal } from '@angular/core';
+import { Component, computed, inject, signal, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../components/menu/menu.component';
 import {
@@ -57,14 +57,14 @@ interface TopMusic extends Music {
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.scss'],
 })
-export class DashboardComponent {
+export class DashboardComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
   router = inject(Router);
 
   filledUserId = signal<string>('');
 
   booksList = signal<{ [key: string]: Book[] }>(getAllBooks());
-  moviesList = signal<{ [key: string]: Movie[] }>(getAllMovies());
+  moviesList = signal<{ [key: string]: Movie[] }>({});
   seriesList = signal<{ [key: string]: Serie[] }>(getAllSeries());
   gamesList = signal<{ [key: string]: Game[] }>(getAllGames());
 
@@ -441,5 +441,15 @@ export class DashboardComponent {
 
   onSubmit(): void {
     this.router.navigate([this.filledUserId().toLowerCase()]);
+  }
+
+  ngOnInit() {
+    void this.loadMoviesData();
+  }
+
+  private async loadMoviesData() {
+    const userId = this.userId() || 'guillaume';
+    const movies = await getAllMovies(userId);
+    this.moviesList.set(movies);
   }
 }

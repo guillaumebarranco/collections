@@ -14,7 +14,7 @@ const USERS_MOVIES_DIR = path.join(
 
 function setCors(res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 }
 
@@ -51,6 +51,74 @@ function parseStringField(objectText, key) {
   return match[2]
     .replace(new RegExp(`\\\\${quote}`, 'g'), quote)
     .replace(/\\\\/g, '\\');
+}
+
+function parseNumberField(objectText, key) {
+  const regex = new RegExp(`${key}\\s*:\\s*([^,\\n]+)`);
+  const match = objectText.match(regex);
+  if (!match) return null;
+  const parsed = Number(match[1]);
+  return Number.isNaN(parsed) ? null : parsed;
+}
+
+function parseBooleanField(objectText, key) {
+  const regex = new RegExp(`${key}\\s*:\\s*(true|false)`);
+  const match = objectText.match(regex);
+  if (!match) return null;
+  return match[1] === 'true';
+}
+
+function parseMoviesFromFile(content) {
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    return [];
+  }
+
+  const arrayStart = content.indexOf('[', exportIndex);
+  const arrayEnd = content.indexOf('];', arrayStart);
+  if (arrayStart === -1 || arrayEnd === -1) {
+    return [];
+  }
+
+  const movies = [];
+  let i = arrayStart;
+  let depth = 0;
+  let objectStart = -1;
+
+  while (i < arrayEnd) {
+    const char = content[i];
+    if (char === '{') {
+      if (depth === 0) {
+        objectStart = i;
+      }
+      depth += 1;
+    } else if (char === '}') {
+      depth -= 1;
+      if (depth === 0 && objectStart !== -1) {
+        const objectEnd = i;
+        const objectText = content.slice(objectStart, objectEnd + 1);
+        const title = parseStringField(objectText, 'title');
+        const director = parseStringField(objectText, 'director');
+        if (title && director) {
+          movies.push({
+            title,
+            director,
+            rating: parseNumberField(objectText, 'rating') ?? 0,
+            timesWatched: parseNumberField(objectText, 'timesWatched') ?? 0,
+            firstViewedDate:
+              parseStringField(objectText, 'firstViewedDate') ?? '',
+            lastViewedDate:
+              parseStringField(objectText, 'lastViewedDate') ?? '',
+            seenAtCinema:
+              parseBooleanField(objectText, 'seenAtCinema') ?? false,
+          });
+        }
+      }
+    }
+    i += 1;
+  }
+
+  return movies;
 }
 
 function replaceField(objectText, key, value) {
@@ -182,6 +250,26 @@ app.use((req, res, next) => {
 });
 
 app.use(express.json({ limit: '1mb' }));
+
+app.get('/api/movies/:userId', (req, res) => {
+  try {
+    const userId = normalizeString(req.params.userId, 'userId');
+    if (!userId) {
+      res.status(400).json({ error: 'Missing userId' });
+      return;
+    }
+
+    const movieFiles = getUserMoviesFiles(userId);
+    const movies = movieFiles.flatMap((movieFile) => {
+      const fileContent = fs.readFileSync(movieFile, 'utf8');
+      return parseMoviesFromFile(fileContent);
+    });
+
+    res.json(movies);
+  } catch (error) {
+    res.status(500).json({ error: error.message || 'Unknown error' });
+  }
+});
 
 app.post('/api/movies', (req, res) => {
   try {

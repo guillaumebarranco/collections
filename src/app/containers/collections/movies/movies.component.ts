@@ -93,6 +93,8 @@ export class MoviesComponent implements OnInit {
       this.loadParamsFromUrl(queryParams);
       this.isInitializing = false;
     });
+
+    void this.loadMoviesData();
   }
 
   private loadParamsFromUrl(queryParams: Params) {
@@ -174,11 +176,9 @@ export class MoviesComponent implements OnInit {
     { value: 'before2002', label: 'Avant 2002' },
   ];
 
-  moviesList = signal<{ [key: string]: Movie[] }>(getAllMovies());
+  moviesList = signal<{ [key: string]: Movie[] }>({});
 
-  watchingMoviesList = signal<{ [key: string]: Movie[] }>(
-    getAllWatchlistMovies()
-  );
+  watchingMoviesList = signal<{ [key: string]: Movie[] }>({});
 
   allWatchlistMovies = computed<Movie[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
@@ -340,7 +340,9 @@ export class MoviesComponent implements OnInit {
   getSelectCinemaRoute(): string[] {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
-    return hasNameParam ? [`/${params['id']}`, 'select-movies'] : ['/select-movies'];
+    return hasNameParam
+      ? [`/${params['id']}`, 'select-movies']
+      : ['/select-movies'];
   }
 
   getSelectMoviesRatingRoute(): string {
@@ -357,6 +359,21 @@ export class MoviesComponent implements OnInit {
     return hasNameParam
       ? `/${params['id']}/select-movies-times-watched`
       : '/select-movies-times-watched';
+  }
+
+  private async loadMoviesData() {
+    const userId = this.getActiveUserId();
+    const [movies, watchlist] = await Promise.all([
+      getAllMovies(userId),
+      getAllWatchlistMovies(userId),
+    ]);
+    this.moviesList.set(movies);
+    this.watchingMoviesList.set(watchlist);
+  }
+
+  private getActiveUserId(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    return params['id'] ?? 'guillaume';
   }
 
   onSortChange(sortValue: string) {

@@ -1,4 +1,4 @@
-import { Component, signal, computed } from '@angular/core';
+import { Component, signal, computed, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import { Movie } from '../../../models/movie-model';
@@ -16,10 +16,17 @@ interface StarInfo {
   templateUrl: './select-movies-rating.component.html',
   styleUrls: ['./select-movies-rating.component.scss', '../select-base.scss'],
 })
-export class SelectMoviesRatingComponent extends SelectEntitiesComponent {
+export class SelectMoviesRatingComponent
+  extends SelectEntitiesComponent
+  implements OnInit
+{
+  private isLoading = false;
+
+  moviesList = signal<Movie[]>([]);
+
   // Tous les films de l'utilisateur
   allMovies = computed<Movie[]>(() => {
-    return getMoviesByUser(this.userId());
+    return this.moviesList();
   });
 
   // Map pour stocker les ratings mis à jour (clé: title-director, valeur: rating)
@@ -108,5 +115,17 @@ export class SelectMoviesRatingComponent extends SelectEntitiesComponent {
     // Nettoyer
     document.body.removeChild(link);
     window.URL.revokeObjectURL(url);
+  }
+
+  ngOnInit() {
+    void this.loadMoviesData();
+  }
+
+  private async loadMoviesData() {
+    if (this.isLoading) return;
+    this.isLoading = true;
+    const movies = await getMoviesByUser(this.userId());
+    this.moviesList.set(movies);
+    this.isLoading = false;
   }
 }

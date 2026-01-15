@@ -1,4 +1,4 @@
-import { Component, computed, inject, signal } from '@angular/core';
+import { Component, computed, inject, signal, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Movie } from '../../models/movie-model';
@@ -37,13 +37,13 @@ interface EntityStats {
   templateUrl: './dashboard-entities-stats.component.html',
   styleUrls: ['./dashboard-entities-stats.component.scss'],
 })
-export class DashboardEntitiesStatsComponent {
+export class DashboardEntitiesStatsComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
 
   selectedEntity = signal<EntityType>('movies');
   entities: EntityType[] = ['movies', 'series', 'books', 'games', 'musics'];
 
-  moviesList = signal<{ [key: string]: Movie[] }>(getAllMovies());
+  moviesList = signal<{ [key: string]: Movie[] }>({});
   seriesList = signal<{ [key: string]: Serie[] }>(getAllSeries());
   booksList = signal<{ [key: string]: Book[] }>(getAllBooks());
   gamesList = signal<{ [key: string]: Game[] }>(getAllGames());
@@ -336,5 +336,15 @@ export class DashboardEntitiesStatsComponent {
       topArtists: 'Artistes les plus écoutés',
     };
     return labels[key] || key;
+  }
+
+  ngOnInit() {
+    void this.loadMoviesData();
+  }
+
+  private async loadMoviesData() {
+    const userId = this.userId() || 'guillaume';
+    const movies = await getAllMovies(userId);
+    this.moviesList.set(movies);
   }
 }

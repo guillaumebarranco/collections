@@ -1,4 +1,4 @@
-import { Component, signal, computed, inject } from '@angular/core';
+import { Component, signal, computed, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import { Movie } from '../../../models/movie-model';
@@ -15,10 +15,17 @@ import { SelectEntitiesComponent } from '../select-base.component';
     '../select-base.scss',
   ],
 })
-export class SelectMoviesTimesWatchedComponent extends SelectEntitiesComponent {
+export class SelectMoviesTimesWatchedComponent
+  extends SelectEntitiesComponent
+  implements OnInit
+{
+  private isLoading = false;
+
+  moviesList = signal<Movie[]>([]);
+
   // Tous les films de l'utilisateur
   allMovies = computed<Movie[]>(() => {
-    return getMoviesByUser(this.userId());
+    return this.moviesList();
   });
 
   // Map pour stocker les timesWatched mis à jour (clé: title-director, valeur: timesWatched)
@@ -95,5 +102,17 @@ export class SelectMoviesTimesWatchedComponent extends SelectEntitiesComponent {
     // Nettoyer
     document.body.removeChild(link);
     window.URL.revokeObjectURL(url);
+  }
+
+  ngOnInit() {
+    void this.loadMoviesData();
+  }
+
+  private async loadMoviesData() {
+    if (this.isLoading) return;
+    this.isLoading = true;
+    const movies = await getMoviesByUser(this.userId());
+    this.moviesList.set(movies);
+    this.isLoading = false;
   }
 }
