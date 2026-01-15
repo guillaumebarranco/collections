@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Game } from '../../models/game-model';
+import { getGameTimePlayed } from '../../containers/collections/games/games.component';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -29,5 +30,15 @@ export class GameComponent {
       }
     }
     return stars;
+  }
+
+  getGameTimePlayed(game: Game): number {
+    return getGameTimePlayed({
+      title: game.title,
+      platineTime: game.platineTime,
+      averageTimeToFinish: game.averageTimeToFinish,
+      timesFinished: game.timesFinished,
+      additionnalEstimatedTime: game.additionnalEstimatedTime,
+    });
   }
 }

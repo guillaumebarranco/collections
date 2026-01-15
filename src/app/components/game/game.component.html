@@ -18,12 +18,7 @@
     }
     <p class="game-time">
       Temps passé:
-      {{
-        game.platineTime > 0
-          ? game.platineTime + game.additionnalEstimatedTime
-          : game.averageTimeToFinish * game.timesFinished +
-            game.additionnalEstimatedTime
-      }}h
+      {{ getGameTimePlayed(game) }}h
     </p>
     <p class="game-finished">Terminé {{ game.timesFinished }} fois</p>
 

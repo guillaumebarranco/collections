@@ -30,17 +30,29 @@ export function getTotalDuration(items: ItemWithGameLength[]): TimeStats {
   return formatTimeStats(totalHours * 60);
 }
 
+export function getGameTimePlayed(game: ItemWithGameLength): number {
+  let length = 0;
+  if (game.platineTime > 0) {
+    length = game.platineTime;
+
+    if (game.timesFinished > 1) {
+      length += (game.timesFinished - 1) * game.averageTimeToFinish;
+    }
+
+    length += game.additionnalEstimatedTime;
+  } else {
+    length =
+      game.averageTimeToFinish * game.timesFinished +
+      game.additionnalEstimatedTime;
+  }
+
+  return length;
+}
+
 export function getTotalPlayedTime(items: ItemWithGameLength[]): TimeStats {
   let totalHours = 0;
   for (const item of items) {
-    let length = 0;
-    if (item.platineTime > 0) {
-      length = item.platineTime + item.additionnalEstimatedTime;
-    } else {
-      length =
-        item.averageTimeToFinish * item.timesFinished +
-        item.additionnalEstimatedTime;
-    }
+    const length = getGameTimePlayed(item);
 
     if (length) {
       totalHours += length;

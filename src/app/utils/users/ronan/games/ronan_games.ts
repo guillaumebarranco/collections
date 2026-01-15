@@ -6,7 +6,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Infinity Ward',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -14,7 +14,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Infinity Ward',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -22,7 +22,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Treyarch',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 2,
     additionnalEstimatedTime: 0,
   },
   {
@@ -30,7 +30,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Infinity Ward',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -38,7 +38,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Treyarch',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -46,7 +46,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Treyarch',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -78,7 +78,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Omega Force',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -86,7 +86,7 @@ export const ronanGames: UserGame[] = [
     editor: 'CyberConnect2',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 3,
     additionnalEstimatedTime: 0,
   },
   {
@@ -94,7 +94,7 @@ export const ronanGames: UserGame[] = [
     editor: 'CyberConnect2',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -102,7 +102,7 @@ export const ronanGames: UserGame[] = [
     editor: 'CyberConnect2',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -110,7 +110,7 @@ export const ronanGames: UserGame[] = [
     editor: 'CyberConnect2',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -118,7 +118,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Sucker Punch Productions',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 2,
     additionnalEstimatedTime: 0,
   },
   {
@@ -126,7 +126,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Sucker Punch Productions',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 2,
     additionnalEstimatedTime: 0,
   },
   {
@@ -134,7 +134,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Sucker Punch Productions',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 2,
     additionnalEstimatedTime: 0,
   },
   {
@@ -142,7 +142,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Sucker Punch Productions',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 2,
     additionnalEstimatedTime: 0,
   },
   {
@@ -150,7 +150,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Beenox',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -158,7 +158,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Insomniac Games',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 3,
     additionnalEstimatedTime: 0,
   },
   {
@@ -166,7 +166,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Insomniac Games',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 2,
     additionnalEstimatedTime: 0,
   },
   {
@@ -174,7 +174,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Insomniac Games',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -182,7 +182,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Irrational Games',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -190,7 +190,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Ubisoft',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -198,7 +198,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Dimps',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 5,
     additionnalEstimatedTime: 0,
   },
   {
@@ -206,7 +206,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Obsidian Entertainment',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 2,
     additionnalEstimatedTime: 0,
   },
   {
@@ -214,7 +214,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Santa Monica Studio',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 2,
     additionnalEstimatedTime: 0,
   },
   {
@@ -222,7 +222,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Santa Monica Studio',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -230,7 +230,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Avalanche Software',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -246,7 +246,7 @@ export const ronanGames: UserGame[] = [
     editor: 'LucasArts',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -270,7 +270,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Asobo Studio',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 2,
     additionnalEstimatedTime: 0,
   },
   {
@@ -278,7 +278,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Asobo Studio',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -286,7 +286,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Hazelight Studios',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -294,7 +294,7 @@ export const ronanGames: UserGame[] = [
     editor: 'BioWare',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -302,7 +302,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Ubisoft',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 3,
     additionnalEstimatedTime: 0,
   },
   {
@@ -310,7 +310,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Ubisoft',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 3,
     additionnalEstimatedTime: 0,
   },
   {
@@ -318,7 +318,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Ubisoft',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 3,
     additionnalEstimatedTime: 0,
   },
   {
@@ -326,7 +326,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Ubisoft',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 2,
     additionnalEstimatedTime: 0,
   },
   {
@@ -334,7 +334,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Ubisoft',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -342,7 +342,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Ubisoft',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -350,7 +350,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Ubisoft',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 2,
     additionnalEstimatedTime: 0,
   },
   {
@@ -358,7 +358,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Ubisoft',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 2,
     additionnalEstimatedTime: 0,
   },
   {
@@ -366,7 +366,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Ubisoft',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 2,
     additionnalEstimatedTime: 0,
   },
   {
@@ -374,7 +374,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Ubisoft',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 2,
     additionnalEstimatedTime: 0,
   },
   {
@@ -382,7 +382,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Ubisoft',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 2,
     additionnalEstimatedTime: 0,
   },
   {
@@ -390,7 +390,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Ubisoft',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 2,
     additionnalEstimatedTime: 0,
   },
   {
@@ -398,7 +398,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Ubisoft',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -406,7 +406,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Ubisoft',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -414,7 +414,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Ubisoft',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -422,7 +422,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Sony Interactive Entertainment',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -430,7 +430,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Ubisoft',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -438,7 +438,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Rocksteady Studios',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 3,
     additionnalEstimatedTime: 0,
   },
   {
@@ -446,7 +446,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Rocksteady Studios',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 5,
     additionnalEstimatedTime: 0,
   },
   {
@@ -454,7 +454,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Rocksteady Studios',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 3,
     additionnalEstimatedTime: 0,
   },
   {
@@ -462,7 +462,7 @@ export const ronanGames: UserGame[] = [
     editor: 'WB Games Montréal',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 2,
     additionnalEstimatedTime: 0,
   },
   {
@@ -470,7 +470,7 @@ export const ronanGames: UserGame[] = [
     editor: 'EA DICE',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -478,7 +478,7 @@ export const ronanGames: UserGame[] = [
     editor: '2K Games',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -494,7 +494,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Infinity Ward',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -502,7 +502,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Sandfall Interactive',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -510,7 +510,7 @@ export const ronanGames: UserGame[] = [
     editor: 'CD Projekt Red',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -518,7 +518,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Vigil Games',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -526,7 +526,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Vigil Games',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -534,7 +534,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Bend Studio',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -542,7 +542,7 @@ export const ronanGames: UserGame[] = [
     editor: 'KeokeN Interactive',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -550,7 +550,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Quantic Dream',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -558,7 +558,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Arkane Studios',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -566,7 +566,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Arkane Studios',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -574,7 +574,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Ninja Theory',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -582,7 +582,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Spike',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -590,7 +590,7 @@ export const ronanGames: UserGame[] = [
     editor: 'FromSoftware',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -598,7 +598,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Ubisoft',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -606,7 +606,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Ubisoft',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -614,7 +614,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Koei Tecmo',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -622,7 +622,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Sucker Punch Productions',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -630,7 +630,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Santa Monica Studio',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -638,7 +638,7 @@ export const ronanGames: UserGame[] = [
     editor: 'WB Games Montréal',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -654,7 +654,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Rockstar Games',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -662,7 +662,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Quantic Dream',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -670,7 +670,7 @@ export const ronanGames: UserGame[] = [
     editor: 'IO Interactive',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -678,7 +678,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Avalanche Software',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -686,7 +686,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Guerrilla Games',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 2,
     additionnalEstimatedTime: 0,
   },
   {
@@ -694,7 +694,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Guerrilla Games',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -702,7 +702,7 @@ export const ronanGames: UserGame[] = [
     editor: 'MachineGames',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -718,7 +718,7 @@ export const ronanGames: UserGame[] = [
     editor: 'NetherRealm Studios',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -726,7 +726,7 @@ export const ronanGames: UserGame[] = [
     editor: 'NetherRealm Studios',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -734,7 +734,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Ember Lab',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -742,7 +742,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Guerrilla Games',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -750,7 +750,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Monolith Productions',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -758,7 +758,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Monolith Productions',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -766,7 +766,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Dontnod Entertainment',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -774,7 +774,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Hangar 13',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -782,7 +782,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Hangar 13',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -790,7 +790,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Eidos-Montréal',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -798,7 +798,7 @@ export const ronanGames: UserGame[] = [
     editor: 'CyberConnect2',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -806,7 +806,7 @@ export const ronanGames: UserGame[] = [
     editor: 'CyberConnect2',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -814,7 +814,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Clever Plays',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -822,7 +822,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Ubisoft',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -830,7 +830,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Inconnu',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 5,
     additionnalEstimatedTime: 0,
   },
   {
@@ -838,7 +838,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Insomniac Games',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -846,7 +846,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Rockstar Games',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -854,7 +854,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Rockstar Games',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -862,7 +862,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Capcom',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -870,7 +870,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Housemarque',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -878,7 +878,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Crystal Dynamics',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -886,7 +886,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Crystal Dynamics',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -894,7 +894,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Turbine',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -902,7 +902,7 @@ export const ronanGames: UserGame[] = [
     editor: 'EA Sports',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -910,7 +910,7 @@ export const ronanGames: UserGame[] = [
     editor: 'EA DICE',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -918,7 +918,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Respawn Entertainment',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 2,
     additionnalEstimatedTime: 0,
   },
   {
@@ -926,7 +926,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Respawn Entertainment',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -934,7 +934,7 @@ export const ronanGames: UserGame[] = [
     editor: 'LucasArts',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -942,7 +942,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Bandai Namco',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -958,7 +958,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Bethesda Game Studios',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -966,7 +966,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Naughty Dog',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 3,
     additionnalEstimatedTime: 0,
   },
   {
@@ -974,7 +974,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Naughty Dog',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 2,
     additionnalEstimatedTime: 0,
   },
   {
@@ -982,7 +982,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Ready at Dawn',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -990,7 +990,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Massive Entertainment',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -998,7 +998,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Crystal Dynamics',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -1006,7 +1006,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Respawn Entertainment',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -1014,7 +1014,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Naughty Dog',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 2,
     additionnalEstimatedTime: 0,
   },
   {
@@ -1022,7 +1022,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Naughty Dog',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -1030,7 +1030,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Naughty Dog',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -1038,7 +1038,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Naughty Dog',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -1046,7 +1046,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Naughty Dog',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -1054,7 +1054,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Naughty Dog',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 3,
     additionnalEstimatedTime: 0,
   },
   {
@@ -1062,7 +1062,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Naughty Dog',
     rating: 0,
     platined: true,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -1070,7 +1070,7 @@ export const ronanGames: UserGame[] = [
     editor: 'Ubisoft',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -1078,7 +1078,7 @@ export const ronanGames: UserGame[] = [
     editor: 'CD Projekt Red',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
   {
@@ -1086,7 +1086,7 @@ export const ronanGames: UserGame[] = [
     editor: 'MachineGames',
     rating: 0,
     platined: false,
-    timesFinished: 0,
+    timesFinished: 1,
     additionnalEstimatedTime: 0,
   },
 ];
