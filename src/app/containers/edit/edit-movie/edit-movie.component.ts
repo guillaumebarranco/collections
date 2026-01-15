@@ -52,6 +52,10 @@ export class EditMovieComponent {
     });
   }
 
+  public apiUrl = document.location.origin.includes('localhost')
+    ? `localhost:3001`
+    : 'makya.webarranco.fr:3001';
+
   updateField<K extends keyof EditMovieForm>(field: K, value: string | number) {
     const current = this.movieForm();
     if (!current) return;
@@ -103,7 +107,7 @@ export class EditMovieComponent {
     this.isSaving.set(true);
     try {
       const userId = this.getCurrentUserId();
-      const response = await fetch('http://localhost:3001/api/movies', {
+      const response = await fetch(`${this.apiUrl}/api/movies`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
