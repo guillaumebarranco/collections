@@ -662,10 +662,10 @@ export const guillaumeMoviesPage2: UserMovie[] = [
   {
     title: 'Armageddon',
     director: 'Michael Bay',
-    rating: 4.25,
+    rating: 4.5,
     timesWatched: 10,
     firstViewedDate: '',
-    lastViewedDate: '',
+    lastViewedDate: '2026-01-15',
     seenAtCinema: false,
   },
   {

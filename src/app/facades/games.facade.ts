@@ -63,6 +63,8 @@ function getAllGamesData(games: UserGame[]): Game[] {
       averageTimeToFinish: definitiveMatchingGame?.averageTimeToFinish || 0,
       platform: definitiveMatchingGame?.platform || '',
       saga: definitiveMatchingGame?.saga || '',
+      platineTime: definitiveMatchingGame?.platineTime || 0,
+      platined: game.platined,
     };
   });
 }

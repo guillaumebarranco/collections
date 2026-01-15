@@ -23,7 +23,8 @@ import { getAllGames } from '../../../facades/games.facade';
 export function getTotalDuration(items: ItemWithGameLength[]): TimeStats {
   let totalHours = 0;
   for (const item of items) {
-    const length = item.averageTimeToFinish;
+    const length =
+      item.platineTime > 0 ? item.platineTime : item.averageTimeToFinish;
     totalHours += length;
   }
   return formatTimeStats(totalHours * 60);
@@ -32,9 +33,15 @@ export function getTotalDuration(items: ItemWithGameLength[]): TimeStats {
 export function getTotalPlayedTime(items: ItemWithGameLength[]): TimeStats {
   let totalHours = 0;
   for (const item of items) {
-    const length =
-      item.averageTimeToFinish * item.timesFinished +
-      item.additionnalEstimatedTime;
+    let length = 0;
+    if (item.platineTime > 0) {
+      length = item.platineTime + item.additionnalEstimatedTime;
+    } else {
+      length =
+        item.averageTimeToFinish * item.timesFinished +
+        item.additionnalEstimatedTime;
+    }
+
     if (length) {
       totalHours += length;
     } else {
@@ -176,6 +183,9 @@ export class GamesComponent {
   stats = computed<StatItem[]>(() => {
     const totalTime = getTotalDuration(this.allGames());
     const totalPlayTime = getTotalPlayedTime(this.allGames());
+    const totalPlatines = this.allGames().filter(
+      (game) => game.platined
+    ).length;
 
     return [
       {
@@ -189,6 +199,12 @@ export class GamesComponent {
         value: totalPlayTime.formatted,
         icon: '⏱️',
         color: StatItemColor.PRIMARY,
+      },
+      {
+        label: 'Nombre de trophées platines (PlayStation)',
+        value: `${totalPlatines}`,
+        icon: '🏆',
+        color: StatItemColor.WARNING,
       },
     ];
   });

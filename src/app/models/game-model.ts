@@ -10,12 +10,14 @@ export interface BaseGame extends MandatoryGameData {
   averageTimeToFinish: number;
   platform: string;
   saga: string;
+  platineTime: number;
 }
 
 export interface UserGame extends MandatoryGameData {
   rating: number;
   timesFinished: number;
   additionnalEstimatedTime: number;
+  platined: boolean;
 }
 
 export interface Game extends BaseGame, UserGame {}

@@ -29,6 +29,7 @@ export interface ItemWithGameLength {
   averageTimeToFinish: number;
   timesFinished: number;
   additionnalEstimatedTime: number;
+  platineTime: number;
 }
 
 // Estimation : 2 minutes par page en moyenne
@@ -47,7 +48,8 @@ export function formatTimeStats(totalMinutes: number): TimeStats {
   let formatted = '';
   if (days > 0) formatted += `${days} jours`;
   if (hours > 0) formatted += (formatted ? ', ' : '') + `${hours} heures`;
-  if (minutes > 0) formatted += (formatted ? ' et ' : '') + `${minutes} minutes`;
+  if (minutes > 0)
+    formatted += (formatted ? ' et ' : '') + `${minutes} minutes`;
   if (!formatted) formatted = '0 minutes';
   return { days, hours, minutes, formatted };
 }
@@ -135,7 +137,9 @@ export function getEstimatedReadingTime(items: ItemWithPages[]): TimeStats {
   return formatTimeStats(totalMinutes);
 }
 
-export function getEstimatedMangaReadingTime(items: ItemWithTomes[]): TimeStats {
+export function getEstimatedMangaReadingTime(
+  items: ItemWithTomes[]
+): TimeStats {
   let totalMinutes = 0;
   for (const item of items) {
     if (item.nbTomes) {

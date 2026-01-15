@@ -10,10 +10,18 @@ p {
 
 .game-cover {
   @include components.component-cover-base;
+  position: relative;
 }
 
 .cover-image {
   @include components.component-cover-image-base;
+}
+
+.platine-container {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.8rem;
 }
 
 .game-info {
