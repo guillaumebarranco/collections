@@ -1,4 +1,4 @@
-export { guillaumeMoviesPage1 } from './guillaume_movies_1';
+export { guillaumeMoviesPage1 } from './guillaume_movies';
 export { guillaumeMoviesPage2 } from './guillaume_movies_2';
 export { guillaumeMoviesPage3 } from './guillaume_movies_3';
 export { guillaumeMoviesPage4 } from './guillaume_movies_4';

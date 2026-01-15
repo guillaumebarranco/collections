@@ -371,6 +371,7 @@ export class MoviesComponent implements OnInit {
     this.watchingMoviesList.set(watchlist);
   }
 
+
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? 'guillaume';

@@ -1,0 +1,146 @@
+.add-movie {
+  padding: 16px 20px 20px;
+  background: #1f1f1f;
+  color: #ddd;
+  min-width: 320px;
+  max-height: 80vh;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 22px;
+  color: #25645d;
+}
+
+.close-btn {
+  background: transparent;
+  border: none;
+  color: #bbb;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-height: calc(80vh - 80px);
+  overflow-y: auto;
+  padding-right: 6px;
+}
+
+.form-section {
+  border: 1px solid #2e2e2e;
+  border-radius: 10px;
+  padding: 12px 14px;
+  background: #222;
+}
+
+.form-section h2 {
+  margin: 0 0 12px;
+  font-size: 16px;
+  color: #9cc9c3;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.form-row label {
+  font-size: 13px;
+  color: #9b9b9b;
+}
+
+.form-row input[type='text'],
+.form-row input[type='number'],
+.form-row input[type='date'] {
+  background: #1b1b1b;
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 8px 10px;
+  color: #ddd;
+}
+
+.checkbox-row {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rating-control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.star-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.star {
+  font-size: 20px;
+  color: #666;
+}
+
+.star-full {
+  color: #f4c542;
+}
+
+.star-half {
+  background: linear-gradient(90deg, #f4c542 50%, #666 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.star-empty {
+  color: #666;
+}
+
+.rating-value {
+  font-size: 13px;
+  color: #aaa;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.btn {
+  border: none;
+  padding: 8px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn.primary {
+  background: #25645d;
+  color: #fff;
+}
+
+.btn.secondary {
+  background: #2b2b2b;
+  color: #ddd;
+}
+
+.error-message {
+  color: #ff7b7b;
+  font-size: 13px;
+  margin: 0;
+}

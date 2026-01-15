@@ -1,0 +1,182 @@
+<div class="add-movie">
+  <div class="header">
+    <h1>Ajouter un film</h1>
+    <button type="button" class="close-btn" (click)="close()">✕</button>
+  </div>
+
+  <form class="add-form" (ngSubmit)="onSubmit()">
+    <section class="form-section">
+      <h2>Informations du film</h2>
+
+      <div class="form-row">
+        <label for="title">Titre</label>
+        <input
+          id="title"
+          type="text"
+          [ngModel]="entityForm().title"
+          (ngModelChange)="updateEntityField('title', $event)"
+          name="title"
+          required
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="director">Réalisateur</label>
+        <input
+          id="director"
+          type="text"
+          [ngModel]="entityForm().director"
+          (ngModelChange)="updateEntityField('director', $event)"
+          name="director"
+          required
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="actors">Acteurs (séparés par des virgules)</label>
+        <input
+          id="actors"
+          type="text"
+          [ngModel]="entityForm().actors"
+          (ngModelChange)="updateEntityField('actors', $event)"
+          name="actors"
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="coverUrl">Cover URL</label>
+        <input
+          id="coverUrl"
+          type="text"
+          [ngModel]="entityForm().coverUrl"
+          (ngModelChange)="updateEntityField('coverUrl', $event)"
+          name="coverUrl"
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="releaseDate">Date de sortie</label>
+        <input
+          id="releaseDate"
+          type="date"
+          [ngModel]="entityForm().releaseDate"
+          (ngModelChange)="updateEntityField('releaseDate', $event)"
+          name="releaseDate"
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="length">Durée (min)</label>
+        <input
+          id="length"
+          type="number"
+          min="0"
+          [ngModel]="entityForm().length"
+          (ngModelChange)="updateEntityField('length', $event)"
+          name="length"
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="genre">Genre</label>
+        <input
+          id="genre"
+          type="text"
+          [ngModel]="entityForm().genre"
+          (ngModelChange)="updateEntityField('genre', $event)"
+          name="genre"
+        />
+      </div>
+    </section>
+
+    <section class="form-section">
+      <h2>Informations utilisateur</h2>
+
+      <div class="form-row">
+        <label>Note</label>
+        <div class="rating-control">
+          <button
+            *ngFor="let star of [1, 2, 3, 4, 5]"
+            type="button"
+            class="star-btn"
+            (click)="setRatingFromClick(star, $event)"
+          >
+            <span
+              class="star"
+              [class.star-full]="
+                getStarType(userForm().rating || 0, star) === 'full'
+              "
+              [class.star-half]="
+                getStarType(userForm().rating || 0, star) === 'half'
+              "
+              [class.star-empty]="
+                getStarType(userForm().rating || 0, star) === 'empty'
+              "
+            >
+              ★
+            </span>
+          </button>
+          <span class="rating-value">{{ userForm().rating }}/5</span>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <label for="timesWatched">Visionnages</label>
+        <input
+          id="timesWatched"
+          type="number"
+          min="0"
+          [ngModel]="userForm().timesWatched"
+          (ngModelChange)="updateUserField('timesWatched', $event)"
+          name="timesWatched"
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="firstViewedDate">Premier visionnage</label>
+        <input
+          id="firstViewedDate"
+          type="date"
+          [ngModel]="userForm().firstViewedDate"
+          (ngModelChange)="updateUserField('firstViewedDate', $event)"
+          name="firstViewedDate"
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="lastViewedDate">Dernier visionnage</label>
+        <input
+          id="lastViewedDate"
+          type="date"
+          [ngModel]="userForm().lastViewedDate"
+          (ngModelChange)="updateUserField('lastViewedDate', $event)"
+          name="lastViewedDate"
+        />
+      </div>
+
+      <div class="form-row checkbox-row">
+        <label for="seenAtCinema">Vu au cinéma</label>
+        <input
+          id="seenAtCinema"
+          type="checkbox"
+          [checked]="userForm().seenAtCinema"
+          (change)="updateCheckbox('seenAtCinema', $any($event).target.checked)"
+          name="seenAtCinema"
+        />
+      </div>
+    </section>
+
+    @if(errorMessage()) {
+    <p class="error-message">{{ errorMessage() }}</p>
+    }
+
+    <div class="actions">
+      <button type="button" class="btn secondary" (click)="close()">
+        Annuler
+      </button>
+      <button type="submit" class="btn primary" [disabled]="isSaving()">
+        {{ isSaving() ? 'Ajout...' : 'Ajouter' }}
+      </button>
+    </div>
+  </form>
+</div>

@@ -9,10 +9,12 @@ import {
   getMoviesByUser,
 } from '../../../facades/movies.facade';
 import { SelectEntitiesComponent } from '../select-base.component';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { AddMovieComponent } from '../../add/add-movie/add-movie.component';
 
 @Component({
   selector: 'app-select-movies',
-  imports: [CommonModule, MenuComponent],
+  imports: [CommonModule, MenuComponent, MatDialogModule],
   templateUrl: './select-movies.component.html',
   styleUrls: ['./select-movies.component.scss', '../select-base.scss'],
 })
@@ -20,6 +22,7 @@ export class SelectMoviesComponent
   extends SelectEntitiesComponent
   implements OnInit
 {
+  private readonly dialog = inject(MatDialog);
   private isLoading = false;
 
   userMovies = signal<Movie[]>([]);
@@ -28,7 +31,7 @@ export class SelectMoviesComponent
 
   // Films déjà vus par l'utilisateur (pour les exclure en mode watchlist)
   watchedMovies = computed<Set<string>>(() => {
-    if (!this.isWatchOrReadlistMode()) {
+    if (!this.isWatchOrReadlistMode() && !this.isAddMode()) {
       return new Set();
     }
     const userMovies = this.userMovies();
@@ -56,6 +59,13 @@ export class SelectMoviesComponent
 
     const allMoviesList = this.allMoviesMergedList();
 
+    if (this.isAddMode()) {
+      return allMoviesList.filter(
+        (movie) =>
+          !this.watchedMovies().has(`${movie.title}-${movie.releaseDate}`)
+      );
+    }
+
     if (!this.isWatchOrReadlistMode()) {
       return allMoviesList;
     }
@@ -75,6 +85,9 @@ export class SelectMoviesComponent
 
   // Nombre de films sélectionnés
   selectedCount = computed(() => this.selectedMovies().size);
+
+  isAdding = signal<boolean>(false);
+  addErrorMessage = signal<string>('');
 
   // Vérifier si un film est sélectionné
   isSelected(movie: Movie): boolean {
@@ -111,6 +124,61 @@ export class SelectMoviesComponent
   // Désélectionner tous les films
   deselectAll(): void {
     this.selectedMovies.set(new Set());
+  }
+
+  openAddMovieDialog(): void {
+    const dialogRef = this.dialog.open(AddMovieComponent, {
+      data: { userId: this.userId() },
+      width: '760px',
+      maxWidth: '95vw',
+    });
+
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result?.created) {
+        void this.loadMoviesData();
+      }
+    });
+  }
+
+  async addSelectedMovies(): Promise<void> {
+    const selected = this.selectedMovies();
+    if (selected.size === 0) return;
+
+    this.isAdding.set(true);
+    this.addErrorMessage.set('');
+
+    try {
+      const movies = this.allMovies()
+        .filter((movie) => selected.has(this.getMovieKey(movie)))
+        .map((movie) => ({
+          title: movie.title,
+          director: movie.director,
+        }));
+
+      const response = await fetch(`${this.getApiUrl()}/movies/add-existing`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.userId(),
+          movies,
+        }),
+      });
+
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        this.addErrorMessage.set(payload?.error || "Erreur lors de l'ajout.");
+        return;
+      }
+
+      this.selectedMovies.set(new Set());
+      await this.loadMoviesData();
+    } catch (error) {
+      this.addErrorMessage.set("Erreur réseau lors de l'ajout.");
+    } finally {
+      this.isAdding.set(false);
+    }
   }
 
   // Exporter les films sélectionnés en JSON
@@ -203,5 +271,11 @@ export class SelectMoviesComponent
     this.watchlistMovies.set(watchlist);
     this.allMoviesMergedList.set(allMovies);
     this.isLoading = false;
+  }
+
+  private getApiUrl(): string {
+    return document.location.origin.includes('localhost')
+      ? `http://localhost:3001/api`
+      : 'https://makya.webarranco.fr/api';
   }
 }

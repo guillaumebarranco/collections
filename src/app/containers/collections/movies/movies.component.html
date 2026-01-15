@@ -41,6 +41,14 @@
     <div class="movies-actions">
       <button
         class="btn btn-small"
+        [routerLink]="getSelectMoviesRoute()"
+        [queryParams]="{ add: 'true' }"
+        title="Ajouter un film"
+      >
+        ➕ Ajouter un film
+      </button>
+      <button
+        class="btn btn-small"
         [routerLink]="getSelectMoviesRatingRoute()"
         title="Mettre à jour les notes de mes films"
       >

@@ -4,7 +4,9 @@
   <div class="header">
     <h1>
       {{
-        isWatchOrReadlistMode()
+        isAddMode()
+          ? "Ajouter des films vus"
+          : isWatchOrReadlistMode()
           ? "Sélectionner des films pour ma watchlist"
           : isCinemaMode()
           ? "Sélectionner mes films vus au cinéma"
@@ -13,7 +15,23 @@
     </h1>
 
     <div class="selection-description">
-      @if(isWatchOrReadlistMode()) {
+      @if(isAddMode()) {
+      <p>
+        Bonjour {{ username() }} 👋 <br /><br />
+        Ici tu peux ajouter des films que tu viens de voir. La liste ci-dessous
+        affiche uniquement les films que tu n'as pas encore dans ta collection.
+        <br /><br />
+        Sélectionne les films que tu as vus, puis clique sur "Ajouter à mes
+        films vus".
+      </p>
+      <p>
+        Si tu ne trouves pas ton film dans la liste, ajoute-le d'abord dans les
+        entités :
+      </p>
+      <button class="btn btn-primary add-new-movie" (click)="openAddMovieDialog()">
+        Ajouter un nouveau film
+      </button>
+      } @else if(isWatchOrReadlistMode()) {
       <p>
         Bonjour {{ username() }} 👋 <br /><br />
         Tu es en mode "Watchlist" ! Ici, tu peux sélectionner les films que tu
@@ -117,6 +135,17 @@
       <button class="btn btn-secondary" (click)="deselectAll()">
         Tout désélectionner
       </button>
+      @if(isAddMode()) {
+      <button
+        class="btn btn-primary"
+        (click)="addSelectedMovies()"
+        [disabled]="selectedCount() === 0 || isAdding()"
+      >
+        ➕
+        {{ isAdding() ? "Ajout..." : "Ajouter à mes films vus" }}
+        ({{ selectedCount() }})
+      </button>
+      } @else {
       <button
         class="btn btn-primary"
         (click)="exportSelectedMovies()"
@@ -132,8 +161,13 @@
         }}
         ({{ selectedCount() }})
       </button>
+      }
     </div>
   </div>
+
+  @if(isAddMode() && addErrorMessage()) {
+  <p class="error-message">{{ addErrorMessage() }}</p>
+  }
 
   <div class="movies-grid">
     @for (movie of allMovies(); track `${movie.title}-${movie.releaseDate}`) {

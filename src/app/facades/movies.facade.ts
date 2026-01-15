@@ -14,6 +14,7 @@ import {
   baseMoviesSagaPage2,
   baseMoviesFromAmandine,
   baseMoviesFromRonanLetterboxd,
+  baseMoviesApi,
 } from '../utils/entities/movies';
 
 import {
@@ -57,15 +58,10 @@ const allBaseMovies: BaseMovie[] = [
   ...baseMoviesSagaPage2,
   ...baseMoviesFromAmandine,
   ...baseMoviesFromRonanLetterboxd,
+  ...baseMoviesApi,
 ];
 
-const DEFAULT_USER_IDS = [
-  'guillaume',
-  'william',
-  'kevin',
-  'amandine',
-  'ronan',
-];
+const DEFAULT_USER_IDS = ['guillaume', 'william', 'kevin', 'amandine', 'ronan'];
 
 function isLocalhost(): boolean {
   return document.location.origin.includes('localhost');

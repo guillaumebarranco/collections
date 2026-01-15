@@ -11,6 +11,18 @@ const USERS_MOVIES_DIR = path.join(
   'utils',
   'users'
 );
+const BASE_MOVIES_DIR = path.join(
+  __dirname,
+  '..',
+  '..',
+  '..',
+  'src',
+  'app',
+  'utils',
+  'entities',
+  'movies'
+);
+const BASE_MOVIES_API_FILE = path.join(BASE_MOVIES_DIR, 'base_movies_api.ts');
 
 function normalizeNumber(value: any, field: string) {
   if (value === undefined || value === null) return undefined;
@@ -113,6 +125,97 @@ function parseMoviesFromFile(content: string): any[] {
   }
 
   return movies;
+}
+
+function parseBaseMoviesFromFile(content: string): any[] {
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    return [];
+  }
+
+  const arrayStart = content.indexOf('[', exportIndex);
+  const arrayEnd = content.indexOf('];', arrayStart);
+  if (arrayStart === -1 || arrayEnd === -1) {
+    return [];
+  }
+
+  const movies: any[] = [];
+  let i = arrayStart;
+  let depth = 0;
+  let objectStart = -1;
+
+  while (i < arrayEnd) {
+    const char = content[i];
+    if (char === '{') {
+      if (depth === 0) {
+        objectStart = i;
+      }
+      depth += 1;
+    } else if (char === '}') {
+      depth -= 1;
+      if (depth === 0 && objectStart !== -1) {
+        const objectEnd = i;
+        const objectText = content.slice(objectStart, objectEnd + 1);
+        const title = parseStringField(objectText, 'title');
+        const director = parseStringField(objectText, 'director');
+        if (title) {
+          movies.push({
+            title,
+            director,
+          });
+        }
+      }
+    }
+    i += 1;
+  }
+
+  return movies;
+}
+
+function escapeString(value: string): string {
+  return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+}
+
+function appendObjectToArrayFile(filePath: string, objectText: string) {
+  const content = fs.readFileSync(filePath, 'utf8');
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    throw new Error('Array not found');
+  }
+  const arrayStart = content.indexOf('[', exportIndex);
+  const arrayEnd = content.indexOf('];', arrayStart);
+  if (arrayStart === -1 || arrayEnd === -1) {
+    throw new Error('Array bounds not found');
+  }
+
+  const arrayBody = content.slice(arrayStart + 1, arrayEnd);
+  const trimmedBody = arrayBody.trim();
+  const needsComma = trimmedBody.length > 0 && !trimmedBody.endsWith(',');
+
+  const insert = (needsComma ? ',' : '') + '\n' + objectText + '\n';
+
+  return content.slice(0, arrayEnd) + insert + content.slice(arrayEnd);
+}
+
+function getBaseMoviesFiles() {
+  if (!fs.existsSync(BASE_MOVIES_DIR)) {
+    throw new Error('Base movies directory not found');
+  }
+  return fs
+    .readdirSync(BASE_MOVIES_DIR)
+    .filter((file: string) => file.endsWith('.ts'))
+    .map((file: string) => path.join(BASE_MOVIES_DIR, file));
+}
+
+function baseMovieExists(title: string) {
+  const normalized = title.trim().toLowerCase();
+  const baseFiles = getBaseMoviesFiles();
+  return baseFiles.some((filePath: string) => {
+    const content = fs.readFileSync(filePath, 'utf8');
+    return parseBaseMoviesFromFile(content).some(
+      (movie) => movie.title?.trim().toLowerCase() === normalized
+    );
+  });
 }
 
 function replaceField(objectText: string, key: string, value: any) {
@@ -231,6 +334,12 @@ module.exports = {
   normalizeBoolean,
   normalizeString,
   parseMoviesFromFile,
+  parseBaseMoviesFromFile,
+  escapeString,
+  appendObjectToArrayFile,
+  getBaseMoviesFiles,
+  baseMovieExists,
+  BASE_MOVIES_API_FILE,
   updateMovieInFile,
   getUserMoviesFiles,
 };

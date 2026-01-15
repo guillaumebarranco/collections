@@ -11,3 +11,4 @@ export * from './base_movies_saga_1';
 export * from './base_movies_saga_2';
 export * from './base_movies_from_amandine';
 export * from './base_movies_from_ronan_letterboxd';
+export * from './base_movies_api';

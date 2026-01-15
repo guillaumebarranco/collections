@@ -19,6 +19,12 @@ export class SelectEntitiesComponent {
     return queryParams['cinema'] === 'true';
   });
 
+  // Mode ajout détecté depuis query params
+  isAddMode = computed<boolean>(() => {
+    const queryParams = this.activatedRoute.snapshot.queryParams;
+    return queryParams['add'] === 'true';
+  });
+
   // ID de l'utilisateur depuis les params
   userId = computed<string>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
