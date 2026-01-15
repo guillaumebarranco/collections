@@ -40,6 +40,7 @@ export class EditMovieComponent {
 
   readonly movieForm = signal<EditMovieForm | null>(null);
   readonly movieNotFound = signal<boolean>(false);
+  readonly isSaving = signal<boolean>(false);
 
   readonly movieSlug = computed(() => {
     return this.activatedRoute.snapshot.paramMap.get('slug') || '';
@@ -76,8 +77,61 @@ export class EditMovieComponent {
     });
   }
 
-  onSubmit() {
-    console.log('edit-movie:submit', this.movieForm());
+  setRatingFromClick(star: number, event: MouseEvent) {
+    const target = event.currentTarget as HTMLElement | null;
+    if (!target) return;
+
+    const half = target.clientWidth / 2;
+    const nextValue = event.offsetX < half ? star - 0.5 : star;
+    this.updateField('rating', Math.max(0, nextValue));
+  }
+
+  getStarType(rating: number, star: number): 'full' | 'half' | 'empty' {
+    if (rating >= star) {
+      return 'full';
+    }
+    if (rating >= star - 0.5) {
+      return 'half';
+    }
+    return 'empty';
+  }
+
+  async onSubmit() {
+    const form = this.movieForm();
+    if (!form) return;
+
+    this.isSaving.set(true);
+    try {
+      const userId = this.getCurrentUserId();
+      const response = await fetch('http://localhost:3001/api/movies', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId,
+          title: form.title,
+          director: form.director,
+          rating: form.rating,
+          timesWatched: form.timesWatched,
+          firstViewedDate: form.firstViewedDate,
+          lastViewedDate: form.lastViewedDate,
+          seenAtCinema: form.seenAtCinema,
+        }),
+      });
+
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        console.error('edit-movie:error', payload);
+        return;
+      }
+
+      console.log('edit-movie:submit', payload);
+    } catch (error) {
+      console.error('edit-movie:error', error);
+    } finally {
+      this.isSaving.set(false);
+    }
   }
 
   navigateToMovies() {
