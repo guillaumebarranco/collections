@@ -1,12 +1,14 @@
 {
-  "name": "webarranco-collections",
+  "name": "webarranco-makya",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "edit-movie-server": "node scripts/edit-movie-server.js",
+    "edit-movie-server:dev": "nodemon scripts/edit-movie-server.js"
   },
   "prettier": {
     "overrides": [
@@ -26,6 +28,7 @@
     "@angular/forms": "^20.0.0",
     "@angular/platform-browser": "^20.0.0",
     "@angular/router": "^20.0.0",
+    "express": "^5.2.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0"
   },
@@ -40,6 +43,8 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "nodemon": "^3.1.11",
+    "sharp": "^0.34.5",
     "typescript": "~5.8.2"
   }
 }
