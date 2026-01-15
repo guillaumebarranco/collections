@@ -262,15 +262,35 @@ export class SelectMoviesComponent
     if (this.isLoading) return;
     this.isLoading = true;
     const userId = this.userId();
-    const [movies, watchlist, allMovies] = await Promise.all([
+    const [movies, watchlist] = await Promise.all([
       getMoviesByUser(userId),
       getCurrentWatchlistMoviesByUser(userId),
-      getAllMoviesMerged(userId),
     ]);
+    const allMovies = await this.getAllMoviesForSelection(userId);
     this.userMovies.set(movies);
     this.watchlistMovies.set(watchlist);
     this.allMoviesMergedList.set(allMovies);
     this.isLoading = false;
+  }
+
+  private async getAllMoviesForSelection(userId: string): Promise<Movie[]> {
+    if (this.isLocalhost()) {
+      return getAllMoviesMerged(userId);
+    }
+    try {
+      const response = await fetch(`${this.getApiUrl()}/movies/entities`);
+      if (!response.ok) {
+        return [];
+      }
+      const data = await response.json();
+      return Array.isArray(data) ? data : [];
+    } catch {
+      return [];
+    }
+  }
+
+  private isLocalhost(): boolean {
+    return document.location.origin.includes('localhost');
   }
 
   private getApiUrl(): string {

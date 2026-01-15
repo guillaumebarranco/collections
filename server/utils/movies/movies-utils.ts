@@ -54,7 +54,11 @@ function parseStringField(objectText: string, key: string) {
   const match = objectText.match(regex);
   if (!match) return null;
   const quote = match[1];
-  return match[2]
+  return unescapeString(match[2], quote);
+}
+
+function unescapeString(value: string, quote: string) {
+  return value
     .replace(new RegExp(`\\\\${quote}`, 'g'), quote)
     .replace(/\\\\/g, '\\');
 }
@@ -164,6 +168,70 @@ function parseBaseMoviesFromFile(content: string): any[] {
             director,
           });
         }
+      }
+    }
+    i += 1;
+  }
+
+  return movies;
+}
+
+function parseActors(objectText: string): string[] {
+  const regex = /name\s*:\s*(['"])((?:\\.|(?!\1).)*)\1/g;
+  const actors: string[] = [];
+  let match = regex.exec(objectText);
+  while (match) {
+    const quote = match[1];
+    actors.push(unescapeString(match[2], quote));
+    match = regex.exec(objectText);
+  }
+  return actors;
+}
+
+function parseBaseMoviesFullFromFile(content: string): any[] {
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    return [];
+  }
+
+  const arrayStart = content.indexOf('[', exportIndex);
+  const arrayEnd = content.indexOf('];', arrayStart);
+  if (arrayStart === -1 || arrayEnd === -1) {
+    return [];
+  }
+
+  const movies: any[] = [];
+  let i = arrayStart;
+  let depth = 0;
+  let objectStart = -1;
+
+  while (i < arrayEnd) {
+    const char = content[i];
+    if (char === '{') {
+      if (depth === 0) {
+        objectStart = i;
+      }
+      depth += 1;
+    } else if (char === '}') {
+      depth -= 1;
+      if (depth === 0 && objectStart !== -1) {
+        const objectEnd = i;
+        const objectText = content.slice(objectStart, objectEnd + 1);
+        const title = parseStringField(objectText, 'title');
+        if (!title) {
+          i += 1;
+          continue;
+        }
+
+        movies.push({
+          title,
+          director: parseStringField(objectText, 'director') || '',
+          actors: parseActors(objectText).map((name) => ({ name })),
+          coverUrl: parseStringField(objectText, 'coverUrl') || '',
+          releaseDate: parseStringField(objectText, 'releaseDate') || '',
+          length: parseNumberField(objectText, 'length') ?? 0,
+          genre: parseStringField(objectText, 'genre') || '',
+        });
       }
     }
     i += 1;
@@ -335,6 +403,7 @@ module.exports = {
   normalizeString,
   parseMoviesFromFile,
   parseBaseMoviesFromFile,
+  parseBaseMoviesFullFromFile,
   escapeString,
   appendObjectToArrayFile,
   getBaseMoviesFiles,
