@@ -10,7 +10,16 @@ export class SelectEntitiesComponent {
   // Mode watchlist détecté depuis query params
   isWatchOrReadlistMode = computed<boolean>(() => {
     const queryParams = this.activatedRoute.snapshot.queryParams;
-    return queryParams['watchlist'] === 'true';
+
+    if (queryParams['watchlist'] === 'true') {
+      return true;
+    }
+
+    if (queryParams['readlist'] === 'true') {
+      return true;
+    }
+
+    return false;
   });
 
   // Mode cinema détecté depuis query params

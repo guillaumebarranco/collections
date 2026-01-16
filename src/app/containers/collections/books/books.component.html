@@ -6,7 +6,7 @@
     ({{ filteredBooks().length }})
   </h1>
 
-  @if(filteredBooks().length !== 0) {
+  @if(allBooks().length !== 0) {
   <div class="books-header-top">
     <div class="books-view-toggle">
       <button
@@ -29,10 +29,15 @@
       <button
         class="btn btn-small"
         [routerLink]="getSelectBooksRoute()"
-        [queryParams]="{ add: 'true' }"
-        title="Ajouter un livre"
+        [queryParams]="{ readlist: selectedView() === 'readlist' }"
+        title="Ajouter des livres"
       >
-        ➕ Ajouter un livre
+        ➕
+        {{
+          selectedView() === "readlist"
+            ? "Ajouter des livres à lire"
+            : "Ajouter des livres lus"
+        }}
       </button>
       <button
         class="btn btn-small"
@@ -50,7 +55,7 @@
       </button>
     </div>
   </div>
-  } @if(filteredBooks().length === 0) {
+  } @if(allBooks().length === 0) {
   <div class="empty-state">
     <p class="empty-message">Vous n'avez aucun livre dans votre collection.</p>
     <p class="empty-subtitle">

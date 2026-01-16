@@ -244,7 +244,8 @@ function appendObjectToArrayFile(filePath: string, objectText: string) {
 
   const arrayBody = content.slice(arrayStart + 1, arrayEnd);
   const trimmedBody = arrayBody.trim();
-  const needsComma = trimmedBody.length > 0 && !trimmedBody.endsWith(',');
+  const hasItems = /{/.test(arrayBody);
+  const needsComma = hasItems && !trimmedBody.endsWith(',');
 
   const insert = (needsComma ? ',' : '') + '\n' + objectText + '\n';
 

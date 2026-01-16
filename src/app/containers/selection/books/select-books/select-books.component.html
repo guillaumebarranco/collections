@@ -4,20 +4,18 @@
   <div class="header">
     <h1>
       {{
-        isAddMode()
-          ? "Ajouter des livres lus"
-          : isWatchOrReadlistMode()
+        isWatchOrReadlistMode()
           ? "Sélectionner des livres pour ma readlist"
-          : "Sélectionner des livres"
+          : "Ajouter des livres lus"
       }}
     </h1>
 
     <div class="selection-description">
-      @if(isAddMode()) {
+      @if(!isWatchOrReadlistMode()) {
       <p>
-        Bonjour {{ username() }}  <br /><br />
-        Ici tu peux ajouter des livres que tu viens de lire. La liste ci-dessous
-        affiche uniquement les livres que tu n'as pas encore dans ta collection.
+        Bonjour {{ username() }} <br /><br />
+        Ici tu peux ajouter des livres que tu as lu. La liste ci-dessous affiche
+        uniquement les livres que tu n'as pas encore dans ta collection.
         <br /><br />
         Sélectionne les livres que tu as lus, puis clique sur "Ajouter à mes
         livres lus".
@@ -26,81 +24,33 @@
         Si tu ne trouves pas ton livre dans la liste, ajoute-le d'abord dans les
         entités :
       </p>
-      <button class="btn btn-primary add-new-book" (click)="openAddBookDialog()">
+      <button
+        class="btn btn-primary add-new-book"
+        (click)="openAddBookDialog()"
+      >
         Ajouter un nouveau livre
       </button>
       } @else if(isWatchOrReadlistMode()) {
       <p>
-        Bonjour {{ username() }}  <br /><br />
+        Bonjour {{ username() }} <br /><br />
         Tu es en mode "Readlist" ! Ici, tu peux sélectionner les livres que tu
         souhaites ajouter à ta liste de livres à lire.
         <br /><br />
         Les livres que tu as déjà lus sont automatiquement exclus de cette liste
         pour t'éviter les doublons.
         <br /><br />
-        Sélectionne les livres que tu aimerais lire et télécharge le fichier JSON
-        pour construire ta readlist.
+        Sélectionne les livres que tu aimerais lire et télécharge le fichier
+        JSON pour construire ta readlist.
       </p>
       } @else {
-      <p>
-        Bonjour {{ username() }}  <br /><br />
+      <!-- <p>
+        Bonjour {{ username() }} <br /><br />
         Si tu es ici, c'est que tu souhaites pouvoir faire ta collection de
         livres regardés, pouvoir les noter, les trier par préférence, par date
         de sortie ou de dernière lecture, etc... <br /><br />
         Comment ça marche ? <br />
-      </p>
+      </p> -->
 
-      <ul>
-        <li>
-          1. Parmi tous les livres présents sur cette page (scrolle pour les
-          voir), sélectionne ceux que tu as lus. Ensuite, clique sur le bouton
-          "Exporter ma liste de livres" pour télécharger un fichier JSON de ta
-          collection, que tu pourras m'envoyer. <br />
-          <strong>Fais ça d'abord en entier avant de faire l'étape 2 !</strong>
-        </li>
-        <li>
-          2. Une fois ceci fait, il faut créer un compte sur
-          <a href="https://goodreads.com/" target="_blank">Goodreads</a> ou bien
-          <a href="https://babelio.com/" target="_blank">Babelio</a> et ajouter
-          ta collection de livres dessus. C'est rapide ne t'en fais pas, et
-          c'est surtout que ce site répertorie tous les livres possibles et
-          imaginables. Tu as fait ta première sélection grosse maille parmi les
-          livres existants sur cette page, et Goodreads ou Babelion vont t'aider
-          à compléter. Pas besoin d'ajouter les livres que tu as déjà
-          sélectionnés sur cette page sur ta sélection, mais si tu le fais et
-          qu'il y a des doublons, ce ne sera pas grave ne t'en fais pas.
-        </li>
-        <li>
-          3. Une fois ta sélection faite, il faut m'envoyer l'URL de ta liste.
-          Elle est normalement publique, il s'agit juste de mettre ton nom
-          d'utilisateur dans l'URL de cette façon :
-          <a
-            href="https://www.goodreads.com/user/show/174880698-guillaume-barranco"
-            target="_blank"
-            >https://www.goodreads.com/user/show/174880698-guillaume-barranco</a
-          >
-          ou
-          <a
-            href="https://www.babelio.com/monprofil.php?id_user=1763798"
-            target="_blank"
-            >https://www.babelio.com/monprofil.php?id_user=1763798</a
-          >
-        </li>
-        <li>
-          4. Tu n'auras désormais plus besoin de cet outil, c'était juste pour
-          faire cette liste initiale complète ! Une fois que tu m'a envoyé le
-          fichier JSON avec la sélection que tu as faite sur cette page, ainsi
-          que l'URL de ta readlist, je rentrerai toutes les données dans ton
-          profil et tu pourras avoir une superbe vue de tous tes livres, et tu
-          pourras ensuite les mettre à jour individuellement pour renseigner la
-          note de chacun ou le nombre de lectures etc... Enjoy !
-        </li>
-        <li>
-          5. En dernière étape une fois que tout cela sera fait, on trouvera un
-          moyen d'ajouter de nouveaux livres au fur et à mesure que tu en
-          regardes et tu pourras profiter de l'outil tranquillement :)
-        </li>
-      </ul>
       }
     </div>
   </div>
@@ -112,43 +62,20 @@
     </div>
 
     <div class="actions">
-      <button class="btn btn-secondary" (click)="selectAll()">
-        Tout sélectionner
-      </button>
-      <button class="btn btn-secondary" (click)="deselectAll()">
-        Tout désélectionner
-      </button>
-      @if(isAddMode()) {
       <button
         class="btn btn-primary"
         (click)="addSelectedBooks()"
-        [disabled]="selectedCount() === 0 || isAdding()"
-      >
-        
-        {{ isAdding() ? "Ajout..." : "Ajouter à mes livres lus" }}
-        ({{ selectedCount() }})
-      </button>
-      } @else {
-      <button
-        class="btn btn-primary"
-        (click)="exportSelectedBooks()"
         [disabled]="selectedCount() === 0"
       >
-        
         {{
           isWatchOrReadlistMode()
-            ? "Exporter ma readlist"
-            : "Exporter ma liste de livres"
+            ? "Ajouter à mes livres à lire"
+            : "Ajouter à mes livres lus"
         }}
         ({{ selectedCount() }})
       </button>
-      }
     </div>
   </div>
-
-  @if(isAddMode() && addErrorMessage()) {
-  <p class="error-message">{{ addErrorMessage() }}</p>
-  }
 
   <div class="books-grid">
     @for (book of allBooks(); track `${book.title}-${book.author}`) {

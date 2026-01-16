@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const {
   normalizeString,
+  normalizeBoolean,
   appendObjectToArrayFile,
   parseBooksFromFile,
   getUserBooksFiles,
@@ -20,7 +21,7 @@ function formatUserBook(book: any) {
   )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n  },`;
 }
 
-function getUserBooksTargetFile(userId: string) {
+function getUserBooksTargetFile(userId: string, isReadlist: boolean) {
   const userDir = path.join(
     __dirname,
     '..',
@@ -39,15 +40,15 @@ function getUserBooksTargetFile(userId: string) {
 
   const files = fs
     .readdirSync(userDir)
-    .filter(
-      (file: string) =>
-        file.endsWith('.ts') &&
-        file !== 'index.ts' &&
-        !file.includes('readlist')
+    .filter((file: string) => file.endsWith('.ts') && file !== 'index.ts')
+    .filter((file: string) =>
+      isReadlist ? file.includes('readlist') : !file.includes('readlist')
     );
 
   const preferred = files.find((file: string) =>
-    file.includes(`${userId}_books`)
+    isReadlist
+      ? file.includes(`${userId}_readlist_books`)
+      : file.includes(`${userId}_books`)
   );
   const selected = preferred || files.sort()[0];
   if (!selected) {
@@ -67,6 +68,7 @@ router.post('/add-existing', (req: any, res: any) => {
     }
 
     const books = Array.isArray(input.books) ? input.books : [];
+    const isReadlist = normalizeBoolean(input.readlist, 'readlist') ?? false;
     const normalizedBooks = books
       .map((book: any) => ({
         title: normalizeString(book.title, 'title'),
@@ -101,7 +103,7 @@ router.post('/add-existing', (req: any, res: any) => {
       return;
     }
 
-    const userFile = getUserBooksTargetFile(userId);
+    const userFile = getUserBooksTargetFile(userId, isReadlist);
     let nextContent = fs.readFileSync(userFile, 'utf8');
     for (const book of toAdd) {
       nextContent = appendObjectToArrayFile(userFile, formatUserBook(book));
