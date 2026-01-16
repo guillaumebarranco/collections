@@ -1,6 +1,6 @@
 export function isLocalhost(): boolean {
-  // return document.location.origin.includes('localhost');
-  return true;
+  return document.location.origin.includes('localhost');
+  // return true;
 }
 
 export function getApiBaseUrl(): string {

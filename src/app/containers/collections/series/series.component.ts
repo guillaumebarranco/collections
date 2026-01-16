@@ -17,7 +17,7 @@ import {
   getTotalDuration,
 } from '../../../utils/stats.utils';
 import { ActivatedRoute, Params, RouterLink } from '@angular/router';
-import { getAllSeries } from '../../../facades/series.facade';
+import { getAllSeries } from '../../../facades/series/series.facade';
 
 type SerieView = 'finished' | 'stopped';
 

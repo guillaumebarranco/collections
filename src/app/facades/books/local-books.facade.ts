@@ -14,13 +14,12 @@ import {
   guillaumeBooksSaga,
   guillaumeReadlistBooks,
 } from '../../utils/users/guillaume/books';
-import {
-  kevinBooks1,
-  kevinBooks2,
-  kevinReadListBooks,
-} from '../../utils/users/kevin/books';
+import { kevinBooks, kevinReadListBooks } from '../../utils/users/kevin/books';
 import { ronanBooks, ronanReadListBooks } from '../../utils/users/ronan/books';
-import { amandineBooks, amandineReadListBooks } from '../../utils/users/amandine/books';
+import {
+  amandineBooks,
+  amandineReadListBooks,
+} from '../../utils/users/amandine/books';
 import { BaseBook, UserBook } from '../../models/book-model';
 
 export const allBaseBooks: BaseBook[] = [
@@ -44,7 +43,7 @@ export function getLocalBooksByUser(userId: string): UserBook[] {
     case 'william':
       return [];
     case 'kevin':
-      return [...kevinBooks1, ...kevinBooks2];
+      return [...kevinBooks];
     case 'amandine':
       return [...amandineBooks];
     case 'ronan':

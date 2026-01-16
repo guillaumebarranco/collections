@@ -20,9 +20,9 @@ import { Game } from '../../models/game-model';
 import { Serie } from '../../models/serie-model';
 import { getTotalPagesRead, MINUTES_PER_PAGE } from '../../utils/stats.utils';
 import { getAllMovies } from '../../facades/movies/movies.facade';
-import { getAllSeries } from '../../facades/series.facade';
+import { getAllSeries } from '../../facades/series/series.facade';
 import { getAllBooks } from '../../facades/books/books.facade';
-import { getAllGames } from '../../facades/games.facade';
+import { getAllGames } from '../../facades/games/games.facade';
 
 interface TopBook extends Book {
   formattedReadingTime: string;

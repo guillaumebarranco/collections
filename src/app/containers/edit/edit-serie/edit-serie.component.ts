@@ -8,7 +8,7 @@ import {
   RouterModule,
 } from '@angular/router';
 import { Serie } from '../../../models/serie-model';
-import { getSeriesByUser } from '../../../facades/series.facade';
+import { getSeriesByUser } from '../../../facades/series/series.facade';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 
 type EditSerieForm = {

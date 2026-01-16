@@ -1,0 +1,74 @@
+@use '../../select-base.scss' as *;
+
+.select-series-container {
+  @extend %select-container;
+
+  .header {
+    @extend %select-header;
+  }
+
+  .serie-info {
+    @extend %select-item-info;
+  }
+
+  .toolbar {
+    @extend %select-toolbar;
+
+  .add-new-serie {
+    margin-top: 12px;
+    border-radius: 999px;
+    padding: 10px 18px;
+    background: #25645d;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 0 6px 14px rgba(37, 100, 93, 0.35);
+
+    &:hover {
+      background: #1d4f49;
+      box-shadow: 0 8px 18px rgba(37, 100, 93, 0.45);
+    }
+  }
+
+  .error-message {
+    margin: 12px auto 0;
+    max-width: 800px;
+    color: #ff7b7b;
+    font-size: 14px;
+    text-align: center;
+  }
+
+    .selection-info .count {
+      color: #dc3545;
+    }
+
+    .btn.btn-primary {
+      background: #dc3545;
+
+      &:hover:not(:disabled) {
+        background: #c82333;
+        box-shadow: 0 4px 8px rgba(220, 53, 69, 0.3);
+      }
+    }
+  }
+
+  .series-grid {
+    @extend %select-grid;
+  }
+
+  .serie-poster {
+    @extend %select-item;
+
+    .overlay .checkmark {
+      color: #dc3545;
+    }
+
+    &.selected {
+      border-color: #dc3545;
+      box-shadow: 0 0 0 2px white, 0 0 0 4px #dc3545;
+
+      .overlay {
+        background: rgba(220, 53, 69, 0.3);
+      }
+    }
+  }
+}

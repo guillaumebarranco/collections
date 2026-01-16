@@ -8,7 +8,7 @@ import {
   RouterModule,
 } from '@angular/router';
 import { Game } from '../../../models/game-model';
-import { getGamesByUser } from '../../../facades/games.facade';
+import { getGamesByUser } from '../../../facades/games/games.facade';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 
 type EditGameForm = {

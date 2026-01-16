@@ -1,0 +1,96 @@
+@use '../../select-base.scss' as *;
+
+.select-movies-times-watched-container {
+  @extend %select-container;
+
+  .header {
+    @extend %select-header;
+
+    h1 {
+      color: #999;
+    }
+  }
+
+  .movie-info {
+    @extend %select-item-info;
+    margin-bottom: 1rem;
+
+    .current-times-watched {
+      display: block;
+      font-size: 0.75rem;
+      color: #aaa;
+      margin-top: 0.5rem;
+    }
+  }
+
+  .toolbar {
+    @extend %select-toolbar;
+
+    .selection-info .count {
+      color: #28a745;
+    }
+
+    .btn.btn-primary {
+      background: #28a745;
+
+      &:hover:not(:disabled) {
+        background: #218838;
+        box-shadow: 0 4px 8px rgba(40, 167, 69, 0.3);
+      }
+    }
+  }
+
+  .movies-grid {
+    @extend %select-grid;
+  }
+
+  .movie-poster {
+    @extend %select-item;
+
+    .overlay {
+      .times-watched-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.35rem;
+        justify-content: center;
+        margin-top: 0.75rem;
+        max-width: 100%;
+        padding: 0 0.5rem;
+
+        .times-btn {
+          padding: 0.35rem 0.5rem;
+          border: 1.5px solid white;
+          border-radius: 3px;
+          background: rgba(255, 255, 255, 0.2);
+          color: white;
+          font-weight: bold;
+          font-size: 0.75rem;
+          cursor: pointer;
+          transition: all 0.2s ease;
+          min-width: 28px;
+          flex: 0 0 calc(33.333% - 0.35rem);
+          max-width: calc(33.333% - 0.35rem);
+
+          &:hover {
+            background: rgba(255, 255, 255, 0.5);
+            transform: scale(1.1);
+            z-index: 20;
+          }
+
+          &.active {
+            background: #28a745;
+            border-color: #28a745;
+            box-shadow: 0 0 6px rgba(40, 167, 69, 0.6);
+          }
+        }
+      }
+    }
+
+    &:hover {
+      .overlay {
+        opacity: 1;
+        z-index: 10;
+      }
+    }
+  }
+}

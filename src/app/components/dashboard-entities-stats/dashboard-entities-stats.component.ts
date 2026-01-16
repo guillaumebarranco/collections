@@ -7,9 +7,9 @@ import { Book } from '../../models/book-model';
 import { Game } from '../../models/game-model';
 import { Music } from '../../models/music-model';
 import { getAllMovies } from '../../facades/movies/movies.facade';
-import { getAllSeries } from '../../facades/series.facade';
+import { getAllSeries } from '../../facades/series/series.facade';
 import { getAllBooks } from '../../facades/books/books.facade';
-import { getAllGames } from '../../facades/games.facade';
+import { getAllGames } from '../../facades/games/games.facade';
 import { musics } from '../../utils/users/guillaume/musics';
 
 export type EntityType = 'movies' | 'series' | 'books' | 'games' | 'musics';

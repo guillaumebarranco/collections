@@ -42,6 +42,8 @@ import {
   ronanWatchlistMovies,
 } from '../../utils/users/ronan/movies';
 import { BaseMovie, UserMovie } from '../../models/movie-model';
+import { kevinMovies } from '../../utils/users/kevin/movies/kevin_movies';
+import { kevinWatchlistMovies } from '../../utils/users/kevin/movies/kevin_watchlist_movies';
 
 export const allBaseMovies: BaseMovie[] = [
   ...baseMoviesPage1,
@@ -82,6 +84,8 @@ export function getLocalMoviesByUser(userId: string): UserMovie[] {
       return [...amandineMovies1, ...amandineMovies2];
     case 'ronan':
       return [...ronanMovies, ...ronanCinemaMovies];
+    case 'kevin':
+      return [...kevinMovies];
     default:
       return [];
   }
@@ -95,6 +99,8 @@ export function getLocalWatchlistByUser(userId: string): UserMovie[] {
       return [...amandineWatchlistMovies];
     case 'ronan':
       return [...ronanWatchlistMovies];
+    case 'kevin':
+      return [...kevinWatchlistMovies];
     default:
       return [];
   }

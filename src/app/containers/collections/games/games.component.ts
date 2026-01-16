@@ -18,7 +18,7 @@ import {
   TimeStats,
 } from '../../../utils/stats.utils';
 import { ActivatedRoute, Params, RouterLink } from '@angular/router';
-import { getAllGames } from '../../../facades/games.facade';
+import { getAllGames } from '../../../facades/games/games.facade';
 
 export function getTotalDuration(items: ItemWithGameLength[]): TimeStats {
   let totalHours = 0;
