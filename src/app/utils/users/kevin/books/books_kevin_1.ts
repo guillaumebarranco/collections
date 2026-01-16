@@ -135,7 +135,7 @@ export const kevinBooks1: UserBook[] = [
     readTimes: 1,
   },
   {
-    title: 'Robinson Crusoé',
+    title: 'Robinson Crusoe',
     author: 'Daniel Defoe',
     readDate: '',
     rating: 0,

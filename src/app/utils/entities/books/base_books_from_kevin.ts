@@ -47,15 +47,6 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 0,
   },
   {
-    title: 'Robinson Crusoé',
-    author: 'Daniel Defoe',
-    coverUrl: '/books_pictures/61_9782011611536_1_75.jpg',
-    pages: 352,
-    genre: 'Classiques',
-    saga: '',
-    sagaOrder: 0,
-  },
-  {
     title: "L'Assassin royal, tome 1 : L'Apprenti assassin",
     author: 'Robin Hobb',
     coverUrl: '/books_pictures/L-Aain-royal.jpg',
