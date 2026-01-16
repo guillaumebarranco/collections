@@ -8499,4 +8499,14 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
+
+  {
+    title: 'The Rip',
+    director: 'Joe Carnahan',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2026-01-16',
+    lastViewedDate: '2026-01-16',
+    seenAtCinema: false,
+  },
 ];
