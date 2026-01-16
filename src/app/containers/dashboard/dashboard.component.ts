@@ -19,9 +19,9 @@ import { Music } from '../../models/music-model';
 import { Game } from '../../models/game-model';
 import { Serie } from '../../models/serie-model';
 import { getTotalPagesRead, MINUTES_PER_PAGE } from '../../utils/stats.utils';
-import { getAllMovies } from '../../facades/movies.facade';
+import { getAllMovies } from '../../facades/movies/movies.facade';
 import { getAllSeries } from '../../facades/series.facade';
-import { getAllBooks } from '../../facades/books.facade';
+import { getAllBooks } from '../../facades/books/books.facade';
 import { getAllGames } from '../../facades/games.facade';
 
 interface TopBook extends Book {
@@ -63,7 +63,7 @@ export class DashboardComponent implements OnInit {
 
   filledUserId = signal<string>('');
 
-  booksList = signal<{ [key: string]: Book[] }>(getAllBooks());
+  booksList = signal<{ [key: string]: Book[] }>({});
   moviesList = signal<{ [key: string]: Movie[] }>({});
   seriesList = signal<{ [key: string]: Serie[] }>(getAllSeries());
   gamesList = signal<{ [key: string]: Game[] }>(getAllGames());
@@ -304,13 +304,10 @@ export class DashboardComponent implements OnInit {
         (sum, movie) => sum + (movie.length / 60) * movie.timesWatched,
         0
       ) +
-      this.allSeries().reduce(
-        (sum, serie) => {
-          const effectiveLength = this.getEffectiveSerieLength(serie);
-          return sum + (effectiveLength / 60) * serie.timesWatched;
-        },
-        0
-      );
+      this.allSeries().reduce((sum, serie) => {
+        const effectiveLength = this.getEffectiveSerieLength(serie);
+        return sum + (effectiveLength / 60) * serie.timesWatched;
+      }, 0);
 
     const gamesTotalTime = this.allGames().reduce(
       (sum, game) =>
@@ -445,11 +442,18 @@ export class DashboardComponent implements OnInit {
 
   ngOnInit() {
     void this.loadMoviesData();
+    void this.loadBooksData();
   }
 
   private async loadMoviesData() {
     const userId = this.userId() || 'guillaume';
     const movies = await getAllMovies(userId);
     this.moviesList.set(movies);
+  }
+
+  private async loadBooksData() {
+    const userId = this.userId() || 'guillaume';
+    const books = await getAllBooks(userId);
+    this.booksList.set(books);
   }
 }

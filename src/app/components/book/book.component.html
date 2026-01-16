@@ -1,4 +1,12 @@
 <div class="book-card">
+  <button
+    type="button"
+    class="edit-button"
+    aria-label="Editer le livre"
+    (click)="navigateToEdit()"
+  >
+    &#9998;
+  </button>
   <div class="book-cover">
     <img [src]="book.coverUrl" [alt]="book.title" class="cover-image" />
   </div>
@@ -22,7 +30,7 @@
       Lu le {{ book.readDate | date : "dd/MM/yyyy" }}
     </p>
     } @if (book.readTimes && book.readTimes > 1) {
-    <p class="book-read-times">📖 Lu {{ book.readTimes }} fois</p>
+    <p class="book-read-times"> Lu {{ book.readTimes }} fois</p>
     }
     <div class="book-rating">
       <span class="stars">

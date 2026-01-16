@@ -1,8 +1,8 @@
-import { Component, signal, computed } from '@angular/core';
+import { Component, signal, computed, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import { Book } from '../../../models/book-model';
-import { getBooksByUser } from '../../../facades/books.facade';
+import { getBooksByUser } from '../../../facades/books/books.facade';
 import { SelectEntitiesComponent } from '../select-base.component';
 
 @Component({
@@ -14,10 +14,17 @@ import { SelectEntitiesComponent } from '../select-base.component';
     '../select-base.scss',
   ],
 })
-export class SelectBooksTimesReadComponent extends SelectEntitiesComponent {
+export class SelectBooksTimesReadComponent
+  extends SelectEntitiesComponent
+  implements OnInit
+{
+  private isLoading = false;
+
+  booksList = signal<Book[]>([]);
+
   // Tous les livres de l'utilisateur
   allBooks = computed<Book[]>(() => {
-    return getBooksByUser(this.userId());
+    return this.booksList();
   });
 
   // Map pour stocker les readTimes mis à jour (clé: title-author, valeur: readTimes)
@@ -65,8 +72,7 @@ export class SelectBooksTimesReadComponent extends SelectEntitiesComponent {
       return {
         title: book.title,
         author: book.author,
-        readTimes:
-          updatedTimesRead !== undefined ? updatedTimesRead : original,
+        readTimes: updatedTimesRead !== undefined ? updatedTimesRead : original,
       };
     });
 
@@ -94,5 +100,17 @@ export class SelectBooksTimesReadComponent extends SelectEntitiesComponent {
     // Nettoyer
     document.body.removeChild(link);
     window.URL.revokeObjectURL(url);
+  }
+
+  ngOnInit() {
+    void this.loadBooksData();
+  }
+
+  private async loadBooksData() {
+    if (this.isLoading) return;
+    this.isLoading = true;
+    const books = await getBooksByUser(this.userId());
+    this.booksList.set(books);
+    this.isLoading = false;
   }
 }

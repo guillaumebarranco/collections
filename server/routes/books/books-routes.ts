@@ -1,0 +1,18 @@
+const express = require('express');
+const getBooksRouter = require('./get-books');
+const getEntitiesRouter = require('./get-entities');
+const saveBookRouter = require('./save-book');
+const addBookRouter = require('./add-book');
+const addExistingRouter = require('./add-existing');
+
+const router = express.Router();
+
+router.use(getEntitiesRouter);
+router.use(getBooksRouter);
+router.use(saveBookRouter);
+router.use(addBookRouter);
+router.use(addExistingRouter);
+
+module.exports = router;
+
+export {};

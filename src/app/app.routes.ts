@@ -23,6 +23,7 @@ import { SelectGamesTimesFinishedComponent } from './containers/selection/select
 import { MusicsComponent } from './containers/collections/musics/musics.component';
 import { SelectMusicsComponent } from './containers/selection/select-musics/select-musics.component';
 import { EditMovieComponent } from './containers/edit/edit-movie/edit-movie.component';
+import { EditBookComponent } from './containers/edit/edit-book/edit-book.component';
 
 export const routes: Routes = [
   {
@@ -116,11 +117,16 @@ export const routes: Routes = [
     children: [
       {
         path: '',
-        component: DashboardComponent,
+        redirectTo: 'dashboard',
+        pathMatch: 'full',
       },
       {
         path: 'edit-movie/:slug',
         component: EditMovieComponent,
+      },
+      {
+        path: 'edit-book/:slug',
+        component: EditBookComponent,
       },
       {
         path: 'dashboard',
@@ -129,6 +135,12 @@ export const routes: Routes = [
       {
         path: 'books',
         component: BooksComponent,
+        children: [
+          {
+            path: 'edit/:slug',
+            component: EditBookComponent,
+          },
+        ],
       },
       {
         path: 'mangas',

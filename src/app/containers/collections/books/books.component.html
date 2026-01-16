@@ -28,17 +28,25 @@
     <div class="books-actions">
       <button
         class="btn btn-small"
+        [routerLink]="getSelectBooksRoute()"
+        [queryParams]="{ add: 'true' }"
+        title="Ajouter un livre"
+      >
+        ➕ Ajouter un livre
+      </button>
+      <button
+        class="btn btn-small"
         [routerLink]="getSelectBooksRatingRoute()"
         title="Mettre à jour les notes de mes livres"
       >
-        ⭐ Notes
+        ⭐Notes
       </button>
       <button
         class="btn btn-small"
         [routerLink]="getSelectBooksTimesReadRoute()"
         title="Mettre à jour le nombre de lectures de mes livres"
       >
-        📖 Lectures
+        🎬 Lectures
       </button>
     </div>
   </div>
@@ -108,6 +116,16 @@
 
   @if(selectedYearFilter() !== 'all') {
   <p>Résultats affichés: {{ sortedBooks().length }}</p>
+  } @if(selectedView() === 'readlist') {
+  <div class="readlist-actions">
+    <button
+      class="btn btn-primary"
+      [routerLink]="getSelectBooksRoute()"
+      [queryParams]="{ watchlist: 'true' }"
+    >
+      Ajouter des livres à ma readlist
+    </button>
+  </div>
   } @if(groupedBooks()) { Groupement activé, le tri ne sera pas pris en compte.
   } @if (groupedBooks()) {
   <div class="books-groups">
@@ -116,7 +134,7 @@
     <div class="books">
       @for (book of group.books; track book.title) {
       <div class="book-card">
-        <app-book [book]="book"></app-book>
+        <app-book [book]="book" (bookUpdated)="refreshBooks()"></app-book>
       </div>
       }
     </div>
@@ -126,7 +144,7 @@
   <div class="books">
     @for (book of sortedBooks(); track book.title) {
     <div class="book-card">
-      <app-book [book]="book"></app-book>
+      <app-book [book]="book" (bookUpdated)="refreshBooks()"></app-book>
     </div>
     }
   </div>

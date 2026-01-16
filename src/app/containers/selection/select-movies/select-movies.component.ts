@@ -7,7 +7,7 @@ import {
   getAllMoviesMerged,
   getCurrentWatchlistMoviesByUser,
   getMoviesByUser,
-} from '../../../facades/movies.facade';
+} from '../../../facades/movies/movies.facade';
 import { SelectEntitiesComponent } from '../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddMovieComponent } from '../../add/add-movie/add-movie.component';

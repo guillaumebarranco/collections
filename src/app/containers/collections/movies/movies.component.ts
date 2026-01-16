@@ -28,7 +28,7 @@ import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
 import {
   getAllMovies,
   getAllWatchlistMovies,
-} from '../../../facades/movies.facade';
+} from '../../../facades/movies/movies.facade';
 
 type MovieView = 'watched' | 'cinema' | 'watchlist';
 
@@ -378,7 +378,6 @@ export class MoviesComponent implements OnInit {
     this.watchingMoviesList.set(watchlist);
   }
 
-
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? 'guillaume';
@@ -402,12 +401,7 @@ export class MoviesComponent implements OnInit {
 
   private matchesSearch(movie: Movie, term: string): boolean {
     const actors = movie.actors?.map((actor) => actor.name).join(' ') || '';
-    const haystack = [
-      movie.title,
-      movie.director,
-      actors,
-      movie.genre,
-    ]
+    const haystack = [movie.title, movie.director, actors, movie.genre]
       .filter(Boolean)
       .join(' ');
 

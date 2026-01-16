@@ -6,9 +6,9 @@ import { Serie } from '../../models/serie-model';
 import { Book } from '../../models/book-model';
 import { Game } from '../../models/game-model';
 import { Music } from '../../models/music-model';
-import { getAllMovies } from '../../facades/movies.facade';
+import { getAllMovies } from '../../facades/movies/movies.facade';
 import { getAllSeries } from '../../facades/series.facade';
-import { getAllBooks } from '../../facades/books.facade';
+import { getAllBooks } from '../../facades/books/books.facade';
 import { getAllGames } from '../../facades/games.facade';
 import { musics } from '../../utils/users/guillaume/musics';
 
@@ -45,7 +45,7 @@ export class DashboardEntitiesStatsComponent implements OnInit {
 
   moviesList = signal<{ [key: string]: Movie[] }>({});
   seriesList = signal<{ [key: string]: Serie[] }>(getAllSeries());
-  booksList = signal<{ [key: string]: Book[] }>(getAllBooks());
+  booksList = signal<{ [key: string]: Book[] }>({});
   gamesList = signal<{ [key: string]: Game[] }>(getAllGames());
   musicsList = signal<{ [key: string]: Music[] }>({
     guillaume: [...musics],
@@ -340,11 +340,18 @@ export class DashboardEntitiesStatsComponent implements OnInit {
 
   ngOnInit() {
     void this.loadMoviesData();
+    void this.loadBooksData();
   }
 
   private async loadMoviesData() {
     const userId = this.userId() || 'guillaume';
     const movies = await getAllMovies(userId);
     this.moviesList.set(movies);
+  }
+
+  private async loadBooksData() {
+    const userId = this.userId() || 'guillaume';
+    const books = await getAllBooks(userId);
+    this.booksList.set(books);
   }
 }

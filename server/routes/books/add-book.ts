@@ -1,0 +1,158 @@
+const express = require('express');
+const fs = require('fs');
+const path = require('path');
+const {
+  normalizeNumber,
+  normalizeBoolean,
+  normalizeString,
+  escapeString,
+  appendObjectToArrayFile,
+  baseBookExists,
+  BASE_BOOKS_API_FILE,
+} = require('../../utils/books/books-utils');
+
+const router = express.Router();
+
+function formatBaseBook(entity: any): string {
+  return `  {
+    title: '${escapeString(entity.title)}',
+    author: '${escapeString(
+    entity.author
+  )}',
+    coverUrl: '${escapeString(entity.coverUrl || '')}',
+    pages: ${
+    entity.pages || 0
+  },
+    genre: '${escapeString(entity.genre || '')}',
+    saga: '${escapeString(
+    entity.saga || ''
+  )}',
+    sagaOrder: ${entity.sagaOrder || 0},
+    nbTomes: ${
+    entity.nbTomes || 0
+  },
+    isFinished: ${entity.isFinished ?? true},
+  },`;
+}
+
+function formatUserBook(user: any): string {
+  return `  {
+    title: '${escapeString(user.title)}',
+    author: '${escapeString(
+    user.author
+  )}',
+    readDate: '${escapeString(user.readDate || '')}',
+    rating: ${
+    user.rating ?? 0
+  },
+    readTimes: ${user.readTimes ?? 1},
+  },`;
+}
+
+function getUserBooksTargetFile(userId: string) {
+  const userDir = path.join(
+    __dirname,
+    '..',
+    '..',
+    '..',
+    'src',
+    'app',
+    'utils',
+    'users',
+    userId,
+    'books'
+  );
+  if (!fs.existsSync(userDir)) {
+    throw new Error(`User books directory not found: ${userId}`);
+  }
+
+  const files = fs
+    .readdirSync(userDir)
+    .filter(
+      (file: string) =>
+        file.endsWith('.ts') &&
+        file !== 'index.ts' &&
+        !file.includes('readlist')
+    );
+
+  const preferred = files.find((file: string) =>
+    file.includes(`${userId}_books`)
+  );
+  const selected = preferred || files.sort()[0];
+  if (!selected) {
+    throw new Error(`User books file not found: ${userId}`);
+  }
+
+  return path.join(userDir, selected);
+}
+
+router.post('/add', (req: any, res: any) => {
+  try {
+    const input = req.body || {};
+    const userId = normalizeString(input.userId, 'userId');
+    if (!userId) {
+      res.status(400).json({ error: 'Missing userId' });
+      return;
+    }
+
+    const entity = input.entity || {};
+    const user = input.user || {};
+
+    const title = normalizeString(entity.title, 'title');
+    const author = normalizeString(entity.author, 'author');
+    if (!title || !author) {
+      res.status(400).json({ error: 'Missing title or author' });
+      return;
+    }
+
+    if (baseBookExists(title, author)) {
+      res.status(409).json({ error: 'Book already exists in entities' });
+      return;
+    }
+
+    const entityPayload = {
+      title,
+      author,
+      coverUrl: normalizeString(entity.coverUrl, 'coverUrl') || '',
+      pages: normalizeNumber(entity.pages, 'pages') || 0,
+      genre: normalizeString(entity.genre, 'genre') || '',
+      saga: normalizeString(entity.saga, 'saga') || '',
+      sagaOrder: normalizeNumber(entity.sagaOrder, 'sagaOrder') || 0,
+      nbTomes: normalizeNumber(entity.nbTomes, 'nbTomes') || 0,
+      isFinished: normalizeBoolean(entity.isFinished, 'isFinished') ?? true,
+    };
+
+    const userPayload = {
+      title,
+      author,
+      rating: normalizeNumber(user.rating, 'rating') ?? 0,
+      readTimes: normalizeNumber(user.readTimes, 'readTimes') ?? 1,
+      readDate: normalizeString(user.readDate, 'readDate') || '',
+    };
+
+    const baseBookContent = appendObjectToArrayFile(
+      BASE_BOOKS_API_FILE,
+      formatBaseBook(entityPayload)
+    );
+    fs.writeFileSync(BASE_BOOKS_API_FILE, baseBookContent, 'utf8');
+
+    const userBooksFile = getUserBooksTargetFile(userId);
+    const userBookContent = appendObjectToArrayFile(
+      userBooksFile,
+      formatUserBook(userPayload)
+    );
+    fs.writeFileSync(userBooksFile, userBookContent, 'utf8');
+
+    res.json({
+      ok: true,
+      entityFile: BASE_BOOKS_API_FILE,
+      userFile: userBooksFile,
+    });
+  } catch (error: any) {
+    res.status(500).json({ error: error.message || 'Unknown error' });
+  }
+});
+
+module.exports = router;
+
+export {};

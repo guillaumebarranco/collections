@@ -32,7 +32,7 @@ import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
 import {
   getAllBooks,
   getAllReadlistBooks,
-} from '../../../facades/books.facade';
+} from '../../../facades/books/books.facade';
 
 type BookView = 'read' | 'readlist';
 
@@ -91,8 +91,8 @@ export class BooksComponent implements OnInit {
     { value: 'genre', label: 'Genre' },
   ];
 
-  booksList = signal<{ [key: string]: Book[] }>(getAllBooks());
-  readlistBooksList = signal<{ [key: string]: Book[] }>(getAllReadlistBooks());
+  booksList = signal<{ [key: string]: Book[] }>({});
+  readlistBooksList = signal<{ [key: string]: Book[] }>({});
 
   constructor() {
     // Synchroniser les changements de filtres/tri avec l'URL
@@ -136,6 +136,8 @@ export class BooksComponent implements OnInit {
       this.loadParamsFromUrl(queryParams);
       this.isInitializing = false;
     });
+
+    void this.refreshBooks();
   }
 
   private loadParamsFromUrl(queryParams: Params) {
@@ -396,6 +398,21 @@ export class BooksComponent implements OnInit {
 
   onViewChange(view: BookView) {
     this.selectedView.set(view);
+  }
+
+  async refreshBooks() {
+    const userId = this.getActiveUserId();
+    const [books, readlist] = await Promise.all([
+      getAllBooks(userId),
+      getAllReadlistBooks(userId),
+    ]);
+    this.booksList.set(books);
+    this.readlistBooksList.set(readlist);
+  }
+
+  private getActiveUserId(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    return params['id'] ?? 'guillaume';
   }
 
   getSelectBooksRoute(): string {

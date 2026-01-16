@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import { Movie } from '../../../models/movie-model';
 import { Params, ActivatedRoute } from '@angular/router';
-import { getMoviesByUser } from '../../../facades/movies.facade';
+import { getMoviesByUser } from '../../../facades/movies/movies.facade';
 import { SelectEntitiesComponent } from '../select-base.component';
 
 @Component({

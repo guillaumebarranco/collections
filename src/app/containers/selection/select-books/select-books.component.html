@@ -2,24 +2,48 @@
 
 <div class="select-books-container">
   <div class="header">
-    <h1>Sélectionner des livres</h1>
+    <h1>
+      {{
+        isAddMode()
+          ? "Ajouter des livres lus"
+          : isWatchOrReadlistMode()
+          ? "Sélectionner des livres pour ma readlist"
+          : "Sélectionner des livres"
+      }}
+    </h1>
 
     <div class="selection-description">
-      @if(isWatchOrReadlistMode()) {
+      @if(isAddMode()) {
       <p>
-        Bonjour {{ username() }} 👋 <br /><br />
-        Tu es en mode "Readlist" ! Ici, tu peux sélectionner les films que tu
-        souhaites ajouter à ta liste de films à voir.
+        Bonjour {{ username() }}  <br /><br />
+        Ici tu peux ajouter des livres que tu viens de lire. La liste ci-dessous
+        affiche uniquement les livres que tu n'as pas encore dans ta collection.
         <br /><br />
-        Les films que tu as déjà vus sont automatiquement exclus de cette liste
+        Sélectionne les livres que tu as lus, puis clique sur "Ajouter à mes
+        livres lus".
+      </p>
+      <p>
+        Si tu ne trouves pas ton livre dans la liste, ajoute-le d'abord dans les
+        entités :
+      </p>
+      <button class="btn btn-primary add-new-book" (click)="openAddBookDialog()">
+        Ajouter un nouveau livre
+      </button>
+      } @else if(isWatchOrReadlistMode()) {
+      <p>
+        Bonjour {{ username() }}  <br /><br />
+        Tu es en mode "Readlist" ! Ici, tu peux sélectionner les livres que tu
+        souhaites ajouter à ta liste de livres à lire.
+        <br /><br />
+        Les livres que tu as déjà lus sont automatiquement exclus de cette liste
         pour t'éviter les doublons.
         <br /><br />
-        Sélectionne les films que tu aimerais voir et télécharge le fichier JSON
+        Sélectionne les livres que tu aimerais lire et télécharge le fichier JSON
         pour construire ta readlist.
       </p>
       } @else {
       <p>
-        Bonjour {{ username() }} 👋 <br /><br />
+        Bonjour {{ username() }}  <br /><br />
         Si tu es ici, c'est que tu souhaites pouvoir faire ta collection de
         livres regardés, pouvoir les noter, les trier par préférence, par date
         de sortie ou de dernière lecture, etc... <br /><br />
@@ -94,15 +118,37 @@
       <button class="btn btn-secondary" (click)="deselectAll()">
         Tout désélectionner
       </button>
+      @if(isAddMode()) {
+      <button
+        class="btn btn-primary"
+        (click)="addSelectedBooks()"
+        [disabled]="selectedCount() === 0 || isAdding()"
+      >
+        
+        {{ isAdding() ? "Ajout..." : "Ajouter à mes livres lus" }}
+        ({{ selectedCount() }})
+      </button>
+      } @else {
       <button
         class="btn btn-primary"
         (click)="exportSelectedBooks()"
         [disabled]="selectedCount() === 0"
       >
-        📥 Exporter ma liste de livres ({{ selectedCount() }})
+        
+        {{
+          isWatchOrReadlistMode()
+            ? "Exporter ma readlist"
+            : "Exporter ma liste de livres"
+        }}
+        ({{ selectedCount() }})
       </button>
+      }
     </div>
   </div>
+
+  @if(isAddMode() && addErrorMessage()) {
+  <p class="error-message">{{ addErrorMessage() }}</p>
+  }
 
   <div class="books-grid">
     @for (book of allBooks(); track `${book.title}-${book.author}`) {
@@ -114,7 +160,7 @@
     >
       <img [src]="book.coverUrl" [alt]="book.title" />
       <div class="overlay">
-        <div class="checkmark">✓</div>
+        <div class="checkmark"></div>
         <div class="book-info">
           <span class="book-title">{{ book.title }}</span>
           <span class="book-author">{{ book.author }}</span>

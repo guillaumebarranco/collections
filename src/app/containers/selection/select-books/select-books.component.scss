@@ -28,6 +28,29 @@
     }
   }
 
+  .add-new-book {
+    margin-top: 12px;
+    border-radius: 999px;
+    padding: 10px 18px;
+    background: #25645d;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 0 6px 14px rgba(37, 100, 93, 0.35);
+
+    &:hover {
+      background: #1d4f49;
+      box-shadow: 0 8px 18px rgba(37, 100, 93, 0.45);
+    }
+  }
+
+  .error-message {
+    margin: 12px auto 0;
+    max-width: 800px;
+    color: #ff7b7b;
+    font-size: 14px;
+    text-align: center;
+  }
+
   .books-grid {
     @extend %select-grid;
   }

@@ -7,68 +7,67 @@ import {
   Router,
   RouterModule,
 } from '@angular/router';
-import { Movie } from '../../../models/movie-model';
-import { getMoviesByUser } from '../../../facades/movies/movies.facade';
+import { Book } from '../../../models/book-model';
+import { getBooksByUser } from '../../../facades/books/books.facade';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 
-type EditMovieForm = {
+type EditBookForm = {
   title: string;
-  director: string;
+  author: string;
   rating: number;
-  timesWatched: number;
-  firstViewedDate: string;
-  lastViewedDate: string;
-  seenAtCinema: boolean;
-  releaseDate: string;
-  length: number;
-  genre: string;
+  readTimes: number;
+  readDate: string;
   coverUrl: string;
+  pages: number;
+  genre: string;
+  saga: string;
+  sagaOrder: number;
 };
 
-type EditMovieDialogData = {
-  movie: Movie;
+type EditBookDialogData = {
+  book: Book;
   userId?: string;
 };
 
 const DEFAULT_USER_ID = 'guillaume';
 
 @Component({
-  selector: 'app-edit-movie',
+  selector: 'app-edit-book',
   standalone: true,
   imports: [CommonModule, FormsModule, RouterModule],
-  templateUrl: './edit-movie.component.html',
-  styleUrls: ['./edit-movie.component.scss'],
+  templateUrl: './edit-book.component.html',
+  styleUrls: ['./edit-book.component.scss'],
 })
-export class EditMovieComponent {
+export class EditBookComponent {
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
-  private readonly dialogRef = inject(MatDialogRef<EditMovieComponent>, {
+  private readonly dialogRef = inject(MatDialogRef<EditBookComponent>, {
     optional: true,
   });
-  private readonly dialogData = inject<EditMovieDialogData | null>(
+  private readonly dialogData = inject<EditBookDialogData | null>(
     MAT_DIALOG_DATA,
     {
       optional: true,
     }
   );
 
-  readonly movieForm = signal<EditMovieForm | null>(null);
-  readonly movieNotFound = signal<boolean>(false);
+  readonly bookForm = signal<EditBookForm | null>(null);
+  readonly bookNotFound = signal<boolean>(false);
   readonly isSaving = signal<boolean>(false);
 
-  readonly movieSlug = computed(() => {
+  readonly bookSlug = computed(() => {
     return this.activatedRoute.snapshot.paramMap.get('slug') || '';
   });
 
   constructor() {
-    if (this.dialogData?.movie) {
-      this.movieForm.set(this.toForm(this.dialogData.movie));
-      this.movieNotFound.set(false);
+    if (this.dialogData?.book) {
+      this.bookForm.set(this.toForm(this.dialogData.book));
+      this.bookNotFound.set(false);
       return;
     }
 
     this.activatedRoute.paramMap.subscribe((params) => {
-      void this.loadMovieFromSlug(params);
+      void this.loadBookFromSlug(params);
     });
   }
 
@@ -76,30 +75,19 @@ export class EditMovieComponent {
     ? `http://localhost:3001/api`
     : 'https://makya.webarranco.fr/api';
 
-  // public apiUrl = 'https://makya.webarranco.fr/api';
-
-  updateField<K extends keyof EditMovieForm>(field: K, value: string | number) {
-    const current = this.movieForm();
+  updateField<K extends keyof EditBookForm>(field: K, value: string | number) {
+    const current = this.bookForm();
     if (!current) return;
 
-    let nextValue: EditMovieForm[K] = value as EditMovieForm[K];
-    if (field === 'rating' || field === 'timesWatched' || field === 'length') {
+    let nextValue: EditBookForm[K] = value as EditBookForm[K];
+    if (field === 'rating' || field === 'readTimes' || field === 'pages') {
       const asNumber = Number(value);
-      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditMovieForm[K];
+      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditBookForm[K];
     }
 
-    this.movieForm.set({
+    this.bookForm.set({
       ...current,
       [field]: nextValue,
-    });
-  }
-
-  updateCheckbox(field: 'seenAtCinema', checked: boolean) {
-    const current = this.movieForm();
-    if (!current) return;
-    this.movieForm.set({
-      ...current,
-      [field]: checked,
     });
   }
 
@@ -123,13 +111,13 @@ export class EditMovieComponent {
   }
 
   async onSubmit() {
-    const form = this.movieForm();
+    const form = this.bookForm();
     if (!form) return;
 
     this.isSaving.set(true);
     try {
       const userId = this.getCurrentUserId();
-      const response = await fetch(`${this.apiUrl}/movies`, {
+      const response = await fetch(`${this.apiUrl}/books`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -137,18 +125,16 @@ export class EditMovieComponent {
         body: JSON.stringify({
           userId,
           title: form.title,
-          director: form.director,
+          author: form.author,
           rating: form.rating,
-          timesWatched: form.timesWatched,
-          firstViewedDate: form.firstViewedDate,
-          lastViewedDate: form.lastViewedDate,
-          seenAtCinema: form.seenAtCinema,
+          readTimes: form.readTimes,
+          readDate: form.readDate,
         }),
       });
 
       const payload = await response.json().catch(() => ({}));
       if (!response.ok) {
-        console.error('edit-movie:error', payload);
+        console.error('edit-book:error', payload);
         return;
       }
 
@@ -156,41 +142,41 @@ export class EditMovieComponent {
         this.dialogRef.close({ updated: true, payload });
       }
     } catch (error) {
-      console.error('edit-movie:error', error);
+      console.error('edit-book:error', error);
     } finally {
       this.isSaving.set(false);
     }
   }
 
-  navigateToMovies() {
+  navigateToBooks() {
     if (this.dialogRef) {
       this.dialogRef.close();
       return;
     }
     const userId = this.getCurrentUserId();
-    this.router.navigate(['/', userId, 'movies']);
+    this.router.navigate(['/', userId, 'books']);
   }
 
   isDialogMode(): boolean {
     return Boolean(this.dialogRef);
   }
 
-  private async loadMovieFromSlug(params: ParamMap) {
+  private async loadBookFromSlug(params: ParamMap) {
     const slug = params.get('slug') || '';
     const userId = this.getCurrentUserId();
-    const movies = await getMoviesByUser(userId);
-    const matched = movies.find((movie) => {
-      return this.toSlug(`${movie.title} ${movie.director}`) === slug;
+    const books = await getBooksByUser(userId);
+    const matched = books.find((book) => {
+      return this.toSlug(`${book.title} ${book.author}`) === slug;
     });
 
     if (!matched) {
-      this.movieForm.set(null);
-      this.movieNotFound.set(true);
+      this.bookForm.set(null);
+      this.bookNotFound.set(true);
       return;
     }
 
-    this.movieForm.set(this.toForm(matched));
-    this.movieNotFound.set(false);
+    this.bookForm.set(this.toForm(matched));
+    this.bookNotFound.set(false);
   }
 
   private getCurrentUserId(): string {
@@ -202,19 +188,18 @@ export class EditMovieComponent {
     return directId || parentId || DEFAULT_USER_ID;
   }
 
-  private toForm(movie: Movie): EditMovieForm {
+  private toForm(book: Book): EditBookForm {
     return {
-      title: movie.title,
-      director: movie.director,
-      rating: movie.rating,
-      timesWatched: movie.timesWatched,
-      firstViewedDate: movie.firstViewedDate,
-      lastViewedDate: movie.lastViewedDate,
-      seenAtCinema: movie.seenAtCinema,
-      releaseDate: movie.releaseDate,
-      length: movie.length,
-      genre: movie.genre,
-      coverUrl: movie.coverUrl,
+      title: book.title,
+      author: book.author,
+      rating: book.rating,
+      readTimes: book.readTimes || 0,
+      readDate: book.readDate,
+      coverUrl: book.coverUrl,
+      pages: book.pages || 0,
+      genre: book.genre,
+      saga: book.saga,
+      sagaOrder: book.sagaOrder,
     };
   }
 

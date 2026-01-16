@@ -1,5 +1,6 @@
 const express = require('express');
 const moviesRoutes = require('./routes/movies/movies-routes');
+const booksRoutes = require('./routes/books/books-routes');
 
 const PORT = 3001;
 
@@ -23,13 +24,14 @@ app.use((req: any, res: any, next: any) => {
 app.use(express.json({ limit: '1mb' }));
 
 app.use('/api/movies', moviesRoutes);
+app.use('/api/books', booksRoutes);
 
 app.use((_req: any, res: any) => {
   res.status(404).json({ error: 'Not found' });
 });
 
 app.listen(PORT, () => {
-  console.log(`Edit movie server running on http://localhost:${PORT}`);
+  console.log(`Makya API server running on http://localhost:${PORT}`);
 });
 
 export {};
