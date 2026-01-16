@@ -2,7 +2,6 @@ import { Component, signal, computed, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import { Movie } from '../../../models/movie-model';
-import { Params, ActivatedRoute } from '@angular/router';
 import {
   getAllMoviesMerged,
   getCurrentWatchlistMoviesByUser,
@@ -10,6 +9,7 @@ import {
 } from '../../../facades/movies/movies.facade';
 import { SelectEntitiesComponent } from '../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { isLocalhost } from '../../../core/config';
 import { AddMovieComponent } from '../../add/add-movie/add-movie.component';
 
 @Component({
@@ -290,7 +290,7 @@ export class SelectMoviesComponent
   }
 
   private isLocalhost(): boolean {
-    return document.location.origin.includes('localhost');
+    return isLocalhost();
   }
 
   private getApiUrl(): string {

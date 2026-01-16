@@ -2,10 +2,14 @@ import { Component, signal, computed, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import { Game } from '../../../models/game-model';
-import { getAllGamesMerged, getGamesByUser } from '../../../facades/games.facade';
+import {
+  getAllGamesMerged,
+  getGamesByUser,
+} from '../../../facades/games.facade';
 import { SelectEntitiesComponent } from '../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddGameComponent } from '../../add/add-game/add-game.component';
+import { isLocalhost } from '../../../core/config';
 
 @Component({
   selector: 'app-select-games',
@@ -13,7 +17,10 @@ import { AddGameComponent } from '../../add/add-game/add-game.component';
   templateUrl: './select-games.component.html',
   styleUrls: ['./select-games.component.scss', '../select-base.scss'],
 })
-export class SelectGamesComponent extends SelectEntitiesComponent implements OnInit {
+export class SelectGamesComponent
+  extends SelectEntitiesComponent
+  implements OnInit
+{
   private readonly dialog = inject(MatDialog);
   private isLoading = false;
 
@@ -195,7 +202,7 @@ export class SelectGamesComponent extends SelectEntitiesComponent implements OnI
   }
 
   private isLocalhost(): boolean {
-    return document.location.origin.includes('localhost');
+    return isLocalhost();
   }
 
   private getApiUrl(): string {

@@ -4,6 +4,7 @@ import { MenuComponent } from '../../../components/menu/menu.component';
 import { Game } from '../../../models/game-model';
 import { getGamesByUser } from '../../../facades/games.facade';
 import { SelectEntitiesComponent } from '../select-base.component';
+import { isLocalhost } from '../../../core/config';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -99,7 +100,7 @@ export class SelectGamesRatingComponent
   }
 
   private isLocalhost(): boolean {
-    return document.location.origin.includes('localhost');
+    return isLocalhost();
   }
 
   private getApiUrl(): string {

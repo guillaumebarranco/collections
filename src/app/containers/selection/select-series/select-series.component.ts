@@ -2,10 +2,14 @@ import { Component, signal, computed, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import { Serie } from '../../../models/serie-model';
-import { getAllSeriesMerged, getSeriesByUser } from '../../../facades/series.facade';
+import {
+  getAllSeriesMerged,
+  getSeriesByUser,
+} from '../../../facades/series.facade';
 import { SelectEntitiesComponent } from '../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddSerieComponent } from '../../add/add-serie/add-serie.component';
+import { isLocalhost } from '../../../core/config';
 
 @Component({
   selector: 'app-select-series',
@@ -212,7 +216,7 @@ export class SelectSeriesComponent
   }
 
   private isLocalhost(): boolean {
-    return document.location.origin.includes('localhost');
+    return isLocalhost();
   }
 
   private getApiUrl(): string {

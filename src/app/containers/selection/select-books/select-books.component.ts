@@ -11,6 +11,8 @@ import { SelectEntitiesComponent } from '../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddBookComponent } from '../../add/add-book/add-book.component';
 
+import { isLocalhost } from '../../../core/config';
+
 @Component({
   selector: 'app-select-books',
   imports: [CommonModule, MenuComponent, MatDialogModule],
@@ -242,7 +244,7 @@ export class SelectBooksComponent
   }
 
   private isLocalhost(): boolean {
-    return document.location.origin.includes('localhost');
+    return isLocalhost();
   }
 
   private getApiUrl(): string {
