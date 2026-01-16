@@ -107,16 +107,16 @@ export async function getAllBooksMerged(
 }
 
 export async function getBooksByUser(userId: string): Promise<Book[]> {
-  if (isLocalhost()) {
-    return getAllBooksData(getLocalBooksByUser(userId));
-  }
+  // if (isLocalhost()) {
+  return getAllBooksData(getLocalBooksByUser(userId));
+  // }
 
-  try {
-    const userBooks = await fetchUserBooksFromApi(userId);
-    return getAllBooksData(userBooks);
-  } catch {
-    return [];
-  }
+  // try {
+  //   const userBooks = await fetchUserBooksFromApi(userId);
+  //   return getAllBooksData(userBooks);
+  // } catch {
+  //   return [];
+  // }
 }
 
 export async function getCurrentReadlistBooksByUser(
