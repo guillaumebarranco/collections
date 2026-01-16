@@ -141,7 +141,7 @@ export class AddSerieComponent {
     const user = this.userForm();
 
     if (!entity.title || !entity.director) {
-      this.errorMessage.set('Titre et crÃ©ateur sont obligatoires.');
+      this.errorMessage.set('Titre et créateur sont obligatoires.');
       return;
     }
 
@@ -172,7 +172,7 @@ export class AddSerieComponent {
 
       this.dialogRef.close({ created: true, payload });
     } catch (error) {
-      this.errorMessage.set("Erreur rÃ©seau lors de l'ajout.");
+      this.errorMessage.set("Erreur réseau lors de l'ajout.");
     } finally {
       this.isSaving.set(false);
     }

@@ -4,144 +4,78 @@
   <div class="header">
     <h1>
       {{
-        isAddMode()
-          ? 'Ajouter des jeux termines'
-          : isWatchOrReadlistMode()
-          ? 'Selectionner des jeux pour ma watchlist'
-          : 'Selectionner des jeux'
+        isWatchOrReadlistMode()
+          ? "Sélectionner des jeux pour ma watchlist"
+          : "Ajouter des jeux terminés"
       }}
     </h1>
 
     <div class="selection-description">
-      @if(isAddMode()) {
+      @if(!isWatchOrReadlistMode()) {
       <p>
-        Bonjour {{ username() }} &#128075; <br /><br />
-        Ici tu peux ajouter des jeux que tu viens de terminer. La liste ci-dessous
-        affiche uniquement les jeux que tu n'as pas encore dans ta collection.
+        Bonjour {{ username() }} <br /><br />
+        Ici tu peux ajouter des jeux que tu as terminés. La liste ci-dessous affiche
+        uniquement les jeux que tu n'as pas encore dans ta collection.
         <br /><br />
-        Selectionne les jeux que tu as termines, puis clique sur "Ajouter a mes
-        jeux termines".
+        Sélectionne les jeux que tu as terminés, puis clique sur "Ajouter à mes
+        jeux terminés".
       </p>
       <p>
         Si tu ne trouves pas ton jeu dans la liste, ajoute-le d'abord dans les
-        entites :
+        entités :
       </p>
-      <button class="btn btn-primary add-new-game" (click)="openAddGameDialog()">
+      <button
+        class="btn btn-primary add-new-game"
+        (click)="openAddGameDialog()"
+      >
         Ajouter un nouveau jeu
       </button>
       } @else if(isWatchOrReadlistMode()) {
       <p>
-        Bonjour {{ username() }} &#128075; <br /><br />
-        Tu es en mode "Watchlist" ! Ici, tu peux selectionner les jeux que tu
-        souhaites ajouter a ta liste de jeux a voir.
+        Bonjour {{ username() }} <br /><br />
+        Tu es en mode "Watchlist" ! Ici, tu peux sélectionner les jeux que tu
+        souhaites ajouter à ta liste de jeux à terminer.
         <br /><br />
-        Les jeux que tu as deja termines sont automatiquement exclus de cette
-        liste pour t'eviter les doublons.
+        Les jeux que tu as déjà terminés sont automatiquement exclus de cette
+        liste pour t'éviter les doublons.
         <br /><br />
-        Selectionne les jeux que tu aimerais terminer et telecharge le fichier
+        Sélectionne les jeux que tu aimerais terminer et télécharge le fichier
         JSON pour construire ta watchlist.
       </p>
       } @else {
-      <p>
-        Bonjour {{ username() }} &#128075; <br /><br />
+      <!-- <p>
+        Bonjour {{ username() }} <br /><br />
         Si tu es ici, c'est que tu souhaites pouvoir faire ta collection de
-        jeux termines, pouvoir les noter, les trier par preference, par date de
+        jeux terminés, pouvoir les noter, les trier par préférence, par date de
         sortie ou de dernier visionnage, etc... <br /><br />
-        Comment ca marche ? <br />
-      </p>
+        Comment ça marche ? <br />
+      </p> -->
 
-      <ul>
-        <li>
-          1. Parmi tous les jeux presents sur cette page (scrolle pour les
-          voir), selectionne ceux que tu as termines. Ensuite, clique sur le
-          bouton "Exporter ma liste de jeux" pour telecharger un fichier JSON
-          de ta collection, que tu pourras m'envoyer.<br />
-          <strong>Fais ca d'abord en entier avant de faire l'etape 2 !</strong>
-        </li>
-        <li>
-          2. Une fois ceci fait, il faut creer un compte sur
-          <a href="https://backloggd.com/" target="_blank">Backloggd</a> et
-          ajouter ta collection de jeux dessus. C'est rapide ne t'en fais pas,
-          et c'est surtout que ce site repertorie tous les jeux possibles et
-          imaginables. Tu as fait ta premiere selection grosse maille parmi les
-          jeux existants sur cette page, et Backloggd va t'aider a completer.
-          Pas besoin d'ajouter les jeux que tu as deja selectionnes sur cette
-          page sur ta selection Backloggd, mais si tu le fais et qu'il y a des
-          doublons, ce ne sera pas grave ne t'en fais pas. <br /><br />
-          Voici des exemples de listes Backloggd a parcourir pour selectionner
-          des jeux :
-          <a
-            href="https://backloggd.com/u/lebowskiz/list/games-i-finished/"
-            target="_blank"
-            >https://backloggd.com/u/lebowskiz/list/games-i-finished/</a
-          >
-        </li>
-        <li>
-          3. Une fois ta selection Backloggd faite, il faut m'envoyer l'URL de
-          ta liste. Elle est normalement publique, il s'agit juste de mettre ton
-          nom d'utilisateur dans l'URL de cette facon :
-          <a href="https://backloggd.com/u/webarranco/finished/" target="_blank"
-            >https://backloggd.com/u/webarranco/finished/</a
-          >
-        </li>
-        <li>
-          4. Tu n'auras desormais plus besoin de Backloggd, c'etait juste pour
-          faire cette liste initiale complete ! Une fois que tu m'a envoye le
-          fichier JSON avec la selection que tu as faite sur cette page, ainsi
-          que l'URL de ta watchlist Backloggd, je rentrerai toutes les donnees
-          dans ton profil et tu pourras avoir une superbe vue de tous tes
-          jeux, et tu pourras ensuite les mettre a jour individuellement pour
-          renseigner la note de chacun ou le nombre de terminaisons etc... Enjoy
-          !
-        </li>
-        <li>
-          5. En derniere etape une fois que tout cela sera fait, on trouvera un
-          moyen d'ajouter de nouveaux jeux au fur et a mesure que tu en
-          termines et tu pourras profiter de l'outil tranquillement :)
-        </li>
-      </ul>
       }
     </div>
   </div>
 
   <div class="toolbar">
     <div class="selection-info">
-      <span class="count">{{ selectedCount() }} jeu(x) selectionne(s)</span>
+      <span class="count">{{ selectedCount() }} jeu(x) sélectionné(s)</span>
       <span class="total">sur {{ allGames().length }}</span>
     </div>
 
     <div class="actions">
-      <button class="btn btn-secondary" (click)="selectAll()">
-        Tout selectionner
-      </button>
-      <button class="btn btn-secondary" (click)="deselectAll()">
-        Tout deselectionner
-      </button>
-      @if(isAddMode()) {
       <button
         class="btn btn-primary"
         (click)="addSelectedGames()"
-        [disabled]="selectedCount() === 0 || isAdding()"
-      >
-        &#10133;
-        {{ isAdding() ? 'Ajout...' : 'Ajouter a mes jeux termines' }}
-        ({{ selectedCount() }})
-      </button>
-      } @else {
-      <button
-        class="btn btn-primary"
-        (click)="exportSelectedGames()"
         [disabled]="selectedCount() === 0"
       >
-        &#128229; Exporter ma liste de jeux ({{ selectedCount() }})
+        {{
+          isWatchOrReadlistMode()
+            ? "Ajouter à mes jeux à terminer"
+            : "Ajouter à mes jeux terminés"
+        }}
+        ({{ selectedCount() }})
       </button>
-      }
     </div>
   </div>
-
-  @if(isAddMode() && addErrorMessage()) {
-  <p class="error-message">{{ addErrorMessage() }}</p>
-  }
 
   <div class="games-grid">
     @for (game of allGames(); track `${game.title}-${game.releaseDate}`) {
@@ -153,7 +87,7 @@
     >
       <img [src]="game.coverUrl" [alt]="game.title" />
       <div class="overlay">
-        <div class="checkmark">&#10003;</div>
+        <div class="checkmark"></div>
         <div class="game-info">
           <span class="game-title">{{ game.title }}</span>
           <span class="game-year">({{ game.releaseDate.substring(0, 4) }})</span>

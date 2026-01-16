@@ -1,5 +1,6 @@
 const express = require('express');
 const fs = require('fs');
+const path = require('path');
 const {
   normalizeString,
   appendObjectToArrayFile,
@@ -19,6 +20,39 @@ function formatUserGame(game: any): string {
     additionnalEstimatedTime: 0,
     platined: false,
   },`;
+}
+
+function getUserGamesTargetFile(userId: string): string {
+  const userDir = path.join(
+    __dirname,
+    '..',
+    '..',
+    '..',
+    'src',
+    'app',
+    'utils',
+    'users',
+    userId,
+    'games'
+  );
+  if (!fs.existsSync(userDir)) {
+    throw new Error(`User games directory not found: ${userId}`);
+  }
+
+  const files = fs
+    .readdirSync(userDir)
+    .filter((file: string) => file.endsWith('.ts') && file !== 'index.ts')
+    .filter((file: string) => !file.includes('gamelist'));
+
+  const preferred = files.find((file: string) =>
+    file.includes(`${userId}_games`)
+  );
+  const selected = preferred || files.sort()[0];
+  if (!selected) {
+    throw new Error(`User games file not found: ${userId}`);
+  }
+
+  return path.join(userDir, selected);
 }
 
 router.post('/add-existing', (req: any, res: any) => {
@@ -71,7 +105,7 @@ router.post('/add-existing', (req: any, res: any) => {
       return;
     }
 
-    const filePath = files[0];
+    const filePath = getUserGamesTargetFile(userId);
     let updatedContent = fs.readFileSync(filePath, 'utf8');
     for (const game of toAdd) {
       updatedContent = appendObjectToArrayFile(filePath, formatUserGame(game));

@@ -1,12 +1,12 @@
 <div class="add-serie">
   <div class="header">
-    <h1>Ajouter une sÃ©rie</h1>
-    <button type="button" class="close-btn" (click)="close()">âœ•</button>
+    <h1>Ajouter une série</h1>
+    <button type="button" class="close-btn" (click)="close()">✕</button>
   </div>
 
   <form class="add-form" (ngSubmit)="onSubmit()">
     <section class="form-section">
-      <h2>Informations de la sÃ©rie</h2>
+      <h2>Informations de la série</h2>
 
       <div class="form-row">
         <label for="title">Titre</label>
@@ -21,7 +21,7 @@
       </div>
 
       <div class="form-row">
-        <label for="director">CrÃ©ateur</label>
+        <label for="director">Créateur</label>
         <input
           id="director"
           type="text"
@@ -33,7 +33,7 @@
       </div>
 
       <div class="form-row">
-        <label for="actors">Acteurs (sÃ©parÃ©s par des virgules)</label>
+        <label for="actors">Acteurs (séparés par des virgules)</label>
         <input
           id="actors"
           type="text"
@@ -89,7 +89,7 @@
       </div>
 
       <div class="form-row">
-        <label for="nbEpisodesTotal">Ã‰pisodes</label>
+        <label for="nbEpisodesTotal">Épisodes</label>
         <input
           id="nbEpisodesTotal"
           type="number"
@@ -101,7 +101,7 @@
       </div>
 
       <div class="form-row">
-        <label for="totalLength">DurÃ©e totale (min)</label>
+        <label for="totalLength">Durée totale (min)</label>
         <input
           id="totalLength"
           type="number"
@@ -148,7 +148,7 @@
                 getStarType(userForm().rating || 0, star) === 'empty'
               "
             >
-              â˜…
+              ★
             </span>
           </button>
           <span class="rating-value">{{ userForm().rating }}/5</span>
@@ -168,7 +168,7 @@
       </div>
 
       <div class="form-row">
-        <label for="stoppedAtSeason">Saison d'arrÃªt</label>
+        <label for="stoppedAtSeason">Saison d'arrêt</label>
         <input
           id="stoppedAtSeason"
           type="number"
