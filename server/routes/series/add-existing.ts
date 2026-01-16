@@ -11,15 +11,13 @@ const {
 const router = express.Router();
 
 function escapeString(value: string) {
-  return value.replace(/\/g, '\\').replace(/'/g, "\'");
+  return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
 }
 
 function formatUserSerie(serie: any) {
   return `  {
     title: '${escapeString(serie.title)}',
-    director: '${escapeString(
-    serie.director
-  )}',
+    director: '${escapeString(serie.director)}',
     rating: 0,
     timesWatched: 1,
     stoppedAtSeason: 0,

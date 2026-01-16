@@ -8,6 +8,14 @@
     <div class="games-actions">
       <button
         class="btn btn-small"
+        [routerLink]="getSelectGamesRoute()"
+        [queryParams]="{ add: 'true' }"
+        title="Ajouter un jeu"
+      >
+        &#10133; Ajouter un jeu
+      </button>
+      <button
+        class="btn btn-small"
         [routerLink]="getSelectGamesRatingRoute()"
         title="Mettre à jour les notes de mes jeux"
       >

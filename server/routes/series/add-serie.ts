@@ -18,41 +18,30 @@ function formatBaseSerie(entity: any): string {
     .map((name: string) => `      {
         name: '${escapeString(name)}',
       },`)
-    .join('
-');
+    .join('\n');
 
   return `  {
     title: '${escapeString(entity.title)}',
-    director: '${escapeString(
-    entity.director
-  )}',
+    director: '${escapeString(entity.director)}',
     actors: [
 ${
     actorsLines || "      { name: 'Inconnu' },"
   }
     ],
     coverUrl: '${escapeString(entity.coverUrl || '')}',
-    releaseDate: '${escapeString(
-    entity.releaseDate || ''
-  )}',
+    releaseDate: '${escapeString(entity.releaseDate || '')}',
     endDate: '${escapeString(entity.endDate || '')}',
     totalLength: ${entity.totalLength || 0},
-    genre: '${escapeString(
-    entity.genre || ''
-  )}',
+    genre: '${escapeString(entity.genre || '')}',
     nbSeasons: ${entity.nbSeasons || 0},
-    nbEpisodesTotal: ${
-    entity.nbEpisodesTotal || 0
-  },
+    nbEpisodesTotal: ${entity.nbEpisodesTotal || 0},
   },`;
 }
 
 function formatUserSerie(user: any): string {
   return `  {
     title: '${escapeString(user.title)}',
-    director: '${escapeString(
-    user.director
-  )}',
+    director: '${escapeString(user.director)}',
     rating: ${user.rating ?? 0},
     timesWatched: ${
     user.timesWatched ?? 0

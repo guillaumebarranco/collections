@@ -24,6 +24,15 @@ const BASE_GAMES_DIR = path.join(
 );
 const BASE_GAMES_API_FILE = path.join(BASE_GAMES_DIR, 'base_games_api.ts');
 
+function getArrayBounds(content: string, exportIndex: number) {
+  const assignIndex = content.indexOf('=', exportIndex);
+  if (assignIndex === -1) return null;
+  const arrayStart = content.indexOf('[', assignIndex);
+  const arrayEnd = content.indexOf('];', arrayStart);
+  if (arrayStart === -1 || arrayEnd === -1) return null;
+  return { arrayStart, arrayEnd };
+}
+
 function normalizeNumber(value: any, field: string) {
   if (value === undefined || value === null) return undefined;
   const parsed = Number(value);
@@ -50,7 +59,9 @@ function normalizeString(value: any, field: string) {
 }
 
 function parseStringField(objectText: string, key: string) {
-  const regex = new RegExp(`${key}\s*:\s*(['"])((?:\\.|(?!\1).)*)\1`);
+  const regex = new RegExp(
+    `${key}\\s*:\\s*(['"])((?:\\\\.|(?!\\1).)*)\\1`
+  );
   const match = objectText.match(regex);
   if (!match) return null;
   const quote = match[1];
@@ -59,12 +70,12 @@ function parseStringField(objectText: string, key: string) {
 
 function unescapeString(value: string, quote: string) {
   return value
-    .replace(new RegExp(`\\${quote}`, 'g'), quote)
-    .replace(/\\/g, '\');
+    .replace(new RegExp(`\\\\${quote}`, 'g'), quote)
+    .replace(/\\\\/g, '\\');
 }
 
 function parseNumberField(objectText: string, key: string) {
-  const regex = new RegExp(`${key}\s*:\s*([^,\n]+)`);
+  const regex = new RegExp(`${key}\\s*:\\s*([^,\\n]+)`);
   const match = objectText.match(regex);
   if (!match) return null;
   const parsed = Number(match[1]);
@@ -72,7 +83,7 @@ function parseNumberField(objectText: string, key: string) {
 }
 
 function parseBooleanField(objectText: string, key: string) {
-  const regex = new RegExp(`${key}\s*:\s*(true|false)`);
+  const regex = new RegExp(`${key}\\s*:\\s*(true|false)`);
   const match = objectText.match(regex);
   if (!match) return null;
   return match[1] === 'true';
@@ -84,11 +95,11 @@ function parseGamesFromFile(content: string): any[] {
     return [];
   }
 
-  const arrayStart = content.indexOf('[', exportIndex);
-  const arrayEnd = content.indexOf('];', arrayStart);
-  if (arrayStart === -1 || arrayEnd === -1) {
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
     return [];
   }
+  const { arrayStart, arrayEnd } = bounds;
 
   const games: any[] = [];
   let i = arrayStart;
@@ -134,11 +145,11 @@ function parseBaseGamesFullFromFile(content: string): any[] {
     return [];
   }
 
-  const arrayStart = content.indexOf('[', exportIndex);
-  const arrayEnd = content.indexOf('];', arrayStart);
-  if (arrayStart === -1 || arrayEnd === -1) {
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
     return [];
   }
+  const { arrayStart, arrayEnd } = bounds;
 
   const games: any[] = [];
   let i = arrayStart;
@@ -185,7 +196,7 @@ function parseBaseGamesFullFromFile(content: string): any[] {
 }
 
 function escapeString(value: string): string {
-  return value.replace(/\/g, '\\').replace(/'/g, "\'");
+  return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
 }
 
 function appendObjectToArrayFile(filePath: string, objectText: string) {
@@ -194,19 +205,17 @@ function appendObjectToArrayFile(filePath: string, objectText: string) {
   if (exportIndex === -1) {
     throw new Error('Array not found');
   }
-  const arrayStart = content.indexOf('[', exportIndex);
-  const arrayEnd = content.indexOf('];', arrayStart);
-  if (arrayStart === -1 || arrayEnd === -1) {
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
     throw new Error('Array bounds not found');
   }
+  const { arrayStart, arrayEnd } = bounds;
 
   const arrayBody = content.slice(arrayStart + 1, arrayEnd);
   const trimmedBody = arrayBody.trim();
   const needsComma = trimmedBody.length > 0 && !trimmedBody.endsWith(',');
 
-  const insert = (needsComma ? ',' : '') + '
-' + objectText + '
-';
+  const insert = (needsComma ? ',' : '') + '\n' + objectText + '\n';
   return (
     content.slice(0, arrayStart + 1) +
     arrayBody +
@@ -262,23 +271,20 @@ function updateGameInFile(filePath: string, gameData: any): boolean {
     platined: ${game.platined ?? false},
   }`
     )
-    .join(',
-');
+    .join(',\n');
 
   const exportIndex = content.indexOf('export const');
-  const arrayStart = content.indexOf('[', exportIndex);
-  const arrayEnd = content.indexOf('];', arrayStart);
-  if (arrayStart === -1 || arrayEnd === -1) {
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
     throw new Error('Array bounds not found');
   }
+  const { arrayStart, arrayEnd } = bounds;
 
   const newContent =
     content.slice(0, arrayStart + 1) +
-    '
-' +
+    '\n' +
     newArrayContent +
-    '
-' +
+    '\n' +
     content.slice(arrayEnd);
 
   fs.writeFileSync(filePath, newContent, 'utf8');

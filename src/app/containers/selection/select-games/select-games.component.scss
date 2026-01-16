@@ -7,8 +7,35 @@
     @extend %select-header;
   }
 
+  .game-info {
+    @extend %select-item-info;
+  }
+
   .toolbar {
     @extend %select-toolbar;
+
+    .add-new-game {
+      margin-top: 12px;
+      border-radius: 999px;
+      padding: 10px 18px;
+      background: #17a2b8;
+      color: #fff;
+      font-weight: 700;
+      box-shadow: 0 6px 14px rgba(23, 162, 184, 0.35);
+
+      &:hover {
+        background: #138496;
+        box-shadow: 0 8px 18px rgba(23, 162, 184, 0.45);
+      }
+    }
+
+    .error-message {
+      margin: 12px auto 0;
+      max-width: 800px;
+      color: #ff7b7b;
+      font-size: 14px;
+      text-align: center;
+    }
 
     .selection-info .count {
       color: #17a2b8;
@@ -28,7 +55,7 @@
     @extend %select-grid;
   }
 
-  .game-cover {
+  .game-poster {
     @extend %select-item;
 
     .overlay .checkmark {

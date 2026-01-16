@@ -50,7 +50,7 @@ function normalizeString(value: any, field: string) {
 }
 
 function parseStringField(objectText: string, key: string) {
-  const regex = new RegExp(`${key}\s*:\s*(['"])((?:\\.|(?!\1).)*)\1`);
+  const regex = new RegExp(`${key}\\s*:\\s*(['"])((?:\\\\.|(?!\\1).)*)\\1`);
   const match = objectText.match(regex);
   if (!match) return null;
   const quote = match[1];
@@ -59,12 +59,12 @@ function parseStringField(objectText: string, key: string) {
 
 function unescapeString(value: string, quote: string) {
   return value
-    .replace(new RegExp(`\\${quote}`, 'g'), quote)
-    .replace(/\\/g, '\');
+    .replace(new RegExp(`\\\\${quote}`, 'g'), quote)
+    .replace(/\\\\/g, '\\');
 }
 
 function parseNumberField(objectText: string, key: string) {
-  const regex = new RegExp(`${key}\s*:\s*([^,\n]+)`);
+  const regex = new RegExp(`${key}\\s*:\\s*([^,\\n]+)`);
   const match = objectText.match(regex);
   if (!match) return null;
   const parsed = Number(match[1]);
@@ -72,14 +72,14 @@ function parseNumberField(objectText: string, key: string) {
 }
 
 function parseBooleanField(objectText: string, key: string) {
-  const regex = new RegExp(`${key}\s*:\s*(true|false)`);
+  const regex = new RegExp(`${key}\\s*:\\s*(true|false)`);
   const match = objectText.match(regex);
   if (!match) return null;
   return match[1] === 'true';
 }
 
 function parseActors(objectText: string): string[] {
-  const regex = /name\s*:\s*(['"])((?:\\.|(?!).)*)/g;
+  const regex = /name\s*:\s*(['"])((?:\\.|(?!\1).)*)\1/g;
   const actors: string[] = [];
   let match = regex.exec(objectText);
   while (match) {
@@ -127,7 +127,8 @@ function parseSeriesFromFile(content: string): any[] {
             director,
             rating: parseNumberField(objectText, 'rating') ?? 0,
             timesWatched: parseNumberField(objectText, 'timesWatched') ?? 0,
-            stoppedAtSeason: parseNumberField(objectText, 'stoppedAtSeason') ?? 0,
+            stoppedAtSeason:
+              parseNumberField(objectText, 'stoppedAtSeason') ?? 0,
           });
         }
       }
@@ -237,7 +238,7 @@ function parseBaseSeriesFullFromFile(content: string): any[] {
 }
 
 function escapeString(value: string): string {
-  return value.replace(/\/g, '\\').replace(/'/g, "\'");
+  return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
 }
 
 function appendObjectToArrayFile(filePath: string, objectText: string) {
@@ -256,9 +257,7 @@ function appendObjectToArrayFile(filePath: string, objectText: string) {
   const trimmedBody = arrayBody.trim();
   const needsComma = trimmedBody.length > 0 && !trimmedBody.endsWith(',');
 
-  const insert = (needsComma ? ',' : '') + '
-' + objectText + '
-';
+  const insert = (needsComma ? ',' : '') + '\n' + objectText + '\n';
 
   return content.slice(0, arrayEnd) + insert + content.slice(arrayEnd);
 }
@@ -291,21 +290,21 @@ function replaceField(objectText: string, key: string, value: any) {
   if (value === undefined) return objectText;
   let next = objectText;
   if (typeof value === 'string') {
-    const regex = new RegExp(`(${key}\s*:\s*)(['"])((?:\\.|(?!\2).)*)\2`);
+    const regex = new RegExp(`(${key}\\s*:\\s*)(['"])((?:\\\\.|(?!\\2).)*)\\2`);
     if (!regex.test(next)) {
       throw new Error(`Field ${key} not found`);
     }
     next = next.replace(regex, (match, prefix, quote) => {
       const escaped = value
-        .replace(/\/g, '\\')
-        .replace(new RegExp(quote, 'g'), `\${quote}`);
+        .replace(/\\/g, '\\\\')
+        .replace(new RegExp(quote, 'g'), `\\${quote}`);
       return `${prefix}${quote}${escaped}${quote}`;
     });
     return next;
   }
 
   if (typeof value === 'boolean') {
-    const regex = new RegExp(`(${key}\s*:\s*)(true|false)`);
+    const regex = new RegExp(`(${key}\\s*:\\s*)(true|false)`);
     if (!regex.test(next)) {
       throw new Error(`Field ${key} not found`);
     }
@@ -314,7 +313,7 @@ function replaceField(objectText: string, key: string, value: any) {
   }
 
   if (typeof value === 'number') {
-    const regex = new RegExp(`(${key}\s*:\s*)([^,\n]+)`);
+    const regex = new RegExp(`(${key}\\s*:\\s*)([^,\\n]+)`);
     if (!regex.test(next)) {
       throw new Error(`Field ${key} not found`);
     }
@@ -360,7 +359,11 @@ function updateSerieInFile(content: string, payload: any) {
           let updated = objectText;
           updated = replaceField(updated, 'rating', payload.rating);
           updated = replaceField(updated, 'timesWatched', payload.timesWatched);
-          updated = replaceField(updated, 'stoppedAtSeason', payload.stoppedAtSeason);
+          updated = replaceField(
+            updated,
+            'stoppedAtSeason',
+            payload.stoppedAtSeason
+          );
 
           return (
             content.slice(0, objectStart) +
