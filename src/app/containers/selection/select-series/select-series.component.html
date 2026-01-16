@@ -4,54 +4,72 @@
   <div class="header">
     <h1>
       {{
-        isWatchOrReadlistMode()
-          ? "Sélectionner des séries pour ma watchlist"
-          : "Sélectionner des séries"
+        isAddMode()
+          ? "Ajouter des s&#233;ries vues"
+          : isWatchOrReadlistMode()
+          ? "S&#233;lectionner des s&#233;ries pour ma watchlist"
+          : "S&#233;lectionner des s&#233;ries"
       }}
     </h1>
 
     <div class="selection-description">
-      @if(isWatchOrReadlistMode()) {
+      @if(isAddMode()) {
       <p>
-        Bonjour {{ username() }} 👋 <br /><br />
-        Tu es en mode "Watchlist" ! Ici, tu peux sélectionner les séries que tu
-        souhaites ajouter à ta liste de séries à voir.
+        Bonjour {{ username() }} &#128075; <br /><br />
+        Ici tu peux ajouter des s&#233;ries que tu viens de voir. La liste ci-dessous
+        affiche uniquement les s&#233;ries que tu n'as pas encore dans ta collection.
         <br /><br />
-        Les séries que tu as déjà vus sont automatiquement exclus de cette liste
-        pour t'éviter les doublons.
+        S&#233;lectionne les s&#233;ries que tu as vues, puis clique sur "Ajouter &#224; mes
+        s&#233;ries vues".
+      </p>
+      <p>
+        Si tu ne trouves pas ta s&#233;rie dans la liste, ajoute-la d'abord dans les
+        entit&#233;s :
+      </p>
+      <button class="btn btn-primary add-new-serie" (click)="openAddSerieDialog()">
+        Ajouter une nouvelle s&#233;rie
+      </button>
+      } @else if(isWatchOrReadlistMode()) {
+      <p>
+        Bonjour {{ username() }} &#128075; <br /><br />
+        Tu es en mode "Watchlist" ! Ici, tu peux s&#233;lectionner les s&#233;ries que tu
+        souhaites ajouter &#224; ta liste de s&#233;ries &#224; voir.
         <br /><br />
-        Sélectionne les séries que tu aimerais voir et télécharge le fichier
+        Les s&#233;ries que tu as d&#233;j&#224; vues sont automatiquement exclues de cette
+        liste pour t'&#233;viter les doublons.
+        <br /><br />
+        S&#233;lectionne les s&#233;ries que tu aimerais voir et t&#233;l&#233;charge le fichier
         JSON pour construire ta watchlist.
       </p>
       } @else {
       <p>
-        Bonjour {{ username() }} 👋 <br /><br />
+        Bonjour {{ username() }} &#128075; <br /><br />
         Si tu es ici, c'est que tu souhaites pouvoir faire ta collection de
-        séries regardés, pouvoir les noter, les trier par préférence, par date
+        s&#233;ries regard&#233;es, pouvoir les noter, les trier par pr&#233;f&#233;rence, par date
         de sortie ou de dernier visionnage, etc... <br /><br />
-        Comment ça marche ? <br />
+        Comment &#231;a marche ? <br />
       </p>
 
       <ul>
         <li>
-          1. Parmi tous les séries présents sur cette page (scrolle pour les
-          voir), sélectionne ceux que tu as regardés. Ensuite, clique sur le
-          bouton "Exporter ma liste de séries" pour télécharger un fichier JSON
+          1. Parmi toutes les s&#233;ries pr&#233;sentes sur cette page (scrolle pour les
+          voir), s&#233;lectionne celles que tu as regard&#233;es. Ensuite, clique sur le
+          bouton "Exporter ma liste de s&#233;ries" pour t&#233;l&#233;charger un fichier JSON
           de ta collection, que tu pourras m'envoyer.<br />
-          <strong>Fais ça d'abord en entier avant de faire l'étape 2 !</strong>
+          <strong>Fais &#231;a d'abord en entier avant de faire l'&#233;tape 2 !</strong>
         </li>
         <li>
-          2. Une fois ceci fait, il faut créer un compte sur
+          2. Une fois ceci fait, il faut cr&#233;er un compte sur
           <a href="https://letterboxd.com/" target="_blank">Letterboxd</a> et
-          ajouter ta collection de séries dessus. C'est rapide ne t'en fais pas,
-          et c'est surtout que ce site répertorie tous les séries possibles et
-          imaginables. Tu as fait ta première sélection grosse maille parmi les
-          séries existants sur cette page, et Letterboxd va t'aider à compléter.
-          Pas besoin d'ajouter les séries que tu as déjà sélectionnés sur cette
-          page sur ta sélection Letterboxd, mais si tu le fais et qu'il y a des
+          ajouter ta collection de s&#233;ries dessus. C'est rapide ne t'en fais pas,
+          et c'est surtout que ce site r&#233;pertorie toutes les s&#233;ries possibles et
+          imaginables. Tu as fait ta premi&#232;re s&#233;lection grosse maille parmi les
+          s&#233;ries existantes sur cette page, et Letterboxd va t'aider &#224; compl&#233;ter.
+          Pas besoin d'ajouter les s&#233;ries que tu as d&#233;j&#224; s&#233;lectionn&#233;es sur cette
+          page sur ta s&#233;lection Letterboxd, mais si tu le fais et qu'il y a des
           doublons, ce ne sera pas grave ne t'en fais pas. <br /><br />
-          Voici des exemples de listes Letterboxd à parcourir pour sélectionner
-          des séries :
+          Voici des exemples de listes Letterboxd &#224; parcourir pour s&#233;lectionner
+          des s&#233;ries :
           <a
             href="https://letterboxd.com/eddiebergman/list/tv-shows-that-are-on-letterboxd-for-some/"
             target="_blank"
@@ -59,26 +77,26 @@
           >
         </li>
         <li>
-          3. Une fois ta sélection Letterboxd faite, il faut m'envoyer l'URL de
+          3. Une fois ta s&#233;lection Letterboxd faite, il faut m'envoyer l'URL de
           ta liste. Elle est normalement publique, il s'agit juste de mettre ton
-          nom d'utilisateur dans l'URL de cette façon :
+          nom d'utilisateur dans l'URL de cette fa&#231;on :
           <a href="https://letterboxd.com/webarranco/watchlist/" target="_blank"
             >https://letterboxd.com/webarranco/watchlist/</a
           >
         </li>
         <li>
-          4. Tu n'auras désormais plus besoin de Letterboxd, c'était juste pour
-          faire cette liste initiale complète ! Une fois que tu m'a envoyé le
-          fichier JSON avec la sélection que tu as faite sur cette page, ainsi
-          que l'URL de ta watchlist Letterboxd, je rentrerai toutes les données
-          dans ton profil et tu pourras avoir une superbe vue de tous tes
-          séries, et tu pourras ensuite les mettre à jour individuellement pour
-          renseigner la note de chacun ou le nombre de visionnages etc... Enjoy
+          4. Tu n'auras d&#233;sormais plus besoin de Letterboxd, c'&#233;tait juste pour
+          faire cette liste initiale compl&#232;te ! Une fois que tu m'a envoy&#233; le
+          fichier JSON avec la s&#233;lection que tu as faite sur cette page, ainsi
+          que l'URL de ta watchlist Letterboxd, je rentrerai toutes les donn&#233;es
+          dans ton profil et tu pourras avoir une superbe vue de toutes tes
+          s&#233;ries, et tu pourras ensuite les mettre &#224; jour individuellement pour
+          renseigner la note de chacune ou le nombre de visionnages etc... Enjoy
           !
         </li>
         <li>
-          5. En dernière étape une fois que tout cela sera fait, on trouvera un
-          moyen d'ajouter de nouveaux séries au fur et à mesure que tu en
+          5. En derni&#232;re &#233;tape une fois que tout cela sera fait, on trouvera un
+          moyen d'ajouter de nouvelles s&#233;ries au fur et &#224; mesure que tu en
           regardes et tu pourras profiter de l'outil tranquillement :)
         </li>
       </ul>
@@ -88,26 +106,42 @@
 
   <div class="toolbar">
     <div class="selection-info">
-      <span class="count">{{ selectedCount() }} série(s) sélectionnée(s)</span>
+      <span class="count">{{ selectedCount() }} s&#233;rie(s) s&#233;lectionn&#233;e(s)</span>
       <span class="total">sur {{ allSeries().length }}</span>
     </div>
 
     <div class="actions">
       <button class="btn btn-secondary" (click)="selectAll()">
-        Tout sélectionner
+        Tout s&#233;lectionner
       </button>
       <button class="btn btn-secondary" (click)="deselectAll()">
-        Tout désélectionner
+        Tout d&#233;s&#233;lectionner
       </button>
+      @if(isAddMode()) {
+      <button
+        class="btn btn-primary"
+        (click)="addSelectedSeries()"
+        [disabled]="selectedCount() === 0 || isAdding()"
+      >
+        &#10133;
+        {{ isAdding() ? "Ajout..." : "Ajouter &#224; mes s&#233;ries vues" }}
+        ({{ selectedCount() }})
+      </button>
+      } @else {
       <button
         class="btn btn-primary"
         (click)="exportSelectedSeries()"
         [disabled]="selectedCount() === 0"
       >
-        📥 Exporter ma liste de séries ({{ selectedCount() }})
+        &#128229; Exporter ma liste de s&#233;ries ({{ selectedCount() }})
       </button>
+      }
     </div>
   </div>
+
+  @if(isAddMode() && addErrorMessage()) {
+  <p class="error-message">{{ addErrorMessage() }}</p>
+  }
 
   <div class="series-grid">
     @for (serie of allSeries(); track `${serie.title}-${serie.releaseDate}`) {
@@ -119,7 +153,7 @@
     >
       <img [src]="serie.coverUrl" [alt]="serie.title" />
       <div class="overlay">
-        <div class="checkmark">✓</div>
+        <div class="checkmark">&#10003;</div>
         <div class="serie-info">
           <span class="serie-title">{{ serie.title }}</span>
           <span class="serie-year"

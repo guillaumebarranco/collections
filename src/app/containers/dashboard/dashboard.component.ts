@@ -65,31 +65,19 @@ export class DashboardComponent implements OnInit {
 
   booksList = signal<{ [key: string]: Book[] }>({});
   moviesList = signal<{ [key: string]: Movie[] }>({});
-  seriesList = signal<{ [key: string]: Serie[] }>(getAllSeries());
-  gamesList = signal<{ [key: string]: Game[] }>(getAllGames());
+  seriesList = signal<{ [key: string]: Serie[] }>({});
+  gamesList = signal<{ [key: string]: Game[] }>({});
 
   mangasList = signal<{ [key: string]: any[] }>({
     guillaume: [...mangas],
-    william: [],
-    kevin: [],
-    amandine: [],
-    ronan: [],
   });
 
   manwhasList = signal<{ [key: string]: any[] }>({
     guillaume: [...manwhas],
-    william: [],
-    kevin: [],
-    amandine: [],
-    ronan: [],
   });
 
   musicsList = signal<{ [key: string]: Music[] }>({
     guillaume: [...musics],
-    william: [],
-    kevin: [],
-    amandine: [],
-    ronan: [],
   });
 
   userId = computed<string>(() => {
@@ -443,6 +431,8 @@ export class DashboardComponent implements OnInit {
   ngOnInit() {
     void this.loadMoviesData();
     void this.loadBooksData();
+    void this.loadSeriesData();
+    void this.loadGamesData();
   }
 
   private async loadMoviesData() {
@@ -455,5 +445,17 @@ export class DashboardComponent implements OnInit {
     const userId = this.userId() || 'guillaume';
     const books = await getAllBooks(userId);
     this.booksList.set(books);
+  }
+
+  private async loadSeriesData() {
+    const userId = this.userId() || 'guillaume';
+    const series = await getAllSeries(userId);
+    this.seriesList.set(series);
+  }
+
+  private async loadGamesData() {
+    const userId = this.userId() || 'guillaume';
+    const games = await getAllGames(userId);
+    this.gamesList.set(games);
   }
 }

@@ -24,6 +24,8 @@ import { MusicsComponent } from './containers/collections/musics/musics.componen
 import { SelectMusicsComponent } from './containers/selection/select-musics/select-musics.component';
 import { EditMovieComponent } from './containers/edit/edit-movie/edit-movie.component';
 import { EditBookComponent } from './containers/edit/edit-book/edit-book.component';
+import { EditSerieComponent } from './containers/edit/edit-serie/edit-serie.component';
+import { EditGameComponent } from './containers/edit/edit-game/edit-game.component';
 
 export const routes: Routes = [
   {
@@ -129,6 +131,10 @@ export const routes: Routes = [
         component: EditBookComponent,
       },
       {
+        path: 'edit-game/:slug',
+        component: EditGameComponent,
+      },
+      {
         path: 'dashboard',
         component: DashboardComponent,
       },
@@ -167,10 +173,22 @@ export const routes: Routes = [
       {
         path: 'series',
         component: SeriesComponent,
+        children: [
+          {
+            path: 'edit/:slug',
+            component: EditSerieComponent,
+          },
+        ],
       },
       {
         path: 'games',
         component: GamesComponent,
+        children: [
+          {
+            path: 'edit/:slug',
+            component: EditGameComponent,
+          },
+        ],
       },
       {
         path: 'musics',

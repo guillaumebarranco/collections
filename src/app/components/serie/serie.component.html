@@ -1,4 +1,12 @@
 <div class="serie-card">
+  <button
+    type="button"
+    class="edit-button"
+    aria-label="Editer la serie"
+    (click)="navigateToEdit()"
+  >
+    &#9998;
+  </button>
   <div class="serie-cover">
     <img [src]="serie.coverUrl" [alt]="serie.title" class="cover-image" />
   </div>

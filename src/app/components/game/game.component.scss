@@ -2,6 +2,30 @@
 
 .game-card {
   @include components.component-card-base;
+  position: relative;
+}
+
+.edit-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border: none;
+  color: #fff;
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 14px;
+  z-index: 2;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.edit-button:hover {
+  background: rgba(0, 0, 0, 0.8);
+  transform: scale(1.05);
 }
 
 p {

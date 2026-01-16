@@ -1,0 +1,82 @@
+<div class="edit-serie">
+  @if(!isDialogMode()) {
+  <button (click)="navigateToSeries()" class="back-link">
+    Retour aux sÃ©ries
+  </button>
+  } @else {
+  <button
+    type="button"
+    class="dialog-close"
+    aria-label="Fermer"
+    (click)="navigateToSeries()"
+  >
+    âœ•
+  </button>
+  }
+
+  <h1 class="title">Ã‰diter une sÃ©rie</h1>
+
+  @if(serieNotFound()) {
+  <p class="not-found">Aucune sÃ©rie trouvÃ©e pour ce slug.</p>
+  } @else {
+  <img [src]="serieForm()?.coverUrl" alt="Cover" width="200" />
+  <div>{{ serieForm()?.title }}</div>
+  <br />
+
+  <form *ngIf="serieForm()" class="edit-form" (ngSubmit)="onSubmit()">
+    <div class="form-row">
+      <label>Note</label>
+      <div class="rating-control">
+        <button
+          *ngFor="let star of [1, 2, 3, 4, 5]"
+          type="button"
+          class="star-btn"
+          (click)="setRatingFromClick(star, $event)"
+        >
+          <span
+            class="star"
+            [class.star-full]="
+              getStarType(serieForm()?.rating || 0, star) === 'full'
+            "
+            [class.star-half]="
+              getStarType(serieForm()?.rating || 0, star) === 'half'
+            "
+            [class.star-empty]="
+              getStarType(serieForm()?.rating || 0, star) === 'empty'
+            "
+          >
+            â˜…
+          </span>
+        </button>
+        <span class="rating-value">{{ serieForm()?.rating }}/5</span>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <label for="timesWatched">Visionnages</label>
+      <input
+        id="timesWatched"
+        type="number"
+        min="0"
+        [ngModel]="serieForm()?.timesWatched"
+        (ngModelChange)="updateField('timesWatched', $event)"
+        name="timesWatched"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="stoppedAtSeason">Saison d'arrÃªt</label>
+      <input
+        id="stoppedAtSeason"
+        type="number"
+        min="0"
+        [ngModel]="serieForm()?.stoppedAtSeason"
+        (ngModelChange)="updateField('stoppedAtSeason', $event)"
+        name="stoppedAtSeason"
+      />
+    </div>
+
+    <button type="submit" class="submit-btn">Modifier</button>
+  </form>
+  }
+</div>

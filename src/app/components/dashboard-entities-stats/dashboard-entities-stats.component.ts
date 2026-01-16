@@ -44,14 +44,11 @@ export class DashboardEntitiesStatsComponent implements OnInit {
   entities: EntityType[] = ['movies', 'series', 'books', 'games', 'musics'];
 
   moviesList = signal<{ [key: string]: Movie[] }>({});
-  seriesList = signal<{ [key: string]: Serie[] }>(getAllSeries());
+  seriesList = signal<{ [key: string]: Serie[] }>({});
   booksList = signal<{ [key: string]: Book[] }>({});
-  gamesList = signal<{ [key: string]: Game[] }>(getAllGames());
+  gamesList = signal<{ [key: string]: Game[] }>({});
   musicsList = signal<{ [key: string]: Music[] }>({
     guillaume: [...musics],
-    william: [],
-    kevin: [],
-    amandine: [],
   });
 
   userId = computed<string>(() => {
@@ -339,8 +336,10 @@ export class DashboardEntitiesStatsComponent implements OnInit {
   }
 
   ngOnInit() {
+    void this.loadGamesData();
     void this.loadMoviesData();
     void this.loadBooksData();
+    void this.loadSeriesData();
   }
 
   private async loadMoviesData() {
@@ -353,5 +352,17 @@ export class DashboardEntitiesStatsComponent implements OnInit {
     const userId = this.userId() || 'guillaume';
     const books = await getAllBooks(userId);
     this.booksList.set(books);
+  }
+
+  private async loadSeriesData() {
+    const userId = this.userId() || 'guillaume';
+    const series = await getAllSeries(userId);
+    this.seriesList.set(series);
+  }
+
+  private async loadGamesData() {
+    const userId = this.userId() || 'guillaume';
+    const games = await getAllGames(userId);
+    this.gamesList.set(games);
   }
 }

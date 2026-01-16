@@ -53,7 +53,7 @@
   <div class="games">
     @for (game of sortedGames(); track game.title) {
     <div class="game-card">
-      <app-game [game]="game"></app-game>
+      <app-game [game]="game" (gameUpdated)="refreshGames()"></app-game>
     </div>
     }
   </div>

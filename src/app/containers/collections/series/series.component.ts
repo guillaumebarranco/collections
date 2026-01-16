@@ -1,4 +1,4 @@
-import { Component, computed, inject, signal } from '@angular/core';
+import { Component, computed, inject, signal, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SerieComponent } from '../../../components/serie/serie.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
@@ -34,7 +34,7 @@ type SerieView = 'finished' | 'stopped';
   templateUrl: './series.component.html',
   styleUrls: ['./series.component.scss'],
 })
-export class SeriesComponent {
+export class SeriesComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
 
   selectedSort = signal<string>('rating');
@@ -57,7 +57,7 @@ export class SeriesComponent {
     { value: 'nbEpisodesTotal-asc', label: 'Épisodes (faible)' },
   ]);
 
-  seriesList = signal<{ [key: string]: Serie[] }>(getAllSeries());
+  seriesList = signal<{ [key: string]: Serie[] }>({});
 
   allSeries = computed<Serie[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
@@ -174,6 +174,21 @@ export class SeriesComponent {
     }
     // Fallback si nbSeasons est 0 ou invalide
     return serie.totalLength;
+  }
+
+  ngOnInit() {
+    void this.refreshSeries();
+  }
+
+  async refreshSeries() {
+    const userId = this.getActiveUserId();
+    const series = await getAllSeries(userId);
+    this.seriesList.set(series);
+  }
+
+  private getActiveUserId(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    return params['id'] ?? 'guillaume';
   }
 
   onSortChange(sortValue: string) {

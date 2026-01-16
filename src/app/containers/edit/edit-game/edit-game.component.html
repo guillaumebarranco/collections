@@ -1,0 +1,87 @@
+<div class="edit-game">
+  @if(!isDialogMode()) {
+  <button (click)="navigateToGames()" class="back-link">
+    Retour aux jeux
+  </button>
+  } @else {
+  <button
+    type="button"
+    class="dialog-close"
+    aria-label="Fermer"
+    (click)="navigateToGames()"
+  >
+    &#10005;
+  </button>
+  }
+
+  <h1 class="title">Editer un jeu</h1>
+
+  @if(gameNotFound()) {
+  <p class="not-found">Aucun jeu trouve pour ce slug.</p>
+  } @else {
+  <img [src]="gameForm()?.coverUrl" alt="Cover" width="200" />
+  <div>{{ gameForm()?.title }}</div>
+  <br />
+
+  <form *ngIf="gameForm()" class="edit-form" (ngSubmit)="onSubmit()">
+    <div class="form-row">
+      <label>Note</label>
+      <div class="rating-control">
+        <button
+          *ngFor="let star of [1, 2, 3, 4, 5]"
+          type="button"
+          class="star-btn"
+          (click)="setRatingFromClick(star, $event)"
+        >
+          <span
+            class="star"
+            [class.star-full]="getStarType(gameForm()?.rating || 0, star) === 'full'"
+            [class.star-half]="getStarType(gameForm()?.rating || 0, star) === 'half'"
+            [class.star-empty]="getStarType(gameForm()?.rating || 0, star) === 'empty'"
+          >
+            &#9733;
+          </span>
+        </button>
+        <span class="rating-value">{{ gameForm()?.rating }}/5</span>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <label for="timesFinished">Termines</label>
+      <input
+        id="timesFinished"
+        type="number"
+        min="0"
+        [ngModel]="gameForm()?.timesFinished"
+        (ngModelChange)="updateField('timesFinished', $event)"
+        name="timesFinished"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="additionnalEstimatedTime">Temps additionnel (h)</label>
+      <input
+        id="additionnalEstimatedTime"
+        type="number"
+        min="0"
+        [ngModel]="gameForm()?.additionnalEstimatedTime"
+        (ngModelChange)="updateField('additionnalEstimatedTime', $event)"
+        name="additionnalEstimatedTime"
+      />
+    </div>
+
+    <div class="form-row checkbox-row">
+      <label for="platined">Platined</label>
+      <input
+        id="platined"
+        type="checkbox"
+        [checked]="gameForm()?.platined"
+        (change)="updateCheckbox('platined', $any($event).target.checked)"
+        name="platined"
+      />
+    </div>
+
+    <button type="submit" class="submit-btn">Modifier</button>
+  </form>
+  }
+</div>

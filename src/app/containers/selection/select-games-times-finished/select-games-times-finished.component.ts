@@ -1,4 +1,4 @@
-import { Component, signal, computed } from '@angular/core';
+import { Component, signal, computed, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import { Game } from '../../../models/game-model';
@@ -14,31 +14,26 @@ import { SelectEntitiesComponent } from '../select-base.component';
     '../select-base.scss',
   ],
 })
-export class SelectGamesTimesFinishedComponent extends SelectEntitiesComponent {
-  // Tous les jeux de l'utilisateur
-  allGames = computed<Game[]>(() => {
-    return getGamesByUser(this.userId());
-  });
+export class SelectGamesTimesFinishedComponent
+  extends SelectEntitiesComponent
+  implements OnInit
+{
+  allGames = signal<Game[]>([]);
 
-  // Map pour stocker les timesFinished mis à jour (clé: title-editor, valeur: timesFinished)
   gamesTimesFinished = signal<Map<string, number>>(new Map());
 
-  // Valeurs possibles pour timesFinished
   readonly timesFinishedOptions = [1, 2, 3, 5, 10, 15, 20, 25, 30, 40, 50];
 
-  // Générer une clé unique pour un jeu
   private getGameKey(game: Game): string {
     return `${game.title}-${game.editor}`;
   }
 
-  // Obtenir le timesFinished actuel d'un jeu (depuis la map ou depuis le jeu original)
   getTimesFinished(game: Game): number {
     const key = this.getGameKey(game);
     const updatedValue = this.gamesTimesFinished().get(key);
     return updatedValue !== undefined ? updatedValue : game.timesFinished;
   }
 
-  // Mettre à jour le timesFinished d'un jeu
   updateTimesFinished(game: Game, timesFinished: number): void {
     const key = this.getGameKey(game);
     const updated = new Map(this.gamesTimesFinished());
@@ -46,7 +41,6 @@ export class SelectGamesTimesFinishedComponent extends SelectEntitiesComponent {
     this.gamesTimesFinished.set(updated);
   }
 
-  // Compter le nombre de jeux modifiés
   modifiedCount = computed(() => {
     return this.allGames().filter((game) => {
       const key = this.getGameKey(game);
@@ -54,8 +48,7 @@ export class SelectGamesTimesFinishedComponent extends SelectEntitiesComponent {
     }).length;
   });
 
-  // Exporter les jeux avec leur timesFinished mis à jour
-  exportGamesTimesFinished(): void {
+  async exportGamesTimesFinished(): Promise<void> {
     const gamesToExport = this.allGames().map((game) => {
       const key = this.getGameKey(game);
       const updatedTimesFinished = this.gamesTimesFinished().get(key);
@@ -71,28 +64,67 @@ export class SelectGamesTimesFinishedComponent extends SelectEntitiesComponent {
     });
 
     if (gamesToExport.length === 0) {
-      alert('Aucun jeu à exporter !');
+      alert('Aucun jeu a exporter !');
       return;
     }
 
-    const jsonContent = JSON.stringify(gamesToExport, null, 2);
-    const fileName = `my-games-times-finished-${this.userId()}-${new Date().getTime()}.json`;
+    if (this.isLocalhost()) {
+      this.exportJson(gamesToExport, 'my-games-times-finished');
+      return;
+    }
 
-    // Créer un blob
+    await this.saveGamesPayload(gamesToExport);
+  }
+
+  ngOnInit() {
+    void this.refreshGames();
+  }
+
+  private async refreshGames() {
+    const games = await getGamesByUser(this.userId());
+    this.allGames.set(games);
+  }
+
+  private isLocalhost(): boolean {
+    return document.location.origin.includes('localhost');
+  }
+
+  private getApiUrl(): string {
+    return document.location.origin.includes('localhost')
+      ? `http://localhost:3001/api`
+      : 'https://makya.webarranco.fr/api';
+  }
+
+  private exportJson(payload: object[], prefix: string) {
+    const jsonContent = JSON.stringify(payload, null, 2);
+    const fileName = `${prefix}-${this.userId()}-${new Date().getTime()}.json`;
     const blob = new Blob([jsonContent], { type: 'application/json' });
-
-    // Créer un lien de téléchargement
     const url = window.URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
     link.download = fileName;
-
-    // Télécharger le fichier
     document.body.appendChild(link);
     link.click();
-
-    // Nettoyer
     document.body.removeChild(link);
     window.URL.revokeObjectURL(url);
+  }
+
+  private async saveGamesPayload(payload: object[]) {
+    const response = await fetch(`${this.getApiUrl()}/games`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        userId: this.userId(),
+        games: payload,
+      }),
+    });
+
+    if (!response.ok) {
+      alert("Erreur lors de l'enregistrement.");
+      return;
+    }
+
+    this.gamesTimesFinished.set(new Map());
+    await this.refreshGames();
   }
 }

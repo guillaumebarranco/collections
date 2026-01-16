@@ -4,8 +4,8 @@
   <h1>
     {{
       selectedView() === "stopped"
-        ? "Séries stoppées"
-        : "Séries finies"
+        ? "S&#233;ries stopp&#233;es"
+        : "S&#233;ries finies"
     }}
     ({{ filteredSeries().length }})
   </h1>
@@ -18,42 +18,50 @@
         [class.active]="selectedView() === 'finished'"
         (click)="onViewChange('finished')"
       >
-        Séries finies
+        S&#233;ries finies
       </button>
       <button
         class="toggle-option"
         [class.active]="selectedView() === 'stopped'"
         (click)="onViewChange('stopped')"
       >
-        Séries stoppées
+        S&#233;ries stopp&#233;es
       </button>
     </div>
 
     <div class="series-actions">
       <button
         class="btn btn-small"
-        [routerLink]="getSelectSeriesRatingRoute()"
-        title="Mettre à jour les notes de mes séries"
+        [routerLink]="getSelectSeriesRoute()"
+        [queryParams]="{ add: 'true' }"
+        title="Ajouter une s&#233;rie"
       >
-        ⭐ Notes
+        &#10133; Ajouter une s&#233;rie
+      </button>
+      <button
+        class="btn btn-small"
+        [routerLink]="getSelectSeriesRatingRoute()"
+        title="Mettre &#224; jour les notes de mes s&#233;ries"
+      >
+        &#11088; Notes
       </button>
       <button
         class="btn btn-small"
         [routerLink]="getSelectSeriesTimesWatchedRoute()"
-        title="Mettre à jour le nombre de visionnages de mes séries"
+        title="Mettre &#224; jour le nombre de visionnages de mes s&#233;ries"
       >
-        📺 Visionnages
+        &#128250; Visionnages
       </button>
     </div>
   </div>
   } @if(allSeries().length === 0) {
   <div class="empty-state">
-    <p class="empty-message">Vous n'avez aucune série dans votre collection.</p>
+    <p class="empty-message">Vous n'avez aucune s&#233;rie dans votre collection.</p>
     <p class="empty-subtitle">
-      Commencez dès maintenant à créer votre sériethèque personnelle !
+      Commencez d&#232;s maintenant &#224; cr&#233;er votre s&#233;rieth&#232;que personnelle !
     </p>
     <button class="btn btn-primary" [routerLink]="getSelectSeriesRoute()">
-      Sélectionner mes séries
+      S&#233;lectionner mes s&#233;ries
     </button>
   </div>
   }
@@ -62,7 +70,7 @@
     <app-stats-display
       [stats]="stats()"
       [count]="filteredSeries().length"
-      countLabel="séries"
+      countLabel="s&#233;ries"
     >
     </app-stats-display>
 
@@ -77,7 +85,7 @@
   <div class="series">
     @for (serie of sortedSeries(); track serie.title) {
     <div class="serie-card">
-      <app-serie [serie]="serie"></app-serie>
+      <app-serie [serie]="serie" (serieUpdated)="refreshSeries()"></app-serie>
     </div>
     }
   </div>

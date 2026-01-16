@@ -1,7 +1,17 @@
-import { Component, Input } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  EventEmitter,
+  Input,
+  Output,
+  inject,
+} from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ActivatedRoute } from '@angular/router';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { Game } from '../../models/game-model';
 import { getGameTimePlayed } from '../../containers/collections/games/games.component';
+import { EditGameComponent } from '../../containers/edit/edit-game/edit-game.component';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -11,12 +21,37 @@ interface StarInfo {
 @Component({
   selector: 'app-game',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, MatDialogModule],
   templateUrl: './game.component.html',
   styleUrls: ['./game.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class GameComponent {
+  private readonly activatedRoute = inject(ActivatedRoute);
+  private readonly dialog = inject(MatDialog);
+
   @Input() game!: Game;
+  @Output() gameUpdated = new EventEmitter<void>();
+
+  navigateToEdit(): void {
+    const directId = this.activatedRoute.snapshot.params['id'];
+    const parentId = this.activatedRoute.parent?.snapshot.params['id'];
+    const userId = directId || parentId;
+    const dialogRef = this.dialog.open(EditGameComponent, {
+      data: {
+        game: this.game,
+        userId: userId || 'guillaume',
+      },
+      width: '720px',
+      maxWidth: '95vw',
+    });
+
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result?.updated) {
+        this.gameUpdated.emit();
+      }
+    });
+  }
 
   getRatingStars(rating: number): StarInfo[] {
     const stars: StarInfo[] = [];

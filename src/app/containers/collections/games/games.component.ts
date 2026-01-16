@@ -1,4 +1,4 @@
-import { Component, computed, inject, signal } from '@angular/core';
+import { Component, computed, inject, signal, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { GameComponent } from '../../../components/game/game.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
@@ -75,7 +75,7 @@ export function getTotalPlayedTime(items: ItemWithGameLength[]): TimeStats {
   templateUrl: './games.component.html',
   styleUrls: ['./games.component.scss'],
 })
-export class GamesComponent {
+export class GamesComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
 
   selectedSort = signal<string>('rating');
@@ -95,7 +95,7 @@ export class GamesComponent {
     { value: 'totalPlayedTime-asc', label: 'Temps passé (faible)' },
   ]);
 
-  gamesList = signal<{ [key: string]: Game[] }>(getAllGames());
+  gamesList = signal<{ [key: string]: Game[] }>({});
 
   allGames = computed<Game[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
@@ -218,6 +218,21 @@ export class GamesComponent {
       },
     ];
   });
+
+  ngOnInit() {
+    void this.refreshGames();
+  }
+
+  async refreshGames() {
+    const userId = this.getActiveUserId();
+    const games = await getAllGames(userId);
+    this.gamesList.set(games);
+  }
+
+  private getActiveUserId(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    return params['id'] ?? 'guillaume';
+  }
 
   onSortChange(sortValue: string) {
     this.selectedSort.set(sortValue);
