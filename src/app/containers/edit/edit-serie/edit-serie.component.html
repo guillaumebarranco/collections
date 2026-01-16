@@ -1,7 +1,7 @@
 <div class="edit-serie">
   @if(!isDialogMode()) {
   <button (click)="navigateToSeries()" class="back-link">
-    Retour aux sÃ©ries
+    Retour aux s&#233;ries
   </button>
   } @else {
   <button
@@ -10,14 +10,14 @@
     aria-label="Fermer"
     (click)="navigateToSeries()"
   >
-    âœ•
+    &#10005;
   </button>
   }
 
-  <h1 class="title">Ã‰diter une sÃ©rie</h1>
+  <h1 class="title">&#201;diter une s&#233;rie</h1>
 
   @if(serieNotFound()) {
-  <p class="not-found">Aucune sÃ©rie trouvÃ©e pour ce slug.</p>
+  <p class="not-found">Aucune s&#233;rie trouv&#233;e pour ce slug.</p>
   } @else {
   <img [src]="serieForm()?.coverUrl" alt="Cover" width="200" />
   <div>{{ serieForm()?.title }}</div>
@@ -45,7 +45,7 @@
               getStarType(serieForm()?.rating || 0, star) === 'empty'
             "
           >
-            â˜…
+            &#9733;
           </span>
         </button>
         <span class="rating-value">{{ serieForm()?.rating }}/5</span>
@@ -65,7 +65,7 @@
     </div>
 
     <div class="form-row">
-      <label for="stoppedAtSeason">Saison d'arrÃªt</label>
+      <label for="stoppedAtSeason">Saison d'arr&#234;t</label>
       <input
         id="stoppedAtSeason"
         type="number"
