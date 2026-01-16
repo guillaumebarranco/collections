@@ -39,14 +39,21 @@
     </div>
 
     <div class="movies-actions">
+      @if(selectedView() !== 'cinema') {
       <button
         class="btn btn-small"
         [routerLink]="getSelectMoviesRoute()"
-        [queryParams]="{ add: 'true' }"
+        [queryParams]="{ watchlist: selectedView() === 'watchlist' }"
         title="Ajouter un film"
       >
-        ➕ Ajouter un film
+        ➕
+        {{
+          selectedView() === "watchlist"
+            ? "Ajouter des films à voir"
+            : "Ajouter des films vus"
+        }}
       </button>
+      }
       <button
         class="btn btn-small"
         [routerLink]="getSelectMoviesRatingRoute()"

@@ -3,8 +3,10 @@ const fs = require('fs');
 const path = require('path');
 const {
   normalizeString,
+  normalizeBoolean,
   appendObjectToArrayFile,
   parseMoviesFromFile,
+  getUserMoviesFiles,
 } = require('../../utils/movies/movies-utils');
 
 const router = express.Router();
@@ -21,8 +23,16 @@ function formatUserMovie(movie: any) {
   )}',\n    rating: 0,\n    timesWatched: 1,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    seenAtCinema: false,\n  },`;
 }
 
-function getUserMoviesTargetFile(userId: string) {
-  const userFile = path.join(
+function formatWatchlistMovie(movie: any) {
+  return `  {\n    title: '${escapeString(
+    movie.title
+  )}',\n    director: '${escapeString(
+    movie.director
+  )}',\n    rating: 0,\n    timesWatched: 0,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    seenAtCinema: false,\n  },`;
+}
+
+function getUserMoviesTargetFile(userId: string, isWatchlist: boolean) {
+  const userDir = path.join(
     __dirname,
     '..',
     '..',
@@ -32,13 +42,30 @@ function getUserMoviesTargetFile(userId: string) {
     'utils',
     'users',
     userId,
-    'movies',
-    `${userId}_movies.ts`
+    'movies'
   );
-  if (!fs.existsSync(userFile)) {
+  if (!fs.existsSync(userDir)) {
+    throw new Error(`User movies directory not found: ${userId}`);
+  }
+
+  const files = fs
+    .readdirSync(userDir)
+    .filter((file: string) => file.endsWith('.ts') && file !== 'index.ts')
+    .filter((file: string) =>
+      isWatchlist ? file.includes('watchlist') : !file.includes('watchlist')
+    );
+
+  const preferred = files.find((file: string) =>
+    isWatchlist
+      ? file.includes(`${userId}_watchlist_movies`)
+      : file.includes(`${userId}_movies`)
+  );
+  const selected = preferred || files.sort()[0];
+  if (!selected) {
     throw new Error(`User movies file not found: ${userId}`);
   }
-  return userFile;
+
+  return path.join(userDir, selected);
 }
 
 router.post('/add-existing', (req: any, res: any) => {
@@ -51,6 +78,7 @@ router.post('/add-existing', (req: any, res: any) => {
     }
 
     const movies = Array.isArray(input.movies) ? input.movies : [];
+    const isWatchlist = normalizeBoolean(input.watchlist, 'watchlist') ?? false;
     const normalizedMovies = movies
       .map((movie: any) => ({
         title: normalizeString(movie.title, 'title'),
@@ -63,12 +91,14 @@ router.post('/add-existing', (req: any, res: any) => {
       return;
     }
 
-    const userFile = getUserMoviesTargetFile(userId);
-    const userContent = fs.readFileSync(userFile, 'utf8');
-    const existing = parseMoviesFromFile(userContent).map((movie: any) => ({
-      title: movie.title,
-      director: movie.director,
-    }));
+    const userFiles = getUserMoviesFiles(userId);
+    const existing = userFiles.flatMap((movieFile: string) => {
+      const fileContent = fs.readFileSync(movieFile, 'utf8');
+      return parseMoviesFromFile(fileContent).map((movie: any) => ({
+        title: movie.title,
+        director: movie.director,
+      }));
+    });
 
     const existingSet = new Set(
       existing.map((movie: any) => `${movie.title}|${movie.director}`)
@@ -83,9 +113,11 @@ router.post('/add-existing', (req: any, res: any) => {
       return;
     }
 
-    let nextContent = userContent;
+    const userFile = getUserMoviesTargetFile(userId, isWatchlist);
+    let nextContent = fs.readFileSync(userFile, 'utf8');
+    const formatMovie = isWatchlist ? formatWatchlistMovie : formatUserMovie;
     for (const movie of toAdd) {
-      nextContent = appendObjectToArrayFile(userFile, formatUserMovie(movie));
+      nextContent = appendObjectToArrayFile(userFile, formatMovie(movie));
       fs.writeFileSync(userFile, nextContent, 'utf8');
     }
 

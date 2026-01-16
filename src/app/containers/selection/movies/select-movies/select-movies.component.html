@@ -4,22 +4,18 @@
   <div class="header">
     <h1>
       {{
-        isAddMode()
-          ? "Ajouter des films vus"
-          : isWatchOrReadlistMode()
+        isWatchOrReadlistMode()
           ? "Sélectionner des films pour ma watchlist"
-          : isCinemaMode()
-          ? "Sélectionner mes films vus au cinéma"
-          : "Sélectionner des films"
+          : "Ajouter des films vus"
       }}
     </h1>
 
     <div class="selection-description">
-      @if(isAddMode()) {
+      @if(!isWatchOrReadlistMode()) {
       <p>
-        Bonjour {{ username() }} 👋 <br /><br />
-        Ici tu peux ajouter des films que tu viens de voir. La liste ci-dessous
-        affiche uniquement les films que tu n'as pas encore dans ta collection.
+        Bonjour {{ username() }} <br /><br />
+        Ici tu peux ajouter des films que tu as vu. La liste ci-dessous affiche
+        uniquement les films que tu n'as pas encore dans ta collection.
         <br /><br />
         Sélectionne les films que tu as vus, puis clique sur "Ajouter à mes
         films vus".
@@ -28,96 +24,33 @@
         Si tu ne trouves pas ton film dans la liste, ajoute-le d'abord dans les
         entités :
       </p>
-      <button class="btn btn-primary add-new-movie" (click)="openAddMovieDialog()">
+      <button
+        class="btn btn-primary add-new-movie"
+        (click)="openAddMovieDialog()"
+      >
         Ajouter un nouveau film
       </button>
       } @else if(isWatchOrReadlistMode()) {
       <p>
-        Bonjour {{ username() }} 👋 <br /><br />
+        Bonjour {{ username() }} <br /><br />
         Tu es en mode "Watchlist" ! Ici, tu peux sélectionner les films que tu
         souhaites ajouter à ta liste de films à voir.
         <br /><br />
         Les films que tu as déjà vus sont automatiquement exclus de cette liste
         pour t'éviter les doublons.
         <br /><br />
-        Sélectionne les films que tu aimerais voir et télécharge le fichier JSON
-        pour construire ta watchlist.
-      </p>
-      } @else if(isCinemaMode()) {
-      <p>
-        Bonjour {{ username() }} 👋 <br /><br />
-        Tu es en mode "Films vus au cinéma" ! Ici, tu peux sélectionner parmi
-        tous les films que tu as vus ceux que tu as visionnés au cinéma.
-        <br /><br />
-        Sélectionne les films que tu as vus au cinéma et télécharge le fichier
-        JSON. Les films sélectionnés auront la propriété seenAtCinema définie à
-        true dans l'export.
+        Sélectionne les films que tu aimerais voir et télécharge le fichier
+        JSON pour construire ta watchlist.
       </p>
       } @else {
-      <p>
-        Bonjour {{ username() }} 👋 <br /><br />
+      <!-- <p>
+        Bonjour {{ username() }} <br /><br />
         Si tu es ici, c'est que tu souhaites pouvoir faire ta collection de
         films regardés, pouvoir les noter, les trier par préférence, par date de
         sortie ou de dernier visionnage, etc... <br /><br />
         Comment ça marche ? <br />
-      </p>
+      </p> -->
 
-      <ul>
-        <li>
-          1. Parmi tous les films présents sur cette page (scrolle pour les
-          voir), sélectionne ceux que tu as regardés. Ensuite, clique sur le
-          bouton "Exporter ma liste de films" pour télécharger un fichier JSON
-          de ta collection, que tu pourras m'envoyer.<br />
-          <strong>Fais ça d'abord en entier avant de faire l'étape 2 !</strong>
-        </li>
-        <li>
-          2. Une fois ceci fait, il faut créer un compte sur
-          <a href="https://letterboxd.com/" target="_blank">Letterboxd</a> et
-          ajouter ta collection de films dessus. C'est rapide ne t'en fais pas,
-          et c'est surtout que ce site répertorie tous les films possibles et
-          imaginables. Tu as fait ta première sélection grosse maille parmi les
-          films existants sur cette page, et Letterboxd va t'aider à compléter.
-          Pas besoin d'ajouter les films que tu as déjà sélectionnés sur cette
-          page sur ta sélection Letterboxd, mais si tu le fais et qu'il y a des
-          doublons, ce ne sera pas grave ne t'en fais pas. <br /><br />
-          Voici des exemples de listes Letterboxd à parcourir pour sélectionner
-          des films :
-          <a
-            href="https://letterboxd.com/el_duderinno/list/top-2000-most-watched/"
-            target="_blank"
-            >https://letterboxd.com/el_duderinno/list/top-2000-most-watched/</a
-          >
-          ou encore
-          <a
-            href="https://letterboxd.com/hershwin/list/movies-with-over-100000-views/"
-            target="_blank"
-            >https://letterboxd.com/hershwin/list/movies-with-over-100000-views/</a
-          >
-        </li>
-        <li>
-          3. Une fois ta sélection Letterboxd faite, il faut m'envoyer l'URL de
-          ta liste. Elle est normalement publique, il s'agit juste de mettre ton
-          nom d'utilisateur dans l'URL de cette façon :
-          <a href="https://letterboxd.com/webarranco/watchlist/" target="_blank"
-            >https://letterboxd.com/webarranco/watchlist/</a
-          >
-        </li>
-        <li>
-          4. Tu n'auras désormais plus besoin de Letterboxd, c'était juste pour
-          faire cette liste initiale complète ! Une fois que tu m'a envoyé le
-          fichier JSON avec la sélection que tu as faite sur cette page, ainsi
-          que l'URL de ta watchlist Letterboxd, je rentrerai toutes les données
-          dans ton profil et tu pourras avoir une superbe vue de tous tes films,
-          et tu pourras ensuite les mettre à jour individuellement pour
-          renseigner la note de chacun ou le nombre de visionnages etc... Enjoy
-          !
-        </li>
-        <li>
-          5. En dernière étape une fois que tout cela sera fait, on trouvera un
-          moyen d'ajouter de nouveaux films au fur et à mesure que tu en
-          regardes et tu pourras profiter de l'outil tranquillement :)
-        </li>
-      </ul>
       }
     </div>
   </div>
@@ -129,45 +62,20 @@
     </div>
 
     <div class="actions">
-      <button class="btn btn-secondary" (click)="selectAll()">
-        Tout sélectionner
-      </button>
-      <button class="btn btn-secondary" (click)="deselectAll()">
-        Tout désélectionner
-      </button>
-      @if(isAddMode()) {
       <button
         class="btn btn-primary"
         (click)="addSelectedMovies()"
-        [disabled]="selectedCount() === 0 || isAdding()"
-      >
-        ➕
-        {{ isAdding() ? "Ajout..." : "Ajouter à mes films vus" }}
-        ({{ selectedCount() }})
-      </button>
-      } @else {
-      <button
-        class="btn btn-primary"
-        (click)="exportSelectedMovies()"
         [disabled]="selectedCount() === 0"
       >
-        📥
         {{
           isWatchOrReadlistMode()
-            ? "Exporter ma watchlist"
-            : isCinemaMode()
-            ? "Exporter mes films vus au cinéma"
-            : "Exporter ma liste de films"
+            ? "Ajouter à mes films à voir"
+            : "Ajouter à mes films vus"
         }}
         ({{ selectedCount() }})
       </button>
-      }
     </div>
   </div>
-
-  @if(isAddMode() && addErrorMessage()) {
-  <p class="error-message">{{ addErrorMessage() }}</p>
-  }
 
   <div class="movies-grid">
     @for (movie of allMovies(); track `${movie.title}-${movie.releaseDate}`) {
@@ -179,7 +87,7 @@
     >
       <img [src]="movie.coverUrl" [alt]="movie.title" />
       <div class="overlay">
-        <div class="checkmark">✓</div>
+        <div class="checkmark"></div>
         <div class="movie-info">
           <span class="movie-title">{{ movie.title }}</span>
           <span class="movie-year"

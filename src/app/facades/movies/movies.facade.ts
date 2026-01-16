@@ -59,7 +59,7 @@ export async function getAllMovies(
     return {
       guillaume: getAllMoviesData(getLocalMoviesByUser('guillaume')),
       william: getAllMoviesData(getLocalMoviesByUser('william')),
-      kevin: [],
+      kevin: getAllMoviesData(getLocalMoviesByUser('kevin')),
       amandine: getAllMoviesData(getLocalMoviesByUser('amandine')),
       ronan: getAllMoviesData(getLocalMoviesByUser('ronan')),
     };
@@ -80,7 +80,7 @@ export async function getAllWatchlistMovies(
     return {
       guillaume: getAllMoviesData(getLocalWatchlistByUser('guillaume')),
       william: [],
-      kevin: [],
+      kevin: getAllMoviesData(getLocalWatchlistByUser('kevin')),
       amandine: getAllMoviesData(getLocalWatchlistByUser('amandine')),
       ronan: getAllMoviesData(getLocalWatchlistByUser('ronan')),
     };
