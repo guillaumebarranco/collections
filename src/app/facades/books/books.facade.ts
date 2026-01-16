@@ -53,22 +53,22 @@ function buildBooksMap(
 export async function getAllBooks(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Book[] }> {
-  // if (isLocalhost()) {
-  return {
-    guillaume: getAllBooksData(getLocalBooksByUser('guillaume')),
-    william: getAllBooksData(getLocalBooksByUser('william')),
-    kevin: getAllBooksData(getLocalBooksByUser('kevin')),
-    amandine: getAllBooksData(getLocalBooksByUser('amandine')),
-    ronan: getAllBooksData(getLocalBooksByUser('ronan')),
-  };
-  // }
+  if (isLocalhost()) {
+    return {
+      guillaume: getAllBooksData(getLocalBooksByUser('guillaume')),
+      william: getAllBooksData(getLocalBooksByUser('william')),
+      kevin: getAllBooksData(getLocalBooksByUser('kevin')),
+      amandine: getAllBooksData(getLocalBooksByUser('amandine')),
+      ronan: getAllBooksData(getLocalBooksByUser('ronan')),
+    };
+  }
 
-  // try {
-  //   const userBooks = await fetchUserBooksFromApi(currentUserId);
-  //   return buildBooksMap(currentUserId, getAllBooksData(userBooks));
-  // } catch {
-  //   return buildBooksMap(currentUserId, []);
-  // }
+  try {
+    const userBooks = await fetchUserBooksFromApi(currentUserId);
+    return buildBooksMap(currentUserId, getAllBooksData(userBooks));
+  } catch {
+    return buildBooksMap(currentUserId, []);
+  }
 }
 
 export async function getAllReadlistBooks(
@@ -107,16 +107,16 @@ export async function getAllBooksMerged(
 }
 
 export async function getBooksByUser(userId: string): Promise<Book[]> {
-  // if (isLocalhost()) {
-  return getAllBooksData(getLocalBooksByUser(userId));
-  // }
+  if (isLocalhost()) {
+    return getAllBooksData(getLocalBooksByUser(userId));
+  }
 
-  // try {
-  //   const userBooks = await fetchUserBooksFromApi(userId);
-  //   return getAllBooksData(userBooks);
-  // } catch {
-  //   return [];
-  // }
+  try {
+    const userBooks = await fetchUserBooksFromApi(userId);
+    return getAllBooksData(userBooks);
+  } catch {
+    return [];
+  }
 }
 
 export async function getCurrentReadlistBooksByUser(
