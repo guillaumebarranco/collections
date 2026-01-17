@@ -55,11 +55,7 @@ export async function getAllBooks(
 ): Promise<{ [key: string]: Book[] }> {
   if (isLocalhost()) {
     return {
-      guillaume: getAllBooksData(getLocalBooksByUser('guillaume')),
-      william: getAllBooksData(getLocalBooksByUser('william')),
-      kevin: getAllBooksData(getLocalBooksByUser('kevin')),
-      amandine: getAllBooksData(getLocalBooksByUser('amandine')),
-      ronan: getAllBooksData(getLocalBooksByUser('ronan')),
+      [currentUserId]: getAllBooksData(getLocalBooksByUser(currentUserId)),
     };
   }
 
@@ -76,11 +72,7 @@ export async function getAllReadlistBooks(
 ): Promise<{ [key: string]: Book[] }> {
   if (isLocalhost()) {
     return {
-      guillaume: getAllBooksData(getLocalReadlistByUser('guillaume')),
-      william: getAllBooksData(getLocalReadlistByUser('william')),
-      kevin: getAllBooksData(getLocalReadlistByUser('kevin')),
-      amandine: getAllBooksData(getLocalReadlistByUser('amandine')),
-      ronan: getAllBooksData(getLocalReadlistByUser('ronan')),
+      [currentUserId]: getAllBooksData(getLocalReadlistByUser(currentUserId)),
     };
   }
 

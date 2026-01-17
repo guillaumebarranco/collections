@@ -141,7 +141,17 @@ export class BooksComponent implements OnInit {
       this.isInitializing = false;
     });
 
-    void this.refreshBooks();
+    this.refreshBooks();
+  }
+
+  async refreshBooks() {
+    const userId = this.getActiveUserId();
+    const [books, readlist] = await Promise.all([
+      getAllBooks(userId),
+      getAllReadlistBooks(userId),
+    ]);
+    this.booksList.set(books);
+    this.readlistBooksList.set(readlist);
   }
 
   private loadParamsFromUrl(queryParams: Params) {
@@ -402,16 +412,6 @@ export class BooksComponent implements OnInit {
 
   onViewChange(view: BookView) {
     this.selectedView.set(view);
-  }
-
-  async refreshBooks() {
-    const userId = this.getActiveUserId();
-    const [books, readlist] = await Promise.all([
-      getAllBooks(userId),
-      getAllReadlistBooks(userId),
-    ]);
-    this.booksList.set(books);
-    this.readlistBooksList.set(readlist);
   }
 
   openEditBookDialog(book: Book): void {
