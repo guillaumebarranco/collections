@@ -34,7 +34,10 @@
   <div class="mangas">
     @for (manga of sortedMangas(); track manga.title) {
     <div class="manga-card">
-      <app-book [book]="manga"></app-book>
+      <app-book
+        [book]="manga"
+        (editRequested)="openEditMangaDialog(manga)"
+      ></app-book>
     </div>
     }
   </div>

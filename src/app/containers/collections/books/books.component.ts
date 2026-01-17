@@ -33,6 +33,8 @@ import {
   getAllBooks,
   getAllReadlistBooks,
 } from '../../../facades/books/books.facade';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { EditBookComponent } from '../../edit/edit-book/edit-book.component';
 
 type BookView = 'read' | 'readlist';
 
@@ -46,6 +48,7 @@ type BookView = 'read' | 'readlist';
     MenuComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
+    MatDialogModule,
   ],
   templateUrl: './books.component.html',
   styleUrls: ['./books.component.scss'],
@@ -58,6 +61,7 @@ export class BooksComponent implements OnInit {
 
   activatedRoute = inject(ActivatedRoute);
   router = inject(Router);
+  private readonly dialog = inject(MatDialog);
   private isInitializing = false;
 
   sortOptions: SortOption[] = [
@@ -408,6 +412,23 @@ export class BooksComponent implements OnInit {
     ]);
     this.booksList.set(books);
     this.readlistBooksList.set(readlist);
+  }
+
+  openEditBookDialog(book: Book): void {
+    const dialogRef = this.dialog.open(EditBookComponent, {
+      data: {
+        book,
+        userId: this.getActiveUserId(),
+      },
+      width: '720px',
+      maxWidth: '95vw',
+    });
+
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result?.updated) {
+        void this.refreshBooks();
+      }
+    });
   }
 
   private getActiveUserId(): string {

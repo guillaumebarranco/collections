@@ -1,0 +1,81 @@
+<div class="edit-book">
+  @if(!isDialogMode()) {
+  <button (click)="navigateToMangas()" class="back-link">
+    Retour aux mangas
+  </button>
+  } @else {
+  <button
+    type="button"
+    class="dialog-close"
+    aria-label="Fermer"
+    (click)="navigateToMangas()"
+  >
+    ✕
+  </button>
+  }
+
+  <h1 class="title">Éditer un manga</h1>
+
+  @if(mangaNotFound()) {
+  <p class="not-found">Aucun manga trouvé pour ce slug.</p>
+  } @else {
+  <img [src]="mangaForm()?.coverUrl" alt="Cover" width="200" />
+  <div>{{ mangaForm()?.title }}</div>
+  <br />
+
+  <form *ngIf="mangaForm()" class="edit-form" (ngSubmit)="onSubmit()">
+    <div class="form-row">
+      <label>Note</label>
+      <div class="rating-control">
+        <button
+          *ngFor="let star of [1, 2, 3, 4, 5]"
+          type="button"
+          class="star-btn"
+          (click)="setRatingFromClick(star, $event)"
+        >
+          <span
+            class="star"
+            [class.star-full]="
+              getStarType(mangaForm()?.rating || 0, star) === 'full'
+            "
+            [class.star-half]="
+              getStarType(mangaForm()?.rating || 0, star) === 'half'
+            "
+            [class.star-empty]="
+              getStarType(mangaForm()?.rating || 0, star) === 'empty'
+            "
+          >
+            ★
+          </span>
+        </button>
+        <span class="rating-value">{{ mangaForm()?.rating }}/5</span>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <label for="readTimes">Relectures</label>
+      <input
+        id="readTimes"
+        type="number"
+        min="0"
+        [ngModel]="mangaForm()?.readTimes"
+        (ngModelChange)="updateField('readTimes', $event)"
+        name="readTimes"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="readDate">Date de lecture</label>
+      <input
+        id="readDate"
+        type="date"
+        [ngModel]="mangaForm()?.readDate"
+        (ngModelChange)="updateField('readDate', $event)"
+        name="readDate"
+      />
+    </div>
+
+    <button type="submit" class="submit-btn">Modifier</button>
+  </form>
+  }
+</div>

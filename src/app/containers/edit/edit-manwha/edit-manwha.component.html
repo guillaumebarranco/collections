@@ -1,0 +1,81 @@
+<div class="edit-book">
+  @if(!isDialogMode()) {
+  <button (click)="navigateToManwhas()" class="back-link">
+    Retour aux manwhas
+  </button>
+  } @else {
+  <button
+    type="button"
+    class="dialog-close"
+    aria-label="Fermer"
+    (click)="navigateToManwhas()"
+  >
+    ✕
+  </button>
+  }
+
+  <h1 class="title">Éditer un manwha</h1>
+
+  @if(manwhaNotFound()) {
+  <p class="not-found">Aucun manwha trouvé pour ce slug.</p>
+  } @else {
+  <img [src]="manwhaForm()?.coverUrl" alt="Cover" width="200" />
+  <div>{{ manwhaForm()?.title }}</div>
+  <br />
+
+  <form *ngIf="manwhaForm()" class="edit-form" (ngSubmit)="onSubmit()">
+    <div class="form-row">
+      <label>Note</label>
+      <div class="rating-control">
+        <button
+          *ngFor="let star of [1, 2, 3, 4, 5]"
+          type="button"
+          class="star-btn"
+          (click)="setRatingFromClick(star, $event)"
+        >
+          <span
+            class="star"
+            [class.star-full]="
+              getStarType(manwhaForm()?.rating || 0, star) === 'full'
+            "
+            [class.star-half]="
+              getStarType(manwhaForm()?.rating || 0, star) === 'half'
+            "
+            [class.star-empty]="
+              getStarType(manwhaForm()?.rating || 0, star) === 'empty'
+            "
+          >
+            ★
+          </span>
+        </button>
+        <span class="rating-value">{{ manwhaForm()?.rating }}/5</span>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <label for="readTimes">Relectures</label>
+      <input
+        id="readTimes"
+        type="number"
+        min="0"
+        [ngModel]="manwhaForm()?.readTimes"
+        (ngModelChange)="updateField('readTimes', $event)"
+        name="readTimes"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="readDate">Date de lecture</label>
+      <input
+        id="readDate"
+        type="date"
+        [ngModel]="manwhaForm()?.readDate"
+        (ngModelChange)="updateField('readDate', $event)"
+        name="readDate"
+      />
+    </div>
+
+    <button type="submit" class="submit-btn">Modifier</button>
+  </form>
+  }
+</div>

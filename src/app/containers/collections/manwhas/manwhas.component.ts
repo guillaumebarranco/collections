@@ -22,6 +22,8 @@ import {
   StatItem,
   StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { EditManwhaComponent } from '../../edit/edit-manwha/edit-manwha.component';
 @Component({
   selector: 'app-manwhas',
   imports: [
@@ -31,12 +33,14 @@ import {
     MenuComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
+    MatDialogModule,
   ],
   templateUrl: './manwhas.component.html',
   styleUrls: ['./manwhas.component.scss'],
 })
 export class ManwhasComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
+  private readonly dialog = inject(MatDialog);
   selectedSort = signal<string>('rating');
 
   sortOptions = signal<SortOption[]>([
@@ -213,6 +217,23 @@ export class ManwhasComponent implements OnInit {
       }
     }
     return total;
+  }
+
+  openEditManwhaDialog(manwha: Manwha): void {
+    const dialogRef = this.dialog.open(EditManwhaComponent, {
+      data: {
+        manwha,
+        userId: this.getActiveUserId(),
+      },
+      width: '720px',
+      maxWidth: '95vw',
+    });
+
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result?.updated) {
+        void this.refreshManwhas();
+      }
+    });
   }
 
   private async refreshManwhas() {

@@ -21,6 +21,8 @@ import {
 } from '../../../utils/stats.utils';
 import { ActivatedRoute, Params, RouterLink } from '@angular/router';
 import { getAllMangas } from '../../../facades/mangas/mangas.facade';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { EditMangaComponent } from '../../edit/edit-manga/edit-manga.component';
 
 @Component({
   selector: 'app-mangas',
@@ -32,12 +34,14 @@ import { getAllMangas } from '../../../facades/mangas/mangas.facade';
     MenuComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
+    MatDialogModule,
   ],
   templateUrl: './mangas.component.html',
   styleUrls: ['./mangas.component.scss'],
 })
 export class MangasComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
+  private readonly dialog = inject(MatDialog);
 
   selectedSort = signal<string>('rating');
 
@@ -227,6 +231,23 @@ export class MangasComponent implements OnInit {
     const userId = this.getActiveUserId();
     const mangas = await getAllMangas(userId);
     this.mangasList.set(mangas);
+  }
+
+  openEditMangaDialog(manga: Manga): void {
+    const dialogRef = this.dialog.open(EditMangaComponent, {
+      data: {
+        manga,
+        userId: this.getActiveUserId(),
+      },
+      width: '720px',
+      maxWidth: '95vw',
+    });
+
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result?.updated) {
+        void this.refreshMangas();
+      }
+    });
   }
 
   private getActiveUserId(): string {

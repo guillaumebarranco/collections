@@ -4,13 +4,8 @@ import {
   EventEmitter,
   Input,
   Output,
-  inject,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ActivatedRoute } from '@angular/router';
-import { MatDialog, MatDialogModule } from '@angular/material/dialog';
-import { Book } from '../../models/book-model';
-import { EditBookComponent } from '../../containers/edit/edit-book/edit-book.component';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -20,36 +15,17 @@ interface StarInfo {
 @Component({
   selector: 'app-book',
   standalone: true,
-  imports: [CommonModule, MatDialogModule],
+  imports: [CommonModule],
   templateUrl: './book.component.html',
   styleUrls: ['./book.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class BookComponent {
-  private readonly activatedRoute = inject(ActivatedRoute);
-  private readonly dialog = inject(MatDialog);
-
   @Input() book!: any;
-  @Output() bookUpdated = new EventEmitter<void>();
+  @Output() editRequested = new EventEmitter<void>();
 
-  navigateToEdit(): void {
-    const directId = this.activatedRoute.snapshot.params['id'];
-    const parentId = this.activatedRoute.parent?.snapshot.params['id'];
-    const userId = directId || parentId;
-    const dialogRef = this.dialog.open(EditBookComponent, {
-      data: {
-        book: this.book,
-        userId: userId || 'guillaume',
-      },
-      width: '720px',
-      maxWidth: '95vw',
-    });
-
-    dialogRef.afterClosed().subscribe((result) => {
-      if (result?.updated) {
-        this.bookUpdated.emit();
-      }
-    });
+  requestEdit(): void {
+    this.editRequested.emit();
   }
 
   getRatingStars(rating: number): StarInfo[] {

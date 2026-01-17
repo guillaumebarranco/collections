@@ -1,0 +1,110 @@
+.edit-book {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 16px 20px 24px;
+  color: #ddd;
+}
+
+.back-link {
+  background: transparent;
+  border: none;
+  color: #9cc9c3;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.dialog-close {
+  background: transparent;
+  border: none;
+  color: #bbb;
+  font-size: 20px;
+  cursor: pointer;
+  float: right;
+}
+
+.title {
+  margin: 0 0 16px;
+  font-size: 22px;
+  color: #25645d;
+}
+
+.not-found {
+  color: #ff7b7b;
+  margin-top: 12px;
+}
+
+.edit-form {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-row label {
+  font-size: 13px;
+  color: #9b9b9b;
+}
+
+.form-row input[type='number'],
+.form-row input[type='date'] {
+  background: #1b1b1b;
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 8px 10px;
+  color: #ddd;
+}
+
+.rating-control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.star-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.star {
+  font-size: 20px;
+  color: #666;
+}
+
+.star-full {
+  color: #f4c542;
+}
+
+.star-half {
+  background: linear-gradient(90deg, #f4c542 50%, #666 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.star-empty {
+  color: #666;
+}
+
+.rating-value {
+  font-size: 13px;
+  color: #aaa;
+}
+
+.submit-btn {
+  border: none;
+  padding: 10px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+  background: #25645d;
+  color: #fff;
+  margin-top: 8px;
+}

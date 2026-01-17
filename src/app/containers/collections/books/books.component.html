@@ -139,7 +139,10 @@
     <div class="books">
       @for (book of group.books; track book.title) {
       <div class="book-card">
-        <app-book [book]="book" (bookUpdated)="refreshBooks()"></app-book>
+        <app-book
+          [book]="book"
+          (editRequested)="openEditBookDialog(book)"
+        ></app-book>
       </div>
       }
     </div>
@@ -149,7 +152,10 @@
   <div class="books">
     @for (book of sortedBooks(); track book.title) {
     <div class="book-card">
-      <app-book [book]="book" (bookUpdated)="refreshBooks()"></app-book>
+      <app-book
+        [book]="book"
+        (editRequested)="openEditBookDialog(book)"
+      ></app-book>
     </div>
     }
   </div>
