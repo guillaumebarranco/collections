@@ -1,11 +1,12 @@
 import { Component, signal, computed, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../../components/menu/menu.component';
-import { Book } from '../../../../models/book-model';
+import { BaseBook, Book } from '../../../../models/book-model';
 import {
   getAllBooksMerged,
   getBooksByUser,
   getCurrentReadlistBooksByUser,
+  getAllBaseBooks,
 } from '../../../../facades/books/books.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
@@ -28,6 +29,7 @@ export class SelectBooksComponent
   private readonly dialog = inject(MatDialog);
   private router = inject(Router);
 
+  baseBooks = signal<BaseBook[]>([]);
   userBooks = signal<Book[]>([]);
   readlistBooks = signal<Book[]>([]);
   allBooksMergedList = signal<Book[]>([]);
@@ -48,7 +50,16 @@ export class SelectBooksComponent
 
   // Tous les livres de tous les utilisateurs, filtrés si mode readlist ou ajout
   allBooks = computed<Book[]>(() => {
-    const allBooksList = this.allBooksMergedList();
+    const allBooksList = this.baseBooks().map((book) => ({
+      title: book.title,
+      author: book.author,
+      coverUrl: book.coverUrl,
+      genre: book.genre,
+      saga: book.saga,
+      sagaOrder: book.sagaOrder,
+      readDate: '',
+      rating: 0,
+    }));
 
     if (!this.isWatchOrReadlistMode()) {
       return allBooksList.filter(
@@ -65,6 +76,21 @@ export class SelectBooksComponent
 
   selectedBooks = signal<Set<string>>(new Set());
   selectedCount = computed(() => this.selectedBooks().size);
+
+  async ngOnInit() {
+    const userId = this.userId();
+    const [baseBooks, books, readlist] = await Promise.all([
+      getAllBaseBooks(),
+      getBooksByUser(userId),
+      getCurrentReadlistBooksByUser(userId),
+    ]);
+
+    this.baseBooks.set(baseBooks);
+    const allBooks = await this.getAllBooksForSelection(userId);
+    this.userBooks.set(books);
+    this.readlistBooks.set(readlist);
+    this.allBooksMergedList.set(allBooks);
+  }
 
   isSelected(book: Book): boolean {
     return this.selectedBooks().has(this.getBookKey(book));
@@ -99,18 +125,6 @@ export class SelectBooksComponent
         this.router.navigate([`${this.userId()}/books`]);
       }
     });
-  }
-
-  async ngOnInit() {
-    const userId = this.userId();
-    const [books, readlist] = await Promise.all([
-      getBooksByUser(userId),
-      getCurrentReadlistBooksByUser(userId),
-    ]);
-    const allBooks = await this.getAllBooksForSelection(userId);
-    this.userBooks.set(books);
-    this.readlistBooks.set(readlist);
-    this.allBooksMergedList.set(allBooks);
   }
 
   private async getAllBooksForSelection(userId: string): Promise<Book[]> {
