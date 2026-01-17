@@ -1,40 +1,76 @@
-import { Component, signal, computed } from '@angular/core';
+import { Component, signal, computed, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../components/menu/menu.component';
-import { Book } from '../../../models/book-model';
-import { manwhas } from '../../../utils/users/guillaume/mangas/manwhas';
+import { Manwha } from '../../../models/manwha-model';
+import {
+  getAllManwhasMerged,
+  getCurrentReadlistManwhasByUser,
+  getManwhasByUser,
+} from '../../../facades/manwhas/manwhas.facade';
+import { SelectEntitiesComponent } from '../select-base.component';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { AddManwhaComponent } from '../../add/add-manwha/add-manwha.component';
+import { getApiBaseUrl, isLocalhost } from '../../../core/config';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-select-manwhas',
-  imports: [CommonModule, MenuComponent],
+  imports: [CommonModule, MenuComponent, MatDialogModule],
   templateUrl: './select-manwhas.component.html',
-  styleUrls: ['./select-manwhas.component.scss'],
+  styleUrls: ['./select-manwhas.component.scss', '../select-base.scss'],
 })
-export class SelectManwhasComponent {
-  // Tous les manwhas de tous les utilisateurs
-  allManwhas = signal<any[]>([
-    // Guillaume
-    ...manwhas,
-  ]);
+export class SelectManwhasComponent
+  extends SelectEntitiesComponent
+  implements OnInit
+{
+  private readonly dialog = inject(MatDialog);
+  private router = inject(Router);
 
-  // Manwhas sélectionnés
+  userManwhas = signal<Manwha[]>([]);
+  readlistManwhas = signal<Manwha[]>([]);
+  allManwhasMergedList = signal<Manwha[]>([]);
+
+  readManwhas = computed<Set<string>>(() => {
+    const userManwhas = this.userManwhas();
+    return new Set(userManwhas.map((manwha) => this.getManwhaKey(manwha)));
+  });
+
+  alreadyInReadlistManwhas = computed<Set<string>>(() => {
+    if (!this.isWatchOrReadlistMode()) {
+      return new Set();
+    }
+    const readlistManwhas = this.readlistManwhas();
+    return new Set(readlistManwhas.map((manwha) => this.getManwhaKey(manwha)));
+  });
+
+  allManwhas = computed<Manwha[]>(() => {
+    const allManwhasList = this.allManwhasMergedList();
+
+    if (!this.isWatchOrReadlistMode()) {
+      return allManwhasList.filter(
+        (manwha) =>
+          !this.readManwhas().has(this.getManwhaKey(manwha)) &&
+          !this.alreadyInReadlistManwhas().has(this.getManwhaKey(manwha))
+      );
+    }
+
+    return allManwhasList.filter(
+      (manwha) => !this.readManwhas().has(this.getManwhaKey(manwha))
+    );
+  });
+
   selectedManwhas = signal<Set<string>>(new Set());
-
-  // Nombre de manwhas sélectionnés
   selectedCount = computed(() => this.selectedManwhas().size);
 
-  // Vérifier si un manwha est sélectionné
-  isSelected(manwha: Book): boolean {
+  isSelected(manwha: Manwha): boolean {
     return this.selectedManwhas().has(this.getManwhaKey(manwha));
   }
 
-  // Générer une clé unique pour un manwha
-  private getManwhaKey(manwha: Book): string {
+  private getManwhaKey(manwha: Manwha): string {
     return `${manwha.title}-${manwha.author}`;
   }
 
-  // Basculer la sélection d'un manwha
-  toggleSelection(manwha: Book): void {
+  toggleSelection(manwha: Manwha): void {
     const key = this.getManwhaKey(manwha);
     const selected = new Set(this.selectedManwhas());
 
@@ -47,21 +83,49 @@ export class SelectManwhasComponent {
     this.selectedManwhas.set(selected);
   }
 
-  // Sélectionner tous les manwhas
-  selectAll(): void {
-    const allKeys = new Set(
-      this.allManwhas().map((manwha) => this.getManwhaKey(manwha))
-    );
-    this.selectedManwhas.set(allKeys);
+  openAddManwhaDialog(): void {
+    const dialogRef = this.dialog.open(AddManwhaComponent, {
+      data: { userId: this.userId() },
+      width: '760px',
+      maxWidth: '95vw',
+    });
+
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result?.created) {
+        this.router.navigate([`${this.userId()}/manwhas`]);
+      }
+    });
   }
 
-  // Désélectionner tous les manwhas
-  deselectAll(): void {
-    this.selectedManwhas.set(new Set());
+  async ngOnInit() {
+    const userId = this.userId();
+    const [manwhas, readlist] = await Promise.all([
+      getManwhasByUser(userId),
+      getCurrentReadlistManwhasByUser(userId),
+    ]);
+    const allManwhas = await this.getAllManwhasForSelection(userId);
+    this.userManwhas.set(manwhas);
+    this.readlistManwhas.set(readlist);
+    this.allManwhasMergedList.set(allManwhas);
   }
 
-  // Exporter les manwhas sélectionnés en JSON
-  exportSelectedManwhas(): void {
+  private async getAllManwhasForSelection(userId: string): Promise<Manwha[]> {
+    if (isLocalhost()) {
+      return getAllManwhasMerged(userId);
+    }
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/manwhas/entities`);
+      if (!response.ok) {
+        return [];
+      }
+      const data = await response.json();
+      return Array.isArray(data) ? data : [];
+    } catch {
+      return [];
+    }
+  }
+
+  protected async addSelectedManwhas(): Promise<void> {
     const selectedManwhasList = this.allManwhas()
       .filter((manwha) => this.isSelected(manwha))
       .map((manwha) => {
@@ -73,29 +137,38 @@ export class SelectManwhasComponent {
         };
       });
 
-    if (selectedManwhasList.length === 0) {
-      alert('Aucun manwha sélectionné !');
-      return;
+    const manwhas = selectedManwhasList.map((manwha) => ({
+      title: manwha.title,
+      author: manwha.author,
+    }));
+
+    if (manwhas.length === 0) return;
+
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/manwhas/add-existing`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.userId(),
+          manwhas,
+          readlist: this.isWatchOrReadlistMode(),
+        }),
+      });
+
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn(
+          "Échec de l'ajout batch des manwhas :",
+          payload?.error || response.statusText
+        );
+        return;
+      }
+
+      this.router.navigate([`${this.userId()}/manwhas`]);
+    } catch (error) {
+      console.warn("Erreur réseau lors de l'ajout batch des manwhas.", error);
     }
-
-    // Créer le JSON
-    const jsonContent = JSON.stringify(selectedManwhasList, null, 2);
-
-    // Créer un blob
-    const blob = new Blob([jsonContent], { type: 'application/json' });
-
-    // Créer un lien de téléchargement
-    const url = window.URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = `my-manwhas-selection-${new Date().getTime()}.json`;
-
-    // Télécharger le fichier
-    document.body.appendChild(link);
-    link.click();
-
-    // Nettoyer
-    document.body.removeChild(link);
-    window.URL.revokeObjectURL(url);
   }
 }

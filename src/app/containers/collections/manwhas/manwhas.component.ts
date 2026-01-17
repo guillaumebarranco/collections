@@ -1,4 +1,4 @@
-import { Component, computed, inject, signal } from '@angular/core';
+import { Component, computed, inject, signal, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BookComponent } from '../../../components/book/book.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
@@ -6,9 +6,10 @@ import {
   SortDropdownComponent,
   SortOption,
 } from '../../../components/sort-dropdown/sort-dropdown.component';
-import { manwhas } from '../../../utils/users/guillaume/mangas/manwhas';
 import { Book } from '../../../models/book-model';
+import { Manwha } from '../../../models/manwha-model';
 import { ActivatedRoute, Params, RouterLink } from '@angular/router';
+import { getAllManwhas } from '../../../facades/manwhas/manwhas.facade';
 import {
   getEstimatedMangaReadingTime,
   getTotalMangaPages,
@@ -33,7 +34,7 @@ import {
   templateUrl: './manwhas.component.html',
   styleUrls: ['./manwhas.component.scss'],
 })
-export class ManwhasComponent {
+export class ManwhasComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
   selectedSort = signal<string>('rating');
 
@@ -54,11 +55,7 @@ export class ManwhasComponent {
     { value: 'genre-desc', label: 'Genre (Z-A)' },
   ]);
 
-  manwhasList = signal<{ [key: string]: any[] }>({
-    guillaume: [...manwhas],
-    kevin: [],
-    william: [],
-  });
+  manwhasList = signal<{ [key: string]: Manwha[] }>({});
 
   allManwhas = computed<Book[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
@@ -68,49 +65,49 @@ export class ManwhasComponent {
       ? this.manwhasList()[params['id']] || []
       : this.manwhasList()['guillaume'];
 
-    return manwhas.map((manga: any) => {
-      return {
-        title: manga._source.manga.frenchName || manga._source.manga.name,
-        author: manga._source.manga.authors[0].name,
-        coverUrl: manga._source.manga.france.logo || '',
-        readDate: manga._source.manga.lastUpdate || '',
-        rating: manga._score || 0,
-        genre: manga._source.manga.type || '',
-        saga: manga._source.manga.name,
-        sagaOrder: 0,
-        nbTomes: manga._source.manga.france.nbBooks || 0,
-        isFinished: manga._source.manga.isFinished || false,
-        readTimes: manga._readTimes || 1,
-      };
-    });
+    return manwhas.map((manwha) => ({
+      title: manwha.title,
+      author: manwha.author,
+      rating: manwha.rating,
+      readDate: manwha.readDate,
+      readTimes: manwha.readTimes,
+      coverUrl: manwha.coverUrl,
+      pages: manwha.pages || 0,
+      genre: manwha.genre,
+      saga: '',
+      sagaOrder: 0,
+      nbTomes: manwha.nbTomes || 0,
+      isFinished: manwha.isFinished || false,
+    }));
   });
 
   sortedManwhas = computed<Book[]>(() => {
+    const sortedManwhas = [...this.allManwhas()];
     switch (this.selectedSort()) {
       case 'title':
-        return this.allManwhas().sort((a, b) => a.title.localeCompare(b.title));
+        return sortedManwhas.sort((a, b) => a.title.localeCompare(b.title));
       case 'title-desc':
-        return this.allManwhas().sort((a, b) => b.title.localeCompare(a.title));
+        return sortedManwhas.sort((a, b) => b.title.localeCompare(a.title));
       case 'author':
-        return this.allManwhas().sort((a, b) =>
+        return sortedManwhas.sort((a, b) =>
           a.author.localeCompare(b.author)
         );
       case 'author-desc':
-        return this.allManwhas().sort((a, b) =>
+        return sortedManwhas.sort((a, b) =>
           b.author.localeCompare(a.author)
         );
       case 'readDate':
-        return this.allManwhas().sort(
+        return sortedManwhas.sort(
           (a, b) =>
             new Date(b.readDate).getTime() - new Date(a.readDate).getTime()
         );
       case 'readDate-asc':
-        return this.allManwhas().sort(
+        return sortedManwhas.sort(
           (a, b) =>
             new Date(a.readDate).getTime() - new Date(b.readDate).getTime()
         );
       case 'rating':
-        return this.allManwhas().sort((a, b) => {
+        return sortedManwhas.sort((a, b) => {
           const ratingA = a.rating || 0;
           const ratingB = b.rating || 0;
           if (ratingB !== ratingA) {
@@ -121,7 +118,7 @@ export class ManwhasComponent {
           return readTimesB - readTimesA;
         });
       case 'rating-asc':
-        return this.allManwhas().sort((a, b) => {
+        return sortedManwhas.sort((a, b) => {
           const ratingA = a.rating || 0;
           const ratingB = b.rating || 0;
           if (ratingA !== ratingB) {
@@ -132,27 +129,27 @@ export class ManwhasComponent {
           return readTimesB - readTimesA;
         });
       case 'readTimes':
-        return this.allManwhas().sort(
+        return sortedManwhas.sort(
           (a, b) => (b.readTimes || 0) - (a.readTimes || 0)
         );
       case 'readTimes-asc':
-        return this.allManwhas().sort(
+        return sortedManwhas.sort(
           (a, b) => (a.readTimes || 0) - (b.readTimes || 0)
         );
       case 'nbTomes':
-        return this.allManwhas().sort(
+        return sortedManwhas.sort(
           (a, b) => (b.nbTomes || 0) - (a.nbTomes || 0)
         );
       case 'nbTomes-asc':
-        return this.allManwhas().sort(
+        return sortedManwhas.sort(
           (a, b) => (a.nbTomes || 0) - (b.nbTomes || 0)
         );
       case 'genre':
-        return this.allManwhas().sort((a, b) => a.genre.localeCompare(b.genre));
+        return sortedManwhas.sort((a, b) => a.genre.localeCompare(b.genre));
       case 'genre-desc':
-        return this.allManwhas().sort((a, b) => b.genre.localeCompare(a.genre));
+        return sortedManwhas.sort((a, b) => b.genre.localeCompare(a.genre));
       default:
-        return this.allManwhas().sort(
+        return sortedManwhas.sort(
           (a, b) => (b.rating || 0) - (a.rating || 0)
         );
     }
@@ -205,6 +202,10 @@ export class ManwhasComponent {
     this.selectedSort.set(sortValue);
   }
 
+  async ngOnInit() {
+    await this.refreshManwhas();
+  }
+
   getSelectManwhasRoute(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
@@ -229,5 +230,16 @@ export class ManwhasComponent {
       }
     }
     return total;
+  }
+
+  private async refreshManwhas() {
+    const userId = this.getActiveUserId();
+    const manwhas = await getAllManwhas(userId);
+    this.manwhasList.set(manwhas);
+  }
+
+  private getActiveUserId(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    return params['id'] ?? 'guillaume';
   }
 }

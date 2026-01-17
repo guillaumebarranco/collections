@@ -2,10 +2,48 @@
 
 <div class="select-manwhas-container">
   <div class="header">
-    <h1>Sélectionner des manwhas</h1>
-    <p class="subtitle">
-      Cliquez sur les couvertures pour sélectionner vos manwhas préférés
-    </p>
+    <h1>
+      {{
+        isWatchOrReadlistMode()
+          ? "Sélectionner des manwhas pour ma readlist"
+          : "Ajouter des manwhas lus"
+      }}
+    </h1>
+
+    <div class="selection-description">
+      @if(!isWatchOrReadlistMode()) {
+      <p>
+        Bonjour {{ username() }} <br /><br />
+        Ici tu peux ajouter des manwhas que tu as lu. La liste ci-dessous affiche
+        uniquement les manwhas que tu n'as pas encore dans ta collection.
+        <br /><br />
+        Sélectionne les manwhas que tu as lus, puis clique sur "Ajouter à mes
+        manwhas lus".
+      </p>
+      <p>
+        Si tu ne trouves pas ton manwha dans la liste, ajoute-le d'abord dans les
+        entités :
+      </p>
+      <button
+        class="btn btn-primary add-new-manwha"
+        (click)="openAddManwhaDialog()"
+      >
+        Ajouter un nouveau manwha
+      </button>
+      } @else if(isWatchOrReadlistMode()) {
+      <p>
+        Bonjour {{ username() }} <br /><br />
+        Tu es en mode "Readlist" ! Ici, tu peux sélectionner les manwhas que tu
+        souhaites ajouter à ta liste de manwhas à lire.
+        <br /><br />
+        Les manwhas que tu as déjà lus sont automatiquement exclus de cette liste
+        pour t'éviter les doublons.
+        <br /><br />
+        Sélectionne les manwhas que tu aimerais lire et ajoute-les à ta liste.
+      </p>
+      } @else {
+      }
+    </div>
   </div>
 
   <div class="toolbar">
@@ -15,18 +53,17 @@
     </div>
 
     <div class="actions">
-      <button class="btn btn-secondary" (click)="selectAll()">
-        Tout sélectionner
-      </button>
-      <button class="btn btn-secondary" (click)="deselectAll()">
-        Tout désélectionner
-      </button>
       <button
         class="btn btn-primary"
-        (click)="exportSelectedManwhas()"
+        (click)="addSelectedManwhas()"
         [disabled]="selectedCount() === 0"
       >
-        📥 Exporter ma liste de manwhas ({{ selectedCount() }})
+        {{
+          isWatchOrReadlistMode()
+            ? "Ajouter à mes manwhas à lire"
+            : "Ajouter à mes manwhas lus"
+        }}
+        ({{ selectedCount() }})
       </button>
     </div>
   </div>

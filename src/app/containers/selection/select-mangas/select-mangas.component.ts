@@ -1,40 +1,76 @@
-import { Component, signal, computed } from '@angular/core';
+import { Component, signal, computed, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../components/menu/menu.component';
-import { Book } from '../../../models/book-model';
-import { mangas } from '../../../utils/users/guillaume/mangas/mangas';
+import { Manga } from '../../../models/manga-model';
+import {
+  getAllMangasMerged,
+  getCurrentReadlistMangasByUser,
+  getMangasByUser,
+} from '../../../facades/mangas/mangas.facade';
+import { SelectEntitiesComponent } from '../select-base.component';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { AddMangaComponent } from '../../add/add-manga/add-manga.component';
+import { getApiBaseUrl, isLocalhost } from '../../../core/config';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-select-mangas',
-  imports: [CommonModule, MenuComponent],
+  imports: [CommonModule, MenuComponent, MatDialogModule],
   templateUrl: './select-mangas.component.html',
-  styleUrls: ['./select-mangas.component.scss'],
+  styleUrls: ['./select-mangas.component.scss', '../select-base.scss'],
 })
-export class SelectMangasComponent {
-  // Tous les mangas de tous les utilisateurs
-  allMangas = signal<any[]>([
-    // Guillaume
-    ...mangas,
-  ]);
+export class SelectMangasComponent
+  extends SelectEntitiesComponent
+  implements OnInit
+{
+  private readonly dialog = inject(MatDialog);
+  private router = inject(Router);
 
-  // Mangas sélectionnés
+  userMangas = signal<Manga[]>([]);
+  readlistMangas = signal<Manga[]>([]);
+  allMangasMergedList = signal<Manga[]>([]);
+
+  readMangas = computed<Set<string>>(() => {
+    const userMangas = this.userMangas();
+    return new Set(userMangas.map((manga) => this.getMangaKey(manga)));
+  });
+
+  alreadyInReadlistMangas = computed<Set<string>>(() => {
+    if (!this.isWatchOrReadlistMode()) {
+      return new Set();
+    }
+    const readlistMangas = this.readlistMangas();
+    return new Set(readlistMangas.map((manga) => this.getMangaKey(manga)));
+  });
+
+  allMangas = computed<Manga[]>(() => {
+    const allMangasList = this.allMangasMergedList();
+
+    if (!this.isWatchOrReadlistMode()) {
+      return allMangasList.filter(
+        (manga) =>
+          !this.readMangas().has(this.getMangaKey(manga)) &&
+          !this.alreadyInReadlistMangas().has(this.getMangaKey(manga))
+      );
+    }
+
+    return allMangasList.filter(
+      (manga) => !this.readMangas().has(this.getMangaKey(manga))
+    );
+  });
+
   selectedMangas = signal<Set<string>>(new Set());
-
-  // Nombre de mangas sélectionnés
   selectedCount = computed(() => this.selectedMangas().size);
 
-  // Vérifier si un manga est sélectionné
-  isSelected(manga: Book): boolean {
+  isSelected(manga: Manga): boolean {
     return this.selectedMangas().has(this.getMangaKey(manga));
   }
 
-  // Générer une clé unique pour un manga
-  private getMangaKey(manga: Book): string {
+  private getMangaKey(manga: Manga): string {
     return `${manga.title}-${manga.author}`;
   }
 
-  // Basculer la sélection d'un manga
-  toggleSelection(manga: Book): void {
+  toggleSelection(manga: Manga): void {
     const key = this.getMangaKey(manga);
     const selected = new Set(this.selectedMangas());
 
@@ -47,21 +83,49 @@ export class SelectMangasComponent {
     this.selectedMangas.set(selected);
   }
 
-  // Sélectionner tous les mangas
-  selectAll(): void {
-    const allKeys = new Set(
-      this.allMangas().map((manga) => this.getMangaKey(manga))
-    );
-    this.selectedMangas.set(allKeys);
+  openAddMangaDialog(): void {
+    const dialogRef = this.dialog.open(AddMangaComponent, {
+      data: { userId: this.userId() },
+      width: '760px',
+      maxWidth: '95vw',
+    });
+
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result?.created) {
+        this.router.navigate([`${this.userId()}/mangas`]);
+      }
+    });
   }
 
-  // Désélectionner tous les mangas
-  deselectAll(): void {
-    this.selectedMangas.set(new Set());
+  async ngOnInit() {
+    const userId = this.userId();
+    const [mangas, readlist] = await Promise.all([
+      getMangasByUser(userId),
+      getCurrentReadlistMangasByUser(userId),
+    ]);
+    const allMangas = await this.getAllMangasForSelection(userId);
+    this.userMangas.set(mangas);
+    this.readlistMangas.set(readlist);
+    this.allMangasMergedList.set(allMangas);
   }
 
-  // Exporter les mangas sélectionnés en JSON
-  exportSelectedMangas(): void {
+  private async getAllMangasForSelection(userId: string): Promise<Manga[]> {
+    if (isLocalhost()) {
+      return getAllMangasMerged(userId);
+    }
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/mangas/entities`);
+      if (!response.ok) {
+        return [];
+      }
+      const data = await response.json();
+      return Array.isArray(data) ? data : [];
+    } catch {
+      return [];
+    }
+  }
+
+  protected async addSelectedMangas(): Promise<void> {
     const selectedMangasList = this.allMangas()
       .filter((manga) => this.isSelected(manga))
       .map((manga) => {
@@ -73,29 +137,38 @@ export class SelectMangasComponent {
         };
       });
 
-    if (selectedMangasList.length === 0) {
-      alert('Aucun manga sélectionné !');
-      return;
+    const mangas = selectedMangasList.map((manga) => ({
+      title: manga.title,
+      author: manga.author,
+    }));
+
+    if (mangas.length === 0) return;
+
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/mangas/add-existing`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.userId(),
+          mangas,
+          readlist: this.isWatchOrReadlistMode(),
+        }),
+      });
+
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn(
+          "Échec de l'ajout batch des mangas :",
+          payload?.error || response.statusText
+        );
+        return;
+      }
+
+      this.router.navigate([`${this.userId()}/mangas`]);
+    } catch (error) {
+      console.warn("Erreur réseau lors de l'ajout batch des mangas.", error);
     }
-
-    // Créer le JSON
-    const jsonContent = JSON.stringify(selectedMangasList, null, 2);
-
-    // Créer un blob
-    const blob = new Blob([jsonContent], { type: 'application/json' });
-
-    // Créer un lien de téléchargement
-    const url = window.URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = `my-mangas-selection-${new Date().getTime()}.json`;
-
-    // Télécharger le fichier
-    document.body.appendChild(link);
-    link.click();
-
-    // Nettoyer
-    document.body.removeChild(link);
-    window.URL.revokeObjectURL(url);
   }
 }

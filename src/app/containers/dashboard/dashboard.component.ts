@@ -8,7 +8,7 @@ import {
 } from '../../components/stats-display/stats-display.component';
 import { DashboardEntitiesStatsComponent } from '../../components/dashboard-entities-stats/dashboard-entities-stats.component';
 
-import { mangas } from '../../utils/users/guillaume/mangas/mangas';
+import { mangas } from '../../utils/users/guillaume/mangas/old_mangas';
 import { manwhas } from '../../utils/users/guillaume/mangas/manwhas';
 
 import { musics } from '../../utils/users/guillaume/musics';
@@ -23,6 +23,8 @@ import { getAllMovies } from '../../facades/movies/movies.facade';
 import { getAllSeries } from '../../facades/series/series.facade';
 import { getAllBooks } from '../../facades/books/books.facade';
 import { getAllGames } from '../../facades/games/games.facade';
+import { Manga } from '../../models/manga-model';
+import { getAllMangas } from '../../facades/mangas/mangas.facade';
 
 interface TopBook extends Book {
   formattedReadingTime: string;
@@ -42,6 +44,10 @@ interface TopSerie extends Serie {
 
 interface TopMusic extends Music {
   formattedListeningTime: string;
+}
+
+interface TopManga extends Manga {
+  formattedReadingTime: string;
 }
 
 @Component({
@@ -64,13 +70,10 @@ export class DashboardComponent implements OnInit {
   filledUserId = signal<string>('');
 
   booksList = signal<{ [key: string]: Book[] }>({});
+  mangasList = signal<{ [key: string]: Manga[] }>({});
   moviesList = signal<{ [key: string]: Movie[] }>({});
   seriesList = signal<{ [key: string]: Serie[] }>({});
   gamesList = signal<{ [key: string]: Game[] }>({});
-
-  mangasList = signal<{ [key: string]: any[] }>({
-    guillaume: [...mangas],
-  });
 
   manwhasList = signal<{ [key: string]: any[] }>({
     guillaume: [...manwhas],
@@ -126,20 +129,15 @@ export class DashboardComponent implements OnInit {
       : [];
   });
 
-  allMangas = computed<any[]>(() => {
+  allMangas = computed<Manga[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
-    const mangas = hasNameParam
+
+    return hasNameParam
       ? Boolean(this.mangasList()[this.userId()])
         ? this.mangasList()[this.userId()]
         : []
       : [];
-
-    return mangas.map((manga) => ({
-      title: manga._source.manga.frenchName || manga._source.manga.name,
-      readTimes: manga._readTimes || 1,
-      nbTomes: manga._source.manga.france.nbBooks || 0,
-    }));
   });
 
   allManwhas = computed<any[]>(() => {
@@ -241,17 +239,19 @@ export class DashboardComponent implements OnInit {
       .slice(0, 5);
   });
 
-  topMangas = computed<any[]>(() => {
+  topMangas = computed<TopManga[]>(() => {
+    console.log(this.allMangas());
     return this.allMangas()
-      .filter((manga) => manga.readTimes > 1)
+      .filter((manga) => manga.readTimes && manga.readTimes > 1)
       .map((manga) => ({
         ...manga,
-        totalReadingTime: (manga.nbTomes * 30 * manga.readTimes) / 60, // 30 minutes par tome, converti en heures
+        totalReadingTime:
+          ((manga.nbTomes || 0) * 30 * (manga.readTimes || 1)) / 60, // 30 minutes par tome, converti en heures
         formattedReadingTime: this.formatTime(
-          (manga.nbTomes * 30 * manga.readTimes) / 60
+          ((manga.nbTomes || 0) * 30 * (manga.readTimes || 1)) / 60
         ),
       }))
-      .sort((a, b) => b.readTimes - a.readTimes)
+      .sort((a, b) => (b.readTimes || 0) - (a.readTimes || 0))
       .slice(0, 5);
   });
 
@@ -429,10 +429,11 @@ export class DashboardComponent implements OnInit {
   }
 
   ngOnInit() {
-    void this.loadMoviesData();
-    void this.loadBooksData();
-    void this.loadSeriesData();
-    void this.loadGamesData();
+    this.loadMoviesData();
+    this.loadBooksData();
+    this.loadMangasData();
+    this.loadSeriesData();
+    this.loadGamesData();
   }
 
   private async loadMoviesData() {
@@ -445,6 +446,13 @@ export class DashboardComponent implements OnInit {
     const userId = this.userId() || 'guillaume';
     const books = await getAllBooks(userId);
     this.booksList.set(books);
+  }
+
+  private async loadMangasData() {
+    const userId = this.userId() || 'guillaume';
+    const mangas = await getAllMangas(userId);
+    console.log(mangas);
+    this.mangasList.set(mangas);
   }
 
   private async loadSeriesData() {

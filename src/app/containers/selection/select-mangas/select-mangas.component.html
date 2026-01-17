@@ -2,10 +2,48 @@
 
 <div class="select-mangas-container">
   <div class="header">
-    <h1>Sélectionner des mangas</h1>
-    <p class="subtitle">
-      Cliquez sur les couvertures pour sélectionner vos mangas préférés
-    </p>
+    <h1>
+      {{
+        isWatchOrReadlistMode()
+          ? "Sélectionner des mangas pour ma readlist"
+          : "Ajouter des mangas lus"
+      }}
+    </h1>
+
+    <div class="selection-description">
+      @if(!isWatchOrReadlistMode()) {
+      <p>
+        Bonjour {{ username() }} <br /><br />
+        Ici tu peux ajouter des mangas que tu as lu. La liste ci-dessous affiche
+        uniquement les mangas que tu n'as pas encore dans ta collection.
+        <br /><br />
+        Sélectionne les mangas que tu as lus, puis clique sur "Ajouter à mes
+        mangas lus".
+      </p>
+      <p>
+        Si tu ne trouves pas ton manga dans la liste, ajoute-le d'abord dans les
+        entités :
+      </p>
+      <button
+        class="btn btn-primary add-new-manga"
+        (click)="openAddMangaDialog()"
+      >
+        Ajouter un nouveau manga
+      </button>
+      } @else if(isWatchOrReadlistMode()) {
+      <p>
+        Bonjour {{ username() }} <br /><br />
+        Tu es en mode "Readlist" ! Ici, tu peux sélectionner les mangas que tu
+        souhaites ajouter à ta liste de mangas à lire.
+        <br /><br />
+        Les mangas que tu as déjà lus sont automatiquement exclus de cette liste
+        pour t'éviter les doublons.
+        <br /><br />
+        Sélectionne les mangas que tu aimerais lire et ajoute-les à ta liste.
+      </p>
+      } @else {
+      }
+    </div>
   </div>
 
   <div class="toolbar">
@@ -15,18 +53,17 @@
     </div>
 
     <div class="actions">
-      <button class="btn btn-secondary" (click)="selectAll()">
-        Tout sélectionner
-      </button>
-      <button class="btn btn-secondary" (click)="deselectAll()">
-        Tout désélectionner
-      </button>
       <button
         class="btn btn-primary"
-        (click)="exportSelectedMangas()"
+        (click)="addSelectedMangas()"
         [disabled]="selectedCount() === 0"
       >
-        📥 Exporter ma liste de mangas ({{ selectedCount() }})
+        {{
+          isWatchOrReadlistMode()
+            ? "Ajouter à mes mangas à lire"
+            : "Ajouter à mes mangas lus"
+        }}
+        ({{ selectedCount() }})
       </button>
     </div>
   </div>
