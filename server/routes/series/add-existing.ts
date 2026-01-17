@@ -36,7 +36,10 @@ function ensureUserExists(userId: string) {
     return;
   }
   console.log('creation user', userId);
-  execFileSync('node', [createUserScript, userId], { stdio: 'ignore' });
+  const shouldBuild =
+    process.env.MAKYA_BUILD === 'true' || process.env.NODE_ENV === 'production';
+  const args = shouldBuild ? [createUserScript, userId, '--build'] : [createUserScript, userId];
+  execFileSync('node', args, { stdio: 'ignore' });
 }
 
 function escapeString(value: string) {

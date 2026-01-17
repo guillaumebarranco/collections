@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "server": "ts-node server/server.ts",
-    "server:dev": "nodemon --watch server --ext ts --exec \"ts-node server/server.ts\""
+    "server:dev": "nodemon --watch server --ext ts --exec \"ts-node server/server.ts\"",
+    "server:prod": "export NODE_ENV=production && ts-node server/server.ts"
   },
   "prettier": {
     "overrides": [

@@ -1,7 +1,12 @@
 const fs = require('fs');
 const path = require('path');
+const { execFileSync } = require('child_process');
 
 const rawUsername = process.argv[2];
+const shouldBuild =
+  process.argv.includes('--build') ||
+  process.env.MAKYA_BUILD === 'true' ||
+  process.env.NODE_ENV === 'production';
 if (!rawUsername) {
   console.error('Usage: node scripts/create-user-files.js <username>');
   process.exit(1);
@@ -576,3 +581,14 @@ extraLists.forEach((entry) => {
 
 updateFacades(username);
 updateDefaultUserIds(username);
+
+if (shouldBuild) {
+  try {
+    execFileSync('npx', ['ng', 'build', '--configuration', 'production'], {
+      stdio: 'inherit',
+    });
+  } catch (error) {
+    console.error('Build failed:', error.message || error);
+    process.exitCode = 1;
+  }
+}
