@@ -1,6 +1,7 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
+const { execFileSync } = require('child_process');
 const {
   normalizeString,
   normalizeBoolean,
@@ -10,6 +11,33 @@ const {
 } = require('../../utils/books/books-utils');
 
 const router = express.Router();
+
+const usersRootDir = path.join(
+  __dirname,
+  '..',
+  '..',
+  '..',
+  'src',
+  'app',
+  'utils',
+  'users'
+);
+const createUserScript = path.join(
+  __dirname,
+  '..',
+  '..',
+  '..',
+  'scripts',
+  'create-user-files.js'
+);
+
+function ensureUserExists(userId: string) {
+  const userDir = path.join(usersRootDir, userId);
+  if (fs.existsSync(userDir)) {
+    return;
+  }
+  execFileSync('node', [createUserScript, userId], { stdio: 'ignore' });
+}
 
 function escapeString(value: string) {
   return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
@@ -66,6 +94,8 @@ router.post('/add-existing', (req: any, res: any) => {
       res.status(400).json({ error: 'Missing userId' });
       return;
     }
+
+    ensureUserExists(userId);
 
     const books = Array.isArray(input.books) ? input.books : [];
     const isReadlist = normalizeBoolean(input.readlist, 'readlist') ?? false;
