@@ -37,11 +37,14 @@ function ensureUserExists(userId: string) {
   if (fs.existsSync(userDir)) {
     return;
   }
+  console.log('creation user', userId);
   execFileSync('node', [createUserScript, userId], { stdio: 'ignore' });
 }
 
 function formatUserManga(manga: any) {
-  return `  {\n    title: '${escapeString(manga.title)}',\n    author: '${escapeString(
+  return `  {\n    title: '${escapeString(
+    manga.title
+  )}',\n    author: '${escapeString(
     manga.author
   )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n  },`;
 }

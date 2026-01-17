@@ -36,6 +36,7 @@ function ensureUserExists(userId: string) {
   if (fs.existsSync(userDir)) {
     return;
   }
+  console.log('creation user', userId);
   execFileSync('node', [createUserScript, userId], { stdio: 'ignore' });
 }
 
