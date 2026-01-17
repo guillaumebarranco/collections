@@ -10,6 +10,7 @@ import {
 import { Serie } from '../../../models/serie-model';
 import { getSeriesByUser } from '../../../facades/series/series.facade';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
+import { getApiBaseUrl } from '../../../core/config';
 
 type EditSerieForm = {
   title: string;
@@ -73,10 +74,6 @@ export class EditSerieComponent {
     });
   }
 
-  public apiUrl = document.location.origin.includes('localhost')
-    ? `http://localhost:3001/api`
-    : 'https://makya.webarranco.fr/api';
-
   updateField<K extends keyof EditSerieForm>(field: K, value: string | number) {
     const current = this.serieForm();
     if (!current) return;
@@ -126,7 +123,7 @@ export class EditSerieComponent {
     this.isSaving.set(true);
     try {
       const userId = this.getCurrentUserId();
-      const response = await fetch(`${this.apiUrl}/series`, {
+      const response = await fetch(`${getApiBaseUrl()}/series`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -10,6 +10,7 @@ import {
 import { Game } from '../../../models/game-model';
 import { getGamesByUser } from '../../../facades/games/games.facade';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
+import { getApiBaseUrl } from '../../../core/config';
 
 type EditGameForm = {
   title: string;
@@ -74,10 +75,6 @@ export class EditGameComponent {
     });
   }
 
-  public apiUrl = document.location.origin.includes('localhost')
-    ? `http://localhost:3001/api`
-    : 'https://makya.webarranco.fr/api';
-
   updateField<K extends keyof EditGameForm>(field: K, value: string | number) {
     const current = this.gameForm();
     if (!current) return;
@@ -135,7 +132,7 @@ export class EditGameComponent {
     this.isSaving.set(true);
     try {
       const userId = this.getCurrentUserId();
-      const response = await fetch(`${this.apiUrl}/games`, {
+      const response = await fetch(`${getApiBaseUrl()}/games`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

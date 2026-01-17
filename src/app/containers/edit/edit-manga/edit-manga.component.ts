@@ -10,6 +10,7 @@ import {
 import { Manga } from '../../../models/manga-model';
 import { getMangasByUser } from '../../../facades/mangas/mangas.facade';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
+import { getApiBaseUrl } from '../../../core/config';
 
 type EditMangaForm = {
   title: string;
@@ -71,10 +72,6 @@ export class EditMangaComponent {
     });
   }
 
-  public apiUrl = document.location.origin.includes('localhost')
-    ? `http://localhost:3001/api`
-    : 'https://makya.webarranco.fr/api';
-
   updateField<K extends keyof EditMangaForm>(field: K, value: string | number) {
     const current = this.mangaForm();
     if (!current) return;
@@ -117,7 +114,7 @@ export class EditMangaComponent {
     this.isSaving.set(true);
     try {
       const userId = this.getCurrentUserId();
-      const response = await fetch(`${this.apiUrl}/mangas`, {
+      const response = await fetch(`${getApiBaseUrl()}/mangas`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

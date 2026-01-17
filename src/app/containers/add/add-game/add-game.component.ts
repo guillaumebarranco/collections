@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
+import { getApiBaseUrl } from '../../../core/config';
 
 type AddGameEntityForm = {
   title: string;
@@ -62,10 +63,6 @@ export class AddGameComponent {
     platined: false,
   });
 
-  public apiUrl = document.location.origin.includes('localhost')
-    ? `http://localhost:3001/api`
-    : 'https://makya.webarranco.fr/api';
-
   close() {
     this.dialogRef.close();
   }
@@ -78,7 +75,9 @@ export class AddGameComponent {
     let nextValue: AddGameEntityForm[K] = value as AddGameEntityForm[K];
     if (field === 'averageTimeToFinish' || field === 'platineTime') {
       const asNumber = Number(value);
-      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as AddGameEntityForm[K];
+      nextValue = (
+        Number.isNaN(asNumber) ? 0 : asNumber
+      ) as AddGameEntityForm[K];
     }
     this.entityForm.set({
       ...current,
@@ -92,7 +91,11 @@ export class AddGameComponent {
   ) {
     const current = this.userForm();
     let nextValue: AddGameUserForm[K] = value as AddGameUserForm[K];
-    if (field === 'rating' || field === 'timesFinished' || field === 'additionnalEstimatedTime') {
+    if (
+      field === 'rating' ||
+      field === 'timesFinished' ||
+      field === 'additionnalEstimatedTime'
+    ) {
       const asNumber = Number(value);
       nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as AddGameUserForm[K];
     }
@@ -145,7 +148,7 @@ export class AddGameComponent {
     this.errorMessage.set('');
 
     try {
-      const response = await fetch(`${this.apiUrl}/games/add`, {
+      const response = await fetch(`${getApiBaseUrl()}/games/add`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

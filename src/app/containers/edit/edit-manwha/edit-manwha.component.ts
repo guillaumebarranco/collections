@@ -10,6 +10,7 @@ import {
 import { Manwha } from '../../../models/manwha-model';
 import { getManwhasByUser } from '../../../facades/manwhas/manwhas.facade';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
+import { getApiBaseUrl } from '../../../core/config';
 
 type EditManwhaForm = {
   title: string;
@@ -71,11 +72,10 @@ export class EditManwhaComponent {
     });
   }
 
-  public apiUrl = document.location.origin.includes('localhost')
-    ? `http://localhost:3001/api`
-    : 'https://makya.webarranco.fr/api';
-
-  updateField<K extends keyof EditManwhaForm>(field: K, value: string | number) {
+  updateField<K extends keyof EditManwhaForm>(
+    field: K,
+    value: string | number
+  ) {
     const current = this.manwhaForm();
     if (!current) return;
 
@@ -117,7 +117,7 @@ export class EditManwhaComponent {
     this.isSaving.set(true);
     try {
       const userId = this.getCurrentUserId();
-      const response = await fetch(`${this.apiUrl}/manwhas`, {
+      const response = await fetch(`${getApiBaseUrl()}/manwhas`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

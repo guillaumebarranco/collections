@@ -10,6 +10,7 @@ import {
 import { Movie } from '../../../models/movie-model';
 import { getMoviesByUser } from '../../../facades/movies/movies.facade';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
+import { getApiBaseUrl } from '../../../core/config';
 
 type EditMovieForm = {
   title: string;
@@ -72,10 +73,6 @@ export class EditMovieComponent {
     });
   }
 
-  public apiUrl = document.location.origin.includes('localhost')
-    ? `http://localhost:3001/api`
-    : 'https://makya.webarranco.fr/api';
-
   // public apiUrl = 'https://makya.webarranco.fr/api';
 
   updateField<K extends keyof EditMovieForm>(field: K, value: string | number) {
@@ -129,7 +126,7 @@ export class EditMovieComponent {
     this.isSaving.set(true);
     try {
       const userId = this.getCurrentUserId();
-      const response = await fetch(`${this.apiUrl}/movies`, {
+      const response = await fetch(`${getApiBaseUrl()}/movies`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

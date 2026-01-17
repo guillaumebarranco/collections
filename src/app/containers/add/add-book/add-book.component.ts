@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
+import { getApiBaseUrl } from '../../../core/config';
 
 type AddBookEntityForm = {
   title: string;
@@ -60,10 +61,6 @@ export class AddBookComponent {
     readDate: '',
   });
 
-  public apiUrl = document.location.origin.includes('localhost')
-    ? `http://localhost:3001/api`
-    : 'https://makya.webarranco.fr/api';
-
   close() {
     this.dialogRef.close();
   }
@@ -76,7 +73,9 @@ export class AddBookComponent {
     let nextValue: AddBookEntityForm[K] = value as AddBookEntityForm[K];
     if (field === 'pages' || field === 'sagaOrder' || field === 'nbTomes') {
       const asNumber = Number(value);
-      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as AddBookEntityForm[K];
+      nextValue = (
+        Number.isNaN(asNumber) ? 0 : asNumber
+      ) as AddBookEntityForm[K];
     }
     this.entityForm.set({
       ...current,
@@ -143,7 +142,7 @@ export class AddBookComponent {
     this.errorMessage.set('');
 
     try {
-      const response = await fetch(`${this.apiUrl}/books/add`, {
+      const response = await fetch(`${getApiBaseUrl()}/books/add`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

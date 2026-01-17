@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
+import { getApiBaseUrl } from '../../../core/config';
 
 type AddSerieEntityForm = {
   title: string;
@@ -62,10 +63,6 @@ export class AddSerieComponent {
     stoppedAtSeason: 0,
   });
 
-  public apiUrl = document.location.origin.includes('localhost')
-    ? `http://localhost:3001/api`
-    : 'https://makya.webarranco.fr/api';
-
   close() {
     this.dialogRef.close();
   }
@@ -82,7 +79,9 @@ export class AddSerieComponent {
       field === 'nbEpisodesTotal'
     ) {
       const asNumber = Number(value);
-      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as AddSerieEntityForm[K];
+      nextValue = (
+        Number.isNaN(asNumber) ? 0 : asNumber
+      ) as AddSerieEntityForm[K];
     }
     this.entityForm.set({
       ...current,
@@ -96,9 +95,15 @@ export class AddSerieComponent {
   ) {
     const current = this.userForm();
     let nextValue: AddSerieUserForm[K] = value as AddSerieUserForm[K];
-    if (field === 'rating' || field === 'timesWatched' || field === 'stoppedAtSeason') {
+    if (
+      field === 'rating' ||
+      field === 'timesWatched' ||
+      field === 'stoppedAtSeason'
+    ) {
       const asNumber = Number(value);
-      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as AddSerieUserForm[K];
+      nextValue = (
+        Number.isNaN(asNumber) ? 0 : asNumber
+      ) as AddSerieUserForm[K];
     }
     this.userForm.set({
       ...current,
@@ -149,7 +154,7 @@ export class AddSerieComponent {
     this.errorMessage.set('');
 
     try {
-      const response = await fetch(`${this.apiUrl}/series/add`, {
+      const response = await fetch(`${getApiBaseUrl()}/series/add`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

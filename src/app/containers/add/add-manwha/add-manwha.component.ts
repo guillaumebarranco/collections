@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
+import { getApiBaseUrl } from '../../../core/config';
 
 type AddManwhaEntityForm = {
   title: string;
@@ -54,10 +55,6 @@ export class AddManwhaComponent {
     readDate: '',
   });
 
-  public apiUrl = document.location.origin.includes('localhost')
-    ? `http://localhost:3001/api`
-    : 'https://makya.webarranco.fr/api';
-
   close() {
     this.dialogRef.close();
   }
@@ -70,7 +67,9 @@ export class AddManwhaComponent {
     let nextValue: AddManwhaEntityForm[K] = value as AddManwhaEntityForm[K];
     if (field === 'nbTomes') {
       const asNumber = Number(value);
-      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as AddManwhaEntityForm[K];
+      nextValue = (
+        Number.isNaN(asNumber) ? 0 : asNumber
+      ) as AddManwhaEntityForm[K];
     }
     this.entityForm.set({
       ...current,
@@ -86,7 +85,9 @@ export class AddManwhaComponent {
     let nextValue: AddManwhaUserForm[K] = value as AddManwhaUserForm[K];
     if (field === 'rating' || field === 'readTimes') {
       const asNumber = Number(value);
-      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as AddManwhaUserForm[K];
+      nextValue = (
+        Number.isNaN(asNumber) ? 0 : asNumber
+      ) as AddManwhaUserForm[K];
     }
     this.userForm.set({
       ...current,
@@ -137,7 +138,7 @@ export class AddManwhaComponent {
     this.errorMessage.set('');
 
     try {
-      const response = await fetch(`${this.apiUrl}/manwhas/add`, {
+      const response = await fetch(`${getApiBaseUrl()}/manwhas/add`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

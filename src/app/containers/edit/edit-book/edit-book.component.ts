@@ -10,6 +10,7 @@ import {
 import { Book } from '../../../models/book-model';
 import { getBooksByUser } from '../../../facades/books/books.facade';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
+import { getApiBaseUrl } from '../../../core/config';
 
 type EditBookForm = {
   title: string;
@@ -71,10 +72,6 @@ export class EditBookComponent {
     });
   }
 
-  public apiUrl = document.location.origin.includes('localhost')
-    ? `http://localhost:3001/api`
-    : 'https://makya.webarranco.fr/api';
-
   updateField<K extends keyof EditBookForm>(field: K, value: string | number) {
     const current = this.bookForm();
     if (!current) return;
@@ -117,7 +114,7 @@ export class EditBookComponent {
     this.isSaving.set(true);
     try {
       const userId = this.getCurrentUserId();
-      const response = await fetch(`${this.apiUrl}/books`, {
+      const response = await fetch(`${getApiBaseUrl()}/books`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

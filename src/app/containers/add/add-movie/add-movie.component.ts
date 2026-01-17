@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
+import { getApiBaseUrl } from '../../../core/config';
 
 type AddMovieEntityForm = {
   title: string;
@@ -60,10 +61,6 @@ export class AddMovieComponent {
     seenAtCinema: false,
   });
 
-  public apiUrl = document.location.origin.includes('localhost')
-    ? `http://localhost:3001/api`
-    : 'https://makya.webarranco.fr/api';
-
   close() {
     this.dialogRef.close();
   }
@@ -76,7 +73,9 @@ export class AddMovieComponent {
     let nextValue: AddMovieEntityForm[K] = value as AddMovieEntityForm[K];
     if (field === 'length') {
       const asNumber = Number(value);
-      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as AddMovieEntityForm[K];
+      nextValue = (
+        Number.isNaN(asNumber) ? 0 : asNumber
+      ) as AddMovieEntityForm[K];
     }
     this.entityForm.set({
       ...current,
@@ -92,7 +91,9 @@ export class AddMovieComponent {
     let nextValue: AddMovieUserForm[K] = value as AddMovieUserForm[K];
     if (field === 'rating' || field === 'timesWatched') {
       const asNumber = Number(value);
-      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as AddMovieUserForm[K];
+      nextValue = (
+        Number.isNaN(asNumber) ? 0 : asNumber
+      ) as AddMovieUserForm[K];
     }
     this.userForm.set({
       ...current,
@@ -151,7 +152,7 @@ export class AddMovieComponent {
     this.errorMessage.set('');
 
     try {
-      const response = await fetch(`${this.apiUrl}/movies/add`, {
+      const response = await fetch(`${getApiBaseUrl()}/movies/add`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -168,13 +169,13 @@ export class AddMovieComponent {
 
       const payload = await response.json().catch(() => ({}));
       if (!response.ok) {
-        this.errorMessage.set(payload?.error || 'Erreur lors de l\'ajout.');
+        this.errorMessage.set(payload?.error || "Erreur lors de l'ajout.");
         return;
       }
 
       this.dialogRef.close({ created: true, payload });
     } catch (error) {
-      this.errorMessage.set('Erreur réseau lors de l\'ajout.');
+      this.errorMessage.set("Erreur réseau lors de l'ajout.");
     } finally {
       this.isSaving.set(false);
     }
