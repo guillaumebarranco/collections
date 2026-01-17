@@ -8,9 +8,6 @@ import {
 } from '../../components/stats-display/stats-display.component';
 import { DashboardEntitiesStatsComponent } from '../../components/dashboard-entities-stats/dashboard-entities-stats.component';
 
-import { mangas } from '../../utils/users/guillaume/mangas/old_mangas';
-import { manwhas } from '../../utils/users/guillaume/mangas/manwhas';
-
 import { musics } from '../../utils/users/guillaume/musics';
 import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
 import { Book } from '../../models/book-model';
@@ -18,13 +15,20 @@ import { Movie } from '../../models/movie-model';
 import { Music } from '../../models/music-model';
 import { Game } from '../../models/game-model';
 import { Serie } from '../../models/serie-model';
-import { getTotalPagesRead, MINUTES_PER_PAGE } from '../../utils/stats.utils';
+import {
+  getTotalManwhasChaptersRead,
+  getTotalPagesRead,
+  MINUTES_PER_MANWHA_CHAPTER,
+  MINUTES_PER_PAGE,
+} from '../../utils/stats.utils';
 import { getAllMovies } from '../../facades/movies/movies.facade';
 import { getAllSeries } from '../../facades/series/series.facade';
 import { getAllBooks } from '../../facades/books/books.facade';
 import { getAllGames } from '../../facades/games/games.facade';
 import { Manga } from '../../models/manga-model';
 import { getAllMangas } from '../../facades/mangas/mangas.facade';
+import { Manwha } from '../../models/manwha-model';
+import { getAllManwhas } from '../../facades/manwhas/manwhas.facade';
 
 interface TopBook extends Book {
   formattedReadingTime: string;
@@ -75,9 +79,7 @@ export class DashboardComponent implements OnInit {
   seriesList = signal<{ [key: string]: Serie[] }>({});
   gamesList = signal<{ [key: string]: Game[] }>({});
 
-  manwhasList = signal<{ [key: string]: any[] }>({
-    guillaume: [...manwhas],
-  });
+  manwhasList = signal<{ [key: string]: Manwha[] }>({});
 
   musicsList = signal<{ [key: string]: Music[] }>({
     guillaume: [...musics],
@@ -140,20 +142,14 @@ export class DashboardComponent implements OnInit {
       : [];
   });
 
-  allManwhas = computed<any[]>(() => {
+  allManwhas = computed<Manwha[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
-    const manwhas = hasNameParam
+    return hasNameParam
       ? Boolean(this.manwhasList()[this.userId()])
         ? this.manwhasList()[this.userId()]
         : []
       : [];
-
-    return manwhas.map((manwha) => ({
-      title: manwha._source.manga.frenchName || manwha._source.manga.name,
-      readTimes: manwha._readTimes || 1,
-      nbTomes: manwha._source.manga.france.nbBooks || 0,
-    }));
   });
 
   allMusics = computed<Music[]>(() => {
@@ -281,11 +277,9 @@ export class DashboardComponent implements OnInit {
     );
     const mangasTotalReadingTime = (mangasTotalTomes * 30) / 60; // 30 minutes par tome, converti en heures
 
-    const manwhasTotalTomes = this.allManwhas().reduce(
-      (sum, manwha) => sum + (manwha.nbTomes || 0) * (manwha.readTimes || 1),
-      0
-    );
-    const manwhasTotalReadingTime = (manwhasTotalTomes * 30) / 60; // 30 minutes par tome, converti en heures
+    const manwhasTotalChapters = getTotalManwhasChaptersRead(this.allManwhas());
+    const manwhasTotalReadingTime =
+      (manwhasTotalChapters * MINUTES_PER_MANWHA_CHAPTER) / 60;
 
     const totalWatchingTime =
       this.allMovies().reduce(
@@ -432,6 +426,7 @@ export class DashboardComponent implements OnInit {
     this.loadMoviesData();
     this.loadBooksData();
     this.loadMangasData();
+    this.loadManwhasData();
     this.loadSeriesData();
     this.loadGamesData();
   }
@@ -451,8 +446,13 @@ export class DashboardComponent implements OnInit {
   private async loadMangasData() {
     const userId = this.userId() || 'guillaume';
     const mangas = await getAllMangas(userId);
-    console.log(mangas);
     this.mangasList.set(mangas);
+  }
+
+  private async loadManwhasData() {
+    const userId = this.userId() || 'guillaume';
+    const manwhas = await getAllManwhas(userId);
+    this.manwhasList.set(manwhas);
   }
 
   private async loadSeriesData() {

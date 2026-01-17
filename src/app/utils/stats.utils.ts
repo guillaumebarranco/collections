@@ -16,6 +16,7 @@ export interface ItemWithPages {
   pages?: number;
   readTimes?: number;
   title: string;
+  nbChapters?: number;
 }
 
 export interface ItemWithTomes {
@@ -36,6 +37,8 @@ export interface ItemWithGameLength {
 export const MINUTES_PER_PAGE = 2;
 // Estimation : 200 pages par tome de manga en moyenne
 export const PAGES_PER_MANGA_TOME = 200;
+export const PAGES_PER_MANWHA_CHAPTER = 30;
+export const MINUTES_PER_MANWHA_CHAPTER = 5;
 // Estimation : 30 minutes par tome de manga en moyenne
 export const MINUTES_PER_MANGA_TOME = 30;
 
@@ -119,6 +122,27 @@ export function getTotalMangaTomesRead(items: ItemWithTomes[]): number {
   return totalTomes;
 }
 
+export function getTotalManwhasPages(items: ItemWithPages[]): number {
+  let totalPages = 0;
+  for (const item of items) {
+    if (item.nbChapters) {
+      const readTimes = item.readTimes || 1;
+      totalPages += item.nbChapters * PAGES_PER_MANWHA_CHAPTER * readTimes;
+    }
+  }
+  return totalPages;
+}
+
+export function getTotalManwhasChaptersRead(items: ItemWithPages[]): number {
+  let totalChapters = 0;
+  for (const item of items) {
+    if (item.nbChapters && item.readTimes) {
+      totalChapters += item.nbChapters * item.readTimes;
+    }
+  }
+  return totalChapters;
+}
+
 export function getEstimatedReadingTime(items: ItemWithPages[]): TimeStats {
   const totalPagesRead = getTotalPagesRead(items);
   const totalMinutes = totalPagesRead * MINUTES_PER_PAGE;
@@ -134,6 +158,20 @@ export function getEstimatedMangaReadingTime(
       const minutesPerRead = item.nbTomes * MINUTES_PER_MANGA_TOME;
       const readTimes = item.readTimes || 1;
       totalMinutes += minutesPerRead * readTimes;
+    }
+  }
+  return formatTimeStats(totalMinutes);
+}
+
+export function getEstimatedManwhaReadingTime(
+  items: ItemWithPages[]
+): TimeStats {
+  let totalMinutes = 0;
+  for (const item of items) {
+    if (item.nbChapters) {
+      const minutesPerChapter = item.nbChapters * MINUTES_PER_MANWHA_CHAPTER;
+      const readTimes = item.readTimes || 1;
+      totalMinutes += minutesPerChapter * readTimes;
     }
   }
   return formatTimeStats(totalMinutes);

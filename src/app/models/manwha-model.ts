@@ -7,7 +7,7 @@ export interface BaseManwha extends MandatoryManwhaData {
   coverUrl: string;
   pages?: number;
   genre: string;
-  nbTomes?: number;
+  nbChapters?: number;
   isFinished?: boolean;
 }
 

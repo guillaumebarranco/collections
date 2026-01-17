@@ -29,7 +29,7 @@ export class BookComponent {
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly dialog = inject(MatDialog);
 
-  @Input() book!: Book;
+  @Input() book!: any;
   @Output() bookUpdated = new EventEmitter<void>();
 
   navigateToEdit(): void {

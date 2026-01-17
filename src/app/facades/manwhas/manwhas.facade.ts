@@ -30,8 +30,10 @@ function getAllManwhasData(manwhas: UserManwha[]): Manwha[] {
       coverUrl: definitiveMatchingManwha?.coverUrl || '',
       pages: definitiveMatchingManwha?.pages || 0,
       genre: definitiveMatchingManwha?.genre || '',
-      nbTomes: definitiveMatchingManwha?.nbTomes || 0,
+      nbChapters: definitiveMatchingManwha?.nbChapters || 0,
       isFinished: definitiveMatchingManwha?.isFinished || false,
+      saga: '',
+      sagaOrder: 0,
     };
   });
 }
@@ -96,7 +98,8 @@ export async function getAllManwhasMerged(
     .reduce((acc: Manwha[], item: Manwha) => {
       if (
         acc.find(
-          (manwha) => manwha.title === item.title && manwha.author === item.author
+          (manwha) =>
+            manwha.title === item.title && manwha.author === item.author
         )
       ) {
         return acc;
