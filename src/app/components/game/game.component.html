@@ -8,7 +8,12 @@
     &#9998;
   </button>
   <div class="game-cover">
-    <img [src]="game.coverUrl" [alt]="game.title" class="cover-image" />
+    <img
+      [src]="game.coverUrl"
+      [alt]="game.title"
+      class="cover-image"
+      referrerpolicy="no-referrer"
+    />
   </div>
   <div class="game-info">
     <h3 class="game-title">{{ game.title }}</h3>

@@ -8,7 +8,12 @@
     &#9998;
   </button>
   <div class="serie-cover">
-    <img [src]="serie.coverUrl" [alt]="serie.title" class="cover-image" />
+    <img
+      [src]="serie.coverUrl"
+      [alt]="serie.title"
+      class="cover-image"
+      referrerpolicy="no-referrer"
+    />
   </div>
   <div class="serie-info">
     <h3 class="serie-title">{{ serie.title }}</h3>
