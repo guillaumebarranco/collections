@@ -78,7 +78,7 @@ export async function getAllReadlistManwhas(
   if (isLocalhost()) {
     return {
       guillaume: getAllManwhasData(getLocalReadlistByUser('guillaume')),
-      william: [],
+      william: getAllManwhasData(getLocalReadlistByUser('william')),
       kevin: getAllManwhasData(getLocalReadlistByUser('kevin')),
       amandine: getAllManwhasData(getLocalReadlistByUser('amandine')),
       ronan: getAllManwhasData(getLocalReadlistByUser('ronan')),

@@ -77,7 +77,7 @@ export async function getAllReadlistBooks(
   if (isLocalhost()) {
     return {
       guillaume: getAllBooksData(getLocalReadlistByUser('guillaume')),
-      william: [],
+      william: getAllBooksData(getLocalReadlistByUser('william')),
       kevin: getAllBooksData(getLocalReadlistByUser('kevin')),
       amandine: getAllBooksData(getLocalReadlistByUser('amandine')),
       ronan: getAllBooksData(getLocalReadlistByUser('ronan')),

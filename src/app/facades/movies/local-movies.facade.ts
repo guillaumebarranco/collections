@@ -31,6 +31,7 @@ import {
   guillaumeWatchlistMovies,
 } from '../../utils/users/guillaume/movies';
 import { williamMovies } from '../../utils/users/william/movies';
+import { williamWatchListMovies } from '../../utils/users/william/movies/william_watchlist_movies';
 import {
   amandineMovies1,
   amandineMovies2,
@@ -101,6 +102,8 @@ export function getLocalWatchlistByUser(userId: string): UserMovie[] {
       return [...ronanWatchlistMovies];
     case 'kevin':
       return [...kevinWatchlistMovies];
+    case 'william':
+      return [...williamWatchListMovies];
     default:
       return [];
   }

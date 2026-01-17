@@ -79,7 +79,7 @@ export async function getAllWatchlistMovies(
   if (isLocalhost()) {
     return {
       guillaume: getAllMoviesData(getLocalWatchlistByUser('guillaume')),
-      william: [],
+      william: getAllMoviesData(getLocalWatchlistByUser('william')),
       kevin: getAllMoviesData(getLocalWatchlistByUser('kevin')),
       amandine: getAllMoviesData(getLocalWatchlistByUser('amandine')),
       ronan: getAllMoviesData(getLocalWatchlistByUser('ronan')),

@@ -20,6 +20,8 @@ import {
   amandineBooks,
   amandineReadListBooks,
 } from '../../utils/users/amandine/books';
+import { williamBooks } from '../../utils/users/william/books/william_books';
+import { williamReadListBooks } from '../../utils/users/william/books/william_readlist_books';
 import { BaseBook, UserBook } from '../../models/book-model';
 
 export const allBaseBooks: BaseBook[] = [
@@ -41,7 +43,7 @@ export function getLocalBooksByUser(userId: string): UserBook[] {
         ...guillaumeBooksSaga,
       ];
     case 'william':
-      return [];
+      return [...williamBooks];
     case 'kevin':
       return [...kevinBooks];
     case 'amandine':
@@ -63,6 +65,8 @@ export function getLocalReadlistByUser(userId: string): UserBook[] {
       return [...amandineReadListBooks];
     case 'ronan':
       return [...ronanReadListBooks];
+    case 'william':
+      return [...williamReadListBooks];
     default:
       return [];
   }
