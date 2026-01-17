@@ -3,6 +3,8 @@ const moviesRoutes = require('./routes/movies/movies-routes');
 const booksRoutes = require('./routes/books/books-routes');
 const seriesRoutes = require('./routes/series/series-routes');
 const gamesRoutes = require('./routes/games/games-routes');
+const mangasRoutes = require('./routes/mangas/mangas-routes');
+const manwhasRoutes = require('./routes/manwhas/manwhas-routes');
 
 const PORT = 3001;
 
@@ -29,6 +31,8 @@ app.use('/api/movies', moviesRoutes);
 app.use('/api/books', booksRoutes);
 app.use('/api/series', seriesRoutes);
 app.use('/api/games', gamesRoutes);
+app.use('/api/mangas', mangasRoutes);
+app.use('/api/manwhas', manwhasRoutes);
 
 app.use((_req: any, res: any) => {
   res.status(404).json({ error: 'Not found' });

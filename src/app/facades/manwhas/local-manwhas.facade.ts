@@ -1,8 +1,8 @@
-import { baseManwhas } from '../../utils/entities/manwhas';
+import { baseManwhas, baseManwhasApi } from '../../utils/entities/manwhas';
 import { guillaumeManwhas } from '../../utils/users/guillaume/manwhas';
 import { BaseManwha, UserManwha } from '../../models/manwha-model';
 
-export const allBaseManwhas: BaseManwha[] = [...baseManwhas];
+export const allBaseManwhas: BaseManwha[] = [...baseManwhas, ...baseManwhasApi];
 
 export function getLocalManwhasByUser(userId: string): UserManwha[] {
   switch (userId) {

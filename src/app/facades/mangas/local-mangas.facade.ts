@@ -1,8 +1,8 @@
-import { baseMangas } from '../../utils/entities/mangas';
+import { baseMangas, baseMangasApi } from '../../utils/entities/mangas';
 import { guillaumeMangas } from '../../utils/users/guillaume/mangas';
 import { BaseManga, UserManga } from '../../models/manga-model';
 
-export const allBaseMangas: BaseManga[] = [...baseMangas];
+export const allBaseMangas: BaseManga[] = [...baseMangas, ...baseMangasApi];
 
 export function getLocalMangasByUser(userId: string): UserManga[] {
   switch (userId) {

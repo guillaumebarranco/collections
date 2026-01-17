@@ -1,0 +1,322 @@
+const fs = require('fs');
+const path = require('path');
+
+const USERS_MANWHAS_DIR = path.join(
+  __dirname,
+  '..',
+  '..',
+  '..',
+  'src',
+  'app',
+  'utils',
+  'users'
+);
+const BASE_MANWHAS_DIR = path.join(
+  __dirname,
+  '..',
+  '..',
+  '..',
+  'src',
+  'app',
+  'utils',
+  'entities',
+  'manwhas'
+);
+const BASE_MANWHAS_API_FILE = path.join(
+  BASE_MANWHAS_DIR,
+  'base_manwhas_api.ts'
+);
+
+function getArrayBounds(content: string, exportIndex: number) {
+  const assignIndex = content.indexOf('=', exportIndex);
+  if (assignIndex === -1) return null;
+  const arrayStart = content.indexOf('[', assignIndex);
+  const arrayEnd = content.indexOf('];', arrayStart);
+  if (arrayStart === -1 || arrayEnd === -1) return null;
+  return { arrayStart, arrayEnd };
+}
+
+function normalizeNumber(value: any, field: string) {
+  if (value === undefined || value === null) return undefined;
+  const parsed = Number(value);
+  if (Number.isNaN(parsed)) {
+    throw new Error(`Invalid number for ${field}`);
+  }
+  return parsed;
+}
+
+function normalizeBoolean(value: any, field: string) {
+  if (value === undefined || value === null) return undefined;
+  if (typeof value === 'boolean') return value;
+  if (value === 'true') return true;
+  if (value === 'false') return false;
+  throw new Error(`Invalid boolean for ${field}`);
+}
+
+function normalizeString(value: any, field: string) {
+  if (value === undefined || value === null) return undefined;
+  if (typeof value !== 'string') {
+    throw new Error(`Invalid string for ${field}`);
+  }
+  return value;
+}
+
+function parseStringField(objectText: string, key: string) {
+  const regex = new RegExp(
+    `${key}\\s*:\\s*(['"])((?:\\\\.|(?!\\1).)*)\\1`
+  );
+  const match = objectText.match(regex);
+  if (!match) return null;
+  const quote = match[1];
+  return unescapeString(match[2], quote);
+}
+
+function unescapeString(value: string, quote: string) {
+  return value
+    .replace(new RegExp(`\\\\${quote}`, 'g'), quote)
+    .replace(/\\\\/g, '\\');
+}
+
+function parseNumberField(objectText: string, key: string) {
+  const regex = new RegExp(`${key}\\s*:\\s*([^,\\n]+)`);
+  const match = objectText.match(regex);
+  if (!match) return null;
+  const parsed = Number(match[1]);
+  return Number.isNaN(parsed) ? null : parsed;
+}
+
+function parseBooleanField(objectText: string, key: string) {
+  const regex = new RegExp(`${key}\\s*:\\s*(true|false)`);
+  const match = objectText.match(regex);
+  if (!match) return null;
+  return match[1] === 'true';
+}
+
+function parseManwhasFromFile(content: string): any[] {
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    return [];
+  }
+
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
+    return [];
+  }
+  const { arrayStart, arrayEnd } = bounds;
+
+  const manwhas: any[] = [];
+  let i = arrayStart;
+  let depth = 0;
+  let objectStart = -1;
+
+  while (i < arrayEnd) {
+    const char = content[i];
+    if (char === '{') {
+      if (depth === 0) {
+        objectStart = i;
+      }
+      depth += 1;
+    } else if (char === '}') {
+      depth -= 1;
+      if (depth === 0 && objectStart !== -1) {
+        const objectEnd = i;
+        const objectText = content.slice(objectStart, objectEnd + 1);
+        const title = parseStringField(objectText, 'title');
+        const author = parseStringField(objectText, 'author');
+        if (title && author) {
+          manwhas.push({
+            title,
+            author,
+            rating: parseNumberField(objectText, 'rating') ?? 0,
+            readTimes: parseNumberField(objectText, 'readTimes') ?? 0,
+            readDate: parseStringField(objectText, 'readDate') ?? '',
+          });
+        }
+      }
+    }
+    i += 1;
+  }
+
+  return manwhas;
+}
+
+function parseBaseManwhasFullFromFile(content: string): any[] {
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    return [];
+  }
+
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
+    return [];
+  }
+  const { arrayStart, arrayEnd } = bounds;
+
+  const manwhas: any[] = [];
+  let i = arrayStart;
+  let depth = 0;
+  let objectStart = -1;
+
+  while (i < arrayEnd) {
+    const char = content[i];
+    if (char === '{') {
+      if (depth === 0) {
+        objectStart = i;
+      }
+      depth += 1;
+    } else if (char === '}') {
+      depth -= 1;
+      if (depth === 0 && objectStart !== -1) {
+        const objectEnd = i;
+        const objectText = content.slice(objectStart, objectEnd + 1);
+        const title = parseStringField(objectText, 'title');
+        const author = parseStringField(objectText, 'author');
+        if (!title || !author) {
+          i += 1;
+          continue;
+        }
+
+        manwhas.push({
+          title,
+          author,
+          coverUrl: parseStringField(objectText, 'coverUrl') || '',
+          pages: parseNumberField(objectText, 'pages') ?? 0,
+          genre: parseStringField(objectText, 'genre') || '',
+          nbChapters: parseNumberField(objectText, 'nbChapters') ?? 0,
+          isFinished: parseBooleanField(objectText, 'isFinished') ?? false,
+        });
+      }
+    }
+    i += 1;
+  }
+
+  return manwhas;
+}
+
+function escapeString(value: string): string {
+  return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+}
+
+function appendObjectToArrayFile(filePath: string, objectText: string) {
+  const content = fs.readFileSync(filePath, 'utf8');
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    throw new Error('Array not found');
+  }
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
+    throw new Error('Array bounds not found');
+  }
+  const { arrayStart, arrayEnd } = bounds;
+
+  const arrayBody = content.slice(arrayStart + 1, arrayEnd);
+  const trimmedBody = arrayBody.trim();
+  const hasItems = /{/.test(arrayBody);
+  const needsComma = hasItems && !trimmedBody.endsWith(',');
+
+  const insert = (needsComma ? ',' : '') + '\n' + objectText + '\n';
+  return (
+    content.slice(0, arrayStart + 1) +
+    arrayBody +
+    insert +
+    content.slice(arrayEnd)
+  );
+}
+
+function getBaseManwhasFiles(): string[] {
+  if (!fs.existsSync(BASE_MANWHAS_DIR)) return [];
+  return fs
+    .readdirSync(BASE_MANWHAS_DIR)
+    .filter((file: string) => file.endsWith('.ts') && file !== 'index.ts')
+    .map((file: string) => path.join(BASE_MANWHAS_DIR, file));
+}
+
+function baseManwhaExists(title: string, author: string): boolean {
+  const files = getBaseManwhasFiles();
+  for (const filePath of files) {
+    const content = fs.readFileSync(filePath, 'utf8');
+    const manwhas = parseBaseManwhasFullFromFile(content);
+    if (manwhas.some((m: any) => m.title === title && m.author === author)) {
+      return true;
+    }
+  }
+  return false;
+}
+
+function updateManwhaInFile(filePath: string, manwhaData: any): boolean {
+  const content = fs.readFileSync(filePath, 'utf8');
+  const manwhas = parseManwhasFromFile(content);
+  const index = manwhas.findIndex(
+    (manwha) => manwha.title === manwhaData.title && manwha.author === manwhaData.author
+  );
+
+  if (index === -1) {
+    return false;
+  }
+
+  manwhas[index] = {
+    ...manwhas[index],
+    ...manwhaData,
+  };
+
+  const newArrayContent = manwhas
+    .map(
+      (manwha) => `  {
+    title: '${escapeString(manwha.title)}',
+    author: '${escapeString(manwha.author)}',
+    readDate: '${escapeString(manwha.readDate || '')}',
+    rating: ${manwha.rating ?? 0},
+    readTimes: ${manwha.readTimes ?? 1},
+  }`
+    )
+    .join(',\n');
+
+  const exportIndex = content.indexOf('export const');
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
+    throw new Error('Array bounds not found');
+  }
+  const { arrayStart, arrayEnd } = bounds;
+
+  const newContent =
+    content.slice(0, arrayStart + 1) +
+    '\n' +
+    newArrayContent +
+    '\n' +
+    content.slice(arrayEnd);
+
+  fs.writeFileSync(filePath, newContent, 'utf8');
+  return true;
+}
+
+function getUserManwhasFiles(userId: string): string[] {
+  const userDir = path.join(USERS_MANWHAS_DIR, userId, 'manwhas');
+  if (!fs.existsSync(userDir)) return [];
+
+  return fs
+    .readdirSync(userDir)
+    .filter(
+      (file: string) =>
+        file.endsWith('.ts') &&
+        file !== 'index.ts' &&
+        !file.includes('readlist')
+    )
+    .map((file: string) => path.join(userDir, file));
+}
+
+module.exports = {
+  BASE_MANWHAS_API_FILE,
+  normalizeNumber,
+  normalizeBoolean,
+  normalizeString,
+  parseManwhasFromFile,
+  parseBaseManwhasFullFromFile,
+  escapeString,
+  appendObjectToArrayFile,
+  baseManwhaExists,
+  updateManwhaInFile,
+  getUserManwhasFiles,
+  getBaseManwhasFiles,
+};
+
+export {};
