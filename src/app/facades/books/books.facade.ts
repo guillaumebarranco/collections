@@ -50,6 +50,10 @@ function buildBooksMap(
   );
 }
 
+export async function getAllBaseBooks(): Promise<BaseBook[]> {
+  return allBaseBooks;
+}
+
 export async function getAllBooks(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Book[] }> {
