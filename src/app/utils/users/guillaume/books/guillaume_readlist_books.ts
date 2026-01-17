@@ -149,13 +149,6 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readTimes: 0,
   },
   {
-    title: 'The Dead zone',
-    author: 'Stephen King',
-    readDate: '',
-    rating: 0,
-    readTimes: 0,
-  },
-  {
     title: 'Les deux tours',
     author: 'J.R.R. Tolkien',
     readDate: '',

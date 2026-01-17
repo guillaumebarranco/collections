@@ -484,4 +484,11 @@ export const guillaumeBooks: UserBook[] = [
     rating: 4.5,
     readTimes: 1,
   },
+  {
+    title: 'The Dead zone',
+    author: 'Stephen King',
+    readDate: '2026-01-17',
+    rating: 3.75,
+    readTimes: 1,
+  },
 ];
