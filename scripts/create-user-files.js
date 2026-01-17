@@ -582,13 +582,13 @@ extraLists.forEach((entry) => {
 updateFacades(username);
 updateDefaultUserIds(username);
 
-if (shouldBuild) {
-  try {
-    execFileSync('npx', ['ng', 'build', '--configuration', 'production'], {
-      stdio: 'inherit',
-    });
-  } catch (error) {
-    console.error('Build failed:', error.message || error);
-    process.exitCode = 1;
-  }
-}
+// if (shouldBuild) {
+//   try {
+//     execFileSync('npx', ['ng', 'build', '--configuration', 'production'], {
+//       stdio: 'inherit',
+//     });
+//   } catch (error) {
+//     console.error('Build failed:', error.message || error);
+//     process.exitCode = 1;
+//   }
+// }
