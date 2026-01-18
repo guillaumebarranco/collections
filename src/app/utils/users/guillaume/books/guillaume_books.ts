@@ -480,7 +480,7 @@ export const guillaumeBooks: UserBook[] = [
   {
     title: 'La brute',
     author: 'Guy des Cars',
-    readDate: '2026-01-15',
+    readDate: '2026-01-07',
     rating: 4.5,
     readTimes: 1,
   },
