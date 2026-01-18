@@ -10,6 +10,7 @@ import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddGameComponent } from '../../../add/add-game/add-game.component';
 import { Router } from '@angular/router';
+import { getApiBaseUrl } from '../../../../core/config';
 
 @Component({
   selector: 'app-select-games',
@@ -30,9 +31,7 @@ export class SelectGamesComponent
   // Jeux déjà terminés par l'utilisateur (pour les exclure en mode ajout)
   finishedGames = computed<Set<string>>(() => {
     const userGames = this.userGames();
-    return new Set(
-      userGames.map((game) => this.getGameKey(game))
-    );
+    return new Set(userGames.map((game) => this.getGameKey(game)));
   });
 
   // Tous les jeux, filtrés en mode ajout
@@ -97,7 +96,13 @@ export class SelectGamesComponent
   }
 
   private async getAllGamesForSelection(_userId: string): Promise<Game[]> {
-    return getAllBaseGames();
+    return (await getAllBaseGames()).map((game) => ({
+      ...game,
+      rating: 0,
+      timesFinished: 0,
+      additionnalEstimatedTime: 0,
+      platined: false,
+    }));
   }
 
   protected async addSelectedGames(): Promise<void> {
