@@ -51,10 +51,11 @@ router.post('/batch-rating', (req: any, res: any) => {
 
       let updated = false;
       for (const [filePath, state] of fileState.entries()) {
+        const stateObject = state as { content: string; dirty: boolean };
         try {
-          const nextContent = updateBookInFile(state.content, payload);
-          state.content = nextContent;
-          state.dirty = true;
+          const nextContent = updateBookInFile(stateObject.content, payload);
+          stateObject.content = nextContent;
+          stateObject.dirty = true;
           updated = true;
           updatedCount += 1;
           break;
@@ -71,8 +72,9 @@ router.post('/batch-rating', (req: any, res: any) => {
     }
 
     for (const [filePath, state] of fileState.entries()) {
-      if (!state.dirty) continue;
-      fs.writeFileSync(filePath, state.content, 'utf8');
+      const stateObject = state as { content: string; dirty: boolean };
+      if (!stateObject.dirty) continue;
+      fs.writeFileSync(filePath, stateObject.content, 'utf8');
     }
 
     res.json({
