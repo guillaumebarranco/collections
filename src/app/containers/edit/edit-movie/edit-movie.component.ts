@@ -11,6 +11,7 @@ import { Movie } from '../../../models/movie-model';
 import { getMoviesByUser } from '../../../facades/movies/movies.facade';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
+import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
 
 type EditMovieForm = {
   rating: number;
@@ -30,7 +31,7 @@ const DEFAULT_USER_ID = 'guillaume';
 @Component({
   selector: 'app-edit-movie',
   standalone: true,
-  imports: [CommonModule, FormsModule, RouterModule],
+  imports: [CommonModule, FormsModule, RouterModule, EditEntityComponent],
   templateUrl: './edit-movie.component.html',
   styleUrls: ['./edit-movie.component.scss'],
 })

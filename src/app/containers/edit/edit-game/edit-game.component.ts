@@ -11,6 +11,7 @@ import { Game } from '../../../models/game-model';
 import { getGamesByUser } from '../../../facades/games/games.facade';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
+import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
 
 type EditGameForm = {
   rating: number;
@@ -29,7 +30,7 @@ const DEFAULT_USER_ID = 'guillaume';
 @Component({
   selector: 'app-edit-game',
   standalone: true,
-  imports: [CommonModule, FormsModule, RouterModule],
+  imports: [CommonModule, FormsModule, RouterModule, EditEntityComponent],
   templateUrl: './edit-game.component.html',
   styleUrls: ['./edit-game.component.scss'],
 })

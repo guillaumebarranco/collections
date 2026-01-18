@@ -11,6 +11,7 @@ import { Book } from '../../../models/book-model';
 import { getBooksByUser } from '../../../facades/books/books.facade';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
+import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
 
 type EditBookForm = {
   rating: number;
@@ -28,7 +29,7 @@ const DEFAULT_USER_ID = 'guillaume';
 @Component({
   selector: 'app-edit-book',
   standalone: true,
-  imports: [CommonModule, FormsModule, RouterModule],
+  imports: [CommonModule, FormsModule, RouterModule, EditEntityComponent],
   templateUrl: './edit-book.component.html',
   styleUrls: ['./edit-book.component.scss'],
 })

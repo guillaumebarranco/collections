@@ -11,6 +11,7 @@ import { Manga } from '../../../models/manga-model';
 import { getMangasByUser } from '../../../facades/mangas/mangas.facade';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
+import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
 
 type EditMangaForm = {
   rating: number;
@@ -28,7 +29,7 @@ const DEFAULT_USER_ID = 'guillaume';
 @Component({
   selector: 'app-edit-manga',
   standalone: true,
-  imports: [CommonModule, FormsModule, RouterModule],
+  imports: [CommonModule, FormsModule, RouterModule, EditEntityComponent],
   templateUrl: './edit-manga.component.html',
   styleUrls: ['./edit-manga.component.scss'],
 })

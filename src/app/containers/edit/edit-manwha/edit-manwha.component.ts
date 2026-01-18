@@ -11,6 +11,7 @@ import { Manwha } from '../../../models/manwha-model';
 import { getManwhasByUser } from '../../../facades/manwhas/manwhas.facade';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
+import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
 
 type EditManwhaForm = {
   rating: number;
@@ -28,7 +29,7 @@ const DEFAULT_USER_ID = 'guillaume';
 @Component({
   selector: 'app-edit-manwha',
   standalone: true,
-  imports: [CommonModule, FormsModule, RouterModule],
+  imports: [CommonModule, FormsModule, RouterModule, EditEntityComponent],
   templateUrl: './edit-manwha.component.html',
   styleUrls: ['./edit-manwha.component.scss'],
 })

@@ -11,6 +11,7 @@ import { Serie } from '../../../models/serie-model';
 import { getSeriesByUser } from '../../../facades/series/series.facade';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
+import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
 
 type EditSerieForm = {
   rating: number;
@@ -28,7 +29,7 @@ const DEFAULT_USER_ID = 'guillaume';
 @Component({
   selector: 'app-edit-serie',
   standalone: true,
-  imports: [CommonModule, FormsModule, RouterModule],
+  imports: [CommonModule, FormsModule, RouterModule, EditEntityComponent],
   templateUrl: './edit-serie.component.html',
   styleUrls: ['./edit-serie.component.scss'],
 })
