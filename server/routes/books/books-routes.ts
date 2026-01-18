@@ -1,5 +1,6 @@
 const express = require('express');
 const getBooksRouter = require('./get-books');
+const getReadlistRouter = require('./get-readlist');
 const getEntitiesRouter = require('./get-entities');
 const saveBookRouter = require('./save-book');
 const batchRatingRouter = require('./batch-rating');
@@ -10,6 +11,7 @@ const addExistingRouter = require('./add-existing');
 const router = express.Router();
 
 router.use(getEntitiesRouter);
+router.use(getReadlistRouter);
 router.use(getBooksRouter);
 router.use(saveBookRouter);
 router.use(batchRatingRouter);

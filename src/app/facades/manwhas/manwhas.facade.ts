@@ -9,6 +9,7 @@ import { isLocalhost } from '../../core/config';
 import {
   fetchBaseManwhasFromApi,
   fetchUserManwhasFromApi,
+  fetchReadlistManwhasFromApi,
 } from './api-manwhas.facade';
 
 async function getAllManwhasData(manwhas: UserManwha[]): Promise<Manwha[]> {
@@ -89,10 +90,16 @@ export async function getAllReadlistManwhas(
     };
   }
 
-  const readlist = getLocalReadlistByUser(currentUserId);
-  return {
-    [currentUserId]: await getAllManwhasData(readlist),
-  };
+  try {
+    const readlist = await fetchReadlistManwhasFromApi(currentUserId);
+    return {
+      [currentUserId]: await getAllManwhasData(readlist),
+    };
+  } catch {
+    return {
+      [currentUserId]: [],
+    };
+  }
 }
 
 export async function getAllManwhasMerged(
@@ -134,5 +141,10 @@ export async function getCurrentReadlistManwhasByUser(
     return getAllManwhasData(getLocalReadlistByUser(userId));
   }
 
-  return getAllManwhasData(getLocalReadlistByUser(userId));
+  try {
+    const readlist = await fetchReadlistManwhasFromApi(userId);
+    return getAllManwhasData(readlist);
+  } catch {
+    return [];
+  }
 }

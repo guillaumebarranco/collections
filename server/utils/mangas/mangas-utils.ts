@@ -301,6 +301,21 @@ function getUserMangasFiles(userId: string): string[] {
     .map((file: string) => path.join(userDir, file));
 }
 
+function getUserReadlistMangasFiles(userId: string): string[] {
+  const userDir = path.join(USERS_MANGAS_DIR, userId, 'mangas');
+  if (!fs.existsSync(userDir)) return [];
+
+  return fs
+    .readdirSync(userDir)
+    .filter(
+      (file: string) =>
+        file.endsWith('.ts') &&
+        file !== 'index.ts' &&
+        file.includes('readlist')
+    )
+    .map((file: string) => path.join(userDir, file));
+}
+
 module.exports = {
   BASE_MANGAS_API_FILE,
   normalizeNumber,
@@ -313,6 +328,7 @@ module.exports = {
   baseMangaExists,
   updateMangaInFile,
   getUserMangasFiles,
+  getUserReadlistMangasFiles,
   getBaseMangasFiles,
 };
 

@@ -14,6 +14,19 @@ export async function fetchUserMoviesFromApi(
   return Array.isArray(data) ? data : data.movies || [];
 }
 
+export async function fetchWatchlistMoviesFromApi(
+  userId: string
+): Promise<UserMovie[]> {
+  const response = await fetch(
+    `${getApiBaseUrl()}/movies/watchlist/${encodeURIComponent(userId)}`
+  );
+  if (!response.ok) {
+    throw new Error('Movies watchlist API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : data.movies || [];
+}
+
 export async function fetchBaseMoviesFromApi(): Promise<BaseMovie[]> {
   const response = await fetch(`${getApiBaseUrl()}/movies/entities`);
   if (!response.ok) {

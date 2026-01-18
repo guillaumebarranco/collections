@@ -9,6 +9,7 @@ import { isLocalhost } from '../../core/config';
 import {
   fetchBaseBooksFromApi,
   fetchUserBooksFromApi,
+  fetchReadlistBooksFromApi,
 } from './api-books.facade';
 
 async function getAllBooksData(books: UserBook[]): Promise<Book[]> {
@@ -88,10 +89,16 @@ export async function getAllReadlistBooks(
     };
   }
 
-  const readlist = getLocalReadlistByUser(currentUserId);
-  return {
-    [currentUserId]: await getAllBooksData(readlist),
-  };
+  try {
+    const readlist = await fetchReadlistBooksFromApi(currentUserId);
+    return {
+      [currentUserId]: await getAllBooksData(readlist),
+    };
+  } catch {
+    return {
+      [currentUserId]: [],
+    };
+  }
 }
 
 export async function getAllBooksMerged(
@@ -132,5 +139,10 @@ export async function getCurrentReadlistBooksByUser(
     return getAllBooksData(getLocalReadlistByUser(userId));
   }
 
-  return getAllBooksData(getLocalReadlistByUser(userId));
+  try {
+    const readlist = await fetchReadlistBooksFromApi(userId);
+    return getAllBooksData(readlist);
+  } catch {
+    return [];
+  }
 }

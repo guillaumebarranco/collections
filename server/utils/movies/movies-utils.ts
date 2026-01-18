@@ -394,6 +394,40 @@ function getUserMoviesFiles(userId: string) {
 
   return fs
     .readdirSync(userMoviesDir)
+    .filter(
+      (file: string) =>
+        file.endsWith('.ts') &&
+        file !== 'index.ts' &&
+        !file.includes('watchlist')
+    )
+    .map((file: string) => path.join(userMoviesDir, file));
+}
+
+function getUserWatchlistMoviesFiles(userId: string) {
+  const userMoviesDir = path.join(USERS_MOVIES_DIR, userId, 'movies');
+  if (!fs.existsSync(userMoviesDir)) {
+    throw new Error(`User movies directory not found: ${userId}`);
+  }
+
+  return fs
+    .readdirSync(userMoviesDir)
+    .filter(
+      (file: string) =>
+        file.endsWith('.ts') &&
+        file !== 'index.ts' &&
+        file.includes('watchlist')
+    )
+    .map((file: string) => path.join(userMoviesDir, file));
+}
+
+function getUserAllMoviesFiles(userId: string) {
+  const userMoviesDir = path.join(USERS_MOVIES_DIR, userId, 'movies');
+  if (!fs.existsSync(userMoviesDir)) {
+    throw new Error(`User movies directory not found: ${userId}`);
+  }
+
+  return fs
+    .readdirSync(userMoviesDir)
     .filter((file: string) => file.endsWith('.ts') && file !== 'index.ts')
     .map((file: string) => path.join(userMoviesDir, file));
 }
@@ -412,6 +446,8 @@ module.exports = {
   BASE_MOVIES_API_FILE,
   updateMovieInFile,
   getUserMoviesFiles,
+  getUserWatchlistMoviesFiles,
+  getUserAllMoviesFiles,
 };
 
 export {};

@@ -9,6 +9,7 @@ import { isLocalhost } from '../../core/config';
 import {
   fetchBaseMoviesFromApi,
   fetchUserMoviesFromApi,
+  fetchWatchlistMoviesFromApi,
 } from './api-movies.facade';
 
 async function getAllMoviesData(movies: UserMovie[]): Promise<Movie[]> {
@@ -90,10 +91,16 @@ export async function getAllWatchlistMovies(
     };
   }
 
-  const watchlist = getLocalWatchlistByUser(currentUserId);
-  return {
-    [currentUserId]: await getAllMoviesData(watchlist),
-  };
+  try {
+    const watchlist = await fetchWatchlistMoviesFromApi(currentUserId);
+    return {
+      [currentUserId]: await getAllMoviesData(watchlist),
+    };
+  } catch {
+    return {
+      [currentUserId]: [],
+    };
+  }
 }
 
 export async function getAllMoviesMerged(
@@ -135,5 +142,10 @@ export async function getCurrentWatchlistMoviesByUser(
     return getAllMoviesData(getLocalWatchlistByUser(userId));
   }
 
-  return getAllMoviesData(getLocalWatchlistByUser(userId));
+  try {
+    const watchlist = await fetchWatchlistMoviesFromApi(userId);
+    return getAllMoviesData(watchlist);
+  } catch {
+    return [];
+  }
 }

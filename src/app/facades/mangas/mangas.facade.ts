@@ -9,6 +9,7 @@ import { isLocalhost } from '../../core/config';
 import {
   fetchBaseMangasFromApi,
   fetchUserMangasFromApi,
+  fetchReadlistMangasFromApi,
 } from './api-mangas.facade';
 
 async function getAllMangasData(mangas: UserManga[]): Promise<Manga[]> {
@@ -87,11 +88,16 @@ export async function getAllReadlistMangas(
     };
   }
 
-  const readlist = getLocalReadlistByUser(currentUserId);
-
-  return {
-    [currentUserId]: await getAllMangasData(readlist),
-  };
+  try {
+    const readlist = await fetchReadlistMangasFromApi(currentUserId);
+    return {
+      [currentUserId]: await getAllMangasData(readlist),
+    };
+  } catch {
+    return {
+      [currentUserId]: [],
+    };
+  }
 }
 
 export async function getAllMangasMerged(
@@ -132,5 +138,10 @@ export async function getCurrentReadlistMangasByUser(
     return getAllMangasData(getLocalReadlistByUser(userId));
   }
 
-  return getAllMangasData(getLocalReadlistByUser(userId));
+  try {
+    const readlist = await fetchReadlistMangasFromApi(userId);
+    return getAllMangasData(readlist);
+  } catch {
+    return [];
+  }
 }

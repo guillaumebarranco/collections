@@ -14,6 +14,19 @@ export async function fetchUserBooksFromApi(
   return Array.isArray(data) ? data : data.books || [];
 }
 
+export async function fetchReadlistBooksFromApi(
+  userId: string
+): Promise<UserBook[]> {
+  const response = await fetch(
+    `${getApiBaseUrl()}/books/readlist/${encodeURIComponent(userId)}`
+  );
+  if (!response.ok) {
+    throw new Error('Books readlist API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : data.books || [];
+}
+
 export async function fetchBaseBooksFromApi(): Promise<BaseBook[]> {
   const response = await fetch(`${getApiBaseUrl()}/books/entities`);
   if (!response.ok) {

@@ -8,7 +8,7 @@ const {
   appendObjectToArrayFile,
   escapeString,
   parseGamesFromFile,
-  getUserGamesFiles,
+  getUserAllGamesFiles,
 } = require('../../utils/games/games-utils');
 
 const router = express.Router();
@@ -130,7 +130,7 @@ router.post('/add-existing', (req: any, res: any) => {
       return;
     }
 
-    const files = getUserGamesFiles(userId);
+    const files = getUserAllGamesFiles(userId);
     if (!files.length) {
       res.status(404).json({ error: 'User games not found' });
       return;

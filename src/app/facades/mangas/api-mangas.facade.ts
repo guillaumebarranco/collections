@@ -14,6 +14,19 @@ export async function fetchUserMangasFromApi(
   return Array.isArray(data) ? data : data.mangas || [];
 }
 
+export async function fetchReadlistMangasFromApi(
+  userId: string
+): Promise<UserManga[]> {
+  const response = await fetch(
+    `${getApiBaseUrl()}/mangas/readlist/${encodeURIComponent(userId)}`
+  );
+  if (!response.ok) {
+    throw new Error('Mangas readlist API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : data.mangas || [];
+}
+
 export async function fetchBaseMangasFromApi(): Promise<BaseManga[]> {
   const response = await fetch(`${getApiBaseUrl()}/mangas/entities`);
   if (!response.ok) {

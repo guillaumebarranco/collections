@@ -7,7 +7,7 @@ const {
   normalizeBoolean,
   appendObjectToArrayFile,
   parseSeriesFromFile,
-  getUserSeriesFiles,
+  getUserAllSeriesFiles,
 } = require('../../utils/series/series-utils');
 
 const router = express.Router();
@@ -131,7 +131,7 @@ router.post('/add-existing', (req: any, res: any) => {
       return;
     }
 
-    const userFiles = getUserSeriesFiles(userId);
+    const userFiles = getUserAllSeriesFiles(userId);
     const existing = userFiles.flatMap((serieFile: string) => {
       const fileContent = fs.readFileSync(serieFile, 'utf8');
       return parseSeriesFromFile(fileContent).map((serie: any) => ({

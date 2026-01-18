@@ -388,6 +388,40 @@ function getUserSeriesFiles(userId: string) {
 
   return fs
     .readdirSync(userSeriesDir)
+    .filter(
+      (file: string) =>
+        file.endsWith('.ts') &&
+        file !== 'index.ts' &&
+        !file.includes('watchlist')
+    )
+    .map((file: string) => path.join(userSeriesDir, file));
+}
+
+function getUserWatchlistSeriesFiles(userId: string) {
+  const userSeriesDir = path.join(USERS_SERIES_DIR, userId, 'series');
+  if (!fs.existsSync(userSeriesDir)) {
+    throw new Error(`User series directory not found: ${userId}`);
+  }
+
+  return fs
+    .readdirSync(userSeriesDir)
+    .filter(
+      (file: string) =>
+        file.endsWith('.ts') &&
+        file !== 'index.ts' &&
+        file.includes('watchlist')
+    )
+    .map((file: string) => path.join(userSeriesDir, file));
+}
+
+function getUserAllSeriesFiles(userId: string) {
+  const userSeriesDir = path.join(USERS_SERIES_DIR, userId, 'series');
+  if (!fs.existsSync(userSeriesDir)) {
+    throw new Error(`User series directory not found: ${userId}`);
+  }
+
+  return fs
+    .readdirSync(userSeriesDir)
     .filter((file: string) => file.endsWith('.ts') && file !== 'index.ts')
     .map((file: string) => path.join(userSeriesDir, file));
 }
@@ -406,6 +440,8 @@ module.exports = {
   BASE_SERIES_API_FILE,
   updateSerieInFile,
   getUserSeriesFiles,
+  getUserWatchlistSeriesFiles,
+  getUserAllSeriesFiles,
 };
 
 export {};

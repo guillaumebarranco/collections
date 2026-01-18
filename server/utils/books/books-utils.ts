@@ -382,6 +382,23 @@ function getUserBooksFiles(userId: string) {
     .map((file: string) => path.join(userBooksDir, file));
 }
 
+function getUserReadlistBooksFiles(userId: string) {
+  const userBooksDir = path.join(USERS_BOOKS_DIR, userId, 'books');
+  if (!fs.existsSync(userBooksDir)) {
+    throw new Error(`User books directory not found: ${userId}`);
+  }
+
+  return fs
+    .readdirSync(userBooksDir)
+    .filter(
+      (file: string) =>
+        file.endsWith('.ts') &&
+        file !== 'index.ts' &&
+        file.includes('readlist')
+    )
+    .map((file: string) => path.join(userBooksDir, file));
+}
+
 module.exports = {
   normalizeNumber,
   normalizeBoolean,
@@ -396,6 +413,7 @@ module.exports = {
   BASE_BOOKS_API_FILE,
   updateBookInFile,
   getUserBooksFiles,
+  getUserReadlistBooksFiles,
 };
 
 export {};

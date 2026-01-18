@@ -9,6 +9,7 @@ import { isLocalhost } from '../../core/config';
 import {
   fetchBaseSeriesFromApi,
   fetchUserSeriesFromApi,
+  fetchWatchlistSeriesFromApi,
 } from './api-series.facade';
 
 async function getAllSeriesData(series: UserSerie[]): Promise<Serie[]> {
@@ -79,10 +80,16 @@ export async function getAllWatchlistSeries(
     };
   }
 
-  const watchlist = getLocalWatchlistByUser(currentUserId);
-  return {
-    [currentUserId]: await getAllSeriesData(watchlist),
-  };
+  try {
+    const watchlist = await fetchWatchlistSeriesFromApi(currentUserId);
+    return {
+      [currentUserId]: await getAllSeriesData(watchlist),
+    };
+  } catch {
+    return {
+      [currentUserId]: [],
+    };
+  }
 }
 
 export async function getAllBaseSeries(): Promise<BaseSerie[]> {
@@ -136,5 +143,10 @@ export async function getCurrentWatchlistSeriesByUser(
     return getAllSeriesData(getLocalWatchlistByUser(userId));
   }
 
-  return getAllSeriesData(getLocalWatchlistByUser(userId));
+  try {
+    const watchlist = await fetchWatchlistSeriesFromApi(userId);
+    return getAllSeriesData(watchlist);
+  } catch {
+    return [];
+  }
 }

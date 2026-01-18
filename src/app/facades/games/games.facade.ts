@@ -9,6 +9,7 @@ import { isLocalhost } from '../../core/config';
 import {
   fetchBaseGamesFromApi,
   fetchUserGamesFromApi,
+  fetchGamelistGamesFromApi,
 } from './api-games.facade';
 
 async function getAllGamesData(games: UserGame[]): Promise<Game[]> {
@@ -79,10 +80,16 @@ export async function getAllGamelistGames(
     };
   }
 
-  const gamelist = getLocalGamelistByUser(currentUserId);
-  return {
-    [currentUserId]: await getAllGamesData(gamelist),
-  };
+  try {
+    const gamelist = await fetchGamelistGamesFromApi(currentUserId);
+    return {
+      [currentUserId]: await getAllGamesData(gamelist),
+    };
+  } catch {
+    return {
+      [currentUserId]: [],
+    };
+  }
 }
 
 export async function getAllBaseGames(): Promise<BaseGame[]> {
@@ -136,5 +143,10 @@ export async function getCurrentGamelistGamesByUser(
     return getAllGamesData(getLocalGamelistByUser(userId));
   }
 
-  return getAllGamesData(getLocalGamelistByUser(userId));
+  try {
+    const gamelist = await fetchGamelistGamesFromApi(userId);
+    return getAllGamesData(gamelist);
+  } catch {
+    return [];
+  }
 }

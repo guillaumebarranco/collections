@@ -298,6 +298,36 @@ function getUserGamesFiles(userId: string): string[] {
 
   return fs
     .readdirSync(userDir)
+    .filter(
+      (file: string) =>
+        file.endsWith('.ts') &&
+        file !== 'index.ts' &&
+        !file.includes('gamelist')
+    )
+    .map((file: string) => path.join(userDir, file));
+}
+
+function getUserGamelistFiles(userId: string): string[] {
+  const userDir = path.join(USERS_GAMES_DIR, userId, 'games');
+  if (!fs.existsSync(userDir)) return [];
+
+  return fs
+    .readdirSync(userDir)
+    .filter(
+      (file: string) =>
+        file.endsWith('.ts') &&
+        file !== 'index.ts' &&
+        file.includes('gamelist')
+    )
+    .map((file: string) => path.join(userDir, file));
+}
+
+function getUserAllGamesFiles(userId: string): string[] {
+  const userDir = path.join(USERS_GAMES_DIR, userId, 'games');
+  if (!fs.existsSync(userDir)) return [];
+
+  return fs
+    .readdirSync(userDir)
     .filter((file: string) => file.endsWith('.ts') && file !== 'index.ts')
     .map((file: string) => path.join(userDir, file));
 }
@@ -314,6 +344,8 @@ module.exports = {
   baseGameExists,
   updateGameInFile,
   getUserGamesFiles,
+  getUserGamelistFiles,
+  getUserAllGamesFiles,
 };
 
 export {};

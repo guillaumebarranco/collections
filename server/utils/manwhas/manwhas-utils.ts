@@ -304,6 +304,21 @@ function getUserManwhasFiles(userId: string): string[] {
     .map((file: string) => path.join(userDir, file));
 }
 
+function getUserReadlistManwhasFiles(userId: string): string[] {
+  const userDir = path.join(USERS_MANWHAS_DIR, userId, 'manwhas');
+  if (!fs.existsSync(userDir)) return [];
+
+  return fs
+    .readdirSync(userDir)
+    .filter(
+      (file: string) =>
+        file.endsWith('.ts') &&
+        file !== 'index.ts' &&
+        file.includes('readlist')
+    )
+    .map((file: string) => path.join(userDir, file));
+}
+
 module.exports = {
   BASE_MANWHAS_API_FILE,
   normalizeNumber,
@@ -316,6 +331,7 @@ module.exports = {
   baseManwhaExists,
   updateManwhaInFile,
   getUserManwhasFiles,
+  getUserReadlistManwhasFiles,
   getBaseManwhasFiles,
 };
 

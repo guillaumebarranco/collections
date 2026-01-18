@@ -14,6 +14,19 @@ export async function fetchUserGamesFromApi(
   return Array.isArray(data) ? data : data.games || [];
 }
 
+export async function fetchGamelistGamesFromApi(
+  userId: string
+): Promise<UserGame[]> {
+  const response = await fetch(
+    `${getApiBaseUrl()}/games/gamelist/${encodeURIComponent(userId)}`
+  );
+  if (!response.ok) {
+    throw new Error('Games gamelist API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : data.games || [];
+}
+
 export async function fetchBaseGamesFromApi(): Promise<BaseGame[]> {
   const response = await fetch(`${getApiBaseUrl()}/games/entities`);
   if (!response.ok) {
