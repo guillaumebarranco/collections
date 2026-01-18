@@ -215,6 +215,14 @@ export class MangasComponent implements OnInit {
       : '/select-mangas-rating';
   }
 
+  getSelectMangasTimesReadRoute(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? `/${params['id']}/select-mangas-times-read`
+      : '/select-mangas-times-read';
+  }
+
   private calculateTotalTomes(): number {
     let total = 0;
     for (const manga of this.allMangas()) {

@@ -3,6 +3,7 @@ const getSeriesRouter = require('./get-series');
 const getEntitiesRouter = require('./get-entities');
 const saveSerieRouter = require('./save-serie');
 const batchRatingRouter = require('./batch-rating');
+const batchTimesWatchedRouter = require('./batch-times-watched');
 const addSerieRouter = require('./add-serie');
 const addExistingRouter = require('./add-existing');
 
@@ -12,6 +13,7 @@ router.use(getEntitiesRouter);
 router.use(getSeriesRouter);
 router.use(saveSerieRouter);
 router.use(batchRatingRouter);
+router.use(batchTimesWatchedRouter);
 router.use(addSerieRouter);
 router.use(addExistingRouter);
 

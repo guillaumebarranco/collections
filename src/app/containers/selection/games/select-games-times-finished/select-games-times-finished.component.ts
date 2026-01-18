@@ -4,7 +4,7 @@ import { MenuComponent } from '../../../../components/menu/menu.component';
 import { Game } from '../../../../models/game-model';
 import { getGamesByUser } from '../../../../facades/games/games.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
-import { isLocalhost } from '../../../../core/config';
+import { getApiBaseUrl } from '../../../../core/config';
 
 @Component({
   selector: 'app-select-games-times-finished',
@@ -20,6 +20,7 @@ export class SelectGamesTimesFinishedComponent
   implements OnInit
 {
   allGames = signal<Game[]>([]);
+  isSaving = signal(false);
 
   gamesTimesFinished = signal<Map<string, number>>(new Map());
 
@@ -49,32 +50,49 @@ export class SelectGamesTimesFinishedComponent
     }).length;
   });
 
-  async exportGamesTimesFinished(): Promise<void> {
-    const gamesToExport = this.allGames().map((game) => {
-      const key = this.getGameKey(game);
-      const updatedTimesFinished = this.gamesTimesFinished().get(key);
+  async saveGamesTimesFinished(): Promise<void> {
+    if (this.isSaving()) return;
 
-      return {
-        title: game.title,
-        editor: game.editor,
-        timesFinished:
-          updatedTimesFinished !== undefined
-            ? updatedTimesFinished
-            : game.timesFinished,
-      };
-    });
+    const gamesToUpdate = this.allGames().map((game) => ({
+      title: game.title,
+      editor: game.editor,
+      timesFinished: this.getTimesFinished(game),
+    }));
 
-    if (gamesToExport.length === 0) {
-      alert('Aucun jeu a exporter !');
+    if (gamesToUpdate.length === 0) {
+      alert('Aucun jeu à mettre à jour !');
       return;
     }
 
-    if (isLocalhost()) {
-      this.exportJson(gamesToExport, 'my-games-times-finished');
-      return;
-    }
+    this.isSaving.set(true);
+    try {
+      const response = await fetch(
+        `${getApiBaseUrl()}/games/batch-times-finished`,
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            userId: this.userId(),
+            games: gamesToUpdate,
+          }),
+        }
+      );
 
-    await this.saveGamesPayload(gamesToExport);
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        console.warn('games:batch-times-finished:error', payload);
+        alert("La mise à jour des jeux a échoué.");
+        return;
+      }
+
+      this.gamesTimesFinished.set(new Map());
+      await this.refreshGames();
+    } catch (error) {
+      console.warn('games:batch-times-finished:error', error);
+      alert("La mise à jour des jeux a échoué.");
+    } finally {
+      this.isSaving.set(false);
+    }
   }
 
   ngOnInit() {
@@ -86,42 +104,4 @@ export class SelectGamesTimesFinishedComponent
     this.allGames.set(games);
   }
 
-  private getApiUrl(): string {
-    return document.location.origin.includes('localhost')
-      ? `http://localhost:3001/api`
-      : 'https://makya.webarranco.fr/api';
-  }
-
-  private exportJson(payload: object[], prefix: string) {
-    const jsonContent = JSON.stringify(payload, null, 2);
-    const fileName = `${prefix}-${this.userId()}-${new Date().getTime()}.json`;
-    const blob = new Blob([jsonContent], { type: 'application/json' });
-    const url = window.URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = fileName;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    window.URL.revokeObjectURL(url);
-  }
-
-  private async saveGamesPayload(payload: object[]) {
-    const response = await fetch(`${this.getApiUrl()}/games`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        userId: this.userId(),
-        games: payload,
-      }),
-    });
-
-    if (!response.ok) {
-      alert("Erreur lors de l'enregistrement.");
-      return;
-    }
-
-    this.gamesTimesFinished.set(new Map());
-    await this.refreshGames();
-  }
 }

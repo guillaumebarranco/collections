@@ -207,6 +207,14 @@ export class ManwhasComponent implements OnInit {
       : '/select-manwhas-rating';
   }
 
+  getSelectManwhasTimesReadRoute(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? `/${params['id']}/select-manwhas-times-read`
+      : '/select-manwhas-times-read';
+  }
+
   private calculateTotalChapters(): number {
     let total = 0;
     for (const manwha of this.allManwhas()) {

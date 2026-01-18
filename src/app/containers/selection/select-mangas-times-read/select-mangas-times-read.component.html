@@ -1,0 +1,65 @@
+<app-menu></app-menu>
+
+<div class="select-mangas-times-read-container">
+  <div class="header">
+    <h1>Mettre à jour le nombre de lectures de mes mangas</h1>
+
+    <div class="selection-description">
+      <p>
+        Bonjour {{ username() }} 👋 <br /><br />
+        Sur cette page, tu peux mettre à jour le nombre de fois que tu as lu
+        chaque manga de ta collection. <br /><br />
+        Passe ta souris sur un manga pour voir les options de lectures
+        disponibles et clique sur le nombre correspondant. <br /><br />
+        Une fois que tu as terminé, clique sur "Enregistrer mes lectures" pour
+        appliquer les changements.
+      </p>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <div class="selection-info">
+      <span class="count">{{ modifiedCount() }} manga(s) modifié(s)</span>
+      <span class="total">sur {{ allMangas().length }}</span>
+    </div>
+
+    <div class="actions">
+      <button
+        class="btn btn-primary"
+        (click)="saveMangasTimesRead()"
+        [disabled]="allMangas().length === 0 || isSaving()"
+      >
+        ✅ Enregistrer mes lectures ({{ modifiedCount() }})
+      </button>
+    </div>
+  </div>
+
+  <div class="mangas-grid">
+    @for (manga of allMangas(); track `${manga.title}-${manga.author}`) {
+    <div class="manga-cover" [title]="manga.title + ' - ' + manga.author">
+      <img [src]="manga.coverUrl" [alt]="manga.title" />
+      <div class="overlay">
+        <div class="manga-info">
+          <span class="manga-title">{{ manga.title }}</span>
+          <span class="manga-author">{{ manga.author }}</span>
+          <span class="current-times-read"
+            >Lectures : {{ getTimesRead(manga) }} fois</span
+          >
+        </div>
+        <div class="times-read-buttons">
+          @for (times of timesReadOptions; track times) {
+          <button
+            class="times-btn"
+            [class.active]="getTimesRead(manga) === times"
+            (click)="updateTimesRead(manga, times); $event.stopPropagation()"
+            (mousedown)="$event.stopPropagation()"
+          >
+            {{ times }}
+          </button>
+          }
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>

@@ -4,6 +4,7 @@ import { MenuComponent } from '../../../../components/menu/menu.component';
 import { Serie } from '../../../../models/serie-model';
 import { getSeriesByUser } from '../../../../facades/series/series.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
+import { getApiBaseUrl } from '../../../../core/config';
 
 @Component({
   selector: 'app-select-series-times-watched',
@@ -19,6 +20,7 @@ export class SelectSeriesTimesWatchedComponent
   implements OnInit
 {
   private isLoading = false;
+  isSaving = signal(false);
 
   seriesList = signal<Serie[]>([]);
 
@@ -61,46 +63,51 @@ export class SelectSeriesTimesWatchedComponent
     }).length;
   });
 
-  // Exporter les sÃ©ries avec leur timesWatched mis Ã  jour
-  exportSeriesTimesWatched(): void {
-    const seriesToExport = this.allSeries().map((serie) => {
-      const key = this.getSerieKey(serie);
-      const updatedTimesWatched = this.seriesTimesWatched().get(key);
+  async saveSeriesTimesWatched(): Promise<void> {
+    if (this.isSaving()) return;
 
-      return {
-        title: serie.title,
-        director: serie.director,
-        timesWatched:
-          updatedTimesWatched !== undefined
-            ? updatedTimesWatched
-            : serie.timesWatched,
-      };
-    });
+    const seriesToUpdate = this.allSeries().map((serie) => ({
+      title: serie.title,
+      director: serie.director,
+      timesWatched: this.getTimesWatched(serie),
+    }));
 
-    if (seriesToExport.length === 0) {
-      alert('Aucune sÃ©rie Ã  exporter !');
+    if (seriesToUpdate.length === 0) {
+      alert('Aucune série à mettre à jour !');
       return;
     }
 
-    const jsonContent = JSON.stringify(seriesToExport, null, 2);
-    const fileName = `my-series-times-watched-${this.userId()}-${new Date().getTime()}.json`;
+    this.isSaving.set(true);
+    try {
+      const response = await fetch(
+        `${getApiBaseUrl()}/series/batch-times-watched`,
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            userId: this.userId(),
+            series: seriesToUpdate,
+          }),
+        }
+      );
 
-    // CrÃ©er un blob
-    const blob = new Blob([jsonContent], { type: 'application/json' });
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        console.warn('series:batch-times-watched:error', payload);
+        alert("La mise à jour des visionnages a échoué.");
+        return;
+      }
 
-    // CrÃ©er un lien de tÃ©lÃ©chargement
-    const url = window.URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = fileName;
-
-    // TÃ©lÃ©charger le fichier
-    document.body.appendChild(link);
-    link.click();
-
-    // Nettoyer
-    document.body.removeChild(link);
-    window.URL.revokeObjectURL(url);
+      this.seriesTimesWatched.set(new Map());
+      await this.loadSeriesData();
+    } catch (error) {
+      console.warn('series:batch-times-watched:error', error);
+      alert("La mise à jour des visionnages a échoué.");
+    } finally {
+      this.isSaving.set(false);
+    }
   }
 
   ngOnInit() {

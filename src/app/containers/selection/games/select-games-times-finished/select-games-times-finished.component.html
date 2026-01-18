@@ -11,8 +11,8 @@
         jeu de ta collection. <br /><br />
         Passe ta souris sur un jeu pour voir les options disponibles
         et clique sur le nombre correspondant. <br /><br />
-        Une fois que tu as terminé, clique sur le bouton "Exporter" pour télécharger
-        le fichier JSON avec tes mises à jour.
+        Une fois que tu as terminé, clique sur "Enregistrer mes parties" pour
+        appliquer les changements.
       </p>
     </div>
   </div>
@@ -26,10 +26,10 @@
     <div class="actions">
       <button
         class="btn btn-primary"
-        (click)="exportGamesTimesFinished()"
-        [disabled]="allGames().length === 0"
+        (click)="saveGamesTimesFinished()"
+        [disabled]="allGames().length === 0 || isSaving()"
       >
-        📥 Exporter mes jeux avec timesFinished ({{ allGames().length }})
+        ✅ Enregistrer mes parties ({{ modifiedCount() }})
       </button>
     </div>
   </div>
