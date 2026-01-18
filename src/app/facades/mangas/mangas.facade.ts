@@ -6,7 +6,7 @@ import {
   getLocalReadlistByUser,
 } from './local-mangas.facade';
 import { DEFAULT_USER_IDS, isLocalhost } from '../../core/config';
-import { fetchUserMangasFromApi } from './api-mangas.facade';
+import { fetchBaseMangasFromApi, fetchUserMangasFromApi } from './api-mangas.facade';
 
 function getAllMangasData(mangas: UserManga[]): Manga[] {
   return mangas.map((manga: UserManga) => {
@@ -67,6 +67,18 @@ export async function getAllMangas(
     return buildMangasMap(currentUserId, getAllMangasData(userMangas));
   } catch {
     return buildMangasMap(currentUserId, []);
+  }
+}
+
+export async function getAllBaseMangas(): Promise<BaseManga[]> {
+  if (isLocalhost()) {
+    return allBaseMangas;
+  }
+
+  try {
+    return await fetchBaseMangasFromApi();
+  } catch {
+    return [];
   }
 }
 

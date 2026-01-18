@@ -1,5 +1,5 @@
 import { getApiBaseUrl } from '../../core/config';
-import { UserGame } from '../../models/game-model';
+import { BaseGame, UserGame } from '../../models/game-model';
 
 export async function fetchUserGamesFromApi(
   userId: string
@@ -9,6 +9,15 @@ export async function fetchUserGamesFromApi(
   );
   if (!response.ok) {
     throw new Error('Games API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : data.games || [];
+}
+
+export async function fetchBaseGamesFromApi(): Promise<BaseGame[]> {
+  const response = await fetch(`${getApiBaseUrl()}/games/entities`);
+  if (!response.ok) {
+    throw new Error('Games entities API error');
   }
   const data = await response.json();
   return Array.isArray(data) ? data : data.games || [];

@@ -1,5 +1,5 @@
 import { getApiBaseUrl } from '../../core/config';
-import { UserSerie } from '../../models/serie-model';
+import { BaseSerie, UserSerie } from '../../models/serie-model';
 
 export async function fetchUserSeriesFromApi(
   userId: string
@@ -9,6 +9,15 @@ export async function fetchUserSeriesFromApi(
   );
   if (!response.ok) {
     throw new Error('Series API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : data.series || [];
+}
+
+export async function fetchBaseSeriesFromApi(): Promise<BaseSerie[]> {
+  const response = await fetch(`${getApiBaseUrl()}/series/entities`);
+  if (!response.ok) {
+    throw new Error('Series entities API error');
   }
   const data = await response.json();
   return Array.isArray(data) ? data : data.series || [];

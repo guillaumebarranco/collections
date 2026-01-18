@@ -1,5 +1,5 @@
 import { getApiBaseUrl } from '../../core/config';
-import { UserManwha } from '../../models/manwha-model';
+import { BaseManwha, UserManwha } from '../../models/manwha-model';
 
 export async function fetchUserManwhasFromApi(
   userId: string
@@ -9,6 +9,15 @@ export async function fetchUserManwhasFromApi(
   );
   if (!response.ok) {
     throw new Error('Manwhas API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : data.manwhas || [];
+}
+
+export async function fetchBaseManwhasFromApi(): Promise<BaseManwha[]> {
+  const response = await fetch(`${getApiBaseUrl()}/manwhas/entities`);
+  if (!response.ok) {
+    throw new Error('Manwhas entities API error');
   }
   const data = await response.json();
   return Array.isArray(data) ? data : data.manwhas || [];

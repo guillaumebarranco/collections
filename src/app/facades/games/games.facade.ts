@@ -2,7 +2,7 @@ import { Game, BaseGame, UserGame } from '../../models/game-model';
 
 import { allBaseGames, getLocalGamesByUser } from './local-games.facade';
 import { DEFAULT_USER_IDS, isLocalhost } from '../../core/config';
-import { fetchUserGamesFromApi } from './api-games.facade';
+import { fetchBaseGamesFromApi, fetchUserGamesFromApi } from './api-games.facade';
 
 function getAllGamesData(games: UserGame[]): Game[] {
   return games.map((game: UserGame) => {
@@ -67,6 +67,18 @@ export async function getAllGames(
     return buildGamesMap(currentUserId, getAllGamesData(userGames));
   } catch {
     return buildGamesMap(currentUserId, []);
+  }
+}
+
+export async function getAllBaseGames(): Promise<BaseGame[]> {
+  if (isLocalhost()) {
+    return allBaseGames;
+  }
+
+  try {
+    return await fetchBaseGamesFromApi();
+  } catch {
+    return [];
   }
 }
 

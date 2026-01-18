@@ -6,7 +6,7 @@ import {
   getLocalReadlistByUser,
 } from './local-manwhas.facade';
 import { DEFAULT_USER_IDS, isLocalhost } from '../../core/config';
-import { fetchUserManwhasFromApi } from './api-manwhas.facade';
+import { fetchBaseManwhasFromApi, fetchUserManwhasFromApi } from './api-manwhas.facade';
 
 function getAllManwhasData(manwhas: UserManwha[]): Manwha[] {
   return manwhas.map((manwha: UserManwha) => {
@@ -69,6 +69,18 @@ export async function getAllManwhas(
     return buildManwhasMap(currentUserId, getAllManwhasData(userManwhas));
   } catch {
     return buildManwhasMap(currentUserId, []);
+  }
+}
+
+export async function getAllBaseManwhas(): Promise<BaseManwha[]> {
+  if (isLocalhost()) {
+    return allBaseManwhas;
+  }
+
+  try {
+    return await fetchBaseManwhasFromApi();
+  } catch {
+    return [];
   }
 }
 

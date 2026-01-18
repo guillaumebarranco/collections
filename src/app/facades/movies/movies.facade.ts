@@ -6,7 +6,10 @@ import {
   allBaseMovies,
 } from './local-movies.facade';
 import { DEFAULT_USER_IDS, isLocalhost } from '../../core/config';
-import { fetchUserMoviesFromApi } from './api-movies.facade';
+import {
+  fetchBaseMoviesFromApi,
+  fetchUserMoviesFromApi,
+} from './api-movies.facade';
 
 function getAllMoviesData(movies: UserMovie[]): Movie[] {
   return movies.map((movie: UserMovie) => {
@@ -70,6 +73,18 @@ export async function getAllMovies(
     return buildMoviesMap(currentUserId, getAllMoviesData(userMovies));
   } catch {
     return buildMoviesMap(currentUserId, []);
+  }
+}
+
+export async function getAllBaseMovies(): Promise<BaseMovie[]> {
+  if (isLocalhost()) {
+    return allBaseMovies;
+  }
+
+  try {
+    return await fetchBaseMoviesFromApi();
+  } catch {
+    return [];
   }
 }
 

@@ -2,7 +2,7 @@ import { Serie, BaseSerie, UserSerie } from '../../models/serie-model';
 
 import { allBaseSeries, getLocalSeriesByUser } from './local-series.facade';
 import { DEFAULT_USER_IDS, isLocalhost } from '../../core/config';
-import { fetchUserSeriesFromApi } from './api-series.facade';
+import { fetchBaseSeriesFromApi, fetchUserSeriesFromApi } from './api-series.facade';
 
 function getAllSeriesData(series: UserSerie[]): Serie[] {
   return series.map((serie: UserSerie) => {
@@ -67,6 +67,18 @@ export async function getAllSeries(
     return buildSeriesMap(currentUserId, getAllSeriesData(userSeries));
   } catch {
     return buildSeriesMap(currentUserId, []);
+  }
+}
+
+export async function getAllBaseSeries(): Promise<BaseSerie[]> {
+  if (isLocalhost()) {
+    return allBaseSeries;
+  }
+
+  try {
+    return await fetchBaseSeriesFromApi();
+  } catch {
+    return [];
   }
 }
 
