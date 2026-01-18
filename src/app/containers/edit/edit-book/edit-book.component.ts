@@ -13,16 +13,9 @@ import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 
 type EditBookForm = {
-  title: string;
-  author: string;
   rating: number;
   readTimes: number;
   readDate: string;
-  coverUrl: string;
-  pages: number;
-  genre: string;
-  saga: string;
-  sagaOrder: number;
 };
 
 type EditBookDialogData = {
@@ -52,6 +45,7 @@ export class EditBookComponent {
     }
   );
 
+  readonly book = signal<Book | null>(null);
   readonly bookForm = signal<EditBookForm | null>(null);
   readonly bookNotFound = signal<boolean>(false);
   readonly isSaving = signal<boolean>(false);
@@ -62,6 +56,7 @@ export class EditBookComponent {
 
   constructor() {
     if (this.dialogData?.book) {
+      this.book.set(this.dialogData.book);
       this.bookForm.set(this.toForm(this.dialogData.book));
       this.bookNotFound.set(false);
       return;
@@ -77,7 +72,7 @@ export class EditBookComponent {
     if (!current) return;
 
     let nextValue: EditBookForm[K] = value as EditBookForm[K];
-    if (field === 'rating' || field === 'readTimes' || field === 'pages') {
+    if (field === 'rating' || field === 'readTimes') {
       const asNumber = Number(value);
       nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditBookForm[K];
     }
@@ -109,7 +104,8 @@ export class EditBookComponent {
 
   async onSubmit() {
     const form = this.bookForm();
-    if (!form) return;
+    const book = this.book();
+    if (!form || !book) return;
 
     this.isSaving.set(true);
     try {
@@ -121,8 +117,8 @@ export class EditBookComponent {
         },
         body: JSON.stringify({
           userId,
-          title: form.title,
-          author: form.author,
+          title: book.title,
+          author: book.author,
           rating: form.rating,
           readTimes: form.readTimes,
           readDate: form.readDate,
@@ -167,11 +163,13 @@ export class EditBookComponent {
     });
 
     if (!matched) {
+      this.book.set(null);
       this.bookForm.set(null);
       this.bookNotFound.set(true);
       return;
     }
 
+    this.book.set(matched);
     this.bookForm.set(this.toForm(matched));
     this.bookNotFound.set(false);
   }
@@ -187,16 +185,9 @@ export class EditBookComponent {
 
   private toForm(book: Book): EditBookForm {
     return {
-      title: book.title,
-      author: book.author,
       rating: book.rating,
       readTimes: book.readTimes || 0,
       readDate: book.readDate,
-      coverUrl: book.coverUrl,
-      pages: book.pages || 0,
-      genre: book.genre,
-      saga: book.saga,
-      sagaOrder: book.sagaOrder,
     };
   }
 

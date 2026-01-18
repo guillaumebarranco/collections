@@ -20,9 +20,24 @@
   <p class="not-found">Aucun film trouvé pour ce slug.</p>
   } @else {
 
-  <img [src]="movieForm()?.coverUrl" alt="Cover" width="200" />
+  <img [src]="movie()?.coverUrl" alt="Cover" width="200" />
 
-  <div>{{ movieForm()?.title }}</div>
+  <div>{{ movie()?.title }}</div>
+  <div class="entity-details">
+    <p><strong>Réalisateur :</strong> {{ movie()?.director }}</p>
+    @if (movie()?.genre) {
+    <p><strong>Genre :</strong> {{ movie()?.genre }}</p>
+    }
+    @if (movie()?.releaseDate) {
+    <p><strong>Date de sortie :</strong> {{ movie()?.releaseDate }}</p>
+    }
+    @if (movie()?.length) {
+    <p><strong>Durée :</strong> {{ movie()?.length }} min</p>
+    }
+    @if (movie()?.actors?.length) {
+    <p><strong>Acteurs :</strong> {{ getActorsLabel(movie()?.actors) }}</p>
+    }
+  </div>
   <br />
 
   <form *ngIf="movieForm()" class="edit-form" (ngSubmit)="onSubmit()">

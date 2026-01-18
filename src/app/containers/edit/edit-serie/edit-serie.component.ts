@@ -13,18 +13,9 @@ import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 
 type EditSerieForm = {
-  title: string;
-  director: string;
   rating: number;
   timesWatched: number;
   stoppedAtSeason: number;
-  coverUrl: string;
-  releaseDate: string;
-  endDate: string;
-  totalLength: number;
-  nbSeasons: number;
-  nbEpisodesTotal: number;
-  genre: string;
 };
 
 type EditSerieDialogData = {
@@ -54,6 +45,7 @@ export class EditSerieComponent {
     }
   );
 
+  readonly serie = signal<Serie | null>(null);
   readonly serieForm = signal<EditSerieForm | null>(null);
   readonly serieNotFound = signal<boolean>(false);
   readonly isSaving = signal<boolean>(false);
@@ -64,6 +56,7 @@ export class EditSerieComponent {
 
   constructor() {
     if (this.dialogData?.serie) {
+      this.serie.set(this.dialogData.serie);
       this.serieForm.set(this.toForm(this.dialogData.serie));
       this.serieNotFound.set(false);
       return;
@@ -82,10 +75,7 @@ export class EditSerieComponent {
     if (
       field === 'rating' ||
       field === 'timesWatched' ||
-      field === 'stoppedAtSeason' ||
-      field === 'totalLength' ||
-      field === 'nbSeasons' ||
-      field === 'nbEpisodesTotal'
+      field === 'stoppedAtSeason'
     ) {
       const asNumber = Number(value);
       nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditSerieForm[K];
@@ -118,7 +108,8 @@ export class EditSerieComponent {
 
   async onSubmit() {
     const form = this.serieForm();
-    if (!form) return;
+    const serie = this.serie();
+    if (!form || !serie) return;
 
     this.isSaving.set(true);
     try {
@@ -130,8 +121,8 @@ export class EditSerieComponent {
         },
         body: JSON.stringify({
           userId,
-          title: form.title,
-          director: form.director,
+          title: serie.title,
+          director: serie.director,
           rating: form.rating,
           timesWatched: form.timesWatched,
           stoppedAtSeason: form.stoppedAtSeason,
@@ -167,6 +158,11 @@ export class EditSerieComponent {
     return Boolean(this.dialogRef);
   }
 
+  getActorsLabel(actors: Serie['actors'] | undefined): string {
+    if (!actors?.length) return '';
+    return actors.map((actor) => actor.name).join(', ');
+  }
+
   private async loadSerieFromSlug(params: ParamMap) {
     const slug = params.get('slug') || '';
     const userId = this.getCurrentUserId();
@@ -176,11 +172,13 @@ export class EditSerieComponent {
     });
 
     if (!matched) {
+      this.serie.set(null);
       this.serieForm.set(null);
       this.serieNotFound.set(true);
       return;
     }
 
+    this.serie.set(matched);
     this.serieForm.set(this.toForm(matched));
     this.serieNotFound.set(false);
   }
@@ -196,18 +194,9 @@ export class EditSerieComponent {
 
   private toForm(serie: Serie): EditSerieForm {
     return {
-      title: serie.title,
-      director: serie.director,
       rating: serie.rating,
       timesWatched: serie.timesWatched,
       stoppedAtSeason: serie.stoppedAtSeason || 0,
-      coverUrl: serie.coverUrl,
-      releaseDate: serie.releaseDate,
-      endDate: serie.endDate,
-      totalLength: serie.totalLength,
-      nbSeasons: serie.nbSeasons,
-      nbEpisodesTotal: serie.nbEpisodesTotal,
-      genre: serie.genre,
     };
   }
 

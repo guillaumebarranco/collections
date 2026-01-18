@@ -19,8 +19,29 @@
   @if(bookNotFound()) {
   <p class="not-found">Aucun livre trouvé pour ce slug.</p>
   } @else {
-  <img [src]="bookForm()?.coverUrl" alt="Cover" width="200" />
-  <div>{{ bookForm()?.title }}</div>
+  <img [src]="book()?.coverUrl" alt="Cover" width="200" />
+  <div>{{ book()?.title }}</div>
+  <div class="entity-details">
+    <p><strong>Auteur :</strong> {{ book()?.author }}</p>
+    @if (book()?.genre) {
+    <p><strong>Genre :</strong> {{ book()?.genre }}</p>
+    }
+    @if (book()?.pages) {
+    <p><strong>Pages :</strong> {{ book()?.pages }}</p>
+    }
+    @if (book()?.saga) {
+    <p><strong>Saga :</strong> {{ book()?.saga }}</p>
+    }
+    @if (book()?.sagaOrder) {
+    <p><strong>Tome :</strong> {{ book()?.sagaOrder }}</p>
+    }
+    @if (book()?.nbTomes) {
+    <p><strong>Nombre de tomes :</strong> {{ book()?.nbTomes }}</p>
+    }
+    @if (book()?.isFinished === false) {
+    <p><strong>Saga :</strong> En cours</p>
+    }
+  </div>
   <br />
 
   <form *ngIf="bookForm()" class="edit-form" (ngSubmit)="onSubmit()">

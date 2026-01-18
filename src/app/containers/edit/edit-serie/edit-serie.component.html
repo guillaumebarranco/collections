@@ -19,8 +19,26 @@
   @if(serieNotFound()) {
   <p class="not-found">Aucune s&#233;rie trouv&#233;e pour ce slug.</p>
   } @else {
-  <img [src]="serieForm()?.coverUrl" alt="Cover" width="200" />
-  <div>{{ serieForm()?.title }}</div>
+  <img [src]="serie()?.coverUrl" alt="Cover" width="200" />
+  <div>{{ serie()?.title }}</div>
+  <div class="entity-details">
+    <p><strong>Réalisateur :</strong> {{ serie()?.director }}</p>
+    @if (serie()?.genre) {
+    <p><strong>Genre :</strong> {{ serie()?.genre }}</p>
+    } @if (serie()?.releaseDate) {
+    <p><strong>Date de sortie :</strong> {{ serie()?.releaseDate }}</p>
+    } @if (serie()?.endDate) {
+    <p><strong>Date de fin :</strong> {{ serie()?.endDate }}</p>
+    } @if (serie()?.nbSeasons) {
+    <p><strong>Saisons :</strong> {{ serie()?.nbSeasons }}</p>
+    } @if (serie()?.nbEpisodesTotal) {
+    <p><strong>Épisodes :</strong> {{ serie()?.nbEpisodesTotal }}</p>
+    } @if (serie()?.totalLength) {
+    <p><strong>Durée totale :</strong> {{ serie()?.totalLength }} min</p>
+    } @if (serie()?.actors?.length) {
+    <p><strong>Acteurs :</strong> {{ getActorsLabel(serie()?.actors) }}</p>
+    }
+  </div>
   <br />
 
   <form *ngIf="serieForm()" class="edit-form" (ngSubmit)="onSubmit()">

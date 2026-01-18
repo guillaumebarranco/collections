@@ -13,16 +13,9 @@ import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 
 type EditMangaForm = {
-  title: string;
-  author: string;
   rating: number;
   readTimes: number;
   readDate: string;
-  coverUrl: string;
-  pages: number;
-  genre: string;
-  nbTomes: number;
-  isFinished: boolean;
 };
 
 type EditMangaDialogData = {
@@ -52,6 +45,7 @@ export class EditMangaComponent {
     }
   );
 
+  readonly manga = signal<Manga | null>(null);
   readonly mangaForm = signal<EditMangaForm | null>(null);
   readonly mangaNotFound = signal<boolean>(false);
   readonly isSaving = signal<boolean>(false);
@@ -62,6 +56,7 @@ export class EditMangaComponent {
 
   constructor() {
     if (this.dialogData?.manga) {
+      this.manga.set(this.dialogData.manga);
       this.mangaForm.set(this.toForm(this.dialogData.manga));
       this.mangaNotFound.set(false);
       return;
@@ -77,7 +72,7 @@ export class EditMangaComponent {
     if (!current) return;
 
     let nextValue: EditMangaForm[K] = value as EditMangaForm[K];
-    if (field === 'rating' || field === 'readTimes' || field === 'pages') {
+    if (field === 'rating' || field === 'readTimes') {
       const asNumber = Number(value);
       nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditMangaForm[K];
     }
@@ -109,7 +104,8 @@ export class EditMangaComponent {
 
   async onSubmit() {
     const form = this.mangaForm();
-    if (!form) return;
+    const manga = this.manga();
+    if (!form || !manga) return;
 
     this.isSaving.set(true);
     try {
@@ -121,8 +117,8 @@ export class EditMangaComponent {
         },
         body: JSON.stringify({
           userId,
-          title: form.title,
-          author: form.author,
+          title: manga.title,
+          author: manga.author,
           rating: form.rating,
           readTimes: form.readTimes,
           readDate: form.readDate,
@@ -167,11 +163,13 @@ export class EditMangaComponent {
     });
 
     if (!matched) {
+      this.manga.set(null);
       this.mangaForm.set(null);
       this.mangaNotFound.set(true);
       return;
     }
 
+    this.manga.set(matched);
     this.mangaForm.set(this.toForm(matched));
     this.mangaNotFound.set(false);
   }
@@ -187,16 +185,9 @@ export class EditMangaComponent {
 
   private toForm(manga: Manga): EditMangaForm {
     return {
-      title: manga.title,
-      author: manga.author,
       rating: manga.rating,
       readTimes: manga.readTimes || 0,
       readDate: manga.readDate,
-      coverUrl: manga.coverUrl,
-      pages: manga.pages || 0,
-      genre: manga.genre,
-      nbTomes: manga.nbTomes || 0,
-      isFinished: manga.isFinished || false,
     };
   }
 

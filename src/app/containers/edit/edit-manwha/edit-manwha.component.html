@@ -19,8 +19,20 @@
   @if(manwhaNotFound()) {
   <p class="not-found">Aucun manwha trouvé pour ce slug.</p>
   } @else {
-  <img [src]="manwhaForm()?.coverUrl" alt="Cover" width="200" />
-  <div>{{ manwhaForm()?.title }}</div>
+  <img [src]="manwha()?.coverUrl" alt="Cover" width="200" />
+  <div>{{ manwha()?.title }}</div>
+  <div class="entity-details">
+    <p><strong>Auteur :</strong> {{ manwha()?.author }}</p>
+    @if (manwha()?.genre) {
+    <p><strong>Genre :</strong> {{ manwha()?.genre }}</p>
+    }
+    @if (manwha()?.nbChapters) {
+    <p><strong>Nombre de chapitres :</strong> {{ manwha()?.nbChapters }}</p>
+    }
+    @if (manwha()?.isFinished === false) {
+    <p><strong>Série :</strong> En cours</p>
+    }
+  </div>
   <br />
 
   <form *ngIf="manwhaForm()" class="edit-form" (ngSubmit)="onSubmit()">

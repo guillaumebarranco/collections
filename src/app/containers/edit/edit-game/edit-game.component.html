@@ -19,8 +19,31 @@
   @if(gameNotFound()) {
   <p class="not-found">Aucun jeu trouve pour ce slug.</p>
   } @else {
-  <img [src]="gameForm()?.coverUrl" alt="Cover" width="200" />
-  <div>{{ gameForm()?.title }}</div>
+  <img [src]="game()?.coverUrl" alt="Cover" width="200" />
+  <div>{{ game()?.title }}</div>
+  <div class="entity-details">
+    <p><strong>Éditeur :</strong> {{ game()?.editor }}</p>
+    @if (game()?.platform) {
+    <p><strong>Plateforme :</strong> {{ game()?.platform }}</p>
+    }
+    @if (game()?.releaseDate) {
+    <p><strong>Date de sortie :</strong> {{ game()?.releaseDate }}</p>
+    }
+    @if (game()?.averageTimeToFinish) {
+    <p>
+      <strong>Temps moyen :</strong> {{ game()?.averageTimeToFinish }} h
+    </p>
+    }
+    @if (game()?.platineTime) {
+    <p><strong>Temps platine :</strong> {{ game()?.platineTime }} h</p>
+    }
+    @if (game()?.hero) {
+    <p><strong>Héro :</strong> {{ game()?.hero }}</p>
+    }
+    @if (game()?.saga) {
+    <p><strong>Saga :</strong> {{ game()?.saga }}</p>
+    }
+  </div>
   <br />
 
   <form *ngIf="gameForm()" class="edit-form" (ngSubmit)="onSubmit()">

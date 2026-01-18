@@ -13,19 +13,10 @@ import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 
 type EditGameForm = {
-  title: string;
-  editor: string;
   rating: number;
   timesFinished: number;
   additionnalEstimatedTime: number;
   platined: boolean;
-  coverUrl: string;
-  releaseDate: string;
-  averageTimeToFinish: number;
-  platform: string;
-  saga: string;
-  platineTime: number;
-  hero: string;
 };
 
 type EditGameDialogData = {
@@ -55,6 +46,7 @@ export class EditGameComponent {
     }
   );
 
+  readonly game = signal<Game | null>(null);
   readonly gameForm = signal<EditGameForm | null>(null);
   readonly gameNotFound = signal<boolean>(false);
   readonly isSaving = signal<boolean>(false);
@@ -65,6 +57,7 @@ export class EditGameComponent {
 
   constructor() {
     if (this.dialogData?.game) {
+      this.game.set(this.dialogData.game);
       this.gameForm.set(this.toForm(this.dialogData.game));
       this.gameNotFound.set(false);
       return;
@@ -83,9 +76,7 @@ export class EditGameComponent {
     if (
       field === 'rating' ||
       field === 'timesFinished' ||
-      field === 'additionnalEstimatedTime' ||
-      field === 'averageTimeToFinish' ||
-      field === 'platineTime'
+      field === 'additionnalEstimatedTime'
     ) {
       const asNumber = Number(value);
       nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditGameForm[K];
@@ -127,7 +118,8 @@ export class EditGameComponent {
 
   async onSubmit() {
     const form = this.gameForm();
-    if (!form) return;
+    const game = this.game();
+    if (!form || !game) return;
 
     this.isSaving.set(true);
     try {
@@ -139,8 +131,8 @@ export class EditGameComponent {
         },
         body: JSON.stringify({
           userId,
-          title: form.title,
-          editor: form.editor,
+          title: game.title,
+          editor: game.editor,
           rating: form.rating,
           timesFinished: form.timesFinished,
           additionnalEstimatedTime: form.additionnalEstimatedTime,
@@ -186,11 +178,13 @@ export class EditGameComponent {
     });
 
     if (!matched) {
+      this.game.set(null);
       this.gameForm.set(null);
       this.gameNotFound.set(true);
       return;
     }
 
+    this.game.set(matched);
     this.gameForm.set(this.toForm(matched));
     this.gameNotFound.set(false);
   }
@@ -206,19 +200,10 @@ export class EditGameComponent {
 
   private toForm(game: Game): EditGameForm {
     return {
-      title: game.title,
-      editor: game.editor,
       rating: game.rating,
       timesFinished: game.timesFinished,
       additionnalEstimatedTime: game.additionnalEstimatedTime,
       platined: game.platined,
-      coverUrl: game.coverUrl,
-      releaseDate: game.releaseDate,
-      averageTimeToFinish: game.averageTimeToFinish,
-      platform: game.platform,
-      saga: game.saga,
-      platineTime: game.platineTime,
-      hero: game.hero,
     };
   }
 

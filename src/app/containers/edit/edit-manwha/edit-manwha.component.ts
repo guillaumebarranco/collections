@@ -13,16 +13,9 @@ import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 
 type EditManwhaForm = {
-  title: string;
-  author: string;
   rating: number;
   readTimes: number;
   readDate: string;
-  coverUrl: string;
-  pages: number;
-  genre: string;
-  nbChapters: number;
-  isFinished: boolean;
 };
 
 type EditManwhaDialogData = {
@@ -52,6 +45,7 @@ export class EditManwhaComponent {
     }
   );
 
+  readonly manwha = signal<Manwha | null>(null);
   readonly manwhaForm = signal<EditManwhaForm | null>(null);
   readonly manwhaNotFound = signal<boolean>(false);
   readonly isSaving = signal<boolean>(false);
@@ -62,6 +56,7 @@ export class EditManwhaComponent {
 
   constructor() {
     if (this.dialogData?.manwha) {
+      this.manwha.set(this.dialogData.manwha);
       this.manwhaForm.set(this.toForm(this.dialogData.manwha));
       this.manwhaNotFound.set(false);
       return;
@@ -80,7 +75,7 @@ export class EditManwhaComponent {
     if (!current) return;
 
     let nextValue: EditManwhaForm[K] = value as EditManwhaForm[K];
-    if (field === 'rating' || field === 'readTimes' || field === 'pages') {
+    if (field === 'rating' || field === 'readTimes') {
       const asNumber = Number(value);
       nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditManwhaForm[K];
     }
@@ -112,7 +107,8 @@ export class EditManwhaComponent {
 
   async onSubmit() {
     const form = this.manwhaForm();
-    if (!form) return;
+    const manwha = this.manwha();
+    if (!form || !manwha) return;
 
     this.isSaving.set(true);
     try {
@@ -124,8 +120,8 @@ export class EditManwhaComponent {
         },
         body: JSON.stringify({
           userId,
-          title: form.title,
-          author: form.author,
+          title: manwha.title,
+          author: manwha.author,
           rating: form.rating,
           readTimes: form.readTimes,
           readDate: form.readDate,
@@ -170,11 +166,13 @@ export class EditManwhaComponent {
     });
 
     if (!matched) {
+      this.manwha.set(null);
       this.manwhaForm.set(null);
       this.manwhaNotFound.set(true);
       return;
     }
 
+    this.manwha.set(matched);
     this.manwhaForm.set(this.toForm(matched));
     this.manwhaNotFound.set(false);
   }
@@ -190,16 +188,9 @@ export class EditManwhaComponent {
 
   private toForm(manwha: Manwha): EditManwhaForm {
     return {
-      title: manwha.title,
-      author: manwha.author,
       rating: manwha.rating,
       readTimes: manwha.readTimes || 0,
       readDate: manwha.readDate,
-      coverUrl: manwha.coverUrl,
-      pages: manwha.pages || 0,
-      genre: manwha.genre,
-      nbChapters: manwha.nbChapters || 0,
-      isFinished: manwha.isFinished || false,
     };
   }
 

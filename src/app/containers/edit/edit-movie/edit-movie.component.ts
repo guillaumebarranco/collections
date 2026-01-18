@@ -13,17 +13,11 @@ import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 
 type EditMovieForm = {
-  title: string;
-  director: string;
   rating: number;
   timesWatched: number;
   firstViewedDate: string;
   lastViewedDate: string;
   seenAtCinema: boolean;
-  releaseDate: string;
-  length: number;
-  genre: string;
-  coverUrl: string;
 };
 
 type EditMovieDialogData = {
@@ -53,6 +47,7 @@ export class EditMovieComponent {
     }
   );
 
+  readonly movie = signal<Movie | null>(null);
   readonly movieForm = signal<EditMovieForm | null>(null);
   readonly movieNotFound = signal<boolean>(false);
   readonly isSaving = signal<boolean>(false);
@@ -63,6 +58,7 @@ export class EditMovieComponent {
 
   constructor() {
     if (this.dialogData?.movie) {
+      this.movie.set(this.dialogData.movie);
       this.movieForm.set(this.toForm(this.dialogData.movie));
       this.movieNotFound.set(false);
       return;
@@ -80,7 +76,7 @@ export class EditMovieComponent {
     if (!current) return;
 
     let nextValue: EditMovieForm[K] = value as EditMovieForm[K];
-    if (field === 'rating' || field === 'timesWatched' || field === 'length') {
+    if (field === 'rating' || field === 'timesWatched') {
       const asNumber = Number(value);
       nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditMovieForm[K];
     }
@@ -121,7 +117,8 @@ export class EditMovieComponent {
 
   async onSubmit() {
     const form = this.movieForm();
-    if (!form) return;
+    const movie = this.movie();
+    if (!form || !movie) return;
 
     this.isSaving.set(true);
     try {
@@ -133,8 +130,8 @@ export class EditMovieComponent {
         },
         body: JSON.stringify({
           userId,
-          title: form.title,
-          director: form.director,
+          title: movie.title,
+          director: movie.director,
           rating: form.rating,
           timesWatched: form.timesWatched,
           firstViewedDate: form.firstViewedDate,
@@ -172,6 +169,11 @@ export class EditMovieComponent {
     return Boolean(this.dialogRef);
   }
 
+  getActorsLabel(actors: Movie['actors'] | undefined): string {
+    if (!actors?.length) return '';
+    return actors.map((actor) => actor.name).join(', ');
+  }
+
   private async loadMovieFromSlug(params: ParamMap) {
     const slug = params.get('slug') || '';
     const userId = this.getCurrentUserId();
@@ -181,11 +183,13 @@ export class EditMovieComponent {
     });
 
     if (!matched) {
+      this.movie.set(null);
       this.movieForm.set(null);
       this.movieNotFound.set(true);
       return;
     }
 
+    this.movie.set(matched);
     this.movieForm.set(this.toForm(matched));
     this.movieNotFound.set(false);
   }
@@ -201,17 +205,11 @@ export class EditMovieComponent {
 
   private toForm(movie: Movie): EditMovieForm {
     return {
-      title: movie.title,
-      director: movie.director,
       rating: movie.rating,
       timesWatched: movie.timesWatched,
       firstViewedDate: movie.firstViewedDate,
       lastViewedDate: movie.lastViewedDate,
       seenAtCinema: movie.seenAtCinema,
-      releaseDate: movie.releaseDate,
-      length: movie.length,
-      genre: movie.genre,
-      coverUrl: movie.coverUrl,
     };
   }
 
