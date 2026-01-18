@@ -14,15 +14,16 @@
       @if(!isWatchOrReadlistMode()) {
       <p>
         Bonjour {{ username() }} <br /><br />
-        Ici tu peux ajouter des jeux que tu as terminés. La liste ci-dessous affiche
-        uniquement les jeux que tu n'as pas encore dans ta collection.
+        Ici tu peux ajouter des jeux que tu as terminés. La liste ci-dessous
+        affiche uniquement les jeux que tu n'as pas encore dans ta collection.
         <br /><br />
         Sélectionne les jeux que tu as terminés, puis clique sur "Ajouter à mes
         jeux terminés".
       </p>
       <p>
         Si tu ne trouves pas ton jeu dans la liste, ajoute-le d'abord dans les
-        entités :
+        entités (si jamais tu souhaites ajouter un grand nombre de jeux non
+        présents ici, le mieux reste de contacter l'administrateur) :
       </p>
       <button
         class="btn btn-primary add-new-game"
@@ -90,7 +91,9 @@
         <div class="checkmark"></div>
         <div class="game-info">
           <span class="game-title">{{ game.title }}</span>
-          <span class="game-year">({{ game.releaseDate.substring(0, 4) }})</span>
+          <span class="game-year"
+            >({{ game.releaseDate.substring(0, 4) }})</span
+          >
         </div>
       </div>
     </div>

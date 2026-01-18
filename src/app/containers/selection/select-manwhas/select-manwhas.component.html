@@ -14,15 +14,17 @@
       @if(!isWatchOrReadlistMode()) {
       <p>
         Bonjour {{ username() }} <br /><br />
-        Ici tu peux ajouter des manwhas que tu as lu. La liste ci-dessous affiche
-        uniquement les manwhas que tu n'as pas encore dans ta collection.
+        Ici tu peux ajouter des manwhas que tu as lu. La liste ci-dessous
+        affiche uniquement les manwhas que tu n'as pas encore dans ta
+        collection.
         <br /><br />
         Sélectionne les manwhas que tu as lus, puis clique sur "Ajouter à mes
         manwhas lus".
       </p>
       <p>
-        Si tu ne trouves pas ton manwha dans la liste, ajoute-le d'abord dans les
-        entités :
+        Si tu ne trouves pas ton manwha dans la liste, ajoute-le d'abord dans
+        les entités (si jamais tu souhaites ajouter un grand nombre de manwhas
+        non présents ici, le mieux reste de contacter l'administrateur) :
       </p>
       <button
         class="btn btn-primary add-new-manwha"
@@ -36,13 +38,12 @@
         Tu es en mode "Readlist" ! Ici, tu peux sélectionner les manwhas que tu
         souhaites ajouter à ta liste de manwhas à lire.
         <br /><br />
-        Les manwhas que tu as déjà lus sont automatiquement exclus de cette liste
-        pour t'éviter les doublons.
+        Les manwhas que tu as déjà lus sont automatiquement exclus de cette
+        liste pour t'éviter les doublons.
         <br /><br />
         Sélectionne les manwhas que tu aimerais lire et ajoute-les à ta liste.
       </p>
-      } @else {
-      }
+      } @else { }
     </div>
   </div>
 
@@ -88,4 +89,3 @@
     }
   </div>
 </div>
-
