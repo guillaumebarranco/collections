@@ -5,15 +5,17 @@ import {
   getLocalWatchlistByUser,
   allBaseMovies,
 } from './local-movies.facade';
-import { DEFAULT_USER_IDS, isLocalhost } from '../../core/config';
+import { isLocalhost } from '../../core/config';
 import {
   fetchBaseMoviesFromApi,
   fetchUserMoviesFromApi,
 } from './api-movies.facade';
 
-function getAllMoviesData(movies: UserMovie[]): Movie[] {
+async function getAllMoviesData(movies: UserMovie[]): Promise<Movie[]> {
+  const baseMovies = await getAllBaseMovies();
+
   return movies.map((movie: UserMovie) => {
-    const matchingBaseMovie = allBaseMovies.filter(
+    const matchingBaseMovie = baseMovies.filter(
       (baseMovie: BaseMovie) => baseMovie.title === movie.title
     );
 
@@ -42,37 +44,26 @@ function getAllMoviesData(movies: UserMovie[]): Movie[] {
   });
 }
 
-function buildMoviesMap(
-  userId: string,
-  movies: Movie[]
-): { [key: string]: Movie[] } {
-  return DEFAULT_USER_IDS.reduce(
-    (acc, id) => ({
-      ...acc,
-      [id]: id === userId ? movies : [],
-    }),
-    {} as { [key: string]: Movie[] }
-  );
-}
-
 export async function getAllMovies(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Movie[] }> {
   if (isLocalhost()) {
     return {
-      guillaume: getAllMoviesData(getLocalMoviesByUser('guillaume')),
-      william: getAllMoviesData(getLocalMoviesByUser('william')),
-      kevin: getAllMoviesData(getLocalMoviesByUser('kevin')),
-      amandine: getAllMoviesData(getLocalMoviesByUser('amandine')),
-      ronan: getAllMoviesData(getLocalMoviesByUser('ronan')),
+      [currentUserId]: await getAllMoviesData(
+        getLocalMoviesByUser(currentUserId)
+      ),
     };
   }
 
   try {
     const userMovies = await fetchUserMoviesFromApi(currentUserId);
-    return buildMoviesMap(currentUserId, getAllMoviesData(userMovies));
+    return {
+      [currentUserId]: await getAllMoviesData(userMovies),
+    };
   } catch {
-    return buildMoviesMap(currentUserId, []);
+    return {
+      [currentUserId]: [],
+    };
   }
 }
 
@@ -93,16 +84,16 @@ export async function getAllWatchlistMovies(
 ): Promise<{ [key: string]: Movie[] }> {
   if (isLocalhost()) {
     return {
-      guillaume: getAllMoviesData(getLocalWatchlistByUser('guillaume')),
-      william: getAllMoviesData(getLocalWatchlistByUser('william')),
-      kevin: getAllMoviesData(getLocalWatchlistByUser('kevin')),
-      amandine: getAllMoviesData(getLocalWatchlistByUser('amandine')),
-      ronan: getAllMoviesData(getLocalWatchlistByUser('ronan')),
+      [currentUserId]: await getAllMoviesData(
+        getLocalWatchlistByUser(currentUserId)
+      ),
     };
   }
 
   const watchlist = getLocalWatchlistByUser(currentUserId);
-  return buildMoviesMap(currentUserId, getAllMoviesData(watchlist));
+  return {
+    [currentUserId]: await getAllMoviesData(watchlist),
+  };
 }
 
 export async function getAllMoviesMerged(

@@ -1,12 +1,17 @@
 import { Game, BaseGame, UserGame } from '../../models/game-model';
 
 import { allBaseGames, getLocalGamesByUser } from './local-games.facade';
-import { DEFAULT_USER_IDS, isLocalhost } from '../../core/config';
-import { fetchBaseGamesFromApi, fetchUserGamesFromApi } from './api-games.facade';
+import { isLocalhost } from '../../core/config';
+import {
+  fetchBaseGamesFromApi,
+  fetchUserGamesFromApi,
+} from './api-games.facade';
 
-function getAllGamesData(games: UserGame[]): Game[] {
+async function getAllGamesData(games: UserGame[]): Promise<Game[]> {
+  const baseGames = await getAllBaseGames();
+
   return games.map((game: UserGame) => {
-    const matchingBaseGame = allBaseGames.filter(
+    const matchingBaseGame = baseGames.filter(
       (baseGame: BaseGame) => baseGame.title === game.title
     );
 
@@ -36,37 +41,26 @@ function getAllGamesData(games: UserGame[]): Game[] {
   });
 }
 
-function buildGamesMap(
-  userId: string,
-  games: Game[]
-): { [key: string]: Game[] } {
-  return DEFAULT_USER_IDS.reduce(
-    (acc, id) => ({
-      ...acc,
-      [id]: id === userId ? games : [],
-    }),
-    {} as { [key: string]: Game[] }
-  );
-}
-
 export async function getAllGames(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Game[] }> {
   if (isLocalhost()) {
     return {
-      guillaume: getAllGamesData(getLocalGamesByUser('guillaume')),
-      william: getAllGamesData(getLocalGamesByUser('william')),
-      kevin: getAllGamesData(getLocalGamesByUser('kevin')),
-      amandine: getAllGamesData(getLocalGamesByUser('amandine')),
-      ronan: getAllGamesData(getLocalGamesByUser('ronan')),
+      [currentUserId]: await getAllGamesData(
+        getLocalGamesByUser(currentUserId)
+      ),
     };
   }
 
   try {
     const userGames = await fetchUserGamesFromApi(currentUserId);
-    return buildGamesMap(currentUserId, getAllGamesData(userGames));
+    return {
+      [currentUserId]: await getAllGamesData(userGames),
+    };
   } catch {
-    return buildGamesMap(currentUserId, []);
+    return {
+      [currentUserId]: [],
+    };
   }
 }
 
@@ -90,7 +84,9 @@ export async function getAllGamesMerged(
     .flat()
     .reduce((acc: Game[], item: Game) => {
       if (
-        acc.find((game) => game.title === item.title && game.editor === item.editor)
+        acc.find(
+          (game) => game.title === item.title && game.editor === item.editor
+        )
       ) {
         return acc;
       }

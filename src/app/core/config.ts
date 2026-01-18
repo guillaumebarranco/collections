@@ -9,11 +9,3 @@ export function getApiBaseUrl(): string {
   }
   return `${document.location.origin}/api`;
 }
-
-export const DEFAULT_USER_IDS = [
-  'guillaume',
-  'william',
-  'kevin',
-  'amandine',
-  'ronan',
-];

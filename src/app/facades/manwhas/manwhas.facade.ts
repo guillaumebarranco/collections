@@ -5,12 +5,17 @@ import {
   getLocalManwhasByUser,
   getLocalReadlistByUser,
 } from './local-manwhas.facade';
-import { DEFAULT_USER_IDS, isLocalhost } from '../../core/config';
-import { fetchBaseManwhasFromApi, fetchUserManwhasFromApi } from './api-manwhas.facade';
+import { isLocalhost } from '../../core/config';
+import {
+  fetchBaseManwhasFromApi,
+  fetchUserManwhasFromApi,
+} from './api-manwhas.facade';
 
-function getAllManwhasData(manwhas: UserManwha[]): Manwha[] {
+async function getAllManwhasData(manwhas: UserManwha[]): Promise<Manwha[]> {
+  const baseManwhas = await getAllBaseManwhas();
+
   return manwhas.map((manwha: UserManwha) => {
-    const matchingBaseManwha = allBaseManwhas.filter(
+    const matchingBaseManwha = baseManwhas.filter(
       (baseManwha: BaseManwha) => baseManwha.title === manwha.title
     );
 
@@ -38,37 +43,26 @@ function getAllManwhasData(manwhas: UserManwha[]): Manwha[] {
   });
 }
 
-function buildManwhasMap(
-  userId: string,
-  manwhas: Manwha[]
-): { [key: string]: Manwha[] } {
-  return DEFAULT_USER_IDS.reduce(
-    (acc, id) => ({
-      ...acc,
-      [id]: id === userId ? manwhas : [],
-    }),
-    {} as { [key: string]: Manwha[] }
-  );
-}
-
 export async function getAllManwhas(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Manwha[] }> {
   if (isLocalhost()) {
     return {
-      guillaume: getAllManwhasData(getLocalManwhasByUser('guillaume')),
-      william: getAllManwhasData(getLocalManwhasByUser('william')),
-      kevin: getAllManwhasData(getLocalManwhasByUser('kevin')),
-      amandine: getAllManwhasData(getLocalManwhasByUser('amandine')),
-      ronan: getAllManwhasData(getLocalManwhasByUser('ronan')),
+      [currentUserId]: await getAllManwhasData(
+        getLocalManwhasByUser(currentUserId)
+      ),
     };
   }
 
   try {
     const userManwhas = await fetchUserManwhasFromApi(currentUserId);
-    return buildManwhasMap(currentUserId, getAllManwhasData(userManwhas));
+    return {
+      [currentUserId]: await getAllManwhasData(userManwhas),
+    };
   } catch {
-    return buildManwhasMap(currentUserId, []);
+    return {
+      [currentUserId]: [],
+    };
   }
 }
 
@@ -89,16 +83,16 @@ export async function getAllReadlistManwhas(
 ): Promise<{ [key: string]: Manwha[] }> {
   if (isLocalhost()) {
     return {
-      guillaume: getAllManwhasData(getLocalReadlistByUser('guillaume')),
-      william: getAllManwhasData(getLocalReadlistByUser('william')),
-      kevin: getAllManwhasData(getLocalReadlistByUser('kevin')),
-      amandine: getAllManwhasData(getLocalReadlistByUser('amandine')),
-      ronan: getAllManwhasData(getLocalReadlistByUser('ronan')),
+      [currentUserId]: await getAllManwhasData(
+        getLocalReadlistByUser(currentUserId)
+      ),
     };
   }
 
   const readlist = getLocalReadlistByUser(currentUserId);
-  return buildManwhasMap(currentUserId, getAllManwhasData(readlist));
+  return {
+    [currentUserId]: await getAllManwhasData(readlist),
+  };
 }
 
 export async function getAllManwhasMerged(

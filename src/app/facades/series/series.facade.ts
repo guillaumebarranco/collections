@@ -1,12 +1,17 @@
 import { Serie, BaseSerie, UserSerie } from '../../models/serie-model';
 
 import { allBaseSeries, getLocalSeriesByUser } from './local-series.facade';
-import { DEFAULT_USER_IDS, isLocalhost } from '../../core/config';
-import { fetchBaseSeriesFromApi, fetchUserSeriesFromApi } from './api-series.facade';
+import { isLocalhost } from '../../core/config';
+import {
+  fetchBaseSeriesFromApi,
+  fetchUserSeriesFromApi,
+} from './api-series.facade';
 
-function getAllSeriesData(series: UserSerie[]): Serie[] {
+async function getAllSeriesData(series: UserSerie[]): Promise<Serie[]> {
+  const baseSeries = await getAllBaseSeries();
+
   return series.map((serie: UserSerie) => {
-    const matchingBaseSerie = allBaseSeries.filter(
+    const matchingBaseSerie = baseSeries.filter(
       (baseSerie: BaseSerie) => baseSerie.title === serie.title
     );
 
@@ -36,37 +41,26 @@ function getAllSeriesData(series: UserSerie[]): Serie[] {
   });
 }
 
-function buildSeriesMap(
-  userId: string,
-  series: Serie[]
-): { [key: string]: Serie[] } {
-  return DEFAULT_USER_IDS.reduce(
-    (acc, id) => ({
-      ...acc,
-      [id]: id === userId ? series : [],
-    }),
-    {} as { [key: string]: Serie[] }
-  );
-}
-
 export async function getAllSeries(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Serie[] }> {
   if (isLocalhost()) {
     return {
-      guillaume: getAllSeriesData(getLocalSeriesByUser('guillaume')),
-      william: getAllSeriesData(getLocalSeriesByUser('william')),
-      kevin: getAllSeriesData(getLocalSeriesByUser('kevin')),
-      amandine: getAllSeriesData(getLocalSeriesByUser('amandine')),
-      ronan: getAllSeriesData(getLocalSeriesByUser('ronan')),
+      [currentUserId]: await getAllSeriesData(
+        getLocalSeriesByUser(currentUserId)
+      ),
     };
   }
 
   try {
     const userSeries = await fetchUserSeriesFromApi(currentUserId);
-    return buildSeriesMap(currentUserId, getAllSeriesData(userSeries));
+    return {
+      [currentUserId]: await getAllSeriesData(userSeries),
+    };
   } catch {
-    return buildSeriesMap(currentUserId, []);
+    return {
+      [currentUserId]: [],
+    };
   }
 }
 

@@ -28,14 +28,6 @@ const baseDir = path.join(
   username
 );
 
-const configPath = path.join(
-  __dirname,
-  '..',
-  'src',
-  'app',
-  'core',
-  'config.ts'
-);
 
 const facadeUpdates = [
   {
@@ -504,42 +496,6 @@ function updateFacades(userId) {
   });
 }
 
-function updateDefaultUserIds(userId) {
-  if (!fs.existsSync(configPath)) {
-    console.warn(`Config not found: ${configPath}`);
-    return;
-  }
-
-  const content = fs.readFileSync(configPath, 'utf8');
-  const match = content.match(
-    /export const DEFAULT_USER_IDS\s*=\s*\[([\s\S]*?)\];/
-  );
-  if (!match) {
-    console.warn('DEFAULT_USER_IDS not found in config.ts');
-    return;
-  }
-
-  const listBody = match[1];
-  const existing = listBody
-    .split(',')
-    .map((value) => value.trim().replace(/^['"]|['"]$/g, ''))
-    .filter(Boolean);
-
-  if (existing.includes(userId)) {
-    console.log(`DEFAULT_USER_IDS already contains ${userId}`);
-    return;
-  }
-
-  const nextList = [...existing, userId]
-    .map((value) => `  '${value}'`)
-    .join(',\n');
-  const updated = content.replace(
-    /export const DEFAULT_USER_IDS\s*=\s*\[[\s\S]*?\];/,
-    `export const DEFAULT_USER_IDS = [\n${nextList},\n];`
-  );
-  fs.writeFileSync(configPath, updated, 'utf8');
-  console.log(`Updated DEFAULT_USER_IDS with ${userId}`);
-}
 
 ensureDir(baseDir);
 
@@ -580,15 +536,3 @@ extraLists.forEach((entry) => {
 });
 
 updateFacades(username);
-updateDefaultUserIds(username);
-
-// if (shouldBuild) {
-//   try {
-//     execFileSync('npx', ['ng', 'build', '--configuration', 'production'], {
-//       stdio: 'inherit',
-//     });
-//   } catch (error) {
-//     console.error('Build failed:', error.message || error);
-//     process.exitCode = 1;
-//   }
-// }

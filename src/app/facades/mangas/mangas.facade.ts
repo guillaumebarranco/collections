@@ -5,12 +5,17 @@ import {
   getLocalMangasByUser,
   getLocalReadlistByUser,
 } from './local-mangas.facade';
-import { DEFAULT_USER_IDS, isLocalhost } from '../../core/config';
-import { fetchBaseMangasFromApi, fetchUserMangasFromApi } from './api-mangas.facade';
+import { isLocalhost } from '../../core/config';
+import {
+  fetchBaseMangasFromApi,
+  fetchUserMangasFromApi,
+} from './api-mangas.facade';
 
-function getAllMangasData(mangas: UserManga[]): Manga[] {
+async function getAllMangasData(mangas: UserManga[]): Promise<Manga[]> {
+  const baseMangas = await getAllBaseMangas();
+
   return mangas.map((manga: UserManga) => {
-    const matchingBaseManga = allBaseMangas.filter(
+    const matchingBaseManga = baseMangas.filter(
       (baseManga: BaseManga) => baseManga.title === manga.title
     );
 
@@ -36,37 +41,26 @@ function getAllMangasData(mangas: UserManga[]): Manga[] {
   });
 }
 
-function buildMangasMap(
-  userId: string,
-  mangas: Manga[]
-): { [key: string]: Manga[] } {
-  return DEFAULT_USER_IDS.reduce(
-    (acc, id) => ({
-      ...acc,
-      [id]: id === userId ? mangas : [],
-    }),
-    {} as { [key: string]: Manga[] }
-  );
-}
-
 export async function getAllMangas(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Manga[] }> {
   if (isLocalhost()) {
     return {
-      guillaume: getAllMangasData(getLocalMangasByUser('guillaume')),
-      william: getAllMangasData(getLocalMangasByUser('william')),
-      kevin: getAllMangasData(getLocalMangasByUser('kevin')),
-      amandine: getAllMangasData(getLocalMangasByUser('amandine')),
-      ronan: getAllMangasData(getLocalMangasByUser('ronan')),
+      [currentUserId]: await getAllMangasData(
+        getLocalMangasByUser(currentUserId)
+      ),
     };
   }
 
   try {
     const userMangas = await fetchUserMangasFromApi(currentUserId);
-    return buildMangasMap(currentUserId, getAllMangasData(userMangas));
+    return {
+      [currentUserId]: await getAllMangasData(userMangas),
+    };
   } catch {
-    return buildMangasMap(currentUserId, []);
+    return {
+      [currentUserId]: [],
+    };
   }
 }
 
@@ -87,16 +81,17 @@ export async function getAllReadlistMangas(
 ): Promise<{ [key: string]: Manga[] }> {
   if (isLocalhost()) {
     return {
-      guillaume: getAllMangasData(getLocalReadlistByUser('guillaume')),
-      william: [],
-      kevin: getAllMangasData(getLocalReadlistByUser('kevin')),
-      amandine: getAllMangasData(getLocalReadlistByUser('amandine')),
-      ronan: getAllMangasData(getLocalReadlistByUser('ronan')),
+      [currentUserId]: await getAllMangasData(
+        getLocalReadlistByUser(currentUserId)
+      ),
     };
   }
 
   const readlist = getLocalReadlistByUser(currentUserId);
-  return buildMangasMap(currentUserId, getAllMangasData(readlist));
+
+  return {
+    [currentUserId]: await getAllMangasData(readlist),
+  };
 }
 
 export async function getAllMangasMerged(
