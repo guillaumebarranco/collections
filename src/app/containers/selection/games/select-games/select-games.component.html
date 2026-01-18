@@ -1,7 +1,7 @@
 <app-menu></app-menu>
 
-<div class="select-games-container">
-  <div class="header">
+<app-select-entity class="select-games-container">
+  <div class="header" select-header>
     <h1>
       {{
         isWatchOrReadlistMode()
@@ -56,7 +56,7 @@
     </div>
   </div>
 
-  <div class="toolbar">
+  <div class="toolbar" select-toolbar>
     <div class="selection-info">
       <span class="count">{{ selectedCount() }} jeu(x) sélectionné(s)</span>
       <span class="total">sur {{ allGames().length }}</span>
@@ -78,7 +78,7 @@
     </div>
   </div>
 
-  <div class="games-grid">
+  <div class="games-grid" select-grid>
     @for (game of allGames(); track `${game.title}-${game.releaseDate}`) {
     <div
       class="game-poster"
@@ -99,4 +99,4 @@
     </div>
     }
   </div>
-</div>
+</app-select-entity>

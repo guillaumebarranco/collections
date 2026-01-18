@@ -1,0 +1,9 @@
+app-select-entity {
+  display: block;
+
+  .select-entity {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

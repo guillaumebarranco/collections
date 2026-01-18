@@ -4,6 +4,7 @@ import { MenuComponent } from '../../../../components/menu/menu.component';
 import { Book } from '../../../../models/book-model';
 import { getBooksByUser } from '../../../../facades/books/books.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
+import { getApiBaseUrl } from '../../../../core/config';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -21,6 +22,7 @@ export class SelectBooksRatingComponent
   implements OnInit
 {
   private isLoading = false;
+  isSaving = signal(false);
 
   booksList = signal<Book[]>([]);
 
@@ -78,43 +80,49 @@ export class SelectBooksRatingComponent
     return stars;
   }
 
-  // Exporter les livres avec leur rating mis à jour
-  exportBooksRatings(): void {
-    const booksToExport = this.allBooks().map((book) => {
-      const key = this.getBookKey(book);
-      const updatedRating = this.booksRatings().get(key);
+  // Enregistrer les ratings modifiés via l'API
+  async saveBooksRatings(): Promise<void> {
+    if (this.isSaving()) return;
 
-      return {
-        title: book.title,
-        author: book.author,
-        rating: updatedRating !== undefined ? updatedRating : book.rating,
-      };
-    });
+    const booksToUpdate = this.allBooks().map((book) => ({
+      title: book.title,
+      author: book.author,
+      rating: this.getRating(book),
+    }));
 
-    if (booksToExport.length === 0) {
-      alert('Aucun livre à exporter !');
+    if (booksToUpdate.length === 0) {
+      alert('Aucun livre à mettre à jour !');
       return;
     }
 
-    const jsonContent = JSON.stringify(booksToExport, null, 2);
-    const fileName = `my-books-rating-${this.userId()}-${new Date().getTime()}.json`;
+    this.isSaving.set(true);
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/books/batch-rating`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.userId(),
+          books: booksToUpdate,
+        }),
+      });
 
-    // Créer un blob
-    const blob = new Blob([jsonContent], { type: 'application/json' });
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        console.warn('books:batch-rating:error', payload);
+        alert("La mise à jour des notes a échoué.");
+        return;
+      }
 
-    // Créer un lien de téléchargement
-    const url = window.URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = fileName;
-
-    // Télécharger le fichier
-    document.body.appendChild(link);
-    link.click();
-
-    // Nettoyer
-    document.body.removeChild(link);
-    window.URL.revokeObjectURL(url);
+      this.booksRatings.set(new Map());
+      await this.loadBooksData();
+    } catch (error) {
+      console.warn('books:batch-rating:error', error);
+      alert("La mise à jour des notes a échoué.");
+    } finally {
+      this.isSaving.set(false);
+    }
   }
 
   ngOnInit() {

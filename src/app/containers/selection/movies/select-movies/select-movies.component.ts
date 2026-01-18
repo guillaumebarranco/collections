@@ -3,19 +3,25 @@ import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../../components/menu/menu.component';
 import { Movie } from '../../../../models/movie-model';
 import {
-  getAllMoviesMerged,
+  getAllBaseMovies,
   getCurrentWatchlistMoviesByUser,
   getMoviesByUser,
 } from '../../../../facades/movies/movies.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
-import { isLocalhost, getApiBaseUrl } from '../../../../core/config';
 import { AddMovieComponent } from '../../../add/add-movie/add-movie.component';
+import { SelectEntityComponent } from '../../../../components/select-entity/select-entity.component';
 import { Router } from '@angular/router';
+import { getApiBaseUrl } from '../../../../core/config';
 
 @Component({
   selector: 'app-select-movies',
-  imports: [CommonModule, MenuComponent, MatDialogModule],
+  imports: [
+    CommonModule,
+    MenuComponent,
+    MatDialogModule,
+    SelectEntityComponent,
+  ],
   templateUrl: './select-movies.component.html',
   styleUrls: ['./select-movies.component.scss', '../../select-base.scss'],
 })
@@ -33,9 +39,7 @@ export class SelectMoviesComponent
   // Films déjà vus par l'utilisateur (pour les exclure en mode watchlist)
   watchedMovies = computed<Set<string>>(() => {
     const userMovies = this.userMovies();
-    return new Set(
-      userMovies.map((movie) => this.getMovieKey(movie))
-    );
+    return new Set(userMovies.map((movie) => this.getMovieKey(movie)));
   });
 
   alreadyInWatchlistMovies = computed<Set<string>>(() => {
@@ -43,9 +47,7 @@ export class SelectMoviesComponent
       return new Set();
     }
     const watchlistMovies = this.watchlistMovies();
-    return new Set(
-      watchlistMovies.map((movie) => this.getMovieKey(movie))
-    );
+    return new Set(watchlistMovies.map((movie) => this.getMovieKey(movie)));
   });
 
   // Tous les films de tous les utilisateurs, filtrés si mode watchlist ou ajout
@@ -116,19 +118,15 @@ export class SelectMoviesComponent
   }
 
   private async getAllMoviesForSelection(userId: string): Promise<Movie[]> {
-    if (isLocalhost()) {
-      return getAllMoviesMerged(userId);
-    }
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/movies/entities`);
-      if (!response.ok) {
-        return [];
-      }
-      const data = await response.json();
-      return Array.isArray(data) ? data : [];
-    } catch {
-      return [];
-    }
+    const baseMovies = await getAllBaseMovies();
+    return baseMovies.map((movie) => ({
+      ...movie,
+      rating: 0,
+      timesWatched: 0,
+      firstViewedDate: '',
+      lastViewedDate: '',
+      seenAtCinema: false,
+    }));
   }
 
   protected async addSelectedMovies(): Promise<void> {

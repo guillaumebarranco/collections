@@ -3,14 +3,14 @@ import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../../components/menu/menu.component';
 import { Serie } from '../../../../models/serie-model';
 import {
-  getAllSeriesMerged,
+  getAllBaseSeries,
   getSeriesByUser,
 } from '../../../../facades/series/series.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddSerieComponent } from '../../../add/add-serie/add-serie.component';
-import { isLocalhost, getApiBaseUrl } from '../../../../core/config';
 import { Router } from '@angular/router';
+import { getApiBaseUrl } from '../../../../core/config';
 
 @Component({
   selector: 'app-select-series',
@@ -98,19 +98,13 @@ export class SelectSeriesComponent
   }
 
   private async getAllSeriesForSelection(userId: string): Promise<Serie[]> {
-    if (isLocalhost()) {
-      return getAllSeriesMerged(userId);
-    }
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/series/entities`);
-      if (!response.ok) {
-        return [];
-      }
-      const data = await response.json();
-      return Array.isArray(data) ? data : [];
-    } catch {
-      return [];
-    }
+    const baseSeries = await getAllBaseSeries();
+    return baseSeries.map((serie) => ({
+      ...serie,
+      rating: 0,
+      timesWatched: 0,
+      stoppedAtSeason: 0,
+    }));
   }
 
   protected async addSelectedSeries(): Promise<void> {

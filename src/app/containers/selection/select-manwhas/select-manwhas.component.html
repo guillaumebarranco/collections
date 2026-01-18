@@ -1,7 +1,7 @@
 <app-menu></app-menu>
 
-<div class="select-manwhas-container">
-  <div class="header">
+<app-select-entity class="select-manwhas-container">
+  <div class="header" select-header>
     <h1>
       {{
         isWatchOrReadlistMode()
@@ -47,7 +47,7 @@
     </div>
   </div>
 
-  <div class="toolbar">
+  <div class="toolbar" select-toolbar>
     <div class="selection-info">
       <span class="count">{{ selectedCount() }} manwha(s) sélectionné(s)</span>
       <span class="total">sur {{ allManwhas().length }}</span>
@@ -69,7 +69,7 @@
     </div>
   </div>
 
-  <div class="manwhas-grid">
+  <div class="manwhas-grid" select-grid>
     @for (manwha of allManwhas(); track `${manwha.title}-${manwha.author}`) {
     <div
       class="manwha-cover"
@@ -88,4 +88,4 @@
     </div>
     }
   </div>
-</div>
+</app-select-entity>

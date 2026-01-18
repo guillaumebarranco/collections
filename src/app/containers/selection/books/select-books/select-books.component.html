@@ -1,7 +1,7 @@
 <app-menu></app-menu>
 
-<div class="select-books-container">
-  <div class="header">
+<app-select-entity class="select-books-container">
+  <div class="header" select-header>
     <h1>
       {{
         isWatchOrReadlistMode()
@@ -56,7 +56,7 @@
     </div>
   </div>
 
-  <div class="toolbar">
+  <div class="toolbar" select-toolbar>
     <div class="selection-info">
       <span class="count">{{ selectedCount() }} livre(s) sélectionné(s)</span>
       <span class="total">sur {{ allBooks().length }}</span>
@@ -78,7 +78,7 @@
     </div>
   </div>
 
-  <div class="books-grid">
+  <div class="books-grid" select-grid>
     @for (book of allBooks(); track `${book.title}-${book.author}`) {
     <div
       class="book-cover"
@@ -97,4 +97,4 @@
     </div>
     }
   </div>
-</div>
+</app-select-entity>

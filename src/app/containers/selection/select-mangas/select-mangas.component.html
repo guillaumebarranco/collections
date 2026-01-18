@@ -1,7 +1,7 @@
 <app-menu></app-menu>
 
-<div class="select-mangas-container">
-  <div class="header">
+<app-select-entity class="select-mangas-container">
+  <div class="header" select-header>
     <h1>
       {{
         isWatchOrReadlistMode()
@@ -46,7 +46,7 @@
     </div>
   </div>
 
-  <div class="toolbar">
+  <div class="toolbar" select-toolbar>
     <div class="selection-info">
       <span class="count">{{ selectedCount() }} manga(s) sélectionné(s)</span>
       <span class="total">sur {{ allMangas().length }}</span>
@@ -68,7 +68,7 @@
     </div>
   </div>
 
-  <div class="mangas-grid">
+  <div class="mangas-grid" select-grid>
     @for (manga of allMangas(); track `${manga.title}-${manga.author}`) {
     <div
       class="manga-cover"
@@ -87,4 +87,4 @@
     </div>
     }
   </div>
-</div>
+</app-select-entity>

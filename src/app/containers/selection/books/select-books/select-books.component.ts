@@ -11,6 +11,7 @@ import {
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddBookComponent } from '../../../add/add-book/add-book.component';
+import { SelectEntityComponent } from '../../../../components/select-entity/select-entity.component';
 
 import { isLocalhost } from '../../../../core/config';
 import { Router } from '@angular/router';
@@ -18,7 +19,7 @@ import { getApiBaseUrl } from '../../../../core/config';
 
 @Component({
   selector: 'app-select-books',
-  imports: [CommonModule, MenuComponent, MatDialogModule],
+  imports: [CommonModule, MenuComponent, MatDialogModule, SelectEntityComponent],
   templateUrl: './select-books.component.html',
   styleUrls: ['./select-books.component.scss', '../../select-base.scss'],
 })

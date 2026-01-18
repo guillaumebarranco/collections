@@ -1,7 +1,7 @@
 <app-menu></app-menu>
 
-<div class="select-movies-container">
-  <div class="header">
+<app-select-entity class="select-movies-container">
+  <div class="header" select-header>
     <h1>
       {{
         isWatchOrReadlistMode()
@@ -56,7 +56,7 @@
     </div>
   </div>
 
-  <div class="toolbar">
+  <div class="toolbar" select-toolbar>
     <div class="selection-info">
       <span class="count">{{ selectedCount() }} film(s) sélectionné(s)</span>
       <span class="total">sur {{ allMovies().length }}</span>
@@ -78,7 +78,7 @@
     </div>
   </div>
 
-  <div class="movies-grid">
+  <div class="movies-grid" select-grid>
     @for (movie of allMovies(); track `${movie.title}-${movie.releaseDate}`) {
     <div
       class="movie-poster"
@@ -99,4 +99,4 @@
     </div>
     }
   </div>
-</div>
+</app-select-entity>

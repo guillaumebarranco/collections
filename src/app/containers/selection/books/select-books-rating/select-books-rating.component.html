@@ -11,8 +11,8 @@
         collection. <br /><br />
         Passe ta souris sur un livre pour voir les options de notes disponibles
         et clique sur la note correspondante. <br /><br />
-        Une fois que tu as terminé, clique sur le bouton "Exporter" pour
-        télécharger le fichier JSON avec tes mises à jour.
+        Une fois que tu as terminé, clique sur "Enregistrer mes notes" pour
+        appliquer les changements.
       </p>
     </div>
   </div>
@@ -26,10 +26,10 @@
     <div class="actions">
       <button
         class="btn btn-primary"
-        (click)="exportBooksRatings()"
-        [disabled]="allBooks().length === 0"
+        (click)="saveBooksRatings()"
+        [disabled]="allBooks().length === 0 || isSaving()"
       >
-        📥 Exporter mes livres avec rating ({{ allBooks().length }})
+        ✅ Enregistrer mes notes ({{ modifiedCount() }})
       </button>
     </div>
   </div>

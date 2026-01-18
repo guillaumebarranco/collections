@@ -9,12 +9,13 @@ import {
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddGameComponent } from '../../../add/add-game/add-game.component';
+import { SelectEntityComponent } from '../../../../components/select-entity/select-entity.component';
 import { Router } from '@angular/router';
 import { getApiBaseUrl } from '../../../../core/config';
 
 @Component({
   selector: 'app-select-games',
-  imports: [CommonModule, MenuComponent, MatDialogModule],
+  imports: [CommonModule, MenuComponent, MatDialogModule, SelectEntityComponent],
   templateUrl: './select-games.component.html',
   styleUrls: ['./select-games.component.scss', '../../select-base.scss'],
 })

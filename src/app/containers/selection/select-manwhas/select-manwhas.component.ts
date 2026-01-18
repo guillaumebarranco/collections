@@ -12,10 +12,11 @@ import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddManwhaComponent } from '../../add/add-manwha/add-manwha.component';
 import { getApiBaseUrl, isLocalhost } from '../../../core/config';
 import { Router } from '@angular/router';
+import { SelectEntityComponent } from '../../../components/select-entity/select-entity.component';
 
 @Component({
   selector: 'app-select-manwhas',
-  imports: [CommonModule, MenuComponent, MatDialogModule],
+  imports: [CommonModule, MenuComponent, MatDialogModule, SelectEntityComponent],
   templateUrl: './select-manwhas.component.html',
   styleUrls: ['./select-manwhas.component.scss', '../select-base.scss'],
 })

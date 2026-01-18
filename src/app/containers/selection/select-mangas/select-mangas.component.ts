@@ -12,10 +12,11 @@ import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddMangaComponent } from '../../add/add-manga/add-manga.component';
 import { getApiBaseUrl, isLocalhost } from '../../../core/config';
 import { Router } from '@angular/router';
+import { SelectEntityComponent } from '../../../components/select-entity/select-entity.component';
 
 @Component({
   selector: 'app-select-mangas',
-  imports: [CommonModule, MenuComponent, MatDialogModule],
+  imports: [CommonModule, MenuComponent, MatDialogModule, SelectEntityComponent],
   templateUrl: './select-mangas.component.html',
   styleUrls: ['./select-mangas.component.scss', '../select-base.scss'],
 })
