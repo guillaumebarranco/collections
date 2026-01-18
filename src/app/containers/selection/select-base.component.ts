@@ -20,6 +20,10 @@ export class SelectEntitiesComponent {
       return true;
     }
 
+    if (queryParams['gamelist'] === 'true') {
+      return true;
+    }
+
     return false;
   });
 

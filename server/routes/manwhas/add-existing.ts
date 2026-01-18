@@ -53,6 +53,14 @@ function formatUserManwha(manwha: any) {
   )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n  },`;
 }
 
+function formatReadlistManwha(manwha: any) {
+  return `  {\n    title: '${escapeString(
+    manwha.title
+  )}',\n    author: '${escapeString(
+    manwha.author
+  )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 0,\n  },`;
+}
+
 function getUserManwhasTargetFile(userId: string, isReadlist: boolean) {
   const userDir = path.join(
     __dirname,
@@ -139,8 +147,9 @@ router.post('/add-existing', (req: any, res: any) => {
 
     const userFile = getUserManwhasTargetFile(userId, isReadlist);
     let nextContent = fs.readFileSync(userFile, 'utf8');
+    const formatManwha = isReadlist ? formatReadlistManwha : formatUserManwha;
     for (const manwha of toAdd) {
-      nextContent = appendObjectToArrayFile(userFile, formatUserManwha(manwha));
+      nextContent = appendObjectToArrayFile(userFile, formatManwha(manwha));
       fs.writeFileSync(userFile, nextContent, 'utf8');
     }
 

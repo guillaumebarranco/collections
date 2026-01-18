@@ -5,6 +5,8 @@
     {{
       selectedView() === "stopped"
         ? "S&#233;ries stopp&#233;es"
+        : selectedView() === "watchlist"
+        ? "S&#233;ries &#224; voir"
         : "S&#233;ries finies"
     }}
     ({{ filteredSeries().length }})
@@ -27,16 +29,31 @@
       >
         S&#233;ries stopp&#233;es
       </button>
+      <button
+        class="toggle-option"
+        [class.active]="selectedView() === 'watchlist'"
+        (click)="onViewChange('watchlist')"
+      >
+        S&#233;ries &#224; voir
+      </button>
     </div>
 
     <div class="series-actions">
       <button
         class="btn btn-small"
         [routerLink]="getSelectSeriesRoute()"
-        [queryParams]="{ add: 'true' }"
+        [queryParams]="{
+          watchlist: selectedView() === 'watchlist',
+          add: 'true'
+        }"
         title="Ajouter une s&#233;rie"
       >
-        &#10133; Ajouter une s&#233;rie
+        &#10133;
+        {{
+          selectedView() === "watchlist"
+            ? "Ajouter des s&#233;ries &#224; voir"
+            : "Ajouter une s&#233;rie"
+        }}
       </button>
       <button
         class="btn btn-small"

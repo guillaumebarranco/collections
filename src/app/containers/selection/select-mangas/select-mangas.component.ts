@@ -60,7 +60,9 @@ export class SelectMangasComponent
     }
 
     return allMangasList.filter(
-      (manga) => !this.readMangas().has(this.getMangaKey(manga))
+      (manga) =>
+        !this.readMangas().has(this.getMangaKey(manga)) &&
+        !this.alreadyInReadlistMangas().has(this.getMangaKey(manga))
     );
   });
 
@@ -136,7 +138,7 @@ export class SelectMangasComponent
       .map((manga) => {
         return {
           ...manga,
-          readTimes: 1,
+          readTimes: this.isWatchOrReadlistMode() ? 0 : 1,
           rating: 0,
           readDate: '',
         };

@@ -1,9 +1,16 @@
 <app-menu></app-menu>
 
 <div class="mangas-container">
-  <h1>Mangas lus ({{ allMangas().length }})</h1>
+  <h1>
+    {{
+      selectedView() === "readlist"
+        ? "Mangas à lire"
+        : "Mangas lus"
+    }}
+    ({{ filteredMangas().length }})
+  </h1>
 
-  @if(allMangas().length === 0) {
+  @if(allMangas().length === 0 && allReadlistMangas().length === 0) {
   <div class="empty-state">
     <p class="empty-message">Vous n'avez aucun manga dans votre collection.</p>
     <p class="empty-subtitle">
@@ -15,15 +22,38 @@
   </div>
   }
 
-  @if(allMangas().length !== 0) {
+  @if(allMangas().length !== 0 || allReadlistMangas().length !== 0) {
   <div class="mangas-header-top">
+    <div class="mangas-view-toggle">
+      <button
+        class="toggle-option"
+        [class.active]="selectedView() === 'read'"
+        (click)="onViewChange('read')"
+      >
+        Mangas lus
+      </button>
+      <button
+        class="toggle-option"
+        [class.active]="selectedView() === 'readlist'"
+        (click)="onViewChange('readlist')"
+      >
+        Mangas à lire
+      </button>
+    </div>
+
     <div class="mangas-actions">
       <button
         class="btn btn-small"
         [routerLink]="getSelectMangasRoute()"
+        [queryParams]="{ readlist: selectedView() === 'readlist' }"
         title="Ajouter des mangas"
       >
-        ➕ Ajouter des mangas
+        ➕
+        {{
+          selectedView() === "readlist"
+            ? "Ajouter des mangas à lire"
+            : "Ajouter des mangas"
+        }}
       </button>
       <button
         class="btn btn-small"
@@ -46,7 +76,7 @@
   <div class="mangas-header">
     <app-stats-display
       [stats]="stats()"
-      [count]="allMangas().length"
+      [count]="filteredMangas().length"
       countLabel="mangas"
     >
     </app-stats-display>

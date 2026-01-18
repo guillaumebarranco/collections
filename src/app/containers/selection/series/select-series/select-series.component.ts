@@ -110,7 +110,7 @@ export class SelectSeriesComponent
       .map((serie) => {
         return {
           ...serie,
-          timesWatched: 1,
+          timesWatched: this.isWatchOrReadlistMode() ? 0 : 1,
           rating: 0,
         };
       });
@@ -131,6 +131,7 @@ export class SelectSeriesComponent
         body: JSON.stringify({
           userId: this.userId(),
           series,
+          watchlist: this.isWatchOrReadlistMode(),
         }),
       });
 

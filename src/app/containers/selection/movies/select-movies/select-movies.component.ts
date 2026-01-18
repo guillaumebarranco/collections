@@ -62,7 +62,9 @@ export class SelectMoviesComponent
     }
 
     return allMoviesList.filter(
-      (movie) => !this.watchedMovies().has(this.getMovieKey(movie))
+      (movie) =>
+        !this.watchedMovies().has(this.getMovieKey(movie)) &&
+        !this.alreadyInWatchlistMovies().has(this.getMovieKey(movie))
     );
   });
 

@@ -298,12 +298,7 @@ function getUserGamesFiles(userId: string): string[] {
 
   return fs
     .readdirSync(userDir)
-    .filter(
-      (file: string) =>
-        file.endsWith('.ts') &&
-        file !== 'index.ts' &&
-        !file.includes('readlist')
-    )
+    .filter((file: string) => file.endsWith('.ts') && file !== 'index.ts')
     .map((file: string) => path.join(userDir, file));
 }
 

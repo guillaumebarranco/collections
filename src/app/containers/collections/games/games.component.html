@@ -1,18 +1,50 @@
 <app-menu></app-menu>
 
 <div class="games-container">
-  <h1>🎮 Jeux vidéo ({{ allGames().length }})</h1>
+  <h1>
+    {{
+      selectedView() === "gamelist"
+        ? "🎮 Jeux à jouer"
+        : "🎮 Jeux vidéo"
+    }}
+    ({{ filteredGames().length }})
+  </h1>
 
-  @if(allGames().length !== 0) {
+  @if(allGames().length !== 0 || allGamelistGames().length !== 0) {
   <div class="games-header-top">
+    <div class="games-view-toggle">
+      <button
+        class="toggle-option"
+        [class.active]="selectedView() === 'played'"
+        (click)="onViewChange('played')"
+      >
+        Jeux terminés
+      </button>
+      <button
+        class="toggle-option"
+        [class.active]="selectedView() === 'gamelist'"
+        (click)="onViewChange('gamelist')"
+      >
+        Jeux à jouer
+      </button>
+    </div>
+
     <div class="games-actions">
       <button
         class="btn btn-small"
         [routerLink]="getSelectGamesRoute()"
-        [queryParams]="{ add: 'true' }"
+        [queryParams]="{
+          gamelist: selectedView() === 'gamelist',
+          add: 'true'
+        }"
         title="Ajouter un jeu"
       >
-        &#10133; Ajouter un jeu
+        &#10133;
+        {{
+          selectedView() === "gamelist"
+            ? "Ajouter des jeux à jouer"
+            : "Ajouter un jeu"
+        }}
       </button>
       <button
         class="btn btn-small"
@@ -30,7 +62,7 @@
       </button>
     </div>
   </div>
-  } @if(allGames().length === 0) {
+  } @if(allGames().length === 0 && allGamelistGames().length === 0) {
   <div class="empty-state">
     <p class="empty-message">Vous n'avez aucun jeu dans votre collection.</p>
     <p class="empty-subtitle">
@@ -45,7 +77,7 @@
   <div class="games-header">
     <app-stats-display
       [stats]="stats()"
-      [count]="allGames().length"
+      [count]="filteredGames().length"
       countLabel="jeux"
     >
     </app-stats-display>

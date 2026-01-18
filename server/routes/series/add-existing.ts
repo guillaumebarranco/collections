@@ -4,6 +4,7 @@ const path = require('path');
 const { execFileSync } = require('child_process');
 const {
   normalizeString,
+  normalizeBoolean,
   appendObjectToArrayFile,
   parseSeriesFromFile,
   getUserSeriesFiles,
@@ -57,7 +58,17 @@ function formatUserSerie(serie: any) {
   },`;
 }
 
-function getUserSeriesTargetFile(userId: string) {
+function formatWatchlistSerie(serie: any) {
+  return `  {
+    title: '${escapeString(serie.title)}',
+    director: '${escapeString(serie.director)}',
+    rating: 0,
+    timesWatched: 0,
+    stoppedAtSeason: 0,
+  },`;
+}
+
+function getUserSeriesTargetFile(userId: string, isWatchlist: boolean) {
   const userDir = path.join(
     __dirname,
     '..',
@@ -78,10 +89,16 @@ function getUserSeriesTargetFile(userId: string) {
     .readdirSync(userDir)
     .filter((file: string) => file.endsWith('.ts') && file !== 'index.ts');
 
-  const preferred = files.find((file: string) =>
-    file.includes(`${userId}_series`)
+  const scopedFiles = files.filter((file: string) =>
+    isWatchlist ? file.includes('watchlist') : !file.includes('watchlist')
   );
-  const selected = preferred || files.sort()[0];
+
+  const preferred = scopedFiles.find((file: string) =>
+    isWatchlist
+      ? file.includes(`${userId}_watchlist_series`)
+      : file.includes(`${userId}_series`)
+  );
+  const selected = preferred || scopedFiles.sort()[0];
   if (!selected) {
     throw new Error(`User series file not found: ${userId}`);
   }
@@ -101,6 +118,7 @@ router.post('/add-existing', (req: any, res: any) => {
     ensureUserExists(userId);
 
     const series = Array.isArray(input.series) ? input.series : [];
+    const isWatchlist = normalizeBoolean(input.watchlist, 'watchlist') ?? false;
     const normalizedSeries = series
       .map((serie: any) => ({
         title: normalizeString(serie.title, 'title'),
@@ -135,10 +153,11 @@ router.post('/add-existing', (req: any, res: any) => {
       return;
     }
 
-    const userFile = getUserSeriesTargetFile(userId);
+    const userFile = getUserSeriesTargetFile(userId, isWatchlist);
     let nextContent = fs.readFileSync(userFile, 'utf8');
+    const formatSerie = isWatchlist ? formatWatchlistSerie : formatUserSerie;
     for (const serie of toAdd) {
-      nextContent = appendObjectToArrayFile(userFile, formatUserSerie(serie));
+      nextContent = appendObjectToArrayFile(userFile, formatSerie(serie));
       fs.writeFileSync(userFile, nextContent, 'utf8');
     }
 

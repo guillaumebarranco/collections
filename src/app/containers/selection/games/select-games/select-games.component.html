@@ -5,7 +5,7 @@
     <h1>
       {{
         isWatchOrReadlistMode()
-          ? "Sélectionner des jeux pour ma watchlist"
+          ? "Sélectionner des jeux pour ma gamelist"
           : "Ajouter des jeux terminés"
       }}
     </h1>
@@ -34,14 +34,13 @@
       } @else if(isWatchOrReadlistMode()) {
       <p>
         Bonjour {{ username() }} <br /><br />
-        Tu es en mode "Watchlist" ! Ici, tu peux sélectionner les jeux que tu
-        souhaites ajouter à ta liste de jeux à terminer.
+        Tu es en mode "Gamelist" ! Ici, tu peux sélectionner les jeux que tu
+        souhaites ajouter à ta liste de jeux à jouer.
         <br /><br />
         Les jeux que tu as déjà terminés sont automatiquement exclus de cette
         liste pour t'éviter les doublons.
         <br /><br />
-        Sélectionne les jeux que tu aimerais terminer et télécharge le fichier
-        JSON pour construire ta watchlist.
+        Sélectionne les jeux que tu aimerais jouer et ajoute-les à ta gamelist.
       </p>
       } @else {
       <!-- <p>
@@ -70,7 +69,7 @@
       >
         {{
           isWatchOrReadlistMode()
-            ? "Ajouter à mes jeux à terminer"
+            ? "Ajouter à ma gamelist"
             : "Ajouter à mes jeux terminés"
         }}
         ({{ selectedCount() }})

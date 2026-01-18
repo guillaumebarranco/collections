@@ -8,7 +8,10 @@ import {
 } from '../../../components/sort-dropdown/sort-dropdown.component';
 import { Manwha } from '../../../models/manwha-model';
 import { ActivatedRoute, Params, RouterLink } from '@angular/router';
-import { getAllManwhas } from '../../../facades/manwhas/manwhas.facade';
+import {
+  getAllManwhas,
+  getAllReadlistManwhas,
+} from '../../../facades/manwhas/manwhas.facade';
 import {
   getEstimatedMangaReadingTime,
   getTotalManwhasPages,
@@ -42,6 +45,7 @@ export class ManwhasComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
   private readonly dialog = inject(MatDialog);
   selectedSort = signal<string>('rating');
+  selectedView = signal<'read' | 'readlist'>('read');
 
   sortOptions = signal<SortOption[]>([
     { value: 'title', label: 'Titre (A-Z)' },
@@ -61,6 +65,7 @@ export class ManwhasComponent implements OnInit {
   ]);
 
   manwhasList = signal<{ [key: string]: Manwha[] }>({});
+  readlistManwhasList = signal<{ [key: string]: Manwha[] }>({});
 
   allManwhas = computed<Manwha[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
@@ -73,8 +78,23 @@ export class ManwhasComponent implements OnInit {
     return manwhas;
   });
 
+  allReadlistManwhas = computed<Manwha[]>(() => {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+
+    return hasNameParam
+      ? this.readlistManwhasList()[params['id']] || []
+      : this.readlistManwhasList()['guillaume'];
+  });
+
+  filteredManwhas = computed<Manwha[]>(() => {
+    return this.selectedView() === 'readlist'
+      ? this.allReadlistManwhas()
+      : this.allManwhas();
+  });
+
   sortedManwhas = computed<Manwha[]>(() => {
-    const sortedManwhas = [...this.allManwhas()];
+    const sortedManwhas = [...this.filteredManwhas()];
     switch (this.selectedSort()) {
       case 'title':
         return sortedManwhas.sort((a, b) => a.title.localeCompare(b.title));
@@ -145,10 +165,10 @@ export class ManwhasComponent implements OnInit {
     console.log(this.allManwhas());
     const totalChapters = this.calculateTotalChapters();
     const totalPages = this.calculateTotalManwhasPages();
-    const totalChaptersRead = getTotalManwhasChaptersRead(this.allManwhas());
-    const totalPagesRead = getTotalManwhasPages(this.allManwhas());
+    const totalChaptersRead = getTotalManwhasChaptersRead(this.filteredManwhas());
+    const totalPagesRead = getTotalManwhasPages(this.filteredManwhas());
     const estimatedReadingTime = getEstimatedManwhaReadingTime(
-      this.allManwhas()
+      this.filteredManwhas()
     );
 
     return [
@@ -193,6 +213,10 @@ export class ManwhasComponent implements OnInit {
     await this.refreshManwhas();
   }
 
+  onViewChange(view: 'read' | 'readlist') {
+    this.selectedView.set(view);
+  }
+
   getSelectManwhasRoute(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
@@ -217,7 +241,7 @@ export class ManwhasComponent implements OnInit {
 
   private calculateTotalChapters(): number {
     let total = 0;
-    for (const manwha of this.allManwhas()) {
+    for (const manwha of this.filteredManwhas()) {
       if (manwha.nbChapters) {
         total += manwha.nbChapters;
       }
@@ -227,7 +251,7 @@ export class ManwhasComponent implements OnInit {
 
   private calculateTotalManwhasPages(): number {
     let total = 0;
-    for (const manwha of this.allManwhas()) {
+    for (const manwha of this.filteredManwhas()) {
       if (manwha.nbChapters) {
         total += manwha.nbChapters * PAGES_PER_MANWHA_CHAPTER;
       }
@@ -254,8 +278,12 @@ export class ManwhasComponent implements OnInit {
 
   private async refreshManwhas() {
     const userId = this.getActiveUserId();
-    const manwhas = await getAllManwhas(userId);
+    const [manwhas, readlist] = await Promise.all([
+      getAllManwhas(userId),
+      getAllReadlistManwhas(userId),
+    ]);
     this.manwhasList.set(manwhas);
+    this.readlistManwhasList.set(readlist);
   }
 
   private getActiveUserId(): string {

@@ -1,6 +1,10 @@
 import { Game, BaseGame, UserGame } from '../../models/game-model';
 
-import { allBaseGames, getLocalGamesByUser } from './local-games.facade';
+import {
+  allBaseGames,
+  getLocalGamesByUser,
+  getLocalGamelistByUser,
+} from './local-games.facade';
 import { isLocalhost } from '../../core/config';
 import {
   fetchBaseGamesFromApi,
@@ -64,6 +68,23 @@ export async function getAllGames(
   }
 }
 
+export async function getAllGamelistGames(
+  currentUserId = 'guillaume'
+): Promise<{ [key: string]: Game[] }> {
+  if (isLocalhost()) {
+    return {
+      [currentUserId]: await getAllGamesData(
+        getLocalGamelistByUser(currentUserId)
+      ),
+    };
+  }
+
+  const gamelist = getLocalGamelistByUser(currentUserId);
+  return {
+    [currentUserId]: await getAllGamesData(gamelist),
+  };
+}
+
 export async function getAllBaseGames(): Promise<BaseGame[]> {
   if (isLocalhost()) {
     return allBaseGames;
@@ -106,4 +127,14 @@ export async function getGamesByUser(userId: string): Promise<Game[]> {
   } catch {
     return [];
   }
+}
+
+export async function getCurrentGamelistGamesByUser(
+  userId: string
+): Promise<Game[]> {
+  if (isLocalhost()) {
+    return getAllGamesData(getLocalGamelistByUser(userId));
+  }
+
+  return getAllGamesData(getLocalGamelistByUser(userId));
 }

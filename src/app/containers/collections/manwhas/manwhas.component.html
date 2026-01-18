@@ -1,9 +1,16 @@
 <app-menu></app-menu>
 
 <div class="manwhas-container">
-  <h1>Manwhas lus ({{ allManwhas().length }})</h1>
+  <h1>
+    {{
+      selectedView() === "readlist"
+        ? "Manwhas à lire"
+        : "Manwhas lus"
+    }}
+    ({{ filteredManwhas().length }})
+  </h1>
 
-  @if(allManwhas().length === 0) {
+  @if(allManwhas().length === 0 && allReadlistManwhas().length === 0) {
   <div class="empty-state">
     <p class="empty-message">Vous n'avez aucun manwha dans votre collection.</p>
     <p class="empty-subtitle">
@@ -15,15 +22,38 @@
   </div>
   }
 
-  @if(allManwhas().length !== 0) {
+  @if(allManwhas().length !== 0 || allReadlistManwhas().length !== 0) {
   <div class="manwhas-header-top">
+    <div class="manwhas-view-toggle">
+      <button
+        class="toggle-option"
+        [class.active]="selectedView() === 'read'"
+        (click)="onViewChange('read')"
+      >
+        Manwhas lus
+      </button>
+      <button
+        class="toggle-option"
+        [class.active]="selectedView() === 'readlist'"
+        (click)="onViewChange('readlist')"
+      >
+        Manwhas à lire
+      </button>
+    </div>
+
     <div class="manwhas-actions">
       <button
         class="btn btn-small"
         [routerLink]="getSelectManwhasRoute()"
+        [queryParams]="{ readlist: selectedView() === 'readlist' }"
         title="Ajouter des manwhas"
       >
-        ➕ Ajouter des manwhas
+        ➕
+        {{
+          selectedView() === "readlist"
+            ? "Ajouter des manwhas à lire"
+            : "Ajouter des manwhas"
+        }}
       </button>
       <button
         class="btn btn-small"
@@ -46,7 +76,7 @@
   <div class="manwhas-header">
     <app-stats-display
       [stats]="stats()"
-      [count]="allManwhas().length"
+      [count]="filteredManwhas().length"
       countLabel="manwhas"
     >
     </app-stats-display>
@@ -58,6 +88,18 @@
     >
     </app-sort-dropdown>
   </div>
+
+  @if(selectedView() === 'readlist') {
+  <div class="readlist-actions">
+    <button
+      class="btn btn-primary"
+      [routerLink]="getSelectManwhasRoute()"
+      [queryParams]="{ readlist: 'true' }"
+    >
+      Ajouter des manwhas à ma readlist
+    </button>
+  </div>
+  }
 
   <div class="manwhas">
     @for (manwha of sortedManwhas(); track manwha.title) {

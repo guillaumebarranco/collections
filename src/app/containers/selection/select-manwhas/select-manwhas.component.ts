@@ -60,7 +60,9 @@ export class SelectManwhasComponent
     }
 
     return allManwhasList.filter(
-      (manwha) => !this.readManwhas().has(this.getManwhaKey(manwha))
+      (manwha) =>
+        !this.readManwhas().has(this.getManwhaKey(manwha)) &&
+        !this.alreadyInReadlistManwhas().has(this.getManwhaKey(manwha))
     );
   });
 
@@ -136,7 +138,7 @@ export class SelectManwhasComponent
       .map((manwha) => {
         return {
           ...manwha,
-          readTimes: 1,
+          readTimes: this.isWatchOrReadlistMode() ? 0 : 1,
           rating: 0,
           readDate: '',
         };

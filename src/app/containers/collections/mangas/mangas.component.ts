@@ -20,7 +20,10 @@ import {
   PAGES_PER_MANGA_TOME,
 } from '../../../utils/stats.utils';
 import { ActivatedRoute, Params, RouterLink } from '@angular/router';
-import { getAllMangas } from '../../../facades/mangas/mangas.facade';
+import {
+  getAllMangas,
+  getAllReadlistMangas,
+} from '../../../facades/mangas/mangas.facade';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditMangaComponent } from '../../edit/edit-manga/edit-manga.component';
 
@@ -44,6 +47,7 @@ export class MangasComponent implements OnInit {
   private readonly dialog = inject(MatDialog);
 
   selectedSort = signal<string>('rating');
+  selectedView = signal<'read' | 'readlist'>('read');
 
   sortOptions = signal<SortOption[]>([
     { value: 'title', label: 'Titre (A-Z)' },
@@ -63,6 +67,7 @@ export class MangasComponent implements OnInit {
   ]);
 
   mangasList = signal<{ [key: string]: Manga[] }>({});
+  readlistMangasList = signal<{ [key: string]: Manga[] }>({});
 
   allMangas = computed<Book[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
@@ -88,8 +93,38 @@ export class MangasComponent implements OnInit {
     }));
   });
 
+  allReadlistMangas = computed<Book[]>(() => {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+
+    const mangas = hasNameParam
+      ? this.readlistMangasList()[params['id']] || []
+      : this.readlistMangasList()['guillaume'];
+
+    return mangas.map((manga) => ({
+      title: manga.title,
+      author: manga.author,
+      rating: manga.rating,
+      readDate: manga.readDate,
+      readTimes: manga.readTimes,
+      coverUrl: manga.coverUrl,
+      pages: manga.pages || 0,
+      genre: manga.genre,
+      saga: '',
+      sagaOrder: 0,
+      nbTomes: manga.nbTomes || 0,
+      isFinished: manga.isFinished || false,
+    }));
+  });
+
+  filteredMangas = computed<Book[]>(() => {
+    return this.selectedView() === 'readlist'
+      ? this.allReadlistMangas()
+      : this.allMangas();
+  });
+
   sortedMangas = computed<Book[]>(() => {
-    const sortedMangas = [...this.allMangas()];
+    const sortedMangas = [...this.filteredMangas()];
     switch (this.selectedSort()) {
       case 'title':
         return sortedMangas.sort((a, b) => a.title.localeCompare(b.title));
@@ -155,9 +190,11 @@ export class MangasComponent implements OnInit {
   stats = computed<StatItem[]>(() => {
     const totalTomes = this.calculateTotalTomes();
     const totalPages = this.calculateTotalPages();
-    const totalTomesRead = getTotalMangaTomesRead(this.allMangas());
-    const totalPagesRead = getTotalMangaPages(this.allMangas());
-    const estimatedReadingTime = getEstimatedMangaReadingTime(this.allMangas());
+    const totalTomesRead = getTotalMangaTomesRead(this.filteredMangas());
+    const totalPagesRead = getTotalMangaPages(this.filteredMangas());
+    const estimatedReadingTime = getEstimatedMangaReadingTime(
+      this.filteredMangas()
+    );
 
     return [
       {
@@ -201,6 +238,10 @@ export class MangasComponent implements OnInit {
     await this.refreshMangas();
   }
 
+  onViewChange(view: 'read' | 'readlist') {
+    this.selectedView.set(view);
+  }
+
   getSelectMangasRoute(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
@@ -225,7 +266,7 @@ export class MangasComponent implements OnInit {
 
   private calculateTotalTomes(): number {
     let total = 0;
-    for (const manga of this.allMangas()) {
+    for (const manga of this.filteredMangas()) {
       if (manga.nbTomes) {
         total += manga.nbTomes;
       }
@@ -235,7 +276,7 @@ export class MangasComponent implements OnInit {
 
   private calculateTotalPages(): number {
     let total = 0;
-    for (const manga of this.allMangas()) {
+    for (const manga of this.filteredMangas()) {
       if (manga.nbTomes) {
         total += manga.nbTomes * PAGES_PER_MANGA_TOME;
       }
@@ -245,8 +286,12 @@ export class MangasComponent implements OnInit {
 
   private async refreshMangas() {
     const userId = this.getActiveUserId();
-    const mangas = await getAllMangas(userId);
+    const [mangas, readlist] = await Promise.all([
+      getAllMangas(userId),
+      getAllReadlistMangas(userId),
+    ]);
     this.mangasList.set(mangas);
+    this.readlistMangasList.set(readlist);
   }
 
   openEditMangaDialog(manga: Manga): void {

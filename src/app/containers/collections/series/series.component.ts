@@ -17,9 +17,12 @@ import {
   getTotalDuration,
 } from '../../../utils/stats.utils';
 import { ActivatedRoute, Params, RouterLink } from '@angular/router';
-import { getAllSeries } from '../../../facades/series/series.facade';
+import {
+  getAllSeries,
+  getAllWatchlistSeries,
+} from '../../../facades/series/series.facade';
 
-type SerieView = 'finished' | 'stopped';
+type SerieView = 'finished' | 'stopped' | 'watchlist';
 
 @Component({
   selector: 'app-series',
@@ -58,6 +61,7 @@ export class SeriesComponent implements OnInit {
   ]);
 
   seriesList = signal<{ [key: string]: Serie[] }>({});
+  watchingSeriesList = signal<{ [key: string]: Serie[] }>({});
 
   allSeries = computed<Serie[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
@@ -67,11 +71,22 @@ export class SeriesComponent implements OnInit {
       : this.seriesList()['guillaume'];
   });
 
+  allWatchlistSeries = computed<Serie[]>(() => {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? this.watchingSeriesList()[params['id']] || []
+      : this.watchingSeriesList()['guillaume'];
+  });
+
   filteredSeries = computed<Serie[]>(() => {
     if (this.selectedView() === 'stopped') {
       return this.allSeries().filter(
         (serie) => serie.stoppedAtSeason && serie.stoppedAtSeason > 0
       );
+    }
+    if (this.selectedView() === 'watchlist') {
+      return this.allWatchlistSeries();
     }
     // 'finished' - séries avec stoppedAtSeason === 0 ou non défini
     return this.allSeries().filter(
@@ -182,8 +197,12 @@ export class SeriesComponent implements OnInit {
 
   async refreshSeries() {
     const userId = this.getActiveUserId();
-    const series = await getAllSeries(userId);
+    const [series, watchlist] = await Promise.all([
+      getAllSeries(userId),
+      getAllWatchlistSeries(userId),
+    ]);
     this.seriesList.set(series);
+    this.watchingSeriesList.set(watchlist);
   }
 
   private getActiveUserId(): string {

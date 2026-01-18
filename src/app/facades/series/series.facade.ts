@@ -1,6 +1,10 @@
 import { Serie, BaseSerie, UserSerie } from '../../models/serie-model';
 
-import { allBaseSeries, getLocalSeriesByUser } from './local-series.facade';
+import {
+  allBaseSeries,
+  getLocalSeriesByUser,
+  getLocalWatchlistByUser,
+} from './local-series.facade';
 import { isLocalhost } from '../../core/config';
 import {
   fetchBaseSeriesFromApi,
@@ -64,6 +68,23 @@ export async function getAllSeries(
   }
 }
 
+export async function getAllWatchlistSeries(
+  currentUserId = 'guillaume'
+): Promise<{ [key: string]: Serie[] }> {
+  if (isLocalhost()) {
+    return {
+      [currentUserId]: await getAllSeriesData(
+        getLocalWatchlistByUser(currentUserId)
+      ),
+    };
+  }
+
+  const watchlist = getLocalWatchlistByUser(currentUserId);
+  return {
+    [currentUserId]: await getAllSeriesData(watchlist),
+  };
+}
+
 export async function getAllBaseSeries(): Promise<BaseSerie[]> {
   if (isLocalhost()) {
     return allBaseSeries;
@@ -106,4 +127,14 @@ export async function getSeriesByUser(userId: string): Promise<Serie[]> {
   } catch {
     return [];
   }
+}
+
+export async function getCurrentWatchlistSeriesByUser(
+  userId: string
+): Promise<Serie[]> {
+  if (isLocalhost()) {
+    return getAllSeriesData(getLocalWatchlistByUser(userId));
+  }
+
+  return getAllSeriesData(getLocalWatchlistByUser(userId));
 }

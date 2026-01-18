@@ -18,7 +18,10 @@ import {
   TimeStats,
 } from '../../../utils/stats.utils';
 import { ActivatedRoute, Params, RouterLink } from '@angular/router';
-import { getAllGames } from '../../../facades/games/games.facade';
+import {
+  getAllGames,
+  getAllGamelistGames,
+} from '../../../facades/games/games.facade';
 
 export function getTotalDuration(items: ItemWithGameLength[]): TimeStats {
   let totalHours = 0;
@@ -79,6 +82,7 @@ export class GamesComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
 
   selectedSort = signal<string>('rating');
+  selectedView = signal<'played' | 'gamelist'>('played');
 
   sortOptions = signal<SortOption[]>([
     { value: 'title', label: 'Titre (A-Z)' },
@@ -96,6 +100,7 @@ export class GamesComponent implements OnInit {
   ]);
 
   gamesList = signal<{ [key: string]: Game[] }>({});
+  gamelistGamesList = signal<{ [key: string]: Game[] }>({});
 
   allGames = computed<Game[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
@@ -105,26 +110,41 @@ export class GamesComponent implements OnInit {
       : this.gamesList()['guillaume'];
   });
 
+  allGamelistGames = computed<Game[]>(() => {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? this.gamelistGamesList()[params['id']] || []
+      : this.gamelistGamesList()['guillaume'];
+  });
+
+  filteredGames = computed<Game[]>(() => {
+    if (this.selectedView() === 'gamelist') {
+      return this.allGamelistGames();
+    }
+    return this.allGames();
+  });
+
   sortedGames = computed<Game[]>(() => {
     switch (this.selectedSort()) {
       case 'title':
-        return this.allGames().sort((a, b) => a.title.localeCompare(b.title));
+        return this.filteredGames().sort((a, b) => a.title.localeCompare(b.title));
       case 'title-desc':
-        return this.allGames().sort((a, b) => b.title.localeCompare(a.title));
+        return this.filteredGames().sort((a, b) => b.title.localeCompare(a.title));
       case 'releaseDate':
-        return this.allGames().sort(
+        return this.filteredGames().sort(
           (a, b) =>
             new Date(b.releaseDate).getTime() -
             new Date(a.releaseDate).getTime()
         );
       case 'releaseDate-asc':
-        return this.allGames().sort(
+        return this.filteredGames().sort(
           (a, b) =>
             new Date(a.releaseDate).getTime() -
             new Date(b.releaseDate).getTime()
         );
       case 'rating':
-        return this.allGames().sort((a, b) => {
+        return this.filteredGames().sort((a, b) => {
           if (b.rating !== a.rating) {
             return b.rating - a.rating;
           }
@@ -137,7 +157,7 @@ export class GamesComponent implements OnInit {
           return totalTimeB - totalTimeA;
         });
       case 'rating-asc':
-        return this.allGames().sort((a, b) => {
+        return this.filteredGames().sort((a, b) => {
           if (a.rating !== b.rating) {
             return a.rating - b.rating;
           }
@@ -150,23 +170,23 @@ export class GamesComponent implements OnInit {
           return totalTimeB - totalTimeA;
         });
       case 'timesFinished':
-        return this.allGames().sort(
+        return this.filteredGames().sort(
           (a, b) => b.timesFinished - a.timesFinished
         );
       case 'timesFinished-asc':
-        return this.allGames().sort(
+        return this.filteredGames().sort(
           (a, b) => a.timesFinished - b.timesFinished
         );
       case 'averageTimeToFinish':
-        return this.allGames().sort(
+        return this.filteredGames().sort(
           (a, b) => b.averageTimeToFinish - a.averageTimeToFinish
         );
       case 'averageTimeToFinish-asc':
-        return this.allGames().sort(
+        return this.filteredGames().sort(
           (a, b) => a.averageTimeToFinish - b.averageTimeToFinish
         );
       case 'totalPlayedTime':
-        return this.allGames().sort((a, b) => {
+        return this.filteredGames().sort((a, b) => {
           const totalTimeA =
             a.averageTimeToFinish * a.timesFinished +
             a.additionnalEstimatedTime;
@@ -176,7 +196,7 @@ export class GamesComponent implements OnInit {
           return totalTimeB - totalTimeA;
         });
       case 'totalPlayedTime-asc':
-        return this.allGames().sort((a, b) => {
+        return this.filteredGames().sort((a, b) => {
           const totalTimeA =
             a.averageTimeToFinish * a.timesFinished +
             a.additionnalEstimatedTime;
@@ -186,14 +206,14 @@ export class GamesComponent implements OnInit {
           return totalTimeA - totalTimeB;
         });
       default:
-        return this.allGames().sort((a, b) => a.title.localeCompare(b.title));
+        return this.filteredGames().sort((a, b) => a.title.localeCompare(b.title));
     }
   });
 
   stats = computed<StatItem[]>(() => {
-    const totalTime = getTotalDuration(this.allGames());
-    const totalPlayTime = getTotalPlayedTime(this.allGames());
-    const totalPlatines = this.allGames().filter(
+    const totalTime = getTotalDuration(this.filteredGames());
+    const totalPlayTime = getTotalPlayedTime(this.filteredGames());
+    const totalPlatines = this.filteredGames().filter(
       (game) => game.platined
     ).length;
 
@@ -225,8 +245,12 @@ export class GamesComponent implements OnInit {
 
   async refreshGames() {
     const userId = this.getActiveUserId();
-    const games = await getAllGames(userId);
+    const [games, gamelist] = await Promise.all([
+      getAllGames(userId),
+      getAllGamelistGames(userId),
+    ]);
     this.gamesList.set(games);
+    this.gamelistGamesList.set(gamelist);
   }
 
   private getActiveUserId(): string {
@@ -236,6 +260,10 @@ export class GamesComponent implements OnInit {
 
   onSortChange(sortValue: string) {
     this.selectedSort.set(sortValue);
+  }
+
+  onViewChange(view: 'played' | 'gamelist') {
+    this.selectedView.set(view);
   }
 
   getSelectGamesRoute(): string {

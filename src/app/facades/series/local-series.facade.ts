@@ -2,11 +2,16 @@ import { baseSeries } from '../../utils/entities/series/base_series';
 import { baseSeriesApi } from '../../utils/entities/series/base_series_api';
 
 import { guillaumeSeries } from '../../utils/users/guillaume/series';
+import { guillaumeWatchListSeries } from '../../utils/users/guillaume/series/guillaume_watchlist_series';
 import { ronanSeries } from '../../utils/users/ronan/series/ronan_series';
+import { ronanWatchListSeries } from '../../utils/users/ronan/series/ronan_watchlist_series';
 import { BaseSerie, UserSerie } from '../../models/serie-model';
 import { kevinSeries } from '../../utils/users/kevin/series/kevin_series';
+import { kevinWatchlistSeries } from '../../utils/users/kevin/series/kevin_watchlist_series';
 import { amandineSeries } from '../../utils/users/amandine/series/amandine_series';
+import { amandineWatchListSeries } from '../../utils/users/amandine/series/amandine_watchlist_series';
 import { williamSeries } from '../../utils/users/william/series/william_series';
+import { williamWatchListSeries } from '../../utils/users/william/series/william_watchlist_series';
 
 export const allBaseSeries: BaseSerie[] = [...baseSeries, ...baseSeriesApi];
 
@@ -22,6 +27,23 @@ export function getLocalSeriesByUser(userId: string): UserSerie[] {
       return [...amandineSeries];
     case 'william':
       return [...williamSeries];
+    default:
+      return [];
+  }
+}
+
+export function getLocalWatchlistByUser(userId: string): UserSerie[] {
+  switch (userId) {
+    case 'guillaume':
+      return [...guillaumeWatchListSeries];
+    case 'ronan':
+      return [...ronanWatchListSeries];
+    case 'kevin':
+      return [...kevinWatchlistSeries];
+    case 'amandine':
+      return [...amandineWatchListSeries];
+    case 'william':
+      return [...williamWatchListSeries];
     default:
       return [];
   }

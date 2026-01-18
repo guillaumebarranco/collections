@@ -4,6 +4,7 @@ const path = require('path');
 const { execFileSync } = require('child_process');
 const {
   normalizeString,
+  normalizeBoolean,
   appendObjectToArrayFile,
   escapeString,
   parseGamesFromFile,
@@ -55,7 +56,18 @@ function formatUserGame(game: any): string {
   },`;
 }
 
-function getUserGamesTargetFile(userId: string): string {
+function formatGamelistGame(game: any): string {
+  return `  {
+    title: '${escapeString(game.title)}',
+    editor: '${escapeString(game.editor)}',
+    rating: 0,
+    timesFinished: 0,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },`;
+}
+
+function getUserGamesTargetFile(userId: string, isGamelist: boolean): string {
   const userDir = path.join(
     __dirname,
     '..',
@@ -75,10 +87,14 @@ function getUserGamesTargetFile(userId: string): string {
   const files = fs
     .readdirSync(userDir)
     .filter((file: string) => file.endsWith('.ts') && file !== 'index.ts')
-    .filter((file: string) => !file.includes('gamelist'));
+    .filter((file: string) =>
+      isGamelist ? file.includes('gamelist') : !file.includes('gamelist')
+    );
 
   const preferred = files.find((file: string) =>
-    file.includes(`${userId}_games`)
+    isGamelist
+      ? file.includes(`${userId}_gamelist_games`)
+      : file.includes(`${userId}_games`)
   );
   const selected = preferred || files.sort()[0];
   if (!selected) {
@@ -101,6 +117,7 @@ router.post('/add-existing', (req: any, res: any) => {
 
     ensureUserExists(userId);
 
+    const isGamelist = normalizeBoolean(input.gamelist, 'gamelist') ?? false;
     const normalizedGames = games
       .map((game: any) => ({
         title: normalizeString(game.title, 'title'),
@@ -140,10 +157,11 @@ router.post('/add-existing', (req: any, res: any) => {
       return;
     }
 
-    const filePath = getUserGamesTargetFile(userId);
+    const filePath = getUserGamesTargetFile(userId, isGamelist);
     let updatedContent = fs.readFileSync(filePath, 'utf8');
+    const formatGame = isGamelist ? formatGamelistGame : formatUserGame;
     for (const game of toAdd) {
-      updatedContent = appendObjectToArrayFile(filePath, formatUserGame(game));
+      updatedContent = appendObjectToArrayFile(filePath, formatGame(game));
       fs.writeFileSync(filePath, updatedContent, 'utf8');
     }
 

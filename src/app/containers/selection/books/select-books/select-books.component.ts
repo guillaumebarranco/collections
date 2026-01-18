@@ -75,7 +75,9 @@ export class SelectBooksComponent
     }
 
     return allBooksList.filter(
-      (book) => !this.readBooks().has(this.getBookKey(book))
+      (book) =>
+        !this.readBooks().has(this.getBookKey(book)) &&
+        !this.alreadyInReadlistBooks().has(this.getBookKey(book))
     );
   });
 
