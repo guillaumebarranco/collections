@@ -5,16 +5,17 @@ import {
   getLocalBooksByUser,
   getLocalReadlistByUser,
 } from './local-books.facade';
-import { DEFAULT_USER_IDS, isLocalhost } from '../../core/config';
+import { isLocalhost } from '../../core/config';
 import {
   fetchBaseBooksFromApi,
   fetchUserBooksFromApi,
 } from './api-books.facade';
 
-function getAllBooksData(books: UserBook[]): Book[] {
+async function getAllBooksData(books: UserBook[]): Promise<Book[]> {
+  const baseBooks = await getAllBaseBooks();
+
   return books.map((book: UserBook) => {
-    const baseBooks = getAllBaseBooks();
-    const matchingBaseBook = allBaseBooks.filter(
+    const matchingBaseBook = baseBooks.filter(
       (baseBook: BaseBook) => baseBook.title === book.title
     );
 
@@ -58,14 +59,16 @@ export async function getAllBooks(
 ): Promise<{ [key: string]: Book[] }> {
   if (isLocalhost()) {
     return {
-      [currentUserId]: getAllBooksData(getLocalBooksByUser(currentUserId)),
+      [currentUserId]: await getAllBooksData(
+        getLocalBooksByUser(currentUserId)
+      ),
     };
   }
 
   try {
     const userBooks = await fetchUserBooksFromApi(currentUserId);
     return {
-      [currentUserId]: getAllBooksData(userBooks),
+      [currentUserId]: await getAllBooksData(userBooks),
     };
   } catch {
     return {
@@ -79,13 +82,15 @@ export async function getAllReadlistBooks(
 ): Promise<{ [key: string]: Book[] }> {
   if (isLocalhost()) {
     return {
-      [currentUserId]: getAllBooksData(getLocalReadlistByUser(currentUserId)),
+      [currentUserId]: await getAllBooksData(
+        getLocalReadlistByUser(currentUserId)
+      ),
     };
   }
 
   const readlist = getLocalReadlistByUser(currentUserId);
   return {
-    [currentUserId]: getAllBooksData(readlist),
+    [currentUserId]: await getAllBooksData(readlist),
   };
 }
 
