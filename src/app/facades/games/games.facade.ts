@@ -70,9 +70,10 @@ export async function getAllBaseGames(): Promise<BaseGame[]> {
   }
 
   try {
-    return await fetchBaseGamesFromApi();
+    const apiGames = await fetchBaseGamesFromApi();
+    return apiGames.length ? apiGames : allBaseGames;
   } catch {
-    return [];
+    return allBaseGames;
   }
 }
 

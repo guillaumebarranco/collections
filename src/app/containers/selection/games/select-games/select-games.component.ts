@@ -3,13 +3,12 @@ import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../../components/menu/menu.component';
 import { Game } from '../../../../models/game-model';
 import {
-  getAllGamesMerged,
+  getAllBaseGames,
   getGamesByUser,
 } from '../../../../facades/games/games.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddGameComponent } from '../../../add/add-game/add-game.component';
-import { isLocalhost, getApiBaseUrl } from '../../../../core/config';
 import { Router } from '@angular/router';
 
 @Component({
@@ -97,20 +96,8 @@ export class SelectGamesComponent
     this.allGamesMergedList.set(allGames);
   }
 
-  private async getAllGamesForSelection(userId: string): Promise<Game[]> {
-    if (isLocalhost()) {
-      return getAllGamesMerged(userId);
-    }
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/games/entities`);
-      if (!response.ok) {
-        return [];
-      }
-      const data = await response.json();
-      return Array.isArray(data) ? data : [];
-    } catch {
-      return [];
-    }
+  private async getAllGamesForSelection(_userId: string): Promise<Game[]> {
+    return getAllBaseGames();
   }
 
   protected async addSelectedGames(): Promise<void> {
