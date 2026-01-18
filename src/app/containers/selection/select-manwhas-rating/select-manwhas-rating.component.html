@@ -1,15 +1,15 @@
 <app-menu></app-menu>
 
-<div class="select-games-rating-container">
+<div class="select-manwhas-rating-container">
   <div class="header">
-    <h1>Mettre à jour les notes de mes jeux</h1>
+    <h1>Mettre à jour les notes de mes manwhas</h1>
 
     <div class="selection-description">
       <p>
         Bonjour {{ username() }} 👋 <br /><br />
-        Sur cette page, tu peux mettre à jour la note de chaque jeu de ta
+        Sur cette page, tu peux mettre à jour la note de chaque manwha de ta
         collection. <br /><br />
-        Passe ta souris sur un jeu pour voir les options de notes disponibles
+        Passe ta souris sur un manwha pour voir les options de notes disponibles
         et clique sur la note correspondante. <br /><br />
         Une fois que tu as terminé, clique sur "Enregistrer mes notes" pour
         appliquer les changements.
@@ -19,39 +19,36 @@
 
   <div class="toolbar">
     <div class="selection-info">
-      <span class="count">{{ modifiedCount() }} jeu(x) modifié(s)</span>
-      <span class="total">sur {{ allGames().length }}</span>
+      <span class="count">{{ modifiedCount() }} manwha(s) modifié(s)</span>
+      <span class="total">sur {{ allManwhas().length }}</span>
     </div>
 
     <div class="actions">
       <button
         class="btn btn-primary"
-        (click)="saveGamesRatings()"
-        [disabled]="allGames().length === 0 || isSaving()"
+        (click)="saveManwhasRatings()"
+        [disabled]="allManwhas().length === 0 || isSaving()"
       >
         ✅ Enregistrer mes notes ({{ modifiedCount() }})
       </button>
     </div>
   </div>
 
-  <div class="games-grid">
-    @for (game of allGames(); track `${game.title}-${game.releaseDate}`) {
-    <div
-      class="game-cover"
-      [title]="game.title + ' (' + game.releaseDate.substring(0, 4) + ')'"
-    >
-      <img [src]="game.coverUrl" [alt]="game.title" />
+  <div class="manwhas-grid">
+    @for (manwha of allManwhas(); track `${manwha.title}-${manwha.author}`) {
+    <div class="manwha-cover" [title]="manwha.title + ' - ' + manwha.author">
+      <img [src]="manwha.coverUrl" [alt]="manwha.title" />
       <div class="overlay">
-        <div class="game-info">
-          <span class="game-title">{{ game.title }}</span>
-          <span class="game-editor">{{ game.editor }}</span>
+        <div class="manwha-info">
+          <span class="manwha-title">{{ manwha.title }}</span>
+          <span class="manwha-author">{{ manwha.author }}</span>
           <div class="current-rating">
             <span class="rating-label">Note actuelle :</span>
             <div class="stars-display">
-              @for (star of getRatingStars(getRating(game)); track star.value) {
+              @for (star of getRatingStars(getRating(manwha)); track star.value) {
               <span [class]="'star star-' + star.type"></span>
               }
-              <span class="rating-value">{{ getRating(game) }}</span>
+              <span class="rating-value">{{ getRating(manwha) }}</span>
             </div>
           </div>
         </div>
@@ -59,8 +56,8 @@
           @for (rating of ratingOptions; track rating) {
           <button
             class="rating-btn"
-            [class.active]="getRating(game) === rating"
-            (click)="updateRating(game, rating); $event.stopPropagation()"
+            [class.active]="getRating(manwha) === rating"
+            (click)="updateRating(manwha, rating); $event.stopPropagation()"
             (mousedown)="$event.stopPropagation()"
           >
             {{ rating }}

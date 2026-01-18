@@ -15,6 +15,27 @@
   </div>
   }
 
+  @if(allManwhas().length !== 0) {
+  <div class="manwhas-header-top">
+    <div class="manwhas-actions">
+      <button
+        class="btn btn-small"
+        [routerLink]="getSelectManwhasRoute()"
+        title="Ajouter des manwhas"
+      >
+        ➕ Ajouter des manwhas
+      </button>
+      <button
+        class="btn btn-small"
+        [routerLink]="getSelectManwhasRatingRoute()"
+        title="Mettre à jour les notes de mes manwhas"
+      >
+        ⭐ Notes
+      </button>
+    </div>
+  </div>
+  }
+
   <div class="manwhas-header">
     <app-stats-display
       [stats]="stats()"

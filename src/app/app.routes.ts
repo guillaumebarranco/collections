@@ -16,7 +16,9 @@ import { SelectSeriesComponent } from './containers/selection/series/select-seri
 import { SelectSeriesRatingComponent } from './containers/selection/series/select-series-rating/select-series-rating.component';
 import { SelectSeriesTimesWatchedComponent } from './containers/selection/series/select-series-times-watched/select-series-times-watched.component';
 import { SelectMangasComponent } from './containers/selection/select-mangas/select-mangas.component';
+import { SelectMangasRatingComponent } from './containers/selection/select-mangas-rating/select-mangas-rating.component';
 import { SelectManwhasComponent } from './containers/selection/select-manwhas/select-manwhas.component';
+import { SelectManwhasRatingComponent } from './containers/selection/select-manwhas-rating/select-manwhas-rating.component';
 import { SelectGamesComponent } from './containers/selection/games/select-games/select-games.component';
 import { SelectGamesRatingComponent } from './containers/selection/games/select-games-rating/select-games-rating.component';
 import { SelectGamesTimesFinishedComponent } from './containers/selection/games/select-games-times-finished/select-games-times-finished.component';
@@ -95,8 +97,16 @@ export const routes: Routes = [
     component: SelectMangasComponent,
   },
   {
+    path: 'select-mangas-rating',
+    component: SelectMangasRatingComponent,
+  },
+  {
     path: 'select-manwhas',
     component: SelectManwhasComponent,
+  },
+  {
+    path: 'select-manwhas-rating',
+    component: SelectManwhasRatingComponent,
   },
   {
     path: 'select-games',
@@ -235,8 +245,16 @@ export const routes: Routes = [
         component: SelectMangasComponent,
       },
       {
+        path: 'select-mangas-rating',
+        component: SelectMangasRatingComponent,
+      },
+      {
         path: 'select-manwhas',
         component: SelectManwhasComponent,
+      },
+      {
+        path: 'select-manwhas-rating',
+        component: SelectManwhasRatingComponent,
       },
       {
         path: 'select-games',

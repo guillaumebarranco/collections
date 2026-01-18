@@ -4,7 +4,7 @@ import { MenuComponent } from '../../../../components/menu/menu.component';
 import { Game } from '../../../../models/game-model';
 import { getGamesByUser } from '../../../../facades/games/games.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
-import { isLocalhost } from '../../../../core/config';
+import { getApiBaseUrl } from '../../../../core/config';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -21,6 +21,7 @@ export class SelectGamesRatingComponent
   extends SelectEntitiesComponent
   implements OnInit
 {
+  isSaving = signal(false);
   allGames = signal<Game[]>([]);
 
   gamesRatings = signal<Map<string, number>>(new Map());
@@ -65,29 +66,46 @@ export class SelectGamesRatingComponent
     return stars;
   }
 
-  async exportGamesRatings(): Promise<void> {
-    const gamesToExport = this.allGames().map((game) => {
-      const key = this.getGameKey(game);
-      const updatedRating = this.gamesRatings().get(key);
+  async saveGamesRatings(): Promise<void> {
+    if (this.isSaving()) return;
 
-      return {
-        title: game.title,
-        editor: game.editor,
-        rating: updatedRating !== undefined ? updatedRating : game.rating,
-      };
-    });
+    const gamesToUpdate = this.allGames().map((game) => ({
+      title: game.title,
+      editor: game.editor,
+      rating: this.getRating(game),
+    }));
 
-    if (gamesToExport.length === 0) {
-      alert('Aucun jeu a exporter !');
+    if (gamesToUpdate.length === 0) {
+      alert('Aucun jeu à mettre à jour !');
       return;
     }
 
-    if (isLocalhost()) {
-      this.exportJson(gamesToExport, 'my-games-rating');
-      return;
-    }
+    this.isSaving.set(true);
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/games/batch-rating`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          userId: this.userId(),
+          games: gamesToUpdate,
+        }),
+      });
 
-    await this.saveGamesPayload(gamesToExport);
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        console.warn('games:batch-rating:error', payload);
+        alert("La mise à jour des notes a échoué.");
+        return;
+      }
+
+      this.gamesRatings.set(new Map());
+      await this.refreshGames();
+    } catch (error) {
+      console.warn('games:batch-rating:error', error);
+      alert("La mise à jour des notes a échoué.");
+    } finally {
+      this.isSaving.set(false);
+    }
   }
 
   ngOnInit() {
@@ -99,42 +117,5 @@ export class SelectGamesRatingComponent
     this.allGames.set(games);
   }
 
-  private getApiUrl(): string {
-    return document.location.origin.includes('localhost')
-      ? `http://localhost:3001/api`
-      : 'https://makya.webarranco.fr/api';
-  }
-
-  private exportJson(payload: object[], prefix: string) {
-    const jsonContent = JSON.stringify(payload, null, 2);
-    const fileName = `${prefix}-${this.userId()}-${new Date().getTime()}.json`;
-    const blob = new Blob([jsonContent], { type: 'application/json' });
-    const url = window.URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = fileName;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    window.URL.revokeObjectURL(url);
-  }
-
-  private async saveGamesPayload(payload: object[]) {
-    const response = await fetch(`${this.getApiUrl()}/games`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        userId: this.userId(),
-        games: payload,
-      }),
-    });
-
-    if (!response.ok) {
-      alert("Erreur lors de l'enregistrement.");
-      return;
-    }
-
-    this.gamesRatings.set(new Map());
-    await this.refreshGames();
-  }
+  // sauvegarde centralisée dans saveGamesRatings
 }

@@ -4,6 +4,7 @@ import { MenuComponent } from '../../../../components/menu/menu.component';
 import { Serie } from '../../../../models/serie-model';
 import { getSeriesByUser } from '../../../../facades/series/series.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
+import { getApiBaseUrl } from '../../../../core/config';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -24,6 +25,7 @@ export class SelectSeriesRatingComponent
   implements OnInit
 {
   private isLoading = false;
+  isSaving = signal(false);
 
   seriesList = signal<Serie[]>([]);
 
@@ -82,42 +84,48 @@ export class SelectSeriesRatingComponent
   }
 
   // Exporter les sÃ©ries avec leur rating mis Ã  jour
-  exportSeriesRatings(): void {
-    const seriesToExport = this.allSeries().map((serie) => {
-      const key = this.getSerieKey(serie);
-      const updatedRating = this.seriesRatings().get(key);
+  async saveSeriesRatings(): Promise<void> {
+    if (this.isSaving()) return;
 
-      return {
-        title: serie.title,
-        director: serie.director,
-        rating: updatedRating !== undefined ? updatedRating : serie.rating,
-      };
-    });
+    const seriesToUpdate = this.allSeries().map((serie) => ({
+      title: serie.title,
+      director: serie.director,
+      rating: this.getRating(serie),
+    }));
 
-    if (seriesToExport.length === 0) {
-      alert('Aucune sÃ©rie Ã  exporter !');
+    if (seriesToUpdate.length === 0) {
+      alert('Aucune série à mettre à jour !');
       return;
     }
 
-    const jsonContent = JSON.stringify(seriesToExport, null, 2);
-    const fileName = `my-series-rating-${this.userId()}-${new Date().getTime()}.json`;
+    this.isSaving.set(true);
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/series/batch-rating`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.userId(),
+          series: seriesToUpdate,
+        }),
+      });
 
-    // CrÃ©er un blob
-    const blob = new Blob([jsonContent], { type: 'application/json' });
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        console.warn('series:batch-rating:error', payload);
+        alert("La mise à jour des notes a échoué.");
+        return;
+      }
 
-    // CrÃ©er un lien de tÃ©lÃ©chargement
-    const url = window.URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = fileName;
-
-    // TÃ©lÃ©charger le fichier
-    document.body.appendChild(link);
-    link.click();
-
-    // Nettoyer
-    document.body.removeChild(link);
-    window.URL.revokeObjectURL(url);
+      this.seriesRatings.set(new Map());
+      await this.loadSeriesData();
+    } catch (error) {
+      console.warn('series:batch-rating:error', error);
+      alert("La mise à jour des notes a échoué.");
+    } finally {
+      this.isSaving.set(false);
+    }
   }
 
   ngOnInit() {

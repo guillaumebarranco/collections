@@ -5,6 +5,7 @@ import { Movie } from '../../../../models/movie-model';
 import { Params, ActivatedRoute } from '@angular/router';
 import { getMoviesByUser } from '../../../../facades/movies/movies.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
+import { getApiBaseUrl } from '../../../../core/config';
 
 @Component({
   selector: 'app-select-movies-times-watched',
@@ -20,6 +21,7 @@ export class SelectMoviesTimesWatchedComponent
   implements OnInit
 {
   private isLoading = false;
+  isSaving = signal(false);
 
   moviesList = signal<Movie[]>([]);
 
@@ -62,46 +64,51 @@ export class SelectMoviesTimesWatchedComponent
     }).length;
   });
 
-  // Exporter les films avec leur timesWatched mis à jour
-  exportMoviesTimesWatched(): void {
-    const moviesToExport = this.allMovies().map((movie) => {
-      const key = this.getMovieKey(movie);
-      const updatedTimesWatched = this.moviesTimesWatched().get(key);
+  async saveMoviesTimesWatched(): Promise<void> {
+    if (this.isSaving()) return;
 
-      return {
-        title: movie.title,
-        director: movie.director,
-        timesWatched:
-          updatedTimesWatched !== undefined
-            ? updatedTimesWatched
-            : movie.timesWatched,
-      };
-    });
+    const moviesToUpdate = this.allMovies().map((movie) => ({
+      title: movie.title,
+      director: movie.director,
+      timesWatched: this.getTimesWatched(movie),
+    }));
 
-    if (moviesToExport.length === 0) {
-      alert('Aucun film à exporter !');
+    if (moviesToUpdate.length === 0) {
+      alert('Aucun film à mettre à jour !');
       return;
     }
 
-    const jsonContent = JSON.stringify(moviesToExport, null, 2);
-    const fileName = `my-movies-times-watched-${this.userId()}-${new Date().getTime()}.json`;
+    this.isSaving.set(true);
+    try {
+      const response = await fetch(
+        `${getApiBaseUrl()}/movies/batch-times-watched`,
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            userId: this.userId(),
+            movies: moviesToUpdate,
+          }),
+        }
+      );
 
-    // Créer un blob
-    const blob = new Blob([jsonContent], { type: 'application/json' });
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        console.warn('movies:batch-times-watched:error', payload);
+        alert("La mise à jour des visionnages a échoué.");
+        return;
+      }
 
-    // Créer un lien de téléchargement
-    const url = window.URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = fileName;
-
-    // Télécharger le fichier
-    document.body.appendChild(link);
-    link.click();
-
-    // Nettoyer
-    document.body.removeChild(link);
-    window.URL.revokeObjectURL(url);
+      this.moviesTimesWatched.set(new Map());
+      await this.loadMoviesData();
+    } catch (error) {
+      console.warn('movies:batch-times-watched:error', error);
+      alert("La mise à jour des visionnages a échoué.");
+    } finally {
+      this.isSaving.set(false);
+    }
   }
 
   ngOnInit() {

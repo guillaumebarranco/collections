@@ -4,6 +4,7 @@ import { MenuComponent } from '../../../../components/menu/menu.component';
 import { Movie } from '../../../../models/movie-model';
 import { getMoviesByUser } from '../../../../facades/movies/movies.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
+import { getApiBaseUrl } from '../../../../core/config';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -24,6 +25,7 @@ export class SelectMoviesRatingComponent
   implements OnInit
 {
   private isLoading = false;
+  isSaving = signal(false);
 
   moviesList = signal<Movie[]>([]);
 
@@ -81,43 +83,49 @@ export class SelectMoviesRatingComponent
     return stars;
   }
 
-  // Exporter les films avec leur rating mis à jour
-  exportMoviesRatings(): void {
-    const moviesToExport = this.allMovies().map((movie) => {
-      const key = this.getMovieKey(movie);
-      const updatedRating = this.moviesRatings().get(key);
+  // Enregistrer les ratings modifiés via l'API
+  async saveMoviesRatings(): Promise<void> {
+    if (this.isSaving()) return;
 
-      return {
-        title: movie.title,
-        director: movie.director,
-        rating: updatedRating !== undefined ? updatedRating : movie.rating,
-      };
-    });
+    const moviesToUpdate = this.allMovies().map((movie) => ({
+      title: movie.title,
+      director: movie.director,
+      rating: this.getRating(movie),
+    }));
 
-    if (moviesToExport.length === 0) {
-      alert('Aucun film à exporter !');
+    if (moviesToUpdate.length === 0) {
+      alert('Aucun film à mettre à jour !');
       return;
     }
 
-    const jsonContent = JSON.stringify(moviesToExport, null, 2);
-    const fileName = `my-movies-rating-${this.userId()}-${new Date().getTime()}.json`;
+    this.isSaving.set(true);
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/movies/batch-rating`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.userId(),
+          movies: moviesToUpdate,
+        }),
+      });
 
-    // Créer un blob
-    const blob = new Blob([jsonContent], { type: 'application/json' });
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        console.warn('movies:batch-rating:error', payload);
+        alert("La mise à jour des notes a échoué.");
+        return;
+      }
 
-    // Créer un lien de téléchargement
-    const url = window.URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = fileName;
-
-    // Télécharger le fichier
-    document.body.appendChild(link);
-    link.click();
-
-    // Nettoyer
-    document.body.removeChild(link);
-    window.URL.revokeObjectURL(url);
+      this.moviesRatings.set(new Map());
+      await this.loadMoviesData();
+    } catch (error) {
+      console.warn('movies:batch-rating:error', error);
+      alert("La mise à jour des notes a échoué.");
+    } finally {
+      this.isSaving.set(false);
+    }
   }
 
   ngOnInit() {

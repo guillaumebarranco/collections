@@ -3,6 +3,7 @@ const getBooksRouter = require('./get-books');
 const getEntitiesRouter = require('./get-entities');
 const saveBookRouter = require('./save-book');
 const batchRatingRouter = require('./batch-rating');
+const batchTimesReadRouter = require('./batch-times-read');
 const addBookRouter = require('./add-book');
 const addExistingRouter = require('./add-existing');
 
@@ -12,6 +13,7 @@ router.use(getEntitiesRouter);
 router.use(getBooksRouter);
 router.use(saveBookRouter);
 router.use(batchRatingRouter);
+router.use(batchTimesReadRouter);
 router.use(addBookRouter);
 router.use(addExistingRouter);
 

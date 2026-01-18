@@ -33,8 +33,8 @@ export interface ItemWithGameLength {
   platineTime: number;
 }
 
-// Estimation : 2 minutes par page en moyenne
-export const MINUTES_PER_PAGE = 2;
+// Estimation : 1 minute 30s par page en moyenne
+export const MINUTES_PER_PAGE = 1.5;
 // Estimation : 200 pages par tome de manga en moyenne
 export const PAGES_PER_MANGA_TOME = 200;
 export const PAGES_PER_MANWHA_CHAPTER = 30;

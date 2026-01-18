@@ -199,6 +199,14 @@ export class ManwhasComponent implements OnInit {
     return hasNameParam ? `/${params['id']}/select-manwhas` : '/select-manwhas';
   }
 
+  getSelectManwhasRatingRoute(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? `/${params['id']}/select-manwhas-rating`
+      : '/select-manwhas-rating';
+  }
+
   private calculateTotalChapters(): number {
     let total = 0;
     for (const manwha of this.allManwhas()) {

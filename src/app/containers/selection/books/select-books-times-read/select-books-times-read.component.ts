@@ -4,6 +4,7 @@ import { MenuComponent } from '../../../../components/menu/menu.component';
 import { Book } from '../../../../models/book-model';
 import { getBooksByUser } from '../../../../facades/books/books.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
+import { getApiBaseUrl } from '../../../../core/config';
 
 @Component({
   selector: 'app-select-books-times-read',
@@ -19,6 +20,7 @@ export class SelectBooksTimesReadComponent
   implements OnInit
 {
   private isLoading = false;
+  isSaving = signal(false);
 
   booksList = signal<Book[]>([]);
 
@@ -62,44 +64,48 @@ export class SelectBooksTimesReadComponent
     }).length;
   });
 
-  // Exporter les livres avec leur readTimes mis à jour
-  exportBooksTimesRead(): void {
-    const booksToExport = this.allBooks().map((book) => {
-      const key = this.getBookKey(book);
-      const updatedTimesRead = this.booksTimesRead().get(key);
-      const original = book.readTimes ?? 0;
+  async saveBooksTimesRead(): Promise<void> {
+    if (this.isSaving()) return;
 
-      return {
-        title: book.title,
-        author: book.author,
-        readTimes: updatedTimesRead !== undefined ? updatedTimesRead : original,
-      };
-    });
+    const booksToUpdate = this.allBooks().map((book) => ({
+      title: book.title,
+      author: book.author,
+      readTimes: this.getTimesRead(book),
+    }));
 
-    if (booksToExport.length === 0) {
-      alert('Aucun livre à exporter !');
+    if (booksToUpdate.length === 0) {
+      alert('Aucun livre à mettre à jour !');
       return;
     }
 
-    const jsonContent = JSON.stringify(booksToExport, null, 2);
-    const fileName = `my-books-times-read-${this.userId()}-${new Date().getTime()}.json`;
+    this.isSaving.set(true);
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/books/batch-times-read`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.userId(),
+          books: booksToUpdate,
+        }),
+      });
 
-    // Créer un blob
-    const blob = new Blob([jsonContent], { type: 'application/json' });
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        console.warn('books:batch-times-read:error', payload);
+        alert("La mise à jour du nombre de lectures a échoué.");
+        return;
+      }
 
-    // Créer un lien de téléchargement
-    const url = window.URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = fileName;
-
-    // Télécharger le fichier
-    document.body.appendChild(link);
-    link.click();
-
-    // Nettoyer
-    document.body.removeChild(link);
-    window.URL.revokeObjectURL(url);
+      this.booksTimesRead.set(new Map());
+      await this.loadBooksData();
+    } catch (error) {
+      console.warn('books:batch-times-read:error', error);
+      alert("La mise à jour du nombre de lectures a échoué.");
+    } finally {
+      this.isSaving.set(false);
+    }
   }
 
   ngOnInit() {

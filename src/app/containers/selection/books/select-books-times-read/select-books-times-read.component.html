@@ -11,8 +11,8 @@
         chaque livre de ta collection. <br /><br />
         Passe ta souris sur un livre pour voir les options de lectures
         disponibles et clique sur le nombre correspondant. <br /><br />
-        Une fois que tu as terminé, clique sur le bouton "Exporter" pour
-        télécharger le fichier JSON avec tes mises à jour.
+        Une fois que tu as terminé, clique sur "Enregistrer mes lectures" pour
+        appliquer les changements.
       </p>
     </div>
   </div>
@@ -26,10 +26,10 @@
     <div class="actions">
       <button
         class="btn btn-primary"
-        (click)="exportBooksTimesRead()"
-        [disabled]="allBooks().length === 0"
+        (click)="saveBooksTimesRead()"
+        [disabled]="allBooks().length === 0 || isSaving()"
       >
-        📥 Exporter mes livres avec readTimes ({{ allBooks().length }})
+        ✅ Enregistrer mes lectures ({{ modifiedCount() }})
       </button>
     </div>
   </div>
