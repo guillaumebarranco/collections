@@ -9,13 +9,6 @@ export const guillaumeManwhas: UserManwha[] = [
     readTimes: 2,
   },
   {
-    title: 'Kubera',
-    author: '',
-    readDate: '16/04/2016',
-    rating: 2.75,
-    readTimes: 1,
-  },
-  {
     title: 'Red Storm',
     author: 'Cyungchan Noh',
     readDate: '16/04/2016',
@@ -34,14 +27,14 @@ export const guillaumeManwhas: UserManwha[] = [
     author: 'Slave In Utero',
     readDate: '16/04/2016',
     rating: 4.5,
-    readTimes: 3,
+    readTimes: 2,
   },
   {
-    title: "Girls of The Wild's",
+    title: 'Girls of The Wild\'s',
     author: 'Hun',
     readDate: '16/04/2016',
     rating: 3.5,
-    readTimes: 2,
+    readTimes: 25,
   },
   {
     title: 'DICE: The Cube that Changes Everything',
@@ -105,5 +98,5 @@ export const guillaumeManwhas: UserManwha[] = [
     readDate: '',
     rating: 4.25,
     readTimes: 3,
-  },
+  }
 ];

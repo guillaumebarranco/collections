@@ -19,7 +19,12 @@ import { getApiBaseUrl } from '../../../../core/config';
 
 @Component({
   selector: 'app-select-books',
-  imports: [CommonModule, MenuComponent, MatDialogModule, SelectEntityComponent],
+  imports: [
+    CommonModule,
+    MenuComponent,
+    MatDialogModule,
+    SelectEntityComponent,
+  ],
   templateUrl: './select-books.component.html',
   styleUrls: ['./select-books.component.scss', '../../select-base.scss'],
 })
@@ -28,7 +33,6 @@ export class SelectBooksComponent
   implements OnInit
 {
   private readonly dialog = inject(MatDialog);
-  private router = inject(Router);
 
   baseBooks = signal<BaseBook[]>([]);
   userBooks = signal<Book[]>([]);

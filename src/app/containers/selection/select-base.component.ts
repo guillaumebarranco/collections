@@ -1,11 +1,12 @@
 import { Component, computed, inject } from '@angular/core';
-import { Params, ActivatedRoute } from '@angular/router';
+import { Params, ActivatedRoute, Router } from '@angular/router';
 @Component({
   selector: 'app-select-entities',
   template: '',
 })
 export class SelectEntitiesComponent {
   activatedRoute = inject(ActivatedRoute);
+  router = inject(Router);
 
   // Mode watchlist détecté depuis query params
   isWatchOrReadlistMode = computed<boolean>(() => {
@@ -44,4 +45,14 @@ export class SelectEntitiesComponent {
   username = computed<string>(() => {
     return this.userId().charAt(0).toUpperCase() + this.userId().slice(1);
   });
+
+  protected getEntityListRoute(entity: string): string[] {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam ? ['/', params['id'], entity] : ['/', entity];
+  }
+
+  protected navigateToEntityList(entity: string): void {
+    this.router.navigate(this.getEntityListRoute(entity));
+  }
 }

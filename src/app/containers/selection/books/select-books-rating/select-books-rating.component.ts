@@ -115,8 +115,7 @@ export class SelectBooksRatingComponent
         return;
       }
 
-      this.booksRatings.set(new Map());
-      await this.loadBooksData();
+      this.navigateToEntityList('books');
     } catch (error) {
       console.warn('books:batch-rating:error', error);
       alert("La mise à jour des notes a échoué.");

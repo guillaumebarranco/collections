@@ -85,8 +85,7 @@ export class SelectGamesTimesFinishedComponent
         return;
       }
 
-      this.gamesTimesFinished.set(new Map());
-      await this.refreshGames();
+      this.navigateToEntityList('games');
     } catch (error) {
       console.warn('games:batch-times-finished:error', error);
       alert("La mise à jour des jeux a échoué.");

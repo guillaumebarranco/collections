@@ -91,8 +91,7 @@ export class SelectManwhasTimesReadComponent
         return;
       }
 
-      this.manwhasTimesRead.set(new Map());
-      await this.loadManwhasData();
+      this.navigateToEntityList('manwhas');
     } catch (error) {
       console.warn('manwhas:batch-times-read:error', error);
       alert("La mise à jour des lectures a échoué.");

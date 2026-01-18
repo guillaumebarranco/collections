@@ -98,8 +98,7 @@ export class SelectGamesRatingComponent
         return;
       }
 
-      this.gamesRatings.set(new Map());
-      await this.refreshGames();
+      this.navigateToEntityList('games');
     } catch (error) {
       console.warn('games:batch-rating:error', error);
       alert("La mise à jour des notes a échoué.");

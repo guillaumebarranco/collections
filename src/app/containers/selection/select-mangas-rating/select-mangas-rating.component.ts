@@ -106,8 +106,7 @@ export class SelectMangasRatingComponent
         return;
       }
 
-      this.mangasRatings.set(new Map());
-      await this.loadMangasData();
+      this.navigateToEntityList('mangas');
     } catch (error) {
       console.warn('mangas:batch-rating:error', error);
       alert("La mise à jour des notes a échoué.");

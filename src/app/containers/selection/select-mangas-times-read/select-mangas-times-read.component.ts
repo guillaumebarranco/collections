@@ -88,8 +88,7 @@ export class SelectMangasTimesReadComponent
         return;
       }
 
-      this.mangasTimesRead.set(new Map());
-      await this.loadMangasData();
+      this.navigateToEntityList('mangas');
     } catch (error) {
       console.warn('mangas:batch-times-read:error', error);
       alert("La mise à jour des lectures a échoué.");

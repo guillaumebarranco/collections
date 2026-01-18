@@ -101,8 +101,7 @@ export class SelectMoviesTimesWatchedComponent
         return;
       }
 
-      this.moviesTimesWatched.set(new Map());
-      await this.loadMoviesData();
+      this.navigateToEntityList('movies');
     } catch (error) {
       console.warn('movies:batch-times-watched:error', error);
       alert("La mise à jour des visionnages a échoué.");

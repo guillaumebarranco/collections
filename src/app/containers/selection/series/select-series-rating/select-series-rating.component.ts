@@ -118,8 +118,7 @@ export class SelectSeriesRatingComponent
         return;
       }
 
-      this.seriesRatings.set(new Map());
-      await this.loadSeriesData();
+      this.navigateToEntityList('series');
     } catch (error) {
       console.warn('series:batch-rating:error', error);
       alert("La mise à jour des notes a échoué.");

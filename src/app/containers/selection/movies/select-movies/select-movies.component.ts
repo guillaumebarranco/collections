@@ -30,7 +30,6 @@ export class SelectMoviesComponent
   implements OnInit
 {
   private readonly dialog = inject(MatDialog);
-  private router = inject(Router);
 
   userMovies = signal<Movie[]>([]);
   watchlistMovies = signal<Movie[]>([]);

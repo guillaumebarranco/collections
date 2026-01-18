@@ -98,8 +98,7 @@ export class SelectBooksTimesReadComponent
         return;
       }
 
-      this.booksTimesRead.set(new Map());
-      await this.loadBooksData();
+      this.navigateToEntityList('books');
     } catch (error) {
       console.warn('books:batch-times-read:error', error);
       alert("La mise à jour du nombre de lectures a échoué.");

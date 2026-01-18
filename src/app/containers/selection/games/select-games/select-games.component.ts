@@ -15,7 +15,12 @@ import { getApiBaseUrl } from '../../../../core/config';
 
 @Component({
   selector: 'app-select-games',
-  imports: [CommonModule, MenuComponent, MatDialogModule, SelectEntityComponent],
+  imports: [
+    CommonModule,
+    MenuComponent,
+    MatDialogModule,
+    SelectEntityComponent,
+  ],
   templateUrl: './select-games.component.html',
   styleUrls: ['./select-games.component.scss', '../../select-base.scss'],
 })
@@ -24,7 +29,6 @@ export class SelectGamesComponent
   implements OnInit
 {
   private readonly dialog = inject(MatDialog);
-  private router = inject(Router);
 
   userGames = signal<Game[]>([]);
   allGamesMergedList = signal<Game[]>([]);

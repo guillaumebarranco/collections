@@ -100,8 +100,7 @@ export class SelectSeriesTimesWatchedComponent
         return;
       }
 
-      this.seriesTimesWatched.set(new Map());
-      await this.loadSeriesData();
+      this.navigateToEntityList('series');
     } catch (error) {
       console.warn('series:batch-times-watched:error', error);
       alert("La mise à jour des visionnages a échoué.");

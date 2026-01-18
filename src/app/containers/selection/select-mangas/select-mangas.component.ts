@@ -16,7 +16,12 @@ import { SelectEntityComponent } from '../../../components/select-entity/select-
 
 @Component({
   selector: 'app-select-mangas',
-  imports: [CommonModule, MenuComponent, MatDialogModule, SelectEntityComponent],
+  imports: [
+    CommonModule,
+    MenuComponent,
+    MatDialogModule,
+    SelectEntityComponent,
+  ],
   templateUrl: './select-mangas.component.html',
   styleUrls: ['./select-mangas.component.scss', '../select-base.scss'],
 })
@@ -25,7 +30,6 @@ export class SelectMangasComponent
   implements OnInit
 {
   private readonly dialog = inject(MatDialog);
-  private router = inject(Router);
 
   userMangas = signal<Manga[]>([]);
   readlistMangas = signal<Manga[]>([]);

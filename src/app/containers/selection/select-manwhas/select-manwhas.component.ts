@@ -16,7 +16,12 @@ import { SelectEntityComponent } from '../../../components/select-entity/select-
 
 @Component({
   selector: 'app-select-manwhas',
-  imports: [CommonModule, MenuComponent, MatDialogModule, SelectEntityComponent],
+  imports: [
+    CommonModule,
+    MenuComponent,
+    MatDialogModule,
+    SelectEntityComponent,
+  ],
   templateUrl: './select-manwhas.component.html',
   styleUrls: ['./select-manwhas.component.scss', '../select-base.scss'],
 })
@@ -25,7 +30,6 @@ export class SelectManwhasComponent
   implements OnInit
 {
   private readonly dialog = inject(MatDialog);
-  private router = inject(Router);
 
   userManwhas = signal<Manwha[]>([]);
   readlistManwhas = signal<Manwha[]>([]);

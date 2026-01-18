@@ -23,7 +23,6 @@ export class SelectSeriesComponent
   implements OnInit
 {
   private readonly dialog = inject(MatDialog);
-  private router = inject(Router);
 
   userSeries = signal<Serie[]>([]);
   allSeriesMergedList = signal<Serie[]>([]);
@@ -31,9 +30,7 @@ export class SelectSeriesComponent
   // Séries déjà vues par l'utilisateur (pour les exclure en mode ajout)
   watchedSeries = computed<Set<string>>(() => {
     const userSeries = this.userSeries();
-    return new Set(
-      userSeries.map((serie) => this.getSerieKey(serie))
-    );
+    return new Set(userSeries.map((serie) => this.getSerieKey(serie)));
   });
 
   // Toutes les séries, filtrées en mode ajout

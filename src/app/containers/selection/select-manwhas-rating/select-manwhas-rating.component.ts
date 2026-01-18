@@ -106,8 +106,7 @@ export class SelectManwhasRatingComponent
         return;
       }
 
-      this.manwhasRatings.set(new Map());
-      await this.loadManwhasData();
+      this.navigateToEntityList('manwhas');
     } catch (error) {
       console.warn('manwhas:batch-rating:error', error);
       alert("La mise à jour des notes a échoué.");

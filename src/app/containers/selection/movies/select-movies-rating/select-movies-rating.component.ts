@@ -118,8 +118,7 @@ export class SelectMoviesRatingComponent
         return;
       }
 
-      this.moviesRatings.set(new Map());
-      await this.loadMoviesData();
+      this.navigateToEntityList('movies');
     } catch (error) {
       console.warn('movies:batch-rating:error', error);
       alert("La mise à jour des notes a échoué.");
