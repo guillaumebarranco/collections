@@ -12,4 +12,16 @@ export const baseGamesApi: BaseGame[] = [
     saga: '',
     platineTime: 0,
   },
+
+  {
+    title: 'Super Mario 2',
+    editor: 'Nintendo',
+    hero: 'Mario',
+    coverUrl: 'https://upload.wikimedia.org/wikipedia/en/0/0d/Super_Mario_Land_2_box_art.jpg',
+    releaseDate: '1992-10-21',
+    averageTimeToFinish: 0,
+    platform: 'Game Boy',
+    saga: 'Mario',
+    platineTime: 0,
+  },
 ];

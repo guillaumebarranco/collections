@@ -1098,4 +1098,13 @@ export const ronanGames: UserGame[] = [
     additionnalEstimatedTime: 15,
     platined: false,
   },
+
+  {
+    title: 'Super Mario 2',
+    editor: 'Nintendo',
+    rating: 3.5,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
 ];
