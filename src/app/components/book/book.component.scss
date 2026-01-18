@@ -1,49 +1,5 @@
 @use '../../styles/components.scss' as components;
 
-.book-card {
-  @include components.component-card-base;
-  position: relative;
-}
-
-.edit-button {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  border: none;
-  color: #fff;
-  width: 32px;
-  height: 32px;
-  border-radius: 999px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  font-size: 14px;
-  z-index: 2;
-  transition: background 0.2s ease, transform 0.2s ease;
-}
-
-.edit-button:hover {
-  background: rgba(0, 0, 0, 0.8);
-  transform: scale(1.05);
-}
-
-p {
-  margin: 0 !important;
-}
-
-.book-cover {
-  @include components.component-cover-base;
-}
-
-.cover-image {
-  @include components.component-cover-image-base;
-}
-
-.book-info {
-  @include components.component-info-base;
-}
-
 .book-title {
   @include components.component-title-base;
 }
@@ -58,22 +14,6 @@ p {
 
 .book-read-times {
   @include components.component-times-base;
-}
-
-.book-rating {
-  @include components.component-rating-base;
-}
-
-.stars {
-  @include components.component-stars-base;
-}
-
-.star {
-  @include components.component-star-base;
-}
-
-.rating-text {
-  @include components.component-rating-text-base;
 }
 
 .book-genre {

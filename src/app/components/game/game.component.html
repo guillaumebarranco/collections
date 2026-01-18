@@ -1,5 +1,6 @@
-<div class="game-card">
+<app-entity-card>
   <button
+    entity-edit
     type="button"
     class="edit-button"
     aria-label="Editer le jeu"
@@ -7,15 +8,14 @@
   >
     &#9998;
   </button>
-  <div class="game-cover">
-    <img
-      [src]="game.coverUrl"
-      [alt]="game.title"
-      class="cover-image"
-      referrerpolicy="no-referrer"
-    />
-  </div>
-  <div class="game-info">
+  <img
+    entity-cover
+    [src]="game.coverUrl"
+    [alt]="game.title"
+    class="cover-image"
+    referrerpolicy="no-referrer"
+  />
+  <div entity-info>
     <h3 class="game-title">{{ game.title }}</h3>
     <p class="game-editor">{{ game.editor }}</p>
     <p class="game-platform">Plateforme: {{ game.platform }}</p>
@@ -35,7 +35,7 @@
     </p>
     <p class="game-finished">Terminé {{ game.timesFinished }} fois</p>
 
-    <div class="game-rating">
+    <div class="game-rating entity-rating">
       <span class="stars">
         <span
           *ngFor="let star of getRatingStars(game.rating || 0)"
@@ -47,4 +47,4 @@
       <span class="rating-text">{{ game.rating }}/5</span>
     </div>
   </div>
-</div>
+</app-entity-card>

@@ -11,6 +11,7 @@ import { ActivatedRoute } from '@angular/router';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { Serie } from '../../models/serie-model';
 import { EditSerieComponent } from '../../containers/edit/edit-serie/edit-serie.component';
+import { EntityCardComponent } from '../entity-card/entity-card.component';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -20,7 +21,7 @@ interface StarInfo {
 @Component({
   selector: 'app-serie',
   standalone: true,
-  imports: [CommonModule, MatDialogModule],
+  imports: [CommonModule, MatDialogModule, EntityCardComponent],
   templateUrl: './serie.component.html',
   styleUrls: ['./serie.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,

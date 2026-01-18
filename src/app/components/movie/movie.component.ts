@@ -11,6 +11,7 @@ import { ActivatedRoute } from '@angular/router';
 import { Movie } from '../../models/movie-model';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditMovieComponent } from '../../containers/edit/edit-movie/edit-movie.component';
+import { EntityCardComponent } from '../entity-card/entity-card.component';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -20,7 +21,7 @@ interface StarInfo {
 @Component({
   selector: 'app-movie',
   standalone: true,
-  imports: [CommonModule, MatDialogModule],
+  imports: [CommonModule, MatDialogModule, EntityCardComponent],
   templateUrl: './movie.component.html',
   styleUrls: ['./movie.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,

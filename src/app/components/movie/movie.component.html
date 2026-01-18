@@ -1,21 +1,21 @@
-<div class="movie-card">
+<app-entity-card>
   <button
+    entity-edit
     type="button"
     class="edit-button"
     aria-label="Éditer le film"
     (click)="navigateToEdit()"
   >
-    ✏️
+    &#9998;
   </button>
-  <div class="movie-cover">
-    <img
-      [src]="movie.coverUrl || '/movies_pictures/poster.jpg'"
-      [alt]="movie.title"
-      class="cover-image"
-      referrerpolicy="no-referrer"
-    />
-  </div>
-  <div class="movie-info">
+  <img
+    entity-cover
+    [src]="movie.coverUrl || '/movies_pictures/poster.jpg'"
+    [alt]="movie.title"
+    class="cover-image"
+    referrerpolicy="no-referrer"
+  />
+  <div entity-info>
     <h3 class="movie-title">{{ movie.title }}</h3>
     <p class="movie-director">Réalisé par {{ movie.director }}</p>
     @if (movie.actors && movie.actors.length > 0) {
@@ -30,7 +30,7 @@
     @if (movie.timesWatched && movie.timesWatched > 1) {
     <p class="movie-times-watched">🎬 Visionné {{ movie.timesWatched }} fois</p>
     }
-    <div class="movie-rating">
+    <div class="movie-rating entity-rating">
       <span class="stars">
         <span
           *ngFor="let star of getRatingStars(movie.rating || 0)"
@@ -41,4 +41,4 @@
     </div>
     <!-- <p class="movie-genre">{{ movie.genre }}</p> -->
   </div>
-</div>
+</app-entity-card>

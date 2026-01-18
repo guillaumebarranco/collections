@@ -6,6 +6,7 @@ import {
   Output,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { EntityCardComponent } from '../entity-card/entity-card.component';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -15,7 +16,7 @@ interface StarInfo {
 @Component({
   selector: 'app-book',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, EntityCardComponent],
   templateUrl: './book.component.html',
   styleUrls: ['./book.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,

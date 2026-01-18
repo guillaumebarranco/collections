@@ -373,7 +373,12 @@ function getUserBooksFiles(userId: string) {
 
   return fs
     .readdirSync(userBooksDir)
-    .filter((file: string) => file.endsWith('.ts') && file !== 'index.ts')
+    .filter(
+      (file: string) =>
+        file.endsWith('.ts') &&
+        file !== 'index.ts' &&
+        !file.includes('readlist')
+    )
     .map((file: string) => path.join(userBooksDir, file));
 }
 

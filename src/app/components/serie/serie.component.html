@@ -1,5 +1,6 @@
-<div class="serie-card">
+<app-entity-card>
   <button
+    entity-edit
     type="button"
     class="edit-button"
     aria-label="Editer la serie"
@@ -7,15 +8,14 @@
   >
     &#9998;
   </button>
-  <div class="serie-cover">
-    <img
-      [src]="serie.coverUrl"
-      [alt]="serie.title"
-      class="cover-image"
-      referrerpolicy="no-referrer"
-    />
-  </div>
-  <div class="serie-info">
+  <img
+    entity-cover
+    [src]="serie.coverUrl"
+    [alt]="serie.title"
+    class="cover-image"
+    referrerpolicy="no-referrer"
+  />
+  <div entity-info>
     <h3 class="serie-title">{{ serie.title }}</h3>
     <p class="serie-director">Créé par {{ serie.director }}</p>
     @if (serie.actors && serie.actors.length > 0) {
@@ -46,7 +46,7 @@
     } @if (serie.timesWatched === 1) {
     <p class="serie-times-watched">Visionné {{ serie.timesWatched }} fois</p>
     }
-    <div class="serie-rating">
+    <div class="serie-rating entity-rating">
       <span class="stars">
         <span
           *ngFor="let star of getRatingStars(serie.rating || 0)"
@@ -56,4 +56,4 @@
       <span class="rating-text">{{ serie.rating }}/5</span>
     </div>
   </div>
-</div>
+</app-entity-card>

@@ -12,6 +12,7 @@ import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { Game } from '../../models/game-model';
 import { getGameTimePlayed } from '../../containers/collections/games/games.component';
 import { EditGameComponent } from '../../containers/edit/edit-game/edit-game.component';
+import { EntityCardComponent } from '../entity-card/entity-card.component';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -21,7 +22,7 @@ interface StarInfo {
 @Component({
   selector: 'app-game',
   standalone: true,
-  imports: [CommonModule, MatDialogModule],
+  imports: [CommonModule, MatDialogModule, EntityCardComponent],
   templateUrl: './game.component.html',
   styleUrls: ['./game.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
