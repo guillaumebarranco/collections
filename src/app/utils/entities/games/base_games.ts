@@ -922,9 +922,8 @@ export const baseGames: BaseGame[] = [
     coverUrl:
       '/games_pictures/f6b1e4512ee6061913f7d604da8f5f39566be56ca32a68ee.avif',
     releaseDate: '2023-02-10',
-
-    platineTime: 0,
-    averageTimeToFinish: 50,
+    platineTime: 50,
+    averageTimeToFinish: 40,
     platform: 'PlayStation 5',
     saga: 'Hogwarts Legacy',
   },
@@ -1957,17 +1956,6 @@ export const baseGames: BaseGame[] = [
     averageTimeToFinish: 20,
     platform: 'PlayStation 4',
     saga: 'Hitman',
-  },
-  {
-    title: "Hogwarts Legacy : L'Héritage de Poudlard",
-    editor: 'Avalanche Software',
-    hero: 'Étudiant de Poudlard',
-    coverUrl: '/games_pictures/1636363677-7536-jaquette-avant.webp',
-    releaseDate: '2023-02-10',
-    platineTime: 50,
-    averageTimeToFinish: 40,
-    platform: 'PlayStation 5',
-    saga: 'Hogwarts Legacy',
   },
   {
     title: 'Horizon Zero Dawn',
