@@ -475,7 +475,7 @@ export const bastienSeries: UserSerie[] = [
     },
     {
       seasonNumber: 7,
-      seasonRating: 0,
+      seasonRating: 5,
       seasonTimesWatched: 0,
     }
   ],
