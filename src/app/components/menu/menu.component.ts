@@ -69,6 +69,18 @@ export class MenuComponent implements OnInit {
       hideOnMobile: false,
     },
     {
+      label: 'Comics',
+      route: this.getRoute('comics'),
+      icon: '🦸',
+      hideOnMobile: false,
+    },
+    {
+      label: 'BD',
+      route: this.getRoute('bds'),
+      icon: '📗',
+      hideOnMobile: false,
+    },
+    {
       label: 'Manwhas',
       route: this.getRoute('manwhas'),
       icon: '🎨',

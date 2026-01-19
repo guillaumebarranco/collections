@@ -15,6 +15,8 @@ import { Movie } from '../../models/movie-model';
 import { Music } from '../../models/music-model';
 import { Game } from '../../models/game-model';
 import { Serie } from '../../models/serie-model';
+import { Comic } from '../../models/comic-model';
+import { Bd } from '../../models/bd-model';
 import {
   getTotalManwhasChaptersRead,
   getTotalPagesRead,
@@ -40,6 +42,11 @@ import {
   getAllMangas,
   getAllReadlistMangas,
 } from '../../facades/mangas/mangas.facade';
+import {
+  getAllComics,
+  getAllReadlistComics,
+} from '../../facades/comics/comics.facade';
+import { getAllBds, getAllReadlistBds } from '../../facades/bds/bds.facade';
 import { Manwha } from '../../models/manwha-model';
 import {
   getAllManwhas,
@@ -93,6 +100,8 @@ export class DashboardComponent implements OnInit {
 
   booksList = signal<{ [key: string]: Book[] }>({});
   mangasList = signal<{ [key: string]: Manga[] }>({});
+  comicsList = signal<{ [key: string]: Comic[] }>({});
+  bdsList = signal<{ [key: string]: Bd[] }>({});
   moviesList = signal<{ [key: string]: Movie[] }>({});
   watchlistMoviesList = signal<{ [key: string]: Movie[] }>({});
   seriesList = signal<{ [key: string]: Serie[] }>({});
@@ -103,6 +112,8 @@ export class DashboardComponent implements OnInit {
   readlistManwhasList = signal<{ [key: string]: Manwha[] }>({});
 
   readlistBooksList = signal<{ [key: string]: Book[] }>({});
+  readlistComicsList = signal<{ [key: string]: Comic[] }>({});
+  readlistBdsList = signal<{ [key: string]: Bd[] }>({});
   musicsList = signal<{ [key: string]: Music[] }>({});
   readlistMangasList = signal<{ [key: string]: Manga[] }>({});
 
@@ -183,6 +194,26 @@ export class DashboardComponent implements OnInit {
       : [];
   });
 
+  allComics = computed<Comic[]>(() => {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? Boolean(this.comicsList()[this.userId()])
+        ? this.comicsList()[this.userId()]
+        : []
+      : [];
+  });
+
+  allBds = computed<Bd[]>(() => {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? Boolean(this.bdsList()[this.userId()])
+        ? this.bdsList()[this.userId()]
+        : []
+      : [];
+  });
+
   allReadlistMangas = computed<Manga[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
@@ -233,10 +264,32 @@ export class DashboardComponent implements OnInit {
       : [];
   });
 
+  allReadlistComics = computed<Comic[]>(() => {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? Boolean(this.readlistComicsList()[this.userId()])
+        ? this.readlistComicsList()[this.userId()]
+        : []
+      : [];
+  });
+
+  allReadlistBds = computed<Bd[]>(() => {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? Boolean(this.readlistBdsList()[this.userId()])
+        ? this.readlistBdsList()[this.userId()]
+        : []
+      : [];
+  });
+
   userHasData = computed<boolean>(() => {
     return (
       this.allBooks().length > 0 ||
       this.allMangas().length > 0 ||
+      this.allComics().length > 0 ||
+      this.allBds().length > 0 ||
       this.allManwhas().length > 0 ||
       this.allMovies().length > 0 ||
       this.allSeries().length > 0 ||
@@ -348,6 +401,18 @@ export class DashboardComponent implements OnInit {
     );
     const mangasTotalReadingTime = (mangasTotalTomes * 30) / 60; // 30 minutes par tome, converti en heures
 
+    const comicsTotalTomes = this.allComics().reduce(
+      (sum, comic) => sum + (comic.nbTomes || 0) * (comic.readTimes || 1),
+      0
+    );
+    const comicsTotalReadingTime = (comicsTotalTomes * 30) / 60;
+
+    const bdsTotalTomes = this.allBds().reduce(
+      (sum, bd) => sum + (bd.nbTomes || 0) * (bd.readTimes || 1),
+      0
+    );
+    const bdsTotalReadingTime = (bdsTotalTomes * 30) / 60;
+
     const manwhasTotalChapters = getTotalManwhasChaptersRead(this.allManwhas());
     const manwhasTotalReadingTime =
       (manwhasTotalChapters * MINUTES_PER_MANWHA_CHAPTER) / 60;
@@ -378,6 +443,8 @@ export class DashboardComponent implements OnInit {
     const totalCumulativeTime =
       booksTotalReadingTime +
       mangasTotalReadingTime +
+      comicsTotalReadingTime +
+      bdsTotalReadingTime +
       manwhasTotalReadingTime +
       totalWatchingTime +
       gamesTotalTime +
@@ -394,6 +461,18 @@ export class DashboardComponent implements OnInit {
         label: 'Mangas lus',
         value: this.allMangas().length.toString(),
         icon: '📚',
+        color: StatItemColor.SECONDARY,
+      },
+      {
+        label: 'Comics lus',
+        value: this.allComics().length.toString(),
+        icon: '🦸',
+        color: StatItemColor.SECONDARY,
+      },
+      {
+        label: 'BD lues',
+        value: this.allBds().length.toString(),
+        icon: '📗',
         color: StatItemColor.SECONDARY,
       },
       {
@@ -427,10 +506,12 @@ export class DashboardComponent implements OnInit {
         color: StatItemColor.WARNING,
       },
       {
-        label: 'Temps total passé à lire (livres + mangas + manwhas)',
+        label: 'Temps total passé à lire (livres + mangas + comics + BD + manwhas)',
         value: this.formatTime(
           booksTotalReadingTime +
             mangasTotalReadingTime +
+            comicsTotalReadingTime +
+            bdsTotalReadingTime +
             manwhasTotalReadingTime
         ),
         icon: '📖',
@@ -504,6 +585,10 @@ export class DashboardComponent implements OnInit {
     this.loadReadlistBooksData();
     this.loadMangasData();
     this.loadReadlistMangasData();
+    this.loadComicsData();
+    this.loadReadlistComicsData();
+    this.loadBdsData();
+    this.loadReadlistBdsData();
     this.loadManwhasData();
     this.loadReadlistManwhasData();
     this.loadSeriesData();
@@ -540,6 +625,30 @@ export class DashboardComponent implements OnInit {
     const userId = this.userId() || 'guillaume';
     const mangas = await getAllMangas(userId);
     this.mangasList.set(mangas);
+  }
+
+  private async loadComicsData() {
+    const userId = this.userId() || 'guillaume';
+    const comics = await getAllComics(userId);
+    this.comicsList.set(comics);
+  }
+
+  private async loadReadlistComicsData() {
+    const userId = this.userId() || 'guillaume';
+    const comics = await getAllReadlistComics(userId);
+    this.readlistComicsList.set(comics);
+  }
+
+  private async loadBdsData() {
+    const userId = this.userId() || 'guillaume';
+    const bds = await getAllBds(userId);
+    this.bdsList.set(bds);
+  }
+
+  private async loadReadlistBdsData() {
+    const userId = this.userId() || 'guillaume';
+    const bds = await getAllReadlistBds(userId);
+    this.readlistBdsList.set(bds);
   }
 
   private async loadReadlistMangasData() {

@@ -6,13 +6,24 @@ import { Serie } from '../../models/serie-model';
 import { Book } from '../../models/book-model';
 import { Game } from '../../models/game-model';
 import { Music } from '../../models/music-model';
+import { Comic } from '../../models/comic-model';
+import { Bd } from '../../models/bd-model';
 import { getAllMovies } from '../../facades/movies/movies.facade';
 import { getAllSeries } from '../../facades/series/series.facade';
 import { getAllBooks } from '../../facades/books/books.facade';
 import { getAllGames } from '../../facades/games/games.facade';
-import { musics } from '../../utils/users/guillaume/musics';
+import { getAllMusics } from '../../facades/musics/musics.facade';
+import { getAllComics } from '../../facades/comics/comics.facade';
+import { getAllBds } from '../../facades/bds/bds.facade';
 
-export type EntityType = 'movies' | 'series' | 'books' | 'games' | 'musics';
+export type EntityType =
+  | 'movies'
+  | 'series'
+  | 'books'
+  | 'games'
+  | 'musics'
+  | 'comics'
+  | 'bds';
 
 interface TopStat {
   name: string;
@@ -41,13 +52,23 @@ export class DashboardEntitiesStatsComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
 
   selectedEntity = signal<EntityType>('movies');
-  entities: EntityType[] = ['movies', 'series', 'books', 'games', 'musics'];
+  entities: EntityType[] = [
+    'movies',
+    'series',
+    'books',
+    'games',
+    'musics',
+    'comics',
+    'bds',
+  ];
 
   moviesList = signal<{ [key: string]: Movie[] }>({});
   seriesList = signal<{ [key: string]: Serie[] }>({});
   booksList = signal<{ [key: string]: Book[] }>({});
   gamesList = signal<{ [key: string]: Game[] }>({});
   musicsList = signal<{ [key: string]: Music[] }>({});
+  comicsList = signal<{ [key: string]: Comic[] }>({});
+  bdsList = signal<{ [key: string]: Bd[] }>({});
 
   userId = computed<string>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
@@ -74,6 +95,14 @@ export class DashboardEntitiesStatsComponent implements OnInit {
     return this.musicsList()[this.userId()] || [];
   });
 
+  allComics = computed<Comic[]>(() => {
+    return this.comicsList()[this.userId()] || [];
+  });
+
+  allBds = computed<Bd[]>(() => {
+    return this.bdsList()[this.userId()] || [];
+  });
+
   stats = computed<EntityStats>(() => {
     const entity = this.selectedEntity();
 
@@ -88,6 +117,10 @@ export class DashboardEntitiesStatsComponent implements OnInit {
         return this.getGamesStats();
       case 'musics':
         return this.getMusicsStats();
+      case 'comics':
+        return this.getComicsStats();
+      case 'bds':
+        return this.getBdsStats();
       default:
         return {};
     }
@@ -294,6 +327,64 @@ export class DashboardEntitiesStatsComponent implements OnInit {
     };
   }
 
+  private getComicsStats(): EntityStats {
+    const comics = this.allComics();
+    const uniqueComics = Array.from(
+      new Set(comics.map((c) => `${c.title}|${c.author}`))
+    ).map((key) => {
+      const [title, author] = key.split('|');
+      return comics.find((c) => c.title === title && c.author === author)!;
+    });
+
+    const authorsCount: { [key: string]: number } = {};
+    uniqueComics.forEach((comic) => {
+      if (comic.author) {
+        authorsCount[comic.author] = (authorsCount[comic.author] || 0) + 1;
+      }
+    });
+
+    const genresCount: { [key: string]: number } = {};
+    uniqueComics.forEach((comic) => {
+      if (comic.genre) {
+        genresCount[comic.genre] = (genresCount[comic.genre] || 0) + 1;
+      }
+    });
+
+    return {
+      topAuthors: this.sortAndLimit(authorsCount, 10),
+      topGenres: this.sortAndLimit(genresCount, 10),
+    };
+  }
+
+  private getBdsStats(): EntityStats {
+    const bds = this.allBds();
+    const uniqueBds = Array.from(
+      new Set(bds.map((b) => `${b.title}|${b.author}`))
+    ).map((key) => {
+      const [title, author] = key.split('|');
+      return bds.find((b) => b.title === title && b.author === author)!;
+    });
+
+    const authorsCount: { [key: string]: number } = {};
+    uniqueBds.forEach((bd) => {
+      if (bd.author) {
+        authorsCount[bd.author] = (authorsCount[bd.author] || 0) + 1;
+      }
+    });
+
+    const genresCount: { [key: string]: number } = {};
+    uniqueBds.forEach((bd) => {
+      if (bd.genre) {
+        genresCount[bd.genre] = (genresCount[bd.genre] || 0) + 1;
+      }
+    });
+
+    return {
+      topAuthors: this.sortAndLimit(authorsCount, 10),
+      topGenres: this.sortAndLimit(genresCount, 10),
+    };
+  }
+
   private sortAndLimit(
     counts: { [key: string]: number },
     limit: number
@@ -315,6 +406,8 @@ export class DashboardEntitiesStatsComponent implements OnInit {
       books: '📖 Livres',
       games: '🎮 Jeux',
       musics: '🎵 Musiques',
+      comics: '🦸 Comics',
+      bds: '📗 BD',
     };
     return labels[entity];
   }
@@ -338,6 +431,9 @@ export class DashboardEntitiesStatsComponent implements OnInit {
     void this.loadMoviesData();
     void this.loadBooksData();
     void this.loadSeriesData();
+    void this.loadMusicsData();
+    void this.loadComicsData();
+    void this.loadBdsData();
   }
 
   private async loadMoviesData() {
@@ -362,5 +458,23 @@ export class DashboardEntitiesStatsComponent implements OnInit {
     const userId = this.userId() || 'guillaume';
     const games = await getAllGames(userId);
     this.gamesList.set(games);
+  }
+
+  private async loadMusicsData() {
+    const userId = this.userId() || 'guillaume';
+    const musics = await getAllMusics(userId);
+    this.musicsList.set(musics);
+  }
+
+  private async loadComicsData() {
+    const userId = this.userId() || 'guillaume';
+    const comics = await getAllComics(userId);
+    this.comicsList.set(comics);
+  }
+
+  private async loadBdsData() {
+    const userId = this.userId() || 'guillaume';
+    const bds = await getAllBds(userId);
+    this.bdsList.set(bds);
   }
 }

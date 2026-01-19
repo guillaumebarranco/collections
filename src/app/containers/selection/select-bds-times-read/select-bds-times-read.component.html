@@ -1,0 +1,65 @@
+<app-menu></app-menu>
+
+<div class="select-bds-times-read-container">
+  <div class="header">
+    <h1>Mettre à jour le nombre de lectures de mes BD</h1>
+
+    <div class="selection-description">
+      <p>
+        Bonjour {{ username() }} 👋 <br /><br />
+        Sur cette page, tu peux mettre à jour le nombre de fois que tu as lu
+        chaque BD de ta collection. <br /><br />
+        Passe ta souris sur une BD pour voir les options de lectures
+        disponibles et clique sur le nombre correspondant. <br /><br />
+        Une fois que tu as terminé, clique sur "Enregistrer mes lectures" pour
+        appliquer les changements.
+      </p>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <div class="selection-info">
+      <span class="count">{{ modifiedCount() }} BD modifiée(s)</span>
+      <span class="total">sur {{ allBds().length }}</span>
+    </div>
+
+    <div class="actions">
+      <button
+        class="btn btn-primary"
+        (click)="saveBdsTimesRead()"
+        [disabled]="allBds().length === 0 || isSaving()"
+      >
+        ✅ Enregistrer mes lectures ({{ modifiedCount() }})
+      </button>
+    </div>
+  </div>
+
+  <div class="bds-grid">
+    @for (bd of allBds(); track `${bd.title}-${bd.author}`) {
+    <div class="bd-cover" [title]="bd.title + ' - ' + bd.author">
+      <img [src]="bd.coverUrl" [alt]="bd.title" />
+      <div class="overlay">
+        <div class="bd-info">
+          <span class="bd-title">{{ bd.title }}</span>
+          <span class="bd-author">{{ bd.author }}</span>
+          <span class="current-times-read"
+            >Lectures : {{ getTimesRead(bd) }} fois</span
+          >
+        </div>
+        <div class="times-read-buttons">
+          @for (times of timesReadOptions; track times) {
+          <button
+            class="times-btn"
+            [class.active]="getTimesRead(bd) === times"
+            (click)="updateTimesRead(bd, times); $event.stopPropagation()"
+            (mousedown)="$event.stopPropagation()"
+          >
+            {{ times }}
+          </button>
+          }
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>

@@ -37,13 +37,6 @@ export const guillaumeBooks: UserBook[] = [
     readTimes: 1,
   },
   {
-    title: "L'Arnaque des nouveaux pères",
-    author: 'Stephane Jourdain',
-    readDate: '2024-11-11',
-    rating: 4,
-    readTimes: 1,
-  },
-  {
     title: 'Les tout-petits face aux écrans',
     author: 'Dr Anne-Lise Ducanda',
     readDate: '2023-10-16',

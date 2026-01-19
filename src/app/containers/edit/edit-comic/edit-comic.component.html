@@ -1,0 +1,93 @@
+<app-edit-entity class="edit-entity--dark">
+  @if(!isDialogMode()) {
+  <button (click)="navigateToComics()" class="back-link">
+    Retour aux comics
+  </button>
+  } @else {
+  <button
+    type="button"
+    class="dialog-close"
+    aria-label="Fermer"
+    (click)="navigateToComics()"
+  >
+    ✕
+  </button>
+  }
+
+  <h1 class="title">Éditer un comic</h1>
+
+  @if(comicNotFound()) {
+  <p class="not-found">Aucun comic trouvé pour ce slug.</p>
+  } @else {
+  <img [src]="comic()?.coverUrl" alt="Cover" width="200" />
+  <div>{{ comic()?.title }}</div>
+  <div class="entity-details">
+    <p><strong>Auteur :</strong> {{ comic()?.author }}</p>
+    @if (comic()?.genre) {
+    <p><strong>Genre :</strong> {{ comic()?.genre }}</p>
+    }
+    @if (comic()?.nbTomes) {
+    <p><strong>Nombre de tomes :</strong> {{ comic()?.nbTomes }}</p>
+    }
+    @if (comic()?.isFinished === false) {
+    <p><strong>Série :</strong> En cours</p>
+    }
+  </div>
+  <br />
+
+  <form *ngIf="comicForm()" class="edit-form" (ngSubmit)="onSubmit()">
+    <div class="form-row">
+      <label>Note</label>
+      <div class="rating-control">
+        <button
+          *ngFor="let star of [1, 2, 3, 4, 5]"
+          type="button"
+          class="star-btn"
+          (click)="setRatingFromClick(star, $event)"
+        >
+          <span
+            class="star"
+            [class.star-full]="
+              getStarType(comicForm()?.rating || 0, star) === 'full'
+            "
+            [class.star-half]="
+              getStarType(comicForm()?.rating || 0, star) === 'half'
+            "
+            [class.star-empty]="
+              getStarType(comicForm()?.rating || 0, star) === 'empty'
+            "
+          >
+            ★
+          </span>
+        </button>
+        <span class="rating-value">{{ comicForm()?.rating }}/5</span>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <label for="readTimes">Relectures</label>
+      <input
+        id="readTimes"
+        type="number"
+        min="0"
+        [ngModel]="comicForm()?.readTimes"
+        (ngModelChange)="updateField('readTimes', $event)"
+        name="readTimes"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="readDate">Date de lecture</label>
+      <input
+        id="readDate"
+        type="date"
+        [ngModel]="comicForm()?.readDate"
+        (ngModelChange)="updateField('readDate', $event)"
+        name="readDate"
+      />
+    </div>
+
+    <button type="submit" class="submit-btn">Modifier</button>
+  </form>
+  }
+</app-edit-entity>

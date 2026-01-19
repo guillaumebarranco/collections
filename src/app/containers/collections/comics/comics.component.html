@@ -1,0 +1,111 @@
+<app-menu></app-menu>
+
+<div class="comics-container">
+  <h1>
+    {{
+      selectedView() === "readlist"
+        ? "Comics à lire"
+        : "Comics lus"
+    }}
+    ({{ filteredComics().length }})
+  </h1>
+
+  @if(allComics().length === 0 && allReadlistComics().length === 0) {
+  <div class="empty-state">
+    <p class="empty-message">Vous n'avez aucun comic dans votre collection.</p>
+    <p class="empty-subtitle">
+      Commencez dès maintenant à créer votre comicthèque personnelle !
+    </p>
+    <button class="btn btn-primary" [routerLink]="getSelectComicsRoute()">
+      Sélectionner mes comics
+    </button>
+  </div>
+  }
+
+  @if(allComics().length !== 0 || allReadlistComics().length !== 0) {
+  <div class="comics-header-top">
+    <div class="comics-view-toggle">
+      <button
+        class="toggle-option"
+        [class.active]="selectedView() === 'read'"
+        (click)="onViewChange('read')"
+      >
+        Comics lus
+      </button>
+      <button
+        class="toggle-option"
+        [class.active]="selectedView() === 'readlist'"
+        (click)="onViewChange('readlist')"
+      >
+        Comics à lire
+      </button>
+    </div>
+
+    <div class="comics-actions">
+      <button
+        class="btn btn-small"
+        [routerLink]="getSelectComicsRoute()"
+        [queryParams]="{ readlist: selectedView() === 'readlist' }"
+        title="Ajouter des comics"
+      >
+        ➕
+        {{
+          selectedView() === "readlist"
+            ? "Ajouter des comics à lire"
+            : "Ajouter des comics"
+        }}
+      </button>
+      <button
+        class="btn btn-small"
+        [routerLink]="getSelectComicsRatingRoute()"
+        title="Mettre à jour les notes de mes comics"
+      >
+        ⭐ Notes
+      </button>
+      <button
+        class="btn btn-small"
+        [routerLink]="getSelectComicsTimesReadRoute()"
+        title="Mettre à jour le nombre de lectures de mes comics"
+      >
+        📖 Lectures
+      </button>
+    </div>
+  </div>
+  }
+
+  <div class="comics-header">
+    <app-stats-display
+      [stats]="stats()"
+      [count]="filteredComics().length"
+      countLabel="comics"
+    >
+    </app-stats-display>
+
+    <app-sort-dropdown
+      [sortOptions]="sortOptions()"
+      [selectedSort]="selectedSort()"
+      (sortChange)="onSortChange($event)"
+    >
+    </app-sort-dropdown>
+  </div>
+
+  <div class="comics-search">
+    <input
+      type="text"
+      placeholder="Rechercher par titre, auteur, genre..."
+      [ngModel]="searchTerm()"
+      (ngModelChange)="onSearchChange($event)"
+    />
+  </div>
+
+  <div class="comics">
+    @for (comic of sortedComics(); track comic.title) {
+    <div class="comic-card">
+      <app-book
+        [book]="comic"
+        (editRequested)="openEditComicDialog(comic)"
+      ></app-book>
+    </div>
+    }
+  </div>
+</div>

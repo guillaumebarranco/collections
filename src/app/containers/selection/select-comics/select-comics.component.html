@@ -1,0 +1,90 @@
+<app-menu></app-menu>
+
+<app-select-entity class="select-comics-container">
+  <div class="header" select-header>
+    <h1>
+      {{
+        isWatchOrReadlistMode()
+          ? "Sélectionner des comics pour ma readlist"
+          : "Ajouter des comics lus"
+      }}
+    </h1>
+
+    <div class="selection-description">
+      @if(!isWatchOrReadlistMode()) {
+      <p>
+        Bonjour {{ username() }} <br /><br />
+        Ici tu peux ajouter des comics que tu as lu. La liste ci-dessous affiche
+        uniquement les comics que tu n'as pas encore dans ta collection.
+        <br /><br />
+        Sélectionne les comics que tu as lus, puis clique sur "Ajouter à mes
+        comics lus".
+      </p>
+      <p>
+        Si tu ne trouves pas ton comic dans la liste, ajoute-le d'abord dans les
+        entités (si jamais tu souhaites ajouter un grand nombre de comics non
+        présents ici, le mieux reste de contacter l'administrateur) :
+      </p>
+      <button
+        class="btn btn-primary add-new-comic"
+        (click)="openAddComicDialog()"
+      >
+        Ajouter un nouveau comic
+      </button>
+      } @else if(isWatchOrReadlistMode()) {
+      <p>
+        Bonjour {{ username() }} <br /><br />
+        Tu es en mode "Readlist" ! Ici, tu peux sélectionner les comics que tu
+        souhaites ajouter à ta liste de comics à lire.
+        <br /><br />
+        Les comics que tu as déjà lus sont automatiquement exclus de cette liste
+        pour t'éviter les doublons.
+        <br /><br />
+        Sélectionne les comics que tu aimerais lire et ajoute-les à ta liste.
+      </p>
+      } @else { }
+    </div>
+  </div>
+
+  <div class="toolbar" select-toolbar>
+    <div class="selection-info">
+      <span class="count">{{ selectedCount() }} comic(s) sélectionné(s)</span>
+      <span class="total">sur {{ allComics().length }}</span>
+    </div>
+
+    <div class="actions">
+      <button
+        class="btn btn-primary"
+        (click)="addSelectedComics()"
+        [disabled]="selectedCount() === 0"
+      >
+        {{
+          isWatchOrReadlistMode()
+            ? "Ajouter à mes comics à lire"
+            : "Ajouter à mes comics lus"
+        }}
+        ({{ selectedCount() }})
+      </button>
+    </div>
+  </div>
+
+  <div class="comics-grid" select-grid>
+    @for (comic of allComics(); track `${comic.title}-${comic.author}`) {
+    <div
+      class="comic-cover"
+      [class.selected]="isSelected(comic)"
+      (click)="toggleSelection(comic)"
+      [title]="comic.title + ' - ' + comic.author"
+    >
+      <img [src]="comic.coverUrl" [alt]="comic.title" />
+      <div class="overlay">
+        <div class="checkmark">✓</div>
+        <div class="comic-info">
+          <span class="comic-title">{{ comic.title }}</span>
+          <span class="comic-author">{{ comic.author }}</span>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</app-select-entity>

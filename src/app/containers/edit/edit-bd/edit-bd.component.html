@@ -1,0 +1,93 @@
+<app-edit-entity class="edit-entity--dark">
+  @if(!isDialogMode()) {
+  <button (click)="navigateToBds()" class="back-link">
+    Retour aux BD
+  </button>
+  } @else {
+  <button
+    type="button"
+    class="dialog-close"
+    aria-label="Fermer"
+    (click)="navigateToBds()"
+  >
+    ✕
+  </button>
+  }
+
+  <h1 class="title">Éditer une BD</h1>
+
+  @if(bdNotFound()) {
+  <p class="not-found">Aucune BD trouvée pour ce slug.</p>
+  } @else {
+  <img [src]="bd()?.coverUrl" alt="Cover" width="200" />
+  <div>{{ bd()?.title }}</div>
+  <div class="entity-details">
+    <p><strong>Auteur :</strong> {{ bd()?.author }}</p>
+    @if (bd()?.genre) {
+    <p><strong>Genre :</strong> {{ bd()?.genre }}</p>
+    }
+    @if (bd()?.nbTomes) {
+    <p><strong>Nombre de tomes :</strong> {{ bd()?.nbTomes }}</p>
+    }
+    @if (bd()?.isFinished === false) {
+    <p><strong>Série :</strong> En cours</p>
+    }
+  </div>
+  <br />
+
+  <form *ngIf="bdForm()" class="edit-form" (ngSubmit)="onSubmit()">
+    <div class="form-row">
+      <label>Note</label>
+      <div class="rating-control">
+        <button
+          *ngFor="let star of [1, 2, 3, 4, 5]"
+          type="button"
+          class="star-btn"
+          (click)="setRatingFromClick(star, $event)"
+        >
+          <span
+            class="star"
+            [class.star-full]="
+              getStarType(bdForm()?.rating || 0, star) === 'full'
+            "
+            [class.star-half]="
+              getStarType(bdForm()?.rating || 0, star) === 'half'
+            "
+            [class.star-empty]="
+              getStarType(bdForm()?.rating || 0, star) === 'empty'
+            "
+          >
+            ★
+          </span>
+        </button>
+        <span class="rating-value">{{ bdForm()?.rating }}/5</span>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <label for="readTimes">Relectures</label>
+      <input
+        id="readTimes"
+        type="number"
+        min="0"
+        [ngModel]="bdForm()?.readTimes"
+        (ngModelChange)="updateField('readTimes', $event)"
+        name="readTimes"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="readDate">Date de lecture</label>
+      <input
+        id="readDate"
+        type="date"
+        [ngModel]="bdForm()?.readDate"
+        (ngModelChange)="updateField('readDate', $event)"
+        name="readDate"
+      />
+    </div>
+
+    <button type="submit" class="submit-btn">Modifier</button>
+  </form>
+  }
+</app-edit-entity>

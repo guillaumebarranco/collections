@@ -2,6 +2,8 @@ import { Routes } from '@angular/router';
 import { BooksComponent } from './containers/collections/books/books.component';
 import { MangasComponent } from './containers/collections/mangas/mangas.component';
 import { ManwhasComponent } from './containers/collections/manwhas/manwhas.component';
+import { ComicsComponent } from './containers/collections/comics/comics.component';
+import { BdsComponent } from './containers/collections/bds/bds.component';
 import { MoviesComponent } from './containers/collections/movies/movies.component';
 import { SeriesComponent } from './containers/collections/series/series.component';
 import { GamesComponent } from './containers/collections/games/games.component';
@@ -18,6 +20,12 @@ import { SelectSeriesTimesWatchedComponent } from './containers/selection/series
 import { SelectMangasComponent } from './containers/selection/select-mangas/select-mangas.component';
 import { SelectMangasRatingComponent } from './containers/selection/select-mangas-rating/select-mangas-rating.component';
 import { SelectMangasTimesReadComponent } from './containers/selection/select-mangas-times-read/select-mangas-times-read.component';
+import { SelectComicsComponent } from './containers/selection/select-comics/select-comics.component';
+import { SelectComicsRatingComponent } from './containers/selection/select-comics-rating/select-comics-rating.component';
+import { SelectComicsTimesReadComponent } from './containers/selection/select-comics-times-read/select-comics-times-read.component';
+import { SelectBdsComponent } from './containers/selection/select-bds/select-bds.component';
+import { SelectBdsRatingComponent } from './containers/selection/select-bds-rating/select-bds-rating.component';
+import { SelectBdsTimesReadComponent } from './containers/selection/select-bds-times-read/select-bds-times-read.component';
 import { SelectManwhasComponent } from './containers/selection/select-manwhas/select-manwhas.component';
 import { SelectManwhasRatingComponent } from './containers/selection/select-manwhas-rating/select-manwhas-rating.component';
 import { SelectManwhasTimesReadComponent } from './containers/selection/select-manwhas-times-read/select-manwhas-times-read.component';
@@ -53,6 +61,14 @@ export const routes: Routes = [
   {
     path: 'games',
     component: GamesComponent,
+  },
+  {
+    path: 'comics',
+    component: ComicsComponent,
+  },
+  {
+    path: 'bds',
+    component: BdsComponent,
   },
   {
     path: 'musics',
@@ -105,6 +121,30 @@ export const routes: Routes = [
   {
     path: 'select-mangas-rating',
     component: SelectMangasRatingComponent,
+  },
+  {
+    path: 'select-comics',
+    component: SelectComicsComponent,
+  },
+  {
+    path: 'select-comics-times-read',
+    component: SelectComicsTimesReadComponent,
+  },
+  {
+    path: 'select-comics-rating',
+    component: SelectComicsRatingComponent,
+  },
+  {
+    path: 'select-bds',
+    component: SelectBdsComponent,
+  },
+  {
+    path: 'select-bds-times-read',
+    component: SelectBdsTimesReadComponent,
+  },
+  {
+    path: 'select-bds-rating',
+    component: SelectBdsRatingComponent,
   },
   {
     path: 'select-manwhas',
@@ -171,6 +211,14 @@ export const routes: Routes = [
       {
         path: 'mangas',
         component: MangasComponent,
+      },
+      {
+        path: 'bds',
+        component: BdsComponent,
+      },
+      {
+        path: 'comics',
+        component: ComicsComponent,
       },
       {
         path: 'manwhas',
@@ -261,6 +309,30 @@ export const routes: Routes = [
       {
         path: 'select-mangas-rating',
         component: SelectMangasRatingComponent,
+      },
+      {
+        path: 'select-comics',
+        component: SelectComicsComponent,
+      },
+      {
+        path: 'select-comics-times-read',
+        component: SelectComicsTimesReadComponent,
+      },
+      {
+        path: 'select-comics-rating',
+        component: SelectComicsRatingComponent,
+      },
+      {
+        path: 'select-bds',
+        component: SelectBdsComponent,
+      },
+      {
+        path: 'select-bds-times-read',
+        component: SelectBdsTimesReadComponent,
+      },
+      {
+        path: 'select-bds-rating',
+        component: SelectBdsRatingComponent,
       },
       {
         path: 'select-manwhas',

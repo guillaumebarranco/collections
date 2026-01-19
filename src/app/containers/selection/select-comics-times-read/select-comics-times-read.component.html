@@ -1,0 +1,65 @@
+<app-menu></app-menu>
+
+<div class="select-comics-times-read-container">
+  <div class="header">
+    <h1>Mettre à jour le nombre de lectures de mes comics</h1>
+
+    <div class="selection-description">
+      <p>
+        Bonjour {{ username() }} 👋 <br /><br />
+        Sur cette page, tu peux mettre à jour le nombre de fois que tu as lu
+        chaque comic de ta collection. <br /><br />
+        Passe ta souris sur un comic pour voir les options de lectures
+        disponibles et clique sur le nombre correspondant. <br /><br />
+        Une fois que tu as terminé, clique sur "Enregistrer mes lectures" pour
+        appliquer les changements.
+      </p>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <div class="selection-info">
+      <span class="count">{{ modifiedCount() }} comic(s) modifié(s)</span>
+      <span class="total">sur {{ allComics().length }}</span>
+    </div>
+
+    <div class="actions">
+      <button
+        class="btn btn-primary"
+        (click)="saveComicsTimesRead()"
+        [disabled]="allComics().length === 0 || isSaving()"
+      >
+        ✅ Enregistrer mes lectures ({{ modifiedCount() }})
+      </button>
+    </div>
+  </div>
+
+  <div class="comics-grid">
+    @for (comic of allComics(); track `${comic.title}-${comic.author}`) {
+    <div class="comic-cover" [title]="comic.title + ' - ' + comic.author">
+      <img [src]="comic.coverUrl" [alt]="comic.title" />
+      <div class="overlay">
+        <div class="comic-info">
+          <span class="comic-title">{{ comic.title }}</span>
+          <span class="comic-author">{{ comic.author }}</span>
+          <span class="current-times-read"
+            >Lectures : {{ getTimesRead(comic) }} fois</span
+          >
+        </div>
+        <div class="times-read-buttons">
+          @for (times of timesReadOptions; track times) {
+          <button
+            class="times-btn"
+            [class.active]="getTimesRead(comic) === times"
+            (click)="updateTimesRead(comic, times); $event.stopPropagation()"
+            (mousedown)="$event.stopPropagation()"
+          >
+            {{ times }}
+          </button>
+          }
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>

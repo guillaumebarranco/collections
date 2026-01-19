@@ -1,0 +1,111 @@
+<app-menu></app-menu>
+
+<div class="bds-container">
+  <h1>
+    {{
+      selectedView() === "readlist"
+        ? "BD à lire"
+        : "BD lues"
+    }}
+    ({{ filteredBds().length }})
+  </h1>
+
+  @if(allBds().length === 0 && allReadlistBds().length === 0) {
+  <div class="empty-state">
+    <p class="empty-message">Vous n'avez aucune BD dans votre collection.</p>
+    <p class="empty-subtitle">
+      Commencez dès maintenant à créer votre BDthèque personnelle !
+    </p>
+    <button class="btn btn-primary" [routerLink]="getSelectBdsRoute()">
+      Sélectionner mes BD
+    </button>
+  </div>
+  }
+
+  @if(allBds().length !== 0 || allReadlistBds().length !== 0) {
+  <div class="bds-header-top">
+    <div class="bds-view-toggle">
+      <button
+        class="toggle-option"
+        [class.active]="selectedView() === 'read'"
+        (click)="onViewChange('read')"
+      >
+        BD lues
+      </button>
+      <button
+        class="toggle-option"
+        [class.active]="selectedView() === 'readlist'"
+        (click)="onViewChange('readlist')"
+      >
+        BD à lire
+      </button>
+    </div>
+
+    <div class="bds-actions">
+      <button
+        class="btn btn-small"
+        [routerLink]="getSelectBdsRoute()"
+        [queryParams]="{ readlist: selectedView() === 'readlist' }"
+        title="Ajouter des BD"
+      >
+        ➕
+        {{
+          selectedView() === "readlist"
+            ? "Ajouter des BD à lire"
+            : "Ajouter des BD"
+        }}
+      </button>
+      <button
+        class="btn btn-small"
+        [routerLink]="getSelectBdsRatingRoute()"
+        title="Mettre à jour les notes de mes BD"
+      >
+        ⭐ Notes
+      </button>
+      <button
+        class="btn btn-small"
+        [routerLink]="getSelectBdsTimesReadRoute()"
+        title="Mettre à jour le nombre de lectures de mes BD"
+      >
+        📖 Lectures
+      </button>
+    </div>
+  </div>
+  }
+
+  <div class="bds-header">
+    <app-stats-display
+      [stats]="stats()"
+      [count]="filteredBds().length"
+      countLabel="BD"
+    >
+    </app-stats-display>
+
+    <app-sort-dropdown
+      [sortOptions]="sortOptions()"
+      [selectedSort]="selectedSort()"
+      (sortChange)="onSortChange($event)"
+    >
+    </app-sort-dropdown>
+  </div>
+
+  <div class="bds-search">
+    <input
+      type="text"
+      placeholder="Rechercher par titre, auteur, genre..."
+      [ngModel]="searchTerm()"
+      (ngModelChange)="onSearchChange($event)"
+    />
+  </div>
+
+  <div class="bds">
+    @for (bd of sortedBds(); track bd.title) {
+    <div class="bd-card">
+      <app-book
+        [book]="bd"
+        (editRequested)="openEditBdDialog(bd)"
+      ></app-book>
+    </div>
+    }
+  </div>
+</div>

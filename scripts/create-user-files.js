@@ -26,6 +26,8 @@ const baseDir = path.join(
 const entities = [
   { name: 'books', model: 'book', type: 'UserBook', suffix: 'Books' },
   { name: 'games', model: 'game', type: 'UserGame', suffix: 'Games' },
+  { name: 'comics', model: 'comic', type: 'UserComic', suffix: 'Comics' },
+  { name: 'bds', model: 'bd', type: 'UserBd', suffix: 'Bds' },
   { name: 'mangas', model: 'manga', type: 'UserManga', suffix: 'Mangas' },
   { name: 'manwhas', model: 'manwha', type: 'UserManwha', suffix: 'Manwhas' },
   { name: 'movies', model: 'movie', type: 'UserMovie', suffix: 'Movies' },
@@ -39,6 +41,20 @@ const extraLists = [
     type: 'UserBook',
     fileSuffix: 'readlist_books',
     exportSuffix: 'ReadListBooks',
+  },
+  {
+    name: 'comics',
+    model: 'comic',
+    type: 'UserComic',
+    fileSuffix: 'readlist_comics',
+    exportSuffix: 'ReadListComics',
+  },
+  {
+    name: 'bds',
+    model: 'bd',
+    type: 'UserBd',
+    fileSuffix: 'readlist_bds',
+    exportSuffix: 'ReadListBds',
   },
   {
     name: 'mangas',

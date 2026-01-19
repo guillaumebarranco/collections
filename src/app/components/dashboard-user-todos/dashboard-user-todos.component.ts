@@ -2,6 +2,8 @@ import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Book } from '../../models/book-model';
 import { Manga } from '../../models/manga-model';
+import { Comic } from '../../models/comic-model';
+import { Bd } from '../../models/bd-model';
 import { Manwha } from '../../models/manwha-model';
 import { Movie } from '../../models/movie-model';
 import { Serie } from '../../models/serie-model';
@@ -33,6 +35,8 @@ interface EmptySection {
 export class DashboardUserTodosComponent {
   @Input() books: Book[] = [];
   @Input() mangas: Manga[] = [];
+  @Input() comics: Comic[] = [];
+  @Input() bds: Bd[] = [];
   @Input() manwhas: Manwha[] = [];
   @Input() movies: Movie[] = [];
   @Input() series: Serie[] = [];
@@ -42,6 +46,8 @@ export class DashboardUserTodosComponent {
   @Input() watchlistSeries: Serie[] = [];
   @Input() readlistBooks: Book[] = [];
   @Input() readlistMangas: Manga[] = [];
+  @Input() readlistComics: Comic[] = [];
+  @Input() readlistBds: Bd[] = [];
   @Input() readlistManwhas: Manwha[] = [];
 
   get todoSections(): TodoSection[] {
@@ -142,6 +148,49 @@ export class DashboardUserTodosComponent {
       sections.push({ title: '📚 Mangas', items: mangaItems });
     }
 
+    const comicItems: TodoItem[] = [];
+
+    const missingComicRatings = this.countMissing(this.comics, (c) => c.rating);
+    const missingComicTimes = this.countMissing(
+      this.comics,
+      (c) => c.readTimes
+    );
+    if (missingComicRatings > 0) {
+      comicItems.push({ label: 'Comics sans note', count: missingComicRatings });
+    }
+    if (missingComicTimes > 0) {
+      comicItems.push({
+        label: 'Comics sans nombre de lectures',
+        count: missingComicTimes,
+      });
+    }
+    if (this.comics.length > 0 && this.readlistComics.length === 0) {
+      comicItems.push({ label: 'Comics sans readlist', count: 1 });
+    }
+    if (comicItems.length > 0) {
+      sections.push({ title: '🦸 Comics', items: comicItems });
+    }
+
+    const bdItems: TodoItem[] = [];
+
+    const missingBdRatings = this.countMissing(this.bds, (b) => b.rating);
+    const missingBdTimes = this.countMissing(this.bds, (b) => b.readTimes);
+    if (missingBdRatings > 0) {
+      bdItems.push({ label: 'BD sans note', count: missingBdRatings });
+    }
+    if (missingBdTimes > 0) {
+      bdItems.push({
+        label: 'BD sans nombre de lectures',
+        count: missingBdTimes,
+      });
+    }
+    if (this.bds.length > 0 && this.readlistBds.length === 0) {
+      bdItems.push({ label: 'BD sans readlist', count: 1 });
+    }
+    if (bdItems.length > 0) {
+      sections.push({ title: '📗 BD', items: bdItems });
+    }
+
     const manwhaItems: TodoItem[] = [];
 
     const missingManwhaRatings = this.countMissing(
@@ -233,6 +282,12 @@ export class DashboardUserTodosComponent {
     }
     if (this.mangas.length === 0) {
       empty.push({ title: '📚 Mangas', message: "Vous n'avez pas encore de mangas." });
+    }
+    if (this.comics.length === 0) {
+      empty.push({ title: '🦸 Comics', message: "Vous n'avez pas encore de comics." });
+    }
+    if (this.bds.length === 0) {
+      empty.push({ title: '📗 BD', message: "Vous n'avez pas encore de BD." });
     }
     if (this.manwhas.length === 0) {
       empty.push({ title: '📗 Manwhas', message: "Vous n'avez pas encore de manwhas." });

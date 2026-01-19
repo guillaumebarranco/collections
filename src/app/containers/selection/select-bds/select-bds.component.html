@@ -1,0 +1,90 @@
+<app-menu></app-menu>
+
+<app-select-entity class="select-bds-container">
+  <div class="header" select-header>
+    <h1>
+      {{
+        isWatchOrReadlistMode()
+          ? "Sélectionner des BD pour ma readlist"
+          : "Ajouter des BD lues"
+      }}
+    </h1>
+
+    <div class="selection-description">
+      @if(!isWatchOrReadlistMode()) {
+      <p>
+        Bonjour {{ username() }} <br /><br />
+        Ici tu peux ajouter des BD que tu as lues. La liste ci-dessous affiche
+        uniquement les BD que tu n'as pas encore dans ta collection.
+        <br /><br />
+        Sélectionne les BD que tu as lues, puis clique sur "Ajouter à mes
+        BD lues".
+      </p>
+      <p>
+        Si tu ne trouves pas ta BD dans la liste, ajoute-la d'abord dans les
+        entités (si jamais tu souhaites ajouter un grand nombre de BD non
+        présents ici, le mieux reste de contacter l'administrateur) :
+      </p>
+      <button
+        class="btn btn-primary add-new-bd"
+        (click)="openAddBdDialog()"
+      >
+        Ajouter une nouvelle BD
+      </button>
+      } @else if(isWatchOrReadlistMode()) {
+      <p>
+        Bonjour {{ username() }} <br /><br />
+        Tu es en mode "Readlist" ! Ici, tu peux sélectionner les BD que tu
+        souhaites ajouter à ta liste de BD à lire.
+        <br /><br />
+        Les BD que tu as déjà lues sont automatiquement exclues de cette liste
+        pour t'éviter les doublons.
+        <br /><br />
+        Sélectionne les BD que tu aimerais lire et ajoute-les à ta liste.
+      </p>
+      } @else { }
+    </div>
+  </div>
+
+  <div class="toolbar" select-toolbar>
+    <div class="selection-info">
+      <span class="count">{{ selectedCount() }} BD sélectionnée(s)</span>
+      <span class="total">sur {{ allBds().length }}</span>
+    </div>
+
+    <div class="actions">
+      <button
+        class="btn btn-primary"
+        (click)="addSelectedBds()"
+        [disabled]="selectedCount() === 0"
+      >
+        {{
+          isWatchOrReadlistMode()
+            ? "Ajouter à mes BD à lire"
+            : "Ajouter à mes BD lues"
+        }}
+        ({{ selectedCount() }})
+      </button>
+    </div>
+  </div>
+
+  <div class="bds-grid" select-grid>
+    @for (bd of allBds(); track `${bd.title}-${bd.author}`) {
+    <div
+      class="bd-cover"
+      [class.selected]="isSelected(bd)"
+      (click)="toggleSelection(bd)"
+      [title]="bd.title + ' - ' + bd.author"
+    >
+      <img [src]="bd.coverUrl" [alt]="bd.title" />
+      <div class="overlay">
+        <div class="checkmark">✓</div>
+        <div class="bd-info">
+          <span class="bd-title">{{ bd.title }}</span>
+          <span class="bd-author">{{ bd.author }}</span>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</app-select-entity>
