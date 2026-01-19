@@ -3190,7 +3190,7 @@ export const ronanMovies: UserMovie[] = [
   },
   {
     title: 'Là-haut',
-    director: 'Pete Docter, Bob Peterson',
+    director: 'Pete Docter',
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4641,15 +4641,6 @@ export const ronanMovies: UserMovie[] = [
     title: 'Coco',
     director: 'Lee Unkrich',
     rating: 1,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-  },
-  {
-    title: 'Là-haut',
-    director: 'Pete Docter',
-    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -8650,15 +8641,6 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: false,
   },
 
-  {
-    title: 'Kuzco, l\'Empereur mégalo',
-    director: 'Mark Dindal',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-  },
 
   {
     title: 'Le Labyrinthe : La Terre brûlée',
@@ -8713,16 +8695,6 @@ export const ronanMovies: UserMovie[] = [
   {
     title: 'Les Choristes',
     director: 'Christophe Barratier',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-  },
-
-  {
-    title: 'La Cité de la peur',
-    director: 'Alain Berbérian',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',

@@ -889,7 +889,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
   },
   {
     title: 'Là-haut',
-    director: 'Pete Docter, Bob Peterson',
+    director: 'Pete Docter',
     actors: [{ name: 'Edward Asner' }, { name: 'Jordan Nagai' }],
     coverUrl: '/movies_pictures/Lahaut.webp',
     releaseDate: '2009-05-29',

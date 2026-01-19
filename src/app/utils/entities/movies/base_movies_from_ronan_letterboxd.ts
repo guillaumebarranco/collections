@@ -7381,25 +7381,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Comédie',
   },
   {
-    title: 'Là-haut',
-    director: 'Pete Docter',
-    actors: [
-      {
-        name: 'Anthony Gonzalez',
-      },
-      {
-        name: 'Gael García Bernal',
-      },
-      {
-        name: 'Benjamin Bratt',
-      },
-    ],
-    coverUrl: '/movies_pictures/up.jpg',
-    releaseDate: '2009-07-29',
-    length: 96,
-    genre: 'Animation',
-  },
-  {
     title: 'Star Trek',
     director: 'J.J. Abrams',
     actors: [
@@ -8487,22 +8468,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Fantastique',
   },
   {
-    title: 'Le Dernier Samouraï',
-    director: 'Edward Zwick',
-    actors: [
-      {
-        name: 'Tom Cruise',
-      },
-      {
-        name: 'Ken Watanabe',
-      },
-    ],
-    coverUrl: '/movies_pictures/the_last_samurai.jpg',
-    releaseDate: '2004-01-14',
-    length: 144,
-    genre: 'Drame',
-  },
-  {
     title: "Master and Commander : De l'autre côté du monde",
     director: 'Peter Weir',
     actors: [
@@ -8861,22 +8826,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2002-01-30',
     length: 113,
     genre: 'Fantastique',
-  },
-  {
-    title: "Kuzco, l'empereur mégalo",
-    director: 'Mark Dindal',
-    actors: [
-      {
-        name: 'David Spade',
-      },
-      {
-        name: 'John Goodman',
-      },
-    ],
-    coverUrl: '/movies_pictures/the_emperor_s_new_groove.jpg',
-    releaseDate: '2001-03-28',
-    length: 78,
-    genre: 'Animation',
   },
   {
     title: 'Seul au monde',
@@ -9339,19 +9288,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Animation',
   },
   {
-    title: 'La Cité de la peur',
-    director: 'Alain Berbérian',
-    actors: [
-      {
-        name: 'Patrick Timsit',
-      },
-    ],
-    coverUrl: '/movies_pictures/fear_city_a_family_style_comedy.jpg',
-    releaseDate: '1994-03-09',
-    length: 99,
-    genre: 'Comédie',
-  },
-  {
     title: 'Sister Act, acte 2',
     director: 'Bill Duke',
     actors: [
@@ -9465,22 +9401,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1995-03-22',
     length: 47,
     genre: 'Animation',
-  },
-  {
-    title: 'Un jour sans fin',
-    director: 'Harold Ramis',
-    actors: [
-      {
-        name: 'Bill Murray',
-      },
-      {
-        name: 'Andie MacDowell',
-      },
-    ],
-    coverUrl: '/movies_pictures/groundhog_day.jpg',
-    releaseDate: '1993-07-28',
-    length: 101,
-    genre: 'Comédie',
   },
   {
     title: 'Bodyguard',
@@ -9970,22 +9890,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1987-02-25',
     length: 89,
     genre: 'Drame',
-  },
-  {
-    title: 'Le Château dans le ciel',
-    director: 'Hayao Miyazaki',
-    actors: [
-      {
-        name: 'Mayumi Tanaka',
-      },
-      {
-        name: 'Keiko Yokozawa',
-      },
-    ],
-    coverUrl: '/movies_pictures/castle_in_the_sky.jpg',
-    releaseDate: '2003-01-15',
-    length: 124,
-    genre: 'Animation',
   },
   {
     title: 'La Folle Journée de Ferris Bueller',

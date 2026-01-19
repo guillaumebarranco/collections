@@ -903,7 +903,7 @@ export const amandineMovies2: UserMovie[] = [
   },
   {
     title: 'Là-haut',
-    director: 'Pete Docter, Bob Peterson',
+    director: 'Pete Docter',
     rating: 0,
     timesWatched: 5,
     firstViewedDate: '',
