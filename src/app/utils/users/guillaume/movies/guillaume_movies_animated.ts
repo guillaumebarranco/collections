@@ -572,7 +572,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
   {
     title: 'Dragon Ball Z: Battle of Gods',
     director: 'Masahiro Hosoda',
-    rating: 0,
+    rating: 3.25,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -581,7 +581,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
   {
     title: 'One Piece Film: Strong World',
     director: 'Munehisa Sakai',
-    rating: 0,
+    rating: 4.25,
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -590,7 +590,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
   {
     title: 'Dragon Ball Z: Bojack Unbound',
     director: 'Yoshihiro Ueda',
-    rating: 0,
+    rating: 3.75,
     timesWatched: 10,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -599,7 +599,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
   {
     title: 'Dragon Ball Z: The Tree of Might',
     director: 'Daisuke Nishio',
-    rating: 0,
+    rating: 2.75,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -608,7 +608,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
   {
     title: 'Dragon Ball Z : Fusions',
     director: 'Shigeyasu Yamauchi',
-    rating: 0,
+    rating: 3.25,
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -617,7 +617,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
   {
     title: 'Dragon Ball Z : Bio-Broly',
     director: 'Yoshihiro Ueda',
-    rating: 0,
+    rating: 2.75,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -626,7 +626,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
   {
     title: 'Dragon Ball Z : Broly le super guerrier',
     director: 'Shigeyasu Yamauchi',
-    rating: 0,
+    rating: 3.75,
     timesWatched: 15,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -636,7 +636,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
   {
     title: "Dragon Ball Z : L'Attaque du dragon",
     director: 'Mitsuo Hashimoto',
-    rating: 0,
+    rating: 3.75,
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -645,7 +645,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
   {
     title: 'Dragon Ball Z : Rivaux dangereux',
     director: 'Shigeyasu Yamauchi',
-    rating: 0,
+    rating: 3,
     timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -654,7 +654,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
   {
     title: "Dragon Ball Z : L'Offensive des cyborgs",
     director: 'Kazuhito Kikuchi',
-    rating: 0,
+    rating: 3,
     timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -663,7 +663,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
   {
     title: 'Dragon Ball Z : La Revanche de Cooler',
     director: 'Mitsuo Hashimoto',
-    rating: 0,
+    rating: 3.25,
     timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -672,7 +672,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
   {
     title: 'Dragon Ball Z : La Menace de Namek',
     director: 'Mitsuo Hashimoto',
-    rating: 0,
+    rating: 3,
     timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -681,7 +681,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
   {
     title: 'Dragon Ball Z : À la poursuite de Garlic',
     director: 'Daisuke Nishio',
-    rating: 0,
+    rating: 3.25,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -690,7 +690,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
   {
     title: 'Dragon Ball Z : Cent Mille Guerriers de métal',
     director: 'Daisuke Nishio',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -699,7 +699,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
   {
     title: 'One Piece Film Z',
     director: 'Tatsuya Nagamine',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -708,7 +708,7 @@ export const guillaumeMoviesAnimated: UserMovie[] = [
   {
     title: "Dragon Ball Z : La Résurrection de 'F'",
     director: 'Tadayoshi Yamamuro',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
