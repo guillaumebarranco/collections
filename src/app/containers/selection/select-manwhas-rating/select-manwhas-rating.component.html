@@ -41,9 +41,7 @@
       <div class="overlay">
         <div class="manwha-info">
           <span class="manwha-title">{{ manwha.title }}</span>
-          <span class="manwha-author">{{ manwha.author }}</span>
           <div class="current-rating">
-            <span class="rating-label">Note actuelle :</span>
             <div class="stars-display">
               @for (star of getRatingStars(getRating(manwha)); track star.value) {
               <span [class]="'star star-' + star.type"></span>

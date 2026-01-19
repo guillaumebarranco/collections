@@ -44,11 +44,7 @@
       <div class="overlay">
         <div class="movie-info">
           <span class="movie-title">{{ movie.title }}</span>
-          <span class="movie-year"
-            >({{ movie.releaseDate.substring(0, 4) }})</span
-          >
           <div class="current-rating">
-            <span class="rating-label">Note actuelle :</span>
             <div class="stars-display">
               @for (star of getRatingStars(getRating(movie)); track star.value) {
               <span [class]="'star star-' + star.type"></span>

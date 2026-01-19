@@ -44,9 +44,7 @@
       <div class="overlay">
         <div class="game-info">
           <span class="game-title">{{ game.title }}</span>
-          <span class="game-editor">{{ game.editor }}</span>
           <div class="current-rating">
-            <span class="rating-label">Note actuelle :</span>
             <div class="stars-display">
               @for (star of getRatingStars(getRating(game)); track star.value) {
               <span [class]="'star star-' + star.type"></span>

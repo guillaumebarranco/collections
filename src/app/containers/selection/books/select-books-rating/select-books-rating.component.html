@@ -41,9 +41,7 @@
       <div class="overlay">
         <div class="book-info">
           <span class="book-title">{{ book.title }}</span>
-          <span class="book-author">{{ book.author }}</span>
           <div class="current-rating">
-            <span class="rating-label">Note actuelle :</span>
             <div class="stars-display">
               @for (star of getRatingStars(getRating(book)); track star.value) {
               <span [class]="'star star-' + star.type"></span>

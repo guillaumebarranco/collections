@@ -44,11 +44,7 @@
       <div class="overlay">
         <div class="serie-info">
           <span class="serie-title">{{ serie.title }}</span>
-          <span class="serie-year"
-            >({{ serie.releaseDate.substring(0, 4) }})</span
-          >
           <div class="current-rating">
-            <span class="rating-label">Note actuelle :</span>
             <div class="stars-display">
               @for (star of getRatingStars(getRating(serie)); track star.value) {
               <span [class]="'star star-' + star.type"></span>

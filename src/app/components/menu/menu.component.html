@@ -6,7 +6,7 @@
     </div>
 
     <div class="menu-items">
-      @for (item of visibleMenuItems; let i = $index; track item.label) {
+      @for (item of primaryMenuItems; let i = $index; track item.label) {
       <button
         class="menu-item"
         [class.active]="isActive(item.route)"
@@ -16,6 +16,29 @@
         <span class="menu-icon">{{ item.icon }}</span>
         <span class="menu-label">{{ item.label }}</span>
       </button>
+      }
+
+      @if (isCompactMenu) {
+      <div class="menu-item menu-item-group" [class.open]="isReadingMenuOpen">
+        <button
+          class="menu-group-toggle"
+          type="button"
+          (click)="toggleReadingMenu()"
+          [class.active]="isReadingMenuActive()"
+        >
+          <span class="menu-icon">📚</span>
+          <span class="menu-label">Lecture</span>
+          <span class="menu-caret">▾</span>
+        </button>
+        <div class="menu-submenu" [class.open]="isReadingMenuOpen">
+          @for (item of readingMenuItems; track item.label) {
+          <button class="menu-subitem" (click)="navigateTo(item.route); closeReadingMenu()">
+            <span class="menu-icon">{{ item.icon }}</span>
+            <span class="menu-label">{{ item.label }}</span>
+          </button>
+          }
+        </div>
+      </div>
       }
     </div>
     <span class="menu-user">{{ currentUser() }}</span>

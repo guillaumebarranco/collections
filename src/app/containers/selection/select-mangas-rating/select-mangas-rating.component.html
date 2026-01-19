@@ -41,9 +41,7 @@
       <div class="overlay">
         <div class="manga-info">
           <span class="manga-title">{{ manga.title }}</span>
-          <span class="manga-author">{{ manga.author }}</span>
           <div class="current-rating">
-            <span class="rating-label">Note actuelle :</span>
             <div class="stars-display">
               @for (star of getRatingStars(getRating(manga)); track star.value) {
               <span [class]="'star star-' + star.type"></span>

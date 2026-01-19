@@ -44,9 +44,7 @@
       <div class="overlay">
         <div class="music-info">
           <span class="music-title">{{ music.title }}</span>
-          <span class="music-year">{{ music.artist }}</span>
           <div class="current-rating">
-            <span class="rating-label">Note actuelle :</span>
             <div class="stars-display">
               @for (star of getRatingStars(getRating(music)); track star.value) {
               <span [class]="'star star-' + star.type"></span>

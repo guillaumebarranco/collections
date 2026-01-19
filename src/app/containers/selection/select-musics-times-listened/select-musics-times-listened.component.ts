@@ -30,7 +30,7 @@ export class SelectMusicsTimesListenedComponent
 
   musicsTimesListened = signal<Map<string, number>>(new Map());
 
-  readonly timesListenedOptions = [1, 2, 3, 5, 10, 15, 20, 25, 30, 40, 50];
+  readonly timesListenedOptions = [1, 5, 10, 20, 30, 50, 100, 150, 200, 250, 300];
 
   private getMusicKey(music: Music): string {
     return `${music.title}-${music.artist}`;
