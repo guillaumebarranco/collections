@@ -16,14 +16,12 @@ export const musicsRapUsVarious: UserMusic[] = [
   {
     title: 'Angel',
     artist: 'Shaggy',
-    coverUrl: '/musics_pictures/71XAKy9eSfL._UF1000,1000_QL80_.jpg',
     rating: 0,
     timesListened: 250,
   },
   {
     title: "It Wasn't Me",
     artist: 'Shaggy',
-    coverUrl: '/musics_pictures/71XAKy9eSfL._UF1000,1000_QL80_.jpg',
     rating: 0,
     timesListened: 250,
   },

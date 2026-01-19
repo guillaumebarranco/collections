@@ -190,7 +190,6 @@ export const musicsVarietyUsVarious: UserMusic[] = [
   {
     title: 'Low (feat. T-Pain)',
     artist: 'Flo Rida',
-    coverUrl: '/musics_pictures/61gXJHD8Y4L._UF894,1000_QL80_.jpg',
     rating: 0,
     timesListened: 200,
   },

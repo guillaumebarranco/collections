@@ -16,14 +16,12 @@ export const musicsBalavoine: UserMusic[] = [
   {
     title: 'Le chanteur',
     artist: 'Daniel Balavoine',
-    coverUrl: '/musics_pictures/71Sa-W5yxkL._UF894,1000_QL80_.jpg',
     rating: 0,
     timesListened: 300,
   },
   {
     title: 'Lucie',
     artist: 'Daniel Balavoine',
-    coverUrl: '/musics_pictures/71Sa-W5yxkL._UF894,1000_QL80_.jpg',
     rating: 0,
     timesListened: 150,
   },
@@ -60,7 +58,6 @@ export const musicsBalavoine: UserMusic[] = [
   {
     title: 'Vivre ou survivre',
     artist: 'Daniel Balavoine',
-    coverUrl: '/musics_pictures/71wIFtZvXnL._UF894,1000_QL80_.jpg',
     rating: 0,
     timesListened: 120,
   },

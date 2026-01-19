@@ -1,4 +1,4 @@
-import { Component, inject, signal, computed } from '@angular/core';
+import { Component, inject, signal, computed, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { MusicComponent } from '../../../components/music/music.component';
@@ -17,8 +17,8 @@ import {
   Album,
 } from '../../../components/album-modal/album-modal.component';
 import { Music } from '../../../models/music-model';
-import { musics } from '../../../utils/users/guillaume/musics';
 import { ActivatedRoute, Params, RouterLink } from '@angular/router';
+import { getAllMusics } from '../../../facades/musics/musics.facade';
 
 const MIN_SONGS_PER_ALBUM = 8;
 const TIMES_LISTENED_FOR_POPULAR = 9;
@@ -38,7 +38,7 @@ const TIMES_LISTENED_FOR_POPULAR = 9;
   templateUrl: './musics.component.html',
   styleUrls: ['./musics.component.scss'],
 })
-export class MusicsComponent {
+export class MusicsComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
 
   selectedSort = signal<string>('rating');
@@ -82,11 +82,7 @@ export class MusicsComponent {
     { value: 'duration-asc', label: 'Durée (court)' },
   ];
 
-  musicsList = signal<{ [key: string]: Music[] }>({
-    guillaume: [...musics],
-    william: [],
-    kevin: [],
-  });
+  musicsList = signal<{ [key: string]: Music[] }>({});
 
   allMusics = computed<Music[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
@@ -262,6 +258,16 @@ export class MusicsComponent {
     ];
   });
 
+  ngOnInit() {
+    void this.refreshMusics();
+  }
+
+  async refreshMusics() {
+    const userId = this.getActiveUserId();
+    const musics = await getAllMusics(userId);
+    this.musicsList.set(musics);
+  }
+
   onSortChange(sortValue: string) {
     this.selectedSort.set(sortValue);
   }
@@ -288,6 +294,11 @@ export class MusicsComponent {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam ? `/${params['id']}/select-musics` : '/select-musics';
+  }
+
+  private getActiveUserId(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    return params['id'] ?? 'guillaume';
   }
 
   private calculateTotalDuration(): string {

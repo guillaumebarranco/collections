@@ -13,8 +13,6 @@ import { musics } from '../../../utils/users/guillaume/musics';
 export class SelectMusicsComponent {
   // Toutes les musiques de tous les utilisateurs
   allMusics = signal<Music[]>([
-    // Guillaume
-    ...musics,
   ]);
 
   // Musiques sélectionnées

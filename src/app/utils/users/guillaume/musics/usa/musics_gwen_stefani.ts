@@ -10,7 +10,6 @@ export const musicsGwenStefani: UserMusic[] = [
   {
     title: 'The Sweet Escape',
     artist: 'Gwen Stefani',
-    coverUrl: '/musics_pictures/71lpX4BgwVL._UF894,1000_QL80_.jpg',
     rating: 0,
     timesListened: 200,
   },

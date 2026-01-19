@@ -9,7 +9,6 @@ import {
 import { DashboardEntitiesStatsComponent } from '../../components/dashboard-entities-stats/dashboard-entities-stats.component';
 import { DashboardUserTodosComponent } from '../../components/dashboard-user-todos/dashboard-user-todos.component';
 
-import { musics } from '../../utils/users/guillaume/musics';
 import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
 import { Book } from '../../models/book-model';
 import { Movie } from '../../models/movie-model';
@@ -35,6 +34,7 @@ import {
   getAllReadlistBooks,
 } from '../../facades/books/books.facade';
 import { getAllGames } from '../../facades/games/games.facade';
+import { getAllMusics } from '../../facades/musics/musics.facade';
 import { Manga } from '../../models/manga-model';
 import {
   getAllMangas,
@@ -103,9 +103,7 @@ export class DashboardComponent implements OnInit {
   readlistManwhasList = signal<{ [key: string]: Manwha[] }>({});
 
   readlistBooksList = signal<{ [key: string]: Book[] }>({});
-  musicsList = signal<{ [key: string]: Music[] }>({
-    guillaume: [...musics],
-  });
+  musicsList = signal<{ [key: string]: Music[] }>({});
   readlistMangasList = signal<{ [key: string]: Manga[] }>({});
 
   userId = computed<string>(() => {
@@ -511,6 +509,7 @@ export class DashboardComponent implements OnInit {
     this.loadSeriesData();
     this.loadWatchlistSeriesData();
     this.loadGamesData();
+    this.loadMusicsData();
   }
 
   private async loadMoviesData() {
@@ -577,5 +576,11 @@ export class DashboardComponent implements OnInit {
     const userId = this.userId() || 'guillaume';
     const games = await getAllGames(userId);
     this.gamesList.set(games);
+  }
+
+  private async loadMusicsData() {
+    const userId = this.userId() || 'guillaume';
+    const musics = await getAllMusics(userId);
+    this.musicsList.set(musics);
   }
 }

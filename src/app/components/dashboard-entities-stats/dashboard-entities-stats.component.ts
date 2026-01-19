@@ -47,9 +47,7 @@ export class DashboardEntitiesStatsComponent implements OnInit {
   seriesList = signal<{ [key: string]: Serie[] }>({});
   booksList = signal<{ [key: string]: Book[] }>({});
   gamesList = signal<{ [key: string]: Game[] }>({});
-  musicsList = signal<{ [key: string]: Music[] }>({
-    guillaume: [...musics],
-  });
+  musicsList = signal<{ [key: string]: Music[] }>({});
 
   userId = computed<string>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
