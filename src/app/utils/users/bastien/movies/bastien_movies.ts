@@ -4,7 +4,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'I, Robot',
     director: 'Alex Proyas',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -14,7 +14,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Damsel',
     director: 'Juan Carlos Fresnadillo',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -24,7 +24,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Barbie',
     director: 'Greta Gerwig',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -34,7 +34,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'L\'École du Bien et du Mal',
     director: 'Paul Feig',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -44,7 +44,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Prey',
     director: 'Dan Trachtenberg',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -54,7 +54,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Bullet Train',
     director: 'David Leitch',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -64,7 +64,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Top Gun : Maverick',
     director: 'Joseph Kosinski',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -74,7 +74,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Red Notice',
     director: 'Rawson Marshall Thurber',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -84,7 +84,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Free Guy',
     director: 'Shawn Levy',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -94,7 +94,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Wasabi',
     director: 'Gérard Krawczyk',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -104,7 +104,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Snatch',
     director: 'Guy Ritchie',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -114,7 +114,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Les 4 fantastiques',
     director: 'Matt Shakman',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -124,7 +124,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Premier contact',
     director: 'Denis Villeneuve',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -134,7 +134,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Harold & Kumar Go to White Castle',
     director: 'Danny Leiner',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -144,7 +144,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'The Day After Tomorrow',
     director: 'Roland Emmerich',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -154,7 +154,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Van Helsing',
     director: 'Stephen Sommers',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -164,7 +164,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Shaun of the Dead',
     director: 'Edgar Wright',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -174,7 +174,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'EuroTrip',
     director: 'Jeff Schaffer',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -184,7 +184,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'RRRrrrr!!!',
     director: 'Alain Chabat',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -194,7 +194,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Bruce tout-puissant',
     director: 'Tom Shadyac',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -204,7 +204,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Moi, Cesar, 10 ans et demi, 1m39',
     director: 'Richard Berry',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -214,7 +214,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Attrape-moi si tu peux',
     director: 'Steven Spielberg',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -224,7 +224,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Equilibrium',
     director: 'Kurt Wimmer',
-    rating: 0,
+    rating: 4.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -234,7 +234,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Love and Monsters',
     director: 'Michael Matthews',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -244,7 +244,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Palm Springs',
     director: 'Max Barbakow',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -254,7 +254,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Guns Akimbo',
     director: 'Jason Lei Howden',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -264,7 +264,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Aladdin',
     director: 'Guy Ritchie',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -274,7 +274,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Alita: Battle Angel',
     director: 'Robert Rodriguez',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -284,7 +284,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Ready Player One',
     director: 'Steven Spielberg',
-    rating: 0,
+    rating: 4.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -294,7 +294,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'E.T. the Extra-Terrestrial',
     director: 'Steven Spielberg',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -304,7 +304,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Yamakasi',
     director: 'Julien Seri',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -314,7 +314,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Minority Report',
     director: 'Steven Spielberg',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -324,7 +324,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Astérix & Obélix : Mission Cléopâtre',
     director: 'Alain Chabat',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -334,7 +334,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Le Cinquième Élément',
     director: 'Luc Besson',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -344,7 +344,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Wild Wild West',
     director: 'Barry Sonnenfeld',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -354,7 +354,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Sex intentions',
     director: 'Roger Kumble',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -364,7 +364,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Armageddon',
     director: 'Michael Bay',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -374,7 +374,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Godzilla',
     director: 'Roland Emmerich',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -384,7 +384,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: '300',
     director: 'Zack Snyder',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -394,7 +394,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Le Monde de Narnia : Le Lion, la Sorcière Blanche et l\'Armoire Magique',
     director: 'Andrew Adamson',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -404,7 +404,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'King Kong',
     director: 'Peter Jackson',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -414,7 +414,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Serenity',
     director: 'Joss Whedon',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -424,7 +424,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Serial Nocers',
     director: 'David Dobkin',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -434,7 +434,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Mr. & Mrs. Smith',
     director: 'Doug Liman',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -444,7 +444,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'The Mask',
     director: 'Chuck Russell',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -454,7 +454,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Forrest Gump',
     director: 'Robert Zemeckis',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -464,7 +464,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Pulp Fiction',
     director: 'Quentin Tarantino',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -474,7 +474,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'La cité de la peur',
     director: 'Alain Berbérian',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -484,7 +484,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Le Dîner de Cons',
     director: 'Francis Veber',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -494,7 +494,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Kingsman: The Golden Circle',
     director: 'Matthew Vaughn',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -504,7 +504,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Valerian and the City of a Thousand Planets',
     director: 'Luc Besson',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -514,7 +514,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Pixels',
     director: 'Chris Columbus',
-    rating: 0,
+    rating: 1,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -524,7 +524,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Kingsman : Services Secrets',
     director: 'Matthew Vaughn',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -534,7 +534,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Interstellar',
     director: 'Christopher Nolan',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -544,7 +544,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Le médaillon',
     director: 'Gordon Chan',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -554,7 +554,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Smoking',
     director: 'Kevin Donovan',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -564,7 +564,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Brice de Nice',
     director: 'James Huth',
-    rating: 0,
+    rating: 1.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -574,7 +574,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'La guerre des mondes',
     director: 'Steven Spielberg',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -584,7 +584,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'La ligue des gentlemen extraordinaires',
     director: 'Stephen Norrington',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -594,7 +594,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'La tour Montparnasse infernale',
     director: 'Charles Nemes',
-    rating: 0,
+    rating: 1,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -604,7 +604,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Spaceballs',
     director: 'Mel Brooks',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -614,7 +614,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Dirty Dancing',
     director: 'Emile Ardolino',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -624,7 +624,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Commando',
     director: 'Mark L. Lester',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -634,7 +634,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Wanted : Choisis ton Destin',
     director: 'Timur Bekmambetov',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -644,7 +644,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Jumper',
     director: 'Doug Liman',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -654,7 +654,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Je Suis une Légende',
     director: 'Francis Lawrence',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -664,7 +664,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Jumanji',
     director: 'Joe Johnston',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -674,7 +674,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Judge Dredd',
     director: 'Danny Cannon',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -684,7 +684,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Sucker Punch',
     director: 'Zack Snyder',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -694,7 +694,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Paul',
     director: 'Greg Mottola',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -704,7 +704,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Inception',
     director: 'Christopher Nolan',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -714,7 +714,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Fatal',
     director: 'Michaël Youn',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -724,7 +724,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Le Choc des Titans',
     director: 'Louis Leterrier',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -734,7 +734,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Percy Jackson : Le Voleur de Foudre',
     director: 'Chris Columbus',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -744,7 +744,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: '2012',
     director: 'Roland Emmerich',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -754,7 +754,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Zombieland',
     director: 'Ruben Fleischer',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -764,7 +764,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Maléfique',
     director: 'Robert Stromberg',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -774,7 +774,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Edge of Tomorrow',
     director: 'Doug Liman',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -784,7 +784,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Elysium',
     director: 'Neill Blomkamp',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -794,7 +794,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Pacific Rim',
     director: 'Guillermo del Toro',
-    rating: 0,
+    rating: 4.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -804,7 +804,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'World War Z',
     director: 'Marc Forster',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -814,7 +814,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'After Earth',
     director: 'M. Night Shyamalan',
-    rating: 0,
+    rating: 1,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -824,7 +824,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Oblivion',
     director: 'Joseph Kosinski',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -834,7 +834,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Chronicle',
     director: 'Josh Trank',
-    rating: 0,
+    rating: 4.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -844,7 +844,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Qui veut la peau de Roger Rabbit',
     director: 'Robert Zemeckis',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -854,7 +854,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Inglourious Basterds',
     director: 'Quentin Tarantino',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -864,7 +864,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Total Recall',
     director: 'Paul Verhoeven',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -874,7 +874,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Jurassic Park',
     director: 'Steven Spielberg',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -884,7 +884,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Les visiteurs',
     director: 'Jean-Marie Poiré',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -894,7 +894,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Demolition Man',
     director: 'Marco Brambilla',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -904,7 +904,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Mad Max: Fury Road',
     director: 'George Miller',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -914,7 +914,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Looper',
     director: 'Rian Johnson',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -924,7 +924,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Dragons',
     director: 'Dean DeBlois, Chris Sanders',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -934,7 +934,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Dragons 2',
     director: 'Dean DeBlois',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -944,7 +944,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Dragons 3: Le monde perdu',
     director: 'Dean DeBlois',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -954,7 +954,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Spider-Man: Into the Spider-Verse',
     director: 'Bob Persichetti, Peter Ramsey, Rodney Rothman',
-    rating: 0,
+    rating: 5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -964,7 +964,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Spider-Man : À Travers le Spider-Verse',
     director: 'Joaquim Dos Santos, Kemp Powers, Justin K. Thompson',
-    rating: 0,
+    rating: 4.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -974,7 +974,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Les Mondes de Ralph',
     director: 'Rich Moore',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -984,7 +984,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Ralph Breaks the Internet',
     director: 'Rich Moore, Phil Johnston',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -994,7 +994,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Super Mario Bros. le Film',
     director: 'Aaron Horvath, Michael Jelenic',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1004,7 +1004,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Encanto',
     director: 'Jared Bush, Byron Howard',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1014,7 +1014,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Vaiana',
     director: 'Ron Clements, John Musker',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1024,7 +1024,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Vice-Versa',
     director: 'Pete Docter',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1034,7 +1034,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'La Reine des Neiges',
     director: 'Chris Buck, Jennifer Lee',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1044,7 +1044,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Moi, Moche et Méchant',
     director: 'Pierre Coffin, Chris Renaud',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1054,7 +1054,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Moi, Moche et Méchant 2',
     director: 'Pierre Coffin, Chris Renaud',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1064,7 +1064,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'L\'Âge de Glace',
     director: 'Chris Wedge, Carlos Saldanha',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1074,7 +1074,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'L\'Âge de Glace 2',
     director: 'Carlos Saldanha',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1084,7 +1084,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'L\'Âge de Glace 3 : Le Temps des Dinosaures',
     director: 'Carlos Saldanha',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1094,7 +1094,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'L\'Âge de Glace 4 : La Dérive des Continents',
     director: 'Steve Martino, Mike Thurmeier',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1104,7 +1104,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Rebelle',
     director: 'Mark Andrews, Brenda Chapman',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1114,7 +1114,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Arthur et les Minimoys',
     director: 'Luc Besson',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1124,7 +1124,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Arthur et la Vengeance de Maltazard',
     director: 'Luc Besson',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1134,7 +1134,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Arthur 3 : La Guerre des Deux Mondes',
     director: 'Luc Besson',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1144,7 +1144,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'WALL-E',
     director: 'Andrew Stanton',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1154,7 +1154,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Kung Fu Panda',
     director: 'Mark Osborne, John Stevenson',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1164,7 +1164,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Shrek',
     director: 'Andrew Adamson, Vicky Jenson',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1174,7 +1174,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Shrek 2',
     director: 'Andrew Adamson, Kelly Asbury, Conrad Vernon',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1184,7 +1184,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Shrek le Troisième',
     director: 'Chris Miller',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1194,7 +1194,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Shrek 4 : Il Était une Fois',
     director: 'Mike Mitchell',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1204,7 +1204,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Les Indestructibles',
     director: 'Brad Bird',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1214,7 +1214,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Les Indestructibles 2',
     director: 'Brad Bird',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1224,7 +1224,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Le monde de Nemo',
     director: 'Andrew Stanton',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1234,7 +1234,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Monstres et Cie',
     director: 'Pete Docter',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1244,7 +1244,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Toy Story',
     director: 'John Lasseter',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1254,7 +1254,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Toy Story 2',
     director: 'John Lasseter',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1264,7 +1264,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Toy Story 3',
     director: 'Lee Unkrich',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1274,7 +1274,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Princesse Mononoké',
     director: 'Hayao Miyazaki',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1284,7 +1284,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Hercule',
     director: 'Ron Clements, John Musker',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1294,7 +1294,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Pocahontas',
     director: 'Mike Gabriel, Eric Goldberg',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1304,7 +1304,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Space Jam',
     director: 'Joe Pytka',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1314,7 +1314,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Le Roi Lion',
     director: 'Roger Allers, Rob Minkoff',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1324,7 +1324,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Aladdin',
     director: 'Ron Clements, John Musker',
-    rating: 0,
+    rating: 4.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1334,7 +1334,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'La petite sirène',
     director: 'Ron Clements, John Musker',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1344,7 +1344,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Peter Pan',
     director: 'Clyde Geronimi, Wilfred Jackson, Hamilton Luske',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1354,7 +1354,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Pinocchio',
     director: 'Norman Ferguson, T. Hee, Wilfred Jackson, Jack Kinney, Hamilton Luske, Bill Roberts, Ben Sharpsteen',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1364,7 +1364,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Megamind',
     director: 'Tom McGrath',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1374,7 +1374,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Raya et le Dernier Dragon',
     director: 'Don Hall, Carlos López Estrada',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1384,7 +1384,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Green Lantern',
     director: 'Martin Campbell',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1394,7 +1394,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Batman Begins',
     director: 'Christopher Nolan',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1404,7 +1404,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'The Dark Knight : Le Chevalier Noir',
     director: 'Christopher Nolan',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1414,7 +1414,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'The Dark Knight Rises',
     director: 'Christopher Nolan',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1424,7 +1424,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'The Batman',
     director: 'Matt Reeves',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1434,7 +1434,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Batman v Superman : L\'Aube de la Justice',
     director: 'Zack Snyder',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1444,7 +1444,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Shazam!',
     director: 'David F. Sandberg',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1454,7 +1454,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Aquaman',
     director: 'James Wan',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1474,7 +1474,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Zack Snyder\'s Justice League',
     director: 'Zack Snyder',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1484,7 +1484,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Man of Steel',
     director: 'Zack Snyder',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1494,7 +1494,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Superman',
     director: 'James Gunn',
-    rating: 0,
+    rating: 4.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1504,7 +1504,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Watchmen : Les Gardiens',
     director: 'Zack Snyder',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1514,7 +1514,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Catwoman',
     director: 'Pitof',
-    rating: 0,
+    rating: 0.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1524,7 +1524,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Wonder Woman',
     director: 'Patty Jenkins',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1534,7 +1534,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Wonder Woman 1984',
     director: 'Patty Jenkins',
-    rating: 0,
+    rating: 1,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1544,7 +1544,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Donjons & Dragons : L\'Honneur des voleurs',
     director: 'John Francis Daley, Jonathan Goldstein',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1554,7 +1554,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'S.O.S. Fantômes : L\'Héritage',
     director: 'Jason Reitman',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1564,7 +1564,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'La Reine des neiges 2',
     director: 'Chris Buck, Jennifer Lee',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1574,7 +1574,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Pokémon : Détective Pikachu',
     director: 'Rob Letterman',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1584,7 +1584,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Jumanji : Bienvenue dans la jungle',
     director: 'Jake Kasdan',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1594,7 +1594,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Miss Peregrine et les Enfants particuliers',
     director: 'Tim Burton',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1604,7 +1604,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Warcraft',
     director: 'Duncan Jones',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1614,7 +1614,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Zootopie',
     director: 'Byron Howard, Rich Moore',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1624,7 +1624,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Jurassic World',
     director: 'Colin Trevorrow',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1634,7 +1634,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Monsters University',
     director: 'Dan Scanlon',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1644,7 +1644,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Le Hobbit : Un voyage inattendu',
     director: 'Peter Jackson',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1654,7 +1654,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Hôtel Transylvanie',
     director: 'Genndy Tartakovsky',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1664,7 +1664,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'La Planète des singes : Les Origines',
     director: 'Rupert Wyatt',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1674,7 +1674,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Raiponce',
     director: 'Nathan Greno, Byron Howard',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1684,7 +1684,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'L\'Apprenti sorcier',
     director: 'Jon Turteltaub',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1694,7 +1694,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Sherlock Holmes',
     director: 'Guy Ritchie',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1704,7 +1704,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'District 9',
     director: 'Neill Blomkamp',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1714,7 +1714,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Là-haut',
     director: 'Pete Docter, Bob Peterson',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1724,7 +1724,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Mamma Mia!',
     director: 'Phyllida Lloyd',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1734,7 +1734,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Le Labyrinthe de Pan',
     director: 'Guillermo del Toro',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1744,7 +1744,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Benjamin Gates et le Trésor des Templiers',
     director: 'Jon Turteltaub',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1754,7 +1754,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Le Dernier Samouraï',
     director: 'Edward Zwick',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1764,7 +1764,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Lilo et Stitch',
     director: 'Dean DeBlois, Chris Sanders',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1774,7 +1774,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'La Planète des singes',
     director: 'Tim Burton',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1784,7 +1784,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'A.I. Intelligence artificielle',
     director: 'Steven Spielberg',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1794,7 +1794,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Kuzco, l\'Empereur mégalo',
     director: 'Mark Dindal',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1804,7 +1804,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Stuart Little',
     director: 'Rob Minkoff',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1814,7 +1814,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: '1001 Pattes',
     director: 'John Lasseter, Andrew Stanton',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1824,7 +1824,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Le Roi Lion 2 : L\'Honneur de la tribu',
     director: 'Darrell Rooney, Rob LaDuca',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1834,7 +1834,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Mary à tout prix',
     director: 'Bobby Farrelly, Peter Farrelly',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1844,7 +1844,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Flubber',
     director: 'Les Mayfield',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1854,7 +1854,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Le Monde perdu : Jurassic Park',
     director: 'Steven Spielberg',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1864,7 +1864,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Mars Attacks !',
     director: 'Tim Burton',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1874,7 +1874,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Les 101 Dalmatiens',
     director: 'Stephen Herek',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1884,7 +1884,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Le Bossu de Notre-Dame',
     director: 'Gary Trousdale, Kirk Wise',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1894,7 +1894,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'GoldenEye',
     director: 'Martin Campbell',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1904,7 +1904,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Casper',
     director: 'Brad Silberling',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1914,7 +1914,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Le retour de Jafar',
     director: 'Toby Shelton, Tad Stones',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1924,7 +1924,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Un jour sans fin',
     director: 'Harold Ramis',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1934,7 +1934,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'La Famille Addams',
     director: 'Barry Sonnenfeld',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1944,7 +1944,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Hook ou la Revanche du capitaine Crochet',
     director: 'Steven Spielberg',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1954,7 +1954,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Edward aux mains d\'argent',
     director: 'Tim Burton',
-    rating: 0,
+    rating: 1,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1964,7 +1964,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Indiana Jones et la Dernière Croisade',
     director: 'Steven Spielberg',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1974,7 +1974,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Beetlejuice',
     director: 'Tim Burton',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1984,7 +1984,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Le Château dans le ciel',
     director: 'Hayao Miyazaki',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1994,7 +1994,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Gremlins',
     director: 'Joe Dante',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2004,7 +2004,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'S.O.S. Fantômes',
     director: 'Ivan Reitman',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2014,7 +2014,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Indiana Jones et le Temple maudit',
     director: 'Steven Spielberg',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2024,7 +2024,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'The Blues Brothers',
     director: 'John Landis',
-    rating: 0,
+    rating: 5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2034,7 +2034,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Grease',
     director: 'Randal Kleiser',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2044,7 +2044,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'La Belle au bois dormant',
     director: 'Clyde Geronimi',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2054,7 +2054,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'La Belle et le Clochard',
     director: 'Clyde Geronimi, Wilfred Jackson',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2064,7 +2064,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Alice au pays des merveilles',
     director: 'Clyde Geronimi, Wilfred Jackson',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2074,7 +2074,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Cendrillon',
     director: 'Clyde Geronimi, Wilfred Jackson',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2084,7 +2084,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Bambi',
     director: 'David Hand',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2094,7 +2094,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Dumbo',
     director: 'Ben Sharpsteen',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2104,7 +2104,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Fantasia',
     director: 'James Algar, Samuel Armstrong',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2114,7 +2114,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Blanche-Neige et les Sept Nains',
     director: 'David Hand',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2124,7 +2124,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Avatar : De feu et de cendres',
     director: 'James Cameron',
-    rating: 0,
+    rating: 4.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2134,7 +2134,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Vaiana 2',
     director: 'David G. Derrick Jr., Jason Hand, Dana Ledoux Miller',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2144,7 +2144,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Beetlejuice Beetlejuice',
     director: 'Tim Burton',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2154,7 +2154,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Godzilla × Kong: The New Empire',
     director: 'Adam Wingard',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2164,7 +2164,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Ghostbusters: Frozen Empire',
     director: 'Gil Kenan',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2184,7 +2184,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Rebel Moon - Partie 1 : Enfant du feu',
     director: 'Zack Snyder',
-    rating: 0,
+    rating: 0.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2194,7 +2194,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'The Creator',
     director: 'Gareth Edwards',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2204,7 +2204,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Blue Beetle',
     director: 'Angel Manuel Soto',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2214,7 +2214,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Nimona',
     director: 'Nick Bruno, Troy Quane',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2224,7 +2224,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Le Visiteur du Futur',
     director: 'François Descraques',
-    rating: 0,
+    rating: 1,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2234,7 +2234,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'The Suicide Squad',
     director: 'James Gunn',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2244,7 +2244,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Space Jam : Nouvelle Ère',
     director: 'Malcolm D. Lee',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2254,7 +2254,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Godzilla vs. Kong',
     director: 'Adam Wingard',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2264,7 +2264,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Sonic the Hedgehog',
     director: 'Jeff Fowler',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2274,7 +2274,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Jumanji: Next Level',
     director: 'Jake Kasdan',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2284,7 +2284,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Zombieland: Double Tap',
     director: 'Ruben Fleischer',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2294,7 +2294,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Men in Black: International',
     director: 'F. Gary Gray',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2304,7 +2304,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Toy Story 4',
     director: 'Josh Cooley',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2314,7 +2314,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Godzilla: King of the Monsters',
     director: 'Michael Dougherty',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2324,7 +2324,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Hellboy',
     director: 'Neil Marshall',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2334,7 +2334,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Nicky Larson Private Eyes',
     director: 'Kenji Kodama',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2354,7 +2354,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Justice League',
     director: 'Zack Snyder',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2364,7 +2364,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Blade Runner 2049',
     director: 'Denis Villeneuve',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2374,7 +2374,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'La Planète des singes : Suprématie',
     director: 'Matt Reeves',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2384,7 +2384,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Life : Origine inconnue',
     director: 'Daniel Espinosa',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2394,7 +2394,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Les Trolls',
     director: 'Mike Mitchell, Walt Dohrn',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2404,7 +2404,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Star Trek : Sans limites',
     director: 'Justin Lin',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2414,7 +2414,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Dernier train pour Busan',
     director: 'Yeon Sang-ho',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2424,7 +2424,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Dragon Ball Z : La Résurrection de \'F\'',
     director: 'Tadayoshi Yamamuro',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2434,7 +2434,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Le Hobbit : La Bataille des Cinq Armées',
     director: 'Peter Jackson',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2444,7 +2444,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'La Planète des singes : l\'affrontement',
     director: 'Matt Reeves',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2454,7 +2454,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Godzilla',
     director: 'Gareth Edwards',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2464,7 +2464,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: '300 : La Naissance d\'un Empire',
     director: 'Noam Murro',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2474,7 +2474,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Le Hobbit : La Désolation de Smaug',
     director: 'Peter Jackson',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2484,7 +2484,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Percy Jackson : La Mer des monstres',
     director: 'Thor Freudenthal',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2494,7 +2494,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Dragon Ball Z: Battle of Gods',
     director: 'Masahiro Hosoda',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2504,7 +2504,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Hansel & Gretel : Witch Hunters',
     director: 'Tommy Wirkola',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2514,7 +2514,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Batman: The Dark Knight Returns, Part 2',
     director: 'Jay Oliva',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2534,7 +2534,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'L\'Âge de glace 4 : La Dérive des continents',
     director: 'Steve Martino, Mike Thurmeier',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2564,7 +2564,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Raiponce',
     director: 'Byron Howard, Nathan Greno',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2574,7 +2574,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Scott Pilgrim',
     director: 'Edgar Wright',
-    rating: 0,
+    rating: 4.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2584,7 +2584,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'La Nuit au musée 2',
     director: 'Shawn Levy',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2594,7 +2594,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Hot Fuzz',
     director: 'Edgar Wright',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2604,7 +2604,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Eragon',
     director: 'Stefen Fangmeier',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2614,7 +2614,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Little Miss Sunshine',
     director: 'Jonathan Dayton, Valerie Faris',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2624,7 +2624,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Le Monde de Narnia : Le Lion, la Sorcière blanche et l\'Armoire magique',
     director: 'Andrew Adamson',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2634,7 +2634,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Le Seigneur des anneaux : Le Retour du roi',
     director: 'Peter Jackson',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2644,7 +2644,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Le Seigneur des anneaux : Les Deux Tours',
     director: 'Peter Jackson',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2654,7 +2654,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Le Seigneur des anneaux : La Communauté de l\'anneau',
     director: 'Peter Jackson',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2664,7 +2664,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Le Voyage de Chihiro',
     director: 'Hayao Miyazaki',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2674,7 +2674,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Kuzco, l\'empereur mégalo',
     director: 'Mark Dindal',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2694,7 +2694,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Dragon Ball Z : L\'Attaque du dragon',
     director: 'Mitsuo Hashimoto',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2704,7 +2704,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Dragon Ball Z : Fusions',
     director: 'Shigeyasu Yamauchi',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2714,7 +2714,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'La Liste de Schindler',
     director: 'Steven Spielberg',
-    rating: 0,
+    rating: 5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2724,7 +2724,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Dragon Ball Z: Bojack Unbound',
     director: 'Yoshihiro Ueda',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2734,7 +2734,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Dragon Ball Z : Broly le super guerrier',
     director: 'Shigeyasu Yamauchi',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2744,7 +2744,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Dragon Ball Z : L\'Histoire de Trunks',
     director: 'Yoshihiro Ueda',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2754,7 +2754,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'S.O.S. Fantômes 2',
     director: 'Ivan Reitman',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2774,7 +2774,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Top Gun',
     director: 'Tony Scott',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2804,7 +2804,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'L\'Histoire sans fin',
     director: 'Wolfgang Petersen',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2814,7 +2814,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Astérix et Cléopâtre',
     director: 'René Goscinny, Albert Uderzo',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2824,7 +2824,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Le Livre de la jungle',
     director: 'Wolfgang Reitherman',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2844,7 +2844,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Pearl Harbor',
     director: 'Michael Bay',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2854,7 +2854,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Avengers',
     director: 'Joss Whedon',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2864,7 +2864,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Avengers : L\'Ère d\'Ultron',
     director: 'Joss Whedon',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2874,7 +2874,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Avengers: Infinity War',
     director: 'Anthony Russo, Joe Russo',
-    rating: 0,
+    rating: 4.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2884,7 +2884,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Avengers: Endgame',
     director: 'Anthony Russo, Joe Russo',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2894,7 +2894,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Captain America : First Avenger',
     director: 'Joe Johnston',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2904,7 +2904,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Captain America : Le Soldat de l\'Hiver',
     director: 'Anthony Russo, Joe Russo',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2914,7 +2914,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Captain America : Civil War',
     director: 'Anthony Russo, Joe Russo',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2924,7 +2924,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Captain America: Brave New World',
     director: 'Julius Onah',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2934,7 +2934,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Iron Man',
     director: 'Jon Favreau',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2944,7 +2944,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Iron Man 2',
     director: 'Jon Favreau',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2954,7 +2954,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Iron Man 3',
     director: 'Shane Black',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2964,7 +2964,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'L\'Incroyable Hulk',
     director: 'Louis Leterrier',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2974,7 +2974,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Thor',
     director: 'Kenneth Branagh',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2984,7 +2984,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Thor: The Dark World',
     director: 'Alan Taylor',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -2994,7 +2994,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Thor: Ragnarok',
     director: 'Taika Waititi',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3004,7 +3004,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Thor : Love & Thunder',
     director: 'Taika Waititi',
-    rating: 0,
+    rating: 0.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3014,7 +3014,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Captain Marvel',
     director: 'Anna Boden, Ryan Fleck',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3024,7 +3024,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Les Marvels',
     director: 'Nia DaCosta',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3034,7 +3034,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Shang-Chi et la Légende des Dix Anneaux',
     director: 'Destin Daniel Cretton',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3044,7 +3044,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Doctor Strange',
     director: 'Scott Derrickson',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3054,7 +3054,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Doctor Strange dans le Multivers de la Folie',
     director: 'Sam Raimi',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3064,7 +3064,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Black Panther',
     director: 'Ryan Coogler',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3074,7 +3074,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Black Panther : Wakanda pour Toujours',
     director: 'Ryan Coogler',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3084,7 +3084,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Les Gardiens de la Galaxie',
     director: 'James Gunn',
-    rating: 0,
+    rating: 4.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3094,7 +3094,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Les Gardiens de la Galaxie Vol. 2',
     director: 'James Gunn',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3104,7 +3104,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Les Gardiens de la Galaxie Vol. 3',
     director: 'James Gunn',
-    rating: 0,
+    rating: 4.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3114,7 +3114,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Ant-Man',
     director: 'Peyton Reed',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3124,7 +3124,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Ant-Man et la Guêpe',
     director: 'Peyton Reed',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3134,7 +3134,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Ant-Man et la Guêpe : Quantumania',
     director: 'Peyton Reed',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3144,7 +3144,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Spider-Man: Homecoming',
     director: 'Jon Watts',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3154,7 +3154,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Spider-Man: Far From Home',
     director: 'Jon Watts',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3164,7 +3164,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Spider-Man : No Way Home',
     director: 'Jon Watts',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3174,7 +3174,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Black Widow',
     director: 'Cate Shortland',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3184,7 +3184,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Les Éternels',
     director: 'Chloé Zhao',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3194,7 +3194,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Deadpool et Wolverine',
     director: 'Shawn Levy',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3204,7 +3204,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Deadpool',
     director: 'Tim Miller',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3214,7 +3214,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Deadpool 2',
     director: 'David Leitch',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3224,7 +3224,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Daredevil',
     director: 'Mark Steven Johnson',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3234,7 +3234,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'X-Men',
     director: 'Bryan Singer',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3244,7 +3244,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'X-men 2',
     director: 'Bryan Singer',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3254,7 +3254,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'X-Men : L\'Affrontement Final',
     director: 'Brett Ratner',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3264,7 +3264,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'X-Men Origins : Wolverine',
     director: 'Gavin Hood',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3274,7 +3274,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'The Wolverine',
     director: 'James Mangold',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3284,7 +3284,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'X-Men : Le Commencement',
     director: 'Matthew Vaughn',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3294,7 +3294,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'X-Men : Days of Future Past',
     director: 'Bryan Singer',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3304,7 +3304,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Venom',
     director: 'Ruben Fleischer',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3314,7 +3314,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Venom : Let There Be Carnage',
     director: 'Andy Serkis',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3324,7 +3324,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Spider-Man',
     director: 'Sam Raimi',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3334,7 +3334,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Spider-Man 2',
     director: 'Sam Raimi',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3344,7 +3344,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Spider-Man 3',
     director: 'Sam Raimi',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3354,7 +3354,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'The Amazing Spider-Man',
     director: 'Marc Webb',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3364,7 +3364,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'The Amazing Spider-Man : Le Destin d\'un Héros',
     director: 'Marc Webb',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3374,7 +3374,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Kick-Ass',
     director: 'Matthew Vaughn',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3384,7 +3384,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Kick-Ass 2',
     director: 'Jeff Wadlow',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3394,7 +3394,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Hancock',
     director: 'Peter Berg',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3404,7 +3404,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Les 4 Fantastiques',
     director: 'Tim Story',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3414,7 +3414,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Les 4 Fantastiques et le Surfeur d\'Argent',
     director: 'Tim Story',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3424,7 +3424,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Ghost Rider',
     director: 'Mark Steven Johnson',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3434,7 +3434,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Sky High',
     director: 'Mike Mitchell',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3444,7 +3444,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Hulk',
     director: 'Ang Lee',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3454,7 +3454,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Harry Potter à l\'école des sorciers',
     director: 'Chris Columbus',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3464,7 +3464,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Harry Potter et la chambre des secrets',
     director: 'Chris Columbus',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3474,7 +3474,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Harry Potter et le prisonnier d\'Azkaban',
     director: 'Alfonso Cuarón',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3484,7 +3484,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Harry Potter et la coupe de feu',
     director: 'Mike Newell',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3494,7 +3494,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Harry Potter et l\'ordre du phénix',
     director: 'David Yates',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3504,7 +3504,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Harry Potter et le prince de sang-mêlé',
     director: 'David Yates',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3514,7 +3514,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Harry Potter et les reliques de la mort - partie 1',
     director: 'David Yates',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3524,7 +3524,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Harry Potter et les reliques de la mort - partie 2',
     director: 'David Yates',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3534,7 +3534,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Star Wars : Épisode 1 - La menace fantôme',
     director: 'George Lucas',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3544,7 +3544,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Star Wars: Episode 2 - L\'attaque des clones',
     director: 'George Lucas',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3554,7 +3554,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Star Wars : Épisode 3 - La revanche des Sith',
     director: 'George Lucas',
-    rating: 0,
+    rating: 4.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3564,7 +3564,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Star Wars : Episode 4 - Un nouvel espoir',
     director: 'George Lucas',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3574,7 +3574,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Star Wars : Episode 5 - L\'empire contre-attaque',
     director: 'Irvin Kershner',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3584,7 +3584,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Star Wars : Episode 6 - Le retour du Jedi',
     director: 'Richard Marquand',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3594,7 +3594,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Star Wars : Episode 7 - Le réveil de la Force',
     director: 'J.J. Abrams',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3614,7 +3614,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Star Wars : Episode 9 - L\'ascension de Skywalker',
     director: 'J.J. Abrams',
-    rating: 0,
+    rating: 0.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3624,7 +3624,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Solo: A Star Wars Story',
     director: 'Ron Howard',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3634,7 +3634,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Rogue One : A Star Wars Story',
     director: 'Gareth Edwards',
-    rating: 0,
+    rating: 4.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3644,7 +3644,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Fast and Furious',
     director: 'Rob Cohen',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3654,7 +3654,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: '2 Fast 2 Furious',
     director: 'John Singleton',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3664,7 +3664,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Fast and Furious : Tokyo Drift',
     director: 'Justin Lin',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3674,7 +3674,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Rocky',
     director: 'John G. Avildsen',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3684,7 +3684,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'The Terminator',
     director: 'James Cameron',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3694,7 +3694,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Terminator 2: Judgment Day',
     director: 'James Cameron',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3704,7 +3704,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Terminator 3: Rise of the Machines',
     director: 'Jonathan Mostow',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3714,7 +3714,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Scooby-Doo',
     director: 'Raja Gosnell',
-    rating: 0,
+    rating: 1,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3724,7 +3724,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Matrix',
     director: 'Lana Wachowski, Lilly Wachowski',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3734,7 +3734,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'The Matrix Reloaded',
     director: 'Lana Wachowski, Lilly Wachowski',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3744,7 +3744,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Men in Black',
     director: 'Barry Sonnenfeld',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3754,7 +3754,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Men in Black II',
     director: 'Barry Sonnenfeld',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3764,7 +3764,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Men in Black 3',
     director: 'Barry Sonnenfeld',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3774,7 +3774,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Lara Croft : Tomb Raider',
     director: 'Simon West',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3784,7 +3784,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Tomb Raider : le berceau de la vie',
     director: 'Jan de Bont',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3794,7 +3794,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'La Momie',
     director: 'Stephen Sommers',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3804,7 +3804,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Le Retour de la Momie',
     director: 'Stephen Sommers',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3814,7 +3814,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'La momie : la tombe de l\'empereur dragon',
     director: 'Rob Cohen',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3824,7 +3824,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Predator',
     director: 'John McTiernan',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3834,7 +3834,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Predator 2',
     director: 'Stephen Hopkins',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3844,7 +3844,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Alien',
     director: 'Ridley Scott',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3854,7 +3854,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Aliens',
     director: 'James Cameron',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3864,7 +3864,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Alien 3',
     director: 'David Fincher',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3874,7 +3874,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Alien : La Résurrection',
     director: 'Jean-Pierre Jeunet',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3884,7 +3884,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Alien vs. Predator',
     director: 'Paul W.S. Anderson',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3894,7 +3894,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Alien vs. Predator : Requiem',
     director: 'Colin Strause, Greg Strause',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3904,7 +3904,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Independence Day',
     director: 'Roland Emmerich',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3914,7 +3914,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Maman j\'ai raté l\'avion',
     director: 'Chris Columbus',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3924,7 +3924,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Maman j\'ai raté l\'avion 2',
     director: 'Chris Columbus',
-    rating: 0,
+    rating: 1.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3934,7 +3934,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Retour vers le futur',
     director: 'Robert Zemeckis',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3944,7 +3944,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Retour vers le futur 2',
     director: 'Robert Zemeckis',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3954,7 +3954,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Retour vers le futur 3',
     director: 'Robert Zemeckis',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3964,7 +3964,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Transformers',
     director: 'Michael Bay',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3974,7 +3974,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Transformers 2 : La Revanche',
     director: 'Michael Bay',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3984,7 +3984,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Transformers 3 : La Face Cachée de la Lune',
     director: 'Michael Bay',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -3994,7 +3994,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Very Bad Trip',
     director: 'Todd Phillips',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4004,7 +4004,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Very Bad Trip 2',
     director: 'Todd Phillips',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4014,7 +4014,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Die Hard : Piège de cristal',
     director: 'John McTiernan',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4024,7 +4024,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Die Hard 2 : 58 minutes pour vivre',
     director: 'Renny Harlin',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4034,7 +4034,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Die Hard 3 : une journée en enfer',
     director: 'John McTiernan',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4044,7 +4044,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Die Hard 4 : Retour en Enfer',
     director: 'Len Wiseman',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4054,7 +4054,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Die Hard : Belle Journée pour Mourir',
     director: 'John Moore',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4064,7 +4064,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Dune',
     director: 'Denis Villeneuve',
-    rating: 0,
+    rating: 4.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4074,7 +4074,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Dune : Partie 2',
     director: 'Denis Villeneuve',
-    rating: 0,
+    rating: 4.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4084,7 +4084,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'John Wick',
     director: 'Chad Stahelski',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4094,7 +4094,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'John Wick : Chapitre 2',
     director: 'Chad Stahelski',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4104,7 +4104,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'John Wick: Chapter 3 - Parabellum',
     director: 'Chad Stahelski',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4114,7 +4114,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Les Animaux Fantastiques',
     director: 'David Yates',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4124,7 +4124,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Les Animaux Fantastiques 2 : Les crimes de Grindelwald',
     director: 'David Yates',
-    rating: 0,
+    rating: 1,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4134,7 +4134,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Enola Holmes',
     director: 'Harry Bradbeer',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4144,7 +4144,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Enola Holmes 2',
     director: 'Harry Bradbeer',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4154,7 +4154,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'A couteaux tirés',
     director: 'Rian Johnson',
-    rating: 0,
+    rating: 4.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4164,7 +4164,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'A couteaux tirés 2 : Glass Onion',
     director: 'Rian Johnson',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4174,7 +4174,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Wake up dead man : une histoire à couteaux tirés',
     director: 'Rian Johnson',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4184,7 +4184,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'James Bond : Skyfall',
     director: 'Sam Mendes',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4194,7 +4194,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'OSS 117 : Le Caire, Nid d\'Espions',
     director: 'Michel Hazanavicius',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4204,7 +4204,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'OSS 117 : Rio ne Répond Plus',
     director: 'Michel Hazanavicius',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4214,7 +4214,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'OSS 117 : Alerte Rouge en Afrique Noire',
     director: 'Nicolas Bedos',
-    rating: 0,
+    rating: 1,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4224,7 +4224,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Incassable',
     director: 'M. Night Shyamalan',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4234,7 +4234,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'La nuit au musée',
     director: 'Shawn Levy',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4254,7 +4254,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Resident Evil',
     director: 'Paul W.S. Anderson',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4264,7 +4264,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Resident Evil : Apocalypse',
     director: 'Alexander Witt',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4274,7 +4274,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Ocean\'s Eleven',
     director: 'Steven Soderbergh',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4284,7 +4284,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Pirates des Caraïbes : La malédiction du Black Pearl',
     director: 'Gore Verbinski',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4294,7 +4294,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Pirates des Caraïbes 2 : Le Secret du Coffre Maudit',
     director: 'Gore Verbinski',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4304,7 +4304,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Pirates des Caraïbes 3 : Jusqu\'au Bout du Monde',
     director: 'Gore Verbinski',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4314,7 +4314,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Taxi',
     director: 'Gérard Pirès',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4324,7 +4324,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Taxi 2',
     director: 'Gérard Krawczyk',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4354,7 +4354,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Scary Movie',
     director: 'Keenen Ivory Wayans',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4364,7 +4364,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Scary Movie 2',
     director: 'Keenen Ivory Wayans',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4374,7 +4374,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Scary Movie 3',
     director: 'David Zucker',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4384,7 +4384,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Scary Movie 4',
     director: 'David Zucker',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4394,7 +4394,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Kill Bill: Vol. 1',
     director: 'Quentin Tarantino',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4404,7 +4404,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Kill Bill: Vol. 2',
     director: 'Quentin Tarantino',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4414,7 +4414,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Hellboy',
     director: 'Guillermo del Toro',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4424,7 +4424,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Hellboy 2 : Les Légions d\'Or Maudites',
     director: 'Guillermo del Toro',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4434,7 +4434,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Les bronzés',
     director: 'Patrice Leconte',
-    rating: 0,
+    rating: 1,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4444,7 +4444,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Les bronzés font du ski',
     director: 'Patrice Leconte',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4454,7 +4454,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Les Bronzés 3 : Amis pour la Vie',
     director: 'Patrice Leconte',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4464,7 +4464,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Sin City',
     director: 'Frank Miller, Robert Rodriguez',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4474,7 +4474,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Blade',
     director: 'Stephen Norrington',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4484,7 +4484,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Blade II',
     director: 'Guillermo del Toro',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4494,7 +4494,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Blade : Trinity',
     director: 'David S. Goyer',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4504,7 +4504,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Destination Finale',
     director: 'James Wong',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4514,7 +4514,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Avatar',
     director: 'James Cameron',
-    rating: 0,
+    rating: 4.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4524,7 +4524,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'Avatar 2 : La Voie de l\'Eau',
     director: 'James Cameron',
-    rating: 0,
+    rating: 4.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4534,7 +4534,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'American Pie',
     director: 'Paul Weitz, Chris Weitz',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -4544,7 +4544,7 @@ export const bastienMovies: UserMovie[] = [
   {
     title: 'American Pie 2',
     director: 'J.B. Rogers',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
