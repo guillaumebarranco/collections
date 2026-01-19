@@ -13,6 +13,16 @@ interface TodoItem {
   count: number;
 }
 
+interface TodoSection {
+  title: string;
+  items: TodoItem[];
+}
+
+interface EmptySection {
+  title: string;
+  message: string;
+}
+
 @Component({
   selector: 'app-dashboard-user-todos',
   standalone: true,
@@ -34,8 +44,10 @@ export class DashboardUserTodosComponent {
   @Input() readlistMangas: Manga[] = [];
   @Input() readlistManwhas: Manwha[] = [];
 
-  get todoItems(): TodoItem[] {
-    const items: TodoItem[] = [];
+  get todoSections(): TodoSection[] {
+    const sections: TodoSection[] = [];
+
+    const movieItems: TodoItem[] = [];
 
     const missingMovieRatings = this.countMissing(this.movies, (m) => m.rating);
     const missingMovieTimes = this.countMissing(
@@ -43,17 +55,22 @@ export class DashboardUserTodosComponent {
       (m) => m.timesWatched
     );
     if (missingMovieRatings > 0) {
-      items.push({ label: 'Films sans note', count: missingMovieRatings });
+      movieItems.push({ label: 'Films sans note', count: missingMovieRatings });
     }
     if (missingMovieTimes > 0) {
-      items.push({
+      movieItems.push({
         label: 'Films sans nombre de visionnages',
         count: missingMovieTimes,
       });
     }
     if (this.movies.length > 0 && this.watchlistMovies.length === 0) {
-      items.push({ label: 'Films sans watchlist', count: 1 });
+      movieItems.push({ label: 'Films sans watchlist', count: 1 });
     }
+    if (movieItems.length > 0) {
+      sections.push({ title: '🎬 Films', items: movieItems });
+    }
+
+    const seriesItems: TodoItem[] = [];
 
     const missingSerieRatings = this.countMissing(this.series, (s) => s.rating);
     const missingSerieTimes = this.countMissing(
@@ -61,17 +78,25 @@ export class DashboardUserTodosComponent {
       (s) => s.timesWatched
     );
     if (missingSerieRatings > 0) {
-      items.push({ label: 'Séries sans note', count: missingSerieRatings });
+      seriesItems.push({
+        label: 'Séries sans note',
+        count: missingSerieRatings,
+      });
     }
     if (missingSerieTimes > 0) {
-      items.push({
+      seriesItems.push({
         label: 'Séries sans nombre de visionnages',
         count: missingSerieTimes,
       });
     }
     if (this.series.length > 0 && this.watchlistSeries.length === 0) {
-      items.push({ label: 'Séries sans watchlist', count: 1 });
+      seriesItems.push({ label: 'Séries sans watchlist', count: 1 });
     }
+    if (seriesItems.length > 0) {
+      sections.push({ title: '📺 Séries', items: seriesItems });
+    }
+
+    const bookItems: TodoItem[] = [];
 
     const missingBookRatings = this.countMissing(this.books, (b) => b.rating);
     const missingBookTimes = this.countMissing(
@@ -79,17 +104,22 @@ export class DashboardUserTodosComponent {
       (b) => b.readTimes
     );
     if (missingBookRatings > 0) {
-      items.push({ label: 'Livres sans note', count: missingBookRatings });
+      bookItems.push({ label: 'Livres sans note', count: missingBookRatings });
     }
     if (missingBookTimes > 0) {
-      items.push({
+      bookItems.push({
         label: 'Livres sans nombre de lectures',
         count: missingBookTimes,
       });
     }
     if (this.books.length > 0 && this.readlistBooks.length === 0) {
-      items.push({ label: 'Livres sans readlist', count: 1 });
+      bookItems.push({ label: 'Livres sans readlist', count: 1 });
     }
+    if (bookItems.length > 0) {
+      sections.push({ title: '📖 Livres', items: bookItems });
+    }
+
+    const mangaItems: TodoItem[] = [];
 
     const missingMangaRatings = this.countMissing(this.mangas, (m) => m.rating);
     const missingMangaTimes = this.countMissing(
@@ -97,17 +127,22 @@ export class DashboardUserTodosComponent {
       (m) => m.readTimes
     );
     if (missingMangaRatings > 0) {
-      items.push({ label: 'Mangas sans note', count: missingMangaRatings });
+      mangaItems.push({ label: 'Mangas sans note', count: missingMangaRatings });
     }
     if (missingMangaTimes > 0) {
-      items.push({
+      mangaItems.push({
         label: 'Mangas sans nombre de lectures',
         count: missingMangaTimes,
       });
     }
     if (this.mangas.length > 0 && this.readlistMangas.length === 0) {
-      items.push({ label: 'Mangas sans readlist', count: 1 });
+      mangaItems.push({ label: 'Mangas sans readlist', count: 1 });
     }
+    if (mangaItems.length > 0) {
+      sections.push({ title: '📚 Mangas', items: mangaItems });
+    }
+
+    const manwhaItems: TodoItem[] = [];
 
     const missingManwhaRatings = this.countMissing(
       this.manwhas,
@@ -118,17 +153,25 @@ export class DashboardUserTodosComponent {
       (m) => m.readTimes
     );
     if (missingManwhaRatings > 0) {
-      items.push({ label: 'Manwhas sans note', count: missingManwhaRatings });
+      manwhaItems.push({
+        label: 'Manwhas sans note',
+        count: missingManwhaRatings,
+      });
     }
     if (missingManwhaTimes > 0) {
-      items.push({
+      manwhaItems.push({
         label: 'Manwhas sans nombre de lectures',
         count: missingManwhaTimes,
       });
     }
     if (this.manwhas.length > 0 && this.readlistManwhas.length === 0) {
-      items.push({ label: 'Manwhas sans readlist', count: 1 });
+      manwhaItems.push({ label: 'Manwhas sans readlist', count: 1 });
     }
+    if (manwhaItems.length > 0) {
+      sections.push({ title: '📗 Manwhas', items: manwhaItems });
+    }
+
+    const gameItems: TodoItem[] = [];
 
     const missingGameRatings = this.countMissing(this.games, (g) => g.rating);
     const missingGameTimes = this.countMissing(
@@ -136,14 +179,19 @@ export class DashboardUserTodosComponent {
       (g) => g.timesFinished
     );
     if (missingGameRatings > 0) {
-      items.push({ label: 'Jeux sans note', count: missingGameRatings });
+      gameItems.push({ label: 'Jeux sans note', count: missingGameRatings });
     }
     if (missingGameTimes > 0) {
-      items.push({
+      gameItems.push({
         label: 'Jeux sans nombre de fins',
         count: missingGameTimes,
       });
     }
+    if (gameItems.length > 0) {
+      sections.push({ title: '🎮 Jeux', items: gameItems });
+    }
+
+    const musicItems: TodoItem[] = [];
 
     const missingMusicRatings = this.countMissing(
       this.musics,
@@ -154,27 +202,47 @@ export class DashboardUserTodosComponent {
       (m) => m.timesListened
     );
     if (missingMusicRatings > 0) {
-      items.push({ label: 'Musiques sans note', count: missingMusicRatings });
+      musicItems.push({
+        label: 'Musiques sans note',
+        count: missingMusicRatings,
+      });
     }
     if (missingMusicTimes > 0) {
-      items.push({
+      musicItems.push({
         label: "Musiques sans nombre d'écoutes",
         count: missingMusicTimes,
       });
     }
+    if (musicItems.length > 0) {
+      sections.push({ title: '🎵 Musiques', items: musicItems });
+    }
 
-    return items;
+    return sections;
   }
 
-  get emptyEntities(): string[] {
-    const empty: string[] = [];
-    if (this.movies.length === 0) empty.push('films');
-    if (this.series.length === 0) empty.push('séries');
-    if (this.books.length === 0) empty.push('livres');
-    if (this.mangas.length === 0) empty.push('mangas');
-    if (this.manwhas.length === 0) empty.push('manwhas');
-    if (this.games.length === 0) empty.push('jeux');
-    if (this.musics.length === 0) empty.push('musiques');
+  get emptyEntitySections(): EmptySection[] {
+    const empty: EmptySection[] = [];
+    if (this.movies.length === 0) {
+      empty.push({ title: '🎬 Films', message: "Vous n'avez pas encore de films." });
+    }
+    if (this.series.length === 0) {
+      empty.push({ title: '📺 Séries', message: "Vous n'avez pas encore de séries." });
+    }
+    if (this.books.length === 0) {
+      empty.push({ title: '📖 Livres', message: "Vous n'avez pas encore de livres." });
+    }
+    if (this.mangas.length === 0) {
+      empty.push({ title: '📚 Mangas', message: "Vous n'avez pas encore de mangas." });
+    }
+    if (this.manwhas.length === 0) {
+      empty.push({ title: '📗 Manwhas', message: "Vous n'avez pas encore de manwhas." });
+    }
+    if (this.games.length === 0) {
+      empty.push({ title: '🎮 Jeux', message: "Vous n'avez pas encore de jeux." });
+    }
+    if (this.musics.length === 0) {
+      empty.push({ title: '🎵 Musiques', message: "Vous n'avez pas encore de musiques." });
+    }
     return empty;
   }
 

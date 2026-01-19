@@ -1,26 +1,38 @@
-@if (todoItems.length === 0 && emptyEntities.length === 0) {
+@if (todoSections.length === 0 && emptyEntitySections.length === 0) {
 <p class="no-data">Aucune action en attente.</p>
 } @else {
-@if (todoItems.length > 0) {
+@if (todoSections.length > 0) {
 <div class="todo-section">
   <h3>À compléter</h3>
-  <ul class="todo-list">
-    @for (todo of todoItems; track todo.label) {
-    <li class="todo-item">
-      <span class="todo-label">{{ todo.label }}</span>
-      <span class="todo-count">{{ todo.count }}</span>
-    </li>
+  <div class="todo-entities">
+    @for (section of todoSections; track section.title) {
+    <div class="todo-entity">
+      <h4>{{ section.title }}</h4>
+      <ul class="todo-list">
+        @for (todo of section.items; track todo.label) {
+        <li class="todo-item">
+          <span class="todo-label">{{ todo.label }}</span>
+          <span class="todo-count">{{ todo.count }}</span>
+        </li>
+        }
+      </ul>
+    </div>
     }
-  </ul>
+  </div>
 </div>
 }
 
-@if (emptyEntities.length > 0) {
+@if (emptyEntitySections.length > 0) {
 <div class="todo-section">
   <h3>À ajouter</h3>
-  <p class="empty-entities">
-    Vous n'avez pas encore de données pour : {{ emptyEntities.join(', ') }}.
-  </p>
+  <div class="todo-entities">
+    @for (section of emptyEntitySections; track section.title) {
+    <div class="todo-entity">
+      <h4>{{ section.title }}</h4>
+      <p class="empty-entities">{{ section.message }}</p>
+    </div>
+    }
+  </div>
 </div>
 }
 }
