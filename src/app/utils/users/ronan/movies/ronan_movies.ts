@@ -8509,4 +8509,274 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '2026-01-16',
     seenAtCinema: false,
   },
+
+  {
+    title: 'Leon',
+    director: 'Luc Besson',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+  },
+
+  {
+    title: 'Prédictions',
+    director: 'Alex Proyas',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+  },
+
+  {
+    title: 'Vice-Versa 2',
+    director: 'Kelsey Mann',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+  },
+
+  {
+    title: 'Furiosa',
+    director: 'George Miller',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+  },
+
+  {
+    title: 'Mad Max: Fury Road',
+    director: 'George Miller',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+  },
+
+  {
+    title: 'L\'amour au présent',
+    director: 'John Crowley',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+  },
+
+  {
+    title: 'Sinners',
+    director: 'Ryan Coogler',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+  },
+
+  {
+    title: 'Predestination',
+    director: 'Michael Spierig, Peter Spierig',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+  },
+
+  {
+    title: 'Looper',
+    director: 'Rian Johnson',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+  },
+
+  {
+    title: 'Nobody',
+    director: 'Ilya Naishuller',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+  },
+
+  {
+    title: 'Uncut Gems',
+    director: 'Josh Safdie, Benny Safdie',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+  },
+
+  {
+    title: 'Once Upon a Time in Hollywood',
+    director: 'Quentin Tarantino',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+  },
+
+  {
+    title: 'L\'Âge de Glace 3 : Le Temps des Dinosaures',
+    director: 'Carlos Saldanha',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+  },
+
+  {
+    title: 'One Piece: Red',
+    director: 'Gorō Taniguchi',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+  },
+
+  {
+    title: 'Kuzco, l\'Empereur mégalo',
+    director: 'Mark Dindal',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+  },
+
+  {
+    title: 'Le Labyrinthe : La Terre brûlée',
+    director: 'Wes Ball',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+  },
+
+  {
+    title: 'Les Seigneurs',
+    director: 'Olivier Dahan',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+  },
+
+  {
+    title: 'L\'Âge de glace 4 : La Dérive des continents',
+    director: 'Steve Martino, Mike Thurmeier',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+  },
+
+  {
+    title: 'Le Monde de Narnia : Le Lion, la Sorcière blanche et l\'Armoire magique',
+    director: 'Andrew Adamson',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+  },
+
+  {
+    title: '40 ans, toujours puceau',
+    director: 'Judd Apatow',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+  },
+
+  {
+    title: 'Les Choristes',
+    director: 'Christophe Barratier',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+  },
+
+  {
+    title: 'La Cité de la peur',
+    director: 'Alain Berbérian',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+  },
+
+  {
+    title: 'L\'arme fatale 2',
+    director: 'Richard Donner',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+  },
+
+  {
+    title: 'L\'arme fatale 3',
+    director: 'Richard Donner',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+  },
+
+  {
+    title: 'Maman j\'ai raté l\'avion 2',
+    director: 'Chris Columbus',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+  },
+
+  {
+    title: 'Ocean\'s Twelve',
+    director: 'Steven Soderbergh',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+  },
+
+  {
+    title: 'Ocean\'s Thirteen',
+    director: 'Steven Soderbergh',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+  },
 ];

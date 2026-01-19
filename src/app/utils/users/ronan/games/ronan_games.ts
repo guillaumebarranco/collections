@@ -1097,4 +1097,49 @@ export const ronanGames: UserGame[] = [
     additionnalEstimatedTime: 0,
     platined: false,
   }
+,
+  {
+    title: 'Pokémon Émeraude',
+    editor: 'Game Freak',
+    rating: 0,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Dragon Ball Z: Budokai 2',
+    editor: 'Dimps',
+    rating: 0,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Dragon Ball Z: Budokai Tenkaichi 2',
+    editor: 'Spike',
+    rating: 0,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Need for Speed: Most Wanted',
+    editor: 'Electronic Arts',
+    rating: 0,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Pokémon Bleu',
+    editor: 'Game Freak',
+    rating: 0,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
 ];
