@@ -188,15 +188,15 @@ export const bastienSeries: UserSerie[] = [
   {
     title: 'South Park',
     director: 'Trey Parker, Matt Stone',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
-    stoppedAtSeason: 0,
+    stoppedAtSeason: 12,
   },
 
   {
     title: 'Squid Game',
     director: 'Hwang Dong-hyuk',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     stoppedAtSeason: 0,
   },
@@ -204,7 +204,7 @@ export const bastienSeries: UserSerie[] = [
   {
     title: 'Stranger Things',
     director: 'The Duffer Brothers',
-    rating: 0,
+    rating: 4.5,
     timesWatched: 1,
     stoppedAtSeason: 0,
   },
@@ -212,15 +212,15 @@ export const bastienSeries: UserSerie[] = [
   {
     title: 'Supernatural',
     director: 'Eric Kripke',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
-    stoppedAtSeason: 0,
+    stoppedAtSeason: 5,
   },
 
   {
     title: 'The Boys',
     director: 'Eric Kripke',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     stoppedAtSeason: 0,
   },
@@ -228,7 +228,7 @@ export const bastienSeries: UserSerie[] = [
   {
     title: 'The Defenders',
     director: 'Douglas Petrie, Marco Ramirez',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     stoppedAtSeason: 0,
   },
@@ -236,7 +236,7 @@ export const bastienSeries: UserSerie[] = [
   {
     title: 'The Falcon and the Winter Soldier',
     director: 'Malcolm Spellman',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     stoppedAtSeason: 0,
   },
@@ -244,7 +244,7 @@ export const bastienSeries: UserSerie[] = [
   {
     title: 'The Office',
     director: 'Greg Daniels',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     stoppedAtSeason: 0,
   },
@@ -252,7 +252,7 @@ export const bastienSeries: UserSerie[] = [
   {
     title: 'The Shannara Chronicles',
     director: 'Alfred Gough, Miles Millar',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     stoppedAtSeason: 0,
   },
@@ -260,7 +260,7 @@ export const bastienSeries: UserSerie[] = [
   {
     title: 'The Punisher',
     director: 'Steve Lightfoot',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     stoppedAtSeason: 0,
   },
@@ -268,7 +268,7 @@ export const bastienSeries: UserSerie[] = [
   {
     title: 'WandaVision',
     director: 'Matt Shakman',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     stoppedAtSeason: 0,
   },
@@ -276,7 +276,7 @@ export const bastienSeries: UserSerie[] = [
   {
     title: 'Yu Yu Hakusho (live-action)',
     director: 'Shô Tsukikawa',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     stoppedAtSeason: 0,
   },
