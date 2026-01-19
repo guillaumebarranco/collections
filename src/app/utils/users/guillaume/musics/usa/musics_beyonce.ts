@@ -1,59 +1,34 @@
-import { Music } from '../../../../../models/music-model';
+import { UserMusic } from '../../../../../models/music-model';
 
-export const musicsBeyonce: Music[] = [
+export const musicsBeyonce: UserMusic[] = [
   {
     title: 'Run the World (Girls)',
     artist: 'Beyoncé',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
     rating: 0,
-    duration: 180,
-    genre: 'Unknown',
     timesListened: 150,
   },
   {
     title: 'Crazy In Love (feat. Jay-Z)',
     artist: 'Beyoncé',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
     rating: 0,
-    duration: 180,
-    genre: 'Unknown',
     timesListened: 100,
   },
   {
     title: 'Single Ladies (Put a Ring on It)',
     artist: 'Beyoncé',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
     rating: 0,
-    duration: 180,
-    genre: 'Unknown',
     timesListened: 150,
   },
   {
     title: 'Halo',
     artist: 'Beyoncé',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
     rating: 0,
-    duration: 180,
-    genre: 'Unknown',
     timesListened: 20,
   },
   {
     title: 'Survivor',
     artist: "Destiny's Child",
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
     rating: 0,
-    duration: 180,
-    genre: 'Unknown',
     timesListened: 50,
   },
 ];

@@ -1,0 +1,46 @@
+import { BaseMusic } from '../../../../models/music-model';
+
+export const musicsMichaelJackson: BaseMusic[] = [
+  {
+    title: 'You Rock My World',
+    artist: 'Michael Jackson',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',    duration: 180,
+    genre: 'Unknown',  },
+  {
+    title: 'Smooth Criminal',
+    artist: 'Michael Jackson',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',    duration: 180,
+    genre: 'Unknown',  },
+  {
+    title: 'Beat It',
+    artist: 'Michael Jackson',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',    duration: 180,
+    genre: 'Unknown',  },
+  {
+    title: 'Billie Jean',
+    artist: 'Michael Jackson',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',    duration: 180,
+    genre: 'Unknown',  },
+  {
+    title: 'Thriller',
+    artist: 'Michael Jackson',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',    duration: 180,
+    genre: 'Unknown',  },
+  {
+    title: 'Bad - 2012 Remaster',
+    artist: 'Michael Jackson',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',    duration: 180,
+    genre: 'Unknown',  },
+];

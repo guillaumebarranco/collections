@@ -1,0 +1,46 @@
+import { BaseMusic } from '../../../../models/music-model';
+
+export const musicsBritneySpears: BaseMusic[] = [
+  {
+    title: 'Break the Ice',
+    artist: 'Britney Spears',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',    duration: 180,
+    genre: 'Unknown',  },
+  {
+    title: 'Toxic',
+    artist: 'Britney Spears',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',    duration: 180,
+    genre: 'Unknown',  },
+  {
+    title: 'Womanizer',
+    artist: 'Britney Spears',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',    duration: 180,
+    genre: 'Unknown',  },
+  {
+    title: 'Circus',
+    artist: 'Britney Spears',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',    duration: 180,
+    genre: 'Unknown',  },
+  {
+    title: 'Oops!...I Did It Again',
+    artist: 'Britney Spears',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',    duration: 180,
+    genre: 'Unknown',  },
+  {
+    title: '...Baby One More Time',
+    artist: 'Britney Spears',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',    duration: 180,
+    genre: 'Unknown',  },
+];
