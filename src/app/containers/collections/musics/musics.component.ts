@@ -44,6 +44,7 @@ export class MusicsComponent {
   selectedSort = signal<string>('rating');
   selectedViewMode = signal<string>('albums'); // 'albums' ou 'all'
   selectedFilter = signal<string>('popular'); // 'all' ou 'popular'
+  searchTerm = signal<string>('');
 
   // Modal d'album
   isAlbumModalOpen = signal<boolean>(false);
@@ -107,7 +108,12 @@ export class MusicsComponent {
       filtered = filtered.filter((music) => music.timesListened > 1);
     }
 
-    return filtered;
+    const term = this.searchTerm().trim().toLowerCase();
+    if (!term) {
+      return filtered;
+    }
+
+    return filtered.filter((music) => this.matchesSearch(music, term));
   });
 
   completeAlbums = computed<Album[]>(() => {
@@ -274,6 +280,10 @@ export class MusicsComponent {
     this.selectedFilter.set(filter);
   }
 
+  onSearchChange(value: string) {
+    this.searchTerm.set(value);
+  }
+
   getSelectMusicsRoute(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
@@ -337,5 +347,22 @@ export class MusicsComponent {
   closeAlbumModal() {
     this.isAlbumModalOpen.set(false);
     this.selectedAlbum.set(null);
+  }
+
+  private matchesSearch(music: Music, term: string): boolean {
+    const haystack = [music.title, music.artist, music.album, music.genre]
+      .filter(Boolean)
+      .join(' ');
+
+    const normalizedHaystack = this.normalizeSearchText(haystack);
+    const normalizedTerm = this.normalizeSearchText(term);
+    return normalizedHaystack.includes(normalizedTerm);
+  }
+
+  private normalizeSearchText(value: string): string {
+    return value
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase();
   }
 }

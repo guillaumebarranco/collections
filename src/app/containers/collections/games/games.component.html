@@ -90,6 +90,15 @@
     </app-sort-dropdown>
   </div>
 
+  <div class="games-search">
+    <input
+      type="text"
+      placeholder="Rechercher par titre, éditeur, plateforme..."
+      [ngModel]="searchTerm()"
+      (ngModelChange)="onSearchChange($event)"
+    />
+  </div>
+
   <div class="games">
     @for (game of sortedGames(); track game.title) {
     <div class="game-card">

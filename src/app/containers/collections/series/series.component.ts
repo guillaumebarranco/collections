@@ -1,5 +1,6 @@
 import { Component, computed, inject, signal, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { SerieComponent } from '../../../components/serie/serie.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import {
@@ -29,6 +30,7 @@ type SerieView = 'finished' | 'stopped' | 'watchlist';
   imports: [
     RouterLink,
     CommonModule,
+    FormsModule,
     SerieComponent,
     MenuComponent,
     SortDropdownComponent,
@@ -42,6 +44,7 @@ export class SeriesComponent implements OnInit {
 
   selectedSort = signal<string>('rating');
   selectedView = signal<SerieView>('finished');
+  searchTerm = signal<string>('');
 
   sortOptions = signal<SortOption[]>([
     { value: 'title', label: 'Titre (A-Z)' },
@@ -80,18 +83,26 @@ export class SeriesComponent implements OnInit {
   });
 
   filteredSeries = computed<Serie[]>(() => {
+    let series: Serie[] = [];
     if (this.selectedView() === 'stopped') {
-      return this.allSeries().filter(
+      series = this.allSeries().filter(
         (serie) => serie.stoppedAtSeason && serie.stoppedAtSeason > 0
       );
+    } else if (this.selectedView() === 'watchlist') {
+      series = this.allWatchlistSeries();
+    } else {
+      // 'finished' - séries avec stoppedAtSeason === 0 ou non défini
+      series = this.allSeries().filter(
+        (serie) => !serie.stoppedAtSeason || serie.stoppedAtSeason === 0
+      );
     }
-    if (this.selectedView() === 'watchlist') {
-      return this.allWatchlistSeries();
+
+    const term = this.searchTerm().trim().toLowerCase();
+    if (!term) {
+      return series;
     }
-    // 'finished' - séries avec stoppedAtSeason === 0 ou non défini
-    return this.allSeries().filter(
-      (serie) => !serie.stoppedAtSeason || serie.stoppedAtSeason === 0
-    );
+
+    return series.filter((serie) => this.matchesSearch(serie, term));
   });
 
   sortedSeries = computed<Serie[]>(() => {
@@ -218,6 +229,10 @@ export class SeriesComponent implements OnInit {
     this.selectedView.set(view);
   }
 
+  onSearchChange(value: string) {
+    this.searchTerm.set(value);
+  }
+
   getSelectSeriesRoute(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
@@ -238,5 +253,23 @@ export class SeriesComponent implements OnInit {
     return hasNameParam
       ? `/${params['id']}/select-series-times-watched`
       : '/select-series-times-watched';
+  }
+
+  private matchesSearch(serie: Serie, term: string): boolean {
+    const actors = serie.actors?.map((actor) => actor.name).join(' ') || '';
+    const haystack = [serie.title, serie.director, actors, serie.genre]
+      .filter(Boolean)
+      .join(' ');
+
+    const normalizedHaystack = this.normalizeSearchText(haystack);
+    const normalizedTerm = this.normalizeSearchText(term);
+    return normalizedHaystack.includes(normalizedTerm);
+  }
+
+  private normalizeSearchText(value: string): string {
+    return value
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase();
   }
 }

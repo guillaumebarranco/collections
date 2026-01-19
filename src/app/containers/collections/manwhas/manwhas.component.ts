@@ -1,5 +1,6 @@
 import { Component, computed, inject, signal, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { BookComponent } from '../../../components/book/book.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import {
@@ -32,6 +33,7 @@ import { EditManwhaComponent } from '../../edit/edit-manwha/edit-manwha.componen
   imports: [
     RouterLink,
     CommonModule,
+    FormsModule,
     BookComponent,
     MenuComponent,
     SortDropdownComponent,
@@ -46,6 +48,7 @@ export class ManwhasComponent implements OnInit {
   private readonly dialog = inject(MatDialog);
   selectedSort = signal<string>('rating');
   selectedView = signal<'read' | 'readlist'>('read');
+  searchTerm = signal<string>('');
 
   sortOptions = signal<SortOption[]>([
     { value: 'title', label: 'Titre (A-Z)' },
@@ -88,9 +91,17 @@ export class ManwhasComponent implements OnInit {
   });
 
   filteredManwhas = computed<Manwha[]>(() => {
-    return this.selectedView() === 'readlist'
-      ? this.allReadlistManwhas()
-      : this.allManwhas();
+    const manwhas =
+      this.selectedView() === 'readlist'
+        ? this.allReadlistManwhas()
+        : this.allManwhas();
+
+    const term = this.searchTerm().trim().toLowerCase();
+    if (!term) {
+      return manwhas;
+    }
+
+    return manwhas.filter((manwha) => this.matchesSearch(manwha, term));
   });
 
   sortedManwhas = computed<Manwha[]>(() => {
@@ -209,6 +220,10 @@ export class ManwhasComponent implements OnInit {
     this.selectedSort.set(sortValue);
   }
 
+  onSearchChange(value: string) {
+    this.searchTerm.set(value);
+  }
+
   async ngOnInit() {
     await this.refreshManwhas();
   }
@@ -237,6 +252,23 @@ export class ManwhasComponent implements OnInit {
     return hasNameParam
       ? `/${params['id']}/select-manwhas-times-read`
       : '/select-manwhas-times-read';
+  }
+
+  private matchesSearch(manwha: Manwha, term: string): boolean {
+    const haystack = [manwha.title, manwha.author, manwha.genre]
+      .filter(Boolean)
+      .join(' ');
+
+    const normalizedHaystack = this.normalizeSearchText(haystack);
+    const normalizedTerm = this.normalizeSearchText(term);
+    return normalizedHaystack.includes(normalizedTerm);
+  }
+
+  private normalizeSearchText(value: string): string {
+    return value
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase();
   }
 
   private calculateTotalChapters(): number {

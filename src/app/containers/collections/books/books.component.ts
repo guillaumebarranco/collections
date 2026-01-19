@@ -58,6 +58,7 @@ export class BooksComponent implements OnInit {
   selectedYearFilter = signal<string>('all');
   selectedGroupBy = signal<string>('none');
   selectedView = signal<BookView>('read');
+  searchTerm = signal<string>('');
 
   activatedRoute = inject(ActivatedRoute);
   router = inject(Router);
@@ -205,9 +206,17 @@ export class BooksComponent implements OnInit {
   });
 
   filteredBooks = computed<Book[]>(() => {
-    return this.selectedView() === 'readlist'
+    const books =
+      this.selectedView() === 'readlist'
       ? this.allReadlistBooks()
       : this.allBooks();
+
+    const term = this.searchTerm().trim().toLowerCase();
+    if (!term) {
+      return books;
+    }
+
+    return books.filter((book) => this.matchesSearch(book, term));
   });
 
   currentUser = computed(() => {
@@ -414,6 +423,10 @@ export class BooksComponent implements OnInit {
     this.selectedView.set(view);
   }
 
+  onSearchChange(value: string) {
+    this.searchTerm.set(value);
+  }
+
   openEditBookDialog(book: Book): void {
     const dialogRef = this.dialog.open(EditBookComponent, {
       data: {
@@ -456,5 +469,22 @@ export class BooksComponent implements OnInit {
     return hasNameParam
       ? `/${params['id']}/select-books-times-read`
       : '/select-books-times-read';
+  }
+
+  private matchesSearch(book: Book, term: string): boolean {
+    const haystack = [book.title, book.author, book.genre, book.saga]
+      .filter(Boolean)
+      .join(' ');
+
+    const normalizedHaystack = this.normalizeSearchText(haystack);
+    const normalizedTerm = this.normalizeSearchText(term);
+    return normalizedHaystack.includes(normalizedTerm);
+  }
+
+  private normalizeSearchText(value: string): string {
+    return value
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase();
   }
 }

@@ -89,6 +89,15 @@
     </app-sort-dropdown>
   </div>
 
+  <div class="manwhas-search">
+    <input
+      type="text"
+      placeholder="Rechercher par titre, auteur, genre..."
+      [ngModel]="searchTerm()"
+      (ngModelChange)="onSearchChange($event)"
+    />
+  </div>
+
   @if(selectedView() === 'readlist') {
   <div class="readlist-actions">
     <button

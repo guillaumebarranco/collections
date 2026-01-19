@@ -119,6 +119,15 @@
     </div>
   </div>
 
+  <div class="books-search">
+    <input
+      type="text"
+      placeholder="Rechercher par titre, auteur, genre..."
+      [ngModel]="searchTerm()"
+      (ngModelChange)="onSearchChange($event)"
+    />
+  </div>
+
   @if(selectedYearFilter() !== 'all') {
   <p>Résultats affichés: {{ sortedBooks().length }}</p>
   } @if(selectedView() === 'readlist') {

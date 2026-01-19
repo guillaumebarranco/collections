@@ -45,7 +45,7 @@ export const guillaumeGames: UserGame[] = [
   {
     title: 'The Legend of Zelda: A Link to the Past',
     editor: 'Nintendo',
-    rating: 3 / 75,
+    rating: 3.75,
     platined: false,
     timesFinished: 1,
     additionnalEstimatedTime: 0,
@@ -53,7 +53,7 @@ export const guillaumeGames: UserGame[] = [
   {
     title: "The Legend of Zelda: Link's Awakening",
     editor: 'Nintendo',
-    rating: 3 / 75,
+    rating: 3.75,
     platined: false,
     timesFinished: 1,
     additionnalEstimatedTime: 0,

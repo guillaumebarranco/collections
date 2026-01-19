@@ -6297,25 +6297,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Animation',
   },
   {
-    title: 'One Piece Film Z',
-    director: 'Tatsuya Nagamine',
-    actors: [
-      {
-        name: 'Mayumi Tanaka',
-      },
-      {
-        name: 'Kazuya Nakai',
-      },
-      {
-        name: 'Akemi Okamura',
-      },
-    ],
-    coverUrl: '/movies_pictures/one_piece_film_z.jpg',
-    releaseDate: '2013-05-15',
-    length: 107,
-    genre: 'Animation',
-  },
-  {
     title: 'Astérix et Obélix : Au service de Sa Majesté',
     director: 'Laurent Tirard',
     actors: [
@@ -7282,25 +7263,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2010-01-20',
     length: 109,
     genre: 'Action',
-  },
-  {
-    title: 'One Piece Film: Strong World',
-    director: 'Munehisa Sakai',
-    actors: [
-      {
-        name: 'Bruce Campbell',
-      },
-      {
-        name: 'Ellen Sandweiss',
-      },
-      {
-        name: 'Richard DeManincor',
-      },
-    ],
-    coverUrl: '/movies_pictures/one_piece_film_strong_world.jpg',
-    releaseDate: '2011-08-24',
-    length: 113,
-    genre: 'Animation',
   },
   {
     title: 'La Princesse et la Grenouille',

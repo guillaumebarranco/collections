@@ -1,5 +1,6 @@
 import { Component, inject, signal, computed, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { BookComponent } from '../../../components/book/book.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import {
@@ -33,6 +34,7 @@ import { EditMangaComponent } from '../../edit/edit-manga/edit-manga.component';
   imports: [
     RouterLink,
     CommonModule,
+    FormsModule,
     BookComponent,
     MenuComponent,
     SortDropdownComponent,
@@ -48,6 +50,7 @@ export class MangasComponent implements OnInit {
 
   selectedSort = signal<string>('rating');
   selectedView = signal<'read' | 'readlist'>('read');
+  searchTerm = signal<string>('');
 
   sortOptions = signal<SortOption[]>([
     { value: 'title', label: 'Titre (A-Z)' },
@@ -118,9 +121,17 @@ export class MangasComponent implements OnInit {
   });
 
   filteredMangas = computed<Book[]>(() => {
-    return this.selectedView() === 'readlist'
-      ? this.allReadlistMangas()
-      : this.allMangas();
+    const mangas =
+      this.selectedView() === 'readlist'
+        ? this.allReadlistMangas()
+        : this.allMangas();
+
+    const term = this.searchTerm().trim().toLowerCase();
+    if (!term) {
+      return mangas;
+    }
+
+    return mangas.filter((manga) => this.matchesSearch(manga, term));
   });
 
   sortedMangas = computed<Book[]>(() => {
@@ -234,6 +245,10 @@ export class MangasComponent implements OnInit {
     this.selectedSort.set(sortValue);
   }
 
+  onSearchChange(value: string) {
+    this.searchTerm.set(value);
+  }
+
   async ngOnInit() {
     await this.refreshMangas();
   }
@@ -262,6 +277,23 @@ export class MangasComponent implements OnInit {
     return hasNameParam
       ? `/${params['id']}/select-mangas-times-read`
       : '/select-mangas-times-read';
+  }
+
+  private matchesSearch(manga: Book, term: string): boolean {
+    const haystack = [manga.title, manga.author, manga.genre]
+      .filter(Boolean)
+      .join(' ');
+
+    const normalizedHaystack = this.normalizeSearchText(haystack);
+    const normalizedTerm = this.normalizeSearchText(term);
+    return normalizedHaystack.includes(normalizedTerm);
+  }
+
+  private normalizeSearchText(value: string): string {
+    return value
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase();
   }
 
   private calculateTotalTomes(): number {

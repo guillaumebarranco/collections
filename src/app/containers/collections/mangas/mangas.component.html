@@ -89,6 +89,15 @@
     </app-sort-dropdown>
   </div>
 
+  <div class="mangas-search">
+    <input
+      type="text"
+      placeholder="Rechercher par titre, auteur, genre..."
+      [ngModel]="searchTerm()"
+      (ngModelChange)="onSearchChange($event)"
+    />
+  </div>
+
   <div class="mangas">
     @for (manga of sortedMangas(); track manga.title) {
     <div class="manga-card">

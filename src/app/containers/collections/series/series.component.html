@@ -99,6 +99,15 @@
     </app-sort-dropdown>
   </div>
 
+  <div class="series-search">
+    <input
+      type="text"
+      placeholder="Rechercher par titre, réalisateur, acteur..."
+      [ngModel]="searchTerm()"
+      (ngModelChange)="onSearchChange($event)"
+    />
+  </div>
+
   <div class="series">
     @for (serie of sortedSeries(); track serie.title) {
     <div class="serie-card">

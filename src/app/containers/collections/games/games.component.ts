@@ -1,5 +1,6 @@
 import { Component, computed, inject, signal, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { GameComponent } from '../../../components/game/game.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import {
@@ -70,6 +71,7 @@ export function getTotalPlayedTime(items: ItemWithGameLength[]): TimeStats {
   imports: [
     RouterLink,
     CommonModule,
+    FormsModule,
     GameComponent,
     MenuComponent,
     SortDropdownComponent,
@@ -83,6 +85,7 @@ export class GamesComponent implements OnInit {
 
   selectedSort = signal<string>('rating');
   selectedView = signal<'played' | 'gamelist'>('played');
+  searchTerm = signal<string>('');
 
   sortOptions = signal<SortOption[]>([
     { value: 'title', label: 'Titre (A-Z)' },
@@ -119,10 +122,17 @@ export class GamesComponent implements OnInit {
   });
 
   filteredGames = computed<Game[]>(() => {
-    if (this.selectedView() === 'gamelist') {
-      return this.allGamelistGames();
+    const games =
+      this.selectedView() === 'gamelist'
+        ? this.allGamelistGames()
+        : this.allGames();
+
+    const term = this.searchTerm().trim().toLowerCase();
+    if (!term) {
+      return games;
     }
-    return this.allGames();
+
+    return games.filter((game) => this.matchesSearch(game, term));
   });
 
   sortedGames = computed<Game[]>(() => {
@@ -266,6 +276,10 @@ export class GamesComponent implements OnInit {
     this.selectedView.set(view);
   }
 
+  onSearchChange(value: string) {
+    this.searchTerm.set(value);
+  }
+
   getSelectGamesRoute(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
@@ -286,5 +300,28 @@ export class GamesComponent implements OnInit {
     return hasNameParam
       ? `/${params['id']}/select-games-times-finished`
       : '/select-games-times-finished';
+  }
+
+  private matchesSearch(game: Game, term: string): boolean {
+    const haystack = [
+      game.title,
+      game.editor,
+      game.platform,
+      game.saga,
+      game.hero,
+    ]
+      .filter(Boolean)
+      .join(' ');
+
+    const normalizedHaystack = this.normalizeSearchText(haystack);
+    const normalizedTerm = this.normalizeSearchText(term);
+    return normalizedHaystack.includes(normalizedTerm);
+  }
+
+  private normalizeSearchText(value: string): string {
+    return value
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase();
   }
 }

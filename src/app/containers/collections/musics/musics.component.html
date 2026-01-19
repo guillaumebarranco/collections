@@ -63,6 +63,15 @@
     </div>
   </div>
 
+  <div class="musics-search">
+    <input
+      type="text"
+      placeholder="Rechercher par titre, artiste, album..."
+      [ngModel]="searchTerm()"
+      (ngModelChange)="onSearchChange($event)"
+    />
+  </div>
+
   <p>Résultats affichés: {{ filteredMusics().length }}</p>
 
   @if (selectedFilter() === 'popular' && filteredMusics().length === 0) {
