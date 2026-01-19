@@ -1,0 +1,74 @@
+<app-menu></app-menu>
+
+<div class="select-musics-rating-container">
+  <div class="header">
+    <h1>Mettre à jour les notes de mes musiques</h1>
+
+    <div class="selection-description">
+      <p>
+        Bonjour {{ username() }} 👋 <br /><br />
+        Sur cette page, tu peux mettre à jour la note de chaque musique de ta
+        collection. <br /><br />
+        Passe ta souris sur une musique pour voir les options de notes disponibles
+        et clique sur la note correspondante. <br /><br />
+        Une fois que tu as terminé, clique sur "Enregistrer mes notes" pour
+        appliquer les changements.
+      </p>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <div class="selection-info">
+      <span class="count">{{ modifiedCount() }} musique(s) modifiée(s)</span>
+      <span class="total">sur {{ allMusics().length }}</span>
+    </div>
+
+    <div class="actions">
+      <button
+        class="btn btn-primary"
+        (click)="saveMusicsRatings()"
+        [disabled]="allMusics().length === 0 || isSaving()"
+      >
+        ✅ Enregistrer mes notes ({{ modifiedCount() }})
+      </button>
+    </div>
+  </div>
+
+  <div class="musics-grid">
+    @for (music of allMusics(); track `${music.title}-${music.artist}`) {
+    <div
+      class="music-poster"
+      [title]="music.title + ' - ' + music.artist"
+    >
+      <img [src]="music.coverUrl" [alt]="music.title" />
+      <div class="overlay">
+        <div class="music-info">
+          <span class="music-title">{{ music.title }}</span>
+          <span class="music-year">{{ music.artist }}</span>
+          <div class="current-rating">
+            <span class="rating-label">Note actuelle :</span>
+            <div class="stars-display">
+              @for (star of getRatingStars(getRating(music)); track star.value) {
+              <span [class]="'star star-' + star.type"></span>
+              }
+              <span class="rating-value">{{ getRating(music) }}</span>
+            </div>
+          </div>
+        </div>
+        <div class="rating-buttons">
+          @for (rating of ratingOptions; track rating) {
+          <button
+            class="rating-btn"
+            [class.active]="getRating(music) === rating"
+            (click)="updateRating(music, rating); $event.stopPropagation()"
+            (mousedown)="$event.stopPropagation()"
+          >
+            {{ rating }}
+          </button>
+          }
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>

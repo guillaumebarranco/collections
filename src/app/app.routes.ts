@@ -34,6 +34,8 @@ import { SelectGamesRatingComponent } from './containers/selection/games/select-
 import { SelectGamesTimesFinishedComponent } from './containers/selection/games/select-games-times-finished/select-games-times-finished.component';
 import { MusicsComponent } from './containers/collections/musics/musics.component';
 import { SelectMusicsComponent } from './containers/selection/select-musics/select-musics.component';
+import { SelectMusicsRatingComponent } from './containers/selection/select-musics-rating/select-musics-rating.component';
+import { SelectMusicsTimesListenedComponent } from './containers/selection/select-musics-times-listened/select-musics-times-listened.component';
 import { EditMovieComponent } from './containers/edit/edit-movie/edit-movie.component';
 import { EditBookComponent } from './containers/edit/edit-book/edit-book.component';
 import { EditSerieComponent } from './containers/edit/edit-serie/edit-serie.component';
@@ -173,6 +175,14 @@ export const routes: Routes = [
   {
     path: 'select-musics',
     component: SelectMusicsComponent,
+  },
+  {
+    path: 'select-musics-rating',
+    component: SelectMusicsRatingComponent,
+  },
+  {
+    path: 'select-musics-times-listened',
+    component: SelectMusicsTimesListenedComponent,
   },
   {
     path: ':id',
@@ -361,6 +371,14 @@ export const routes: Routes = [
       {
         path: 'select-musics',
         component: SelectMusicsComponent,
+      },
+      {
+        path: 'select-musics-rating',
+        component: SelectMusicsRatingComponent,
+      },
+      {
+        path: 'select-musics-times-listened',
+        component: SelectMusicsTimesListenedComponent,
       },
     ],
   },

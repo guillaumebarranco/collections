@@ -302,6 +302,22 @@ export class MusicsComponent implements OnInit {
     return hasNameParam ? `/${params['id']}/select-musics` : '/select-musics';
   }
 
+  getSelectMusicsRatingRoute(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? `/${params['id']}/select-musics-rating`
+      : '/select-musics-rating';
+  }
+
+  getSelectMusicsTimesListenedRoute(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? `/${params['id']}/select-musics-times-listened`
+      : '/select-musics-times-listened';
+  }
+
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? 'guillaume';

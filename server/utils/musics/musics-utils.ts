@@ -73,6 +73,38 @@ function parseNumberField(objectText: string, key: string) {
   return Number.isNaN(parsed) ? null : parsed;
 }
 
+function replaceField(objectText: string, key: string, value: any) {
+  if (value === undefined || value === null) return objectText;
+
+  let next = objectText;
+  if (typeof value === 'string') {
+    const regex = new RegExp(
+      `(${key}\\s*:\\s*)(['"])((?:\\\\.|(?!\\2).)*)\\2`
+    );
+    if (!regex.test(next)) {
+      throw new Error(`Field ${key} not found`);
+    }
+    next = next.replace(regex, (_match: string, prefix: string, quote: string) => {
+      const escaped = value
+        .replace(/\\/g, '\\\\')
+        .replace(new RegExp(quote, 'g'), `\\${quote}`);
+      return `${prefix}${quote}${escaped}${quote}`;
+    });
+    return next;
+  }
+
+  if (typeof value === 'number') {
+    const regex = new RegExp(`(${key}\\s*:\\s*)([^,\\n]+)`);
+    if (!regex.test(next)) {
+      throw new Error(`Field ${key} not found`);
+    }
+    next = next.replace(regex, `$1${value}`);
+    return next;
+  }
+
+  return next;
+}
+
 function parseUserMusicsFromFile(content: string): any[] {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
@@ -229,6 +261,56 @@ function appendObjectToArrayFile(filePath: string, objectText: string) {
   );
 }
 
+function updateMusicInFile(content: string, payload: any) {
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    throw new Error('Array not found');
+  }
+
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
+    throw new Error('Array bounds not found');
+  }
+  const { arrayStart, arrayEnd } = bounds;
+
+  let i = arrayStart;
+  let depth = 0;
+  let objectStart = -1;
+
+  while (i < arrayEnd) {
+    const char = content[i];
+    if (char === '{') {
+      if (depth === 0) {
+        objectStart = i;
+      }
+      depth += 1;
+    } else if (char === '}') {
+      depth -= 1;
+      if (depth === 0 && objectStart !== -1) {
+        const objectEnd = i;
+        const objectText = content.slice(objectStart, objectEnd + 1);
+        const title = parseStringField(objectText, 'title');
+        const artist = parseStringField(objectText, 'artist');
+
+        if (title === payload.title && artist === payload.artist) {
+          let updated = objectText;
+          updated = replaceField(updated, 'rating', payload.rating);
+          updated = replaceField(updated, 'timesListened', payload.timesListened);
+
+          return (
+            content.slice(0, objectStart) +
+            updated +
+            content.slice(objectEnd + 1)
+          );
+        }
+      }
+    }
+    i += 1;
+  }
+
+  throw new Error('Music not found');
+}
+
 function getUserMusicsTargetFile(userId: string): string {
   const userDir = path.join(USERS_MUSICS_DIR, userId, 'musics');
   if (!fs.existsSync(userDir)) {
@@ -255,6 +337,7 @@ module.exports = {
   escapeString,
   appendObjectToArrayFile,
   getUserMusicsTargetFile,
+  updateMusicInFile,
 };
 
 export {};
