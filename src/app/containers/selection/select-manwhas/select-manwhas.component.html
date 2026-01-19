@@ -50,7 +50,18 @@
   <div class="toolbar" select-toolbar>
     <div class="selection-info">
       <span class="count">{{ selectedCount() }} manwha(s) sélectionné(s)</span>
-      <span class="total">sur {{ allManwhas().length }}</span>
+      <span class="total">sur {{ filteredManwhas().length }}</span>
+    </div>
+
+    <div class="select-search">
+      <input
+        class="select-search-input"
+        type="text"
+        placeholder="Rechercher un manwha..."
+        aria-label="Rechercher un manwha"
+        [value]="searchTerm()"
+        (input)="searchTerm.set($any($event.target).value)"
+      />
     </div>
 
     <div class="actions">
@@ -70,7 +81,7 @@
   </div>
 
   <div class="manwhas-grid" select-grid>
-    @for (manwha of allManwhas(); track `${manwha.title}-${manwha.author}`) {
+    @for (manwha of filteredManwhas(); track `${manwha.title}-${manwha.author}`) {
     <div
       class="manwha-cover"
       [class.selected]="isSelected(manwha)"

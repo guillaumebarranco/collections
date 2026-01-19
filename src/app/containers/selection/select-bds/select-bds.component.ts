@@ -34,6 +34,7 @@ export class SelectBdsComponent
   userBds = signal<Bd[]>([]);
   readlistBds = signal<Bd[]>([]);
   allBdsMergedList = signal<Bd[]>([]);
+  searchTerm = signal('');
 
   readBds = computed<Set<string>>(() => {
     const userBds = this.userBds();
@@ -64,6 +65,17 @@ export class SelectBdsComponent
         !this.readBds().has(this.getBdKey(bd)) &&
         !this.alreadyInReadlistBds().has(this.getBdKey(bd))
     );
+  });
+
+  filteredBds = computed<Bd[]>(() => {
+    const term = this.searchTerm().trim().toLowerCase();
+    const list = this.allBds();
+    if (!term) return list;
+    return list.filter((bd) => {
+      const title = bd.title?.toLowerCase() || '';
+      const author = bd.author?.toLowerCase() || '';
+      return title.includes(term) || author.includes(term);
+    });
   });
 
   selectedBds = signal<Set<string>>(new Set());

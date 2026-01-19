@@ -49,7 +49,18 @@
   <div class="toolbar" select-toolbar>
     <div class="selection-info">
       <span class="count">{{ selectedCount() }} manga(s) sélectionné(s)</span>
-      <span class="total">sur {{ allMangas().length }}</span>
+      <span class="total">sur {{ filteredMangas().length }}</span>
+    </div>
+
+    <div class="select-search">
+      <input
+        class="select-search-input"
+        type="text"
+        placeholder="Rechercher un manga..."
+        aria-label="Rechercher un manga"
+        [value]="searchTerm()"
+        (input)="searchTerm.set($any($event.target).value)"
+      />
     </div>
 
     <div class="actions">
@@ -69,7 +80,7 @@
   </div>
 
   <div class="mangas-grid" select-grid>
-    @for (manga of allMangas(); track `${manga.title}-${manga.author}`) {
+    @for (manga of filteredMangas(); track `${manga.title}-${manga.author}`) {
     <div
       class="manga-cover"
       [class.selected]="isSelected(manga)"

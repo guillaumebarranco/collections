@@ -59,7 +59,18 @@
   <div class="toolbar" select-toolbar>
     <div class="selection-info">
       <span class="count">{{ selectedCount() }} film(s) sélectionné(s)</span>
-      <span class="total">sur {{ allMovies().length }}</span>
+      <span class="total">sur {{ filteredMovies().length }}</span>
+    </div>
+
+    <div class="select-search">
+      <input
+        class="select-search-input"
+        type="text"
+        placeholder="Rechercher un film..."
+        aria-label="Rechercher un film"
+        [value]="searchTerm()"
+        (input)="searchTerm.set($any($event.target).value)"
+      />
     </div>
 
     <div class="actions">
@@ -79,7 +90,7 @@
   </div>
 
   <div class="movies-grid" select-grid>
-    @for (movie of allMovies(); track `${movie.title}-${movie.releaseDate}`) {
+    @for (movie of filteredMovies(); track `${movie.title}-${movie.releaseDate}`) {
     <div
       class="movie-poster"
       [class.selected]="isSelected(movie)"

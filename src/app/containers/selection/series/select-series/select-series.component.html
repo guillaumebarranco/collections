@@ -58,7 +58,18 @@
   <div class="toolbar">
     <div class="selection-info">
       <span class="count">{{ selectedCount() }} série(s) sélectionnée(s)</span>
-      <span class="total">sur {{ allSeries().length }}</span>
+      <span class="total">sur {{ filteredSeries().length }}</span>
+    </div>
+
+    <div class="select-search">
+      <input
+        class="select-search-input"
+        type="text"
+        placeholder="Rechercher une série..."
+        aria-label="Rechercher une série"
+        [value]="searchTerm()"
+        (input)="searchTerm.set($any($event.target).value)"
+      />
     </div>
 
     <div class="actions">
@@ -78,7 +89,7 @@
   </div>
 
   <div class="series-grid">
-    @for (serie of allSeries(); track `${serie.title}-${serie.releaseDate}`) {
+    @for (serie of filteredSeries(); track `${serie.title}-${serie.releaseDate}`) {
     <div
       class="serie-poster"
       [class.selected]="isSelected(serie)"

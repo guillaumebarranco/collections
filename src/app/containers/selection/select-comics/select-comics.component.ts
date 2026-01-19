@@ -34,6 +34,7 @@ export class SelectComicsComponent
   userComics = signal<Comic[]>([]);
   readlistComics = signal<Comic[]>([]);
   allComicsMergedList = signal<Comic[]>([]);
+  searchTerm = signal('');
 
   readComics = computed<Set<string>>(() => {
     const userComics = this.userComics();
@@ -64,6 +65,17 @@ export class SelectComicsComponent
         !this.readComics().has(this.getComicKey(comic)) &&
         !this.alreadyInReadlistComics().has(this.getComicKey(comic))
     );
+  });
+
+  filteredComics = computed<Comic[]>(() => {
+    const term = this.searchTerm().trim().toLowerCase();
+    const list = this.allComics();
+    if (!term) return list;
+    return list.filter((comic) => {
+      const title = comic.title?.toLowerCase() || '';
+      const author = comic.author?.toLowerCase() || '';
+      return title.includes(term) || author.includes(term);
+    });
   });
 
   selectedComics = signal<Set<string>>(new Set());

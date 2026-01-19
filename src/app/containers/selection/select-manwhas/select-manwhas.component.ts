@@ -34,6 +34,7 @@ export class SelectManwhasComponent
   userManwhas = signal<Manwha[]>([]);
   readlistManwhas = signal<Manwha[]>([]);
   allManwhasMergedList = signal<Manwha[]>([]);
+  searchTerm = signal('');
 
   readManwhas = computed<Set<string>>(() => {
     const userManwhas = this.userManwhas();
@@ -64,6 +65,17 @@ export class SelectManwhasComponent
         !this.readManwhas().has(this.getManwhaKey(manwha)) &&
         !this.alreadyInReadlistManwhas().has(this.getManwhaKey(manwha))
     );
+  });
+
+  filteredManwhas = computed<Manwha[]>(() => {
+    const term = this.searchTerm().trim().toLowerCase();
+    const list = this.allManwhas();
+    if (!term) return list;
+    return list.filter((manwha) => {
+      const title = manwha.title?.toLowerCase() || '';
+      const author = manwha.author?.toLowerCase() || '';
+      return title.includes(term) || author.includes(term);
+    });
   });
 
   selectedManwhas = signal<Set<string>>(new Set());

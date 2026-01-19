@@ -38,6 +38,7 @@ export class SelectBooksComponent
   userBooks = signal<Book[]>([]);
   readlistBooks = signal<Book[]>([]);
   allBooksMergedList = signal<Book[]>([]);
+  searchTerm = signal('');
 
   // Livres déjà lus par l'utilisateur (pour les exclure en mode readlist)
   readBooks = computed<Set<string>>(() => {
@@ -79,6 +80,20 @@ export class SelectBooksComponent
         !this.readBooks().has(this.getBookKey(book)) &&
         !this.alreadyInReadlistBooks().has(this.getBookKey(book))
     );
+  });
+
+  filteredBooks = computed<Book[]>(() => {
+    const term = this.searchTerm().trim().toLowerCase();
+    const list = this.allBooks();
+    if (!term) return list;
+    return list.filter((book) => {
+      const title = book.title?.toLowerCase() || '';
+      const author = book.author?.toLowerCase() || '';
+      const saga = book.saga?.toLowerCase() || '';
+      return (
+        title.includes(term) || author.includes(term) || saga.includes(term)
+      );
+    });
   });
 
   selectedBooks = signal<Set<string>>(new Set());

@@ -34,6 +34,7 @@ export class SelectMangasComponent
   userMangas = signal<Manga[]>([]);
   readlistMangas = signal<Manga[]>([]);
   allMangasMergedList = signal<Manga[]>([]);
+  searchTerm = signal('');
 
   readMangas = computed<Set<string>>(() => {
     const userMangas = this.userMangas();
@@ -64,6 +65,17 @@ export class SelectMangasComponent
         !this.readMangas().has(this.getMangaKey(manga)) &&
         !this.alreadyInReadlistMangas().has(this.getMangaKey(manga))
     );
+  });
+
+  filteredMangas = computed<Manga[]>(() => {
+    const term = this.searchTerm().trim().toLowerCase();
+    const list = this.allMangas();
+    if (!term) return list;
+    return list.filter((manga) => {
+      const title = manga.title?.toLowerCase() || '';
+      const author = manga.author?.toLowerCase() || '';
+      return title.includes(term) || author.includes(term);
+    });
   });
 
   selectedMangas = signal<Set<string>>(new Set());

@@ -34,6 +34,7 @@ export class SelectGamesComponent
   userGames = signal<Game[]>([]);
   gamelistGames = signal<Game[]>([]);
   allGamesMergedList = signal<Game[]>([]);
+  searchTerm = signal('');
 
   // Jeux déjà terminés par l'utilisateur (pour les exclure en mode ajout)
   finishedGames = computed<Set<string>>(() => {
@@ -66,6 +67,17 @@ export class SelectGamesComponent
         !this.finishedGames().has(this.getGameKey(game)) &&
         !this.alreadyInGamelistGames().has(this.getGameKey(game))
     );
+  });
+
+  filteredGames = computed<Game[]>(() => {
+    const term = this.searchTerm().trim().toLowerCase();
+    const list = this.allGames();
+    if (!term) return list;
+    return list.filter((game) => {
+      const title = game.title?.toLowerCase() || '';
+      const editor = game.editor?.toLowerCase() || '';
+      return title.includes(term) || editor.includes(term);
+    });
   });
 
   selectedGames = signal<Set<string>>(new Set());

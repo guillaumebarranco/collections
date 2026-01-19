@@ -23,6 +23,7 @@ export class SelectMusicsComponent
   allMusics = signal<Music[]>([]);
   userMusics = signal<Music[]>([]);
   viewMode = signal<'tracks' | 'albums'>('tracks');
+  searchTerm = signal('');
 
   // Musiques sélectionnées
   selectedMusics = signal<Set<string>>(new Set());
@@ -75,10 +76,35 @@ export class SelectMusicsComponent
     });
   });
 
+  filteredMusics = computed(() => {
+    const term = this.searchTerm().trim().toLowerCase();
+    const list = this.availableMusics();
+    if (!term) return list;
+    return list.filter((music) => {
+      const title = music.title?.toLowerCase() || '';
+      const artist = music.artist?.toLowerCase() || '';
+      const album = music.album?.toLowerCase() || '';
+      return (
+        title.includes(term) || artist.includes(term) || album.includes(term)
+      );
+    });
+  });
+
+  filteredAlbums = computed(() => {
+    const term = this.searchTerm().trim().toLowerCase();
+    const list = this.albumGroups();
+    if (!term) return list;
+    return list.filter((album) => {
+      const title = album.album?.toLowerCase() || '';
+      const artist = album.artist?.toLowerCase() || '';
+      return title.includes(term) || artist.includes(term);
+    });
+  });
+
   totalCount = computed(() =>
     this.viewMode() === 'albums'
-      ? this.albumGroups().length
-      : this.availableMusics().length
+      ? this.filteredAlbums().length
+      : this.filteredMusics().length
   );
 
   // Vérifier si une musique est sélectionnée

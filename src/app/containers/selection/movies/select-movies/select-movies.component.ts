@@ -34,6 +34,7 @@ export class SelectMoviesComponent
   userMovies = signal<Movie[]>([]);
   watchlistMovies = signal<Movie[]>([]);
   allMoviesMergedList = signal<Movie[]>([]);
+  searchTerm = signal('');
 
   // Films déjà vus par l'utilisateur (pour les exclure en mode watchlist)
   watchedMovies = computed<Set<string>>(() => {
@@ -66,6 +67,17 @@ export class SelectMoviesComponent
         !this.watchedMovies().has(this.getMovieKey(movie)) &&
         !this.alreadyInWatchlistMovies().has(this.getMovieKey(movie))
     );
+  });
+
+  filteredMovies = computed<Movie[]>(() => {
+    const term = this.searchTerm().trim().toLowerCase();
+    const list = this.allMovies();
+    if (!term) return list;
+    return list.filter((movie) => {
+      const title = movie.title?.toLowerCase() || '';
+      const director = movie.director?.toLowerCase() || '';
+      return title.includes(term) || director.includes(term);
+    });
   });
 
   selectedMovies = signal<Set<string>>(new Set());

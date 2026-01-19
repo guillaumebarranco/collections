@@ -58,7 +58,18 @@
   <div class="toolbar" select-toolbar>
     <div class="selection-info">
       <span class="count">{{ selectedCount() }} jeu(x) sélectionné(s)</span>
-      <span class="total">sur {{ allGames().length }}</span>
+      <span class="total">sur {{ filteredGames().length }}</span>
+    </div>
+
+    <div class="select-search">
+      <input
+        class="select-search-input"
+        type="text"
+        placeholder="Rechercher un jeu..."
+        aria-label="Rechercher un jeu"
+        [value]="searchTerm()"
+        (input)="searchTerm.set($any($event.target).value)"
+      />
     </div>
 
     <div class="actions">
@@ -78,7 +89,7 @@
   </div>
 
   <div class="games-grid" select-grid>
-    @for (game of allGames(); track `${game.title}-${game.releaseDate}`) {
+    @for (game of filteredGames(); track `${game.title}-${game.releaseDate}`) {
     <div
       class="game-poster"
       [class.selected]="isSelected(game)"

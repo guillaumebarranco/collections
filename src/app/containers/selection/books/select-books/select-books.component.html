@@ -59,7 +59,18 @@
   <div class="toolbar" select-toolbar>
     <div class="selection-info">
       <span class="count">{{ selectedCount() }} livre(s) sélectionné(s)</span>
-      <span class="total">sur {{ allBooks().length }}</span>
+      <span class="total">sur {{ filteredBooks().length }}</span>
+    </div>
+
+    <div class="select-search">
+      <input
+        class="select-search-input"
+        type="text"
+        placeholder="Rechercher un livre..."
+        aria-label="Rechercher un livre"
+        [value]="searchTerm()"
+        (input)="searchTerm.set($any($event.target).value)"
+      />
     </div>
 
     <div class="actions">
@@ -79,7 +90,7 @@
   </div>
 
   <div class="books-grid" select-grid>
-    @for (book of allBooks(); track `${book.title}-${book.author}`) {
+    @for (book of filteredBooks(); track `${book.title}-${book.author}`) {
     <div
       class="book-cover"
       [class.selected]="isSelected(book)"

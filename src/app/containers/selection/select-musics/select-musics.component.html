@@ -33,6 +33,17 @@
       </span>
     </div>
 
+    <div class="select-search">
+      <input
+        class="select-search-input"
+        type="text"
+        placeholder="Rechercher une musique..."
+        aria-label="Rechercher une musique"
+        [value]="searchTerm()"
+        (input)="searchTerm.set($any($event.target).value)"
+      />
+    </div>
+
     <div class="actions">
       <button class="btn btn-secondary" (click)="selectAll()">
         Tout sélectionner
@@ -52,7 +63,7 @@
 
   @if (viewMode() === 'tracks') {
   <div class="musics-grid">
-    @for (music of availableMusics(); track `${music.title}-${music.artist}`) {
+    @for (music of filteredMusics(); track `${music.title}-${music.artist}`) {
     <div
       class="music-cover"
       [class.selected]="isSelected(music)"
@@ -72,7 +83,7 @@
   </div>
   } @else {
   <div class="albums-grid">
-    @for (album of albumGroups(); track album.key) {
+    @for (album of filteredAlbums(); track album.key) {
     <div
       class="album-cover"
       [class.selected]="isAlbumSelected(album.key)"

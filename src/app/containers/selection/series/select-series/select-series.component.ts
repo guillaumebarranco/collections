@@ -26,6 +26,7 @@ export class SelectSeriesComponent
 
   userSeries = signal<Serie[]>([]);
   allSeriesMergedList = signal<Serie[]>([]);
+  searchTerm = signal('');
 
   // Séries déjà vues par l'utilisateur (pour les exclure en mode ajout)
   watchedSeries = computed<Set<string>>(() => {
@@ -46,6 +47,17 @@ export class SelectSeriesComponent
     return allSeriesList.filter(
       (serie) => !this.watchedSeries().has(this.getSerieKey(serie))
     );
+  });
+
+  filteredSeries = computed<Serie[]>(() => {
+    const term = this.searchTerm().trim().toLowerCase();
+    const list = this.allSeries();
+    if (!term) return list;
+    return list.filter((serie) => {
+      const title = serie.title?.toLowerCase() || '';
+      const director = serie.director?.toLowerCase() || '';
+      return title.includes(term) || director.includes(term);
+    });
   });
 
   selectedSeries = signal<Set<string>>(new Set());
