@@ -20,10 +20,17 @@ export interface BaseSerie extends MandatorySerieData {
   totalLength: number;
 }
 
+export interface UserSerieSeason {
+  seasonNumber: number;
+  seasonRating: number;
+  seasonTimesWatched: number;
+}
+
 export interface UserSerie extends MandatorySerieData {
   rating: number;
   timesWatched: number;
   stoppedAtSeason: number;
+  seasons: UserSerieSeason[];
 }
 
 export interface Serie extends BaseSerie, UserSerie {}

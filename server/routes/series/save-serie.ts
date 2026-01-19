@@ -32,6 +32,7 @@ router.post('/', (req: any, res: any) => {
       rating: normalizeNumber(input.rating, 'rating'),
       timesWatched: normalizeNumber(input.timesWatched, 'timesWatched'),
       stoppedAtSeason: normalizeNumber(input.stoppedAtSeason, 'stoppedAtSeason'),
+      seasons: Array.isArray(input.seasons) ? input.seasons : undefined,
     };
 
     const serieFiles = getUserSeriesFiles(userId);

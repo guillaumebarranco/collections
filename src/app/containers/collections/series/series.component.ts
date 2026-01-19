@@ -163,6 +163,7 @@ export class SeriesComponent implements OnInit {
     }
   });
 
+
   stats = computed<StatItem[]>(() => {
     // Utiliser les séries filtrées pour les stats avec longueur effective
     const seriesToUse = this.filteredSeries();
@@ -232,6 +233,7 @@ export class SeriesComponent implements OnInit {
   onSearchChange(value: string) {
     this.searchTerm.set(value);
   }
+
 
   getSelectSeriesRoute(): string {
     const params: Params = this.activatedRoute.snapshot.params;

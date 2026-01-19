@@ -71,6 +71,22 @@ function parseNumberField(objectText: string, key: string) {
   return Number.isNaN(parsed) ? null : parsed;
 }
 
+function parseSeasonsField(objectText: string) {
+  const seasonsMatch = objectText.match(/seasons\s*:\s*\[([\s\S]*?)\]/);
+  if (!seasonsMatch) return null;
+  const body = seasonsMatch[1];
+  const seasons: any[] = [];
+  const entries = body.match(/\{[\s\S]*?\}/g) || [];
+  for (const entry of entries) {
+    const seasonNumber = parseNumberField(entry, 'seasonNumber') ?? 0;
+    const seasonRating = parseNumberField(entry, 'seasonRating') ?? 0;
+    const seasonTimesWatched =
+      parseNumberField(entry, 'seasonTimesWatched') ?? 0;
+    seasons.push({ seasonNumber, seasonRating, seasonTimesWatched });
+  }
+  return seasons;
+}
+
 function parseBooleanField(objectText: string, key: string) {
   const regex = new RegExp(`${key}\\s*:\\s*(true|false)`);
   const match = objectText.match(regex);
@@ -129,6 +145,7 @@ function parseSeriesFromFile(content: string): any[] {
             timesWatched: parseNumberField(objectText, 'timesWatched') ?? 0,
             stoppedAtSeason:
               parseNumberField(objectText, 'stoppedAtSeason') ?? 0,
+            seasons: parseSeasonsField(objectText) ?? [],
           });
         }
       }
@@ -287,6 +304,22 @@ function baseSerieExists(title: string, director: string) {
   });
 }
 
+function findBaseSerie(title: string, director: string) {
+  const normalizedTitle = title.trim().toLowerCase();
+  const normalizedDirector = director.trim().toLowerCase();
+  const baseFiles = getBaseSeriesFiles();
+  for (const filePath of baseFiles) {
+    const content = fs.readFileSync(filePath, 'utf8');
+    const match = parseBaseSeriesFullFromFile(content).find(
+      (serie) =>
+        serie.title?.trim().toLowerCase() === normalizedTitle &&
+        serie.director?.trim().toLowerCase() === normalizedDirector
+    );
+    if (match) return match;
+  }
+  return null;
+}
+
 function replaceField(objectText: string, key: string, value: any) {
   if (value === undefined) return objectText;
   let next = objectText;
@@ -323,6 +356,32 @@ function replaceField(objectText: string, key: string, value: any) {
   }
 
   return next;
+}
+
+function formatSeasons(seasons: any[]) {
+  const lines = seasons.map((season: any) => {
+    const seasonNumber = Number(season?.seasonNumber ?? 0);
+    const seasonRating = Number(season?.seasonRating ?? 0);
+    const seasonTimesWatched = Number(season?.seasonTimesWatched ?? 0);
+    return `    {
+      seasonNumber: ${Number.isNaN(seasonNumber) ? 0 : seasonNumber},
+      seasonRating: ${Number.isNaN(seasonRating) ? 0 : seasonRating},
+      seasonTimesWatched: ${
+        Number.isNaN(seasonTimesWatched) ? 0 : seasonTimesWatched
+      },
+    }`;
+  });
+  return `seasons: [\n${lines.join(',\n')}\n  ]`;
+}
+
+function replaceSeasonsField(objectText: string, seasons: any[]) {
+  if (!Array.isArray(seasons)) return objectText;
+  const regex = /seasons\s*:\s*\[[\s\S]*?\]/;
+  const replacement = formatSeasons(seasons);
+  if (regex.test(objectText)) {
+    return objectText.replace(regex, replacement);
+  }
+  return objectText.replace(/\{\s*/, (match) => `${match}${replacement},\n  `);
 }
 
 function updateSerieInFile(content: string, payload: any) {
@@ -365,6 +424,9 @@ function updateSerieInFile(content: string, payload: any) {
             'stoppedAtSeason',
             payload.stoppedAtSeason
           );
+          if (payload.seasons) {
+            updated = replaceSeasonsField(updated, payload.seasons);
+          }
 
           return (
             content.slice(0, objectStart) +
@@ -437,6 +499,7 @@ module.exports = {
   appendObjectToArrayFile,
   getBaseSeriesFiles,
   baseSerieExists,
+  findBaseSerie,
   BASE_SERIES_API_FILE,
   updateSerieInFile,
   getUserSeriesFiles,

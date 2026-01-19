@@ -30,6 +30,27 @@ app-entity-card {
     transform: scale(1.05);
   }
 
+  .seasons-button {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    border: none;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 600;
+    z-index: 2;
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+
+  .seasons-button:hover {
+    background: rgba(0, 0, 0, 0.8);
+    transform: scale(1.05);
+  }
+
   p {
     margin: 0 !important;
   }

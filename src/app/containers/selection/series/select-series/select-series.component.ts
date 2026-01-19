@@ -113,6 +113,11 @@ export class SelectSeriesComponent
       rating: 0,
       timesWatched: 0,
       stoppedAtSeason: 0,
+      seasons: Array.from({ length: serie.nbSeasons || 0 }, (_, index) => ({
+        seasonNumber: index + 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+      })),
     }));
   }
 

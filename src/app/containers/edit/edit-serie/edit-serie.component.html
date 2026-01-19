@@ -94,6 +94,43 @@
       />
     </div>
 
+    @if (serieForm()?.seasons?.length) {
+    <div class="form-row">
+      <label>Notes et visionnages par saison</label>
+      <div class="season-form-grid">
+        @for (season of serieForm()?.seasons; track season.seasonNumber) {
+        <div class="season-form-card">
+          <div class="season-form-title">
+            Saison {{ season.seasonNumber }}
+          </div>
+          <label>
+            Note
+            <input
+              type="number"
+              min="0"
+              max="5"
+              step="0.5"
+              [ngModel]="season.seasonRating"
+              (ngModelChange)="updateSeasonField(season.seasonNumber, 'seasonRating', $event)"
+              name="seasonRating-{{ season.seasonNumber }}"
+            />
+          </label>
+          <label>
+            Visionnages
+            <input
+              type="number"
+              min="0"
+              [ngModel]="season.seasonTimesWatched"
+              (ngModelChange)="updateSeasonField(season.seasonNumber, 'seasonTimesWatched', $event)"
+              name="seasonTimesWatched-{{ season.seasonNumber }}"
+            />
+          </label>
+        </div>
+        }
+      </div>
+    </div>
+    }
+
     <button type="submit" class="submit-btn">Modifier</button>
   </form>
   }

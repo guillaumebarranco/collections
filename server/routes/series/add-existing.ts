@@ -8,6 +8,7 @@ const {
   appendObjectToArrayFile,
   parseSeriesFromFile,
   getUserAllSeriesFiles,
+  findBaseSerie,
 } = require('../../utils/series/series-utils');
 
 const router = express.Router();
@@ -48,23 +49,47 @@ function escapeString(value: string) {
   return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
 }
 
+function buildSeasons(nbSeasons: number) {
+  const count = Math.max(0, Number(nbSeasons) || 0);
+  return Array.from({ length: count }, (_, index) => ({
+    seasonNumber: index + 1,
+    seasonRating: 0,
+    seasonTimesWatched: 0,
+  }));
+}
+
+function formatSeasons(seasons: any[]) {
+  const lines = seasons.map(
+    (season: any) => `      {
+        seasonNumber: ${season.seasonNumber},
+        seasonRating: ${season.seasonRating},
+        seasonTimesWatched: ${season.seasonTimesWatched},
+      }`
+  );
+  return `    seasons: [\n${lines.join(',\n')}\n    ],`;
+}
+
 function formatUserSerie(serie: any) {
+  const seasons = buildSeasons(serie.nbSeasons);
   return `  {
     title: '${escapeString(serie.title)}',
     director: '${escapeString(serie.director)}',
     rating: 0,
     timesWatched: 1,
     stoppedAtSeason: 0,
+${formatSeasons(seasons)}
   },`;
 }
 
 function formatWatchlistSerie(serie: any) {
+  const seasons = buildSeasons(serie.nbSeasons);
   return `  {
     title: '${escapeString(serie.title)}',
     director: '${escapeString(serie.director)}',
     rating: 0,
     timesWatched: 0,
     stoppedAtSeason: 0,
+${formatSeasons(seasons)}
   },`;
 }
 
@@ -123,6 +148,7 @@ router.post('/add-existing', (req: any, res: any) => {
       .map((serie: any) => ({
         title: normalizeString(serie.title, 'title'),
         director: normalizeString(serie.director, 'director'),
+        nbSeasons: 0,
       }))
       .filter((serie: any) => serie.title && serie.director);
 
@@ -144,9 +170,17 @@ router.post('/add-existing', (req: any, res: any) => {
       existing.map((serie: any) => `${serie.title}|${serie.director}`)
     );
 
-    const toAdd = normalizedSeries.filter(
-      (serie: any) => !existingSet.has(`${serie.title}|${serie.director}`)
-    );
+    const toAdd = normalizedSeries
+      .filter(
+        (serie: any) => !existingSet.has(`${serie.title}|${serie.director}`)
+      )
+      .map((serie: any) => {
+        const baseSerie = findBaseSerie(serie.title, serie.director);
+        return {
+          ...serie,
+          nbSeasons: baseSerie?.nbSeasons ?? 0,
+        };
+      });
 
     if (toAdd.length === 0) {
       res.status(409).json({ error: 'Series already exist for user' });
