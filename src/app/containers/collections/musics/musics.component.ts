@@ -50,11 +50,6 @@ export class MusicsComponent implements OnInit {
   isAlbumModalOpen = signal<boolean>(false);
   selectedAlbum = signal<Album | null>(null);
 
-  viewModeOptions = [
-    { value: 'albums', label: 'Grouper par album' },
-    { value: 'all', label: 'Afficher toutes les musiques' },
-  ];
-
   filterOptions = [
     { value: 'all', label: 'Afficher tout' },
     {

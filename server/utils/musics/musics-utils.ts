@@ -199,6 +199,52 @@ function getUserMusicsFiles(userId: string): string[] {
   return listTsFilesRecursive(userDir);
 }
 
+function escapeString(value: string): string {
+  return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+}
+
+function appendObjectToArrayFile(filePath: string, objectText: string) {
+  const content = fs.readFileSync(filePath, 'utf8');
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    throw new Error('Array not found');
+  }
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
+    throw new Error('Array bounds not found');
+  }
+  const { arrayStart, arrayEnd } = bounds;
+
+  const arrayBody = content.slice(arrayStart + 1, arrayEnd);
+  const trimmedBody = arrayBody.trim();
+  const hasItems = /{/.test(arrayBody);
+  const needsComma = hasItems && !trimmedBody.endsWith(',');
+
+  const insert = (needsComma ? ',' : '') + '\n' + objectText + '\n';
+  return (
+    content.slice(0, arrayStart + 1) +
+    arrayBody +
+    insert +
+    content.slice(arrayEnd)
+  );
+}
+
+function getUserMusicsTargetFile(userId: string): string {
+  const userDir = path.join(USERS_MUSICS_DIR, userId, 'musics');
+  if (!fs.existsSync(userDir)) {
+    fs.mkdirSync(userDir, { recursive: true });
+  }
+
+  const preferred = path.join(userDir, `${userId}_musics.ts`);
+  if (!fs.existsSync(preferred)) {
+    const exportName = `${userId}Musics`;
+    const content = `import { UserMusic } from '../../../../models/music-model';\n\nexport const ${exportName}: UserMusic[] = [];\n`;
+    fs.writeFileSync(preferred, content, 'utf8');
+  }
+
+  return preferred;
+}
+
 module.exports = {
   normalizeNumber,
   normalizeString,
@@ -206,6 +252,9 @@ module.exports = {
   parseBaseMusicsFullFromFile,
   getBaseMusicsFiles,
   getUserMusicsFiles,
+  escapeString,
+  appendObjectToArrayFile,
+  getUserMusicsTargetFile,
 };
 
 export {};

@@ -17,6 +17,27 @@
   </div>
   }
 
+  @if(allMusics().length !== 0) {
+  <div class="musics-header-top">
+    <div class="musics-view-toggle">
+      <button
+        class="toggle-option"
+        [class.active]="selectedViewMode() === 'albums'"
+        (click)="onViewModeChange('albums')"
+      >
+        Grouper par album
+      </button>
+      <button
+        class="toggle-option"
+        [class.active]="selectedViewMode() === 'all'"
+        (click)="onViewModeChange('all')"
+      >
+        Afficher toutes les musiques
+      </button>
+    </div>
+  </div>
+  }
+
   <div class="musics-header">
     <app-stats-display
       [stats]="stats()"
@@ -26,20 +47,6 @@
     </app-stats-display>
 
     <div class="musics-filters">
-      <div class="musics-filters-item">
-        <p>Vue :</p>
-        <select
-          class="app-dropdown"
-          [(ngModel)]="selectedViewMode"
-          (change)="onViewModeChange($any($event.target).value)"
-          style="margin-bottom: 8px"
-        >
-          <option *ngFor="let option of viewModeOptions" [value]="option.value">
-            {{ option.label }}
-          </option>
-        </select>
-      </div>
-
       <div class="musics-filters-item">
         <p>Filtrer :</p>
         <select

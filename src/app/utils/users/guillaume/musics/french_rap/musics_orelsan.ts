@@ -60,13 +60,13 @@ export const musicsOrelsan: UserMusic[] = [
     title: '50 pour cent',
     artist: 'Orelsan',
     rating: 0,
-    timesListened: 250,
+    timesListened: 230,
   },
   {
     title: 'Jimmy Punchline',
     artist: 'Orelsan',
     rating: 0,
-    timesListened: 250,
+    timesListened: 230,
   },
   {
     title: 'Entre bien et mal (feat. Gringe)',

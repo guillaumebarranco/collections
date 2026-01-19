@@ -9,9 +9,17 @@
 
   .toolbar {
     @extend %select-toolbar;
+    flex-wrap: wrap;
+    gap: 12px;
 
     .selection-info .count {
       color: #e83e8c;
+    }
+
+    .view-toggle {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
     }
 
     .btn.btn-primary {
@@ -29,6 +37,27 @@
   }
 
   .music-cover {
+    @extend %select-item-square;
+
+    .overlay .checkmark {
+      color: #e83e8c;
+    }
+
+    &.selected {
+      border-color: #e83e8c;
+      box-shadow: 0 0 0 2px white, 0 0 0 4px #e83e8c;
+
+      .overlay {
+        background: rgba(232, 62, 140, 0.3);
+      }
+    }
+  }
+
+  .albums-grid {
+    @extend %select-grid-square;
+  }
+
+  .album-cover {
     @extend %select-item-square;
 
     .overlay .checkmark {

@@ -9,9 +9,28 @@
   </div>
 
   <div class="toolbar">
+    <div class="view-toggle">
+      <button
+        class="toggle-option"
+        [class.active]="viewMode() === 'tracks'"
+        (click)="setViewMode('tracks')"
+      >
+        Par musique
+      </button>
+      <button
+        class="toggle-option"
+        [class.active]="viewMode() === 'albums'"
+        (click)="setViewMode('albums')"
+      >
+        Par album
+      </button>
+    </div>
     <div class="selection-info">
       <span class="count">{{ selectedCount() }} musique(s) sélectionnée(s)</span>
-      <span class="total">sur {{ allMusics().length }}</span>
+      <span class="total">
+        sur {{ totalCount() }}
+        {{ viewMode() === 'albums' ? 'albums' : 'musiques' }}
+      </span>
     </div>
 
     <div class="actions">
@@ -23,16 +42,17 @@
       </button>
       <button
         class="btn btn-primary"
-        (click)="exportSelectedMusics()"
+        (click)="addSelectedMusics()"
         [disabled]="selectedCount() === 0"
       >
-        📥 Exporter ma liste de musiques ({{ selectedCount() }})
+        ➕ Ajouter à mes musiques ({{ selectedCount() }})
       </button>
     </div>
   </div>
 
+  @if (viewMode() === 'tracks') {
   <div class="musics-grid">
-    @for (music of allMusics(); track `${music.title}-${music.artist}`) {
+    @for (music of availableMusics(); track `${music.title}-${music.artist}`) {
     <div
       class="music-cover"
       [class.selected]="isSelected(music)"
@@ -50,5 +70,27 @@
     </div>
     }
   </div>
+  } @else {
+  <div class="albums-grid">
+    @for (album of albumGroups(); track album.key) {
+    <div
+      class="album-cover"
+      [class.selected]="isAlbumSelected(album.key)"
+      (click)="toggleAlbumSelection(album.key)"
+      [title]="album.album + ' - ' + album.artist"
+    >
+      <img [src]="album.coverUrl" [alt]="album.album" />
+      <div class="overlay">
+        <div class="checkmark">✓</div>
+        <div class="album-info">
+          <span class="album-title">{{ album.album }}</span>
+          <span class="album-artist">{{ album.artist }}</span>
+          <span class="album-count">{{ album.musics.length }} titres</span>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+  }
 </div>
 
