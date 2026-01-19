@@ -126,11 +126,11 @@ export const baseSeries: BaseSerie[] = [
     coverUrl:
       '/series_pictures/MV5BNDAyZmNlNTUtM2VlMC00ZTkyLWIyNzMtY2RiM2E2ZjA5NTIzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
     releaseDate: '2021-11-06',
-    endDate: '',
-    totalLength: 360,
+    endDate: '2024-11-23',
+    totalLength: 720,
     genre: 'Animation, Action, Adventure',
-    nbSeasons: 1,
-    nbEpisodesTotal: 9,
+    nbSeasons: 2,
+    nbEpisodesTotal: 18,
   },
   {
     title: 'Arrow',

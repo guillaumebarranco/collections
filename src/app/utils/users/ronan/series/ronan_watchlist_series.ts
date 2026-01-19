@@ -7,7 +7,49 @@ export const ronanWatchListSeries: UserSerie[] = [
     rating: 0,
     timesWatched: 0,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 5,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 6,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 7,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 8,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Cobra Kai',
@@ -15,7 +57,39 @@ export const ronanWatchListSeries: UserSerie[] = [
     rating: 0,
     timesWatched: 0,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 5,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 6,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Mentalist',
@@ -23,7 +97,44 @@ export const ronanWatchListSeries: UserSerie[] = [
     rating: 0,
     timesWatched: 0,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 5,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 6,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 7,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Reacher',
@@ -31,7 +142,19 @@ export const ronanWatchListSeries: UserSerie[] = [
     rating: 0,
     timesWatched: 0,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Suits, Avocats sur mesure',
@@ -39,7 +162,54 @@ export const ronanWatchListSeries: UserSerie[] = [
     rating: 0,
     timesWatched: 0,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 5,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 6,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 7,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 8,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 9,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'The Glory',
@@ -47,5 +217,12 @@ export const ronanWatchListSeries: UserSerie[] = [
     rating: 0,
     timesWatched: 0,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 ];

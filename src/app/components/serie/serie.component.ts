@@ -5,12 +5,14 @@ import {
   Input,
   Output,
   inject,
+  signal,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { Serie } from '../../models/serie-model';
 import { EditSerieComponent } from '../../containers/edit/edit-serie/edit-serie.component';
+import { EditSerieSeasonsComponent } from '../../containers/edit/edit-serie-seasons/edit-serie-seasons.component';
 import { EntityCardComponent } from '../entity-card/entity-card.component';
 
 interface StarInfo {
@@ -33,6 +35,8 @@ export class SerieComponent {
   @Input() serie!: Serie;
   @Output() serieUpdated = new EventEmitter<void>();
 
+  seasonsExpanded = signal(false);
+
   navigateToEdit(): void {
     const directId = this.activatedRoute.snapshot.params['id'];
     const parentId = this.activatedRoute.parent?.snapshot.params['id'];
@@ -51,6 +55,42 @@ export class SerieComponent {
         this.serieUpdated.emit();
       }
     });
+  }
+
+  openSeasonsDialog(): void {
+    const directId = this.activatedRoute.snapshot.params['id'];
+    const parentId = this.activatedRoute.parent?.snapshot.params['id'];
+    const userId = directId || parentId;
+    const dialogRef = this.dialog.open(EditSerieSeasonsComponent, {
+      data: {
+        serie: this.serie,
+        userId: userId || 'guillaume',
+      },
+      width: '720px',
+      maxWidth: '95vw',
+    });
+
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result?.updated) {
+        this.serieUpdated.emit();
+      }
+    });
+  }
+
+  toggleSeasonsInline(): void {
+    this.seasonsExpanded.set(!this.seasonsExpanded());
+  }
+
+  getSerieSeasons() {
+    if (this.serie.seasons && this.serie.seasons.length > 0) {
+      return this.serie.seasons;
+    }
+    const total = Math.max(0, Number(this.serie.nbSeasons) || 0);
+    return Array.from({ length: total }, (_, index) => ({
+      seasonNumber: index + 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }));
   }
 
   getRatingStars(rating: number): StarInfo[] {

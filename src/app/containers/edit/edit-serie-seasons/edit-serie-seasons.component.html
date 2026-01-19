@@ -1,0 +1,49 @@
+<app-edit-entity class="edit-entity--light">
+  <button
+    type="button"
+    class="dialog-close"
+    aria-label="Fermer"
+    (click)="close()"
+  >
+    &#10005;
+  </button>
+
+  <h1 class="title">Éditer les saisons</h1>
+  <p class="subtitle">{{ serie()?.title }}</p>
+
+  <form class="edit-form" (ngSubmit)="onSubmit()">
+    <div class="season-form-grid">
+      @for (season of seasons(); track season.seasonNumber) {
+      <div class="season-form-card">
+        <div class="season-form-title">Saison {{ season.seasonNumber }}</div>
+        <label>
+          Note
+          <input
+            type="number"
+            min="0"
+            max="5"
+            step="0.5"
+            [ngModel]="season.seasonRating"
+            (ngModelChange)="updateSeasonField(season.seasonNumber, 'seasonRating', $event)"
+            name="seasonRating-{{ season.seasonNumber }}"
+          />
+        </label>
+        <label>
+          Visionnages
+          <input
+            type="number"
+            min="0"
+            [ngModel]="season.seasonTimesWatched"
+            (ngModelChange)="updateSeasonField(season.seasonNumber, 'seasonTimesWatched', $event)"
+            name="seasonTimesWatched-{{ season.seasonNumber }}"
+          />
+        </label>
+      </div>
+      }
+    </div>
+
+    <button type="submit" class="submit-btn" [disabled]="isSaving()">
+      Modifier
+    </button>
+  </form>
+</app-edit-entity>

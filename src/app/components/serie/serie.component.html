@@ -8,6 +8,14 @@
   >
     &#9998;
   </button>
+  <button
+    type="button"
+    class="seasons-button"
+    aria-label="Voir les saisons"
+    (click)="openSeasonsDialog()"
+  >
+    Saisons
+  </button>
   <img
     entity-cover
     [src]="serie.coverUrl"
@@ -55,5 +63,22 @@
       </span>
       <span class="rating-text">{{ serie.rating }}/5</span>
     </div>
+    @if (serie.nbSeasons > 0) {
+    <button class="serie-seasons-toggle" type="button" (click)="toggleSeasonsInline()">
+      {{ seasonsExpanded() ? "Masquer les saisons" : "Dérouler les saisons" }}
+    </button>
+    } @if (seasonsExpanded()) {
+    <div class="serie-seasons-details">
+      @for (season of getSerieSeasons(); track season.seasonNumber) {
+      <div class="serie-season-row">
+        <span class="serie-season-title">Saison {{ season.seasonNumber }}</span>
+        <span class="serie-season-value">Note : {{ season.seasonRating }}/5</span>
+        <span class="serie-season-value"
+          >Visionnages : {{ season.seasonTimesWatched }}</span
+        >
+      </div>
+      }
+    </div>
+    }
   </div>
 </app-entity-card>

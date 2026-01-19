@@ -7,7 +7,24 @@ export const bastienSeries: UserSerie[] = [
     rating: 3.5,
     timesWatched: 1,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Arcane',
@@ -15,7 +32,19 @@ export const bastienSeries: UserSerie[] = [
     rating: 4,
     timesWatched: 1,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Bloqués',
@@ -23,7 +52,29 @@ export const bastienSeries: UserSerie[] = [
     rating: 4.5,
     timesWatched: 3,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Altered Carbon',
@@ -31,7 +82,19 @@ export const bastienSeries: UserSerie[] = [
     rating: 3,
     timesWatched: 1,
     stoppedAtSeason: 1,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Brooklyn Nine-Nine',
@@ -39,7 +102,49 @@ export const bastienSeries: UserSerie[] = [
     rating: 4,
     timesWatched: 1,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 5,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 6,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 7,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 8,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Cloak & Dagger',
@@ -47,7 +152,19 @@ export const bastienSeries: UserSerie[] = [
     rating: 3,
     timesWatched: 1,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Community',
@@ -55,7 +172,39 @@ export const bastienSeries: UserSerie[] = [
     rating: 3.5,
     timesWatched: 1,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 5,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 6,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Daredevil',
@@ -63,7 +212,24 @@ export const bastienSeries: UserSerie[] = [
     rating: 4,
     timesWatched: 1,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Hawkeye',
@@ -71,7 +237,14 @@ export const bastienSeries: UserSerie[] = [
     rating: 3,
     timesWatched: 1,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Gotham',
@@ -79,7 +252,34 @@ export const bastienSeries: UserSerie[] = [
     rating: 3,
     timesWatched: 1,
     stoppedAtSeason: 3,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 5,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Heroes',
@@ -87,7 +287,29 @@ export const bastienSeries: UserSerie[] = [
     rating: 3,
     timesWatched: 1,
     stoppedAtSeason: 3,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Iron Fist',
@@ -95,7 +317,19 @@ export const bastienSeries: UserSerie[] = [
     rating: 3,
     timesWatched: 1,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Jessica Jones',
@@ -103,7 +337,24 @@ export const bastienSeries: UserSerie[] = [
     rating: 4,
     timesWatched: 1,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Jupiter\'s Legacy',
@@ -111,7 +362,14 @@ export const bastienSeries: UserSerie[] = [
     rating: 4,
     timesWatched: 1,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Locke & Key',
@@ -119,7 +377,24 @@ export const bastienSeries: UserSerie[] = [
     rating: 3,
     timesWatched: 1,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Loki',
@@ -127,7 +402,19 @@ export const bastienSeries: UserSerie[] = [
     rating: 3,
     timesWatched: 1,
     stoppedAtSeason: 1,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Luke Cage',
@@ -135,7 +422,19 @@ export const bastienSeries: UserSerie[] = [
     rating: 3,
     timesWatched: 1,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Malcolm in the Middle',
@@ -143,7 +442,44 @@ export const bastienSeries: UserSerie[] = [
     rating: 5,
     timesWatched: 3,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 5,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 6,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 7,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Misfits',
@@ -151,7 +487,34 @@ export const bastienSeries: UserSerie[] = [
     rating: 2.5,
     timesWatched: 1,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 5,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Mercredi',
@@ -159,7 +522,19 @@ export const bastienSeries: UserSerie[] = [
     rating: 4,
     timesWatched: 1,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Obi-Wan Kenobi',
@@ -167,7 +542,14 @@ export const bastienSeries: UserSerie[] = [
     rating: 4,
     timesWatched: 1,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'One Piece (live-action)',
@@ -175,7 +557,14 @@ export const bastienSeries: UserSerie[] = [
     rating: 4,
     timesWatched: 1,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Smallville',
@@ -183,7 +572,59 @@ export const bastienSeries: UserSerie[] = [
     rating: 3,
     timesWatched: 1,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 5,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 6,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 7,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 8,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 9,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 10,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'South Park',
@@ -191,7 +632,139 @@ export const bastienSeries: UserSerie[] = [
     rating: 4,
     timesWatched: 1,
     stoppedAtSeason: 12,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 5,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 6,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 7,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 8,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 9,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 10,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 11,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 12,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 13,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 14,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 15,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 16,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 17,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 18,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 19,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 20,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 21,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 22,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 23,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 24,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 25,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 26,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Squid Game',
@@ -199,7 +772,24 @@ export const bastienSeries: UserSerie[] = [
     rating: 4,
     timesWatched: 1,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Stranger Things',
@@ -207,7 +797,34 @@ export const bastienSeries: UserSerie[] = [
     rating: 4.5,
     timesWatched: 1,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 5,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Supernatural',
@@ -215,7 +832,84 @@ export const bastienSeries: UserSerie[] = [
     rating: 4,
     timesWatched: 1,
     stoppedAtSeason: 5,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 5,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 6,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 7,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 8,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 9,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 10,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 11,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 12,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 13,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 14,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 15,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'The Boys',
@@ -223,7 +917,29 @@ export const bastienSeries: UserSerie[] = [
     rating: 4,
     timesWatched: 1,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'The Defenders',
@@ -231,7 +947,14 @@ export const bastienSeries: UserSerie[] = [
     rating: 3.5,
     timesWatched: 1,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'The Falcon and the Winter Soldier',
@@ -239,7 +962,14 @@ export const bastienSeries: UserSerie[] = [
     rating: 3,
     timesWatched: 1,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'The Office',
@@ -247,7 +977,54 @@ export const bastienSeries: UserSerie[] = [
     rating: 4,
     timesWatched: 1,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 5,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 6,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 7,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 8,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 9,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'The Shannara Chronicles',
@@ -255,7 +1032,19 @@ export const bastienSeries: UserSerie[] = [
     rating: 2.5,
     timesWatched: 1,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'The Punisher',
@@ -263,7 +1052,19 @@ export const bastienSeries: UserSerie[] = [
     rating: 4,
     timesWatched: 1,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'WandaVision',
@@ -271,7 +1072,14 @@ export const bastienSeries: UserSerie[] = [
     rating: 4,
     timesWatched: 1,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 
   {
     title: 'Yu Yu Hakusho (live-action)',
@@ -279,5 +1087,12 @@ export const bastienSeries: UserSerie[] = [
     rating: 3,
     timesWatched: 1,
     stoppedAtSeason: 0,
-  },
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+},
 ];

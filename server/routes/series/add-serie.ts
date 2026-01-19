@@ -39,6 +39,16 @@ ${
 }
 
 function formatUserSerie(user: any): string {
+  const seasons = Array.from(
+    { length: Math.max(0, Number(user.nbSeasons) || 0) },
+    (_, index) => `      {
+        seasonNumber: ${index + 1},
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+      }`
+  );
+
+  const seasonsBlock = `    seasons: [\n${seasons.join(',\n')}\n    ],`;
   return `  {
     title: '${escapeString(user.title)}',
     director: '${escapeString(user.director)}',
@@ -47,6 +57,7 @@ function formatUserSerie(user: any): string {
     user.timesWatched ?? 0
   },
     stoppedAtSeason: ${user.stoppedAtSeason ?? 0},
+${seasonsBlock}
   },`;
 }
 
@@ -134,6 +145,7 @@ router.post('/add', (req: any, res: any) => {
       timesWatched: normalizeNumber(user.timesWatched, 'timesWatched') ?? 0,
       stoppedAtSeason:
         normalizeNumber(user.stoppedAtSeason, 'stoppedAtSeason') ?? 0,
+      nbSeasons: entityPayload.nbSeasons || 0,
     };
 
     const baseSerieContent = appendObjectToArrayFile(

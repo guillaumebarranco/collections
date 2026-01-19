@@ -1,4 +1,4 @@
-import { Serie, BaseSerie, UserSerie } from '../../models/serie-model';
+import { Serie, BaseSerie, UserSerie, UserSerieSeason } from '../../models/serie-model';
 
 import {
   allBaseSeries,
@@ -11,6 +11,32 @@ import {
   fetchUserSeriesFromApi,
   fetchWatchlistSeriesFromApi,
 } from './api-series.facade';
+
+function buildSeasons(
+  nbSeasons: number,
+  existing?: UserSerieSeason[]
+): UserSerieSeason[] {
+  const safeNbSeasons = Math.max(0, Number(nbSeasons) || 0);
+  if (existing && existing.length > 0) {
+    if (existing.length >= safeNbSeasons) {
+      return existing.slice(0, safeNbSeasons);
+    }
+    const missing = Array.from(
+      { length: safeNbSeasons - existing.length },
+      (_, index) => ({
+        seasonNumber: existing.length + index + 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+      })
+    );
+    return [...existing, ...missing];
+  }
+  return Array.from({ length: safeNbSeasons }, (_, index) => ({
+    seasonNumber: index + 1,
+    seasonRating: 0,
+    seasonTimesWatched: 0,
+  }));
+}
 
 async function getAllSeriesData(series: UserSerie[]): Promise<Serie[]> {
   const baseSeries = await getAllBaseSeries();
@@ -28,12 +54,18 @@ async function getAllSeriesData(series: UserSerie[]): Promise<Serie[]> {
             return baseSerie.director === serie.director;
           })[0];
 
+    const seasons = buildSeasons(
+      definitiveMatchingSerie?.nbSeasons || 0,
+      serie.seasons
+    );
+
     return {
       title: serie.title,
       director: serie.director,
       rating: serie.rating,
       timesWatched: serie.timesWatched,
       stoppedAtSeason: serie.stoppedAtSeason || 0,
+      seasons,
       actors: definitiveMatchingSerie?.actors || [],
       coverUrl: definitiveMatchingSerie?.coverUrl || '',
       releaseDate: definitiveMatchingSerie?.releaseDate || '',

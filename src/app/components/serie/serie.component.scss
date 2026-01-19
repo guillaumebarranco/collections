@@ -42,3 +42,39 @@
 .serie-genre {
   @include components.component-genre-base;
 }
+
+.serie-seasons-toggle {
+  margin-top: 10px;
+  background: transparent;
+  border: none;
+  color: #25645d;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+  text-align: left;
+}
+
+.serie-seasons-details {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.serie-season-row {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 6px 8px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.serie-season-title {
+  font-weight: 600;
+}
+
+.serie-season-value {
+  font-size: 0.85rem;
+  color: #555;
+}

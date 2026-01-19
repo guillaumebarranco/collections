@@ -7,7 +7,7 @@ import {
   Router,
   RouterModule,
 } from '@angular/router';
-import { Serie } from '../../../models/serie-model';
+import { Serie, UserSerieSeason } from '../../../models/serie-model';
 import { getSeriesByUser } from '../../../facades/series/series.facade';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
@@ -17,6 +17,7 @@ type EditSerieForm = {
   rating: number;
   timesWatched: number;
   stoppedAtSeason: number;
+  seasons: UserSerieSeason[];
 };
 
 type EditSerieDialogData = {
@@ -127,6 +128,7 @@ export class EditSerieComponent {
           rating: form.rating,
           timesWatched: form.timesWatched,
           stoppedAtSeason: form.stoppedAtSeason,
+          seasons: form.seasons,
         }),
       });
 
@@ -198,7 +200,45 @@ export class EditSerieComponent {
       rating: serie.rating,
       timesWatched: serie.timesWatched,
       stoppedAtSeason: serie.stoppedAtSeason || 0,
+      seasons: this.buildSeasons(serie),
     };
+  }
+
+  updateSeasonField(
+    seasonNumber: number,
+    field: 'seasonRating' | 'seasonTimesWatched',
+    value: string | number
+  ) {
+    const current = this.serieForm();
+    if (!current) return;
+
+    const nextValue = Number(value);
+    const normalizedValue = Number.isNaN(nextValue) ? 0 : nextValue;
+    const nextSeasons = current.seasons.map((season) =>
+      season.seasonNumber === seasonNumber
+        ? {
+            ...season,
+            [field]: normalizedValue,
+          }
+        : season
+    );
+
+    this.serieForm.set({
+      ...current,
+      seasons: nextSeasons,
+    });
+  }
+
+  private buildSeasons(serie: Serie): UserSerieSeason[] {
+    if (serie.seasons && serie.seasons.length > 0) {
+      return serie.seasons;
+    }
+    const total = Math.max(0, Number(serie.nbSeasons) || 0);
+    return Array.from({ length: total }, (_, index) => ({
+      seasonNumber: index + 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }));
   }
 
   private toSlug(value: string): string {
