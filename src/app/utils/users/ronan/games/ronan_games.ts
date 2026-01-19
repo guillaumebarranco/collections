@@ -1096,8 +1096,7 @@ export const ronanGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     platined: false,
-  }
-,
+  },
   {
     title: 'Pokémon Émeraude',
     editor: 'Game Freak',
@@ -1106,7 +1105,6 @@ export const ronanGames: UserGame[] = [
     additionnalEstimatedTime: 0,
     platined: false,
   },
-
   {
     title: 'Dragon Ball Z: Budokai 2',
     editor: 'Dimps',
@@ -1115,7 +1113,6 @@ export const ronanGames: UserGame[] = [
     additionnalEstimatedTime: 0,
     platined: false,
   },
-
   {
     title: 'Dragon Ball Z: Budokai Tenkaichi 2',
     editor: 'Spike',
@@ -1124,7 +1121,6 @@ export const ronanGames: UserGame[] = [
     additionnalEstimatedTime: 0,
     platined: false,
   },
-
   {
     title: 'Need for Speed: Most Wanted',
     editor: 'Electronic Arts',
@@ -1133,11 +1129,122 @@ export const ronanGames: UserGame[] = [
     additionnalEstimatedTime: 0,
     platined: false,
   },
-
   {
     title: 'Pokémon Bleu',
     editor: 'Game Freak',
     rating: 0,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+  {
+    title: 'Teenage Mutant Hero Turtles: Fall of the Foot Clan',
+    editor: 'Konami',
+    rating: 4,
+    timesFinished: 4,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+  {
+    title: 'Double Dragon',
+    editor: 'Nintendo',
+    rating: 3,
+    timesFinished: 2,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+  {
+    title: 'Pokemon Jaune',
+    editor: 'Nintendo',
+    rating: 3.5,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+  {
+    title: 'Bomberman GB',
+    editor: 'Nintendo',
+    rating: 3,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+  {
+    title: 'Harry Potter et La Chambre des Secrets',
+    editor: 'Electronic Arts',
+    rating: 3.5,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  }
+,
+  {
+    title: 'Harry Potter à l\'école des sorciers',
+    editor: 'Electronic Arts',
+    rating: 3.5,
+    timesFinished: 3,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Harry Potter et La Coupe de Feu',
+    editor: 'Electronic Arts',
+    rating: 3.5,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Pokemon version Ruby',
+    editor: 'Nintendo',
+    rating: 4,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Sonic Advance',
+    editor: 'Sega',
+    rating: 2.5,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Star Wars III - La Revanche des Siths',
+    editor: 'Ubisoft',
+    rating: 3.5,
+    timesFinished: 2,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Spider-Man 3',
+    editor: 'Activision',
+    rating: 3.5,
+    timesFinished: 3,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Les Urbz - Les Sims in the City',
+    editor: 'Electronic Arts',
+    rating: 2.5,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Star Wars : Flight of the Falcon',
+    editor: 'Ubisoft',
+    rating: 1.5,
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     platined: false,
