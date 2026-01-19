@@ -332,8 +332,6 @@ module.exports = {
   getBaseBdsFiles,
   BASE_BDS_DIR,
   USERS_BDS_DIR,
-  BASE_BDS_DIR,
-  USERS_BDS_DIR,
 };
 
 export {};
