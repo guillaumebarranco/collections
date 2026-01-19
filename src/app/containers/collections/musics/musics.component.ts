@@ -261,6 +261,17 @@ export class MusicsComponent implements OnInit {
     const userId = this.getActiveUserId();
     const musics = await getAllMusics(userId);
     this.musicsList.set(musics);
+
+    const currentUserMusics = musics[userId] || [];
+    if (
+      this.selectedFilter() === 'popular' &&
+      currentUserMusics.length > 0 &&
+      !currentUserMusics.some(
+        (music) => music.timesListened > TIMES_LISTENED_FOR_POPULAR
+      )
+    ) {
+      this.selectedFilter.set('all');
+    }
   }
 
   onSortChange(sortValue: string) {
