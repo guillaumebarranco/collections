@@ -1,4 +1,5 @@
 @use '../../styles/containers.scss' as containers;
+@use '../../styles/toggle.scss' as toggle;
 
 .dashboard-container {
   @include containers.container-base;
@@ -23,6 +24,12 @@
   flex-direction: column;
   gap: 40px;
   margin-top: 30px;
+}
+
+.dashboard-tabs {
+  @include toggle.view-toggle;
+  max-width: 720px;
+  margin: 20px 0 10px;
 }
 
 .dashboard-section {
@@ -135,6 +142,16 @@
 
   .dashboard-sections {
     gap: 25px;
+  }
+
+  .dashboard-tabs {
+    max-width: 100%;
+    margin: 10px 0 0;
+
+    .toggle-option {
+      padding: 10px 14px;
+      font-size: 0.9rem;
+    }
   }
 
   .dashboard-section {

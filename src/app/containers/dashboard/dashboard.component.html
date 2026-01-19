@@ -4,18 +4,65 @@
 <div class="dashboard-container">
   <h1>Tableau de bord</h1>
 
+  <div class="dashboard-tabs">
+    <button
+      class="toggle-option"
+      [class.active]="selectedTab() === 'overview'"
+      (click)="onTabChange('overview')"
+    >
+      Vue d'ensemble
+    </button>
+    <button
+      class="toggle-option"
+      [class.active]="selectedTab() === 'entities'"
+      (click)="onTabChange('entities')"
+    >
+      Statistiques par entité
+    </button>
+    <button
+      class="toggle-option"
+      [class.active]="selectedTab() === 'top5'"
+      (click)="onTabChange('top5')"
+    >
+      Top 5
+    </button>
+  </div>
+
   <div class="dashboard-sections">
     <!-- Statistiques générales -->
+    @if (selectedTab() === 'overview') {
     <div class="dashboard-section">
       <h2>📊 Vue d'ensemble</h2>
       <app-stats-display [stats]="stats()" [count]="0" countLabel="">
       </app-stats-display>
     </div>
 
+    <div class="dashboard-section">
+      <h2>📝 À faire</h2>
+      <app-dashboard-user-todos
+        [books]="allBooks()"
+        [mangas]="allMangas()"
+        [manwhas]="allManwhas()"
+        [movies]="allMovies()"
+        [series]="allSeries()"
+        [games]="allGames()"
+        [musics]="allMusics()"
+        [watchlistMovies]="allWatchlistMovies()"
+        [watchlistSeries]="allWatchlistSeries()"
+        [readlistBooks]="allReadlistBooks()"
+        [readlistMangas]="allReadlistMangas()"
+        [readlistManwhas]="allReadlistManwhas()"
+      ></app-dashboard-user-todos>
+    </div>
+    }
+
     <!-- Statistiques par entité -->
+    @if (selectedTab() === 'entities') {
     <app-dashboard-entities-stats></app-dashboard-entities-stats>
+    }
 
     <!-- Top 5 -->
+    @if (selectedTab() === 'top5') {
     <div class="dashboard-section">
       <h2>🏆 Top 5</h2>
 
@@ -133,6 +180,7 @@
         </div>
       </div>
     </div>
+    }
   </div>
 </div>
 } @if(userId() && !userHasData()) {

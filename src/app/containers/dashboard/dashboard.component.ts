@@ -7,6 +7,7 @@ import {
   StatItemColor,
 } from '../../components/stats-display/stats-display.component';
 import { DashboardEntitiesStatsComponent } from '../../components/dashboard-entities-stats/dashboard-entities-stats.component';
+import { DashboardUserTodosComponent } from '../../components/dashboard-user-todos/dashboard-user-todos.component';
 
 import { musics } from '../../utils/users/guillaume/musics';
 import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
@@ -21,14 +22,29 @@ import {
   MINUTES_PER_MANWHA_CHAPTER,
   MINUTES_PER_PAGE,
 } from '../../utils/stats.utils';
-import { getAllMovies } from '../../facades/movies/movies.facade';
-import { getAllSeries } from '../../facades/series/series.facade';
-import { getAllBooks } from '../../facades/books/books.facade';
+import {
+  getAllMovies,
+  getAllWatchlistMovies,
+} from '../../facades/movies/movies.facade';
+import {
+  getAllSeries,
+  getAllWatchlistSeries,
+} from '../../facades/series/series.facade';
+import {
+  getAllBooks,
+  getAllReadlistBooks,
+} from '../../facades/books/books.facade';
 import { getAllGames } from '../../facades/games/games.facade';
 import { Manga } from '../../models/manga-model';
-import { getAllMangas } from '../../facades/mangas/mangas.facade';
+import {
+  getAllMangas,
+  getAllReadlistMangas,
+} from '../../facades/mangas/mangas.facade';
 import { Manwha } from '../../models/manwha-model';
-import { getAllManwhas } from '../../facades/manwhas/manwhas.facade';
+import {
+  getAllManwhas,
+  getAllReadlistManwhas,
+} from '../../facades/manwhas/manwhas.facade';
 
 interface TopBook extends Book {
   formattedReadingTime: string;
@@ -63,6 +79,7 @@ interface TopManga extends Manga {
     MenuComponent,
     StatsDisplayComponent,
     DashboardEntitiesStatsComponent,
+    DashboardUserTodosComponent,
   ],
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.scss'],
@@ -72,18 +89,24 @@ export class DashboardComponent implements OnInit {
   router = inject(Router);
 
   filledUserId = signal<string>('');
+  selectedTab = signal<'overview' | 'entities' | 'top5'>('overview');
 
   booksList = signal<{ [key: string]: Book[] }>({});
   mangasList = signal<{ [key: string]: Manga[] }>({});
   moviesList = signal<{ [key: string]: Movie[] }>({});
+  watchlistMoviesList = signal<{ [key: string]: Movie[] }>({});
   seriesList = signal<{ [key: string]: Serie[] }>({});
+  watchlistSeriesList = signal<{ [key: string]: Serie[] }>({});
   gamesList = signal<{ [key: string]: Game[] }>({});
 
   manwhasList = signal<{ [key: string]: Manwha[] }>({});
+  readlistManwhasList = signal<{ [key: string]: Manwha[] }>({});
 
+  readlistBooksList = signal<{ [key: string]: Book[] }>({});
   musicsList = signal<{ [key: string]: Music[] }>({
     guillaume: [...musics],
   });
+  readlistMangasList = signal<{ [key: string]: Manga[] }>({});
 
   userId = computed<string>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
@@ -111,12 +134,32 @@ export class DashboardComponent implements OnInit {
       : [];
   });
 
+  allWatchlistMovies = computed<Movie[]>(() => {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? Boolean(this.watchlistMoviesList()[this.userId()])
+        ? this.watchlistMoviesList()[this.userId()]
+        : []
+      : [];
+  });
+
   allSeries = computed<Serie[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
       ? Boolean(this.seriesList()[this.userId()])
         ? this.seriesList()[this.userId()]
+        : []
+      : [];
+  });
+
+  allWatchlistSeries = computed<Serie[]>(() => {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? Boolean(this.watchlistSeriesList()[this.userId()])
+        ? this.watchlistSeriesList()[this.userId()]
         : []
       : [];
   });
@@ -142,6 +185,16 @@ export class DashboardComponent implements OnInit {
       : [];
   });
 
+  allReadlistMangas = computed<Manga[]>(() => {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? Boolean(this.readlistMangasList()[this.userId()])
+        ? this.readlistMangasList()[this.userId()]
+        : []
+      : [];
+  });
+
   allManwhas = computed<Manwha[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
@@ -152,12 +205,32 @@ export class DashboardComponent implements OnInit {
       : [];
   });
 
+  allReadlistManwhas = computed<Manwha[]>(() => {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? Boolean(this.readlistManwhasList()[this.userId()])
+        ? this.readlistManwhasList()[this.userId()]
+        : []
+      : [];
+  });
+
   allMusics = computed<Music[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
       ? Boolean(this.musicsList()[this.userId()])
         ? this.musicsList()[this.userId()]
+        : []
+      : [];
+  });
+
+  allReadlistBooks = computed<Book[]>(() => {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? Boolean(this.readlistBooksList()[this.userId()])
+        ? this.readlistBooksList()[this.userId()]
         : []
       : [];
   });
@@ -422,12 +495,21 @@ export class DashboardComponent implements OnInit {
     this.router.navigate([this.filledUserId().toLowerCase()]);
   }
 
+  onTabChange(tab: 'overview' | 'entities' | 'top5'): void {
+    this.selectedTab.set(tab);
+  }
+
   ngOnInit() {
     this.loadMoviesData();
+    this.loadWatchlistMoviesData();
     this.loadBooksData();
+    this.loadReadlistBooksData();
     this.loadMangasData();
+    this.loadReadlistMangasData();
     this.loadManwhasData();
+    this.loadReadlistManwhasData();
     this.loadSeriesData();
+    this.loadWatchlistSeriesData();
     this.loadGamesData();
   }
 
@@ -437,10 +519,22 @@ export class DashboardComponent implements OnInit {
     this.moviesList.set(movies);
   }
 
+  private async loadWatchlistMoviesData() {
+    const userId = this.userId() || 'guillaume';
+    const movies = await getAllWatchlistMovies(userId);
+    this.watchlistMoviesList.set(movies);
+  }
+
   private async loadBooksData() {
     const userId = this.userId() || 'guillaume';
     const books = await getAllBooks(userId);
     this.booksList.set(books);
+  }
+
+  private async loadReadlistBooksData() {
+    const userId = this.userId() || 'guillaume';
+    const books = await getAllReadlistBooks(userId);
+    this.readlistBooksList.set(books);
   }
 
   private async loadMangasData() {
@@ -449,16 +543,34 @@ export class DashboardComponent implements OnInit {
     this.mangasList.set(mangas);
   }
 
+  private async loadReadlistMangasData() {
+    const userId = this.userId() || 'guillaume';
+    const mangas = await getAllReadlistMangas(userId);
+    this.readlistMangasList.set(mangas);
+  }
+
   private async loadManwhasData() {
     const userId = this.userId() || 'guillaume';
     const manwhas = await getAllManwhas(userId);
     this.manwhasList.set(manwhas);
   }
 
+  private async loadReadlistManwhasData() {
+    const userId = this.userId() || 'guillaume';
+    const manwhas = await getAllReadlistManwhas(userId);
+    this.readlistManwhasList.set(manwhas);
+  }
+
   private async loadSeriesData() {
     const userId = this.userId() || 'guillaume';
     const series = await getAllSeries(userId);
     this.seriesList.set(series);
+  }
+
+  private async loadWatchlistSeriesData() {
+    const userId = this.userId() || 'guillaume';
+    const series = await getAllWatchlistSeries(userId);
+    this.watchlistSeriesList.set(series);
   }
 
   private async loadGamesData() {

@@ -376,7 +376,7 @@ export const guillaumeBooks: UserBook[] = [
     title: 'La photo qui tue',
     author: 'Anthony Horowitz',
     readDate: '2004-04-31',
-    rating: 0,
+    rating: 3.25,
     readTimes: 1,
   },
   {
