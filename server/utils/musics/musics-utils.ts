@@ -22,18 +22,6 @@ const BASE_MUSICS_DIR = path.join(
   'entities',
   'musics'
 );
-const SOUNDTRACKS_DATA_FILE = path.join(
-  __dirname,
-  '..',
-  '..',
-  '..',
-  'src',
-  'app',
-  'utils',
-  'users',
-  'xeryth',
-  'data.ts'
-);
 
 function getArrayBounds(content: string, exportIndex: number) {
   const assignIndex = content.indexOf('=', exportIndex);
@@ -44,11 +32,6 @@ function getArrayBounds(content: string, exportIndex: number) {
   return { arrayStart, arrayEnd };
 }
 
-function getArrayBoundsForLabel(content: string, label: string) {
-  const labelIndex = content.indexOf(label);
-  if (labelIndex === -1) return null;
-  return getArrayBounds(content, labelIndex);
-}
 
 function normalizeNumber(value: any, field: string) {
   if (value === undefined || value === null) return undefined;
@@ -170,45 +153,6 @@ function parseUserMusicsFromFile(content: string): any[] {
   return musics;
 }
 
-function parseSoundtracksDataFromFile(content: string): any[] {
-  const bounds =
-    getArrayBoundsForLabel(content, 'const rawData') ||
-    getArrayBoundsForLabel(content, 'export const data');
-  if (!bounds) {
-    return [];
-  }
-
-  const { arrayStart, arrayEnd } = bounds;
-  const musics: any[] = [];
-  let i = arrayStart;
-  let depth = 0;
-  let objectStart = -1;
-
-  while (i < arrayEnd) {
-    const char = content[i];
-    if (char === '{') {
-      if (depth === 0) {
-        objectStart = i;
-      }
-      depth += 1;
-    } else if (char === '}') {
-      depth -= 1;
-      if (depth === 0 && objectStart !== -1) {
-        const objectEnd = i;
-        const objectText = content.slice(objectStart, objectEnd + 1);
-        const title = parseStringField(objectText, 'title');
-        const artist = parseStringField(objectText, 'artist');
-        const duration = parseStringField(objectText, 'duration');
-        if (title && artist && duration) {
-          musics.push({ title, artist, duration });
-        }
-      }
-    }
-    i += 1;
-  }
-
-  return musics;
-}
 
 function parseBaseMusicsFullFromFile(content: string): any[] {
   const exportIndex = content.indexOf('export const');
@@ -289,11 +233,6 @@ function getUserMusicsFiles(userId: string): string[] {
   return listTsFilesRecursive(userDir);
 }
 
-function getSoundtracksData(): any[] {
-  if (!fs.existsSync(SOUNDTRACKS_DATA_FILE)) return [];
-  const content = fs.readFileSync(SOUNDTRACKS_DATA_FILE, 'utf8');
-  return parseSoundtracksDataFromFile(content);
-}
 
 function escapeString(value: string): string {
   return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
@@ -398,7 +337,6 @@ module.exports = {
   parseBaseMusicsFullFromFile,
   getBaseMusicsFiles,
   getUserMusicsFiles,
-  getSoundtracksData,
   escapeString,
   appendObjectToArrayFile,
   getUserMusicsTargetFile,

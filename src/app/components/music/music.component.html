@@ -1,6 +1,9 @@
 <div class="music-card">
   <div class="music-cover">
-    <img [src]="music().coverUrl" [alt]="music().title" />
+    <img
+      [src]="music().coverUrl || '/musics_pictures/default.jpg'"
+      [alt]="music().title"
+    />
     <div class="music-overlay">
       <div class="play-icon">▶</div>
     </div>
