@@ -50,7 +50,9 @@ function normalizeString(value: any, field: string) {
 }
 
 function parseStringField(objectText: string, key: string) {
-  const regex = new RegExp(`${key}\\s*:\\s*(['"])((?:\\\\.|(?!\\1).)*)\\1`);
+  const regex = new RegExp(
+    `["']?${key}["']?\\s*:\\s*(['"])((?:\\\\.|(?!\\1).)*)\\1`
+  );
   const match = objectText.match(regex);
   if (!match) return null;
   const quote = match[1];
@@ -64,7 +66,7 @@ function unescapeString(value: string, quote: string) {
 }
 
 function parseNumberField(objectText: string, key: string) {
-  const regex = new RegExp(`${key}\\s*:\\s*([^,\\n]+)`);
+  const regex = new RegExp(`["']?${key}["']?\\s*:\\s*([^,\\n]+)`);
   const match = objectText.match(regex);
   if (!match) return null;
   const parsed = Number(match[1]);
@@ -72,7 +74,9 @@ function parseNumberField(objectText: string, key: string) {
 }
 
 function parseSeasonsField(objectText: string) {
-  const seasonsMatch = objectText.match(/seasons\s*:\s*\[([\s\S]*?)\]/);
+  const seasonsMatch = objectText.match(
+    /["']?seasons["']?\s*:\s*\[([\s\S]*?)\]/
+  );
   if (!seasonsMatch) return null;
   const body = seasonsMatch[1];
   const seasons: any[] = [];
@@ -88,14 +92,14 @@ function parseSeasonsField(objectText: string) {
 }
 
 function parseBooleanField(objectText: string, key: string) {
-  const regex = new RegExp(`${key}\\s*:\\s*(true|false)`);
+  const regex = new RegExp(`["']?${key}["']?\\s*:\\s*(true|false)`);
   const match = objectText.match(regex);
   if (!match) return null;
   return match[1] === 'true';
 }
 
 function parseActors(objectText: string): string[] {
-  const regex = /name\s*:\s*(['"])((?:\\.|(?!\1).)*)\1/g;
+  const regex = /["']?name["']?\s*:\s*(['"])((?:\\.|(?!\1).)*)\1/g;
   const actors: string[] = [];
   let match = regex.exec(objectText);
   while (match) {
