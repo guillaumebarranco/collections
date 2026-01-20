@@ -34,3 +34,50 @@
   font-weight: 600;
   font-size: 0.9rem;
 }
+
+.rating-control {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.rating-label {
+  font-size: 0.85rem;
+}
+
+.rating-stars {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.star-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.star {
+  font-size: 18px;
+  color: #666;
+}
+
+.star-full {
+  color: #f4c542;
+}
+
+.star-half {
+  background: linear-gradient(90deg, #f4c542 50%, #666 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.star-empty {
+  color: #666;
+}
+
+.rating-value {
+  font-size: 0.85rem;
+  color: #666;
+}

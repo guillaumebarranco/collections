@@ -181,6 +181,24 @@ export class EditSerieComponent {
     });
   }
 
+  setRatingFromClick(seasonNumber: number, star: number, event: MouseEvent) {
+    const target = event.currentTarget as HTMLElement | null;
+    if (!target) return;
+    const half = target.clientWidth / 2;
+    const nextValue = event.offsetX < half ? star - 0.5 : star;
+    this.updateSeasonField(seasonNumber, 'seasonRating', Math.max(0, nextValue));
+  }
+
+  getStarType(rating: number, star: number): 'full' | 'half' | 'empty' {
+    if (rating >= star) {
+      return 'full';
+    }
+    if (rating >= star - 0.5) {
+      return 'half';
+    }
+    return 'empty';
+  }
+
   private buildSeasons(serie: Serie): UserSerieSeason[] {
     if (serie.seasons && serie.seasons.length > 0) {
       return serie.seasons;

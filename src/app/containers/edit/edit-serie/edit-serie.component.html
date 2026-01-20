@@ -48,28 +48,47 @@
       <div class="season-form-grid">
         @for (season of serieForm()?.seasons; track season.seasonNumber) {
         <div class="season-form-card">
-          <div class="season-form-title">
-            Saison {{ season.seasonNumber }}
+          <div class="season-form-title">Saison {{ season.seasonNumber }}</div>
+          <div class="rating-control">
+            <span class="rating-label">Note</span>
+            <div class="rating-stars">
+              <button
+                *ngFor="let star of [1, 2, 3, 4, 5]"
+                type="button"
+                class="star-btn"
+                (click)="setRatingFromClick(season.seasonNumber, star, $event)"
+              >
+                <span
+                  class="star"
+                  [class.star-full]="
+                    getStarType(season.seasonRating, star) === 'full'
+                  "
+                  [class.star-half]="
+                    getStarType(season.seasonRating, star) === 'half'
+                  "
+                  [class.star-empty]="
+                    getStarType(season.seasonRating, star) === 'empty'
+                  "
+                >
+                  ★
+                </span>
+              </button>
+              <span class="rating-value">{{ season.seasonRating }}/5</span>
+            </div>
           </div>
-          <label>
-            Note
-            <input
-              type="number"
-              min="0"
-              max="5"
-              step="0.5"
-              [ngModel]="season.seasonRating"
-              (ngModelChange)="updateSeasonField(season.seasonNumber, 'seasonRating', $event)"
-              name="seasonRating-{{ season.seasonNumber }}"
-            />
-          </label>
           <label>
             Visionnages
             <input
               type="number"
               min="0"
               [ngModel]="season.seasonTimesWatched"
-              (ngModelChange)="updateSeasonField(season.seasonNumber, 'seasonTimesWatched', $event)"
+              (ngModelChange)="
+                updateSeasonField(
+                  season.seasonNumber,
+                  'seasonTimesWatched',
+                  $event
+                )
+              "
               name="seasonTimesWatched-{{ season.seasonNumber }}"
             />
           </label>
