@@ -121,13 +121,6 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readTimes: 0,
   },
   {
-    title: 'Le Parfum',
-    author: 'Patrick Süskind',
-    readDate: '',
-    rating: 0,
-    readTimes: 0,
-  },
-  {
     title: 'Où vont les larmes quand elles sèchent',
     author: 'Virginie Grimaldi',
     readDate: '',

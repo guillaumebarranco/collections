@@ -484,4 +484,12 @@ export const guillaumeBooks: UserBook[] = [
     rating: 3.75,
     readTimes: 1,
   },
+
+  {
+    title: 'Le Parfum',
+    author: 'Patrick Süskind',
+    readDate: '2026-01-20',
+    rating: 5,
+    readTimes: 1,
+  },
 ];

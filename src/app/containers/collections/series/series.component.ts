@@ -181,6 +181,9 @@ export class SeriesComponent implements OnInit {
 
   stats = computed<StatItem[]>(() => {
     const seriesToUse = this.filteredSeries();
+
+    console.log('seriesToUse', seriesToUse);
+
     const totalDurationMinutes = seriesToUse.reduce(
       (sum, serie) => sum + getSerieTotalLengthMinutes(serie),
       0

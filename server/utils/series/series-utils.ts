@@ -110,6 +110,23 @@ function parseActors(objectText: string): string[] {
   return actors;
 }
 
+function parseSeasonsDataField(objectText: string) {
+  const seasonsDataMatch = objectText.match(
+    /["']?seasonsData["']?\s*:\s*\[([\s\S]*?)\]/
+  );
+  if (!seasonsDataMatch) return null;
+  const body = seasonsDataMatch[1];
+  const seasonsData: any[] = [];
+  const entries = body.match(/\{[\s\S]*?\}/g) || [];
+  for (const entry of entries) {
+    const seasonNumber = parseNumberField(entry, 'seasonNumber') ?? 0;
+    const nbEpisodes = parseNumberField(entry, 'nbEpisodes') ?? 0;
+    const totalLength = parseNumberField(entry, 'totalLength') ?? 0;
+    seasonsData.push({ seasonNumber, nbEpisodes, totalLength });
+  }
+  return seasonsData;
+}
+
 function getArrayBoundsFromIndex(content: string, startIndex: number) {
   const arrayStart = content.indexOf('[', startIndex);
   const arrayEnd = content.indexOf('];', arrayStart);
@@ -264,7 +281,7 @@ function parseBaseSeriesFullFromFile(content: string): any[] {
           endDate: parseStringField(objectText, 'endDate') || '',
           totalLength: parseNumberField(objectText, 'totalLength') ?? 0,
           genre: parseStringField(objectText, 'genre') || '',
-          nbSeasons: parseNumberField(objectText, 'nbSeasons') ?? 0,
+          seasonsData: parseSeasonsDataField(objectText) ?? [],
           nbEpisodesTotal: parseNumberField(objectText, 'nbEpisodesTotal') ?? 0,
         });
       }

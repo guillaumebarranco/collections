@@ -73,8 +73,6 @@ export class EditMovieComponent {
     });
   }
 
-  // public apiUrl = 'https://makya.webarranco.fr/api';
-
   updateField<K extends keyof EditMovieForm>(field: K, value: string | number) {
     const current = this.movieForm();
     if (!current) return;

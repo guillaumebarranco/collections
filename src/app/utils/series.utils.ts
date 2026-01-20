@@ -18,13 +18,10 @@ export function getSerieTotalEpisodes(serie: Serie): number {
 }
 
 export function getSerieTotalLengthMinutes(serie: Serie): number {
-  if (serie.seasonsData && serie.seasonsData.length > 0) {
-    return serie.seasonsData.reduce(
-      (sum, season) => sum + (season.totalLength || 0),
-      0
-    );
-  }
-  return Math.max(0, Number(serie.totalLength) || 0);
+  return serie.seasonsData.reduce(
+    (sum, season) => sum + (season.totalLength || 0),
+    0
+  );
 }
 
 export function getSerieWatchedLengthMinutes(serie: Serie): number {
