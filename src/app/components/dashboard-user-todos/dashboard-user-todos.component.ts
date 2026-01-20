@@ -78,11 +78,16 @@ export class DashboardUserTodosComponent {
 
     const seriesItems: TodoItem[] = [];
 
-    const missingSerieRatings = this.countMissing(this.series, (s) => s.rating);
-    const missingSerieTimes = this.countMissing(
-      this.series,
-      (s) => s.timesWatched
-    );
+    const missingSerieRatings = this.series.filter(
+      (serie) =>
+        !serie.seasons?.length ||
+        serie.seasons.some((season) => !season.seasonRating)
+    ).length;
+    const missingSerieTimes = this.series.filter(
+      (serie) =>
+        !serie.seasons?.length ||
+        serie.seasons.some((season) => !season.seasonTimesWatched)
+    ).length;
     if (missingSerieRatings > 0) {
       seriesItems.push({
         label: 'Séries sans note',

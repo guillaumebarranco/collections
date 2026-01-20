@@ -18,8 +18,6 @@ type AddSerieEntityForm = {
 };
 
 type AddSerieUserForm = {
-  rating: number;
-  timesWatched: number;
   stoppedAtSeason: number;
 };
 
@@ -58,8 +56,6 @@ export class AddSerieComponent {
   });
 
   userForm = signal<AddSerieUserForm>({
-    rating: 0,
-    timesWatched: 1,
     stoppedAtSeason: 0,
   });
 
@@ -95,11 +91,7 @@ export class AddSerieComponent {
   ) {
     const current = this.userForm();
     let nextValue: AddSerieUserForm[K] = value as AddSerieUserForm[K];
-    if (
-      field === 'rating' ||
-      field === 'timesWatched' ||
-      field === 'stoppedAtSeason'
-    ) {
+    if (field === 'stoppedAtSeason') {
       const asNumber = Number(value);
       nextValue = (
         Number.isNaN(asNumber) ? 0 : asNumber
@@ -109,24 +101,6 @@ export class AddSerieComponent {
       ...current,
       [field]: nextValue,
     });
-  }
-
-  setRatingFromClick(star: number, event: MouseEvent) {
-    const target = event.currentTarget as HTMLElement | null;
-    if (!target) return;
-    const half = target.clientWidth / 2;
-    const nextValue = event.offsetX < half ? star - 0.5 : star;
-    this.updateUserField('rating', Math.max(0, nextValue));
-  }
-
-  getStarType(rating: number, star: number): 'full' | 'half' | 'empty' {
-    if (rating >= star) {
-      return 'full';
-    }
-    if (rating >= star - 0.5) {
-      return 'half';
-    }
-    return 'empty';
   }
 
   private getActorsList(): string[] {

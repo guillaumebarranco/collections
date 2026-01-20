@@ -3,9 +3,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Black Mirror',
         director: 'Charlie Brooker',
-        rating: 4.5,
         stoppedAtSeason: 0,
-        timesWatched: 2,
         seasons: [
             {
                 seasonNumber: 1,
@@ -42,9 +40,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'How I Met Your Mother',
         director: 'Carter Bays, Craig Thomas',
-        rating: 5,
         stoppedAtSeason: 0,
-        timesWatched: 30,
         seasons: [
             {
                 seasonNumber: 1,
@@ -96,9 +92,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Loki',
         director: 'Kate Herron',
-        rating: 3.75,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -115,9 +109,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Le Jeu de la Dame',
         director: 'Scott Frank',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 2,
         seasons: [
             {
                 seasonNumber: 1,
@@ -134,9 +126,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'WandaVision',
         director: 'Matt Shakman',
-        rating: 3.75,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -148,9 +138,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Obi-Wan Kenobi',
         director: 'Deborah Chow',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -162,9 +150,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Squid Game',
         director: 'Hwang Dong-hyuk',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -186,9 +172,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Bodies',
         director: 'Marco Kreuzpaintner',
-        rating: 3.75,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -200,9 +184,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Breaking Bad',
         director: 'Vince Gilligan',
-        rating: 3.5,
         stoppedAtSeason: 2,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -234,9 +216,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Umbrella Academy',
         director: 'Steve Blackman',
-        rating: 3.25,
         stoppedAtSeason: 2,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -258,9 +238,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'You',
         director: 'Greg Berlanti',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 2,
         seasons: [
             {
                 seasonNumber: 1,
@@ -292,9 +270,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'HPI',
         director: 'Julien Zidi',
-        rating: 3.25,
         stoppedAtSeason: 3,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -316,9 +292,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'The Boys',
         director: 'Eric Kripke',
-        rating: 3.75,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -345,9 +319,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Stranger Things',
         director: 'The Duffer Brothers',
-        rating: 3.75,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -379,9 +351,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Lupin',
         director: 'Louis Leterrier',
-        rating: 3.75,
         stoppedAtSeason: 0,
-        timesWatched: 2,
         seasons: [
             {
                 seasonNumber: 1,
@@ -403,9 +373,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'La servante écarlate',
         director: 'Bruce Miller',
-        rating: 3.5,
         stoppedAtSeason: 1,
-        timesWatched: 0.5,
         seasons: [
             {
                 seasonNumber: 1,
@@ -437,9 +405,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Arcane',
         director: 'Pascal Charrue, Arnaud Delord',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -451,9 +417,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'South Park',
         director: 'Trey Parker, Matt Stone',
-        rating: 4.25,
         stoppedAtSeason: 22,
-        timesWatched: 10,
         seasons: [
             {
                 seasonNumber: 1,
@@ -590,9 +554,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Les Simpsons',
         director: 'Matt Groening',
-        rating: 4,
         stoppedAtSeason: 24,
-        timesWatched: 5,
         seasons: [
             {
                 seasonNumber: 1,
@@ -774,9 +736,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Daredevil',
         director: 'Drew Goddard',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 2,
         seasons: [
             {
                 seasonNumber: 1,
@@ -798,9 +758,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Daredevil : Born Again',
         director: 'Matt Corman, Chris Ord',
-        rating: 3.75,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -812,9 +770,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Jessica Jones',
         director: 'Melissa Rosenberg',
-        rating: 3.5,
         stoppedAtSeason: 1,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -836,9 +792,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Luke Cage',
         director: 'Cheo Hodari Coker',
-        rating: 3.25,
         stoppedAtSeason: 1,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -855,9 +809,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Iron Fist',
         director: 'Scott Buck',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -874,9 +826,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'The Defenders',
         director: 'Douglas Petrie, Marco Ramirez',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 2,
         seasons: [
             {
                 seasonNumber: 1,
@@ -888,9 +838,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'The Last of Us',
         director: 'Craig Mazin, Neil Druckmann',
-        rating: 4.25,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -907,9 +855,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Obsession',
         director: 'Morgan Lloyd Malcolm',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -921,9 +867,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: '13 Reasons Why',
         director: 'Brian Yorkey',
-        rating: 3.25,
         stoppedAtSeason: 2,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -950,9 +894,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Castle',
         director: 'Andrew W. Marlowe',
-        rating: 4.5,
         stoppedAtSeason: 0,
-        timesWatched: 20,
         seasons: [
             {
                 seasonNumber: 1,
@@ -999,9 +941,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Mentalist',
         director: 'Bruno Heller',
-        rating: 4.5,
         stoppedAtSeason: 0,
-        timesWatched: 15,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1043,9 +983,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Astérix & Obélix : Le Combat des Chefs',
         director: 'Alain Chabat',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1057,9 +995,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Bet',
         director: 'Simon Barry',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1071,9 +1007,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Brooklyn Nine-Nine',
         director: 'Dan Goor, Michael Schur',
-        rating: 3.75,
         stoppedAtSeason: 2,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1120,9 +1054,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Cobra Kai',
         director: 'Jon Hurwitz, Hayden Schlossberg',
-        rating: 3.25,
         stoppedAtSeason: 4,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1159,9 +1091,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Mercredi',
         director: 'Tim Burton',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 2,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1178,9 +1108,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Montre jamais ça à personne',
         director: 'Hugo Benamozig, David Caviglioli',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1192,9 +1120,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Arrow',
         director: 'Greg Berlanti, Marc Guggenheim',
-        rating: 3.75,
         stoppedAtSeason: 3,
-        timesWatched: 2,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1241,9 +1167,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'The Flash',
         director: 'Greg Berlanti, Andrew Kreisberg',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1295,9 +1219,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Reacher',
         director: 'Nick Santora',
-        rating: 3.5,
         stoppedAtSeason: 2,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1314,9 +1236,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'iZombie',
         director: 'Rob Thomas, Diane Ruggiero-Wright',
-        rating: 3.75,
         stoppedAtSeason: 3,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1348,9 +1268,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'La Casa de Papel',
         director: 'Álex Pina',
-        rating: 3.5,
         stoppedAtSeason: 2,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1382,9 +1300,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Lucifer',
         director: 'Tom Kapinos',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 2,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1421,9 +1337,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'The Punisher',
         director: 'Steve Lightfoot',
-        rating: 3.75,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1440,9 +1354,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Rick and Morty',
         director: 'Justin Roiland, Dan Harmon',
-        rating: 3.75,
         stoppedAtSeason: 2,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1484,9 +1396,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Sense8',
         director: 'Lana Wachowski, Lilly Wachowski',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1503,9 +1413,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Suits, Avocats sur mesure',
         director: 'Aaron Korsh',
-        rating: 4,
         stoppedAtSeason: 7,
-        timesWatched: 3,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1557,9 +1465,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'The End of the F***ing World',
         director: 'Jonathan Entwistle',
-        rating: 3.75,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1576,9 +1482,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Under the Dome',
         director: 'Brian K. Vaughan',
-        rating: 3.25,
         stoppedAtSeason: 2,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1600,9 +1504,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Superman & Lois',
         director: 'Greg Berlanti, Todd Helbing',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1624,9 +1526,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Locke & Key',
         director: 'Carlton Cuse',
-        rating: 3.5,
         stoppedAtSeason: 2,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1648,9 +1548,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Unorthodox',
         director: 'Maria Schrader',
-        rating: 3.25,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1662,9 +1560,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Mon amie Adèle',
         director: 'Erik Richter Strand',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1676,9 +1572,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Emily in Paris',
         director: 'Darren Star',
-        rating: 3.25,
         stoppedAtSeason: 2,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1710,9 +1604,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'The Glory',
         director: 'Ahn Gil-ho',
-        rating: 4.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1724,9 +1616,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'FUBAR',
         director: 'Nick Santora',
-        rating: 3.5,
         stoppedAtSeason: 1,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1743,9 +1633,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'En un battement',
         director: 'Inconnu',
-        rating: 3.25,
         stoppedAtSeason: 1,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1762,9 +1650,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'One Piece (live-action)',
         director: 'Matt Owens, Steven Maeda',
-        rating: 4.25,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1776,9 +1662,7 @@ export const guillaumeSeries: UserSerie[] = [
     {
         title: 'Yu Yu Hakusho (live-action)',
         director: 'Shô Tsukikawa',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,

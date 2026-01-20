@@ -43,46 +43,6 @@
 
   <form *ngIf="serieForm()" class="edit-form" (ngSubmit)="onSubmit()">
     <div class="form-row">
-      <label>Note</label>
-      <div class="rating-control">
-        <button
-          *ngFor="let star of [1, 2, 3, 4, 5]"
-          type="button"
-          class="star-btn"
-          (click)="setRatingFromClick(star, $event)"
-        >
-          <span
-            class="star"
-            [class.star-full]="
-              getStarType(serieForm()?.rating || 0, star) === 'full'
-            "
-            [class.star-half]="
-              getStarType(serieForm()?.rating || 0, star) === 'half'
-            "
-            [class.star-empty]="
-              getStarType(serieForm()?.rating || 0, star) === 'empty'
-            "
-          >
-            &#9733;
-          </span>
-        </button>
-        <span class="rating-value">{{ serieForm()?.rating }}/5</span>
-      </div>
-    </div>
-
-    <div class="form-row">
-      <label for="timesWatched">Visionnages</label>
-      <input
-        id="timesWatched"
-        type="number"
-        min="0"
-        [ngModel]="serieForm()?.timesWatched"
-        (ngModelChange)="updateField('timesWatched', $event)"
-        name="timesWatched"
-      />
-    </div>
-
-    <div class="form-row">
       <label for="stoppedAtSeason">Saison d'arr&#234;t</label>
       <input
         id="stoppedAtSeason"

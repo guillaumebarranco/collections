@@ -128,46 +128,6 @@
       <h2>Informations utilisateur</h2>
 
       <div class="form-row">
-        <label>Note</label>
-        <div class="rating-control">
-          <button
-            *ngFor="let star of [1, 2, 3, 4, 5]"
-            type="button"
-            class="star-btn"
-            (click)="setRatingFromClick(star, $event)"
-          >
-            <span
-              class="star"
-              [class.star-full]="
-                getStarType(userForm().rating || 0, star) === 'full'
-              "
-              [class.star-half]="
-                getStarType(userForm().rating || 0, star) === 'half'
-              "
-              [class.star-empty]="
-                getStarType(userForm().rating || 0, star) === 'empty'
-              "
-            >
-              ★
-            </span>
-          </button>
-          <span class="rating-value">{{ userForm().rating }}/5</span>
-        </div>
-      </div>
-
-      <div class="form-row">
-        <label for="timesWatched">Visionnages</label>
-        <input
-          id="timesWatched"
-          type="number"
-          min="0"
-          [ngModel]="userForm().timesWatched"
-          (ngModelChange)="updateUserField('timesWatched', $event)"
-          name="timesWatched"
-        />
-      </div>
-
-      <div class="form-row">
         <label for="stoppedAtSeason">Saison d'arrêt</label>
         <input
           id="stoppedAtSeason"

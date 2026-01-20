@@ -110,8 +110,6 @@ export class SelectSeriesComponent
     const baseSeries = await getAllBaseSeries();
     return baseSeries.map((serie) => ({
       ...serie,
-      rating: 0,
-      timesWatched: 0,
       stoppedAtSeason: 0,
       seasons: Array.from(
         { length: serie.seasonsData?.length ?? serie.nbSeasons ?? 0 },
@@ -126,13 +124,7 @@ export class SelectSeriesComponent
   protected async addSelectedSeries(): Promise<void> {
     const selectedSeriesList = this.allSeries()
       .filter((serie) => this.isSelected(serie))
-      .map((serie) => {
-        return {
-          ...serie,
-          timesWatched: this.isWatchOrReadlistMode() ? 0 : 1,
-          rating: 0,
-        };
-      });
+      .map((serie) => ({ ...serie }));
 
     const series = selectedSeriesList.map((serie) => ({
       title: serie.title,

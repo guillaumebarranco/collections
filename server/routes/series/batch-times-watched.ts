@@ -1,7 +1,6 @@
 const express = require('express');
 const fs = require('fs');
 const {
-  normalizeNumber,
   normalizeString,
   updateSerieInFile,
   getUserSeriesFiles,
@@ -46,7 +45,7 @@ router.post('/batch-times-watched', (req: any, res: any) => {
       const payload = {
         title,
         director,
-        timesWatched: normalizeNumber(rawSerie?.timesWatched, 'timesWatched'),
+        seasons: Array.isArray(rawSerie?.seasons) ? rawSerie.seasons : undefined,
       };
 
       let updated = false;

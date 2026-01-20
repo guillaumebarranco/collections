@@ -23,7 +23,10 @@ import {
   MINUTES_PER_MANWHA_CHAPTER,
   MINUTES_PER_PAGE,
 } from '../../utils/stats.utils';
-import { getSerieWatchedLengthMinutes } from '../../utils/series.utils';
+import {
+  getSerieTotalTimesWatched,
+  getSerieWatchedLengthMinutes,
+} from '../../utils/series.utils';
 import {
   getAllMovies,
   getAllWatchlistMovies,
@@ -68,6 +71,7 @@ interface TopGame extends Game {
 
 interface TopSerie extends Serie {
   formattedWatchingTime: string;
+  totalTimesWatched: number;
 }
 
 interface TopMusic extends Music {
@@ -345,8 +349,9 @@ export class DashboardComponent implements OnInit {
 
   topSeries = computed<TopSerie[]>(() => {
     return this.allSeries()
-      .filter((serie) => serie.timesWatched > 1)
+      .filter((serie) => getSerieTotalTimesWatched(serie) > 1)
       .map((serie) => {
+        const totalTimesWatched = getSerieTotalTimesWatched(serie);
         const watchedMinutes = getSerieWatchedLengthMinutes(serie);
         return {
           ...serie,
@@ -354,9 +359,10 @@ export class DashboardComponent implements OnInit {
           formattedWatchingTime: this.formatTime(
             watchedMinutes / 60
           ),
+          totalTimesWatched,
         };
       })
-      .sort((a, b) => b.timesWatched - a.timesWatched)
+      .sort((a, b) => b.totalTimesWatched - a.totalTimesWatched)
       .slice(0, 5);
   });
 

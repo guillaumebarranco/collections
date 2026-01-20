@@ -34,8 +34,6 @@ export interface UserSerieSeason {
 }
 
 export interface UserSerie extends MandatorySerieData {
-  rating: number;
-  timesWatched: number;
   stoppedAtSeason: number;
   seasons: UserSerieSeason[];
 }

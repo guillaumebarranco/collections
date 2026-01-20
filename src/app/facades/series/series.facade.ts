@@ -63,8 +63,6 @@ async function getAllSeriesData(series: UserSerie[]): Promise<Serie[]> {
     return {
       title: serie.title,
       director: serie.director,
-      rating: serie.rating,
-      timesWatched: serie.timesWatched,
       stoppedAtSeason: serie.stoppedAtSeason || 0,
       seasons,
       actors: definitiveMatchingSerie?.actors || [],

@@ -52,10 +52,6 @@ function formatUserSerie(user: any): string {
   return `  {
     title: '${escapeString(user.title)}',
     director: '${escapeString(user.director)}',
-    rating: ${user.rating ?? 0},
-    timesWatched: ${
-    user.timesWatched ?? 0
-  },
     stoppedAtSeason: ${user.stoppedAtSeason ?? 0},
 ${seasonsBlock}
   },`;
@@ -141,8 +137,6 @@ router.post('/add', (req: any, res: any) => {
     const userPayload = {
       title,
       director,
-      rating: normalizeNumber(user.rating, 'rating') ?? 0,
-      timesWatched: normalizeNumber(user.timesWatched, 'timesWatched') ?? 0,
       stoppedAtSeason:
         normalizeNumber(user.stoppedAtSeason, 'stoppedAtSeason') ?? 0,
       nbSeasons: entityPayload.nbSeasons || 0,

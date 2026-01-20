@@ -3,9 +3,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Black Mirror',
         director: 'Charlie Brooker',
-        rating: 3,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -42,9 +40,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'How I Met Your Mother',
         director: 'Carter Bays, Craig Thomas',
-        rating: 5,
         stoppedAtSeason: 0,
-        timesWatched: 10,
         seasons: [
             {
                 seasonNumber: 1,
@@ -96,9 +92,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Loki',
         director: 'Kate Herron',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -115,9 +109,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Le Jeu de la Dame',
         director: 'Scott Frank',
-        rating: 3,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -134,9 +126,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'WandaVision',
         director: 'Matt Shakman',
-        rating: 3,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -148,9 +138,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Obi-Wan Kenobi',
         director: 'Deborah Chow',
-        rating: 2.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -162,9 +150,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Squid Game',
         director: 'Hwang Dong-hyuk',
-        rating: 2,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -186,9 +172,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Breaking Bad',
         director: 'Vince Gilligan',
-        rating: 4.5,
         stoppedAtSeason: 0,
-        timesWatched: 2,
         seasons: [
             {
                 seasonNumber: 1,
@@ -220,9 +204,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Umbrella Academy',
         director: 'Steve Blackman',
-        rating: 2.5,
         stoppedAtSeason: 0,
-        timesWatched: 2,
         seasons: [
             {
                 seasonNumber: 1,
@@ -244,9 +226,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'You',
         director: 'Greg Berlanti',
-        rating: 2.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -278,9 +258,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'The Boys',
         director: 'Eric Kripke',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -307,9 +285,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Stranger Things',
         director: 'The Duffer Brothers',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 2,
         seasons: [
             {
                 seasonNumber: 1,
@@ -341,9 +317,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Lupin',
         director: 'Louis Leterrier',
-        rating: 2.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -365,9 +339,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Arcane',
         director: 'Pascal Charrue, Arnaud Delord',
-        rating: 5,
         stoppedAtSeason: 0,
-        timesWatched: 2,
         seasons: [
             {
                 seasonNumber: 1,
@@ -379,9 +351,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'South Park',
         director: 'Trey Parker, Matt Stone',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -518,9 +488,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Daredevil',
         director: 'Drew Goddard',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 3,
         seasons: [
             {
                 seasonNumber: 1,
@@ -542,9 +510,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Daredevil : Born Again',
         director: 'Matt Corman, Chris Ord',
-        rating: 3,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -556,9 +522,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Jessica Jones',
         director: 'Melissa Rosenberg',
-        rating: 2.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -580,9 +544,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Luke Cage',
         director: 'Cheo Hodari Coker',
-        rating: 2.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -599,9 +561,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Iron Fist',
         director: 'Scott Buck',
-        rating: 2.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -618,9 +578,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'The Defenders',
         director: 'Douglas Petrie, Marco Ramirez',
-        rating: 3,
         stoppedAtSeason: 0,
-        timesWatched: 2,
         seasons: [
             {
                 seasonNumber: 1,
@@ -632,9 +590,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'The Last of Us',
         director: 'Craig Mazin, Neil Druckmann',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -651,9 +607,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: '13 Reasons Why',
         director: 'Brian Yorkey',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -680,9 +634,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Astérix & Obélix : Le Combat des Chefs',
         director: 'Alain Chabat',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -694,9 +646,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Brooklyn Nine-Nine',
         director: 'Dan Goor, Michael Schur',
-        rating: 4.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -743,9 +693,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Mercredi',
         director: 'Tim Burton',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -762,9 +710,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Montre jamais ça à personne',
         director: 'Hugo Benamozig, David Caviglioli',
-        rating: 4.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -776,9 +722,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Arrow',
         director: 'Greg Berlanti, Marc Guggenheim',
-        rating: 2.5,
         stoppedAtSeason: 0,
-        timesWatched: 2,
         seasons: [
             {
                 seasonNumber: 1,
@@ -825,9 +769,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'The Flash',
         director: 'Greg Berlanti, Andrew Kreisberg',
-        rating: 2.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -879,9 +821,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'La Casa de Papel',
         director: 'Álex Pina',
-        rating: 3,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -913,9 +853,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Lucifer',
         director: 'Tom Kapinos',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -952,9 +890,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'The Punisher',
         director: 'Steve Lightfoot',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -971,9 +907,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Rick and Morty',
         director: 'Justin Roiland, Dan Harmon',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1015,9 +949,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Sense8',
         director: 'Lana Wachowski, Lilly Wachowski',
-        rating: 4.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1034,9 +966,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'The End of the F***ing World',
         director: 'Jonathan Entwistle',
-        rating: 2,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1053,9 +983,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Superman & Lois',
         director: 'Greg Berlanti, Todd Helbing',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1077,9 +1005,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Locke & Key',
         director: 'Carlton Cuse',
-        rating: 2.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1101,9 +1027,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Mon amie Adèle',
         director: 'Erik Richter Strand',
-        rating: 2,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1115,17 +1039,13 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'One Piece',
         director: 'Matt Owens, Steven Maeda',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: []
     },
     {
         title: 'Agent Carter',
         director: 'Tara Butters, Michele Fazekas',
-        rating: 2.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1142,9 +1062,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Agents of S.H.I.E.L.D.',
         director: 'Jed Whedon, Maurissa Tancharoen',
-        rating: 4.5,
         stoppedAtSeason: 0,
-        timesWatched: 2,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1186,9 +1104,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Ahsoka',
         director: 'Dave Filoni',
-        rating: 2.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1200,9 +1116,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Altered Carbon',
         director: 'Laeta Kalogridis',
-        rating: 2.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1219,9 +1133,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Avatar: The Last Airbender',
         director: 'Michael Dante DiMartino, Bryan Konietzko',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1243,9 +1155,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Avengers Assemble',
         director: 'Man of Action',
-        rating: 2.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1277,9 +1187,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Bloqués',
         director: 'Jonathan Cohen, Ramzy Bedia',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 3,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1306,9 +1214,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Bodyguard',
         director: 'Jed Mercurio',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1320,9 +1226,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Cloak & Dagger',
         director: 'Joe Pokaski',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1339,9 +1243,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Community',
         director: 'Dan Harmon',
-        rating: 4.5,
         stoppedAtSeason: 0,
-        timesWatched: 2,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1378,9 +1280,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Constantine',
         director: 'Daniel Cerone, David S. Goyer',
-        rating: 2.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1392,9 +1292,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Death Note',
         director: 'Tetsurō Araki',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 2,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1406,9 +1304,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Desperate Housewives',
         director: 'Marc Cherry',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1455,9 +1351,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Dexter',
         director: 'James Manos Jr.',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 2,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1504,9 +1398,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Family Business',
         director: 'Igor Gotesman',
-        rating: 3,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1528,9 +1420,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Game of Thrones',
         director: 'David Benioff, D.B. Weiss',
-        rating: 4.5,
         stoppedAtSeason: 0,
-        timesWatched: 2,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1577,9 +1467,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Gotham',
         director: 'Bruno Heller',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1611,9 +1499,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Hawkeye',
         director: 'Jonathan Igla',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1625,9 +1511,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Heroes',
         director: 'Tim Kring',
-        rating: 2.5,
         stoppedAtSeason: 0,
-        timesWatched: 2,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1654,9 +1538,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Heroes Reborn',
         director: 'Tim Kring',
-        rating: 2.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1668,9 +1550,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Inhumans',
         director: 'Scott Buck',
-        rating: 0.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1682,9 +1562,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: "Jupiter's Legacy",
         director: 'Steven S. DeKnight',
-        rating: 2,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1696,9 +1574,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Les Grands',
         director: 'Vianney Lebasque',
-        rating: 3,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1710,9 +1586,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Malcolm in the Middle',
         director: 'Linwood Boomer',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 3,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1754,9 +1628,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Mindhunter',
         director: 'Joe Penhall',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1773,9 +1645,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Misfits',
         director: 'Howard Overman',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1807,9 +1677,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Mortel',
         director: 'Frédéric Garcia',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 2,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1826,9 +1694,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Naruto',
         director: 'Masashi Kishimoto',
-        rating: 4.5,
         stoppedAtSeason: 0,
-        timesWatched: 3,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1860,9 +1726,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Penny Dreadful',
         director: 'John Logan',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1884,9 +1748,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Runaways',
         director: 'Josh Schwartz, Stephanie Savage',
-        rating: 3,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1908,9 +1770,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Samurai Champloo',
         director: 'Shinichirō Watanabe',
-        rating: 3,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1922,9 +1782,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Shameless',
         director: 'Paul Abbott',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -1986,9 +1844,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Smallville',
         director: 'Alfred Gough, Miles Millar',
-        rating: 2.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -2045,9 +1901,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Sons of Anarchy',
         director: 'Kurt Sutter',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -2089,9 +1943,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Spartacus',
         director: 'Steven S. DeKnight',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 2,
         seasons: [
             {
                 seasonNumber: 1,
@@ -2113,9 +1965,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Star Wars Rebels',
         director: 'Dave Filoni',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -2142,9 +1992,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Star Wars: The Clone Wars',
         director: 'Dave Filoni',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -2186,9 +2034,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Supernatural',
         director: 'Eric Kripke',
-        rating: 3,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -2270,9 +2116,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Teen Wolf',
         director: 'Jeff Davis',
-        rating: 3,
         stoppedAtSeason: 0,
-        timesWatched: 2,
         seasons: [
             {
                 seasonNumber: 1,
@@ -2309,9 +2153,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'The Big Bang Theory',
         director: 'Chuck Lorre, Bill Prady',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -2378,9 +2220,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'The Falcon and the Winter Soldier',
         director: 'Malcolm Spellman',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -2392,9 +2232,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'The Get Down',
         director: 'Baz Luhrmann, Stephen Adly Guirgis',
-        rating: 4.5,
         stoppedAtSeason: 0,
-        timesWatched: 2,
         seasons: [
             {
                 seasonNumber: 1,
@@ -2411,9 +2249,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'The Office',
         director: 'Greg Daniels',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -2465,9 +2301,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'The Originals',
         director: 'Julie Plec',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -2499,9 +2333,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'The Returned',
         director: 'Fabrice Gobert',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -2518,9 +2350,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'The Shannara Chronicles',
         director: 'Alfred Gough, Miles Millar',
-        rating: 3,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -2537,9 +2367,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'The Tomorrow People',
         director: 'Greg Berlanti, Phil Klemmer',
-        rating: 2.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -2551,9 +2379,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'The Vampire Diaries',
         director: 'Julie Plec, Kevin Williamson',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 2,
         seasons: [
             {
                 seasonNumber: 1,
@@ -2600,9 +2426,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Vikings',
         director: 'Michael Hirst',
-        rating: 3.5,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -2639,9 +2463,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Watchmen',
         director: 'Damon Lindelof',
-        rating: 4,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -2653,9 +2475,7 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'Yu Yu Hakusho',
         director: 'Yoshihiro Togashi',
-        rating: 3,
         stoppedAtSeason: 0,
-        timesWatched: 1,
         seasons: [
             {
                 seasonNumber: 1,
@@ -2682,8 +2502,6 @@ export const ronanSeries: UserSerie[] = [
     {
         title: 'One Piece (live-action)',
         director: 'Matt Owens, Steven Maeda',
-        rating: 0,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {

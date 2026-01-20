@@ -141,8 +141,6 @@ function parseSeriesFromFile(content: string): any[] {
           series.push({
             title,
             director,
-            rating: parseNumberField(objectText, 'rating') ?? 0,
-            timesWatched: parseNumberField(objectText, 'timesWatched') ?? 0,
             stoppedAtSeason:
               parseNumberField(objectText, 'stoppedAtSeason') ?? 0,
             seasons: parseSeasonsField(objectText) ?? [],
@@ -417,8 +415,6 @@ function updateSerieInFile(content: string, payload: any) {
 
         if (title === payload.title && director === payload.director) {
           let updated = objectText;
-          updated = replaceField(updated, 'rating', payload.rating);
-          updated = replaceField(updated, 'timesWatched', payload.timesWatched);
           updated = replaceField(
             updated,
             'stoppedAtSeason',

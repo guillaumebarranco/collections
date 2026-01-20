@@ -40,11 +40,32 @@ export class SelectSeriesTimesWatchedComponent
     return `${serie.title}-${serie.director}`;
   }
 
-  // Obtenir le timesWatched actuel d'une sÃ©rie (depuis la map ou depuis la sÃ©rie originale)
+  private getSerieSeasons(serie: Serie) {
+    if (serie.seasons && serie.seasons.length > 0) {
+      return serie.seasons;
+    }
+    const total = serie.seasonsData?.length ?? serie.nbSeasons ?? 0;
+    return Array.from({ length: total }, (_, index) => ({
+      seasonNumber: index + 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }));
+  }
+
+  // Obtenir le timesWatched actuel d'une sÃ©rie (depuis la map ou depuis les saisons)
   getTimesWatched(serie: Serie): number {
     const key = this.getSerieKey(serie);
     const updatedValue = this.seriesTimesWatched().get(key);
-    return updatedValue !== undefined ? updatedValue : serie.timesWatched;
+    if (updatedValue !== undefined) {
+      return updatedValue;
+    }
+    const seasons = this.getSerieSeasons(serie);
+    if (seasons.length === 0) return 0;
+    const total = seasons.reduce(
+      (sum, season) => sum + (season.seasonTimesWatched || 0),
+      0
+    );
+    return total > 0 ? total / seasons.length : 0;
   }
 
   // Mettre Ã  jour le timesWatched d'une sÃ©rie
@@ -66,11 +87,18 @@ export class SelectSeriesTimesWatchedComponent
   async saveSeriesTimesWatched(): Promise<void> {
     if (this.isSaving()) return;
 
-    const seriesToUpdate = this.allSeries().map((serie) => ({
-      title: serie.title,
-      director: serie.director,
-      timesWatched: this.getTimesWatched(serie),
-    }));
+    const seriesToUpdate = this.allSeries().map((serie) => {
+      const timesWatched = this.getTimesWatched(serie);
+      const seasons = this.getSerieSeasons(serie).map((season) => ({
+        ...season,
+        seasonTimesWatched: timesWatched,
+      }));
+      return {
+        title: serie.title,
+        director: serie.director,
+        seasons,
+      };
+    });
 
     if (seriesToUpdate.length === 0) {
       alert('Aucune série à mettre à jour !');

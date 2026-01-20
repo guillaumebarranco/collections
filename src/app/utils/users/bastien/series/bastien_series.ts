@@ -3,8 +3,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'Avatar: The Last Airbender',
         director: 'Michael Dante DiMartino, Bryan Konietzko',
-        rating: 3.5,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -27,8 +25,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'Arcane',
         director: 'Pascal Charrue, Arnaud Delord',
-        rating: 4,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -46,8 +42,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'Bloqués',
         director: 'Jonathan Cohen, Ramzy Bedia',
-        rating: 4.5,
-        timesWatched: 3,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -75,8 +69,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'Altered Carbon',
         director: 'Laeta Kalogridis',
-        rating: 3,
-        timesWatched: 1,
         stoppedAtSeason: 1,
         seasons: [
             {
@@ -94,8 +86,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'Brooklyn Nine-Nine',
         director: 'Dan Goor, Michael Schur',
-        rating: 4,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -143,8 +133,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'Cloak & Dagger',
         director: 'Joe Pokaski',
-        rating: 3,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -162,8 +150,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'Community',
         director: 'Dan Harmon',
-        rating: 3.5,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -201,8 +187,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'Daredevil',
         director: 'Drew Goddard',
-        rating: 4,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -225,8 +209,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'Hawkeye',
         director: 'Jonathan Igla',
-        rating: 3,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -239,8 +221,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'Gotham',
         director: 'Bruno Heller',
-        rating: 3,
-        timesWatched: 1,
         stoppedAtSeason: 3,
         seasons: [
             {
@@ -273,8 +253,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'Heroes',
         director: 'Tim Kring',
-        rating: 3,
-        timesWatched: 1,
         stoppedAtSeason: 3,
         seasons: [
             {
@@ -302,8 +280,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'Iron Fist',
         director: 'Scott Buck',
-        rating: 3,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -321,8 +297,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'Jessica Jones',
         director: 'Melissa Rosenberg',
-        rating: 4,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -345,8 +319,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'Jupiter\'s Legacy',
         director: 'Steven S. DeKnight',
-        rating: 4,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -359,8 +331,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'Locke & Key',
         director: 'Carlton Cuse',
-        rating: 3,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -383,8 +353,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'Loki',
         director: 'Kate Herron',
-        rating: 3,
-        timesWatched: 1,
         stoppedAtSeason: 1,
         seasons: [
             {
@@ -402,8 +370,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'Luke Cage',
         director: 'Cheo Hodari Coker',
-        rating: 3,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -421,8 +387,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'Malcolm in the Middle',
         director: 'Linwood Boomer',
-        rating: 5,
-        timesWatched: 3,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -465,8 +429,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'Misfits',
         director: 'Howard Overman',
-        rating: 2.5,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -499,8 +461,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'Mercredi',
         director: 'Tim Burton',
-        rating: 4,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -518,8 +478,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'Obi-Wan Kenobi',
         director: 'Deborah Chow',
-        rating: 4,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -532,8 +490,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'One Piece (live-action)',
         director: 'Matt Owens, Steven Maeda',
-        rating: 4,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -546,8 +502,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'Smallville',
         director: 'Alfred Gough, Miles Millar',
-        rating: 3,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -605,8 +559,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'South Park',
         director: 'Trey Parker, Matt Stone',
-        rating: 4,
-        timesWatched: 1,
         stoppedAtSeason: 12,
         seasons: [
             {
@@ -744,8 +696,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'Squid Game',
         director: 'Hwang Dong-hyuk',
-        rating: 4,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -768,8 +718,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'Stranger Things',
         director: 'The Duffer Brothers',
-        rating: 4.5,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -802,8 +750,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'Supernatural',
         director: 'Eric Kripke',
-        rating: 4,
-        timesWatched: 1,
         stoppedAtSeason: 5,
         seasons: [
             {
@@ -886,8 +832,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'The Boys',
         director: 'Eric Kripke',
-        rating: 4,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -915,8 +859,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'The Defenders',
         director: 'Douglas Petrie, Marco Ramirez',
-        rating: 3.5,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -929,8 +871,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'The Falcon and the Winter Soldier',
         director: 'Malcolm Spellman',
-        rating: 3,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -943,8 +883,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'The Office',
         director: 'Greg Daniels',
-        rating: 4,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -997,8 +935,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'The Shannara Chronicles',
         director: 'Alfred Gough, Miles Millar',
-        rating: 2.5,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -1016,8 +952,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'The Punisher',
         director: 'Steve Lightfoot',
-        rating: 4,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -1035,8 +969,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'WandaVision',
         director: 'Matt Shakman',
-        rating: 4,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {
@@ -1049,8 +981,6 @@ export const bastienSeries: UserSerie[] = [
     {
         title: 'Yu Yu Hakusho (live-action)',
         director: 'Shô Tsukikawa',
-        rating: 3,
-        timesWatched: 1,
         stoppedAtSeason: 0,
         seasons: [
             {

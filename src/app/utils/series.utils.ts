@@ -82,5 +82,28 @@ export function getSerieWatchedLengthMinutes(serie: Serie): number {
     serie,
     serie.stoppedAtSeason
   );
-  return effectiveLength * (serie.timesWatched || 0);
+  return effectiveLength * getSerieTotalTimesWatched(serie);
+}
+
+export function getSerieTotalTimesWatched(serie: Serie): number {
+  if (serie.seasons && serie.seasons.length > 0) {
+    return serie.seasons.reduce(
+      (sum, season) => sum + (season.seasonTimesWatched || 0),
+      0
+    );
+  }
+  return 0;
+}
+
+export function getSerieAverageRating(serie: Serie): number {
+  if (serie.seasons && serie.seasons.length > 0) {
+    const ratings = serie.seasons.map(
+      (season) => season.seasonRating || 0
+    );
+    const hasAnyRating = ratings.some((rating) => rating > 0);
+    if (!hasAnyRating) return 0;
+    const total = ratings.reduce((sum, rating) => sum + rating, 0);
+    return total / ratings.length;
+  }
+  return 0;
 }

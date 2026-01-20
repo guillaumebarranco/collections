@@ -14,8 +14,6 @@ import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
 
 type EditSerieForm = {
-  rating: number;
-  timesWatched: number;
   stoppedAtSeason: number;
   seasons: UserSerieSeason[];
 };
@@ -74,11 +72,7 @@ export class EditSerieComponent {
     if (!current) return;
 
     let nextValue: EditSerieForm[K] = value as EditSerieForm[K];
-    if (
-      field === 'rating' ||
-      field === 'timesWatched' ||
-      field === 'stoppedAtSeason'
-    ) {
+    if (field === 'stoppedAtSeason') {
       const asNumber = Number(value);
       nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditSerieForm[K];
     }
@@ -87,25 +81,6 @@ export class EditSerieComponent {
       ...current,
       [field]: nextValue,
     });
-  }
-
-  setRatingFromClick(star: number, event: MouseEvent) {
-    const target = event.currentTarget as HTMLElement | null;
-    if (!target) return;
-
-    const half = target.clientWidth / 2;
-    const nextValue = event.offsetX < half ? star - 0.5 : star;
-    this.updateField('rating', Math.max(0, nextValue));
-  }
-
-  getStarType(rating: number, star: number): 'full' | 'half' | 'empty' {
-    if (rating >= star) {
-      return 'full';
-    }
-    if (rating >= star - 0.5) {
-      return 'half';
-    }
-    return 'empty';
   }
 
   async onSubmit() {
@@ -125,8 +100,6 @@ export class EditSerieComponent {
           userId,
           title: serie.title,
           director: serie.director,
-          rating: form.rating,
-          timesWatched: form.timesWatched,
           stoppedAtSeason: form.stoppedAtSeason,
           seasons: form.seasons,
         }),
@@ -197,8 +170,6 @@ export class EditSerieComponent {
 
   private toForm(serie: Serie): EditSerieForm {
     return {
-      rating: serie.rating,
-      timesWatched: serie.timesWatched,
       stoppedAtSeason: serie.stoppedAtSeason || 0,
       seasons: this.buildSeasons(serie),
     };

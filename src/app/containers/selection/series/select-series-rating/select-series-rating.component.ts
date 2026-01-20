@@ -45,11 +45,32 @@ export class SelectSeriesRatingComponent
     return `${serie.title}-${serie.director}`;
   }
 
-  // Obtenir le rating actuel d'une sÃ©rie (depuis la map ou depuis la sÃ©rie originale)
+  private getSerieSeasons(serie: Serie) {
+    if (serie.seasons && serie.seasons.length > 0) {
+      return serie.seasons;
+    }
+    const total = serie.seasonsData?.length ?? serie.nbSeasons ?? 0;
+    return Array.from({ length: total }, (_, index) => ({
+      seasonNumber: index + 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }));
+  }
+
+  // Obtenir le rating actuel d'une sÃ©rie (depuis la map ou depuis les saisons)
   getRating(serie: Serie): number {
     const key = this.getSerieKey(serie);
     const updatedValue = this.seriesRatings().get(key);
-    return updatedValue !== undefined ? updatedValue : serie.rating;
+    if (updatedValue !== undefined) {
+      return updatedValue;
+    }
+    const seasons = this.getSerieSeasons(serie);
+    if (seasons.length === 0) return 0;
+    const total = seasons.reduce(
+      (sum, season) => sum + (season.seasonRating || 0),
+      0
+    );
+    return total > 0 ? total / seasons.length : 0;
   }
 
   // Mettre Ã  jour le rating d'une sÃ©rie
@@ -87,11 +108,18 @@ export class SelectSeriesRatingComponent
   async saveSeriesRatings(): Promise<void> {
     if (this.isSaving()) return;
 
-    const seriesToUpdate = this.allSeries().map((serie) => ({
-      title: serie.title,
-      director: serie.director,
-      rating: this.getRating(serie),
-    }));
+    const seriesToUpdate = this.allSeries().map((serie) => {
+      const rating = this.getRating(serie);
+      const seasons = this.getSerieSeasons(serie).map((season) => ({
+        ...season,
+        seasonRating: rating,
+      }));
+      return {
+        title: serie.title,
+        director: serie.director,
+        seasons,
+      };
+    });
 
     if (seriesToUpdate.length === 0) {
       alert('Aucune série à mettre à jour !');

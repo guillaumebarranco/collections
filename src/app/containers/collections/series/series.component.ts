@@ -18,9 +18,11 @@ import {
 } from '../../../utils/stats.utils';
 import {
   getSerieLengthUntilSeason,
+  getSerieAverageRating,
   getSerieTotalEpisodes,
   getSerieTotalLengthMinutes,
   getSerieSeasonsCount,
+  getSerieTotalTimesWatched,
   getSerieWatchedLengthMinutes,
 } from '../../../utils/series.utils';
 import { ActivatedRoute, Params, RouterLink } from '@angular/router';
@@ -132,22 +134,30 @@ export class SeriesComponent implements OnInit {
         );
       case 'rating':
         return seriesToSort.sort((a, b) => {
-          if (b.rating !== a.rating) {
-            return b.rating - a.rating;
+          const ratingA = getSerieAverageRating(a);
+          const ratingB = getSerieAverageRating(b);
+          if (ratingB !== ratingA) {
+            return ratingB - ratingA;
           }
-          return b.timesWatched - a.timesWatched;
+          return getSerieTotalTimesWatched(b) - getSerieTotalTimesWatched(a);
         });
       case 'rating-asc':
         return seriesToSort.sort((a, b) => {
-          if (a.rating !== b.rating) {
-            return a.rating - b.rating;
+          const ratingA = getSerieAverageRating(a);
+          const ratingB = getSerieAverageRating(b);
+          if (ratingA !== ratingB) {
+            return ratingA - ratingB;
           }
-          return b.timesWatched - a.timesWatched;
+          return getSerieTotalTimesWatched(b) - getSerieTotalTimesWatched(a);
         });
       case 'timesWatched':
-        return seriesToSort.sort((a, b) => b.timesWatched - a.timesWatched);
+        return seriesToSort.sort(
+          (a, b) => getSerieTotalTimesWatched(b) - getSerieTotalTimesWatched(a)
+        );
       case 'timesWatched-asc':
-        return seriesToSort.sort((a, b) => a.timesWatched - b.timesWatched);
+        return seriesToSort.sort(
+          (a, b) => getSerieTotalTimesWatched(a) - getSerieTotalTimesWatched(b)
+        );
       case 'totalLength':
         return seriesToSort.sort(
           (a, b) =>
