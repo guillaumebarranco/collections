@@ -1,6 +1,6 @@
 export interface MandatoryBdData {
   title: string;
-  author: string;
+  designer: string;
 }
 
 export interface BaseBd extends MandatoryBdData {
@@ -9,6 +9,7 @@ export interface BaseBd extends MandatoryBdData {
   genre: string;
   nbTomes?: number;
   isFinished?: boolean;
+  writer: string;
 }
 
 export interface UserBd extends MandatoryBdData {

@@ -80,19 +80,19 @@
   </div>
 
   <div class="bds-grid" select-grid>
-    @for (bd of filteredBds(); track `${bd.title}-${bd.author}`) {
+    @for (bd of filteredBds(); track `${bd.title}-${bd.designer}`) {
     <div
       class="bd-cover"
       [class.selected]="isSelected(bd)"
       (click)="toggleSelection(bd)"
-      [title]="bd.title + ' - ' + bd.author"
+      [title]="bd.title + ' - ' + bd.designer"
     >
       <img [src]="bd.coverUrl" [alt]="bd.title" />
       <div class="overlay">
         <div class="checkmark">✓</div>
         <div class="bd-info">
           <span class="bd-title">{{ bd.title }}</span>
-          <span class="bd-author">{{ bd.author }}</span>
+          <span class="bd-author">{{ bd.designer }}</span>
         </div>
       </div>
     </div>

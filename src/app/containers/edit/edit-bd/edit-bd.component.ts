@@ -119,7 +119,7 @@ export class EditBdComponent {
         body: JSON.stringify({
           userId,
           title: bd.title,
-          author: bd.author,
+          designer: bd.designer,
           rating: form.rating,
           readTimes: form.readTimes,
           readDate: form.readDate,
@@ -160,7 +160,7 @@ export class EditBdComponent {
     const userId = this.getCurrentUserId();
     const bds = await getBdsByUser(userId);
     const matched = bds.find((bd) => {
-      return this.toSlug(`${bd.title} ${bd.author}`) === slug;
+      return this.toSlug(`${bd.title} ${bd.designer}`) === slug;
     });
 
     if (!matched) {

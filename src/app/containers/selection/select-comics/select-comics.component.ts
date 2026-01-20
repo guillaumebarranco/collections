@@ -73,8 +73,8 @@ export class SelectComicsComponent
     if (!term) return list;
     return list.filter((comic) => {
       const title = comic.title?.toLowerCase() || '';
-      const author = comic.author?.toLowerCase() || '';
-      return title.includes(term) || author.includes(term);
+      const designer = comic.designer?.toLowerCase() || '';
+      return title.includes(term) || designer.includes(term);
     });
   });
 
@@ -86,7 +86,7 @@ export class SelectComicsComponent
   }
 
   private getComicKey(comic: Comic): string {
-    return `${comic.title}-${comic.author}`;
+    return `${comic.title}-${comic.designer}`;
   }
 
   toggleSelection(comic: Comic): void {
@@ -158,7 +158,7 @@ export class SelectComicsComponent
 
     const comics = selectedComicsList.map((comic) => ({
       title: comic.title,
-      author: comic.author,
+      designer: comic.designer,
     }));
 
     if (comics.length === 0) return;

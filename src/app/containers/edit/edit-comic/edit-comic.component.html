@@ -22,7 +22,10 @@
   <img [src]="comic()?.coverUrl" alt="Cover" width="200" />
   <div>{{ comic()?.title }}</div>
   <div class="entity-details">
-    <p><strong>Auteur :</strong> {{ comic()?.author }}</p>
+    <p><strong>Designer :</strong> {{ comic()?.designer }}</p>
+    @if (comic()?.writer) {
+    <p><strong>Writer :</strong> {{ comic()?.writer }}</p>
+    }
     @if (comic()?.genre) {
     <p><strong>Genre :</strong> {{ comic()?.genre }}</p>
     }

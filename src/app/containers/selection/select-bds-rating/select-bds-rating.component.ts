@@ -35,7 +35,7 @@ export class SelectBdsRatingComponent
   readonly ratingOptions = [0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5];
 
   private getBdKey(bd: Bd): string {
-    return `${bd.title}-${bd.author}`;
+    return `${bd.title}-${bd.designer}`;
   }
 
   getRating(bd: Bd): number {
@@ -77,7 +77,7 @@ export class SelectBdsRatingComponent
 
     const bdsToUpdate = this.allBds().map((bd) => ({
       title: bd.title,
-      author: bd.author,
+      designer: bd.designer,
       rating: this.getRating(bd),
     }));
 

@@ -21,13 +21,25 @@
       </div>
 
       <div class="form-row">
-        <label for="author">Auteur</label>
+        <label for="designer">Designer</label>
         <input
-          id="author"
+          id="designer"
           type="text"
-          [ngModel]="entityForm().author"
-          (ngModelChange)="updateEntityField('author', $event)"
-          name="author"
+          [ngModel]="entityForm().designer"
+          (ngModelChange)="updateEntityField('designer', $event)"
+          name="designer"
+          required
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="writer">Writer</label>
+        <input
+          id="writer"
+          type="text"
+          [ngModel]="entityForm().writer"
+          (ngModelChange)="updateEntityField('writer', $event)"
+          name="writer"
           required
         />
       </div>

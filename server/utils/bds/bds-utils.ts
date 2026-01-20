@@ -119,11 +119,11 @@ function parseBdsFromFile(content: string): any[] {
         const objectEnd = i;
         const objectText = content.slice(objectStart, objectEnd + 1);
         const title = parseStringField(objectText, 'title');
-        const author = parseStringField(objectText, 'author');
-        if (title && author) {
+        const designer = parseStringField(objectText, 'designer');
+        if (title && designer) {
           bds.push({
             title,
-            author,
+            designer,
             rating: parseNumberField(objectText, 'rating') ?? 0,
             readTimes: parseNumberField(objectText, 'readTimes') ?? 0,
             readDate: parseStringField(objectText, 'readDate') ?? '',
@@ -167,20 +167,21 @@ function parseBaseBdsFullFromFile(content: string): any[] {
         const objectEnd = i;
         const objectText = content.slice(objectStart, objectEnd + 1);
         const title = parseStringField(objectText, 'title');
-        const author = parseStringField(objectText, 'author');
-        if (!title || !author) {
+        const designer = parseStringField(objectText, 'designer');
+        if (!title || !designer) {
           i += 1;
           continue;
         }
 
         bds.push({
           title,
-          author,
+          designer,
           coverUrl: parseStringField(objectText, 'coverUrl') || '',
           pages: parseNumberField(objectText, 'pages') ?? 0,
           genre: parseStringField(objectText, 'genre') || '',
           nbTomes: parseNumberField(objectText, 'nbTomes') ?? 0,
           isFinished: parseBooleanField(objectText, 'isFinished') ?? false,
+          writer: parseStringField(objectText, 'writer') || '',
         });
       }
     }
@@ -228,12 +229,12 @@ function getBaseBdsFiles(): string[] {
     .map((file: string) => path.join(BASE_BDS_DIR, file));
 }
 
-function baseBdExists(title: string, author: string): boolean {
+function baseBdExists(title: string, designer: string): boolean {
   const files = getBaseBdsFiles();
   for (const filePath of files) {
     const content = fs.readFileSync(filePath, 'utf8');
     const bds = parseBaseBdsFullFromFile(content);
-    if (bds.some((m: any) => m.title === title && m.author === author)) {
+    if (bds.some((m: any) => m.title === title && m.designer === designer)) {
       return true;
     }
   }
@@ -244,7 +245,7 @@ function updateBdInFile(filePath: string, bdData: any): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const bds = parseBdsFromFile(content);
   const index = bds.findIndex(
-    (bd) => bd.title === bdData.title && bd.author === bdData.author
+    (bd) => bd.title === bdData.title && bd.designer === bdData.designer
   );
 
   if (index === -1) {
@@ -260,7 +261,7 @@ function updateBdInFile(filePath: string, bdData: any): boolean {
     .map(
       (bd) => `  {
     title: '${escapeString(bd.title)}',
-    author: '${escapeString(bd.author)}',
+    designer: '${escapeString(bd.designer)}',
     readDate: '${escapeString(bd.readDate || '')}',
     rating: ${bd.rating ?? 0},
     readTimes: ${bd.readTimes ?? 1},

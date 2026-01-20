@@ -55,8 +55,8 @@ export class ComicsComponent implements OnInit {
   sortOptions = signal<SortOption[]>([
     { value: 'title', label: 'Titre (A-Z)' },
     { value: 'title-desc', label: 'Titre (Z-A)' },
-    { value: 'author', label: 'Auteur (A-Z)' },
-    { value: 'author-desc', label: 'Auteur (Z-A)' },
+    { value: 'designer', label: 'Designer (A-Z)' },
+    { value: 'designer-desc', label: 'Designer (Z-A)' },
     { value: 'readDate', label: 'Date de lecture (récent)' },
     { value: 'readDate-asc', label: 'Date de lecture (ancien)' },
     { value: 'rating', label: 'Note (élevée)' },
@@ -82,7 +82,7 @@ export class ComicsComponent implements OnInit {
 
     return comics.map((comic) => ({
       title: comic.title,
-      author: comic.author,
+      author: comic.designer,
       rating: comic.rating,
       readDate: comic.readDate,
       readTimes: comic.readTimes,
@@ -106,7 +106,7 @@ export class ComicsComponent implements OnInit {
 
     return comics.map((comic) => ({
       title: comic.title,
-      author: comic.author,
+      author: comic.designer,
       rating: comic.rating,
       readDate: comic.readDate,
       readTimes: comic.readTimes,
@@ -141,9 +141,9 @@ export class ComicsComponent implements OnInit {
         return sortedComics.sort((a, b) => a.title.localeCompare(b.title));
       case 'title-desc':
         return sortedComics.sort((a, b) => b.title.localeCompare(a.title));
-      case 'author':
+      case 'designer':
         return sortedComics.sort((a, b) => a.author.localeCompare(b.author));
-      case 'author-desc':
+      case 'designer-desc':
         return sortedComics.sort((a, b) => b.author.localeCompare(a.author));
       case 'readDate':
         return sortedComics.sort(

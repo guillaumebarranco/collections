@@ -19,15 +19,15 @@ router.post('/', (req: any, res: any) => {
     }
 
     const title = normalizeString(input.title, 'title');
-    const author = normalizeString(input.author, 'author');
-    if (!title || !author) {
-      res.status(400).json({ error: 'Missing title or author' });
+    const designer = normalizeString(input.designer, 'designer');
+    if (!title || !designer) {
+      res.status(400).json({ error: 'Missing title or designer' });
       return;
     }
 
     const payload = {
       title,
-      author,
+      designer,
       rating: normalizeNumber(input.rating, 'rating') ?? 0,
       readTimes: normalizeNumber(input.readTimes, 'readTimes') ?? 1,
       readDate: normalizeString(input.readDate, 'readDate') || '',

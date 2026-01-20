@@ -330,16 +330,17 @@ export class DashboardEntitiesStatsComponent implements OnInit {
   private getComicsStats(): EntityStats {
     const comics = this.allComics();
     const uniqueComics = Array.from(
-      new Set(comics.map((c) => `${c.title}|${c.author}`))
+      new Set(comics.map((c) => `${c.title}|${c.designer}`))
     ).map((key) => {
-      const [title, author] = key.split('|');
-      return comics.find((c) => c.title === title && c.author === author)!;
+      const [title, designer] = key.split('|');
+      return comics.find((c) => c.title === title && c.designer === designer)!;
     });
 
-    const authorsCount: { [key: string]: number } = {};
+    const designersCount: { [key: string]: number } = {};
     uniqueComics.forEach((comic) => {
-      if (comic.author) {
-        authorsCount[comic.author] = (authorsCount[comic.author] || 0) + 1;
+      if (comic.designer) {
+        designersCount[comic.designer] =
+          (designersCount[comic.designer] || 0) + 1;
       }
     });
 
@@ -351,7 +352,7 @@ export class DashboardEntitiesStatsComponent implements OnInit {
     });
 
     return {
-      topAuthors: this.sortAndLimit(authorsCount, 10),
+      topAuthors: this.sortAndLimit(designersCount, 10),
       topGenres: this.sortAndLimit(genresCount, 10),
     };
   }
@@ -359,16 +360,16 @@ export class DashboardEntitiesStatsComponent implements OnInit {
   private getBdsStats(): EntityStats {
     const bds = this.allBds();
     const uniqueBds = Array.from(
-      new Set(bds.map((b) => `${b.title}|${b.author}`))
+      new Set(bds.map((b) => `${b.title}|${b.designer}`))
     ).map((key) => {
-      const [title, author] = key.split('|');
-      return bds.find((b) => b.title === title && b.author === author)!;
+      const [title, designer] = key.split('|');
+      return bds.find((b) => b.title === title && b.designer === designer)!;
     });
 
-    const authorsCount: { [key: string]: number } = {};
+    const designersCount: { [key: string]: number } = {};
     uniqueBds.forEach((bd) => {
-      if (bd.author) {
-        authorsCount[bd.author] = (authorsCount[bd.author] || 0) + 1;
+      if (bd.designer) {
+        designersCount[bd.designer] = (designersCount[bd.designer] || 0) + 1;
       }
     });
 
@@ -380,7 +381,7 @@ export class DashboardEntitiesStatsComponent implements OnInit {
     });
 
     return {
-      topAuthors: this.sortAndLimit(authorsCount, 10),
+      topAuthors: this.sortAndLimit(designersCount, 10),
       topGenres: this.sortAndLimit(genresCount, 10),
     };
   }

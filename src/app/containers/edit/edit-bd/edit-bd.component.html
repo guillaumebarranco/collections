@@ -22,7 +22,10 @@
   <img [src]="bd()?.coverUrl" alt="Cover" width="200" />
   <div>{{ bd()?.title }}</div>
   <div class="entity-details">
-    <p><strong>Auteur :</strong> {{ bd()?.author }}</p>
+    <p><strong>Designer :</strong> {{ bd()?.designer }}</p>
+    @if (bd()?.writer) {
+    <p><strong>Writer :</strong> {{ bd()?.writer }}</p>
+    }
     @if (bd()?.genre) {
     <p><strong>Genre :</strong> {{ bd()?.genre }}</p>
     }

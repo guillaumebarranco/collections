@@ -35,8 +35,8 @@
   </div>
 
   <div class="comics-grid">
-    @for (comic of allComics(); track `${comic.title}-${comic.author}`) {
-    <div class="comic-cover" [title]="comic.title + ' - ' + comic.author">
+    @for (comic of allComics(); track `${comic.title}-${comic.designer}`) {
+    <div class="comic-cover" [title]="comic.title + ' - ' + comic.designer">
       <img [src]="comic.coverUrl" [alt]="comic.title" />
       <div class="overlay">
         <div class="comic-info">

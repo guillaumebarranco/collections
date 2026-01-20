@@ -23,12 +23,12 @@ async function getAllBdsData(bds: UserBd[]): Promise<Bd[]> {
       matchingBaseBds.length === 1
         ? matchingBaseBds[0]
         : matchingBaseBds.filter((baseBd: BaseBd) => {
-            return baseBd.author === bd.author;
+            return baseBd.designer === bd.designer;
           })[0];
 
     return {
       title: bd.title,
-      author: bd.author,
+      designer: bd.designer,
       rating: bd.rating,
       readDate: bd.readDate,
       readTimes: bd.readTimes,
@@ -37,6 +37,7 @@ async function getAllBdsData(bds: UserBd[]): Promise<Bd[]> {
       genre: definitiveMatchingBd?.genre || '',
       nbTomes: definitiveMatchingBd?.nbTomes || 0,
       isFinished: definitiveMatchingBd?.isFinished || false,
+      writer: definitiveMatchingBd?.writer || '',
     };
   });
 }
@@ -106,7 +107,7 @@ export async function getAllBdsMerged(
     .flat()
     .reduce((acc: Bd[], item: Bd) => {
       if (
-        acc.find((bd) => bd.title === item.title && bd.author === item.author)
+        acc.find((bd) => bd.title === item.title && bd.designer === item.designer)
       ) {
         return acc;
       }

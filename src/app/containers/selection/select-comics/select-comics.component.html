@@ -80,19 +80,19 @@
   </div>
 
   <div class="comics-grid" select-grid>
-    @for (comic of filteredComics(); track `${comic.title}-${comic.author}`) {
+    @for (comic of filteredComics(); track `${comic.title}-${comic.designer}`) {
     <div
       class="comic-cover"
       [class.selected]="isSelected(comic)"
       (click)="toggleSelection(comic)"
-      [title]="comic.title + ' - ' + comic.author"
+      [title]="comic.title + ' - ' + comic.designer"
     >
       <img [src]="comic.coverUrl" [alt]="comic.title" />
       <div class="overlay">
         <div class="checkmark">✓</div>
         <div class="comic-info">
           <span class="comic-title">{{ comic.title }}</span>
-          <span class="comic-author">{{ comic.author }}</span>
+          <span class="comic-author">{{ comic.designer }}</span>
         </div>
       </div>
     </div>

@@ -110,17 +110,38 @@ function parseActors(objectText: string): string[] {
   return actors;
 }
 
-function parseSeriesFromFile(content: string): any[] {
+function getArrayBoundsFromIndex(content: string, startIndex: number) {
+  const arrayStart = content.indexOf('[', startIndex);
+  const arrayEnd = content.indexOf('];', arrayStart);
+  if (arrayStart === -1 || arrayEnd === -1) {
+    return null;
+  }
+  return { arrayStart, arrayEnd };
+}
+
+function findSeriesArrayBounds(content: string) {
   const exportIndex = content.indexOf('export const');
-  if (exportIndex === -1) {
+  if (exportIndex !== -1) {
+    const bounds = getArrayBoundsFromIndex(content, exportIndex);
+    if (bounds) return bounds;
+  }
+
+  const rawMatch = content.match(/const\s+raw\w*\s*=\s*\[/);
+  if (rawMatch && rawMatch.index !== undefined) {
+    const bounds = getArrayBoundsFromIndex(content, rawMatch.index);
+    if (bounds) return bounds;
+  }
+
+  return null;
+}
+
+function parseSeriesFromFile(content: string): any[] {
+  const bounds = findSeriesArrayBounds(content);
+  if (!bounds) {
     return [];
   }
 
-  const arrayStart = content.indexOf('[', exportIndex);
-  const arrayEnd = content.indexOf('];', arrayStart);
-  if (arrayStart === -1 || arrayEnd === -1) {
-    return [];
-  }
+  const { arrayStart, arrayEnd } = bounds;
 
   const series: any[] = [];
   let i = arrayStart;

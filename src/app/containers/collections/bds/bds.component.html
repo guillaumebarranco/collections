@@ -2,11 +2,7 @@
 
 <div class="bds-container">
   <h1>
-    {{
-      selectedView() === "readlist"
-        ? "BD à lire"
-        : "BD lues"
-    }}
+    {{ selectedView() === "readlist" ? "BD à lire" : "BD lues" }}
     ({{ filteredBds().length }})
   </h1>
 
@@ -20,9 +16,7 @@
       Sélectionner mes BD
     </button>
   </div>
-  }
-
-  @if(allBds().length !== 0 || allReadlistBds().length !== 0) {
+  } @if(allBds().length !== 0 || allReadlistBds().length !== 0) {
   <div class="bds-header-top">
     <div class="bds-view-toggle">
       <button
@@ -92,7 +86,7 @@
   <div class="bds-search">
     <input
       type="text"
-      placeholder="Rechercher par titre, auteur, genre..."
+      placeholder="Rechercher par titre, designer, genre..."
       [ngModel]="searchTerm()"
       (ngModelChange)="onSearchChange($event)"
     />
@@ -103,7 +97,7 @@
     <div class="bd-card">
       <app-book
         [book]="bd"
-        (editRequested)="openEditBdDialog(bd)"
+        (editRequested)="openEditBdDialog($any(bd))"
       ></app-book>
     </div>
     }

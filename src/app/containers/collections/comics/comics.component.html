@@ -2,11 +2,7 @@
 
 <div class="comics-container">
   <h1>
-    {{
-      selectedView() === "readlist"
-        ? "Comics à lire"
-        : "Comics lus"
-    }}
+    {{ selectedView() === "readlist" ? "Comics à lire" : "Comics lus" }}
     ({{ filteredComics().length }})
   </h1>
 
@@ -20,9 +16,7 @@
       Sélectionner mes comics
     </button>
   </div>
-  }
-
-  @if(allComics().length !== 0 || allReadlistComics().length !== 0) {
+  } @if(allComics().length !== 0 || allReadlistComics().length !== 0) {
   <div class="comics-header-top">
     <div class="comics-view-toggle">
       <button
@@ -92,7 +86,7 @@
   <div class="comics-search">
     <input
       type="text"
-      placeholder="Rechercher par titre, auteur, genre..."
+      placeholder="Rechercher par titre, designer, genre..."
       [ngModel]="searchTerm()"
       (ngModelChange)="onSearchChange($event)"
     />
@@ -103,7 +97,7 @@
     <div class="comic-card">
       <app-book
         [book]="comic"
-        (editRequested)="openEditComicDialog(comic)"
+        (editRequested)="openEditComicDialog($any(comic))"
       ></app-book>
     </div>
     }

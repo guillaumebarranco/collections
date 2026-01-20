@@ -30,7 +30,7 @@ export class SelectComicsTimesReadComponent
   readonly timesReadOptions = [1, 2, 3, 5, 10, 15, 20, 25, 30, 40, 50];
 
   private getComicKey(comic: Comic): string {
-    return `${comic.title}-${comic.author}`;
+    return `${comic.title}-${comic.designer}`;
   }
 
   getTimesRead(comic: Comic): number {
@@ -59,7 +59,7 @@ export class SelectComicsTimesReadComponent
 
     const comicsToUpdate = this.allComics().map((comic) => ({
       title: comic.title,
-      author: comic.author,
+      designer: comic.designer,
       readTimes: this.getTimesRead(comic),
     }));
 

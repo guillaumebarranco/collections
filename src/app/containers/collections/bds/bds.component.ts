@@ -55,8 +55,8 @@ export class BdsComponent implements OnInit {
   sortOptions = signal<SortOption[]>([
     { value: 'title', label: 'Titre (A-Z)' },
     { value: 'title-desc', label: 'Titre (Z-A)' },
-    { value: 'author', label: 'Auteur (A-Z)' },
-    { value: 'author-desc', label: 'Auteur (Z-A)' },
+    { value: 'designer', label: 'Designer (A-Z)' },
+    { value: 'designer-desc', label: 'Designer (Z-A)' },
     { value: 'readDate', label: 'Date de lecture (récent)' },
     { value: 'readDate-asc', label: 'Date de lecture (ancien)' },
     { value: 'rating', label: 'Note (élevée)' },
@@ -82,7 +82,7 @@ export class BdsComponent implements OnInit {
 
     return bds.map((bd) => ({
       title: bd.title,
-      author: bd.author,
+      author: bd.designer,
       rating: bd.rating,
       readDate: bd.readDate,
       readTimes: bd.readTimes,
@@ -106,7 +106,7 @@ export class BdsComponent implements OnInit {
 
     return bds.map((bd) => ({
       title: bd.title,
-      author: bd.author,
+      author: bd.designer,
       rating: bd.rating,
       readDate: bd.readDate,
       readTimes: bd.readTimes,
@@ -141,9 +141,9 @@ export class BdsComponent implements OnInit {
         return sortedBds.sort((a, b) => a.title.localeCompare(b.title));
       case 'title-desc':
         return sortedBds.sort((a, b) => b.title.localeCompare(a.title));
-      case 'author':
+      case 'designer':
         return sortedBds.sort((a, b) => a.author.localeCompare(b.author));
-      case 'author-desc':
+      case 'designer-desc':
         return sortedBds.sort((a, b) => b.author.localeCompare(a.author));
       case 'readDate':
         return sortedBds.sort(

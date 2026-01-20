@@ -119,11 +119,11 @@ function parseComicsFromFile(content: string): any[] {
         const objectEnd = i;
         const objectText = content.slice(objectStart, objectEnd + 1);
         const title = parseStringField(objectText, 'title');
-        const author = parseStringField(objectText, 'author');
-        if (title && author) {
+        const designer = parseStringField(objectText, 'designer');
+        if (title && designer) {
           comics.push({
             title,
-            author,
+            designer,
             rating: parseNumberField(objectText, 'rating') ?? 0,
             readTimes: parseNumberField(objectText, 'readTimes') ?? 0,
             readDate: parseStringField(objectText, 'readDate') ?? '',
@@ -167,20 +167,21 @@ function parseBaseComicsFullFromFile(content: string): any[] {
         const objectEnd = i;
         const objectText = content.slice(objectStart, objectEnd + 1);
         const title = parseStringField(objectText, 'title');
-        const author = parseStringField(objectText, 'author');
-        if (!title || !author) {
+        const designer = parseStringField(objectText, 'designer');
+        if (!title || !designer) {
           i += 1;
           continue;
         }
 
         comics.push({
           title,
-          author,
+          designer,
           coverUrl: parseStringField(objectText, 'coverUrl') || '',
           pages: parseNumberField(objectText, 'pages') ?? 0,
           genre: parseStringField(objectText, 'genre') || '',
           nbTomes: parseNumberField(objectText, 'nbTomes') ?? 0,
           isFinished: parseBooleanField(objectText, 'isFinished') ?? false,
+          writer: parseStringField(objectText, 'writer') || '',
         });
       }
     }
@@ -228,12 +229,12 @@ function getBaseComicsFiles(): string[] {
     .map((file: string) => path.join(BASE_COMICS_DIR, file));
 }
 
-function baseComicExists(title: string, author: string): boolean {
+function baseComicExists(title: string, designer: string): boolean {
   const files = getBaseComicsFiles();
   for (const filePath of files) {
     const content = fs.readFileSync(filePath, 'utf8');
     const comics = parseBaseComicsFullFromFile(content);
-    if (comics.some((m: any) => m.title === title && m.author === author)) {
+    if (comics.some((m: any) => m.title === title && m.designer === designer)) {
       return true;
     }
   }
@@ -244,7 +245,8 @@ function updateComicInFile(filePath: string, comicData: any): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const comics = parseComicsFromFile(content);
   const index = comics.findIndex(
-    (comic) => comic.title === comicData.title && comic.author === comicData.author
+    (comic) =>
+      comic.title === comicData.title && comic.designer === comicData.designer
   );
 
   if (index === -1) {
@@ -260,7 +262,7 @@ function updateComicInFile(filePath: string, comicData: any): boolean {
     .map(
       (comic) => `  {
     title: '${escapeString(comic.title)}',
-    author: '${escapeString(comic.author)}',
+    designer: '${escapeString(comic.designer)}',
     readDate: '${escapeString(comic.readDate || '')}',
     rating: ${comic.rating ?? 0},
     readTimes: ${comic.readTimes ?? 1},

@@ -3,7 +3,7 @@ import { UserBd } from '../../../../models/bd-model';
 export const guillaumeBds: UserBd[] = [
   {
     title: "L'Arnaque des nouveaux pères",
-    author: 'Stephane Jourdain',
+    designer: 'Stephane Jourdain',
     readDate: '2024-11-11',
     rating: 4,
     readTimes: 1,

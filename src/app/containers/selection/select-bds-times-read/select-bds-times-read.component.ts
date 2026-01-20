@@ -30,7 +30,7 @@ export class SelectBdsTimesReadComponent
   readonly timesReadOptions = [1, 2, 3, 5, 10, 15, 20, 25, 30, 40, 50];
 
   private getBdKey(bd: Bd): string {
-    return `${bd.title}-${bd.author}`;
+    return `${bd.title}-${bd.designer}`;
   }
 
   getTimesRead(bd: Bd): number {
@@ -59,7 +59,7 @@ export class SelectBdsTimesReadComponent
 
     const bdsToUpdate = this.allBds().map((bd) => ({
       title: bd.title,
-      author: bd.author,
+      designer: bd.designer,
       readTimes: this.getTimesRead(bd),
     }));
 

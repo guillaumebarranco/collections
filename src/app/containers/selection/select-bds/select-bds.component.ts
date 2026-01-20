@@ -73,8 +73,8 @@ export class SelectBdsComponent
     if (!term) return list;
     return list.filter((bd) => {
       const title = bd.title?.toLowerCase() || '';
-      const author = bd.author?.toLowerCase() || '';
-      return title.includes(term) || author.includes(term);
+      const designer = bd.designer?.toLowerCase() || '';
+      return title.includes(term) || designer.includes(term);
     });
   });
 
@@ -86,7 +86,7 @@ export class SelectBdsComponent
   }
 
   private getBdKey(bd: Bd): string {
-    return `${bd.title}-${bd.author}`;
+    return `${bd.title}-${bd.designer}`;
   }
 
   toggleSelection(bd: Bd): void {
@@ -158,7 +158,7 @@ export class SelectBdsComponent
 
     const bds = selectedBdsList.map((bd) => ({
       title: bd.title,
-      author: bd.author,
+      designer: bd.designer,
     }));
 
     if (bds.length === 0) return;

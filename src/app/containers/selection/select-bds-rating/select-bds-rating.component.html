@@ -35,8 +35,8 @@
   </div>
 
   <div class="bds-grid">
-    @for (bd of allBds(); track `${bd.title}-${bd.author}`) {
-    <div class="bd-cover" [title]="bd.title + ' - ' + bd.author">
+    @for (bd of allBds(); track `${bd.title}-${bd.designer}`) {
+    <div class="bd-cover" [title]="bd.title + ' - ' + bd.designer">
       <img [src]="bd.coverUrl" [alt]="bd.title" />
       <div class="overlay">
         <div class="bd-info">

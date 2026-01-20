@@ -23,12 +23,12 @@ async function getAllComicsData(comics: UserComic[]): Promise<Comic[]> {
       matchingBaseComics.length === 1
         ? matchingBaseComics[0]
         : matchingBaseComics.filter((baseComic: BaseComic) => {
-            return baseComic.author === comic.author;
+            return baseComic.designer === comic.designer;
           })[0];
 
     return {
       title: comic.title,
-      author: comic.author,
+      designer: comic.designer,
       rating: comic.rating,
       readDate: comic.readDate,
       readTimes: comic.readTimes,
@@ -37,6 +37,7 @@ async function getAllComicsData(comics: UserComic[]): Promise<Comic[]> {
       genre: definitiveMatchingComic?.genre || '',
       nbTomes: definitiveMatchingComic?.nbTomes || 0,
       isFinished: definitiveMatchingComic?.isFinished || false,
+      writer: definitiveMatchingComic?.writer || '',
     };
   });
 }
@@ -109,7 +110,8 @@ export async function getAllComicsMerged(
     .reduce((acc: Comic[], item: Comic) => {
       if (
         acc.find(
-          (comic) => comic.title === item.title && comic.author === item.author
+          (comic) =>
+            comic.title === item.title && comic.designer === item.designer
         )
       ) {
         return acc;

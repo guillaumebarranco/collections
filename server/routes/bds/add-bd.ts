@@ -16,7 +16,8 @@ const router = express.Router();
 function formatBaseBd(entity: any): string {
   return `  {
     title: '${escapeString(entity.title)}',
-    author: '${escapeString(entity.author)}',
+    designer: '${escapeString(entity.designer)}',
+    writer: '${escapeString(entity.writer)}',
     coverUrl: '${escapeString(entity.coverUrl || '')}',
     pages: ${entity.pages || 0},
     genre: '${escapeString(entity.genre || '')}',
@@ -28,7 +29,7 @@ function formatBaseBd(entity: any): string {
 function formatUserBd(user: any): string {
   return `  {
     title: '${escapeString(user.title)}',
-    author: '${escapeString(user.author)}',
+    designer: '${escapeString(user.designer)}',
     readDate: '${escapeString(user.readDate || '')}',
     rating: ${user.rating ?? 0},
     readTimes: ${user.readTimes ?? 1},
@@ -85,20 +86,22 @@ router.post('/add', (req: any, res: any) => {
     const user = input.user || {};
 
     const title = normalizeString(entity.title, 'title');
-    const author = normalizeString(entity.author, 'author');
-    if (!title || !author) {
-      res.status(400).json({ error: 'Missing title or author' });
+    const designer = normalizeString(entity.designer, 'designer');
+    const writer = normalizeString(entity.writer, 'writer');
+    if (!title || !designer || !writer) {
+      res.status(400).json({ error: 'Missing title, designer or writer' });
       return;
     }
 
-    if (baseBdExists(title, author)) {
+    if (baseBdExists(title, designer)) {
       res.status(409).json({ error: 'Bd already exists in entities' });
       return;
     }
 
     const entityPayload = {
       title,
-      author,
+      designer,
+      writer,
       coverUrl: normalizeString(entity.coverUrl, 'coverUrl') || '',
       pages: normalizeNumber(entity.pages, 'pages') || 0,
       genre: normalizeString(entity.genre, 'genre') || '',
@@ -108,7 +111,7 @@ router.post('/add', (req: any, res: any) => {
 
     const userPayload = {
       title,
-      author,
+      designer,
       rating: normalizeNumber(user.rating, 'rating') ?? 0,
       readTimes: normalizeNumber(user.readTimes, 'readTimes') ?? 1,
       readDate: normalizeString(user.readDate, 'readDate') || '',

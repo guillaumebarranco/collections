@@ -119,7 +119,7 @@ export class EditComicComponent {
         body: JSON.stringify({
           userId,
           title: comic.title,
-          author: comic.author,
+          designer: comic.designer,
           rating: form.rating,
           readTimes: form.readTimes,
           readDate: form.readDate,
@@ -160,7 +160,7 @@ export class EditComicComponent {
     const userId = this.getCurrentUserId();
     const comics = await getComicsByUser(userId);
     const matched = comics.find((comic) => {
-      return this.toSlug(`${comic.title} ${comic.author}`) === slug;
+      return this.toSlug(`${comic.title} ${comic.designer}`) === slug;
     });
 
     if (!matched) {

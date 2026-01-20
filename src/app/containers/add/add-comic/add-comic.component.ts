@@ -6,7 +6,8 @@ import { getApiBaseUrl } from '../../../core/config';
 
 type AddComicEntityForm = {
   title: string;
-  author: string;
+  designer: string;
+  writer: string;
   coverUrl: string;
   genre: string;
   nbTomes: number;
@@ -42,7 +43,8 @@ export class AddComicComponent {
 
   entityForm = signal<AddComicEntityForm>({
     title: '',
-    author: '',
+    designer: '',
+    writer: '',
     coverUrl: '',
     genre: '',
     nbTomes: 0,
@@ -129,8 +131,8 @@ export class AddComicComponent {
     const entity = this.entityForm();
     const user = this.userForm();
 
-    if (!entity.title || !entity.author) {
-      this.errorMessage.set('Titre et auteur sont obligatoires.');
+    if (!entity.title || !entity.designer || !entity.writer) {
+      this.errorMessage.set('Titre, designer et writer sont obligatoires.');
       return;
     }
 

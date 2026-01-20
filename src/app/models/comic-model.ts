@@ -1,6 +1,6 @@
 export interface MandatoryComicData {
   title: string;
-  author: string;
+  designer: string;
 }
 
 export interface BaseComic extends MandatoryComicData {
@@ -9,6 +9,7 @@ export interface BaseComic extends MandatoryComicData {
   genre: string;
   nbTomes?: number;
   isFinished?: boolean;
+  writer: string;
 }
 
 export interface UserComic extends MandatoryComicData {

@@ -24,20 +24,20 @@ router.post('/batch-times-read', (req: any, res: any) => {
     }
 
     const bdFiles = getUserBdsFiles(userId);
-    const missing: { title: string; author: string }[] = [];
+    const missing: { title: string; designer: string }[] = [];
     let updatedCount = 0;
 
     for (const rawBd of bds) {
       const title = normalizeString(rawBd?.title, 'title');
-      const author = normalizeString(rawBd?.author, 'author');
-      if (!title || !author) {
-        res.status(400).json({ error: 'Missing title or author' });
+      const designer = normalizeString(rawBd?.designer, 'designer');
+      if (!title || !designer) {
+        res.status(400).json({ error: 'Missing title or designer' });
         return;
       }
 
       const payload = {
         title,
-        author,
+        designer,
         readTimes: normalizeNumber(rawBd?.readTimes, 'readTimes'),
       };
 
@@ -51,7 +51,7 @@ router.post('/batch-times-read', (req: any, res: any) => {
       }
 
       if (!updated) {
-        missing.push({ title, author });
+        missing.push({ title, designer });
       }
     }
 

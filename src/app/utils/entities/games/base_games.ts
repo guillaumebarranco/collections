@@ -906,7 +906,7 @@ export const baseGames: BaseGame[] = [
     title: 'God of War Ragnarök',
     editor: 'Santa Monica Studio',
     hero: 'Kratos',
-    coverUrl: '/games_pictures/0711719409397_1.png',
+    coverUrl: '/games_pictures/71BWGVZSSNL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '2022-11-09',
 
     platineTime: 50,
