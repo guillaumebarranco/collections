@@ -1572,4 +1572,76 @@ export const ronanGames: UserGame[] = [
     additionnalEstimatedTime: 0,
     platined: false,
   },
+
+  {
+    title: 'Star Wars : Le Pouvoir de la Force',
+    editor: 'LucasArts',
+    rating: 3.5,
+    timesFinished: 3,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Trackmania DS',
+    editor: 'Ubisoft',
+    rating: 3,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Transformers : The Game',
+    editor: 'Activision',
+    rating: 3,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'X-Men Origins: Wolverine',
+    editor: 'Activision',
+    rating: 3,
+    timesFinished: 2,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Marvel Nemesis: Rise of the Imperfects',
+    editor: 'Electronic Arts',
+    rating: 2.5,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Programme d\'entraînement cérébral du Dr Kawashima',
+    editor: 'Nintendo',
+    rating: 3,
+    timesFinished: 1,
+    additionnalEstimatedTime: 5,
+    platined: false,
+  },
+
+  {
+    title: 'Professeur Layton et la Boite de Pandore',
+    editor: 'Nintendo',
+    rating: 3.5,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Saints Row 2',
+    editor: 'THQ',
+    rating: 4,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
 ];
