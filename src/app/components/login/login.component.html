@@ -1,0 +1,39 @@
+<div class="login-card">
+  <p class="login-title">
+    {{ mode() === 'login' ? 'Se connecter' : 'Créer un mot de passe' }}
+  </p>
+
+  <div class="login-field">
+    <label for="login-username">Nom d'utilisateur</label>
+    <input
+      id="login-username"
+      type="text"
+      placeholder="Nom d'utilisateur"
+      [ngModel]="username()"
+      (ngModelChange)="onUsernameChange($event)"
+      (keydown.enter)="onSubmit()"
+    />
+  </div>
+
+  <div class="login-field">
+    <label for="login-password">
+      {{ mode() === 'login' ? 'Mot de passe' : 'Nouveau mot de passe' }}
+    </label>
+    <input
+      id="login-password"
+      type="password"
+      placeholder="Mot de passe"
+      [ngModel]="password()"
+      (ngModelChange)="onPasswordChange($event)"
+      (keydown.enter)="onSubmit()"
+    />
+  </div>
+
+  @if (errorMessage()) {
+  <p class="login-error">{{ errorMessage() }}</p>
+  }
+
+  <button class="login-submit" type="button" (click)="onSubmit()" [disabled]="isLoading()">
+    {{ mode() === 'login' ? 'Se connecter' : 'Créer mon mot de passe' }}
+  </button>
+</div>

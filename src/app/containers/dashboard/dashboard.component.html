@@ -212,21 +212,11 @@
   </div>
   <h1>Bienvenue sur Makya !</h1>
 
+  @if(!isAuthenticated()) {
   <div class="already-user">
-    <p>
-      Saisissez votre nom d'utilisateur pour accéder à votre tableau de bord.
-    </p>
-    <div>
-      <input
-        type="text"
-        placeholder="Nom d'utilisateur"
-        (input)="onInput($event)"
-        (keydown.enter)="onSubmit()"
-      />
-    </div>
-    <button [disabled]="!filledUserId()" (click)="onSubmit()">
-      Aller sur mon tableau de bord
-    </button>
+    <p>Connectez-vous pour accéder à votre tableau de bord.</p>
+    <app-login></app-login>
   </div>
+  }
 </div>
 }

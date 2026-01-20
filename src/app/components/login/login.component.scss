@@ -1,0 +1,56 @@
+.login-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  display: grid;
+  gap: 12px;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.login-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+}
+
+.login-field {
+  display: grid;
+  gap: 6px;
+
+  label {
+    font-size: 0.85rem;
+    color: #333;
+  }
+
+  input {
+    border-radius: 8px;
+    border: 1px solid #c8c8c8;
+    padding: 8px 10px;
+    font-size: 0.9rem;
+  }
+}
+
+.login-error {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #d83a3a;
+  text-align: center;
+}
+
+.login-submit {
+  border: none;
+  border-radius: 999px;
+  padding: 10px 16px;
+  background: #2f6fed;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.login-submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

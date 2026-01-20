@@ -7,6 +7,7 @@ import {
 } from '@angular/core';
 import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { AuthService } from '../../core/auth.service';
 
 @Component({
   selector: 'app-menu',
@@ -22,11 +23,17 @@ export class MenuComponent implements OnInit {
 
   activatedRoute = inject(ActivatedRoute);
   router = inject(Router);
+  authService = inject(AuthService);
 
   currentUser = computed(() => {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam ? this.capitalizeFirstLetter(params['id']) : '';
+  });
+
+  authenticatedUser = computed(() => {
+    const userId = this.authService.userId();
+    return userId ? this.capitalizeFirstLetter(userId) : '';
   });
 
   capitalizeFirstLetter(val: string) {
@@ -168,6 +175,10 @@ export class MenuComponent implements OnInit {
 
   navigateTo(route: string): void {
     this.router.navigate([route]);
+  }
+
+  goToLogin(): void {
+    this.router.navigate(['/dashboard']);
   }
 
   toggleReadingMenu(): void {

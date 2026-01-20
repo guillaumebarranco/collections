@@ -19,6 +19,26 @@
   color: white;
 }
 
+.menu-auth {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.menu-login {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.menu-login:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
 .menu-container {
   margin: 0 auto;
   padding: 0 20px;

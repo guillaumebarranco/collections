@@ -8,6 +8,7 @@ const manwhasRoutes = require('./routes/manwhas/manwhas-routes');
 const comicsRoutes = require('./routes/comics/comics-routes');
 const bdsRoutes = require('./routes/bds/bds-routes');
 const musicsRoutes = require('./routes/musics/musics-routes');
+const authRoutes = require('./routes/auth/auth-routes');
 
 const PORT = 3001;
 
@@ -39,6 +40,7 @@ app.use('/api/manwhas', manwhasRoutes);
 app.use('/api/comics', comicsRoutes);
 app.use('/api/bds', bdsRoutes);
 app.use('/api/musics', musicsRoutes);
+app.use('/api/auth', authRoutes);
 
 app.use((_req: any, res: any) => {
   res.status(404).json({ error: 'Not found' });

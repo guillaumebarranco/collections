@@ -41,6 +41,14 @@
       </div>
       }
     </div>
-    <span class="menu-user">{{ currentUser() }}</span>
+    <div class="menu-auth">
+      @if (authenticatedUser()) {
+      <span class="menu-user">{{ authenticatedUser() }}</span>
+      } @else {
+      <button class="menu-login" type="button" (click)="goToLogin()">
+        Se connecter
+      </button>
+      }
+    </div>
   </div>
 </nav>

@@ -8,6 +8,7 @@ import {
 } from '../../components/stats-display/stats-display.component';
 import { DashboardEntitiesStatsComponent } from '../../components/dashboard-entities-stats/dashboard-entities-stats.component';
 import { DashboardUserTodosComponent } from '../../components/dashboard-user-todos/dashboard-user-todos.component';
+import { LoginComponent } from '../../components/login/login.component';
 
 import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
 import { Book } from '../../models/book-model';
@@ -93,6 +94,7 @@ interface TopManga extends Manga {
     StatsDisplayComponent,
     DashboardEntitiesStatsComponent,
     DashboardUserTodosComponent,
+    LoginComponent,
   ],
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.scss'],
@@ -104,6 +106,7 @@ export class DashboardComponent implements OnInit {
 
   filledUserId = signal<string>('');
   selectedTab = signal<'overview' | 'entities' | 'top5'>('overview');
+  isAuthenticated = computed<boolean>(() => this.authService.isAuthenticated());
 
   booksList = signal<{ [key: string]: Book[] }>({});
   mangasList = signal<{ [key: string]: Manga[] }>({});
@@ -126,7 +129,17 @@ export class DashboardComponent implements OnInit {
 
   userId = computed<string>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
-    return params['id'];
+
+    if (params['id']) {
+      return params['id'];
+    }
+
+    if (this.authService.isAuthenticated()) {
+      this.router.navigate(['/', this.authService.getAuthenticatedUserId()]);
+      return '';
+    }
+
+    return null;
   });
 
   allBooks = computed<Book[]>(() => {
@@ -358,9 +371,7 @@ export class DashboardComponent implements OnInit {
         return {
           ...serie,
           totalWatchingTime: watchedMinutes / 60, // minutes -> heures
-          formattedWatchingTime: this.formatTime(
-            watchedMinutes / 60
-          ),
+          formattedWatchingTime: this.formatTime(watchedMinutes / 60),
           totalTimesWatched,
         };
       })
@@ -514,7 +525,8 @@ export class DashboardComponent implements OnInit {
         color: StatItemColor.WARNING,
       },
       {
-        label: 'Temps total passé à lire (livres + mangas + comics + BD + manwhas)',
+        label:
+          'Temps total passé à lire (livres + mangas + comics + BD + manwhas)',
         value: this.formatTime(
           booksTotalReadingTime +
             mangasTotalReadingTime +
