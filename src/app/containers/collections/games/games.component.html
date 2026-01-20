@@ -2,11 +2,7 @@
 
 <div class="games-container">
   <h1>
-    {{
-      selectedView() === "gamelist"
-        ? "🎮 Jeux à jouer"
-        : "🎮 Jeux vidéo"
-    }}
+    {{ selectedView() === "gamelist" ? "🎮 Jeux à jouer" : "🎮 Jeux vidéo" }}
     ({{ filteredGames().length }})
   </h1>
 
@@ -20,6 +16,15 @@
       >
         Jeux terminés
       </button>
+      @if(platinedGames().length !== 0) {
+      <button
+        class="toggle-option"
+        [class.active]="selectedView() === 'platined'"
+        (click)="onViewChange('platined')"
+      >
+        Jeux platinés
+      </button>
+      }
       <button
         class="toggle-option"
         [class.active]="selectedView() === 'gamelist'"

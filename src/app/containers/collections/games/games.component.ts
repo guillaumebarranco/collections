@@ -84,7 +84,7 @@ export class GamesComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
 
   selectedSort = signal<string>('rating');
-  selectedView = signal<'played' | 'gamelist'>('played');
+  selectedView = signal<'played' | 'platined' | 'gamelist'>('played');
   searchTerm = signal<string>('');
 
   sortOptions = signal<SortOption[]>([
@@ -124,10 +124,12 @@ export class GamesComponent implements OnInit {
   });
 
   filteredGames = computed<Game[]>(() => {
-    const games =
-      this.selectedView() === 'gamelist'
-        ? this.allGamelistGames()
-        : this.allGames();
+    let games = this.allGames();
+    if (this.selectedView() === 'gamelist') {
+      games = this.allGamelistGames();
+    } else if (this.selectedView() === 'platined') {
+      games = this.allGames().filter((game) => game.platined);
+    }
 
     const term = this.searchTerm().trim().toLowerCase();
     if (!term) {
@@ -137,12 +139,20 @@ export class GamesComponent implements OnInit {
     return games.filter((game) => this.matchesSearch(game, term));
   });
 
+  platinedGames = computed<Game[]>(() => {
+    return this.allGames().filter((game) => game.platined);
+  });
+
   sortedGames = computed<Game[]>(() => {
     switch (this.selectedSort()) {
       case 'title':
-        return this.filteredGames().sort((a, b) => a.title.localeCompare(b.title));
+        return this.filteredGames().sort((a, b) =>
+          a.title.localeCompare(b.title)
+        );
       case 'title-desc':
-        return this.filteredGames().sort((a, b) => b.title.localeCompare(a.title));
+        return this.filteredGames().sort((a, b) =>
+          b.title.localeCompare(a.title)
+        );
       case 'platform':
         return this.filteredGames().sort((a, b) => {
           const platformCompare = a.platform.localeCompare(b.platform);
@@ -230,7 +240,9 @@ export class GamesComponent implements OnInit {
           return totalTimeA - totalTimeB;
         });
       default:
-        return this.filteredGames().sort((a, b) => a.title.localeCompare(b.title));
+        return this.filteredGames().sort((a, b) =>
+          a.title.localeCompare(b.title)
+        );
     }
   });
 
@@ -286,7 +298,7 @@ export class GamesComponent implements OnInit {
     this.selectedSort.set(sortValue);
   }
 
-  onViewChange(view: 'played' | 'gamelist') {
+  onViewChange(view: 'played' | 'platined' | 'gamelist') {
     this.selectedView.set(view);
   }
 
