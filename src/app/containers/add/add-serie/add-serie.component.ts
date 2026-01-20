@@ -17,10 +17,6 @@ type AddSerieEntityForm = {
   genre: string;
 };
 
-type AddSerieUserForm = {
-  stoppedAtSeason: number;
-};
-
 type AddSerieDialogData = {
   userId: string;
 };
@@ -55,10 +51,6 @@ export class AddSerieComponent {
     genre: '',
   });
 
-  userForm = signal<AddSerieUserForm>({
-    stoppedAtSeason: 0,
-  });
-
   close() {
     this.dialogRef.close();
   }
@@ -85,24 +77,6 @@ export class AddSerieComponent {
     });
   }
 
-  updateUserField<K extends keyof AddSerieUserForm>(
-    field: K,
-    value: string | number
-  ) {
-    const current = this.userForm();
-    let nextValue: AddSerieUserForm[K] = value as AddSerieUserForm[K];
-    if (field === 'stoppedAtSeason') {
-      const asNumber = Number(value);
-      nextValue = (
-        Number.isNaN(asNumber) ? 0 : asNumber
-      ) as AddSerieUserForm[K];
-    }
-    this.userForm.set({
-      ...current,
-      [field]: nextValue,
-    });
-  }
-
   private getActorsList(): string[] {
     const raw = this.entityForm().actors || '';
     return raw
@@ -117,8 +91,6 @@ export class AddSerieComponent {
 
   async onSubmit() {
     const entity = this.entityForm();
-    const user = this.userForm();
-
     if (!entity.title || !entity.director) {
       this.errorMessage.set('Titre et créateur sont obligatoires.');
       return;
@@ -139,7 +111,7 @@ export class AddSerieComponent {
             ...entity,
             actors: this.getActorsList(),
           },
-          user,
+          user: {},
         }),
       });
 

@@ -42,18 +42,6 @@
   <br />
 
   <form *ngIf="serieForm()" class="edit-form" (ngSubmit)="onSubmit()">
-    <div class="form-row">
-      <label for="stoppedAtSeason">Saison d'arr&#234;t</label>
-      <input
-        id="stoppedAtSeason"
-        type="number"
-        min="0"
-        [ngModel]="serieForm()?.stoppedAtSeason"
-        (ngModelChange)="updateField('stoppedAtSeason', $event)"
-        name="stoppedAtSeason"
-      />
-    </div>
-
     @if (serieForm()?.seasons?.length) {
     <div class="form-row">
       <label>Notes et visionnages par saison</label>

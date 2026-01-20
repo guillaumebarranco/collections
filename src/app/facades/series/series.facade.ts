@@ -1,4 +1,9 @@
-import { Serie, BaseSerie, UserSerie, UserSerieSeason } from '../../models/serie-model';
+import {
+  Serie,
+  BaseSerie,
+  UserSerie,
+  UserSerieSeason,
+} from '../../models/serie-model';
 
 import {
   allBaseSeries,
@@ -64,7 +69,6 @@ async function getAllSeriesData(series: UserSerie[]): Promise<Serie[]> {
     return {
       title: serie.title,
       director: serie.director,
-      stoppedAtSeason: serie.stoppedAtSeason || 0,
       seasons,
       actors: definitiveMatchingSerie?.actors || [],
       coverUrl: definitiveMatchingSerie?.coverUrl || '',

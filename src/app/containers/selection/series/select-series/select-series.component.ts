@@ -110,14 +110,14 @@ export class SelectSeriesComponent
     const baseSeries = await getAllBaseSeries();
     return baseSeries.map((serie) => ({
       ...serie,
-      stoppedAtSeason: 0,
       seasons: Array.from(
         { length: serie.seasonsData?.length ?? serie.nbSeasons ?? 0 },
         (_, index) => ({
-        seasonNumber: index + 1,
-        seasonRating: 0,
-        seasonTimesWatched: 0,
-      }))
+          seasonNumber: index + 1,
+          seasonRating: 0,
+          seasonTimesWatched: 0,
+        })
+      ),
     }));
   }
 

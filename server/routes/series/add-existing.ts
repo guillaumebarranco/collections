@@ -74,7 +74,6 @@ function formatUserSerie(serie: any) {
   return `  {
     title: '${escapeString(serie.title)}',
     director: '${escapeString(serie.director)}',
-    stoppedAtSeason: 0,
 ${formatSeasons(seasons)}
   },`;
 }
@@ -84,7 +83,6 @@ function formatWatchlistSerie(serie: any) {
   return `  {
     title: '${escapeString(serie.title)}',
     director: '${escapeString(serie.director)}',
-    stoppedAtSeason: 0,
 ${formatSeasons(seasons)}
   },`;
 }

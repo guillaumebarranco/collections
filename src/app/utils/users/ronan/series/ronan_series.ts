@@ -1,5 +1,6 @@
 import { UserSerie } from '../../../../models/serie-model';
-export const ronanSeries: UserSerie[] = [
+
+const rawRonanSeries = [
     {
         title: 'Black Mirror',
         director: 'Charlie Brooker',
@@ -2512,3 +2513,7 @@ export const ronanSeries: UserSerie[] = [
         ]
     },
 ];
+
+export const ronanSeries: UserSerie[] = rawRonanSeries.map(
+  ({ stoppedAtSeason, ...serie }) => serie
+);

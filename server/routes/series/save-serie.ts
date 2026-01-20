@@ -29,7 +29,6 @@ router.post('/', (req: any, res: any) => {
     const payload = {
       title,
       director,
-      stoppedAtSeason: normalizeNumber(input.stoppedAtSeason, 'stoppedAtSeason'),
       seasons: Array.isArray(input.seasons) ? input.seasons : undefined,
     };
 
@@ -67,7 +66,6 @@ router.post('/', (req: any, res: any) => {
         file: updatedFile,
         title: payload.title,
         director: payload.director,
-        stoppedAtSeason: payload.stoppedAtSeason,
       })
     );
   } catch (error: any) {

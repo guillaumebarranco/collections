@@ -14,7 +14,6 @@ import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
 
 type EditSerieForm = {
-  stoppedAtSeason: number;
   seasons: UserSerieSeason[];
 };
 
@@ -67,22 +66,6 @@ export class EditSerieComponent {
     });
   }
 
-  updateField<K extends keyof EditSerieForm>(field: K, value: string | number) {
-    const current = this.serieForm();
-    if (!current) return;
-
-    let nextValue: EditSerieForm[K] = value as EditSerieForm[K];
-    if (field === 'stoppedAtSeason') {
-      const asNumber = Number(value);
-      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditSerieForm[K];
-    }
-
-    this.serieForm.set({
-      ...current,
-      [field]: nextValue,
-    });
-  }
-
   async onSubmit() {
     const form = this.serieForm();
     const serie = this.serie();
@@ -100,7 +83,6 @@ export class EditSerieComponent {
           userId,
           title: serie.title,
           director: serie.director,
-          stoppedAtSeason: form.stoppedAtSeason,
           seasons: form.seasons,
         }),
       });
@@ -170,7 +152,6 @@ export class EditSerieComponent {
 
   private toForm(serie: Serie): EditSerieForm {
     return {
-      stoppedAtSeason: serie.stoppedAtSeason || 0,
       seasons: this.buildSeasons(serie),
     };
   }

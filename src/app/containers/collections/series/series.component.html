@@ -3,9 +3,7 @@
 <div class="series-container">
   <h1>
     {{
-      selectedView() === "stopped"
-        ? "S&#233;ries stopp&#233;es"
-        : selectedView() === "watchlist"
+      selectedView() === "watchlist"
         ? "S&#233;ries &#224; voir"
         : "S&#233;ries finies"
     }}
@@ -21,13 +19,6 @@
         (click)="onViewChange('finished')"
       >
         S&#233;ries finies
-      </button>
-      <button
-        class="toggle-option"
-        [class.active]="selectedView() === 'stopped'"
-        (click)="onViewChange('stopped')"
-      >
-        S&#233;ries stopp&#233;es
       </button>
       <button
         class="toggle-option"

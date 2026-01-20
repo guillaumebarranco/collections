@@ -124,22 +124,6 @@
       </div>
     </section>
 
-    <section class="form-section">
-      <h2>Informations utilisateur</h2>
-
-      <div class="form-row">
-        <label for="stoppedAtSeason">Saison d'arrêt</label>
-        <input
-          id="stoppedAtSeason"
-          type="number"
-          min="0"
-          [ngModel]="userForm().stoppedAtSeason"
-          (ngModelChange)="updateUserField('stoppedAtSeason', $event)"
-          name="stoppedAtSeason"
-        />
-      </div>
-    </section>
-
     @if(errorMessage()) {
     <p class="error-message">{{ errorMessage() }}</p>
     }

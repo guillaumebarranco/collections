@@ -13,11 +13,8 @@ import {
   StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
 import { Serie } from '../../../models/serie-model';
+import { formatTimeStats } from '../../../utils/stats.utils';
 import {
-  formatTimeStats,
-} from '../../../utils/stats.utils';
-import {
-  getSerieLengthUntilSeason,
   getSerieAverageRating,
   getSerieTotalEpisodes,
   getSerieTotalLengthMinutes,
@@ -31,7 +28,7 @@ import {
   getAllWatchlistSeries,
 } from '../../../facades/series/series.facade';
 
-type SerieView = 'finished' | 'stopped' | 'watchlist';
+type SerieView = 'finished' | 'watchlist';
 
 @Component({
   selector: 'app-series',
@@ -92,17 +89,10 @@ export class SeriesComponent implements OnInit {
 
   filteredSeries = computed<Serie[]>(() => {
     let series: Serie[] = [];
-    if (this.selectedView() === 'stopped') {
-      series = this.allSeries().filter(
-        (serie) => serie.stoppedAtSeason && serie.stoppedAtSeason > 0
-      );
-    } else if (this.selectedView() === 'watchlist') {
+    if (this.selectedView() === 'watchlist') {
       series = this.allWatchlistSeries();
     } else {
-      // 'finished' - séries avec stoppedAtSeason === 0 ou non défini
-      series = this.allSeries().filter(
-        (serie) => !serie.stoppedAtSeason || serie.stoppedAtSeason === 0
-      );
+      series = this.allSeries();
     }
 
     const term = this.searchTerm().trim().toLowerCase();
@@ -189,12 +179,10 @@ export class SeriesComponent implements OnInit {
     }
   });
 
-
   stats = computed<StatItem[]>(() => {
     const seriesToUse = this.filteredSeries();
     const totalDurationMinutes = seriesToUse.reduce(
-      (sum, serie) =>
-        sum + getSerieLengthUntilSeason(serie, serie.stoppedAtSeason),
+      (sum, serie) => sum + getSerieTotalLengthMinutes(serie),
       0
     );
     const totalWatchingMinutes = seriesToUse.reduce(
@@ -250,7 +238,6 @@ export class SeriesComponent implements OnInit {
   onSearchChange(value: string) {
     this.searchTerm.set(value);
   }
-
 
   getSelectSeriesRoute(): string {
     const params: Params = this.activatedRoute.snapshot.params;

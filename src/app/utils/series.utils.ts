@@ -27,31 +27,6 @@ export function getSerieTotalLengthMinutes(serie: Serie): number {
   return Math.max(0, Number(serie.totalLength) || 0);
 }
 
-export function getSerieLengthUntilSeason(
-  serie: Serie,
-  stoppedAtSeason?: number
-): number {
-  const totalLength = getSerieTotalLengthMinutes(serie);
-  const stop = Number(stoppedAtSeason) || 0;
-  if (!stop || stop <= 0) {
-    return totalLength;
-  }
-
-  if (serie.seasonsData && serie.seasonsData.length > 0) {
-    return serie.seasonsData
-      .filter((season) => season.seasonNumber <= stop)
-      .reduce((sum, season) => sum + (season.totalLength || 0), 0);
-  }
-
-  const totalSeasons = Math.max(0, Number(serie.nbSeasons) || 0);
-  if (totalSeasons > 0) {
-    const boundedStop = Math.min(stop, totalSeasons);
-    return (boundedStop / totalSeasons) * totalLength;
-  }
-
-  return totalLength;
-}
-
 export function getSerieWatchedLengthMinutes(serie: Serie): number {
   if (
     serie.seasonsData &&
@@ -78,11 +53,8 @@ export function getSerieWatchedLengthMinutes(serie: Serie): number {
     }
   }
 
-  const effectiveLength = getSerieLengthUntilSeason(
-    serie,
-    serie.stoppedAtSeason
-  );
-  return effectiveLength * getSerieTotalTimesWatched(serie);
+  const totalLength = getSerieTotalLengthMinutes(serie);
+  return totalLength * getSerieTotalTimesWatched(serie);
 }
 
 export function getSerieTotalTimesWatched(serie: Serie): number {
@@ -97,9 +69,7 @@ export function getSerieTotalTimesWatched(serie: Serie): number {
 
 export function getSerieAverageRating(serie: Serie): number {
   if (serie.seasons && serie.seasons.length > 0) {
-    const ratings = serie.seasons.map(
-      (season) => season.seasonRating || 0
-    );
+    const ratings = serie.seasons.map((season) => season.seasonRating || 0);
     const hasAnyRating = ratings.some((rating) => rating > 0);
     if (!hasAnyRating) return 0;
     const total = ratings.reduce((sum, rating) => sum + rating, 0);

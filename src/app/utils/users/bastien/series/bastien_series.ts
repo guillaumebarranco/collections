@@ -1,5 +1,6 @@
 import { UserSerie } from '../../../../models/serie-model';
-export const bastienSeries: UserSerie[] = [
+
+const rawBastienSeries = [
   {
     title: 'Avatar: The Last Airbender',
     director: 'Michael Dante DiMartino, Bryan Konietzko',
@@ -991,3 +992,7 @@ export const bastienSeries: UserSerie[] = [
     ],
   },
 ];
+
+export const bastienSeries: UserSerie[] = rawBastienSeries.map(
+  ({ stoppedAtSeason, ...serie }) => serie
+);
