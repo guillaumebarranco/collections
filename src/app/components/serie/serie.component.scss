@@ -57,24 +57,52 @@
 .serie-seasons-details {
   margin-top: 8px;
   display: flex;
-  flex-direction: column;
-  gap: 6px;
+  flex-wrap: wrap;
+  gap: 4px;
 }
 
 .serie-season-row {
   display: flex;
   flex-direction: column;
-  gap: 2px;
-  padding: 6px 8px;
-  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  gap: 6px;
+  border-radius: 6px;
   background: rgba(0, 0, 0, 0.04);
+  max-width: 32%;
+  padding: 4px 6px;
+
 }
 
 .serie-season-title {
   font-weight: 600;
+  font-size: 0.85rem;
 }
 
-.serie-season-value {
+.serie-season-stars {
+  display: flex;
+  align-items: center;
   font-size: 0.85rem;
+}
+
+.serie-season-stars .stars {
+  gap: 1px;
+}
+
+.serie-season-stars .star {
+  font-size: 0.85em;
+}
+
+.serie-season-views {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.8rem;
   color: #555;
+}
+
+.serie-season-eye {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
 }

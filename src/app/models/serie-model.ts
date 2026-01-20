@@ -18,6 +18,13 @@ export interface BaseSerie extends MandatorySerieData {
   nbEpisodesTotal: number;
   nbSeasons: number;
   totalLength: number;
+  seasonsData: BaseSerieSeasonData[];
+}
+
+export interface BaseSerieSeasonData {
+  seasonNumber: number;
+  nbEpisodes: number;
+  totalLength: number;
 }
 
 export interface UserSerieSeason {

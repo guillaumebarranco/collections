@@ -23,6 +23,7 @@ import {
   MINUTES_PER_MANWHA_CHAPTER,
   MINUTES_PER_PAGE,
 } from '../../utils/stats.utils';
+import { getSerieWatchedLengthMinutes } from '../../utils/series.utils';
 import {
   getAllMovies,
   getAllWatchlistMovies,
@@ -346,12 +347,12 @@ export class DashboardComponent implements OnInit {
     return this.allSeries()
       .filter((serie) => serie.timesWatched > 1)
       .map((serie) => {
-        const effectiveLength = this.getEffectiveSerieLength(serie);
+        const watchedMinutes = getSerieWatchedLengthMinutes(serie);
         return {
           ...serie,
-          totalWatchingTime: (effectiveLength / 60) * serie.timesWatched, // Convertir minutes en heures
+          totalWatchingTime: watchedMinutes / 60, // minutes -> heures
           formattedWatchingTime: this.formatTime(
-            (effectiveLength / 60) * serie.timesWatched
+            watchedMinutes / 60
           ),
         };
       })
@@ -423,8 +424,7 @@ export class DashboardComponent implements OnInit {
         0
       ) +
       this.allSeries().reduce((sum, serie) => {
-        const effectiveLength = this.getEffectiveSerieLength(serie);
-        return sum + (effectiveLength / 60) * serie.timesWatched;
+        return sum + getSerieWatchedLengthMinutes(serie) / 60;
       }, 0);
 
     const gamesTotalTime = this.allGames().reduce(
@@ -550,19 +550,6 @@ export class DashboardComponent implements OnInit {
       return `${days.toFixed(1)}j`;
     }
     return `${hours.toFixed(1)}h`;
-  }
-
-  private getEffectiveSerieLength(serie: Serie): number {
-    // Si stoppedAtSeason est 0, on utilise la longueur totale
-    if (!serie.stoppedAtSeason || serie.stoppedAtSeason === 0) {
-      return serie.totalLength;
-    }
-    // Sinon, on calcule proportionnellement : (stoppedAtSeason / nbSeasons) * totalLength
-    if (serie.nbSeasons > 0) {
-      return (serie.stoppedAtSeason / serie.nbSeasons) * serie.totalLength;
-    }
-    // Fallback si nbSeasons est 0 ou invalide
-    return serie.totalLength;
   }
 
   onInput(event: Event): void {

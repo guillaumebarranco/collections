@@ -54,10 +54,11 @@ async function getAllSeriesData(series: UserSerie[]): Promise<Serie[]> {
             return baseSerie.director === serie.director;
           })[0];
 
-    const seasons = buildSeasons(
-      definitiveMatchingSerie?.nbSeasons || 0,
-      serie.seasons
-    );
+    const seasonsCount =
+      definitiveMatchingSerie?.seasonsData?.length ??
+      definitiveMatchingSerie?.nbSeasons ??
+      0;
+    const seasons = buildSeasons(seasonsCount, serie.seasons);
 
     return {
       title: serie.title,
@@ -74,6 +75,7 @@ async function getAllSeriesData(series: UserSerie[]): Promise<Serie[]> {
       nbSeasons: definitiveMatchingSerie?.nbSeasons || 0,
       totalLength: definitiveMatchingSerie?.totalLength || 0,
       genre: definitiveMatchingSerie?.genre || '',
+      seasonsData: definitiveMatchingSerie.seasonsData,
     };
   });
 }

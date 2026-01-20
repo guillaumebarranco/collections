@@ -104,7 +104,9 @@ export class EditSerieSeasonsComponent {
     if (serie?.seasons && serie.seasons.length > 0) {
       return serie.seasons;
     }
-    const total = Math.max(0, Number(serie?.nbSeasons) || 0);
+    const total =
+      serie?.seasonsData?.length ??
+      Math.max(0, Number(serie?.nbSeasons) || 0);
     return Array.from({ length: total }, (_, index) => ({
       seasonNumber: index + 1,
       seasonRating: 0,

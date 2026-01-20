@@ -14,9 +14,15 @@ import {
 } from '../../../components/stats-display/stats-display.component';
 import { Serie } from '../../../models/serie-model';
 import {
-  getTotalWatchingTime,
-  getTotalDuration,
+  formatTimeStats,
 } from '../../../utils/stats.utils';
+import {
+  getSerieLengthUntilSeason,
+  getSerieTotalEpisodes,
+  getSerieTotalLengthMinutes,
+  getSerieSeasonsCount,
+  getSerieWatchedLengthMinutes,
+} from '../../../utils/series.utils';
 import { ActivatedRoute, Params, RouterLink } from '@angular/router';
 import {
   getAllSeries,
@@ -143,20 +149,30 @@ export class SeriesComponent implements OnInit {
       case 'timesWatched-asc':
         return seriesToSort.sort((a, b) => a.timesWatched - b.timesWatched);
       case 'totalLength':
-        return seriesToSort.sort((a, b) => b.totalLength - a.totalLength);
+        return seriesToSort.sort(
+          (a, b) =>
+            getSerieTotalLengthMinutes(b) - getSerieTotalLengthMinutes(a)
+        );
       case 'totalLength-asc':
-        return seriesToSort.sort((a, b) => a.totalLength - b.totalLength);
+        return seriesToSort.sort(
+          (a, b) =>
+            getSerieTotalLengthMinutes(a) - getSerieTotalLengthMinutes(b)
+        );
       case 'nbSeasons':
-        return seriesToSort.sort((a, b) => b.nbSeasons - a.nbSeasons);
+        return seriesToSort.sort(
+          (a, b) => getSerieSeasonsCount(b) - getSerieSeasonsCount(a)
+        );
       case 'nbSeasons-asc':
-        return seriesToSort.sort((a, b) => a.nbSeasons - b.nbSeasons);
+        return seriesToSort.sort(
+          (a, b) => getSerieSeasonsCount(a) - getSerieSeasonsCount(b)
+        );
       case 'nbEpisodesTotal':
         return seriesToSort.sort(
-          (a, b) => b.nbEpisodesTotal - a.nbEpisodesTotal
+          (a, b) => getSerieTotalEpisodes(b) - getSerieTotalEpisodes(a)
         );
       case 'nbEpisodesTotal-asc':
         return seriesToSort.sort(
-          (a, b) => a.nbEpisodesTotal - b.nbEpisodesTotal
+          (a, b) => getSerieTotalEpisodes(a) - getSerieTotalEpisodes(b)
         );
       default:
         return seriesToSort.sort((a, b) => a.title.localeCompare(b.title));
@@ -165,14 +181,18 @@ export class SeriesComponent implements OnInit {
 
 
   stats = computed<StatItem[]>(() => {
-    // Utiliser les séries filtrées pour les stats avec longueur effective
     const seriesToUse = this.filteredSeries();
-    const seriesWithEffectiveLength = seriesToUse.map((serie) => ({
-      ...serie,
-      totalLength: Math.round(this.getEffectiveSerieLength(serie)),
-    }));
-    const totalDuration = getTotalDuration(seriesWithEffectiveLength);
-    const totalWatchingTime = getTotalWatchingTime(seriesWithEffectiveLength);
+    const totalDurationMinutes = seriesToUse.reduce(
+      (sum, serie) =>
+        sum + getSerieLengthUntilSeason(serie, serie.stoppedAtSeason),
+      0
+    );
+    const totalWatchingMinutes = seriesToUse.reduce(
+      (sum, serie) => sum + getSerieWatchedLengthMinutes(serie),
+      0
+    );
+    const totalDuration = formatTimeStats(totalDurationMinutes);
+    const totalWatchingTime = formatTimeStats(totalWatchingMinutes);
 
     return [
       {
@@ -189,19 +209,6 @@ export class SeriesComponent implements OnInit {
       },
     ];
   });
-
-  private getEffectiveSerieLength(serie: Serie): number {
-    // Si stoppedAtSeason est 0, on utilise la longueur totale
-    if (!serie.stoppedAtSeason || serie.stoppedAtSeason === 0) {
-      return serie.totalLength;
-    }
-    // Sinon, on calcule proportionnellement : (stoppedAtSeason / nbSeasons) * totalLength
-    if (serie.nbSeasons > 0) {
-      return (serie.stoppedAtSeason / serie.nbSeasons) * serie.totalLength;
-    }
-    // Fallback si nbSeasons est 0 ou invalide
-    return serie.totalLength;
-  }
 
   ngOnInit() {
     void this.refreshSeries();

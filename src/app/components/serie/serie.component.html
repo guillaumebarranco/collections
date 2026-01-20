@@ -31,18 +31,6 @@
       Avec {{ serie.actors[0].name
       }}{{ serie.actors.length > 1 ? ", " + serie.actors[1].name : "" }}
     </p>
-    } @if (serie.nbSeasons > 0) {
-    <p class="serie-seasons">
-      {{ serie.nbSeasons }} saison{{ serie.nbSeasons > 1 ? "s" : "" }}
-    </p>
-    } @if (serie.nbEpisodesTotal > 0) {
-    <p class="serie-episodes">
-      {{ serie.nbEpisodesTotal }} épisode{{
-        serie.nbEpisodesTotal > 1 ? "s" : ""
-      }}
-    </p>
-    } @if (serie.totalLength > 0) {
-    <p class="serie-length">{{ serie.totalLength }} min</p>
     }
     <p class="serie-release-date">{{ serie.releaseDate | date : "yyyy" }}</p>
     @if (serie.endDate) {
@@ -63,22 +51,34 @@
       </span>
       <span class="rating-text">{{ serie.rating }}/5</span>
     </div>
-    @if (serie.nbSeasons > 0) {
-    <button class="serie-seasons-toggle" type="button" (click)="toggleSeasonsInline()">
-      {{ seasonsExpanded() ? "Masquer les saisons" : "Dérouler les saisons" }}
-    </button>
-    } @if (seasonsExpanded()) {
+
     <div class="serie-seasons-details">
       @for (season of getSerieSeasons(); track season.seasonNumber) {
       <div class="serie-season-row">
         <span class="serie-season-title">Saison {{ season.seasonNumber }}</span>
-        <span class="serie-season-value">Note : {{ season.seasonRating }}/5</span>
-        <span class="serie-season-value"
-          >Visionnages : {{ season.seasonTimesWatched }}</span
-        >
+        <span class="serie-season-stars">
+          <span class="stars">
+            <span
+              *ngFor="let star of getRatingStars(season.seasonRating || 0)"
+              [class]="'star star-' + star.type"
+            ></span>
+          </span>
+        </span>
+        <span class="serie-season-views">
+          <svg
+            class="serie-season-eye"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path
+              d="M12 5c5.05 0 9.27 3.11 11 7-1.73 3.89-5.95 7-11 7s-9.27-3.11-11-7c1.73-3.89 5.95-7 11-7zm0 2c-3.84 0-7.23 2.19-8.83 5 1.6 2.81 4.99 5 8.83 5s7.23-2.19 8.83-5c-1.6-2.81-4.99-5-8.83-5zm0 2.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5z"
+            />
+          </svg>
+          {{ season.seasonTimesWatched }}
+        </span>
       </div>
       }
     </div>
-    }
   </div>
 </app-entity-card>
