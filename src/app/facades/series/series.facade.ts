@@ -57,6 +57,7 @@ async function getAllSeriesData(series: UserSerie[]): Promise<Serie[]> {
     const seasonsCount =
       definitiveMatchingSerie?.seasonsData?.length ??
       definitiveMatchingSerie?.nbSeasons ??
+      serie.seasons?.length ??
       0;
     const seasons = buildSeasons(seasonsCount, serie.seasons);
 
@@ -73,7 +74,7 @@ async function getAllSeriesData(series: UserSerie[]): Promise<Serie[]> {
       nbSeasons: definitiveMatchingSerie?.nbSeasons || 0,
       totalLength: definitiveMatchingSerie?.totalLength || 0,
       genre: definitiveMatchingSerie?.genre || '',
-      seasonsData: definitiveMatchingSerie.seasonsData,
+      seasonsData: definitiveMatchingSerie?.seasonsData || [],
     };
   });
 }
