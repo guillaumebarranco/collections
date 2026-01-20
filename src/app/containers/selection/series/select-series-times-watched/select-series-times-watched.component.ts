@@ -29,8 +29,8 @@ export class SelectSeriesTimesWatchedComponent
     return this.seriesList();
   });
 
-  // Map pour stocker les timesWatched mis Ã  jour (clÃ©: title-director, valeur: timesWatched)
-  seriesTimesWatched = signal<Map<string, number>>(new Map());
+  // Map pour stocker les saisons mises Ã  jour (clÃ©: title-director)
+  seriesSeasons = signal<Map<string, Serie['seasons']>>(new Map());
 
   // Valeurs possibles pour timesWatched
   readonly timesWatchedOptions = [1, 2, 3, 5, 10, 15, 20, 25, 30, 40, 50];
@@ -52,14 +52,16 @@ export class SelectSeriesTimesWatchedComponent
     }));
   }
 
+  getEditableSeasons(serie: Serie) {
+    const key = this.getSerieKey(serie);
+    return this.seriesSeasons().get(key) ?? this.getSerieSeasons(serie);
+  }
+
   // Obtenir le timesWatched actuel d'une sÃ©rie (depuis la map ou depuis les saisons)
   getTimesWatched(serie: Serie): number {
     const key = this.getSerieKey(serie);
-    const updatedValue = this.seriesTimesWatched().get(key);
-    if (updatedValue !== undefined) {
-      return updatedValue;
-    }
-    const seasons = this.getSerieSeasons(serie);
+    const updatedValue = this.seriesSeasons().get(key);
+    const seasons = updatedValue ?? this.getSerieSeasons(serie);
     if (seasons.length === 0) return 0;
     const total = seasons.reduce(
       (sum, season) => sum + (season.seasonTimesWatched || 0),
@@ -68,37 +70,44 @@ export class SelectSeriesTimesWatchedComponent
     return total > 0 ? total / seasons.length : 0;
   }
 
-  // Mettre Ã  jour le timesWatched d'une sÃ©rie
-  updateTimesWatched(serie: Serie, timesWatched: number): void {
+  getSeasonTimesWatched(serie: Serie, seasonNumber: number): number {
+    const seasons = this.getEditableSeasons(serie);
+    return (
+      seasons.find((season) => season.seasonNumber === seasonNumber)
+        ?.seasonTimesWatched ?? 0
+    );
+  }
+
+  // Mettre Ã  jour le timesWatched d'une saison
+  updateSeasonTimesWatched(
+    serie: Serie,
+    seasonNumber: number,
+    timesWatched: number
+  ): void {
     const key = this.getSerieKey(serie);
-    const updated = new Map(this.seriesTimesWatched());
-    updated.set(key, timesWatched);
-    this.seriesTimesWatched.set(updated);
+    const seasons = this.getEditableSeasons(serie).map((season) =>
+      season.seasonNumber === seasonNumber
+        ? { ...season, seasonTimesWatched: timesWatched }
+        : season
+    );
+    const updated = new Map(this.seriesSeasons());
+    updated.set(key, seasons);
+    this.seriesSeasons.set(updated);
   }
 
   // Compter le nombre de sÃ©ries modifiÃ©es
   modifiedCount = computed(() => {
-    return this.allSeries().filter((serie) => {
-      const key = this.getSerieKey(serie);
-      return this.seriesTimesWatched().has(key);
-    }).length;
+    return this.seriesSeasons().size;
   });
 
   async saveSeriesTimesWatched(): Promise<void> {
     if (this.isSaving()) return;
 
-    const seriesToUpdate = this.allSeries().map((serie) => {
-      const timesWatched = this.getTimesWatched(serie);
-      const seasons = this.getSerieSeasons(serie).map((season) => ({
-        ...season,
-        seasonTimesWatched: timesWatched,
-      }));
-      return {
-        title: serie.title,
-        director: serie.director,
-        seasons,
-      };
-    });
+    const seriesToUpdate = this.allSeries().map((serie) => ({
+      title: serie.title,
+      director: serie.director,
+      seasons: this.getEditableSeasons(serie),
+    }));
 
     if (seriesToUpdate.length === 0) {
       alert('Aucune série à mettre à jour !');

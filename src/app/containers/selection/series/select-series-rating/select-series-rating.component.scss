@@ -13,75 +13,7 @@
 
   .serie-info {
     @extend %select-item-info;
-    margin-bottom: 1rem;
-
-    .current-rating {
-      margin-top: 0.5rem;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 0.5rem;
-
-      .rating-label {
-        font-size: 0.7rem;
-        color: #aaa;
-      }
-
-      .stars-display {
-        display: flex;
-        align-items: center;
-        gap: 0.15rem;
-
-        .star {
-          font-size: 1rem;
-          position: relative;
-          width: 1em;
-          height: 1em;
-          line-height: 1;
-
-          &.star-full::before {
-            content: '★';
-            position: absolute;
-            left: 0;
-            top: 0;
-            color: #ffd700;
-          }
-
-          &.star-empty::before {
-            content: '☆';
-            position: absolute;
-            left: 0;
-            top: 0;
-            color: rgba(255, 255, 255, 0.3);
-          }
-
-          &.star-half::before {
-            content: '☆';
-            position: absolute;
-            left: 0;
-            top: 0;
-            color: rgba(255, 255, 255, 0.3);
-          }
-
-          &.star-half::after {
-            content: '★';
-            position: absolute;
-            left: 0;
-            top: 0;
-            color: #ffd700;
-            overflow: hidden;
-            clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
-          }
-        }
-
-        .rating-value {
-          margin-left: 0.5rem;
-          font-size: 0.85rem;
-          font-weight: bold;
-          color: white;
-        }
-      }
-    }
+    margin-bottom: 0.75rem;
   }
 
   .toolbar {
@@ -110,32 +42,58 @@
     @extend %select-item;
 
     .overlay {
-      .rating-buttons {
+      .season-list {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        max-height: 65%;
+        overflow: auto;
+        padding-right: 0.25rem;
+      }
+
+      .season-row {
+        display: flex;
+        flex-direction: column;
+        gap: 0.35rem;
+        background: rgba(0, 0, 0, 0.35);
+        border-radius: 6px;
+        padding: 0.4rem 0.5rem;
+      }
+
+      .season-label {
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: #fff;
+      }
+
+      .season-current {
+        font-size: 0.7rem;
+        color: #ddd;
+      }
+
+      .season-buttons {
         display: flex;
         flex-wrap: wrap;
         gap: 0.2rem;
         justify-content: center;
-        margin-top: 0.5rem;
-        max-width: 100%;
-        padding: 0 0.25rem;
 
-        .rating-btn {
-          padding: 0.35rem 0.5rem;
+        .season-btn {
+          padding: 0.3rem 0.45rem;
           border: 1.5px solid white;
           border-radius: 3px;
           background: rgba(255, 255, 255, 0.2);
           color: white;
           font-weight: bold;
-          font-size: 0.7rem;
+          font-size: 0.65rem;
           cursor: pointer;
           transition: all 0.2s ease;
-          min-width: 32px;
+          min-width: 30px;
           flex: 0 0 calc(33.333% - 0.35rem);
           max-width: calc(33.333% - 0.35rem);
 
           &:hover {
             background: rgba(255, 255, 255, 0.5);
-            transform: scale(1.1);
+            transform: scale(1.05);
             z-index: 20;
           }
 

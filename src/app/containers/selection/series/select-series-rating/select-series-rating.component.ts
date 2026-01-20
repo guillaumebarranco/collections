@@ -6,11 +6,6 @@ import { getSeriesByUser } from '../../../../facades/series/series.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { getApiBaseUrl } from '../../../../core/config';
 
-interface StarInfo {
-  type: 'full' | 'half' | 'empty';
-  value: number;
-}
-
 @Component({
   selector: 'app-select-series-rating',
   imports: [CommonModule, MenuComponent],
@@ -34,8 +29,8 @@ export class SelectSeriesRatingComponent
     return this.seriesList();
   });
 
-  // Map pour stocker les ratings mis Ã  jour (clÃ©: title-director, valeur: rating)
-  seriesRatings = signal<Map<string, number>>(new Map());
+  // Map pour stocker les saisons mises Ã  jour (clÃ©: title-director)
+  seriesSeasons = signal<Map<string, Serie['seasons']>>(new Map());
 
   // Valeurs possibles pour rating (0 Ã  5 avec incrÃ©ments de 0.5)
   readonly ratingOptions = [0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5];
@@ -57,69 +52,50 @@ export class SelectSeriesRatingComponent
     }));
   }
 
-  // Obtenir le rating actuel d'une sÃ©rie (depuis la map ou depuis les saisons)
-  getRating(serie: Serie): number {
+  getEditableSeasons(serie: Serie) {
     const key = this.getSerieKey(serie);
-    const updatedValue = this.seriesRatings().get(key);
-    if (updatedValue !== undefined) {
-      return updatedValue;
-    }
-    const seasons = this.getSerieSeasons(serie);
-    if (seasons.length === 0) return 0;
-    const total = seasons.reduce(
-      (sum, season) => sum + (season.seasonRating || 0),
-      0
-    );
-    return total > 0 ? total / seasons.length : 0;
+    return this.seriesSeasons().get(key) ?? this.getSerieSeasons(serie);
   }
 
-  // Mettre Ã  jour le rating d'une sÃ©rie
-  updateRating(serie: Serie, rating: number): void {
+  getSeasonRating(serie: Serie, seasonNumber: number): number {
+    const seasons = this.getEditableSeasons(serie);
+    return (
+      seasons.find((season) => season.seasonNumber === seasonNumber)
+        ?.seasonRating ?? 0
+    );
+  }
+
+  // Mettre Ã  jour le rating d'une saison
+  updateSeasonRating(
+    serie: Serie,
+    seasonNumber: number,
+    rating: number
+  ): void {
     const key = this.getSerieKey(serie);
-    const updated = new Map(this.seriesRatings());
-    updated.set(key, rating);
-    this.seriesRatings.set(updated);
+    const seasons = this.getEditableSeasons(serie).map((season) =>
+      season.seasonNumber === seasonNumber
+        ? { ...season, seasonRating: rating }
+        : season
+    );
+    const updated = new Map(this.seriesSeasons());
+    updated.set(key, seasons);
+    this.seriesSeasons.set(updated);
   }
 
   // Compter le nombre de sÃ©ries modifiÃ©es
   modifiedCount = computed(() => {
-    return this.allSeries().filter((serie) => {
-      const key = this.getSerieKey(serie);
-      return this.seriesRatings().has(key);
-    }).length;
+    return this.seriesSeasons().size;
   });
-
-  // Obtenir les Ã©toiles pour un rating (similaire au codebase)
-  getRatingStars(rating: number): StarInfo[] {
-    const stars: StarInfo[] = [];
-    for (let i = 1; i <= 5; i++) {
-      if (rating >= i) {
-        stars.push({ type: 'full', value: i });
-      } else if (rating >= i - 0.5) {
-        stars.push({ type: 'half', value: i });
-      } else {
-        stars.push({ type: 'empty', value: i });
-      }
-    }
-    return stars;
-  }
 
   // Exporter les sÃ©ries avec leur rating mis Ã  jour
   async saveSeriesRatings(): Promise<void> {
     if (this.isSaving()) return;
 
-    const seriesToUpdate = this.allSeries().map((serie) => {
-      const rating = this.getRating(serie);
-      const seasons = this.getSerieSeasons(serie).map((season) => ({
-        ...season,
-        seasonRating: rating,
-      }));
-      return {
-        title: serie.title,
-        director: serie.director,
-        seasons,
-      };
-    });
+    const seriesToUpdate = this.allSeries().map((serie) => ({
+      title: serie.title,
+      director: serie.director,
+      seasons: this.getEditableSeasons(serie),
+    }));
 
     if (seriesToUpdate.length === 0) {
       alert('Aucune série à mettre à jour !');

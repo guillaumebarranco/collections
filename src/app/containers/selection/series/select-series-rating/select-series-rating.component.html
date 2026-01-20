@@ -44,25 +44,32 @@
       <div class="overlay">
         <div class="serie-info">
           <span class="serie-title">{{ serie.title }}</span>
-          <div class="current-rating">
-            <div class="stars-display">
-              @for (star of getRatingStars(getRating(serie)); track star.value) {
-              <span [class]="'star star-' + star.type"></span>
+        </div>
+        <div class="season-list">
+          @for (season of getEditableSeasons(serie); track season.seasonNumber) {
+          <div class="season-row">
+            <div class="season-label">Saison {{ season.seasonNumber }}</div>
+            <div class="season-current">
+              Note : {{ getSeasonRating(serie, season.seasonNumber) }}
+            </div>
+            <div class="season-buttons">
+              @for (rating of ratingOptions; track rating) {
+              <button
+                class="season-btn"
+                [class.active]="
+                  getSeasonRating(serie, season.seasonNumber) === rating
+                "
+                (click)="
+                  updateSeasonRating(serie, season.seasonNumber, rating);
+                  $event.stopPropagation()
+                "
+                (mousedown)="$event.stopPropagation()"
+              >
+                {{ rating }}
+              </button>
               }
-              <span class="rating-value">{{ getRating(serie) }}</span>
             </div>
           </div>
-        </div>
-        <div class="rating-buttons">
-          @for (rating of ratingOptions; track rating) {
-          <button
-            class="rating-btn"
-            [class.active]="getRating(serie) === rating"
-            (click)="updateRating(serie, rating); $event.stopPropagation()"
-            (mousedown)="$event.stopPropagation()"
-          >
-            {{ rating }}
-          </button>
           }
         </div>
       </div>

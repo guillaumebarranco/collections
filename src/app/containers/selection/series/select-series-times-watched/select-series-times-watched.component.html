@@ -44,20 +44,34 @@
       <div class="overlay">
         <div class="serie-info">
           <span class="serie-title">{{ serie.title }}</span>
-          <span class="current-times-watched"
-            >Visionnages : {{ getTimesWatched(serie) }} fois</span
-          >
         </div>
-        <div class="times-watched-buttons">
-          @for (times of timesWatchedOptions; track times) {
-          <button
-            class="times-btn"
-            [class.active]="getTimesWatched(serie) === times"
-            (click)="updateTimesWatched(serie, times); $event.stopPropagation()"
-            (mousedown)="$event.stopPropagation()"
-          >
-            {{ times }}
-          </button>
+        <div class="season-list">
+          @for (season of getEditableSeasons(serie); track season.seasonNumber) {
+          <div class="season-row">
+            <div class="season-label">Saison {{ season.seasonNumber }}</div>
+            <div class="season-current">
+              Visionnages : {{
+                getSeasonTimesWatched(serie, season.seasonNumber)
+              }}
+            </div>
+            <div class="season-buttons">
+              @for (times of timesWatchedOptions; track times) {
+              <button
+                class="season-btn"
+                [class.active]="
+                  getSeasonTimesWatched(serie, season.seasonNumber) === times
+                "
+                (click)="
+                  updateSeasonTimesWatched(serie, season.seasonNumber, times);
+                  $event.stopPropagation()
+                "
+                (mousedown)="$event.stopPropagation()"
+              >
+                {{ times }}
+              </button>
+              }
+            </div>
+          </div>
           }
         </div>
       </div>
