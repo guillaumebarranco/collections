@@ -9,8 +9,8 @@
         Bonjour {{ username() }} 👋 <br /><br />
         Sur cette page, tu peux mettre à jour la note de chaque musique de ta
         collection. <br /><br />
-        Passe ta souris sur une musique pour voir les options de notes disponibles
-        et clique sur la note correspondante. <br /><br />
+        Passe ta souris sur une musique pour voir les options de notes
+        disponibles et clique sur la note correspondante. <br /><br />
         Une fois que tu as terminé, clique sur "Enregistrer mes notes" pour
         appliquer les changements.
       </p>
@@ -36,17 +36,18 @@
 
   <div class="musics-grid">
     @for (music of allMusics(); track `${music.title}-${music.artist}`) {
-    <div
-      class="music-poster"
-      [title]="music.title + ' - ' + music.artist"
-    >
-      <img [src]="music.coverUrl" [alt]="music.title" />
+    <div class="music-poster" [title]="music.title + ' - ' + music.artist">
+      <img
+        [src]="music.coverUrl || '/musics_pictures/default.jpg'"
+        [alt]="music.title"
+      />
       <div class="overlay">
         <div class="music-info">
           <span class="music-title">{{ music.title }}</span>
           <div class="current-rating">
             <div class="stars-display">
-              @for (star of getRatingStars(getRating(music)); track star.value) {
+              @for (star of getRatingStars(getRating(music)); track star.value)
+              {
               <span [class]="'star star-' + star.type"></span>
               }
               <span class="rating-value">{{ getRating(music) }}</span>

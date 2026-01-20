@@ -9,8 +9,8 @@
         Bonjour {{ username() }} 👋 <br /><br />
         Sur cette page, tu peux mettre à jour le nombre de fois que tu as écouté
         chaque musique de ta collection. <br /><br />
-        Passe ta souris sur une musique pour voir les options d'écoutes disponibles
-        et clique sur le nombre correspondant. <br /><br />
+        Passe ta souris sur une musique pour voir les options d'écoutes
+        disponibles et clique sur le nombre correspondant. <br /><br />
         Une fois que tu as terminé, clique sur "Enregistrer mes écoutes" pour
         appliquer les changements.
       </p>
@@ -37,7 +37,10 @@
   <div class="musics-grid">
     @for (music of allMusics(); track `${music.title}-${music.artist}`) {
     <div class="music-poster" [title]="music.title + ' - ' + music.artist">
-      <img [src]="music.coverUrl" [alt]="music.title" />
+      <img
+        [src]="music.coverUrl || '/musics_pictures/default.jpg'"
+        [alt]="music.title"
+      />
       <div class="overlay">
         <div class="music-info">
           <span class="music-title">{{ music.title }}</span>
@@ -50,7 +53,9 @@
           <button
             class="times-btn"
             [class.active]="getTimesListened(music) === times"
-            (click)="updateTimesListened(music, times); $event.stopPropagation()"
+            (click)="
+              updateTimesListened(music, times); $event.stopPropagation()
+            "
             (mousedown)="$event.stopPropagation()"
           >
             {{ times }}
