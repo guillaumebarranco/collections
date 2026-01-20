@@ -154,7 +154,7 @@ export const ronanGames: UserGame[] = [
     platined: true,
   },
   {
-    title: 'Marvel\'s Spider-Man',
+    title: "Marvel's Spider-Man",
     editor: 'Insomniac Games',
     rating: 4,
     timesFinished: 3,
@@ -162,7 +162,7 @@ export const ronanGames: UserGame[] = [
     platined: true,
   },
   {
-    title: 'Marvel\'s Spider-Man: Miles Morales',
+    title: "Marvel's Spider-Man: Miles Morales",
     editor: 'Insomniac Games',
     rating: 4,
     timesFinished: 3,
@@ -170,7 +170,7 @@ export const ronanGames: UserGame[] = [
     platined: true,
   },
   {
-    title: 'Marvel\'s Spider-Man 2',
+    title: "Marvel's Spider-Man 2",
     editor: 'Insomniac Games',
     rating: 4,
     timesFinished: 1,
@@ -298,7 +298,7 @@ export const ronanGames: UserGame[] = [
     platined: false,
   },
   {
-    title: 'Assassin\'s Creed II',
+    title: "Assassin's Creed II",
     editor: 'Ubisoft',
     rating: 4,
     timesFinished: 3,
@@ -306,7 +306,7 @@ export const ronanGames: UserGame[] = [
     platined: true,
   },
   {
-    title: 'Assassin\'s Creed : Brotherhood',
+    title: "Assassin's Creed : Brotherhood",
     editor: 'Ubisoft',
     rating: 4.5,
     timesFinished: 3,
@@ -314,7 +314,7 @@ export const ronanGames: UserGame[] = [
     platined: true,
   },
   {
-    title: 'Assassin\'s Creed : Revelations',
+    title: "Assassin's Creed : Revelations",
     editor: 'Ubisoft',
     rating: 3.5,
     timesFinished: 3,
@@ -322,7 +322,7 @@ export const ronanGames: UserGame[] = [
     platined: true,
   },
   {
-    title: 'Assassin\'s Creed III',
+    title: "Assassin's Creed III",
     editor: 'Ubisoft',
     rating: 3.5,
     timesFinished: 2,
@@ -330,7 +330,7 @@ export const ronanGames: UserGame[] = [
     platined: true,
   },
   {
-    title: 'Assassin\'s Creed Liberation Remastered',
+    title: "Assassin's Creed Liberation Remastered",
     editor: 'Ubisoft',
     rating: 3,
     timesFinished: 1,
@@ -338,7 +338,7 @@ export const ronanGames: UserGame[] = [
     platined: true,
   },
   {
-    title: 'Assassin\'s Creed III Remastered',
+    title: "Assassin's Creed III Remastered",
     editor: 'Ubisoft',
     rating: 4,
     timesFinished: 1,
@@ -346,7 +346,7 @@ export const ronanGames: UserGame[] = [
     platined: true,
   },
   {
-    title: 'Assassin\'s Creed IV : Black Flag',
+    title: "Assassin's Creed IV : Black Flag",
     editor: 'Ubisoft',
     rating: 3.5,
     timesFinished: 2,
@@ -354,7 +354,7 @@ export const ronanGames: UserGame[] = [
     platined: true,
   },
   {
-    title: 'Assassin\'s Creed Rogue',
+    title: "Assassin's Creed Rogue",
     editor: 'Ubisoft',
     rating: 3,
     timesFinished: 2,
@@ -362,7 +362,7 @@ export const ronanGames: UserGame[] = [
     platined: true,
   },
   {
-    title: 'Assassin\'s Creed Unity',
+    title: "Assassin's Creed Unity",
     editor: 'Ubisoft',
     rating: 3,
     timesFinished: 2,
@@ -370,7 +370,7 @@ export const ronanGames: UserGame[] = [
     platined: true,
   },
   {
-    title: 'Assassin\'s Creed Syndicate',
+    title: "Assassin's Creed Syndicate",
     editor: 'Ubisoft',
     rating: 3.5,
     timesFinished: 2,
@@ -378,7 +378,7 @@ export const ronanGames: UserGame[] = [
     platined: true,
   },
   {
-    title: 'Assassin\'s Creed Origins',
+    title: "Assassin's Creed Origins",
     editor: 'Ubisoft',
     rating: 3.5,
     timesFinished: 2,
@@ -386,7 +386,7 @@ export const ronanGames: UserGame[] = [
     platined: true,
   },
   {
-    title: 'Assassin\'s Creed Odyssey',
+    title: "Assassin's Creed Odyssey",
     editor: 'Ubisoft',
     rating: 3.5,
     timesFinished: 2,
@@ -394,7 +394,7 @@ export const ronanGames: UserGame[] = [
     platined: true,
   },
   {
-    title: 'Assassin\'s Creed Valhalla',
+    title: "Assassin's Creed Valhalla",
     editor: 'Ubisoft',
     rating: 2.5,
     timesFinished: 1,
@@ -402,7 +402,7 @@ export const ronanGames: UserGame[] = [
     platined: true,
   },
   {
-    title: 'Assassin\'s Creed Mirage',
+    title: "Assassin's Creed Mirage",
     editor: 'Ubisoft',
     rating: 2,
     timesFinished: 1,
@@ -410,7 +410,7 @@ export const ronanGames: UserGame[] = [
     platined: true,
   },
   {
-    title: 'Assassin\'s Creed Shadows',
+    title: "Assassin's Creed Shadows",
     editor: 'Ubisoft',
     rating: 2.5,
     timesFinished: 1,
@@ -418,7 +418,7 @@ export const ronanGames: UserGame[] = [
     platined: true,
   },
   {
-    title: 'Astro\'s Playroom',
+    title: "Astro's Playroom",
     editor: 'Sony Interactive Entertainment',
     rating: 3.5,
     timesFinished: 1,
@@ -610,7 +610,7 @@ export const ronanGames: UserGame[] = [
     platined: true,
   },
   {
-    title: 'Fist of the North Star : Ken\'s Rage',
+    title: "Fist of the North Star : Ken's Rage",
     editor: 'Koei Tecmo',
     rating: 3.5,
     timesFinished: 1,
@@ -738,7 +738,7 @@ export const ronanGames: UserGame[] = [
     platined: false,
   },
   {
-    title: 'La Terre du Milieu : L\'Ombre du Mordor',
+    title: "La Terre du Milieu : L'Ombre du Mordor",
     editor: 'Monolith Productions',
     rating: 3.5,
     timesFinished: 1,
@@ -746,7 +746,7 @@ export const ronanGames: UserGame[] = [
     platined: true,
   },
   {
-    title: 'La Terre du Milieu : L\'Ombre de la Guerre',
+    title: "La Terre du Milieu : L'Ombre de la Guerre",
     editor: 'Monolith Productions',
     rating: 3.5,
     timesFinished: 1,
@@ -778,7 +778,7 @@ export const ronanGames: UserGame[] = [
     platined: false,
   },
   {
-    title: 'Marvel\'s Guardians of the Galaxy',
+    title: "Marvel's Guardians of the Galaxy",
     editor: 'Eidos-Montréal',
     rating: 4,
     timesFinished: 1,
@@ -791,14 +791,6 @@ export const ronanGames: UserGame[] = [
     rating: 3.5,
     timesFinished: 1,
     additionnalEstimatedTime: 0,
-    platined: true,
-  },
-  {
-    title: 'Naruto Shippuden : Ultimate Ninja Storm 3',
-    editor: 'CyberConnect2',
-    rating: 4,
-    timesFinished: 1,
-    additionnalEstimatedTime: 20,
     platined: true,
   },
   {
@@ -882,7 +874,7 @@ export const ronanGames: UserGame[] = [
     platined: false,
   },
   {
-    title: 'Le Seigneur des Anneaux : La Quête d\'Aragorn',
+    title: "Le Seigneur des Anneaux : La Quête d'Aragorn",
     editor: 'Turbine',
     rating: 3,
     timesFinished: 1,
@@ -978,7 +970,7 @@ export const ronanGames: UserGame[] = [
     platined: false,
   },
   {
-    title: 'Tom Clancy\'s The Division',
+    title: "Tom Clancy's The Division",
     editor: 'Massive Entertainment',
     rating: 3,
     timesFinished: 1,
@@ -1002,7 +994,7 @@ export const ronanGames: UserGame[] = [
     platined: true,
   },
   {
-    title: 'Uncharted : Drake\'s Fortune',
+    title: "Uncharted : Drake's Fortune",
     editor: 'Naughty Dog',
     rating: 4.5,
     timesFinished: 2,
@@ -1026,7 +1018,7 @@ export const ronanGames: UserGame[] = [
     platined: false,
   },
   {
-    title: 'Uncharted 3 : L\'illusion de Drake',
+    title: "Uncharted 3 : L'illusion de Drake",
     editor: 'Naughty Dog',
     rating: 4,
     timesFinished: 1,
@@ -1034,7 +1026,7 @@ export const ronanGames: UserGame[] = [
     platined: false,
   },
   {
-    title: 'Uncharted 3 : L\'Illusion de Drake Remastered',
+    title: "Uncharted 3 : L'Illusion de Drake Remastered",
     editor: 'Naughty Dog',
     rating: 4,
     timesFinished: 1,
@@ -1042,7 +1034,7 @@ export const ronanGames: UserGame[] = [
     platined: false,
   },
   {
-    title: 'Uncharted 4 : A Thief\'s End',
+    title: "Uncharted 4 : A Thief's End",
     editor: 'Naughty Dog',
     rating: 5,
     timesFinished: 3,
@@ -1178,7 +1170,7 @@ export const ronanGames: UserGame[] = [
     platined: false,
   },
   {
-    title: 'Harry Potter à l\'école des sorciers',
+    title: "Harry Potter à l'école des sorciers",
     editor: 'Electronic Arts',
     rating: 3.5,
     timesFinished: 3,
@@ -1328,8 +1320,7 @@ export const ronanGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     platined: false,
-  }
-,
+  },
   {
     title: 'Dragon Quest IX : Les Sentinelles du Firmament',
     editor: 'Nintendo',
@@ -1376,7 +1367,7 @@ export const ronanGames: UserGame[] = [
   },
 
   {
-    title: 'Harry Potter et l\'Ordre du Phénix',
+    title: "Harry Potter et l'Ordre du Phénix",
     editor: 'Electronic Arts',
     rating: 2.5,
     timesFinished: 1,
@@ -1565,7 +1556,7 @@ export const ronanGames: UserGame[] = [
   },
 
   {
-    title: 'Pirates des Caraïbes: Jusqu\'au Bout du Monde',
+    title: "Pirates des Caraïbes: Jusqu'au Bout du Monde",
     editor: 'Disney',
     rating: 3.5,
     timesFinished: 3,
@@ -1619,7 +1610,7 @@ export const ronanGames: UserGame[] = [
   },
 
   {
-    title: 'Programme d\'entraînement cérébral du Dr Kawashima',
+    title: "Programme d'entraînement cérébral du Dr Kawashima",
     editor: 'Nintendo',
     rating: 3,
     timesFinished: 1,
