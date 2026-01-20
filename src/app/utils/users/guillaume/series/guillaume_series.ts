@@ -1139,12 +1139,12 @@ export const guillaumeSeries: UserSerie[] = [
     seasons: [
       {
         seasonNumber: 1,
-        seasonRating: 4,
+        seasonRating: 4.25,
         seasonTimesWatched: 3,
       },
       {
         seasonNumber: 2,
-        seasonRating: 4,
+        seasonRating: 4.5,
         seasonTimesWatched: 2,
       },
       {
@@ -1190,7 +1190,7 @@ export const guillaumeSeries: UserSerie[] = [
     seasons: [
       {
         seasonNumber: 1,
-        seasonRating: 3.5,
+        seasonRating: 4,
         seasonTimesWatched: 1,
       },
       {
@@ -1206,28 +1206,28 @@ export const guillaumeSeries: UserSerie[] = [
     seasons: [
       {
         seasonNumber: 1,
-        seasonRating: 3.75,
-        seasonTimesWatched: 1,
+        seasonRating: 4.25,
+        seasonTimesWatched: 2,
       },
       {
         seasonNumber: 2,
         seasonRating: 3.75,
-        seasonTimesWatched: 1,
+        seasonTimesWatched: 2,
       },
       {
         seasonNumber: 3,
-        seasonRating: 3.75,
+        seasonRating: 3.5,
         seasonTimesWatched: 1,
       },
       {
         seasonNumber: 4,
-        seasonRating: 3.75,
-        seasonTimesWatched: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
       },
       {
         seasonNumber: 5,
-        seasonRating: 3.75,
-        seasonTimesWatched: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
       },
     ],
   },
@@ -1237,28 +1237,28 @@ export const guillaumeSeries: UserSerie[] = [
     seasons: [
       {
         seasonNumber: 1,
-        seasonRating: 3.5,
+        seasonRating: 3.75,
         seasonTimesWatched: 1,
       },
       {
         seasonNumber: 2,
-        seasonRating: 3.5,
-        seasonTimesWatched: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
       },
       {
         seasonNumber: 3,
-        seasonRating: 3.5,
-        seasonTimesWatched: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
       },
       {
         seasonNumber: 4,
-        seasonRating: 3.5,
-        seasonTimesWatched: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
       },
       {
         seasonNumber: 5,
-        seasonRating: 3.5,
-        seasonTimesWatched: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
       },
     ],
   },
@@ -1268,12 +1268,12 @@ export const guillaumeSeries: UserSerie[] = [
     seasons: [
       {
         seasonNumber: 1,
-        seasonRating: 3.5,
-        seasonTimesWatched: 2,
+        seasonRating: 4.25,
+        seasonTimesWatched: 3,
       },
       {
         seasonNumber: 2,
-        seasonRating: 3.5,
+        seasonRating: 4,
         seasonTimesWatched: 2,
       },
       {
@@ -1289,12 +1289,12 @@ export const guillaumeSeries: UserSerie[] = [
       {
         seasonNumber: 5,
         seasonRating: 3.5,
-        seasonTimesWatched: 2,
+        seasonTimesWatched: 1,
       },
       {
         seasonNumber: 6,
         seasonRating: 3.5,
-        seasonTimesWatched: 2,
+        seasonTimesWatched: 1,
       },
     ],
   },
@@ -1304,7 +1304,7 @@ export const guillaumeSeries: UserSerie[] = [
     seasons: [
       {
         seasonNumber: 1,
-        seasonRating: 3.75,
+        seasonRating: 4,
         seasonTimesWatched: 1,
       },
       {
@@ -1330,28 +1330,28 @@ export const guillaumeSeries: UserSerie[] = [
       },
       {
         seasonNumber: 3,
-        seasonRating: 3.75,
-        seasonTimesWatched: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
       },
       {
         seasonNumber: 4,
-        seasonRating: 3.75,
-        seasonTimesWatched: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
       },
       {
         seasonNumber: 5,
-        seasonRating: 3.75,
-        seasonTimesWatched: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
       },
       {
         seasonNumber: 6,
-        seasonRating: 3.75,
-        seasonTimesWatched: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
       },
       {
         seasonNumber: 7,
-        seasonRating: 3.75,
-        seasonTimesWatched: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
       },
     ],
   },
@@ -1361,7 +1361,7 @@ export const guillaumeSeries: UserSerie[] = [
     seasons: [
       {
         seasonNumber: 1,
-        seasonRating: 4,
+        seasonRating: 4.25,
         seasonTimesWatched: 1,
       },
       {
@@ -1377,13 +1377,13 @@ export const guillaumeSeries: UserSerie[] = [
     seasons: [
       {
         seasonNumber: 1,
-        seasonRating: 4,
-        seasonTimesWatched: 3,
+        seasonRating: 4.5,
+        seasonTimesWatched: 5,
       },
       {
         seasonNumber: 2,
-        seasonRating: 4,
-        seasonTimesWatched: 3,
+        seasonRating: 4.25,
+        seasonTimesWatched: 4,
       },
       {
         seasonNumber: 3,
@@ -1403,22 +1403,22 @@ export const guillaumeSeries: UserSerie[] = [
       {
         seasonNumber: 6,
         seasonRating: 4,
-        seasonTimesWatched: 3,
+        seasonTimesWatched: 2,
       },
       {
         seasonNumber: 7,
         seasonRating: 4,
-        seasonTimesWatched: 3,
+        seasonTimesWatched: 2,
       },
       {
         seasonNumber: 8,
         seasonRating: 4,
-        seasonTimesWatched: 3,
+        seasonTimesWatched: 1,
       },
       {
         seasonNumber: 9,
         seasonRating: 4,
-        seasonTimesWatched: 3,
+        seasonTimesWatched: 1,
       },
     ],
   },
@@ -1428,7 +1428,7 @@ export const guillaumeSeries: UserSerie[] = [
     seasons: [
       {
         seasonNumber: 1,
-        seasonRating: 3.75,
+        seasonRating: 4.25,
         seasonTimesWatched: 1,
       },
       {
@@ -1454,8 +1454,8 @@ export const guillaumeSeries: UserSerie[] = [
       },
       {
         seasonNumber: 3,
-        seasonRating: 3.25,
-        seasonTimesWatched: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
       },
     ],
   },
@@ -1465,12 +1465,12 @@ export const guillaumeSeries: UserSerie[] = [
     seasons: [
       {
         seasonNumber: 1,
-        seasonRating: 4,
+        seasonRating: 4.25,
         seasonTimesWatched: 1,
       },
       {
         seasonNumber: 2,
-        seasonRating: 4,
+        seasonRating: 4.25,
         seasonTimesWatched: 1,
       },
       {
@@ -1491,13 +1491,13 @@ export const guillaumeSeries: UserSerie[] = [
       },
       {
         seasonNumber: 2,
-        seasonRating: 3.5,
-        seasonTimesWatched: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
       },
       {
         seasonNumber: 3,
-        seasonRating: 3.5,
-        seasonTimesWatched: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
       },
     ],
   },
@@ -1529,28 +1529,28 @@ export const guillaumeSeries: UserSerie[] = [
     seasons: [
       {
         seasonNumber: 1,
-        seasonRating: 3.25,
+        seasonRating: 3.75,
         seasonTimesWatched: 1,
       },
       {
         seasonNumber: 2,
-        seasonRating: 3.25,
+        seasonRating: 3.55,
         seasonTimesWatched: 1,
       },
       {
         seasonNumber: 3,
-        seasonRating: 3.25,
+        seasonRating: 3,
         seasonTimesWatched: 1,
       },
       {
         seasonNumber: 4,
-        seasonRating: 3.25,
-        seasonTimesWatched: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
       },
       {
         seasonNumber: 5,
-        seasonRating: 3.25,
-        seasonTimesWatched: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
       },
     ],
   },
@@ -1576,8 +1576,8 @@ export const guillaumeSeries: UserSerie[] = [
       },
       {
         seasonNumber: 2,
-        seasonRating: 3.5,
-        seasonTimesWatched: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
       },
     ],
   },
@@ -1592,8 +1592,8 @@ export const guillaumeSeries: UserSerie[] = [
       },
       {
         seasonNumber: 2,
-        seasonRating: 3.25,
-        seasonTimesWatched: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
       },
     ],
   },
