@@ -90,6 +90,8 @@ export class GamesComponent implements OnInit {
   sortOptions = signal<SortOption[]>([
     { value: 'title', label: 'Titre (A-Z)' },
     { value: 'title-desc', label: 'Titre (Z-A)' },
+    { value: 'platform', label: 'Plateforme (A-Z)' },
+    { value: 'platform-desc', label: 'Plateforme (Z-A)' },
     { value: 'releaseDate', label: 'Date de sortie (récent)' },
     { value: 'releaseDate-asc', label: 'Date de sortie (ancien)' },
     { value: 'rating', label: 'Note (élevée)' },
@@ -141,6 +143,18 @@ export class GamesComponent implements OnInit {
         return this.filteredGames().sort((a, b) => a.title.localeCompare(b.title));
       case 'title-desc':
         return this.filteredGames().sort((a, b) => b.title.localeCompare(a.title));
+      case 'platform':
+        return this.filteredGames().sort((a, b) => {
+          const platformCompare = a.platform.localeCompare(b.platform);
+          if (platformCompare !== 0) return platformCompare;
+          return a.title.localeCompare(b.title);
+        });
+      case 'platform-desc':
+        return this.filteredGames().sort((a, b) => {
+          const platformCompare = b.platform.localeCompare(a.platform);
+          if (platformCompare !== 0) return platformCompare;
+          return a.title.localeCompare(b.title);
+        });
       case 'releaseDate':
         return this.filteredGames().sort(
           (a, b) =>
