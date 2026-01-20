@@ -1176,8 +1176,7 @@ export const ronanGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     platined: false,
-  }
-,
+  },
   {
     title: 'Harry Potter à l\'école des sorciers',
     editor: 'Electronic Arts',
@@ -1186,7 +1185,6 @@ export const ronanGames: UserGame[] = [
     additionnalEstimatedTime: 0,
     platined: false,
   },
-
   {
     title: 'Harry Potter et La Coupe de Feu',
     editor: 'Electronic Arts',
@@ -1195,7 +1193,6 @@ export const ronanGames: UserGame[] = [
     additionnalEstimatedTime: 0,
     platined: false,
   },
-
   {
     title: 'Pokemon version Ruby',
     editor: 'Nintendo',
@@ -1204,7 +1201,6 @@ export const ronanGames: UserGame[] = [
     additionnalEstimatedTime: 0,
     platined: false,
   },
-
   {
     title: 'Sonic Advance',
     editor: 'Sega',
@@ -1213,7 +1209,6 @@ export const ronanGames: UserGame[] = [
     additionnalEstimatedTime: 0,
     platined: false,
   },
-
   {
     title: 'Star Wars III - La Revanche des Siths',
     editor: 'Ubisoft',
@@ -1222,7 +1217,6 @@ export const ronanGames: UserGame[] = [
     additionnalEstimatedTime: 0,
     platined: false,
   },
-
   {
     title: 'Spider-Man 3',
     editor: 'Activision',
@@ -1231,7 +1225,6 @@ export const ronanGames: UserGame[] = [
     additionnalEstimatedTime: 0,
     platined: false,
   },
-
   {
     title: 'Les Urbz - Les Sims in the City',
     editor: 'Electronic Arts',
@@ -1240,12 +1233,342 @@ export const ronanGames: UserGame[] = [
     additionnalEstimatedTime: 0,
     platined: false,
   },
-
   {
     title: 'Star Wars : Flight of the Falcon',
     editor: 'Ubisoft',
     rating: 1.5,
     timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+  {
+    title: 'Custom Robo Arena',
+    editor: 'Nintendo',
+    rating: 4,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+  {
+    title: 'Animal Crossing : Wild World',
+    editor: 'Nintendo',
+    rating: 2.5,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+  {
+    title: 'Arthur et les Minimoys',
+    editor: 'Atari',
+    rating: 3,
+    timesFinished: 3,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+  {
+    title: 'Assassin’s Creed Altaïr Chronicles',
+    editor: 'Ubisoft',
+    rating: 2.5,
+    timesFinished: 3,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+  {
+    title: 'Assassin’s Creed II : Discovery',
+    editor: 'Ubisoft',
+    rating: 3,
+    timesFinished: 3,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+  {
+    title: 'Astérix aux Jeux Olympiques',
+    editor: 'Atari',
+    rating: 2.5,
+    timesFinished: 10,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+  {
+    title: 'Call of Duty 4 : Modern Warfare',
+    editor: 'Activision',
+    rating: 3,
+    timesFinished: 3,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+  {
+    title: 'Dragon Ball Z: Harukanaru Densetsu',
+    editor: 'Atari',
+    rating: 3,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+  {
+    title: 'Dragon Ball Z: Supersonic Warriors 2',
+    editor: 'Atari',
+    rating: 3,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+  {
+    title: 'Eragon',
+    editor: 'Vivendi',
+    rating: 2.5,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+  {
+    title: 'FIFA 10',
+    editor: 'Electronic Arts',
+    rating: 3,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  }
+,
+  {
+    title: 'Dragon Quest IX : Les Sentinelles du Firmament',
+    editor: 'Nintendo',
+    rating: 4,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Galactick Football',
+    editor: 'Ubisoft',
+    rating: 3,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Grand Theft Auto: Chinatown Wars',
+    editor: 'Rockstar',
+    rating: 3,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Guitar Hero: On Tour',
+    editor: 'Activision',
+    rating: 4,
+    timesFinished: 4,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Harry Potter et la Coupe de Feu',
+    editor: 'Electronic Arts',
+    rating: 3.5,
+    timesFinished: 2,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Harry Potter et l\'Ordre du Phénix',
+    editor: 'Electronic Arts',
+    rating: 2.5,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Harry Potter et le Prince de Sang Mêlé',
+    editor: 'Electronic Arts',
+    rating: 2.5,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Iron Man',
+    editor: 'Sega',
+    rating: 2,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Jump Ultimate Stars',
+    editor: 'Nintendo',
+    rating: 2.5,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Zelda Phantom Hourglass',
+    editor: 'Nintendo',
+    rating: 3,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Lego Batman',
+    editor: 'Warner',
+    rating: 3.5,
+    timesFinished: 2,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'LEGO Indiana Jones',
+    editor: 'LucasArts',
+    rating: 4,
+    timesFinished: 4,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'LEGO Star Wars : The Complete Saga',
+    editor: 'LucasArts',
+    rating: 4,
+    timesFinished: 5,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Mario & Sonic aux Jeux Olympiques',
+    editor: 'Sega',
+    rating: 3,
+    timesFinished: 4,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Mario & Sonic JO Hiver',
+    editor: 'Sega',
+    rating: 2.5,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Mario Kart DS',
+    editor: 'Nintendo',
+    rating: 4,
+    timesFinished: 10,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Mario Party DS',
+    editor: 'Nintendo',
+    rating: 4,
+    timesFinished: 10,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Mario Slam Basketball',
+    editor: 'Nintendo',
+    rating: 3.5,
+    timesFinished: 2,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Naruto Shippuden: Ninja Council 4',
+    editor: 'Ubisoft',
+    rating: 3.5,
+    timesFinished: 3,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Naruto: Ninja Destiny 2',
+    editor: 'Takara Tomy',
+    rating: 3,
+    timesFinished: 3,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Naruto: Ninja Council 3',
+    editor: 'Takara Tomy',
+    rating: 3,
+    timesFinished: 3,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Naruto : Ninja Destiny',
+    editor: 'Takara Tomy',
+    rating: 3,
+    timesFinished: 4,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Need for Speed : Most Wanted',
+    editor: 'Electronic Arts',
+    rating: 2.5,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Need for Speed : Nitro',
+    editor: 'Electronic Arts',
+    rating: 2.5,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Ninja Gaiden: Dragon Sword',
+    editor: 'Tecmo',
+    rating: 2.5,
+    timesFinished: 1,
+    additionnalEstimatedTime: 0,
+    platined: false,
+  },
+
+  {
+    title: 'Nintendogs',
+    editor: 'Nintendo',
+    rating: 3.5,
+    timesFinished: 1,
+    additionnalEstimatedTime: 1,
+    platined: false,
+  },
+
+  {
+    title: 'Pirates des Caraïbes: Jusqu\'au Bout du Monde',
+    editor: 'Disney',
+    rating: 3.5,
+    timesFinished: 3,
     additionnalEstimatedTime: 0,
     platined: false,
   },
