@@ -1,10 +1,9 @@
 import { UserSerie } from '../../../../models/serie-model';
 
-const rawBastienSeries = [
+const bastienSeries: UserSerie[] = [
   {
     title: 'Avatar: The Last Airbender',
     director: 'Michael Dante DiMartino, Bryan Konietzko',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -26,7 +25,6 @@ const rawBastienSeries = [
   {
     title: 'Arcane',
     director: 'Pascal Charrue, Arnaud Delord',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -43,7 +41,6 @@ const rawBastienSeries = [
   {
     title: 'Bloqués',
     director: 'Jonathan Cohen, Ramzy Bedia',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -70,7 +67,6 @@ const rawBastienSeries = [
   {
     title: 'Altered Carbon',
     director: 'Laeta Kalogridis',
-    stoppedAtSeason: 1,
     seasons: [
       {
         seasonNumber: 1,
@@ -87,7 +83,6 @@ const rawBastienSeries = [
   {
     title: 'Brooklyn Nine-Nine',
     director: 'Dan Goor, Michael Schur',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -134,7 +129,6 @@ const rawBastienSeries = [
   {
     title: 'Cloak & Dagger',
     director: 'Joe Pokaski',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -151,7 +145,6 @@ const rawBastienSeries = [
   {
     title: 'Community',
     director: 'Dan Harmon',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -188,7 +181,6 @@ const rawBastienSeries = [
   {
     title: 'Daredevil',
     director: 'Drew Goddard',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -210,7 +202,6 @@ const rawBastienSeries = [
   {
     title: 'Hawkeye',
     director: 'Jonathan Igla',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -222,7 +213,6 @@ const rawBastienSeries = [
   {
     title: 'Gotham',
     director: 'Bruno Heller',
-    stoppedAtSeason: 3,
     seasons: [
       {
         seasonNumber: 1,
@@ -254,7 +244,6 @@ const rawBastienSeries = [
   {
     title: 'Heroes',
     director: 'Tim Kring',
-    stoppedAtSeason: 3,
     seasons: [
       {
         seasonNumber: 1,
@@ -281,7 +270,6 @@ const rawBastienSeries = [
   {
     title: 'Iron Fist',
     director: 'Scott Buck',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -298,7 +286,6 @@ const rawBastienSeries = [
   {
     title: 'Jessica Jones',
     director: 'Melissa Rosenberg',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -320,7 +307,6 @@ const rawBastienSeries = [
   {
     title: "Jupiter's Legacy",
     director: 'Steven S. DeKnight',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -332,7 +318,6 @@ const rawBastienSeries = [
   {
     title: 'Locke & Key',
     director: 'Carlton Cuse',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -354,7 +339,6 @@ const rawBastienSeries = [
   {
     title: 'Loki',
     director: 'Kate Herron',
-    stoppedAtSeason: 1,
     seasons: [
       {
         seasonNumber: 1,
@@ -371,7 +355,6 @@ const rawBastienSeries = [
   {
     title: 'Luke Cage',
     director: 'Cheo Hodari Coker',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -388,7 +371,6 @@ const rawBastienSeries = [
   {
     title: 'Malcolm in the Middle',
     director: 'Linwood Boomer',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -430,7 +412,6 @@ const rawBastienSeries = [
   {
     title: 'Misfits',
     director: 'Howard Overman',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -462,7 +443,6 @@ const rawBastienSeries = [
   {
     title: 'Mercredi',
     director: 'Tim Burton',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -479,7 +459,6 @@ const rawBastienSeries = [
   {
     title: 'Obi-Wan Kenobi',
     director: 'Deborah Chow',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -491,7 +470,6 @@ const rawBastienSeries = [
   {
     title: 'One Piece (live-action)',
     director: 'Matt Owens, Steven Maeda',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -503,7 +481,6 @@ const rawBastienSeries = [
   {
     title: 'Smallville',
     director: 'Alfred Gough, Miles Millar',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -560,7 +537,6 @@ const rawBastienSeries = [
   {
     title: 'South Park',
     director: 'Trey Parker, Matt Stone',
-    stoppedAtSeason: 12,
     seasons: [
       {
         seasonNumber: 1,
@@ -697,7 +673,6 @@ const rawBastienSeries = [
   {
     title: 'Squid Game',
     director: 'Hwang Dong-hyuk',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -719,7 +694,6 @@ const rawBastienSeries = [
   {
     title: 'Stranger Things',
     director: 'The Duffer Brothers',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -751,7 +725,6 @@ const rawBastienSeries = [
   {
     title: 'Supernatural',
     director: 'Eric Kripke',
-    stoppedAtSeason: 5,
     seasons: [
       {
         seasonNumber: 1,
@@ -833,7 +806,6 @@ const rawBastienSeries = [
   {
     title: 'The Boys',
     director: 'Eric Kripke',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -860,7 +832,6 @@ const rawBastienSeries = [
   {
     title: 'The Defenders',
     director: 'Douglas Petrie, Marco Ramirez',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -872,7 +843,6 @@ const rawBastienSeries = [
   {
     title: 'The Falcon and the Winter Soldier',
     director: 'Malcolm Spellman',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -884,7 +854,6 @@ const rawBastienSeries = [
   {
     title: 'The Office',
     director: 'Greg Daniels',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -936,7 +905,6 @@ const rawBastienSeries = [
   {
     title: 'The Shannara Chronicles',
     director: 'Alfred Gough, Miles Millar',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -953,7 +921,6 @@ const rawBastienSeries = [
   {
     title: 'The Punisher',
     director: 'Steve Lightfoot',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -970,7 +937,6 @@ const rawBastienSeries = [
   {
     title: 'WandaVision',
     director: 'Matt Shakman',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -982,7 +948,6 @@ const rawBastienSeries = [
   {
     title: 'Yu Yu Hakusho (live-action)',
     director: 'Shô Tsukikawa',
-    stoppedAtSeason: 0,
     seasons: [
       {
         seasonNumber: 1,
@@ -992,7 +957,3 @@ const rawBastienSeries = [
     ],
   },
 ];
-
-export const bastienSeries: UserSerie[] = rawBastienSeries.map(
-  ({ stoppedAtSeason, ...serie }) => serie
-);
