@@ -4,7 +4,7 @@ import { baseSeriesApi } from '../../utils/entities/series/base_series_api';
 import { guillaumeSeries } from '../../utils/users/guillaume/series';
 import { guillaumeWatchListSeries } from '../../utils/users/guillaume/series/guillaume_watchlist_series';
 import { ronanSeries } from '../../utils/users/ronan/series/ronan_series';
-import { ronanWatchListSeries } from '../../utils/users/ronan/series/ronan_watchlist_series';
+import { ronanWatchlistSeries } from '../../utils/users/ronan/series/ronan_watchlist_series';
 import { BaseSerie, UserSerie } from '../../models/serie-model';
 import { kevinSeries } from '../../utils/users/kevin/series/kevin_series';
 import { kevinWatchlistSeries } from '../../utils/users/kevin/series/kevin_watchlist_series';
@@ -37,7 +37,7 @@ export function getLocalWatchlistByUser(userId: string): UserSerie[] {
     case 'guillaume':
       return [...guillaumeWatchListSeries];
     case 'ronan':
-      return [...ronanWatchListSeries];
+      return [...ronanWatchlistSeries];
     case 'kevin':
       return [...kevinWatchlistSeries];
     case 'amandine':

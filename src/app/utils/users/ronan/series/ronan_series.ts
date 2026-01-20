@@ -1,6 +1,6 @@
 import { UserSerie } from '../../../../models/serie-model';
 
-const ronanSeries: UserSerie[] = [
+export const ronanSeries: UserSerie[] = [
   {
     title: 'Black Mirror',
     director: 'Charlie Brooker',
@@ -32,6 +32,11 @@ const ronanSeries: UserSerie[] = [
       },
       {
         seasonNumber: 6,
+        seasonRating: 3,
+        seasonTimesWatched: 1,
+      },
+      {
+        seasonNumber: 7,
         seasonRating: 3,
         seasonTimesWatched: 1,
       },

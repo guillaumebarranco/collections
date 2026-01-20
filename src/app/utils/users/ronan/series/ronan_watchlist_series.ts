@@ -1,6 +1,6 @@
 import { UserSerie } from '../../../../models/serie-model';
 
-const ronanWatchlistSeries: UserSerie[] = [
+export const ronanWatchlistSeries: UserSerie[] = [
   {
     title: 'Castle',
     director: 'Andrew W. Marlowe',
