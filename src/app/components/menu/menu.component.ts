@@ -124,7 +124,7 @@ export class MenuComponent implements OnInit {
     if (hasNameParam) {
       return `/${params['id']}/${route}`;
     }
-    return `/${route}`;
+    return `/guillaume/${route}`;
   }
 
   @HostListener('window:resize')
