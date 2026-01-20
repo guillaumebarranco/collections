@@ -288,6 +288,48 @@ function updateComicInFile(filePath: string, comicData: any): boolean {
   return true;
 }
 
+function removeComicFromFile(content: string, payload: any): string {
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    throw new Error('Array not found');
+  }
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
+    throw new Error('Array bounds not found');
+  }
+  const { arrayStart, arrayEnd } = bounds;
+
+  const comics = parseComicsFromFile(content);
+  const filtered = comics.filter(
+    (comic) =>
+      comic.title !== payload.title || comic.designer !== payload.designer
+  );
+
+  if (filtered.length === comics.length) {
+    throw new Error('Comic not found');
+  }
+
+  const newArrayContent = filtered
+    .map(
+      (comic) => `  {
+    title: '${escapeString(comic.title)}',
+    designer: '${escapeString(comic.designer)}',
+    readDate: '${escapeString(comic.readDate || '')}',
+    rating: ${comic.rating ?? 0},
+    readTimes: ${comic.readTimes ?? 1},
+  }`
+    )
+    .join(',\n');
+
+  return (
+    content.slice(0, arrayStart + 1) +
+    '\n' +
+    newArrayContent +
+    '\n' +
+    content.slice(arrayEnd)
+  );
+}
+
 function getUserComicsFiles(userId: string): string[] {
   const userDir = path.join(USERS_COMICS_DIR, userId, 'comics');
   if (!fs.existsSync(userDir)) return [];
@@ -329,6 +371,7 @@ module.exports = {
   appendObjectToArrayFile,
   baseComicExists,
   updateComicInFile,
+  removeComicFromFile,
   getUserComicsFiles,
   getUserReadlistComicsFiles,
   getBaseComicsFiles,

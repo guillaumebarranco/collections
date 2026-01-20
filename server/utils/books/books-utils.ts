@@ -365,6 +365,48 @@ function updateBookInFile(content: string, payload: any) {
   throw new Error('Book not found');
 }
 
+function removeBookFromFile(content: string, payload: any) {
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    throw new Error('Array not found');
+  }
+
+  const arrayStart = content.indexOf('[', exportIndex);
+  const arrayEnd = content.indexOf('];', arrayStart);
+  if (arrayStart === -1 || arrayEnd === -1) {
+    throw new Error('Array bounds not found');
+  }
+
+  const books = parseBooksFromFile(content);
+  const filtered = books.filter(
+    (book) => book.title !== payload.title || book.author !== payload.author
+  );
+
+  if (filtered.length === books.length) {
+    throw new Error('Book not found');
+  }
+
+  const newArrayContent = filtered
+    .map(
+      (book) => `  {
+    title: '${escapeString(book.title)}',
+    author: '${escapeString(book.author)}',
+    readDate: '${escapeString(book.readDate || '')}',
+    rating: ${book.rating ?? 0},
+    readTimes: ${book.readTimes ?? 0},
+  }`
+    )
+    .join(',\n');
+
+  return (
+    content.slice(0, arrayStart + 1) +
+    '\n' +
+    newArrayContent +
+    '\n' +
+    content.slice(arrayEnd)
+  );
+}
+
 function getUserBooksFiles(userId: string) {
   const userBooksDir = path.join(USERS_BOOKS_DIR, userId, 'books');
   if (!fs.existsSync(userBooksDir)) {
@@ -412,6 +454,7 @@ module.exports = {
   baseBookExists,
   BASE_BOOKS_API_FILE,
   updateBookInFile,
+  removeBookFromFile,
   getUserBooksFiles,
   getUserReadlistBooksFiles,
 };

@@ -87,7 +87,19 @@
       />
     </div>
 
-    <button type="submit" class="submit-btn">Modifier</button>
+    <div class="form-actions">
+      <button type="submit" class="submit-btn" [disabled]="isSaving()">
+        Modifier
+      </button>
+      <button
+        type="button"
+        class="delete-btn"
+        [disabled]="isDeleting()"
+        (click)="onDelete()"
+      >
+        Supprimer
+      </button>
+    </div>
   </form>
   }
 </app-edit-entity>

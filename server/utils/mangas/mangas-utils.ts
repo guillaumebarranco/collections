@@ -286,6 +286,47 @@ function updateMangaInFile(filePath: string, mangaData: any): boolean {
   return true;
 }
 
+function removeMangaFromFile(content: string, payload: any): string {
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    throw new Error('Array not found');
+  }
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
+    throw new Error('Array bounds not found');
+  }
+  const { arrayStart, arrayEnd } = bounds;
+
+  const mangas = parseMangasFromFile(content);
+  const filtered = mangas.filter(
+    (manga) => manga.title !== payload.title || manga.author !== payload.author
+  );
+
+  if (filtered.length === mangas.length) {
+    throw new Error('Manga not found');
+  }
+
+  const newArrayContent = filtered
+    .map(
+      (manga) => `  {
+    title: '${escapeString(manga.title)}',
+    author: '${escapeString(manga.author)}',
+    readDate: '${escapeString(manga.readDate || '')}',
+    rating: ${manga.rating ?? 0},
+    readTimes: ${manga.readTimes ?? 1},
+  }`
+    )
+    .join(',\n');
+
+  return (
+    content.slice(0, arrayStart + 1) +
+    '\n' +
+    newArrayContent +
+    '\n' +
+    content.slice(arrayEnd)
+  );
+}
+
 function getUserMangasFiles(userId: string): string[] {
   const userDir = path.join(USERS_MANGAS_DIR, userId, 'mangas');
   if (!fs.existsSync(userDir)) return [];
@@ -327,6 +368,7 @@ module.exports = {
   appendObjectToArrayFile,
   baseMangaExists,
   updateMangaInFile,
+  removeMangaFromFile,
   getUserMangasFiles,
   getUserReadlistMangasFiles,
   getBaseMangasFiles,

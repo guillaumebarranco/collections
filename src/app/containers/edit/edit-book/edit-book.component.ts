@@ -50,6 +50,7 @@ export class EditBookComponent {
   readonly bookForm = signal<EditBookForm | null>(null);
   readonly bookNotFound = signal<boolean>(false);
   readonly isSaving = signal<boolean>(false);
+  readonly isDeleting = signal<boolean>(false);
 
   readonly bookSlug = computed(() => {
     return this.activatedRoute.snapshot.paramMap.get('slug') || '';
@@ -139,6 +140,45 @@ export class EditBookComponent {
       console.error('edit-book:error', error);
     } finally {
       this.isSaving.set(false);
+    }
+  }
+
+  async onDelete() {
+    const book = this.book();
+    if (!book) return;
+    if (!confirm('Supprimer ce livre de ta liste ?')) return;
+
+    this.isDeleting.set(true);
+    try {
+      const userId = this.getCurrentUserId();
+      const response = await fetch(`${getApiBaseUrl()}/books/delete`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId,
+          title: book.title,
+          author: book.author,
+        }),
+      });
+
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        console.error('edit-book:delete:error', payload);
+        return;
+      }
+
+      if (this.dialogRef) {
+        this.dialogRef.close({ updated: true, deleted: true, payload });
+        return;
+      }
+
+      this.navigateToBooks();
+    } catch (error) {
+      console.error('edit-book:delete:error', error);
+    } finally {
+      this.isDeleting.set(false);
     }
   }
 

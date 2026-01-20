@@ -456,6 +456,50 @@ function updateSerieInFile(content: string, payload: any) {
   throw new Error('Serie not found');
 }
 
+function formatSeasonsIndented(seasons: any[], indent: string) {
+  return formatSeasons(seasons)
+    .split('\n')
+    .map((line) => `${indent}${line}`)
+    .join('\n');
+}
+
+function removeSerieFromFile(content: string, payload: any) {
+  const bounds = findSeriesArrayBounds(content);
+  if (!bounds) {
+    throw new Error('Array bounds not found');
+  }
+  const { arrayStart, arrayEnd } = bounds;
+
+  const series = parseSeriesFromFile(content);
+  const filtered = series.filter(
+    (serie) =>
+      serie.title !== payload.title || serie.director !== payload.director
+  );
+
+  if (filtered.length === series.length) {
+    throw new Error('Serie not found');
+  }
+
+  const newArrayContent = filtered
+    .map((serie) => {
+      const seasonsText = formatSeasonsIndented(serie.seasons ?? [], '    ');
+      return `  {
+    title: '${escapeString(serie.title)}',
+    director: '${escapeString(serie.director)}',
+${seasonsText}
+  }`;
+    })
+    .join(',\n');
+
+  return (
+    content.slice(0, arrayStart + 1) +
+    '\n' +
+    newArrayContent +
+    '\n' +
+    content.slice(arrayEnd)
+  );
+}
+
 function getUserSeriesFiles(userId: string) {
   const userSeriesDir = path.join(USERS_SERIES_DIR, userId, 'series');
   if (!fs.existsSync(userSeriesDir)) {
@@ -516,6 +560,7 @@ module.exports = {
   findBaseSerie,
   BASE_SERIES_API_FILE,
   updateSerieInFile,
+  removeSerieFromFile,
   getUserSeriesFiles,
   getUserWatchlistSeriesFiles,
   getUserAllSeriesFiles,

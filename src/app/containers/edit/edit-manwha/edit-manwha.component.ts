@@ -50,6 +50,7 @@ export class EditManwhaComponent {
   readonly manwhaForm = signal<EditManwhaForm | null>(null);
   readonly manwhaNotFound = signal<boolean>(false);
   readonly isSaving = signal<boolean>(false);
+  readonly isDeleting = signal<boolean>(false);
 
   readonly manwhaSlug = computed(() => {
     return this.activatedRoute.snapshot.paramMap.get('slug') || '';
@@ -142,6 +143,45 @@ export class EditManwhaComponent {
       console.error('edit-manwha:error', error);
     } finally {
       this.isSaving.set(false);
+    }
+  }
+
+  async onDelete() {
+    const manwha = this.manwha();
+    if (!manwha) return;
+    if (!confirm('Supprimer ce manwha de ta liste ?')) return;
+
+    this.isDeleting.set(true);
+    try {
+      const userId = this.getCurrentUserId();
+      const response = await fetch(`${getApiBaseUrl()}/manwhas/delete`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId,
+          title: manwha.title,
+          author: manwha.author,
+        }),
+      });
+
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        console.error('edit-manwha:delete:error', payload);
+        return;
+      }
+
+      if (this.dialogRef) {
+        this.dialogRef.close({ updated: true, deleted: true, payload });
+        return;
+      }
+
+      this.navigateToManwhas();
+    } catch (error) {
+      console.error('edit-manwha:delete:error', error);
+    } finally {
+      this.isDeleting.set(false);
     }
   }
 

@@ -289,6 +289,48 @@ function updateManwhaInFile(filePath: string, manwhaData: any): boolean {
   return true;
 }
 
+function removeManwhaFromFile(content: string, payload: any): string {
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    throw new Error('Array not found');
+  }
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
+    throw new Error('Array bounds not found');
+  }
+  const { arrayStart, arrayEnd } = bounds;
+
+  const manwhas = parseManwhasFromFile(content);
+  const filtered = manwhas.filter(
+    (manwha) =>
+      manwha.title !== payload.title || manwha.author !== payload.author
+  );
+
+  if (filtered.length === manwhas.length) {
+    throw new Error('Manwha not found');
+  }
+
+  const newArrayContent = filtered
+    .map(
+      (manwha) => `  {
+    title: '${escapeString(manwha.title)}',
+    author: '${escapeString(manwha.author)}',
+    readDate: '${escapeString(manwha.readDate || '')}',
+    rating: ${manwha.rating ?? 0},
+    readTimes: ${manwha.readTimes ?? 1},
+  }`
+    )
+    .join(',\n');
+
+  return (
+    content.slice(0, arrayStart + 1) +
+    '\n' +
+    newArrayContent +
+    '\n' +
+    content.slice(arrayEnd)
+  );
+}
+
 function getUserManwhasFiles(userId: string): string[] {
   const userDir = path.join(USERS_MANWHAS_DIR, userId, 'manwhas');
   if (!fs.existsSync(userDir)) return [];
@@ -330,6 +372,7 @@ module.exports = {
   appendObjectToArrayFile,
   baseManwhaExists,
   updateManwhaInFile,
+  removeManwhaFromFile,
   getUserManwhasFiles,
   getUserReadlistManwhasFiles,
   getBaseManwhasFiles,

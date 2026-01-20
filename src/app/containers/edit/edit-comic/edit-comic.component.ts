@@ -50,6 +50,7 @@ export class EditComicComponent {
   readonly comicForm = signal<EditComicForm | null>(null);
   readonly comicNotFound = signal<boolean>(false);
   readonly isSaving = signal<boolean>(false);
+  readonly isDeleting = signal<boolean>(false);
 
   readonly comicSlug = computed(() => {
     return this.activatedRoute.snapshot.paramMap.get('slug') || '';
@@ -139,6 +140,45 @@ export class EditComicComponent {
       console.error('edit-comic:error', error);
     } finally {
       this.isSaving.set(false);
+    }
+  }
+
+  async onDelete() {
+    const comic = this.comic();
+    if (!comic) return;
+    if (!confirm('Supprimer ce comic de ta liste ?')) return;
+
+    this.isDeleting.set(true);
+    try {
+      const userId = this.getCurrentUserId();
+      const response = await fetch(`${getApiBaseUrl()}/comics/delete`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId,
+          title: comic.title,
+          designer: comic.designer,
+        }),
+      });
+
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        console.error('edit-comic:delete:error', payload);
+        return;
+      }
+
+      if (this.dialogRef) {
+        this.dialogRef.close({ updated: true, deleted: true, payload });
+        return;
+      }
+
+      this.navigateToComics();
+    } catch (error) {
+      console.error('edit-comic:delete:error', error);
+    } finally {
+      this.isDeleting.set(false);
     }
   }
 

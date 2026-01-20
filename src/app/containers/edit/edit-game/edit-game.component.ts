@@ -51,6 +51,7 @@ export class EditGameComponent {
   readonly gameForm = signal<EditGameForm | null>(null);
   readonly gameNotFound = signal<boolean>(false);
   readonly isSaving = signal<boolean>(false);
+  readonly isDeleting = signal<boolean>(false);
 
   readonly gameSlug = computed(() => {
     return this.activatedRoute.snapshot.paramMap.get('slug') || '';
@@ -154,6 +155,45 @@ export class EditGameComponent {
       console.error('edit-game:error', error);
     } finally {
       this.isSaving.set(false);
+    }
+  }
+
+  async onDelete() {
+    const game = this.game();
+    if (!game) return;
+    if (!confirm('Supprimer ce jeu de ta liste ?')) return;
+
+    this.isDeleting.set(true);
+    try {
+      const userId = this.getCurrentUserId();
+      const response = await fetch(`${getApiBaseUrl()}/games/delete`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId,
+          title: game.title,
+          editor: game.editor,
+        }),
+      });
+
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        console.error('edit-game:delete:error', payload);
+        return;
+      }
+
+      if (this.dialogRef) {
+        this.dialogRef.close({ updated: true, deleted: true, payload });
+        return;
+      }
+
+      this.navigateToGames();
+    } catch (error) {
+      console.error('edit-game:delete:error', error);
+    } finally {
+      this.isDeleting.set(false);
     }
   }
 

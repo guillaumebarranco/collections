@@ -292,6 +292,48 @@ function updateGameInFile(filePath: string, gameData: any): boolean {
   return true;
 }
 
+function removeGameFromFile(content: string, payload: any): string {
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    throw new Error('Array not found');
+  }
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
+    throw new Error('Array bounds not found');
+  }
+  const { arrayStart, arrayEnd } = bounds;
+
+  const games = parseGamesFromFile(content);
+  const filtered = games.filter(
+    (game) => game.title !== payload.title || game.editor !== payload.editor
+  );
+
+  if (filtered.length === games.length) {
+    throw new Error('Game not found');
+  }
+
+  const newArrayContent = filtered
+    .map(
+      (game) => `  {
+    title: '${escapeString(game.title)}',
+    editor: '${escapeString(game.editor)}',
+    rating: ${game.rating ?? 0},
+    timesFinished: ${game.timesFinished ?? 0},
+    additionnalEstimatedTime: ${game.additionnalEstimatedTime ?? 0},
+    platined: ${game.platined ?? false},
+  }`
+    )
+    .join(',\n');
+
+  return (
+    content.slice(0, arrayStart + 1) +
+    '\n' +
+    newArrayContent +
+    '\n' +
+    content.slice(arrayEnd)
+  );
+}
+
 function getUserGamesFiles(userId: string): string[] {
   const userDir = path.join(USERS_GAMES_DIR, userId, 'games');
   if (!fs.existsSync(userDir)) return [];
@@ -343,6 +385,7 @@ module.exports = {
   appendObjectToArrayFile,
   baseGameExists,
   updateGameInFile,
+  removeGameFromFile,
   getUserGamesFiles,
   getUserGamelistFiles,
   getUserAllGamesFiles,

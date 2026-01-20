@@ -10,6 +10,7 @@ const batchRating = require('./batch-rating');
 const batchTimesFinished = require('./batch-times-finished');
 const addGame = require('./add-game');
 const addExisting = require('./add-existing');
+const deleteGame = require('./delete-game');
 
 router.use('/', getGamelist);
 router.use('/', getGames);
@@ -19,6 +20,7 @@ router.use('/', batchRating);
 router.use('/', batchTimesFinished);
 router.use('/', addGame);
 router.use('/', addExisting);
+router.use('/', deleteGame);
 
 module.exports = router;
 

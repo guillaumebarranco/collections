@@ -386,6 +386,51 @@ function updateMovieInFile(content: string, payload: any) {
   throw new Error('Movie not found');
 }
 
+function removeMovieFromFile(content: string, payload: any) {
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    throw new Error('Array not found');
+  }
+
+  const arrayStart = content.indexOf('[', exportIndex);
+  const arrayEnd = content.indexOf('];', arrayStart);
+  if (arrayStart === -1 || arrayEnd === -1) {
+    throw new Error('Array bounds not found');
+  }
+
+  const movies = parseMoviesFromFile(content);
+  const filtered = movies.filter(
+    (movie) =>
+      movie.title !== payload.title || movie.director !== payload.director
+  );
+
+  if (filtered.length === movies.length) {
+    throw new Error('Movie not found');
+  }
+
+  const newArrayContent = filtered
+    .map(
+      (movie) => `  {
+    title: '${escapeString(movie.title)}',
+    director: '${escapeString(movie.director)}',
+    rating: ${movie.rating ?? 0},
+    timesWatched: ${movie.timesWatched ?? 0},
+    firstViewedDate: '${escapeString(movie.firstViewedDate || '')}',
+    lastViewedDate: '${escapeString(movie.lastViewedDate || '')}',
+    seenAtCinema: ${movie.seenAtCinema ?? false},
+  }`
+    )
+    .join(',\n');
+
+  return (
+    content.slice(0, arrayStart + 1) +
+    '\n' +
+    newArrayContent +
+    '\n' +
+    content.slice(arrayEnd)
+  );
+}
+
 function getUserMoviesFiles(userId: string) {
   const userMoviesDir = path.join(USERS_MOVIES_DIR, userId, 'movies');
   if (!fs.existsSync(userMoviesDir)) {
@@ -445,6 +490,7 @@ module.exports = {
   baseMovieExists,
   BASE_MOVIES_API_FILE,
   updateMovieInFile,
+  removeMovieFromFile,
   getUserMoviesFiles,
   getUserWatchlistMoviesFiles,
   getUserAllMoviesFiles,

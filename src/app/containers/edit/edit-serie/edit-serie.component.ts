@@ -48,6 +48,7 @@ export class EditSerieComponent {
   readonly serieForm = signal<EditSerieForm | null>(null);
   readonly serieNotFound = signal<boolean>(false);
   readonly isSaving = signal<boolean>(false);
+  readonly isDeleting = signal<boolean>(false);
 
   readonly serieSlug = computed(() => {
     return this.activatedRoute.snapshot.paramMap.get('slug') || '';
@@ -100,6 +101,45 @@ export class EditSerieComponent {
       console.error('edit-serie:error', error);
     } finally {
       this.isSaving.set(false);
+    }
+  }
+
+  async onDelete() {
+    const serie = this.serie();
+    if (!serie) return;
+    if (!confirm('Supprimer cette série de ta liste ?')) return;
+
+    this.isDeleting.set(true);
+    try {
+      const userId = this.getCurrentUserId();
+      const response = await fetch(`${getApiBaseUrl()}/series/delete`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId,
+          title: serie.title,
+          director: serie.director,
+        }),
+      });
+
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        console.error('edit-serie:delete:error', payload);
+        return;
+      }
+
+      if (this.dialogRef) {
+        this.dialogRef.close({ updated: true, deleted: true, payload });
+        return;
+      }
+
+      this.navigateToSeries();
+    } catch (error) {
+      console.error('edit-serie:delete:error', error);
+    } finally {
+      this.isDeleting.set(false);
     }
   }
 

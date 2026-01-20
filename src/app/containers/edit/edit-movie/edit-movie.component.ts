@@ -52,6 +52,7 @@ export class EditMovieComponent {
   readonly movieForm = signal<EditMovieForm | null>(null);
   readonly movieNotFound = signal<boolean>(false);
   readonly isSaving = signal<boolean>(false);
+  readonly isDeleting = signal<boolean>(false);
 
   readonly movieSlug = computed(() => {
     return this.activatedRoute.snapshot.paramMap.get('slug') || '';
@@ -154,6 +155,45 @@ export class EditMovieComponent {
       console.error('edit-movie:error', error);
     } finally {
       this.isSaving.set(false);
+    }
+  }
+
+  async onDelete() {
+    const movie = this.movie();
+    if (!movie) return;
+    if (!confirm('Supprimer ce film de ta liste ?')) return;
+
+    this.isDeleting.set(true);
+    try {
+      const userId = this.getCurrentUserId();
+      const response = await fetch(`${getApiBaseUrl()}/movies/delete`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId,
+          title: movie.title,
+          director: movie.director,
+        }),
+      });
+
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        console.error('edit-movie:delete:error', payload);
+        return;
+      }
+
+      if (this.dialogRef) {
+        this.dialogRef.close({ updated: true, deleted: true, payload });
+        return;
+      }
+
+      this.navigateToMovies();
+    } catch (error) {
+      console.error('edit-movie:delete:error', error);
+    } finally {
+      this.isDeleting.set(false);
     }
   }
 

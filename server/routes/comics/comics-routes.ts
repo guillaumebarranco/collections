@@ -7,6 +7,7 @@ const batchRatingRouter = require('./batch-rating');
 const batchTimesReadRouter = require('./batch-times-read');
 const addComicRouter = require('./add-comic');
 const addExistingRouter = require('./add-existing');
+const deleteComicRouter = require('./delete-comic');
 
 const router = express.Router();
 
@@ -18,6 +19,7 @@ router.use(batchRatingRouter);
 router.use(batchTimesReadRouter);
 router.use(addComicRouter);
 router.use(addExistingRouter);
+router.use(deleteComicRouter);
 
 module.exports = router;
 

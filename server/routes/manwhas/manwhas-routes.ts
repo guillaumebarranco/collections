@@ -7,6 +7,7 @@ const batchRatingRouter = require('./batch-rating');
 const batchTimesReadRouter = require('./batch-times-read');
 const addManwhaRouter = require('./add-manwha');
 const addExistingRouter = require('./add-existing');
+const deleteManwhaRouter = require('./delete-manwha');
 
 const router = express.Router();
 
@@ -18,6 +19,7 @@ router.use(batchRatingRouter);
 router.use(batchTimesReadRouter);
 router.use(addManwhaRouter);
 router.use(addExistingRouter);
+router.use(deleteManwhaRouter);
 
 module.exports = router;
 

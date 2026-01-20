@@ -7,6 +7,7 @@ const batchRatingRouter = require('./batch-rating');
 const batchTimesWatchedRouter = require('./batch-times-watched');
 const addMovieRouter = require('./add-movie');
 const addExistingRouter = require('./add-existing');
+const deleteMovieRouter = require('./delete-movie');
 
 const router = express.Router();
 
@@ -18,6 +19,7 @@ router.use(batchRatingRouter);
 router.use(batchTimesWatchedRouter);
 router.use(addMovieRouter);
 router.use(addExistingRouter);
+router.use(deleteMovieRouter);
 
 module.exports = router;
 

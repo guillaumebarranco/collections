@@ -7,6 +7,7 @@ const batchRatingRouter = require('./batch-rating');
 const batchTimesReadRouter = require('./batch-times-read');
 const addBookRouter = require('./add-book');
 const addExistingRouter = require('./add-existing');
+const deleteBookRouter = require('./delete-book');
 
 const router = express.Router();
 
@@ -18,6 +19,7 @@ router.use(batchRatingRouter);
 router.use(batchTimesReadRouter);
 router.use(addBookRouter);
 router.use(addExistingRouter);
+router.use(deleteBookRouter);
 
 module.exports = router;
 

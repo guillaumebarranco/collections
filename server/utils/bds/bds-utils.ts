@@ -287,6 +287,47 @@ function updateBdInFile(filePath: string, bdData: any): boolean {
   return true;
 }
 
+function removeBdFromFile(content: string, payload: any): string {
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    throw new Error('Array not found');
+  }
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
+    throw new Error('Array bounds not found');
+  }
+  const { arrayStart, arrayEnd } = bounds;
+
+  const bds = parseBdsFromFile(content);
+  const filtered = bds.filter(
+    (bd) => bd.title !== payload.title || bd.designer !== payload.designer
+  );
+
+  if (filtered.length === bds.length) {
+    throw new Error('Bd not found');
+  }
+
+  const newArrayContent = filtered
+    .map(
+      (bd) => `  {
+    title: '${escapeString(bd.title)}',
+    designer: '${escapeString(bd.designer)}',
+    readDate: '${escapeString(bd.readDate || '')}',
+    rating: ${bd.rating ?? 0},
+    readTimes: ${bd.readTimes ?? 1},
+  }`
+    )
+    .join(',\n');
+
+  return (
+    content.slice(0, arrayStart + 1) +
+    '\n' +
+    newArrayContent +
+    '\n' +
+    content.slice(arrayEnd)
+  );
+}
+
 function getUserBdsFiles(userId: string): string[] {
   const userDir = path.join(USERS_BDS_DIR, userId, 'bds');
   if (!fs.existsSync(userDir)) return [];
@@ -328,6 +369,7 @@ module.exports = {
   appendObjectToArrayFile,
   baseBdExists,
   updateBdInFile,
+  removeBdFromFile,
   getUserBdsFiles,
   getUserReadlistBdsFiles,
   getBaseBdsFiles,

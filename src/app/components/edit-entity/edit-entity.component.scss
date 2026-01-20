@@ -144,6 +144,22 @@ app-edit-entity.edit-entity--light {
     color: #fff;
     cursor: pointer;
   }
+
+  .form-actions {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .delete-btn {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    background: #d83a3a;
+    color: #fff;
+    cursor: pointer;
+  }
 }
 
 app-edit-entity.edit-entity--dark {
@@ -254,6 +270,24 @@ app-edit-entity.edit-entity--dark {
     cursor: pointer;
     font-weight: 600;
     background: #25645d;
+    color: #fff;
+    margin-top: 8px;
+  }
+
+  .form-actions {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .delete-btn {
+    border: none;
+    padding: 10px 16px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-weight: 600;
+    background: #c0392b;
     color: #fff;
     margin-top: 8px;
   }
