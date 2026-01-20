@@ -178,7 +178,7 @@ export class MenuComponent implements OnInit {
   }
 
   goToLogin(): void {
-    this.router.navigate(['/dashboard']);
+    this.router.navigate(['/']);
   }
 
   toggleReadingMenu(): void {
