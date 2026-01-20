@@ -118,11 +118,6 @@ export const ronanSeries: UserSerie[] = [
         seasonRating: 3,
         seasonTimesWatched: 1,
       },
-      {
-        seasonNumber: 2,
-        seasonRating: 3,
-        seasonTimesWatched: 1,
-      },
     ],
   },
   {
