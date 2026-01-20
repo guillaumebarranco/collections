@@ -6,6 +6,7 @@ import { Router, RouterModule } from '@angular/router';
 import { Serie, UserSerieSeason } from '../../../models/serie-model';
 import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
+import { AuthService } from '../../../core/auth.service';
 
 type EditSerieSeasonsDialogData = {
   serie: Serie;
@@ -26,6 +27,7 @@ export class EditSerieSeasonsComponent {
   private readonly dialogRef = inject(MatDialogRef<EditSerieSeasonsComponent>, {
     optional: true,
   });
+  private readonly authService = inject(AuthService);
   private readonly dialogData = inject<EditSerieSeasonsDialogData | null>(
     MAT_DIALOG_DATA,
     {
@@ -61,6 +63,7 @@ export class EditSerieSeasonsComponent {
   async onSubmit() {
     const serie = this.serie();
     if (!serie) return;
+    if (!this.authService.canEdit(this.getCurrentUserId())) return;
     this.isSaving.set(true);
     try {
       const response = await fetch(`${getApiBaseUrl()}/series`, {

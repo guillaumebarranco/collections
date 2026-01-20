@@ -56,6 +56,7 @@ import {
   getAllManwhas,
   getAllReadlistManwhas,
 } from '../../facades/manwhas/manwhas.facade';
+import { AuthService } from '../../core/auth.service';
 
 interface TopBook extends Book {
   formattedReadingTime: string;
@@ -99,6 +100,7 @@ interface TopManga extends Manga {
 export class DashboardComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
   router = inject(Router);
+  authService = inject(AuthService);
 
   filledUserId = signal<string>('');
   selectedTab = signal<'overview' | 'entities' | 'top5'>('overview');
@@ -564,7 +566,9 @@ export class DashboardComponent implements OnInit {
   }
 
   onSubmit(): void {
-    this.router.navigate([this.filledUserId().toLowerCase()]);
+    const normalized = this.filledUserId().toLowerCase();
+    this.authService.setAuthenticatedUserId(normalized);
+    this.router.navigate([normalized]);
   }
 
   onTabChange(tab: 'overview' | 'entities' | 'top5'): void {

@@ -12,6 +12,7 @@ import { getMoviesByUser } from '../../../facades/movies/movies.facade';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
+import { AuthService } from '../../../core/auth.service';
 
 type EditMovieForm = {
   rating: number;
@@ -41,6 +42,7 @@ export class EditMovieComponent {
   private readonly dialogRef = inject(MatDialogRef<EditMovieComponent>, {
     optional: true,
   });
+  private readonly authService = inject(AuthService);
   private readonly dialogData = inject<EditMovieDialogData | null>(
     MAT_DIALOG_DATA,
     {
@@ -121,6 +123,7 @@ export class EditMovieComponent {
     const form = this.movieForm();
     const movie = this.movie();
     if (!form || !movie) return;
+    if (!this.canEditCurrentUser()) return;
 
     this.isSaving.set(true);
     try {
@@ -161,6 +164,7 @@ export class EditMovieComponent {
   async onDelete() {
     const movie = this.movie();
     if (!movie) return;
+    if (!this.canEditCurrentUser()) return;
     if (!confirm('Supprimer ce film de ta liste ?')) return;
 
     this.isDeleting.set(true);
@@ -252,6 +256,10 @@ export class EditMovieComponent {
       lastViewedDate: movie.lastViewedDate,
       seenAtCinema: movie.seenAtCinema,
     };
+  }
+
+  private canEditCurrentUser(): boolean {
+    return this.authService.canEdit(this.getCurrentUserId());
   }
 
   private toSlug(value: string): string {

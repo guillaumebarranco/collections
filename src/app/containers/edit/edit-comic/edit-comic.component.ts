@@ -12,6 +12,7 @@ import { getComicsByUser } from '../../../facades/comics/comics.facade';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
+import { AuthService } from '../../../core/auth.service';
 
 type EditComicForm = {
   rating: number;
@@ -39,6 +40,7 @@ export class EditComicComponent {
   private readonly dialogRef = inject(MatDialogRef<EditComicComponent>, {
     optional: true,
   });
+  private readonly authService = inject(AuthService);
   private readonly dialogData = inject<EditComicDialogData | null>(
     MAT_DIALOG_DATA,
     {
@@ -108,6 +110,7 @@ export class EditComicComponent {
     const form = this.comicForm();
     const comic = this.comic();
     if (!form || !comic) return;
+    if (!this.canEditCurrentUser()) return;
 
     this.isSaving.set(true);
     try {
@@ -146,6 +149,7 @@ export class EditComicComponent {
   async onDelete() {
     const comic = this.comic();
     if (!comic) return;
+    if (!this.canEditCurrentUser()) return;
     if (!confirm('Supprimer ce comic de ta liste ?')) return;
 
     this.isDeleting.set(true);
@@ -230,6 +234,10 @@ export class EditComicComponent {
       readTimes: comic.readTimes || 0,
       readDate: comic.readDate,
     };
+  }
+
+  private canEditCurrentUser(): boolean {
+    return this.authService.canEdit(this.getCurrentUserId());
   }
 
   private toSlug(value: string): string {

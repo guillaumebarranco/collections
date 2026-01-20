@@ -4,6 +4,7 @@ import {
   EventEmitter,
   Input,
   Output,
+  computed,
   inject,
   signal,
 } from '@angular/core';
@@ -14,6 +15,7 @@ import { Serie } from '../../models/serie-model';
 import { EditSerieComponent } from '../../containers/edit/edit-serie/edit-serie.component';
 import { EditSerieSeasonsComponent } from '../../containers/edit/edit-serie-seasons/edit-serie-seasons.component';
 import { EntityCardComponent } from '../entity-card/entity-card.component';
+import { AuthService } from '../../core/auth.service';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -31,11 +33,18 @@ interface StarInfo {
 export class SerieComponent {
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly dialog = inject(MatDialog);
+  private readonly authService = inject(AuthService);
 
   @Input() serie!: Serie;
   @Output() serieUpdated = new EventEmitter<void>();
 
   seasonsExpanded = signal(false);
+
+  readonly canEdit = computed(() => {
+    const directId = this.activatedRoute.snapshot.params['id'];
+    const parentId = this.activatedRoute.parent?.snapshot.params['id'];
+    return this.authService.canEdit(directId || parentId);
+  });
 
   navigateToEdit(): void {
     const directId = this.activatedRoute.snapshot.params['id'];

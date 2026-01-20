@@ -12,6 +12,7 @@ import { getManwhasByUser } from '../../../facades/manwhas/manwhas.facade';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
+import { AuthService } from '../../../core/auth.service';
 
 type EditManwhaForm = {
   rating: number;
@@ -39,6 +40,7 @@ export class EditManwhaComponent {
   private readonly dialogRef = inject(MatDialogRef<EditManwhaComponent>, {
     optional: true,
   });
+  private readonly authService = inject(AuthService);
   private readonly dialogData = inject<EditManwhaDialogData | null>(
     MAT_DIALOG_DATA,
     {
@@ -111,6 +113,7 @@ export class EditManwhaComponent {
     const form = this.manwhaForm();
     const manwha = this.manwha();
     if (!form || !manwha) return;
+    if (!this.canEditCurrentUser()) return;
 
     this.isSaving.set(true);
     try {
@@ -149,6 +152,7 @@ export class EditManwhaComponent {
   async onDelete() {
     const manwha = this.manwha();
     if (!manwha) return;
+    if (!this.canEditCurrentUser()) return;
     if (!confirm('Supprimer ce manwha de ta liste ?')) return;
 
     this.isDeleting.set(true);
@@ -233,6 +237,10 @@ export class EditManwhaComponent {
       readTimes: manwha.readTimes || 0,
       readDate: manwha.readDate,
     };
+  }
+
+  private canEditCurrentUser(): boolean {
+    return this.authService.canEdit(this.getCurrentUserId());
   }
 
   private toSlug(value: string): string {

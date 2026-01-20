@@ -4,9 +4,13 @@ import {
   EventEmitter,
   Input,
   Output,
+  computed,
+  inject,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ActivatedRoute } from '@angular/router';
 import { EntityCardComponent } from '../entity-card/entity-card.component';
+import { AuthService } from '../../core/auth.service';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -22,8 +26,17 @@ interface StarInfo {
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class BookComponent {
+  private readonly activatedRoute = inject(ActivatedRoute);
+  private readonly authService = inject(AuthService);
+
   @Input() book!: any;
   @Output() editRequested = new EventEmitter<void>();
+
+  readonly canEdit = computed(() => {
+    const directId = this.activatedRoute.snapshot.params['id'];
+    const parentId = this.activatedRoute.parent?.snapshot.params['id'];
+    return this.authService.canEdit(directId || parentId);
+  });
 
   requestEdit(): void {
     this.editRequested.emit();

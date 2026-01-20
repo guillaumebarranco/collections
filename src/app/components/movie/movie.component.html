@@ -1,4 +1,5 @@
 <app-entity-card>
+  @if (canEdit()) {
   <button
     entity-edit
     type="button"
@@ -8,6 +9,7 @@
   >
     &#9998;
   </button>
+  }
   <img
     entity-cover
     [src]="movie.coverUrl || '/movies_pictures/poster.jpg'"

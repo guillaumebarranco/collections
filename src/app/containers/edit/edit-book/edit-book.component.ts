@@ -12,6 +12,7 @@ import { getBooksByUser } from '../../../facades/books/books.facade';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
+import { AuthService } from '../../../core/auth.service';
 
 type EditBookForm = {
   rating: number;
@@ -39,6 +40,7 @@ export class EditBookComponent {
   private readonly dialogRef = inject(MatDialogRef<EditBookComponent>, {
     optional: true,
   });
+  private readonly authService = inject(AuthService);
   private readonly dialogData = inject<EditBookDialogData | null>(
     MAT_DIALOG_DATA,
     {
@@ -108,6 +110,7 @@ export class EditBookComponent {
     const form = this.bookForm();
     const book = this.book();
     if (!form || !book) return;
+    if (!this.canEditCurrentUser()) return;
 
     this.isSaving.set(true);
     try {
@@ -146,6 +149,7 @@ export class EditBookComponent {
   async onDelete() {
     const book = this.book();
     if (!book) return;
+    if (!this.canEditCurrentUser()) return;
     if (!confirm('Supprimer ce livre de ta liste ?')) return;
 
     this.isDeleting.set(true);
@@ -230,6 +234,10 @@ export class EditBookComponent {
       readTimes: book.readTimes || 0,
       readDate: book.readDate,
     };
+  }
+
+  private canEditCurrentUser(): boolean {
+    return this.authService.canEdit(this.getCurrentUserId());
   }
 
   private toSlug(value: string): string {

@@ -12,6 +12,7 @@ import { getMangasByUser } from '../../../facades/mangas/mangas.facade';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
+import { AuthService } from '../../../core/auth.service';
 
 type EditMangaForm = {
   rating: number;
@@ -39,6 +40,7 @@ export class EditMangaComponent {
   private readonly dialogRef = inject(MatDialogRef<EditMangaComponent>, {
     optional: true,
   });
+  private readonly authService = inject(AuthService);
   private readonly dialogData = inject<EditMangaDialogData | null>(
     MAT_DIALOG_DATA,
     {
@@ -108,6 +110,7 @@ export class EditMangaComponent {
     const form = this.mangaForm();
     const manga = this.manga();
     if (!form || !manga) return;
+    if (!this.canEditCurrentUser()) return;
 
     this.isSaving.set(true);
     try {
@@ -146,6 +149,7 @@ export class EditMangaComponent {
   async onDelete() {
     const manga = this.manga();
     if (!manga) return;
+    if (!this.canEditCurrentUser()) return;
     if (!confirm('Supprimer ce manga de ta liste ?')) return;
 
     this.isDeleting.set(true);
@@ -230,6 +234,10 @@ export class EditMangaComponent {
       readTimes: manga.readTimes || 0,
       readDate: manga.readDate,
     };
+  }
+
+  private canEditCurrentUser(): boolean {
+    return this.authService.canEdit(this.getCurrentUserId());
   }
 
   private toSlug(value: string): string {

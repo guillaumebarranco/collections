@@ -12,6 +12,7 @@ import { getSeriesByUser } from '../../../facades/series/series.facade';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
+import { AuthService } from '../../../core/auth.service';
 
 type EditSerieForm = {
   seasons: UserSerieSeason[];
@@ -37,6 +38,7 @@ export class EditSerieComponent {
   private readonly dialogRef = inject(MatDialogRef<EditSerieComponent>, {
     optional: true,
   });
+  private readonly authService = inject(AuthService);
   private readonly dialogData = inject<EditSerieDialogData | null>(
     MAT_DIALOG_DATA,
     {
@@ -71,6 +73,7 @@ export class EditSerieComponent {
     const form = this.serieForm();
     const serie = this.serie();
     if (!form || !serie) return;
+    if (!this.canEditCurrentUser()) return;
 
     this.isSaving.set(true);
     try {
@@ -107,6 +110,7 @@ export class EditSerieComponent {
   async onDelete() {
     const serie = this.serie();
     if (!serie) return;
+    if (!this.canEditCurrentUser()) return;
     if (!confirm('Supprimer cette série de ta liste ?')) return;
 
     this.isDeleting.set(true);
@@ -260,5 +264,9 @@ export class EditSerieComponent {
       .replace(/[^a-z0-9]+/g, '-')
       .replace(/^-+|-+$/g, '')
       .replace(/-+/g, '-');
+  }
+
+  private canEditCurrentUser(): boolean {
+    return this.authService.canEdit(this.getCurrentUserId());
   }
 }

@@ -12,6 +12,7 @@ import { getBdsByUser } from '../../../facades/bds/bds.facade';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
+import { AuthService } from '../../../core/auth.service';
 
 type EditBdForm = {
   rating: number;
@@ -39,6 +40,7 @@ export class EditBdComponent {
   private readonly dialogRef = inject(MatDialogRef<EditBdComponent>, {
     optional: true,
   });
+  private readonly authService = inject(AuthService);
   private readonly dialogData = inject<EditBdDialogData | null>(
     MAT_DIALOG_DATA,
     {
@@ -108,6 +110,7 @@ export class EditBdComponent {
     const form = this.bdForm();
     const bd = this.bd();
     if (!form || !bd) return;
+    if (!this.canEditCurrentUser()) return;
 
     this.isSaving.set(true);
     try {
@@ -146,6 +149,7 @@ export class EditBdComponent {
   async onDelete() {
     const bd = this.bd();
     if (!bd) return;
+    if (!this.canEditCurrentUser()) return;
     if (!confirm('Supprimer cette BD de ta liste ?')) return;
 
     this.isDeleting.set(true);
@@ -230,6 +234,10 @@ export class EditBdComponent {
       readTimes: bd.readTimes || 0,
       readDate: bd.readDate,
     };
+  }
+
+  private canEditCurrentUser(): boolean {
+    return this.authService.canEdit(this.getCurrentUserId());
   }
 
   private toSlug(value: string): string {

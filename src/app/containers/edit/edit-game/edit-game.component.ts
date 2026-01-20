@@ -12,6 +12,7 @@ import { getGamesByUser } from '../../../facades/games/games.facade';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
+import { AuthService } from '../../../core/auth.service';
 
 type EditGameForm = {
   rating: number;
@@ -40,6 +41,7 @@ export class EditGameComponent {
   private readonly dialogRef = inject(MatDialogRef<EditGameComponent>, {
     optional: true,
   });
+  private readonly authService = inject(AuthService);
   private readonly dialogData = inject<EditGameDialogData | null>(
     MAT_DIALOG_DATA,
     {
@@ -122,6 +124,7 @@ export class EditGameComponent {
     const form = this.gameForm();
     const game = this.game();
     if (!form || !game) return;
+    if (!this.canEditCurrentUser()) return;
 
     this.isSaving.set(true);
     try {
@@ -161,6 +164,7 @@ export class EditGameComponent {
   async onDelete() {
     const game = this.game();
     if (!game) return;
+    if (!this.canEditCurrentUser()) return;
     if (!confirm('Supprimer ce jeu de ta liste ?')) return;
 
     this.isDeleting.set(true);
@@ -246,6 +250,10 @@ export class EditGameComponent {
       additionnalEstimatedTime: game.additionnalEstimatedTime,
       platined: game.platined,
     };
+  }
+
+  private canEditCurrentUser(): boolean {
+    return this.authService.canEdit(this.getCurrentUserId());
   }
 
   private toSlug(value: string): string {
