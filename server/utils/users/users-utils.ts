@@ -9,13 +9,12 @@ const USERS_FILE = path.join(
   'src',
   'app',
   'utils',
+  'users',
   'users.ts'
 );
 
 function parseStringField(objectText: string, key: string) {
-  const regex = new RegExp(
-    `${key}\\s*:\\s*(['"])((?:\\\\.|(?!\\1).)*)\\1`
-  );
+  const regex = new RegExp(`${key}\\s*:\\s*(['"])((?:\\\\.|(?!\\1).)*)\\1`);
   const match = objectText.match(regex);
   if (!match) return null;
   const quote = match[1];
@@ -88,7 +87,9 @@ function saveUsers(users: any[]) {
 }
 
 function normalizeUsername(value: string): string {
-  return String(value || '').trim().toLowerCase();
+  return String(value || '')
+    .trim()
+    .toLowerCase();
 }
 
 function findUser(username: string) {
