@@ -40,4 +40,41 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 115,
     genre: 'Thriller',
   },
+
+  {
+    title: 'Greenland - Le Dernier Refuge',
+    director: 'Ric Roman Waugh',
+    actors: [
+      {
+        name: 'Gerard Butler',
+      },
+      {
+        name: 'Morena Baccarin',
+      },
+      {
+        name: 'Roger Dale Floyd',
+      },
+    ],
+    coverUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg-natgqfPYlBVGxxNoR_BU94VSQ_renLQ9JfmM9ghwQSW76qZGwsXhN9bmBr7x1CP5aNeTH4YlvCYtUi3kCpv5BgJvjuz9fjNuRNCk4A&s=10',
+    releaseDate: '2020-07-29',
+    length: 120,
+    genre: 'Catastrophe',
+  },
+
+  {
+    title: 'Arco',
+    director: 'Ugo Bienvenu',
+    actors: [
+      {
+        name: 'Margot Ringard Oldra',
+      },
+      {
+        name: 'Oscar Tresanini',
+      },
+    ],
+    coverUrl: 'https://fr.web.img3.acsta.net/c_310_420/img/4b/b4/4bb40b414c1d86022f4031676a309432.jpg',
+    releaseDate: '2025-10-22',
+    length: 89,
+    genre: 'Animation',
+  },
 ];

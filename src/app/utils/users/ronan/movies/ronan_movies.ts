@@ -8751,4 +8751,24 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
   },
+
+  {
+    title: 'Greenland - Le Dernier Refuge',
+    director: 'Ric Roman Waugh',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2026-01-20',
+    lastViewedDate: '2026-01-20',
+    seenAtCinema: false,
+  },
+
+  {
+    title: 'Arco',
+    director: 'Ugo Bienvenu',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2026-01-21',
+    lastViewedDate: '2026-01-21',
+    seenAtCinema: true,
+  },
 ];
