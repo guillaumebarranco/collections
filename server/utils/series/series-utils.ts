@@ -279,10 +279,8 @@ function parseBaseSeriesFullFromFile(content: string): any[] {
           coverUrl: parseStringField(objectText, 'coverUrl') || '',
           releaseDate: parseStringField(objectText, 'releaseDate') || '',
           endDate: parseStringField(objectText, 'endDate') || '',
-          totalLength: parseNumberField(objectText, 'totalLength') ?? 0,
           genre: parseStringField(objectText, 'genre') || '',
           seasonsData: parseSeasonsDataField(objectText) ?? [],
-          nbEpisodesTotal: parseNumberField(objectText, 'nbEpisodesTotal') ?? 0,
         });
       }
     }

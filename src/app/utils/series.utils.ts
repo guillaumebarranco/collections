@@ -1,20 +1,14 @@
 import { Serie } from '../models/serie-model';
 
 export function getSerieSeasonsCount(serie: Serie): number {
-  if (serie.seasonsData && serie.seasonsData.length > 0) {
-    return serie.seasonsData.length;
-  }
-  return Math.max(0, Number(serie.nbSeasons) || 0);
+  return serie.seasonsData?.length ?? 0;
 }
 
 export function getSerieTotalEpisodes(serie: Serie): number {
-  if (serie.seasonsData && serie.seasonsData.length > 0) {
-    return serie.seasonsData.reduce(
-      (sum, season) => sum + (season.nbEpisodes || 0),
-      0
-    );
-  }
-  return Math.max(0, Number(serie.nbEpisodesTotal) || 0);
+  return (serie.seasonsData || []).reduce(
+    (sum, season) => sum + (season.nbEpisodes || 0),
+    0
+  );
 }
 
 export function getSerieTotalLengthMinutes(serie: Serie): number {
@@ -50,8 +44,7 @@ export function getSerieWatchedLengthMinutes(serie: Serie): number {
     }
   }
 
-  const totalLength = getSerieTotalLengthMinutes(serie);
-  return totalLength * getSerieTotalTimesWatched(serie);
+  return 0;
 }
 
 export function getSerieTotalTimesWatched(serie: Serie): number {

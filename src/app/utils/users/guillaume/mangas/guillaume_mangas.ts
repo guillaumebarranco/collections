@@ -170,13 +170,6 @@ export const guillaumeMangas: UserManga[] = [
     readTimes: 3,
   },
   {
-    title: 'Yu Yu Hakusho',
-    author: 'Yoshihiro Togashi',
-    readDate: '16/04/2016',
-    rating: 4,
-    readTimes: 5,
-  },
-  {
     title: 'Fullmetal Alchemist',
     author: 'Hiromu Arakawa',
     readDate: '16/04/2016',
@@ -265,7 +258,7 @@ export const guillaumeMangas: UserManga[] = [
     author: 'Eiichirō Oda',
     readDate: '16/04/2016',
     rating: 5,
-    readTimes: 30,
+    readTimes: 20,
   },
   {
     title: 'Kenshin le Vagabond',
@@ -419,7 +412,7 @@ export const guillaumeMangas: UserManga[] = [
     author: 'Tite Kubo',
     readDate: '16/04/2016',
     rating: 4,
-    readTimes: 10,
+    readTimes: 5,
   },
   {
     title: 'Lui Ou Rien !',

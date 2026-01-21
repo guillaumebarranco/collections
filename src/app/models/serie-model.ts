@@ -1,7 +1,3 @@
-// export interface Serie {
-//   totalLength: number;
-// }
-
 export interface MandatorySerieData {
   title: string;
   director: string;
@@ -15,9 +11,6 @@ export interface BaseSerie extends MandatorySerieData {
   releaseDate: string;
   endDate: string;
   genre: string;
-  nbEpisodesTotal: number;
-  nbSeasons: number;
-  totalLength: number;
   seasonsData: BaseSerieSeasonData[];
 }
 

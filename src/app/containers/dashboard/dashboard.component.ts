@@ -25,6 +25,7 @@ import {
   MINUTES_PER_PAGE,
 } from '../../utils/stats.utils';
 import {
+  getSerieTotalLengthMinutes,
   getSerieTotalTimesWatched,
   getSerieWatchedLengthMinutes,
 } from '../../utils/series.utils';
@@ -443,7 +444,7 @@ export class DashboardComponent implements OnInit {
         0
       ) +
       this.allSeries().reduce((sum, serie) => {
-        return sum + getSerieWatchedLengthMinutes(serie) / 60;
+        return sum + getSerieTotalLengthMinutes(serie) / 60;
       }, 0);
 
     const gamesTotalTime = this.allGames().reduce(
@@ -538,7 +539,7 @@ export class DashboardComponent implements OnInit {
         color: StatItemColor.PRIMARY,
       },
       {
-        label: 'Temps total passé à regarder (films + séries)',
+        label: 'Temps total pour regarder (films + séries)',
         value: this.formatTime(totalWatchingTime),
         icon: '📺',
         color: StatItemColor.SUCCESS,

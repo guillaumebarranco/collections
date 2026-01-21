@@ -29,12 +29,6 @@
     <p><strong>Date de sortie :</strong> {{ serie()?.releaseDate }}</p>
     } @if (serie()?.endDate) {
     <p><strong>Date de fin :</strong> {{ serie()?.endDate }}</p>
-    } @if (serie()?.nbSeasons) {
-    <p><strong>Saisons :</strong> {{ serie()?.nbSeasons }}</p>
-    } @if (serie()?.nbEpisodesTotal) {
-    <p><strong>Épisodes :</strong> {{ serie()?.nbEpisodesTotal }}</p>
-    } @if (serie()?.totalLength) {
-    <p><strong>Durée totale :</strong> {{ serie()?.totalLength }} min</p>
     } @if (serie()?.actors?.length) {
     <p><strong>Acteurs :</strong> {{ getActorsLabel(serie()?.actors) }}</p>
     }

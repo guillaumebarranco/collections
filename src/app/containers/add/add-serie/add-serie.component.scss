@@ -72,6 +72,26 @@
   color: #ddd;
 }
 
+.seasons-list {
+  display: grid;
+  gap: 10px;
+}
+
+.season-row {
+  border: 1px solid #2e2e2e;
+  border-radius: 8px;
+  padding: 10px;
+  display: grid;
+  gap: 8px;
+  background: #1b1b1b;
+}
+
+.season-title {
+  font-weight: 600;
+  font-size: 13px;
+  color: #ddd;
+}
+
 .rating-control {
   display: flex;
   align-items: center;

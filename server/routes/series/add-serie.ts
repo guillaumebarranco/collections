@@ -19,6 +19,16 @@ function formatBaseSerie(entity: any): string {
         name: '${escapeString(name)}',
       },`)
     .join('\n');
+  const seasonsData = Array.isArray(entity.seasonsData) ? entity.seasonsData : [];
+  const seasonsLines = seasonsData
+    .map(
+      (season: any) => `      {
+        seasonNumber: ${season.seasonNumber},
+        nbEpisodes: ${season.nbEpisodes},
+        totalLength: ${season.totalLength},
+      },`
+    )
+    .join('\n');
 
   return `  {
     title: '${escapeString(entity.title)}',
@@ -31,16 +41,16 @@ ${
     coverUrl: '${escapeString(entity.coverUrl || '')}',
     releaseDate: '${escapeString(entity.releaseDate || '')}',
     endDate: '${escapeString(entity.endDate || '')}',
-    totalLength: ${entity.totalLength || 0},
     genre: '${escapeString(entity.genre || '')}',
-    nbSeasons: ${entity.nbSeasons || 0},
-    nbEpisodesTotal: ${entity.nbEpisodesTotal || 0},
+    seasonsData: [
+${seasonsLines}
+    ],
   },`;
 }
 
 function formatUserSerie(user: any): string {
   const seasons = Array.from(
-    { length: Math.max(0, Number(user.nbSeasons) || 0) },
+    { length: Math.max(0, Number(user.seasonsCount) || 0) },
     (_, index) => `      {
         seasonNumber: ${index + 1},
         seasonRating: 0,
@@ -119,6 +129,19 @@ router.post('/add', (req: any, res: any) => {
       .map((name: string) => normalizeString(name, 'actor'))
       .filter((name: string | undefined) => Boolean(name));
 
+    const seasonsData = Array.isArray(entity.seasonsData)
+      ? entity.seasonsData
+          .map((season: any, index: number) => ({
+            seasonNumber:
+              normalizeNumber(season.seasonNumber, 'seasonNumber') ||
+              index + 1,
+            nbEpisodes: normalizeNumber(season.nbEpisodes, 'nbEpisodes') || 0,
+            totalLength:
+              normalizeNumber(season.totalLength, 'seasonLength') || 0,
+          }))
+          .sort((a: any, b: any) => a.seasonNumber - b.seasonNumber)
+      : [];
+
     const entityPayload = {
       title,
       director,
@@ -126,17 +149,14 @@ router.post('/add', (req: any, res: any) => {
       coverUrl: normalizeString(entity.coverUrl, 'coverUrl') || '',
       releaseDate: normalizeString(entity.releaseDate, 'releaseDate') || '',
       endDate: normalizeString(entity.endDate, 'endDate') || '',
-      totalLength: normalizeNumber(entity.totalLength, 'totalLength') || 0,
       genre: normalizeString(entity.genre, 'genre') || '',
-      nbSeasons: normalizeNumber(entity.nbSeasons, 'nbSeasons') || 0,
-      nbEpisodesTotal:
-        normalizeNumber(entity.nbEpisodesTotal, 'nbEpisodesTotal') || 0,
+      seasonsData,
     };
 
     const userPayload = {
       title,
       director,
-      nbSeasons: entityPayload.nbSeasons || 0,
+      seasonsCount: entityPayload.seasonsData.length,
     };
 
     const baseSerieContent = appendObjectToArrayFile(

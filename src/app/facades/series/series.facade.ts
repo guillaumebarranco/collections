@@ -18,13 +18,13 @@ import {
 } from './api-series.facade';
 
 function buildSeasons(
-  nbSeasons: number,
+  seasonsCount: number,
   existing?: UserSerieSeason[]
 ): UserSerieSeason[] {
-  const safeNbSeasons = Math.max(0, Number(nbSeasons) || 0);
+  const safeNbSeasons = Math.max(0, Number(seasonsCount) || 0);
   if (existing && existing.length > 0) {
     if (existing.length >= safeNbSeasons) {
-      return existing.slice(0, safeNbSeasons);
+    return existing.slice(0, safeNbSeasons);
     }
     const missing = Array.from(
       { length: safeNbSeasons - existing.length },
@@ -60,10 +60,7 @@ async function getAllSeriesData(series: UserSerie[]): Promise<Serie[]> {
           })[0];
 
     const seasonsCount =
-      definitiveMatchingSerie?.seasonsData?.length ??
-      definitiveMatchingSerie?.nbSeasons ??
-      serie.seasons?.length ??
-      0;
+      definitiveMatchingSerie?.seasonsData?.length ?? serie.seasons?.length ?? 0;
     const seasons = buildSeasons(seasonsCount, serie.seasons);
 
     return {
@@ -74,9 +71,6 @@ async function getAllSeriesData(series: UserSerie[]): Promise<Serie[]> {
       coverUrl: definitiveMatchingSerie?.coverUrl || '',
       releaseDate: definitiveMatchingSerie?.releaseDate || '',
       endDate: definitiveMatchingSerie?.endDate || '',
-      nbEpisodesTotal: definitiveMatchingSerie?.nbEpisodesTotal || 0,
-      nbSeasons: definitiveMatchingSerie?.nbSeasons || 0,
-      totalLength: definitiveMatchingSerie?.totalLength || 0,
       genre: definitiveMatchingSerie?.genre || '',
       seasonsData: definitiveMatchingSerie?.seasonsData || [],
     };

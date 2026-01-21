@@ -11,10 +11,12 @@ type AddSerieEntityForm = {
   coverUrl: string;
   releaseDate: string;
   endDate: string;
-  totalLength: number;
-  nbSeasons: number;
-  nbEpisodesTotal: number;
   genre: string;
+  seasonsData: {
+    seasonNumber: number;
+    nbEpisodes: number;
+    totalLength: number;
+  }[];
 };
 
 type AddSerieDialogData = {
@@ -45,10 +47,8 @@ export class AddSerieComponent {
     coverUrl: '',
     releaseDate: '',
     endDate: '',
-    totalLength: 0,
-    nbSeasons: 0,
-    nbEpisodesTotal: 0,
     genre: '',
+    seasonsData: [],
   });
 
   close() {
@@ -61,19 +61,49 @@ export class AddSerieComponent {
   ) {
     const current = this.entityForm();
     let nextValue: AddSerieEntityForm[K] = value as AddSerieEntityForm[K];
-    if (
-      field === 'totalLength' ||
-      field === 'nbSeasons' ||
-      field === 'nbEpisodesTotal'
-    ) {
-      const asNumber = Number(value);
-      nextValue = (
-        Number.isNaN(asNumber) ? 0 : asNumber
-      ) as AddSerieEntityForm[K];
-    }
     this.entityForm.set({
       ...current,
       [field]: nextValue,
+    });
+  }
+
+  addSeason() {
+    const current = this.entityForm();
+    const nextNumber = current.seasonsData.length + 1;
+    this.entityForm.set({
+      ...current,
+      seasonsData: [
+        ...current.seasonsData,
+        { seasonNumber: nextNumber, nbEpisodes: 0, totalLength: 0 },
+      ],
+    });
+  }
+
+  removeSeason(index: number) {
+    const current = this.entityForm();
+    const nextSeasons = current.seasonsData
+      .filter((_, i) => i !== index)
+      .map((season, i) => ({ ...season, seasonNumber: i + 1 }));
+    this.entityForm.set({
+      ...current,
+      seasonsData: nextSeasons,
+    });
+  }
+
+  updateSeasonField(
+    index: number,
+    field: 'nbEpisodes' | 'totalLength',
+    value: string | number
+  ) {
+    const current = this.entityForm();
+    const asNumber = Number(value);
+    const normalized = Number.isNaN(asNumber) ? 0 : asNumber;
+    const seasonsData = current.seasonsData.map((season, i) =>
+      i === index ? { ...season, [field]: normalized } : season
+    );
+    this.entityForm.set({
+      ...current,
+      seasonsData,
     });
   }
 
@@ -93,6 +123,10 @@ export class AddSerieComponent {
     const entity = this.entityForm();
     if (!entity.title || !entity.director) {
       this.errorMessage.set('Titre et créateur sont obligatoires.');
+      return;
+    }
+    if (entity.seasonsData.length === 0) {
+      this.errorMessage.set('Ajoutez au moins une saison.');
       return;
     }
 

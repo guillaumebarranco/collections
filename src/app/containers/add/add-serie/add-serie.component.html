@@ -77,39 +77,45 @@
       </div>
 
       <div class="form-row">
-        <label for="nbSeasons">Saisons</label>
-        <input
-          id="nbSeasons"
-          type="number"
-          min="0"
-          [ngModel]="entityForm().nbSeasons"
-          (ngModelChange)="updateEntityField('nbSeasons', $event)"
-          name="nbSeasons"
-        />
-      </div>
-
-      <div class="form-row">
-        <label for="nbEpisodesTotal">Épisodes</label>
-        <input
-          id="nbEpisodesTotal"
-          type="number"
-          min="0"
-          [ngModel]="entityForm().nbEpisodesTotal"
-          (ngModelChange)="updateEntityField('nbEpisodesTotal', $event)"
-          name="nbEpisodesTotal"
-        />
-      </div>
-
-      <div class="form-row">
-        <label for="totalLength">Durée totale (min)</label>
-        <input
-          id="totalLength"
-          type="number"
-          min="0"
-          [ngModel]="entityForm().totalLength"
-          (ngModelChange)="updateEntityField('totalLength', $event)"
-          name="totalLength"
-        />
+        <label>Saisons</label>
+        <div class="seasons-list">
+          @for (season of entityForm().seasonsData; let i = $index; track
+          season.seasonNumber) {
+          <div class="season-row">
+            <div class="season-title">Saison {{ season.seasonNumber }}</div>
+            <label>
+              Épisodes
+              <input
+                type="number"
+                min="0"
+                [ngModel]="season.nbEpisodes"
+                (ngModelChange)="updateSeasonField(i, 'nbEpisodes', $event)"
+                name="nbEpisodes-{{ i }}"
+              />
+            </label>
+            <label>
+              Durée totale (min)
+              <input
+                type="number"
+                min="0"
+                [ngModel]="season.totalLength"
+                (ngModelChange)="updateSeasonField(i, 'totalLength', $event)"
+                name="totalLength-{{ i }}"
+              />
+            </label>
+            <button
+              type="button"
+              class="btn secondary"
+              (click)="removeSeason(i)"
+            >
+              Supprimer
+            </button>
+          </div>
+          }
+          <button type="button" class="btn secondary" (click)="addSeason()">
+            Ajouter une saison
+          </button>
+        </div>
       </div>
 
       <div class="form-row">
@@ -133,7 +139,7 @@
         Annuler
       </button>
       <button type="submit" class="btn primary" [disabled]="isSaving()">
-        {{ isSaving() ? 'Ajout...' : 'Ajouter' }}
+        {{ isSaving() ? "Ajout..." : "Ajouter" }}
       </button>
     </div>
   </form>

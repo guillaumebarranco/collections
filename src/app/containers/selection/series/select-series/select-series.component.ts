@@ -111,7 +111,7 @@ export class SelectSeriesComponent
     return baseSeries.map((serie) => ({
       ...serie,
       seasons: Array.from(
-        { length: serie.seasonsData?.length ?? serie.nbSeasons ?? 0 },
+        { length: serie.seasonsData?.length ?? 0 },
         (_, index) => ({
           seasonNumber: index + 1,
           seasonRating: 0,

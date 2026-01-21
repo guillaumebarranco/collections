@@ -49,8 +49,8 @@ function escapeString(value: string) {
   return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
 }
 
-function buildSeasons(nbSeasons: number) {
-  const count = Math.max(0, Number(nbSeasons) || 0);
+function buildSeasons(seasonsCount: number) {
+  const count = Math.max(0, Number(seasonsCount) || 0);
   return Array.from({ length: count }, (_, index) => ({
     seasonNumber: index + 1,
     seasonRating: 0,
@@ -70,7 +70,7 @@ function formatSeasons(seasons: any[]) {
 }
 
 function formatUserSerie(serie: any) {
-  const seasons = buildSeasons(serie.nbSeasons);
+  const seasons = buildSeasons(serie.seasonsCount);
   return `  {
     title: '${escapeString(serie.title)}',
     director: '${escapeString(serie.director)}',
@@ -79,7 +79,7 @@ ${formatSeasons(seasons)}
 }
 
 function formatWatchlistSerie(serie: any) {
-  const seasons = buildSeasons(serie.nbSeasons);
+  const seasons = buildSeasons(serie.seasonsCount);
   return `  {
     title: '${escapeString(serie.title)}',
     director: '${escapeString(serie.director)}',
@@ -142,7 +142,7 @@ router.post('/add-existing', (req: any, res: any) => {
       .map((serie: any) => ({
         title: normalizeString(serie.title, 'title'),
         director: normalizeString(serie.director, 'director'),
-        nbSeasons: 0,
+        seasonsCount: 0,
       }))
       .filter((serie: any) => serie.title && serie.director);
 
@@ -170,9 +170,10 @@ router.post('/add-existing', (req: any, res: any) => {
       )
       .map((serie: any) => {
         const baseSerie = findBaseSerie(serie.title, serie.director);
+        const seasonsCount = baseSerie?.seasonsData?.length ?? 0;
         return {
           ...serie,
-          nbSeasons: baseSerie?.nbSeasons ?? 0,
+          seasonsCount,
         };
       });
 
