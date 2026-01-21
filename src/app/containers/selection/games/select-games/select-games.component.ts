@@ -137,6 +137,7 @@ export class SelectGamesComponent
       timesFinished: 0,
       additionnalEstimatedTime: 0,
       platined: false,
+      timesFinishedHundredPercent: 0,
     }));
   }
 

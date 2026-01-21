@@ -34,6 +34,7 @@ function formatUserGame(user: any): string {
     rating: ${user.rating ?? 0},
     timesFinished: ${user.timesFinished ?? 1},
     additionnalEstimatedTime: ${user.additionnalEstimatedTime ?? 0},
+    timesFinishedHundredPercent: ${user.timesFinishedHundredPercent ?? 0},
     platined: ${user.platined ?? false},
   },`;
 }
@@ -59,10 +60,14 @@ function getUserGamesTargetFile(userId: string) {
     .readdirSync(userDir)
     .filter(
       (file: string) =>
-        file.endsWith('.ts') && file !== 'index.ts' && !file.includes('readlist')
+        file.endsWith('.ts') &&
+        file !== 'index.ts' &&
+        !file.includes('readlist')
     );
 
-  const preferred = files.find((file: string) => file.includes(`${userId}_games`));
+  const preferred = files.find((file: string) =>
+    file.includes(`${userId}_games`)
+  );
   const selected = preferred || files.sort()[0];
   if (!selected) {
     throw new Error(`User games file not found: ${userId}`);
@@ -114,8 +119,16 @@ router.post('/add', (req: any, res: any) => {
       rating: normalizeNumber(user.rating, 'rating') ?? 0,
       timesFinished: normalizeNumber(user.timesFinished, 'timesFinished') ?? 1,
       additionnalEstimatedTime:
-        normalizeNumber(user.additionnalEstimatedTime, 'additionnalEstimatedTime') ?? 0,
+        normalizeNumber(
+          user.additionnalEstimatedTime,
+          'additionnalEstimatedTime'
+        ) ?? 0,
       platined: normalizeBoolean(user.platined, 'platined') ?? false,
+      timesFinishedHundredPercent:
+        normalizeNumber(
+          user.timesFinishedHundredPercent,
+          'timesFinishedHundredPercent'
+        ) ?? 0,
     };
 
     const baseGameContent = appendObjectToArrayFile(

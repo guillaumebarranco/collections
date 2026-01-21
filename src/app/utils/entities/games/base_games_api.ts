@@ -5,38 +5,41 @@ export const baseGamesApi: BaseGame[] = [
     title: 'Tetris',
     editor: 'Nintendo',
     hero: '',
-    coverUrl: 'https://assets-prd.ignimgs.com/2022/01/28/tetris-gb-button-edit-1643393575715.jpg',
+    coverUrl:
+      'https://assets-prd.ignimgs.com/2022/01/28/tetris-gb-button-edit-1643393575715.jpg',
     releaseDate: '1984-06-06',
     averageTimeToFinish: 9997,
+    averageTimeToHundredPercent: 0,
     platform: '',
     saga: '',
     platineTime: 0,
   },
-
   {
     title: 'Super Mario 2',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl: 'https://upload.wikimedia.org/wikipedia/en/0/0d/Super_Mario_Land_2_box_art.jpg',
+    coverUrl:
+      'https://upload.wikimedia.org/wikipedia/en/0/0d/Super_Mario_Land_2_box_art.jpg',
     releaseDate: '1992-10-21',
     averageTimeToFinish: 0,
+    averageTimeToHundredPercent: 0,
     platform: 'Game Boy',
     saga: 'Mario',
     platineTime: 0,
   },
-
   {
     title: 'Teenage Mutant Hero Turtles: Fall of the Foot Clan',
     editor: 'Konami',
     hero: 'Tortues Ninja',
-    coverUrl: 'https://upload.wikimedia.org/wikipedia/en/5/5a/Teenage_Mutant_Ninja_Turtles_-_Fall_of_the_Foot_Clan_Coverart.png',
+    coverUrl:
+      'https://upload.wikimedia.org/wikipedia/en/5/5a/Teenage_Mutant_Ninja_Turtles_-_Fall_of_the_Foot_Clan_Coverart.png',
     releaseDate: '1990-08-02',
     averageTimeToFinish: 2,
+    averageTimeToHundredPercent: 0,
     platform: 'Game Boy',
     saga: '',
     platineTime: 0,
   },
-
   {
     title: 'Double Dragon',
     editor: 'Nintendo',
@@ -44,35 +47,37 @@ export const baseGamesApi: BaseGame[] = [
     coverUrl: 'https://www.mariogba.nl/Plaatjes/Box_origi/Double_Dragon.jpg',
     releaseDate: '1991-04-17',
     averageTimeToFinish: 3,
+    averageTimeToHundredPercent: 0,
     platform: 'Game Boy',
     saga: '',
     platineTime: 0,
   },
-
   {
     title: 'Pokemon Jaune',
     editor: 'Nintendo',
     hero: '',
-    coverUrl: 'https://www.gamecash.fr/thumbnail-400-450/pokemon-jaune-e57727.jpg',
+    coverUrl:
+      'https://www.gamecash.fr/thumbnail-400-450/pokemon-jaune-e57727.jpg',
     releaseDate: '1998-09-12',
     averageTimeToFinish: 30,
+    averageTimeToHundredPercent: 0,
     platform: 'Game Boy',
     saga: 'Pokemon',
     platineTime: 0,
   },
-
   {
     title: 'Bomberman GB',
     editor: 'Nintendo',
     hero: '',
-    coverUrl: 'https://cdn.mobygames.com/covers/8971580-bomberman-gb-game-boy-front-cover.jpg',
+    coverUrl:
+      'https://cdn.mobygames.com/covers/8971580-bomberman-gb-game-boy-front-cover.jpg',
     releaseDate: '1995-06-29',
     averageTimeToFinish: 2,
+    averageTimeToHundredPercent: 0,
     platform: '',
     saga: 'Bomberman',
     platineTime: 0,
   },
-
   {
     title: 'Harry Potter et La Chambre des Secrets',
     editor: 'Electronic Arts',
@@ -80,47 +85,50 @@ export const baseGamesApi: BaseGame[] = [
     coverUrl: 'https://image.jeuxvideo.com/images/gb/h/a/hap2gb0f.jpg',
     releaseDate: '2002-11-15',
     averageTimeToFinish: 15,
+    averageTimeToHundredPercent: 0,
     platform: 'Game Boy Color',
     saga: 'Harry Potter',
     platineTime: 0,
   },
-
   {
-    title: 'Harry Potter à l\'école des sorciers',
+    title: "Harry Potter à l'école des sorciers",
     editor: 'Electronic Arts',
     hero: 'Harry Potter',
-    coverUrl: 'https://static.wikia.nocookie.net/harrypotter/images/1/12/Harry_Potter_%C3%A0_l%27%C3%A9cole_des_sorciers_GBA_%28recto%29.jpg/revision/latest?cb=20160424135633&path-prefix=fr',
+    coverUrl:
+      'https://static.wikia.nocookie.net/harrypotter/images/1/12/Harry_Potter_%C3%A0_l%27%C3%A9cole_des_sorciers_GBA_%28recto%29.jpg/revision/latest?cb=20160424135633&path-prefix=fr',
     releaseDate: '2001-11-16',
     averageTimeToFinish: 11,
+    averageTimeToHundredPercent: 0,
     platform: 'Game Boy Advance',
     saga: 'Harry Potter',
     platineTime: 0,
   },
-
   {
     title: 'Harry Potter et La Coupe de Feu',
     editor: 'Electronic Arts',
     hero: 'Harry Potter',
-    coverUrl: 'https://m.media-amazon.com/images/I/61xUkQKW8gL._AC_UF894,1000_QL80_.jpg',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/61xUkQKW8gL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '2005-11-10',
     averageTimeToFinish: 8,
+    averageTimeToHundredPercent: 0,
     platform: 'Game Boy Advance',
     saga: 'Harry Potter',
     platineTime: 0,
   },
-
   {
     title: 'Pokemon version Ruby',
     editor: 'Nintendo',
     hero: '',
-    coverUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEWJP6Hd8TQ2H924h3wI8amUeEtxn3avir6w&s',
+    coverUrl:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEWJP6Hd8TQ2H924h3wI8amUeEtxn3avir6w&s',
     releaseDate: '2003-07-25',
     averageTimeToFinish: 35,
+    averageTimeToHundredPercent: 0,
     platform: 'Game Boy Advance',
     saga: 'Pokemon',
     platineTime: 0,
   },
-
   {
     title: 'Sonic Advance',
     editor: 'Sega',
@@ -128,11 +136,11 @@ export const baseGamesApi: BaseGame[] = [
     coverUrl: 'https://www.gamecash.fr/thumbnail-600/sonic-advance-e16431.jpg',
     releaseDate: '2001-12-20',
     averageTimeToFinish: 4,
+    averageTimeToHundredPercent: 0,
     platform: 'Game Boy Advance',
     saga: 'Sonic',
     platineTime: 0,
   },
-
   {
     title: 'Star Wars III - La Revanche des Siths',
     editor: 'Ubisoft',
@@ -140,11 +148,11 @@ export const baseGamesApi: BaseGame[] = [
     coverUrl: 'https://m.media-amazon.com/images/I/61TkXlkS9ZL.jpg',
     releaseDate: '2005-05-06',
     averageTimeToFinish: 4,
+    averageTimeToHundredPercent: 0,
     platform: '',
     saga: 'Star Wars',
     platineTime: 0,
   },
-
   {
     title: 'Spider-Man 3',
     editor: 'Activision',
@@ -152,11 +160,11 @@ export const baseGamesApi: BaseGame[] = [
     coverUrl: 'https://image.jeuxvideo.com/images/ga/s/p/spi3ga0f.jpg',
     releaseDate: '2007-05-04',
     averageTimeToFinish: 7,
+    averageTimeToHundredPercent: 0,
     platform: 'Game Boy Advance',
     saga: 'Spider-Man',
     platineTime: 0,
   },
-
   {
     title: 'Les Urbz - Les Sims in the City',
     editor: 'Electronic Arts',
@@ -164,11 +172,11 @@ export const baseGamesApi: BaseGame[] = [
     coverUrl: 'https://image.jeuxvideo.com/images/ga/t/u/turbga0f.jpg',
     releaseDate: '2004-11-09',
     averageTimeToFinish: 20,
+    averageTimeToHundredPercent: 0,
     platform: 'Game Boy Advance',
     saga: 'Les Sims',
     platineTime: 0,
   },
-
   {
     title: 'Star Wars : Flight of the Falcon',
     editor: 'Ubisoft',
@@ -176,83 +184,89 @@ export const baseGamesApi: BaseGame[] = [
     coverUrl: 'https://image.jeuxvideo.com/images/ga/s/w/swffga0f.jpg',
     releaseDate: '2003-11-18',
     averageTimeToFinish: 4,
+    averageTimeToHundredPercent: 0,
     platform: 'Game Boy Advance',
     saga: 'Star Wars',
     platineTime: 0,
   },
-
   {
     title: 'Custom Robo Arena',
     editor: 'Nintendo',
     hero: '',
-    coverUrl: 'https://static.fnac-static.com/multimedia/images_produits/ZoomPE/0/3/5/0045496464530/tsp20250116231403/Custom-Robo-Arena.jpg',
+    coverUrl:
+      'https://static.fnac-static.com/multimedia/images_produits/ZoomPE/0/3/5/0045496464530/tsp20250116231403/Custom-Robo-Arena.jpg',
     releaseDate: '2006-05-15',
     averageTimeToFinish: 13,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: '',
     platineTime: 0,
   },
-
   {
     title: 'Animal Crossing : Wild World',
     editor: 'Nintendo',
     hero: '',
-    coverUrl: 'https://en.wikipedia.org/wiki/Animal_Crossing:_Wild_World#/media/File:Animal_Crossing_Wild_World_cover.png',
+    coverUrl:
+      'https://en.wikipedia.org/wiki/Animal_Crossing:_Wild_World#/media/File:Animal_Crossing_Wild_World_cover.png',
     releaseDate: '2006-10-05',
     averageTimeToFinish: 40,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: '',
     platineTime: 0,
   },
-
   {
     title: 'Arthur et les Minimoys',
     editor: 'Atari',
     hero: '',
-    coverUrl: 'https://auixaysgjr.cloudimg.io/https://cdn.easycash.fr/img/prod/0/0/0/2/0/5/5/4/8/src/3621806-arthur-et-les-minimoys-ds.jpg?ci_sign=ea796f51ec14e52ba622031e191b442a57e55f1c',
+    coverUrl:
+      'https://auixaysgjr.cloudimg.io/https://cdn.easycash.fr/img/prod/0/0/0/2/0/5/5/4/8/src/3621806-arthur-et-les-minimoys-ds.jpg?ci_sign=ea796f51ec14e52ba622031e191b442a57e55f1c',
     releaseDate: '2006-12-01',
     averageTimeToFinish: 4,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: '',
     platineTime: 0,
   },
-
   {
     title: 'Assassin’s Creed Altaïr Chronicles',
     editor: 'Ubisoft',
     hero: '',
-    coverUrl: 'https://www.reference-gaming.com/assets/media/product/87768/assassin-s-creed-altair-s-chronicles.jpg?format=product-cover-large&k=1582810910',
+    coverUrl:
+      'https://www.reference-gaming.com/assets/media/product/87768/assassin-s-creed-altair-s-chronicles.jpg?format=product-cover-large&k=1582810910',
     releaseDate: '2008-02-05',
     averageTimeToFinish: 7,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
-    saga: 'Assassin\'s Creed',
+    saga: "Assassin's Creed",
     platineTime: 0,
   },
-
   {
     title: 'Assassin’s Creed II : Discovery',
     editor: 'Ubisoft',
     hero: '',
-    coverUrl: 'https://image.jeuxvideo.com/images/jaquettes/00031942/jaquette-assassin-s-creed-ii-discovery-nintendo-ds-cover-avant-g.jpg',
+    coverUrl:
+      'https://image.jeuxvideo.com/images/jaquettes/00031942/jaquette-assassin-s-creed-ii-discovery-nintendo-ds-cover-avant-g.jpg',
     releaseDate: '2009-11-12',
     averageTimeToFinish: 7,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
-    saga: 'Assassin\'s Creed',
+    saga: "Assassin's Creed",
     platineTime: 0,
   },
-
   {
     title: 'Astérix aux Jeux Olympiques',
     editor: 'Atari',
     hero: 'Astérix',
-    coverUrl: 'https://cdn.cultura.com/cdn-cgi/image/width=450/media/pim/asterix-aux-jeux-olympiques-ds-3546430133903_0.jpg',
+    coverUrl:
+      'https://cdn.cultura.com/cdn-cgi/image/width=450/media/pim/asterix-aux-jeux-olympiques-ds-3546430133903_0.jpg',
     releaseDate: '2008-02-01',
     averageTimeToFinish: 6,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Astérix',
     platineTime: 0,
   },
-
   {
     title: 'Call of Duty 4 : Modern Warfare',
     editor: 'Activision',
@@ -260,11 +274,11 @@ export const baseGamesApi: BaseGame[] = [
     coverUrl: 'https://image.jeuxvideo.com/images-sm/ds/c/o/codwds0f.jpg',
     releaseDate: '2007-11-07',
     averageTimeToFinish: 8,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Call of Duty',
     platineTime: 0,
   },
-
   {
     title: 'Dragon Ball Z: Harukanaru Densetsu',
     editor: 'Atari',
@@ -272,11 +286,11 @@ export const baseGamesApi: BaseGame[] = [
     coverUrl: 'https://image.jeuxvideo.com/images-sm/ds/d/b/dbgkds0f.jpg',
     releaseDate: '2007-03-30',
     averageTimeToFinish: 14,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Dragon Ball',
     platineTime: 0,
   },
-
   {
     title: 'Dragon Ball Z: Supersonic Warriors 2',
     editor: 'Atari',
@@ -284,23 +298,24 @@ export const baseGamesApi: BaseGame[] = [
     coverUrl: 'https://image.jeuxvideo.com/images/ds/s/s/ssw2ds0f.jpg',
     releaseDate: '2006-10-20',
     averageTimeToFinish: 7,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Dragon Ball',
     platineTime: 0,
   },
-
   {
     title: 'Eragon',
     editor: 'Vivendi',
     hero: 'Eragon',
-    coverUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZAICeGchXMdXRfo69gsYlADV2GUYuCL8GNg&s',
+    coverUrl:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZAICeGchXMdXRfo69gsYlADV2GUYuCL8GNg&s',
     releaseDate: '2006-11-24',
     averageTimeToFinish: 7,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: '',
     platineTime: 0,
   },
-
   {
     title: 'FIFA 10',
     editor: 'Electronic Arts',
@@ -308,11 +323,11 @@ export const baseGamesApi: BaseGame[] = [
     coverUrl: '',
     releaseDate: '2009-10-02',
     averageTimeToFinish: 22,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'FIFA',
     platineTime: 0,
   },
-
   {
     title: 'Dragon Quest IX : Les Sentinelles du Firmament',
     editor: 'Nintendo',
@@ -320,23 +335,24 @@ export const baseGamesApi: BaseGame[] = [
     coverUrl: 'https://m.media-amazon.com/images/I/91vrJe-oK2L._AC_SL1500_.jpg',
     releaseDate: '2010-07-23',
     averageTimeToFinish: 55,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Dragon Quest',
     platineTime: 0,
   },
-
   {
     title: 'Galactick Football',
     editor: 'Ubisoft',
     hero: '',
-    coverUrl: 'https://auixaysgjr.cloudimg.io/https://cdn.easycash.fr/img/prod/0/0/0/2/1/9/4/1/2/src/3590610-galactik-football-ds.jpg?ci_sign=ed536a2d37777dfa725bef6810810c5be41c1c7b',
+    coverUrl:
+      'https://auixaysgjr.cloudimg.io/https://cdn.easycash.fr/img/prod/0/0/0/2/1/9/4/1/2/src/3590610-galactik-football-ds.jpg?ci_sign=ed536a2d37777dfa725bef6810810c5be41c1c7b',
     releaseDate: '2007-06-22',
     averageTimeToFinish: 4,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: '',
     platineTime: 0,
   },
-
   {
     title: 'Grand Theft Auto: Chinatown Wars',
     editor: 'Rockstar',
@@ -344,11 +360,11 @@ export const baseGamesApi: BaseGame[] = [
     coverUrl: 'https://m.media-amazon.com/images/I/818SjSPLrES.jpg',
     releaseDate: '2009-03-20',
     averageTimeToFinish: 15,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Grand Theft Auto',
     platineTime: 0,
   },
-
   {
     title: 'Guitar Hero: On Tour',
     editor: 'Activision',
@@ -356,107 +372,115 @@ export const baseGamesApi: BaseGame[] = [
     coverUrl: 'https://m.media-amazon.com/images/I/81K7W2Z4fiL.jpg',
     releaseDate: '2008-06-20',
     averageTimeToFinish: 8,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Guitar Hero',
     platineTime: 0,
   },
-
   {
     title: 'Harry Potter et la Coupe de Feu',
     editor: 'Electronic Arts',
     hero: 'Harry Potter',
-    coverUrl: 'https://static.fnac-static.com/multimedia/images_produits/ZoomPE/7/4/5/5030931045547/tsp20130828115502/Harry-Potter-et-la-Coupe-De-Feu.jpg',
+    coverUrl:
+      'https://static.fnac-static.com/multimedia/images_produits/ZoomPE/7/4/5/5030931045547/tsp20130828115502/Harry-Potter-et-la-Coupe-De-Feu.jpg',
     releaseDate: '2005-11-11',
     averageTimeToFinish: 5,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Harry Potter',
     platineTime: 0,
   },
-
   {
-    title: 'Harry Potter et l\'Ordre du Phénix',
+    title: "Harry Potter et l'Ordre du Phénix",
     editor: 'Electronic Arts',
     hero: 'Harry Potter',
-    coverUrl: 'https://static.fnac-static.com/multimedia/FR/Images_Produits/FR/fnac.com/Visual_Principal_340/5/3/3/5030931057335/tsp20250116152818/Harry-Potter-et-l-Ordre-du-Phenix.jpg',
+    coverUrl:
+      'https://static.fnac-static.com/multimedia/FR/Images_Produits/FR/fnac.com/Visual_Principal_340/5/3/3/5030931057335/tsp20250116152818/Harry-Potter-et-l-Ordre-du-Phenix.jpg',
     releaseDate: '2007-06-29',
     averageTimeToFinish: 9,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Harry Potter',
     platineTime: 0,
   },
-
   {
     title: 'Harry Potter et le Prince de Sang Mêlé',
     editor: 'Electronic Arts',
     hero: 'Harry Potter',
-    coverUrl: 'https://m.media-amazon.com/images/I/71IH8ekPn7L._AC_UF894,1000_QL80_.jpg',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/71IH8ekPn7L._AC_UF894,1000_QL80_.jpg',
     releaseDate: '2009-07-03',
     averageTimeToFinish: 0,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Harry Potter',
     platineTime: 0,
   },
-
   {
     title: 'Iron Man',
     editor: 'Sega',
     hero: 'Iron Man',
-    coverUrl: 'https://www.cdiscount.com/pdt2/6/1/6/1/700x700/5060138437616/rw/iron-man-nds.jpg',
+    coverUrl:
+      'https://www.cdiscount.com/pdt2/6/1/6/1/700x700/5060138437616/rw/iron-man-nds.jpg',
     releaseDate: '2008-05-02',
     averageTimeToFinish: 7,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Marvel',
     platineTime: 0,
   },
-
   {
     title: 'Jump Ultimate Stars',
     editor: 'Nintendo',
     hero: '',
-    coverUrl: 'https://upload.wikimedia.org/wikipedia/en/0/0d/Jump_Ultimate_Stars_boxart.jpg',
+    coverUrl:
+      'https://upload.wikimedia.org/wikipedia/en/0/0d/Jump_Ultimate_Stars_boxart.jpg',
     releaseDate: '2006-11-23',
     averageTimeToFinish: 12,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: '',
     platineTime: 0,
   },
-
   {
     title: 'Zelda Phantom Hourglass',
     editor: 'Nintendo',
     hero: '',
-    coverUrl: 'https://static.fnac-static.com/multimedia/images_produits/ZoomPE/4/8/3/0045496465384/tsp20250116231508/The-Legend-of-Zelda-Phantom-Hourgla.jpg',
+    coverUrl:
+      'https://static.fnac-static.com/multimedia/images_produits/ZoomPE/4/8/3/0045496465384/tsp20250116231508/The-Legend-of-Zelda-Phantom-Hourgla.jpg',
     releaseDate: '2007-10-19',
     averageTimeToFinish: 16,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'The Legend of Zelda',
     platineTime: 0,
   },
-
   {
     title: 'Lego Batman',
     editor: 'Warner',
     hero: 'Batman',
-    coverUrl: 'https://cdn.cultura.com/cdn-cgi/image/width=450/media/pim/lego-batman-ds-5051602222845_1.jpg',
+    coverUrl:
+      'https://cdn.cultura.com/cdn-cgi/image/width=450/media/pim/lego-batman-ds-5051602222845_1.jpg',
     releaseDate: '2008-10-10',
     averageTimeToFinish: 11,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'LEGO',
     platineTime: 0,
   },
-
   {
     title: 'LEGO Indiana Jones',
     editor: 'LucasArts',
     hero: 'Indiana Jones',
-    coverUrl: 'https://img.leboncoin.fr/api/v1/lbcpb1/images/62/1c/3c/621c3c3f7600753500f010b5b19015b56fb068fd.jpg?rule=ad-large',
+    coverUrl:
+      'https://img.leboncoin.fr/api/v1/lbcpb1/images/62/1c/3c/621c3c3f7600753500f010b5b19015b56fb068fd.jpg?rule=ad-large',
     releaseDate: '2008-06-06',
     averageTimeToFinish: 11,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'LEGO',
     platineTime: 0,
   },
-
   {
     title: 'LEGO Star Wars : The Complete Saga',
     editor: 'LucasArts',
@@ -464,11 +488,11 @@ export const baseGamesApi: BaseGame[] = [
     coverUrl: 'https://m.media-amazon.com/images/I/71UicCLM4RL.jpg',
     releaseDate: '2007-11-07',
     averageTimeToFinish: 18,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Star Wars',
     platineTime: 0,
   },
-
   {
     title: 'Mario & Sonic aux Jeux Olympiques',
     editor: 'Sega',
@@ -476,35 +500,37 @@ export const baseGamesApi: BaseGame[] = [
     coverUrl: 'https://image.jeuxvideo.com/images-sm/ds/m/a/masods0f.jpg',
     releaseDate: '2007-11-23',
     averageTimeToFinish: 13,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Mario',
     platineTime: 0,
   },
-
   {
     title: 'Mario & Sonic JO Hiver',
     editor: 'Sega',
     hero: 'Mario',
-    coverUrl: 'https://auixaysgjr.cloudimg.io/https://cdn.easycash.fr/img/prod/0/0/1/2/6/0/3/2/0/src/3607434-mario-sonic-aux-jeux-olympiques-dhiver-ds.jpg?ci_sign=6996d6bda67b5f19c042677e838cc419df499d9d',
+    coverUrl:
+      'https://auixaysgjr.cloudimg.io/https://cdn.easycash.fr/img/prod/0/0/1/2/6/0/3/2/0/src/3607434-mario-sonic-aux-jeux-olympiques-dhiver-ds.jpg?ci_sign=6996d6bda67b5f19c042677e838cc419df499d9d',
     releaseDate: '2009-10-16',
     averageTimeToFinish: 13,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Mario',
     platineTime: 0,
   },
-
   {
     title: 'Mario Kart DS',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl: 'https://m.media-amazon.com/images/I/71P7jmp88kL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/71P7jmp88kL._AC_UF1000,1000_QL80_.jpg',
     releaseDate: '2005-11-11',
     averageTimeToFinish: 19,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Mario',
     platineTime: 0,
   },
-
   {
     title: 'Mario Party DS',
     editor: 'Nintendo',
@@ -512,11 +538,11 @@ export const baseGamesApi: BaseGame[] = [
     coverUrl: 'https://m.media-amazon.com/images/I/71UW3T3DwIL.jpg',
     releaseDate: '2007-11-23',
     averageTimeToFinish: 8,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Mario',
     platineTime: 0,
   },
-
   {
     title: 'Mario Slam Basketball',
     editor: 'Nintendo',
@@ -524,47 +550,50 @@ export const baseGamesApi: BaseGame[] = [
     coverUrl: 'https://image.jeuxvideo.com/images/ds/m/h/mh33ds0f.jpg',
     releaseDate: '2006-05-12',
     averageTimeToFinish: 10,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Mario',
     platineTime: 0,
   },
-
   {
     title: 'Naruto Shippuden: Ninja Council 4',
     editor: 'Ubisoft',
     hero: 'Naruto',
-    coverUrl: 'https://m.media-amazon.com/images/I/81iXhE3yuiL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/81iXhE3yuiL._AC_UF1000,1000_QL80_.jpg',
     releaseDate: '2009-07-24',
     averageTimeToFinish: 7,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Naruto',
     platineTime: 0,
   },
-
   {
     title: 'Naruto: Ninja Destiny 2',
     editor: 'Takara Tomy',
     hero: 'Naruto',
-    coverUrl: 'https://image.jeuxvideo.com/images/jaquettes/00028509/jaquette-naruto-ninja-destiny-2-european-version-nintendo-ds-cover-avant-g.jpg',
+    coverUrl:
+      'https://image.jeuxvideo.com/images/jaquettes/00028509/jaquette-naruto-ninja-destiny-2-european-version-nintendo-ds-cover-avant-g.jpg',
     releaseDate: '2009-03-06',
     averageTimeToFinish: 5,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Naruto',
     platineTime: 0,
   },
-
   {
     title: 'Naruto: Ninja Council 3',
     editor: 'Takara Tomy',
     hero: 'Naruto',
-    coverUrl: 'https://static.wikia.nocookie.net/naruto/images/a/a9/Naruto_NC3.jpg/revision/latest?cb=20220227145558&path-prefix=fr',
+    coverUrl:
+      'https://static.wikia.nocookie.net/naruto/images/a/a9/Naruto_NC3.jpg/revision/latest?cb=20220227145558&path-prefix=fr',
     releaseDate: '2007-07-25',
     averageTimeToFinish: 7,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Naruto',
     platineTime: 0,
   },
-
   {
     title: 'Naruto : Ninja Destiny',
     editor: 'Takara Tomy',
@@ -572,23 +601,24 @@ export const baseGamesApi: BaseGame[] = [
     coverUrl: 'https://i.ebayimg.com/images/g/xj4AAOSwKtBdtIpG/s-l1200.jpg',
     releaseDate: '2006-10-27',
     averageTimeToFinish: 6,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Naruto',
     platineTime: 0,
   },
-
   {
     title: 'Need for Speed : Most Wanted',
     editor: 'Electronic Arts',
     hero: '',
-    coverUrl: 'https://images2.medimops.eu/product/bca387/M0B000AYB0BE-source.jpg',
+    coverUrl:
+      'https://images2.medimops.eu/product/bca387/M0B000AYB0BE-source.jpg',
     releaseDate: '2005-11-25',
     averageTimeToFinish: 9,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Need for Speed',
     platineTime: 0,
   },
-
   {
     title: 'Need for Speed : Nitro',
     editor: 'Electronic Arts',
@@ -596,11 +626,11 @@ export const baseGamesApi: BaseGame[] = [
     coverUrl: 'https://m.media-amazon.com/images/I/71l6Ee81q7S.jpg',
     releaseDate: '2009-11-06',
     averageTimeToFinish: 6,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Need for Speed',
     platineTime: 0,
   },
-
   {
     title: 'Ninja Gaiden: Dragon Sword',
     editor: 'Tecmo',
@@ -608,59 +638,62 @@ export const baseGamesApi: BaseGame[] = [
     coverUrl: 'https://m.media-amazon.com/images/I/718hIfcia6L.jpg',
     releaseDate: '2008-03-20',
     averageTimeToFinish: 9,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Ninja Gaiden',
     platineTime: 0,
   },
-
   {
     title: 'Nintendogs',
     editor: 'Nintendo',
     hero: '',
-    coverUrl: 'https://www.cdiscount.com/pdt2/9/4/9/1/700x700/045496462949/rw/nintendogs-dalmatien.jpg',
+    coverUrl:
+      'https://www.cdiscount.com/pdt2/9/4/9/1/700x700/045496462949/rw/nintendogs-dalmatien.jpg',
     releaseDate: '2005-10-07',
     averageTimeToFinish: 0,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: '',
     platineTime: 15,
   },
-
   {
-    title: 'Pirates des Caraïbes: Jusqu\'au Bout du Monde',
+    title: "Pirates des Caraïbes: Jusqu'au Bout du Monde",
     editor: 'Disney',
     hero: '',
     coverUrl: 'https://fr.shopping.rakuten.com/photo/7785005430_L.jpg',
     releaseDate: '2007-05-25',
     averageTimeToFinish: 7,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: '',
     platineTime: 0,
   },
-
   {
     title: 'Star Wars : Le Pouvoir de la Force',
     editor: 'LucasArts',
     hero: '',
-    coverUrl: 'https://www.reference-gaming.com/assets/media/product/9825/star-wars-le-pouvoir-de-la-force-ds.jpg?format=product-cover-large&k=1449246437',
+    coverUrl:
+      'https://www.reference-gaming.com/assets/media/product/9825/star-wars-le-pouvoir-de-la-force-ds.jpg?format=product-cover-large&k=1449246437',
     releaseDate: '2008-09-19',
     averageTimeToFinish: 9,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Star Wars',
     platineTime: 0,
   },
-
   {
     title: 'Trackmania DS',
     editor: 'Ubisoft',
     hero: '',
-    coverUrl: 'https://cdn.cultura.com/cdn-cgi/image/width=450/media/pim/trackmania-ds-3512289014618_0.jpg',
+    coverUrl:
+      'https://cdn.cultura.com/cdn-cgi/image/width=450/media/pim/trackmania-ds-3512289014618_0.jpg',
     releaseDate: '2008-11-20',
     averageTimeToFinish: 15,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: '',
     platineTime: 0,
   },
-
   {
     title: 'Transformers : The Game',
     editor: 'Activision',
@@ -668,23 +701,24 @@ export const baseGamesApi: BaseGame[] = [
     coverUrl: 'https://image.jeuxvideo.com/images-sm/ds/t/r/trdeds0f.jpg',
     releaseDate: '2007-06-29',
     averageTimeToFinish: 7,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Transformers',
     platineTime: 0,
   },
-
   {
     title: 'X-Men Origins: Wolverine',
     editor: 'Activision',
     hero: '',
-    coverUrl: 'https://image.jeuxvideo.com/images/jaquettes/00028405/jaquette-x-men-origins-wolverine-nintendo-ds-cover-avant-g.jpg',
+    coverUrl:
+      'https://image.jeuxvideo.com/images/jaquettes/00028405/jaquette-x-men-origins-wolverine-nintendo-ds-cover-avant-g.jpg',
     releaseDate: '2009-05-01',
     averageTimeToFinish: 7,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: '',
     platineTime: 0,
   },
-
   {
     title: 'Marvel Nemesis: Rise of the Imperfects',
     editor: 'Electronic Arts',
@@ -692,23 +726,24 @@ export const baseGamesApi: BaseGame[] = [
     coverUrl: 'https://image.jeuxvideo.com/images/ds/m/n/mnaids0f.jpg',
     releaseDate: '2005-05-16',
     averageTimeToFinish: 7,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Marvel',
     platineTime: 0,
   },
-
   {
-    title: 'Programme d\'entraînement cérébral du Dr Kawashima',
+    title: "Programme d'entraînement cérébral du Dr Kawashima",
     editor: 'Nintendo',
     hero: '',
-    coverUrl: 'https://static.fnac-static.com/multimedia/images_produits/ZoomPE/4/7/5/0045496462574.jpg',
+    coverUrl:
+      'https://static.fnac-static.com/multimedia/images_produits/ZoomPE/4/7/5/0045496462574.jpg',
     releaseDate: '2006-06-09',
     averageTimeToFinish: 0,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: '',
     platineTime: 0,
   },
-
   {
     title: 'Professeur Layton et la Boite de Pandore',
     editor: 'Nintendo',
@@ -716,18 +751,20 @@ export const baseGamesApi: BaseGame[] = [
     coverUrl: 'https://m.media-amazon.com/images/I/81b5SSgkGxL.jpg',
     releaseDate: '2008-11-21',
     averageTimeToFinish: 18,
+    averageTimeToHundredPercent: 0,
     platform: 'Nintendo DS',
     saga: 'Professeur Layton',
     platineTime: 0,
   },
-
   {
     title: 'Saints Row 2',
     editor: 'THQ',
     hero: '',
-    coverUrl: 'https://www.bibdsl.co.uk/product-images/g/l/sp101295248376005.jpg',
+    coverUrl:
+      'https://www.bibdsl.co.uk/product-images/g/l/sp101295248376005.jpg',
     releaseDate: '2008-10-17',
     averageTimeToFinish: 30,
+    averageTimeToHundredPercent: 0,
     platform: 'Playstation 3',
     saga: 'Saints Row',
     platineTime: 0,

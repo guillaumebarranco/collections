@@ -24,46 +24,11 @@ import {
   getAllGamelistGames,
 } from '../../../facades/games/games.facade';
 
-export function getTotalDuration(items: ItemWithGameLength[]): TimeStats {
-  let totalHours = 0;
-  for (const item of items) {
-    const length =
-      item.platineTime > 0 ? item.platineTime : item.averageTimeToFinish;
-    totalHours += length;
-  }
-  return formatTimeStats(totalHours * 60);
-}
-
-export function getGameTimePlayed(game: ItemWithGameLength): number {
-  let length = 0;
-  if (game.platineTime > 0) {
-    length = game.platineTime;
-
-    if (game.timesFinished > 1) {
-      length += (game.timesFinished - 1) * game.averageTimeToFinish;
-    }
-
-    length += game.additionnalEstimatedTime;
-  } else {
-    length =
-      game.averageTimeToFinish * game.timesFinished +
-      game.additionnalEstimatedTime;
-  }
-
-  return length;
-}
-
-export function getTotalPlayedTime(items: ItemWithGameLength[]): TimeStats {
-  let totalHours = 0;
-  for (const item of items) {
-    const length = getGameTimePlayed(item);
-
-    if (length) {
-      totalHours += length;
-    }
-  }
-  return formatTimeStats(totalHours * 60);
-}
+import {
+  getTotalTimeToFinishGames,
+  getTotalPlayedTime,
+  getTotalTimeToFinishGamesAtHundredPercent,
+} from '../../../utils/games.utils';
 
 @Component({
   selector: 'app-games',
@@ -247,7 +212,11 @@ export class GamesComponent implements OnInit {
   });
 
   stats = computed<StatItem[]>(() => {
-    const totalTime = getTotalDuration(this.filteredGames());
+    const totalTimeToFinishGames = getTotalTimeToFinishGames(
+      this.filteredGames()
+    );
+    const totalTimeToFinishGamesAtHundredPercent =
+      getTotalTimeToFinishGamesAtHundredPercent(this.filteredGames());
     const totalPlayTime = getTotalPlayedTime(this.filteredGames());
     const totalPlatines = this.filteredGames().filter(
       (game) => game.platined
@@ -256,7 +225,13 @@ export class GamesComponent implements OnInit {
     return [
       {
         label: 'Temps total pour terminer tous les jeux',
-        value: totalTime.formatted,
+        value: totalTimeToFinishGames.formatted,
+        icon: '🎮',
+        color: StatItemColor.SUCCESS,
+      },
+      {
+        label: 'Temps total pour platiner/100% tous les jeux',
+        value: totalTimeToFinishGamesAtHundredPercent.formatted,
         icon: '🎮',
         color: StatItemColor.SUCCESS,
       },

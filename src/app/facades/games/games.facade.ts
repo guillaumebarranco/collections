@@ -42,6 +42,9 @@ async function getAllGamesData(games: UserGame[]): Promise<Game[]> {
       saga: definitiveMatchingGame?.saga || '',
       platineTime: definitiveMatchingGame?.platineTime || 0,
       platined: game.platined,
+      timesFinishedHundredPercent: game.timesFinishedHundredPercent,
+      averageTimeToHundredPercent:
+        definitiveMatchingGame?.averageTimeToHundredPercent || 0,
     };
   });
 }

@@ -126,9 +126,15 @@
           >
             <span
               class="star"
-              [class.star-full]="getStarType(userForm().rating || 0, star) === 'full'"
-              [class.star-half]="getStarType(userForm().rating || 0, star) === 'half'"
-              [class.star-empty]="getStarType(userForm().rating || 0, star) === 'empty'"
+              [class.star-full]="
+                getStarType(userForm().rating || 0, star) === 'full'
+              "
+              [class.star-half]="
+                getStarType(userForm().rating || 0, star) === 'half'
+              "
+              [class.star-empty]="
+                getStarType(userForm().rating || 0, star) === 'empty'
+              "
             >
               &#9733;
             </span>
@@ -160,6 +166,19 @@
           name="additionnalEstimatedTime"
         />
       </div>
+      <div class="form-row">
+        <label for="timesFinishedHundredPercent">Terminé à 100%</label>
+        <input
+          id="timesFinishedHundredPercent"
+          type="number"
+          min="0"
+          [ngModel]="userForm().timesFinishedHundredPercent"
+          (ngModelChange)="
+            updateUserField('timesFinishedHundredPercent', $event)
+          "
+          name="timesFinishedHundredPercent"
+        />
+      </div>
 
       <div class="form-row checkbox-row">
         <label for="platined">Platined</label>
@@ -182,7 +201,7 @@
         Annuler
       </button>
       <button type="submit" class="btn primary" [disabled]="isSaving()">
-        {{ isSaving() ? 'Ajout...' : 'Ajouter' }}
+        {{ isSaving() ? "Ajout..." : "Ajouter" }}
       </button>
     </div>
   </form>

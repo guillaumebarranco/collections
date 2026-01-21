@@ -28,9 +28,12 @@ export interface ItemWithTomes {
 export interface ItemWithGameLength {
   title: string;
   averageTimeToFinish: number;
+  platined: boolean;
   timesFinished: number;
+  timesFinishedHundredPercent: number;
   additionnalEstimatedTime: number;
   platineTime: number;
+  averageTimeToHundredPercent: number;
 }
 
 // Estimation : 1 minute 30s par page en moyenne

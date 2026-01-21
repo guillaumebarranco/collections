@@ -8,6 +8,7 @@ export interface BaseGame extends MandatoryGameData {
   coverUrl: string;
   releaseDate: string;
   averageTimeToFinish: number;
+  averageTimeToHundredPercent: number;
   platform: string;
   saga: string;
   platineTime: number;
@@ -16,6 +17,7 @@ export interface BaseGame extends MandatoryGameData {
 export interface UserGame extends MandatoryGameData {
   rating: number;
   timesFinished: number;
+  timesFinishedHundredPercent: number;
   additionnalEstimatedTime: number;
   platined: boolean;
 }

@@ -20,6 +20,7 @@ type AddGameUserForm = {
   rating: number;
   timesFinished: number;
   additionnalEstimatedTime: number;
+  timesFinishedHundredPercent: number;
   platined: boolean;
 };
 
@@ -60,6 +61,7 @@ export class AddGameComponent {
     rating: 0,
     timesFinished: 1,
     additionnalEstimatedTime: 0,
+    timesFinishedHundredPercent: 0,
     platined: false,
   });
 
@@ -94,7 +96,8 @@ export class AddGameComponent {
     if (
       field === 'rating' ||
       field === 'timesFinished' ||
-      field === 'additionnalEstimatedTime'
+      field === 'additionnalEstimatedTime' ||
+      field === 'timesFinishedHundredPercent'
     ) {
       const asNumber = Number(value);
       nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as AddGameUserForm[K];

@@ -41,7 +41,9 @@ function ensureUserExists(userId: string) {
   const shouldBuild =
     process.env['MAKYA_BUILD'] === 'true' ||
     process.env['NODE_ENV'] === 'production';
-  const args = shouldBuild ? [createUserScript, userId, '--build'] : [createUserScript, userId];
+  const args = shouldBuild
+    ? [createUserScript, userId, '--build']
+    : [createUserScript, userId];
   execFileSync('node', args, { stdio: 'ignore' });
 }
 
@@ -52,6 +54,7 @@ function formatUserGame(game: any): string {
     rating: 0,
     timesFinished: 1,
     additionnalEstimatedTime: 0,
+    timesFinishedHundredPercent: 0,
     platined: false,
   },`;
 }
@@ -63,6 +66,7 @@ function formatGamelistGame(game: any): string {
     rating: 0,
     timesFinished: 0,
     additionnalEstimatedTime: 0,
+    timesFinishedHundredPercent: 0,
     platined: false,
   },`;
 }

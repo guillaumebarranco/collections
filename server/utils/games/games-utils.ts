@@ -59,9 +59,7 @@ function normalizeString(value: any, field: string) {
 }
 
 function parseStringField(objectText: string, key: string) {
-  const regex = new RegExp(
-    `${key}\\s*:\\s*(['"])((?:\\\\.|(?!\\1).)*)\\1`
-  );
+  const regex = new RegExp(`${key}\\s*:\\s*(['"])((?:\\\\.|(?!\\1).)*)\\1`);
   const match = objectText.match(regex);
   if (!match) return null;
   const quote = match[1];
@@ -128,6 +126,8 @@ function parseGamesFromFile(content: string): any[] {
             timesFinished: parseNumberField(objectText, 'timesFinished') ?? 0,
             additionnalEstimatedTime:
               parseNumberField(objectText, 'additionnalEstimatedTime') ?? 0,
+            timesFinishedHundredPercent:
+              parseNumberField(objectText, 'timesFinishedHundredPercent') ?? 0,
             platined: parseBooleanField(objectText, 'platined') ?? false,
           });
         }
@@ -269,6 +269,7 @@ function updateGameInFile(filePath: string, gameData: any): boolean {
     rating: ${game.rating ?? 0},
     timesFinished: ${game.timesFinished ?? 0},
     additionnalEstimatedTime: ${game.additionnalEstimatedTime ?? 0},
+    timesFinishedHundredPercent: ${game.timesFinishedHundredPercent ?? 0},
     platined: ${game.platined ?? false},
   }`
     )
@@ -320,6 +321,7 @@ function removeGameFromFile(content: string, payload: any): string {
     rating: ${game.rating ?? 0},
     timesFinished: ${game.timesFinished ?? 0},
     additionnalEstimatedTime: ${game.additionnalEstimatedTime ?? 0},
+    timesFinishedHundredPercent: ${game.timesFinishedHundredPercent ?? 0},
     platined: ${game.platined ?? false},
   }`
     )
@@ -357,9 +359,7 @@ function getUserGamelistFiles(userId: string): string[] {
     .readdirSync(userDir)
     .filter(
       (file: string) =>
-        file.endsWith('.ts') &&
-        file !== 'index.ts' &&
-        file.includes('gamelist')
+        file.endsWith('.ts') && file !== 'index.ts' && file.includes('gamelist')
     )
     .map((file: string) => path.join(userDir, file));
 }

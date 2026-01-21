@@ -59,6 +59,7 @@ import {
   getAllReadlistManwhas,
 } from '../../facades/manwhas/manwhas.facade';
 import { AuthService } from '../../core/auth.service';
+import { getGameTimePlayed } from '../../utils/games.utils';
 
 interface TopBook extends Book {
   formattedReadingTime: string;
@@ -351,13 +352,8 @@ export class DashboardComponent implements OnInit {
     return this.allGames()
       .map((game) => ({
         ...game,
-        totalPlayedTime:
-          game.averageTimeToFinish * game.timesFinished +
-          game.additionnalEstimatedTime,
-        formattedPlayedTime: this.formatTime(
-          game.averageTimeToFinish * game.timesFinished +
-            game.additionnalEstimatedTime
-        ),
+        totalPlayedTime: getGameTimePlayed(game),
+        formattedPlayedTime: this.formatTime(getGameTimePlayed(game)),
       }))
       .sort((a, b) => b.totalPlayedTime - a.totalPlayedTime)
       .slice(0, 5);

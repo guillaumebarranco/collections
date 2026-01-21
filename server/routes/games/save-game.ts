@@ -26,7 +26,15 @@ router.post('/', (req: any, res: any) => {
       rating: normalizeNumber(game.rating, 'rating') ?? 0,
       timesFinished: normalizeNumber(game.timesFinished, 'timesFinished') ?? 0,
       additionnalEstimatedTime:
-        normalizeNumber(game.additionnalEstimatedTime, 'additionnalEstimatedTime') ?? 0,
+        normalizeNumber(
+          game.additionnalEstimatedTime,
+          'additionnalEstimatedTime'
+        ) ?? 0,
+      timesFinishedHundredPercent:
+        normalizeNumber(
+          game.timesFinishedHundredPercent,
+          'timesFinishedHundredPercent'
+        ) ?? 0,
       platined: normalizeBoolean(game.platined, 'platined') ?? false,
     }));
 

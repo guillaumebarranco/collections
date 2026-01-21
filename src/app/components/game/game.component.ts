@@ -11,10 +11,10 @@ import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { Game } from '../../models/game-model';
-import { getGameTimePlayed } from '../../containers/collections/games/games.component';
 import { EditGameComponent } from '../../containers/edit/edit-game/edit-game.component';
 import { EntityCardComponent } from '../entity-card/entity-card.component';
 import { AuthService } from '../../core/auth.service';
+import { getGameTimePlayed } from '../../utils/games.utils';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -84,6 +84,9 @@ export class GameComponent {
       averageTimeToFinish: game.averageTimeToFinish,
       timesFinished: game.timesFinished,
       additionnalEstimatedTime: game.additionnalEstimatedTime,
+      timesFinishedHundredPercent: game.timesFinishedHundredPercent,
+      averageTimeToHundredPercent: game.averageTimeToHundredPercent,
+      platined: game.platined,
     });
   }
 }

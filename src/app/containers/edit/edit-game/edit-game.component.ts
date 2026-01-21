@@ -19,6 +19,7 @@ type EditGameForm = {
   timesFinished: number;
   additionnalEstimatedTime: number;
   platined: boolean;
+  timesFinishedHundredPercent: number;
 };
 
 type EditGameDialogData = {
@@ -80,7 +81,8 @@ export class EditGameComponent {
     if (
       field === 'rating' ||
       field === 'timesFinished' ||
-      field === 'additionnalEstimatedTime'
+      field === 'additionnalEstimatedTime' ||
+      field === 'timesFinishedHundredPercent'
     ) {
       const asNumber = Number(value);
       nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditGameForm[K];
@@ -249,6 +251,7 @@ export class EditGameComponent {
       timesFinished: game.timesFinished,
       additionnalEstimatedTime: game.additionnalEstimatedTime,
       platined: game.platined,
+      timesFinishedHundredPercent: game.timesFinishedHundredPercent,
     };
   }
 
