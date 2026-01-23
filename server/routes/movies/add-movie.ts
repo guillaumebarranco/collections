@@ -39,7 +39,9 @@ function formatUserMovie(user: any): string {
     user.firstViewedDate || ''
   )}',\n    lastViewedDate: '${escapeString(
     user.lastViewedDate || ''
-  )}',\n    seenAtCinema: ${user.seenAtCinema ?? false},\n  },`;
+  )}',\n    seenAtCinema: ${user.seenAtCinema ?? false},\n    owned: ${
+    user.owned ?? false
+  },\n  },`;
 }
 
 function getUserMoviesTargetFile(userId: string) {
@@ -112,6 +114,7 @@ router.post('/add', (req: any, res: any) => {
         normalizeString(user.lastViewedDate, 'lastViewedDate') || '',
       seenAtCinema:
         normalizeBoolean(user.seenAtCinema, 'seenAtCinema') ?? false,
+      owned: normalizeBoolean(user.owned, 'owned') ?? false,
     };
 
     const baseMovieContent = appendObjectToArrayFile(

@@ -20,6 +20,7 @@ type AddMovieUserForm = {
   firstViewedDate: string;
   lastViewedDate: string;
   seenAtCinema: boolean;
+  owned: boolean;
 };
 
 type AddMovieDialogData = {
@@ -59,6 +60,7 @@ export class AddMovieComponent {
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   });
 
   close() {
@@ -101,7 +103,7 @@ export class AddMovieComponent {
     });
   }
 
-  updateCheckbox(field: 'seenAtCinema', checked: boolean) {
+  updateCheckbox(field: 'seenAtCinema' | 'owned', checked: boolean) {
     const current = this.userForm();
     this.userForm.set({
       ...current,

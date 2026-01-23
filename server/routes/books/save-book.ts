@@ -2,6 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const {
   normalizeNumber,
+  normalizeBoolean,
   normalizeString,
   updateBookInFile,
   getUserBooksFiles,
@@ -32,6 +33,7 @@ router.post('/', (req: any, res: any) => {
       rating: normalizeNumber(input.rating, 'rating'),
       readTimes: normalizeNumber(input.readTimes, 'readTimes'),
       readDate: normalizeString(input.readDate, 'readDate'),
+      owned: normalizeBoolean(input.owned, 'owned'),
     };
 
     const bookFiles = getUserBooksFiles(userId);
@@ -71,6 +73,7 @@ router.post('/', (req: any, res: any) => {
         rating: payload.rating,
         readTimes: payload.readTimes,
         readDate: payload.readDate,
+        owned: payload.owned,
       })
     );
   } catch (error: any) {

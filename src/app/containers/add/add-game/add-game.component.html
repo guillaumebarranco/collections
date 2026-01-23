@@ -190,6 +190,17 @@
           name="platined"
         />
       </div>
+
+      <div class="form-row checkbox-row">
+        <label for="owned">Possédé</label>
+        <input
+          id="owned"
+          type="checkbox"
+          [checked]="userForm().owned"
+          (change)="updateCheckbox('owned', $any($event).target.checked)"
+          name="owned"
+        />
+      </div>
     </section>
 
     @if(errorMessage()) {

@@ -129,6 +129,7 @@ function parseGamesFromFile(content: string): any[] {
             timesFinishedHundredPercent:
               parseNumberField(objectText, 'timesFinishedHundredPercent') ?? 0,
             platined: parseBooleanField(objectText, 'platined') ?? false,
+            owned: parseBooleanField(objectText, 'owned') ?? false,
           });
         }
       }
@@ -271,6 +272,7 @@ function updateGameInFile(filePath: string, gameData: any): boolean {
     additionnalEstimatedTime: ${game.additionnalEstimatedTime ?? 0},
     timesFinishedHundredPercent: ${game.timesFinishedHundredPercent ?? 0},
     platined: ${game.platined ?? false},
+    owned: ${game.owned ?? false},
   }`
     )
     .join(',\n');
@@ -323,6 +325,7 @@ function removeGameFromFile(content: string, payload: any): string {
     additionnalEstimatedTime: ${game.additionnalEstimatedTime ?? 0},
     timesFinishedHundredPercent: ${game.timesFinishedHundredPercent ?? 0},
     platined: ${game.platined ?? false},
+    owned: ${game.owned ?? false},
   }`
     )
     .join(',\n');

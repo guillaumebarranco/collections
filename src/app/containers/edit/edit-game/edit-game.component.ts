@@ -20,6 +20,7 @@ type EditGameForm = {
   additionnalEstimatedTime: number;
   platined: boolean;
   timesFinishedHundredPercent: number;
+  owned: boolean;
 };
 
 type EditGameDialogData = {
@@ -94,7 +95,7 @@ export class EditGameComponent {
     });
   }
 
-  updateCheckbox(field: 'platined', checked: boolean) {
+  updateCheckbox(field: 'platined' | 'owned', checked: boolean) {
     const current = this.gameForm();
     if (!current) return;
     this.gameForm.set({
@@ -144,6 +145,7 @@ export class EditGameComponent {
           timesFinished: form.timesFinished,
           additionnalEstimatedTime: form.additionnalEstimatedTime,
           platined: form.platined,
+          owned: form.owned,
         }),
       });
 
@@ -252,6 +254,7 @@ export class EditGameComponent {
       additionnalEstimatedTime: game.additionnalEstimatedTime,
       platined: game.platined,
       timesFinishedHundredPercent: game.timesFinishedHundredPercent,
+      owned: game.owned,
     };
   }
 

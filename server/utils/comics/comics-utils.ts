@@ -127,6 +127,7 @@ function parseComicsFromFile(content: string): any[] {
             rating: parseNumberField(objectText, 'rating') ?? 0,
             readTimes: parseNumberField(objectText, 'readTimes') ?? 0,
             readDate: parseStringField(objectText, 'readDate') ?? '',
+            owned: parseBooleanField(objectText, 'owned') ?? false,
           });
         }
       }
@@ -266,6 +267,7 @@ function updateComicInFile(filePath: string, comicData: any): boolean {
     readDate: '${escapeString(comic.readDate || '')}',
     rating: ${comic.rating ?? 0},
     readTimes: ${comic.readTimes ?? 1},
+    owned: ${comic.owned ?? false},
   }`
     )
     .join(',\n');
@@ -317,6 +319,7 @@ function removeComicFromFile(content: string, payload: any): string {
     readDate: '${escapeString(comic.readDate || '')}',
     rating: ${comic.rating ?? 0},
     readTimes: ${comic.readTimes ?? 1},
+    owned: ${comic.owned ?? false},
   }`
     )
     .join(',\n');

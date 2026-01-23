@@ -22,6 +22,7 @@ type AddGameUserForm = {
   additionnalEstimatedTime: number;
   timesFinishedHundredPercent: number;
   platined: boolean;
+  owned: boolean;
 };
 
 type AddGameDialogData = {
@@ -63,6 +64,7 @@ export class AddGameComponent {
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     platined: false,
+    owned: false,
   });
 
   close() {
@@ -108,7 +110,7 @@ export class AddGameComponent {
     });
   }
 
-  updateCheckbox(field: 'platined', checked: boolean) {
+  updateCheckbox(field: 'platined' | 'owned', checked: boolean) {
     const current = this.userForm();
     this.userForm.set({
       ...current,

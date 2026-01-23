@@ -1,6 +1,7 @@
 const express = require('express');
 const {
   normalizeNumber,
+  normalizeBoolean,
   normalizeString,
   updateBdInFile,
   getUserBdsFiles,
@@ -31,6 +32,7 @@ router.post('/', (req: any, res: any) => {
       rating: normalizeNumber(input.rating, 'rating') ?? 0,
       readTimes: normalizeNumber(input.readTimes, 'readTimes') ?? 1,
       readDate: normalizeString(input.readDate, 'readDate') || '',
+      owned: normalizeBoolean(input.owned, 'owned') ?? false,
     };
 
     const bdFiles = getUserBdsFiles(userId);

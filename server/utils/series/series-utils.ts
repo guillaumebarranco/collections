@@ -184,6 +184,7 @@ function parseSeriesFromFile(content: string): any[] {
             title,
             director,
             seasons: parseSeasonsField(objectText) ?? [],
+            owned: parseBooleanField(objectText, 'owned') ?? false,
           });
         }
       }
@@ -456,6 +457,7 @@ function updateSerieInFile(content: string, payload: any) {
           if (payload.seasons) {
             updated = replaceSeasonsField(updated, payload.seasons);
           }
+          updated = replaceField(updated, 'owned', payload.owned);
 
           return (
             content.slice(0, objectStart) +
@@ -497,11 +499,15 @@ function removeSerieFromFile(content: string, payload: any) {
 
   const newArrayContent = filtered
     .map((serie) => {
-      const seasonsText = formatSeasonsIndented(serie.seasons ?? [], '    ');
+      const seasonsText = `${formatSeasonsIndented(
+        serie.seasons ?? [],
+        '    '
+      )},`;
       return `  {
     title: '${escapeString(serie.title)}',
     director: '${escapeString(serie.director)}',
 ${seasonsText}
+    owned: ${serie.owned ?? false},
   }`;
     })
     .join(',\n');

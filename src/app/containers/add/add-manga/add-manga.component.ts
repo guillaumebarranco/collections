@@ -17,6 +17,7 @@ type AddMangaUserForm = {
   rating: number;
   readTimes: number;
   readDate: string;
+  owned: boolean;
 };
 
 type AddMangaDialogData = {
@@ -53,6 +54,7 @@ export class AddMangaComponent {
     rating: 0,
     readTimes: 1,
     readDate: '',
+    owned: false,
   });
 
   close() {
@@ -98,6 +100,14 @@ export class AddMangaComponent {
   updateCheckbox(field: 'isFinished', checked: boolean) {
     const current = this.entityForm();
     this.entityForm.set({
+      ...current,
+      [field]: checked,
+    });
+  }
+
+  updateUserCheckbox(field: 'owned', checked: boolean) {
+    const current = this.userForm();
+    this.userForm.set({
       ...current,
       [field]: checked,
     });

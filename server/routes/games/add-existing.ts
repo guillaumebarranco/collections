@@ -56,6 +56,7 @@ function formatUserGame(game: any): string {
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     platined: false,
+    owned: false,
   },`;
 }
 
@@ -68,6 +69,7 @@ function formatGamelistGame(game: any): string {
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     platined: false,
+    owned: false,
   },`;
 }
 

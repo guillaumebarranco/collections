@@ -18,6 +18,7 @@ type EditBdForm = {
   rating: number;
   readTimes: number;
   readDate: string;
+  owned: boolean;
 };
 
 type EditBdDialogData = {
@@ -87,6 +88,15 @@ export class EditBdComponent {
     });
   }
 
+  updateCheckbox(field: 'owned', checked: boolean) {
+    const current = this.bdForm();
+    if (!current) return;
+    this.bdForm.set({
+      ...current,
+      [field]: checked,
+    });
+  }
+
   setRatingFromClick(star: number, event: MouseEvent) {
     const target = event.currentTarget as HTMLElement | null;
     if (!target) return;
@@ -127,6 +137,7 @@ export class EditBdComponent {
           rating: form.rating,
           readTimes: form.readTimes,
           readDate: form.readDate,
+          owned: form.owned,
         }),
       });
 
@@ -233,6 +244,7 @@ export class EditBdComponent {
       rating: bd.rating,
       readTimes: bd.readTimes || 0,
       readDate: bd.readDate,
+      owned: bd.owned,
     };
   }
 

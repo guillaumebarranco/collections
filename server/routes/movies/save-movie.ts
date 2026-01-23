@@ -38,6 +38,7 @@ router.post('/', (req: any, res: any) => {
       ),
       lastViewedDate: normalizeString(input.lastViewedDate, 'lastViewedDate'),
       seenAtCinema: normalizeBoolean(input.seenAtCinema, 'seenAtCinema'),
+      owned: normalizeBoolean(input.owned, 'owned'),
     };
 
     const movieFiles = getUserMoviesFiles(userId);
@@ -79,6 +80,7 @@ router.post('/', (req: any, res: any) => {
         firstViewedDate: payload.firstViewedDate,
         lastViewedDate: payload.lastViewedDate,
         seenAtCinema: payload.seenAtCinema,
+        owned: payload.owned,
       })
     );
   } catch (error: any) {

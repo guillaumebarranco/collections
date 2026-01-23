@@ -20,6 +20,7 @@ type EditMovieForm = {
   firstViewedDate: string;
   lastViewedDate: string;
   seenAtCinema: boolean;
+  owned: boolean;
 };
 
 type EditMovieDialogData = {
@@ -89,7 +90,7 @@ export class EditMovieComponent {
     });
   }
 
-  updateCheckbox(field: 'seenAtCinema', checked: boolean) {
+  updateCheckbox(field: 'seenAtCinema' | 'owned', checked: boolean) {
     const current = this.movieForm();
     if (!current) return;
     this.movieForm.set({
@@ -140,6 +141,7 @@ export class EditMovieComponent {
           firstViewedDate: form.firstViewedDate,
           lastViewedDate: form.lastViewedDate,
           seenAtCinema: form.seenAtCinema,
+          owned: form.owned,
         }),
       });
 
@@ -253,6 +255,7 @@ export class EditMovieComponent {
       firstViewedDate: movie.firstViewedDate,
       lastViewedDate: movie.lastViewedDate,
       seenAtCinema: movie.seenAtCinema,
+      owned: movie.owned,
     };
   }
 

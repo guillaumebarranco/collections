@@ -33,6 +33,7 @@ function formatUserBd(user: any): string {
     readDate: '${escapeString(user.readDate || '')}',
     rating: ${user.rating ?? 0},
     readTimes: ${user.readTimes ?? 1},
+    owned: ${user.owned ?? false},
   },`;
 }
 
@@ -115,6 +116,7 @@ router.post('/add', (req: any, res: any) => {
       rating: normalizeNumber(user.rating, 'rating') ?? 0,
       readTimes: normalizeNumber(user.readTimes, 'readTimes') ?? 1,
       readDate: normalizeString(user.readDate, 'readDate') || '',
+      owned: normalizeBoolean(user.owned, 'owned') ?? false,
     };
 
     const baseBdContent = appendObjectToArrayFile(

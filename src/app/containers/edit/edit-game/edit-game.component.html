@@ -113,6 +113,17 @@
       />
     </div>
 
+    <div class="form-row checkbox-row">
+      <label for="owned">Possédé</label>
+      <input
+        id="owned"
+        type="checkbox"
+        [checked]="gameForm()?.owned"
+        (change)="updateCheckbox('owned', $any($event).target.checked)"
+        name="owned"
+      />
+    </div>
+
     <div class="form-actions">
       <button type="submit" class="submit-btn" [disabled]="isSaving()">
         Modifier

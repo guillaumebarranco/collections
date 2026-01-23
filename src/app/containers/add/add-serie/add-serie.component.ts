@@ -23,6 +23,10 @@ type AddSerieDialogData = {
   userId: string;
 };
 
+type AddSerieUserForm = {
+  owned: boolean;
+};
+
 @Component({
   selector: 'app-add-serie',
   standalone: true,
@@ -49,6 +53,10 @@ export class AddSerieComponent {
     endDate: '',
     genre: '',
     seasonsData: [],
+  });
+
+  userForm = signal<AddSerieUserForm>({
+    owned: false,
   });
 
   close() {
@@ -107,6 +115,14 @@ export class AddSerieComponent {
     });
   }
 
+  updateUserCheckbox(field: 'owned', checked: boolean) {
+    const current = this.userForm();
+    this.userForm.set({
+      ...current,
+      [field]: checked,
+    });
+  }
+
   private getActorsList(): string[] {
     const raw = this.entityForm().actors || '';
     return raw
@@ -145,7 +161,7 @@ export class AddSerieComponent {
             ...entity,
             actors: this.getActorsList(),
           },
-          user: {},
+          user: this.userForm(),
         }),
       });
 

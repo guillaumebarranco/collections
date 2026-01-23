@@ -20,6 +20,7 @@ type AddBookUserForm = {
   rating: number;
   readTimes: number;
   readDate: string;
+  owned: boolean;
 };
 
 type AddBookDialogData = {
@@ -59,6 +60,7 @@ export class AddBookComponent {
     rating: 0,
     readTimes: 1,
     readDate: '',
+    owned: false,
   });
 
   close() {
@@ -102,6 +104,14 @@ export class AddBookComponent {
   updateCheckbox(field: 'isFinished', checked: boolean) {
     const current = this.entityForm();
     this.entityForm.set({
+      ...current,
+      [field]: checked,
+    });
+  }
+
+  updateUserCheckbox(field: 'owned', checked: boolean) {
+    const current = this.userForm();
+    this.userForm.set({
       ...current,
       [field]: checked,
     });

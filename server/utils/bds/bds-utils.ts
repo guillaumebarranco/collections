@@ -127,6 +127,7 @@ function parseBdsFromFile(content: string): any[] {
             rating: parseNumberField(objectText, 'rating') ?? 0,
             readTimes: parseNumberField(objectText, 'readTimes') ?? 0,
             readDate: parseStringField(objectText, 'readDate') ?? '',
+            owned: parseBooleanField(objectText, 'owned') ?? false,
           });
         }
       }
@@ -265,6 +266,7 @@ function updateBdInFile(filePath: string, bdData: any): boolean {
     readDate: '${escapeString(bd.readDate || '')}',
     rating: ${bd.rating ?? 0},
     readTimes: ${bd.readTimes ?? 1},
+    owned: ${bd.owned ?? false},
   }`
     )
     .join(',\n');
@@ -315,6 +317,7 @@ function removeBdFromFile(content: string, payload: any): string {
     readDate: '${escapeString(bd.readDate || '')}',
     rating: ${bd.rating ?? 0},
     readTimes: ${bd.readTimes ?? 1},
+    owned: ${bd.owned ?? false},
   }`
     )
     .join(',\n');

@@ -36,6 +36,7 @@ function formatUserGame(user: any): string {
     additionnalEstimatedTime: ${user.additionnalEstimatedTime ?? 0},
     timesFinishedHundredPercent: ${user.timesFinishedHundredPercent ?? 0},
     platined: ${user.platined ?? false},
+    owned: ${user.owned ?? false},
   },`;
 }
 
@@ -129,6 +130,7 @@ router.post('/add', (req: any, res: any) => {
           user.timesFinishedHundredPercent,
           'timesFinishedHundredPercent'
         ) ?? 0,
+      owned: normalizeBoolean(user.owned, 'owned') ?? false,
     };
 
     const baseGameContent = appendObjectToArrayFile(

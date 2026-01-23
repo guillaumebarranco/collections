@@ -18,6 +18,7 @@ type EditComicForm = {
   rating: number;
   readTimes: number;
   readDate: string;
+  owned: boolean;
 };
 
 type EditComicDialogData = {
@@ -87,6 +88,15 @@ export class EditComicComponent {
     });
   }
 
+  updateCheckbox(field: 'owned', checked: boolean) {
+    const current = this.comicForm();
+    if (!current) return;
+    this.comicForm.set({
+      ...current,
+      [field]: checked,
+    });
+  }
+
   setRatingFromClick(star: number, event: MouseEvent) {
     const target = event.currentTarget as HTMLElement | null;
     if (!target) return;
@@ -127,6 +137,7 @@ export class EditComicComponent {
           rating: form.rating,
           readTimes: form.readTimes,
           readDate: form.readDate,
+          owned: form.owned,
         }),
       });
 
@@ -233,6 +244,7 @@ export class EditComicComponent {
       rating: comic.rating,
       readTimes: comic.readTimes || 0,
       readDate: comic.readDate,
+      owned: comic.owned,
     };
   }
 

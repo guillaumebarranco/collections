@@ -16,6 +16,7 @@ import { AuthService } from '../../../core/auth.service';
 
 type EditSerieForm = {
   seasons: UserSerieSeason[];
+  owned: boolean;
 };
 
 type EditSerieDialogData = {
@@ -88,6 +89,7 @@ export class EditSerieComponent {
           title: serie.title,
           director: serie.director,
           seasons: form.seasons,
+          owned: form.owned,
         }),
       });
 
@@ -197,7 +199,17 @@ export class EditSerieComponent {
   private toForm(serie: Serie): EditSerieForm {
     return {
       seasons: this.buildSeasons(serie),
+      owned: serie.owned,
     };
+  }
+
+  updateCheckbox(field: 'owned', checked: boolean) {
+    const current = this.serieForm();
+    if (!current) return;
+    this.serieForm.set({
+      ...current,
+      [field]: checked,
+    });
   }
 
   updateSeasonField(

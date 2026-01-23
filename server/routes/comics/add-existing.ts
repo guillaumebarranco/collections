@@ -50,7 +50,7 @@ function formatUserComic(comic: any) {
     comic.title
   )}',\n    designer: '${escapeString(
     comic.designer
-  )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n  },`;
+  )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n  },`;
 }
 
 function getUserComicsTargetFile(userId: string, isReadlist: boolean) {

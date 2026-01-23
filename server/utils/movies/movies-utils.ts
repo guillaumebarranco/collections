@@ -121,6 +121,7 @@ function parseMoviesFromFile(content: string): any[] {
               parseStringField(objectText, 'lastViewedDate') ?? '',
             seenAtCinema:
               parseBooleanField(objectText, 'seenAtCinema') ?? false,
+            owned: parseBooleanField(objectText, 'owned') ?? false,
           });
         }
       }
@@ -371,6 +372,7 @@ function updateMovieInFile(content: string, payload: any) {
             payload.lastViewedDate
           );
           updated = replaceField(updated, 'seenAtCinema', payload.seenAtCinema);
+          updated = replaceField(updated, 'owned', payload.owned);
 
           return (
             content.slice(0, objectStart) +
@@ -418,6 +420,7 @@ function removeMovieFromFile(content: string, payload: any) {
     firstViewedDate: '${escapeString(movie.firstViewedDate || '')}',
     lastViewedDate: '${escapeString(movie.lastViewedDate || '')}',
     seenAtCinema: ${movie.seenAtCinema ?? false},
+    owned: ${movie.owned ?? false},
   }`
     )
     .join(',\n');

@@ -36,6 +36,7 @@ router.post('/', (req: any, res: any) => {
           'timesFinishedHundredPercent'
         ) ?? 0,
       platined: normalizeBoolean(game.platined, 'platined') ?? false,
+      owned: normalizeBoolean(game.owned, 'owned') ?? false,
     }));
 
     const files = getUserGamesFiles(userId);

@@ -2,6 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const {
   normalizeNumber,
+  normalizeBoolean,
   normalizeString,
   updateSerieInFile,
   getUserSeriesFiles,
@@ -30,6 +31,7 @@ router.post('/', (req: any, res: any) => {
       title,
       director,
       seasons: Array.isArray(input.seasons) ? input.seasons : undefined,
+      owned: normalizeBoolean(input.owned, 'owned'),
     };
 
     const serieFiles = getUserSeriesFiles(userId);
@@ -66,6 +68,7 @@ router.post('/', (req: any, res: any) => {
         file: updatedFile,
         title: payload.title,
         director: payload.director,
+        owned: payload.owned,
       })
     );
   } catch (error: any) {

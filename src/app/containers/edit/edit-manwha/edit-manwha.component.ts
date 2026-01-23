@@ -18,6 +18,7 @@ type EditManwhaForm = {
   rating: number;
   readTimes: number;
   readDate: string;
+  owned: boolean;
 };
 
 type EditManwhaDialogData = {
@@ -90,6 +91,15 @@ export class EditManwhaComponent {
     });
   }
 
+  updateCheckbox(field: 'owned', checked: boolean) {
+    const current = this.manwhaForm();
+    if (!current) return;
+    this.manwhaForm.set({
+      ...current,
+      [field]: checked,
+    });
+  }
+
   setRatingFromClick(star: number, event: MouseEvent) {
     const target = event.currentTarget as HTMLElement | null;
     if (!target) return;
@@ -130,6 +140,7 @@ export class EditManwhaComponent {
           rating: form.rating,
           readTimes: form.readTimes,
           readDate: form.readDate,
+          owned: form.owned,
         }),
       });
 
@@ -236,6 +247,7 @@ export class EditManwhaComponent {
       rating: manwha.rating,
       readTimes: manwha.readTimes || 0,
       readDate: manwha.readDate,
+      owned: manwha.owned,
     };
   }
 

@@ -50,7 +50,7 @@ function formatUserBd(bd: any) {
     bd.title
   )}',\n    designer: '${escapeString(
     bd.designer
-  )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n  },`;
+  )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n  },`;
 }
 
 function getUserBdsTargetFile(userId: string, isReadlist: boolean) {

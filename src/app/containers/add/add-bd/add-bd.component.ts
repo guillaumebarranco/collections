@@ -18,6 +18,7 @@ type AddBdUserForm = {
   rating: number;
   readTimes: number;
   readDate: string;
+  owned: boolean;
 };
 
 type AddBdDialogData = {
@@ -55,6 +56,7 @@ export class AddBdComponent {
     rating: 0,
     readTimes: 1,
     readDate: '',
+    owned: false,
   });
 
   close() {
@@ -100,6 +102,14 @@ export class AddBdComponent {
   updateCheckbox(field: 'isFinished', checked: boolean) {
     const current = this.entityForm();
     this.entityForm.set({
+      ...current,
+      [field]: checked,
+    });
+  }
+
+  updateUserCheckbox(field: 'owned', checked: boolean) {
+    const current = this.userForm();
+    this.userForm.set({
       ...current,
       [field]: checked,
     });

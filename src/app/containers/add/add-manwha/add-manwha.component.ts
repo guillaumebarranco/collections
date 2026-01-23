@@ -17,6 +17,7 @@ type AddManwhaUserForm = {
   rating: number;
   readTimes: number;
   readDate: string;
+  owned: boolean;
 };
 
 type AddManwhaDialogData = {
@@ -53,6 +54,7 @@ export class AddManwhaComponent {
     rating: 0,
     readTimes: 1,
     readDate: '',
+    owned: false,
   });
 
   close() {
@@ -98,6 +100,14 @@ export class AddManwhaComponent {
   updateCheckbox(field: 'isFinished', checked: boolean) {
     const current = this.entityForm();
     this.entityForm.set({
+      ...current,
+      [field]: checked,
+    });
+  }
+
+  updateUserCheckbox(field: 'owned', checked: boolean) {
+    const current = this.userForm();
+    this.userForm.set({
       ...current,
       [field]: checked,
     });

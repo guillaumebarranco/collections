@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const {
   normalizeNumber,
+  normalizeBoolean,
   normalizeString,
   escapeString,
   appendObjectToArrayFile,
@@ -63,6 +64,7 @@ function formatUserSerie(user: any): string {
     title: '${escapeString(user.title)}',
     director: '${escapeString(user.director)}',
 ${seasonsBlock}
+    owned: ${user.owned ?? false},
   },`;
 }
 
@@ -157,6 +159,7 @@ router.post('/add', (req: any, res: any) => {
       title,
       director,
       seasonsCount: entityPayload.seasonsData.length,
+      owned: normalizeBoolean(user.owned, 'owned') ?? false,
     };
 
     const baseSerieContent = appendObjectToArrayFile(
