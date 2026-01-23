@@ -264,6 +264,14 @@ export class SeriesComponent implements OnInit {
       : '/select-series-times-watched';
   }
 
+  getSelectSeriesOwnedRoute(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? `/${params['id']}/select-series-owned`
+      : '/select-series-owned';
+  }
+
   private matchesSearch(serie: Serie, term: string): boolean {
     const actors = serie.actors?.map((actor) => actor.name).join(' ') || '';
     const haystack = [serie.title, serie.director, actors, serie.genre]

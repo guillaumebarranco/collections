@@ -368,6 +368,14 @@ export class MoviesComponent implements OnInit {
       : '/select-movies-times-watched';
   }
 
+  getSelectMoviesOwnedRoute(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? `/${params['id']}/select-movies-owned`
+      : '/select-movies-owned';
+  }
+
   async refreshMovies() {
     const userId = this.getActiveUserId();
     const [movies, watchlist] = await Promise.all([

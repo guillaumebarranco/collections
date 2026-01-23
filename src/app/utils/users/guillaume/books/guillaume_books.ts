@@ -7,7 +7,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2025-05-13',
     rating: 4.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Les liaisons dangereuses',
@@ -15,7 +15,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2025-06-19',
     rating: 4,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Castel Boy',
@@ -23,7 +23,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2025-08-17',
     rating: 5,
     readTimes: 2,
-    owned: false,
+    owned: true,
   },
   {
     title: 'En bons pères de famille',
@@ -31,7 +31,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2025-05-15',
     rating: 4,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: "Où va l'argent des pauvres",
@@ -39,7 +39,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2025-01-01',
     rating: 3.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Les tout-petits face aux écrans',
@@ -47,7 +47,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2023-10-16',
     rating: 4,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Les serres sous le velours noir',
@@ -55,7 +55,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2025-01-14',
     rating: 4,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: "Ne tirez pas sur l'oiseau moqueur",
@@ -71,7 +71,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2024-02-24',
     rating: 2.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Voyage au centre de la terre',
@@ -111,7 +111,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2025-03-16',
     rating: 4,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Le Comte de Monte-Cristo',
@@ -119,7 +119,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2024-04-30',
     rating: 5,
     readTimes: 2,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Frankenstein',
@@ -127,7 +127,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2024-05-16',
     rating: 2.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Le Portrait de Dorian Gray',
@@ -135,7 +135,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2024-01-07',
     rating: 3.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'La Ferme des animaux',
@@ -143,7 +143,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2024-06-12',
     rating: 4,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Orgueil et Préjugés',
@@ -151,7 +151,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2024-01-03',
     rating: 3.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: '1984',
@@ -159,7 +159,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2024-01-17',
     rating: 4,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Fondation',
@@ -167,7 +167,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2025-01-15',
     rating: 4,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Fahrenheit 451',
@@ -175,7 +175,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2024-02-15',
     rating: 2.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Miss Marple au club du mardi',
@@ -199,7 +199,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2024-09-30',
     rating: 3.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Mort sur le Nil',
@@ -207,7 +207,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2024-02-10',
     rating: 3,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Ils étaient dix',
@@ -215,7 +215,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2024-02-19',
     rating: 4.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Le Meurtre de Roger Ackroyd',
@@ -223,7 +223,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2025-03-06',
     rating: 3.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Meurtre en Mésopotamie',
@@ -239,7 +239,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2025-03-04',
     rating: 3.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Dracula',
@@ -255,7 +255,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2024-02-07',
     rating: 4.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Une vie',
@@ -271,7 +271,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2024-02-25',
     rating: 3,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'La Nuit des temps',
@@ -279,7 +279,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2024-06-12',
     rating: 3.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'La Horde du Contrevent',
@@ -287,7 +287,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2024-07-18',
     rating: 4.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Madame Bovary',
@@ -311,7 +311,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2024-11-15',
     rating: 4.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Le coût de la virilité',
@@ -319,7 +319,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2024-12-11',
     rating: 4,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Sois jeune et tais-toi',
@@ -327,7 +327,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2024-12-26',
     rating: 4.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: "L'Île au trésor",
@@ -343,7 +343,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2023-12-10',
     rating: 3.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Candide',
@@ -359,7 +359,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2025-07-09',
     rating: 3.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Désolation',
@@ -375,7 +375,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2025-07-11',
     rating: 4,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: "L'ordinatueur",
@@ -383,7 +383,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2004-01-28',
     rating: 3.5,
     readTimes: 3,
-    owned: false,
+    owned: true,
   },
   {
     title: 'La Potion magique de Georges Bouillon',
@@ -399,7 +399,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2025-08-11',
     rating: 3,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'La guerre des mondes',
@@ -407,12 +407,20 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2025-08-21',
     rating: 4,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'La machine à explorer le temps',
     author: 'H.G. Wells',
     readDate: '2025-08-31',
+    rating: 3.5,
+    readTimes: 1,
+    owned: true,
+  },
+  {
+    title: "L'homme invisible",
+    author: 'H.G. Wells',
+    readDate: '2025-09-04',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -426,20 +434,12 @@ export const guillaumeBooks: UserBook[] = [
     owned: false,
   },
   {
-    title: "L'homme invisible",
-    author: 'H.G. Wells',
-    readDate: '2025-09-04',
-    rating: 3.5,
-    readTimes: 1,
-    owned: false,
-  },
-  {
     title: 'Les pages de notre amour',
     author: 'Nicholas Sparks',
     readDate: '2025-09-06',
     rating: 4.75,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'À tout jamais',
@@ -447,7 +447,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2025-09-07',
     rating: 3.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Le porte bonheur',
@@ -455,7 +455,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2025-09-09',
     rating: 4.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Memento mori',
@@ -463,7 +463,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2025-09-11',
     rating: 4.5,
     readTimes: 2,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Un choix',
@@ -471,7 +471,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2025-09-23',
     rating: 4,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Viridia: Les racines du pouvoir',
@@ -479,7 +479,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2025-09-24',
     rating: 3,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Alchemised',
@@ -487,7 +487,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2025-10-11',
     rating: 4.75,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Une seconde chance',
@@ -495,7 +495,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2025-11-03',
     rating: 3,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: "L'Odyssée",
@@ -503,7 +503,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2025-12-02',
     rating: 3.75,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Adam',
@@ -511,7 +511,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2025-12-06',
     rating: 4.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: "L'Iliade",
@@ -519,7 +519,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2025-12-24',
     rating: 3.25,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Là où chantent les écrevisses',
@@ -527,7 +527,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2025-12-26',
     rating: 4.75,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Roméo et Juliette',
@@ -551,7 +551,7 @@ export const guillaumeBooks: UserBook[] = [
     readDate: '2026-01-17',
     rating: 3.75,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
 
   {

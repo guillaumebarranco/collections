@@ -11,27 +11,35 @@ import { DashboardComponent } from './containers/dashboard/dashboard.component';
 import { SelectMoviesComponent } from './containers/selection/movies/select-movies/select-movies.component';
 import { SelectMoviesTimesWatchedComponent } from './containers/selection/movies/select-movies-times-watched/select-movies-times-watched.component';
 import { SelectMoviesRatingComponent } from './containers/selection/movies/select-movies-rating/select-movies-rating.component';
+import { SelectMoviesOwnedComponent } from './containers/selection/movies/select-movies-owned/select-movies-owned.component';
 import { SelectBooksComponent } from './containers/selection/books/select-books/select-books.component';
 import { SelectBooksRatingComponent } from './containers/selection/books/select-books-rating/select-books-rating.component';
 import { SelectBooksTimesReadComponent } from './containers/selection/books/select-books-times-read/select-books-times-read.component';
+import { SelectBooksOwnedComponent } from './containers/selection/books/select-books-owned/select-books-owned.component';
 import { SelectSeriesComponent } from './containers/selection/series/select-series/select-series.component';
 import { SelectSeriesRatingComponent } from './containers/selection/series/select-series-rating/select-series-rating.component';
 import { SelectSeriesTimesWatchedComponent } from './containers/selection/series/select-series-times-watched/select-series-times-watched.component';
+import { SelectSeriesOwnedComponent } from './containers/selection/series/select-series-owned/select-series-owned.component';
 import { SelectMangasComponent } from './containers/selection/select-mangas/select-mangas.component';
 import { SelectMangasRatingComponent } from './containers/selection/select-mangas-rating/select-mangas-rating.component';
 import { SelectMangasTimesReadComponent } from './containers/selection/select-mangas-times-read/select-mangas-times-read.component';
+import { SelectMangasOwnedComponent } from './containers/selection/select-mangas-owned/select-mangas-owned.component';
 import { SelectComicsComponent } from './containers/selection/select-comics/select-comics.component';
 import { SelectComicsRatingComponent } from './containers/selection/select-comics-rating/select-comics-rating.component';
 import { SelectComicsTimesReadComponent } from './containers/selection/select-comics-times-read/select-comics-times-read.component';
+import { SelectComicsOwnedComponent } from './containers/selection/select-comics-owned/select-comics-owned.component';
 import { SelectBdsComponent } from './containers/selection/select-bds/select-bds.component';
 import { SelectBdsRatingComponent } from './containers/selection/select-bds-rating/select-bds-rating.component';
 import { SelectBdsTimesReadComponent } from './containers/selection/select-bds-times-read/select-bds-times-read.component';
+import { SelectBdsOwnedComponent } from './containers/selection/select-bds-owned/select-bds-owned.component';
 import { SelectManwhasComponent } from './containers/selection/select-manwhas/select-manwhas.component';
 import { SelectManwhasRatingComponent } from './containers/selection/select-manwhas-rating/select-manwhas-rating.component';
 import { SelectManwhasTimesReadComponent } from './containers/selection/select-manwhas-times-read/select-manwhas-times-read.component';
+import { SelectManwhasOwnedComponent } from './containers/selection/select-manwhas-owned/select-manwhas-owned.component';
 import { SelectGamesComponent } from './containers/selection/games/select-games/select-games.component';
 import { SelectGamesRatingComponent } from './containers/selection/games/select-games-rating/select-games-rating.component';
 import { SelectGamesTimesFinishedComponent } from './containers/selection/games/select-games-times-finished/select-games-times-finished.component';
+import { SelectGamesOwnedComponent } from './containers/selection/games/select-games-owned/select-games-owned.component';
 import { MusicsComponent } from './containers/collections/musics/musics.component';
 import { SelectMusicsComponent } from './containers/selection/select-musics/select-musics.component';
 import { SelectMusicsRatingComponent } from './containers/selection/select-musics-rating/select-musics-rating.component';
@@ -85,6 +93,10 @@ export const routes: Routes = [
     component: SelectMoviesTimesWatchedComponent,
   },
   {
+    path: 'select-movies-owned',
+    component: SelectMoviesOwnedComponent,
+  },
+  {
     path: 'select-movies-rating',
     component: SelectMoviesRatingComponent,
   },
@@ -95,6 +107,10 @@ export const routes: Routes = [
   {
     path: 'select-books-times-read',
     component: SelectBooksTimesReadComponent,
+  },
+  {
+    path: 'select-books-owned',
+    component: SelectBooksOwnedComponent,
   },
   {
     path: 'select-books-rating',
@@ -113,12 +129,20 @@ export const routes: Routes = [
     component: SelectSeriesTimesWatchedComponent,
   },
   {
+    path: 'select-series-owned',
+    component: SelectSeriesOwnedComponent,
+  },
+  {
     path: 'select-mangas',
     component: SelectMangasComponent,
   },
   {
     path: 'select-mangas-times-read',
     component: SelectMangasTimesReadComponent,
+  },
+  {
+    path: 'select-mangas-owned',
+    component: SelectMangasOwnedComponent,
   },
   {
     path: 'select-mangas-rating',
@@ -133,6 +157,10 @@ export const routes: Routes = [
     component: SelectComicsTimesReadComponent,
   },
   {
+    path: 'select-comics-owned',
+    component: SelectComicsOwnedComponent,
+  },
+  {
     path: 'select-comics-rating',
     component: SelectComicsRatingComponent,
   },
@@ -145,6 +173,10 @@ export const routes: Routes = [
     component: SelectBdsTimesReadComponent,
   },
   {
+    path: 'select-bds-owned',
+    component: SelectBdsOwnedComponent,
+  },
+  {
     path: 'select-bds-rating',
     component: SelectBdsRatingComponent,
   },
@@ -155,6 +187,10 @@ export const routes: Routes = [
   {
     path: 'select-manwhas-times-read',
     component: SelectManwhasTimesReadComponent,
+  },
+  {
+    path: 'select-manwhas-owned',
+    component: SelectManwhasOwnedComponent,
   },
   {
     path: 'select-manwhas-rating',
@@ -171,6 +207,10 @@ export const routes: Routes = [
   {
     path: 'select-games-times-finished',
     component: SelectGamesTimesFinishedComponent,
+  },
+  {
+    path: 'select-games-owned',
+    component: SelectGamesOwnedComponent,
   },
   {
     path: 'select-musics',
@@ -281,6 +321,10 @@ export const routes: Routes = [
         component: SelectMoviesTimesWatchedComponent,
       },
       {
+        path: 'select-movies-owned',
+        component: SelectMoviesOwnedComponent,
+      },
+      {
         path: 'select-movies-rating',
         component: SelectMoviesRatingComponent,
       },
@@ -291,6 +335,10 @@ export const routes: Routes = [
       {
         path: 'select-books-times-read',
         component: SelectBooksTimesReadComponent,
+      },
+      {
+        path: 'select-books-owned',
+        component: SelectBooksOwnedComponent,
       },
       {
         path: 'select-books-rating',
@@ -309,12 +357,20 @@ export const routes: Routes = [
         component: SelectSeriesTimesWatchedComponent,
       },
       {
+        path: 'select-series-owned',
+        component: SelectSeriesOwnedComponent,
+      },
+      {
         path: 'select-mangas',
         component: SelectMangasComponent,
       },
       {
         path: 'select-mangas-times-read',
         component: SelectMangasTimesReadComponent,
+      },
+      {
+        path: 'select-mangas-owned',
+        component: SelectMangasOwnedComponent,
       },
       {
         path: 'select-mangas-rating',
@@ -329,6 +385,10 @@ export const routes: Routes = [
         component: SelectComicsTimesReadComponent,
       },
       {
+        path: 'select-comics-owned',
+        component: SelectComicsOwnedComponent,
+      },
+      {
         path: 'select-comics-rating',
         component: SelectComicsRatingComponent,
       },
@@ -341,6 +401,10 @@ export const routes: Routes = [
         component: SelectBdsTimesReadComponent,
       },
       {
+        path: 'select-bds-owned',
+        component: SelectBdsOwnedComponent,
+      },
+      {
         path: 'select-bds-rating',
         component: SelectBdsRatingComponent,
       },
@@ -351,6 +415,10 @@ export const routes: Routes = [
       {
         path: 'select-manwhas-times-read',
         component: SelectManwhasTimesReadComponent,
+      },
+      {
+        path: 'select-manwhas-owned',
+        component: SelectManwhasOwnedComponent,
       },
       {
         path: 'select-manwhas-rating',
@@ -367,6 +435,10 @@ export const routes: Routes = [
       {
         path: 'select-games-times-finished',
         component: SelectGamesTimesFinishedComponent,
+      },
+      {
+        path: 'select-games-owned',
+        component: SelectGamesOwnedComponent,
       },
       {
         path: 'select-musics',

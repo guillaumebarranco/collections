@@ -1,0 +1,69 @@
+<app-menu></app-menu>
+
+<div class="select-manwhas-owned-container">
+  <div class="header">
+    <h1>Mettre à jour les manwhas possédés</h1>
+
+    <div class="selection-description">
+      <p>
+        Bonjour {{ username() }} 👋 <br /><br />
+        Sur cette page, tu peux indiquer si tu possèdes physiquement chaque
+        manwha de ta collection. <br /><br />
+        Passe ta souris sur un manwha pour choisir "Oui" ou "Non". <br /><br />
+        Une fois que tu as terminé, clique sur "Enregistrer mes possessions"
+        pour appliquer les changements.
+      </p>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <div class="selection-info">
+      <span class="count">{{ modifiedCount() }} manwha(s) modifié(s)</span>
+      <span class="total">sur {{ allManwhas().length }}</span>
+    </div>
+
+    <div class="actions">
+      <button
+        class="btn btn-primary"
+        (click)="saveManwhasOwned()"
+        [disabled]="allManwhas().length === 0 || isSaving()"
+      >
+        ✅ Enregistrer mes possessions ({{ modifiedCount() }})
+      </button>
+    </div>
+  </div>
+
+  <div class="manwhas-grid">
+    @for (manwha of allManwhas(); track `${manwha.title}-${manwha.author}`) {
+    <div class="manwha-cover" [title]="manwha.title + ' - ' + manwha.author">
+      <img [src]="manwha.coverUrl" [alt]="manwha.title" />
+      <div class="overlay">
+        <div class="manwha-info">
+          <span class="manwha-title">{{ manwha.title }}</span>
+          <span class="current-owned">
+            Possédé : {{ getOwned(manwha) ? 'Oui' : 'Non' }}
+          </span>
+        </div>
+        <div class="owned-buttons">
+          <button
+            class="owned-btn"
+            [class.active]="getOwned(manwha)"
+            (click)="updateOwned(manwha, true); $event.stopPropagation()"
+            (mousedown)="$event.stopPropagation()"
+          >
+            Oui
+          </button>
+          <button
+            class="owned-btn"
+            [class.active]="!getOwned(manwha)"
+            (click)="updateOwned(manwha, false); $event.stopPropagation()"
+            (mousedown)="$event.stopPropagation()"
+          >
+            Non
+          </button>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>

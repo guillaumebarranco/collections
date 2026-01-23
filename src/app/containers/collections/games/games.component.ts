@@ -303,6 +303,14 @@ export class GamesComponent implements OnInit {
       : '/select-games-times-finished';
   }
 
+  getSelectGamesOwnedRoute(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? `/${params['id']}/select-games-owned`
+      : '/select-games-owned';
+  }
+
   private matchesSearch(game: Game, term: string): boolean {
     const haystack = [
       game.title,

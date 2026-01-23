@@ -1,0 +1,72 @@
+<app-menu></app-menu>
+
+<div class="select-games-owned-container">
+  <div class="header">
+    <h1>Mettre à jour les jeux possédés</h1>
+
+    <div class="selection-description">
+      <p>
+        Bonjour {{ username() }} 👋 <br /><br />
+        Sur cette page, tu peux indiquer si tu possèdes physiquement chaque jeu
+        de ta collection. <br /><br />
+        Passe ta souris sur un jeu pour choisir "Oui" ou "Non". <br /><br />
+        Une fois que tu as terminé, clique sur "Enregistrer mes possessions"
+        pour appliquer les changements.
+      </p>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <div class="selection-info">
+      <span class="count">{{ modifiedCount() }} jeu(x) modifié(s)</span>
+      <span class="total">sur {{ allGames().length }}</span>
+    </div>
+
+    <div class="actions">
+      <button
+        class="btn btn-primary"
+        (click)="saveGamesOwned()"
+        [disabled]="allGames().length === 0 || isSaving()"
+      >
+        ✅ Enregistrer mes possessions ({{ modifiedCount() }})
+      </button>
+    </div>
+  </div>
+
+  <div class="games-grid">
+    @for (game of allGames(); track `${game.title}-${game.releaseDate}`) {
+    <div
+      class="game-cover"
+      [title]="game.title + ' (' + game.releaseDate.substring(0, 4) + ')'"
+    >
+      <img [src]="game.coverUrl" [alt]="game.title" />
+      <div class="overlay">
+        <div class="game-info">
+          <span class="game-title">{{ game.title }}</span>
+          <span class="current-owned">
+            Possédé : {{ getOwned(game) ? 'Oui' : 'Non' }}
+          </span>
+        </div>
+        <div class="owned-buttons">
+          <button
+            class="owned-btn"
+            [class.active]="getOwned(game)"
+            (click)="updateOwned(game, true); $event.stopPropagation()"
+            (mousedown)="$event.stopPropagation()"
+          >
+            Oui
+          </button>
+          <button
+            class="owned-btn"
+            [class.active]="!getOwned(game)"
+            (click)="updateOwned(game, false); $event.stopPropagation()"
+            (mousedown)="$event.stopPropagation()"
+          >
+            Non
+          </button>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>

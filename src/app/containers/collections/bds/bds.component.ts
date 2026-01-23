@@ -278,6 +278,14 @@ export class BdsComponent implements OnInit {
       : '/select-bds-times-read';
   }
 
+  getSelectBdsOwnedRoute(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? `/${params['id']}/select-bds-owned`
+      : '/select-bds-owned';
+  }
+
   private matchesSearch(bd: Book, term: string): boolean {
     const haystack = [bd.title, bd.author, bd.genre].filter(Boolean).join(' ');
 

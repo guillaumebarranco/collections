@@ -1,0 +1,69 @@
+<app-menu></app-menu>
+
+<div class="select-mangas-owned-container">
+  <div class="header">
+    <h1>Mettre à jour les mangas possédés</h1>
+
+    <div class="selection-description">
+      <p>
+        Bonjour {{ username() }} 👋 <br /><br />
+        Sur cette page, tu peux indiquer si tu possèdes physiquement chaque
+        manga de ta collection. <br /><br />
+        Passe ta souris sur un manga pour choisir "Oui" ou "Non". <br /><br />
+        Une fois que tu as terminé, clique sur "Enregistrer mes possessions"
+        pour appliquer les changements.
+      </p>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <div class="selection-info">
+      <span class="count">{{ modifiedCount() }} manga(s) modifié(s)</span>
+      <span class="total">sur {{ allMangas().length }}</span>
+    </div>
+
+    <div class="actions">
+      <button
+        class="btn btn-primary"
+        (click)="saveMangasOwned()"
+        [disabled]="allMangas().length === 0 || isSaving()"
+      >
+        ✅ Enregistrer mes possessions ({{ modifiedCount() }})
+      </button>
+    </div>
+  </div>
+
+  <div class="mangas-grid">
+    @for (manga of allMangas(); track `${manga.title}-${manga.author}`) {
+    <div class="manga-cover" [title]="manga.title + ' - ' + manga.author">
+      <img [src]="manga.coverUrl" [alt]="manga.title" />
+      <div class="overlay">
+        <div class="manga-info">
+          <span class="manga-title">{{ manga.title }}</span>
+          <span class="current-owned">
+            Possédé : {{ getOwned(manga) ? 'Oui' : 'Non' }}
+          </span>
+        </div>
+        <div class="owned-buttons">
+          <button
+            class="owned-btn"
+            [class.active]="getOwned(manga)"
+            (click)="updateOwned(manga, true); $event.stopPropagation()"
+            (mousedown)="$event.stopPropagation()"
+          >
+            Oui
+          </button>
+          <button
+            class="owned-btn"
+            [class.active]="!getOwned(manga)"
+            (click)="updateOwned(manga, false); $event.stopPropagation()"
+            (mousedown)="$event.stopPropagation()"
+          >
+            Non
+          </button>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>

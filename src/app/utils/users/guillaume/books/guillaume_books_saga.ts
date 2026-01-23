@@ -7,7 +7,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2025-02-12',
     rating: 4.25,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: "L'Embrasement",
@@ -15,7 +15,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2025-02-14',
     rating: 4,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'La Révolte',
@@ -23,7 +23,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2025-02-15',
     rating: 4,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: "La Ballade du serpent et de l'oiseau chanteur",
@@ -31,7 +31,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2025-02-19',
     rating: 3.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Lever de soleil sur la moisson',
@@ -39,7 +39,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2025-11-12',
     rating: 4,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: "Harry Potter à l'école des sorciers",
@@ -47,7 +47,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2004-07-01',
     rating: 4,
     readTimes: 5,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Harry Potter et la Chambre des secrets',
@@ -55,7 +55,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2004-07-02',
     rating: 4,
     readTimes: 5,
-    owned: false,
+    owned: true,
   },
   {
     title: "Harry Potter et le Prisonnier d'Azkaban",
@@ -63,7 +63,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2004-07-03',
     rating: 4.5,
     readTimes: 5,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Harry Potter et la Coupe de feu',
@@ -71,7 +71,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2004-07-04',
     rating: 4.5,
     readTimes: 10,
-    owned: false,
+    owned: true,
   },
   {
     title: "Harry Potter et l'Ordre du Phénix",
@@ -79,7 +79,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2004-07-05',
     rating: 4,
     readTimes: 5,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Harry Potter et le Prince de sang-mêlé',
@@ -87,7 +87,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2005-07-20',
     rating: 5,
     readTimes: 20,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Harry Potter et les Reliques de la Mort',
@@ -95,7 +95,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2007-10-30',
     rating: 5,
     readTimes: 15,
-    owned: false,
+    owned: true,
   },
   {
     title: "Harry Potter et l'Enfant maudit",
@@ -103,7 +103,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2016-07-31',
     rating: 3,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Fascination',
@@ -111,7 +111,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2010-07-16',
     rating: 4.75,
     readTimes: 30,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Tentation',
@@ -119,7 +119,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2010-07-17',
     rating: 3.5,
     readTimes: 10,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Hésitation',
@@ -127,7 +127,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2010-07-18',
     rating: 3.5,
     readTimes: 10,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Révélation',
@@ -135,7 +135,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2010-07-19',
     rating: 4.5,
     readTimes: 20,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Midnight Sun',
@@ -143,7 +143,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2020-08-04',
     rating: 5,
     readTimes: 5,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Le Voleur de foudre',
@@ -151,7 +151,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2024-01-23',
     rating: 3.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'La Mer des monstres',
@@ -159,7 +159,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2024-01-26',
     rating: 3,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Le Sort du titan',
@@ -167,7 +167,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2024-01-28',
     rating: 3.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'La Bataille du labyrinthe',
@@ -175,7 +175,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2024-02-02',
     rating: 4,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Le Dernier Olympien',
@@ -183,7 +183,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2024-02-03',
     rating: 4,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Le Calice des dieux',
@@ -191,7 +191,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2025-01-02',
     rating: 2,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Divergente',
@@ -199,7 +199,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2025-06-25',
     rating: 4,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: "Divergente Tome 2 : L'Insurrection",
@@ -207,7 +207,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2025-08-13',
     rating: 3.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Divergente Tome 3 : Allégeance',
@@ -215,7 +215,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2025-08-16',
     rating: 3.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Le Labyrinthe',
@@ -231,7 +231,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2024-01-09',
     rating: 4,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Le Signe des quatre',
@@ -239,7 +239,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2024-02-28',
     rating: 4,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Le Chien des Baskerville',
@@ -247,7 +247,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2024-03-07',
     rating: 3.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'La vallée de la peur',
@@ -255,7 +255,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2024-07-29',
     rating: 4,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Les Mobilisés',
@@ -287,7 +287,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2024-05-20',
     rating: 5,
     readTimes: 3,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Inside Mac: Tome 2',
@@ -295,7 +295,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2024-06-19',
     rating: 4.5,
     readTimes: 2,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Player One',
@@ -303,7 +303,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2025-01-29',
     rating: 4.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Ready Player Two',
@@ -319,7 +319,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2025-06-27',
     rating: 4,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Les secrets de la femme de ménage',
@@ -327,7 +327,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2025-07-02',
     rating: 3.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'La femme de ménage se marie',
@@ -335,7 +335,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2025-07-03',
     rating: 3,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'La femme de ménage voit tout',
@@ -343,7 +343,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2025-07-04',
     rating: 3.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Les Trois Mousquetaires',
@@ -351,7 +351,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2024-07-01',
     rating: 4,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Le Faucon malté',
@@ -359,7 +359,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2004-02-28',
     rating: 4,
     readTimes: 5,
-    owned: false,
+    owned: true,
   },
   {
     title: "L'ennemi public n°2",
@@ -367,7 +367,7 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2004-02-29',
     rating: 3.5,
     readTimes: 3,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Devine qui vient tuer',
@@ -375,6 +375,6 @@ export const guillaumeBooksSaga: UserBook[] = [
     readDate: '2004-02-30',
     rating: 3.5,
     readTimes: 3,
-    owned: false,
+    owned: true,
   },
 ];

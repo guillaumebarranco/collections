@@ -53,6 +53,13 @@
       >
         🎬 Lectures
       </button>
+      <button
+        class="btn btn-small"
+        [routerLink]="getSelectBooksOwnedRoute()"
+        title="Mettre à jour les livres possédés"
+      >
+        ✅ Possédés
+      </button>
     </div>
   </div>
   } @if(allBooks().length === 0) {

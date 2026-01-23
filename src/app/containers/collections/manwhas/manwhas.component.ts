@@ -254,6 +254,14 @@ export class ManwhasComponent implements OnInit {
       : '/select-manwhas-times-read';
   }
 
+  getSelectManwhasOwnedRoute(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? `/${params['id']}/select-manwhas-owned`
+      : '/select-manwhas-owned';
+  }
+
   private matchesSearch(manwha: Manwha, term: string): boolean {
     const haystack = [manwha.title, manwha.author, manwha.genre]
       .filter(Boolean)

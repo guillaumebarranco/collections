@@ -281,6 +281,14 @@ export class ComicsComponent implements OnInit {
       : '/select-comics-times-read';
   }
 
+  getSelectComicsOwnedRoute(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? `/${params['id']}/select-comics-owned`
+      : '/select-comics-owned';
+  }
+
   private matchesSearch(comic: Book, term: string): boolean {
     const haystack = [comic.title, comic.author, comic.genre]
       .filter(Boolean)

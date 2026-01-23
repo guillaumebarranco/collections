@@ -1,0 +1,69 @@
+<app-menu></app-menu>
+
+<div class="select-comics-owned-container">
+  <div class="header">
+    <h1>Mettre à jour les comics possédés</h1>
+
+    <div class="selection-description">
+      <p>
+        Bonjour {{ username() }} 👋 <br /><br />
+        Sur cette page, tu peux indiquer si tu possèdes physiquement chaque
+        comic de ta collection. <br /><br />
+        Passe ta souris sur un comic pour choisir "Oui" ou "Non". <br /><br />
+        Une fois que tu as terminé, clique sur "Enregistrer mes possessions"
+        pour appliquer les changements.
+      </p>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <div class="selection-info">
+      <span class="count">{{ modifiedCount() }} comic(s) modifié(s)</span>
+      <span class="total">sur {{ allComics().length }}</span>
+    </div>
+
+    <div class="actions">
+      <button
+        class="btn btn-primary"
+        (click)="saveComicsOwned()"
+        [disabled]="allComics().length === 0 || isSaving()"
+      >
+        ✅ Enregistrer mes possessions ({{ modifiedCount() }})
+      </button>
+    </div>
+  </div>
+
+  <div class="comics-grid">
+    @for (comic of allComics(); track `${comic.title}-${comic.designer}`) {
+    <div class="comic-cover" [title]="comic.title + ' - ' + comic.designer">
+      <img [src]="comic.coverUrl" [alt]="comic.title" />
+      <div class="overlay">
+        <div class="comic-info">
+          <span class="comic-title">{{ comic.title }}</span>
+          <span class="current-owned">
+            Possédé : {{ getOwned(comic) ? 'Oui' : 'Non' }}
+          </span>
+        </div>
+        <div class="owned-buttons">
+          <button
+            class="owned-btn"
+            [class.active]="getOwned(comic)"
+            (click)="updateOwned(comic, true); $event.stopPropagation()"
+            (mousedown)="$event.stopPropagation()"
+          >
+            Oui
+          </button>
+          <button
+            class="owned-btn"
+            [class.active]="!getOwned(comic)"
+            (click)="updateOwned(comic, false); $event.stopPropagation()"
+            (mousedown)="$event.stopPropagation()"
+          >
+            Non
+          </button>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>

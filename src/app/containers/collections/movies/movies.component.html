@@ -68,6 +68,13 @@
       >
         🎬 Visionnages
       </button>
+      <button
+        class="btn btn-small"
+        [routerLink]="getSelectMoviesOwnedRoute()"
+        title="Mettre à jour les films possédés"
+      >
+        ✅ Possédés
+      </button>
     </div>
   </div>
   } @if(filteredMoviesByYear().length === 0 && selectedView() !== 'watchlist') {

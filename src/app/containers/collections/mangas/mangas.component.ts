@@ -281,6 +281,14 @@ export class MangasComponent implements OnInit {
       : '/select-mangas-times-read';
   }
 
+  getSelectMangasOwnedRoute(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? `/${params['id']}/select-mangas-owned`
+      : '/select-mangas-owned';
+  }
+
   private matchesSearch(manga: Book, term: string): boolean {
     const haystack = [manga.title, manga.author, manga.genre]
       .filter(Boolean)

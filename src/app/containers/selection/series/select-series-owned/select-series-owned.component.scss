@@ -1,0 +1,96 @@
+@use '../../select-base.scss' as *;
+
+.select-series-owned-container {
+  @extend %select-container;
+
+  .header {
+    @extend %select-header;
+
+    h1 {
+      color: #999;
+    }
+  }
+
+  .serie-info {
+    @extend %select-item-info;
+    margin-bottom: 0.75rem;
+
+    .current-owned {
+      display: block;
+      font-size: 0.7rem;
+      color: #aaa;
+      margin-top: 0.5rem;
+    }
+  }
+
+  .toolbar {
+    @extend %select-toolbar;
+
+    .selection-info .count {
+      color: #28a745;
+    }
+
+    .btn.btn-primary {
+      background: #28a745;
+
+      &:hover:not(:disabled) {
+        background: #218838;
+        box-shadow: 0 4px 8px rgba(40, 167, 69, 0.3);
+      }
+    }
+  }
+
+  .series-grid {
+    @extend %select-grid;
+  }
+
+  .serie-poster {
+    @extend %select-item;
+
+    .overlay {
+      .owned-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        justify-content: center;
+        margin-top: 0.5rem;
+        max-width: 100%;
+        padding: 0 0.25rem;
+
+        .owned-btn {
+          padding: 0.45rem 0.8rem;
+          border: 1.5px solid white;
+          border-radius: 3px;
+          background: rgba(255, 255, 255, 0.2);
+          color: white;
+          font-weight: bold;
+          font-size: 0.75rem;
+          cursor: pointer;
+          transition: all 0.2s ease;
+          min-width: 70px;
+          flex: 0 0 calc(50% - 0.3rem);
+          max-width: calc(50% - 0.3rem);
+
+          &:hover {
+            background: rgba(255, 255, 255, 0.5);
+            transform: scale(1.05);
+            z-index: 20;
+          }
+
+          &.active {
+            background: #28a745;
+            border-color: #28a745;
+            box-shadow: 0 0 6px rgba(40, 167, 69, 0.6);
+          }
+        }
+      }
+    }
+
+    &:hover {
+      .overlay {
+        opacity: 1;
+        z-index: 10;
+      }
+    }
+  }
+}

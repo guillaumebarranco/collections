@@ -1,0 +1,72 @@
+<app-menu></app-menu>
+
+<div class="select-movies-owned-container">
+  <div class="header">
+    <h1>Mettre à jour les films possédés</h1>
+
+    <div class="selection-description">
+      <p>
+        Bonjour {{ username() }} 👋 <br /><br />
+        Sur cette page, tu peux indiquer si tu possèdes physiquement chaque film
+        de ta collection. <br /><br />
+        Passe ta souris sur un film pour choisir "Oui" ou "Non". <br /><br />
+        Une fois que tu as terminé, clique sur "Enregistrer mes possessions"
+        pour appliquer les changements.
+      </p>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <div class="selection-info">
+      <span class="count">{{ modifiedCount() }} film(s) modifié(s)</span>
+      <span class="total">sur {{ allMovies().length }}</span>
+    </div>
+
+    <div class="actions">
+      <button
+        class="btn btn-primary"
+        (click)="saveMoviesOwned()"
+        [disabled]="allMovies().length === 0 || isSaving()"
+      >
+        ✅ Enregistrer mes possessions ({{ modifiedCount() }})
+      </button>
+    </div>
+  </div>
+
+  <div class="movies-grid">
+    @for (movie of allMovies(); track `${movie.title}-${movie.releaseDate}`) {
+    <div
+      class="movie-poster"
+      [title]="movie.title + ' (' + movie.releaseDate.substring(0, 4) + ')'"
+    >
+      <img [src]="movie.coverUrl" [alt]="movie.title" />
+      <div class="overlay">
+        <div class="movie-info">
+          <span class="movie-title">{{ movie.title }}</span>
+          <span class="current-owned">
+            Possédé : {{ getOwned(movie) ? 'Oui' : 'Non' }}
+          </span>
+        </div>
+        <div class="owned-buttons">
+          <button
+            class="owned-btn"
+            [class.active]="getOwned(movie)"
+            (click)="updateOwned(movie, true); $event.stopPropagation()"
+            (mousedown)="$event.stopPropagation()"
+          >
+            Oui
+          </button>
+          <button
+            class="owned-btn"
+            [class.active]="!getOwned(movie)"
+            (click)="updateOwned(movie, false); $event.stopPropagation()"
+            (mousedown)="$event.stopPropagation()"
+          >
+            Non
+          </button>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>

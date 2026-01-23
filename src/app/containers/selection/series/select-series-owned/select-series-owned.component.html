@@ -1,0 +1,72 @@
+<app-menu></app-menu>
+
+<div class="select-series-owned-container">
+  <div class="header">
+    <h1>Mettre à jour les séries possédées</h1>
+
+    <div class="selection-description">
+      <p>
+        Bonjour {{ username() }} 👋 <br /><br />
+        Sur cette page, tu peux indiquer si tu possèdes physiquement chaque
+        série de ta collection. <br /><br />
+        Passe ta souris sur une série pour choisir "Oui" ou "Non". <br /><br />
+        Une fois que tu as terminé, clique sur "Enregistrer mes possessions"
+        pour appliquer les changements.
+      </p>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <div class="selection-info">
+      <span class="count">{{ modifiedCount() }} série(s) modifiée(s)</span>
+      <span class="total">sur {{ allSeries().length }}</span>
+    </div>
+
+    <div class="actions">
+      <button
+        class="btn btn-primary"
+        (click)="saveSeriesOwned()"
+        [disabled]="allSeries().length === 0 || isSaving()"
+      >
+        ✅ Enregistrer mes possessions ({{ modifiedCount() }})
+      </button>
+    </div>
+  </div>
+
+  <div class="series-grid">
+    @for (serie of allSeries(); track `${serie.title}-${serie.releaseDate}`) {
+    <div
+      class="serie-poster"
+      [title]="serie.title + ' (' + serie.releaseDate.substring(0, 4) + ')'"
+    >
+      <img [src]="serie.coverUrl" [alt]="serie.title" />
+      <div class="overlay">
+        <div class="serie-info">
+          <span class="serie-title">{{ serie.title }}</span>
+          <span class="current-owned">
+            Possédé : {{ getOwned(serie) ? 'Oui' : 'Non' }}
+          </span>
+        </div>
+        <div class="owned-buttons">
+          <button
+            class="owned-btn"
+            [class.active]="getOwned(serie)"
+            (click)="updateOwned(serie, true); $event.stopPropagation()"
+            (mousedown)="$event.stopPropagation()"
+          >
+            Oui
+          </button>
+          <button
+            class="owned-btn"
+            [class.active]="!getOwned(serie)"
+            (click)="updateOwned(serie, false); $event.stopPropagation()"
+            (mousedown)="$event.stopPropagation()"
+          >
+            Non
+          </button>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>

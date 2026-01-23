@@ -65,6 +65,13 @@
       >
         🎮 Terminés
       </button>
+      <button
+        class="btn btn-small"
+        [routerLink]="getSelectGamesOwnedRoute()"
+        title="Mettre à jour les jeux possédés"
+      >
+        ✅ Possédés
+      </button>
     </div>
   </div>
   } @if(allGames().length === 0 && allGamelistGames().length === 0) {

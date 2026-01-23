@@ -130,6 +130,7 @@ function parseManwhasFromFile(content: string): any[] {
             rating: parseNumberField(objectText, 'rating') ?? 0,
             readTimes: parseNumberField(objectText, 'readTimes') ?? 0,
             readDate: parseStringField(objectText, 'readDate') ?? '',
+            owned: parseBooleanField(objectText, 'owned') ?? false,
           });
         }
       }
@@ -267,6 +268,7 @@ function updateManwhaInFile(filePath: string, manwhaData: any): boolean {
     readDate: '${escapeString(manwha.readDate || '')}',
     rating: ${manwha.rating ?? 0},
     readTimes: ${manwha.readTimes ?? 1},
+    owned: ${manwha.owned ?? false},
   }`
     )
     .join(',\n');
@@ -318,6 +320,7 @@ function removeManwhaFromFile(content: string, payload: any): string {
     readDate: '${escapeString(manwha.readDate || '')}',
     rating: ${manwha.rating ?? 0},
     readTimes: ${manwha.readTimes ?? 1},
+    owned: ${manwha.owned ?? false},
   }`
     )
     .join(',\n');

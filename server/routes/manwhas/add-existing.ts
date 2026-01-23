@@ -50,7 +50,7 @@ function formatUserManwha(manwha: any) {
     manwha.title
   )}',\n    author: '${escapeString(
     manwha.author
-  )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n  },`;
+  )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n  },`;
 }
 
 function formatReadlistManwha(manwha: any) {

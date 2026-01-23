@@ -60,6 +60,13 @@
       >
         &#128250; Visionnages
       </button>
+      <button
+        class="btn btn-small"
+        [routerLink]="getSelectSeriesOwnedRoute()"
+        title="Mettre &#224; jour les s&#233;ries poss&#233;d&#233;es"
+      >
+        ✅ Possédées
+      </button>
     </div>
   </div>
   } @if(allSeries().length === 0) {

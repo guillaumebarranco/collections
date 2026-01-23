@@ -471,6 +471,14 @@ export class BooksComponent implements OnInit {
       : '/select-books-times-read';
   }
 
+  getSelectBooksOwnedRoute(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? `/${params['id']}/select-books-owned`
+      : '/select-books-owned';
+  }
+
   private matchesSearch(book: Book, term: string): boolean {
     const haystack = [book.title, book.author, book.genre, book.saga]
       .filter(Boolean)
