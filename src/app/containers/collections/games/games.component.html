@@ -14,38 +14,12 @@
 
   @if(allGames().length !== 0 || allGamelistGames().length !== 0) {
   <div class="games-header-top">
-    <div class="games-view-toggle">
-      <button
-        class="toggle-option"
-        [class.active]="selectedView() === 'played'"
-        (click)="onViewChange('played')"
-      >
-        Jeux terminés
-      </button>
-      @if(platinedGames().length !== 0) {
-      <button
-        class="toggle-option"
-        [class.active]="selectedView() === 'platined'"
-        (click)="onViewChange('platined')"
-      >
-        Jeux platinés
-      </button>
-      }
-      <button
-        class="toggle-option"
-        [class.active]="selectedView() === 'gamelist'"
-        (click)="onViewChange('gamelist')"
-      >
-        Jeux à jouer
-      </button>
-      <button
-        class="toggle-option"
-        [class.active]="selectedView() === 'owned'"
-        (click)="onViewChange('owned')"
-      >
-        Jeux possédés
-      </button>
-    </div>
+    <app-view-toggle
+      [toggleClass]="'games-view-toggle'"
+      [options]="viewOptions()"
+      [selected]="selectedView()"
+      (selectedChange)="onViewChange($any($event))"
+    ></app-view-toggle>
 
     <div class="games-actions">
       <button

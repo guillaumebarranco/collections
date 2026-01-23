@@ -11,6 +11,10 @@ import { FormsModule } from '@angular/forms';
 import { BookComponent } from '../../../components/book/book.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import {
+  ViewToggleComponent,
+  ViewToggleOption,
+} from '../../../components/view-toggle/view-toggle.component';
+import {
   SortDropdownComponent,
   SortOption,
 } from '../../../components/sort-dropdown/sort-dropdown.component';
@@ -46,6 +50,7 @@ type BookView = 'read' | 'readlist' | 'owned';
     FormsModule,
     BookComponent,
     MenuComponent,
+    ViewToggleComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
     MatDialogModule,
@@ -94,6 +99,12 @@ export class BooksComponent implements OnInit {
     { value: 'none', label: 'Aucun' },
     { value: 'author', label: 'Auteur' },
     { value: 'genre', label: 'Genre' },
+  ];
+
+  viewOptions: ViewToggleOption[] = [
+    { value: 'read', label: 'Livres lus' },
+    { value: 'readlist', label: 'Livres à lire' },
+    { value: 'owned', label: 'Livres possédés' },
   ];
 
   booksList = signal<{ [key: string]: Book[] }>({});

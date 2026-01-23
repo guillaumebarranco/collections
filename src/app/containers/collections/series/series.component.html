@@ -14,29 +14,12 @@
 
   @if(allSeries().length !== 0) {
   <div class="series-header-top">
-    <div class="series-view-toggle">
-      <button
-        class="toggle-option"
-        [class.active]="selectedView() === 'finished'"
-        (click)="onViewChange('finished')"
-      >
-        S&#233;ries finies
-      </button>
-      <button
-        class="toggle-option"
-        [class.active]="selectedView() === 'watchlist'"
-        (click)="onViewChange('watchlist')"
-      >
-        S&#233;ries &#224; voir
-      </button>
-      <button
-        class="toggle-option"
-        [class.active]="selectedView() === 'owned'"
-        (click)="onViewChange('owned')"
-      >
-        S&#233;ries poss&#233;d&#233;es
-      </button>
-    </div>
+    <app-view-toggle
+      [toggleClass]="'series-view-toggle'"
+      [options]="viewOptions"
+      [selected]="selectedView()"
+      (selectedChange)="onViewChange($any($event))"
+    ></app-view-toggle>
 
     <div class="series-actions">
       <button
@@ -80,9 +63,12 @@
   </div>
   } @if(allSeries().length === 0) {
   <div class="empty-state">
-    <p class="empty-message">Vous n'avez aucune s&#233;rie dans votre collection.</p>
+    <p class="empty-message">
+      Vous n'avez aucune s&#233;rie dans votre collection.
+    </p>
     <p class="empty-subtitle">
-      Commencez d&#232;s maintenant &#224; cr&#233;er votre s&#233;rieth&#232;que personnelle !
+      Commencez d&#232;s maintenant &#224; cr&#233;er votre
+      s&#233;rieth&#232;que personnelle !
     </p>
     <button class="btn btn-primary" [routerLink]="getSelectSeriesRoute()">
       S&#233;lectionner mes s&#233;ries

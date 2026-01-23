@@ -14,29 +14,12 @@
 
   @if(allBooks().length !== 0) {
   <div class="books-header-top">
-    <div class="books-view-toggle">
-      <button
-        class="toggle-option"
-        [class.active]="selectedView() === 'read'"
-        (click)="onViewChange('read')"
-      >
-        Livres lus
-      </button>
-      <button
-        class="toggle-option"
-        [class.active]="selectedView() === 'readlist'"
-        (click)="onViewChange('readlist')"
-      >
-        Livres à lire
-      </button>
-      <button
-        class="toggle-option"
-        [class.active]="selectedView() === 'owned'"
-        (click)="onViewChange('owned')"
-      >
-        Livres possédés
-      </button>
-    </div>
+    <app-view-toggle
+      [toggleClass]="'books-view-toggle'"
+      [options]="viewOptions"
+      [selected]="selectedView()"
+      (selectedChange)="onViewChange($any($event))"
+    ></app-view-toggle>
 
     <div class="books-actions">
       <button

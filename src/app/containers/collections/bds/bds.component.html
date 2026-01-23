@@ -24,29 +24,12 @@
   </div>
   } @if(allBds().length !== 0 || allReadlistBds().length !== 0) {
   <div class="bds-header-top">
-    <div class="bds-view-toggle">
-      <button
-        class="toggle-option"
-        [class.active]="selectedView() === 'read'"
-        (click)="onViewChange('read')"
-      >
-        BD lues
-      </button>
-      <button
-        class="toggle-option"
-        [class.active]="selectedView() === 'readlist'"
-        (click)="onViewChange('readlist')"
-      >
-        BD à lire
-      </button>
-      <button
-        class="toggle-option"
-        [class.active]="selectedView() === 'owned'"
-        (click)="onViewChange('owned')"
-      >
-        BD possédées
-      </button>
-    </div>
+    <app-view-toggle
+      [toggleClass]="'bds-view-toggle'"
+      [options]="viewOptions"
+      [selected]="selectedView()"
+      (selectedChange)="onViewChange($any($event))"
+    ></app-view-toggle>
 
     <div class="bds-actions">
       <button

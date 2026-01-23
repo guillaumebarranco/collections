@@ -4,6 +4,10 @@ import { FormsModule } from '@angular/forms';
 import { BookComponent } from '../../../components/book/book.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import {
+  ViewToggleComponent,
+  ViewToggleOption,
+} from '../../../components/view-toggle/view-toggle.component';
+import {
   SortDropdownComponent,
   SortOption,
 } from '../../../components/sort-dropdown/sort-dropdown.component';
@@ -36,6 +40,7 @@ import { EditManwhaComponent } from '../../edit/edit-manwha/edit-manwha.componen
     FormsModule,
     BookComponent,
     MenuComponent,
+    ViewToggleComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
     MatDialogModule,
@@ -66,6 +71,12 @@ export class ManwhasComponent implements OnInit {
     { value: 'genre', label: 'Genre (A-Z)' },
     { value: 'genre-desc', label: 'Genre (Z-A)' },
   ]);
+
+  viewOptions: ViewToggleOption[] = [
+    { value: 'read', label: 'Manwhas lus' },
+    { value: 'readlist', label: 'Manwhas à lire' },
+    { value: 'owned', label: 'Manwhas possédés' },
+  ];
 
   manwhasList = signal<{ [key: string]: Manwha[] }>({});
   readlistManwhasList = signal<{ [key: string]: Manwha[] }>({});

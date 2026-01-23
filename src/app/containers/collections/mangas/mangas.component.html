@@ -22,33 +22,14 @@
       Sélectionner mes mangas
     </button>
   </div>
-  }
-
-  @if(allMangas().length !== 0 || allReadlistMangas().length !== 0) {
+  } @if(allMangas().length !== 0 || allReadlistMangas().length !== 0) {
   <div class="mangas-header-top">
-    <div class="mangas-view-toggle">
-      <button
-        class="toggle-option"
-        [class.active]="selectedView() === 'read'"
-        (click)="onViewChange('read')"
-      >
-        Mangas lus
-      </button>
-      <button
-        class="toggle-option"
-        [class.active]="selectedView() === 'readlist'"
-        (click)="onViewChange('readlist')"
-      >
-        Mangas à lire
-      </button>
-      <button
-        class="toggle-option"
-        [class.active]="selectedView() === 'owned'"
-        (click)="onViewChange('owned')"
-      >
-        Mangas possédés
-      </button>
-    </div>
+    <app-view-toggle
+      [toggleClass]="'mangas-view-toggle'"
+      [options]="viewOptions"
+      [selected]="selectedView()"
+      (selectedChange)="onViewChange($any($event))"
+    ></app-view-toggle>
 
     <div class="mangas-actions">
       <button

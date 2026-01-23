@@ -4,6 +4,10 @@ import { FormsModule } from '@angular/forms';
 import { SerieComponent } from '../../../components/serie/serie.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import {
+  ViewToggleComponent,
+  ViewToggleOption,
+} from '../../../components/view-toggle/view-toggle.component';
+import {
   SortDropdownComponent,
   SortOption,
 } from '../../../components/sort-dropdown/sort-dropdown.component';
@@ -38,6 +42,7 @@ type SerieView = 'finished' | 'watchlist' | 'owned';
     FormsModule,
     SerieComponent,
     MenuComponent,
+    ViewToggleComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
   ],
@@ -67,6 +72,12 @@ export class SeriesComponent implements OnInit {
     { value: 'nbEpisodesTotal', label: 'Épisodes (élevé)' },
     { value: 'nbEpisodesTotal-asc', label: 'Épisodes (faible)' },
   ]);
+
+  viewOptions: ViewToggleOption[] = [
+    { value: 'finished', label: 'Séries finies' },
+    { value: 'watchlist', label: 'Séries à voir' },
+    { value: 'owned', label: 'Séries possédées' },
+  ];
 
   seriesList = signal<{ [key: string]: Serie[] }>({});
   watchingSeriesList = signal<{ [key: string]: Serie[] }>({});

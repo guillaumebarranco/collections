@@ -4,6 +4,10 @@ import { FormsModule } from '@angular/forms';
 import { GameComponent } from '../../../components/game/game.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import {
+  ViewToggleComponent,
+  ViewToggleOption,
+} from '../../../components/view-toggle/view-toggle.component';
+import {
   SortDropdownComponent,
   SortOption,
 } from '../../../components/sort-dropdown/sort-dropdown.component';
@@ -39,6 +43,7 @@ import {
     FormsModule,
     GameComponent,
     MenuComponent,
+    ViewToggleComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
   ],
@@ -68,6 +73,21 @@ export class GamesComponent implements OnInit {
     { value: 'totalPlayedTime', label: 'Temps passé (élevé)' },
     { value: 'totalPlayedTime-asc', label: 'Temps passé (faible)' },
   ]);
+
+  viewOptions = computed<ViewToggleOption[]>(() => {
+    const options: ViewToggleOption[] = [
+      { value: 'played', label: 'Jeux terminés' },
+      { value: 'platined', label: 'Jeux platinés' },
+      { value: 'gamelist', label: 'Jeux à jouer' },
+      { value: 'owned', label: 'Jeux possédés' },
+    ];
+
+    if (this.platinedGames().length === 0) {
+      return options.filter((option) => option.value !== 'platined');
+    }
+
+    return options;
+  });
 
   gamesList = signal<{ [key: string]: Game[] }>({});
   gamelistGamesList = signal<{ [key: string]: Game[] }>({});

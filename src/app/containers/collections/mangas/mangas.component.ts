@@ -4,6 +4,10 @@ import { FormsModule } from '@angular/forms';
 import { BookComponent } from '../../../components/book/book.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import {
+  ViewToggleComponent,
+  ViewToggleOption,
+} from '../../../components/view-toggle/view-toggle.component';
+import {
   SortDropdownComponent,
   SortOption,
 } from '../../../components/sort-dropdown/sort-dropdown.component';
@@ -37,6 +41,7 @@ import { EditMangaComponent } from '../../edit/edit-manga/edit-manga.component';
     FormsModule,
     BookComponent,
     MenuComponent,
+    ViewToggleComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
     MatDialogModule,
@@ -68,6 +73,12 @@ export class MangasComponent implements OnInit {
     { value: 'genre', label: 'Genre (A-Z)' },
     { value: 'genre-desc', label: 'Genre (Z-A)' },
   ]);
+
+  viewOptions: ViewToggleOption[] = [
+    { value: 'read', label: 'Mangas lus' },
+    { value: 'readlist', label: 'Mangas à lire' },
+    { value: 'owned', label: 'Mangas possédés' },
+  ];
 
   mangasList = signal<{ [key: string]: Manga[] }>({});
   readlistMangasList = signal<{ [key: string]: Manga[] }>({});

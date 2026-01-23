@@ -4,6 +4,10 @@ import { FormsModule } from '@angular/forms';
 import { BookComponent } from '../../../components/book/book.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import {
+  ViewToggleComponent,
+  ViewToggleOption,
+} from '../../../components/view-toggle/view-toggle.component';
+import {
   SortDropdownComponent,
   SortOption,
 } from '../../../components/sort-dropdown/sort-dropdown.component';
@@ -15,10 +19,10 @@ import {
 import { Book } from '../../../models/book-model';
 import { Comic } from '../../../models/comic-model';
 import {
-  getTotalMangaPages,
-  getTotalMangaTomesRead,
-  getEstimatedMangaReadingTime,
   PAGES_PER_MANGA_TOME,
+  getTotalComicsTomesRead,
+  getTotalComicsPages,
+  getEstimatedComicsReadingTime,
 } from '../../../utils/stats.utils';
 import { ActivatedRoute, Params, RouterLink } from '@angular/router';
 import {
@@ -37,6 +41,7 @@ import { EditComicComponent } from '../../edit/edit-comic/edit-comic.component';
     FormsModule,
     BookComponent,
     MenuComponent,
+    ViewToggleComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
     MatDialogModule,
@@ -68,6 +73,12 @@ export class ComicsComponent implements OnInit {
     { value: 'genre', label: 'Genre (A-Z)' },
     { value: 'genre-desc', label: 'Genre (Z-A)' },
   ]);
+
+  viewOptions: ViewToggleOption[] = [
+    { value: 'read', label: 'Comics lus' },
+    { value: 'readlist', label: 'Comics à lire' },
+    { value: 'owned', label: 'Comics possédés' },
+  ];
 
   comicsList = signal<{ [key: string]: Comic[] }>({});
   readlistComicsList = signal<{ [key: string]: Comic[] }>({});
@@ -205,9 +216,9 @@ export class ComicsComponent implements OnInit {
   stats = computed<StatItem[]>(() => {
     const totalTomes = this.calculateTotalTomes();
     const totalPages = this.calculateTotalPages();
-    const totalTomesRead = getTotalMangaTomesRead(this.filteredComics());
-    const totalPagesRead = getTotalMangaPages(this.filteredComics());
-    const estimatedReadingTime = getEstimatedMangaReadingTime(
+    const totalTomesRead = getTotalComicsTomesRead(this.filteredComics());
+    const totalPagesRead = getTotalComicsPages(this.filteredComics());
+    const estimatedReadingTime = getEstimatedComicsReadingTime(
       this.filteredComics()
     );
 

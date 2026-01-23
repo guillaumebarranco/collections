@@ -2,6 +2,10 @@ import { Component, computed, inject, signal, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../components/menu/menu.component';
 import {
+  ViewToggleComponent,
+  ViewToggleOption,
+} from '../../components/view-toggle/view-toggle.component';
+import {
   StatsDisplayComponent,
   StatItem,
   StatItemColor,
@@ -24,6 +28,8 @@ import {
   MINUTES_PER_MANGA_TOME,
   MINUTES_PER_MANWHA_CHAPTER,
   MINUTES_PER_PAGE,
+  getEstimatedBdReadingTime,
+  getEstimatedComicsReadingTime,
 } from '../../utils/stats.utils';
 import {
   getSerieTotalLengthMinutes,
@@ -94,6 +100,7 @@ interface TopManga extends Manga {
     RouterModule,
     CommonModule,
     MenuComponent,
+    ViewToggleComponent,
     StatsDisplayComponent,
     DashboardEntitiesStatsComponent,
     DashboardUserTodosComponent,
@@ -110,6 +117,12 @@ export class DashboardComponent implements OnInit {
   filledUserId = signal<string>('');
   selectedTab = signal<'overview' | 'entities' | 'top5'>('overview');
   isAuthenticated = computed<boolean>(() => this.authService.isAuthenticated());
+
+  tabOptions: ViewToggleOption[] = [
+    { value: 'overview', label: "Vue d'ensemble" },
+    { value: 'entities', label: 'Statistiques par entité' },
+    { value: 'top5', label: 'Top 5' },
+  ];
 
   booksList = signal<{ [key: string]: Book[] }>({});
   mangasList = signal<{ [key: string]: Manga[] }>({});
@@ -425,17 +438,13 @@ export class DashboardComponent implements OnInit {
     );
     const mangasTotalReadingTime = (mangasTotalTomes * 30) / 60; // 30 minutes par tome, converti en heures
 
-    const comicsTotalTomes = this.allComics().reduce(
-      (sum, comic) => sum + (comic.nbTomes || 0) * (comic.readTimes || 1),
-      0
-    );
-    const comicsTotalReadingTime = (comicsTotalTomes * 30) / 60;
+    const comicsTotalReadingTime = getEstimatedComicsReadingTime(
+      this.allComics()
+    ).minutes;
 
-    const bdsTotalTomes = this.allBds().reduce(
-      (sum, bd) => sum + (bd.nbTomes || 0) * (bd.readTimes || 1),
-      0
-    );
-    const bdsTotalReadingTime = (bdsTotalTomes * 30) / 60;
+    const bdsTotalReadingTime = getEstimatedBdReadingTime(
+      this.allBds()
+    ).minutes;
 
     const manwhasTotalChapters = getTotalManwhasChaptersRead(this.allManwhas());
     const manwhasTotalReadingTime =

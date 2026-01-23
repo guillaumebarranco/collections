@@ -119,6 +119,8 @@
 
 // Responsive
 @media (max-width: 768px) {
+
+
   .entities-stats-container {
     padding: 20px;
 
@@ -137,12 +139,11 @@
     }
 
     .stats-content {
-      grid-template-columns: 1fr;
       gap: 20px;
     }
 
     .stats-section {
-      padding: 15px;
+      padding: 5px;
 
       h3 {
         font-size: 1.1rem;

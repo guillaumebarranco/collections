@@ -24,29 +24,12 @@
   </div>
   } @if(allComics().length !== 0 || allReadlistComics().length !== 0) {
   <div class="comics-header-top">
-    <div class="comics-view-toggle">
-      <button
-        class="toggle-option"
-        [class.active]="selectedView() === 'read'"
-        (click)="onViewChange('read')"
-      >
-        Comics lus
-      </button>
-      <button
-        class="toggle-option"
-        [class.active]="selectedView() === 'readlist'"
-        (click)="onViewChange('readlist')"
-      >
-        Comics à lire
-      </button>
-      <button
-        class="toggle-option"
-        [class.active]="selectedView() === 'owned'"
-        (click)="onViewChange('owned')"
-      >
-        Comics possédés
-      </button>
-    </div>
+    <app-view-toggle
+      [toggleClass]="'comics-view-toggle'"
+      [options]="viewOptions"
+      [selected]="selectedView()"
+      (selectedChange)="onViewChange($any($event))"
+    ></app-view-toggle>
 
     <div class="comics-actions">
       <button

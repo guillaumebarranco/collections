@@ -10,6 +10,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { MovieComponent } from '../../../components/movie/movie.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
+import { ViewToggleComponent } from '../../../components/view-toggle/view-toggle.component';
 import {
   SortDropdownComponent,
   SortOption,
@@ -40,6 +41,7 @@ type MovieView = 'watched' | 'cinema' | 'watchlist' | 'owned';
     FormsModule,
     MovieComponent,
     MenuComponent,
+    ViewToggleComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
   ],

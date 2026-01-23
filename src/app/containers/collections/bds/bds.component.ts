@@ -4,6 +4,10 @@ import { FormsModule } from '@angular/forms';
 import { BookComponent } from '../../../components/book/book.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import {
+  ViewToggleComponent,
+  ViewToggleOption,
+} from '../../../components/view-toggle/view-toggle.component';
+import {
   SortDropdownComponent,
   SortOption,
 } from '../../../components/sort-dropdown/sort-dropdown.component';
@@ -15,10 +19,10 @@ import {
 import { Book } from '../../../models/book-model';
 import { Bd } from '../../../models/bd-model';
 import {
-  getTotalMangaPages,
-  getTotalMangaTomesRead,
-  getEstimatedMangaReadingTime,
   PAGES_PER_MANGA_TOME,
+  getEstimatedBdReadingTime,
+  getTotalTomesBdRead,
+  getTotalBdPages,
 } from '../../../utils/stats.utils';
 import { ActivatedRoute, Params, RouterLink } from '@angular/router';
 import { getAllBds, getAllReadlistBds } from '../../../facades/bds/bds.facade';
@@ -34,6 +38,7 @@ import { EditBdComponent } from '../../edit/edit-bd/edit-bd.component';
     FormsModule,
     BookComponent,
     MenuComponent,
+    ViewToggleComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
     MatDialogModule,
@@ -65,6 +70,12 @@ export class BdsComponent implements OnInit {
     { value: 'genre', label: 'Genre (A-Z)' },
     { value: 'genre-desc', label: 'Genre (Z-A)' },
   ]);
+
+  viewOptions: ViewToggleOption[] = [
+    { value: 'read', label: 'BD lues' },
+    { value: 'readlist', label: 'BD à lire' },
+    { value: 'owned', label: 'BD possédées' },
+  ];
 
   bdsList = signal<{ [key: string]: Bd[] }>({});
   readlistBdsList = signal<{ [key: string]: Bd[] }>({});
@@ -202,11 +213,9 @@ export class BdsComponent implements OnInit {
   stats = computed<StatItem[]>(() => {
     const totalTomes = this.calculateTotalTomes();
     const totalPages = this.calculateTotalPages();
-    const totalTomesRead = getTotalMangaTomesRead(this.filteredBds());
-    const totalPagesRead = getTotalMangaPages(this.filteredBds());
-    const estimatedReadingTime = getEstimatedMangaReadingTime(
-      this.filteredBds()
-    );
+    const totalTomesRead = getTotalTomesBdRead(this.filteredBds());
+    const totalPagesRead = getTotalBdPages(this.filteredBds());
+    const estimatedReadingTime = getEstimatedBdReadingTime(this.filteredBds());
 
     return [
       {

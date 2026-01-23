@@ -38,6 +38,7 @@ export interface ItemWithGameLength {
 
 // Estimation : 1 minute 30s par page en moyenne
 export const MINUTES_PER_PAGE = 1.5;
+export const SECONDS_PER_COMIC_PAGE = 20;
 // Estimation : 200 pages par tome de manga en moyenne
 export const PAGES_PER_MANGA_TOME = 200;
 export const PAGES_PER_MANWHA_CHAPTER = 30;
@@ -114,7 +115,49 @@ export function getTotalMangaPages(items: ItemWithTomes[]): number {
   return totalPages;
 }
 
+export function getTotalComicsPages(items: ItemWithPages[]): number {
+  let totalPages = 0;
+  for (const item of items) {
+    if (item.pages) {
+      totalPages += item.pages * (item.readTimes || 1);
+    }
+  }
+  return totalPages;
+}
+
+export function getTotalBdPages(items: ItemWithPages[]): number {
+  let totalPages = 0;
+  for (const item of items) {
+    if (item.pages) {
+      totalPages += item.pages * (item.readTimes || 1);
+    }
+  }
+  return totalPages;
+}
+
 export function getTotalMangaTomesRead(items: ItemWithTomes[]): number {
+  let totalTomes = 0;
+  for (const item of items) {
+    if (item.nbTomes) {
+      const readTimes = item.readTimes || 1;
+      totalTomes += item.nbTomes * readTimes;
+    }
+  }
+  return totalTomes;
+}
+
+export function getTotalComicsTomesRead(items: ItemWithTomes[]): number {
+  let totalTomes = 0;
+  for (const item of items) {
+    if (item.nbTomes) {
+      const readTimes = item.readTimes || 1;
+      totalTomes += item.nbTomes * readTimes;
+    }
+  }
+  return totalTomes;
+}
+
+export function getTotalTomesBdRead(items: ItemWithTomes[]): number {
   let totalTomes = 0;
   for (const item of items) {
     if (item.nbTomes) {
@@ -175,6 +218,32 @@ export function getEstimatedManwhaReadingTime(
       const minutesPerChapter = item.nbChapters * MINUTES_PER_MANWHA_CHAPTER;
       const readTimes = item.readTimes || 1;
       totalMinutes += minutesPerChapter * readTimes;
+    }
+  }
+  return formatTimeStats(totalMinutes);
+}
+
+export function getEstimatedComicsReadingTime(
+  items: ItemWithPages[]
+): TimeStats {
+  let totalMinutes = 0;
+  for (const item of items) {
+    if (item.pages) {
+      const minutesPerRead = (item.pages * SECONDS_PER_COMIC_PAGE) / 60;
+      const readTimes = item.readTimes || 1;
+      totalMinutes += minutesPerRead * readTimes;
+    }
+  }
+  return formatTimeStats(totalMinutes);
+}
+
+export function getEstimatedBdReadingTime(items: ItemWithPages[]): TimeStats {
+  let totalMinutes = 0;
+  for (const item of items) {
+    if (item.pages) {
+      const minutesPerRead = (item.pages * SECONDS_PER_COMIC_PAGE) / 60;
+      const readTimes = item.readTimes || 1;
+      totalMinutes += minutesPerRead * readTimes;
     }
   }
   return formatTimeStats(totalMinutes);

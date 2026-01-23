@@ -10,15 +10,13 @@
       <button
         class="menu-item"
         [class.active]="isActive(item.route)"
-        [class.hide-on-mobile]="i > 4"
+        [class.hide-on-mobile]="i > 3"
         (click)="navigateTo(item.route)"
       >
         <span class="menu-icon">{{ item.icon }}</span>
         <span class="menu-label">{{ item.label }}</span>
       </button>
-      }
-
-      @if (isCompactMenu) {
+      } @if (isCompactMenu) {
       <div class="menu-item menu-item-group" [class.open]="isReadingMenuOpen">
         <button
           class="menu-group-toggle"
@@ -32,7 +30,10 @@
         </button>
         <div class="menu-submenu" [class.open]="isReadingMenuOpen">
           @for (item of readingMenuItems; track item.label) {
-          <button class="menu-subitem" (click)="navigateTo(item.route); closeReadingMenu()">
+          <button
+            class="menu-subitem"
+            (click)="navigateTo(item.route); closeReadingMenu()"
+          >
             <span class="menu-icon">{{ item.icon }}</span>
             <span class="menu-label">{{ item.label }}</span>
           </button>
@@ -47,6 +48,15 @@
       } @else {
       <button class="menu-login" type="button" (click)="goToLogin()">
         Se connecter
+      </button>
+      <button
+        class="menu-login-icon"
+        type="button"
+        (click)="goToLogin()"
+        aria-label="Se connecter"
+        title="Se connecter"
+      >
+        👤
       </button>
       }
     </div>

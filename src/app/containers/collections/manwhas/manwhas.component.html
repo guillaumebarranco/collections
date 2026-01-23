@@ -22,33 +22,14 @@
       Sélectionner mes manwhas
     </button>
   </div>
-  }
-
-  @if(allManwhas().length !== 0 || allReadlistManwhas().length !== 0) {
+  } @if(allManwhas().length !== 0 || allReadlistManwhas().length !== 0) {
   <div class="manwhas-header-top">
-    <div class="manwhas-view-toggle">
-      <button
-        class="toggle-option"
-        [class.active]="selectedView() === 'read'"
-        (click)="onViewChange('read')"
-      >
-        Manwhas lus
-      </button>
-      <button
-        class="toggle-option"
-        [class.active]="selectedView() === 'readlist'"
-        (click)="onViewChange('readlist')"
-      >
-        Manwhas à lire
-      </button>
-      <button
-        class="toggle-option"
-        [class.active]="selectedView() === 'owned'"
-        (click)="onViewChange('owned')"
-      >
-        Manwhas possédés
-      </button>
-    </div>
+    <app-view-toggle
+      [toggleClass]="'manwhas-view-toggle'"
+      [options]="viewOptions"
+      [selected]="selectedView()"
+      (selectedChange)="onViewChange($any($event))"
+    ></app-view-toggle>
 
     <div class="manwhas-actions">
       <button

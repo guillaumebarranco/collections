@@ -16,36 +16,12 @@
 
   @if(allMovies().length !== 0) {
   <div class="movies-header-top">
-    <div class="movies-view-toggle">
-      <button
-        class="toggle-option"
-        [class.active]="selectedView() === 'watched'"
-        (click)="onViewChange('watched')"
-      >
-        Films vus
-      </button>
-      <button
-        class="toggle-option"
-        [class.active]="selectedView() === 'cinema'"
-        (click)="onViewChange('cinema')"
-      >
-        Films vus au cinéma
-      </button>
-      <button
-        class="toggle-option"
-        [class.active]="selectedView() === 'watchlist'"
-        (click)="onViewChange('watchlist')"
-      >
-        Films à voir
-      </button>
-      <button
-        class="toggle-option"
-        [class.active]="selectedView() === 'owned'"
-        (click)="onViewChange('owned')"
-      >
-        Films possédés
-      </button>
-    </div>
+    <app-view-toggle
+      [toggleClass]="'movies-view-toggle'"
+      [options]="movieViewOptions"
+      [selected]="selectedView()"
+      (selectedChange)="onViewChange($any($event))"
+    ></app-view-toggle>
 
     <div class="movies-actions">
       @if(selectedView() !== 'cinema') {

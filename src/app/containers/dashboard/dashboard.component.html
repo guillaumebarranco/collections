@@ -4,29 +4,12 @@
 <div class="dashboard-container">
   <h1>Tableau de bord</h1>
 
-  <div class="dashboard-tabs">
-    <button
-      class="toggle-option"
-      [class.active]="selectedTab() === 'overview'"
-      (click)="onTabChange('overview')"
-    >
-      Vue d'ensemble
-    </button>
-    <button
-      class="toggle-option"
-      [class.active]="selectedTab() === 'entities'"
-      (click)="onTabChange('entities')"
-    >
-      Statistiques par entité
-    </button>
-    <button
-      class="toggle-option"
-      [class.active]="selectedTab() === 'top5'"
-      (click)="onTabChange('top5')"
-    >
-      Top 5
-    </button>
-  </div>
+  <app-view-toggle
+    [toggleClass]="'dashboard-tabs'"
+    [options]="tabOptions"
+    [selected]="selectedTab()"
+    (selectedChange)="onTabChange($any($event))"
+  ></app-view-toggle>
 
   <div class="dashboard-sections">
     <!-- Statistiques générales -->
