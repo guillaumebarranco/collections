@@ -16,6 +16,7 @@ export interface UserBd extends MandatoryBdData {
   readDate: string;
   rating: number;
   readTimes?: number;
+  owned: boolean;
 }
 
 export interface Bd extends BaseBd, UserBd {}

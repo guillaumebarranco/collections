@@ -9,6 +9,7 @@ export const ronanGameListGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -19,6 +20,7 @@ export const ronanGameListGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -29,5 +31,6 @@ export const ronanGameListGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 ];

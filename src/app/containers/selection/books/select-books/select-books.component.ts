@@ -63,6 +63,7 @@ export class SelectBooksComponent
       genre: book.genre,
       saga: book.saga,
       sagaOrder: book.sagaOrder,
+      owned: false,
       readDate: '',
       rating: 0,
     }));

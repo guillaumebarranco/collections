@@ -38,6 +38,7 @@ async function getAllComicsData(comics: UserComic[]): Promise<Comic[]> {
       nbTomes: definitiveMatchingComic?.nbTomes || 0,
       isFinished: definitiveMatchingComic?.isFinished || false,
       writer: definitiveMatchingComic?.writer || '',
+      owned: comic.owned,
     };
   });
 }

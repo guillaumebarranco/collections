@@ -38,6 +38,7 @@ async function getAllMangasData(mangas: UserManga[]): Promise<Manga[]> {
       genre: definitiveMatchingManga?.genre || '',
       nbTomes: definitiveMatchingManga?.nbTomes || 0,
       isFinished: definitiveMatchingManga?.isFinished || false,
+      owned: manga.owned,
     };
   });
 }

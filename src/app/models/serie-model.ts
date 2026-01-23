@@ -28,6 +28,7 @@ export interface UserSerieSeason {
 
 export interface UserSerie extends MandatorySerieData {
   seasons: UserSerieSeason[];
+  owned: boolean;
 }
 
 export interface Serie extends BaseSerie, UserSerie {}

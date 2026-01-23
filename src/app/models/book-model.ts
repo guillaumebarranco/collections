@@ -17,6 +17,7 @@ export interface UserBook extends MandatoryBookData {
   readDate: string;
   rating: number;
   readTimes?: number;
+  owned: boolean;
 }
 
 export interface Book extends BaseBook, UserBook {}

@@ -9,6 +9,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'La Nuit au musée 2',
@@ -18,6 +19,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Banlieue 13',
@@ -27,6 +29,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Banlieue 13 : Ultimatum',
@@ -36,6 +39,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Resident Evil',
@@ -45,6 +49,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Resident Evil : Apocalypse',
@@ -54,6 +59,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Resident Evil : Extinction',
@@ -63,6 +69,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '2007-09-26',
     lastViewedDate: '2007-09-26',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Rush Hour',
@@ -72,6 +79,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Rush Hour 2',
@@ -81,6 +89,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Rush Hour 3',
@@ -90,6 +99,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: "Ocean's Eleven",
@@ -99,6 +109,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: "Ocean's Twelve",
@@ -108,6 +119,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: "Ocean's Thirteen",
@@ -117,6 +129,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: "Ocean's Eight",
@@ -126,6 +139,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Pirates des Caraïbes : La malédiction du Black Pearl',
@@ -135,6 +149,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Pirates des Caraïbes 2 : Le Secret du Coffre Maudit',
@@ -144,6 +159,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '2006-07-12',
     lastViewedDate: '2006-07-12',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: "Pirates des Caraïbes 3 : Jusqu'au Bout du Monde",
@@ -153,6 +169,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Taxi',
@@ -162,6 +179,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '2025-04-08',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Taxi 2',
@@ -171,6 +189,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Taxi 3',
@@ -180,6 +199,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Taxi 4',
@@ -189,6 +209,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '2007-02-19',
     lastViewedDate: '2007-02-19',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Scary Movie',
@@ -198,6 +219,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Scary Movie 2',
@@ -207,6 +229,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Scary Movie 3',
@@ -216,6 +239,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Scary Movie 4',
@@ -225,6 +249,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Kill Bill: Vol. 1',
@@ -234,6 +259,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Kill Bill: Vol. 2',
@@ -243,6 +269,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Hellboy',
@@ -252,6 +279,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: "Hellboy 2 : Les Légions d'Or Maudites",
@@ -261,6 +289,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Les bronzés',
@@ -270,6 +299,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Les bronzés font du ski',
@@ -279,6 +309,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Les Bronzés 3 : Amis pour la Vie',
@@ -288,6 +319,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '2006-01-30',
     lastViewedDate: '2006-01-30',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Le Transporteur',
@@ -297,6 +329,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Le Transporteur 2',
@@ -306,6 +339,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Le Transporteur 3',
@@ -315,6 +349,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'xXx',
@@ -324,6 +359,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'xXx² : The Next Level',
@@ -333,6 +369,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Sin City',
@@ -342,6 +379,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: "Sin City : J'ai Tué pour Elle",
@@ -351,6 +389,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Blade',
@@ -360,6 +399,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Blade II',
@@ -369,6 +409,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Blade : Trinity',
@@ -378,6 +419,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Scooby-Doo',
@@ -387,6 +429,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Scooby-Doo 2: Monsters Unleashed',
@@ -396,6 +439,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Matrix',
@@ -405,6 +449,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'The Matrix Reloaded',
@@ -414,6 +459,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'The Matrix Revolutions',
@@ -423,6 +469,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Spy Kids',
@@ -432,6 +479,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: "Spy Kids 2: L'île des rêves perdus",
@@ -441,6 +489,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Spy Kids 3-D: Game Over',
@@ -450,6 +499,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Bad Boys',
@@ -459,6 +509,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Bad Boys II',
@@ -468,6 +519,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '2003-07-23',
     lastViewedDate: '2003-07-23',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Men in Black',
@@ -477,6 +529,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Men in Black II',
@@ -486,6 +539,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Men in Black 3',
@@ -495,6 +549,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Lara Croft : Tomb Raider',
@@ -504,6 +559,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Tomb Raider : le berceau de la vie',
@@ -513,6 +569,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'La Momie',
@@ -522,6 +579,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Le Retour de la Momie',
@@ -531,6 +589,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: "La momie : la tombe de l'empereur dragon",
@@ -540,6 +599,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: "L'arme fatale",
@@ -549,6 +609,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: "L'arme fatale 2",
@@ -558,6 +619,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: "L'arme fatale 3",
@@ -567,6 +629,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: "L'arme fatale 4",
@@ -576,6 +639,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Predator',
@@ -585,6 +649,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Predator 2',
@@ -594,6 +659,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Predators',
@@ -603,6 +669,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'The Predator',
@@ -612,6 +679,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Alien',
@@ -621,6 +689,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Aliens',
@@ -630,6 +699,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Alien 3',
@@ -639,6 +709,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Alien : La Résurrection',
@@ -648,6 +719,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Alien vs. Predator',
@@ -657,6 +729,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '2004-08-18',
     lastViewedDate: '2004-08-18',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Alien vs. Predator : Requiem',
@@ -666,6 +739,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Independence Day',
@@ -675,6 +749,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Independence Day : Resurgence',
@@ -684,6 +759,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: "Maman j'ai raté l'avion",
@@ -693,6 +769,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: "Maman j'ai raté l'avion 2",
@@ -702,6 +779,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Retour vers le futur',
@@ -711,6 +789,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Retour vers le futur 2',
@@ -720,6 +799,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Retour vers le futur 3',
@@ -729,6 +809,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Rambo : First Blood',
@@ -738,6 +819,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Rambo 2 : la mission',
@@ -747,6 +829,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Rambo 3',
@@ -756,6 +839,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'John Rambo',
@@ -765,6 +849,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '2008-01-25',
     lastViewedDate: '2008-01-25',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Le Parrain',
@@ -774,6 +859,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Le Parrain 2',
@@ -783,6 +869,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Scream',
@@ -792,6 +879,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Scream 2',
@@ -801,6 +889,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Scream 3',
@@ -810,6 +899,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Scream 4',
@@ -819,6 +909,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Avatar',
@@ -828,6 +919,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '2009-07-06',
     lastViewedDate: '2009-07-06',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: "Avatar 2 : La Voie de l'Eau",
@@ -837,6 +929,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '2022-12-16',
     lastViewedDate: '2022-12-16',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'American Pie',
@@ -846,6 +939,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'American Pie 2',
@@ -855,6 +949,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'American Pie 3 : Marions-les',
@@ -864,6 +959,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'American Pie Presents: Beta House',
@@ -873,6 +969,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'American Pie Presents: The Naked Mile',
@@ -882,6 +979,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'American Pie Presents: Band Camp',
@@ -891,6 +989,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'American Pie Presents: The Book of Love',
@@ -900,6 +999,7 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'American Pie 4',
@@ -909,5 +1009,6 @@ export const guillaumeMoviesSagaPage2: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 ];

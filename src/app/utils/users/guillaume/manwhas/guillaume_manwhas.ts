@@ -7,6 +7,7 @@ export const guillaumeManwhas: UserManwha[] = [
     readDate: '05/10/2017',
     rating: 3.5,
     readTimes: 2,
+    owned: false,
   },
   {
     title: 'Red Storm',
@@ -14,6 +15,7 @@ export const guillaumeManwhas: UserManwha[] = [
     readDate: '16/04/2016',
     rating: 3,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Noblesse',
@@ -21,6 +23,7 @@ export const guillaumeManwhas: UserManwha[] = [
     readDate: '16/04/2016',
     rating: 4.25,
     readTimes: 5,
+    owned: false,
   },
   {
     title: 'Tower Of God',
@@ -28,13 +31,15 @@ export const guillaumeManwhas: UserManwha[] = [
     readDate: '16/04/2016',
     rating: 4.5,
     readTimes: 2,
+    owned: false,
   },
   {
-    title: 'Girls of The Wild\'s',
+    title: "Girls of The Wild's",
     author: 'Hun',
     readDate: '16/04/2016',
     rating: 3.5,
     readTimes: 25,
+    owned: false,
   },
   {
     title: 'DICE: The Cube that Changes Everything',
@@ -42,6 +47,7 @@ export const guillaumeManwhas: UserManwha[] = [
     readDate: '16/04/2016',
     rating: 3.75,
     readTimes: 2,
+    owned: false,
   },
   {
     title: 'Dr. Frost',
@@ -49,6 +55,7 @@ export const guillaumeManwhas: UserManwha[] = [
     readDate: '',
     rating: 3.25,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Unordinary',
@@ -56,6 +63,7 @@ export const guillaumeManwhas: UserManwha[] = [
     readDate: '',
     rating: 4.25,
     readTimes: 3,
+    owned: false,
   },
   {
     title: 'I Love Yoo',
@@ -63,6 +71,7 @@ export const guillaumeManwhas: UserManwha[] = [
     readDate: '',
     rating: 3.25,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Wind Breaker',
@@ -70,6 +79,7 @@ export const guillaumeManwhas: UserManwha[] = [
     readDate: '',
     rating: 3,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Lookism',
@@ -77,6 +87,7 @@ export const guillaumeManwhas: UserManwha[] = [
     readDate: '',
     rating: 2.75,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Bastard',
@@ -84,6 +95,7 @@ export const guillaumeManwhas: UserManwha[] = [
     readDate: '',
     rating: 4,
     readTimes: 2,
+    owned: false,
   },
   {
     title: 'Sidekicks',
@@ -91,6 +103,7 @@ export const guillaumeManwhas: UserManwha[] = [
     readDate: '',
     rating: 4,
     readTimes: 3,
+    owned: false,
   },
   {
     title: 'Solo Leveling',
@@ -98,5 +111,6 @@ export const guillaumeManwhas: UserManwha[] = [
     readDate: '',
     rating: 4.25,
     readTimes: 3,
-  }
+    owned: false,
+  },
 ];

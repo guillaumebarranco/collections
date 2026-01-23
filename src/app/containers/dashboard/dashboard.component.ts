@@ -21,6 +21,7 @@ import { Bd } from '../../models/bd-model';
 import {
   getTotalManwhasChaptersRead,
   getTotalPagesRead,
+  MINUTES_PER_MANGA_TOME,
   MINUTES_PER_MANWHA_CHAPTER,
   MINUTES_PER_PAGE,
 } from '../../utils/stats.utils';
@@ -383,9 +384,15 @@ export class DashboardComponent implements OnInit {
       .map((manga) => ({
         ...manga,
         totalReadingTime:
-          ((manga.nbTomes || 0) * 30 * (manga.readTimes || 1)) / 60, // 30 minutes par tome, converti en heures
+          ((manga.nbTomes || 0) *
+            MINUTES_PER_MANGA_TOME *
+            (manga.readTimes || 1)) /
+          60, // 30 minutes par tome, converti en heures
         formattedReadingTime: this.formatTime(
-          ((manga.nbTomes || 0) * 30 * (manga.readTimes || 1)) / 60
+          ((manga.nbTomes || 0) *
+            MINUTES_PER_MANGA_TOME *
+            (manga.readTimes || 1)) /
+            60
         ),
       }))
       .sort((a, b) => (b.readTimes || 0) - (a.readTimes || 0))
@@ -444,10 +451,7 @@ export class DashboardComponent implements OnInit {
       }, 0);
 
     const gamesTotalTime = this.allGames().reduce(
-      (sum, game) =>
-        sum +
-        game.averageTimeToFinish * game.timesFinished +
-        game.additionnalEstimatedTime,
+      (sum, game) => sum + getGameTimePlayed(game),
       0
     );
 

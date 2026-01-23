@@ -7,6 +7,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -15,6 +16,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -23,6 +25,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -31,14 +34,16 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
-    title: 'L\'Île mystérieuse',
+    title: "L'Île mystérieuse",
     author: 'Jules Verne',
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -47,6 +52,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -55,6 +61,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -63,6 +70,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -71,6 +79,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -79,6 +88,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -87,6 +97,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -95,6 +106,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -103,6 +115,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -111,6 +124,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -119,6 +133,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -127,6 +142,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -135,6 +151,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -143,6 +160,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -151,14 +169,16 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
-    title: 'L\'homme invisible',
+    title: "L'homme invisible",
     author: 'H.G. Wells',
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -167,22 +187,25 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
-    title: 'L\'Odyssée',
+    title: "L'Odyssée",
     author: 'Homère',
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
-    title: 'L\'Iliade',
+    title: "L'Iliade",
     author: 'Homère',
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -191,6 +214,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -199,6 +223,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -207,6 +232,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -215,6 +241,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -223,6 +250,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -231,6 +259,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -239,22 +268,25 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
-    title: 'Tara Duncan et l\'invasion fantôme',
+    title: "Tara Duncan et l'invasion fantôme",
     author: 'Sophie Audouin-Mamikonian',
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
-    title: 'L\'impératrice maléfique',
+    title: "L'impératrice maléfique",
     author: 'Sophie Audouin-Mamikonian',
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -263,6 +295,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -271,6 +304,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -279,14 +313,16 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
-    title: 'L\'Ultime Combat',
+    title: "L'Ultime Combat",
     author: 'Sophie Audouin-Mamikonian',
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -295,30 +331,34 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
-    title: 'Le Trône de fer, L\'Intégrale Tome 1',
+    title: "Le Trône de fer, L'Intégrale Tome 1",
     author: 'George R.R. Martin',
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
-    title: 'Le Trône de fer, L\'Intégrale Tome 2',
+    title: "Le Trône de fer, L'Intégrale Tome 2",
     author: 'George R.R. Martin',
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
-    title: 'Le Trône de fer, L\'Intégrale Tome 3',
+    title: "Le Trône de fer, L'Intégrale Tome 3",
     author: 'George R.R. Martin',
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -327,14 +367,16 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
-    title: 'L\'Embrasement',
+    title: "L'Embrasement",
     author: 'Suzanne Collins',
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -343,14 +385,16 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
-    title: 'La Ballade du serpent et de l\'oiseau chanteur',
+    title: "La Ballade du serpent et de l'oiseau chanteur",
     author: 'Suzanne Collins',
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -359,6 +403,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -367,6 +412,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -375,6 +421,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -383,6 +430,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -391,6 +439,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -399,6 +448,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -407,6 +457,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -415,6 +466,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -423,6 +475,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -431,6 +484,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -439,6 +493,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -447,6 +502,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -455,6 +511,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -463,6 +520,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -471,6 +529,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -479,6 +538,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -487,6 +547,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -495,6 +556,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -503,6 +565,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -511,6 +574,7 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 
   {
@@ -519,5 +583,6 @@ export const ronanReadListBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
 ];

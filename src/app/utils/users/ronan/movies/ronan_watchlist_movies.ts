@@ -9,6 +9,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -19,6 +20,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -29,16 +31,18 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
-    title: 'A l\'aube du 6ème jour',
+    title: "A l'aube du 6ème jour",
     director: 'Roger Spottiswoode',
     rating: 0,
     timesWatched: 0,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -49,6 +53,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -59,6 +64,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -69,6 +75,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -79,6 +86,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -89,6 +97,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -99,6 +108,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -109,6 +119,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -119,6 +130,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -129,6 +141,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -139,6 +152,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -149,6 +163,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -159,6 +174,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -169,6 +185,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -179,6 +196,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -189,6 +207,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -199,6 +218,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -209,6 +229,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -219,6 +240,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -229,6 +251,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -239,6 +262,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -249,6 +273,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -259,6 +284,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -269,6 +295,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -279,6 +306,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -289,6 +317,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -299,6 +328,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -309,6 +339,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -319,6 +350,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -329,6 +361,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -339,6 +372,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -349,16 +383,18 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
-    title: 'Le Joyeux Noël d\'Harold et Kumar',
+    title: "Le Joyeux Noël d'Harold et Kumar",
     director: 'Todd Strauss-Schulson',
     rating: 0,
     timesWatched: 0,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -369,6 +405,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -379,6 +416,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -389,6 +427,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -399,6 +438,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -409,6 +449,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -419,6 +460,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -429,6 +471,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -439,6 +482,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -449,6 +493,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -459,6 +504,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -469,6 +515,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -479,6 +526,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -489,6 +537,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -499,6 +548,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -509,6 +559,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -519,6 +570,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -529,6 +581,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -539,6 +592,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -549,6 +603,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -559,6 +614,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -569,6 +625,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -579,6 +636,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -589,6 +647,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -599,6 +658,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -609,6 +669,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -619,6 +680,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -629,6 +691,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -639,6 +702,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -649,6 +713,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -659,6 +724,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -669,6 +735,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -679,6 +746,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -689,6 +757,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -699,6 +768,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -709,6 +779,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -719,6 +790,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -729,6 +801,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -739,6 +812,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -749,6 +823,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -759,6 +834,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -769,6 +845,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -779,6 +856,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -789,6 +867,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -799,16 +878,18 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
-    title: 'L\'arme fatale 4',
+    title: "L'arme fatale 4",
     director: 'Richard Donner',
     rating: 0,
     timesWatched: 0,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -819,6 +900,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -829,6 +911,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -839,6 +922,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -849,6 +933,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -859,6 +944,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -869,6 +955,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -879,6 +966,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -889,6 +977,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -899,6 +988,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -909,6 +999,7 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 
   {
@@ -919,5 +1010,6 @@ export const ronanWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 ];

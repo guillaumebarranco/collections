@@ -7,5 +7,6 @@ export const guillaumeComics: UserComic[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: true,
   },
 ];

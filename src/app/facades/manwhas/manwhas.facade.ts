@@ -40,6 +40,7 @@ async function getAllManwhasData(manwhas: UserManwha[]): Promise<Manwha[]> {
       isFinished: definitiveMatchingManwha?.isFinished || false,
       saga: '',
       sagaOrder: 0,
+      owned: manwha.owned,
     };
   });
 }

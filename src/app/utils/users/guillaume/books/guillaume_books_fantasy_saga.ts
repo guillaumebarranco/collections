@@ -7,6 +7,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2025-03-25',
     rating: 3.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Le cheval de feu',
@@ -14,6 +15,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2025-04-05',
     rating: 3.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "Mâchoires d'écume",
@@ -21,6 +23,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2025-04-08',
     rating: 4,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "Le porteur d'espoir",
@@ -28,6 +31,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2025-04-09',
     rating: 4.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Ciel de cendres',
@@ -35,6 +39,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2025-04-14',
     rating: 3.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "D'un monde à l'autre",
@@ -42,6 +47,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2024-06-13',
     rating: 3.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Les frontières de glace',
@@ -49,6 +55,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2024-06-24',
     rating: 3,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "L'île du destin",
@@ -56,6 +63,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2024-06-25',
     rating: 3.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'La Forêt des captifs',
@@ -63,6 +71,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2025-01-03',
     rating: 3.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "L'Œil d'Otolep",
@@ -70,6 +79,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2025-01-04',
     rating: 4,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Les Tentacules du mal',
@@ -77,6 +87,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2025-01-05',
     rating: 4.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Ellana',
@@ -84,6 +95,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2025-01-06',
     rating: 4.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "Ellana, l'Envol",
@@ -91,6 +103,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2025-01-07',
     rating: 4.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Ellana, la Prophétie',
@@ -98,6 +111,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2025-01-08',
     rating: 5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Les sortceliers',
@@ -105,6 +119,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2012-07-31',
     rating: 4,
     readTimes: 5,
+    owned: false,
   },
   {
     title: 'Le livre interdit',
@@ -112,6 +127,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2012-08-01',
     rating: 4,
     readTimes: 5,
+    owned: false,
   },
   {
     title: 'Le sceptre maudit',
@@ -119,6 +135,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2012-08-02',
     rating: 4,
     readTimes: 5,
+    owned: false,
   },
   {
     title: 'Le dragon renégat',
@@ -126,6 +143,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2012-08-03',
     rating: 3.5,
     readTimes: 5,
+    owned: false,
   },
   {
     title: 'Le continent interdit',
@@ -133,6 +151,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2012-08-04',
     rating: 5,
     readTimes: 10,
+    owned: false,
   },
   {
     title: 'Dans le piège de Magister',
@@ -140,6 +159,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2012-08-05',
     rating: 4.5,
     readTimes: 5,
+    owned: false,
   },
   {
     title: "Tara Duncan et l'invasion fantôme",
@@ -147,6 +167,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2012-08-06',
     rating: 4,
     readTimes: 5,
+    owned: false,
   },
   {
     title: "L'impératrice maléfique",
@@ -154,6 +175,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2012-08-08',
     rating: 4.5,
     readTimes: 5,
+    owned: false,
   },
   {
     title: 'Tara Duncan contre la reine noire',
@@ -161,6 +183,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2012-08-09',
     rating: 4.5,
     readTimes: 5,
+    owned: false,
   },
   {
     title: 'Dragons contre Démons',
@@ -168,6 +191,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2012-09-27',
     rating: 4.5,
     readTimes: 5,
+    owned: false,
   },
   {
     title: 'La Guerre des planètes',
@@ -175,6 +199,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2013-09-19',
     rating: 4.5,
     readTimes: 5,
+    owned: false,
   },
   {
     title: "L'Ultime Combat",
@@ -182,6 +207,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2014-09-18',
     rating: 4.5,
     readTimes: 5,
+    owned: false,
   },
   {
     title: 'Tara et Cal',
@@ -189,6 +215,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2015-09-20',
     rating: 3,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 1",
@@ -196,6 +223,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2024-09-25',
     rating: 3,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 2",
@@ -203,6 +231,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2024-10-11',
     rating: 3,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 3",
@@ -210,6 +239,7 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2024-12-04',
     rating: 3.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
@@ -217,5 +247,6 @@ export const guillaumeBooksFantasySaga: UserBook[] = [
     readDate: '2025-08-02',
     rating: 3,
     readTimes: 1,
+    owned: false,
   },
 ];

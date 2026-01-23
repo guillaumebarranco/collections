@@ -93,6 +93,7 @@ export class ComicsComponent implements OnInit {
       sagaOrder: 0,
       nbTomes: comic.nbTomes || 0,
       isFinished: comic.isFinished || false,
+      owned: false,
     }));
   });
 
@@ -117,6 +118,7 @@ export class ComicsComponent implements OnInit {
       sagaOrder: 0,
       nbTomes: comic.nbTomes || 0,
       isFinished: comic.isFinished || false,
+      owned: false,
     }));
   });
 

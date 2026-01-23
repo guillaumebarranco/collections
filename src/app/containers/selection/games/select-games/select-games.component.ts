@@ -138,6 +138,7 @@ export class SelectGamesComponent
       additionnalEstimatedTime: 0,
       platined: false,
       timesFinishedHundredPercent: 0,
+      owned: false,
     }));
   }
 

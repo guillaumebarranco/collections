@@ -38,6 +38,7 @@ async function getAllBdsData(bds: UserBd[]): Promise<Bd[]> {
       nbTomes: definitiveMatchingBd?.nbTomes || 0,
       isFinished: definitiveMatchingBd?.isFinished || false,
       writer: definitiveMatchingBd?.writer || '',
+      owned: bd.owned,
     };
   });
 }
@@ -107,7 +108,9 @@ export async function getAllBdsMerged(
     .flat()
     .reduce((acc: Bd[], item: Bd) => {
       if (
-        acc.find((bd) => bd.title === item.title && bd.designer === item.designer)
+        acc.find(
+          (bd) => bd.title === item.title && bd.designer === item.designer
+        )
       ) {
         return acc;
       }

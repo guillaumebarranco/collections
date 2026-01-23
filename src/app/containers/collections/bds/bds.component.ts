@@ -21,10 +21,7 @@ import {
   PAGES_PER_MANGA_TOME,
 } from '../../../utils/stats.utils';
 import { ActivatedRoute, Params, RouterLink } from '@angular/router';
-import {
-  getAllBds,
-  getAllReadlistBds,
-} from '../../../facades/bds/bds.facade';
+import { getAllBds, getAllReadlistBds } from '../../../facades/bds/bds.facade';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditBdComponent } from '../../edit/edit-bd/edit-bd.component';
 
@@ -93,6 +90,7 @@ export class BdsComponent implements OnInit {
       sagaOrder: 0,
       nbTomes: bd.nbTomes || 0,
       isFinished: bd.isFinished || false,
+      owned: false,
     }));
   });
 
@@ -117,6 +115,7 @@ export class BdsComponent implements OnInit {
       sagaOrder: 0,
       nbTomes: bd.nbTomes || 0,
       isFinished: bd.isFinished || false,
+      owned: false,
     }));
   });
 
@@ -280,9 +279,7 @@ export class BdsComponent implements OnInit {
   }
 
   private matchesSearch(bd: Book, term: string): boolean {
-    const haystack = [bd.title, bd.author, bd.genre]
-      .filter(Boolean)
-      .join(' ');
+    const haystack = [bd.title, bd.author, bd.genre].filter(Boolean).join(' ');
 
     const normalizedHaystack = this.normalizeSearchText(haystack);
     const normalizedTerm = this.normalizeSearchText(term);

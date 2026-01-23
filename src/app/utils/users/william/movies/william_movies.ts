@@ -9,6 +9,7 @@ export const williamMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Cars 2',
@@ -18,6 +19,7 @@ export const williamMovies: UserMovie[] = [
     firstViewedDate: '2025-11-23',
     lastViewedDate: '2025-11-23',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Cars 3',
@@ -27,6 +29,7 @@ export const williamMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Planes',
@@ -36,6 +39,7 @@ export const williamMovies: UserMovie[] = [
     firstViewedDate: '2025-08-14',
     lastViewedDate: '2025-08-14',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Planes 2',
@@ -45,6 +49,7 @@ export const williamMovies: UserMovie[] = [
     firstViewedDate: '2025-09-14',
     lastViewedDate: '2025-09-14',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Le monde de Nemo',
@@ -54,6 +59,7 @@ export const williamMovies: UserMovie[] = [
     firstViewedDate: '2025-09-23',
     lastViewedDate: '2025-09-23',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Le monde de Dory',
@@ -63,6 +69,7 @@ export const williamMovies: UserMovie[] = [
     firstViewedDate: '2025-10-23',
     lastViewedDate: '2025-10-23',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Ratatouille',
@@ -72,5 +79,16 @@ export const williamMovies: UserMovie[] = [
     firstViewedDate: '2025-08-23',
     lastViewedDate: '2025-08-23',
     seenAtCinema: false,
+    owned: false,
+  },
+  {
+    title: 'Zootopie',
+    director: 'Byron Howard, Rich Moore',
+    rating: 0,
+    timesWatched: 4,
+    firstViewedDate: '2025-12-27',
+    lastViewedDate: '2025-12-27',
+    seenAtCinema: false,
+    owned: false,
   },
 ];

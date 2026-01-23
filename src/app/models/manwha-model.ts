@@ -15,6 +15,7 @@ export interface UserManwha extends MandatoryManwhaData {
   readDate: string;
   rating: number;
   readTimes?: number;
+  owned: boolean;
 }
 
 export interface Manwha extends BaseManwha, UserManwha {}

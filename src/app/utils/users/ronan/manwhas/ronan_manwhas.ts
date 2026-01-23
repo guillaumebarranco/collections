@@ -7,6 +7,7 @@ export const ronanManwhas: UserManwha[] = [
     readDate: '',
     rating: 3,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Tower Of God',
@@ -14,6 +15,7 @@ export const ronanManwhas: UserManwha[] = [
     readDate: '',
     rating: 3,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Solo Leveling',
@@ -21,5 +23,6 @@ export const ronanManwhas: UserManwha[] = [
     readDate: '',
     rating: 3.5,
     readTimes: 1,
-  }
+    owned: false,
+  },
 ];

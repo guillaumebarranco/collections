@@ -9,6 +9,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Call of Duty: Modern Warfare 2',
@@ -18,6 +19,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Call of Duty: Black Ops',
@@ -27,6 +29,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 100,
     platined: true,
+    owned: false,
   },
   {
     title: 'Call of Duty: Modern Warfare 3',
@@ -36,6 +39,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Call of Duty: Black Ops II',
@@ -45,6 +49,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 50,
     platined: false,
+    owned: false,
   },
   {
     title: 'Call of Duty: Black Ops III',
@@ -54,6 +59,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 213,
     platined: false,
+    owned: false,
   },
   {
     title: 'Call of Duty: Black Ops 4',
@@ -63,6 +69,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Call of Duty: Black Ops Cold War',
@@ -72,6 +79,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 60,
     platined: false,
+    owned: false,
   },
   {
     title: 'Call of Duty: Black Ops 6',
@@ -81,6 +89,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 30,
     platined: false,
+    owned: false,
   },
   {
     title: 'One Piece: Pirate Warriors',
@@ -90,6 +99,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 20,
     platined: true,
+    owned: false,
   },
   {
     title: 'Naruto: Ultimate Ninja Storm',
@@ -99,6 +109,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 15,
     platined: false,
+    owned: false,
   },
   {
     title: 'Naruto Shippuden: Ultimate Ninja Storm 2',
@@ -108,6 +119,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'Naruto Shippuden: Ultimate Ninja Storm 3',
@@ -117,6 +129,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 20,
     platined: true,
+    owned: false,
   },
   {
     title: 'Naruto Shippuden: Ultimate Ninja Storm 4',
@@ -126,6 +139,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 20,
     platined: true,
+    owned: false,
   },
   {
     title: 'Infamous',
@@ -135,6 +149,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 20,
     platined: true,
+    owned: false,
   },
   {
     title: 'Infamous 2',
@@ -144,6 +159,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'Infamous: Second Son',
@@ -153,6 +169,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'Infamous: First Light',
@@ -162,6 +179,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'The Amazing Spider-Man',
@@ -171,6 +189,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: "Marvel's Spider-Man",
@@ -180,6 +199,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: "Marvel's Spider-Man: Miles Morales",
@@ -189,6 +209,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: "Marvel's Spider-Man 2",
@@ -198,6 +219,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'BioShock Infinite',
@@ -207,6 +229,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Watch Dogs',
@@ -216,6 +239,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Dragon Ball Z: Budokai 3',
@@ -225,6 +249,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 15,
     platined: false,
+    owned: false,
   },
   {
     title: 'South Park: Le Bâton de la Vérité',
@@ -234,6 +259,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'God of War',
@@ -243,6 +269,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'God of War Ragnarök',
@@ -252,6 +279,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'Hogwarts Legacy',
@@ -261,6 +289,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'Grand Theft Auto: Liberty City Stories',
@@ -270,6 +299,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Star Wars: Le Pouvoir de la Force',
@@ -279,6 +309,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Lego Star Wars',
@@ -288,6 +319,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Wii Sports',
@@ -297,6 +329,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'A Plague Tale : Innocence',
@@ -306,6 +339,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'A Plague Tale : Requiem',
@@ -315,6 +349,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'A Way Out',
@@ -324,6 +359,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'Anthem',
@@ -333,6 +369,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: "Assassin's Creed II",
@@ -342,6 +379,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 15,
     platined: true,
+    owned: false,
   },
   {
     title: "Assassin's Creed : Brotherhood",
@@ -351,6 +389,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: "Assassin's Creed : Revelations",
@@ -360,6 +399,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: "Assassin's Creed III",
@@ -369,6 +409,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: "Assassin's Creed Liberation Remastered",
@@ -378,6 +419,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: "Assassin's Creed III Remastered",
@@ -387,6 +429,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: "Assassin's Creed IV : Black Flag",
@@ -396,6 +439,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 15,
     platined: true,
+    owned: false,
   },
   {
     title: "Assassin's Creed Rogue",
@@ -405,6 +449,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: "Assassin's Creed Unity",
@@ -414,6 +459,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: "Assassin's Creed Syndicate",
@@ -423,6 +469,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 15,
     platined: true,
+    owned: false,
   },
   {
     title: "Assassin's Creed Origins",
@@ -432,6 +479,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: "Assassin's Creed Odyssey",
@@ -441,6 +489,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: "Assassin's Creed Valhalla",
@@ -450,6 +499,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: "Assassin's Creed Mirage",
@@ -459,6 +509,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: "Assassin's Creed Shadows",
@@ -468,6 +519,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: "Astro's Playroom",
@@ -477,6 +529,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'Avatar : Frontiers of Pandora',
@@ -486,6 +539,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'Batman: Arkham Asylum',
@@ -495,6 +549,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'Batman: Arkham City',
@@ -504,6 +559,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'Batman: Arkham Knight',
@@ -513,6 +569,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'Batman: Arkham Origins',
@@ -522,6 +579,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Battlefield 4',
@@ -531,6 +589,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'BioShock Remastered (Complete Edition)',
@@ -540,6 +599,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Black Myth : Wukong',
@@ -549,6 +609,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 30,
     platined: false,
+    owned: false,
   },
   {
     title: 'Call of Duty : Modern Warfare Remastered',
@@ -558,6 +619,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'Clair Obscur : Expedition 33',
@@ -567,6 +629,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'Cyberpunk 2077',
@@ -576,6 +639,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 20,
     platined: true,
+    owned: false,
   },
   {
     title: 'Darksiders',
@@ -585,6 +649,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 10,
     platined: false,
+    owned: false,
   },
   {
     title: 'Darksiders II Deathinitive Edition',
@@ -594,6 +659,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Days Gone',
@@ -603,6 +669,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 10,
     platined: true,
+    owned: false,
   },
   {
     title: 'Deliver Us The Moon',
@@ -612,6 +679,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 4,
     platined: true,
+    owned: false,
   },
   {
     title: 'Detroit : Become Human',
@@ -621,6 +689,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 8,
     platined: false,
+    owned: false,
   },
   {
     title: 'Dishonored : Definitive Edition',
@@ -630,6 +699,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Dishonored 2',
@@ -639,6 +709,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'DmC Devil May Cry : Definitive Edition',
@@ -648,6 +719,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 8,
     platined: false,
+    owned: false,
   },
   {
     title: 'Dragon Ball Raging Blast 2',
@@ -657,6 +729,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 5,
     platined: false,
+    owned: false,
   },
   {
     title: 'Elden Ring',
@@ -666,6 +739,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 75,
     platined: true,
+    owned: false,
   },
   {
     title: 'Far Cry 3',
@@ -675,6 +749,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 25,
     platined: true,
+    owned: false,
   },
   {
     title: 'Far Cry 4',
@@ -684,6 +759,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: "Fist of the North Star : Ken's Rage",
@@ -693,6 +769,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Ghost of Tsushima',
@@ -702,6 +779,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'God of War III',
@@ -711,6 +789,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Gotham Knights',
@@ -720,6 +799,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'Gran Turismo 7',
@@ -729,6 +809,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 20,
     platined: false,
+    owned: false,
   },
   {
     title: 'Grand Theft Auto V',
@@ -738,6 +819,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 15,
     platined: false,
+    owned: false,
   },
   {
     title: 'Heavy Rain',
@@ -747,6 +829,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Hitman',
@@ -756,6 +839,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Horizon Zero Dawn',
@@ -765,6 +849,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'Horizon Forbidden West',
@@ -774,6 +859,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'Indiana Jones et le Cercle Ancien',
@@ -783,6 +869,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 30,
     platined: true,
+    owned: false,
   },
   {
     title: 'Injustice : Les Dieux sont Parmi Nous',
@@ -792,6 +879,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 30,
     platined: false,
+    owned: false,
   },
   {
     title: 'Injustice : Les Dieux sont Parmi Nous - Ultimate Edition',
@@ -801,6 +889,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Injustice 2',
@@ -810,6 +899,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'Kena : Bridge of Spirits',
@@ -819,6 +909,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'Killzone Shadow Fall',
@@ -828,6 +919,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: "La Terre du Milieu : L'Ombre du Mordor",
@@ -837,6 +929,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: "La Terre du Milieu : L'Ombre de la Guerre",
@@ -846,6 +939,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'Life is Strange',
@@ -855,6 +949,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Mafia : The Old Country',
@@ -864,6 +959,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Mafia III : Definitive Edition',
@@ -873,6 +969,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: "Marvel's Guardians of the Galaxy",
@@ -882,6 +979,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 12,
     platined: true,
+    owned: false,
   },
   {
     title: 'Naruto Shippuden : Ultimate Ninja Storm Generations',
@@ -891,6 +989,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'Operation : Tango',
@@ -900,6 +999,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'Prince of Persia : Les Sables Oubliés',
@@ -909,6 +1009,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Qui es-tu?',
@@ -918,6 +1019,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Ratchet & Clank : Rift Apart',
@@ -927,6 +1029,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'Red Dead Redemption',
@@ -936,6 +1039,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Red Dead Redemption 2',
@@ -945,6 +1049,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 50,
     platined: false,
+    owned: false,
   },
   {
     title: 'Resident Evil 7 : Biohazard',
@@ -954,6 +1059,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Returnal',
@@ -963,6 +1069,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'Rise of the Tomb Raider',
@@ -972,6 +1079,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 5,
     platined: false,
+    owned: false,
   },
   {
     title: 'Shadow of the Tomb Raider',
@@ -981,6 +1089,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: "Le Seigneur des Anneaux : La Quête d'Aragorn",
@@ -990,6 +1099,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'SSX',
@@ -999,6 +1109,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Star Wars : Battlefront II',
@@ -1008,6 +1119,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'Star Wars Jedi : Fallen Order',
@@ -1017,6 +1129,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'Star Wars Jedi : Survivor',
@@ -1026,6 +1139,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'Star Wars : Le Pouvoir de la Force II',
@@ -1035,6 +1149,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Tekken 6',
@@ -1044,6 +1159,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Tekken Revolution',
@@ -1053,6 +1169,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'The Elder Scrolls V : Skyrim',
@@ -1062,6 +1179,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'The Last of Us',
@@ -1071,6 +1189,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'The Last of Us Part II',
@@ -1080,6 +1199,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'The Order : 1886',
@@ -1089,6 +1209,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: "Tom Clancy's The Division",
@@ -1098,6 +1219,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Tomb Raider : Definitive Edition',
@@ -1107,6 +1229,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 8,
     platined: false,
+    owned: false,
   },
   {
     title: 'Titanfall 2',
@@ -1116,6 +1239,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: "Uncharted : Drake's Fortune",
@@ -1125,6 +1249,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Uncharted 2 : Among Thieves',
@@ -1134,6 +1259,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Uncharted 2 : Among Thieves Remastered',
@@ -1143,6 +1269,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: "Uncharted 3 : L'illusion de Drake",
@@ -1152,6 +1279,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 8,
     platined: false,
+    owned: false,
   },
   {
     title: "Uncharted 3 : L'Illusion de Drake Remastered",
@@ -1161,6 +1289,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 8,
     platined: false,
+    owned: false,
   },
   {
     title: "Uncharted 4 : A Thief's End",
@@ -1170,6 +1299,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Uncharted : Legacy of Thieves Collection',
@@ -1179,6 +1309,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: true,
+    owned: false,
   },
   {
     title: 'Watch Dogs 2',
@@ -1188,6 +1319,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'The Witcher 3 : Wild Hunt',
@@ -1197,6 +1329,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Wolfenstein : The New Order',
@@ -1206,6 +1339,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Tetris',
@@ -1215,6 +1349,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 15,
     platined: false,
+    owned: false,
   },
   {
     title: 'Super Mario 2',
@@ -1224,6 +1359,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Pokémon Émeraude',
@@ -1233,6 +1369,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Dragon Ball Z: Budokai 2',
@@ -1242,6 +1379,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Dragon Ball Z: Budokai Tenkaichi 2',
@@ -1251,6 +1389,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Need for Speed: Most Wanted',
@@ -1260,6 +1399,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Pokémon Bleu',
@@ -1269,6 +1409,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Teenage Mutant Hero Turtles: Fall of the Foot Clan',
@@ -1278,6 +1419,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Double Dragon',
@@ -1287,6 +1429,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Pokemon Jaune',
@@ -1296,6 +1439,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Bomberman GB',
@@ -1305,6 +1449,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Harry Potter et La Chambre des Secrets',
@@ -1314,6 +1459,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: "Harry Potter à l'école des sorciers",
@@ -1323,6 +1469,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Harry Potter et La Coupe de Feu',
@@ -1332,6 +1479,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Pokemon version Ruby',
@@ -1341,6 +1489,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Sonic Advance',
@@ -1350,6 +1499,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Star Wars III - La Revanche des Siths',
@@ -1359,6 +1509,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Spider-Man 3',
@@ -1368,6 +1519,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Les Urbz - Les Sims in the City',
@@ -1377,6 +1529,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Star Wars : Flight of the Falcon',
@@ -1386,6 +1539,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Custom Robo Arena',
@@ -1395,6 +1549,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Animal Crossing : Wild World',
@@ -1404,6 +1559,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Arthur et les Minimoys',
@@ -1413,6 +1569,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Assassin’s Creed Altaïr Chronicles',
@@ -1422,6 +1579,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Assassin’s Creed II : Discovery',
@@ -1431,6 +1589,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Astérix aux Jeux Olympiques',
@@ -1440,6 +1599,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Call of Duty 4 : Modern Warfare',
@@ -1449,6 +1609,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Dragon Ball Z: Harukanaru Densetsu',
@@ -1458,6 +1619,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Dragon Ball Z: Supersonic Warriors 2',
@@ -1467,6 +1629,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Eragon',
@@ -1476,6 +1639,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'FIFA 10',
@@ -1485,6 +1649,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
   {
     title: 'Dragon Quest IX : Les Sentinelles du Firmament',
@@ -1494,6 +1659,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1504,6 +1670,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1514,6 +1681,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1524,6 +1692,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1534,6 +1703,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1544,6 +1714,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1554,6 +1725,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1564,6 +1736,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1574,6 +1747,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1584,6 +1758,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1594,6 +1769,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1604,6 +1780,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1614,6 +1791,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1624,6 +1802,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1634,6 +1813,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1644,6 +1824,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1654,6 +1835,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1664,6 +1846,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1674,6 +1857,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1684,6 +1868,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1694,6 +1879,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1704,6 +1890,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1714,6 +1901,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1724,6 +1912,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1734,6 +1923,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1744,6 +1934,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 1,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1754,6 +1945,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1764,6 +1956,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1774,6 +1967,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1784,6 +1978,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1794,6 +1989,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1804,6 +2000,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1814,6 +2011,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 5,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1824,6 +2022,7 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 
   {
@@ -1834,5 +2033,6 @@ export const ronanGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     additionnalEstimatedTime: 0,
     platined: false,
+    owned: false,
   },
 ];

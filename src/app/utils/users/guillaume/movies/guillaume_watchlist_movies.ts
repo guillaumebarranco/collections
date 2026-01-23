@@ -9,6 +9,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Cruella',
@@ -18,6 +19,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Pokémon : Détective Pikachu',
@@ -27,6 +29,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'The Greatest Showman',
@@ -36,6 +39,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: "Le Crime de l'Orient-Express",
@@ -45,6 +49,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'About Time',
@@ -54,6 +59,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Sherlock Holmes',
@@ -63,6 +69,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Là-haut',
@@ -72,6 +79,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: "L'Étrange Histoire de Benjamin Button",
@@ -81,6 +89,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Constantine',
@@ -90,6 +99,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Aviator',
@@ -99,6 +109,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'La Planète au trésor',
@@ -108,6 +119,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Insomnia',
@@ -117,6 +129,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: "Atlantis : L'Empire perdu",
@@ -126,6 +139,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Moulin Rouge !',
@@ -135,6 +149,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Titanic',
@@ -144,6 +159,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Gattaca',
@@ -153,6 +169,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'The Blues Brothers',
@@ -162,6 +179,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Vice-Versa 2',
@@ -171,6 +189,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Borat',
@@ -180,6 +199,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Furiosa',
@@ -189,6 +209,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Mad Max: Fury Road',
@@ -198,6 +219,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Atonement',
@@ -207,6 +229,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'The Worst Person in the World',
@@ -216,6 +239,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: "L'amour au présent",
@@ -225,6 +249,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Sinners',
@@ -234,6 +259,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Novocaine',
@@ -243,6 +269,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Companion',
@@ -252,6 +279,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Princess Cursed in Time',
@@ -261,6 +289,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Predestination',
@@ -270,6 +299,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Triangle',
@@ -279,6 +309,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Looper',
@@ -288,6 +319,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Philadelphia',
@@ -297,6 +329,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Sully',
@@ -306,6 +339,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Nobody',
@@ -315,6 +349,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Seul sur Mars',
@@ -324,6 +359,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Uncut Gems',
@@ -333,6 +369,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Once Upon a Time in Hollywood',
@@ -342,5 +379,6 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
 ];

@@ -7,6 +7,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "L'Alchimiste",
@@ -14,6 +15,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Le porteur de lumière, tome 1 : Le prisme noir',
@@ -21,6 +23,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Le Signe des quatre',
@@ -28,6 +31,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Le Voleur de foudre',
@@ -35,6 +39,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'La Mer des monstres',
@@ -42,6 +47,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Le Sort du titan',
@@ -49,6 +55,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'La Bataille du labyrinthe',
@@ -56,6 +63,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Le Dernier Olympien',
@@ -63,6 +71,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "Héros de l'Olympe, tome 1 : Le héros perdu",
@@ -70,6 +79,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'La Horde du Contrevent',
@@ -77,6 +87,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 2.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Ils étaient dix',
@@ -84,6 +95,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Madame Bovary',
@@ -91,6 +103,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Candide',
@@ -98,6 +111,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Hunger Games',
@@ -105,6 +119,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "L'Embrasement",
@@ -112,6 +127,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'La Révolte',
@@ -119,6 +135,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "La Ballade du serpent et de l'oiseau chanteur",
@@ -126,6 +143,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Croc-Blanc',
@@ -133,6 +151,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Robinson Crusoe',
@@ -140,6 +159,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "L'Assassin royal, tome 1 : L'Apprenti assassin",
@@ -147,6 +167,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "L'Assassin royal, tome 2 : L'Assassin du roi",
@@ -154,6 +175,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "L'Assassin royal, tome 3 : La Nef du crépuscule",
@@ -161,6 +183,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "L'Assassin royal, tome 4 : Le Poison de la vengeance",
@@ -168,6 +191,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "L'Assassin royal, tome 5 : La voie magique",
@@ -175,6 +199,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "L'Assassin royal, tome 6 : La Reine solitaire",
@@ -182,6 +207,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "L'Assassin royal, tome 7 : Le Prophète blanc",
@@ -189,6 +215,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "L'Assassin royal, tome 8 : La Secte maudite",
@@ -196,6 +223,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "L'Assassin royal, tome 9 : Les Secrets de Castelcerf",
@@ -203,6 +231,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "L'Assassin royal, tome 10 : Serments et deuils",
@@ -210,6 +239,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "L'Assassin royal, tome 11 : Le Dragon des glaces",
@@ -217,6 +247,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "L'Assassin royal, tome 12 : L'Homme noir",
@@ -224,6 +255,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "L'Assassin royal, tome 13 : Adieux et retrouvailles",
@@ -231,6 +263,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "Le Fou et l'Assassin, tome 1",
@@ -238,6 +271,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "Le fou et l'assassin, tome 2 : La fille de l'assassin",
@@ -245,6 +279,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "Le fou et l'assassin, tome 3 : En quête de vengeance",
@@ -252,6 +287,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "Le fou et l'assassin, tome 4 : Le retour de l'assassin",
@@ -259,6 +295,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "Le fou et l'assassin, tome 5 : Sur les rives de l'Art",
@@ -266,6 +303,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "Le fou et l'assassin, tome 6 : Le destin de l'assassin",
@@ -273,6 +311,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Quand vient la horde',
@@ -280,6 +319,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 3,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Les annales du Disque-Monde, tome 1 : La huitième couleur',
@@ -287,6 +327,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 3.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "Nevernight, tome 1 : N'oublie jamais",
@@ -294,6 +335,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 4.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Nevernight, tome 2 : Les grands jeux',
@@ -301,6 +343,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "Nevernight, tome 3 : L'aube obscure",
@@ -308,6 +351,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 4.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "Fils des brumes, tome 1 : L'Empire ultime",
@@ -315,6 +359,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "Fils des brumes, tome 2 : Le puits de l'ascension",
@@ -322,6 +367,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Fils des brumes, tome 3 : Le héros des siècles',
@@ -329,6 +375,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Les Voleurs de fumée, tome 1',
@@ -336,6 +383,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 2.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Le Démon et mademoiselle Prym',
@@ -343,6 +391,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Les Maîtres enlumineurs, tome 1',
@@ -350,6 +399,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 3.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "L'Ange de la Nuit, Tome 1 : La Voie des ombres",
@@ -357,6 +407,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "Le royaume de Pierre d'Angle, tome 1 : L'art du naufrage",
@@ -364,6 +415,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 2.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Cycle de Tschai - Intégrale',
@@ -371,6 +423,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Les salauds gentilshommes, tome 1 : Les mensonges de Locke Lamora',
@@ -378,6 +431,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Les salauds gentilshommes, tome 2 : Des horizons rouge sang',
@@ -385,6 +439,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 4,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Les salauds gentilshommes, tome 3 : La république des voleurs',
@@ -392,6 +447,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 4,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Les Annales de la Compagnie Noire, Tome 1 : La compagnie noire',
@@ -399,6 +455,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 4,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Les Annales de la Compagnie Noire, Tome 2 : Le château noir',
@@ -406,6 +463,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 4,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Les Annales de la Compagnie Noire, Tome 3 : La rose blanche',
@@ -413,6 +471,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 4,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "Le Cycle de Syffe, tome 1 : L'Enfant de poussière",
@@ -420,6 +479,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 3,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Le cycle de Syffe, tome 2 : La peste et la vigne',
@@ -427,6 +487,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 3,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Le cycle de Syffe, tome 3 : Les chiens et la charrue',
@@ -434,6 +495,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 3,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Le cycle de Syffe, tome 4 : La Maison des veilleurs',
@@ -441,6 +503,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 4,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Les faucons de Raverra, tome 1 : La sorcière captive',
@@ -448,6 +511,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "Les faucons de Raverra, tome 2 : L'héritière rebelle",
@@ -455,6 +519,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "Les faucons de Raverra, tome 3 : L'empire libéré",
@@ -462,6 +527,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Les archives de Roshar, tome 1 : La voie des rois (1/2)',
@@ -469,6 +535,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Les archives de Roshar, tome 1 : La voie des rois (2/2)',
@@ -476,6 +543,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 4.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Les archives de Roshar, tome 2 : Le livre des Radieux (1/2)',
@@ -483,6 +551,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 4,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Les archives de Roshar, tome 2 : Le livre des Radieux (2/2)',
@@ -490,6 +559,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 4,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Les archives de Roshar, tome 3 : Justicière (1/2)',
@@ -497,6 +567,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 4.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Les archives de Roshar, tome 3 : Justicière (2/2)',
@@ -504,6 +575,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 4.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Les archives de Roshar, tome 4 : Rythme de guerre (1/2)',
@@ -511,6 +583,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 4.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Les archives de Roshar, tome 4 : Rythme de guerre (2/2)',
@@ -518,6 +591,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 4.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'La guilde des ombres, tome 1 : Le don de mort (1/2)',
@@ -525,6 +599,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 3.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'La guilde des ombres, tome 1 : Le don de mort (2/2)',
@@ -532,6 +607,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 4,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'La guilde des ombres, tome 2 : Le don de vie (1/2)',
@@ -539,6 +615,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 3.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'La guilde des ombres, tome 2 : Le don de vie (2/2)',
@@ -546,6 +623,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 3.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'La guilde des ombres, tome 3 : La guerre céleste (1/2)',
@@ -553,6 +631,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 3.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'La guilde des ombres, tome 3 : La guerre céleste (2/2)',
@@ -560,6 +639,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 3.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Le Livre des Martyrs, tome 1 : Les Jardins de la Lune',
@@ -567,6 +647,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 3,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Le livre des martyrs, tome 2 : Les portes de la maison des morts',
@@ -574,6 +655,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Le Livre des Martyrs, tome 3 : Les Souvenirs de la Glace',
@@ -581,6 +663,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Le Livre des martyrs, tome 4 : La Maison des chaînes',
@@ -588,6 +671,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 3.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Le Livre des martyrs, tome 5 : Les Marées de minuit',
@@ -595,6 +679,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 4,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "Wax et Wayne, tome 1 : L'alliage de la justice",
@@ -602,6 +687,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 4,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Wax et Wayne, tome 2 : Jeux de masques',
@@ -609,6 +695,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 4.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: 'Wax et Wayne, tome 3 : Les bracelets des larmes',
@@ -616,6 +703,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 4.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "Les Princes d'Ambre - Cycle 1",
@@ -623,6 +711,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 2,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "L'Arcane des Epées, tome 1 : Le trône du dragon",
@@ -630,6 +719,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 3.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "L'Arcane des Epées, tome 2 : Le roi de l'orage",
@@ -637,6 +727,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 4,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "L'Arcane des Epées, tome 3 : La maison de l'ancêtre",
@@ -644,6 +735,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 4.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "L'arcane des épées, tome 4 : La pierre de l'adieu",
@@ -651,6 +743,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 4,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "L'Arcane des Epées, tome 5 : Le livre du nécromant",
@@ -658,6 +751,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 3.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "L'Arcane des Epées, tome 6 : Le cri de Camaris",
@@ -665,6 +759,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 4.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "L'Arcane des Epées, tome 7 : L'ombre de la roue",
@@ -672,6 +767,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 4.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "L'Arcane des Epées, tome 8 : La tour de l'ange vert",
@@ -679,6 +775,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 3.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "Une couronne d'épines, tome 1 : Tuer la reine",
@@ -686,6 +783,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 2.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "Une couronne d'épines, tome 2 : Défendre le prince",
@@ -693,6 +791,7 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 2.5,
     readTimes: 1,
+    owned: false,
   },
   {
     title: "Une couronne d'épines, tome 3 : Écraser le roi",
@@ -700,5 +799,6 @@ export const kevinBooks: UserBook[] = [
     readDate: '',
     rating: 2.5,
     readTimes: 1,
+    owned: false,
   },
 ];

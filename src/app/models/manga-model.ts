@@ -15,6 +15,7 @@ export interface UserManga extends MandatoryMangaData {
   readDate: string;
   rating: number;
   readTimes?: number;
+  owned: boolean;
 }
 
 export interface Manga extends BaseManga, UserManga {}

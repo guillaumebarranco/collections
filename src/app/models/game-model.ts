@@ -20,6 +20,7 @@ export interface UserGame extends MandatoryGameData {
   timesFinishedHundredPercent: number;
   additionnalEstimatedTime: number;
   platined: boolean;
+  owned: boolean;
 }
 
 export interface Game extends BaseGame, UserGame {}

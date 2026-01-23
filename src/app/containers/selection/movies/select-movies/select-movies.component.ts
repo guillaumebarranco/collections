@@ -139,6 +139,7 @@ export class SelectMoviesComponent
       firstViewedDate: '',
       lastViewedDate: '',
       seenAtCinema: false,
+      owned: false,
     }));
   }
 

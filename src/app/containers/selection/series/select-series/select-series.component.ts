@@ -118,6 +118,7 @@ export class SelectSeriesComponent
           seasonTimesWatched: 0,
         })
       ),
+      owned: false,
     }));
   }
 

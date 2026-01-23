@@ -39,6 +39,7 @@ async function getAllBooksData(books: UserBook[]): Promise<Book[]> {
       genre: definitiveMatchingBook?.genre || '',
       saga: definitiveMatchingBook?.saga || '',
       sagaOrder: definitiveMatchingBook?.sagaOrder || 0,
+      owned: book.owned,
     };
   });
 }

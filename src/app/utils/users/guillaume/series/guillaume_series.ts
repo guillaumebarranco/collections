@@ -41,6 +41,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'How I Met Your Mother',
@@ -92,6 +93,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 20,
       },
     ],
+    owned: false,
   },
   {
     title: 'Loki',
@@ -108,6 +110,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'Le Jeu de la Dame',
@@ -119,6 +122,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 2,
       },
     ],
+    owned: false,
   },
   {
     title: 'WandaVision',
@@ -130,6 +134,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'Obi-Wan Kenobi',
@@ -141,6 +146,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'Squid Game',
@@ -162,6 +168,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'Bodies',
@@ -173,6 +180,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'Breaking Bad',
@@ -204,6 +212,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 0,
       },
     ],
+    owned: false,
   },
   {
     title: 'Umbrella Academy',
@@ -225,6 +234,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 0,
       },
     ],
+    owned: false,
   },
   {
     title: 'You',
@@ -256,6 +266,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'HPI',
@@ -277,6 +288,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'The Boys',
@@ -303,6 +315,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'Stranger Things',
@@ -334,6 +347,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'Lupin',
@@ -355,6 +369,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'La servante écarlate',
@@ -386,6 +401,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 0,
       },
     ],
+    owned: false,
   },
   {
     title: 'Arcane',
@@ -402,6 +418,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'South Park',
@@ -538,6 +555,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 0,
       },
     ],
+    owned: false,
   },
   {
     title: 'Les Simpsons',
@@ -719,6 +737,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 0,
       },
     ],
+    owned: false,
   },
   {
     title: 'Daredevil',
@@ -740,6 +759,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'Daredevil : Born Again',
@@ -751,6 +771,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'Jessica Jones',
@@ -772,6 +793,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 0,
       },
     ],
+    owned: false,
   },
   {
     title: 'Luke Cage',
@@ -788,6 +810,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 0,
       },
     ],
+    owned: false,
   },
   {
     title: 'Iron Fist',
@@ -804,6 +827,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'The Defenders',
@@ -815,6 +839,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 2,
       },
     ],
+    owned: false,
   },
   {
     title: 'The Last of Us',
@@ -831,6 +856,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'Obsession',
@@ -842,6 +868,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: '13 Reasons Why',
@@ -868,6 +895,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 0,
       },
     ],
+    owned: false,
   },
   {
     title: 'Castle',
@@ -914,6 +942,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 2,
       },
     ],
+    owned: false,
   },
   {
     title: 'Mentalist',
@@ -955,6 +984,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 2,
       },
     ],
+    owned: false,
   },
   {
     title: 'Astérix & Obélix : Le Combat des Chefs',
@@ -966,6 +996,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'Bet',
@@ -977,6 +1008,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'Brooklyn Nine-Nine',
@@ -1023,6 +1055,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 0,
       },
     ],
+    owned: false,
   },
   {
     title: 'Cobra Kai',
@@ -1059,6 +1092,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 0,
       },
     ],
+    owned: false,
   },
   {
     title: 'Mercredi',
@@ -1075,6 +1109,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'Montre jamais ça à personne',
@@ -1086,6 +1121,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'Arrow',
@@ -1132,6 +1168,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 0,
       },
     ],
+    owned: false,
   },
   {
     title: 'The Flash',
@@ -1183,6 +1220,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 0,
       },
     ],
+    owned: false,
   },
   {
     title: 'Reacher',
@@ -1199,6 +1237,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'iZombie',
@@ -1230,6 +1269,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 0,
       },
     ],
+    owned: false,
   },
   {
     title: 'La Casa de Papel',
@@ -1261,6 +1301,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 0,
       },
     ],
+    owned: false,
   },
   {
     title: 'Lucifer',
@@ -1297,6 +1338,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'The Punisher',
@@ -1313,6 +1355,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'Rick and Morty',
@@ -1354,6 +1397,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 0,
       },
     ],
+    owned: false,
   },
   {
     title: 'Sense8',
@@ -1370,6 +1414,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'Suits, Avocats sur mesure',
@@ -1421,6 +1466,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'The End of the F***ing World',
@@ -1437,6 +1483,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'Under the Dome',
@@ -1458,6 +1505,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 0,
       },
     ],
+    owned: false,
   },
   {
     title: 'Superman & Lois',
@@ -1479,6 +1527,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'Locke & Key',
@@ -1500,6 +1549,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 0,
       },
     ],
+    owned: false,
   },
   {
     title: 'Unorthodox',
@@ -1511,6 +1561,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'Mon amie Adèle',
@@ -1522,6 +1573,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'Emily in Paris',
@@ -1553,6 +1605,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 0,
       },
     ],
+    owned: false,
   },
   {
     title: 'The Glory',
@@ -1564,6 +1617,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'FUBAR',
@@ -1580,6 +1634,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 0,
       },
     ],
+    owned: false,
   },
   {
     title: 'En un battement',
@@ -1596,6 +1651,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 0,
       },
     ],
+    owned: false,
   },
   {
     title: 'One Piece (live-action)',
@@ -1607,6 +1663,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
   {
     title: 'Yu Yu Hakusho (live-action)',
@@ -1618,5 +1675,6 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 1,
       },
     ],
+    owned: false,
   },
 ];

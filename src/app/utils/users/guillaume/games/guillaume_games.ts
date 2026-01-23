@@ -10,6 +10,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 3,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 2,
+    owned: false,
   },
   {
     title: 'The Legend of Zelda: The Wind Waker',
@@ -19,6 +20,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 4,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 1,
+    owned: false,
   },
   {
     title: 'The Legend of Zelda: Twilight Princess',
@@ -28,6 +30,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 1,
+    owned: false,
   },
   {
     title: 'The Legend of Zelda: Skyward Sword',
@@ -37,6 +40,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 1,
+    owned: false,
   },
   {
     title: 'The Legend of Zelda: Breath of the Wild',
@@ -46,6 +50,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 1,
+    owned: false,
   },
   {
     title: 'The Legend of Zelda: A Link to the Past',
@@ -55,6 +60,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: "The Legend of Zelda: Link's Awakening",
@@ -64,6 +70,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'The Legend of Zelda: Oracle of Seasons',
@@ -73,6 +80,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 3,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'The Legend of Zelda: Oracle of Ages',
@@ -82,6 +90,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 3,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'The Legend of Zelda: The Minish Cap',
@@ -91,6 +100,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 2,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Call of Duty
   {
@@ -101,6 +111,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 250,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Call of Duty: World at War',
@@ -110,6 +121,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 300,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Call of Duty: Modern Warfare 2',
@@ -119,6 +131,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 250,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Call of Duty: Black Ops',
@@ -128,6 +141,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 800,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Call of Duty: Modern Warfare 3',
@@ -137,6 +151,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 250,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Call of Duty: Black Ops II',
@@ -146,6 +161,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 150,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Call of Duty: Black Ops III',
@@ -155,6 +171,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 871,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Call of Duty: Infinite Warfare',
@@ -164,6 +181,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 40,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Call of Duty: WWII',
@@ -173,6 +191,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 90,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Call of Duty: Black Ops 4',
@@ -182,6 +201,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 494,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Call of Duty: Black Ops Cold War',
@@ -191,6 +211,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 380,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Call of Duty: Black Ops 6',
@@ -200,6 +221,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 245,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Call of Duty: Black Ops 7',
@@ -209,6 +231,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 150,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Pokémon
   {
@@ -219,6 +242,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 10,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 1,
+    owned: false,
   },
   {
     title: 'Pokémon Or',
@@ -228,6 +252,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 5,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Pokémon Cristal',
@@ -237,6 +262,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 5,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Pokémon Saphir',
@@ -246,6 +272,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 5,
     additionnalEstimatedTime: 240,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Pokémon Émeraude',
@@ -255,6 +282,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 5,
     additionnalEstimatedTime: 100,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Pokémon Rouge Feu',
@@ -264,6 +292,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 2,
     additionnalEstimatedTime: 50,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Pokémon Bouclier',
@@ -273,6 +302,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 150,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Pokémon Violet',
@@ -282,6 +312,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 150,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // One Piece
   {
@@ -292,6 +323,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'One Piece: Unlimited Cruise Episode 2',
@@ -301,6 +333,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 2,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 1,
+    owned: false,
   },
   {
     title: 'One Piece: Pirate Warriors',
@@ -310,6 +343,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'One Piece: Pirate Warriors 2',
@@ -319,6 +353,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'One Piece: Unlimited World Red',
@@ -328,6 +363,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'One Piece: Pirate Warriors 3',
@@ -337,6 +373,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'One Piece: Burning Blood',
@@ -346,6 +383,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 50,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'One Piece: Treasure Cruise',
@@ -355,6 +393,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 2500,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Naruto Storm
   {
@@ -365,6 +404,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 30,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Naruto Shippuden: Ultimate Ninja Storm 2',
@@ -374,6 +414,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 30,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Naruto Shippuden: Ultimate Ninja Storm 3',
@@ -383,6 +424,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 30,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Naruto Shippuden: Ultimate Ninja Storm 4',
@@ -392,6 +434,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 15,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Infamous
   {
@@ -402,6 +445,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Infamous 2',
@@ -411,6 +455,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Infamous: Second Son',
@@ -420,6 +465,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Infamous: First Light',
@@ -429,6 +475,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Super Smash Bros
   {
@@ -439,6 +486,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 300,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Super Smash Bros. Ultimate',
@@ -448,6 +496,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 400,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // LittleBigPlanet
   {
@@ -458,6 +507,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Brutal Legend
   {
@@ -468,6 +518,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 10,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Batman Arkham
   {
@@ -478,6 +529,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Spider-Man
   {
@@ -488,6 +540,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: "Marvel's Spider-Man",
@@ -497,6 +550,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: "Marvel's Spider-Man: Miles Morales",
@@ -506,6 +560,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: "Marvel's Spider-Man 2",
@@ -515,6 +570,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Dead Nation
   {
@@ -525,6 +581,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // BioShock
   {
@@ -535,6 +592,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Brothers
   {
@@ -545,6 +603,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Injustice
   {
@@ -555,6 +614,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Mirror's Edge
   {
@@ -565,6 +625,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // PlayStation All-Stars
   {
@@ -575,6 +636,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Stick It to the Man
   {
@@ -585,6 +647,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Watch Dogs
   {
@@ -595,6 +658,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Super Meat Boy
   {
@@ -605,6 +669,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 5,
     additionnalEstimatedTime: 250,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // J-Stars Victory
   {
@@ -615,6 +680,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 15,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Dragon Ball
   {
@@ -625,6 +691,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 5,
     additionnalEstimatedTime: 30,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Dragon Ball Z: Budokai 3',
@@ -634,6 +701,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 3,
     additionnalEstimatedTime: 30,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Dragon Ball Z: Budokai Tenkaichi 2',
@@ -643,6 +711,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 50,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Dragon Ball Z: Dokkan Battle',
@@ -652,6 +721,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 1800,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Ratchet & Clank
   {
@@ -662,6 +732,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // South Park
   {
@@ -672,6 +743,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 20,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // God of War
   {
@@ -682,6 +754,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'God of War Ragnarök',
@@ -691,6 +764,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Hogwarts Legacy
   {
@@ -701,6 +775,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Metroid
   {
@@ -711,6 +786,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 8,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 1,
+    owned: false,
   },
   {
     title: 'Metroid: Zero Mission',
@@ -720,6 +796,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Metroid Prime',
@@ -729,6 +806,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Metroid Prime 2: Echoes',
@@ -738,6 +816,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 5,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Metroid Prime 3: Corruption',
@@ -747,6 +826,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 20,
     timesFinishedHundredPercent: 1,
+    owned: false,
   },
   {
     title: 'Metroid Dread',
@@ -756,6 +836,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Super Mario
   {
@@ -766,6 +847,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 15,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Super Mario Galaxy',
@@ -775,6 +857,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Super Mario Odyssey',
@@ -784,6 +867,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 10,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
 
   // Mario Kart
@@ -795,6 +879,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 200,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Mario Kart Wii',
@@ -804,6 +889,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 200,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Mario Kart 8 Deluxe',
@@ -813,6 +899,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 80,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Mario Party
   {
@@ -823,6 +910,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 100,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Mario Party 6',
@@ -832,6 +920,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 100,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Mario Party 7',
@@ -841,6 +930,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 100,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Mario Party 8',
@@ -850,6 +940,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 50,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
 
   {
@@ -860,6 +951,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 30,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Paper Mario
   {
@@ -870,6 +962,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Mario & Luigi
   {
@@ -880,6 +973,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 5,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
 
   // Need for Speed
@@ -891,6 +985,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 5,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Need for Speed: Carbon',
@@ -900,6 +995,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 10,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Yu-Gi-Oh!
   {
@@ -910,6 +1006,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 20,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Yu-Gi-Oh! The Sacred Cards',
@@ -919,6 +1016,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 2,
     additionnalEstimatedTime: 20,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Yu-Gi-Oh! Reshef of Destruction',
@@ -928,6 +1026,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Medal of Honor
   {
@@ -938,6 +1037,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Guitar Hero
   {
@@ -948,6 +1048,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 200,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Luigi's Mansion
   {
@@ -958,6 +1059,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 2,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Tekken
   {
@@ -968,6 +1070,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 80,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Grand Theft Auto
   {
@@ -978,6 +1081,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 2,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Grand Theft Auto: Vice City',
@@ -987,6 +1091,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Grand Theft Auto: Vice City Stories',
@@ -996,6 +1101,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 2,
     additionnalEstimatedTime: 80,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Grand Theft Auto: Liberty City Stories',
@@ -1005,6 +1111,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 2,
     additionnalEstimatedTime: 80,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Star Wars
   {
@@ -1015,6 +1122,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Lego Star Wars',
@@ -1024,6 +1132,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 2,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Star Wars: Rebel Strike',
@@ -1033,6 +1142,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 50,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Wario Ware
   {
@@ -1043,6 +1153,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 80,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Gunbound
   {
@@ -1053,6 +1164,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 300,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // GoldenEye
   {
@@ -1063,6 +1175,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 20,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Wii Sports
   {
@@ -1073,6 +1186,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 150,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Harry Potter
   {
@@ -1083,6 +1197,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 20,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Les Simpsons
   {
@@ -1093,6 +1208,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Sonic
   {
@@ -1103,6 +1219,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 0,
     additionnalEstimatedTime: 15,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   {
     title: 'Sonic Unleashed',
@@ -1112,6 +1229,7 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
   // Super Smash Bros
   {
@@ -1122,5 +1240,6 @@ export const guillaumeGames: UserGame[] = [
     timesFinished: 1,
     additionnalEstimatedTime: 150,
     timesFinishedHundredPercent: 0,
+    owned: false,
   },
 ];

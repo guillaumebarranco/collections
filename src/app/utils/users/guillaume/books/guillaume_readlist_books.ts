@@ -7,6 +7,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'Les liaisons dangereuses',
@@ -14,6 +15,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'Les filles du Docteur March',
@@ -21,6 +23,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'Circe',
@@ -28,6 +31,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: "Le chant d'Achille",
@@ -35,6 +39,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'Dark Shores',
@@ -42,6 +47,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'Les piliers de la terre',
@@ -49,6 +55,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'Le Horla',
@@ -56,6 +63,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: "L'écume des jours",
@@ -63,6 +71,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'Notre-Dame de Paris',
@@ -70,6 +79,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'Le roi de fer',
@@ -77,6 +87,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'Le vicomte de Bragelonne',
@@ -84,6 +95,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'La reine Margot',
@@ -91,6 +103,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'Le trone de fer intégrale 4',
@@ -98,6 +111,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'Le trone de fer intégrale 5',
@@ -105,6 +119,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'Robinson Crusoe',
@@ -112,6 +127,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'Cyrano de Bergerac',
@@ -119,6 +135,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'Où vont les larmes quand elles sèchent',
@@ -126,6 +143,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'Cinq semaines en ballon',
@@ -133,6 +151,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'Autour de la Lune',
@@ -140,6 +159,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'Les deux tours',
@@ -147,6 +167,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'Le retour du roi',
@@ -154,6 +175,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'Leçons de chimie',
@@ -161,6 +183,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'Gagner la guerre',
@@ -168,6 +191,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: "L'enfer",
@@ -175,6 +199,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: "L'epopée de Gilgamesh",
@@ -182,6 +207,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'Hamlet',
@@ -189,6 +215,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'Macbeth',
@@ -196,6 +223,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'La Controverse de Valladolid',
@@ -203,6 +231,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'La dernière chanson',
@@ -210,6 +239,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'Fais un voeu',
@@ -217,6 +247,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'Au rythme de ton souffle',
@@ -224,6 +255,7 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
   {
     title: 'Un havre de paix',
@@ -231,5 +263,6 @@ export const guillaumeReadlistBooks: UserBook[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
 ];

@@ -7,5 +7,6 @@ export const guillaumeBds: UserBd[] = [
     readDate: '2024-11-11',
     rating: 4,
     readTimes: 1,
+    owned: true,
   },
 ];

@@ -16,6 +16,7 @@ export interface UserComic extends MandatoryComicData {
   readDate: string;
   rating: number;
   readTimes?: number;
+  owned: boolean;
 }
 
 export interface Comic extends BaseComic, UserComic {}

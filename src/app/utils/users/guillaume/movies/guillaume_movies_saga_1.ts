@@ -9,6 +9,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Harry Potter et la chambre des secrets',
@@ -18,6 +19,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: "Harry Potter et le prisonnier d'Azkaban",
@@ -27,6 +29,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Harry Potter et la coupe de feu',
@@ -36,6 +39,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: "Harry Potter et l'ordre du phénix",
@@ -45,6 +49,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2007-07-16',
     lastViewedDate: '2007-07-16',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Harry Potter et le prince de sang-mêlé',
@@ -54,6 +59,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2009-07-15',
     lastViewedDate: '2009-07-15',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Harry Potter et les reliques de la mort - partie 1',
@@ -63,6 +69,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2010-11-19',
     lastViewedDate: '2010-11-19',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Harry Potter et les reliques de la mort - partie 2',
@@ -72,6 +79,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2011-07-15',
     lastViewedDate: '2011-07-15',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Star Wars : Épisode 1 - La menace fantôme',
@@ -81,6 +89,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: "Star Wars: Episode 2 - L'attaque des clones",
@@ -90,6 +99,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2002-05-16',
     lastViewedDate: '2002-05-16',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Star Wars : Épisode 3 - La revanche des Sith',
@@ -99,6 +109,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2005-05-19',
     lastViewedDate: '2005-05-19',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Star Wars : Episode 4 - Un nouvel espoir',
@@ -108,6 +119,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: "Star Wars : Episode 5 - L'empire contre-attaque",
@@ -117,6 +129,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Star Wars : Episode 6 - Le retour du Jedi',
@@ -126,6 +139,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Star Wars : Episode 7 - Le réveil de la Force',
@@ -135,6 +149,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2015-12-18',
     lastViewedDate: '2015-12-18',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Star Wars : Episode 8 - Le dernier Jedi',
@@ -144,6 +159,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2017-12-15',
     lastViewedDate: '2017-12-15',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: "Star Wars : Episode 9 - L'ascension de Skywalker",
@@ -153,6 +169,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2019-12-20',
     lastViewedDate: '2019-12-20',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Solo: A Star Wars Story',
@@ -162,6 +179,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Rogue One : A Star Wars Story',
@@ -171,6 +189,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Fast and Furious',
@@ -180,6 +199,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: '2 Fast 2 Furious',
@@ -189,6 +209,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2003-09-03',
     lastViewedDate: '2003-09-03',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Fast and Furious : Tokyo Drift',
@@ -198,6 +219,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Fast & Furious 4',
@@ -207,6 +229,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Fast & Furious 5',
@@ -216,6 +239,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2011-04-02',
     lastViewedDate: '2011-04-02',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Fast & Furious 6',
@@ -225,6 +249,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Fast & Furious 7',
@@ -234,6 +259,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Fast & Furious Presents: Hobbs & Shaw',
@@ -243,6 +269,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2023-03-17',
     lastViewedDate: '2023-03-17',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Fast & Furious 9',
@@ -252,6 +279,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Fast & Furious X',
@@ -261,6 +289,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2024-09-06',
     lastViewedDate: '2024-09-06',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Rocky',
@@ -270,6 +299,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Rocky II',
@@ -279,6 +309,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Rocky III',
@@ -288,6 +319,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Rocky IV',
@@ -297,6 +329,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Rocky V',
@@ -306,6 +339,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Rocky Balboa',
@@ -315,6 +349,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2006-12-25',
     lastViewedDate: '2006-12-25',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'The Terminator',
@@ -324,6 +359,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Terminator 2: Judgment Day',
@@ -333,6 +369,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Terminator 3: Rise of the Machines',
@@ -342,6 +379,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2003-07-07',
     lastViewedDate: '2003-07-07',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Terminator Renaissance',
@@ -351,6 +389,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2009-05-26',
     lastViewedDate: '2009-05-26',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Terminator Genisys',
@@ -360,6 +399,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Terminator: Dark Fate',
@@ -369,6 +409,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Dune',
@@ -378,6 +419,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Dune : Partie 2',
@@ -387,6 +429,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2024-03-01',
     lastViewedDate: '2024-03-01',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Murder Mystery',
@@ -396,6 +439,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2023-04-06',
     lastViewedDate: '2023-04-06',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Murder Mystery 2',
@@ -405,6 +449,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2023-04-14',
     lastViewedDate: '2023-04-14',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'John Wick',
@@ -414,6 +459,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'John Wick : Chapitre 2',
@@ -423,6 +469,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2022-07-26',
     lastViewedDate: '2022-07-26',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'John Wick: Chapter 3 - Parabellum',
@@ -432,6 +479,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2022-07-28',
     lastViewedDate: '2022-07-28',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'John Wick : Chapitre 4',
@@ -441,6 +489,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2024-09-17',
     lastViewedDate: '2024-09-17',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Les Animaux Fantastiques',
@@ -450,6 +499,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2016-03-20',
     lastViewedDate: '2016-03-20',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Les Animaux Fantastiques 2 : Les crimes de Grindelwald',
@@ -459,6 +509,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Les Animaux Fantastiques 3 : Les Secrets de Dumbledore',
@@ -468,6 +519,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2025-04-15',
     lastViewedDate: '2025-04-15',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Jack Reacher',
@@ -477,6 +529,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Jack Reacher : Never Go Back',
@@ -486,6 +539,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2022-02-04',
     lastViewedDate: '2022-02-04',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Enola Holmes',
@@ -495,6 +549,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2020-09-23',
     lastViewedDate: '2020-09-23',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Enola Holmes 2',
@@ -504,6 +559,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2022-11-04',
     lastViewedDate: '2022-11-04',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'A couteaux tirés',
@@ -513,6 +569,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'A couteaux tirés 2 : Glass Onion',
@@ -522,6 +579,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2022-12-23',
     lastViewedDate: '2022-12-23',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Wake up dead man : une histoire à couteaux tirés',
@@ -531,6 +589,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2025-12-17',
     lastViewedDate: '2025-12-17',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'James Bond: Meurs un autre jour',
@@ -540,6 +599,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'James Bond : Casino Royale',
@@ -549,6 +609,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'James Bond : Quantum of Solace',
@@ -558,6 +619,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'James Bond : Skyfall',
@@ -567,6 +629,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2012-11-09',
     lastViewedDate: '2012-11-09',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'James Bond : Spectre',
@@ -576,6 +639,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2015-11-06',
     lastViewedDate: '2015-11-06',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'James Bond : Mourir Peut Attendre',
@@ -585,6 +649,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: "OSS 117 : Le Caire, Nid d'Espions",
@@ -594,6 +659,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'OSS 117 : Rio ne Répond Plus',
@@ -603,6 +669,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2009-03-11',
     lastViewedDate: '2009-03-11',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'OSS 117 : Alerte Rouge en Afrique Noire',
@@ -612,6 +679,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Incassable',
@@ -621,6 +689,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Split',
@@ -630,6 +699,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Glass',
@@ -639,6 +709,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2019-01-18',
     lastViewedDate: '2019-01-18',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Creed II',
@@ -648,6 +719,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'La mémoire dans la peau',
@@ -657,6 +729,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'La Mort dans la Peau',
@@ -666,6 +739,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'La Vengeance dans la Peau',
@@ -675,6 +749,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Jason Bourne',
@@ -684,6 +759,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Inssaisissables',
@@ -693,6 +769,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2013-06-05',
     lastViewedDate: '2013-06-05',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Inssaisissables 2',
@@ -702,6 +779,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Divergente',
@@ -711,6 +789,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2014-03-26',
     lastViewedDate: '2014-03-26',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: "Divergente 2 : L'Insurrection",
@@ -720,6 +799,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Divergente 3 : Au-delà du Mur',
@@ -729,6 +809,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Taken',
@@ -738,6 +819,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Taken 2',
@@ -747,6 +829,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Taken 3',
@@ -756,6 +839,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Le Labyrinthe',
@@ -765,6 +849,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Le Labyrinthe 2 : Le remède mortel',
@@ -774,6 +859,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Hunger Games',
@@ -783,6 +869,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '2025-03-23',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Hunger Games : La Révolte - Partie 1',
@@ -792,6 +879,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Transformers',
@@ -801,6 +889,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2007-07-08',
     lastViewedDate: '2007-07-08',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Transformers 2 : La Revanche',
@@ -810,6 +899,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Transformers 3 : La Face Cachée de la Lune',
@@ -819,6 +909,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: "Transformers 4 : L'Âge de l'Extinction",
@@ -828,6 +919,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'RED',
@@ -837,6 +929,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'RED 2',
@@ -846,6 +939,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Very Bad Trip',
@@ -855,6 +949,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Very Bad Trip 2',
@@ -864,6 +959,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2011-05-31',
     lastViewedDate: '2011-05-31',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Very Bad Trip 3',
@@ -873,6 +969,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '2013-05-23',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Die Hard : Piège de cristal',
@@ -882,6 +979,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Die Hard 2 : 58 minutes pour vivre',
@@ -891,6 +989,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Die Hard 3 : une journée en enfer',
@@ -900,6 +999,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Die Hard 4 : Retour en Enfer',
@@ -909,6 +1009,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Die Hard : Belle Journée pour Mourir',
@@ -918,6 +1019,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2013-02-14',
     lastViewedDate: '2013-02-14',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Twilight : Chapitre 1 - Fascination',
@@ -927,6 +1029,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Twilight : Chapitre 2 - Tentation',
@@ -936,6 +1039,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Twilight : Chapitre 3 - Hésitation',
@@ -945,6 +1049,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Twilight : Chapitre 4 - Révélation - Partie 1',
@@ -954,6 +1059,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2011-11-23',
     lastViewedDate: '2011-11-23',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Twilight : Chapitre 4 - Révélation - Partie 2',
@@ -963,6 +1069,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2012-11-21',
     lastViewedDate: '2012-11-21',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Underworld',
@@ -972,6 +1079,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Underworld : Évolution',
@@ -981,6 +1089,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Underworld : Rise of the Lycans',
@@ -990,6 +1099,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Underworld : Éveil',
@@ -999,6 +1109,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2012-01-20',
     lastViewedDate: '2012-01-20',
     seenAtCinema: true,
+    owned: false,
   },
   {
     title: 'Destination Finale',
@@ -1008,6 +1119,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Destination Finale 2',
@@ -1017,6 +1129,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Destination Finale 3',
@@ -1026,6 +1139,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Destination Finale 4',
@@ -1035,6 +1149,7 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
+    owned: false,
   },
   {
     title: 'Destination Finale 5',
@@ -1044,5 +1159,6 @@ export const guillaumeMoviesSagaPage1: UserMovie[] = [
     firstViewedDate: '2011-08-17',
     lastViewedDate: '2011-08-17',
     seenAtCinema: true,
+    owned: false,
   },
 ];
