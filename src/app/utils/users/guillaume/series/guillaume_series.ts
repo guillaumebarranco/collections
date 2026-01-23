@@ -93,7 +93,7 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 20,
       },
     ],
-    owned: false,
+    owned: true,
   },
   {
     title: 'Loki',

@@ -7,7 +7,7 @@ export const guillaumeMangas: UserManga[] = [
     readDate: '05/10/2017',
     rating: 4,
     readTimes: 5,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Kingdom',
@@ -23,7 +23,7 @@ export const guillaumeMangas: UserManga[] = [
     readDate: '16/04/2016',
     rating: 4.75,
     readTimes: 10,
-    owned: false,
+    owned: true,
   },
   {
     title: 'My Hero Academia',
@@ -79,7 +79,7 @@ export const guillaumeMangas: UserManga[] = [
     readDate: '16/04/2016',
     rating: 3.5,
     readTimes: 5,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Dragon Ball',
@@ -87,7 +87,7 @@ export const guillaumeMangas: UserManga[] = [
     readDate: '16/04/2016',
     rating: 4.5,
     readTimes: 15,
-    owned: false,
+    owned: true,
   },
   {
     title: 'OnePunch-Man',
@@ -135,7 +135,7 @@ export const guillaumeMangas: UserManga[] = [
     readDate: '16/04/2016',
     rating: 4.25,
     readTimes: 5,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Rave',
@@ -175,7 +175,7 @@ export const guillaumeMangas: UserManga[] = [
     readDate: '16/04/2016',
     rating: 4.75,
     readTimes: 10,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Jackals',
@@ -183,7 +183,7 @@ export const guillaumeMangas: UserManga[] = [
     readDate: '16/04/2016',
     rating: 3.75,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Magi The Labyrinth of Magic',
@@ -231,7 +231,7 @@ export const guillaumeMangas: UserManga[] = [
     readDate: '16/04/2016',
     rating: 3.25,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Nanatsu No Taizai',
@@ -295,7 +295,7 @@ export const guillaumeMangas: UserManga[] = [
     readDate: '16/04/2016',
     rating: 5,
     readTimes: 20,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Kenshin le Vagabond',
@@ -303,7 +303,7 @@ export const guillaumeMangas: UserManga[] = [
     readDate: '16/04/2016',
     rating: 4.75,
     readTimes: 15,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Feng Shen Ji',
@@ -319,7 +319,7 @@ export const guillaumeMangas: UserManga[] = [
     readDate: '16/04/2016',
     rating: 4.25,
     readTimes: 5,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Satan 666',
@@ -327,7 +327,7 @@ export const guillaumeMangas: UserManga[] = [
     readDate: '16/04/2016',
     rating: 4,
     readTimes: 5,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Worst',
@@ -351,7 +351,7 @@ export const guillaumeMangas: UserManga[] = [
     readDate: '16/04/2016',
     rating: 4.75,
     readTimes: 15,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Assassination Classroom',
@@ -375,7 +375,7 @@ export const guillaumeMangas: UserManga[] = [
     readDate: '16/04/2016',
     rating: 3.75,
     readTimes: 2,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Beelzebub',
@@ -383,7 +383,7 @@ export const guillaumeMangas: UserManga[] = [
     readDate: '16/04/2016',
     rating: 3.75,
     readTimes: 2,
-    owned: false,
+    owned: true,
   },
   {
     title: "L'attaque des titans",
@@ -407,7 +407,7 @@ export const guillaumeMangas: UserManga[] = [
     readDate: '16/04/2016',
     rating: 4.25,
     readTimes: 5,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Gamaran',
@@ -487,7 +487,7 @@ export const guillaumeMangas: UserManga[] = [
     readDate: '',
     rating: 4.25,
     readTimes: 5,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Crows',
@@ -535,7 +535,7 @@ export const guillaumeMangas: UserManga[] = [
     readDate: '',
     rating: 3.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Hajime no Ippo',
