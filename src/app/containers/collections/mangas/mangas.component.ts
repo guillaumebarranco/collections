@@ -49,7 +49,7 @@ export class MangasComponent implements OnInit {
   private readonly dialog = inject(MatDialog);
 
   selectedSort = signal<string>('rating');
-  selectedView = signal<'read' | 'readlist'>('read');
+  selectedView = signal<'read' | 'readlist' | 'owned'>('read');
   searchTerm = signal<string>('');
 
   sortOptions = signal<SortOption[]>([
@@ -93,7 +93,7 @@ export class MangasComponent implements OnInit {
       sagaOrder: 0,
       nbTomes: manga.nbTomes || 0,
       isFinished: manga.isFinished || false,
-      owned: false,
+      owned: manga.owned ?? false,
     }));
   });
 
@@ -118,15 +118,17 @@ export class MangasComponent implements OnInit {
       sagaOrder: 0,
       nbTomes: manga.nbTomes || 0,
       isFinished: manga.isFinished || false,
-      owned: false,
+      owned: manga.owned ?? false,
     }));
   });
 
   filteredMangas = computed<Book[]>(() => {
-    const mangas =
-      this.selectedView() === 'readlist'
-        ? this.allReadlistMangas()
-        : this.allMangas();
+    let mangas = this.allMangas();
+    if (this.selectedView() === 'readlist') {
+      mangas = this.allReadlistMangas();
+    } else if (this.selectedView() === 'owned') {
+      mangas = this.allMangas().filter((manga) => manga.owned);
+    }
 
     const term = this.searchTerm().trim().toLowerCase();
     if (!term) {
@@ -255,7 +257,7 @@ export class MangasComponent implements OnInit {
     await this.refreshMangas();
   }
 
-  onViewChange(view: 'read' | 'readlist') {
+  onViewChange(view: 'read' | 'readlist' | 'owned') {
     this.selectedView.set(view);
   }
 

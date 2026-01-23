@@ -5,6 +5,8 @@
     {{
       selectedView() === "watchlist"
         ? "S&#233;ries &#224; voir"
+        : selectedView() === "owned"
+        ? "S&#233;ries poss&#233;d&#233;es"
         : "S&#233;ries finies"
     }}
     ({{ filteredSeries().length }})
@@ -26,6 +28,13 @@
         (click)="onViewChange('watchlist')"
       >
         S&#233;ries &#224; voir
+      </button>
+      <button
+        class="toggle-option"
+        [class.active]="selectedView() === 'owned'"
+        (click)="onViewChange('owned')"
+      >
+        S&#233;ries poss&#233;d&#233;es
       </button>
     </div>
 

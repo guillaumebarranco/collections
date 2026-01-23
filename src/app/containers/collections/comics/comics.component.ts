@@ -49,7 +49,7 @@ export class ComicsComponent implements OnInit {
   private readonly dialog = inject(MatDialog);
 
   selectedSort = signal<string>('rating');
-  selectedView = signal<'read' | 'readlist'>('read');
+  selectedView = signal<'read' | 'readlist' | 'owned'>('read');
   searchTerm = signal<string>('');
 
   sortOptions = signal<SortOption[]>([
@@ -93,7 +93,7 @@ export class ComicsComponent implements OnInit {
       sagaOrder: 0,
       nbTomes: comic.nbTomes || 0,
       isFinished: comic.isFinished || false,
-      owned: false,
+      owned: comic.owned ?? false,
     }));
   });
 
@@ -118,15 +118,17 @@ export class ComicsComponent implements OnInit {
       sagaOrder: 0,
       nbTomes: comic.nbTomes || 0,
       isFinished: comic.isFinished || false,
-      owned: false,
+      owned: comic.owned ?? false,
     }));
   });
 
   filteredComics = computed<Book[]>(() => {
-    const comics =
-      this.selectedView() === 'readlist'
-        ? this.allReadlistComics()
-        : this.allComics();
+    let comics = this.allComics();
+    if (this.selectedView() === 'readlist') {
+      comics = this.allReadlistComics();
+    } else if (this.selectedView() === 'owned') {
+      comics = this.allComics().filter((comic) => comic.owned);
+    }
 
     const term = this.searchTerm().trim().toLowerCase();
     if (!term) {
@@ -255,7 +257,7 @@ export class ComicsComponent implements OnInit {
     await this.refreshComics();
   }
 
-  onViewChange(view: 'read' | 'readlist') {
+  onViewChange(view: 'read' | 'readlist' | 'owned') {
     this.selectedView.set(view);
   }
 

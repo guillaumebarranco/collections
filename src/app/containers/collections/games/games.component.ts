@@ -49,7 +49,7 @@ export class GamesComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
 
   selectedSort = signal<string>('rating');
-  selectedView = signal<'played' | 'platined' | 'gamelist'>('played');
+  selectedView = signal<'played' | 'platined' | 'gamelist' | 'owned'>('played');
   searchTerm = signal<string>('');
 
   sortOptions = signal<SortOption[]>([
@@ -94,6 +94,8 @@ export class GamesComponent implements OnInit {
       games = this.allGamelistGames();
     } else if (this.selectedView() === 'platined') {
       games = this.allGames().filter((game) => game.platined);
+    } else if (this.selectedView() === 'owned') {
+      games = this.allGames().filter((game) => game.owned);
     }
 
     const term = this.searchTerm().trim().toLowerCase();
@@ -273,7 +275,7 @@ export class GamesComponent implements OnInit {
     this.selectedSort.set(sortValue);
   }
 
-  onViewChange(view: 'played' | 'platined' | 'gamelist') {
+  onViewChange(view: 'played' | 'platined' | 'gamelist' | 'owned') {
     this.selectedView.set(view);
   }
 

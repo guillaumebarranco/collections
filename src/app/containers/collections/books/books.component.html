@@ -2,7 +2,13 @@
 
 <div class="books-container">
   <h1>
-    {{ selectedView() === "readlist" ? "Livres à lire" : "Livres lus" }}
+    {{
+      selectedView() === "readlist"
+        ? "Livres à lire"
+        : selectedView() === "owned"
+        ? "Livres possédés"
+        : "Livres lus"
+    }}
     ({{ filteredBooks().length }})
   </h1>
 
@@ -22,6 +28,13 @@
         (click)="onViewChange('readlist')"
       >
         Livres à lire
+      </button>
+      <button
+        class="toggle-option"
+        [class.active]="selectedView() === 'owned'"
+        (click)="onViewChange('owned')"
+      >
+        Livres possédés
       </button>
     </div>
 

@@ -28,7 +28,7 @@ import {
   getAllWatchlistSeries,
 } from '../../../facades/series/series.facade';
 
-type SerieView = 'finished' | 'watchlist';
+type SerieView = 'finished' | 'watchlist' | 'owned';
 
 @Component({
   selector: 'app-series',
@@ -91,6 +91,8 @@ export class SeriesComponent implements OnInit {
     let series: Serie[] = [];
     if (this.selectedView() === 'watchlist') {
       series = this.allWatchlistSeries();
+    } else if (this.selectedView() === 'owned') {
+      series = this.allSeries().filter((serie) => serie.owned);
     } else {
       series = this.allSeries();
     }

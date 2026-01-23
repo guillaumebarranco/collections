@@ -2,7 +2,13 @@
 
 <div class="comics-container">
   <h1>
-    {{ selectedView() === "readlist" ? "Comics à lire" : "Comics lus" }}
+    {{
+      selectedView() === "readlist"
+        ? "Comics à lire"
+        : selectedView() === "owned"
+        ? "Comics possédés"
+        : "Comics lus"
+    }}
     ({{ filteredComics().length }})
   </h1>
 
@@ -32,6 +38,13 @@
         (click)="onViewChange('readlist')"
       >
         Comics à lire
+      </button>
+      <button
+        class="toggle-option"
+        [class.active]="selectedView() === 'owned'"
+        (click)="onViewChange('owned')"
+      >
+        Comics possédés
       </button>
     </div>
 

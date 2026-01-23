@@ -7,6 +7,8 @@
         ? "Films à voir"
         : selectedView() === "cinema"
         ? "Films vus au cinéma"
+        : selectedView() === "owned"
+        ? "Films possédés"
         : "Films visionnés"
     }}
     ({{ filteredMoviesByYear().length }})
@@ -35,6 +37,13 @@
         (click)="onViewChange('watchlist')"
       >
         Films à voir
+      </button>
+      <button
+        class="toggle-option"
+        [class.active]="selectedView() === 'owned'"
+        (click)="onViewChange('owned')"
+      >
+        Films possédés
       </button>
     </div>
 

@@ -30,7 +30,7 @@ import {
   getAllWatchlistMovies,
 } from '../../../facades/movies/movies.facade';
 
-type MovieView = 'watched' | 'cinema' | 'watchlist';
+type MovieView = 'watched' | 'cinema' | 'watchlist' | 'owned';
 
 @Component({
   selector: 'app-movies',
@@ -102,7 +102,8 @@ export class MoviesComponent implements OnInit {
     if (
       queryParams['view'] === 'watchlist' ||
       queryParams['view'] === 'watched' ||
-      queryParams['view'] === 'cinema'
+      queryParams['view'] === 'cinema' ||
+      queryParams['view'] === 'owned'
     ) {
       this.selectedView.set(queryParams['view'] as MovieView);
     }
@@ -145,6 +146,7 @@ export class MoviesComponent implements OnInit {
     { value: 'watched', label: 'Films vus' },
     { value: 'cinema', label: 'Films vus au cinéma' },
     { value: 'watchlist', label: 'Films à voir' },
+    { value: 'owned', label: 'Films possédés' },
   ];
 
   yearFilterOptions = [
@@ -203,6 +205,8 @@ export class MoviesComponent implements OnInit {
       movies = this.allWatchlistMovies();
     } else if (this.selectedView() === 'cinema') {
       movies = this.allMovies().filter((movie) => movie.seenAtCinema === true);
+    } else if (this.selectedView() === 'owned') {
+      movies = this.allMovies().filter((movie) => movie.owned);
     } else {
       movies = this.allMovies();
     }

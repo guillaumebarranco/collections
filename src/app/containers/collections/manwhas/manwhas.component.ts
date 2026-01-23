@@ -47,7 +47,7 @@ export class ManwhasComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
   private readonly dialog = inject(MatDialog);
   selectedSort = signal<string>('rating');
-  selectedView = signal<'read' | 'readlist'>('read');
+  selectedView = signal<'read' | 'readlist' | 'owned'>('read');
   searchTerm = signal<string>('');
 
   sortOptions = signal<SortOption[]>([
@@ -91,10 +91,12 @@ export class ManwhasComponent implements OnInit {
   });
 
   filteredManwhas = computed<Manwha[]>(() => {
-    const manwhas =
-      this.selectedView() === 'readlist'
-        ? this.allReadlistManwhas()
-        : this.allManwhas();
+    let manwhas = this.allManwhas();
+    if (this.selectedView() === 'readlist') {
+      manwhas = this.allReadlistManwhas();
+    } else if (this.selectedView() === 'owned') {
+      manwhas = this.allManwhas().filter((manwha) => manwha.owned);
+    }
 
     const term = this.searchTerm().trim().toLowerCase();
     if (!term) {
@@ -228,7 +230,7 @@ export class ManwhasComponent implements OnInit {
     await this.refreshManwhas();
   }
 
-  onViewChange(view: 'read' | 'readlist') {
+  onViewChange(view: 'read' | 'readlist' | 'owned') {
     this.selectedView.set(view);
   }
 

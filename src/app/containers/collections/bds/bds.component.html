@@ -2,7 +2,13 @@
 
 <div class="bds-container">
   <h1>
-    {{ selectedView() === "readlist" ? "BD à lire" : "BD lues" }}
+    {{
+      selectedView() === "readlist"
+        ? "BD à lire"
+        : selectedView() === "owned"
+        ? "BD possédées"
+        : "BD lues"
+    }}
     ({{ filteredBds().length }})
   </h1>
 
@@ -32,6 +38,13 @@
         (click)="onViewChange('readlist')"
       >
         BD à lire
+      </button>
+      <button
+        class="toggle-option"
+        [class.active]="selectedView() === 'owned'"
+        (click)="onViewChange('owned')"
+      >
+        BD possédées
       </button>
     </div>
 

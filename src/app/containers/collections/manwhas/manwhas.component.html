@@ -5,6 +5,8 @@
     {{
       selectedView() === "readlist"
         ? "Manwhas à lire"
+        : selectedView() === "owned"
+        ? "Manwhas possédés"
         : "Manwhas lus"
     }}
     ({{ filteredManwhas().length }})
@@ -38,6 +40,13 @@
         (click)="onViewChange('readlist')"
       >
         Manwhas à lire
+      </button>
+      <button
+        class="toggle-option"
+        [class.active]="selectedView() === 'owned'"
+        (click)="onViewChange('owned')"
+      >
+        Manwhas possédés
       </button>
     </div>
 

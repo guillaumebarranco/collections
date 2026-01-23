@@ -5,6 +5,8 @@
     {{
       selectedView() === "readlist"
         ? "Mangas à lire"
+        : selectedView() === "owned"
+        ? "Mangas possédés"
         : "Mangas lus"
     }}
     ({{ filteredMangas().length }})
@@ -38,6 +40,13 @@
         (click)="onViewChange('readlist')"
       >
         Mangas à lire
+      </button>
+      <button
+        class="toggle-option"
+        [class.active]="selectedView() === 'owned'"
+        (click)="onViewChange('owned')"
+      >
+        Mangas possédés
       </button>
     </div>
 

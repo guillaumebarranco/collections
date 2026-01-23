@@ -46,7 +46,7 @@ export class BdsComponent implements OnInit {
   private readonly dialog = inject(MatDialog);
 
   selectedSort = signal<string>('rating');
-  selectedView = signal<'read' | 'readlist'>('read');
+  selectedView = signal<'read' | 'readlist' | 'owned'>('read');
   searchTerm = signal<string>('');
 
   sortOptions = signal<SortOption[]>([
@@ -90,7 +90,7 @@ export class BdsComponent implements OnInit {
       sagaOrder: 0,
       nbTomes: bd.nbTomes || 0,
       isFinished: bd.isFinished || false,
-      owned: false,
+      owned: bd.owned ?? false,
     }));
   });
 
@@ -115,15 +115,17 @@ export class BdsComponent implements OnInit {
       sagaOrder: 0,
       nbTomes: bd.nbTomes || 0,
       isFinished: bd.isFinished || false,
-      owned: false,
+      owned: bd.owned ?? false,
     }));
   });
 
   filteredBds = computed<Book[]>(() => {
-    const bds =
-      this.selectedView() === 'readlist'
-        ? this.allReadlistBds()
-        : this.allBds();
+    let bds = this.allBds();
+    if (this.selectedView() === 'readlist') {
+      bds = this.allReadlistBds();
+    } else if (this.selectedView() === 'owned') {
+      bds = this.allBds().filter((bd) => bd.owned);
+    }
 
     const term = this.searchTerm().trim().toLowerCase();
     if (!term) {
@@ -252,7 +254,7 @@ export class BdsComponent implements OnInit {
     await this.refreshBds();
   }
 
-  onViewChange(view: 'read' | 'readlist') {
+  onViewChange(view: 'read' | 'readlist' | 'owned') {
     this.selectedView.set(view);
   }
 

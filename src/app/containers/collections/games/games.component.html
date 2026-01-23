@@ -2,7 +2,13 @@
 
 <div class="games-container">
   <h1>
-    {{ selectedView() === "gamelist" ? "🎮 Jeux à jouer" : "🎮 Jeux vidéo" }}
+    {{
+      selectedView() === "gamelist"
+        ? "🎮 Jeux à jouer"
+        : selectedView() === "owned"
+        ? "🎮 Jeux possédés"
+        : "🎮 Jeux vidéo"
+    }}
     ({{ filteredGames().length }})
   </h1>
 
@@ -31,6 +37,13 @@
         (click)="onViewChange('gamelist')"
       >
         Jeux à jouer
+      </button>
+      <button
+        class="toggle-option"
+        [class.active]="selectedView() === 'owned'"
+        (click)="onViewChange('owned')"
+      >
+        Jeux possédés
       </button>
     </div>
 

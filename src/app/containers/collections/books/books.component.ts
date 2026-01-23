@@ -36,7 +36,7 @@ import {
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditBookComponent } from '../../edit/edit-book/edit-book.component';
 
-type BookView = 'read' | 'readlist';
+type BookView = 'read' | 'readlist' | 'owned';
 
 @Component({
   selector: 'app-books',
@@ -156,7 +156,11 @@ export class BooksComponent implements OnInit {
   }
 
   private loadParamsFromUrl(queryParams: Params) {
-    if (queryParams['view'] === 'readlist' || queryParams['view'] === 'read') {
+    if (
+      queryParams['view'] === 'readlist' ||
+      queryParams['view'] === 'read' ||
+      queryParams['view'] === 'owned'
+    ) {
       this.selectedView.set(queryParams['view'] as BookView);
     }
 
@@ -206,10 +210,12 @@ export class BooksComponent implements OnInit {
   });
 
   filteredBooks = computed<Book[]>(() => {
-    const books =
-      this.selectedView() === 'readlist'
-      ? this.allReadlistBooks()
-      : this.allBooks();
+    let books = this.allBooks();
+    if (this.selectedView() === 'readlist') {
+      books = this.allReadlistBooks();
+    } else if (this.selectedView() === 'owned') {
+      books = this.allBooks().filter((book) => book.owned);
+    }
 
     const term = this.searchTerm().trim().toLowerCase();
     if (!term) {
