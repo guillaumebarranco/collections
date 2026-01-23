@@ -2124,8 +2124,8 @@ export const ronanMovies: UserMovie[] = [
   {
     title: 'Parasite',
     director: 'Bong Joon-ho',
-    rating: 4,
-    timesWatched: 1,
+    rating: 3.5,
+    timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
