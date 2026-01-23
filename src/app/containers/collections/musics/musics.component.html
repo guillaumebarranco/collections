@@ -19,22 +19,12 @@
 
   @if(allMusics().length !== 0) {
   <div class="musics-header-top">
-    <div class="musics-view-toggle">
-      <button
-        class="toggle-option"
-        [class.active]="selectedViewMode() === 'albums'"
-        (click)="onViewModeChange('albums')"
-      >
-        Grouper par album
-      </button>
-      <button
-        class="toggle-option"
-        [class.active]="selectedViewMode() === 'all'"
-        (click)="onViewModeChange('all')"
-      >
-        Afficher toutes les musiques
-      </button>
-    </div>
+    <app-view-toggle
+      [toggleClass]="'musics-view-toggle'"
+      [options]="viewOptions"
+      [selected]="selectedViewMode()"
+      (selectedChange)="onViewModeChange($any($event))"
+    ></app-view-toggle>
     <div class="musics-actions">
       <button
         class="btn btn-small"

@@ -4,6 +4,10 @@ import { FormsModule } from '@angular/forms';
 import { MusicComponent } from '../../../components/music/music.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import {
+  ViewToggleComponent,
+  ViewToggleOption,
+} from '../../../components/view-toggle/view-toggle.component';
+import {
   SortDropdownComponent,
   SortOption,
 } from '../../../components/sort-dropdown/sort-dropdown.component';
@@ -31,6 +35,7 @@ const TIMES_LISTENED_FOR_POPULAR = 9;
     FormsModule,
     MusicComponent,
     MenuComponent,
+    ViewToggleComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
     AlbumModalComponent,
@@ -75,6 +80,11 @@ export class MusicsComponent implements OnInit {
     { value: 'timesListened-asc', label: 'Écoutes (faible)' },
     { value: 'duration', label: 'Durée (long)' },
     { value: 'duration-asc', label: 'Durée (court)' },
+  ];
+
+  viewOptions: ViewToggleOption[] = [
+    { value: 'albums', label: 'Grouper par album' },
+    { value: 'all', label: 'Afficher toutes les musiques' },
   ];
 
   musicsList = signal<{ [key: string]: Music[] }>({});

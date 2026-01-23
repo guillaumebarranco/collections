@@ -1,5 +1,4 @@
-@use '../../../styles/containers.scss' as containers;
-@use '../../../styles/toggle.scss' as toggle;
+@use "../../../styles/containers.scss" as containers;
 
 .mangas-container {
   @include containers.container-base;
@@ -20,10 +19,6 @@
   gap: 20px;
   margin-bottom: 20px;
   flex-wrap: wrap;
-}
-
-.mangas-view-toggle {
-  @include toggle.view-toggle;
 }
 
 .mangas-actions {
@@ -71,6 +66,7 @@
     border-radius: 8px;
     border: 1px solid #d9d9d9;
     background: #fff;
+    box-sizing: border-box;
     font-size: 0.95rem;
   }
 }
@@ -127,16 +123,6 @@
     flex-direction: column;
     align-items: stretch;
     gap: 15px;
-  }
-
-  .mangas-view-toggle {
-    max-width: 100%;
-    margin: 0;
-
-    .toggle-option {
-      padding: 10px 16px;
-      font-size: 0.9rem;
-    }
   }
 
   .mangas {
