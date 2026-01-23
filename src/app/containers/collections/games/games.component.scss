@@ -24,7 +24,6 @@
 
 .games-view-toggle {
   @include toggle.view-toggle;
-  max-width: 440px;
 }
 
 .games-actions {
