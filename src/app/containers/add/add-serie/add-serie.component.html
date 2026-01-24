@@ -132,6 +132,42 @@
 
     <section class="form-section">
       <h2>Informations utilisateur</h2>
+      @if (entityForm().seasonsData.length) {
+      <div class="form-row">
+        <label>Notes et visionnages par saison</label>
+        <div class="seasons-list">
+          @for (season of userForm().seasons; let i = $index; track
+          season.seasonNumber) {
+          <div class="season-row">
+            <div class="season-title">Saison {{ season.seasonNumber }}</div>
+            <label>
+              Note
+              <input
+                type="number"
+                min="0"
+                step="0.5"
+                [ngModel]="season.seasonRating"
+                (ngModelChange)="updateUserSeasonField(i, 'seasonRating', $event)"
+                name="seasonRating-{{ i }}"
+              />
+            </label>
+            <label>
+              Visionnages
+              <input
+                type="number"
+                min="0"
+                [ngModel]="season.seasonTimesWatched"
+                (ngModelChange)="
+                  updateUserSeasonField(i, 'seasonTimesWatched', $event)
+                "
+                name="seasonTimesWatched-{{ i }}"
+              />
+            </label>
+          </div>
+          }
+        </div>
+      </div>
+      }
       <div class="form-row checkbox-row">
         <label for="owned">Possédé</label>
         <input

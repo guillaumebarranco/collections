@@ -25,6 +25,11 @@ type AddSerieDialogData = {
 
 type AddSerieUserForm = {
   owned: boolean;
+  seasons: {
+    seasonNumber: number;
+    seasonRating: number;
+    seasonTimesWatched: number;
+  }[];
 };
 
 @Component({
@@ -57,6 +62,7 @@ export class AddSerieComponent {
 
   userForm = signal<AddSerieUserForm>({
     owned: false,
+    seasons: [],
   });
 
   close() {
@@ -85,6 +91,13 @@ export class AddSerieComponent {
         { seasonNumber: nextNumber, nbEpisodes: 0, totalLength: 0 },
       ],
     });
+    this.userForm.set({
+      ...this.userForm(),
+      seasons: [
+        ...this.userForm().seasons,
+        { seasonNumber: nextNumber, seasonRating: 0, seasonTimesWatched: 0 },
+      ],
+    });
   }
 
   removeSeason(index: number) {
@@ -95,6 +108,13 @@ export class AddSerieComponent {
     this.entityForm.set({
       ...current,
       seasonsData: nextSeasons,
+    });
+    const nextUserSeasons = this.userForm()
+      .seasons.filter((_, i) => i !== index)
+      .map((season, i) => ({ ...season, seasonNumber: i + 1 }));
+    this.userForm.set({
+      ...this.userForm(),
+      seasons: nextUserSeasons,
     });
   }
 
@@ -120,6 +140,23 @@ export class AddSerieComponent {
     this.userForm.set({
       ...current,
       [field]: checked,
+    });
+  }
+
+  updateUserSeasonField(
+    index: number,
+    field: 'seasonRating' | 'seasonTimesWatched',
+    value: string | number
+  ) {
+    const current = this.userForm();
+    const asNumber = Number(value);
+    const normalized = Number.isNaN(asNumber) ? 0 : asNumber;
+    const seasons = current.seasons.map((season, i) =>
+      i === index ? { ...season, [field]: normalized } : season
+    );
+    this.userForm.set({
+      ...current,
+      seasons,
     });
   }
 
@@ -161,7 +198,10 @@ export class AddSerieComponent {
             ...entity,
             actors: this.getActorsList(),
           },
-          user: this.userForm(),
+          user: {
+            owned: this.userForm().owned,
+            seasons: this.userForm().seasons,
+          },
         }),
       });
 

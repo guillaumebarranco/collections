@@ -50,14 +50,24 @@ ${seasonsLines}
 }
 
 function formatUserSerie(user: any): string {
-  const seasons = Array.from(
-    { length: Math.max(0, Number(user.seasonsCount) || 0) },
-    (_, index) => `      {
+  const seasonsPayload = Array.isArray(user.seasons) ? user.seasons : [];
+  const seasons =
+    seasonsPayload.length > 0
+      ? seasonsPayload.map(
+          (season: any) => `      {
+        seasonNumber: ${season.seasonNumber},
+        seasonRating: ${season.seasonRating},
+        seasonTimesWatched: ${season.seasonTimesWatched},
+      }`
+        )
+      : Array.from(
+          { length: Math.max(0, Number(user.seasonsCount) || 0) },
+          (_, index) => `      {
         seasonNumber: ${index + 1},
         seasonRating: 0,
         seasonTimesWatched: 0,
       }`
-  );
+        );
 
   const seasonsBlock = `    seasons: [\n${seasons.join(',\n')}\n    ],`;
   return `  {
@@ -155,11 +165,29 @@ router.post('/add', (req: any, res: any) => {
       seasonsData,
     };
 
+    const rawUserSeasons = Array.isArray(user.seasons) ? user.seasons : [];
+    const seasonsCount = entityPayload.seasonsData.length;
+    const normalizedUserSeasons = Array.from(
+      { length: seasonsCount },
+      (_, index) => {
+        const season = rawUserSeasons[index] || {};
+        return {
+          seasonNumber: index + 1,
+          seasonRating:
+            normalizeNumber(season.seasonRating, 'seasonRating') || 0,
+          seasonTimesWatched:
+            normalizeNumber(season.seasonTimesWatched, 'seasonTimesWatched') ||
+            0,
+        };
+      }
+    );
+
     const userPayload = {
       title,
       director,
-      seasonsCount: entityPayload.seasonsData.length,
+      seasonsCount,
       owned: normalizeBoolean(user.owned, 'owned') ?? false,
+      seasons: normalizedUserSeasons,
     };
 
     const baseSerieContent = appendObjectToArrayFile(
