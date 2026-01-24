@@ -1,0 +1,63 @@
+@use "../../select-base.scss" as *;
+
+.select-comics-container {
+  @extend %select-container;
+
+  .header {
+    @extend %select-header;
+  }
+
+  .comic-info {
+    @extend %select-item-info;
+  }
+
+  .toolbar {
+    @extend %select-toolbar;
+
+    .selection-info .count {
+      color: #fd7e14;
+    }
+
+    .btn.btn-primary {
+      background: #fd7e14;
+
+      &:hover:not(:disabled) {
+        background: #e8590c;
+        box-shadow: 0 4px 8px rgba(253, 126, 20, 0.3);
+      }
+    }
+  }
+
+  .add-new-comic {
+    @extend %select-add-new;
+  }
+
+  .error-message {
+    margin: 12px auto 0;
+    max-width: 800px;
+    color: #ff7b7b;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .comics-grid {
+    @extend %select-grid;
+  }
+
+  .comic-cover {
+    @extend %select-item;
+
+    .overlay .checkmark {
+      color: #fd7e14;
+    }
+
+    &.selected {
+      border-color: #fd7e14;
+      box-shadow: 0 0 0 2px white, 0 0 0 4px #fd7e14;
+
+      .overlay {
+        background: rgba(253, 126, 20, 0.3);
+      }
+    }
+  }
+}

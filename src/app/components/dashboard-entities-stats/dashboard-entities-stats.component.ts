@@ -1,6 +1,16 @@
-import { Component, computed, inject, signal, OnInit } from '@angular/core';
+import {
+  Component,
+  computed,
+  inject,
+  signal,
+  OnInit,
+  AfterViewInit,
+  ElementRef,
+  ViewChild,
+} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Params } from '@angular/router';
+import * as d3 from 'd3';
 import { Movie } from '../../models/movie-model';
 import { Serie } from '../../models/serie-model';
 import { Book } from '../../models/book-model';
@@ -48,7 +58,7 @@ interface EntityStats {
   templateUrl: './dashboard-entities-stats.component.html',
   styleUrls: ['./dashboard-entities-stats.component.scss'],
 })
-export class DashboardEntitiesStatsComponent implements OnInit {
+export class DashboardEntitiesStatsComponent implements OnInit, AfterViewInit {
   activatedRoute = inject(ActivatedRoute);
 
   selectedEntity = signal<EntityType>('movies');
@@ -69,6 +79,11 @@ export class DashboardEntitiesStatsComponent implements OnInit {
   musicsList = signal<{ [key: string]: Music[] }>({});
   comicsList = signal<{ [key: string]: Comic[] }>({});
   bdsList = signal<{ [key: string]: Bd[] }>({});
+
+  @ViewChild('moviesCinemaChart')
+  moviesCinemaChart?: ElementRef<HTMLDivElement>;
+
+  currentYear = new Date().getFullYear();
 
   userId = computed<string>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
@@ -126,14 +141,40 @@ export class DashboardEntitiesStatsComponent implements OnInit {
     }
   });
 
-  private getMoviesStats(): EntityStats {
-    const movies = this.allMovies();
-    const uniqueMovies = Array.from(
-      new Set(movies.map((m) => `${m.title}|${m.director}`))
-    ).map((key) => {
-      const [title, director] = key.split('|');
-      return movies.find((m) => m.title === title && m.director === director)!;
+  moviesCinemaByYear = computed(() => {
+    const startYear = 2000;
+    const endYear = this.currentYear;
+    const years = Array.from(
+      { length: endYear - startYear + 1 },
+      (_, index) => startYear + index
+    );
+    const counts = new Map<number, number>();
+    years.forEach((year) => counts.set(year, 0));
+
+    const uniqueMovies = this.getUniqueMovies(this.allMovies());
+    uniqueMovies.forEach((movie) => {
+      if (!movie.seenAtCinema) {
+        return;
+      }
+      const year = this.getMovieViewedYear(movie);
+      if (year === null || year < startYear || year > endYear) {
+        return;
+      }
+      counts.set(year, (counts.get(year) || 0) + 1);
     });
+
+    return years.map((year) => ({
+      year,
+      count: counts.get(year) || 0,
+    }));
+  });
+
+  moviesCinemaTotal = computed(() => {
+    return this.moviesCinemaByYear().reduce((sum, item) => sum + item.count, 0);
+  });
+
+  private getMoviesStats(): EntityStats {
+    const uniqueMovies = this.getUniqueMovies(this.allMovies());
 
     // Acteurs les plus représentés
     const actorsCount: { [key: string]: number } = {};
@@ -398,6 +439,9 @@ export class DashboardEntitiesStatsComponent implements OnInit {
 
   selectEntity(entity: EntityType): void {
     this.selectedEntity.set(entity);
+    if (entity === 'movies') {
+      requestAnimationFrame(() => this.renderMoviesCinemaChart());
+    }
   }
 
   getEntityLabel(entity: EntityType): string {
@@ -437,10 +481,17 @@ export class DashboardEntitiesStatsComponent implements OnInit {
     void this.loadBdsData();
   }
 
+  ngAfterViewInit() {
+    requestAnimationFrame(() => this.renderMoviesCinemaChart());
+  }
+
   private async loadMoviesData() {
     const userId = this.userId() || 'guillaume';
     const movies = await getAllMovies(userId);
     this.moviesList.set(movies);
+    if (this.selectedEntity() === 'movies') {
+      requestAnimationFrame(() => this.renderMoviesCinemaChart());
+    }
   }
 
   private async loadBooksData() {
@@ -477,5 +528,109 @@ export class DashboardEntitiesStatsComponent implements OnInit {
     const userId = this.userId() || 'guillaume';
     const bds = await getAllBds(userId);
     this.bdsList.set(bds);
+  }
+
+  private getUniqueMovies(movies: Movie[]): Movie[] {
+    return Array.from(
+      new Set(movies.map((m) => `${m.title}|${m.director}`))
+    ).map((key) => {
+      const [title, director] = key.split('|');
+      return movies.find((m) => m.title === title && m.director === director)!;
+    });
+  }
+
+  private getMovieViewedYear(movie: Movie): number | null {
+    const dateValue = movie.firstViewedDate || movie.lastViewedDate;
+    if (!dateValue) {
+      return null;
+    }
+    const year = new Date(dateValue).getFullYear();
+    if (Number.isNaN(year)) {
+      return null;
+    }
+    return year;
+  }
+
+  private renderMoviesCinemaChart(): void {
+    if (this.selectedEntity() !== 'movies') {
+      return;
+    }
+    const container = this.moviesCinemaChart?.nativeElement;
+    if (!container || this.moviesCinemaTotal() === 0) {
+      return;
+    }
+
+    const data = this.moviesCinemaByYear();
+    const containerWidth = container.clientWidth || 600;
+    const width = Math.max(containerWidth, 320);
+    const height = 260;
+    const margin = { top: 10, right: 20, bottom: 35, left: 40 };
+
+    d3.select(container).selectAll('*').remove();
+
+    const svg = d3
+      .select(container)
+      .append('svg')
+      .attr('viewBox', `0 0 ${width} ${height}`)
+      .attr('preserveAspectRatio', 'xMinYMin meet');
+
+    const x = d3
+      .scaleBand<string>()
+      .domain(data.map((d: any) => d.year.toString()))
+      .range([margin.left, width - margin.right])
+      .padding(0.15);
+
+    const maxCount = Math.max(1, d3.max(data, (d: any) => d.count) || 1);
+    const y = d3
+      .scaleLinear()
+      .domain([0, maxCount])
+      .nice()
+      .range([height - margin.bottom, margin.top]);
+
+    svg
+      .append('g')
+      .attr('class', 'cinema-grid')
+      .attr('transform', `translate(${margin.left},0)`)
+      .call(
+        d3
+          .axisLeft(y)
+          .ticks(5)
+          .tickSize(-(width - margin.left - margin.right))
+          .tickFormat(() => '')
+      );
+
+    svg
+      .append('g')
+      .attr('class', 'cinema-bars')
+      .selectAll('rect')
+      .data(data)
+      .join('rect')
+      .attr('x', (d: any) => x(d.year.toString()) || 0)
+      .attr('y', (d) => y(d.count))
+      .attr('height', (d) => y(0) - y(d.count))
+      .attr('width', x.bandwidth())
+      .attr('rx', 3)
+      .attr('fill', '#007bff');
+
+    svg
+      .append('g')
+      .attr('transform', `translate(0,${height - margin.bottom})`)
+      .call(
+        d3
+          .axisBottom(x)
+          .tickValues(
+            data
+              .filter((_, index) => index % 2 === 0)
+              .map((item) => item.year.toString())
+          )
+      )
+      .selectAll('text')
+      .attr('transform', 'rotate(-25)')
+      .style('text-anchor', 'end');
+
+    svg
+      .append('g')
+      .attr('transform', `translate(${margin.left},0)`)
+      .call(d3.axisLeft(y).ticks(5).tickFormat(d3.format('d')));
   }
 }

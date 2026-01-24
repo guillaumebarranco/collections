@@ -426,7 +426,7 @@ export class DashboardComponent implements OnInit {
       .slice(0, 5);
   });
 
-  stats = computed<StatItem[]>(() => {
+  timeEntitiesStats = computed<StatItem[]>(() => {
     const booksTotalReadingTime =
       this.allBooks().length > 0
         ? (getTotalPagesRead(this.allBooks()) * MINUTES_PER_PAGE) / 60
@@ -481,6 +481,47 @@ export class DashboardComponent implements OnInit {
 
     return [
       {
+        label: 'Temps total passé à lire',
+        value: this.formatTime(
+          booksTotalReadingTime +
+            mangasTotalReadingTime +
+            comicsTotalReadingTime +
+            bdsTotalReadingTime +
+            manwhasTotalReadingTime
+        ),
+        icon: '📖',
+        color: StatItemColor.PRIMARY,
+      },
+      {
+        label: 'Temps total passé en visionnage',
+        value: this.formatTime(totalWatchingTime),
+        icon: '📺',
+        color: StatItemColor.SUCCESS,
+      },
+      {
+        label: 'Temps total passé à jouer',
+        value: this.formatTime(gamesTotalTime),
+        icon: '🎮',
+        color: StatItemColor.SECONDARY,
+      },
+      {
+        label: 'Temps total passé à écouter de la musique',
+        value: this.formatTime(musicsTotalTime),
+        icon: '🎵',
+        color: StatItemColor.WARNING,
+      },
+      {
+        label: 'TEMPS TOTAL CUMULÉ (toutes activités)',
+        value: this.formatTime(totalCumulativeTime),
+        icon: '⏱️',
+        color: StatItemColor.INFO,
+      },
+    ];
+  });
+
+  entitiesStats = computed<StatItem[]>(() => {
+    return [
+      {
         label: 'Livres lus',
         value: this.allBooks().length.toString(),
         icon: '📖',
@@ -533,43 +574,6 @@ export class DashboardComponent implements OnInit {
         value: this.allMusics().length.toString(),
         icon: '🎵',
         color: StatItemColor.WARNING,
-      },
-      {
-        label:
-          'Temps total passé à lire (livres + mangas + comics + BD + manwhas)',
-        value: this.formatTime(
-          booksTotalReadingTime +
-            mangasTotalReadingTime +
-            comicsTotalReadingTime +
-            bdsTotalReadingTime +
-            manwhasTotalReadingTime
-        ),
-        icon: '📖',
-        color: StatItemColor.PRIMARY,
-      },
-      {
-        label: 'Temps total pour regarder (films + séries)',
-        value: this.formatTime(totalWatchingTime),
-        icon: '📺',
-        color: StatItemColor.SUCCESS,
-      },
-      {
-        label: 'Temps total passé à jouer',
-        value: this.formatTime(gamesTotalTime),
-        icon: '🎮',
-        color: StatItemColor.SECONDARY,
-      },
-      {
-        label: 'Temps total passé à écouter de la musique',
-        value: this.formatTime(musicsTotalTime),
-        icon: '🎵',
-        color: StatItemColor.WARNING,
-      },
-      {
-        label: 'TEMPS TOTAL CUMULÉ (toutes activités)',
-        value: this.formatTime(totalCumulativeTime),
-        icon: '⏱️',
-        color: StatItemColor.DANGER,
       },
     ];
   });

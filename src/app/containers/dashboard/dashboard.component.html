@@ -15,8 +15,18 @@
     <!-- Statistiques générales -->
     @if (selectedTab() === 'overview') {
     <div class="dashboard-section">
+      <h2>📊 Temps passé</h2>
+      <app-stats-display
+        [stats]="timeEntitiesStats()"
+        [count]="0"
+        countLabel=""
+      >
+      </app-stats-display>
+    </div>
+
+    <div class="dashboard-section">
       <h2>📊 Vue d'ensemble</h2>
-      <app-stats-display [stats]="stats()" [count]="0" countLabel="">
+      <app-stats-display [stats]="entitiesStats()" [count]="0" countLabel="">
       </app-stats-display>
     </div>
 

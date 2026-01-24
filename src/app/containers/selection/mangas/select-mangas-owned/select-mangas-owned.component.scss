@@ -1,0 +1,104 @@
+@use "../../select-base.scss" as *;
+
+.select-mangas-owned-container {
+  @extend %select-container;
+
+  .header {
+    @extend %select-header;
+
+    h1 {
+      color: #999;
+    }
+  }
+
+  .manga-info {
+    @extend %select-item-info;
+    margin-bottom: 1rem;
+
+    .manga-author {
+      display: block;
+      font-size: 0.8rem;
+      color: #ccc;
+      margin-top: 0.25rem;
+    }
+
+    .current-owned {
+      display: block;
+      font-size: 0.7rem;
+      color: #aaa;
+      margin-top: 0.5rem;
+    }
+  }
+
+  .toolbar {
+    @extend %select-toolbar;
+
+    .selection-info .count {
+      color: #fd7e14;
+    }
+
+    .btn.btn-primary {
+      background: #fd7e14;
+      color: #fff;
+
+      &:hover:not(:disabled) {
+        background: #e8590c;
+        box-shadow: 0 4px 8px rgba(253, 126, 20, 0.3);
+      }
+    }
+  }
+
+  .mangas-grid {
+    @extend %select-grid;
+  }
+
+  .manga-cover {
+    @extend %select-item;
+
+    .overlay {
+      .owned-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        justify-content: center;
+        margin-top: 0.5rem;
+        max-width: 100%;
+        padding: 0 0.25rem;
+
+        .owned-btn {
+          padding: 0.45rem 0.8rem;
+          border: 1.5px solid white;
+          border-radius: 3px;
+          background: rgba(255, 255, 255, 0.2);
+          color: white;
+          font-weight: bold;
+          font-size: 0.75rem;
+          cursor: pointer;
+          transition: all 0.2s ease;
+          min-width: 70px;
+          flex: 0 0 calc(50% - 0.3rem);
+          max-width: calc(50% - 0.3rem);
+
+          &:hover {
+            background: rgba(255, 255, 255, 0.5);
+            transform: scale(1.1);
+            z-index: 20;
+          }
+
+          &.active {
+            background: #fd7e14;
+            border-color: #fd7e14;
+            box-shadow: 0 0 6px rgba(253, 126, 20, 0.6);
+          }
+        }
+      }
+    }
+
+    &:hover {
+      .overlay {
+        opacity: 1;
+        z-index: 10;
+      }
+    }
+  }
+}

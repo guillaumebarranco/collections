@@ -67,6 +67,43 @@
     }
   }
 
+  .stats-section--wide {
+    grid-column: 1 / -1;
+  }
+
+  .cinema-chart {
+    width: 100%;
+    min-height: 260px;
+
+    svg {
+      width: 100%;
+      height: auto;
+      overflow: visible;
+    }
+
+    .cinema-grid line {
+      stroke: #e3e6ea;
+    }
+
+    .cinema-grid path {
+      stroke: transparent;
+    }
+  }
+
+  .chart-footnote {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+
+  .no-data {
+    text-align: center;
+    padding: 15px;
+    color: #6c757d;
+    font-style: italic;
+  }
+
   .stats-list {
     display: flex;
     flex-direction: column;
