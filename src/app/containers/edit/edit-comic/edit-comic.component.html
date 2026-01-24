@@ -101,6 +101,76 @@
       />
     </div>
 
+    @if (isAdmin() && comicEntityForm()) {
+    <div class="form-row">
+      <label for="entityPages">Pages</label>
+      <input
+        id="entityPages"
+        type="number"
+        min="0"
+        [ngModel]="comicEntityForm()?.pages"
+        (ngModelChange)="updateEntityField('pages', $event)"
+        name="entityPages"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityGenre">Genre</label>
+      <input
+        id="entityGenre"
+        type="text"
+        [ngModel]="comicEntityForm()?.genre"
+        (ngModelChange)="updateEntityField('genre', $event)"
+        name="entityGenre"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityNbTomes">Nombre de tomes</label>
+      <input
+        id="entityNbTomes"
+        type="number"
+        min="0"
+        [ngModel]="comicEntityForm()?.nbTomes"
+        (ngModelChange)="updateEntityField('nbTomes', $event)"
+        name="entityNbTomes"
+      />
+    </div>
+
+    <div class="form-row checkbox-row">
+      <label for="entityIsFinished">Série terminée</label>
+      <input
+        id="entityIsFinished"
+        type="checkbox"
+        [checked]="comicEntityForm()?.isFinished"
+        (change)="updateEntityCheckbox('isFinished', $any($event).target.checked)"
+        name="entityIsFinished"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityWriter">Writer</label>
+      <input
+        id="entityWriter"
+        type="text"
+        [ngModel]="comicEntityForm()?.writer"
+        (ngModelChange)="updateEntityField('writer', $event)"
+        name="entityWriter"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityCoverUrl">Cover URL</label>
+      <input
+        id="entityCoverUrl"
+        type="text"
+        [ngModel]="comicEntityForm()?.coverUrl"
+        (ngModelChange)="updateEntityField('coverUrl', $event)"
+        name="entityCoverUrl"
+      />
+    </div>
+    }
+
     <div class="form-actions">
       <button type="submit" class="submit-btn" [disabled]="isSaving()">
         Modifier

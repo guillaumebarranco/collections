@@ -23,6 +23,17 @@ type EditGameForm = {
   owned: boolean;
 };
 
+type EditGameEntityForm = {
+  hero: string;
+  coverUrl: string;
+  releaseDate: string;
+  averageTimeToFinish: number;
+  averageTimeToHundredPercent: number;
+  platform: string;
+  saga: string;
+  platineTime: number;
+};
+
 type EditGameDialogData = {
   game: Game;
   userId?: string;
@@ -53,9 +64,11 @@ export class EditGameComponent {
 
   readonly game = signal<Game | null>(null);
   readonly gameForm = signal<EditGameForm | null>(null);
+  readonly gameEntityForm = signal<EditGameEntityForm | null>(null);
   readonly gameNotFound = signal<boolean>(false);
   readonly isSaving = signal<boolean>(false);
   readonly isDeleting = signal<boolean>(false);
+  readonly isAdmin = computed(() => this.authService.isAdmin());
 
   readonly gameSlug = computed(() => {
     return this.activatedRoute.snapshot.paramMap.get('slug') || '';
@@ -65,6 +78,7 @@ export class EditGameComponent {
     if (this.dialogData?.game) {
       this.game.set(this.dialogData.game);
       this.gameForm.set(this.toForm(this.dialogData.game));
+      this.gameEntityForm.set(this.toEntityForm(this.dialogData.game));
       this.gameNotFound.set(false);
       return;
     }
@@ -101,6 +115,27 @@ export class EditGameComponent {
     this.gameForm.set({
       ...current,
       [field]: checked,
+    });
+  }
+
+  updateEntityField<K extends keyof EditGameEntityForm>(
+    field: K,
+    value: string | number
+  ) {
+    const current = this.gameEntityForm();
+    if (!current) return;
+    let nextValue: EditGameEntityForm[K] = value as EditGameEntityForm[K];
+    if (
+      field === 'averageTimeToFinish' ||
+      field === 'averageTimeToHundredPercent' ||
+      field === 'platineTime'
+    ) {
+      const asNumber = Number(value);
+      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditGameEntityForm[K];
+    }
+    this.gameEntityForm.set({
+      ...current,
+      [field]: nextValue,
     });
   }
 
@@ -146,6 +181,9 @@ export class EditGameComponent {
           additionnalEstimatedTime: form.additionnalEstimatedTime,
           platined: form.platined,
           owned: form.owned,
+          entity: this.isAdmin()
+            ? this.toEntityPayload(this.gameEntityForm())
+            : undefined,
         }),
       });
 
@@ -235,6 +273,7 @@ export class EditGameComponent {
 
     this.game.set(matched);
     this.gameForm.set(this.toForm(matched));
+    this.gameEntityForm.set(this.toEntityForm(matched));
     this.gameNotFound.set(false);
   }
 
@@ -255,6 +294,33 @@ export class EditGameComponent {
       platined: game.platined,
       timesFinishedHundredPercent: game.timesFinishedHundredPercent,
       owned: game.owned,
+    };
+  }
+
+  private toEntityForm(game: Game): EditGameEntityForm {
+    return {
+      hero: game.hero || '',
+      coverUrl: game.coverUrl || '',
+      releaseDate: game.releaseDate || '',
+      averageTimeToFinish: game.averageTimeToFinish || 0,
+      averageTimeToHundredPercent: game.averageTimeToHundredPercent || 0,
+      platform: game.platform || '',
+      saga: game.saga || '',
+      platineTime: game.platineTime || 0,
+    };
+  }
+
+  private toEntityPayload(form: EditGameEntityForm | null) {
+    if (!form) return undefined;
+    return {
+      hero: form.hero,
+      coverUrl: form.coverUrl,
+      releaseDate: form.releaseDate,
+      averageTimeToFinish: form.averageTimeToFinish,
+      averageTimeToHundredPercent: form.averageTimeToHundredPercent,
+      platform: form.platform,
+      saga: form.saga,
+      platineTime: form.platineTime,
     };
   }
 

@@ -98,6 +98,65 @@
       />
     </div>
 
+    @if (isAdmin() && mangaEntityForm()) {
+    <div class="form-row">
+      <label for="entityPages">Pages</label>
+      <input
+        id="entityPages"
+        type="number"
+        min="0"
+        [ngModel]="mangaEntityForm()?.pages"
+        (ngModelChange)="updateEntityField('pages', $event)"
+        name="entityPages"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityGenre">Genre</label>
+      <input
+        id="entityGenre"
+        type="text"
+        [ngModel]="mangaEntityForm()?.genre"
+        (ngModelChange)="updateEntityField('genre', $event)"
+        name="entityGenre"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityNbTomes">Nombre de tomes</label>
+      <input
+        id="entityNbTomes"
+        type="number"
+        min="0"
+        [ngModel]="mangaEntityForm()?.nbTomes"
+        (ngModelChange)="updateEntityField('nbTomes', $event)"
+        name="entityNbTomes"
+      />
+    </div>
+
+    <div class="form-row checkbox-row">
+      <label for="entityIsFinished">Série terminée</label>
+      <input
+        id="entityIsFinished"
+        type="checkbox"
+        [checked]="mangaEntityForm()?.isFinished"
+        (change)="updateEntityCheckbox('isFinished', $any($event).target.checked)"
+        name="entityIsFinished"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityCoverUrl">Cover URL</label>
+      <input
+        id="entityCoverUrl"
+        type="text"
+        [ngModel]="mangaEntityForm()?.coverUrl"
+        (ngModelChange)="updateEntityField('coverUrl', $event)"
+        name="entityCoverUrl"
+      />
+    </div>
+    }
+
     <div class="form-actions">
       <button type="submit" class="submit-btn" [disabled]="isSaving()">
         Modifier

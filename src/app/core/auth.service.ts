@@ -2,11 +2,15 @@ import { Injectable, signal } from '@angular/core';
 import { getApiBaseUrl } from './config';
 
 const STORAGE_KEY = 'makya-auth-user';
+const STORAGE_ADMIN_KEY = 'makya-auth-admin';
 
 @Injectable({ providedIn: 'root' })
 export class AuthService {
   private readonly authenticatedUserId = signal<string | null>(
     this.readStoredUserId()
+  );
+  private readonly authenticatedUserAdmin = signal<boolean>(
+    this.readStoredAdmin()
   );
   readonly userId = this.authenticatedUserId.asReadonly();
 
@@ -19,10 +23,19 @@ export class AuthService {
     }
   }
 
+  setAuthenticatedUserAdmin(isAdmin: boolean) {
+    this.authenticatedUserAdmin.set(Boolean(isAdmin));
+    if (typeof window !== 'undefined') {
+      localStorage.setItem(STORAGE_ADMIN_KEY, String(Boolean(isAdmin)));
+    }
+  }
+
   clearAuthenticatedUserId() {
     this.authenticatedUserId.set(null);
+    this.authenticatedUserAdmin.set(false);
     if (typeof window !== 'undefined') {
       localStorage.removeItem(STORAGE_KEY);
+      localStorage.removeItem(STORAGE_ADMIN_KEY);
     }
   }
 
@@ -34,6 +47,10 @@ export class AuthService {
     return Boolean(this.authenticatedUserId());
   }
 
+  isAdmin(): boolean {
+    return Boolean(this.authenticatedUserAdmin());
+  }
+
   canEdit(targetUserId?: string | null): boolean {
     if (!targetUserId) return false;
     const authUserId = this.authenticatedUserId();
@@ -43,16 +60,17 @@ export class AuthService {
   async getUserStatus(username: string): Promise<{
     exists: boolean;
     hasPassword: boolean;
+    admin: boolean;
   }> {
     const normalized = username.trim().toLowerCase();
     if (!normalized) {
-      return { exists: false, hasPassword: false };
+      return { exists: false, hasPassword: false, admin: false };
     }
     const response = await fetch(
       `${getApiBaseUrl()}/auth/status/${normalized}`
     );
     if (!response.ok) {
-      return { exists: false, hasPassword: false };
+      return { exists: false, hasPassword: false, admin: false };
     }
     return response.json();
   }
@@ -68,7 +86,9 @@ export class AuthService {
     if (!response.ok) {
       return false;
     }
+    const payload = await response.json();
     this.setAuthenticatedUserId(normalized);
+    this.setAuthenticatedUserAdmin(Boolean(payload?.admin));
     return true;
   }
 
@@ -83,12 +103,19 @@ export class AuthService {
     if (!response.ok) {
       return false;
     }
+    const payload = await response.json();
     this.setAuthenticatedUserId(normalized);
+    this.setAuthenticatedUserAdmin(Boolean(payload?.admin));
     return true;
   }
 
   private readStoredUserId(): string | null {
     if (typeof window === 'undefined') return null;
     return localStorage.getItem(STORAGE_KEY);
+  }
+
+  private readStoredAdmin(): boolean {
+    if (typeof window === 'undefined') return false;
+    return localStorage.getItem(STORAGE_ADMIN_KEY) === 'true';
   }
 }

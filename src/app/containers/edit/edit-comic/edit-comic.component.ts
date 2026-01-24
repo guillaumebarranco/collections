@@ -21,6 +21,15 @@ type EditComicForm = {
   owned: boolean;
 };
 
+type EditComicEntityForm = {
+  pages: number;
+  genre: string;
+  nbTomes: number;
+  isFinished: boolean;
+  writer: string;
+  coverUrl: string;
+};
+
 type EditComicDialogData = {
   comic: Comic;
   userId?: string;
@@ -51,9 +60,11 @@ export class EditComicComponent {
 
   readonly comic = signal<Comic | null>(null);
   readonly comicForm = signal<EditComicForm | null>(null);
+  readonly comicEntityForm = signal<EditComicEntityForm | null>(null);
   readonly comicNotFound = signal<boolean>(false);
   readonly isSaving = signal<boolean>(false);
   readonly isDeleting = signal<boolean>(false);
+  readonly isAdmin = computed(() => this.authService.isAdmin());
 
   readonly comicSlug = computed(() => {
     return this.activatedRoute.snapshot.paramMap.get('slug') || '';
@@ -63,6 +74,7 @@ export class EditComicComponent {
     if (this.dialogData?.comic) {
       this.comic.set(this.dialogData.comic);
       this.comicForm.set(this.toForm(this.dialogData.comic));
+      this.comicEntityForm.set(this.toEntityForm(this.dialogData.comic));
       this.comicNotFound.set(false);
       return;
     }
@@ -92,6 +104,32 @@ export class EditComicComponent {
     const current = this.comicForm();
     if (!current) return;
     this.comicForm.set({
+      ...current,
+      [field]: checked,
+    });
+  }
+
+  updateEntityField<K extends keyof EditComicEntityForm>(
+    field: K,
+    value: string | number
+  ) {
+    const current = this.comicEntityForm();
+    if (!current) return;
+    let nextValue: EditComicEntityForm[K] = value as EditComicEntityForm[K];
+    if (field !== 'genre' && field !== 'writer' && field !== 'coverUrl') {
+      const asNumber = Number(value);
+      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditComicEntityForm[K];
+    }
+    this.comicEntityForm.set({
+      ...current,
+      [field]: nextValue,
+    });
+  }
+
+  updateEntityCheckbox(field: 'isFinished', checked: boolean) {
+    const current = this.comicEntityForm();
+    if (!current) return;
+    this.comicEntityForm.set({
       ...current,
       [field]: checked,
     });
@@ -138,6 +176,9 @@ export class EditComicComponent {
           readTimes: form.readTimes,
           readDate: form.readDate,
           owned: form.owned,
+          entity: this.isAdmin()
+            ? this.toEntityPayload(this.comicEntityForm())
+            : undefined,
         }),
       });
 
@@ -227,6 +268,7 @@ export class EditComicComponent {
 
     this.comic.set(matched);
     this.comicForm.set(this.toForm(matched));
+    this.comicEntityForm.set(this.toEntityForm(matched));
     this.comicNotFound.set(false);
   }
 
@@ -245,6 +287,29 @@ export class EditComicComponent {
       readTimes: comic.readTimes || 0,
       readDate: comic.readDate,
       owned: comic.owned,
+    };
+  }
+
+  private toEntityForm(comic: Comic): EditComicEntityForm {
+    return {
+      pages: comic.pages || 0,
+      genre: comic.genre || '',
+      nbTomes: comic.nbTomes || 0,
+      isFinished: comic.isFinished !== false,
+      writer: comic.writer || '',
+      coverUrl: comic.coverUrl || '',
+    };
+  }
+
+  private toEntityPayload(form: EditComicEntityForm | null) {
+    if (!form) return undefined;
+    return {
+      pages: form.pages,
+      genre: form.genre,
+      nbTomes: form.nbTomes,
+      isFinished: form.isFinished,
+      writer: form.writer,
+      coverUrl: form.coverUrl,
     };
   }
 

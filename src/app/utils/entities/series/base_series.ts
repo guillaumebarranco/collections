@@ -2283,11 +2283,6 @@ export const baseSeries: BaseSerie[] = [
         nbEpisodes: 22,
         totalLength: 660,
       },
-      {
-        seasonNumber: 8,
-        nbEpisodes: 1,
-        totalLength: 30,
-      },
     ],
   },
   {
@@ -3874,21 +3869,6 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 1,
         nbEpisodes: 32,
         totalLength: 1920,
-      },
-      {
-        seasonNumber: 2,
-        nbEpisodes: 34,
-        totalLength: 2040,
-      },
-      {
-        seasonNumber: 3,
-        nbEpisodes: 36,
-        totalLength: 2160,
-      },
-      {
-        seasonNumber: 4,
-        nbEpisodes: 30,
-        totalLength: 1800,
       },
     ],
   },

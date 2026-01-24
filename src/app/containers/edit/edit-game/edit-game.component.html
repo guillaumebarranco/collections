@@ -124,6 +124,99 @@
       />
     </div>
 
+    @if (isAdmin() && gameEntityForm()) {
+    <div class="form-row">
+      <label for="entityHero">Héro</label>
+      <input
+        id="entityHero"
+        type="text"
+        [ngModel]="gameEntityForm()?.hero"
+        (ngModelChange)="updateEntityField('hero', $event)"
+        name="entityHero"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityReleaseDate">Date de sortie</label>
+      <input
+        id="entityReleaseDate"
+        type="date"
+        [ngModel]="gameEntityForm()?.releaseDate"
+        (ngModelChange)="updateEntityField('releaseDate', $event)"
+        name="entityReleaseDate"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityAverageTime">Temps moyen (h)</label>
+      <input
+        id="entityAverageTime"
+        type="number"
+        min="0"
+        [ngModel]="gameEntityForm()?.averageTimeToFinish"
+        (ngModelChange)="updateEntityField('averageTimeToFinish', $event)"
+        name="entityAverageTime"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityAverageTimeHundred">Temps 100% (h)</label>
+      <input
+        id="entityAverageTimeHundred"
+        type="number"
+        min="0"
+        [ngModel]="gameEntityForm()?.averageTimeToHundredPercent"
+        (ngModelChange)="updateEntityField('averageTimeToHundredPercent', $event)"
+        name="entityAverageTimeHundred"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityPlatform">Plateforme</label>
+      <input
+        id="entityPlatform"
+        type="text"
+        [ngModel]="gameEntityForm()?.platform"
+        (ngModelChange)="updateEntityField('platform', $event)"
+        name="entityPlatform"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entitySaga">Saga</label>
+      <input
+        id="entitySaga"
+        type="text"
+        [ngModel]="gameEntityForm()?.saga"
+        (ngModelChange)="updateEntityField('saga', $event)"
+        name="entitySaga"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityPlatineTime">Temps platine (h)</label>
+      <input
+        id="entityPlatineTime"
+        type="number"
+        min="0"
+        [ngModel]="gameEntityForm()?.platineTime"
+        (ngModelChange)="updateEntityField('platineTime', $event)"
+        name="entityPlatineTime"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityCoverUrl">Cover URL</label>
+      <input
+        id="entityCoverUrl"
+        type="text"
+        [ngModel]="gameEntityForm()?.coverUrl"
+        (ngModelChange)="updateEntityField('coverUrl', $event)"
+        name="entityCoverUrl"
+      />
+    </div>
+    }
+
     <div class="form-actions">
       <button type="submit" class="submit-btn" [disabled]="isSaving()">
         Modifier

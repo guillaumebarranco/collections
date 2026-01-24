@@ -21,6 +21,16 @@ type EditBookForm = {
   owned: boolean;
 };
 
+type EditBookEntityForm = {
+  pages: number;
+  genre: string;
+  saga: string;
+  sagaOrder: number;
+  nbTomes: number;
+  isFinished: boolean;
+  coverUrl: string;
+};
+
 type EditBookDialogData = {
   book: Book;
   userId?: string;
@@ -51,9 +61,11 @@ export class EditBookComponent {
 
   readonly book = signal<Book | null>(null);
   readonly bookForm = signal<EditBookForm | null>(null);
+  readonly bookEntityForm = signal<EditBookEntityForm | null>(null);
   readonly bookNotFound = signal<boolean>(false);
   readonly isSaving = signal<boolean>(false);
   readonly isDeleting = signal<boolean>(false);
+  readonly isAdmin = computed(() => this.authService.isAdmin());
 
   readonly bookSlug = computed(() => {
     return this.activatedRoute.snapshot.paramMap.get('slug') || '';
@@ -63,6 +75,7 @@ export class EditBookComponent {
     if (this.dialogData?.book) {
       this.book.set(this.dialogData.book);
       this.bookForm.set(this.toForm(this.dialogData.book));
+      this.bookEntityForm.set(this.toEntityForm(this.dialogData.book));
       this.bookNotFound.set(false);
       return;
     }
@@ -92,6 +105,32 @@ export class EditBookComponent {
     const current = this.bookForm();
     if (!current) return;
     this.bookForm.set({
+      ...current,
+      [field]: checked,
+    });
+  }
+
+  updateEntityField<K extends keyof EditBookEntityForm>(
+    field: K,
+    value: string | number
+  ) {
+    const current = this.bookEntityForm();
+    if (!current) return;
+    let nextValue: EditBookEntityForm[K] = value as EditBookEntityForm[K];
+    if (field !== 'genre' && field !== 'saga' && field !== 'coverUrl') {
+      const asNumber = Number(value);
+      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditBookEntityForm[K];
+    }
+    this.bookEntityForm.set({
+      ...current,
+      [field]: nextValue,
+    });
+  }
+
+  updateEntityCheckbox(field: 'isFinished', checked: boolean) {
+    const current = this.bookEntityForm();
+    if (!current) return;
+    this.bookEntityForm.set({
       ...current,
       [field]: checked,
     });
@@ -138,6 +177,9 @@ export class EditBookComponent {
           readTimes: form.readTimes,
           readDate: form.readDate,
           owned: form.owned,
+          entity: this.isAdmin()
+            ? this.toEntityPayload(this.bookEntityForm())
+            : undefined,
         }),
       });
 
@@ -227,6 +269,7 @@ export class EditBookComponent {
 
     this.book.set(matched);
     this.bookForm.set(this.toForm(matched));
+    this.bookEntityForm.set(this.toEntityForm(matched));
     this.bookNotFound.set(false);
   }
 
@@ -245,6 +288,31 @@ export class EditBookComponent {
       readTimes: book.readTimes || 0,
       readDate: book.readDate,
       owned: book.owned,
+    };
+  }
+
+  private toEntityForm(book: Book): EditBookEntityForm {
+    return {
+      pages: book.pages || 0,
+      genre: book.genre || '',
+      saga: book.saga || '',
+      sagaOrder: book.sagaOrder || 0,
+      nbTomes: book.nbTomes || 0,
+      isFinished: book.isFinished !== false,
+      coverUrl: book.coverUrl || '',
+    };
+  }
+
+  private toEntityPayload(form: EditBookEntityForm | null) {
+    if (!form) return undefined;
+    return {
+      pages: form.pages,
+      genre: form.genre,
+      saga: form.saga,
+      sagaOrder: form.sagaOrder,
+      nbTomes: form.nbTomes,
+      isFinished: form.isFinished,
+      coverUrl: form.coverUrl,
     };
   }
 

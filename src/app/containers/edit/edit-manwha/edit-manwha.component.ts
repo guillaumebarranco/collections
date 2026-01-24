@@ -21,6 +21,14 @@ type EditManwhaForm = {
   owned: boolean;
 };
 
+type EditManwhaEntityForm = {
+  pages: number;
+  genre: string;
+  nbChapters: number;
+  isFinished: boolean;
+  coverUrl: string;
+};
+
 type EditManwhaDialogData = {
   manwha: Manwha;
   userId?: string;
@@ -51,9 +59,11 @@ export class EditManwhaComponent {
 
   readonly manwha = signal<Manwha | null>(null);
   readonly manwhaForm = signal<EditManwhaForm | null>(null);
+  readonly manwhaEntityForm = signal<EditManwhaEntityForm | null>(null);
   readonly manwhaNotFound = signal<boolean>(false);
   readonly isSaving = signal<boolean>(false);
   readonly isDeleting = signal<boolean>(false);
+  readonly isAdmin = computed(() => this.authService.isAdmin());
 
   readonly manwhaSlug = computed(() => {
     return this.activatedRoute.snapshot.paramMap.get('slug') || '';
@@ -63,6 +73,7 @@ export class EditManwhaComponent {
     if (this.dialogData?.manwha) {
       this.manwha.set(this.dialogData.manwha);
       this.manwhaForm.set(this.toForm(this.dialogData.manwha));
+      this.manwhaEntityForm.set(this.toEntityForm(this.dialogData.manwha));
       this.manwhaNotFound.set(false);
       return;
     }
@@ -95,6 +106,32 @@ export class EditManwhaComponent {
     const current = this.manwhaForm();
     if (!current) return;
     this.manwhaForm.set({
+      ...current,
+      [field]: checked,
+    });
+  }
+
+  updateEntityField<K extends keyof EditManwhaEntityForm>(
+    field: K,
+    value: string | number
+  ) {
+    const current = this.manwhaEntityForm();
+    if (!current) return;
+    let nextValue: EditManwhaEntityForm[K] = value as EditManwhaEntityForm[K];
+    if (field !== 'genre' && field !== 'coverUrl') {
+      const asNumber = Number(value);
+      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditManwhaEntityForm[K];
+    }
+    this.manwhaEntityForm.set({
+      ...current,
+      [field]: nextValue,
+    });
+  }
+
+  updateEntityCheckbox(field: 'isFinished', checked: boolean) {
+    const current = this.manwhaEntityForm();
+    if (!current) return;
+    this.manwhaEntityForm.set({
       ...current,
       [field]: checked,
     });
@@ -141,6 +178,9 @@ export class EditManwhaComponent {
           readTimes: form.readTimes,
           readDate: form.readDate,
           owned: form.owned,
+          entity: this.isAdmin()
+            ? this.toEntityPayload(this.manwhaEntityForm())
+            : undefined,
         }),
       });
 
@@ -230,6 +270,7 @@ export class EditManwhaComponent {
 
     this.manwha.set(matched);
     this.manwhaForm.set(this.toForm(matched));
+    this.manwhaEntityForm.set(this.toEntityForm(matched));
     this.manwhaNotFound.set(false);
   }
 
@@ -248,6 +289,27 @@ export class EditManwhaComponent {
       readTimes: manwha.readTimes || 0,
       readDate: manwha.readDate,
       owned: manwha.owned,
+    };
+  }
+
+  private toEntityForm(manwha: Manwha): EditManwhaEntityForm {
+    return {
+      pages: manwha.pages || 0,
+      genre: manwha.genre || '',
+      nbChapters: manwha.nbChapters || 0,
+      isFinished: manwha.isFinished !== false,
+      coverUrl: manwha.coverUrl || '',
+    };
+  }
+
+  private toEntityPayload(form: EditManwhaEntityForm | null) {
+    if (!form) return undefined;
+    return {
+      pages: form.pages,
+      genre: form.genre,
+      nbChapters: form.nbChapters,
+      isFinished: form.isFinished,
+      coverUrl: form.coverUrl,
     };
   }
 

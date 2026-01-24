@@ -7,7 +7,11 @@ import {
   Router,
   RouterModule,
 } from '@angular/router';
-import { Serie, UserSerieSeason } from '../../../models/serie-model';
+import {
+  BaseSerieSeasonData,
+  Serie,
+  UserSerieSeason,
+} from '../../../models/serie-model';
 import { getSeriesByUser } from '../../../facades/series/series.facade';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
@@ -17,6 +21,15 @@ import { AuthService } from '../../../core/auth.service';
 type EditSerieForm = {
   seasons: UserSerieSeason[];
   owned: boolean;
+};
+
+type EditSerieEntityForm = {
+  actors: string;
+  coverUrl: string;
+  releaseDate: string;
+  endDate: string;
+  genre: string;
+  seasonsData: BaseSerieSeasonData[];
 };
 
 type EditSerieDialogData = {
@@ -49,9 +62,11 @@ export class EditSerieComponent {
 
   readonly serie = signal<Serie | null>(null);
   readonly serieForm = signal<EditSerieForm | null>(null);
+  readonly serieEntityForm = signal<EditSerieEntityForm | null>(null);
   readonly serieNotFound = signal<boolean>(false);
   readonly isSaving = signal<boolean>(false);
   readonly isDeleting = signal<boolean>(false);
+  readonly isAdmin = computed(() => this.authService.isAdmin());
 
   readonly serieSlug = computed(() => {
     return this.activatedRoute.snapshot.paramMap.get('slug') || '';
@@ -61,6 +76,7 @@ export class EditSerieComponent {
     if (this.dialogData?.serie) {
       this.serie.set(this.dialogData.serie);
       this.serieForm.set(this.toForm(this.dialogData.serie));
+      this.serieEntityForm.set(this.toEntityForm(this.dialogData.serie));
       this.serieNotFound.set(false);
       return;
     }
@@ -90,6 +106,9 @@ export class EditSerieComponent {
           director: serie.director,
           seasons: form.seasons,
           owned: form.owned,
+          entity: this.isAdmin()
+            ? this.toEntityPayload(this.serieEntityForm())
+            : undefined,
         }),
       });
 
@@ -184,6 +203,7 @@ export class EditSerieComponent {
 
     this.serie.set(matched);
     this.serieForm.set(this.toForm(matched));
+    this.serieEntityForm.set(this.toEntityForm(matched));
     this.serieNotFound.set(false);
   }
 
@@ -203,12 +223,73 @@ export class EditSerieComponent {
     };
   }
 
+  private toEntityForm(serie: Serie): EditSerieEntityForm {
+    return {
+      actors: (serie.actors || []).map((actor) => actor.name).join(', '),
+      coverUrl: serie.coverUrl,
+      releaseDate: serie.releaseDate,
+      endDate: serie.endDate,
+      genre: serie.genre,
+      seasonsData: serie.seasonsData || [],
+    };
+  }
+
+  private toEntityPayload(form: EditSerieEntityForm | null) {
+    if (!form) return undefined;
+    return {
+      actors: form.actors
+        .split(',')
+        .map((name) => name.trim())
+        .filter(Boolean),
+      coverUrl: form.coverUrl,
+      releaseDate: form.releaseDate,
+      endDate: form.endDate,
+      genre: form.genre,
+      seasonsData: form.seasonsData,
+    };
+  }
+
   updateCheckbox(field: 'owned', checked: boolean) {
     const current = this.serieForm();
     if (!current) return;
     this.serieForm.set({
       ...current,
       [field]: checked,
+    });
+  }
+
+  updateEntityField<K extends keyof EditSerieEntityForm>(
+    field: K,
+    value: string
+  ) {
+    const current = this.serieEntityForm();
+    if (!current) return;
+    this.serieEntityForm.set({
+      ...current,
+      [field]: value,
+    });
+  }
+
+  updateSeasonDataField(
+    seasonNumber: number,
+    field: 'nbEpisodes' | 'totalLength',
+    value: string | number
+  ) {
+    const current = this.serieEntityForm();
+    if (!current) return;
+    const nextValue = Number(value);
+    const normalizedValue = Number.isNaN(nextValue) ? 0 : nextValue;
+    const nextSeasons = current.seasonsData.map((season) =>
+      season.seasonNumber === seasonNumber
+        ? {
+            ...season,
+            [field]: normalizedValue,
+          }
+        : season
+    );
+    this.serieEntityForm.set({
+      ...current,
+      seasonsData: nextSeasons,
     });
   }
 

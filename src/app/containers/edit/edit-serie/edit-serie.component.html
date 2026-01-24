@@ -103,6 +103,100 @@
       />
     </div>
 
+    @if (isAdmin() && serieEntityForm()) {
+    <div class="form-row">
+      <label for="entityActors">Acteurs (séparés par des virgules)</label>
+      <input
+        id="entityActors"
+        type="text"
+        [ngModel]="serieEntityForm()?.actors"
+        (ngModelChange)="updateEntityField('actors', $event)"
+        name="entityActors"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityReleaseDate">Date de sortie</label>
+      <input
+        id="entityReleaseDate"
+        type="date"
+        [ngModel]="serieEntityForm()?.releaseDate"
+        (ngModelChange)="updateEntityField('releaseDate', $event)"
+        name="entityReleaseDate"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityEndDate">Date de fin</label>
+      <input
+        id="entityEndDate"
+        type="date"
+        [ngModel]="serieEntityForm()?.endDate"
+        (ngModelChange)="updateEntityField('endDate', $event)"
+        name="entityEndDate"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityGenre">Genre</label>
+      <input
+        id="entityGenre"
+        type="text"
+        [ngModel]="serieEntityForm()?.genre"
+        (ngModelChange)="updateEntityField('genre', $event)"
+        name="entityGenre"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityCoverUrl">Cover URL</label>
+      <input
+        id="entityCoverUrl"
+        type="text"
+        [ngModel]="serieEntityForm()?.coverUrl"
+        (ngModelChange)="updateEntityField('coverUrl', $event)"
+        name="entityCoverUrl"
+      />
+    </div>
+
+    @if (serieEntityForm()?.seasonsData?.length) {
+    <div class="form-row">
+      <label>Données des saisons</label>
+      <div class="season-form-grid">
+        @for (season of serieEntityForm()?.seasonsData; track season.seasonNumber) {
+        <div class="season-form-card">
+          <div class="season-form-title">Saison {{ season.seasonNumber }}</div>
+          <label>
+            Épisodes
+            <input
+              type="number"
+              min="0"
+              [ngModel]="season.nbEpisodes"
+              (ngModelChange)="
+                updateSeasonDataField(season.seasonNumber, 'nbEpisodes', $event)
+              "
+              name="seasonNbEpisodes-{{ season.seasonNumber }}"
+            />
+          </label>
+          <label>
+            Durée totale (minutes)
+            <input
+              type="number"
+              min="0"
+              [ngModel]="season.totalLength"
+              (ngModelChange)="
+                updateSeasonDataField(season.seasonNumber, 'totalLength', $event)
+              "
+              name="seasonTotalLength-{{ season.seasonNumber }}"
+            />
+          </label>
+        </div>
+        }
+      </div>
+    </div>
+    }
+    }
+
     <div class="form-actions">
       <button type="submit" class="submit-btn" [disabled]="isSaving()">
         Modifier

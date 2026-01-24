@@ -125,6 +125,64 @@
       />
     </div>
 
+    @if (isAdmin() && movieEntityForm()) {
+    <div class="form-row">
+      <label for="entityActors">Acteurs (séparés par des virgules)</label>
+      <input
+        id="entityActors"
+        type="text"
+        [ngModel]="movieEntityForm()?.actors"
+        (ngModelChange)="updateEntityField('actors', $event)"
+        name="entityActors"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityReleaseDate">Date de sortie</label>
+      <input
+        id="entityReleaseDate"
+        type="date"
+        [ngModel]="movieEntityForm()?.releaseDate"
+        (ngModelChange)="updateEntityField('releaseDate', $event)"
+        name="entityReleaseDate"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityLength">Durée (minutes)</label>
+      <input
+        id="entityLength"
+        type="number"
+        min="0"
+        [ngModel]="movieEntityForm()?.length"
+        (ngModelChange)="updateEntityField('length', $event)"
+        name="entityLength"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityGenre">Genre</label>
+      <input
+        id="entityGenre"
+        type="text"
+        [ngModel]="movieEntityForm()?.genre"
+        (ngModelChange)="updateEntityField('genre', $event)"
+        name="entityGenre"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityCoverUrl">Cover URL</label>
+      <input
+        id="entityCoverUrl"
+        type="text"
+        [ngModel]="movieEntityForm()?.coverUrl"
+        (ngModelChange)="updateEntityField('coverUrl', $event)"
+        name="entityCoverUrl"
+      />
+    </div>
+    }
+
     <div class="form-actions">
       <button type="submit" class="submit-btn" [disabled]="isSaving()">
         Modifier

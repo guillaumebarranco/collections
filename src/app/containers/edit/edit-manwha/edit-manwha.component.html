@@ -98,6 +98,65 @@
       />
     </div>
 
+    @if (isAdmin() && manwhaEntityForm()) {
+    <div class="form-row">
+      <label for="entityPages">Pages</label>
+      <input
+        id="entityPages"
+        type="number"
+        min="0"
+        [ngModel]="manwhaEntityForm()?.pages"
+        (ngModelChange)="updateEntityField('pages', $event)"
+        name="entityPages"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityGenre">Genre</label>
+      <input
+        id="entityGenre"
+        type="text"
+        [ngModel]="manwhaEntityForm()?.genre"
+        (ngModelChange)="updateEntityField('genre', $event)"
+        name="entityGenre"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityNbChapters">Nombre de chapitres</label>
+      <input
+        id="entityNbChapters"
+        type="number"
+        min="0"
+        [ngModel]="manwhaEntityForm()?.nbChapters"
+        (ngModelChange)="updateEntityField('nbChapters', $event)"
+        name="entityNbChapters"
+      />
+    </div>
+
+    <div class="form-row checkbox-row">
+      <label for="entityIsFinished">Série terminée</label>
+      <input
+        id="entityIsFinished"
+        type="checkbox"
+        [checked]="manwhaEntityForm()?.isFinished"
+        (change)="updateEntityCheckbox('isFinished', $any($event).target.checked)"
+        name="entityIsFinished"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityCoverUrl">Cover URL</label>
+      <input
+        id="entityCoverUrl"
+        type="text"
+        [ngModel]="manwhaEntityForm()?.coverUrl"
+        (ngModelChange)="updateEntityField('coverUrl', $event)"
+        name="entityCoverUrl"
+      />
+    </div>
+    }
+
     <div class="form-actions">
       <button type="submit" class="submit-btn" [disabled]="isSaving()">
         Modifier

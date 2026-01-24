@@ -23,6 +23,14 @@ type EditMovieForm = {
   owned: boolean;
 };
 
+type EditMovieEntityForm = {
+  actors: string;
+  coverUrl: string;
+  releaseDate: string;
+  length: number;
+  genre: string;
+};
+
 type EditMovieDialogData = {
   movie: Movie;
   userId?: string;
@@ -53,9 +61,11 @@ export class EditMovieComponent {
 
   readonly movie = signal<Movie | null>(null);
   readonly movieForm = signal<EditMovieForm | null>(null);
+  readonly movieEntityForm = signal<EditMovieEntityForm | null>(null);
   readonly movieNotFound = signal<boolean>(false);
   readonly isSaving = signal<boolean>(false);
   readonly isDeleting = signal<boolean>(false);
+  readonly isAdmin = computed(() => this.authService.isAdmin());
 
   readonly movieSlug = computed(() => {
     return this.activatedRoute.snapshot.paramMap.get('slug') || '';
@@ -65,6 +75,7 @@ export class EditMovieComponent {
     if (this.dialogData?.movie) {
       this.movie.set(this.dialogData.movie);
       this.movieForm.set(this.toForm(this.dialogData.movie));
+      this.movieEntityForm.set(this.toEntityForm(this.dialogData.movie));
       this.movieNotFound.set(false);
       return;
     }
@@ -96,6 +107,23 @@ export class EditMovieComponent {
     this.movieForm.set({
       ...current,
       [field]: checked,
+    });
+  }
+
+  updateEntityField<K extends keyof EditMovieEntityForm>(
+    field: K,
+    value: string | number
+  ) {
+    const current = this.movieEntityForm();
+    if (!current) return;
+    let nextValue: EditMovieEntityForm[K] = value as EditMovieEntityForm[K];
+    if (field === 'length') {
+      const asNumber = Number(value);
+      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditMovieEntityForm[K];
+    }
+    this.movieEntityForm.set({
+      ...current,
+      [field]: nextValue,
     });
   }
 
@@ -142,6 +170,9 @@ export class EditMovieComponent {
           lastViewedDate: form.lastViewedDate,
           seenAtCinema: form.seenAtCinema,
           owned: form.owned,
+          entity: this.isAdmin()
+            ? this.toEntityPayload(this.movieEntityForm())
+            : undefined,
         }),
       });
 
@@ -236,6 +267,7 @@ export class EditMovieComponent {
 
     this.movie.set(matched);
     this.movieForm.set(this.toForm(matched));
+    this.movieEntityForm.set(this.toEntityForm(matched));
     this.movieNotFound.set(false);
   }
 
@@ -256,6 +288,30 @@ export class EditMovieComponent {
       lastViewedDate: movie.lastViewedDate,
       seenAtCinema: movie.seenAtCinema,
       owned: movie.owned,
+    };
+  }
+
+  private toEntityForm(movie: Movie): EditMovieEntityForm {
+    return {
+      actors: (movie.actors || []).map((actor) => actor.name).join(', '),
+      coverUrl: movie.coverUrl,
+      releaseDate: movie.releaseDate,
+      length: movie.length,
+      genre: movie.genre,
+    };
+  }
+
+  private toEntityPayload(form: EditMovieEntityForm | null) {
+    if (!form) return undefined;
+    return {
+      actors: form.actors
+        .split(',')
+        .map((name) => name.trim())
+        .filter(Boolean),
+      coverUrl: form.coverUrl,
+      releaseDate: form.releaseDate,
+      length: form.length,
+      genre: form.genre,
     };
   }
 

@@ -21,6 +21,14 @@ type EditMangaForm = {
   owned: boolean;
 };
 
+type EditMangaEntityForm = {
+  pages: number;
+  genre: string;
+  nbTomes: number;
+  isFinished: boolean;
+  coverUrl: string;
+};
+
 type EditMangaDialogData = {
   manga: Manga;
   userId?: string;
@@ -51,9 +59,11 @@ export class EditMangaComponent {
 
   readonly manga = signal<Manga | null>(null);
   readonly mangaForm = signal<EditMangaForm | null>(null);
+  readonly mangaEntityForm = signal<EditMangaEntityForm | null>(null);
   readonly mangaNotFound = signal<boolean>(false);
   readonly isSaving = signal<boolean>(false);
   readonly isDeleting = signal<boolean>(false);
+  readonly isAdmin = computed(() => this.authService.isAdmin());
 
   readonly mangaSlug = computed(() => {
     return this.activatedRoute.snapshot.paramMap.get('slug') || '';
@@ -63,6 +73,7 @@ export class EditMangaComponent {
     if (this.dialogData?.manga) {
       this.manga.set(this.dialogData.manga);
       this.mangaForm.set(this.toForm(this.dialogData.manga));
+      this.mangaEntityForm.set(this.toEntityForm(this.dialogData.manga));
       this.mangaNotFound.set(false);
       return;
     }
@@ -92,6 +103,32 @@ export class EditMangaComponent {
     const current = this.mangaForm();
     if (!current) return;
     this.mangaForm.set({
+      ...current,
+      [field]: checked,
+    });
+  }
+
+  updateEntityField<K extends keyof EditMangaEntityForm>(
+    field: K,
+    value: string | number
+  ) {
+    const current = this.mangaEntityForm();
+    if (!current) return;
+    let nextValue: EditMangaEntityForm[K] = value as EditMangaEntityForm[K];
+    if (field !== 'genre' && field !== 'coverUrl') {
+      const asNumber = Number(value);
+      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditMangaEntityForm[K];
+    }
+    this.mangaEntityForm.set({
+      ...current,
+      [field]: nextValue,
+    });
+  }
+
+  updateEntityCheckbox(field: 'isFinished', checked: boolean) {
+    const current = this.mangaEntityForm();
+    if (!current) return;
+    this.mangaEntityForm.set({
       ...current,
       [field]: checked,
     });
@@ -138,6 +175,9 @@ export class EditMangaComponent {
           readTimes: form.readTimes,
           readDate: form.readDate,
           owned: form.owned,
+          entity: this.isAdmin()
+            ? this.toEntityPayload(this.mangaEntityForm())
+            : undefined,
         }),
       });
 
@@ -227,6 +267,7 @@ export class EditMangaComponent {
 
     this.manga.set(matched);
     this.mangaForm.set(this.toForm(matched));
+    this.mangaEntityForm.set(this.toEntityForm(matched));
     this.mangaNotFound.set(false);
   }
 
@@ -245,6 +286,27 @@ export class EditMangaComponent {
       readTimes: manga.readTimes || 0,
       readDate: manga.readDate,
       owned: manga.owned,
+    };
+  }
+
+  private toEntityForm(manga: Manga): EditMangaEntityForm {
+    return {
+      pages: manga.pages || 0,
+      genre: manga.genre || '',
+      nbTomes: manga.nbTomes || 0,
+      isFinished: manga.isFinished !== false,
+      coverUrl: manga.coverUrl || '',
+    };
+  }
+
+  private toEntityPayload(form: EditMangaEntityForm | null) {
+    if (!form) return undefined;
+    return {
+      pages: form.pages,
+      genre: form.genre,
+      nbTomes: form.nbTomes,
+      isFinished: form.isFinished,
+      coverUrl: form.coverUrl,
     };
   }
 

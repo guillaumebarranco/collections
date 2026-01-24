@@ -21,6 +21,15 @@ type EditBdForm = {
   owned: boolean;
 };
 
+type EditBdEntityForm = {
+  pages: number;
+  genre: string;
+  nbTomes: number;
+  isFinished: boolean;
+  writer: string;
+  coverUrl: string;
+};
+
 type EditBdDialogData = {
   bd: Bd;
   userId?: string;
@@ -51,9 +60,11 @@ export class EditBdComponent {
 
   readonly bd = signal<Bd | null>(null);
   readonly bdForm = signal<EditBdForm | null>(null);
+  readonly bdEntityForm = signal<EditBdEntityForm | null>(null);
   readonly bdNotFound = signal<boolean>(false);
   readonly isSaving = signal<boolean>(false);
   readonly isDeleting = signal<boolean>(false);
+  readonly isAdmin = computed(() => this.authService.isAdmin());
 
   readonly bdSlug = computed(() => {
     return this.activatedRoute.snapshot.paramMap.get('slug') || '';
@@ -63,6 +74,7 @@ export class EditBdComponent {
     if (this.dialogData?.bd) {
       this.bd.set(this.dialogData.bd);
       this.bdForm.set(this.toForm(this.dialogData.bd));
+      this.bdEntityForm.set(this.toEntityForm(this.dialogData.bd));
       this.bdNotFound.set(false);
       return;
     }
@@ -92,6 +104,32 @@ export class EditBdComponent {
     const current = this.bdForm();
     if (!current) return;
     this.bdForm.set({
+      ...current,
+      [field]: checked,
+    });
+  }
+
+  updateEntityField<K extends keyof EditBdEntityForm>(
+    field: K,
+    value: string | number
+  ) {
+    const current = this.bdEntityForm();
+    if (!current) return;
+    let nextValue: EditBdEntityForm[K] = value as EditBdEntityForm[K];
+    if (field !== 'genre' && field !== 'writer' && field !== 'coverUrl') {
+      const asNumber = Number(value);
+      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditBdEntityForm[K];
+    }
+    this.bdEntityForm.set({
+      ...current,
+      [field]: nextValue,
+    });
+  }
+
+  updateEntityCheckbox(field: 'isFinished', checked: boolean) {
+    const current = this.bdEntityForm();
+    if (!current) return;
+    this.bdEntityForm.set({
       ...current,
       [field]: checked,
     });
@@ -138,6 +176,9 @@ export class EditBdComponent {
           readTimes: form.readTimes,
           readDate: form.readDate,
           owned: form.owned,
+          entity: this.isAdmin()
+            ? this.toEntityPayload(this.bdEntityForm())
+            : undefined,
         }),
       });
 
@@ -227,6 +268,7 @@ export class EditBdComponent {
 
     this.bd.set(matched);
     this.bdForm.set(this.toForm(matched));
+    this.bdEntityForm.set(this.toEntityForm(matched));
     this.bdNotFound.set(false);
   }
 
@@ -245,6 +287,29 @@ export class EditBdComponent {
       readTimes: bd.readTimes || 0,
       readDate: bd.readDate,
       owned: bd.owned,
+    };
+  }
+
+  private toEntityForm(bd: Bd): EditBdEntityForm {
+    return {
+      pages: bd.pages || 0,
+      genre: bd.genre || '',
+      nbTomes: bd.nbTomes || 0,
+      isFinished: bd.isFinished !== false,
+      writer: bd.writer || '',
+      coverUrl: bd.coverUrl || '',
+    };
+  }
+
+  private toEntityPayload(form: EditBdEntityForm | null) {
+    if (!form) return undefined;
+    return {
+      pages: form.pages,
+      genre: form.genre,
+      nbTomes: form.nbTomes,
+      isFinished: form.isFinished,
+      writer: form.writer,
+      coverUrl: form.coverUrl,
     };
   }
 
