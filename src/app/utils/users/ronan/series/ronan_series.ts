@@ -2612,17 +2612,30 @@ export const ronanSeries: UserSerie[
     title: 'Assassination Classroom',
     director: 'Seiji Kishi',
     seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 0,
-        seasonTimesWatched: 0,
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 0,
-        seasonTimesWatched: 0,
-      }
-    ],
+    {
+      seasonNumber: 1,
+      seasonRating: 3.5,
+      seasonTimesWatched: 1,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 4,
+      seasonTimesWatched: 1,
+    }
+  ],
+    owned: false,
+  },
+
+  {
+    title: 'Soul Eater',
+    director: 'Takuya Igarashi',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 3.5,
+      seasonTimesWatched: 2,
+    }
+  ],
     owned: false,
   },
 ];

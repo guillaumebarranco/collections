@@ -192,4 +192,31 @@ export const baseSeriesApi: BaseSerie[] = [
       },
     ],
   },
+
+  {
+    title: 'Soul Eater',
+    director: 'Takuya Igarashi',
+    actors: [
+      {
+        name: 'Chiaki Omigawa',
+      },
+      {
+        name: 'Kôki Uchiyama',
+      },
+      {
+        name: 'Yumiko Kobayashi',
+      },
+    ],
+    coverUrl: 'https://m.media-amazon.com/images/M/MV5BNTJiOWM5NGMtZTdhYi00MmY3LTlhZGYtMjMwYTk2MTI4NGJlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2008-04-07',
+    endDate: '2009-03-30',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 51,
+        totalLength: 1224,
+      },
+    ],
+  },
 ];
