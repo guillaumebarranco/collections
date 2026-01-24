@@ -214,9 +214,8 @@ export class ComicsComponent implements OnInit {
   });
 
   stats = computed<StatItem[]>(() => {
-    const totalTomes = this.calculateTotalTomes();
+    const totalTomes = this.calculateTotalComics();
     const totalPages = this.calculateTotalPages();
-    const totalTomesRead = getTotalComicsTomesRead(this.filteredComics());
     const totalPagesRead = getTotalComicsPages(this.filteredComics());
     const estimatedReadingTime = getEstimatedComicsReadingTime(
       this.filteredComics()
@@ -224,7 +223,7 @@ export class ComicsComponent implements OnInit {
 
     return [
       {
-        label: 'Total des tomes',
+        label: 'Total des comics',
         value: `${totalTomes.toLocaleString()} tomes`,
         icon: '📚',
         color: StatItemColor.SUCCESS,
@@ -234,12 +233,6 @@ export class ComicsComponent implements OnInit {
         value: `${totalPages.toLocaleString()} pages`,
         icon: '📖',
         color: StatItemColor.INFO,
-      },
-      {
-        label: 'Total des tomes lus (avec relectures)',
-        value: `${totalTomesRead.toLocaleString()} tomes`,
-        icon: '📚',
-        color: StatItemColor.SUCCESS,
       },
       {
         label: 'Total des pages lues (avec relectures)',
@@ -319,12 +312,10 @@ export class ComicsComponent implements OnInit {
       .toLowerCase();
   }
 
-  private calculateTotalTomes(): number {
+  private calculateTotalComics(): number {
     let total = 0;
     for (const comic of this.filteredComics()) {
-      if (comic.nbTomes) {
-        total += comic.nbTomes;
-      }
+      total += 1;
     }
     return total;
   }
@@ -332,10 +323,9 @@ export class ComicsComponent implements OnInit {
   private calculateTotalPages(): number {
     let total = 0;
     for (const comic of this.filteredComics()) {
-      if (comic.nbTomes) {
-        total += comic.nbTomes * PAGES_PER_MANGA_TOME;
-      }
+      total += comic.pages || 0;
     }
+
     return total;
   }
 
