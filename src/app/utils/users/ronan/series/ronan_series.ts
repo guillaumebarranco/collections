@@ -590,12 +590,12 @@ export const ronanSeries: UserSerie[] = [
     title: 'The Defenders',
     director: 'Douglas Petrie, Marco Ramirez',
     seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 3,
-        seasonTimesWatched: 2,
-      },
-    ],
+    {
+      seasonNumber: 1,
+      seasonRating: 3,
+      seasonTimesWatched: 2,
+    }
+  ],
     owned: false,
   },
   {
@@ -2635,6 +2635,119 @@ export const ronanSeries: UserSerie[] = [
         seasonTimesWatched: 2,
       },
     ],
+    owned: false,
+  },
+
+  {
+    title: 'Full Metal Alchemist',
+    director: 'Seiji Mizushima',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 3.5,
+      seasonTimesWatched: 1,
+    }
+  ],
+    owned: false,
+  },
+
+  {
+    title: 'Fullmetal Alchemist: Brotherhood',
+    director: 'Yasuhiro Irie',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 4,
+      seasonTimesWatched: 1,
+    }
+  ],
+    owned: false,
+  },
+
+  {
+    title: 'Eyeshield 21',
+    director: 'Masayoshi Nishida',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 4,
+      seasonTimesWatched: 2,
+    }
+  ],
+    owned: false,
+  },
+
+  {
+    title: 'Galactik Football',
+    director: 'Charles Barrez, Vincent Vandelli',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 3.5,
+      seasonTimesWatched: 3,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 3,
+      seasonTimesWatched: 2,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+    owned: false,
+  },
+
+  {
+    title: 'La Légende de Korra',
+    director: 'Michael Dante DiMartino, Bryan Konietzko',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 3.5,
+      seasonTimesWatched: 3,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+    owned: false,
+  },
+
+  {
+    title: 'One Punch Man',
+    director: 'Shingo Natsume, Chikara Sakurai',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 3.5,
+      seasonTimesWatched: 1,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
     owned: false,
   },
 ];

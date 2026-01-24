@@ -7,7 +7,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Frankenstein',
@@ -15,7 +15,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: ' 2025-04-14',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Mort sur le Nil',
@@ -23,7 +23,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '2024-01-28',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: "L'Île au trésor",
@@ -31,7 +31,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Candide',
@@ -39,7 +39,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Viridia: Les racines du pouvoir',
@@ -47,7 +47,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '2025-05-08',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Le grand éveil',
@@ -95,7 +95,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '',
     readTimes: 2,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Les frontières de glace',
@@ -103,7 +103,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4.5,
     readDate: '',
     readTimes: 2,
-    owned: false,
+    owned: true,
   },
   {
     title: "L'île du destin",
@@ -111,7 +111,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4.5,
     readDate: '',
     readTimes: 2,
-    owned: false,
+    owned: true,
   },
   {
     title: 'La Forêt des captifs',
@@ -119,7 +119,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: "L'Œil d'Otolep",
@@ -127,7 +127,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4.5,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Les Tentacules du mal',
@@ -135,7 +135,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4.5,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Ellana',
@@ -143,7 +143,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: "Ellana, l'Envol",
@@ -151,7 +151,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4.5,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Ellana, la Prophétie',
@@ -159,7 +159,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4.5,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
@@ -167,7 +167,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: "Harry Potter à l'école des sorciers",
@@ -175,7 +175,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '',
     readTimes: 3,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Harry Potter et la Chambre des secrets',
@@ -183,7 +183,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '',
     readTimes: 3,
-    owned: false,
+    owned: true,
   },
   {
     title: "Harry Potter et le Prisonnier d'Azkaban",
@@ -191,7 +191,7 @@ export const ronanBooks: UserBook[] = [
     rating: 5,
     readDate: '',
     readTimes: 3,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Harry Potter et la Coupe de feu',
@@ -199,7 +199,7 @@ export const ronanBooks: UserBook[] = [
     rating: 5,
     readDate: '',
     readTimes: 3,
-    owned: false,
+    owned: true,
   },
   {
     title: "Harry Potter et l'Ordre du Phénix",
@@ -207,7 +207,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '',
     readTimes: 3,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Harry Potter et le Prince de sang-mêlé',
@@ -215,7 +215,7 @@ export const ronanBooks: UserBook[] = [
     rating: 5,
     readDate: '',
     readTimes: 3,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Harry Potter et les Reliques de la Mort',
@@ -223,7 +223,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '',
     readTimes: 3,
-    owned: false,
+    owned: true,
   },
   {
     title: "Harry Potter et l'Enfant maudit",
@@ -239,7 +239,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '',
     readTimes: 3,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Tentation',
@@ -247,7 +247,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '',
     readTimes: 3,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Hésitation',
@@ -255,7 +255,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '',
     readTimes: 3,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Révélation',
@@ -263,7 +263,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '',
     readTimes: 3,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Midnight Sun',
@@ -271,7 +271,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Le Voleur de foudre',
@@ -279,7 +279,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '',
     readTimes: 3,
-    owned: false,
+    owned: true,
   },
   {
     title: 'La Mer des monstres',
@@ -287,7 +287,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '',
     readTimes: 3,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Le Sort du titan',
@@ -295,7 +295,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '',
     readTimes: 3,
-    owned: false,
+    owned: true,
   },
   {
     title: 'La Bataille du labyrinthe',
@@ -303,7 +303,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '',
     readTimes: 3,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Le Dernier Olympien',
@@ -311,7 +311,7 @@ export const ronanBooks: UserBook[] = [
     rating: 5,
     readDate: '',
     readTimes: 3,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Les Mobilisés',
@@ -319,7 +319,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Les Effacés',
@@ -327,7 +327,7 @@ export const ronanBooks: UserBook[] = [
     rating: 5,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Les Éveillés',
@@ -335,7 +335,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '2024-11-23',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Inside Mac: Tome 1',
@@ -359,7 +359,7 @@ export const ronanBooks: UserBook[] = [
     rating: 2,
     readDate: '2025-10-22',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: "Héros de l'Olympe, tome 1 : Le héros perdu",
@@ -399,7 +399,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '2026-01-10',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title:
@@ -408,7 +408,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '2026-01-14',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Les disparus du phare de Tévennec',
@@ -416,7 +416,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '2026-01-04',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: "Le sang de l'Olympe (Héros de l'Olympe #5)",
@@ -464,7 +464,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '',
     readTimes: 2,
-    owned: false,
+    owned: true,
   },
   {
     title: "Le réveil (Journal d'un vampire, #1)",
@@ -472,7 +472,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '',
     readTimes: 2,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Le fantôme de Canterville',
@@ -488,7 +488,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Arthur et la cité interdite (Arthur et les Minimoys, #2)',
@@ -520,7 +520,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'La Cour des Ouragans (Vampyria : le cycle de Jeanne, #3)',
@@ -528,7 +528,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'La Cour des ténèbres (Vampyria : le cycle de Jeanne, #1)',
@@ -536,7 +536,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'La Planète des singes',
@@ -544,7 +544,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: "Le Miroir d'ambre (À la croisée des mondes, #3)",
@@ -552,7 +552,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '',
     readTimes: 2,
-    owned: false,
+    owned: true,
   },
   {
     title: 'La Tour des anges (A la croisée des mondes, #2)',
@@ -560,7 +560,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '',
     readTimes: 2,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Les Royaumes du Nord (À la croisée des mondes, #1)',
@@ -568,7 +568,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '',
     readTimes: 2,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Genèse (Autre-Monde, #7)',
@@ -576,7 +576,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Neverland (Autre-Monde, #6)',
@@ -584,7 +584,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Oz (Autre-Monde, #5)',
@@ -592,7 +592,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Entropia (Autre Monde, #4)',
@@ -600,7 +600,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Le Cœur de la Terre (Autre-Monde, #3)',
@@ -608,7 +608,7 @@ export const ronanBooks: UserBook[] = [
     rating: 5,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Malronce (Autre-Monde, #2)',
@@ -616,7 +616,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: "L'Alliance des Trois (Autre-Monde, #1)",
@@ -624,7 +624,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Le Silmarillon',
@@ -632,7 +632,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Bilbo le Hobbit',
@@ -640,7 +640,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Les deux tours',
@@ -648,7 +648,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Le retour du roi',
@@ -656,7 +656,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'La Dame du lac (The Witcher, #7)',
@@ -664,7 +664,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Le temps du mépris (The Witcher, #4)',
@@ -672,7 +672,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Le sang des elfes (The Witcher, #3)',
@@ -680,7 +680,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: "L'épée de la providence (The Witcher, #2)",
@@ -688,7 +688,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Sword of Destiny (The Witcher, #0.7)',
@@ -696,7 +696,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Le dernier voeu (The Witcher, #1)',
@@ -704,7 +704,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'The Last Wish (The Witcher, #0.5)',
@@ -712,7 +712,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'The Invisible Life of Addie LaRue',
@@ -720,7 +720,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: "L'héritage (Eragon, #4)",
@@ -728,7 +728,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Brisingr (Eragon, #3)',
@@ -736,7 +736,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: "L'aîné (Eragon, #2)",
@@ -744,7 +744,7 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Eragon (Eragon, #1)',
@@ -752,7 +752,7 @@ export const ronanBooks: UserBook[] = [
     rating: 5,
     readDate: '',
     readTimes: 2,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Et ils meurent tous les deux à la fin',
@@ -760,7 +760,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '2023-01-21',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'La Maison au milieu de la Mer Céruléenne (Cerulean Chronicles, #1)',
@@ -768,7 +768,7 @@ export const ronanBooks: UserBook[] = [
     rating: 3,
     readDate: '',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Azincourt par temps de pluie',
@@ -776,6 +776,6 @@ export const ronanBooks: UserBook[] = [
     rating: 4,
     readDate: '2023-01-09',
     readTimes: 1,
-    owned: false,
+    owned: true,
   },
 ];

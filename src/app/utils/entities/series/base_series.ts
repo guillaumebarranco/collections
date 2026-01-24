@@ -3858,7 +3858,7 @@ export const baseSeries: BaseSerie[] = [
       },
       {
         name: 'Mike Colter',
-      },
+      }
     ],
     coverUrl: '/series_pictures/488673.jpg',
     releaseDate: '2017-08-18',
@@ -3867,9 +3867,9 @@ export const baseSeries: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 32,
-        totalLength: 1920,
-      },
+        nbEpisodes: 8,
+        totalLength: 398,
+      }
     ],
   },
   {
