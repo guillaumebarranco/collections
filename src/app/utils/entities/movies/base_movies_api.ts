@@ -77,4 +77,27 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 89,
     genre: 'Animation',
   },
+
+  {
+    title: 'La Cité de Dieu',
+    director: 'Fernando Meirelles, Kátia Lund',
+    actors: [
+      {
+        name: 'Alexandre Rodrigues',
+      },
+      {
+        name: 'Douglas Silva',
+      },
+      {
+        name: 'Phellipe Haagensen',
+      },
+      {
+        name: 'Alice Braga',
+      },
+    ],
+    coverUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRUF-9ldYv9BNDIT7jNsjU201nYWxxdJyZYXYVMz985iz9C32yYFX0mgvyRa3_sAwKe_FmthIQisHzgSMFaP4hrGlsre5zVY3SLag06rY&s=10',
+    releaseDate: '2002-08-30',
+    length: 130,
+    genre: 'Drame',
+  },
 ];

@@ -9742,4 +9742,15 @@ export const ronanMovies: UserMovie[] = [
     seenAtCinema: true,
     owned: false,
   },
+
+  {
+    title: 'La Cité de Dieu',
+    director: 'Fernando Meirelles, Kátia Lund',
+    rating: 2,
+    timesWatched: 1,
+    firstViewedDate: '2026-01-21',
+    lastViewedDate: '2026-01-21',
+    seenAtCinema: false,
+    owned: false,
+  },
 ];

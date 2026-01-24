@@ -201,4 +201,13 @@ export const ronanMangas: UserManga[] = [
     readTimes: 1,
     owned: false,
   },
+
+  {
+    title: 'Fairy Tail',
+    author: 'Hiro Mashima',
+    readDate: '',
+    rating: 4,
+    readTimes: 1,
+    owned: true,
+  },
 ];
