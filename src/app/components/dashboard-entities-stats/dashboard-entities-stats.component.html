@@ -28,9 +28,19 @@
       </div>
       }
     </div>
-    }
-
-    @if (stats().topActors && stats().topActors!.length > 0) {
+    } @if (selectedEntity() === 'books') {
+    <div class="stats-section stats-section--wide">
+      <h3>📖 Livres lus par an (2000-{{ currentYear }})</h3>
+      @if (booksReadTotal() === 0) {
+      <div class="no-data">Aucun livre lu depuis 2000.</div>
+      } @else {
+      <div #booksReadChart class="books-chart"></div>
+      <div class="chart-footnote">
+        Total: {{ booksReadTotal() }} livre(s) lus
+      </div>
+      }
+    </div>
+    } @if (stats().topActors && stats().topActors!.length > 0) {
     <div class="stats-section">
       <h3>{{ getStatsLabel("topActors") }}</h3>
       <div class="stats-list">

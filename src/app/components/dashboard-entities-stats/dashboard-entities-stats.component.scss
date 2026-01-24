@@ -71,9 +71,11 @@
     grid-column: 1 / -1;
   }
 
-  .cinema-chart {
+  .cinema-chart,
+  .books-chart {
     width: 100%;
     min-height: 260px;
+    position: relative;
 
     svg {
       width: 100%;
@@ -88,6 +90,20 @@
     .cinema-grid path {
       stroke: transparent;
     }
+  }
+
+  :host ::ng-deep .chart-tooltip {
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    background: #212529;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    transform: translateY(-50%);
+    transition: opacity 0.1s ease;
   }
 
   .chart-footnote {

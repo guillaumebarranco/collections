@@ -10,7 +10,10 @@ import {
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Params } from '@angular/router';
-import * as d3 from 'd3';
+import {
+  renderBooksReadChart,
+  renderMoviesCinemaChart,
+} from '../../utils/graph.utils';
 import { Movie } from '../../models/movie-model';
 import { Serie } from '../../models/serie-model';
 import { Book } from '../../models/book-model';
@@ -82,6 +85,9 @@ export class DashboardEntitiesStatsComponent implements OnInit, AfterViewInit {
 
   @ViewChild('moviesCinemaChart')
   moviesCinemaChart?: ElementRef<HTMLDivElement>;
+
+  @ViewChild('booksReadChart')
+  booksReadChart?: ElementRef<HTMLDivElement>;
 
   currentYear = new Date().getFullYear();
 
@@ -171,6 +177,35 @@ export class DashboardEntitiesStatsComponent implements OnInit, AfterViewInit {
 
   moviesCinemaTotal = computed(() => {
     return this.moviesCinemaByYear().reduce((sum, item) => sum + item.count, 0);
+  });
+
+  booksReadByYear = computed(() => {
+    const startYear = 2000;
+    const endYear = this.currentYear;
+    const years = Array.from(
+      { length: endYear - startYear + 1 },
+      (_, index) => startYear + index
+    );
+    const counts = new Map<number, number>();
+    years.forEach((year) => counts.set(year, 0));
+
+    const uniqueBooks = this.getUniqueBooks(this.allBooks());
+    uniqueBooks.forEach((book) => {
+      const year = this.getBookReadYear(book);
+      if (year === null || year < startYear || year > endYear) {
+        return;
+      }
+      counts.set(year, (counts.get(year) || 0) + 1);
+    });
+
+    return years.map((year) => ({
+      year,
+      count: counts.get(year) || 0,
+    }));
+  });
+
+  booksReadTotal = computed(() => {
+    return this.booksReadByYear().reduce((sum, item) => sum + item.count, 0);
   });
 
   private getMoviesStats(): EntityStats {
@@ -442,6 +477,9 @@ export class DashboardEntitiesStatsComponent implements OnInit, AfterViewInit {
     if (entity === 'movies') {
       requestAnimationFrame(() => this.renderMoviesCinemaChart());
     }
+    if (entity === 'books') {
+      requestAnimationFrame(() => this.renderBooksReadChart());
+    }
   }
 
   getEntityLabel(entity: EntityType): string {
@@ -483,6 +521,7 @@ export class DashboardEntitiesStatsComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit() {
     requestAnimationFrame(() => this.renderMoviesCinemaChart());
+    requestAnimationFrame(() => this.renderBooksReadChart());
   }
 
   private async loadMoviesData() {
@@ -498,6 +537,9 @@ export class DashboardEntitiesStatsComponent implements OnInit, AfterViewInit {
     const userId = this.userId() || 'guillaume';
     const books = await getAllBooks(userId);
     this.booksList.set(books);
+    if (this.selectedEntity() === 'books') {
+      requestAnimationFrame(() => this.renderBooksReadChart());
+    }
   }
 
   private async loadSeriesData() {
@@ -539,6 +581,15 @@ export class DashboardEntitiesStatsComponent implements OnInit, AfterViewInit {
     });
   }
 
+  private getUniqueBooks(books: Book[]): Book[] {
+    return Array.from(new Set(books.map((b) => `${b.title}|${b.author}`))).map(
+      (key) => {
+        const [title, author] = key.split('|');
+        return books.find((b) => b.title === title && b.author === author)!;
+      }
+    );
+  }
+
   private getMovieViewedYear(movie: Movie): number | null {
     const dateValue = movie.firstViewedDate || movie.lastViewedDate;
     if (!dateValue) {
@@ -551,86 +602,38 @@ export class DashboardEntitiesStatsComponent implements OnInit, AfterViewInit {
     return year;
   }
 
+  private getBookReadYear(book: Book): number | null {
+    if (!book.readDate) {
+      return null;
+    }
+    const year = new Date(book.readDate).getFullYear();
+    if (Number.isNaN(year)) {
+      return null;
+    }
+    return year;
+  }
+
   private renderMoviesCinemaChart(): void {
     if (this.selectedEntity() !== 'movies') {
       return;
     }
     const container = this.moviesCinemaChart?.nativeElement;
-    if (!container || this.moviesCinemaTotal() === 0) {
+    renderMoviesCinemaChart(
+      container,
+      this.moviesCinemaTotal(),
+      this.moviesCinemaByYear()
+    );
+  }
+
+  private renderBooksReadChart(): void {
+    if (this.selectedEntity() !== 'books') {
       return;
     }
-
-    const data = this.moviesCinemaByYear();
-    const containerWidth = container.clientWidth || 600;
-    const width = Math.max(containerWidth, 320);
-    const height = 260;
-    const margin = { top: 10, right: 20, bottom: 35, left: 40 };
-
-    d3.select(container).selectAll('*').remove();
-
-    const svg = d3
-      .select(container)
-      .append('svg')
-      .attr('viewBox', `0 0 ${width} ${height}`)
-      .attr('preserveAspectRatio', 'xMinYMin meet');
-
-    const x = d3
-      .scaleBand<string>()
-      .domain(data.map((d: any) => d.year.toString()))
-      .range([margin.left, width - margin.right])
-      .padding(0.15);
-
-    const maxCount = Math.max(1, d3.max(data, (d: any) => d.count) || 1);
-    const y = d3
-      .scaleLinear()
-      .domain([0, maxCount])
-      .nice()
-      .range([height - margin.bottom, margin.top]);
-
-    svg
-      .append('g')
-      .attr('class', 'cinema-grid')
-      .attr('transform', `translate(${margin.left},0)`)
-      .call(
-        d3
-          .axisLeft(y)
-          .ticks(5)
-          .tickSize(-(width - margin.left - margin.right))
-          .tickFormat(() => '')
-      );
-
-    svg
-      .append('g')
-      .attr('class', 'cinema-bars')
-      .selectAll('rect')
-      .data(data)
-      .join('rect')
-      .attr('x', (d: any) => x(d.year.toString()) || 0)
-      .attr('y', (d) => y(d.count))
-      .attr('height', (d) => y(0) - y(d.count))
-      .attr('width', x.bandwidth())
-      .attr('rx', 3)
-      .attr('fill', '#007bff');
-
-    svg
-      .append('g')
-      .attr('transform', `translate(0,${height - margin.bottom})`)
-      .call(
-        d3
-          .axisBottom(x)
-          .tickValues(
-            data
-              .filter((_, index) => index % 2 === 0)
-              .map((item) => item.year.toString())
-          )
-      )
-      .selectAll('text')
-      .attr('transform', 'rotate(-25)')
-      .style('text-anchor', 'end');
-
-    svg
-      .append('g')
-      .attr('transform', `translate(${margin.left},0)`)
-      .call(d3.axisLeft(y).ticks(5).tickFormat(d3.format('d')));
+    const container = this.booksReadChart?.nativeElement;
+    renderBooksReadChart(
+      container,
+      this.booksReadTotal(),
+      this.booksReadByYear()
+    );
   }
 }
