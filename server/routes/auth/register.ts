@@ -34,11 +34,12 @@ router.post('/register', (req: any, res: any) => {
         username,
         passwordHash: hash,
         passwordSalt: salt,
+        admin: false,
       });
     }
 
     saveUsers(users);
-    res.json({ ok: true, username });
+    res.json({ ok: true, username, admin: false });
   } catch (error: any) {
     res.status(500).json({ error: error.message || 'Unknown error' });
   }

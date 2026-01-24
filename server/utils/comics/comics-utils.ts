@@ -290,6 +290,66 @@ function updateComicInFile(filePath: string, comicData: any): boolean {
   return true;
 }
 
+function updateBaseComicInFile(filePath: string, comicData: any): boolean {
+  const content = fs.readFileSync(filePath, 'utf8');
+  const comics = parseBaseComicsFullFromFile(content);
+  const index = comics.findIndex(
+    (comic) =>
+      comic.title === comicData.title && comic.designer === comicData.designer
+  );
+
+  if (index === -1) {
+    return false;
+  }
+
+  comics[index] = {
+    ...comics[index],
+    ...comicData,
+  };
+
+  const newArrayContent = comics
+    .map(
+      (comic) => `  {
+    title: '${escapeString(comic.title)}',
+    designer: '${escapeString(comic.designer)}',
+    writer: '${escapeString(comic.writer || '')}',
+    coverUrl: '${escapeString(comic.coverUrl || '')}',
+    pages: ${comic.pages ?? 0},
+    genre: '${escapeString(comic.genre || '')}',
+    nbTomes: ${comic.nbTomes ?? 0},
+    isFinished: ${comic.isFinished ?? false},
+  }`
+    )
+    .join(',\n');
+
+  const exportIndex = content.indexOf('export const');
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
+    throw new Error('Array bounds not found');
+  }
+  const { arrayStart, arrayEnd } = bounds;
+
+  const newContent =
+    content.slice(0, arrayStart + 1) +
+    '\n' +
+    newArrayContent +
+    '\n' +
+    content.slice(arrayEnd);
+
+  fs.writeFileSync(filePath, newContent, 'utf8');
+  return true;
+}
+
+function updateBaseComicInFiles(payload: any) {
+  const baseFiles = getBaseComicsFiles();
+  for (const filePath of baseFiles) {
+    if (updateBaseComicInFile(filePath, payload)) {
+      return filePath;
+    }
+  }
+  return null;
+}
+
 function removeComicFromFile(content: string, payload: any): string {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
@@ -374,6 +434,7 @@ module.exports = {
   appendObjectToArrayFile,
   baseComicExists,
   updateComicInFile,
+  updateBaseComicInFiles,
   removeComicFromFile,
   getUserComicsFiles,
   getUserReadlistComicsFiles,

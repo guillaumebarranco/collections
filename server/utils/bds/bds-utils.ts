@@ -289,6 +289,65 @@ function updateBdInFile(filePath: string, bdData: any): boolean {
   return true;
 }
 
+function updateBaseBdInFile(filePath: string, bdData: any): boolean {
+  const content = fs.readFileSync(filePath, 'utf8');
+  const bds = parseBaseBdsFullFromFile(content);
+  const index = bds.findIndex(
+    (bd) => bd.title === bdData.title && bd.designer === bdData.designer
+  );
+
+  if (index === -1) {
+    return false;
+  }
+
+  bds[index] = {
+    ...bds[index],
+    ...bdData,
+  };
+
+  const newArrayContent = bds
+    .map(
+      (bd) => `  {
+    title: '${escapeString(bd.title)}',
+    designer: '${escapeString(bd.designer)}',
+    writer: '${escapeString(bd.writer || '')}',
+    coverUrl: '${escapeString(bd.coverUrl || '')}',
+    pages: ${bd.pages ?? 0},
+    genre: '${escapeString(bd.genre || '')}',
+    nbTomes: ${bd.nbTomes ?? 0},
+    isFinished: ${bd.isFinished ?? false},
+  }`
+    )
+    .join(',\n');
+
+  const exportIndex = content.indexOf('export const');
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
+    throw new Error('Array bounds not found');
+  }
+  const { arrayStart, arrayEnd } = bounds;
+
+  const newContent =
+    content.slice(0, arrayStart + 1) +
+    '\n' +
+    newArrayContent +
+    '\n' +
+    content.slice(arrayEnd);
+
+  fs.writeFileSync(filePath, newContent, 'utf8');
+  return true;
+}
+
+function updateBaseBdInFiles(payload: any) {
+  const baseFiles = getBaseBdsFiles();
+  for (const filePath of baseFiles) {
+    if (updateBaseBdInFile(filePath, payload)) {
+      return filePath;
+    }
+  }
+  return null;
+}
+
 function removeBdFromFile(content: string, payload: any): string {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
@@ -372,6 +431,7 @@ module.exports = {
   appendObjectToArrayFile,
   baseBdExists,
   updateBdInFile,
+  updateBaseBdInFiles,
   removeBdFromFile,
   getUserBdsFiles,
   getUserReadlistBdsFiles,

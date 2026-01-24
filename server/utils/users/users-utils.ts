@@ -21,6 +21,13 @@ function parseStringField(objectText: string, key: string) {
   return match[2].replace(new RegExp(`\\\\${quote}`, 'g'), quote);
 }
 
+function parseBooleanField(objectText: string, key: string) {
+  const regex = new RegExp(`${key}\\s*:\\s*(true|false)`);
+  const match = objectText.match(regex);
+  if (!match) return null;
+  return match[1] === 'true';
+}
+
 function escapeString(value: string): string {
   return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
 }
@@ -55,6 +62,7 @@ function parseUsersFromFile(content: string): any[] {
             username,
             passwordHash: parseStringField(objectText, 'passwordHash') || '',
             passwordSalt: parseStringField(objectText, 'passwordSalt') || '',
+            admin: parseBooleanField(objectText, 'admin') ?? false,
           });
         }
       }
@@ -78,6 +86,7 @@ function saveUsers(users: any[]) {
     username: '${escapeString(user.username)}',
     passwordHash: '${escapeString(user.passwordHash || '')}',
     passwordSalt: '${escapeString(user.passwordSalt || '')}',
+    admin: ${user.admin ? 'true' : 'false'},
   }`
     )
     .join(',\n');
@@ -99,11 +108,17 @@ function findUser(username: string) {
   return { user, users, normalized };
 }
 
+function isAdminUser(username: string) {
+  const { user } = findUser(username);
+  return Boolean(user && user.admin);
+}
+
 module.exports = {
   USERS_FILE,
   loadUsers,
   saveUsers,
   findUser,
+  isAdminUser,
   normalizeUsername,
 };
 

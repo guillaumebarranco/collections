@@ -5,8 +5,10 @@ const {
   normalizeBoolean,
   normalizeString,
   updateMovieInFile,
+  updateBaseMovieInFiles,
   getUserMoviesFiles,
 } = require('../../utils/movies/movies-utils');
+const { isAdminUser } = require('../../utils/users/users-utils');
 
 const router = express.Router();
 
@@ -41,6 +43,12 @@ router.post('/', (req: any, res: any) => {
       owned: normalizeBoolean(input.owned, 'owned'),
     };
 
+    const entityPayload = input.entity || null;
+    if (entityPayload && !isAdminUser(userId)) {
+      res.status(403).json({ error: 'Admin required to edit entity data' });
+      return;
+    }
+
     const movieFiles = getUserMoviesFiles(userId);
     let updatedFile: string | null = null;
 
@@ -63,10 +71,26 @@ router.post('/', (req: any, res: any) => {
       return;
     }
 
+    let baseUpdatedFile: string | null = null;
+    if (entityPayload) {
+      baseUpdatedFile = updateBaseMovieInFiles({
+        title,
+        director,
+        actors: Array.isArray(entityPayload.actors)
+          ? entityPayload.actors
+          : undefined,
+        coverUrl: normalizeString(entityPayload.coverUrl, 'coverUrl'),
+        releaseDate: normalizeString(entityPayload.releaseDate, 'releaseDate'),
+        length: normalizeNumber(entityPayload.length, 'length'),
+        genre: normalizeString(entityPayload.genre, 'genre'),
+      });
+    }
+
     res.json({
       ok: true,
       movie: { title: payload.title, director: payload.director },
       file: updatedFile,
+      baseFile: baseUpdatedFile,
     });
 
     console.log(

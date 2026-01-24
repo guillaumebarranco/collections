@@ -395,6 +395,74 @@ function replaceField(objectText: string, key: string, value: any) {
   return next;
 }
 
+function upsertField(objectText: string, key: string, value: any) {
+  if (value === undefined) return objectText;
+  let next = objectText;
+  if (typeof value === 'string') {
+    const regex = new RegExp(`(${key}\\s*:\\s*)(['"])((?:\\\\.|(?!\\2).)*)\\2`);
+    if (regex.test(next)) {
+      return replaceField(next, key, value);
+    }
+    const escaped = escapeString(value);
+    return next.replace(
+      /\}\s*$/,
+      `    ${key}: '${escaped}',\n  }`
+    );
+  }
+  if (typeof value === 'boolean' || typeof value === 'number') {
+    const regex = new RegExp(`(${key}\\s*:\\s*)([^,\\n]+)`);
+    if (regex.test(next)) {
+      return replaceField(next, key, value);
+    }
+    return next.replace(/\}\s*$/, `    ${key}: ${value},\n  }`);
+  }
+  return next;
+}
+
+function formatActors(actors: string[]) {
+  const items = actors.map(
+    (name) => `      {\n        name: '${escapeString(name)}',\n      }`
+  );
+  return `actors: [\n${items.join(',\n')}\n    ]`;
+}
+
+function upsertActorsField(objectText: string, actors: string[] | undefined) {
+  if (!actors) return objectText;
+  const normalized = actors.filter((name) => name.trim().length > 0);
+  const block = formatActors(normalized);
+  const regex = /actors\s*:\s*\[[\s\S]*?\]/;
+  if (regex.test(objectText)) {
+    return objectText.replace(regex, block);
+  }
+  return objectText.replace(/\}\s*$/, `    ${block},\n  }`);
+}
+
+function formatSeasonsData(seasons: any[]) {
+  const lines = seasons.map((season: any) => {
+    const seasonNumber = Number(season?.seasonNumber ?? 0);
+    const nbEpisodes = Number(season?.nbEpisodes ?? 0);
+    const totalLength = Number(season?.totalLength ?? 0);
+    return `      {\n        seasonNumber: ${
+      Number.isNaN(seasonNumber) ? 0 : seasonNumber
+    },\n        nbEpisodes: ${
+      Number.isNaN(nbEpisodes) ? 0 : nbEpisodes
+    },\n        totalLength: ${
+      Number.isNaN(totalLength) ? 0 : totalLength
+    },\n      }`;
+  });
+  return `seasonsData: [\n${lines.join(',\n')}\n    ]`;
+}
+
+function upsertSeasonsDataField(objectText: string, seasonsData: any[] | undefined) {
+  if (!Array.isArray(seasonsData)) return objectText;
+  const block = formatSeasonsData(seasonsData);
+  const regex = /seasonsData\s*:\s*\[[\s\S]*?\]/;
+  if (regex.test(objectText)) {
+    return objectText.replace(regex, block);
+  }
+  return objectText.replace(/\}\s*$/, `    ${block},\n  }`);
+}
+
 function formatSeasons(seasons: any[]) {
   const lines = seasons.map((season: any) => {
     const seasonNumber = Number(season?.seasonNumber ?? 0);
@@ -471,6 +539,77 @@ function updateSerieInFile(content: string, payload: any) {
   }
 
   throw new Error('Serie not found');
+}
+
+function updateBaseSerieInFile(content: string, payload: any) {
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    throw new Error('Array not found');
+  }
+
+  const arrayStart = content.indexOf('[', exportIndex);
+  const arrayEnd = content.indexOf('];', arrayStart);
+  if (arrayStart === -1 || arrayEnd === -1) {
+    throw new Error('Array bounds not found');
+  }
+
+  let i = arrayStart;
+  let depth = 0;
+  let objectStart = -1;
+
+  while (i < arrayEnd) {
+    const char = content[i];
+    if (char === '{') {
+      if (depth === 0) {
+        objectStart = i;
+      }
+      depth += 1;
+    } else if (char === '}') {
+      depth -= 1;
+      if (depth === 0 && objectStart !== -1) {
+        const objectEnd = i;
+        const objectText = content.slice(objectStart, objectEnd + 1);
+        const title = parseStringField(objectText, 'title');
+        const director = parseStringField(objectText, 'director');
+
+        if (title === payload.title && director === payload.director) {
+          let updated = objectText;
+          updated = upsertActorsField(updated, payload.actors);
+          updated = upsertField(updated, 'coverUrl', payload.coverUrl);
+          updated = upsertField(updated, 'releaseDate', payload.releaseDate);
+          updated = upsertField(updated, 'endDate', payload.endDate);
+          updated = upsertField(updated, 'genre', payload.genre);
+          updated = upsertSeasonsDataField(updated, payload.seasonsData);
+
+          return (
+            content.slice(0, objectStart) +
+            updated +
+            content.slice(objectEnd + 1)
+          );
+        }
+      }
+    }
+    i += 1;
+  }
+
+  throw new Error('Serie not found');
+}
+
+function updateBaseSerieInFiles(payload: any) {
+  const baseFiles = getBaseSeriesFiles();
+  for (const serieFile of baseFiles) {
+    const content = fs.readFileSync(serieFile, 'utf8');
+    try {
+      const updated = updateBaseSerieInFile(content, payload);
+      fs.writeFileSync(serieFile, updated, 'utf8');
+      return serieFile;
+    } catch (error: any) {
+      if (error.message !== 'Serie not found') {
+        throw error;
+      }
+    }
+  }
+  return null;
 }
 
 function formatSeasonsIndented(seasons: any[], indent: string) {
@@ -581,6 +720,7 @@ module.exports = {
   findBaseSerie,
   BASE_SERIES_API_FILE,
   updateSerieInFile,
+  updateBaseSerieInFiles,
   removeSerieFromFile,
   getUserSeriesFiles,
   getUserWatchlistSeriesFiles,

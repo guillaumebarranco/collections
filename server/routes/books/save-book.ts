@@ -5,8 +5,10 @@ const {
   normalizeBoolean,
   normalizeString,
   updateBookInFile,
+  updateBaseBookInFiles,
   getUserBooksFiles,
 } = require('../../utils/books/books-utils');
+const { isAdminUser } = require('../../utils/users/users-utils');
 
 const router = express.Router();
 
@@ -36,6 +38,12 @@ router.post('/', (req: any, res: any) => {
       owned: normalizeBoolean(input.owned, 'owned'),
     };
 
+    const entityPayload = input.entity || null;
+    if (entityPayload && !isAdminUser(userId)) {
+      res.status(403).json({ error: 'Admin required to edit entity data' });
+      return;
+    }
+
     const bookFiles = getUserBooksFiles(userId);
     let updatedFile: string | null = null;
 
@@ -58,10 +66,26 @@ router.post('/', (req: any, res: any) => {
       return;
     }
 
+    let baseUpdatedFile: string | null = null;
+    if (entityPayload) {
+      baseUpdatedFile = updateBaseBookInFiles({
+        title,
+        author,
+        coverUrl: normalizeString(entityPayload.coverUrl, 'coverUrl'),
+        pages: normalizeNumber(entityPayload.pages, 'pages'),
+        genre: normalizeString(entityPayload.genre, 'genre'),
+        saga: normalizeString(entityPayload.saga, 'saga'),
+        sagaOrder: normalizeNumber(entityPayload.sagaOrder, 'sagaOrder'),
+        nbTomes: normalizeNumber(entityPayload.nbTomes, 'nbTomes'),
+        isFinished: normalizeBoolean(entityPayload.isFinished, 'isFinished'),
+      });
+    }
+
     res.json({
       ok: true,
       book: { title: payload.title, author: payload.author },
       file: updatedFile,
+      baseFile: baseUpdatedFile,
     });
 
     console.log(

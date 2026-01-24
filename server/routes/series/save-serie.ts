@@ -5,8 +5,10 @@ const {
   normalizeBoolean,
   normalizeString,
   updateSerieInFile,
+  updateBaseSerieInFiles,
   getUserSeriesFiles,
 } = require('../../utils/series/series-utils');
+const { isAdminUser } = require('../../utils/users/users-utils');
 
 const router = express.Router();
 
@@ -34,6 +36,12 @@ router.post('/', (req: any, res: any) => {
       owned: normalizeBoolean(input.owned, 'owned'),
     };
 
+    const entityPayload = input.entity || null;
+    if (entityPayload && !isAdminUser(userId)) {
+      res.status(403).json({ error: 'Admin required to edit entity data' });
+      return;
+    }
+
     const serieFiles = getUserSeriesFiles(userId);
     let updatedFile: string | null = null;
 
@@ -56,10 +64,29 @@ router.post('/', (req: any, res: any) => {
       return;
     }
 
+    let baseUpdatedFile: string | null = null;
+    if (entityPayload) {
+      baseUpdatedFile = updateBaseSerieInFiles({
+        title,
+        director,
+        actors: Array.isArray(entityPayload.actors)
+          ? entityPayload.actors
+          : undefined,
+        coverUrl: normalizeString(entityPayload.coverUrl, 'coverUrl'),
+        releaseDate: normalizeString(entityPayload.releaseDate, 'releaseDate'),
+        endDate: normalizeString(entityPayload.endDate, 'endDate'),
+        genre: normalizeString(entityPayload.genre, 'genre'),
+        seasonsData: Array.isArray(entityPayload.seasonsData)
+          ? entityPayload.seasonsData
+          : undefined,
+      });
+    }
+
     res.json({
       ok: true,
       serie: { title: payload.title, director: payload.director },
       file: updatedFile,
+      baseFile: baseUpdatedFile,
     });
 
     console.log(

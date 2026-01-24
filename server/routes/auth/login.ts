@@ -27,7 +27,7 @@ router.post('/login', (req: any, res: any) => {
       return;
     }
 
-    res.json({ ok: true, username });
+    res.json({ ok: true, username, admin: Boolean(user.admin) });
   } catch (error: any) {
     res.status(500).json({ error: error.message || 'Unknown error' });
   }

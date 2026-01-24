@@ -13,7 +13,7 @@ router.get('/status/:username', (req: any, res: any) => {
     }
 
     const hasPassword = Boolean(user.passwordHash && user.passwordSalt);
-    res.json({ exists: true, hasPassword });
+    res.json({ exists: true, hasPassword, admin: Boolean(user.admin) });
   } catch (error: any) {
     res.status(500).json({ error: error.message || 'Unknown error' });
   }

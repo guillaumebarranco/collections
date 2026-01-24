@@ -295,6 +295,67 @@ function updateGameInFile(filePath: string, gameData: any): boolean {
   return true;
 }
 
+function updateBaseGameInFile(filePath: string, gameData: any): boolean {
+  const content = fs.readFileSync(filePath, 'utf8');
+  const games = parseBaseGamesFullFromFile(content);
+  const index = games.findIndex(
+    (game) => game.title === gameData.title && game.editor === gameData.editor
+  );
+
+  if (index === -1) {
+    return false;
+  }
+
+  games[index] = {
+    ...games[index],
+    ...gameData,
+  };
+
+  const newArrayContent = games
+    .map(
+      (game) => `  {
+    title: '${escapeString(game.title)}',
+    editor: '${escapeString(game.editor)}',
+    hero: '${escapeString(game.hero || '')}',
+    coverUrl: '${escapeString(game.coverUrl || '')}',
+    releaseDate: '${escapeString(game.releaseDate || '')}',
+    averageTimeToFinish: ${game.averageTimeToFinish ?? 0},
+    averageTimeToHundredPercent: ${game.averageTimeToHundredPercent ?? 0},
+    platform: '${escapeString(game.platform || '')}',
+    saga: '${escapeString(game.saga || '')}',
+    platineTime: ${game.platineTime ?? 0},
+  }`
+    )
+    .join(',\n');
+
+  const exportIndex = content.indexOf('export const');
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
+    throw new Error('Array bounds not found');
+  }
+  const { arrayStart, arrayEnd } = bounds;
+
+  const newContent =
+    content.slice(0, arrayStart + 1) +
+    '\n' +
+    newArrayContent +
+    '\n' +
+    content.slice(arrayEnd);
+
+  fs.writeFileSync(filePath, newContent, 'utf8');
+  return true;
+}
+
+function updateBaseGameInFiles(payload: any) {
+  const baseFiles = getBaseGamesFiles();
+  for (const filePath of baseFiles) {
+    if (updateBaseGameInFile(filePath, payload)) {
+      return filePath;
+    }
+  }
+  return null;
+}
+
 function removeGameFromFile(content: string, payload: any): string {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
@@ -388,6 +449,7 @@ module.exports = {
   appendObjectToArrayFile,
   baseGameExists,
   updateGameInFile,
+  updateBaseGameInFiles,
   removeGameFromFile,
   getUserGamesFiles,
   getUserGamelistFiles,

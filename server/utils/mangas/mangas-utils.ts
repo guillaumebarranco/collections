@@ -288,6 +288,64 @@ function updateMangaInFile(filePath: string, mangaData: any): boolean {
   return true;
 }
 
+function updateBaseMangaInFile(filePath: string, mangaData: any): boolean {
+  const content = fs.readFileSync(filePath, 'utf8');
+  const mangas = parseBaseMangasFullFromFile(content);
+  const index = mangas.findIndex(
+    (manga) => manga.title === mangaData.title && manga.author === mangaData.author
+  );
+
+  if (index === -1) {
+    return false;
+  }
+
+  mangas[index] = {
+    ...mangas[index],
+    ...mangaData,
+  };
+
+  const newArrayContent = mangas
+    .map(
+      (manga) => `  {
+    title: '${escapeString(manga.title)}',
+    author: '${escapeString(manga.author)}',
+    coverUrl: '${escapeString(manga.coverUrl || '')}',
+    pages: ${manga.pages ?? 0},
+    genre: '${escapeString(manga.genre || '')}',
+    nbTomes: ${manga.nbTomes ?? 0},
+    isFinished: ${manga.isFinished ?? false},
+  }`
+    )
+    .join(',\n');
+
+  const exportIndex = content.indexOf('export const');
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
+    throw new Error('Array bounds not found');
+  }
+  const { arrayStart, arrayEnd } = bounds;
+
+  const newContent =
+    content.slice(0, arrayStart + 1) +
+    '\n' +
+    newArrayContent +
+    '\n' +
+    content.slice(arrayEnd);
+
+  fs.writeFileSync(filePath, newContent, 'utf8');
+  return true;
+}
+
+function updateBaseMangaInFiles(payload: any) {
+  const baseFiles = getBaseMangasFiles();
+  for (const filePath of baseFiles) {
+    if (updateBaseMangaInFile(filePath, payload)) {
+      return filePath;
+    }
+  }
+  return null;
+}
+
 function removeMangaFromFile(content: string, payload: any): string {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
@@ -371,6 +429,7 @@ module.exports = {
   appendObjectToArrayFile,
   baseMangaExists,
   updateMangaInFile,
+  updateBaseMangaInFiles,
   removeMangaFromFile,
   getUserMangasFiles,
   getUserReadlistMangasFiles,

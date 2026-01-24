@@ -291,6 +291,64 @@ function updateManwhaInFile(filePath: string, manwhaData: any): boolean {
   return true;
 }
 
+function updateBaseManwhaInFile(filePath: string, manwhaData: any): boolean {
+  const content = fs.readFileSync(filePath, 'utf8');
+  const manwhas = parseBaseManwhasFullFromFile(content);
+  const index = manwhas.findIndex(
+    (manwha) => manwha.title === manwhaData.title && manwha.author === manwhaData.author
+  );
+
+  if (index === -1) {
+    return false;
+  }
+
+  manwhas[index] = {
+    ...manwhas[index],
+    ...manwhaData,
+  };
+
+  const newArrayContent = manwhas
+    .map(
+      (manwha) => `  {
+    title: '${escapeString(manwha.title)}',
+    author: '${escapeString(manwha.author)}',
+    coverUrl: '${escapeString(manwha.coverUrl || '')}',
+    pages: ${manwha.pages ?? 0},
+    genre: '${escapeString(manwha.genre || '')}',
+    nbChapters: ${manwha.nbChapters ?? 0},
+    isFinished: ${manwha.isFinished ?? false},
+  }`
+    )
+    .join(',\n');
+
+  const exportIndex = content.indexOf('export const');
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
+    throw new Error('Array bounds not found');
+  }
+  const { arrayStart, arrayEnd } = bounds;
+
+  const newContent =
+    content.slice(0, arrayStart + 1) +
+    '\n' +
+    newArrayContent +
+    '\n' +
+    content.slice(arrayEnd);
+
+  fs.writeFileSync(filePath, newContent, 'utf8');
+  return true;
+}
+
+function updateBaseManwhaInFiles(payload: any) {
+  const baseFiles = getBaseManwhasFiles();
+  for (const filePath of baseFiles) {
+    if (updateBaseManwhaInFile(filePath, payload)) {
+      return filePath;
+    }
+  }
+  return null;
+}
+
 function removeManwhaFromFile(content: string, payload: any): string {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
@@ -375,6 +433,7 @@ module.exports = {
   appendObjectToArrayFile,
   baseManwhaExists,
   updateManwhaInFile,
+  updateBaseManwhaInFiles,
   removeManwhaFromFile,
   getUserManwhasFiles,
   getUserReadlistManwhasFiles,

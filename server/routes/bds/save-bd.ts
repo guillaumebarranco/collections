@@ -4,8 +4,10 @@ const {
   normalizeBoolean,
   normalizeString,
   updateBdInFile,
+  updateBaseBdInFiles,
   getUserBdsFiles,
 } = require('../../utils/bds/bds-utils');
+const { isAdminUser } = require('../../utils/users/users-utils');
 
 const router = express.Router();
 
@@ -35,6 +37,12 @@ router.post('/', (req: any, res: any) => {
       owned: normalizeBoolean(input.owned, 'owned') ?? false,
     };
 
+    const entityPayload = input.entity || null;
+    if (entityPayload && !isAdminUser(userId)) {
+      res.status(403).json({ error: 'Admin required to edit entity data' });
+      return;
+    }
+
     const bdFiles = getUserBdsFiles(userId);
     if (!bdFiles.length) {
       res.status(404).json({ error: 'User bds not found' });
@@ -53,7 +61,21 @@ router.post('/', (req: any, res: any) => {
       return;
     }
 
-    res.json({ ok: true, updated: updatedCount });
+    let baseUpdatedFile: string | null = null;
+    if (entityPayload) {
+      baseUpdatedFile = updateBaseBdInFiles({
+        title,
+        designer,
+        coverUrl: normalizeString(entityPayload.coverUrl, 'coverUrl'),
+        pages: normalizeNumber(entityPayload.pages, 'pages'),
+        genre: normalizeString(entityPayload.genre, 'genre'),
+        nbTomes: normalizeNumber(entityPayload.nbTomes, 'nbTomes'),
+        isFinished: normalizeBoolean(entityPayload.isFinished, 'isFinished'),
+        writer: normalizeString(entityPayload.writer, 'writer'),
+      });
+    }
+
+    res.json({ ok: true, updated: updatedCount, baseFile: baseUpdatedFile });
   } catch (error: any) {
     res.status(500).json({ error: error.message || 'Unknown error' });
   }

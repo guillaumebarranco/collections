@@ -326,6 +326,48 @@ function replaceField(objectText: string, key: string, value: any) {
   return next;
 }
 
+function upsertField(objectText: string, key: string, value: any) {
+  if (value === undefined) return objectText;
+  let next = objectText;
+  if (typeof value === 'string') {
+    const regex = new RegExp(`(${key}\\s*:\\s*)(['"])((?:\\\\.|(?!\\2).)*)\\2`);
+    if (regex.test(next)) {
+      return replaceField(next, key, value);
+    }
+    const escaped = escapeString(value);
+    return next.replace(
+      /\}\s*$/,
+      `    ${key}: '${escaped}',\n  }`
+    );
+  }
+  if (typeof value === 'boolean' || typeof value === 'number') {
+    const regex = new RegExp(`(${key}\\s*:\\s*)([^,\\n]+)`);
+    if (regex.test(next)) {
+      return replaceField(next, key, value);
+    }
+    return next.replace(/\}\s*$/, `    ${key}: ${value},\n  }`);
+  }
+  return next;
+}
+
+function formatActors(actors: string[]) {
+  const items = actors.map(
+    (name) => `      {\n        name: '${escapeString(name)}',\n      }`
+  );
+  return `actors: [\n${items.join(',\n')}\n    ]`;
+}
+
+function upsertActorsField(objectText: string, actors: string[] | undefined) {
+  if (!actors) return objectText;
+  const normalized = actors.filter((name) => name.trim().length > 0);
+  const block = formatActors(normalized);
+  const regex = /actors\s*:\s*\[[\s\S]*?\]/;
+  if (regex.test(objectText)) {
+    return objectText.replace(regex, block);
+  }
+  return objectText.replace(/\}\s*$/, `    ${block},\n  }`);
+}
+
 function updateMovieInFile(content: string, payload: any) {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
@@ -386,6 +428,76 @@ function updateMovieInFile(content: string, payload: any) {
   }
 
   throw new Error('Movie not found');
+}
+
+function updateBaseMovieInFile(content: string, payload: any) {
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    throw new Error('Array not found');
+  }
+
+  const arrayStart = content.indexOf('[', exportIndex);
+  const arrayEnd = content.indexOf('];', arrayStart);
+  if (arrayStart === -1 || arrayEnd === -1) {
+    throw new Error('Array bounds not found');
+  }
+
+  let i = arrayStart;
+  let depth = 0;
+  let objectStart = -1;
+
+  while (i < arrayEnd) {
+    const char = content[i];
+    if (char === '{') {
+      if (depth === 0) {
+        objectStart = i;
+      }
+      depth += 1;
+    } else if (char === '}') {
+      depth -= 1;
+      if (depth === 0 && objectStart !== -1) {
+        const objectEnd = i;
+        const objectText = content.slice(objectStart, objectEnd + 1);
+        const title = parseStringField(objectText, 'title');
+        const director = parseStringField(objectText, 'director');
+
+        if (title === payload.title && director === payload.director) {
+          let updated = objectText;
+          updated = upsertActorsField(updated, payload.actors);
+          updated = upsertField(updated, 'coverUrl', payload.coverUrl);
+          updated = upsertField(updated, 'releaseDate', payload.releaseDate);
+          updated = upsertField(updated, 'length', payload.length);
+          updated = upsertField(updated, 'genre', payload.genre);
+
+          return (
+            content.slice(0, objectStart) +
+            updated +
+            content.slice(objectEnd + 1)
+          );
+        }
+      }
+    }
+    i += 1;
+  }
+
+  throw new Error('Movie not found');
+}
+
+function updateBaseMovieInFiles(payload: any) {
+  const baseFiles = getBaseMoviesFiles();
+  for (const movieFile of baseFiles) {
+    const content = fs.readFileSync(movieFile, 'utf8');
+    try {
+      const updated = updateBaseMovieInFile(content, payload);
+      fs.writeFileSync(movieFile, updated, 'utf8');
+      return movieFile;
+    } catch (error: any) {
+      if (error.message !== 'Movie not found') {
+        throw error;
+      }
+    }
+  }
+  return null;
 }
 
 function removeMovieFromFile(content: string, payload: any) {
@@ -493,6 +605,7 @@ module.exports = {
   baseMovieExists,
   BASE_MOVIES_API_FILE,
   updateMovieInFile,
+  updateBaseMovieInFiles,
   removeMovieFromFile,
   getUserMoviesFiles,
   getUserWatchlistMoviesFiles,

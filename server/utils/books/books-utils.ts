@@ -315,6 +315,30 @@ function replaceField(objectText: string, key: string, value: any) {
   return next;
 }
 
+function upsertField(objectText: string, key: string, value: any) {
+  if (value === undefined) return objectText;
+  let next = objectText;
+  if (typeof value === 'string') {
+    const regex = new RegExp(`(${key}\\s*:\\s*)(['"])((?:\\\\.|(?!\\2).)*)\\2`);
+    if (regex.test(next)) {
+      return replaceField(next, key, value);
+    }
+    const escaped = escapeString(value);
+    return next.replace(
+      /\}\s*$/,
+      `    ${key}: '${escaped}',\n  }`
+    );
+  }
+  if (typeof value === 'boolean' || typeof value === 'number') {
+    const regex = new RegExp(`(${key}\\s*:\\s*)([^,\\n]+)`);
+    if (regex.test(next)) {
+      return replaceField(next, key, value);
+    }
+    return next.replace(/\}\s*$/, `    ${key}: ${value},\n  }`);
+  }
+  return next;
+}
+
 function updateBookInFile(content: string, payload: any) {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
@@ -365,6 +389,78 @@ function updateBookInFile(content: string, payload: any) {
   }
 
   throw new Error('Book not found');
+}
+
+function updateBaseBookInFile(content: string, payload: any) {
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    throw new Error('Array not found');
+  }
+
+  const arrayStart = content.indexOf('[', exportIndex);
+  const arrayEnd = content.indexOf('];', arrayStart);
+  if (arrayStart === -1 || arrayEnd === -1) {
+    throw new Error('Array bounds not found');
+  }
+
+  let i = arrayStart;
+  let depth = 0;
+  let objectStart = -1;
+
+  while (i < arrayEnd) {
+    const char = content[i];
+    if (char === '{') {
+      if (depth === 0) {
+        objectStart = i;
+      }
+      depth += 1;
+    } else if (char === '}') {
+      depth -= 1;
+      if (depth === 0 && objectStart !== -1) {
+        const objectEnd = i;
+        const objectText = content.slice(objectStart, objectEnd + 1);
+        const title = parseStringField(objectText, 'title');
+        const author = parseStringField(objectText, 'author');
+
+        if (title === payload.title && author === payload.author) {
+          let updated = objectText;
+          updated = upsertField(updated, 'coverUrl', payload.coverUrl);
+          updated = upsertField(updated, 'pages', payload.pages);
+          updated = upsertField(updated, 'genre', payload.genre);
+          updated = upsertField(updated, 'saga', payload.saga);
+          updated = upsertField(updated, 'sagaOrder', payload.sagaOrder);
+          updated = upsertField(updated, 'nbTomes', payload.nbTomes);
+          updated = upsertField(updated, 'isFinished', payload.isFinished);
+
+          return (
+            content.slice(0, objectStart) +
+            updated +
+            content.slice(objectEnd + 1)
+          );
+        }
+      }
+    }
+    i += 1;
+  }
+
+  throw new Error('Book not found');
+}
+
+function updateBaseBookInFiles(payload: any) {
+  const baseFiles = getBaseBooksFiles();
+  for (const bookFile of baseFiles) {
+    const content = fs.readFileSync(bookFile, 'utf8');
+    try {
+      const updated = updateBaseBookInFile(content, payload);
+      fs.writeFileSync(bookFile, updated, 'utf8');
+      return bookFile;
+    } catch (error: any) {
+      if (error.message !== 'Book not found') {
+        throw error;
+      }
+    }
+  }
+  return null;
 }
 
 function removeBookFromFile(content: string, payload: any) {
@@ -457,6 +553,7 @@ module.exports = {
   baseBookExists,
   BASE_BOOKS_API_FILE,
   updateBookInFile,
+  updateBaseBookInFiles,
   removeBookFromFile,
   getUserBooksFiles,
   getUserReadlistBooksFiles,
