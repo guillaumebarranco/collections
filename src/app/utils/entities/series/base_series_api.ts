@@ -12,7 +12,8 @@ export const baseSeriesApi: BaseSerie[] = [
         name: 'Jon Bernthal',
       },
     ],
-    coverUrl: 'https://m.media-amazon.com/images/M/MV5BNWQ4Y2QyNzEtZGQyYS00MGUzLTgxNGMtMjZmNzM0ZjRhYjdlXkEyXkFqcGc@._V1_.jpg',
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BNWQ4Y2QyNzEtZGQyYS00MGUzLTgxNGMtMjZmNzM0ZjRhYjdlXkEyXkFqcGc@._V1_.jpg',
     releaseDate: '2026-01-08',
     endDate: '2026-01-08',
     genre: 'Thriller',
@@ -39,7 +40,8 @@ export const baseSeriesApi: BaseSerie[] = [
         name: 'Walton Goggins',
       },
     ],
-    coverUrl: 'https://fr.web.img6.acsta.net/pictures/24/03/07/15/16/4242537.jpg',
+    coverUrl:
+      'https://fr.web.img6.acsta.net/pictures/24/03/07/15/16/4242537.jpg',
     releaseDate: '2024-04-10',
     endDate: '',
     genre: 'Post-apocalyptique',
@@ -71,7 +73,8 @@ export const baseSeriesApi: BaseSerie[] = [
         name: 'Julia Jones',
       },
     ],
-    coverUrl: 'https://m.media-amazon.com/images/M/MV5BZGY4YjY5MGItNzM2NS00Y2M1LWFkYTYtZjI0ZDk3NTE0NmE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BZGY4YjY5MGItNzM2NS00Y2M1LWFkYTYtZjI0ZDk3NTE0NmE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
     releaseDate: '2021-11-07',
     endDate: '2022-01-09',
     genre: '',
@@ -101,7 +104,8 @@ export const baseSeriesApi: BaseSerie[] = [
         name: 'David Zayas',
       },
     ],
-    coverUrl: 'https://m.media-amazon.com/images/M/MV5BMzgxNzUwZTctMzliNi00MDUwLWE4YzctNjgwMDE2OWQwNzMxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BMzgxNzUwZTctMzliNi00MDUwLWE4YzctNjgwMDE2OWQwNzMxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
     releaseDate: '2025-07-11',
     endDate: '2025-09-05',
     genre: 'Thriller',
@@ -120,7 +124,7 @@ export const baseSeriesApi: BaseSerie[] = [
   },
 
   {
-    title: 'L\'Attaque des Titans',
+    title: "L'Attaque des Titans",
     director: 'Tetsurô Araki',
     actors: [
       {
@@ -133,7 +137,8 @@ export const baseSeriesApi: BaseSerie[] = [
         name: 'Marina Inoue',
       },
     ],
-    coverUrl: 'https://m.media-amazon.com/images/M/MV5BZjliODY5MzQtMmViZC00MTZmLWFhMWMtMjMwM2I3OGY1MTRiXkEyXkFqcGc@._V1_.jpg',
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BZjliODY5MzQtMmViZC00MTZmLWFhMWMtMjMwM2I3OGY1MTRiXkEyXkFqcGc@._V1_.jpg',
     releaseDate: '2013-04-07',
     endDate: '2023-11-04',
     genre: 'Anime',
@@ -175,7 +180,8 @@ export const baseSeriesApi: BaseSerie[] = [
         name: 'Bryce Papenbrook',
       },
     ],
-    coverUrl: 'https://m.media-amazon.com/images/M/MV5BZjBkYmRiOTAtY2IwOS00ZWU3LTk3YjItNjMzYWZiMDE1MjcyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BZjBkYmRiOTAtY2IwOS00ZWU3LTk3YjItNjMzYWZiMDE1MjcyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
     releaseDate: '2015-01-09',
     endDate: '2016-06-30',
     genre: 'Anime',
@@ -189,6 +195,33 @@ export const baseSeriesApi: BaseSerie[] = [
         seasonNumber: 2,
         nbEpisodes: 25,
         totalLength: 571,
+      },
+    ],
+  },
+  {
+    title: 'Soul Eater',
+    director: 'Takuya Igarashi',
+    actors: [
+      {
+        name: 'Chiaki Omigawa',
+      },
+      {
+        name: 'Kôki Uchiyama',
+      },
+      {
+        name: 'Yumiko Kobayashi',
+      },
+    ],
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BNTJiOWM5NGMtZTdhYi00MmY3LTlhZGYtMjMwYTk2MTI4NGJlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2008-04-07',
+    endDate: '2009-03-30',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 51,
+        totalLength: 1224,
       },
     ],
   },
