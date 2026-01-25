@@ -34,6 +34,8 @@ type EditMovieEntityForm = {
 type EditMovieDialogData = {
   movie: Movie;
   userId?: string;
+  list?: Movie[];
+  index?: number;
 };
 
 const DEFAULT_USER_ID = 'guillaume';
@@ -66,6 +68,28 @@ export class EditMovieComponent {
   readonly isSaving = signal<boolean>(false);
   readonly isDeleting = signal<boolean>(false);
   readonly isAdmin = computed(() => this.authService.isAdmin());
+  readonly dialogList = signal<Movie[]>([]);
+  readonly dialogIndex = signal<number>(-1);
+  readonly hasDialogNavigation = computed(() => {
+    return (
+      this.isDialogMode() &&
+      this.dialogList().length > 1 &&
+      this.dialogIndex() >= 0
+    );
+  });
+  readonly canNavigatePrevious = computed(() => {
+    return this.hasDialogNavigation() && this.dialogIndex() > 0;
+  });
+  readonly canNavigateNext = computed(() => {
+    return (
+      this.hasDialogNavigation() &&
+      this.dialogIndex() < this.dialogList().length - 1
+    );
+  });
+  readonly dialogPositionLabel = computed(() => {
+    if (!this.hasDialogNavigation()) return '';
+    return `${this.dialogIndex() + 1}/${this.dialogList().length}`;
+  });
 
   readonly movieSlug = computed(() => {
     return this.activatedRoute.snapshot.paramMap.get('slug') || '';
@@ -73,10 +97,7 @@ export class EditMovieComponent {
 
   constructor() {
     if (this.dialogData?.movie) {
-      this.movie.set(this.dialogData.movie);
-      this.movieForm.set(this.toForm(this.dialogData.movie));
-      this.movieEntityForm.set(this.toEntityForm(this.dialogData.movie));
-      this.movieNotFound.set(false);
+      this.setupDialogNavigation(this.dialogData);
       return;
     }
 
@@ -245,6 +266,14 @@ export class EditMovieComponent {
     return Boolean(this.dialogRef);
   }
 
+  navigatePrevious(): void {
+    this.navigateToOffset(-1);
+  }
+
+  navigateNext(): void {
+    this.navigateToOffset(1);
+  }
+
   getActorsLabel(actors: Movie['actors'] | undefined): string {
     if (!actors?.length) return '';
     return actors.map((actor) => actor.name).join(', ');
@@ -317,6 +346,44 @@ export class EditMovieComponent {
 
   private canEditCurrentUser(): boolean {
     return this.authService.canEdit(this.getCurrentUserId());
+  }
+
+  private setupDialogNavigation(data: EditMovieDialogData) {
+    const list = data.list && data.list.length > 0 ? data.list : [data.movie];
+    const index = this.resolveDialogIndex(list, data.index, data.movie);
+    this.dialogList.set(list);
+    this.dialogIndex.set(index);
+    this.setMovie(list[index] ?? data.movie);
+  }
+
+  private resolveDialogIndex(
+    list: Movie[],
+    index: number | undefined,
+    movie: Movie
+  ): number {
+    if (typeof index === 'number' && index >= 0 && index < list.length) {
+      return index;
+    }
+    const fallback = list.findIndex(
+      (item) => item.title === movie.title && item.director === movie.director
+    );
+    return fallback >= 0 ? fallback : 0;
+  }
+
+  private navigateToOffset(offset: number): void {
+    if (!this.hasDialogNavigation()) return;
+    const list = this.dialogList();
+    const nextIndex = this.dialogIndex() + offset;
+    if (nextIndex < 0 || nextIndex >= list.length) return;
+    this.dialogIndex.set(nextIndex);
+    this.setMovie(list[nextIndex]);
+  }
+
+  private setMovie(movie: Movie): void {
+    this.movie.set(movie);
+    this.movieForm.set(this.toForm(movie));
+    this.movieEntityForm.set(this.toEntityForm(movie));
+    this.movieNotFound.set(false);
   }
 
   private toSlug(value: string): string {

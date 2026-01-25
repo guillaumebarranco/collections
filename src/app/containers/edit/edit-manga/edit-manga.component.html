@@ -1,19 +1,42 @@
 <app-edit-entity class="edit-entity--dark">
-  @if(!isDialogMode()) {
-  <button (click)="navigateToMangas()" class="back-link">
-    Retour aux mangas
-  </button>
-  } @else {
-  <button
-    type="button"
-    class="dialog-close"
-    aria-label="Fermer"
-    (click)="navigateToMangas()"
-  >
-    ✕
-  </button>
-  }
-
+  <div class="dialog-header">
+    @if(!isDialogMode()) {
+    <button (click)="navigateToMangas()" class="back-link">
+      Retour aux mangas
+    </button>
+    } @else {
+    <button
+      type="button"
+      class="dialog-close"
+      aria-label="Fermer"
+      (click)="navigateToMangas()"
+    >
+      ✕
+    </button>
+    @if(hasDialogNavigation()) {
+    <div class="dialog-nav">
+      <button
+        type="button"
+        class="dialog-nav-btn"
+        aria-label="Élément précédent"
+        [disabled]="!canNavigatePrevious()"
+        (click)="navigatePrevious()"
+      >
+        ←
+      </button>
+      <span class="dialog-nav-count">{{ dialogPositionLabel() }}</span>
+      <button
+        type="button"
+        class="dialog-nav-btn"
+        aria-label="Élément suivant"
+        [disabled]="!canNavigateNext()"
+        (click)="navigateNext()"
+      >
+        →
+      </button>
+    </div>
+    } }
+  </div>
   <h1 class="title">Éditer un manga</h1>
 
   @if(mangaNotFound()) {
@@ -25,11 +48,9 @@
     <p><strong>Auteur :</strong> {{ manga()?.author }}</p>
     @if (manga()?.genre) {
     <p><strong>Genre :</strong> {{ manga()?.genre }}</p>
-    }
-    @if (manga()?.nbTomes) {
+    } @if (manga()?.nbTomes) {
     <p><strong>Nombre de tomes :</strong> {{ manga()?.nbTomes }}</p>
-    }
-    @if (manga()?.isFinished === false) {
+    } @if (manga()?.isFinished === false) {
     <p><strong>Série :</strong> En cours</p>
     }
   </div>
@@ -140,7 +161,9 @@
         id="entityIsFinished"
         type="checkbox"
         [checked]="mangaEntityForm()?.isFinished"
-        (change)="updateEntityCheckbox('isFinished', $any($event).target.checked)"
+        (change)="
+          updateEntityCheckbox('isFinished', $any($event).target.checked)
+        "
         name="entityIsFinished"
       />
     </div>

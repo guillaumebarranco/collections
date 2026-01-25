@@ -99,9 +99,14 @@
   </div>
 
   <div class="games">
-    @for (game of sortedGames(); track game.title) {
+    @for (game of sortedGames(); track game.title; let i = $index) {
     <div class="game-card">
-      <app-game [game]="game" (gameUpdated)="refreshGames()"></app-game>
+      <app-game
+        [game]="game"
+        [list]="sortedGames()"
+        [index]="i"
+        (gameUpdated)="refreshGames()"
+      ></app-game>
     </div>
     }
   </div>

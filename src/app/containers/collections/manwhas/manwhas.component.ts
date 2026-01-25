@@ -311,10 +311,16 @@ export class ManwhasComponent implements OnInit {
   }
 
   openEditManwhaDialog(manwha: Manwha): void {
+    const manwhas = this.sortedManwhas();
+    const index = manwhas.findIndex(
+      (item) => item.title === manwha.title && item.author === manwha.author
+    );
     const dialogRef = this.dialog.open(EditManwhaComponent, {
       data: {
         manwha,
         userId: this.getActiveUserId(),
+        list: manwhas,
+        index,
       },
       width: '720px',
       maxWidth: '95vw',

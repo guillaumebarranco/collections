@@ -1,19 +1,42 @@
 <app-edit-entity class="edit-entity--light">
-  @if(!isDialogMode()) {
-  <button (click)="navigateToBooks()" class="back-link">
-    Retour aux livres
-  </button>
-  } @else {
-  <button
-    type="button"
-    class="dialog-close"
-    aria-label="Fermer"
-    (click)="navigateToBooks()"
-  >
-    ✕
-  </button>
-  }
-
+  <div class="dialog-header">
+    @if(!isDialogMode()) {
+    <button (click)="navigateToBooks()" class="back-link">
+      Retour aux livres
+    </button>
+    } @else {
+    <button
+      type="button"
+      class="dialog-close"
+      aria-label="Fermer"
+      (click)="navigateToBooks()"
+    >
+      ✕
+    </button>
+    @if(hasDialogNavigation()) {
+    <div class="dialog-nav">
+      <button
+        type="button"
+        class="dialog-nav-btn"
+        aria-label="Élément précédent"
+        [disabled]="!canNavigatePrevious()"
+        (click)="navigatePrevious()"
+      >
+        ←
+      </button>
+      <span class="dialog-nav-count">{{ dialogPositionLabel() }}</span>
+      <button
+        type="button"
+        class="dialog-nav-btn"
+        aria-label="Élément suivant"
+        [disabled]="!canNavigateNext()"
+        (click)="navigateNext()"
+      >
+        →
+      </button>
+    </div>
+    } }
+  </div>
   <h1 class="title">Éditer un livre</h1>
 
   @if(bookNotFound()) {
@@ -25,20 +48,15 @@
     <p><strong>Auteur :</strong> {{ book()?.author }}</p>
     @if (book()?.genre) {
     <p><strong>Genre :</strong> {{ book()?.genre }}</p>
-    }
-    @if (book()?.pages) {
+    } @if (book()?.pages) {
     <p><strong>Pages :</strong> {{ book()?.pages }}</p>
-    }
-    @if (book()?.saga) {
+    } @if (book()?.saga) {
     <p><strong>Saga :</strong> {{ book()?.saga }}</p>
-    }
-    @if (book()?.sagaOrder) {
+    } @if (book()?.sagaOrder) {
     <p><strong>Tome :</strong> {{ book()?.sagaOrder }}</p>
-    }
-    @if (book()?.nbTomes) {
+    } @if (book()?.nbTomes) {
     <p><strong>Nombre de tomes :</strong> {{ book()?.nbTomes }}</p>
-    }
-    @if (book()?.isFinished === false) {
+    } @if (book()?.isFinished === false) {
     <p><strong>Saga :</strong> En cours</p>
     }
   </div>
@@ -172,7 +190,9 @@
         id="entityIsFinished"
         type="checkbox"
         [checked]="bookEntityForm()?.isFinished"
-        (change)="updateEntityCheckbox('isFinished', $any($event).target.checked)"
+        (change)="
+          updateEntityCheckbox('isFinished', $any($event).target.checked)
+        "
         name="entityIsFinished"
       />
     </div>

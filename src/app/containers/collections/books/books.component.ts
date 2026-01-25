@@ -445,10 +445,16 @@ export class BooksComponent implements OnInit {
   }
 
   openEditBookDialog(book: Book): void {
+    const books = this.sortedBooks();
+    const index = books.findIndex(
+      (item) => item.title === book.title && item.author === book.author
+    );
     const dialogRef = this.dialog.open(EditBookComponent, {
       data: {
         book,
         userId: this.getActiveUserId(),
+        list: books,
+        index,
       },
       width: '720px',
       maxWidth: '95vw',

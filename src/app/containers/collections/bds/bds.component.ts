@@ -314,10 +314,16 @@ export class BdsComponent implements OnInit {
   }
 
   openEditBdDialog(bd: Bd): void {
+    const bds = this.sortedBds();
+    const index = bds.findIndex(
+      (item) => item.title === bd.title && item.designer === bd.designer
+    );
     const dialogRef = this.dialog.open(EditBdComponent, {
       data: {
         bd,
         userId: this.getActiveUserId(),
+        list: bds,
+        index,
       },
       width: '720px',
       maxWidth: '95vw',

@@ -35,6 +35,8 @@ export class GameComponent {
   private readonly authService = inject(AuthService);
 
   @Input() game!: Game;
+  @Input() list: Game[] = [];
+  @Input() index = -1;
   @Output() gameUpdated = new EventEmitter<void>();
 
   readonly canEdit = computed(() => {
@@ -47,10 +49,15 @@ export class GameComponent {
     const directId = this.activatedRoute.snapshot.params['id'];
     const parentId = this.activatedRoute.parent?.snapshot.params['id'];
     const userId = directId || parentId;
+    const list = this.list && this.list.length > 0 ? this.list : [this.game];
+    const index =
+      this.index >= 0 && this.index < list.length ? this.index : 0;
     const dialogRef = this.dialog.open(EditGameComponent, {
       data: {
         game: this.game,
         userId: userId || 'guillaume',
+        list,
+        index,
       },
       width: '720px',
       maxWidth: '95vw',

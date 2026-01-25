@@ -1,19 +1,42 @@
 <app-edit-entity class="edit-entity--light">
-  @if(!isDialogMode()) {
-  <button (click)="navigateToMovies()" class="back-link">
-    Retour aux films
-  </button>
-  } @else {
-  <button
-    type="button"
-    class="dialog-close"
-    aria-label="Fermer"
-    (click)="navigateToMovies()"
-  >
-    ✕
-  </button>
-  }
-
+  <div class="dialog-header">
+    @if(!isDialogMode()) {
+    <button (click)="navigateToMovies()" class="back-link">
+      Retour aux films
+    </button>
+    } @else {
+    <button
+      type="button"
+      class="dialog-close"
+      aria-label="Fermer"
+      (click)="navigateToMovies()"
+    >
+      ✕
+    </button>
+    @if(hasDialogNavigation()) {
+    <div class="dialog-nav">
+      <button
+        type="button"
+        class="dialog-nav-btn"
+        aria-label="Élément précédent"
+        [disabled]="!canNavigatePrevious()"
+        (click)="navigatePrevious()"
+      >
+        ←
+      </button>
+      <span class="dialog-nav-count">{{ dialogPositionLabel() }}</span>
+      <button
+        type="button"
+        class="dialog-nav-btn"
+        aria-label="Élément suivant"
+        [disabled]="!canNavigateNext()"
+        (click)="navigateNext()"
+      >
+        →
+      </button>
+    </div>
+    } }
+  </div>
   <h1 class="title">Éditer un film</h1>
 
   @if(movieNotFound()) {
@@ -27,14 +50,11 @@
     <p><strong>Réalisateur :</strong> {{ movie()?.director }}</p>
     @if (movie()?.genre) {
     <p><strong>Genre :</strong> {{ movie()?.genre }}</p>
-    }
-    @if (movie()?.releaseDate) {
+    } @if (movie()?.releaseDate) {
     <p><strong>Date de sortie :</strong> {{ movie()?.releaseDate }}</p>
-    }
-    @if (movie()?.length) {
+    } @if (movie()?.length) {
     <p><strong>Durée :</strong> {{ movie()?.length }} min</p>
-    }
-    @if (movie()?.actors?.length) {
+    } @if (movie()?.actors?.length) {
     <p><strong>Acteurs :</strong> {{ getActorsLabel(movie()?.actors) }}</p>
     }
   </div>

@@ -307,10 +307,16 @@ export class ComicsComponent implements OnInit {
   }
 
   openEditComicDialog(comic: Comic): void {
+    const comics = this.sortedComics();
+    const index = comics.findIndex(
+      (item) => item.title === comic.title && item.designer === comic.designer
+    );
     const dialogRef = this.dialog.open(EditComicComponent, {
       data: {
         comic,
         userId: this.getActiveUserId(),
+        list: comics,
+        index,
       },
       width: '720px',
       maxWidth: '95vw',

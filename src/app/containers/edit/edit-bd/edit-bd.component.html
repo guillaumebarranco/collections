@@ -1,19 +1,40 @@
 <app-edit-entity class="edit-entity--dark">
-  @if(!isDialogMode()) {
-  <button (click)="navigateToBds()" class="back-link">
-    Retour aux BD
-  </button>
-  } @else {
-  <button
-    type="button"
-    class="dialog-close"
-    aria-label="Fermer"
-    (click)="navigateToBds()"
-  >
-    ✕
-  </button>
-  }
-
+  <div class="dialog-header">
+    @if(!isDialogMode()) {
+    <button (click)="navigateToBds()" class="back-link">Retour aux BD</button>
+    } @else {
+    <button
+      type="button"
+      class="dialog-close"
+      aria-label="Fermer"
+      (click)="navigateToBds()"
+    >
+      ✕
+    </button>
+    @if(hasDialogNavigation()) {
+    <div class="dialog-nav">
+      <button
+        type="button"
+        class="dialog-nav-btn"
+        aria-label="Élément précédent"
+        [disabled]="!canNavigatePrevious()"
+        (click)="navigatePrevious()"
+      >
+        ←
+      </button>
+      <span class="dialog-nav-count">{{ dialogPositionLabel() }}</span>
+      <button
+        type="button"
+        class="dialog-nav-btn"
+        aria-label="Élément suivant"
+        [disabled]="!canNavigateNext()"
+        (click)="navigateNext()"
+      >
+        →
+      </button>
+    </div>
+    } }
+  </div>
   <h1 class="title">Éditer une BD</h1>
 
   @if(bdNotFound()) {
@@ -25,14 +46,11 @@
     <p><strong>Designer :</strong> {{ bd()?.designer }}</p>
     @if (bd()?.writer) {
     <p><strong>Writer :</strong> {{ bd()?.writer }}</p>
-    }
-    @if (bd()?.genre) {
+    } @if (bd()?.genre) {
     <p><strong>Genre :</strong> {{ bd()?.genre }}</p>
-    }
-    @if (bd()?.nbTomes) {
+    } @if (bd()?.nbTomes) {
     <p><strong>Nombre de tomes :</strong> {{ bd()?.nbTomes }}</p>
-    }
-    @if (bd()?.isFinished === false) {
+    } @if (bd()?.isFinished === false) {
     <p><strong>Série :</strong> En cours</p>
     }
   </div>
@@ -143,7 +161,9 @@
         id="entityIsFinished"
         type="checkbox"
         [checked]="bdEntityForm()?.isFinished"
-        (change)="updateEntityCheckbox('isFinished', $any($event).target.checked)"
+        (change)="
+          updateEntityCheckbox('isFinished', $any($event).target.checked)
+        "
         name="entityIsFinished"
       />
     </div>

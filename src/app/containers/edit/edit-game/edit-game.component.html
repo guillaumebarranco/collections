@@ -1,17 +1,42 @@
 <app-edit-entity class="edit-entity--light">
-  @if(!isDialogMode()) {
-  <button (click)="navigateToGames()" class="back-link">Retour aux jeux</button>
-  } @else {
-  <button
-    type="button"
-    class="dialog-close"
-    aria-label="Fermer"
-    (click)="navigateToGames()"
-  >
-    &#10005;
-  </button>
-  }
-
+  <div class="dialog-header">
+    @if(!isDialogMode()) {
+    <button (click)="navigateToGames()" class="back-link">
+      Retour aux jeux
+    </button>
+    } @else {
+    <button
+      type="button"
+      class="dialog-close"
+      aria-label="Fermer"
+      (click)="navigateToGames()"
+    >
+      &#10005;
+    </button>
+    @if(hasDialogNavigation()) {
+    <div class="dialog-nav">
+      <button
+        type="button"
+        class="dialog-nav-btn"
+        aria-label="Élément précédent"
+        [disabled]="!canNavigatePrevious()"
+        (click)="navigatePrevious()"
+      >
+        ←
+      </button>
+      <span class="dialog-nav-count">{{ dialogPositionLabel() }}</span>
+      <button
+        type="button"
+        class="dialog-nav-btn"
+        aria-label="Élément suivant"
+        [disabled]="!canNavigateNext()"
+        (click)="navigateNext()"
+      >
+        →
+      </button>
+    </div>
+    } }
+  </div>
   <h1 class="title">Editer un jeu</h1>
 
   @if(gameNotFound()) {
@@ -166,7 +191,9 @@
         type="number"
         min="0"
         [ngModel]="gameEntityForm()?.averageTimeToHundredPercent"
-        (ngModelChange)="updateEntityField('averageTimeToHundredPercent', $event)"
+        (ngModelChange)="
+          updateEntityField('averageTimeToHundredPercent', $event)
+        "
         name="entityAverageTimeHundred"
       />
     </div>

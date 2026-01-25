@@ -36,6 +36,8 @@ export class SerieComponent {
   private readonly authService = inject(AuthService);
 
   @Input() serie!: Serie;
+  @Input() list: Serie[] = [];
+  @Input() index = -1;
   @Output() serieUpdated = new EventEmitter<void>();
 
   seasonsExpanded = signal(false);
@@ -50,10 +52,15 @@ export class SerieComponent {
     const directId = this.activatedRoute.snapshot.params['id'];
     const parentId = this.activatedRoute.parent?.snapshot.params['id'];
     const userId = directId || parentId;
+    const list = this.list && this.list.length > 0 ? this.list : [this.serie];
+    const index =
+      this.index >= 0 && this.index < list.length ? this.index : 0;
     const dialogRef = this.dialog.open(EditSerieComponent, {
       data: {
         serie: this.serie,
         userId: userId || 'guillaume',
+        list,
+        index,
       },
       width: '720px',
       maxWidth: '95vw',

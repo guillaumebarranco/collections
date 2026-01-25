@@ -35,6 +35,8 @@ type EditSerieEntityForm = {
 type EditSerieDialogData = {
   serie: Serie;
   userId?: string;
+  list?: Serie[];
+  index?: number;
 };
 
 const DEFAULT_USER_ID = 'guillaume';
@@ -67,6 +69,28 @@ export class EditSerieComponent {
   readonly isSaving = signal<boolean>(false);
   readonly isDeleting = signal<boolean>(false);
   readonly isAdmin = computed(() => this.authService.isAdmin());
+  readonly dialogList = signal<Serie[]>([]);
+  readonly dialogIndex = signal<number>(-1);
+  readonly hasDialogNavigation = computed(() => {
+    return (
+      this.isDialogMode() &&
+      this.dialogList().length > 1 &&
+      this.dialogIndex() >= 0
+    );
+  });
+  readonly canNavigatePrevious = computed(() => {
+    return this.hasDialogNavigation() && this.dialogIndex() > 0;
+  });
+  readonly canNavigateNext = computed(() => {
+    return (
+      this.hasDialogNavigation() &&
+      this.dialogIndex() < this.dialogList().length - 1
+    );
+  });
+  readonly dialogPositionLabel = computed(() => {
+    if (!this.hasDialogNavigation()) return '';
+    return `${this.dialogIndex() + 1}/${this.dialogList().length}`;
+  });
 
   readonly serieSlug = computed(() => {
     return this.activatedRoute.snapshot.paramMap.get('slug') || '';
@@ -74,10 +98,7 @@ export class EditSerieComponent {
 
   constructor() {
     if (this.dialogData?.serie) {
-      this.serie.set(this.dialogData.serie);
-      this.serieForm.set(this.toForm(this.dialogData.serie));
-      this.serieEntityForm.set(this.toEntityForm(this.dialogData.serie));
-      this.serieNotFound.set(false);
+      this.setupDialogNavigation(this.dialogData);
       return;
     }
 
@@ -179,6 +200,14 @@ export class EditSerieComponent {
 
   isDialogMode(): boolean {
     return Boolean(this.dialogRef);
+  }
+
+  navigatePrevious(): void {
+    this.navigateToOffset(-1);
+  }
+
+  navigateNext(): void {
+    this.navigateToOffset(1);
   }
 
   getActorsLabel(actors: Serie['actors'] | undefined): string {
@@ -360,5 +389,43 @@ export class EditSerieComponent {
 
   private canEditCurrentUser(): boolean {
     return this.authService.canEdit(this.getCurrentUserId());
+  }
+
+  private setupDialogNavigation(data: EditSerieDialogData) {
+    const list = data.list && data.list.length > 0 ? data.list : [data.serie];
+    const index = this.resolveDialogIndex(list, data.index, data.serie);
+    this.dialogList.set(list);
+    this.dialogIndex.set(index);
+    this.setSerie(list[index] ?? data.serie);
+  }
+
+  private resolveDialogIndex(
+    list: Serie[],
+    index: number | undefined,
+    serie: Serie
+  ): number {
+    if (typeof index === 'number' && index >= 0 && index < list.length) {
+      return index;
+    }
+    const fallback = list.findIndex(
+      (item) => item.title === serie.title && item.director === serie.director
+    );
+    return fallback >= 0 ? fallback : 0;
+  }
+
+  private navigateToOffset(offset: number): void {
+    if (!this.hasDialogNavigation()) return;
+    const list = this.dialogList();
+    const nextIndex = this.dialogIndex() + offset;
+    if (nextIndex < 0 || nextIndex >= list.length) return;
+    this.dialogIndex.set(nextIndex);
+    this.setSerie(list[nextIndex]);
+  }
+
+  private setSerie(serie: Serie): void {
+    this.serie.set(serie);
+    this.serieForm.set(this.toForm(serie));
+    this.serieEntityForm.set(this.toEntityForm(serie));
+    this.serieNotFound.set(false);
   }
 }

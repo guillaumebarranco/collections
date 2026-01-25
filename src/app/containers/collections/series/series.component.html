@@ -102,9 +102,14 @@
   </div>
 
   <div class="series">
-    @for (serie of sortedSeries(); track serie.title) {
+    @for (serie of sortedSeries(); track serie.title; let i = $index) {
     <div class="serie-card">
-      <app-serie [serie]="serie" (serieUpdated)="refreshSeries()"></app-serie>
+      <app-serie
+        [serie]="serie"
+        [list]="sortedSeries()"
+        [index]="i"
+        (serieUpdated)="refreshSeries()"
+      ></app-serie>
     </div>
     }
   </div>

@@ -32,6 +32,8 @@ type EditManwhaEntityForm = {
 type EditManwhaDialogData = {
   manwha: Manwha;
   userId?: string;
+  list?: Manwha[];
+  index?: number;
 };
 
 const DEFAULT_USER_ID = 'guillaume';
@@ -64,6 +66,28 @@ export class EditManwhaComponent {
   readonly isSaving = signal<boolean>(false);
   readonly isDeleting = signal<boolean>(false);
   readonly isAdmin = computed(() => this.authService.isAdmin());
+  readonly dialogList = signal<Manwha[]>([]);
+  readonly dialogIndex = signal<number>(-1);
+  readonly hasDialogNavigation = computed(() => {
+    return (
+      this.isDialogMode() &&
+      this.dialogList().length > 1 &&
+      this.dialogIndex() >= 0
+    );
+  });
+  readonly canNavigatePrevious = computed(() => {
+    return this.hasDialogNavigation() && this.dialogIndex() > 0;
+  });
+  readonly canNavigateNext = computed(() => {
+    return (
+      this.hasDialogNavigation() &&
+      this.dialogIndex() < this.dialogList().length - 1
+    );
+  });
+  readonly dialogPositionLabel = computed(() => {
+    if (!this.hasDialogNavigation()) return '';
+    return `${this.dialogIndex() + 1}/${this.dialogList().length}`;
+  });
 
   readonly manwhaSlug = computed(() => {
     return this.activatedRoute.snapshot.paramMap.get('slug') || '';
@@ -71,10 +95,7 @@ export class EditManwhaComponent {
 
   constructor() {
     if (this.dialogData?.manwha) {
-      this.manwha.set(this.dialogData.manwha);
-      this.manwhaForm.set(this.toForm(this.dialogData.manwha));
-      this.manwhaEntityForm.set(this.toEntityForm(this.dialogData.manwha));
-      this.manwhaNotFound.set(false);
+      this.setupDialogNavigation(this.dialogData);
       return;
     }
 
@@ -253,6 +274,14 @@ export class EditManwhaComponent {
     return Boolean(this.dialogRef);
   }
 
+  navigatePrevious(): void {
+    this.navigateToOffset(-1);
+  }
+
+  navigateNext(): void {
+    this.navigateToOffset(1);
+  }
+
   private async loadManwhaFromSlug(params: ParamMap) {
     const slug = params.get('slug') || '';
     const userId = this.getCurrentUserId();
@@ -315,6 +344,44 @@ export class EditManwhaComponent {
 
   private canEditCurrentUser(): boolean {
     return this.authService.canEdit(this.getCurrentUserId());
+  }
+
+  private setupDialogNavigation(data: EditManwhaDialogData) {
+    const list = data.list && data.list.length > 0 ? data.list : [data.manwha];
+    const index = this.resolveDialogIndex(list, data.index, data.manwha);
+    this.dialogList.set(list);
+    this.dialogIndex.set(index);
+    this.setManwha(list[index] ?? data.manwha);
+  }
+
+  private resolveDialogIndex(
+    list: Manwha[],
+    index: number | undefined,
+    manwha: Manwha
+  ): number {
+    if (typeof index === 'number' && index >= 0 && index < list.length) {
+      return index;
+    }
+    const fallback = list.findIndex(
+      (item) => item.title === manwha.title && item.author === manwha.author
+    );
+    return fallback >= 0 ? fallback : 0;
+  }
+
+  private navigateToOffset(offset: number): void {
+    if (!this.hasDialogNavigation()) return;
+    const list = this.dialogList();
+    const nextIndex = this.dialogIndex() + offset;
+    if (nextIndex < 0 || nextIndex >= list.length) return;
+    this.dialogIndex.set(nextIndex);
+    this.setManwha(list[nextIndex]);
+  }
+
+  private setManwha(manwha: Manwha): void {
+    this.manwha.set(manwha);
+    this.manwhaForm.set(this.toForm(manwha));
+    this.manwhaEntityForm.set(this.toEntityForm(manwha));
+    this.manwhaNotFound.set(false);
   }
 
   private toSlug(value: string): string {

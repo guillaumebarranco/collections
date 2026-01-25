@@ -34,6 +34,8 @@ export class MovieComponent {
   private readonly authService = inject(AuthService);
 
   @Input() movie!: Movie;
+  @Input() list: Movie[] = [];
+  @Input() index = -1;
   @Output() movieUpdated = new EventEmitter<void>();
 
   readonly canEdit = computed(() => {
@@ -46,10 +48,15 @@ export class MovieComponent {
     const directId = this.activatedRoute.snapshot.params['id'];
     const parentId = this.activatedRoute.parent?.snapshot.params['id'];
     const userId = directId || parentId;
+    const list = this.list && this.list.length > 0 ? this.list : [this.movie];
+    const index =
+      this.index >= 0 && this.index < list.length ? this.index : 0;
     const dialogRef = this.dialog.open(EditMovieComponent, {
       data: {
         movie: this.movie,
         userId: userId || 'guillaume',
+        list,
+        index,
       },
       width: '720px',
       maxWidth: '95vw',

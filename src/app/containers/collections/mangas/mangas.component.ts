@@ -317,10 +317,16 @@ export class MangasComponent implements OnInit {
   }
 
   openEditMangaDialog(manga: Manga): void {
+    const mangas = this.sortedMangas();
+    const index = mangas.findIndex(
+      (item) => item.title === manga.title && item.author === manga.author
+    );
     const dialogRef = this.dialog.open(EditMangaComponent, {
       data: {
         manga,
         userId: this.getActiveUserId(),
+        list: mangas,
+        index,
       },
       width: '720px',
       maxWidth: '95vw',

@@ -1,19 +1,42 @@
 <app-edit-entity class="edit-entity--light">
-  @if(!isDialogMode()) {
-  <button (click)="navigateToSeries()" class="back-link">
-    Retour aux s&#233;ries
-  </button>
-  } @else {
-  <button
-    type="button"
-    class="dialog-close"
-    aria-label="Fermer"
-    (click)="navigateToSeries()"
-  >
-    &#10005;
-  </button>
-  }
-
+  <div class="dialog-header">
+    @if(!isDialogMode()) {
+    <button (click)="navigateToSeries()" class="back-link">
+      Retour aux s&#233;ries
+    </button>
+    } @else {
+    <button
+      type="button"
+      class="dialog-close"
+      aria-label="Fermer"
+      (click)="navigateToSeries()"
+    >
+      &#10005;
+    </button>
+    @if(hasDialogNavigation()) {
+    <div class="dialog-nav">
+      <button
+        type="button"
+        class="dialog-nav-btn"
+        aria-label="Élément précédent"
+        [disabled]="!canNavigatePrevious()"
+        (click)="navigatePrevious()"
+      >
+        ←
+      </button>
+      <span class="dialog-nav-count">{{ dialogPositionLabel() }}</span>
+      <button
+        type="button"
+        class="dialog-nav-btn"
+        aria-label="Élément suivant"
+        [disabled]="!canNavigateNext()"
+        (click)="navigateNext()"
+      >
+        →
+      </button>
+    </div>
+    } }
+  </div>
   <h1 class="title">&#201;diter une s&#233;rie</h1>
 
   @if(serieNotFound()) {
@@ -163,7 +186,8 @@
     <div class="form-row">
       <label>Données des saisons</label>
       <div class="season-form-grid">
-        @for (season of serieEntityForm()?.seasonsData; track season.seasonNumber) {
+        @for (season of serieEntityForm()?.seasonsData; track
+        season.seasonNumber) {
         <div class="season-form-card">
           <div class="season-form-title">Saison {{ season.seasonNumber }}</div>
           <label>
@@ -185,7 +209,11 @@
               min="0"
               [ngModel]="season.totalLength"
               (ngModelChange)="
-                updateSeasonDataField(season.seasonNumber, 'totalLength', $event)
+                updateSeasonDataField(
+                  season.seasonNumber,
+                  'totalLength',
+                  $event
+                )
               "
               name="seasonTotalLength-{{ season.seasonNumber }}"
             />
@@ -194,8 +222,7 @@
         }
       </div>
     </div>
-    }
-    }
+    } }
 
     <div class="form-actions">
       <button type="submit" class="submit-btn" [disabled]="isSaving()">

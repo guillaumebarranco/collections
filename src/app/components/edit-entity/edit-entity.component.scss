@@ -5,6 +5,10 @@ app-edit-entity {
   }
 }
 
+.dialog-header {
+  height: 50px;
+}
+
 app-edit-entity.edit-entity--light {
   .edit-entity {
     max-width: 720px;
@@ -36,9 +40,6 @@ app-edit-entity.edit-entity--light {
   }
 
   .dialog-close {
-    position: absolute;
-    top: 12px;
-    right: 12px;
     width: 32px;
     height: 32px;
     border-radius: 999px;
@@ -60,6 +61,46 @@ app-edit-entity.edit-entity--light {
   .dialog-close:focus-visible {
     outline: 2px solid #2f6fed;
     outline-offset: 2px;
+  }
+
+  .dialog-nav {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .dialog-nav-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 999px;
+    border: none;
+    background: #f2f4f8;
+    color: #1a1a1a;
+    font-size: 1rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease, opacity 0.2s ease;
+  }
+
+  .dialog-nav-btn:hover {
+    background: #e5e9f2;
+  }
+
+  .dialog-nav-btn:disabled {
+    cursor: default;
+    opacity: 0.4;
+  }
+
+  .dialog-nav-btn:focus-visible {
+    outline: 2px solid #2f6fed;
+    outline-offset: 2px;
+  }
+
+  .dialog-nav-count {
+    font-size: 0.85rem;
+    color: #4a4a4a;
   }
 
   .title {
@@ -186,6 +227,49 @@ app-edit-entity.edit-entity--dark {
     font-size: 20px;
     cursor: pointer;
     float: right;
+  }
+
+  .dialog-nav {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .dialog-nav-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 999px;
+    border: none;
+    background: #1b1b1b;
+    color: #bbb;
+    font-size: 1rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease, opacity 0.2s ease;
+  }
+
+  .dialog-nav-btn:hover {
+    background: #2a2a2a;
+  }
+
+  .dialog-nav-btn:disabled {
+    cursor: default;
+    opacity: 0.4;
+  }
+
+  .dialog-nav-btn:focus-visible {
+    outline: 2px solid #2f6fed;
+    outline-offset: 2px;
+  }
+
+  .dialog-nav-count {
+    font-size: 0.8rem;
+    color: #888;
   }
 
   .title {

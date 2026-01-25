@@ -31,6 +31,8 @@ type EditComicEntityForm = {
 type EditComicDialogData = {
   comic: Comic;
   userId?: string;
+  list?: Comic[];
+  index?: number;
 };
 
 const DEFAULT_USER_ID = 'guillaume';
@@ -63,6 +65,28 @@ export class EditComicComponent {
   readonly isSaving = signal<boolean>(false);
   readonly isDeleting = signal<boolean>(false);
   readonly isAdmin = computed(() => this.authService.isAdmin());
+  readonly dialogList = signal<Comic[]>([]);
+  readonly dialogIndex = signal<number>(-1);
+  readonly hasDialogNavigation = computed(() => {
+    return (
+      this.isDialogMode() &&
+      this.dialogList().length > 1 &&
+      this.dialogIndex() >= 0
+    );
+  });
+  readonly canNavigatePrevious = computed(() => {
+    return this.hasDialogNavigation() && this.dialogIndex() > 0;
+  });
+  readonly canNavigateNext = computed(() => {
+    return (
+      this.hasDialogNavigation() &&
+      this.dialogIndex() < this.dialogList().length - 1
+    );
+  });
+  readonly dialogPositionLabel = computed(() => {
+    if (!this.hasDialogNavigation()) return '';
+    return `${this.dialogIndex() + 1}/${this.dialogList().length}`;
+  });
 
   readonly comicSlug = computed(() => {
     return this.activatedRoute.snapshot.paramMap.get('slug') || '';
@@ -70,10 +94,7 @@ export class EditComicComponent {
 
   constructor() {
     if (this.dialogData?.comic) {
-      this.comic.set(this.dialogData.comic);
-      this.comicForm.set(this.toForm(this.dialogData.comic));
-      this.comicEntityForm.set(this.toEntityForm(this.dialogData.comic));
-      this.comicNotFound.set(false);
+      this.setupDialogNavigation(this.dialogData);
       return;
     }
 
@@ -242,6 +263,14 @@ export class EditComicComponent {
     return Boolean(this.dialogRef);
   }
 
+  navigatePrevious(): void {
+    this.navigateToOffset(-1);
+  }
+
+  navigateNext(): void {
+    this.navigateToOffset(1);
+  }
+
   private async loadComicFromSlug(params: ParamMap) {
     const slug = params.get('slug') || '';
     const userId = this.getCurrentUserId();
@@ -302,6 +331,44 @@ export class EditComicComponent {
 
   private canEditCurrentUser(): boolean {
     return this.authService.canEdit(this.getCurrentUserId());
+  }
+
+  private setupDialogNavigation(data: EditComicDialogData) {
+    const list = data.list && data.list.length > 0 ? data.list : [data.comic];
+    const index = this.resolveDialogIndex(list, data.index, data.comic);
+    this.dialogList.set(list);
+    this.dialogIndex.set(index);
+    this.setComic(list[index] ?? data.comic);
+  }
+
+  private resolveDialogIndex(
+    list: Comic[],
+    index: number | undefined,
+    comic: Comic
+  ): number {
+    if (typeof index === 'number' && index >= 0 && index < list.length) {
+      return index;
+    }
+    const fallback = list.findIndex(
+      (item) => item.title === comic.title && item.designer === comic.designer
+    );
+    return fallback >= 0 ? fallback : 0;
+  }
+
+  private navigateToOffset(offset: number): void {
+    if (!this.hasDialogNavigation()) return;
+    const list = this.dialogList();
+    const nextIndex = this.dialogIndex() + offset;
+    if (nextIndex < 0 || nextIndex >= list.length) return;
+    this.dialogIndex.set(nextIndex);
+    this.setComic(list[nextIndex]);
+  }
+
+  private setComic(comic: Comic): void {
+    this.comic.set(comic);
+    this.comicForm.set(this.toForm(comic));
+    this.comicEntityForm.set(this.toEntityForm(comic));
+    this.comicNotFound.set(false);
   }
 
   private toSlug(value: string): string {

@@ -149,10 +149,15 @@
   }
 
   <div class="movies">
-    @for (movie of sortedMovies(); track `${movie.title}-${movie.releaseDate}`)
-    {
+    @for (movie of sortedMovies(); track `${movie.title}-${movie.releaseDate}`;
+    let i = $index) {
     <div class="movie-card">
-      <app-movie [movie]="movie" (movieUpdated)="refreshMovies()"></app-movie>
+      <app-movie
+        [movie]="movie"
+        [list]="sortedMovies()"
+        [index]="i"
+        (movieUpdated)="refreshMovies()"
+      ></app-movie>
     </div>
     }
   </div>

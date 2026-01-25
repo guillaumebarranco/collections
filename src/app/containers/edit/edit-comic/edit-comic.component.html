@@ -1,18 +1,42 @@
 <app-edit-entity class="edit-entity--dark">
-  @if(!isDialogMode()) {
-  <button (click)="navigateToComics()" class="back-link">
-    Retour aux comics
-  </button>
-  } @else {
-  <button
-    type="button"
-    class="dialog-close"
-    aria-label="Fermer"
-    (click)="navigateToComics()"
-  >
-    ✕
-  </button>
-  }
+  <div class="dialog-header">
+    @if(!isDialogMode()) {
+    <button (click)="navigateToComics()" class="back-link">
+      Retour aux comics
+    </button>
+    } @else {
+    <button
+      type="button"
+      class="dialog-close"
+      aria-label="Fermer"
+      (click)="navigateToComics()"
+    >
+      ✕
+    </button>
+    @if(hasDialogNavigation()) {
+    <div class="dialog-nav">
+      <button
+        type="button"
+        class="dialog-nav-btn"
+        aria-label="Élément précédent"
+        [disabled]="!canNavigatePrevious()"
+        (click)="navigatePrevious()"
+      >
+        ←
+      </button>
+      <span class="dialog-nav-count">{{ dialogPositionLabel() }}</span>
+      <button
+        type="button"
+        class="dialog-nav-btn"
+        aria-label="Élément suivant"
+        [disabled]="!canNavigateNext()"
+        (click)="navigateNext()"
+      >
+        →
+      </button>
+    </div>
+    } }
+  </div>
 
   <h1 class="title">Éditer un comic</h1>
 
