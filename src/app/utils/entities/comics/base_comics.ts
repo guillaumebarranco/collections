@@ -723,7 +723,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Tom King - Andy Kubert',
     writer: 'Tom King - Andy Kubert',
     coverUrl: '/comics_pictures/81oWRTbEIaL._AC_UF1000,1000_QL80_.jpg',
-    pages: 0,
+    pages: 184,
     genre: 'Super-héros',
   },
   {
@@ -731,7 +731,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Gene Luen Yang - Gurihiru',
     writer: 'Gene Luen Yang - Gurihiru',
     coverUrl: '/comics_pictures/superman-ecrase-le-klan.jpg',
-    pages: 0,
+    pages: 248,
     genre: 'Super-héros',
   },
   {
@@ -739,7 +739,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Mark Waid - Leinil Francis Yu',
     writer: 'Mark Waid - Leinil Francis Yu',
     coverUrl: '/comics_pictures/superman-les-origines.jpg',
-    pages: 0,
+    pages: 352,
     genre: 'Super-héros',
   },
   {
@@ -747,7 +747,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Max Landis',
     writer: 'Max Landis',
     coverUrl: '/comics_pictures/superman-american-alien-nomad.jpg',
-    pages: 0,
+    pages: 224,
     genre: 'Super-héros',
   },
   {
@@ -756,7 +756,7 @@ export const baseComics: BaseComic[] = [
     writer: 'Peter J. Tomasi - Patrick Gleason',
     coverUrl:
       '/comics_pictures/urban-comics-nomad-batman-amp-robin-8211-tueur-ne.jpg',
-    pages: 0,
+    pages: 208,
     genre: 'Super-héros',
   },
   {
@@ -764,7 +764,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Tom Taylor - Trevor Hairsine - Stefano Gaudiano',
     writer: 'Tom Taylor - Trevor Hairsine - Stefano Gaudiano',
     coverUrl: '/comics_pictures/dceased.jpg',
-    pages: 0,
+    pages: 224,
     genre: 'Super-héros',
   },
   {
@@ -772,7 +772,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Tom King - Mitch Gerads',
     writer: 'Tom King - Mitch Gerads',
     coverUrl: '/comics_pictures/81H792QVGgL.jpg',
-    pages: 0,
+    pages: 320,
     genre: 'Super-héros',
   },
   {
@@ -780,7 +780,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Bill Willingham - Mark Buckingham',
     writer: 'Bill Willingham - Mark Buckingham',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 432,
     genre: 'Fantastique',
   },
   {
@@ -788,7 +788,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Bill Willingham - Mark Buckingham',
     writer: 'Bill Willingham - Mark Buckingham',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 432,
     genre: 'Fantastique',
   },
   {
@@ -796,7 +796,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Bill Willingham - Mark Buckingham',
     writer: 'Bill Willingham - Mark Buckingham',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 432,
     genre: 'Fantastique',
   },
   {
@@ -804,7 +804,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Bill Willingham - Mark Buckingham',
     writer: 'Bill Willingham - Mark Buckingham',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 432,
     genre: 'Fantastique',
   },
   {
@@ -812,7 +812,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Geoff Johns - Andy Kubert',
     writer: 'Geoff Johns - Andy Kubert',
     coverUrl: '/comics_pictures/flashpoint-edition-10-ans.jpg',
-    pages: 0,
+    pages: 176,
     genre: 'Super-héros',
   },
   {
@@ -828,7 +828,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Jason Aaron - Rafa Sandoval',
     writer: 'Jason Aaron - Rafa Sandoval',
     coverUrl: '/comics_pictures/absolute-superman-tome-1.jpg',
-    pages: 0,
+    pages: 144,
     genre: 'Super-héros',
   },
   {
@@ -837,7 +837,7 @@ export const baseComics: BaseComic[] = [
     writer: 'Scott Snyder - Nick Dragotta',
     coverUrl:
       '/comics_pictures/absolute-batman-tome-1-edition-pulp-rsquo-s.jpg',
-    pages: 0,
+    pages: 184,
     genre: 'Super-héros',
   },
   {
@@ -845,7 +845,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Mark Waid - Dan Mora',
     writer: 'Mark Waid - Dan Mora',
     coverUrl: '/comics_pictures/justice-league-unlimited-tome-1.jpg',
-    pages: 0,
+    pages: 160,
     genre: 'Super-héros',
   },
   {
@@ -853,7 +853,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Joshua Williamson - Dan Mora',
     writer: 'Joshua Williamson - Dan Mora',
     coverUrl: '/comics_pictures/superman-dark-prophecy-tome-1.jpg',
-    pages: 0,
+    pages: 352,
     genre: 'Super-héros',
   },
   {
@@ -861,7 +861,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Marv Wolfman - George Perez',
     writer: 'Marv Wolfman - George Perez',
     coverUrl: '/comics_pictures/81AH2uqPEOL._AC_UF1000,1000_QL80_.jpg',
-    pages: 0,
+    pages: 544,
     genre: 'Super-héros',
   },
   {
@@ -869,7 +869,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Tom King - Bilquis Evely',
     writer: 'Tom King - Bilquis Evely',
     coverUrl: '/comics_pictures/supergirl-woman-of-tomorrow-tp-168602.webp',
-    pages: 0,
+    pages: 224,
     genre: 'Super-héros',
   },
   {
@@ -877,7 +877,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Christopher Priest - Carlo Pagulayan',
     writer: 'Christopher Priest - Carlo Pagulayan',
     coverUrl: '/comics_pictures/superman-lost.jpg',
-    pages: 0,
+    pages: 248,
     genre: 'Super-héros',
   },
   {
@@ -909,7 +909,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Tom King - Mitch Gerads',
     writer: 'Tom King - Mitch Gerads',
     coverUrl: '/comics_pictures/joker-the-winning-card.jpg',
-    pages: 0,
+    pages: 112,
     genre: 'Super-héros',
   },
   {
@@ -917,7 +917,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Brian Azzarello - Lee Bermejo',
     writer: 'Brian Azzarello - Lee Bermejo',
     coverUrl: '/comics_pictures/81kN2LAxV5L._AC_UF1000,1000_QL80_.jpg',
-    pages: 0,
+    pages: 176,
     genre: 'Super-héros',
   },
   {
@@ -925,7 +925,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Geoff Johns',
     writer: 'Geoff Johns',
     coverUrl: '/comics_pictures/dc-univers-rebirth.jpg',
-    pages: 0,
+    pages: 592,
     genre: 'Super-héros',
   },
   {
@@ -933,7 +933,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Geoff Johns - Jason Fabok',
     writer: 'Geoff Johns - Jason Fabok',
     coverUrl: '/comics_pictures/trois-jokers.jpg',
-    pages: 0,
+    pages: 176,
     genre: 'Super-héros',
   },
   {
@@ -941,7 +941,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Mattson Tomlin - Andrea Sorrentino',
     writer: 'Mattson Tomlin - Andrea Sorrentino',
     coverUrl: '/comics_pictures/batman-imposter.jpg',
-    pages: 0,
+    pages: 176,
     genre: 'Super-héros',
   },
   {
@@ -981,7 +981,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Lee Bermejo',
     writer: 'Lee Bermejo',
     coverUrl: '/comics_pictures/71wO+4XWvaL._AC_UF1000,1000_QL80_.jpg',
-    pages: 0,
+    pages: 112,
     genre: 'Super-héros',
   },
   {
@@ -989,7 +989,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Paul Dini - Dustin Nguyen',
     writer: 'Paul Dini - Dustin Nguyen',
     coverUrl: '/comics_pictures/81QDOwXimKL._AC_UF1000,1000_QL80_.jpg',
-    pages: 0,
+    pages: 184,
     genre: 'Super-héros',
   },
   {
@@ -997,7 +997,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Geoff Johns - Gary Frank',
     writer: 'Geoff Johns - Gary Frank',
     coverUrl: '/comics_pictures/batman-terre-1.jpg',
-    pages: 0,
+    pages: 464,
     genre: 'Super-héros',
   },
   {
@@ -1005,7 +1005,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Scott Snyder - Jock',
     writer: 'Scott Snyder - Jock',
     coverUrl: '/comics_pictures/Urban-Comics-Nomad-Batman-Sombre-Reflet.jpg',
-    pages: 0,
+    pages: 296,
     genre: 'Super-héros',
   },
   {
@@ -1013,7 +1013,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Scott Snyder - Greg Capullo',
     writer: 'Scott Snyder - Greg Capullo',
     coverUrl: '/comics_pictures/batman-annee-zero.jpg',
-    pages: 0,
+    pages: 400,
     genre: 'Super-héros',
   },
   {
@@ -1021,7 +1021,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Sean Murphy',
     writer: 'Sean Murphy',
     coverUrl: '/comics_pictures/batman-8211-curse-of-the-white-knight.jpg',
-    pages: 0,
+    pages: 272,
     genre: 'Super-héros',
   },
   {
@@ -1053,7 +1053,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Collectif',
     writer: 'Collectif',
     coverUrl: '/comics_pictures/batman-anthologie.jpg',
-    pages: 0,
+    pages: 368,
     genre: 'Super-héros',
   },
   {
@@ -1061,7 +1061,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Collectif',
     writer: 'Collectif',
     coverUrl: '/comics_pictures/dc-comics-anthologie.jpg',
-    pages: 0,
+    pages: 288,
     genre: 'Super-héros',
   },
   {
@@ -1069,7 +1069,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Sean Murphy',
     writer: 'Sean Murphy',
     coverUrl: '/comics_pictures/batman-beyond-the-white-knight.jpg',
-    pages: 0,
+    pages: 264,
     genre: 'Super-héros',
   },
   {
@@ -1157,7 +1157,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Collectif',
     writer: 'Collectif',
     coverUrl: '/comics_pictures/superman-anthologie.jpg',
-    pages: 0,
+    pages: 320,
     genre: 'Super-héros',
   },
   {
@@ -1165,7 +1165,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Kurt Busiek - Stuart Immonen',
     writer: 'Kurt Busiek - Stuart Immonen',
     coverUrl: '/comics_pictures/superman-identite-secrete.jpg',
-    pages: 0,
+    pages: 208,
     genre: 'Super-héros',
   },
   {
@@ -1221,7 +1221,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Donny Cates - Geoff Shaw',
     writer: 'Donny Cates - Geoff Shaw',
     coverUrl: '/comics_pictures/8103CpXxHuL._AC_UF1000,1000_QL80_.jpg',
-    pages: 0,
+    pages: 184,
     genre: 'Super-héros',
   },
   {
@@ -1229,7 +1229,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Al Ewing - Joe Bennett',
     writer: 'Al Ewing - Joe Bennett',
     coverUrl: '/comics_pictures/1507-1.jpg',
-    pages: 0,
+    pages: 128,
     genre: 'Super-héros',
   },
   {
