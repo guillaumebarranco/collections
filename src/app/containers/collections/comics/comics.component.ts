@@ -170,10 +170,7 @@ export class ComicsComponent implements OnInit {
         return sortedComics.sort(
           (a, b) => (a.readTimes || 0) - (b.readTimes || 0)
         );
-      case 'nbTomes':
-        return sortedComics.sort((a, b) => (b.nbTomes || 0) - (a.nbTomes || 0));
-      case 'nbTomes-asc':
-        return sortedComics.sort((a, b) => (a.nbTomes || 0) - (b.nbTomes || 0));
+
       case 'genre':
         return sortedComics.sort((a, b) => a.genre.localeCompare(b.genre));
       case 'genre-desc':

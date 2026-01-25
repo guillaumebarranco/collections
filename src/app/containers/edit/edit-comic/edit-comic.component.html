@@ -25,15 +25,8 @@
     <p><strong>Designer :</strong> {{ comic()?.designer }}</p>
     @if (comic()?.writer) {
     <p><strong>Writer :</strong> {{ comic()?.writer }}</p>
-    }
-    @if (comic()?.genre) {
+    } @if (comic()?.genre) {
     <p><strong>Genre :</strong> {{ comic()?.genre }}</p>
-    }
-    @if (comic()?.nbTomes) {
-    <p><strong>Nombre de tomes :</strong> {{ comic()?.nbTomes }}</p>
-    }
-    @if (comic()?.isFinished === false) {
-    <p><strong>Série :</strong> En cours</p>
     }
   </div>
   <br />
@@ -122,29 +115,6 @@
         [ngModel]="comicEntityForm()?.genre"
         (ngModelChange)="updateEntityField('genre', $event)"
         name="entityGenre"
-      />
-    </div>
-
-    <div class="form-row">
-      <label for="entityNbTomes">Nombre de tomes</label>
-      <input
-        id="entityNbTomes"
-        type="number"
-        min="0"
-        [ngModel]="comicEntityForm()?.nbTomes"
-        (ngModelChange)="updateEntityField('nbTomes', $event)"
-        name="entityNbTomes"
-      />
-    </div>
-
-    <div class="form-row checkbox-row">
-      <label for="entityIsFinished">Série terminée</label>
-      <input
-        id="entityIsFinished"
-        type="checkbox"
-        [checked]="comicEntityForm()?.isFinished"
-        (change)="updateEntityCheckbox('isFinished', $any($event).target.checked)"
-        name="entityIsFinished"
       />
     </div>
 

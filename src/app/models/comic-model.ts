@@ -5,10 +5,8 @@ export interface MandatoryComicData {
 
 export interface BaseComic extends MandatoryComicData {
   coverUrl: string;
-  pages?: number;
+  pages: number;
   genre: string;
-  nbTomes?: number;
-  isFinished?: boolean;
   writer: string;
 }
 

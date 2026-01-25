@@ -35,8 +35,6 @@ async function getAllComicsData(comics: UserComic[]): Promise<Comic[]> {
       coverUrl: definitiveMatchingComic?.coverUrl || '',
       pages: definitiveMatchingComic?.pages || 0,
       genre: definitiveMatchingComic?.genre || '',
-      nbTomes: definitiveMatchingComic?.nbTomes || 0,
-      isFinished: definitiveMatchingComic?.isFinished || false,
       writer: definitiveMatchingComic?.writer || '',
       owned: comic.owned,
     };

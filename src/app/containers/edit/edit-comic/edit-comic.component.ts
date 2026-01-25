@@ -24,8 +24,6 @@ type EditComicForm = {
 type EditComicEntityForm = {
   pages: number;
   genre: string;
-  nbTomes: number;
-  isFinished: boolean;
   writer: string;
   coverUrl: string;
 };
@@ -118,20 +116,13 @@ export class EditComicComponent {
     let nextValue: EditComicEntityForm[K] = value as EditComicEntityForm[K];
     if (field !== 'genre' && field !== 'writer' && field !== 'coverUrl') {
       const asNumber = Number(value);
-      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditComicEntityForm[K];
+      nextValue = (
+        Number.isNaN(asNumber) ? 0 : asNumber
+      ) as EditComicEntityForm[K];
     }
     this.comicEntityForm.set({
       ...current,
       [field]: nextValue,
-    });
-  }
-
-  updateEntityCheckbox(field: 'isFinished', checked: boolean) {
-    const current = this.comicEntityForm();
-    if (!current) return;
-    this.comicEntityForm.set({
-      ...current,
-      [field]: checked,
     });
   }
 
@@ -294,8 +285,6 @@ export class EditComicComponent {
     return {
       pages: comic.pages || 0,
       genre: comic.genre || '',
-      nbTomes: comic.nbTomes || 0,
-      isFinished: comic.isFinished !== false,
       writer: comic.writer || '',
       coverUrl: comic.coverUrl || '',
     };
@@ -306,8 +295,6 @@ export class EditComicComponent {
     return {
       pages: form.pages,
       genre: form.genre,
-      nbTomes: form.nbTomes,
-      isFinished: form.isFinished,
       writer: form.writer,
       coverUrl: form.coverUrl,
     };

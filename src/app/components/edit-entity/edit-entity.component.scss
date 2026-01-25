@@ -83,9 +83,9 @@ app-edit-entity.edit-entity--light {
     gap: 6px;
   }
 
-  .form-row input[type='text'],
-  .form-row input[type='number'],
-  .form-row input[type='date'] {
+  .form-row input[type="text"],
+  .form-row input[type="number"],
+  .form-row input[type="date"] {
     padding: 8px 10px;
     border-radius: 6px;
     border: 1px solid #d0d0d0;
@@ -167,7 +167,7 @@ app-edit-entity.edit-entity--dark {
     max-width: 640px;
     margin: 0 auto;
     padding: 16px 20px 24px;
-    color: #ddd;
+    color: #aaa;
   }
 
   .back-link {
@@ -217,8 +217,8 @@ app-edit-entity.edit-entity--dark {
     color: #9b9b9b;
   }
 
-  .form-row input[type='number'],
-  .form-row input[type='date'] {
+  .form-row input[type="number"],
+  .form-row input[type="date"] {
     background: #1b1b1b;
     border: 1px solid #333;
     border-radius: 6px;
