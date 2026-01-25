@@ -50,7 +50,11 @@ export const baseMoviesMcu: BaseMovie[] = [
   {
     title: 'Captain America : First Avenger',
     director: 'Joe Johnston',
-    actors: [{ name: 'Chris Evans' }],
+    actors: [
+      {
+        name: 'Chris Evans',
+      }
+    ],
     coverUrl:
       '/movies_pictures/50809-captain-america-the-first-avenger-0-150-0-225-crop.jpg',
     releaseDate: '2011-07-22',

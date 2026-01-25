@@ -619,7 +619,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Danny the Dog',
@@ -679,7 +679,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Carry-On',
@@ -839,7 +839,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Snatch',
@@ -849,7 +849,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Gladiator',
@@ -859,7 +859,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Source Code',
@@ -979,7 +979,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'The Shining',
@@ -1189,7 +1189,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'American Beauty',
@@ -1299,7 +1299,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Brice de Nice',
@@ -1349,7 +1349,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Camping',
@@ -1429,7 +1429,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Forrest Gump',
@@ -1439,7 +1439,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Pulp Fiction',
@@ -1449,7 +1449,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Mrs. Doubtfire',
@@ -1479,7 +1479,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Prisoners',
@@ -1509,7 +1509,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'After Earth',
@@ -1539,7 +1539,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Dredd',
@@ -1589,7 +1589,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Chronicle',
@@ -1599,7 +1599,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Real Steel',
@@ -1609,7 +1609,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Intouchables',
@@ -1629,7 +1629,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Never Back Down 2: The Beatdown',
@@ -1649,7 +1649,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Bloodsport',
@@ -1689,7 +1689,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Eagle Eye',
@@ -1719,7 +1719,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Never Back Down',
@@ -1789,7 +1789,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Jumanji',
@@ -1859,7 +1859,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Paul',
@@ -1879,7 +1879,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: '127 Heures',
@@ -1909,7 +1909,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Fatal',
@@ -1979,7 +1979,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Mr. Nobody',
@@ -1999,7 +1999,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Basic Instinct',
@@ -2009,7 +2009,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Reservoir Dogs',
@@ -2059,7 +2059,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Demolition Man',
@@ -2109,7 +2109,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Boss Level',
@@ -2127,7 +2127,7 @@ export const ronanMovies: UserMovie[] = [
     rating: 3.5,
     timesWatched: 2,
     firstViewedDate: '',
-    lastViewedDate: '',
+    lastViewedDate: '2026-01-22',
     seenAtCinema: false,
     owned: false,
   },
@@ -2139,7 +2139,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Iron Man 2',
@@ -2149,7 +2149,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Batman',
@@ -2159,7 +2159,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Batman Returns',
@@ -2199,7 +2199,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: "Zack Snyder's Justice League",
@@ -2209,7 +2209,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Catwoman',
@@ -2229,7 +2229,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Daredevil',
@@ -2259,7 +2259,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Kick-Ass',
@@ -2269,7 +2269,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Hancock',
@@ -2279,7 +2279,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Sky High',
@@ -2439,7 +2439,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Ralph Breaks the Internet',
@@ -2459,7 +2459,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Cars',
@@ -2489,7 +2489,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Rebelle',
@@ -2509,7 +2509,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Raiponce',
@@ -2529,7 +2529,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Shrek',
@@ -2539,7 +2539,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Shrek 2',
@@ -2549,7 +2549,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Les Indestructibles',
@@ -2559,7 +2559,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Monstres et Cie',
@@ -2569,7 +2569,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Toy Story',
@@ -2579,7 +2579,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Toy Story 2',
@@ -2589,7 +2589,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'South Park, le Film',
@@ -2700,7 +2700,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: '2 Fast 2 Furious',
@@ -2710,7 +2710,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Rocky',
@@ -2720,7 +2720,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Rocky II',
@@ -2730,7 +2730,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Rocky III',
@@ -2740,7 +2740,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Rocky IV',
@@ -2750,7 +2750,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Rocky V',
@@ -2760,7 +2760,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Rocky Balboa',
@@ -2770,7 +2770,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'The Terminator',
@@ -2780,7 +2780,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Terminator 2: Judgment Day',
@@ -2790,7 +2790,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Terminator 3: Rise of the Machines',
@@ -2860,7 +2860,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'James Bond : Skyfall',
@@ -2870,7 +2870,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'James Bond : Spectre',
@@ -2880,7 +2880,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Split',
@@ -2890,7 +2890,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Divergente',
@@ -2970,7 +2970,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Taxi 2',
@@ -3150,7 +3150,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'The Matrix Revolutions',
@@ -3160,7 +3160,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Spy Kids',
@@ -3190,7 +3190,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Bad Boys II',
@@ -3200,7 +3200,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Men in Black',
@@ -3210,7 +3210,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Men in Black II',
@@ -3280,7 +3280,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Scream',
@@ -3290,7 +3290,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Scream 2',
@@ -3300,7 +3300,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Scream 3',
@@ -3310,7 +3310,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Scream 4',
@@ -3410,7 +3410,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Morbius',
@@ -3450,7 +3450,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'The Gentlemen',
@@ -3460,7 +3460,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'The King',
@@ -3490,7 +3490,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Snowpiercer',
@@ -3520,7 +3520,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Rio',
@@ -3540,7 +3540,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Là-haut',
@@ -3550,7 +3550,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Mamma Mia!',
@@ -3660,7 +3660,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Mon voisin Totoro',
@@ -3760,7 +3760,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Le Robot sauvage',
@@ -3770,7 +3770,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Anora',
@@ -3880,7 +3880,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Wish : Asha et la Bonne Étoile',
@@ -3900,7 +3900,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Pauvres Créatures',
@@ -3930,7 +3930,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Yannick',
@@ -3990,7 +3990,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Killers of the Flower Moon',
@@ -4010,7 +4010,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Shazam! La Rage des Dieux',
@@ -4080,7 +4080,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'The Whale',
@@ -4090,7 +4090,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Krypto et les Super-Animaux',
@@ -4130,7 +4130,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: "Jurassic World : Le Monde d'après",
@@ -4140,7 +4140,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Ténor',
@@ -4220,7 +4220,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'The Trip',
@@ -4240,7 +4240,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Space Jam : Nouvelle Ère',
@@ -4270,7 +4270,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Un homme en colère',
@@ -4290,7 +4290,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Boîte noire',
@@ -4330,7 +4330,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Lost Bullet',
@@ -4410,7 +4410,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Bad Boys for Life',
@@ -4420,7 +4420,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Zombieland: Double Tap',
@@ -4430,7 +4430,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Gemini Man',
@@ -4450,7 +4450,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Marriage Story',
@@ -4480,7 +4480,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Toy Story 4',
@@ -4490,7 +4490,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'The Specials',
@@ -4540,7 +4540,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'The Meg',
@@ -4570,7 +4570,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Pacific Rim: Uprising',
@@ -4580,7 +4580,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Justice League',
@@ -4630,7 +4630,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Transformers: The Last Knight',
@@ -4640,7 +4640,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Good Time',
@@ -4660,7 +4660,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Get Out',
@@ -4710,7 +4710,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'The Nice Guys',
@@ -4720,7 +4720,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Kung Fu Panda 3',
@@ -4730,7 +4730,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Ip Man 3',
@@ -4780,7 +4780,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Batman vs. Robin',
@@ -4800,7 +4800,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Astérix : Le Domaine des dieux',
@@ -4810,7 +4810,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Horrible Bosses 2',
@@ -4830,7 +4830,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: '22 Jump Street',
@@ -4840,7 +4840,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'The Grand Budapest Hotel',
@@ -4850,7 +4850,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'The Monuments Men',
@@ -4920,7 +4920,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Dragon Ball Z: Battle of Gods',
@@ -4960,7 +4960,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Gangster Squad',
@@ -5170,7 +5170,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Ip Man',
@@ -5400,7 +5400,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Hero',
@@ -5560,7 +5560,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Dragon Ball Z: The Tree of Might',
@@ -5610,7 +5610,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Full Metal Jacket',
@@ -5670,7 +5670,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Amadeus',
@@ -5780,7 +5780,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Les aventures de Rabbi Jacob',
@@ -5830,7 +5830,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'La Ligne Verte',
@@ -5900,7 +5900,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Admis à tout prix',
@@ -5960,7 +5960,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Will Hunting',
@@ -5990,7 +5990,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'The Conjuring : Les Dossiers Warren',
@@ -6000,7 +6000,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'No pain no gain',
@@ -6010,7 +6010,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Time Out',
@@ -6020,7 +6020,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Qui veut la peau de Roger Rabbit',
@@ -6050,7 +6050,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Supergrave',
@@ -6080,7 +6080,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Comment tuer son boss',
@@ -6180,7 +6180,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Fighting',
@@ -6240,7 +6240,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'X-men 2',
@@ -6250,7 +6250,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'X-Men Origins : Wolverine',
@@ -6260,7 +6260,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Venom : Let There Be Carnage',
@@ -6360,7 +6360,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Shrek 4 : Il Était une Fois',
@@ -6370,7 +6370,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Star Wars : Épisode 1 - La menace fantôme',
@@ -6380,7 +6380,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Star Wars : Episode 4 - Un nouvel espoir',
@@ -6390,7 +6390,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Star Wars : Episode 6 - Le retour du Jedi',
@@ -6400,7 +6400,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Fast and Furious',
@@ -6410,7 +6410,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Fast and Furious : Tokyo Drift',
@@ -6420,7 +6420,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Fast & Furious 4',
@@ -6430,7 +6430,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Terminator Renaissance',
@@ -6440,7 +6440,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'John Wick : Chapitre 2',
@@ -6480,7 +6480,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'OSS 117 : Rio ne Répond Plus',
@@ -6490,7 +6490,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Le Labyrinthe',
@@ -6500,7 +6500,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Very Bad Trip',
@@ -6510,7 +6510,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Die Hard : Piège de cristal',
@@ -6550,7 +6550,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Underworld : Évolution',
@@ -6580,7 +6580,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Pirates des Caraïbes 2 : Le Secret du Coffre Maudit',
@@ -6590,7 +6590,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Blade : Trinity',
@@ -6640,7 +6640,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Rambo : First Blood',
@@ -6650,7 +6650,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'American Pie 3 : Marions-les',
@@ -6790,7 +6790,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Mulan 2',
@@ -6820,7 +6820,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Frère des ours',
@@ -6900,7 +6900,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Indiana Jones et le Temple maudit',
@@ -6910,7 +6910,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Pierre et le Loup',
@@ -6940,7 +6940,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Ne coupez pas !',
@@ -6960,7 +6960,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Star Trek : Sans limites',
@@ -6970,7 +6970,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Dernier train pour Busan',
@@ -6990,7 +6990,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Insidious : Chapitre 2',
@@ -7060,7 +7060,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: '10 ans déjà !',
@@ -7130,7 +7130,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'High School Musical 3 : Nos années lycée',
@@ -7160,7 +7160,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Treize à la douzaine 2',
@@ -7250,7 +7250,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Mission : Impossible',
@@ -7260,7 +7260,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Dragon Ball Z : Fusions',
@@ -7320,7 +7320,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Dragon Ball Z : Le Robot des glaces',
@@ -7420,7 +7420,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Les Infiltrés',
@@ -7450,7 +7450,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title:
@@ -7471,7 +7471,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: "Je Sais ce que Vous Avez Fait l'Été Dernier",
@@ -7651,7 +7651,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: "X-Men : L'Affrontement Final",
@@ -7671,7 +7671,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Les 4 Fantastiques',
@@ -7761,7 +7761,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: '40 jours et 40 nuits',
@@ -7821,7 +7821,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: "L'Âge de Glace 2",
@@ -7831,7 +7831,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: "L'Âge de Glace 4 : La Dérive des Continents",
@@ -7841,7 +7841,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Arthur 3 : La Guerre des Deux Mondes',
@@ -7891,7 +7891,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'La petite sirène',
@@ -7911,7 +7911,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: "Star Wars : Episode 5 - L'empire contre-attaque",
@@ -7921,7 +7921,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Fast & Furious 5',
@@ -7931,7 +7931,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'A couteaux tirés',
@@ -7951,7 +7951,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'OSS 117 : Alerte Rouge en Afrique Noire',
@@ -7961,7 +7961,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Incassable',
@@ -7971,7 +7971,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'La mémoire dans la peau',
@@ -8081,7 +8081,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: "Hellboy 2 : Les Légions d'Or Maudites",
@@ -8091,7 +8091,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Les bronzés',
@@ -8151,7 +8151,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: "Spy Kids 2: L'île des rêves perdus",
@@ -8221,7 +8221,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Rambo 2 : la mission',
@@ -8271,7 +8271,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Maléfique : Le Pouvoir du Mal',
@@ -8301,7 +8301,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'La Planète des singes : Les Origines',
@@ -8311,7 +8311,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Les Noces funèbres',
@@ -8321,7 +8321,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: "Comment se débarrasser d'un mec en 10 jours",
@@ -8341,7 +8341,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: "Atlantis : L'Empire perdu",
@@ -8411,7 +8411,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: "Sale temps à l'hôtel El Royale",
@@ -8451,7 +8451,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: "La Forme de l'eau",
@@ -8471,7 +8471,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Dunkerque',
@@ -8481,7 +8481,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: "Le Roi Arthur : La Légende d'Excalibur",
@@ -8491,7 +8491,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'The Boyfriend : Pourquoi lui ?',
@@ -8561,7 +8561,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Éternelle Adaline',
@@ -8581,7 +8581,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'American Nightmare 2 : Anarchy',
@@ -8611,7 +8611,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Le Hobbit : La Désolation de Smaug',
@@ -8621,7 +8621,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Et (beaucoup) plus si affinités',
@@ -8711,7 +8711,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: "Madagascar 3 : Bons Baisers d'Europe",
@@ -8761,7 +8761,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Les Trois Mousquetaires',
@@ -8801,7 +8801,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Copains pour toujours',
@@ -8831,7 +8831,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Les Chroniques de Spiderwick',
@@ -8881,7 +8881,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Admis à tous prix',
@@ -8931,7 +8931,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: "Master and Commander : De l'autre côté du monde",
@@ -8961,7 +8961,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: "Le Seigneur des anneaux : La Communauté de l'anneau",
@@ -8971,7 +8971,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Mission : Impossible 2',
@@ -8981,7 +8981,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Ghost Dog : La Voie du samouraï',
@@ -9021,7 +9021,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: "Dragon Ball Z : L'Histoire de Trunks",
@@ -9051,7 +9051,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: "Dragon Ball Z : L'Offensive des cyborgs",
@@ -9101,7 +9101,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Dragon Ball Z : À la poursuite de Garlic',
@@ -9121,7 +9121,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Nicky Larson Private Eyes',
@@ -9131,7 +9131,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Beauté cachée',
@@ -9191,7 +9191,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'La Route',
@@ -9241,7 +9241,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Les Dalton',
@@ -9301,7 +9301,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Dragon rouge',
@@ -9411,7 +9411,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Les Dents de la mer',
@@ -9421,7 +9421,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
   {
     title: 'Les Valseuses',
@@ -9475,7 +9475,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
 
   {
@@ -9486,7 +9486,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
 
   {
@@ -9497,7 +9497,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
 
   {
@@ -9508,7 +9508,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
 
   {
@@ -9519,7 +9519,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
 
   {
@@ -9574,7 +9574,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
 
   {
@@ -9585,7 +9585,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
 
   {
@@ -9607,7 +9607,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
 
   {
@@ -9629,7 +9629,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
 
   {
@@ -9707,7 +9707,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
 
   {
@@ -9718,7 +9718,7 @@ export const ronanMovies: UserMovie[] = [
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
-    owned: false,
+    owned: true,
   },
 
   {

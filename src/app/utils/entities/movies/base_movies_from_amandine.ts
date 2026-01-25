@@ -355,7 +355,14 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
   {
     title: 'Parasite',
     director: 'Bong Joon-ho',
-    actors: [{ name: 'Song Kang-ho' }, { name: 'Choi Woo-shik' }],
+    actors: [
+      {
+        name: 'Song Kang-ho',
+      },
+      {
+        name: 'Choi Woo-shik',
+      }
+    ],
     coverUrl: '/movies_pictures/3992754.jpg',
     releaseDate: '2019-05-30',
     length: 132,
