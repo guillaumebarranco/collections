@@ -71,6 +71,7 @@ export class EditGameComponent {
   readonly isSaving = signal<boolean>(false);
   readonly isDeleting = signal<boolean>(false);
   readonly isAdmin = computed(() => this.authService.isAdmin());
+  readonly hasDialogUpdates = signal<boolean>(false);
   readonly dialogList = signal<Game[]>([]);
   readonly dialogIndex = signal<number>(-1);
   readonly hasDialogNavigation = computed(() => {
@@ -179,7 +180,7 @@ export class EditGameComponent {
     return 'empty';
   }
 
-  async onSubmit() {
+  async onSubmit(navigateAfterSave = false) {
     const form = this.gameForm();
     const game = this.game();
     if (!form || !game) return;
@@ -215,6 +216,11 @@ export class EditGameComponent {
       }
 
       if (this.dialogRef) {
+        if (navigateAfterSave && this.canNavigateNext()) {
+          this.hasDialogUpdates.set(true);
+          this.navigateNext();
+          return;
+        }
         this.dialogRef.close({ updated: true, payload });
       }
     } catch (error) {
@@ -266,7 +272,9 @@ export class EditGameComponent {
 
   navigateToGames() {
     if (this.dialogRef) {
-      this.dialogRef.close();
+      this.dialogRef.close(
+        this.hasDialogUpdates() ? { updated: true } : undefined
+      );
       return;
     }
     const userId = this.getCurrentUserId();

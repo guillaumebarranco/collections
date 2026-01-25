@@ -67,6 +67,7 @@ export class EditBdComponent {
   readonly isSaving = signal<boolean>(false);
   readonly isDeleting = signal<boolean>(false);
   readonly isAdmin = computed(() => this.authService.isAdmin());
+  readonly hasDialogUpdates = signal<boolean>(false);
   readonly dialogList = signal<Bd[]>([]);
   readonly dialogIndex = signal<number>(-1);
   readonly hasDialogNavigation = computed(() => {
@@ -175,7 +176,7 @@ export class EditBdComponent {
     return 'empty';
   }
 
-  async onSubmit() {
+  async onSubmit(navigateAfterSave = false) {
     const form = this.bdForm();
     const bd = this.bd();
     if (!form || !bd) return;
@@ -210,6 +211,11 @@ export class EditBdComponent {
       }
 
       if (this.dialogRef) {
+        if (navigateAfterSave && this.canNavigateNext()) {
+          this.hasDialogUpdates.set(true);
+          this.navigateNext();
+          return;
+        }
         this.dialogRef.close({ updated: true, payload });
       }
     } catch (error) {
@@ -261,7 +267,9 @@ export class EditBdComponent {
 
   navigateToBds() {
     if (this.dialogRef) {
-      this.dialogRef.close();
+      this.dialogRef.close(
+        this.hasDialogUpdates() ? { updated: true } : undefined
+      );
       return;
     }
     const userId = this.getCurrentUserId();

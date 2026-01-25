@@ -195,6 +195,16 @@
       <button type="submit" class="submit-btn" [disabled]="isSaving()">
         Modifier
       </button>
+      @if (hasDialogNavigation()) {
+      <button
+        type="button"
+        class="submit-btn"
+        [disabled]="isSaving() || !canNavigateNext()"
+        (click)="onSubmit(true)"
+      >
+        Modifier et passer au suivant
+      </button>
+      }
       <button
         type="button"
         class="delete-btn"

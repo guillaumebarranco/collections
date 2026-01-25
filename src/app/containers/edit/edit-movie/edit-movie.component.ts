@@ -68,6 +68,7 @@ export class EditMovieComponent {
   readonly isSaving = signal<boolean>(false);
   readonly isDeleting = signal<boolean>(false);
   readonly isAdmin = computed(() => this.authService.isAdmin());
+  readonly hasDialogUpdates = signal<boolean>(false);
   readonly dialogList = signal<Movie[]>([]);
   readonly dialogIndex = signal<number>(-1);
   readonly hasDialogNavigation = computed(() => {
@@ -167,7 +168,7 @@ export class EditMovieComponent {
     return 'empty';
   }
 
-  async onSubmit() {
+  async onSubmit(navigateAfterSave = false) {
     const form = this.movieForm();
     const movie = this.movie();
     if (!form || !movie) return;
@@ -204,6 +205,11 @@ export class EditMovieComponent {
       }
 
       if (this.dialogRef) {
+        if (navigateAfterSave && this.canNavigateNext()) {
+          this.hasDialogUpdates.set(true);
+          this.navigateNext();
+          return;
+        }
         this.dialogRef.close({ updated: true, payload });
       }
     } catch (error) {
@@ -255,7 +261,9 @@ export class EditMovieComponent {
 
   navigateToMovies() {
     if (this.dialogRef) {
-      this.dialogRef.close();
+      this.dialogRef.close(
+        this.hasDialogUpdates() ? { updated: true } : undefined
+      );
       return;
     }
     const userId = this.getCurrentUserId();

@@ -66,6 +66,7 @@ export class EditManwhaComponent {
   readonly isSaving = signal<boolean>(false);
   readonly isDeleting = signal<boolean>(false);
   readonly isAdmin = computed(() => this.authService.isAdmin());
+  readonly hasDialogUpdates = signal<boolean>(false);
   readonly dialogList = signal<Manwha[]>([]);
   readonly dialogIndex = signal<number>(-1);
   readonly hasDialogNavigation = computed(() => {
@@ -177,7 +178,7 @@ export class EditManwhaComponent {
     return 'empty';
   }
 
-  async onSubmit() {
+  async onSubmit(navigateAfterSave = false) {
     const form = this.manwhaForm();
     const manwha = this.manwha();
     if (!form || !manwha) return;
@@ -212,6 +213,11 @@ export class EditManwhaComponent {
       }
 
       if (this.dialogRef) {
+        if (navigateAfterSave && this.canNavigateNext()) {
+          this.hasDialogUpdates.set(true);
+          this.navigateNext();
+          return;
+        }
         this.dialogRef.close({ updated: true, payload });
       }
     } catch (error) {
@@ -263,7 +269,9 @@ export class EditManwhaComponent {
 
   navigateToManwhas() {
     if (this.dialogRef) {
-      this.dialogRef.close();
+      this.dialogRef.close(
+        this.hasDialogUpdates() ? { updated: true } : undefined
+      );
       return;
     }
     const userId = this.getCurrentUserId();

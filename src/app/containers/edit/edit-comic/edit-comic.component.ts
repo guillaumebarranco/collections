@@ -65,6 +65,7 @@ export class EditComicComponent {
   readonly isSaving = signal<boolean>(false);
   readonly isDeleting = signal<boolean>(false);
   readonly isAdmin = computed(() => this.authService.isAdmin());
+  readonly hasDialogUpdates = signal<boolean>(false);
   readonly dialogList = signal<Comic[]>([]);
   readonly dialogIndex = signal<number>(-1);
   readonly hasDialogNavigation = computed(() => {
@@ -166,7 +167,7 @@ export class EditComicComponent {
     return 'empty';
   }
 
-  async onSubmit() {
+  async onSubmit(navigateAfterSave = false) {
     const form = this.comicForm();
     const comic = this.comic();
     if (!form || !comic) return;
@@ -201,6 +202,11 @@ export class EditComicComponent {
       }
 
       if (this.dialogRef) {
+        if (navigateAfterSave && this.canNavigateNext()) {
+          this.hasDialogUpdates.set(true);
+          this.navigateNext();
+          return;
+        }
         this.dialogRef.close({ updated: true, payload });
       }
     } catch (error) {
@@ -252,7 +258,9 @@ export class EditComicComponent {
 
   navigateToComics() {
     if (this.dialogRef) {
-      this.dialogRef.close();
+      this.dialogRef.close(
+        this.hasDialogUpdates() ? { updated: true } : undefined
+      );
       return;
     }
     const userId = this.getCurrentUserId();
