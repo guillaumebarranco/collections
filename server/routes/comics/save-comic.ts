@@ -69,8 +69,6 @@ router.post('/', (req: any, res: any) => {
         coverUrl: normalizeString(entityPayload.coverUrl, 'coverUrl'),
         pages: normalizeNumber(entityPayload.pages, 'pages'),
         genre: normalizeString(entityPayload.genre, 'genre'),
-        nbTomes: normalizeNumber(entityPayload.nbTomes, 'nbTomes'),
-        isFinished: normalizeBoolean(entityPayload.isFinished, 'isFinished'),
         writer: normalizeString(entityPayload.writer, 'writer'),
       });
     }
