@@ -98,10 +98,10 @@
   <div class="comics">
     @for (comic of sortedComics(); track comic.title) {
     <div class="comic-card">
-      <app-book
-        [book]="comic"
-        (editRequested)="openEditComicDialog($any(comic))"
-      ></app-book>
+      <app-comic
+        [comic]="comic"
+        (editRequested)="openEditComicDialog(comic)"
+      ></app-comic>
     </div>
     }
   </div>

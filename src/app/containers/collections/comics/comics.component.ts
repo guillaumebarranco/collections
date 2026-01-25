@@ -1,7 +1,7 @@
 import { Component, inject, signal, computed, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { BookComponent } from '../../../components/book/book.component';
+import { ComicComponent } from '../../../components/comic/comic.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import {
   ViewToggleComponent,
@@ -16,10 +16,8 @@ import {
   StatItem,
   StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
-import { Book } from '../../../models/book-model';
 import { Comic } from '../../../models/comic-model';
 import {
-  PAGES_PER_MANGA_TOME,
   getTotalComicsTomesRead,
   getTotalComicsPages,
   getEstimatedComicsReadingTime,
@@ -39,7 +37,7 @@ import { EditComicComponent } from '../../edit/edit-comic/edit-comic.component';
     RouterLink,
     CommonModule,
     FormsModule,
-    BookComponent,
+    ComicComponent,
     MenuComponent,
     ViewToggleComponent,
     SortDropdownComponent,
@@ -83,57 +81,25 @@ export class ComicsComponent implements OnInit {
   comicsList = signal<{ [key: string]: Comic[] }>({});
   readlistComicsList = signal<{ [key: string]: Comic[] }>({});
 
-  allComics = computed<Book[]>(() => {
+  allComics = computed<Comic[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
 
-    const comics = hasNameParam
+    return hasNameParam
       ? this.comicsList()[params['id']] || []
       : this.comicsList()['guillaume'];
-
-    return comics.map((comic) => ({
-      title: comic.title,
-      author: comic.designer,
-      rating: comic.rating,
-      readDate: comic.readDate,
-      readTimes: comic.readTimes,
-      coverUrl: comic.coverUrl,
-      pages: comic.pages || 0,
-      genre: comic.genre,
-      saga: '',
-      sagaOrder: 0,
-      nbTomes: comic.nbTomes || 0,
-      isFinished: comic.isFinished || false,
-      owned: comic.owned ?? false,
-    }));
   });
 
-  allReadlistComics = computed<Book[]>(() => {
+  allReadlistComics = computed<Comic[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
 
-    const comics = hasNameParam
+    return hasNameParam
       ? this.readlistComicsList()[params['id']] || []
       : this.readlistComicsList()['guillaume'];
-
-    return comics.map((comic) => ({
-      title: comic.title,
-      author: comic.designer,
-      rating: comic.rating,
-      readDate: comic.readDate,
-      readTimes: comic.readTimes,
-      coverUrl: comic.coverUrl,
-      pages: comic.pages || 0,
-      genre: comic.genre,
-      saga: '',
-      sagaOrder: 0,
-      nbTomes: comic.nbTomes || 0,
-      isFinished: comic.isFinished || false,
-      owned: comic.owned ?? false,
-    }));
   });
 
-  filteredComics = computed<Book[]>(() => {
+  filteredComics = computed<Comic[]>(() => {
     let comics = this.allComics();
     if (this.selectedView() === 'readlist') {
       comics = this.allReadlistComics();
@@ -149,7 +115,7 @@ export class ComicsComponent implements OnInit {
     return comics.filter((comic) => this.matchesSearch(comic, term));
   });
 
-  sortedComics = computed<Book[]>(() => {
+  sortedComics = computed<Comic[]>(() => {
     const sortedComics = [...this.filteredComics()];
     switch (this.selectedSort()) {
       case 'title':
@@ -157,9 +123,13 @@ export class ComicsComponent implements OnInit {
       case 'title-desc':
         return sortedComics.sort((a, b) => b.title.localeCompare(a.title));
       case 'designer':
-        return sortedComics.sort((a, b) => a.author.localeCompare(b.author));
+        return sortedComics.sort((a, b) =>
+          a.designer.localeCompare(b.designer)
+        );
       case 'designer-desc':
-        return sortedComics.sort((a, b) => b.author.localeCompare(a.author));
+        return sortedComics.sort((a, b) =>
+          b.designer.localeCompare(a.designer)
+        );
       case 'readDate':
         return sortedComics.sort(
           (a, b) =>
@@ -295,8 +265,8 @@ export class ComicsComponent implements OnInit {
       : '/select-comics-owned';
   }
 
-  private matchesSearch(comic: Book, term: string): boolean {
-    const haystack = [comic.title, comic.author, comic.genre]
+  private matchesSearch(comic: Comic, term: string): boolean {
+    const haystack = [comic.title, comic.designer, comic.genre]
       .filter(Boolean)
       .join(' ');
 

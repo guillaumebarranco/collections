@@ -1,0 +1,52 @@
+<app-entity-card>
+  @if (canEdit()) {
+  <button
+    entity-edit
+    type="button"
+    class="edit-button"
+    aria-label="Editer la BD"
+    (click)="requestEdit()"
+  >
+    &#9998;
+  </button>
+  }
+  <img
+    entity-cover
+    [src]="bd.coverUrl"
+    [alt]="bd.title"
+    class="cover-image"
+    referrerpolicy="no-referrer"
+  />
+  <div entity-info>
+    <h3 class="book-title">{{ bd.title }}</h3>
+    <p class="book-author">{{ bd.designer }}</p>
+    @if (bd.writer && bd.writer !== bd.designer) {
+    <p class="book-pages">{{ bd.writer }}</p>
+    }
+    @if (bd.pages) {
+    <p class="book-pages">{{ bd.pages }} pages</p>
+    } @if (bd.nbTomes) {
+    <p>
+      <span class="book-pages">{{ bd.nbTomes }} tomes</span>
+      @if(!bd.isFinished) {
+      <span class="book-pages"> (En cours)</span>
+      }
+    </p>
+    } @if (bd.readDate.includes('-')) {
+    <p class="book-read-times">
+      Lu le {{ bd.readDate | date : "dd/MM/yyyy" }}
+    </p>
+    } @if (bd.readTimes && bd.readTimes > 1) {
+    <p class="book-read-times">Lu {{ bd.readTimes }} fois</p>
+    }
+    <div class="book-rating entity-rating">
+      <span class="stars">
+        <span
+          *ngFor="let star of getRatingStars(bd.rating || 0)"
+          [class]="'star star-' + star.type"
+        ></span>
+      </span>
+      <span class="rating-text">{{ bd.rating }}/5</span>
+    </div>
+  </div>
+</app-entity-card>

@@ -98,10 +98,7 @@
   <div class="bds">
     @for (bd of sortedBds(); track bd.title) {
     <div class="bd-card">
-      <app-book
-        [book]="bd"
-        (editRequested)="openEditBdDialog($any(bd))"
-      ></app-book>
+      <app-bd [bd]="bd" (editRequested)="openEditBdDialog(bd)"></app-bd>
     </div>
     }
   </div>

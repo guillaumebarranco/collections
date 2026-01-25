@@ -1,0 +1,49 @@
+<app-entity-card>
+  @if (canEdit()) {
+  <button
+    entity-edit
+    type="button"
+    class="edit-button"
+    aria-label="Editer le manwha"
+    (click)="requestEdit()"
+  >
+    &#9998;
+  </button>
+  }
+  <img
+    entity-cover
+    [src]="manwha.coverUrl"
+    [alt]="manwha.title"
+    class="cover-image"
+    referrerpolicy="no-referrer"
+  />
+  <div entity-info>
+    <h3 class="book-title">{{ manwha.title }}</h3>
+    <p class="book-author">{{ manwha.author }}</p>
+    @if (manwha.pages) {
+    <p class="book-pages">{{ manwha.pages }} pages</p>
+    } @if (manwha.nbChapters) {
+    <p>
+      <span class="book-pages">{{ manwha.nbChapters }} chapitres</span>
+      @if(!manwha.isFinished) {
+      <span class="book-pages"> (En cours)</span>
+      }
+    </p>
+    } @if (manwha.readDate.includes('-')) {
+    <p class="book-read-times">
+      Lu le {{ manwha.readDate | date : "dd/MM/yyyy" }}
+    </p>
+    } @if (manwha.readTimes && manwha.readTimes > 1) {
+    <p class="book-read-times">Lu {{ manwha.readTimes }} fois</p>
+    }
+    <div class="book-rating entity-rating">
+      <span class="stars">
+        <span
+          *ngFor="let star of getRatingStars(manwha.rating || 0)"
+          [class]="'star star-' + star.type"
+        ></span>
+      </span>
+      <span class="rating-text">{{ manwha.rating }}/5</span>
+    </div>
+  </div>
+</app-entity-card>

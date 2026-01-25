@@ -1,7 +1,7 @@
 import { Component, computed, inject, signal, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { BookComponent } from '../../../components/book/book.component';
+import { ManwhaComponent } from '../../../components/manwha/manwha.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import {
   ViewToggleComponent,
@@ -18,10 +18,8 @@ import {
   getAllReadlistManwhas,
 } from '../../../facades/manwhas/manwhas.facade';
 import {
-  getEstimatedMangaReadingTime,
   getTotalManwhasPages,
   getTotalManwhasChaptersRead,
-  PAGES_PER_MANGA_TOME,
   getEstimatedManwhaReadingTime,
   PAGES_PER_MANWHA_CHAPTER,
 } from '../../../utils/stats.utils';
@@ -38,7 +36,7 @@ import { EditManwhaComponent } from '../../edit/edit-manwha/edit-manwha.componen
     RouterLink,
     CommonModule,
     FormsModule,
-    BookComponent,
+    ManwhaComponent,
     MenuComponent,
     ViewToggleComponent,
     SortDropdownComponent,

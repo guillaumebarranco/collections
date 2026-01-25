@@ -1,7 +1,7 @@
 import { Component, inject, signal, computed, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { BookComponent } from '../../../components/book/book.component';
+import { MangaComponent } from '../../../components/manga/manga.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import {
   ViewToggleComponent,
@@ -16,7 +16,6 @@ import {
   StatItem,
   StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
-import { Book } from '../../../models/book-model';
 import { Manga } from '../../../models/manga-model';
 import {
   getTotalMangaPages,
@@ -39,7 +38,7 @@ import { EditMangaComponent } from '../../edit/edit-manga/edit-manga.component';
     RouterLink,
     CommonModule,
     FormsModule,
-    BookComponent,
+    MangaComponent,
     MenuComponent,
     ViewToggleComponent,
     SortDropdownComponent,
@@ -83,57 +82,25 @@ export class MangasComponent implements OnInit {
   mangasList = signal<{ [key: string]: Manga[] }>({});
   readlistMangasList = signal<{ [key: string]: Manga[] }>({});
 
-  allMangas = computed<Book[]>(() => {
+  allMangas = computed<Manga[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
 
-    const mangas = hasNameParam
+    return hasNameParam
       ? this.mangasList()[params['id']] || []
       : this.mangasList()['guillaume'];
-
-    return mangas.map((manga) => ({
-      title: manga.title,
-      author: manga.author,
-      rating: manga.rating,
-      readDate: manga.readDate,
-      readTimes: manga.readTimes,
-      coverUrl: manga.coverUrl,
-      pages: manga.pages || 0,
-      genre: manga.genre,
-      saga: '',
-      sagaOrder: 0,
-      nbTomes: manga.nbTomes || 0,
-      isFinished: manga.isFinished || false,
-      owned: manga.owned ?? false,
-    }));
   });
 
-  allReadlistMangas = computed<Book[]>(() => {
+  allReadlistMangas = computed<Manga[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
 
-    const mangas = hasNameParam
+    return hasNameParam
       ? this.readlistMangasList()[params['id']] || []
       : this.readlistMangasList()['guillaume'];
-
-    return mangas.map((manga) => ({
-      title: manga.title,
-      author: manga.author,
-      rating: manga.rating,
-      readDate: manga.readDate,
-      readTimes: manga.readTimes,
-      coverUrl: manga.coverUrl,
-      pages: manga.pages || 0,
-      genre: manga.genre,
-      saga: '',
-      sagaOrder: 0,
-      nbTomes: manga.nbTomes || 0,
-      isFinished: manga.isFinished || false,
-      owned: manga.owned ?? false,
-    }));
   });
 
-  filteredMangas = computed<Book[]>(() => {
+  filteredMangas = computed<Manga[]>(() => {
     let mangas = this.allMangas();
     if (this.selectedView() === 'readlist') {
       mangas = this.allReadlistMangas();
@@ -149,7 +116,7 @@ export class MangasComponent implements OnInit {
     return mangas.filter((manga) => this.matchesSearch(manga, term));
   });
 
-  sortedMangas = computed<Book[]>(() => {
+  sortedMangas = computed<Manga[]>(() => {
     const sortedMangas = [...this.filteredMangas()];
     switch (this.selectedSort()) {
       case 'title':
@@ -302,7 +269,7 @@ export class MangasComponent implements OnInit {
       : '/select-mangas-owned';
   }
 
-  private matchesSearch(manga: Book, term: string): boolean {
+  private matchesSearch(manga: Manga, term: string): boolean {
     const haystack = [manga.title, manga.author, manga.genre]
       .filter(Boolean)
       .join(' ');

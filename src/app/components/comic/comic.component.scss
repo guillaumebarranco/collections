@@ -1,0 +1,22 @@
+@use "../../styles/components.scss" as components;
+
+.comic-title {
+  @include components.component-title-base;
+}
+
+.comic-designer,
+.comic-writer {
+  @include components.component-author-base;
+}
+
+.comic-pages {
+  @include components.component-secondary-info-base;
+}
+
+.comic-read-times {
+  @include components.component-times-base;
+}
+
+.comic-genre {
+  @include components.component-genre-base;
+}

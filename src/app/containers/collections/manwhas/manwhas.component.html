@@ -110,10 +110,10 @@
   <div class="manwhas">
     @for (manwha of sortedManwhas(); track manwha.title) {
     <div class="manwha-card">
-      <app-book
-        [book]="manwha"
+      <app-manwha
+        [manwha]="manwha"
         (editRequested)="openEditManwhaDialog(manwha)"
-      ></app-book>
+      ></app-manwha>
     </div>
     }
   </div>

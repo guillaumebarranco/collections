@@ -1,0 +1,49 @@
+<app-entity-card>
+  @if (canEdit()) {
+  <button
+    entity-edit
+    type="button"
+    class="edit-button"
+    aria-label="Editer le manga"
+    (click)="requestEdit()"
+  >
+    &#9998;
+  </button>
+  }
+  <img
+    entity-cover
+    [src]="manga.coverUrl"
+    [alt]="manga.title"
+    class="cover-image"
+    referrerpolicy="no-referrer"
+  />
+  <div entity-info>
+    <h3 class="book-title">{{ manga.title }}</h3>
+    <p class="book-author">{{ manga.author }}</p>
+    @if (manga.pages) {
+    <p class="book-pages">{{ manga.pages }} pages</p>
+    } @if (manga.nbTomes) {
+    <p>
+      <span class="book-pages">{{ manga.nbTomes }} tomes</span>
+      @if(!manga.isFinished) {
+      <span class="book-pages"> (En cours)</span>
+      }
+    </p>
+    } @if (manga.readDate.includes('-')) {
+    <p class="book-read-times">
+      Lu le {{ manga.readDate | date : "dd/MM/yyyy" }}
+    </p>
+    } @if (manga.readTimes && manga.readTimes > 1) {
+    <p class="book-read-times">Lu {{ manga.readTimes }} fois</p>
+    }
+    <div class="book-rating entity-rating">
+      <span class="stars">
+        <span
+          *ngFor="let star of getRatingStars(manga.rating || 0)"
+          [class]="'star star-' + star.type"
+        ></span>
+      </span>
+      <span class="rating-text">{{ manga.rating }}/5</span>
+    </div>
+  </div>
+</app-entity-card>

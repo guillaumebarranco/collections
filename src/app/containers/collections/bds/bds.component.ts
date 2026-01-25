@@ -1,7 +1,7 @@
 import { Component, inject, signal, computed, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { BookComponent } from '../../../components/book/book.component';
+import { BdComponent } from '../../../components/bd/bd.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import {
   ViewToggleComponent,
@@ -16,7 +16,6 @@ import {
   StatItem,
   StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
-import { Book } from '../../../models/book-model';
 import { Bd } from '../../../models/bd-model';
 import {
   PAGES_PER_MANGA_TOME,
@@ -36,7 +35,7 @@ import { EditBdComponent } from '../../edit/edit-bd/edit-bd.component';
     RouterLink,
     CommonModule,
     FormsModule,
-    BookComponent,
+    BdComponent,
     MenuComponent,
     ViewToggleComponent,
     SortDropdownComponent,
@@ -80,57 +79,25 @@ export class BdsComponent implements OnInit {
   bdsList = signal<{ [key: string]: Bd[] }>({});
   readlistBdsList = signal<{ [key: string]: Bd[] }>({});
 
-  allBds = computed<Book[]>(() => {
+  allBds = computed<Bd[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
 
-    const bds = hasNameParam
+    return hasNameParam
       ? this.bdsList()[params['id']] || []
       : this.bdsList()['guillaume'];
-
-    return bds.map((bd) => ({
-      title: bd.title,
-      author: bd.designer,
-      rating: bd.rating,
-      readDate: bd.readDate,
-      readTimes: bd.readTimes,
-      coverUrl: bd.coverUrl,
-      pages: bd.pages || 0,
-      genre: bd.genre,
-      saga: '',
-      sagaOrder: 0,
-      nbTomes: bd.nbTomes || 0,
-      isFinished: bd.isFinished || false,
-      owned: bd.owned ?? false,
-    }));
   });
 
-  allReadlistBds = computed<Book[]>(() => {
+  allReadlistBds = computed<Bd[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
 
-    const bds = hasNameParam
+    return hasNameParam
       ? this.readlistBdsList()[params['id']] || []
       : this.readlistBdsList()['guillaume'];
-
-    return bds.map((bd) => ({
-      title: bd.title,
-      author: bd.designer,
-      rating: bd.rating,
-      readDate: bd.readDate,
-      readTimes: bd.readTimes,
-      coverUrl: bd.coverUrl,
-      pages: bd.pages || 0,
-      genre: bd.genre,
-      saga: '',
-      sagaOrder: 0,
-      nbTomes: bd.nbTomes || 0,
-      isFinished: bd.isFinished || false,
-      owned: bd.owned ?? false,
-    }));
   });
 
-  filteredBds = computed<Book[]>(() => {
+  filteredBds = computed<Bd[]>(() => {
     let bds = this.allBds();
     if (this.selectedView() === 'readlist') {
       bds = this.allReadlistBds();
@@ -146,7 +113,7 @@ export class BdsComponent implements OnInit {
     return bds.filter((bd) => this.matchesSearch(bd, term));
   });
 
-  sortedBds = computed<Book[]>(() => {
+  sortedBds = computed<Bd[]>(() => {
     const sortedBds = [...this.filteredBds()];
     switch (this.selectedSort()) {
       case 'title':
@@ -154,9 +121,13 @@ export class BdsComponent implements OnInit {
       case 'title-desc':
         return sortedBds.sort((a, b) => b.title.localeCompare(a.title));
       case 'designer':
-        return sortedBds.sort((a, b) => a.author.localeCompare(b.author));
+        return sortedBds.sort((a, b) =>
+          a.designer.localeCompare(b.designer)
+        );
       case 'designer-desc':
-        return sortedBds.sort((a, b) => b.author.localeCompare(a.author));
+        return sortedBds.sort((a, b) =>
+          b.designer.localeCompare(a.designer)
+        );
       case 'readDate':
         return sortedBds.sort(
           (a, b) =>
@@ -297,8 +268,8 @@ export class BdsComponent implements OnInit {
       : '/select-bds-owned';
   }
 
-  private matchesSearch(bd: Book, term: string): boolean {
-    const haystack = [bd.title, bd.author, bd.genre].filter(Boolean).join(' ');
+  private matchesSearch(bd: Bd, term: string): boolean {
+    const haystack = [bd.title, bd.designer, bd.genre].filter(Boolean).join(' ');
 
     const normalizedHaystack = this.normalizeSearchText(haystack);
     const normalizedTerm = this.normalizeSearchText(term);

@@ -98,10 +98,10 @@
   <div class="mangas">
     @for (manga of sortedMangas(); track manga.title) {
     <div class="manga-card">
-      <app-book
-        [book]="manga"
+      <app-manga
+        [manga]="manga"
         (editRequested)="openEditMangaDialog(manga)"
-      ></app-book>
+      ></app-manga>
     </div>
     }
   </div>
