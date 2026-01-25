@@ -690,7 +690,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: 'Les signaux de Bagdad',
+    title: 'Les seigneurs de Bagdad',
     designer: 'Garth Ennis - Brian K. Vaughan - Niko Henrichon',
     readDate: '',
     rating: 0,
@@ -764,14 +764,6 @@ export const ronanComics: UserComic[] = [
   {
     title: 'Mister Miracle',
     designer: 'Tom King - Mitch Gerads',
-    readDate: '',
-    rating: 0,
-    readTimes: 1,
-    owned: true,
-  },
-  {
-    title: 'Les Signes de Babad',
-    designer: 'Grant Morrison - Frank Quitely',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1226,7 +1218,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: "Immortal Hulk : Qu'est-il des deux ?",
+    title: 'Immortal Hulk : Ou est-il des deux ?',
     designer: 'Al Ewing - Joe Bennett',
     readDate: '',
     rating: 0,
@@ -1506,7 +1498,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: 'The Boys : Cherchez Becky',
+    title: 'The Boys : Chère Becky',
     designer: 'Garth Ennis - Darick Robertson',
     readDate: '',
     rating: 0,
