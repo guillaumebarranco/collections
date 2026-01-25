@@ -5,20 +5,20 @@ export const ronanComics: UserComic[] = [
     title: 'Watchmen',
     designer: 'Alan Moore',
     readDate: '',
-    rating: 0,
-    readTimes: 1,
-    owned: false,
-  },
-  {
-    title: "Justice League : Crise d'identité",
-    designer: 'Brad Meltzer - Rags Morales',
-    readDate: '',
-    rating: 0,
+    rating: 4,
     readTimes: 1,
     owned: true,
   },
   {
-    title: "Justice League : La Ligue de Justice d'Amérique",
+    title: 'Justice League : Crise d\'identité',
+    designer: 'Brad Meltzer - Rags Morales',
+    readDate: '2023-04-23',
+    rating: 4.5,
+    readTimes: 1,
+    owned: true,
+  },
+  {
+    title: 'Justice League : La Ligue de Justice d\'Amérique',
     designer: 'Johns - Kindt - Finch',
     readDate: '',
     rating: 0,
@@ -50,7 +50,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: "Justice League : La Ligue d'Injustice",
+    title: 'Justice League : La Ligue d\'Injustice',
     designer: 'Johns - Fabok - Reis - Mahnke',
     readDate: '',
     rating: 0,
@@ -122,7 +122,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: "L'autre terre",
+    title: 'L\'autre terre',
     designer: 'Inconnu',
     readDate: '',
     rating: 0,
@@ -162,7 +162,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: "L'odyssée du mal",
+    title: 'L\'odyssée du mal',
     designer: 'Inconnu',
     readDate: '',
     rating: 0,
@@ -226,7 +226,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: "D'entre les ombres",
+    title: 'D\'entre les ombres',
     designer: 'Inconnu',
     readDate: '',
     rating: 0,
@@ -250,7 +250,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: "Les patients d'Arkham",
+    title: 'Les patients d\'Arkham',
     designer: 'Inconnu',
     readDate: '',
     rating: 0,
@@ -266,7 +266,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: "Le trône d'Atlantide",
+    title: 'Le trône d\'Atlantide',
     designer: 'Inconnu',
     readDate: '',
     rating: 0,
@@ -402,7 +402,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: "L'odyssée - 1re partie",
+    title: 'L\'odyssée - 1re partie',
     designer: 'Inconnu',
     readDate: '',
     rating: 0,
@@ -410,7 +410,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: "L'odyssée - 2e partie",
+    title: 'L\'odyssée - 2e partie',
     designer: 'Inconnu',
     readDate: '',
     rating: 0,
@@ -810,7 +810,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: "Batman : L'énigme de Red Hood",
+    title: 'Batman : L\'énigme de Red Hood',
     designer: 'Judd Winick - Shane Davis - Jeremy Haun',
     readDate: '',
     rating: 0,
@@ -1090,7 +1090,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: "Batman : L'asile d'Arkham",
+    title: 'Batman : L\'asile d\'Arkham',
     designer: 'Ryan Sook',
     readDate: '',
     rating: 0,
@@ -1274,7 +1274,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: "Spider-Man : L'empire",
+    title: 'Spider-Man : L\'empire',
     designer: 'Kaare Andrews',
     readDate: '',
     rating: 0,
@@ -1338,7 +1338,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: "Captain America : Le soldat de l'hiver",
+    title: 'Captain America : Le soldat de l\'hiver',
     designer: 'Inconnu',
     readDate: '',
     rating: 0,
@@ -1386,7 +1386,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: "Wolverine : L'arme X",
+    title: 'Wolverine : L\'arme X',
     designer: 'Barry Windsor-Smith',
     readDate: '',
     rating: 0,
@@ -1394,7 +1394,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: "Spider-Man : N'est plus !",
+    title: 'Spider-Man : N\'est plus !',
     designer: 'Stan Lee - John Romita',
     readDate: '',
     rating: 0,
@@ -1586,7 +1586,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: "Thanos : L'ascension",
+    title: 'Thanos : L\'ascension',
     designer: 'Inconnu',
     readDate: '',
     rating: 0,
@@ -1602,7 +1602,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: "Thanos : Le gant de l'infini",
+    title: 'Thanos : Le gant de l\'infini',
     designer: 'Jim Starlin - George Perez - Ron Lim',
     readDate: '',
     rating: 0,
@@ -1610,7 +1610,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: "Thanos : La guerre de l'infini",
+    title: 'Thanos : La guerre de l\'infini',
     designer: 'Jim Starlin - Ron Lim',
     readDate: '',
     rating: 0,
@@ -1618,7 +1618,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: "Thanos : La croisade de l'infini",
+    title: 'Thanos : La croisade de l\'infini',
     designer: 'Jim Starlin - Ron Lim',
     readDate: '',
     rating: 0,
@@ -1730,7 +1730,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: "Spider-Man : L'attaque",
+    title: 'Spider-Man : L\'attaque',
     designer: 'Inconnu',
     readDate: '',
     rating: 0,
@@ -1755,8 +1755,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Avengers vs X-Men',
-    designer:
-      'Brian Michael Bendis - Jason Aaron - Ed Brubaker - Matt Fraction - Jonathan Hickman - John Romita Jr.',
+    designer: 'Brian Michael Bendis - Jason Aaron - Ed Brubaker - Matt Fraction - Jonathan Hickman - John Romita Jr.',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1835,7 +1834,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: "Fantastic Four : L'histoire d'une vie",
+    title: 'Fantastic Four : L\'histoire d\'une vie',
     designer: 'Inconnu',
     readDate: '',
     rating: 0,
@@ -1843,7 +1842,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: "Fantastic Four : L'appel des cendres",
+    title: 'Fantastic Four : L\'appel des cendres',
     designer: 'Inconnu',
     readDate: '',
     rating: 0,
@@ -1859,7 +1858,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: "Wolverine : Ennemi d'État",
+    title: 'Wolverine : Ennemi d\'État',
     designer: 'Inconnu',
     readDate: '',
     rating: 0,
@@ -1873,5 +1872,5 @@ export const ronanComics: UserComic[] = [
     rating: 0,
     readTimes: 1,
     owned: true,
-  },
+  }
 ];

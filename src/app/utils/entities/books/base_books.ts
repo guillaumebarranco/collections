@@ -144,6 +144,8 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+      nbTomes: 0,
+      isFinished: true,
   },
   {
     title: 'Frankenstein',
@@ -153,6 +155,8 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+      nbTomes: 0,
+      isFinished: true,
   },
   {
     title: 'Le Portrait de Dorian Gray',

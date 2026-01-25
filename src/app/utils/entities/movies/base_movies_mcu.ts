@@ -128,7 +128,17 @@ export const baseMoviesMcu: BaseMovie[] = [
   {
     title: 'Thor',
     director: 'Kenneth Branagh',
-    actors: [{ name: 'Chris Hemsworth' }],
+    actors: [
+      {
+        name: 'Chris Hemsworth',
+      },
+      {
+        name: 'Nathalie Portman',
+      },
+      {
+        name: 'Tom Hiddleston',
+      }
+    ],
     coverUrl: '/movies_pictures/46456-thor-0-150-0-225-crop.jpg',
     releaseDate: '2011-05-06',
     length: 115,

@@ -12,9 +12,9 @@ export const baseComics: BaseComic[] = [
   {
     title: "Justice League : Crise d'identité",
     designer: 'Brad Meltzer - Rags Morales',
-    writer: 'Brad Meltzer - Rags Morales',
+    writer: 'Brad Meltzer',
     coverUrl: '/comics_pictures/justice-league-crise-d-rsquo-identite.jpg',
-    pages: 0,
+    pages: 344,
     genre: 'Super-héros',
   },
   {
@@ -22,8 +22,8 @@ export const baseComics: BaseComic[] = [
     designer: 'Johns - Kindt - Finch',
     writer: 'Johns - Kindt - Finch',
     coverUrl: '/comics_pictures/81UBDmKsKIL._UF1000,1000_QL80_.jpg',
-    genre: 'Super-héros',
     pages: 0,
+    genre: 'Super-héros',
   },
   {
     title: 'Justice League : La Guerre des Ligues',
