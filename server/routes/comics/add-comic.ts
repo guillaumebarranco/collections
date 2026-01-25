@@ -21,8 +21,6 @@ function formatBaseComic(entity: any): string {
     coverUrl: '${escapeString(entity.coverUrl || '')}',
     pages: ${entity.pages || 0},
     genre: '${escapeString(entity.genre || '')}',
-    nbTomes: ${entity.nbTomes || 0},
-    isFinished: ${entity.isFinished ?? true},
   },`;
 }
 
@@ -106,8 +104,6 @@ router.post('/add', (req: any, res: any) => {
       coverUrl: normalizeString(entity.coverUrl, 'coverUrl') || '',
       pages: normalizeNumber(entity.pages, 'pages') || 0,
       genre: normalizeString(entity.genre, 'genre') || '',
-      nbTomes: normalizeNumber(entity.nbTomes, 'nbTomes') || 0,
-      isFinished: normalizeBoolean(entity.isFinished, 'isFinished') ?? true,
     };
 
     const userPayload = {

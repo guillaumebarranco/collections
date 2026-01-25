@@ -30,7 +30,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Johns - Lemire - Reis - Mahnke',
     writer: 'Johns - Lemire - Reis - Mahnke',
     coverUrl: '/comics_pictures/Couv_226147.jpg',
-    pages: 0,
+    pages: 296,
     genre: 'Super-héros',
   },
   {
@@ -38,7 +38,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Johns - Finch - Reis - Mahnke',
     writer: 'Johns - Finch - Reis - Mahnke',
     coverUrl: '/comics_pictures/Couv_229800.jpg',
-    pages: 0,
+    pages: 224,
     genre: 'Super-héros',
   },
   {
@@ -46,7 +46,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Johns - Finch - Reis - Mahnke',
     writer: 'Johns - Finch - Reis - Mahnke',
     coverUrl: '/comics_pictures/Couv_234873.jpg',
-    pages: 0,
+    pages: 208,
     genre: 'Super-héros',
   },
   {
@@ -62,7 +62,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Johns - Fabok',
     writer: 'Johns - Fabok',
     coverUrl: '/comics_pictures/Couv_392549.jpg',
-    pages: 0,
+    pages: 144,
     genre: 'Super-héros',
   },
   {
@@ -70,7 +70,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Johns - Fabok - Manapul',
     writer: 'Johns - Fabok - Manapul',
     coverUrl: '/comics_pictures/Couv_290427.jpg',
-    pages: 0,
+    pages: 200,
     genre: 'Super-héros',
   },
   {
@@ -78,7 +78,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Peter J. Tomasi - Mikel Janin - Doug Mahnke',
     writer: 'Peter J. Tomasi - Mikel Janin - Doug Mahnke',
     coverUrl: '/comics_pictures/superman-8211-requiem.jpg',
-    pages: 0,
+    pages: 200,
     genre: 'Super-héros',
   },
   {
@@ -87,7 +87,7 @@ export const baseComics: BaseComic[] = [
     writer: 'DeMatteis - Kelly - Loeb - Schultz',
     coverUrl:
       '/comics_pictures/superman-president-lex-luthor-8211-edition-speciale-fnac.jpg',
-    pages: 0,
+    pages: 264,
     genre: 'Super-héros',
   },
   {
@@ -95,7 +95,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/superman-red-son-edition-black-label.jpg',
-    pages: 0,
+    pages: 144,
     genre: 'Super-héros',
   },
   {
@@ -103,7 +103,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/Couv_257713.jpg',
-    pages: 0,
+    pages: 112,
     genre: 'Super-héros',
   },
   {
@@ -111,7 +111,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/Couv_422741.jpg',
-    pages: 0,
+    pages: 204,
     genre: 'Super-héros',
   },
   {
@@ -119,7 +119,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/Couv_425400.jpg',
-    pages: 0,
+    pages: 204,
     genre: 'Super-héros',
   },
   {
@@ -135,7 +135,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/Couv_222294.jpg',
-    pages: 0,
+    pages: 160,
     genre: 'Super-héros',
   },
   {
@@ -143,7 +143,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/Couv_289242.jpg',
-    pages: 0,
+    pages: 160,
     genre: 'Super-héros',
   },
   {
@@ -151,7 +151,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/Couv_291173.jpg',
-    pages: 0,
+    pages: 176,
     genre: 'Super-héros',
   },
   {
@@ -159,7 +159,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/la-splendeur-du-pingouin.jpg',
-    pages: 0,
+    pages: 144,
     genre: 'Super-héros',
   },
   {
@@ -175,7 +175,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/batman-un-deuil-dans-la-famille.jpg',
-    pages: 0,
+    pages: 296,
     genre: 'Super-héros',
   },
   {
@@ -183,7 +183,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/30_9782365770439_1_75.jpg',
-    pages: 0,
+    pages: 176,
     genre: 'Super-héros',
   },
   {
@@ -191,7 +191,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/Couv_276636.jpg',
-    pages: 0,
+    pages: 148,
     genre: 'Super-héros',
   },
   {
@@ -207,7 +207,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/batman-tome-3-le-deuil-de-la-famille.jpg',
-    pages: 0,
+    pages: 164,
     genre: 'Super-héros',
   },
   {
@@ -215,7 +215,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/412mQSGSUaL._AC_UF1000,1000_QL80_.jpg',
-    pages: 0,
+    pages: 528,
     genre: 'Super-héros',
   },
   {
@@ -223,7 +223,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/Couv_175489.jpg',
-    pages: 0,
+    pages: 160,
     genre: 'Super-héros',
   },
   {
@@ -239,7 +239,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/Couv_245351.jpg',
-    pages: 0,
+    pages: 176,
     genre: 'Super-héros',
   },
   {
@@ -248,7 +248,7 @@ export const baseComics: BaseComic[] = [
     writer: 'Inconnu',
     coverUrl:
       '/comics_pictures/superman-brainiac-8211-edition-speciale-fnac.jpg',
-    pages: 0,
+    pages: 128,
     genre: 'Super-héros',
   },
   {
@@ -264,7 +264,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/Couv_255397.jpg',
-    pages: 0,
+    pages: 160,
     genre: 'Super-héros',
   },
   {
@@ -280,7 +280,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/balade-de-lobo-la.jpg',
-    pages: 0,
+    pages: 208,
     genre: 'Super-héros',
   },
   {
@@ -296,7 +296,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/s-l1200.jpg',
-    pages: 0,
+    pages: 160,
     genre: 'Super-héros',
   },
   {
@@ -304,7 +304,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/912fD3KZUiL.jpg',
-    pages: 0,
+    pages: 144,
     genre: 'Super-héros',
   },
   {
@@ -312,7 +312,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/Couv_311835.jpg',
-    pages: 0,
+    pages: 144,
     genre: 'Super-héros',
   },
   {
@@ -320,7 +320,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/green-arrow-annee-un.jpg',
-    pages: 0,
+    pages: 160,
     genre: 'Super-héros',
   },
   {
@@ -328,7 +328,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/killing-joke.jpg',
-    pages: 0,
+    pages: 72,
     genre: 'Super-héros',
   },
   {
@@ -336,7 +336,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/Couv_220903.jpg',
-    pages: 0,
+    pages: 208,
     genre: 'Super-héros',
   },
   {
@@ -344,7 +344,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/superman-origines-secretes-2009.jpg',
-    pages: 0,
+    pages: 232,
     genre: 'Super-héros',
   },
   {
@@ -360,7 +360,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/Couv_421406.jpg',
-    pages: 0,
+    pages: 204,
     genre: 'Super-héros',
   },
   {
@@ -368,7 +368,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/Couv_278424.jpg',
-    pages: 0,
+    pages: 204,
     genre: 'Super-héros',
   },
   {
@@ -400,7 +400,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/Couv_281595.jpg',
-    pages: 0,
+    pages: 194,
     genre: 'Super-héros',
   },
   {
@@ -432,7 +432,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/Couv_311072.jpg',
-    pages: 0,
+    pages: 240,
     genre: 'Super-héros',
   },
   {
@@ -440,7 +440,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/batman-la-revanche-de-bane.jpg',
-    pages: 0,
+    pages: 160,
     genre: 'Super-héros',
   },
   {
@@ -448,7 +448,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/wonder-woman-dieux-et-mortels-tome-1.jpg',
-    pages: 0,
+    pages: 384,
     genre: 'Super-héros',
   },
   {
@@ -456,7 +456,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/kingdom-come-8212-nouvelle-edition.jpg',
-    pages: 0,
+    pages: 336,
     genre: 'Super-héros',
   },
   {
@@ -464,7 +464,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/Couv_173354.jpg',
-    pages: 0,
+    pages: 144,
     genre: 'Super-héros',
   },
   {
@@ -472,7 +472,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/Couv_242962.jpg',
-    pages: 0,
+    pages: 232,
     genre: 'Super-héros',
   },
   {
@@ -488,7 +488,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/batman-cite-brisee.jpg',
-    pages: 0,
+    pages: 264,
     genre: 'Super-héros',
   },
   {
@@ -496,7 +496,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/Couv_250811.jpg',
-    pages: 0,
+    pages: 232,
     genre: 'Super-héros',
   },
   {
@@ -504,7 +504,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/Couv_319753.jpg',
-    pages: 0,
+    pages: 128,
     genre: 'Super-héros',
   },
   {
@@ -512,7 +512,7 @@ export const baseComics: BaseComic[] = [
     designer: 'DC Comics',
     writer: 'Inconnu',
     coverUrl: '/comics_pictures/1163577522_L.avif',
-    pages: 0,
+    pages: 128,
     genre: 'Super-héros',
   },
   {
@@ -520,7 +520,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Warren Ellis - Darick Robertson',
     writer: 'Warren Ellis - Darick Robertson',
     coverUrl: '/comics_pictures/transmetropolitan-tome-1.jpg',
-    pages: 0,
+    pages: 300,
     genre: 'Super-héros',
   },
   {
@@ -528,7 +528,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Warren Ellis - Darick Robertson',
     writer: 'Warren Ellis - Darick Robertson',
     coverUrl: '/comics_pictures/transmetropolitan-tome-2.jpg',
-    pages: 0,
+    pages: 320,
     genre: 'Super-héros',
   },
   {
@@ -536,7 +536,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Warren Ellis - Darick Robertson',
     writer: 'Warren Ellis - Darick Robertson',
     coverUrl: '/comics_pictures/transmetropolitan-tome-3.jpg',
-    pages: 0,
+    pages: 296,
     genre: 'Super-héros',
   },
   {
@@ -545,7 +545,7 @@ export const baseComics: BaseComic[] = [
     writer: 'Warren Ellis - Darick Robertson',
     coverUrl:
       '/comics_pictures/urban-comics-nomad-transmetropolitan-tome-4.jpg',
-    pages: 0,
+    pages: 296,
     genre: 'Super-héros',
   },
   {
@@ -553,7 +553,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Warren Ellis - Darick Robertson',
     writer: 'Warren Ellis - Darick Robertson',
     coverUrl: '/comics_pictures/transmetropolitan-tome-5.jpg',
-    pages: 0,
+    pages: 400,
     genre: 'Super-héros',
   },
   {
@@ -561,7 +561,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Brian K. Vaughan - Pia Guerra',
     writer: 'Brian K. Vaughan - Pia Guerra',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 256,
     genre: 'Super-héros',
   },
   {
@@ -569,7 +569,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Brian K. Vaughan - Pia Guerra',
     writer: 'Brian K. Vaughan - Pia Guerra',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 256,
     genre: 'Super-héros',
   },
   {
@@ -577,7 +577,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Brian K. Vaughan - Pia Guerra',
     writer: 'Brian K. Vaughan - Pia Guerra',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 256,
     genre: 'Super-héros',
   },
   {
@@ -585,7 +585,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Brian K. Vaughan - Pia Guerra',
     writer: 'Brian K. Vaughan - Pia Guerra',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 256,
     genre: 'Super-héros',
   },
   {
@@ -593,7 +593,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Brian K. Vaughan - Pia Guerra',
     writer: 'Brian K. Vaughan - Pia Guerra',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 256,
     genre: 'Super-héros',
   },
   {
@@ -601,7 +601,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Brian K. Vaughan - Pia Guerra',
     writer: 'Brian K. Vaughan - Pia Guerra',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 256,
     genre: 'Super-héros',
   },
   {
@@ -617,7 +617,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Bill Willingham - Mark Buckingham',
     writer: 'Bill Willingham - Mark Buckingham',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 432,
     genre: 'Super-héros',
   },
   {
@@ -625,7 +625,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Bill Willingham - Mark Buckingham',
     writer: 'Bill Willingham - Mark Buckingham',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 432,
     genre: 'Super-héros',
   },
   {
@@ -633,7 +633,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Bill Willingham - Mark Buckingham',
     writer: 'Bill Willingham - Mark Buckingham',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 432,
     genre: 'Super-héros',
   },
   {
@@ -641,7 +641,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Bill Willingham - Mark Buckingham',
     writer: 'Bill Willingham - Mark Buckingham',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 432,
     genre: 'Super-héros',
   },
   {
@@ -649,7 +649,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Garth Ennis - Steve Dillon',
     writer: 'Garth Ennis - Steve Dillon',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 392,
     genre: 'Super-héros',
   },
   {
@@ -657,7 +657,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Garth Ennis - Steve Dillon',
     writer: 'Garth Ennis - Steve Dillon',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 392,
     genre: 'Super-héros',
   },
   {
@@ -665,7 +665,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Garth Ennis - Steve Dillon',
     writer: 'Garth Ennis - Steve Dillon',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 392,
     genre: 'Super-héros',
   },
   {
@@ -673,7 +673,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Garth Ennis - Steve Dillon',
     writer: 'Garth Ennis - Steve Dillon',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 392,
     genre: 'Super-héros',
   },
   {
@@ -681,7 +681,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Sean Murphy',
     writer: 'Sean Murphy',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 240,
     genre: 'Super-héros',
   },
   {
@@ -698,7 +698,7 @@ export const baseComics: BaseComic[] = [
     writer: 'Garth Ennis - Brian K. Vaughan - Niko Henrichon',
     coverUrl:
       '/comics_pictures/testurban-comics-nomad-les-seigneurs-de-bagdad.jpg',
-    pages: 0,
+    pages: 144,
     genre: 'Super-héros',
   },
   {
@@ -707,7 +707,7 @@ export const baseComics: BaseComic[] = [
     writer: 'Garth Ennis - William Simpson',
     coverUrl:
       '/comics_pictures/urban-comics-nomad-hellblazer-dependance-mortelle-garth-ennis.jpg',
-    pages: 0,
+    pages: 416,
     genre: 'Super-héros',
   },
   {
@@ -715,7 +715,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Grant Morrison - Frank Quitely',
     writer: 'Grant Morrison - Frank Quitely',
     coverUrl: '/comics_pictures/all-star-superman.jpg',
-    pages: 0,
+    pages: 300,
     genre: 'Super-héros',
   },
   {
