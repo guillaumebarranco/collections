@@ -24,13 +24,6 @@
 
     @if (comic.pages) {
     <p class="comic-pages">{{ comic.pages }} pages</p>
-    } @if (comic.nbTomes) {
-    <p>
-      <span class="comic-pages">{{ comic.nbTomes }} tomes</span>
-      @if(!comic.isFinished) {
-      <span class="comic-pages"> (En cours)</span>
-      }
-    </p>
     } @if (comic.readDate.includes('-')) {
     <p class="comic-read-times">
       Lu le {{ comic.readDate | date : "dd/MM/yyyy" }}
