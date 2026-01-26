@@ -13,8 +13,8 @@ export const baseBooksApi: BaseBook[] = [
 
   {
     title: 'Iron Prince',
-    author: 'Bryce O\'Connor et Luke Chmilenko',
-    coverUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBUJ9pL8vArgM9IIucAqGrTSR49Ej1FItei-89XnkjzsLpc9M-SNFCo_Dh&s=10',
+    author: "Bryce O'Connor et Luke Chmilenko",
+    coverUrl: '/books_pictures/stormweaver-tome-1-iron-prince-5789471.jpg',
     pages: 464,
     genre: 'Science fiction',
     saga: '',

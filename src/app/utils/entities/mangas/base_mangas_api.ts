@@ -4,7 +4,7 @@ export const baseMangasApi: BaseManga[] = [
   {
     title: 'Fairy Tail',
     author: 'Hiro Mashima',
-    coverUrl: 'https://upload.wikimedia.org/wikipedia/en/e/e1/FairyTail-Volume_1_Cover.jpg',
+    coverUrl: '/mangas_pictures/fairy_tail_01.webp',
     pages: 0,
     genre: 'Shonen',
     nbTomes: 61,
