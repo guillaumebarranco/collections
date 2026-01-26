@@ -90,6 +90,14 @@ export const guillaumeMangas: UserManga[] = [
     owned: true,
   },
   {
+    title: 'Dragon Ball Super',
+    author: 'Akira Toriyama, Toyotarou',
+    readDate: '',
+    rating: 0,
+    readTimes: 0,
+    owned: false,
+  },
+  {
     title: 'OnePunch-Man',
     author: 'Yûsuke Murata',
     readDate: '16/04/2016',

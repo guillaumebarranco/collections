@@ -106,6 +106,14 @@ export const baseMangas: BaseManga[] = [
     isFinished: true,
   },
   {
+    title: 'Dragon Ball Super',
+    author: 'Akira Toriyama, Toyotarou',
+    coverUrl: '/mangas_pictures/dragon_ball_super.jpg',
+    genre: 'Shonen',
+    nbTomes: 22,
+    isFinished: false,
+  },
+  {
     title: 'OnePunch-Man',
     author: 'Yûsuke Murata',
     coverUrl: '/mangas_pictures/one_punch_man.jpg',

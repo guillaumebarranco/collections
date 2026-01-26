@@ -67,34 +67,963 @@ export const baseSeriesAnimees: BaseSerie[] = [
     genre: 'Animation, Action, Adventure',
     seasonsData: [
       {
-        seasonNumber: 2002,
+        seasonNumber: 1,
         nbEpisodes: 13,
         totalLength: 390,
       },
       {
-        seasonNumber: 2003,
+        seasonNumber: 2,
         nbEpisodes: 51,
         totalLength: 1530,
       },
       {
-        seasonNumber: 2004,
+        seasonNumber: 3,
         nbEpisodes: 51,
         totalLength: 1530,
       },
       {
-        seasonNumber: 2005,
+        seasonNumber: 4,
         nbEpisodes: 50,
         totalLength: 1500,
       },
       {
-        seasonNumber: 2006,
+        seasonNumber: 5,
         nbEpisodes: 50,
         totalLength: 1500,
       },
       {
-        seasonNumber: 2007,
+        seasonNumber: 6,
         nbEpisodes: 5,
         totalLength: 150,
+      },
+    ],
+  },
+  {
+    title: 'Naruto Shippuden',
+    director: 'Masashi Kishimoto',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl:
+      '/series_pictures/MV5BNTk3MDA1ZjAtNTRhYS00YzNiLTgwOGEtYWRmYTQ3NjA0NTAwXkEyXkFqcGc@._V1_.jpg',
+    releaseDate: '2007-02-15',
+    endDate: '2017-03-23',
+    genre: 'Animation, Action, Adventure',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 500,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'One Piece',
+    director: 'Eiichiro Oda',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/81lob744SgL._AC_UF894,1000_QL80_.jpg',
+    releaseDate: '1999-10-20',
+    endDate: '',
+    genre: 'Animation, Action, Adventure',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 1100,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'My Hero Academia',
+    director: 'Kōhei Horikoshi',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/my_hero_academia.jpg',
+    releaseDate: '2016-04-03',
+    endDate: '',
+    genre: 'Animation, Action, Adventure',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 138,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Boruto',
+    director: 'Masashi Kishimoto',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/5393471.jpg',
+    releaseDate: '2017-04-05',
+    endDate: '',
+    genre: 'Animation, Action, Adventure',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 293,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Dandadan',
+    director: 'Yukinobu Tatsu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/34d559cbab6cd1245e84d812d9056ef2.jpg',
+    releaseDate: '2024-10-03',
+    endDate: '',
+    genre: 'Animation, Action, Comedy',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Dragon Ball',
+    director: 'Akira Toriyama',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/3642167.jpg',
+    releaseDate: '1986-02-26',
+    endDate: '1989-04-19',
+    genre: 'Animation, Action, Adventure',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 153,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Dragon Ball Z',
+    director: 'Akira Toriyama',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl:
+      '/series_pictures/334f00b53cf3ef848ea7048b25711bc98e8236ce1685a096990c80d0965835ea.png',
+    releaseDate: '1989-04-26',
+    endDate: '1996-01-31',
+    genre: 'Animation, Action, Adventure',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 291,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Dragon Ball GT',
+    director: 'Akira Toriyama',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/dragon_ball_gt.webp',
+    releaseDate: '1996-02-07',
+    endDate: '1997-11-19',
+    genre: 'Animation, Action, Adventure',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 64,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Dragon Ball Super',
+    director: 'Akira Toriyama',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/anime-dragon-ball-super-visuel-4.webp',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Animation, Action, Adventure',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 131,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Dragon Ball Daima',
+    director: 'Akira Toriyama',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/Dragon-Ball-Daima-Anime-Tv-Series-Dvd.webp',
+    releaseDate: '2024-10-11',
+    endDate: '',
+    genre: 'Animation, Action, Adventure',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 20,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Olive et Tom',
+    director: 'Isamu Imakake',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/poster-olive-et-tom.webp',
+    releaseDate: '1983-10-13',
+    endDate: '1986-03-27',
+    genre: 'Animation, Sport',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 128,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Puella Magi Madoka Magica',
+    director: 'Akiyuki Shinbo',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/puella_magi_madoka_magica.webp',
+    releaseDate: '2011-01-07',
+    endDate: '2011-04-22',
+    genre: 'Animation, Drama, Fantasy',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Nanatsu No Taizai (Seven Deadly Sins)',
+    director: 'Nakaba Suzuki',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/nanatsu_no_taizai_3605.webp',
+    releaseDate: '2014-10-05',
+    endDate: '2021-06-23',
+    genre: 'Animation, Action, Adventure',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 96,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Shaman king',
+    director: 'Hiroyuki Takei',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/5380787.jpg',
+    releaseDate: '2001-07-04',
+    endDate: '2002-09-25',
+    genre: 'Animation, Action, Adventure',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 64,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Shokugeki no Soma (Food Wars)',
+    director: 'Yūto Tsukuda',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/2275280.webp',
+    releaseDate: '2015-04-04',
+    endDate: '2020-09-26',
+    genre: 'Animation, Comedy, Drama',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 86,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Akame Ga Kill',
+    director: 'Takahiro',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/4420222.webp',
+    releaseDate: '2014-07-06',
+    endDate: '2014-12-14',
+    genre: 'Animation, Action, Drama',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 24,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Hunter X Hunter',
+    director: 'Yoshihiro Togashi',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/4803203.jpg',
+    releaseDate: '2011-10-02',
+    endDate: '2014-09-24',
+    genre: 'Animation, Action, Adventure',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 148,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Beelzebub',
+    director: 'Ryūhei Tamura',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/beelzebub.jpg',
+    releaseDate: '2011-01-09',
+    endDate: '2012-03-25',
+    genre: 'Animation, Action, Comedy',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 60,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Bleach',
+    director: 'Tite Kubo',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl:
+      '/series_pictures/MV5BOWQwOWY5NTUtMjAyZi00YjQzLTkwODgtNmQwZjU1MGIzZDhjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2004-10-05',
+    endDate: '2012-03-27',
+    genre: 'Animation, Action, Adventure',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 366,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Détective Conan',
+    director: 'Gōshō Aoyama',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl:
+      '/series_pictures/MV5BNGNjMjVmODYtMGMzZi00MWUyLTk1ZDQtYzI2ZTk2MmYzYTZiXkEyXkFqcGc@._V1_.jpg',
+    releaseDate: '1996-01-08',
+    endDate: '',
+    genre: 'Animation, Crime, Mystery',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 1100,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Jujutsu Kaisen',
+    director: 'Gege Akutami',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/4875617.jpg',
+    releaseDate: '2020-10-03',
+    endDate: '',
+    genre: 'Animation, Action, Fantasy',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 47,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: "JoJo's Bizarre Adventure",
+    director: 'Hirohiko Araki',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl:
+      "/series_pictures/800px-JoJo's_Bizarre_Adventure_The_Animation_International_Poster.png",
+    releaseDate: '2012-10-06',
+    endDate: '',
+    genre: 'Animation, Action, Adventure',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 190,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Demon Slayer',
+    director: 'Koyoharu Gotouge',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/0198270.jpg',
+    releaseDate: '2019-04-06',
+    endDate: '',
+    genre: 'Animation, Action, Adventure',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 55,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Spy x Family',
+    director: 'Tatsuya Endo',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/0321052.webp',
+    releaseDate: '2022-04-09',
+    endDate: '',
+    genre: 'Animation, Action, Comedy',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 37,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Chainsaw Man',
+    director: 'Tatsuki Fujimoto',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1492791.webp',
+    releaseDate: '2022-10-12',
+    endDate: '',
+    genre: 'Animation, Action, Horror',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Ken le Survivant',
+    director: 'Buronson',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/ken_le_survivant.jpg',
+    releaseDate: '1984-10-11',
+    endDate: '1988-03-18',
+    genre: 'Animation, Action, Adventure',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 152,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Les Chevaliers du Zodiaque',
+    director: 'Masami Kurumada',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl:
+      '/series_pictures/Saint-Seiya-Chevalier-du-Zodiaque-anime-visuel_large.webp',
+    releaseDate: '1986-10-11',
+    endDate: '1989-04-01',
+    genre: 'Animation, Action, Adventure',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 114,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: "Les Mystérieuses Cités d'Or",
+    director: 'Bernard Deyriès',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/mysterieuses-cites-dor-S1-affiche.webp',
+    releaseDate: '1982-06-28',
+    endDate: '1983-06-08',
+    genre: 'Animation, Adventure',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 39,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Magical Dorémi',
+    director: 'Junichi Sato',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/magical_doremi.jpg',
+    releaseDate: '1999-02-07',
+    endDate: '2003-01-26',
+    genre: 'Animation, Comedy, Fantasy',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 201,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: "Les carnets de l'apothicaire",
+    director: 'Natsu Hyuuga',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/Carnets_de_Apothicaire_anime.webp',
+    releaseDate: '2023-10-22',
+    endDate: '',
+    genre: 'Animation, Drama, Mystery',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 24,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Code Lyoko',
+    director: 'Thomas Romain, Tania Palumbo',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/5533232.webp',
+    releaseDate: '2003-09-03',
+    endDate: '2007-11-10',
+    genre: 'Animation, Action, Adventure',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 95,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Albator',
+    director: 'Leiji Matsumoto',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/albator_78.jpg',
+    releaseDate: '1978-03-14',
+    endDate: '1979-02-13',
+    genre: 'Animation, Adventure, Sci-Fi',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 42,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Goldorak',
+    director: 'Go Nagai',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/Goldorak-anime.webp',
+    releaseDate: '1975-10-05',
+    endDate: '1977-02-27',
+    genre: 'Animation, Action, Sci-Fi',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 74,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Totally Spies',
+    director: 'Vincent Chalvon-Demersay, David Michel',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/Totally-Spies-vega-dupuis-t1.webp',
+    releaseDate: '2001-04-03',
+    endDate: '',
+    genre: 'Animation, Action, Comedy',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 156,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Les super nanas',
+    director: 'Craig McCracken',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/WBD_SDJG_FR_JAQCANAL_fr-FR.webp',
+    releaseDate: '1998-11-18',
+    endDate: '2005-03-25',
+    genre: 'Animation, Action, Comedy',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 78,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: "Les zinzins de l'espace",
+    director: 'Jean-Yves Raimbaud',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/4220932.webp',
+    releaseDate: '1997-06-02',
+    endDate: '2006-01-13',
+    genre: 'Animation, Comedy, Sci-Fi',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 104,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Teen Titans',
+    director: 'Glen Murakami',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl:
+      '/series_pictures/MV5BOTg3NzY2MDQtMjUxNS00N2Q3LTkxODktMmU1NzdjZTNkMzQ0XkEyXkFqcGc@._V1_.jpg',
+    releaseDate: '2003-07-19',
+    endDate: '2006-01-16',
+    genre: 'Animation, Action, Adventure',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 65,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Le marsupilami',
+    director: 'André Franquin',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/mon_ami_marsupilami.jpg',
+    releaseDate: '1993-09-26',
+    endDate: '1997-06-29',
+    genre: 'Animation, Adventure, Comedy',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 104,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Oggy et les cafards',
+    director: 'Jean-Yves Raimbaud',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl:
+      '/series_pictures/oggy-et-les-cafards-tome-1-plouf-prouf-vrooo-1.jpg',
+    releaseDate: '1998-09-06',
+    endDate: '',
+    genre: 'Animation, Comedy',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 230,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: "Bob l'éponge",
+    director: 'Stephen Hillenburg',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/bob_l_eponge.jpg',
+    releaseDate: '1999-05-01',
+    endDate: '',
+    genre: 'Animation, Comedy',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 280,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Les Tortues Ninja',
+    director: 'Kevin Eastman, Peter Laird',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/Tortues_Ninja_Les_Chevaliers_d_ecaille.webp',
+    releaseDate: '1987-12-14',
+    endDate: '1996-11-02',
+    genre: 'Animation, Action, Adventure',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 193,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Princesse Sarah',
+    director: 'Frances Hodgson Burnett',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/Princesse_Sarah_anime.webp',
+    releaseDate: '1985-01-06',
+    endDate: '1985-12-29',
+    genre: 'Animation, Drama, Family',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 46,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Pokémon',
+    director: 'Satoshi Tajiri',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/pokemon.jpg',
+    releaseDate: '1997-04-01',
+    endDate: '',
+    genre: 'Animation, Adventure, Fantasy',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 1200,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: "L'école des champions",
+    director: 'Noboru Rokuda',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/ecole.webp',
+    releaseDate: '1981-10-07',
+    endDate: '1982-10-06',
+    genre: 'Animation, Sport, Comedy',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 69,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Jackie Chan (série animée)',
+    director: 'Jackie Chan',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl:
+      '/series_pictures/aHR0cHM6Ly9pbWFnZS50bWRiLm9yZy90L3AvL29yaWdpbmFsLy9ieTJHVEZwZDJCUTV1SnhXUGxmY21mck5yZkIuanBn.webp',
+    releaseDate: '2000-09-09',
+    endDate: '2005-07-08',
+    genre: 'Animation, Action, Adventure',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 95,
+        totalLength: 0,
+      },
+    ],
+  },
+  {
+    title: 'Marcelino',
+    director: 'José María Sánchez-Silva',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/51E+amE6YML._AC_UF894,1000_QL80_.jpg',
+    releaseDate: '2001-01-09',
+    endDate: '2002-06-25',
+    genre: 'Animation, Family',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 26,
+        totalLength: 0,
       },
     ],
   },
@@ -106,7 +1035,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         name: 'Inconnu',
       },
     ],
-    coverUrl: '/series_pictures/cobra.jpg',
+    coverUrl: '/series_pictures/cobra-the-animation-5379660ab84a8.jpg',
     releaseDate: '1982-10-07',
     endDate: '1983-05-19',
     genre: 'Animation, Action, Adventure',
@@ -126,7 +1055,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         name: 'Inconnu',
       },
     ],
-    coverUrl: '/series_pictures/nicky-larson.jpg',
+    coverUrl: '/series_pictures/nicky_larson.webp',
     releaseDate: '1987-04-06',
     endDate: '1991-10-10',
     genre: 'Animation, Action, Comedy',
@@ -146,7 +1075,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         name: 'Inconnu',
       },
     ],
-    coverUrl: '/series_pictures/gintama.jpg',
+    coverUrl: '/series_pictures/4503509.jpg',
     releaseDate: '2006-04-04',
     endDate: '2018-10-08',
     genre: 'Animation, Action, Comedy',
@@ -166,7 +1095,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         name: 'Inconnu',
       },
     ],
-    coverUrl: '/series_pictures/yu-gi-oh.jpg',
+    coverUrl: '/series_pictures/2512267.webp',
     releaseDate: '2000-04-18',
     endDate: '2004-09-29',
     genre: 'Animation, Action, Adventure',
@@ -175,6 +1104,254 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 1,
         nbEpisodes: 224,
         totalLength: 4928,
+      },
+    ],
+  },
+  {
+    title: 'Death Note',
+    director: 'Tetsurō Araki',
+    actors: [
+      {
+        name: 'Mamoru Miyano',
+      },
+      {
+        name: 'Brad Swaile',
+      },
+      {
+        name: 'Vincent Tong',
+      },
+    ],
+    coverUrl: '/series_pictures/1-M480x680.png',
+    releaseDate: '2006-10-04',
+    endDate: '2007-06-26',
+    genre: 'Animation, Crime, Drama',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 37,
+        totalLength: 1110,
+      },
+    ],
+  },
+  {
+    title: 'Assassination Classroom',
+    director: 'Seiji Kishi',
+    actors: [
+      {
+        name: 'Jun Fukuyama',
+      },
+      {
+        name: 'Mai Fuchigami',
+      },
+      {
+        name: 'Bryce Papenbrook',
+      },
+    ],
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BZjBkYmRiOTAtY2IwOS00ZWU3LTk3YjItNjMzYWZiMDE1MjcyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2015-01-09',
+    endDate: '2016-06-30',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 22,
+        totalLength: 502,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 25,
+        totalLength: 571,
+      },
+    ],
+  },
+  {
+    title: 'Soul Eater',
+    director: 'Takuya Igarashi',
+    actors: [
+      {
+        name: 'Chiaki Omigawa',
+      },
+      {
+        name: 'Kôki Uchiyama',
+      },
+      {
+        name: 'Yumiko Kobayashi',
+      },
+    ],
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BNTJiOWM5NGMtZTdhYi00MmY3LTlhZGYtMjMwYTk2MTI4NGJlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2008-04-07',
+    endDate: '2009-03-30',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 51,
+        totalLength: 1224,
+      },
+    ],
+  },
+
+  {
+    title: 'Full Metal Alchemist',
+    director: 'Seiji Mizushima',
+    actors: [
+      {
+        name: 'Romi Park',
+      },
+      {
+        name: 'Rie Kugimiya',
+      },
+      {
+        name: 'Megumi Toyoguchi',
+      },
+    ],
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BNDczZWMyMjEtZDI0ZS00YThjLWE2MjEtNTIxNmVmZDhkNDg5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2003-10-04',
+    endDate: '2004-10-02',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 51,
+        totalLength: 1224,
+      },
+    ],
+  },
+
+  {
+    title: 'Fullmetal Alchemist: Brotherhood',
+    director: 'Yasuhiro Irie',
+    actors: [
+      {
+        name: 'Romi Park',
+      },
+      {
+        name: 'Rie Kugimiya',
+      },
+      {
+        name: "Shin'ichirô Miki",
+      },
+    ],
+    coverUrl:
+      'https://static.wikia.nocookie.net/fma/images/e/e9/Fmab-poster.png/revision/latest?cb=20131124145205',
+    releaseDate: '2009-04-05',
+    endDate: '2010-07-04',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 64,
+        totalLength: 1536,
+      },
+    ],
+  },
+
+  {
+    title: 'Eyeshield 21',
+    director: 'Masayoshi Nishida',
+    actors: [
+      {
+        name: 'Miyu Irino',
+      },
+      {
+        name: 'Aya Hirano',
+      },
+      {
+        name: 'Atsushi Tamura',
+      },
+    ],
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BMTBjMDU1ODktYTA1MC00NzdlLTlmMTgtZmQyNzBlMThkY2E3XkEyXkFqcGc@._V1_.jpg',
+    releaseDate: '2005-04-06',
+    endDate: '2008-03-19',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 140,
+        totalLength: 3335,
+      },
+    ],
+  },
+  {
+    title: "L'Attaque des Titans",
+    director: 'Tetsurô Araki',
+    actors: [
+      {
+        name: 'Yûki Kaji',
+      },
+      {
+        name: 'Yui Ishikawa',
+      },
+      {
+        name: 'Marina Inoue',
+      },
+    ],
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BZjliODY5MzQtMmViZC00MTZmLWFhMWMtMjMwM2I3OGY1MTRiXkEyXkFqcGc@._V1_.jpg',
+    releaseDate: '2013-04-07',
+    endDate: '2023-11-04',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 25,
+        totalLength: 600,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 22,
+        totalLength: 528,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 30,
+        totalLength: 817,
+      },
+    ],
+  },
+  {
+    title: 'One Punch Man',
+    director: 'Shingo Natsume, Chikara Sakurai',
+    actors: [
+      {
+        name: 'Makoto Furukawa',
+      },
+      {
+        name: 'Kaito Ishikawa',
+      },
+      {
+        name: 'Hikaru Midorikawa',
+      },
+    ],
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_.jpg',
+    releaseDate: '2015-10-05',
+    endDate: '2025-12-28',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 12,
+        totalLength: 288,
       },
     ],
   },
@@ -459,32 +1636,6 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 35,
         nbEpisodes: 21,
         totalLength: 525,
-      },
-    ],
-  },
-  {
-    title: 'Death Note',
-    director: 'Tetsurō Araki',
-    actors: [
-      {
-        name: 'Mamoru Miyano',
-      },
-      {
-        name: 'Brad Swaile',
-      },
-      {
-        name: 'Vincent Tong',
-      },
-    ],
-    coverUrl: '/series_pictures/1-M480x680.png',
-    releaseDate: '2006-10-04',
-    endDate: '2007-06-26',
-    genre: 'Animation, Crime, Drama',
-    seasonsData: [
-      {
-        seasonNumber: 1,
-        nbEpisodes: 37,
-        totalLength: 1110,
       },
     ],
   },
@@ -868,6 +2019,85 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 4,
         nbEpisodes: 15,
         totalLength: 480,
+      },
+    ],
+  },
+  {
+    title: 'Galactik Football',
+    director: 'Charles Barrez, Vincent Vandelli',
+    actors: [
+      {
+        name: 'Tony Joudrier',
+      },
+      {
+        name: 'François Vincentelli',
+      },
+      {
+        name: 'Isabelle Volpe',
+      },
+    ],
+    coverUrl:
+      'https://m.media-amazon.com/images/I/81u6OXSVQgL._AC_UF894,1000_QL80_.jpg',
+    releaseDate: '2006-05-27',
+    endDate: '2011-03-01',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 26,
+        totalLength: 598,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 26,
+        totalLength: 596,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 17,
+        totalLength: 598,
+      },
+    ],
+  },
+  {
+    title: 'La Légende de Korra',
+    director: 'Michael Dante DiMartino, Bryan Konietzko',
+    actors: [
+      {
+        name: 'Janet Varney',
+      },
+      {
+        name: 'David Faustino',
+      },
+      {
+        name: 'P. J. Byrne',
+      },
+    ],
+    coverUrl:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAzAVjbNr4zjpi3dXqToKYq-A66-7qDDL96_wYjwOGvPpehRtXGDuEcDWvCBIg-aNO0o2M1hogxmp5MT-P8vv9y6csK4BrZRyBd-tlEw&s=10',
+    releaseDate: '2012-04-14',
+    endDate: '2014-12-19',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 276,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 14,
+        totalLength: 322,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 13,
+        totalLength: 299,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 13,
+        totalLength: 299,
       },
     ],
   },
