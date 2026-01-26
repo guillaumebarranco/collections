@@ -915,6 +915,16 @@ export const guillaumeSeries: UserSerie[] = [
         seasonRating: 4,
         seasonTimesWatched: 5,
       },
+      {
+        seasonNumber: 2,
+        seasonRating: 4.25,
+        seasonTimesWatched: 5,
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 4.25,
+        seasonTimesWatched: 5,
+      },
     ],
     owned: false,
   },
@@ -1776,8 +1786,23 @@ export const guillaumeSeries: UserSerie[] = [
     seasons: [
       {
         seasonNumber: 1,
-        seasonRating: 4.25,
+        seasonRating: 3.75,
+        seasonTimesWatched: 8,
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 4.5,
         seasonTimesWatched: 10,
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 4.25,
+        seasonTimesWatched: 8,
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 4,
+        seasonTimesWatched: 8,
       },
     ],
     owned: true,

@@ -22,8 +22,24 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 5,
-        totalLength: 249,
+        nbEpisodes: 25,
+        totalLength: 500,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 40,
+        totalLength: 800,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 27,
+        totalLength: 540,
+      },
+
+      {
+        seasonNumber: 4,
+        nbEpisodes: 17,
+        totalLength: 340,
       },
     ],
   },
@@ -35,15 +51,25 @@ export const baseSeriesAnimees: BaseSerie[] = [
         name: 'Inconnu',
       },
     ],
-    coverUrl: '/series_pictures/olive-et-tom-le-retour.jpg',
+    coverUrl: '/series_pictures/71AiVceG98L._AC_UF894,1000_QL80_.jpg',
     releaseDate: '2001-10-07',
     endDate: '2002-10-06',
     genre: 'Animation, Sport',
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 52,
-        totalLength: 1320,
+        nbEpisodes: 19,
+        totalLength: 380,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 15,
+        totalLength: 450,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 18,
+        totalLength: 540,
       },
     ],
   },
@@ -114,8 +140,113 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 500,
-        totalLength: 0,
+        nbEpisodes: 32,
+        totalLength: 640,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 21,
+        totalLength: 420,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 18,
+        totalLength: 360,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 17,
+        totalLength: 340,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 24,
+        totalLength: 480,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 31,
+        totalLength: 620,
+      },
+      {
+        seasonNumber: 7,
+        nbEpisodes: 8,
+        totalLength: 160,
+      },
+      {
+        seasonNumber: 8,
+        nbEpisodes: 24,
+        totalLength: 480,
+      },
+      {
+        seasonNumber: 9,
+        nbEpisodes: 21,
+        totalLength: 420,
+      },
+      {
+        seasonNumber: 10,
+        nbEpisodes: 25,
+        totalLength: 500,
+      },
+      {
+        seasonNumber: 11,
+        nbEpisodes: 21,
+        totalLength: 420,
+      },
+      {
+        seasonNumber: 12,
+        nbEpisodes: 33,
+        totalLength: 660,
+      },
+      {
+        seasonNumber: 13,
+        nbEpisodes: 20,
+        totalLength: 400,
+      },
+      {
+        seasonNumber: 14,
+        nbEpisodes: 25,
+        totalLength: 500,
+      },
+      {
+        seasonNumber: 15,
+        nbEpisodes: 28,
+        totalLength: 560,
+      },
+      {
+        seasonNumber: 16,
+        nbEpisodes: 13,
+        totalLength: 260,
+      },
+      {
+        seasonNumber: 17,
+        nbEpisodes: 11,
+        totalLength: 220,
+      },
+      {
+        seasonNumber: 18,
+        nbEpisodes: 21,
+        totalLength: 420,
+      },
+      {
+        seasonNumber: 19,
+        nbEpisodes: 20,
+        totalLength: 400,
+      },
+      {
+        seasonNumber: 20,
+        nbEpisodes: 45,
+        totalLength: 900,
+      },
+      {
+        seasonNumber: 21,
+        nbEpisodes: 21,
+        totalLength: 420,
+      },
+      {
+        seasonNumber: 22,
+        nbEpisodes: 21,
+        totalLength: 420,
       },
     ],
   },
@@ -134,8 +265,113 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 1100,
-        totalLength: 0,
+        nbEpisodes: 61,
+        totalLength: 1220,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 16,
+        totalLength: 320,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 15,
+        totalLength: 300,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 38,
+        totalLength: 760,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 13,
+        totalLength: 260,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 52,
+        totalLength: 1040,
+      },
+      {
+        seasonNumber: 7,
+        nbEpisodes: 33,
+        totalLength: 660,
+      },
+      {
+        seasonNumber: 8,
+        nbEpisodes: 35,
+        totalLength: 700,
+      },
+      {
+        seasonNumber: 9,
+        nbEpisodes: 73,
+        totalLength: 1460,
+      },
+      {
+        seasonNumber: 10,
+        nbEpisodes: 45,
+        totalLength: 900,
+      },
+      {
+        seasonNumber: 11,
+        nbEpisodes: 26,
+        totalLength: 520,
+      },
+      {
+        seasonNumber: 12,
+        nbEpisodes: 14,
+        totalLength: 280,
+      },
+      {
+        seasonNumber: 13,
+        nbEpisodes: 35,
+        totalLength: 700,
+      },
+      {
+        seasonNumber: 14,
+        nbEpisodes: 60,
+        totalLength: 1200,
+      },
+      {
+        seasonNumber: 15,
+        nbEpisodes: 62,
+        totalLength: 1240,
+      },
+      {
+        seasonNumber: 16,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 17,
+        nbEpisodes: 118,
+        totalLength: 2360,
+      },
+      {
+        seasonNumber: 18,
+        nbEpisodes: 36,
+        totalLength: 720,
+      },
+      {
+        seasonNumber: 19,
+        nbEpisodes: 109,
+        totalLength: 2180,
+      },
+      {
+        seasonNumber: 20,
+        nbEpisodes: 197,
+        totalLength: 3940,
+      },
+      {
+        seasonNumber: 21,
+        nbEpisodes: 67,
+        totalLength: 1340,
+      },
+      {
+        seasonNumber: 22,
+        nbEpisodes: 5,
+        totalLength: 100,
       },
     ],
   },
@@ -154,8 +390,53 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 138,
-        totalLength: 0,
+        nbEpisodes: 13,
+        totalLength: 390,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 25,
+        totalLength: 750,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 25,
+        totalLength: 750,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 25,
+        totalLength: 750,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 25,
+        totalLength: 750,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 25,
+        totalLength: 750,
+      },
+      {
+        seasonNumber: 7,
+        nbEpisodes: 21,
+        totalLength: 630,
+      },
+      {
+        seasonNumber: 8,
+        nbEpisodes: 11,
+        totalLength: 330,
+      },
+      {
+        seasonNumber: 9,
+        nbEpisodes: 1,
+        totalLength: 30,
+      },
+      {
+        seasonNumber: 10,
+        nbEpisodes: 10,
+        totalLength: 300,
       },
     ],
   },
@@ -174,8 +455,33 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 293,
-        totalLength: 0,
+        nbEpisodes: 52,
+        totalLength: 1040,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 52,
+        totalLength: 1040,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 52,
+        totalLength: 1040,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 52,
+        totalLength: 1040,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 52,
+        totalLength: 1040,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 33,
+        totalLength: 660,
       },
     ],
   },
@@ -195,7 +501,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       {
         seasonNumber: 1,
         nbEpisodes: 12,
-        totalLength: 0,
+        totalLength: 240,
       },
     ],
   },
@@ -214,8 +520,48 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 153,
-        totalLength: 0,
+        nbEpisodes: 39,
+        totalLength: 780,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 45,
+        totalLength: 900,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 51,
+        totalLength: 1020,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 36,
+        totalLength: 720,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 33,
+        totalLength: 660,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 45,
+        totalLength: 900,
+      },
+      {
+        seasonNumber: 7,
+        nbEpisodes: 54,
+        totalLength: 1080,
+      },
+      {
+        seasonNumber: 8,
+        nbEpisodes: 63,
+        totalLength: 1260,
+      },
+      {
+        seasonNumber: 9,
+        nbEpisodes: 93,
+        totalLength: 1860,
       },
     ],
   },
@@ -235,8 +581,58 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 291,
-        totalLength: 0,
+        nbEpisodes: 39,
+        totalLength: 780,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 38,
+        totalLength: 760,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 33,
+        totalLength: 660,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 32,
+        totalLength: 640,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 26,
+        totalLength: 520,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 29,
+        totalLength: 580,
+      },
+      {
+        seasonNumber: 7,
+        nbEpisodes: 25,
+        totalLength: 500,
+      },
+      {
+        seasonNumber: 8,
+        nbEpisodes: 34,
+        totalLength: 680,
+      },
+      {
+        seasonNumber: 9,
+        nbEpisodes: 38,
+        totalLength: 760,
+      },
+      {
+        seasonNumber: 10,
+        nbEpisodes: 4,
+        totalLength: 80,
+      },
+      {
+        seasonNumber: 11,
+        nbEpisodes: 5,
+        totalLength: 100,
       },
     ],
   },
@@ -255,8 +651,28 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 64,
-        totalLength: 0,
+        nbEpisodes: 16,
+        totalLength: 320,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 24,
+        totalLength: 480,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 7,
+        totalLength: 140,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 17,
+        totalLength: 340,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 1,
+        totalLength: 20,
       },
     ],
   },
@@ -275,8 +691,28 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 131,
-        totalLength: 0,
+        nbEpisodes: 18,
+        totalLength: 360,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 9,
+        totalLength: 180,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 19,
+        totalLength: 380,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 30,
+        totalLength: 600,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 55,
+        totalLength: 1100,
       },
     ],
   },
@@ -296,7 +732,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       {
         seasonNumber: 1,
         nbEpisodes: 20,
-        totalLength: 0,
+        totalLength: 400,
       },
     ],
   },
@@ -315,8 +751,63 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 128,
-        totalLength: 0,
+        nbEpisodes: 26,
+        totalLength: 520,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 26,
+        totalLength: 520,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 26,
+        totalLength: 520,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 26,
+        totalLength: 520,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 24,
+        totalLength: 480,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 4,
+        totalLength: 80,
+      },
+      {
+        seasonNumber: 7,
+        nbEpisodes: 14,
+        totalLength: 280,
+      },
+      {
+        seasonNumber: 8,
+        nbEpisodes: 47,
+        totalLength: 940,
+      },
+      {
+        seasonNumber: 9,
+        nbEpisodes: 52,
+        totalLength: 1040,
+      },
+      {
+        seasonNumber: 10,
+        nbEpisodes: 28,
+        totalLength: 560,
+      },
+      {
+        seasonNumber: 11,
+        nbEpisodes: 24,
+        totalLength: 480,
+      },
+      {
+        seasonNumber: 12,
+        nbEpisodes: 39,
+        totalLength: 780,
       },
     ],
   },
@@ -336,7 +827,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       {
         seasonNumber: 1,
         nbEpisodes: 12,
-        totalLength: 0,
+        totalLength: 240,
       },
     ],
   },
@@ -355,8 +846,33 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 96,
-        totalLength: 0,
+        nbEpisodes: 24,
+        totalLength: 480,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 4,
+        totalLength: 80,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 24,
+        totalLength: 480,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 24,
+        totalLength: 480,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 24,
+        totalLength: 480,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 3,
+        totalLength: 60,
       },
     ],
   },
@@ -376,7 +892,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       {
         seasonNumber: 1,
         nbEpisodes: 64,
-        totalLength: 0,
+        totalLength: 1280,
       },
     ],
   },
@@ -395,8 +911,33 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 86,
-        totalLength: 0,
+        nbEpisodes: 24,
+        totalLength: 480,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 13,
+        totalLength: 260,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 24,
+        totalLength: 480,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 12,
+        totalLength: 240,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 13,
+        totalLength: 260,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 5,
+        totalLength: 100,
       },
     ],
   },
@@ -416,7 +957,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       {
         seasonNumber: 1,
         nbEpisodes: 24,
-        totalLength: 0,
+        totalLength: 480,
       },
     ],
   },
@@ -435,8 +976,18 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 148,
-        totalLength: 0,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 49,
+        totalLength: 980,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 49,
+        totalLength: 980,
       },
     ],
   },
@@ -455,8 +1006,13 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
+        nbEpisodes: 1,
+        totalLength: 20,
+      },
+      {
+        seasonNumber: 2,
         nbEpisodes: 60,
-        totalLength: 0,
+        totalLength: 1200,
       },
     ],
   },
@@ -476,8 +1032,88 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 366,
-        totalLength: 0,
+        nbEpisodes: 20,
+        totalLength: 400,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 21,
+        totalLength: 420,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 22,
+        totalLength: 440,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 28,
+        totalLength: 560,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 18,
+        totalLength: 360,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 22,
+        totalLength: 440,
+      },
+      {
+        seasonNumber: 7,
+        nbEpisodes: 20,
+        totalLength: 400,
+      },
+      {
+        seasonNumber: 8,
+        nbEpisodes: 16,
+        totalLength: 320,
+      },
+      {
+        seasonNumber: 9,
+        nbEpisodes: 22,
+        totalLength: 440,
+      },
+      {
+        seasonNumber: 10,
+        nbEpisodes: 16,
+        totalLength: 320,
+      },
+      {
+        seasonNumber: 11,
+        nbEpisodes: 7,
+        totalLength: 140,
+      },
+      {
+        seasonNumber: 12,
+        nbEpisodes: 17,
+        totalLength: 340,
+      },
+      {
+        seasonNumber: 13,
+        nbEpisodes: 36,
+        totalLength: 720,
+      },
+      {
+        seasonNumber: 14,
+        nbEpisodes: 51,
+        totalLength: 1020,
+      },
+      {
+        seasonNumber: 15,
+        nbEpisodes: 26,
+        totalLength: 520,
+      },
+      {
+        seasonNumber: 16,
+        nbEpisodes: 24,
+        totalLength: 480,
+      },
+      {
+        seasonNumber: 17,
+        nbEpisodes: 40,
+        totalLength: 800,
       },
     ],
   },
@@ -497,8 +1133,113 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 1100,
-        totalLength: 0,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 7,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 8,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 9,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 10,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 11,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 12,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 13,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 14,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 15,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 16,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 17,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 18,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 19,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 20,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 21,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 22,
+        nbEpisodes: 50,
+        totalLength: 1000,
       },
     ],
   },
@@ -517,8 +1258,18 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 47,
-        totalLength: 0,
+        nbEpisodes: 24,
+        totalLength: 480,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 23,
+        totalLength: 460,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 5,
+        totalLength: 100,
       },
     ],
   },
@@ -538,8 +1289,18 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 190,
-        totalLength: 0,
+        nbEpisodes: 24,
+        totalLength: 480,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 23,
+        totalLength: 460,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 5,
+        totalLength: 100,
       },
     ],
   },
@@ -558,8 +1319,23 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 55,
-        totalLength: 0,
+        nbEpisodes: 26,
+        totalLength: 520,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 18,
+        totalLength: 360,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 11,
+        totalLength: 220,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 8,
+        totalLength: 160,
       },
     ],
   },
@@ -579,7 +1355,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       {
         seasonNumber: 1,
         nbEpisodes: 37,
-        totalLength: 0,
+        totalLength: 740,
       },
     ],
   },
@@ -599,7 +1375,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       {
         seasonNumber: 1,
         nbEpisodes: 12,
-        totalLength: 0,
+        totalLength: 240,
       },
     ],
   },
@@ -618,8 +1394,38 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 152,
-        totalLength: 0,
+        nbEpisodes: 22,
+        totalLength: 440,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 35,
+        totalLength: 700,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 25,
+        totalLength: 500,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 27,
+        totalLength: 540,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 13,
+        totalLength: 260,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 30,
+        totalLength: 600,
+      },
+      {
+        seasonNumber: 7,
+        nbEpisodes: 4,
+        totalLength: 80,
       },
     ],
   },
@@ -639,8 +1445,18 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 114,
-        totalLength: 0,
+        nbEpisodes: 38,
+        totalLength: 760,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 38,
+        totalLength: 760,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 38,
+        totalLength: 760,
       },
     ],
   },
@@ -660,7 +1476,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       {
         seasonNumber: 1,
         nbEpisodes: 39,
-        totalLength: 0,
+        totalLength: 780,
       },
     ],
   },
@@ -679,8 +1495,28 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 201,
-        totalLength: 0,
+        nbEpisodes: 41,
+        totalLength: 820,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 40,
+        totalLength: 800,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 40,
+        totalLength: 800,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 40,
+        totalLength: 800,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 40,
+        totalLength: 800,
       },
     ],
   },
@@ -700,7 +1536,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       {
         seasonNumber: 1,
         nbEpisodes: 24,
-        totalLength: 0,
+        totalLength: 480,
       },
     ],
   },
@@ -719,8 +1555,23 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 95,
-        totalLength: 0,
+        nbEpisodes: 26,
+        totalLength: 520,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 26,
+        totalLength: 520,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 15,
+        totalLength: 300,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 30,
+        totalLength: 600,
       },
     ],
   },
@@ -740,7 +1591,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       {
         seasonNumber: 1,
         nbEpisodes: 42,
-        totalLength: 0,
+        totalLength: 840,
       },
     ],
   },
@@ -759,8 +1610,13 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 74,
-        totalLength: 0,
+        nbEpisodes: 37,
+        totalLength: 740,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 37,
+        totalLength: 740,
       },
     ],
   },
@@ -779,8 +1635,38 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 156,
-        totalLength: 0,
+        nbEpisodes: 26,
+        totalLength: 520,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 26,
+        totalLength: 520,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 27,
+        totalLength: 540,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 28,
+        totalLength: 560,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 27,
+        totalLength: 540,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 27,
+        totalLength: 540,
+      },
+      {
+        seasonNumber: 7,
+        nbEpisodes: 26,
+        totalLength: 520,
       },
     ],
   },
@@ -799,8 +1685,58 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 78,
-        totalLength: 0,
+        nbEpisodes: 1,
+        totalLength: 20,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 2,
+        totalLength: 40,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 35,
+        totalLength: 700,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 39,
+        totalLength: 780,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 32,
+        totalLength: 640,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 13,
+        totalLength: 260,
+      },
+      {
+        seasonNumber: 7,
+        nbEpisodes: 36,
+        totalLength: 720,
+      },
+      {
+        seasonNumber: 8,
+        nbEpisodes: 39,
+        totalLength: 780,
+      },
+      {
+        seasonNumber: 9,
+        nbEpisodes: 1,
+        totalLength: 20,
+      },
+      {
+        seasonNumber: 10,
+        nbEpisodes: 1,
+        totalLength: 20,
+      },
+      {
+        seasonNumber: 11,
+        nbEpisodes: 1,
+        totalLength: 20,
       },
     ],
   },
@@ -819,8 +1755,58 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 104,
-        totalLength: 0,
+        nbEpisodes: 1,
+        totalLength: 20,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 2,
+        totalLength: 40,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 35,
+        totalLength: 700,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 39,
+        totalLength: 780,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 32,
+        totalLength: 640,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 13,
+        totalLength: 260,
+      },
+      {
+        seasonNumber: 7,
+        nbEpisodes: 36,
+        totalLength: 720,
+      },
+      {
+        seasonNumber: 8,
+        nbEpisodes: 39,
+        totalLength: 780,
+      },
+      {
+        seasonNumber: 9,
+        nbEpisodes: 1,
+        totalLength: 20,
+      },
+      {
+        seasonNumber: 10,
+        nbEpisodes: 1,
+        totalLength: 20,
+      },
+      {
+        seasonNumber: 11,
+        nbEpisodes: 1,
+        totalLength: 20,
       },
     ],
   },
@@ -840,8 +1826,43 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 65,
-        totalLength: 0,
+        nbEpisodes: 14,
+        totalLength: 280,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 14,
+        totalLength: 280,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 14,
+        totalLength: 280,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 14,
+        totalLength: 280,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 14,
+        totalLength: 280,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 1,
+        totalLength: 20,
+      },
+      {
+        seasonNumber: 7,
+        nbEpisodes: 1,
+        totalLength: 20,
+      },
+      {
+        seasonNumber: 8,
+        nbEpisodes: 1,
+        totalLength: 20,
       },
     ],
   },
@@ -860,8 +1881,18 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 104,
-        totalLength: 0,
+        nbEpisodes: 35,
+        totalLength: 700,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 35,
+        totalLength: 700,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 34,
+        totalLength: 680,
       },
     ],
   },
@@ -881,8 +1912,38 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 230,
-        totalLength: 0,
+        nbEpisodes: 78,
+        totalLength: 1560,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 78,
+        totalLength: 1560,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 39,
+        totalLength: 780,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 74,
+        totalLength: 1480,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 76,
+        totalLength: 1520,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 78,
+        totalLength: 1560,
+      },
+      {
+        seasonNumber: 7,
+        nbEpisodes: 78,
+        totalLength: 1560,
       },
     ],
   },
@@ -901,8 +1962,38 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 280,
-        totalLength: 0,
+        nbEpisodes: 78,
+        totalLength: 1560,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 78,
+        totalLength: 1560,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 39,
+        totalLength: 780,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 74,
+        totalLength: 1480,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 76,
+        totalLength: 1520,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 78,
+        totalLength: 1560,
+      },
+      {
+        seasonNumber: 7,
+        nbEpisodes: 78,
+        totalLength: 1560,
       },
     ],
   },
@@ -921,8 +2012,58 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 193,
-        totalLength: 0,
+        nbEpisodes: 5,
+        totalLength: 100,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 13,
+        totalLength: 260,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 47,
+        totalLength: 940,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 42,
+        totalLength: 840,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 21,
+        totalLength: 420,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 16,
+        totalLength: 320,
+      },
+      {
+        seasonNumber: 7,
+        nbEpisodes: 27,
+        totalLength: 540,
+      },
+      {
+        seasonNumber: 8,
+        nbEpisodes: 8,
+        totalLength: 160,
+      },
+      {
+        seasonNumber: 9,
+        nbEpisodes: 8,
+        totalLength: 160,
+      },
+      {
+        seasonNumber: 10,
+        nbEpisodes: 8,
+        totalLength: 160,
+      },
+      {
+        seasonNumber: 11,
+        nbEpisodes: 7,
+        totalLength: 140,
       },
     ],
   },
@@ -942,7 +2083,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       {
         seasonNumber: 1,
         nbEpisodes: 46,
-        totalLength: 0,
+        totalLength: 920,
       },
     ],
   },
@@ -961,8 +2102,123 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 1200,
-        totalLength: 0,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 7,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 8,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 9,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 10,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 11,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 12,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 13,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 14,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 15,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 16,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 17,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 18,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 19,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 20,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 21,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 22,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 23,
+        nbEpisodes: 50,
+        totalLength: 1000,
+      },
+      {
+        seasonNumber: 24,
+        nbEpisodes: 50,
+        totalLength: 1000,
       },
     ],
   },
@@ -981,8 +2237,13 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 69,
-        totalLength: 0,
+        nbEpisodes: 35,
+        totalLength: 700,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 34,
+        totalLength: 680,
       },
     ],
   },
@@ -1002,8 +2263,13 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 95,
-        totalLength: 0,
+        nbEpisodes: 48,
+        totalLength: 960,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 47,
+        totalLength: 940,
       },
     ],
   },
@@ -1023,7 +2289,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       {
         seasonNumber: 1,
         nbEpisodes: 26,
-        totalLength: 0,
+        totalLength: 520,
       },
     ],
   },
@@ -1062,8 +2328,23 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 140,
-        totalLength: 2800,
+        nbEpisodes: 51,
+        totalLength: 1020,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 63,
+        totalLength: 1260,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 13,
+        totalLength: 260,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 13,
+        totalLength: 260,
       },
     ],
   },
@@ -1082,8 +2363,53 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 367,
-        totalLength: 0,
+        nbEpisodes: 64,
+        totalLength: 1280,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 58,
+        totalLength: 1160,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 57,
+        totalLength: 1140,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 63,
+        totalLength: 1260,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 57,
+        totalLength: 1140,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 13,
+        totalLength: 260,
+      },
+      {
+        seasonNumber: 7,
+        nbEpisodes: 67,
+        totalLength: 1340,
+      },
+      {
+        seasonNumber: 8,
+        nbEpisodes: 12,
+        totalLength: 240,
+      },
+      {
+        seasonNumber: 9,
+        nbEpisodes: 17,
+        totalLength: 340,
+      },
+      {
+        seasonNumber: 10,
+        nbEpisodes: 28,
+        totalLength: 560,
       },
     ],
   },
@@ -1102,8 +2428,43 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 224,
-        totalLength: 4928,
+        nbEpisodes: 27,
+        totalLength: 540,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 49,
+        totalLength: 980,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 48,
+        totalLength: 960,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 47,
+        totalLength: 940,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 40,
+        totalLength: 800,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 40,
+        totalLength: 800,
+      },
+      {
+        seasonNumber: 7,
+        nbEpisodes: 12,
+        totalLength: 240,
+      },
+      {
+        seasonNumber: 8,
+        nbEpisodes: 4,
+        totalLength: 80,
       },
     ],
   },
@@ -1188,7 +2549,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       {
         seasonNumber: 1,
         nbEpisodes: 51,
-        totalLength: 1224,
+        totalLength: 1020,
       },
     ],
   },
@@ -1216,7 +2577,12 @@ export const baseSeriesAnimees: BaseSerie[] = [
       {
         seasonNumber: 1,
         nbEpisodes: 51,
-        totalLength: 1224,
+        totalLength: 1020,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 5,
+        totalLength: 100,
       },
     ],
   },
@@ -1244,7 +2610,12 @@ export const baseSeriesAnimees: BaseSerie[] = [
       {
         seasonNumber: 1,
         nbEpisodes: 64,
-        totalLength: 1536,
+        totalLength: 1280,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 4,
+        totalLength: 80,
       },
     ],
   },
@@ -1271,8 +2642,18 @@ export const baseSeriesAnimees: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 140,
-        totalLength: 3335,
+        nbEpisodes: 47,
+        totalLength: 1120,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 47,
+        totalLength: 1120,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 46,
+        totalLength: 1095,
       },
     ],
   },
