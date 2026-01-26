@@ -1231,6 +1231,16 @@ export const guillaumeGames: UserGame[] = [
     timesFinishedHundredPercent: 0,
     owned: true,
   },
+  {
+    title: 'Mario & Sonic aux Jeux Olympiques',
+    editor: 'Wii',
+    rating: 3.25,
+    timesFinished: 0,
+    additionnalEstimatedTime: 20,
+    timesFinishedHundredPercent: 0,
+    platined: false,
+    owned: true,
+  },
   // Super Smash Bros
   {
     title: 'Super Smash Bros. Brawl',

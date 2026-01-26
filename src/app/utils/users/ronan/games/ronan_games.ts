@@ -1602,7 +1602,7 @@ export const ronanGames: UserGame[] = [
     owned: false,
   },
   {
-    title: 'Call of Duty 4 : Modern Warfare',
+    title: 'Call of Duty 4 : Modern Warfare (DS)',
     editor: 'Activision',
     rating: 3,
     timesFinished: 3,
@@ -1894,7 +1894,7 @@ export const ronanGames: UserGame[] = [
   },
 
   {
-    title: 'Need for Speed : Most Wanted',
+    title: 'Need for Speed : Most Wanted (DS)',
     editor: 'Electronic Arts',
     rating: 2.5,
     timesFinished: 1,

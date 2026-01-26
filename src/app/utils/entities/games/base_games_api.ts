@@ -268,7 +268,7 @@ export const baseGamesApi: BaseGame[] = [
     platineTime: 0,
   },
   {
-    title: 'Call of Duty 4 : Modern Warfare',
+    title: 'Call of Duty 4 : Modern Warfare (DS)',
     editor: 'Activision',
     hero: '',
     coverUrl: 'https://image.jeuxvideo.com/images-sm/ds/c/o/codwds0f.jpg',
@@ -607,7 +607,7 @@ export const baseGamesApi: BaseGame[] = [
     platineTime: 0,
   },
   {
-    title: 'Need for Speed : Most Wanted',
+    title: 'Need for Speed : Most Wanted (DS)',
     editor: 'Electronic Arts',
     hero: '',
     coverUrl:

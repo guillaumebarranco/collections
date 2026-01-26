@@ -33,15 +33,4 @@ export const guillaumeGameListGames: UserGame[] = [
     platined: false,
     owned: false,
   },
-
-  {
-    title: 'Mario & Sonic aux Jeux Olympiques',
-    editor: 'Sega',
-    rating: 0,
-    timesFinished: 0,
-    additionnalEstimatedTime: 0,
-    timesFinishedHundredPercent: 0,
-    platined: false,
-    owned: false,
-  },
 ];

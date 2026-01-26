@@ -39,7 +39,7 @@ export const baseManwhas: BaseManwha[] = [
     coverUrl: '/mangas_pictures/girls_of_the_wild.webp',
     genre: 'Shonen',
     nbChapters: 264,
-    isFinished: false,
+    isFinished: true,
   },
   {
     title: 'DICE: The Cube that Changes Everything',
@@ -47,7 +47,7 @@ export const baseManwhas: BaseManwha[] = [
     coverUrl: '/mangas_pictures/dice.jpg',
     genre: 'Shonen',
     nbChapters: 388,
-    isFinished: false,
+    isFinished: true,
   },
   {
     title: 'Dr. Frost',
