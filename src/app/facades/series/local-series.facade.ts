@@ -1,4 +1,5 @@
 import { baseSeries } from '../../utils/entities/series/base_series';
+import { baseSeriesAnimees } from '../../utils/entities/series/base_series_animees';
 import { baseSeriesApi } from '../../utils/entities/series/base_series_api';
 
 import { guillaumeSeries } from '../../utils/users/guillaume/series';
@@ -13,7 +14,11 @@ import { amandineWatchListSeries } from '../../utils/users/amandine/series/amand
 import { williamSeries } from '../../utils/users/william/series/william_series';
 import { williamWatchListSeries } from '../../utils/users/william/series/william_watchlist_series';
 
-export const allBaseSeries: BaseSerie[] = [...baseSeries, ...baseSeriesApi];
+export const allBaseSeries: BaseSerie[] = [
+  ...baseSeries,
+  ...baseSeriesApi,
+  ...baseSeriesAnimees,
+];
 
 export function getLocalSeriesByUser(userId: string): UserSerie[] {
   switch (userId) {

@@ -871,6 +871,54 @@ export const guillaumeSeries: UserSerie[] = [
     owned: false,
   },
   {
+    title: 'Cobra',
+    director: 'Osamu Dezaki',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 4,
+        seasonTimesWatched: 1,
+      },
+    ],
+    owned: false,
+  },
+  {
+    title: 'Nicky Larson',
+    director: 'Kenji Kodama',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 3.5,
+        seasonTimesWatched: 1,
+      },
+    ],
+    owned: false,
+  },
+  {
+    title: 'Yu-Gi-Oh!',
+    director: 'Kunihisa Sugishima',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 4,
+        seasonTimesWatched: 2,
+      },
+    ],
+    owned: false,
+  },
+  {
+    title: 'Olive et Tom : Le retour',
+    director: 'Gisaburo Sugii',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 4,
+        seasonTimesWatched: 5,
+      },
+    ],
+    owned: false,
+  },
+  {
     title: '13 Reasons Why',
     director: 'Brian Yorkey',
     seasons: [
