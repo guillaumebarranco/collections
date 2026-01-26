@@ -11,7 +11,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Justice League : Crise d\'identité',
-    designer: 'Brad Meltzer - Rags Morales',
+    designer: 'Rags Morales',
     readDate: '2023-04-23',
     rating: 4.5,
     readTimes: 1,
@@ -19,7 +19,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Justice League : La Ligue de Justice d\'Amérique',
-    designer: 'Johns - Kindt - Finch',
+    designer: 'Kindt - Finch',
     readDate: '',
     rating: 3,
     readTimes: 1,
@@ -27,7 +27,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Justice League : La Guerre des Ligues',
-    designer: 'Johns - Lemire - Reis - Mahnke',
+    designer: 'Lemire - Reis - Mahnke',
     readDate: '',
     rating: 3.5,
     readTimes: 1,
@@ -35,7 +35,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Justice League : Le Règne du Mal - 1re partie',
-    designer: 'Johns - Finch - Reis - Mahnke',
+    designer: 'Finch - Reis - Mahnke',
     readDate: '',
     rating: 4,
     readTimes: 1,
@@ -43,7 +43,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Justice League : Le Règne du Mal - 2e partie',
-    designer: 'Johns - Finch - Reis - Mahnke',
+    designer: 'Finch - Reis - Mahnke',
     readDate: '',
     rating: 4,
     readTimes: 1,
@@ -51,7 +51,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Justice League : La Ligue d\'Injustice',
-    designer: 'Johns - Fabok - Reis - Mahnke',
+    designer: 'Fabok - Reis - Mahnke',
     readDate: '',
     rating: 4,
     readTimes: 1,
@@ -59,7 +59,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Justice League : La Guerre de Darkseid - 1re partie',
-    designer: 'Johns - Fabok',
+    designer: 'Fabok',
     readDate: '',
     rating: 4,
     readTimes: 1,
@@ -67,7 +67,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Justice League : La Guerre de Darkseid - 2e partie',
-    designer: 'Johns - Fabok - Manapul',
+    designer: 'Fabok - Manapul',
     readDate: '',
     rating: 4,
     readTimes: 1,
@@ -75,7 +75,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Superman : Requiem',
-    designer: 'Peter J. Tomasi - Mikel Janin - Doug Mahnke',
+    designer: 'Mikel Janin - Doug Mahnke',
     readDate: '',
     rating: 3.5,
     readTimes: 1,
@@ -83,7 +83,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Superman : Président Lex Luthor',
-    designer: 'DeMatteis - Kelly - Loeb - Schultz',
+    designer: 'Kelly - Loeb - Schultz',
     readDate: '',
     rating: 2.5,
     readTimes: 1,
@@ -123,7 +123,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'L\'autre terre',
-    designer: 'Inconnu',
+    designer: 'DC Comics',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -163,7 +163,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'L\'odyssée du mal',
-    designer: 'Inconnu',
+    designer: 'DC Comics',
     readDate: '',
     rating: 3.5,
     readTimes: 1,
@@ -227,7 +227,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'D\'entre les ombres',
-    designer: 'Inconnu',
+    designer: 'DC Comics',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -251,7 +251,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Les patients d\'Arkham',
-    designer: 'Inconnu',
+    designer: 'DC Comics',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -267,7 +267,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Le trône d\'Atlantide',
-    designer: 'Inconnu',
+    designer: 'DC Comics',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -403,7 +403,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'L\'odyssée - 1re partie',
-    designer: 'Inconnu',
+    designer: 'DC Comics',
     readDate: '',
     rating: 3,
     readTimes: 1,
@@ -411,7 +411,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'L\'odyssée - 2e partie',
-    designer: 'Inconnu',
+    designer: 'DC Comics',
     readDate: '',
     rating: 3.5,
     readTimes: 1,
@@ -515,7 +515,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Transmetropolitan - Tome 1',
-    designer: 'Warren Ellis - Darick Robertson',
+    designer: 'Darick Robertson',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -523,7 +523,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Transmetropolitan - Tome 2',
-    designer: 'Warren Ellis - Darick Robertson',
+    designer: 'Darick Robertson',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -531,7 +531,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Transmetropolitan - Tome 3',
-    designer: 'Warren Ellis - Darick Robertson',
+    designer: 'Darick Robertson',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -539,7 +539,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Transmetropolitan - Tome 4',
-    designer: 'Warren Ellis - Darick Robertson',
+    designer: 'Darick Robertson',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -547,7 +547,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Transmetropolitan - Tome 5',
-    designer: 'Warren Ellis - Darick Robertson',
+    designer: 'Darick Robertson',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -555,7 +555,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Y, le Dernier Homme - Tome 1',
-    designer: 'Brian K. Vaughan - Pia Guerra',
+    designer: 'Pia Guerra',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -563,7 +563,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Y, le Dernier Homme - Tome 2',
-    designer: 'Brian K. Vaughan - Pia Guerra',
+    designer: 'Pia Guerra',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -571,7 +571,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Y, le Dernier Homme - Tome 3',
-    designer: 'Brian K. Vaughan - Pia Guerra',
+    designer: 'Pia Guerra',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -579,7 +579,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Y, le Dernier Homme - Tome 4',
-    designer: 'Brian K. Vaughan - Pia Guerra',
+    designer: 'Pia Guerra',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -587,7 +587,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Y, le Dernier Homme - Tome 5',
-    designer: 'Brian K. Vaughan - Pia Guerra',
+    designer: 'Pia Guerra',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -595,7 +595,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Y, le Dernier Homme - Tome 6',
-    designer: 'Brian K. Vaughan - Pia Guerra',
+    designer: 'Pia Guerra',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -603,7 +603,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Fables - Tome 1',
-    designer: 'Bill Willingham - Mark Buckingham',
+    designer: 'Mark Buckingham',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -611,7 +611,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Fables - Tome 2',
-    designer: 'Bill Willingham - Mark Buckingham',
+    designer: 'Mark Buckingham',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -619,7 +619,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Fables - Tome 3',
-    designer: 'Bill Willingham - Mark Buckingham',
+    designer: 'Mark Buckingham',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -627,7 +627,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Fables - Tome 4',
-    designer: 'Bill Willingham - Mark Buckingham',
+    designer: 'Mark Buckingham',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -635,7 +635,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Fables - Tome 5',
-    designer: 'Bill Willingham - Mark Buckingham',
+    designer: 'Mark Buckingham',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -643,7 +643,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Preacher - Tome 1',
-    designer: 'Garth Ennis - Steve Dillon',
+    designer: 'Steve Dillon',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -651,7 +651,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Preacher - Tome 2',
-    designer: 'Garth Ennis - Steve Dillon',
+    designer: 'Steve Dillon',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -659,7 +659,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Preacher - Tome 3',
-    designer: 'Garth Ennis - Steve Dillon',
+    designer: 'Steve Dillon',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -667,7 +667,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Preacher - Tome 4',
-    designer: 'Garth Ennis - Steve Dillon',
+    designer: 'Steve Dillon',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -683,7 +683,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Top 10',
-    designer: 'Alan Moore - Gene Ha - Zander Cannon',
+    designer: 'Gene Ha - Zander Cannon',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -691,7 +691,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Les seigneurs de Bagdad',
-    designer: 'Garth Ennis - Brian K. Vaughan - Niko Henrichon',
+    designer: 'Brian K. Vaughan - Niko Henrichon',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -699,7 +699,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Hellblazer : Dépendance mortelle',
-    designer: 'Garth Ennis - William Simpson',
+    designer: 'William Simpson',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -707,7 +707,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'All-Star Superman',
-    designer: 'Grant Morrison - Frank Quitely',
+    designer: 'Frank Quitely',
     readDate: '',
     rating: 3.5,
     readTimes: 1,
@@ -715,7 +715,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Superman : Up in the Sky',
-    designer: 'Tom King - Andy Kubert',
+    designer: 'Andy Kubert',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -723,7 +723,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Superman : Écrase le Klan',
-    designer: 'Gene Luen Yang - Gurihiru',
+    designer: 'Gurihiru',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -731,7 +731,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Superman : Les Origines',
-    designer: 'Mark Waid - Leinil Francis Yu',
+    designer: 'Leinil Francis Yu',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -747,7 +747,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Batman : Tueur né',
-    designer: 'Peter J. Tomasi - Patrick Gleason',
+    designer: 'Patrick Gleason',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -755,7 +755,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'DCeased',
-    designer: 'Tom Taylor - Trevor Hairsine - Stefano Gaudiano',
+    designer: 'Trevor Hairsine - Stefano Gaudiano',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -763,7 +763,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Mister Miracle',
-    designer: 'Tom King - Mitch Gerads',
+    designer: 'Mitch Gerads',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -771,7 +771,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Fables - Tome 6',
-    designer: 'Bill Willingham - Mark Buckingham',
+    designer: 'Mark Buckingham',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -779,7 +779,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Fables - Tome 7',
-    designer: 'Bill Willingham - Mark Buckingham',
+    designer: 'Mark Buckingham',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -787,7 +787,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Fables - Tome 8',
-    designer: 'Bill Willingham - Mark Buckingham',
+    designer: 'Mark Buckingham',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -795,7 +795,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Fables - Tome 9',
-    designer: 'Bill Willingham - Mark Buckingham',
+    designer: 'Mark Buckingham',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -803,7 +803,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Flashpoint : Édition 10 ans',
-    designer: 'Geoff Johns - Andy Kubert',
+    designer: 'Andy Kubert',
     readDate: '',
     rating: 4,
     readTimes: 1,
@@ -811,7 +811,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Batman : L\'énigme de Red Hood',
-    designer: 'Judd Winick - Shane Davis - Jeremy Haun',
+    designer: 'Shane Davis - Jeremy Haun',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -819,7 +819,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Absolute Superman',
-    designer: 'Jason Aaron - Rafa Sandoval',
+    designer: 'Rafa Sandoval',
     readDate: '',
     rating: 3.5,
     readTimes: 1,
@@ -827,7 +827,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Absolute Batman',
-    designer: 'Scott Snyder - Nick Dragotta',
+    designer: 'Nick Dragotta',
     readDate: '',
     rating: 4,
     readTimes: 1,
@@ -835,7 +835,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Absolute Justice League Unlimited',
-    designer: 'Mark Waid - Dan Mora',
+    designer: 'Dan Mora',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -843,7 +843,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Superman : Dark Prophecy',
-    designer: 'Joshua Williamson - Dan Mora',
+    designer: 'Dan Mora',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -851,7 +851,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Crisis on Infinite Earths',
-    designer: 'Marv Wolfman - George Perez',
+    designer: 'George Perez',
     readDate: '',
     rating: 3.5,
     readTimes: 1,
@@ -859,7 +859,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Supergirl : Woman of Tomorrow',
-    designer: 'Tom King - Bilquis Evely',
+    designer: 'Bilquis Evely',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -867,7 +867,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Superman : Lost',
-    designer: 'Christopher Priest - Carlo Pagulayan',
+    designer: 'Carlo Pagulayan',
     readDate: '',
     rating: 3.5,
     readTimes: 1,
@@ -875,7 +875,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Dark Knights of Steel : Au loin',
-    designer: 'Tom Taylor - Yasmine Putri',
+    designer: 'Yasmine Putri',
     readDate: '',
     rating: 4.5,
     readTimes: 1,
@@ -883,7 +883,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Dark Knights of Steel : La guerre des trois royaumes',
-    designer: 'Tom Taylor - Yasmine Putri',
+    designer: 'Yasmine Putri',
     readDate: '',
     rating: 4.5,
     readTimes: 1,
@@ -891,7 +891,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Dark Knights of Steel : Allwinter',
-    designer: 'Kristoff - Tirso',
+    designer: 'Tirso',
     readDate: '',
     rating: 4,
     readTimes: 1,
@@ -899,7 +899,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Joker : The Winning Card',
-    designer: 'Tom King - Mitch Gerads',
+    designer: 'Mitch Gerads',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -907,7 +907,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Batman : Damned',
-    designer: 'Brian Azzarello - Lee Bermejo',
+    designer: 'Lee Bermejo',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -923,7 +923,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Batman : Trois Jokers',
-    designer: 'Geoff Johns - Jason Fabok',
+    designer: 'Jason Fabok',
     readDate: '',
     rating: 3,
     readTimes: 1,
@@ -931,7 +931,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Batman : Imposter',
-    designer: 'Mattson Tomlin - Andrea Sorrentino',
+    designer: 'Andrea Sorrentino',
     readDate: '',
     rating: 4,
     readTimes: 1,
@@ -939,7 +939,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Batman Rebirth - Tome 1',
-    designer: 'Tom King - David Finch',
+    designer: 'David Finch',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -947,7 +947,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Batman Rebirth - Tome 2',
-    designer: 'Tom King - Mikel Janin - Mitch Gerads',
+    designer: 'Mikel Janin - Mitch Gerads',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -955,7 +955,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Batman Metal - Tome 1',
-    designer: 'Scott Snyder - Greg Capullo - John Romita Jr. - Lee',
+    designer: 'Greg Capullo - John Romita Jr. - Lee',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -963,7 +963,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Batman Metal - Tome 2',
-    designer: 'Scott Snyder - Greg Capullo - Mikel Janin',
+    designer: 'Greg Capullo - Mikel Janin',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -979,7 +979,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Batman : Le cœur de silence',
-    designer: 'Paul Dini - Dustin Nguyen',
+    designer: 'Dustin Nguyen',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -987,7 +987,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Batman : Terre-un',
-    designer: 'Geoff Johns - Gary Frank',
+    designer: 'Gary Frank',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -995,7 +995,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Batman : Sombre reflet',
-    designer: 'Scott Snyder - Jock',
+    designer: 'Jock',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1003,7 +1003,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Batman : Année Zéro',
-    designer: 'Scott Snyder - Greg Capullo',
+    designer: 'Greg Capullo',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1019,7 +1019,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Green Lantern - Tome 1',
-    designer: 'Geoff Johns - Ivan Reis',
+    designer: 'Ivan Reis',
     readDate: '',
     rating: 3,
     readTimes: 1,
@@ -1027,7 +1027,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Green Lantern - Tome 2',
-    designer: 'Geoff Johns - Ivan Reis',
+    designer: 'Ivan Reis',
     readDate: '',
     rating: 3,
     readTimes: 1,
@@ -1035,7 +1035,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Green Lantern - Tome 3',
-    designer: 'Geoff Johns - Ivan Reis',
+    designer: 'Ivan Reis',
     readDate: '',
     rating: 3,
     readTimes: 1,
@@ -1155,7 +1155,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Superman : Identité secrète',
-    designer: 'Kurt Busiek - Stuart Immonen',
+    designer: 'Stuart Immonen',
     readDate: '',
     rating: 4,
     readTimes: 1,
@@ -1163,7 +1163,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Spider-Man',
-    designer: 'J. Michael Straczynski - John Romita Jr.',
+    designer: 'John Romita Jr.',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1171,7 +1171,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Spider-Man : Bleu',
-    designer: 'Jeph Loeb - Tim Sale',
+    designer: 'Tim Sale',
     readDate: '',
     rating: 4,
     readTimes: 1,
@@ -1179,7 +1179,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Venom : Rex',
-    designer: 'Mike Costa - Gerardo Sandoval',
+    designer: 'Gerardo Sandoval',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1187,7 +1187,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Wolverine : Les origines',
-    designer: 'Paul Jenkins - Andy Kubert',
+    designer: 'Andy Kubert',
     readDate: '',
     rating: 3.5,
     readTimes: 1,
@@ -1195,7 +1195,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Thor : La déesse du tonnerre',
-    designer: 'Jason Aaron - Russell Dauterman',
+    designer: 'Russell Dauterman',
     readDate: '',
     rating: 3,
     readTimes: 1,
@@ -1203,7 +1203,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Ultimates : Super-humain',
-    designer: 'Mark Millar - Bryan Hitch',
+    designer: 'Bryan Hitch',
     readDate: '',
     rating: 3,
     readTimes: 1,
@@ -1211,7 +1211,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Thanos : Thanos gagne',
-    designer: 'Donny Cates - Geoff Shaw',
+    designer: 'Geoff Shaw',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1219,7 +1219,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Immortal Hulk : Ou est-il des deux ?',
-    designer: 'Al Ewing - Joe Bennett',
+    designer: 'Joe Bennett',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1227,7 +1227,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Captain Marvel : La vie de Captain Marvel',
-    designer: 'Kelly Thompson - Carmen Carnero',
+    designer: 'Carmen Carnero',
     readDate: '',
     rating: 3.5,
     readTimes: 1,
@@ -1235,7 +1235,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Hawkeye : Ma vie est une arme',
-    designer: 'Matt Fraction - David Aja',
+    designer: 'David Aja',
     readDate: '',
     rating: 3.5,
     readTimes: 1,
@@ -1243,7 +1243,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Daredevil : Jaune',
-    designer: 'Jeph Loeb - Tim Sale',
+    designer: 'Tim Sale',
     readDate: '',
     rating: 4,
     readTimes: 1,
@@ -1251,7 +1251,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Cosmic Ghost Rider : Bébé Thanos doit mourir',
-    designer: 'Donny Cates - Dylan Burnett',
+    designer: 'Dylan Burnett',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1259,7 +1259,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Deadpool : Massacre',
-    designer: 'Cullen Bunn - Dalibor Talajic',
+    designer: 'Dalibor Talajic',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1267,7 +1267,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Marvel Zombies : La famine',
-    designer: 'Robert Kirkman - Sean Phillips',
+    designer: 'Sean Phillips',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1283,7 +1283,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Spider-Man : Spider-Geddon',
-    designer: 'Christos Gage - Jorge Molina',
+    designer: 'Jorge Molina',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1291,7 +1291,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Avengers : Les origines',
-    designer: 'Joe Casey - Phil Noto',
+    designer: 'Phil Noto',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1307,7 +1307,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Avengers : État de siège',
-    designer: 'Brian Michael Bendis - Olivier Coipel',
+    designer: 'Olivier Coipel',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1315,7 +1315,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Avengers : Ultron Unlimited',
-    designer: 'Kurt Busiek - George Perez',
+    designer: 'George Perez',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1323,7 +1323,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Avengers : Dark Avengers',
-    designer: 'Brian Michael Bendis - Mike Deodato Jr.',
+    designer: 'Mike Deodato Jr.',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1339,7 +1339,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Captain America : Le soldat de l\'hiver',
-    designer: 'Inconnu',
+    designer: 'Steve Epting',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1347,7 +1347,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Les Gardiens de la Galaxie',
-    designer: 'Brian Michael Bendis - Steve McNiven',
+    designer: 'Steve McNiven',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1355,7 +1355,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Thor : Renaissance',
-    designer: 'J. Michael Straczynski - Olivier Coipel',
+    designer: 'Olivier Coipel',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1363,7 +1363,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Thanos : La quête de Thanos',
-    designer: 'Jim Starlin - Ron Lim',
+    designer: 'Ron Lim',
     readDate: '',
     rating: 3,
     readTimes: 1,
@@ -1371,7 +1371,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Venom vs Carnage : Un enfant est né',
-    designer: 'Peter Milligan - Clayton Crain',
+    designer: 'Clayton Crain',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1379,7 +1379,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Deadpool : Il faut soigner le soldat Wilson',
-    designer: 'Gerry Duggan - Brian Posehn - Declan Shalvey',
+    designer: 'Brian Posehn - Declan Shalvey',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1395,7 +1395,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Spider-Man : N\'est plus !',
-    designer: 'Stan Lee - John Romita',
+    designer: 'John Romita',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1411,7 +1411,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Spider-Man : La naissance de Venom',
-    designer: 'David Michelinie - Todd McFarlane',
+    designer: 'Todd McFarlane',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1443,7 +1443,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Spider-Man : Spider-Men',
-    designer: 'Brian Michael Bendis - Sara Pichelli',
+    designer: 'Sara Pichelli',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1451,7 +1451,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'The Boys : Ça va faire très mal !',
-    designer: 'Garth Ennis - Darick Robertson',
+    designer: 'Darick Robertson',
     readDate: '',
     rating: 3,
     readTimes: 1,
@@ -1459,7 +1459,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'The Boys : Ça va saigner !',
-    designer: 'Garth Ennis - Darick Robertson',
+    designer: 'Darick Robertson',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1467,7 +1467,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'The Boys : Dit comme ça...',
-    designer: 'Garth Ennis - Darick Robertson',
+    designer: 'Darick Robertson',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1475,7 +1475,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'The Boys : Croire',
-    designer: 'Garth Ennis - Darick Robertson',
+    designer: 'Darick Robertson',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1483,7 +1483,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'The Boys : Le fils du boulanger',
-    designer: 'Garth Ennis - Darick Robertson',
+    designer: 'Darick Robertson',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1491,7 +1491,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'The Boys : On ne prend plus de gants',
-    designer: 'Garth Ennis - Darick Robertson',
+    designer: 'Darick Robertson',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1499,7 +1499,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'The Boys : Chère Becky',
-    designer: 'Garth Ennis - Darick Robertson',
+    designer: 'Darick Robertson',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1507,7 +1507,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Kick-Ass - Tome 1',
-    designer: 'Mark Millar - John Romita Jr.',
+    designer: 'John Romita Jr.',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1515,7 +1515,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Kick-Ass - Tome 2',
-    designer: 'Mark Millar - John Romita Jr.',
+    designer: 'John Romita Jr.',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1523,7 +1523,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Kick-Ass - Tome 3',
-    designer: 'Mark Millar - John Romita Jr.',
+    designer: 'John Romita Jr.',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1531,7 +1531,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Avengers : La séparation',
-    designer: 'Brian Michael Bendis - David Finch',
+    designer: 'David Finch',
     readDate: '',
     rating: 4,
     readTimes: 1,
@@ -1539,7 +1539,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Daredevil : End of Days',
-    designer: 'Brian Michael Bendis - David Mack',
+    designer: 'David Mack',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1547,7 +1547,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Les Guerres Secrètes',
-    designer: 'Jim Shooter - Mike Zeck - Bob Layton',
+    designer: 'Mike Zeck - Bob Layton',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1555,7 +1555,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'World War Hulk',
-    designer: 'Greg Pak - John Romita Jr.',
+    designer: 'John Romita Jr.',
     readDate: '',
     rating: 4,
     readTimes: 1,
@@ -1563,7 +1563,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Spider-Man : Le retour du Bouffon Vert',
-    designer: 'J. M. DeMatteis - Mike Zeck - Bob McLeod',
+    designer: 'Mike Zeck - Bob McLeod',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1571,7 +1571,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'House of M',
-    designer: 'Brian Michael Bendis - Olivier Coipel',
+    designer: 'Olivier Coipel',
     readDate: '',
     rating: 4.5,
     readTimes: 1,
@@ -1587,7 +1587,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Thanos : L\'ascension',
-    designer: 'Inconnu',
+    designer: 'Bianchi, Simone',
     readDate: '',
     rating: 3,
     readTimes: 1,
@@ -1595,7 +1595,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Spider-Man : La dernière chasse de Kraven',
-    designer: 'J. M. DeMatteis - Mike Zeck - Bob McLeod',
+    designer: 'Mike Zeck - Bob McLeod',
     readDate: '',
     rating: 3.5,
     readTimes: 1,
@@ -1603,7 +1603,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Thanos : Le gant de l\'infini',
-    designer: 'Jim Starlin - George Perez - Ron Lim',
+    designer: 'George Perez - Ron Lim',
     readDate: '',
     rating: 3,
     readTimes: 1,
@@ -1611,7 +1611,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Thanos : La guerre de l\'infini',
-    designer: 'Jim Starlin - Ron Lim',
+    designer: 'Ron Lim',
     readDate: '',
     rating: 3,
     readTimes: 1,
@@ -1619,7 +1619,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Thanos : La croisade de l\'infini',
-    designer: 'Jim Starlin - Ron Lim',
+    designer: 'Ron Lim',
     readDate: '',
     rating: 3,
     readTimes: 1,
@@ -1627,7 +1627,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'La mort de Wolverine',
-    designer: 'Charles Soule - Steve McNiven',
+    designer: 'Steve McNiven',
     readDate: '',
     rating: 3.5,
     readTimes: 1,
@@ -1635,7 +1635,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Wolverine : Old Man Logan',
-    designer: 'Mark Millar - Steve McNiven',
+    designer: 'Steve McNiven',
     readDate: '',
     rating: 4,
     readTimes: 1,
@@ -1643,7 +1643,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Spider-Man : Spider-Verse',
-    designer: 'Dan Slott - Olivier Coipel',
+    designer: 'Olivier Coipel',
     readDate: '',
     rating: 3.5,
     readTimes: 1,
@@ -1651,7 +1651,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Spider-Man : De père en fils',
-    designer: 'J. J. Abrams - Sara Pichelli',
+    designer: 'Sara Pichelli',
     readDate: '',
     rating: 3.5,
     readTimes: 1,
@@ -1659,7 +1659,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Avengers',
-    designer: 'Heinberg - Cheung',
+    designer: 'Cheung',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1667,7 +1667,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Daredevil - Tome 1',
-    designer: 'McKenzie - Miller',
+    designer: 'Miller',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1691,7 +1691,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Daredevil - Tome 4',
-    designer: 'Miller - Mazzucchelli - Romita Jr',
+    designer: 'Mazzucchelli - Romita Jr',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1739,7 +1739,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Civil War',
-    designer: 'Mark Millar - Steve McNiven',
+    designer: 'Steve McNiven',
     readDate: '',
     rating: 4.5,
     readTimes: 1,
@@ -1747,7 +1747,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Planet Hulk',
-    designer: 'Greg Pak - Carlo Pagulayan',
+    designer: 'Carlo Pagulayan',
     readDate: '',
     rating: 3.5,
     readTimes: 1,
@@ -1763,7 +1763,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Infinity',
-    designer: 'Jonathan Hickman - Jim Cheung - Jerome Opeña - Dustin Weaver',
+    designer: 'Jim Cheung - Jerome Opeña - Dustin Weaver',
     readDate: '',
     rating: 4,
     readTimes: 1,
@@ -1771,7 +1771,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Secret Wars',
-    designer: 'Jonathan Hickman - Esad Ribic',
+    designer: 'Esad Ribic',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1787,7 +1787,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Spider-Man Noir : Cinquante nuances de noir',
-    designer: 'David Hine - Fabrice Sapolsky - Carmine Di Giandomenico',
+    designer: 'Fabrice Sapolsky - Carmine Di Giandomenico',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1795,7 +1795,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'X-Men : House of X / Powers of X',
-    designer: 'Jonathan Hickman - Pepe Larraz - R. B. Silva',
+    designer: 'Pepe Larraz - R. B. Silva',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1803,7 +1803,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Astonishing X-Men : Surdoués',
-    designer: 'Joss Whedon - John Cassaday',
+    designer: 'John Cassaday',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1811,7 +1811,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Astonishing X-Men : Invincible',
-    designer: 'Joss Whedon - John Cassaday',
+    designer: 'John Cassaday',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1819,7 +1819,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Spider-Man : Spider-Island',
-    designer: 'Dan Slott - Humberto Ramos',
+    designer: 'Humberto Ramos',
     readDate: '',
     rating: 3,
     readTimes: 1,
@@ -1835,7 +1835,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Fantastic Four : L\'histoire d\'une vie',
-    designer: 'Inconnu',
+    designer: 'Sean Izaakse',
     readDate: '',
     rating: 4,
     readTimes: 1,
@@ -1843,7 +1843,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Fantastic Four : L\'appel des cendres',
-    designer: 'Inconnu',
+    designer: 'Collectif',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -1859,7 +1859,7 @@ export const ronanComics: UserComic[] = [
   },
   {
     title: 'Wolverine : Ennemi d\'État',
-    designer: 'Inconnu',
+    designer: 'John Romita Jr.',
     readDate: '',
     rating: 0,
     readTimes: 1,
