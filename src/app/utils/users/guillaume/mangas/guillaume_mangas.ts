@@ -66,14 +66,6 @@ export const guillaumeMangas: UserManga[] = [
     owned: false,
   },
   {
-    title: 'Hi No Tori',
-    author: 'Ozamu Tezuka',
-    readDate: '16/04/2016',
-    rating: 3,
-    readTimes: 1,
-    owned: false,
-  },
-  {
     title: 'Pretty Face',
     author: 'Yasuhiro Kanô',
     readDate: '16/04/2016',
@@ -93,8 +85,8 @@ export const guillaumeMangas: UserManga[] = [
     title: 'Dragon Ball Super',
     author: 'Akira Toriyama, Toyotarou',
     readDate: '',
-    rating: 0,
-    readTimes: 0,
+    rating: 3,
+    readTimes: 1,
     owned: false,
   },
   {

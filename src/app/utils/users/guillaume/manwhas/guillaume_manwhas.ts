@@ -38,7 +38,7 @@ export const guillaumeManwhas: UserManwha[] = [
     author: 'Hun',
     readDate: '16/04/2016',
     rating: 3.5,
-    readTimes: 25,
+    readTimes: 2,
     owned: false,
   },
   {

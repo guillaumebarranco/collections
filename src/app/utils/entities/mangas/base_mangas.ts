@@ -108,7 +108,7 @@ export const baseMangas: BaseManga[] = [
   {
     title: 'Dragon Ball Super',
     author: 'Akira Toriyama, Toyotarou',
-    coverUrl: '/mangas_pictures/dragon_ball_super.jpg',
+    coverUrl: '/mangas_pictures/dragon-ball-super-vol-4.jpg',
     genre: 'Shonen',
     nbTomes: 22,
     isFinished: false,
