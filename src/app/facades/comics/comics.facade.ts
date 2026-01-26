@@ -23,19 +23,19 @@ async function getAllComicsData(comics: UserComic[]): Promise<Comic[]> {
       matchingBaseComics.length === 1
         ? matchingBaseComics[0]
         : matchingBaseComics.filter((baseComic: BaseComic) => {
-            return baseComic.designer === comic.designer;
+            return baseComic.writer === comic.writer;
           })[0];
 
     return {
       title: comic.title,
-      designer: comic.designer,
+      writer: comic.writer,
       rating: comic.rating,
       readDate: comic.readDate,
       readTimes: comic.readTimes,
       coverUrl: definitiveMatchingComic?.coverUrl || '',
       pages: definitiveMatchingComic?.pages || 0,
       genre: definitiveMatchingComic?.genre || '',
-      writer: definitiveMatchingComic?.writer || '',
+      designer: definitiveMatchingComic?.designer || '',
       owned: comic.owned,
     };
   });

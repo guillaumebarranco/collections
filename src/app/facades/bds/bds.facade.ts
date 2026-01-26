@@ -23,12 +23,12 @@ async function getAllBdsData(bds: UserBd[]): Promise<Bd[]> {
       matchingBaseBds.length === 1
         ? matchingBaseBds[0]
         : matchingBaseBds.filter((baseBd: BaseBd) => {
-            return baseBd.designer === bd.designer;
+            return baseBd.writer === bd.writer;
           })[0];
 
     return {
       title: bd.title,
-      designer: bd.designer,
+      writer: bd.writer,
       rating: bd.rating,
       readDate: bd.readDate,
       readTimes: bd.readTimes,
@@ -37,7 +37,7 @@ async function getAllBdsData(bds: UserBd[]): Promise<Bd[]> {
       genre: definitiveMatchingBd?.genre || '',
       nbTomes: definitiveMatchingBd?.nbTomes || 0,
       isFinished: definitiveMatchingBd?.isFinished || false,
-      writer: definitiveMatchingBd?.writer || '',
+      designer: definitiveMatchingBd?.designer || '',
       owned: bd.owned,
     };
   });

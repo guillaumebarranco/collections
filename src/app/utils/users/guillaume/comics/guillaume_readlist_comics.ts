@@ -3,7 +3,7 @@ import { UserComic } from '../../../../models/comic-model';
 export const guillaumeReadListComics: UserComic[] = [
   {
     title: 'Brainiac',
-    designer: 'DC Comics',
+    writer: 'Inconnu',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -12,7 +12,7 @@ export const guillaumeReadListComics: UserComic[] = [
 
   {
     title: 'Killing Joke',
-    designer: 'DC Comics',
+    writer: 'Inconnu',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -21,7 +21,7 @@ export const guillaumeReadListComics: UserComic[] = [
 
   {
     title: 'Kingdom Come',
-    designer: 'DC Comics',
+    writer: 'Inconnu',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -30,7 +30,7 @@ export const guillaumeReadListComics: UserComic[] = [
 
   {
     title: 'Absolute Batman',
-    designer: 'Nick Dragotta',
+    writer: 'Scott Snyder',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -39,7 +39,7 @@ export const guillaumeReadListComics: UserComic[] = [
 
   {
     title: 'World War Hulk',
-    designer: 'John Romita Jr.',
+    writer: 'Greg Pak',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -48,7 +48,7 @@ export const guillaumeReadListComics: UserComic[] = [
 
   {
     title: 'Wolverine : Old Man Logan',
-    designer: 'Steve McNiven',
+    writer: 'Mark Millar',
     readDate: '',
     rating: 0,
     readTimes: 1,

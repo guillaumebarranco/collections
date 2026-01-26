@@ -1,13 +1,13 @@
 export interface MandatoryComicData {
   title: string;
-  designer: string;
+  writer: string;
 }
 
 export interface BaseComic extends MandatoryComicData {
   coverUrl: string;
   pages: number;
   genre: string;
-  writer: string;
+  designer: string;
 }
 
 export interface UserComic extends MandatoryComicData {
