@@ -50,6 +50,12 @@ export function getGameTimePlayed(game: ItemWithGameLength): number {
       game.averageTimeToHundredPercent * game.timesFinishedHundredPercent;
   }
 
+  if (game.timesFinishedHundredPercent > 0 && game.timesFinished > 1) {
+    length += game.averageTimeToHundredPercent;
+
+    length += (game.timesFinished - 1) * game.averageTimeToFinish;
+  }
+
   // Si l'utilisateur a fini le jeu mais pas à 100%
   if (
     !game.platined &&
