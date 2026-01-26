@@ -65,7 +65,6 @@ router.post('/', (req: any, res: any) => {
     if (entityPayload) {
       baseUpdatedFile = updateBaseBdInFiles({
         title,
-        writer,
         coverUrl: normalizeString(entityPayload.coverUrl, 'coverUrl'),
         pages: normalizeNumber(entityPayload.pages, 'pages'),
         genre: normalizeString(entityPayload.genre, 'genre'),
