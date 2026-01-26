@@ -1684,10 +1684,11 @@ export const guillaumeSeries: UserSerie[] = [
     seasons: [
       {
         seasonNumber: 1,
-        seasonRating: 0,
-        seasonTimesWatched: 0,
-      }
+        seasonRating: 3.75,
+        seasonTimesWatched: 2,
+      },
     ],
+    owned: false,
   },
 
   {
@@ -1696,10 +1697,11 @@ export const guillaumeSeries: UserSerie[] = [
     seasons: [
       {
         seasonNumber: 1,
-        seasonRating: 0,
-        seasonTimesWatched: 0,
-      }
+        seasonRating: 4.5,
+        seasonTimesWatched: 5,
+      },
     ],
+    owned: false,
   },
 
   {
@@ -1708,15 +1710,16 @@ export const guillaumeSeries: UserSerie[] = [
     seasons: [
       {
         seasonNumber: 1,
-        seasonRating: 0,
-        seasonTimesWatched: 0,
+        seasonRating: 3.5,
+        seasonTimesWatched: 1,
       },
       {
         seasonNumber: 2,
         seasonRating: 0,
         seasonTimesWatched: 0,
-      }
+      },
     ],
+    owned: false,
   },
 
   {
@@ -1725,37 +1728,39 @@ export const guillaumeSeries: UserSerie[] = [
     seasons: [
       {
         seasonNumber: 1,
-        seasonRating: 0,
-        seasonTimesWatched: 0,
-      }
+        seasonRating: 4.25,
+        seasonTimesWatched: 10,
+      },
     ],
+    owned: true,
   },
 
   {
-    title: 'L\'Attaque des Titans',
+    title: "L'Attaque des Titans",
     director: 'Tetsurô Araki',
     seasons: [
       {
         seasonNumber: 1,
-        seasonRating: 0,
-        seasonTimesWatched: 0,
+        seasonRating: 4.25,
+        seasonTimesWatched: 2,
       },
       {
         seasonNumber: 2,
-        seasonRating: 0,
-        seasonTimesWatched: 0,
+        seasonRating: 4.5,
+        seasonTimesWatched: 2,
       },
       {
         seasonNumber: 3,
-        seasonRating: 0,
-        seasonTimesWatched: 0,
+        seasonRating: 4,
+        seasonTimesWatched: 1,
       },
       {
         seasonNumber: 4,
-        seasonRating: 0,
-        seasonTimesWatched: 0,
-      }
+        seasonRating: 3.5,
+        seasonTimesWatched: 1,
+      },
     ],
+    owned: false,
   },
 
   {
@@ -1764,19 +1769,20 @@ export const guillaumeSeries: UserSerie[] = [
     seasons: [
       {
         seasonNumber: 1,
-        seasonRating: 0,
-        seasonTimesWatched: 0,
+        seasonRating: 4,
+        seasonTimesWatched: 2,
       },
       {
         seasonNumber: 2,
-        seasonRating: 0,
-        seasonTimesWatched: 0,
+        seasonRating: 3.75,
+        seasonTimesWatched: 1,
       },
       {
         seasonNumber: 3,
         seasonRating: 0,
         seasonTimesWatched: 0,
-      }
+      },
     ],
+    owned: false,
   },
 ];
