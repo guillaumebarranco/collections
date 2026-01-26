@@ -7,5 +7,6 @@ export const guillaumeReadListManwhas: UserManwha[] = [
     readDate: '',
     rating: 0,
     readTimes: 0,
+    owned: false,
   },
 ];
