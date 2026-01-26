@@ -1253,7 +1253,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Jeph Loeb - Tim Sale',
     writer: 'Jeph Loeb - Tim Sale',
     coverUrl: '/comics_pictures/daredevil-jaune-must-have.jpg',
-    pages: 0,
+    pages: 184,
     genre: 'Super-héros',
   },
   {
@@ -1261,7 +1261,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Donny Cates - Dylan Burnett',
     writer: 'Donny Cates - Dylan Burnett',
     coverUrl: '/comics_pictures/46_9791039115605_1_75.jpg',
-    pages: 0,
+    pages: 128,
     genre: 'Super-héros',
   },
   {
@@ -1277,7 +1277,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Robert Kirkman - Sean Phillips',
     writer: 'Robert Kirkman - Sean Phillips',
     coverUrl: '/comics_pictures/71n-NKeWz3L._AC_UF894,1000_QL80_.jpg',
-    pages: 0,
+    pages: 144,
     genre: 'Super-héros',
   },
   {
@@ -1293,7 +1293,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Christos Gage - Jorge Molina',
     writer: 'Christos Gage - Jorge Molina',
     coverUrl: '/comics_pictures/spider-geddon-marvel-multiverse.jpg',
-    pages: 0,
+    pages: 232,
     genre: 'Super-héros',
   },
   {
@@ -1301,7 +1301,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Joe Casey - Phil Noto',
     writer: 'Joe Casey - Phil Noto',
     coverUrl: '/comics_pictures/71Ww2qOe9zL._AC_UF1000,1000_QL80_.jpg',
-    pages: 0,
+    pages: 120,
     genre: 'Super-héros',
   },
   {
@@ -1310,7 +1310,7 @@ export const baseComics: BaseComic[] = [
     writer: 'Collectif',
     coverUrl:
       '/comics_pictures/les-nuits-de-wundagore-avengers-anniversaire.jpg',
-    pages: 0,
+    pages: 200,
     genre: 'Super-héros',
   },
   {
@@ -1318,7 +1318,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Brian Michael Bendis - Olivier Coipel',
     writer: 'Brian Michael Bendis - Olivier Coipel',
     coverUrl: '/comics_pictures/81IGmr3cZaL._AC_UF1000,1000_QL80_.jpg',
-    pages: 0,
+    pages: 200,
     genre: 'Super-héros',
   },
   {
@@ -1326,7 +1326,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Kurt Busiek - George Perez',
     writer: 'Kurt Busiek - George Perez',
     coverUrl: '/comics_pictures/avengers-ultron-unlimited-must-have.jpg',
-    pages: 0,
+    pages: 104,
     genre: 'Super-héros',
   },
   {
@@ -1334,7 +1334,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Brian Michael Bendis - Mike Deodato Jr.',
     writer: 'Brian Michael Bendis - Mike Deodato Jr.',
     coverUrl: '/comics_pictures/71zg80WW9IL._AC_UF1000,1000_QL80_.jpg',
-    pages: 0,
+    pages: 416,
     genre: 'Super-héros',
   },
   {
@@ -1374,7 +1374,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Jim Starlin - Ron Lim',
     writer: 'Jim Starlin - Ron Lim',
     coverUrl: '/comics_pictures/917392BsdxL._AC_UF1000,1000_QL80_.jpg',
-    pages: 0,
+    pages: 112,
     genre: 'Super-héros',
   },
   {
@@ -1382,7 +1382,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Peter Milligan - Clayton Crain',
     writer: 'Peter Milligan - Clayton Crain',
     coverUrl: '/comics_pictures/81EYeE5evbL._AC_UF1000,1000_QL80_.jpg',
-    pages: 0,
+    pages: 96,
     genre: 'Super-héros',
   },
   {
@@ -1391,7 +1391,7 @@ export const baseComics: BaseComic[] = [
     writer: 'Gerry Duggan - Brian Posehn - Declan Shalvey',
     coverUrl:
       '/comics_pictures/deadpool-il-faut-soigner-le-soldat-wilson-deluxe.jpg',
-    pages: 0,
+    pages: 104,
     genre: 'Super-héros',
   },
   {
@@ -1465,7 +1465,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Garth Ennis - Darick Robertson',
     writer: 'Garth Ennis - Darick Robertson',
     coverUrl: '/comics_pictures/81zBxNJ7qYL.jpg',
-    pages: 0,
+    pages: 352,
     genre: 'Super-héros',
   },
   {
@@ -1473,7 +1473,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Garth Ennis - Darick Robertson',
     writer: 'Garth Ennis - Darick Robertson',
     coverUrl: '/comics_pictures/81SpONNfbUL._AC_UF1000,1000_QL80_.jpg',
-    pages: 0,
+    pages: 400,
     genre: 'Super-héros',
   },
   {
@@ -1481,7 +1481,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Garth Ennis - Darick Robertson',
     writer: 'Garth Ennis - Darick Robertson',
     coverUrl: '/comics_pictures/55_9782809455397_1_75.jpg',
-    pages: 0,
+    pages: 352,
     genre: 'Super-héros',
   },
   {
@@ -1489,7 +1489,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Garth Ennis - Darick Robertson',
     writer: 'Garth Ennis - Darick Robertson',
     coverUrl: '/comics_pictures/9791039130837_1_75.jpg',
-    pages: 0,
+    pages: 368,
     genre: 'Super-héros',
   },
   {
@@ -1497,7 +1497,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Garth Ennis - Darick Robertson',
     writer: 'Garth Ennis - Darick Robertson',
     coverUrl: '/comics_pictures/81sPG51YO4L._UF1000,1000_QL80_.jpg',
-    pages: 0,
+    pages: 424,
     genre: 'Super-héros',
   },
   {
@@ -1505,7 +1505,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Garth Ennis - Darick Robertson',
     writer: 'Garth Ennis - Darick Robertson',
     coverUrl: '/comics_pictures/9791039134507.webp',
-    pages: 0,
+    pages: 328,
     genre: 'Super-héros',
   },
   {
@@ -1513,7 +1513,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Garth Ennis - Darick Robertson',
     writer: 'Garth Ennis - Darick Robertson',
     coverUrl: '/comics_pictures/81UD0XWE1jS._UF1000,1000_QL80_.jpg',
-    pages: 0,
+    pages: 192,
     genre: 'Super-héros',
   },
   {
@@ -1521,7 +1521,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Mark Millar - John Romita Jr.',
     writer: 'Mark Millar - John Romita Jr.',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 96,
     genre: 'Super-héros',
   },
   {
@@ -1529,7 +1529,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Mark Millar - John Romita Jr.',
     writer: 'Mark Millar - John Romita Jr.',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 312,
     genre: 'Super-héros',
   },
   {
@@ -1537,7 +1537,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Mark Millar - John Romita Jr.',
     writer: 'Mark Millar - John Romita Jr.',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 232,
     genre: 'Super-héros',
   },
   {
@@ -1553,7 +1553,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Brian Michael Bendis - David Mack',
     writer: 'Brian Michael Bendis - David Mack',
     coverUrl: '/comics_pictures/daredevil-end-of-days-must-have.jpg',
-    pages: 0,
+    pages: 208,
     genre: 'Super-héros',
   },
   {
@@ -1561,7 +1561,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Jim Shooter - Mike Zeck - Bob Layton',
     writer: 'Jim Shooter - Mike Zeck - Bob Layton',
     coverUrl: '/comics_pictures/Les-Guerres-Secretes.jpg',
-    pages: 0,
+    pages: 336,
     genre: 'Super-héros',
   },
   {
@@ -1569,7 +1569,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Greg Pak - John Romita Jr.',
     writer: 'Greg Pak - John Romita Jr.',
     coverUrl: '/comics_pictures/world-war-hulk-must-have.jpg',
-    pages: 0,
+    pages: 288,
     genre: 'Super-héros',
   },
   {
@@ -1585,7 +1585,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Brian Michael Bendis - Olivier Coipel',
     writer: 'Brian Michael Bendis - Olivier Coipel',
     coverUrl: '/comics_pictures/71PNwypK26L._AC_UF1000,1000_QL80_.jpg',
-    pages: 0,
+    pages: 204,
     genre: 'Super-héros',
   },
   {
@@ -1609,7 +1609,7 @@ export const baseComics: BaseComic[] = [
     designer: 'J. M. DeMatteis - Mike Zeck - Bob McLeod',
     writer: 'J. M. DeMatteis - Mike Zeck - Bob McLeod',
     coverUrl: '/comics_pictures/36_9782809496673_1_75.jpg',
-    pages: 0,
+    pages: 144,
     genre: 'Super-héros',
   },
   {
@@ -1617,7 +1617,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Jim Starlin - George Perez - Ron Lim',
     writer: 'Jim Starlin - George Perez - Ron Lim',
     coverUrl: '/comics_pictures/omnibus-le-gant-de-l-infini.jpg',
-    pages: 0,
+    pages: 256,
     genre: 'Super-héros',
   },
   {
@@ -1625,7 +1625,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Jim Starlin - Ron Lim',
     writer: 'Jim Starlin - Ron Lim',
     coverUrl: '/comics_pictures/thanos-guerre-infini.jpg',
-    pages: 0,
+    pages: 272,
     genre: 'Super-héros',
   },
   {
@@ -1633,7 +1633,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Jim Starlin - Ron Lim',
     writer: 'Jim Starlin - Ron Lim',
     coverUrl: '/comics_pictures/FGRNO00619_0.webp',
-    pages: 0,
+    pages: 264,
     genre: 'Super-héros',
   },
   {
@@ -1641,7 +1641,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Charles Soule - Steve McNiven',
     writer: 'Charles Soule - Steve McNiven',
     coverUrl: '/comics_pictures/la-mort-de-wolverine-must-have.jpg',
-    pages: 0,
+    pages: 472,
     genre: 'Super-héros',
   },
   {
@@ -1649,7 +1649,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Mark Millar - Steve McNiven',
     writer: 'Mark Millar - Steve McNiven',
     coverUrl: '/comics_pictures/wolverine-old-man-logan-deluxe.jpg',
-    pages: 0,
+    pages: 224,
     genre: 'Super-héros',
   },
   {
@@ -1657,7 +1657,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Dan Slott - Olivier Coipel',
     writer: 'Dan Slott - Olivier Coipel',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 176,
     genre: 'Super-héros',
   },
   {
@@ -1665,7 +1665,7 @@ export const baseComics: BaseComic[] = [
     designer: 'J. J. Abrams - Sara Pichelli',
     writer: 'J. J. Abrams - Sara Pichelli',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 146,
     genre: 'Super-héros',
   },
   {
@@ -1681,7 +1681,7 @@ export const baseComics: BaseComic[] = [
     designer: 'McKenzie - Miller',
     writer: 'McKenzie - Miller',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 312,
     genre: 'Super-héros',
   },
   {
@@ -1689,7 +1689,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Miller',
     writer: 'Miller',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 400,
     genre: 'Super-héros',
   },
   {
@@ -1697,7 +1697,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Miller',
     writer: 'Miller',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 400,
     genre: 'Super-héros',
   },
   {
@@ -1705,7 +1705,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Miller - Mazzucchelli - Romita Jr',
     writer: 'Miller - Mazzucchelli - Romita Jr',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 400,
     genre: 'Super-héros',
   },
   {
@@ -1721,7 +1721,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Roy Allan Martinez',
     writer: 'David Hine',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 144,
     genre: 'Super-héros',
   },
   {
@@ -1753,7 +1753,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Mark Millar - Steve McNiven',
     writer: 'Mark Millar - Steve McNiven',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 200,
     genre: 'Super-héros',
   },
   {
@@ -1761,7 +1761,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Greg Pak - Carlo Pagulayan',
     writer: 'Greg Pak - Carlo Pagulayan',
     coverUrl: '/comics_pictures/planete-hulk.jpg',
-    pages: 0,
+    pages: 400,
     genre: 'Super-héros',
   },
   {
@@ -1787,7 +1787,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Jonathan Hickman - Esad Ribic',
     writer: 'Jonathan Hickman - Esad Ribic',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 312,
     genre: 'Super-héros',
   },
   {
@@ -1803,7 +1803,7 @@ export const baseComics: BaseComic[] = [
     designer: 'David Hine - Fabrice Sapolsky - Carmine Di Giandomenico',
     writer: 'David Hine - Fabrice Sapolsky - Carmine Di Giandomenico',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 352,
     genre: 'Super-héros',
   },
   {
@@ -1811,7 +1811,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Jonathan Hickman - Pepe Larraz - R. B. Silva',
     writer: 'Jonathan Hickman - Pepe Larraz - R. B. Silva',
     coverUrl: '/comics_pictures/test.jpg',
-    pages: 0,
+    pages: 448,
     genre: 'Super-héros',
   },
   {
@@ -1819,7 +1819,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Joss Whedon - John Cassaday',
     writer: 'Joss Whedon - John Cassaday',
     coverUrl: '/comics_pictures/astonishing-x-men-surdoues-must-have.jpg',
-    pages: 0,
+    pages: 320,
     genre: 'Super-héros',
   },
   {
@@ -1827,7 +1827,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Joss Whedon - John Cassaday',
     writer: 'Joss Whedon - John Cassaday',
     coverUrl: '/comics_pictures/91maIYwDmJL._AC_UF1000,1000_QL80_.jpg',
-    pages: 0,
+    pages: 344,
     genre: 'Super-héros',
   },
   {
@@ -1835,7 +1835,7 @@ export const baseComics: BaseComic[] = [
     designer: 'Dan Slott - Humberto Ramos',
     writer: 'Dan Slott - Humberto Ramos',
     coverUrl: '/comics_pictures/spider-man-spider-island.jpg',
-    pages: 0,
+    pages: 300,
     genre: 'Super-héros',
   },
   {
