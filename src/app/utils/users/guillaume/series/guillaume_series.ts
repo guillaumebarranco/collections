@@ -898,12 +898,47 @@ export const guillaumeSeries: UserSerie[] = [
     title: 'Yu-Gi-Oh!',
     director: 'Kunihisa Sugishima',
     seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 4,
-        seasonTimesWatched: 2,
-      },
-    ],
+    {
+      seasonNumber: 1,
+      seasonRating: 4,
+      seasonTimesWatched: 2,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 4,
+      seasonTimesWatched: 2,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 4,
+      seasonTimesWatched: 2,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 4,
+      seasonTimesWatched: 2,
+    },
+    {
+      seasonNumber: 5,
+      seasonRating: 4,
+      seasonTimesWatched: 2,
+    },
+    {
+      seasonNumber: 6,
+      seasonRating: 4,
+      seasonTimesWatched: 2,
+    },
+    {
+      seasonNumber: 7,
+      seasonRating: 4,
+      seasonTimesWatched: 2,
+    },
+    {
+      seasonNumber: 8,
+      seasonRating: 4,
+      seasonTimesWatched: 2,
+    }
+  ],
     owned: false,
   },
   {
@@ -1856,6 +1891,423 @@ export const guillaumeSeries: UserSerie[] = [
         seasonTimesWatched: 0,
       },
     ],
+    owned: false,
+  },
+
+  {
+    title: 'Dragon Ball Z',
+    director: 'Akira Toriyama',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 4,
+      seasonTimesWatched: 2,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 4,
+      seasonTimesWatched: 2,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 4,
+      seasonTimesWatched: 2,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 5,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 6,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 7,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 8,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 9,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 10,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 11,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+    owned: false,
+  },
+
+  {
+    title: 'Dragon Ball GT',
+    director: 'Akira Toriyama',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 3,
+      seasonTimesWatched: 3,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 4,
+      seasonTimesWatched: 3,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 4,
+      seasonTimesWatched: 3,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 3,
+      seasonTimesWatched: 2,
+    },
+    {
+      seasonNumber: 5,
+      seasonRating: 4,
+      seasonTimesWatched: 2,
+    }
+  ],
+    owned: false,
+  },
+
+  {
+    title: 'Olive et Tom',
+    director: 'Isamu Imakake',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 3,
+      seasonTimesWatched: 1,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 5,
+      seasonRating: 3,
+      seasonTimesWatched: 1,
+    },
+    {
+      seasonNumber: 6,
+      seasonRating: 3,
+      seasonTimesWatched: 1,
+    },
+    {
+      seasonNumber: 7,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 8,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 9,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 10,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 11,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 12,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+    owned: false,
+  },
+
+  {
+    title: 'Shaman king',
+    director: 'Hiroyuki Takei',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 3.5,
+      seasonTimesWatched: 1,
+    }
+  ],
+    owned: false,
+  },
+
+  {
+    title: 'Bleach',
+    director: 'Tite Kubo',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 3,
+      seasonTimesWatched: 1,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 4,
+      seasonTimesWatched: 5,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 4,
+      seasonTimesWatched: 5,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 5,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 6,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 7,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 8,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 9,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 10,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 11,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 12,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 13,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 14,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 15,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 16,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 17,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+    owned: false,
+  },
+
+  {
+    title: 'Les Chevaliers du Zodiaque',
+    director: 'Masami Kurumada',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 3.5,
+      seasonTimesWatched: 1,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+    owned: false,
+  },
+
+  {
+    title: 'Totally Spies',
+    director: 'Vincent Chalvon-Demersay, David Michel',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 3,
+      seasonTimesWatched: 1,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 3,
+      seasonTimesWatched: 1,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 5,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 6,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 7,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+    owned: false,
+  },
+
+  {
+    title: 'Les super nanas',
+    director: 'Craig McCracken',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 3,
+      seasonTimesWatched: 1,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 3,
+      seasonTimesWatched: 1,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 3,
+      seasonTimesWatched: 1,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 5,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 6,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 7,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 8,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 9,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 10,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 11,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
+    owned: false,
+  },
+
+  {
+    title: 'L\'école des champions',
+    director: 'Noboru Rokuda',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 3,
+      seasonTimesWatched: 1,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    }
+  ],
     owned: false,
   },
 ];
