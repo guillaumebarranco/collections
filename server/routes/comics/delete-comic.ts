@@ -18,9 +18,9 @@ router.post('/delete', (req: any, res: any) => {
     }
 
     const title = normalizeString(input.title, 'title');
-    const designer = normalizeString(input.designer, 'designer');
-    if (!title || !designer) {
-      res.status(400).json({ error: 'Missing title or designer' });
+    const writer = normalizeString(input.writer, 'writer');
+    if (!title || !writer) {
+      res.status(400).json({ error: 'Missing title or writer' });
       return;
     }
 
@@ -32,7 +32,7 @@ router.post('/delete', (req: any, res: any) => {
       try {
         const updatedContent = removeComicFromFile(fileContent, {
           title,
-          designer,
+          writer,
         });
         fs.writeFileSync(comicFile, updatedContent, 'utf8');
         updatedFile = comicFile;
@@ -51,13 +51,13 @@ router.post('/delete', (req: any, res: any) => {
 
     res.json({
       ok: true,
-      comic: { title, designer },
+      comic: { title, writer },
       file: updatedFile,
     });
 
     console.log(
       'comic:delete',
-      JSON.stringify({ file: updatedFile, title, designer })
+      JSON.stringify({ file: updatedFile, title, writer })
     );
   } catch (error: any) {
     res.status(500).json({ error: error.message || 'Unknown error' });

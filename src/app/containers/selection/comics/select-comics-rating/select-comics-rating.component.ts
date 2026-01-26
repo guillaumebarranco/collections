@@ -38,7 +38,7 @@ export class SelectComicsRatingComponent
   readonly ratingOptions = [0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5];
 
   private getComicKey(comic: Comic): string {
-    return `${comic.title}-${comic.designer}`;
+    return `${comic.title}-${comic.writer}`;
   }
 
   getRating(comic: Comic): number {
@@ -80,7 +80,7 @@ export class SelectComicsRatingComponent
 
     const comicsToUpdate = this.allComics().map((comic) => ({
       title: comic.title,
-      designer: comic.designer,
+      writer: comic.writer,
       rating: this.getRating(comic),
     }));
 

@@ -184,7 +184,7 @@ export class EditComicComponent {
         body: JSON.stringify({
           userId,
           title: comic.title,
-          designer: comic.designer,
+          writer: comic.writer,
           rating: form.rating,
           readTimes: form.readTimes,
           readDate: form.readDate,
@@ -233,7 +233,7 @@ export class EditComicComponent {
         body: JSON.stringify({
           userId,
           title: comic.title,
-          designer: comic.designer,
+          writer: comic.writer,
         }),
       });
 
@@ -284,7 +284,7 @@ export class EditComicComponent {
     const userId = this.getCurrentUserId();
     const comics = await getComicsByUser(userId);
     const matched = comics.find((comic) => {
-      return this.toSlug(`${comic.title} ${comic.designer}`) === slug;
+      return this.toSlug(`${comic.title} ${comic.writer}`) === slug;
     });
 
     if (!matched) {
@@ -358,7 +358,7 @@ export class EditComicComponent {
       return index;
     }
     const fallback = list.findIndex(
-      (item) => item.title === comic.title && item.designer === comic.designer
+      (item) => item.title === comic.title && item.writer === comic.writer
     );
     return fallback >= 0 ? fallback : 0;
   }

@@ -18,9 +18,9 @@ router.post('/delete', (req: any, res: any) => {
     }
 
     const title = normalizeString(input.title, 'title');
-    const designer = normalizeString(input.designer, 'designer');
-    if (!title || !designer) {
-      res.status(400).json({ error: 'Missing title or designer' });
+    const writer = normalizeString(input.writer, 'writer');
+    if (!title || !writer) {
+      res.status(400).json({ error: 'Missing title or writer' });
       return;
     }
 
@@ -30,7 +30,7 @@ router.post('/delete', (req: any, res: any) => {
     for (const bdFile of bdFiles) {
       const fileContent = fs.readFileSync(bdFile, 'utf8');
       try {
-        const updatedContent = removeBdFromFile(fileContent, { title, designer });
+        const updatedContent = removeBdFromFile(fileContent, { title, writer });
         fs.writeFileSync(bdFile, updatedContent, 'utf8');
         updatedFile = bdFile;
         break;
@@ -48,13 +48,13 @@ router.post('/delete', (req: any, res: any) => {
 
     res.json({
       ok: true,
-      bd: { title, designer },
+      bd: { title, writer },
       file: updatedFile,
     });
 
     console.log(
       'bd:delete',
-      JSON.stringify({ file: updatedFile, title, designer })
+      JSON.stringify({ file: updatedFile, title, writer })
     );
   } catch (error: any) {
     res.status(500).json({ error: error.message || 'Unknown error' });

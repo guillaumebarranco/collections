@@ -269,7 +269,9 @@ export class BdsComponent implements OnInit {
   }
 
   private matchesSearch(bd: Bd, term: string): boolean {
-    const haystack = [bd.title, bd.designer, bd.genre].filter(Boolean).join(' ');
+    const haystack = [bd.title, bd.writer, bd.designer, bd.genre]
+      .filter(Boolean)
+      .join(' ');
 
     const normalizedHaystack = this.normalizeSearchText(haystack);
     const normalizedTerm = this.normalizeSearchText(term);
@@ -316,7 +318,7 @@ export class BdsComponent implements OnInit {
   openEditBdDialog(bd: Bd): void {
     const bds = this.sortedBds();
     const index = bds.findIndex(
-      (item) => item.title === bd.title && item.designer === bd.designer
+      (item) => item.title === bd.title && item.writer === bd.writer
     );
     const dialogRef = this.dialog.open(EditBdComponent, {
       data: {

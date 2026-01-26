@@ -193,7 +193,7 @@ export class EditBdComponent {
         body: JSON.stringify({
           userId,
           title: bd.title,
-          designer: bd.designer,
+          writer: bd.writer,
           rating: form.rating,
           readTimes: form.readTimes,
           readDate: form.readDate,
@@ -242,7 +242,7 @@ export class EditBdComponent {
         body: JSON.stringify({
           userId,
           title: bd.title,
-          designer: bd.designer,
+          writer: bd.writer,
         }),
       });
 
@@ -293,7 +293,7 @@ export class EditBdComponent {
     const userId = this.getCurrentUserId();
     const bds = await getBdsByUser(userId);
     const matched = bds.find((bd) => {
-      return this.toSlug(`${bd.title} ${bd.designer}`) === slug;
+      return this.toSlug(`${bd.title} ${bd.writer}`) === slug;
     });
 
     if (!matched) {
@@ -371,7 +371,7 @@ export class EditBdComponent {
       return index;
     }
     const fallback = list.findIndex(
-      (item) => item.title === bd.title && item.designer === bd.designer
+      (item) => item.title === bd.title && item.writer === bd.writer
     );
     return fallback >= 0 ? fallback : 0;
   }

@@ -22,15 +22,15 @@ router.post('/', (req: any, res: any) => {
     }
 
     const title = normalizeString(input.title, 'title');
-    const designer = normalizeString(input.designer, 'designer');
-    if (!title || !designer) {
-      res.status(400).json({ error: 'Missing title or designer' });
+    const writer = normalizeString(input.writer, 'writer');
+    if (!title || !writer) {
+      res.status(400).json({ error: 'Missing title or writer' });
       return;
     }
 
     const payload = {
       title,
-      designer,
+      writer,
       rating: normalizeNumber(input.rating, 'rating') ?? 0,
       readTimes: normalizeNumber(input.readTimes, 'readTimes') ?? 1,
       readDate: normalizeString(input.readDate, 'readDate') || '',
@@ -65,7 +65,7 @@ router.post('/', (req: any, res: any) => {
     if (entityPayload) {
       baseUpdatedFile = updateBaseBdInFiles({
         title,
-        designer,
+        writer,
         coverUrl: normalizeString(entityPayload.coverUrl, 'coverUrl'),
         pages: normalizeNumber(entityPayload.pages, 'pages'),
         genre: normalizeString(entityPayload.genre, 'genre'),

@@ -109,8 +109,7 @@ export async function getAllComicsMerged(
     .reduce((acc: Comic[], item: Comic) => {
       if (
         acc.find(
-          (comic) =>
-            comic.title === item.title && comic.designer === item.designer
+          (comic) => comic.title === item.title && comic.writer === item.writer
         )
       ) {
         return acc;

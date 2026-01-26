@@ -108,9 +108,7 @@ export async function getAllBdsMerged(
     .flat()
     .reduce((acc: Bd[], item: Bd) => {
       if (
-        acc.find(
-          (bd) => bd.title === item.title && bd.designer === item.designer
-        )
+        acc.find((bd) => bd.title === item.title && bd.writer === item.writer)
       ) {
         return acc;
       }

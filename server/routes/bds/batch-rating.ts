@@ -29,19 +29,19 @@ router.post('/batch-rating', (req: any, res: any) => {
       return;
     }
 
-    const missing: { title: string; designer: string }[] = [];
+    const missing: { title: string; writer: string }[] = [];
     let updatedCount = 0;
 
     bds.forEach((rawBd: any) => {
       const title = normalizeString(rawBd?.title, 'title');
-      const designer = normalizeString(rawBd?.designer, 'designer');
-      if (!title || !designer) {
+      const writer = normalizeString(rawBd?.writer, 'writer');
+      if (!title || !writer) {
         return;
       }
 
       const payload = {
         title,
-        designer,
+        writer,
         rating: normalizeNumber(rawBd?.rating, 'rating'),
       };
 
@@ -55,7 +55,7 @@ router.post('/batch-rating', (req: any, res: any) => {
       }
 
       if (!updated) {
-        missing.push({ title, designer });
+        missing.push({ title, writer });
       }
     });
 

@@ -80,12 +80,12 @@
   </div>
 
   <div class="bds-grid" select-grid>
-    @for (bd of filteredBds(); track `${bd.title}-${bd.designer}`) {
+    @for (bd of filteredBds(); track `${bd.title}-${bd.writer}`) {
     <div
       class="bd-cover"
       [class.selected]="isSelected(bd)"
       (click)="toggleSelection(bd)"
-      [title]="bd.title + ' - ' + bd.designer"
+      [title]="bd.title + ' - ' + bd.writer"
     >
       <img [src]="bd.coverUrl" [alt]="bd.title" />
       <div class="overlay">

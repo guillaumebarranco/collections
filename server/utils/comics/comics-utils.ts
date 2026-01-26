@@ -119,11 +119,11 @@ function parseComicsFromFile(content: string): any[] {
         const objectEnd = i;
         const objectText = content.slice(objectStart, objectEnd + 1);
         const title = parseStringField(objectText, 'title');
-        const designer = parseStringField(objectText, 'designer');
-        if (title && designer) {
+        const writer = parseStringField(objectText, 'writer');
+        if (title && writer) {
           comics.push({
             title,
-            designer,
+            writer,
             rating: parseNumberField(objectText, 'rating') ?? 0,
             readTimes: parseNumberField(objectText, 'readTimes') ?? 0,
             readDate: parseStringField(objectText, 'readDate') ?? '',
@@ -168,21 +168,21 @@ function parseBaseComicsFullFromFile(content: string): any[] {
         const objectEnd = i;
         const objectText = content.slice(objectStart, objectEnd + 1);
         const title = parseStringField(objectText, 'title');
-        const designer = parseStringField(objectText, 'designer');
-        if (!title || !designer) {
+        const writer = parseStringField(objectText, 'writer');
+        if (!title || !writer) {
           i += 1;
           continue;
         }
 
         comics.push({
           title,
-          designer,
+          writer,
+          designer: parseStringField(objectText, 'designer') || '',
           coverUrl: parseStringField(objectText, 'coverUrl') || '',
           pages: parseNumberField(objectText, 'pages') ?? 0,
           genre: parseStringField(objectText, 'genre') || '',
           nbTomes: parseNumberField(objectText, 'nbTomes') ?? 0,
           isFinished: parseBooleanField(objectText, 'isFinished') ?? false,
-          writer: parseStringField(objectText, 'writer') || '',
         });
       }
     }
@@ -230,12 +230,12 @@ function getBaseComicsFiles(): string[] {
     .map((file: string) => path.join(BASE_COMICS_DIR, file));
 }
 
-function baseComicExists(title: string, designer: string): boolean {
+function baseComicExists(title: string, writer: string): boolean {
   const files = getBaseComicsFiles();
   for (const filePath of files) {
     const content = fs.readFileSync(filePath, 'utf8');
     const comics = parseBaseComicsFullFromFile(content);
-    if (comics.some((m: any) => m.title === title && m.designer === designer)) {
+    if (comics.some((m: any) => m.title === title && m.writer === writer)) {
       return true;
     }
   }
@@ -246,8 +246,7 @@ function updateComicInFile(filePath: string, comicData: any): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const comics = parseComicsFromFile(content);
   const index = comics.findIndex(
-    (comic) =>
-      comic.title === comicData.title && comic.designer === comicData.designer
+    (comic) => comic.title === comicData.title && comic.writer === comicData.writer
   );
 
   if (index === -1) {
@@ -263,7 +262,7 @@ function updateComicInFile(filePath: string, comicData: any): boolean {
     .map(
       (comic) => `  {
     title: '${escapeString(comic.title)}',
-    designer: '${escapeString(comic.designer)}',
+    writer: '${escapeString(comic.writer)}',
     readDate: '${escapeString(comic.readDate || '')}',
     rating: ${comic.rating ?? 0},
     readTimes: ${comic.readTimes ?? 1},
@@ -294,8 +293,7 @@ function updateBaseComicInFile(filePath: string, comicData: any): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const comics = parseBaseComicsFullFromFile(content);
   const index = comics.findIndex(
-    (comic) =>
-      comic.title === comicData.title && comic.designer === comicData.designer
+    (comic) => comic.title === comicData.title && comic.writer === comicData.writer
   );
 
   if (index === -1) {
@@ -311,8 +309,8 @@ function updateBaseComicInFile(filePath: string, comicData: any): boolean {
     .map(
       (comic) => `  {
     title: '${escapeString(comic.title)}',
-    designer: '${escapeString(comic.designer)}',
     writer: '${escapeString(comic.writer || '')}',
+    designer: '${escapeString(comic.designer || '')}',
     coverUrl: '${escapeString(comic.coverUrl || '')}',
     pages: ${comic.pages ?? 0},
     genre: '${escapeString(comic.genre || '')}',
@@ -363,8 +361,7 @@ function removeComicFromFile(content: string, payload: any): string {
 
   const comics = parseComicsFromFile(content);
   const filtered = comics.filter(
-    (comic) =>
-      comic.title !== payload.title || comic.designer !== payload.designer
+    (comic) => comic.title !== payload.title || comic.writer !== payload.writer
   );
 
   if (filtered.length === comics.length) {
@@ -375,7 +372,7 @@ function removeComicFromFile(content: string, payload: any): string {
     .map(
       (comic) => `  {
     title: '${escapeString(comic.title)}',
-    designer: '${escapeString(comic.designer)}',
+    writer: '${escapeString(comic.writer)}',
     readDate: '${escapeString(comic.readDate || '')}',
     rating: ${comic.rating ?? 0},
     readTimes: ${comic.readTimes ?? 1},

@@ -48,8 +48,8 @@ function ensureUserExists(userId: string) {
 function formatUserComic(comic: any) {
   return `  {\n    title: '${escapeString(
     comic.title
-  )}',\n    designer: '${escapeString(
-    comic.designer
+  )}',\n    writer: '${escapeString(
+    comic.writer
   )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n  },`;
 }
 
@@ -106,9 +106,9 @@ router.post('/add-existing', (req: any, res: any) => {
     const normalizedComics = comics
       .map((comic: any) => ({
         title: normalizeString(comic.title, 'title'),
-        designer: normalizeString(comic.designer, 'designer'),
+        writer: normalizeString(comic.writer, 'writer'),
       }))
-      .filter((comic: any) => comic.title && comic.designer);
+      .filter((comic: any) => comic.title && comic.writer);
 
     if (normalizedComics.length === 0) {
       res.status(400).json({ error: 'Missing comics' });
@@ -120,16 +120,16 @@ router.post('/add-existing', (req: any, res: any) => {
       const fileContent = fs.readFileSync(comicFile, 'utf8');
       return parseComicsFromFile(fileContent).map((comic: any) => ({
         title: comic.title,
-        designer: comic.designer,
+        writer: comic.writer,
       }));
     });
 
     const existingSet = new Set(
-      existing.map((comic: any) => `${comic.title}|${comic.designer}`)
+      existing.map((comic: any) => `${comic.title}|${comic.writer}`)
     );
 
     const toAdd = normalizedComics.filter(
-      (comic: any) => !existingSet.has(`${comic.title}|${comic.designer}`)
+      (comic: any) => !existingSet.has(`${comic.title}|${comic.writer}`)
     );
 
     if (toAdd.length === 0) {

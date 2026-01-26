@@ -48,8 +48,8 @@ function ensureUserExists(userId: string) {
 function formatUserBd(bd: any) {
   return `  {\n    title: '${escapeString(
     bd.title
-  )}',\n    designer: '${escapeString(
-    bd.designer
+  )}',\n    writer: '${escapeString(
+    bd.writer
   )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n  },`;
 }
 
@@ -106,9 +106,9 @@ router.post('/add-existing', (req: any, res: any) => {
     const normalizedBds = bds
       .map((bd: any) => ({
         title: normalizeString(bd.title, 'title'),
-        designer: normalizeString(bd.designer, 'designer'),
+        writer: normalizeString(bd.writer, 'writer'),
       }))
-      .filter((bd: any) => bd.title && bd.designer);
+      .filter((bd: any) => bd.title && bd.writer);
 
     if (normalizedBds.length === 0) {
       res.status(400).json({ error: 'Missing bds' });
@@ -120,16 +120,16 @@ router.post('/add-existing', (req: any, res: any) => {
       const fileContent = fs.readFileSync(bdFile, 'utf8');
       return parseBdsFromFile(fileContent).map((bd: any) => ({
         title: bd.title,
-        designer: bd.designer,
+        writer: bd.writer,
       }));
     });
 
     const existingSet = new Set(
-      existing.map((bd: any) => `${bd.title}|${bd.designer}`)
+      existing.map((bd: any) => `${bd.title}|${bd.writer}`)
     );
 
     const toAdd = normalizedBds.filter(
-      (bd: any) => !existingSet.has(`${bd.title}|${bd.designer}`)
+      (bd: any) => !existingSet.has(`${bd.title}|${bd.writer}`)
     );
 
     if (toAdd.length === 0) {

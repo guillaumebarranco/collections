@@ -263,7 +263,7 @@ export class ComicsComponent implements OnInit {
   }
 
   private matchesSearch(comic: Comic, term: string): boolean {
-    const haystack = [comic.title, comic.designer, comic.genre]
+    const haystack = [comic.title, comic.writer, comic.designer, comic.genre]
       .filter(Boolean)
       .join(' ');
 
@@ -309,7 +309,7 @@ export class ComicsComponent implements OnInit {
   openEditComicDialog(comic: Comic): void {
     const comics = this.sortedComics();
     const index = comics.findIndex(
-      (item) => item.title === comic.title && item.designer === comic.designer
+      (item) => item.title === comic.title && item.writer === comic.writer
     );
     const dialogRef = this.dialog.open(EditComicComponent, {
       data: {

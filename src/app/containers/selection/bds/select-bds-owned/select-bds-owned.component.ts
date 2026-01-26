@@ -28,7 +28,7 @@ export class SelectBdsOwnedComponent
   bdsOwned = signal<Map<string, boolean>>(new Map());
 
   private getBdKey(bd: Bd): string {
-    return `${bd.title}-${bd.designer}`;
+    return `${bd.title}-${bd.writer}`;
   }
 
   getOwned(bd: Bd): boolean {
@@ -56,7 +56,7 @@ export class SelectBdsOwnedComponent
 
     const bdsToUpdate = this.allBds().map((bd) => ({
       title: bd.title,
-      designer: bd.designer,
+      writer: bd.writer,
       owned: this.getOwned(bd),
     }));
 

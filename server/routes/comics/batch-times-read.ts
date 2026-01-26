@@ -24,20 +24,20 @@ router.post('/batch-times-read', (req: any, res: any) => {
     }
 
     const comicFiles = getUserComicsFiles(userId);
-    const missing: { title: string; designer: string }[] = [];
+    const missing: { title: string; writer: string }[] = [];
     let updatedCount = 0;
 
     for (const rawComic of comics) {
       const title = normalizeString(rawComic?.title, 'title');
-      const designer = normalizeString(rawComic?.designer, 'designer');
-      if (!title || !designer) {
-        res.status(400).json({ error: 'Missing title or designer' });
+      const writer = normalizeString(rawComic?.writer, 'writer');
+      if (!title || !writer) {
+        res.status(400).json({ error: 'Missing title or writer' });
         return;
       }
 
       const payload = {
         title,
-        designer,
+        writer,
         readTimes: normalizeNumber(rawComic?.readTimes, 'readTimes'),
       };
 
@@ -51,7 +51,7 @@ router.post('/batch-times-read', (req: any, res: any) => {
       }
 
       if (!updated) {
-        missing.push({ title, designer });
+        missing.push({ title, writer });
       }
     }
 

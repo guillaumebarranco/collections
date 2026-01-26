@@ -28,7 +28,7 @@ export class SelectComicsOwnedComponent
   comicsOwned = signal<Map<string, boolean>>(new Map());
 
   private getComicKey(comic: Comic): string {
-    return `${comic.title}-${comic.designer}`;
+    return `${comic.title}-${comic.writer}`;
   }
 
   getOwned(comic: Comic): boolean {
@@ -56,7 +56,7 @@ export class SelectComicsOwnedComponent
 
     const comicsToUpdate = this.allComics().map((comic) => ({
       title: comic.title,
-      designer: comic.designer,
+      writer: comic.writer,
       owned: this.getOwned(comic),
     }));
 

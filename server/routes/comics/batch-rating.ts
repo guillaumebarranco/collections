@@ -29,19 +29,19 @@ router.post('/batch-rating', (req: any, res: any) => {
       return;
     }
 
-    const missing: { title: string; designer: string }[] = [];
+    const missing: { title: string; writer: string }[] = [];
     let updatedCount = 0;
 
     comics.forEach((rawComic: any) => {
       const title = normalizeString(rawComic?.title, 'title');
-      const designer = normalizeString(rawComic?.designer, 'designer');
-      if (!title || !designer) {
+      const writer = normalizeString(rawComic?.writer, 'writer');
+      if (!title || !writer) {
         return;
       }
 
       const payload = {
         title,
-        designer,
+        writer,
         rating: normalizeNumber(rawComic?.rating, 'rating'),
       };
 
@@ -55,7 +55,7 @@ router.post('/batch-rating', (req: any, res: any) => {
       }
 
       if (!updated) {
-        missing.push({ title, designer });
+        missing.push({ title, writer });
       }
     });
 
