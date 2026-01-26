@@ -1,3 +1,47 @@
 import { UserGame } from '../../../../models/game-model';
 
-export const guillaumeGameListGames: UserGame[] = [];
+export const guillaumeGameListGames: UserGame[] = [
+  {
+    title: 'Black Myth : Wukong',
+    editor: 'Game Science',
+    rating: 0,
+    timesFinished: 0,
+    additionnalEstimatedTime: 0,
+    timesFinishedHundredPercent: 0,
+    platined: false,
+    owned: false,
+  },
+
+  {
+    title: 'Clair Obscur : Expedition 33',
+    editor: 'Sandfall Interactive',
+    rating: 0,
+    timesFinished: 0,
+    additionnalEstimatedTime: 0,
+    timesFinishedHundredPercent: 0,
+    platined: false,
+    owned: false,
+  },
+
+  {
+    title: 'Ratchet & Clank : Rift Apart',
+    editor: 'Insomniac Games',
+    rating: 0,
+    timesFinished: 0,
+    additionnalEstimatedTime: 0,
+    timesFinishedHundredPercent: 0,
+    platined: false,
+    owned: false,
+  },
+
+  {
+    title: 'Mario & Sonic aux Jeux Olympiques',
+    editor: 'Sega',
+    rating: 0,
+    timesFinished: 0,
+    additionnalEstimatedTime: 0,
+    timesFinishedHundredPercent: 0,
+    platined: false,
+    owned: false,
+  },
+];

@@ -1677,4 +1677,106 @@ export const guillaumeSeries: UserSerie[] = [
     ],
     owned: false,
   },
+
+  {
+    title: 'Bloqués',
+    director: 'Jonathan Cohen, Ramzy Bedia',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+      }
+    ],
+  },
+
+  {
+    title: 'Death Note',
+    director: 'Tetsurō Araki',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+      }
+    ],
+  },
+
+  {
+    title: 'Mortel',
+    director: 'Frédéric Garcia',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+      }
+    ],
+  },
+
+  {
+    title: 'Yu Yu Hakusho',
+    director: 'Yoshihiro Togashi',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+      }
+    ],
+  },
+
+  {
+    title: 'L\'Attaque des Titans',
+    director: 'Tetsurô Araki',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+      }
+    ],
+  },
+
+  {
+    title: 'Galactik Football',
+    director: 'Charles Barrez, Vincent Vandelli',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+      }
+    ],
+  },
 ];
