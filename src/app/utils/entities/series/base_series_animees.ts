@@ -503,6 +503,11 @@ export const baseSeriesAnimees: BaseSerie[] = [
         nbEpisodes: 12,
         totalLength: 240,
       },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 12,
+        totalLength: 240,
+      },
     ],
   },
   {
@@ -3479,6 +3484,1091 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 4,
         nbEpisodes: 13,
         totalLength: 299,
+      },
+    ],
+  },
+  {
+    title: 'Code Geass',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 25,
+        totalLength: 600,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 25,
+        totalLength: 600,
+      },
+    ],
+  },
+  {
+    title: 'GTO : Great Teacher Onizuka',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '1999-01-01',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 43,
+        totalLength: 1032,
+      },
+    ],
+  },
+  {
+    title: 'Psycho-Pass',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '2012-01-01',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 22,
+        totalLength: 528,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 11,
+        totalLength: 264,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 8,
+        totalLength: 192,
+      },
+    ],
+  },
+  {
+    title: 'Your Lie in April',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '2014-01-01',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 22,
+        totalLength: 528,
+      },
+    ],
+  },
+  {
+    title: 'Sword Art Online',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '2012-01-01',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 25,
+        totalLength: 600,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 24,
+        totalLength: 576,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 24,
+        totalLength: 576,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 23,
+        totalLength: 552,
+      },
+    ],
+  },
+  {
+    title: 'Tokyo Ghoul',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '2014-01-01',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+    ],
+  },
+  {
+    title: 'Fairy Tail',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '2009-01-01',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 48,
+        totalLength: 1152,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 24,
+        totalLength: 576,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 52,
+        totalLength: 1248,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 26,
+        totalLength: 624,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 25,
+        totalLength: 600,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 43,
+        totalLength: 1032,
+      },
+      {
+        seasonNumber: 7,
+        nbEpisodes: 47,
+        totalLength: 1128,
+      },
+      {
+        seasonNumber: 8,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+      {
+        seasonNumber: 9,
+        nbEpisodes: 51,
+        totalLength: 1224,
+      },
+    ],
+  },
+  {
+    title: 'Fate/zero',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '2011-01-01',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 13,
+        totalLength: 312,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+    ],
+  },
+  {
+    title: 'Fate Stay Night',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 24,
+        totalLength: 576,
+      },
+    ],
+  },
+  {
+    title: 'Fate Apocrypha',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 25,
+        totalLength: 600,
+      },
+    ],
+  },
+  {
+    title: 'Fate Grand Order',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 21,
+        totalLength: 504,
+      },
+    ],
+  },
+  {
+    title: 'Fate Unlimited blade workd',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 13,
+        totalLength: 312,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 13,
+        totalLength: 312,
+      },
+    ],
+  },
+  {
+    title: 'RWBY',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 16,
+        totalLength: 384,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 14,
+        totalLength: 336,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 13,
+        totalLength: 312,
+      },
+      {
+        seasonNumber: 7,
+        nbEpisodes: 13,
+        totalLength: 312,
+      },
+      {
+        seasonNumber: 8,
+        nbEpisodes: 14,
+        totalLength: 336,
+      },
+      {
+        seasonNumber: 9,
+        nbEpisodes: 10,
+        totalLength: 240,
+      },
+    ],
+  },
+  {
+    title: 'Elfen Lied',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '2004-01-01',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 13,
+        totalLength: 312,
+      },
+    ],
+  },
+  {
+    title: 'Angel Beats!',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '2010-01-01',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 13,
+        totalLength: 312,
+      },
+    ],
+  },
+  {
+    title: 'Charlotte',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 13,
+        totalLength: 312,
+      },
+    ],
+  },
+  {
+    title: 'Clannad',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 23,
+        totalLength: 552,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 24,
+        totalLength: 576,
+      },
+    ],
+  },
+  {
+    title: 'Mirai Nikki',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 26,
+        totalLength: 624,
+      },
+    ],
+  },
+  {
+    title: 'Durarara!!',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '2010-01-01',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 24,
+        totalLength: 576,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+    ],
+  },
+  {
+    title: 'Nana',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '2006-01-01',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 47,
+        totalLength: 1128,
+      },
+    ],
+  },
+  {
+    title: 'Black Butler',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '2008-01-01',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 24,
+        totalLength: 576,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 10,
+        totalLength: 240,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 11,
+        totalLength: 264,
+      },
+    ],
+  },
+  {
+    title: 'Violet Evergarden',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '2018-01-01',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 13,
+        totalLength: 312,
+      },
+    ],
+  },
+  {
+    title: 'The Promised Neverland',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '2019-01-01',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 11,
+        totalLength: 264,
+      },
+    ],
+  },
+  {
+    title: 'Death Parade',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '2015-01-01',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+    ],
+  },
+  {
+    title: 'Magia record',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 13,
+        totalLength: 312,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 8,
+        totalLength: 192,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 4,
+        totalLength: 96,
+      },
+    ],
+  },
+  {
+    title: 'Gambling School',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+    ],
+  },
+  {
+    title: 'Oshi no Ko',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 11,
+        totalLength: 264,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 13,
+        totalLength: 312,
+      },
+    ],
+  },
+  {
+    title: 'Another',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+    ],
+  },
+  {
+    title: 'Solo Leveling',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 13,
+        totalLength: 312,
+      },
+    ],
+  },
+  {
+    title: 'Tower of god',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 13,
+        totalLength: 312,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 26,
+        totalLength: 624,
+      },
+    ],
+  },
+  {
+    title: 'Noblesse',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 13,
+        totalLength: 312,
+      },
+    ],
+  },
+  {
+    title: 'Beyblade',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 51,
+        totalLength: 1224,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 51,
+        totalLength: 1224,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 52,
+        totalLength: 1248,
+      },
+    ],
+  },
+  {
+    title: 'High school of the dead',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+    ],
+  },
+  {
+    title: 'Deadman Wonderland',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+    ],
+  },
+  {
+    title: 'Danganronpa',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 13,
+        totalLength: 312,
+      },
+    ],
+  },
+  {
+    title: 'Darwin\'s Game',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '2020-01-01',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 11,
+        totalLength: 264,
+      },
+    ],
+  },
+  {
+    title: 'Toriko',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 147,
+        totalLength: 3528,
+      },
+    ],
+  },
+  {
+    title: 'Aggretsuko',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '2018-01-01',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 10,
+        totalLength: 240,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 10,
+        totalLength: 240,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 10,
+        totalLength: 240,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 10,
+        totalLength: 240,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 10,
+        totalLength: 240,
+      },
+    ],
+  },
+  {
+    title: 'Sailor Moon',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 46,
+        totalLength: 1104,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 43,
+        totalLength: 1032,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 38,
+        totalLength: 912,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 39,
+        totalLength: 936,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 34,
+        totalLength: 816,
+      },
+    ],
+  },
+  {
+    title: 'Fruit Basket',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 25,
+        totalLength: 600,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 25,
+        totalLength: 600,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 13,
+        totalLength: 312,
+      },
+    ],
+  },
+  {
+    title: 'Guilty Crown',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 22,
+        totalLength: 528,
       },
     ],
   },

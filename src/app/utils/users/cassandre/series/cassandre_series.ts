@@ -1288,4 +1288,761 @@ export const cassandreSeries: UserSerie[] = [
   ],
     owned: false,
   },
+  {
+    title: 'Code Geass',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'GTO : Great Teacher Onizuka',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Psycho-Pass',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Your Lie in April',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Sword Art Online',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Tokyo Ghoul',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Fairy Tail',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 5,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 6,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 7,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 8,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 9,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Fate/zero',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Fate Stay Night',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Fate Apocrypha',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Fate Grand Order',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Fate Unlimited blade workd',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'RWBY',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 5,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 6,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 7,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 8,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 9,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Elfen Lied',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Angel Beats!',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Charlotte',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Clannad',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Mirai Nikki',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Durarara!!',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Nana',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Black Butler',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Violet Evergarden',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'The Promised Neverland',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Death Parade',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Magia record',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Gambling School',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Oshi no Ko',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Another',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Solo Leveling',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Tower of god',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Noblesse',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Beyblade',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'High school of the dead',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Deadman Wonderland',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Danganronpa',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Darwin\'s Game',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Toriko',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Aggretsuko',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 5,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Sailor Moon',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 5,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Fruit Basket',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Guilty Crown',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
 ];
