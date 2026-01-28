@@ -2310,4 +2310,16 @@ export const guillaumeSeries: UserSerie[] = [
   ],
     owned: false,
   },
+  {
+    title: 'No Game No Life',
+    director: 'Inconnu',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+      },
+    ],
+    owned: false,
+  },
 ];

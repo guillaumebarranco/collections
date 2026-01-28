@@ -4872,4 +4872,64 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
   },
+  {
+    title: 'Anohana',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '2011-01-01',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+    ],
+  },
+  {
+    title: 'Stein Gate',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+    ],
+  },
+  {
+    title: 'No Game No Life',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '2014-01-01',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+    ],
+  },
 ];

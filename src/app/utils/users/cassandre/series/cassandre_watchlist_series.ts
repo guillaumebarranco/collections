@@ -13,4 +13,28 @@ export const cassandreWatchListSeries: UserSerie[] = [
     ],
     owned: false,
   },
+  {
+    title: 'Anohana',
+    director: 'Inconnu',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+      }
+    ],
+    owned: false,
+  },
+  {
+    title: 'Stein Gate',
+    director: 'Inconnu',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+      }
+    ],
+    owned: false,
+  },
 ];
