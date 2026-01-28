@@ -4572,4 +4572,304 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
   },
+  {
+    title: 'Sakura chasseuse de cartes',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+    ],
+  },
+  {
+    title: 'Hamtaro',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+    ],
+  },
+  {
+    title: 'Higurashi no naku koro ni',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+    ],
+  },
+  {
+    title: 'Umineko no naku koro ni',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+    ],
+  },
+  {
+    title: 'Romeo X Juliet',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+    ],
+  },
+  {
+    title: 'Jeanne et Serge',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+    ],
+  },
+  {
+    title: 'Toradora !',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+    ],
+  },
+  {
+    title: 'Tonari no Kaibutsu-kun',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+    ],
+  },
+  {
+    title: 'Maid sama',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+    ],
+  },
+  {
+    title: 'My happy marriage',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+    ],
+  },
+  {
+    title: 'Yakuza fiancee',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+    ],
+  },
+  {
+    title: 'Si je suis la vilaine, autant mater le boss final',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+    ],
+  },
+  {
+    title: 'winx club',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+    ],
+  },
+  {
+    title: 'magical girl raising project',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+    ],
+  },
+  {
+    title: 'wish upon the pleiades',
+    director: 'Inconnu',
+    actors: [
+      {
+        name: 'Inconnu',
+      },
+    ],
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 288,
+      },
+    ],
+  },
 ];

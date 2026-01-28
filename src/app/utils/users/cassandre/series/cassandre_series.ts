@@ -2045,4 +2045,184 @@ export const cassandreSeries: UserSerie[] = [
   ],
     owned: false,
   },
+  {
+    title: 'Sakura chasseuse de cartes',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Hamtaro',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Higurashi no naku koro ni',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Umineko no naku koro ni',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Romeo X Juliet',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Jeanne et Serge',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Toradora !',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Tonari no Kaibutsu-kun',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Maid sama',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'My happy marriage',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Yakuza fiancee',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'Si je suis la vilaine, autant mater le boss final',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'winx club',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'magical girl raising project',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
+  {
+    title: 'wish upon the pleiades',
+    director: 'Inconnu',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+    },
+  ],
+    owned: false,
+  },
 ];
