@@ -9,7 +9,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2001-11-16',
     length: 152,
     genre: 'Fantasy',
-    saga: '',
+    saga: 'Harry Potter',
   },
   {
     title: 'Harry Potter et la chambre des secrets',
@@ -19,7 +19,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2002-11-15',
     length: 161,
     genre: 'Fantasy',
-    saga: '',
+    saga: 'Harry Potter',
   },
   {
     title: "Harry Potter et le prisonnier d'Azkaban",
@@ -29,7 +29,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2004-06-04',
     length: 142,
     genre: 'Fantasy',
-    saga: '',
+    saga: 'Harry Potter',
   },
   {
     title: 'Harry Potter et la coupe de feu',
@@ -40,7 +40,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2005-11-18',
     length: 157,
     genre: 'Fantasy',
-    saga: '',
+    saga: 'Harry Potter',
   },
   {
     title: "Harry Potter et l'ordre du phénix",
@@ -50,7 +50,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2007-07-11',
     length: 138,
     genre: 'Fantasy',
-    saga: '',
+    saga: 'Harry Potter',
   },
   {
     title: 'Harry Potter et le prince de sang-mêlé',
@@ -61,7 +61,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2009-07-15',
     length: 153,
     genre: 'Fantasy',
-    saga: '',
+    saga: 'Harry Potter',
   },
   {
     title: 'Harry Potter et les reliques de la mort - partie 1',
@@ -72,7 +72,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2010-11-19',
     length: 146,
     genre: 'Fantasy',
-    saga: '',
+    saga: 'Harry Potter',
   },
   {
     title: 'Harry Potter et les reliques de la mort - partie 2',
@@ -83,7 +83,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2011-07-15',
     length: 130,
     genre: 'Fantasy',
-    saga: '',
+    saga: 'Harry Potter',
   },
   {
     title: 'Star Wars : Épisode 1 - La menace fantôme',
@@ -94,7 +94,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1999-05-19',
     length: 136,
     genre: 'Science Fiction',
-    saga: '',
+    saga: 'Star Wars',
   },
   {
     title: "Star Wars: Episode 2 - L'attaque des clones",
@@ -105,7 +105,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2002-05-16',
     length: 142,
     genre: 'Science Fiction',
-    saga: '',
+    saga: 'Star Wars',
   },
   {
     title: 'Star Wars : Épisode 3 - La revanche des Sith',
@@ -116,7 +116,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2005-05-19',
     length: 140,
     genre: 'Science Fiction',
-    saga: '',
+    saga: 'Star Wars',
   },
   {
     title: 'Star Wars : Episode 4 - Un nouvel espoir',
@@ -126,7 +126,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1977-05-25',
     length: 121,
     genre: 'Science Fiction',
-    saga: '',
+    saga: 'Star Wars',
   },
   {
     title: "Star Wars : Episode 5 - L'empire contre-attaque",
@@ -136,7 +136,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1980-05-21',
     length: 124,
     genre: 'Science Fiction',
-    saga: '',
+    saga: 'Star Wars',
   },
   {
     title: 'Star Wars : Episode 6 - Le retour du Jedi',
@@ -146,7 +146,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1983-05-25',
     length: 131,
     genre: 'Science Fiction',
-    saga: '',
+    saga: 'Star Wars',
   },
   {
     title: 'Star Wars : Episode 7 - Le réveil de la Force',
@@ -156,7 +156,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2015-12-18',
     length: 138,
     genre: 'Science Fiction',
-    saga: '',
+    saga: 'Star Wars',
   },
   {
     title: 'Star Wars : Episode 8 - Le dernier Jedi',
@@ -170,7 +170,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2017-12-15',
     length: 152,
     genre: 'Science Fiction',
-    saga: '',
+    saga: 'Star Wars',
   },
   {
     title: "Star Wars : Episode 9 - L'ascension de Skywalker",
@@ -185,7 +185,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2019-12-20',
     length: 142,
     genre: 'Science Fiction',
-    saga: '',
+    saga: 'Star Wars',
   },
   {
     title: 'Solo: A Star Wars Story',
@@ -200,7 +200,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2018-05-25',
     length: 135,
     genre: 'Science Fiction',
-    saga: '',
+    saga: 'Star Wars',
   },
   {
     title: 'Rogue One : A Star Wars Story',
@@ -211,7 +211,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2016-12-16',
     length: 133,
     genre: 'Science Fiction',
-    saga: '',
+    saga: 'Star Wars',
   },
   {
     title: 'Fast and Furious',
@@ -222,7 +222,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2001-06-22',
     length: 106,
     genre: 'Action',
-    saga: '',
+    saga: 'Star Wars',
   },
   {
     title: '2 Fast 2 Furious',
@@ -232,7 +232,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2003-06-06',
     length: 107,
     genre: 'Action',
-    saga: '',
+    saga: 'Hors saga',
   },
   {
     title: 'Fast and Furious : Tokyo Drift',
@@ -243,7 +243,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2006-06-16',
     length: 104,
     genre: 'Action',
-    saga: '',
+    saga: 'Fast & Furious',
   },
   {
     title: 'Fast & Furious 4',
@@ -253,7 +253,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2009-04-03',
     length: 107,
     genre: 'Action',
-    saga: '',
+    saga: 'Fast & Furious',
   },
   {
     title: 'Fast & Furious 5',
@@ -263,7 +263,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2011-04-29',
     length: 130,
     genre: 'Action',
-    saga: '',
+    saga: 'Fast & Furious',
   },
   {
     title: 'Fast & Furious 6',
@@ -273,7 +273,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2013-05-24',
     length: 130,
     genre: 'Action',
-    saga: '',
+    saga: 'Fast & Furious',
   },
   {
     title: 'Fast & Furious 7',
@@ -283,7 +283,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2015-04-03',
     length: 137,
     genre: 'Action',
-    saga: '',
+    saga: 'Fast & Furious',
   },
   {
     title: 'Fast & Furious Presents: Hobbs & Shaw',
@@ -298,7 +298,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2019-08-02',
     length: 137,
     genre: 'Action',
-    saga: '',
+    saga: 'Fast & Furious',
   },
   {
     title: 'Fast & Furious 9',
@@ -312,7 +312,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2021-06-25',
     length: 145,
     genre: 'Action',
-    saga: '',
+    saga: 'Fast & Furious',
   },
   {
     title: 'Fast & Furious X',
@@ -326,7 +326,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2023-05-19',
     length: 141,
     genre: 'Action',
-    saga: '',
+    saga: 'Fast & Furious',
   },
   {
     title: 'Rocky',
@@ -336,7 +336,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1976-11-21',
     length: 120,
     genre: 'Drama',
-    saga: '',
+    saga: 'Rocky',
   },
   {
     title: 'Rocky II',
@@ -346,7 +346,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1979-06-15',
     length: 119,
     genre: 'Drama',
-    saga: '',
+    saga: 'Rocky',
   },
   {
     title: 'Rocky III',
@@ -357,7 +357,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1982-05-28',
     length: 99,
     genre: 'Drama',
-    saga: '',
+    saga: 'Rocky',
   },
   {
     title: 'Rocky IV',
@@ -367,7 +367,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1985-11-27',
     length: 91,
     genre: 'Drama',
-    saga: '',
+    saga: 'Rocky',
   },
   {
     title: 'Rocky V',
@@ -377,7 +377,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1990-11-16',
     length: 104,
     genre: 'Drama',
-    saga: '',
+    saga: 'Rocky',
   },
   {
     title: 'Rocky Balboa',
@@ -387,7 +387,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2006-12-20',
     length: 102,
     genre: 'Drama',
-    saga: '',
+    saga: 'Rocky',
   },
   {
     title: 'The Terminator',
@@ -397,7 +397,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1984-10-26',
     length: 107,
     genre: 'Science Fiction',
-    saga: '',
+    saga: 'Rocky',
   },
   {
     title: 'Terminator 2: Judgment Day',
@@ -408,7 +408,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1991-07-03',
     length: 137,
     genre: 'Action',
-    saga: '',
+    saga: 'Terminator',
   },
   {
     title: 'Terminator 3: Rise of the Machines',
@@ -419,7 +419,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2003-07-02',
     length: 109,
     genre: 'Action',
-    saga: '',
+    saga: 'Terminator',
   },
   {
     title: 'Terminator Renaissance',
@@ -430,7 +430,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2009-05-21',
     length: 115,
     genre: 'Action',
-    saga: '',
+    saga: 'Terminator',
   },
   {
     title: 'Terminator Genisys',
@@ -440,7 +440,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2015-07-01',
     length: 126,
     genre: 'Action',
-    saga: '',
+    saga: 'Terminator',
   },
   {
     title: 'Terminator: Dark Fate',
@@ -455,7 +455,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2019-11-01',
     length: 128,
     genre: 'Action',
-    saga: '',
+    saga: 'Terminator',
   },
   {
     title: 'Scooby-Doo',
@@ -465,7 +465,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2002-06-14',
     length: 86,
     genre: 'Comedy',
-    saga: '',
+    saga: 'Hors saga',
   },
   {
     title: 'Scooby-Doo 2: Monsters Unleashed',
@@ -476,7 +476,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2004-03-26',
     length: 93,
     genre: 'Comedy',
-    saga: '',
+    saga: 'Hors saga',
   },
   {
     title: 'Matrix',
@@ -486,7 +486,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1999-03-31',
     length: 136,
     genre: 'Science Fiction',
-    saga: '',
+    saga: 'Matrix',
   },
   {
     title: 'The Matrix Reloaded',
@@ -496,7 +496,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2003-05-15',
     length: 138,
     genre: 'Science Fiction',
-    saga: '',
+    saga: 'Matrix',
   },
   {
     title: 'The Matrix Revolutions',
@@ -507,7 +507,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2003-11-05',
     length: 129,
     genre: 'Science Fiction',
-    saga: '',
+    saga: 'Matrix',
   },
   {
     title: 'Spy Kids',
@@ -517,7 +517,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2001-03-30',
     length: 88,
     genre: 'Adventure',
-    saga: '',
+    saga: 'Spy Kids',
   },
   {
     title: "Spy Kids 2: L'île des rêves perdus",
@@ -528,7 +528,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2002-08-07',
     length: 100,
     genre: 'Adventure',
-    saga: '',
+    saga: 'Spy Kids',
   },
   {
     title: 'Spy Kids 3-D: Game Over',
@@ -539,7 +539,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2003-07-25',
     length: 84,
     genre: 'Adventure',
-    saga: '',
+    saga: 'Spy Kids',
   },
   {
     title: 'Bad Boys',
@@ -549,7 +549,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1995-04-07',
     length: 119,
     genre: 'Action',
-    saga: '',
+    saga: 'Bad Boys',
   },
   {
     title: 'Bad Boys II',
@@ -559,7 +559,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2003-07-18',
     length: 147,
     genre: 'Action',
-    saga: '',
+    saga: 'Bad Boys',
   },
   {
     title: 'Men in Black',
@@ -569,7 +569,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1997-07-02',
     length: 98,
     genre: 'Action',
-    saga: '',
+    saga: 'Men in Black',
   },
   {
     title: 'Men in Black II',
@@ -579,7 +579,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2002-07-03',
     length: 88,
     genre: 'Action',
-    saga: '',
+    saga: 'Men in Black',
   },
   {
     title: 'Men in Black 3',
@@ -589,7 +589,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2012-05-25',
     length: 106,
     genre: 'Science Fiction',
-    saga: '',
+    saga: 'Men in Black',
   },
   {
     title: 'Lara Croft : Tomb Raider',
@@ -600,7 +600,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2001-06-15',
     length: 100,
     genre: 'Action',
-    saga: '',
+    saga: 'Tomb Raider',
   },
   {
     title: 'Tomb Raider : le berceau de la vie',
@@ -610,7 +610,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2003-07-25',
     length: 117,
     genre: 'Action',
-    saga: '',
+    saga: 'Tomb Raider',
   },
   {
     title: 'La Momie',
@@ -620,7 +620,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1999-05-07',
     length: 125,
     genre: 'Adventure',
-    saga: '',
+    saga: 'La Momie',
   },
   {
     title: 'Le Retour de la Momie',
@@ -630,7 +630,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2001-05-04',
     length: 130,
     genre: 'Adventure',
-    saga: '',
+    saga: 'La Momie',
   },
   {
     title: "La momie : la tombe de l'empereur dragon",
@@ -640,7 +640,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2008-08-06',
     length: 112,
     genre: 'Adventure',
-    saga: '',
+    saga: 'La Momie',
   },
   {
     title: "L'arme fatale",
@@ -651,7 +651,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1987-03-06',
     length: 110,
     genre: 'Action',
-    saga: '',
+    saga: "L'arme fatale",
   },
   {
     title: "L'arme fatale 2",
@@ -661,7 +661,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1989-07-07',
     length: 114,
     genre: 'Action',
-    saga: '',
+    saga: "L'arme fatale",
   },
   {
     title: "L'arme fatale 3",
@@ -671,7 +671,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1992-05-15',
     length: 118,
     genre: 'Action',
-    saga: '',
+    saga: "L'arme fatale",
   },
   {
     title: "L'arme fatale 4",
@@ -681,7 +681,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1998-07-10',
     length: 127,
     genre: 'Action',
-    saga: '',
+    saga: "L'arme fatale",
   },
   {
     title: 'Predator',
@@ -691,7 +691,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1987-06-12',
     length: 107,
     genre: 'Action',
-    saga: '',
+    saga: 'Predator',
   },
   {
     title: 'Predator 2',
@@ -701,7 +701,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1990-11-21',
     length: 108,
     genre: 'Action',
-    saga: '',
+    saga: 'Predator',
   },
   {
     title: 'Predators',
@@ -711,7 +711,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2010-07-09',
     length: 107,
     genre: 'Action',
-    saga: '',
+    saga: 'Predator',
   },
   {
     title: 'The Predator',
@@ -725,7 +725,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2018-09-14',
     length: 107,
     genre: 'Action',
-    saga: '',
+    saga: 'Predator',
   },
   {
     title: 'Alien',
@@ -735,7 +735,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1979-05-25',
     length: 117,
     genre: 'Science Fiction',
-    saga: '',
+    saga: 'Alien',
   },
   {
     title: 'Aliens',
@@ -745,7 +745,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1986-07-18',
     length: 137,
     genre: 'Science Fiction',
-    saga: '',
+    saga: 'Alien',
   },
   {
     title: 'Alien 3',
@@ -755,7 +755,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1992-05-22',
     length: 114,
     genre: 'Science Fiction',
-    saga: '',
+    saga: 'Alien',
   },
   {
     title: 'Alien : La Résurrection',
@@ -765,7 +765,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1997-11-26',
     length: 109,
     genre: 'Science Fiction',
-    saga: '',
+    saga: 'Alien',
   },
   {
     title: 'Alien vs. Predator',
@@ -776,7 +776,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2004-08-13',
     length: 101,
     genre: 'Action',
-    saga: '',
+    saga: 'Alien',
   },
   {
     title: 'Alien vs. Predator : Requiem',
@@ -787,7 +787,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2007-12-25',
     length: 94,
     genre: 'Action',
-    saga: '',
+    saga: 'Alien',
   },
   {
     title: 'Independence Day',
@@ -798,7 +798,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1996-07-03',
     length: 145,
     genre: 'Science Fiction',
-    saga: '',
+    saga: 'Hors saga',
   },
   {
     title: 'Independence Day : Resurgence',
@@ -809,7 +809,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1996-07-03',
     length: 145,
     genre: 'Science Fiction',
-    saga: '',
+    saga: 'Hors saga',
   },
   {
     title: "Maman j'ai raté l'avion",
@@ -819,7 +819,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1990-11-16',
     length: 103,
     genre: 'Comedy',
-    saga: '',
+    saga: 'Hors saga',
   },
   {
     title: "Maman j'ai raté l'avion 2",
@@ -829,7 +829,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1992-11-20',
     length: 120,
     genre: 'Comedy',
-    saga: '',
+    saga: 'Hors saga',
   },
   {
     title: 'Retour vers le futur',
@@ -839,7 +839,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1985-07-03',
     length: 116,
     genre: 'Science Fiction',
-    saga: '',
+    saga: 'Retour vers le futur',
   },
   {
     title: 'Retour vers le futur 2',
@@ -850,7 +850,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1989-11-22',
     length: 108,
     genre: 'Science Fiction',
-    saga: '',
+    saga: 'Retour vers le futur',
   },
   {
     title: 'Retour vers le futur 3',
@@ -861,7 +861,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1990-05-25',
     length: 118,
     genre: 'Science Fiction',
-    saga: '',
+    saga: 'Retour vers le futur',
   },
   {
     title: 'Rambo : First Blood',
@@ -871,7 +871,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1982-10-22',
     length: 93,
     genre: 'Action',
-    saga: '',
+    saga: 'Rambo',
   },
   {
     title: 'Rambo 2 : la mission',
@@ -882,7 +882,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1985-05-22',
     length: 96,
     genre: 'Action',
-    saga: '',
+    saga: 'Rambo',
   },
   {
     title: 'Rambo 3',
@@ -892,7 +892,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1988-05-25',
     length: 102,
     genre: 'Action',
-    saga: '',
+    saga: 'Rambo',
   },
   {
     title: 'John Rambo',
@@ -902,7 +902,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2008-01-25',
     length: 92,
     genre: 'Action',
-    saga: '',
+    saga: 'Rambo',
   },
   {
     title: 'Le Parrain',
@@ -912,7 +912,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1972-03-24',
     length: 175,
     genre: 'Crime',
-    saga: '',
+    saga: 'Hors saga',
   },
   {
     title: 'Le Parrain 2',
@@ -923,7 +923,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1974-12-20',
     length: 202,
     genre: 'Crime',
-    saga: '',
+    saga: 'Hors saga',
   },
   {
     title: 'Le Labyrinthe',
@@ -933,7 +933,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2014-09-19',
     length: 113,
     genre: 'Action',
-    saga: '',
+    saga: 'Maze Runner',
   },
   {
     title: 'Le Labyrinthe 2 : Le remède mortel',
@@ -948,7 +948,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2018-01-26',
     length: 143,
     genre: 'Action',
-    saga: '',
+    saga: 'Maze Runner',
   },
   {
     title: 'Hunger Games',
@@ -958,7 +958,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2012-03-23',
     length: 142,
     genre: 'Action',
-    saga: '',
+    saga: 'Hunger Games',
   },
   {
     title: 'Hunger Games : La Révolte - Partie 1',
@@ -969,7 +969,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2014-11-21',
     length: 123,
     genre: 'Action',
-    saga: '',
+    saga: 'Hunger Games',
   },
   {
     title: 'Transformers',
@@ -979,7 +979,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2007-07-03',
     length: 144,
     genre: 'Action',
-    saga: '',
+    saga: 'Transformers',
   },
   {
     title: 'Transformers 2 : La Revanche',
@@ -990,7 +990,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2009-06-24',
     length: 150,
     genre: 'Action',
-    saga: '',
+    saga: 'Transformers',
   },
   {
     title: 'Transformers 3 : La Face Cachée de la Lune',
@@ -1000,7 +1000,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2011-06-29',
     length: 154,
     genre: 'Action',
-    saga: '',
+    saga: 'Transformers',
   },
   {
     title: "Transformers 4 : L'Âge de l'Extinction",
@@ -1011,7 +1011,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2014-06-27',
     length: 165,
     genre: 'Action',
-    saga: '',
+    saga: 'Transformers',
   },
   {
     title: 'RED',
@@ -1021,7 +1021,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2010-10-15',
     length: 111,
     genre: 'Action',
-    saga: '',
+    saga: 'Hors saga',
   },
   {
     title: 'RED 2',
@@ -1031,7 +1031,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2013-07-19',
     length: 116,
     genre: 'Action',
-    saga: '',
+    saga: 'Hors saga',
   },
   {
     title: 'Very Bad Trip',
@@ -1041,7 +1041,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2009-06-05',
     length: 100,
     genre: 'Comedy',
-    saga: '',
+    saga: 'Hors saga',
   },
   {
     title: 'Very Bad Trip 2',
@@ -1051,7 +1051,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2011-05-26',
     length: 102,
     genre: 'Comedy',
-    saga: '',
+    saga: 'Hors saga',
   },
   {
     title: 'Very Bad Trip 3',
@@ -1062,7 +1062,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2013-05-23',
     length: 100,
     genre: 'Comedy',
-    saga: '',
+    saga: 'Hors saga',
   },
   {
     title: 'Die Hard : Piège de cristal',
@@ -1072,7 +1072,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1988-07-15',
     length: 132,
     genre: 'Action',
-    saga: '',
+    saga: 'Die Hard',
   },
   {
     title: 'Die Hard 2 : 58 minutes pour vivre',
@@ -1082,7 +1082,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1990-07-04',
     length: 124,
     genre: 'Action',
-    saga: '',
+    saga: 'Die Hard',
   },
   {
     title: 'Die Hard 3 : une journée en enfer',
@@ -1093,7 +1093,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1995-05-19',
     length: 128,
     genre: 'Action',
-    saga: '',
+    saga: 'Die Hard',
   },
   {
     title: 'Die Hard 4 : Retour en Enfer',
@@ -1104,7 +1104,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2007-06-27',
     length: 128,
     genre: 'Action',
-    saga: '',
+    saga: 'Die Hard',
   },
   {
     title: 'Die Hard : Belle Journée pour Mourir',
@@ -1114,6 +1114,6 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2013-02-14',
     length: 98,
     genre: 'Action',
-    saga: '',
+    saga: 'Die Hard',
   },
 ];
