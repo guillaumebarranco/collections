@@ -13,6 +13,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2004-12-10',
     length: 115,
     genre: 'Science Fiction',
+    saga: '',
   },
 
   {
@@ -27,6 +28,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2025-01-31',
     length: 137,
     genre: 'Science Fiction',
+    saga: '',
   },
 
   {
@@ -41,6 +43,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2024-11-15',
     length: 119,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Le Comte de Monte-Cristo',
@@ -55,6 +58,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2024-06-28',
     length: 178,
     genre: 'Adventure',
+    saga: '',
   },
   {
     title: 'Challengers',
@@ -68,6 +72,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2024-04-26',
     length: 131,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Road House',
@@ -81,6 +86,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2024-03-21',
     length: 121,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Damsel',
@@ -94,6 +100,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2024-03-08',
     length: 110,
     genre: 'Fantasy',
+    saga: '',
   },
 
   {
@@ -108,6 +115,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2023-11-03',
     length: 95,
     genre: 'Documentary',
+    saga: '',
   },
   {
     title: 'Gran Turismo',
@@ -121,6 +129,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2023-08-25',
     length: 135,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Oppenheimer',
@@ -134,6 +143,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2023-07-21',
     length: 180,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Barbie',
@@ -147,6 +157,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2023-07-21',
     length: 114,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Arnold',
@@ -160,6 +171,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2023-06-07',
     length: 180,
     genre: 'Documentary',
+    saga: '',
   },
   {
     title: 'Creed III',
@@ -173,6 +185,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2023-03-03',
     length: 116,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Babylon',
@@ -186,6 +199,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2022-12-23',
     length: 189,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Le Chat Potté 2 : La Dernière Quête',
@@ -200,6 +214,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2022-12-21',
     length: 102,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: "L'École du Bien et du Mal",
@@ -214,6 +229,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2022-10-19',
     length: 147,
     genre: 'Fantasy',
+    saga: '',
   },
   {
     title: 'Samaritan',
@@ -227,6 +243,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2022-08-26',
     length: 102,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Prey',
@@ -240,6 +257,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2022-08-05',
     length: 100,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Bullet Train',
@@ -253,6 +271,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2022-08-05',
     length: 126,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Le haut du panier',
@@ -266,6 +285,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2022-06-08',
     length: 117,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Top Gun : Maverick',
@@ -279,6 +299,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2022-05-27',
     length: 130,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Everything Everywhere All at Once',
@@ -293,6 +314,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2022-03-25',
     length: 139,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'The Adam Project',
@@ -306,6 +328,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2022-03-11',
     length: 106,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: "Don't look up, déni cosmique",
@@ -319,6 +342,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2021-12-24',
     length: 138,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Red Notice',
@@ -332,6 +356,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2021-11-12',
     length: 118,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'The Guilty',
@@ -345,6 +370,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2021-10-01',
     length: 90,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'La méthode Williams',
@@ -358,6 +384,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2021-11-19',
     length: 144,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Free Guy',
@@ -371,6 +398,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2021-08-13',
     length: 115,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Jolt',
@@ -384,6 +412,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2021-07-23',
     length: 91,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'The Terminal',
@@ -393,6 +422,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2004-06-18',
     length: 128,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Tanguy',
@@ -402,6 +432,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2001-12-19',
     length: 108,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'The One',
@@ -411,6 +442,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2001-11-02',
     length: 87,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Wasabi',
@@ -420,6 +452,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2001-10-31',
     length: 94,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Training Day',
@@ -429,6 +462,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2001-10-05',
     length: 122,
     genre: 'Crime',
+    saga: '',
   },
   {
     title: 'Shaolin Soccer',
@@ -438,6 +472,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2001-07-12',
     length: 87,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Mulholland Drive',
@@ -447,6 +482,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2001-10-12',
     length: 147,
     genre: 'Enquête',
+    saga: '',
   },
   {
     title: 'Replicant',
@@ -456,6 +492,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2001-05-04',
     length: 100,
     genre: 'Action',
+    saga: '',
   },
 
   {
@@ -466,6 +503,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2000-12-16',
     length: 113,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Miss Détective',
@@ -475,6 +513,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2000-12-22',
     length: 109,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: "A l'aube du 6ème jour",
@@ -484,6 +523,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2000-11-17',
     length: 123,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Memento',
@@ -493,6 +533,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2000-09-05',
     length: 113,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Snatch',
@@ -502,6 +543,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2000-09-01',
     length: 104,
     genre: 'Crime',
+    saga: '',
   },
   {
     title: 'Requiem for a Dream',
@@ -511,6 +553,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2000-10-06',
     length: 102,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Gladiator',
@@ -520,6 +563,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2000-05-05',
     length: 155,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Rebel Ridge',
@@ -529,6 +573,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2024-05-31',
     length: 120,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: '84 m²',
@@ -538,6 +583,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2024-01-01',
     length: 90,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Brick',
@@ -547,6 +593,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2025-07-10',
     length: 105,
     genre: 'Thriller, Science Fiction',
+    saga: '',
   },
   {
     title: 'La carte qui mène à toi',
@@ -556,6 +603,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2024-01-01',
     length: 100,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'Les 4 fantastiques',
@@ -571,6 +619,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2025-07-25',
     length: 130,
     genre: 'Action, Adventure',
+    saga: '',
   },
   {
     title: 'Premier contact',
@@ -584,6 +633,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2016-11-11',
     length: 116,
     genre: 'Science Fiction, Drama',
+    saga: '',
   },
   {
     title: 'Sexe entre amis',
@@ -597,6 +647,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2011-07-22',
     length: 109,
     genre: 'Comedy, Romance',
+    saga: '',
   },
   {
     title: 'Source Code',
@@ -610,6 +661,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2011-04-01',
     length: 93,
     genre: 'Science Fiction, Thriller',
+    saga: '',
   },
   {
     title: 'Le témoin amoureux',
@@ -623,6 +675,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2008-05-02',
     length: 101,
     genre: 'Comedy, Romance',
+    saga: '',
   },
   {
     title: 'Une femme en jeu',
@@ -632,6 +685,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2024-01-01',
     length: 95,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Lettres à Juliette',
@@ -641,6 +695,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2010-05-14',
     length: 105,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'My Oxford Year',
@@ -650,6 +705,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2024-01-01',
     length: 113,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'Ordinary Angels',
@@ -659,6 +715,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2024-02-23',
     length: 118,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'French Lover',
@@ -669,6 +726,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2025-01-01',
     length: 95,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'Thunderbolts',
@@ -682,6 +740,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2025-05-02',
     length: 126,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Le silence des agneaux',
@@ -691,6 +750,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '1991-02-14',
     length: 118,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Maintenance Required',
@@ -701,6 +761,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2024-01-01',
     length: 95,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Nocturnal Animals',
@@ -710,6 +771,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2016-11-04',
     length: 116,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Superman',
@@ -719,6 +781,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '1978-12-15',
     length: 143,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Superman II',
@@ -728,6 +791,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '1980-12-12',
     length: 127,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Superman Returns',
@@ -737,6 +801,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2006-06-28',
     length: 154,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Enemy',
@@ -746,6 +811,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2013-09-08',
     length: 90,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Forever My Girl',
@@ -755,6 +821,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2018-01-19',
     length: 104,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'Dans tes rêves',
@@ -768,6 +835,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2005-10-05',
     length: 95,
     genre: 'Comedy, Drama',
+    saga: '',
   },
   {
     title: 'DodgeBall: Même pas mal',
@@ -777,6 +845,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2004-06-18',
     length: 92,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Garfield',
@@ -786,6 +855,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2004-06-11',
     length: 80,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Harold & Kumar Go to White Castle',
@@ -795,6 +865,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2004-07-30',
     length: 88,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'The Day After Tomorrow',
@@ -804,6 +875,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2004-05-28',
     length: 124,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Van Helsing',
@@ -813,6 +885,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2004-05-07',
     length: 131,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Man on Fire',
@@ -822,6 +895,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2004-04-23',
     length: 146,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Shaun of the Dead',
@@ -831,6 +905,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2004-04-09',
     length: 99,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Les choristes',
@@ -840,6 +915,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2004-03-17',
     length: 95,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'EuroTrip',
@@ -849,6 +925,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2004-02-20',
     length: 92,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Les 11 commandements',
@@ -858,6 +935,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2004-02-11',
     length: 90,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'RRRrrrr!!!',
@@ -867,6 +945,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2004-01-28',
     length: 94,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Saw',
@@ -876,6 +955,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2004-10-29',
     length: 103,
     genre: 'Horror',
+    saga: '',
   },
   {
     title: "L'effet papillon",
@@ -886,6 +966,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2004-01-23',
     length: 113,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Oldboy',
@@ -895,6 +976,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2003-11-21',
     length: 120,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Bruce tout-puissant',
@@ -904,6 +986,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2003-05-23',
     length: 101,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Moi, Cesar, 10 ans et demi, 1m39',
@@ -913,6 +996,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2003-04-30',
     length: 91,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'En sursis',
@@ -922,6 +1006,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2003-02-28',
     length: 101,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'La Beuze',
@@ -931,6 +1016,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2003-02-05',
     length: 95,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Ong Bak',
@@ -940,6 +1026,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2003-01-21',
     length: 108,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Attrape-moi si tu peux',
@@ -949,6 +1036,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2002-12-25',
     length: 141,
     genre: 'Crime',
+    saga: '',
   },
   {
     title: 'Equilibrium',
@@ -958,6 +1046,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2002-12-06',
     length: 107,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Opération antisèche',
@@ -967,6 +1056,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2002-09-13',
     length: 86,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: '28 jours plus tard',
@@ -976,6 +1066,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2002-11-01',
     length: 113,
     genre: 'Horror',
+    saga: '',
   },
   {
     title: 'Le cercle : The ring',
@@ -985,6 +1076,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2002-10-18',
     length: 115,
     genre: 'Horror',
+    saga: '',
   },
   {
     title: 'Phone Game',
@@ -994,6 +1086,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2002-09-10',
     length: 81,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'La femme de ménage',
@@ -1007,6 +1100,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2025-12-24',
     length: 150,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Eaux profondes',
@@ -1021,6 +1115,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2022-03-18',
     length: 115,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Malavita',
@@ -1040,6 +1135,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2013-10-23',
     length: 111,
     genre: 'Comédie, Thriller',
+    saga: '',
   },
   {
     title: 'La princesse de Montpensier',
@@ -1059,5 +1155,6 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2010-11-03',
     length: 139,
     genre: 'Drame, Historique',
+    saga: '',
   },
 ];

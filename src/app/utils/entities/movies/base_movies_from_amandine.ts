@@ -14,6 +14,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2025-10-01',
     length: 140,
     genre: 'Horror, Drama',
+    saga: '',
   },
   {
     title: 'Wicked',
@@ -23,6 +24,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2024-11-22',
     length: 160,
     genre: 'Musical, Fantasy',
+    saga: '',
   },
   {
     title: 'Wonka',
@@ -32,6 +34,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2023-12-15',
     length: 116,
     genre: 'Fantasy, Family',
+    saga: '',
   },
   {
     title: 'Élémentaire',
@@ -41,6 +44,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2023-06-16',
     length: 102,
     genre: 'Animation, Romance',
+    saga: '',
   },
   {
     title: 'La Petite Sirène',
@@ -50,6 +54,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2023-05-26',
     length: 135,
     genre: 'Musical, Fantasy',
+    saga: '',
   },
   {
     title: "Donjons & Dragons : L'Honneur des voleurs",
@@ -60,6 +65,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2023-03-31',
     length: 134,
     genre: 'Fantasy, Adventure',
+    saga: '',
   },
   {
     title: 'Il était une fois 2',
@@ -69,6 +75,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2022-11-24',
     length: 119,
     genre: 'Fantasy, Comedy',
+    saga: '',
   },
   {
     title: 'Pinocchio',
@@ -78,6 +85,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2022-12-09',
     length: 117,
     genre: 'Animation, Fantasy',
+    saga: '',
   },
   {
     title: 'Blonde',
@@ -87,6 +95,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2022-09-28',
     length: 166,
     genre: 'Drama, Biography',
+    saga: '',
   },
   {
     title: 'Elvis',
@@ -96,6 +105,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2022-06-24',
     length: 159,
     genre: 'Drama, Musical',
+    saga: '',
   },
   {
     title: 'Downton Abbey II : Une nouvelle ère',
@@ -105,6 +115,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2022-04-29',
     length: 125,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Morbius',
@@ -114,6 +125,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2022-04-01',
     length: 104,
     genre: 'Action, Horror',
+    saga: '',
   },
   {
     title: 'Mort sur le Nil',
@@ -123,6 +135,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2022-02-11',
     length: 127,
     genre: 'Mystery, Crime',
+    saga: '',
   },
   {
     title: "The King's Man : Première mission",
@@ -132,6 +145,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2021-12-22',
     length: 131,
     genre: 'Action, Spy',
+    saga: '',
   },
   {
     title: 'West Side Story',
@@ -141,6 +155,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2021-12-10',
     length: 156,
     genre: 'Musical, Romance',
+    saga: '',
   },
   {
     title: 'Cendrillon',
@@ -150,6 +165,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2021-09-03',
     length: 113,
     genre: 'Musical, Romance',
+    saga: '',
   },
   {
     title: "He's All That",
@@ -159,6 +175,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2021-08-27',
     length: 88,
     genre: 'Comedy, Romance',
+    saga: '',
   },
   {
     title: "S.O.S. Fantômes : L'Héritage",
@@ -168,6 +185,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2021-11-19',
     length: 124,
     genre: 'Fantasy, Comedy',
+    saga: '',
   },
   {
     title: 'Jungle Cruise',
@@ -177,6 +195,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2021-07-30',
     length: 127,
     genre: 'Adventure, Fantasy',
+    saga: '',
   },
   {
     title: 'Old',
@@ -186,6 +205,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2021-07-23',
     length: 108,
     genre: 'Thriller, Mystery',
+    saga: '',
   },
   {
     title: 'Luca',
@@ -195,6 +215,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2021-06-18',
     length: 95,
     genre: 'Animation, Adventure',
+    saga: '',
   },
   {
     title: 'Cruella',
@@ -204,6 +225,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2021-05-28',
     length: 134,
     genre: 'Crime, Comedy',
+    saga: '',
   },
   {
     title: 'À tous les garçons : Pour toujours et à jamais',
@@ -213,6 +235,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2021-02-12',
     length: 115,
     genre: 'Romance, Comedy',
+    saga: '',
   },
   {
     title: 'Sacrées sorcières',
@@ -222,6 +245,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2020-10-22',
     length: 106,
     genre: 'Fantasy, Comedy',
+    saga: '',
   },
   {
     title: '2 Hearts',
@@ -231,6 +255,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2020-10-16',
     length: 100,
     genre: 'Drama, Romance',
+    saga: '',
   },
   {
     title: 'Rebecca',
@@ -240,6 +265,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2020-10-21',
     length: 123,
     genre: 'Romance, Thriller',
+    saga: '',
   },
   {
     title: 'The Kissing Booth 2',
@@ -249,6 +275,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2020-07-24',
     length: 132,
     genre: 'Romance, Comedy',
+    saga: '',
   },
   {
     title: 'Hollywood',
@@ -259,6 +286,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2020-05-01',
     length: 347,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Love Wedding Repeat',
@@ -268,6 +296,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2020-04-10',
     length: 100,
     genre: 'Comedy, Romance',
+    saga: '',
   },
   {
     title: 'Emma.',
@@ -277,6 +306,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2020-02-14',
     length: 124,
     genre: 'Comedy, Romance',
+    saga: '',
   },
   {
     title: "À tous les garçons : P.S. Je t'aime toujours",
@@ -286,6 +316,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2020-02-12',
     length: 102,
     genre: 'Romance, Comedy',
+    saga: '',
   },
   {
     title: '1917',
@@ -296,6 +327,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2019-12-25',
     length: 119,
     genre: 'War, Drama',
+    saga: '',
   },
   {
     title: 'The Gentlemen',
@@ -305,6 +337,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2020-01-24',
     length: 113,
     genre: 'Crime, Action',
+    saga: '',
   },
   {
     title: 'La Belle et le Clochard',
@@ -314,6 +347,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2019-11-12',
     length: 103,
     genre: 'Romance, Family',
+    saga: '',
   },
   {
     title: 'La Reine des neiges 2',
@@ -323,6 +357,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2019-11-22',
     length: 103,
     genre: 'Animation, Fantasy',
+    saga: '',
   },
   {
     title: 'Klaus',
@@ -332,6 +367,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2019-11-15',
     length: 96,
     genre: 'Animation, Adventure',
+    saga: '',
   },
   {
     title: 'Maléfique : Le Pouvoir du Mal',
@@ -341,6 +377,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2019-10-18',
     length: 119,
     genre: 'Fantasy, Adventure',
+    saga: '',
   },
   {
     title: 'The King',
@@ -351,6 +388,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2019-10-11',
     length: 140,
     genre: 'Historical, Drama',
+    saga: '',
   },
   {
     title: 'Parasite',
@@ -367,6 +405,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2019-05-30',
     length: 132,
     genre: 'Thriller, Drama',
+    saga: '',
   },
   {
     title: 'Rocketman',
@@ -376,6 +415,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2019-05-31',
     length: 121,
     genre: 'Biography, Musical',
+    saga: '',
   },
   {
     title: 'Pokémon : Détective Pikachu',
@@ -385,6 +425,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2019-05-10',
     length: 104,
     genre: 'Mystery, Adventure',
+    saga: '',
   },
   {
     title: 'Dumbo',
@@ -394,6 +435,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2019-03-29',
     length: 112,
     genre: 'Fantasy, Family',
+    saga: '',
   },
   {
     title: 'Le Retour de Mary Poppins',
@@ -403,6 +445,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2018-12-19',
     length: 130,
     genre: 'Fantasy, Musical',
+    saga: '',
   },
   {
     title: 'Bohemian Rhapsody',
@@ -412,6 +455,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2018-11-02',
     length: 134,
     genre: 'Biography, Music',
+    saga: '',
   },
   {
     title: 'Mamma Mia! Here We Go Again',
@@ -421,6 +465,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2018-07-20',
     length: 114,
     genre: 'Musical, Romance',
+    saga: '',
   },
   {
     title: 'Jurassic World: Fallen Kingdom',
@@ -430,6 +475,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2018-06-22',
     length: 128,
     genre: 'Action, Adventure',
+    saga: '',
   },
   {
     title: 'BlacKkKlansman',
@@ -439,6 +485,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2018-08-10',
     length: 135,
     genre: 'Crime, Biography',
+    saga: '',
   },
   {
     title: 'Tomb Raider',
@@ -448,6 +495,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2018-03-16',
     length: 118,
     genre: 'Action, Adventure',
+    saga: '',
   },
   {
     title: 'Pitch Perfect 3',
@@ -457,6 +505,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2017-12-22',
     length: 93,
     genre: 'Comedy, Music',
+    saga: '',
   },
   {
     title: 'The Greatest Showman',
@@ -467,6 +516,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2017-12-20',
     length: 105,
     genre: 'Musical, Drama',
+    saga: '',
   },
   {
     title: 'Jumanji : Bienvenue dans la jungle',
@@ -476,6 +526,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2017-12-20',
     length: 119,
     genre: 'Adventure, Comedy',
+    saga: '',
   },
   {
     title: 'Paddington 2',
@@ -485,6 +536,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2018-01-12',
     length: 104,
     genre: 'Family, Comedy',
+    saga: '',
   },
   {
     title: "Le Crime de l'Orient-Express",
@@ -494,6 +546,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2017-11-10',
     length: 114,
     genre: 'Mystery, Crime',
+    saga: '',
   },
   {
     title: 'Pirates des Caraïbes : La Vengeance de Salazar',
@@ -503,6 +556,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2017-05-26',
     length: 129,
     genre: 'Action, Fantasy',
+    saga: '',
   },
   {
     title: 'Miss Peregrine et les Enfants particuliers',
@@ -512,6 +566,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2016-09-30',
     length: 127,
     genre: 'Fantasy, Adventure',
+    saga: '',
   },
   {
     title: 'Lion',
@@ -521,6 +576,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2016-11-25',
     length: 118,
     genre: 'Drama, Biography',
+    saga: '',
   },
   {
     title: 'Piper',
@@ -530,6 +586,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2016-06-16',
     length: 6,
     genre: 'Animation, Short',
+    saga: '',
   },
   {
     title: 'Warcraft',
@@ -539,6 +596,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2016-06-10',
     length: 123,
     genre: 'Fantasy, Action',
+    saga: '',
   },
   {
     title: 'Le Livre de la jungle',
@@ -548,6 +606,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2016-04-15',
     length: 106,
     genre: 'Adventure, Fantasy',
+    saga: '',
   },
   {
     title: 'Zootopie',
@@ -557,6 +616,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2016-03-04',
     length: 108,
     genre: 'Animation, Adventure',
+    saga: '',
   },
   {
     title: 'Le Nouveau Stagiaire',
@@ -567,6 +627,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2015-09-25',
     length: 121,
     genre: 'Comedy, Drama',
+    saga: '',
   },
   {
     title: 'Jurassic World',
@@ -576,6 +637,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2015-06-12',
     length: 124,
     genre: 'Action, Adventure',
+    saga: '',
   },
   {
     title: 'Pitch Perfect 2',
@@ -585,6 +647,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2015-05-15',
     length: 115,
     genre: 'Comedy, Music',
+    saga: '',
   },
   {
     title: 'Cendrillon',
@@ -594,6 +657,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2015-03-13',
     length: 113,
     genre: 'Fantasy, Romance',
+    saga: '',
   },
   {
     title: 'Paddington',
@@ -603,6 +667,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2015-01-16',
     length: 95,
     genre: 'Family, Comedy',
+    saga: '',
   },
   {
     title: 'Big Eyes',
@@ -612,6 +677,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2014-12-25',
     length: 106,
     genre: 'Biography, Drama',
+    saga: '',
   },
   {
     title: 'The Lego Movie',
@@ -621,6 +687,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2014-02-07',
     length: 100,
     genre: 'Animation, Adventure',
+    saga: '',
   },
   {
     title: 'Snowpiercer',
@@ -630,6 +697,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2013-07-29',
     length: 126,
     genre: 'Sci-Fi, Thriller',
+    saga: '',
   },
   {
     title: 'About Time',
@@ -639,6 +707,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2013-11-08',
     length: 123,
     genre: 'Romance, Fantasy',
+    saga: '',
   },
   {
     title: 'Monsters University',
@@ -648,6 +717,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2013-06-21',
     length: 104,
     genre: 'Animation, Comedy',
+    saga: '',
   },
   {
     title: 'Gatsby le Magnifique',
@@ -657,6 +727,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2013-05-10',
     length: 143,
     genre: 'Drama, Romance',
+    saga: '',
   },
   {
     title: "Le Monde fantastique d'Oz",
@@ -666,6 +737,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2013-03-08',
     length: 130,
     genre: 'Fantasy, Adventure',
+    saga: '',
   },
   {
     title: 'Warm Bodies',
@@ -675,6 +747,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2013-02-01',
     length: 98,
     genre: 'Romance, Comedy',
+    saga: '',
   },
   {
     title: 'Les Misérables',
@@ -684,6 +757,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2012-12-25',
     length: 158,
     genre: 'Musical, Drama',
+    saga: '',
   },
   {
     title: 'Le Hobbit : Un voyage inattendu',
@@ -693,6 +767,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2012-12-14',
     length: 169,
     genre: 'Fantasy, Adventure',
+    saga: '',
   },
   {
     title: 'Pitch Perfect',
@@ -703,6 +778,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2012-10-05',
     length: 112,
     genre: 'Comedy, Music',
+    saga: '',
   },
   {
     title: 'Hôtel Transylvanie',
@@ -712,6 +788,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2012-09-28',
     length: 91,
     genre: 'Animation, Comedy',
+    saga: '',
   },
   {
     title: 'Ted',
@@ -721,6 +798,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2012-06-29',
     length: 106,
     genre: 'Comedy, Fantasy',
+    saga: '',
   },
   {
     title: 'Dark Shadows',
@@ -730,6 +808,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2012-05-11',
     length: 113,
     genre: 'Comedy, Fantasy',
+    saga: '',
   },
   {
     title: 'Le Chat Potté',
@@ -739,6 +818,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2011-10-28',
     length: 90,
     genre: 'Animation, Adventure',
+    saga: '',
   },
   {
     title: 'Les Aventures de Tintin',
@@ -748,6 +828,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2011-12-21',
     length: 107,
     genre: 'Adventure, Mystery',
+    saga: '',
   },
   {
     title: 'Hugo',
@@ -757,6 +838,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2011-11-23',
     length: 126,
     genre: 'Adventure, Drama',
+    saga: '',
   },
   {
     title: 'La Planète des singes : Les Origines',
@@ -766,6 +848,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2011-08-05',
     length: 105,
     genre: 'Sci-Fi, Action',
+    saga: '',
   },
   {
     title: 'Kung Fu Panda 2',
@@ -775,6 +858,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2011-05-26',
     length: 90,
     genre: 'Animation, Action',
+    saga: '',
   },
   {
     title: 'Minuit à Paris',
@@ -784,6 +868,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2011-05-20',
     length: 94,
     genre: 'Romance, Fantasy',
+    saga: '',
   },
   {
     title: 'Rio',
@@ -793,6 +878,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2011-04-15',
     length: 96,
     genre: 'Animation, Adventure',
+    saga: '',
   },
   {
     title: 'Rango',
@@ -802,6 +888,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2011-03-04',
     length: 107,
     genre: 'Animation, Adventure',
+    saga: '',
   },
   {
     title: 'Raiponce',
@@ -811,6 +898,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2010-11-24',
     length: 100,
     genre: 'Animation, Fantasy',
+    saga: '',
   },
   {
     title: 'Little White Lies',
@@ -820,6 +908,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2010-10-20',
     length: 154,
     genre: 'Drama, Comedy',
+    saga: '',
   },
   {
     title: 'Arrietty, le petit monde des chapardeurs',
@@ -829,6 +918,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2010-07-17',
     length: 94,
     genre: 'Animation, Fantasy',
+    saga: '',
   },
   {
     title: "L'Apprenti sorcier",
@@ -838,6 +928,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2010-07-14',
     length: 109,
     genre: 'Fantasy, Adventure',
+    saga: '',
   },
   {
     title: 'Sherlock Holmes',
@@ -847,6 +938,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2009-12-25',
     length: 128,
     genre: 'Action, Mystery',
+    saga: '',
   },
   {
     title: 'Lovely Bones',
@@ -856,6 +948,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2009-12-11',
     length: 135,
     genre: 'Drama, Fantasy',
+    saga: '',
   },
   {
     title: "Jennifer's Body",
@@ -865,6 +958,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2009-09-18',
     length: 102,
     genre: 'Horror, Comedy',
+    saga: '',
   },
   {
     title: 'District 9',
@@ -874,6 +968,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2009-08-14',
     length: 112,
     genre: 'Sci-Fi, Thriller',
+    saga: '',
   },
   {
     title: 'Orphan',
@@ -884,6 +979,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2009-07-24',
     length: 123,
     genre: 'Horror, Thriller',
+    saga: '',
   },
   {
     title: 'Public Enemies',
@@ -893,6 +989,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2009-07-01',
     length: 140,
     genre: 'Crime, Drama',
+    saga: '',
   },
   {
     title: 'Là-haut',
@@ -902,6 +999,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2009-05-29',
     length: 96,
     genre: 'Animation, Adventure',
+    saga: '',
   },
   {
     title: 'Coraline',
@@ -911,6 +1009,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2009-02-06',
     length: 100,
     genre: 'Animation, Fantasy',
+    saga: '',
   },
   {
     title: 'Bride Wars',
@@ -920,6 +1019,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2009-01-09',
     length: 89,
     genre: 'Comedy, Romance',
+    saga: '',
   },
   {
     title: "L'Étrange Histoire de Benjamin Button",
@@ -929,6 +1029,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2008-12-25',
     length: 166,
     genre: 'Drama, Fantasy',
+    saga: '',
   },
   {
     title: 'Bolt',
@@ -938,6 +1039,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2008-11-21',
     length: 96,
     genre: 'Animation, Adventure',
+    saga: '',
   },
   {
     title: 'Madagascar 2',
@@ -947,6 +1049,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2008-11-07',
     length: 89,
     genre: 'Animation, Comedy',
+    saga: '',
   },
   {
     title: 'Ponyo',
@@ -956,6 +1059,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2008-07-19',
     length: 101,
     genre: 'Animation, Fantasy',
+    saga: '',
   },
   {
     title: 'Mamma Mia!',
@@ -965,6 +1069,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2008-07-18',
     length: 108,
     genre: 'Musical, Romance',
+    saga: '',
   },
   {
     title: 'Le Monde de Narnia : Le Prince Caspian',
@@ -974,6 +1079,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2008-05-16',
     length: 150,
     genre: 'Fantasy, Adventure',
+    saga: '',
   },
   {
     title: 'Sex and the City',
@@ -983,6 +1089,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2008-05-30',
     length: 145,
     genre: 'Comedy, Romance',
+    saga: '',
   },
   {
     title: '27 Robes',
@@ -992,6 +1099,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2008-01-18',
     length: 111,
     genre: 'Comedy, Romance',
+    saga: '',
   },
   {
     title: 'Alvin et les Chipmunks',
@@ -1001,6 +1109,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2007-12-14',
     length: 92,
     genre: 'Comedy, Family',
+    saga: '',
   },
   {
     title: 'Sweeney Todd : Le Diabolique Barbier de Fleet Street',
@@ -1010,6 +1119,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2007-12-21',
     length: 116,
     genre: 'Musical, Horror',
+    saga: '',
   },
   {
     title: 'Enchanted',
@@ -1019,6 +1129,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2007-11-21',
     length: 107,
     genre: 'Fantasy, Romance',
+    saga: '',
   },
   {
     title: 'P.S. I Love You',
@@ -1028,6 +1139,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2007-12-21',
     length: 126,
     genre: 'Romance, Drama',
+    saga: '',
   },
   {
     title: 'Stardust',
@@ -1037,6 +1149,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2007-08-10',
     length: 127,
     genre: 'Fantasy, Adventure',
+    saga: '',
   },
   {
     title: 'Hairspray',
@@ -1046,6 +1159,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2007-07-20',
     length: 117,
     genre: 'Musical, Comedy',
+    saga: '',
   },
   {
     title: 'Le Secret de Terabithia',
@@ -1055,6 +1169,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2007-02-16',
     length: 96,
     genre: 'Fantasy, Drama',
+    saga: '',
   },
   {
     title: 'Happy Feet',
@@ -1065,6 +1180,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2006-11-17',
     length: 108,
     genre: 'Animation, Musical',
+    saga: '',
   },
   {
     title: 'Le Labyrinthe de Pan',
@@ -1074,6 +1190,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2006-10-11',
     length: 118,
     genre: 'Fantasy, War',
+    saga: '',
   },
   {
     title: 'Marie Antoinette',
@@ -1083,6 +1200,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2006-10-20',
     length: 123,
     genre: 'Historical, Drama',
+    saga: '',
   },
   {
     title: 'Les Noces funèbres',
@@ -1092,6 +1210,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2005-09-16',
     length: 77,
     genre: 'Animation, Fantasy',
+    saga: '',
   },
   {
     title: 'Madagascar',
@@ -1101,6 +1220,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2005-05-27',
     length: 86,
     genre: 'Animation, Adventure',
+    saga: '',
   },
   {
     title: 'Constantine',
@@ -1110,6 +1230,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2005-02-18',
     length: 121,
     genre: 'Fantasy, Horror',
+    saga: '',
   },
   {
     title: 'Aviator',
@@ -1119,6 +1240,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2004-12-25',
     length: 170,
     genre: 'Biography, Drama',
+    saga: '',
   },
   {
     title: 'Les déstreuses aventures des Orphelins Baudelaire',
@@ -1128,6 +1250,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2004-12-17',
     length: 108,
     genre: 'Adventure, Family',
+    saga: '',
   },
   {
     title: 'Benjamin Gates et le Trésor des Templiers',
@@ -1137,6 +1260,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2004-11-19',
     length: 131,
     genre: 'Adventure, Action',
+    saga: '',
   },
   {
     title: 'Mulan 2',
@@ -1146,6 +1270,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2004-11-03',
     length: 79,
     genre: 'Animation, Family',
+    saga: '',
   },
   {
     title: 'The Princess Diaries 2: Royal Engagement',
@@ -1155,6 +1280,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2004-08-11',
     length: 113,
     genre: 'Comedy, Romance',
+    saga: '',
   },
   {
     title: 'Mickey, Donald, Dingo : Les Trois Mousquetaires',
@@ -1165,6 +1291,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2004-08-17',
     length: 68,
     genre: 'Animation, Adventure',
+    saga: '',
   },
   {
     title: 'Le Village',
@@ -1174,6 +1301,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2004-07-30',
     length: 108,
     genre: 'Thriller, Mystery',
+    saga: '',
   },
   {
     title: 'Comme Cendrillon',
@@ -1183,6 +1311,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2004-07-16',
     length: 95,
     genre: 'Comedy, Romance',
+    saga: '',
   },
   {
     title: 'Troy',
@@ -1193,6 +1322,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2004-05-14',
     length: 163,
     genre: 'Action, Historical',
+    saga: '',
   },
   {
     title: 'Lolita malgré moi',
@@ -1202,6 +1332,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2004-04-30',
     length: 97,
     genre: 'Comedy, Teen',
+    saga: '',
   },
   {
     title: '30 ans sinon rien',
@@ -1211,6 +1342,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2004-04-23',
     length: 98,
     genre: 'Comedy, Fantasy',
+    saga: '',
   },
   {
     title: 'Ella au pays enchanté',
@@ -1220,6 +1352,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2004-04-09',
     length: 96,
     genre: 'Fantasy, Adventure',
+    saga: '',
   },
   {
     title: 'Une nana au poil',
@@ -1229,6 +1362,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2003-08-06',
     length: 97,
     genre: 'Comedy, Fantasy',
+    saga: '',
   },
   {
     title: 'Big Fish',
@@ -1238,6 +1372,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2003-12-25',
     length: 125,
     genre: 'Fantasy, Drama',
+    saga: '',
   },
   {
     title: 'Le Manoir hanté et les 999 Fantômes',
@@ -1247,6 +1382,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2003-11-26',
     length: 99,
     genre: 'Comedy, Fantasy',
+    saga: '',
   },
   {
     title: 'Le Dernier Samouraï',
@@ -1256,6 +1392,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2003-12-05',
     length: 154,
     genre: 'Historical, Action',
+    saga: '',
   },
   {
     title: 'Frère des ours',
@@ -1265,6 +1402,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2003-10-24',
     length: 85,
     genre: 'Animation, Adventure',
+    saga: '',
   },
   {
     title: 'George de la Jungle 2',
@@ -1274,6 +1412,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2003-08-18',
     length: 87,
     genre: 'Comedy, Family',
+    saga: '',
   },
   {
     title: 'Un vendredi dingue, dingue, dingue',
@@ -1283,6 +1422,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2003-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: "Comment se débarrasser d'un mec en 10 jours",
@@ -1292,6 +1432,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2003-02-07',
     length: 116,
     genre: 'Comedy, Romance',
+    saga: '',
   },
   {
     title: 'Thirteen',
@@ -1301,6 +1442,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2003-08-20',
     length: 100,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Chicago',
@@ -1310,6 +1452,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2002-12-27',
     length: 113,
     genre: 'Musical, Crime',
+    saga: '',
   },
   {
     title: 'La Planète au trésor',
@@ -1319,6 +1462,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2002-11-27',
     length: 95,
     genre: 'Animation, Adventure',
+    saga: '',
   },
   {
     title: 'Tuck Everlasting',
@@ -1328,6 +1472,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2002-10-11',
     length: 96,
     genre: 'Fantasy, Romance',
+    saga: '',
   },
   {
     title: '8 Mile',
@@ -1337,6 +1482,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2002-11-08',
     length: 110,
     genre: 'Drama, Music',
+    saga: '',
   },
   {
     title: 'Le Royaume des chats',
@@ -1346,6 +1492,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2002-07-19',
     length: 75,
     genre: 'Animation, Fantasy',
+    saga: '',
   },
   {
     title: 'Lilo et Stitch',
@@ -1355,6 +1502,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2002-06-21',
     length: 85,
     genre: 'Animation, Comedy',
+    saga: '',
   },
   {
     title: 'Insomnia',
@@ -1364,6 +1512,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2002-05-24',
     length: 118,
     genre: 'Thriller, Crime',
+    saga: '',
   },
   {
     title: 'Princesse malgré elle',
@@ -1373,6 +1522,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2001-08-03',
     length: 111,
     genre: 'Comedy, Romance',
+    saga: '',
   },
   {
     title: 'The Others',
@@ -1382,6 +1532,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2001-08-10',
     length: 104,
     genre: 'Horror, Mystery',
+    saga: '',
   },
   {
     title: 'La Planète des singes',
@@ -1391,6 +1542,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2001-07-27',
     length: 119,
     genre: 'Sci-Fi, Adventure',
+    saga: '',
   },
   {
     title: 'Le Voyage de Chihiro',
@@ -1400,6 +1552,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2001-07-20',
     length: 125,
     genre: 'Animation, Fantasy',
+    saga: '',
   },
   {
     title: "La Revanche d'une blonde",
@@ -1409,6 +1562,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2001-07-13',
     length: 96,
     genre: 'Comedy, Romance',
+    saga: '',
   },
   {
     title: 'A.I. Intelligence artificielle',
@@ -1418,6 +1572,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2001-06-29',
     length: 146,
     genre: 'Sci-Fi, Drama',
+    saga: '',
   },
   {
     title: "Atlantis : L'Empire perdu",
@@ -1427,6 +1582,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2001-06-15',
     length: 96,
     genre: 'Animation, Adventure',
+    saga: '',
   },
   {
     title: 'Moulin Rouge !',
@@ -1436,6 +1592,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2001-05-24',
     length: 127,
     genre: 'Musical, Romance',
+    saga: '',
   },
   {
     title: 'Le Journal de Bridget Jones',
@@ -1445,6 +1602,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2001-04-13',
     length: 97,
     genre: 'Comedy, Romance',
+    saga: '',
   },
   {
     title: "Kuzco, l'Empereur mégalo",
@@ -1454,6 +1612,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2000-12-15',
     length: 78,
     genre: 'Animation, Comedy',
+    saga: '',
   },
   {
     title: 'Le Grinch',
@@ -1463,6 +1622,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2000-11-17',
     length: 104,
     genre: 'Comedy, Family',
+    saga: '',
   },
   {
     title: 'Drôles de dames',
@@ -1473,6 +1633,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2000-11-03',
     length: 98,
     genre: 'Action, Adventure',
+    saga: '',
   },
   {
     title: 'Mon beau-père et moi',
@@ -1482,6 +1643,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2000-10-06',
     length: 108,
     genre: 'Comedy, Romance',
+    saga: '',
   },
   {
     title: 'Chicken Run',
@@ -1491,6 +1653,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2000-06-23',
     length: 84,
     genre: 'Animation, Adventure',
+    saga: '',
   },
   {
     title: 'Billy Elliot',
@@ -1500,6 +1663,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2000-09-29',
     length: 110,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Dinosaure',
@@ -1509,6 +1673,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2000-05-19',
     length: 82,
     genre: 'Animation, Adventure',
+    saga: '',
   },
   {
     title: "La Route d'Eldorado",
@@ -1518,6 +1683,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2000-03-31',
     length: 89,
     genre: 'Animation, Adventure',
+    saga: '',
   },
   {
     title: "La Petite Sirène 2 : Retour à l'océan",
@@ -1527,6 +1693,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2000-09-19',
     length: 75,
     genre: 'Animation, Family',
+    saga: '',
   },
   {
     title: 'Fantasia 2000',
@@ -1536,6 +1703,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1999-12-17',
     length: 75,
     genre: 'Animation, Musical',
+    saga: '',
   },
   {
     title: 'Stuart Little',
@@ -1545,6 +1713,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1999-12-17',
     length: 84,
     genre: 'Family, Comedy',
+    saga: '',
   },
   {
     title: 'Sleepy Hollow',
@@ -1554,6 +1723,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1999-11-19',
     length: 105,
     genre: 'Horror, Mystery',
+    saga: '',
   },
   {
     title: 'Fight Club',
@@ -1563,6 +1733,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1999-10-15',
     length: 139,
     genre: 'Drama, Thriller',
+    saga: '',
   },
   {
     title: '10 bonnes raisons de te larguer',
@@ -1572,6 +1743,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1999-03-31',
     length: 97,
     genre: 'Romance, Comedy',
+    saga: '',
   },
   {
     title: 'Elle est trop bien',
@@ -1581,6 +1753,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1999-01-29',
     length: 95,
     genre: 'Romance, Comedy',
+    saga: '',
   },
   {
     title: "Le Prince d'Égypte",
@@ -1590,6 +1763,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1998-12-18',
     length: 99,
     genre: 'Animation, Adventure',
+    saga: '',
   },
   {
     title: '1001 Pattes',
@@ -1599,6 +1773,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1998-11-25',
     length: 95,
     genre: 'Animation, Adventure',
+    saga: '',
   },
   {
     title: "Le Roi Lion 2 : L'Honneur de la tribu",
@@ -1608,6 +1783,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1998-11-24',
     length: 81,
     genre: 'Animation, Musical',
+    saga: '',
   },
   {
     title: 'Pocahontas 2 : Un monde nouveau',
@@ -1617,6 +1793,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1998-05-05',
     length: 72,
     genre: 'Animation, Adventure',
+    saga: '',
   },
   {
     title: 'À nous quatre',
@@ -1626,6 +1803,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1998-07-29',
     length: 128,
     genre: 'Comedy, Family',
+    saga: '',
   },
   {
     title: 'Mary à tout prix',
@@ -1635,6 +1813,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1998-07-15',
     length: 119,
     genre: 'Comedy, Romance',
+    saga: '',
   },
   {
     title: 'Le Monde magique de la Belle et la Bête',
@@ -1644,6 +1823,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1998-02-17',
     length: 92,
     genre: 'Animation, Fantasy',
+    saga: '',
   },
   {
     title: 'Flubber',
@@ -1654,6 +1834,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1997-11-26',
     length: 93,
     genre: 'Comedy, Family',
+    saga: '',
   },
   {
     title: 'Anastasia',
@@ -1663,6 +1844,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1997-11-21',
     length: 94,
     genre: 'Animation, Adventure',
+    saga: '',
   },
   {
     title: 'Titanic',
@@ -1672,6 +1854,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1997-12-19',
     length: 195,
     genre: 'Romance, Drama',
+    saga: '',
   },
   {
     title: 'Tower of Terror',
@@ -1681,6 +1864,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1997-10-26',
     length: 89,
     genre: 'Mystery, Family',
+    saga: '',
   },
   {
     title: "Souviens-toi... l'été dernier",
@@ -1693,6 +1877,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1997-10-17',
     length: 101,
     genre: 'Horror, Thriller',
+    saga: '',
   },
   {
     title: 'Gattaca',
@@ -1702,6 +1887,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1997-10-24',
     length: 106,
     genre: 'Sci-Fi, Thriller',
+    saga: '',
   },
   {
     title: 'Face/Off',
@@ -1712,6 +1898,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1997-06-27',
     length: 138,
     genre: 'Action, Thriller',
+    saga: '',
   },
   {
     title: 'Le Monde perdu : Jurassic Park',
@@ -1721,6 +1908,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1997-05-23',
     length: 129,
     genre: 'Action, Adventure',
+    saga: '',
   },
   {
     title: 'Austin Powers',
@@ -1730,6 +1918,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1997-05-02',
     length: 94,
     genre: 'Comedy, Spy',
+    saga: '',
   },
   {
     title: 'Mars Attacks !',
@@ -1739,6 +1928,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1996-12-13',
     length: 106,
     genre: 'Sci-Fi, Comedy',
+    saga: '',
   },
   {
     title: 'Les 101 Dalmatiens',
@@ -1748,6 +1938,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1996-11-27',
     length: 103,
     genre: 'Family, Comedy',
+    saga: '',
   },
   {
     title: 'Roméo + Juliette',
@@ -1757,6 +1948,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1996-11-01',
     length: 120,
     genre: 'Romance, Drama',
+    saga: '',
   },
   {
     title: 'Matilda',
@@ -1766,6 +1958,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1996-08-02',
     length: 98,
     genre: 'Comedy, Family',
+    saga: '',
   },
   {
     title: 'Le Bossu de Notre-Dame',
@@ -1775,6 +1968,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1996-06-21',
     length: 91,
     genre: 'Animation, Musical',
+    saga: '',
   },
   {
     title: 'James et la Pêche géante',
@@ -1784,6 +1978,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1996-04-12',
     length: 79,
     genre: 'Animation, Adventure',
+    saga: '',
   },
   {
     title: 'GoldenEye',
@@ -1793,6 +1988,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1995-11-17',
     length: 130,
     genre: 'Action, Spy',
+    saga: '',
   },
   {
     title: 'Casper',
@@ -1802,6 +1998,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1995-05-26',
     length: 100,
     genre: 'Fantasy, Family',
+    saga: '',
   },
   {
     title: 'Braveheart',
@@ -1811,6 +2008,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1995-05-24',
     length: 178,
     genre: 'Historical, Drama',
+    saga: '',
   },
   {
     title: 'Super Noël',
@@ -1820,6 +2018,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1994-11-11',
     length: 97,
     genre: 'Comedy, Family',
+    saga: '',
   },
   {
     title: 'Entretien avec un vampire',
@@ -1830,6 +2029,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1994-11-11',
     length: 123,
     genre: 'Horror, Drama',
+    saga: '',
   },
   {
     title: 'Le retour de Jafar',
@@ -1839,6 +2039,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1994-05-20',
     length: 69,
     genre: 'Animation, Fantasy',
+    saga: '',
   },
   {
     title: 'Ace Ventura: Détective pour chiens et chats',
@@ -1848,6 +2049,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1994-02-04',
     length: 86,
     genre: 'Comedy, Mystery',
+    saga: '',
   },
   {
     title: "L'Étrange Noël de monsieur Jack",
@@ -1857,6 +2059,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1993-10-29',
     length: 76,
     genre: 'Animation, Fantasy',
+    saga: '',
   },
   {
     title: 'Un jour sans fin',
@@ -1866,6 +2069,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1993-02-12',
     length: 101,
     genre: 'Comedy, Fantasy',
+    saga: '',
   },
   {
     title: '3 Ninjas',
@@ -1875,6 +2079,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1992-08-07',
     length: 104,
     genre: 'Action, Family',
+    saga: '',
   },
   {
     title: 'Strictly Ballroom',
@@ -1884,6 +2089,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1992-08-20',
     length: 94,
     genre: 'Romance, Dance',
+    saga: '',
   },
   {
     title: 'JFK',
@@ -1893,6 +2099,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1991-12-20',
     length: 189,
     genre: 'Drama, Thriller',
+    saga: '',
   },
   {
     title: 'La Famille Addams',
@@ -1902,6 +2109,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1991-11-22',
     length: 102,
     genre: 'Comedy, Fantasy',
+    saga: '',
   },
   {
     title: 'Hook ou la Revanche du capitaine Crochet',
@@ -1911,6 +2119,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1991-12-11',
     length: 142,
     genre: 'Adventure, Fantasy',
+    saga: '',
   },
   {
     title: "Edward aux mains d'argent",
@@ -1920,6 +2129,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1990-12-07',
     length: 105,
     genre: 'Fantasy, Romance',
+    saga: '',
   },
   {
     title: 'Ghost',
@@ -1929,6 +2139,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1990-07-13',
     length: 127,
     genre: 'Romance, Fantasy',
+    saga: '',
   },
   {
     title: 'Kiki la petite sorcière',
@@ -1938,6 +2149,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1989-07-29',
     length: 103,
     genre: 'Animation, Fantasy',
+    saga: '',
   },
   {
     title: 'Indiana Jones et la Dernière Croisade',
@@ -1947,6 +2159,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1989-05-24',
     length: 127,
     genre: 'Adventure, Action',
+    saga: '',
   },
   {
     title: 'Oliver et Compagnie',
@@ -1956,6 +2169,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1988-11-18',
     length: 74,
     genre: 'Animation, Adventure',
+    saga: '',
   },
   {
     title: 'Le Tombeau des lucioles',
@@ -1965,6 +2179,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1988-04-16',
     length: 89,
     genre: 'Animation, War',
+    saga: '',
   },
   {
     title: 'Mon voisin Totoro',
@@ -1974,6 +2189,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1988-04-16',
     length: 86,
     genre: 'Animation, Fantasy',
+    saga: '',
   },
   {
     title: 'Beetlejuice',
@@ -1983,6 +2199,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1988-03-30',
     length: 92,
     genre: 'Comedy, Fantasy',
+    saga: '',
   },
   {
     title: 'Le Château dans le ciel',
@@ -1992,6 +2209,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1986-08-02',
     length: 125,
     genre: 'Animation, Adventure',
+    saga: '',
   },
   {
     title: 'Labyrinthe',
@@ -2001,6 +2219,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1986-06-27',
     length: 101,
     genre: 'Fantasy, Adventure',
+    saga: '',
   },
   {
     title: 'Gremlins',
@@ -2010,6 +2229,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1984-06-08',
     length: 106,
     genre: 'Horror, Comedy',
+    saga: '',
   },
   {
     title: 'S.O.S. Fantômes',
@@ -2019,6 +2239,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1984-06-08',
     length: 105,
     genre: 'Comedy, Fantasy',
+    saga: '',
   },
   {
     title: 'Indiana Jones et le Temple maudit',
@@ -2028,6 +2249,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1984-05-23',
     length: 118,
     genre: 'Adventure, Action',
+    saga: '',
   },
   {
     title: 'Nausicaä de la Vallée du Vent',
@@ -2037,6 +2259,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1984-03-11',
     length: 117,
     genre: 'Animation, Adventure',
+    saga: '',
   },
   {
     title: 'Grease 2',
@@ -2046,6 +2269,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1982-06-11',
     length: 115,
     genre: 'Musical, Romance',
+    saga: '',
   },
   {
     title: 'The Blues Brothers',
@@ -2055,6 +2279,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1980-06-20',
     length: 133,
     genre: 'Comedy, Musical',
+    saga: '',
   },
   {
     title: 'Halloween',
@@ -2064,6 +2289,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1978-10-25',
     length: 91,
     genre: 'Horror, Thriller',
+    saga: '',
   },
   {
     title: 'Grease',
@@ -2073,6 +2299,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1978-06-16',
     length: 110,
     genre: 'Musical, Romance',
+    saga: '',
   },
   {
     title: 'Le Livre de la jungle',
@@ -2082,6 +2309,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1967-10-18',
     length: 78,
     genre: 'Animation, Adventure',
+    saga: '',
   },
   {
     title: 'La Mélodie du bonheur',
@@ -2091,6 +2319,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1965-03-02',
     length: 174,
     genre: 'Musical, Drama',
+    saga: '',
   },
   {
     title: 'Mary Poppins',
@@ -2100,6 +2329,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1964-08-27',
     length: 139,
     genre: 'Fantasy, Musical',
+    saga: '',
   },
   {
     title: 'Les Parapluies de Cherbourg',
@@ -2109,6 +2339,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1964-02-19',
     length: 91,
     genre: 'Musical, Romance',
+    saga: '',
   },
   {
     title: 'West Side Story',
@@ -2118,6 +2349,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1961-10-18',
     length: 152,
     genre: 'Musical, Romance',
+    saga: '',
   },
   {
     title: 'La Belle au bois dormant',
@@ -2127,6 +2359,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1959-01-29',
     length: 75,
     genre: 'Animation, Fantasy',
+    saga: '',
   },
   {
     title: 'La Belle et le Clochard',
@@ -2136,6 +2369,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1955-06-22',
     length: 76,
     genre: 'Animation, Romance',
+    saga: '',
   },
   {
     title: 'Vacances romaines',
@@ -2145,6 +2379,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1953-08-27',
     length: 118,
     genre: 'Romance, Comedy',
+    saga: '',
   },
   {
     title: 'Chantons sous la pluie',
@@ -2154,6 +2389,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1952-04-11',
     length: 103,
     genre: 'Musical, Romance',
+    saga: '',
   },
   {
     title: 'Alice au pays des merveilles',
@@ -2163,6 +2399,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1951-07-26',
     length: 75,
     genre: 'Animation, Fantasy',
+    saga: '',
   },
   {
     title: 'Cendrillon',
@@ -2172,6 +2409,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1950-02-15',
     length: 74,
     genre: 'Animation, Romance',
+    saga: '',
   },
   {
     title: 'Pierre et le Loup',
@@ -2181,6 +2419,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1946-08-15',
     length: 15,
     genre: 'Animation, Short',
+    saga: '',
   },
   {
     title: 'Les Trois Caballeros',
@@ -2191,6 +2430,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1944-12-21',
     length: 71,
     genre: 'Animation, Musical',
+    saga: '',
   },
   {
     title: 'Saludos Amigos',
@@ -2201,6 +2441,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1942-02-06',
     length: 42,
     genre: 'Animation, Musical',
+    saga: '',
   },
   {
     title: 'Bambi',
@@ -2210,6 +2451,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1942-08-21',
     length: 70,
     genre: 'Animation, Drama',
+    saga: '',
   },
   {
     title: 'Dumbo',
@@ -2219,6 +2461,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1941-10-23',
     length: 64,
     genre: 'Animation, Family',
+    saga: '',
   },
   {
     title: 'Fantasia',
@@ -2228,6 +2471,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1940-11-13',
     length: 124,
     genre: 'Animation, Musical',
+    saga: '',
   },
   {
     title: "Le Magicien d'Oz",
@@ -2237,6 +2481,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1939-08-25',
     length: 102,
     genre: 'Fantasy, Musical',
+    saga: '',
   },
   {
     title: 'Blanche-Neige et les Sept Nains',
@@ -2246,5 +2491,6 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1937-12-21',
     length: 83,
     genre: 'Animation, Fantasy',
+    saga: '',
   },
 ];

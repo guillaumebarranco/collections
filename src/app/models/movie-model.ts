@@ -11,6 +11,7 @@ export interface BaseMovie extends MandatoryMovieData {
   releaseDate: string;
   length: number;
   genre: string;
+  saga: string;
 }
 
 export interface UserMovie extends MandatoryMovieData {

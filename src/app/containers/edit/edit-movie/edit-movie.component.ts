@@ -29,6 +29,7 @@ type EditMovieEntityForm = {
   releaseDate: string;
   length: number;
   genre: string;
+  saga: string;
 };
 
 type EditMovieDialogData = {
@@ -335,6 +336,7 @@ export class EditMovieComponent {
       releaseDate: movie.releaseDate,
       length: movie.length,
       genre: movie.genre,
+      saga: movie.saga || '',
     };
   }
 
@@ -349,6 +351,7 @@ export class EditMovieComponent {
       releaseDate: form.releaseDate,
       length: form.length,
       genre: form.genre,
+      saga: form.saga,
     };
   }
 

@@ -13,6 +13,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2021-10-22',
     length: 155,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Dune : Partie 2',
@@ -26,6 +27,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2024-03-01',
     length: 166,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Murder Mystery',
@@ -42,6 +44,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2019-06-14',
     length: 97,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Murder Mystery 2',
@@ -58,6 +61,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2023-03-31',
     length: 89,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'John Wick',
@@ -67,6 +71,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2014-10-24',
     length: 101,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'John Wick : Chapitre 2',
@@ -76,6 +81,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2017-02-10',
     length: 122,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'John Wick: Chapter 3 - Parabellum',
@@ -90,6 +96,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2019-05-17',
     length: 131,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'John Wick : Chapitre 4',
@@ -104,6 +111,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2023-03-24',
     length: 169,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Les Animaux Fantastiques',
@@ -114,6 +122,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2016-11-18',
     length: 133,
     genre: 'Fantasy',
+    saga: '',
   },
   {
     title: 'Les Animaux Fantastiques 2 : Les crimes de Grindelwald',
@@ -128,6 +137,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2018-11-16',
     length: 134,
     genre: 'Fantasy',
+    saga: '',
   },
   {
     title: 'Les Animaux Fantastiques 3 : Les Secrets de Dumbledore',
@@ -142,6 +152,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2022-04-15',
     length: 142,
     genre: 'Fantasy',
+    saga: '',
   },
   {
     title: 'Jack Reacher',
@@ -151,6 +162,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2012-12-21',
     length: 130,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Jack Reacher : Never Go Back',
@@ -160,6 +172,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2016-10-21',
     length: 118,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Enola Holmes',
@@ -173,6 +186,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2020-09-23',
     length: 123,
     genre: 'Enquête',
+    saga: '',
   },
   {
     title: 'Enola Holmes 2',
@@ -186,6 +200,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2022-11-04',
     length: 129,
     genre: 'Enquête',
+    saga: '',
   },
   {
     title: 'A couteaux tirés',
@@ -199,6 +214,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2019-11-27',
     length: 130,
     genre: 'Enquête',
+    saga: '',
   },
   {
     title: 'A couteaux tirés 2 : Glass Onion',
@@ -213,6 +229,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2022-12-23',
     length: 139,
     genre: 'Enquête',
+    saga: '',
   },
   {
     title: 'Wake up dead man : une histoire à couteaux tirés',
@@ -227,6 +244,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2025-12-12',
     length: 135,
     genre: 'Enquête',
+    saga: '',
   },
   {
     title: 'James Bond: Meurs un autre jour',
@@ -236,6 +254,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2002-11-22',
     length: 133,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'James Bond : Casino Royale',
@@ -245,6 +264,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2006-11-17',
     length: 144,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'James Bond : Quantum of Solace',
@@ -254,6 +274,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2008-11-14',
     length: 106,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'James Bond : Skyfall',
@@ -263,6 +284,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2012-11-09',
     length: 143,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'James Bond : Spectre',
@@ -272,6 +294,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2015-11-06',
     length: 148,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'James Bond : Mourir Peut Attendre',
@@ -285,6 +308,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2021-10-08',
     length: 163,
     genre: 'Action',
+    saga: '',
   },
   {
     title: "OSS 117 : Le Caire, Nid d'Espions",
@@ -295,6 +319,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2006-04-19',
     length: 99,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'OSS 117 : Rio ne Répond Plus',
@@ -304,6 +329,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2009-04-15',
     length: 101,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'OSS 117 : Alerte Rouge en Afrique Noire',
@@ -318,6 +344,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2021-07-14',
     length: 116,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Incassable',
@@ -327,6 +354,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2000-11-22',
     length: 106,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Split',
@@ -336,6 +364,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2017-01-20',
     length: 117,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Glass',
@@ -349,6 +378,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2019-01-18',
     length: 129,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Creed II',
@@ -362,6 +392,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2018-11-21',
     length: 130,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'La mémoire dans la peau',
@@ -371,6 +402,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2002-06-14',
     length: 119,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'La Mort dans la Peau',
@@ -381,6 +413,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2004-07-23',
     length: 108,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'La Vengeance dans la Peau',
@@ -391,6 +424,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2007-08-03',
     length: 115,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Jason Bourne',
@@ -400,6 +434,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2016-07-29',
     length: 123,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Inssaisissables',
@@ -409,6 +444,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2013-05-31',
     length: 115,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Inssaisissables 2',
@@ -418,6 +454,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2016-06-10',
     length: 129,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Divergente',
@@ -427,6 +464,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2014-03-21',
     length: 139,
     genre: 'Action',
+    saga: '',
   },
   {
     title: "Divergente 2 : L'Insurrection",
@@ -436,6 +474,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2015-03-20',
     length: 119,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Divergente 3 : Au-delà du Mur',
@@ -445,6 +484,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2016-03-18',
     length: 121,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Taken',
@@ -454,6 +494,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2008-02-27',
     length: 93,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Taken 2',
@@ -463,6 +504,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2012-10-05',
     length: 92,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Taken 3',
@@ -472,6 +514,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2015-01-09',
     length: 109,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'La nuit au musée',
@@ -481,6 +524,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2006-12-22',
     length: 108,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'La Nuit au musée 2',
@@ -490,6 +534,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2009-05-22',
     length: 105,
     genre: 'Adventure',
+    saga: '',
   },
   {
     title: 'Banlieue 13',
@@ -499,6 +544,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2004-11-10',
     length: 84,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Banlieue 13 : Ultimatum',
@@ -509,6 +555,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2009-02-18',
     length: 101,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Resident Evil',
@@ -518,6 +565,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2002-03-15',
     length: 100,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Resident Evil : Apocalypse',
@@ -528,6 +576,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2004-09-10',
     length: 94,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Resident Evil : Extinction',
@@ -538,6 +587,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2007-09-21',
     length: 94,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Rush Hour',
@@ -547,6 +597,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '1998-09-18',
     length: 98,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Rush Hour 2',
@@ -556,6 +607,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2001-08-03',
     length: 90,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Rush Hour 3',
@@ -565,6 +617,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2007-08-10',
     length: 91,
     genre: 'Action',
+    saga: '',
   },
   {
     title: "Ocean's Eleven",
@@ -574,6 +627,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2001-12-07',
     length: 116,
     genre: 'Crime',
+    saga: '',
   },
   {
     title: "Ocean's Twelve",
@@ -583,6 +637,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2004-12-10',
     length: 125,
     genre: 'Crime',
+    saga: '',
   },
   {
     title: "Ocean's Thirteen",
@@ -592,6 +647,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2007-06-08',
     length: 122,
     genre: 'Crime',
+    saga: '',
   },
   {
     title: "Ocean's Eight",
@@ -606,6 +662,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2018-06-08',
     length: 110,
     genre: 'Crime',
+    saga: '',
   },
   {
     title: 'Pirates des Caraïbes : La malédiction du Black Pearl',
@@ -616,6 +673,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2003-07-09',
     length: 143,
     genre: 'Adventure',
+    saga: '',
   },
   {
     title: 'Pirates des Caraïbes 2 : Le Secret du Coffre Maudit',
@@ -626,6 +684,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2006-07-07',
     length: 151,
     genre: 'Adventure',
+    saga: '',
   },
   {
     title: "Pirates des Caraïbes 3 : Jusqu'au Bout du Monde",
@@ -636,6 +695,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2007-05-25',
     length: 169,
     genre: 'Adventure',
+    saga: '',
   },
   {
     title: 'Taxi',
@@ -645,6 +705,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '1998-04-08',
     length: 86,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Taxi 2',
@@ -654,6 +715,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2000-03-31',
     length: 88,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Taxi 3',
@@ -663,6 +725,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2003-01-29',
     length: 84,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Taxi 4',
@@ -672,6 +735,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2007-02-14',
     length: 91,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Scary Movie',
@@ -681,6 +745,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2000-07-07',
     length: 88,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Scary Movie 2',
@@ -690,6 +755,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2001-07-04',
     length: 83,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Scary Movie 3',
@@ -699,6 +765,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2003-10-24',
     length: 84,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Scary Movie 4',
@@ -708,6 +775,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2006-04-14',
     length: 83,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Kill Bill: Vol. 1',
@@ -717,6 +785,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2003-10-10',
     length: 111,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Kill Bill: Vol. 2',
@@ -726,6 +795,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2004-04-16',
     length: 137,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Hellboy',
@@ -735,6 +805,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2004-04-02',
     length: 122,
     genre: 'Action',
+    saga: '',
   },
   {
     title: "Hellboy 2 : Les Légions d'Or Maudites",
@@ -745,6 +816,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2008-07-11',
     length: 120,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Les bronzés',
@@ -755,6 +827,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '1978-12-20',
     length: 95,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Les bronzés font du ski',
@@ -765,6 +838,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '1979-12-19',
     length: 95,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Les Bronzés 3 : Amis pour la Vie',
@@ -775,6 +849,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2006-01-25',
     length: 95,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Le Transporteur',
@@ -784,6 +859,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2002-10-11',
     length: 92,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Le Transporteur 2',
@@ -793,6 +869,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2005-09-02',
     length: 87,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Le Transporteur 3',
@@ -802,6 +879,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2008-11-26',
     length: 104,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'xXx',
@@ -811,6 +889,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2002-08-09',
     length: 124,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'xXx² : The Next Level',
@@ -821,6 +900,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2005-04-29',
     length: 101,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Sin City',
@@ -830,6 +910,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2005-04-01',
     length: 124,
     genre: 'Crime',
+    saga: '',
   },
   {
     title: "Sin City : J'ai Tué pour Elle",
@@ -840,6 +921,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2014-08-22',
     length: 102,
     genre: 'Crime',
+    saga: '',
   },
   {
     title: 'Blade',
@@ -849,6 +931,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '1998-08-21',
     length: 120,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Blade II',
@@ -858,6 +941,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2002-03-22',
     length: 117,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Blade : Trinity',
@@ -867,6 +951,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2004-12-08',
     length: 113,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Twilight : Chapitre 1 - Fascination',
@@ -876,6 +961,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2008-11-21',
     length: 122,
     genre: 'Fantasy',
+    saga: '',
   },
   {
     title: 'Twilight : Chapitre 2 - Tentation',
@@ -886,6 +972,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2009-11-20',
     length: 130,
     genre: 'Fantasy',
+    saga: '',
   },
   {
     title: 'Twilight : Chapitre 3 - Hésitation',
@@ -895,6 +982,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2010-06-30',
     length: 124,
     genre: 'Fantasy',
+    saga: '',
   },
   {
     title: 'Twilight : Chapitre 4 - Révélation - Partie 1',
@@ -905,6 +993,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2011-11-18',
     length: 117,
     genre: 'Fantasy',
+    saga: '',
   },
   {
     title: 'Twilight : Chapitre 4 - Révélation - Partie 2',
@@ -915,6 +1004,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2012-11-16',
     length: 115,
     genre: 'Fantasy',
+    saga: '',
   },
   {
     title: 'Underworld',
@@ -924,6 +1014,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2003-09-19',
     length: 121,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Underworld : Évolution',
@@ -934,6 +1025,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2006-01-20',
     length: 106,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Underworld : Rise of the Lycans',
@@ -944,6 +1036,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2009-01-23',
     length: 92,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Underworld : Éveil',
@@ -954,6 +1047,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2012-01-20',
     length: 88,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Destination Finale',
@@ -963,6 +1057,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2000-03-17',
     length: 98,
     genre: 'Horror',
+    saga: '',
   },
   {
     title: 'Destination Finale 2',
@@ -972,6 +1067,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2003-01-31',
     length: 90,
     genre: 'Horror',
+    saga: '',
   },
   {
     title: 'Destination Finale 3',
@@ -981,6 +1077,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2006-02-10',
     length: 93,
     genre: 'Horror',
+    saga: '',
   },
   {
     title: 'Destination Finale 4',
@@ -990,6 +1087,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2009-08-28',
     length: 82,
     genre: 'Horror',
+    saga: '',
   },
   {
     title: 'Destination Finale 5',
@@ -999,6 +1097,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2011-08-12',
     length: 92,
     genre: 'Horror',
+    saga: '',
   },
   {
     title: 'Scream',
@@ -1008,6 +1107,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '1996-12-20',
     length: 111,
     genre: 'Horror',
+    saga: '',
   },
   {
     title: 'Scream 2',
@@ -1017,6 +1117,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '1997-12-12',
     length: 120,
     genre: 'Horror',
+    saga: '',
   },
   {
     title: 'Scream 3',
@@ -1026,6 +1127,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2000-02-04',
     length: 116,
     genre: 'Horror',
+    saga: '',
   },
   {
     title: 'Scream 4',
@@ -1035,6 +1137,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2011-04-15',
     length: 111,
     genre: 'Horror',
+    saga: '',
   },
   {
     title: 'Avatar',
@@ -1044,6 +1147,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2009-12-18',
     length: 162,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: "Avatar 2 : La Voie de l'Eau",
@@ -1058,6 +1162,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2022-12-16',
     length: 192,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'American Pie',
@@ -1067,6 +1172,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '1999-07-09',
     length: 95,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'American Pie 2',
@@ -1076,6 +1182,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2001-08-10',
     length: 108,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'American Pie 3 : Marions-les',
@@ -1085,6 +1192,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2003-08-01',
     length: 96,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'American Pie Presents: Beta House',
@@ -1094,6 +1202,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2007-12-26',
     length: 88,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'American Pie Presents: The Naked Mile',
@@ -1104,6 +1213,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2006-12-19',
     length: 97,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'American Pie Presents: Band Camp',
@@ -1113,6 +1223,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2005-12-26',
     length: 97,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'American Pie Presents: The Book of Love',
@@ -1123,6 +1234,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2009-12-22',
     length: 93,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'American Pie 4',
@@ -1132,5 +1244,6 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2012-04-06',
     length: 113,
     genre: 'Comedy',
+    saga: '',
   },
 ];

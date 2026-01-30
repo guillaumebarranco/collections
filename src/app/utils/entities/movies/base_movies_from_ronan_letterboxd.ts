@@ -25,6 +25,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-12-03',
     length: 104,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Avatar : De feu et de cendres',
@@ -50,6 +51,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-12-17',
     length: 195,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Zootopie 2',
@@ -75,6 +77,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-11-26',
     length: 108,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Wicked: For Good',
@@ -100,6 +103,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-11-19',
     length: 138,
     genre: 'Musical',
+    saga: '',
   },
   {
     title: 'Running Man',
@@ -125,6 +129,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-11-19',
     length: 134,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Insaisissables 3',
@@ -150,6 +155,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-11-12',
     length: 113,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'TRON : Ares',
@@ -181,6 +187,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-10-08',
     length: 119,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'A Big Bold Beautiful Journey',
@@ -206,6 +213,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-10-01',
     length: 109,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'One Battle After Another',
@@ -237,6 +245,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: "Conjuring : L'Heure du jugement",
@@ -268,6 +277,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-09-10',
     length: 135,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Smashing Machine',
@@ -293,6 +303,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-10-29',
     length: 124,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Jay Kelly',
@@ -324,6 +335,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Adieu Jean-Pat',
@@ -349,6 +361,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-09-03',
     length: 94,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Pris au piège',
@@ -380,6 +393,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-08-27',
     length: 107,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Évanouis',
@@ -411,6 +425,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-08-06',
     length: 128,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Jurassic World : Renaissance',
@@ -436,6 +451,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-07-04',
     length: 134,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'F1',
@@ -464,6 +480,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Dragons',
@@ -489,6 +506,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-06-11',
     length: 125,
     genre: 'Aventure',
+    saga: '',
   },
   {
     title: 'Ballerina',
@@ -514,6 +532,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-06-04',
     length: 135,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Le Son des souvenirs',
@@ -542,6 +561,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-02-25',
     length: 127,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: "The Party's Over!",
@@ -567,6 +587,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Highest 2 Lowest',
@@ -592,6 +613,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Alpha',
@@ -617,6 +639,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'The Phoenician Scheme',
@@ -642,6 +665,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Exit 8',
@@ -667,6 +691,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Eddington',
@@ -695,6 +720,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Partir un jour',
@@ -720,6 +746,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-05-14',
     length: 98,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Destination Finale : Bloodlines',
@@ -745,6 +772,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-05-14',
     length: 109,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Karate Kid: Legends',
@@ -770,6 +798,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Mission: Impossible – The Final Reckoning',
@@ -798,6 +827,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-05-21',
     length: 169,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Last Bullet',
@@ -826,6 +856,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Until Dawn : La mort sans fin',
@@ -851,6 +882,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-04-23',
     length: 103,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Train Dreams',
@@ -876,6 +908,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-11-07',
     length: 102,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Un parfait inconnu',
@@ -901,6 +934,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-01-29',
     length: 140,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'The Lord of the Rings: The War of the Rohirrim',
@@ -927,6 +961,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Vaiana 2',
@@ -952,6 +987,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-11-27',
     length: 100,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Nosferatu',
@@ -977,6 +1013,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-12-25',
     length: 132,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Juré n°2',
@@ -1002,6 +1039,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-10-30',
     length: 114,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Loups-Garous',
@@ -1030,6 +1068,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-10-23',
     length: 94,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Gladiator II',
@@ -1055,6 +1094,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-11-13',
     length: 148,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Caddo Lake',
@@ -1074,6 +1114,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Le Robot sauvage',
@@ -1099,6 +1140,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-10-09',
     length: 102,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Heretic',
@@ -1124,6 +1166,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Life of Chuck',
@@ -1149,6 +1192,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2025-06-11',
     length: 111,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'We Live in Time',
@@ -1174,6 +1218,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Joker : Folie à Deux',
@@ -1199,6 +1244,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-10-02',
     length: 138,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Beetlejuice Beetlejuice',
@@ -1224,6 +1270,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-09-11',
     length: 104,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Trap',
@@ -1249,6 +1296,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Twisters',
@@ -1274,6 +1322,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-07-17',
     length: 122,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Fly Me to the Moon',
@@ -1299,6 +1348,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Anora',
@@ -1318,6 +1368,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'The Substance',
@@ -1340,6 +1391,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-11-06',
     length: 140,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'The Marching Band',
@@ -1365,6 +1417,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Emilia Pérez',
@@ -1390,6 +1443,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-08-21',
     length: 130,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Megalopolis',
@@ -1415,6 +1469,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-09-25',
     length: 138,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Kingdom of the Planet of the Apes',
@@ -1440,6 +1495,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'A Little Something Extra',
@@ -1465,6 +1521,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Rebel Moon – Part Two: The Scargiver',
@@ -1490,6 +1547,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Godzilla × Kong: The New Empire',
@@ -1515,6 +1573,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Ghostbusters: Frozen Empire',
@@ -1534,6 +1593,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Civil War',
@@ -1559,6 +1619,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-04-17',
     length: 109,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'The Fall Guy',
@@ -1584,6 +1645,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-05-01',
     length: 125,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Monkey Man',
@@ -1609,6 +1671,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-04-17',
     length: 120,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Kung Fu Panda 4',
@@ -1634,6 +1697,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Code 8 : Partie II',
@@ -1659,6 +1723,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-02-28',
     length: 100,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Madame Web',
@@ -1684,6 +1749,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Argylle',
@@ -1709,6 +1775,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-01-31',
     length: 139,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Aquaman et le Royaume perdu',
@@ -1728,6 +1795,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-12-20',
     length: 124,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Tout sauf toi',
@@ -1753,6 +1821,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-01-24',
     length: 103,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Rebel Moon - Partie 1 : Enfant du feu',
@@ -1778,6 +1847,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-12-22',
     length: 133,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Les Trois Mousquetaires : Milady',
@@ -1803,6 +1873,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-12-13',
     length: 114,
     genre: 'Aventure',
+    saga: '',
   },
   {
     title: 'Iron Claw',
@@ -1828,6 +1899,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-01-24',
     length: 132,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Wish : Asha et la Bonne Étoile',
@@ -1853,6 +1925,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-11-29',
     length: 95,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: "Hunger Games : La Ballade du serpent et de l'oiseau chanteur",
@@ -1879,6 +1952,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-11-15',
     length: 157,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Godzilla Minus One',
@@ -1895,6 +1969,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Cinq nuits chez Freddy',
@@ -1920,6 +1995,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-11-08',
     length: 110,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'The Creator',
@@ -1945,6 +2021,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-09-27',
     length: 133,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'The Killer',
@@ -1970,6 +2047,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-10-27',
     length: 118,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Pauvres Créatures',
@@ -1995,6 +2073,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-01-17',
     length: 141,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Ferrari',
@@ -2020,6 +2099,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2024-03-08',
     length: 130,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'The Equalizer 3',
@@ -2039,6 +2119,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Teenage Mutant Ninja Turtles: Mutant Mayhem',
@@ -2064,6 +2145,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-08-09',
     length: 99,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Blue Beetle',
@@ -2089,6 +2171,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-08-16',
     length: 127,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Le Manoir hanté',
@@ -2114,6 +2197,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-07-26',
     length: 123,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Yannick',
@@ -2136,6 +2220,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-08-02',
     length: 67,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Insidious: The Red Door',
@@ -2155,6 +2240,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-07-05',
     length: 107,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Mission: Impossible – Dead Reckoning Partie 1',
@@ -2180,6 +2266,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-07-12',
     length: 163,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Le Challenge',
@@ -2205,6 +2292,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-06-21',
     length: 103,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Nimona',
@@ -2230,6 +2318,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-06-30',
     length: 101,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Extraction 2',
@@ -2249,6 +2338,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-06-16',
     length: 122,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Mon crime',
@@ -2274,6 +2364,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-03-08',
     length: 102,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Transformers: Rise of the Beasts',
@@ -2299,6 +2390,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Killers of the Flower Moon',
@@ -2318,6 +2410,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-10-18',
     length: 206,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Indiana Jones and the Dial of Destiny',
@@ -2343,6 +2436,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'AKA',
@@ -2362,6 +2456,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-04-28',
     length: 120,
     genre: 'Action',
+    saga: '',
   },
   {
     title: "The Three Musketeers: D'Artagnan",
@@ -2381,6 +2476,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Air',
@@ -2400,6 +2496,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-04-05',
     length: 112,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Shazam! La Rage des Dieux',
@@ -2419,6 +2516,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-03-29',
     length: 130,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Scream VI',
@@ -2438,6 +2536,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-03-08',
     length: 123,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: "Astérix et Obélix : L'Empire du Milieu",
@@ -2457,6 +2556,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-02-01',
     length: 112,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Knock at the Cabin',
@@ -2476,6 +2576,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: "Past Lives – Nos vies d'avant",
@@ -2495,6 +2596,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-12-13',
     length: 106,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Alibi.com 2',
@@ -2514,6 +2616,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Balle perdue 2',
@@ -2533,6 +2636,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2022-11-10',
     length: 98,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Slumberland',
@@ -2552,6 +2656,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2022-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Werewolf by Night',
@@ -2571,6 +2676,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2022-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'The Fabelmans',
@@ -2590,6 +2696,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-02-22',
     length: 151,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Le Menu',
@@ -2609,6 +2716,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2022-11-23',
     length: 107,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'The Whale',
@@ -2628,6 +2736,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-03-08',
     length: 117,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Athena',
@@ -2647,6 +2756,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2022-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Krypto et les Super-Animaux',
@@ -2666,6 +2776,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2022-07-27',
     length: 106,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'One Piece Film: Red',
@@ -2685,6 +2796,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2022-08-10',
     length: 115,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'The Gray Man',
@@ -2704,6 +2816,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2022-07-22',
     length: 129,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'The Princess',
@@ -2723,6 +2836,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2022-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Le Visiteur du Futur',
@@ -2742,6 +2856,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2022-09-07',
     length: 102,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Le Monstre des mers',
@@ -2761,6 +2876,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2022-07-08',
     length: 115,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: "Jurassic World : Le Monde d'après",
@@ -2780,6 +2896,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2022-06-08',
     length: 146,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'The Night of the 12th',
@@ -2799,6 +2916,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2022-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Ténor',
@@ -2818,6 +2936,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2022-05-04',
     length: 100,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Ambulance',
@@ -2837,6 +2956,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2022-03-23',
     length: 136,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'The Lost City',
@@ -2856,6 +2976,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2022-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Uncharted',
@@ -2875,6 +2996,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2022-02-16',
     length: 115,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Scream',
@@ -2894,6 +3016,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2022-01-12',
     length: 115,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'The Matrix Resurrections',
@@ -2913,6 +3036,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2021-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Super-héros malgré lui',
@@ -2932,6 +3056,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2022-02-02',
     length: 82,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'tick, tick... BOOM!',
@@ -2951,6 +3076,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2021-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Army of Thieves',
@@ -2970,6 +3096,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2021-10-29',
     length: 127,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'The Last Duel',
@@ -2989,6 +3116,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2021-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'The Stronghold',
@@ -3008,6 +3136,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2021-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'The Trip',
@@ -3027,6 +3156,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2021-07-30',
     length: 113,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'The Suicide Squad',
@@ -3046,6 +3176,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2021-07-28',
     length: 132,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Space Jam : Nouvelle Ère',
@@ -3065,6 +3196,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2021-07-21',
     length: 116,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Un papa hors pair',
@@ -3084,6 +3216,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2021-06-18',
     length: 109,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Hitman & Bodyguard 2',
@@ -3103,6 +3236,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2021-06-30',
     length: 118,
     genre: 'Action',
+    saga: '',
   },
   {
     title: "Conjuring : Sous l'emprise du diable",
@@ -3122,6 +3256,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2021-06-09',
     length: 112,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'The Woman in the Window',
@@ -3141,6 +3276,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2021-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Un homme en colère',
@@ -3160,6 +3296,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2021-06-16',
     length: 118,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Army of the Dead',
@@ -3179,6 +3316,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2021-05-21',
     length: 148,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Godzilla vs. Kong',
@@ -3198,6 +3336,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2021-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Boîte noire',
@@ -3217,6 +3356,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2021-09-08',
     length: 129,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Malcolm & Marie',
@@ -3233,6 +3373,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2021-02-05',
     length: 106,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'The Little Things',
@@ -3252,6 +3393,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2021-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Soul',
@@ -3271,6 +3413,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2020-12-25',
     length: 100,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Lost Bullet',
@@ -3290,6 +3433,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2020-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Da 5 Bloods : Frères de sang',
@@ -3309,6 +3453,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2020-06-12',
     length: 154,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Extraction',
@@ -3328,6 +3473,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2020-04-24',
     length: 116,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Les Nouveaux Mutants',
@@ -3347,6 +3493,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2020-08-26',
     length: 94,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Sans un bruit 2',
@@ -3366,6 +3513,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2021-06-16',
     length: 97,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Bloodshot',
@@ -3385,6 +3533,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2020-03-27',
     length: 109,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'The Invisible Man',
@@ -3404,6 +3553,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2020-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'En avant',
@@ -3423,6 +3573,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2020-03-04',
     length: 102,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Sonic the Hedgehog',
@@ -3442,6 +3593,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2020-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Bad Boys for Life',
@@ -3461,6 +3613,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2020-01-22',
     length: 124,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Jumanji: Next Level',
@@ -3480,6 +3633,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2019-12-04',
     length: 114,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Zombieland: Double Tap',
@@ -3499,6 +3653,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2019-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Code 8',
@@ -3518,6 +3673,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2019-12-13',
     length: 98,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Gemini Man',
@@ -3537,6 +3693,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2019-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Le Mans 66',
@@ -3556,6 +3713,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2019-11-13',
     length: 152,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Marriage Story',
@@ -3575,6 +3733,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2019-12-06',
     length: 137,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Play',
@@ -3594,6 +3753,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2020-01-01',
     length: 108,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'It Chapter Two',
@@ -3613,6 +3773,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2019-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Men in Black: International',
@@ -3632,6 +3793,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2019-06-12',
     length: 115,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Toy Story 4',
@@ -3651,6 +3813,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2019-06-26',
     length: 100,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Godzilla: King of the Monsters',
@@ -3670,6 +3833,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2019-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'The Specials',
@@ -3689,6 +3853,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2019-10-23',
     length: 114,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Yesterday',
@@ -3708,6 +3873,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2019-01-01',
     length: 0,
     genre: '',
+    saga: '',
   },
   {
     title: 'Tolkien',
@@ -3727,6 +3893,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2019-06-19',
     length: 112,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Hellboy',
@@ -3746,6 +3913,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2019-05-08',
     length: 121,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Escape Game',
@@ -3765,6 +3933,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2019-02-27',
     length: 99,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Dragons 3 : Le Monde caché',
@@ -3784,6 +3953,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2019-02-06',
     length: 104,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Nicky Larson Private Eyes',
@@ -3803,6 +3973,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2019-06-13',
     length: 96,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Bumblebee',
@@ -3822,6 +3993,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2018-12-26',
     length: 114,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Le Grinch',
@@ -3841,6 +4013,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2018-11-28',
     length: 86,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: "Sale temps à l'hôtel El Royale",
@@ -3860,6 +4033,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2018-11-07',
     length: 141,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Green Book : Sur les routes du Sud',
@@ -3879,6 +4053,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2019-01-23',
     length: 130,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: "À tous les garçons que j'ai aimés",
@@ -3898,6 +4073,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2018-08-17',
     length: 99,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Crazy Rich Asians',
@@ -3917,6 +4093,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2018-11-07',
     length: 121,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'The Meg',
@@ -3936,6 +4113,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2018-08-22',
     length: 114,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Equalizer 2',
@@ -3955,6 +4133,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2018-08-15',
     length: 121,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Mission : Impossible – Fallout',
@@ -3974,6 +4153,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2018-08-01',
     length: 147,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Skyscraper',
@@ -3993,6 +4173,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2018-07-11',
     length: 102,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'American Nightmare 4 : Les Origines',
@@ -4012,6 +4193,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2018-07-04',
     length: 97,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Astérix : Le Secret de la potion magique',
@@ -4031,6 +4213,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2018-12-05',
     length: 85,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Pacific Rim: Uprising',
@@ -4050,6 +4233,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2018-03-21',
     length: 111,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Sans un bruit',
@@ -4069,6 +4253,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2018-06-20',
     length: 90,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Hérédité',
@@ -4088,6 +4273,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2018-06-13',
     length: 126,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Le Labyrinthe : Le Remède mortel',
@@ -4107,6 +4293,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2018-02-07',
     length: 142,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Jumanji : Bienvenue dans la jungle',
@@ -4123,6 +4310,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2017-12-20',
     length: 119,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Ne coupez pas !',
@@ -4142,6 +4330,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2019-04-24',
     length: 96,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Justice League',
@@ -4161,6 +4350,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2017-11-15',
     length: 121,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'The Babysitter',
@@ -4180,6 +4370,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2017-10-13',
     length: 85,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Blade Runner 2049',
@@ -4199,6 +4390,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2017-10-04',
     length: 164,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Ça',
@@ -4218,6 +4410,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2017-09-20',
     length: 135,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Lady Bird',
@@ -4237,6 +4430,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2018-02-28',
     length: 94,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: "La Forme de l'eau",
@@ -4256,6 +4450,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2018-02-21',
     length: 123,
     genre: 'Fantastique',
+    saga: '',
   },
   {
     title: 'La Tour sombre',
@@ -4275,6 +4470,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2017-08-09',
     length: 95,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'La Colle',
@@ -4294,6 +4490,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2017-07-19',
     length: 91,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'American Assassin',
@@ -4313,6 +4510,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2017-09-20',
     length: 111,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Dunkerque',
@@ -4332,6 +4530,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2017-07-19',
     length: 106,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'La Planète des singes : Suprématie',
@@ -4351,6 +4550,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2017-08-02',
     length: 140,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Transformers: The Last Knight',
@@ -4370,6 +4570,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2017-06-28',
     length: 154,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Good Time',
@@ -4389,6 +4590,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2017-09-13',
     length: 101,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Pirates des Caraïbes : La Vengeance de Salazar',
@@ -4406,6 +4608,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2017-05-24',
     length: 129,
     genre: 'Aventure',
+    saga: '',
   },
   {
     title: "Le Roi Arthur : La Légende d'Excalibur",
@@ -4425,6 +4628,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2017-05-17',
     length: 126,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Mary',
@@ -4444,6 +4648,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2017-09-13',
     length: 101,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Power Rangers',
@@ -4463,6 +4668,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2017-04-05',
     length: 124,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Life : Origine inconnue',
@@ -4482,6 +4688,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2017-04-19',
     length: 104,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Lego Batman, le film',
@@ -4501,6 +4708,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2017-02-08',
     length: 104,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Get Out',
@@ -4520,6 +4728,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2017-05-03',
     length: 104,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Call Me by Your Name',
@@ -4539,6 +4748,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2018-02-28',
     length: 132,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Alibi.com',
@@ -4558,6 +4768,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2017-02-15',
     length: 90,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'The Boyfriend : Pourquoi lui ?',
@@ -4577,6 +4788,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2017-01-25',
     length: 111,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: "Assassin's Creed",
@@ -4596,6 +4808,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2016-12-21',
     length: 115,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Beauté cachée',
@@ -4615,6 +4828,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2016-12-21',
     length: 97,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: "Les Figures de l'ombre",
@@ -4634,6 +4848,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2017-03-08',
     length: 127,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Les Trolls',
@@ -4653,6 +4868,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2016-10-19',
     length: 92,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Sing',
@@ -4672,6 +4888,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2017-01-25',
     length: 108,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Moonlight',
@@ -4691,6 +4908,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2017-02-01',
     length: 111,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'War Dogs',
@@ -4710,6 +4928,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2016-09-14',
     length: 114,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Star Trek : Sans limites',
@@ -4729,6 +4948,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2016-08-17',
     length: 123,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'American Nightmare 3 : Élections',
@@ -4748,6 +4968,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2016-07-20',
     length: 109,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Tarzan',
@@ -4767,6 +4988,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2016-07-06',
     length: 110,
     genre: 'Action',
+    saga: '',
   },
   {
     title: "Alice de l'autre côté du miroir",
@@ -4786,6 +5008,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2016-06-01',
     length: 113,
     genre: 'Fantastique',
+    saga: '',
   },
   {
     title: 'Teenage Mutant Ninja Turtles: Out of the Shadows',
@@ -4806,6 +5029,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2016-06-29',
     length: 112,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Dernier train pour Busan',
@@ -4825,6 +5049,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2016-08-17',
     length: 118,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Conjuring 2 : Le Cas Enfield',
@@ -4844,6 +5069,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2016-06-29',
     length: 134,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Money Monster',
@@ -4863,6 +5089,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2016-05-12',
     length: 98,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'The Nice Guys',
@@ -4882,6 +5109,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2016-05-20',
     length: 116,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Nos pires voisins 2',
@@ -4901,6 +5129,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2016-07-06',
     length: 92,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Le Chasseur et la Reine des glaces',
@@ -4920,6 +5149,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2016-04-20',
     length: 114,
     genre: 'Fantastique',
+    saga: '',
   },
   {
     title: 'Le Livre de la jungle',
@@ -4936,6 +5166,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2016-04-13',
     length: 106,
     genre: 'Aventure',
+    saga: '',
   },
   {
     title: 'Five',
@@ -4955,6 +5186,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2016-08-31',
     length: 95,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Kung Fu Panda 3',
@@ -4974,6 +5206,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2016-03-30',
     length: 95,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Ip Man 3',
@@ -4993,6 +5226,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2015-12-24',
     length: 105,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Les Huit Salopards',
@@ -5012,6 +5246,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2016-01-06',
     length: 167,
     genre: 'Western',
+    saga: '',
   },
   {
     title: 'Hunger Games : La Révolte, partie 2',
@@ -5031,6 +5266,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2015-11-18',
     length: 137,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Crimson Peak',
@@ -5050,6 +5286,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2015-10-14',
     length: 119,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Le Labyrinthe : La Terre brûlée',
@@ -5063,6 +5300,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2015-10-07',
     length: 133,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Steve Jobs',
@@ -5082,6 +5320,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2016-02-03',
     length: 122,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Agents très spéciaux : Code U.N.C.L.E.',
@@ -5101,6 +5340,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2015-09-16',
     length: 116,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Mission : Impossible – Rogue Nation',
@@ -5120,6 +5360,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2015-08-12',
     length: 131,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Paranormal Activity 5 : Ghost Dimension',
@@ -5139,6 +5380,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2015-10-21',
     length: 88,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Ted 2',
@@ -5158,6 +5400,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2015-08-05',
     length: 115,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Magic Mike XXL',
@@ -5177,6 +5420,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2015-07-08',
     length: 115,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Hitman: Agent 47',
@@ -5196,6 +5440,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2015-08-26',
     length: 97,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Sicario',
@@ -5215,6 +5460,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2015-10-07',
     length: 121,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'À la poursuite de demain',
@@ -5234,6 +5480,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2015-05-20',
     length: 130,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Maggie',
@@ -5253,6 +5500,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2015-05-27',
     length: 95,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: "Dragon Ball Z : La Résurrection de 'F'",
@@ -5272,6 +5520,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2015-09-11',
     length: 94,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Éternelle Adaline',
@@ -5291,6 +5540,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2015-05-06',
     length: 110,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Batman vs. Robin',
@@ -5310,6 +5560,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2015-04-22',
     length: 76,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Chappie',
@@ -5329,6 +5580,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2015-03-04',
     length: 120,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Dope',
@@ -5348,6 +5600,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2015-11-04',
     length: 103,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Le Hobbit : La Bataille des Cinq Armées',
@@ -5367,6 +5620,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-12-10',
     length: 144,
     genre: 'Fantastique',
+    saga: '',
   },
   {
     title: 'Astérix : Le Domaine des dieux',
@@ -5386,6 +5640,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-11-26',
     length: 85,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Horrible Bosses 2',
@@ -5405,6 +5660,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-12-24',
     length: 108,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Hunger Games : La Révolte, partie 1',
@@ -5424,6 +5680,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-11-19',
     length: 123,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Fury',
@@ -5443,6 +5700,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-10-22',
     length: 134,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Dracula Untold',
@@ -5462,6 +5720,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-10-01',
     length: 92,
     genre: 'Fantastique',
+    saga: '',
   },
   {
     title: 'Equalizer',
@@ -5481,6 +5740,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-10-01',
     length: 132,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Ninja Turtles',
@@ -5500,6 +5760,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-10-15',
     length: 101,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'American Nightmare 2 : Anarchy',
@@ -5519,6 +5780,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-07-23',
     length: 103,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Step Up: All In',
@@ -5538,6 +5800,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-08-08',
     length: 112,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: "La Planète des singes : l'affrontement",
@@ -5557,6 +5820,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-07-30',
     length: 131,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: "Transformers : L'Âge de l'extinction",
@@ -5576,6 +5840,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-07-16',
     length: 165,
     genre: 'Action',
+    saga: '',
   },
   {
     title: '22 Jump Street',
@@ -5595,6 +5860,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-08-27',
     length: 112,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Godzilla',
@@ -5614,6 +5880,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-05-14',
     length: 123,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Nos pires voisins',
@@ -5633,6 +5900,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-05-28',
     length: 97,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Noé',
@@ -5652,6 +5920,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-04-09',
     length: 138,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: "300 : La Naissance d'un Empire",
@@ -5671,6 +5940,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-03-05',
     length: 102,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'The Grand Budapest Hotel',
@@ -5690,6 +5960,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-02-26',
     length: 100,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'The Monuments Men',
@@ -5709,6 +5980,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-03-12',
     length: 118,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'The Raid 2',
@@ -5728,6 +6000,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-07-23',
     length: 148,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Vampires en toute intimité',
@@ -5747,6 +6020,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2015-02-11',
     length: 86,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Mister Babadook',
@@ -5766,6 +6040,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-07-30',
     length: 94,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Whiplash',
@@ -5785,6 +6060,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-12-24',
     length: 105,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Paranormal Activity: The Marked Ones',
@@ -5804,6 +6080,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-01-01',
     length: 84,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Le Hobbit : La Désolation de Smaug',
@@ -5823,6 +6100,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2013-12-11',
     length: 161,
     genre: 'Fantastique',
+    saga: '',
   },
   {
     title: "Hunger Games : L'Embrasement",
@@ -5842,6 +6120,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2013-11-27',
     length: 146,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Out of the Furnace',
@@ -5861,6 +6140,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-01-15',
     length: 116,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Mindscape',
@@ -5880,6 +6160,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-06-11',
     length: 99,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Her',
@@ -5899,6 +6180,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-03-19',
     length: 126,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Insidious : Chapitre 2',
@@ -5918,6 +6200,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2013-10-02',
     length: 105,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Dallas Buyers Club',
@@ -5937,6 +6220,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-01-29',
     length: 117,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Et (beaucoup) plus si affinités',
@@ -5956,6 +6240,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-08-20',
     length: 102,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'New York Melody',
@@ -5975,6 +6260,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2014-07-30',
     length: 104,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Percy Jackson : La Mer des monstres',
@@ -5994,6 +6280,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2013-08-14',
     length: 106,
     genre: 'Aventure',
+    saga: '',
   },
   {
     title: 'Les Miller, une famille en herbe',
@@ -6013,6 +6300,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2013-09-18',
     length: 110,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Escape Plan',
@@ -6032,6 +6320,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2013-11-13',
     length: 115,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Copains pour toujours 2',
@@ -6051,6 +6340,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2013-09-11',
     length: 101,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Les Stagiaires',
@@ -6070,6 +6360,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2013-06-26',
     length: 119,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: "C'est la fin",
@@ -6089,6 +6380,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2013-10-09',
     length: 107,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'American Nightmare',
@@ -6108,6 +6400,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2013-08-07',
     length: 85,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Star Trek Into Darkness',
@@ -6127,6 +6420,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2013-06-12',
     length: 130,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Gatsby le Magnifique',
@@ -6143,6 +6437,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2013-05-15',
     length: 143,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Dragon Ball Z: Battle of Gods',
@@ -6162,6 +6457,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2015-02-11',
     length: 85,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'G.I. Joe : Conspiration',
@@ -6181,6 +6477,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2013-03-27',
     length: 110,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Evil Dead',
@@ -6200,6 +6497,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2013-05-01',
     length: 91,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Jobs',
@@ -6219,6 +6517,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2013-08-21',
     length: 127,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Hansel & Gretel : Witch Hunters',
@@ -6238,6 +6537,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2013-03-06',
     length: 88,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Mama',
@@ -6257,6 +6557,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2013-05-15',
     length: 100,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Gangster Squad',
@@ -6276,6 +6577,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2013-02-06',
     length: 113,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Batman: The Dark Knight Returns, Part 2',
@@ -6295,6 +6597,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2013-05-02',
     length: 78,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Astérix et Obélix : Au service de Sa Majesté',
@@ -6314,6 +6617,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2012-10-17',
     length: 109,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Paranormal Activity 4',
@@ -6333,6 +6637,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2012-10-31',
     length: 95,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Les Seigneurs',
@@ -6346,6 +6651,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2012-04-04',
     length: 112,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Cloud Atlas',
@@ -6365,6 +6671,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2013-03-13',
     length: 172,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Le Monde de Charlie',
@@ -6384,6 +6691,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2013-01-02',
     length: 103,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Seven Psychopaths',
@@ -6403,6 +6711,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2013-01-30',
     length: 110,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Batman: The Dark Knight Returns, Part 1',
@@ -6422,6 +6731,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2013-05-02',
     length: 76,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Sexy Dance 4 : Miami Heat',
@@ -6441,6 +6751,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2012-08-08',
     length: 99,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: "L'Âge de glace 4 : La Dérive des continents",
@@ -6454,6 +6765,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2012-06-27',
     length: 94,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Magic Mike',
@@ -6473,6 +6785,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2012-08-15',
     length: 110,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Rebelle',
@@ -6486,6 +6799,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2012-08-01',
     length: 93,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: "Superman contre l'Élite",
@@ -6505,6 +6819,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2012-07-04',
     length: 76,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Blanche-Neige et le Chasseur',
@@ -6524,6 +6839,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2012-06-13',
     length: 126,
     genre: 'Fantastique',
+    saga: '',
   },
   {
     title: "Madagascar 3 : Bons Baisers d'Europe",
@@ -6543,6 +6859,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2012-06-06',
     length: 93,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Battleship',
@@ -6562,6 +6879,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2012-04-11',
     length: 131,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'American Reunion',
@@ -6581,6 +6899,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2012-05-02',
     length: 114,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Sinister',
@@ -6600,6 +6919,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2012-11-07',
     length: 110,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Le Lorax',
@@ -6619,6 +6939,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2012-07-18',
     length: 86,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: "Voyage au centre de la Terre 2 : L'Île mystérieuse",
@@ -6638,6 +6959,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2012-02-15',
     length: 94,
     genre: 'Aventure',
+    saga: '',
   },
   {
     title: 'La Cabane dans les bois',
@@ -6657,6 +6979,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2012-05-02',
     length: 95,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Happy New Year',
@@ -6676,6 +6999,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2011-12-21',
     length: 118,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Mission : Impossible - Protocole Fantôme',
@@ -6695,6 +7019,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2011-12-14',
     length: 133,
     genre: 'Action',
+    saga: '',
   },
   {
     title: "Sherlock Holmes : Jeu d'ombres",
@@ -6714,6 +7039,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2012-01-25',
     length: 129,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Paranormal Activity 3',
@@ -6733,6 +7059,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2011-10-19',
     length: 84,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Un monstre à Paris',
@@ -6752,6 +7079,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2011-10-12',
     length: 82,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Batman: Year One',
@@ -6771,6 +7099,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2012-07-04',
     length: 64,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: '10 ans déjà !',
@@ -6790,6 +7119,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2012-06-13',
     length: 110,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Les Trois Mousquetaires',
@@ -6809,6 +7139,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2011-10-12',
     length: 110,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'La Couleur des sentiments',
@@ -6828,6 +7159,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2011-10-26',
     length: 146,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'La Planète des singes : Les Origines',
@@ -6844,6 +7176,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2011-08-10',
     length: 105,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'La Colline aux coquelicots',
@@ -6863,6 +7196,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2012-01-11',
     length: 91,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Transformers : La Face cachée de la Lune',
@@ -6882,6 +7216,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2011-06-29',
     length: 157,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Bad Teacher',
@@ -6901,6 +7236,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2011-07-27',
     length: 92,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Un jour',
@@ -6914,6 +7250,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2011-08-24',
     length: 108,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Sex Friends',
@@ -6927,6 +7264,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2011-02-16',
     length: 108,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Raiponce',
@@ -6946,6 +7284,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2010-12-01',
     length: 101,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Saw 3D : Chapitre final',
@@ -6965,6 +7304,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2010-11-10',
     length: 90,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Paranormal Activity 2',
@@ -6984,6 +7324,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2010-10-20',
     length: 91,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Superman/Batman : Apocalypse',
@@ -7003,6 +7344,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2010-10-27',
     length: 78,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Insidious',
@@ -7022,6 +7364,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2011-06-15',
     length: 102,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Incendies',
@@ -7041,6 +7384,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2011-01-12',
     length: 130,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Piranha 3D',
@@ -7060,6 +7404,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2010-09-01',
     length: 89,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Le Secret de Charlie',
@@ -7079,6 +7424,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2010-11-10',
     length: 100,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Batman et Red Hood : Sous le masque rouge',
@@ -7098,6 +7444,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2010-09-01',
     length: 75,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Scott Pilgrim',
@@ -7117,6 +7464,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2010-12-01',
     length: 112,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Le Dernier Exorcisme',
@@ -7136,6 +7484,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2010-09-15',
     length: 87,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Copains pour toujours',
@@ -7155,6 +7504,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2010-09-08',
     length: 102,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: "L'Agence tous risques",
@@ -7174,6 +7524,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2010-06-16',
     length: 114,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Ip Man 2 : Le Retour du grand maître',
@@ -7193,6 +7544,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2011-08-09',
     length: 108,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Nanny McPhee et le Big Bang',
@@ -7212,6 +7564,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2010-03-31',
     length: 109,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: "L'Arnacœur",
@@ -7225,6 +7578,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2010-03-17',
     length: 105,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'La Rafle',
@@ -7244,6 +7598,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2010-03-10',
     length: 115,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: "Le Livre d'Eli",
@@ -7263,6 +7618,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2010-01-20',
     length: 109,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'La Princesse et la Grenouille',
@@ -7276,6 +7632,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2010-01-27',
     length: 97,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Saw VI',
@@ -7295,6 +7652,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2009-11-04',
     length: 90,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Superman/Batman : Ennemis publics',
@@ -7314,6 +7672,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2010-09-01',
     length: 67,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'La Route',
@@ -7333,6 +7692,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2009-12-02',
     length: 111,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'G.I. Joe : Le Réveil du Cobra',
@@ -7352,6 +7712,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2009-08-05',
     length: 118,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Coco',
@@ -7365,6 +7726,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2017-11-29',
     length: 105,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'La Nuit au musée 2',
@@ -7379,6 +7741,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2009-05-22',
     length: 105,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Star Trek',
@@ -7398,6 +7761,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2009-05-06',
     length: 127,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Ip Man',
@@ -7417,6 +7781,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2010-10-05',
     length: 106,
     genre: 'Action',
+    saga: '',
   },
 
   {
@@ -7437,6 +7802,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2008-12-03',
     length: 89,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Saw V',
@@ -7456,6 +7822,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2008-11-05',
     length: 92,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'High School Musical 3 : Nos années lycée',
@@ -7475,6 +7842,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2008-10-22',
     length: 111,
     genre: 'Musical',
+    saga: '',
   },
   {
     title: 'Indiana Jones et le Royaume du crâne de cristal',
@@ -7495,6 +7863,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2008-05-21',
     length: 123,
     genre: 'Aventure',
+    saga: '',
   },
   {
     title: 'Les Chroniques de Spiderwick',
@@ -7514,6 +7883,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2008-04-16',
     length: 96,
     genre: 'Fantastique',
+    saga: '',
   },
   {
     title: 'Sexy Dance 2',
@@ -7527,6 +7897,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2008-04-09',
     length: 98,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Astérix aux Jeux Olympiques',
@@ -7546,6 +7917,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2008-01-30',
     length: 117,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Benjamin Gates et le Livre des secrets',
@@ -7565,6 +7937,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2008-02-13',
     length: 124,
     genre: 'Aventure',
+    saga: '',
   },
   {
     title: "À la croisée des mondes : La Boussole d'or",
@@ -7584,6 +7957,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2007-12-05',
     length: 113,
     genre: 'Fantastique',
+    saga: '',
   },
   {
     title: 'Hitman',
@@ -7603,6 +7977,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2007-12-26',
     length: 92,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Saw IV',
@@ -7622,6 +7997,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2007-11-21',
     length: 90,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Funny Games U.S.',
@@ -7641,6 +8017,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2008-04-23',
     length: 111,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: '[REC]',
@@ -7660,6 +8037,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2008-04-23',
     length: 80,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'High School Musical 2',
@@ -7679,6 +8057,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2007-09-25',
     length: 104,
     genre: 'Musical',
+    saga: '',
   },
   {
     title: 'Boulevard de la mort',
@@ -7698,6 +8077,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2007-06-06',
     length: 96,
     genre: 'Action',
+    saga: '',
   },
   {
     title: "Pirates des Caraïbes : Jusqu'au bout du monde",
@@ -7717,6 +8097,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2007-05-23',
     length: 168,
     genre: 'Aventure',
+    saga: '',
   },
   {
     title: 'Paranoïak',
@@ -7730,6 +8111,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2007-08-22',
     length: 104,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Sunshine',
@@ -7749,6 +8131,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2007-04-11',
     length: 108,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'TMNT : Les Tortues Ninja',
@@ -7768,6 +8151,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2007-04-11',
     length: 86,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Hot Fuzz',
@@ -7787,6 +8171,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2007-07-18',
     length: 121,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Hannibal Lecter : Les Origines du mal',
@@ -7806,6 +8191,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2007-02-07',
     length: 115,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Eragon',
@@ -7825,6 +8211,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2006-12-20',
     length: 103,
     genre: 'Fantastique',
+    saga: '',
   },
   {
     title: 'Saw III',
@@ -7844,6 +8231,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2006-11-22',
     length: 109,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Les Infiltrés',
@@ -7857,6 +8245,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2006-11-29',
     length: 150,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: "Les Fils de l'homme",
@@ -7876,6 +8265,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2006-10-18',
     length: 109,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Admis à tous prix',
@@ -7895,6 +8285,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2006-06-07',
     length: 93,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Mission : Impossible III',
@@ -7914,6 +8305,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2006-05-03',
     length: 126,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Astérix et les Vikings',
@@ -7933,6 +8325,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2006-04-12',
     length: 78,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: "Inside Man : L'Homme de l'intérieur",
@@ -7952,6 +8345,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2006-04-12',
     length: 130,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'La Colline a des yeux',
@@ -7971,6 +8365,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2006-06-21',
     length: 107,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'High School Musical : Premiers pas sur scène',
@@ -7990,6 +8385,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2006-10-30',
     length: 93,
     genre: 'Musical',
+    saga: '',
   },
   {
     title: 'Little Miss Sunshine',
@@ -8009,6 +8405,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2006-09-06',
     length: 100,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Treize à la douzaine 2',
@@ -8028,6 +8425,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2006-03-01',
     length: 94,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title:
@@ -8049,6 +8447,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2005-12-21',
     length: 140,
     genre: 'Fantastique',
+    saga: '',
   },
   {
     title: 'Saw II',
@@ -8068,6 +8467,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2005-12-28',
     length: 93,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Les Noces funèbres',
@@ -8084,6 +8484,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2005-10-19',
     length: 76,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Le Secret de Brokeback Mountain',
@@ -8103,6 +8504,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2006-01-18',
     length: 134,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: '40 ans, toujours puceau',
@@ -8116,6 +8518,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2005-11-09',
     length: 117,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Kiss Kiss Bang Bang',
@@ -8135,6 +8538,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2005-09-14',
     length: 102,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Hooligans',
@@ -8154,6 +8558,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2006-05-31',
     length: 109,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Le Fils du Mask',
@@ -8173,6 +8578,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2005-03-23',
     length: 94,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Danny the Dog',
@@ -8192,6 +8598,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2005-02-02',
     length: 103,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Benjamin Gates et le Trésor des Templiers',
@@ -8208,6 +8615,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2004-12-22',
     length: 131,
     genre: 'Aventure',
+    saga: '',
   },
   {
     title: 'Les Dalton',
@@ -8227,6 +8635,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2004-12-08',
     length: 86,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Le Pôle Express',
@@ -8246,6 +8655,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2004-12-01',
     length: 99,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Gang de requins',
@@ -8265,6 +8675,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2004-10-13',
     length: 90,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Le Château ambulant',
@@ -8284,6 +8695,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2005-01-12',
     length: 119,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Collatéral',
@@ -8303,6 +8715,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2004-09-29',
     length: 120,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Les Fils du vent',
@@ -8322,6 +8735,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2004-10-27',
     length: 89,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'F.B.I. : Fausses blondes infiltrées',
@@ -8341,6 +8755,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2004-10-20',
     length: 109,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: '30 ans sinon rien',
@@ -8357,6 +8772,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2004-08-04',
     length: 98,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Deux Frères',
@@ -8376,6 +8792,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2004-04-07',
     length: 110,
     genre: 'Aventure',
+    saga: '',
   },
   {
     title: 'Les Choristes',
@@ -8389,6 +8806,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2004-03-17',
     length: 95,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: "L'Armée des morts",
@@ -8408,6 +8826,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2004-06-30',
     length: 100,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Street Dancers',
@@ -8427,6 +8846,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2004-06-02',
     length: 95,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Treize à la douzaine',
@@ -8446,6 +8866,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2004-04-14',
     length: 99,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Le Seigneur des anneaux : Le Retour du roi',
@@ -8466,6 +8887,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2003-12-17',
     length: 201,
     genre: 'Fantastique',
+    saga: '',
   },
   {
     title: "Master and Commander : De l'autre côté du monde",
@@ -8486,6 +8908,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2003-12-31',
     length: 138,
     genre: 'Aventure',
+    saga: '',
   },
   {
     title: 'Batman : La Mystérieuse Batwoman',
@@ -8505,6 +8928,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2003-10-21',
     length: 75,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Rock Academy',
@@ -8524,6 +8948,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2004-03-24',
     length: 108,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Lost in Translation',
@@ -8543,6 +8968,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2004-01-07',
     length: 102,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Mystic River',
@@ -8562,6 +8988,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2003-10-15',
     length: 137,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Identity',
@@ -8581,6 +9008,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2003-09-24',
     length: 87,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Comment se faire larguer en dix leçons',
@@ -8600,6 +9028,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2003-06-11',
     length: 115,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Le Seigneur des anneaux : Les Deux Tours',
@@ -8619,6 +9048,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2002-12-18',
     length: 179,
     genre: 'Fantastique',
+    saga: '',
   },
   {
     title: 'Gangs of New York',
@@ -8638,6 +9068,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2003-01-08',
     length: 170,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Dragon rouge',
@@ -8657,6 +9088,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2002-10-30',
     length: 124,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Spy Kids 2 : Espions en herbe',
@@ -8676,6 +9108,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2003-01-01',
     length: 100,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Hero',
@@ -8695,6 +9128,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2003-09-24',
     length: 99,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'La Légende de Tarzan et Jane',
@@ -8714,6 +9148,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2002-07-03',
     length: 72,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: "Le Seigneur des anneaux : La Communauté de l'anneau",
@@ -8734,6 +9169,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2001-12-19',
     length: 178,
     genre: 'Fantastique',
+    saga: '',
   },
   {
     title: 'Zoolander',
@@ -8753,6 +9189,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2002-01-02',
     length: 89,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Le Voyage de Chihiro',
@@ -8769,6 +9206,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2002-04-10',
     length: 124,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Hannibal',
@@ -8788,6 +9226,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2001-02-28',
     length: 131,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Le Pacte des loups',
@@ -8807,6 +9246,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2001-01-31',
     length: 142,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Donnie Darko',
@@ -8826,6 +9266,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2002-01-30',
     length: 113,
     genre: 'Fantastique',
+    saga: '',
   },
   {
     title: 'Seul au monde',
@@ -8839,6 +9280,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2001-01-17',
     length: 143,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Charlie et ses drôles de dames',
@@ -8858,6 +9300,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2000-11-22',
     length: 98,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Mission : Impossible 2',
@@ -8877,6 +9320,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2000-07-26',
     length: 126,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Erin Brockovich, seule contre tous',
@@ -8896,6 +9340,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2000-04-26',
     length: 131,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'La Plage',
@@ -8915,6 +9360,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2000-02-16',
     length: 119,
     genre: 'Aventure',
+    saga: '',
   },
   {
     title: 'American Psycho',
@@ -8934,6 +9380,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2000-06-07',
     length: 102,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Ghost Dog : La Voie du samouraï',
@@ -8953,6 +9400,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1999-10-06',
     length: 116,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Le Projet Blair Witch',
@@ -8972,6 +9420,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1999-07-28',
     length: 81,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Le Masque de Zorro',
@@ -8991,6 +9440,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1998-10-14',
     length: 136,
     genre: 'Aventure',
+    saga: '',
   },
   {
     title: 'American History X',
@@ -9010,6 +9460,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1999-03-03',
     length: 119,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'The Game',
@@ -9029,6 +9480,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1997-11-05',
     length: 129,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'George de la jungle',
@@ -9048,6 +9500,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1997-10-15',
     length: 92,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: "Les Ailes de l'enfer",
@@ -9067,6 +9520,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1997-08-20',
     length: 110,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Le Monde perdu : Jurassic Park',
@@ -9083,6 +9537,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1997-10-22',
     length: 129,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Le Cinquième Élément',
@@ -9096,6 +9551,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1997-05-07',
     length: 126,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'La Course au jouet',
@@ -9115,6 +9571,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1996-12-11',
     length: 90,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Mission : Impossible',
@@ -9134,6 +9591,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1996-10-23',
     length: 110,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Heat',
@@ -9153,6 +9611,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1996-02-21',
     length: 170,
     genre: 'Action',
+    saga: '',
   },
   {
     title: "Dragon Ball Z : L'Attaque du dragon",
@@ -9172,6 +9631,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1995-10-31',
     length: 51,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Lancelot, le premier chevalier',
@@ -9191,6 +9651,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1995-08-16',
     length: 134,
     genre: 'Aventure',
+    saga: '',
   },
   {
     title: 'Dragon Ball Z : Fusions',
@@ -9210,6 +9671,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1995-03-04',
     length: 51,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Astérix et les Indiens',
@@ -9229,6 +9691,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1995-04-05',
     length: 85,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Dragon Ball Z : Bio-Broly',
@@ -9248,6 +9711,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1994-07-09',
     length: 46,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'The Crow',
@@ -9267,6 +9731,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1994-08-03',
     length: 102,
     genre: 'Fantastique',
+    saga: '',
   },
   {
     title: 'Dragon Ball Z : Rivaux dangereux',
@@ -9286,6 +9751,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1994-03-12',
     length: 52,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Sister Act, acte 2',
@@ -9305,6 +9771,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1994-03-23',
     length: 107,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'La Liste de Schindler',
@@ -9324,6 +9791,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1994-03-02',
     length: 195,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Dragon Ball Z: Bojack Unbound',
@@ -9343,6 +9811,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1993-07-10',
     length: 51,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Les Tortues Ninja 3',
@@ -9362,6 +9831,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1993-07-21',
     length: 96,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Dragon Ball Z : Broly le super guerrier',
@@ -9382,6 +9852,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1993-03-06',
     length: 72,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: "Dragon Ball Z : L'Histoire de Trunks",
@@ -9401,6 +9872,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1995-03-22',
     length: 47,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Bodyguard',
@@ -9420,6 +9892,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1992-12-09',
     length: 129,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Dracula',
@@ -9439,6 +9912,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1993-01-13',
     length: 128,
     genre: 'Fantastique',
+    saga: '',
   },
   {
     title: 'Le Dernier des Mohicans',
@@ -9458,6 +9932,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1992-08-26',
     length: 112,
     genre: 'Aventure',
+    saga: '',
   },
   {
     title: "Dragon Ball Z : L'Offensive des cyborgs",
@@ -9477,6 +9952,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1992-07-11',
     length: 46,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Sister Act',
@@ -9496,6 +9972,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1992-11-25',
     length: 100,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Dragon Ball Z : Cent Mille Guerriers de métal',
@@ -9515,6 +9992,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1992-03-07',
     length: 44,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Dragon Ball Z : La Revanche de Cooler',
@@ -9534,6 +10012,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1994-12-01',
     length: 48,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Thelma et Louise',
@@ -9553,6 +10032,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1991-05-29',
     length: 130,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Les Tortues Ninja 2 : Les héros sont de retour',
@@ -9573,6 +10053,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1991-07-17',
     length: 88,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Dragon Ball Z : La Menace de Namek',
@@ -9592,6 +10073,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1994-09-01',
     length: 52,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Dragon Ball Z : Le Père de Sangoku',
@@ -9611,6 +10093,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1990-10-17',
     length: 48,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Dragon Ball Z: The Tree of Might',
@@ -9630,6 +10113,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1990-07-07',
     length: 61,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Les Tortues Ninja',
@@ -9649,6 +10133,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1990-12-12',
     length: 93,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Dragon Ball Z : Le Robot des glaces',
@@ -9668,6 +10153,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1994-10-17',
     length: 59,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Dragon Ball Z : À la poursuite de Garlic',
@@ -9687,6 +10173,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1989-07-15',
     length: 41,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'S.O.S. Fantômes 2',
@@ -9706,6 +10193,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1989-12-13',
     length: 108,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Indiana Jones et la Dernière Croisade',
@@ -9722,6 +10210,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1989-10-18',
     length: 127,
     genre: 'Aventure',
+    saga: '',
   },
   {
     title: 'Rain Man',
@@ -9741,6 +10230,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1989-03-15',
     length: 133,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Akira',
@@ -9760,6 +10250,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1991-05-08',
     length: 124,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Big',
@@ -9779,6 +10270,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1988-12-07',
     length: 104,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Willow',
@@ -9798,6 +10290,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1988-11-02',
     length: 125,
     genre: 'Fantastique',
+    saga: '',
   },
   {
     title: 'Mon voisin Totoro',
@@ -9814,6 +10307,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2002-08-28',
     length: 87,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Superman IV : Le Face-à-face',
@@ -9833,6 +10327,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1987-10-28',
     length: 90,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Full Metal Jacket',
@@ -9852,6 +10347,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1987-10-21',
     length: 116,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Evil Dead II',
@@ -9871,6 +10367,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1987-07-08',
     length: 85,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Stand by Me',
@@ -9890,6 +10387,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1987-02-25',
     length: 89,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'La Folle Journée de Ferris Bueller',
@@ -9909,6 +10407,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1986-12-17',
     length: 102,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Top Gun',
@@ -9928,6 +10427,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1986-09-17',
     length: 110,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Les Goonies',
@@ -9947,6 +10447,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1985-12-04',
     length: 114,
     genre: 'Aventure',
+    saga: '',
   },
   {
     title: 'Breakfast Club',
@@ -9966,6 +10467,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1985-09-11',
     length: 97,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'Amadeus',
@@ -9985,6 +10487,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1984-10-31',
     length: 160,
     genre: 'Drame',
+    saga: '',
   },
   {
     title: 'S.O.S. Fantômes',
@@ -10001,6 +10504,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1984-12-12',
     length: 107,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Indiana Jones et le Temple maudit',
@@ -10017,6 +10521,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1984-09-12',
     length: 118,
     genre: 'Aventure',
+    saga: '',
   },
   {
     title: "L'Histoire sans fin",
@@ -10036,6 +10541,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1984-11-21',
     length: 94,
     genre: 'Fantastique',
+    saga: '',
   },
   {
     title: 'Risky Business',
@@ -10055,6 +10561,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1984-03-21',
     length: 98,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: 'Conan le Barbare',
@@ -10074,6 +10581,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1982-04-07',
     length: 129,
     genre: 'Aventure',
+    saga: '',
   },
   {
     title: 'Evil Dead',
@@ -10093,6 +10601,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1983-08-24',
     length: 85,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: "Les Aventuriers de l'Arche perdue",
@@ -10112,6 +10621,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1981-09-16',
     length: 116,
     genre: 'Aventure',
+    saga: '',
   },
   {
     title: 'Les Dents de la mer, 2ᵉ partie',
@@ -10131,6 +10641,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1978-12-06',
     length: 116,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Les Dents de la mer',
@@ -10150,6 +10661,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1975-12-17',
     length: 124,
     genre: 'Horreur',
+    saga: '',
   },
   {
     title: 'Les Valseuses',
@@ -10169,6 +10681,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1974-01-09',
     length: 117,
     genre: 'Comédie',
+    saga: '',
   },
   {
     title: "Il était une fois dans l'Ouest",
@@ -10188,6 +10701,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1969-08-27',
     length: 165,
     genre: 'Western',
+    saga: '',
   },
   {
     title: 'Astérix et Cléopâtre',
@@ -10207,6 +10721,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1968-12-19',
     length: 72,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'Le Livre de la jungle',
@@ -10223,6 +10738,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1968-12-11',
     length: 78,
     genre: 'Animation',
+    saga: '',
   },
   {
     title: 'La Belle au bois dormant',
@@ -10239,5 +10755,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1959-12-16',
     length: 75,
     genre: 'Animation',
+    saga: '',
   },
 ];

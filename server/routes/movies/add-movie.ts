@@ -27,7 +27,7 @@ function formatBaseMovie(entity: any): string {
     entity.releaseDate || ''
   )}',\n    length: ${entity.length || 0},\n    genre: '${escapeString(
     entity.genre || ''
-  )}',\n  },`;
+  )}',\n    saga: '${escapeString(entity.saga || '')}',\n  },`;
 }
 
 function formatUserMovie(user: any): string {
@@ -101,6 +101,7 @@ router.post('/add', (req: any, res: any) => {
       releaseDate: normalizeString(entity.releaseDate, 'releaseDate') || '',
       length: normalizeNumber(entity.length, 'length') || 0,
       genre: normalizeString(entity.genre, 'genre') || '',
+      saga: normalizeString(entity.saga, 'saga') || '',
     };
 
     const userPayload = {

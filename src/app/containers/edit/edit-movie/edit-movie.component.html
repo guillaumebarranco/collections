@@ -50,6 +50,8 @@
     <p><strong>Réalisateur :</strong> {{ movie()?.director }}</p>
     @if (movie()?.genre) {
     <p><strong>Genre :</strong> {{ movie()?.genre }}</p>
+    } @if (movie()?.saga) {
+    <p><strong>Saga :</strong> {{ movie()?.saga }}</p>
     } @if (movie()?.releaseDate) {
     <p><strong>Date de sortie :</strong> {{ movie()?.releaseDate }}</p>
     } @if (movie()?.length) {
@@ -188,6 +190,17 @@
         [ngModel]="movieEntityForm()?.genre"
         (ngModelChange)="updateEntityField('genre', $event)"
         name="entityGenre"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entitySaga">Saga</label>
+      <input
+        id="entitySaga"
+        type="text"
+        [ngModel]="movieEntityForm()?.saga"
+        (ngModelChange)="updateEntityField('saga', $event)"
+        name="entitySaga"
       />
     </div>
 

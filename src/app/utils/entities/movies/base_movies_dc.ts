@@ -9,6 +9,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '2011-06-17',
     length: 114,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Batman',
@@ -18,6 +19,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '1989-06-23',
     length: 126,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Batman Returns',
@@ -27,6 +29,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '1992-06-19',
     length: 126,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Batman Forever',
@@ -36,6 +39,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '1995-06-16',
     length: 121,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Batman & Robin',
@@ -45,6 +49,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '1997-06-20',
     length: 125,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Batman Begins',
@@ -54,6 +59,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '2005-06-15',
     length: 140,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'The Dark Knight : Le Chevalier Noir',
@@ -63,6 +69,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '2008-07-18',
     length: 152,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'The Dark Knight Rises',
@@ -73,6 +80,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '2012-07-20',
     length: 164,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'The Batman',
@@ -86,6 +94,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '2022-03-04',
     length: 176,
     genre: 'Action',
+    saga: '',
   },
   {
     title: "Batman v Superman : L'Aube de la Justice",
@@ -95,6 +104,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '2016-03-25',
     length: 151,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Shazam!',
@@ -108,6 +118,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '2019-04-05',
     length: 132,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Aquaman',
@@ -121,6 +132,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '2018-12-21',
     length: 143,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Black Adam',
@@ -134,6 +146,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '2022-10-21',
     length: 125,
     genre: 'Action',
+    saga: '',
   },
   {
     title: "Zack Snyder's Justice League",
@@ -148,6 +161,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '2021-03-18',
     length: 242,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Suicide Squad',
@@ -157,6 +171,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '2016-08-05',
     length: 123,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Man of Steel',
@@ -166,6 +181,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '2013-06-14',
     length: 143,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Superman',
@@ -175,6 +191,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '2025-07-11',
     length: 150,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Watchmen : Les Gardiens',
@@ -184,6 +201,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '2009-03-06',
     length: 162,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Catwoman',
@@ -193,6 +211,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '2004-07-23',
     length: 104,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Wonder Woman',
@@ -202,6 +221,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '2017-06-02',
     length: 141,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Wonder Woman 1984',
@@ -215,6 +235,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '2020-12-25',
     length: 151,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'The Flash',
@@ -228,6 +249,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '2023-06-16',
     length: 144,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Birds of Prey',
@@ -242,5 +264,6 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '2020-02-07',
     length: 109,
     genre: 'Action',
+    saga: '',
   },
 ];

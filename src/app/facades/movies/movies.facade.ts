@@ -42,6 +42,7 @@ async function getAllMoviesData(movies: UserMovie[]): Promise<Movie[]> {
       genre: definitiveMatchingMovie?.genre || '',
       seenAtCinema: movie.seenAtCinema,
       owned: movie.owned,
+      saga: definitiveMatchingMovie?.saga || '',
     };
   });
 }

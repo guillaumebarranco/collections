@@ -13,6 +13,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2021-03-05',
     length: 109,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Love and Monsters',
@@ -26,6 +27,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2020-10-16',
     length: 109,
     genre: 'Adventure',
+    saga: '',
   },
   {
     title: 'Tenet',
@@ -40,6 +42,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2020-09-03',
     length: 150,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Ava',
@@ -53,6 +56,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2020-07-02',
     length: 96,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Mulan',
@@ -66,6 +70,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2020-09-04',
     length: 115,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Palm Springs',
@@ -79,6 +84,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2020-07-10',
     length: 90,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Guns Akimbo',
@@ -92,6 +98,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2020-02-28',
     length: 97,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Joker',
@@ -105,6 +112,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2019-10-04',
     length: 122,
     genre: 'Crime',
+    saga: '',
   },
   {
     title: 'Someone, Somewhere',
@@ -118,6 +126,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2019-09-25',
     length: 110,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Escape Plan: The Extractors',
@@ -132,6 +141,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2019-07-02',
     length: 97,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Aladdin',
@@ -145,6 +155,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2019-05-24',
     length: 128,
     genre: 'Fantasy',
+    saga: '',
   },
   {
     title: 'Alita: Battle Angel',
@@ -158,6 +169,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2019-02-14',
     length: 122,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Le chant du loup',
@@ -171,6 +183,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2019-02-20',
     length: 116,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Bird Box',
@@ -184,6 +197,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2018-12-21',
     length: 124,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'A Star Is Born',
@@ -197,6 +211,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2018-10-05',
     length: 136,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Escape Plan 2: Hades',
@@ -211,6 +226,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2018-06-29',
     length: 93,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Ready Player One',
@@ -224,6 +240,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2018-03-29',
     length: 140,
     genre: 'Science Fiction',
+    saga: '',
   },
 
   {
@@ -235,6 +252,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1982-06-11',
     length: 115,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'La soupe aux choux',
@@ -244,6 +262,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1981-12-16',
     length: 100,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'The Shining',
@@ -253,6 +272,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1980-05-23',
     length: 146,
     genre: 'Horror',
+    saga: '',
   },
   {
     title: "L'aile ou la cuisse",
@@ -263,6 +283,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1976-10-27',
     length: 104,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Taxi Driver',
@@ -272,6 +293,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1976-02-08',
     length: 114,
     genre: 'Crime',
+    saga: '',
   },
   {
     title: "L'exorciste",
@@ -281,6 +303,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1973-12-26',
     length: 122,
     genre: 'Horror',
+    saga: '',
   },
   {
     title: 'Les aventures de Rabbi Jacob',
@@ -291,6 +314,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1973-10-17',
     length: 95,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'La Folie des grandeurs',
@@ -301,6 +325,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1971-12-08',
     length: 95,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Oscar',
@@ -310,6 +335,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1967-10-11',
     length: 85,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Fantomas',
@@ -319,6 +345,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1964-11-04',
     length: 105,
     genre: 'Adventure',
+    saga: '',
   },
   {
     title: 'Le Gendarme de Saint-Tropez',
@@ -329,6 +356,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1964-09-09',
     length: 95,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Les oiseaux',
@@ -338,6 +366,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1963-03-28',
     length: 119,
     genre: 'Horror',
+    saga: '',
   },
   {
     title: 'Psychose',
@@ -347,6 +376,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1960-06-16',
     length: 109,
     genre: 'Horror',
+    saga: '',
   },
   {
     title: '12 hommes en colère',
@@ -356,6 +386,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1957-04-10',
     length: 96,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Citizen Kane',
@@ -365,6 +396,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1941-05-01',
     length: 119,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Les temps modernes',
@@ -374,6 +406,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1936-02-05',
     length: 87,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Babylon A.D',
@@ -384,6 +417,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2008-02-05',
     length: 101,
     genre: 'Action',
+    saga: '',
   },
   {
     title: "Maman je m'occupe des méchants",
@@ -393,6 +427,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1997-02-05',
     length: 102,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Yamakasi',
@@ -402,6 +437,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2001-02-05',
     length: 90,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Jackie chan dans le bronx',
@@ -412,6 +448,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1995-02-05',
     length: 106,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Minority Report',
@@ -421,6 +458,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2002-06-21',
     length: 145,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Calculs Meurtriers',
@@ -430,6 +468,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2002-04-19',
     length: 120,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Panic Room',
@@ -439,6 +478,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2002-03-29',
     length: 112,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Rollerball',
@@ -448,6 +488,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2002-02-08',
     length: 98,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Dommage Collateral',
@@ -457,6 +498,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2002-02-08',
     length: 108,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Astérix & Obélix : Mission Cléopâtre',
@@ -467,6 +509,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2002-01-30',
     length: 107,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: "L'Avocat du Diable",
@@ -477,6 +520,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1997-10-17',
     length: 144,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Le Cinquième Élément',
@@ -486,6 +530,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1997-05-09',
     length: 126,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'American Beauty',
@@ -495,6 +540,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1999-09-15',
     length: 122,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Sixième Sens',
@@ -504,6 +550,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1999-08-06',
     length: 107,
     genre: 'Thriller',
+    saga: '',
   },
 
   {
@@ -514,6 +561,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1999-06-30',
     length: 106,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Sex intentions',
@@ -523,6 +571,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1999-03-05',
     length: 97,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Armageddon',
@@ -532,6 +581,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1998-07-01',
     length: 151,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'The Truman Show',
@@ -541,6 +591,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1998-06-05',
     length: 103,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Godzilla',
@@ -550,6 +601,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1998-05-20',
     length: 139,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Mon voisin le tueur',
@@ -560,6 +612,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2000-02-18',
     length: 98,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'La Ligne Verte',
@@ -569,6 +622,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1999-12-10',
     length: 189,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'À la Recherche du Bonheur',
@@ -579,6 +633,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2006-12-15',
     length: 117,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Hors de Prix',
@@ -588,6 +643,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2006-12-27',
     length: 104,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: '300',
@@ -597,6 +653,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2007-03-09',
     length: 117,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Blood Diamond',
@@ -606,6 +663,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2006-12-08',
     length: 143,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Le Prestige',
@@ -615,6 +673,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2006-10-20',
     length: 130,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Les Infiltrés',
@@ -624,6 +683,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2006-10-06',
     length: 151,
     genre: 'Crime',
+    saga: '',
   },
   {
     title: 'Admis à tout prix',
@@ -633,6 +693,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2006-08-18',
     length: 93,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Nos Jours heureux',
@@ -652,6 +713,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2006-07-19',
     length: 95,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: "Le Diable s'Habille en Prada",
@@ -662,6 +724,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2006-06-30',
     length: 109,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Babel',
@@ -671,6 +734,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2006-11-10',
     length: 143,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: "De l'autre côté du lit",
@@ -680,6 +744,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2006-06-02',
     length: 106,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Da Vinci Code',
@@ -689,6 +754,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2006-05-19',
     length: 149,
     genre: 'Enquête',
+    saga: '',
   },
   {
     title: 'Camping',
@@ -698,6 +764,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2006-04-26',
     length: 111,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Volver',
@@ -707,6 +774,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2006-03-17',
     length: 121,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Incontrôlable',
@@ -716,6 +784,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2006-02-01',
     length: 90,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'V pour Vendetta',
@@ -725,6 +794,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2006-03-17',
     length: 132,
     genre: 'Action',
+    saga: '',
   },
   {
     title:
@@ -735,6 +805,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2005-12-09',
     length: 143,
     genre: 'Fantasy',
+    saga: '',
   },
   {
     title: 'King Kong',
@@ -744,6 +815,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2025-02-17',
     length: 187,
     genre: 'Adventure',
+    saga: '',
   },
   {
     title: 'Nanny McPhee',
@@ -753,6 +825,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2005-10-21',
     length: 97,
     genre: 'Fantasy',
+    saga: '',
   },
   {
     title: 'Lord of War',
@@ -762,6 +835,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2005-09-16',
     length: 122,
     genre: 'Crime',
+    saga: '',
   },
   {
     title: 'Serenity',
@@ -771,6 +845,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2005-09-30',
     length: 119,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: "L'honneur du dragon",
@@ -780,6 +855,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2005-08-11',
     length: 111,
     genre: 'Action',
+    saga: '',
   },
   {
     title: '40 Ans, Toujours Puceau',
@@ -790,6 +866,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2005-08-19',
     length: 116,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Sous haute pression',
@@ -799,6 +876,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2005-08-19',
     length: 85,
     genre: 'Thriller',
+    saga: '',
   },
 
   {
@@ -809,6 +887,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2005-07-15',
     length: 119,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Charlie et la Chocolaterie',
@@ -819,6 +898,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2005-07-15',
     length: 115,
     genre: 'Fantasy',
+    saga: '',
   },
   {
     title: 'Mr. & Mrs. Smith',
@@ -828,6 +908,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2005-06-10',
     length: 120,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'The Descent',
@@ -837,6 +918,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2005-07-08',
     length: 99,
     genre: 'Horror',
+    saga: '',
   },
   {
     title: 'Baby Sittor',
@@ -846,6 +928,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2005-03-04',
     length: 95,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Million Dollar Baby',
@@ -855,6 +938,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2004-12-15',
     length: 132,
     genre: 'Drama',
+    saga: '',
   },
 
   {
@@ -865,6 +949,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1994-11-18',
     length: 110,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'The Mask',
@@ -874,6 +959,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1994-07-29',
     length: 101,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'True Lies',
@@ -883,6 +969,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1994-07-15',
     length: 141,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Forrest Gump',
@@ -892,6 +979,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1994-07-06',
     length: 142,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Speed',
@@ -901,6 +989,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1994-06-10',
     length: 116,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Pulp Fiction',
@@ -910,6 +999,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1994-10-14',
     length: 154,
     genre: 'Crime',
+    saga: '',
   },
   {
     title: 'La cité de la peur',
@@ -920,6 +1010,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1994-03-16',
     length: 85,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Mrs. Doubtfire',
@@ -929,6 +1020,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1993-11-24',
     length: 125,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Le Dîner de Cons',
@@ -938,6 +1030,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1998-04-15',
     length: 80,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Code mercury',
@@ -947,6 +1040,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1998-04-03',
     length: 111,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'The Big Lebowski',
@@ -956,6 +1050,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1998-03-06',
     length: 117,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Will Hunting',
@@ -965,6 +1060,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1997-12-05',
     length: 126,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: "Je Sais ce que Vous Avez Fait l'Été Dernier",
@@ -975,5 +1071,6 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1997-10-17',
     length: 101,
     genre: 'Horror',
+    saga: '',
   },
 ];

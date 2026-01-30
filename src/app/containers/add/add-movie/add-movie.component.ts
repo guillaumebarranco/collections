@@ -12,6 +12,7 @@ type AddMovieEntityForm = {
   releaseDate: string;
   length: number;
   genre: string;
+  saga: string;
 };
 
 type AddMovieUserForm = {
@@ -52,6 +53,7 @@ export class AddMovieComponent {
     releaseDate: '',
     length: 0,
     genre: '',
+    saga: '',
   });
 
   userForm = signal<AddMovieUserForm>({

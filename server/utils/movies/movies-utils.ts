@@ -232,6 +232,7 @@ function parseBaseMoviesFullFromFile(content: string): any[] {
           releaseDate: parseStringField(objectText, 'releaseDate') || '',
           length: parseNumberField(objectText, 'length') ?? 0,
           genre: parseStringField(objectText, 'genre') || '',
+          saga: parseStringField(objectText, 'saga') || '',
         });
       }
     }
@@ -468,6 +469,7 @@ function updateBaseMovieInFile(content: string, payload: any) {
           updated = upsertField(updated, 'releaseDate', payload.releaseDate);
           updated = upsertField(updated, 'length', payload.length);
           updated = upsertField(updated, 'genre', payload.genre);
+          updated = upsertField(updated, 'saga', payload.saga);
 
           return (
             content.slice(0, objectStart) +

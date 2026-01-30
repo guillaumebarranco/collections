@@ -87,6 +87,17 @@
           name="genre"
         />
       </div>
+
+      <div class="form-row">
+        <label for="saga">Saga</label>
+        <input
+          id="saga"
+          type="text"
+          [ngModel]="entityForm().saga"
+          (ngModelChange)="updateEntityField('saga', $event)"
+          name="saga"
+        />
+      </div>
     </section>
 
     <section class="form-section">

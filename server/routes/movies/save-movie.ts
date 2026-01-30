@@ -83,6 +83,7 @@ router.post('/', (req: any, res: any) => {
         releaseDate: normalizeString(entityPayload.releaseDate, 'releaseDate'),
         length: normalizeNumber(entityPayload.length, 'length'),
         genre: normalizeString(entityPayload.genre, 'genre'),
+        saga: normalizeString(entityPayload.saga, 'saga'),
       });
     }
 

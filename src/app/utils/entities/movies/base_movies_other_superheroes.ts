@@ -9,6 +9,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2016-02-12',
     length: 108,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Deadpool 2',
@@ -22,6 +23,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2018-05-18',
     length: 119,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Daredevil',
@@ -31,6 +33,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2003-02-14',
     length: 103,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'X-Men',
@@ -40,6 +43,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2000-07-14',
     length: 104,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'X-men 2',
@@ -49,6 +53,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2003-05-02',
     length: 134,
     genre: 'Action',
+    saga: '',
   },
   {
     title: "X-Men : L'Affrontement Final",
@@ -59,6 +64,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2006-05-26',
     length: 104,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'X-Men Origins : Wolverine',
@@ -69,6 +75,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2009-05-01',
     length: 107,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'The Wolverine',
@@ -78,6 +85,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2013-07-26',
     length: 126,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Logan',
@@ -87,6 +95,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2017-03-03',
     length: 137,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'X-Men : Le Commencement',
@@ -96,6 +105,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2011-06-03',
     length: 132,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'X-Men : Days of Future Past',
@@ -106,6 +116,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2014-05-23',
     length: 132,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'X-Men : Apocalypse',
@@ -115,6 +126,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2016-05-27',
     length: 144,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'X-Men :Dark Phoenix',
@@ -128,6 +140,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2019-06-07',
     length: 114,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Venom',
@@ -141,6 +154,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2018-10-05',
     length: 112,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Venom : Let There Be Carnage',
@@ -155,6 +169,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2021-10-01',
     length: 97,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Spider-Man',
@@ -164,6 +179,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2002-05-03',
     length: 121,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Spider-Man 2',
@@ -173,6 +189,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2004-06-30',
     length: 127,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Spider-Man 3',
@@ -182,6 +199,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2007-05-04',
     length: 139,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'The Amazing Spider-Man',
@@ -192,6 +210,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2012-07-03',
     length: 136,
     genre: 'Action',
+    saga: '',
   },
   {
     title: "The Amazing Spider-Man : Le Destin d'un Héros",
@@ -201,6 +220,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2014-05-02',
     length: 142,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Kick-Ass',
@@ -210,6 +230,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2010-04-16',
     length: 117,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Kick-Ass 2',
@@ -219,6 +240,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2013-08-16',
     length: 103,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Hancock',
@@ -228,6 +250,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2008-07-02',
     length: 92,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Les 4 Fantastiques',
@@ -237,6 +260,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2005-07-08',
     length: 106,
     genre: 'Action',
+    saga: '',
   },
   {
     title: "Les 4 Fantastiques et le Surfeur d'Argent",
@@ -247,6 +271,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2007-06-15',
     length: 92,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Ghost Rider',
@@ -256,6 +281,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2007-02-16',
     length: 114,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Sky High',
@@ -265,6 +291,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2005-07-29',
     length: 100,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Hulk',
@@ -274,6 +301,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2003-06-20',
     length: 138,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'The Punisher',
@@ -283,6 +311,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2004-04-16',
     length: 124,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Les 4 Fantastiques',
@@ -292,5 +321,6 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2015-08-07',
     length: 100,
     genre: 'Action',
+    saga: '',
   },
 ];

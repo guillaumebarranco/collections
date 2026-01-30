@@ -31,6 +31,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2012-05-04',
     length: 143,
     genre: 'Action',
+    saga: '',
   },
   {
     title: "Avengers : L'Ère d'Ultron",
@@ -41,6 +42,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2015-05-01',
     length: 141,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Avengers: Infinity War',
@@ -55,6 +57,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2018-04-27',
     length: 149,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Avengers: Endgame',
@@ -68,6 +71,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2019-04-26',
     length: 181,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Captain America : First Avenger',
@@ -82,6 +86,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2011-07-22',
     length: 124,
     genre: 'Action',
+    saga: '',
   },
   {
     title: "Captain America : Le Soldat de l'Hiver",
@@ -91,6 +96,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2014-04-04',
     length: 136,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Captain America : Civil War',
@@ -101,6 +107,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2016-05-06',
     length: 147,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Captain America: Brave New World',
@@ -114,6 +121,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2025-02-14',
     length: 118,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Iron Man',
@@ -127,6 +135,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2008-05-02',
     length: 126,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Iron Man 2',
@@ -140,6 +149,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2010-05-07',
     length: 124,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Iron Man 3',
@@ -149,6 +159,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2013-05-03',
     length: 130,
     genre: 'Action',
+    saga: '',
   },
   {
     title: "L'Incroyable Hulk",
@@ -162,6 +173,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2008-06-13',
     length: 112,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Thor',
@@ -181,6 +193,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2011-05-06',
     length: 115,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Thor: The Dark World',
@@ -191,6 +204,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2013-11-08',
     length: 112,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Thor: Ragnarok',
@@ -200,6 +214,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2017-11-03',
     length: 130,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Thor : Love & Thunder',
@@ -214,6 +229,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2022-07-08',
     length: 119,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Captain Marvel',
@@ -227,6 +243,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2019-03-08',
     length: 123,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Les Marvels',
@@ -240,6 +257,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2023-11-10',
     length: 105,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Shang-Chi et la Légende des Dix Anneaux',
@@ -254,6 +272,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2021-09-03',
     length: 132,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Doctor Strange',
@@ -263,6 +282,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2016-11-04',
     length: 115,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Doctor Strange dans le Multivers de la Folie',
@@ -277,6 +297,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2022-05-06',
     length: 126,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Black Panther',
@@ -290,6 +311,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2018-02-16',
     length: 134,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Black Panther : Wakanda pour Toujours',
@@ -304,6 +326,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2022-11-11',
     length: 161,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Les Gardiens de la Galaxie',
@@ -314,6 +337,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2014-08-01',
     length: 121,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Les Gardiens de la Galaxie Vol. 2',
@@ -323,6 +347,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2017-05-05',
     length: 136,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Les Gardiens de la Galaxie Vol. 3',
@@ -337,6 +362,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2023-05-05',
     length: 150,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Ant-Man',
@@ -346,6 +372,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2015-07-17',
     length: 117,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Ant-Man et la Guêpe',
@@ -360,6 +387,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2018-07-06',
     length: 118,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Ant-Man et la Guêpe : Quantumania',
@@ -374,6 +402,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2023-02-17',
     length: 125,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Spider-Man: Homecoming',
@@ -384,6 +413,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2017-07-07',
     length: 133,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Spider-Man: Far From Home',
@@ -398,6 +428,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2019-07-02',
     length: 129,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Spider-Man : No Way Home',
@@ -412,6 +443,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2021-12-17',
     length: 148,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Black Widow',
@@ -425,6 +457,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2021-07-09',
     length: 134,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Les Éternels',
@@ -438,6 +471,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2021-11-05',
     length: 156,
     genre: 'Action',
+    saga: '',
   },
   {
     title: 'Deadpool et Wolverine',
@@ -454,5 +488,6 @@ export const baseMoviesMcu: BaseMovie[] = [
     releaseDate: '2024-07-26',
     length: 127,
     genre: 'Action',
+    saga: '',
   },
 ];

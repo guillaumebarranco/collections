@@ -19,6 +19,7 @@ export const baseMoviesApi: BaseMovie[] = [
     releaseDate: '1947-05-23',
     length: 102,
     genre: 'Drame',
+    saga: '',
   },
 
   {
@@ -39,6 +40,7 @@ export const baseMoviesApi: BaseMovie[] = [
     releaseDate: '2026-01-16',
     length: 115,
     genre: 'Thriller',
+    saga: '',
   },
 
   {
@@ -59,6 +61,7 @@ export const baseMoviesApi: BaseMovie[] = [
     releaseDate: '2020-07-29',
     length: 120,
     genre: 'Catastrophe',
+    saga: '',
   },
 
   {
@@ -76,6 +79,7 @@ export const baseMoviesApi: BaseMovie[] = [
     releaseDate: '2025-10-22',
     length: 89,
     genre: 'Animation',
+    saga: '',
   },
 
   {
@@ -99,6 +103,7 @@ export const baseMoviesApi: BaseMovie[] = [
     releaseDate: '2002-08-30',
     length: 130,
     genre: 'Drame',
+    saga: '',
   },
 
   {
@@ -116,6 +121,7 @@ export const baseMoviesApi: BaseMovie[] = [
     releaseDate: '2026-01-28',
     length: 126,
     genre: 'Thriller',
+    saga: '',
   },
 
   {
@@ -136,5 +142,6 @@ export const baseMoviesApi: BaseMovie[] = [
     releaseDate: '2025-06-18',
     length: 115,
     genre: 'Horreur',
+    saga: '',
   },
 ];

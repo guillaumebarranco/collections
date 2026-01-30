@@ -14,6 +14,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2019-01-30',
     length: 118,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'The Princess Switch',
@@ -28,6 +29,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2018-11-16',
     length: 101,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'Petits coups montés',
@@ -41,6 +43,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2018-06-15',
     length: 105,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'The life list',
@@ -54,6 +57,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2024-07-18',
     length: 104,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'Champagne Problems',
@@ -70,6 +74,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2025-11-19',
     length: 104,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'People We Meet on Vacation',
@@ -86,6 +91,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2026-01-09',
     length: 118,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'Tout le Bleu du Ciel',
@@ -100,6 +106,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2022-09-08',
     length: 127,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Nos coeurs meurtris',
@@ -113,6 +120,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2022-07-29',
     length: 122,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'Au plaisir de se faire trahir',
@@ -126,6 +134,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2023-10-25',
     length: 104,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: "La Probabilité statistique de l'amour au premier regard",
@@ -139,6 +148,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2023-09-15',
     length: 91,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'Ce sera toi',
@@ -152,6 +162,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2023-02-10',
     length: 103,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'Hello, goodbye and everything in between',
@@ -166,6 +177,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2022-07-06',
     length: 91,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'Un Accord Parfait',
@@ -179,6 +191,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2022-05-19',
     length: 101,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'The In-between',
@@ -192,6 +205,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2022-02-11',
     length: 116,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'À Travers Ma Fenêtre',
@@ -205,6 +219,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2022-02-04',
     length: 113,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'Love Hard',
@@ -218,6 +233,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2021-11-05',
     length: 104,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: "L'Amour complexe",
@@ -231,6 +247,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2021-07-29',
     length: 101,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'La Belle et la Bête',
@@ -241,6 +258,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2017-03-17',
     length: 129,
     genre: 'Fantasy',
+    saga: '',
   },
   {
     title: 'Un choix',
@@ -250,6 +268,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2016-02-05',
     length: 111,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: "L'agence",
@@ -260,6 +279,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2011-03-04',
     length: 106,
     genre: 'Science Fiction',
+    saga: '',
   },
   {
     title: 'Un jour',
@@ -269,6 +289,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2011-08-19',
     length: 107,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'Sex Friends',
@@ -279,6 +300,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2011-01-21',
     length: 108,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'Love & autres drogues',
@@ -288,6 +310,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2010-11-24',
     length: 112,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'Sexy Dance',
@@ -297,6 +320,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2006-08-11',
     length: 104,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Sexy Dance 2',
@@ -306,6 +330,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2008-02-14',
     length: 98,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Sexy Dance 3D',
@@ -315,6 +340,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2010-08-06',
     length: 107,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: "L'Arnacœur",
@@ -324,6 +350,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2010-03-17',
     length: 105,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'Remember Me',
@@ -333,6 +360,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2010-03-12',
     length: 113,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: "Valentine's Day",
@@ -342,6 +370,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2010-02-12',
     length: 125,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'La proposition',
@@ -351,6 +380,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2009-06-19',
     length: 108,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: '17 ans encore',
@@ -360,6 +390,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2009-04-17',
     length: 102,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: '(500) Jours Ensemble',
@@ -369,6 +400,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2009-07-17',
     length: 95,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'Jackpot',
@@ -379,6 +411,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2008-05-09',
     length: 99,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Juno',
@@ -388,6 +421,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2007-12-25',
     length: 96,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Orgueil et Préjugés',
@@ -397,6 +431,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2005-09-16',
     length: 129,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'Match Point',
@@ -406,6 +441,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2005-05-12',
     length: 124,
     genre: 'Thriller',
+    saga: '',
   },
   {
     title: 'Hitch : Expert en Séduction',
@@ -415,6 +451,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2005-02-11',
     length: 118,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'First Daughter',
@@ -424,6 +461,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2004-09-24',
     length: 106,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'Eternal Sunshine of the Spotless Mind',
@@ -433,6 +471,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2004-03-19',
     length: 108,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'The Girl Next Door',
@@ -443,6 +482,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2004-04-09',
     length: 109,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Amour & Amnésie',
@@ -452,6 +492,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2004-02-13',
     length: 99,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Love Actually',
@@ -461,6 +502,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2003-11-07',
     length: 135,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: "Le temps d'un automne",
@@ -470,6 +512,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2002-01-25',
     length: 101,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'Pearl Harbor',
@@ -479,6 +522,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2001-05-25',
     length: 183,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Ce que Veulent les Femmes',
@@ -488,6 +532,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2000-12-15',
     length: 127,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Coup de foudre à Notting Hill',
@@ -497,6 +542,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '1999-05-28',
     length: 124,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'Rencontre avec Joe Black',
@@ -506,6 +552,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '1998-11-13',
     length: 178,
     genre: 'Drama',
+    saga: '',
   },
   {
     title: 'Pretty Woman',
@@ -515,6 +562,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '1990-03-23',
     length: 119,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: "L'Amour puissance mille",
@@ -528,6 +576,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2021-02-11',
     length: 105,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'La La Land',
@@ -537,6 +586,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2016-12-09',
     length: 128,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: "L'amour ouf",
@@ -547,6 +597,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2024-01-31',
     length: 95,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'The Princess Switch : Switched Again',
@@ -561,6 +612,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2020-11-19',
     length: 97,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'Holidate',
@@ -574,6 +626,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2020-10-28',
     length: 104,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'Rich in Love',
@@ -587,6 +640,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2020-06-19',
     length: 104,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'Isi & Ossi',
@@ -600,6 +654,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2020-02-14',
     length: 113,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'Last Christmas',
@@ -613,6 +668,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2019-11-08',
     length: 103,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: '40 jours et 40 nuits',
@@ -622,6 +678,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2002-03-01',
     length: 96,
     genre: 'Comedy',
+    saga: '',
   },
   {
     title: 'Coup de foudre à Manhattan',
@@ -638,6 +695,7 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2002-12-13',
     length: 105,
     genre: 'Romance',
+    saga: '',
   },
   {
     title: 'Love again: un peu, beaucoup, passionnément',
@@ -657,5 +715,6 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2023-06-07',
     length: 105,
     genre: 'Romance',
+    saga: '',
   },
 ];
