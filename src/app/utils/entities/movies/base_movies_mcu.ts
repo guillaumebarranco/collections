@@ -4,7 +4,29 @@ export const baseMoviesMcu: BaseMovie[] = [
   {
     title: 'Avengers',
     director: 'Joss Whedon',
-    actors: [{ name: 'Robert Downey Jr.' }],
+    actors: [
+      {
+        name: 'Robert Downey Jr.',
+      },
+      {
+        name: 'Chris Evans',
+      },
+      {
+        name: 'Scarlett Johansson',
+      },
+      {
+        name: 'Chris Hemsworth',
+      },
+      {
+        name: 'Jeremy Renner',
+      },
+      {
+        name: 'Samuel L. Jackson',
+      },
+      {
+        name: 'Tom Hiddleston',
+      }
+    ],
     coverUrl: '/movies_pictures/avengers.jpg',
     releaseDate: '2012-05-04',
     length: 143,
@@ -96,7 +118,11 @@ export const baseMoviesMcu: BaseMovie[] = [
   {
     title: 'Iron Man',
     director: 'Jon Favreau',
-    actors: [{ name: 'Robert Downey Jr.' }],
+    actors: [
+      {
+        name: 'Robert Downey Jr.',
+      }
+    ],
     coverUrl: '/movies_pictures/50825-iron-man-0-150-0-225-crop.jpg',
     releaseDate: '2008-05-02',
     length: 126,
@@ -105,7 +131,11 @@ export const baseMoviesMcu: BaseMovie[] = [
   {
     title: 'Iron Man 2',
     director: 'Jon Favreau',
-    actors: [{ name: 'Robert Downey Jr.' }],
+    actors: [
+      {
+        name: 'Robert Downey Jr.',
+      }
+    ],
     coverUrl: '/movies_pictures/46511-iron-man-2-0-150-0-225-crop.jpg',
     releaseDate: '2010-05-07',
     length: 124,
@@ -123,7 +153,11 @@ export const baseMoviesMcu: BaseMovie[] = [
   {
     title: "L'Incroyable Hulk",
     director: 'Louis Leterrier',
-    actors: [{ name: 'Edward Norton' }],
+    actors: [
+      {
+        name: 'Edward Norton',
+      }
+    ],
     coverUrl: '/movies_pictures/50827-the-incredible-hulk-0-150-0-225-crop.jpg',
     releaseDate: '2008-06-13',
     length: 112,
