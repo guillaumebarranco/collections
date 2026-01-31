@@ -565,9 +565,9 @@ export const guillaumeBooks: UserBook[] = [
   {
     title: 'Les piliers de la terre',
     author: 'Ken Follett',
-    readDate: '',
-    rating: 0,
-    readTimes: 2.75,
+    readDate: '2026-01-31',
+    rating: 2.75,
+    readTimes: 1,
     owned: true,
   },
 ];
