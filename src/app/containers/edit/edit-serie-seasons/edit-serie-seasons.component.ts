@@ -43,17 +43,20 @@ export class EditSerieSeasonsComponent {
 
   updateSeasonField(
     seasonNumber: number,
-    field: 'seasonRating' | 'seasonTimesWatched',
+    field: 'seasonRating' | 'seasonTimesWatched' | 'lastViewedDate',
     value: string | number
   ) {
-    const nextValue = Number(value);
-    const normalizedValue = Number.isNaN(nextValue) ? 0 : nextValue;
     this.seasons.set(
       this.seasons().map((season) =>
         season.seasonNumber === seasonNumber
           ? {
               ...season,
-              [field]: normalizedValue,
+              [field]:
+                field === 'lastViewedDate'
+                  ? String(value)
+                  : Number.isNaN(Number(value))
+                    ? 0
+                    : Number(value),
             }
           : season
       )
@@ -105,13 +108,17 @@ export class EditSerieSeasonsComponent {
 
   private buildSeasons(serie?: Serie | null): UserSerieSeason[] {
     if (serie?.seasons && serie.seasons.length > 0) {
-      return serie.seasons;
+      return serie.seasons.map((season) => ({
+        ...season,
+        lastViewedDate: season.lastViewedDate || '',
+      }));
     }
     const total = serie?.seasonsData?.length ?? 0;
     return Array.from({ length: total }, (_, index) => ({
       seasonNumber: index + 1,
       seasonRating: 0,
       seasonTimesWatched: 0,
+      lastViewedDate: '',
     }));
   }
 }

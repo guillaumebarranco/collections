@@ -29,6 +29,7 @@ type AddSerieUserForm = {
     seasonNumber: number;
     seasonRating: number;
     seasonTimesWatched: number;
+    lastViewedDate: string;
   }[];
 };
 
@@ -95,7 +96,12 @@ export class AddSerieComponent {
       ...this.userForm(),
       seasons: [
         ...this.userForm().seasons,
-        { seasonNumber: nextNumber, seasonRating: 0, seasonTimesWatched: 0 },
+        {
+          seasonNumber: nextNumber,
+          seasonRating: 0,
+          seasonTimesWatched: 0,
+          lastViewedDate: '',
+        },
       ],
     });
   }
@@ -145,14 +151,22 @@ export class AddSerieComponent {
 
   updateUserSeasonField(
     index: number,
-    field: 'seasonRating' | 'seasonTimesWatched',
+    field: 'seasonRating' | 'seasonTimesWatched' | 'lastViewedDate',
     value: string | number
   ) {
     const current = this.userForm();
-    const asNumber = Number(value);
-    const normalized = Number.isNaN(asNumber) ? 0 : asNumber;
     const seasons = current.seasons.map((season, i) =>
-      i === index ? { ...season, [field]: normalized } : season
+      i === index
+        ? {
+            ...season,
+            [field]:
+              field === 'lastViewedDate'
+                ? String(value)
+                : Number.isNaN(Number(value))
+                  ? 0
+                  : Number(value),
+          }
+        : season
     );
     this.userForm.set({
       ...current,

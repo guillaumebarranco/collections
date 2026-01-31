@@ -49,6 +49,7 @@ export class SelectSeriesRatingComponent
       seasonNumber: index + 1,
       seasonRating: 0,
       seasonTimesWatched: 0,
+      lastViewedDate: new Date().toISOString(),
     }));
   }
 
@@ -66,11 +67,7 @@ export class SelectSeriesRatingComponent
   }
 
   // Mettre Ã  jour le rating d'une saison
-  updateSeasonRating(
-    serie: Serie,
-    seasonNumber: number,
-    rating: number
-  ): void {
+  updateSeasonRating(serie: Serie, seasonNumber: number, rating: number): void {
     const key = this.getSerieKey(serie);
     const seasons = this.getEditableSeasons(serie).map((season) =>
       season.seasonNumber === seasonNumber
@@ -118,14 +115,14 @@ export class SelectSeriesRatingComponent
       const payload = await response.json().catch(() => ({}));
       if (!response.ok) {
         console.warn('series:batch-rating:error', payload);
-        alert("La mise à jour des notes a échoué.");
+        alert('La mise à jour des notes a échoué.');
         return;
       }
 
       this.navigateToEntityList('series');
     } catch (error) {
       console.warn('series:batch-rating:error', error);
-      alert("La mise à jour des notes a échoué.");
+      alert('La mise à jour des notes a échoué.');
     } finally {
       this.isSaving.set(false);
     }

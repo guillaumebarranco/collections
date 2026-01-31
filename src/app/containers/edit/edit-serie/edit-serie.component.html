@@ -109,6 +109,21 @@
               name="seasonTimesWatched-{{ season.seasonNumber }}"
             />
           </label>
+          <label>
+            Dernier visionnage
+            <input
+              type="date"
+              [ngModel]="season.lastViewedDate"
+              (ngModelChange)="
+                updateSeasonField(
+                  season.seasonNumber,
+                  'lastViewedDate',
+                  $event
+                )
+              "
+              name="seasonLastViewedDate-{{ season.seasonNumber }}"
+            />
+          </label>
         </div>
         }
       </div>

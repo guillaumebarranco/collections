@@ -58,6 +58,7 @@ function formatUserSerie(user: any): string {
         seasonNumber: ${season.seasonNumber},
         seasonRating: ${season.seasonRating},
         seasonTimesWatched: ${season.seasonTimesWatched},
+        lastViewedDate: '${escapeString(season.lastViewedDate || '')}',
       }`
         )
       : Array.from(
@@ -66,6 +67,7 @@ function formatUserSerie(user: any): string {
         seasonNumber: ${index + 1},
         seasonRating: 0,
         seasonTimesWatched: 0,
+        lastViewedDate: '',
       }`
         );
 
@@ -178,6 +180,8 @@ router.post('/add', (req: any, res: any) => {
           seasonTimesWatched:
             normalizeNumber(season.seasonTimesWatched, 'seasonTimesWatched') ||
             0,
+          lastViewedDate:
+            normalizeString(season.lastViewedDate, 'lastViewedDate') || '',
         };
       }
     );

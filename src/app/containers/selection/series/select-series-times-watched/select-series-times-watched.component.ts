@@ -49,6 +49,7 @@ export class SelectSeriesTimesWatchedComponent
       seasonNumber: index + 1,
       seasonRating: 0,
       seasonTimesWatched: 0,
+      lastViewedDate: new Date().toISOString(),
     }));
   }
 
@@ -133,14 +134,14 @@ export class SelectSeriesTimesWatchedComponent
       const payload = await response.json().catch(() => ({}));
       if (!response.ok) {
         console.warn('series:batch-times-watched:error', payload);
-        alert("La mise à jour des visionnages a échoué.");
+        alert('La mise à jour des visionnages a échoué.');
         return;
       }
 
       this.navigateToEntityList('series');
     } catch (error) {
       console.warn('series:batch-times-watched:error', error);
-      alert("La mise à jour des visionnages a échoué.");
+      alert('La mise à jour des visionnages a échoué.');
     } finally {
       this.isSaving.set(false);
     }

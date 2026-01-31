@@ -8,6 +8,7 @@ export const guillaumeWatchListSeries: UserSerie[] = [
         seasonNumber: 1,
         seasonRating: 0,
         seasonTimesWatched: 0,
+        lastViewedDate: '',
       },
     ],
     owned: false,
@@ -21,13 +22,16 @@ export const guillaumeWatchListSeries: UserSerie[] = [
         seasonNumber: 1,
         seasonRating: 0,
         seasonTimesWatched: 0,
+        lastViewedDate: '',
       },
       {
         seasonNumber: 2,
         seasonRating: 0,
         seasonTimesWatched: 0,
+        lastViewedDate: '',
       },
     ],
     owned: false,
   },
 ];
+

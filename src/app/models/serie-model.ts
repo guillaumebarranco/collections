@@ -24,6 +24,7 @@ export interface UserSerieSeason {
   seasonNumber: number;
   seasonRating: number;
   seasonTimesWatched: number;
+  lastViewedDate: string;
 }
 
 export interface UserSerie extends MandatorySerieData {

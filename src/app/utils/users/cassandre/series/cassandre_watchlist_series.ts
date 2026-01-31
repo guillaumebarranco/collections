@@ -9,6 +9,7 @@ export const cassandreWatchListSeries: UserSerie[] = [
         seasonNumber: 1,
         seasonRating: 0,
         seasonTimesWatched: 0,
+        lastViewedDate: '',
       }
     ],
     owned: false,
@@ -21,6 +22,7 @@ export const cassandreWatchListSeries: UserSerie[] = [
         seasonNumber: 1,
         seasonRating: 0,
         seasonTimesWatched: 0,
+        lastViewedDate: '',
       }
     ],
     owned: false,
@@ -33,8 +35,10 @@ export const cassandreWatchListSeries: UserSerie[] = [
         seasonNumber: 1,
         seasonRating: 0,
         seasonTimesWatched: 0,
+        lastViewedDate: '',
       }
     ],
     owned: false,
   },
 ];
+
