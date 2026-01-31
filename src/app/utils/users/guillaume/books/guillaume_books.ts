@@ -269,7 +269,7 @@ export const guillaumeBooks: UserBook[] = [
     title: 'La tête sur les épaules',
     author: 'Henri Troyat',
     readDate: '2024-02-25',
-    rating: 3,
+    rating: 3.5,
     readTimes: 1,
     owned: true,
   },
@@ -561,5 +561,13 @@ export const guillaumeBooks: UserBook[] = [
     rating: 5,
     readTimes: 1,
     owned: false,
+  },
+  {
+    title: 'Les piliers de la terre',
+    author: 'Ken Follett',
+    readDate: '',
+    rating: 0,
+    readTimes: 2.75,
+    owned: true,
   },
 ];

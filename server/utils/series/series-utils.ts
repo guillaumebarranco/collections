@@ -482,11 +482,11 @@ function formatSeasons(seasons: any[]) {
 function replaceSeasonsField(objectText: string, seasons: any[]) {
   if (!Array.isArray(seasons)) return objectText;
   const regex = /seasons\s*:\s*\[[\s\S]*?\]/;
-  const replacement = formatSeasons(seasons);
+  const replacement = `${formatSeasons(seasons)},`;
   if (regex.test(objectText)) {
     return objectText.replace(regex, replacement);
   }
-  return objectText.replace(/\{\s*/, (match) => `${match}${replacement},\n  `);
+  return objectText.replace(/\{\s*/, (match) => `${match}${replacement}\n  `);
 }
 
 function updateSerieInFile(content: string, payload: any) {

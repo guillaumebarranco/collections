@@ -50,14 +50,6 @@ export const guillaumeReadlistBooks: UserBook[] = [
     owned: true,
   },
   {
-    title: 'Les piliers de la terre',
-    author: 'Ken Follett',
-    readDate: '',
-    rating: 0,
-    readTimes: 0,
-    owned: true,
-  },
-  {
     title: 'Le Horla',
     author: 'Guy de Maupassant',
     readDate: '',

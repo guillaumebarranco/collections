@@ -241,10 +241,23 @@ export class DashboardEntitiesStatsComponent implements OnInit, AfterViewInit {
       }
     });
 
+    // Sagas les plus vues
+    const sagasCount: { [key: string]: number } = {};
+    uniqueMovies.forEach((movie) => {
+      if (movie.saga && movie.saga !== '') {
+        const timesWatched = Math.max(0, movie.timesWatched ?? 0);
+        if (timesWatched > 0) {
+          sagasCount[movie.saga] =
+            (sagasCount[movie.saga] || 0) + timesWatched;
+        }
+      }
+    });
+
     return {
       topActors: this.sortAndLimit(actorsCount, 10),
       topDirectors: this.sortAndLimit(directorsCount, 10),
       topGenres: this.sortAndLimit(genresCount, 10),
+      topSagas: this.sortAndLimit(sagasCount, 10),
     };
   }
 
@@ -505,6 +518,9 @@ export class DashboardEntitiesStatsComponent implements OnInit, AfterViewInit {
       topPlatforms: 'Plateformes les plus représentées',
       topArtists: 'Artistes les plus écoutés',
     };
+    if (key === 'topSagas' && this.selectedEntity() === 'movies') {
+      return 'Sagas les plus vues';
+    }
     return labels[key] || key;
   }
 
