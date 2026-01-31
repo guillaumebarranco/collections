@@ -85,7 +85,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
       {
         name: 'Chie Nakamura',
-      },
+      }
     ],
     coverUrl: '/series_pictures/naruto-anime-320x471.jpg',
     releaseDate: '2002-10-03',
@@ -121,7 +121,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 6,
         nbEpisodes: 5,
         totalLength: 150,
-      },
+      }
     ],
   },
   {
@@ -130,7 +130,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     actors: [
       {
         name: 'Inconnu',
-      },
+      }
     ],
     coverUrl:
       '/series_pictures/MV5BNTk3MDA1ZjAtNTRhYS00YzNiLTgwOGEtYWRmYTQ3NjA0NTAwXkEyXkFqcGc@._V1_.jpg',
@@ -247,7 +247,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 22,
         nbEpisodes: 21,
         totalLength: 420,
-      },
+      }
     ],
   },
   {
@@ -256,7 +256,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     actors: [
       {
         name: 'Inconnu',
-      },
+      }
     ],
     coverUrl: '/series_pictures/81lob744SgL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '1999-10-20',
@@ -372,7 +372,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 22,
         nbEpisodes: 5,
         totalLength: 100,
-      },
+      }
     ],
   },
   {
@@ -576,7 +576,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     actors: [
       {
         name: 'Inconnu',
-      },
+      }
     ],
     coverUrl:
       '/series_pictures/334f00b53cf3ef848ea7048b25711bc98e8236ce1685a096990c80d0965835ea.png',
@@ -638,7 +638,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 11,
         nbEpisodes: 5,
         totalLength: 100,
-      },
+      }
     ],
   },
   {
@@ -1877,7 +1877,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     actors: [
       {
         name: 'Inconnu',
-      },
+      }
     ],
     coverUrl: '/series_pictures/mon_ami_marsupilami.jpg',
     releaseDate: '1993-09-26',
@@ -1898,7 +1898,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 3,
         nbEpisodes: 34,
         totalLength: 680,
-      },
+      }
     ],
   },
   {
@@ -2603,8 +2603,8 @@ export const baseSeriesAnimees: BaseSerie[] = [
         name: 'Rie Kugimiya',
       },
       {
-        name: "Shin'ichirô Miki",
-      },
+        name: 'Shin\'ichirô Miki',
+      }
     ],
     coverUrl:
       'https://static.wikia.nocookie.net/fma/images/e/e9/Fmab-poster.png/revision/latest?cb=20131124145205',
@@ -2621,7 +2621,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 2,
         nbEpisodes: 4,
         totalLength: 80,
-      },
+      }
     ],
   },
 
@@ -2637,7 +2637,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
       {
         name: 'Atsushi Tamura',
-      },
+      }
     ],
     coverUrl:
       'https://m.media-amazon.com/images/M/MV5BMTBjMDU1ODktYTA1MC00NzdlLTlmMTgtZmQyNzBlMThkY2E3XkEyXkFqcGc@._V1_.jpg',
@@ -2659,7 +2659,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 3,
         nbEpisodes: 46,
         totalLength: 1095,
-      },
+      }
     ],
   },
   {
@@ -3658,9 +3658,9 @@ export const baseSeriesAnimees: BaseSerie[] = [
     actors: [
       {
         name: 'Inconnu',
-      },
+      }
     ],
-    coverUrl: '/series_pictures/1033002.jpg',
+    coverUrl: 'https://bdi.dlpdomain.com/serie/visuel/BDA_9407/1-M480x680.jpg',
     releaseDate: '2009-01-01',
     endDate: '',
     genre: 'Anime',
@@ -3709,7 +3709,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 9,
         nbEpisodes: 51,
         totalLength: 1224,
-      },
+      }
     ],
   },
   {
@@ -4528,9 +4528,9 @@ export const baseSeriesAnimees: BaseSerie[] = [
     actors: [
       {
         name: 'Inconnu',
-      },
+      }
     ],
-    coverUrl: '/series_pictures/1033002.jpg',
+    coverUrl: 'https://static.wikia.nocookie.net/wikidoublage/images/4/4d/Fruits_Basket.jpg/revision/latest?cb=20240928202716&path-prefix=fr',
     releaseDate: '',
     endDate: '',
     genre: 'Anime',
@@ -4549,7 +4549,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 3,
         nbEpisodes: 13,
         totalLength: 312,
-      },
+      }
     ],
   },
   {
@@ -4598,9 +4598,9 @@ export const baseSeriesAnimees: BaseSerie[] = [
     actors: [
       {
         name: 'Inconnu',
-      },
+      }
     ],
-    coverUrl: '/series_pictures/1033002.jpg',
+    coverUrl: 'https://m.media-amazon.com/images/M/MV5BNjI1MGNjZTUtMzVjMi00OTk0LTk0MGItNDUyZjZlYmQ4MzFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
     releaseDate: '',
     endDate: '',
     genre: 'Anime',
@@ -4609,7 +4609,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 1,
         nbEpisodes: 12,
         totalLength: 288,
-      },
+      }
     ],
   },
   {
@@ -4818,9 +4818,9 @@ export const baseSeriesAnimees: BaseSerie[] = [
     actors: [
       {
         name: 'Inconnu',
-      },
+      }
     ],
-    coverUrl: '/series_pictures/1033002.jpg',
+    coverUrl: 'https://fr.web.img6.acsta.net/pictures/20/02/28/17/10/2538673.jpg',
     releaseDate: '',
     endDate: '',
     genre: 'Anime',
@@ -4829,7 +4829,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 1,
         nbEpisodes: 12,
         totalLength: 288,
-      },
+      }
     ],
   },
   {

@@ -845,7 +845,7 @@ export const baseSeries: BaseSerie[] = [
       },
       {
         name: 'David Zayas',
-      },
+      }
     ],
     coverUrl: '/series_pictures/81JKXT1j0OL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '2006-10-01',
@@ -891,7 +891,7 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 8,
         nbEpisodes: 12,
         totalLength: 720,
-      },
+      }
     ],
   },
   {

@@ -38,7 +38,7 @@ export const baseSeriesApi: BaseSerie[] = [
       },
       {
         name: 'Walton Goggins',
-      },
+      }
     ],
     coverUrl:
       'https://fr.web.img6.acsta.net/pictures/24/03/07/15/16/4242537.jpg',
@@ -55,7 +55,7 @@ export const baseSeriesApi: BaseSerie[] = [
         seasonNumber: 2,
         nbEpisodes: 8,
         totalLength: 440,
-      },
+      }
     ],
   },
 
@@ -120,6 +120,30 @@ export const baseSeriesApi: BaseSerie[] = [
         nbEpisodes: 0,
         totalLength: 0,
       },
+    ],
+  },
+
+  {
+    title: 'Wonder Man',
+    director: 'Destin Daniel Cretton, Andrew Guest',
+    actors: [
+      {
+        name: 'Yahya Abdul-Mateen II',
+      },
+      {
+        name: 'Ben Kingsley',
+      }
+    ],
+    coverUrl: 'https://m.media-amazon.com/images/M/MV5BMDk5YzQ3NjQtNzY3MC00NzM3LWE4NzYtZGRkNDQxYjdiZDkyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2026-01-28',
+    endDate: '',
+    genre: 'Super-héro',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 8,
+        totalLength: 267,
+      }
     ],
   },
 ];
