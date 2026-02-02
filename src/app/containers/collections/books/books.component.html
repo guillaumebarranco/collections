@@ -153,7 +153,9 @@
       <div class="book-card">
         <app-book
           [book]="book"
+          [quizzs]="quizzs()"
           (editRequested)="openEditBookDialog(book)"
+          (openQuizz)="openQuizzModal($event)"
         ></app-book>
       </div>
       }
@@ -166,10 +168,18 @@
     <div class="book-card">
       <app-book
         [book]="book"
+        [quizzs]="quizzs()"
         (editRequested)="openEditBookDialog(book)"
+        (openQuizz)="openQuizzModal($event)"
       ></app-book>
     </div>
     }
   </div>
   }
 </div>
+
+<app-quizz-modal
+  [isOpen]="isQuizzModalOpen()"
+  [quizzs]="activeQuizzs()"
+  (close)="closeQuizzModal()"
+></app-quizz-modal>

@@ -1,4 +1,11 @@
-import { Component, computed, inject, signal, OnInit, effect } from '@angular/core';
+import {
+  Component,
+  computed,
+  inject,
+  signal,
+  OnInit,
+  effect,
+} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ManwhaComponent } from '../../../components/manwha/manwha.component';
@@ -34,9 +41,12 @@ import {
   StatItem,
   StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
+import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditManwhaComponent } from '../../edit/edit-manwha/edit-manwha.component';
 import { LocalStorageService } from '../../../services/local-storage.service';
+import { Quizz } from '../../../models/quizz-model';
+import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 @Component({
   selector: 'app-manwhas',
   imports: [
@@ -49,6 +59,7 @@ import { LocalStorageService } from '../../../services/local-storage.service';
     SortDropdownComponent,
     StatsDisplayComponent,
     MatDialogModule,
+    QuizzModalComponent,
   ],
   templateUrl: './manwhas.component.html',
   styleUrls: ['./manwhas.component.scss'],
@@ -62,6 +73,9 @@ export class ManwhasComponent implements OnInit {
   selectedSort = signal<string>('rating');
   selectedView = signal<ManwhaView>('read');
   searchTerm = signal<string>('');
+  isQuizzModalOpen = signal<boolean>(false);
+  activeQuizzs = signal<Quizz[]>([]);
+  quizzs = signal<Quizz[]>([]);
 
   sortOptions = signal<SortOption[]>(manwhasSortOptions);
 
@@ -77,7 +91,10 @@ export class ManwhasComponent implements OnInit {
         view: this.selectedView(),
         sort: this.selectedSort(),
       };
-      this.localStorageService.setItem(this.viewPreferencesStorageKey, preferences);
+      this.localStorageService.setItem(
+        this.viewPreferencesStorageKey,
+        preferences
+      );
     });
   }
 
@@ -122,10 +139,11 @@ export class ManwhasComponent implements OnInit {
   );
 
   stats = computed<StatItem[]>(() => {
-    console.log(this.allManwhas());
     const totalChapters = this.calculateTotalChapters();
     const totalPages = this.calculateTotalManwhasPages();
-    const totalChaptersRead = getTotalManwhasChaptersRead(this.filteredManwhas());
+    const totalChaptersRead = getTotalManwhasChaptersRead(
+      this.filteredManwhas()
+    );
     const totalPagesRead = getTotalManwhasPages(this.filteredManwhas());
     const estimatedReadingTime = getEstimatedManwhaReadingTime(
       this.filteredManwhas()
@@ -194,7 +212,19 @@ export class ManwhasComponent implements OnInit {
     this.searchTerm.set(value);
   }
 
+  openQuizzModal(quizzs: Quizz[]) {
+    if (!quizzs || quizzs.length === 0) return;
+    this.activeQuizzs.set(quizzs);
+    this.isQuizzModalOpen.set(true);
+  }
+
+  closeQuizzModal() {
+    this.isQuizzModalOpen.set(false);
+    this.activeQuizzs.set([]);
+  }
+
   async ngOnInit() {
+    void this.refreshQuizzs();
     this.loadViewPreferencesFromStorage();
     await this.refreshManwhas();
   }
@@ -301,6 +331,11 @@ export class ManwhasComponent implements OnInit {
     ]);
     this.manwhasList.set(manwhas);
     this.readlistManwhasList.set(readlist);
+  }
+
+  private async refreshQuizzs() {
+    const quizzs = await getAllQuizzs();
+    this.quizzs.set(quizzs);
   }
 
   private getActiveUserId(): string {

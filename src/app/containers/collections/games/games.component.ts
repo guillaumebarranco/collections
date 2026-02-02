@@ -16,7 +16,9 @@ import {
   StatItem,
   StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
+import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
 import { Game } from '../../../models/game-model';
+import { Quizz } from '../../../models/quizz-model';
 import {
   formatTimeStats,
   ItemWithGameLength,
@@ -34,6 +36,7 @@ import {
   getAllGamelistGames,
 } from '../../../facades/games/games.facade';
 import { LocalStorageService } from '../../../services/local-storage.service';
+import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 
 import {
   getTotalTimeToFinishGames,
@@ -53,6 +56,7 @@ import {
     ViewToggleComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
+    QuizzModalComponent,
   ],
   templateUrl: './games.component.html',
   styleUrls: ['./games.component.scss'],
@@ -66,6 +70,9 @@ export class GamesComponent implements OnInit {
   selectedSort = signal<string>('rating');
   selectedView = signal<GameView>('played');
   searchTerm = signal<string>('');
+  isQuizzModalOpen = signal<boolean>(false);
+  activeQuizzs = signal<Quizz[]>([]);
+  quizzs = signal<Quizz[]>([]);
 
   sortOptions = signal<SortOption[]>(gamesSortOptions);
 
@@ -175,6 +182,7 @@ export class GamesComponent implements OnInit {
   });
 
   ngOnInit() {
+    void this.refreshQuizzs();
     this.loadViewPreferencesFromStorage();
     void this.refreshGames();
   }
@@ -187,6 +195,11 @@ export class GamesComponent implements OnInit {
     ]);
     this.gamesList.set(games);
     this.gamelistGamesList.set(gamelist);
+  }
+
+  private async refreshQuizzs() {
+    const quizzs = await getAllQuizzs();
+    this.quizzs.set(quizzs);
   }
 
   private getActiveUserId(): string {
@@ -204,6 +217,17 @@ export class GamesComponent implements OnInit {
 
   onSearchChange(value: string) {
     this.searchTerm.set(value);
+  }
+
+  openQuizzModal(quizzs: Quizz[]) {
+    if (!quizzs || quizzs.length === 0) return;
+    this.activeQuizzs.set(quizzs);
+    this.isQuizzModalOpen.set(true);
+  }
+
+  closeQuizzModal() {
+    this.isQuizzModalOpen.set(false);
+    this.activeQuizzs.set([]);
   }
 
   private loadViewPreferencesFromStorage(): void {

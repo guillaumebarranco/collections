@@ -11,10 +11,12 @@ import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { Game } from '../../models/game-model';
+import { Quizz, QuizzEntityType } from '../../models/quizz-model';
 import { EditGameComponent } from '../../containers/edit/edit-game/edit-game.component';
 import { EntityCardComponent } from '../entity-card/entity-card.component';
 import { AuthService } from '../../core/auth.service';
 import { getGameTimePlayed } from '../../utils/games.utils';
+import { matchesQuizzEntityTitle } from '../../utils/quizzs/quizzs.utils';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -37,7 +39,9 @@ export class GameComponent {
   @Input() game!: Game;
   @Input() list: Game[] = [];
   @Input() index = -1;
+  @Input() quizzs: Quizz[] = [];
   @Output() gameUpdated = new EventEmitter<void>();
+  @Output() openQuizz = new EventEmitter<Quizz[]>();
 
   readonly canEdit = computed(() => {
     const directId = this.activatedRoute.snapshot.params['id'];
@@ -95,5 +99,19 @@ export class GameComponent {
       averageTimeToHundredPercent: game.averageTimeToHundredPercent,
       platined: game.platined,
     });
+  }
+
+  getEntityQuizzs(): Quizz[] {
+    return this.quizzs.filter(
+      (quizz) =>
+        quizz.entityType === QuizzEntityType.GAME &&
+        matchesQuizzEntityTitle(this.game.title, quizz.entityTitle)
+    );
+  }
+
+  openQuizzModal(): void {
+    const entityQuizzs = this.getEntityQuizzs();
+    if (entityQuizzs.length === 0) return;
+    this.openQuizz.emit(entityQuizzs);
   }
 }

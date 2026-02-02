@@ -16,7 +16,9 @@ import {
   StatItem,
   StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
+import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
 import { Comic } from '../../../models/comic-model';
+import { Quizz } from '../../../models/quizz-model';
 import {
   ComicView,
   comicViewOptions,
@@ -36,6 +38,7 @@ import {
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditComicComponent } from '../../edit/edit-comic/edit-comic.component';
 import { LocalStorageService } from '../../../services/local-storage.service';
+import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 
 @Component({
   selector: 'app-comics',
@@ -50,6 +53,7 @@ import { LocalStorageService } from '../../../services/local-storage.service';
     SortDropdownComponent,
     StatsDisplayComponent,
     MatDialogModule,
+    QuizzModalComponent,
   ],
   templateUrl: './comics.component.html',
   styleUrls: ['./comics.component.scss'],
@@ -64,6 +68,9 @@ export class ComicsComponent implements OnInit {
   selectedSort = signal<string>('rating');
   selectedView = signal<ComicView>('read');
   searchTerm = signal<string>('');
+  isQuizzModalOpen = signal<boolean>(false);
+  activeQuizzs = signal<Quizz[]>([]);
+  quizzs = signal<Quizz[]>([]);
 
   sortOptions = signal<SortOption[]>(comicsSortOptions);
 
@@ -186,8 +193,20 @@ export class ComicsComponent implements OnInit {
     this.searchTerm.set(value);
   }
 
+  openQuizzModal(quizzs: Quizz[]) {
+    if (!quizzs || quizzs.length === 0) return;
+    this.activeQuizzs.set(quizzs);
+    this.isQuizzModalOpen.set(true);
+  }
+
+  closeQuizzModal() {
+    this.isQuizzModalOpen.set(false);
+    this.activeQuizzs.set([]);
+  }
+
   async ngOnInit() {
     this.loadViewPreferencesFromStorage();
+    void this.refreshQuizzs();
     await this.refreshComics();
   }
 
@@ -267,6 +286,11 @@ export class ComicsComponent implements OnInit {
     ]);
     this.comicsList.set(comics);
     this.readlistComicsList.set(readlist);
+  }
+
+  private async refreshQuizzs() {
+    const quizzs = await getAllQuizzs();
+    this.quizzs.set(quizzs);
   }
 
   openEditComicDialog(comic: Comic): void {

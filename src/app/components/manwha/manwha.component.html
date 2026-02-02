@@ -9,6 +9,16 @@
   >
     &#9998;
   </button>
+  } @if (getEntityQuizzs().length > 0) {
+  <button
+    entity-quizz
+    type="button"
+    class="quizz-button"
+    title="Voir les quizz"
+    (click)="openQuizzModal()"
+  >
+    🏆
+  </button>
   }
   <img
     entity-cover

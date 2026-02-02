@@ -10,10 +10,12 @@ import {
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { Movie } from '../../models/movie-model';
+import { Quizz, QuizzEntityType } from '../../models/quizz-model';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditMovieComponent } from '../../containers/edit/edit-movie/edit-movie.component';
 import { EntityCardComponent } from '../entity-card/entity-card.component';
 import { AuthService } from '../../core/auth.service';
+import { matchesQuizzEntityTitle } from '../../utils/quizzs/quizzs.utils';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -36,7 +38,9 @@ export class MovieComponent {
   @Input() movie!: Movie;
   @Input() list: Movie[] = [];
   @Input() index = -1;
+  @Input() quizzs: Quizz[] = [];
   @Output() movieUpdated = new EventEmitter<void>();
+  @Output() openQuizz = new EventEmitter<Quizz[]>();
 
   readonly canEdit = computed(() => {
     const directId = this.activatedRoute.snapshot.params['id'];
@@ -81,6 +85,20 @@ export class MovieComponent {
       }
     }
     return stars;
+  }
+
+  getEntityQuizzs(): Quizz[] {
+    return this.quizzs.filter(
+      (quizz) =>
+        quizz.entityType === QuizzEntityType.MOVIE &&
+        matchesQuizzEntityTitle(this.movie.title, quizz.entityTitle)
+    );
+  }
+
+  openQuizzModal(): void {
+    const entityQuizzs = this.getEntityQuizzs();
+    if (entityQuizzs.length === 0) return;
+    this.openQuizz.emit(entityQuizzs);
   }
 
 }

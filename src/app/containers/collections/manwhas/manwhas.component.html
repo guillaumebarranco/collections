@@ -112,9 +112,17 @@
     <div class="manwha-card">
       <app-manwha
         [manwha]="manwha"
+        [quizzs]="quizzs()"
         (editRequested)="openEditManwhaDialog(manwha)"
+        (openQuizz)="openQuizzModal($event)"
       ></app-manwha>
     </div>
     }
   </div>
 </div>
+
+<app-quizz-modal
+  [isOpen]="isQuizzModalOpen()"
+  [quizzs]="activeQuizzs()"
+  (close)="closeQuizzModal()"
+></app-quizz-modal>

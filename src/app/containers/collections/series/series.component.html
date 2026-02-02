@@ -108,9 +108,17 @@
         [serie]="serie"
         [list]="sortedSeries()"
         [index]="i"
+        [quizzs]="quizzs()"
         (serieUpdated)="refreshSeries()"
+        (openQuizz)="openQuizzModal($event)"
       ></app-serie>
     </div>
     }
   </div>
 </div>
+
+<app-quizz-modal
+  [isOpen]="isQuizzModalOpen()"
+  [quizzs]="activeQuizzs()"
+  (close)="closeQuizzModal()"
+></app-quizz-modal>

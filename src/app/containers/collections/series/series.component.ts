@@ -23,7 +23,9 @@ import {
   StatItem,
   StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
+import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
 import { Serie } from '../../../models/serie-model';
+import { Quizz } from '../../../models/quizz-model';
 import {
   SerieView,
   getSortedSeries,
@@ -41,6 +43,7 @@ import {
   getAllWatchlistSeries,
 } from '../../../facades/series/series.facade';
 import { LocalStorageService } from '../../../services/local-storage.service';
+import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 
 @Component({
   selector: 'app-series',
@@ -53,6 +56,7 @@ import { LocalStorageService } from '../../../services/local-storage.service';
     ViewToggleComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
+    QuizzModalComponent,
   ],
   templateUrl: './series.component.html',
   styleUrls: ['./series.component.scss'],
@@ -66,6 +70,9 @@ export class SeriesComponent implements OnInit {
   selectedSort = signal<string>('rating');
   selectedView = signal<SerieView>('finished');
   searchTerm = signal<string>('');
+  isQuizzModalOpen = signal<boolean>(false);
+  activeQuizzs = signal<Quizz[]>([]);
+  quizzs = signal<Quizz[]>([]);
 
   sortOptions = signal<SortOption[]>(seriesSortOptions);
 
@@ -129,8 +136,6 @@ export class SeriesComponent implements OnInit {
   stats = computed<StatItem[]>(() => {
     const seriesToUse = this.filteredSeries();
 
-    console.log('seriesToUse', seriesToUse);
-
     const totalDurationMinutes = seriesToUse.reduce(
       (sum, serie) => sum + getSerieTotalLengthMinutes(serie),
       0
@@ -183,6 +188,7 @@ export class SeriesComponent implements OnInit {
   }
 
   ngOnInit() {
+    void this.refreshQuizzs();
     this.loadViewPreferencesFromStorage();
     void this.refreshSeries();
   }
@@ -195,6 +201,11 @@ export class SeriesComponent implements OnInit {
     ]);
     this.seriesList.set(series);
     this.watchingSeriesList.set(watchlist);
+  }
+
+  private async refreshQuizzs() {
+    const quizzs = await getAllQuizzs();
+    this.quizzs.set(quizzs);
   }
 
   private getActiveUserId(): string {
@@ -212,6 +223,17 @@ export class SeriesComponent implements OnInit {
 
   onSearchChange(value: string) {
     this.searchTerm.set(value);
+  }
+
+  openQuizzModal(quizzs: Quizz[]) {
+    if (!quizzs || quizzs.length === 0) return;
+    this.activeQuizzs.set(quizzs);
+    this.isQuizzModalOpen.set(true);
+  }
+
+  closeQuizzModal() {
+    this.isQuizzModalOpen.set(false);
+    this.activeQuizzs.set([]);
   }
 
   getSelectSeriesRoute(): string {

@@ -9,6 +9,12 @@ app-edit-entity {
   height: 50px;
 }
 
+.header-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 12px;
+}
+
 app-edit-entity.edit-entity--light {
   .edit-entity {
     max-width: 720px;

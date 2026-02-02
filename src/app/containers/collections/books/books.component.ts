@@ -23,7 +23,9 @@ import {
   StatItem,
   StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
+import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
 import { Book } from '../../../models/book-model';
+import { Quizz } from '../../../models/quizz-model';
 import {
   BookView,
   bookViewOptions,
@@ -48,6 +50,7 @@ import {
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditBookComponent } from '../../edit/edit-book/edit-book.component';
 import { LocalStorageService } from '../../../services/local-storage.service';
+import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 
 @Component({
   selector: 'app-books',
@@ -61,6 +64,7 @@ import { LocalStorageService } from '../../../services/local-storage.service';
     SortDropdownComponent,
     StatsDisplayComponent,
     MatDialogModule,
+    QuizzModalComponent,
   ],
   templateUrl: './books.component.html',
   styleUrls: ['./books.component.scss'],
@@ -71,6 +75,9 @@ export class BooksComponent implements OnInit {
   selectedGroupBy = signal<string>('none');
   selectedView = signal<BookView>('read');
   searchTerm = signal<string>('');
+  isQuizzModalOpen = signal<boolean>(false);
+  activeQuizzs = signal<Quizz[]>([]);
+  quizzs = signal<Quizz[]>([]);
 
   activatedRoute = inject(ActivatedRoute);
   router = inject(Router);
@@ -100,18 +107,26 @@ export class BooksComponent implements OnInit {
 
       if (this.selectedView() !== 'read') {
         queryParams.view = this.selectedView();
+      } else {
+        queryParams.view = null;
       }
 
       if (this.selectedSort() !== 'readDate') {
         queryParams.sort = this.selectedSort();
+      } else {
+        queryParams.sort = null;
       }
 
       if (this.selectedYearFilter() !== 'all') {
         queryParams.year = this.selectedYearFilter();
+      } else {
+        queryParams.year = null;
       }
 
       if (this.selectedGroupBy() !== 'none') {
         queryParams.groupBy = this.selectedGroupBy();
+      } else {
+        queryParams.groupBy = null;
       }
 
       this.router.navigate([], {
@@ -130,11 +145,15 @@ export class BooksComponent implements OnInit {
         year: this.selectedYearFilter(),
         groupBy: this.selectedGroupBy(),
       };
-      this.localStorageService.setItem(this.viewPreferencesStorageKey, preferences);
+      this.localStorageService.setItem(
+        this.viewPreferencesStorageKey,
+        preferences
+      );
     });
   }
 
   ngOnInit() {
+    void this.refreshQuizzs();
     this.loadViewPreferencesFromStorage();
     // Lire les paramètres de l'URL au démarrage
     this.loadParamsFromUrl(this.activatedRoute.snapshot.queryParams);
@@ -157,6 +176,11 @@ export class BooksComponent implements OnInit {
     ]);
     this.booksList.set(books);
     this.readlistBooksList.set(readlist);
+  }
+
+  async refreshQuizzs() {
+    const quizzs = await getAllQuizzs();
+    this.quizzs.set(quizzs);
   }
 
   private loadParamsFromUrl(queryParams: Params) {
@@ -213,7 +237,10 @@ export class BooksComponent implements OnInit {
     ) {
       this.selectedView.set(parsed.view);
     }
-    if (parsed.sort && this.sortOptions.some((opt) => opt.value === parsed.sort)) {
+    if (
+      parsed.sort &&
+      this.sortOptions.some((opt) => opt.value === parsed.sort)
+    ) {
       this.selectedSort.set(parsed.sort);
     }
     if (
@@ -394,6 +421,17 @@ export class BooksComponent implements OnInit {
 
   onSearchChange(value: string) {
     this.searchTerm.set(value);
+  }
+
+  openQuizzModal(quizzs: Quizz[]) {
+    if (!quizzs || quizzs.length === 0) return;
+    this.activeQuizzs.set(quizzs);
+    this.isQuizzModalOpen.set(true);
+  }
+
+  closeQuizzModal() {
+    this.isQuizzModalOpen.set(false);
+    this.activeQuizzs.set([]);
   }
 
   openEditBookDialog(book: Book): void {

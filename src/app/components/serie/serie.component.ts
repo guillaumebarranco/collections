@@ -12,10 +12,12 @@ import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { Serie } from '../../models/serie-model';
+import { Quizz, QuizzEntityType } from '../../models/quizz-model';
 import { EditSerieComponent } from '../../containers/edit/edit-serie/edit-serie.component';
 import { EditSerieSeasonsComponent } from '../../containers/edit/edit-serie-seasons/edit-serie-seasons.component';
 import { EntityCardComponent } from '../entity-card/entity-card.component';
 import { AuthService } from '../../core/auth.service';
+import { matchesQuizzEntityTitle } from '../../utils/quizzs/quizzs.utils';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -38,7 +40,9 @@ export class SerieComponent {
   @Input() serie!: Serie;
   @Input() list: Serie[] = [];
   @Input() index = -1;
+  @Input() quizzs: Quizz[] = [];
   @Output() serieUpdated = new EventEmitter<void>();
+  @Output() openQuizz = new EventEmitter<Quizz[]>();
 
   seasonsExpanded = signal(false);
 
@@ -121,5 +125,19 @@ export class SerieComponent {
       }
     }
     return stars;
+  }
+
+  getEntityQuizzs(): Quizz[] {
+    return this.quizzs.filter(
+      (quizz) =>
+        quizz.entityType === QuizzEntityType.SERIE &&
+        matchesQuizzEntityTitle(this.serie.title, quizz.entityTitle)
+    );
+  }
+
+  openQuizzModal(): void {
+    const entityQuizzs = this.getEntityQuizzs();
+    if (entityQuizzs.length === 0) return;
+    this.openQuizz.emit(entityQuizzs);
   }
 }

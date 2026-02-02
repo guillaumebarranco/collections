@@ -173,7 +173,9 @@
             [movie]="movie"
             [list]="sagaGroup.movies"
             [index]="i"
+            [quizzs]="quizzs()"
             (movieUpdated)="refreshMovies()"
+            (openQuizz)="openQuizzModal($event)"
           ></app-movie>
         </div>
         }
@@ -190,13 +192,21 @@
         [movie]="movie"
         [list]="sortedMovies()"
         [index]="i"
+        [quizzs]="quizzs()"
         (movieUpdated)="refreshMovies()"
+        (openQuizz)="openQuizzModal($event)"
       ></app-movie>
     </div>
     }
   </div>
   }
 </div>
+
+<app-quizz-modal
+  [isOpen]="isQuizzModalOpen()"
+  [quizzs]="activeQuizzs()"
+  (close)="closeQuizzModal()"
+></app-quizz-modal>
 
 @if(isViewConfigOpen()) {
 <div class="movies-config-overlay" (click)="closeViewConfig()">

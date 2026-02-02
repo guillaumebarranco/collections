@@ -16,7 +16,9 @@ import {
   StatItem,
   StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
+import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
 import { Bd } from '../../../models/bd-model';
+import { Quizz } from '../../../models/quizz-model';
 import {
   BdView,
   bdViewOptions,
@@ -34,6 +36,7 @@ import { getAllBds, getAllReadlistBds } from '../../../facades/bds/bds.facade';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditBdComponent } from '../../edit/edit-bd/edit-bd.component';
 import { LocalStorageService } from '../../../services/local-storage.service';
+import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 
 @Component({
   selector: 'app-bds',
@@ -48,6 +51,7 @@ import { LocalStorageService } from '../../../services/local-storage.service';
     SortDropdownComponent,
     StatsDisplayComponent,
     MatDialogModule,
+    QuizzModalComponent,
   ],
   templateUrl: './bds.component.html',
   styleUrls: ['./bds.component.scss'],
@@ -62,6 +66,9 @@ export class BdsComponent implements OnInit {
   selectedSort = signal<string>('rating');
   selectedView = signal<BdView>('read');
   searchTerm = signal<string>('');
+  isQuizzModalOpen = signal<boolean>(false);
+  activeQuizzs = signal<Quizz[]>([]);
+  quizzs = signal<Quizz[]>([]);
 
   sortOptions = signal<SortOption[]>(bdsSortOptions);
 
@@ -189,8 +196,20 @@ export class BdsComponent implements OnInit {
     this.searchTerm.set(value);
   }
 
+  openQuizzModal(quizzs: Quizz[]) {
+    if (!quizzs || quizzs.length === 0) return;
+    this.activeQuizzs.set(quizzs);
+    this.isQuizzModalOpen.set(true);
+  }
+
+  closeQuizzModal() {
+    this.isQuizzModalOpen.set(false);
+    this.activeQuizzs.set([]);
+  }
+
   async ngOnInit() {
     this.loadViewPreferencesFromStorage();
+    void this.refreshQuizzs();
     await this.refreshBds();
   }
 
@@ -273,6 +292,11 @@ export class BdsComponent implements OnInit {
     ]);
     this.bdsList.set(bds);
     this.readlistBdsList.set(readlist);
+  }
+
+  private async refreshQuizzs() {
+    const quizzs = await getAllQuizzs();
+    this.quizzs.set(quizzs);
   }
 
   openEditBdDialog(bd: Bd): void {

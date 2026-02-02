@@ -100,9 +100,17 @@
     <div class="manga-card">
       <app-manga
         [manga]="manga"
+        [quizzs]="quizzs()"
         (editRequested)="openEditMangaDialog(manga)"
+        (openQuizz)="openQuizzModal($event)"
       ></app-manga>
     </div>
     }
   </div>
 </div>
+
+<app-quizz-modal
+  [isOpen]="isQuizzModalOpen()"
+  [quizzs]="activeQuizzs()"
+  (close)="closeQuizzModal()"
+></app-quizz-modal>

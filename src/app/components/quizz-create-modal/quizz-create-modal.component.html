@@ -1,0 +1,105 @@
+<div class="quizz-create">
+  <div class="quizz-create-header">
+    <h2>Créer un quizz</h2>
+    <button class="close-btn" type="button" (click)="close()">✕</button>
+  </div>
+
+  <p class="quizz-create-subtitle">
+    {{ entityTitle }} · {{ entityType }} · Créé par {{ creator }}
+  </p>
+
+  <div class="form-row">
+    <label for="quizzLevel">Niveau</label>
+    <input
+      id="quizzLevel"
+      type="number"
+      min="1"
+      max="10"
+      [ngModel]="level()"
+      (ngModelChange)="level.set($event)"
+    />
+  </div>
+
+  <div class="questions">
+    @for (question of questions(); track $index; let i = $index) {
+    <div class="question-card">
+      <div class="question-header">
+        <h3>Question {{ i + 1 }}</h3>
+        <button
+          type="button"
+          class="remove-btn"
+          (click)="removeQuestion(i)"
+          [disabled]="questions().length === 1"
+        >
+          Supprimer
+        </button>
+      </div>
+
+      <div class="form-row">
+        <label>Titre</label>
+        <input
+          type="text"
+          [ngModel]="question.title"
+          (ngModelChange)="updateQuestion(i, { title: $event })"
+          placeholder="Ex: Quel est le nom du capitaine ?"
+        />
+      </div>
+
+      <div class="form-row checkbox-row">
+        <label>Choix multiple</label>
+        <input
+          type="checkbox"
+          [checked]="question.multipleChoice"
+          (change)="
+            updateQuestion(i, { multipleChoice: $any($event.target).checked })
+          "
+        />
+      </div>
+
+      @if (question.multipleChoice) {
+      <div class="form-row">
+        <label>Réponses proposées</label>
+        <textarea
+          rows="2"
+          [ngModel]="question.proposedAnswersText"
+          (ngModelChange)="updateQuestion(i, { proposedAnswersText: $event })"
+          placeholder="Sépare les réponses par une virgule ou un retour ligne"
+        ></textarea>
+      </div>
+      }
+
+      <div class="form-row">
+        <label>Réponses acceptées</label>
+        <textarea
+          rows="2"
+          [ngModel]="question.acceptedAnswersText"
+          (ngModelChange)="updateQuestion(i, { acceptedAnswersText: $event })"
+          placeholder="Sépare les réponses par une virgule ou un retour ligne"
+        ></textarea>
+      </div>
+    </div>
+    }
+  </div>
+
+  <div class="actions">
+    <button
+      type="button"
+      class="secondary-btn"
+      (click)="addQuestion()"
+      [disabled]="!canAddQuestion()"
+    >
+      Ajouter une question ({{ questions().length }}/20)
+    </button>
+    @if(isSaving() || !isValid()) {
+    <button type="button" class="primary-btn" disabled>Enregistrer</button>
+    } @else {
+    <button type="button" class="primary-btn" (click)="saveQuizz()">
+      Enregistrer
+    </button>
+    }
+  </div>
+
+  @if (errorMessage()) {
+  <p class="error-message">{{ errorMessage() }}</p>
+  }
+</div>

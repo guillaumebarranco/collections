@@ -9,6 +9,16 @@
   >
     &#9998;
   </button>
+  } @if (getEntityQuizzs().length > 0) {
+  <button
+    entity-quizz
+    type="button"
+    class="quizz-button"
+    title="Voir les quizz"
+    (click)="openQuizzModal()"
+  >
+    🏆
+  </button>
   }
   <img
     entity-cover
@@ -22,8 +32,7 @@
     <p class="book-author">{{ bd.designer }}</p>
     @if (bd.writer && bd.writer !== bd.designer) {
     <p class="book-pages">{{ bd.writer }}</p>
-    }
-    @if (bd.pages) {
+    } @if (bd.pages) {
     <p class="book-pages">{{ bd.pages }} pages</p>
     } @if (bd.nbTomes) {
     <p>
@@ -33,9 +42,7 @@
       }
     </p>
     } @if (bd.readDate.includes('-')) {
-    <p class="book-read-times">
-      Lu le {{ bd.readDate | date : "dd/MM/yyyy" }}
-    </p>
+    <p class="book-read-times">Lu le {{ bd.readDate | date : "dd/MM/yyyy" }}</p>
     } @if (bd.readTimes && bd.readTimes > 1) {
     <p class="book-read-times">Lu {{ bd.readTimes }} fois</p>
     }

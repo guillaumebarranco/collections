@@ -1,0 +1,92 @@
+@if (isOpen()) {
+  <div class="modal-overlay" (click)="close.emit()">
+    <div class="modal-content" (click)="$event.stopPropagation()">
+      <div class="modal-header">
+        <div class="modal-title-info">
+          <h2>Quizz</h2>
+          @if (selectedQuizz()) {
+          <p class="modal-subtitle">
+            {{ selectedQuizz()!.entityTitle }} · Niveau {{ selectedQuizz()!.level
+            }}
+          </p>
+          }
+        </div>
+        <button class="modal-close" (click)="close.emit()">✕</button>
+      </div>
+
+      <div class="modal-body">
+        @if (!selectedQuizz()) {
+        <p class="modal-helper">Sélectionne un quizz pour commencer.</p>
+        <div class="quizz-list">
+          @for (quizz of quizzs(); track quizz.entityTitle + '-' + quizz.level) {
+          <button class="quizz-item" type="button" (click)="selectQuizz(quizz)">
+            <span class="quizz-item-title">{{ quizz.entityTitle }}</span>
+            <span class="quizz-item-meta">
+              Par {{ quizz.creator }} · Niveau {{ quizz.level }}
+            </span>
+          </button>
+          }
+        </div>
+        } @else {
+        <div class="quizz-questions">
+          @for (question of selectedQuizz()!.questions; track $index; let i = $index) {
+          <div class="quizz-question">
+            <p class="quizz-question-title">{{ i + 1 }}. {{ question.title }}</p>
+            @if (question.multipleChoice) {
+            <div class="quizz-answers">
+              @for (answer of question.proposedAnswers; track answer) {
+              <label class="quizz-answer">
+                <input
+                  type="radio"
+                  [name]="'question-' + i"
+                  [value]="answer"
+                  [checked]="answers()[i] === answer"
+                  (change)="updateAnswer(i, answer)"
+                />
+                <span>{{ answer }}</span>
+              </label>
+              }
+            </div>
+            } @else {
+            <input
+              type="text"
+              class="quizz-input"
+              [value]="answers()[i]"
+              (input)="updateAnswer(i, $any($event.target).value)"
+              placeholder="Ta réponse"
+            />
+            }
+            @if (submitted()) {
+            <p
+              class="quizz-result"
+              [class.correct]="isQuestionCorrect(question.acceptedAnswers, answers()[i])"
+              [class.incorrect]="!isQuestionCorrect(question.acceptedAnswers, answers()[i])"
+            >
+              {{ isQuestionCorrect(question.acceptedAnswers, answers()[i])
+              ? "Bonne réponse"
+              : "Mauvaise réponse" }}
+            </p>
+            }
+          </div>
+          }
+        </div>
+
+        <div class="quizz-actions">
+          <button class="btn-secondary" type="button" (click)="backToList()">
+            Choisir un autre quizz
+          </button>
+          @if (!submitted()) {
+          <button class="btn-primary" type="button" (click)="submitAnswers()">
+            Valider mes réponses
+          </button>
+          } @else {
+          <div class="quizz-score">
+            Score : {{ score()!.correct }}/{{ score()!.total }}
+          </div>
+          }
+        </div>
+        }
+      </div>
+    </div>
+  </div>
+}

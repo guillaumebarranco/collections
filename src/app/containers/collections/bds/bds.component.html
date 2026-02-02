@@ -98,8 +98,19 @@
   <div class="bds">
     @for (bd of sortedBds(); track bd.title) {
     <div class="bd-card">
-      <app-bd [bd]="bd" (editRequested)="openEditBdDialog(bd)"></app-bd>
+      <app-bd
+        [bd]="bd"
+        [quizzs]="quizzs()"
+        (editRequested)="openEditBdDialog(bd)"
+        (openQuizz)="openQuizzModal($event)"
+      ></app-bd>
     </div>
     }
   </div>
 </div>
+
+<app-quizz-modal
+  [isOpen]="isQuizzModalOpen()"
+  [quizzs]="activeQuizzs()"
+  (close)="closeQuizzModal()"
+></app-quizz-modal>

@@ -11,6 +11,8 @@ import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { EntityCardComponent } from '../entity-card/entity-card.component';
 import { AuthService } from '../../core/auth.service';
+import { Quizz, QuizzEntityType } from '../../models/quizz-model';
+import { matchesQuizzEntityTitle } from '../../utils/quizzs/quizzs.utils';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -30,7 +32,9 @@ export class BookComponent {
   private readonly authService = inject(AuthService);
 
   @Input() book!: any;
+  @Input() quizzs: Quizz[] = [];
   @Output() editRequested = new EventEmitter<void>();
+  @Output() openQuizz = new EventEmitter<Quizz[]>();
 
   readonly canEdit = computed(() => {
     const directId = this.activatedRoute.snapshot.params['id'];
@@ -54,5 +58,19 @@ export class BookComponent {
       }
     }
     return stars;
+  }
+
+  getEntityQuizzs(): Quizz[] {
+    return this.quizzs.filter(
+      (quizz) =>
+        quizz.entityType === QuizzEntityType.BOOK &&
+        matchesQuizzEntityTitle(this.book.title, quizz.entityTitle)
+    );
+  }
+
+  openQuizzModal(): void {
+    const entityQuizzs = this.getEntityQuizzs();
+    if (entityQuizzs.length === 0) return;
+    this.openQuizz.emit(entityQuizzs);
   }
 }

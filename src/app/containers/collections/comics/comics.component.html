@@ -100,9 +100,17 @@
     <div class="comic-card">
       <app-comic
         [comic]="comic"
+        [quizzs]="quizzs()"
         (editRequested)="openEditComicDialog(comic)"
+        (openQuizz)="openQuizzModal($event)"
       ></app-comic>
     </div>
     }
   </div>
 </div>
+
+<app-quizz-modal
+  [isOpen]="isQuizzModalOpen()"
+  [quizzs]="activeQuizzs()"
+  (close)="closeQuizzModal()"
+></app-quizz-modal>

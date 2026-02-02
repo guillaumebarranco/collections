@@ -20,17 +20,20 @@ import {
   StatItem,
   StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
+import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
 import {
   getTotalWatchingTime,
   getTotalDuration,
 } from '../../../utils/stats.utils';
 import { Movie } from '../../../models/movie-model';
+import { Quizz } from '../../../models/quizz-model';
 import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
 import {
   getAllMovies,
   getAllWatchlistMovies,
 } from '../../../facades/movies/movies.facade';
 import { LocalStorageService } from '../../../services/local-storage.service';
+import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import {
   getSortedMovies,
   allYearsSince2000,
@@ -52,6 +55,7 @@ import {
     ViewToggleComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
+    QuizzModalComponent,
   ],
   templateUrl: './movies.component.html',
   styleUrls: ['./movies.component.scss'],
@@ -71,6 +75,9 @@ export class MoviesComponent implements OnInit {
   selectedYearFilter = signal<string>('all');
   searchTerm = signal<string>('');
   isViewConfigOpen = signal<boolean>(false);
+  isQuizzModalOpen = signal<boolean>(false);
+  activeQuizzs = signal<Quizz[]>([]);
+  quizzs = signal<Quizz[]>([]);
   optionalViewConfig = signal<Record<OptionalMovieView, boolean>>({
     cinema: true,
     owned: true,
@@ -86,14 +93,20 @@ export class MoviesComponent implements OnInit {
 
       if (this.selectedView() !== 'watched') {
         queryParams.view = this.selectedView();
+      } else {
+        queryParams.view = null;
       }
 
       if (this.selectedSort() !== 'lastViewedDate') {
         queryParams.sort = this.selectedSort();
+      } else {
+        queryParams.sort = null;
       }
 
       if (this.selectedYearFilter() !== 'all') {
         queryParams.year = this.selectedYearFilter();
+      } else {
+        queryParams.year = null;
       }
 
       this.router.navigate([], {
@@ -145,6 +158,7 @@ export class MoviesComponent implements OnInit {
     });
 
     void this.refreshMovies();
+    void this.refreshQuizzs();
   }
 
   private loadParamsFromUrl(queryParams: Params) {
@@ -364,6 +378,11 @@ export class MoviesComponent implements OnInit {
     this.watchingMoviesList.set(watchlist);
   }
 
+  async refreshQuizzs() {
+    const quizzs = await getAllQuizzs();
+    this.quizzs.set(quizzs);
+  }
+
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? 'guillaume';
@@ -398,6 +417,17 @@ export class MoviesComponent implements OnInit {
 
   onSearchChange(value: string) {
     this.searchTerm.set(value);
+  }
+
+  openQuizzModal(quizzs: Quizz[]) {
+    if (!quizzs || quizzs.length === 0) return;
+    this.activeQuizzs.set(quizzs);
+    this.isQuizzModalOpen.set(true);
+  }
+
+  closeQuizzModal() {
+    this.isQuizzModalOpen.set(false);
+    this.activeQuizzs.set([]);
   }
 
   private matchesSearch(movie: Movie, term: string): boolean {

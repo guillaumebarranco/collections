@@ -105,9 +105,17 @@
         [game]="game"
         [list]="sortedGames()"
         [index]="i"
+        [quizzs]="quizzs()"
         (gameUpdated)="refreshGames()"
+        (openQuizz)="openQuizzModal($event)"
       ></app-game>
     </div>
     }
   </div>
 </div>
+
+<app-quizz-modal
+  [isOpen]="isQuizzModalOpen()"
+  [quizzs]="activeQuizzs()"
+  (close)="closeQuizzModal()"
+></app-quizz-modal>

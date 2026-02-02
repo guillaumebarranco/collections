@@ -391,7 +391,6 @@ export class DashboardComponent implements OnInit {
   });
 
   topMangas = computed<TopManga[]>(() => {
-    console.log(this.allMangas());
     return this.allMangas()
       .filter((manga) => manga.readTimes && manga.readTimes > 1)
       .map((manga) => ({

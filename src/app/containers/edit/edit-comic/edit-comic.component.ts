@@ -9,10 +9,12 @@ import {
 } from '@angular/router';
 import { Comic } from '../../../models/comic-model';
 import { getComicsByUser } from '../../../facades/comics/comics.facade';
-import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
+import { MAT_DIALOG_DATA, MatDialog, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
 import { AuthService } from '../../../core/auth.service';
+import { QuizzCreateModalComponent } from '../../../components/quizz-create-modal/quizz-create-modal.component';
+import { QuizzEntityType } from '../../../models/quizz-model';
 
 type EditComicForm = {
   rating: number;
@@ -47,6 +49,7 @@ const DEFAULT_USER_ID = 'guillaume';
 export class EditComicComponent {
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
+  private readonly dialog = inject(MatDialog);
   private readonly dialogRef = inject(MatDialogRef<EditComicComponent>, {
     optional: true,
   });
@@ -256,6 +259,21 @@ export class EditComicComponent {
     }
   }
 
+  openCreateQuizz() {
+    const comic = this.comic();
+    if (!comic) return;
+    this.dialog.open(QuizzCreateModalComponent, {
+      data: {
+        entityTitle: comic.title,
+        entityType: QuizzEntityType.COMIC,
+        creator: this.getQuizzCreator(),
+      },
+      width: '720px',
+      maxWidth: '95vw',
+    });
+    this.dialogRef?.close();
+  }
+
   navigateToComics() {
     if (this.dialogRef) {
       this.dialogRef.close(
@@ -307,6 +325,10 @@ export class EditComicComponent {
     const directId = this.activatedRoute.snapshot.params['id'];
     const parentId = this.activatedRoute.parent?.snapshot.params['id'];
     return directId || parentId || DEFAULT_USER_ID;
+  }
+
+  private getQuizzCreator(): string {
+    return this.authService.getAuthenticatedUserId() || this.getCurrentUserId();
   }
 
   private toForm(comic: Comic): EditComicForm {

@@ -9,10 +9,12 @@ import {
 } from '@angular/router';
 import { Bd } from '../../../models/bd-model';
 import { getBdsByUser } from '../../../facades/bds/bds.facade';
-import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
+import { MAT_DIALOG_DATA, MatDialog, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
 import { AuthService } from '../../../core/auth.service';
+import { QuizzCreateModalComponent } from '../../../components/quizz-create-modal/quizz-create-modal.component';
+import { QuizzEntityType } from '../../../models/quizz-model';
 
 type EditBdForm = {
   rating: number;
@@ -49,6 +51,7 @@ const DEFAULT_USER_ID = 'guillaume';
 export class EditBdComponent {
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
+  private readonly dialog = inject(MatDialog);
   private readonly dialogRef = inject(MatDialogRef<EditBdComponent>, {
     optional: true,
   });
@@ -265,6 +268,21 @@ export class EditBdComponent {
     }
   }
 
+  openCreateQuizz() {
+    const bd = this.bd();
+    if (!bd) return;
+    this.dialog.open(QuizzCreateModalComponent, {
+      data: {
+        entityTitle: bd.title,
+        entityType: QuizzEntityType.BD,
+        creator: this.getQuizzCreator(),
+      },
+      width: '720px',
+      maxWidth: '95vw',
+    });
+    this.dialogRef?.close();
+  }
+
   navigateToBds() {
     if (this.dialogRef) {
       this.dialogRef.close(
@@ -316,6 +334,10 @@ export class EditBdComponent {
     const directId = this.activatedRoute.snapshot.params['id'];
     const parentId = this.activatedRoute.parent?.snapshot.params['id'];
     return directId || parentId || DEFAULT_USER_ID;
+  }
+
+  private getQuizzCreator(): string {
+    return this.authService.getAuthenticatedUserId() || this.getCurrentUserId();
   }
 
   private toForm(bd: Bd): EditBdForm {
