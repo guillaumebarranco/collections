@@ -47,15 +47,6 @@ export const baseBooks: BaseBook[] = [
     sagaOrder: 0,
   },
   {
-    title: "L'Arnaque des nouveaux pères",
-    author: 'Stephane Jourdain',
-    coverUrl: '/books_pictures/arnaque_des_nouveaux_peres.jpeg',
-    pages: 184,
-    genre: 'Nonfiction',
-    saga: '',
-    sagaOrder: 0,
-  },
-  {
     title: 'Les tout-petits face aux écrans',
     author: 'Dr Anne-Lise Ducanda',
     coverUrl: '/books_pictures/les_tout_petit_face_aux_ecrans.jpg',
@@ -144,8 +135,8 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
-      nbTomes: 0,
-      isFinished: true,
+    nbTomes: 0,
+    isFinished: true,
   },
   {
     title: 'Frankenstein',
@@ -155,8 +146,8 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
-      nbTomes: 0,
-      isFinished: true,
+    nbTomes: 0,
+    isFinished: true,
   },
   {
     title: 'Le Portrait de Dorian Gray',
