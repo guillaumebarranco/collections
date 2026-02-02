@@ -24,6 +24,14 @@ import {
   StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
 import { Book } from '../../../models/book-model';
+import {
+  BookView,
+  bookViewOptions,
+  booksSortOptions,
+  getSortedBooks,
+  groupByOptions,
+  yearFilterOptions,
+} from './books.utils';
 
 import {
   getTotalPages,
@@ -39,8 +47,7 @@ import {
 } from '../../../facades/books/books.facade';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditBookComponent } from '../../edit/edit-book/edit-book.component';
-
-type BookView = 'read' | 'readlist' | 'owned';
+import { LocalStorageService } from '../../../services/local-storage.service';
 
 @Component({
   selector: 'app-books',
@@ -67,45 +74,19 @@ export class BooksComponent implements OnInit {
 
   activatedRoute = inject(ActivatedRoute);
   router = inject(Router);
+  private readonly localStorageService = inject(LocalStorageService);
   private readonly dialog = inject(MatDialog);
   private isInitializing = false;
+  private isLoadingPreferences = false;
+  private readonly viewPreferencesStorageKey = 'books_view_preferences';
 
-  sortOptions: SortOption[] = [
-    { value: 'title', label: 'Titre (A-Z)' },
-    { value: 'title-desc', label: 'Titre (Z-A)' },
-    { value: 'author', label: 'Auteur (A-Z)' },
-    { value: 'author-desc', label: 'Auteur (Z-A)' },
-    { value: 'readDate', label: 'Date de lecture (récent)' },
-    { value: 'readDate-asc', label: 'Date de lecture (ancien)' },
-    { value: 'rating', label: 'Note (élevée)' },
-    { value: 'rating-asc', label: 'Note (faible)' },
-    { value: 'readTimes', label: 'Relectures (élevé)' },
-    { value: 'readTimes-asc', label: 'Relectures (faible)' },
-    { value: 'pages', label: 'Pages (élevé)' },
-    { value: 'pages-asc', label: 'Pages (faible)' },
-    { value: 'genre', label: 'Genre (A-Z)' },
-    { value: 'genre-desc', label: 'Genre (Z-A)' },
-  ];
+  sortOptions: SortOption[] = booksSortOptions;
 
-  yearFilterOptions = [
-    { value: 'all', label: 'Toutes' },
-    { value: '2026', label: '2026' },
-    { value: '2025', label: '2025' },
-    { value: '2024', label: '2024' },
-    { value: 'before2024', label: 'Avant 2024' },
-  ];
+  yearFilterOptions = yearFilterOptions;
 
-  groupByOptions = [
-    { value: 'none', label: 'Aucun' },
-    { value: 'author', label: 'Auteur' },
-    { value: 'genre', label: 'Genre' },
-  ];
+  groupByOptions = groupByOptions;
 
-  viewOptions: ViewToggleOption[] = [
-    { value: 'read', label: 'Livres lus' },
-    { value: 'readlist', label: 'Livres à lire' },
-    { value: 'owned', label: 'Livres possédés' },
-  ];
+  viewOptions: ViewToggleOption[] = bookViewOptions;
 
   booksList = signal<{ [key: string]: Book[] }>({});
   readlistBooksList = signal<{ [key: string]: Book[] }>({});
@@ -140,9 +121,21 @@ export class BooksComponent implements OnInit {
         replaceUrl: true,
       });
     });
+
+    effect(() => {
+      if (this.isLoadingPreferences || this.isInitializing) return;
+      const preferences = {
+        view: this.selectedView(),
+        sort: this.selectedSort(),
+        year: this.selectedYearFilter(),
+        groupBy: this.selectedGroupBy(),
+      };
+      this.localStorageService.setItem(this.viewPreferencesStorageKey, preferences);
+    });
   }
 
   ngOnInit() {
+    this.loadViewPreferencesFromStorage();
     // Lire les paramètres de l'URL au démarrage
     this.loadParamsFromUrl(this.activatedRoute.snapshot.queryParams);
 
@@ -201,6 +194,41 @@ export class BooksComponent implements OnInit {
         this.selectedGroupBy.set(queryParams['groupBy']);
       }
     }
+  }
+
+  private loadViewPreferencesFromStorage(): void {
+    const parsed = this.localStorageService.getItem<
+      Partial<{
+        view: BookView;
+        sort: string;
+        year: string;
+        groupBy: string;
+      }>
+    >(this.viewPreferencesStorageKey);
+    if (!parsed || typeof parsed !== 'object') return;
+    this.isLoadingPreferences = true;
+    if (
+      parsed.view &&
+      this.viewOptions.some((opt) => opt.value === parsed.view)
+    ) {
+      this.selectedView.set(parsed.view);
+    }
+    if (parsed.sort && this.sortOptions.some((opt) => opt.value === parsed.sort)) {
+      this.selectedSort.set(parsed.sort);
+    }
+    if (
+      parsed.year &&
+      this.yearFilterOptions.some((opt) => opt.value === parsed.year)
+    ) {
+      this.selectedYearFilter.set(parsed.year);
+    }
+    if (
+      parsed.groupBy &&
+      this.groupByOptions.some((opt) => opt.value === parsed.groupBy)
+    ) {
+      this.selectedGroupBy.set(parsed.groupBy);
+    }
+    this.isLoadingPreferences = false;
   }
 
   allBooks = computed<Book[]>(() => {
@@ -270,85 +298,9 @@ export class BooksComponent implements OnInit {
     return filteredBooks;
   });
 
-  sortedBooks = computed(() => {
-    const sortedBooks = [...this.filteredBooksByYear()];
-
-    switch (this.selectedSort()) {
-      case 'title':
-        return sortedBooks.sort((a, b) => a.title.localeCompare(b.title));
-      case 'title-desc':
-        return sortedBooks.sort((a, b) => b.title.localeCompare(a.title));
-      case 'author':
-        return sortedBooks.sort((a, b) => a.author.localeCompare(b.author));
-      case 'author-desc':
-        return sortedBooks.sort((a, b) => b.author.localeCompare(a.author));
-      case 'readDate':
-        return sortedBooks.sort((a, b) => {
-          if (!a.readDate && !b.readDate) return 0;
-          if (!a.readDate) return 1;
-          if (!b.readDate) return -1;
-          return (
-            new Date(b.readDate).getTime() - new Date(a.readDate).getTime()
-          );
-        });
-      case 'readDate-asc':
-        return sortedBooks.sort((a, b) => {
-          if (!a.readDate && !b.readDate) return 0;
-          if (!a.readDate) return 1;
-          if (!b.readDate) return -1;
-          return (
-            new Date(a.readDate).getTime() - new Date(b.readDate).getTime()
-          );
-        });
-      case 'rating':
-        return sortedBooks.sort((a, b) => {
-          const ratingA = a.rating || 0;
-          const ratingB = b.rating || 0;
-          if (ratingB !== ratingA) {
-            return ratingB - ratingA;
-          }
-          const readTimesA = a.readTimes || 0;
-          const readTimesB = b.readTimes || 0;
-          return readTimesB - readTimesA;
-        });
-      case 'rating-asc':
-        return sortedBooks.sort((a, b) => {
-          const ratingA = a.rating || 0;
-          const ratingB = b.rating || 0;
-          if (ratingA !== ratingB) {
-            return ratingA - ratingB;
-          }
-          const readTimesA = a.readTimes || 0;
-          const readTimesB = b.readTimes || 0;
-          return readTimesB - readTimesA;
-        });
-      case 'readTimes':
-        return sortedBooks.sort(
-          (a, b) => (b.readTimes || 0) - (a.readTimes || 0)
-        );
-      case 'readTimes-asc':
-        return sortedBooks.sort(
-          (a, b) => (a.readTimes || 0) - (b.readTimes || 0)
-        );
-      case 'pages':
-        return sortedBooks.sort((a, b) => (b.pages || 0) - (a.pages || 0));
-      case 'pages-asc':
-        return sortedBooks.sort((a, b) => (a.pages || 0) - (b.pages || 0));
-      case 'genre':
-        return sortedBooks.sort((a, b) => a.genre.localeCompare(b.genre));
-      case 'genre-desc':
-        return sortedBooks.sort((a, b) => b.genre.localeCompare(a.genre));
-      default:
-        return sortedBooks.sort((a, b) => {
-          if (!a.readDate && !b.readDate) return 0;
-          if (!a.readDate) return 1;
-          if (!b.readDate) return -1;
-          return (
-            new Date(b.readDate).getTime() - new Date(a.readDate).getTime()
-          );
-        });
-    }
-  });
+  sortedBooks = computed(() =>
+    getSortedBooks([...this.filteredBooksByYear()], this.selectedSort())
+  );
 
   groupedBooks = computed(() => {
     if (this.selectedGroupBy() === 'none') {

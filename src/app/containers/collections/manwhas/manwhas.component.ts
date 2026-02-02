@@ -1,4 +1,4 @@
-import { Component, computed, inject, signal, OnInit } from '@angular/core';
+import { Component, computed, inject, signal, OnInit, effect } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ManwhaComponent } from '../../../components/manwha/manwha.component';
@@ -12,6 +12,12 @@ import {
   SortOption,
 } from '../../../components/sort-dropdown/sort-dropdown.component';
 import { Manwha } from '../../../models/manwha-model';
+import {
+  ManwhaView,
+  getSortedManwhas,
+  manwhaViewOptions,
+  manwhasSortOptions,
+} from './manwhas.utils';
 import { ActivatedRoute, Params, RouterLink } from '@angular/router';
 import {
   getAllManwhas,
@@ -30,6 +36,7 @@ import {
 } from '../../../components/stats-display/stats-display.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditManwhaComponent } from '../../edit/edit-manwha/edit-manwha.component';
+import { LocalStorageService } from '../../../services/local-storage.service';
 @Component({
   selector: 'app-manwhas',
   imports: [
@@ -49,35 +56,30 @@ import { EditManwhaComponent } from '../../edit/edit-manwha/edit-manwha.componen
 export class ManwhasComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
   private readonly dialog = inject(MatDialog);
+  private readonly localStorageService = inject(LocalStorageService);
+  private isLoadingPreferences = false;
+  private readonly viewPreferencesStorageKey = 'manwhas_view_preferences';
   selectedSort = signal<string>('rating');
-  selectedView = signal<'read' | 'readlist' | 'owned'>('read');
+  selectedView = signal<ManwhaView>('read');
   searchTerm = signal<string>('');
 
-  sortOptions = signal<SortOption[]>([
-    { value: 'title', label: 'Titre (A-Z)' },
-    { value: 'title-desc', label: 'Titre (Z-A)' },
-    { value: 'author', label: 'Auteur (A-Z)' },
-    { value: 'author-desc', label: 'Auteur (Z-A)' },
-    { value: 'readDate', label: 'Date de lecture (récent)' },
-    { value: 'readDate-asc', label: 'Date de lecture (ancien)' },
-    { value: 'rating', label: 'Note (élevée)' },
-    { value: 'rating-asc', label: 'Note (faible)' },
-    { value: 'readTimes', label: 'Relectures (élevé)' },
-    { value: 'readTimes-asc', label: 'Relectures (faible)' },
-    { value: 'nbChapters', label: 'Nombre de tomes (élevé)' },
-    { value: 'nbChapters-asc', label: 'Nombre de tomes (faible)' },
-    { value: 'genre', label: 'Genre (A-Z)' },
-    { value: 'genre-desc', label: 'Genre (Z-A)' },
-  ]);
+  sortOptions = signal<SortOption[]>(manwhasSortOptions);
 
-  viewOptions: ViewToggleOption[] = [
-    { value: 'read', label: 'Manwhas lus' },
-    { value: 'readlist', label: 'Manwhas à lire' },
-    { value: 'owned', label: 'Manwhas possédés' },
-  ];
+  viewOptions: ViewToggleOption[] = manwhaViewOptions;
 
   manwhasList = signal<{ [key: string]: Manwha[] }>({});
   readlistManwhasList = signal<{ [key: string]: Manwha[] }>({});
+
+  constructor() {
+    effect(() => {
+      if (this.isLoadingPreferences) return;
+      const preferences = {
+        view: this.selectedView(),
+        sort: this.selectedSort(),
+      };
+      this.localStorageService.setItem(this.viewPreferencesStorageKey, preferences);
+    });
+  }
 
   allManwhas = computed<Manwha[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
@@ -115,73 +117,9 @@ export class ManwhasComponent implements OnInit {
     return manwhas.filter((manwha) => this.matchesSearch(manwha, term));
   });
 
-  sortedManwhas = computed<Manwha[]>(() => {
-    const sortedManwhas = [...this.filteredManwhas()];
-    switch (this.selectedSort()) {
-      case 'title':
-        return sortedManwhas.sort((a, b) => a.title.localeCompare(b.title));
-      case 'title-desc':
-        return sortedManwhas.sort((a, b) => b.title.localeCompare(a.title));
-      case 'author':
-        return sortedManwhas.sort((a, b) => a.author.localeCompare(b.author));
-      case 'author-desc':
-        return sortedManwhas.sort((a, b) => b.author.localeCompare(a.author));
-      case 'readDate':
-        return sortedManwhas.sort(
-          (a, b) =>
-            new Date(b.readDate).getTime() - new Date(a.readDate).getTime()
-        );
-      case 'readDate-asc':
-        return sortedManwhas.sort(
-          (a, b) =>
-            new Date(a.readDate).getTime() - new Date(b.readDate).getTime()
-        );
-      case 'rating':
-        return sortedManwhas.sort((a, b) => {
-          const ratingA = a.rating || 0;
-          const ratingB = b.rating || 0;
-          if (ratingB !== ratingA) {
-            return ratingB - ratingA;
-          }
-          const readTimesA = a.readTimes || 0;
-          const readTimesB = b.readTimes || 0;
-          return readTimesB - readTimesA;
-        });
-      case 'rating-asc':
-        return sortedManwhas.sort((a, b) => {
-          const ratingA = a.rating || 0;
-          const ratingB = b.rating || 0;
-          if (ratingA !== ratingB) {
-            return ratingA - ratingB;
-          }
-          const readTimesA = a.readTimes || 0;
-          const readTimesB = b.readTimes || 0;
-          return readTimesB - readTimesA;
-        });
-      case 'readTimes':
-        return sortedManwhas.sort(
-          (a, b) => (b.readTimes || 0) - (a.readTimes || 0)
-        );
-      case 'readTimes-asc':
-        return sortedManwhas.sort(
-          (a, b) => (a.readTimes || 0) - (b.readTimes || 0)
-        );
-      case 'nbChapters':
-        return sortedManwhas.sort(
-          (a, b) => (b.nbChapters || 0) - (a.nbChapters || 0)
-        );
-      case 'nbChapters-asc':
-        return sortedManwhas.sort(
-          (a, b) => (a.nbChapters || 0) - (b.nbChapters || 0)
-        );
-      case 'genre':
-        return sortedManwhas.sort((a, b) => a.genre.localeCompare(b.genre));
-      case 'genre-desc':
-        return sortedManwhas.sort((a, b) => b.genre.localeCompare(a.genre));
-      default:
-        return sortedManwhas.sort((a, b) => (b.rating || 0) - (a.rating || 0));
-    }
-  });
+  sortedManwhas = computed<Manwha[]>(() =>
+    getSortedManwhas([...this.filteredManwhas()], this.selectedSort())
+  );
 
   stats = computed<StatItem[]>(() => {
     console.log(this.allManwhas());
@@ -227,6 +165,27 @@ export class ManwhasComponent implements OnInit {
     ];
   });
 
+  private loadViewPreferencesFromStorage(): void {
+    const parsed = this.localStorageService.getItem<
+      Partial<{
+        view: 'read' | 'readlist' | 'owned';
+        sort: string;
+      }>
+    >(this.viewPreferencesStorageKey);
+    if (!parsed || typeof parsed !== 'object') return;
+    this.isLoadingPreferences = true;
+    if (parsed.view && ['read', 'readlist', 'owned'].includes(parsed.view)) {
+      this.selectedView.set(parsed.view);
+    }
+    if (
+      parsed.sort &&
+      this.sortOptions().some((opt) => opt.value === parsed.sort)
+    ) {
+      this.selectedSort.set(parsed.sort);
+    }
+    this.isLoadingPreferences = false;
+  }
+
   onSortChange(sortValue: string) {
     this.selectedSort.set(sortValue);
   }
@@ -236,6 +195,7 @@ export class ManwhasComponent implements OnInit {
   }
 
   async ngOnInit() {
+    this.loadViewPreferencesFromStorage();
     await this.refreshManwhas();
   }
 

@@ -725,7 +725,8 @@ export const baseMoviesAnimated: BaseMovie[] = [
     title: "One Piece : L'Aventure de l'île de l'horloge",
     director: 'Atsuji Shimizu',
     actors: [],
-    coverUrl: '/movies_pictures/MV5BNDRjN2NmNDAtZDE3Mi00ZDJlLTkwODktMmNkMTBkYTRjMTY3XkEyXkFqcGc@._V1_.jpg',
+    coverUrl:
+      '/movies_pictures/MV5BNDRjN2NmNDAtZDE3Mi00ZDJlLTkwODktMmNkMTBkYTRjMTY3XkEyXkFqcGc@._V1_.jpg',
     releaseDate: '2001-03-03',
     length: 55,
     genre: 'Animation',
@@ -745,7 +746,8 @@ export const baseMoviesAnimated: BaseMovie[] = [
     title: "One Piece : L'Aventure sans issue",
     director: 'Kōnosuke Uda',
     actors: [],
-    coverUrl: '/movies_pictures/MV5BOGI3ZDRhMmUtZjdlYy00OTJlLTk5OTYtYmViNTU2ODhjNzQ5XkEyXkFqcGc@._V1_.jpg',
+    coverUrl:
+      '/movies_pictures/MV5BOGI3ZDRhMmUtZjdlYy00OTJlLTk5OTYtYmViNTU2ODhjNzQ5XkEyXkFqcGc@._V1_.jpg',
     releaseDate: '2003-03-01',
     length: 95,
     genre: 'Animation',
@@ -849,6 +851,16 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2022-08-06',
     length: 115,
     genre: 'Animation',
+    saga: '',
+  },
+  {
+    title: 'Élémentaire',
+    director: 'Peter Sohn',
+    actors: [{ name: 'Leah Lewis' }, { name: 'Mamoudou Athie' }],
+    coverUrl: '/movies_pictures/5709179.jpg',
+    releaseDate: '2023-06-16',
+    length: 102,
+    genre: 'Animation, Romance',
     saga: '',
   },
 ];

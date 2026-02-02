@@ -1,4 +1,11 @@
-import { Component, computed, inject, signal, OnInit } from '@angular/core';
+import {
+  Component,
+  computed,
+  inject,
+  signal,
+  OnInit,
+  effect,
+} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { SerieComponent } from '../../../components/serie/serie.component';
@@ -17,13 +24,15 @@ import {
   StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
 import { Serie } from '../../../models/serie-model';
+import {
+  SerieView,
+  getSortedSeries,
+  serieViewOptions,
+  seriesSortOptions,
+} from './series.utils';
 import { formatTimeStats } from '../../../utils/stats.utils';
 import {
-  getSerieAverageRating,
-  getSerieTotalEpisodes,
   getSerieTotalLengthMinutes,
-  getSerieSeasonsCount,
-  getSerieTotalTimesWatched,
   getSerieWatchedLengthMinutes,
 } from '../../../utils/series.utils';
 import { ActivatedRoute, Params, RouterLink } from '@angular/router';
@@ -31,8 +40,7 @@ import {
   getAllSeries,
   getAllWatchlistSeries,
 } from '../../../facades/series/series.facade';
-
-type SerieView = 'finished' | 'watchlist' | 'owned';
+import { LocalStorageService } from '../../../services/local-storage.service';
 
 @Component({
   selector: 'app-series',
@@ -51,36 +59,34 @@ type SerieView = 'finished' | 'watchlist' | 'owned';
 })
 export class SeriesComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
+  private readonly localStorageService = inject(LocalStorageService);
+  private isLoadingPreferences = false;
+  private readonly viewPreferencesStorageKey = 'series_view_preferences';
 
   selectedSort = signal<string>('rating');
   selectedView = signal<SerieView>('finished');
   searchTerm = signal<string>('');
 
-  sortOptions = signal<SortOption[]>([
-    { value: 'title', label: 'Titre (A-Z)' },
-    { value: 'title-desc', label: 'Titre (Z-A)' },
-    { value: 'releaseDate', label: 'Date de sortie (récent)' },
-    { value: 'releaseDate-asc', label: 'Date de sortie (ancien)' },
-    { value: 'rating', label: 'Note (élevée)' },
-    { value: 'rating-asc', label: 'Note (faible)' },
-    { value: 'timesWatched', label: 'Visionnages (élevé)' },
-    { value: 'timesWatched-asc', label: 'Visionnages (faible)' },
-    { value: 'totalLength', label: 'Durée (long)' },
-    { value: 'totalLength-asc', label: 'Durée (court)' },
-    { value: 'nbSeasons', label: 'Saisons (élevé)' },
-    { value: 'nbSeasons-asc', label: 'Saisons (faible)' },
-    { value: 'nbEpisodesTotal', label: 'Épisodes (élevé)' },
-    { value: 'nbEpisodesTotal-asc', label: 'Épisodes (faible)' },
-  ]);
+  sortOptions = signal<SortOption[]>(seriesSortOptions);
 
-  viewOptions: ViewToggleOption[] = [
-    { value: 'finished', label: 'Séries finies' },
-    { value: 'watchlist', label: 'Séries à voir' },
-    { value: 'owned', label: 'Séries possédées' },
-  ];
+  viewOptions: ViewToggleOption[] = serieViewOptions;
 
   seriesList = signal<{ [key: string]: Serie[] }>({});
   watchingSeriesList = signal<{ [key: string]: Serie[] }>({});
+
+  constructor() {
+    effect(() => {
+      if (this.isLoadingPreferences) return;
+      const preferences = {
+        view: this.selectedView(),
+        sort: this.selectedSort(),
+      };
+      this.localStorageService.setItem(
+        this.viewPreferencesStorageKey,
+        preferences
+      );
+    });
+  }
 
   allSeries = computed<Serie[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
@@ -116,81 +122,9 @@ export class SeriesComponent implements OnInit {
     return series.filter((serie) => this.matchesSearch(serie, term));
   });
 
-  sortedSeries = computed<Serie[]>(() => {
-    const seriesToSort = [...this.filteredSeries()];
-    switch (this.selectedSort()) {
-      case 'title':
-        return seriesToSort.sort((a, b) => a.title.localeCompare(b.title));
-      case 'title-desc':
-        return seriesToSort.sort((a, b) => b.title.localeCompare(a.title));
-      case 'releaseDate':
-        return seriesToSort.sort(
-          (a, b) =>
-            new Date(b.releaseDate).getTime() -
-            new Date(a.releaseDate).getTime()
-        );
-      case 'releaseDate-asc':
-        return seriesToSort.sort(
-          (a, b) =>
-            new Date(a.releaseDate).getTime() -
-            new Date(b.releaseDate).getTime()
-        );
-      case 'rating':
-        return seriesToSort.sort((a, b) => {
-          const ratingA = getSerieAverageRating(a);
-          const ratingB = getSerieAverageRating(b);
-          if (ratingB !== ratingA) {
-            return ratingB - ratingA;
-          }
-          return getSerieTotalTimesWatched(b) - getSerieTotalTimesWatched(a);
-        });
-      case 'rating-asc':
-        return seriesToSort.sort((a, b) => {
-          const ratingA = getSerieAverageRating(a);
-          const ratingB = getSerieAverageRating(b);
-          if (ratingA !== ratingB) {
-            return ratingA - ratingB;
-          }
-          return getSerieTotalTimesWatched(b) - getSerieTotalTimesWatched(a);
-        });
-      case 'timesWatched':
-        return seriesToSort.sort(
-          (a, b) => getSerieTotalTimesWatched(b) - getSerieTotalTimesWatched(a)
-        );
-      case 'timesWatched-asc':
-        return seriesToSort.sort(
-          (a, b) => getSerieTotalTimesWatched(a) - getSerieTotalTimesWatched(b)
-        );
-      case 'totalLength':
-        return seriesToSort.sort(
-          (a, b) =>
-            getSerieTotalLengthMinutes(b) - getSerieTotalLengthMinutes(a)
-        );
-      case 'totalLength-asc':
-        return seriesToSort.sort(
-          (a, b) =>
-            getSerieTotalLengthMinutes(a) - getSerieTotalLengthMinutes(b)
-        );
-      case 'nbSeasons':
-        return seriesToSort.sort(
-          (a, b) => getSerieSeasonsCount(b) - getSerieSeasonsCount(a)
-        );
-      case 'nbSeasons-asc':
-        return seriesToSort.sort(
-          (a, b) => getSerieSeasonsCount(a) - getSerieSeasonsCount(b)
-        );
-      case 'nbEpisodesTotal':
-        return seriesToSort.sort(
-          (a, b) => getSerieTotalEpisodes(b) - getSerieTotalEpisodes(a)
-        );
-      case 'nbEpisodesTotal-asc':
-        return seriesToSort.sort(
-          (a, b) => getSerieTotalEpisodes(a) - getSerieTotalEpisodes(b)
-        );
-      default:
-        return seriesToSort.sort((a, b) => a.title.localeCompare(b.title));
-    }
-  });
+  sortedSeries = computed<Serie[]>(() =>
+    getSortedSeries([...this.filteredSeries()], this.selectedSort())
+  );
 
   stats = computed<StatItem[]>(() => {
     const seriesToUse = this.filteredSeries();
@@ -224,7 +158,32 @@ export class SeriesComponent implements OnInit {
     ];
   });
 
+  private loadViewPreferencesFromStorage(): void {
+    const parsed = this.localStorageService.getItem<
+      Partial<{
+        view: SerieView;
+        sort: string;
+      }>
+    >(this.viewPreferencesStorageKey);
+    if (!parsed || typeof parsed !== 'object') return;
+    this.isLoadingPreferences = true;
+    if (
+      parsed.view &&
+      ['finished', 'watchlist', 'owned'].includes(parsed.view)
+    ) {
+      this.selectedView.set(parsed.view);
+    }
+    if (
+      parsed.sort &&
+      this.sortOptions().some((opt) => opt.value === parsed.sort)
+    ) {
+      this.selectedSort.set(parsed.sort);
+    }
+    this.isLoadingPreferences = false;
+  }
+
   ngOnInit() {
+    this.loadViewPreferencesFromStorage();
     void this.refreshSeries();
   }
 

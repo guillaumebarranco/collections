@@ -103,16 +103,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
   },
-  {
-    title: 'Creed',
-    director: 'Ryan Coogler',
-    actors: [{ name: 'Michael B. Jordan' }],
-    coverUrl: '/movies_pictures/239260-creed-0-150-0-225-crop.jpg',
-    releaseDate: '2015-11-25',
-    length: 133,
-    genre: 'Drama',
-    saga: '',
-  },
+
   {
     title: 'Demolition',
     director: 'Jean-Marc Vallée',

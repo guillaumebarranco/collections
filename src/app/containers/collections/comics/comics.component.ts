@@ -1,4 +1,4 @@
-import { Component, inject, signal, computed, OnInit } from '@angular/core';
+import { Component, inject, signal, computed, OnInit, effect } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ComicComponent } from '../../../components/comic/comic.component';
@@ -18,6 +18,12 @@ import {
 } from '../../../components/stats-display/stats-display.component';
 import { Comic } from '../../../models/comic-model';
 import {
+  ComicView,
+  comicViewOptions,
+  comicsSortOptions,
+  getSortedComics,
+} from './comics.utils';
+import {
   getTotalComicsTomesRead,
   getTotalComicsPages,
   getEstimatedComicsReadingTime,
@@ -29,6 +35,7 @@ import {
 } from '../../../facades/comics/comics.facade';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditComicComponent } from '../../edit/edit-comic/edit-comic.component';
+import { LocalStorageService } from '../../../services/local-storage.service';
 
 @Component({
   selector: 'app-comics',
@@ -50,36 +57,31 @@ import { EditComicComponent } from '../../edit/edit-comic/edit-comic.component';
 export class ComicsComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
   private readonly dialog = inject(MatDialog);
+  private readonly localStorageService = inject(LocalStorageService);
+  private isLoadingPreferences = false;
+  private readonly viewPreferencesStorageKey = 'comics_view_preferences';
 
   selectedSort = signal<string>('rating');
-  selectedView = signal<'read' | 'readlist' | 'owned'>('read');
+  selectedView = signal<ComicView>('read');
   searchTerm = signal<string>('');
 
-  sortOptions = signal<SortOption[]>([
-    { value: 'title', label: 'Titre (A-Z)' },
-    { value: 'title-desc', label: 'Titre (Z-A)' },
-    { value: 'designer', label: 'Designer (A-Z)' },
-    { value: 'designer-desc', label: 'Designer (Z-A)' },
-    { value: 'readDate', label: 'Date de lecture (récent)' },
-    { value: 'readDate-asc', label: 'Date de lecture (ancien)' },
-    { value: 'rating', label: 'Note (élevée)' },
-    { value: 'rating-asc', label: 'Note (faible)' },
-    { value: 'readTimes', label: 'Relectures (élevé)' },
-    { value: 'readTimes-asc', label: 'Relectures (faible)' },
-    { value: 'nbTomes', label: 'Nombre de tomes (élevé)' },
-    { value: 'nbTomes-asc', label: 'Nombre de tomes (faible)' },
-    { value: 'genre', label: 'Genre (A-Z)' },
-    { value: 'genre-desc', label: 'Genre (Z-A)' },
-  ]);
+  sortOptions = signal<SortOption[]>(comicsSortOptions);
 
-  viewOptions: ViewToggleOption[] = [
-    { value: 'read', label: 'Comics lus' },
-    { value: 'readlist', label: 'Comics à lire' },
-    { value: 'owned', label: 'Comics possédés' },
-  ];
+  viewOptions: ViewToggleOption[] = comicViewOptions;
 
   comicsList = signal<{ [key: string]: Comic[] }>({});
   readlistComicsList = signal<{ [key: string]: Comic[] }>({});
+
+  constructor() {
+    effect(() => {
+      if (this.isLoadingPreferences) return;
+      const preferences = {
+        view: this.selectedView(),
+        sort: this.selectedSort(),
+      };
+      this.localStorageService.setItem(this.viewPreferencesStorageKey, preferences);
+    });
+  }
 
   allComics = computed<Comic[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
@@ -115,70 +117,9 @@ export class ComicsComponent implements OnInit {
     return comics.filter((comic) => this.matchesSearch(comic, term));
   });
 
-  sortedComics = computed<Comic[]>(() => {
-    const sortedComics = [...this.filteredComics()];
-    switch (this.selectedSort()) {
-      case 'title':
-        return sortedComics.sort((a, b) => a.title.localeCompare(b.title));
-      case 'title-desc':
-        return sortedComics.sort((a, b) => b.title.localeCompare(a.title));
-      case 'designer':
-        return sortedComics.sort((a, b) =>
-          a.designer.localeCompare(b.designer)
-        );
-      case 'designer-desc':
-        return sortedComics.sort((a, b) =>
-          b.designer.localeCompare(a.designer)
-        );
-      case 'readDate':
-        return sortedComics.sort(
-          (a, b) =>
-            new Date(b.readDate).getTime() - new Date(a.readDate).getTime()
-        );
-      case 'readDate-asc':
-        return sortedComics.sort(
-          (a, b) =>
-            new Date(a.readDate).getTime() - new Date(b.readDate).getTime()
-        );
-      case 'rating':
-        return sortedComics.sort((a, b) => {
-          const ratingA = a.rating || 0;
-          const ratingB = b.rating || 0;
-          if (ratingB !== ratingA) {
-            return ratingB - ratingA;
-          }
-          const readTimesA = a.readTimes || 0;
-          const readTimesB = b.readTimes || 0;
-          return readTimesB - readTimesA;
-        });
-      case 'rating-asc':
-        return sortedComics.sort((a, b) => {
-          const ratingA = a.rating || 0;
-          const ratingB = b.rating || 0;
-          if (ratingA !== ratingB) {
-            return ratingA - ratingB;
-          }
-          const readTimesA = a.readTimes || 0;
-          const readTimesB = b.readTimes || 0;
-          return readTimesB - readTimesA;
-        });
-      case 'readTimes':
-        return sortedComics.sort(
-          (a, b) => (b.readTimes || 0) - (a.readTimes || 0)
-        );
-      case 'readTimes-asc':
-        return sortedComics.sort(
-          (a, b) => (a.readTimes || 0) - (b.readTimes || 0)
-        );
-
-      case 'genre':
-        return sortedComics.sort((a, b) => a.genre.localeCompare(b.genre));
-      case 'genre-desc':
-        return sortedComics.sort((a, b) => b.genre.localeCompare(a.genre));
-      default:
-        return sortedComics.sort((a, b) => (b.rating || 0) - (a.rating || 0));
-    }
-  });
+  sortedComics = computed<Comic[]>(() =>
+    getSortedComics([...this.filteredComics()], this.selectedSort())
+  );
 
   stats = computed<StatItem[]>(() => {
     const totalTomes = this.calculateTotalComics();
@@ -216,6 +157,27 @@ export class ComicsComponent implements OnInit {
     ];
   });
 
+  private loadViewPreferencesFromStorage(): void {
+    const parsed = this.localStorageService.getItem<
+      Partial<{
+        view: 'read' | 'readlist' | 'owned';
+        sort: string;
+      }>
+    >(this.viewPreferencesStorageKey);
+    if (!parsed || typeof parsed !== 'object') return;
+    this.isLoadingPreferences = true;
+    if (parsed.view && ['read', 'readlist', 'owned'].includes(parsed.view)) {
+      this.selectedView.set(parsed.view);
+    }
+    if (
+      parsed.sort &&
+      this.sortOptions().some((opt) => opt.value === parsed.sort)
+    ) {
+      this.selectedSort.set(parsed.sort);
+    }
+    this.isLoadingPreferences = false;
+  }
+
   onSortChange(sortValue: string) {
     this.selectedSort.set(sortValue);
   }
@@ -225,6 +187,7 @@ export class ComicsComponent implements OnInit {
   }
 
   async ngOnInit() {
+    this.loadViewPreferencesFromStorage();
     await this.refreshComics();
   }
 

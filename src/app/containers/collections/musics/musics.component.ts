@@ -1,4 +1,4 @@
-import { Component, inject, signal, computed, OnInit } from '@angular/core';
+import { Component, inject, signal, computed, OnInit, effect } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { MusicComponent } from '../../../components/music/music.component';
@@ -23,9 +23,15 @@ import {
 import { Music } from '../../../models/music-model';
 import { ActivatedRoute, Params, RouterLink } from '@angular/router';
 import { getAllMusics } from '../../../facades/musics/musics.facade';
-
-const MIN_SONGS_PER_ALBUM = 8;
-const TIMES_LISTENED_FOR_POPULAR = 9;
+import { LocalStorageService } from '../../../services/local-storage.service';
+import {
+  getSortedMusics,
+  MIN_SONGS_PER_ALBUM,
+  TIMES_LISTENED_FOR_POPULAR,
+  musicFilterOptions,
+  musicSortOptions,
+  musicViewOptions,
+} from './musics.utils';
 
 @Component({
   selector: 'app-musics',
@@ -45,6 +51,9 @@ const TIMES_LISTENED_FOR_POPULAR = 9;
 })
 export class MusicsComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
+  private readonly localStorageService = inject(LocalStorageService);
+  private isLoadingPreferences = false;
+  private readonly viewPreferencesStorageKey = 'musics_view_preferences';
 
   selectedSort = signal<string>('rating');
   selectedViewMode = signal<string>('albums'); // 'albums' ou 'all'
@@ -55,39 +64,25 @@ export class MusicsComponent implements OnInit {
   isAlbumModalOpen = signal<boolean>(false);
   selectedAlbum = signal<Album | null>(null);
 
-  filterOptions = [
-    { value: 'all', label: 'Afficher tout' },
-    {
-      value: 'more_than_once',
-      label: "Afficher les musiques écoutées plus d'une fois",
-    },
-    {
-      value: 'popular',
-      label: 'Afficher les plus écoutés (au-delà de 10 fois)',
-    },
-  ];
+  filterOptions = musicFilterOptions;
 
-  sortOptions: SortOption[] = [
-    { value: 'title', label: 'Titre (A-Z)' },
-    { value: 'title-desc', label: 'Titre (Z-A)' },
-    { value: 'artist', label: 'Artiste (A-Z)' },
-    { value: 'artist-desc', label: 'Artiste (Z-A)' },
-    { value: 'releaseDate', label: 'Date de sortie (récent)' },
-    { value: 'releaseDate-asc', label: 'Date de sortie (ancien)' },
-    { value: 'rating', label: 'Note (élevée)' },
-    { value: 'rating-asc', label: 'Note (faible)' },
-    { value: 'timesListened', label: 'Écoutes (élevé)' },
-    { value: 'timesListened-asc', label: 'Écoutes (faible)' },
-    { value: 'duration', label: 'Durée (long)' },
-    { value: 'duration-asc', label: 'Durée (court)' },
-  ];
+  sortOptions: SortOption[] = musicSortOptions;
 
-  viewOptions: ViewToggleOption[] = [
-    { value: 'albums', label: 'Grouper par album' },
-    { value: 'all', label: 'Afficher toutes les musiques' },
-  ];
+  viewOptions: ViewToggleOption[] = musicViewOptions;
 
   musicsList = signal<{ [key: string]: Music[] }>({});
+
+  constructor() {
+    effect(() => {
+      if (this.isLoadingPreferences) return;
+      const preferences = {
+        viewMode: this.selectedViewMode(),
+        filter: this.selectedFilter(),
+        sort: this.selectedSort(),
+      };
+      this.localStorageService.setItem(this.viewPreferencesStorageKey, preferences);
+    });
+  }
 
   allMusics = computed<Music[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
@@ -192,56 +187,9 @@ export class MusicsComponent implements OnInit {
     });
   });
 
-  sortedMusics = computed<Music[]>(() => {
-    const sortedMusics = [...this.filteredMusics()];
-
-    switch (this.selectedSort()) {
-      case 'title':
-        return sortedMusics.sort((a, b) => a.title.localeCompare(b.title));
-      case 'title-desc':
-        return sortedMusics.sort((a, b) => b.title.localeCompare(a.title));
-      case 'artist':
-        return sortedMusics.sort((a, b) => a.artist.localeCompare(b.artist));
-      case 'artist-desc':
-        return sortedMusics.sort((a, b) => b.artist.localeCompare(a.artist));
-      case 'releaseDate':
-        return sortedMusics.sort(
-          (a, b) =>
-            new Date(b.releaseDate).getTime() -
-            new Date(a.releaseDate).getTime()
-        );
-      case 'releaseDate-asc':
-        return sortedMusics.sort(
-          (a, b) =>
-            new Date(a.releaseDate).getTime() -
-            new Date(b.releaseDate).getTime()
-        );
-      case 'rating':
-        return sortedMusics.sort((a, b) => {
-          if (b.rating !== a.rating) {
-            return b.rating - a.rating;
-          }
-          return b.timesListened - a.timesListened;
-        });
-      case 'rating-asc':
-        return sortedMusics.sort((a, b) => {
-          if (a.rating !== b.rating) {
-            return a.rating - b.rating;
-          }
-          return b.timesListened - a.timesListened;
-        });
-      case 'timesListened':
-        return sortedMusics.sort((a, b) => b.timesListened - a.timesListened);
-      case 'timesListened-asc':
-        return sortedMusics.sort((a, b) => a.timesListened - b.timesListened);
-      case 'duration':
-        return sortedMusics.sort((a, b) => b.duration - a.duration);
-      case 'duration-asc':
-        return sortedMusics.sort((a, b) => a.duration - b.duration);
-      default:
-        return sortedMusics.sort((a, b) => a.title.localeCompare(b.title));
-    }
-  });
+  sortedMusics = computed<Music[]>(() =>
+    getSortedMusics([...this.filteredMusics()], this.selectedSort())
+  );
 
   stats = computed<StatItem[]>(() => {
     const totalDuration = this.calculateTotalDuration();
@@ -263,7 +211,36 @@ export class MusicsComponent implements OnInit {
     ];
   });
 
+  private loadViewPreferencesFromStorage(): void {
+    const parsed = this.localStorageService.getItem<
+      Partial<{
+        viewMode: string;
+        filter: string;
+        sort: string;
+      }>
+    >(this.viewPreferencesStorageKey);
+    if (!parsed || typeof parsed !== 'object') return;
+    this.isLoadingPreferences = true;
+    if (
+      parsed.viewMode &&
+      this.viewOptions.some((opt) => opt.value === parsed.viewMode)
+    ) {
+      this.selectedViewMode.set(parsed.viewMode);
+    }
+    if (
+      parsed.filter &&
+      this.filterOptions.some((opt) => opt.value === parsed.filter)
+    ) {
+      this.selectedFilter.set(parsed.filter);
+    }
+    if (parsed.sort && this.sortOptions.some((opt) => opt.value === parsed.sort)) {
+      this.selectedSort.set(parsed.sort);
+    }
+    this.isLoadingPreferences = false;
+  }
+
   ngOnInit() {
+    this.loadViewPreferencesFromStorage();
     void this.refreshMusics();
   }
 

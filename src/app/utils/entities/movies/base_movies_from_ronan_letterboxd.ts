@@ -1789,7 +1789,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Cailee Spaeny',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/aquaman_et_le_royaume_perdu.jpg',
     releaseDate: '2023-12-20',
@@ -2510,7 +2510,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Jack Dylan Grazer',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/shazam_la_rage_des_dieux.jpg',
     releaseDate: '2023-03-29',
@@ -3170,7 +3170,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'John Cena',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/the_suicide_squad.jpg',
     releaseDate: '2021-07-28',
@@ -4344,7 +4344,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Gal Gadot',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/justice_league.jpg',
     releaseDate: '2017-11-15',
@@ -4592,24 +4592,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
   },
-  {
-    title: 'Pirates des Caraïbes : La Vengeance de Salazar',
-    director: 'Joachim Rønning, Espen Sandberg',
-    actors: [
-      {
-        name: 'Johnny Depp',
-      },
-      {
-        name: 'Javier Bardem',
-      },
-    ],
-    coverUrl:
-      '/movies_pictures/pirates_of_the_caribbean_dead_men_tell_no_tales.jpg',
-    releaseDate: '2017-05-24',
-    length: 129,
-    genre: 'Aventure',
-    saga: '',
-  },
+
   {
     title: "Le Roi Arthur : La Légende d'Excalibur",
     director: 'Guy Ritchie',
@@ -8880,7 +8863,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Viggo Mortensen',
-      }
+      },
     ],
     coverUrl:
       '/movies_pictures/the_lord_of_the_rings_the_return_of_the_king.jpg',
@@ -9042,7 +9025,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Viggo Mortensen',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/the_lord_of_the_rings_the_two_towers.jpg',
     releaseDate: '2002-12-18',
@@ -9162,7 +9145,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Viggo Mortensen',
-      }
+      },
     ],
     coverUrl:
       '/movies_pictures/the_lord_of_the_rings_the_fellowship_of_the_ring.jpg',

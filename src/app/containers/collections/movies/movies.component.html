@@ -7,6 +7,8 @@
         ? "Films à voir"
         : selectedView() === "cinema"
         ? "Films vus au cinéma"
+        : selectedView() === "sagas"
+        ? "Films par saga"
         : selectedView() === "owned"
         ? "Films possédés"
         : "Films visionnés"
@@ -18,13 +20,21 @@
   <div class="movies-header-top">
     <app-view-toggle
       [toggleClass]="'movies-view-toggle'"
-      [options]="movieViewOptions"
+      [options]="visibleMovieViewOptions()"
       [selected]="selectedView()"
       (selectedChange)="onViewChange($any($event))"
     ></app-view-toggle>
 
     <div class="movies-actions">
       @if(selectedView() !== 'cinema') {
+      <button
+        class="btn btn-small"
+        type="button"
+        title="Configurer l'affichage des onglets"
+        (click)="openViewConfig()"
+      >
+        ⚙️ Configurer ma vue films
+      </button>
       <button
         class="btn btn-small"
         [routerLink]="getSelectMoviesRoute()"
@@ -148,6 +158,30 @@
   </div>
   }
 
+  @if(selectedView() === 'sagas') {
+  <div class="movies-by-saga">
+    @for (sagaGroup of moviesBySaga(); track sagaGroup.saga) {
+    <section class="movies-saga-section">
+      <h2 class="movies-saga-title">
+        {{ sagaGroup.saga }} ({{ sagaGroup.movies.length }})
+      </h2>
+      <div class="movies">
+        @for (movie of sagaGroup.movies; track `${movie.title}-${movie.releaseDate}`;
+        let i = $index) {
+        <div class="movie-card">
+          <app-movie
+            [movie]="movie"
+            [list]="sagaGroup.movies"
+            [index]="i"
+            (movieUpdated)="refreshMovies()"
+          ></app-movie>
+        </div>
+        }
+      </div>
+    </section>
+    }
+  </div>
+  } @else {
   <div class="movies">
     @for (movie of sortedMovies(); track `${movie.title}-${movie.releaseDate}`;
     let i = $index) {
@@ -161,4 +195,54 @@
     </div>
     }
   </div>
+  }
 </div>
+
+@if(isViewConfigOpen()) {
+<div class="movies-config-overlay" (click)="closeViewConfig()">
+  <div
+    class="movies-config-content"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Configurer ma vue films"
+    (click)="$event.stopPropagation()"
+  >
+    <div class="movies-config-header">
+      <h2>Configurer ma vue films</h2>
+      <button class="movies-config-close" (click)="closeViewConfig()">✕</button>
+    </div>
+    <div class="movies-config-body">
+      <p class="movies-config-subtitle">
+        Choisissez les onglets à afficher.
+      </p>
+      <label class="movies-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().cinema"
+          (change)="onOptionalViewChange('cinema', $any($event.target).checked)"
+        />
+        Films vus au cinéma
+      </label>
+      <label class="movies-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().owned"
+          (change)="onOptionalViewChange('owned', $any($event.target).checked)"
+        />
+        Films possédés
+      </label>
+      <label class="movies-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().sagas"
+          (change)="onOptionalViewChange('sagas', $any($event.target).checked)"
+        />
+        Voir les sagas
+      </label>
+      <p class="movies-config-hint">
+        "Films vus" et "Films à voir" restent affichés par défaut.
+      </p>
+    </div>
+  </div>
+</div>
+}

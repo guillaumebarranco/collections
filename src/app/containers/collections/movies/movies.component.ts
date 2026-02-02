@@ -30,8 +30,16 @@ import {
   getAllMovies,
   getAllWatchlistMovies,
 } from '../../../facades/movies/movies.facade';
-
-type MovieView = 'watched' | 'cinema' | 'watchlist' | 'owned';
+import { LocalStorageService } from '../../../services/local-storage.service';
+import {
+  getSortedMovies,
+  allYearsSince2000,
+  moviesSortOptions,
+  MovieView,
+  OptionalMovieView,
+  movieViewOptions,
+  yearFilterOptions,
+} from './movies.utils';
 
 @Component({
   selector: 'app-movies',
@@ -51,12 +59,23 @@ type MovieView = 'watched' | 'cinema' | 'watchlist' | 'owned';
 export class MoviesComponent implements OnInit {
   router = inject(Router);
   activatedRoute = inject(ActivatedRoute);
+  private readonly localStorageService = inject(LocalStorageService);
   private isInitializing = false;
+  private isLoadingViewConfig = false;
+  private isLoadingPreferences = false;
+  private readonly viewConfigStorageKey = 'movies_view_config';
+  private readonly viewPreferencesStorageKey = 'movies_view_preferences';
 
   selectedSort = signal<string>('lastViewedDate');
   selectedView = signal<MovieView>('watched');
   selectedYearFilter = signal<string>('all');
   searchTerm = signal<string>('');
+  isViewConfigOpen = signal<boolean>(false);
+  optionalViewConfig = signal<Record<OptionalMovieView, boolean>>({
+    cinema: true,
+    owned: true,
+    sagas: true,
+  });
 
   constructor() {
     // Synchroniser les changements de filtres/tri avec l'URL
@@ -84,9 +103,37 @@ export class MoviesComponent implements OnInit {
         replaceUrl: true,
       });
     });
+
+    effect(() => {
+      const config = this.optionalViewConfig();
+      if (this.isLoadingViewConfig) return;
+      this.localStorageService.setItem(this.viewConfigStorageKey, config);
+    });
+
+    effect(() => {
+      if (this.isLoadingPreferences || this.isInitializing) return;
+      const preferences = {
+        view: this.selectedView(),
+        sort: this.selectedSort(),
+        year: this.selectedYearFilter(),
+      };
+      this.localStorageService.setItem(
+        this.viewPreferencesStorageKey,
+        preferences
+      );
+    });
+
+    effect(() => {
+      const view = this.selectedView();
+      if (!this.isViewOptionVisible(view)) {
+        this.selectedView.set('watched');
+      }
+    });
   }
 
   ngOnInit() {
+    this.loadViewConfigFromStorage();
+    this.loadViewPreferencesFromStorage();
     // Lire les paramètres de l'URL au démarrage
     this.loadParamsFromUrl(this.activatedRoute.snapshot.queryParams);
 
@@ -105,7 +152,8 @@ export class MoviesComponent implements OnInit {
       queryParams['view'] === 'watchlist' ||
       queryParams['view'] === 'watched' ||
       queryParams['view'] === 'cinema' ||
-      queryParams['view'] === 'owned'
+      queryParams['view'] === 'owned' ||
+      queryParams['view'] === 'sagas'
     ) {
       this.selectedView.set(queryParams['view'] as MovieView);
     }
@@ -129,57 +177,17 @@ export class MoviesComponent implements OnInit {
     }
   }
 
-  sortOptions: SortOption[] = [
-    { value: 'title', label: 'Titre (A-Z)' },
-    { value: 'title-desc', label: 'Titre (Z-A)' },
-    { value: 'releaseDate', label: 'Date de sortie (récent)' },
-    { value: 'releaseDate-asc', label: 'Date de sortie (ancien)' },
-    { value: 'rating', label: 'Note (élevée)' },
-    { value: 'rating-asc', label: 'Note (faible)' },
-    { value: 'timesWatched', label: 'Visionnages (élevé)' },
-    { value: 'timesWatched-asc', label: 'Visionnages (faible)' },
-    { value: 'length', label: 'Durée (long)' },
-    { value: 'length-asc', label: 'Durée (court)' },
-    { value: 'lastViewedDate', label: 'Dernier visionnage (récent)' },
-    { value: 'lastViewedDate-asc', label: 'Dernier visionnage (ancien)' },
-  ];
+  sortOptions: SortOption[] = moviesSortOptions;
 
-  movieViewOptions: { value: MovieView; label: string }[] = [
-    { value: 'watched', label: 'Films vus' },
-    { value: 'cinema', label: 'Films vus au cinéma' },
-    { value: 'watchlist', label: 'Films à voir' },
-    { value: 'owned', label: 'Films possédés' },
-  ];
+  movieViewOptions: { value: MovieView; label: string }[] = movieViewOptions;
 
-  yearFilterOptions = [
-    { value: 'all', label: 'Toutes' },
-    { value: '2026', label: '2026' },
-    { value: '2025', label: '2025' },
-    { value: '2024', label: '2024' },
-    { value: '2023', label: '2023' },
-    { value: '2022', label: '2022' },
-    { value: '2021', label: '2021' },
-    { value: '2020', label: '2020' },
-    { value: '2019', label: '2019' },
-    { value: '2018', label: '2018' },
-    { value: '2017', label: '2017' },
-    { value: '2016', label: '2016' },
-    { value: '2015', label: '2015' },
-    { value: '2014', label: '2014' },
-    { value: '2013', label: '2013' },
-    { value: '2012', label: '2012' },
-    { value: '2011', label: '2011' },
-    { value: '2010', label: '2010' },
-    { value: '2009', label: '2009' },
-    { value: '2008', label: '2008' },
-    { value: '2007', label: '2007' },
-    { value: '2006', label: '2006' },
-    { value: '2005', label: '2005' },
-    { value: '2004', label: '2004' },
-    { value: '2003', label: '2003' },
-    { value: '2002', label: '2002' },
-    { value: 'before2002', label: 'Avant 2002' },
-  ];
+  visibleMovieViewOptions = computed(() =>
+    this.movieViewOptions.filter((option) =>
+      this.isViewOptionVisible(option.value)
+    )
+  );
+
+  yearFilterOptions = yearFilterOptions;
 
   moviesList = signal<{ [key: string]: Movie[] }>({});
 
@@ -209,6 +217,8 @@ export class MoviesComponent implements OnInit {
       movies = this.allMovies().filter((movie) => movie.seenAtCinema === true);
     } else if (this.selectedView() === 'owned') {
       movies = this.allMovies().filter((movie) => movie.owned);
+    } else if (this.selectedView() === 'sagas') {
+      movies = this.allMovies();
     } else {
       movies = this.allMovies();
     }
@@ -226,13 +236,7 @@ export class MoviesComponent implements OnInit {
 
     // Filtrage par année (seulement pour les films vus et vus au cinéma, basé sur firstViewedDate)
     if (this.selectedView() === 'watched' || this.selectedView() === 'cinema') {
-      if (
-        [
-          2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016,
-          2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005,
-          2004, 2003, 2002,
-        ].includes(Number(this.selectedYearFilter()))
-      ) {
+      if (allYearsSince2000.includes(Number(this.selectedYearFilter()))) {
         filteredMovies = filteredMovies.filter((m) =>
           m.firstViewedDate?.startsWith(this.selectedYearFilter())
         );
@@ -248,71 +252,39 @@ export class MoviesComponent implements OnInit {
     return filteredMovies;
   });
 
-  sortedMovies = computed<Movie[]>(() => {
-    const sortedMovies = [...this.filteredMoviesByYear()];
+  sortedMovies = computed<Movie[]>(() =>
+    getSortedMovies([...this.filteredMoviesByYear()], this.selectedSort())
+  );
 
-    switch (this.selectedSort()) {
-      case 'title':
-        return sortedMovies.sort((a, b) => a.title.localeCompare(b.title));
-      case 'title-desc':
-        return sortedMovies.sort((a, b) => b.title.localeCompare(a.title));
-      case 'releaseDate':
-        return sortedMovies.sort(
-          (a, b) =>
-            new Date(b.releaseDate).getTime() -
-            new Date(a.releaseDate).getTime()
-        );
-      case 'releaseDate-asc':
-        return sortedMovies.sort(
-          (a, b) =>
-            new Date(a.releaseDate).getTime() -
-            new Date(b.releaseDate).getTime()
-        );
-      case 'rating':
-        return sortedMovies.sort((a, b) => {
-          if (b.rating !== a.rating) {
-            return b.rating - a.rating;
-          }
-          return b.timesWatched - a.timesWatched;
-        });
-      case 'rating-asc':
-        return sortedMovies.sort((a, b) => {
-          if (a.rating !== b.rating) {
-            return a.rating - b.rating;
-          }
-          return b.timesWatched - a.timesWatched;
-        });
-      case 'timesWatched':
-        return sortedMovies.sort((a, b) => b.timesWatched - a.timesWatched);
-      case 'timesWatched-asc':
-        return sortedMovies.sort((a, b) => a.timesWatched - b.timesWatched);
-      case 'length':
-        return sortedMovies.sort((a, b) => b.length - a.length);
-      case 'length-asc':
-        return sortedMovies.sort((a, b) => a.length - b.length);
-      case 'lastViewedDate':
-        return sortedMovies.sort((a, b) => {
-          const dateA = a.lastViewedDate
-            ? new Date(a.lastViewedDate).getTime()
-            : 0;
-          const dateB = b.lastViewedDate
-            ? new Date(b.lastViewedDate).getTime()
-            : 0;
-          return dateB - dateA;
-        });
-      case 'lastViewedDate-asc':
-        return sortedMovies.sort((a, b) => {
-          const dateA = a.lastViewedDate
-            ? new Date(a.lastViewedDate).getTime()
-            : 0;
-          const dateB = b.lastViewedDate
-            ? new Date(b.lastViewedDate).getTime()
-            : 0;
-          return dateA - dateB;
-        });
-      default:
-        return sortedMovies.sort((a, b) => a.title.localeCompare(b.title));
+  moviesBySaga = computed<{ saga: string; movies: Movie[] }[]>(() => {
+    if (this.selectedView() !== 'sagas') {
+      return [];
     }
+
+    const sagaMap = new Map<string, Movie[]>();
+    for (const movie of this.sortedMovies()) {
+      const sagaName = movie.saga?.trim();
+      if (!sagaName) {
+        continue;
+      }
+      const list = sagaMap.get(sagaName) ?? [];
+      list.push(movie);
+      sagaMap.set(sagaName, list);
+    }
+
+    const sagaGroups = Array.from(sagaMap.entries()).map(([saga, movies]) => ({
+      saga,
+      movies,
+    }));
+
+    sagaGroups.sort((a, b) => {
+      if (b.movies.length !== a.movies.length) {
+        return b.movies.length - a.movies.length;
+      }
+      return a.saga.localeCompare(b.saga);
+    });
+
+    return sagaGroups;
   });
 
   stats = computed<StatItem[]>(() => {
@@ -405,6 +377,21 @@ export class MoviesComponent implements OnInit {
     this.selectedView.set(view);
   }
 
+  openViewConfig() {
+    this.isViewConfigOpen.set(true);
+  }
+
+  closeViewConfig() {
+    this.isViewConfigOpen.set(false);
+  }
+
+  onOptionalViewChange(view: OptionalMovieView, enabled: boolean) {
+    this.optionalViewConfig.update((current) => ({
+      ...current,
+      [view]: enabled,
+    }));
+  }
+
   onYearFilterChange(year: string) {
     this.selectedYearFilter.set(year);
   }
@@ -415,7 +402,13 @@ export class MoviesComponent implements OnInit {
 
   private matchesSearch(movie: Movie, term: string): boolean {
     const actors = movie.actors?.map((actor) => actor.name).join(' ') || '';
-    const haystack = [movie.title, movie.director, actors, movie.genre]
+    const haystack = [
+      movie.title,
+      movie.director,
+      actors,
+      movie.genre,
+      movie.saga,
+    ]
       .filter(Boolean)
       .join(' ');
 
@@ -429,5 +422,63 @@ export class MoviesComponent implements OnInit {
       .normalize('NFD')
       .replace(/[\u0300-\u036f]/g, '')
       .toLowerCase();
+  }
+
+  private isViewOptionVisible(view: MovieView): boolean {
+    if (view === 'watched' || view === 'watchlist') {
+      return true;
+    }
+    return this.optionalViewConfig()[view];
+  }
+
+  private loadViewPreferencesFromStorage(): void {
+    const parsed = this.localStorageService.getItem<
+      Partial<{
+        view: MovieView;
+        sort: string;
+        year: string;
+      }>
+    >(this.viewPreferencesStorageKey);
+    if (!parsed || typeof parsed !== 'object') return;
+    this.isLoadingPreferences = true;
+    if (
+      parsed.view &&
+      this.movieViewOptions.some(
+        (opt: { value: MovieView; label: string }) => opt.value === parsed.view
+      )
+    ) {
+      this.selectedView.set(parsed.view);
+    }
+    if (
+      parsed.sort &&
+      this.sortOptions.some(
+        (opt: { value: string; label: string }) => opt.value === parsed.sort
+      )
+    ) {
+      this.selectedSort.set(parsed.sort);
+    }
+    if (
+      parsed.year &&
+      this.yearFilterOptions.some(
+        (opt: { value: string; label: string }) => opt.value === parsed.year
+      )
+    ) {
+      this.selectedYearFilter.set(parsed.year);
+    }
+    this.isLoadingPreferences = false;
+  }
+
+  private loadViewConfigFromStorage(): void {
+    const parsed = this.localStorageService.getItem<
+      Partial<Record<OptionalMovieView, boolean>>
+    >(this.viewConfigStorageKey);
+    if (!parsed || typeof parsed !== 'object') return;
+    this.isLoadingViewConfig = true;
+    this.optionalViewConfig.set({
+      cinema: parsed.cinema ?? true,
+      owned: parsed.owned ?? true,
+      sagas: parsed.sagas ?? true,
+    });
+    this.isLoadingViewConfig = false;
   }
 }

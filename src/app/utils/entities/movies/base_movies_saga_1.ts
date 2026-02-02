@@ -232,7 +232,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2003-06-06',
     length: 107,
     genre: 'Action',
-    saga: 'Hors saga',
+    saga: 'Fast & Furious',
   },
   {
     title: 'Fast and Furious : Tokyo Drift',
@@ -397,7 +397,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1984-10-26',
     length: 107,
     genre: 'Science Fiction',
-    saga: 'Rocky',
+    saga: 'Terminator',
   },
   {
     title: 'Terminator 2: Judgment Day',
@@ -465,7 +465,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2002-06-14',
     length: 86,
     genre: 'Comedy',
-    saga: 'Hors saga',
+    saga: 'Scooby-Doo',
   },
   {
     title: 'Scooby-Doo 2: Monsters Unleashed',
@@ -476,7 +476,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2004-03-26',
     length: 93,
     genre: 'Comedy',
-    saga: 'Hors saga',
+    saga: 'Scooby-Doo',
   },
   {
     title: 'Matrix',
@@ -798,7 +798,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1996-07-03',
     length: 145,
     genre: 'Science Fiction',
-    saga: 'Hors saga',
+    saga: 'Independence Day',
   },
   {
     title: 'Independence Day : Resurgence',
@@ -809,7 +809,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1996-07-03',
     length: 145,
     genre: 'Science Fiction',
-    saga: 'Hors saga',
+    saga: 'Independence Day',
   },
   {
     title: "Maman j'ai raté l'avion",
@@ -819,7 +819,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1990-11-16',
     length: 103,
     genre: 'Comedy',
-    saga: 'Hors saga',
+    saga: "Maman j'ai raté l'avion",
   },
   {
     title: "Maman j'ai raté l'avion 2",
@@ -829,7 +829,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1992-11-20',
     length: 120,
     genre: 'Comedy',
-    saga: 'Hors saga',
+    saga: "Maman j'ai raté l'avion",
   },
   {
     title: 'Retour vers le futur',
@@ -912,7 +912,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1972-03-24',
     length: 175,
     genre: 'Crime',
-    saga: 'Hors saga',
+    saga: 'Le Parrain',
   },
   {
     title: 'Le Parrain 2',
@@ -923,7 +923,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '1974-12-20',
     length: 202,
     genre: 'Crime',
-    saga: 'Hors saga',
+    saga: 'Le Parrain',
   },
   {
     title: 'Le Labyrinthe',
@@ -1021,7 +1021,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2010-10-15',
     length: 111,
     genre: 'Action',
-    saga: 'Hors saga',
+    saga: 'RED',
   },
   {
     title: 'RED 2',
@@ -1031,7 +1031,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2013-07-19',
     length: 116,
     genre: 'Action',
-    saga: 'Hors saga',
+    saga: 'RED',
   },
   {
     title: 'Very Bad Trip',
@@ -1041,7 +1041,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2009-06-05',
     length: 100,
     genre: 'Comedy',
-    saga: 'Hors saga',
+    saga: 'Very Bad Trip',
   },
   {
     title: 'Very Bad Trip 2',
@@ -1051,7 +1051,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2011-05-26',
     length: 102,
     genre: 'Comedy',
-    saga: 'Hors saga',
+    saga: 'Very Bad Trip',
   },
   {
     title: 'Very Bad Trip 3',
@@ -1062,7 +1062,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2013-05-23',
     length: 100,
     genre: 'Comedy',
-    saga: 'Hors saga',
+    saga: 'Very Bad Trip',
   },
   {
     title: 'Die Hard : Piège de cristal',

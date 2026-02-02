@@ -1,4 +1,4 @@
-import { Component, inject, signal, computed, OnInit } from '@angular/core';
+import { Component, inject, signal, computed, OnInit, effect } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { BdComponent } from '../../../components/bd/bd.component';
@@ -18,6 +18,12 @@ import {
 } from '../../../components/stats-display/stats-display.component';
 import { Bd } from '../../../models/bd-model';
 import {
+  BdView,
+  bdViewOptions,
+  bdsSortOptions,
+  getSortedBds,
+} from './bds.utils';
+import {
   PAGES_PER_MANGA_TOME,
   getEstimatedBdReadingTime,
   getTotalTomesBdRead,
@@ -27,6 +33,7 @@ import { ActivatedRoute, Params, RouterLink } from '@angular/router';
 import { getAllBds, getAllReadlistBds } from '../../../facades/bds/bds.facade';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditBdComponent } from '../../edit/edit-bd/edit-bd.component';
+import { LocalStorageService } from '../../../services/local-storage.service';
 
 @Component({
   selector: 'app-bds',
@@ -48,36 +55,31 @@ import { EditBdComponent } from '../../edit/edit-bd/edit-bd.component';
 export class BdsComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
   private readonly dialog = inject(MatDialog);
+  private readonly localStorageService = inject(LocalStorageService);
+  private isLoadingPreferences = false;
+  private readonly viewPreferencesStorageKey = 'bds_view_preferences';
 
   selectedSort = signal<string>('rating');
-  selectedView = signal<'read' | 'readlist' | 'owned'>('read');
+  selectedView = signal<BdView>('read');
   searchTerm = signal<string>('');
 
-  sortOptions = signal<SortOption[]>([
-    { value: 'title', label: 'Titre (A-Z)' },
-    { value: 'title-desc', label: 'Titre (Z-A)' },
-    { value: 'designer', label: 'Designer (A-Z)' },
-    { value: 'designer-desc', label: 'Designer (Z-A)' },
-    { value: 'readDate', label: 'Date de lecture (récent)' },
-    { value: 'readDate-asc', label: 'Date de lecture (ancien)' },
-    { value: 'rating', label: 'Note (élevée)' },
-    { value: 'rating-asc', label: 'Note (faible)' },
-    { value: 'readTimes', label: 'Relectures (élevé)' },
-    { value: 'readTimes-asc', label: 'Relectures (faible)' },
-    { value: 'nbTomes', label: 'Nombre de tomes (élevé)' },
-    { value: 'nbTomes-asc', label: 'Nombre de tomes (faible)' },
-    { value: 'genre', label: 'Genre (A-Z)' },
-    { value: 'genre-desc', label: 'Genre (Z-A)' },
-  ]);
+  sortOptions = signal<SortOption[]>(bdsSortOptions);
 
-  viewOptions: ViewToggleOption[] = [
-    { value: 'read', label: 'BD lues' },
-    { value: 'readlist', label: 'BD à lire' },
-    { value: 'owned', label: 'BD possédées' },
-  ];
+  viewOptions: ViewToggleOption[] = bdViewOptions;
 
   bdsList = signal<{ [key: string]: Bd[] }>({});
   readlistBdsList = signal<{ [key: string]: Bd[] }>({});
+
+  constructor() {
+    effect(() => {
+      if (this.isLoadingPreferences) return;
+      const preferences = {
+        view: this.selectedView(),
+        sort: this.selectedSort(),
+      };
+      this.localStorageService.setItem(this.viewPreferencesStorageKey, preferences);
+    });
+  }
 
   allBds = computed<Bd[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
@@ -113,73 +115,9 @@ export class BdsComponent implements OnInit {
     return bds.filter((bd) => this.matchesSearch(bd, term));
   });
 
-  sortedBds = computed<Bd[]>(() => {
-    const sortedBds = [...this.filteredBds()];
-    switch (this.selectedSort()) {
-      case 'title':
-        return sortedBds.sort((a, b) => a.title.localeCompare(b.title));
-      case 'title-desc':
-        return sortedBds.sort((a, b) => b.title.localeCompare(a.title));
-      case 'designer':
-        return sortedBds.sort((a, b) =>
-          a.designer.localeCompare(b.designer)
-        );
-      case 'designer-desc':
-        return sortedBds.sort((a, b) =>
-          b.designer.localeCompare(a.designer)
-        );
-      case 'readDate':
-        return sortedBds.sort(
-          (a, b) =>
-            new Date(b.readDate).getTime() - new Date(a.readDate).getTime()
-        );
-      case 'readDate-asc':
-        return sortedBds.sort(
-          (a, b) =>
-            new Date(a.readDate).getTime() - new Date(b.readDate).getTime()
-        );
-      case 'rating':
-        return sortedBds.sort((a, b) => {
-          const ratingA = a.rating || 0;
-          const ratingB = b.rating || 0;
-          if (ratingB !== ratingA) {
-            return ratingB - ratingA;
-          }
-          const readTimesA = a.readTimes || 0;
-          const readTimesB = b.readTimes || 0;
-          return readTimesB - readTimesA;
-        });
-      case 'rating-asc':
-        return sortedBds.sort((a, b) => {
-          const ratingA = a.rating || 0;
-          const ratingB = b.rating || 0;
-          if (ratingA !== ratingB) {
-            return ratingA - ratingB;
-          }
-          const readTimesA = a.readTimes || 0;
-          const readTimesB = b.readTimes || 0;
-          return readTimesB - readTimesA;
-        });
-      case 'readTimes':
-        return sortedBds.sort(
-          (a, b) => (b.readTimes || 0) - (a.readTimes || 0)
-        );
-      case 'readTimes-asc':
-        return sortedBds.sort(
-          (a, b) => (a.readTimes || 0) - (b.readTimes || 0)
-        );
-      case 'nbTomes':
-        return sortedBds.sort((a, b) => (b.nbTomes || 0) - (a.nbTomes || 0));
-      case 'nbTomes-asc':
-        return sortedBds.sort((a, b) => (a.nbTomes || 0) - (b.nbTomes || 0));
-      case 'genre':
-        return sortedBds.sort((a, b) => a.genre.localeCompare(b.genre));
-      case 'genre-desc':
-        return sortedBds.sort((a, b) => b.genre.localeCompare(a.genre));
-      default:
-        return sortedBds.sort((a, b) => (b.rating || 0) - (a.rating || 0));
-    }
-  });
+  sortedBds = computed<Bd[]>(() =>
+    getSortedBds([...this.filteredBds()], this.selectedSort())
+  );
 
   stats = computed<StatItem[]>(() => {
     const totalTomes = this.calculateTotalTomes();
@@ -222,6 +160,27 @@ export class BdsComponent implements OnInit {
     ];
   });
 
+  private loadViewPreferencesFromStorage(): void {
+    const parsed = this.localStorageService.getItem<
+      Partial<{
+        view: 'read' | 'readlist' | 'owned';
+        sort: string;
+      }>
+    >(this.viewPreferencesStorageKey);
+    if (!parsed || typeof parsed !== 'object') return;
+    this.isLoadingPreferences = true;
+    if (parsed.view && ['read', 'readlist', 'owned'].includes(parsed.view)) {
+      this.selectedView.set(parsed.view);
+    }
+    if (
+      parsed.sort &&
+      this.sortOptions().some((opt) => opt.value === parsed.sort)
+    ) {
+      this.selectedSort.set(parsed.sort);
+    }
+    this.isLoadingPreferences = false;
+  }
+
   onSortChange(sortValue: string) {
     this.selectedSort.set(sortValue);
   }
@@ -231,6 +190,7 @@ export class BdsComponent implements OnInit {
   }
 
   async ngOnInit() {
+    this.loadViewPreferencesFromStorage();
     await this.refreshBds();
   }
 

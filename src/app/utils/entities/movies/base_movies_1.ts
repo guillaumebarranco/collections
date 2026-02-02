@@ -173,20 +173,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Documentary',
     saga: '',
   },
-  {
-    title: 'Creed III',
-    director: 'Michael B. Jordan',
-    actors: [
-      {
-        name: 'Michael B. Jordan',
-      },
-    ],
-    coverUrl: '/movies_pictures/601624-creed-iii-0-150-0-225-crop.jpg',
-    releaseDate: '2023-03-03',
-    length: 116,
-    genre: 'Drama',
-    saga: '',
-  },
+
   {
     title: 'Babylon',
     director: 'Damien Chazelle',

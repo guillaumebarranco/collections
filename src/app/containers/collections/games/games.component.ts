@@ -1,4 +1,4 @@
-import { Component, computed, inject, signal, OnInit } from '@angular/core';
+import { Component, computed, inject, signal, OnInit, effect } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { GameComponent } from '../../../components/game/game.component';
@@ -22,11 +22,18 @@ import {
   ItemWithGameLength,
   TimeStats,
 } from '../../../utils/stats.utils';
+import {
+  GameView,
+  gameViewOptions,
+  gamesSortOptions,
+  getSortedGames,
+} from './games.utils';
 import { ActivatedRoute, Params, RouterLink } from '@angular/router';
 import {
   getAllGames,
   getAllGamelistGames,
 } from '../../../facades/games/games.facade';
+import { LocalStorageService } from '../../../services/local-storage.service';
 
 import {
   getTotalTimeToFinishGames,
@@ -52,35 +59,18 @@ import {
 })
 export class GamesComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
+  private readonly localStorageService = inject(LocalStorageService);
+  private isLoadingPreferences = false;
+  private readonly viewPreferencesStorageKey = 'games_view_preferences';
 
   selectedSort = signal<string>('rating');
-  selectedView = signal<'played' | 'platined' | 'gamelist' | 'owned'>('played');
+  selectedView = signal<GameView>('played');
   searchTerm = signal<string>('');
 
-  sortOptions = signal<SortOption[]>([
-    { value: 'title', label: 'Titre (A-Z)' },
-    { value: 'title-desc', label: 'Titre (Z-A)' },
-    { value: 'platform', label: 'Plateforme (A-Z)' },
-    { value: 'platform-desc', label: 'Plateforme (Z-A)' },
-    { value: 'releaseDate', label: 'Date de sortie (récent)' },
-    { value: 'releaseDate-asc', label: 'Date de sortie (ancien)' },
-    { value: 'rating', label: 'Note (élevée)' },
-    { value: 'rating-asc', label: 'Note (faible)' },
-    { value: 'timesFinished', label: 'Terminés (élevé)' },
-    { value: 'timesFinished-asc', label: 'Terminés (faible)' },
-    { value: 'averageTimeToFinish', label: 'Temps (long)' },
-    { value: 'averageTimeToFinish-asc', label: 'Temps (court)' },
-    { value: 'totalPlayedTime', label: 'Temps passé (élevé)' },
-    { value: 'totalPlayedTime-asc', label: 'Temps passé (faible)' },
-  ]);
+  sortOptions = signal<SortOption[]>(gamesSortOptions);
 
   viewOptions = computed<ViewToggleOption[]>(() => {
-    const options: ViewToggleOption[] = [
-      { value: 'played', label: 'Jeux terminés' },
-      { value: 'platined', label: 'Jeux platinés' },
-      { value: 'gamelist', label: 'Jeux à jouer' },
-      { value: 'owned', label: 'Jeux possédés' },
-    ];
+    const options: ViewToggleOption[] = gameViewOptions;
 
     if (this.platinedGames().length === 0) {
       return options.filter((option) => option.value !== 'platined');
@@ -91,6 +81,17 @@ export class GamesComponent implements OnInit {
 
   gamesList = signal<{ [key: string]: Game[] }>({});
   gamelistGamesList = signal<{ [key: string]: Game[] }>({});
+
+  constructor() {
+    effect(() => {
+      if (this.isLoadingPreferences) return;
+      const preferences = {
+        view: this.selectedView(),
+        sort: this.selectedSort(),
+      };
+      this.localStorageService.setItem(this.viewPreferencesStorageKey, preferences);
+    });
+  }
 
   allGames = computed<Game[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
@@ -130,108 +131,9 @@ export class GamesComponent implements OnInit {
     return this.allGames().filter((game) => game.platined);
   });
 
-  sortedGames = computed<Game[]>(() => {
-    switch (this.selectedSort()) {
-      case 'title':
-        return this.filteredGames().sort((a, b) =>
-          a.title.localeCompare(b.title)
-        );
-      case 'title-desc':
-        return this.filteredGames().sort((a, b) =>
-          b.title.localeCompare(a.title)
-        );
-      case 'platform':
-        return this.filteredGames().sort((a, b) => {
-          const platformCompare = a.platform.localeCompare(b.platform);
-          if (platformCompare !== 0) return platformCompare;
-          return a.title.localeCompare(b.title);
-        });
-      case 'platform-desc':
-        return this.filteredGames().sort((a, b) => {
-          const platformCompare = b.platform.localeCompare(a.platform);
-          if (platformCompare !== 0) return platformCompare;
-          return a.title.localeCompare(b.title);
-        });
-      case 'releaseDate':
-        return this.filteredGames().sort(
-          (a, b) =>
-            new Date(b.releaseDate).getTime() -
-            new Date(a.releaseDate).getTime()
-        );
-      case 'releaseDate-asc':
-        return this.filteredGames().sort(
-          (a, b) =>
-            new Date(a.releaseDate).getTime() -
-            new Date(b.releaseDate).getTime()
-        );
-      case 'rating':
-        return this.filteredGames().sort((a, b) => {
-          if (b.rating !== a.rating) {
-            return b.rating - a.rating;
-          }
-          const totalTimeA =
-            a.averageTimeToFinish * a.timesFinished +
-            a.additionnalEstimatedTime;
-          const totalTimeB =
-            b.averageTimeToFinish * b.timesFinished +
-            b.additionnalEstimatedTime;
-          return totalTimeB - totalTimeA;
-        });
-      case 'rating-asc':
-        return this.filteredGames().sort((a, b) => {
-          if (a.rating !== b.rating) {
-            return a.rating - b.rating;
-          }
-          const totalTimeA =
-            a.averageTimeToFinish * a.timesFinished +
-            a.additionnalEstimatedTime;
-          const totalTimeB =
-            b.averageTimeToFinish * b.timesFinished +
-            b.additionnalEstimatedTime;
-          return totalTimeB - totalTimeA;
-        });
-      case 'timesFinished':
-        return this.filteredGames().sort(
-          (a, b) => b.timesFinished - a.timesFinished
-        );
-      case 'timesFinished-asc':
-        return this.filteredGames().sort(
-          (a, b) => a.timesFinished - b.timesFinished
-        );
-      case 'averageTimeToFinish':
-        return this.filteredGames().sort(
-          (a, b) => b.averageTimeToFinish - a.averageTimeToFinish
-        );
-      case 'averageTimeToFinish-asc':
-        return this.filteredGames().sort(
-          (a, b) => a.averageTimeToFinish - b.averageTimeToFinish
-        );
-      case 'totalPlayedTime':
-        return this.filteredGames().sort((a, b) => {
-          const totalTimeA =
-            a.averageTimeToFinish * a.timesFinished +
-            a.additionnalEstimatedTime;
-          const totalTimeB =
-            b.averageTimeToFinish * b.timesFinished +
-            b.additionnalEstimatedTime;
-          return totalTimeB - totalTimeA;
-        });
-      case 'totalPlayedTime-asc':
-        return this.filteredGames().sort((a, b) => {
-          const totalTimeA =
-            a.averageTimeToFinish * a.timesFinished +
-            a.additionnalEstimatedTime;
-          const totalTimeB =
-            b.averageTimeToFinish * b.timesFinished +
-            b.additionnalEstimatedTime;
-          return totalTimeA - totalTimeB;
-        });
-      default:
-        return this.filteredGames().sort((a, b) =>
-          a.title.localeCompare(b.title)
-        );
-    }
-  });
+  sortedGames = computed<Game[]>(() =>
+    getSortedGames([...this.filteredGames()], this.selectedSort())
+  );
 
   stats = computed<StatItem[]>(() => {
     const totalTimeToFinishGames = getTotalTimeToFinishGames(
@@ -273,6 +175,7 @@ export class GamesComponent implements OnInit {
   });
 
   ngOnInit() {
+    this.loadViewPreferencesFromStorage();
     void this.refreshGames();
   }
 
@@ -301,6 +204,30 @@ export class GamesComponent implements OnInit {
 
   onSearchChange(value: string) {
     this.searchTerm.set(value);
+  }
+
+  private loadViewPreferencesFromStorage(): void {
+    const parsed = this.localStorageService.getItem<
+      Partial<{
+        view: 'played' | 'platined' | 'gamelist' | 'owned';
+        sort: string;
+      }>
+    >(this.viewPreferencesStorageKey);
+    if (!parsed || typeof parsed !== 'object') return;
+    this.isLoadingPreferences = true;
+    if (
+      parsed.view &&
+      ['played', 'platined', 'gamelist', 'owned'].includes(parsed.view)
+    ) {
+      this.selectedView.set(parsed.view);
+    }
+    if (
+      parsed.sort &&
+      this.sortOptions().some((opt) => opt.value === parsed.sort)
+    ) {
+      this.selectedSort.set(parsed.sort);
+    }
+    this.isLoadingPreferences = false;
   }
 
   getSelectGamesRoute(): string {

@@ -1,4 +1,4 @@
-import { Component, inject, signal, computed, OnInit } from '@angular/core';
+import { Component, inject, signal, computed, OnInit, effect } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { MangaComponent } from '../../../components/manga/manga.component';
@@ -18,6 +18,12 @@ import {
 } from '../../../components/stats-display/stats-display.component';
 import { Manga } from '../../../models/manga-model';
 import {
+  MangaView,
+  mangaViewOptions,
+  mangasSortOptions,
+  getSortedMangas,
+} from './mangas.utils';
+import {
   getTotalMangaPages,
   getTotalMangaTomesRead,
   getEstimatedMangaReadingTime,
@@ -30,6 +36,7 @@ import {
 } from '../../../facades/mangas/mangas.facade';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditMangaComponent } from '../../edit/edit-manga/edit-manga.component';
+import { LocalStorageService } from '../../../services/local-storage.service';
 
 @Component({
   selector: 'app-mangas',
@@ -51,36 +58,31 @@ import { EditMangaComponent } from '../../edit/edit-manga/edit-manga.component';
 export class MangasComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
   private readonly dialog = inject(MatDialog);
+  private readonly localStorageService = inject(LocalStorageService);
+  private isLoadingPreferences = false;
+  private readonly viewPreferencesStorageKey = 'mangas_view_preferences';
 
   selectedSort = signal<string>('rating');
-  selectedView = signal<'read' | 'readlist' | 'owned'>('read');
+  selectedView = signal<MangaView>('read');
   searchTerm = signal<string>('');
 
-  sortOptions = signal<SortOption[]>([
-    { value: 'title', label: 'Titre (A-Z)' },
-    { value: 'title-desc', label: 'Titre (Z-A)' },
-    { value: 'author', label: 'Auteur (A-Z)' },
-    { value: 'author-desc', label: 'Auteur (Z-A)' },
-    { value: 'readDate', label: 'Date de lecture (récent)' },
-    { value: 'readDate-asc', label: 'Date de lecture (ancien)' },
-    { value: 'rating', label: 'Note (élevée)' },
-    { value: 'rating-asc', label: 'Note (faible)' },
-    { value: 'readTimes', label: 'Relectures (élevé)' },
-    { value: 'readTimes-asc', label: 'Relectures (faible)' },
-    { value: 'nbTomes', label: 'Nombre de tomes (élevé)' },
-    { value: 'nbTomes-asc', label: 'Nombre de tomes (faible)' },
-    { value: 'genre', label: 'Genre (A-Z)' },
-    { value: 'genre-desc', label: 'Genre (Z-A)' },
-  ]);
+  sortOptions = signal<SortOption[]>(mangasSortOptions);
 
-  viewOptions: ViewToggleOption[] = [
-    { value: 'read', label: 'Mangas lus' },
-    { value: 'readlist', label: 'Mangas à lire' },
-    { value: 'owned', label: 'Mangas possédés' },
-  ];
+  viewOptions: ViewToggleOption[] = mangaViewOptions;
 
   mangasList = signal<{ [key: string]: Manga[] }>({});
   readlistMangasList = signal<{ [key: string]: Manga[] }>({});
+
+  constructor() {
+    effect(() => {
+      if (this.isLoadingPreferences) return;
+      const preferences = {
+        view: this.selectedView(),
+        sort: this.selectedSort(),
+      };
+      this.localStorageService.setItem(this.viewPreferencesStorageKey, preferences);
+    });
+  }
 
   allMangas = computed<Manga[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
@@ -116,69 +118,9 @@ export class MangasComponent implements OnInit {
     return mangas.filter((manga) => this.matchesSearch(manga, term));
   });
 
-  sortedMangas = computed<Manga[]>(() => {
-    const sortedMangas = [...this.filteredMangas()];
-    switch (this.selectedSort()) {
-      case 'title':
-        return sortedMangas.sort((a, b) => a.title.localeCompare(b.title));
-      case 'title-desc':
-        return sortedMangas.sort((a, b) => b.title.localeCompare(a.title));
-      case 'author':
-        return sortedMangas.sort((a, b) => a.author.localeCompare(b.author));
-      case 'author-desc':
-        return sortedMangas.sort((a, b) => b.author.localeCompare(a.author));
-      case 'readDate':
-        return sortedMangas.sort(
-          (a, b) =>
-            new Date(b.readDate).getTime() - new Date(a.readDate).getTime()
-        );
-      case 'readDate-asc':
-        return sortedMangas.sort(
-          (a, b) =>
-            new Date(a.readDate).getTime() - new Date(b.readDate).getTime()
-        );
-      case 'rating':
-        return sortedMangas.sort((a, b) => {
-          const ratingA = a.rating || 0;
-          const ratingB = b.rating || 0;
-          if (ratingB !== ratingA) {
-            return ratingB - ratingA;
-          }
-          const readTimesA = a.readTimes || 0;
-          const readTimesB = b.readTimes || 0;
-          return readTimesB - readTimesA;
-        });
-      case 'rating-asc':
-        return sortedMangas.sort((a, b) => {
-          const ratingA = a.rating || 0;
-          const ratingB = b.rating || 0;
-          if (ratingA !== ratingB) {
-            return ratingA - ratingB;
-          }
-          const readTimesA = a.readTimes || 0;
-          const readTimesB = b.readTimes || 0;
-          return readTimesB - readTimesA;
-        });
-      case 'readTimes':
-        return sortedMangas.sort(
-          (a, b) => (b.readTimes || 0) - (a.readTimes || 0)
-        );
-      case 'readTimes-asc':
-        return sortedMangas.sort(
-          (a, b) => (a.readTimes || 0) - (b.readTimes || 0)
-        );
-      case 'nbTomes':
-        return sortedMangas.sort((a, b) => (b.nbTomes || 0) - (a.nbTomes || 0));
-      case 'nbTomes-asc':
-        return sortedMangas.sort((a, b) => (a.nbTomes || 0) - (b.nbTomes || 0));
-      case 'genre':
-        return sortedMangas.sort((a, b) => a.genre.localeCompare(b.genre));
-      case 'genre-desc':
-        return sortedMangas.sort((a, b) => b.genre.localeCompare(a.genre));
-      default:
-        return sortedMangas.sort((a, b) => (b.rating || 0) - (a.rating || 0));
-    }
-  });
+  sortedMangas = computed<Manga[]>(() =>
+    getSortedMangas([...this.filteredMangas()], this.selectedSort())
+  );
 
   stats = computed<StatItem[]>(() => {
     const totalTomes = this.calculateTotalTomes();
@@ -223,6 +165,27 @@ export class MangasComponent implements OnInit {
     ];
   });
 
+  private loadViewPreferencesFromStorage(): void {
+    const parsed = this.localStorageService.getItem<
+      Partial<{
+        view: 'read' | 'readlist' | 'owned';
+        sort: string;
+      }>
+    >(this.viewPreferencesStorageKey);
+    if (!parsed || typeof parsed !== 'object') return;
+    this.isLoadingPreferences = true;
+    if (parsed.view && ['read', 'readlist', 'owned'].includes(parsed.view)) {
+      this.selectedView.set(parsed.view);
+    }
+    if (
+      parsed.sort &&
+      this.sortOptions().some((opt) => opt.value === parsed.sort)
+    ) {
+      this.selectedSort.set(parsed.sort);
+    }
+    this.isLoadingPreferences = false;
+  }
+
   onSortChange(sortValue: string) {
     this.selectedSort.set(sortValue);
   }
@@ -232,6 +195,7 @@ export class MangasComponent implements OnInit {
   }
 
   async ngOnInit() {
+    this.loadViewPreferencesFromStorage();
     await this.refreshMangas();
   }
 
