@@ -4019,7 +4019,7 @@ export const ronanMovies: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
-    seenAtCinema: false,
+    seenAtCinema: true,
     owned: false,
   },
   {
@@ -4586,10 +4586,10 @@ export const ronanMovies: UserMovie[] = [
     title: 'Justice League',
     director: 'Zack Snyder',
     rating: 1,
-    timesWatched: 1,
+    timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '',
-    seenAtCinema: false,
+    seenAtCinema: true,
     owned: false,
   },
   {
@@ -8957,7 +8957,7 @@ export const ronanMovies: UserMovie[] = [
     title: 'Le Seigneur des anneaux : Les Deux Tours',
     director: 'Peter Jackson',
     rating: 5, // The Lord of the Rings: The Two Towers (2002) ★★★★★
-    timesWatched: 1,
+    timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
@@ -8967,7 +8967,7 @@ export const ronanMovies: UserMovie[] = [
     title: "Le Seigneur des anneaux : La Communauté de l'anneau",
     director: 'Peter Jackson',
     rating: 5, // The Lord of the Rings: The Fellowship of the Ring (2001) ★★★★★
-    timesWatched: 1,
+    timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
@@ -9297,7 +9297,7 @@ export const ronanMovies: UserMovie[] = [
     title: 'Le Seigneur des anneaux : Le Retour du roi',
     director: 'Peter Jackson',
     rating: 5, // The Lord of the Rings: The Return of the King (2003) - not found in ratings list
-    timesWatched: 1,
+    timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
@@ -9774,5 +9774,49 @@ export const ronanMovies: UserMovie[] = [
     lastViewedDate: '2026-01-28',
     seenAtCinema: false,
     owned: false,
+  },
+
+  {
+    title: 'L\'Amour, c\'est surcoté ',
+    director: 'Mourad Winter',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2026-01-31',
+    lastViewedDate: '2026-01-31',
+    seenAtCinema: false,
+    owned: false,
+  },
+
+  {
+    title: 'Le Seigneur des Anneaux - La Communauté de l\'Anneau - Version Longue',
+    director: 'Peter Jackson',
+    rating: 5,
+    timesWatched: 6,
+    firstViewedDate: '',
+    lastViewedDate: '2025-01-01',
+    seenAtCinema: false,
+    owned: true,
+  },
+
+  {
+    title: 'Le Seigneur des Anneaux - Les Deux Tours - Version Longue',
+    director: 'Peter Jackson',
+    rating: 5,
+    timesWatched: 6,
+    firstViewedDate: '',
+    lastViewedDate: '2026-01-01',
+    seenAtCinema: false,
+    owned: true,
+  },
+
+  {
+    title: 'Le Seigneur des Anneaux - Le Retour du Roi - Version Longue',
+    director: 'Peter Jackson',
+    rating: 5,
+    timesWatched: 5,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: true,
   },
 ];

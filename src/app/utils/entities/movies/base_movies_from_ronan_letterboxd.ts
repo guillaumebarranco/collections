@@ -1789,13 +1789,13 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Cailee Spaeny',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/aquaman_et_le_royaume_perdu.jpg',
     releaseDate: '2023-12-20',
     length: 124,
     genre: 'Action',
-    saga: '',
+    saga: 'DCEU',
   },
   {
     title: 'Tout sauf toi',
@@ -2510,13 +2510,13 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Jack Dylan Grazer',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/shazam_la_rage_des_dieux.jpg',
     releaseDate: '2023-03-29',
     length: 130,
     genre: 'Action',
-    saga: '',
+    saga: 'DCEU',
   },
   {
     title: 'Scream VI',
@@ -3170,13 +3170,13 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'John Cena',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/the_suicide_squad.jpg',
     releaseDate: '2021-07-28',
     length: 132,
     genre: 'Action',
-    saga: '',
+    saga: 'DCEU',
   },
   {
     title: 'Space Jam : Nouvelle Ère',
@@ -4344,13 +4344,13 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Gal Gadot',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/justice_league.jpg',
     releaseDate: '2017-11-15',
     length: 121,
     genre: 'Action',
-    saga: '',
+    saga: 'DCEU',
   },
   {
     title: 'The Babysitter',
@@ -8880,14 +8880,14 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Viggo Mortensen',
-      },
+      }
     ],
     coverUrl:
       '/movies_pictures/the_lord_of_the_rings_the_return_of_the_king.jpg',
     releaseDate: '2003-12-17',
     length: 201,
     genre: 'Fantastique',
-    saga: '',
+    saga: 'Tolkien',
   },
   {
     title: "Master and Commander : De l'autre côté du monde",
@@ -9042,13 +9042,13 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Viggo Mortensen',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/the_lord_of_the_rings_the_two_towers.jpg',
     releaseDate: '2002-12-18',
     length: 179,
     genre: 'Fantastique',
-    saga: '',
+    saga: 'Tolkien',
   },
   {
     title: 'Gangs of New York',
@@ -9162,14 +9162,14 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Viggo Mortensen',
-      },
+      }
     ],
     coverUrl:
       '/movies_pictures/the_lord_of_the_rings_the_fellowship_of_the_ring.jpg',
     releaseDate: '2001-12-19',
     length: 178,
     genre: 'Fantastique',
-    saga: '',
+    saga: 'Tolkien',
   },
   {
     title: 'Zoolander',

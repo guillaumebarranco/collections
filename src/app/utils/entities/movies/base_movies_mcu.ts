@@ -154,7 +154,11 @@ export const baseMoviesMcu: BaseMovie[] = [
   {
     title: 'Iron Man 3',
     director: 'Shane Black',
-    actors: [{ name: 'Robert Downey Jr.' }],
+    actors: [
+      {
+        name: 'Robert Downey Jr.',
+      }
+    ],
     coverUrl: '/movies_pictures/iron_man_3.jpg',
     releaseDate: '2013-05-03',
     length: 130,
@@ -251,7 +255,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     actors: [
       {
         name: 'Brie Larson',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/536970-the-marvels-0-150-0-225-crop.jpg',
     releaseDate: '2023-11-10',

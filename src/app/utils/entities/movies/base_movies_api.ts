@@ -144,4 +144,85 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Horreur',
     saga: '',
   },
+
+  {
+    title: 'L\'Amour, c\'est surcoté ',
+    director: 'Mourad Winter',
+    actors: [
+      {
+        name: 'Hakim Jemili',
+      },
+      {
+        name: 'Laura Felpin',
+      },
+    ],
+    coverUrl: 'https://fr.web.img6.acsta.net/img/f7/ab/f7ab00e30a61ebb9e441a458f5305e6b.jpg',
+    releaseDate: '2025-04-23',
+    length: 98,
+    genre: 'Comédie romantique',
+    saga: '',
+  },
+
+  {
+    title: 'Le Seigneur des Anneaux - La Communauté de l\'Anneau - Version Longue',
+    director: 'Peter Jackson',
+    actors: [
+      {
+        name: 'Elijah Wood',
+      },
+      {
+        name: 'Sean Astin',
+      },
+      {
+        name: 'Ian McKellen',
+      }
+    ],
+    coverUrl: 'https://thumb.canalplus.pro/http/unsafe/%7BresolutionXY%7D/filters:quality(%7BimageQualityPercentage%7D)/media.prod.hawc.canal.aws.io-cplus.net/WBD_233982_000_FR_JAQCANAL_fr-FR.jpg',
+    releaseDate: '2002-08-06',
+    length: 228,
+    genre: 'Fantasy',
+    saga: 'Tolkien',
+  },
+
+  {
+    title: 'Le Seigneur des Anneaux - Les Deux Tours - Version Longue',
+    director: 'Peter Jackson',
+    actors: [
+      {
+        name: 'Elijah Wood',
+      },
+      {
+        name: 'Sean Astin',
+      },
+      {
+        name: 'Ian McKellen',
+      },
+    ],
+    coverUrl: 'https://m.media-amazon.com/images/S/pv-target-images/2002a21ab31e83aef16c675592917dd1907b75a688ae03a297b7a1daf0fd3443.jpg',
+    releaseDate: '2003-08-26',
+    length: 235,
+    genre: 'Fantasy',
+    saga: 'Tolkien',
+  },
+
+  {
+    title: 'Le Seigneur des Anneaux - Le Retour du Roi - Version Longue',
+    director: 'Peter Jackson',
+    actors: [
+      {
+        name: 'Elijah Wood',
+      },
+      {
+        name: 'Sean Astin',
+      },
+      {
+        name: 'Ian McKellen',
+      },
+    ],
+    coverUrl: 'https://m.media-amazon.com/images/S/pv-target-images/9077191b52c8be5301fa89c49bf227e578fcec58c164342bc9917f9ccfd0b2b4.jpg',
+    releaseDate: '2004-12-14',
+    length: 264,
+    genre: 'Fantasy',
+    saga: 'Tolkien',
+  },
 ];

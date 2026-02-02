@@ -99,12 +99,16 @@ export const baseMoviesDc: BaseMovie[] = [
   {
     title: "Batman v Superman : L'Aube de la Justice",
     director: 'Zack Snyder',
-    actors: [{ name: 'Ben Affleck' }],
+    actors: [
+      {
+        name: 'Ben Affleck',
+      }
+    ],
     coverUrl: '/movies_pictures/batman_v_superman.jpg',
     releaseDate: '2016-03-25',
     length: 151,
     genre: 'Action',
-    saga: '',
+    saga: 'DCEU',
   },
   {
     title: 'Shazam!',
@@ -112,13 +116,13 @@ export const baseMoviesDc: BaseMovie[] = [
     actors: [
       {
         name: 'Zachary Levi',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/213190-shazam--0-150-0-225-crop.jpg',
     releaseDate: '2019-04-05',
     length: 132,
     genre: 'Action',
-    saga: '',
+    saga: 'DCEU',
   },
   {
     title: 'Aquaman',
@@ -126,13 +130,13 @@ export const baseMoviesDc: BaseMovie[] = [
     actors: [
       {
         name: 'Jason Momoa',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/225060-aquaman-0-150-0-225-crop.jpg',
     releaseDate: '2018-12-21',
     length: 143,
     genre: 'Action',
-    saga: '',
+    saga: 'DCEU',
   },
   {
     title: 'Black Adam',
@@ -140,13 +144,13 @@ export const baseMoviesDc: BaseMovie[] = [
     actors: [
       {
         name: 'Dwayne Johnson',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/369179-black-adam-0-150-0-225-crop.jpg',
     releaseDate: '2022-10-21',
     length: 125,
     genre: 'Action',
-    saga: '',
+    saga: 'DCEU',
   },
   {
     title: "Zack Snyder's Justice League",
@@ -154,44 +158,56 @@ export const baseMoviesDc: BaseMovie[] = [
     actors: [
       {
         name: 'Ben Affleck',
-      },
+      }
     ],
     coverUrl:
       '/movies_pictures/709530-zack-snyder-s-justice-league-0-150-0-225-crop.jpg',
     releaseDate: '2021-03-18',
     length: 242,
     genre: 'Action',
-    saga: '',
+    saga: 'DCEU',
   },
   {
     title: 'Suicide Squad',
     director: 'David Ayer',
-    actors: [{ name: 'Will Smith' }],
+    actors: [
+      {
+        name: 'Will Smith',
+      }
+    ],
     coverUrl: '/movies_pictures/suicide_squad.jpg',
     releaseDate: '2016-08-05',
     length: 123,
     genre: 'Action',
-    saga: '',
+    saga: 'DCEU',
   },
   {
     title: 'Man of Steel',
     director: 'Zack Snyder',
-    actors: [{ name: 'Henry Cavill' }],
+    actors: [
+      {
+        name: 'Henry Cavill',
+      }
+    ],
     coverUrl: '/movies_pictures/man_of_steel.jpg',
     releaseDate: '2013-06-14',
     length: 143,
     genre: 'Action',
-    saga: '',
+    saga: 'DCEU',
   },
   {
     title: 'Superman',
     director: 'James Gunn',
-    actors: [{ name: 'David Corenswet' }],
+    actors: [
+      {
+        name: 'David Corenswet',
+      }
+    ],
     coverUrl: '/movies_pictures/superman_2025.jpg',
     releaseDate: '2025-07-11',
     length: 150,
     genre: 'Action',
-    saga: '',
+    saga: 'DCU',
   },
   {
     title: 'Watchmen : Les Gardiens',
@@ -216,12 +232,16 @@ export const baseMoviesDc: BaseMovie[] = [
   {
     title: 'Wonder Woman',
     director: 'Patty Jenkins',
-    actors: [{ name: 'Gal Gadot' }],
+    actors: [
+      {
+        name: 'Gal Gadot',
+      }
+    ],
     coverUrl: '/movies_pictures/225027-wonder-woman-0-150-0-225-crop.jpg',
     releaseDate: '2017-06-02',
     length: 141,
     genre: 'Action',
-    saga: '',
+    saga: 'DCEU',
   },
   {
     title: 'Wonder Woman 1984',
@@ -229,13 +249,13 @@ export const baseMoviesDc: BaseMovie[] = [
     actors: [
       {
         name: 'Gal Gadot',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/395731-wonder-woman-1984-0-150-0-225-crop.jpg',
     releaseDate: '2020-12-25',
     length: 151,
     genre: 'Action',
-    saga: '',
+    saga: 'DCEU',
   },
   {
     title: 'The Flash',
@@ -243,13 +263,13 @@ export const baseMoviesDc: BaseMovie[] = [
     actors: [
       {
         name: 'Ezra Miller',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/225845-the-flash-0-150-0-225-crop.jpg',
     releaseDate: '2023-06-16',
     length: 144,
     genre: 'Action',
-    saga: '',
+    saga: 'DCEU',
   },
   {
     title: 'Birds of Prey',
@@ -257,13 +277,13 @@ export const baseMoviesDc: BaseMovie[] = [
     actors: [
       {
         name: 'Margot Robbie',
-      },
+      }
     ],
     coverUrl:
       '/movies_pictures/426131-birds-of-prey-and-the-fantabulous-emancipation-of-one-har-0-150-0-225-crop.jpg',
     releaseDate: '2020-02-07',
     length: 109,
     genre: 'Action',
-    saga: '',
+    saga: 'DCEU',
   },
 ];
