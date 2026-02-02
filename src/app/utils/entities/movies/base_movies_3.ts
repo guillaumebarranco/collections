@@ -2,6 +2,17 @@ import { BaseMovie } from '../../../models/movie-model';
 
 export const baseMoviesPage3: BaseMovie[] = [
   {
+    title: 'Kingsman : Services Secrets',
+    director: 'Matthew Vaughn',
+    actors: [{ name: 'Taron Egerton' }],
+    coverUrl:
+      '/movies_pictures/148200-kingsman-the-secret-service-0-150-0-225-crop.jpg',
+    releaseDate: '2015-02-13',
+    length: 129,
+    genre: 'Action',
+    saga: '',
+  },
+  {
     title: 'Kingsman: The Golden Circle',
     director: 'Matthew Vaughn',
     actors: [{ name: 'Taron Egerton' }],
@@ -10,6 +21,23 @@ export const baseMoviesPage3: BaseMovie[] = [
     length: 141,
     genre: 'Action',
     saga: '',
+  },
+  {
+    title: "The King's Man : Première mission",
+    director: 'Matthew Vaughn',
+    actors: [
+      {
+        name: 'Ralph Fiennes',
+      },
+      {
+        name: 'Harris Dickinson',
+      },
+    ],
+    coverUrl: '/movies_pictures/1861024.webp',
+    releaseDate: '2021-12-22',
+    length: 131,
+    genre: 'Action, Espionnage',
+    saga: 'Kingsman',
   },
   {
     title: 'Death Note',
@@ -195,17 +223,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
   },
-  {
-    title: 'Kingsman : Services Secrets',
-    director: 'Matthew Vaughn',
-    actors: [{ name: 'Taron Egerton' }],
-    coverUrl:
-      '/movies_pictures/148200-kingsman-the-secret-service-0-150-0-225-crop.jpg',
-    releaseDate: '2015-02-13',
-    length: 129,
-    genre: 'Action',
-    saga: '',
-  },
+
   {
     title: 'Interstellar',
     director: 'Christopher Nolan',

@@ -117,6 +117,7 @@ export class DashboardComponent implements OnInit {
   filledUserId = signal<string>('');
   selectedTab = signal<'overview' | 'entities' | 'top5'>('overview');
   isAuthenticated = computed<boolean>(() => this.authService.isAuthenticated());
+  isAdmin = computed<boolean>(() => this.authService.isAdmin());
 
   tabOptions: ViewToggleOption[] = [
     { value: 'overview', label: "Vue d'ensemble" },

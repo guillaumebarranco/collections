@@ -289,11 +289,63 @@ function updateBdInFile(filePath: string, bdData: any): boolean {
   return true;
 }
 
+function updateBdIdentityInFile(filePath: string, bdData: any): boolean {
+  const content = fs.readFileSync(filePath, 'utf8');
+  const bds = parseBdsFromFile(content);
+  const matchTitle = bdData.matchTitle ?? bdData.title;
+  const matchWriter = bdData.matchWriter ?? bdData.writer;
+  const index = bds.findIndex(
+    (bd) => bd.title === matchTitle && bd.writer === matchWriter
+  );
+
+  if (index === -1) {
+    return false;
+  }
+
+  bds[index] = {
+    ...bds[index],
+    title: bdData.title ?? bds[index].title,
+    writer: bdData.writer ?? bds[index].writer,
+  };
+
+  const newArrayContent = bds
+    .map(
+      (bd) => `  {
+    title: '${escapeString(bd.title)}',
+    writer: '${escapeString(bd.writer)}',
+    readDate: '${escapeString(bd.readDate || '')}',
+    rating: ${bd.rating ?? 0},
+    readTimes: ${bd.readTimes ?? 1},
+    owned: ${bd.owned ?? false},
+  }`
+    )
+    .join(',\n');
+
+  const exportIndex = content.indexOf('export const');
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
+    throw new Error('Array bounds not found');
+  }
+  const { arrayStart, arrayEnd } = bounds;
+
+  const newContent =
+    content.slice(0, arrayStart + 1) +
+    '\n' +
+    newArrayContent +
+    '\n' +
+    content.slice(arrayEnd);
+
+  fs.writeFileSync(filePath, newContent, 'utf8');
+  return true;
+}
+
 function updateBaseBdInFile(filePath: string, bdData: any): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const bds = parseBaseBdsFullFromFile(content);
+  const matchTitle = bdData.matchTitle ?? bdData.title;
+  const matchWriter = bdData.matchWriter ?? bdData.writer;
   const index = bds.findIndex(
-    (bd) => bd.title === bdData.title && bd.writer === bdData.writer
+    (bd) => bd.title === matchTitle && bd.writer === matchWriter
   );
 
   if (index === -1) {
@@ -303,6 +355,8 @@ function updateBaseBdInFile(filePath: string, bdData: any): boolean {
   bds[index] = {
     ...bds[index],
     ...bdData,
+    title: bdData.title ?? bds[index].title,
+    writer: bdData.writer ?? bds[index].writer,
   };
 
   const newArrayContent = bds
@@ -431,6 +485,7 @@ module.exports = {
   appendObjectToArrayFile,
   baseBdExists,
   updateBdInFile,
+  updateBdIdentityInFile,
   updateBaseBdInFiles,
   removeBdFromFile,
   getUserBdsFiles,

@@ -62,12 +62,27 @@ export class EditComicComponent {
   );
 
   readonly comic = signal<Comic | null>(null);
+  readonly adminTitle = signal<string>('');
+  readonly adminSecondary = signal<string>('');
+  readonly originalTitle = signal<string>('');
+  readonly originalSecondary = signal<string>('');
   readonly comicForm = signal<EditComicForm | null>(null);
   readonly comicEntityForm = signal<EditComicEntityForm | null>(null);
   readonly comicNotFound = signal<boolean>(false);
   readonly isSaving = signal<boolean>(false);
   readonly isDeleting = signal<boolean>(false);
   readonly isAdmin = computed(() => this.authService.isAdmin());
+  readonly isAdminView = computed(
+    () => this.authService.isAdmin() && this.router.url.startsWith('/admin')
+  );
+  readonly isTitleModified = computed(
+    () => this.adminTitle().trim() !== this.originalTitle().trim()
+  );
+  readonly isSecondaryModified = computed(
+    () => this.adminSecondary().trim() !== this.originalSecondary().trim()
+  );
+  readonly disableTitleEdit = computed(() => this.isSecondaryModified());
+  readonly disableSecondaryEdit = computed(() => this.isTitleModified());
   readonly hasDialogUpdates = signal<boolean>(false);
   readonly dialogList = signal<Comic[]>([]);
   readonly dialogIndex = signal<number>(-1);
@@ -171,6 +186,10 @@ export class EditComicComponent {
   }
 
   async onSubmit(navigateAfterSave = false) {
+    if (this.isAdminView()) {
+      await this.onAdminSubmit();
+      return;
+    }
     const form = this.comicForm();
     const comic = this.comic();
     if (!form || !comic) return;
@@ -256,6 +275,50 @@ export class EditComicComponent {
       console.error('edit-comic:delete:error', error);
     } finally {
       this.isDeleting.set(false);
+    }
+  }
+
+  async onAdminSubmit() {
+    const comic = this.comic();
+    const entityForm = this.comicEntityForm();
+    if (!comic || !entityForm) return;
+    if (!this.canEditCurrentUser()) return;
+    if (this.isTitleModified() && this.isSecondaryModified()) {
+      alert(
+        "Merci de modifier soit le titre, soit le scénariste, pas les deux en même temps."
+      );
+      return;
+    }
+
+    this.isSaving.set(true);
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/comics`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.getAdminUserId(),
+          title: this.adminTitle().trim(),
+          writer: this.adminSecondary().trim(),
+          entityOnly: true,
+          originalTitle: this.originalTitle(),
+          originalWriter: this.originalSecondary(),
+          entity: this.toEntityPayload(entityForm),
+        }),
+      });
+
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        console.error('edit-comic:admin:error', payload);
+        return;
+      }
+
+      this.dialogRef?.close({ updated: true, payload });
+    } catch (error) {
+      console.error('edit-comic:admin:error', error);
+    } finally {
+      this.isSaving.set(false);
     }
   }
 
@@ -360,7 +423,11 @@ export class EditComicComponent {
   }
 
   private canEditCurrentUser(): boolean {
-    return this.authService.canEdit(this.getCurrentUserId());
+    return this.isAdminView() || this.authService.canEdit(this.getCurrentUserId());
+  }
+
+  private getAdminUserId(): string {
+    return this.authService.getAuthenticatedUserId() || this.getCurrentUserId();
   }
 
   private setupDialogNavigation(data: EditComicDialogData) {
@@ -398,6 +465,10 @@ export class EditComicComponent {
     this.comic.set(comic);
     this.comicForm.set(this.toForm(comic));
     this.comicEntityForm.set(this.toEntityForm(comic));
+    this.adminTitle.set(comic.title);
+    this.adminSecondary.set(comic.writer);
+    this.originalTitle.set(comic.title);
+    this.originalSecondary.set(comic.writer);
     this.comicNotFound.set(false);
   }
 

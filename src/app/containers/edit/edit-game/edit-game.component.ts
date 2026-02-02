@@ -68,12 +68,27 @@ export class EditGameComponent {
   );
 
   readonly game = signal<Game | null>(null);
+  readonly adminTitle = signal<string>('');
+  readonly adminSecondary = signal<string>('');
+  readonly originalTitle = signal<string>('');
+  readonly originalSecondary = signal<string>('');
   readonly gameForm = signal<EditGameForm | null>(null);
   readonly gameEntityForm = signal<EditGameEntityForm | null>(null);
   readonly gameNotFound = signal<boolean>(false);
   readonly isSaving = signal<boolean>(false);
   readonly isDeleting = signal<boolean>(false);
   readonly isAdmin = computed(() => this.authService.isAdmin());
+  readonly isAdminView = computed(
+    () => this.authService.isAdmin() && this.router.url.startsWith('/admin')
+  );
+  readonly isTitleModified = computed(
+    () => this.adminTitle().trim() !== this.originalTitle().trim()
+  );
+  readonly isSecondaryModified = computed(
+    () => this.adminSecondary().trim() !== this.originalSecondary().trim()
+  );
+  readonly disableTitleEdit = computed(() => this.isSecondaryModified());
+  readonly disableSecondaryEdit = computed(() => this.isTitleModified());
   readonly hasDialogUpdates = signal<boolean>(false);
   readonly dialogList = signal<Game[]>([]);
   readonly dialogIndex = signal<number>(-1);
@@ -184,6 +199,10 @@ export class EditGameComponent {
   }
 
   async onSubmit(navigateAfterSave = false) {
+    if (this.isAdminView()) {
+      await this.onAdminSubmit();
+      return;
+    }
     const form = this.gameForm();
     const game = this.game();
     if (!form || !game) return;
@@ -270,6 +289,50 @@ export class EditGameComponent {
       console.error('edit-game:delete:error', error);
     } finally {
       this.isDeleting.set(false);
+    }
+  }
+
+  async onAdminSubmit() {
+    const game = this.game();
+    const entityForm = this.gameEntityForm();
+    if (!game || !entityForm) return;
+    if (!this.canEditCurrentUser()) return;
+    if (this.isTitleModified() && this.isSecondaryModified()) {
+      alert(
+        "Merci de modifier soit le titre, soit l'éditeur, pas les deux en même temps."
+      );
+      return;
+    }
+
+    this.isSaving.set(true);
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/games`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.getAdminUserId(),
+          title: this.adminTitle().trim(),
+          editor: this.adminSecondary().trim(),
+          entityOnly: true,
+          originalTitle: this.originalTitle(),
+          originalEditor: this.originalSecondary(),
+          entity: this.toEntityPayload(entityForm),
+        }),
+      });
+
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        console.error('edit-game:admin:error', payload);
+        return;
+      }
+
+      this.dialogRef?.close({ updated: true, payload });
+    } catch (error) {
+      console.error('edit-game:admin:error', error);
+    } finally {
+      this.isSaving.set(false);
     }
   }
 
@@ -384,7 +447,11 @@ export class EditGameComponent {
   }
 
   private canEditCurrentUser(): boolean {
-    return this.authService.canEdit(this.getCurrentUserId());
+    return this.isAdminView() || this.authService.canEdit(this.getCurrentUserId());
+  }
+
+  private getAdminUserId(): string {
+    return this.authService.getAuthenticatedUserId() || this.getCurrentUserId();
   }
 
   private setupDialogNavigation(data: EditGameDialogData) {
@@ -422,6 +489,10 @@ export class EditGameComponent {
     this.game.set(game);
     this.gameForm.set(this.toForm(game));
     this.gameEntityForm.set(this.toEntityForm(game));
+    this.adminTitle.set(game.title);
+    this.adminSecondary.set(game.editor);
+    this.originalTitle.set(game.title);
+    this.originalSecondary.set(game.editor);
     this.gameNotFound.set(false);
   }
 

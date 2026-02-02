@@ -4,10 +4,11 @@ const {
   normalizeBoolean,
   normalizeString,
   updateGameInFile,
+  updateGameIdentityInFile,
   updateBaseGameInFiles,
   getUserGamesFiles,
 } = require('../../utils/games/games-utils');
-const { isAdminUser } = require('../../utils/users/users-utils');
+const { isAdminUser, loadUsers } = require('../../utils/users/users-utils');
 
 const router = express.Router();
 
@@ -22,7 +23,8 @@ router.post('/', (req: any, res: any) => {
 
     const games = Array.isArray(input.games) ? input.games : [input];
     const entityPayload = input.entity || null;
-    if (entityPayload && !isAdminUser(userId)) {
+    const entityOnly = Boolean(input.entityOnly);
+    if ((entityPayload || entityOnly) && !isAdminUser(userId)) {
       res.status(403).json({ error: 'Admin required to edit entity data' });
       return;
     }
@@ -46,29 +48,41 @@ router.post('/', (req: any, res: any) => {
       owned: normalizeBoolean(game.owned, 'owned') ?? false,
     }));
 
-    const files = getUserGamesFiles(userId);
-    if (!files.length) {
-      res.status(404).json({ error: 'User games not found' });
-      return;
-    }
-
     let updatedCount = 0;
-    for (const filePath of files) {
-      payload.forEach((game: any) => {
-        if (game.title && game.editor) {
-          if (updateGameInFile(filePath, game)) {
-            updatedCount += 1;
+    if (!entityOnly) {
+      const files = getUserGamesFiles(userId);
+      if (!files.length) {
+        res.status(404).json({ error: 'User games not found' });
+        return;
+      }
+
+      for (const filePath of files) {
+        payload.forEach((game: any) => {
+          if (game.title && game.editor) {
+            if (updateGameInFile(filePath, game)) {
+              updatedCount += 1;
+            }
           }
-        }
-      });
+        });
+      }
     }
 
     let baseUpdatedFile: string | null = null;
     if (entityPayload && payload.length > 0) {
       const target = payload[0];
+      const originalTitle = normalizeString(
+        input.originalTitle,
+        'originalTitle'
+      );
+      const originalEditor = normalizeString(
+        input.originalEditor,
+        'originalEditor'
+      );
       baseUpdatedFile = updateBaseGameInFiles({
         title: target.title,
         editor: target.editor,
+        matchTitle: originalTitle || target.title,
+        matchEditor: originalEditor || target.editor,
         hero: normalizeString(entityPayload.hero, 'hero'),
         coverUrl: normalizeString(entityPayload.coverUrl, 'coverUrl'),
         releaseDate: normalizeString(entityPayload.releaseDate, 'releaseDate'),
@@ -84,6 +98,29 @@ router.post('/', (req: any, res: any) => {
         saga: normalizeString(entityPayload.saga, 'saga'),
         platineTime: normalizeNumber(entityPayload.platineTime, 'platineTime'),
       });
+
+      if (originalTitle || originalEditor) {
+        const users = loadUsers();
+        const matchTitle = originalTitle || target.title;
+        const matchEditor = originalEditor || target.editor;
+        users.forEach((user: any) => {
+          try {
+            const files = getUserGamesFiles(user.username);
+            files.forEach((filePath: string) => {
+              updateGameIdentityInFile(filePath, {
+                matchTitle,
+                matchEditor,
+                title: target.title,
+                editor: target.editor,
+              });
+            });
+          } catch (error: any) {
+            if (!String(error.message || '').includes('not found')) {
+              throw error;
+            }
+          }
+        });
+      }
     }
 
     res.json({ ok: true, updated: updatedCount, baseFile: baseUpdatedFile });

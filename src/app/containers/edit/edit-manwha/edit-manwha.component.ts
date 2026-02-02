@@ -63,12 +63,27 @@ export class EditManwhaComponent {
   );
 
   readonly manwha = signal<Manwha | null>(null);
+  readonly adminTitle = signal<string>('');
+  readonly adminSecondary = signal<string>('');
+  readonly originalTitle = signal<string>('');
+  readonly originalSecondary = signal<string>('');
   readonly manwhaForm = signal<EditManwhaForm | null>(null);
   readonly manwhaEntityForm = signal<EditManwhaEntityForm | null>(null);
   readonly manwhaNotFound = signal<boolean>(false);
   readonly isSaving = signal<boolean>(false);
   readonly isDeleting = signal<boolean>(false);
   readonly isAdmin = computed(() => this.authService.isAdmin());
+  readonly isAdminView = computed(
+    () => this.authService.isAdmin() && this.router.url.startsWith('/admin')
+  );
+  readonly isTitleModified = computed(
+    () => this.adminTitle().trim() !== this.originalTitle().trim()
+  );
+  readonly isSecondaryModified = computed(
+    () => this.adminSecondary().trim() !== this.originalSecondary().trim()
+  );
+  readonly disableTitleEdit = computed(() => this.isSecondaryModified());
+  readonly disableSecondaryEdit = computed(() => this.isTitleModified());
   readonly hasDialogUpdates = signal<boolean>(false);
   readonly dialogList = signal<Manwha[]>([]);
   readonly dialogIndex = signal<number>(-1);
@@ -182,6 +197,10 @@ export class EditManwhaComponent {
   }
 
   async onSubmit(navigateAfterSave = false) {
+    if (this.isAdminView()) {
+      await this.onAdminSubmit();
+      return;
+    }
     const form = this.manwhaForm();
     const manwha = this.manwha();
     if (!form || !manwha) return;
@@ -267,6 +286,50 @@ export class EditManwhaComponent {
       console.error('edit-manwha:delete:error', error);
     } finally {
       this.isDeleting.set(false);
+    }
+  }
+
+  async onAdminSubmit() {
+    const manwha = this.manwha();
+    const entityForm = this.manwhaEntityForm();
+    if (!manwha || !entityForm) return;
+    if (!this.canEditCurrentUser()) return;
+    if (this.isTitleModified() && this.isSecondaryModified()) {
+      alert(
+        "Merci de modifier soit le titre, soit l'auteur, pas les deux en même temps."
+      );
+      return;
+    }
+
+    this.isSaving.set(true);
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/manwhas`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.getAdminUserId(),
+          title: this.adminTitle().trim(),
+          author: this.adminSecondary().trim(),
+          entityOnly: true,
+          originalTitle: this.originalTitle(),
+          originalAuthor: this.originalSecondary(),
+          entity: this.toEntityPayload(entityForm),
+        }),
+      });
+
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        console.error('edit-manwha:admin:error', payload);
+        return;
+      }
+
+      this.dialogRef?.close({ updated: true, payload });
+    } catch (error) {
+      console.error('edit-manwha:admin:error', error);
+    } finally {
+      this.isSaving.set(false);
     }
   }
 
@@ -373,7 +436,11 @@ export class EditManwhaComponent {
   }
 
   private canEditCurrentUser(): boolean {
-    return this.authService.canEdit(this.getCurrentUserId());
+    return this.isAdminView() || this.authService.canEdit(this.getCurrentUserId());
+  }
+
+  private getAdminUserId(): string {
+    return this.authService.getAuthenticatedUserId() || this.getCurrentUserId();
   }
 
   private setupDialogNavigation(data: EditManwhaDialogData) {
@@ -411,6 +478,10 @@ export class EditManwhaComponent {
     this.manwha.set(manwha);
     this.manwhaForm.set(this.toForm(manwha));
     this.manwhaEntityForm.set(this.toEntityForm(manwha));
+    this.adminTitle.set(manwha.title);
+    this.adminSecondary.set(manwha.author);
+    this.originalTitle.set(manwha.title);
+    this.originalSecondary.set(manwha.author);
     this.manwhaNotFound.set(false);
   }
 

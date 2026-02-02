@@ -62,6 +62,33 @@
   <br />
 
   <form *ngIf="bdForm()" class="edit-form" (ngSubmit)="onSubmit()">
+    @if (isAdminView()) {
+    <div class="form-row">
+      <label for="adminTitle">Titre</label>
+      <input
+        id="adminTitle"
+        type="text"
+        [disabled]="disableTitleEdit()"
+        [ngModel]="adminTitle()"
+        (ngModelChange)="adminTitle.set($event)"
+        name="adminTitle"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="adminWriter">Scénariste</label>
+      <input
+        id="adminWriter"
+        type="text"
+        [disabled]="disableSecondaryEdit()"
+        [ngModel]="adminSecondary()"
+        (ngModelChange)="adminSecondary.set($event)"
+        name="adminWriter"
+      />
+    </div>
+    }
+
+    @if (!isAdminView()) {
     <div class="form-row">
       <label>Note</label>
       <div class="rating-control">
@@ -123,8 +150,9 @@
         name="owned"
       />
     </div>
+    }
 
-    @if (isAdmin() && bdEntityForm()) {
+    @if ((isAdminView() || isAdmin()) && bdEntityForm()) {
     <div class="form-row">
       <label for="entityPages">Pages</label>
       <input

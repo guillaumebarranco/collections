@@ -31,12 +31,17 @@ import {
   getTotalTomesBdRead,
   getTotalBdPages,
 } from '../../../utils/stats.utils';
-import { ActivatedRoute, Params, RouterLink } from '@angular/router';
-import { getAllBds, getAllReadlistBds } from '../../../facades/bds/bds.facade';
+import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
+import {
+  getAllBaseBds,
+  getAllBds,
+  getAllReadlistBds,
+} from '../../../facades/bds/bds.facade';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditBdComponent } from '../../edit/edit-bd/edit-bd.component';
 import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
+import { AuthService } from '../../../core/auth.service';
 
 @Component({
   selector: 'app-bds',
@@ -58,8 +63,10 @@ import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 })
 export class BdsComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
+  router = inject(Router);
   private readonly dialog = inject(MatDialog);
   private readonly localStorageService = inject(LocalStorageService);
+  private readonly authService = inject(AuthService);
   private isLoadingPreferences = false;
   private readonly viewPreferencesStorageKey = 'bds_view_preferences';
 
@@ -76,10 +83,11 @@ export class BdsComponent implements OnInit {
 
   bdsList = signal<{ [key: string]: Bd[] }>({});
   readlistBdsList = signal<{ [key: string]: Bd[] }>({});
+  adminBdsList = signal<Bd[]>([]);
 
   constructor() {
     effect(() => {
-      if (this.isLoadingPreferences) return;
+      if (this.isLoadingPreferences || this.isAdminView()) return;
       const preferences = {
         view: this.selectedView(),
         sort: this.selectedSort(),
@@ -89,6 +97,9 @@ export class BdsComponent implements OnInit {
   }
 
   allBds = computed<Bd[]>(() => {
+    if (this.isAdminView()) {
+      return this.adminBdsList();
+    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
 
@@ -98,6 +109,9 @@ export class BdsComponent implements OnInit {
   });
 
   allReadlistBds = computed<Bd[]>(() => {
+    if (this.isAdminView()) {
+      return [];
+    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
 
@@ -108,7 +122,9 @@ export class BdsComponent implements OnInit {
 
   filteredBds = computed<Bd[]>(() => {
     let bds = this.allBds();
-    if (this.selectedView() === 'readlist') {
+    if (this.isAdminView()) {
+      bds = this.allBds();
+    } else if (this.selectedView() === 'readlist') {
       bds = this.allReadlistBds();
     } else if (this.selectedView() === 'owned') {
       bds = this.allBds().filter((bd) => bd.owned);
@@ -127,6 +143,9 @@ export class BdsComponent implements OnInit {
   );
 
   stats = computed<StatItem[]>(() => {
+    if (this.isAdminView()) {
+      return [];
+    }
     const totalTomes = this.calculateTotalTomes();
     const totalPages = this.calculateTotalPages();
     const totalTomesRead = getTotalTomesBdRead(this.filteredBds());
@@ -208,6 +227,9 @@ export class BdsComponent implements OnInit {
   }
 
   async ngOnInit() {
+    if (this.isAdminView()) {
+      this.selectedView.set('read');
+    }
     this.loadViewPreferencesFromStorage();
     void this.refreshQuizzs();
     await this.refreshBds();
@@ -285,6 +307,26 @@ export class BdsComponent implements OnInit {
   }
 
   private async refreshBds() {
+    if (this.isAdminView()) {
+      const baseBds = await getAllBaseBds();
+      const bds = baseBds.map((bd) => ({
+        title: bd.title,
+        writer: bd.writer,
+        coverUrl: bd.coverUrl,
+        pages: bd.pages,
+        genre: bd.genre,
+        nbTomes: bd.nbTomes,
+        isFinished: bd.isFinished,
+        designer: bd.designer,
+        rating: 0,
+        readDate: '',
+        readTimes: 0,
+        owned: false,
+      }));
+      this.adminBdsList.set(bds);
+      return;
+    }
+
     const userId = this.getActiveUserId();
     const [bds, readlist] = await Promise.all([
       getAllBds(userId),
@@ -325,5 +367,9 @@ export class BdsComponent implements OnInit {
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? 'guillaume';
+  }
+
+  public isAdminView(): boolean {
+    return this.authService.isAdmin() && this.router.url.startsWith('/admin');
   }
 }

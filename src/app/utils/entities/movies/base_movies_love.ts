@@ -343,6 +343,26 @@ export const baseMoviesLove: BaseMovie[] = [
     saga: '',
   },
   {
+    title: 'Sexy Dance 4 : Miami Heat',
+    director: 'Scott Speer',
+    actors: [
+      {
+        name: 'Ryan Guzman',
+      },
+      {
+        name: 'Kathryn McCormick',
+      },
+      {
+        name: 'Misha Gabriel Hamilton',
+      },
+    ],
+    coverUrl: '/movies_pictures/step_up_revolution.jpg',
+    releaseDate: '2012-08-08',
+    length: 99,
+    genre: 'Drame',
+    saga: '',
+  },
+  {
     title: "L'Arnacœur",
     director: 'Pascal Chaumeil',
     actors: [{ name: 'Romain Duris' }],

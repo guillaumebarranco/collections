@@ -29,11 +29,13 @@ import { Movie } from '../../../models/movie-model';
 import { Quizz } from '../../../models/quizz-model';
 import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
 import {
+  getAllBaseMovies,
   getAllMovies,
   getAllWatchlistMovies,
 } from '../../../facades/movies/movies.facade';
 import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
+import { AuthService } from '../../../core/auth.service';
 import {
   getSortedMovies,
   allYearsSince2000,
@@ -63,6 +65,7 @@ import {
 export class MoviesComponent implements OnInit {
   router = inject(Router);
   activatedRoute = inject(ActivatedRoute);
+  private readonly authService = inject(AuthService);
   private readonly localStorageService = inject(LocalStorageService);
   private isInitializing = false;
   private isLoadingViewConfig = false;
@@ -87,7 +90,7 @@ export class MoviesComponent implements OnInit {
   constructor() {
     // Synchroniser les changements de filtres/tri avec l'URL
     effect(() => {
-      if (this.isInitializing) return;
+      if (this.isInitializing || this.isAdminView()) return;
 
       const queryParams: any = {};
 
@@ -119,12 +122,12 @@ export class MoviesComponent implements OnInit {
 
     effect(() => {
       const config = this.optionalViewConfig();
-      if (this.isLoadingViewConfig) return;
+      if (this.isLoadingViewConfig || this.isAdminView()) return;
       this.localStorageService.setItem(this.viewConfigStorageKey, config);
     });
 
     effect(() => {
-      if (this.isLoadingPreferences || this.isInitializing) return;
+      if (this.isLoadingPreferences || this.isInitializing || this.isAdminView()) return;
       const preferences = {
         view: this.selectedView(),
         sort: this.selectedSort(),
@@ -138,6 +141,7 @@ export class MoviesComponent implements OnInit {
 
     effect(() => {
       const view = this.selectedView();
+      if (this.isAdminView()) return;
       if (!this.isViewOptionVisible(view)) {
         this.selectedView.set('watched');
       }
@@ -145,6 +149,9 @@ export class MoviesComponent implements OnInit {
   }
 
   ngOnInit() {
+    if (this.isAdminView()) {
+      this.selectedView.set('watched');
+    }
     this.loadViewConfigFromStorage();
     this.loadViewPreferencesFromStorage();
     // Lire les paramètres de l'URL au démarrage
@@ -204,10 +211,14 @@ export class MoviesComponent implements OnInit {
   yearFilterOptions = yearFilterOptions;
 
   moviesList = signal<{ [key: string]: Movie[] }>({});
+  adminMoviesList = signal<Movie[]>([]);
 
   watchingMoviesList = signal<{ [key: string]: Movie[] }>({});
 
   allWatchlistMovies = computed<Movie[]>(() => {
+    if (this.isAdminView()) {
+      return [];
+    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
@@ -216,6 +227,9 @@ export class MoviesComponent implements OnInit {
   });
 
   allMovies = computed<Movie[]>(() => {
+    if (this.isAdminView()) {
+      return this.adminMoviesList();
+    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
@@ -225,7 +239,9 @@ export class MoviesComponent implements OnInit {
 
   filteredMovies = computed<Movie[]>(() => {
     let movies: Movie[] = [];
-    if (this.selectedView() === 'watchlist') {
+    if (this.isAdminView()) {
+      movies = this.allMovies();
+    } else if (this.selectedView() === 'watchlist') {
       movies = this.allWatchlistMovies();
     } else if (this.selectedView() === 'cinema') {
       movies = this.allMovies().filter((movie) => movie.seenAtCinema === true);
@@ -247,6 +263,10 @@ export class MoviesComponent implements OnInit {
 
   filteredMoviesByYear = computed<Movie[]>(() => {
     let filteredMovies = [...this.filteredMovies()];
+
+    if (this.isAdminView()) {
+      return filteredMovies;
+    }
 
     // Filtrage par année (seulement pour les films vus et vus au cinéma, basé sur firstViewedDate)
     if (this.selectedView() === 'watched' || this.selectedView() === 'cinema') {
@@ -302,6 +322,9 @@ export class MoviesComponent implements OnInit {
   });
 
   stats = computed<StatItem[]>(() => {
+    if (this.isAdminView()) {
+      return [];
+    }
     // Utiliser les films filtrés pour les stats
     const moviesToUse = this.filteredMoviesByYear();
     const totalDuration = getTotalDuration(moviesToUse);
@@ -369,6 +392,28 @@ export class MoviesComponent implements OnInit {
   }
 
   async refreshMovies() {
+    if (this.isAdminView()) {
+      const baseMovies = await getAllBaseMovies();
+      const movies = baseMovies.map((movie) => ({
+        title: movie.title,
+        director: movie.director,
+        coverUrl: movie.coverUrl,
+        releaseDate: movie.releaseDate,
+        length: movie.length,
+        genre: movie.genre,
+        saga: movie.saga,
+        actors: movie.actors,
+        rating: 0,
+        timesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+        seenAtCinema: false,
+        owned: false,
+      }));
+      this.adminMoviesList.set(movies);
+      return;
+    }
+
     const userId = this.getActiveUserId();
     const [movies, watchlist] = await Promise.all([
       getAllMovies(userId),
@@ -386,6 +431,10 @@ export class MoviesComponent implements OnInit {
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? 'guillaume';
+  }
+
+  isAdminView(): boolean {
+    return this.authService.isAdmin() && this.router.url.startsWith('/admin');
   }
 
   onSortChange(sortValue: string) {

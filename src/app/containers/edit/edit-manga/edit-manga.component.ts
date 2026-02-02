@@ -63,12 +63,27 @@ export class EditMangaComponent {
   );
 
   readonly manga = signal<Manga | null>(null);
+  readonly adminTitle = signal<string>('');
+  readonly adminSecondary = signal<string>('');
+  readonly originalTitle = signal<string>('');
+  readonly originalSecondary = signal<string>('');
   readonly mangaForm = signal<EditMangaForm | null>(null);
   readonly mangaEntityForm = signal<EditMangaEntityForm | null>(null);
   readonly mangaNotFound = signal<boolean>(false);
   readonly isSaving = signal<boolean>(false);
   readonly isDeleting = signal<boolean>(false);
   readonly isAdmin = computed(() => this.authService.isAdmin());
+  readonly isAdminView = computed(
+    () => this.authService.isAdmin() && this.router.url.startsWith('/admin')
+  );
+  readonly isTitleModified = computed(
+    () => this.adminTitle().trim() !== this.originalTitle().trim()
+  );
+  readonly isSecondaryModified = computed(
+    () => this.adminSecondary().trim() !== this.originalSecondary().trim()
+  );
+  readonly disableTitleEdit = computed(() => this.isSecondaryModified());
+  readonly disableSecondaryEdit = computed(() => this.isTitleModified());
   readonly hasDialogUpdates = signal<boolean>(false);
   readonly dialogList = signal<Manga[]>([]);
   readonly dialogIndex = signal<number>(-1);
@@ -179,6 +194,10 @@ export class EditMangaComponent {
   }
 
   async onSubmit(navigateAfterSave = false) {
+    if (this.isAdminView()) {
+      await this.onAdminSubmit();
+      return;
+    }
     const form = this.mangaForm();
     const manga = this.manga();
     if (!form || !manga) return;
@@ -264,6 +283,50 @@ export class EditMangaComponent {
       console.error('edit-manga:delete:error', error);
     } finally {
       this.isDeleting.set(false);
+    }
+  }
+
+  async onAdminSubmit() {
+    const manga = this.manga();
+    const entityForm = this.mangaEntityForm();
+    if (!manga || !entityForm) return;
+    if (!this.canEditCurrentUser()) return;
+    if (this.isTitleModified() && this.isSecondaryModified()) {
+      alert(
+        "Merci de modifier soit le titre, soit l'auteur, pas les deux en même temps."
+      );
+      return;
+    }
+
+    this.isSaving.set(true);
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/mangas`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.getAdminUserId(),
+          title: this.adminTitle().trim(),
+          author: this.adminSecondary().trim(),
+          entityOnly: true,
+          originalTitle: this.originalTitle(),
+          originalAuthor: this.originalSecondary(),
+          entity: this.toEntityPayload(entityForm),
+        }),
+      });
+
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        console.error('edit-manga:admin:error', payload);
+        return;
+      }
+
+      this.dialogRef?.close({ updated: true, payload });
+    } catch (error) {
+      console.error('edit-manga:admin:error', error);
+    } finally {
+      this.isSaving.set(false);
     }
   }
 
@@ -370,7 +433,11 @@ export class EditMangaComponent {
   }
 
   private canEditCurrentUser(): boolean {
-    return this.authService.canEdit(this.getCurrentUserId());
+    return this.isAdminView() || this.authService.canEdit(this.getCurrentUserId());
+  }
+
+  private getAdminUserId(): string {
+    return this.authService.getAuthenticatedUserId() || this.getCurrentUserId();
   }
 
   private setupDialogNavigation(data: EditMangaDialogData) {
@@ -408,6 +475,10 @@ export class EditMangaComponent {
     this.manga.set(manga);
     this.mangaForm.set(this.toForm(manga));
     this.mangaEntityForm.set(this.toEntityForm(manga));
+    this.adminTitle.set(manga.title);
+    this.adminSecondary.set(manga.author);
+    this.originalTitle.set(manga.title);
+    this.originalSecondary.set(manga.author);
     this.mangaNotFound.set(false);
   }
 

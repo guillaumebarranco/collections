@@ -1,9 +1,13 @@
 <app-menu></app-menu>
 
 <div class="musics-container">
-  <h1>Musiques écoutées ({{ allMusics().length }})</h1>
+  <h1>
+    {{ isAdminView() ? 'Musiques' : 'Musiques écoutées' }} ({{
+      allMusics().length
+    }})
+  </h1>
 
-  @if(allMusics().length === 0) {
+  @if(!isAdminView() && allMusics().length === 0) {
   <div class="empty-state">
     <p class="empty-message">
       Vous n'avez aucune musique dans votre collection.
@@ -17,7 +21,7 @@
   </div>
   }
 
-  @if(allMusics().length !== 0) {
+  @if(!isAdminView() && allMusics().length !== 0) {
   <div class="musics-header-top">
     <app-view-toggle
       [toggleClass]="'musics-view-toggle'"
@@ -52,12 +56,14 @@
   }
 
   <div class="musics-header">
+    @if (!isAdminView()) {
     <app-stats-display
       [stats]="stats()"
       [count]="allMusics().length"
       countLabel="musiques"
     >
     </app-stats-display>
+    }
 
     <div class="musics-filters">
       <div class="musics-filters-item">

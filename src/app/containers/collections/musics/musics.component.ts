@@ -21,8 +21,12 @@ import {
   Album,
 } from '../../../components/album-modal/album-modal.component';
 import { Music } from '../../../models/music-model';
-import { ActivatedRoute, Params, RouterLink } from '@angular/router';
-import { getAllMusics } from '../../../facades/musics/musics.facade';
+import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
+import {
+  getAllBaseMusics,
+  getAllMusics,
+} from '../../../facades/musics/musics.facade';
+import { AuthService } from '../../../core/auth.service';
 import { LocalStorageService } from '../../../services/local-storage.service';
 import {
   getSortedMusics,
@@ -51,6 +55,8 @@ import {
 })
 export class MusicsComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
+  private readonly router = inject(Router);
+  private readonly authService = inject(AuthService);
   private readonly localStorageService = inject(LocalStorageService);
   private isLoadingPreferences = false;
   private readonly viewPreferencesStorageKey = 'musics_view_preferences';
@@ -71,10 +77,11 @@ export class MusicsComponent implements OnInit {
   viewOptions: ViewToggleOption[] = musicViewOptions;
 
   musicsList = signal<{ [key: string]: Music[] }>({});
+  adminMusicsList = signal<Music[]>([]);
 
   constructor() {
     effect(() => {
-      if (this.isLoadingPreferences) return;
+      if (this.isLoadingPreferences || this.isAdminView()) return;
       const preferences = {
         viewMode: this.selectedViewMode(),
         filter: this.selectedFilter(),
@@ -85,6 +92,9 @@ export class MusicsComponent implements OnInit {
   }
 
   allMusics = computed<Music[]>(() => {
+    if (this.isAdminView()) {
+      return this.adminMusicsList();
+    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
@@ -192,6 +202,9 @@ export class MusicsComponent implements OnInit {
   );
 
   stats = computed<StatItem[]>(() => {
+    if (this.isAdminView()) {
+      return [];
+    }
     const totalDuration = this.calculateTotalDuration();
     const totalListeningTime = this.calculateTotalListeningTime();
 
@@ -245,6 +258,23 @@ export class MusicsComponent implements OnInit {
   }
 
   async refreshMusics() {
+    if (this.isAdminView()) {
+      const baseMusics = await getAllBaseMusics();
+      const musics = baseMusics.map((music) => ({
+        title: music.title,
+        artist: music.artist,
+        rating: 0,
+        timesListened: 0,
+        album: music.album,
+        coverUrl: music.coverUrl,
+        releaseDate: music.releaseDate,
+        duration: music.duration,
+        genre: music.genre,
+      }));
+      this.adminMusicsList.set(musics);
+      return;
+    }
+
     const userId = this.getActiveUserId();
     const musics = await getAllMusics(userId);
     this.musicsList.set(musics);
@@ -281,6 +311,10 @@ export class MusicsComponent implements OnInit {
 
   onSearchChange(value: string) {
     this.searchTerm.set(value);
+  }
+
+  isAdminView(): boolean {
+    return this.authService.isAdmin() && this.router.url.startsWith('/admin');
   }
 
   getSelectMusicsRoute(): string {

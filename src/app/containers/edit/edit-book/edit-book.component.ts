@@ -65,12 +65,27 @@ export class EditBookComponent {
   );
 
   readonly book = signal<Book | null>(null);
+  readonly adminTitle = signal<string>('');
+  readonly adminSecondary = signal<string>('');
+  readonly originalTitle = signal<string>('');
+  readonly originalSecondary = signal<string>('');
   readonly bookForm = signal<EditBookForm | null>(null);
   readonly bookEntityForm = signal<EditBookEntityForm | null>(null);
   readonly bookNotFound = signal<boolean>(false);
   readonly isSaving = signal<boolean>(false);
   readonly isDeleting = signal<boolean>(false);
   readonly isAdmin = computed(() => this.authService.isAdmin());
+  readonly isAdminView = computed(
+    () => this.authService.isAdmin() && this.router.url.startsWith('/admin')
+  );
+  readonly isTitleModified = computed(
+    () => this.adminTitle().trim() !== this.originalTitle().trim()
+  );
+  readonly isSecondaryModified = computed(
+    () => this.adminSecondary().trim() !== this.originalSecondary().trim()
+  );
+  readonly disableTitleEdit = computed(() => this.isSecondaryModified());
+  readonly disableSecondaryEdit = computed(() => this.isTitleModified());
   readonly hasDialogUpdates = signal<boolean>(false);
   readonly dialogList = signal<Book[]>([]);
   readonly dialogIndex = signal<number>(-1);
@@ -181,6 +196,10 @@ export class EditBookComponent {
   }
 
   async onSubmit(navigateAfterSave = false) {
+    if (this.isAdminView()) {
+      await this.onAdminSubmit();
+      return;
+    }
     const form = this.bookForm();
     const book = this.book();
     if (!form || !book) return;
@@ -266,6 +285,50 @@ export class EditBookComponent {
       console.error('edit-book:delete:error', error);
     } finally {
       this.isDeleting.set(false);
+    }
+  }
+
+  async onAdminSubmit() {
+    const book = this.book();
+    const entityForm = this.bookEntityForm();
+    if (!book || !entityForm) return;
+    if (!this.canEditCurrentUser()) return;
+    if (this.isTitleModified() && this.isSecondaryModified()) {
+      alert(
+        "Merci de modifier soit le titre, soit l'auteur, pas les deux en même temps."
+      );
+      return;
+    }
+
+    this.isSaving.set(true);
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/books`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.getAdminUserId(),
+          title: this.adminTitle().trim(),
+          author: this.adminSecondary().trim(),
+          entityOnly: true,
+          originalTitle: this.originalTitle(),
+          originalAuthor: this.originalSecondary(),
+          entity: this.toEntityPayload(entityForm),
+        }),
+      });
+
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        console.error('edit-book:admin:error', payload);
+        return;
+      }
+
+      this.dialogRef?.close({ updated: true, payload });
+    } catch (error) {
+      console.error('edit-book:admin:error', error);
+    } finally {
+      this.isSaving.set(false);
     }
   }
 
@@ -376,7 +439,11 @@ export class EditBookComponent {
   }
 
   private canEditCurrentUser(): boolean {
-    return this.authService.canEdit(this.getCurrentUserId());
+    return this.isAdminView() || this.authService.canEdit(this.getCurrentUserId());
+  }
+
+  private getAdminUserId(): string {
+    return this.authService.getAuthenticatedUserId() || this.getCurrentUserId();
   }
 
   private setupDialogNavigation(data: EditBookDialogData) {
@@ -414,6 +481,10 @@ export class EditBookComponent {
     this.book.set(book);
     this.bookForm.set(this.toForm(book));
     this.bookEntityForm.set(this.toEntityForm(book));
+    this.adminTitle.set(book.title);
+    this.adminSecondary.set(book.author);
+    this.originalTitle.set(book.title);
+    this.originalSecondary.set(book.author);
     this.bookNotFound.set(false);
   }
 

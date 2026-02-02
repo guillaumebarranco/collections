@@ -9204,16 +9204,6 @@ export const ronanMovies: UserMovie[] = [
     owned: false,
   },
   {
-    title: 'Madagascar 2 : La grande évasion',
-    director: 'Eric Darnell, Tom McGrath',
-    rating: 3,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-  },
-  {
     title: "Les Fils de l'homme",
     director: 'Alfonso Cuarón',
     rating: 4.5, // Children of Men (2006) - not found in ratings list
@@ -9611,17 +9601,6 @@ export const ronanMovies: UserMovie[] = [
   },
 
   {
-    title: 'Les Seigneurs',
-    director: 'Olivier Dahan',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-  },
-
-  {
     title: "L'Âge de glace 4 : La Dérive des continents",
     director: 'Steve Martino, Mike Thurmeier',
     rating: 0,
@@ -9777,7 +9756,7 @@ export const ronanMovies: UserMovie[] = [
   },
 
   {
-    title: 'L\'Amour, c\'est surcoté ',
+    title: "L'Amour, c'est surcoté ",
     director: 'Mourad Winter',
     rating: 3.5,
     timesWatched: 1,
@@ -9788,7 +9767,8 @@ export const ronanMovies: UserMovie[] = [
   },
 
   {
-    title: 'Le Seigneur des Anneaux - La Communauté de l\'Anneau - Version Longue',
+    title:
+      "Le Seigneur des Anneaux - La Communauté de l'Anneau - Version Longue",
     director: 'Peter Jackson',
     rating: 5,
     timesWatched: 6,

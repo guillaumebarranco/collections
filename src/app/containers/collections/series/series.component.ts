@@ -37,13 +37,15 @@ import {
   getSerieTotalLengthMinutes,
   getSerieWatchedLengthMinutes,
 } from '../../../utils/series.utils';
-import { ActivatedRoute, Params, RouterLink } from '@angular/router';
+import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
 import {
+  getAllBaseSeries,
   getAllSeries,
   getAllWatchlistSeries,
 } from '../../../facades/series/series.facade';
 import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
+import { AuthService } from '../../../core/auth.service';
 
 @Component({
   selector: 'app-series',
@@ -63,7 +65,9 @@ import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 })
 export class SeriesComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
+  router = inject(Router);
   private readonly localStorageService = inject(LocalStorageService);
+  private readonly authService = inject(AuthService);
   private isLoadingPreferences = false;
   private readonly viewPreferencesStorageKey = 'series_view_preferences';
 
@@ -80,10 +84,11 @@ export class SeriesComponent implements OnInit {
 
   seriesList = signal<{ [key: string]: Serie[] }>({});
   watchingSeriesList = signal<{ [key: string]: Serie[] }>({});
+  adminSeriesList = signal<Serie[]>([]);
 
   constructor() {
     effect(() => {
-      if (this.isLoadingPreferences) return;
+      if (this.isLoadingPreferences || this.isAdminView()) return;
       const preferences = {
         view: this.selectedView(),
         sort: this.selectedSort(),
@@ -96,6 +101,9 @@ export class SeriesComponent implements OnInit {
   }
 
   allSeries = computed<Serie[]>(() => {
+    if (this.isAdminView()) {
+      return this.adminSeriesList();
+    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
@@ -104,6 +112,9 @@ export class SeriesComponent implements OnInit {
   });
 
   allWatchlistSeries = computed<Serie[]>(() => {
+    if (this.isAdminView()) {
+      return [];
+    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
@@ -113,7 +124,9 @@ export class SeriesComponent implements OnInit {
 
   filteredSeries = computed<Serie[]>(() => {
     let series: Serie[] = [];
-    if (this.selectedView() === 'watchlist') {
+    if (this.isAdminView()) {
+      series = this.allSeries();
+    } else if (this.selectedView() === 'watchlist') {
       series = this.allWatchlistSeries();
     } else if (this.selectedView() === 'owned') {
       series = this.allSeries().filter((serie) => serie.owned);
@@ -134,6 +147,9 @@ export class SeriesComponent implements OnInit {
   );
 
   stats = computed<StatItem[]>(() => {
+    if (this.isAdminView()) {
+      return [];
+    }
     const seriesToUse = this.filteredSeries();
 
     const totalDurationMinutes = seriesToUse.reduce(
@@ -188,12 +204,33 @@ export class SeriesComponent implements OnInit {
   }
 
   ngOnInit() {
+    if (this.isAdminView()) {
+      this.selectedView.set('finished');
+    }
     void this.refreshQuizzs();
     this.loadViewPreferencesFromStorage();
     void this.refreshSeries();
   }
 
   async refreshSeries() {
+    if (this.isAdminView()) {
+      const baseSeries = await getAllBaseSeries();
+      const series = baseSeries.map((serie) => ({
+        title: serie.title,
+        director: serie.director,
+        actors: serie.actors,
+        coverUrl: serie.coverUrl,
+        releaseDate: serie.releaseDate,
+        endDate: serie.endDate,
+        genre: serie.genre,
+        seasonsData: serie.seasonsData,
+        seasons: [],
+        owned: false,
+      }));
+      this.adminSeriesList.set(series);
+      return;
+    }
+
     const userId = this.getActiveUserId();
     const [series, watchlist] = await Promise.all([
       getAllSeries(userId),
@@ -211,6 +248,10 @@ export class SeriesComponent implements OnInit {
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? 'guillaume';
+  }
+
+  public isAdminView(): boolean {
+    return this.authService.isAdmin() && this.router.url.startsWith('/admin');
   }
 
   onSortChange(sortValue: string) {

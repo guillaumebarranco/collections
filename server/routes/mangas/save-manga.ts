@@ -4,10 +4,12 @@ const {
   normalizeBoolean,
   normalizeString,
   updateMangaInFile,
+  updateMangaIdentityInFile,
   updateBaseMangaInFiles,
   getUserMangasFiles,
+  getUserReadlistMangasFiles,
 } = require('../../utils/mangas/mangas-utils');
-const { isAdminUser } = require('../../utils/users/users-utils');
+const { isAdminUser, loadUsers } = require('../../utils/users/users-utils');
 
 const router = express.Router();
 
@@ -38,40 +40,79 @@ router.post('/', (req: any, res: any) => {
     };
 
     const entityPayload = input.entity || null;
-    if (entityPayload && !isAdminUser(userId)) {
+    const entityOnly = Boolean(input.entityOnly);
+    if ((entityPayload || entityOnly) && !isAdminUser(userId)) {
       res.status(403).json({ error: 'Admin required to edit entity data' });
       return;
     }
 
-    const mangaFiles = getUserMangasFiles(userId);
-    if (!mangaFiles.length) {
-      res.status(404).json({ error: 'User mangas not found' });
-      return;
-    }
-
     let updatedCount = 0;
-    for (const filePath of mangaFiles) {
-      if (updateMangaInFile(filePath, payload)) {
-        updatedCount += 1;
+    if (!entityOnly) {
+      const mangaFiles = getUserMangasFiles(userId);
+      if (!mangaFiles.length) {
+        res.status(404).json({ error: 'User mangas not found' });
+        return;
       }
-    }
 
-    if (!updatedCount) {
-      res.status(404).json({ error: 'Manga not found' });
-      return;
+      for (const filePath of mangaFiles) {
+        if (updateMangaInFile(filePath, payload)) {
+          updatedCount += 1;
+        }
+      }
+
+      if (!updatedCount) {
+        res.status(404).json({ error: 'Manga not found' });
+        return;
+      }
     }
 
     let baseUpdatedFile: string | null = null;
     if (entityPayload) {
+      const originalTitle = normalizeString(
+        input.originalTitle,
+        'originalTitle'
+      );
+      const originalAuthor = normalizeString(
+        input.originalAuthor,
+        'originalAuthor'
+      );
       baseUpdatedFile = updateBaseMangaInFiles({
         title,
         author,
+        matchTitle: originalTitle || title,
+        matchAuthor: originalAuthor || author,
         coverUrl: normalizeString(entityPayload.coverUrl, 'coverUrl'),
         pages: normalizeNumber(entityPayload.pages, 'pages'),
         genre: normalizeString(entityPayload.genre, 'genre'),
         nbTomes: normalizeNumber(entityPayload.nbTomes, 'nbTomes'),
         isFinished: normalizeBoolean(entityPayload.isFinished, 'isFinished'),
       });
+
+      if (originalTitle || originalAuthor) {
+        const users = loadUsers();
+        const matchTitle = originalTitle || title;
+        const matchAuthor = originalAuthor || author;
+        users.forEach((user: any) => {
+          try {
+            const files = [
+              ...getUserMangasFiles(user.username),
+              ...getUserReadlistMangasFiles(user.username),
+            ];
+            files.forEach((filePath: string) => {
+              updateMangaIdentityInFile(filePath, {
+                matchTitle,
+                matchAuthor,
+                title,
+                author,
+              });
+            });
+          } catch (error: any) {
+            if (!String(error.message || '').includes('not found')) {
+              throw error;
+            }
+          }
+        });
+      }
     }
 
     res.json({ ok: true, updated: updatedCount, baseFile: baseUpdatedFile });

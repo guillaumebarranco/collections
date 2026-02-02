@@ -45,12 +45,14 @@ import {
 import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
 import {
   getAllBooks,
+  getAllBaseBooks,
   getAllReadlistBooks,
 } from '../../../facades/books/books.facade';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditBookComponent } from '../../edit/edit-book/edit-book.component';
 import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
+import { AuthService } from '../../../core/auth.service';
 
 @Component({
   selector: 'app-books',
@@ -81,6 +83,7 @@ export class BooksComponent implements OnInit {
 
   activatedRoute = inject(ActivatedRoute);
   router = inject(Router);
+  private readonly authService = inject(AuthService);
   private readonly localStorageService = inject(LocalStorageService);
   private readonly dialog = inject(MatDialog);
   private isInitializing = false;
@@ -97,11 +100,12 @@ export class BooksComponent implements OnInit {
 
   booksList = signal<{ [key: string]: Book[] }>({});
   readlistBooksList = signal<{ [key: string]: Book[] }>({});
+  adminBooksList = signal<Book[]>([]);
 
   constructor() {
     // Synchroniser les changements de filtres/tri avec l'URL
     effect(() => {
-      if (this.isInitializing) return;
+      if (this.isInitializing || this.isAdminView()) return;
 
       const queryParams: any = {};
 
@@ -138,7 +142,8 @@ export class BooksComponent implements OnInit {
     });
 
     effect(() => {
-      if (this.isLoadingPreferences || this.isInitializing) return;
+      if (this.isLoadingPreferences || this.isInitializing || this.isAdminView())
+        return;
       const preferences = {
         view: this.selectedView(),
         sort: this.selectedSort(),
@@ -153,6 +158,10 @@ export class BooksComponent implements OnInit {
   }
 
   ngOnInit() {
+    if (this.isAdminView()) {
+      this.selectedView.set('read');
+      this.selectedGroupBy.set('none');
+    }
     void this.refreshQuizzs();
     this.loadViewPreferencesFromStorage();
     // Lire les paramètres de l'URL au démarrage
@@ -169,6 +178,27 @@ export class BooksComponent implements OnInit {
   }
 
   async refreshBooks() {
+    if (this.isAdminView()) {
+      const baseBooks = await getAllBaseBooks();
+      const books = baseBooks.map((book) => ({
+        title: book.title,
+        author: book.author,
+        coverUrl: book.coverUrl,
+        pages: book.pages,
+        genre: book.genre,
+        saga: book.saga,
+        sagaOrder: book.sagaOrder,
+        nbTomes: book.nbTomes,
+        isFinished: book.isFinished,
+        rating: 0,
+        readDate: '',
+        readTimes: 0,
+        owned: false,
+      }));
+      this.adminBooksList.set(books);
+      return;
+    }
+
     const userId = this.getActiveUserId();
     const [books, readlist] = await Promise.all([
       getAllBooks(userId),
@@ -259,6 +289,9 @@ export class BooksComponent implements OnInit {
   }
 
   allBooks = computed<Book[]>(() => {
+    if (this.isAdminView()) {
+      return this.adminBooksList();
+    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
 
@@ -268,6 +301,9 @@ export class BooksComponent implements OnInit {
   });
 
   allReadlistBooks = computed<Book[]>(() => {
+    if (this.isAdminView()) {
+      return [];
+    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
@@ -277,7 +313,9 @@ export class BooksComponent implements OnInit {
 
   filteredBooks = computed<Book[]>(() => {
     let books = this.allBooks();
-    if (this.selectedView() === 'readlist') {
+    if (this.isAdminView()) {
+      books = this.allBooks();
+    } else if (this.selectedView() === 'readlist') {
       books = this.allReadlistBooks();
     } else if (this.selectedView() === 'owned') {
       books = this.allBooks().filter((book) => book.owned);
@@ -299,6 +337,10 @@ export class BooksComponent implements OnInit {
 
   filteredBooksByYear = computed(() => {
     let filteredBooks = [...this.filteredBooks()];
+
+    if (this.isAdminView()) {
+      return filteredBooks;
+    }
 
     // Filtrage par année (seulement pour les livres lus)
     if (this.selectedView() === 'read') {
@@ -351,6 +393,9 @@ export class BooksComponent implements OnInit {
   });
 
   stats = computed<StatItem[]>(() => {
+    if (this.isAdminView()) {
+      return [];
+    }
     // Utiliser les livres filtrés pour les stats
     const booksToUse = this.filteredBooksByYear();
     const totalPages = getTotalPages(booksToUse);
@@ -460,6 +505,10 @@ export class BooksComponent implements OnInit {
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? 'guillaume';
+  }
+
+  isAdminView(): boolean {
+    return this.authService.isAdmin() && this.router.url.startsWith('/admin');
   }
 
   getSelectBooksRoute(): string {

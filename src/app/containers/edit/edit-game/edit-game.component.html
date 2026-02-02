@@ -68,6 +68,33 @@
   <br />
 
   <form *ngIf="gameForm()" class="edit-form" (ngSubmit)="onSubmit()">
+    @if (isAdminView()) {
+    <div class="form-row">
+      <label for="adminTitle">Titre</label>
+      <input
+        id="adminTitle"
+        type="text"
+        [disabled]="disableTitleEdit()"
+        [ngModel]="adminTitle()"
+        (ngModelChange)="adminTitle.set($event)"
+        name="adminTitle"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="adminEditor">Éditeur</label>
+      <input
+        id="adminEditor"
+        type="text"
+        [disabled]="disableSecondaryEdit()"
+        [ngModel]="adminSecondary()"
+        (ngModelChange)="adminSecondary.set($event)"
+        name="adminEditor"
+      />
+    </div>
+    }
+
+    @if (!isAdminView()) {
     <div class="form-row">
       <label>Note</label>
       <div class="rating-control">
@@ -153,8 +180,9 @@
         name="owned"
       />
     </div>
+    }
 
-    @if (isAdmin() && gameEntityForm()) {
+    @if ((isAdminView() || isAdmin()) && gameEntityForm()) {
     <div class="form-row">
       <label for="entityHero">Héro</label>
       <input

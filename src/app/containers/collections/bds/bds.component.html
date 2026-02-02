@@ -2,6 +2,9 @@
 
 <div class="bds-container">
   <h1>
+    @if (isAdminView()) {
+    BD ({{ filteredBds().length }})
+    } @else {
     {{
       selectedView() === "readlist"
         ? "BD à lire"
@@ -10,9 +13,10 @@
         : "BD lues"
     }}
     ({{ filteredBds().length }})
+    }
   </h1>
 
-  @if(allBds().length === 0 && allReadlistBds().length === 0) {
+  @if(!isAdminView() && allBds().length === 0 && allReadlistBds().length === 0) {
   <div class="empty-state">
     <p class="empty-message">Vous n'avez aucune BD dans votre collection.</p>
     <p class="empty-subtitle">
@@ -24,14 +28,17 @@
   </div>
   } @if(allBds().length !== 0 || allReadlistBds().length !== 0) {
   <div class="bds-header-top">
+    @if (!isAdminView()) {
     <app-view-toggle
       [toggleClass]="'bds-view-toggle'"
       [options]="viewOptions"
       [selected]="selectedView()"
       (selectedChange)="onViewChange($any($event))"
     ></app-view-toggle>
+    }
 
     <div class="bds-actions">
+      @if (!isAdminView()) {
       <button
         class="btn btn-small"
         [routerLink]="getSelectBdsRoute()"
@@ -66,17 +73,20 @@
       >
         ✅ Possédées
       </button>
+      }
     </div>
   </div>
   }
 
   <div class="bds-header">
+    @if (!isAdminView()) {
     <app-stats-display
       [stats]="stats()"
       [count]="filteredBds().length"
       countLabel="BD"
     >
     </app-stats-display>
+    }
 
     <app-sort-dropdown
       [sortOptions]="sortOptions()"

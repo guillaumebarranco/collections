@@ -1,6 +1,11 @@
 import { Game } from '../../../models/game-model';
 
-export type GameView = 'played' | 'platined' | 'gamelist' | 'owned';
+export type GameView =
+  | 'played'
+  | 'platined'
+  | 'gamelist'
+  | 'owned'
+  | 'finished';
 
 export const gamesSortOptions: { value: string; label: string }[] = [
   { value: 'title', label: 'Titre (A-Z)' },
@@ -26,10 +31,7 @@ export const gameViewOptions: { value: GameView; label: string }[] = [
   { value: 'owned', label: 'Jeux possédés' },
 ];
 
-export const getSortedGames = (
-  games: Game[],
-  selectedSort: string
-): Game[] => {
+export const getSortedGames = (games: Game[], selectedSort: string): Game[] => {
   switch (selectedSort) {
     case 'title':
       return games.sort((a, b) => a.title.localeCompare(b.title));
@@ -50,14 +52,12 @@ export const getSortedGames = (
     case 'releaseDate':
       return games.sort(
         (a, b) =>
-          new Date(b.releaseDate).getTime() -
-          new Date(a.releaseDate).getTime()
+          new Date(b.releaseDate).getTime() - new Date(a.releaseDate).getTime()
       );
     case 'releaseDate-asc':
       return games.sort(
         (a, b) =>
-          new Date(a.releaseDate).getTime() -
-          new Date(b.releaseDate).getTime()
+          new Date(a.releaseDate).getTime() - new Date(b.releaseDate).getTime()
       );
     case 'rating':
       return games.sort((a, b) => {
@@ -86,9 +86,13 @@ export const getSortedGames = (
     case 'timesFinished-asc':
       return games.sort((a, b) => a.timesFinished - b.timesFinished);
     case 'averageTimeToFinish':
-      return games.sort((a, b) => b.averageTimeToFinish - a.averageTimeToFinish);
+      return games.sort(
+        (a, b) => b.averageTimeToFinish - a.averageTimeToFinish
+      );
     case 'averageTimeToFinish-asc':
-      return games.sort((a, b) => a.averageTimeToFinish - b.averageTimeToFinish);
+      return games.sort(
+        (a, b) => a.averageTimeToFinish - b.averageTimeToFinish
+      );
     case 'totalPlayedTime':
       return games.sort((a, b) => {
         const totalTimeA =

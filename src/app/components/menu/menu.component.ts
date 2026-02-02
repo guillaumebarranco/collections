@@ -120,6 +120,11 @@ export class MenuComponent implements OnInit {
   getRoute(route: string): string {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
+    const isAdminView = this.router.url.startsWith('/admin');
+
+    if (isAdminView) {
+      return route === 'dashboard' ? '/admin' : `/admin/${route}`;
+    }
 
     if (hasNameParam) {
       return `/${params['id']}/${route}`;

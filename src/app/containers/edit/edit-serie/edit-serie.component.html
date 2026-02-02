@@ -64,6 +64,33 @@
   <br />
 
   <form *ngIf="serieForm()" class="edit-form" (ngSubmit)="onSubmit()">
+    @if (isAdminView()) {
+    <div class="form-row">
+      <label for="adminTitle">Titre</label>
+      <input
+        id="adminTitle"
+        type="text"
+        [disabled]="disableTitleEdit()"
+        [ngModel]="adminTitle()"
+        (ngModelChange)="adminTitle.set($event)"
+        name="adminTitle"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="adminDirector">Réalisateur</label>
+      <input
+        id="adminDirector"
+        type="text"
+        [disabled]="disableSecondaryEdit()"
+        [ngModel]="adminSecondary()"
+        (ngModelChange)="adminSecondary.set($event)"
+        name="adminDirector"
+      />
+    </div>
+    }
+
+    @if (!isAdminView()) {
     @if (serieForm()?.seasons?.length) {
     <div class="form-row">
       <label>Notes et visionnages par saison</label>
@@ -145,8 +172,9 @@
         name="owned"
       />
     </div>
+    }
 
-    @if (isAdmin() && serieEntityForm()) {
+    @if ((isAdminView() || isAdmin()) && serieEntityForm()) {
     <div class="form-row">
       <label for="entityActors">Acteurs (séparés par des virgules)</label>
       <input

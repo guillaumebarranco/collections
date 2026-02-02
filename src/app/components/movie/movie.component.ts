@@ -8,7 +8,7 @@ import {
   inject,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Movie } from '../../models/movie-model';
 import { Quizz, QuizzEntityType } from '../../models/quizz-model';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
@@ -32,6 +32,7 @@ interface StarInfo {
 })
 export class MovieComponent {
   private readonly activatedRoute = inject(ActivatedRoute);
+  private readonly router = inject(Router);
   private readonly dialog = inject(MatDialog);
   private readonly authService = inject(AuthService);
 
@@ -45,7 +46,9 @@ export class MovieComponent {
   readonly canEdit = computed(() => {
     const directId = this.activatedRoute.snapshot.params['id'];
     const parentId = this.activatedRoute.parent?.snapshot.params['id'];
-    return this.authService.canEdit(directId || parentId);
+    const isAdminView =
+      this.authService.isAdmin() && this.router.url.startsWith('/admin');
+    return isAdminView || this.authService.canEdit(directId || parentId);
   });
 
   navigateToEdit(): void {

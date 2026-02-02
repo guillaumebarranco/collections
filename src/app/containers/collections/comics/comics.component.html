@@ -2,6 +2,9 @@
 
 <div class="comics-container">
   <h1>
+    @if (isAdminView()) {
+    Comics ({{ filteredComics().length }})
+    } @else {
     {{
       selectedView() === "readlist"
         ? "Comics à lire"
@@ -10,9 +13,10 @@
         : "Comics lus"
     }}
     ({{ filteredComics().length }})
+    }
   </h1>
 
-  @if(allComics().length === 0 && allReadlistComics().length === 0) {
+  @if(!isAdminView() && allComics().length === 0 && allReadlistComics().length === 0) {
   <div class="empty-state">
     <p class="empty-message">Vous n'avez aucun comic dans votre collection.</p>
     <p class="empty-subtitle">
@@ -24,14 +28,17 @@
   </div>
   } @if(allComics().length !== 0 || allReadlistComics().length !== 0) {
   <div class="comics-header-top">
+    @if (!isAdminView()) {
     <app-view-toggle
       [toggleClass]="'comics-view-toggle'"
       [options]="viewOptions"
       [selected]="selectedView()"
       (selectedChange)="onViewChange($any($event))"
     ></app-view-toggle>
+    }
 
     <div class="comics-actions">
+      @if (!isAdminView()) {
       <button
         class="btn btn-small"
         [routerLink]="getSelectComicsRoute()"
@@ -66,17 +73,20 @@
       >
         ✅ Possédés
       </button>
+      }
     </div>
   </div>
   }
 
   <div class="comics-header">
+    @if (!isAdminView()) {
     <app-stats-display
       [stats]="stats()"
       [count]="filteredComics().length"
       countLabel="comics"
     >
     </app-stats-display>
+    }
 
     <app-sort-dropdown
       [sortOptions]="sortOptions()"

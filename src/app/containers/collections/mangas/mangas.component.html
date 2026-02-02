@@ -2,6 +2,9 @@
 
 <div class="mangas-container">
   <h1>
+    @if (isAdminView()) {
+    Mangas ({{ filteredMangas().length }})
+    } @else {
     {{
       selectedView() === "readlist"
         ? "Mangas à lire"
@@ -10,9 +13,10 @@
         : "Mangas lus"
     }}
     ({{ filteredMangas().length }})
+    }
   </h1>
 
-  @if(allMangas().length === 0 && allReadlistMangas().length === 0) {
+  @if(!isAdminView() && allMangas().length === 0 && allReadlistMangas().length === 0) {
   <div class="empty-state">
     <p class="empty-message">Vous n'avez aucun manga dans votre collection.</p>
     <p class="empty-subtitle">
@@ -24,14 +28,17 @@
   </div>
   } @if(allMangas().length !== 0 || allReadlistMangas().length !== 0) {
   <div class="mangas-header-top">
+    @if (!isAdminView()) {
     <app-view-toggle
       [toggleClass]="'mangas-view-toggle'"
       [options]="viewOptions"
       [selected]="selectedView()"
       (selectedChange)="onViewChange($any($event))"
     ></app-view-toggle>
+    }
 
     <div class="mangas-actions">
+      @if (!isAdminView()) {
       <button
         class="btn btn-small"
         [routerLink]="getSelectMangasRoute()"
@@ -66,17 +73,20 @@
       >
         ✅ Possédés
       </button>
+      }
     </div>
   </div>
   }
 
   <div class="mangas-header">
+    @if (!isAdminView()) {
     <app-stats-display
       [stats]="stats()"
       [count]="filteredMangas().length"
       countLabel="mangas"
     >
     </app-stats-display>
+    }
 
     <app-sort-dropdown
       [sortOptions]="sortOptions()"

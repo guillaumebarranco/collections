@@ -2,6 +2,9 @@
 
 <div class="books-container">
   <h1>
+    @if (isAdminView()) {
+    Livres ({{ filteredBooks().length }})
+    } @else {
     {{
       selectedView() === "readlist"
         ? "Livres à lire"
@@ -10,18 +13,22 @@
         : "Livres lus"
     }}
     ({{ filteredBooks().length }})
+    }
   </h1>
 
   @if(allBooks().length !== 0) {
   <div class="books-header-top">
+    @if (!isAdminView()) {
     <app-view-toggle
       [toggleClass]="'books-view-toggle'"
       [options]="viewOptions"
       [selected]="selectedView()"
       (selectedChange)="onViewChange($any($event))"
     ></app-view-toggle>
+    }
 
     <div class="books-actions">
+      @if (!isAdminView()) {
       <button
         class="btn btn-small"
         [routerLink]="getSelectBooksRoute()"
@@ -56,6 +63,7 @@
       >
         ✅ Possédés
       </button>
+      }
     </div>
   </div>
   } @if(allBooks().length === 0) {
@@ -71,14 +79,17 @@
   }
 
   <div class="books-header">
+    @if (!isAdminView()) {
     <app-stats-display
       [stats]="stats()"
       [count]="filteredBooks().length"
       countLabel="livres"
     >
     </app-stats-display>
+    }
 
     <div class="books-filters">
+      @if (!isAdminView()) {
       <div class="books-filters-item">
         <p>Grouper par :</p>
         <select
@@ -92,9 +103,10 @@
           </option>
         </select>
       </div>
+      }
 
       <!-- Dropdown de filtre d'années -->
-      @if(selectedView() === 'read') {
+      @if(!isAdminView() && selectedView() === 'read') {
       <div class="books-filters-item">
         <p>Filtrer par année :</p>
         <select
@@ -131,9 +143,9 @@
     />
   </div>
 
-  @if(selectedYearFilter() !== 'all') {
+  @if(!isAdminView() && selectedYearFilter() !== 'all') {
   <p>Résultats affichés: {{ sortedBooks().length }}</p>
-  } @if(selectedView() === 'readlist') {
+  } @if(!isAdminView() && selectedView() === 'readlist') {
   <div class="readlist-actions">
     <button
       class="btn btn-primary"

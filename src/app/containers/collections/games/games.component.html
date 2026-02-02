@@ -2,6 +2,9 @@
 
 <div class="games-container">
   <h1>
+    @if (isAdminView()) {
+    Jeux ({{ filteredGames().length }})
+    } @else {
     {{
       selectedView() === "gamelist"
         ? "🎮 Jeux à jouer"
@@ -10,18 +13,22 @@
         : "🎮 Jeux vidéo"
     }}
     ({{ filteredGames().length }})
+    }
   </h1>
 
   @if(allGames().length !== 0 || allGamelistGames().length !== 0) {
   <div class="games-header-top">
+    @if (!isAdminView()) {
     <app-view-toggle
       [toggleClass]="'games-view-toggle'"
       [options]="viewOptions()"
       [selected]="selectedView()"
       (selectedChange)="onViewChange($any($event))"
     ></app-view-toggle>
+    }
 
     <div class="games-actions">
+      @if (!isAdminView()) {
       <button
         class="btn btn-small"
         [routerLink]="getSelectGamesRoute()"
@@ -59,6 +66,7 @@
       >
         ✅ Possédés
       </button>
+      }
     </div>
   </div>
   } @if(allGames().length === 0 && allGamelistGames().length === 0) {
@@ -74,12 +82,14 @@
   }
 
   <div class="games-header">
+    @if (!isAdminView()) {
     <app-stats-display
       [stats]="stats()"
       [count]="filteredGames().length"
       countLabel="jeux"
     >
     </app-stats-display>
+    }
 
     <app-sort-dropdown
       [sortOptions]="sortOptions()"

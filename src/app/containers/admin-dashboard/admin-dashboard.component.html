@@ -1,0 +1,14 @@
+<app-menu></app-menu>
+
+<div class="admin-dashboard">
+  <h1>Vue admin</h1>
+
+  @if (usersCount() !== null) {
+  <div class="admin-card">
+    <h2>Utilisateurs</h2>
+    <p class="admin-count">{{ usersCount() }}</p>
+  </div>
+  } @else {
+  <p class="admin-loading">Chargement des utilisateurs...</p>
+  }
+</div>

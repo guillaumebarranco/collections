@@ -30,8 +30,9 @@ import {
   getTotalComicsPages,
   getEstimatedComicsReadingTime,
 } from '../../../utils/stats.utils';
-import { ActivatedRoute, Params, RouterLink } from '@angular/router';
+import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
 import {
+  getAllBaseComics,
   getAllComics,
   getAllReadlistComics,
 } from '../../../facades/comics/comics.facade';
@@ -39,6 +40,7 @@ import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditComicComponent } from '../../edit/edit-comic/edit-comic.component';
 import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
+import { AuthService } from '../../../core/auth.service';
 
 @Component({
   selector: 'app-comics',
@@ -60,8 +62,10 @@ import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 })
 export class ComicsComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
+  router = inject(Router);
   private readonly dialog = inject(MatDialog);
   private readonly localStorageService = inject(LocalStorageService);
+  private readonly authService = inject(AuthService);
   private isLoadingPreferences = false;
   private readonly viewPreferencesStorageKey = 'comics_view_preferences';
 
@@ -78,10 +82,11 @@ export class ComicsComponent implements OnInit {
 
   comicsList = signal<{ [key: string]: Comic[] }>({});
   readlistComicsList = signal<{ [key: string]: Comic[] }>({});
+  adminComicsList = signal<Comic[]>([]);
 
   constructor() {
     effect(() => {
-      if (this.isLoadingPreferences) return;
+      if (this.isLoadingPreferences || this.isAdminView()) return;
       const preferences = {
         view: this.selectedView(),
         sort: this.selectedSort(),
@@ -91,6 +96,9 @@ export class ComicsComponent implements OnInit {
   }
 
   allComics = computed<Comic[]>(() => {
+    if (this.isAdminView()) {
+      return this.adminComicsList();
+    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
 
@@ -100,6 +108,9 @@ export class ComicsComponent implements OnInit {
   });
 
   allReadlistComics = computed<Comic[]>(() => {
+    if (this.isAdminView()) {
+      return [];
+    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
 
@@ -110,7 +121,9 @@ export class ComicsComponent implements OnInit {
 
   filteredComics = computed<Comic[]>(() => {
     let comics = this.allComics();
-    if (this.selectedView() === 'readlist') {
+    if (this.isAdminView()) {
+      comics = this.allComics();
+    } else if (this.selectedView() === 'readlist') {
       comics = this.allReadlistComics();
     } else if (this.selectedView() === 'owned') {
       comics = this.allComics().filter((comic) => comic.owned);
@@ -129,6 +142,9 @@ export class ComicsComponent implements OnInit {
   );
 
   stats = computed<StatItem[]>(() => {
+    if (this.isAdminView()) {
+      return [];
+    }
     const totalTomes = this.calculateTotalComics();
     const totalPages = this.calculateTotalPages();
     const totalPagesRead = getTotalComicsPages(this.filteredComics());
@@ -205,6 +221,9 @@ export class ComicsComponent implements OnInit {
   }
 
   async ngOnInit() {
+    if (this.isAdminView()) {
+      this.selectedView.set('read');
+    }
     this.loadViewPreferencesFromStorage();
     void this.refreshQuizzs();
     await this.refreshComics();
@@ -279,6 +298,24 @@ export class ComicsComponent implements OnInit {
   }
 
   private async refreshComics() {
+    if (this.isAdminView()) {
+      const baseComics = await getAllBaseComics();
+      const comics = baseComics.map((comic) => ({
+        title: comic.title,
+        writer: comic.writer,
+        coverUrl: comic.coverUrl,
+        pages: comic.pages,
+        genre: comic.genre,
+        designer: comic.designer,
+        rating: 0,
+        readDate: '',
+        readTimes: 0,
+        owned: false,
+      }));
+      this.adminComicsList.set(comics);
+      return;
+    }
+
     const userId = this.getActiveUserId();
     const [comics, readlist] = await Promise.all([
       getAllComics(userId),
@@ -319,5 +356,9 @@ export class ComicsComponent implements OnInit {
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? 'guillaume';
+  }
+
+  public isAdminView(): boolean {
+    return this.authService.isAdmin() && this.router.url.startsWith('/admin');
   }
 }

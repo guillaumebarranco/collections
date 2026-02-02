@@ -5,10 +5,12 @@ const {
   normalizeBoolean,
   normalizeString,
   updateSerieInFile,
+  updateSerieIdentityInFile,
   updateBaseSerieInFiles,
   getUserSeriesFiles,
+  getUserWatchlistSeriesFiles,
 } = require('../../utils/series/series-utils');
-const { isAdminUser } = require('../../utils/users/users-utils');
+const { isAdminUser, loadUsers } = require('../../utils/users/users-utils');
 
 const router = express.Router();
 
@@ -37,38 +39,51 @@ router.post('/', (req: any, res: any) => {
     };
 
     const entityPayload = input.entity || null;
-    if (entityPayload && !isAdminUser(userId)) {
+    const entityOnly = Boolean(input.entityOnly);
+    if ((entityPayload || entityOnly) && !isAdminUser(userId)) {
       res.status(403).json({ error: 'Admin required to edit entity data' });
       return;
     }
 
-    const serieFiles = getUserSeriesFiles(userId);
     let updatedFile: string | null = null;
 
-    for (const serieFile of serieFiles) {
-      const fileContent = fs.readFileSync(serieFile, 'utf8');
-      try {
-        const updatedContent = updateSerieInFile(fileContent, payload);
-        fs.writeFileSync(serieFile, updatedContent, 'utf8');
-        updatedFile = serieFile;
-        break;
-      } catch (error: any) {
-        if (error.message !== 'Serie not found') {
-          throw error;
+    if (!entityOnly) {
+      const serieFiles = getUserSeriesFiles(userId);
+      for (const serieFile of serieFiles) {
+        const fileContent = fs.readFileSync(serieFile, 'utf8');
+        try {
+          const updatedContent = updateSerieInFile(fileContent, payload);
+          fs.writeFileSync(serieFile, updatedContent, 'utf8');
+          updatedFile = serieFile;
+          break;
+        } catch (error: any) {
+          if (error.message !== 'Serie not found') {
+            throw error;
+          }
         }
       }
-    }
 
-    if (!updatedFile) {
-      res.status(404).json({ error: 'Serie not found' });
-      return;
+      if (!updatedFile) {
+        res.status(404).json({ error: 'Serie not found' });
+        return;
+      }
     }
 
     let baseUpdatedFile: string | null = null;
     if (entityPayload) {
+      const originalTitle = normalizeString(
+        input.originalTitle,
+        'originalTitle'
+      );
+      const originalDirector = normalizeString(
+        input.originalDirector,
+        'originalDirector'
+      );
       baseUpdatedFile = updateBaseSerieInFiles({
         title,
         director,
+        matchTitle: originalTitle || title,
+        matchDirector: originalDirector || director,
         actors: Array.isArray(entityPayload.actors)
           ? entityPayload.actors
           : undefined,
@@ -80,6 +95,40 @@ router.post('/', (req: any, res: any) => {
           ? entityPayload.seasonsData
           : undefined,
       });
+
+      if (originalTitle || originalDirector) {
+        const users = loadUsers();
+        const matchTitle = originalTitle || title;
+        const matchDirector = originalDirector || director;
+        users.forEach((user: any) => {
+          try {
+            const files = [
+              ...getUserSeriesFiles(user.username),
+              ...getUserWatchlistSeriesFiles(user.username),
+            ];
+            files.forEach((filePath: string) => {
+              const fileContent = fs.readFileSync(filePath, 'utf8');
+              try {
+                const updated = updateSerieIdentityInFile(fileContent, {
+                  matchTitle,
+                  matchDirector,
+                  title,
+                  director,
+                });
+                fs.writeFileSync(filePath, updated, 'utf8');
+              } catch (error: any) {
+                if (error.message !== 'Serie not found') {
+                  throw error;
+                }
+              }
+            });
+          } catch (error: any) {
+            if (!String(error.message || '').includes('not found')) {
+              throw error;
+            }
+          }
+        });
+      }
     }
 
     res.json({

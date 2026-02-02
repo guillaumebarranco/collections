@@ -48,11 +48,57 @@ import { EditMovieComponent } from './containers/edit/edit-movie/edit-movie.comp
 import { EditBookComponent } from './containers/edit/edit-book/edit-book.component';
 import { EditSerieComponent } from './containers/edit/edit-serie/edit-serie.component';
 import { EditGameComponent } from './containers/edit/edit-game/edit-game.component';
+import { AdminDashboardComponent } from './containers/admin-dashboard/admin-dashboard.component';
 
 export const routes: Routes = [
   {
     path: '',
     component: DashboardComponent,
+  },
+  {
+    path: 'admin',
+    children: [
+      {
+        path: '',
+        component: AdminDashboardComponent,
+      },
+      {
+        path: 'movies',
+        component: MoviesComponent,
+      },
+      {
+        path: 'books',
+        component: BooksComponent,
+      },
+      {
+        path: 'mangas',
+        component: MangasComponent,
+      },
+      {
+        path: 'manwhas',
+        component: ManwhasComponent,
+      },
+      {
+        path: 'comics',
+        component: ComicsComponent,
+      },
+      {
+        path: 'bds',
+        component: BdsComponent,
+      },
+      {
+        path: 'series',
+        component: SeriesComponent,
+      },
+      {
+        path: 'games',
+        component: GamesComponent,
+      },
+      {
+        path: 'musics',
+        component: MusicsComponent,
+      },
+    ],
   },
   {
     path: 'movies',

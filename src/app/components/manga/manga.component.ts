@@ -8,7 +8,7 @@ import {
   inject,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { EntityCardComponent } from '../entity-card/entity-card.component';
 import { AuthService } from '../../core/auth.service';
 import { Manga } from '../../models/manga-model';
@@ -30,6 +30,7 @@ interface StarInfo {
 })
 export class MangaComponent {
   private readonly activatedRoute = inject(ActivatedRoute);
+  private readonly router = inject(Router);
   private readonly authService = inject(AuthService);
 
   @Input() manga!: Manga;
@@ -40,7 +41,9 @@ export class MangaComponent {
   readonly canEdit = computed(() => {
     const directId = this.activatedRoute.snapshot.params['id'];
     const parentId = this.activatedRoute.parent?.snapshot.params['id'];
-    return this.authService.canEdit(directId || parentId);
+    const isAdminView =
+      this.authService.isAdmin() && this.router.url.startsWith('/admin');
+    return isAdminView || this.authService.canEdit(directId || parentId);
   });
 
   requestEdit(): void {

@@ -10,6 +10,7 @@ const bdsRoutes = require('./routes/bds/bds-routes');
 const musicsRoutes = require('./routes/musics/musics-routes');
 const quizzsRoutes = require('./routes/quizzs/quizzs-routes');
 const authRoutes = require('./routes/auth/auth-routes');
+const adminRoutes = require('./routes/admin/users-count');
 
 const PORT = 3001;
 
@@ -43,6 +44,7 @@ app.use('/api/bds', bdsRoutes);
 app.use('/api/musics', musicsRoutes);
 app.use('/api/quizzs', quizzsRoutes);
 app.use('/api/auth', authRoutes);
+app.use('/api/admin', adminRoutes);
 
 app.use((_req: any, res: any) => {
   res.status(404).json({ error: 'Not found' });

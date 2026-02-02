@@ -295,11 +295,65 @@ function updateGameInFile(filePath: string, gameData: any): boolean {
   return true;
 }
 
+function updateGameIdentityInFile(filePath: string, gameData: any): boolean {
+  const content = fs.readFileSync(filePath, 'utf8');
+  const games = parseGamesFromFile(content);
+  const matchTitle = gameData.matchTitle ?? gameData.title;
+  const matchEditor = gameData.matchEditor ?? gameData.editor;
+  const index = games.findIndex(
+    (game) => game.title === matchTitle && game.editor === matchEditor
+  );
+
+  if (index === -1) {
+    return false;
+  }
+
+  games[index] = {
+    ...games[index],
+    title: gameData.title ?? games[index].title,
+    editor: gameData.editor ?? games[index].editor,
+  };
+
+  const newArrayContent = games
+    .map(
+      (game) => `  {
+    title: '${escapeString(game.title)}',
+    editor: '${escapeString(game.editor)}',
+    rating: ${game.rating ?? 0},
+    timesFinished: ${game.timesFinished ?? 0},
+    additionnalEstimatedTime: ${game.additionnalEstimatedTime ?? 0},
+    platined: ${game.platined ?? false},
+    timesFinishedHundredPercent: ${game.timesFinishedHundredPercent ?? 0},
+    owned: ${game.owned ?? false},
+  }`
+    )
+    .join(',\n');
+
+  const exportIndex = content.indexOf('export const');
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
+    throw new Error('Array bounds not found');
+  }
+  const { arrayStart, arrayEnd } = bounds;
+
+  const newContent =
+    content.slice(0, arrayStart + 1) +
+    '\n' +
+    newArrayContent +
+    '\n' +
+    content.slice(arrayEnd);
+
+  fs.writeFileSync(filePath, newContent, 'utf8');
+  return true;
+}
+
 function updateBaseGameInFile(filePath: string, gameData: any): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const games = parseBaseGamesFullFromFile(content);
+  const matchTitle = gameData.matchTitle ?? gameData.title;
+  const matchEditor = gameData.matchEditor ?? gameData.editor;
   const index = games.findIndex(
-    (game) => game.title === gameData.title && game.editor === gameData.editor
+    (game) => game.title === matchTitle && game.editor === matchEditor
   );
 
   if (index === -1) {
@@ -309,6 +363,8 @@ function updateBaseGameInFile(filePath: string, gameData: any): boolean {
   games[index] = {
     ...games[index],
     ...gameData,
+    title: gameData.title ?? games[index].title,
+    editor: gameData.editor ?? games[index].editor,
   };
 
   const newArrayContent = games
@@ -449,6 +505,7 @@ module.exports = {
   appendObjectToArrayFile,
   baseGameExists,
   updateGameInFile,
+  updateGameIdentityInFile,
   updateBaseGameInFiles,
   removeGameFromFile,
   getUserGamesFiles,

@@ -35,7 +35,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       },
       {
         name: 'Hugh Grant',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/1249162.jpg',
     releaseDate: '2023-12-15',
@@ -135,23 +135,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Mystery, Crime',
     saga: '',
   },
-  {
-    title: "The King's Man : Première mission",
-    director: 'Matthew Vaughn',
-    actors: [
-      {
-        name: 'Ralph Fiennes',
-      },
-      {
-        name: 'Harris Dickinson',
-      }
-    ],
-    coverUrl: '/movies_pictures/1861024.webp',
-    releaseDate: '2021-12-22',
-    length: 131,
-    genre: 'Action, Espionnage',
-    saga: 'Kingsman',
-  },
+
   {
     title: 'West Side Story',
     director: 'Steven Spielberg',

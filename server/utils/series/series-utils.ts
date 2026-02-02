@@ -549,7 +549,13 @@ function updateSerieInFile(content: string, payload: any) {
   throw new Error('Serie not found');
 }
 
-function updateBaseSerieInFile(content: string, payload: any) {
+function updateSerieIdentityInFile(content: string, payload: any) {
+  const matchTitle = payload.matchTitle ?? payload.title;
+  const matchDirector = payload.matchDirector ?? payload.director;
+  if (!matchTitle || !matchDirector) {
+    throw new Error('Missing match title or director');
+  }
+
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     throw new Error('Array not found');
@@ -580,8 +586,73 @@ function updateBaseSerieInFile(content: string, payload: any) {
         const title = parseStringField(objectText, 'title');
         const director = parseStringField(objectText, 'director');
 
-        if (title === payload.title && director === payload.director) {
+        if (title === matchTitle && director === matchDirector) {
           let updated = objectText;
+          if (payload.title && payload.title !== title) {
+            updated = replaceField(updated, 'title', payload.title);
+          }
+          if (payload.director && payload.director !== director) {
+            updated = replaceField(updated, 'director', payload.director);
+          }
+
+          return (
+            content.slice(0, objectStart) +
+            updated +
+            content.slice(objectEnd + 1)
+          );
+        }
+      }
+    }
+    i += 1;
+  }
+
+  throw new Error('Serie not found');
+}
+
+function updateBaseSerieInFile(content: string, payload: any) {
+  const matchTitle = payload.matchTitle ?? payload.title;
+  const matchDirector = payload.matchDirector ?? payload.director;
+  if (!matchTitle || !matchDirector) {
+    throw new Error('Missing match title or director');
+  }
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) {
+    throw new Error('Array not found');
+  }
+
+  const arrayStart = content.indexOf('[', exportIndex);
+  const arrayEnd = content.indexOf('];', arrayStart);
+  if (arrayStart === -1 || arrayEnd === -1) {
+    throw new Error('Array bounds not found');
+  }
+
+  let i = arrayStart;
+  let depth = 0;
+  let objectStart = -1;
+
+  while (i < arrayEnd) {
+    const char = content[i];
+    if (char === '{') {
+      if (depth === 0) {
+        objectStart = i;
+      }
+      depth += 1;
+    } else if (char === '}') {
+      depth -= 1;
+      if (depth === 0 && objectStart !== -1) {
+        const objectEnd = i;
+        const objectText = content.slice(objectStart, objectEnd + 1);
+        const title = parseStringField(objectText, 'title');
+        const director = parseStringField(objectText, 'director');
+
+        if (title === matchTitle && director === matchDirector) {
+          let updated = objectText;
+          if (payload.title && payload.title !== title) {
+            updated = replaceField(updated, 'title', payload.title);
+          }
+          if (payload.director && payload.director !== director) {
+            updated = replaceField(updated, 'director', payload.director);
+          }
           updated = upsertActorsField(updated, payload.actors);
           updated = upsertField(updated, 'coverUrl', payload.coverUrl);
           updated = upsertField(updated, 'releaseDate', payload.releaseDate);
@@ -728,6 +799,7 @@ module.exports = {
   findBaseSerie,
   BASE_SERIES_API_FILE,
   updateSerieInFile,
+  updateSerieIdentityInFile,
   updateBaseSerieInFiles,
   removeSerieFromFile,
   getUserSeriesFiles,

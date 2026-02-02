@@ -25,8 +25,9 @@ import {
   manwhaViewOptions,
   manwhasSortOptions,
 } from './manwhas.utils';
-import { ActivatedRoute, Params, RouterLink } from '@angular/router';
+import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
 import {
+  getAllBaseManwhas,
   getAllManwhas,
   getAllReadlistManwhas,
 } from '../../../facades/manwhas/manwhas.facade';
@@ -47,6 +48,7 @@ import { EditManwhaComponent } from '../../edit/edit-manwha/edit-manwha.componen
 import { LocalStorageService } from '../../../services/local-storage.service';
 import { Quizz } from '../../../models/quizz-model';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
+import { AuthService } from '../../../core/auth.service';
 @Component({
   selector: 'app-manwhas',
   imports: [
@@ -66,8 +68,10 @@ import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 })
 export class ManwhasComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
+  router = inject(Router);
   private readonly dialog = inject(MatDialog);
   private readonly localStorageService = inject(LocalStorageService);
+  private readonly authService = inject(AuthService);
   private isLoadingPreferences = false;
   private readonly viewPreferencesStorageKey = 'manwhas_view_preferences';
   selectedSort = signal<string>('rating');
@@ -83,10 +87,11 @@ export class ManwhasComponent implements OnInit {
 
   manwhasList = signal<{ [key: string]: Manwha[] }>({});
   readlistManwhasList = signal<{ [key: string]: Manwha[] }>({});
+  adminManwhasList = signal<Manwha[]>([]);
 
   constructor() {
     effect(() => {
-      if (this.isLoadingPreferences) return;
+      if (this.isLoadingPreferences || this.isAdminView()) return;
       const preferences = {
         view: this.selectedView(),
         sort: this.selectedSort(),
@@ -99,6 +104,9 @@ export class ManwhasComponent implements OnInit {
   }
 
   allManwhas = computed<Manwha[]>(() => {
+    if (this.isAdminView()) {
+      return this.adminManwhasList();
+    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
 
@@ -110,6 +118,9 @@ export class ManwhasComponent implements OnInit {
   });
 
   allReadlistManwhas = computed<Manwha[]>(() => {
+    if (this.isAdminView()) {
+      return [];
+    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
 
@@ -120,7 +131,9 @@ export class ManwhasComponent implements OnInit {
 
   filteredManwhas = computed<Manwha[]>(() => {
     let manwhas = this.allManwhas();
-    if (this.selectedView() === 'readlist') {
+    if (this.isAdminView()) {
+      manwhas = this.allManwhas();
+    } else if (this.selectedView() === 'readlist') {
       manwhas = this.allReadlistManwhas();
     } else if (this.selectedView() === 'owned') {
       manwhas = this.allManwhas().filter((manwha) => manwha.owned);
@@ -139,6 +152,9 @@ export class ManwhasComponent implements OnInit {
   );
 
   stats = computed<StatItem[]>(() => {
+    if (this.isAdminView()) {
+      return [];
+    }
     const totalChapters = this.calculateTotalChapters();
     const totalPages = this.calculateTotalManwhasPages();
     const totalChaptersRead = getTotalManwhasChaptersRead(
@@ -224,6 +240,9 @@ export class ManwhasComponent implements OnInit {
   }
 
   async ngOnInit() {
+    if (this.isAdminView()) {
+      this.selectedView.set('read');
+    }
     void this.refreshQuizzs();
     this.loadViewPreferencesFromStorage();
     await this.refreshManwhas();
@@ -324,6 +343,25 @@ export class ManwhasComponent implements OnInit {
   }
 
   private async refreshManwhas() {
+    if (this.isAdminView()) {
+      const baseManwhas = await getAllBaseManwhas();
+      const manwhas = baseManwhas.map((manwha) => ({
+        title: manwha.title,
+        author: manwha.author,
+        coverUrl: manwha.coverUrl,
+        pages: manwha.pages,
+        genre: manwha.genre,
+        nbChapters: manwha.nbChapters,
+        isFinished: manwha.isFinished,
+        rating: 0,
+        readDate: '',
+        readTimes: 0,
+        owned: false,
+      }));
+      this.adminManwhasList.set(manwhas);
+      return;
+    }
+
     const userId = this.getActiveUserId();
     const [manwhas, readlist] = await Promise.all([
       getAllManwhas(userId),
@@ -341,5 +379,9 @@ export class ManwhasComponent implements OnInit {
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? 'guillaume';
+  }
+
+  public isAdminView(): boolean {
+    return this.authService.isAdmin() && this.router.url.startsWith('/admin');
   }
 }

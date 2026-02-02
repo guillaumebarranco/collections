@@ -2,6 +2,9 @@
 
 <div class="movies-container">
   <h1>
+    @if (isAdminView()) {
+    Films ({{ filteredMoviesByYear().length }})
+    } @else {
     {{
       selectedView() === "watchlist"
         ? "Films à voir"
@@ -14,18 +17,22 @@
         : "Films visionnés"
     }}
     ({{ filteredMoviesByYear().length }})
+    }
   </h1>
 
   @if(allMovies().length !== 0) {
   <div class="movies-header-top">
+    @if (!isAdminView()) {
     <app-view-toggle
       [toggleClass]="'movies-view-toggle'"
       [options]="visibleMovieViewOptions()"
       [selected]="selectedView()"
       (selectedChange)="onViewChange($any($event))"
     ></app-view-toggle>
+    }
 
     <div class="movies-actions">
+      @if (!isAdminView()) {
       @if(selectedView() !== 'cinema') {
       <button
         class="btn btn-small"
@@ -70,6 +77,7 @@
       >
         ✅ Possédés
       </button>
+      }
     </div>
   </div>
   } @if(filteredMoviesByYear().length === 0 && selectedView() !== 'watchlist') {
@@ -97,16 +105,18 @@
   }
 
   <div class="movies-header">
+    @if (!isAdminView()) {
     <app-stats-display
       [stats]="stats()"
       [count]="filteredMoviesByYear().length"
       countLabel="films"
     >
     </app-stats-display>
+    }
 
     <div class="movies-filters">
       <!-- Dropdown de filtre d'années -->
-      @if(selectedView() === 'watched' || selectedView() === 'cinema') {
+      @if(!isAdminView() && (selectedView() === 'watched' || selectedView() === 'cinema')) {
       <div class="movies-filters-item">
         <p>Filtrer par année :</p>
         <select

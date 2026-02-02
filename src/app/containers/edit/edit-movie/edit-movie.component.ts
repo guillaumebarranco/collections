@@ -66,12 +66,27 @@ export class EditMovieComponent {
   );
 
   readonly movie = signal<Movie | null>(null);
+  readonly adminTitle = signal<string>('');
+  readonly adminSecondary = signal<string>('');
+  readonly originalTitle = signal<string>('');
+  readonly originalSecondary = signal<string>('');
   readonly movieForm = signal<EditMovieForm | null>(null);
   readonly movieEntityForm = signal<EditMovieEntityForm | null>(null);
   readonly movieNotFound = signal<boolean>(false);
   readonly isSaving = signal<boolean>(false);
   readonly isDeleting = signal<boolean>(false);
   readonly isAdmin = computed(() => this.authService.isAdmin());
+  readonly isAdminView = computed(
+    () => this.authService.isAdmin() && this.router.url.startsWith('/admin')
+  );
+  readonly isTitleModified = computed(
+    () => this.adminTitle().trim() !== this.originalTitle().trim()
+  );
+  readonly isSecondaryModified = computed(
+    () => this.adminSecondary().trim() !== this.originalSecondary().trim()
+  );
+  readonly disableTitleEdit = computed(() => this.isSecondaryModified());
+  readonly disableSecondaryEdit = computed(() => this.isTitleModified());
   readonly hasDialogUpdates = signal<boolean>(false);
   readonly dialogList = signal<Movie[]>([]);
   readonly dialogIndex = signal<number>(-1);
@@ -173,6 +188,10 @@ export class EditMovieComponent {
   }
 
   async onSubmit(navigateAfterSave = false) {
+    if (this.isAdminView()) {
+      await this.onAdminSubmit();
+      return;
+    }
     const form = this.movieForm();
     const movie = this.movie();
     if (!form || !movie) return;
@@ -260,6 +279,50 @@ export class EditMovieComponent {
       console.error('edit-movie:delete:error', error);
     } finally {
       this.isDeleting.set(false);
+    }
+  }
+
+  async onAdminSubmit() {
+    const movie = this.movie();
+    const entityForm = this.movieEntityForm();
+    if (!movie || !entityForm) return;
+    if (!this.canEditCurrentUser()) return;
+    if (this.isTitleModified() && this.isSecondaryModified()) {
+      alert(
+        "Merci de modifier soit le titre, soit le réalisateur, pas les deux en même temps."
+      );
+      return;
+    }
+
+    this.isSaving.set(true);
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/movies`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.getAdminUserId(),
+          title: this.adminTitle().trim(),
+          director: this.adminSecondary().trim(),
+          entityOnly: true,
+          originalTitle: this.originalTitle(),
+          originalDirector: this.originalSecondary(),
+          entity: this.toEntityPayload(entityForm),
+        }),
+      });
+
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        console.error('edit-movie:admin:error', payload);
+        return;
+      }
+
+      this.dialogRef?.close({ updated: true, payload });
+    } catch (error) {
+      console.error('edit-movie:admin:error', error);
+    } finally {
+      this.isSaving.set(false);
     }
   }
 
@@ -378,7 +441,11 @@ export class EditMovieComponent {
   }
 
   private canEditCurrentUser(): boolean {
-    return this.authService.canEdit(this.getCurrentUserId());
+    return this.isAdminView() || this.authService.canEdit(this.getCurrentUserId());
+  }
+
+  private getAdminUserId(): string {
+    return this.authService.getAuthenticatedUserId() || this.getCurrentUserId();
   }
 
   private setupDialogNavigation(data: EditMovieDialogData) {
@@ -416,6 +483,10 @@ export class EditMovieComponent {
     this.movie.set(movie);
     this.movieForm.set(this.toForm(movie));
     this.movieEntityForm.set(this.toEntityForm(movie));
+    this.adminTitle.set(movie.title);
+    this.adminSecondary.set(movie.director);
+    this.originalTitle.set(movie.title);
+    this.originalSecondary.set(movie.director);
     this.movieNotFound.set(false);
   }
 

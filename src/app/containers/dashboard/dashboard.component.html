@@ -2,7 +2,14 @@
 
 @if (userId() && userHasData()) {
 <div class="dashboard-container">
-  <h1>Tableau de bord</h1>
+  <div class="dashboard-header">
+    <h1>Tableau de bord</h1>
+    @if (isAdmin()) {
+    <button class="btn btn-small" type="button" [routerLink]="'/admin'">
+      Allez sur la vue Admin
+    </button>
+    }
+  </div>
 
   <app-view-toggle
     [toggleClass]="'dashboard-tabs'"

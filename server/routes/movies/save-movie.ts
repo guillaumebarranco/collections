@@ -5,10 +5,12 @@ const {
   normalizeBoolean,
   normalizeString,
   updateMovieInFile,
+  updateMovieIdentityInFile,
   updateBaseMovieInFiles,
   getUserMoviesFiles,
+  getUserWatchlistMoviesFiles,
 } = require('../../utils/movies/movies-utils');
-const { isAdminUser } = require('../../utils/users/users-utils');
+const { isAdminUser, loadUsers } = require('../../utils/users/users-utils');
 
 const router = express.Router();
 
@@ -44,38 +46,51 @@ router.post('/', (req: any, res: any) => {
     };
 
     const entityPayload = input.entity || null;
-    if (entityPayload && !isAdminUser(userId)) {
+    const entityOnly = Boolean(input.entityOnly);
+    if ((entityPayload || entityOnly) && !isAdminUser(userId)) {
       res.status(403).json({ error: 'Admin required to edit entity data' });
       return;
     }
 
-    const movieFiles = getUserMoviesFiles(userId);
     let updatedFile: string | null = null;
 
-    for (const movieFile of movieFiles) {
-      const fileContent = fs.readFileSync(movieFile, 'utf8');
-      try {
-        const updatedContent = updateMovieInFile(fileContent, payload);
-        fs.writeFileSync(movieFile, updatedContent, 'utf8');
-        updatedFile = movieFile;
-        break;
-      } catch (error: any) {
-        if (error.message !== 'Movie not found') {
-          throw error;
+    if (!entityOnly) {
+      const movieFiles = getUserMoviesFiles(userId);
+      for (const movieFile of movieFiles) {
+        const fileContent = fs.readFileSync(movieFile, 'utf8');
+        try {
+          const updatedContent = updateMovieInFile(fileContent, payload);
+          fs.writeFileSync(movieFile, updatedContent, 'utf8');
+          updatedFile = movieFile;
+          break;
+        } catch (error: any) {
+          if (error.message !== 'Movie not found') {
+            throw error;
+          }
         }
       }
-    }
 
-    if (!updatedFile) {
-      res.status(404).json({ error: 'Movie not found' });
-      return;
+      if (!updatedFile) {
+        res.status(404).json({ error: 'Movie not found' });
+        return;
+      }
     }
 
     let baseUpdatedFile: string | null = null;
     if (entityPayload) {
+      const originalTitle = normalizeString(
+        input.originalTitle,
+        'originalTitle'
+      );
+      const originalDirector = normalizeString(
+        input.originalDirector,
+        'originalDirector'
+      );
       baseUpdatedFile = updateBaseMovieInFiles({
         title,
         director,
+        matchTitle: originalTitle || title,
+        matchDirector: originalDirector || director,
         actors: Array.isArray(entityPayload.actors)
           ? entityPayload.actors
           : undefined,
@@ -85,6 +100,40 @@ router.post('/', (req: any, res: any) => {
         genre: normalizeString(entityPayload.genre, 'genre'),
         saga: normalizeString(entityPayload.saga, 'saga'),
       });
+
+      if (originalTitle || originalDirector) {
+        const users = loadUsers();
+        const matchTitle = originalTitle || title;
+        const matchDirector = originalDirector || director;
+        users.forEach((user: any) => {
+          try {
+            const files = [
+              ...getUserMoviesFiles(user.username),
+              ...getUserWatchlistMoviesFiles(user.username),
+            ];
+            files.forEach((filePath: string) => {
+              const fileContent = fs.readFileSync(filePath, 'utf8');
+              try {
+                const updated = updateMovieIdentityInFile(fileContent, {
+                  matchTitle,
+                  matchDirector,
+                  title,
+                  director,
+                });
+                fs.writeFileSync(filePath, updated, 'utf8');
+              } catch (error: any) {
+                if (error.message !== 'Movie not found') {
+                  throw error;
+                }
+              }
+            });
+          } catch (error: any) {
+            if (!String(error.message || '').includes('not found')) {
+              throw error;
+            }
+          }
+        });
+      }
     }
 
     res.json({

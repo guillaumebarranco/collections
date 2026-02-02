@@ -45,7 +45,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Kate Winslet',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/avatar_de_feu_et_de_cendres.jpg',
     releaseDate: '2025-12-17',
@@ -149,7 +149,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Alan Tudyk',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/insaisissables_3.jpg',
     releaseDate: '2025-11-12',
@@ -181,7 +181,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Jeff Goldblum',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/tron_ares.jpg',
     releaseDate: '2025-10-08',
@@ -271,7 +271,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Jeff Bridges',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/conjuring_l_heure_du_jugement.jpg',
     releaseDate: '2025-09-10',
@@ -445,7 +445,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Jodie Turner-Smith',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/jurassic_world_renaissance.jpg',
     releaseDate: '2025-07-04',
@@ -526,7 +526,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Oleksandr Usyk',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/ballerina.jpg',
     releaseDate: '2025-06-04',
@@ -792,7 +792,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Dominique Blanc',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/karate_kid_legends.jpg',
     releaseDate: '2025-01-01',
@@ -821,7 +821,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Tony Todd',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/mission_impossible_the_final_reckoning.jpg',
     releaseDate: '2025-05-21',
@@ -850,7 +850,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Ming-Na Wen',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/last_bullet.jpg',
     releaseDate: '2025-01-01',
@@ -954,7 +954,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Nathaniel Arcand',
-      }
+      },
     ],
     coverUrl:
       '/movies_pictures/the_lord_of_the_rings_the_war_of_the_rohirrim.jpg',
@@ -1108,7 +1108,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Matthew Lillard',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/caddo_lake.jpg',
     releaseDate: '2024-01-01',
@@ -1160,7 +1160,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Elle Young',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/heretic.jpg',
     releaseDate: '2024-01-01',
@@ -1212,7 +1212,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Aoife Hinds',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/we_live_in_time.jpg',
     releaseDate: '2024-01-01',
@@ -1290,7 +1290,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Hayley Mills',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/trap.jpg',
     releaseDate: '2024-01-01',
@@ -1342,7 +1342,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Anna Garcia',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/fly_me_to_the_moon.jpg',
     releaseDate: '2024-01-01',
@@ -1489,7 +1489,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'William H. Macy',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/kingdom_of_the_planet_of_the_apes.jpg',
     releaseDate: '2024-01-01',
@@ -1515,7 +1515,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Céline Groussard',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/a_little_something_extra.jpg',
     releaseDate: '2024-01-01',
@@ -1581,7 +1581,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     actors: [
       {
         name: 'Paul Rudd',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/ghostbusters_frozen_empire.jpg',
     releaseDate: '2024-01-01',
@@ -1685,7 +1685,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'James Hong',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/kung_fu_panda_4.jpg',
     releaseDate: '2024-01-01',
@@ -1783,7 +1783,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Cailee Spaeny',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/aquaman_et_le_royaume_perdu.jpg',
     releaseDate: '2023-12-20',
@@ -1957,7 +1957,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Minami Hamabe',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/godzilla_minus_one.jpg',
     releaseDate: '2023-01-01',
@@ -2159,7 +2159,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Adriana Barraza',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/blue_beetle.jpg',
     releaseDate: '2023-08-16',
@@ -2254,7 +2254,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Rebecca Ferguson',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/mission_impossible_dead_reckoning_partie_1.jpg',
     releaseDate: '2023-07-12',
@@ -2424,7 +2424,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'John Rhys-Davies',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/indiana_jones_and_the_dial_of_destiny.jpg',
     releaseDate: '2023-01-01',
@@ -2524,7 +2524,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Courteney Cox',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/scream_vi.jpg',
     releaseDate: '2023-03-08',
@@ -2532,26 +2532,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Horreur',
     saga: 'Scream',
   },
-  {
-    title: "Astérix et Obélix : L'Empire du Milieu",
-    director: 'Guillaume Canet',
-    actors: [
-      {
-        name: 'Guillaume Canet',
-      },
-      {
-        name: 'Gilles Lellouche',
-      },
-      {
-        name: 'Marion Cotillard',
-      }
-    ],
-    coverUrl: '/movies_pictures/asterix_et_obelix_lempire_du_milieu.jpg',
-    releaseDate: '2023-02-01',
-    length: 112,
-    genre: 'Comédie',
-    saga: 'Astérix',
-  },
+
   {
     title: 'Knock at the Cabin',
     director: 'M. Night Shyamalan',
@@ -2624,7 +2605,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Stéfi Celma',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/balle_perdue_2.jpg',
     releaseDate: '2022-11-10',
@@ -3004,7 +2985,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'David Arquette',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/scream.jpg',
     releaseDate: '2022-01-12',
@@ -6617,20 +6598,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
   },
   {
-    title: 'Les Seigneurs',
-    director: 'Olivier Dahan',
-    actors: [
-      {
-        name: 'José Garcia',
-      },
-    ],
-    coverUrl: '/movies_pictures/the_dream_team.jpg',
-    releaseDate: '2012-04-04',
-    length: 112,
-    genre: 'Comédie',
-    saga: '',
-  },
-  {
     title: 'Cloud Atlas',
     director: 'Lana Wachowski, Lilly Wachowski, Tom Tykwer',
     actors: [
@@ -6710,26 +6677,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Animation',
     saga: '',
   },
-  {
-    title: 'Sexy Dance 4 : Miami Heat',
-    director: 'Scott Speer',
-    actors: [
-      {
-        name: 'Ryan Guzman',
-      },
-      {
-        name: 'Kathryn McCormick',
-      },
-      {
-        name: 'Misha Gabriel Hamilton',
-      },
-    ],
-    coverUrl: '/movies_pictures/step_up_revolution.jpg',
-    releaseDate: '2012-08-08',
-    length: 99,
-    genre: 'Drame',
-    saga: '',
-  },
+
   {
     title: "L'Âge de glace 4 : La Dérive des continents",
     director: 'Steve Martino, Mike Thurmeier',
@@ -6762,20 +6710,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2012-08-15',
     length: 110,
     genre: 'Comédie',
-    saga: '',
-  },
-  {
-    title: 'Rebelle',
-    director: 'Mark Andrews, Brenda Chapman',
-    actors: [
-      {
-        name: 'Kelly Macdonald',
-      },
-    ],
-    coverUrl: '/movies_pictures/brave.jpg',
-    releaseDate: '2012-08-01',
-    length: 93,
-    genre: 'Animation',
     saga: '',
   },
   {
@@ -7760,27 +7694,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Action',
     saga: '',
   },
-
-  {
-    title: 'Madagascar 2 : La grande évasion',
-    director: 'Eric Darnell, Tom McGrath',
-    actors: [
-      {
-        name: 'Ben Stiller',
-      },
-      {
-        name: 'Chris Rock',
-      },
-      {
-        name: 'David Schwimmer',
-      },
-    ],
-    coverUrl: '/movies_pictures/madagascar_escape_2_africa.jpg',
-    releaseDate: '2008-12-03',
-    length: 89,
-    genre: 'Animation',
-    saga: '',
-  },
   {
     title: 'Saw V',
     director: 'David Hackl',
@@ -7876,26 +7789,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Drame',
     saga: '',
   },
-  {
-    title: 'Astérix aux Jeux Olympiques',
-    director: 'Frédéric Forestier, Thomas Langmann',
-    actors: [
-      {
-        name: 'Briana Evigan',
-      },
-      {
-        name: 'Robert Hoffman',
-      },
-      {
-        name: 'Adam G. Sevani',
-      },
-    ],
-    coverUrl: '/movies_pictures/asterix_at_the_olympic_games.jpg',
-    releaseDate: '2008-01-30',
-    length: 117,
-    genre: 'Comédie',
-    saga: '',
-  },
+
   {
     title: 'Benjamin Gates et le Livre des secrets',
     director: 'Jon Turteltaub',

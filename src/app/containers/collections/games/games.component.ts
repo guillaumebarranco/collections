@@ -1,4 +1,11 @@
-import { Component, computed, inject, signal, OnInit, effect } from '@angular/core';
+import {
+  Component,
+  computed,
+  inject,
+  signal,
+  OnInit,
+  effect,
+} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { GameComponent } from '../../../components/game/game.component';
@@ -30,13 +37,15 @@ import {
   gamesSortOptions,
   getSortedGames,
 } from './games.utils';
-import { ActivatedRoute, Params, RouterLink } from '@angular/router';
+import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
 import {
+  getAllBaseGames,
   getAllGames,
   getAllGamelistGames,
 } from '../../../facades/games/games.facade';
 import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
+import { AuthService } from '../../../core/auth.service';
 
 import {
   getTotalTimeToFinishGames,
@@ -63,7 +72,9 @@ import {
 })
 export class GamesComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
+  router = inject(Router);
   private readonly localStorageService = inject(LocalStorageService);
+  private readonly authService = inject(AuthService);
   private isLoadingPreferences = false;
   private readonly viewPreferencesStorageKey = 'games_view_preferences';
 
@@ -88,19 +99,26 @@ export class GamesComponent implements OnInit {
 
   gamesList = signal<{ [key: string]: Game[] }>({});
   gamelistGamesList = signal<{ [key: string]: Game[] }>({});
+  adminGamesList = signal<Game[]>([]);
 
   constructor() {
     effect(() => {
-      if (this.isLoadingPreferences) return;
+      if (this.isLoadingPreferences || this.isAdminView()) return;
       const preferences = {
         view: this.selectedView(),
         sort: this.selectedSort(),
       };
-      this.localStorageService.setItem(this.viewPreferencesStorageKey, preferences);
+      this.localStorageService.setItem(
+        this.viewPreferencesStorageKey,
+        preferences
+      );
     });
   }
 
   allGames = computed<Game[]>(() => {
+    if (this.isAdminView()) {
+      return this.adminGamesList();
+    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
@@ -109,6 +127,9 @@ export class GamesComponent implements OnInit {
   });
 
   allGamelistGames = computed<Game[]>(() => {
+    if (this.isAdminView()) {
+      return [];
+    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
@@ -118,7 +139,9 @@ export class GamesComponent implements OnInit {
 
   filteredGames = computed<Game[]>(() => {
     let games = this.allGames();
-    if (this.selectedView() === 'gamelist') {
+    if (this.isAdminView()) {
+      games = this.allGames();
+    } else if (this.selectedView() === 'gamelist') {
       games = this.allGamelistGames();
     } else if (this.selectedView() === 'platined') {
       games = this.allGames().filter((game) => game.platined);
@@ -143,6 +166,9 @@ export class GamesComponent implements OnInit {
   );
 
   stats = computed<StatItem[]>(() => {
+    if (this.isAdminView()) {
+      return [];
+    }
     const totalTimeToFinishGames = getTotalTimeToFinishGames(
       this.filteredGames()
     );
@@ -182,12 +208,39 @@ export class GamesComponent implements OnInit {
   });
 
   ngOnInit() {
+    if (this.isAdminView()) {
+      this.selectedView.set('finished');
+    }
     void this.refreshQuizzs();
     this.loadViewPreferencesFromStorage();
     void this.refreshGames();
   }
 
   async refreshGames() {
+    if (this.isAdminView()) {
+      const baseGames = await getAllBaseGames();
+      const games = baseGames.map((game) => ({
+        title: game.title,
+        editor: game.editor,
+        hero: game.hero,
+        coverUrl: game.coverUrl,
+        releaseDate: game.releaseDate,
+        averageTimeToFinish: game.averageTimeToFinish,
+        averageTimeToHundredPercent: game.averageTimeToHundredPercent,
+        platform: game.platform,
+        saga: game.saga,
+        platineTime: game.platineTime,
+        rating: 0,
+        timesFinished: 0,
+        timesFinishedHundredPercent: 0,
+        additionnalEstimatedTime: 0,
+        platined: false,
+        owned: false,
+      }));
+      this.adminGamesList.set(games);
+      return;
+    }
+
     const userId = this.getActiveUserId();
     const [games, gamelist] = await Promise.all([
       getAllGames(userId),
@@ -205,6 +258,10 @@ export class GamesComponent implements OnInit {
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? 'guillaume';
+  }
+
+  public isAdminView(): boolean {
+    return this.authService.isAdmin() && this.router.url.startsWith('/admin');
   }
 
   onSortChange(sortValue: string) {

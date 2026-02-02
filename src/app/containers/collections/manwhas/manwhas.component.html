@@ -2,6 +2,9 @@
 
 <div class="manwhas-container">
   <h1>
+    @if (isAdminView()) {
+    Manwhas ({{ filteredManwhas().length }})
+    } @else {
     {{
       selectedView() === "readlist"
         ? "Manwhas à lire"
@@ -10,9 +13,10 @@
         : "Manwhas lus"
     }}
     ({{ filteredManwhas().length }})
+    }
   </h1>
 
-  @if(allManwhas().length === 0 && allReadlistManwhas().length === 0) {
+  @if(!isAdminView() && allManwhas().length === 0 && allReadlistManwhas().length === 0) {
   <div class="empty-state">
     <p class="empty-message">Vous n'avez aucun manwha dans votre collection.</p>
     <p class="empty-subtitle">
@@ -24,14 +28,17 @@
   </div>
   } @if(allManwhas().length !== 0 || allReadlistManwhas().length !== 0) {
   <div class="manwhas-header-top">
+    @if (!isAdminView()) {
     <app-view-toggle
       [toggleClass]="'manwhas-view-toggle'"
       [options]="viewOptions"
       [selected]="selectedView()"
       (selectedChange)="onViewChange($any($event))"
     ></app-view-toggle>
+    }
 
     <div class="manwhas-actions">
+      @if (!isAdminView()) {
       <button
         class="btn btn-small"
         [routerLink]="getSelectManwhasRoute()"
@@ -66,17 +73,20 @@
       >
         ✅ Possédés
       </button>
+      }
     </div>
   </div>
   }
 
   <div class="manwhas-header">
+    @if (!isAdminView()) {
     <app-stats-display
       [stats]="stats()"
       [count]="filteredManwhas().length"
       countLabel="manwhas"
     >
     </app-stats-display>
+    }
 
     <app-sort-dropdown
       [sortOptions]="sortOptions()"

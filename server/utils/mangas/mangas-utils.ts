@@ -288,11 +288,63 @@ function updateMangaInFile(filePath: string, mangaData: any): boolean {
   return true;
 }
 
+function updateMangaIdentityInFile(filePath: string, mangaData: any): boolean {
+  const content = fs.readFileSync(filePath, 'utf8');
+  const mangas = parseMangasFromFile(content);
+  const matchTitle = mangaData.matchTitle ?? mangaData.title;
+  const matchAuthor = mangaData.matchAuthor ?? mangaData.author;
+  const index = mangas.findIndex(
+    (manga) => manga.title === matchTitle && manga.author === matchAuthor
+  );
+
+  if (index === -1) {
+    return false;
+  }
+
+  mangas[index] = {
+    ...mangas[index],
+    title: mangaData.title ?? mangas[index].title,
+    author: mangaData.author ?? mangas[index].author,
+  };
+
+  const newArrayContent = mangas
+    .map(
+      (manga) => `  {
+    title: '${escapeString(manga.title)}',
+    author: '${escapeString(manga.author)}',
+    readDate: '${escapeString(manga.readDate || '')}',
+    rating: ${manga.rating ?? 0},
+    readTimes: ${manga.readTimes ?? 1},
+    owned: ${manga.owned ?? false},
+  }`
+    )
+    .join(',\n');
+
+  const exportIndex = content.indexOf('export const');
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
+    throw new Error('Array bounds not found');
+  }
+  const { arrayStart, arrayEnd } = bounds;
+
+  const newContent =
+    content.slice(0, arrayStart + 1) +
+    '\n' +
+    newArrayContent +
+    '\n' +
+    content.slice(arrayEnd);
+
+  fs.writeFileSync(filePath, newContent, 'utf8');
+  return true;
+}
+
 function updateBaseMangaInFile(filePath: string, mangaData: any): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const mangas = parseBaseMangasFullFromFile(content);
+  const matchTitle = mangaData.matchTitle ?? mangaData.title;
+  const matchAuthor = mangaData.matchAuthor ?? mangaData.author;
   const index = mangas.findIndex(
-    (manga) => manga.title === mangaData.title && manga.author === mangaData.author
+    (manga) => manga.title === matchTitle && manga.author === matchAuthor
   );
 
   if (index === -1) {
@@ -302,6 +354,8 @@ function updateBaseMangaInFile(filePath: string, mangaData: any): boolean {
   mangas[index] = {
     ...mangas[index],
     ...mangaData,
+    title: mangaData.title ?? mangas[index].title,
+    author: mangaData.author ?? mangas[index].author,
   };
 
   const newArrayContent = mangas
@@ -429,6 +483,7 @@ module.exports = {
   appendObjectToArrayFile,
   baseMangaExists,
   updateMangaInFile,
+  updateMangaIdentityInFile,
   updateBaseMangaInFiles,
   removeMangaFromFile,
   getUserMangasFiles,

@@ -512,6 +512,46 @@ export const baseMoviesPage2: BaseMovie[] = [
     saga: '',
   },
   {
+    title: 'Astérix aux Jeux Olympiques',
+    director: 'Frédéric Forestier, Thomas Langmann',
+    actors: [
+      {
+        name: 'Briana Evigan',
+      },
+      {
+        name: 'Robert Hoffman',
+      },
+      {
+        name: 'Adam G. Sevani',
+      },
+    ],
+    coverUrl: '/movies_pictures/asterix_at_the_olympic_games.jpg',
+    releaseDate: '2008-01-30',
+    length: 117,
+    genre: 'Comédie',
+    saga: '',
+  },
+  {
+    title: "Astérix et Obélix : L'Empire du Milieu",
+    director: 'Guillaume Canet',
+    actors: [
+      {
+        name: 'Guillaume Canet',
+      },
+      {
+        name: 'Gilles Lellouche',
+      },
+      {
+        name: 'Marion Cotillard',
+      },
+    ],
+    coverUrl: '/movies_pictures/asterix_et_obelix_lempire_du_milieu.jpg',
+    releaseDate: '2023-02-01',
+    length: 112,
+    genre: 'Comédie',
+    saga: 'Astérix',
+  },
+  {
     title: "L'Avocat du Diable",
     director: 'Taylor Hackford',
     actors: [{ name: 'Keanu Reeves' }],

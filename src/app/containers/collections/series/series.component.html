@@ -2,6 +2,9 @@
 
 <div class="series-container">
   <h1>
+    @if (isAdminView()) {
+    Séries ({{ filteredSeries().length }})
+    } @else {
     {{
       selectedView() === "watchlist"
         ? "S&#233;ries &#224; voir"
@@ -10,18 +13,22 @@
         : "S&#233;ries finies"
     }}
     ({{ filteredSeries().length }})
+    }
   </h1>
 
   @if(allSeries().length !== 0) {
   <div class="series-header-top">
+    @if (!isAdminView()) {
     <app-view-toggle
       [toggleClass]="'series-view-toggle'"
       [options]="viewOptions"
       [selected]="selectedView()"
       (selectedChange)="onViewChange($any($event))"
     ></app-view-toggle>
+    }
 
     <div class="series-actions">
+      @if (!isAdminView()) {
       <button
         class="btn btn-small"
         [routerLink]="getSelectSeriesRoute()"
@@ -59,9 +66,10 @@
       >
         ✅ Possédées
       </button>
+      }
     </div>
   </div>
-  } @if(allSeries().length === 0) {
+  } @if(!isAdminView() && allSeries().length === 0) {
   <div class="empty-state">
     <p class="empty-message">
       Vous n'avez aucune s&#233;rie dans votre collection.
@@ -77,12 +85,14 @@
   }
 
   <div class="series-header">
+    @if (!isAdminView()) {
     <app-stats-display
       [stats]="stats()"
       [count]="filteredSeries().length"
       countLabel="s&#233;ries"
     >
     </app-stats-display>
+    }
 
     <app-sort-dropdown
       [sortOptions]="sortOptions()"

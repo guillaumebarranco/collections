@@ -289,11 +289,63 @@ function updateComicInFile(filePath: string, comicData: any): boolean {
   return true;
 }
 
+function updateComicIdentityInFile(filePath: string, comicData: any): boolean {
+  const content = fs.readFileSync(filePath, 'utf8');
+  const comics = parseComicsFromFile(content);
+  const matchTitle = comicData.matchTitle ?? comicData.title;
+  const matchWriter = comicData.matchWriter ?? comicData.writer;
+  const index = comics.findIndex(
+    (comic) => comic.title === matchTitle && comic.writer === matchWriter
+  );
+
+  if (index === -1) {
+    return false;
+  }
+
+  comics[index] = {
+    ...comics[index],
+    title: comicData.title ?? comics[index].title,
+    writer: comicData.writer ?? comics[index].writer,
+  };
+
+  const newArrayContent = comics
+    .map(
+      (comic) => `  {
+    title: '${escapeString(comic.title)}',
+    writer: '${escapeString(comic.writer)}',
+    readDate: '${escapeString(comic.readDate || '')}',
+    rating: ${comic.rating ?? 0},
+    readTimes: ${comic.readTimes ?? 1},
+    owned: ${comic.owned ?? false},
+  }`
+    )
+    .join(',\n');
+
+  const exportIndex = content.indexOf('export const');
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
+    throw new Error('Array bounds not found');
+  }
+  const { arrayStart, arrayEnd } = bounds;
+
+  const newContent =
+    content.slice(0, arrayStart + 1) +
+    '\n' +
+    newArrayContent +
+    '\n' +
+    content.slice(arrayEnd);
+
+  fs.writeFileSync(filePath, newContent, 'utf8');
+  return true;
+}
+
 function updateBaseComicInFile(filePath: string, comicData: any): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const comics = parseBaseComicsFullFromFile(content);
+  const matchTitle = comicData.matchTitle ?? comicData.title;
+  const matchWriter = comicData.matchWriter ?? comicData.writer;
   const index = comics.findIndex(
-    (comic) => comic.title === comicData.title && comic.writer === comicData.writer
+    (comic) => comic.title === matchTitle && comic.writer === matchWriter
   );
 
   if (index === -1) {
@@ -303,6 +355,8 @@ function updateBaseComicInFile(filePath: string, comicData: any): boolean {
   comics[index] = {
     ...comics[index],
     ...comicData,
+    title: comicData.title ?? comics[index].title,
+    writer: comicData.writer ?? comics[index].writer,
   };
 
   const newArrayContent = comics
@@ -431,6 +485,7 @@ module.exports = {
   appendObjectToArrayFile,
   baseComicExists,
   updateComicInFile,
+  updateComicIdentityInFile,
   updateBaseComicInFiles,
   removeComicFromFile,
   getUserComicsFiles,

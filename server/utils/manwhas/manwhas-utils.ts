@@ -291,11 +291,63 @@ function updateManwhaInFile(filePath: string, manwhaData: any): boolean {
   return true;
 }
 
+function updateManwhaIdentityInFile(filePath: string, manwhaData: any): boolean {
+  const content = fs.readFileSync(filePath, 'utf8');
+  const manwhas = parseManwhasFromFile(content);
+  const matchTitle = manwhaData.matchTitle ?? manwhaData.title;
+  const matchAuthor = manwhaData.matchAuthor ?? manwhaData.author;
+  const index = manwhas.findIndex(
+    (manwha) => manwha.title === matchTitle && manwha.author === matchAuthor
+  );
+
+  if (index === -1) {
+    return false;
+  }
+
+  manwhas[index] = {
+    ...manwhas[index],
+    title: manwhaData.title ?? manwhas[index].title,
+    author: manwhaData.author ?? manwhas[index].author,
+  };
+
+  const newArrayContent = manwhas
+    .map(
+      (manwha) => `  {
+    title: '${escapeString(manwha.title)}',
+    author: '${escapeString(manwha.author)}',
+    readDate: '${escapeString(manwha.readDate || '')}',
+    rating: ${manwha.rating ?? 0},
+    readTimes: ${manwha.readTimes ?? 1},
+    owned: ${manwha.owned ?? false},
+  }`
+    )
+    .join(',\n');
+
+  const exportIndex = content.indexOf('export const');
+  const bounds = getArrayBounds(content, exportIndex);
+  if (!bounds) {
+    throw new Error('Array bounds not found');
+  }
+  const { arrayStart, arrayEnd } = bounds;
+
+  const newContent =
+    content.slice(0, arrayStart + 1) +
+    '\n' +
+    newArrayContent +
+    '\n' +
+    content.slice(arrayEnd);
+
+  fs.writeFileSync(filePath, newContent, 'utf8');
+  return true;
+}
+
 function updateBaseManwhaInFile(filePath: string, manwhaData: any): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const manwhas = parseBaseManwhasFullFromFile(content);
+  const matchTitle = manwhaData.matchTitle ?? manwhaData.title;
+  const matchAuthor = manwhaData.matchAuthor ?? manwhaData.author;
   const index = manwhas.findIndex(
-    (manwha) => manwha.title === manwhaData.title && manwha.author === manwhaData.author
+    (manwha) => manwha.title === matchTitle && manwha.author === matchAuthor
   );
 
   if (index === -1) {
@@ -305,6 +357,8 @@ function updateBaseManwhaInFile(filePath: string, manwhaData: any): boolean {
   manwhas[index] = {
     ...manwhas[index],
     ...manwhaData,
+    title: manwhaData.title ?? manwhas[index].title,
+    author: manwhaData.author ?? manwhas[index].author,
   };
 
   const newArrayContent = manwhas
@@ -433,6 +487,7 @@ module.exports = {
   appendObjectToArrayFile,
   baseManwhaExists,
   updateManwhaInFile,
+  updateManwhaIdentityInFile,
   updateBaseManwhaInFiles,
   removeManwhaFromFile,
   getUserManwhasFiles,
