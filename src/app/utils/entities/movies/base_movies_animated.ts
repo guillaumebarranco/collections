@@ -9,7 +9,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2010-03-26',
     length: 98,
     genre: 'Animation',
-    saga: '',
+    saga: 'Dragons',
   },
   {
     title: 'Dragons 2',
@@ -20,7 +20,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2014-06-13',
     length: 102,
     genre: 'Animation',
-    saga: '',
+    saga: 'Dragons',
   },
   {
     title: 'Dragons 3: Le monde perdu',
@@ -35,7 +35,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2019-02-22',
     length: 104,
     genre: 'Animation',
-    saga: '',
+    saga: 'Dragons',
   },
   {
     title: 'Spider-Man: Into the Spider-Verse',
@@ -50,7 +50,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2018-12-14',
     length: 117,
     genre: 'Animation',
-    saga: '',
+    saga: 'Spider-Verse',
   },
   {
     title: 'Spider-Man : À Travers le Spider-Verse',
@@ -65,7 +65,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2023-06-02',
     length: 140,
     genre: 'Animation',
-    saga: '',
+    saga: 'Spider-Verse',
   },
   {
     title: 'Les Mondes de Ralph',
@@ -75,7 +75,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2012-11-02',
     length: 101,
     genre: 'Animation',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Ralph Breaks the Internet',
@@ -90,7 +90,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2018-11-21',
     length: 112,
     genre: 'Animation',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Super Mario Bros. le Film',
@@ -119,7 +119,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2021-11-24',
     length: 102,
     genre: 'Animation',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Cars',
@@ -130,7 +130,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2006-06-09',
     length: 116,
     genre: 'Animation',
-    saga: '',
+    saga: 'Pixar',
   },
   {
     title: 'Cars 2',
@@ -140,7 +140,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2011-06-24',
     length: 106,
     genre: 'Animation',
-    saga: '',
+    saga: 'Pixar',
   },
   {
     title: 'Cars 3',
@@ -150,7 +150,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2016-06-16',
     length: 102,
     genre: 'Animation',
-    saga: '',
+    saga: 'Pixar',
   },
   {
     title: 'Baby boss',
@@ -170,7 +170,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2016-11-23',
     length: 107,
     genre: 'Animation',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Vice-Versa',
@@ -180,7 +180,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2015-06-19',
     length: 95,
     genre: 'Animation',
-    saga: '',
+    saga: 'Pixar',
   },
   {
     title: 'Les Nouveaux Héros',
@@ -190,7 +190,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2014-11-07',
     length: 102,
     genre: 'Animation',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'La Reine des Neiges',
@@ -200,7 +200,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2013-11-27',
     length: 102,
     genre: 'Animation',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Moi, Moche et Méchant',
@@ -210,7 +210,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2010-07-09',
     length: 95,
     genre: 'Animation',
-    saga: '',
+    saga: 'Moi, Moche et Méchant',
   },
   {
     title: 'Moi, Moche et Méchant 2',
@@ -220,7 +220,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2013-07-03',
     length: 98,
     genre: 'Animation',
-    saga: '',
+    saga: 'Moi, Moche et Méchant',
   },
   {
     title: 'Les Cinq Légendes',
@@ -240,7 +240,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2002-03-15',
     length: 81,
     genre: 'Animation',
-    saga: '',
+    saga: "L'Age de Glace",
   },
   {
     title: "L'Âge de Glace 2",
@@ -250,7 +250,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2006-03-31',
     length: 91,
     genre: 'Animation',
-    saga: '',
+    saga: "L'Age de Glace",
   },
   {
     title: "L'Âge de Glace 3 : Le Temps des Dinosaures",
@@ -261,7 +261,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2009-07-01',
     length: 94,
     genre: 'Animation',
-    saga: '',
+    saga: "L'Age de Glace",
   },
   {
     title: "L'Âge de Glace 4 : La Dérive des Continents",
@@ -271,7 +271,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2012-07-13',
     length: 88,
     genre: 'Animation',
-    saga: '',
+    saga: "L'Age de Glace",
   },
   {
     title: 'Rebelle',
@@ -281,7 +281,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2012-06-22',
     length: 93,
     genre: 'Animation',
-    saga: '',
+    saga: 'Pixar',
   },
   {
     title: 'Arthur et les Minimoys',
@@ -292,7 +292,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2006-12-13',
     length: 94,
     genre: 'Fantasy',
-    saga: '',
+    saga: 'Minimoys',
   },
   {
     title: 'Arthur et la Vengeance de Maltazard',
@@ -303,7 +303,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2009-12-02',
     length: 94,
     genre: 'Adventure',
-    saga: '',
+    saga: 'Minimoys',
   },
   {
     title: 'Arthur 3 : La Guerre des Deux Mondes',
@@ -314,7 +314,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2010-10-13',
     length: 101,
     genre: 'Adventure',
-    saga: '',
+    saga: 'Minimoys',
   },
   {
     title: 'La Princesse et la Grenouille',
@@ -325,7 +325,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2009-12-11',
     length: 97,
     genre: 'Animation',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Tempête de Boulettes Géantes',
@@ -356,7 +356,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2008-06-27',
     length: 98,
     genre: 'Animation',
-    saga: '',
+    saga: 'Pixar',
   },
   {
     title: 'Kung Fu Panda',
@@ -367,7 +367,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2008-06-06',
     length: 92,
     genre: 'Animation',
-    saga: '',
+    saga: 'Kung Fu Panda',
   },
   {
     title: "Bee Movie : Drôle d'Abeille",
@@ -397,7 +397,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2007-06-29',
     length: 111,
     genre: 'Animation',
-    saga: '',
+    saga: 'Pixar',
   },
   {
     title: 'Shrek',
@@ -407,7 +407,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2001-05-18',
     length: 90,
     genre: 'Animation',
-    saga: '',
+    saga: 'Shrek',
   },
   {
     title: 'Shrek 2',
@@ -417,7 +417,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2004-05-19',
     length: 93,
     genre: 'Animation',
-    saga: '',
+    saga: 'Shrek',
   },
   {
     title: 'Shrek le Troisième',
@@ -427,7 +427,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2007-05-18',
     length: 93,
     genre: 'Animation',
-    saga: '',
+    saga: 'Shrek',
   },
   {
     title: 'Shrek 4 : Il Était une Fois',
@@ -437,7 +437,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2010-05-21',
     length: 93,
     genre: 'Animation',
-    saga: '',
+    saga: 'Shrek',
   },
   {
     title: 'Les Indestructibles',
@@ -447,7 +447,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2004-11-05',
     length: 115,
     genre: 'Animation',
-    saga: '',
+    saga: 'Pixar',
   },
   {
     title: 'Les Indestructibles 2',
@@ -461,7 +461,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2018-06-15',
     length: 118,
     genre: 'Animation',
-    saga: '',
+    saga: 'Pixar',
   },
   {
     title: 'Le monde de Nemo',
@@ -471,7 +471,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2003-05-30',
     length: 100,
     genre: 'Animation',
-    saga: '',
+    saga: 'Pixar',
   },
   {
     title: 'Le monde de Dory',
@@ -481,7 +481,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2016-06-17',
     length: 97,
     genre: 'Animation',
-    saga: '',
+    saga: 'Pixar',
   },
   {
     title: 'Planes',
@@ -511,7 +511,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2001-11-02',
     length: 92,
     genre: 'Animation',
-    saga: '',
+    saga: 'Pixar',
   },
   {
     title: 'Toy Story',
@@ -521,7 +521,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '1995-11-22',
     length: 81,
     genre: 'Animation',
-    saga: '',
+    saga: 'Pixar',
   },
   {
     title: 'Toy Story 2',
@@ -531,7 +531,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '1999-11-24',
     length: 92,
     genre: 'Animation',
-    saga: '',
+    saga: 'Pixar',
   },
   {
     title: 'Toy Story 3',
@@ -541,7 +541,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2010-06-18',
     length: 103,
     genre: 'Animation',
-    saga: '',
+    saga: 'Pixar',
   },
   {
     title: 'South Park, le Film',
@@ -562,7 +562,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '1999-06-18',
     length: 88,
     genre: 'Animation',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Fourmiz',
@@ -593,7 +593,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '1997-07-12',
     length: 134,
     genre: 'Animation',
-    saga: '',
+    saga: 'Ghibli',
   },
   {
     title: 'Hercule',
@@ -603,7 +603,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '1997-06-27',
     length: 93,
     genre: 'Animation',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Pocahontas',
@@ -613,7 +613,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '1995-06-23',
     length: 81,
     genre: 'Animation',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Space Jam',
@@ -633,7 +633,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '1994-06-24',
     length: 88,
     genre: 'Animation',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Aladdin',
@@ -643,7 +643,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '1992-11-25',
     length: 90,
     genre: 'Animation',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'La petite sirène',
@@ -653,7 +653,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '1989-11-17',
     length: 83,
     genre: 'Animation',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Peter Pan',
@@ -663,7 +663,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '1953-02-05',
     length: 77,
     genre: 'Animation',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Pinocchio',
@@ -709,7 +709,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2021-03-05',
     length: 107,
     genre: 'Animation',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'One Piece : Le film',
@@ -801,7 +801,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2011-08-24',
     length: 113,
     genre: 'Animation',
-    saga: '',
+    saga: 'One Piece OAV',
   },
   {
     title: 'One Piece Film Z',
@@ -821,7 +821,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2013-05-15',
     length: 107,
     genre: 'Animation',
-    saga: '',
+    saga: 'One Piece OAV',
   },
   {
     title: 'One Piece : Gold',
@@ -851,7 +851,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2022-08-06',
     length: 115,
     genre: 'Animation',
-    saga: '',
+    saga: 'One Piece OAV',
   },
   {
     title: 'Élémentaire',
@@ -861,6 +861,6 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2023-06-16',
     length: 102,
     genre: 'Animation, Romance',
-    saga: '',
+    saga: 'Pixar',
   },
 ];

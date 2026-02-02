@@ -10,7 +10,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     releaseDate: '2015-02-13',
     length: 129,
     genre: 'Action',
-    saga: '',
+    saga: 'Kingsman',
   },
   {
     title: 'Kingsman: The Golden Circle',
@@ -20,7 +20,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     releaseDate: '2017-09-22',
     length: 141,
     genre: 'Action',
-    saga: '',
+    saga: 'Kingsman',
   },
   {
     title: "The King's Man : Première mission",
@@ -161,7 +161,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     releaseDate: '2015-09-18',
     length: 131,
     genre: 'Action',
-    saga: '',
+    saga: 'Le Labyrinthe',
   },
   {
     title: 'Room',
@@ -404,7 +404,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     releaseDate: '1984-06-22',
     length: 126,
     genre: 'Drama',
-    saga: '',
+    saga: 'Karate Kid',
   },
   {
     title: 'Scarface',
@@ -606,7 +606,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     releaseDate: '2007-10-14',
     length: 86,
     genre: 'Horror',
-    saga: '',
+    saga: 'Paranormal Activity',
   },
   {
     title: 'Gone Baby Gone',
@@ -666,7 +666,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     releaseDate: '2007-05-11',
     length: 99,
     genre: 'Horror',
-    saga: '',
+    saga: '28... plus tard',
   },
   {
     title: 'Dangereuse séduction',
@@ -766,7 +766,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     releaseDate: '1995-12-15',
     length: 104,
     genre: 'Adventure',
-    saga: '',
+    saga: 'Jumanji',
   },
   {
     title: 'Seven',
@@ -970,7 +970,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     releaseDate: '2010-08-13',
     length: 103,
     genre: 'Action',
-    saga: '',
+    saga: 'Expandables',
   },
   {
     title: 'Inception',
@@ -1021,7 +1021,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     releaseDate: '2010-03-05',
     length: 108,
     genre: 'Fantasy',
-    saga: '',
+    saga: 'Disney Live Action',
   },
   {
     title: 'Shutter Island',
@@ -1114,16 +1114,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
   },
-  {
-    title: 'Fourmiz',
-    director: 'Eric Darnell, Tim Johnson',
-    actors: [{ name: 'Woody Allen' }, { name: 'Sharon Stone' }],
-    coverUrl: '/movies_pictures/fourmiz-a-354x500.jpg',
-    releaseDate: '1998-10-02',
-    length: 83,
-    genre: 'Animation',
-    saga: '',
-  },
+
   {
     title: 'Léon',
     director: 'Luc Besson',

@@ -174,7 +174,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2021-11-19',
     length: 124,
     genre: 'Fantasy, Comedy',
-    saga: '',
+    saga: 'Ghostbusters',
   },
   {
     title: 'Jungle Cruise',
@@ -215,7 +215,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2021-02-12',
     length: 115,
     genre: 'Romance, Comedy',
-    saga: '',
+    saga: 'A Tous les Garçons',
   },
   {
     title: 'Sacrées sorcières',
@@ -296,7 +296,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2020-02-12',
     length: 102,
     genre: 'Romance, Comedy',
-    saga: '',
+    saga: 'A Tous les Garçons',
   },
   {
     title: '1917',
@@ -338,7 +338,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2019-10-18',
     length: 119,
     genre: 'Fantasy, Adventure',
-    saga: '',
+    saga: 'Disney Live Action',
   },
   {
     title: 'The King',
@@ -396,7 +396,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2019-03-29',
     length: 112,
     genre: 'Fantasy, Family',
-    saga: '',
+    saga: 'Disney Live Action',
   },
   {
     title: 'Le Retour de Mary Poppins',
@@ -436,7 +436,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2018-06-22',
     length: 128,
     genre: 'Action, Adventure',
-    saga: '',
+    saga: 'Jurassic',
   },
   {
     title: 'BlacKkKlansman',
@@ -487,7 +487,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2017-12-20',
     length: 119,
     genre: 'Adventure, Comedy',
-    saga: '',
+    saga: 'Jumanji',
   },
   {
     title: 'Paddington 2',
@@ -507,7 +507,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2017-11-10',
     length: 114,
     genre: 'Mystery, Crime',
-    saga: '',
+    saga: 'Hercule Poirot',
   },
 
   {
@@ -549,7 +549,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2016-04-15',
     length: 106,
     genre: 'Adventure, Fantasy',
-    saga: '',
+    saga: 'Disney Live Action',
   },
 
   {
@@ -571,7 +571,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2015-06-12',
     length: 124,
     genre: 'Action, Adventure',
-    saga: '',
+    saga: 'Jurassic',
   },
   {
     title: 'Pitch Perfect 2',
@@ -683,7 +683,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2012-12-14',
     length: 169,
     genre: 'Fantasy, Adventure',
-    saga: '',
+    saga: 'Tolkien',
   },
   {
     title: 'Pitch Perfect',
@@ -746,7 +746,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2011-08-05',
     length: 105,
     genre: 'Sci-Fi, Action',
-    saga: '',
+    saga: 'La Planète des Singes',
   },
 
   {
@@ -881,7 +881,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2008-05-16',
     length: 150,
     genre: 'Fantasy, Adventure',
-    saga: '',
+    saga: 'Narnia',
   },
   {
     title: 'Sex and the City',
@@ -1333,7 +1333,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2000-10-06',
     length: 108,
     genre: 'Comedy, Romance',
-    saga: '',
+    saga: 'Mon Beau-Père et... Moi',
   },
 
   {
@@ -1493,7 +1493,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1997-05-23',
     length: 129,
     genre: 'Action, Adventure',
-    saga: '',
+    saga: 'Jurassic',
   },
   {
     title: 'Austin Powers',
@@ -1503,7 +1503,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1997-05-02',
     length: 94,
     genre: 'Comedy, Spy',
-    saga: '',
+    saga: 'Austin Powers',
   },
   {
     title: 'Mars Attacks !',
@@ -1720,7 +1720,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1984-06-08',
     length: 105,
     genre: 'Comedy, Fantasy',
-    saga: '',
+    saga: 'Ghostbusters',
   },
 
   {
@@ -1782,7 +1782,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1964-08-27',
     length: 139,
     genre: 'Fantasy, Musical',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Les Parapluies de Cherbourg',

@@ -188,21 +188,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
   },
-  {
-    title: 'Le Chat Potté 2 : La Dernière Quête',
-    director: 'Joel Crawford',
-    actors: [
-      {
-        name: 'Antonio Banderas',
-      }
-    ],
-    coverUrl:
-      '/movies_pictures/242285-puss-in-boots-the-last-wish-0-150-0-225-crop.jpg',
-    releaseDate: '2022-12-21',
-    length: 102,
-    genre: 'Animation',
-    saga: 'Shrek',
-  },
+
   {
     title: "L'École du Bien et du Mal",
     director: 'Paul Feig',
@@ -244,7 +230,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2022-08-05',
     length: 100,
     genre: 'Action',
-    saga: '',
+    saga: 'Predator',
   },
   {
     title: 'Bullet Train',
@@ -607,7 +593,7 @@ export const baseMoviesPage1: BaseMovie[] = [
       },
       {
         name: 'Ebon Moss-Bachrach',
-      }
+      },
     ],
     coverUrl:
       '/movies_pictures/les-4-fantastiques-premiers-pas-affiche-officielle-scaled.jpg',
@@ -735,7 +721,7 @@ export const baseMoviesPage1: BaseMovie[] = [
       },
       {
         name: 'David Harbour',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/72b74175dd05a704ebed57975b0f6487.jpg',
     releaseDate: '2025-05-02',
@@ -782,7 +768,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '1978-12-15',
     length: 143,
     genre: 'Action',
-    saga: '',
+    saga: 'Superman',
   },
   {
     title: 'Superman II',
@@ -792,7 +778,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '1980-12-12',
     length: 127,
     genre: 'Action',
-    saga: '',
+    saga: 'Superman',
   },
   {
     title: 'Superman Returns',
@@ -802,7 +788,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2006-06-28',
     length: 154,
     genre: 'Action',
-    saga: '',
+    saga: 'Superman',
   },
   {
     title: 'Enemy',
@@ -866,7 +852,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2004-07-30',
     length: 88,
     genre: 'Comedy',
-    saga: '',
+    saga: 'Harold & Kumar',
   },
   {
     title: 'The Day After Tomorrow',
@@ -906,7 +892,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2004-04-09',
     length: 99,
     genre: 'Comedy',
-    saga: '',
+    saga: 'Cornetto',
   },
   {
     title: 'Les choristes',
@@ -956,7 +942,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2004-10-29',
     length: 103,
     genre: 'Horror',
-    saga: '',
+    saga: 'Saw',
   },
   {
     title: "L'effet papillon",
@@ -1067,7 +1053,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2002-11-01',
     length: 113,
     genre: 'Horror',
-    saga: '',
+    saga: '28... plus tard',
   },
   {
     title: 'Le cercle : The ring',

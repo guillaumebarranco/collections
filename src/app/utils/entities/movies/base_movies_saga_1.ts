@@ -9,7 +9,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2001-11-16',
     length: 152,
     genre: 'Fantasy',
-    saga: 'Harry Potter',
+    saga: 'Wizarding World',
   },
   {
     title: 'Harry Potter et la chambre des secrets',
@@ -19,7 +19,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2002-11-15',
     length: 161,
     genre: 'Fantasy',
-    saga: 'Harry Potter',
+    saga: 'Wizarding World',
   },
   {
     title: "Harry Potter et le prisonnier d'Azkaban",
@@ -29,7 +29,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2004-06-04',
     length: 142,
     genre: 'Fantasy',
-    saga: 'Harry Potter',
+    saga: 'Wizarding World',
   },
   {
     title: 'Harry Potter et la coupe de feu',
@@ -40,7 +40,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2005-11-18',
     length: 157,
     genre: 'Fantasy',
-    saga: 'Harry Potter',
+    saga: 'Wizarding World',
   },
   {
     title: "Harry Potter et l'ordre du phénix",
@@ -50,7 +50,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2007-07-11',
     length: 138,
     genre: 'Fantasy',
-    saga: 'Harry Potter',
+    saga: 'Wizarding World',
   },
   {
     title: 'Harry Potter et le prince de sang-mêlé',
@@ -61,7 +61,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2009-07-15',
     length: 153,
     genre: 'Fantasy',
-    saga: 'Harry Potter',
+    saga: 'Wizarding World',
   },
   {
     title: 'Harry Potter et les reliques de la mort - partie 1',
@@ -72,7 +72,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2010-11-19',
     length: 146,
     genre: 'Fantasy',
-    saga: 'Harry Potter',
+    saga: 'Wizarding World',
   },
   {
     title: 'Harry Potter et les reliques de la mort - partie 2',
@@ -83,7 +83,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2011-07-15',
     length: 130,
     genre: 'Fantasy',
-    saga: 'Harry Potter',
+    saga: 'Wizarding World',
   },
   {
     title: 'Star Wars : Épisode 1 - La menace fantôme',
@@ -937,7 +937,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2014-09-19',
     length: 113,
     genre: 'Action',
-    saga: 'Maze Runner',
+    saga: 'Le Labyrinthe',
   },
   {
     title: 'Le Labyrinthe 2 : Le remède mortel',
@@ -952,7 +952,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2018-01-26',
     length: 143,
     genre: 'Action',
-    saga: 'Maze Runner',
+    saga: 'Le Labyrinthe',
   },
   {
     title: 'Hunger Games',

@@ -19,7 +19,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '1989-06-23',
     length: 126,
     genre: 'Action',
-    saga: '',
+    saga: 'Batman',
   },
   {
     title: 'Batman Returns',
@@ -29,7 +29,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '1992-06-19',
     length: 126,
     genre: 'Action',
-    saga: '',
+    saga: 'Batman',
   },
   {
     title: 'Batman Forever',
@@ -39,7 +39,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '1995-06-16',
     length: 121,
     genre: 'Action',
-    saga: '',
+    saga: 'Batman',
   },
   {
     title: 'Batman & Robin',
@@ -49,7 +49,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '1997-06-20',
     length: 125,
     genre: 'Action',
-    saga: '',
+    saga: 'Batman',
   },
   {
     title: 'Batman Begins',
@@ -59,7 +59,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '2005-06-15',
     length: 140,
     genre: 'Action',
-    saga: '',
+    saga: 'The Dark Knight',
   },
   {
     title: 'The Dark Knight : Le Chevalier Noir',
@@ -69,7 +69,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '2008-07-18',
     length: 152,
     genre: 'Action',
-    saga: '',
+    saga: 'The Dark Knight',
   },
   {
     title: 'The Dark Knight Rises',
@@ -80,7 +80,7 @@ export const baseMoviesDc: BaseMovie[] = [
     releaseDate: '2012-07-20',
     length: 164,
     genre: 'Action',
-    saga: '',
+    saga: 'The Dark Knight',
   },
   {
     title: 'The Batman',

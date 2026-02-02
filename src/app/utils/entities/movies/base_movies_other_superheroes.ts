@@ -43,7 +43,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2000-07-14',
     length: 104,
     genre: 'Action',
-    saga: '',
+    saga: 'X-Men',
   },
   {
     title: 'X-men 2',
@@ -53,7 +53,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2003-05-02',
     length: 134,
     genre: 'Action',
-    saga: '',
+    saga: 'X-Men',
   },
   {
     title: "X-Men : L'Affrontement Final",
@@ -64,7 +64,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2006-05-26',
     length: 104,
     genre: 'Action',
-    saga: '',
+    saga: 'X-Men',
   },
   {
     title: 'X-Men Origins : Wolverine',
@@ -75,7 +75,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2009-05-01',
     length: 107,
     genre: 'Action',
-    saga: '',
+    saga: 'X-Men',
   },
   {
     title: 'The Wolverine',
@@ -105,7 +105,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2011-06-03',
     length: 132,
     genre: 'Action',
-    saga: '',
+    saga: 'X-Men',
   },
   {
     title: 'X-Men : Days of Future Past',
@@ -126,7 +126,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2016-05-27',
     length: 144,
     genre: 'Action',
-    saga: '',
+    saga: 'X-Men',
   },
   {
     title: 'X-Men :Dark Phoenix',
@@ -140,7 +140,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2019-06-07',
     length: 114,
     genre: 'Action',
-    saga: '',
+    saga: 'X-Men',
   },
   {
     title: 'Venom',
@@ -179,7 +179,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     releaseDate: '2002-05-03',
     length: 121,
     genre: 'Action',
-    saga: '',
+    saga: 'Spider-Man',
   },
   {
     title: 'Spider-Man 2',

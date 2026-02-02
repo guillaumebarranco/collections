@@ -9,7 +9,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '2021-06-18',
     length: 95,
     genre: 'Animation, Adventure',
-    saga: '',
+    saga: 'Pixar',
   },
   {
     title: 'Blanche-Neige et les Sept Nains',
@@ -19,7 +19,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '1937-12-21',
     length: 83,
     genre: 'Animation, Fantasy',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Cendrillon',
@@ -29,7 +29,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '1950-02-15',
     length: 74,
     genre: 'Animation, Romance',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Pierre et le Loup',
@@ -39,7 +39,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '1946-08-15',
     length: 15,
     genre: 'Animation, Short',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Les Trois Caballeros',
@@ -71,7 +71,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '1942-08-21',
     length: 70,
     genre: 'Animation, Drama',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Dumbo',
@@ -81,7 +81,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '1941-10-23',
     length: 64,
     genre: 'Animation, Family',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Fantasia',
@@ -101,7 +101,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '1951-07-26',
     length: 75,
     genre: 'Animation, Fantasy',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'La Belle au bois dormant',
@@ -111,7 +111,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '1959-01-29',
     length: 75,
     genre: 'Animation, Fantasy',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'La Belle et le Clochard',
@@ -121,7 +121,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '1955-06-22',
     length: 76,
     genre: 'Animation, Romance',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Le Livre de la jungle',
@@ -131,7 +131,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '1967-10-18',
     length: 78,
     genre: 'Animation, Adventure',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Nausicaä de la Vallée du Vent',
@@ -151,7 +151,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '1986-08-02',
     length: 125,
     genre: 'Animation, Adventure',
-    saga: '',
+    saga: 'Ghibli',
   },
   {
     title: 'Oliver et Compagnie',
@@ -181,7 +181,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '1988-04-16',
     length: 86,
     genre: 'Animation, Fantasy',
-    saga: '',
+    saga: 'Ghibli',
   },
   {
     title: 'Kiki la petite sorcière',
@@ -221,7 +221,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '1996-06-21',
     length: 91,
     genre: 'Animation, Musical',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'James et la Pêche géante',
@@ -241,7 +241,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '1996-11-27',
     length: 103,
     genre: 'Family, Comedy',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Anastasia',
@@ -261,7 +261,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '1998-02-17',
     length: 92,
     genre: 'Animation, Fantasy',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: "Le Prince d'Égypte",
@@ -281,7 +281,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '1998-11-25',
     length: 95,
     genre: 'Animation, Adventure',
-    saga: '',
+    saga: 'Pixar',
   },
   {
     title: "Le Roi Lion 2 : L'Honneur de la tribu",
@@ -291,7 +291,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '1998-11-24',
     length: 81,
     genre: 'Animation, Musical',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Pocahontas 2 : Un monde nouveau',
@@ -311,7 +311,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '2000-05-19',
     length: 82,
     genre: 'Animation, Adventure',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: "La Route d'Eldorado",
@@ -371,7 +371,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '2001-06-15',
     length: 96,
     genre: 'Animation, Adventure',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Le Voyage de Chihiro',
@@ -381,7 +381,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '2001-07-20',
     length: 125,
     genre: 'Animation, Fantasy',
-    saga: '',
+    saga: 'Ghibli',
   },
   {
     title: 'Le Royaume des chats',
@@ -401,7 +401,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '2002-06-21',
     length: 85,
     genre: 'Animation, Comedy',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'La Planète au trésor',
@@ -411,7 +411,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '2002-11-27',
     length: 95,
     genre: 'Animation, Adventure',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Frère des ours',
@@ -421,7 +421,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '2003-10-24',
     length: 85,
     genre: 'Animation, Adventure',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Mickey, Donald, Dingo : Les Trois Mousquetaires',
@@ -442,7 +442,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '2004-11-03',
     length: 79,
     genre: 'Animation, Family',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Les Noces funèbres',
@@ -462,7 +462,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '2005-05-27',
     length: 86,
     genre: 'Animation, Adventure',
-    saga: '',
+    saga: 'Madagascar',
   },
   {
     title: 'Happy Feet',
@@ -483,7 +483,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '2008-11-21',
     length: 96,
     genre: 'Animation, Adventure',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Madagascar 2',
@@ -493,7 +493,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '2008-11-07',
     length: 89,
     genre: 'Animation, Comedy',
-    saga: '',
+    saga: 'Madagascar',
   },
   {
     title: 'Ponyo',
@@ -513,7 +513,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '2009-05-29',
     length: 96,
     genre: 'Animation, Adventure',
-    saga: '',
+    saga: 'Pixar',
   },
   {
     title: 'Coraline',
@@ -564,7 +564,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '2010-11-24',
     length: 100,
     genre: 'Animation, Fantasy',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Kung Fu Panda 2',
@@ -574,7 +574,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '2011-05-26',
     length: 90,
     genre: 'Animation, Action',
-    saga: '',
+    saga: 'Kung Fu Panda',
   },
   {
     title: 'Le Chat Potté',
@@ -584,7 +584,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '2011-10-28',
     length: 90,
     genre: 'Animation, Adventure',
-    saga: '',
+    saga: 'Shrek',
   },
   {
     title: 'Hôtel Transylvanie',
@@ -604,7 +604,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '2013-06-21',
     length: 104,
     genre: 'Animation, Comedy',
-    saga: '',
+    saga: 'Pixar',
   },
   {
     title: 'The Lego Movie',
@@ -614,7 +614,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '2014-02-07',
     length: 100,
     genre: 'Animation, Adventure',
-    saga: '',
+    saga: 'Lego',
   },
   {
     title: 'Zootopie',
@@ -624,7 +624,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '2016-03-04',
     length: 108,
     genre: 'Animation, Adventure',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Piper',
@@ -654,6 +654,78 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '2019-11-15',
     length: 96,
     genre: 'Animation, Adventure',
+    saga: '',
+  },
+  {
+    title: 'Le Chat Potté 2 : La Dernière Quête',
+    director: 'Joel Crawford',
+    actors: [
+      {
+        name: 'Antonio Banderas',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/242285-puss-in-boots-the-last-wish-0-150-0-225-crop.jpg',
+    releaseDate: '2022-12-21',
+    length: 102,
+    genre: 'Animation',
+    saga: 'Shrek',
+  },
+  {
+    title: 'Fourmiz',
+    director: 'Eric Darnell, Tim Johnson',
+    actors: [{ name: 'Woody Allen' }, { name: 'Sharon Stone' }],
+    coverUrl: '/movies_pictures/fourmiz-a-354x500.jpg',
+    releaseDate: '1998-10-02',
+    length: 83,
+    genre: 'Animation',
+    saga: '',
+  },
+  {
+    title: 'Coco',
+    director: 'Lee Unkrich',
+    actors: [{ name: 'Anthony Gonzalez' }],
+    coverUrl: '/movies_pictures/39968-coco-0-150-0-225-crop.jpg',
+    releaseDate: '2017-11-22',
+    length: 105,
+    genre: 'Animation',
+    saga: '',
+  },
+  {
+    title: 'Bubble',
+    director: 'Tetsurō Araki',
+    actors: [{ name: 'Inconnu' }],
+    coverUrl: '/movies_pictures/bubble-affiche.jpg',
+    releaseDate: '2022-04-28',
+    length: 100,
+    genre: 'Animation',
+    saga: '',
+  },
+  {
+    title: 'Vice-Versa 2',
+    director: 'Kelsey Mann',
+    actors: [{ name: 'Amy Poehler' }, { name: 'Maya Hawke' }],
+    coverUrl: '/movies_pictures/f54c3310f101fe8ae4bba9e566bca1b5.jpg',
+    releaseDate: '2024-06-14',
+    length: 96,
+    genre: 'Animation',
+    saga: 'Pixar',
+  },
+  {
+    title: 'Arco',
+    director: 'Ugo Bienvenu',
+    actors: [
+      {
+        name: 'Margot Ringard Oldra',
+      },
+      {
+        name: 'Oscar Tresanini',
+      },
+    ],
+    coverUrl: '/movies_pictures/4bb40b414c1d86022f4031676a309432.webp',
+    releaseDate: '2025-10-22',
+    length: 89,
+    genre: 'Animation',
     saga: '',
   },
 ];

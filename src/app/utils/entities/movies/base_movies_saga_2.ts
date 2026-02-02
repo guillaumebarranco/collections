@@ -122,7 +122,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2016-11-18',
     length: 133,
     genre: 'Fantasy',
-    saga: 'Les Animaux Fantastiques',
+    saga: 'Wizarding World',
   },
   {
     title: 'Les Animaux Fantastiques 2 : Les crimes de Grindelwald',
@@ -137,7 +137,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2018-11-16',
     length: 134,
     genre: 'Fantasy',
-    saga: 'Les Animaux Fantastiques',
+    saga: 'Wizarding World',
   },
   {
     title: 'Les Animaux Fantastiques 3 : Les Secrets de Dumbledore',
@@ -388,7 +388,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2015-11-25',
     length: 133,
     genre: 'Drama',
-    saga: 'Creed',
+    saga: 'Rocky',
   },
   {
     title: 'Creed II',
@@ -402,7 +402,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2018-11-21',
     length: 130,
     genre: 'Drama',
-    saga: 'Creed',
+    saga: 'Rocky',
   },
   {
     title: 'Creed III',

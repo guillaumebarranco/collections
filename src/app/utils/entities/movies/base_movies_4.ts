@@ -9,7 +9,7 @@ export const baseMoviesPage4: BaseMovie[] = [
     releaseDate: '2014-05-30',
     length: 97,
     genre: 'Fantasy',
-    saga: '',
+    saga: 'Disney Live Action',
   },
   {
     title: 'Edge of Tomorrow',
@@ -131,7 +131,7 @@ export const baseMoviesPage4: BaseMovie[] = [
     releaseDate: '2013-07-19',
     length: 112,
     genre: 'Horror',
-    saga: '',
+    saga: 'Conjuring',
   },
   {
     title: 'After Earth',
@@ -201,7 +201,7 @@ export const baseMoviesPage4: BaseMovie[] = [
     releaseDate: '2012-08-17',
     length: 103,
     genre: 'Action',
-    saga: '',
+    saga: 'Expandables',
   },
   {
     title: 'The Dictator',
@@ -383,7 +383,7 @@ export const baseMoviesPage4: BaseMovie[] = [
       '/movies_pictures/51296-who-framed-roger-rabbit-0-150-0-225-crop.jpg',
     releaseDate: '1988-06-22',
     length: 104,
-    genre: 'Animation',
+    genre: '',
     saga: '',
   },
   {
@@ -426,16 +426,7 @@ export const baseMoviesPage4: BaseMovie[] = [
     genre: 'Action',
     saga: '',
   },
-  {
-    title: 'Coco',
-    director: 'Lee Unkrich',
-    actors: [{ name: 'Anthony Gonzalez' }],
-    coverUrl: '/movies_pictures/39968-coco-0-150-0-225-crop.jpg',
-    releaseDate: '2017-11-22',
-    length: 105,
-    genre: 'Animation',
-    saga: '',
-  },
+
   {
     title: 'Inglourious Basterds',
     director: 'Quentin Tarantino',
@@ -565,7 +556,7 @@ export const baseMoviesPage4: BaseMovie[] = [
     releaseDate: '1993-06-11',
     length: 127,
     genre: 'Adventure',
-    saga: '',
+    saga: 'Jurassic',
   },
   {
     title: 'Cliffhanger',
@@ -585,7 +576,7 @@ export const baseMoviesPage4: BaseMovie[] = [
     releaseDate: '1993-01-27',
     length: 107,
     genre: 'Comedy',
-    saga: '',
+    saga: 'Les Visiteurs',
   },
   {
     title: 'Demolition Man',
@@ -800,16 +791,7 @@ export const baseMoviesPage4: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
   },
-  {
-    title: 'Bubble',
-    director: 'Tetsurō Araki',
-    actors: [{ name: 'Inconnu' }],
-    coverUrl: '/movies_pictures/bubble-affiche.jpg',
-    releaseDate: '2022-04-28',
-    length: 100,
-    genre: 'Animation',
-    saga: '',
-  },
+
   {
     title: 'Un Noël en Californie',
     director: 'Shawn Seet',
@@ -1042,16 +1024,7 @@ export const baseMoviesPage4: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
   },
-  {
-    title: 'Vice-Versa 2',
-    director: 'Kelsey Mann',
-    actors: [{ name: 'Amy Poehler' }, { name: 'Maya Hawke' }],
-    coverUrl: '/movies_pictures/f54c3310f101fe8ae4bba9e566bca1b5.jpg',
-    releaseDate: '2024-06-14',
-    length: 96,
-    genre: 'Animation',
-    saga: '',
-  },
+
   {
     title: 'Borat',
     director: 'Larry Charles',
@@ -1070,7 +1043,7 @@ export const baseMoviesPage4: BaseMovie[] = [
     releaseDate: '2024-05-24',
     length: 148,
     genre: 'Action',
-    saga: '',
+    saga: 'Mad Max',
   },
   {
     title: 'Mad Max: Fury Road',
@@ -1080,7 +1053,7 @@ export const baseMoviesPage4: BaseMovie[] = [
     releaseDate: '2015-05-15',
     length: 120,
     genre: 'Action',
-    saga: '',
+    saga: 'Mad Max',
   },
   {
     title: 'Atonement',

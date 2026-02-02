@@ -70,7 +70,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2020-09-04',
     length: 115,
     genre: 'Action',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Palm Springs',
@@ -155,7 +155,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2019-05-24',
     length: 128,
     genre: 'Fantasy',
-    saga: '',
+    saga: 'Disney Live Action',
   },
   {
     title: 'Alita: Battle Angel',
@@ -509,7 +509,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2002-01-30',
     length: 107,
     genre: 'Comedy',
-    saga: '',
+    saga: 'Astérix',
   },
   {
     title: 'Astérix aux Jeux Olympiques',
@@ -529,7 +529,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2008-01-30',
     length: 117,
     genre: 'Comédie',
-    saga: '',
+    saga: 'Astérix',
   },
   {
     title: "Astérix et Obélix : L'Empire du Milieu",
@@ -641,7 +641,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1998-05-20',
     length: 139,
     genre: 'Action',
-    saga: '',
+    saga: 'Godzilla',
   },
   {
     title: 'Mon voisin le tueur',
@@ -804,7 +804,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '2006-04-26',
     length: 111,
     genre: 'Comedy',
-    saga: '',
+    saga: 'Camping',
   },
   {
     title: 'Volver',
