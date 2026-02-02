@@ -145,14 +145,14 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     actors: [
       {
         name: 'Eddie Redmayne',
-      },
+      }
     ],
     coverUrl:
       '/movies_pictures/268366-fantastic-beasts-the-secrets-of-dumbledore-0-150-0-225-crop.jpg',
     releaseDate: '2022-04-15',
     length: 142,
     genre: 'Fantasy',
-    saga: 'Les Animaux Fantastiques',
+    saga: 'Wizarding World',
   },
   {
     title: 'Jack Reacher',
@@ -410,13 +410,13 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     actors: [
       {
         name: 'Michael B. Jordan',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/601624-creed-iii-0-150-0-225-crop.jpg',
     releaseDate: '2023-03-03',
     length: 116,
     genre: 'Drama',
-    saga: 'Creed',
+    saga: 'Rocky',
   },
   {
     title: 'La mémoire dans la peau',
@@ -699,10 +699,10 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     actors: [
       {
         name: 'Sandra Bullock',
-      },
+      }
     ],
     coverUrl:
-      '/movies_pictures/283829-love-at-first-sight-0-150-0-225-crop.jpg',
+      'https://fr.web.img3.acsta.net/pictures/18/05/14/12/19/5676009.jpg',
     releaseDate: '2018-06-08',
     length: 110,
     genre: 'Crime',

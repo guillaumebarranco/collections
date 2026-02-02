@@ -45,13 +45,13 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Kate Winslet',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/avatar_de_feu_et_de_cendres.jpg',
     releaseDate: '2025-12-17',
     length: 195,
     genre: 'Science Fiction',
-    saga: '',
+    saga: 'Avatar',
   },
   {
     title: 'Zootopie 2',
@@ -149,13 +149,13 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Alan Tudyk',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/insaisissables_3.jpg',
     releaseDate: '2025-11-12',
     length: 113,
     genre: 'Thriller',
-    saga: '',
+    saga: 'Insaisissable',
   },
   {
     title: 'TRON : Ares',
@@ -181,13 +181,13 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Jeff Goldblum',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/tron_ares.jpg',
     releaseDate: '2025-10-08',
     length: 119,
     genre: 'Science Fiction',
-    saga: '',
+    saga: 'Tron',
   },
   {
     title: 'A Big Bold Beautiful Journey',
@@ -271,13 +271,13 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Jeff Bridges',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/conjuring_l_heure_du_jugement.jpg',
     releaseDate: '2025-09-10',
     length: 135,
     genre: 'Horreur',
-    saga: '',
+    saga: 'Conjuring',
   },
   {
     title: 'Smashing Machine',
@@ -445,13 +445,13 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Jodie Turner-Smith',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/jurassic_world_renaissance.jpg',
     releaseDate: '2025-07-04',
     length: 134,
     genre: 'Action',
-    saga: '',
+    saga: 'Jurassic',
   },
   {
     title: 'F1',
@@ -526,13 +526,13 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Oleksandr Usyk',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/ballerina.jpg',
     releaseDate: '2025-06-04',
     length: 135,
     genre: 'Action',
-    saga: '',
+    saga: 'John Wick',
   },
   {
     title: 'Le Son des souvenirs',
@@ -792,13 +792,13 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Dominique Blanc',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/karate_kid_legends.jpg',
     releaseDate: '2025-01-01',
     length: 0,
-    genre: '',
-    saga: '',
+    genre: 'Action',
+    saga: 'Karate Kid',
   },
   {
     title: 'Mission: Impossible – The Final Reckoning',
@@ -821,13 +821,13 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Tony Todd',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/mission_impossible_the_final_reckoning.jpg',
     releaseDate: '2025-05-21',
     length: 169,
     genre: 'Action',
-    saga: '',
+    saga: 'Mission Impossible',
   },
   {
     title: 'Last Bullet',
@@ -850,13 +850,13 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Ming-Na Wen',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/last_bullet.jpg',
     releaseDate: '2025-01-01',
     length: 0,
-    genre: '',
-    saga: '',
+    genre: 'Action',
+    saga: 'Balle Perdue',
   },
   {
     title: 'Until Dawn : La mort sans fin',
@@ -954,14 +954,14 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Nathaniel Arcand',
-      },
+      }
     ],
     coverUrl:
       '/movies_pictures/the_lord_of_the_rings_the_war_of_the_rohirrim.jpg',
     releaseDate: '2024-01-01',
-    length: 0,
-    genre: '',
-    saga: '',
+    length: 134,
+    genre: 'Fantasy',
+    saga: 'Tolkien',
   },
   {
     title: 'Vaiana 2',
@@ -1108,11 +1108,11 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Matthew Lillard',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/caddo_lake.jpg',
     releaseDate: '2024-01-01',
-    length: 0,
+    length: 94,
     genre: '',
     saga: '',
   },
@@ -1160,11 +1160,11 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Elle Young',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/heretic.jpg',
     releaseDate: '2024-01-01',
-    length: 0,
+    length: 108,
     genre: '',
     saga: '',
   },
@@ -1212,12 +1212,12 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Aoife Hinds',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/we_live_in_time.jpg',
     releaseDate: '2024-01-01',
-    length: 0,
-    genre: '',
+    length: 108,
+    genre: 'Comédie romantique',
     saga: '',
   },
   {
@@ -1290,12 +1290,12 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Hayley Mills',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/trap.jpg',
     releaseDate: '2024-01-01',
-    length: 0,
-    genre: '',
+    length: 105,
+    genre: 'Thriller',
     saga: '',
   },
   {
@@ -1342,12 +1342,12 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Anna Garcia',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/fly_me_to_the_moon.jpg',
     releaseDate: '2024-01-01',
-    length: 0,
-    genre: '',
+    length: 132,
+    genre: 'Comédie romantique',
     saga: '',
   },
   {
@@ -1489,13 +1489,13 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'William H. Macy',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/kingdom_of_the_planet_of_the_apes.jpg',
     releaseDate: '2024-01-01',
-    length: 0,
-    genre: '',
-    saga: '',
+    length: 120,
+    genre: 'Science Fiction',
+    saga: 'La Planète des Singes',
   },
   {
     title: 'A Little Something Extra',
@@ -1515,12 +1515,12 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Céline Groussard',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/a_little_something_extra.jpg',
     releaseDate: '2024-01-01',
-    length: 0,
-    genre: '',
+    length: 100,
+    genre: 'Comédie',
     saga: '',
   },
   {
@@ -1580,20 +1580,14 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     director: 'Gil Kenan',
     actors: [
       {
-        name: 'Demi Moore',
-      },
-      {
-        name: 'Margaret Qualley',
-      },
-      {
-        name: 'Dennis Quaid',
-      },
+        name: 'Paul Rudd',
+      }
     ],
     coverUrl: '/movies_pictures/ghostbusters_frozen_empire.jpg',
     releaseDate: '2024-01-01',
-    length: 0,
-    genre: '',
-    saga: '',
+    length: 115,
+    genre: 'Fantastique',
+    saga: 'Ghostbusters',
   },
   {
     title: 'Civil War',
@@ -1691,13 +1685,13 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'James Hong',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/kung_fu_panda_4.jpg',
     releaseDate: '2024-01-01',
-    length: 0,
-    genre: '',
-    saga: '',
+    length: 94,
+    genre: 'Animation',
+    saga: 'Kung Fu Panda',
   },
   {
     title: 'Code 8 : Partie II',
@@ -1789,7 +1783,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Cailee Spaeny',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/aquaman_et_le_royaume_perdu.jpg',
     releaseDate: '2023-12-20',
@@ -1959,17 +1953,17 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     director: 'Takashi Yamazaki',
     actors: [
       {
-        name: 'Sydney Sweeney',
+        name: 'Ryûnosuke Kamiki',
       },
       {
-        name: 'Glen Powell',
-      },
+        name: 'Minami Hamabe',
+      }
     ],
     coverUrl: '/movies_pictures/godzilla_minus_one.jpg',
     releaseDate: '2023-01-01',
-    length: 0,
-    genre: '',
-    saga: '',
+    length: 125,
+    genre: 'Action',
+    saga: 'Godzilla',
   },
   {
     title: 'Cinq nuits chez Freddy',
@@ -2165,13 +2159,13 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Adriana Barraza',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/blue_beetle.jpg',
     releaseDate: '2023-08-16',
     length: 127,
     genre: 'Action',
-    saga: '',
+    saga: 'DCEU',
   },
   {
     title: 'Le Manoir hanté',
@@ -2260,13 +2254,13 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Rebecca Ferguson',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/mission_impossible_dead_reckoning_partie_1.jpg',
     releaseDate: '2023-07-12',
     length: 163,
     genre: 'Action',
-    saga: '',
+    saga: 'Mission Impossible',
   },
   {
     title: 'Le Challenge',
@@ -2430,13 +2424,13 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'John Rhys-Davies',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/indiana_jones_and_the_dial_of_destiny.jpg',
     releaseDate: '2023-01-01',
-    length: 0,
-    genre: '',
-    saga: '',
+    length: 154,
+    genre: 'Fantastique',
+    saga: 'Indiana Jones',
   },
   {
     title: 'AKA',
@@ -2530,13 +2524,13 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Courteney Cox',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/scream_vi.jpg',
     releaseDate: '2023-03-08',
     length: 123,
     genre: 'Horreur',
-    saga: '',
+    saga: 'Scream',
   },
   {
     title: "Astérix et Obélix : L'Empire du Milieu",
@@ -2550,13 +2544,13 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Marion Cotillard',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/asterix_et_obelix_lempire_du_milieu.jpg',
     releaseDate: '2023-02-01',
     length: 112,
     genre: 'Comédie',
-    saga: '',
+    saga: 'Astérix',
   },
   {
     title: 'Knock at the Cabin',
@@ -2630,13 +2624,13 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Stéfi Celma',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/balle_perdue_2.jpg',
     releaseDate: '2022-11-10',
     length: 98,
     genre: 'Action',
-    saga: '',
+    saga: 'Balle Perdue',
   },
   {
     title: 'Slumberland',
@@ -3010,13 +3004,13 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'David Arquette',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/scream.jpg',
     releaseDate: '2022-01-12',
     length: 115,
     genre: 'Horreur',
-    saga: '',
+    saga: 'Scream',
   },
   {
     title: 'The Matrix Resurrections',

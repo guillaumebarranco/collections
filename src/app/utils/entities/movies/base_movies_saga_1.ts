@@ -216,13 +216,17 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Fast and Furious',
     director: 'Rob Cohen',
-    actors: [{ name: 'Vin Diesel' }],
+    actors: [
+      {
+        name: 'Vin Diesel',
+      }
+    ],
     coverUrl:
       '/movies_pictures/46813-the-fast-and-the-furious-0-150-0-225-crop.jpg',
     releaseDate: '2001-06-22',
     length: 106,
     genre: 'Action',
-    saga: 'Star Wars',
+    saga: 'Fast & Furious',
   },
   {
     title: '2 Fast 2 Furious',

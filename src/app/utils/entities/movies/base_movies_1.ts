@@ -194,14 +194,14 @@ export const baseMoviesPage1: BaseMovie[] = [
     actors: [
       {
         name: 'Antonio Banderas',
-      },
+      }
     ],
     coverUrl:
       '/movies_pictures/242285-puss-in-boots-the-last-wish-0-150-0-225-crop.jpg',
     releaseDate: '2022-12-21',
     length: 102,
     genre: 'Animation',
-    saga: '',
+    saga: 'Shrek',
   },
   {
     title: "L'École du Bien et du Mal",
@@ -596,17 +596,25 @@ export const baseMoviesPage1: BaseMovie[] = [
     title: 'Les 4 fantastiques',
     director: 'Matt Shakman',
     actors: [
-      { name: 'Pedro Pascal' },
-      { name: 'Vanessa Kirby' },
-      { name: 'Joseph Quinn' },
-      { name: 'Ebon Moss-Bachrach' },
+      {
+        name: 'Pedro Pascal',
+      },
+      {
+        name: 'Vanessa Kirby',
+      },
+      {
+        name: 'Joseph Quinn',
+      },
+      {
+        name: 'Ebon Moss-Bachrach',
+      }
     ],
     coverUrl:
       '/movies_pictures/les-4-fantastiques-premiers-pas-affiche-officielle-scaled.jpg',
     releaseDate: '2025-07-25',
     length: 130,
     genre: 'Action, Adventure',
-    saga: '',
+    saga: 'Marvel Cinematic Universe',
   },
   {
     title: 'Premier contact',
@@ -719,15 +727,21 @@ export const baseMoviesPage1: BaseMovie[] = [
     title: 'Thunderbolts',
     director: 'Jake Schreier',
     actors: [
-      { name: 'Florence Pugh' },
-      { name: 'Sebastian Stan' },
-      { name: 'David Harbour' },
+      {
+        name: 'Florence Pugh',
+      },
+      {
+        name: 'Sebastian Stan',
+      },
+      {
+        name: 'David Harbour',
+      }
     ],
     coverUrl: '/movies_pictures/72b74175dd05a704ebed57975b0f6487.jpg',
     releaseDate: '2025-05-02',
     length: 126,
     genre: 'Action',
-    saga: '',
+    saga: 'Marvel Cinematic Universe',
   },
   {
     title: 'Le silence des agneaux',

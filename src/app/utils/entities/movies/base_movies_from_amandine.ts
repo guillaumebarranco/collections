@@ -29,7 +29,14 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
   {
     title: 'Wonka',
     director: 'Paul King',
-    actors: [{ name: 'Timothée Chalamet' }, { name: 'Hugh Grant' }],
+    actors: [
+      {
+        name: 'Timothée Chalamet',
+      },
+      {
+        name: 'Hugh Grant',
+      }
+    ],
     coverUrl: '/movies_pictures/1249162.jpg',
     releaseDate: '2023-12-15',
     length: 116,
@@ -131,12 +138,19 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
   {
     title: "The King's Man : Première mission",
     director: 'Matthew Vaughn',
-    actors: [{ name: 'Ralph Fiennes' }, { name: 'Harris Dickinson' }],
+    actors: [
+      {
+        name: 'Ralph Fiennes',
+      },
+      {
+        name: 'Harris Dickinson',
+      }
+    ],
     coverUrl: '/movies_pictures/1861024.webp',
     releaseDate: '2021-12-22',
     length: 131,
-    genre: 'Action, Spy',
-    saga: '',
+    genre: 'Action, Espionnage',
+    saga: 'Kingsman',
   },
   {
     title: 'West Side Story',

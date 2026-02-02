@@ -3729,7 +3729,7 @@ export const ronanMovies: UserMovie[] = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
-    seenAtCinema: false,
+    seenAtCinema: true,
     owned: false,
   },
   {
