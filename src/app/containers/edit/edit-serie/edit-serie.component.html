@@ -174,7 +174,7 @@
     </div>
     }
 
-    @if ((isAdminView() || isAdmin()) && serieEntityForm()) {
+    @if (isAdminView() && serieEntityForm()) {
     <div class="form-row">
       <label for="entityActors">Acteurs (séparés par des virgules)</label>
       <input

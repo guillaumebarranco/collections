@@ -180,7 +180,7 @@
     </div>
     }
 
-    @if ((isAdminView() || isAdmin()) && movieEntityForm()) {
+    @if (isAdminView() && movieEntityForm()) {
     <div class="form-row">
       <label for="entityActors">Acteurs (séparés par des virgules)</label>
       <input

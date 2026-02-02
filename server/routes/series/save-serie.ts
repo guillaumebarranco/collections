@@ -44,6 +44,12 @@ router.post('/', (req: any, res: any) => {
       res.status(403).json({ error: 'Admin required to edit entity data' });
       return;
     }
+    if (entityPayload && !entityOnly) {
+      res.status(400).json({
+        error: 'Entity updates are only allowed from admin view',
+      });
+      return;
+    }
 
     let updatedFile: string | null = null;
 

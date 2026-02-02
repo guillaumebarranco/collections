@@ -215,7 +215,7 @@ export class EditMovieComponent {
           lastViewedDate: form.lastViewedDate,
           seenAtCinema: form.seenAtCinema,
           owned: form.owned,
-          entity: this.isAdmin()
+          entity: this.isAdminView()
             ? this.toEntityPayload(this.movieEntityForm())
             : undefined,
         }),

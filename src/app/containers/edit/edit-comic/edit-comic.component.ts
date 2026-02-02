@@ -211,7 +211,7 @@ export class EditComicComponent {
           readTimes: form.readTimes,
           readDate: form.readDate,
           owned: form.owned,
-          entity: this.isAdmin()
+          entity: this.isAdminView()
             ? this.toEntityPayload(this.comicEntityForm())
             : undefined,
         }),

@@ -150,7 +150,7 @@ export class EditSerieComponent {
           director: serie.director,
           seasons: form.seasons,
           owned: form.owned,
-          entity: this.isAdmin()
+          entity: this.isAdminView()
             ? this.toEntityPayload(this.serieEntityForm())
             : undefined,
         }),

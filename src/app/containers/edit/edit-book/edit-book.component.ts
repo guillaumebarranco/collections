@@ -221,7 +221,7 @@ export class EditBookComponent {
           readTimes: form.readTimes,
           readDate: form.readDate,
           owned: form.owned,
-          entity: this.isAdmin()
+          entity: this.isAdminView()
             ? this.toEntityPayload(this.bookEntityForm())
             : undefined,
         }),
