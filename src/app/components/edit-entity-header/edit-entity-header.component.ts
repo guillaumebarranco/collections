@@ -22,6 +22,7 @@ export class EditEntityHeaderComponent {
   navigateToEntityList = output<void>();
   navigatePrevious = output<void>();
   navigateNext = output<void>();
+  openCreateQuizz = output<void>();
 
   entity = input<EntityType>();
   @Input() dialogRef: any;

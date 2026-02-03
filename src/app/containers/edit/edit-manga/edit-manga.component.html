@@ -1,49 +1,17 @@
 <app-edit-entity class="edit-entity--dark">
-  <div class="dialog-header">
-    @if(!isDialogMode()) {
-    <button (click)="navigateToMangas()" class="back-link">
-      Retour aux mangas
-    </button>
-    } @else {
-    <button
-      type="button"
-      class="dialog-close"
-      aria-label="Fermer"
-      (click)="navigateToMangas()"
-    >
-      ✕
-    </button>
-    @if(hasDialogNavigation()) {
-    <div class="dialog-nav">
-      <button
-        type="button"
-        class="dialog-nav-btn"
-        aria-label="Élément précédent"
-        [disabled]="!canNavigatePrevious()"
-        (click)="navigatePrevious()"
-      >
-        ←
-      </button>
-      <span class="dialog-nav-count">{{ dialogPositionLabel() }}</span>
-      <button
-        type="button"
-        class="dialog-nav-btn"
-        aria-label="Élément suivant"
-        [disabled]="!canNavigateNext()"
-        (click)="navigateNext()"
-      >
-        →
-      </button>
-    </div>
-    } }
-  </div>
-  @if (!isAdminView()) {
-  <div class="header-actions">
-    <button type="button" class="submit-btn" (click)="openCreateQuizz()">
-      Créer un quizz
-    </button>
-  </div>
-  }
+  <app-edit-entity-header
+    [entity]="EntityType.MANGA"
+    [dialogRef]="dialogRef"
+    [canNavigatePrevious]="canNavigatePrevious()"
+    [canNavigateNext]="canNavigateNext()"
+    [dialogPositionLabel]="dialogPositionLabel()"
+    [hasDialogNavigation]="hasDialogNavigation()"
+    (navigateToEntityList)="navigateToMangas()"
+    (navigatePrevious)="navigatePrevious()"
+    (navigateNext)="navigateNext()"
+    (openCreateQuizz)="openCreateQuizz()"
+  ></app-edit-entity-header>
+
   <h1 class="title">Éditer un manga</h1>
 
   @if(mangaNotFound()) {
@@ -88,9 +56,7 @@
         name="adminAuthor"
       />
     </div>
-    }
-
-    @if (!isAdminView()) {
+    } @if (!isAdminView()) {
     <div class="form-row">
       <label>Note</label>
       <div class="rating-control">
@@ -152,9 +118,7 @@
         name="owned"
       />
     </div>
-    }
-
-    @if (isAdminView() && mangaEntityForm()) {
+    } @if (isAdminView() && mangaEntityForm()) {
     <div class="form-row">
       <label for="entityPages">Pages</label>
       <input

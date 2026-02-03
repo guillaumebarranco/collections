@@ -1,55 +1,22 @@
 <app-edit-entity class="edit-entity--light">
-  <div class="dialog-header">
-    @if(!isDialogMode()) {
-    <button (click)="navigateToSeries()" class="back-link">
-      Retour aux s&#233;ries
-    </button>
-    } @else {
-    <button
-      type="button"
-      class="dialog-close"
-      aria-label="Fermer"
-      (click)="navigateToSeries()"
-    >
-      &#10005;
-    </button>
-    @if(hasDialogNavigation()) {
-    <div class="dialog-nav">
-      <button
-        type="button"
-        class="dialog-nav-btn"
-        aria-label="Élément précédent"
-        [disabled]="!canNavigatePrevious()"
-        (click)="navigatePrevious()"
-      >
-        ←
-      </button>
-      <span class="dialog-nav-count">{{ dialogPositionLabel() }}</span>
-      <button
-        type="button"
-        class="dialog-nav-btn"
-        aria-label="Élément suivant"
-        [disabled]="!canNavigateNext()"
-        (click)="navigateNext()"
-      >
-        →
-      </button>
-    </div>
-    } }
-  </div>
-  @if (!isAdminView()) {
-  <div class="header-actions">
-    <button type="button" class="submit-btn" (click)="openCreateQuizz()">
-      Créer un quizz
-    </button>
-  </div>
-  }
+  <app-edit-entity-header
+    [entity]="EntityType.SERIE"
+    [dialogRef]="dialogRef"
+    [canNavigatePrevious]="canNavigatePrevious()"
+    [canNavigateNext]="canNavigateNext()"
+    [dialogPositionLabel]="dialogPositionLabel()"
+    [hasDialogNavigation]="hasDialogNavigation()"
+    (navigateToEntityList)="navigateToSeries()"
+    (navigatePrevious)="navigatePrevious()"
+    (navigateNext)="navigateNext()"
+    (openCreateQuizz)="openCreateQuizz()"
+  ></app-edit-entity-header>
+
   <h1 class="title">&#201;diter une s&#233;rie</h1>
 
   @if(serieNotFound()) {
   <p class="not-found">Aucune s&#233;rie trouv&#233;e pour ce slug.</p>
-  } @else {
-  @if (!isAdminView()) {
+  } @else { @if (!isAdminView()) {
   <img [src]="serie()?.coverUrl" alt="Cover" width="200" />
   <div>{{ serie()?.title }}</div>
   <div class="entity-details">
@@ -92,10 +59,7 @@
         name="adminDirector"
       />
     </div>
-    }
-
-    @if (!isAdminView()) {
-    @if (serieForm()?.seasons?.length) {
+    } @if (!isAdminView()) { @if (serieForm()?.seasons?.length) {
     <div class="form-row">
       <label>Notes et visionnages par saison</label>
       <div class="season-form-grid">
@@ -151,11 +115,7 @@
               type="date"
               [ngModel]="season.lastViewedDate"
               (ngModelChange)="
-                updateSeasonField(
-                  season.seasonNumber,
-                  'lastViewedDate',
-                  $event
-                )
+                updateSeasonField(season.seasonNumber, 'lastViewedDate', $event)
               "
               name="seasonLastViewedDate-{{ season.seasonNumber }}"
             />
@@ -176,9 +136,7 @@
         name="owned"
       />
     </div>
-    }
-
-    @if (isAdminView() && serieEntityForm()) {
+    } @if (isAdminView() && serieEntityForm()) {
     <div class="form-row">
       <label for="entityActors">Acteurs (séparés par des virgules)</label>
       <input

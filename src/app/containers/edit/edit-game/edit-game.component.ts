@@ -16,6 +16,7 @@ import {
 } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
+import { EditEntityHeaderComponent } from '../../../components/edit-entity-header/edit-entity-header.component';
 import { AuthService } from '../../../core/auth.service';
 import { QuizzCreateModalComponent } from '../../../components/quizz-create-modal/quizz-create-modal.component';
 import { EntityType } from '../../../models/quizz-model';
@@ -52,7 +53,13 @@ const DEFAULT_USER_ID = 'guillaume';
 @Component({
   selector: 'app-edit-game',
   standalone: true,
-  imports: [CommonModule, FormsModule, RouterModule, EditEntityComponent],
+  imports: [
+    CommonModule,
+    FormsModule,
+    RouterModule,
+    EditEntityComponent,
+    EditEntityHeaderComponent,
+  ],
   templateUrl: './edit-game.component.html',
   styleUrls: ['./edit-game.component.scss'],
 })
@@ -60,9 +67,10 @@ export class EditGameComponent {
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
   private readonly dialog = inject(MatDialog);
-  private readonly dialogRef = inject(MatDialogRef<EditGameComponent>, {
+  readonly dialogRef = inject(MatDialogRef<EditGameComponent>, {
     optional: true,
   });
+  public EntityType = EntityType;
   private readonly authService = inject(AuthService);
   private readonly dialogData = inject<EditGameDialogData | null>(
     MAT_DIALOG_DATA,
