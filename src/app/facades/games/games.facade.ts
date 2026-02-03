@@ -11,6 +11,9 @@ import {
   fetchUserGamesFromApi,
   fetchGamelistGamesFromApi,
 } from './api-games.facade';
+import { createCachedFetcher } from '../../utils/cache.utils';
+
+const fetchBaseGamesCached = createCachedFetcher(fetchBaseGamesFromApi);
 
 async function getAllGamesData(games: UserGame[]): Promise<Game[]> {
   const baseGames = await getAllBaseGames();
@@ -102,7 +105,7 @@ export async function getAllBaseGames(): Promise<BaseGame[]> {
   }
 
   try {
-    const apiGames = await fetchBaseGamesFromApi();
+    const apiGames = await fetchBaseGamesCached();
     return apiGames.length ? apiGames : allBaseGames;
   } catch {
     return allBaseGames;

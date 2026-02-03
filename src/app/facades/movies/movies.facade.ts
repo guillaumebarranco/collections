@@ -11,6 +11,9 @@ import {
   fetchUserMoviesFromApi,
   fetchWatchlistMoviesFromApi,
 } from './api-movies.facade';
+import { createCachedFetcher } from '../../utils/cache.utils';
+
+const fetchBaseMoviesCached = createCachedFetcher(fetchBaseMoviesFromApi);
 
 async function getAllMoviesData(movies: UserMovie[]): Promise<Movie[]> {
   const baseMovies = await getAllBaseMovies();
@@ -76,7 +79,7 @@ export async function getAllBaseMovies(): Promise<BaseMovie[]> {
   }
 
   try {
-    return await fetchBaseMoviesFromApi();
+    return await fetchBaseMoviesCached();
   } catch {
     return [];
   }

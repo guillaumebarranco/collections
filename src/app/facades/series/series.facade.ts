@@ -16,6 +16,9 @@ import {
   fetchUserSeriesFromApi,
   fetchWatchlistSeriesFromApi,
 } from './api-series.facade';
+import { createCachedFetcher } from '../../utils/cache.utils';
+
+const fetchBaseSeriesCached = createCachedFetcher(fetchBaseSeriesFromApi);
 
 function buildSeasons(
   seasonsCount: number,
@@ -134,7 +137,7 @@ export async function getAllBaseSeries(): Promise<BaseSerie[]> {
   }
 
   try {
-    return await fetchBaseSeriesFromApi();
+    return await fetchBaseSeriesCached();
   } catch {
     return [];
   }

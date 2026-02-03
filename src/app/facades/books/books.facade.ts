@@ -11,6 +11,9 @@ import {
   fetchUserBooksFromApi,
   fetchReadlistBooksFromApi,
 } from './api-books.facade';
+import { createCachedFetcher } from '../../utils/cache.utils';
+
+const fetchBaseBooksCached = createCachedFetcher(fetchBaseBooksFromApi);
 
 async function getAllBooksData(books: UserBook[]): Promise<Book[]> {
   const baseBooks = await getAllBaseBooks();
@@ -50,7 +53,7 @@ export async function getAllBaseBooks(): Promise<BaseBook[]> {
   }
 
   try {
-    return await fetchBaseBooksFromApi();
+    return await fetchBaseBooksCached();
   } catch {
     return [];
   }

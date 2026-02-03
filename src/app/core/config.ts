@@ -1,13 +1,14 @@
 export function isLocalhost(): boolean {
-  return document.location.origin.includes('localhost');
+  // return document.location.origin.includes('localhost');
+  return false;
   // return true;
 }
 
 export function getApiBaseUrl(): string {
-  if (isLocalhost()) {
-    return 'http://localhost:3001/api';
-  }
-  return `${document.location.origin}/api`;
+  // if (isLocalhost()) {
+  return 'http://localhost:3001/api';
+  // }
+  // return `${document.location.origin}/api`;
 }
 
 export function isBaseEntityView(): boolean {

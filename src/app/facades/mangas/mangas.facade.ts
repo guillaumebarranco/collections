@@ -11,6 +11,9 @@ import {
   fetchUserMangasFromApi,
   fetchReadlistMangasFromApi,
 } from './api-mangas.facade';
+import { createCachedFetcher } from '../../utils/cache.utils';
+
+const fetchBaseMangasCached = createCachedFetcher(fetchBaseMangasFromApi);
 
 async function getAllMangasData(mangas: UserManga[]): Promise<Manga[]> {
   const baseMangas = await getAllBaseMangas();
@@ -72,7 +75,7 @@ export async function getAllBaseMangas(): Promise<BaseManga[]> {
   }
 
   try {
-    return await fetchBaseMangasFromApi();
+    return await fetchBaseMangasCached();
   } catch {
     return [];
   }

@@ -11,6 +11,9 @@ import {
   fetchUserManwhasFromApi,
   fetchReadlistManwhasFromApi,
 } from './api-manwhas.facade';
+import { createCachedFetcher } from '../../utils/cache.utils';
+
+const fetchBaseManwhasCached = createCachedFetcher(fetchBaseManwhasFromApi);
 
 async function getAllManwhasData(manwhas: UserManwha[]): Promise<Manwha[]> {
   const baseManwhas = await getAllBaseManwhas();
@@ -74,7 +77,7 @@ export async function getAllBaseManwhas(): Promise<BaseManwha[]> {
   }
 
   try {
-    return await fetchBaseManwhasFromApi();
+    return await fetchBaseManwhasCached();
   } catch {
     return [];
   }

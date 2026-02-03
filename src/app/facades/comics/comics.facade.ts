@@ -10,6 +10,9 @@ import {
   fetchReadlistComicsFromApi,
   fetchUserComicsFromApi,
 } from './api-comics.facade';
+import { createCachedFetcher } from '../../utils/cache.utils';
+
+const fetchBaseComicsCached = createCachedFetcher(fetchBaseComicsFromApi);
 
 async function getAllComicsData(comics: UserComic[]): Promise<Comic[]> {
   const baseComics = await getAllBaseComics();
@@ -93,7 +96,7 @@ export async function getAllBaseComics(): Promise<BaseComic[]> {
   }
 
   try {
-    const apiComics = await fetchBaseComicsFromApi();
+    const apiComics = await fetchBaseComicsCached();
     return apiComics.length ? apiComics : allBaseComics;
   } catch {
     return allBaseComics;

@@ -10,6 +10,9 @@ import {
   fetchReadlistBdsFromApi,
   fetchUserBdsFromApi,
 } from './api-bds.facade';
+import { createCachedFetcher } from '../../utils/cache.utils';
+
+const fetchBaseBdsCached = createCachedFetcher(fetchBaseBdsFromApi);
 
 async function getAllBdsData(bds: UserBd[]): Promise<Bd[]> {
   const baseBds = await getAllBaseBds();
@@ -93,7 +96,7 @@ export async function getAllBaseBds(): Promise<BaseBd[]> {
   }
 
   try {
-    const apiBds = await fetchBaseBdsFromApi();
+    const apiBds = await fetchBaseBdsCached();
     return apiBds.length ? apiBds : allBaseBds;
   } catch {
     return allBaseBds;
