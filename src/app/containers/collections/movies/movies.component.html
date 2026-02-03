@@ -14,11 +14,17 @@
         ? "Films par acteur"
         : selectedView() === "directors"
         ? "Films par réalisateur"
+        : selectedView() === "recommendations"
+        ? "Recommandations"
         : selectedView() === "owned"
         ? "Films possédés"
         : "Films visionnés"
     }}
-    ({{ filteredMoviesByYear().length }}) }
+    ({{
+      selectedView() === "recommendations"
+        ? recommendedMovies().length
+        : filteredMoviesByYear().length
+    }}) }
   </h1>
 
   @if(allMovies().length !== 0) {
@@ -172,7 +178,26 @@
       Ajouter des films à ma watchlist
     </button>
   </div>
-  } @if(selectedView() === 'sagas') {
+  } @if(selectedView() === 'recommendations') {
+  <div class="movies">
+    @if (isLoadingRecommendations()) {
+    <p>Chargement des recommandations...</p>
+    } @else if (recommendedMovies().length === 0) {
+    <p>Aucune recommandation disponible pour le moment.</p>
+    } @else { @for (movie of recommendedMovies(); track
+    `${movie.title}-${movie.releaseDate}`; let i = $index) {
+    <div class="movie-card movie-card--missing">
+      <span class="movie-missing-badge">Recommandé</span>
+      <app-movie
+        [movie]="movie"
+        [list]="recommendedMovies()"
+        [index]="i"
+        [readOnly]="true"
+      ></app-movie>
+    </div>
+    } }
+  </div>
+  } @else if(selectedView() === 'sagas') {
   <div class="movies-by-saga">
     @for (sagaGroup of moviesBySaga(); track sagaGroup.saga) {
     <section class="movies-saga-section">
@@ -423,6 +448,16 @@
           "
         />
         Voir les réalisateurs
+      </label>
+      <label class="movies-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().recommendations"
+          (change)="
+            onOptionalViewChange('recommendations', $any($event.target).checked)
+          "
+        />
+        Recommandations
       </label>
       <p class="movies-config-hint">
         "Films vus" et "Films à voir" restent affichés par défaut.

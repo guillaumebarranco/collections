@@ -2,9 +2,7 @@
 
 <div class="books-container">
   <h1>
-    @if (isAdminView()) {
-    Livres ({{ filteredBooks().length }})
-    } @else {
+    @if (isAdminView()) { Livres ({{ filteredBooks().length }}) } @else {
     {{
       selectedView() === "readlist"
         ? "Livres à lire"
@@ -14,8 +12,7 @@
         ? "Livres par auteur"
         : "Livres lus"
     }}
-    ({{ filteredBooks().length }})
-    }
+    ({{ filteredBooks().length }}) }
   </h1>
 
   @if(allBooks().length !== 0) {
@@ -165,13 +162,11 @@
         @if (isAdminView()) {
         {{ authorGroup.author }} ({{
           authorGroup.seenBooks.length + authorGroup.missingBooks.length
-        }})
-        } @else {
-        {{ authorGroup.author }} ({{ authorGroup.seenBooks.length }} lus) ({{
-          authorGroup.missingBooks.length
+        }}) } @else { {{ authorGroup.author }} ({{
+          authorGroup.seenBooks.length
         }}
-        restants à lire)
-        }
+        lus) ({{ authorGroup.missingBooks.length }}
+        restants à lire) }
       </h2>
       <div class="books">
         @for (book of authorGroup.seenBooks; track book.title) {
@@ -201,8 +196,8 @@
     </section>
     }
   </div>
-  } @if(groupedBooks()) { Groupement activé, le tri ne sera pas pris en compte.
-  } @if (groupedBooks()) {
+  } @else { @if(groupedBooks()) { Groupement activé, le tri ne sera pas pris en
+  compte. } @if (groupedBooks()) {
   <div class="books-groups">
     @for (group of groupedBooks(); track group.key) {
     <h2>{{ group.key }} ({{ group.books.length }})</h2>
@@ -233,7 +228,7 @@
     </div>
     }
   </div>
-  }
+  } }
 </div>
 
 <app-quizz-modal

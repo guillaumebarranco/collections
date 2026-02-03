@@ -29,15 +29,6 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 1,
   },
   {
-    title: "Héros de l'Olympe, tome 1 : Le héros perdu",
-    author: 'Rick Riordan',
-    coverUrl: '/books_pictures/815Gg+369GL.jpg',
-    pages: 640,
-    genre: 'Fantasy',
-    saga: "Héros de l'Olympe",
-    sagaOrder: 1,
-  },
-  {
     title: 'Croc-Blanc',
     author: 'Jack London',
     coverUrl: '/books_pictures/A65190.jpg',

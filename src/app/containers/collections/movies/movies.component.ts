@@ -32,10 +32,12 @@ import {
   getAllBaseMovies,
   getAllMovies,
   getAllWatchlistMovies,
+  getMoviesByUser,
 } from '../../../facades/movies/movies.facade';
 import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
+import { users } from '../../../utils/users/users';
 import {
   getSortedMovies,
   allYearsSince2000,
@@ -89,6 +91,7 @@ export class MoviesComponent implements OnInit {
     sagas: true,
     actors: false,
     directors: false,
+    recommendations: false,
   });
 
   constructor() {
@@ -155,6 +158,13 @@ export class MoviesComponent implements OnInit {
         this.selectedView.set('watched');
       }
     });
+
+    effect(() => {
+      if (this.isAdminView()) return;
+      if (this.selectedView() === 'recommendations') {
+        void this.loadRecommendations();
+      }
+    });
   }
 
   ngOnInit() {
@@ -185,7 +195,8 @@ export class MoviesComponent implements OnInit {
       queryParams['view'] === 'owned' ||
       queryParams['view'] === 'sagas' ||
       queryParams['view'] === 'actors' ||
-      queryParams['view'] === 'directors'
+      queryParams['view'] === 'directors' ||
+      queryParams['view'] === 'recommendations'
     ) {
       this.selectedView.set(queryParams['view'] as MovieView);
     }
@@ -262,7 +273,8 @@ export class MoviesComponent implements OnInit {
     } else if (
       this.selectedView() === 'sagas' ||
       this.selectedView() === 'actors' ||
-      this.selectedView() === 'directors'
+      this.selectedView() === 'directors' ||
+      this.selectedView() === 'recommendations'
     ) {
       movies = this.allMovies();
     } else {
@@ -370,6 +382,16 @@ export class MoviesComponent implements OnInit {
   collapsedSagas = signal<Record<string, boolean>>({});
   collapsedActors = signal<Record<string, boolean>>({});
   collapsedDirectors = signal<Record<string, boolean>>({});
+  recommendations = signal<Movie[]>([]);
+  isLoadingRecommendations = signal<boolean>(false);
+  recommendationsUserId = signal<string>('');
+
+  recommendedMovies = computed(() => {
+    const term = this.searchTerm().trim().toLowerCase();
+    const list = this.recommendations();
+    if (!term) return list;
+    return list.filter((movie) => this.matchesSearch(movie, term));
+  });
 
   stats = computed<StatItem[]>(() => {
     if (this.isAdminView()) {
@@ -513,6 +535,9 @@ export class MoviesComponent implements OnInit {
 
   onViewChange(view: MovieView) {
     this.selectedView.set(view);
+    if (view === 'recommendations') {
+      void this.loadRecommendations();
+    }
   }
 
   openViewConfig() {
@@ -536,6 +561,68 @@ export class MoviesComponent implements OnInit {
 
   onSearchChange(value: string) {
     this.searchTerm.set(value);
+  }
+
+  async loadRecommendations() {
+    if (this.isAdminView()) return;
+    if (this.isLoadingRecommendations()) return;
+
+    const userId = this.getActiveUserId();
+    if (
+      this.recommendationsUserId() === userId &&
+      this.recommendations().length
+    ) {
+      return;
+    }
+
+    this.isLoadingRecommendations.set(true);
+    try {
+      const otherUsers = users
+        .map((user) => user.username)
+        .filter((username) => username !== userId);
+      const otherUsersMovies = await Promise.all(
+        otherUsers.map((username) => getMoviesByUser(username))
+      );
+
+      const scoreMap = new Map<string, { count: number; maxRating: number }>();
+      for (const list of otherUsersMovies) {
+        for (const movie of list) {
+          if ((movie.rating ?? 0) < 4) continue;
+          const key = this.getMovieIdentityKey(movie);
+          const current = scoreMap.get(key) ?? { count: 0, maxRating: 0 };
+          scoreMap.set(key, {
+            count: current.count + 1,
+            maxRating: Math.max(current.maxRating, movie.rating ?? 0),
+          });
+        }
+      }
+
+      const seenKeys = new Set(
+        this.allMovies().map((movie) => this.getMovieIdentityKey(movie))
+      );
+
+      const recommended = this.baseMoviesList()
+        .filter(
+          (movie) =>
+            !seenKeys.has(this.getMovieIdentityKey(movie)) &&
+            scoreMap.has(this.getMovieIdentityKey(movie))
+        )
+        .sort((a, b) => {
+          const scoreA = scoreMap.get(this.getMovieIdentityKey(a))!;
+          const scoreB = scoreMap.get(this.getMovieIdentityKey(b))!;
+          if (scoreB.count !== scoreA.count) return scoreB.count - scoreA.count;
+          if (scoreB.maxRating !== scoreA.maxRating)
+            return scoreB.maxRating - scoreA.maxRating;
+          return a.title.localeCompare(b.title);
+        });
+
+      this.recommendations.set(recommended);
+      this.recommendationsUserId.set(userId);
+    } catch (error) {
+      console.warn('movies:recommendations:error', error);
+    } finally {
+      this.isLoadingRecommendations.set(false);
+    }
   }
 
   toggleSaga(saga: string) {
@@ -692,6 +779,7 @@ export class MoviesComponent implements OnInit {
       sagas: parsed.sagas ?? true,
       actors: parsed.actors ?? false,
       directors: parsed.directors ?? false,
+      recommendations: parsed.recommendations ?? false,
     });
     this.isLoadingViewConfig = false;
   }

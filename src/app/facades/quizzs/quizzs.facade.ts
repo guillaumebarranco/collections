@@ -5,11 +5,7 @@ import { createQuizzOnApi, fetchQuizzsFromApi } from './api-quizzs.facade';
 
 export async function getAllQuizzs(): Promise<Quizz[]> {
   if (isLocalhost()) {
-    try {
-      return await fetchQuizzsFromApi();
-    } catch {
-      return getLocalQuizzs();
-    }
+    return getLocalQuizzs();
   }
 
   try {

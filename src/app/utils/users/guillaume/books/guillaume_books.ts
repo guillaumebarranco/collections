@@ -498,6 +498,14 @@ export const guillaumeBooks: UserBook[] = [
     owned: true,
   },
   {
+    title: "L'Iliade",
+    author: 'Homère',
+    readDate: '2025-12-24',
+    rating: 3.25,
+    readTimes: 1,
+    owned: true,
+  },
+  {
     title: "L'Odyssée",
     author: 'Homère',
     readDate: '2025-12-02',
@@ -513,14 +521,7 @@ export const guillaumeBooks: UserBook[] = [
     readTimes: 1,
     owned: true,
   },
-  {
-    title: "L'Iliade",
-    author: 'Homère',
-    readDate: '2025-12-24',
-    rating: 3.25,
-    readTimes: 1,
-    owned: true,
-  },
+
   {
     title: 'Là où chantent les écrevisses',
     author: 'Delia Owens',

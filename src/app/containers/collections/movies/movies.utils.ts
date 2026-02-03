@@ -7,7 +7,8 @@ export type MovieView =
   | 'owned'
   | 'sagas'
   | 'actors'
-  | 'directors';
+  | 'directors'
+  | 'recommendations';
 export type OptionalMovieView = Exclude<MovieView, 'watched' | 'watchlist'>;
 
 export const allYearsSince2000 = [
@@ -39,6 +40,7 @@ export const movieViewOptions: { value: MovieView; label: string }[] = [
   { value: 'sagas', label: 'Voir les sagas' },
   { value: 'actors', label: 'Voir les acteurs' },
   { value: 'directors', label: 'Voir les réalisateurs' },
+  { value: 'recommendations', label: 'Recommandations' },
 ];
 
 export const yearFilterOptions: { value: string; label: string }[] = [

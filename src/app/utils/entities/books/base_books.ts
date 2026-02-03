@@ -564,6 +564,15 @@ export const baseBooks: BaseBook[] = [
     sagaOrder: 0,
   },
   {
+    title: "L'Iliade",
+    author: 'Homère',
+    coverUrl: '/books_pictures/61VSjyBFnVL._SY522_.jpg',
+    pages: 528,
+    genre: 'Classiques',
+    saga: '',
+    sagaOrder: 0,
+  },
+  {
     title: "L'Odyssée",
     author: 'Homère',
     coverUrl: '/books_pictures/61pvUL4GBvL._SL1491_.jpg',
@@ -581,15 +590,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
   },
-  {
-    title: "L'Iliade",
-    author: 'Homère',
-    coverUrl: '/books_pictures/61VSjyBFnVL._SY522_.jpg',
-    pages: 528,
-    genre: 'Classiques',
-    saga: '',
-    sagaOrder: 0,
-  },
+
   {
     title: 'Là où chantent les écrevisses',
     author: 'Delia Owens',

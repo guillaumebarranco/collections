@@ -507,10 +507,10 @@ export class BooksComponent implements OnInit {
       return [];
     }
     return getBooksByAuthor({
-      sortedBooks: this.sortedBooks(),
+      sortedBooks: this.allBooks(),
       allBooks: this.allBooks(),
       baseBooks: this.baseBooksList(),
-      selectedSort: this.selectedSort(),
+      selectedSort: 'readDate',
       isAdminView: this.isAdminView(),
     });
   });

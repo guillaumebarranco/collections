@@ -362,14 +362,6 @@ export const ronanBooks: UserBook[] = [
     owned: true,
   },
   {
-    title: "Héros de l'Olympe, tome 1 : Le héros perdu",
-    author: 'Rick Riordan',
-    rating: 3,
-    readDate: '',
-    readTimes: 1,
-    owned: false,
-  },
-  {
     title: "Nevernight, tome 1 : N'oublie jamais",
     author: 'Jay Kristoff',
     rating: 4,

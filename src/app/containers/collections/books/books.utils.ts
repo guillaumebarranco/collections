@@ -40,10 +40,7 @@ export const bookViewOptions: { value: BookView; label: string }[] = [
   { value: 'authors', label: 'Voir les auteurs' },
 ];
 
-export const getSortedBooks = (
-  books: Book[],
-  selectedSort: string
-): Book[] => {
+export const getSortedBooks = (books: Book[], selectedSort: string): Book[] => {
   switch (selectedSort) {
     case 'title':
       return books.sort((a, b) => a.title.localeCompare(b.title));
