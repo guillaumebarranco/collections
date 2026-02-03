@@ -249,7 +249,7 @@
         [movie]="movie"
         [list]="sortedMovies()"
         [index]="i"
-        [readOnly]="true"
+        [readOnly]="selectedView() === 'watchlist'"
         [isWatchList]="selectedView() === 'watchlist'"
         [quizzs]="quizzs()"
         (movieUpdated)="refreshMovies()"

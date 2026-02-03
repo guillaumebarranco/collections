@@ -56,7 +56,7 @@
     <p class="movie-genre">{{ movie.genre }}</p>
     } @if (recommendationView()) {
     <p class="movie-recommendation-text">{{ recommendationText() }}</p>
-    } @if (isWatchList()) {
+    } @if (isWatchList() && !isBaseEntityView) {
     <button class="btn btn-primary" (click)="addMovieFromWatchlist()">
       J'ai vu ce film
     </button>

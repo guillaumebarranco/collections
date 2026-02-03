@@ -441,4 +441,15 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
   }
+,
+  {
+    title: 'Le Mans 66',
+    director: 'James Mangold',
+    rating: 0,
+    timesWatched: 0,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+  },
 ];

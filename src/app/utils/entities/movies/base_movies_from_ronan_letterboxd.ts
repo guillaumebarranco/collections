@@ -8119,23 +8119,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Horreur',
     saga: 'Saw',
   },
-  {
-    title: 'Les Noces funèbres',
-    director: 'Tim Burton, Mike Johnson',
-    actors: [
-      {
-        name: 'Johnny Depp',
-      },
-      {
-        name: 'Helena Bonham Carter',
-      },
-    ],
-    coverUrl: '/movies_pictures/corpse_bride.jpg',
-    releaseDate: '2005-10-19',
-    length: 76,
-    genre: 'Animation',
-    saga: '',
-  },
+
   {
     title: 'Le Secret de Brokeback Mountain',
     director: 'Ang Lee',
