@@ -5,6 +5,8 @@ import {
   ViewEncapsulation,
 } from '@angular/core';
 
+import { isBaseEntityView } from '../../core/config';
+
 @Component({
   selector: 'app-edit-entity',
   standalone: true,
@@ -14,4 +16,6 @@ import {
   changeDetection: ChangeDetectionStrategy.OnPush,
   encapsulation: ViewEncapsulation.None,
 })
-export class EditEntityComponent {}
+export class EditEntityComponent {
+  isBaseEntityView = isBaseEntityView();
+}

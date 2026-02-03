@@ -1,3 +1,7 @@
 <div class="edit-entity">
-  <ng-content></ng-content>
+  <ng-content select="[entity-header]"></ng-content>
+  @if(!isBaseEntityView) {
+  <ng-content select="[entity-content]"></ng-content>
+  }
+  <ng-content select="[entity-form]"></ng-content>
 </div>

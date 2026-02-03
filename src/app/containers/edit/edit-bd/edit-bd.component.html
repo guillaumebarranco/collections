@@ -1,5 +1,6 @@
 <app-edit-entity class="edit-entity--dark">
   <app-edit-entity-header
+    entity-header
     [entity]="EntityType.BD"
     [dialogRef]="dialogRef"
     [canNavigatePrevious]="canNavigatePrevious()"
@@ -12,28 +13,31 @@
     (openCreateQuizz)="openCreateQuizz()"
   ></app-edit-entity-header>
 
-  <h1 class="title">Éditer une BD</h1>
+  <div entity-content>
+    <h1 class="title">Éditer une BD</h1>
 
-  @if(bdNotFound()) {
-  <p class="not-found">Aucune BD trouvée pour ce slug.</p>
-  } @else {
-  <img [src]="bd()?.coverUrl" alt="Cover" width="200" />
-  <div>{{ bd()?.title }}</div>
-  <div class="entity-details">
-    <p><strong>Designer :</strong> {{ bd()?.designer }}</p>
-    @if (bd()?.writer) {
-    <p><strong>Writer :</strong> {{ bd()?.writer }}</p>
-    } @if (bd()?.genre) {
-    <p><strong>Genre :</strong> {{ bd()?.genre }}</p>
-    } @if (bd()?.nbTomes) {
-    <p><strong>Nombre de tomes :</strong> {{ bd()?.nbTomes }}</p>
-    } @if (bd()?.isFinished === false) {
-    <p><strong>Série :</strong> En cours</p>
+    @if(bdNotFound()) {
+    <p class="not-found">Aucune BD trouvée pour ce slug.</p>
+    } @else {
+    <img [src]="bd()?.coverUrl" alt="Cover" width="200" />
+    <div>{{ bd()?.title }}</div>
+    <div class="entity-details">
+      <p><strong>Designer :</strong> {{ bd()?.designer }}</p>
+      @if (bd()?.writer) {
+      <p><strong>Writer :</strong> {{ bd()?.writer }}</p>
+      } @if (bd()?.genre) {
+      <p><strong>Genre :</strong> {{ bd()?.genre }}</p>
+      } @if (bd()?.nbTomes) {
+      <p><strong>Nombre de tomes :</strong> {{ bd()?.nbTomes }}</p>
+      } @if (bd()?.isFinished === false) {
+      <p><strong>Série :</strong> En cours</p>
+      }
+    </div>
+    <br />
     }
   </div>
-  <br />
 
-  <form *ngIf="bdForm()" class="edit-form" (ngSubmit)="onSubmit()">
+  <form *ngIf="bdForm()" entity-form class="edit-form" (ngSubmit)="onSubmit()">
     @if (isAdminView()) {
     <div class="form-row">
       <label for="adminTitle">Titre</label>
@@ -216,5 +220,4 @@
       </button>
     </div>
   </form>
-  }
 </app-edit-entity>

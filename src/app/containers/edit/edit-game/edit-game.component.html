@@ -1,5 +1,6 @@
 <app-edit-entity class="edit-entity--light">
   <app-edit-entity-header
+    entity-header
     [entity]="EntityType.GAME"
     [dialogRef]="dialogRef"
     [canNavigatePrevious]="canNavigatePrevious()"
@@ -12,32 +13,40 @@
     (openCreateQuizz)="openCreateQuizz()"
   ></app-edit-entity-header>
 
-  <h1 class="title">Editer un jeu</h1>
+  <div entity-content>
+    <h1 class="title">Editer un jeu</h1>
 
-  @if(gameNotFound()) {
-  <p class="not-found">Aucun jeu trouve pour ce slug.</p>
-  } @else {
-  <img [src]="game()?.coverUrl" alt="Cover" width="200" />
-  <div>{{ game()?.title }}</div>
-  <div class="entity-details">
-    <p><strong>Éditeur :</strong> {{ game()?.editor }}</p>
-    @if (game()?.platform) {
-    <p><strong>Plateforme :</strong> {{ game()?.platform }}</p>
-    } @if (game()?.releaseDate) {
-    <p><strong>Date de sortie :</strong> {{ game()?.releaseDate }}</p>
-    } @if (game()?.averageTimeToFinish) {
-    <p><strong>Temps moyen :</strong> {{ game()?.averageTimeToFinish }} h</p>
-    } @if (game()?.platineTime) {
-    <p><strong>Temps platine :</strong> {{ game()?.platineTime }} h</p>
-    } @if (game()?.hero) {
-    <p><strong>Héro :</strong> {{ game()?.hero }}</p>
-    } @if (game()?.saga) {
-    <p><strong>Saga :</strong> {{ game()?.saga }}</p>
+    @if(gameNotFound()) {
+    <p class="not-found">Aucun jeu trouve pour ce slug.</p>
+    } @else {
+    <img [src]="game()?.coverUrl" alt="Cover" width="200" />
+    <div>{{ game()?.title }}</div>
+    <div class="entity-details">
+      <p><strong>Éditeur :</strong> {{ game()?.editor }}</p>
+      @if (game()?.platform) {
+      <p><strong>Plateforme :</strong> {{ game()?.platform }}</p>
+      } @if (game()?.releaseDate) {
+      <p><strong>Date de sortie :</strong> {{ game()?.releaseDate }}</p>
+      } @if (game()?.averageTimeToFinish) {
+      <p><strong>Temps moyen :</strong> {{ game()?.averageTimeToFinish }} h</p>
+      } @if (game()?.platineTime) {
+      <p><strong>Temps platine :</strong> {{ game()?.platineTime }} h</p>
+      } @if (game()?.hero) {
+      <p><strong>Héro :</strong> {{ game()?.hero }}</p>
+      } @if (game()?.saga) {
+      <p><strong>Saga :</strong> {{ game()?.saga }}</p>
+      }
+    </div>
+    <br />
     }
   </div>
-  <br />
 
-  <form *ngIf="gameForm()" class="edit-form" (ngSubmit)="onSubmit()">
+  <form
+    *ngIf="gameForm()"
+    entity-form
+    class="edit-form"
+    (ngSubmit)="onSubmit()"
+  >
     @if (isAdminView()) {
     <div class="form-row">
       <label for="adminTitle">Titre</label>
@@ -267,5 +276,4 @@
       </button>
     </div>
   </form>
-  }
 </app-edit-entity>

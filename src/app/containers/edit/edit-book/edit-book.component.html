@@ -1,5 +1,6 @@
 <app-edit-entity class="edit-entity--light">
   <app-edit-entity-header
+    entity-header
     [entity]="EntityType.BOOK"
     [dialogRef]="dialogRef"
     [canNavigatePrevious]="canNavigatePrevious()"
@@ -12,32 +13,35 @@
     (openCreateQuizz)="openCreateQuizz()"
   ></app-edit-entity-header>
 
-  <h1 class="title">Éditer un livre</h1>
+  <div entity-content>
+    <h1 class="title">Éditer un livre</h1>
 
-  @if(bookNotFound()) {
-  <p class="not-found">Aucun livre trouvé pour ce slug.</p>
-  } @else {
-  <img [src]="book()?.coverUrl" alt="Cover" width="200" />
-  <div>{{ book()?.title }}</div>
-  <div class="entity-details">
-    <p><strong>Auteur :</strong> {{ book()?.author }}</p>
-    @if (book()?.genre) {
-    <p><strong>Genre :</strong> {{ book()?.genre }}</p>
-    } @if (book()?.pages) {
-    <p><strong>Pages :</strong> {{ book()?.pages }}</p>
-    } @if (book()?.saga) {
-    <p><strong>Saga :</strong> {{ book()?.saga }}</p>
-    } @if (book()?.sagaOrder) {
-    <p><strong>Tome :</strong> {{ book()?.sagaOrder }}</p>
-    } @if (book()?.nbTomes) {
-    <p><strong>Nombre de tomes :</strong> {{ book()?.nbTomes }}</p>
-    } @if (book()?.isFinished === false) {
-    <p><strong>Saga :</strong> En cours</p>
-    }
+    <img [src]="book()?.coverUrl" alt="Cover" width="200" />
+    <div>{{ book()?.title }}</div>
+    <div class="entity-details">
+      <p><strong>Auteur :</strong> {{ book()?.author }}</p>
+      @if (book()?.genre) {
+      <p><strong>Genre :</strong> {{ book()?.genre }}</p>
+      } @if (book()?.pages) {
+      <p><strong>Pages :</strong> {{ book()?.pages }}</p>
+      } @if (book()?.saga) {
+      <p><strong>Saga :</strong> {{ book()?.saga }}</p>
+      } @if (book()?.sagaOrder) {
+      <p><strong>Tome :</strong> {{ book()?.sagaOrder }}</p>
+      } @if (book()?.nbTomes) {
+      <p><strong>Nombre de tomes :</strong> {{ book()?.nbTomes }}</p>
+      } @if (book()?.isFinished === false) {
+      <p><strong>Saga :</strong> En cours</p>
+      }
+    </div>
   </div>
-  <br />
 
-  <form *ngIf="bookForm()" class="edit-form" (ngSubmit)="onSubmit()">
+  <form
+    *ngIf="bookForm()"
+    entity-form
+    class="edit-form"
+    (ngSubmit)="onSubmit()"
+  >
     @if (isAdminView()) {
     <div class="form-row">
       <label for="adminTitle">Titre</label>
@@ -232,5 +236,4 @@
       </button>
     </div>
   </form>
-  }
 </app-edit-entity>

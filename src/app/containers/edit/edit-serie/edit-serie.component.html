@@ -1,5 +1,6 @@
 <app-edit-entity class="edit-entity--light">
   <app-edit-entity-header
+    entity-header
     [entity]="EntityType.SERIE"
     [dialogRef]="dialogRef"
     [canNavigatePrevious]="canNavigatePrevious()"
@@ -12,29 +13,36 @@
     (openCreateQuizz)="openCreateQuizz()"
   ></app-edit-entity-header>
 
-  <h1 class="title">&#201;diter une s&#233;rie</h1>
+  <div entity-content>
+    <h1 class="title">&#201;diter une s&#233;rie</h1>
 
-  @if(serieNotFound()) {
-  <p class="not-found">Aucune s&#233;rie trouv&#233;e pour ce slug.</p>
-  } @else { @if (!isAdminView()) {
-  <img [src]="serie()?.coverUrl" alt="Cover" width="200" />
-  <div>{{ serie()?.title }}</div>
-  <div class="entity-details">
-    <p><strong>Réalisateur :</strong> {{ serie()?.director }}</p>
-    @if (serie()?.genre) {
-    <p><strong>Genre :</strong> {{ serie()?.genre }}</p>
-    } @if (serie()?.releaseDate) {
-    <p><strong>Date de sortie :</strong> {{ serie()?.releaseDate }}</p>
-    } @if (serie()?.endDate) {
-    <p><strong>Date de fin :</strong> {{ serie()?.endDate }}</p>
-    } @if (serie()?.actors?.length) {
-    <p><strong>Acteurs :</strong> {{ getActorsLabel(serie()?.actors) }}</p>
-    }
+    @if(serieNotFound()) {
+    <p class="not-found">Aucune s&#233;rie trouv&#233;e pour ce slug.</p>
+    } @else { @if (!isAdminView()) {
+    <img [src]="serie()?.coverUrl" alt="Cover" width="200" />
+    <div>{{ serie()?.title }}</div>
+    <div class="entity-details">
+      <p><strong>Réalisateur :</strong> {{ serie()?.director }}</p>
+      @if (serie()?.genre) {
+      <p><strong>Genre :</strong> {{ serie()?.genre }}</p>
+      } @if (serie()?.releaseDate) {
+      <p><strong>Date de sortie :</strong> {{ serie()?.releaseDate }}</p>
+      } @if (serie()?.endDate) {
+      <p><strong>Date de fin :</strong> {{ serie()?.endDate }}</p>
+      } @if (serie()?.actors?.length) {
+      <p><strong>Acteurs :</strong> {{ getActorsLabel(serie()?.actors) }}</p>
+      }
+    </div>
+    <br />
+    } }
   </div>
-  <br />
-  }
 
-  <form *ngIf="serieForm()" class="edit-form" (ngSubmit)="onSubmit()">
+  <form
+    *ngIf="serieForm()"
+    entity-form
+    class="edit-form"
+    (ngSubmit)="onSubmit()"
+  >
     @if (isAdminView()) {
     <div class="form-row">
       <label for="adminTitle">Titre</label>
@@ -258,5 +266,4 @@
       </button>
     </div>
   </form>
-  }
 </app-edit-entity>

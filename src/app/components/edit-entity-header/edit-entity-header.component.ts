@@ -8,7 +8,6 @@ import {
 } from '@angular/core';
 import { isBaseEntityView } from '../../core/config';
 import { EntityType } from '../../models/quizz-model';
-import { MatDialogRef } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-edit-entity-header',

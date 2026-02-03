@@ -1,5 +1,6 @@
 <app-edit-entity class="edit-entity--dark">
   <app-edit-entity-header
+    entity-header
     [entity]="EntityType.MANWHA"
     [dialogRef]="dialogRef"
     [canNavigatePrevious]="canNavigatePrevious()"
@@ -12,26 +13,34 @@
     (openCreateQuizz)="openCreateQuizz()"
   ></app-edit-entity-header>
 
-  <h1 class="title">Éditer un manwha</h1>
+  <div entity-content>
+    <h1 class="title">Éditer un manwha</h1>
 
-  @if(manwhaNotFound()) {
-  <p class="not-found">Aucun manwha trouvé pour ce slug.</p>
-  } @else {
-  <img [src]="manwha()?.coverUrl" alt="Cover" width="200" />
-  <div>{{ manwha()?.title }}</div>
-  <div class="entity-details">
-    <p><strong>Auteur :</strong> {{ manwha()?.author }}</p>
-    @if (manwha()?.genre) {
-    <p><strong>Genre :</strong> {{ manwha()?.genre }}</p>
-    } @if (manwha()?.nbChapters) {
-    <p><strong>Nombre de chapitres :</strong> {{ manwha()?.nbChapters }}</p>
-    } @if (manwha()?.isFinished === false) {
-    <p><strong>Série :</strong> En cours</p>
+    @if(manwhaNotFound()) {
+    <p class="not-found">Aucun manwha trouvé pour ce slug.</p>
+    } @else {
+    <img [src]="manwha()?.coverUrl" alt="Cover" width="200" />
+    <div>{{ manwha()?.title }}</div>
+    <div class="entity-details">
+      <p><strong>Auteur :</strong> {{ manwha()?.author }}</p>
+      @if (manwha()?.genre) {
+      <p><strong>Genre :</strong> {{ manwha()?.genre }}</p>
+      } @if (manwha()?.nbChapters) {
+      <p><strong>Nombre de chapitres :</strong> {{ manwha()?.nbChapters }}</p>
+      } @if (manwha()?.isFinished === false) {
+      <p><strong>Série :</strong> En cours</p>
+      }
+    </div>
+    <br />
     }
   </div>
-  <br />
 
-  <form *ngIf="manwhaForm()" class="edit-form" (ngSubmit)="onSubmit()">
+  <form
+    *ngIf="manwhaForm()"
+    entity-form
+    class="edit-form"
+    (ngSubmit)="onSubmit()"
+  >
     @if (isAdminView()) {
     <div class="form-row">
       <label for="adminTitle">Titre</label>
@@ -203,5 +212,4 @@
       </button>
     </div>
   </form>
-  }
 </app-edit-entity>

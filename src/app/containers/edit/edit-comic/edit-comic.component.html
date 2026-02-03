@@ -1,5 +1,6 @@
 <app-edit-entity class="edit-entity--dark">
   <app-edit-entity-header
+    entity-header
     [entity]="EntityType.COMIC"
     [dialogRef]="dialogRef"
     [canNavigatePrevious]="canNavigatePrevious()"
@@ -12,24 +13,32 @@
     (openCreateQuizz)="openCreateQuizz()"
   ></app-edit-entity-header>
 
-  <h1 class="title">Éditer un comic</h1>
+  <div entity-content>
+    <h1 class="title">Éditer un comic</h1>
 
-  @if(comicNotFound()) {
-  <p class="not-found">Aucun comic trouvé pour ce slug.</p>
-  } @else {
-  <img [src]="comic()?.coverUrl" alt="Cover" width="200" />
-  <div>{{ comic()?.title }}</div>
-  <div class="entity-details">
-    <p><strong>Designer :</strong> {{ comic()?.designer }}</p>
-    @if (comic()?.writer) {
-    <p><strong>Writer :</strong> {{ comic()?.writer }}</p>
-    } @if (comic()?.genre) {
-    <p><strong>Genre :</strong> {{ comic()?.genre }}</p>
+    @if(comicNotFound()) {
+    <p class="not-found">Aucun comic trouvé pour ce slug.</p>
+    } @else {
+    <img [src]="comic()?.coverUrl" alt="Cover" width="200" />
+    <div>{{ comic()?.title }}</div>
+    <div class="entity-details">
+      <p><strong>Designer :</strong> {{ comic()?.designer }}</p>
+      @if (comic()?.writer) {
+      <p><strong>Writer :</strong> {{ comic()?.writer }}</p>
+      } @if (comic()?.genre) {
+      <p><strong>Genre :</strong> {{ comic()?.genre }}</p>
+      }
+    </div>
+    <br />
     }
   </div>
-  <br />
 
-  <form *ngIf="comicForm()" class="edit-form" (ngSubmit)="onSubmit()">
+  <form
+    *ngIf="comicForm()"
+    entity-form
+    class="edit-form"
+    (ngSubmit)="onSubmit()"
+  >
     @if (isAdminView()) {
     <div class="form-row">
       <label for="adminTitle">Titre</label>
@@ -187,5 +196,4 @@
       </button>
     </div>
   </form>
-  }
 </app-edit-entity>

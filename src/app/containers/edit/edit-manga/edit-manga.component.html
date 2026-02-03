@@ -1,5 +1,6 @@
 <app-edit-entity class="edit-entity--dark">
   <app-edit-entity-header
+    entity-header
     [entity]="EntityType.MANGA"
     [dialogRef]="dialogRef"
     [canNavigatePrevious]="canNavigatePrevious()"
@@ -12,26 +13,34 @@
     (openCreateQuizz)="openCreateQuizz()"
   ></app-edit-entity-header>
 
-  <h1 class="title">Éditer un manga</h1>
+  <div entity-content>
+    <h1 class="title">Éditer un manga</h1>
 
-  @if(mangaNotFound()) {
-  <p class="not-found">Aucun manga trouvé pour ce slug.</p>
-  } @else {
-  <img [src]="manga()?.coverUrl" alt="Cover" width="200" />
-  <div>{{ manga()?.title }}</div>
-  <div class="entity-details">
-    <p><strong>Auteur :</strong> {{ manga()?.author }}</p>
-    @if (manga()?.genre) {
-    <p><strong>Genre :</strong> {{ manga()?.genre }}</p>
-    } @if (manga()?.nbTomes) {
-    <p><strong>Nombre de tomes :</strong> {{ manga()?.nbTomes }}</p>
-    } @if (manga()?.isFinished === false) {
-    <p><strong>Série :</strong> En cours</p>
+    @if(mangaNotFound()) {
+    <p class="not-found">Aucun manga trouvé pour ce slug.</p>
+    } @else {
+    <img [src]="manga()?.coverUrl" alt="Cover" width="200" />
+    <div>{{ manga()?.title }}</div>
+    <div class="entity-details">
+      <p><strong>Auteur :</strong> {{ manga()?.author }}</p>
+      @if (manga()?.genre) {
+      <p><strong>Genre :</strong> {{ manga()?.genre }}</p>
+      } @if (manga()?.nbTomes) {
+      <p><strong>Nombre de tomes :</strong> {{ manga()?.nbTomes }}</p>
+      } @if (manga()?.isFinished === false) {
+      <p><strong>Série :</strong> En cours</p>
+      }
+    </div>
+    <br />
     }
   </div>
-  <br />
 
-  <form *ngIf="mangaForm()" class="edit-form" (ngSubmit)="onSubmit()">
+  <form
+    *ngIf="mangaForm()"
+    entity-form
+    class="edit-form"
+    (ngSubmit)="onSubmit()"
+  >
     @if (isAdminView()) {
     <div class="form-row">
       <label for="adminTitle">Titre</label>
@@ -203,5 +212,4 @@
       </button>
     </div>
   </form>
-  }
 </app-edit-entity>
