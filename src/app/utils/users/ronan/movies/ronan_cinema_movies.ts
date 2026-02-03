@@ -2383,7 +2383,7 @@ export const ronanCinemaMovies: UserMovies = [
     owned: true,
   },
   {
-    title: 'Dragons 3: Le monde perdu',
+    title: 'Dragons 3 : Le Monde caché',
     director: 'Dean DeBlois',
     rating: 3.5,
     timesWatched: 1,
@@ -3168,16 +3168,6 @@ export const ronanCinemaMovies: UserMovies = [
     owned: false,
   },
   {
-    title: 'Hunger Games : La Révolte, partie 1',
-    director: 'Francis Lawrence',
-    rating: 3,
-    timesWatched: 1,
-    firstViewedDate: '2014-11-19',
-    lastViewedDate: '2014-11-19',
-    seenAtCinema: true,
-    owned: false,
-  },
-  {
     title: 'Equalizer',
     director: 'Antoine Fuqua',
     rating: 3.5, // The Equalizer (2014) ★★★½
@@ -3194,16 +3184,6 @@ export const ronanCinemaMovies: UserMovies = [
     timesWatched: 1,
     firstViewedDate: '2014-07-30',
     lastViewedDate: '2014-07-30',
-    seenAtCinema: true,
-    owned: true,
-  },
-  {
-    title: "Transformers : L'Âge de l'extinction",
-    director: 'Michael Bay',
-    rating: 3, // Transformers: Age of Extinction (2014) ★★★
-    timesWatched: 1,
-    firstViewedDate: '2014-07-16',
-    lastViewedDate: '2014-07-16',
     seenAtCinema: true,
     owned: true,
   },

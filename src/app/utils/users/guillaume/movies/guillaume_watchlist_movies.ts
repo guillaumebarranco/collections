@@ -431,4 +431,26 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
   }
+,
+  {
+    title: 'Les Nouveaux Mutants',
+    director: 'Josh Boone',
+    rating: 0,
+    timesWatched: 0,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+  },
+
+  {
+    title: 'Ballerina',
+    director: 'Len Wiseman',
+    rating: 0,
+    timesWatched: 0,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+  },
 ];

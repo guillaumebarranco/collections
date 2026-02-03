@@ -9,7 +9,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
         name: 'Timothée Chalamet',
       },
     ],
-    coverUrl: '/movies_pictures/617443-dune-part-two-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/4633954.jpg',
     releaseDate: '2021-10-22',
     length: 155,
     genre: 'Science Fiction',
@@ -23,7 +23,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
         name: 'Timothée Chalamet',
       },
     ],
-    coverUrl: '/movies_pictures/617443-dune-part-two-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/5392835.jpg',
     releaseDate: '2024-03-01',
     length: 166,
     genre: 'Science Fiction',
@@ -145,7 +145,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     actors: [
       {
         name: 'Eddie Redmayne',
-      }
+      },
     ],
     coverUrl:
       '/movies_pictures/268366-fantastic-beasts-the-secrets-of-dumbledore-0-150-0-225-crop.jpg',
@@ -410,7 +410,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     actors: [
       {
         name: 'Michael B. Jordan',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/601624-creed-iii-0-150-0-225-crop.jpg',
     releaseDate: '2023-03-03',
@@ -617,7 +617,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     title: 'Resident Evil : Afterlife',
     director: 'Paul W.S. Anderson',
     actors: [{ name: 'Milla Jovovich' }],
-    coverUrl: '/movies_pictures/poster.jpg',
+    coverUrl: '/movies_pictures/19486570.jpg',
     releaseDate: '2010-09-10',
     length: 97,
     genre: 'Action',
@@ -627,7 +627,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     title: 'Resident Evil : Retribution',
     director: 'Paul W.S. Anderson',
     actors: [{ name: 'Milla Jovovich' }],
-    coverUrl: '/movies_pictures/poster.jpg',
+    coverUrl: '/movies_pictures/20204615.jpg',
     releaseDate: '2012-09-14',
     length: 95,
     genre: 'Action',
@@ -699,7 +699,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     actors: [
       {
         name: 'Sandra Bullock',
-      }
+      },
     ],
     coverUrl:
       'https://fr.web.img3.acsta.net/pictures/18/05/14/12/19/5676009.jpg',

@@ -1963,7 +1963,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2023-01-01',
     length: 125,
     genre: 'Action',
-    saga: 'Godzilla',
+    saga: 'MonsterVerse',
   },
   {
     title: 'Cinq nuits chez Freddy',
@@ -3911,26 +3911,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
   },
   {
-    title: 'Dragons 3 : Le Monde caché',
-    director: 'Dean DeBlois',
-    actors: [
-      {
-        name: 'Jay Baruchel',
-      },
-      {
-        name: 'America Ferrera',
-      },
-      {
-        name: 'F. Murray Abraham',
-      },
-    ],
-    coverUrl: '/movies_pictures/how_to_train_your_dragon_the_hidden_world.jpg',
-    releaseDate: '2019-02-06',
-    length: 104,
-    genre: 'Animation',
-    saga: 'Dragons',
-  },
-  {
     title: 'Nicky Larson Private Eyes',
     director: 'Kenji Kodama',
     actors: [
@@ -4250,26 +4230,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Horreur',
     saga: '',
   },
-  {
-    title: 'Le Labyrinthe : Le Remède mortel',
-    director: 'Wes Ball',
-    actors: [
-      {
-        name: "Dylan O'Brien",
-      },
-      {
-        name: 'Kaya Scodelario',
-      },
-      {
-        name: 'Thomas Brodie-Sangster',
-      },
-    ],
-    coverUrl: '/movies_pictures/maze_runner_the_death_cure.jpg',
-    releaseDate: '2018-02-07',
-    length: 142,
-    genre: 'Science Fiction',
-    saga: 'Le Labyrinthe',
-  },
+
   {
     title: 'Jumanji : Bienvenue dans la jungle',
     director: 'Jake Kasdan',
@@ -5247,20 +5208,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
   },
   {
-    title: 'Le Labyrinthe : La Terre brûlée',
-    director: 'Wes Ball',
-    actors: [
-      {
-        name: 'Dylan O',
-      },
-    ],
-    coverUrl: '/movies_pictures/maze_runner_the_scorch_trials.jpg',
-    releaseDate: '2015-10-07',
-    length: 133,
-    genre: 'Science Fiction',
-    saga: 'Le Labyrinthe',
-  },
-  {
     title: 'Steve Jobs',
     director: 'Danny Boyle',
     actors: [
@@ -5621,26 +5568,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
   },
   {
-    title: 'Hunger Games : La Révolte, partie 1',
-    director: 'Francis Lawrence',
-    actors: [
-      {
-        name: 'Jennifer Lawrence',
-      },
-      {
-        name: 'Josh Hutcherson',
-      },
-      {
-        name: 'Liam Hemsworth',
-      },
-    ],
-    coverUrl: '/movies_pictures/the_hunger_games_mockingjay_part_1.jpg',
-    releaseDate: '2014-11-19',
-    length: 123,
-    genre: 'Science Fiction',
-    saga: 'Hunger Games',
-  },
-  {
     title: 'Fury',
     director: 'David Ayer',
     actors: [
@@ -5779,26 +5706,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     length: 131,
     genre: 'Science Fiction',
     saga: 'La Planète des Singes',
-  },
-  {
-    title: "Transformers : L'Âge de l'extinction",
-    director: 'Michael Bay',
-    actors: [
-      {
-        name: 'Mark Wahlberg',
-      },
-      {
-        name: 'Nicola Peltz',
-      },
-      {
-        name: 'Jack Reynor',
-      },
-    ],
-    coverUrl: '/movies_pictures/transformers_age_of_extinction.jpg',
-    releaseDate: '2014-07-16',
-    length: 165,
-    genre: 'Action',
-    saga: 'Transformers',
   },
   {
     title: '22 Jump Street',
@@ -6677,21 +6584,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Animation',
     saga: 'DC Animated Universe',
   },
-
-  {
-    title: "L'Âge de glace 4 : La Dérive des continents",
-    director: 'Steve Martino, Mike Thurmeier',
-    actors: [
-      {
-        name: 'Ray Romano',
-      },
-    ],
-    coverUrl: '/movies_pictures/ice_age_continental_drift.jpg',
-    releaseDate: '2012-06-27',
-    length: 94,
-    genre: 'Animation',
-    saga: "L'Age de Glace",
-  },
   {
     title: 'Magic Mike',
     director: 'Steven Soderbergh',
@@ -6791,26 +6683,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     length: 131,
     genre: 'Action',
     saga: '',
-  },
-  {
-    title: 'American Reunion',
-    director: 'Jon Hurwitz, Hayden Schlossberg',
-    actors: [
-      {
-        name: 'Jason Biggs',
-      },
-      {
-        name: 'Alyson Hannigan',
-      },
-      {
-        name: 'Seann William Scott',
-      },
-    ],
-    coverUrl: '/movies_pictures/american_reunion.jpg',
-    releaseDate: '2012-05-02',
-    length: 114,
-    genre: 'Comédie',
-    saga: 'American Pie',
   },
   {
     title: 'Sinister',
@@ -7108,26 +6980,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     length: 91,
     genre: 'Animation',
     saga: 'Ghibli',
-  },
-  {
-    title: 'Transformers : La Face cachée de la Lune',
-    director: 'Michael Bay',
-    actors: [
-      {
-        name: 'Shia LaBeouf',
-      },
-      {
-        name: 'Rosie Huntington-Whiteley',
-      },
-      {
-        name: 'Josh Duhamel',
-      },
-    ],
-    coverUrl: '/movies_pictures/transformers_dark_of_the_moon.jpg',
-    releaseDate: '2011-06-29',
-    length: 157,
-    genre: 'Action',
-    saga: 'Transformers',
   },
   {
     title: 'Bad Teacher',
@@ -7916,26 +7768,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     length: 96,
     genre: 'Action',
     saga: '',
-  },
-  {
-    title: "Pirates des Caraïbes : Jusqu'au bout du monde",
-    director: 'Gore Verbinski',
-    actors: [
-      {
-        name: 'Johnny Depp',
-      },
-      {
-        name: 'Orlando Bloom',
-      },
-      {
-        name: 'Keira Knightley',
-      },
-    ],
-    coverUrl: '/movies_pictures/pirates_of_the_caribbean_at_world_s_end.jpg',
-    releaseDate: '2007-05-23',
-    length: 168,
-    genre: 'Aventure',
-    saga: 'Pirates des Caraïbes',
   },
   {
     title: 'Paranoïak',
@@ -8928,26 +8760,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
   },
-  {
-    title: 'Spy Kids 2 : Espions en herbe',
-    director: 'Robert Rodriguez',
-    actors: [
-      {
-        name: 'Antonio Banderas',
-      },
-      {
-        name: 'Carla Gugino',
-      },
-      {
-        name: 'Alexa Vega',
-      },
-    ],
-    coverUrl: '/movies_pictures/spy_kids_2_the_island_of_lost_dreams.jpg',
-    releaseDate: '2003-01-01',
-    length: 100,
-    genre: 'Action',
-    saga: 'Spy Kids',
-  },
+
   {
     title: 'Hero',
     director: 'Zhang Yimou',
@@ -10113,23 +9926,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Fantastique',
     saga: '',
   },
-  {
-    title: 'Mon voisin Totoro',
-    director: 'Hayao Miyazaki',
-    actors: [
-      {
-        name: 'Noriko Hidaka',
-      },
-      {
-        name: 'Chika Sakamoto',
-      },
-    ],
-    coverUrl: '/movies_pictures/my_neighbor_totoro.jpg',
-    releaseDate: '2002-08-28',
-    length: 87,
-    genre: 'Animation',
-    saga: 'Ghibli',
-  },
+
   {
     title: 'Superman IV : Le Face-à-face',
     director: 'Sidney J. Furie',

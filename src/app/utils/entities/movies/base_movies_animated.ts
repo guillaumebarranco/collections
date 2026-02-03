@@ -23,7 +23,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Dragons',
   },
   {
-    title: 'Dragons 3: Le monde perdu',
+    title: 'Dragons 3 : Le Monde caché',
     director: 'Dean DeBlois',
     actors: [
       {
@@ -719,7 +719,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2000-03-04',
     length: 52,
     genre: 'Animation',
-    saga: '',
+    saga: 'One Piece OAV',
   },
   {
     title: "One Piece : L'Aventure de l'île de l'horloge",
@@ -730,7 +730,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2001-03-03',
     length: 55,
     genre: 'Animation',
-    saga: '',
+    saga: 'One Piece OAV',
   },
   {
     title: "One Piece : Le Royaume de Chopper, l'île des bêtes étranges",
@@ -740,7 +740,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2002-03-02',
     length: 55,
     genre: 'Animation',
-    saga: '',
+    saga: 'One Piece OAV',
   },
   {
     title: "One Piece : L'Aventure sans issue",
@@ -751,7 +751,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2003-03-01',
     length: 95,
     genre: 'Animation',
-    saga: '',
+    saga: 'One Piece OAV',
   },
   {
     title: "One Piece : La Malédiction de l'épée sacrée",
@@ -761,7 +761,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2004-03-06',
     length: 95,
     genre: 'Animation',
-    saga: '',
+    saga: 'One Piece OAV',
   },
   {
     title: "One Piece : Le baron Omatsuri et l'île secrète",
@@ -831,7 +831,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2016-07-23',
     length: 120,
     genre: 'Animation',
-    saga: '',
+    saga: 'One Piece OAV',
   },
   {
     title: 'One Piece: Stampede',
@@ -841,14 +841,24 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2019-08-09',
     length: 101,
     genre: 'Animation',
-    saga: '',
+    saga: 'One Piece OAV',
   },
   {
-    title: 'One Piece: Red',
+    title: 'One Piece Film: Red',
     director: 'Gorō Taniguchi',
-    actors: [],
-    coverUrl: '/movies_pictures/5161934.jpg',
-    releaseDate: '2022-08-06',
+    actors: [
+      {
+        name: 'Mayumi Tanaka',
+      },
+      {
+        name: 'Kaori Nazuka',
+      },
+      {
+        name: 'Ado',
+      },
+    ],
+    coverUrl: '/movies_pictures/one_piece_film_red.jpg',
+    releaseDate: '2022-08-10',
     length: 115,
     genre: 'Animation',
     saga: 'One Piece OAV',

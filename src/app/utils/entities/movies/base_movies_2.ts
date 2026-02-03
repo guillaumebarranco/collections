@@ -501,6 +501,16 @@ export const baseMoviesPage2: BaseMovie[] = [
     saga: '',
   },
   {
+    title: 'Astérix et Obélix contre César',
+    director: 'Claude Zidi',
+    actors: [{ name: 'Gérard Depardieu' }],
+    coverUrl: '/movies_pictures/036676_af.jpg',
+    releaseDate: '1999-01-30',
+    length: 105,
+    genre: 'Comedy',
+    saga: 'Astérix',
+  },
+  {
     title: 'Astérix & Obélix : Mission Cléopâtre',
     director: 'Alain Chabat',
     actors: [{ name: 'Gérard Depardieu' }],
@@ -641,7 +651,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1998-05-20',
     length: 139,
     genre: 'Action',
-    saga: 'Godzilla',
+    saga: 'MonsterVerse',
   },
   {
     title: 'Mon voisin le tueur',

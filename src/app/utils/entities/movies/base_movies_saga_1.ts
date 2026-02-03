@@ -219,7 +219,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     actors: [
       {
         name: 'Vin Diesel',
-      }
+      },
     ],
     coverUrl:
       '/movies_pictures/46813-the-fast-and-the-furious-0-150-0-225-crop.jpg',
@@ -524,14 +524,23 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     saga: 'Spy Kids',
   },
   {
-    title: "Spy Kids 2: L'île des rêves perdus",
+    title: 'Spy Kids 2 : Espions en herbe',
     director: 'Robert Rodriguez',
-    actors: [{ name: 'Alexa Vega' }],
-    coverUrl:
-      '/movies_pictures/47110-spy-kids-2-island-of-lost-dreams-0-150-0-225-crop.jpg',
-    releaseDate: '2002-08-07',
+    actors: [
+      {
+        name: 'Antonio Banderas',
+      },
+      {
+        name: 'Carla Gugino',
+      },
+      {
+        name: 'Alexa Vega',
+      },
+    ],
+    coverUrl: '/movies_pictures/spy_kids_2_the_island_of_lost_dreams.jpg',
+    releaseDate: '2003-01-01',
     length: 100,
-    genre: 'Adventure',
+    genre: 'Action',
     saga: 'Spy Kids',
   },
   {
@@ -1009,10 +1018,19 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: "Transformers 4 : L'Âge de l'Extinction",
     director: 'Michael Bay',
-    actors: [{ name: 'Mark Wahlberg' }],
-    coverUrl:
-      '/movies_pictures/76504-transformers-age-of-extinction-0-150-0-225-crop.jpg',
-    releaseDate: '2014-06-27',
+    actors: [
+      {
+        name: 'Mark Wahlberg',
+      },
+      {
+        name: 'Nicola Peltz',
+      },
+      {
+        name: 'Jack Reynor',
+      },
+    ],
+    coverUrl: '/movies_pictures/transformers_age_of_extinction.jpg',
+    releaseDate: '2014-07-16',
     length: 165,
     genre: 'Action',
     saga: 'Transformers',

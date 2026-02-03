@@ -502,7 +502,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
   },
   {
-    title: "Spy Kids 2: L'île des rêves perdus",
+    title: 'Spy Kids 2 : Espions en herbe',
     director: 'Robert Rodriguez',
     rating: 3,
     timesWatched: 10,

@@ -176,11 +176,18 @@ export const baseMoviesAnimated2: BaseMovie[] = [
   {
     title: 'Mon voisin Totoro',
     director: 'Hayao Miyazaki',
-    actors: [{ name: 'Noriko Hidaka' }, { name: 'Chika Sakamoto' }],
-    coverUrl: '/movies_pictures/5068927.webp',
-    releaseDate: '1988-04-16',
-    length: 86,
-    genre: 'Animation, Fantasy',
+    actors: [
+      {
+        name: 'Noriko Hidaka',
+      },
+      {
+        name: 'Chika Sakamoto',
+      },
+    ],
+    coverUrl: '/movies_pictures/my_neighbor_totoro.jpg',
+    releaseDate: '2002-08-28',
+    length: 87,
+    genre: 'Animation',
     saga: 'Ghibli',
   },
   {

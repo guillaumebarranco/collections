@@ -22,7 +22,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
   },
   {
-    title: 'Dragons 3: Le monde perdu',
+    title: 'Dragons 3 : Le Monde caché',
     director: 'Dean DeBlois',
     rating: 3.5,
     timesWatched: 1,
@@ -884,7 +884,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
   },
   {
-    title: 'One Piece: Red',
+    title: 'One Piece Film: Red',
     director: 'Gorō Taniguchi',
     rating: 4.25,
     timesWatched: 1,

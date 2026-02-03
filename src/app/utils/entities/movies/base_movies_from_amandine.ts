@@ -480,16 +480,6 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
   },
   {
-    title: 'Jumanji : Bienvenue dans la jungle',
-    director: 'Jake Kasdan',
-    actors: [{ name: 'Dwayne Johnson' }, { name: 'Kevin Hart' }],
-    coverUrl: '/movies_pictures/0517792.jpg',
-    releaseDate: '2017-12-20',
-    length: 119,
-    genre: 'Adventure, Comedy',
-    saga: 'Jumanji',
-  },
-  {
     title: 'Paddington 2',
     director: 'Paul King',
     actors: [{ name: 'Ben Whishaw' }, { name: 'Hugh Grant' }],
@@ -540,16 +530,6 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 123,
     genre: 'Fantasy, Action',
     saga: '',
-  },
-  {
-    title: 'Le Livre de la jungle',
-    director: 'Jon Favreau',
-    actors: [{ name: 'Neel Sethi' }, { name: 'Bill Murray' }],
-    coverUrl: '/movies_pictures/538779.jpg',
-    releaseDate: '2016-04-15',
-    length: 106,
-    genre: 'Adventure, Fantasy',
-    saga: 'Disney Live Action',
   },
 
   {
@@ -1484,16 +1464,6 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 138,
     genre: 'Action, Thriller',
     saga: '',
-  },
-  {
-    title: 'Le Monde perdu : Jurassic Park',
-    director: 'Steven Spielberg',
-    actors: [{ name: 'Jeff Goldblum' }, { name: 'Julianne Moore' }],
-    coverUrl: '/movies_pictures/affiche (2).jpg',
-    releaseDate: '1997-05-23',
-    length: 129,
-    genre: 'Action, Adventure',
-    saga: 'Jurassic',
   },
   {
     title: 'Austin Powers',

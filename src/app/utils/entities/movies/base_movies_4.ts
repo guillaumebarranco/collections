@@ -639,16 +639,6 @@ export const baseMoviesPage4: BaseMovie[] = [
     saga: '',
   },
   {
-    title: 'Harold et Kumar vont au White Castle',
-    director: 'Danny Leiner',
-    actors: [{ name: 'John Cho' }],
-    coverUrl: '/movies_pictures/harold_et_kumar_au_white_castle.jpg',
-    releaseDate: '2004-07-30',
-    length: 88,
-    genre: 'Comedy',
-    saga: '',
-  },
-  {
     title: "Le Joyeux Noël d'Harold et Kumar",
     director: 'Todd Strauss-Schulson',
     actors: [{ name: 'John Cho' }],
@@ -656,7 +646,7 @@ export const baseMoviesPage4: BaseMovie[] = [
     releaseDate: '2011-11-04',
     length: 90,
     genre: 'Comedy',
-    saga: '',
+    saga: 'Harold & Kumar',
   },
   {
     title: 'Amour et turbulences',
