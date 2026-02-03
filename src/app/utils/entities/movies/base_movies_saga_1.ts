@@ -1120,7 +1120,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Die Hard 4 : Retour en Enfer',
     director: 'Len Wiseman',
-    actors: [{ name: 'Bruce Willis' }],
+    actors: [{ name: 'Bruce Willis' }, { name: 'Justin Long' }],
     coverUrl:
       '/movies_pictures/50963-live-free-or-die-hard-0-150-0-225-crop.jpg',
     releaseDate: '2007-06-27',

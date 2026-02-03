@@ -181,6 +181,9 @@ export const baseMoviesPage1: BaseMovie[] = [
       {
         name: 'Brad Pitt',
       },
+      {
+        name: 'Margot Robbie',
+      }
     ],
     coverUrl: '/movies_pictures/542773-babylon-0-150-0-225-crop.jpg',
     releaseDate: '2022-12-23',
@@ -239,6 +242,12 @@ export const baseMoviesPage1: BaseMovie[] = [
       {
         name: 'Brad Pitt',
       },
+      {
+        name: 'Joey King',
+      },
+      {
+        name: 'Aaron Taylor-Johnson',
+      }
     ],
     coverUrl: '/movies_pictures/641961-bullet-train-0-150-0-225-crop.jpg',
     releaseDate: '2022-08-05',
@@ -310,6 +319,27 @@ export const baseMoviesPage1: BaseMovie[] = [
       {
         name: 'Leonardo DiCaprio',
       },
+      {
+        name: 'Jennifer Lawrence',
+      },
+      {
+        name: 'Cate Blanchett',
+      },
+      {
+        name: 'Ariana Grande',
+      },
+      {
+        name: 'Timothée Chalamet',
+      },
+      {
+        name: 'Meryl Streep',
+      },
+      {
+        name: 'Chris Evans',
+      },
+      {
+        name: 'Jonah Hill',
+      }
     ],
     coverUrl: '/movies_pictures/572255-don-t-look-up-0-150-0-225-crop.jpg',
     releaseDate: '2021-12-24',
@@ -324,6 +354,12 @@ export const baseMoviesPage1: BaseMovie[] = [
       {
         name: 'Dwayne Johnson',
       },
+      {
+        name: 'Gal Gadot',
+      },
+      {
+        name: 'Ryan Reynolds',
+      }
     ],
     coverUrl: '/movies_pictures/441858-red-notice-0-150-0-225-crop.jpg',
     releaseDate: '2021-11-12',
@@ -511,7 +547,14 @@ export const baseMoviesPage1: BaseMovie[] = [
   {
     title: 'Snatch',
     director: 'Guy Ritchie',
-    actors: [{ name: 'Jason Statham' }],
+    actors: [
+      {
+        name: 'Jason Statham',
+      },
+      {
+        name: 'Brad Pitt',
+      }
+    ],
     coverUrl: '/movies_pictures/snatch.jpg',
     releaseDate: '2000-09-01',
     length: 104,
@@ -571,7 +614,7 @@ export const baseMoviesPage1: BaseMovie[] = [
   {
     title: 'La carte qui mène à toi',
     director: 'Lasse Hallström',
-    actors: [{ name: 'Acteur principal' }],
+    actors: [{ name: 'Madelyn Cline' }],
     coverUrl: '/movies_pictures/1254072.webp',
     releaseDate: '2024-01-01',
     length: 100,
@@ -742,7 +785,7 @@ export const baseMoviesPage1: BaseMovie[] = [
   {
     title: 'Maintenance Required',
     director: 'Lacey Uhlemeyer',
-    actors: [{ name: 'Acteur principal' }],
+    actors: [{ name: 'Madelaine Petsch' }],
     coverUrl:
       '/movies_pictures/MV5BNGZlN2Y5ZGEtMmU0MS00ZWI0L_FMjpg_UX1000_.jpg',
     releaseDate: '2024-01-01',
@@ -827,7 +870,17 @@ export const baseMoviesPage1: BaseMovie[] = [
   {
     title: 'DodgeBall: Même pas mal',
     director: 'Rawson Marshall Thurber',
-    actors: [{ name: 'Vince Vaughn' }],
+    actors: [
+      {
+        name: 'Vince Vaughn',
+      },
+      {
+        name: 'Ben Stiller',
+      },
+      {
+        name: 'Justin Long',
+      },
+    ],
     coverUrl: '/movies_pictures/dodgeball.jpg',
     releaseDate: '2004-06-18',
     length: 92,
@@ -857,7 +910,14 @@ export const baseMoviesPage1: BaseMovie[] = [
   {
     title: 'The Day After Tomorrow',
     director: 'Roland Emmerich',
-    actors: [{ name: 'Dennis Quaid' }],
+    actors: [
+      {
+        name: 'Dennis Quaid',
+      },
+      {
+        name: 'Jake Gyllenhaal',
+      },
+    ],
     coverUrl: '/movies_pictures/le_jour_d_apres.jpg',
     releaseDate: '2004-05-28',
     length: 124,
@@ -867,7 +927,14 @@ export const baseMoviesPage1: BaseMovie[] = [
   {
     title: 'Van Helsing',
     director: 'Stephen Sommers',
-    actors: [{ name: 'Hugh Jackman' }],
+    actors: [
+      {
+        name: 'Hugh Jackman',
+      },
+      {
+        name: 'Kate Beckinsale',
+      },
+    ],
     coverUrl: '/movies_pictures/48113-van-helsing-0-150-0-225-crop.jpg',
     releaseDate: '2004-05-07',
     length: 131,
@@ -968,7 +1035,14 @@ export const baseMoviesPage1: BaseMovie[] = [
   {
     title: 'Bruce tout-puissant',
     director: 'Tom Shadyac',
-    actors: [{ name: 'Jim Carrey' }],
+    actors: [
+      {
+        name: 'Jim Carrey',
+      },
+      {
+        name: 'Morgan Freeman',
+      },
+    ],
     coverUrl: '/movies_pictures/51749-bruce-almighty-0-150-0-225-crop.jpg',
     releaseDate: '2003-05-23',
     length: 101,
@@ -988,7 +1062,14 @@ export const baseMoviesPage1: BaseMovie[] = [
   {
     title: 'En sursis',
     director: 'Andrzej Bartkowiak',
-    actors: [{ name: 'Jet Li' }],
+    actors: [
+      {
+        name: 'Jet Li',
+      },
+      {
+        name: 'DMX',
+      },
+    ],
     coverUrl: '/movies_pictures/46051-cradle-2-the-grave-0-150-0-225-crop.jpg',
     releaseDate: '2003-02-28',
     length: 101,
@@ -998,7 +1079,14 @@ export const baseMoviesPage1: BaseMovie[] = [
   {
     title: 'La Beuze',
     director: 'Éric Rochant',
-    actors: [{ name: 'Vincent Lindon' }],
+    actors: [
+      {
+        name: 'Vincent Lindon',
+      },
+      {
+        name: 'Michael Youn',
+      },
+    ],
     coverUrl: '/movies_pictures/la_beuze.jpg',
     releaseDate: '2003-02-05',
     length: 95,
