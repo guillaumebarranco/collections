@@ -4893,16 +4893,6 @@ export const ronanMovies: UserMovies = [
     owned: false,
   },
   {
-    title: 'Escape Plan',
-    director: 'Mikael Håfström',
-    rating: 2,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-  },
-  {
     title: 'Star Trek Into Darkness',
     director: 'J.J. Abrams',
     rating: 3.5,

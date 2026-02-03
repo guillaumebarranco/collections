@@ -6168,26 +6168,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
   },
   {
-    title: 'Escape Plan',
-    director: 'Mikael Håfström',
-    actors: [
-      {
-        name: 'Sylvester Stallone',
-      },
-      {
-        name: 'Arnold Schwarzenegger',
-      },
-      {
-        name: 'Jim Caviezel',
-      },
-    ],
-    coverUrl: '/movies_pictures/escape_plan.jpg',
-    releaseDate: '2013-11-13',
-    length: 115,
-    genre: 'Action',
-    saga: '',
-  },
-  {
     title: 'Copains pour toujours 2',
     director: 'Dennis Dugan',
     actors: [

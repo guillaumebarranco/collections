@@ -773,16 +773,6 @@ export const guillaumeMoviesPage4: UserMovies = [
     owned: false,
   },
   {
-    title: 'The Net',
-    director: 'Irwin Winkler',
-    rating: 3.25,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-  },
-  {
     title: 'Waterworld',
     director: 'Kevin Reynolds',
     rating: 3,

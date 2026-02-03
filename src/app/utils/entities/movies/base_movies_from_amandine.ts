@@ -616,16 +616,6 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
   },
 
   {
-    title: 'Gatsby le Magnifique',
-    director: 'Baz Luhrmann',
-    actors: [{ name: 'Leonardo DiCaprio' }, { name: 'Carey Mulligan' }],
-    coverUrl: '/movies_pictures/20531934.webp',
-    releaseDate: '2013-05-10',
-    length: 143,
-    genre: 'Drama, Romance',
-    saga: '',
-  },
-  {
     title: "Le Monde fantastique d'Oz",
     director: 'Sam Raimi',
     actors: [{ name: 'James Franco' }, { name: 'Mila Kunis' }],
@@ -1003,16 +993,6 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2004-12-17',
     length: 108,
     genre: 'Adventure, Family',
-    saga: '',
-  },
-  {
-    title: 'Benjamin Gates et le Trésor des Templiers',
-    director: 'Jon Turteltaub',
-    actors: [{ name: 'Nicolas Cage' }, { name: 'Diane Kruger' }],
-    coverUrl: '/movies_pictures/18396799.jpg',
-    releaseDate: '2004-11-19',
-    length: 131,
-    genre: 'Adventure, Action',
     saga: '',
   },
 

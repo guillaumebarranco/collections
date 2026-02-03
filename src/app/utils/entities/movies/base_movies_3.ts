@@ -779,16 +779,6 @@ export const baseMoviesPage3: BaseMovie[] = [
     saga: '',
   },
   {
-    title: 'The Net',
-    director: 'Irwin Winkler',
-    actors: [{ name: 'Sandra Bullock' }],
-    coverUrl: '/movies_pictures/50900-the-net-0-150-0-225-crop.jpg',
-    releaseDate: '1995-07-28',
-    length: 114,
-    genre: 'Thriller',
-    saga: '',
-  },
-  {
     title: 'Waterworld',
     director: 'Kevin Reynolds',
     actors: [{ name: 'Kevin Costner' }],

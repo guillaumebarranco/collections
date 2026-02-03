@@ -701,4 +701,15 @@ export const guillaumeMoviesPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
   },
+
+  {
+    title: 'Nobody',
+    director: 'Ilya Naishuller',
+    rating: 4.25,
+    timesWatched: 1,
+    firstViewedDate: '2026-02-01',
+    lastViewedDate: '2026-02-01',
+    seenAtCinema: false,
+    owned: false,
+  },
 ];

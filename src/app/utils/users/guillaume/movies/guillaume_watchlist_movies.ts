@@ -342,16 +342,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     owned: false,
   },
   {
-    title: 'Nobody',
-    director: 'Ilya Naishuller',
-    rating: 0,
-    timesWatched: 0,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-  },
-  {
     title: 'Seul sur Mars',
     director: 'Ridley Scott',
     rating: 0,
@@ -430,8 +420,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
-  }
-,
+  },
   {
     title: 'Les Nouveaux Mutants',
     director: 'Josh Boone',
@@ -442,7 +431,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
   },
-
   {
     title: 'Ballerina',
     director: 'Len Wiseman',
@@ -452,5 +440,5 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
-  },
+  }
 ];

@@ -454,11 +454,18 @@ export const baseMoviesAnimated2: BaseMovie[] = [
   {
     title: 'Les Noces funèbres',
     director: 'Tim Burton, Mike Johnson',
-    actors: [{ name: 'Johnny Depp' }, { name: 'Helena Bonham Carter' }],
-    coverUrl: '/movies_pictures/18449288.jpg',
-    releaseDate: '2005-09-16',
-    length: 77,
-    genre: 'Animation, Fantasy',
+    actors: [
+      {
+        name: 'Johnny Depp',
+      },
+      {
+        name: 'Helena Bonham Carter',
+      },
+    ],
+    coverUrl: '/movies_pictures/corpse_bride.jpg',
+    releaseDate: '2005-10-19',
+    length: 76,
+    genre: 'Animation',
     saga: '',
   },
   {

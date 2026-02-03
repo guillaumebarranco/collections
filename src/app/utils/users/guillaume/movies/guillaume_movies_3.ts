@@ -22,6 +22,16 @@ export const guillaumeMoviesPage3: UserMovies = [
     owned: false,
   },
   {
+    title: 'Mon beau-père et moi',
+    director: 'Jay Roach',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+  },
+  {
     title: "The Hitman's Bodyguard",
     director: 'Patrick Hughes',
     rating: 3,

@@ -199,10 +199,10 @@ export const getMoviesByActor = ({
   const groups = Array.from(actorMap.entries()).map(([actor, seenMovies]) => {
     const missing = isAdminView
       ? []
-      : getSortedMovies([...(baseByActor.get(actor) ?? [])], selectedSort);
+      : getSortedMovies([...(baseByActor.get(actor) ?? [])], 'releaseDate-asc');
     return {
       actor,
-      seenMovies,
+      seenMovies: getSortedMovies(seenMovies, 'releaseDate-asc'),
       missingMovies: missing,
     };
   });
@@ -260,11 +260,11 @@ export const getMoviesByDirector = ({
         ? []
         : getSortedMovies(
             [...(baseByDirector.get(director) ?? [])],
-            selectedSort
+            'releaseDate-asc'
           );
       return {
         director,
-        seenMovies,
+        seenMovies: getSortedMovies(seenMovies, 'releaseDate-asc'),
         missingMovies: missing,
       };
     }
