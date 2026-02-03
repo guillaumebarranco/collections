@@ -2156,7 +2156,7 @@ export const ronanCinemaMovies: UserMovies = [
     title: 'Raiponce',
     director: 'Byron Howard, Nathan Greno',
     rating: 4,
-    timesWatched: 1,
+    timesWatched: 5,
     firstViewedDate: '2010-12-01',
     lastViewedDate: '2010-12-01',
     seenAtCinema: true,

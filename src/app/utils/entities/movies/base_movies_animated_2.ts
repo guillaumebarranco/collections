@@ -558,12 +558,22 @@ export const baseMoviesAnimated2: BaseMovie[] = [
   },
   {
     title: 'Raiponce',
-    director: 'Nathan Greno, Byron Howard',
-    actors: [{ name: 'Mandy Moore' }, { name: 'Zachary Levi' }],
-    coverUrl: '/movies_pictures/19539636.jpg',
-    releaseDate: '2010-11-24',
-    length: 100,
-    genre: 'Animation, Fantasy',
+    director: 'Byron Howard, Nathan Greno',
+    actors: [
+      {
+        name: 'Anne Hathaway',
+      },
+      {
+        name: 'Jim Sturgess',
+      },
+      {
+        name: 'Patricia Clarkson',
+      },
+    ],
+    coverUrl: '/movies_pictures/tangled.jpg',
+    releaseDate: '2010-12-01',
+    length: 101,
+    genre: 'Animation',
     saga: 'Disney Classique',
   },
   {

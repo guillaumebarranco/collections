@@ -2512,16 +2512,6 @@ export const ronanMovies: UserMovies = [
     owned: true,
   },
   {
-    title: 'Raiponce',
-    director: 'Nathan Greno, Byron Howard',
-    rating: 4,
-    timesWatched: 5,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-  },
-  {
     title: 'Ratatouille',
     director: 'Brad Bird',
     rating: 4,

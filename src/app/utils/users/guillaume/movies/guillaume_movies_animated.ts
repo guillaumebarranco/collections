@@ -323,7 +323,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
   },
   {
     title: 'Raiponce',
-    director: 'Nathan Greno, Byron Howard',
+    director: 'Byron Howard, Nathan Greno',
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '2016-04-16',

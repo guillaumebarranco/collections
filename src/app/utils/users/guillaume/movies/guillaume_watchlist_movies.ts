@@ -42,7 +42,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     owned: false,
   },
   {
-    title: "Le Crime de l'Orient-Express",
+    title: 'Le Crime de l\'Orient-Express',
     director: 'Kenneth Branagh',
     rating: 0,
     timesWatched: 0,
@@ -82,7 +82,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     owned: false,
   },
   {
-    title: "L'Étrange Histoire de Benjamin Button",
+    title: 'L\'Étrange Histoire de Benjamin Button',
     director: 'David Fincher',
     rating: 0,
     timesWatched: 0,
@@ -132,7 +132,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     owned: false,
   },
   {
-    title: "Atlantis : L'Empire perdu",
+    title: 'Atlantis : L\'Empire perdu',
     director: 'Gary Trousdale, Kirk Wise',
     rating: 0,
     timesWatched: 0,
@@ -242,7 +242,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     owned: false,
   },
   {
-    title: "L'amour au présent",
+    title: 'L\'amour au présent',
     director: 'John Crowley',
     rating: 0,
     timesWatched: 0,
@@ -381,9 +381,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
   },
-
   {
-    title: "À tous les garçons que j'ai aimés",
+    title: 'À tous les garçons que j\'ai aimés',
     director: 'Susan Johnson',
     rating: 0,
     timesWatched: 0,
@@ -392,7 +391,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
   },
-
   {
     title: 'Avatar : De feu et de cendres',
     director: 'James Cameron',
@@ -403,7 +401,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
   },
-
   {
     title: 'Le Robot sauvage',
     director: 'Chris Sanders',
@@ -414,18 +411,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
   },
-
-  {
-    title: 'Raiponce',
-    director: 'Byron Howard, Nathan Greno',
-    rating: 0,
-    timesWatched: 0,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-  },
-
   {
     title: 'Running Man',
     director: 'Edgar Wright',
@@ -436,7 +421,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
   },
-
   {
     title: 'The Whale',
     director: 'Darren Aronofsky',
@@ -446,5 +430,5 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
-  },
+  }
 ];

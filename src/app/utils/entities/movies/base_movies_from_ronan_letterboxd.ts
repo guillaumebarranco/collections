@@ -7177,26 +7177,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Comédie',
     saga: '',
   },
-  {
-    title: 'Raiponce',
-    director: 'Byron Howard, Nathan Greno',
-    actors: [
-      {
-        name: 'Anne Hathaway',
-      },
-      {
-        name: 'Jim Sturgess',
-      },
-      {
-        name: 'Patricia Clarkson',
-      },
-    ],
-    coverUrl: '/movies_pictures/tangled.jpg',
-    releaseDate: '2010-12-01',
-    length: 101,
-    genre: 'Animation',
-    saga: 'Disney Classique',
-  },
+
   {
     title: 'Saw 3D : Chapitre final',
     director: 'Kevin Greutert',

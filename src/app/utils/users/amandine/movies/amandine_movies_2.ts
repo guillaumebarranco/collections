@@ -883,7 +883,7 @@ export const amandineMovies2: UserMovies = [
   },
   {
     title: 'Raiponce',
-    director: 'Nathan Greno, Byron Howard',
+    director: 'Byron Howard, Nathan Greno',
     rating: 0,
     timesWatched: 15,
     firstViewedDate: '',

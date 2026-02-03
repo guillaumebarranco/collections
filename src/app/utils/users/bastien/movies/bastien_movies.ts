@@ -1674,16 +1674,6 @@ export const bastienMovies: UserMovies = [
     owned: false,
   },
   {
-    title: 'Raiponce',
-    director: 'Nathan Greno, Byron Howard',
-    rating: 3.5,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-  },
-  {
     title: "L'Apprenti sorcier",
     director: 'Jon Turteltaub',
     rating: 2.5,
