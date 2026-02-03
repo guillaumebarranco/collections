@@ -1,0 +1,38 @@
+<div class="dialog-header">
+  @if(!isDialogMode()) {
+  <button (click)="navigateToEntityList.emit()" class="back-link">
+    Retour aux {{ getBackLinkText() }}
+  </button>
+  } @else {
+  <button
+    type="button"
+    class="dialog-close"
+    aria-label="Fermer"
+    (click)="navigateToEntityList.emit()"
+  >
+    ✕
+  </button>
+  @if(hasDialogNavigation()) {
+  <div class="dialog-nav">
+    <button
+      type="button"
+      class="dialog-nav-btn"
+      aria-label="Élément précédent"
+      [disabled]="!canNavigatePrevious()"
+      (click)="navigatePrevious.emit()"
+    >
+      ←
+    </button>
+    <span class="dialog-nav-count">{{ dialogPositionLabel() }}</span>
+    <button
+      type="button"
+      class="dialog-nav-btn"
+      aria-label="Élément suivant"
+      [disabled]="!canNavigateNext()"
+      (click)="navigateNext.emit()"
+    >
+      →
+    </button>
+  </div>
+  } }
+</div>

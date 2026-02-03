@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Router } from '@angular/router';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { Game } from '../../../models/game-model';
-import { Quizz, QuizzEntityType } from '../../../models/quizz-model';
+import { Quizz, EntityType } from '../../../models/quizz-model';
 import { EditGameComponent } from '../../../containers/edit/edit-game/edit-game.component';
 import { EntityCardComponent } from '../../entity-card/entity-card.component';
 import { AuthService } from '../../../core/auth.service';
@@ -109,7 +109,7 @@ export class GameComponent {
   getEntityQuizzs(): Quizz[] {
     return this.quizzs.filter(
       (quizz) =>
-        quizz.entityType === QuizzEntityType.GAME &&
+        quizz.entityType === EntityType.GAME &&
         matchesQuizzEntityTitle(this.game.title, quizz.entityTitle)
     );
   }

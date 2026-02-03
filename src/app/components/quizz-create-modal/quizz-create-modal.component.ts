@@ -2,16 +2,12 @@ import { CommonModule } from '@angular/common';
 import { Component, inject, signal, computed } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
-import {
-  Quizz,
-  QuizzEntityType,
-  QuizzQuestion,
-} from '../../models/quizz-model';
+import { Quizz, EntityType, QuizzQuestion } from '../../models/quizz-model';
 import { createQuizz } from '../../facades/quizzs/quizzs.facade';
 
 type QuizzCreateData = {
   entityTitle: string;
-  entityType: QuizzEntityType;
+  entityType: EntityType;
   creator: string;
 };
 

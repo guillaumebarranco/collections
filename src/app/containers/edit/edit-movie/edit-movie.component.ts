@@ -9,12 +9,16 @@ import {
 } from '@angular/router';
 import { Movie } from '../../../models/movie-model';
 import { getMoviesByUser } from '../../../facades/movies/movies.facade';
-import { MAT_DIALOG_DATA, MatDialog, MatDialogRef } from '@angular/material/dialog';
+import {
+  MAT_DIALOG_DATA,
+  MatDialog,
+  MatDialogRef,
+} from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
 import { AuthService } from '../../../core/auth.service';
 import { QuizzCreateModalComponent } from '../../../components/quizz-create-modal/quizz-create-modal.component';
-import { QuizzEntityType } from '../../../models/quizz-model';
+import { EntityType } from '../../../models/quizz-model';
 
 type EditMovieForm = {
   rating: number;
@@ -160,7 +164,9 @@ export class EditMovieComponent {
     let nextValue: EditMovieEntityForm[K] = value as EditMovieEntityForm[K];
     if (field === 'length') {
       const asNumber = Number(value);
-      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditMovieEntityForm[K];
+      nextValue = (
+        Number.isNaN(asNumber) ? 0 : asNumber
+      ) as EditMovieEntityForm[K];
     }
     this.movieEntityForm.set({
       ...current,
@@ -289,7 +295,7 @@ export class EditMovieComponent {
     if (!this.canEditCurrentUser()) return;
     if (this.isTitleModified() && this.isSecondaryModified()) {
       alert(
-        "Merci de modifier soit le titre, soit le réalisateur, pas les deux en même temps."
+        'Merci de modifier soit le titre, soit le réalisateur, pas les deux en même temps.'
       );
       return;
     }
@@ -332,7 +338,7 @@ export class EditMovieComponent {
     this.dialog.open(QuizzCreateModalComponent, {
       data: {
         entityTitle: movie.title,
-        entityType: QuizzEntityType.MOVIE,
+        entityType: EntityType.MOVIE,
         creator: this.getQuizzCreator(),
       },
       width: '720px',
@@ -441,7 +447,9 @@ export class EditMovieComponent {
   }
 
   private canEditCurrentUser(): boolean {
-    return this.isAdminView() || this.authService.canEdit(this.getCurrentUserId());
+    return (
+      this.isAdminView() || this.authService.canEdit(this.getCurrentUserId())
+    );
   }
 
   private getAdminUserId(): string {

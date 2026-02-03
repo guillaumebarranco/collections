@@ -4,6 +4,7 @@ import {
   Component,
   ViewEncapsulation,
 } from '@angular/core';
+import { isBaseEntityView } from '../../core/config';
 
 @Component({
   selector: 'app-entity-card',
@@ -14,4 +15,6 @@ import {
   changeDetection: ChangeDetectionStrategy.OnPush,
   encapsulation: ViewEncapsulation.None,
 })
-export class EntityCardComponent {}
+export class EntityCardComponent {
+  isBaseEntityView = isBaseEntityView();
+}

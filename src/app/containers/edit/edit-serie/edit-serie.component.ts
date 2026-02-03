@@ -13,12 +13,16 @@ import {
   UserSerieSeason,
 } from '../../../models/serie-model';
 import { getSeriesByUser } from '../../../facades/series/series.facade';
-import { MAT_DIALOG_DATA, MatDialog, MatDialogRef } from '@angular/material/dialog';
+import {
+  MAT_DIALOG_DATA,
+  MatDialog,
+  MatDialogRef,
+} from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
 import { AuthService } from '../../../core/auth.service';
 import { QuizzCreateModalComponent } from '../../../components/quizz-create-modal/quizz-create-modal.component';
-import { QuizzEntityType } from '../../../models/quizz-model';
+import { EntityType } from '../../../models/quizz-model';
 
 type EditSerieForm = {
   seasons: UserSerieSeason[];
@@ -224,7 +228,7 @@ export class EditSerieComponent {
     if (!this.canEditCurrentUser()) return;
     if (this.isTitleModified() && this.isSecondaryModified()) {
       alert(
-        "Merci de modifier soit le titre, soit le réalisateur, pas les deux en même temps."
+        'Merci de modifier soit le titre, soit le réalisateur, pas les deux en même temps.'
       );
       return;
     }
@@ -267,7 +271,7 @@ export class EditSerieComponent {
     this.dialog.open(QuizzCreateModalComponent, {
       data: {
         entityTitle: serie.title,
-        entityType: QuizzEntityType.SERIE,
+        entityType: EntityType.SERIE,
         creator: this.getQuizzCreator(),
       },
       width: '720px',
@@ -431,8 +435,8 @@ export class EditSerieComponent {
               field === 'lastViewedDate'
                 ? String(value)
                 : Number.isNaN(Number(value))
-                  ? 0
-                  : Number(value),
+                ? 0
+                : Number(value),
           }
         : season
     );
@@ -448,7 +452,11 @@ export class EditSerieComponent {
     if (!target) return;
     const half = target.clientWidth / 2;
     const nextValue = event.offsetX < half ? star - 0.5 : star;
-    this.updateSeasonField(seasonNumber, 'seasonRating', Math.max(0, nextValue));
+    this.updateSeasonField(
+      seasonNumber,
+      'seasonRating',
+      Math.max(0, nextValue)
+    );
   }
 
   getStarType(rating: number, star: number): 'full' | 'half' | 'empty' {
@@ -488,7 +496,9 @@ export class EditSerieComponent {
   }
 
   private canEditCurrentUser(): boolean {
-    return this.isAdminView() || this.authService.canEdit(this.getCurrentUserId());
+    return (
+      this.isAdminView() || this.authService.canEdit(this.getCurrentUserId())
+    );
   }
 
   private getAdminUserId(): string {

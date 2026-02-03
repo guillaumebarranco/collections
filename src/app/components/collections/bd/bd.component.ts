@@ -12,7 +12,7 @@ import { ActivatedRoute } from '@angular/router';
 import { EntityCardComponent } from '../../entity-card/entity-card.component';
 import { AuthService } from '../../../core/auth.service';
 import { Bd } from '../../../models/bd-model';
-import { Quizz, QuizzEntityType } from '../../../models/quizz-model';
+import { Quizz, EntityType } from '../../../models/quizz-model';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
 import { isBaseEntityView } from '../../../core/config';
 
@@ -67,7 +67,7 @@ export class BdComponent {
   getEntityQuizzs(): Quizz[] {
     return this.quizzs.filter(
       (quizz) =>
-        quizz.entityType === QuizzEntityType.BD &&
+        quizz.entityType === EntityType.BD &&
         matchesQuizzEntityTitle(this.bd.title, quizz.entityTitle)
     );
   }

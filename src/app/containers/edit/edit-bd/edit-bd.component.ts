@@ -9,12 +9,16 @@ import {
 } from '@angular/router';
 import { Bd } from '../../../models/bd-model';
 import { getBdsByUser } from '../../../facades/bds/bds.facade';
-import { MAT_DIALOG_DATA, MatDialog, MatDialogRef } from '@angular/material/dialog';
+import {
+  MAT_DIALOG_DATA,
+  MatDialog,
+  MatDialogRef,
+} from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
 import { AuthService } from '../../../core/auth.service';
 import { QuizzCreateModalComponent } from '../../../components/quizz-create-modal/quizz-create-modal.component';
-import { QuizzEntityType } from '../../../models/quizz-model';
+import { EntityType } from '../../../models/quizz-model';
 
 type EditBdForm = {
   rating: number;
@@ -158,7 +162,9 @@ export class EditBdComponent {
     let nextValue: EditBdEntityForm[K] = value as EditBdEntityForm[K];
     if (field !== 'genre' && field !== 'writer' && field !== 'coverUrl') {
       const asNumber = Number(value);
-      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditBdEntityForm[K];
+      nextValue = (
+        Number.isNaN(asNumber) ? 0 : asNumber
+      ) as EditBdEntityForm[K];
     }
     this.bdEntityForm.set({
       ...current,
@@ -294,7 +300,7 @@ export class EditBdComponent {
     if (!this.canEditCurrentUser()) return;
     if (this.isTitleModified() && this.isSecondaryModified()) {
       alert(
-        "Merci de modifier soit le titre, soit le scénariste, pas les deux en même temps."
+        'Merci de modifier soit le titre, soit le scénariste, pas les deux en même temps.'
       );
       return;
     }
@@ -337,7 +343,7 @@ export class EditBdComponent {
     this.dialog.open(QuizzCreateModalComponent, {
       data: {
         entityTitle: bd.title,
-        entityType: QuizzEntityType.BD,
+        entityType: EntityType.BD,
         creator: this.getQuizzCreator(),
       },
       width: '720px',
@@ -436,7 +442,9 @@ export class EditBdComponent {
   }
 
   private canEditCurrentUser(): boolean {
-    return this.isAdminView() || this.authService.canEdit(this.getCurrentUserId());
+    return (
+      this.isAdminView() || this.authService.canEdit(this.getCurrentUserId())
+    );
   }
 
   private getAdminUserId(): string {

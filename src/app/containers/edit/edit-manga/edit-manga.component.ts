@@ -9,12 +9,16 @@ import {
 } from '@angular/router';
 import { Manga } from '../../../models/manga-model';
 import { getMangasByUser } from '../../../facades/mangas/mangas.facade';
-import { MAT_DIALOG_DATA, MatDialog, MatDialogRef } from '@angular/material/dialog';
+import {
+  MAT_DIALOG_DATA,
+  MatDialog,
+  MatDialogRef,
+} from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
 import { AuthService } from '../../../core/auth.service';
 import { QuizzCreateModalComponent } from '../../../components/quizz-create-modal/quizz-create-modal.component';
-import { QuizzEntityType } from '../../../models/quizz-model';
+import { EntityType } from '../../../models/quizz-model';
 
 type EditMangaForm = {
   rating: number;
@@ -157,7 +161,9 @@ export class EditMangaComponent {
     let nextValue: EditMangaEntityForm[K] = value as EditMangaEntityForm[K];
     if (field !== 'genre' && field !== 'coverUrl') {
       const asNumber = Number(value);
-      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditMangaEntityForm[K];
+      nextValue = (
+        Number.isNaN(asNumber) ? 0 : asNumber
+      ) as EditMangaEntityForm[K];
     }
     this.mangaEntityForm.set({
       ...current,
@@ -336,7 +342,7 @@ export class EditMangaComponent {
     this.dialog.open(QuizzCreateModalComponent, {
       data: {
         entityTitle: manga.title,
-        entityType: QuizzEntityType.MANGA,
+        entityType: EntityType.MANGA,
         creator: this.getQuizzCreator(),
       },
       width: '720px',
@@ -433,7 +439,9 @@ export class EditMangaComponent {
   }
 
   private canEditCurrentUser(): boolean {
-    return this.isAdminView() || this.authService.canEdit(this.getCurrentUserId());
+    return (
+      this.isAdminView() || this.authService.canEdit(this.getCurrentUserId())
+    );
   }
 
   private getAdminUserId(): string {

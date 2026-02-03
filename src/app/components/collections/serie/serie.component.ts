@@ -12,7 +12,7 @@ import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Router } from '@angular/router';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { Serie } from '../../../models/serie-model';
-import { Quizz, QuizzEntityType } from '../../../models/quizz-model';
+import { Quizz, EntityType } from '../../../models/quizz-model';
 import { EditSerieComponent } from '../../../containers/edit/edit-serie/edit-serie.component';
 import { EditSerieSeasonsComponent } from '../../../containers/edit/edit-serie-seasons/edit-serie-seasons.component';
 import { EntityCardComponent } from '../../entity-card/entity-card.component';
@@ -134,7 +134,7 @@ export class SerieComponent {
   getEntityQuizzs(): Quizz[] {
     return this.quizzs.filter(
       (quizz) =>
-        quizz.entityType === QuizzEntityType.SERIE &&
+        quizz.entityType === EntityType.SERIE &&
         matchesQuizzEntityTitle(this.serie.title, quizz.entityTitle)
     );
   }

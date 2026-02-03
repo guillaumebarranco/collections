@@ -1,4 +1,4 @@
-export enum QuizzEntityType {
+export enum EntityType {
   MOVIE = 'movie',
   SERIE = 'serie',
   BOOK = 'book',
@@ -19,7 +19,7 @@ export interface QuizzQuestion {
 
 export interface Quizz {
   creator: string;
-  entityType: QuizzEntityType;
+  entityType: EntityType;
   entityTitle: string;
   level: number;
   questions: QuizzQuestion[];

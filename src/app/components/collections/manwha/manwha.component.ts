@@ -12,7 +12,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { EntityCardComponent } from '../../entity-card/entity-card.component';
 import { AuthService } from '../../../core/auth.service';
 import { Manwha } from '../../../models/manwha-model';
-import { Quizz, QuizzEntityType } from '../../../models/quizz-model';
+import { Quizz, EntityType } from '../../../models/quizz-model';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
 import { isBaseEntityView } from '../../../core/config';
 
@@ -70,7 +70,7 @@ export class ManwhaComponent {
   getEntityQuizzs(): Quizz[] {
     return this.quizzs.filter(
       (quizz) =>
-        quizz.entityType === QuizzEntityType.MANWHA &&
+        quizz.entityType === EntityType.MANWHA &&
         matchesQuizzEntityTitle(this.manwha.title, quizz.entityTitle)
     );
   }

@@ -1,9 +1,9 @@
-import { Quizz, QuizzEntityType } from '../../models/quizz-model';
+import { Quizz, EntityType } from '../../models/quizz-model';
 
 export const quizzsGuillaume: Quizz[] = [
   {
     creator: 'Guillaume',
-    entityType: QuizzEntityType.MANGA,
+    entityType: EntityType.MANGA,
     entityTitle: 'One Piece',
     level: 1,
     questions: [
@@ -25,7 +25,7 @@ export const quizzsGuillaume: Quizz[] = [
   },
   {
     creator: 'guillaume',
-    entityType: QuizzEntityType.MANGA,
+    entityType: EntityType.MANGA,
     entityTitle: 'Kenshin le Vagabond',
     level: 2,
     questions: [
@@ -40,7 +40,7 @@ export const quizzsGuillaume: Quizz[] = [
   },
   {
     creator: 'guillaume',
-    entityType: QuizzEntityType.MANGA,
+    entityType: EntityType.MANGA,
     entityTitle: 'Death Note',
     level: 1,
     questions: [

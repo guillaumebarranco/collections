@@ -1,42 +1,16 @@
 <app-edit-entity class="edit-entity--light">
-  <div class="dialog-header">
-    @if(!isDialogMode()) {
-    <button (click)="navigateToBooks()" class="back-link">
-      Retour aux livres
-    </button>
-    } @else {
-    <button
-      type="button"
-      class="dialog-close"
-      aria-label="Fermer"
-      (click)="navigateToBooks()"
-    >
-      ✕
-    </button>
-    @if(hasDialogNavigation()) {
-    <div class="dialog-nav">
-      <button
-        type="button"
-        class="dialog-nav-btn"
-        aria-label="Élément précédent"
-        [disabled]="!canNavigatePrevious()"
-        (click)="navigatePrevious()"
-      >
-        ←
-      </button>
-      <span class="dialog-nav-count">{{ dialogPositionLabel() }}</span>
-      <button
-        type="button"
-        class="dialog-nav-btn"
-        aria-label="Élément suivant"
-        [disabled]="!canNavigateNext()"
-        (click)="navigateNext()"
-      >
-        →
-      </button>
-    </div>
-    } }
-  </div>
+  <app-edit-entity-header
+    [entity]="EntityType.BOOK"
+    [dialogRef]="dialogRef"
+    [canNavigatePrevious]="canNavigatePrevious()"
+    [canNavigateNext]="canNavigateNext()"
+    [dialogPositionLabel]="dialogPositionLabel()"
+    [hasDialogNavigation]="hasDialogNavigation()"
+    (navigateToEntityList)="navigateToBooks()"
+    (navigatePrevious)="navigatePrevious()"
+    (navigateNext)="navigateNext()"
+  ></app-edit-entity-header>
+
   @if (!isAdminView()) {
   <div class="header-actions">
     <button type="button" class="submit-btn" (click)="openCreateQuizz()">
@@ -94,9 +68,7 @@
         name="adminAuthor"
       />
     </div>
-    }
-
-    @if (!isAdminView()) {
+    } @if (!isAdminView()) {
     <div class="form-row">
       <label>Note</label>
       <div class="rating-control">
@@ -158,9 +130,7 @@
         name="owned"
       />
     </div>
-    }
-
-    @if (isAdminView() && bookEntityForm()) {
+    } @if (isAdminView() && bookEntityForm()) {
     <div class="form-row">
       <label for="entityPages">Pages</label>
       <input

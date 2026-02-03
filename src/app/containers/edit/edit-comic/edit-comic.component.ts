@@ -9,12 +9,16 @@ import {
 } from '@angular/router';
 import { Comic } from '../../../models/comic-model';
 import { getComicsByUser } from '../../../facades/comics/comics.facade';
-import { MAT_DIALOG_DATA, MatDialog, MatDialogRef } from '@angular/material/dialog';
+import {
+  MAT_DIALOG_DATA,
+  MatDialog,
+  MatDialogRef,
+} from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
 import { AuthService } from '../../../core/auth.service';
 import { QuizzCreateModalComponent } from '../../../components/quizz-create-modal/quizz-create-modal.component';
-import { QuizzEntityType } from '../../../models/quizz-model';
+import { EntityType } from '../../../models/quizz-model';
 
 type EditComicForm = {
   rating: number;
@@ -285,7 +289,7 @@ export class EditComicComponent {
     if (!this.canEditCurrentUser()) return;
     if (this.isTitleModified() && this.isSecondaryModified()) {
       alert(
-        "Merci de modifier soit le titre, soit le scénariste, pas les deux en même temps."
+        'Merci de modifier soit le titre, soit le scénariste, pas les deux en même temps.'
       );
       return;
     }
@@ -328,7 +332,7 @@ export class EditComicComponent {
     this.dialog.open(QuizzCreateModalComponent, {
       data: {
         entityTitle: comic.title,
-        entityType: QuizzEntityType.COMIC,
+        entityType: EntityType.COMIC,
         creator: this.getQuizzCreator(),
       },
       width: '720px',
@@ -423,7 +427,9 @@ export class EditComicComponent {
   }
 
   private canEditCurrentUser(): boolean {
-    return this.isAdminView() || this.authService.canEdit(this.getCurrentUserId());
+    return (
+      this.isAdminView() || this.authService.canEdit(this.getCurrentUserId())
+    );
   }
 
   private getAdminUserId(): string {

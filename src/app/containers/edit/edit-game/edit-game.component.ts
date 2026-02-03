@@ -9,12 +9,16 @@ import {
 } from '@angular/router';
 import { Game } from '../../../models/game-model';
 import { getGamesByUser } from '../../../facades/games/games.facade';
-import { MAT_DIALOG_DATA, MatDialog, MatDialogRef } from '@angular/material/dialog';
+import {
+  MAT_DIALOG_DATA,
+  MatDialog,
+  MatDialogRef,
+} from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
 import { AuthService } from '../../../core/auth.service';
 import { QuizzCreateModalComponent } from '../../../components/quizz-create-modal/quizz-create-modal.component';
-import { QuizzEntityType } from '../../../models/quizz-model';
+import { EntityType } from '../../../models/quizz-model';
 
 type EditGameForm = {
   rating: number;
@@ -171,7 +175,9 @@ export class EditGameComponent {
       field === 'platineTime'
     ) {
       const asNumber = Number(value);
-      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditGameEntityForm[K];
+      nextValue = (
+        Number.isNaN(asNumber) ? 0 : asNumber
+      ) as EditGameEntityForm[K];
     }
     this.gameEntityForm.set({
       ...current,
@@ -342,7 +348,7 @@ export class EditGameComponent {
     this.dialog.open(QuizzCreateModalComponent, {
       data: {
         entityTitle: game.title,
-        entityType: QuizzEntityType.GAME,
+        entityType: EntityType.GAME,
         creator: this.getQuizzCreator(),
       },
       width: '720px',
@@ -447,7 +453,9 @@ export class EditGameComponent {
   }
 
   private canEditCurrentUser(): boolean {
-    return this.isAdminView() || this.authService.canEdit(this.getCurrentUserId());
+    return (
+      this.isAdminView() || this.authService.canEdit(this.getCurrentUserId())
+    );
   }
 
   private getAdminUserId(): string {

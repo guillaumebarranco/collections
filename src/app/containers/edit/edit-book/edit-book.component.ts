@@ -9,12 +9,17 @@ import {
 } from '@angular/router';
 import { Book } from '../../../models/book-model';
 import { getBooksByUser } from '../../../facades/books/books.facade';
-import { MAT_DIALOG_DATA, MatDialog, MatDialogRef } from '@angular/material/dialog';
+import {
+  MAT_DIALOG_DATA,
+  MatDialog,
+  MatDialogRef,
+} from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
 import { AuthService } from '../../../core/auth.service';
 import { QuizzCreateModalComponent } from '../../../components/quizz-create-modal/quizz-create-modal.component';
-import { QuizzEntityType } from '../../../models/quizz-model';
+import { EntityType } from '../../../models/quizz-model';
+import { EditEntityHeaderComponent } from '../../../components/edit-entity-header/edit-entity-header.component';
 
 type EditBookForm = {
   rating: number;
@@ -45,7 +50,13 @@ const DEFAULT_USER_ID = 'guillaume';
 @Component({
   selector: 'app-edit-book',
   standalone: true,
-  imports: [CommonModule, FormsModule, RouterModule, EditEntityComponent],
+  imports: [
+    CommonModule,
+    FormsModule,
+    RouterModule,
+    EditEntityComponent,
+    EditEntityHeaderComponent,
+  ],
   templateUrl: './edit-book.component.html',
   styleUrls: ['./edit-book.component.scss'],
 })
@@ -53,7 +64,7 @@ export class EditBookComponent {
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
   private readonly dialog = inject(MatDialog);
-  private readonly dialogRef = inject(MatDialogRef<EditBookComponent>, {
+  readonly dialogRef = inject(MatDialogRef<EditBookComponent>, {
     optional: true,
   });
   private readonly authService = inject(AuthService);
@@ -63,6 +74,8 @@ export class EditBookComponent {
       optional: true,
     }
   );
+
+  public EntityType = EntityType;
 
   readonly book = signal<Book | null>(null);
   readonly adminTitle = signal<string>('');
@@ -159,7 +172,9 @@ export class EditBookComponent {
     let nextValue: EditBookEntityForm[K] = value as EditBookEntityForm[K];
     if (field !== 'genre' && field !== 'saga' && field !== 'coverUrl') {
       const asNumber = Number(value);
-      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditBookEntityForm[K];
+      nextValue = (
+        Number.isNaN(asNumber) ? 0 : asNumber
+      ) as EditBookEntityForm[K];
     }
     this.bookEntityForm.set({
       ...current,
@@ -338,7 +353,7 @@ export class EditBookComponent {
     this.dialog.open(QuizzCreateModalComponent, {
       data: {
         entityTitle: book.title,
-        entityType: QuizzEntityType.BOOK,
+        entityType: EntityType.BOOK,
         creator: this.getQuizzCreator(),
       },
       width: '720px',
@@ -439,7 +454,9 @@ export class EditBookComponent {
   }
 
   private canEditCurrentUser(): boolean {
-    return this.isAdminView() || this.authService.canEdit(this.getCurrentUserId());
+    return (
+      this.isAdminView() || this.authService.canEdit(this.getCurrentUserId())
+    );
   }
 
   private getAdminUserId(): string {

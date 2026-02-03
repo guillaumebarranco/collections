@@ -9,12 +9,16 @@ import {
 } from '@angular/router';
 import { Manwha } from '../../../models/manwha-model';
 import { getManwhasByUser } from '../../../facades/manwhas/manwhas.facade';
-import { MAT_DIALOG_DATA, MatDialog, MatDialogRef } from '@angular/material/dialog';
+import {
+  MAT_DIALOG_DATA,
+  MatDialog,
+  MatDialogRef,
+} from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
 import { AuthService } from '../../../core/auth.service';
 import { QuizzCreateModalComponent } from '../../../components/quizz-create-modal/quizz-create-modal.component';
-import { QuizzEntityType } from '../../../models/quizz-model';
+import { EntityType } from '../../../models/quizz-model';
 
 type EditManwhaForm = {
   rating: number;
@@ -160,7 +164,9 @@ export class EditManwhaComponent {
     let nextValue: EditManwhaEntityForm[K] = value as EditManwhaEntityForm[K];
     if (field !== 'genre' && field !== 'coverUrl') {
       const asNumber = Number(value);
-      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditManwhaEntityForm[K];
+      nextValue = (
+        Number.isNaN(asNumber) ? 0 : asNumber
+      ) as EditManwhaEntityForm[K];
     }
     this.manwhaEntityForm.set({
       ...current,
@@ -339,7 +345,7 @@ export class EditManwhaComponent {
     this.dialog.open(QuizzCreateModalComponent, {
       data: {
         entityTitle: manwha.title,
-        entityType: QuizzEntityType.MANWHA,
+        entityType: EntityType.MANWHA,
         creator: this.getQuizzCreator(),
       },
       width: '720px',
@@ -436,7 +442,9 @@ export class EditManwhaComponent {
   }
 
   private canEditCurrentUser(): boolean {
-    return this.isAdminView() || this.authService.canEdit(this.getCurrentUserId());
+    return (
+      this.isAdminView() || this.authService.canEdit(this.getCurrentUserId())
+    );
   }
 
   private getAdminUserId(): string {

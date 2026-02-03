@@ -10,7 +10,7 @@ import {
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Movie } from '../../../models/movie-model';
-import { Quizz, QuizzEntityType } from '../../../models/quizz-model';
+import { Quizz, EntityType } from '../../../models/quizz-model';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditMovieComponent } from '../../../containers/edit/edit-movie/edit-movie.component';
 import { EntityCardComponent } from '../../entity-card/entity-card.component';
@@ -95,7 +95,7 @@ export class MovieComponent {
   getEntityQuizzs(): Quizz[] {
     return this.quizzs.filter(
       (quizz) =>
-        quizz.entityType === QuizzEntityType.MOVIE &&
+        quizz.entityType === EntityType.MOVIE &&
         matchesQuizzEntityTitle(this.movie.title, quizz.entityTitle)
     );
   }
