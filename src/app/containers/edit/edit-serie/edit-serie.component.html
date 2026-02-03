@@ -37,16 +37,19 @@
     </div>
     } }
   </div>
+  @if (!isAdminView()) {
   <div class="header-actions">
     <button type="button" class="submit-btn" (click)="openCreateQuizz()">
       Créer un quizz
     </button>
   </div>
+  }
   <h1 class="title">&#201;diter une s&#233;rie</h1>
 
   @if(serieNotFound()) {
   <p class="not-found">Aucune s&#233;rie trouv&#233;e pour ce slug.</p>
   } @else {
+  @if (!isAdminView()) {
   <img [src]="serie()?.coverUrl" alt="Cover" width="200" />
   <div>{{ serie()?.title }}</div>
   <div class="entity-details">
@@ -62,6 +65,7 @@
     }
   </div>
   <br />
+  }
 
   <form *ngIf="serieForm()" class="edit-form" (ngSubmit)="onSubmit()">
     @if (isAdminView()) {

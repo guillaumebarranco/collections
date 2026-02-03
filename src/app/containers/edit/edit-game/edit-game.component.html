@@ -37,11 +37,13 @@
     </div>
     } }
   </div>
+  @if (!isAdminView()) {
   <div class="header-actions">
     <button type="button" class="submit-btn" (click)="openCreateQuizz()">
       Créer un quizz
     </button>
   </div>
+  }
   <h1 class="title">Editer un jeu</h1>
 
   @if(gameNotFound()) {
