@@ -357,11 +357,11 @@ export class MoviesComponent implements OnInit {
             ? []
             : getSortedMovies(
                 [...(baseBySaga.get(saga) ?? [])],
-                this.selectedSort()
+                'releaseDate-asc'
               );
         return {
           saga,
-          seenMovies,
+          seenMovies: getSortedMovies(seenMovies, 'releaseDate-asc'),
           missingMovies: missing,
         };
       }

@@ -132,6 +132,16 @@ export const guillaumeMoviesDc: UserMovies = [
     owned: false,
   },
   {
+    title: 'Justice League',
+    director: 'Zack Snyder',
+    rating: 3,
+    timesWatched: 2,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: true,
+    owned: false,
+  },
+  {
     title: "Zack Snyder's Justice League",
     director: 'Zack Snyder',
     rating: 3.75,
