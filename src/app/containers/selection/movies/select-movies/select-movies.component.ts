@@ -52,6 +52,9 @@ export class SelectMoviesComponent
 
   // Tous les films de tous les utilisateurs, filtrés si mode watchlist ou ajout
   allMovies = computed<Movie[]>(() => {
+    if (this.isCinemaMode()) {
+      return this.userMovies();
+    }
     const allMoviesList = this.allMoviesMergedList();
 
     if (!this.isWatchOrReadlistMode()) {
@@ -128,6 +131,14 @@ export class SelectMoviesComponent
     this.userMovies.set(movies);
     this.watchlistMovies.set(watchlist);
     this.allMoviesMergedList.set(allMovies);
+    if (this.isCinemaMode()) {
+      const selected = new Set(
+        movies
+          .filter((movie) => movie.seenAtCinema === true)
+          .map((movie) => this.getMovieKey(movie))
+      );
+      this.selectedMovies.set(selected);
+    }
   }
 
   private async getAllMoviesForSelection(userId: string): Promise<Movie[]> {
@@ -144,6 +155,10 @@ export class SelectMoviesComponent
   }
 
   protected async addSelectedMovies(): Promise<void> {
+    if (this.isCinemaMode()) {
+      await this.updateCinemaSelection();
+      return;
+    }
     const selectedMoviesList = this.allMovies()
       .filter((movie) => this.isSelected(movie))
       .map((movie) => {
@@ -188,6 +203,42 @@ export class SelectMoviesComponent
       this.router.navigate([`${this.userId()}/movies`]);
     } catch (error) {
       console.warn("Erreur réseau lors de l'ajout batch des films.", error);
+    }
+  }
+
+  private async updateCinemaSelection(): Promise<void> {
+    const selected = this.selectedMovies();
+    const movies = this.userMovies().map((movie) => ({
+      title: movie.title,
+      director: movie.director,
+      seenAtCinema: selected.has(this.getMovieKey(movie)),
+    }));
+
+    if (movies.length === 0) return;
+
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/movies/batch-cinema`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.userId(),
+          movies,
+        }),
+      });
+
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        console.warn('movies:batch-cinema:error', payload);
+        alert('La mise à jour des films vus au cinema a échoué.');
+        return;
+      }
+
+      this.navigateToEntityList('movies');
+    } catch (error) {
+      console.warn('movies:batch-cinema:error', error);
+      alert('La mise à jour des films vus au cinema a échoué.');
     }
   }
 }

@@ -2,9 +2,7 @@
 
 <div class="movies-container">
   <h1>
-    @if (isAdminView()) {
-    Films ({{ filteredMoviesByYear().length }})
-    } @else {
+    @if (isAdminView()) { Films ({{ filteredMoviesByYear().length }}) } @else {
     {{
       selectedView() === "watchlist"
         ? "Films à voir"
@@ -16,8 +14,7 @@
         ? "Films possédés"
         : "Films visionnés"
     }}
-    ({{ filteredMoviesByYear().length }})
-    }
+    ({{ filteredMoviesByYear().length }}) }
   </h1>
 
   @if(allMovies().length !== 0) {
@@ -33,7 +30,6 @@
 
     <div class="movies-actions">
       @if (!isAdminView()) {
-      @if(selectedView() !== 'cinema') {
       <button
         class="btn btn-small"
         type="button"
@@ -45,17 +41,22 @@
       <button
         class="btn btn-small"
         [routerLink]="getSelectMoviesRoute()"
-        [queryParams]="{ watchlist: selectedView() === 'watchlist' }"
+        [queryParams]="{
+          watchlist: selectedView() === 'watchlist',
+          cinema: selectedView() === 'cinema'
+        }"
         title="Ajouter un film"
       >
         ➕
         {{
           selectedView() === "watchlist"
             ? "Ajouter des films à voir"
+            : selectedView() === "cinema"
+            ? "Modifier mes films vus au cinema"
             : "Ajouter des films vus"
         }}
       </button>
-      }
+
       <button
         class="btn btn-small"
         [routerLink]="getSelectMoviesRatingRoute()"
@@ -116,7 +117,8 @@
 
     <div class="movies-filters">
       <!-- Dropdown de filtre d'années -->
-      @if(!isAdminView() && (selectedView() === 'watched' || selectedView() === 'cinema')) {
+      @if(!isAdminView() && (selectedView() === 'watched' || selectedView() ===
+      'cinema')) {
       <div class="movies-filters-item">
         <p>Filtrer par année :</p>
         <select
@@ -166,18 +168,27 @@
       Ajouter des films à ma watchlist
     </button>
   </div>
-  }
-
-  @if(selectedView() === 'sagas') {
+  } @if(selectedView() === 'sagas') {
   <div class="movies-by-saga">
     @for (sagaGroup of moviesBySaga(); track sagaGroup.saga) {
     <section class="movies-saga-section">
       <h2 class="movies-saga-title">
-        {{ sagaGroup.saga }} ({{ sagaGroup.movies.length }})
+        <button
+          type="button"
+          class="movies-saga-toggle"
+          [attr.aria-expanded]="!isSagaCollapsed(sagaGroup.saga)"
+          (click)="toggleSaga(sagaGroup.saga)"
+        >
+          <span class="movies-saga-toggle-icon">
+            {{ isSagaCollapsed(sagaGroup.saga) ? "▶" : "▼" }}
+          </span>
+          {{ sagaGroup.saga }} ({{ sagaGroup.movies.length }})
+        </button>
       </h2>
+      @if (!isSagaCollapsed(sagaGroup.saga)) {
       <div class="movies">
-        @for (movie of sagaGroup.movies; track `${movie.title}-${movie.releaseDate}`;
-        let i = $index) {
+        @for (movie of sagaGroup.movies; track
+        `${movie.title}-${movie.releaseDate}`; let i = $index) {
         <div class="movie-card">
           <app-movie
             [movie]="movie"
@@ -190,6 +201,7 @@
         </div>
         }
       </div>
+      }
     </section>
     }
   </div>
@@ -232,9 +244,7 @@
       <button class="movies-config-close" (click)="closeViewConfig()">✕</button>
     </div>
     <div class="movies-config-body">
-      <p class="movies-config-subtitle">
-        Choisissez les onglets à afficher.
-      </p>
+      <p class="movies-config-subtitle">Choisissez les onglets à afficher.</p>
       <label class="movies-config-option">
         <input
           type="checkbox"

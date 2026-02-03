@@ -303,12 +303,13 @@ export class MoviesComponent implements OnInit {
     const sagaMap = new Map<string, Movie[]>();
     for (const movie of this.sortedMovies()) {
       const sagaName = movie.saga?.trim();
-      if (!sagaName) {
+      if (!sagaName && !this.isAdminView()) {
         continue;
       }
-      const list = sagaMap.get(sagaName) ?? [];
+      const sagaKey = sagaName || 'Sans saga';
+      const list = sagaMap.get(sagaKey) ?? [];
       list.push(movie);
-      sagaMap.set(sagaName, list);
+      sagaMap.set(sagaKey, list);
     }
 
     const sagaGroups = Array.from(sagaMap.entries()).map(([saga, movies]) => ({
@@ -325,6 +326,8 @@ export class MoviesComponent implements OnInit {
 
     return sagaGroups;
   });
+
+  collapsedSagas = signal<Record<string, boolean>>({});
 
   stats = computed<StatItem[]>(() => {
     if (this.isAdminView()) {
@@ -471,6 +474,17 @@ export class MoviesComponent implements OnInit {
 
   onSearchChange(value: string) {
     this.searchTerm.set(value);
+  }
+
+  toggleSaga(saga: string) {
+    this.collapsedSagas.update((current) => ({
+      ...current,
+      [saga]: !current[saga],
+    }));
+  }
+
+  isSagaCollapsed(saga: string): boolean {
+    return Boolean(this.collapsedSagas()[saga]);
   }
 
   openQuizzModal(quizzs: Quizz[]) {

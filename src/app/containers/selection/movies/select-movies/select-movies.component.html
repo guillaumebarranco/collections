@@ -4,14 +4,23 @@
   <div class="header" select-header>
     <h1>
       {{
-        isWatchOrReadlistMode()
+        isCinemaMode()
+          ? "Modifier mes films vus au cinema"
+          : isWatchOrReadlistMode()
           ? "Sélectionner des films pour ma watchlist"
           : "Ajouter des films vus"
       }}
     </h1>
 
     <div class="selection-description">
-      @if(!isWatchOrReadlistMode()) {
+      @if(isCinemaMode()) {
+      <p>
+        Bonjour {{ username() }} <br /><br />
+        Ici tu peux sélectionner les films que tu as vus au cinema.
+        <br /><br />
+        Les films déjà vus au cinema sont pré-cochés.
+      </p>
+      } @else if(!isWatchOrReadlistMode()) {
       <p>
         Bonjour {{ username() }} <br /><br />
         Ici tu peux ajouter des films que tu as vu. La liste ci-dessous affiche
@@ -80,7 +89,9 @@
         [disabled]="selectedCount() === 0"
       >
         {{
-          isWatchOrReadlistMode()
+          isCinemaMode()
+            ? "Modifier mes films vus au cinema"
+            : isWatchOrReadlistMode()
             ? "Ajouter à mes films à voir"
             : "Ajouter à mes films vus"
         }}
