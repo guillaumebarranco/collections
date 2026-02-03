@@ -1,6 +1,13 @@
 import { Movie } from '../../../models/movie-model';
 
-export type MovieView = 'watched' | 'cinema' | 'watchlist' | 'owned' | 'sagas';
+export type MovieView =
+  | 'watched'
+  | 'cinema'
+  | 'watchlist'
+  | 'owned'
+  | 'sagas'
+  | 'actors'
+  | 'directors';
 export type OptionalMovieView = Exclude<MovieView, 'watched' | 'watchlist'>;
 
 export const allYearsSince2000 = [
@@ -30,6 +37,8 @@ export const movieViewOptions: { value: MovieView; label: string }[] = [
   { value: 'watchlist', label: 'Films à voir' },
   { value: 'owned', label: 'Films possédés' },
   { value: 'sagas', label: 'Voir les sagas' },
+  { value: 'actors', label: 'Voir les acteurs' },
+  { value: 'directors', label: 'Voir les réalisateurs' },
 ];
 
 export const yearFilterOptions: { value: string; label: string }[] = [
@@ -126,4 +135,147 @@ export const getSortedMovies = (
     default:
       return movies.sort((a, b) => a.title.localeCompare(b.title));
   }
+};
+
+export type MoviesByActorGroup = {
+  actor: string;
+  seenMovies: Movie[];
+  missingMovies: Movie[];
+};
+
+export type MoviesByDirectorGroup = {
+  director: string;
+  seenMovies: Movie[];
+  missingMovies: Movie[];
+};
+
+const getMovieIdentityKey = (movie: Movie): string => {
+  return `${movie.title}|${movie.director}`;
+};
+
+export const getMoviesByActor = ({
+  sortedMovies,
+  allMovies,
+  baseMovies,
+  selectedSort,
+  isAdminView,
+}: {
+  sortedMovies: Movie[];
+  allMovies: Movie[];
+  baseMovies: Movie[];
+  selectedSort: string;
+  isAdminView: boolean;
+}): MoviesByActorGroup[] => {
+  const actorMap = new Map<string, Movie[]>();
+  for (const movie of sortedMovies) {
+    const actors =
+      movie.actors?.map((actor) => actor.name).filter(Boolean) || [];
+    if (actors.length === 0) continue;
+    for (const actorName of actors) {
+      const list = actorMap.get(actorName) ?? [];
+      list.push(movie);
+      actorMap.set(actorName, list);
+    }
+  }
+
+  const seenKeys = new Set(
+    allMovies.map((movie) => getMovieIdentityKey(movie))
+  );
+  const baseByActor = new Map<string, Movie[]>();
+  for (const movie of baseMovies) {
+    if (seenKeys.has(getMovieIdentityKey(movie))) continue;
+    const actors =
+      movie.actors?.map((actor) => actor.name).filter(Boolean) || [];
+    if (actors.length === 0) continue;
+    for (const actorName of actors) {
+      const list = baseByActor.get(actorName) ?? [];
+      list.push(movie);
+      baseByActor.set(actorName, list);
+    }
+  }
+
+  const groups = Array.from(actorMap.entries()).map(([actor, seenMovies]) => {
+    const missing = isAdminView
+      ? []
+      : getSortedMovies([...(baseByActor.get(actor) ?? [])], selectedSort);
+    return {
+      actor,
+      seenMovies,
+      missingMovies: missing,
+    };
+  });
+
+  groups.sort((a, b) => {
+    const countA = a.seenMovies.length + a.missingMovies.length;
+    const countB = b.seenMovies.length + b.missingMovies.length;
+    if (countB !== countA) {
+      return countB - countA;
+    }
+    return a.actor.localeCompare(b.actor);
+  });
+
+  return groups;
+};
+
+export const getMoviesByDirector = ({
+  sortedMovies,
+  allMovies,
+  baseMovies,
+  selectedSort,
+  isAdminView,
+}: {
+  sortedMovies: Movie[];
+  allMovies: Movie[];
+  baseMovies: Movie[];
+  selectedSort: string;
+  isAdminView: boolean;
+}): MoviesByDirectorGroup[] => {
+  const directorMap = new Map<string, Movie[]>();
+  for (const movie of sortedMovies) {
+    const directorName = movie.director?.trim();
+    if (!directorName) continue;
+    const list = directorMap.get(directorName) ?? [];
+    list.push(movie);
+    directorMap.set(directorName, list);
+  }
+
+  const seenKeys = new Set(
+    allMovies.map((movie) => getMovieIdentityKey(movie))
+  );
+  const baseByDirector = new Map<string, Movie[]>();
+  for (const movie of baseMovies) {
+    if (seenKeys.has(getMovieIdentityKey(movie))) continue;
+    const directorName = movie.director?.trim();
+    if (!directorName) continue;
+    const list = baseByDirector.get(directorName) ?? [];
+    list.push(movie);
+    baseByDirector.set(directorName, list);
+  }
+
+  const groups = Array.from(directorMap.entries()).map(
+    ([director, seenMovies]) => {
+      const missing = isAdminView
+        ? []
+        : getSortedMovies(
+            [...(baseByDirector.get(director) ?? [])],
+            selectedSort
+          );
+      return {
+        director,
+        seenMovies,
+        missingMovies: missing,
+      };
+    }
+  );
+
+  groups.sort((a, b) => {
+    const countA = a.seenMovies.length + a.missingMovies.length;
+    const countB = b.seenMovies.length + b.missingMovies.length;
+    if (countB !== countA) {
+      return countB - countA;
+    }
+    return a.director.localeCompare(b.director);
+  });
+
+  return groups;
 };

@@ -44,6 +44,8 @@ import {
   OptionalMovieView,
   movieViewOptions,
   yearFilterOptions,
+  getMoviesByActor,
+  getMoviesByDirector,
 } from './movies.utils';
 
 @Component({
@@ -85,6 +87,8 @@ export class MoviesComponent implements OnInit {
     cinema: true,
     owned: true,
     sagas: true,
+    actors: false,
+    directors: false,
   });
 
   constructor() {
@@ -179,7 +183,9 @@ export class MoviesComponent implements OnInit {
       queryParams['view'] === 'watched' ||
       queryParams['view'] === 'cinema' ||
       queryParams['view'] === 'owned' ||
-      queryParams['view'] === 'sagas'
+      queryParams['view'] === 'sagas' ||
+      queryParams['view'] === 'actors' ||
+      queryParams['view'] === 'directors'
     ) {
       this.selectedView.set(queryParams['view'] as MovieView);
     }
@@ -253,7 +259,11 @@ export class MoviesComponent implements OnInit {
       movies = this.allMovies().filter((movie) => movie.seenAtCinema === true);
     } else if (this.selectedView() === 'owned') {
       movies = this.allMovies().filter((movie) => movie.owned);
-    } else if (this.selectedView() === 'sagas') {
+    } else if (
+      this.selectedView() === 'sagas' ||
+      this.selectedView() === 'actors' ||
+      this.selectedView() === 'directors'
+    ) {
       movies = this.allMovies();
     } else {
       movies = this.allMovies();
@@ -358,6 +368,8 @@ export class MoviesComponent implements OnInit {
   });
 
   collapsedSagas = signal<Record<string, boolean>>({});
+  collapsedActors = signal<Record<string, boolean>>({});
+  collapsedDirectors = signal<Record<string, boolean>>({});
 
   stats = computed<StatItem[]>(() => {
     if (this.isAdminView()) {
@@ -537,6 +549,28 @@ export class MoviesComponent implements OnInit {
     return Boolean(this.collapsedSagas()[saga]);
   }
 
+  toggleActor(actor: string) {
+    this.collapsedActors.update((current) => ({
+      ...current,
+      [actor]: !current[actor],
+    }));
+  }
+
+  isActorCollapsed(actor: string): boolean {
+    return Boolean(this.collapsedActors()[actor]);
+  }
+
+  toggleDirector(director: string) {
+    this.collapsedDirectors.update((current) => ({
+      ...current,
+      [director]: !current[director],
+    }));
+  }
+
+  isDirectorCollapsed(director: string): boolean {
+    return Boolean(this.collapsedDirectors()[director]);
+  }
+
   openQuizzModal(quizzs: Quizz[]) {
     if (!quizzs || quizzs.length === 0) return;
     this.activeQuizzs.set(quizzs);
@@ -564,6 +598,32 @@ export class MoviesComponent implements OnInit {
     const normalizedTerm = this.normalizeSearchText(term);
     return normalizedHaystack.includes(normalizedTerm);
   }
+
+  moviesByActor = computed(() => {
+    if (this.selectedView() !== 'actors') {
+      return [];
+    }
+    return getMoviesByActor({
+      sortedMovies: this.sortedMovies(),
+      allMovies: this.allMovies(),
+      baseMovies: this.baseMoviesList(),
+      selectedSort: this.selectedSort(),
+      isAdminView: this.isAdminView(),
+    });
+  });
+
+  moviesByDirector = computed(() => {
+    if (this.selectedView() !== 'directors') {
+      return [];
+    }
+    return getMoviesByDirector({
+      sortedMovies: this.sortedMovies(),
+      allMovies: this.allMovies(),
+      baseMovies: this.baseMoviesList(),
+      selectedSort: this.selectedSort(),
+      isAdminView: this.isAdminView(),
+    });
+  });
 
   private getMovieIdentityKey(movie: Movie): string {
     return `${movie.title}|${movie.director}`;
@@ -630,6 +690,8 @@ export class MoviesComponent implements OnInit {
       cinema: parsed.cinema ?? true,
       owned: parsed.owned ?? true,
       sagas: parsed.sagas ?? true,
+      actors: parsed.actors ?? false,
+      directors: parsed.directors ?? false,
     });
     this.isLoadingViewConfig = false;
   }
