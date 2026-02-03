@@ -1,6 +1,6 @@
 import { Book } from '../../../models/book-model';
 
-export type BookView = 'read' | 'readlist' | 'owned';
+export type BookView = 'read' | 'readlist' | 'owned' | 'authors';
 
 export const booksSortOptions: { value: string; label: string }[] = [
   { value: 'title', label: 'Titre (A-Z)' },
@@ -37,6 +37,7 @@ export const bookViewOptions: { value: BookView; label: string }[] = [
   { value: 'read', label: 'Livres lus' },
   { value: 'readlist', label: 'Livres à lire' },
   { value: 'owned', label: 'Livres possédés' },
+  { value: 'authors', label: 'Voir les auteurs' },
 ];
 
 export const getSortedBooks = (
@@ -108,4 +109,70 @@ export const getSortedBooks = (
         return new Date(b.readDate).getTime() - new Date(a.readDate).getTime();
       });
   }
+};
+
+export type BooksByAuthorGroup = {
+  author: string;
+  seenBooks: Book[];
+  missingBooks: Book[];
+};
+
+const getBookIdentityKey = (book: Book): string => {
+  return `${book.title}|${book.author}`;
+};
+
+export const getBooksByAuthor = ({
+  sortedBooks,
+  allBooks,
+  baseBooks,
+  selectedSort,
+  isAdminView,
+}: {
+  sortedBooks: Book[];
+  allBooks: Book[];
+  baseBooks: Book[];
+  selectedSort: string;
+  isAdminView: boolean;
+}): BooksByAuthorGroup[] => {
+  const authorMap = new Map<string, Book[]>();
+  for (const book of sortedBooks) {
+    const authorName = book.author?.trim();
+    if (!authorName) continue;
+    const list = authorMap.get(authorName) ?? [];
+    list.push(book);
+    authorMap.set(authorName, list);
+  }
+
+  const seenKeys = new Set(allBooks.map((book) => getBookIdentityKey(book)));
+  const baseByAuthor = new Map<string, Book[]>();
+  for (const book of baseBooks) {
+    if (seenKeys.has(getBookIdentityKey(book))) continue;
+    const authorName = book.author?.trim();
+    if (!authorName) continue;
+    const list = baseByAuthor.get(authorName) ?? [];
+    list.push(book);
+    baseByAuthor.set(authorName, list);
+  }
+
+  const groups = Array.from(authorMap.entries()).map(([author, seenBooks]) => {
+    const missing = isAdminView
+      ? []
+      : getSortedBooks([...(baseByAuthor.get(author) ?? [])], selectedSort);
+    return {
+      author,
+      seenBooks,
+      missingBooks: missing,
+    };
+  });
+
+  groups.sort((a, b) => {
+    const countA = a.seenBooks.length + a.missingBooks.length;
+    const countB = b.seenBooks.length + b.missingBooks.length;
+    if (countB !== countA) {
+      return countB - countA;
+    }
+    return a.author.localeCompare(b.author);
+  });
+
+  return groups;
 };

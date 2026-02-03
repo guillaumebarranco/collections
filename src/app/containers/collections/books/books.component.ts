@@ -30,6 +30,7 @@ import {
   BookView,
   bookViewOptions,
   booksSortOptions,
+  getBooksByAuthor,
   getSortedBooks,
   groupByOptions,
   yearFilterOptions,
@@ -101,6 +102,7 @@ export class BooksComponent implements OnInit {
   booksList = signal<{ [key: string]: Book[] }>({});
   readlistBooksList = signal<{ [key: string]: Book[] }>({});
   adminBooksList = signal<Book[]>([]);
+  baseBooksList = signal<Book[]>([]);
 
   constructor() {
     // Synchroniser les changements de filtres/tri avec l'URL
@@ -200,16 +202,35 @@ export class BooksComponent implements OnInit {
         owned: false,
       }));
       this.adminBooksList.set(books);
+      this.baseBooksList.set(books);
       return;
     }
 
     const userId = this.getActiveUserId();
-    const [books, readlist] = await Promise.all([
+    const [books, readlist, baseBooks] = await Promise.all([
       getAllBooks(userId),
       getAllReadlistBooks(userId),
+      getAllBaseBooks(),
     ]);
     this.booksList.set(books);
     this.readlistBooksList.set(readlist);
+    this.baseBooksList.set(
+      baseBooks.map((book) => ({
+        title: book.title,
+        author: book.author,
+        coverUrl: book.coverUrl,
+        pages: book.pages,
+        genre: book.genre,
+        saga: book.saga,
+        sagaOrder: book.sagaOrder,
+        nbTomes: book.nbTomes,
+        isFinished: book.isFinished,
+        rating: 0,
+        readDate: '',
+        readTimes: 0,
+        owned: false,
+      }))
+    );
   }
 
   async refreshQuizzs() {
@@ -221,7 +242,8 @@ export class BooksComponent implements OnInit {
     if (
       queryParams['view'] === 'readlist' ||
       queryParams['view'] === 'read' ||
-      queryParams['view'] === 'owned'
+      queryParams['view'] === 'owned' ||
+      queryParams['view'] === 'authors'
     ) {
       this.selectedView.set(queryParams['view'] as BookView);
     }
@@ -323,6 +345,8 @@ export class BooksComponent implements OnInit {
       books = this.allReadlistBooks();
     } else if (this.selectedView() === 'owned') {
       books = this.allBooks().filter((book) => book.owned);
+    } else if (this.selectedView() === 'authors') {
+      books = this.allBooks();
     }
 
     const term = this.searchTerm().trim().toLowerCase();
@@ -376,6 +400,9 @@ export class BooksComponent implements OnInit {
   );
 
   groupedBooks = computed(() => {
+    if (this.selectedView() === 'authors') {
+      return null;
+    }
     if (this.selectedGroupBy() === 'none') {
       return null;
     }
@@ -466,11 +493,27 @@ export class BooksComponent implements OnInit {
 
   onViewChange(view: BookView) {
     this.selectedView.set(view);
+    if (view === 'authors') {
+      this.selectedGroupBy.set('none');
+    }
   }
 
   onSearchChange(value: string) {
     this.searchTerm.set(value);
   }
+
+  booksByAuthor = computed(() => {
+    if (this.selectedView() !== 'authors') {
+      return [];
+    }
+    return getBooksByAuthor({
+      sortedBooks: this.sortedBooks(),
+      allBooks: this.allBooks(),
+      baseBooks: this.baseBooksList(),
+      selectedSort: this.selectedSort(),
+      isAdminView: this.isAdminView(),
+    });
+  });
 
   openQuizzModal(quizzs: Quizz[]) {
     if (!quizzs || quizzs.length === 0) return;

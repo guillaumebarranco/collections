@@ -1,5 +1,5 @@
 <app-entity-card>
-  @if (canEdit()) {
+  @if (canEdit() && !readOnly) {
   <button
     entity-edit
     type="button"
@@ -9,7 +9,7 @@
   >
     &#9998;
   </button>
-  } @if (getEntityQuizzs().length > 0) {
+  } @if (getEntityQuizzs().length > 0 && !readOnly) {
   <button
     entity-quizz
     type="button"
