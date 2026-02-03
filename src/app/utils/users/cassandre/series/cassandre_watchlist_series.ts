@@ -10,7 +10,7 @@ export const cassandreWatchListSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
   },
@@ -23,12 +23,12 @@ export const cassandreWatchListSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
   },
   {
-    title: 'Stein Gate',
+    title: 'Steins Gate',
     director: 'Inconnu',
     seasons: [
       {
@@ -36,9 +36,8 @@ export const cassandreWatchListSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
   },
 ];
-

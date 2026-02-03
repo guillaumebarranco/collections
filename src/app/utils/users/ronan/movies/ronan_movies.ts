@@ -1,8 +1,8 @@
 import { UserMovie } from '../../../../models/movie-model';
 
-export const ronanMovies: UserMovie[
+export const ronanMovies: UserMovie[] = [
   {
-    title: 'Don\'t look up, déni cosmique',
+    title: "Don't look up, déni cosmique",
     director: 'Adam McKay',
     rating: 0,
     timesWatched: 1,
@@ -72,7 +72,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'L\'Apprenti sorcier',
+    title: "L'Apprenti sorcier",
     director: 'Jon Turteltaub',
     rating: 0,
     timesWatched: 5,
@@ -122,7 +122,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: '20 ans d\'écart',
+    title: "20 ans d'écart",
     director: 'David Moreau',
     rating: 0,
     timesWatched: 1,
@@ -212,7 +212,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'À tous les garçons : P.S. Je t\'aime toujours',
+    title: "À tous les garçons : P.S. Je t'aime toujours",
     director: 'Michael Fimognari',
     rating: 0,
     timesWatched: 1,
@@ -252,7 +252,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Le Crime de l\'Orient-Express',
+    title: "Le Crime de l'Orient-Express",
     director: 'Kenneth Branagh',
     rating: 0,
     timesWatched: 1,
@@ -272,7 +272,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Le Monde fantastique d\'Oz',
+    title: "Le Monde fantastique d'Oz",
     director: 'Sam Raimi',
     rating: 0,
     timesWatched: 2,
@@ -332,7 +332,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Jennifer\'s Body',
+    title: "Jennifer's Body",
     director: 'Karyn Kusama',
     rating: 0,
     timesWatched: 1,
@@ -352,7 +352,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'L\'Étrange Histoire de Benjamin Button',
+    title: "L'Étrange Histoire de Benjamin Button",
     director: 'David Fincher',
     rating: 0,
     timesWatched: 2,
@@ -432,7 +432,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Le Prince d\'Égypte',
+    title: "Le Prince d'Égypte",
     director: 'Brenda Chapman, Steve Hickner',
     rating: 0,
     timesWatched: 10,
@@ -442,7 +442,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Le Roi Lion 2 : L\'Honneur de la tribu',
+    title: "Le Roi Lion 2 : L'Honneur de la tribu",
     director: 'Darrell Rooney, Rob LaDuca',
     rating: 0,
     timesWatched: 15,
@@ -502,7 +502,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'L\'Étrange Noël de monsieur Jack',
+    title: "L'Étrange Noël de monsieur Jack",
     director: 'Henry Selick',
     rating: 0,
     timesWatched: 1,
@@ -522,7 +522,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Edward aux mains d\'argent',
+    title: "Edward aux mains d'argent",
     director: 'Tim Burton',
     rating: 0,
     timesWatched: 1,
@@ -582,7 +582,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Le Magicien d\'Oz',
+    title: "Le Magicien d'Oz",
     director: 'Victor Fleming',
     rating: 0,
     timesWatched: 1,
@@ -602,7 +602,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'L\'Agence tous risques',
+    title: "L'Agence tous risques",
     director: 'Joe Carnahan',
     rating: 0,
     timesWatched: 1,
@@ -662,7 +662,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Les Ailes de l\'enfer',
+    title: "Les Ailes de l'enfer",
     director: 'Simon West',
     rating: 0,
     timesWatched: 1,
@@ -1623,7 +1623,7 @@ export const ronanMovies: UserMovie[
   },
   {
     title: 'Warrior',
-    director: 'Gavin O\'Connor',
+    director: "Gavin O'Connor",
     rating: 5,
     timesWatched: 5,
     firstViewedDate: '',
@@ -2202,7 +2202,7 @@ export const ronanMovies: UserMovie[
     owned: true,
   },
   {
-    title: 'Zack Snyder\'s Justice League',
+    title: "Zack Snyder's Justice League",
     director: 'Zack Snyder',
     rating: 4,
     timesWatched: 3,
@@ -2302,7 +2302,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'L\'Arnacœur',
+    title: "L'Arnacœur",
     director: 'Pascal Chaumeil',
     rating: 3.5,
     timesWatched: 3,
@@ -2322,7 +2322,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Valentine\'s Day',
+    title: "Valentine's Day",
     director: 'Garry Marshall',
     rating: 3,
     timesWatched: 3,
@@ -2683,7 +2683,8 @@ export const ronanMovies: UserMovie[
   },
   {
     title: 'Pinocchio',
-    director: 'Norman Ferguson, T. Hee, Wilfred Jackson, Jack Kinney, Hamilton Luske, Bill Roberts, Ben Sharpsteen',
+    director:
+      'Norman Ferguson, T. Hee, Wilfred Jackson, Jack Kinney, Hamilton Luske, Bill Roberts, Ben Sharpsteen',
     rating: 3,
     timesWatched: 5,
     firstViewedDate: '',
@@ -2952,7 +2953,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Ocean\'s Eleven',
+    title: "Ocean's Eleven",
     director: 'Steven Soderbergh',
     rating: 4,
     timesWatched: 10,
@@ -3892,7 +3893,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Hunger Games : La Ballade du serpent et de l\'oiseau chanteur',
+    title: "Hunger Games : La Ballade du serpent et de l'oiseau chanteur",
     director: 'Francis Lawrence',
     rating: 3.5,
     timesWatched: 1,
@@ -4002,7 +4003,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'The Three Musketeers: D\'Artagnan',
+    title: "The Three Musketeers: D'Artagnan",
     director: 'Martin Bourboulon',
     rating: 3.5,
     timesWatched: 1,
@@ -4032,7 +4033,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Past Lives – Nos vies d\'avant',
+    title: "Past Lives – Nos vies d'avant",
     director: 'Celine Song',
     rating: 3,
     timesWatched: 1,
@@ -4132,7 +4133,7 @@ export const ronanMovies: UserMovie[
     owned: true,
   },
   {
-    title: 'Jurassic World : Le Monde d\'après',
+    title: "Jurassic World : Le Monde d'après",
     director: 'Colin Trevorrow',
     rating: 3.5,
     timesWatched: 1,
@@ -5442,7 +5443,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Kuzco, l\'empereur mégalo',
+    title: "Kuzco, l'empereur mégalo",
     director: 'Mark Dindal',
     rating: 4,
     timesWatched: 1,
@@ -5702,7 +5703,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Il était une fois dans l\'Ouest',
+    title: "Il était une fois dans l'Ouest",
     director: 'Sergio Leone',
     rating: 4,
     timesWatched: 1,
@@ -6933,7 +6934,7 @@ export const ronanMovies: UserMovie[
   },
   {
     title: 'Ne coupez pas !',
-    director: 'Shin\'ichirō Ueda',
+    director: "Shin'ichirō Ueda",
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7352,7 +7353,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'L\'exorciste',
+    title: "L'exorciste",
     director: 'William Friedkin',
     rating: 4,
     timesWatched: 5,
@@ -7372,7 +7373,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'L\'effet papillon',
+    title: "L'effet papillon",
     director: 'Eric Bress, J. Mackye Gruber',
     rating: 2.5,
     timesWatched: 1,
@@ -7392,7 +7393,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'L\'Avocat du Diable',
+    title: "L'Avocat du Diable",
     director: 'Taylor Hackford',
     rating: 3,
     timesWatched: 1,
@@ -7422,7 +7423,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Le Diable s\'Habille en Prada',
+    title: "Le Diable s'Habille en Prada",
     director: 'David Frankel',
     rating: 3,
     timesWatched: 1,
@@ -7442,7 +7443,8 @@ export const ronanMovies: UserMovie[
     owned: true,
   },
   {
-    title: 'Le Monde de Narnia : Le Lion, la Sorcière Blanche et l\'Armoire Magique',
+    title:
+      "Le Monde de Narnia : Le Lion, la Sorcière Blanche et l'Armoire Magique",
     director: 'Andrew Adamson',
     rating: 3,
     timesWatched: 5,
@@ -7462,7 +7464,7 @@ export const ronanMovies: UserMovie[
     owned: true,
   },
   {
-    title: 'Je Sais ce que Vous Avez Fait l\'Été Dernier',
+    title: "Je Sais ce que Vous Avez Fait l'Été Dernier",
     director: 'Jim Gillespie',
     rating: 2.5,
     timesWatched: 1,
@@ -7632,7 +7634,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'L\'Incroyable Hulk',
+    title: "L'Incroyable Hulk",
     director: 'Louis Leterrier',
     rating: 3,
     timesWatched: 10,
@@ -7642,7 +7644,7 @@ export const ronanMovies: UserMovie[
     owned: true,
   },
   {
-    title: 'X-Men : L\'Affrontement Final',
+    title: "X-Men : L'Affrontement Final",
     director: 'Brett Ratner',
     rating: 3,
     timesWatched: 10,
@@ -7672,7 +7674,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Les 4 Fantastiques et le Surfeur d\'Argent',
+    title: "Les 4 Fantastiques et le Surfeur d'Argent",
     director: 'Tim Story',
     rating: 2.5,
     timesWatched: 5,
@@ -7682,7 +7684,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'La Probabilité statistique de l\'amour au premier regard',
+    title: "La Probabilité statistique de l'amour au premier regard",
     director: 'Vanessa Caswill',
     rating: 4,
     timesWatched: 1,
@@ -7692,7 +7694,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'L\'agence',
+    title: "L'agence",
     director: 'George Nolfi',
     rating: 3,
     timesWatched: 1,
@@ -7802,7 +7804,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'L\'Âge de Glace',
+    title: "L'Âge de Glace",
     director: 'Chris Wedge, Carlos Saldanha',
     rating: 3.5,
     timesWatched: 5,
@@ -7812,7 +7814,7 @@ export const ronanMovies: UserMovie[
     owned: true,
   },
   {
-    title: 'L\'Âge de Glace 2',
+    title: "L'Âge de Glace 2",
     director: 'Carlos Saldanha',
     rating: 3,
     timesWatched: 1,
@@ -7822,7 +7824,7 @@ export const ronanMovies: UserMovie[
     owned: true,
   },
   {
-    title: 'L\'Âge de Glace 4 : La Dérive des Continents',
+    title: "L'Âge de Glace 4 : La Dérive des Continents",
     director: 'Steve Martino, Mike Thurmeier',
     rating: 2,
     timesWatched: 1,
@@ -7892,7 +7894,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Star Wars: Episode 2 - L\'attaque des clones',
+    title: "Star Wars: Episode 2 - L'attaque des clones",
     director: 'George Lucas',
     rating: 4.5,
     timesWatched: 20,
@@ -7902,7 +7904,7 @@ export const ronanMovies: UserMovie[
     owned: true,
   },
   {
-    title: 'Star Wars : Episode 5 - L\'empire contre-attaque',
+    title: "Star Wars : Episode 5 - L'empire contre-attaque",
     director: 'Irvin Kershner',
     rating: 4.5,
     timesWatched: 20,
@@ -7932,7 +7934,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'OSS 117 : Le Caire, Nid d\'Espions',
+    title: "OSS 117 : Le Caire, Nid d'Espions",
     director: 'Michel Hazanavicius',
     rating: 3.5,
     timesWatched: 5,
@@ -8062,7 +8064,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Pirates des Caraïbes 3 : Jusqu\'au Bout du Monde',
+    title: "Pirates des Caraïbes 3 : Jusqu'au Bout du Monde",
     director: 'Gore Verbinski',
     rating: 3,
     timesWatched: 10,
@@ -8072,7 +8074,7 @@ export const ronanMovies: UserMovie[
     owned: true,
   },
   {
-    title: 'Hellboy 2 : Les Légions d\'Or Maudites',
+    title: "Hellboy 2 : Les Légions d'Or Maudites",
     director: 'Guillermo del Toro',
     rating: 4,
     timesWatched: 3,
@@ -8122,7 +8124,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Sin City : J\'ai Tué pour Elle',
+    title: "Sin City : J'ai Tué pour Elle",
     director: 'Frank Miller, Robert Rodriguez',
     rating: 3,
     timesWatched: 1,
@@ -8142,7 +8144,7 @@ export const ronanMovies: UserMovie[
     owned: true,
   },
   {
-    title: 'Spy Kids 2: L\'île des rêves perdus',
+    title: "Spy Kids 2: L'île des rêves perdus",
     director: 'Robert Rodriguez',
     rating: 2.5,
     timesWatched: 1,
@@ -8172,7 +8174,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'La momie : la tombe de l\'empereur dragon',
+    title: "La momie : la tombe de l'empereur dragon",
     director: 'Rob Cohen',
     rating: 2,
     timesWatched: 1,
@@ -8182,7 +8184,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'L\'arme fatale',
+    title: "L'arme fatale",
     director: 'Richard Donner',
     rating: 3.5,
     timesWatched: 1,
@@ -8192,7 +8194,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Maman j\'ai raté l\'avion',
+    title: "Maman j'ai raté l'avion",
     director: 'Chris Columbus',
     rating: 3.5,
     timesWatched: 2,
@@ -8252,7 +8254,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'S.O.S. Fantômes : L\'Héritage',
+    title: "S.O.S. Fantômes : L'Héritage",
     director: 'Jason Reitman',
     rating: 4,
     timesWatched: 1,
@@ -8312,7 +8314,7 @@ export const ronanMovies: UserMovie[
     owned: true,
   },
   {
-    title: 'Comment se débarrasser d\'un mec en 10 jours',
+    title: "Comment se débarrasser d'un mec en 10 jours",
     director: 'Donald Petrie',
     rating: 2.5,
     timesWatched: 1,
@@ -8332,7 +8334,7 @@ export const ronanMovies: UserMovie[
     owned: true,
   },
   {
-    title: 'Atlantis : L\'Empire perdu',
+    title: "Atlantis : L'Empire perdu",
     director: 'Gary Trousdale, Kirk Wise',
     rating: 3.5,
     timesWatched: 1,
@@ -8352,7 +8354,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'La Route d\'Eldorado',
+    title: "La Route d'Eldorado",
     director: 'Bibo Bergeron, Don Paul',
     rating: 3.5,
     timesWatched: 10,
@@ -8402,7 +8404,7 @@ export const ronanMovies: UserMovie[
     owned: true,
   },
   {
-    title: 'Sale temps à l\'hôtel El Royale',
+    title: "Sale temps à l'hôtel El Royale",
     director: 'Drew Goddard',
     rating: 2.5,
     timesWatched: 1,
@@ -8412,7 +8414,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'À tous les garçons que j\'ai aimés',
+    title: "À tous les garçons que j'ai aimés",
     director: 'Susan Johnson',
     rating: 4,
     timesWatched: 1,
@@ -8442,7 +8444,7 @@ export const ronanMovies: UserMovie[
     owned: true,
   },
   {
-    title: 'La Forme de l\'eau',
+    title: "La Forme de l'eau",
     director: 'Guillermo del Toro',
     rating: 2.5,
     timesWatched: 1,
@@ -8472,7 +8474,7 @@ export const ronanMovies: UserMovie[
     owned: true,
   },
   {
-    title: 'Le Roi Arthur : La Légende d\'Excalibur',
+    title: "Le Roi Arthur : La Légende d'Excalibur",
     director: 'Guy Ritchie',
     rating: 4,
     timesWatched: 1,
@@ -8502,7 +8504,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Alice de l\'autre côté du miroir',
+    title: "Alice de l'autre côté du miroir",
     director: 'James Bobin',
     rating: 2.5,
     timesWatched: 1,
@@ -8592,7 +8594,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: '300 : La Naissance d\'un Empire',
+    title: "300 : La Naissance d'un Empire",
     director: 'Noam Murro',
     rating: 3,
     timesWatched: 1,
@@ -8652,7 +8654,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'C\'est la fin',
+    title: "C'est la fin",
     director: 'Evan Goldberg, Seth Rogen',
     rating: 3,
     timesWatched: 1,
@@ -8682,7 +8684,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Superman contre l\'Élite',
+    title: "Superman contre l'Élite",
     director: 'Michael Chang',
     rating: 2.5,
     timesWatched: 1,
@@ -8702,7 +8704,7 @@ export const ronanMovies: UserMovie[
     owned: true,
   },
   {
-    title: 'Madagascar 3 : Bons Baisers d\'Europe',
+    title: "Madagascar 3 : Bons Baisers d'Europe",
     director: 'Eric Darnell, Tom McGrath, Conrad Vernon',
     rating: 3.5,
     timesWatched: 1,
@@ -8722,7 +8724,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Voyage au centre de la Terre 2 : L\'Île mystérieuse',
+    title: "Voyage au centre de la Terre 2 : L'Île mystérieuse",
     director: 'Brad Peyton',
     rating: 2.5,
     timesWatched: 1,
@@ -8742,7 +8744,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Sherlock Holmes : Jeu d\'ombres',
+    title: "Sherlock Holmes : Jeu d'ombres",
     director: 'Guy Ritchie',
     rating: 4,
     timesWatched: 1,
@@ -8842,7 +8844,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'À la croisée des mondes : La Boussole d\'or',
+    title: "À la croisée des mondes : La Boussole d'or",
     director: 'Chris Weitz',
     rating: 2.5,
     timesWatched: 1,
@@ -8862,7 +8864,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Pirates des Caraïbes : Jusqu\'au bout du monde',
+    title: "Pirates des Caraïbes : Jusqu'au bout du monde",
     director: 'Gore Verbinski',
     rating: 3,
     timesWatched: 1,
@@ -8882,7 +8884,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Inside Man : L\'Homme de l\'intérieur',
+    title: "Inside Man : L'Homme de l'intérieur",
     director: 'Spike Lee',
     rating: 4,
     timesWatched: 1,
@@ -8922,7 +8924,7 @@ export const ronanMovies: UserMovie[
     owned: true,
   },
   {
-    title: 'Master and Commander : De l\'autre côté du monde',
+    title: "Master and Commander : De l'autre côté du monde",
     director: 'Peter Weir',
     rating: 3,
     timesWatched: 1,
@@ -8952,7 +8954,7 @@ export const ronanMovies: UserMovie[
     owned: true,
   },
   {
-    title: 'Le Seigneur des anneaux : La Communauté de l\'anneau',
+    title: "Le Seigneur des anneaux : La Communauté de l'anneau",
     director: 'Peter Jackson',
     rating: 5,
     timesWatched: 2,
@@ -8982,7 +8984,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Dragon Ball Z : L\'Attaque du dragon',
+    title: "Dragon Ball Z : L'Attaque du dragon",
     director: 'Mitsuo Hashimoto',
     rating: 2,
     timesWatched: 1,
@@ -9012,7 +9014,7 @@ export const ronanMovies: UserMovie[
     owned: true,
   },
   {
-    title: 'Dragon Ball Z : L\'Histoire de Trunks',
+    title: "Dragon Ball Z : L'Histoire de Trunks",
     director: 'Yoshihiro Ueda',
     rating: 2,
     timesWatched: 1,
@@ -9042,7 +9044,7 @@ export const ronanMovies: UserMovie[
     owned: true,
   },
   {
-    title: 'Dragon Ball Z : L\'Offensive des cyborgs',
+    title: "Dragon Ball Z : L'Offensive des cyborgs",
     director: 'Kazuhito Kikuchi',
     rating: 2,
     timesWatched: 1,
@@ -9132,7 +9134,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Les Figures de l\'ombre',
+    title: "Les Figures de l'ombre",
     director: 'Theodore Melfi',
     rating: 3,
     timesWatched: 1,
@@ -9172,7 +9174,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Le Livre d\'Eli',
+    title: "Le Livre d'Eli",
     director: 'Albert Hughes, Allen Hughes',
     rating: 3.5,
     timesWatched: 1,
@@ -9192,7 +9194,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Les Fils de l\'homme',
+    title: "Les Fils de l'homme",
     director: 'Alfonso Cuarón',
     rating: 4.5,
     timesWatched: 1,
@@ -9252,7 +9254,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'L\'Armée des morts',
+    title: "L'Armée des morts",
     director: 'Zack Snyder',
     rating: 2.5,
     timesWatched: 1,
@@ -9372,7 +9374,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'L\'Histoire sans fin',
+    title: "L'Histoire sans fin",
     director: 'Wolfgang Petersen',
     rating: 2,
     timesWatched: 1,
@@ -9382,7 +9384,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Les Aventuriers de l\'Arche perdue',
+    title: "Les Aventuriers de l'Arche perdue",
     director: 'Steven Spielberg',
     rating: 4,
     timesWatched: 1,
@@ -9472,7 +9474,7 @@ export const ronanMovies: UserMovie[
     owned: true,
   },
   {
-    title: 'L\'amour au présent',
+    title: "L'amour au présent",
     director: 'John Crowley',
     rating: 0,
     timesWatched: 1,
@@ -9542,7 +9544,7 @@ export const ronanMovies: UserMovie[
     owned: true,
   },
   {
-    title: 'L\'Âge de Glace 3 : Le Temps des Dinosaures',
+    title: "L'Âge de Glace 3 : Le Temps des Dinosaures",
     director: 'Carlos Saldanha',
     rating: 0,
     timesWatched: 1,
@@ -9572,7 +9574,7 @@ export const ronanMovies: UserMovie[
     owned: true,
   },
   {
-    title: 'L\'Âge de glace 4 : La Dérive des continents',
+    title: "L'Âge de glace 4 : La Dérive des continents",
     director: 'Steve Martino, Mike Thurmeier',
     rating: 0,
     timesWatched: 1,
@@ -9582,7 +9584,8 @@ export const ronanMovies: UserMovie[
     owned: true,
   },
   {
-    title: 'Le Monde de Narnia : Le Lion, la Sorcière blanche et l\'Armoire magique',
+    title:
+      "Le Monde de Narnia : Le Lion, la Sorcière blanche et l'Armoire magique",
     director: 'Andrew Adamson',
     rating: 0,
     timesWatched: 1,
@@ -9612,7 +9615,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'L\'arme fatale 2',
+    title: "L'arme fatale 2",
     director: 'Richard Donner',
     rating: 0,
     timesWatched: 1,
@@ -9622,7 +9625,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'L\'arme fatale 3',
+    title: "L'arme fatale 3",
     director: 'Richard Donner',
     rating: 0,
     timesWatched: 1,
@@ -9632,7 +9635,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Maman j\'ai raté l\'avion 2',
+    title: "Maman j'ai raté l'avion 2",
     director: 'Chris Columbus',
     rating: 0,
     timesWatched: 1,
@@ -9642,7 +9645,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Ocean\'s Twelve',
+    title: "Ocean's Twelve",
     director: 'Steven Soderbergh',
     rating: 0,
     timesWatched: 1,
@@ -9652,7 +9655,7 @@ export const ronanMovies: UserMovie[
     owned: true,
   },
   {
-    title: 'Ocean\'s Thirteen',
+    title: "Ocean's Thirteen",
     director: 'Steven Soderbergh',
     rating: 0,
     timesWatched: 1,
@@ -9712,7 +9715,7 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'L\'Amour, c\'est surcoté ',
+    title: "L'Amour, c'est surcoté ",
     director: 'Mourad Winter',
     rating: 3.5,
     timesWatched: 1,
@@ -9722,7 +9725,8 @@ export const ronanMovies: UserMovie[
     owned: false,
   },
   {
-    title: 'Le Seigneur des Anneaux - La Communauté de l\'Anneau - Version Longue',
+    title:
+      "Le Seigneur des Anneaux - La Communauté de l'Anneau - Version Longue",
     director: 'Peter Jackson',
     rating: 5,
     timesWatched: 6,
@@ -9750,5 +9754,5 @@ export const ronanMovies: UserMovie[
     lastViewedDate: '',
     seenAtCinema: false,
     owned: true,
-  }
+  },
 ];
