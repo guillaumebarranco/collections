@@ -22,4 +22,16 @@ export const baseBooksApi: BaseBook[] = [
     nbTomes: 0,
     isFinished: false,
   },
+
+  {
+    title: 'Le Monde de Narnia (Tome 3) Le Cheval et son Ecuyer',
+    author: 'C. S. Lewis',
+    coverUrl: 'https://cdn.shopify.com/s/files/1/0398/4202/1535/files/Y2680YOTO02220LemondedeNarnia3LeChevaletsonecuyer_Rounded.png?v=1711318245',
+    pages: 240,
+    genre: 'Fantasy',
+    saga: 'Le Monde de Narnia',
+    sagaOrder: 3,
+    nbTomes: 0,
+    isFinished: true,
+  },
 ];
