@@ -41,6 +41,7 @@ export class MovieComponent {
   @Input() list: Movie[] = [];
   @Input() index = -1;
   @Input() quizzs: Quizz[] = [];
+  @Input() readOnly = false;
   @Output() movieUpdated = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
 

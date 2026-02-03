@@ -254,6 +254,41 @@
   color: #7f8c8d;
 }
 
+.movies-saga-missing {
+  margin-top: 12px;
+}
+
+.movies-saga-missing-label {
+  margin: 0 0 10px;
+  font-size: 0.95rem;
+  color: #7f8c8d;
+  font-weight: 600;
+}
+
+.movie-card--missing {
+  position: relative;
+  opacity: 0.7;
+
+  .movie-rating,
+  .movie-times-watched {
+    display: none;
+  }
+}
+
+.movie-missing-badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  z-index: 1;
+}
+
 .movies-watching-time {
   color: #fffbe6;
   background: #7f53ac;

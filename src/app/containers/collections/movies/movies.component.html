@@ -182,17 +182,23 @@
           <span class="movies-saga-toggle-icon">
             {{ isSagaCollapsed(sagaGroup.saga) ? "▶" : "▼" }}
           </span>
-          {{ sagaGroup.saga }} ({{ sagaGroup.movies.length }})
+          {{ sagaGroup.saga }}
+          @if (isAdminView()) { ({{
+            sagaGroup.seenMovies.length + sagaGroup.missingMovies.length
+          }}) } @else { ({{ sagaGroup.seenMovies.length }} films vus) ({{
+            sagaGroup.missingMovies.length
+          }}
+          films restants à voir) }
         </button>
       </h2>
       @if (!isSagaCollapsed(sagaGroup.saga)) {
       <div class="movies">
-        @for (movie of sagaGroup.movies; track
+        @for (movie of sagaGroup.seenMovies; track
         `${movie.title}-${movie.releaseDate}`; let i = $index) {
         <div class="movie-card">
           <app-movie
             [movie]="movie"
-            [list]="sagaGroup.movies"
+            [list]="sagaGroup.seenMovies"
             [index]="i"
             [quizzs]="quizzs()"
             (movieUpdated)="refreshMovies()"
@@ -201,7 +207,20 @@
         </div>
         }
       </div>
-      }
+      @if (sagaGroup.missingMovies.length > 0) {
+      <div class="movies-saga-missing">
+        <p class="movies-saga-missing-label">Films pas encore vus</p>
+        <div class="movies">
+          @for (movie of sagaGroup.missingMovies; track
+          `${movie.title}-${movie.releaseDate}`) {
+          <div class="movie-card movie-card--missing">
+            <span class="movie-missing-badge">Non vu</span>
+            <app-movie [movie]="movie" [readOnly]="true"></app-movie>
+          </div>
+          }
+        </div>
+      </div>
+      } }
     </section>
     }
   </div>

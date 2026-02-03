@@ -217,6 +217,7 @@ export class MoviesComponent implements OnInit {
 
   moviesList = signal<{ [key: string]: Movie[] }>({});
   adminMoviesList = signal<Movie[]>([]);
+  baseMoviesList = signal<Movie[]>([]);
 
   watchingMoviesList = signal<{ [key: string]: Movie[] }>({});
 
@@ -295,7 +296,9 @@ export class MoviesComponent implements OnInit {
     getSortedMovies([...this.filteredMoviesByYear()], this.selectedSort())
   );
 
-  moviesBySaga = computed<{ saga: string; movies: Movie[] }[]>(() => {
+  moviesBySaga = computed<
+    { saga: string; seenMovies: Movie[]; missingMovies: Movie[] }[]
+  >(() => {
     if (this.selectedView() !== 'sagas') {
       return [];
     }
@@ -312,14 +315,41 @@ export class MoviesComponent implements OnInit {
       sagaMap.set(sagaKey, list);
     }
 
-    const sagaGroups = Array.from(sagaMap.entries()).map(([saga, movies]) => ({
-      saga,
-      movies,
-    }));
+    const seenKeys = new Set(
+      this.allMovies().map((movie) => this.getMovieIdentityKey(movie))
+    );
+    const baseBySaga = new Map<string, Movie[]>();
+    for (const movie of this.baseMoviesList()) {
+      const sagaName = movie.saga?.trim();
+      if (!sagaName) continue;
+      if (seenKeys.has(this.getMovieIdentityKey(movie))) continue;
+      const list = baseBySaga.get(sagaName) ?? [];
+      list.push(movie);
+      baseBySaga.set(sagaName, list);
+    }
+
+    const sagaGroups = Array.from(sagaMap.entries()).map(
+      ([saga, seenMovies]) => {
+        const missing =
+          this.isAdminView() || saga === 'Sans saga'
+            ? []
+            : getSortedMovies(
+                [...(baseBySaga.get(saga) ?? [])],
+                this.selectedSort()
+              );
+        return {
+          saga,
+          seenMovies,
+          missingMovies: missing,
+        };
+      }
+    );
 
     sagaGroups.sort((a, b) => {
-      if (b.movies.length !== a.movies.length) {
-        return b.movies.length - a.movies.length;
+      const countA = a.seenMovies.length + a.missingMovies.length;
+      const countB = b.seenMovies.length + b.missingMovies.length;
+      if (countB !== countA) {
+        return countB - countA;
       }
       return a.saga.localeCompare(b.saga);
     });
@@ -419,16 +449,36 @@ export class MoviesComponent implements OnInit {
         owned: false,
       }));
       this.adminMoviesList.set(movies);
+      this.baseMoviesList.set(movies);
       return;
     }
 
     const userId = this.getActiveUserId();
-    const [movies, watchlist] = await Promise.all([
+    const [movies, watchlist, baseMovies] = await Promise.all([
       getAllMovies(userId),
       getAllWatchlistMovies(userId),
+      getAllBaseMovies(),
     ]);
     this.moviesList.set(movies);
     this.watchingMoviesList.set(watchlist);
+    this.baseMoviesList.set(
+      baseMovies.map((movie) => ({
+        title: movie.title,
+        director: movie.director,
+        coverUrl: movie.coverUrl,
+        releaseDate: movie.releaseDate,
+        length: movie.length,
+        genre: movie.genre,
+        saga: movie.saga,
+        actors: movie.actors,
+        rating: 0,
+        timesWatched: 0,
+        firstViewedDate: '',
+        lastViewedDate: '',
+        seenAtCinema: false,
+        owned: false,
+      }))
+    );
   }
 
   async refreshQuizzs() {
@@ -513,6 +563,10 @@ export class MoviesComponent implements OnInit {
     const normalizedHaystack = this.normalizeSearchText(haystack);
     const normalizedTerm = this.normalizeSearchText(term);
     return normalizedHaystack.includes(normalizedTerm);
+  }
+
+  private getMovieIdentityKey(movie: Movie): string {
+    return `${movie.title}|${movie.director}`;
   }
 
   private normalizeSearchText(value: string): string {
