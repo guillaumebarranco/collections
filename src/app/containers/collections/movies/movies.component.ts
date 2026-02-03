@@ -32,12 +32,11 @@ import {
   getAllBaseMovies,
   getAllMovies,
   getAllWatchlistMovies,
-  getMoviesByUser,
+  getOtherUsersMoviesRated,
 } from '../../../facades/movies/movies.facade';
 import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
-import { users } from '../../../utils/users/users';
 import {
   getSortedMovies,
   allYearsSince2000,
@@ -577,24 +576,16 @@ export class MoviesComponent implements OnInit {
 
     this.isLoadingRecommendations.set(true);
     try {
-      const otherUsers = users
-        .map((user) => user.username)
-        .filter((username) => username !== userId);
-      const otherUsersMovies = await Promise.all(
-        otherUsers.map((username) => getMoviesByUser(username))
-      );
+      const othersRated = await getOtherUsersMoviesRated(userId, 4);
 
       const scoreMap = new Map<string, { count: number; maxRating: number }>();
-      for (const list of otherUsersMovies) {
-        for (const movie of list) {
-          if ((movie.rating ?? 0) < 4) continue;
-          const key = this.getMovieIdentityKey(movie);
-          const current = scoreMap.get(key) ?? { count: 0, maxRating: 0 };
-          scoreMap.set(key, {
-            count: current.count + 1,
-            maxRating: Math.max(current.maxRating, movie.rating ?? 0),
-          });
-        }
+      for (const movie of othersRated) {
+        const key = `${movie.title}|${movie.director}`;
+        const current = scoreMap.get(key) ?? { count: 0, maxRating: 0 };
+        scoreMap.set(key, {
+          count: current.count + 1,
+          maxRating: Math.max(current.maxRating, movie.rating ?? 0),
+        });
       }
 
       const seenKeys = new Set(

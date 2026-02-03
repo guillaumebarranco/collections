@@ -8,10 +8,12 @@ import {
 import { isLocalhost } from '../../core/config';
 import {
   fetchBaseMoviesFromApi,
+  fetchOtherUsersMoviesRatedFromApi,
   fetchUserMoviesFromApi,
   fetchWatchlistMoviesFromApi,
 } from './api-movies.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
+import { users } from '../../utils/users/users';
 
 const fetchBaseMoviesCached = createCachedFetcher(fetchBaseMoviesFromApi);
 
@@ -50,6 +52,13 @@ async function getAllMoviesData(movies: UserMovie[]): Promise<Movie[]> {
   });
 }
 
+export type OtherUserMovieRating = {
+  title: string;
+  director: string;
+  rating: number;
+  userId: string;
+};
+
 export async function getAllMovies(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Movie[] }> {
@@ -70,6 +79,38 @@ export async function getAllMovies(
     return {
       [currentUserId]: [],
     };
+  }
+}
+
+export async function getOtherUsersMoviesRated(
+  currentUserId = 'guillaume',
+  minRating = 4
+): Promise<OtherUserMovieRating[]> {
+  if (isLocalhost()) {
+    const otherUsers = users
+      .map((user) => user.username)
+      .filter((username) => username !== currentUserId);
+    const results: OtherUserMovieRating[] = [];
+    otherUsers.forEach((username) => {
+      const movies = getLocalMoviesByUser(username);
+      movies
+        .filter((movie) => (movie.rating ?? 0) >= minRating)
+        .forEach((movie) => {
+          results.push({
+            title: movie.title,
+            director: movie.director,
+            rating: movie.rating ?? 0,
+            userId: username,
+          });
+        });
+    });
+    return results;
+  }
+
+  try {
+    return await fetchOtherUsersMoviesRatedFromApi(currentUserId, minRating);
+  } catch {
+    return [];
   }
 }
 

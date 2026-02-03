@@ -10,11 +10,13 @@ const batchCinemaRouter = require('./batch-cinema');
 const addMovieRouter = require('./add-movie');
 const addExistingRouter = require('./add-existing');
 const deleteMovieRouter = require('./delete-movie');
+const othersRatedRouter = require('./get-others-users-movies-rated');
 
 const router = express.Router();
 
 router.use(getEntitiesRouter);
 router.use(getWatchlistRouter);
+router.use(othersRatedRouter);
 router.use(getMoviesRouter);
 router.use(saveMovieRouter);
 router.use(batchRatingRouter);
