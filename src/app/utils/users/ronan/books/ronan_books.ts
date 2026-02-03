@@ -770,4 +770,12 @@ export const ronanBooks: UserBook[] = [
     readTimes: 1,
     owned: true,
   },
+  {
+    title: 'Le Monde de Narnia (Tome 3) Le Cheval et son Ecuyer',
+    author: 'C. S. Lewis',
+    readDate: '2026-02-02',
+    rating: 3.5,
+    readTimes: 1,
+    owned: true,
+  },
 ];
