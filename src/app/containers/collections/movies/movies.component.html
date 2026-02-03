@@ -186,8 +186,15 @@
     <p>Aucune recommandation disponible pour le moment.</p>
     } @else { @for (movie of recommendedMovies(); track
     `${movie.title}-${movie.releaseDate}`; let i = $index) {
-    <div class="movie-card movie-card--missing">
+    <div class="movie-card movie-card--recommended movie-card--missing">
+      @if(movieAlreadyInUserWatchlist(movie)) {
+      <span class="movie-missing-badge">Déjà dans votre watchlist</span>
+      } @else {
       <span class="movie-missing-badge">Recommandé</span>
+      <button class="btn" (click)="addMovieToWatchlist(movie)">
+        Ajouter à ma watchlist
+      </button>
+      }
       <app-movie
         [movie]="movie"
         [list]="recommendedMovies()"

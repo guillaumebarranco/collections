@@ -25,6 +25,7 @@ import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal
 import {
   getTotalWatchingTime,
   getTotalDuration,
+  capitalizeFirstLetter,
 } from '../../../utils/stats.utils';
 import { Movie } from '../../../models/movie-model';
 import { Quizz } from '../../../models/quizz-model';
@@ -49,6 +50,12 @@ import {
   getMoviesByActor,
   getMoviesByDirector,
 } from './movies.utils';
+import { getApiBaseUrl } from '../../../core/config';
+
+type RecommendationDetail = { userId: string; rating: number };
+type RecommendedMovie = Movie & {
+  recommendationDetails: RecommendationDetail[];
+};
 
 @Component({
   selector: 'app-movies',
@@ -799,7 +806,8 @@ export class MoviesComponent implements OnInit {
     if (recommendationDetails.length === 0) return '';
 
     const parts = recommendationDetails.map(
-      (detail) => `${detail.userId} a donné ${detail.rating}★`
+      (detail) =>
+        `${capitalizeFirstLetter(detail.userId)} a donné ${detail.rating}★`
     );
     if (parts.length === 1) {
       return `${parts[0]} à ce film`;
@@ -808,9 +816,39 @@ export class MoviesComponent implements OnInit {
       parts[parts.length - 1]
     } à ce film`;
   }
-}
 
-type RecommendationDetail = { userId: string; rating: number };
-type RecommendedMovie = Movie & {
-  recommendationDetails: RecommendationDetail[];
-};
+  movieAlreadyInUserWatchlist(movie: Movie): boolean {
+    return this.allWatchlistMovies().some(
+      (m) => m.title === movie.title && m.director === movie.director
+    );
+  }
+
+  async addMovieToWatchlist(movie: Movie): Promise<void> {
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/movies/add-existing`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.getActiveUserId(),
+          movies: [movie],
+          watchlist: true,
+        }),
+      });
+
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn(
+          "Échec de l'ajout batch des films :",
+          payload?.error || response.statusText
+        );
+        return;
+      }
+
+      this.router.navigate([`${this.getActiveUserId()}/movies`]);
+    } catch (error) {
+      console.warn("Erreur réseau lors de l'ajout batch des films.", error);
+    }
+  }
+}

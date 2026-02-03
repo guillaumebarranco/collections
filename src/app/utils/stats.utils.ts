@@ -36,6 +36,10 @@ export interface ItemWithGameLength {
   averageTimeToHundredPercent: number;
 }
 
+export function capitalizeFirstLetter(val: string): string {
+  return String(val).charAt(0).toUpperCase() + String(val).slice(1);
+}
+
 // Estimation : 1 minute 30s par page en moyenne
 export const MINUTES_PER_PAGE = 1.5;
 export const SECONDS_PER_COMIC_PAGE = 20;
