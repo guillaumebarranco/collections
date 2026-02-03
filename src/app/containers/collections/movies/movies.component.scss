@@ -12,51 +12,6 @@
   }
 }
 
-.movies-header {
-  @include containers.header-base;
-
-  .movies-filters {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    min-width: 320px;
-  }
-
-  .movies-search input {
-    width: 100%;
-    padding: 10px 12px;
-    border-radius: 8px;
-    border: 1px solid #d9d9d9;
-    background: #fff;
-    font-size: 0.95rem;
-    box-sizing: border-box;
-  }
-
-  .movies-filters-item {
-    display: flex;
-    gap: 10px;
-    color: #34495e;
-    font-size: 1rem;
-    font-weight: 500;
-    white-space: nowrap;
-  }
-}
-
-.movies-search {
-  margin: 12px 0 4px;
-  max-width: 420px;
-
-  input {
-    width: 100%;
-    padding: 10px 12px;
-    border-radius: 8px;
-    border: 1px solid #d9d9d9;
-    background: #fff;
-    font-size: 0.95rem;
-    box-sizing: border-box;
-  }
-}
-
 .watchlist-actions {
   display: flex;
   justify-content: center;
@@ -72,46 +27,6 @@
 
 .movies-count {
   @include containers.count;
-}
-
-.movies-header-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-  margin-bottom: 20px;
-  flex-wrap: wrap;
-}
-
-.movies-actions {
-  display: flex;
-  gap: 8px;
-
-  .btn-small {
-    padding: 6px 12px;
-    font-size: 0.85rem;
-    border-radius: 6px;
-    border: none;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    background: #f0f0f0;
-    color: #333;
-    font-weight: 500;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-
-    &:hover {
-      background: #e0e0e0;
-      transform: translateY(-1px);
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-
-    &:active {
-      transform: translateY(0);
-    }
-  }
 }
 
 .movies-config-overlay {
@@ -356,22 +271,6 @@
     h1 {
       font-size: 2rem;
     }
-  }
-
-  .movies-header {
-    flex-direction: column;
-    gap: 15px;
-    text-align: center;
-
-    .movies-filters {
-      width: 100%;
-    }
-  }
-
-  .movies-header-top {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 15px;
   }
 
   .movies-actions {

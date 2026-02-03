@@ -8,7 +8,6 @@ import {
   ChangeDetectionStrategy,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
 import { MovieComponent } from '../../../components/collections/movie/movie.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import { ViewToggleComponent } from '../../../components/view-toggle/view-toggle.component';
@@ -51,6 +50,7 @@ import {
   getMoviesByDirector,
 } from './movies.utils';
 import { getApiBaseUrl } from '../../../core/config';
+import { MoviesHeaderComponent } from './movies-header/movies-header.component';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedMovie = Movie & {
@@ -62,13 +62,14 @@ type RecommendedMovie = Movie & {
   imports: [
     RouterLink,
     CommonModule,
-    FormsModule,
+
     MovieComponent,
     MenuComponent,
     ViewToggleComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
     QuizzModalComponent,
+    MoviesHeaderComponent,
   ],
   templateUrl: './movies.component.html',
   styleUrls: ['./movies.component.scss'],
@@ -426,51 +427,6 @@ export class MoviesComponent implements OnInit {
     ];
   });
 
-  getSelectMoviesRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam ? `/${params['id']}/select-movies` : '/select-movies';
-  }
-
-  getSelectWatchlistRoute(): string[] {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    const userId = hasNameParam ? params['id'] : 'guillaume';
-    return hasNameParam ? [`/${userId}`, 'select-movies'] : ['/select-movies'];
-  }
-
-  getSelectCinemaRoute(): string[] {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam
-      ? [`/${params['id']}`, 'select-movies']
-      : ['/select-movies'];
-  }
-
-  getSelectMoviesRatingRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam
-      ? `/${params['id']}/select-movies-rating`
-      : '/select-movies-rating';
-  }
-
-  getSelectMoviesTimesWatchedRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam
-      ? `/${params['id']}/select-movies-times-watched`
-      : '/select-movies-times-watched';
-  }
-
-  getSelectMoviesOwnedRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam
-      ? `/${params['id']}/select-movies-owned`
-      : '/select-movies-owned';
-  }
-
   async refreshMovies() {
     if (this.isAdminView()) {
       const baseMovies = await getAllBaseMovies();
@@ -561,6 +517,13 @@ export class MoviesComponent implements OnInit {
       ...current,
       [view]: enabled,
     }));
+  }
+
+  getSelectWatchlistRoute(): string[] {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    const userId = hasNameParam ? params['id'] : 'guillaume';
+    return hasNameParam ? [`/${userId}`, 'select-movies'] : ['/select-movies'];
   }
 
   onYearFilterChange(year: string) {

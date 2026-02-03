@@ -9049,23 +9049,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
   },
   {
-    title: 'Le Voyage de Chihiro',
-    director: 'Hayao Miyazaki',
-    actors: [
-      {
-        name: 'Rumi Hiiragi',
-      },
-      {
-        name: 'Miyu Irino',
-      },
-    ],
-    coverUrl: '/movies_pictures/spirited_away.jpg',
-    releaseDate: '2002-04-10',
-    length: 124,
-    genre: 'Animation',
-    saga: 'Ghibli',
-  },
-  {
     title: 'Hannibal',
     director: 'Ridley Scott',
     actors: [

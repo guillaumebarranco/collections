@@ -1,0 +1,142 @@
+<div class="movies-header">
+  <h1>
+    @if (isAdminView()) { Films ({{ filteredMoviesByYearCount() }}) } @else {
+    {{ moviesPageTitle() }} ({{
+      selectedView() === "recommendations"
+        ? recommendedMoviesCount()
+        : filteredMoviesByYearCount()
+    }}) }
+  </h1>
+
+  @if(allMoviesCount() !== 0) {
+  <div class="movies-header-top">
+    @if (!isAdminView()) {
+    <app-view-toggle
+      [toggleClass]="'movies-view-toggle'"
+      [options]="visibleMovieViewOptions()"
+      [selected]="selectedView()"
+      (selectedChange)="onViewChange.emit($any($event))"
+    ></app-view-toggle>
+    }
+
+    <div class="movies-actions">
+      @if (!isAdminView()) {
+      <button
+        class="btn btn-small"
+        type="button"
+        title="Configurer l'affichage des onglets"
+        (click)="onOpenViewConfig.emit()"
+      >
+        ⚙️ Configurer ma vue films
+      </button>
+      <button
+        class="btn btn-small"
+        [routerLink]="getSelectMoviesRoute()"
+        [queryParams]="{
+          watchlist: selectedView() === 'watchlist',
+          cinema: selectedView() === 'cinema'
+        }"
+        title="Ajouter un film"
+      >
+        ➕
+        {{
+          selectedView() === "watchlist"
+            ? "Ajouter des films à voir"
+            : selectedView() === "cinema"
+            ? "Modifier mes films vus au cinema"
+            : "Ajouter des films vus"
+        }}
+      </button>
+
+      <button
+        class="btn btn-small"
+        [routerLink]="getSelectMoviesRatingRoute()"
+        title="Mettre à jour les notes de mes films"
+      >
+        ⭐ Notes
+      </button>
+      <button
+        class="btn btn-small"
+        [routerLink]="getSelectMoviesTimesWatchedRoute()"
+        title="Mettre à jour le nombre de visionnages de mes films"
+      >
+        🎬 Visionnages
+      </button>
+      <button
+        class="btn btn-small"
+        [routerLink]="getSelectMoviesOwnedRoute()"
+        title="Mettre à jour les films possédés"
+      >
+        ✅ Possédés
+      </button>
+      }
+    </div>
+  </div>
+  } @if(filteredMoviesByYearCount() === 0 && selectedView() !== 'watchlist') {
+  <div class="empty-state">
+    <p class="empty-message">Aucun film à afficher pour cette sélection.</p>
+    <p class="empty-subtitle">
+      @if(selectedView() === 'cinema') { Sélectionnez parmi vos films vus ceux
+      que vous avez vus au cinéma. } @else { Passez sur l'autre vue ou ajoutez
+      de nouveaux films à votre collection. }
+    </p>
+    @if(selectedView() === 'cinema') {
+    <button
+      class="btn btn-primary"
+      [routerLink]="getSelectCinemaRoute()"
+      [queryParams]="{ cinema: 'true' }"
+    >
+      Sélectionner mes films vus au cinéma
+    </button>
+    } @else {
+    <button class="btn btn-primary" [routerLink]="getSelectMoviesRoute()">
+      Sélectionner mes films
+    </button>
+    }
+  </div>
+  }
+
+  <div class="movies-stats-bloc">
+    @if (!isAdminView()) {
+    <app-stats-display
+      [stats]="stats()"
+      [count]="filteredMoviesByYearCount()"
+      countLabel="films"
+    >
+    </app-stats-display>
+    }
+
+    <div class="movies-filters">
+      <!-- Dropdown de filtre d'années -->
+      @if(!isAdminView() && (selectedView() === 'watched' || selectedView() ===
+      'cinema')) {
+      <div class="movies-filters-item">
+        <app-sort-dropdown
+          label="Filtrer par année :"
+          [sortOptions]="yearFilterOptions()"
+          [selectedSort]="selectedYearFilter()"
+          (sortChange)="onYearFilterChange.emit($event)"
+        >
+        </app-sort-dropdown>
+      </div>
+      }
+
+      <app-sort-dropdown
+        label="Trier par :"
+        [sortOptions]="sortOptions()"
+        [selectedSort]="selectedSort()"
+        (sortChange)="onSortChange.emit($event)"
+      >
+      </app-sort-dropdown>
+    </div>
+  </div>
+
+  <div class="movies-search">
+    <input
+      type="text"
+      placeholder="Rechercher par titre, réalisateur, acteur..."
+      [ngModel]="searchTerm()"
+      (ngModelChange)="onSearchChange.emit($event)"
+    />
+  </div>
+</div>

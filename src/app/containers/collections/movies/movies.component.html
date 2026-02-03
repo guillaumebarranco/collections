@@ -1,174 +1,26 @@
 <app-menu></app-menu>
 
 <div class="movies-container">
-  <h1>
-    @if (isAdminView()) { Films ({{ filteredMoviesByYear().length }}) } @else {
-    {{
-      selectedView() === "watchlist"
-        ? "Films à voir"
-        : selectedView() === "cinema"
-        ? "Films vus au cinéma"
-        : selectedView() === "sagas"
-        ? "Films par saga"
-        : selectedView() === "actors"
-        ? "Films par acteur"
-        : selectedView() === "directors"
-        ? "Films par réalisateur"
-        : selectedView() === "recommendations"
-        ? "Recommandations"
-        : selectedView() === "owned"
-        ? "Films possédés"
-        : "Films visionnés"
-    }}
-    ({{
-      selectedView() === "recommendations"
-        ? recommendedMovies().length
-        : filteredMoviesByYear().length
-    }}) }
-  </h1>
+  <app-movies-header
+    [selectedView]="selectedView()"
+    [filteredMoviesByYearCount]="filteredMoviesByYear().length"
+    [recommendedMoviesCount]="recommendedMovies().length"
+    [allMoviesCount]="allMovies().length"
+    [stats]="stats()"
+    [visibleMovieViewOptions]="visibleMovieViewOptions()"
+    [sortOptions]="sortOptions"
+    [yearFilterOptions]="yearFilterOptions"
+    (onViewChange)="onViewChange($any($event))"
+    (onOpenViewConfig)="openViewConfig()"
+    (onYearFilterChange)="onYearFilterChange($event)"
+    (onSearchChange)="onSearchChange($event)"
+    (onSortChange)="onSortChange($event)"
+  ></app-movies-header>
 
-  @if(allMovies().length !== 0) {
-  <div class="movies-header-top">
-    @if (!isAdminView()) {
-    <app-view-toggle
-      [toggleClass]="'movies-view-toggle'"
-      [options]="visibleMovieViewOptions()"
-      [selected]="selectedView()"
-      (selectedChange)="onViewChange($any($event))"
-    ></app-view-toggle>
-    }
-
-    <div class="movies-actions">
-      @if (!isAdminView()) {
-      <button
-        class="btn btn-small"
-        type="button"
-        title="Configurer l'affichage des onglets"
-        (click)="openViewConfig()"
-      >
-        ⚙️ Configurer ma vue films
-      </button>
-      <button
-        class="btn btn-small"
-        [routerLink]="getSelectMoviesRoute()"
-        [queryParams]="{
-          watchlist: selectedView() === 'watchlist',
-          cinema: selectedView() === 'cinema'
-        }"
-        title="Ajouter un film"
-      >
-        ➕
-        {{
-          selectedView() === "watchlist"
-            ? "Ajouter des films à voir"
-            : selectedView() === "cinema"
-            ? "Modifier mes films vus au cinema"
-            : "Ajouter des films vus"
-        }}
-      </button>
-
-      <button
-        class="btn btn-small"
-        [routerLink]="getSelectMoviesRatingRoute()"
-        title="Mettre à jour les notes de mes films"
-      >
-        ⭐ Notes
-      </button>
-      <button
-        class="btn btn-small"
-        [routerLink]="getSelectMoviesTimesWatchedRoute()"
-        title="Mettre à jour le nombre de visionnages de mes films"
-      >
-        🎬 Visionnages
-      </button>
-      <button
-        class="btn btn-small"
-        [routerLink]="getSelectMoviesOwnedRoute()"
-        title="Mettre à jour les films possédés"
-      >
-        ✅ Possédés
-      </button>
-      }
-    </div>
-  </div>
-  } @if(filteredMoviesByYear().length === 0 && selectedView() !== 'watchlist') {
-  <div class="empty-state">
-    <p class="empty-message">Aucun film à afficher pour cette sélection.</p>
-    <p class="empty-subtitle">
-      @if(selectedView() === 'cinema') { Sélectionnez parmi vos films vus ceux
-      que vous avez vus au cinéma. } @else { Passez sur l'autre vue ou ajoutez
-      de nouveaux films à votre collection. }
-    </p>
-    @if(selectedView() === 'cinema') {
-    <button
-      class="btn btn-primary"
-      [routerLink]="getSelectCinemaRoute()"
-      [queryParams]="{ cinema: 'true' }"
-    >
-      Sélectionner mes films vus au cinéma
-    </button>
-    } @else {
-    <button class="btn btn-primary" [routerLink]="getSelectMoviesRoute()">
-      Sélectionner mes films
-    </button>
-    }
-  </div>
-  }
-
-  <div class="movies-header">
-    @if (!isAdminView()) {
-    <app-stats-display
-      [stats]="stats()"
-      [count]="filteredMoviesByYear().length"
-      countLabel="films"
-    >
-    </app-stats-display>
-    }
-
-    <div class="movies-filters">
-      <!-- Dropdown de filtre d'années -->
-      @if(!isAdminView() && (selectedView() === 'watched' || selectedView() ===
-      'cinema')) {
-      <div class="movies-filters-item">
-        <p>Filtrer par année :</p>
-        <select
-          class="app-dropdown"
-          [(ngModel)]="selectedYearFilter"
-          (change)="onYearFilterChange($any($event.target).value)"
-          style="margin-bottom: 8px"
-        >
-          <option
-            *ngFor="let option of yearFilterOptions"
-            [value]="option.value"
-          >
-            {{ option.label }}
-          </option>
-        </select>
-      </div>
-      }
-
-      <app-sort-dropdown
-        [sortOptions]="sortOptions"
-        [selectedSort]="selectedSort()"
-        (sortChange)="onSortChange($event)"
-      >
-      </app-sort-dropdown>
-    </div>
-  </div>
-
-  <div class="movies-search">
-    <input
-      type="text"
-      placeholder="Rechercher par titre, réalisateur, acteur..."
-      [ngModel]="searchTerm()"
-      (ngModelChange)="onSearchChange($event)"
-    />
-  </div>
-
-  @if(selectedYearFilter() !== 'all' && (selectedView() === 'watched' ||
-  selectedView() === 'cinema')) {
   <p>Résultats affichés: {{ sortedMovies().length }}</p>
-  } @if(selectedView() === 'watchlist') {
+
+  <!-- Add movies to watchlist button -->
+  @if(selectedView() === 'watchlist') {
   <div class="watchlist-actions">
     <button
       class="btn btn-primary"
@@ -178,7 +30,10 @@
       Ajouter des films à ma watchlist
     </button>
   </div>
-  } @if(selectedView() === 'recommendations') {
+  }
+
+  <!-- Recommendations -->
+  @if(selectedView() === 'recommendations') {
   <div class="movies">
     @if (isLoadingRecommendations()) {
     <p>Chargement des recommandations...</p>
@@ -207,6 +62,8 @@
     </div>
     } }
   </div>
+
+  <!-- Movies by saga -->
   } @else if(selectedView() === 'sagas') {
   <div class="movies-by-saga">
     @for (sagaGroup of moviesBySaga(); track sagaGroup.saga) {
@@ -263,6 +120,8 @@
     </section>
     }
   </div>
+
+  <!-- Movies by actor -->
   } @else if(selectedView() === 'actors') {
   <div class="movies-by-saga">
     @for (actorGroup of moviesByActor(); track actorGroup.actor) {
@@ -320,6 +179,8 @@
     </section>
     }
   </div>
+
+  <!-- Movies by director -->
   } @else if(selectedView() === 'directors') {
   <div class="movies-by-saga">
     @for (directorGroup of moviesByDirector(); track directorGroup.director) {
@@ -377,6 +238,8 @@
     </section>
     }
   </div>
+
+  <!-- Classic Movies list -->
   } @else {
   <div class="movies">
     @for (movie of sortedMovies(); track `${movie.title}-${movie.releaseDate}`;

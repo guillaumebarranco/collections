@@ -381,4 +381,70 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
     seenAtCinema: false,
     owned: false,
   },
+
+  {
+    title: 'À tous les garçons que j\'ai aimés',
+    director: 'Susan Johnson',
+    rating: 0,
+    timesWatched: 0,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+  },
+
+  {
+    title: 'Avatar : De feu et de cendres',
+    director: 'James Cameron',
+    rating: 0,
+    timesWatched: 0,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+  },
+
+  {
+    title: 'Le Robot sauvage',
+    director: 'Chris Sanders',
+    rating: 0,
+    timesWatched: 0,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+  },
+
+  {
+    title: 'Raiponce',
+    director: 'Byron Howard, Nathan Greno',
+    rating: 0,
+    timesWatched: 0,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+  },
+
+  {
+    title: 'Running Man',
+    director: 'Edgar Wright',
+    rating: 0,
+    timesWatched: 0,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+  },
+
+  {
+    title: 'The Whale',
+    director: 'Darren Aronofsky',
+    rating: 0,
+    timesWatched: 0,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+  },
 ];
