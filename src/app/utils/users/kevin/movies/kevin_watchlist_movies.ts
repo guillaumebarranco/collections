@@ -1,3 +1,3 @@
-import { UserMovie } from '../../../../models/movie-model';
+import { UserMovies } from '../../../../models/movie-model';
 
-export const kevinWatchlistMovies: UserMovie[] = [];
+export const kevinWatchlistMovies: UserMovies = [];

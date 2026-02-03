@@ -1,6 +1,6 @@
-import { UserMovie } from '../../../../models/movie-model';
+import { UserMovies } from '../../../../models/movie-model';
 
-export const guillaumeMoviesSagaPage1: UserMovie[] = [
+export const guillaumeMoviesSagaPage1: UserMovies = [
   {
     title: "Harry Potter à l'école des sorciers",
     director: 'Chris Columbus',

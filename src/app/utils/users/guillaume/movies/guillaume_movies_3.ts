@@ -1,6 +1,6 @@
-import { UserMovie } from '../../../../models/movie-model';
+import { UserMovies } from '../../../../models/movie-model';
 
-export const guillaumeMoviesPage3: UserMovie[] = [
+export const guillaumeMoviesPage3: UserMovies = [
   {
     title: 'Kingsman: The Golden Circle',
     director: 'Matthew Vaughn',

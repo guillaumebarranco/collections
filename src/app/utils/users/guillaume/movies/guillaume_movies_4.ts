@@ -1,6 +1,6 @@
-import { UserMovie } from '../../../../models/movie-model';
+import { UserMovies } from '../../../../models/movie-model';
 
-export const guillaumeMoviesPage4: UserMovie[] = [
+export const guillaumeMoviesPage4: UserMovies = [
   {
     title: 'Maléfique',
     director: 'Robert Stromberg',

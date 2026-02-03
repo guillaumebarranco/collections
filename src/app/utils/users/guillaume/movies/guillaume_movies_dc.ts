@@ -1,6 +1,6 @@
-import { UserMovie } from '../../../../models/movie-model';
+import { UserMovies } from '../../../../models/movie-model';
 
-export const guillaumeMoviesDc: UserMovie[] = [
+export const guillaumeMoviesDc: UserMovies = [
   {
     title: 'Green Lantern',
     director: 'Martin Campbell',

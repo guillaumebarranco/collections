@@ -1,6 +1,6 @@
-import { UserMovie } from '../../../../models/movie-model';
+import { UserMovies } from '../../../../models/movie-model';
 
-export const guillaumeMoviesPage2: UserMovie[] = [
+export const guillaumeMoviesPage2: UserMovies = [
   {
     title: 'Chaos Walking',
     director: 'Doug Liman',

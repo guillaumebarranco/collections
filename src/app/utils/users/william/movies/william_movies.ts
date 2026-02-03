@@ -1,6 +1,6 @@
-import { UserMovie } from '../../../../models/movie-model';
+import { UserMovies } from '../../../../models/movie-model';
 
-export const williamMovies: UserMovie[] = [
+export const williamMovies: UserMovies = [
   {
     title: 'Cars',
     director: 'John Lasseter',

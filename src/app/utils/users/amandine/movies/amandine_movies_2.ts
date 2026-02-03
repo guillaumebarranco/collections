@@ -1,6 +1,6 @@
-import { UserMovie } from '../../../../models/movie-model';
+import { UserMovies } from '../../../../models/movie-model';
 
-export const amandineMovies2: UserMovie[] = [
+export const amandineMovies2: UserMovies = [
   {
     title: 'Frankenstein',
     director: 'Guillermo del Toro',

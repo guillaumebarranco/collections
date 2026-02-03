@@ -1,6 +1,6 @@
-import { UserMovie } from '../../../../models/movie-model';
+import { UserMovies } from '../../../../models/movie-model';
 
-export const guillaumeMoviesOtherSuperheroes: UserMovie[] = [
+export const guillaumeMoviesOtherSuperheroes: UserMovies = [
   {
     title: 'Deadpool',
     director: 'Tim Miller',

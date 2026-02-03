@@ -1,6 +1,6 @@
-import { UserMovie } from '../../../../models/movie-model';
+import { UserMovies } from '../../../../models/movie-model';
 
-export const guillaumeMoviesAnimated: UserMovie[] = [
+export const guillaumeMoviesAnimated: UserMovies = [
   {
     title: 'Dragons',
     director: 'Dean DeBlois, Chris Sanders',

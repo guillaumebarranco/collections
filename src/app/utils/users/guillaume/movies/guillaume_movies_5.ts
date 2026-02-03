@@ -1,6 +1,6 @@
-import { UserMovie } from '../../../../models/movie-model';
+import { UserMovies } from '../../../../models/movie-model';
 
-export const guillaumeMoviesPage5: UserMovie[] = [
+export const guillaumeMoviesPage5: UserMovies = [
   {
     title: 'Les Tuche',
     director: 'Olivier Baroux',

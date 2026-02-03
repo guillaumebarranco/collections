@@ -1,6 +1,6 @@
-import { UserMovie } from '../../../../models/movie-model';
+import { UserMovies } from '../../../../models/movie-model';
 
-export const ronanCinemaMovies: UserMovie[] = [
+export const ronanCinemaMovies: UserMovies = [
   {
     title: 'Mickey 17',
     director: 'Bong Joon-ho',

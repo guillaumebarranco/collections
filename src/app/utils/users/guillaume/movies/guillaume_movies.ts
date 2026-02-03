@@ -1,6 +1,6 @@
-import { UserMovie } from '../../../../models/movie-model';
+import { UserMovies } from '../../../../models/movie-model';
 
-export const guillaumeMoviesPage1: UserMovie[] = [
+export const guillaumeMoviesPage1: UserMovies = [
   {
     title: 'I, Robot',
     director: 'Alex Proyas',

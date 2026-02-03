@@ -1,6 +1,6 @@
-import { UserMovie } from '../../../../models/movie-model';
+import { UserMovies } from '../../../../models/movie-model';
 
-export const ronanWatchlistMovies: UserMovie[] = [
+export const ronanWatchlistMovies: UserMovies = [
   {
     title: 'La méthode Williams',
     director: 'Reinaldo Marcus Green',

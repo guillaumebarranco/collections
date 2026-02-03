@@ -1,6 +1,6 @@
-import { UserMovie } from '../../../../models/movie-model';
+import { UserMovies } from '../../../../models/movie-model';
 
-export const guillaumeMoviesLove: UserMovie[] = [
+export const guillaumeMoviesLove: UserMovies = [
   {
     title: 'Mon inconnue',
     director: 'Hugo Gélin',

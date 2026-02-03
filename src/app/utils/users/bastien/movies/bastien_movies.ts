@@ -1,6 +1,6 @@
-import { UserMovie } from '../../../../models/movie-model';
+import { UserMovies } from '../../../../models/movie-model';
 
-export const bastienMovies: UserMovie[] = [
+export const bastienMovies: UserMovies = [
   {
     title: 'I, Robot',
     director: 'Alex Proyas',

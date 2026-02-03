@@ -1,6 +1,6 @@
-import { UserMovie } from '../../../../models/movie-model';
+import { UserMovies } from '../../../../models/movie-model';
 
-export const ronanMovies: UserMovie[] = [
+export const ronanMovies: UserMovies = [
   {
     title: "Don't look up, déni cosmique",
     director: 'Adam McKay',

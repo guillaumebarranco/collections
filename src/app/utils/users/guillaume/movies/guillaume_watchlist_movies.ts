@@ -1,6 +1,6 @@
-import { UserMovie } from '../../../../models/movie-model';
+import { UserMovies } from '../../../../models/movie-model';
 
-export const guillaumeWatchlistMovies: UserMovie[] = [
+export const guillaumeWatchlistMovies: UserMovies = [
   {
     title: 'The Gentlemen',
     director: 'Guy Ritchie',
@@ -383,7 +383,7 @@ export const guillaumeWatchlistMovies: UserMovie[] = [
   },
 
   {
-    title: 'À tous les garçons que j\'ai aimés',
+    title: "À tous les garçons que j'ai aimés",
     director: 'Susan Johnson',
     rating: 0,
     timesWatched: 0,

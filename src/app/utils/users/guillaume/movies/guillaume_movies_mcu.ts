@@ -1,6 +1,6 @@
-import { UserMovie } from '../../../../models/movie-model';
+import { UserMovies } from '../../../../models/movie-model';
 
-export const guillaumeMoviesMcu: UserMovie[] = [
+export const guillaumeMoviesMcu: UserMovies = [
   {
     title: 'Avengers',
     director: 'Joss Whedon',
