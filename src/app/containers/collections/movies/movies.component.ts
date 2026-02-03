@@ -5,6 +5,7 @@ import {
   computed,
   effect,
   OnInit,
+  ChangeDetectionStrategy,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -64,6 +65,7 @@ import {
   ],
   templateUrl: './movies.component.html',
   styleUrls: ['./movies.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class MoviesComponent implements OnInit {
   router = inject(Router);
@@ -381,7 +383,7 @@ export class MoviesComponent implements OnInit {
   collapsedSagas = signal<Record<string, boolean>>({});
   collapsedActors = signal<Record<string, boolean>>({});
   collapsedDirectors = signal<Record<string, boolean>>({});
-  recommendations = signal<Movie[]>([]);
+  recommendations = signal<RecommendedMovie[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
   recommendationsUserId = signal<string>('');
 
@@ -578,14 +580,15 @@ export class MoviesComponent implements OnInit {
     try {
       const othersRated = await getOtherUsersMoviesRated(userId, 4);
 
-      const scoreMap = new Map<string, { count: number; maxRating: number }>();
+      const detailsMap = new Map<string, Map<string, number>>();
       for (const movie of othersRated) {
         const key = `${movie.title}|${movie.director}`;
-        const current = scoreMap.get(key) ?? { count: 0, maxRating: 0 };
-        scoreMap.set(key, {
-          count: current.count + 1,
-          maxRating: Math.max(current.maxRating, movie.rating ?? 0),
-        });
+        const userMap = detailsMap.get(key) ?? new Map<string, number>();
+        const prev = userMap.get(movie.userId) ?? 0;
+        if (movie.rating > prev) {
+          userMap.set(movie.userId, movie.rating);
+        }
+        detailsMap.set(key, userMap);
       }
 
       const seenKeys = new Set(
@@ -593,17 +596,32 @@ export class MoviesComponent implements OnInit {
       );
 
       const recommended = this.baseMoviesList()
-        .filter(
-          (movie) =>
-            !seenKeys.has(this.getMovieIdentityKey(movie)) &&
-            scoreMap.has(this.getMovieIdentityKey(movie))
-        )
+        .filter((movie) => {
+          const key = this.getMovieIdentityKey(movie);
+          return !seenKeys.has(key) && detailsMap.has(key);
+        })
+        .map((movie) => {
+          const details = detailsMap.get(this.getMovieIdentityKey(movie));
+          const recommendationDetails = details
+            ? Array.from(details.entries()).map(([userId, rating]) => ({
+                userId,
+                rating,
+              }))
+            : [];
+          return {
+            ...movie,
+            recommendationDetails,
+          };
+        })
         .sort((a, b) => {
-          const scoreA = scoreMap.get(this.getMovieIdentityKey(a))!;
-          const scoreB = scoreMap.get(this.getMovieIdentityKey(b))!;
-          if (scoreB.count !== scoreA.count) return scoreB.count - scoreA.count;
-          if (scoreB.maxRating !== scoreA.maxRating)
-            return scoreB.maxRating - scoreA.maxRating;
+          const detailsA = detailsMap.get(this.getMovieIdentityKey(a));
+          const detailsB = detailsMap.get(this.getMovieIdentityKey(b));
+          const countA = detailsA?.size ?? 0;
+          const countB = detailsB?.size ?? 0;
+          if (countB !== countA) return countB - countA;
+          const maxA = detailsA ? Math.max(...detailsA.values()) : 0;
+          const maxB = detailsB ? Math.max(...detailsB.values()) : 0;
+          if (maxB !== maxA) return maxB - maxA;
           return a.title.localeCompare(b.title);
         });
 
@@ -774,4 +792,25 @@ export class MoviesComponent implements OnInit {
     });
     this.isLoadingViewConfig = false;
   }
+
+  getMovieRecommendationText(movie: Movie): string {
+    const recommendationDetails =
+      (movie as RecommendedMovie).recommendationDetails || [];
+    if (recommendationDetails.length === 0) return '';
+
+    const parts = recommendationDetails.map(
+      (detail) => `${detail.userId} a donné ${detail.rating}★`
+    );
+    if (parts.length === 1) {
+      return `${parts[0]} à ce film`;
+    }
+    return `${parts.slice(0, -1).join(', ')} et ${
+      parts[parts.length - 1]
+    } à ce film`;
+  }
 }
+
+type RecommendationDetail = { userId: string; rating: number };
+type RecommendedMovie = Movie & {
+  recommendationDetails: RecommendationDetail[];
+};

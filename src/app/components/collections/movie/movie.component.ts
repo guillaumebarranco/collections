@@ -6,6 +6,7 @@ import {
   Output,
   computed,
   inject,
+  input,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -44,6 +45,9 @@ export class MovieComponent {
   @Input() readOnly = false;
   @Output() movieUpdated = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
+
+  recommendationView = input<boolean>(false);
+  recommendationText = input<string>('');
 
   isBaseEntityView = isBaseEntityView();
 

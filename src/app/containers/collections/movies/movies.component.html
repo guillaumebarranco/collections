@@ -191,9 +191,12 @@
       <app-movie
         [movie]="movie"
         [list]="recommendedMovies()"
+        [recommendationView]="selectedView() === 'recommendations'"
+        [recommendationText]="getMovieRecommendationText(movie)"
         [index]="i"
         [readOnly]="true"
-      ></app-movie>
+      >
+      </app-movie>
     </div>
     } }
   </div>

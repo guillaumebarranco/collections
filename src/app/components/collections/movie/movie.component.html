@@ -41,8 +41,8 @@
     <p class="movie-release-date">{{ movie.releaseDate | date : "yyyy" }}</p>
     @if (movie.timesWatched && movie.timesWatched > 1 && !isBaseEntityView) {
     <p class="movie-times-watched">🎬 Visionné {{ movie.timesWatched }} fois</p>
-    }
-    @if (!isBaseEntityView) {
+
+    } @if (!isBaseEntityView && !recommendationView()) {
     <div class="movie-rating entity-rating">
       <span class="stars">
         <span
@@ -52,7 +52,10 @@
       </span>
       <span class="rating-text">{{ movie.rating }}/5</span>
     </div>
+    } @if (isBaseEntityView) {
+    <p class="movie-genre">{{ movie.genre }}</p>
+    } @if (recommendationView()) {
+    <p class="movie-recommendation-text">{{ recommendationText() }}</p>
     }
-    <!-- <p class="movie-genre">{{ movie.genre }}</p> -->
   </div>
 </app-entity-card>
