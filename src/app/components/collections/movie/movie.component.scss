@@ -1,0 +1,29 @@
+@use "../../../styles/components.scss" as components;
+
+.movie-title {
+  @include components.component-title-base;
+}
+
+.movie-director {
+  @include components.component-author-base;
+}
+
+.movie-actors {
+  @include components.component-secondary-info-base;
+}
+
+.movie-length {
+  @include components.component-secondary-info-base;
+}
+
+.movie-release-date {
+  @include components.component-date-base;
+}
+
+.movie-times-watched {
+  @include components.component-times-base;
+}
+
+.movie-genre {
+  @include components.component-genre-base;
+}

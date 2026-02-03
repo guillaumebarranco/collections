@@ -1,7 +1,14 @@
-import { Component, inject, signal, computed, OnInit, effect } from '@angular/core';
+import {
+  Component,
+  inject,
+  signal,
+  computed,
+  OnInit,
+  effect,
+} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { MusicComponent } from '../../../components/music/music.component';
+import { MusicComponent } from '../../../components/collections/music/music.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import {
   ViewToggleComponent,
@@ -87,7 +94,10 @@ export class MusicsComponent implements OnInit {
         filter: this.selectedFilter(),
         sort: this.selectedSort(),
       };
-      this.localStorageService.setItem(this.viewPreferencesStorageKey, preferences);
+      this.localStorageService.setItem(
+        this.viewPreferencesStorageKey,
+        preferences
+      );
     });
   }
 
@@ -246,7 +256,10 @@ export class MusicsComponent implements OnInit {
     ) {
       this.selectedFilter.set(parsed.filter);
     }
-    if (parsed.sort && this.sortOptions.some((opt) => opt.value === parsed.sort)) {
+    if (
+      parsed.sort &&
+      this.sortOptions.some((opt) => opt.value === parsed.sort)
+    ) {
       this.selectedSort.set(parsed.sort);
     }
     this.isLoadingPreferences = false;

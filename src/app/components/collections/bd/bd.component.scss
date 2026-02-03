@@ -1,0 +1,21 @@
+@use "../../../styles/components.scss" as components;
+
+.book-title {
+  @include components.component-title-base;
+}
+
+.book-author {
+  @include components.component-author-base;
+}
+
+.book-pages {
+  @include components.component-secondary-info-base;
+}
+
+.book-read-times {
+  @include components.component-times-base;
+}
+
+.book-genre {
+  @include components.component-genre-base;
+}

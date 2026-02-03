@@ -1,0 +1,58 @@
+<app-entity-card>
+  @if (canEdit()) {
+  <button
+    entity-edit
+    type="button"
+    class="edit-button"
+    aria-label="Éditer le film"
+    (click)="navigateToEdit()"
+  >
+    &#9998;
+  </button>
+  } @if (getEntityQuizzs().length > 0) {
+  <button
+    entity-quizz
+    type="button"
+    class="quizz-button"
+    title="Voir les quizz"
+    (click)="openQuizzModal()"
+  >
+    🏆
+  </button>
+  }
+  <img
+    entity-cover
+    [src]="movie.coverUrl || '/movies_pictures/poster.jpg'"
+    [alt]="movie.title"
+    class="cover-image"
+    referrerpolicy="no-referrer"
+  />
+  <div entity-info>
+    <h3 class="movie-title">{{ movie.title }}</h3>
+    <p class="movie-director">Réalisé par {{ movie.director }}</p>
+    @if (movie.actors && movie.actors.length > 0) {
+    <p class="movie-actors">
+      Avec {{ movie.actors[0].name
+      }}{{ movie.actors.length > 1 ? ", " + movie.actors[1].name : "" }}
+    </p>
+    } @if (movie.length > 0) {
+    <p class="movie-length">{{ movie.length }} min</p>
+    }
+    <p class="movie-release-date">{{ movie.releaseDate | date : "yyyy" }}</p>
+    @if (movie.timesWatched && movie.timesWatched > 1 && !isBaseEntityView) {
+    <p class="movie-times-watched">🎬 Visionné {{ movie.timesWatched }} fois</p>
+    }
+    @if (!isBaseEntityView) {
+    <div class="movie-rating entity-rating">
+      <span class="stars">
+        <span
+          *ngFor="let star of getRatingStars(movie.rating || 0)"
+          [class]="'star star-' + star.type"
+        ></span>
+      </span>
+      <span class="rating-text">{{ movie.rating }}/5</span>
+    </div>
+    }
+    <!-- <p class="movie-genre">{{ movie.genre }}</p> -->
+  </div>
+</app-entity-card>

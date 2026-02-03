@@ -8,7 +8,7 @@ import {
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { MovieComponent } from '../../../components/movie/movie.component';
+import { MovieComponent } from '../../../components/collections/movie/movie.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import { ViewToggleComponent } from '../../../components/view-toggle/view-toggle.component';
 import {
@@ -127,7 +127,12 @@ export class MoviesComponent implements OnInit {
     });
 
     effect(() => {
-      if (this.isLoadingPreferences || this.isInitializing || this.isAdminView()) return;
+      if (
+        this.isLoadingPreferences ||
+        this.isInitializing ||
+        this.isAdminView()
+      )
+        return;
       const preferences = {
         view: this.selectedView(),
         sort: this.selectedSort(),

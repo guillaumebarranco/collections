@@ -9,3 +9,7 @@ export function getApiBaseUrl(): string {
   }
   return `${document.location.origin}/api`;
 }
+
+export function isBaseEntityView(): boolean {
+  return document.location.pathname.includes('/admin');
+}

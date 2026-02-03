@@ -1,7 +1,14 @@
-import { Component, inject, signal, computed, OnInit, effect } from '@angular/core';
+import {
+  Component,
+  inject,
+  signal,
+  computed,
+  OnInit,
+  effect,
+} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { ComicComponent } from '../../../components/comic/comic.component';
+import { ComicComponent } from '../../../components/collections/comic/comic.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import {
   ViewToggleComponent,
@@ -91,7 +98,10 @@ export class ComicsComponent implements OnInit {
         view: this.selectedView(),
         sort: this.selectedSort(),
       };
-      this.localStorageService.setItem(this.viewPreferencesStorageKey, preferences);
+      this.localStorageService.setItem(
+        this.viewPreferencesStorageKey,
+        preferences
+      );
     });
   }
 

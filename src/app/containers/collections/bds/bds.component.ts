@@ -1,7 +1,14 @@
-import { Component, inject, signal, computed, OnInit, effect } from '@angular/core';
+import {
+  Component,
+  inject,
+  signal,
+  computed,
+  OnInit,
+  effect,
+} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { BdComponent } from '../../../components/bd/bd.component';
+import { BdComponent } from '../../../components/collections/bd/bd.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import {
   ViewToggleComponent,
@@ -92,7 +99,10 @@ export class BdsComponent implements OnInit {
         view: this.selectedView(),
         sort: this.selectedSort(),
       };
-      this.localStorageService.setItem(this.viewPreferencesStorageKey, preferences);
+      this.localStorageService.setItem(
+        this.viewPreferencesStorageKey,
+        preferences
+      );
     });
   }
 

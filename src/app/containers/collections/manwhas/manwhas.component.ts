@@ -8,7 +8,7 @@ import {
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { ManwhaComponent } from '../../../components/manwha/manwha.component';
+import { ManwhaComponent } from '../../../components/collections/manwha/manwha.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import {
   ViewToggleComponent,

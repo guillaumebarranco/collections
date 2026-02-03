@@ -8,7 +8,7 @@ import {
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { BookComponent } from '../../../components/book/book.component';
+import { BookComponent } from '../../../components/collections/book/book.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import {
   ViewToggleComponent,
@@ -142,7 +142,11 @@ export class BooksComponent implements OnInit {
     });
 
     effect(() => {
-      if (this.isLoadingPreferences || this.isInitializing || this.isAdminView())
+      if (
+        this.isLoadingPreferences ||
+        this.isInitializing ||
+        this.isAdminView()
+      )
         return;
       const preferences = {
         view: this.selectedView(),

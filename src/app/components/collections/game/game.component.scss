@@ -1,0 +1,63 @@
+@use "../../../styles/components.scss" as components;
+
+.platine-container {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.8rem;
+}
+
+.game-title {
+  @include components.component-title-base;
+  font-size: 1rem;
+  line-height: 1.2;
+  margin-bottom: 6px;
+}
+
+.game-editor {
+  @include components.component-author-base;
+  font-size: 0.85rem;
+  margin-bottom: 6px;
+}
+
+.game-hero {
+  @include components.component-secondary-info-base;
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+}
+
+.game-platform {
+  @include components.component-secondary-info-base;
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+  color: #007bff;
+  font-weight: 500;
+}
+
+.game-saga {
+  @include components.component-secondary-info-base;
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+}
+
+.game-release {
+  @include components.component-date-base;
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+}
+
+.game-time {
+  @include components.component-secondary-info-base;
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+}
+
+.game-finished {
+  @include components.component-times-base;
+  font-size: 0.8rem;
+  margin-bottom: 6px;
+}
+
+.rating-text {
+  font-size: 0.8rem;
+}

@@ -1,0 +1,26 @@
+<div class="music-card">
+  <div class="music-cover">
+    <img
+      [src]="music().coverUrl || '/musics_pictures/default.jpg'"
+      [alt]="music().title"
+    />
+    <div class="music-overlay">
+      <div class="play-icon">▶</div>
+    </div>
+  </div>
+
+  <div class="music-content">
+    <h3 class="music-title">{{ music().title }}</h3>
+    <p class="music-artist">{{ music().artist }}</p>
+    <p class="music-album">{{ music().album }}</p>
+
+    <div class="music-footer">
+      <span class="music-duration">{{ formatDuration(music().duration) }}</span>
+      @if (music().rating > 0 && !isBaseEntityView) {
+      <span class="music-rating">{{ getRatingStars(music().rating) }}</span>
+      } @if (music().timesListened > 0 && !isBaseEntityView) {
+      <span class="music-listens">🎧 {{ music().timesListened }}</span>
+      }
+    </div>
+  </div>
+</div>

@@ -44,7 +44,7 @@ export const baseMangas: BaseManga[] = [
   {
     title: 'Boruto',
     author: 'Ukyo Kodachi, Masashi Kishimoto',
-    coverUrl: '/mangas_pictures/boruto.jpg',
+    coverUrl: '/mangas_pictures/91Q+iP7EnPL.jpg',
     genre: 'Shonen',
     nbTomes: 20,
     isFinished: false,
@@ -52,7 +52,7 @@ export const baseMangas: BaseManga[] = [
   {
     title: 'Dandadan',
     author: 'Yukinobu Tatsu',
-    coverUrl: '/mangas_pictures/dandadan.jpg',
+    coverUrl: '/mangas_pictures/81kHWcb7n4L.jpg',
     genre: 'Shonen',
     nbTomes: 12,
     isFinished: false,

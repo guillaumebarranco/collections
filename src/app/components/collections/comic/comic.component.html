@@ -1,0 +1,56 @@
+<app-entity-card>
+  @if (canEdit()) {
+  <button
+    entity-edit
+    type="button"
+    class="edit-button"
+    aria-label="Editer le comic"
+    (click)="requestEdit()"
+  >
+    &#9998;
+  </button>
+  } @if (getEntityQuizzs().length > 0) {
+  <button
+    entity-quizz
+    type="button"
+    class="quizz-button"
+    title="Voir les quizz"
+    (click)="openQuizzModal()"
+  >
+    🏆
+  </button>
+  }
+  <img
+    entity-cover
+    [src]="comic.coverUrl"
+    [alt]="comic.title"
+    class="cover-image"
+    referrerpolicy="no-referrer"
+  />
+  <div entity-info>
+    <h3 class="comic-title">{{ comic.title }}</h3>
+    <p class="comic-designer">Dessinateur : {{ comic.designer }}</p>
+    <p class="comic-writer">Scénariste : {{ comic.writer }}</p>
+
+    @if (comic.pages) {
+    <p class="comic-pages">{{ comic.pages }} pages</p>
+    } @if (comic.readDate.includes('-') && !isBaseEntityView) {
+    <p class="comic-read-times">
+      Lu le {{ comic.readDate | date : "dd/MM/yyyy" }}
+    </p>
+    } @if (comic.readTimes && comic.readTimes > 1 && !isBaseEntityView) {
+    <p class="comic-read-times">Lu {{ comic.readTimes }} fois</p>
+    }
+    @if (!isBaseEntityView) {
+    <div class="comic-rating entity-rating">
+      <span class="stars">
+        <span
+          *ngFor="let star of getRatingStars(comic.rating || 0)"
+          [class]="'star star-' + star.type"
+        ></span>
+      </span>
+      <span class="rating-text">{{ comic.rating }}/5</span>
+    </div>
+    }
+  </div>
+</app-entity-card>

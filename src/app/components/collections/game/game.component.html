@@ -1,0 +1,64 @@
+<app-entity-card>
+  @if (canEdit()) {
+  <button
+    entity-edit
+    type="button"
+    class="edit-button"
+    aria-label="Editer le jeu"
+    (click)="navigateToEdit()"
+  >
+    &#9998;
+  </button>
+  } @if (getEntityQuizzs().length > 0) {
+  <button
+    entity-quizz
+    type="button"
+    class="quizz-button"
+    title="Voir les quizz"
+    (click)="openQuizzModal()"
+  >
+    🏆
+  </button>
+  }
+  <img
+    entity-cover
+    [src]="game.coverUrl"
+    [alt]="game.title"
+    class="cover-image"
+    referrerpolicy="no-referrer"
+  />
+  <div entity-info>
+    <h3 class="game-title">{{ game.title }}</h3>
+    <p class="game-editor">{{ game.editor }}</p>
+    <p class="game-platform">Plateforme: {{ game.platform }}</p>
+    <p class="game-saga">Saga: {{ game.saga }}</p>
+    <p class="game-release">
+      Sortie: {{ game.releaseDate | date : "dd/MM/yyyy" }}
+    </p>
+    @if (game.platined && !isBaseEntityView) {
+    <div class="platine-container">
+      <span>Platiné</span>
+      <img src="/platine.jpg" alt="Trophée platine" width="15" />
+    </div>
+    }
+    @if (!isBaseEntityView) {
+    <p class="game-time">
+      Temps passé:
+      {{ getGameTimePlayed(game) }}h
+    </p>
+    <p class="game-finished">Terminé {{ game.timesFinished }} fois</p>
+
+    <div class="game-rating entity-rating">
+      <span class="stars">
+        <span
+          *ngFor="let star of getRatingStars(game.rating || 0)"
+          [class]="'star star-' + star.type"
+        >
+          {{ star.type === "full" ? "★" : star.type === "half" ? "☆" : "☆" }}
+        </span>
+      </span>
+      <span class="rating-text">{{ game.rating }}/5</span>
+    </div>
+    }
+  </div>
+</app-entity-card>

@@ -1,0 +1,65 @@
+<app-entity-card>
+  @if (canEdit()) {
+  <button
+    entity-edit
+    type="button"
+    class="edit-button"
+    aria-label="Editer le livre"
+    (click)="requestEdit()"
+  >
+    &#9998;
+  </button>
+  } @if (getEntityQuizzs().length > 0) {
+  <button
+    entity-quizz
+    type="button"
+    class="quizz-button"
+    title="Voir les quizz"
+    (click)="openQuizzModal()"
+  >
+    🏆
+  </button>
+  }
+  <img
+    entity-cover
+    [src]="book.coverUrl"
+    [alt]="book.title"
+    class="cover-image"
+    referrerpolicy="no-referrer"
+  />
+  <div entity-info>
+    <h3 class="book-title">{{ book.title }}</h3>
+    @if (book.saga && book.sagaOrder) {
+    <p class="book-saga">Tome {{ book.sagaOrder }}</p>
+    }
+    <p class="book-author">{{ book.author }}</p>
+    @if (book.pages) {
+    <p class="book-pages">{{ book.pages }} pages</p>
+    } @if (book.nbTomes) {
+    <p>
+      <span class="book-pages">{{ book.nbTomes }} tomes</span>
+      @if(!book.isFinished) {
+      <span class="book-pages"> (En cours)</span>
+      }
+    </p>
+    } @if (book.readDate.includes('-') && !isBaseEntityView) {
+    <p class="book-read-times">
+      Lu le {{ book.readDate | date : "dd/MM/yyyy" }}
+    </p>
+    } @if (book.readTimes && book.readTimes > 1 && !isBaseEntityView) {
+    <p class="book-read-times">Lu {{ book.readTimes }} fois</p>
+    } @if (!isBaseEntityView) {
+    <div class="book-rating entity-rating">
+      <span class="stars">
+        <span
+          *ngFor="let star of getRatingStars(book.rating || 0)"
+          [class]="'star star-' + star.type"
+        ></span>
+      </span>
+      <span class="rating-text">{{ book.rating }}/5</span>
+    </div>
+    } @if (isBaseEntityView) {
+    <p class="book-genre">{{ book.genre }}</p>
+    }
+  </div>
+</app-entity-card>
