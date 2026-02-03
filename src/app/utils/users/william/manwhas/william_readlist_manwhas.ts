@@ -1,3 +1,3 @@
-import { UserManwha } from '../../../../models/manwha-model';
+import { UserManwhas } from '../../../../models/manwha-model';
 
-export const williamReadListManwhas: UserManwha[] = [];
+export const williamReadListManwhas: UserManwhas = [];

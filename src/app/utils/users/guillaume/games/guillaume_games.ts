@@ -1,6 +1,6 @@
-import { UserGame } from '../../../../models/game-model';
+import { UserGames } from '../../../../models/game-model';
 
-export const guillaumeGames: UserGame[] = [
+export const guillaumeGames: UserGames = [
   // The Legend of Zelda
   {
     title: 'The Legend of Zelda: Ocarina of Time',

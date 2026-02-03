@@ -1,6 +1,6 @@
-import { UserManwha } from '../../../../models/manwha-model';
+import { UserManwhas } from '../../../../models/manwha-model';
 
-export const guillaumeReadListManwhas: UserManwha[] = [
+export const guillaumeReadListManwhas: UserManwhas = [
   {
     title: 'Sweet Home',
     author: 'Young-Chan Hwang',

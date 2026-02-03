@@ -1,2 +1,2 @@
-import { UserSerie } from '../../../../models/serie-model';
-export const kevinSeries: UserSerie[] = [];
+import { UserSeries } from '../../../../models/serie-model';
+export const kevinSeries: UserSeries = [];

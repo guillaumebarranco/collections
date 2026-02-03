@@ -1,6 +1,6 @@
-import { UserBook } from '../../../../models/book-model';
+import { UserBooks } from '../../../../models/book-model';
 
-export const guillaumeBooksFantasySaga: UserBook[] = [
+export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: 'Le grand éveil',
     author: 'Sara Schneider',

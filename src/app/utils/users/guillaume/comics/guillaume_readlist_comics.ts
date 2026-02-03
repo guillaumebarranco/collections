@@ -1,6 +1,6 @@
-import { UserComic } from '../../../../models/comic-model';
+import { UserComics } from '../../../../models/comic-model';
 
-export const guillaumeReadListComics: UserComic[] = [
+export const guillaumeReadListComics: UserComics = [
   {
     title: 'Brainiac',
     writer: 'Inconnu',

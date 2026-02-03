@@ -1,6 +1,6 @@
-import { UserManwha } from '../../../../models/manwha-model';
+import { UserManwhas } from '../../../../models/manwha-model';
 
-export const ronanManwhas: UserManwha[] = [
+export const ronanManwhas: UserManwhas = [
   {
     title: 'Noblesse',
     author: 'Son Jae-Ho',

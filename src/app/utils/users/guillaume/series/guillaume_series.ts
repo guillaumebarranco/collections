@@ -1,6 +1,6 @@
-import { UserSerie } from '../../../../models/serie-model';
+import { UserSeries } from '../../../../models/serie-model';
 
-export const guillaumeSeries: UserSerie[] = [
+export const guillaumeSeries: UserSeries = [
   {
     title: 'Black Mirror',
     director: 'Charlie Brooker',
@@ -1036,55 +1036,55 @@ export const guillaumeSeries: UserSerie[] = [
     title: 'Yu-Gi-Oh!',
     director: 'Kunihisa Sugishima',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 4,
-      seasonTimesWatched: 2,
+      {
+        seasonNumber: 1,
+        seasonRating: 4,
+        seasonTimesWatched: 2,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 2,
-      seasonRating: 4,
-      seasonTimesWatched: 2,
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 4,
+        seasonTimesWatched: 2,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 3,
-      seasonRating: 4,
-      seasonTimesWatched: 2,
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 4,
+        seasonTimesWatched: 2,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 4,
-      seasonRating: 4,
-      seasonTimesWatched: 2,
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 4,
+        seasonTimesWatched: 2,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 5,
-      seasonRating: 4,
-      seasonTimesWatched: 2,
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 4,
+        seasonTimesWatched: 2,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 6,
-      seasonRating: 4,
-      seasonTimesWatched: 2,
+      },
+      {
+        seasonNumber: 6,
+        seasonRating: 4,
+        seasonTimesWatched: 2,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 7,
-      seasonRating: 4,
-      seasonTimesWatched: 2,
+      },
+      {
+        seasonNumber: 7,
+        seasonRating: 4,
+        seasonTimesWatched: 2,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 8,
-      seasonRating: 4,
-      seasonTimesWatched: 2,
+      },
+      {
+        seasonNumber: 8,
+        seasonRating: 4,
+        seasonTimesWatched: 2,
         lastViewedDate: '',
-    }
-  ],
+      },
+    ],
     owned: false,
   },
   {
@@ -2180,73 +2180,73 @@ export const guillaumeSeries: UserSerie[] = [
     title: 'Dragon Ball Z',
     director: 'Akira Toriyama',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 4,
-      seasonTimesWatched: 2,
+      {
+        seasonNumber: 1,
+        seasonRating: 4,
+        seasonTimesWatched: 2,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 2,
-      seasonRating: 4,
-      seasonTimesWatched: 2,
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 4,
+        seasonTimesWatched: 2,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 3,
-      seasonRating: 4,
-      seasonTimesWatched: 2,
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 4,
+        seasonTimesWatched: 2,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 4,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 5,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 6,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 6,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 7,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 7,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 8,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 8,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 9,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 9,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 10,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 10,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 11,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 11,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    }
-  ],
+      },
+    ],
     owned: false,
   },
 
@@ -2254,37 +2254,37 @@ export const guillaumeSeries: UserSerie[] = [
     title: 'Dragon Ball GT',
     director: 'Akira Toriyama',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 3,
-      seasonTimesWatched: 3,
+      {
+        seasonNumber: 1,
+        seasonRating: 3,
+        seasonTimesWatched: 3,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 2,
-      seasonRating: 4,
-      seasonTimesWatched: 3,
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 4,
+        seasonTimesWatched: 3,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 3,
-      seasonRating: 4,
-      seasonTimesWatched: 3,
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 4,
+        seasonTimesWatched: 3,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 4,
-      seasonRating: 3,
-      seasonTimesWatched: 2,
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 3,
+        seasonTimesWatched: 2,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 5,
-      seasonRating: 4,
-      seasonTimesWatched: 2,
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 4,
+        seasonTimesWatched: 2,
         lastViewedDate: '',
-    }
-  ],
+      },
+    ],
     owned: false,
   },
 
@@ -2292,79 +2292,79 @@ export const guillaumeSeries: UserSerie[] = [
     title: 'Olive et Tom',
     director: 'Isamu Imakake',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 3,
-      seasonTimesWatched: 1,
+      {
+        seasonNumber: 1,
+        seasonRating: 3,
+        seasonTimesWatched: 1,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 2,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 3,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 4,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 5,
-      seasonRating: 3,
-      seasonTimesWatched: 1,
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 3,
+        seasonTimesWatched: 1,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 6,
-      seasonRating: 3,
-      seasonTimesWatched: 1,
+      },
+      {
+        seasonNumber: 6,
+        seasonRating: 3,
+        seasonTimesWatched: 1,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 7,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 7,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 8,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 8,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 9,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 9,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 10,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 10,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 11,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 11,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 12,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 12,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    }
-  ],
+      },
+    ],
     owned: false,
   },
 
@@ -2372,13 +2372,13 @@ export const guillaumeSeries: UserSerie[] = [
     title: 'Shaman king',
     director: 'Hiroyuki Takei',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 3.5,
-      seasonTimesWatched: 1,
+      {
+        seasonNumber: 1,
+        seasonRating: 3.5,
+        seasonTimesWatched: 1,
         lastViewedDate: '',
-    }
-  ],
+      },
+    ],
     owned: false,
   },
 
@@ -2386,109 +2386,109 @@ export const guillaumeSeries: UserSerie[] = [
     title: 'Bleach',
     director: 'Tite Kubo',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 3,
-      seasonTimesWatched: 1,
+      {
+        seasonNumber: 1,
+        seasonRating: 3,
+        seasonTimesWatched: 1,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 2,
-      seasonRating: 4,
-      seasonTimesWatched: 5,
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 4,
+        seasonTimesWatched: 5,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 3,
-      seasonRating: 4,
-      seasonTimesWatched: 5,
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 4,
+        seasonTimesWatched: 5,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 4,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 5,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 6,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 6,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 7,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 7,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 8,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 8,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 9,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 9,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 10,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 10,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 11,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 11,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 12,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 12,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 13,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 13,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 14,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 14,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 15,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 15,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 16,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 16,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 17,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 17,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    }
-  ],
+      },
+    ],
     owned: false,
   },
 
@@ -2496,25 +2496,25 @@ export const guillaumeSeries: UserSerie[] = [
     title: 'Les Chevaliers du Zodiaque',
     director: 'Masami Kurumada',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 3.5,
-      seasonTimesWatched: 1,
+      {
+        seasonNumber: 1,
+        seasonRating: 3.5,
+        seasonTimesWatched: 1,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 2,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 3,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    }
-  ],
+      },
+    ],
     owned: false,
   },
 
@@ -2522,49 +2522,49 @@ export const guillaumeSeries: UserSerie[] = [
     title: 'Totally Spies',
     director: 'Vincent Chalvon-Demersay, David Michel',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 3,
-      seasonTimesWatched: 1,
+      {
+        seasonNumber: 1,
+        seasonRating: 3,
+        seasonTimesWatched: 1,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 2,
-      seasonRating: 3,
-      seasonTimesWatched: 1,
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 3,
+        seasonTimesWatched: 1,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 3,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 4,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 5,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 6,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 6,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 7,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 7,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    }
-  ],
+      },
+    ],
     owned: false,
   },
 
@@ -2572,93 +2572,93 @@ export const guillaumeSeries: UserSerie[] = [
     title: 'Les super nanas',
     director: 'Craig McCracken',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 3,
-      seasonTimesWatched: 1,
+      {
+        seasonNumber: 1,
+        seasonRating: 3,
+        seasonTimesWatched: 1,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 2,
-      seasonRating: 3,
-      seasonTimesWatched: 1,
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 3,
+        seasonTimesWatched: 1,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 3,
-      seasonRating: 3,
-      seasonTimesWatched: 1,
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 3,
+        seasonTimesWatched: 1,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 4,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 5,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 6,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 6,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 7,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 7,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 8,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 8,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 9,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 9,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 10,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 10,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 11,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 11,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    }
-  ],
+      },
+    ],
     owned: false,
   },
 
   {
-    title: 'L\'école des champions',
+    title: "L'école des champions",
     director: 'Noboru Rokuda',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 3,
-      seasonTimesWatched: 1,
+      {
+        seasonNumber: 1,
+        seasonRating: 3,
+        seasonTimesWatched: 1,
         lastViewedDate: '',
-    },
-    {
-      seasonNumber: 2,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
         lastViewedDate: '',
-    }
-  ],
+      },
+    ],
     owned: false,
   },
   {
@@ -2675,4 +2675,3 @@ export const guillaumeSeries: UserSerie[] = [
     owned: false,
   },
 ];
-

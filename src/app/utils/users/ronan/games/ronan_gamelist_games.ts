@@ -1,6 +1,6 @@
-import { UserGame } from '../../../../models/game-model';
+import { UserGames } from '../../../../models/game-model';
 
-export const ronanGameListGames: UserGame[] = [
+export const ronanGameListGames: UserGames = [
   {
     title: 'The Legend of Zelda: Skyward Sword',
     editor: 'Nintendo',

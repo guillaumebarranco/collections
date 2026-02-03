@@ -1,6 +1,6 @@
-import { UserBook } from '../../../../models/book-model';
+import { UserBooks } from '../../../../models/book-model';
 
-export const guillaumeReadlistBooks: UserBook[] = [
+export const guillaumeReadlistBooks: UserBooks = [
   {
     title: 'Crime et chatiment',
     author: 'Fiodor Dostoïevski',

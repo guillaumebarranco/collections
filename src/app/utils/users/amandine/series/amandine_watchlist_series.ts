@@ -1,2 +1,2 @@
-import { UserSerie } from '../../../../models/serie-model';
-export const amandineWatchListSeries: UserSerie[] = [];
+import { UserSeries } from '../../../../models/serie-model';
+export const amandineWatchListSeries: UserSeries = [];

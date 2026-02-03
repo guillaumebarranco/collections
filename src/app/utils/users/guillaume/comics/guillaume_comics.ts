@@ -1,6 +1,6 @@
-import { UserComic } from '../../../../models/comic-model';
+import { UserComics } from '../../../../models/comic-model';
 
-export const guillaumeComics: UserComic[] = [
+export const guillaumeComics: UserComics = [
   {
     title: 'Watchmen',
     writer: 'Alan Moore',

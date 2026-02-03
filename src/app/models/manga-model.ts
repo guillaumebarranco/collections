@@ -18,4 +18,6 @@ export interface UserManga extends MandatoryMangaData {
   owned: boolean;
 }
 
+export type UserMangas = UserManga[];
+
 export interface Manga extends BaseManga, UserManga {}

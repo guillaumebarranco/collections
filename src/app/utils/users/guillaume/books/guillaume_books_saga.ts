@@ -1,6 +1,6 @@
-import { UserBook } from '../../../../models/book-model';
+import { UserBooks } from '../../../../models/book-model';
 
-export const guillaumeBooksSaga: UserBook[] = [
+export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Hunger Games',
     author: 'Suzanne Collins',

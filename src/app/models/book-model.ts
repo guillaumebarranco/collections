@@ -20,4 +20,6 @@ export interface UserBook extends MandatoryBookData {
   owned: boolean;
 }
 
+export type UserBooks = UserBook[];
+
 export interface Book extends BaseBook, UserBook {}

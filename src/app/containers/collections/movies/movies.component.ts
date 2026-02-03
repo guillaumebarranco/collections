@@ -10,13 +10,8 @@ import {
 import { CommonModule } from '@angular/common';
 import { MovieComponent } from '../../../components/collections/movie/movie.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
-import { ViewToggleComponent } from '../../../components/view-toggle/view-toggle.component';
+import { SortOption } from '../../../components/sort-dropdown/sort-dropdown.component';
 import {
-  SortDropdownComponent,
-  SortOption,
-} from '../../../components/sort-dropdown/sort-dropdown.component';
-import {
-  StatsDisplayComponent,
   StatItem,
   StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
@@ -62,12 +57,8 @@ type RecommendedMovie = Movie & {
   imports: [
     RouterLink,
     CommonModule,
-
     MovieComponent,
     MenuComponent,
-    ViewToggleComponent,
-    SortDropdownComponent,
-    StatsDisplayComponent,
     QuizzModalComponent,
     MoviesHeaderComponent,
   ],

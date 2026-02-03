@@ -1,6 +1,6 @@
-import { UserManga } from '../../../../models/manga-model';
+import { UserMangas } from '../../../../models/manga-model';
 
-export const ronanReadListMangas: UserManga[] = [
+export const ronanReadListMangas: UserMangas = [
   {
     title: 'Kingdom',
     author: 'Yasuhisa Hara',

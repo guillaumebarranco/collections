@@ -1,3 +1,3 @@
-import { UserBook } from '../../../../models/book-model';
+import { UserBooks } from '../../../../models/book-model';
 
-export const williamReadListBooks: UserBook[] = [];
+export const williamReadListBooks: UserBooks = [];

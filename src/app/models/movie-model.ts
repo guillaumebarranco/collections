@@ -23,4 +23,6 @@ export interface UserMovie extends MandatoryMovieData {
   owned: boolean;
 }
 
+export type UserMovies = UserMovie[];
+
 export interface Movie extends BaseMovie, UserMovie {}

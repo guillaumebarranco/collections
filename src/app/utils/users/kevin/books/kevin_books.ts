@@ -1,6 +1,6 @@
-import { UserBook } from '../../../../models/book-model';
+import { UserBooks } from '../../../../models/book-model';
 
-export const kevinBooks: UserBook[] = [
+export const kevinBooks: UserBooks = [
   {
     title: "L'étranger",
     author: 'Albert Camus',

@@ -1,6 +1,6 @@
-import { UserBd } from '../../../../models/bd-model';
+import { UserBds } from '../../../../models/bd-model';
 
-export const guillaumeBds: UserBd[] = [
+export const guillaumeBds: UserBds = [
   {
     writer: 'Stephane Jourdain',
     title: "L'Arnaque des nouveaux pères",

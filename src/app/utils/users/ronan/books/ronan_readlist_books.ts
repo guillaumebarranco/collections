@@ -1,6 +1,6 @@
-import { UserBook } from '../../../../models/book-model';
+import { UserBooks } from '../../../../models/book-model';
 
-export const ronanReadListBooks: UserBook[] = [
+export const ronanReadListBooks: UserBooks = [
   {
     title: 'Les Hauts de Hurlevent',
     author: 'Emily Brontë',

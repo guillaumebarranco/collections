@@ -18,4 +18,6 @@ export interface UserManwha extends MandatoryManwhaData {
   owned: boolean;
 }
 
+export type UserManwhas = UserManwha[];
+
 export interface Manwha extends BaseManwha, UserManwha {}

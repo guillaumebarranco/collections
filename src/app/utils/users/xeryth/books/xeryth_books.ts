@@ -1,6 +1,6 @@
-import { UserBook } from '../../../../models/book-model';
+import { UserBooks } from '../../../../models/book-model';
 
-export const xerythBooks: UserBook[] = [
+export const xerythBooks: UserBooks = [
   {
     title: 'Iron Prince',
     author: "Bryce O'Connor et Luke Chmilenko",

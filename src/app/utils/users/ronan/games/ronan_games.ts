@@ -1,6 +1,6 @@
-import { UserGame } from '../../../../models/game-model';
+import { UserGames } from '../../../../models/game-model';
 
-export const ronanGames: UserGame[] = [
+export const ronanGames: UserGames = [
   {
     title: 'Call of Duty 4: Modern Warfare',
     editor: 'Infinity Ward',

@@ -1,3 +1,3 @@
-import { UserBd } from '../../../../models/bd-model';
+import { UserBds } from '../../../../models/bd-model';
 
-export const xerythReadListBds: UserBd[] = [];
+export const xerythReadListBds: UserBds = [];

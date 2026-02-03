@@ -19,4 +19,6 @@ export interface UserBd extends MandatoryBdData {
   owned: boolean;
 }
 
+export type UserBds = UserBd[];
+
 export interface Bd extends BaseBd, UserBd {}

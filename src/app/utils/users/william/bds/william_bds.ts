@@ -1,3 +1,3 @@
-import { UserBd } from '../../../../models/bd-model';
+import { UserBds } from '../../../../models/bd-model';
 
-export const williamBds: UserBd[] = [];
+export const williamBds: UserBds = [];

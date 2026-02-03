@@ -249,6 +249,8 @@
         [movie]="movie"
         [list]="sortedMovies()"
         [index]="i"
+        [readOnly]="true"
+        [isWatchList]="selectedView() === 'watchlist'"
         [quizzs]="quizzs()"
         (movieUpdated)="refreshMovies()"
         (openQuizz)="openQuizzModal($event)"

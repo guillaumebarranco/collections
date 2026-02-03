@@ -1,6 +1,6 @@
-import { UserSerie } from '../../../../models/serie-model';
+import { UserSeries } from '../../../../models/serie-model';
 
-export const ronanSeries: UserSerie[] = [
+export const ronanSeries: UserSeries = [
   {
     title: 'Black Mirror',
     director: 'Charlie Brooker',
@@ -4304,4 +4304,3 @@ export const ronanSeries: UserSerie[] = [
     owned: true,
   },
 ];
-

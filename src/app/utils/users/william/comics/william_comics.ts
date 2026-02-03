@@ -1,3 +1,3 @@
-import { UserComic } from '../../../../models/comic-model';
+import { UserComics } from '../../../../models/comic-model';
 
-export const williamComics: UserComic[] = [];
+export const williamComics: UserComics = [];

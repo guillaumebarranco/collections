@@ -1,3 +1,3 @@
-import { UserManga } from '../../../../models/manga-model';
+import { UserMangas } from '../../../../models/manga-model';
 
-export const bastienMangas: UserManga[] = [];
+export const bastienMangas: UserMangas = [];

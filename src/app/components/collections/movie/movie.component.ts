@@ -9,7 +9,7 @@ import {
   input,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Params, Router } from '@angular/router';
 import { Movie } from '../../../models/movie-model';
 import { Quizz, EntityType } from '../../../models/quizz-model';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
@@ -17,7 +17,7 @@ import { EditMovieComponent } from '../../../containers/edit/edit-movie/edit-mov
 import { EntityCardComponent } from '../../entity-card/entity-card.component';
 import { AuthService } from '../../../core/auth.service';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
-import { isBaseEntityView } from '../../../core/config';
+import { getApiBaseUrl, isBaseEntityView } from '../../../core/config';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -45,6 +45,7 @@ export class MovieComponent {
   @Input() readOnly = false;
   @Output() movieUpdated = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
+  isWatchList = input<boolean>(false);
 
   recommendationView = input<boolean>(false);
   recommendationText = input<string>('');
@@ -58,6 +59,11 @@ export class MovieComponent {
       this.authService.isAdmin() && this.router.url.startsWith('/admin');
     return isAdminView || this.authService.canEdit(directId || parentId);
   });
+
+  private getActiveUserId(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    return params['id'] ?? 'guillaume';
+  }
 
   navigateToEdit(): void {
     const directId = this.activatedRoute.snapshot.params['id'];
@@ -109,5 +115,37 @@ export class MovieComponent {
     const entityQuizzs = this.getEntityQuizzs();
     if (entityQuizzs.length === 0) return;
     this.openQuizz.emit(entityQuizzs);
+  }
+
+  async addMovieFromWatchlist(): Promise<void> {
+    try {
+      const response = await fetch(
+        `${getApiBaseUrl()}/movies/move-movie-from-watchlist-to-watched`,
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            userId: this.getActiveUserId(),
+            movies: [this.movie],
+            watchlist: false,
+          }),
+        }
+      );
+
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn(
+          "Échec de l'ajout batch des films :",
+          payload?.error || response.statusText
+        );
+        return;
+      }
+
+      this.movieUpdated.emit();
+    } catch (error) {
+      console.warn("Erreur réseau lors de l'ajout batch des films.", error);
+    }
   }
 }

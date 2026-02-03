@@ -1,6 +1,6 @@
-import { UserBook } from '../../../../models/book-model';
+import { UserBooks } from '../../../../models/book-model';
 
-export const ronanBooks: UserBook[] = [
+export const ronanBooks: UserBooks = [
   {
     title: 'Le Comte de Monte-Cristo',
     author: 'Alexandre Dumas',

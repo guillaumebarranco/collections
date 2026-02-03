@@ -1,5 +1,5 @@
-import { UserSerie } from '../../../../models/serie-model';
-export const guillaumeWatchListSeries: UserSerie[] = [
+import { UserSeries } from '../../../../models/serie-model';
+export const guillaumeWatchListSeries: UserSeries = [
   {
     title: 'Ahsoka',
     director: 'Dave Filoni',
@@ -34,4 +34,3 @@ export const guillaumeWatchListSeries: UserSerie[] = [
     owned: false,
   },
 ];
-

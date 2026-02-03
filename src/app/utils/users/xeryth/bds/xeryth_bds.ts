@@ -1,3 +1,3 @@
-import { UserBd } from '../../../../models/bd-model';
+import { UserBds } from '../../../../models/bd-model';
 
-export const xerythBds: UserBd[] = [];
+export const xerythBds: UserBds = [];

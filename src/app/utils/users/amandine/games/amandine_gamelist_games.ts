@@ -1,3 +1,3 @@
-import { UserGame } from '../../../../models/game-model';
+import { UserGames } from '../../../../models/game-model';
 
-export const amandineGameListGames: UserGame[] = [];
+export const amandineGameListGames: UserGames = [];

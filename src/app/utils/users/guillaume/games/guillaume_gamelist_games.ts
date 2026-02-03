@@ -1,6 +1,6 @@
-import { UserGame } from '../../../../models/game-model';
+import { UserGames } from '../../../../models/game-model';
 
-export const guillaumeGameListGames: UserGame[] = [
+export const guillaumeGameListGames: UserGames = [
   {
     title: 'Black Myth : Wukong',
     editor: 'Game Science',

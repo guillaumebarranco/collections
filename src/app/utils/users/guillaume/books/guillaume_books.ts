@@ -1,6 +1,6 @@
-import { UserBook } from '../../../../models/book-model';
+import { UserBooks } from '../../../../models/book-model';
 
-export const guillaumeBooks: UserBook[] = [
+export const guillaumeBooks: UserBooks = [
   {
     title: 'Une enfance en nORd',
     author: 'Marion Cuerq',

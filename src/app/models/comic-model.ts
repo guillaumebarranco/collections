@@ -17,4 +17,6 @@ export interface UserComic extends MandatoryComicData {
   owned: boolean;
 }
 
+export type UserComics = UserComic[];
+
 export interface Comic extends BaseComic, UserComic {}

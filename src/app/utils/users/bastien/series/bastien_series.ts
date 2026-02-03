@@ -1,6 +1,6 @@
-import { UserSerie } from '../../../../models/serie-model';
+import { UserSeries } from '../../../../models/serie-model';
 
-const bastienSeries: UserSerie[] = [
+const bastienSeries: UserSeries = [
   {
     title: 'Avatar: The Last Airbender',
     director: 'Michael Dante DiMartino, Bryan Konietzko',
@@ -1141,4 +1141,3 @@ const bastienSeries: UserSerie[] = [
     owned: false,
   },
 ];
-

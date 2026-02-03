@@ -1,6 +1,6 @@
-import { UserManwha } from '../../../../models/manwha-model';
+import { UserManwhas } from '../../../../models/manwha-model';
 
-export const guillaumeManwhas: UserManwha[] = [
+export const guillaumeManwhas: UserManwhas = [
   {
     title: 'The Gamer',
     author: 'Sung San-Young',

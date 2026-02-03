@@ -1,6 +1,6 @@
-import { UserSerie } from '../../../../models/serie-model';
+import { UserSeries } from '../../../../models/serie-model';
 
-export const ronanWatchlistSeries: UserSerie[] = [
+export const ronanWatchlistSeries: UserSeries = [
   {
     title: 'Castle',
     director: 'Andrew W. Marlowe',
@@ -242,4 +242,3 @@ export const ronanWatchlistSeries: UserSerie[] = [
     owned: false,
   },
 ];
-

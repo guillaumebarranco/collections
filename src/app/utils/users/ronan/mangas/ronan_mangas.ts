@@ -1,6 +1,6 @@
-import { UserManga } from '../../../../models/manga-model';
+import { UserMangas } from '../../../../models/manga-model';
 
-export const ronanMangas: UserManga[] = [
+export const ronanMangas: UserMangas = [
   {
     title: 'Naruto',
     author: 'Masashi Kishimoto',

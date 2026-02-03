@@ -23,4 +23,6 @@ export interface UserGame extends MandatoryGameData {
   owned: boolean;
 }
 
+export type UserGames = UserGame[];
+
 export interface Game extends BaseGame, UserGame {}

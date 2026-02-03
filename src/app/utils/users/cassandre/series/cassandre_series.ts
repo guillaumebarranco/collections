@@ -1,6 +1,6 @@
-import { UserSerie } from '../../../../models/serie-model';
+import { UserSeries } from '../../../../models/serie-model';
 
-export const cassandreSeries: UserSerie[] = [
+export const cassandreSeries: UserSeries = [
   {
     title: 'One Piece',
     director: 'Eiichiro Oda',

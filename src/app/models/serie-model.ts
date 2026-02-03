@@ -32,4 +32,6 @@ export interface UserSerie extends MandatorySerieData {
   owned: boolean;
 }
 
+export type UserSeries = UserSerie[];
+
 export interface Serie extends BaseSerie, UserSerie {}

@@ -1,5 +1,3 @@
-
-
 export interface MandatoryMusicData {
   title: string;
   artist: string;
@@ -17,5 +15,7 @@ export interface UserMusic extends MandatoryMusicData {
   rating: number;
   timesListened: number;
 }
+
+export type UserMusics = UserMusic[];
 
 export interface Music extends BaseMusic, UserMusic {}

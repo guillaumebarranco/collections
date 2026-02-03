@@ -1,6 +1,6 @@
-import { UserSerie } from '../../../../models/serie-model';
+import { UserSeries } from '../../../../models/serie-model';
 
-export const cassandreWatchListSeries: UserSerie[] = [
+export const cassandreWatchListSeries: UserSeries = [
   {
     title: 'Samurai Champloo',
     director: 'Shinichirō Watanabe',

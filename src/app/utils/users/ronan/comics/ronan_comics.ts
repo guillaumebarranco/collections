@@ -1,6 +1,6 @@
-import { UserComic } from '../../../../models/comic-model';
+import { UserComics } from '../../../../models/comic-model';
 
-export const ronanComics: UserComic[] = [
+export const ronanComics: UserComics = [
   {
     title: 'Watchmen',
     writer: 'Alan Moore',
@@ -10,7 +10,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: 'Justice League : Crise d\'identité',
+    title: "Justice League : Crise d'identité",
     writer: 'Brad Meltzer',
     readDate: '2023-04-23',
     rating: 4.5,
@@ -18,7 +18,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: 'Justice League : La Ligue de Justice d\'Amérique',
+    title: "Justice League : La Ligue de Justice d'Amérique",
     writer: 'Johns',
     readDate: '',
     rating: 3,
@@ -50,7 +50,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: 'Justice League : La Ligue d\'Injustice',
+    title: "Justice League : La Ligue d'Injustice",
     writer: 'Johns',
     readDate: '',
     rating: 4,
@@ -122,7 +122,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: 'L\'autre terre',
+    title: "L'autre terre",
     writer: 'Inconnu',
     readDate: '',
     rating: 0,
@@ -162,7 +162,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: 'L\'odyssée du mal',
+    title: "L'odyssée du mal",
     writer: 'Inconnu',
     readDate: '',
     rating: 3.5,
@@ -226,7 +226,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: 'D\'entre les ombres',
+    title: "D'entre les ombres",
     writer: 'Inconnu',
     readDate: '',
     rating: 0,
@@ -250,7 +250,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: 'Les patients d\'Arkham',
+    title: "Les patients d'Arkham",
     writer: 'Inconnu',
     readDate: '',
     rating: 0,
@@ -266,7 +266,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: 'Le trône d\'Atlantide',
+    title: "Le trône d'Atlantide",
     writer: 'Inconnu',
     readDate: '',
     rating: 0,
@@ -402,7 +402,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: 'L\'odyssée - 1re partie',
+    title: "L'odyssée - 1re partie",
     writer: 'Inconnu',
     readDate: '',
     rating: 3,
@@ -410,7 +410,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: 'L\'odyssée - 2e partie',
+    title: "L'odyssée - 2e partie",
     writer: 'Inconnu',
     readDate: '',
     rating: 3.5,
@@ -810,7 +810,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: 'Batman : L\'énigme de Red Hood',
+    title: "Batman : L'énigme de Red Hood",
     writer: 'Judd Winick',
     readDate: '',
     rating: 0,
@@ -1090,7 +1090,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: 'Batman : L\'asile d\'Arkham',
+    title: "Batman : L'asile d'Arkham",
     writer: 'Dan Slott',
     readDate: '',
     rating: 0,
@@ -1274,7 +1274,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: 'Spider-Man : L\'empire',
+    title: "Spider-Man : L'empire",
     writer: 'Kaare Andrews',
     readDate: '',
     rating: 0,
@@ -1338,7 +1338,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: 'Captain America : Le soldat de l\'hiver',
+    title: "Captain America : Le soldat de l'hiver",
     writer: 'Ed Brubaker',
     readDate: '',
     rating: 0,
@@ -1386,7 +1386,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: 'Wolverine : L\'arme X',
+    title: "Wolverine : L'arme X",
     writer: 'Barry Windsor-Smith',
     readDate: '',
     rating: 0,
@@ -1394,7 +1394,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: 'Spider-Man : N\'est plus !',
+    title: "Spider-Man : N'est plus !",
     writer: 'Stan Lee',
     readDate: '',
     rating: 0,
@@ -1586,7 +1586,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: 'Thanos : L\'ascension',
+    title: "Thanos : L'ascension",
     writer: 'Aaron, Jason',
     readDate: '',
     rating: 3,
@@ -1602,7 +1602,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: 'Thanos : Le gant de l\'infini',
+    title: "Thanos : Le gant de l'infini",
     writer: 'Jim Starlin',
     readDate: '',
     rating: 3,
@@ -1610,7 +1610,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: 'Thanos : La guerre de l\'infini',
+    title: "Thanos : La guerre de l'infini",
     writer: 'Jim Starlin',
     readDate: '',
     rating: 3,
@@ -1618,7 +1618,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: 'Thanos : La croisade de l\'infini',
+    title: "Thanos : La croisade de l'infini",
     writer: 'Jim Starlin',
     readDate: '',
     rating: 3,
@@ -1730,7 +1730,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: 'Spider-Man : L\'attaque',
+    title: "Spider-Man : L'attaque",
     writer: 'Inconnu',
     readDate: '',
     rating: 0,
@@ -1834,7 +1834,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: 'Fantastic Four : L\'histoire d\'une vie',
+    title: "Fantastic Four : L'histoire d'une vie",
     writer: 'Mark Russell',
     readDate: '',
     rating: 4,
@@ -1842,7 +1842,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: 'Fantastic Four : L\'appel des cendres',
+    title: "Fantastic Four : L'appel des cendres",
     writer: 'Collectif',
     readDate: '',
     rating: 0,
@@ -1858,7 +1858,7 @@ export const ronanComics: UserComic[] = [
     owned: true,
   },
   {
-    title: 'Wolverine : Ennemi d\'État',
+    title: "Wolverine : Ennemi d'État",
     writer: 'Mark Millar',
     readDate: '',
     rating: 0,
@@ -1872,5 +1872,5 @@ export const ronanComics: UserComic[] = [
     rating: 0,
     readTimes: 1,
     owned: true,
-  }
+  },
 ];

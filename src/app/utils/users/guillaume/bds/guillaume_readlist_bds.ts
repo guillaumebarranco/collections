@@ -1,6 +1,6 @@
-import { UserBd } from '../../../../models/bd-model';
+import { UserBds } from '../../../../models/bd-model';
 
-export const guillaumeReadListBds: UserBd[] = [
+export const guillaumeReadListBds: UserBds = [
   {
     title: 'Goupil ou face',
     writer: 'Lou Lubie',

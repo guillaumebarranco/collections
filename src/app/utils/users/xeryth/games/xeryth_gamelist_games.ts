@@ -1,3 +1,3 @@
-import { UserGame } from '../../../../models/game-model';
+import { UserGames } from '../../../../models/game-model';
 
-export const xerythGameListGames: UserGame[] = [];
+export const xerythGameListGames: UserGames = [];
