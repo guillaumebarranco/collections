@@ -216,38 +216,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
   },
   {
-    title: 'One Battle After Another',
-    director: 'Paul Thomas Anderson',
-    actors: [
-      {
-        name: 'Jesse Eisenberg',
-      },
-      {
-        name: 'Woody Harrelson',
-      },
-      {
-        name: 'Isla Fisher',
-      },
-      {
-        name: 'Dave Franco',
-      },
-      {
-        name: 'Morgan Freeman',
-      },
-      {
-        name: 'Justice Smith',
-      },
-      {
-        name: 'Rosamund Pike',
-      },
-    ],
-    coverUrl: '/movies_pictures/one_battle_after_another.jpg',
-    releaseDate: '2025-01-01',
-    length: 0,
-    genre: '',
-    saga: '',
-  },
-  {
     title: "Conjuring : L'Heure du jugement",
     director: 'Michael Chaves',
     actors: [
