@@ -146,4 +146,31 @@ export const baseSeriesApi: BaseSerie[] = [
       }
     ],
   },
+
+  {
+    title: 'Dune : Prophecy',
+    director: 'Diane Ademu-John, Alison Schapker',
+    actors: [
+      {
+        name: 'Travis Fimmel',
+      },
+      {
+        name: 'Emily Watson',
+      },
+      {
+        name: 'Mark Strong',
+      },
+    ],
+    coverUrl: 'https://m.media-amazon.com/images/M/MV5BOTc2YTFiOTItZmRiNi00OWE5LThhOTEtMmZhMTkzYmRiNjIxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2024-11-17',
+    endDate: '2024-12-23',
+    genre: 'Science Fiction',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 6,
+        totalLength: 391,
+      },
+    ],
+  },
 ];

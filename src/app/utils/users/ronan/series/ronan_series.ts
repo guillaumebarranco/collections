@@ -4303,4 +4303,18 @@ export const ronanSeries: UserSeries = [
     ],
     owned: true,
   },
+
+  {
+    title: 'Dune : Prophecy',
+    director: 'Diane Ademu-John, Alison Schapker',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 3.25,
+        seasonTimesWatched: 1,
+        lastViewedDate: '2025-01-15',
+      }
+    ],
+    owned: true,
+  },
 ];
