@@ -232,4 +232,25 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Aventure, Famille',
     saga: 'Sonic',
   },
+
+  {
+    title: 'Avignon',
+    director: 'Johann Dionnet',
+    actors: [
+      {
+        name: 'Baptiste Lecaplain',
+      },
+      {
+        name: 'Alison Wheeler',
+      },
+      {
+        name: 'Elisa Erka',
+      },
+    ],
+    coverUrl: 'https://fr.web.img2.acsta.net/img/81/32/8132bc17bd057afa6a76fca0304b0124.jpg',
+    releaseDate: '2025-06-18',
+    length: 99,
+    genre: 'Comédie',
+    saga: '',
+  },
 ];

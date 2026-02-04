@@ -9677,4 +9677,15 @@ export const ronanMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
   },
+
+  {
+    title: 'Avignon',
+    director: 'Johann Dionnet',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2026-02-04',
+    lastViewedDate: '2026-02-04',
+    seenAtCinema: false,
+    owned: false,
+  },
 ];
