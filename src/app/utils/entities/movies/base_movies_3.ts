@@ -114,7 +114,14 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Swiss Army Man',
     director: 'Dan Kwan, Daniel Scheinert',
-    actors: [{ name: 'Paul Dano' }],
+    actors: [
+      {
+        name: 'Paul Dano',
+      },
+      {
+        name: 'Daniel Radcliffe',
+      },
+    ],
     coverUrl: '/movies_pictures/swiss_army_man.jpg',
     releaseDate: '2016-07-01',
     length: 97,
@@ -651,7 +658,17 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'No Country for Old Men',
     director: 'Joel Coen, Ethan Coen',
-    actors: [{ name: 'Tommy Lee Jones' }],
+    actors: [
+      {
+        name: 'Tommy Lee Jones',
+      },
+      {
+        name: 'Josh Brolin',
+      },
+      {
+        name: 'Javier Bardem',
+      },
+    ],
     coverUrl: '/movies_pictures/no_country_for_old_men.jpg',
     releaseDate: '2007-11-09',
     length: 122,

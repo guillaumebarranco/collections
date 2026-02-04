@@ -34,7 +34,17 @@ export const baseMoviesDc: BaseMovie[] = [
   {
     title: 'Batman Forever',
     director: 'Joel Schumacher',
-    actors: [{ name: 'Val Kilmer' }],
+    actors: [
+      {
+        name: 'Val Kilmer',
+      },
+      {
+        name: 'Tommy Lee Jones',
+      },
+      {
+        name: 'Jim Carrey',
+      }
+    ],
     coverUrl: '/movies_pictures/51678-batman-forever-0-150-0-225-crop.jpg',
     releaseDate: '1995-06-16',
     length: 121,
@@ -44,7 +54,14 @@ export const baseMoviesDc: BaseMovie[] = [
   {
     title: 'Batman & Robin',
     director: 'Joel Schumacher',
-    actors: [{ name: 'George Clooney' }],
+    actors: [
+      {
+        name: 'George Clooney',
+      },
+      {
+        name: 'Arnold Schwarzenegger',
+      }
+    ],
     coverUrl: '/movies_pictures/batman_and_robin.jpg',
     releaseDate: '1997-06-20',
     length: 125,
@@ -54,7 +71,14 @@ export const baseMoviesDc: BaseMovie[] = [
   {
     title: 'Batman Begins',
     director: 'Christopher Nolan',
-    actors: [{ name: 'Christian Bale' }],
+    actors: [
+      {
+        name: 'Christian Bale',
+      },
+      {
+        name: 'Liam Neeson',
+      }
+    ],
     coverUrl: '/movies_pictures/51784-batman-begins-0-150-0-225-crop.jpg',
     releaseDate: '2005-06-15',
     length: 140,
@@ -64,7 +88,14 @@ export const baseMoviesDc: BaseMovie[] = [
   {
     title: 'The Dark Knight : Le Chevalier Noir',
     director: 'Christopher Nolan',
-    actors: [{ name: 'Christian Bale' }],
+    actors: [
+      {
+        name: 'Christian Bale',
+      },
+      {
+        name: 'Heath Ledger',
+      }
+    ],
     coverUrl: '/movies_pictures/the_dark_knight.jpg',
     releaseDate: '2008-07-18',
     length: 152,
@@ -74,7 +105,17 @@ export const baseMoviesDc: BaseMovie[] = [
   {
     title: 'The Dark Knight Rises',
     director: 'Christopher Nolan',
-    actors: [{ name: 'Christian Bale' }],
+    actors: [
+      {
+        name: 'Christian Bale',
+      },
+      {
+        name: 'Tom Hardy',
+      },
+      {
+        name: 'Anne Hathaway',
+      }
+    ],
     coverUrl:
       '/movies_pictures/16550-the-dark-knight-rises-0-150-0-225-crop.jpg',
     releaseDate: '2012-07-20',
@@ -89,6 +130,9 @@ export const baseMoviesDc: BaseMovie[] = [
       {
         name: 'Robert Pattinson',
       },
+      {
+        name: 'Paul Dano',
+      }
     ],
     coverUrl: '/movies_pictures/348914-the-batman-0-150-0-225-crop.jpg',
     releaseDate: '2022-03-04',
@@ -102,6 +146,18 @@ export const baseMoviesDc: BaseMovie[] = [
     actors: [
       {
         name: 'Ben Affleck',
+      },
+      {
+        name: 'Henry Cavill',
+      },
+      {
+        name: 'Jesse Eisenberg',
+      },
+      {
+        name: 'Gal Gadot',
+      },
+      {
+        name: 'Jeremy Irons',
       }
     ],
     coverUrl: '/movies_pictures/batman_v_superman.jpg',
@@ -144,6 +200,9 @@ export const baseMoviesDc: BaseMovie[] = [
     actors: [
       {
         name: 'Dwayne Johnson',
+      },
+      {
+        name: 'Pierce Brosnan',
       }
     ],
     coverUrl: '/movies_pictures/369179-black-adam-0-150-0-225-crop.jpg',
@@ -158,6 +217,15 @@ export const baseMoviesDc: BaseMovie[] = [
     actors: [
       {
         name: 'Ben Affleck',
+      },
+      {
+        name: 'Henry Cavill',
+      },
+      {
+        name: 'Gal Gadot',
+      },
+      {
+        name: 'Jeremy Irons',
       }
     ],
     coverUrl:
@@ -173,6 +241,9 @@ export const baseMoviesDc: BaseMovie[] = [
     actors: [
       {
         name: 'Will Smith',
+      },
+      {
+        name: 'Margot Robbie',
       }
     ],
     coverUrl: '/movies_pictures/suicide_squad.jpg',
@@ -201,6 +272,12 @@ export const baseMoviesDc: BaseMovie[] = [
     actors: [
       {
         name: 'David Corenswet',
+      },
+      {
+        name: 'Rachel Brosnahan',
+      },
+      {
+        name: 'Nicholas Hoult',
       }
     ],
     coverUrl: '/movies_pictures/superman_2025.jpg',

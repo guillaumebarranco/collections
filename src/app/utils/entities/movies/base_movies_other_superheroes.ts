@@ -28,7 +28,20 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: 'Daredevil',
     director: 'Mark Steven Johnson',
-    actors: [{ name: 'Ben Affleck' }],
+    actors: [
+      {
+        name: 'Ben Affleck',
+      },
+      {
+        name: 'Jennifer Garner',
+      },
+      {
+        name: 'Michael Clarke Duncan',
+      },
+      {
+        name: 'Colin Farrell',
+      }
+    ],
     coverUrl: '/movies_pictures/daredevil.jpg',
     releaseDate: '2003-02-14',
     length: 103,
@@ -38,7 +51,14 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: 'X-Men',
     director: 'Bryan Singer',
-    actors: [{ name: 'Patrick Stewart' }],
+    actors: [
+      {
+        name: 'Patrick Stewart',
+      },
+      {
+        name: 'Hugh Jackman',
+      }
+    ],
     coverUrl: '/movies_pictures/27723-x-men-0-150-0-225-crop.jpg',
     releaseDate: '2000-07-14',
     length: 104,

@@ -249,7 +249,14 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'James Bond: Meurs un autre jour',
     director: 'Lee Tamahori',
-    actors: [{ name: 'Pierce Brosnan' }],
+    actors: [
+      {
+        name: 'Pierce Brosnan',
+      },
+      {
+        name: 'Halle Berry',
+      },
+    ],
     coverUrl: '/movies_pictures/james_bond_demain_ne_meurs_jamaiis.jpg',
     releaseDate: '2002-11-22',
     length: 133,

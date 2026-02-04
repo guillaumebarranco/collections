@@ -36,7 +36,14 @@ export const baseMoviesMcu: BaseMovie[] = [
   {
     title: "Avengers : L'Ère d'Ultron",
     director: 'Joss Whedon',
-    actors: [{ name: 'Robert Downey Jr.' }],
+    actors: [
+      {
+        name: 'Robert Downey Jr.',
+      },
+      {
+        name: 'Chris Evans',
+      }
+    ],
     coverUrl:
       '/movies_pictures/81605-avengers-age-of-ultron-0-150-0-225-crop.jpg',
     releaseDate: '2015-05-01',
@@ -51,6 +58,9 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Robert Downey Jr.',
       },
+      {
+        name: 'Chris Evans',
+      }
     ],
     coverUrl:
       '/movies_pictures/226661-avengers-infinity-war-0-150-0-225-crop.jpg',
@@ -66,6 +76,9 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Robert Downey Jr.',
       },
+      {
+        name: 'Chris Evans',
+      }
     ],
     coverUrl: '/movies_pictures/226660-avengers-endgame-0-150-0-225-crop.jpg',
     releaseDate: '2019-04-26',
@@ -101,7 +114,14 @@ export const baseMoviesMcu: BaseMovie[] = [
   {
     title: 'Captain America : Civil War',
     director: 'Anthony Russo, Joe Russo',
-    actors: [{ name: 'Chris Evans' }],
+    actors: [
+      {
+        name: 'Chris Evans',
+      },
+      {
+        name: 'Robert Downey Jr.',
+      }
+    ],
     coverUrl:
       '/movies_pictures/194402-captain-america-civil-war-0-150-0-225-crop.jpg',
     releaseDate: '2016-05-06',
@@ -116,6 +136,9 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Anthony Mackie',
       },
+      {
+        name: 'Harrison Ford',
+      }
     ],
     coverUrl: '/movies_pictures/captain_america_brave_new_world.webp',
     releaseDate: '2025-02-14',
@@ -171,6 +194,9 @@ export const baseMoviesMcu: BaseMovie[] = [
     actors: [
       {
         name: 'Edward Norton',
+      },
+      {
+        name: 'Liv Tyler',
       }
     ],
     coverUrl: '/movies_pictures/50827-the-incredible-hulk-0-150-0-225-crop.jpg',
@@ -202,7 +228,14 @@ export const baseMoviesMcu: BaseMovie[] = [
   {
     title: 'Thor: The Dark World',
     director: 'Alan Taylor',
-    actors: [{ name: 'Chris Hemsworth' }],
+    actors: [
+      {
+        name: 'Chris Hemsworth',
+      },
+      {
+        name: 'Nathalie Portman',
+      }
+    ],
     coverUrl:
       '/movies_pictures/bnX5PqAdQZRXSw3aX3DutDcdso5-0-150-0-225-crop.jpg',
     releaseDate: '2013-11-08',
@@ -213,7 +246,14 @@ export const baseMoviesMcu: BaseMovie[] = [
   {
     title: 'Thor: Ragnarok',
     director: 'Taika Waititi',
-    actors: [{ name: 'Chris Hemsworth' }],
+    actors: [
+      {
+        name: 'Chris Hemsworth',
+      },
+      {
+        name: 'Mark Ruffalo',
+      }
+    ],
     coverUrl: '/movies_pictures/209382-thor-ragnarok-0-150-0-225-crop.jpg',
     releaseDate: '2017-11-03',
     length: 130,
@@ -227,6 +267,9 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Chris Hemsworth',
       },
+      {
+        name: 'Nathalie Portman',
+      }
     ],
     coverUrl:
       '/movies_pictures/543002-thor-love-and-thunder-0-150-0-225-crop.jpg',
@@ -242,6 +285,9 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Brie Larson',
       },
+      {
+        name: 'Samuel L. Jackson',
+      }
     ],
     coverUrl: '/movies_pictures/226750-captain-marvel-0-150-0-225-crop.jpg',
     releaseDate: '2019-03-08',
@@ -335,7 +381,17 @@ export const baseMoviesMcu: BaseMovie[] = [
   {
     title: 'Les Gardiens de la Galaxie',
     director: 'James Gunn',
-    actors: [{ name: 'Chris Pratt' }],
+    actors: [
+      {
+        name: 'Chris Pratt',
+      },
+      {
+        name: 'Zoe Saldana',
+      },
+      {
+        name: 'Dave Bautista',
+      }
+    ],
     coverUrl:
       '/movies_pictures/93676-guardians-of-the-galaxy-0-150-0-225-crop.jpg',
     releaseDate: '2014-08-01',
@@ -346,7 +402,17 @@ export const baseMoviesMcu: BaseMovie[] = [
   {
     title: 'Les Gardiens de la Galaxie Vol. 2',
     director: 'James Gunn',
-    actors: [{ name: 'Chris Pratt' }],
+    actors: [
+      {
+        name: 'Chris Pratt',
+      },
+      {
+        name: 'Zoe Saldana',
+      },
+      {
+        name: 'Dave Bautista',
+      }
+    ],
     coverUrl: '/movies_pictures/les_gardiens_de_la_galaxie_2.jpg',
     releaseDate: '2017-05-05',
     length: 136,
@@ -360,6 +426,12 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Chris Pratt',
       },
+      {
+        name: 'Zoe Saldana',
+      },
+      {
+        name: 'Dave Bautista',
+      }
     ],
     coverUrl:
       '/movies_pictures/379711-guardians-of-the-galaxy-volume-3-0-150-0-225-crop.jpg',
@@ -371,7 +443,17 @@ export const baseMoviesMcu: BaseMovie[] = [
   {
     title: 'Ant-Man',
     director: 'Peyton Reed',
-    actors: [{ name: 'Paul Rudd' }],
+    actors: [
+      {
+        name: 'Paul Rudd',
+      },
+      {
+        name: 'Evangeline Lilly',
+      },
+      {
+        name: 'Michael Douglas',
+      }
+    ],
     coverUrl: '/movies_pictures/83557-ant-man-0-150-0-225-crop.jpg',
     releaseDate: '2015-07-17',
     length: 117,
@@ -385,6 +467,12 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Paul Rudd',
       },
+      {
+        name: 'Evangeline Lilly',
+      },
+      {
+        name: 'Michael Douglas',
+      }
     ],
     coverUrl:
       '/movies_pictures/296341-ant-man-and-the-wasp-0-150-0-225-crop.jpg',
@@ -400,6 +488,12 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Paul Rudd',
       },
+      {
+        name: 'Evangeline Lilly',
+      },
+      {
+        name: 'Michael Douglas',
+      }
     ],
     coverUrl:
       '/movies_pictures/566237-ant-man-and-the-wasp-quantumania-0-150-0-225-crop.jpg',
@@ -411,7 +505,17 @@ export const baseMoviesMcu: BaseMovie[] = [
   {
     title: 'Spider-Man: Homecoming',
     director: 'Jon Watts',
-    actors: [{ name: 'Tom Holland' }],
+    actors: [
+      {
+        name: 'Tom Holland',
+      },
+      {
+        name: 'Robert Downey Jr.',
+      },
+      {
+        name: 'Zendaya',
+      }
+    ],
     coverUrl:
       '/movies_pictures/242710-spider-man-homecoming-0-150-0-225-crop.jpg',
     releaseDate: '2017-07-07',
@@ -426,6 +530,15 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Tom Holland',
       },
+      {
+        name: 'Jake Gyllenhaal',
+      },
+      {
+        name: 'Samuel L. Jackson',
+      },
+      {
+        name: 'Zendaya',
+      }
     ],
     coverUrl:
       '/movies_pictures/362977-spider-man-far-from-home-0-150-0-225-crop.jpg',
@@ -441,6 +554,12 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Tom Holland',
       },
+      {
+        name: 'Willem Dafoe',
+      },
+      {
+        name: 'Zendaya',
+      }
     ],
     coverUrl:
       '/movies_pictures/560787-spider-man-no-way-home-0-150-0-225-crop.jpg',
