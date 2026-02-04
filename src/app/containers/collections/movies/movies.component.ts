@@ -227,7 +227,11 @@ export class MoviesComponent implements OnInit {
   visibleMovieViewOptions = computed(() =>
     this.isAdminView()
       ? this.movieViewOptions.filter(
-          (option) => option.value === 'watched' || option.value === 'sagas'
+          (option) =>
+            option.value === 'watched' ||
+            option.value === 'sagas' ||
+            option.value === 'actors' ||
+            option.value === 'directors'
         )
       : this.movieViewOptions.filter((option) =>
           this.isViewOptionVisible(option.value)

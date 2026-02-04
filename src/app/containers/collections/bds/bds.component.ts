@@ -31,7 +31,7 @@ import {
   getTotalTomesBdRead,
   getTotalBdPages,
 } from '../../../utils/stats.utils';
-import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
+import { ActivatedRoute, Params, Router } from '@angular/router';
 import {
   getAllBaseBds,
   getAllBds,
@@ -47,7 +47,6 @@ import { AuthService } from '../../../core/auth.service';
   selector: 'app-bds',
   standalone: true,
   imports: [
-    RouterLink,
     CommonModule,
     FormsModule,
     BdComponent,

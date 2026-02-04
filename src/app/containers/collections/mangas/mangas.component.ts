@@ -31,7 +31,7 @@ import {
   getEstimatedMangaReadingTime,
   PAGES_PER_MANGA_TOME,
 } from '../../../utils/stats.utils';
-import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
+import { ActivatedRoute, Params, Router } from '@angular/router';
 import {
   getAllBaseMangas,
   getAllMangas,
@@ -47,7 +47,6 @@ import { AuthService } from '../../../core/auth.service';
   selector: 'app-mangas',
   standalone: true,
   imports: [
-    RouterLink,
     CommonModule,
     FormsModule,
     MangaComponent,

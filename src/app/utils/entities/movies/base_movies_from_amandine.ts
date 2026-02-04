@@ -78,7 +78,11 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
   {
     title: 'Pinocchio',
     director: 'Guillermo del Toro, Mark Gustafson',
-    actors: [{ name: 'Gregory Mann' }, { name: 'Ewan McGregor' }],
+    actors: [
+      { name: 'Gregory Mann' },
+      { name: 'Ewan McGregor' },
+      { name: 'Tom Hanks' },
+    ],
     coverUrl: '/movies_pictures/Pinocchio_(2022_animated_film).jpg',
     releaseDate: '2022-12-09',
     length: 117,

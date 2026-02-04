@@ -30,7 +30,7 @@ import {
   getSerieTotalLengthMinutes,
   getSerieWatchedLengthMinutes,
 } from '../../../utils/series.utils';
-import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
+import { ActivatedRoute, Params, Router } from '@angular/router';
 import {
   getAllBaseSeries,
   getAllSeries,
@@ -43,7 +43,6 @@ import { AuthService } from '../../../core/auth.service';
 @Component({
   selector: 'app-series',
   imports: [
-    RouterLink,
     CommonModule,
     FormsModule,
     SerieComponent,

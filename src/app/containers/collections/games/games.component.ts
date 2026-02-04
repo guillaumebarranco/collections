@@ -19,18 +19,14 @@ import { GamesHeaderComponent } from './games-header/games-header.component';
 import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
 import { Game } from '../../../models/game-model';
 import { Quizz } from '../../../models/quizz-model';
-import {
-  formatTimeStats,
-  ItemWithGameLength,
-  TimeStats,
-} from '../../../utils/stats.utils';
+
 import {
   GameView,
   gameViewOptions,
   gamesSortOptions,
   getSortedGames,
 } from './games.utils';
-import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
+import { ActivatedRoute, Params, Router } from '@angular/router';
 import {
   getAllBaseGames,
   getAllGames,
@@ -50,7 +46,6 @@ import {
   selector: 'app-games',
   standalone: true,
   imports: [
-    RouterLink,
     CommonModule,
     FormsModule,
     GameComponent,

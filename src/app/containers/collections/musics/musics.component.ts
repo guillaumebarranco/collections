@@ -21,7 +21,7 @@ import {
   Album,
 } from '../../../components/album-modal/album-modal.component';
 import { Music } from '../../../models/music-model';
-import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
+import { ActivatedRoute, Params, Router } from '@angular/router';
 import {
   getAllBaseMusics,
   getAllMusics,
@@ -40,7 +40,6 @@ import {
 @Component({
   selector: 'app-musics',
   imports: [
-    RouterLink,
     CommonModule,
     FormsModule,
     MusicComponent,
