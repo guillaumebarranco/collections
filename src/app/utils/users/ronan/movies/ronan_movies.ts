@@ -9667,4 +9667,14 @@ export const ronanMovies: UserMovies = [
     seenAtCinema: false,
     owned: true,
   },
+  {
+    title: 'Sonic 2, le film',
+    director: 'Jeff Fowler',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2026-02-04',
+    lastViewedDate: '2026-02-04',
+    seenAtCinema: false,
+    owned: false,
+  },
 ];
