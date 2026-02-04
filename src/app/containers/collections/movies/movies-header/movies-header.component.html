@@ -8,19 +8,19 @@
     }}) }
   </h1>
 
-  @if(allMoviesCount() !== 0) {
+  @if(isAdminView()) {
+  <button (click)="openAddMovieAdminDialog()">Ajouter un nouveau film</button>
+  } @if(allMoviesCount() !== 0) {
   <div class="movies-header-top">
-    @if (!isAdminView()) {
     <app-view-toggle
       [toggleClass]="'movies-view-toggle'"
       [options]="visibleMovieViewOptions()"
       [selected]="selectedView()"
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
-    }
 
+    @if (!isAdminView()) {
     <div class="movies-actions">
-      @if (!isAdminView()) {
       <button
         class="btn btn-small"
         type="button"
@@ -69,8 +69,8 @@
       >
         ✅ Possédés
       </button>
-      }
     </div>
+    }
   </div>
   } @if(filteredMoviesByYearCount() === 0 && selectedView() !== 'watchlist') {
   <div class="empty-state">
@@ -94,17 +94,14 @@
     </button>
     }
   </div>
-  }
-
+  } @if (!isAdminView()) {
   <div class="movies-stats-bloc">
-    @if (!isAdminView()) {
     <app-stats-display
       [stats]="stats()"
       [count]="filteredMoviesByYearCount()"
       countLabel="films"
     >
     </app-stats-display>
-    }
 
     <div class="movies-filters">
       <!-- Dropdown de filtre d'années -->
@@ -130,6 +127,7 @@
       </app-sort-dropdown>
     </div>
   </div>
+  }
 
   <div class="movies-search">
     <input

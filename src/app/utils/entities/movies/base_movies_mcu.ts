@@ -152,6 +152,12 @@ export const baseMoviesMcu: BaseMovie[] = [
     actors: [
       {
         name: 'Robert Downey Jr.',
+      },
+      {
+        name: 'Gwyneth Paltrow',
+      },
+      {
+        name: 'Jon Favreau',
       }
     ],
     coverUrl: '/movies_pictures/50825-iron-man-0-150-0-225-crop.jpg',

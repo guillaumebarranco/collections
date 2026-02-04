@@ -16,14 +16,19 @@ const router = express.Router();
 function formatBaseMovie(entity: any): string {
   const actors = Array.isArray(entity.actors) ? entity.actors : [];
   const actorsLines = actors
-    .map((name: string) => `      {\n        name: '${escapeString(name)}',\n      },`)
+    .map(
+      (name: string) =>
+        `      {\n        name: '${escapeString(name)}',\n      },`
+    )
     .join('\n');
 
-  return `  {\n    title: '${escapeString(entity.title)}',\n    director: '${escapeString(
-    entity.director
-  )}',\n    actors: [\n${
-    actorsLines || '      { name: \'Inconnu\' },'
-  }\n    ],\n    coverUrl: '${escapeString(entity.coverUrl || '')}',\n    releaseDate: '${escapeString(
+  return `  {\n    title: '${escapeString(
+    entity.title
+  )}',\n    director: '${escapeString(entity.director)}',\n    actors: [\n${
+    actorsLines || "      { name: 'Inconnu' },"
+  }\n    ],\n    coverUrl: '${escapeString(
+    entity.coverUrl || ''
+  )}',\n    releaseDate: '${escapeString(
     entity.releaseDate || ''
   )}',\n    length: ${entity.length || 0},\n    genre: '${escapeString(
     entity.genre || ''
@@ -31,9 +36,11 @@ function formatBaseMovie(entity: any): string {
 }
 
 function formatUserMovie(user: any): string {
-  return `  {\n    title: '${escapeString(user.title)}',\n    director: '${escapeString(
-    user.director
-  )}',\n    rating: ${user.rating ?? 0},\n    timesWatched: ${
+  return `  {\n    title: '${escapeString(
+    user.title
+  )}',\n    director: '${escapeString(user.director)}',\n    rating: ${
+    user.rating ?? 0
+  },\n    timesWatched: ${
     user.timesWatched ?? 0
   },\n    firstViewedDate: '${escapeString(
     user.firstViewedDate || ''
@@ -124,18 +131,25 @@ router.post('/add', (req: any, res: any) => {
     );
     fs.writeFileSync(BASE_MOVIES_API_FILE, baseMovieContent, 'utf8');
 
-    const userMoviesFile = getUserMoviesTargetFile(userId);
-    const userMovieContent = appendObjectToArrayFile(
-      userMoviesFile,
-      formatUserMovie(userPayload)
-    );
-    fs.writeFileSync(userMoviesFile, userMovieContent, 'utf8');
+    if (userId !== 'admin') {
+      const userMoviesFile = getUserMoviesTargetFile(userId);
+      const userMovieContent = appendObjectToArrayFile(
+        userMoviesFile,
+        formatUserMovie(userPayload)
+      );
+      fs.writeFileSync(userMoviesFile, userMovieContent, 'utf8');
 
-    res.json({
-      ok: true,
-      entityFile: BASE_MOVIES_API_FILE,
-      userFile: userMoviesFile,
-    });
+      res.json({
+        ok: true,
+        entityFile: BASE_MOVIES_API_FILE,
+        userFile: userMoviesFile,
+      });
+    } else {
+      res.json({
+        ok: true,
+        entityFile: BASE_MOVIES_API_FILE,
+      });
+    }
   } catch (error: any) {
     res.status(500).json({ error: error.message || 'Unknown error' });
   }

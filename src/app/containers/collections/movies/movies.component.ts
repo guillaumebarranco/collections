@@ -225,9 +225,13 @@ export class MoviesComponent implements OnInit {
   movieViewOptions: { value: MovieView; label: string }[] = movieViewOptions;
 
   visibleMovieViewOptions = computed(() =>
-    this.movieViewOptions.filter((option) =>
-      this.isViewOptionVisible(option.value)
-    )
+    this.isAdminView()
+      ? this.movieViewOptions.filter(
+          (option) => option.value === 'watched' || option.value === 'sagas'
+        )
+      : this.movieViewOptions.filter((option) =>
+          this.isViewOptionVisible(option.value)
+        )
   );
 
   yearFilterOptions = yearFilterOptions;

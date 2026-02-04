@@ -18,6 +18,8 @@ import { AuthService } from '../../../../core/auth.service';
 import { MovieView } from '../movies.utils';
 import { StatItem } from '../../../../components/stats-display/stats-display.component';
 import { FormsModule } from '@angular/forms';
+import { AddMovieComponent } from '../../../add/add-movie/add-movie.component';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-movies-header',
@@ -27,6 +29,8 @@ import { FormsModule } from '@angular/forms';
     ViewToggleComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
+    MatDialogModule,
+    AddMovieComponent,
   ],
   templateUrl: './movies-header.component.html',
   styleUrls: ['./movies-header.component.scss'],
@@ -56,6 +60,7 @@ export class MoviesHeaderComponent {
   private readonly authService = inject(AuthService);
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
+  private readonly dialog = inject(MatDialog);
 
   selectedSort = signal<string>('lastViewedDate');
   selectedYearFilter = signal<string>('all');
@@ -81,6 +86,11 @@ export class MoviesHeaderComponent {
       ? 'Films possédés'
       : 'Films visionnés';
   });
+
+  private userId(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    return params['id'] ?? 'guillaume';
+  }
 
   isAdminView(): boolean {
     return this.authService.isAdmin() && this.router.url.startsWith('/admin');
@@ -129,5 +139,19 @@ export class MoviesHeaderComponent {
     return hasNameParam
       ? `/${params['id']}/select-movies-owned`
       : '/select-movies-owned';
+  }
+
+  openAddMovieAdminDialog(): void {
+    const dialogRef = this.dialog.open(AddMovieComponent, {
+      data: { userId: 'admin' },
+      width: '760px',
+      maxWidth: '95vw',
+    });
+
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result?.created) {
+        this.router.navigate(['/admin/movies']);
+      }
+    });
   }
 }
