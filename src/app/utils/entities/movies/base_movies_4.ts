@@ -938,7 +938,11 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Agent Stone',
     director: 'Zachary Wigon',
-    actors: [{ name: 'Inconnu' }],
+    actors: [
+      {
+        name: 'Gal Gadot',
+      }
+    ],
     coverUrl: '/movies_pictures/agent-stone-affiche-francaise-1486123.webp',
     releaseDate: '2024-01-19',
     length: 0,
@@ -1039,7 +1043,14 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'The Electric State',
     director: 'Anthony Russo, Joe Russo',
-    actors: [{ name: 'Millie Bobby Brown' }],
+    actors: [
+      {
+        name: 'Millie Bobby Brown',
+      },
+      {
+        name: 'Chris Pratt',
+      }
+    ],
     coverUrl: '/movies_pictures/91d914b62cd0ddfc76c549ccd619abce.webp',
     releaseDate: '2025-01-10',
     length: 128,
@@ -1059,7 +1070,14 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Boss Level',
     director: 'Joe Carnahan',
-    actors: [{ name: 'Frank Grillo' }],
+    actors: [
+      {
+        name: 'Frank Grillo',
+      },
+      {
+        name: 'Mel Gibson',
+      }
+    ],
     coverUrl: '/movies_pictures/bosslelvel.png',
     releaseDate: '2020-03-06',
     length: 100,
