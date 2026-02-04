@@ -1034,7 +1034,7 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Speed',
     director: 'Jan de Bont',
-    actors: [{ name: 'Keanu Reeves' }],
+    actors: [{ name: 'Keanu Reeves' }, { name: 'Sandra Bullock' }],
     coverUrl: '/movies_pictures/50904-speed-0-150-0-225-crop.jpg',
     releaseDate: '1994-06-10',
     length: 116,
@@ -1044,7 +1044,17 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Pulp Fiction',
     director: 'Quentin Tarantino',
-    actors: [{ name: 'John Travolta' }],
+    actors: [
+      {
+        name: 'John Travolta',
+      },
+      {
+        name: 'Samuel L. Jackson',
+      },
+      {
+        name: 'Uma Thurman',
+      },
+    ],
     coverUrl: '/movies_pictures/51444-pulp-fiction-0-150-0-225-crop.jpg',
     releaseDate: '1994-10-14',
     length: 154,
@@ -1054,7 +1064,17 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'La cité de la peur',
     director: 'Alain Berbérian',
-    actors: [{ name: 'Patrick Timsit' }],
+    actors: [
+      {
+        name: 'Patrick Timsit',
+      },
+      {
+        name: 'Gérard Darmon',
+      },
+      {
+        name: 'Alain Chabat',
+      },
+    ],
     coverUrl:
       '/movies_pictures/42599-fear-city-a-family-style-comedy-0-150-0-225-crop.jpg',
     releaseDate: '1994-03-16',

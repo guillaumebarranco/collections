@@ -461,7 +461,14 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Basic Instinct',
     director: 'Paul Verhoeven',
-    actors: [{ name: 'Michael Douglas' }],
+    actors: [
+      {
+        name: 'Michael Douglas',
+      },
+      {
+        name: 'Sharon Stone',
+      }
+    ],
     coverUrl: '/movies_pictures/basic_instinct.jpg',
     releaseDate: '1992-03-20',
     length: 128,
@@ -501,7 +508,14 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Point Break',
     director: 'Kathryn Bigelow',
-    actors: [{ name: 'Patrick Swayze' }],
+    actors: [
+      {
+        name: 'Patrick Swayze',
+      },
+      {
+        name: 'Keanu Reeves',
+      }
+    ],
     coverUrl: '/movies_pictures/51157-point-break-0-150-0-225-crop.jpg',
     releaseDate: '1991-07-12',
     length: 122,
@@ -571,7 +585,14 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Les visiteurs',
     director: 'Jean-Marie Poiré',
-    actors: [{ name: 'Jean Reno' }],
+    actors: [
+      {
+        name: 'Jean Reno',
+      },
+      {
+        name: 'Christian Clavier',
+      }
+    ],
     coverUrl: '/movies_pictures/45066-the-visitors-0-150-0-225-crop.jpg',
     releaseDate: '1993-01-27',
     length: 107,
@@ -581,7 +602,14 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Demolition Man',
     director: 'Marco Brambilla',
-    actors: [{ name: 'Sylvester Stallone' }],
+    actors: [
+      {
+        name: 'Sylvester Stallone',
+      },
+      {
+        name: 'Wesley Snipes',
+      }
+    ],
     coverUrl: '/movies_pictures/46868-demolition-man-0-150-0-225-crop.jpg',
     releaseDate: '1993-10-08',
     length: 115,
@@ -744,7 +772,14 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Les Evadés',
     director: 'Frank Darabont',
-    actors: [{ name: 'Tim Robbins' }],
+    actors: [
+      {
+        name: 'Tim Robbins',
+      },
+      {
+        name: 'Morgan Freeman',
+      }
+    ],
     coverUrl: '/movies_pictures/18686447.jpg',
     releaseDate: '1994-09-23',
     length: 142,
@@ -774,7 +809,20 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Adam à travers le temps',
     director: 'Shawn Levy',
-    actors: [{ name: 'Ryan Reynolds' }],
+    actors: [
+      {
+        name: 'Ryan Reynolds',
+      },
+      {
+        name: 'Zoe Saldana',
+      },
+      {
+        name: 'Mark Ruffalo',
+      },
+      {
+        name: 'Jennifer Gardner',
+      }
+    ],
     coverUrl: '/movies_pictures/4623310.jpg',
     releaseDate: '2022-03-11',
     length: 106,
@@ -805,7 +853,14 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: "20 ans d'écart",
     director: 'David Moreau',
-    actors: [{ name: 'Virginie Efira' }],
+    actors: [
+      {
+        name: 'Virginie Efira',
+      },
+      {
+        name: 'Pierre Niney',
+      }
+    ],
     coverUrl: '/movies_pictures/20446783.jpg',
     releaseDate: '2013-02-20',
     length: 92,
@@ -835,7 +890,14 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Ce Que Veulent Les Hommes',
     director: 'Adam McKay',
-    actors: [{ name: 'Will Ferrell' }],
+    actors: [
+      {
+        name: 'Will Ferrell',
+      },
+      {
+        name: 'Ali Davis',
+      }
+    ],
     coverUrl: '/movies_pictures/5459039.webp',
     releaseDate: '2000-12-15',
     length: 97,
@@ -845,7 +907,17 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Walter',
     director: 'Varante Soudjian',
-    actors: [{ name: 'Inconnu' }],
+    actors: [
+      {
+        name: 'Issaka Sawadogo',
+      },
+      {
+        name: 'Alban Ivanov',
+      },
+      {
+        name: 'Judith El Zein',
+      }
+    ],
     coverUrl: '/movies_pictures/4878496.jpg',
     releaseDate: '2023-07-18',
     length: 0,
