@@ -44,6 +44,7 @@ export class BdsHeaderComponent {
   allBdsCount = input<number>(0);
   allReadlistBdsCount = input<number>(0);
   filteredBdsCount = input<number>(0);
+  recommendedBdsCount = input<number>(0);
   sortOptions = input<SortOption[]>([]);
   viewOptions = input<
     {
@@ -77,6 +78,8 @@ export class BdsHeaderComponent {
       ? 'BD à lire'
       : this.selectedView() === 'owned'
       ? 'BD possédées'
+      : this.selectedView() === 'recommendations'
+      ? 'Recommandations'
       : 'BD lues';
   });
 

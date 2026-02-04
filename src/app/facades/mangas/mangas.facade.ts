@@ -10,8 +10,11 @@ import {
   fetchBaseMangasFromApi,
   fetchUserMangasFromApi,
   fetchReadlistMangasFromApi,
+  fetchOtherUsersMangasRatedFromApi,
+  OtherUserMangaRating,
 } from './api-mangas.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
+import { users } from '../../utils/users/users';
 
 const fetchBaseMangasCached = createCachedFetcher(fetchBaseMangasFromApi);
 
@@ -145,6 +148,38 @@ export async function getCurrentReadlistMangasByUser(
   try {
     const readlist = await fetchReadlistMangasFromApi(userId);
     return getAllMangasData(readlist);
+  } catch {
+    return [];
+  }
+}
+
+export async function getOtherUsersMangasRated(
+  currentUserId = 'guillaume',
+  minRating = 4
+): Promise<OtherUserMangaRating[]> {
+  if (isLocalhost()) {
+    const otherUsers = users
+      .map((user) => user.username)
+      .filter((username) => username !== currentUserId);
+    const results: OtherUserMangaRating[] = [];
+    otherUsers.forEach((username) => {
+      const mangas = getLocalMangasByUser(username);
+      mangas
+        .filter((manga: any) => (manga.rating ?? 0) >= minRating)
+        .forEach((manga: any) => {
+          results.push({
+            title: manga.title,
+            author: manga.author,
+            rating: manga.rating ?? 0,
+            userId: username,
+          });
+        });
+    });
+    return results;
+  }
+
+  try {
+    return await fetchOtherUsersMangasRatedFromApi(currentUserId, minRating);
   } catch {
     return [];
   }

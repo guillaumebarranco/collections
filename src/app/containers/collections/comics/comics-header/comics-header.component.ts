@@ -44,6 +44,7 @@ export class ComicsHeaderComponent {
   allComicsCount = input<number>(0);
   allReadlistComicsCount = input<number>(0);
   filteredComicsCount = input<number>(0);
+  recommendedComicsCount = input<number>(0);
   sortOptions = input<SortOption[]>([]);
   viewOptions = input<
     {
@@ -77,6 +78,8 @@ export class ComicsHeaderComponent {
       ? 'Comics à lire'
       : this.selectedView() === 'owned'
       ? 'Comics possédés'
+      : this.selectedView() === 'recommendations'
+      ? 'Recommandations'
       : 'Comics lus';
   });
 

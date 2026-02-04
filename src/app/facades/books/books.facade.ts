@@ -10,8 +10,11 @@ import {
   fetchBaseBooksFromApi,
   fetchUserBooksFromApi,
   fetchReadlistBooksFromApi,
+  fetchOtherUsersBooksRatedFromApi,
+  OtherUserBookRating,
 } from './api-books.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
+import { users } from '../../utils/users/users';
 
 const fetchBaseBooksCached = createCachedFetcher(fetchBaseBooksFromApi);
 
@@ -146,6 +149,38 @@ export async function getCurrentReadlistBooksByUser(
   try {
     const readlist = await fetchReadlistBooksFromApi(userId);
     return getAllBooksData(readlist);
+  } catch {
+    return [];
+  }
+}
+
+export async function getOtherUsersBooksRated(
+  currentUserId = 'guillaume',
+  minRating = 4
+): Promise<OtherUserBookRating[]> {
+  if (isLocalhost()) {
+    const otherUsers = users
+      .map((user) => user.username)
+      .filter((username) => username !== currentUserId);
+    const results: OtherUserBookRating[] = [];
+    otherUsers.forEach((username) => {
+      const books = getLocalBooksByUser(username);
+      books
+        .filter((book) => (book.rating ?? 0) >= minRating)
+        .forEach((book) => {
+          results.push({
+            title: book.title,
+            author: book.author,
+            rating: book.rating ?? 0,
+            userId: username,
+          });
+        });
+    });
+    return results;
+  }
+
+  try {
+    return await fetchOtherUsersBooksRatedFromApi(currentUserId, minRating);
   } catch {
     return [];
   }

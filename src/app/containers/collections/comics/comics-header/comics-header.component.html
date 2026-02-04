@@ -1,7 +1,11 @@
 <div class="comics-header">
   <h1>
     @if (isAdminView()) { Comics ({{ filteredComicsCount() }}) } @else {
-    {{ comicsPageTitle() }} ({{ filteredComicsCount() }}) }
+    {{ comicsPageTitle() }} ({{
+      selectedView() === "recommendations"
+        ? recommendedComicsCount()
+        : filteredComicsCount()
+    }}) }
   </h1>
 
   @if(allComicsCount() !== 0 || allReadlistComicsCount() !== 0) {

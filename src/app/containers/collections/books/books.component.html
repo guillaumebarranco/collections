@@ -8,6 +8,7 @@
     [selectedGroupByInput]="selectedGroupBy()"
     [searchTermInput]="searchTerm()"
     [filteredBooksCount]="filteredBooks().length"
+    [recommendedBooksCount]="recommendedBooks().length"
     [allBooksCount]="allBooks().length"
     [stats]="stats()"
     [viewOptions]="viewOptions"
@@ -23,32 +24,100 @@
 
   @if(!isAdminView() && selectedYearFilter() !== 'all') {
   <p>Résultats affichés: {{ sortedBooks().length }}</p>
-  } @if(!isAdminView() && selectedView() === 'readlist') {
-  <div class="readlist-actions">
-    <button
-      class="makya-btn-ultra-big"
-      [routerLink]="['/select-books']"
-      [queryParams]="{ readlist: 'true' }"
-    >
-      Ajouter des livres à ma readlist
-    </button>
+  }
+
+  <!-- Recommendations -->
+  @if(selectedView() === 'recommendations') {
+  <div class="books">
+    @if (isLoadingRecommendations()) {
+    <p>Chargement des recommandations...</p>
+    } @else if (recommendedBooks().length === 0) {
+    <p>Aucune recommandation disponible pour le moment.</p>
+    } @else { @for (book of recommendedBooks(); track
+    `${book.title}-${book.author}`; let i = $index) {
+    <div class="book-card book-card--recommended book-card--missing">
+      @if(bookAlreadyInUserReadlist(book)) {
+      <span class="book-missing-badge">Déjà dans votre readlist</span>
+      } @else {
+      <span class="book-missing-badge">Recommandé</span>
+      <button class="makya-btn-small" (click)="addBookToReadlist(book)">
+        Ajouter à ma readlist
+      </button>
+      }
+      <app-book
+        [book]="book"
+        [readOnly]="true"
+        [quizzs]="quizzs()"
+        [recommendationText]="getBookRecommendationText(book)"
+        (openQuizz)="openQuizzModal($event)"
+      >
+      </app-book>
+    </div>
+    } }
   </div>
-  } @if(selectedView() === 'authors') {
-  <div class="books-by-author">
-    @for (authorGroup of booksByAuthor(); track authorGroup.author) {
-    <section class="books-author-section">
-      <h2 class="books-author-title">
-        @if (isAdminView()) {
-        {{ authorGroup.author }} ({{
-          authorGroup.seenBooks.length + authorGroup.missingBooks.length
-        }}) } @else { {{ authorGroup.author }} ({{
-          authorGroup.seenBooks.length
-        }}
-        lus) ({{ authorGroup.missingBooks.length }}
-        restants à lire) }
-      </h2>
+  }
+
+  <div>
+    @if(selectedView() !== 'recommendations') { @if(!isAdminView() &&
+    selectedView() === 'readlist') {
+    <div class="readlist-actions">
+      <button
+        class="makya-btn-ultra-big"
+        [routerLink]="['/select-books']"
+        [queryParams]="{ readlist: 'true' }"
+      >
+        Ajouter des livres à ma readlist
+      </button>
+    </div>
+    } @if(selectedView() === 'authors') {
+    <div class="books-by-author">
+      @for (authorGroup of booksByAuthor(); track authorGroup.author) {
+      <section class="books-author-section">
+        <h2 class="books-author-title">
+          @if (isAdminView()) {
+          {{ authorGroup.author }} ({{
+            authorGroup.seenBooks.length + authorGroup.missingBooks.length
+          }}) } @else { {{ authorGroup.author }} ({{
+            authorGroup.seenBooks.length
+          }}
+          lus) ({{ authorGroup.missingBooks.length }}
+          restants à lire) }
+        </h2>
+        <div class="books">
+          @for (book of authorGroup.seenBooks; track book.title) {
+          <div class="book-card">
+            <app-book
+              [book]="book"
+              [quizzs]="quizzs()"
+              (editRequested)="openEditBookDialog(book)"
+              (openQuizz)="openQuizzModal($event)"
+            ></app-book>
+          </div>
+          }
+        </div>
+        @if (authorGroup.missingBooks.length > 0) {
+        <div class="books-author-missing">
+          <p class="books-author-missing-label">Livres pas encore lus</p>
+          <div class="books">
+            @for (book of authorGroup.missingBooks; track book.title) {
+            <div class="book-card book-card--missing">
+              <span class="book-missing-badge">Non lu</span>
+              <app-book [book]="book" [readOnly]="true"></app-book>
+            </div>
+            }
+          </div>
+        </div>
+        }
+      </section>
+      }
+    </div>
+    } @else { @if(groupedBooks()) { Groupement activé, le tri ne sera pas pris
+    en compte. } @if (groupedBooks()) {
+    <div class="books-groups">
+      @for (group of groupedBooks(); track group.key) {
+      <h2>{{ group.key }} ({{ group.books.length }})</h2>
       <div class="books">
-        @for (book of authorGroup.seenBooks; track book.title) {
+        @for (book of group.books; track book.title) {
         <div class="book-card">
           <app-book
             [book]="book"
@@ -59,29 +128,11 @@
         </div>
         }
       </div>
-      @if (authorGroup.missingBooks.length > 0) {
-      <div class="books-author-missing">
-        <p class="books-author-missing-label">Livres pas encore lus</p>
-        <div class="books">
-          @for (book of authorGroup.missingBooks; track book.title) {
-          <div class="book-card book-card--missing">
-            <span class="book-missing-badge">Non lu</span>
-            <app-book [book]="book" [readOnly]="true"></app-book>
-          </div>
-          }
-        </div>
-      </div>
       }
-    </section>
-    }
-  </div>
-  } @else { @if(groupedBooks()) { Groupement activé, le tri ne sera pas pris en
-  compte. } @if (groupedBooks()) {
-  <div class="books-groups">
-    @for (group of groupedBooks(); track group.key) {
-    <h2>{{ group.key }} ({{ group.books.length }})</h2>
+    </div>
+    } @else {
     <div class="books">
-      @for (book of group.books; track book.title) {
+      @for (book of sortedBooks(); track book.title) {
       <div class="book-card">
         <app-book
           [book]="book"
@@ -92,22 +143,8 @@
       </div>
       }
     </div>
-    }
+    } } }
   </div>
-  } @else {
-  <div class="books">
-    @for (book of sortedBooks(); track book.title) {
-    <div class="book-card">
-      <app-book
-        [book]="book"
-        [quizzs]="quizzs()"
-        (editRequested)="openEditBookDialog(book)"
-        (openQuizz)="openQuizzModal($event)"
-      ></app-book>
-    </div>
-    }
-  </div>
-  } }
 </div>
 
 <app-quizz-modal

@@ -6,6 +6,7 @@
     [selectedSortInput]="selectedSort()"
     [searchTermInput]="searchTerm()"
     [filteredSeriesCount]="filteredSeries().length"
+    [recommendedSeriesCount]="recommendedSeries().length"
     [allSeriesCount]="allSeries().length"
     [stats]="stats()"
     [viewOptions]="viewOptions"
@@ -15,6 +16,37 @@
     (onSortChange)="onSortChange($event)"
   ></app-series-header>
 
+  <!-- Recommendations -->
+  @if(selectedView() === 'recommendations') {
+  <div class="series">
+    @if (isLoadingRecommendations()) {
+    <p>Chargement des recommandations...</p>
+    } @else if (recommendedSeries().length === 0) {
+    <p>Aucune recommandation disponible pour le moment.</p>
+    } @else { @for (serie of recommendedSeries(); track
+    `${serie.title}-${serie.director}`; let i = $index) {
+    <div class="serie-card serie-card--recommended serie-card--missing">
+      @if(serieAlreadyInUserWatchlist(serie)) {
+      <span class="serie-missing-badge">Déjà dans votre watchlist</span>
+      } @else {
+      <span class="serie-missing-badge">Recommandé</span>
+      <button class="makya-btn-small" (click)="addSerieToWatchlist(serie)">
+        Ajouter à ma watchlist
+      </button>
+      }
+      <app-serie
+        [serie]="serie"
+        [list]="recommendedSeries()"
+        [index]="i"
+        [quizzs]="quizzs()"
+        [readOnly]="true"
+        [recommendationText]="getSerieRecommendationText(serie)"
+        (openQuizz)="openQuizzModal($event)"
+      ></app-serie>
+    </div>
+    } }
+  </div>
+  } @else {
   <div class="series">
     @for (serie of sortedSeries(); track serie.title; let i = $index) {
     <div class="serie-card">
@@ -29,6 +61,7 @@
     </div>
     }
   </div>
+  }
 </div>
 
 <app-quizz-modal

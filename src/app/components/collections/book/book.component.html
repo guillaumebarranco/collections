@@ -60,6 +60,8 @@
     </div>
     } @if (isBaseEntityView) {
     <p class="book-genre">{{ book.genre }}</p>
+    } @if (recommendationText) {
+    <p class="recommendation-text">{{ recommendationText }}</p>
     }
   </div>
 </app-entity-card>

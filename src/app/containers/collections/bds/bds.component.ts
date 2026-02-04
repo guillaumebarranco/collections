@@ -36,12 +36,19 @@ import {
   getAllBaseBds,
   getAllBds,
   getAllReadlistBds,
+  getOtherUsersBdsRated,
 } from '../../../facades/bds/bds.facade';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditBdComponent } from '../../edit/edit-bd/edit-bd.component';
 import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
+import { capitalizeFirstLetter } from '../../../utils/stats.utils';
+
+type RecommendationDetail = { userId: string; rating: number };
+type RecommendedBd = Bd & {
+  recommendationDetails: RecommendationDetail[];
+};
 
 @Component({
   selector: 'app-bds',
@@ -81,6 +88,10 @@ export class BdsComponent implements OnInit {
   bdsList = signal<{ [key: string]: Bd[] }>({});
   readlistBdsList = signal<{ [key: string]: Bd[] }>({});
   adminBdsList = signal<Bd[]>([]);
+  baseBdsList = signal<Bd[]>([]);
+  recommendations = signal<RecommendedBd[]>([]);
+  isLoadingRecommendations = signal<boolean>(false);
+  recommendationsUserId = signal<string>('');
 
   constructor() {
     effect(() => {
@@ -235,8 +246,11 @@ export class BdsComponent implements OnInit {
     await this.refreshBds();
   }
 
-  onViewChange(view: 'read' | 'readlist' | 'owned') {
+  onViewChange(view: BdView) {
     this.selectedView.set(view);
+    if (view === 'recommendations') {
+      void this.loadRecommendations();
+    }
   }
 
   private matchesSearch(bd: Bd, term: string): boolean {
@@ -294,16 +308,34 @@ export class BdsComponent implements OnInit {
         owned: false,
       }));
       this.adminBdsList.set(bds);
+      this.baseBdsList.set(bds);
       return;
     }
 
     const userId = this.getActiveUserId();
-    const [bds, readlist] = await Promise.all([
+    const [bds, readlist, baseBds] = await Promise.all([
       getAllBds(userId),
       getAllReadlistBds(userId),
+      getAllBaseBds(),
     ]);
     this.bdsList.set(bds);
     this.readlistBdsList.set(readlist);
+    this.baseBdsList.set(
+      baseBds.map((bd) => ({
+        title: bd.title,
+        writer: bd.writer,
+        coverUrl: bd.coverUrl,
+        pages: bd.pages,
+        genre: bd.genre,
+        nbTomes: bd.nbTomes,
+        isFinished: bd.isFinished,
+        designer: bd.designer,
+        rating: 0,
+        readDate: '',
+        readTimes: 0,
+        owned: false,
+      }))
+    );
   }
 
   private async refreshQuizzs() {
@@ -341,5 +373,125 @@ export class BdsComponent implements OnInit {
 
   public isAdminView(): boolean {
     return this.authService.isAdmin() && this.router.url.startsWith('/admin');
+  }
+
+  async loadRecommendations() {
+    if (this.isAdminView()) return;
+    if (this.isLoadingRecommendations()) return;
+
+    const userId = this.getActiveUserId();
+    if (
+      this.recommendationsUserId() === userId &&
+      this.recommendations().length
+    ) {
+      return;
+    }
+
+    // S'assurer que baseBdsList est chargé
+    if (this.baseBdsList().length === 0) {
+      await this.refreshBds();
+    }
+
+    this.isLoadingRecommendations.set(true);
+    try {
+      const othersRated = await getOtherUsersBdsRated(userId, 4);
+
+      const detailsMap = new Map<string, Map<string, number>>();
+      for (const bd of othersRated) {
+        const key = `${bd.title}|${bd.writer}`;
+        const userMap = detailsMap.get(key) ?? new Map<string, number>();
+        const prev = userMap.get(bd.userId) ?? 0;
+        if (bd.rating > prev) {
+          userMap.set(bd.userId, bd.rating);
+        }
+        detailsMap.set(key, userMap);
+      }
+
+      const seenKeys = new Set(
+        this.allBds().map((bd) => this.getBdIdentityKey(bd))
+      );
+
+      const recommended = this.baseBdsList()
+        .filter((bd) => {
+          const key = this.getBdIdentityKey(bd);
+          return !seenKeys.has(key) && detailsMap.has(key);
+        })
+        .map((bd) => {
+          const details = detailsMap.get(this.getBdIdentityKey(bd));
+          const recommendationDetails = details
+            ? Array.from(details.entries()).map(([userId, rating]) => ({
+                userId,
+                rating,
+              }))
+            : [];
+          return {
+            ...bd,
+            recommendationDetails,
+          };
+        })
+        .sort((a, b) => {
+          const detailsA = detailsMap.get(this.getBdIdentityKey(a));
+          const detailsB = detailsMap.get(this.getBdIdentityKey(b));
+          const countA = detailsA?.size ?? 0;
+          const countB = detailsB?.size ?? 0;
+          if (countB !== countA) return countB - countA;
+          const maxA = detailsA ? Math.max(...detailsA.values()) : 0;
+          const maxB = detailsB ? Math.max(...detailsB.values()) : 0;
+          if (maxB !== maxA) return maxB - maxA;
+          return a.title.localeCompare(b.title);
+        });
+
+      this.recommendations.set(recommended);
+      this.recommendationsUserId.set(userId);
+    } catch (error) {
+      console.warn('bds:recommendations:error', error);
+    } finally {
+      this.isLoadingRecommendations.set(false);
+    }
+  }
+
+  recommendedBds = computed(() => {
+    const term = this.searchTerm().trim().toLowerCase();
+    const list = this.recommendations();
+    if (!term) return list;
+    return list.filter((bd) => this.matchesSearch(bd, term));
+  });
+
+  getBdIdentityKey(bd: Bd): string {
+    return `${bd.title}|${bd.writer}`;
+  }
+
+  getBdRecommendationText(bd: Bd): string {
+    const recommendationDetails =
+      (bd as RecommendedBd).recommendationDetails || [];
+    if (recommendationDetails.length === 0) return '';
+
+    const parts = recommendationDetails.map(
+      (detail) =>
+        `${capitalizeFirstLetter(detail.userId)} a donné ${detail.rating}★`
+    );
+    if (parts.length === 1) {
+      return `${parts[0]} à cette BD`;
+    }
+    return `${parts.slice(0, -1).join(', ')} et ${
+      parts[parts.length - 1]
+    } à cette BD`;
+  }
+
+  bdAlreadyInUserReadlist(bd: Bd): boolean {
+    const readlist = this.allReadlistBds();
+    return readlist.some(
+      (b) => b.title === bd.title && b.writer === bd.writer
+    );
+  }
+
+  addBdToReadlist(bd: Bd) {
+    this.router.navigate(['/select-bds'], {
+      queryParams: {
+        readlist: 'true',
+        title: bd.title,
+        writer: bd.writer,
+      },
+    });
   }
 }

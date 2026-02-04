@@ -35,3 +35,28 @@ export async function fetchBaseBooksFromApi(): Promise<BaseBook[]> {
   const data = await response.json();
   return Array.isArray(data) ? data : data.books || [];
 }
+
+export type OtherUserBookRating = {
+  title: string;
+  author: string;
+  rating: number;
+  userId: string;
+};
+
+export async function fetchOtherUsersBooksRatedFromApi(
+  userId: string,
+  minRating = 4
+): Promise<OtherUserBookRating[]> {
+  const params = new URLSearchParams({
+    userId,
+    minRating: String(minRating),
+  });
+  const response = await fetch(
+    `${getApiBaseUrl()}/books/others-users-books-rated?${params.toString()}`
+  );
+  if (!response.ok) {
+    throw new Error('Books others-rated API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : data.books || [];
+}

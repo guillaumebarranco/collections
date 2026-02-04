@@ -36,6 +36,7 @@ export class BookComponent {
   @Input() book!: any;
   @Input() quizzs: Quizz[] = [];
   @Input() readOnly = false;
+  @Input() recommendationText = '';
   @Output() editRequested = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
 

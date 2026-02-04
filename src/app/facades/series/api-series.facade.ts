@@ -35,3 +35,28 @@ export async function fetchBaseSeriesFromApi(): Promise<BaseSerie[]> {
   const data = await response.json();
   return Array.isArray(data) ? data : data.series || [];
 }
+
+export type OtherUserSerieRating = {
+  title: string;
+  director: string;
+  rating: number;
+  userId: string;
+};
+
+export async function fetchOtherUsersSeriesRatedFromApi(
+  userId: string,
+  minRating = 4
+): Promise<OtherUserSerieRating[]> {
+  const params = new URLSearchParams({
+    userId,
+    minRating: String(minRating),
+  });
+  const response = await fetch(
+    `${getApiBaseUrl()}/series/others-users-series-rated?${params.toString()}`
+  );
+  if (!response.ok) {
+    throw new Error('Series others-rated API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : data.series || [];
+}

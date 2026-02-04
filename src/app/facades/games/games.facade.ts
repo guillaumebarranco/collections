@@ -10,8 +10,11 @@ import {
   fetchBaseGamesFromApi,
   fetchUserGamesFromApi,
   fetchGamelistGamesFromApi,
+  fetchOtherUsersGamesRatedFromApi,
+  OtherUserGameRating,
 } from './api-games.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
+import { users } from '../../utils/users/users';
 
 const fetchBaseGamesCached = createCachedFetcher(fetchBaseGamesFromApi);
 
@@ -153,6 +156,38 @@ export async function getCurrentGamelistGamesByUser(
   try {
     const gamelist = await fetchGamelistGamesFromApi(userId);
     return getAllGamesData(gamelist);
+  } catch {
+    return [];
+  }
+}
+
+export async function getOtherUsersGamesRated(
+  currentUserId = 'guillaume',
+  minRating = 4
+): Promise<OtherUserGameRating[]> {
+  if (isLocalhost()) {
+    const otherUsers = users
+      .map((user) => user.username)
+      .filter((username) => username !== currentUserId);
+    const results: OtherUserGameRating[] = [];
+    otherUsers.forEach((username) => {
+      const games = getLocalGamesByUser(username);
+      games
+        .filter((game: any) => (game.rating ?? 0) >= minRating)
+        .forEach((game: any) => {
+          results.push({
+            title: game.title,
+            editor: game.editor,
+            rating: game.rating ?? 0,
+            userId: username,
+          });
+        });
+    });
+    return results;
+  }
+
+  try {
+    return await fetchOtherUsersGamesRatedFromApi(currentUserId, minRating);
   } catch {
     return [];
   }

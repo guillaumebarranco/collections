@@ -41,12 +41,19 @@ import {
   getAllBooks,
   getAllBaseBooks,
   getAllReadlistBooks,
+  getOtherUsersBooksRated,
 } from '../../../facades/books/books.facade';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditBookComponent } from '../../edit/edit-book/edit-book.component';
 import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
+import { capitalizeFirstLetter } from '../../../utils/stats.utils';
+
+type RecommendationDetail = { userId: string; rating: number };
+type RecommendedBook = Book & {
+  recommendationDetails: RecommendationDetail[];
+};
 
 @Component({
   selector: 'app-books',
@@ -94,6 +101,9 @@ export class BooksComponent implements OnInit {
   readlistBooksList = signal<{ [key: string]: Book[] }>({});
   adminBooksList = signal<Book[]>([]);
   baseBooksList = signal<Book[]>([]);
+  recommendations = signal<RecommendedBook[]>([]);
+  isLoadingRecommendations = signal<boolean>(false);
+  recommendationsUserId = signal<string>('');
 
   constructor() {
     // Synchroniser les changements de filtres/tri avec l'URL
@@ -234,9 +244,13 @@ export class BooksComponent implements OnInit {
       queryParams['view'] === 'readlist' ||
       queryParams['view'] === 'read' ||
       queryParams['view'] === 'owned' ||
-      queryParams['view'] === 'authors'
+      queryParams['view'] === 'authors' ||
+      queryParams['view'] === 'recommendations'
     ) {
       this.selectedView.set(queryParams['view'] as BookView);
+      if (queryParams['view'] === 'recommendations') {
+        void this.loadRecommendations();
+      }
     }
 
     if (queryParams['sort']) {
@@ -487,6 +501,9 @@ export class BooksComponent implements OnInit {
     if (view === 'authors') {
       this.selectedGroupBy.set('none');
     }
+    if (view === 'recommendations') {
+      void this.loadRecommendations();
+    }
   }
 
   onGroupByChangeFromHeader(groupBy: string) {
@@ -568,5 +585,147 @@ export class BooksComponent implements OnInit {
       .normalize('NFD')
       .replace(/[\u0300-\u036f]/g, '')
       .toLowerCase();
+  }
+
+  async loadRecommendations() {
+    if (this.isAdminView()) return;
+    if (this.isLoadingRecommendations()) return;
+
+    const userId = this.getActiveUserId();
+    if (
+      this.recommendationsUserId() === userId &&
+      this.recommendations().length
+    ) {
+      return;
+    }
+
+    // S'assurer que baseBooksList est chargé
+    if (this.baseBooksList().length === 0) {
+      await this.refreshBooks();
+    }
+
+    this.isLoadingRecommendations.set(true);
+    try {
+      const othersRated = await getOtherUsersBooksRated(userId, 4);
+
+      console.log('books:recommendations:othersRated', othersRated.length);
+      console.log(
+        'books:recommendations:baseBooksList',
+        this.baseBooksList().length
+      );
+
+      const detailsMap = new Map<string, Map<string, number>>();
+      for (const book of othersRated) {
+        const key = `${book.title}|${book.author}`;
+        const userMap = detailsMap.get(key) ?? new Map<string, number>();
+        const prev = userMap.get(book.userId) ?? 0;
+        if (book.rating > prev) {
+          userMap.set(book.userId, book.rating);
+        }
+        detailsMap.set(key, userMap);
+      }
+
+      const seenKeys = new Set(
+        this.allBooks().map((book) => this.getBookIdentityKey(book))
+      );
+
+      const baseBooks = this.baseBooksList();
+      console.log('books:recommendations:detailsMap size', detailsMap.size);
+      console.log('books:recommendations:seenKeys size', seenKeys.size);
+
+      const recommended = baseBooks
+        .filter((book) => {
+          const key = this.getBookIdentityKey(book);
+          const isNotSeen = !seenKeys.has(key);
+          const isInDetailsMap = detailsMap.has(key);
+          if (isInDetailsMap && !isNotSeen) {
+            console.log('books:recommendations:book already seen', key);
+          }
+          if (isNotSeen && !isInDetailsMap) {
+            console.log('books:recommendations:book not in detailsMap', key);
+          }
+          return isNotSeen && isInDetailsMap;
+        })
+        .map((book) => {
+          const details = detailsMap.get(this.getBookIdentityKey(book));
+          const recommendationDetails = details
+            ? Array.from(details.entries()).map(([userId, rating]) => ({
+                userId,
+                rating,
+              }))
+            : [];
+          return {
+            ...book,
+            recommendationDetails,
+          };
+        })
+        .sort((a, b) => {
+          const detailsA = detailsMap.get(this.getBookIdentityKey(a));
+          const detailsB = detailsMap.get(this.getBookIdentityKey(b));
+          const countA = detailsA?.size ?? 0;
+          const countB = detailsB?.size ?? 0;
+          if (countB !== countA) return countB - countA;
+          const maxA = detailsA ? Math.max(...detailsA.values()) : 0;
+          const maxB = detailsB ? Math.max(...detailsB.values()) : 0;
+          if (maxB !== maxA) return maxB - maxA;
+          return a.title.localeCompare(b.title);
+        });
+
+      console.log(
+        'books:recommendations:recommended count',
+        recommended.length
+      );
+      this.recommendations.set(recommended);
+      this.recommendationsUserId.set(userId);
+    } catch (error) {
+      console.warn('books:recommendations:error', error);
+    } finally {
+      this.isLoadingRecommendations.set(false);
+    }
+  }
+
+  recommendedBooks = computed(() => {
+    const term = this.searchTerm().trim().toLowerCase();
+    const list = this.recommendations();
+    if (!term) return list;
+    return list.filter((book) => this.matchesSearch(book, term));
+  });
+
+  getBookIdentityKey(book: Book): string {
+    return `${book.title}|${book.author}`;
+  }
+
+  getBookRecommendationText(book: Book): string {
+    const recommendationDetails =
+      (book as RecommendedBook).recommendationDetails || [];
+    if (recommendationDetails.length === 0) return '';
+
+    const parts = recommendationDetails.map(
+      (detail) =>
+        `${capitalizeFirstLetter(detail.userId)} a donné ${detail.rating}★`
+    );
+    if (parts.length === 1) {
+      return `${parts[0]} à ce livre`;
+    }
+    return `${parts.slice(0, -1).join(', ')} et ${
+      parts[parts.length - 1]
+    } à ce livre`;
+  }
+
+  bookAlreadyInUserReadlist(book: Book): boolean {
+    const readlist = this.allReadlistBooks();
+    return readlist.some(
+      (b) => b.title === book.title && b.author === book.author
+    );
+  }
+
+  addBookToReadlist(book: Book) {
+    this.router.navigate(['/select-books'], {
+      queryParams: {
+        readlist: 'true',
+        title: book.title,
+        author: book.author,
+      },
+    });
   }
 }

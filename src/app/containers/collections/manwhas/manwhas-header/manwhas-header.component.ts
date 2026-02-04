@@ -44,6 +44,7 @@ export class ManwhasHeaderComponent {
   allManwhasCount = input<number>(0);
   allReadlistManwhasCount = input<number>(0);
   filteredManwhasCount = input<number>(0);
+  recommendedManwhasCount = input<number>(0);
   sortOptions = input<SortOption[]>([]);
   viewOptions = input<
     {
@@ -77,6 +78,8 @@ export class ManwhasHeaderComponent {
       ? 'Manwhas à lire'
       : this.selectedView() === 'owned'
       ? 'Manwhas possédés'
+      : this.selectedView() === 'recommendations'
+      ? 'Recommandations'
       : 'Manwhas lus';
   });
 

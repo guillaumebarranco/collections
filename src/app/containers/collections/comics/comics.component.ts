@@ -34,12 +34,19 @@ import {
   getAllBaseComics,
   getAllComics,
   getAllReadlistComics,
+  getOtherUsersComicsRated,
 } from '../../../facades/comics/comics.facade';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditComicComponent } from '../../edit/edit-comic/edit-comic.component';
 import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
+import { capitalizeFirstLetter } from '../../../utils/stats.utils';
+
+type RecommendationDetail = { userId: string; rating: number };
+type RecommendedComic = Comic & {
+  recommendationDetails: RecommendationDetail[];
+};
 
 @Component({
   selector: 'app-comics',
@@ -79,6 +86,10 @@ export class ComicsComponent implements OnInit {
   comicsList = signal<{ [key: string]: Comic[] }>({});
   readlistComicsList = signal<{ [key: string]: Comic[] }>({});
   adminComicsList = signal<Comic[]>([]);
+  baseComicsList = signal<Comic[]>([]);
+  recommendations = signal<RecommendedComic[]>([]);
+  isLoadingRecommendations = signal<boolean>(false);
+  recommendationsUserId = signal<string>('');
 
   constructor() {
     effect(() => {
@@ -228,8 +239,11 @@ export class ComicsComponent implements OnInit {
     await this.refreshComics();
   }
 
-  onViewChange(view: 'read' | 'readlist' | 'owned') {
+  onViewChange(view: ComicView) {
     this.selectedView.set(view);
+    if (view === 'recommendations') {
+      void this.loadRecommendations();
+    }
   }
 
   private matchesSearch(comic: Comic, term: string): boolean {
@@ -282,16 +296,32 @@ export class ComicsComponent implements OnInit {
         owned: false,
       }));
       this.adminComicsList.set(comics);
+      this.baseComicsList.set(comics);
       return;
     }
 
     const userId = this.getActiveUserId();
-    const [comics, readlist] = await Promise.all([
+    const [comics, readlist, baseComics] = await Promise.all([
       getAllComics(userId),
       getAllReadlistComics(userId),
+      getAllBaseComics(),
     ]);
     this.comicsList.set(comics);
     this.readlistComicsList.set(readlist);
+    this.baseComicsList.set(
+      baseComics.map((comic) => ({
+        title: comic.title,
+        writer: comic.writer,
+        coverUrl: comic.coverUrl,
+        pages: comic.pages,
+        genre: comic.genre,
+        designer: comic.designer,
+        rating: 0,
+        readDate: '',
+        readTimes: 0,
+        owned: false,
+      }))
+    );
   }
 
   private async refreshQuizzs() {
@@ -329,5 +359,125 @@ export class ComicsComponent implements OnInit {
 
   public isAdminView(): boolean {
     return this.authService.isAdmin() && this.router.url.startsWith('/admin');
+  }
+
+  async loadRecommendations() {
+    if (this.isAdminView()) return;
+    if (this.isLoadingRecommendations()) return;
+
+    const userId = this.getActiveUserId();
+    if (
+      this.recommendationsUserId() === userId &&
+      this.recommendations().length
+    ) {
+      return;
+    }
+
+    // S'assurer que baseComicsList est chargé
+    if (this.baseComicsList().length === 0) {
+      await this.refreshComics();
+    }
+
+    this.isLoadingRecommendations.set(true);
+    try {
+      const othersRated = await getOtherUsersComicsRated(userId, 4);
+
+      const detailsMap = new Map<string, Map<string, number>>();
+      for (const comic of othersRated) {
+        const key = `${comic.title}|${comic.writer}`;
+        const userMap = detailsMap.get(key) ?? new Map<string, number>();
+        const prev = userMap.get(comic.userId) ?? 0;
+        if (comic.rating > prev) {
+          userMap.set(comic.userId, comic.rating);
+        }
+        detailsMap.set(key, userMap);
+      }
+
+      const seenKeys = new Set(
+        this.allComics().map((comic) => this.getComicIdentityKey(comic))
+      );
+
+      const recommended = this.baseComicsList()
+        .filter((comic) => {
+          const key = this.getComicIdentityKey(comic);
+          return !seenKeys.has(key) && detailsMap.has(key);
+        })
+        .map((comic) => {
+          const details = detailsMap.get(this.getComicIdentityKey(comic));
+          const recommendationDetails = details
+            ? Array.from(details.entries()).map(([userId, rating]) => ({
+                userId,
+                rating,
+              }))
+            : [];
+          return {
+            ...comic,
+            recommendationDetails,
+          };
+        })
+        .sort((a, b) => {
+          const detailsA = detailsMap.get(this.getComicIdentityKey(a));
+          const detailsB = detailsMap.get(this.getComicIdentityKey(b));
+          const countA = detailsA?.size ?? 0;
+          const countB = detailsB?.size ?? 0;
+          if (countB !== countA) return countB - countA;
+          const maxA = detailsA ? Math.max(...detailsA.values()) : 0;
+          const maxB = detailsB ? Math.max(...detailsB.values()) : 0;
+          if (maxB !== maxA) return maxB - maxA;
+          return a.title.localeCompare(b.title);
+        });
+
+      this.recommendations.set(recommended);
+      this.recommendationsUserId.set(userId);
+    } catch (error) {
+      console.warn('comics:recommendations:error', error);
+    } finally {
+      this.isLoadingRecommendations.set(false);
+    }
+  }
+
+  recommendedComics = computed(() => {
+    const term = this.searchTerm().trim().toLowerCase();
+    const list = this.recommendations();
+    if (!term) return list;
+    return list.filter((comic) => this.matchesSearch(comic, term));
+  });
+
+  getComicIdentityKey(comic: Comic): string {
+    return `${comic.title}|${comic.writer}`;
+  }
+
+  getComicRecommendationText(comic: Comic): string {
+    const recommendationDetails =
+      (comic as RecommendedComic).recommendationDetails || [];
+    if (recommendationDetails.length === 0) return '';
+
+    const parts = recommendationDetails.map(
+      (detail) =>
+        `${capitalizeFirstLetter(detail.userId)} a donné ${detail.rating}★`
+    );
+    if (parts.length === 1) {
+      return `${parts[0]} à ce comic`;
+    }
+    return `${parts.slice(0, -1).join(', ')} et ${
+      parts[parts.length - 1]
+    } à ce comic`;
+  }
+
+  comicAlreadyInUserReadlist(comic: Comic): boolean {
+    const readlist = this.allReadlistComics();
+    return readlist.some(
+      (c) => c.title === comic.title && c.writer === comic.writer
+    );
+  }
+
+  addComicToReadlist(comic: Comic) {
+    this.router.navigate(['/select-comics'], {
+      queryParams: {
+        readlist: 'true',
+        title: comic.title,
+        writer: comic.writer,
+      },
+    });
   }
 }

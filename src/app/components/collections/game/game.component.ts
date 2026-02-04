@@ -42,6 +42,8 @@ export class GameComponent {
   @Input() list: Game[] = [];
   @Input() index = -1;
   @Input() quizzs: Quizz[] = [];
+  @Input() readOnly = false;
+  @Input() recommendationText = '';
   @Output() gameUpdated = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
 

@@ -47,6 +47,7 @@ export class BooksHeaderComponent {
   searchTermInput = input<string>('');
   allBooksCount = input<number>(0);
   filteredBooksCount = input<number>(0);
+  recommendedBooksCount = input<number>(0);
   sortOptions = input<SortOption[]>([]);
   yearFilterOptions = input<SortOption[]>([]);
   groupByOptions = input<SortOption[]>([]);
@@ -93,6 +94,8 @@ export class BooksHeaderComponent {
       ? 'Livres possédés'
       : this.selectedView() === 'authors'
       ? 'Livres par auteur'
+      : this.selectedView() === 'recommendations'
+      ? 'Recommandations'
       : 'Livres lus';
   });
 

@@ -35,10 +35,17 @@ import {
   getAllBaseSeries,
   getAllSeries,
   getAllWatchlistSeries,
+  getOtherUsersSeriesRated,
 } from '../../../facades/series/series.facade';
 import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
+import { capitalizeFirstLetter } from '../../../utils/stats.utils';
+
+type RecommendationDetail = { userId: string; rating: number };
+type RecommendedSerie = Serie & {
+  recommendationDetails: RecommendationDetail[];
+};
 
 @Component({
   selector: 'app-series',
@@ -75,6 +82,10 @@ export class SeriesComponent implements OnInit {
   seriesList = signal<{ [key: string]: Serie[] }>({});
   watchingSeriesList = signal<{ [key: string]: Serie[] }>({});
   adminSeriesList = signal<Serie[]>([]);
+  baseSeriesList = signal<Serie[]>([]);
+  recommendations = signal<RecommendedSerie[]>([]);
+  isLoadingRecommendations = signal<boolean>(false);
+  recommendationsUserId = signal<string>('');
 
   constructor() {
     effect(() => {
@@ -218,16 +229,32 @@ export class SeriesComponent implements OnInit {
         owned: false,
       }));
       this.adminSeriesList.set(series);
+      this.baseSeriesList.set(series);
       return;
     }
 
     const userId = this.getActiveUserId();
-    const [series, watchlist] = await Promise.all([
+    const [series, watchlist, baseSeries] = await Promise.all([
       getAllSeries(userId),
       getAllWatchlistSeries(userId),
+      getAllBaseSeries(),
     ]);
     this.seriesList.set(series);
     this.watchingSeriesList.set(watchlist);
+    this.baseSeriesList.set(
+      baseSeries.map((serie) => ({
+        title: serie.title,
+        director: serie.director,
+        actors: serie.actors,
+        coverUrl: serie.coverUrl,
+        releaseDate: serie.releaseDate,
+        endDate: serie.endDate,
+        genre: serie.genre,
+        seasonsData: serie.seasonsData,
+        seasons: [],
+        owned: false,
+      }))
+    );
   }
 
   private async refreshQuizzs() {
@@ -250,6 +277,9 @@ export class SeriesComponent implements OnInit {
 
   onViewChange(view: SerieView) {
     this.selectedView.set(view);
+    if (view === 'recommendations') {
+      void this.loadRecommendations();
+    }
   }
 
   onSearchChange(value: string) {
@@ -283,5 +313,125 @@ export class SeriesComponent implements OnInit {
       .normalize('NFD')
       .replace(/[\u0300-\u036f]/g, '')
       .toLowerCase();
+  }
+
+  async loadRecommendations() {
+    if (this.isAdminView()) return;
+    if (this.isLoadingRecommendations()) return;
+
+    const userId = this.getActiveUserId();
+    if (
+      this.recommendationsUserId() === userId &&
+      this.recommendations().length
+    ) {
+      return;
+    }
+
+    // S'assurer que baseSeriesList est chargé
+    if (this.baseSeriesList().length === 0) {
+      await this.refreshSeries();
+    }
+
+    this.isLoadingRecommendations.set(true);
+    try {
+      const othersRated = await getOtherUsersSeriesRated(userId, 4);
+
+      const detailsMap = new Map<string, Map<string, number>>();
+      for (const serie of othersRated) {
+        const key = `${serie.title}|${serie.director}`;
+        const userMap = detailsMap.get(key) ?? new Map<string, number>();
+        const prev = userMap.get(serie.userId) ?? 0;
+        if (serie.rating > prev) {
+          userMap.set(serie.userId, serie.rating);
+        }
+        detailsMap.set(key, userMap);
+      }
+
+      const seenKeys = new Set(
+        this.allSeries().map((serie) => this.getSerieIdentityKey(serie))
+      );
+
+      const recommended = this.baseSeriesList()
+        .filter((serie) => {
+          const key = this.getSerieIdentityKey(serie);
+          return !seenKeys.has(key) && detailsMap.has(key);
+        })
+        .map((serie) => {
+          const details = detailsMap.get(this.getSerieIdentityKey(serie));
+          const recommendationDetails = details
+            ? Array.from(details.entries()).map(([userId, rating]) => ({
+                userId,
+                rating,
+              }))
+            : [];
+          return {
+            ...serie,
+            recommendationDetails,
+          };
+        })
+        .sort((a, b) => {
+          const detailsA = detailsMap.get(this.getSerieIdentityKey(a));
+          const detailsB = detailsMap.get(this.getSerieIdentityKey(b));
+          const countA = detailsA?.size ?? 0;
+          const countB = detailsB?.size ?? 0;
+          if (countB !== countA) return countB - countA;
+          const maxA = detailsA ? Math.max(...detailsA.values()) : 0;
+          const maxB = detailsB ? Math.max(...detailsB.values()) : 0;
+          if (maxB !== maxA) return maxB - maxA;
+          return a.title.localeCompare(b.title);
+        });
+
+      this.recommendations.set(recommended);
+      this.recommendationsUserId.set(userId);
+    } catch (error) {
+      console.warn('series:recommendations:error', error);
+    } finally {
+      this.isLoadingRecommendations.set(false);
+    }
+  }
+
+  recommendedSeries = computed(() => {
+    const term = this.searchTerm().trim().toLowerCase();
+    const list = this.recommendations();
+    if (!term) return list;
+    return list.filter((serie) => this.matchesSearch(serie, term));
+  });
+
+  getSerieIdentityKey(serie: Serie): string {
+    return `${serie.title}|${serie.director}`;
+  }
+
+  getSerieRecommendationText(serie: Serie): string {
+    const recommendationDetails =
+      (serie as RecommendedSerie).recommendationDetails || [];
+    if (recommendationDetails.length === 0) return '';
+
+    const parts = recommendationDetails.map(
+      (detail) =>
+        `${capitalizeFirstLetter(detail.userId)} a donné ${detail.rating}★`
+    );
+    if (parts.length === 1) {
+      return `${parts[0]} à cette série`;
+    }
+    return `${parts.slice(0, -1).join(', ')} et ${
+      parts[parts.length - 1]
+    } à cette série`;
+  }
+
+  serieAlreadyInUserWatchlist(serie: Serie): boolean {
+    const watchlist = this.allWatchlistSeries();
+    return watchlist.some(
+      (s) => s.title === serie.title && s.director === serie.director
+    );
+  }
+
+  addSerieToWatchlist(serie: Serie) {
+    this.router.navigate(['/select-series'], {
+      queryParams: {
+        watchlist: 'true',
+        title: serie.title,
+        director: serie.director,
+      },
+    });
   }
 }

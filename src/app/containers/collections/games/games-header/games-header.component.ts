@@ -44,6 +44,7 @@ export class GamesHeaderComponent {
   allGamesCount = input<number>(0);
   allGamelistGamesCount = input<number>(0);
   filteredGamesCount = input<number>(0);
+  recommendedGamesCount = input<number>(0);
   sortOptions = input<SortOption[]>([]);
   viewOptions = input<
     {
@@ -77,6 +78,8 @@ export class GamesHeaderComponent {
       ? '🎮 Jeux à jouer'
       : this.selectedView() === 'owned'
       ? '🎮 Jeux possédés'
+      : this.selectedView() === 'recommendations'
+      ? 'Recommandations'
       : '🎮 Jeux vidéo';
   });
 

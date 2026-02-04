@@ -5,7 +5,8 @@ export type GameView =
   | 'platined'
   | 'gamelist'
   | 'owned'
-  | 'finished';
+  | 'finished'
+  | 'recommendations';
 
 export const gamesSortOptions: { value: string; label: string }[] = [
   { value: 'title', label: 'Titre (A-Z)' },
@@ -29,6 +30,7 @@ export const gameViewOptions: { value: GameView; label: string }[] = [
   { value: 'platined', label: 'Jeux platinés' },
   { value: 'gamelist', label: 'Jeux à jouer' },
   { value: 'owned', label: 'Jeux possédés' },
+  { value: 'recommendations', label: 'Recommandations' },
 ];
 
 export const getSortedGames = (games: Game[], selectedSort: string): Game[] => {

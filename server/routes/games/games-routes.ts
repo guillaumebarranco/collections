@@ -12,8 +12,10 @@ const batchOwned = require('./batch-owned');
 const addGame = require('./add-game');
 const addExisting = require('./add-existing');
 const deleteGame = require('./delete-game');
+const othersRatedRouter = require('./get-others-users-games-rated');
 
 router.use('/', getGamelist);
+router.use('/', othersRatedRouter);
 router.use('/', getGames);
 router.use('/', getEntities);
 router.use('/', saveGame);

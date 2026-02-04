@@ -9,8 +9,11 @@ import {
   fetchBaseComicsFromApi,
   fetchReadlistComicsFromApi,
   fetchUserComicsFromApi,
+  fetchOtherUsersComicsRatedFromApi,
+  OtherUserComicRating,
 } from './api-comics.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
+import { users } from '../../utils/users/users';
 
 const fetchBaseComicsCached = createCachedFetcher(fetchBaseComicsFromApi);
 
@@ -144,6 +147,38 @@ export async function getCurrentReadlistComicsByUser(
   try {
     const readlist = await fetchReadlistComicsFromApi(userId);
     return getAllComicsData(readlist);
+  } catch {
+    return [];
+  }
+}
+
+export async function getOtherUsersComicsRated(
+  currentUserId = 'guillaume',
+  minRating = 4
+): Promise<OtherUserComicRating[]> {
+  if (isLocalhost()) {
+    const otherUsers = users
+      .map((user) => user.username)
+      .filter((username) => username !== currentUserId);
+    const results: OtherUserComicRating[] = [];
+    otherUsers.forEach((username) => {
+      const comics = getLocalComicsByUser(username);
+      comics
+        .filter((comic: any) => (comic.rating ?? 0) >= minRating)
+        .forEach((comic: any) => {
+          results.push({
+            title: comic.title,
+            writer: comic.writer,
+            rating: comic.rating ?? 0,
+            userId: username,
+          });
+        });
+    });
+    return results;
+  }
+
+  try {
+    return await fetchOtherUsersComicsRatedFromApi(currentUserId, minRating);
   } catch {
     return [];
   }

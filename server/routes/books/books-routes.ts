@@ -9,11 +9,13 @@ const batchOwnedRouter = require('./batch-owned');
 const addBookRouter = require('./add-book');
 const addExistingRouter = require('./add-existing');
 const deleteBookRouter = require('./delete-book');
+const othersRatedRouter = require('./get-others-users-books-rated');
 
 const router = express.Router();
 
 router.use(getEntitiesRouter);
 router.use(getReadlistRouter);
+router.use(othersRatedRouter);
 router.use(getBooksRouter);
 router.use(saveBookRouter);
 router.use(batchRatingRouter);

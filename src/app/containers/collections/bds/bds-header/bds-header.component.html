@@ -1,7 +1,11 @@
 <div class="bds-header">
   <h1>
     @if (isAdminView()) { BD ({{ filteredBdsCount() }}) } @else {
-    {{ bdsPageTitle() }} ({{ filteredBdsCount() }}) }
+    {{ bdsPageTitle() }} ({{
+      selectedView() === "recommendations"
+        ? recommendedBdsCount()
+        : filteredBdsCount()
+    }}) }
   </h1>
 
   @if(allBdsCount() !== 0 || allReadlistBdsCount() !== 0) {

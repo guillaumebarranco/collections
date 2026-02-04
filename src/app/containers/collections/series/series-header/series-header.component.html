@@ -1,7 +1,11 @@
 <div class="series-header">
   <h1>
     @if (isAdminView()) { Séries ({{ filteredSeriesCount() }}) } @else {
-    {{ seriesPageTitle() }} ({{ filteredSeriesCount() }}) }
+    {{ seriesPageTitle() }} ({{
+      selectedView() === "recommendations"
+        ? recommendedSeriesCount()
+        : filteredSeriesCount()
+    }}) }
   </h1>
 
   @if(allSeriesCount() !== 0) {

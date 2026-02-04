@@ -1,7 +1,11 @@
 <div class="manwhas-header">
   <h1>
     @if (isAdminView()) { Manwhas ({{ filteredManwhasCount() }}) } @else {
-    {{ manwhasPageTitle() }} ({{ filteredManwhasCount() }}) }
+    {{ manwhasPageTitle() }} ({{
+      selectedView() === "recommendations"
+        ? recommendedManwhasCount()
+        : filteredManwhasCount()
+    }}) }
   </h1>
 
   @if(allManwhasCount() !== 0 || allReadlistManwhasCount() !== 0) {

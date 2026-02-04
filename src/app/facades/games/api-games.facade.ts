@@ -35,3 +35,28 @@ export async function fetchBaseGamesFromApi(): Promise<BaseGame[]> {
   const data = await response.json();
   return Array.isArray(data) ? data : data.games || [];
 }
+
+export type OtherUserGameRating = {
+  title: string;
+  editor: string;
+  rating: number;
+  userId: string;
+};
+
+export async function fetchOtherUsersGamesRatedFromApi(
+  userId: string,
+  minRating = 4
+): Promise<OtherUserGameRating[]> {
+  const params = new URLSearchParams({
+    userId,
+    minRating: String(minRating),
+  });
+  const response = await fetch(
+    `${getApiBaseUrl()}/games/others-users-games-rated?${params.toString()}`
+  );
+  if (!response.ok) {
+    throw new Error('Games others-rated API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : data.games || [];
+}

@@ -1,5 +1,5 @@
 <app-entity-card>
-  @if (canEdit()) {
+  @if (canEdit() && !readOnly) {
   <button
     entity-edit
     type="button"
@@ -72,5 +72,8 @@
       </div>
       }
     </div>
+    @if (recommendationText) {
+    <p class="recommendation-text">{{ recommendationText }}</p>
+    }
   </div>
 </app-entity-card>

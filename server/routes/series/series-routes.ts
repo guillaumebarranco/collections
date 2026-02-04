@@ -9,11 +9,13 @@ const batchOwnedRouter = require('./batch-owned');
 const addSerieRouter = require('./add-serie');
 const addExistingRouter = require('./add-existing');
 const deleteSerieRouter = require('./delete-serie');
+const othersRatedRouter = require('./get-others-users-series-rated');
 
 const router = express.Router();
 
 router.use(getEntitiesRouter);
 router.use(getWatchlistRouter);
+router.use(othersRatedRouter);
 router.use(getSeriesRouter);
 router.use(saveSerieRouter);
 router.use(batchRatingRouter);

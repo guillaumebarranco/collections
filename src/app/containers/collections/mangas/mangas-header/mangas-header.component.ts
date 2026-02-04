@@ -44,6 +44,7 @@ export class MangasHeaderComponent {
   allMangasCount = input<number>(0);
   allReadlistMangasCount = input<number>(0);
   filteredMangasCount = input<number>(0);
+  recommendedMangasCount = input<number>(0);
   sortOptions = input<SortOption[]>([]);
   viewOptions = input<
     {
@@ -77,6 +78,8 @@ export class MangasHeaderComponent {
       ? 'Mangas à lire'
       : this.selectedView() === 'owned'
       ? 'Mangas possédés'
+      : this.selectedView() === 'recommendations'
+      ? 'Recommandations'
       : 'Mangas lus';
   });
 

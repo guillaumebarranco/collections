@@ -1,7 +1,11 @@
 <div class="games-header">
   <h1>
     @if (isAdminView()) { Jeux ({{ filteredGamesCount() }}) } @else {
-    {{ gamesPageTitle() }} ({{ filteredGamesCount() }}) }
+    {{ gamesPageTitle() }} ({{
+      selectedView() === "recommendations"
+        ? recommendedGamesCount()
+        : filteredGamesCount()
+    }}) }
   </h1>
 
   @if(allGamesCount() !== 0 || allGamelistGamesCount() !== 0) {

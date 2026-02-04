@@ -15,8 +15,11 @@ import {
   fetchBaseSeriesFromApi,
   fetchUserSeriesFromApi,
   fetchWatchlistSeriesFromApi,
+  fetchOtherUsersSeriesRatedFromApi,
+  OtherUserSerieRating,
 } from './api-series.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
+import { users } from '../../utils/users/users';
 
 const fetchBaseSeriesCached = createCachedFetcher(fetchBaseSeriesFromApi);
 
@@ -185,6 +188,56 @@ export async function getCurrentWatchlistSeriesByUser(
   try {
     const watchlist = await fetchWatchlistSeriesFromApi(userId);
     return getAllSeriesData(watchlist);
+  } catch {
+    return [];
+  }
+}
+
+export async function getOtherUsersSeriesRated(
+  currentUserId = 'guillaume',
+  minRating = 4
+): Promise<OtherUserSerieRating[]> {
+  if (isLocalhost()) {
+    const otherUsers = users
+      .map((user) => user.username)
+      .filter((username) => username !== currentUserId);
+    const results: OtherUserSerieRating[] = [];
+    otherUsers.forEach((username) => {
+      const series = getLocalSeriesByUser(username);
+      series
+        .filter((serie: any) => {
+          // Pour les séries, on prend la note moyenne des saisons
+          const seasons = serie.seasons || [];
+          if (seasons.length === 0) return false;
+          const avgRating =
+            seasons.reduce(
+              (sum: number, s: any) => sum + (s.seasonRating || 0),
+              0
+            ) / seasons.length;
+          return avgRating >= minRating;
+        })
+        .forEach((serie: any) => {
+          const seasons = serie.seasons || [];
+          const avgRating =
+            seasons.length > 0
+              ? seasons.reduce(
+                  (sum: number, s: any) => sum + (s.seasonRating || 0),
+                  0
+                ) / seasons.length
+              : 0;
+          results.push({
+            title: serie.title,
+            director: serie.director,
+            rating: avgRating,
+            userId: username,
+          });
+        });
+    });
+    return results;
+  }
+
+  try {
+    return await fetchOtherUsersSeriesRatedFromApi(currentUserId, minRating);
   } catch {
     return [];
   }

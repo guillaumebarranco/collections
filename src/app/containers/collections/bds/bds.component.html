@@ -6,6 +6,7 @@
     [selectedSortInput]="selectedSort()"
     [searchTermInput]="searchTerm()"
     [filteredBdsCount]="filteredBds().length"
+    [recommendedBdsCount]="recommendedBds().length"
     [allBdsCount]="allBds().length"
     [allReadlistBdsCount]="allReadlistBds().length"
     [stats]="stats()"
@@ -16,6 +17,34 @@
     (onSortChange)="onSortChange($event)"
   ></app-bds-header>
 
+  <!-- Recommendations -->
+  @if(selectedView() === 'recommendations') {
+  <div class="bds">
+    @if (isLoadingRecommendations()) {
+    <p>Chargement des recommandations...</p>
+    } @else if (recommendedBds().length === 0) {
+    <p>Aucune recommandation disponible pour le moment.</p>
+    } @else { @for (bd of recommendedBds(); track `${bd.title}-${bd.writer}`) {
+    <div class="bd-card bd-card--recommended bd-card--missing">
+      @if(bdAlreadyInUserReadlist(bd)) {
+      <span class="bd-missing-badge">Déjà dans votre readlist</span>
+      } @else {
+      <span class="bd-missing-badge">Recommandé</span>
+      <button class="makya-btn-small" (click)="addBdToReadlist(bd)">
+        Ajouter à ma readlist
+      </button>
+      }
+      <app-bd
+        [bd]="bd"
+        [readOnly]="true"
+        [quizzs]="quizzs()"
+        [recommendationText]="getBdRecommendationText(bd)"
+        (openQuizz)="openQuizzModal($event)"
+      ></app-bd>
+    </div>
+    } }
+  </div>
+  } @else {
   <div class="bds">
     @for (bd of sortedBds(); track bd.title) {
     <div class="bd-card">
@@ -28,6 +57,7 @@
     </div>
     }
   </div>
+  }
 </div>
 
 <app-quizz-modal

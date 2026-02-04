@@ -35,3 +35,28 @@ export async function fetchBaseMangasFromApi(): Promise<BaseManga[]> {
   const data = await response.json();
   return Array.isArray(data) ? data : data.mangas || [];
 }
+
+export type OtherUserMangaRating = {
+  title: string;
+  author: string;
+  rating: number;
+  userId: string;
+};
+
+export async function fetchOtherUsersMangasRatedFromApi(
+  userId: string,
+  minRating = 4
+): Promise<OtherUserMangaRating[]> {
+  const params = new URLSearchParams({
+    userId,
+    minRating: String(minRating),
+  });
+  const response = await fetch(
+    `${getApiBaseUrl()}/mangas/others-users-mangas-rated?${params.toString()}`
+  );
+  if (!response.ok) {
+    throw new Error('Mangas others-rated API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : data.mangas || [];
+}

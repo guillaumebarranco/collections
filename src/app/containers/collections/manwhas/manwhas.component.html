@@ -6,6 +6,7 @@
     [selectedSortInput]="selectedSort()"
     [searchTermInput]="searchTerm()"
     [filteredManwhasCount]="filteredManwhas().length"
+    [recommendedManwhasCount]="recommendedManwhas().length"
     [allManwhasCount]="allManwhas().length"
     [allReadlistManwhasCount]="allReadlistManwhas().length"
     [stats]="stats()"
@@ -28,6 +29,35 @@
   </div>
   }
 
+  <!-- Recommendations -->
+  @if(selectedView() === 'recommendations') {
+  <div class="manwhas">
+    @if (isLoadingRecommendations()) {
+    <p>Chargement des recommandations...</p>
+    } @else if (recommendedManwhas().length === 0) {
+    <p>Aucune recommandation disponible pour le moment.</p>
+    } @else { @for (manwha of recommendedManwhas(); track
+    `${manwha.title}-${manwha.author}`) {
+    <div class="manwha-card manwha-card--recommended manwha-card--missing">
+      @if(manwhaAlreadyInUserReadlist(manwha)) {
+      <span class="manwha-missing-badge">Déjà dans votre readlist</span>
+      } @else {
+      <span class="manwha-missing-badge">Recommandé</span>
+      <button class="makya-btn-small" (click)="addManwhaToReadlist(manwha)">
+        Ajouter à ma readlist
+      </button>
+      }
+      <app-manwha
+        [manwha]="manwha"
+        [readOnly]="true"
+        [quizzs]="quizzs()"
+        [recommendationText]="getManwhaRecommendationText(manwha)"
+        (openQuizz)="openQuizzModal($event)"
+      ></app-manwha>
+    </div>
+    } }
+  </div>
+  } @else {
   <div class="manwhas">
     @for (manwha of sortedManwhas(); track manwha.title) {
     <div class="manwha-card">
@@ -40,6 +70,7 @@
     </div>
     }
   </div>
+  }
 </div>
 
 <app-quizz-modal

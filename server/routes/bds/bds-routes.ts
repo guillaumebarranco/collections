@@ -9,11 +9,13 @@ const batchOwnedRouter = require('./batch-owned');
 const addBdRouter = require('./add-bd');
 const addExistingRouter = require('./add-existing');
 const deleteBdRouter = require('./delete-bd');
+const othersRatedRouter = require('./get-others-users-bds-rated');
 
 const router = express.Router();
 
 router.use(getEntitiesRouter);
 router.use(getReadlistRouter);
+router.use(othersRatedRouter);
 router.use(getBdsRouter);
 router.use(saveBdRouter);
 router.use(batchRatingRouter);

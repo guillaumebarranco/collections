@@ -6,6 +6,7 @@
     [selectedSortInput]="selectedSort()"
     [searchTermInput]="searchTerm()"
     [filteredGamesCount]="filteredGames().length"
+    [recommendedGamesCount]="recommendedGames().length"
     [allGamesCount]="allGames().length"
     [allGamelistGamesCount]="allGamelistGames().length"
     [stats]="stats()"
@@ -16,6 +17,37 @@
     (onSortChange)="onSortChange($event)"
   ></app-games-header>
 
+  <!-- Recommendations -->
+  @if(selectedView() === 'recommendations') {
+  <div class="games">
+    @if (isLoadingRecommendations()) {
+    <p>Chargement des recommandations...</p>
+    } @else if (recommendedGames().length === 0) {
+    <p>Aucune recommandation disponible pour le moment.</p>
+    } @else { @for (game of recommendedGames(); track
+    `${game.title}-${game.editor}`; let i = $index) {
+    <div class="game-card game-card--recommended game-card--missing">
+      @if(gameAlreadyInUserGamelist(game)) {
+      <span class="game-missing-badge">Déjà dans votre gamelist</span>
+      } @else {
+      <span class="game-missing-badge">Recommandé</span>
+      <button class="makya-btn-small" (click)="addGameToGamelist(game)">
+        Ajouter à ma gamelist
+      </button>
+      }
+      <app-game
+        [game]="game"
+        [list]="recommendedGames()"
+        [index]="i"
+        [quizzs]="quizzs()"
+        [readOnly]="true"
+        [recommendationText]="getGameRecommendationText(game)"
+        (openQuizz)="openQuizzModal($event)"
+      ></app-game>
+    </div>
+    } }
+  </div>
+  } @else {
   <div class="games">
     @for (game of sortedGames(); track game.title; let i = $index) {
     <div class="game-card">
@@ -30,6 +62,7 @@
     </div>
     }
   </div>
+  }
 </div>
 
 <app-quizz-modal

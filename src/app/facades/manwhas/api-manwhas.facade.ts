@@ -35,3 +35,28 @@ export async function fetchBaseManwhasFromApi(): Promise<BaseManwha[]> {
   const data = await response.json();
   return Array.isArray(data) ? data : data.manwhas || [];
 }
+
+export type OtherUserManwhaRating = {
+  title: string;
+  author: string;
+  rating: number;
+  userId: string;
+};
+
+export async function fetchOtherUsersManwhasRatedFromApi(
+  userId: string,
+  minRating = 4
+): Promise<OtherUserManwhaRating[]> {
+  const params = new URLSearchParams({
+    userId,
+    minRating: String(minRating),
+  });
+  const response = await fetch(
+    `${getApiBaseUrl()}/manwhas/others-users-manwhas-rated?${params.toString()}`
+  );
+  if (!response.ok) {
+    throw new Error('Manwhas others-rated API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : data.manwhas || [];
+}

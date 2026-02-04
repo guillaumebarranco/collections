@@ -31,10 +31,17 @@ import {
   getAllBaseGames,
   getAllGames,
   getAllGamelistGames,
+  getOtherUsersGamesRated,
 } from '../../../facades/games/games.facade';
 import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
+import { capitalizeFirstLetter } from '../../../utils/stats.utils';
+
+type RecommendationDetail = { userId: string; rating: number };
+type RecommendedGame = Game & {
+  recommendationDetails: RecommendationDetail[];
+};
 
 import {
   getTotalTimeToFinishGames,
@@ -86,6 +93,10 @@ export class GamesComponent implements OnInit {
   gamesList = signal<{ [key: string]: Game[] }>({});
   gamelistGamesList = signal<{ [key: string]: Game[] }>({});
   adminGamesList = signal<Game[]>([]);
+  baseGamesList = signal<Game[]>([]);
+  recommendations = signal<RecommendedGame[]>([]);
+  isLoadingRecommendations = signal<boolean>(false);
+  recommendationsUserId = signal<string>('');
 
   constructor() {
     effect(() => {
@@ -224,16 +235,38 @@ export class GamesComponent implements OnInit {
         owned: false,
       }));
       this.adminGamesList.set(games);
+      this.baseGamesList.set(games);
       return;
     }
 
     const userId = this.getActiveUserId();
-    const [games, gamelist] = await Promise.all([
+    const [games, gamelist, baseGames] = await Promise.all([
       getAllGames(userId),
       getAllGamelistGames(userId),
+      getAllBaseGames(),
     ]);
     this.gamesList.set(games);
     this.gamelistGamesList.set(gamelist);
+    this.baseGamesList.set(
+      baseGames.map((game) => ({
+        title: game.title,
+        editor: game.editor,
+        hero: game.hero,
+        coverUrl: game.coverUrl,
+        releaseDate: game.releaseDate,
+        averageTimeToFinish: game.averageTimeToFinish,
+        averageTimeToHundredPercent: game.averageTimeToHundredPercent,
+        platform: game.platform,
+        saga: game.saga,
+        platineTime: game.platineTime,
+        rating: 0,
+        timesFinished: 0,
+        timesFinishedHundredPercent: 0,
+        additionnalEstimatedTime: 0,
+        platined: false,
+        owned: false,
+      }))
+    );
   }
 
   private async refreshQuizzs() {
@@ -254,8 +287,11 @@ export class GamesComponent implements OnInit {
     this.selectedSort.set(sortValue);
   }
 
-  onViewChange(view: 'played' | 'platined' | 'gamelist' | 'owned') {
+  onViewChange(view: GameView) {
     this.selectedView.set(view);
+    if (view === 'recommendations') {
+      void this.loadRecommendations();
+    }
   }
 
   onSearchChange(value: string) {
@@ -318,5 +354,125 @@ export class GamesComponent implements OnInit {
       .normalize('NFD')
       .replace(/[\u0300-\u036f]/g, '')
       .toLowerCase();
+  }
+
+  async loadRecommendations() {
+    if (this.isAdminView()) return;
+    if (this.isLoadingRecommendations()) return;
+
+    const userId = this.getActiveUserId();
+    if (
+      this.recommendationsUserId() === userId &&
+      this.recommendations().length
+    ) {
+      return;
+    }
+
+    // S'assurer que baseGamesList est chargé
+    if (this.baseGamesList().length === 0) {
+      await this.refreshGames();
+    }
+
+    this.isLoadingRecommendations.set(true);
+    try {
+      const othersRated = await getOtherUsersGamesRated(userId, 4);
+
+      const detailsMap = new Map<string, Map<string, number>>();
+      for (const game of othersRated) {
+        const key = `${game.title}|${game.editor}`;
+        const userMap = detailsMap.get(key) ?? new Map<string, number>();
+        const prev = userMap.get(game.userId) ?? 0;
+        if (game.rating > prev) {
+          userMap.set(game.userId, game.rating);
+        }
+        detailsMap.set(key, userMap);
+      }
+
+      const seenKeys = new Set(
+        this.allGames().map((game) => this.getGameIdentityKey(game))
+      );
+
+      const recommended = this.baseGamesList()
+        .filter((game) => {
+          const key = this.getGameIdentityKey(game);
+          return !seenKeys.has(key) && detailsMap.has(key);
+        })
+        .map((game) => {
+          const details = detailsMap.get(this.getGameIdentityKey(game));
+          const recommendationDetails = details
+            ? Array.from(details.entries()).map(([userId, rating]) => ({
+                userId,
+                rating,
+              }))
+            : [];
+          return {
+            ...game,
+            recommendationDetails,
+          };
+        })
+        .sort((a, b) => {
+          const detailsA = detailsMap.get(this.getGameIdentityKey(a));
+          const detailsB = detailsMap.get(this.getGameIdentityKey(b));
+          const countA = detailsA?.size ?? 0;
+          const countB = detailsB?.size ?? 0;
+          if (countB !== countA) return countB - countA;
+          const maxA = detailsA ? Math.max(...detailsA.values()) : 0;
+          const maxB = detailsB ? Math.max(...detailsB.values()) : 0;
+          if (maxB !== maxA) return maxB - maxA;
+          return a.title.localeCompare(b.title);
+        });
+
+      this.recommendations.set(recommended);
+      this.recommendationsUserId.set(userId);
+    } catch (error) {
+      console.warn('games:recommendations:error', error);
+    } finally {
+      this.isLoadingRecommendations.set(false);
+    }
+  }
+
+  recommendedGames = computed(() => {
+    const term = this.searchTerm().trim().toLowerCase();
+    const list = this.recommendations();
+    if (!term) return list;
+    return list.filter((game) => this.matchesSearch(game, term));
+  });
+
+  getGameIdentityKey(game: Game): string {
+    return `${game.title}|${game.editor}`;
+  }
+
+  getGameRecommendationText(game: Game): string {
+    const recommendationDetails =
+      (game as RecommendedGame).recommendationDetails || [];
+    if (recommendationDetails.length === 0) return '';
+
+    const parts = recommendationDetails.map(
+      (detail) =>
+        `${capitalizeFirstLetter(detail.userId)} a donné ${detail.rating}★`
+    );
+    if (parts.length === 1) {
+      return `${parts[0]} à ce jeu`;
+    }
+    return `${parts.slice(0, -1).join(', ')} et ${
+      parts[parts.length - 1]
+    } à ce jeu`;
+  }
+
+  gameAlreadyInUserGamelist(game: Game): boolean {
+    const gamelist = this.allGamelistGames();
+    return gamelist.some(
+      (g) => g.title === game.title && g.editor === game.editor
+    );
+  }
+
+  addGameToGamelist(game: Game) {
+    this.router.navigate(['/select-games'], {
+      queryParams: {
+        gamelist: 'true',
+        title: game.title,
+        editor: game.editor,
+      },
+    });
   }
 }

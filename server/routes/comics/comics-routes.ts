@@ -9,11 +9,13 @@ const batchOwnedRouter = require('./batch-owned');
 const addComicRouter = require('./add-comic');
 const addExistingRouter = require('./add-existing');
 const deleteComicRouter = require('./delete-comic');
+const othersRatedRouter = require('./get-others-users-comics-rated');
 
 const router = express.Router();
 
 router.use(getEntitiesRouter);
 router.use(getReadlistRouter);
+router.use(othersRatedRouter);
 router.use(getComicsRouter);
 router.use(saveComicRouter);
 router.use(batchRatingRouter);

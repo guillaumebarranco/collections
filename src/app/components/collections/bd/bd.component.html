@@ -1,5 +1,5 @@
 <app-entity-card>
-  @if (canEdit()) {
+  @if (canEdit() && !readOnly) {
   <button
     entity-edit
     type="button"
@@ -45,8 +45,7 @@
     <p class="book-read-times">Lu le {{ bd.readDate | date : "dd/MM/yyyy" }}</p>
     } @if (bd.readTimes && bd.readTimes > 1 && !isBaseEntityView) {
     <p class="book-read-times">Lu {{ bd.readTimes }} fois</p>
-    }
-    @if (!isBaseEntityView) {
+    } @if (!isBaseEntityView) {
     <div class="book-rating entity-rating">
       <span class="stars">
         <span
@@ -56,6 +55,8 @@
       </span>
       <span class="rating-text">{{ bd.rating }}/5</span>
     </div>
+    } @if (recommendationText) {
+    <p class="recommendation-text">{{ recommendationText }}</p>
     }
   </div>
 </app-entity-card>

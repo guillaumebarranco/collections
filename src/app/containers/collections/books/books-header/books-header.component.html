@@ -1,7 +1,11 @@
 <div class="books-header">
   <h1>
     @if (isAdminView()) { Livres ({{ filteredBooksCount() }}) } @else {
-    {{ booksPageTitle() }} ({{ filteredBooksCount() }}) }
+    {{ booksPageTitle() }} ({{
+      selectedView() === "recommendations"
+        ? recommendedBooksCount()
+        : filteredBooksCount()
+    }}) }
   </h1>
 
   @if(allBooksCount() !== 0) {

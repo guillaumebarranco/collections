@@ -43,6 +43,7 @@ export class SeriesHeaderComponent {
   searchTermInput = input<string>('');
   allSeriesCount = input<number>(0);
   filteredSeriesCount = input<number>(0);
+  recommendedSeriesCount = input<number>(0);
   sortOptions = input<SortOption[]>([]);
   viewOptions = input<
     {
@@ -76,6 +77,8 @@ export class SeriesHeaderComponent {
       ? 'Séries à voir'
       : this.selectedView() === 'owned'
       ? 'Séries possédées'
+      : this.selectedView() === 'recommendations'
+      ? 'Recommandations'
       : 'Séries finies';
   });
 

@@ -1,6 +1,6 @@
 import { Comic } from '../../../models/comic-model';
 
-export type ComicView = 'read' | 'readlist' | 'owned';
+export type ComicView = 'read' | 'readlist' | 'owned' | 'recommendations';
 
 export const comicsSortOptions: { value: string; label: string }[] = [
   { value: 'title', label: 'Titre (A-Z)' },
@@ -23,6 +23,7 @@ export const comicViewOptions: { value: ComicView; label: string }[] = [
   { value: 'read', label: 'Comics lus' },
   { value: 'readlist', label: 'Comics à lire' },
   { value: 'owned', label: 'Comics possédés' },
+  { value: 'recommendations', label: 'Recommandations' },
 ];
 
 export const getSortedComics = (

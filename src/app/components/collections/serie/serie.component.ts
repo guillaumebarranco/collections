@@ -43,6 +43,8 @@ export class SerieComponent {
   @Input() list: Serie[] = [];
   @Input() index = -1;
   @Input() quizzs: Quizz[] = [];
+  @Input() readOnly = false;
+  @Input() recommendationText = '';
   @Output() serieUpdated = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
 

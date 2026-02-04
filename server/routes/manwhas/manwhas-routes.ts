@@ -9,11 +9,13 @@ const batchOwnedRouter = require('./batch-owned');
 const addManwhaRouter = require('./add-manwha');
 const addExistingRouter = require('./add-existing');
 const deleteManwhaRouter = require('./delete-manwha');
+const othersRatedRouter = require('./get-others-users-manwhas-rated');
 
 const router = express.Router();
 
 router.use(getEntitiesRouter);
 router.use(getReadlistRouter);
+router.use(othersRatedRouter);
 router.use(getManwhasRouter);
 router.use(saveManwhaRouter);
 router.use(batchRatingRouter);

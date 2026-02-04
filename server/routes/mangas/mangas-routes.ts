@@ -9,11 +9,13 @@ const batchOwnedRouter = require('./batch-owned');
 const addMangaRouter = require('./add-manga');
 const addExistingRouter = require('./add-existing');
 const deleteMangaRouter = require('./delete-manga');
+const othersRatedRouter = require('./get-others-users-mangas-rated');
 
 const router = express.Router();
 
 router.use(getEntitiesRouter);
 router.use(getReadlistRouter);
+router.use(othersRatedRouter);
 router.use(getMangasRouter);
 router.use(saveMangaRouter);
 router.use(batchRatingRouter);

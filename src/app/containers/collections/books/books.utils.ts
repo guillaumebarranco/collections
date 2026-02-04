@@ -1,6 +1,6 @@
 import { Book } from '../../../models/book-model';
 
-export type BookView = 'read' | 'readlist' | 'owned' | 'authors';
+export type BookView = 'read' | 'readlist' | 'owned' | 'authors' | 'recommendations';
 
 export const booksSortOptions: { value: string; label: string }[] = [
   { value: 'title', label: 'Titre (A-Z)' },
@@ -38,6 +38,7 @@ export const bookViewOptions: { value: BookView; label: string }[] = [
   { value: 'readlist', label: 'Livres à lire' },
   { value: 'owned', label: 'Livres possédés' },
   { value: 'authors', label: 'Voir les auteurs' },
+  { value: 'recommendations', label: 'Recommandations' },
 ];
 
 export const getSortedBooks = (books: Book[], selectedSort: string): Book[] => {

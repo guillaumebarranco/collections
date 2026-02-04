@@ -9,8 +9,11 @@ import {
   fetchBaseBdsFromApi,
   fetchReadlistBdsFromApi,
   fetchUserBdsFromApi,
+  fetchOtherUsersBdsRatedFromApi,
+  OtherUserBdRating,
 } from './api-bds.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
+import { users } from '../../utils/users/users';
 
 const fetchBaseBdsCached = createCachedFetcher(fetchBaseBdsFromApi);
 
@@ -142,6 +145,38 @@ export async function getCurrentReadlistBdsByUser(
   try {
     const readlist = await fetchReadlistBdsFromApi(userId);
     return getAllBdsData(readlist);
+  } catch {
+    return [];
+  }
+}
+
+export async function getOtherUsersBdsRated(
+  currentUserId = 'guillaume',
+  minRating = 4
+): Promise<OtherUserBdRating[]> {
+  if (isLocalhost()) {
+    const otherUsers = users
+      .map((user) => user.username)
+      .filter((username) => username !== currentUserId);
+    const results: OtherUserBdRating[] = [];
+    otherUsers.forEach((username) => {
+      const bds = getLocalBdsByUser(username);
+      bds
+        .filter((bd: any) => (bd.rating ?? 0) >= minRating)
+        .forEach((bd: any) => {
+          results.push({
+            title: bd.title,
+            writer: bd.writer,
+            rating: bd.rating ?? 0,
+            userId: username,
+          });
+        });
+    });
+    return results;
+  }
+
+  try {
+    return await fetchOtherUsersBdsRatedFromApi(currentUserId, minRating);
   } catch {
     return [];
   }

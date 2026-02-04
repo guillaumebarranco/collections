@@ -6,6 +6,7 @@
     [selectedSortInput]="selectedSort()"
     [searchTermInput]="searchTerm()"
     [filteredComicsCount]="filteredComics().length"
+    [recommendedComicsCount]="recommendedComics().length"
     [allComicsCount]="allComics().length"
     [allReadlistComicsCount]="allReadlistComics().length"
     [stats]="stats()"
@@ -16,6 +17,35 @@
     (onSortChange)="onSortChange($event)"
   ></app-comics-header>
 
+  <!-- Recommendations -->
+  @if(selectedView() === 'recommendations') {
+  <div class="comics">
+    @if (isLoadingRecommendations()) {
+    <p>Chargement des recommandations...</p>
+    } @else if (recommendedComics().length === 0) {
+    <p>Aucune recommandation disponible pour le moment.</p>
+    } @else { @for (comic of recommendedComics(); track
+    `${comic.title}-${comic.writer}`) {
+    <div class="comic-card comic-card--recommended comic-card--missing">
+      @if(comicAlreadyInUserReadlist(comic)) {
+      <span class="comic-missing-badge">Déjà dans votre readlist</span>
+      } @else {
+      <span class="comic-missing-badge">Recommandé</span>
+      <button class="makya-btn-small" (click)="addComicToReadlist(comic)">
+        Ajouter à ma readlist
+      </button>
+      }
+      <app-comic
+        [comic]="comic"
+        [readOnly]="true"
+        [quizzs]="quizzs()"
+        [recommendationText]="getComicRecommendationText(comic)"
+        (openQuizz)="openQuizzModal($event)"
+      ></app-comic>
+    </div>
+    } }
+  </div>
+  } @else {
   <div class="comics">
     @for (comic of sortedComics(); track comic.title) {
     <div class="comic-card">
@@ -28,6 +58,7 @@
     </div>
     }
   </div>
+  }
 </div>
 
 <app-quizz-modal

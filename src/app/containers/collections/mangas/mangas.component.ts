@@ -36,12 +36,19 @@ import {
   getAllBaseMangas,
   getAllMangas,
   getAllReadlistMangas,
+  getOtherUsersMangasRated,
 } from '../../../facades/mangas/mangas.facade';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditMangaComponent } from '../../edit/edit-manga/edit-manga.component';
 import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
+import { capitalizeFirstLetter } from '../../../utils/stats.utils';
+
+type RecommendationDetail = { userId: string; rating: number };
+type RecommendedManga = Manga & {
+  recommendationDetails: RecommendationDetail[];
+};
 
 @Component({
   selector: 'app-mangas',
@@ -81,6 +88,10 @@ export class MangasComponent implements OnInit {
   mangasList = signal<{ [key: string]: Manga[] }>({});
   readlistMangasList = signal<{ [key: string]: Manga[] }>({});
   adminMangasList = signal<Manga[]>([]);
+  baseMangasList = signal<Manga[]>([]);
+  recommendations = signal<RecommendedManga[]>([]);
+  isLoadingRecommendations = signal<boolean>(false);
+  recommendationsUserId = signal<string>('');
 
   constructor() {
     effect(() => {
@@ -237,8 +248,11 @@ export class MangasComponent implements OnInit {
     await this.refreshMangas();
   }
 
-  onViewChange(view: 'read' | 'readlist' | 'owned') {
+  onViewChange(view: MangaView) {
     this.selectedView.set(view);
+    if (view === 'recommendations') {
+      void this.loadRecommendations();
+    }
   }
 
   private matchesSearch(manga: Manga, term: string): boolean {
@@ -295,16 +309,33 @@ export class MangasComponent implements OnInit {
         owned: false,
       }));
       this.adminMangasList.set(mangas);
+      this.baseMangasList.set(mangas);
       return;
     }
 
     const userId = this.getActiveUserId();
-    const [mangas, readlist] = await Promise.all([
+    const [mangas, readlist, baseMangas] = await Promise.all([
       getAllMangas(userId),
       getAllReadlistMangas(userId),
+      getAllBaseMangas(),
     ]);
     this.mangasList.set(mangas);
     this.readlistMangasList.set(readlist);
+    this.baseMangasList.set(
+      baseMangas.map((manga) => ({
+        title: manga.title,
+        author: manga.author,
+        coverUrl: manga.coverUrl,
+        pages: manga.pages,
+        genre: manga.genre,
+        nbTomes: manga.nbTomes,
+        isFinished: manga.isFinished,
+        rating: 0,
+        readDate: '',
+        readTimes: 0,
+        owned: false,
+      }))
+    );
   }
 
   private async refreshQuizzs() {
@@ -342,5 +373,125 @@ export class MangasComponent implements OnInit {
 
   public isAdminView(): boolean {
     return this.authService.isAdmin() && this.router.url.startsWith('/admin');
+  }
+
+  async loadRecommendations() {
+    if (this.isAdminView()) return;
+    if (this.isLoadingRecommendations()) return;
+
+    const userId = this.getActiveUserId();
+    if (
+      this.recommendationsUserId() === userId &&
+      this.recommendations().length
+    ) {
+      return;
+    }
+
+    // S'assurer que baseMangasList est chargé
+    if (this.baseMangasList().length === 0) {
+      await this.refreshMangas();
+    }
+
+    this.isLoadingRecommendations.set(true);
+    try {
+      const othersRated = await getOtherUsersMangasRated(userId, 4);
+
+      const detailsMap = new Map<string, Map<string, number>>();
+      for (const manga of othersRated) {
+        const key = `${manga.title}|${manga.author}`;
+        const userMap = detailsMap.get(key) ?? new Map<string, number>();
+        const prev = userMap.get(manga.userId) ?? 0;
+        if (manga.rating > prev) {
+          userMap.set(manga.userId, manga.rating);
+        }
+        detailsMap.set(key, userMap);
+      }
+
+      const seenKeys = new Set(
+        this.allMangas().map((manga) => this.getMangaIdentityKey(manga))
+      );
+
+      const recommended = this.baseMangasList()
+        .filter((manga) => {
+          const key = this.getMangaIdentityKey(manga);
+          return !seenKeys.has(key) && detailsMap.has(key);
+        })
+        .map((manga) => {
+          const details = detailsMap.get(this.getMangaIdentityKey(manga));
+          const recommendationDetails = details
+            ? Array.from(details.entries()).map(([userId, rating]) => ({
+                userId,
+                rating,
+              }))
+            : [];
+          return {
+            ...manga,
+            recommendationDetails,
+          };
+        })
+        .sort((a, b) => {
+          const detailsA = detailsMap.get(this.getMangaIdentityKey(a));
+          const detailsB = detailsMap.get(this.getMangaIdentityKey(b));
+          const countA = detailsA?.size ?? 0;
+          const countB = detailsB?.size ?? 0;
+          if (countB !== countA) return countB - countA;
+          const maxA = detailsA ? Math.max(...detailsA.values()) : 0;
+          const maxB = detailsB ? Math.max(...detailsB.values()) : 0;
+          if (maxB !== maxA) return maxB - maxA;
+          return a.title.localeCompare(b.title);
+        });
+
+      this.recommendations.set(recommended);
+      this.recommendationsUserId.set(userId);
+    } catch (error) {
+      console.warn('mangas:recommendations:error', error);
+    } finally {
+      this.isLoadingRecommendations.set(false);
+    }
+  }
+
+  recommendedMangas = computed(() => {
+    const term = this.searchTerm().trim().toLowerCase();
+    const list = this.recommendations();
+    if (!term) return list;
+    return list.filter((manga) => this.matchesSearch(manga, term));
+  });
+
+  getMangaIdentityKey(manga: Manga): string {
+    return `${manga.title}|${manga.author}`;
+  }
+
+  getMangaRecommendationText(manga: Manga): string {
+    const recommendationDetails =
+      (manga as RecommendedManga).recommendationDetails || [];
+    if (recommendationDetails.length === 0) return '';
+
+    const parts = recommendationDetails.map(
+      (detail) =>
+        `${capitalizeFirstLetter(detail.userId)} a donné ${detail.rating}★`
+    );
+    if (parts.length === 1) {
+      return `${parts[0]} à ce manga`;
+    }
+    return `${parts.slice(0, -1).join(', ')} et ${
+      parts[parts.length - 1]
+    } à ce manga`;
+  }
+
+  mangaAlreadyInUserReadlist(manga: Manga): boolean {
+    const readlist = this.allReadlistMangas();
+    return readlist.some(
+      (m) => m.title === manga.title && m.author === manga.author
+    );
+  }
+
+  addMangaToReadlist(manga: Manga) {
+    this.router.navigate(['/select-mangas'], {
+      queryParams: {
+        readlist: 'true',
+        title: manga.title,
+        author: manga.author,
+      },
+    });
   }
 }
