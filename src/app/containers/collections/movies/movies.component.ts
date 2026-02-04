@@ -873,7 +873,7 @@ export class MoviesComponent implements OnInit {
           director: movie.director,
           rating: movie.rating,
           timesWatched: (movie.timesWatched || 0) + 1,
-          firstViewedDate: movie.firstViewedDate || today,
+          firstViewedDate: movie.firstViewedDate,
           lastViewedDate: today,
           seenAtCinema: movie.seenAtCinema,
           owned: movie.owned,
