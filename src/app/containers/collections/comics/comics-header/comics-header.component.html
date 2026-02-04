@@ -1,0 +1,95 @@
+<div class="comics-header">
+  <h1>
+    @if (isAdminView()) { Comics ({{ filteredComicsCount() }}) } @else {
+    {{ comicsPageTitle() }} ({{ filteredComicsCount() }}) }
+  </h1>
+
+  @if(allComicsCount() !== 0 || allReadlistComicsCount() !== 0) {
+  <div class="comics-header-top">
+    @if (!isAdminView()) {
+    <app-view-toggle
+      [toggleClass]="'comics-view-toggle'"
+      [options]="viewOptions()"
+      [selected]="selectedView()"
+      (selectedChange)="onViewChange.emit($any($event))"
+    ></app-view-toggle>
+    }
+
+    <div class="comics-actions">
+      @if (!isAdminView()) {
+      <button
+        class="makya-btn-small"
+        [routerLink]="getSelectComicsRoute()"
+        [queryParams]="{ readlist: selectedView() === 'readlist' }"
+        title="Ajouter des comics"
+      >
+        ➕
+        {{
+          selectedView() === "readlist"
+            ? "Ajouter des comics à lire"
+            : "Ajouter des comics"
+        }}
+      </button>
+      <button
+        class="makya-btn-small"
+        [routerLink]="getSelectComicsRatingRoute()"
+        title="Mettre à jour les notes de mes comics"
+      >
+        ⭐ Notes
+      </button>
+      <button
+        class="makya-btn-small"
+        [routerLink]="getSelectComicsTimesReadRoute()"
+        title="Mettre à jour le nombre de lectures de mes comics"
+      >
+        📖 Lectures
+      </button>
+      <button
+        class="makya-btn-small"
+        [routerLink]="getSelectComicsOwnedRoute()"
+        title="Mettre à jour les comics possédés"
+      >
+        ✅ Possédés
+      </button>
+      }
+    </div>
+  </div>
+  } @if(!isAdminView() && allComicsCount() === 0 && allReadlistComicsCount() === 0) {
+  <div class="empty-state">
+    <p class="empty-message">Vous n'avez aucun comic dans votre collection.</p>
+    <p class="empty-subtitle">
+      Commencez dès maintenant à créer votre comicthèque personnelle !
+    </p>
+    <button class="makya-btn-ultra-big" [routerLink]="getSelectComicsRoute()">
+      Sélectionner mes comics
+    </button>
+  </div>
+  }
+
+  <div class="comics-stats-bloc">
+    @if (!isAdminView()) {
+    <app-stats-display
+      [stats]="stats()"
+      [count]="filteredComicsCount()"
+      countLabel="comics"
+    >
+    </app-stats-display>
+    }
+
+    <app-sort-dropdown
+      [sortOptions]="sortOptions()"
+      [selectedSort]="selectedSort()"
+      (sortChange)="onSortChange.emit($event)"
+    >
+    </app-sort-dropdown>
+  </div>
+
+  <div class="comics-search">
+    <input
+      type="text"
+      placeholder="Rechercher par titre, designer, genre..."
+      [ngModel]="searchTerm()"
+      (ngModelChange)="onSearchChange.emit($event)"
+    />
+  </div>
+</div>

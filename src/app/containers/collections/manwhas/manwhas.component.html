@@ -1,107 +1,20 @@
 <app-menu></app-menu>
 
 <div class="manwhas-container">
-  <h1>
-    @if (isAdminView()) { Manwhas ({{ filteredManwhas().length }}) } @else {
-    {{
-      selectedView() === "readlist"
-        ? "Manwhas à lire"
-        : selectedView() === "owned"
-        ? "Manwhas possédés"
-        : "Manwhas lus"
-    }}
-    ({{ filteredManwhas().length }}) }
-  </h1>
-
-  @if(!isAdminView() && allManwhas().length === 0 && allReadlistManwhas().length
-  === 0) {
-  <div class="empty-state">
-    <p class="empty-message">Vous n'avez aucun manwha dans votre collection.</p>
-    <p class="empty-subtitle">
-      Commencez dès maintenant à créer votre manhwathèque personnelle !
-    </p>
-    <button class="makya-btn-ultra-big" [routerLink]="getSelectManwhasRoute()">
-      Sélectionner mes manwhas
-    </button>
-  </div>
-  } @if(allManwhas().length !== 0 || allReadlistManwhas().length !== 0) {
-  <div class="manwhas-header-top">
-    @if (!isAdminView()) {
-    <app-view-toggle
-      [toggleClass]="'manwhas-view-toggle'"
-      [options]="viewOptions"
-      [selected]="selectedView()"
-      (selectedChange)="onViewChange($any($event))"
-    ></app-view-toggle>
-    }
-
-    <div class="manwhas-actions">
-      @if (!isAdminView()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectManwhasRoute()"
-        [queryParams]="{ readlist: selectedView() === 'readlist' }"
-        title="Ajouter des manwhas"
-      >
-        ➕
-        {{
-          selectedView() === "readlist"
-            ? "Ajouter des manwhas à lire"
-            : "Ajouter des manwhas"
-        }}
-      </button>
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectManwhasRatingRoute()"
-        title="Mettre à jour les notes de mes manwhas"
-      >
-        ⭐ Notes
-      </button>
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectManwhasTimesReadRoute()"
-        title="Mettre à jour le nombre de lectures de mes manwhas"
-      >
-        📖 Lectures
-      </button>
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectManwhasOwnedRoute()"
-        title="Mettre à jour les manwhas possédés"
-      >
-        ✅ Possédés
-      </button>
-      }
-    </div>
-  </div>
-  }
-
-  <div class="manwhas-header">
-    @if (!isAdminView()) {
-    <app-stats-display
-      [stats]="stats()"
-      [count]="filteredManwhas().length"
-      countLabel="manwhas"
-    >
-    </app-stats-display>
-    }
-
-    <app-sort-dropdown
-      [sortOptions]="sortOptions()"
-      [selectedSort]="selectedSort()"
-      (sortChange)="onSortChange($event)"
-    >
-    </app-sort-dropdown>
-  </div>
-
-  <div class="manwhas-search">
-    <input
-      type="text"
-      placeholder="Rechercher par titre, auteur, genre..."
-      [ngModel]="searchTerm()"
-      (ngModelChange)="onSearchChange($event)"
-    />
-  </div>
+  <app-manwhas-header
+    [selectedView]="selectedView()"
+    [selectedSortInput]="selectedSort()"
+    [searchTermInput]="searchTerm()"
+    [filteredManwhasCount]="filteredManwhas().length"
+    [allManwhasCount]="allManwhas().length"
+    [allReadlistManwhasCount]="allReadlistManwhas().length"
+    [stats]="stats()"
+    [viewOptions]="viewOptions"
+    [sortOptions]="sortOptions()"
+    (onViewChange)="onViewChange($any($event))"
+    (onSearchChange)="onSearchChange($event)"
+    (onSortChange)="onSortChange($event)"
+  ></app-manwhas-header>
 
   @if(selectedView() === 'readlist') {
   <div class="readlist-actions">

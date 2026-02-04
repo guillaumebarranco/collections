@@ -1,0 +1,95 @@
+<div class="mangas-header">
+  <h1>
+    @if (isAdminView()) { Mangas ({{ filteredMangasCount() }}) } @else {
+    {{ mangasPageTitle() }} ({{ filteredMangasCount() }}) }
+  </h1>
+
+  @if(allMangasCount() !== 0 || allReadlistMangasCount() !== 0) {
+  <div class="mangas-header-top">
+    @if (!isAdminView()) {
+    <app-view-toggle
+      [toggleClass]="'mangas-view-toggle'"
+      [options]="viewOptions()"
+      [selected]="selectedView()"
+      (selectedChange)="onViewChange.emit($any($event))"
+    ></app-view-toggle>
+    }
+
+    <div class="mangas-actions">
+      @if (!isAdminView()) {
+      <button
+        class="makya-btn-small"
+        [routerLink]="getSelectMangasRoute()"
+        [queryParams]="{ readlist: selectedView() === 'readlist' }"
+        title="Ajouter des mangas"
+      >
+        ➕
+        {{
+          selectedView() === "readlist"
+            ? "Ajouter des mangas à lire"
+            : "Ajouter des mangas"
+        }}
+      </button>
+      <button
+        class="makya-btn-small"
+        [routerLink]="getSelectMangasRatingRoute()"
+        title="Mettre à jour les notes de mes mangas"
+      >
+        ⭐ Notes
+      </button>
+      <button
+        class="makya-btn-small"
+        [routerLink]="getSelectMangasTimesReadRoute()"
+        title="Mettre à jour le nombre de lectures de mes mangas"
+      >
+        📖 Lectures
+      </button>
+      <button
+        class="makya-btn-small"
+        [routerLink]="getSelectMangasOwnedRoute()"
+        title="Mettre à jour les mangas possédés"
+      >
+        ✅ Possédés
+      </button>
+      }
+    </div>
+  </div>
+  } @if(!isAdminView() && allMangasCount() === 0 && allReadlistMangasCount() === 0) {
+  <div class="empty-state">
+    <p class="empty-message">Vous n'avez aucun manga dans votre collection.</p>
+    <p class="empty-subtitle">
+      Commencez dès maintenant à créer votre mangathèque personnelle !
+    </p>
+    <button class="makya-btn-ultra-big" [routerLink]="getSelectMangasRoute()">
+      Sélectionner mes mangas
+    </button>
+  </div>
+  }
+
+  <div class="mangas-stats-bloc">
+    @if (!isAdminView()) {
+    <app-stats-display
+      [stats]="stats()"
+      [count]="filteredMangasCount()"
+      countLabel="mangas"
+    >
+    </app-stats-display>
+    }
+
+    <app-sort-dropdown
+      [sortOptions]="sortOptions()"
+      [selectedSort]="selectedSort()"
+      (sortChange)="onSortChange.emit($event)"
+    >
+    </app-sort-dropdown>
+  </div>
+
+  <div class="mangas-search">
+    <input
+      type="text"
+      placeholder="Rechercher par titre, auteur, genre..."
+      [ngModel]="searchTerm()"
+      (ngModelChange)="onSearchChange.emit($event)"
+    />
+  </div>
+</div>

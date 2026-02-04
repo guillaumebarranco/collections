@@ -1,107 +1,20 @@
 <app-menu></app-menu>
 
 <div class="bds-container">
-  <h1>
-    @if (isAdminView()) { BD ({{ filteredBds().length }}) } @else {
-    {{
-      selectedView() === "readlist"
-        ? "BD à lire"
-        : selectedView() === "owned"
-        ? "BD possédées"
-        : "BD lues"
-    }}
-    ({{ filteredBds().length }}) }
-  </h1>
-
-  @if(!isAdminView() && allBds().length === 0 && allReadlistBds().length === 0)
-  {
-  <div class="empty-state">
-    <p class="empty-message">Vous n'avez aucune BD dans votre collection.</p>
-    <p class="empty-subtitle">
-      Commencez dès maintenant à créer votre BDthèque personnelle !
-    </p>
-    <button class="makya-btn-ultra-big" [routerLink]="getSelectBdsRoute()">
-      Sélectionner mes BD
-    </button>
-  </div>
-  } @if(allBds().length !== 0 || allReadlistBds().length !== 0) {
-  <div class="bds-header-top">
-    @if (!isAdminView()) {
-    <app-view-toggle
-      [toggleClass]="'bds-view-toggle'"
-      [options]="viewOptions"
-      [selected]="selectedView()"
-      (selectedChange)="onViewChange($any($event))"
-    ></app-view-toggle>
-    }
-
-    <div class="bds-actions">
-      @if (!isAdminView()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectBdsRoute()"
-        [queryParams]="{ readlist: selectedView() === 'readlist' }"
-        title="Ajouter des BD"
-      >
-        ➕
-        {{
-          selectedView() === "readlist"
-            ? "Ajouter des BD à lire"
-            : "Ajouter des BD"
-        }}
-      </button>
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectBdsRatingRoute()"
-        title="Mettre à jour les notes de mes BD"
-      >
-        ⭐ Notes
-      </button>
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectBdsTimesReadRoute()"
-        title="Mettre à jour le nombre de lectures de mes BD"
-      >
-        📖 Lectures
-      </button>
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectBdsOwnedRoute()"
-        title="Mettre à jour les BD possédées"
-      >
-        ✅ Possédées
-      </button>
-      }
-    </div>
-  </div>
-  }
-
-  <div class="bds-header">
-    @if (!isAdminView()) {
-    <app-stats-display
-      [stats]="stats()"
-      [count]="filteredBds().length"
-      countLabel="BD"
-    >
-    </app-stats-display>
-    }
-
-    <app-sort-dropdown
-      [sortOptions]="sortOptions()"
-      [selectedSort]="selectedSort()"
-      (sortChange)="onSortChange($event)"
-    >
-    </app-sort-dropdown>
-  </div>
-
-  <div class="bds-search">
-    <input
-      type="text"
-      placeholder="Rechercher par titre, designer, genre..."
-      [ngModel]="searchTerm()"
-      (ngModelChange)="onSearchChange($event)"
-    />
-  </div>
+  <app-bds-header
+    [selectedView]="selectedView()"
+    [selectedSortInput]="selectedSort()"
+    [searchTermInput]="searchTerm()"
+    [filteredBdsCount]="filteredBds().length"
+    [allBdsCount]="allBds().length"
+    [allReadlistBdsCount]="allReadlistBds().length"
+    [stats]="stats()"
+    [viewOptions]="viewOptions"
+    [sortOptions]="sortOptions()"
+    (onViewChange)="onViewChange($any($event))"
+    (onSearchChange)="onSearchChange($event)"
+    (onSortChange)="onSortChange($event)"
+  ></app-bds-header>
 
   <div class="bds">
     @for (bd of sortedBds(); track bd.title) {

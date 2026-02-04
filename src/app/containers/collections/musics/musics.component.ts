@@ -10,19 +10,12 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { MusicComponent } from '../../../components/collections/music/music.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
+import { SortOption } from '../../../components/sort-dropdown/sort-dropdown.component';
 import {
-  ViewToggleComponent,
-  ViewToggleOption,
-} from '../../../components/view-toggle/view-toggle.component';
-import {
-  SortDropdownComponent,
-  SortOption,
-} from '../../../components/sort-dropdown/sort-dropdown.component';
-import {
-  StatsDisplayComponent,
   StatItem,
   StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
+import { MusicsHeaderComponent } from './musics-header/musics-header.component';
 import {
   AlbumModalComponent,
   Album,
@@ -52,10 +45,8 @@ import {
     FormsModule,
     MusicComponent,
     MenuComponent,
-    ViewToggleComponent,
-    SortDropdownComponent,
-    StatsDisplayComponent,
     AlbumModalComponent,
+    MusicsHeaderComponent,
   ],
   templateUrl: './musics.component.html',
   styleUrls: ['./musics.component.scss'],
@@ -81,7 +72,7 @@ export class MusicsComponent implements OnInit {
 
   sortOptions: SortOption[] = musicSortOptions;
 
-  viewOptions: ViewToggleOption[] = musicViewOptions;
+  viewOptions: { value: string; label: string }[] = musicViewOptions;
 
   musicsList = signal<{ [key: string]: Music[] }>({});
   adminMusicsList = signal<Music[]>([]);
@@ -328,28 +319,6 @@ export class MusicsComponent implements OnInit {
 
   isAdminView(): boolean {
     return this.authService.isAdmin() && this.router.url.startsWith('/admin');
-  }
-
-  getSelectMusicsRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam ? `/${params['id']}/select-musics` : '/select-musics';
-  }
-
-  getSelectMusicsRatingRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam
-      ? `/${params['id']}/select-musics-rating`
-      : '/select-musics-rating';
-  }
-
-  getSelectMusicsTimesListenedRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam
-      ? `/${params['id']}/select-musics-times-listened`
-      : '/select-musics-times-listened';
   }
 
   private getActiveUserId(): string {

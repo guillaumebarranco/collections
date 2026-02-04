@@ -1,0 +1,98 @@
+<div class="games-header">
+  <h1>
+    @if (isAdminView()) { Jeux ({{ filteredGamesCount() }}) } @else {
+    {{ gamesPageTitle() }} ({{ filteredGamesCount() }}) }
+  </h1>
+
+  @if(allGamesCount() !== 0 || allGamelistGamesCount() !== 0) {
+  <div class="games-header-top">
+    @if (!isAdminView()) {
+    <app-view-toggle
+      [toggleClass]="'games-view-toggle'"
+      [options]="viewOptions()"
+      [selected]="selectedView()"
+      (selectedChange)="onViewChange.emit($any($event))"
+    ></app-view-toggle>
+    }
+
+    <div class="games-actions">
+      @if (!isAdminView()) {
+      <button
+        class="makya-btn-small"
+        [routerLink]="getSelectGamesRoute()"
+        [queryParams]="{
+          gamelist: selectedView() === 'gamelist',
+          add: 'true'
+        }"
+        title="Ajouter un jeu"
+      >
+        ➕
+        {{
+          selectedView() === "gamelist"
+            ? "Ajouter des jeux à jouer"
+            : "Ajouter un jeu"
+        }}
+      </button>
+      <button
+        class="makya-btn-small"
+        [routerLink]="getSelectGamesRatingRoute()"
+        title="Mettre à jour les notes de mes jeux"
+      >
+        ⭐ Notes
+      </button>
+      <button
+        class="makya-btn-small"
+        [routerLink]="getSelectGamesTimesFinishedRoute()"
+        title="Mettre à jour le nombre de fois que j'ai terminé mes jeux"
+      >
+        🎮 Terminés
+      </button>
+      <button
+        class="makya-btn-small"
+        [routerLink]="getSelectGamesOwnedRoute()"
+        title="Mettre à jour les jeux possédés"
+      >
+        ✅ Possédés
+      </button>
+      }
+    </div>
+  </div>
+  } @if(allGamesCount() === 0 && allGamelistGamesCount() === 0) {
+  <div class="empty-state">
+    <p class="empty-message">Vous n'avez aucun jeu dans votre collection.</p>
+    <p class="empty-subtitle">
+      Commencez dès maintenant à créer votre ludothèque personnelle !
+    </p>
+    <button class="makya-btn-ultra-big" [routerLink]="getSelectGamesRoute()">
+      Sélectionner mes jeux
+    </button>
+  </div>
+  }
+
+  <div class="games-stats-bloc">
+    @if (!isAdminView()) {
+    <app-stats-display
+      [stats]="stats()"
+      [count]="filteredGamesCount()"
+      countLabel="jeux"
+    >
+    </app-stats-display>
+    }
+
+    <app-sort-dropdown
+      [sortOptions]="sortOptions()"
+      [selectedSort]="selectedSort()"
+      (sortChange)="onSortChange.emit($event)"
+    >
+    </app-sort-dropdown>
+  </div>
+
+  <div class="games-search">
+    <input
+      type="text"
+      placeholder="Rechercher par titre, éditeur, plateforme..."
+      [ngModel]="searchTerm()"
+      (ngModelChange)="onSearchChange.emit($event)"
+    />
+  </div>
+</div>

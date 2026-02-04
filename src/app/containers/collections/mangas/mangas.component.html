@@ -1,107 +1,20 @@
 <app-menu></app-menu>
 
 <div class="mangas-container">
-  <h1>
-    @if (isAdminView()) { Mangas ({{ filteredMangas().length }}) } @else {
-    {{
-      selectedView() === "readlist"
-        ? "Mangas à lire"
-        : selectedView() === "owned"
-        ? "Mangas possédés"
-        : "Mangas lus"
-    }}
-    ({{ filteredMangas().length }}) }
-  </h1>
-
-  @if(!isAdminView() && allMangas().length === 0 && allReadlistMangas().length
-  === 0) {
-  <div class="empty-state">
-    <p class="empty-message">Vous n'avez aucun manga dans votre collection.</p>
-    <p class="empty-subtitle">
-      Commencez dès maintenant à créer votre mangathèque personnelle !
-    </p>
-    <button class="makya-btn-ultra-big" [routerLink]="getSelectMangasRoute()">
-      Sélectionner mes mangas
-    </button>
-  </div>
-  } @if(allMangas().length !== 0 || allReadlistMangas().length !== 0) {
-  <div class="mangas-header-top">
-    @if (!isAdminView()) {
-    <app-view-toggle
-      [toggleClass]="'mangas-view-toggle'"
-      [options]="viewOptions"
-      [selected]="selectedView()"
-      (selectedChange)="onViewChange($any($event))"
-    ></app-view-toggle>
-    }
-
-    <div class="mangas-actions">
-      @if (!isAdminView()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectMangasRoute()"
-        [queryParams]="{ readlist: selectedView() === 'readlist' }"
-        title="Ajouter des mangas"
-      >
-        ➕
-        {{
-          selectedView() === "readlist"
-            ? "Ajouter des mangas à lire"
-            : "Ajouter des mangas"
-        }}
-      </button>
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectMangasRatingRoute()"
-        title="Mettre à jour les notes de mes mangas"
-      >
-        ⭐ Notes
-      </button>
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectMangasTimesReadRoute()"
-        title="Mettre à jour le nombre de lectures de mes mangas"
-      >
-        📖 Lectures
-      </button>
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectMangasOwnedRoute()"
-        title="Mettre à jour les mangas possédés"
-      >
-        ✅ Possédés
-      </button>
-      }
-    </div>
-  </div>
-  }
-
-  <div class="mangas-header">
-    @if (!isAdminView()) {
-    <app-stats-display
-      [stats]="stats()"
-      [count]="filteredMangas().length"
-      countLabel="mangas"
-    >
-    </app-stats-display>
-    }
-
-    <app-sort-dropdown
-      [sortOptions]="sortOptions()"
-      [selectedSort]="selectedSort()"
-      (sortChange)="onSortChange($event)"
-    >
-    </app-sort-dropdown>
-  </div>
-
-  <div class="mangas-search">
-    <input
-      type="text"
-      placeholder="Rechercher par titre, auteur, genre..."
-      [ngModel]="searchTerm()"
-      (ngModelChange)="onSearchChange($event)"
-    />
-  </div>
+  <app-mangas-header
+    [selectedView]="selectedView()"
+    [selectedSortInput]="selectedSort()"
+    [searchTermInput]="searchTerm()"
+    [filteredMangasCount]="filteredMangas().length"
+    [allMangasCount]="allMangas().length"
+    [allReadlistMangasCount]="allReadlistMangas().length"
+    [stats]="stats()"
+    [viewOptions]="viewOptions"
+    [sortOptions]="sortOptions()"
+    (onViewChange)="onViewChange($any($event))"
+    (onSearchChange)="onSearchChange($event)"
+    (onSortChange)="onSortChange($event)"
+  ></app-mangas-header>
 
   <div class="mangas">
     @for (manga of sortedMangas(); track manga.title) {

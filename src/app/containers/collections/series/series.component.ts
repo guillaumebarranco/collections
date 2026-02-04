@@ -10,19 +10,12 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { SerieComponent } from '../../../components/collections/serie/serie.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
+import { SortOption } from '../../../components/sort-dropdown/sort-dropdown.component';
 import {
-  ViewToggleComponent,
-  ViewToggleOption,
-} from '../../../components/view-toggle/view-toggle.component';
-import {
-  SortDropdownComponent,
-  SortOption,
-} from '../../../components/sort-dropdown/sort-dropdown.component';
-import {
-  StatsDisplayComponent,
   StatItem,
   StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
+import { SeriesHeaderComponent } from './series-header/series-header.component';
 import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
 import { Serie } from '../../../models/serie-model';
 import { Quizz } from '../../../models/quizz-model';
@@ -55,10 +48,8 @@ import { AuthService } from '../../../core/auth.service';
     FormsModule,
     SerieComponent,
     MenuComponent,
-    ViewToggleComponent,
-    SortDropdownComponent,
-    StatsDisplayComponent,
     QuizzModalComponent,
+    SeriesHeaderComponent,
   ],
   templateUrl: './series.component.html',
   styleUrls: ['./series.component.scss'],
@@ -80,7 +71,7 @@ export class SeriesComponent implements OnInit {
 
   sortOptions = signal<SortOption[]>(seriesSortOptions);
 
-  viewOptions: ViewToggleOption[] = serieViewOptions;
+  viewOptions: { value: SerieView; label: string }[] = serieViewOptions;
 
   seriesList = signal<{ [key: string]: Serie[] }>({});
   watchingSeriesList = signal<{ [key: string]: Serie[] }>({});
@@ -275,36 +266,6 @@ export class SeriesComponent implements OnInit {
   closeQuizzModal() {
     this.isQuizzModalOpen.set(false);
     this.activeQuizzs.set([]);
-  }
-
-  getSelectSeriesRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam ? `/${params['id']}/select-series` : '/select-series';
-  }
-
-  getSelectSeriesRatingRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam
-      ? `/${params['id']}/select-series-rating`
-      : '/select-series-rating';
-  }
-
-  getSelectSeriesTimesWatchedRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam
-      ? `/${params['id']}/select-series-times-watched`
-      : '/select-series-times-watched';
-  }
-
-  getSelectSeriesOwnedRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam
-      ? `/${params['id']}/select-series-owned`
-      : '/select-series-owned';
   }
 
   private matchesSearch(serie: Serie, term: string): boolean {

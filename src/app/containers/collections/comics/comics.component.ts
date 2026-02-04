@@ -10,19 +10,12 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ComicComponent } from '../../../components/collections/comic/comic.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
+import { SortOption } from '../../../components/sort-dropdown/sort-dropdown.component';
 import {
-  ViewToggleComponent,
-  ViewToggleOption,
-} from '../../../components/view-toggle/view-toggle.component';
-import {
-  SortDropdownComponent,
-  SortOption,
-} from '../../../components/sort-dropdown/sort-dropdown.component';
-import {
-  StatsDisplayComponent,
   StatItem,
   StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
+import { ComicsHeaderComponent } from './comics-header/comics-header.component';
 import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
 import { Comic } from '../../../models/comic-model';
 import { Quizz } from '../../../models/quizz-model';
@@ -58,11 +51,9 @@ import { AuthService } from '../../../core/auth.service';
     FormsModule,
     ComicComponent,
     MenuComponent,
-    ViewToggleComponent,
-    SortDropdownComponent,
-    StatsDisplayComponent,
     MatDialogModule,
     QuizzModalComponent,
+    ComicsHeaderComponent,
   ],
   templateUrl: './comics.component.html',
   styleUrls: ['./comics.component.scss'],
@@ -85,7 +76,7 @@ export class ComicsComponent implements OnInit {
 
   sortOptions = signal<SortOption[]>(comicsSortOptions);
 
-  viewOptions: ViewToggleOption[] = comicViewOptions;
+  viewOptions: { value: ComicView; label: string }[] = comicViewOptions;
 
   comicsList = signal<{ [key: string]: Comic[] }>({});
   readlistComicsList = signal<{ [key: string]: Comic[] }>({});
@@ -241,36 +232,6 @@ export class ComicsComponent implements OnInit {
 
   onViewChange(view: 'read' | 'readlist' | 'owned') {
     this.selectedView.set(view);
-  }
-
-  getSelectComicsRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam ? `/${params['id']}/select-comics` : '/select-comics';
-  }
-
-  getSelectComicsRatingRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam
-      ? `/${params['id']}/select-comics-rating`
-      : '/select-comics-rating';
-  }
-
-  getSelectComicsTimesReadRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam
-      ? `/${params['id']}/select-comics-times-read`
-      : '/select-comics-times-read';
-  }
-
-  getSelectComicsOwnedRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam
-      ? `/${params['id']}/select-comics-owned`
-      : '/select-comics-owned';
   }
 
   private matchesSearch(comic: Comic, term: string): boolean {

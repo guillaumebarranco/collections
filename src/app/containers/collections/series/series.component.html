@@ -1,112 +1,19 @@
 <app-menu></app-menu>
 
 <div class="series-container">
-  <h1>
-    @if (isAdminView()) { Séries ({{ filteredSeries().length }}) } @else {
-    {{
-      selectedView() === "watchlist"
-        ? "S&#233;ries &#224; voir"
-        : selectedView() === "owned"
-        ? "S&#233;ries poss&#233;d&#233;es"
-        : "S&#233;ries finies"
-    }}
-    ({{ filteredSeries().length }}) }
-  </h1>
-
-  @if(allSeries().length !== 0) {
-  <div class="series-header-top">
-    @if (!isAdminView()) {
-    <app-view-toggle
-      [toggleClass]="'series-view-toggle'"
-      [options]="viewOptions"
-      [selected]="selectedView()"
-      (selectedChange)="onViewChange($any($event))"
-    ></app-view-toggle>
-    }
-
-    <div class="series-actions">
-      @if (!isAdminView()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectSeriesRoute()"
-        [queryParams]="{
-          watchlist: selectedView() === 'watchlist',
-          add: 'true'
-        }"
-        title="Ajouter une s&#233;rie"
-      >
-        &#10133;
-        {{
-          selectedView() === "watchlist"
-            ? "Ajouter des s&#233;ries &#224; voir"
-            : "Ajouter une s&#233;rie"
-        }}
-      </button>
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectSeriesRatingRoute()"
-        title="Mettre &#224; jour les notes de mes s&#233;ries"
-      >
-        &#11088; Notes
-      </button>
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectSeriesTimesWatchedRoute()"
-        title="Mettre &#224; jour le nombre de visionnages de mes s&#233;ries"
-      >
-        🎬 Visionnages
-      </button>
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectSeriesOwnedRoute()"
-        title="Mettre &#224; jour les s&#233;ries poss&#233;d&#233;es"
-      >
-        ✅ Possédées
-      </button>
-      }
-    </div>
-  </div>
-  } @if(!isAdminView() && allSeries().length === 0) {
-  <div class="empty-state">
-    <p class="empty-message">
-      Vous n'avez aucune s&#233;rie dans votre collection.
-    </p>
-    <p class="empty-subtitle">
-      Commencez d&#232;s maintenant &#224; cr&#233;er votre
-      s&#233;rieth&#232;que personnelle !
-    </p>
-    <button class="makya-btn-ultra-big" [routerLink]="getSelectSeriesRoute()">
-      S&#233;lectionner mes s&#233;ries
-    </button>
-  </div>
-  }
-
-  <div class="series-header">
-    @if (!isAdminView()) {
-    <app-stats-display
-      [stats]="stats()"
-      [count]="filteredSeries().length"
-      countLabel="s&#233;ries"
-    >
-    </app-stats-display>
-    }
-
-    <app-sort-dropdown
-      [sortOptions]="sortOptions()"
-      [selectedSort]="selectedSort()"
-      (sortChange)="onSortChange($event)"
-    >
-    </app-sort-dropdown>
-  </div>
-
-  <div class="series-search">
-    <input
-      type="text"
-      placeholder="Rechercher par titre, réalisateur, acteur..."
-      [ngModel]="searchTerm()"
-      (ngModelChange)="onSearchChange($event)"
-    />
-  </div>
+  <app-series-header
+    [selectedView]="selectedView()"
+    [selectedSortInput]="selectedSort()"
+    [searchTermInput]="searchTerm()"
+    [filteredSeriesCount]="filteredSeries().length"
+    [allSeriesCount]="allSeries().length"
+    [stats]="stats()"
+    [viewOptions]="viewOptions"
+    [sortOptions]="sortOptions()"
+    (onViewChange)="onViewChange($any($event))"
+    (onSearchChange)="onSearchChange($event)"
+    (onSortChange)="onSortChange($event)"
+  ></app-series-header>
 
   <div class="series">
     @for (serie of sortedSeries(); track serie.title; let i = $index) {

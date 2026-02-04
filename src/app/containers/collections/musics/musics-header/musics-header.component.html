@@ -1,0 +1,98 @@
+<div class="musics-header">
+  <h1>
+    {{ isAdminView() ? "Musiques" : "Musiques écoutées" }} ({{
+      allMusicsCount()
+    }})
+  </h1>
+
+  @if(!isAdminView() && allMusicsCount() === 0) {
+  <div class="empty-state">
+    <p class="empty-message">
+      Vous n'avez aucune musique dans votre collection.
+    </p>
+    <p class="empty-subtitle">
+      Commencez dès maintenant à créer votre playlist personnelle !
+    </p>
+    <button class="makya-btn-ultra-big" [routerLink]="getSelectMusicsRoute()">
+      Sélectionner mes musiques
+    </button>
+  </div>
+  } @if(!isAdminView() && allMusicsCount() !== 0) {
+  <div class="musics-header-top">
+    <app-view-toggle
+      [toggleClass]="'musics-view-toggle'"
+      [options]="viewOptions()"
+      [selected]="selectedViewMode()"
+      (selectedChange)="onViewModeChange.emit($any($event))"
+    ></app-view-toggle>
+    <div class="musics-actions">
+      <button
+        class="makya-btn-small"
+        [routerLink]="getSelectMusicsRoute()"
+        title="Ajouter des musiques"
+      >
+        ➕ Ajouter des musiques
+      </button>
+      <button
+        class="makya-btn-small"
+        [routerLink]="getSelectMusicsRatingRoute()"
+        title="Mettre à jour les notes de mes musiques"
+      >
+        ⭐ Notes
+      </button>
+      <button
+        class="makya-btn-small"
+        [routerLink]="getSelectMusicsTimesListenedRoute()"
+        title="Mettre à jour le nombre d'écoutes"
+      >
+        🎧 Écoutes
+      </button>
+    </div>
+  </div>
+  }
+
+  <div class="musics-stats-bloc">
+    @if (!isAdminView()) {
+    <app-stats-display
+      [stats]="stats()"
+      [count]="allMusicsCount()"
+      countLabel="musiques"
+    >
+    </app-stats-display>
+    }
+
+    <div class="musics-filters">
+      <div class="musics-filters-item">
+        <p>Filtrer :</p>
+        <select
+          class="app-dropdown"
+          [ngModel]="selectedFilter()"
+          (ngModelChange)="onFilterChange.emit($event)"
+          style="margin-bottom: 8px"
+        >
+          @for (option of filterOptions(); track option.value) {
+          <option [value]="option.value">
+            {{ option.label }}
+          </option>
+          }
+        </select>
+      </div>
+
+      <app-sort-dropdown
+        [sortOptions]="sortOptions()"
+        [selectedSort]="selectedSort()"
+        (sortChange)="onSortChange.emit($event)"
+      >
+      </app-sort-dropdown>
+    </div>
+  </div>
+
+  <div class="musics-search">
+    <input
+      type="text"
+      placeholder="Rechercher par titre, artiste, album..."
+      [ngModel]="searchTerm()"
+      (ngModelChange)="onSearchChange.emit($event)"
+    />
+  </div>
+</div>

@@ -1,109 +1,20 @@
 <app-menu></app-menu>
 
 <div class="games-container">
-  <h1>
-    @if (isAdminView()) { Jeux ({{ filteredGames().length }}) } @else {
-    {{
-      selectedView() === "gamelist"
-        ? "🎮 Jeux à jouer"
-        : selectedView() === "owned"
-        ? "🎮 Jeux possédés"
-        : "🎮 Jeux vidéo"
-    }}
-    ({{ filteredGames().length }}) }
-  </h1>
-
-  @if(allGames().length !== 0 || allGamelistGames().length !== 0) {
-  <div class="games-header-top">
-    @if (!isAdminView()) {
-    <app-view-toggle
-      [toggleClass]="'games-view-toggle'"
-      [options]="viewOptions()"
-      [selected]="selectedView()"
-      (selectedChange)="onViewChange($any($event))"
-    ></app-view-toggle>
-    }
-
-    <div class="games-actions">
-      @if (!isAdminView()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectGamesRoute()"
-        [queryParams]="{
-          gamelist: selectedView() === 'gamelist',
-          add: 'true'
-        }"
-        title="Ajouter un jeu"
-      >
-        &#10133;
-        {{
-          selectedView() === "gamelist"
-            ? "Ajouter des jeux à jouer"
-            : "Ajouter un jeu"
-        }}
-      </button>
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectGamesRatingRoute()"
-        title="Mettre à jour les notes de mes jeux"
-      >
-        ⭐ Notes
-      </button>
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectGamesTimesFinishedRoute()"
-        title="Mettre à jour le nombre de fois que j'ai terminé mes jeux"
-      >
-        🎮 Terminés
-      </button>
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectGamesOwnedRoute()"
-        title="Mettre à jour les jeux possédés"
-      >
-        ✅ Possédés
-      </button>
-      }
-    </div>
-  </div>
-  } @if(allGames().length === 0 && allGamelistGames().length === 0) {
-  <div class="empty-state">
-    <p class="empty-message">Vous n'avez aucun jeu dans votre collection.</p>
-    <p class="empty-subtitle">
-      Commencez dès maintenant à créer votre ludothèque personnelle !
-    </p>
-    <button class="makya-btn-ultra-big" [routerLink]="getSelectGamesRoute()">
-      Sélectionner mes jeux
-    </button>
-  </div>
-  }
-
-  <div class="games-header">
-    @if (!isAdminView()) {
-    <app-stats-display
-      [stats]="stats()"
-      [count]="filteredGames().length"
-      countLabel="jeux"
-    >
-    </app-stats-display>
-    }
-
-    <app-sort-dropdown
-      [sortOptions]="sortOptions()"
-      [selectedSort]="selectedSort()"
-      (sortChange)="onSortChange($event)"
-    >
-    </app-sort-dropdown>
-  </div>
-
-  <div class="games-search">
-    <input
-      type="text"
-      placeholder="Rechercher par titre, éditeur, plateforme..."
-      [ngModel]="searchTerm()"
-      (ngModelChange)="onSearchChange($event)"
-    />
-  </div>
+  <app-games-header
+    [selectedView]="selectedView()"
+    [selectedSortInput]="selectedSort()"
+    [searchTermInput]="searchTerm()"
+    [filteredGamesCount]="filteredGames().length"
+    [allGamesCount]="allGames().length"
+    [allGamelistGamesCount]="allGamelistGames().length"
+    [stats]="stats()"
+    [viewOptions]="viewOptions()"
+    [sortOptions]="sortOptions()"
+    (onViewChange)="onViewChange($any($event))"
+    (onSearchChange)="onSearchChange($event)"
+    (onSortChange)="onSortChange($event)"
+  ></app-games-header>
 
   <div class="games">
     @for (game of sortedGames(); track game.title; let i = $index) {

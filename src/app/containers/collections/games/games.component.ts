@@ -10,19 +10,12 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { GameComponent } from '../../../components/collections/game/game.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
+import { SortOption } from '../../../components/sort-dropdown/sort-dropdown.component';
 import {
-  ViewToggleComponent,
-  ViewToggleOption,
-} from '../../../components/view-toggle/view-toggle.component';
-import {
-  SortDropdownComponent,
-  SortOption,
-} from '../../../components/sort-dropdown/sort-dropdown.component';
-import {
-  StatsDisplayComponent,
   StatItem,
   StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
+import { GamesHeaderComponent } from './games-header/games-header.component';
 import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
 import { Game } from '../../../models/game-model';
 import { Quizz } from '../../../models/quizz-model';
@@ -62,10 +55,8 @@ import {
     FormsModule,
     GameComponent,
     MenuComponent,
-    ViewToggleComponent,
-    SortDropdownComponent,
-    StatsDisplayComponent,
     QuizzModalComponent,
+    GamesHeaderComponent,
   ],
   templateUrl: './games.component.html',
   styleUrls: ['./games.component.scss'],
@@ -87,8 +78,8 @@ export class GamesComponent implements OnInit {
 
   sortOptions = signal<SortOption[]>(gamesSortOptions);
 
-  viewOptions = computed<ViewToggleOption[]>(() => {
-    const options: ViewToggleOption[] = gameViewOptions;
+  viewOptions = computed<{ value: GameView; label: string }[]>(() => {
+    const options: { value: GameView; label: string }[] = gameViewOptions;
 
     if (this.platinedGames().length === 0) {
       return options.filter((option) => option.value !== 'platined');
@@ -309,36 +300,6 @@ export class GamesComponent implements OnInit {
       this.selectedSort.set(parsed.sort);
     }
     this.isLoadingPreferences = false;
-  }
-
-  getSelectGamesRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam ? `/${params['id']}/select-games` : '/select-games';
-  }
-
-  getSelectGamesRatingRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam
-      ? `/${params['id']}/select-games-rating`
-      : '/select-games-rating';
-  }
-
-  getSelectGamesTimesFinishedRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam
-      ? `/${params['id']}/select-games-times-finished`
-      : '/select-games-times-finished';
-  }
-
-  getSelectGamesOwnedRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam
-      ? `/${params['id']}/select-games-owned`
-      : '/select-games-owned';
   }
 
   private matchesSearch(game: Game, term: string): boolean {

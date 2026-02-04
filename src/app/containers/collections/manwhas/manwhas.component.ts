@@ -10,14 +10,8 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ManwhaComponent } from '../../../components/collections/manwha/manwha.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
-import {
-  ViewToggleComponent,
-  ViewToggleOption,
-} from '../../../components/view-toggle/view-toggle.component';
-import {
-  SortDropdownComponent,
-  SortOption,
-} from '../../../components/sort-dropdown/sort-dropdown.component';
+import { SortOption } from '../../../components/sort-dropdown/sort-dropdown.component';
+import { ManwhasHeaderComponent } from './manwhas-header/manwhas-header.component';
 import { Manwha } from '../../../models/manwha-model';
 import {
   ManwhaView,
@@ -57,11 +51,9 @@ import { AuthService } from '../../../core/auth.service';
     FormsModule,
     ManwhaComponent,
     MenuComponent,
-    ViewToggleComponent,
-    SortDropdownComponent,
-    StatsDisplayComponent,
     MatDialogModule,
     QuizzModalComponent,
+    ManwhasHeaderComponent,
   ],
   templateUrl: './manwhas.component.html',
   styleUrls: ['./manwhas.component.scss'],
@@ -83,7 +75,7 @@ export class ManwhasComponent implements OnInit {
 
   sortOptions = signal<SortOption[]>(manwhasSortOptions);
 
-  viewOptions: ViewToggleOption[] = manwhaViewOptions;
+  viewOptions: { value: ManwhaView; label: string }[] = manwhaViewOptions;
 
   manwhasList = signal<{ [key: string]: Manwha[] }>({});
   readlistManwhasList = signal<{ [key: string]: Manwha[] }>({});
@@ -252,36 +244,6 @@ export class ManwhasComponent implements OnInit {
     this.selectedView.set(view);
   }
 
-  getSelectManwhasRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam ? `/${params['id']}/select-manwhas` : '/select-manwhas';
-  }
-
-  getSelectManwhasRatingRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam
-      ? `/${params['id']}/select-manwhas-rating`
-      : '/select-manwhas-rating';
-  }
-
-  getSelectManwhasTimesReadRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam
-      ? `/${params['id']}/select-manwhas-times-read`
-      : '/select-manwhas-times-read';
-  }
-
-  getSelectManwhasOwnedRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam
-      ? `/${params['id']}/select-manwhas-owned`
-      : '/select-manwhas-owned';
-  }
-
   private matchesSearch(manwha: Manwha, term: string): boolean {
     const haystack = [manwha.title, manwha.author, manwha.genre]
       .filter(Boolean)
@@ -297,6 +259,12 @@ export class ManwhasComponent implements OnInit {
       .normalize('NFD')
       .replace(/[\u0300-\u036f]/g, '')
       .toLowerCase();
+  }
+
+  getSelectManwhasRoute(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam ? `/${params['id']}/select-manwhas` : '/select-manwhas';
   }
 
   private calculateTotalChapters(): number {

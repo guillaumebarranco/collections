@@ -1,0 +1,100 @@
+<div class="series-header">
+  <h1>
+    @if (isAdminView()) { Séries ({{ filteredSeriesCount() }}) } @else {
+    {{ seriesPageTitle() }} ({{ filteredSeriesCount() }}) }
+  </h1>
+
+  @if(allSeriesCount() !== 0) {
+  <div class="series-header-top">
+    @if (!isAdminView()) {
+    <app-view-toggle
+      [toggleClass]="'series-view-toggle'"
+      [options]="viewOptions()"
+      [selected]="selectedView()"
+      (selectedChange)="onViewChange.emit($any($event))"
+    ></app-view-toggle>
+    }
+
+    <div class="series-actions">
+      @if (!isAdminView()) {
+      <button
+        class="makya-btn-small"
+        [routerLink]="getSelectSeriesRoute()"
+        [queryParams]="{
+          watchlist: selectedView() === 'watchlist',
+          add: 'true'
+        }"
+        title="Ajouter une série"
+      >
+        ➕
+        {{
+          selectedView() === "watchlist"
+            ? "Ajouter des séries à voir"
+            : "Ajouter une série"
+        }}
+      </button>
+      <button
+        class="makya-btn-small"
+        [routerLink]="getSelectSeriesRatingRoute()"
+        title="Mettre à jour les notes de mes séries"
+      >
+        ⭐ Notes
+      </button>
+      <button
+        class="makya-btn-small"
+        [routerLink]="getSelectSeriesTimesWatchedRoute()"
+        title="Mettre à jour le nombre de visionnages de mes séries"
+      >
+        🎬 Visionnages
+      </button>
+      <button
+        class="makya-btn-small"
+        [routerLink]="getSelectSeriesOwnedRoute()"
+        title="Mettre à jour les séries possédées"
+      >
+        ✅ Possédées
+      </button>
+      }
+    </div>
+  </div>
+  } @if(!isAdminView() && allSeriesCount() === 0) {
+  <div class="empty-state">
+    <p class="empty-message">
+      Vous n'avez aucune série dans votre collection.
+    </p>
+    <p class="empty-subtitle">
+      Commencez dès maintenant à créer votre sériethèque personnelle !
+    </p>
+    <button class="makya-btn-ultra-big" [routerLink]="getSelectSeriesRoute()">
+      Sélectionner mes séries
+    </button>
+  </div>
+  }
+
+  <div class="series-stats-bloc">
+    @if (!isAdminView()) {
+    <app-stats-display
+      [stats]="stats()"
+      [count]="filteredSeriesCount()"
+      countLabel="séries"
+    >
+    </app-stats-display>
+    }
+
+    <app-sort-dropdown
+      [sortOptions]="sortOptions()"
+      [selectedSort]="selectedSort()"
+      (sortChange)="onSortChange.emit($event)"
+    >
+    </app-sort-dropdown>
+  </div>
+
+  <div class="series-search">
+    <input
+      type="text"
+      placeholder="Rechercher par titre, réalisateur, acteur..."
+      [ngModel]="searchTerm()"
+      (ngModelChange)="onSearchChange.emit($event)"
+    />
+  </div>
+</div>

@@ -10,19 +10,12 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { MangaComponent } from '../../../components/collections/manga/manga.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
+import { SortOption } from '../../../components/sort-dropdown/sort-dropdown.component';
 import {
-  ViewToggleComponent,
-  ViewToggleOption,
-} from '../../../components/view-toggle/view-toggle.component';
-import {
-  SortDropdownComponent,
-  SortOption,
-} from '../../../components/sort-dropdown/sort-dropdown.component';
-import {
-  StatsDisplayComponent,
   StatItem,
   StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
+import { MangasHeaderComponent } from './mangas-header/mangas-header.component';
 import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
 import { Manga } from '../../../models/manga-model';
 import { Quizz } from '../../../models/quizz-model';
@@ -59,11 +52,9 @@ import { AuthService } from '../../../core/auth.service';
     FormsModule,
     MangaComponent,
     MenuComponent,
-    ViewToggleComponent,
-    SortDropdownComponent,
-    StatsDisplayComponent,
     MatDialogModule,
     QuizzModalComponent,
+    MangasHeaderComponent,
   ],
   templateUrl: './mangas.component.html',
   styleUrls: ['./mangas.component.scss'],
@@ -86,7 +77,7 @@ export class MangasComponent implements OnInit {
 
   sortOptions = signal<SortOption[]>(mangasSortOptions);
 
-  viewOptions: ViewToggleOption[] = mangaViewOptions;
+  viewOptions: { value: MangaView; label: string }[] = mangaViewOptions;
 
   mangasList = signal<{ [key: string]: Manga[] }>({});
   readlistMangasList = signal<{ [key: string]: Manga[] }>({});
@@ -249,36 +240,6 @@ export class MangasComponent implements OnInit {
 
   onViewChange(view: 'read' | 'readlist' | 'owned') {
     this.selectedView.set(view);
-  }
-
-  getSelectMangasRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam ? `/${params['id']}/select-mangas` : '/select-mangas';
-  }
-
-  getSelectMangasRatingRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam
-      ? `/${params['id']}/select-mangas-rating`
-      : '/select-mangas-rating';
-  }
-
-  getSelectMangasTimesReadRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam
-      ? `/${params['id']}/select-mangas-times-read`
-      : '/select-mangas-times-read';
-  }
-
-  getSelectMangasOwnedRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam
-      ? `/${params['id']}/select-mangas-owned`
-      : '/select-mangas-owned';
   }
 
   private matchesSearch(manga: Manga, term: string): boolean {

@@ -1,107 +1,20 @@
 <app-menu></app-menu>
 
 <div class="comics-container">
-  <h1>
-    @if (isAdminView()) { Comics ({{ filteredComics().length }}) } @else {
-    {{
-      selectedView() === "readlist"
-        ? "Comics à lire"
-        : selectedView() === "owned"
-        ? "Comics possédés"
-        : "Comics lus"
-    }}
-    ({{ filteredComics().length }}) }
-  </h1>
-
-  @if(!isAdminView() && allComics().length === 0 && allReadlistComics().length
-  === 0) {
-  <div class="empty-state">
-    <p class="empty-message">Vous n'avez aucun comic dans votre collection.</p>
-    <p class="empty-subtitle">
-      Commencez dès maintenant à créer votre comicthèque personnelle !
-    </p>
-    <button class="makya-btn-ultra-big" [routerLink]="getSelectComicsRoute()">
-      Sélectionner mes comics
-    </button>
-  </div>
-  } @if(allComics().length !== 0 || allReadlistComics().length !== 0) {
-  <div class="comics-header-top">
-    @if (!isAdminView()) {
-    <app-view-toggle
-      [toggleClass]="'comics-view-toggle'"
-      [options]="viewOptions"
-      [selected]="selectedView()"
-      (selectedChange)="onViewChange($any($event))"
-    ></app-view-toggle>
-    }
-
-    <div class="comics-actions">
-      @if (!isAdminView()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectComicsRoute()"
-        [queryParams]="{ readlist: selectedView() === 'readlist' }"
-        title="Ajouter des comics"
-      >
-        ➕
-        {{
-          selectedView() === "readlist"
-            ? "Ajouter des comics à lire"
-            : "Ajouter des comics"
-        }}
-      </button>
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectComicsRatingRoute()"
-        title="Mettre à jour les notes de mes comics"
-      >
-        ⭐ Notes
-      </button>
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectComicsTimesReadRoute()"
-        title="Mettre à jour le nombre de lectures de mes comics"
-      >
-        📖 Lectures
-      </button>
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectComicsOwnedRoute()"
-        title="Mettre à jour les comics possédés"
-      >
-        ✅ Possédés
-      </button>
-      }
-    </div>
-  </div>
-  }
-
-  <div class="comics-header">
-    @if (!isAdminView()) {
-    <app-stats-display
-      [stats]="stats()"
-      [count]="filteredComics().length"
-      countLabel="comics"
-    >
-    </app-stats-display>
-    }
-
-    <app-sort-dropdown
-      [sortOptions]="sortOptions()"
-      [selectedSort]="selectedSort()"
-      (sortChange)="onSortChange($event)"
-    >
-    </app-sort-dropdown>
-  </div>
-
-  <div class="comics-search">
-    <input
-      type="text"
-      placeholder="Rechercher par titre, designer, genre..."
-      [ngModel]="searchTerm()"
-      (ngModelChange)="onSearchChange($event)"
-    />
-  </div>
+  <app-comics-header
+    [selectedView]="selectedView()"
+    [selectedSortInput]="selectedSort()"
+    [searchTermInput]="searchTerm()"
+    [filteredComicsCount]="filteredComics().length"
+    [allComicsCount]="allComics().length"
+    [allReadlistComicsCount]="allReadlistComics().length"
+    [stats]="stats()"
+    [viewOptions]="viewOptions"
+    [sortOptions]="sortOptions()"
+    (onViewChange)="onViewChange($any($event))"
+    (onSearchChange)="onSearchChange($event)"
+    (onSortChange)="onSortChange($event)"
+  ></app-comics-header>
 
   <div class="comics">
     @for (comic of sortedComics(); track comic.title) {
