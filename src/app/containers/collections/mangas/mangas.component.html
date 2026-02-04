@@ -2,9 +2,7 @@
 
 <div class="mangas-container">
   <h1>
-    @if (isAdminView()) {
-    Mangas ({{ filteredMangas().length }})
-    } @else {
+    @if (isAdminView()) { Mangas ({{ filteredMangas().length }}) } @else {
     {{
       selectedView() === "readlist"
         ? "Mangas à lire"
@@ -12,17 +10,17 @@
         ? "Mangas possédés"
         : "Mangas lus"
     }}
-    ({{ filteredMangas().length }})
-    }
+    ({{ filteredMangas().length }}) }
   </h1>
 
-  @if(!isAdminView() && allMangas().length === 0 && allReadlistMangas().length === 0) {
+  @if(!isAdminView() && allMangas().length === 0 && allReadlistMangas().length
+  === 0) {
   <div class="empty-state">
     <p class="empty-message">Vous n'avez aucun manga dans votre collection.</p>
     <p class="empty-subtitle">
       Commencez dès maintenant à créer votre mangathèque personnelle !
     </p>
-    <button class="btn btn-primary" [routerLink]="getSelectMangasRoute()">
+    <button class="makya-btn-ultra-big" [routerLink]="getSelectMangasRoute()">
       Sélectionner mes mangas
     </button>
   </div>
@@ -40,7 +38,7 @@
     <div class="mangas-actions">
       @if (!isAdminView()) {
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectMangasRoute()"
         [queryParams]="{ readlist: selectedView() === 'readlist' }"
         title="Ajouter des mangas"
@@ -53,21 +51,21 @@
         }}
       </button>
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectMangasRatingRoute()"
         title="Mettre à jour les notes de mes mangas"
       >
         ⭐ Notes
       </button>
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectMangasTimesReadRoute()"
         title="Mettre à jour le nombre de lectures de mes mangas"
       >
         📖 Lectures
       </button>
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectMangasOwnedRoute()"
         title="Mettre à jour les mangas possédés"
       >

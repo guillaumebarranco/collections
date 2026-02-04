@@ -26,10 +26,7 @@
         les entités (si jamais tu souhaites ajouter un grand nombre de manwhas
         non présents ici, le mieux reste de contacter l'administrateur) :
       </p>
-      <button
-        class="btn btn-primary add-new-manwha"
-        (click)="openAddManwhaDialog()"
-      >
+      <button class="makya-btn" (click)="openAddManwhaDialog()">
         Ajouter un nouveau manwha
       </button>
       } @else if(isWatchOrReadlistMode()) {
@@ -66,7 +63,7 @@
 
     <div class="actions">
       <button
-        class="btn btn-primary"
+        class="makya-btn-big"
         (click)="addSelectedManwhas()"
         [disabled]="selectedCount() === 0"
       >
@@ -81,7 +78,8 @@
   </div>
 
   <div class="manwhas-grid" select-grid>
-    @for (manwha of filteredManwhas(); track `${manwha.title}-${manwha.author}`) {
+    @for (manwha of filteredManwhas(); track `${manwha.title}-${manwha.author}`)
+    {
     <div
       class="manwha-cover"
       [class.selected]="isSelected(manwha)"

@@ -97,39 +97,6 @@
       box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.15);
     }
   }
-
-  .btn {
-    padding: 0.75rem 1.5rem;
-    border: none;
-    border-radius: 6px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    font-weight: 500;
-
-    &:disabled {
-      opacity: 0.5;
-      cursor: not-allowed;
-    }
-
-    &.btn-primary {
-      color: white;
-
-      &:hover:not(:disabled) {
-        transform: translateY(-2px);
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-      }
-    }
-
-    &.btn-secondary {
-      background: #6c757d;
-      color: white;
-
-      &:hover {
-        background: #545b62;
-      }
-    }
-  }
 }
 
 // Grid commun
@@ -276,21 +243,6 @@
   .comic-title,
   .bd-title {
     font-size: 0.8rem;
-  }
-}
-
-%select-add-new {
-  margin-top: 12px;
-  border-radius: 999px;
-  padding: 10px 18px;
-  background: #25645d;
-  color: #fff;
-  font-weight: 700;
-  box-shadow: 0 6px 14px rgba(37, 100, 93, 0.35);
-
-  &:hover {
-    background: #1d4f49;
-    box-shadow: 0 8px 18px rgba(37, 100, 93, 0.45);
   }
 }
 

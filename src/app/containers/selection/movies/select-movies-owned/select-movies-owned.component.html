@@ -24,7 +24,7 @@
 
     <div class="actions">
       <button
-        class="btn btn-primary"
+        class="makya-btn-big"
         (click)="saveMoviesOwned()"
         [disabled]="allMovies().length === 0 || isSaving()"
       >
@@ -44,12 +44,12 @@
         <div class="movie-info">
           <span class="movie-title">{{ movie.title }}</span>
           <span class="current-owned">
-            Possédé : {{ getOwned(movie) ? 'Oui' : 'Non' }}
+            Possédé : {{ getOwned(movie) ? "Oui" : "Non" }}
           </span>
         </div>
         <div class="owned-buttons">
           <button
-            class="owned-btn"
+            class="makya-btn-owned"
             [class.active]="getOwned(movie)"
             (click)="updateOwned(movie, true); $event.stopPropagation()"
             (mousedown)="$event.stopPropagation()"
@@ -57,7 +57,7 @@
             Oui
           </button>
           <button
-            class="owned-btn"
+            class="makya-btn-owned"
             [class.active]="!getOwned(movie)"
             (click)="updateOwned(movie, false); $event.stopPropagation()"
             (mousedown)="$event.stopPropagation()"

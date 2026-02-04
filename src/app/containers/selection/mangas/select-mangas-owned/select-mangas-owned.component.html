@@ -24,7 +24,7 @@
 
     <div class="actions">
       <button
-        class="btn btn-primary"
+        class="makya-btn-big"
         (click)="saveMangasOwned()"
         [disabled]="allMangas().length === 0 || isSaving()"
       >
@@ -41,12 +41,12 @@
         <div class="manga-info">
           <span class="manga-title">{{ manga.title }}</span>
           <span class="current-owned">
-            Possédé : {{ getOwned(manga) ? 'Oui' : 'Non' }}
+            Possédé : {{ getOwned(manga) ? "Oui" : "Non" }}
           </span>
         </div>
         <div class="owned-buttons">
           <button
-            class="owned-btn"
+            class="makya-btn-owned"
             [class.active]="getOwned(manga)"
             (click)="updateOwned(manga, true); $event.stopPropagation()"
             (mousedown)="$event.stopPropagation()"
@@ -54,7 +54,7 @@
             Oui
           </button>
           <button
-            class="owned-btn"
+            class="makya-btn-owned"
             [class.active]="!getOwned(manga)"
             (click)="updateOwned(manga, false); $event.stopPropagation()"
             (mousedown)="$event.stopPropagation()"

@@ -18,7 +18,7 @@
       color: #6f42c1;
     }
 
-    .btn.btn-primary {
+    .makya-btn-big {
       background: #6f42c1;
 
       &:hover:not(:disabled) {
@@ -26,10 +26,6 @@
         box-shadow: 0 4px 8px rgba(111, 66, 193, 0.3);
       }
     }
-  }
-
-  .add-new-manwha {
-    @extend %select-add-new;
   }
 
   .error-message {

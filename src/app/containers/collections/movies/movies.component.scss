@@ -6,10 +6,6 @@
   .empty-state {
     @include containers.empty-state-base;
   }
-
-  .btn-primary {
-    @include containers.btn-primary-base;
-  }
 }
 
 .watchlist-actions {
@@ -19,10 +15,6 @@
   padding: 20px;
   background-color: #f8f9fa;
   border-radius: 12px;
-
-  .btn-primary {
-    @include containers.btn-primary-base;
-  }
 }
 
 .movies-count {

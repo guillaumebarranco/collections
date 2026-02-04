@@ -2,9 +2,7 @@
 
 <div class="manwhas-container">
   <h1>
-    @if (isAdminView()) {
-    Manwhas ({{ filteredManwhas().length }})
-    } @else {
+    @if (isAdminView()) { Manwhas ({{ filteredManwhas().length }}) } @else {
     {{
       selectedView() === "readlist"
         ? "Manwhas à lire"
@@ -12,17 +10,17 @@
         ? "Manwhas possédés"
         : "Manwhas lus"
     }}
-    ({{ filteredManwhas().length }})
-    }
+    ({{ filteredManwhas().length }}) }
   </h1>
 
-  @if(!isAdminView() && allManwhas().length === 0 && allReadlistManwhas().length === 0) {
+  @if(!isAdminView() && allManwhas().length === 0 && allReadlistManwhas().length
+  === 0) {
   <div class="empty-state">
     <p class="empty-message">Vous n'avez aucun manwha dans votre collection.</p>
     <p class="empty-subtitle">
       Commencez dès maintenant à créer votre manhwathèque personnelle !
     </p>
-    <button class="btn btn-primary" [routerLink]="getSelectManwhasRoute()">
+    <button class="makya-btn-ultra-big" [routerLink]="getSelectManwhasRoute()">
       Sélectionner mes manwhas
     </button>
   </div>
@@ -40,7 +38,7 @@
     <div class="manwhas-actions">
       @if (!isAdminView()) {
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectManwhasRoute()"
         [queryParams]="{ readlist: selectedView() === 'readlist' }"
         title="Ajouter des manwhas"
@@ -53,21 +51,21 @@
         }}
       </button>
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectManwhasRatingRoute()"
         title="Mettre à jour les notes de mes manwhas"
       >
         ⭐ Notes
       </button>
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectManwhasTimesReadRoute()"
         title="Mettre à jour le nombre de lectures de mes manwhas"
       >
         📖 Lectures
       </button>
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectManwhasOwnedRoute()"
         title="Mettre à jour les manwhas possédés"
       >
@@ -108,7 +106,7 @@
   @if(selectedView() === 'readlist') {
   <div class="readlist-actions">
     <button
-      class="btn btn-primary"
+      class="makya-btn-ultra-big"
       [routerLink]="getSelectManwhasRoute()"
       [queryParams]="{ readlist: 'true' }"
     >

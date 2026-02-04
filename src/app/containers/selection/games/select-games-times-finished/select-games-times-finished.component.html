@@ -7,10 +7,10 @@
     <div class="selection-description">
       <p>
         Bonjour {{ username() }} 👋 <br /><br />
-        Sur cette page, tu peux mettre à jour le nombre de fois que tu as terminé chaque
-        jeu de ta collection. <br /><br />
-        Passe ta souris sur un jeu pour voir les options disponibles
-        et clique sur le nombre correspondant. <br /><br />
+        Sur cette page, tu peux mettre à jour le nombre de fois que tu as
+        terminé chaque jeu de ta collection. <br /><br />
+        Passe ta souris sur un jeu pour voir les options disponibles et clique
+        sur le nombre correspondant. <br /><br />
         Une fois que tu as terminé, clique sur "Enregistrer mes parties" pour
         appliquer les changements.
       </p>
@@ -25,7 +25,7 @@
 
     <div class="actions">
       <button
-        class="btn btn-primary"
+        class="makya-btn-big"
         (click)="saveGamesTimesFinished()"
         [disabled]="allGames().length === 0 || isSaving()"
       >

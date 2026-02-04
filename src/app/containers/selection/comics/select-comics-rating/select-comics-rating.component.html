@@ -25,7 +25,7 @@
 
     <div class="actions">
       <button
-        class="btn btn-primary"
+        class="makya-btn-big"
         (click)="saveComicsRatings()"
         [disabled]="allComics().length === 0 || isSaving()"
       >
@@ -43,7 +43,8 @@
           <span class="comic-title">{{ comic.title }}</span>
           <div class="current-rating">
             <div class="stars-display">
-              @for (star of getRatingStars(getRating(comic)); track star.value) {
+              @for (star of getRatingStars(getRating(comic)); track star.value)
+              {
               <span [class]="'star star-' + star.type"></span>
               }
               <span class="rating-value">{{ getRating(comic) }}</span>

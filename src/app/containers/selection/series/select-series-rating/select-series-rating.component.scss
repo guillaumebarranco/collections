@@ -1,4 +1,4 @@
-@use '../../select-base.scss' as *;
+@use "../../select-base.scss" as *;
 
 .select-series-rating-container {
   @extend %select-container;
@@ -23,7 +23,7 @@
       color: #ffc107;
     }
 
-    .btn.btn-primary {
+    .makya-btn-big {
       background: #ffc107;
       color: #333;
 

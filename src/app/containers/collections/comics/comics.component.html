@@ -2,9 +2,7 @@
 
 <div class="comics-container">
   <h1>
-    @if (isAdminView()) {
-    Comics ({{ filteredComics().length }})
-    } @else {
+    @if (isAdminView()) { Comics ({{ filteredComics().length }}) } @else {
     {{
       selectedView() === "readlist"
         ? "Comics à lire"
@@ -12,17 +10,17 @@
         ? "Comics possédés"
         : "Comics lus"
     }}
-    ({{ filteredComics().length }})
-    }
+    ({{ filteredComics().length }}) }
   </h1>
 
-  @if(!isAdminView() && allComics().length === 0 && allReadlistComics().length === 0) {
+  @if(!isAdminView() && allComics().length === 0 && allReadlistComics().length
+  === 0) {
   <div class="empty-state">
     <p class="empty-message">Vous n'avez aucun comic dans votre collection.</p>
     <p class="empty-subtitle">
       Commencez dès maintenant à créer votre comicthèque personnelle !
     </p>
-    <button class="btn btn-primary" [routerLink]="getSelectComicsRoute()">
+    <button class="makya-btn-ultra-big" [routerLink]="getSelectComicsRoute()">
       Sélectionner mes comics
     </button>
   </div>
@@ -40,7 +38,7 @@
     <div class="comics-actions">
       @if (!isAdminView()) {
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectComicsRoute()"
         [queryParams]="{ readlist: selectedView() === 'readlist' }"
         title="Ajouter des comics"
@@ -53,21 +51,21 @@
         }}
       </button>
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectComicsRatingRoute()"
         title="Mettre à jour les notes de mes comics"
       >
         ⭐ Notes
       </button>
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectComicsTimesReadRoute()"
         title="Mettre à jour le nombre de lectures de mes comics"
       >
         📖 Lectures
       </button>
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectComicsOwnedRoute()"
         title="Mettre à jour les comics possédés"
       >

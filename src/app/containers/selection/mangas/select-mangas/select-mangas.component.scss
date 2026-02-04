@@ -18,7 +18,7 @@
       color: #fd7e14;
     }
 
-    .btn.btn-primary {
+    .makya-btn-big {
       background: #fd7e14;
 
       &:hover:not(:disabled) {
@@ -26,10 +26,6 @@
         box-shadow: 0 4px 8px rgba(253, 126, 20, 0.3);
       }
     }
-  }
-
-  .add-new-manga {
-    @extend %select-add-new;
   }
 
   .error-message {

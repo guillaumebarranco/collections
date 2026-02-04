@@ -25,7 +25,7 @@
 
     <div class="actions">
       <button
-        class="btn btn-primary"
+        class="makya-btn-big"
         (click)="saveSeriesRatings()"
         [disabled]="allSeries().length === 0 || isSaving()"
       >
@@ -46,7 +46,8 @@
           <span class="serie-title">{{ serie.title }}</span>
         </div>
         <div class="season-list">
-          @for (season of getEditableSeasons(serie); track season.seasonNumber) {
+          @for (season of getEditableSeasons(serie); track season.seasonNumber)
+          {
           <div class="season-row">
             <div class="season-label">Saison {{ season.seasonNumber }}</div>
             <div class="season-current">

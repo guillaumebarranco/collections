@@ -1,4 +1,4 @@
-@use '../../select-base.scss' as *;
+@use "../../select-base.scss" as *;
 
 .select-books-container {
   @extend %select-container;
@@ -18,7 +18,7 @@
       color: #28a745;
     }
 
-    .btn.btn-primary {
+    .makya-btn-big {
       background: #28a745;
 
       &:hover:not(:disabled) {
@@ -26,10 +26,6 @@
         box-shadow: 0 4px 8px rgba(40, 167, 69, 0.3);
       }
     }
-  }
-
-  .add-new-book {
-    @extend %select-add-new;
   }
 
   .error-message {

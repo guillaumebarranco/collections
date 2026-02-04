@@ -34,10 +34,7 @@
         entités (si jamais tu souhaites ajouter un grand nombre de films non
         présents ici, le mieux reste de contacter l'administrateur) :
       </p>
-      <button
-        class="btn btn-primary add-new-movie"
-        (click)="openAddMovieDialog()"
-      >
+      <button class="makya-btn" (click)="openAddMovieDialog()">
         Ajouter un nouveau film
       </button>
       } @else if(isWatchOrReadlistMode()) {
@@ -84,7 +81,7 @@
 
     <div class="actions">
       <button
-        class="btn btn-primary"
+        class="makya-btn-big"
         (click)="addSelectedMovies()"
         [disabled]="selectedCount() === 0"
       >
@@ -101,7 +98,8 @@
   </div>
 
   <div class="movies-grid" select-grid>
-    @for (movie of filteredMovies(); track `${movie.title}-${movie.releaseDate}`) {
+    @for (movie of filteredMovies(); track
+    `${movie.title}-${movie.releaseDate}`) {
     <div
       class="movie-poster"
       [class.selected]="isSelected(movie)"

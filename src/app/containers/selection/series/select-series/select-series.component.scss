@@ -1,4 +1,4 @@
-@use '../../select-base.scss' as *;
+@use "../../select-base.scss" as *;
 
 .select-series-container {
   @extend %select-container;
@@ -14,19 +14,19 @@
   .toolbar {
     @extend %select-toolbar;
 
-  .error-message {
-    margin: 12px auto 0;
-    max-width: 800px;
-    color: #ff7b7b;
-    font-size: 14px;
-    text-align: center;
-  }
+    .error-message {
+      margin: 12px auto 0;
+      max-width: 800px;
+      color: #ff7b7b;
+      font-size: 14px;
+      text-align: center;
+    }
 
     .selection-info .count {
       color: #dc3545;
     }
 
-    .btn.btn-primary {
+    .makya-btn-big {
       background: #dc3545;
 
       &:hover:not(:disabled) {
@@ -34,10 +34,6 @@
         box-shadow: 0 4px 8px rgba(220, 53, 69, 0.3);
       }
     }
-  }
-
-  .add-new-serie {
-    @extend %select-add-new;
   }
 
   .series-grid {

@@ -1,4 +1,4 @@
-@use '../../select-base.scss' as *;
+@use "../../select-base.scss" as *;
 
 .select-movies-container {
   @extend %select-container;
@@ -18,7 +18,7 @@
       color: #007bff;
     }
 
-    .btn.btn-primary {
+    .makya-btn-big {
       background: #007bff;
 
       &:hover:not(:disabled) {
@@ -26,10 +26,6 @@
         box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
       }
     }
-  }
-
-  .add-new-movie {
-    @extend %select-add-new;
   }
 
   .error-message {

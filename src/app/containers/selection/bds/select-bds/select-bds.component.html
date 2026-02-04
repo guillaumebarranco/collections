@@ -17,18 +17,15 @@
         Ici tu peux ajouter des BD que tu as lues. La liste ci-dessous affiche
         uniquement les BD que tu n'as pas encore dans ta collection.
         <br /><br />
-        Sélectionne les BD que tu as lues, puis clique sur "Ajouter à mes
-        BD lues".
+        Sélectionne les BD que tu as lues, puis clique sur "Ajouter à mes BD
+        lues".
       </p>
       <p>
         Si tu ne trouves pas ta BD dans la liste, ajoute-la d'abord dans les
         entités (si jamais tu souhaites ajouter un grand nombre de BD non
         présents ici, le mieux reste de contacter l'administrateur) :
       </p>
-      <button
-        class="btn btn-primary add-new-bd"
-        (click)="openAddBdDialog()"
-      >
+      <button class="makya-btn" (click)="openAddBdDialog()">
         Ajouter une nouvelle BD
       </button>
       } @else if(isWatchOrReadlistMode()) {
@@ -65,7 +62,7 @@
 
     <div class="actions">
       <button
-        class="btn btn-primary"
+        class="makya-btn-big"
         (click)="addSelectedBds()"
         [disabled]="selectedCount() === 0"
       >

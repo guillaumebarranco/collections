@@ -25,10 +25,7 @@
         entités (si jamais tu souhaites ajouter un grand nombre de comics non
         présents ici, le mieux reste de contacter l'administrateur) :
       </p>
-      <button
-        class="btn btn-primary add-new-comic"
-        (click)="openAddComicDialog()"
-      >
+      <button class="makya-btn" (click)="openAddComicDialog()">
         Ajouter un nouveau comic
       </button>
       } @else if(isWatchOrReadlistMode()) {
@@ -65,7 +62,7 @@
 
     <div class="actions">
       <button
-        class="btn btn-primary"
+        class="makya-btn-big"
         (click)="addSelectedComics()"
         [disabled]="selectedCount() === 0"
       >

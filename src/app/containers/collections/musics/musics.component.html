@@ -2,7 +2,7 @@
 
 <div class="musics-container">
   <h1>
-    {{ isAdminView() ? 'Musiques' : 'Musiques écoutées' }} ({{
+    {{ isAdminView() ? "Musiques" : "Musiques écoutées" }} ({{
       allMusics().length
     }})
   </h1>
@@ -15,13 +15,11 @@
     <p class="empty-subtitle">
       Commencez dès maintenant à créer votre playlist personnelle !
     </p>
-    <button class="btn btn-primary" [routerLink]="getSelectMusicsRoute()">
+    <button class="makya-btn-ultra-big" [routerLink]="getSelectMusicsRoute()">
       Sélectionner mes musiques
     </button>
   </div>
-  }
-
-  @if(!isAdminView() && allMusics().length !== 0) {
+  } @if(!isAdminView() && allMusics().length !== 0) {
   <div class="musics-header-top">
     <app-view-toggle
       [toggleClass]="'musics-view-toggle'"
@@ -31,21 +29,21 @@
     ></app-view-toggle>
     <div class="musics-actions">
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectMusicsRoute()"
         title="Ajouter des musiques"
       >
         ➕ Ajouter des musiques
       </button>
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectMusicsRatingRoute()"
         title="Mettre à jour les notes de mes musiques"
       >
         ⭐ Notes
       </button>
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectMusicsTimesListenedRoute()"
         title="Mettre à jour le nombre d'écoutes"
       >

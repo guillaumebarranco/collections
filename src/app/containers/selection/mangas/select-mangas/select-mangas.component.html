@@ -25,10 +25,7 @@
         entités (si jamais tu souhaites ajouter un grand nombre de mangas non
         présents ici, le mieux reste de contacter l'administrateur) :
       </p>
-      <button
-        class="btn btn-primary add-new-manga"
-        (click)="openAddMangaDialog()"
-      >
+      <button class="makya-btn" (click)="openAddMangaDialog()">
         Ajouter un nouveau manga
       </button>
       } @else if(isWatchOrReadlistMode()) {
@@ -65,7 +62,7 @@
 
     <div class="actions">
       <button
-        class="btn btn-primary"
+        class="makya-btn-big"
         (click)="addSelectedMangas()"
         [disabled]="selectedCount() === 0"
       >

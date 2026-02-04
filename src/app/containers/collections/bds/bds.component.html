@@ -2,9 +2,7 @@
 
 <div class="bds-container">
   <h1>
-    @if (isAdminView()) {
-    BD ({{ filteredBds().length }})
-    } @else {
+    @if (isAdminView()) { BD ({{ filteredBds().length }}) } @else {
     {{
       selectedView() === "readlist"
         ? "BD à lire"
@@ -12,17 +10,17 @@
         ? "BD possédées"
         : "BD lues"
     }}
-    ({{ filteredBds().length }})
-    }
+    ({{ filteredBds().length }}) }
   </h1>
 
-  @if(!isAdminView() && allBds().length === 0 && allReadlistBds().length === 0) {
+  @if(!isAdminView() && allBds().length === 0 && allReadlistBds().length === 0)
+  {
   <div class="empty-state">
     <p class="empty-message">Vous n'avez aucune BD dans votre collection.</p>
     <p class="empty-subtitle">
       Commencez dès maintenant à créer votre BDthèque personnelle !
     </p>
-    <button class="btn btn-primary" [routerLink]="getSelectBdsRoute()">
+    <button class="makya-btn-ultra-big" [routerLink]="getSelectBdsRoute()">
       Sélectionner mes BD
     </button>
   </div>
@@ -40,7 +38,7 @@
     <div class="bds-actions">
       @if (!isAdminView()) {
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectBdsRoute()"
         [queryParams]="{ readlist: selectedView() === 'readlist' }"
         title="Ajouter des BD"
@@ -53,21 +51,21 @@
         }}
       </button>
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectBdsRatingRoute()"
         title="Mettre à jour les notes de mes BD"
       >
         ⭐ Notes
       </button>
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectBdsTimesReadRoute()"
         title="Mettre à jour le nombre de lectures de mes BD"
       >
         📖 Lectures
       </button>
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectBdsOwnedRoute()"
         title="Mettre à jour les BD possédées"
       >

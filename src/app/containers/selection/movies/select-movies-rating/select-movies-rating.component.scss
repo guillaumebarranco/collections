@@ -1,4 +1,4 @@
-@use '../../select-base.scss' as *;
+@use "../../select-base.scss" as *;
 
 .select-movies-rating-container {
   @extend %select-container;
@@ -40,7 +40,7 @@
           line-height: 1;
 
           &.star-full::before {
-            content: '★';
+            content: "★";
             position: absolute;
             left: 0;
             top: 0;
@@ -48,7 +48,7 @@
           }
 
           &.star-empty::before {
-            content: '☆';
+            content: "☆";
             position: absolute;
             left: 0;
             top: 0;
@@ -56,7 +56,7 @@
           }
 
           &.star-half::before {
-            content: '☆';
+            content: "☆";
             position: absolute;
             left: 0;
             top: 0;
@@ -64,7 +64,7 @@
           }
 
           &.star-half::after {
-            content: '★';
+            content: "★";
             position: absolute;
             left: 0;
             top: 0;
@@ -91,7 +91,7 @@
       color: #ffc107;
     }
 
-    .btn.btn-primary {
+    .makya-btn-big {
       background: #ffc107;
       color: #333;
 

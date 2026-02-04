@@ -2,9 +2,7 @@
 
 <div class="series-container">
   <h1>
-    @if (isAdminView()) {
-    Séries ({{ filteredSeries().length }})
-    } @else {
+    @if (isAdminView()) { Séries ({{ filteredSeries().length }}) } @else {
     {{
       selectedView() === "watchlist"
         ? "S&#233;ries &#224; voir"
@@ -12,8 +10,7 @@
         ? "S&#233;ries poss&#233;d&#233;es"
         : "S&#233;ries finies"
     }}
-    ({{ filteredSeries().length }})
-    }
+    ({{ filteredSeries().length }}) }
   </h1>
 
   @if(allSeries().length !== 0) {
@@ -30,7 +27,7 @@
     <div class="series-actions">
       @if (!isAdminView()) {
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectSeriesRoute()"
         [queryParams]="{
           watchlist: selectedView() === 'watchlist',
@@ -46,21 +43,21 @@
         }}
       </button>
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectSeriesRatingRoute()"
         title="Mettre &#224; jour les notes de mes s&#233;ries"
       >
         &#11088; Notes
       </button>
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectSeriesTimesWatchedRoute()"
         title="Mettre &#224; jour le nombre de visionnages de mes s&#233;ries"
       >
-        &#128250; Visionnages
+        🎬 Visionnages
       </button>
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectSeriesOwnedRoute()"
         title="Mettre &#224; jour les s&#233;ries poss&#233;d&#233;es"
       >
@@ -78,7 +75,7 @@
       Commencez d&#232;s maintenant &#224; cr&#233;er votre
       s&#233;rieth&#232;que personnelle !
     </p>
-    <button class="btn btn-primary" [routerLink]="getSelectSeriesRoute()">
+    <button class="makya-btn-ultra-big" [routerLink]="getSelectSeriesRoute()">
       S&#233;lectionner mes s&#233;ries
     </button>
   </div>

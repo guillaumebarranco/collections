@@ -57,7 +57,7 @@
     } @if (recommendationView()) {
     <p class="movie-recommendation-text">{{ recommendationText() }}</p>
     } @if (isWatchList() && !isBaseEntityView) {
-    <button class="btn btn-primary" (click)="addMovieFromWatchlist()">
+    <button class="makya-btn" (click)="addMovieFromWatchlist()">
       J'ai vu ce film
     </button>
     }

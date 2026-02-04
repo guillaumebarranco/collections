@@ -9,7 +9,9 @@
   </h1>
 
   @if(isAdminView()) {
-  <button (click)="openAddMovieAdminDialog()">Ajouter un nouveau film</button>
+  <button class="makya-btn" (click)="openAddMovieAdminDialog()">
+    Créer un nouveau film
+  </button>
   } @if(allMoviesCount() !== 0) {
   <div class="movies-header-top">
     <app-view-toggle
@@ -22,7 +24,7 @@
     @if (!isAdminView()) {
     <div class="movies-actions">
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         type="button"
         title="Configurer l'affichage des onglets"
         (click)="onOpenViewConfig.emit()"
@@ -30,7 +32,7 @@
         ⚙️ Configurer ma vue films
       </button>
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectMoviesRoute()"
         [queryParams]="{
           watchlist: selectedView() === 'watchlist',
@@ -49,21 +51,21 @@
       </button>
 
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectMoviesRatingRoute()"
         title="Mettre à jour les notes de mes films"
       >
         ⭐ Notes
       </button>
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectMoviesTimesWatchedRoute()"
         title="Mettre à jour le nombre de visionnages de mes films"
       >
         🎬 Visionnages
       </button>
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectMoviesOwnedRoute()"
         title="Mettre à jour les films possédés"
       >
@@ -82,14 +84,14 @@
     </p>
     @if(selectedView() === 'cinema') {
     <button
-      class="btn btn-primary"
+      class="makya-btn-ultra-big"
       [routerLink]="getSelectCinemaRoute()"
       [queryParams]="{ cinema: 'true' }"
     >
       Sélectionner mes films vus au cinéma
     </button>
     } @else {
-    <button class="btn btn-primary" [routerLink]="getSelectMoviesRoute()">
+    <button class="makya-btn-ultra-big" [routerLink]="getSelectMoviesRoute()">
       Sélectionner mes films
     </button>
     }

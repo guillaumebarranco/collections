@@ -7,12 +7,12 @@
     <div class="selection-description">
       <p>
         Bonjour {{ username() }} 👋 <br /><br />
-        Sur cette page, tu peux mettre à jour le nombre de fois que tu as vu chaque
-        série de ta collection. <br /><br />
-        Passe ta souris sur une série pour voir les options de visionnages disponibles
-        et clique sur le nombre correspondant. <br /><br />
-        Une fois que tu as terminé, clique sur "Enregistrer mes visionnages" pour
-        appliquer les changements.
+        Sur cette page, tu peux mettre à jour le nombre de fois que tu as vu
+        chaque série de ta collection. <br /><br />
+        Passe ta souris sur une série pour voir les options de visionnages
+        disponibles et clique sur le nombre correspondant. <br /><br />
+        Une fois que tu as terminé, clique sur "Enregistrer mes visionnages"
+        pour appliquer les changements.
       </p>
     </div>
   </div>
@@ -25,7 +25,7 @@
 
     <div class="actions">
       <button
-        class="btn btn-primary"
+        class="makya-btn-big"
         (click)="saveSeriesTimesWatched()"
         [disabled]="allSeries().length === 0 || isSaving()"
       >
@@ -46,13 +46,13 @@
           <span class="serie-title">{{ serie.title }}</span>
         </div>
         <div class="season-list">
-          @for (season of getEditableSeasons(serie); track season.seasonNumber) {
+          @for (season of getEditableSeasons(serie); track season.seasonNumber)
+          {
           <div class="season-row">
             <div class="season-label">Saison {{ season.seasonNumber }}</div>
             <div class="season-current">
-              Visionnages : {{
-                getSeasonTimesWatched(serie, season.seasonNumber)
-              }}
+              Visionnages :
+              {{ getSeasonTimesWatched(serie, season.seasonNumber) }}
             </div>
             <div class="season-buttons">
               @for (times of timesWatchedOptions; track times) {

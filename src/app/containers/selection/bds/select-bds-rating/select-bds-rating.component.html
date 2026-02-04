@@ -9,8 +9,8 @@
         Bonjour {{ username() }} 👋 <br /><br />
         Sur cette page, tu peux mettre à jour la note de chaque BD de ta
         collection. <br /><br />
-        Passe ta souris sur une BD pour voir les options de notes disponibles
-        et clique sur la note correspondante. <br /><br />
+        Passe ta souris sur une BD pour voir les options de notes disponibles et
+        clique sur la note correspondante. <br /><br />
         Une fois que tu as terminé, clique sur "Enregistrer mes notes" pour
         appliquer les changements.
       </p>
@@ -25,7 +25,7 @@
 
     <div class="actions">
       <button
-        class="btn btn-primary"
+        class="makya-btn-big"
         (click)="saveBdsRatings()"
         [disabled]="allBds().length === 0 || isSaving()"
       >

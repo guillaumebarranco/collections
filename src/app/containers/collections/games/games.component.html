@@ -2,9 +2,7 @@
 
 <div class="games-container">
   <h1>
-    @if (isAdminView()) {
-    Jeux ({{ filteredGames().length }})
-    } @else {
+    @if (isAdminView()) { Jeux ({{ filteredGames().length }}) } @else {
     {{
       selectedView() === "gamelist"
         ? "🎮 Jeux à jouer"
@@ -12,8 +10,7 @@
         ? "🎮 Jeux possédés"
         : "🎮 Jeux vidéo"
     }}
-    ({{ filteredGames().length }})
-    }
+    ({{ filteredGames().length }}) }
   </h1>
 
   @if(allGames().length !== 0 || allGamelistGames().length !== 0) {
@@ -30,7 +27,7 @@
     <div class="games-actions">
       @if (!isAdminView()) {
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectGamesRoute()"
         [queryParams]="{
           gamelist: selectedView() === 'gamelist',
@@ -46,21 +43,21 @@
         }}
       </button>
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectGamesRatingRoute()"
         title="Mettre à jour les notes de mes jeux"
       >
         ⭐ Notes
       </button>
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectGamesTimesFinishedRoute()"
         title="Mettre à jour le nombre de fois que j'ai terminé mes jeux"
       >
         🎮 Terminés
       </button>
       <button
-        class="btn btn-small"
+        class="makya-btn-small"
         [routerLink]="getSelectGamesOwnedRoute()"
         title="Mettre à jour les jeux possédés"
       >
@@ -75,7 +72,7 @@
     <p class="empty-subtitle">
       Commencez dès maintenant à créer votre ludothèque personnelle !
     </p>
-    <button class="btn btn-primary" [routerLink]="getSelectGamesRoute()">
+    <button class="makya-btn-ultra-big" [routerLink]="getSelectGamesRoute()">
       Sélectionner mes jeux
     </button>
   </div>
