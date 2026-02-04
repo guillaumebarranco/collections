@@ -2619,13 +2619,31 @@ export const baseMoviesPage5: BaseMovie[] = [
 
   {
     title: "Une bataille après l'autre",
-    director: 'Martin Scorsese',
+    director: 'Paul Thomas Anderson',
     actors: [
       {
-        name: 'Leonardo DiCaprio',
+        name: 'Jesse Eisenberg',
+      },
+      {
+        name: 'Woody Harrelson',
+      },
+      {
+        name: 'Isla Fisher',
+      },
+      {
+        name: 'Dave Franco',
+      },
+      {
+        name: 'Morgan Freeman',
+      },
+      {
+        name: 'Justice Smith',
+      },
+      {
+        name: 'Rosamund Pike',
       },
     ],
-    coverUrl: '',
+    coverUrl: '/movies_pictures/one_battle_after_another.jpg',
     releaseDate: '2023-10-20',
     length: 206,
     genre: 'Crime',

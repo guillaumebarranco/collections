@@ -1143,7 +1143,7 @@ export const ronanCinemaMovies: UserMovies = [
     owned: false,
   },
   {
-    title: 'One Battle After Another',
+    title: "Une bataille après l'autre",
     director: 'Paul Thomas Anderson',
     rating: 4,
     timesWatched: 1,
