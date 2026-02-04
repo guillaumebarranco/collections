@@ -1115,7 +1115,7 @@ export const baseMoviesPage1: BaseMovie[] = [
   {
     title: 'Attrape-moi si tu peux',
     director: 'Steven Spielberg',
-    actors: [{ name: 'Leonardo DiCaprio' }],
+    actors: [{ name: 'Leonardo DiCaprio' }, { name: 'Tom Hanks' }],
     coverUrl: '/movies_pictures/51484-catch-me-if-you-can-0-150-0-225-crop.jpg',
     releaseDate: '2002-12-25',
     length: 141,
