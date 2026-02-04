@@ -113,6 +113,7 @@
 }
 
 .movie-card {
+  position: relative;
   @include containers.card-base;
 }
 
@@ -174,25 +175,19 @@
 
 .movie-card--missing {
   position: relative;
-  opacity: 0.7;
 
   &.movie-card--recommended {
-    opacity: 1;
-
     button {
-      position: relative;
       left: 110px;
       top: 5px;
-      background: lightgray;
-      padding: 2px 4px;
-      border: none;
-      border-radius: 6px;
-      height: 30px;
-      font-size: 1rem;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      font-weight: 500;
     }
+  }
+
+  button {
+    position: relative;
+    right: 0;
+    top: 15px;
+    z-index: 5;
   }
 
   .movie-rating,

@@ -46,7 +46,7 @@
       <span class="movie-missing-badge">Déjà dans votre watchlist</span>
       } @else {
       <span class="movie-missing-badge">Recommandé</span>
-      <button class="btn" (click)="addMovieToWatchlist(movie)">
+      <button class="makya-btn-small" (click)="addMovieToWatchlist(movie)">
         Ajouter à ma watchlist
       </button>
       }
@@ -111,6 +111,12 @@
           `${movie.title}-${movie.releaseDate}`) {
           <div class="movie-card movie-card--missing">
             <span class="movie-missing-badge">Non vu</span>
+            <button
+              class="makya-btn-small"
+              (click)="addMovieToWatchlist(movie)"
+            >
+              Ajouter à ma watchlist
+            </button>
             <app-movie [movie]="movie" [readOnly]="true"></app-movie>
           </div>
           }
@@ -170,6 +176,12 @@
           `${movie.title}-${movie.releaseDate}`) {
           <div class="movie-card movie-card--missing">
             <span class="movie-missing-badge">Non vu</span>
+            <button
+              class="makya-btn-small"
+              (click)="addMovieToWatchlist(movie)"
+            >
+              Ajouter à ma watchlist
+            </button>
             <app-movie [movie]="movie" [readOnly]="true"></app-movie>
           </div>
           }
@@ -229,6 +241,12 @@
           `${movie.title}-${movie.releaseDate}`) {
           <div class="movie-card movie-card--missing">
             <span class="movie-missing-badge">Non vu</span>
+            <button
+              class="makya-btn-small"
+              (click)="addMovieToWatchlist(movie)"
+            >
+              Ajouter à ma watchlist
+            </button>
             <app-movie [movie]="movie" [readOnly]="true"></app-movie>
           </div>
           }
