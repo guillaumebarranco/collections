@@ -57,7 +57,7 @@
         <div class="rating-buttons">
           @for (rating of ratingOptions; track rating) {
           <button
-            class="rating-btn"
+            class="makya-btn-rating"
             [class.active]="getRating(music) === rating"
             (click)="updateRating(music, rating); $event.stopPropagation()"
             (mousedown)="$event.stopPropagation()"

@@ -51,7 +51,7 @@
         <div class="times-finished-buttons">
           @for (times of timesFinishedOptions; track times) {
           <button
-            class="times-btn"
+            class="makya-btn-times"
             [class.active]="getTimesFinished(game) === times"
             (click)="updateTimesFinished(game, times); $event.stopPropagation()"
             (mousedown)="$event.stopPropagation()"

@@ -51,7 +51,7 @@
         <div class="times-watched-buttons">
           @for (times of timesWatchedOptions; track times) {
           <button
-            class="times-btn"
+            class="makya-btn-times"
             [class.active]="getTimesWatched(movie) === times"
             (click)="updateTimesWatched(movie, times); $event.stopPropagation()"
             (mousedown)="$event.stopPropagation()"

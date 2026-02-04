@@ -189,13 +189,13 @@
     }
 
     <div class="form-actions">
-      <button type="submit" class="submit-btn" [disabled]="isSaving()">
+      <button type="submit" class="makya-btn" [disabled]="isSaving()">
         Modifier
       </button>
       @if (hasDialogNavigation()) {
       <button
         type="button"
-        class="submit-btn"
+        class="makya-btn"
         [disabled]="isSaving() || !canNavigateNext()"
         (click)="onSubmit(true)"
       >
@@ -204,7 +204,7 @@
       }
       <button
         type="button"
-        class="delete-btn"
+        class="makya-btn makya-delete-btn"
         [disabled]="isDeleting()"
         (click)="onDelete()"
       >

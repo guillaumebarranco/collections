@@ -80,6 +80,10 @@ ul li {
   background: #2f6fed;
   color: #fff;
   cursor: pointer;
+
+  &.makya-delete-btn {
+    background: #d83a3a;
+  }
 }
 
 .makya-btn-big {
@@ -146,7 +150,9 @@ ul li {
   }
 }
 
-.makya-btn-owned {
+.makya-btn-owned,
+.makya-btn-rating,
+.makya-btn-times {
   padding: 0.45rem 0.8rem;
   border: 1.5px solid white;
   border-radius: 3px;
@@ -165,10 +171,38 @@ ul li {
     transform: scale(1.1);
     z-index: 20;
   }
+}
 
+.makya-btn-owned {
   &.active {
     background: #fd7e14;
     border-color: #fd7e14;
     box-shadow: 0 0 6px rgba(253, 126, 20, 0.6);
+  }
+}
+
+.makya-btn-rating,
+.makya-btn-times {
+  min-width: 32px;
+  flex: 0 0 calc(33.333% - 0.35rem);
+  max-width: calc(33.333% - 0.35rem);
+  padding: 0.35rem 0.5rem;
+  font-size: 0.7rem;
+}
+
+.makya-btn-rating {
+  &.active {
+    background: #ffc107;
+    border-color: #ffc107;
+    color: #333;
+    box-shadow: 0 0 6px rgba(255, 193, 7, 0.6);
+  }
+}
+
+.makya-btn-times {
+  &.active {
+    background: #28a745;
+    border-color: #28a745;
+    box-shadow: 0 0 6px rgba(40, 167, 69, 0.6);
   }
 }

@@ -46,18 +46,10 @@
       @if (authenticatedUser()) {
       <span class="menu-user">{{ authenticatedUser() }}</span>
       } @else {
-      <button class="menu-login" type="button" (click)="goToLogin()">
+      <button class="makya-btn-small" (click)="goToLogin()">
         Se connecter
       </button>
-      <button
-        class="menu-login-icon"
-        type="button"
-        (click)="goToLogin()"
-        aria-label="Se connecter"
-        title="Se connecter"
-      >
-        👤
-      </button>
+
       }
     </div>
   </div>

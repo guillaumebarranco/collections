@@ -48,7 +48,7 @@
         <div class="times-read-buttons">
           @for (times of timesReadOptions; track times) {
           <button
-            class="times-btn"
+            class="makya-btn-times"
             [class.active]="getTimesRead(comic) === times"
             (click)="updateTimesRead(comic, times); $event.stopPropagation()"
             (mousedown)="$event.stopPropagation()"
