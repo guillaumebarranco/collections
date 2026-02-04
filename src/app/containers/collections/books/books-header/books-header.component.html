@@ -1,0 +1,129 @@
+<div class="books-header">
+  <h1>
+    @if (isAdminView()) { Livres ({{ filteredBooksCount() }}) } @else {
+    {{ booksPageTitle() }} ({{ filteredBooksCount() }}) }
+  </h1>
+
+  @if(allBooksCount() !== 0) {
+  <div class="books-header-top">
+    @if (!isAdminView()) {
+    <app-view-toggle
+      [toggleClass]="'books-view-toggle'"
+      [options]="viewOptions()"
+      [selected]="selectedView()"
+      (selectedChange)="onViewChange.emit($any($event))"
+    ></app-view-toggle>
+    }
+
+    <div class="books-actions">
+      @if (!isAdminView()) {
+      <button
+        class="makya-btn-small"
+        [routerLink]="getSelectBooksRoute()"
+        [queryParams]="{ readlist: selectedView() === 'readlist' }"
+        title="Ajouter des livres"
+      >
+        ➕
+        {{
+          selectedView() === "readlist"
+            ? "Ajouter des livres à lire"
+            : "Ajouter des livres lus"
+        }}
+      </button>
+      <button
+        class="makya-btn-small"
+        [routerLink]="getSelectBooksRatingRoute()"
+        title="Mettre à jour les notes de mes livres"
+      >
+        ⭐Notes
+      </button>
+      <button
+        class="makya-btn-small"
+        [routerLink]="getSelectBooksTimesReadRoute()"
+        title="Mettre à jour le nombre de lectures de mes livres"
+      >
+        🎬 Lectures
+      </button>
+      <button
+        class="makya-btn-small"
+        [routerLink]="getSelectBooksOwnedRoute()"
+        title="Mettre à jour les livres possédés"
+      >
+        ✅ Possédés
+      </button>
+      }
+    </div>
+  </div>
+  } @if(allBooksCount() === 0) {
+  <div class="empty-state">
+    <p class="empty-message">Vous n'avez aucun livre dans votre collection.</p>
+    <p class="empty-subtitle">
+      Commencez dès maintenant à créer votre bibliothèque personnelle !
+    </p>
+    <button class="makya-btn-ultra-big" [routerLink]="getSelectBooksRoute()">
+      Sélectionner mes livres
+    </button>
+  </div>
+  }
+
+  <div class="books-stats-bloc">
+    @if (!isAdminView()) {
+    <app-stats-display
+      [stats]="stats()"
+      [count]="filteredBooksCount()"
+      countLabel="livres"
+    >
+    </app-stats-display>
+    }
+
+    <div class="books-filters">
+      @if (!isAdminView()) {
+      <div class="books-filters-item">
+        <p>Grouper par :</p>
+        <select
+          class="app-dropdown"
+          [ngModel]="selectedGroupBy()"
+          (ngModelChange)="onGroupByChange.emit($event)"
+          style="margin-bottom: 8px"
+        >
+          @for (option of groupByOptions(); track option.value) {
+          <option [value]="option.value">
+            {{ option.label }}
+          </option>
+          }
+        </select>
+      </div>
+      }
+
+      <!-- Dropdown de filtre d'années -->
+      @if(!isAdminView() && selectedView() === 'read') {
+      <div class="books-filters-item">
+        <app-sort-dropdown
+          label="Filtrer par année :"
+          [sortOptions]="yearFilterOptions()"
+          [selectedSort]="selectedYearFilter()"
+          (sortChange)="onYearFilterChange.emit($event)"
+        >
+        </app-sort-dropdown>
+      </div>
+      }
+
+      <app-sort-dropdown
+        label="Trier par :"
+        [sortOptions]="sortOptions()"
+        [selectedSort]="selectedSort()"
+        (sortChange)="onSortChange.emit($event)"
+      >
+      </app-sort-dropdown>
+    </div>
+  </div>
+
+  <div class="books-search">
+    <input
+      type="text"
+      placeholder="Rechercher par titre, auteur, genre..."
+      [ngModel]="searchTerm()"
+      (ngModelChange)="onSearchChange.emit($event)"
+    />
+  </div>
+</div>

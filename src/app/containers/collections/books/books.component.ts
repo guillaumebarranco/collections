@@ -10,19 +10,12 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { BookComponent } from '../../../components/collections/book/book.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
+import { SortOption } from '../../../components/sort-dropdown/sort-dropdown.component';
 import {
-  ViewToggleComponent,
-  ViewToggleOption,
-} from '../../../components/view-toggle/view-toggle.component';
-import {
-  SortDropdownComponent,
-  SortOption,
-} from '../../../components/sort-dropdown/sort-dropdown.component';
-import {
-  StatsDisplayComponent,
   StatItem,
   StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
+import { BooksHeaderComponent } from './books-header/books-header.component';
 import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
 import { Book } from '../../../models/book-model';
 import { Quizz } from '../../../models/quizz-model';
@@ -63,11 +56,9 @@ import { AuthService } from '../../../core/auth.service';
     FormsModule,
     BookComponent,
     MenuComponent,
-    ViewToggleComponent,
-    SortDropdownComponent,
-    StatsDisplayComponent,
     MatDialogModule,
     QuizzModalComponent,
+    BooksHeaderComponent,
   ],
   templateUrl: './books.component.html',
   styleUrls: ['./books.component.scss'],
@@ -97,7 +88,7 @@ export class BooksComponent implements OnInit {
 
   groupByOptions = groupByOptions;
 
-  viewOptions: ViewToggleOption[] = bookViewOptions;
+  viewOptions = bookViewOptions;
 
   booksList = signal<{ [key: string]: Book[] }>({});
   readlistBooksList = signal<{ [key: string]: Book[] }>({});
@@ -498,6 +489,10 @@ export class BooksComponent implements OnInit {
     }
   }
 
+  onGroupByChangeFromHeader(groupBy: string) {
+    this.selectedGroupBy.set(groupBy);
+  }
+
   onSearchChange(value: string) {
     this.searchTerm.set(value);
   }
@@ -556,36 +551,6 @@ export class BooksComponent implements OnInit {
 
   isAdminView(): boolean {
     return this.authService.isAdmin() && this.router.url.startsWith('/admin');
-  }
-
-  getSelectBooksRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam ? `/${params['id']}/select-books` : '/select-books';
-  }
-
-  getSelectBooksRatingRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam
-      ? `/${params['id']}/select-books-rating`
-      : '/select-books-rating';
-  }
-
-  getSelectBooksTimesReadRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam
-      ? `/${params['id']}/select-books-times-read`
-      : '/select-books-times-read';
-  }
-
-  getSelectBooksOwnedRoute(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam
-      ? `/${params['id']}/select-books-owned`
-      : '/select-books-owned';
   }
 
   private matchesSearch(book: Book, term: string): boolean {

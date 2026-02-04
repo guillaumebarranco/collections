@@ -1,146 +1,25 @@
 <app-menu></app-menu>
 
 <div class="books-container">
-  <h1>
-    @if (isAdminView()) { Livres ({{ filteredBooks().length }}) } @else {
-    {{
-      selectedView() === "readlist"
-        ? "Livres à lire"
-        : selectedView() === "owned"
-        ? "Livres possédés"
-        : selectedView() === "authors"
-        ? "Livres par auteur"
-        : "Livres lus"
-    }}
-    ({{ filteredBooks().length }}) }
-  </h1>
-
-  @if(allBooks().length !== 0) {
-  <div class="books-header-top">
-    @if (!isAdminView()) {
-    <app-view-toggle
-      [toggleClass]="'books-view-toggle'"
-      [options]="viewOptions"
-      [selected]="selectedView()"
-      (selectedChange)="onViewChange($any($event))"
-    ></app-view-toggle>
-    }
-
-    <div class="books-actions">
-      @if (!isAdminView()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectBooksRoute()"
-        [queryParams]="{ readlist: selectedView() === 'readlist' }"
-        title="Ajouter des livres"
-      >
-        ➕
-        {{
-          selectedView() === "readlist"
-            ? "Ajouter des livres à lire"
-            : "Ajouter des livres lus"
-        }}
-      </button>
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectBooksRatingRoute()"
-        title="Mettre à jour les notes de mes livres"
-      >
-        ⭐Notes
-      </button>
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectBooksTimesReadRoute()"
-        title="Mettre à jour le nombre de lectures de mes livres"
-      >
-        🎬 Lectures
-      </button>
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectBooksOwnedRoute()"
-        title="Mettre à jour les livres possédés"
-      >
-        ✅ Possédés
-      </button>
-      }
-    </div>
-  </div>
-  } @if(allBooks().length === 0) {
-  <div class="empty-state">
-    <p class="empty-message">Vous n'avez aucun livre dans votre collection.</p>
-    <p class="empty-subtitle">
-      Commencez dès maintenant à créer votre bibliothèque personnelle !
-    </p>
-    <button class="makya-btn-ultra-big" [routerLink]="getSelectBooksRoute()">
-      Sélectionner mes livres
-    </button>
-  </div>
-  }
-
-  <div class="books-header">
-    @if (!isAdminView()) {
-    <app-stats-display
-      [stats]="stats()"
-      [count]="filteredBooks().length"
-      countLabel="livres"
-    >
-    </app-stats-display>
-    }
-
-    <div class="books-filters">
-      @if (!isAdminView()) {
-      <div class="books-filters-item">
-        <p>Grouper par :</p>
-        <select
-          class="app-dropdown"
-          [(ngModel)]="selectedGroupBy"
-          (change)="onGroupByChange($any($event.target).value)"
-          style="margin-bottom: 8px"
-        >
-          <option *ngFor="let option of groupByOptions" [value]="option.value">
-            {{ option.label }}
-          </option>
-        </select>
-      </div>
-      }
-
-      <!-- Dropdown de filtre d'années -->
-      @if(!isAdminView() && selectedView() === 'read') {
-      <div class="books-filters-item">
-        <p>Filtrer par année :</p>
-        <select
-          class="app-dropdown"
-          [(ngModel)]="selectedYearFilter"
-          (change)="onYearFilterChange($any($event.target).value)"
-          style="margin-bottom: 8px"
-        >
-          <option
-            *ngFor="let option of yearFilterOptions"
-            [value]="option.value"
-          >
-            {{ option.label }}
-          </option>
-        </select>
-      </div>
-      }
-
-      <app-sort-dropdown
-        [sortOptions]="sortOptions"
-        [selectedSort]="selectedSort()"
-        (sortChange)="onSortChange($event)"
-      >
-      </app-sort-dropdown>
-    </div>
-  </div>
-
-  <div class="books-search">
-    <input
-      type="text"
-      placeholder="Rechercher par titre, auteur, genre..."
-      [ngModel]="searchTerm()"
-      (ngModelChange)="onSearchChange($event)"
-    />
-  </div>
+  <app-books-header
+    [selectedView]="selectedView()"
+    [selectedSortInput]="selectedSort()"
+    [selectedYearFilterInput]="selectedYearFilter()"
+    [selectedGroupByInput]="selectedGroupBy()"
+    [searchTermInput]="searchTerm()"
+    [filteredBooksCount]="filteredBooks().length"
+    [allBooksCount]="allBooks().length"
+    [stats]="stats()"
+    [viewOptions]="viewOptions"
+    [sortOptions]="sortOptions"
+    [yearFilterOptions]="yearFilterOptions"
+    [groupByOptions]="groupByOptions"
+    (onViewChange)="onViewChange($any($event))"
+    (onYearFilterChange)="onYearFilterChange($event)"
+    (onSearchChange)="onSearchChange($event)"
+    (onSortChange)="onSortChange($event)"
+    (onGroupByChange)="onGroupByChangeFromHeader($event)"
+  ></app-books-header>
 
   @if(!isAdminView() && selectedYearFilter() !== 'all') {
   <p>Résultats affichés: {{ sortedBooks().length }}</p>
@@ -148,8 +27,8 @@
   <div class="readlist-actions">
     <button
       class="makya-btn-ultra-big"
-      [routerLink]="getSelectBooksRoute()"
-      [queryParams]="{ watchlist: 'true' }"
+      [routerLink]="['/select-books']"
+      [queryParams]="{ readlist: 'true' }"
     >
       Ajouter des livres à ma readlist
     </button>
