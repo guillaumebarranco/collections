@@ -214,4 +214,22 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Fantasy',
     saga: 'Tolkien',
   },
+
+  {
+    title: 'Sonic 2, le film',
+    director: 'Jeff Fowler',
+    actors: [
+      {
+        name: 'Jim Carrey',
+      },
+      {
+        name: 'James Marsden',
+      },
+    ],
+    coverUrl: 'https://fr.web.img5.acsta.net/pictures/22/03/14/15/39/4137538.jpg',
+    releaseDate: '2022-03-30',
+    length: 122,
+    genre: 'Aventure, Famille',
+    saga: 'Sonic',
+  },
 ];
