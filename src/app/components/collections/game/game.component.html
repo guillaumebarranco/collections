@@ -40,8 +40,7 @@
       <span>Platiné</span>
       <img src="/platine.jpg" alt="Trophée platine" width="15" />
     </div>
-    }
-    @if (!isBaseEntityView) {
+    } @if (!isBaseEntityView) {
     <p class="game-time">
       Temps passé:
       {{ getGameTimePlayed(game) }}h
@@ -59,9 +58,15 @@
       </span>
       <span class="rating-text">{{ game.rating }}/5</span>
     </div>
-    }
-    @if (recommendationText) {
+    } @if (recommendationText) {
     <p class="recommendation-text">{{ recommendationText }}</p>
-    }
+    } @if (recommendationBadge) {
+    <span class="missing-badge">{{ recommendationBadge }}</span>
+    } @if (showAddToGamelistButton && !isBaseEntityView) { @if(!isInGamelist) {
+    <button class="makya-btn-small" (click)="addToGamelist.emit(game)">
+      Ajouter à ma gamelist
+    </button>
+    } @else {
+    <span class="recommendation-text">Déjà dans votre gamelist</span> } }
   </div>
 </app-entity-card>

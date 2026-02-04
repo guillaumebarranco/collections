@@ -26,14 +26,6 @@
     } @else { @for (serie of recommendedSeries(); track
     `${serie.title}-${serie.director}`; let i = $index) {
     <div class="serie-card serie-card--recommended serie-card--missing">
-      @if(serieAlreadyInUserWatchlist(serie)) {
-      <span class="serie-missing-badge">Déjà dans votre watchlist</span>
-      } @else {
-      <span class="serie-missing-badge">Recommandé</span>
-      <button class="makya-btn-small" (click)="addSerieToWatchlist(serie)">
-        Ajouter à ma watchlist
-      </button>
-      }
       <app-serie
         [serie]="serie"
         [list]="recommendedSeries()"
@@ -41,7 +33,11 @@
         [quizzs]="quizzs()"
         [readOnly]="true"
         [recommendationText]="getSerieRecommendationText(serie)"
+        [recommendationBadge]="serieAlreadyInUserWatchlist(serie) ? 'Déjà dans votre watchlist' : 'Recommandé'"
+        [showAddToWatchlistButton]="true"
+        [isInWatchlist]="serieAlreadyInUserWatchlist(serie)"
         (openQuizz)="openQuizzModal($event)"
+        (addToWatchlist)="addSerieToWatchlist($event)"
       ></app-serie>
     </div>
     } }

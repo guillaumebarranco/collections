@@ -45,8 +45,12 @@ export class SerieComponent {
   @Input() quizzs: Quizz[] = [];
   @Input() readOnly = false;
   @Input() recommendationText = '';
+  @Input() showAddToWatchlistButton = false;
+  @Input() isInWatchlist = false;
+  @Input() recommendationBadge = '';
   @Output() serieUpdated = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
+  @Output() addToWatchlist = new EventEmitter<Serie>();
 
   isBaseEntityView = isBaseEntityView();
   seasonsExpanded = signal(false);

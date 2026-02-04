@@ -74,6 +74,14 @@
     </div>
     @if (recommendationText) {
     <p class="recommendation-text">{{ recommendationText }}</p>
-    }
+    } @if (recommendationBadge) {
+    <span class="missing-badge">{{ recommendationBadge }}</span>
+    } @if (showAddToWatchlistButton && !isBaseEntityView) { @if(!isInWatchlist)
+    {
+    <button class="makya-btn-small" (click)="addToWatchlist.emit(serie)">
+      Ajouter à ma watchlist
+    </button>
+    } @else {
+    <span class="recommendation-text">Déjà dans votre watchlist</span> } }
   </div>
 </app-entity-card>

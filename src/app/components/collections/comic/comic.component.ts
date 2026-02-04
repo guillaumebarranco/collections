@@ -38,8 +38,12 @@ export class ComicComponent {
   @Input() quizzs: Quizz[] = [];
   @Input() readOnly = false;
   @Input() recommendationText = '';
+  @Input() showAddToReadlistButton = false;
+  @Input() isInReadlist = false;
+  @Input() recommendationBadge = '';
   @Output() editRequested = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
+  @Output() addToReadlist = new EventEmitter<Comic>();
 
   isBaseEntityView = isBaseEntityView();
 

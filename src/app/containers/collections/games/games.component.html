@@ -27,14 +27,6 @@
     } @else { @for (game of recommendedGames(); track
     `${game.title}-${game.editor}`; let i = $index) {
     <div class="game-card game-card--recommended game-card--missing">
-      @if(gameAlreadyInUserGamelist(game)) {
-      <span class="game-missing-badge">Déjà dans votre gamelist</span>
-      } @else {
-      <span class="game-missing-badge">Recommandé</span>
-      <button class="makya-btn-small" (click)="addGameToGamelist(game)">
-        Ajouter à ma gamelist
-      </button>
-      }
       <app-game
         [game]="game"
         [list]="recommendedGames()"
@@ -42,7 +34,11 @@
         [quizzs]="quizzs()"
         [readOnly]="true"
         [recommendationText]="getGameRecommendationText(game)"
+        [recommendationBadge]="gameAlreadyInUserGamelist(game) ? 'Déjà dans votre gamelist' : 'Recommandé'"
+        [showAddToGamelistButton]="true"
+        [isInGamelist]="gameAlreadyInUserGamelist(game)"
         (openQuizz)="openQuizzModal($event)"
+        (addToGamelist)="addGameToGamelist($event)"
       ></app-game>
     </div>
     } }

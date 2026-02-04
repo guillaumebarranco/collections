@@ -47,6 +47,7 @@ export class MovieComponent {
   @Input() showAddToWatchlistButton = false;
   @Input() isInWatchlist = false;
   @Input() isToReWatchView = false;
+  @Input() recommendationBadge = '';
   @Output() movieUpdated = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
   @Output() wantToReWatch = new EventEmitter<Movie>();

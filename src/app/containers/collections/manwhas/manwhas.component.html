@@ -39,20 +39,16 @@
     } @else { @for (manwha of recommendedManwhas(); track
     `${manwha.title}-${manwha.author}`) {
     <div class="manwha-card manwha-card--recommended manwha-card--missing">
-      @if(manwhaAlreadyInUserReadlist(manwha)) {
-      <span class="manwha-missing-badge">Déjà dans votre readlist</span>
-      } @else {
-      <span class="manwha-missing-badge">Recommandé</span>
-      <button class="makya-btn-small" (click)="addManwhaToReadlist(manwha)">
-        Ajouter à ma readlist
-      </button>
-      }
       <app-manwha
         [manwha]="manwha"
         [readOnly]="true"
         [quizzs]="quizzs()"
         [recommendationText]="getManwhaRecommendationText(manwha)"
+        [recommendationBadge]="manwhaAlreadyInUserReadlist(manwha) ? 'Déjà dans votre readlist' : 'Recommandé'"
+        [showAddToReadlistButton]="true"
+        [isInReadlist]="manwhaAlreadyInUserReadlist(manwha)"
         (openQuizz)="openQuizzModal($event)"
+        (addToReadlist)="addManwhaToReadlist($event)"
       ></app-manwha>
     </div>
     } }

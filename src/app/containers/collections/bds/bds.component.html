@@ -26,20 +26,16 @@
     <p>Aucune recommandation disponible pour le moment.</p>
     } @else { @for (bd of recommendedBds(); track `${bd.title}-${bd.writer}`) {
     <div class="bd-card bd-card--recommended bd-card--missing">
-      @if(bdAlreadyInUserReadlist(bd)) {
-      <span class="bd-missing-badge">Déjà dans votre readlist</span>
-      } @else {
-      <span class="bd-missing-badge">Recommandé</span>
-      <button class="makya-btn-small" (click)="addBdToReadlist(bd)">
-        Ajouter à ma readlist
-      </button>
-      }
       <app-bd
         [bd]="bd"
         [readOnly]="true"
         [quizzs]="quizzs()"
         [recommendationText]="getBdRecommendationText(bd)"
+        [recommendationBadge]="bdAlreadyInUserReadlist(bd) ? 'Déjà dans votre readlist' : 'Recommandé'"
+        [showAddToReadlistButton]="true"
+        [isInReadlist]="bdAlreadyInUserReadlist(bd)"
         (openQuizz)="openQuizzModal($event)"
+        (addToReadlist)="addBdToReadlist($event)"
       ></app-bd>
     </div>
     } }

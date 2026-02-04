@@ -42,12 +42,16 @@
     } @else { @for (movie of recommendedMovies(); track
     `${movie.title}-${movie.releaseDate}`; let i = $index) {
     <div class="movie-card movie-card--recommended movie-card--missing">
-      <span class="movie-missing-badge">Recommandé</span>
       <app-movie
         [movie]="movie"
         [list]="recommendedMovies()"
         [recommendationView]="selectedView() === 'recommendations'"
         [recommendationText]="getMovieRecommendationText(movie)"
+        [recommendationBadge]="
+          movieAlreadyInUserWatchlist(movie)
+            ? 'Déjà dans votre watchlist'
+            : 'Recommandé'
+        "
         [showAddToWatchlistButton]="true"
         [isInWatchlist]="movieAlreadyInUserWatchlist(movie)"
         [index]="i"
@@ -108,10 +112,10 @@
           @for (movie of sagaGroup.missingMovies; track
           `${movie.title}-${movie.releaseDate}`) {
           <div class="movie-card movie-card--missing">
-            <span class="movie-missing-badge">Non vu</span>
             <app-movie
               [movie]="movie"
               [readOnly]="true"
+              [recommendationBadge]="'Non vu'"
               [showAddToWatchlistButton]="true"
               [isInWatchlist]="movieAlreadyInUserWatchlist(movie)"
               (addToWatchlist)="addMovieToWatchlist($event)"
@@ -175,10 +179,10 @@
           @for (movie of actorGroup.missingMovies; track
           `${movie.title}-${movie.releaseDate}`) {
           <div class="movie-card movie-card--missing">
-            <span class="movie-missing-badge">Non vu</span>
             <app-movie
               [movie]="movie"
               [readOnly]="true"
+              [recommendationBadge]="'Non vu'"
               [showAddToWatchlistButton]="true"
               [isInWatchlist]="movieAlreadyInUserWatchlist(movie)"
               (addToWatchlist)="addMovieToWatchlist($event)"
@@ -242,10 +246,10 @@
           @for (movie of directorGroup.missingMovies; track
           `${movie.title}-${movie.releaseDate}`) {
           <div class="movie-card movie-card--missing">
-            <span class="movie-missing-badge">Non vu</span>
             <app-movie
               [movie]="movie"
               [readOnly]="true"
+              [recommendationBadge]="'Non vu'"
               [showAddToWatchlistButton]="true"
               [isInWatchlist]="movieAlreadyInUserWatchlist(movie)"
               (addToWatchlist)="addMovieToWatchlist($event)"

@@ -44,8 +44,12 @@ export class GameComponent {
   @Input() quizzs: Quizz[] = [];
   @Input() readOnly = false;
   @Input() recommendationText = '';
+  @Input() showAddToGamelistButton = false;
+  @Input() isInGamelist = false;
+  @Input() recommendationBadge = '';
   @Output() gameUpdated = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
+  @Output() addToGamelist = new EventEmitter<Game>();
 
   isBaseEntityView = isBaseEntityView();
 

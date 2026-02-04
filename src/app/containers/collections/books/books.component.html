@@ -36,20 +36,16 @@
     } @else { @for (book of recommendedBooks(); track
     `${book.title}-${book.author}`; let i = $index) {
     <div class="book-card book-card--recommended book-card--missing">
-      @if(bookAlreadyInUserReadlist(book)) {
-      <span class="book-missing-badge">Déjà dans votre readlist</span>
-      } @else {
-      <span class="book-missing-badge">Recommandé</span>
-      <button class="makya-btn-small" (click)="addBookToReadlist(book)">
-        Ajouter à ma readlist
-      </button>
-      }
       <app-book
         [book]="book"
         [readOnly]="true"
         [quizzs]="quizzs()"
         [recommendationText]="getBookRecommendationText(book)"
+        [recommendationBadge]="bookAlreadyInUserReadlist(book) ? 'Déjà dans votre readlist' : 'Recommandé'"
+        [showAddToReadlistButton]="true"
+        [isInReadlist]="bookAlreadyInUserReadlist(book)"
         (openQuizz)="openQuizzModal($event)"
+        (addToReadlist)="addBookToReadlist($event)"
       >
       </app-book>
     </div>
@@ -101,8 +97,11 @@
           <div class="books">
             @for (book of authorGroup.missingBooks; track book.title) {
             <div class="book-card book-card--missing">
-              <span class="book-missing-badge">Non lu</span>
-              <app-book [book]="book" [readOnly]="true"></app-book>
+              <app-book
+                [book]="book"
+                [readOnly]="true"
+                [recommendationBadge]="'Non lu'"
+              ></app-book>
             </div>
             }
           </div>

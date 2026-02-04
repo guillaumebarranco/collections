@@ -27,20 +27,16 @@
     } @else { @for (comic of recommendedComics(); track
     `${comic.title}-${comic.writer}`) {
     <div class="comic-card comic-card--recommended comic-card--missing">
-      @if(comicAlreadyInUserReadlist(comic)) {
-      <span class="comic-missing-badge">Déjà dans votre readlist</span>
-      } @else {
-      <span class="comic-missing-badge">Recommandé</span>
-      <button class="makya-btn-small" (click)="addComicToReadlist(comic)">
-        Ajouter à ma readlist
-      </button>
-      }
       <app-comic
         [comic]="comic"
         [readOnly]="true"
         [quizzs]="quizzs()"
         [recommendationText]="getComicRecommendationText(comic)"
+        [recommendationBadge]="comicAlreadyInUserReadlist(comic) ? 'Déjà dans votre readlist' : 'Recommandé'"
+        [showAddToReadlistButton]="true"
+        [isInReadlist]="comicAlreadyInUserReadlist(comic)"
         (openQuizz)="openQuizzModal($event)"
+        (addToReadlist)="addComicToReadlist($event)"
       ></app-comic>
     </div>
     } }

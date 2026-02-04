@@ -27,20 +27,16 @@
     } @else { @for (manga of recommendedMangas(); track
     `${manga.title}-${manga.author}`) {
     <div class="manga-card manga-card--recommended manga-card--missing">
-      @if(mangaAlreadyInUserReadlist(manga)) {
-      <span class="manga-missing-badge">Déjà dans votre readlist</span>
-      } @else {
-      <span class="manga-missing-badge">Recommandé</span>
-      <button class="makya-btn-small" (click)="addMangaToReadlist(manga)">
-        Ajouter à ma readlist
-      </button>
-      }
       <app-manga
         [manga]="manga"
         [readOnly]="true"
         [quizzs]="quizzs()"
         [recommendationText]="getMangaRecommendationText(manga)"
+        [recommendationBadge]="mangaAlreadyInUserReadlist(manga) ? 'Déjà dans votre readlist' : 'Recommandé'"
+        [showAddToReadlistButton]="true"
+        [isInReadlist]="mangaAlreadyInUserReadlist(manga)"
         (openQuizz)="openQuizzModal($event)"
+        (addToReadlist)="addMangaToReadlist($event)"
       ></app-manga>
     </div>
     } }

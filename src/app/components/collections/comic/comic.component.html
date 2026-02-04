@@ -52,6 +52,15 @@
     </div>
     } @if (recommendationText) {
     <p class="recommendation-text">{{ recommendationText }}</p>
+    } @if (recommendationBadge) {
+    <span class="missing-badge">{{ recommendationBadge }}</span>
+    } @if (showAddToReadlistButton && !isBaseEntityView) {
+    @if(!isInReadlist) {
+    <button class="makya-btn-small" (click)="addToReadlist.emit(comic)">
+      Ajouter à ma readlist
+    </button>
+    } @else {
+    <span class="recommendation-text">Déjà dans votre readlist</span> }
     }
   </div>
 </app-entity-card>
