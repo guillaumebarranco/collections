@@ -47,6 +47,7 @@
         [list]="recommendedMovies()"
         [recommendationView]="selectedView() === 'recommendations'"
         [recommendationText]="getMovieRecommendationText(movie)"
+        [selectedView]="selectedView()"
         [recommendationBadge]="
           movieAlreadyInUserWatchlist(movie)
             ? 'Déjà dans votre watchlist'
@@ -97,6 +98,7 @@
             [list]="sagaGroup.seenMovies"
             [index]="i"
             [showToReWatchButton]="optionalViewConfig().toReWatch"
+            [selectedView]="selectedView()"
             [quizzs]="quizzs()"
             (movieUpdated)="refreshMovies()"
             (openQuizz)="openQuizzModal($event)"
@@ -115,6 +117,7 @@
             <app-movie
               [movie]="movie"
               [readOnly]="true"
+              [selectedView]="selectedView()"
               [recommendationBadge]="'Non vu'"
               [showAddToWatchlistButton]="true"
               [isInWatchlist]="movieAlreadyInUserWatchlist(movie)"
@@ -164,6 +167,7 @@
             [list]="actorGroup.seenMovies"
             [index]="i"
             [showToReWatchButton]="optionalViewConfig().toReWatch"
+            [selectedView]="selectedView()"
             [quizzs]="quizzs()"
             (movieUpdated)="refreshMovies()"
             (openQuizz)="openQuizzModal($event)"
@@ -183,6 +187,7 @@
               [movie]="movie"
               [readOnly]="true"
               [recommendationBadge]="'Non vu'"
+              [selectedView]="selectedView()"
               [showAddToWatchlistButton]="true"
               [isInWatchlist]="movieAlreadyInUserWatchlist(movie)"
               (addToWatchlist)="addMovieToWatchlist($event)"
@@ -229,6 +234,7 @@
           <app-movie
             [movie]="movie"
             [list]="directorGroup.seenMovies"
+            [selectedView]="selectedView()"
             [index]="i"
             [showToReWatchButton]="optionalViewConfig().toReWatch"
             [quizzs]="quizzs()"
@@ -251,6 +257,7 @@
               [readOnly]="true"
               [recommendationBadge]="'Non vu'"
               [showAddToWatchlistButton]="true"
+              [selectedView]="selectedView()"
               [isInWatchlist]="movieAlreadyInUserWatchlist(movie)"
               (addToWatchlist)="addMovieToWatchlist($event)"
             ></app-movie>
@@ -276,7 +283,7 @@
         [readOnly]="selectedView() === 'watchlist'"
         [isWatchList]="selectedView() === 'watchlist'"
         [showToReWatchButton]="optionalViewConfig().toReWatch"
-        [isToReWatchView]="selectedView() === 'toReWatch'"
+        [selectedView]="selectedView()"
         [quizzs]="quizzs()"
         (movieUpdated)="refreshMovies()"
         (openQuizz)="openQuizzModal($event)"

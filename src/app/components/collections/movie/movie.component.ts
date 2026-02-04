@@ -18,6 +18,7 @@ import { EntityCardComponent } from '../../entity-card/entity-card.component';
 import { AuthService } from '../../../core/auth.service';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
 import { getApiBaseUrl, isBaseEntityView } from '../../../core/config';
+import { MovieView } from '../../../containers/collections/movies/movies.utils';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -46,7 +47,7 @@ export class MovieComponent {
   @Input() showToReWatchButton = false;
   @Input() showAddToWatchlistButton = false;
   @Input() isInWatchlist = false;
-  @Input() isToReWatchView = false;
+  @Input() selectedView: MovieView = 'watched';
   @Input() recommendationBadge = '';
   @Output() movieUpdated = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();

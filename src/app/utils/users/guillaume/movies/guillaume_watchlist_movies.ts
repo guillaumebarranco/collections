@@ -496,4 +496,16 @@ export const guillaumeWatchlistMovies: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
   },
+
+  {
+    title: 'Nobody 2',
+    director: 'Timo Tjahjanto',
+    rating: 0,
+    timesWatched: 0,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+  },
 ];

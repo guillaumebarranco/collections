@@ -1272,7 +1272,17 @@ export const baseMoviesPage4: BaseMovie[] = [
     releaseDate: '2021-03-26',
     length: 92,
     genre: 'Action',
-    saga: '',
+    saga: 'Nobody',
+  },
+  {
+    title: 'Nobody 2',
+    director: 'Timo Tjahjanto',
+    actors: [{ name: 'Bob Odenkirk' }, { name: 'Connie Nielsen' }],
+    coverUrl: '/movies_pictures/img_20260202052946_11115.jpg',
+    releaseDate: '2025-08-15',
+    length: 119,
+    genre: 'Action',
+    saga: 'Nobody',
   },
   {
     title: 'Seul sur Mars',
