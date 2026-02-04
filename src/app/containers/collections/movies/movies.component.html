@@ -272,10 +272,12 @@
         [readOnly]="selectedView() === 'watchlist'"
         [isWatchList]="selectedView() === 'watchlist'"
         [showToReWatchButton]="optionalViewConfig().toReWatch"
+        [isToReWatchView]="selectedView() === 'toReWatch'"
         [quizzs]="quizzs()"
         (movieUpdated)="refreshMovies()"
         (openQuizz)="openQuizzModal($event)"
         (wantToReWatch)="markMovieAsWantToReWatch($event)"
+        (hasReWatched)="markMovieAsReWatched($event)"
       ></app-movie>
     </div>
     }

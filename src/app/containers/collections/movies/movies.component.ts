@@ -858,4 +858,41 @@ export class MoviesComponent implements OnInit {
       console.warn('Erreur réseau lors de la mise à jour du film.', error);
     }
   }
+
+  async markMovieAsReWatched(movie: Movie): Promise<void> {
+    try {
+      const today = new Date().toISOString().split('T')[0];
+      const response = await fetch(`${getApiBaseUrl()}/movies`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.getActiveUserId(),
+          title: movie.title,
+          director: movie.director,
+          rating: movie.rating,
+          timesWatched: (movie.timesWatched || 0) + 1,
+          firstViewedDate: movie.firstViewedDate || today,
+          lastViewedDate: today,
+          seenAtCinema: movie.seenAtCinema,
+          owned: movie.owned,
+          wantToSeeAgain: false,
+        }),
+      });
+
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn(
+          'Échec de la mise à jour du film :',
+          payload?.error || response.statusText
+        );
+        return;
+      }
+
+      await this.refreshMovies();
+    } catch (error) {
+      console.warn('Erreur réseau lors de la mise à jour du film.', error);
+    }
+  }
 }

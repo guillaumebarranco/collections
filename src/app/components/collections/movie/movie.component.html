@@ -60,7 +60,7 @@
     <button class="makya-btn" (click)="addMovieFromWatchlist()">
       J'ai vu ce film
     </button>
-    } @if (showToReWatchButton && !isBaseEntityView) {
+    } @if (showToReWatchButton && !isBaseEntityView && !isToReWatchView) {
     @if(!movie.wantToSeeAgain) {
     <button class="makya-btn-small" (click)="wantToReWatch.emit(movie)">
       Je veux revoir ce film
@@ -73,6 +73,11 @@
       Ajouter à ma watchlist
     </button>
     } @else {
-    <span class="recommendation-text">Déjà dans votre watchlist</span> } }
+    <span class="recommendation-text">Déjà dans votre watchlist</span> } } @if
+    (isToReWatchView && !isBaseEntityView && movie.wantToSeeAgain) {
+    <button class="makya-btn-small" (click)="hasReWatched.emit(movie)">
+      J'ai revu ce film
+    </button>
+    }
   </div>
 </app-entity-card>
