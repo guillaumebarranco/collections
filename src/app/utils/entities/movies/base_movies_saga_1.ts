@@ -453,6 +453,9 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
       {
         name: 'Linda Hamilton',
       },
+      {
+        name: 'Arnold Schwarzenegger',
+      },
     ],
     coverUrl:
       '/movies_pictures/217178-terminator-dark-fate-0-150-0-225-crop.jpg',
@@ -546,7 +549,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Spy Kids 3-D: Game Over',
     director: 'Robert Rodriguez',
-    actors: [{ name: 'Alexa Vega' }],
+    actors: [{ name: 'Alexa Vega' }, { name: 'Sylvester Stallone' }],
     coverUrl:
       '/movies_pictures/44637-spy-kids-3-d-game-over-0-150-0-225-crop.jpg',
     releaseDate: '2003-07-25',

@@ -129,7 +129,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     saga: '',
   },
   {
-    title: 'Escape Plan: The Extractors',
+    title: 'Evasion 3',
     director: 'John Herzfeld',
     actors: [
       {
@@ -214,7 +214,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     saga: '',
   },
   {
-    title: 'Escape Plan 2: Hades',
+    title: 'Evasion 2: Hades',
     director: 'Steven C. Miller',
     actors: [
       {
@@ -728,7 +728,11 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Les Infiltrés',
     director: 'Martin Scorsese',
-    actors: [{ name: 'Leonardo DiCaprio' }],
+    actors: [
+      { name: 'Leonardo DiCaprio' },
+      { name: 'Matt Damon' },
+      { name: 'Jack Nicholson' },
+    ],
     coverUrl: '/movies_pictures/les_infiltres.jpg',
     releaseDate: '2006-10-06',
     length: 151,
@@ -1053,6 +1057,9 @@ export const baseMoviesPage2: BaseMovie[] = [
       },
       {
         name: 'Uma Thurman',
+      },
+      {
+        name: 'Bruce Willis',
       },
     ],
     coverUrl: '/movies_pictures/51444-pulp-fiction-0-150-0-225-crop.jpg',

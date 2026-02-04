@@ -18,6 +18,15 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
       {
         name: 'Ryan Reynolds',
       },
+      {
+        name: 'Zazie Beetz',
+      },
+      {
+        name: 'Josh Brolin',
+      },
+      {
+        name: 'Brad Pitt',
+      },
     ],
     coverUrl: '/movies_pictures/318195-deadpool-2-0-150-0-225-crop.jpg',
     releaseDate: '2018-05-18',
@@ -40,7 +49,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
       },
       {
         name: 'Colin Farrell',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/daredevil.jpg',
     releaseDate: '2003-02-14',
@@ -57,7 +66,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
       },
       {
         name: 'Hugh Jackman',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/27723-x-men-0-150-0-225-crop.jpg',
     releaseDate: '2000-07-14',
@@ -255,7 +264,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: 'Kick-Ass 2',
     director: 'Jeff Wadlow',
-    actors: [{ name: 'Aaron Taylor-Johnson' }],
+    actors: [{ name: 'Aaron Taylor-Johnson' }, { name: 'Jim Carrey' }],
     coverUrl: '/movies_pictures/kick_ass_2.jpg',
     releaseDate: '2013-08-16',
     length: 103,

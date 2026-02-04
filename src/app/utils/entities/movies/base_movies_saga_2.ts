@@ -366,7 +366,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Split',
     director: 'M. Night Shyamalan',
-    actors: [{ name: 'James McAvoy' }],
+    actors: [{ name: 'James McAvoy' }, { name: 'Anya Taylor-Joy' }],
     coverUrl: '/movies_pictures/split.jpg',
     releaseDate: '2017-01-20',
     length: 117,
@@ -380,6 +380,15 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'James McAvoy',
       },
+      {
+        name: 'Bruce Willis',
+      },
+      {
+        name: 'Samuel L. Jackson',
+      },
+      {
+        name: 'Anya Taylor-Joy',
+      },
     ],
     coverUrl: '/movies_pictures/382669-glass-0-150-0-225-crop.jpg',
     releaseDate: '2019-01-18',
@@ -390,7 +399,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Creed',
     director: 'Ryan Coogler',
-    actors: [{ name: 'Michael B. Jordan' }],
+    actors: [{ name: 'Michael B. Jordan' }, { name: 'Sylvester Stallone' }],
     coverUrl: '/movies_pictures/239260-creed-0-150-0-225-crop.jpg',
     releaseDate: '2015-11-25',
     length: 133,
@@ -403,6 +412,9 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     actors: [
       {
         name: 'Michael B. Jordan',
+      },
+      {
+        name: 'Sylvester Stallone',
       },
     ],
     coverUrl: '/movies_pictures/411439-creed-ii-0-150-0-225-crop.jpg',
@@ -673,7 +685,12 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: "Ocean's Eleven",
     director: 'Steven Soderbergh',
-    actors: [{ name: 'George Clooney' }],
+    actors: [
+      { name: 'George Clooney' },
+      { name: 'Matt Damon' },
+      { name: 'Julia Roberts' },
+      { name: 'Brad Pitt' },
+    ],
     coverUrl: '/movies_pictures/oceans_eleven.jpg',
     releaseDate: '2001-12-07',
     length: 116,
@@ -683,7 +700,13 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: "Ocean's Twelve",
     director: 'Steven Soderbergh',
-    actors: [{ name: 'George Clooney' }],
+    actors: [
+      { name: 'George Clooney' },
+      { name: 'Brad Pitt' },
+      { name: 'Matt Damon' },
+      { name: 'Julia Roberts' },
+      { name: 'Bruce Willis' },
+    ],
     coverUrl: '/movies_pictures/51888-ocean-s-twelve-0-150-0-225-crop.jpg',
     releaseDate: '2004-12-10',
     length: 125,
@@ -693,7 +716,11 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: "Ocean's Thirteen",
     director: 'Steven Soderbergh',
-    actors: [{ name: 'George Clooney' }],
+    actors: [
+      { name: 'George Clooney' },
+      { name: 'Matt Damon' },
+      { name: 'Brad Pitt' },
+    ],
     coverUrl: '/movies_pictures/51761-ocean-s-thirteen-0-150-0-225-crop.jpg',
     releaseDate: '2007-06-08',
     length: 122,
@@ -789,7 +816,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Taxi 3',
     director: 'Gérard Krawczyk',
-    actors: [{ name: 'Samy Naceri' }],
+    actors: [{ name: 'Samy Naceri' }, { name: 'Sylvester Stallone' }],
     coverUrl: '/movies_pictures/50320-taxi-3-0-150-0-225-crop.jpg',
     releaseDate: '2003-01-29',
     length: 84,
@@ -974,7 +1001,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Sin City',
     director: 'Frank Miller, Robert Rodriguez',
-    actors: [{ name: 'Bruce Willis' }],
+    actors: [{ name: 'Bruce Willis' }, { name: 'Jessica Alba' }],
     coverUrl: '/movies_pictures/51865-sin-city-0-150-0-225-crop.jpg',
     releaseDate: '2005-04-01',
     length: 124,
@@ -984,7 +1011,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: "Sin City : J'ai Tué pour Elle",
     director: 'Frank Miller, Robert Rodriguez',
-    actors: [{ name: 'Mickey Rourke' }],
+    actors: [{ name: 'Mickey Rourke' }, { name: 'Bruce Willis' }],
     coverUrl:
       '/movies_pictures/51863-sin-city-a-dame-to-kill-for-0-150-0-225-crop.jpg',
     releaseDate: '2014-08-22',

@@ -234,7 +234,11 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Interstellar',
     director: 'Christopher Nolan',
-    actors: [{ name: 'Matthew McConaughey' }],
+    actors: [
+      { name: 'Matthew McConaughey' },
+      { name: 'Anne Hathaway' },
+      { name: 'Matt Damon' },
+    ],
     coverUrl: '/movies_pictures/117621-interstellar-0-150-0-225-crop.jpg',
     releaseDate: '2014-11-07',
     length: 169,
@@ -688,7 +692,7 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Dangereuse séduction',
     director: 'James Foley',
-    actors: [{ name: 'Halle Berry' }],
+    actors: [{ name: 'Halle Berry' }, { name: 'Bruce Willis' }],
     coverUrl: '/movies_pictures/48107-perfect-stranger-0-150-0-225-crop.jpg',
     releaseDate: '2007-04-13',
     length: 109,
@@ -972,7 +976,11 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Expendables : Unité Spéciale',
     director: 'Sylvester Stallone',
-    actors: [{ name: 'Sylvester Stallone' }],
+    actors: [
+      { name: 'Sylvester Stallone' },
+      { name: 'Arnold Schwarzenegger' },
+      { name: 'Bruce Willis' },
+    ],
     coverUrl: '/movies_pictures/34395-the-expendables-0-150-0-225-crop.jpg',
     releaseDate: '2010-08-13',
     length: 103,

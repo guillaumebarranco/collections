@@ -138,6 +138,15 @@ export const baseMoviesPage1: BaseMovie[] = [
       {
         name: 'Cillian Murphy',
       },
+      {
+        name: 'Emily Blunt',
+      },
+      {
+        name: 'Matt Damon',
+      },
+      {
+        name: 'Robert Downey Jr.',
+      },
     ],
     coverUrl: '/movies_pictures/784328-oppenheimer-0-150-0-225-crop.jpg',
     releaseDate: '2023-07-21',
@@ -183,7 +192,7 @@ export const baseMoviesPage1: BaseMovie[] = [
       },
       {
         name: 'Margot Robbie',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/542773-babylon-0-150-0-225-crop.jpg',
     releaseDate: '2022-12-23',
@@ -247,7 +256,7 @@ export const baseMoviesPage1: BaseMovie[] = [
       },
       {
         name: 'Aaron Taylor-Johnson',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/641961-bullet-train-0-150-0-225-crop.jpg',
     releaseDate: '2022-08-05',
@@ -339,7 +348,7 @@ export const baseMoviesPage1: BaseMovie[] = [
       },
       {
         name: 'Jonah Hill',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/572255-don-t-look-up-0-150-0-225-crop.jpg',
     releaseDate: '2021-12-24',
@@ -359,7 +368,7 @@ export const baseMoviesPage1: BaseMovie[] = [
       },
       {
         name: 'Ryan Reynolds',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/441858-red-notice-0-150-0-225-crop.jpg',
     releaseDate: '2021-11-12',
@@ -553,7 +562,7 @@ export const baseMoviesPage1: BaseMovie[] = [
       },
       {
         name: 'Brad Pitt',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/snatch.jpg',
     releaseDate: '2000-09-01',
@@ -974,7 +983,7 @@ export const baseMoviesPage1: BaseMovie[] = [
   {
     title: 'EuroTrip',
     director: 'Jeff Schaffer',
-    actors: [{ name: 'Scott Mechlowicz' }],
+    actors: [{ name: 'Scott Mechlowicz' }, { name: 'Matt Damon' }],
     coverUrl: '/movies_pictures/47243-eurotrip-0-150-0-225-crop.jpg',
     releaseDate: '2004-02-20',
     length: 92,

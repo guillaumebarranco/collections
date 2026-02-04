@@ -25,7 +25,7 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       {
         name: 'Tom Hiddleston',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/avengers.jpg',
     releaseDate: '2012-05-04',
@@ -42,7 +42,7 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       {
         name: 'Chris Evans',
-      }
+      },
     ],
     coverUrl:
       '/movies_pictures/81605-avengers-age-of-ultron-0-150-0-225-crop.jpg',
@@ -60,7 +60,7 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       {
         name: 'Chris Evans',
-      }
+      },
     ],
     coverUrl:
       '/movies_pictures/226661-avengers-infinity-war-0-150-0-225-crop.jpg',
@@ -78,7 +78,7 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       {
         name: 'Chris Evans',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/226660-avengers-endgame-0-150-0-225-crop.jpg',
     releaseDate: '2019-04-26',
@@ -92,7 +92,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     actors: [
       {
         name: 'Chris Evans',
-      }
+      },
     ],
     coverUrl:
       '/movies_pictures/50809-captain-america-the-first-avenger-0-150-0-225-crop.jpg',
@@ -120,7 +120,7 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       {
         name: 'Robert Downey Jr.',
-      }
+      },
     ],
     coverUrl:
       '/movies_pictures/194402-captain-america-civil-war-0-150-0-225-crop.jpg',
@@ -138,7 +138,7 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       {
         name: 'Harrison Ford',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/captain_america_brave_new_world.webp',
     releaseDate: '2025-02-14',
@@ -158,7 +158,7 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       {
         name: 'Jon Favreau',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/50825-iron-man-0-150-0-225-crop.jpg',
     releaseDate: '2008-05-02',
@@ -172,7 +172,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     actors: [
       {
         name: 'Robert Downey Jr.',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/46511-iron-man-2-0-150-0-225-crop.jpg',
     releaseDate: '2010-05-07',
@@ -186,7 +186,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     actors: [
       {
         name: 'Robert Downey Jr.',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/iron_man_3.jpg',
     releaseDate: '2013-05-03',
@@ -203,7 +203,7 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       {
         name: 'Liv Tyler',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/50827-the-incredible-hulk-0-150-0-225-crop.jpg',
     releaseDate: '2008-06-13',
@@ -223,7 +223,7 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       {
         name: 'Tom Hiddleston',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/46456-thor-0-150-0-225-crop.jpg',
     releaseDate: '2011-05-06',
@@ -240,7 +240,7 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       {
         name: 'Nathalie Portman',
-      }
+      },
     ],
     coverUrl:
       '/movies_pictures/bnX5PqAdQZRXSw3aX3DutDcdso5-0-150-0-225-crop.jpg',
@@ -258,7 +258,7 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       {
         name: 'Mark Ruffalo',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/209382-thor-ragnarok-0-150-0-225-crop.jpg',
     releaseDate: '2017-11-03',
@@ -275,7 +275,7 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       {
         name: 'Nathalie Portman',
-      }
+      },
     ],
     coverUrl:
       '/movies_pictures/543002-thor-love-and-thunder-0-150-0-225-crop.jpg',
@@ -293,7 +293,7 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       {
         name: 'Samuel L. Jackson',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/226750-captain-marvel-0-150-0-225-crop.jpg',
     releaseDate: '2019-03-08',
@@ -307,7 +307,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     actors: [
       {
         name: 'Brie Larson',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/536970-the-marvels-0-150-0-225-crop.jpg',
     releaseDate: '2023-11-10',
@@ -396,7 +396,7 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       {
         name: 'Dave Bautista',
-      }
+      },
     ],
     coverUrl:
       '/movies_pictures/93676-guardians-of-the-galaxy-0-150-0-225-crop.jpg',
@@ -417,7 +417,10 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       {
         name: 'Dave Bautista',
-      }
+      },
+      {
+        name: 'Sylvester Stallone',
+      },
     ],
     coverUrl: '/movies_pictures/les_gardiens_de_la_galaxie_2.jpg',
     releaseDate: '2017-05-05',
@@ -437,7 +440,10 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       {
         name: 'Dave Bautista',
-      }
+      },
+      {
+        name: 'Sylvester Stallone',
+      },
     ],
     coverUrl:
       '/movies_pictures/379711-guardians-of-the-galaxy-volume-3-0-150-0-225-crop.jpg',
@@ -458,7 +464,7 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       {
         name: 'Michael Douglas',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/83557-ant-man-0-150-0-225-crop.jpg',
     releaseDate: '2015-07-17',
@@ -478,7 +484,7 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       {
         name: 'Michael Douglas',
-      }
+      },
     ],
     coverUrl:
       '/movies_pictures/296341-ant-man-and-the-wasp-0-150-0-225-crop.jpg',
@@ -499,7 +505,7 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       {
         name: 'Michael Douglas',
-      }
+      },
     ],
     coverUrl:
       '/movies_pictures/566237-ant-man-and-the-wasp-quantumania-0-150-0-225-crop.jpg',
@@ -520,7 +526,7 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       {
         name: 'Zendaya',
-      }
+      },
     ],
     coverUrl:
       '/movies_pictures/242710-spider-man-homecoming-0-150-0-225-crop.jpg',
@@ -544,7 +550,7 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       {
         name: 'Zendaya',
-      }
+      },
     ],
     coverUrl:
       '/movies_pictures/362977-spider-man-far-from-home-0-150-0-225-crop.jpg',
@@ -565,7 +571,7 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       {
         name: 'Zendaya',
-      }
+      },
     ],
     coverUrl:
       '/movies_pictures/560787-spider-man-no-way-home-0-150-0-225-crop.jpg',

@@ -96,7 +96,7 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Evasion',
     director: 'Mikael Håfström',
-    actors: [{ name: 'Sylvester Stallone' }],
+    actors: [{ name: 'Sylvester Stallone' }, { name: 'Arnold Schwarzenegger' }],
     coverUrl: '/movies_pictures/86856-escape-plan-0-150-0-225-crop.jpg',
     releaseDate: '2013-10-18',
     length: 115,
@@ -196,7 +196,7 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Expendables 2',
     director: 'Simon West',
-    actors: [{ name: 'Sylvester Stallone' }],
+    actors: [{ name: 'Sylvester Stallone' }, { name: 'Arnold Schwarzenegger' }],
     coverUrl: '/movies_pictures/62593-the-expendables-2-0-150-0-225-crop.jpg',
     releaseDate: '2012-08-17',
     length: 103,
@@ -467,7 +467,7 @@ export const baseMoviesPage4: BaseMovie[] = [
       },
       {
         name: 'Sharon Stone',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/basic_instinct.jpg',
     releaseDate: '1992-03-20',
@@ -514,7 +514,7 @@ export const baseMoviesPage4: BaseMovie[] = [
       },
       {
         name: 'Keanu Reeves',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/51157-point-break-0-150-0-225-crop.jpg',
     releaseDate: '1991-07-12',
@@ -591,7 +591,7 @@ export const baseMoviesPage4: BaseMovie[] = [
       },
       {
         name: 'Christian Clavier',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/45066-the-visitors-0-150-0-225-crop.jpg',
     releaseDate: '1993-01-27',
@@ -608,7 +608,7 @@ export const baseMoviesPage4: BaseMovie[] = [
       },
       {
         name: 'Wesley Snipes',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/46868-demolition-man-0-150-0-225-crop.jpg',
     releaseDate: '1993-10-08',
@@ -778,7 +778,7 @@ export const baseMoviesPage4: BaseMovie[] = [
       },
       {
         name: 'Morgan Freeman',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/18686447.jpg',
     releaseDate: '1994-09-23',
@@ -821,7 +821,7 @@ export const baseMoviesPage4: BaseMovie[] = [
       },
       {
         name: 'Jennifer Gardner',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/4623310.jpg',
     releaseDate: '2022-03-11',
@@ -859,7 +859,7 @@ export const baseMoviesPage4: BaseMovie[] = [
       },
       {
         name: 'Pierre Niney',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/20446783.jpg',
     releaseDate: '2013-02-20',
@@ -896,7 +896,7 @@ export const baseMoviesPage4: BaseMovie[] = [
       },
       {
         name: 'Ali Davis',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/5459039.webp',
     releaseDate: '2000-12-15',
@@ -916,7 +916,7 @@ export const baseMoviesPage4: BaseMovie[] = [
       },
       {
         name: 'Judith El Zein',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/4878496.jpg',
     releaseDate: '2023-07-18',
@@ -941,7 +941,7 @@ export const baseMoviesPage4: BaseMovie[] = [
     actors: [
       {
         name: 'Gal Gadot',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/agent-stone-affiche-francaise-1486123.webp',
     releaseDate: '2024-01-19',
@@ -1049,7 +1049,7 @@ export const baseMoviesPage4: BaseMovie[] = [
       },
       {
         name: 'Chris Pratt',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/91d914b62cd0ddfc76c549ccd619abce.webp',
     releaseDate: '2025-01-10',
@@ -1076,7 +1076,7 @@ export const baseMoviesPage4: BaseMovie[] = [
       },
       {
         name: 'Mel Gibson',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/bosslelvel.png',
     releaseDate: '2020-03-06',

@@ -82,7 +82,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     owned: false,
   },
   {
-    title: 'Escape Plan: The Extractors',
+    title: 'Evasion 3',
     director: 'John Herzfeld',
     rating: 2.5,
     timesWatched: 1,
@@ -142,7 +142,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     owned: false,
   },
   {
-    title: 'Escape Plan 2: Hades',
+    title: 'Evasion 2: Hades',
     director: 'Steven C. Miller',
     rating: 2.75,
     timesWatched: 1,

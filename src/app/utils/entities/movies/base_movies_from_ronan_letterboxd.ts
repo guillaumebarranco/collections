@@ -461,6 +461,9 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
         name: 'Leonardo DiCaprio',
       },
       {
+        name: 'Brad Pitt',
+      },
+      {
         name: 'Sean Penn',
       },
       {
@@ -9155,6 +9158,9 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     title: 'La Course au jouet',
     director: 'Brian Levant',
     actors: [
+      {
+        name: 'Arnold Schwarzenegger',
+      },
       {
         name: 'Jeff Goldblum',
       },
