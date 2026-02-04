@@ -1062,7 +1062,11 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Brothers',
     director: 'Jim Sheridan',
-    actors: [{ name: 'Tobey Maguire' }],
+    actors: [
+      { name: 'Tobey Maguire' },
+      { name: 'Jake Gyllenhaal' },
+      { name: 'Natalie Portman' },
+    ],
     coverUrl: '/movies_pictures/48031-brothers-0-150-0-225-crop.jpg',
     releaseDate: '2009-12-04',
     length: 105,

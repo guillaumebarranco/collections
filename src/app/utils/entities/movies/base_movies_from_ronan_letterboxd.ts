@@ -6985,20 +6985,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
   },
   {
-    title: 'Un jour',
-    director: 'Lone Scherfig',
-    actors: [
-      {
-        name: 'Anne Hathaway',
-      },
-    ],
-    coverUrl: '/movies_pictures/one_day.jpg',
-    releaseDate: '2011-08-24',
-    length: 108,
-    genre: 'Drame',
-    saga: '',
-  },
-  {
     title: 'Sex Friends',
     director: 'Ivan Reitman',
     actors: [
@@ -7887,20 +7873,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Saw',
   },
   {
-    title: 'Les Infiltrés',
-    director: 'Martin Scorsese',
-    actors: [
-      {
-        name: 'Leonardo DiCaprio',
-      },
-    ],
-    coverUrl: '/movies_pictures/the_departed.jpg',
-    releaseDate: '2006-11-29',
-    length: 150,
-    genre: 'Thriller',
-    saga: '',
-  },
-  {
     title: "Les Fils de l'homme",
     director: 'Alfonso Cuarón',
     actors: [
@@ -8128,13 +8100,16 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     director: 'Ang Lee',
     actors: [
       {
-        name: 'Johnny Depp',
+        name: 'Heath Ledger',
       },
       {
-        name: 'Helena Bonham Carter',
+        name: 'Anne Hathaway',
       },
       {
-        name: 'Emily Watson',
+        name: 'Michelle Williams',
+      },
+      {
+        name: 'Jake Gyllenhaal',
       },
     ],
     coverUrl: '/movies_pictures/brokeback_mountain.jpg',

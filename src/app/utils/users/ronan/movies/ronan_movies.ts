@@ -7373,7 +7373,7 @@ export const ronanMovies: UserMovies = [
     owned: false,
   },
   {
-    title: "L'Avocat du Diable",
+    title: "L'Associé du diable",
     director: 'Taylor Hackford',
     rating: 3,
     timesWatched: 1,

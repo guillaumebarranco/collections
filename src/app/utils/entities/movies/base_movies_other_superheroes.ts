@@ -77,7 +77,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: 'X-men 2',
     director: 'Bryan Singer',
-    actors: [{ name: 'Patrick Stewart' }],
+    actors: [{ name: 'Patrick Stewart' }, { name: 'Hugh Jackman' }],
     coverUrl: '/movies_pictures/xmen2-poster-0-150-0-225-crop.jpg',
     releaseDate: '2003-05-02',
     length: 134,
@@ -87,7 +87,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: "X-Men : L'Affrontement Final",
     director: 'Brett Ratner',
-    actors: [{ name: 'Hugh Jackman' }],
+    actors: [{ name: 'Hugh Jackman' }, { name: 'Patrick Stewart' }],
     coverUrl:
       '/movies_pictures/27713-x-men-the-last-stand-0-150-0-225-crop.jpg',
     releaseDate: '2006-05-26',

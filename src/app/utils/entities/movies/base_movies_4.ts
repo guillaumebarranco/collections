@@ -56,7 +56,11 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Prisoners',
     director: 'Denis Villeneuve',
-    actors: [{ name: 'Hugh Jackman' }],
+    actors: [
+      { name: 'Hugh Jackman' },
+      { name: 'Jake Gyllenhaal' },
+      { name: 'Paul Dano' },
+    ],
     coverUrl: '/movies_pictures/prisoners.jpg',
     releaseDate: '2013-09-20',
     length: 153,
@@ -166,7 +170,7 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Django Unchained',
     director: 'Quentin Tarantino',
-    actors: [{ name: 'Jamie Foxx' }],
+    actors: [{ name: 'Jamie Foxx' }, { name: 'Leonardo DiCaprio' }],
     coverUrl: '/movies_pictures/52516-django-unchained-0-150-0-225-crop.jpg',
     releaseDate: '2012-12-25',
     length: 165,

@@ -703,7 +703,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     owned: false,
   },
   {
-    title: "L'Avocat du Diable",
+    title: "L'Associé du diable",
     director: 'Taylor Hackford',
     rating: 3.25,
     timesWatched: 1,

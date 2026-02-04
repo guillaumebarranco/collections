@@ -562,7 +562,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     saga: 'Astérix',
   },
   {
-    title: "L'Avocat du Diable",
+    title: "L'Associé du diable",
     director: 'Taylor Hackford',
     actors: [{ name: 'Keanu Reeves' }],
     coverUrl:
@@ -718,7 +718,7 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Le Prestige',
     director: 'Christopher Nolan',
-    actors: [{ name: 'Christian Bale' }],
+    actors: [{ name: 'Christian Bale' }, { name: 'Hugh Jackman' }],
     coverUrl: '/movies_pictures/51147-the-prestige-0-150-0-225-crop.jpg',
     releaseDate: '2006-10-20',
     length: 130,
