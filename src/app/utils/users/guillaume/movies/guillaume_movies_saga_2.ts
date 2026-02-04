@@ -942,7 +942,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
   },
   {
-    title: "Avatar 2 : La Voie de l'Eau",
+    title: "Avatar : La Voie de l'Eau",
     director: 'James Cameron',
     rating: 3.5,
     timesWatched: 1,

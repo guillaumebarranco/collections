@@ -669,12 +669,16 @@ export const baseMoviesAnimated: BaseMovie[] = [
     title: 'Pinocchio',
     director:
       'Norman Ferguson, T. Hee, Wilfred Jackson, Jack Kinney, Hamilton Luske, Bill Roberts, Ben Sharpsteen',
-    actors: [{ name: 'Dickie Jones' }],
+    actors: [
+      {
+        name: 'Dickie Jones',
+      }
+    ],
     coverUrl: '/movies_pictures/45797-pinocchio-0-150-0-225-crop.jpg',
     releaseDate: '1940-02-07',
     length: 88,
     genre: 'Animation',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Megamind',

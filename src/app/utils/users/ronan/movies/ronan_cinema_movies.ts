@@ -3024,7 +3024,7 @@ export const ronanCinemaMovies: UserMovies = [
     owned: false,
   },
   {
-    title: "Avatar 2 : La Voie de l'Eau",
+    title: "Avatar : La Voie de l'Eau",
     director: 'James Cameron',
     rating: 4, // Avatar: The Way of Water (2022) ★★★★
     timesWatched: 2,

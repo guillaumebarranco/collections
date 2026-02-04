@@ -1246,12 +1246,12 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     saga: 'Avatar',
   },
   {
-    title: "Avatar 2 : La Voie de l'Eau",
+    title: "Avatar : La Voie de l'Eau",
     director: 'James Cameron',
     actors: [
       {
         name: 'Sam Worthington',
-      },
+      }
     ],
     coverUrl:
       '/movies_pictures/63058-avatar-the-way-of-water-0-150-0-225-crop.jpg',

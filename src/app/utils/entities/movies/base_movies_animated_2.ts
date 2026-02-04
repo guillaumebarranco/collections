@@ -86,12 +86,19 @@ export const baseMoviesAnimated2: BaseMovie[] = [
   {
     title: 'Fantasia',
     director: 'James Algar, Samuel Armstrong',
-    actors: [{ name: 'Deems Taylor' }, { name: 'Leopold Stokowski' }],
+    actors: [
+      {
+        name: 'Deems Taylor',
+      },
+      {
+        name: 'Leopold Stokowski',
+      }
+    ],
     coverUrl: '/movies_pictures/71MQJ6N1H9L._AC_UF894,1000_QL80_.jpg',
     releaseDate: '1940-11-13',
     length: 124,
     genre: 'Animation, Musical',
-    saga: '',
+    saga: 'Disney Classique',
   },
   {
     title: 'Alice au pays des merveilles',
