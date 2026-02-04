@@ -139,7 +139,7 @@ export class AddMovieComponent {
       .filter((actor) => actor.length > 0);
   }
 
-  private getUserId(): string {
+  getUserId(): string {
     return this.dialogData?.userId || 'guillaume';
   }
 

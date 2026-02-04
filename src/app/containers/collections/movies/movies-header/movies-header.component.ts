@@ -30,7 +30,6 @@ import { MatDialog, MatDialogModule } from '@angular/material/dialog';
     SortDropdownComponent,
     StatsDisplayComponent,
     MatDialogModule,
-    AddMovieComponent,
   ],
   templateUrl: './movies-header.component.html',
   styleUrls: ['./movies-header.component.scss'],
