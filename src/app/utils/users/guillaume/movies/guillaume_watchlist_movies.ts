@@ -10,6 +10,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Cruella',
@@ -20,6 +21,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Pokémon : Détective Pikachu',
@@ -30,6 +32,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'The Greatest Showman',
@@ -40,9 +43,10 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
-    title: 'Le Crime de l\'Orient-Express',
+    title: "Le Crime de l'Orient-Express",
     director: 'Kenneth Branagh',
     rating: 0,
     timesWatched: 0,
@@ -50,6 +54,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'About Time',
@@ -60,6 +65,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Sherlock Holmes',
@@ -70,6 +76,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Là-haut',
@@ -80,9 +87,10 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
-    title: 'L\'Étrange Histoire de Benjamin Button',
+    title: "L'Étrange Histoire de Benjamin Button",
     director: 'David Fincher',
     rating: 0,
     timesWatched: 0,
@@ -90,6 +98,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Constantine',
@@ -100,6 +109,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Aviator',
@@ -110,6 +120,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'La Planète au trésor',
@@ -120,6 +131,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Insomnia',
@@ -130,9 +142,10 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
-    title: 'Atlantis : L\'Empire perdu',
+    title: "Atlantis : L'Empire perdu",
     director: 'Gary Trousdale, Kirk Wise',
     rating: 0,
     timesWatched: 0,
@@ -140,6 +153,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Moulin Rouge !',
@@ -150,6 +164,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Titanic',
@@ -160,6 +175,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Gattaca',
@@ -170,6 +186,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'The Blues Brothers',
@@ -180,6 +197,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Vice-Versa 2',
@@ -190,6 +208,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Borat',
@@ -200,6 +219,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Furiosa',
@@ -210,6 +230,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Mad Max: Fury Road',
@@ -220,6 +241,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Atonement',
@@ -230,6 +252,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'The Worst Person in the World',
@@ -240,9 +263,10 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
-    title: 'L\'amour au présent',
+    title: "L'amour au présent",
     director: 'John Crowley',
     rating: 0,
     timesWatched: 0,
@@ -250,6 +274,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Sinners',
@@ -260,6 +285,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Novocaine',
@@ -270,6 +296,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Companion',
@@ -280,6 +307,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Princess Cursed in Time',
@@ -290,6 +318,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Predestination',
@@ -300,6 +329,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Triangle',
@@ -310,6 +340,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Looper',
@@ -320,6 +351,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Philadelphia',
@@ -330,6 +362,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Sully',
@@ -340,6 +373,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Seul sur Mars',
@@ -350,6 +384,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Uncut Gems',
@@ -360,6 +395,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Once Upon a Time in Hollywood',
@@ -370,9 +406,10 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
-    title: 'À tous les garçons que j\'ai aimés',
+    title: "À tous les garçons que j'ai aimés",
     director: 'Susan Johnson',
     rating: 0,
     timesWatched: 0,
@@ -380,6 +417,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Avatar : De feu et de cendres',
@@ -390,6 +428,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le Robot sauvage',
@@ -400,6 +439,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Running Man',
@@ -410,6 +450,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'The Whale',
@@ -420,6 +461,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Les Nouveaux Mutants',
@@ -430,6 +472,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Ballerina',
@@ -440,8 +483,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
-  }
-,
+    wantToSeeAgain: false,
+  },
   {
     title: 'Le Mans 66',
     director: 'James Mangold',
@@ -451,5 +494,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
 ];

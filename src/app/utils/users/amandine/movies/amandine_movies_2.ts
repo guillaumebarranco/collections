@@ -10,6 +10,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Wicked',
@@ -20,6 +21,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Wonka',
@@ -30,6 +32,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Élémentaire',
@@ -40,6 +43,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'La Petite Sirène',
@@ -50,6 +54,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "Donjons & Dragons : L'Honneur des voleurs",
@@ -60,6 +65,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Il était une fois 2',
@@ -70,6 +76,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Pinocchio',
@@ -80,6 +87,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Blonde',
@@ -90,6 +98,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Elvis',
@@ -100,6 +109,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Downton Abbey II : Une nouvelle ère',
@@ -110,6 +120,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Morbius',
@@ -120,6 +131,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Mort sur le Nil',
@@ -130,6 +142,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "The King's Man : Première mission",
@@ -140,6 +153,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'West Side Story',
@@ -150,6 +164,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Cendrillon',
@@ -160,6 +175,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "He's All That",
@@ -170,6 +186,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "S.O.S. Fantômes : L'Héritage",
@@ -180,6 +197,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Jungle Cruise',
@@ -190,6 +208,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Old',
@@ -200,6 +219,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Luca',
@@ -210,6 +230,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Cruella',
@@ -220,6 +241,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'À tous les garçons : Pour toujours et à jamais',
@@ -230,6 +252,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Sacrées sorcières',
@@ -240,6 +263,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: '2 Hearts',
@@ -250,6 +274,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Rebecca',
@@ -260,6 +285,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'The Kissing Booth 2',
@@ -270,6 +296,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Hollywood',
@@ -280,6 +307,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Love Wedding Repeat',
@@ -290,6 +318,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Emma.',
@@ -300,6 +329,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "À tous les garçons : P.S. Je t'aime toujours",
@@ -310,6 +340,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: '1917',
@@ -320,6 +351,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'The Gentlemen',
@@ -330,6 +362,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'La Belle et le Clochard',
@@ -340,6 +373,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'La Reine des neiges 2',
@@ -350,6 +384,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Klaus',
@@ -360,6 +395,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Maléfique : Le Pouvoir du Mal',
@@ -370,6 +406,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'The King',
@@ -380,6 +417,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Parasite',
@@ -390,6 +428,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Rocketman',
@@ -400,6 +439,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Pokémon : Détective Pikachu',
@@ -410,6 +450,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Dumbo',
@@ -420,6 +461,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le Retour de Mary Poppins',
@@ -430,6 +472,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Bohemian Rhapsody',
@@ -440,6 +483,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Mamma Mia! Here We Go Again',
@@ -450,6 +494,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Jurassic World: Fallen Kingdom',
@@ -460,6 +505,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'BlacKkKlansman',
@@ -470,6 +516,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Tomb Raider',
@@ -480,6 +527,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Pitch Perfect 3',
@@ -490,6 +538,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'The Greatest Showman',
@@ -500,6 +549,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Jumanji : Bienvenue dans la jungle',
@@ -510,6 +560,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Paddington 2',
@@ -520,6 +571,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "Le Crime de l'Orient-Express",
@@ -530,6 +582,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Pirates des Caraïbes : La Vengeance de Salazar',
@@ -540,6 +593,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Miss Peregrine et les Enfants particuliers',
@@ -550,6 +604,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Lion',
@@ -560,6 +615,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Piper',
@@ -570,6 +626,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Warcraft',
@@ -580,6 +637,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le Livre de la jungle',
@@ -590,6 +648,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Zootopie',
@@ -600,6 +659,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le Nouveau Stagiaire',
@@ -610,6 +670,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Jurassic World',
@@ -620,6 +681,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Pitch Perfect 2',
@@ -630,6 +692,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Cendrillon',
@@ -640,6 +703,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Paddington',
@@ -650,6 +714,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Big Eyes',
@@ -660,6 +725,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'The Lego Movie',
@@ -670,6 +736,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'La Reine des Neiges',
@@ -680,6 +747,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Snowpiercer',
@@ -690,6 +758,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'About Time',
@@ -700,6 +769,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Monsters University',
@@ -710,6 +780,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Gatsby le Magnifique',
@@ -720,6 +791,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "Le Monde fantastique d'Oz",
@@ -730,6 +802,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Warm Bodies',
@@ -740,6 +813,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Les Misérables',
@@ -750,6 +824,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le Hobbit : Un voyage inattendu',
@@ -760,6 +835,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Pitch Perfect',
@@ -770,6 +846,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Hôtel Transylvanie',
@@ -780,6 +857,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Ted',
@@ -790,6 +868,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Dark Shadows',
@@ -800,6 +879,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le Chat Potté',
@@ -810,6 +890,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Les Aventures de Tintin',
@@ -820,6 +901,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Hugo',
@@ -830,6 +912,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'La Planète des singes : Les Origines',
@@ -840,6 +923,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Kung Fu Panda 2',
@@ -850,6 +934,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Minuit à Paris',
@@ -860,6 +945,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Rio',
@@ -870,6 +956,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Rango',
@@ -880,6 +967,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Raiponce',
@@ -890,6 +978,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Little White Lies',
@@ -900,6 +989,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Arrietty, le petit monde des chapardeurs',
@@ -910,6 +1000,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "L'Apprenti sorcier",
@@ -920,6 +1011,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Percy Jackson : Le Voleur de Foudre',
@@ -930,6 +1022,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Sherlock Holmes',
@@ -940,6 +1033,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Lovely Bones',
@@ -950,6 +1044,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "Jennifer's Body",
@@ -960,6 +1055,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'District 9',
@@ -970,6 +1066,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Orphan',
@@ -980,6 +1077,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Public Enemies',
@@ -990,6 +1088,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'La proposition',
@@ -1000,6 +1099,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Là-haut',
@@ -1010,6 +1110,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Coraline',
@@ -1020,6 +1121,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Bride Wars',
@@ -1030,6 +1132,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "L'Étrange Histoire de Benjamin Button",
@@ -1040,6 +1143,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Bolt',
@@ -1050,6 +1154,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Madagascar 2',
@@ -1060,6 +1165,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Ponyo',
@@ -1070,6 +1176,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Mamma Mia!',
@@ -1080,6 +1187,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le Monde de Narnia : Le Prince Caspian',
@@ -1090,6 +1198,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Sex and the City',
@@ -1100,6 +1209,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: '27 Robes',
@@ -1110,6 +1220,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Alvin et les Chipmunks',
@@ -1120,6 +1231,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Sweeney Todd : Le Diabolique Barbier de Fleet Street',
@@ -1130,6 +1242,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Enchanted',
@@ -1140,6 +1253,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'P.S. I Love You',
@@ -1150,6 +1264,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Stardust',
@@ -1160,6 +1275,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Hairspray',
@@ -1170,6 +1286,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le Secret de Terabithia',
@@ -1180,6 +1297,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Happy Feet',
@@ -1190,6 +1308,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le Labyrinthe de Pan',
@@ -1200,6 +1319,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Marie Antoinette',
@@ -1210,6 +1330,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Les Noces funèbres',
@@ -1220,6 +1341,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Madagascar',
@@ -1230,6 +1352,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Constantine',
@@ -1240,6 +1363,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Aviator',
@@ -1250,6 +1374,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Les déstreuses aventures des Orphelins Baudelaire',
@@ -1260,6 +1385,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Benjamin Gates et le Trésor des Templiers',
@@ -1270,6 +1396,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Mulan 2',
@@ -1280,6 +1407,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'The Princess Diaries 2: Royal Engagement',
@@ -1290,6 +1418,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Mickey, Donald, Dingo : Les Trois Mousquetaires',
@@ -1300,6 +1429,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le Village',
@@ -1310,6 +1440,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Comme Cendrillon',
@@ -1320,6 +1451,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Troy',
@@ -1330,6 +1462,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Lolita malgré moi',
@@ -1340,6 +1473,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: '30 ans sinon rien',
@@ -1350,6 +1484,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Ella au pays enchanté',
@@ -1360,6 +1495,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Une nana au poil',
@@ -1370,6 +1506,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Big Fish',
@@ -1380,6 +1517,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le Manoir hanté et les 999 Fantômes',
@@ -1390,6 +1528,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le Dernier Samouraï',
@@ -1400,6 +1539,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Frère des ours',
@@ -1410,6 +1550,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'George de la Jungle 2',
@@ -1420,6 +1561,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Un vendredi dingue, dingue, dingue',
@@ -1430,6 +1572,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "Comment se débarrasser d'un mec en 10 jours",
@@ -1440,6 +1583,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Thirteen',
@@ -1450,6 +1594,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Chicago',
@@ -1460,6 +1605,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'La Planète au trésor',
@@ -1470,6 +1616,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Tuck Everlasting',
@@ -1480,6 +1627,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: '8 Mile',
@@ -1490,6 +1638,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le Royaume des chats',
@@ -1500,6 +1649,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Lilo et Stitch',
@@ -1510,6 +1660,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Insomnia',
@@ -1520,6 +1671,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Princesse malgré elle',
@@ -1530,6 +1682,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'The Others',
@@ -1540,6 +1693,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'La Planète des singes',
@@ -1550,6 +1704,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le Voyage de Chihiro',
@@ -1560,6 +1715,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "La Revanche d'une blonde",
@@ -1570,6 +1726,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'A.I. Intelligence artificielle',
@@ -1580,6 +1737,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "Atlantis : L'Empire perdu",
@@ -1590,6 +1748,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Moulin Rouge !',
@@ -1600,6 +1759,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le Journal de Bridget Jones',
@@ -1610,6 +1770,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "Kuzco, l'Empereur mégalo",
@@ -1620,6 +1781,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le Grinch',
@@ -1630,6 +1792,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Drôles de dames',
@@ -1640,6 +1803,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Mon beau-père et moi',
@@ -1650,6 +1814,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Chicken Run',
@@ -1660,6 +1825,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Billy Elliot',
@@ -1670,6 +1836,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Dinosaure',
@@ -1680,6 +1847,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "La Route d'Eldorado",
@@ -1690,6 +1858,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "La Petite Sirène 2 : Retour à l'océan",
@@ -1700,6 +1869,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Fantasia 2000',
@@ -1710,6 +1880,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Stuart Little',
@@ -1720,6 +1891,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Sleepy Hollow',
@@ -1730,6 +1902,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Fight Club',
@@ -1740,6 +1913,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: '10 bonnes raisons de te larguer',
@@ -1750,6 +1924,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Elle est trop bien',
@@ -1760,6 +1935,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "Le Prince d'Égypte",
@@ -1770,6 +1946,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: '1001 Pattes',
@@ -1780,6 +1957,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "Le Roi Lion 2 : L'Honneur de la tribu",
@@ -1790,6 +1968,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Pocahontas 2 : Un monde nouveau',
@@ -1800,6 +1979,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'À nous quatre',
@@ -1810,6 +1990,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Mary à tout prix',
@@ -1820,6 +2001,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le Monde magique de la Belle et la Bête',
@@ -1830,6 +2012,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Flubber',
@@ -1840,6 +2023,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Anastasia',
@@ -1850,6 +2034,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Titanic',
@@ -1860,6 +2045,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Tower of Terror',
@@ -1870,6 +2056,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "Souviens-toi... l'été dernier",
@@ -1880,6 +2067,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Gattaca',
@@ -1890,6 +2078,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Face/Off',
@@ -1900,6 +2089,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le Monde perdu : Jurassic Park',
@@ -1910,6 +2100,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Austin Powers',
@@ -1920,6 +2111,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Mars Attacks !',
@@ -1930,6 +2122,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Les 101 Dalmatiens',
@@ -1940,6 +2133,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Roméo + Juliette',
@@ -1950,6 +2144,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Matilda',
@@ -1960,6 +2155,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le Bossu de Notre-Dame',
@@ -1970,6 +2166,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'James et la Pêche géante',
@@ -1980,6 +2177,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'GoldenEye',
@@ -1990,6 +2188,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Casper',
@@ -2000,6 +2199,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Braveheart',
@@ -2010,6 +2210,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Super Noël',
@@ -2020,6 +2221,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Entretien avec un vampire',
@@ -2030,6 +2232,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le retour de Jafar',
@@ -2040,6 +2243,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Ace Ventura: Détective pour chiens et chats',
@@ -2050,6 +2254,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "L'Étrange Noël de monsieur Jack",
@@ -2060,6 +2265,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Un jour sans fin',
@@ -2070,6 +2276,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: '3 Ninjas',
@@ -2080,6 +2287,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Strictly Ballroom',
@@ -2090,6 +2298,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'JFK',
@@ -2100,6 +2309,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'La Famille Addams',
@@ -2110,6 +2320,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Hook ou la Revanche du capitaine Crochet',
@@ -2120,6 +2331,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "Edward aux mains d'argent",
@@ -2130,6 +2342,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Ghost',
@@ -2140,6 +2353,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Kiki la petite sorcière',
@@ -2150,6 +2364,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Indiana Jones et la Dernière Croisade',
@@ -2160,6 +2375,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Oliver et Compagnie',
@@ -2170,6 +2386,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le Tombeau des lucioles',
@@ -2180,6 +2397,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Mon voisin Totoro',
@@ -2190,6 +2408,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Beetlejuice',
@@ -2200,6 +2419,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le Château dans le ciel',
@@ -2210,6 +2430,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Labyrinthe',
@@ -2220,6 +2441,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Gremlins',
@@ -2230,6 +2452,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'S.O.S. Fantômes',
@@ -2240,6 +2463,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Indiana Jones et le Temple maudit',
@@ -2250,6 +2474,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Nausicaä de la Vallée du Vent',
@@ -2260,6 +2485,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Grease 2',
@@ -2270,6 +2496,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'The Blues Brothers',
@@ -2280,6 +2507,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Halloween',
@@ -2290,6 +2518,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Grease',
@@ -2300,6 +2529,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le Livre de la jungle',
@@ -2310,6 +2540,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'La Mélodie du bonheur',
@@ -2320,6 +2551,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Mary Poppins',
@@ -2330,6 +2562,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Les Parapluies de Cherbourg',
@@ -2340,6 +2573,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'West Side Story',
@@ -2350,6 +2584,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'La Belle au bois dormant',
@@ -2360,6 +2595,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'La Belle et le Clochard',
@@ -2370,6 +2606,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Vacances romaines',
@@ -2380,6 +2617,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Chantons sous la pluie',
@@ -2390,6 +2628,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Alice au pays des merveilles',
@@ -2400,6 +2639,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Cendrillon',
@@ -2410,6 +2650,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Pierre et le Loup',
@@ -2420,6 +2661,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Les Trois Caballeros',
@@ -2430,6 +2672,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Saludos Amigos',
@@ -2440,6 +2683,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Bambi',
@@ -2450,6 +2694,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Dumbo',
@@ -2460,6 +2705,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Fantasia',
@@ -2470,6 +2716,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "Le Magicien d'Oz",
@@ -2480,6 +2727,7 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Blanche-Neige et les Sept Nains',
@@ -2490,5 +2738,6 @@ export const amandineMovies2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
 ];

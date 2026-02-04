@@ -28,6 +28,7 @@ type EditMovieForm = {
   lastViewedDate: string;
   seenAtCinema: boolean;
   owned: boolean;
+  wantToSeeAgain: boolean;
 };
 
 type EditMovieEntityForm = {
@@ -154,7 +155,7 @@ export class EditMovieComponent {
     });
   }
 
-  updateCheckbox(field: 'seenAtCinema' | 'owned', checked: boolean) {
+  updateCheckbox(field: 'seenAtCinema' | 'owned' | 'wantToSeeAgain', checked: boolean) {
     const current = this.movieForm();
     if (!current) return;
     this.movieForm.set({
@@ -229,6 +230,7 @@ export class EditMovieComponent {
           lastViewedDate: form.lastViewedDate,
           seenAtCinema: form.seenAtCinema,
           owned: form.owned,
+          wantToSeeAgain: form.wantToSeeAgain,
           entity: this.isAdminView()
             ? this.toEntityPayload(this.movieEntityForm())
             : undefined,
@@ -425,6 +427,7 @@ export class EditMovieComponent {
       lastViewedDate: movie.lastViewedDate,
       seenAtCinema: movie.seenAtCinema,
       owned: movie.owned,
+      wantToSeeAgain: movie.wantToSeeAgain ?? false,
     };
   }
 

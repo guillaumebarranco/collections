@@ -10,6 +10,7 @@ export const guillaumeMoviesDc: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Batman',
@@ -20,6 +21,7 @@ export const guillaumeMoviesDc: UserMovies = [
     lastViewedDate: '2017-07-14',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Batman Returns',
@@ -30,6 +32,7 @@ export const guillaumeMoviesDc: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Batman Forever',
@@ -40,6 +43,7 @@ export const guillaumeMoviesDc: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Batman & Robin',
@@ -50,6 +54,7 @@ export const guillaumeMoviesDc: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Batman Begins',
@@ -60,6 +65,7 @@ export const guillaumeMoviesDc: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'The Dark Knight : Le Chevalier Noir',
@@ -70,6 +76,7 @@ export const guillaumeMoviesDc: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'The Dark Knight Rises',
@@ -80,6 +87,7 @@ export const guillaumeMoviesDc: UserMovies = [
     lastViewedDate: '2012-07-20',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'The Batman',
@@ -90,6 +98,7 @@ export const guillaumeMoviesDc: UserMovies = [
     lastViewedDate: '2025-05-04',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "Batman v Superman : L'Aube de la Justice",
@@ -100,6 +109,7 @@ export const guillaumeMoviesDc: UserMovies = [
     lastViewedDate: '2016-03-25',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Shazam!',
@@ -110,6 +120,7 @@ export const guillaumeMoviesDc: UserMovies = [
     lastViewedDate: '2022-05-04',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Aquaman',
@@ -120,6 +131,7 @@ export const guillaumeMoviesDc: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Black Adam',
@@ -130,6 +142,7 @@ export const guillaumeMoviesDc: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Justice League',
@@ -140,6 +153,7 @@ export const guillaumeMoviesDc: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "Zack Snyder's Justice League",
@@ -150,6 +164,7 @@ export const guillaumeMoviesDc: UserMovies = [
     lastViewedDate: '2021-03-18',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Suicide Squad',
@@ -160,6 +175,7 @@ export const guillaumeMoviesDc: UserMovies = [
     lastViewedDate: '2016-08-10',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Man of Steel',
@@ -170,6 +186,7 @@ export const guillaumeMoviesDc: UserMovies = [
     lastViewedDate: '2013-06-14',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Superman',
@@ -180,6 +197,7 @@ export const guillaumeMoviesDc: UserMovies = [
     lastViewedDate: '2025-07-13',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Watchmen : Les Gardiens',
@@ -190,6 +208,7 @@ export const guillaumeMoviesDc: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Catwoman',
@@ -200,6 +219,7 @@ export const guillaumeMoviesDc: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Wonder Woman',
@@ -210,6 +230,7 @@ export const guillaumeMoviesDc: UserMovies = [
     lastViewedDate: '2017-06-07',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Wonder Woman 1984',
@@ -220,6 +241,7 @@ export const guillaumeMoviesDc: UserMovies = [
     lastViewedDate: '2021-05-08',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'The Flash',
@@ -230,6 +252,7 @@ export const guillaumeMoviesDc: UserMovies = [
     lastViewedDate: '2024-02-20',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Birds of Prey',
@@ -240,5 +263,6 @@ export const guillaumeMoviesDc: UserMovies = [
     lastViewedDate: '2023-06-20',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
 ];

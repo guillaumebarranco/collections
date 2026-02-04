@@ -10,6 +10,7 @@ export const williamMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Cars 2',
@@ -20,6 +21,7 @@ export const williamMovies: UserMovies = [
     lastViewedDate: '2025-11-23',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Cars 3',
@@ -30,6 +32,7 @@ export const williamMovies: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Planes',
@@ -40,6 +43,7 @@ export const williamMovies: UserMovies = [
     lastViewedDate: '2025-08-14',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Planes 2',
@@ -50,6 +54,7 @@ export const williamMovies: UserMovies = [
     lastViewedDate: '2025-09-14',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le monde de Nemo',
@@ -60,6 +65,7 @@ export const williamMovies: UserMovies = [
     lastViewedDate: '2025-09-23',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le monde de Dory',
@@ -70,6 +76,7 @@ export const williamMovies: UserMovies = [
     lastViewedDate: '2025-10-23',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Ratatouille',
@@ -80,6 +87,7 @@ export const williamMovies: UserMovies = [
     lastViewedDate: '2025-08-23',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Zootopie',
@@ -90,5 +98,6 @@ export const williamMovies: UserMovies = [
     lastViewedDate: '2025-12-27',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
 ];

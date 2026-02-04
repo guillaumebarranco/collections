@@ -21,6 +21,7 @@ export interface UserMovie extends MandatoryMovieData {
   lastViewedDate: string;
   seenAtCinema: boolean;
   owned: boolean;
+  wantToSeeAgain: boolean;
 }
 
 export type UserMovies = UserMovie[];

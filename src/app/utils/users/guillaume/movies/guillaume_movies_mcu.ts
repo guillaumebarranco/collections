@@ -10,6 +10,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '2012-05-04',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "Avengers : L'Ère d'Ultron",
@@ -20,6 +21,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '2015-05-01',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Avengers: Infinity War',
@@ -30,6 +32,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '2018-04-26',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Avengers: Endgame',
@@ -40,6 +43,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '2019-04-25',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Captain America : First Avenger',
@@ -50,6 +54,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "Captain America : Le Soldat de l'Hiver",
@@ -60,6 +65,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '2014-04-09',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Captain America : Civil War',
@@ -70,6 +76,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '2016-05-06',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Captain America: Brave New World',
@@ -80,6 +87,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '2025-06-14',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Iron Man',
@@ -90,6 +98,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Iron Man 2',
@@ -100,6 +109,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '2010-05-12',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Iron Man 3',
@@ -110,6 +120,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '2013-05-03',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "L'Incroyable Hulk",
@@ -120,6 +131,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Thor',
@@ -130,6 +142,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Thor: The Dark World',
@@ -140,6 +153,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Thor: Ragnarok',
@@ -150,6 +164,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Thor : Love & Thunder',
@@ -160,6 +175,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Captain Marvel',
@@ -170,6 +186,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '2019-03-13',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Les Marvels',
@@ -180,6 +197,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '2025-05-10',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Shang-Chi et la Légende des Dix Anneaux',
@@ -190,6 +208,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Doctor Strange',
@@ -200,6 +219,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '2016-03-04',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Doctor Strange dans le Multivers de la Folie',
@@ -210,6 +230,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Black Panther',
@@ -220,6 +241,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '2018-02-16',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Black Panther : Wakanda pour Toujours',
@@ -230,6 +252,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '2022-11-16',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Les Gardiens de la Galaxie',
@@ -240,6 +263,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '2014-08-25',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Les Gardiens de la Galaxie Vol. 2',
@@ -250,6 +274,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Les Gardiens de la Galaxie Vol. 3',
@@ -260,6 +285,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Ant-Man',
@@ -270,6 +296,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '2015-07-22',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Ant-Man et la Guêpe',
@@ -280,6 +307,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Ant-Man et la Guêpe : Quantumania',
@@ -290,6 +318,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Spider-Man: Homecoming',
@@ -300,6 +329,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '2017-07-07',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Spider-Man: Far From Home',
@@ -310,6 +340,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '2019-07-02',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Spider-Man : No Way Home',
@@ -320,6 +351,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '2021-12-17',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Black Widow',
@@ -330,6 +362,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Les Éternels',
@@ -340,6 +373,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Deadpool et Wolverine',
@@ -350,5 +384,6 @@ export const guillaumeMoviesMcu: UserMovies = [
     lastViewedDate: '2025-04-26',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
 ];

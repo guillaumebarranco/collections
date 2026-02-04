@@ -83,6 +83,8 @@ export class MoviesHeaderComponent {
       ? 'Recommandations'
       : this.selectedView() === 'owned'
       ? 'Films possédés'
+      : this.selectedView() === 'toReWatch'
+      ? 'Films à revoir'
       : 'Films visionnés';
   });
 

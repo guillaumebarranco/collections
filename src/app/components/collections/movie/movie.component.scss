@@ -20,10 +20,6 @@
   @include components.component-date-base;
 }
 
-.recommendation-text {
-  color: green;
-}
-
 .movie-times-watched {
   @include components.component-times-base;
 }

@@ -10,6 +10,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '2016-02-12',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Deadpool 2',
@@ -20,6 +21,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '2018-05-18',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Daredevil',
@@ -30,6 +32,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'X-Men',
@@ -40,6 +43,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'X-men 2',
@@ -50,6 +54,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "X-Men : L'Affrontement Final",
@@ -60,6 +65,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '2006-05-31',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'X-Men Origins : Wolverine',
@@ -70,6 +76,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'The Wolverine',
@@ -80,6 +87,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '2013-07-28',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Logan',
@@ -90,6 +98,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '2017-03-03',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'X-Men : Le Commencement',
@@ -100,6 +109,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'X-Men : Days of Future Past',
@@ -110,6 +120,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '2014-03-21',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'X-Men : Apocalypse',
@@ -120,6 +131,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '2016-05-27',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'X-Men :Dark Phoenix',
@@ -130,6 +142,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '2019-05-24',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Venom',
@@ -140,6 +153,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '2021-07-14',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Venom : Let There Be Carnage',
@@ -150,6 +164,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '2023-04-12',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Spider-Man',
@@ -160,6 +175,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Spider-Man 2',
@@ -170,6 +186,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Spider-Man 3',
@@ -180,6 +197,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '2007-05-09',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'The Amazing Spider-Man',
@@ -190,6 +208,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '2012-07-03',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "The Amazing Spider-Man : Le Destin d'un Héros",
@@ -200,6 +219,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '2014-08-01',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Kick-Ass',
@@ -210,6 +230,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Kick-Ass 2',
@@ -220,6 +241,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Hancock',
@@ -230,6 +252,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Les 4 Fantastiques',
@@ -240,6 +263,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "Les 4 Fantastiques et le Surfeur d'Argent",
@@ -250,6 +274,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '2012-07-13',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Ghost Rider',
@@ -260,6 +285,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Sky High',
@@ -270,6 +296,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Hulk',
@@ -280,6 +307,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'The Punisher',
@@ -290,6 +318,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Les 4 Fantastiques',
@@ -300,5 +329,6 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
 ];

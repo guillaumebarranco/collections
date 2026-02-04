@@ -10,6 +10,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '2021-10-16',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Love and Monsters',
@@ -20,6 +21,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '2025-03-16',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Tenet',
@@ -30,6 +32,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Ava',
@@ -40,6 +43,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '2020-12-07',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Mulan',
@@ -50,6 +54,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Palm Springs',
@@ -60,6 +65,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '2024-02-10',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Guns Akimbo',
@@ -70,6 +76,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '2020-06-28',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Joker',
@@ -80,6 +87,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '2019-10-04',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Evasion 3',
@@ -90,6 +98,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '2020-05-14',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Aladdin',
@@ -100,6 +109,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Alita: Battle Angel',
@@ -110,6 +120,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le chant du loup',
@@ -120,6 +131,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '2024-10-07',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Bird Box',
@@ -130,6 +142,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '2019-06-03',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'A Star Is Born',
@@ -140,6 +153,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '2022-10-27',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Evasion 2: Hades',
@@ -150,6 +164,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '2020-05-14',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Ready Player One',
@@ -160,6 +175,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
 
   {
@@ -171,6 +187,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'La soupe aux choux',
@@ -181,6 +198,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'The Shining',
@@ -191,6 +209,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "L'aile ou la cuisse",
@@ -201,6 +220,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Taxi Driver',
@@ -211,6 +231,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '2016-03-07',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "L'exorciste",
@@ -221,6 +242,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Les aventures de Rabbi Jacob',
@@ -231,6 +253,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'La Folie des grandeurs',
@@ -241,6 +264,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Oscar',
@@ -251,6 +275,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Fantomas',
@@ -261,6 +286,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le Gendarme de Saint-Tropez',
@@ -271,6 +297,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Les oiseaux',
@@ -281,6 +308,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Psychose',
@@ -291,6 +319,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '2019-05-08',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: '12 hommes en colère',
@@ -301,6 +330,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '2024-12-03',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Citizen Kane',
@@ -311,6 +341,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Les temps modernes',
@@ -321,6 +352,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Babylon A.D',
@@ -331,6 +363,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "Maman je m'occupe des méchants",
@@ -341,6 +374,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Yamakasi',
@@ -351,6 +385,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '2025-02-05',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Jackie chan dans le bronx',
@@ -361,6 +396,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'DodgeBall: Même pas mal',
@@ -371,6 +407,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Garfield',
@@ -381,6 +418,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Harold & Kumar Go to White Castle',
@@ -391,6 +429,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'The Day After Tomorrow',
@@ -401,6 +440,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '2025-02-28',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Van Helsing',
@@ -411,6 +451,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Man on Fire',
@@ -421,6 +462,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Shaun of the Dead',
@@ -431,6 +473,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Les choristes',
@@ -441,6 +484,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'EuroTrip',
@@ -451,6 +495,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Les 11 commandements',
@@ -461,6 +506,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'RRRrrrr!!!',
@@ -471,6 +517,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Saw',
@@ -481,6 +528,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "L'effet papillon",
@@ -491,6 +539,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Oldboy',
@@ -501,6 +550,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Bruce tout-puissant',
@@ -511,6 +561,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Moi, Cesar, 10 ans et demi, 1m39',
@@ -521,6 +572,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'En sursis',
@@ -531,6 +583,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'La Beuze',
@@ -541,6 +594,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Ong Bak',
@@ -551,6 +605,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Attrape-moi si tu peux',
@@ -561,6 +616,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Equilibrium',
@@ -571,6 +627,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '2023-01-25',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Opération antisèche',
@@ -581,6 +638,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: '28 jours plus tard',
@@ -591,6 +649,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le cercle : The ring',
@@ -601,6 +660,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Phone Game',
@@ -611,6 +671,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Minority Report',
@@ -621,6 +682,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Calculs Meurtriers',
@@ -631,6 +693,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Panic Room',
@@ -641,6 +704,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Rollerball',
@@ -651,6 +715,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Dommage Collateral',
@@ -661,6 +726,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Astérix et Cléopâtre',
@@ -671,6 +737,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Astérix et Obélix contre César',
@@ -681,6 +748,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Astérix & Obélix : Mission Cléopâtre',
@@ -691,6 +759,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Astérix aux Jeux Olympiques',
@@ -701,6 +770,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: true,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: "L'Associé du diable",
@@ -711,6 +781,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Le Cinquième Élément',
@@ -721,6 +792,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'American Beauty',
@@ -731,6 +803,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '2016-02-03',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Sixième Sens',
@@ -741,6 +814,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Wild Wild West',
@@ -751,6 +825,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Sex intentions',
@@ -761,6 +836,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Armageddon',
@@ -771,6 +847,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '2026-01-15',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'The Truman Show',
@@ -781,6 +858,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Godzilla',
@@ -791,6 +869,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'Mon voisin le tueur',
@@ -801,6 +880,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
   {
     title: 'La Ligne Verte',
@@ -811,5 +891,6 @@ export const guillaumeMoviesPage2: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    wantToSeeAgain: false,
   },
 ];

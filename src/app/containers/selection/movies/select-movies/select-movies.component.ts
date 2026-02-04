@@ -151,6 +151,7 @@ export class SelectMoviesComponent
       lastViewedDate: '',
       seenAtCinema: false,
       owned: false,
+      wantToSeeAgain: false,
     }));
   }
 

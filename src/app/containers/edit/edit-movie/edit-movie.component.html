@@ -154,6 +154,17 @@
         name="owned"
       />
     </div>
+
+    <div class="form-row checkbox-row">
+      <label for="wantToSeeAgain">Voir à nouveau</label>
+      <input
+        id="wantToSeeAgain"
+        type="checkbox"
+        [checked]="movieForm()?.wantToSeeAgain"
+        (change)="updateCheckbox('wantToSeeAgain', $any($event).target.checked)"
+        name="wantToSeeAgain"
+      />
+    </div>
     } @if (isAdminView() && movieEntityForm()) {
     <div class="form-row">
       <label for="entityActors">Acteurs (séparés par des virgules)</label>

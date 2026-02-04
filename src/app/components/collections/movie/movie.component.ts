@@ -43,8 +43,13 @@ export class MovieComponent {
   @Input() index = -1;
   @Input() quizzs: Quizz[] = [];
   @Input() readOnly = false;
+  @Input() showToReWatchButton = false;
+  @Input() showAddToWatchlistButton = false;
+  @Input() isInWatchlist = false;
   @Output() movieUpdated = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
+  @Output() wantToReWatch = new EventEmitter<Movie>();
+  @Output() addToWatchlist = new EventEmitter<Movie>();
   isWatchList = input<boolean>(false);
 
   recommendationView = input<boolean>(false);

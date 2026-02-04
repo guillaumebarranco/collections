@@ -187,6 +187,17 @@
           name="owned"
         />
       </div>
+
+      <div class="form-row checkbox-row">
+        <label for="wantToSeeAgain">Voir à nouveau</label>
+        <input
+          id="wantToSeeAgain"
+          type="checkbox"
+          [checked]="userForm().wantToSeeAgain"
+          (change)="updateCheckbox('wantToSeeAgain', $any($event).target.checked)"
+          name="wantToSeeAgain"
+        />
+      </div>
     </section>
     } @if(errorMessage()) {
     <p class="error-message">{{ errorMessage() }}</p>

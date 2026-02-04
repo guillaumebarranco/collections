@@ -42,21 +42,17 @@
     } @else { @for (movie of recommendedMovies(); track
     `${movie.title}-${movie.releaseDate}`; let i = $index) {
     <div class="movie-card movie-card--recommended movie-card--missing">
-      @if(movieAlreadyInUserWatchlist(movie)) {
-      <span class="movie-missing-badge">Déjà dans votre watchlist</span>
-      } @else {
       <span class="movie-missing-badge">Recommandé</span>
-      <button class="makya-btn-small" (click)="addMovieToWatchlist(movie)">
-        Ajouter à ma watchlist
-      </button>
-      }
       <app-movie
         [movie]="movie"
         [list]="recommendedMovies()"
         [recommendationView]="selectedView() === 'recommendations'"
         [recommendationText]="getMovieRecommendationText(movie)"
+        [showAddToWatchlistButton]="true"
+        [isInWatchlist]="movieAlreadyInUserWatchlist(movie)"
         [index]="i"
         [readOnly]="true"
+        (addToWatchlist)="addMovieToWatchlist($event)"
       >
       </app-movie>
     </div>
@@ -96,9 +92,11 @@
             [movie]="movie"
             [list]="sagaGroup.seenMovies"
             [index]="i"
+            [showToReWatchButton]="optionalViewConfig().toReWatch"
             [quizzs]="quizzs()"
             (movieUpdated)="refreshMovies()"
             (openQuizz)="openQuizzModal($event)"
+            (wantToReWatch)="markMovieAsWantToReWatch($event)"
           ></app-movie>
         </div>
         }
@@ -111,13 +109,13 @@
           `${movie.title}-${movie.releaseDate}`) {
           <div class="movie-card movie-card--missing">
             <span class="movie-missing-badge">Non vu</span>
-            <button
-              class="makya-btn-small"
-              (click)="addMovieToWatchlist(movie)"
-            >
-              Ajouter à ma watchlist
-            </button>
-            <app-movie [movie]="movie" [readOnly]="true"></app-movie>
+            <app-movie
+              [movie]="movie"
+              [readOnly]="true"
+              [showAddToWatchlistButton]="true"
+              [isInWatchlist]="movieAlreadyInUserWatchlist(movie)"
+              (addToWatchlist)="addMovieToWatchlist($event)"
+            ></app-movie>
           </div>
           }
         </div>
@@ -161,9 +159,11 @@
             [movie]="movie"
             [list]="actorGroup.seenMovies"
             [index]="i"
+            [showToReWatchButton]="optionalViewConfig().toReWatch"
             [quizzs]="quizzs()"
             (movieUpdated)="refreshMovies()"
             (openQuizz)="openQuizzModal($event)"
+            (wantToReWatch)="markMovieAsWantToReWatch($event)"
           ></app-movie>
         </div>
         }
@@ -176,13 +176,13 @@
           `${movie.title}-${movie.releaseDate}`) {
           <div class="movie-card movie-card--missing">
             <span class="movie-missing-badge">Non vu</span>
-            <button
-              class="makya-btn-small"
-              (click)="addMovieToWatchlist(movie)"
-            >
-              Ajouter à ma watchlist
-            </button>
-            <app-movie [movie]="movie" [readOnly]="true"></app-movie>
+            <app-movie
+              [movie]="movie"
+              [readOnly]="true"
+              [showAddToWatchlistButton]="true"
+              [isInWatchlist]="movieAlreadyInUserWatchlist(movie)"
+              (addToWatchlist)="addMovieToWatchlist($event)"
+            ></app-movie>
           </div>
           }
         </div>
@@ -226,9 +226,11 @@
             [movie]="movie"
             [list]="directorGroup.seenMovies"
             [index]="i"
+            [showToReWatchButton]="optionalViewConfig().toReWatch"
             [quizzs]="quizzs()"
             (movieUpdated)="refreshMovies()"
             (openQuizz)="openQuizzModal($event)"
+            (wantToReWatch)="markMovieAsWantToReWatch($event)"
           ></app-movie>
         </div>
         }
@@ -241,13 +243,13 @@
           `${movie.title}-${movie.releaseDate}`) {
           <div class="movie-card movie-card--missing">
             <span class="movie-missing-badge">Non vu</span>
-            <button
-              class="makya-btn-small"
-              (click)="addMovieToWatchlist(movie)"
-            >
-              Ajouter à ma watchlist
-            </button>
-            <app-movie [movie]="movie" [readOnly]="true"></app-movie>
+            <app-movie
+              [movie]="movie"
+              [readOnly]="true"
+              [showAddToWatchlistButton]="true"
+              [isInWatchlist]="movieAlreadyInUserWatchlist(movie)"
+              (addToWatchlist)="addMovieToWatchlist($event)"
+            ></app-movie>
           </div>
           }
         </div>
@@ -269,9 +271,11 @@
         [index]="i"
         [readOnly]="selectedView() === 'watchlist'"
         [isWatchList]="selectedView() === 'watchlist'"
+        [showToReWatchButton]="optionalViewConfig().toReWatch"
         [quizzs]="quizzs()"
         (movieUpdated)="refreshMovies()"
         (openQuizz)="openQuizzModal($event)"
+        (wantToReWatch)="markMovieAsWantToReWatch($event)"
       ></app-movie>
     </div>
     }
@@ -315,6 +319,16 @@
           (change)="onOptionalViewChange('owned', $any($event.target).checked)"
         />
         Films possédés
+      </label>
+      <label class="movies-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().toReWatch"
+          (change)="
+            onOptionalViewChange('toReWatch', $any($event.target).checked)
+          "
+        />
+        Films à revoir
       </label>
       <label class="movies-config-option">
         <input

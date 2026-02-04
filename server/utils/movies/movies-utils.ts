@@ -122,6 +122,8 @@ function parseMoviesFromFile(content: string): any[] {
             seenAtCinema:
               parseBooleanField(objectText, 'seenAtCinema') ?? false,
             owned: parseBooleanField(objectText, 'owned') ?? false,
+            wantToSeeAgain:
+              parseBooleanField(objectText, 'wantToSeeAgain') ?? false,
           });
         }
       }
@@ -416,6 +418,7 @@ function updateMovieInFile(content: string, payload: any) {
           );
           updated = replaceField(updated, 'seenAtCinema', payload.seenAtCinema);
           updated = replaceField(updated, 'owned', payload.owned);
+          updated = replaceField(updated, 'wantToSeeAgain', payload.wantToSeeAgain);
 
           return (
             content.slice(0, objectStart) +

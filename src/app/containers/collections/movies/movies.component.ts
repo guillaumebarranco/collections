@@ -88,6 +88,7 @@ export class MoviesComponent implements OnInit {
   optionalViewConfig = signal<Record<OptionalMovieView, boolean>>({
     cinema: true,
     owned: true,
+    toReWatch: true,
     sagas: true,
     actors: false,
     directors: false,
@@ -193,6 +194,7 @@ export class MoviesComponent implements OnInit {
       queryParams['view'] === 'watched' ||
       queryParams['view'] === 'cinema' ||
       queryParams['view'] === 'owned' ||
+      queryParams['view'] === 'toReWatch' ||
       queryParams['view'] === 'sagas' ||
       queryParams['view'] === 'actors' ||
       queryParams['view'] === 'directors' ||
@@ -278,6 +280,10 @@ export class MoviesComponent implements OnInit {
       movies = this.allMovies().filter((movie) => movie.seenAtCinema === true);
     } else if (this.selectedView() === 'owned') {
       movies = this.allMovies().filter((movie) => movie.owned);
+    } else if (this.selectedView() === 'toReWatch') {
+      movies = this.allMovies().filter(
+        (movie) => movie.wantToSeeAgain === true
+      );
     } else if (
       this.selectedView() === 'sagas' ||
       this.selectedView() === 'actors' ||
@@ -444,6 +450,7 @@ export class MoviesComponent implements OnInit {
         lastViewedDate: '',
         seenAtCinema: false,
         owned: false,
+        wantToSeeAgain: false,
       }));
       this.adminMoviesList.set(movies);
       this.baseMoviesList.set(movies);
@@ -474,6 +481,7 @@ export class MoviesComponent implements OnInit {
         lastViewedDate: '',
         seenAtCinema: false,
         owned: false,
+        wantToSeeAgain: false,
       }))
     );
   }
@@ -758,6 +766,7 @@ export class MoviesComponent implements OnInit {
       actors: parsed.actors ?? false,
       directors: parsed.directors ?? false,
       recommendations: parsed.recommendations ?? false,
+      toReWatch: parsed.toReWatch ?? true,
     });
     this.isLoadingViewConfig = false;
   }
@@ -811,6 +820,42 @@ export class MoviesComponent implements OnInit {
       this.router.navigate([`${this.getActiveUserId()}/movies`]);
     } catch (error) {
       console.warn("Erreur réseau lors de l'ajout batch des films.", error);
+    }
+  }
+
+  async markMovieAsWantToReWatch(movie: Movie): Promise<void> {
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/movies`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.getActiveUserId(),
+          title: movie.title,
+          director: movie.director,
+          rating: movie.rating,
+          timesWatched: movie.timesWatched,
+          firstViewedDate: movie.firstViewedDate,
+          lastViewedDate: movie.lastViewedDate,
+          seenAtCinema: movie.seenAtCinema,
+          owned: movie.owned,
+          wantToSeeAgain: true,
+        }),
+      });
+
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn(
+          'Échec de la mise à jour du film :',
+          payload?.error || response.statusText
+        );
+        return;
+      }
+
+      await this.refreshMovies();
+    } catch (error) {
+      console.warn('Erreur réseau lors de la mise à jour du film.', error);
     }
   }
 }

@@ -43,6 +43,7 @@ router.post('/', (req: any, res: any) => {
       lastViewedDate: normalizeString(input.lastViewedDate, 'lastViewedDate'),
       seenAtCinema: normalizeBoolean(input.seenAtCinema, 'seenAtCinema'),
       owned: normalizeBoolean(input.owned, 'owned'),
+      wantToSeeAgain: normalizeBoolean(input.wantToSeeAgain, 'wantToSeeAgain'),
     };
 
     const entityPayload = input.entity || null;
@@ -161,6 +162,7 @@ router.post('/', (req: any, res: any) => {
         lastViewedDate: payload.lastViewedDate,
         seenAtCinema: payload.seenAtCinema,
         owned: payload.owned,
+        wantToSeeAgain: payload.wantToSeeAgain,
       })
     );
   } catch (error: any) {

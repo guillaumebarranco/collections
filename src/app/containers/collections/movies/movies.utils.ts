@@ -5,6 +5,7 @@ export type MovieView =
   | 'cinema'
   | 'watchlist'
   | 'owned'
+  | 'toReWatch'
   | 'sagas'
   | 'actors'
   | 'directors'
@@ -37,6 +38,7 @@ export const movieViewOptions: { value: MovieView; label: string }[] = [
   { value: 'cinema', label: 'Films vus au cinéma' },
   { value: 'watchlist', label: 'Films à voir' },
   { value: 'owned', label: 'Films possédés' },
+  { value: 'toReWatch', label: 'Films à revoir' },
   { value: 'sagas', label: 'Voir les sagas' },
   { value: 'actors', label: 'Voir les acteurs' },
   { value: 'directors', label: 'Voir les réalisateurs' },
