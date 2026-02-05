@@ -8,6 +8,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Les liaisons dangereuses',
@@ -16,6 +17,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Les filles du Docteur March',
@@ -24,6 +26,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Circe',
@@ -32,6 +35,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "Le chant d'Achille",
@@ -40,6 +44,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Dark Shores',
@@ -48,6 +53,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Le Horla',
@@ -56,6 +62,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "L'écume des jours",
@@ -64,6 +71,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Notre-Dame de Paris',
@@ -72,6 +80,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Le roi de fer',
@@ -80,6 +89,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Le vicomte de Bragelonne',
@@ -88,6 +98,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'La reine Margot',
@@ -96,6 +107,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
+    readPriority: 2,
   },
   {
     title: 'Le trone de fer intégrale 4',
@@ -104,6 +116,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Le trone de fer intégrale 5',
@@ -112,6 +125,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Robinson Crusoe',
@@ -120,6 +134,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Cyrano de Bergerac',
@@ -128,6 +143,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Où vont les larmes quand elles sèchent',
@@ -136,6 +152,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Cinq semaines en ballon',
@@ -144,6 +161,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Autour de la Lune',
@@ -152,6 +170,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Les deux tours',
@@ -160,6 +179,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Le retour du roi',
@@ -168,6 +188,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Leçons de chimie',
@@ -176,6 +197,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Gagner la guerre',
@@ -184,6 +206,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "L'enfer",
@@ -192,6 +215,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "L'epopée de Gilgamesh",
@@ -200,6 +224,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Hamlet',
@@ -208,6 +233,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Macbeth',
@@ -216,6 +242,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'La Controverse de Valladolid',
@@ -224,6 +251,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'La dernière chanson',
@@ -232,6 +260,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Fais un voeu',
@@ -240,6 +269,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Au rythme de ton souffle',
@@ -248,6 +278,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Un havre de paix',
@@ -256,5 +287,6 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
+    readPriority: 1,
   },
 ];

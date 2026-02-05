@@ -40,9 +40,11 @@ export class BookComponent {
   @Input() showAddToReadlistButton = false;
   @Input() isInReadlist = false;
   @Input() recommendationBadge = '';
+  @Input() isReadlistView = false;
   @Output() editRequested = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
   @Output() addToReadlist = new EventEmitter<any>();
+  @Output() readPriorityUpdated = new EventEmitter<{ book: any; priority: number }>();
 
   isBaseEntityView = isBaseEntityView();
 
@@ -84,5 +86,9 @@ export class BookComponent {
     const entityQuizzs = this.getEntityQuizzs();
     if (entityQuizzs.length === 0) return;
     this.openQuizz.emit(entityQuizzs);
+  }
+
+  updateReadPriority(priority: number): void {
+    this.readPriorityUpdated.emit({ book: this.book, priority });
   }
 }

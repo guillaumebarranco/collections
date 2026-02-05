@@ -99,6 +99,15 @@ export const getSortedBooks = (books: Book[], selectedSort: string): Book[] => {
       return books.sort((a, b) => a.genre.localeCompare(b.genre));
     case 'genre-desc':
       return books.sort((a, b) => b.genre.localeCompare(a.genre));
+    case 'readPriority':
+      return books.sort((a, b) => {
+        const priorityA = a.readPriority ?? 0;
+        const priorityB = b.readPriority ?? 0;
+        if (priorityB !== priorityA) {
+          return priorityB - priorityA;
+        }
+        return a.title.localeCompare(b.title);
+      });
     default:
       return books.sort((a, b) => {
         if (!a.readDate && !b.readDate) return 0;

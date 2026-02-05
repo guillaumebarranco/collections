@@ -136,8 +136,10 @@
         <app-book
           [book]="book"
           [quizzs]="quizzs()"
+          [isReadlistView]="selectedView() === 'readlist'"
           (editRequested)="openEditBookDialog(book)"
           (openQuizz)="openQuizzModal($event)"
+          (readPriorityUpdated)="updateReadPriority($event)"
         ></app-book>
       </div>
       }

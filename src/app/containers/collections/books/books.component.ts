@@ -49,6 +49,7 @@ import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
+import { getApiBaseUrl } from '../../../core/config';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedBook = Book & {
@@ -201,6 +202,7 @@ export class BooksComponent implements OnInit {
         readDate: '',
         readTimes: 0,
         owned: false,
+        readPriority: 0,
       }));
       this.adminBooksList.set(books);
       this.baseBooksList.set(books);
@@ -230,6 +232,7 @@ export class BooksComponent implements OnInit {
         readDate: '',
         readTimes: 0,
         owned: false,
+        readPriority: 0,
       }))
     );
   }
@@ -401,7 +404,9 @@ export class BooksComponent implements OnInit {
   });
 
   sortedBooks = computed(() =>
-    getSortedBooks([...this.filteredBooksByYear()], this.selectedSort())
+    this.selectedView() === 'readlist'
+      ? getSortedBooks([...this.filteredBooksByYear()], 'readPriority')
+      : getSortedBooks([...this.filteredBooksByYear()], this.selectedSort())
   );
 
   groupedBooks = computed(() => {
@@ -727,5 +732,39 @@ export class BooksComponent implements OnInit {
         author: book.author,
       },
     });
+  }
+
+  async updateReadPriority(data: { book: Book; priority: number }): Promise<void> {
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/books`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.getActiveUserId(),
+          title: data.book.title,
+          author: data.book.author,
+          rating: data.book.rating,
+          readTimes: data.book.readTimes,
+          readDate: data.book.readDate,
+          owned: data.book.owned,
+          readPriority: data.priority,
+        }),
+      });
+
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn(
+          'Échec de la mise à jour de la priorité :',
+          payload?.error || response.statusText
+        );
+        return;
+      }
+
+      await this.refreshBooks();
+    } catch (error) {
+      console.warn('Erreur réseau lors de la mise à jour de la priorité.', error);
+    }
   }
 }

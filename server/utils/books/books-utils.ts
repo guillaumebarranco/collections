@@ -117,6 +117,7 @@ function parseBooksFromFile(content: string): any[] {
             readTimes: parseNumberField(objectText, 'readTimes') ?? 0,
             readDate: parseStringField(objectText, 'readDate') ?? '',
             owned: parseBooleanField(objectText, 'owned') ?? false,
+            readPriority: parseNumberField(objectText, 'readPriority') ?? 0,
           });
         }
       }
@@ -376,6 +377,7 @@ function updateBookInFile(content: string, payload: any) {
           updated = replaceField(updated, 'readTimes', payload.readTimes);
           updated = replaceField(updated, 'readDate', payload.readDate);
           updated = replaceField(updated, 'owned', payload.owned);
+          updated = replaceField(updated, 'readPriority', payload.readPriority);
 
           return (
             content.slice(0, objectStart) +

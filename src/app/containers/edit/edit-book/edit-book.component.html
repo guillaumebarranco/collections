@@ -128,6 +128,18 @@
         name="owned"
       />
     </div>
+
+    <div class="form-row">
+      <label for="readPriority">Priorité dans la readlist</label>
+      <input
+        id="readPriority"
+        type="number"
+        [ngModel]="bookForm()?.readPriority"
+        (ngModelChange)="updateField('readPriority', $event)"
+        name="readPriority"
+        min="0"
+      />
+    </div>
     } @if (isAdminView() && bookEntityForm()) {
     <div class="form-row">
       <label for="entityPages">Pages</label>

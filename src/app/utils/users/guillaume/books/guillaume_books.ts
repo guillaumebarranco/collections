@@ -8,6 +8,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Les liaisons dangereuses',
@@ -16,6 +17,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Castel Boy',
@@ -24,6 +26,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 5,
     readTimes: 2,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'En bons pères de famille',
@@ -32,6 +35,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "Où va l'argent des pauvres",
@@ -40,6 +44,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Les tout-petits face aux écrans',
@@ -48,6 +53,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Les serres sous le velours noir',
@@ -56,6 +62,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "Ne tirez pas sur l'oiseau moqueur",
@@ -64,6 +71,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Les Hauts de Hurlevent',
@@ -72,6 +80,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 2.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Voyage au centre de la terre',
@@ -80,6 +89,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Le tour du monde en 80 jours',
@@ -88,6 +98,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Vingt Mille Lieues sous les mers',
@@ -96,6 +107,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: "L'Île mystérieuse",
@@ -104,6 +116,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'De la Terre à la Lune',
@@ -112,6 +125,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Le Comte de Monte-Cristo',
@@ -120,6 +134,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 5,
     readTimes: 2,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Frankenstein',
@@ -128,6 +143,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 2.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Le Portrait de Dorian Gray',
@@ -136,6 +152,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'La Ferme des animaux',
@@ -144,6 +161,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Orgueil et Préjugés',
@@ -152,6 +170,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: '1984',
@@ -160,6 +179,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Fondation',
@@ -168,6 +188,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Fahrenheit 451',
@@ -176,6 +197,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 2.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Miss Marple au club du mardi',
@@ -184,6 +206,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: "L'Affaire Protheroe",
@@ -192,6 +215,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: "Le crime de l'Orient Express",
@@ -200,6 +224,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Mort sur le Nil',
@@ -208,6 +233,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Ils étaient dix',
@@ -216,6 +242,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Le Meurtre de Roger Ackroyd',
@@ -224,6 +251,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Meurtre en Mésopotamie',
@@ -232,6 +260,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 2.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Cinq petits cochons',
@@ -240,6 +269,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Dracula',
@@ -248,6 +278,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Jane Eyre',
@@ -256,6 +287,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Une vie',
@@ -264,6 +296,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 1,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'La tête sur les épaules',
@@ -272,6 +305,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'La Nuit des temps',
@@ -280,6 +314,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'La Horde du Contrevent',
@@ -288,6 +323,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Madame Bovary',
@@ -296,6 +332,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 1,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Bel-Ami',
@@ -304,6 +341,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Résister',
@@ -312,6 +350,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Le coût de la virilité',
@@ -320,6 +359,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Sois jeune et tais-toi',
@@ -328,6 +368,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "L'Île au trésor",
@@ -336,6 +377,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 2.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Faites-les lire !',
@@ -344,6 +386,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Candide',
@@ -352,6 +395,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Carrie',
@@ -360,6 +404,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Désolation',
@@ -368,6 +413,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 2.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: "L'étrange cas du docteur Jekyll et de Mr. Hyde",
@@ -376,6 +422,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "L'ordinatueur",
@@ -384,6 +431,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3.5,
     readTimes: 3,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'La Potion magique de Georges Bouillon',
@@ -392,6 +440,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3.5,
     readTimes: 3,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Gatsby le magnifique',
@@ -400,6 +449,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'La guerre des mondes',
@@ -408,6 +458,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'La machine à explorer le temps',
@@ -416,6 +467,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "L'homme invisible",
@@ -424,6 +476,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'La photo qui tue',
@@ -432,6 +485,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3.25,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Les pages de notre amour',
@@ -440,6 +494,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4.75,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'À tout jamais',
@@ -448,6 +503,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Le porte bonheur',
@@ -456,6 +512,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Memento mori',
@@ -464,6 +521,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4.5,
     readTimes: 2,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Un choix',
@@ -472,6 +530,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Viridia: Les racines du pouvoir',
@@ -480,6 +539,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Alchemised',
@@ -488,6 +548,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4.75,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Une seconde chance',
@@ -496,6 +557,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "L'Iliade",
@@ -504,6 +566,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3.25,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "L'Odyssée",
@@ -512,6 +575,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3.75,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Adam',
@@ -520,6 +584,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
 
   {
@@ -529,6 +594,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4.75,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Roméo et Juliette',
@@ -537,6 +603,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'La brute',
@@ -545,6 +612,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 4.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'The Dead zone',
@@ -553,6 +621,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 3.75,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
 
   {
@@ -562,6 +631,7 @@ export const guillaumeBooks: UserBooks = [
     rating: 5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Les piliers de la terre',
@@ -570,5 +640,6 @@ export const guillaumeBooks: UserBooks = [
     rating: 2.75,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
 ];

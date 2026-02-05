@@ -26,6 +26,7 @@ type EditBookForm = {
   readTimes: number;
   readDate: string;
   owned: boolean;
+  readPriority: number;
 };
 
 type EditBookEntityForm = {
@@ -143,7 +144,7 @@ export class EditBookComponent {
     if (!current) return;
 
     let nextValue: EditBookForm[K] = value as EditBookForm[K];
-    if (field === 'rating' || field === 'readTimes') {
+    if (field === 'rating' || field === 'readTimes' || field === 'readPriority') {
       const asNumber = Number(value);
       nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditBookForm[K];
     }
@@ -236,6 +237,7 @@ export class EditBookComponent {
           readTimes: form.readTimes,
           readDate: form.readDate,
           owned: form.owned,
+          readPriority: form.readPriority,
           entity: this.isAdminView()
             ? this.toEntityPayload(this.bookEntityForm())
             : undefined,
@@ -425,6 +427,7 @@ export class EditBookComponent {
       readTimes: book.readTimes || 0,
       readDate: book.readDate,
       owned: book.owned,
+      readPriority: book.readPriority ?? 0,
     };
   }
 

@@ -8,6 +8,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -17,6 +18,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -26,6 +28,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -35,6 +38,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -44,6 +48,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -53,6 +58,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -62,6 +68,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -71,6 +78,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -80,6 +88,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -89,6 +98,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -98,6 +108,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -107,6 +118,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -116,6 +128,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -125,6 +138,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -134,6 +148,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -143,6 +158,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -152,6 +168,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -161,6 +178,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -170,6 +188,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -179,6 +198,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -188,6 +208,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -197,6 +218,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -206,6 +228,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -215,6 +238,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -224,6 +248,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -233,6 +258,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -242,6 +268,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -251,6 +278,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -260,6 +288,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -269,6 +298,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -278,6 +308,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -287,6 +318,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -296,6 +328,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -305,6 +338,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -314,6 +348,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -323,6 +358,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -332,6 +368,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -341,6 +378,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -350,6 +388,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -359,6 +398,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -368,6 +408,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -377,6 +418,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -386,6 +428,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -395,6 +438,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -404,6 +448,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -413,6 +458,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -422,6 +468,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -431,6 +478,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -440,6 +488,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -449,6 +498,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -458,6 +508,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -467,6 +518,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -476,6 +528,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -485,6 +538,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -494,6 +548,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -503,6 +558,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -512,6 +568,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -521,6 +578,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -530,6 +588,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -539,6 +598,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -548,6 +608,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -557,6 +618,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -566,6 +628,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -575,6 +638,7 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -584,5 +648,6 @@ export const ronanReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 ];

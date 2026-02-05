@@ -8,6 +8,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 4.25,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "L'Embrasement",
@@ -16,6 +17,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'La Révolte',
@@ -24,6 +26,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "La Ballade du serpent et de l'oiseau chanteur",
@@ -32,6 +35,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Lever de soleil sur la moisson',
@@ -40,6 +44,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "Harry Potter à l'école des sorciers",
@@ -48,6 +53,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 4,
     readTimes: 5,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Harry Potter et la Chambre des secrets',
@@ -56,6 +62,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 4,
     readTimes: 5,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "Harry Potter et le Prisonnier d'Azkaban",
@@ -64,6 +71,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 4.5,
     readTimes: 5,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Harry Potter et la Coupe de feu',
@@ -72,6 +80,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 4.5,
     readTimes: 10,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "Harry Potter et l'Ordre du Phénix",
@@ -80,6 +89,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 4,
     readTimes: 5,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Harry Potter et le Prince de sang-mêlé',
@@ -88,6 +98,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 5,
     readTimes: 20,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Harry Potter et les Reliques de la Mort',
@@ -96,6 +107,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 5,
     readTimes: 15,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "Harry Potter et l'Enfant maudit",
@@ -104,6 +116,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Fascination',
@@ -112,6 +125,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 4.75,
     readTimes: 30,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Tentation',
@@ -120,6 +134,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 3.5,
     readTimes: 10,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Hésitation',
@@ -128,6 +143,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 3.5,
     readTimes: 10,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Révélation',
@@ -136,6 +152,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 4.5,
     readTimes: 20,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Midnight Sun',
@@ -144,6 +161,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 5,
     readTimes: 5,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Le Voleur de foudre',
@@ -152,6 +170,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'La Mer des monstres',
@@ -160,6 +179,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Le Sort du titan',
@@ -168,6 +188,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'La Bataille du labyrinthe',
@@ -176,6 +197,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Le Dernier Olympien',
@@ -184,6 +206,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Le Calice des dieux',
@@ -192,6 +215,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 2,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Divergente',
@@ -200,6 +224,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "Divergente Tome 2 : L'Insurrection",
@@ -208,6 +233,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Divergente Tome 3 : Allégeance',
@@ -216,6 +242,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Le Labyrinthe',
@@ -224,6 +251,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Une étude en rouge',
@@ -232,6 +260,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Le Signe des quatre',
@@ -240,6 +269,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Le Chien des Baskerville',
@@ -248,6 +278,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'La vallée de la peur',
@@ -256,6 +287,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Les Mobilisés',
@@ -264,6 +296,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Les Effacés',
@@ -272,6 +305,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Les Éveillés',
@@ -280,6 +314,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Inside Mac: Tome 1',
@@ -288,6 +323,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 5,
     readTimes: 3,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Inside Mac: Tome 2',
@@ -296,6 +332,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 4.5,
     readTimes: 2,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Player One',
@@ -304,6 +341,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 4.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Ready Player Two',
@@ -312,6 +350,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 3,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'La femme de ménage',
@@ -320,6 +359,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Les secrets de la femme de ménage',
@@ -328,6 +368,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'La femme de ménage se marie',
@@ -336,6 +377,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'La femme de ménage voit tout',
@@ -344,6 +386,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Les Trois Mousquetaires',
@@ -352,6 +395,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Le Faucon malté',
@@ -360,6 +404,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 4,
     readTimes: 5,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "L'ennemi public n°2",
@@ -368,6 +413,7 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 3.5,
     readTimes: 3,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Devine qui vient tuer',
@@ -376,5 +422,6 @@ export const guillaumeBooksSaga: UserBooks = [
     rating: 3.5,
     readTimes: 3,
     owned: true,
+    readPriority: 1,
   },
 ];

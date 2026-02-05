@@ -19,3 +19,15 @@
 .book-genre {
   @include components.component-genre-base;
 }
+
+.readlist-priority {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0;
+
+  .priority-label {
+    font-size: 0.875rem;
+    color: #666;
+  }
+}

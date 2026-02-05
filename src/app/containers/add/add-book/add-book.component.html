@@ -177,6 +177,18 @@
           name="owned"
         />
       </div>
+
+      <div class="form-row">
+        <label for="readPriority">Priorité dans la readlist</label>
+        <input
+          id="readPriority"
+          type="number"
+          [ngModel]="userForm().readPriority"
+          (ngModelChange)="updateUserField('readPriority', $event)"
+          name="readPriority"
+          min="0"
+        />
+      </div>
     </section>
 
     @if(errorMessage()) {

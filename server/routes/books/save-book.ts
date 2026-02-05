@@ -38,6 +38,7 @@ router.post('/', (req: any, res: any) => {
       readTimes: normalizeNumber(input.readTimes, 'readTimes'),
       readDate: normalizeString(input.readDate, 'readDate'),
       owned: normalizeBoolean(input.owned, 'owned'),
+      readPriority: normalizeNumber(input.readPriority, 'readPriority'),
     };
 
     const entityPayload = input.entity || null;
@@ -56,7 +57,10 @@ router.post('/', (req: any, res: any) => {
     let updatedFile: string | null = null;
 
     if (!entityOnly) {
-      const bookFiles = getUserBooksFiles(userId);
+      const bookFiles = [
+        ...getUserBooksFiles(userId),
+        ...getUserReadlistBooksFiles(userId),
+      ];
       for (const bookFile of bookFiles) {
         const fileContent = fs.readFileSync(bookFile, 'utf8');
         try {
@@ -153,6 +157,7 @@ router.post('/', (req: any, res: any) => {
         readTimes: payload.readTimes,
         readDate: payload.readDate,
         owned: payload.owned,
+        readPriority: payload.readPriority,
       })
     );
   } catch (error: any) {

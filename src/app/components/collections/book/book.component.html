@@ -64,6 +64,22 @@
     <p class="recommendation-text">{{ recommendationText }}</p>
     } @if (recommendationBadge) {
     <span class="missing-badge">{{ recommendationBadge }}</span>
+    } @if (isReadlistView && !isBaseEntityView) {
+    <div class="readlist-priority">
+      <div class="priority-label">Priorité :</div>
+      <div>
+        @for (priority of [1, 2, 3]; track priority) {
+        <button
+          class="makya-btn-times"
+          [class.active]="book.readPriority === priority"
+          (click)="updateReadPriority(priority)"
+          [title]="'Priorité ' + priority"
+        >
+          {{ priority }}
+        </button>
+        }
+      </div>
+    </div>
     } @if (showAddToReadlistButton && !isBaseEntityView) { @if(!isInReadlist) {
     <button class="makya-btn-small" (click)="addToReadlist.emit(book)">
       Ajouter à ma readlist
