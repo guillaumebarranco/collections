@@ -8,6 +8,6 @@ export const guillaumeReadListMangas: UserMangas = [
     rating: 0,
     readTimes: 0,
     owned: false,
-    readPriority: 1,
+    readPriority: 2,
   }
 ];

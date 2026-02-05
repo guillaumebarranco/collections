@@ -10,7 +10,6 @@ export const guillaumeReadListComics: UserComics = [
     owned: false,
     readPriority: 1,
   },
-
   {
     title: 'Killing Joke',
     writer: 'Inconnu',
@@ -18,9 +17,8 @@ export const guillaumeReadListComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: false,
-    readPriority: 1,
+    readPriority: 3,
   },
-
   {
     title: 'Kingdom Come',
     writer: 'Inconnu',
@@ -30,7 +28,6 @@ export const guillaumeReadListComics: UserComics = [
     owned: false,
     readPriority: 1,
   },
-
   {
     title: 'Absolute Batman',
     writer: 'Scott Snyder',
@@ -40,7 +37,6 @@ export const guillaumeReadListComics: UserComics = [
     owned: false,
     readPriority: 1,
   },
-
   {
     title: 'World War Hulk',
     writer: 'Greg Pak',
@@ -50,7 +46,6 @@ export const guillaumeReadListComics: UserComics = [
     owned: false,
     readPriority: 1,
   },
-
   {
     title: 'Wolverine : Old Man Logan',
     writer: 'Mark Millar',
@@ -59,5 +54,5 @@ export const guillaumeReadListComics: UserComics = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
-  },
+  }
 ];

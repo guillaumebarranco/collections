@@ -8,9 +8,8 @@ export const guillaumeReadListBds: UserBds = [
     rating: 0,
     readTimes: 1,
     owned: false,
-    readPriority: 1,
+    readPriority: 2,
   },
-
   {
     title: 'Racines',
     writer: 'Lou Lubie',
@@ -19,5 +18,5 @@ export const guillaumeReadListBds: UserBds = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
-  },
+  }
 ];
