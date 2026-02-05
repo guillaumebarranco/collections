@@ -247,10 +247,57 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Elisa Erka',
       },
     ],
-    coverUrl: 'https://fr.web.img2.acsta.net/img/81/32/8132bc17bd057afa6a76fca0304b0124.jpg',
+    coverUrl:
+      'https://fr.web.img2.acsta.net/img/81/32/8132bc17bd057afa6a76fca0304b0124.jpg',
     releaseDate: '2025-06-18',
     length: 99,
     genre: 'Comédie',
+    saga: '',
+  },
+  {
+    title: 'Sonic 3, le film',
+    director: 'Jeff Fowler',
+    actors: [
+      {
+        name: 'Jim Carrey',
+      },
+      {
+        name: 'James Marsden',
+      },
+      {
+        name: 'Idris Elba',
+      },
+      {
+        name: 'Keanu Reeves',
+      },
+    ],
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BNGRhYjY5MWItNGI0ZS00OTVkLTkyYWYtMzYwYjU1NTk3YWIyXkEyXkFqcGc@._V1_.jpg',
+    releaseDate: '2024-12-25',
+    length: 110,
+    genre: 'Aventure, Famille',
+    saga: 'Sonic',
+  },
+
+  {
+    title: "N'oublie Jamais",
+    director: 'Nick Cassavetes',
+    actors: [
+      {
+        name: 'Ryan Gosling',
+      },
+      {
+        name: 'Rachel McAdams',
+      },
+      {
+        name: 'James Marsden',
+      },
+    ],
+    coverUrl:
+      'https://fr.web.img3.acsta.net/medias/nmedia/18/35/32/48/18384546.jpg',
+    releaseDate: '2004-09-08',
+    length: 121,
+    genre: 'Comédie romantique',
     saga: '',
   },
 ];
