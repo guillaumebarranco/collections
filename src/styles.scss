@@ -207,6 +207,17 @@ ul li {
   }
 }
 
+.watchlist-priority {
+  .makya-btn-times {
+    border-color: #28a745;
+    color: #28a745;
+
+    &.active {
+      color: white;
+    }
+  }
+}
+
 .recommendation-text {
   color: green;
   font-size: 14px;

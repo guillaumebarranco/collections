@@ -11,6 +11,7 @@ export const guillaumeMoviesDc: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Batman',
@@ -22,6 +23,7 @@ export const guillaumeMoviesDc: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Batman Returns',
@@ -33,6 +35,7 @@ export const guillaumeMoviesDc: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Batman Forever',
@@ -44,6 +47,7 @@ export const guillaumeMoviesDc: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Batman & Robin',
@@ -55,6 +59,7 @@ export const guillaumeMoviesDc: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Batman Begins',
@@ -66,6 +71,7 @@ export const guillaumeMoviesDc: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'The Dark Knight : Le Chevalier Noir',
@@ -77,6 +83,7 @@ export const guillaumeMoviesDc: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'The Dark Knight Rises',
@@ -88,6 +95,7 @@ export const guillaumeMoviesDc: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'The Batman',
@@ -99,6 +107,7 @@ export const guillaumeMoviesDc: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Batman v Superman : L'Aube de la Justice",
@@ -110,6 +119,7 @@ export const guillaumeMoviesDc: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Shazam!',
@@ -121,6 +131,7 @@ export const guillaumeMoviesDc: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Aquaman',
@@ -132,6 +143,7 @@ export const guillaumeMoviesDc: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Black Adam',
@@ -143,6 +155,7 @@ export const guillaumeMoviesDc: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Justice League',
@@ -154,6 +167,7 @@ export const guillaumeMoviesDc: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Zack Snyder's Justice League",
@@ -165,6 +179,7 @@ export const guillaumeMoviesDc: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Suicide Squad',
@@ -176,6 +191,7 @@ export const guillaumeMoviesDc: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Man of Steel',
@@ -187,6 +203,7 @@ export const guillaumeMoviesDc: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Superman',
@@ -198,6 +215,7 @@ export const guillaumeMoviesDc: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Watchmen : Les Gardiens',
@@ -209,6 +227,7 @@ export const guillaumeMoviesDc: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Catwoman',
@@ -220,6 +239,7 @@ export const guillaumeMoviesDc: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Wonder Woman',
@@ -231,6 +251,7 @@ export const guillaumeMoviesDc: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Wonder Woman 1984',
@@ -242,6 +263,7 @@ export const guillaumeMoviesDc: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'The Flash',
@@ -253,6 +275,7 @@ export const guillaumeMoviesDc: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Birds of Prey',
@@ -264,5 +287,6 @@ export const guillaumeMoviesDc: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
 ];

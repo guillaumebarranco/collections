@@ -23,6 +23,7 @@ type AddMovieUserForm = {
   seenAtCinema: boolean;
   owned: boolean;
   wantToSeeAgain: boolean;
+  watchPriority: number;
 };
 
 type AddMovieDialogData = {
@@ -65,6 +66,7 @@ export class AddMovieComponent {
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 0,
   });
 
   close() {
@@ -95,7 +97,7 @@ export class AddMovieComponent {
   ) {
     const current = this.userForm();
     let nextValue: AddMovieUserForm[K] = value as AddMovieUserForm[K];
-    if (field === 'rating' || field === 'timesWatched') {
+    if (field === 'rating' || field === 'timesWatched' || field === 'watchPriority') {
       const asNumber = Number(value);
       nextValue = (
         Number.isNaN(asNumber) ? 0 : asNumber

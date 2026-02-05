@@ -152,6 +152,7 @@ export class SelectMoviesComponent
       seenAtCinema: false,
       owned: false,
       wantToSeeAgain: false,
+      watchPriority: 0,
     }));
   }
 

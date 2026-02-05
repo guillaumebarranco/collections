@@ -119,8 +119,7 @@
         >
         </app-sort-dropdown>
       </div>
-      }
-
+      } @if(sortOptions().length > 0) {
       <app-sort-dropdown
         label="Trier par :"
         [sortOptions]="sortOptions()"
@@ -128,6 +127,7 @@
         (sortChange)="onSortChange.emit($event)"
       >
       </app-sort-dropdown>
+      }
     </div>
   </div>
   }

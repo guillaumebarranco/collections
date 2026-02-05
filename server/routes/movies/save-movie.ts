@@ -44,6 +44,7 @@ router.post('/', (req: any, res: any) => {
       seenAtCinema: normalizeBoolean(input.seenAtCinema, 'seenAtCinema'),
       owned: normalizeBoolean(input.owned, 'owned'),
       wantToSeeAgain: normalizeBoolean(input.wantToSeeAgain, 'wantToSeeAgain'),
+      watchPriority: normalizeNumber(input.watchPriority, 'watchPriority'),
     };
 
     const entityPayload = input.entity || null;
@@ -62,7 +63,10 @@ router.post('/', (req: any, res: any) => {
     let updatedFile: string | null = null;
 
     if (!entityOnly) {
-      const movieFiles = getUserMoviesFiles(userId);
+      const movieFiles = [
+        ...getUserMoviesFiles(userId),
+        ...getUserWatchlistMoviesFiles(userId),
+      ];
       for (const movieFile of movieFiles) {
         const fileContent = fs.readFileSync(movieFile, 'utf8');
         try {
@@ -163,6 +167,7 @@ router.post('/', (req: any, res: any) => {
         seenAtCinema: payload.seenAtCinema,
         owned: payload.owned,
         wantToSeeAgain: payload.wantToSeeAgain,
+        watchPriority: payload.watchPriority,
       })
     );
   } catch (error: any) {

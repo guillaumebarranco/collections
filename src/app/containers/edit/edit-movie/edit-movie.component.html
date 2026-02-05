@@ -165,6 +165,18 @@
         name="wantToSeeAgain"
       />
     </div>
+
+    <div class="form-row">
+      <label for="watchPriority">Priorité dans la watchlist</label>
+      <input
+        id="watchPriority"
+        type="number"
+        [ngModel]="movieForm()?.watchPriority"
+        (ngModelChange)="updateField('watchPriority', $event)"
+        name="watchPriority"
+        min="0"
+      />
+    </div>
     } @if (isAdminView() && movieEntityForm()) {
     <div class="form-row">
       <label for="entityActors">Acteurs (séparés par des virgules)</label>

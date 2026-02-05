@@ -8,7 +8,7 @@
     [allMoviesCount]="allMovies().length"
     [stats]="stats()"
     [visibleMovieViewOptions]="visibleMovieViewOptions()"
-    [sortOptions]="sortOptions"
+    [sortOptions]="sortOptions()"
     [yearFilterOptions]="yearFilterOptions"
     (onViewChange)="onViewChange($any($event))"
     (onOpenViewConfig)="openViewConfig()"
@@ -17,7 +17,9 @@
     (onSortChange)="onSortChange($event)"
   ></app-movies-header>
 
+  @if(selectedView() === 'watched') {
   <p>Résultats affichés: {{ sortedMovies().length }}</p>
+  }
 
   <!-- Add movies to watchlist button -->
   @if(selectedView() === 'watchlist') {
@@ -289,6 +291,7 @@
         (openQuizz)="openQuizzModal($event)"
         (wantToReWatch)="markMovieAsWantToReWatch($event)"
         (hasReWatched)="markMovieAsReWatched($event)"
+        (watchPriorityUpdated)="updateWatchPriority($event)"
       ></app-movie>
     </div>
     }

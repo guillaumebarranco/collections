@@ -57,6 +57,21 @@
     } @if (recommendationView()) {
     <p class="recommendation-text">{{ recommendationText() }}</p>
     } @if (isWatchList() && !isBaseEntityView) {
+    <div class="watchlist-priority">
+      <div class="priority-label">Priorité :</div>
+      <div>
+        @for (priority of [1, 2, 3]; track priority) {
+        <button
+          class="makya-btn-times"
+          [class.active]="movie.watchPriority === priority"
+          (click)="updateWatchPriority(priority)"
+          [title]="'Priorité ' + priority"
+        >
+          {{ priority }}
+        </button>
+        }
+      </div>
+    </div>
     <button class="makya-btn" (click)="addMovieFromWatchlist()">
       J'ai vu ce film
     </button>

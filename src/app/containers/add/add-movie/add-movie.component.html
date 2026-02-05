@@ -198,6 +198,18 @@
           name="wantToSeeAgain"
         />
       </div>
+
+      <div class="form-row">
+        <label for="watchPriority">Priorité dans la watchlist</label>
+        <input
+          id="watchPriority"
+          type="number"
+          [ngModel]="userForm().watchPriority"
+          (ngModelChange)="updateUserField('watchPriority', $event)"
+          name="watchPriority"
+          min="0"
+        />
+      </div>
     </section>
     } @if(errorMessage()) {
     <p class="error-message">{{ errorMessage() }}</p>

@@ -188,41 +188,12 @@ export class MoviesComponent implements OnInit {
     void this.refreshQuizzs();
   }
 
-  private loadParamsFromUrl(queryParams: Params) {
-    if (
-      queryParams['view'] === 'watchlist' ||
-      queryParams['view'] === 'watched' ||
-      queryParams['view'] === 'cinema' ||
-      queryParams['view'] === 'owned' ||
-      queryParams['view'] === 'toReWatch' ||
-      queryParams['view'] === 'sagas' ||
-      queryParams['view'] === 'actors' ||
-      queryParams['view'] === 'directors' ||
-      queryParams['view'] === 'recommendations'
-    ) {
-      this.selectedView.set(queryParams['view'] as MovieView);
+  sortOptions = computed(() => {
+    if (this.selectedView() === 'watchlist') {
+      return [];
     }
-
-    if (queryParams['sort']) {
-      const validSort = this.sortOptions.find(
-        (opt) => opt.value === queryParams['sort']
-      );
-      if (validSort) {
-        this.selectedSort.set(queryParams['sort']);
-      }
-    }
-
-    if (queryParams['year']) {
-      const validYear = this.yearFilterOptions.find(
-        (opt) => opt.value === queryParams['year']
-      );
-      if (validYear) {
-        this.selectedYearFilter.set(queryParams['year']);
-      }
-    }
-  }
-
-  sortOptions: SortOption[] = moviesSortOptions;
+    return moviesSortOptions;
+  });
 
   movieViewOptions: { value: MovieView; label: string }[] = movieViewOptions;
 
@@ -329,7 +300,9 @@ export class MoviesComponent implements OnInit {
   });
 
   sortedMovies = computed<Movie[]>(() =>
-    getSortedMovies([...this.filteredMoviesByYear()], this.selectedSort())
+    this.selectedView() === 'watchlist'
+      ? getSortedMovies([...this.filteredMoviesByYear()], 'watchPriority')
+      : getSortedMovies([...this.filteredMoviesByYear()], this.selectedSort())
   );
 
   moviesBySaga = computed<
@@ -432,6 +405,40 @@ export class MoviesComponent implements OnInit {
     ];
   });
 
+  private loadParamsFromUrl(queryParams: Params) {
+    if (
+      queryParams['view'] === 'watchlist' ||
+      queryParams['view'] === 'watched' ||
+      queryParams['view'] === 'cinema' ||
+      queryParams['view'] === 'owned' ||
+      queryParams['view'] === 'toReWatch' ||
+      queryParams['view'] === 'sagas' ||
+      queryParams['view'] === 'actors' ||
+      queryParams['view'] === 'directors' ||
+      queryParams['view'] === 'recommendations'
+    ) {
+      this.selectedView.set(queryParams['view'] as MovieView);
+    }
+
+    if (queryParams['sort']) {
+      const validSort = this.sortOptions().find(
+        (opt) => opt.value === queryParams['sort']
+      );
+      if (validSort) {
+        this.selectedSort.set(queryParams['sort']);
+      }
+    }
+
+    if (queryParams['year']) {
+      const validYear = this.yearFilterOptions.find(
+        (opt) => opt.value === queryParams['year']
+      );
+      if (validYear) {
+        this.selectedYearFilter.set(queryParams['year']);
+      }
+    }
+  }
+
   async refreshMovies() {
     if (this.isAdminView()) {
       const baseMovies = await getAllBaseMovies();
@@ -451,6 +458,7 @@ export class MoviesComponent implements OnInit {
         seenAtCinema: false,
         owned: false,
         wantToSeeAgain: false,
+        watchPriority: 0,
       }));
       this.adminMoviesList.set(movies);
       this.baseMoviesList.set(movies);
@@ -482,6 +490,7 @@ export class MoviesComponent implements OnInit {
         seenAtCinema: false,
         owned: false,
         wantToSeeAgain: false,
+        watchPriority: 0,
       }))
     );
   }
@@ -736,7 +745,7 @@ export class MoviesComponent implements OnInit {
     }
     if (
       parsed.sort &&
-      this.sortOptions.some(
+      this.sortOptions().some(
         (opt: { value: string; label: string }) => opt.value === parsed.sort
       )
     ) {
@@ -841,6 +850,7 @@ export class MoviesComponent implements OnInit {
           seenAtCinema: movie.seenAtCinema,
           owned: movie.owned,
           wantToSeeAgain: true,
+          watchPriority: movie.watchPriority ?? 0,
         }),
       });
 
@@ -878,6 +888,7 @@ export class MoviesComponent implements OnInit {
           seenAtCinema: movie.seenAtCinema,
           owned: movie.owned,
           wantToSeeAgain: false,
+          watchPriority: movie.watchPriority ?? 0,
         }),
       });
 
@@ -893,6 +904,49 @@ export class MoviesComponent implements OnInit {
       await this.refreshMovies();
     } catch (error) {
       console.warn('Erreur réseau lors de la mise à jour du film.', error);
+    }
+  }
+
+  async updateWatchPriority(data: {
+    movie: Movie;
+    priority: number;
+  }): Promise<void> {
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/movies`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.getActiveUserId(),
+          title: data.movie.title,
+          director: data.movie.director,
+          rating: data.movie.rating,
+          timesWatched: data.movie.timesWatched,
+          firstViewedDate: data.movie.firstViewedDate,
+          lastViewedDate: data.movie.lastViewedDate,
+          seenAtCinema: data.movie.seenAtCinema,
+          owned: data.movie.owned,
+          wantToSeeAgain: data.movie.wantToSeeAgain,
+          watchPriority: data.priority,
+        }),
+      });
+
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn(
+          'Échec de la mise à jour de la priorité :',
+          payload?.error || response.statusText
+        );
+        return;
+      }
+
+      await this.refreshMovies();
+    } catch (error) {
+      console.warn(
+        'Erreur réseau lors de la mise à jour de la priorité.',
+        error
+      );
     }
   }
 }

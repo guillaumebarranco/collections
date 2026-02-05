@@ -11,6 +11,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Damsel',
@@ -22,6 +23,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Barbie',
@@ -33,6 +35,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "L'École du Bien et du Mal",
@@ -44,6 +47,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Prey',
@@ -55,6 +59,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Bullet Train',
@@ -66,6 +71,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Top Gun : Maverick',
@@ -77,6 +83,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Red Notice',
@@ -88,6 +95,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Free Guy',
@@ -99,6 +107,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Wasabi',
@@ -110,6 +119,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Snatch',
@@ -121,6 +131,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Les 4 fantastiques',
@@ -132,6 +143,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Premier contact',
@@ -143,6 +155,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Harold & Kumar Go to White Castle',
@@ -154,6 +167,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'The Day After Tomorrow',
@@ -165,6 +179,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Van Helsing',
@@ -176,6 +191,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Shaun of the Dead',
@@ -187,6 +203,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'EuroTrip',
@@ -198,6 +215,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'RRRrrrr!!!',
@@ -209,6 +227,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Bruce tout-puissant',
@@ -220,6 +239,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Moi, Cesar, 10 ans et demi, 1m39',
@@ -231,6 +251,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Attrape-moi si tu peux',
@@ -242,6 +263,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Equilibrium',
@@ -253,6 +275,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Love and Monsters',
@@ -264,6 +287,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Palm Springs',
@@ -275,6 +299,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Guns Akimbo',
@@ -286,6 +311,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Aladdin',
@@ -297,6 +323,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Alita: Battle Angel',
@@ -308,6 +335,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Ready Player One',
@@ -319,6 +347,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'E.T. the Extra-Terrestrial',
@@ -330,6 +359,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Yamakasi',
@@ -341,6 +371,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Minority Report',
@@ -352,6 +383,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Astérix & Obélix : Mission Cléopâtre',
@@ -363,6 +395,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le Cinquième Élément',
@@ -374,6 +407,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Wild Wild West',
@@ -385,6 +419,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Sex intentions',
@@ -396,6 +431,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Armageddon',
@@ -407,6 +443,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Godzilla',
@@ -418,6 +455,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: '300',
@@ -429,6 +467,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title:
@@ -441,6 +480,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'King Kong',
@@ -452,6 +492,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Serenity',
@@ -463,6 +504,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Serial Nocers',
@@ -474,6 +516,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Mr. & Mrs. Smith',
@@ -485,6 +528,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'The Mask',
@@ -496,6 +540,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Forrest Gump',
@@ -507,6 +552,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Pulp Fiction',
@@ -518,6 +564,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'La cité de la peur',
@@ -529,6 +576,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le Dîner de Cons',
@@ -540,6 +588,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Kingsman: The Golden Circle',
@@ -551,6 +600,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Valerian and the City of a Thousand Planets',
@@ -562,6 +612,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Pixels',
@@ -573,6 +624,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Kingsman : Services Secrets',
@@ -584,6 +636,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Interstellar',
@@ -595,6 +648,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le médaillon',
@@ -606,6 +660,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Smoking',
@@ -617,6 +672,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Brice de Nice',
@@ -628,6 +684,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'La guerre des mondes',
@@ -639,6 +696,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'La ligue des gentlemen extraordinaires',
@@ -650,6 +708,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'La tour Montparnasse infernale',
@@ -661,6 +720,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Spaceballs',
@@ -672,6 +732,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Dirty Dancing',
@@ -683,6 +744,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Commando',
@@ -694,6 +756,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Wanted : Choisis ton Destin',
@@ -705,6 +768,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Jumper',
@@ -716,6 +780,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Je Suis une Légende',
@@ -727,6 +792,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Jumanji',
@@ -738,6 +804,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Judge Dredd',
@@ -749,6 +816,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Sucker Punch',
@@ -760,6 +828,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Paul',
@@ -771,6 +840,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Inception',
@@ -782,6 +852,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Fatal',
@@ -793,6 +864,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le Choc des Titans',
@@ -804,6 +876,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Percy Jackson : Le Voleur de Foudre',
@@ -815,6 +888,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: '2012',
@@ -826,6 +900,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Zombieland',
@@ -837,6 +912,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Maléfique',
@@ -848,6 +924,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Edge of Tomorrow',
@@ -859,6 +936,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Elysium',
@@ -870,6 +948,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Pacific Rim',
@@ -881,6 +960,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'World War Z',
@@ -892,6 +972,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'After Earth',
@@ -903,6 +984,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Oblivion',
@@ -914,6 +996,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Chronicle',
@@ -925,6 +1008,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Qui veut la peau de Roger Rabbit',
@@ -936,6 +1020,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Inglourious Basterds',
@@ -947,6 +1032,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Total Recall',
@@ -958,6 +1044,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Jurassic Park',
@@ -969,6 +1056,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Les visiteurs',
@@ -980,6 +1068,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Demolition Man',
@@ -991,6 +1080,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Mad Max: Fury Road',
@@ -1002,6 +1092,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Looper',
@@ -1013,6 +1104,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Dragons',
@@ -1024,6 +1116,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Dragons 2',
@@ -1035,6 +1128,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Dragons 3 : Le Monde caché',
@@ -1046,6 +1140,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Spider-Man: Into the Spider-Verse',
@@ -1057,6 +1152,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Spider-Man : À Travers le Spider-Verse',
@@ -1068,6 +1164,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Les Mondes de Ralph',
@@ -1079,6 +1176,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Ralph Breaks the Internet',
@@ -1090,6 +1188,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Super Mario Bros. le Film',
@@ -1101,6 +1200,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Encanto',
@@ -1112,6 +1212,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Vaiana',
@@ -1123,6 +1224,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Vice-Versa',
@@ -1134,6 +1236,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'La Reine des Neiges',
@@ -1145,6 +1248,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Moi, Moche et Méchant',
@@ -1156,6 +1260,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Moi, Moche et Méchant 2',
@@ -1167,6 +1272,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "L'Âge de Glace",
@@ -1178,6 +1284,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "L'Âge de Glace 2",
@@ -1189,6 +1296,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "L'Âge de Glace 3 : Le Temps des Dinosaures",
@@ -1200,6 +1308,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "L'Âge de Glace 4 : La Dérive des Continents",
@@ -1211,6 +1320,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Rebelle',
@@ -1222,6 +1332,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Arthur et les Minimoys',
@@ -1233,6 +1344,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Arthur et la Vengeance de Maltazard',
@@ -1244,6 +1356,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Arthur 3 : La Guerre des Deux Mondes',
@@ -1255,6 +1368,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'WALL-E',
@@ -1266,6 +1380,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Kung Fu Panda',
@@ -1277,6 +1392,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Shrek',
@@ -1288,6 +1404,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Shrek 2',
@@ -1299,6 +1416,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Shrek le Troisième',
@@ -1310,6 +1428,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Shrek 4 : Il Était une Fois',
@@ -1321,6 +1440,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Les Indestructibles',
@@ -1332,6 +1452,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Les Indestructibles 2',
@@ -1343,6 +1464,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le monde de Nemo',
@@ -1354,6 +1476,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Monstres et Cie',
@@ -1365,6 +1488,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Toy Story',
@@ -1376,6 +1500,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Toy Story 2',
@@ -1387,6 +1512,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Toy Story 3',
@@ -1398,6 +1524,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Princesse Mononoké',
@@ -1409,6 +1536,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Hercule',
@@ -1420,6 +1548,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Pocahontas',
@@ -1431,6 +1560,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Space Jam',
@@ -1442,6 +1572,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le Roi Lion',
@@ -1453,6 +1584,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Aladdin',
@@ -1464,6 +1596,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'La petite sirène',
@@ -1475,6 +1608,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Peter Pan',
@@ -1486,6 +1620,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Pinocchio',
@@ -1498,6 +1633,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Megamind',
@@ -1509,6 +1645,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Raya et le Dernier Dragon',
@@ -1520,6 +1657,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Green Lantern',
@@ -1531,6 +1669,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Batman Begins',
@@ -1542,6 +1681,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'The Dark Knight : Le Chevalier Noir',
@@ -1553,6 +1693,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'The Dark Knight Rises',
@@ -1564,6 +1705,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'The Batman',
@@ -1575,6 +1717,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Batman v Superman : L'Aube de la Justice",
@@ -1586,6 +1729,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Shazam!',
@@ -1597,6 +1741,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Aquaman',
@@ -1608,6 +1753,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Black Adam',
@@ -1619,6 +1765,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Zack Snyder's Justice League",
@@ -1630,6 +1777,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Man of Steel',
@@ -1641,6 +1789,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Superman',
@@ -1652,6 +1801,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Watchmen : Les Gardiens',
@@ -1663,6 +1813,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Catwoman',
@@ -1674,6 +1825,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Wonder Woman',
@@ -1685,6 +1837,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Wonder Woman 1984',
@@ -1696,6 +1849,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Donjons & Dragons : L'Honneur des voleurs",
@@ -1707,6 +1861,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "S.O.S. Fantômes : L'Héritage",
@@ -1718,6 +1873,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'La Reine des neiges 2',
@@ -1729,6 +1885,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Pokémon : Détective Pikachu',
@@ -1740,6 +1897,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Jumanji : Bienvenue dans la jungle',
@@ -1751,6 +1909,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Miss Peregrine et les Enfants particuliers',
@@ -1762,6 +1921,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Warcraft',
@@ -1773,6 +1933,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Zootopie',
@@ -1784,6 +1945,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Jurassic World',
@@ -1795,6 +1957,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Monsters University',
@@ -1806,6 +1969,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le Hobbit : Un voyage inattendu',
@@ -1817,6 +1981,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Hôtel Transylvanie',
@@ -1828,6 +1993,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'La Planète des singes : Les Origines',
@@ -1839,6 +2005,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "L'Apprenti sorcier",
@@ -1850,6 +2017,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Sherlock Holmes',
@@ -1861,6 +2029,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'District 9',
@@ -1872,6 +2041,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Là-haut',
@@ -1883,6 +2053,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Mamma Mia!',
@@ -1894,6 +2065,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le Labyrinthe de Pan',
@@ -1905,6 +2077,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Benjamin Gates et le Trésor des Templiers',
@@ -1916,6 +2089,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le Dernier Samouraï',
@@ -1927,6 +2101,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Lilo et Stitch',
@@ -1938,6 +2113,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'La Planète des singes',
@@ -1949,6 +2125,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'A.I. Intelligence artificielle',
@@ -1960,6 +2137,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Kuzco, l'Empereur mégalo",
@@ -1971,6 +2149,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Stuart Little',
@@ -1982,6 +2161,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: '1001 Pattes',
@@ -1993,6 +2173,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Le Roi Lion 2 : L'Honneur de la tribu",
@@ -2004,6 +2185,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Mary à tout prix',
@@ -2015,6 +2197,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Flubber',
@@ -2026,6 +2209,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le Monde perdu : Jurassic Park',
@@ -2037,6 +2221,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Mars Attacks !',
@@ -2048,6 +2233,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Les 101 Dalmatiens',
@@ -2059,6 +2245,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le Bossu de Notre-Dame',
@@ -2070,6 +2257,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'GoldenEye',
@@ -2081,6 +2269,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Casper',
@@ -2092,6 +2281,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le retour de Jafar',
@@ -2103,6 +2293,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Un jour sans fin',
@@ -2114,6 +2305,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'La Famille Addams',
@@ -2125,6 +2317,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Hook ou la Revanche du capitaine Crochet',
@@ -2136,6 +2329,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Edward aux mains d'argent",
@@ -2147,6 +2341,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Indiana Jones et la Dernière Croisade',
@@ -2158,6 +2353,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Beetlejuice',
@@ -2169,6 +2365,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le Château dans le ciel',
@@ -2180,6 +2377,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Gremlins',
@@ -2191,6 +2389,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'S.O.S. Fantômes',
@@ -2202,6 +2401,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Indiana Jones et le Temple maudit',
@@ -2213,6 +2413,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'The Blues Brothers',
@@ -2224,6 +2425,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Grease',
@@ -2235,6 +2437,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'La Belle au bois dormant',
@@ -2246,6 +2449,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'La Belle et le Clochard',
@@ -2257,6 +2461,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Alice au pays des merveilles',
@@ -2268,6 +2473,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Cendrillon',
@@ -2279,6 +2485,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Bambi',
@@ -2290,6 +2497,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Dumbo',
@@ -2301,6 +2509,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Fantasia',
@@ -2312,6 +2521,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Blanche-Neige et les Sept Nains',
@@ -2323,6 +2533,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Avatar : De feu et de cendres',
@@ -2334,6 +2545,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Vaiana 2',
@@ -2345,6 +2557,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Beetlejuice Beetlejuice',
@@ -2356,6 +2569,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Godzilla × Kong: The New Empire',
@@ -2367,6 +2581,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Ghostbusters: Frozen Empire',
@@ -2378,6 +2593,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Civil War',
@@ -2389,6 +2605,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Rebel Moon - Partie 1 : Enfant du feu',
@@ -2400,6 +2617,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'The Creator',
@@ -2411,6 +2629,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Blue Beetle',
@@ -2422,6 +2641,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Nimona',
@@ -2433,6 +2653,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le Visiteur du Futur',
@@ -2444,6 +2665,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'The Suicide Squad',
@@ -2455,6 +2677,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Space Jam : Nouvelle Ère',
@@ -2466,6 +2689,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Godzilla vs. Kong',
@@ -2477,6 +2701,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Sonic the Hedgehog',
@@ -2488,6 +2713,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Jumanji: Next Level',
@@ -2499,6 +2725,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Zombieland: Double Tap',
@@ -2510,6 +2737,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Men in Black: International',
@@ -2521,6 +2749,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Toy Story 4',
@@ -2532,6 +2761,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Godzilla: King of the Monsters',
@@ -2543,6 +2773,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Hellboy',
@@ -2554,6 +2785,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Nicky Larson Private Eyes',
@@ -2565,6 +2797,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Justice League',
@@ -2576,6 +2809,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Blade Runner 2049',
@@ -2587,6 +2821,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'La Planète des singes : Suprématie',
@@ -2598,6 +2833,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Life : Origine inconnue',
@@ -2609,6 +2845,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Les Trolls',
@@ -2620,6 +2857,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Star Trek : Sans limites',
@@ -2631,6 +2869,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Dernier train pour Busan',
@@ -2642,6 +2881,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Dragon Ball Z : La Résurrection de 'F'",
@@ -2653,6 +2893,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le Hobbit : La Bataille des Cinq Armées',
@@ -2664,6 +2905,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "La Planète des singes : l'affrontement",
@@ -2675,6 +2917,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Godzilla',
@@ -2686,6 +2929,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "300 : La Naissance d'un Empire",
@@ -2697,6 +2941,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le Hobbit : La Désolation de Smaug',
@@ -2708,6 +2953,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Percy Jackson : La Mer des monstres',
@@ -2719,6 +2965,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Dragon Ball Z: Battle of Gods',
@@ -2730,6 +2977,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Hansel & Gretel : Witch Hunters',
@@ -2741,6 +2989,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Batman: The Dark Knight Returns, Part 2',
@@ -2752,6 +3001,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Batman: The Dark Knight Returns, Part 1',
@@ -2763,6 +3013,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Rebelle',
@@ -2774,6 +3025,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'La Planète des singes : Les Origines',
@@ -2785,6 +3037,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Raiponce',
@@ -2796,6 +3049,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Scott Pilgrim',
@@ -2807,6 +3061,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'La Nuit au musée 2',
@@ -2818,6 +3073,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Hot Fuzz',
@@ -2829,6 +3085,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Eragon',
@@ -2840,6 +3097,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Little Miss Sunshine',
@@ -2851,6 +3109,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title:
@@ -2863,6 +3122,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le Seigneur des anneaux : Le Retour du roi',
@@ -2874,6 +3134,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le Seigneur des anneaux : Les Deux Tours',
@@ -2885,6 +3146,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Le Seigneur des anneaux : La Communauté de l'anneau",
@@ -2896,6 +3158,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le Voyage de Chihiro',
@@ -2907,6 +3170,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Kuzco, l'empereur mégalo",
@@ -2918,6 +3182,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le Cinquième Élément',
@@ -2929,6 +3194,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Dragon Ball Z : L'Attaque du dragon",
@@ -2940,6 +3206,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Dragon Ball Z : Fusions',
@@ -2951,6 +3218,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'La Liste de Schindler',
@@ -2962,6 +3230,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Dragon Ball Z: Bojack Unbound',
@@ -2973,6 +3242,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Dragon Ball Z : Broly le super guerrier',
@@ -2984,6 +3254,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Dragon Ball Z : L'Histoire de Trunks",
@@ -2995,6 +3266,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'S.O.S. Fantômes 2',
@@ -3006,6 +3278,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Indiana Jones et la Dernière Croisade',
@@ -3017,6 +3290,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Top Gun',
@@ -3028,6 +3302,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'S.O.S. Fantômes',
@@ -3039,6 +3314,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Indiana Jones et le Temple maudit',
@@ -3050,6 +3326,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "L'Histoire sans fin",
@@ -3061,6 +3338,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Astérix et Cléopâtre',
@@ -3072,6 +3350,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le Livre de la jungle',
@@ -3083,6 +3362,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'La Belle au bois dormant',
@@ -3094,6 +3374,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Pearl Harbor',
@@ -3105,6 +3386,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Avengers',
@@ -3116,6 +3398,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Avengers : L'Ère d'Ultron",
@@ -3127,6 +3410,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Avengers: Infinity War',
@@ -3138,6 +3422,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Avengers: Endgame',
@@ -3149,6 +3434,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Captain America : First Avenger',
@@ -3160,6 +3446,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Captain America : Le Soldat de l'Hiver",
@@ -3171,6 +3458,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Captain America : Civil War',
@@ -3182,6 +3470,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Captain America: Brave New World',
@@ -3193,6 +3482,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Iron Man',
@@ -3204,6 +3494,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Iron Man 2',
@@ -3215,6 +3506,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Iron Man 3',
@@ -3226,6 +3518,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "L'Incroyable Hulk",
@@ -3237,6 +3530,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Thor',
@@ -3248,6 +3542,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Thor: The Dark World',
@@ -3259,6 +3554,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Thor: Ragnarok',
@@ -3270,6 +3566,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Thor : Love & Thunder',
@@ -3281,6 +3578,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Captain Marvel',
@@ -3292,6 +3590,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Les Marvels',
@@ -3303,6 +3602,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Shang-Chi et la Légende des Dix Anneaux',
@@ -3314,6 +3614,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Doctor Strange',
@@ -3325,6 +3626,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Doctor Strange dans le Multivers de la Folie',
@@ -3336,6 +3638,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Black Panther',
@@ -3347,6 +3650,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Black Panther : Wakanda pour Toujours',
@@ -3358,6 +3662,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Les Gardiens de la Galaxie',
@@ -3369,6 +3674,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Les Gardiens de la Galaxie Vol. 2',
@@ -3380,6 +3686,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Les Gardiens de la Galaxie Vol. 3',
@@ -3391,6 +3698,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Ant-Man',
@@ -3402,6 +3710,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Ant-Man et la Guêpe',
@@ -3413,6 +3722,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Ant-Man et la Guêpe : Quantumania',
@@ -3424,6 +3734,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Spider-Man: Homecoming',
@@ -3435,6 +3746,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Spider-Man: Far From Home',
@@ -3446,6 +3758,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Spider-Man : No Way Home',
@@ -3457,6 +3770,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Black Widow',
@@ -3468,6 +3782,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Les Éternels',
@@ -3479,6 +3794,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Deadpool et Wolverine',
@@ -3490,6 +3806,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Deadpool',
@@ -3501,6 +3818,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Deadpool 2',
@@ -3512,6 +3830,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Daredevil',
@@ -3523,6 +3842,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'X-Men',
@@ -3534,6 +3854,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'X-men 2',
@@ -3545,6 +3866,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "X-Men : L'Affrontement Final",
@@ -3556,6 +3878,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'X-Men Origins : Wolverine',
@@ -3567,6 +3890,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'The Wolverine',
@@ -3578,6 +3902,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'X-Men : Le Commencement',
@@ -3589,6 +3914,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'X-Men : Days of Future Past',
@@ -3600,6 +3926,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Venom',
@@ -3611,6 +3938,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Venom : Let There Be Carnage',
@@ -3622,6 +3950,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Spider-Man',
@@ -3633,6 +3962,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Spider-Man 2',
@@ -3644,6 +3974,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Spider-Man 3',
@@ -3655,6 +3986,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'The Amazing Spider-Man',
@@ -3666,6 +3998,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "The Amazing Spider-Man : Le Destin d'un Héros",
@@ -3677,6 +4010,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Kick-Ass',
@@ -3688,6 +4022,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Kick-Ass 2',
@@ -3699,6 +4034,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Hancock',
@@ -3710,6 +4046,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Les 4 Fantastiques',
@@ -3721,6 +4058,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Les 4 Fantastiques et le Surfeur d'Argent",
@@ -3732,6 +4070,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Ghost Rider',
@@ -3743,6 +4082,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Sky High',
@@ -3754,6 +4094,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Hulk',
@@ -3765,6 +4106,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Harry Potter à l'école des sorciers",
@@ -3776,6 +4118,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Harry Potter et la chambre des secrets',
@@ -3787,6 +4130,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Harry Potter et le prisonnier d'Azkaban",
@@ -3798,6 +4142,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Harry Potter et la coupe de feu',
@@ -3809,6 +4154,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Harry Potter et l'ordre du phénix",
@@ -3820,6 +4166,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Harry Potter et le prince de sang-mêlé',
@@ -3831,6 +4178,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Harry Potter et les reliques de la mort - partie 1',
@@ -3842,6 +4190,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Harry Potter et les reliques de la mort - partie 2',
@@ -3853,6 +4202,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Star Wars : Épisode 1 - La menace fantôme',
@@ -3864,6 +4214,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Star Wars: Episode 2 - L'attaque des clones",
@@ -3875,6 +4226,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Star Wars : Épisode 3 - La revanche des Sith',
@@ -3886,6 +4238,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Star Wars : Episode 4 - Un nouvel espoir',
@@ -3897,6 +4250,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Star Wars : Episode 5 - L'empire contre-attaque",
@@ -3908,6 +4262,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Star Wars : Episode 6 - Le retour du Jedi',
@@ -3919,6 +4274,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Star Wars : Episode 7 - Le réveil de la Force',
@@ -3930,6 +4286,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Star Wars : Episode 8 - Le dernier Jedi',
@@ -3941,6 +4298,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Star Wars : Episode 9 - L'ascension de Skywalker",
@@ -3952,6 +4310,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Solo: A Star Wars Story',
@@ -3963,6 +4322,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Rogue One : A Star Wars Story',
@@ -3974,6 +4334,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Fast and Furious',
@@ -3985,6 +4346,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: '2 Fast 2 Furious',
@@ -3996,6 +4358,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Fast and Furious : Tokyo Drift',
@@ -4007,6 +4370,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Rocky',
@@ -4018,6 +4382,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'The Terminator',
@@ -4029,6 +4394,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Terminator 2: Judgment Day',
@@ -4040,6 +4406,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Terminator 3: Rise of the Machines',
@@ -4051,6 +4418,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Scooby-Doo',
@@ -4062,6 +4430,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Matrix',
@@ -4073,6 +4442,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'The Matrix Reloaded',
@@ -4084,6 +4454,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Men in Black',
@@ -4095,6 +4466,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Men in Black II',
@@ -4106,6 +4478,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Men in Black 3',
@@ -4117,6 +4490,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Lara Croft : Tomb Raider',
@@ -4128,6 +4502,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Tomb Raider : le berceau de la vie',
@@ -4139,6 +4514,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'La Momie',
@@ -4150,6 +4526,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le Retour de la Momie',
@@ -4161,6 +4538,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "La momie : la tombe de l'empereur dragon",
@@ -4172,6 +4550,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Predator',
@@ -4183,6 +4562,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Predator 2',
@@ -4194,6 +4574,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Alien',
@@ -4205,6 +4586,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Aliens',
@@ -4216,6 +4598,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Alien 3',
@@ -4227,6 +4610,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Alien : La Résurrection',
@@ -4238,6 +4622,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Alien vs. Predator',
@@ -4249,6 +4634,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Alien vs. Predator : Requiem',
@@ -4260,6 +4646,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Independence Day',
@@ -4271,6 +4658,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Maman j'ai raté l'avion",
@@ -4282,6 +4670,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Maman j'ai raté l'avion 2",
@@ -4293,6 +4682,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Retour vers le futur',
@@ -4304,6 +4694,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Retour vers le futur 2',
@@ -4315,6 +4706,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Retour vers le futur 3',
@@ -4326,6 +4718,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Transformers',
@@ -4337,6 +4730,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Transformers 2 : La Revanche',
@@ -4348,6 +4742,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Transformers 3 : La Face Cachée de la Lune',
@@ -4359,6 +4754,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Very Bad Trip',
@@ -4370,6 +4766,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Very Bad Trip 2',
@@ -4381,6 +4778,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Die Hard : Piège de cristal',
@@ -4392,6 +4790,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Die Hard 2 : 58 minutes pour vivre',
@@ -4403,6 +4802,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Die Hard 3 : une journée en enfer',
@@ -4414,6 +4814,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Die Hard 4 : Retour en Enfer',
@@ -4425,6 +4826,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Die Hard : Belle Journée pour Mourir',
@@ -4436,6 +4838,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Dune',
@@ -4447,6 +4850,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Dune : Partie 2',
@@ -4458,6 +4862,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'John Wick',
@@ -4469,6 +4874,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'John Wick : Chapitre 2',
@@ -4480,6 +4886,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'John Wick: Chapter 3 - Parabellum',
@@ -4491,6 +4898,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Les Animaux Fantastiques',
@@ -4502,6 +4910,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Les Animaux Fantastiques 2 : Les crimes de Grindelwald',
@@ -4513,6 +4922,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Enola Holmes',
@@ -4524,6 +4934,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Enola Holmes 2',
@@ -4535,6 +4946,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'A couteaux tirés',
@@ -4546,6 +4958,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'A couteaux tirés 2 : Glass Onion',
@@ -4557,6 +4970,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Wake up dead man : une histoire à couteaux tirés',
@@ -4568,6 +4982,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'James Bond : Skyfall',
@@ -4579,6 +4994,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "OSS 117 : Le Caire, Nid d'Espions",
@@ -4590,6 +5006,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'OSS 117 : Rio ne Répond Plus',
@@ -4601,6 +5018,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'OSS 117 : Alerte Rouge en Afrique Noire',
@@ -4612,6 +5030,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Incassable',
@@ -4623,6 +5042,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'La nuit au musée',
@@ -4634,6 +5054,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'La Nuit au musée 2',
@@ -4645,6 +5066,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Resident Evil',
@@ -4656,6 +5078,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Resident Evil : Apocalypse',
@@ -4667,6 +5090,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Ocean's Eleven",
@@ -4678,6 +5102,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Pirates des Caraïbes : La malédiction du Black Pearl',
@@ -4689,6 +5114,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Pirates des Caraïbes 2 : Le Secret du Coffre Maudit',
@@ -4700,6 +5126,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Pirates des Caraïbes 3 : Jusqu'au Bout du Monde",
@@ -4711,6 +5138,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Taxi',
@@ -4722,6 +5150,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Taxi 2',
@@ -4733,6 +5162,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Taxi 3',
@@ -4744,6 +5174,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Taxi 4',
@@ -4755,6 +5186,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Scary Movie',
@@ -4766,6 +5198,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Scary Movie 2',
@@ -4777,6 +5210,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Scary Movie 3',
@@ -4788,6 +5222,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Scary Movie 4',
@@ -4799,6 +5234,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Kill Bill: Vol. 1',
@@ -4810,6 +5246,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Kill Bill: Vol. 2',
@@ -4821,6 +5258,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Hellboy',
@@ -4832,6 +5270,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Hellboy 2 : Les Légions d'Or Maudites",
@@ -4843,6 +5282,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Les bronzés',
@@ -4854,6 +5294,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Les bronzés font du ski',
@@ -4865,6 +5306,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Les Bronzés 3 : Amis pour la Vie',
@@ -4876,6 +5318,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Sin City',
@@ -4887,6 +5330,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Blade',
@@ -4898,6 +5342,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Blade II',
@@ -4909,6 +5354,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Blade : Trinity',
@@ -4920,6 +5366,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Destination Finale',
@@ -4931,6 +5378,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Avatar',
@@ -4942,6 +5390,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Avatar 2 : La Voie de l'Eau",
@@ -4953,6 +5402,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'American Pie',
@@ -4964,6 +5414,7 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'American Pie 2',
@@ -4975,5 +5426,6 @@ export const bastienMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
 ];

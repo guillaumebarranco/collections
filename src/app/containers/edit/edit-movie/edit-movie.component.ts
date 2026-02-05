@@ -29,6 +29,7 @@ type EditMovieForm = {
   seenAtCinema: boolean;
   owned: boolean;
   wantToSeeAgain: boolean;
+  watchPriority: number;
 };
 
 type EditMovieEntityForm = {
@@ -144,7 +145,7 @@ export class EditMovieComponent {
     if (!current) return;
 
     let nextValue: EditMovieForm[K] = value as EditMovieForm[K];
-    if (field === 'rating' || field === 'timesWatched') {
+    if (field === 'rating' || field === 'timesWatched' || field === 'watchPriority') {
       const asNumber = Number(value);
       nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditMovieForm[K];
     }
@@ -231,6 +232,7 @@ export class EditMovieComponent {
           seenAtCinema: form.seenAtCinema,
           owned: form.owned,
           wantToSeeAgain: form.wantToSeeAgain,
+          watchPriority: form.watchPriority,
           entity: this.isAdminView()
             ? this.toEntityPayload(this.movieEntityForm())
             : undefined,
@@ -428,6 +430,7 @@ export class EditMovieComponent {
       seenAtCinema: movie.seenAtCinema,
       owned: movie.owned,
       wantToSeeAgain: movie.wantToSeeAgain ?? false,
+      watchPriority: movie.watchPriority ?? 0,
     };
   }
 

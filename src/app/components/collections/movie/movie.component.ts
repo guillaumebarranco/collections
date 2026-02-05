@@ -54,6 +54,7 @@ export class MovieComponent {
   @Output() wantToReWatch = new EventEmitter<Movie>();
   @Output() addToWatchlist = new EventEmitter<Movie>();
   @Output() hasReWatched = new EventEmitter<Movie>();
+  @Output() watchPriorityUpdated = new EventEmitter<{ movie: Movie; priority: number }>();
   isWatchList = input<boolean>(false);
 
   recommendationView = input<boolean>(false);
@@ -124,6 +125,10 @@ export class MovieComponent {
     const entityQuizzs = this.getEntityQuizzs();
     if (entityQuizzs.length === 0) return;
     this.openQuizz.emit(entityQuizzs);
+  }
+
+  updateWatchPriority(priority: number): void {
+    this.watchPriorityUpdated.emit({ movie: this.movie, priority });
   }
 
   async addMovieFromWatchlist(): Promise<void> {

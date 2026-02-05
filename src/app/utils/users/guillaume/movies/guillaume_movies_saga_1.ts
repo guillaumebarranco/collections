@@ -11,6 +11,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Harry Potter et la chambre des secrets',
@@ -22,6 +23,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Harry Potter et le prisonnier d'Azkaban",
@@ -33,6 +35,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: true,
+    watchPriority: 1,
   },
   {
     title: 'Harry Potter et la coupe de feu',
@@ -44,6 +47,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Harry Potter et l'ordre du phénix",
@@ -55,6 +59,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Harry Potter et le prince de sang-mêlé',
@@ -66,6 +71,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Harry Potter et les reliques de la mort - partie 1',
@@ -77,6 +83,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Harry Potter et les reliques de la mort - partie 2',
@@ -88,6 +95,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Star Wars : Épisode 1 - La menace fantôme',
@@ -99,6 +107,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Star Wars: Episode 2 - L'attaque des clones",
@@ -110,6 +119,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Star Wars : Épisode 3 - La revanche des Sith',
@@ -121,6 +131,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Star Wars : Episode 4 - Un nouvel espoir',
@@ -132,6 +143,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Star Wars : Episode 5 - L'empire contre-attaque",
@@ -143,6 +155,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Star Wars : Episode 6 - Le retour du Jedi',
@@ -154,6 +167,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Star Wars : Episode 7 - Le réveil de la Force',
@@ -165,6 +179,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Star Wars : Episode 8 - Le dernier Jedi',
@@ -176,6 +191,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Star Wars : Episode 9 - L'ascension de Skywalker",
@@ -187,6 +203,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Solo: A Star Wars Story',
@@ -198,6 +215,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Rogue One : A Star Wars Story',
@@ -209,6 +227,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Fast and Furious',
@@ -220,6 +239,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: '2 Fast 2 Furious',
@@ -231,6 +251,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Fast and Furious : Tokyo Drift',
@@ -242,6 +263,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Fast & Furious 4',
@@ -253,6 +275,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Fast & Furious 5',
@@ -264,6 +287,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Fast & Furious 6',
@@ -275,6 +299,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Fast & Furious 7',
@@ -286,6 +311,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Fast & Furious Presents: Hobbs & Shaw',
@@ -297,6 +323,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Fast & Furious 9',
@@ -308,6 +335,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Fast & Furious X',
@@ -319,6 +347,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Rocky',
@@ -330,6 +359,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Rocky II',
@@ -341,6 +371,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Rocky III',
@@ -352,6 +383,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Rocky IV',
@@ -363,6 +395,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Rocky V',
@@ -374,6 +407,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Rocky Balboa',
@@ -385,6 +419,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'The Terminator',
@@ -396,6 +431,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Terminator 2: Judgment Day',
@@ -407,6 +443,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Terminator 3: Rise of the Machines',
@@ -418,6 +455,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Terminator Renaissance',
@@ -429,6 +467,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Terminator Genisys',
@@ -440,6 +479,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Terminator: Dark Fate',
@@ -451,6 +491,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Dune',
@@ -462,6 +503,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Dune : Partie 2',
@@ -473,6 +515,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Murder Mystery',
@@ -484,6 +527,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Murder Mystery 2',
@@ -495,6 +539,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'John Wick',
@@ -506,6 +551,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'John Wick : Chapitre 2',
@@ -517,6 +563,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'John Wick: Chapter 3 - Parabellum',
@@ -528,6 +575,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'John Wick : Chapitre 4',
@@ -539,6 +587,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Les Animaux Fantastiques',
@@ -550,6 +599,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Les Animaux Fantastiques 2 : Les crimes de Grindelwald',
@@ -561,6 +611,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Les Animaux Fantastiques 3 : Les Secrets de Dumbledore',
@@ -572,6 +623,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Jack Reacher',
@@ -583,6 +635,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Jack Reacher : Never Go Back',
@@ -594,6 +647,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Enola Holmes',
@@ -605,6 +659,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Enola Holmes 2',
@@ -616,6 +671,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'A couteaux tirés',
@@ -627,6 +683,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'A couteaux tirés 2 : Glass Onion',
@@ -638,6 +695,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Wake up dead man : une histoire à couteaux tirés',
@@ -649,6 +707,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'James Bond: Meurs un autre jour',
@@ -660,6 +719,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'James Bond : Casino Royale',
@@ -671,6 +731,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'James Bond : Quantum of Solace',
@@ -682,6 +743,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'James Bond : Skyfall',
@@ -693,6 +755,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'James Bond : Spectre',
@@ -704,6 +767,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'James Bond : Mourir Peut Attendre',
@@ -715,6 +779,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "OSS 117 : Le Caire, Nid d'Espions",
@@ -726,6 +791,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'OSS 117 : Rio ne Répond Plus',
@@ -737,6 +803,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'OSS 117 : Alerte Rouge en Afrique Noire',
@@ -748,6 +815,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Incassable',
@@ -759,6 +827,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Split',
@@ -770,6 +839,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Glass',
@@ -781,6 +851,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Creed II',
@@ -792,6 +863,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'La mémoire dans la peau',
@@ -803,6 +875,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'La Mort dans la Peau',
@@ -814,6 +887,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'La Vengeance dans la Peau',
@@ -825,6 +899,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Jason Bourne',
@@ -836,6 +911,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Inssaisissables',
@@ -847,6 +923,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Inssaisissables 2',
@@ -858,6 +935,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Divergente',
@@ -869,6 +947,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Divergente 2 : L'Insurrection",
@@ -880,6 +959,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Divergente 3 : Au-delà du Mur',
@@ -891,6 +971,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Taken',
@@ -902,6 +983,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Taken 2',
@@ -913,6 +995,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Taken 3',
@@ -924,6 +1007,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le Labyrinthe',
@@ -935,6 +1019,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le Labyrinthe 2 : Le remède mortel',
@@ -946,6 +1031,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Hunger Games',
@@ -957,6 +1043,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Hunger Games : La Révolte - Partie 1',
@@ -968,6 +1055,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Transformers',
@@ -979,6 +1067,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Transformers 2 : La Revanche',
@@ -990,6 +1079,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Transformers 3 : La Face Cachée de la Lune',
@@ -1001,6 +1091,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Transformers 4 : L'Âge de l'Extinction",
@@ -1012,6 +1103,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'RED',
@@ -1023,6 +1115,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'RED 2',
@@ -1034,6 +1127,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Very Bad Trip',
@@ -1045,6 +1139,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Very Bad Trip 2',
@@ -1056,6 +1151,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Very Bad Trip 3',
@@ -1067,6 +1163,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Die Hard : Piège de cristal',
@@ -1078,6 +1175,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Die Hard 2 : 58 minutes pour vivre',
@@ -1089,6 +1187,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Die Hard 3 : une journée en enfer',
@@ -1100,6 +1199,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Die Hard 4 : Retour en Enfer',
@@ -1111,6 +1211,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Die Hard : Belle Journée pour Mourir',
@@ -1122,6 +1223,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Twilight : Chapitre 1 - Fascination',
@@ -1133,6 +1235,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Twilight : Chapitre 2 - Tentation',
@@ -1144,6 +1247,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Twilight : Chapitre 3 - Hésitation',
@@ -1155,6 +1259,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Twilight : Chapitre 4 - Révélation - Partie 1',
@@ -1166,6 +1271,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Twilight : Chapitre 4 - Révélation - Partie 2',
@@ -1177,6 +1283,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Underworld',
@@ -1188,6 +1295,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Underworld : Évolution',
@@ -1199,6 +1307,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Underworld : Rise of the Lycans',
@@ -1210,6 +1319,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Underworld : Éveil',
@@ -1221,6 +1331,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Destination Finale',
@@ -1232,6 +1343,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Destination Finale 2',
@@ -1243,6 +1355,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Destination Finale 3',
@@ -1254,6 +1367,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Destination Finale 4',
@@ -1265,6 +1379,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Destination Finale 5',
@@ -1276,5 +1391,6 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
 ];

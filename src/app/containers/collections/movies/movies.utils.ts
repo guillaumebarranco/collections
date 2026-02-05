@@ -136,6 +136,8 @@ export const getSortedMovies = (
           : 0;
         return dateA - dateB;
       });
+    case 'watchPriority':
+      return movies.sort((a, b) => b.watchPriority - a.watchPriority);
     default:
       return movies.sort((a, b) => a.title.localeCompare(b.title));
   }

@@ -11,6 +11,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Comment tuer son boss',
@@ -22,6 +23,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Super 8',
@@ -33,6 +35,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Drive',
@@ -44,6 +47,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'The Artist',
@@ -55,6 +59,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Sucker Punch',
@@ -66,6 +71,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Paul',
@@ -77,6 +83,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'The Social Network',
@@ -88,6 +95,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: '127 Heures',
@@ -99,6 +107,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Black Swan',
@@ -110,6 +119,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Expendables : Unité Spéciale',
@@ -121,6 +131,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Inception',
@@ -132,6 +143,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Fatal',
@@ -143,6 +155,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'The Karate Kid',
@@ -154,6 +167,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le Choc des Titans',
@@ -165,6 +179,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Alice au Pays des Merveilles',
@@ -176,6 +191,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Shutter Island',
@@ -187,6 +203,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Percy Jackson : Le Voleur de Foudre',
@@ -198,6 +215,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Brothers',
@@ -209,6 +227,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Lucky Luke',
@@ -220,6 +239,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le beau-père',
@@ -231,6 +251,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: '2012',
@@ -242,6 +263,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Zombieland',
@@ -253,6 +275,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'The Blind Side',
@@ -264,6 +287,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Mr. Nobody',
@@ -275,6 +299,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Coco',
@@ -286,6 +311,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Inglourious Basterds',
@@ -297,6 +323,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Hypertension',
@@ -308,6 +335,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Piège en haute mer',
@@ -319,6 +347,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Basic Instinct',
@@ -330,6 +359,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Reservoir Dogs',
@@ -341,6 +371,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le dernier samaritain',
@@ -352,6 +383,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Double Impact',
@@ -363,6 +395,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Point Break',
@@ -374,6 +407,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Les Affranchis',
@@ -385,6 +419,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Total Recall',
@@ -396,6 +431,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Nikita',
@@ -407,6 +443,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Last Action Hero',
@@ -418,6 +455,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Jurassic Park',
@@ -429,6 +467,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Cliffhanger',
@@ -440,6 +479,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Les visiteurs',
@@ -451,6 +491,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Demolition Man',
@@ -462,6 +503,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le fugitif',
@@ -473,6 +515,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le Manoir hanté et les 999 Fantômes',
@@ -484,6 +527,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Stuart Little',
@@ -495,6 +539,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "L'Apprenti sorcier",
@@ -506,6 +551,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Léon',
@@ -517,6 +563,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Cars 2',
@@ -528,6 +575,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: '1001 Pattes',
@@ -539,6 +587,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Casper',
@@ -550,6 +599,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le retour de Jafar',
@@ -561,6 +611,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Hook ou la Revanche du capitaine Crochet',
@@ -572,6 +623,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Cendrillon',
@@ -583,6 +635,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'La Belle au bois dormant',
@@ -594,6 +647,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'La Belle et le Clochard',
@@ -605,6 +659,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Fourmiz',
@@ -616,6 +671,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Nos 18 ans',
@@ -627,6 +683,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'The Do-Over',
@@ -638,6 +695,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Eh mec, elle est où ma caisse ?',
@@ -649,6 +707,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Exam',
@@ -660,6 +719,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Le Joyeux Noël d'Harold et Kumar",
@@ -671,6 +731,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Amour et turbulences',
@@ -682,6 +743,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Hot Babes',
@@ -693,6 +755,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'From Paris with Love',
@@ -704,6 +767,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'The Sex List',
@@ -715,6 +779,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Seul au monde',
@@ -726,6 +791,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Fighting',
@@ -737,6 +803,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Ali G',
@@ -748,6 +815,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Pas un bruit',
@@ -759,6 +827,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Traque sur Internet',
@@ -770,6 +839,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Les Evadés',
@@ -781,6 +851,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Écrire pour exister',
@@ -792,6 +863,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'The Perfect Date',
@@ -803,6 +875,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Adam à travers le temps',
@@ -814,6 +887,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Bubble',
@@ -825,6 +899,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Un Noël en Californie',
@@ -836,6 +911,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Cours particulier',
@@ -847,6 +923,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "20 ans d'écart",
@@ -858,6 +935,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "L'Amour en touriste",
@@ -869,6 +947,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Kill Bok-soon',
@@ -880,6 +959,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Ce Que Veulent Les Hommes',
@@ -891,6 +971,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Walter',
@@ -902,6 +983,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Dernier appel pour Istanbul',
@@ -913,6 +995,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Agent Stone',
@@ -924,6 +1007,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Mon âme sœur',
@@ -935,6 +1019,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le Prénom',
@@ -946,6 +1031,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Deux moi',
@@ -957,6 +1043,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Prise au jeu',
@@ -968,6 +1055,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Sous la Seine',
@@ -979,6 +1067,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'La Dernière Lettre de son amant',
@@ -990,6 +1079,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "L'Héritage",
@@ -1001,6 +1091,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: "Par-delà l'univers",
@@ -1012,6 +1103,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'The Princess Switch 3: Romancing the Star',
@@ -1023,6 +1115,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'The Electric State',
@@ -1034,6 +1127,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le nombre 23',
@@ -1045,6 +1139,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Boss Level',
@@ -1056,6 +1151,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Renaissances',
@@ -1067,6 +1163,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Shotgun Wedding',
@@ -1078,6 +1175,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Parasite',
@@ -1089,6 +1187,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Malavita',
@@ -1100,6 +1199,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'La princesse de Montpensier',
@@ -1111,6 +1211,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
   {
     title: 'Le Fils du Mask',
@@ -1122,5 +1223,6 @@ export const guillaumeMoviesPage5: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
+    watchPriority: 1,
   },
 ];
