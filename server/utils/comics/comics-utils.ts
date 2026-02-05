@@ -257,6 +257,9 @@ function updateComicInFile(filePath: string, comicData: any): boolean {
   comics[index] = {
     ...comics[index],
     ...comicData,
+    title: comicData.title ?? comics[index].title,
+    writer: comicData.writer ?? comics[index].writer,
+    readPriority: comicData.readPriority ?? comics[index].readPriority,
   };
 
   const newArrayContent = comics
@@ -268,6 +271,7 @@ function updateComicInFile(filePath: string, comicData: any): boolean {
     rating: ${comic.rating ?? 0},
     readTimes: ${comic.readTimes ?? 1},
     owned: ${comic.owned ?? false},
+    readPriority: ${comic.readPriority ?? 0},
   }`
     )
     .join(',\n');
@@ -318,6 +322,7 @@ function updateComicIdentityInFile(filePath: string, comicData: any): boolean {
     rating: ${comic.rating ?? 0},
     readTimes: ${comic.readTimes ?? 1},
     owned: ${comic.owned ?? false},
+    readPriority: ${comic.readPriority ?? 0},
   }`
     )
     .join(',\n');
