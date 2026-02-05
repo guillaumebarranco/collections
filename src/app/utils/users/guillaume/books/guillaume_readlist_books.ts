@@ -278,7 +278,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 0,
     owned: true,
-    readPriority: 1,
+    readPriority: 2,
   },
   {
     title: 'Un havre de paix',

@@ -66,6 +66,7 @@ export class SelectBooksComponent
       owned: false,
       readDate: '',
       rating: 0,
+      readPriority: 0,
     }));
 
     if (!this.isWatchOrReadlistMode()) {
