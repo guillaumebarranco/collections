@@ -45,6 +45,7 @@ import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
 import { getApiBaseUrl } from '../../../core/config';
+import { getFullManga } from '../../../helpers/full-entities-helper';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedManga = Manga & {
@@ -298,20 +299,7 @@ export class MangasComponent implements OnInit {
   private async refreshMangas() {
     if (this.isAdminView()) {
       const baseMangas = await getAllBaseMangas();
-      const mangas = baseMangas.map((manga) => ({
-        title: manga.title,
-        author: manga.author,
-        coverUrl: manga.coverUrl,
-        pages: manga.pages,
-        genre: manga.genre,
-        nbTomes: manga.nbTomes,
-        isFinished: manga.isFinished,
-        rating: 0,
-        readDate: '',
-        readTimes: 0,
-        owned: false,
-        readPriority: 0,
-      }));
+      const mangas = baseMangas.map(getFullManga);
       this.adminMangasList.set(mangas);
       this.baseMangasList.set(mangas);
       return;
@@ -325,22 +313,7 @@ export class MangasComponent implements OnInit {
     ]);
     this.mangasList.set(mangas);
     this.readlistMangasList.set(readlist);
-    this.baseMangasList.set(
-      baseMangas.map((manga) => ({
-        title: manga.title,
-        author: manga.author,
-        coverUrl: manga.coverUrl,
-        pages: manga.pages,
-        genre: manga.genre,
-        nbTomes: manga.nbTomes,
-        isFinished: manga.isFinished,
-        rating: 0,
-        readDate: '',
-        readTimes: 0,
-        owned: false,
-        readPriority: 0,
-      }))
-    );
+    this.baseMangasList.set(baseMangas.map(getFullManga));
   }
 
   private async refreshQuizzs() {

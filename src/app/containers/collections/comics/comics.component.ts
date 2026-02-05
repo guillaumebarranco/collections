@@ -43,6 +43,7 @@ import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
 import { getApiBaseUrl } from '../../../core/config';
+import { getFullComic } from '../../../helpers/full-entities-helper';
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedComic = Comic & {
   recommendationDetails: RecommendationDetail[];
@@ -285,19 +286,7 @@ export class ComicsComponent implements OnInit {
   private async refreshComics() {
     if (this.isAdminView()) {
       const baseComics = await getAllBaseComics();
-      const comics = baseComics.map((comic) => ({
-        title: comic.title,
-        writer: comic.writer,
-        coverUrl: comic.coverUrl,
-        pages: comic.pages,
-        genre: comic.genre,
-        designer: comic.designer,
-        rating: 0,
-        readDate: '',
-        readTimes: 0,
-        owned: false,
-        readPriority: 0,
-      }));
+      const comics = baseComics.map(getFullComic);
       this.adminComicsList.set(comics);
       this.baseComicsList.set(comics);
       return;
@@ -311,21 +300,7 @@ export class ComicsComponent implements OnInit {
     ]);
     this.comicsList.set(comics);
     this.readlistComicsList.set(readlist);
-    this.baseComicsList.set(
-      baseComics.map((comic) => ({
-        title: comic.title,
-        writer: comic.writer,
-        coverUrl: comic.coverUrl,
-        pages: comic.pages,
-        genre: comic.genre,
-        designer: comic.designer,
-        rating: 0,
-        readDate: '',
-        readTimes: 0,
-        owned: false,
-        readPriority: 0,
-      }))
-    );
+    this.baseComicsList.set(baseComics.map(getFullComic));
   }
 
   private async refreshQuizzs() {

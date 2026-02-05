@@ -13,6 +13,7 @@ import { AddGameComponent } from '../../../add/add-game/add-game.component';
 import { SelectEntityComponent } from '../../../../components/select-entity/select-entity.component';
 import { Router } from '@angular/router';
 import { getApiBaseUrl } from '../../../../core/config';
+import { getEmptyGame } from '../../../../helpers/empty-entities-helper';
 
 @Component({
   selector: 'app-select-games',
@@ -131,16 +132,7 @@ export class SelectGamesComponent
   }
 
   private async getAllGamesForSelection(_userId: string): Promise<Game[]> {
-    return (await getAllBaseGames()).map((game) => ({
-      ...game,
-      rating: 0,
-      timesFinished: 0,
-      additionnalEstimatedTime: 0,
-      platined: false,
-      timesFinishedHundredPercent: 0,
-      owned: false,
-      gamelistPriority: 0,
-    }));
+    return (await getAllBaseGames()).map(getEmptyGame);
   }
 
   protected async addSelectedGames(): Promise<void> {

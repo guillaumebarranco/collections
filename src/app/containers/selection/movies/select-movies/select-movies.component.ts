@@ -1,7 +1,7 @@
 import { Component, signal, computed, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../../components/menu/menu.component';
-import { Movie } from '../../../../models/movie-model';
+import { BaseMovie, Movie } from '../../../../models/movie-model';
 import {
   getAllBaseMovies,
   getCurrentWatchlistMoviesByUser,
@@ -13,6 +13,7 @@ import { AddMovieComponent } from '../../../add/add-movie/add-movie.component';
 import { SelectEntityComponent } from '../../../../components/select-entity/select-entity.component';
 import { Router } from '@angular/router';
 import { getApiBaseUrl } from '../../../../core/config';
+import { getEmptyMovie } from '../../../../helpers/empty-entities-helper';
 
 @Component({
   selector: 'app-select-movies',
@@ -143,17 +144,7 @@ export class SelectMoviesComponent
 
   private async getAllMoviesForSelection(userId: string): Promise<Movie[]> {
     const baseMovies = await getAllBaseMovies();
-    return baseMovies.map((movie) => ({
-      ...movie,
-      rating: 0,
-      timesWatched: 0,
-      firstViewedDate: '',
-      lastViewedDate: '',
-      seenAtCinema: false,
-      owned: false,
-      wantToSeeAgain: false,
-      watchPriority: 0,
-    }));
+    return baseMovies.map(getEmptyMovie);
   }
 
   protected async addSelectedMovies(): Promise<void> {

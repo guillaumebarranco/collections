@@ -38,6 +38,7 @@ import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
 import { getApiBaseUrl } from '../../../core/config';
+import { getFullGame } from '../../../helpers/full-entities-helper';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedGame = Game & {
@@ -219,25 +220,7 @@ export class GamesComponent implements OnInit {
   async refreshGames() {
     if (this.isAdminView()) {
       const baseGames = await getAllBaseGames();
-      const games = baseGames.map((game) => ({
-        title: game.title,
-        editor: game.editor,
-        hero: game.hero,
-        coverUrl: game.coverUrl,
-        releaseDate: game.releaseDate,
-        averageTimeToFinish: game.averageTimeToFinish,
-        averageTimeToHundredPercent: game.averageTimeToHundredPercent,
-        platform: game.platform,
-        saga: game.saga,
-        platineTime: game.platineTime,
-        rating: 0,
-        timesFinished: 0,
-        timesFinishedHundredPercent: 0,
-        additionnalEstimatedTime: 0,
-        platined: false,
-        owned: false,
-        gamelistPriority: 0,
-      }));
+      const games = baseGames.map(getFullGame);
       this.adminGamesList.set(games);
       this.baseGamesList.set(games);
       return;
@@ -251,27 +234,7 @@ export class GamesComponent implements OnInit {
     ]);
     this.gamesList.set(games);
     this.gamelistGamesList.set(gamelist);
-    this.baseGamesList.set(
-      baseGames.map((game) => ({
-        title: game.title,
-        editor: game.editor,
-        hero: game.hero,
-        coverUrl: game.coverUrl,
-        releaseDate: game.releaseDate,
-        averageTimeToFinish: game.averageTimeToFinish,
-        averageTimeToHundredPercent: game.averageTimeToHundredPercent,
-        platform: game.platform,
-        saga: game.saga,
-        platineTime: game.platineTime,
-        rating: 0,
-        timesFinished: 0,
-        timesFinishedHundredPercent: 0,
-        additionnalEstimatedTime: 0,
-        platined: false,
-        owned: false,
-        gamelistPriority: 0,
-      }))
-    );
+    this.baseGamesList.set(baseGames.map(getFullGame));
   }
 
   private async refreshQuizzs() {

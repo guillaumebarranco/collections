@@ -45,6 +45,7 @@ import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
 import { getApiBaseUrl } from '../../../core/config';
+import { getFullBd } from '../../../helpers/full-entities-helper';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedBd = Bd & {
@@ -296,21 +297,7 @@ export class BdsComponent implements OnInit {
   private async refreshBds() {
     if (this.isAdminView()) {
       const baseBds = await getAllBaseBds();
-      const bds = baseBds.map((bd) => ({
-        title: bd.title,
-        writer: bd.writer,
-        coverUrl: bd.coverUrl,
-        pages: bd.pages,
-        genre: bd.genre,
-        nbTomes: bd.nbTomes,
-        isFinished: bd.isFinished,
-        designer: bd.designer,
-        rating: 0,
-        readDate: '',
-        readTimes: 0,
-        owned: false,
-        readPriority: 0,
-      }));
+      const bds = baseBds.map(getFullBd);
       this.adminBdsList.set(bds);
       this.baseBdsList.set(bds);
       return;
@@ -324,23 +311,7 @@ export class BdsComponent implements OnInit {
     ]);
     this.bdsList.set(bds);
     this.readlistBdsList.set(readlist);
-    this.baseBdsList.set(
-      baseBds.map((bd) => ({
-        title: bd.title,
-        writer: bd.writer,
-        coverUrl: bd.coverUrl,
-        pages: bd.pages,
-        genre: bd.genre,
-        nbTomes: bd.nbTomes,
-        isFinished: bd.isFinished,
-        designer: bd.designer,
-        rating: 0,
-        readDate: '',
-        readTimes: 0,
-        owned: false,
-        readPriority: 0,
-      }))
-    );
+    this.baseBdsList.set(baseBds.map(getFullBd));
   }
 
   private async refreshQuizzs() {

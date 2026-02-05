@@ -46,6 +46,7 @@ import {
 } from './movies.utils';
 import { getApiBaseUrl } from '../../../core/config';
 import { MoviesHeaderComponent } from './movies-header/movies-header.component';
+import { getFullMovie } from '../../../helpers/full-entities-helper';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedMovie = Movie & {
@@ -442,24 +443,7 @@ export class MoviesComponent implements OnInit {
   async refreshMovies() {
     if (this.isAdminView()) {
       const baseMovies = await getAllBaseMovies();
-      const movies = baseMovies.map((movie) => ({
-        title: movie.title,
-        director: movie.director,
-        coverUrl: movie.coverUrl,
-        releaseDate: movie.releaseDate,
-        length: movie.length,
-        genre: movie.genre,
-        saga: movie.saga,
-        actors: movie.actors,
-        rating: 0,
-        timesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        seenAtCinema: false,
-        owned: false,
-        wantToSeeAgain: false,
-        watchPriority: 0,
-      }));
+      const movies = baseMovies.map(getFullMovie);
       this.adminMoviesList.set(movies);
       this.baseMoviesList.set(movies);
       return;
@@ -473,26 +457,7 @@ export class MoviesComponent implements OnInit {
     ]);
     this.moviesList.set(movies);
     this.watchingMoviesList.set(watchlist);
-    this.baseMoviesList.set(
-      baseMovies.map((movie) => ({
-        title: movie.title,
-        director: movie.director,
-        coverUrl: movie.coverUrl,
-        releaseDate: movie.releaseDate,
-        length: movie.length,
-        genre: movie.genre,
-        saga: movie.saga,
-        actors: movie.actors,
-        rating: 0,
-        timesWatched: 0,
-        firstViewedDate: '',
-        lastViewedDate: '',
-        seenAtCinema: false,
-        owned: false,
-        wantToSeeAgain: false,
-        watchPriority: 0,
-      }))
-    );
+    this.baseMoviesList.set(baseMovies.map(getFullMovie));
   }
 
   async refreshQuizzs() {

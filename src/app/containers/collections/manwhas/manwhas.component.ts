@@ -45,6 +45,7 @@ import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
 import { getApiBaseUrl } from '../../../core/config';
+import { getFullManwha } from '../../../helpers/full-entities-helper';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedManwha = Manwha & {
@@ -329,20 +330,7 @@ export class ManwhasComponent implements OnInit {
   private async refreshManwhas() {
     if (this.isAdminView()) {
       const baseManwhas = await getAllBaseManwhas();
-      const manwhas = baseManwhas.map((manwha) => ({
-        title: manwha.title,
-        author: manwha.author,
-        coverUrl: manwha.coverUrl,
-        pages: manwha.pages,
-        genre: manwha.genre,
-        nbChapters: manwha.nbChapters,
-        isFinished: manwha.isFinished,
-        rating: 0,
-        readDate: '',
-        readTimes: 0,
-        owned: false,
-        readPriority: 0,
-      }));
+      const manwhas = baseManwhas.map(getFullManwha);
       this.adminManwhasList.set(manwhas);
       this.baseManwhasList.set(manwhas);
       return;
@@ -356,24 +344,7 @@ export class ManwhasComponent implements OnInit {
     ]);
     this.manwhasList.set(manwhas);
     this.readlistManwhasList.set(readlist);
-    this.baseManwhasList.set(
-      baseManwhas.map((manwha) => ({
-        title: manwha.title,
-        author: manwha.author,
-        coverUrl: manwha.coverUrl,
-        pages: manwha.pages,
-        genre: manwha.genre,
-        nbChapters: manwha.nbChapters,
-        isFinished: manwha.isFinished,
-        rating: 0,
-        readDate: '',
-        readTimes: 0,
-        saga: '',
-        sagaOrder: 0,
-        owned: false,
-        readPriority: 0,
-      }))
-    );
+    this.baseManwhasList.set(baseManwhas.map(getFullManwha));
   }
 
   private async refreshQuizzs() {

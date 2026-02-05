@@ -50,6 +50,7 @@ import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
 import { getApiBaseUrl } from '../../../core/config';
+import { getFullBook } from '../../../helpers/full-entities-helper';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedBook = Book & {
@@ -188,22 +189,7 @@ export class BooksComponent implements OnInit {
   async refreshBooks() {
     if (this.isAdminView()) {
       const baseBooks = await getAllBaseBooks();
-      const books = baseBooks.map((book) => ({
-        title: book.title,
-        author: book.author,
-        coverUrl: book.coverUrl,
-        pages: book.pages,
-        genre: book.genre,
-        saga: book.saga,
-        sagaOrder: book.sagaOrder,
-        nbTomes: book.nbTomes,
-        isFinished: book.isFinished,
-        rating: 0,
-        readDate: '',
-        readTimes: 0,
-        owned: false,
-        readPriority: 0,
-      }));
+      const books = baseBooks.map(getFullBook);
       this.adminBooksList.set(books);
       this.baseBooksList.set(books);
       return;
@@ -217,24 +203,7 @@ export class BooksComponent implements OnInit {
     ]);
     this.booksList.set(books);
     this.readlistBooksList.set(readlist);
-    this.baseBooksList.set(
-      baseBooks.map((book) => ({
-        title: book.title,
-        author: book.author,
-        coverUrl: book.coverUrl,
-        pages: book.pages,
-        genre: book.genre,
-        saga: book.saga,
-        sagaOrder: book.sagaOrder,
-        nbTomes: book.nbTomes,
-        isFinished: book.isFinished,
-        rating: 0,
-        readDate: '',
-        readTimes: 0,
-        owned: false,
-        readPriority: 0,
-      }))
-    );
+    this.baseBooksList.set(baseBooks.map(getFullBook));
   }
 
   async refreshQuizzs() {
@@ -734,7 +703,10 @@ export class BooksComponent implements OnInit {
     });
   }
 
-  async updateReadPriority(data: { book: Book; priority: number }): Promise<void> {
+  async updateReadPriority(data: {
+    book: Book;
+    priority: number;
+  }): Promise<void> {
     try {
       const response = await fetch(`${getApiBaseUrl()}/books`, {
         method: 'POST',
@@ -764,7 +736,10 @@ export class BooksComponent implements OnInit {
 
       await this.refreshBooks();
     } catch (error) {
-      console.warn('Erreur réseau lors de la mise à jour de la priorité.', error);
+      console.warn(
+        'Erreur réseau lors de la mise à jour de la priorité.',
+        error
+      );
     }
   }
 }

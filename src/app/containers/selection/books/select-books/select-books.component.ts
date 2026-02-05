@@ -16,6 +16,7 @@ import { SelectEntityComponent } from '../../../../components/select-entity/sele
 import { isLocalhost } from '../../../../core/config';
 import { Router } from '@angular/router';
 import { getApiBaseUrl } from '../../../../core/config';
+import { getEmptyBook } from '../../../../helpers/empty-entities-helper';
 
 @Component({
   selector: 'app-select-books',
@@ -56,18 +57,7 @@ export class SelectBooksComponent
 
   // Tous les livres de tous les utilisateurs, filtrés si mode readlist ou ajout
   allBooks = computed<Book[]>(() => {
-    const allBooksList = this.baseBooks().map((book) => ({
-      title: book.title,
-      author: book.author,
-      coverUrl: book.coverUrl,
-      genre: book.genre,
-      saga: book.saga,
-      sagaOrder: book.sagaOrder,
-      owned: false,
-      readDate: '',
-      rating: 0,
-      readPriority: 0,
-    }));
+    const allBooksList = this.baseBooks().map(getEmptyBook);
 
     if (!this.isWatchOrReadlistMode()) {
       return allBooksList.filter(

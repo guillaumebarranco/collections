@@ -9,7 +9,6 @@ import {
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddSerieComponent } from '../../../add/add-serie/add-serie.component';
-import { Router } from '@angular/router';
 import { getApiBaseUrl } from '../../../../core/config';
 
 @Component({

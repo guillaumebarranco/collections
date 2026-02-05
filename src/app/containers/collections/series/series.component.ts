@@ -42,6 +42,7 @@ import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
 import { getApiBaseUrl } from '../../../core/config';
+import { getFullSerie } from '../../../helpers/full-entities-helper';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedSerie = Serie & {
@@ -219,19 +220,7 @@ export class SeriesComponent implements OnInit {
   async refreshSeries() {
     if (this.isAdminView()) {
       const baseSeries = await getAllBaseSeries();
-      const series = baseSeries.map((serie) => ({
-        title: serie.title,
-        director: serie.director,
-        actors: serie.actors,
-        coverUrl: serie.coverUrl,
-        releaseDate: serie.releaseDate,
-        endDate: serie.endDate,
-        genre: serie.genre,
-        seasonsData: serie.seasonsData,
-        seasons: [],
-        owned: false,
-        watchPriority: 0,
-      }));
+      const series = baseSeries.map(getFullSerie);
       this.adminSeriesList.set(series);
       this.baseSeriesList.set(series);
       return;
@@ -245,21 +234,7 @@ export class SeriesComponent implements OnInit {
     ]);
     this.seriesList.set(series);
     this.watchingSeriesList.set(watchlist);
-    this.baseSeriesList.set(
-      baseSeries.map((serie) => ({
-        title: serie.title,
-        director: serie.director,
-        actors: serie.actors,
-        coverUrl: serie.coverUrl,
-        releaseDate: serie.releaseDate,
-        endDate: serie.endDate,
-        genre: serie.genre,
-        seasonsData: serie.seasonsData,
-        seasons: [],
-        owned: false,
-        watchPriority: 0,
-      }))
-    );
+    this.baseSeriesList.set(baseSeries.map(getFullSerie));
   }
 
   private async refreshQuizzs() {
