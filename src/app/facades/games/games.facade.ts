@@ -15,6 +15,7 @@ import {
 } from './api-games.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
 import { users } from '../../utils/users/users';
+import { getGameDataFromUserGameAndBaseGame } from '../../helpers/entities.helper';
 
 const fetchBaseGamesCached = createCachedFetcher(fetchBaseGamesFromApi);
 
@@ -34,26 +35,7 @@ async function getAllGamesData(games: UserGame[]): Promise<Game[]> {
             return baseGame.editor === game.editor;
           })[0];
 
-    return {
-      title: game.title,
-      editor: game.editor,
-      rating: game.rating,
-      timesFinished: game.timesFinished,
-      additionnalEstimatedTime: game.additionnalEstimatedTime,
-      hero: definitiveMatchingGame?.hero || '',
-      coverUrl: definitiveMatchingGame?.coverUrl || '',
-      releaseDate: definitiveMatchingGame?.releaseDate || '',
-      averageTimeToFinish: definitiveMatchingGame?.averageTimeToFinish || 0,
-      platform: definitiveMatchingGame?.platform || '',
-      saga: definitiveMatchingGame?.saga || '',
-      platineTime: definitiveMatchingGame?.platineTime || 0,
-      platined: game.platined,
-      timesFinishedHundredPercent: game.timesFinishedHundredPercent,
-      averageTimeToHundredPercent:
-        definitiveMatchingGame?.averageTimeToHundredPercent || 0,
-      owned: game.owned,
-      gamelistPriority: game.gamelistPriority,
-    };
+    return getGameDataFromUserGameAndBaseGame(game, definitiveMatchingGame);
   });
 }
 

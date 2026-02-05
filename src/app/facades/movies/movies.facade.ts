@@ -14,6 +14,7 @@ import {
 } from './api-movies.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
 import { users } from '../../utils/users/users';
+import { getMovieDataFromUserMovieAndBaseMovie } from '../../helpers/entities.helper';
 
 const fetchBaseMoviesCached = createCachedFetcher(fetchBaseMoviesFromApi);
 
@@ -33,24 +34,10 @@ async function getAllMoviesData(movies: UserMovie[]): Promise<Movie[]> {
             return baseMovie.director === movie.director;
           })[0];
 
-    return {
-      title: movie.title,
-      director: movie.director,
-      rating: movie.rating,
-      timesWatched: movie.timesWatched,
-      firstViewedDate: movie.firstViewedDate,
-      lastViewedDate: movie.lastViewedDate,
-      actors: definitiveMatchingMovie?.actors || [],
-      coverUrl: definitiveMatchingMovie?.coverUrl || '',
-      releaseDate: definitiveMatchingMovie?.releaseDate || '',
-      length: definitiveMatchingMovie?.length || 0,
-      genre: definitiveMatchingMovie?.genre || '',
-      seenAtCinema: movie.seenAtCinema,
-      owned: movie.owned,
-      saga: definitiveMatchingMovie?.saga || '',
-      wantToSeeAgain: movie.wantToSeeAgain,
-      watchPriority: movie.watchPriority,
-    };
+    return getMovieDataFromUserMovieAndBaseMovie(
+      movie,
+      definitiveMatchingMovie
+    );
   });
 }
 

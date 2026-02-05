@@ -15,6 +15,7 @@ import {
 } from './api-books.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
 import { users } from '../../utils/users/users';
+import { getBookDataFromUserBookAndBaseBook } from '../../helpers/entities.helper';
 
 const fetchBaseBooksCached = createCachedFetcher(fetchBaseBooksFromApi);
 
@@ -34,20 +35,7 @@ async function getAllBooksData(books: UserBook[]): Promise<Book[]> {
             return baseBook.author === book.author;
           })[0];
 
-    return {
-      title: book.title,
-      author: book.author,
-      rating: book.rating,
-      readDate: book.readDate,
-      readTimes: book.readTimes,
-      coverUrl: definitiveMatchingBook?.coverUrl || '',
-      pages: definitiveMatchingBook?.pages || 0,
-      genre: definitiveMatchingBook?.genre || '',
-      saga: definitiveMatchingBook?.saga || '',
-      sagaOrder: definitiveMatchingBook?.sagaOrder || 0,
-      owned: book.owned,
-      readPriority: book.readPriority,
-    };
+    return getBookDataFromUserBookAndBaseBook(book, definitiveMatchingBook);
   });
 }
 

@@ -14,6 +14,7 @@ import {
 } from './api-bds.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
 import { users } from '../../utils/users/users';
+import { getBdDataFromUserBdAndBaseBd } from '../../helpers/entities.helper';
 
 const fetchBaseBdsCached = createCachedFetcher(fetchBaseBdsFromApi);
 
@@ -32,21 +33,7 @@ async function getAllBdsData(bds: UserBd[]): Promise<Bd[]> {
             return baseBd.writer === bd.writer;
           })[0];
 
-    return {
-      title: bd.title,
-      writer: bd.writer,
-      rating: bd.rating,
-      readDate: bd.readDate,
-      readTimes: bd.readTimes,
-      coverUrl: definitiveMatchingBd?.coverUrl || '',
-      pages: definitiveMatchingBd?.pages || 0,
-      genre: definitiveMatchingBd?.genre || '',
-      nbTomes: definitiveMatchingBd?.nbTomes || 0,
-      isFinished: definitiveMatchingBd?.isFinished || false,
-      designer: definitiveMatchingBd?.designer || '',
-      owned: bd.owned,
-      readPriority: bd.readPriority,
-    };
+    return getBdDataFromUserBdAndBaseBd(bd, definitiveMatchingBd);
   });
 }
 

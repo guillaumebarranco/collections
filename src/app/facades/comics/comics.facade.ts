@@ -14,6 +14,7 @@ import {
 } from './api-comics.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
 import { users } from '../../utils/users/users';
+import { getComicDataFromUserComicAndBaseComic } from '../../helpers/entities.helper';
 
 const fetchBaseComicsCached = createCachedFetcher(fetchBaseComicsFromApi);
 
@@ -32,19 +33,10 @@ async function getAllComicsData(comics: UserComic[]): Promise<Comic[]> {
             return baseComic.writer === comic.writer;
           })[0];
 
-    return {
-      title: comic.title,
-      writer: comic.writer,
-      rating: comic.rating,
-      readDate: comic.readDate,
-      readTimes: comic.readTimes,
-      coverUrl: definitiveMatchingComic?.coverUrl || '',
-      pages: definitiveMatchingComic?.pages || 0,
-      genre: definitiveMatchingComic?.genre || '',
-      designer: definitiveMatchingComic?.designer || '',
-      owned: comic.owned,
-      readPriority: comic.readPriority,
-    };
+    return getComicDataFromUserComicAndBaseComic(
+      comic,
+      definitiveMatchingComic
+    );
   });
 }
 

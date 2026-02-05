@@ -20,6 +20,7 @@ import {
 } from './api-series.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
 import { users } from '../../utils/users/users';
+import { getSerieDataFromUserSerieAndBaseSerie } from '../../helpers/entities.helper';
 
 const fetchBaseSeriesCached = createCachedFetcher(fetchBaseSeriesFromApi);
 
@@ -73,19 +74,11 @@ async function getAllSeriesData(series: UserSerie[]): Promise<Serie[]> {
       0;
     const seasons = buildSeasons(seasonsCount, serie.seasons);
 
-    return {
-      title: serie.title,
-      director: serie.director,
-      seasons,
-      actors: definitiveMatchingSerie?.actors || [],
-      coverUrl: definitiveMatchingSerie?.coverUrl || '',
-      releaseDate: definitiveMatchingSerie?.releaseDate || '',
-      endDate: definitiveMatchingSerie?.endDate || '',
-      genre: definitiveMatchingSerie?.genre || '',
-      seasonsData: definitiveMatchingSerie?.seasonsData || [],
-      owned: serie.owned,
-      watchPriority: serie.watchPriority,
-    };
+    return getSerieDataFromUserSerieAndBaseSerie(
+      serie,
+      definitiveMatchingSerie,
+      seasons
+    );
   });
 }
 

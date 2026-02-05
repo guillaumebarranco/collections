@@ -15,6 +15,7 @@ import {
 } from './api-manwhas.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
 import { users } from '../../utils/users/users';
+import { getManwhaDataFromUserManwhaAndBaseManwha } from '../../helpers/entities.helper';
 
 const fetchBaseManwhasCached = createCachedFetcher(fetchBaseManwhasFromApi);
 
@@ -33,22 +34,10 @@ async function getAllManwhasData(manwhas: UserManwha[]): Promise<Manwha[]> {
             return baseManwha.author === manwha.author;
           })[0];
 
-    return {
-      title: manwha.title,
-      author: manwha.author,
-      rating: manwha.rating,
-      readDate: manwha.readDate,
-      readTimes: manwha.readTimes,
-      coverUrl: definitiveMatchingManwha?.coverUrl || '',
-      pages: definitiveMatchingManwha?.pages || 0,
-      genre: definitiveMatchingManwha?.genre || '',
-      nbChapters: definitiveMatchingManwha?.nbChapters || 0,
-      isFinished: definitiveMatchingManwha?.isFinished || false,
-      saga: '',
-      sagaOrder: 0,
-      owned: manwha.owned,
-      readPriority: manwha.readPriority,
-    };
+    return getManwhaDataFromUserManwhaAndBaseManwha(
+      manwha,
+      definitiveMatchingManwha
+    );
   });
 }
 

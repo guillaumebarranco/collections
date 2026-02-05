@@ -15,6 +15,7 @@ import {
 } from './api-mangas.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
 import { users } from '../../utils/users/users';
+import { getMangaDataFromUserMangaAndBaseManga } from '../../helpers/entities.helper';
 
 const fetchBaseMangasCached = createCachedFetcher(fetchBaseMangasFromApi);
 
@@ -33,20 +34,10 @@ async function getAllMangasData(mangas: UserManga[]): Promise<Manga[]> {
             return baseManga.author === manga.author;
           })[0];
 
-    return {
-      title: manga.title,
-      author: manga.author,
-      rating: manga.rating,
-      readDate: manga.readDate,
-      readTimes: manga.readTimes,
-      coverUrl: definitiveMatchingManga?.coverUrl || '',
-      pages: definitiveMatchingManga?.pages || 0,
-      genre: definitiveMatchingManga?.genre || '',
-      nbTomes: definitiveMatchingManga?.nbTomes || 0,
-      isFinished: definitiveMatchingManga?.isFinished || false,
-      owned: manga.owned,
-      readPriority: manga.readPriority,
-    };
+    return getMangaDataFromUserMangaAndBaseManga(
+      manga,
+      definitiveMatchingManga
+    );
   });
 }
 
