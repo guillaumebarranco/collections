@@ -47,9 +47,11 @@ export class GameComponent {
   @Input() showAddToGamelistButton = false;
   @Input() isInGamelist = false;
   @Input() recommendationBadge = '';
+  @Input() isGamelistView = false;
   @Output() gameUpdated = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
   @Output() addToGamelist = new EventEmitter<Game>();
+  @Output() gamelistPriorityUpdated = new EventEmitter<{ game: Game; priority: number }>();
 
   isBaseEntityView = isBaseEntityView();
 

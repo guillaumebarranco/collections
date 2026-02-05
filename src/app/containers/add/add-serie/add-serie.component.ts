@@ -17,6 +17,7 @@ type AddSerieEntityForm = {
     nbEpisodes: number;
     totalLength: number;
   }[];
+  watchPriority: number;
 };
 
 type AddSerieDialogData = {
@@ -25,6 +26,7 @@ type AddSerieDialogData = {
 
 type AddSerieUserForm = {
   owned: boolean;
+  watchPriority: number;
   seasons: {
     seasonNumber: number;
     seasonRating: number;
@@ -59,6 +61,7 @@ export class AddSerieComponent {
     endDate: '',
     genre: '',
     seasonsData: [],
+    watchPriority: 0,
   });
 
   userForm = signal<AddSerieUserForm>({
@@ -150,15 +153,14 @@ export class AddSerieComponent {
     });
   }
 
-  updateUserField<K extends keyof AddSerieUserForm>(
-    field: K,
-    value: number
-  ) {
+  updateUserField<K extends keyof AddSerieUserForm>(field: K, value: number) {
     const current = this.userForm();
     let nextValue: AddSerieUserForm[K] = value as AddSerieUserForm[K];
     if (field === 'watchPriority') {
       const asNumber = Number(value);
-      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as AddSerieUserForm[K];
+      nextValue = (
+        Number.isNaN(asNumber) ? 0 : asNumber
+      ) as AddSerieUserForm[K];
     }
     this.userForm.set({
       ...current,
@@ -180,8 +182,8 @@ export class AddSerieComponent {
               field === 'lastViewedDate'
                 ? String(value)
                 : Number.isNaN(Number(value))
-                  ? 0
-                  : Number(value),
+                ? 0
+                : Number(value),
           }
         : season
     );

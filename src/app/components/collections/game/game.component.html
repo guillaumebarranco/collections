@@ -62,6 +62,22 @@
     <p class="recommendation-text">{{ recommendationText }}</p>
     } @if (recommendationBadge) {
     <span class="missing-badge">{{ recommendationBadge }}</span>
+    } @if (isGamelistView && !isBaseEntityView) {
+    <div class="gamelist-priority">
+      <div class="priority-label">Priorité :</div>
+      <div>
+        @for (priority of [1, 2, 3]; track priority) {
+        <button
+          class="makya-btn-times"
+          [class.active]="game.gamelistPriority === priority"
+          (click)="updateGamelistPriority(priority)"
+          [title]="'Priorité ' + priority"
+        >
+          {{ priority }}
+        </button>
+        }
+      </div>
+    </div>
     } @if (showAddToGamelistButton && !isBaseEntityView) { @if(!isInGamelist) {
     <button class="makya-btn-small" (click)="addToGamelist.emit(game)">
       Ajouter à ma gamelist
