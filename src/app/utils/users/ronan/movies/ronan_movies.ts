@@ -10656,4 +10656,28 @@ export const ronanMovies: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
   },
+
+  {
+    title: 'Sonic 3, le film',
+    director: 'Jeff Fowler',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2026-02-04',
+    lastViewedDate: '2026-02-04',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+  },
+
+  {
+    title: 'N\'oublie Jamais',
+    director: 'Nick Cassavetes',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2026-02-04',
+    lastViewedDate: '2026-02-04',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+  },
 ];
