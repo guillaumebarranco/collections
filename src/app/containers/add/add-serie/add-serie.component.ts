@@ -63,6 +63,7 @@ export class AddSerieComponent {
 
   userForm = signal<AddSerieUserForm>({
     owned: false,
+    watchPriority: 0,
     seasons: [],
   });
 
@@ -149,6 +150,22 @@ export class AddSerieComponent {
     });
   }
 
+  updateUserField<K extends keyof AddSerieUserForm>(
+    field: K,
+    value: number
+  ) {
+    const current = this.userForm();
+    let nextValue: AddSerieUserForm[K] = value as AddSerieUserForm[K];
+    if (field === 'watchPriority') {
+      const asNumber = Number(value);
+      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as AddSerieUserForm[K];
+    }
+    this.userForm.set({
+      ...current,
+      [field]: nextValue,
+    });
+  }
+
   updateUserSeasonField(
     index: number,
     field: 'seasonRating' | 'seasonTimesWatched' | 'lastViewedDate',
@@ -214,6 +231,7 @@ export class AddSerieComponent {
           },
           user: {
             owned: this.userForm().owned,
+            watchPriority: this.userForm().watchPriority,
             seasons: this.userForm().seasons,
           },
         }),

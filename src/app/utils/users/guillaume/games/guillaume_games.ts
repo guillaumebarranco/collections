@@ -11,6 +11,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 2,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'The Legend of Zelda: The Wind Waker',
@@ -21,6 +22,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 1,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'The Legend of Zelda: Twilight Princess',
@@ -31,6 +33,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 1,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'The Legend of Zelda: Skyward Sword',
@@ -41,6 +44,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 1,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'The Legend of Zelda: Breath of the Wild',
@@ -51,6 +55,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 1,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'The Legend of Zelda: A Link to the Past',
@@ -61,6 +66,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "The Legend of Zelda: Link's Awakening",
@@ -71,6 +77,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'The Legend of Zelda: Oracle of Seasons',
@@ -81,6 +88,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'The Legend of Zelda: Oracle of Ages',
@@ -91,6 +99,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'The Legend of Zelda: The Minish Cap',
@@ -101,6 +110,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   // Call of Duty
   {
@@ -112,6 +122,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 250,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Call of Duty: World at War',
@@ -122,6 +133,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 300,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Call of Duty: Modern Warfare 2',
@@ -132,6 +144,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 250,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Call of Duty: Black Ops',
@@ -142,6 +155,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 800,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Call of Duty: Modern Warfare 3',
@@ -152,6 +166,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 250,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Call of Duty: Black Ops II',
@@ -162,6 +177,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 150,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Call of Duty: Black Ops III',
@@ -172,6 +188,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 871,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Call of Duty: Infinite Warfare',
@@ -182,6 +199,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 40,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Call of Duty: WWII',
@@ -192,6 +210,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 90,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Call of Duty: Black Ops 4',
@@ -202,6 +221,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 494,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Call of Duty: Black Ops Cold War',
@@ -212,6 +232,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 380,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Call of Duty: Black Ops 6',
@@ -222,6 +243,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 245,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Call of Duty: Black Ops 7',
@@ -232,6 +254,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 150,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   // Pokémon
   {
@@ -243,6 +266,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 1,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Pokémon Or',
@@ -253,6 +277,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Pokémon Cristal',
@@ -263,6 +288,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Pokémon Saphir',
@@ -273,6 +299,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 240,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Pokémon Émeraude',
@@ -283,6 +310,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 100,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Pokémon Rouge Feu',
@@ -293,6 +321,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 50,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Pokémon Bouclier',
@@ -303,6 +332,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 150,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Pokémon Violet',
@@ -313,6 +343,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 150,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   // One Piece
   {
@@ -324,6 +355,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'One Piece: Unlimited Cruise Episode 2',
@@ -334,6 +366,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 1,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'One Piece: Pirate Warriors',
@@ -344,6 +377,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'One Piece: Pirate Warriors 2',
@@ -354,6 +388,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'One Piece: Unlimited World Red',
@@ -364,6 +399,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'One Piece: Pirate Warriors 3',
@@ -374,6 +410,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'One Piece: Burning Blood',
@@ -384,6 +421,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 50,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'One Piece: Treasure Cruise',
@@ -394,6 +432,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 2500,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   // Naruto Storm
   {
@@ -405,6 +444,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 30,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Naruto Shippuden: Ultimate Ninja Storm 2',
@@ -415,6 +455,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 30,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Naruto Shippuden: Ultimate Ninja Storm 3',
@@ -425,6 +466,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 30,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Naruto Shippuden: Ultimate Ninja Storm 4',
@@ -435,6 +477,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 15,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   // Infamous
   {
@@ -446,6 +489,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Infamous 2',
@@ -456,6 +500,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Infamous: Second Son',
@@ -466,6 +511,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Infamous: First Light',
@@ -476,6 +522,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   // Super Smash Bros
   {
@@ -487,6 +534,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 300,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Super Smash Bros. Ultimate',
@@ -497,6 +545,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 400,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   // LittleBigPlanet
   {
@@ -508,6 +557,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   // Brutal Legend
   {
@@ -519,6 +569,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 10,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   // Batman Arkham
   {
@@ -530,6 +581,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   // Spider-Man
   {
@@ -541,6 +593,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Marvel's Spider-Man",
@@ -551,6 +604,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Marvel's Spider-Man: Miles Morales",
@@ -561,6 +615,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Marvel's Spider-Man 2",
@@ -571,6 +626,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   // Dead Nation
   {
@@ -582,6 +638,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   // BioShock
   {
@@ -593,6 +650,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   // Brothers
   {
@@ -604,6 +662,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   // Injustice
   {
@@ -615,6 +674,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   // Mirror's Edge
   {
@@ -626,6 +686,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   // PlayStation All-Stars
   {
@@ -637,6 +698,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   // Stick It to the Man
   {
@@ -648,6 +710,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   // Watch Dogs
   {
@@ -659,6 +722,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   // Super Meat Boy
   {
@@ -670,6 +734,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 250,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   // J-Stars Victory
   {
@@ -681,6 +746,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 15,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   // Dragon Ball
   {
@@ -692,6 +758,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 30,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Dragon Ball Z: Budokai 3',
@@ -702,6 +769,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 30,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Dragon Ball Z: Budokai Tenkaichi 2',
@@ -712,6 +780,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 50,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Dragon Ball Z: Dokkan Battle',
@@ -722,6 +791,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 1800,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   // Ratchet & Clank
   {
@@ -733,6 +803,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   // South Park
   {
@@ -744,6 +815,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 20,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   // God of War
   {
@@ -755,6 +827,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'God of War Ragnarök',
@@ -765,6 +838,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   // Hogwarts Legacy
   {
@@ -776,6 +850,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   // Metroid
   {
@@ -787,6 +862,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 1,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Metroid: Zero Mission',
@@ -797,6 +873,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Metroid Prime',
@@ -807,6 +884,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Metroid Prime 2: Echoes',
@@ -817,6 +895,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 5,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Metroid Prime 3: Corruption',
@@ -827,6 +906,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 20,
     timesFinishedHundredPercent: 1,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Metroid Dread',
@@ -837,6 +917,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   // Super Mario
   {
@@ -848,6 +929,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 15,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Super Mario Galaxy',
@@ -858,6 +940,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Super Mario Odyssey',
@@ -868,6 +951,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 10,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
 
   // Mario Kart
@@ -880,6 +964,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 200,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Mario Kart Wii',
@@ -890,6 +975,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 200,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Mario Kart 8 Deluxe',
@@ -900,6 +986,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 80,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   // Mario Party
   {
@@ -911,6 +998,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 100,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Mario Party 6',
@@ -921,6 +1009,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 100,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Mario Party 7',
@@ -931,6 +1020,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 100,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Mario Party 8',
@@ -941,6 +1031,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 50,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
 
   {
@@ -952,6 +1043,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 30,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   // Paper Mario
   {
@@ -963,6 +1055,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   // Mario & Luigi
   {
@@ -974,6 +1067,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 5,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
 
   // Need for Speed
@@ -986,6 +1080,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Need for Speed: Carbon',
@@ -996,6 +1091,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   // Yu-Gi-Oh!
   {
@@ -1007,6 +1103,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 20,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Yu-Gi-Oh! The Sacred Cards',
@@ -1017,6 +1114,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 20,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Yu-Gi-Oh! Reshef of Destruction',
@@ -1027,6 +1125,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   // Medal of Honor
   {
@@ -1038,6 +1137,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   // Guitar Hero
   {
@@ -1049,6 +1149,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 200,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   // Luigi's Mansion
   {
@@ -1060,6 +1161,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   // Tekken
   {
@@ -1071,6 +1173,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 80,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   // Grand Theft Auto
   {
@@ -1082,6 +1185,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Grand Theft Auto: Vice City',
@@ -1092,6 +1196,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Grand Theft Auto: Vice City Stories',
@@ -1102,6 +1207,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 80,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Grand Theft Auto: Liberty City Stories',
@@ -1112,6 +1218,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 80,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   // Star Wars
   {
@@ -1123,6 +1230,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Lego Star Wars',
@@ -1133,6 +1241,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Star Wars: Rebel Strike',
@@ -1143,6 +1252,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 50,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   // Wario Ware
   {
@@ -1154,6 +1264,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 80,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   // Gunbound
   {
@@ -1165,6 +1276,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 300,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   // GoldenEye
   {
@@ -1176,6 +1288,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 20,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
   // Wii Sports
   {
@@ -1187,6 +1300,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 150,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   // Harry Potter
   {
@@ -1198,6 +1312,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 20,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   // Les Simpsons
   {
@@ -1209,6 +1324,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   // Sonic
   {
@@ -1220,6 +1336,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 15,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Sonic Unleashed',
@@ -1230,6 +1347,7 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     owned: true,
+    gamelistPriority: 1,
   },
   {
     title: 'Mario & Sonic aux Jeux Olympiques',
@@ -1240,6 +1358,7 @@ export const guillaumeGames: UserGames = [
     timesFinishedHundredPercent: 0,
     platined: false,
     owned: true,
+    gamelistPriority: 1,
   },
   // Super Smash Bros
   {
@@ -1251,5 +1370,6 @@ export const guillaumeGames: UserGames = [
     additionnalEstimatedTime: 150,
     timesFinishedHundredPercent: 0,
     owned: false,
+    gamelistPriority: 1,
   },
 ];

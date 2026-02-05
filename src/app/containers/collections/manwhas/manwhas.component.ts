@@ -339,6 +339,7 @@ export class ManwhasComponent implements OnInit {
         readDate: '',
         readTimes: 0,
         owned: false,
+        readPriority: 0,
       }));
       this.adminManwhasList.set(manwhas);
       this.baseManwhasList.set(manwhas);
@@ -368,6 +369,7 @@ export class ManwhasComponent implements OnInit {
         saga: '',
         sagaOrder: 0,
         owned: false,
+        readPriority: 0,
       }))
     );
   }

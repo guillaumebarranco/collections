@@ -28,6 +28,7 @@ type EditGameForm = {
   platined: boolean;
   timesFinishedHundredPercent: number;
   owned: boolean;
+  gamelistPriority: number;
 };
 
 type EditGameEntityForm = {
@@ -149,7 +150,8 @@ export class EditGameComponent {
       field === 'rating' ||
       field === 'timesFinished' ||
       field === 'additionnalEstimatedTime' ||
-      field === 'timesFinishedHundredPercent'
+      field === 'timesFinishedHundredPercent' ||
+      field === 'gamelistPriority'
     ) {
       const asNumber = Number(value);
       nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditGameForm[K];
@@ -239,6 +241,7 @@ export class EditGameComponent {
           additionnalEstimatedTime: form.additionnalEstimatedTime,
           platined: form.platined,
           owned: form.owned,
+          gamelistPriority: form.gamelistPriority,
           entity: this.isAdminView()
             ? this.toEntityPayload(this.gameEntityForm())
             : undefined,
@@ -430,6 +433,7 @@ export class EditGameComponent {
       platined: game.platined,
       timesFinishedHundredPercent: game.timesFinishedHundredPercent,
       owned: game.owned,
+      gamelistPriority: game.gamelistPriority ?? 0,
     };
   }
 

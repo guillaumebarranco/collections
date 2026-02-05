@@ -47,6 +47,7 @@ async function getAllManwhasData(manwhas: UserManwha[]): Promise<Manwha[]> {
       saga: '',
       sagaOrder: 0,
       owned: manwha.owned,
+      readPriority: manwha.readPriority,
     };
   });
 }

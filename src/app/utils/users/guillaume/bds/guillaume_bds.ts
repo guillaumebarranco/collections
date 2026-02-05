@@ -8,5 +8,6 @@ export const guillaumeBds: UserBds = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
 ];

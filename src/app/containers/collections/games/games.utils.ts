@@ -111,6 +111,15 @@ export const getSortedGames = (games: Game[], selectedSort: string): Game[] => {
           b.averageTimeToFinish * b.timesFinished + b.additionnalEstimatedTime;
         return totalTimeA - totalTimeB;
       });
+    case 'gamelistPriority':
+      return games.sort((a, b) => {
+        const priorityA = a.gamelistPriority ?? 0;
+        const priorityB = b.gamelistPriority ?? 0;
+        if (priorityB !== priorityA) {
+          return priorityB - priorityA;
+        }
+        return a.title.localeCompare(b.title);
+      });
     default:
       return games.sort((a, b) => a.title.localeCompare(b.title));
   }

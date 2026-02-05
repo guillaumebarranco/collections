@@ -54,7 +54,10 @@ router.post('/', (req: any, res: any) => {
 
     let updatedCount = 0;
     if (!entityOnly) {
-      const mangaFiles = getUserMangasFiles(userId);
+      const mangaFiles = [
+        ...getUserMangasFiles(userId),
+        ...getUserReadlistMangasFiles(userId),
+      ];
       if (!mangaFiles.length) {
         res.status(404).json({ error: 'User mangas not found' });
         return;

@@ -7,6 +7,7 @@ const {
   updateGameIdentityInFile,
   updateBaseGameInFiles,
   getUserGamesFiles,
+  getUserGamelistFiles,
 } = require('../../utils/games/games-utils');
 const { isAdminUser, loadUsers } = require('../../utils/users/users-utils');
 
@@ -56,7 +57,10 @@ router.post('/', (req: any, res: any) => {
 
     let updatedCount = 0;
     if (!entityOnly) {
-      const files = getUserGamesFiles(userId);
+      const files = [
+        ...getUserGamesFiles(userId),
+        ...getUserGamelistFiles(userId),
+      ];
       if (!files.length) {
         res.status(404).json({ error: 'User games not found' });
         return;

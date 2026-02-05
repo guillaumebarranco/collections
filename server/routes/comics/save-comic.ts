@@ -54,7 +54,10 @@ router.post('/', (req: any, res: any) => {
 
     let updatedCount = 0;
     if (!entityOnly) {
-      const comicFiles = getUserComicsFiles(userId);
+      const comicFiles = [
+        ...getUserComicsFiles(userId),
+        ...getUserReadlistComicsFiles(userId),
+      ];
       if (!comicFiles.length) {
         res.status(404).json({ error: 'User comics not found' });
         return;

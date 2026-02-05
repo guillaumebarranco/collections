@@ -8,6 +8,7 @@ export const ronanComics: UserComics = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "Justice League : Crise d'identité",
@@ -16,6 +17,7 @@ export const ronanComics: UserComics = [
     rating: 4.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "Justice League : La Ligue de Justice d'Amérique",
@@ -24,6 +26,7 @@ export const ronanComics: UserComics = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Justice League : La Guerre des Ligues',
@@ -32,6 +35,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Justice League : Le Règne du Mal - 1re partie',
@@ -40,6 +44,7 @@ export const ronanComics: UserComics = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Justice League : Le Règne du Mal - 2e partie',
@@ -48,6 +53,7 @@ export const ronanComics: UserComics = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "Justice League : La Ligue d'Injustice",
@@ -56,6 +62,7 @@ export const ronanComics: UserComics = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Justice League : La Guerre de Darkseid - 1re partie',
@@ -64,6 +71,7 @@ export const ronanComics: UserComics = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Justice League : La Guerre de Darkseid - 2e partie',
@@ -72,6 +80,7 @@ export const ronanComics: UserComics = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Superman : Requiem',
@@ -80,6 +89,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Superman : Président Lex Luthor',
@@ -88,6 +98,7 @@ export const ronanComics: UserComics = [
     rating: 2.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Red Son',
@@ -96,6 +107,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Brisé',
@@ -104,6 +116,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Amère Victoire - 1re partie',
@@ -112,6 +125,7 @@ export const ronanComics: UserComics = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Amère Victoire - 2e partie',
@@ -120,6 +134,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "L'autre terre",
@@ -128,6 +143,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'À Rome...',
@@ -136,6 +152,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Pour demain - 1re partie',
@@ -144,6 +161,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Pour demain - 2e partie',
@@ -152,6 +170,7 @@ export const ronanComics: UserComics = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'La splendeur du Pingouin',
@@ -160,6 +179,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "L'odyssée du mal",
@@ -168,6 +188,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Un deuil dans la famille',
@@ -176,6 +197,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Aux origines',
@@ -184,6 +206,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Couple mythique',
@@ -192,6 +215,7 @@ export const ronanComics: UserComics = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Légendes',
@@ -200,6 +224,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Le deuil de la famille',
@@ -208,6 +233,7 @@ export const ronanComics: UserComics = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'La mort de Superman',
@@ -216,6 +242,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Pièges et trapèzes',
@@ -224,6 +251,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "D'entre les ombres",
@@ -232,6 +260,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'La révolte des lascars',
@@ -240,6 +269,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Brainiac',
@@ -248,6 +278,7 @@ export const ronanComics: UserComics = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "Les patients d'Arkham",
@@ -256,6 +287,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Guerre au gorille',
@@ -264,6 +296,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "Le trône d'Atlantide",
@@ -272,6 +305,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'La balade de Lobo',
@@ -280,6 +314,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Sur la route',
@@ -288,6 +323,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'La République de demain',
@@ -296,6 +332,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Luthor',
@@ -304,6 +341,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Dans les bas-fonds',
@@ -312,6 +350,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Green Arrow - Année Un',
@@ -320,6 +359,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Killing Joke',
@@ -328,6 +368,7 @@ export const ronanComics: UserComics = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Machine à tuer',
@@ -336,6 +377,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Origines secrètes',
@@ -344,6 +386,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Année un',
@@ -352,6 +395,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Un long Halloween - 1re partie',
@@ -360,6 +404,7 @@ export const ronanComics: UserComics = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Un long Halloween - 2e partie',
@@ -368,6 +413,7 @@ export const ronanComics: UserComics = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Année un - 1re partie',
@@ -376,6 +422,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Année un - 2e partie',
@@ -384,6 +431,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Robin - Année Un',
@@ -392,6 +440,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'La naissance du démon',
@@ -400,6 +449,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "L'odyssée - 1re partie",
@@ -408,6 +458,7 @@ export const ronanComics: UserComics = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "L'odyssée - 2e partie",
@@ -416,6 +467,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'La fille de Batman',
@@ -424,6 +476,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Élégie',
@@ -432,6 +485,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'La revanche de Bane',
@@ -440,6 +494,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Dieux et mortels',
@@ -448,6 +503,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Kingdom Come',
@@ -456,6 +512,7 @@ export const ronanComics: UserComics = [
     rating: 4.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Peur abyssale',
@@ -464,6 +521,7 @@ export const ronanComics: UserComics = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Rassemblement',
@@ -472,6 +530,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Secrets et origines',
@@ -480,6 +539,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Cité brisée',
@@ -488,6 +548,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Complètement marteau',
@@ -496,6 +557,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Empereur Joker - 1re partie',
@@ -504,6 +566,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Empereur Joker - 2e partie',
@@ -512,6 +575,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Transmetropolitan - Tome 1',
@@ -520,6 +584,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Transmetropolitan - Tome 2',
@@ -528,6 +593,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Transmetropolitan - Tome 3',
@@ -536,6 +602,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Transmetropolitan - Tome 4',
@@ -544,6 +611,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Transmetropolitan - Tome 5',
@@ -552,6 +620,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Y, le Dernier Homme - Tome 1',
@@ -560,6 +629,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Y, le Dernier Homme - Tome 2',
@@ -568,6 +638,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Y, le Dernier Homme - Tome 3',
@@ -576,6 +647,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Y, le Dernier Homme - Tome 4',
@@ -584,6 +656,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Y, le Dernier Homme - Tome 5',
@@ -592,6 +665,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Y, le Dernier Homme - Tome 6',
@@ -600,6 +674,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Fables - Tome 1',
@@ -608,6 +683,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Fables - Tome 2',
@@ -616,6 +692,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Fables - Tome 3',
@@ -624,6 +701,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Fables - Tome 4',
@@ -632,6 +710,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Fables - Tome 5',
@@ -640,6 +719,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Preacher - Tome 1',
@@ -648,6 +728,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Preacher - Tome 2',
@@ -656,6 +737,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Preacher - Tome 3',
@@ -664,6 +746,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Preacher - Tome 4',
@@ -672,6 +755,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Batman White Knight',
@@ -680,6 +764,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Top 10',
@@ -688,6 +773,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Les seigneurs de Bagdad',
@@ -696,6 +782,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Hellblazer : Dépendance mortelle',
@@ -704,6 +791,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'All-Star Superman',
@@ -712,6 +800,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Superman : Up in the Sky',
@@ -720,6 +809,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Superman : Écrase le Klan',
@@ -728,6 +818,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Superman : Les Origines',
@@ -736,6 +827,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Superman : American Alien',
@@ -744,6 +836,7 @@ export const ronanComics: UserComics = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Batman : Tueur né',
@@ -752,6 +845,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'DCeased',
@@ -760,6 +854,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Mister Miracle',
@@ -768,6 +863,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Fables - Tome 6',
@@ -776,6 +872,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Fables - Tome 7',
@@ -784,6 +881,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Fables - Tome 8',
@@ -792,6 +890,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Fables - Tome 9',
@@ -800,6 +899,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Flashpoint : Édition 10 ans',
@@ -808,6 +908,7 @@ export const ronanComics: UserComics = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "Batman : L'énigme de Red Hood",
@@ -816,6 +917,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Absolute Superman',
@@ -824,6 +926,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Absolute Batman',
@@ -832,6 +935,7 @@ export const ronanComics: UserComics = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Absolute Justice League Unlimited',
@@ -840,6 +944,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Superman : Dark Prophecy',
@@ -848,6 +953,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Crisis on Infinite Earths',
@@ -856,6 +962,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Supergirl : Woman of Tomorrow',
@@ -864,6 +971,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Superman : Lost',
@@ -872,6 +980,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Dark Knights of Steel : Au loin',
@@ -880,6 +989,7 @@ export const ronanComics: UserComics = [
     rating: 4.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Dark Knights of Steel : La guerre des trois royaumes',
@@ -888,6 +998,7 @@ export const ronanComics: UserComics = [
     rating: 4.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Dark Knights of Steel : Allwinter',
@@ -896,6 +1007,7 @@ export const ronanComics: UserComics = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Joker : The Winning Card',
@@ -904,6 +1016,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Batman : Damned',
@@ -912,6 +1025,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'DC Universe Rebirth',
@@ -920,6 +1034,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Batman : Trois Jokers',
@@ -928,6 +1043,7 @@ export const ronanComics: UserComics = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Batman : Imposter',
@@ -936,6 +1052,7 @@ export const ronanComics: UserComics = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Batman Rebirth - Tome 1',
@@ -944,6 +1061,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Batman Rebirth - Tome 2',
@@ -952,6 +1070,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Batman Metal - Tome 1',
@@ -960,6 +1079,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Batman Metal - Tome 2',
@@ -968,6 +1088,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Batman Noël',
@@ -976,6 +1097,7 @@ export const ronanComics: UserComics = [
     rating: 2.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Batman : Le cœur de silence',
@@ -984,6 +1106,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Batman : Terre-un',
@@ -992,6 +1115,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Batman : Sombre reflet',
@@ -1000,6 +1124,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Batman : Année Zéro',
@@ -1008,6 +1133,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Batman : Curse of the White Knight',
@@ -1016,6 +1142,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Green Lantern - Tome 1',
@@ -1024,6 +1151,7 @@ export const ronanComics: UserComics = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Green Lantern - Tome 2',
@@ -1032,6 +1160,7 @@ export const ronanComics: UserComics = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Green Lantern - Tome 3',
@@ -1040,6 +1169,7 @@ export const ronanComics: UserComics = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Batman Anthologie',
@@ -1048,6 +1178,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'DC Comics Anthologie',
@@ -1056,6 +1187,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Batman Beyond : The White Knight',
@@ -1064,6 +1196,7 @@ export const ronanComics: UserComics = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Batman : Bane',
@@ -1072,6 +1205,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Batman : Deathstroke',
@@ -1080,6 +1214,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Batman : Le Pingouin',
@@ -1088,6 +1223,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "Batman : L'asile d'Arkham",
@@ -1096,6 +1232,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Joker : Mauvaises fréquentations',
@@ -1104,6 +1241,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Harley Quinn Rebirth',
@@ -1112,6 +1250,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Les sirènes de Gotham',
@@ -1120,6 +1259,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Justice League : Forever Evil',
@@ -1128,6 +1268,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Suicide Squad Rebirth',
@@ -1136,6 +1277,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Justice League vs Suicide Squad',
@@ -1144,6 +1286,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Superman Anthologie',
@@ -1152,6 +1295,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Superman : Identité secrète',
@@ -1160,6 +1304,7 @@ export const ronanComics: UserComics = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Spider-Man',
@@ -1168,6 +1313,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Spider-Man : Bleu',
@@ -1176,6 +1322,7 @@ export const ronanComics: UserComics = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Venom : Rex',
@@ -1184,6 +1331,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Wolverine : Les origines',
@@ -1192,6 +1340,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Thor : La déesse du tonnerre',
@@ -1200,6 +1349,7 @@ export const ronanComics: UserComics = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Ultimates : Super-humain',
@@ -1208,6 +1358,7 @@ export const ronanComics: UserComics = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Thanos : Thanos gagne',
@@ -1216,6 +1367,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Immortal Hulk : Ou est-il des deux ?',
@@ -1224,6 +1376,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Captain Marvel : La vie de Captain Marvel',
@@ -1232,6 +1385,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Hawkeye : Ma vie est une arme',
@@ -1240,6 +1394,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Daredevil : Jaune',
@@ -1248,6 +1403,7 @@ export const ronanComics: UserComics = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Cosmic Ghost Rider : Bébé Thanos doit mourir',
@@ -1256,6 +1412,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Deadpool : Massacre',
@@ -1264,6 +1421,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Marvel Zombies : La famine',
@@ -1272,6 +1430,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "Spider-Man : L'empire",
@@ -1280,6 +1439,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Spider-Man : Spider-Geddon',
@@ -1288,6 +1448,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Avengers : Les origines',
@@ -1296,6 +1457,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Avengers : Les nuits de Wundagore',
@@ -1304,6 +1466,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Avengers : État de siège',
@@ -1312,6 +1475,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Avengers : Ultron Unlimited',
@@ -1320,6 +1484,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Avengers : Dark Avengers',
@@ -1328,6 +1493,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Avengers : Le monde des Avengers',
@@ -1336,6 +1502,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "Captain America : Le soldat de l'hiver",
@@ -1344,6 +1511,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Les Gardiens de la Galaxie',
@@ -1352,6 +1520,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Thor : Renaissance',
@@ -1360,6 +1529,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Thanos : La quête de Thanos',
@@ -1368,6 +1538,7 @@ export const ronanComics: UserComics = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Venom vs Carnage : Un enfant est né',
@@ -1376,6 +1547,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Deadpool : Il faut soigner le soldat Wilson',
@@ -1384,6 +1556,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "Wolverine : L'arme X",
@@ -1392,6 +1565,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "Spider-Man : N'est plus !",
@@ -1400,6 +1574,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Spider-Man : La saga du Rédempteur',
@@ -1408,6 +1583,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Spider-Man : La naissance de Venom',
@@ -1416,6 +1592,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Spider-Man : Révélations',
@@ -1424,6 +1601,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Spider-Man : Apprentissage',
@@ -1432,6 +1610,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Spider-Man : Le cauchemar',
@@ -1440,6 +1619,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Spider-Man : Spider-Men',
@@ -1448,6 +1628,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'The Boys : Ça va faire très mal !',
@@ -1456,6 +1637,7 @@ export const ronanComics: UserComics = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'The Boys : Ça va saigner !',
@@ -1464,6 +1646,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'The Boys : Dit comme ça...',
@@ -1472,6 +1655,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'The Boys : Croire',
@@ -1480,6 +1664,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'The Boys : Le fils du boulanger',
@@ -1488,6 +1673,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'The Boys : On ne prend plus de gants',
@@ -1496,6 +1682,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'The Boys : Chère Becky',
@@ -1504,6 +1691,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Kick-Ass - Tome 1',
@@ -1512,6 +1700,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Kick-Ass - Tome 2',
@@ -1520,6 +1709,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Kick-Ass - Tome 3',
@@ -1528,6 +1718,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Avengers : La séparation',
@@ -1536,6 +1727,7 @@ export const ronanComics: UserComics = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Daredevil : End of Days',
@@ -1544,6 +1736,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Les Guerres Secrètes',
@@ -1552,6 +1745,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'World War Hulk',
@@ -1560,6 +1754,7 @@ export const ronanComics: UserComics = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Spider-Man : Le retour du Bouffon Vert',
@@ -1568,6 +1763,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'House of M',
@@ -1576,6 +1772,7 @@ export const ronanComics: UserComics = [
     rating: 4.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Uncanny Avengers : Nouvelle Union',
@@ -1584,6 +1781,7 @@ export const ronanComics: UserComics = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "Thanos : L'ascension",
@@ -1592,6 +1790,7 @@ export const ronanComics: UserComics = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Spider-Man : La dernière chasse de Kraven',
@@ -1600,6 +1799,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "Thanos : Le gant de l'infini",
@@ -1608,6 +1808,7 @@ export const ronanComics: UserComics = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "Thanos : La guerre de l'infini",
@@ -1616,6 +1817,7 @@ export const ronanComics: UserComics = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "Thanos : La croisade de l'infini",
@@ -1624,6 +1826,7 @@ export const ronanComics: UserComics = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'La mort de Wolverine',
@@ -1632,6 +1835,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Wolverine : Old Man Logan',
@@ -1640,6 +1844,7 @@ export const ronanComics: UserComics = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Spider-Man : Spider-Verse',
@@ -1648,6 +1853,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Spider-Man : De père en fils',
@@ -1656,6 +1862,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Avengers',
@@ -1664,6 +1871,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Daredevil - Tome 1',
@@ -1672,6 +1880,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Daredevil - Tome 2',
@@ -1680,6 +1889,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Daredevil - Tome 3',
@@ -1688,6 +1898,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Daredevil - Tome 4',
@@ -1696,6 +1907,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Spider-Man : 11 septembre 2001',
@@ -1704,6 +1916,7 @@ export const ronanComics: UserComics = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Spider-Man : Son of M',
@@ -1712,6 +1925,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Spider-Man : La vraie saga du clone',
@@ -1720,6 +1934,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Spider-Man : Tandem',
@@ -1728,6 +1943,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "Spider-Man : L'attaque",
@@ -1736,6 +1952,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Civil War',
@@ -1744,6 +1961,7 @@ export const ronanComics: UserComics = [
     rating: 4.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Planet Hulk',
@@ -1752,6 +1970,7 @@ export const ronanComics: UserComics = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Avengers vs X-Men',
@@ -1760,6 +1979,7 @@ export const ronanComics: UserComics = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Infinity',
@@ -1768,6 +1988,7 @@ export const ronanComics: UserComics = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Secret Wars',
@@ -1776,6 +1997,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Marvel Icons',
@@ -1784,6 +2006,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Spider-Man Noir : Cinquante nuances de noir',
@@ -1792,6 +2015,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'X-Men : House of X / Powers of X',
@@ -1800,6 +2024,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Astonishing X-Men : Surdoués',
@@ -1808,6 +2033,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Astonishing X-Men : Invincible',
@@ -1816,6 +2042,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Spider-Man : Spider-Island',
@@ -1824,6 +2051,7 @@ export const ronanComics: UserComics = [
     rating: 3,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Fantastic Four : Face aux fantômes',
@@ -1832,6 +2060,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "Fantastic Four : L'histoire d'une vie",
@@ -1840,6 +2069,7 @@ export const ronanComics: UserComics = [
     rating: 4,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "Fantastic Four : L'appel des cendres",
@@ -1848,6 +2078,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Fantastic Four : Coup de force',
@@ -1856,6 +2087,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: "Wolverine : Ennemi d'État",
@@ -1864,6 +2096,7 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Secret Wars : La fin des temps',
@@ -1872,5 +2105,6 @@ export const ronanComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
 ];

@@ -37,6 +37,7 @@ function formatUserGame(user: any): string {
     timesFinishedHundredPercent: ${user.timesFinishedHundredPercent ?? 0},
     platined: ${user.platined ?? false},
     owned: ${user.owned ?? false},
+    gamelistPriority: ${user.gamelistPriority ?? 0},
   },`;
 }
 
@@ -131,6 +132,7 @@ router.post('/add', (req: any, res: any) => {
           'timesFinishedHundredPercent'
         ) ?? 0,
       owned: normalizeBoolean(user.owned, 'owned') ?? false,
+      gamelistPriority: normalizeNumber(user.gamelistPriority, 'gamelistPriority') ?? 0,
     };
 
     const baseGameContent = appendObjectToArrayFile(

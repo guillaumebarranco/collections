@@ -10,6 +10,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Call of Duty: Modern Warfare 2',
@@ -20,6 +21,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Call of Duty: Black Ops',
@@ -30,6 +32,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 100,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Call of Duty: Modern Warfare 3',
@@ -40,6 +43,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Call of Duty: Black Ops II',
@@ -50,6 +54,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 50,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Call of Duty: Black Ops III',
@@ -60,6 +65,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 213,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Call of Duty: Black Ops 4',
@@ -70,6 +76,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Call of Duty: Black Ops Cold War',
@@ -80,6 +87,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 60,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Call of Duty: Black Ops 6',
@@ -90,6 +98,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 30,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'One Piece: Pirate Warriors',
@@ -100,6 +109,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 20,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Naruto: Ultimate Ninja Storm',
@@ -110,6 +120,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 15,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Naruto Shippuden: Ultimate Ninja Storm 2',
@@ -120,6 +131,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Naruto Shippuden: Ultimate Ninja Storm 3',
@@ -130,6 +142,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 20,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Naruto Shippuden: Ultimate Ninja Storm 4',
@@ -140,6 +153,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 20,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Infamous',
@@ -150,6 +164,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 20,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Infamous 2',
@@ -160,6 +175,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Infamous: Second Son',
@@ -170,6 +186,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Infamous: First Light',
@@ -180,6 +197,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'The Amazing Spider-Man',
@@ -190,6 +208,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Marvel's Spider-Man",
@@ -200,6 +219,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Marvel's Spider-Man: Miles Morales",
@@ -210,6 +230,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Marvel's Spider-Man 2",
@@ -220,6 +241,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'BioShock Infinite',
@@ -230,6 +252,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Watch Dogs',
@@ -240,6 +263,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Dragon Ball Z: Budokai 3',
@@ -250,6 +274,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 15,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'South Park: Le Bâton de la Vérité',
@@ -260,6 +285,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'God of War',
@@ -270,6 +296,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'God of War Ragnarök',
@@ -280,6 +307,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Hogwarts Legacy',
@@ -290,6 +318,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Grand Theft Auto: Liberty City Stories',
@@ -300,6 +329,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Star Wars: Le Pouvoir de la Force',
@@ -310,6 +340,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Lego Star Wars',
@@ -320,6 +351,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Wii Sports',
@@ -330,6 +362,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'A Plague Tale : Innocence',
@@ -340,6 +373,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'A Plague Tale : Requiem',
@@ -350,6 +384,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'A Way Out',
@@ -360,6 +395,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Anthem',
@@ -370,6 +406,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Assassin's Creed II",
@@ -380,6 +417,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 15,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Assassin's Creed : Brotherhood",
@@ -390,6 +428,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Assassin's Creed : Revelations",
@@ -400,6 +439,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Assassin's Creed III",
@@ -410,6 +450,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Assassin's Creed Liberation Remastered",
@@ -420,6 +461,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Assassin's Creed III Remastered",
@@ -430,6 +472,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Assassin's Creed IV : Black Flag",
@@ -440,6 +483,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 15,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Assassin's Creed Rogue",
@@ -450,6 +494,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Assassin's Creed Unity",
@@ -460,6 +505,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Assassin's Creed Syndicate",
@@ -470,6 +516,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 15,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Assassin's Creed Origins",
@@ -480,6 +527,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Assassin's Creed Odyssey",
@@ -490,6 +538,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Assassin's Creed Valhalla",
@@ -500,6 +549,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Assassin's Creed Mirage",
@@ -510,6 +560,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Assassin's Creed Shadows",
@@ -520,6 +571,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Astro's Playroom",
@@ -530,6 +582,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Avatar : Frontiers of Pandora',
@@ -540,6 +593,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Batman: Arkham Asylum',
@@ -550,6 +604,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Batman: Arkham City',
@@ -560,6 +615,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Batman: Arkham Knight',
@@ -570,6 +626,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Batman: Arkham Origins',
@@ -580,6 +637,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Battlefield 4',
@@ -590,6 +648,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'BioShock Remastered (Complete Edition)',
@@ -600,6 +659,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Black Myth : Wukong',
@@ -610,6 +670,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 30,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Call of Duty : Modern Warfare Remastered',
@@ -620,6 +681,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Clair Obscur : Expedition 33',
@@ -630,6 +692,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Cyberpunk 2077',
@@ -640,6 +703,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 20,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Darksiders',
@@ -650,6 +714,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 10,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Darksiders II Deathinitive Edition',
@@ -660,6 +725,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Days Gone',
@@ -670,6 +736,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 10,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Deliver Us The Moon',
@@ -680,6 +747,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 4,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Detroit : Become Human',
@@ -690,6 +758,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 8,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Dishonored : Definitive Edition',
@@ -700,6 +769,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Dishonored 2',
@@ -710,6 +780,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'DmC Devil May Cry : Definitive Edition',
@@ -720,6 +791,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 8,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Dragon Ball Raging Blast 2',
@@ -730,6 +802,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 5,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Elden Ring',
@@ -740,6 +813,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 75,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Far Cry 3',
@@ -750,6 +824,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 25,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Far Cry 4',
@@ -760,6 +835,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Fist of the North Star : Ken's Rage",
@@ -770,6 +846,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Ghost of Tsushima',
@@ -780,6 +857,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'God of War III',
@@ -790,6 +868,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Gotham Knights',
@@ -800,6 +879,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Gran Turismo 7',
@@ -810,6 +890,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 20,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Grand Theft Auto V',
@@ -820,6 +901,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 15,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Heavy Rain',
@@ -830,6 +912,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Hitman',
@@ -840,6 +923,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Horizon Zero Dawn',
@@ -850,6 +934,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Horizon Forbidden West',
@@ -860,6 +945,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Indiana Jones et le Cercle Ancien',
@@ -870,6 +956,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 30,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Injustice : Les Dieux sont Parmi Nous',
@@ -880,6 +967,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 30,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Injustice : Les Dieux sont Parmi Nous - Ultimate Edition',
@@ -890,6 +978,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Injustice 2',
@@ -900,6 +989,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Kena : Bridge of Spirits',
@@ -910,6 +1000,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Killzone Shadow Fall',
@@ -920,6 +1011,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "La Terre du Milieu : L'Ombre du Mordor",
@@ -930,6 +1022,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "La Terre du Milieu : L'Ombre de la Guerre",
@@ -940,6 +1033,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Life is Strange',
@@ -950,6 +1044,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Mafia : The Old Country',
@@ -960,6 +1055,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Mafia III : Definitive Edition',
@@ -970,6 +1066,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Marvel's Guardians of the Galaxy",
@@ -980,6 +1077,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 12,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Naruto Shippuden : Ultimate Ninja Storm Generations',
@@ -990,6 +1088,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Operation : Tango',
@@ -1000,6 +1099,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Prince of Persia : Les Sables Oubliés',
@@ -1010,6 +1110,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Qui es-tu?',
@@ -1020,6 +1121,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Ratchet & Clank : Rift Apart',
@@ -1030,6 +1132,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Red Dead Redemption',
@@ -1040,6 +1143,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Red Dead Redemption 2',
@@ -1050,6 +1154,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 50,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Resident Evil 7 : Biohazard',
@@ -1060,6 +1165,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Returnal',
@@ -1070,6 +1176,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Rise of the Tomb Raider',
@@ -1080,6 +1187,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 5,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Shadow of the Tomb Raider',
@@ -1090,6 +1198,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Le Seigneur des Anneaux : La Quête d'Aragorn",
@@ -1100,6 +1209,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'SSX',
@@ -1110,6 +1220,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Star Wars : Battlefront II',
@@ -1120,6 +1231,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Star Wars Jedi : Fallen Order',
@@ -1130,6 +1242,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Star Wars Jedi : Survivor',
@@ -1140,6 +1253,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Star Wars : Le Pouvoir de la Force II',
@@ -1150,6 +1264,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Tekken 6',
@@ -1160,6 +1275,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Tekken Revolution',
@@ -1170,6 +1286,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'The Elder Scrolls V : Skyrim',
@@ -1180,6 +1297,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'The Last of Us',
@@ -1190,6 +1308,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'The Last of Us Part II',
@@ -1200,6 +1319,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'The Order : 1886',
@@ -1210,6 +1330,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Tom Clancy's The Division",
@@ -1220,6 +1341,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Tomb Raider : Definitive Edition',
@@ -1230,6 +1352,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 8,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Titanfall 2',
@@ -1240,6 +1363,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Uncharted : Drake's Fortune",
@@ -1250,6 +1374,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Uncharted 2 : Among Thieves',
@@ -1260,6 +1385,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Uncharted 2 : Among Thieves Remastered',
@@ -1270,6 +1396,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Uncharted 3 : L'illusion de Drake",
@@ -1280,6 +1407,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 8,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Uncharted 3 : L'Illusion de Drake Remastered",
@@ -1290,6 +1418,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 8,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Uncharted 4 : A Thief's End",
@@ -1300,6 +1429,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Uncharted : Legacy of Thieves Collection',
@@ -1310,6 +1440,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: true,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Watch Dogs 2',
@@ -1320,6 +1451,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'The Witcher 3 : Wild Hunt',
@@ -1330,6 +1462,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Wolfenstein : The New Order',
@@ -1340,6 +1473,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Tetris',
@@ -1350,6 +1484,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 15,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Super Mario 2',
@@ -1360,6 +1495,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Pokémon Émeraude',
@@ -1370,6 +1506,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Dragon Ball Z: Budokai 2',
@@ -1380,6 +1517,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Dragon Ball Z: Budokai Tenkaichi 2',
@@ -1390,6 +1528,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Need for Speed: Most Wanted',
@@ -1400,6 +1539,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Pokémon Bleu',
@@ -1410,6 +1550,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Teenage Mutant Hero Turtles: Fall of the Foot Clan',
@@ -1420,6 +1561,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Double Dragon',
@@ -1430,6 +1572,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Pokemon Jaune',
@@ -1440,6 +1583,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Bomberman GB',
@@ -1450,6 +1594,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Harry Potter et La Chambre des Secrets',
@@ -1460,6 +1605,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: "Harry Potter à l'école des sorciers",
@@ -1470,6 +1616,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Harry Potter et La Coupe de Feu',
@@ -1480,6 +1627,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Pokemon version Ruby',
@@ -1490,6 +1638,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Sonic Advance',
@@ -1500,6 +1649,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Star Wars III - La Revanche des Siths',
@@ -1510,6 +1660,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Spider-Man 3',
@@ -1520,6 +1671,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Les Urbz - Les Sims in the City',
@@ -1530,6 +1682,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Star Wars : Flight of the Falcon',
@@ -1540,6 +1693,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Custom Robo Arena',
@@ -1550,6 +1704,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Animal Crossing : Wild World',
@@ -1560,6 +1715,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Arthur et les Minimoys',
@@ -1570,6 +1726,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Assassin’s Creed Altaïr Chronicles',
@@ -1580,6 +1737,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Assassin’s Creed II : Discovery',
@@ -1590,6 +1748,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Astérix aux Jeux Olympiques',
@@ -1600,6 +1759,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Call of Duty 4 : Modern Warfare (DS)',
@@ -1610,6 +1770,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Dragon Ball Z: Harukanaru Densetsu',
@@ -1620,6 +1781,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Dragon Ball Z: Supersonic Warriors 2',
@@ -1630,6 +1792,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Eragon',
@@ -1640,6 +1803,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'FIFA 10',
@@ -1650,6 +1814,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
   {
     title: 'Dragon Quest IX : Les Sentinelles du Firmament',
@@ -1660,6 +1825,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1671,6 +1837,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1682,6 +1849,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1693,6 +1861,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1704,6 +1873,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1715,6 +1885,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1726,6 +1897,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1737,6 +1909,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1748,6 +1921,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1759,6 +1933,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1770,6 +1945,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1781,6 +1957,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1792,6 +1969,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1803,6 +1981,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1814,6 +1993,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1825,6 +2005,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1836,6 +2017,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1847,6 +2029,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1858,6 +2041,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1869,6 +2053,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1880,6 +2065,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1891,6 +2077,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1902,6 +2089,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1913,6 +2101,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1924,6 +2113,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1935,6 +2125,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 1,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1946,6 +2137,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1957,6 +2149,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1968,6 +2161,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1979,6 +2173,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -1990,6 +2185,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -2001,6 +2197,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -2012,6 +2209,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 5,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -2023,6 +2221,7 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -2034,5 +2233,6 @@ export const ronanGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 ];

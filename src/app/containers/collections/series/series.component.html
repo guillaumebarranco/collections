@@ -51,8 +51,10 @@
         [list]="sortedSeries()"
         [index]="i"
         [quizzs]="quizzs()"
+        [isWatchlistView]="selectedView() === 'watchlist'"
         (serieUpdated)="refreshSeries()"
         (openQuizz)="openQuizzModal($event)"
+        (watchPriorityUpdated)="updateWatchPriority($event)"
       ></app-serie>
     </div>
     }

@@ -191,6 +191,7 @@ function parseSeriesFromFile(content: string): any[] {
             director,
             seasons: parseSeasonsField(objectText) ?? [],
             owned: parseBooleanField(objectText, 'owned') ?? false,
+            watchPriority: parseNumberField(objectText, 'watchPriority') ?? 0,
           });
         }
       }
@@ -534,6 +535,7 @@ function updateSerieInFile(content: string, payload: any) {
             updated = replaceSeasonsField(updated, payload.seasons);
           }
           updated = replaceField(updated, 'owned', payload.owned);
+          updated = replaceField(updated, 'watchPriority', payload.watchPriority);
 
           return (
             content.slice(0, objectStart) +

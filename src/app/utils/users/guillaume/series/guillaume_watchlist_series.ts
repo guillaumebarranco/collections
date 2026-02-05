@@ -12,6 +12,7 @@ export const guillaumeWatchListSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -32,5 +33,6 @@ export const guillaumeWatchListSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 ];

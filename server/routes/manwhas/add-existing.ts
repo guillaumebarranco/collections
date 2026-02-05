@@ -50,7 +50,7 @@ function formatUserManwha(manwha: any) {
     manwha.title
   )}',\n    author: '${escapeString(
     manwha.author
-  )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n  },`;
+  )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n    readPriority: 0,\n  },`;
 }
 
 function formatReadlistManwha(manwha: any) {
@@ -58,7 +58,7 @@ function formatReadlistManwha(manwha: any) {
     manwha.title
   )}',\n    author: '${escapeString(
     manwha.author
-  )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 0,\n  },`;
+  )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 0,\n    owned: false,\n    readPriority: ${manwha.readPriority ?? 0},\n  },`;
 }
 
 function getUserManwhasTargetFile(userId: string, isReadlist: boolean) {

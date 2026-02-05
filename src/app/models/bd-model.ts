@@ -17,6 +17,7 @@ export interface UserBd extends MandatoryBdData {
   rating: number;
   readTimes?: number;
   owned: boolean;
+  readPriority: number;
 }
 
 export type UserBds = UserBd[];

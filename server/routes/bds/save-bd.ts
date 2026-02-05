@@ -54,7 +54,10 @@ router.post('/', (req: any, res: any) => {
 
     let updatedCount = 0;
     if (!entityOnly) {
-      const bdFiles = getUserBdsFiles(userId);
+      const bdFiles = [
+        ...getUserBdsFiles(userId),
+        ...getUserReadlistBdsFiles(userId),
+      ];
       if (!bdFiles.length) {
         res.status(404).json({ error: 'User bds not found' });
         return;

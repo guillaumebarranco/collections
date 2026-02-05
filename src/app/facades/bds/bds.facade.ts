@@ -45,6 +45,7 @@ async function getAllBdsData(bds: UserBd[]): Promise<Bd[]> {
       isFinished: definitiveMatchingBd?.isFinished || false,
       designer: definitiveMatchingBd?.designer || '',
       owned: bd.owned,
+      readPriority: bd.readPriority,
     };
   });
 }

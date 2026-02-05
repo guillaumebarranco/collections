@@ -125,4 +125,8 @@ export class GameComponent {
     if (entityQuizzs.length === 0) return;
     this.openQuizz.emit(entityQuizzs);
   }
+
+  updateGamelistPriority(priority: number): void {
+    this.gamelistPriorityUpdated.emit({ game: this.game, priority });
+  }
 }

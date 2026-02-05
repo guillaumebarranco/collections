@@ -76,6 +76,22 @@
     <p class="recommendation-text">{{ recommendationText }}</p>
     } @if (recommendationBadge) {
     <span class="missing-badge">{{ recommendationBadge }}</span>
+    } @if (isWatchlistView && !isBaseEntityView) {
+    <div class="watchlist-priority">
+      <div class="priority-label">Priorité :</div>
+      <div>
+        @for (priority of [1, 2, 3]; track priority) {
+        <button
+          class="makya-btn-times"
+          [class.active]="serie.watchPriority === priority"
+          (click)="updateWatchPriority(priority)"
+          [title]="'Priorité ' + priority"
+        >
+          {{ priority }}
+        </button>
+        }
+      </div>
+    </div>
     } @if (showAddToWatchlistButton && !isBaseEntityView) { @if(!isInWatchlist)
     {
     <button class="makya-btn-small" (click)="addToWatchlist.emit(serie)">

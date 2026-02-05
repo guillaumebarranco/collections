@@ -8,5 +8,6 @@ export const guillaumeReadListManwhas: UserManwhas = [
     rating: 0,
     readTimes: 0,
     owned: false,
+    readPriority: 1,
   },
 ];

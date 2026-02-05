@@ -49,6 +49,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'How I Met Your Mother',
@@ -110,6 +111,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Loki',
@@ -129,6 +131,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: true,
+    watchPriority: 1,
   },
   {
     title: 'Le Jeu de la Dame',
@@ -142,6 +145,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'WandaVision',
@@ -155,6 +159,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: true,
+    watchPriority: 1,
   },
   {
     title: 'Obi-Wan Kenobi',
@@ -168,6 +173,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: true,
+    watchPriority: 1,
   },
   {
     title: 'Squid Game',
@@ -193,6 +199,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Breaking Bad',
@@ -230,6 +237,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Umbrella Academy',
@@ -261,6 +269,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'You',
@@ -298,6 +307,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'The Boys',
@@ -329,6 +339,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Stranger Things',
@@ -366,6 +377,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Lupin',
@@ -391,6 +403,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Arcane',
@@ -410,6 +423,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: true,
+    watchPriority: 1,
   },
   {
     title: 'South Park',
@@ -573,6 +587,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Daredevil',
@@ -598,6 +613,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Daredevil : Born Again',
@@ -611,6 +627,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Jessica Jones',
@@ -636,6 +653,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Luke Cage',
@@ -655,6 +673,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Iron Fist',
@@ -674,6 +693,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'The Defenders',
@@ -687,6 +707,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'The Last of Us',
@@ -706,6 +727,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: true,
+    watchPriority: 1,
   },
   {
     title: '13 Reasons Why',
@@ -737,6 +759,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Astérix & Obélix : Le Combat des Chefs',
@@ -750,6 +773,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Brooklyn Nine-Nine',
@@ -805,6 +829,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Mercredi',
@@ -824,6 +849,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Montre jamais ça à personne',
@@ -843,6 +869,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Arrow',
@@ -898,6 +925,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'The Flash',
@@ -959,6 +987,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'La Casa de Papel',
@@ -990,6 +1019,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Lucifer',
@@ -1033,6 +1063,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'The Punisher',
@@ -1052,6 +1083,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Rick and Morty',
@@ -1101,6 +1133,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Sense8',
@@ -1120,6 +1153,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'The End of the F***ing World',
@@ -1139,6 +1173,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Superman & Lois',
@@ -1170,6 +1205,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Locke & Key',
@@ -1195,6 +1231,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Mon amie Adèle',
@@ -1208,6 +1245,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Agent Carter',
@@ -1227,6 +1265,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Agents of S.H.I.E.L.D.',
@@ -1276,6 +1315,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Ahsoka',
@@ -1289,6 +1329,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: true,
+    watchPriority: 1,
   },
   {
     title: 'Altered Carbon',
@@ -1308,6 +1349,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Avatar: The Last Airbender',
@@ -1333,6 +1375,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: true,
+    watchPriority: 1,
   },
   {
     title: 'Avengers Assemble',
@@ -1370,6 +1413,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Bloqués',
@@ -1401,6 +1445,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Bodyguard',
@@ -1414,6 +1459,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Cloak & Dagger',
@@ -1433,6 +1479,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Community',
@@ -1476,6 +1523,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Constantine',
@@ -1489,6 +1537,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Death Note',
@@ -1502,6 +1551,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Desperate Housewives',
@@ -1557,6 +1607,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Dexter',
@@ -1612,6 +1663,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Family Business',
@@ -1637,6 +1689,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Game of Thrones',
@@ -1692,6 +1745,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: true,
+    watchPriority: 1,
   },
   {
     title: 'Gotham',
@@ -1729,6 +1783,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Hawkeye',
@@ -1742,6 +1797,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: true,
+    watchPriority: 1,
   },
   {
     title: 'Heroes',
@@ -1773,6 +1829,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Heroes Reborn',
@@ -1786,6 +1843,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Inhumans',
@@ -1799,6 +1857,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: "Jupiter's Legacy",
@@ -1812,6 +1871,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Les Grands',
@@ -1837,6 +1897,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Malcolm in the Middle',
@@ -1886,6 +1947,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Mindhunter',
@@ -1905,6 +1967,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Misfits',
@@ -1942,6 +2005,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Mortel',
@@ -1961,6 +2025,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Naruto',
@@ -2004,6 +2069,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Penny Dreadful',
@@ -2029,6 +2095,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Runaways',
@@ -2054,6 +2121,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Samurai Champloo',
@@ -2067,6 +2135,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Shameless',
@@ -2140,6 +2209,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Smallville',
@@ -2207,6 +2277,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Sons of Anarchy',
@@ -2256,6 +2327,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Spartacus',
@@ -2281,6 +2353,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: true,
+    watchPriority: 1,
   },
   {
     title: 'Star Wars Rebels',
@@ -2312,6 +2385,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Star Wars: The Clone Wars',
@@ -2361,6 +2435,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Supernatural',
@@ -2458,6 +2533,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Teen Wolf',
@@ -2501,6 +2577,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'The Big Bang Theory',
@@ -2580,6 +2657,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'The Falcon and the Winter Soldier',
@@ -2593,6 +2671,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: true,
+    watchPriority: 1,
   },
   {
     title: 'The Get Down',
@@ -2612,6 +2691,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'The Office',
@@ -2673,6 +2753,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'The Originals',
@@ -2710,6 +2791,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'The Returned',
@@ -2729,6 +2811,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'The Shannara Chronicles',
@@ -2748,6 +2831,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'The Tomorrow People',
@@ -2761,6 +2845,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'The Vampire Diaries',
@@ -2816,6 +2901,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Vikings',
@@ -2859,6 +2945,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Watchmen',
@@ -2872,6 +2959,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: true,
+    watchPriority: 1,
   },
   {
     title: 'Yu Yu Hakusho',
@@ -2903,6 +2991,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'One Piece (live-action)',
@@ -2916,6 +3005,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'His & Hers',
@@ -2929,6 +3019,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Dexter: New Blood',
@@ -2942,6 +3033,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Dexter: Resurrection',
@@ -2961,6 +3053,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: "L'Attaque des Titans",
@@ -2992,6 +3085,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Assassination Classroom',
@@ -3011,6 +3105,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Soul Eater',
@@ -3024,6 +3119,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Full Metal Alchemist',
@@ -3037,6 +3133,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Fullmetal Alchemist: Brotherhood',
@@ -3056,6 +3153,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Eyeshield 21',
@@ -3081,6 +3179,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Galactik Football',
@@ -3106,6 +3205,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'La Légende de Korra',
@@ -3137,6 +3237,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'One Punch Man',
@@ -3162,6 +3263,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Naruto Shippuden',
@@ -3301,6 +3403,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'One Piece',
@@ -3440,6 +3543,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Dragon Ball',
@@ -3501,6 +3605,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Dragon Ball Z',
@@ -3574,6 +3679,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Dragon Ball GT',
@@ -3611,6 +3717,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Le marsupilami',
@@ -3636,6 +3743,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Oggy et les cafards',
@@ -3685,6 +3793,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Les Tortues Ninja',
@@ -3758,6 +3867,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Pokémon',
@@ -3909,6 +4019,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Jackie Chan (série animée)',
@@ -3928,6 +4039,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Marcelino',
@@ -3941,6 +4053,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Les Simpsons',
@@ -4158,6 +4271,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Fairy Tail',
@@ -4219,6 +4333,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Fruit Basket',
@@ -4244,6 +4359,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Hamtaro',
@@ -4257,6 +4373,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'winx club',
@@ -4270,6 +4387,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Fallout',
@@ -4289,6 +4407,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Wonder Man',
@@ -4302,6 +4421,7 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: true,
+    watchPriority: 1,
   },
 
   {
@@ -4313,8 +4433,9 @@ export const ronanSeries: UserSeries = [
         seasonRating: 3.25,
         seasonTimesWatched: 1,
         lastViewedDate: '2025-01-15',
-      }
+      },
     ],
     owned: true,
+    watchPriority: 1,
   },
 ];

@@ -43,6 +43,7 @@ async function getAllComicsData(comics: UserComic[]): Promise<Comic[]> {
       genre: definitiveMatchingComic?.genre || '',
       designer: definitiveMatchingComic?.designer || '',
       owned: comic.owned,
+      readPriority: comic.readPriority,
     };
   });
 }

@@ -78,6 +78,7 @@ function formatUserSerie(serie: any) {
     director: '${escapeString(serie.director)}',
 ${formatSeasons(seasons)}
     owned: false,
+    watchPriority: 0,
   },`;
 }
 
@@ -88,6 +89,7 @@ function formatWatchlistSerie(serie: any) {
     director: '${escapeString(serie.director)}',
 ${formatSeasons(seasons)}
     owned: false,
+    watchPriority: 0,
   },`;
 }
 

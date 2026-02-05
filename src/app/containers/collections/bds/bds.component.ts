@@ -306,6 +306,7 @@ export class BdsComponent implements OnInit {
         readDate: '',
         readTimes: 0,
         owned: false,
+        readPriority: 0,
       }));
       this.adminBdsList.set(bds);
       this.baseBdsList.set(bds);
@@ -334,6 +335,7 @@ export class BdsComponent implements OnInit {
         readDate: '',
         readTimes: 0,
         owned: false,
+        readPriority: 0,
       }))
     );
   }
@@ -480,9 +482,7 @@ export class BdsComponent implements OnInit {
 
   bdAlreadyInUserReadlist(bd: Bd): boolean {
     const readlist = this.allReadlistBds();
-    return readlist.some(
-      (b) => b.title === bd.title && b.writer === bd.writer
-    );
+    return readlist.some((b) => b.title === bd.title && b.writer === bd.writer);
   }
 
   addBdToReadlist(bd: Bd) {

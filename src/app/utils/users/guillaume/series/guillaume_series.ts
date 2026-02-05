@@ -49,6 +49,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'How I Met Your Mother',
@@ -110,6 +111,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: true,
+    watchPriority: 1,
   },
   {
     title: 'Loki',
@@ -129,6 +131,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Le Jeu de la Dame',
@@ -142,6 +145,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'WandaVision',
@@ -155,6 +159,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Obi-Wan Kenobi',
@@ -168,6 +173,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Squid Game',
@@ -193,6 +199,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Bodies',
@@ -206,6 +213,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Breaking Bad',
@@ -243,6 +251,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Umbrella Academy',
@@ -268,6 +277,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'You',
@@ -305,6 +315,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'HPI',
@@ -330,6 +341,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'The Boys',
@@ -361,6 +373,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Stranger Things',
@@ -398,6 +411,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Lupin',
@@ -423,6 +437,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'La servante écarlate',
@@ -460,6 +475,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Arcane',
@@ -479,6 +495,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'South Park',
@@ -642,6 +659,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Les Simpsons',
@@ -859,6 +877,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Daredevil',
@@ -884,6 +903,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Daredevil : Born Again',
@@ -897,6 +917,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Jessica Jones',
@@ -922,6 +943,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Luke Cage',
@@ -941,6 +963,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Iron Fist',
@@ -960,6 +983,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'The Defenders',
@@ -973,6 +997,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'The Last of Us',
@@ -992,6 +1017,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Obsession',
@@ -1005,6 +1031,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Cobra',
@@ -1018,6 +1045,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Nicky Larson',
@@ -1031,6 +1059,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Yu-Gi-Oh!',
@@ -1086,6 +1115,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Olive et Tom : Le retour',
@@ -1111,6 +1141,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: '13 Reasons Why',
@@ -1142,6 +1173,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Castle',
@@ -1197,6 +1229,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Mentalist',
@@ -1246,6 +1279,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Astérix & Obélix : Le Combat des Chefs',
@@ -1259,6 +1293,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Bet',
@@ -1272,6 +1307,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Brooklyn Nine-Nine',
@@ -1327,6 +1363,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Cobra Kai',
@@ -1370,6 +1407,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Mercredi',
@@ -1389,6 +1427,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Montre jamais ça à personne',
@@ -1402,6 +1441,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Arrow',
@@ -1457,6 +1497,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'The Flash',
@@ -1518,6 +1559,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Reacher',
@@ -1537,6 +1579,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'iZombie',
@@ -1574,6 +1617,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'La Casa de Papel',
@@ -1611,6 +1655,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Lucifer',
@@ -1654,6 +1699,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'The Punisher',
@@ -1673,6 +1719,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Rick and Morty',
@@ -1722,6 +1769,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Sense8',
@@ -1741,6 +1789,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Suits, Avocats sur mesure',
@@ -1802,6 +1851,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'The End of the F***ing World',
@@ -1821,6 +1871,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Under the Dome',
@@ -1846,6 +1897,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Superman & Lois',
@@ -1871,6 +1923,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Locke & Key',
@@ -1896,6 +1949,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Unorthodox',
@@ -1909,6 +1963,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Mon amie Adèle',
@@ -1922,6 +1977,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Emily in Paris',
@@ -1959,6 +2015,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'The Glory',
@@ -1972,6 +2029,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'FUBAR',
@@ -1991,6 +2049,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'En un battement',
@@ -2010,6 +2069,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'One Piece (live-action)',
@@ -2023,6 +2083,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Yu Yu Hakusho (live-action)',
@@ -2036,6 +2097,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -2050,6 +2112,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -2064,6 +2127,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -2084,6 +2148,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -2116,6 +2181,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: true,
+    watchPriority: 1,
   },
 
   {
@@ -2148,6 +2214,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -2174,6 +2241,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -2248,6 +2316,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -2286,6 +2355,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -2366,6 +2436,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -2380,6 +2451,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -2490,6 +2562,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -2516,6 +2589,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -2566,6 +2640,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -2640,6 +2715,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -2660,6 +2736,7 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'No Game No Life',
@@ -2673,5 +2750,6 @@ export const guillaumeSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 ];

@@ -120,6 +120,7 @@ export class SelectSeriesComponent
         })
       ),
       owned: false,
+      watchPriority: 0,
     }));
   }
 

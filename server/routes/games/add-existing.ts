@@ -57,6 +57,7 @@ function formatUserGame(game: any): string {
     timesFinishedHundredPercent: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 0,
   },`;
 }
 
@@ -70,6 +71,7 @@ function formatGamelistGame(game: any): string {
     timesFinishedHundredPercent: 0,
     platined: false,
     owned: false,
+    gamelistPriority: ${game.gamelistPriority ?? 0},
   },`;
 }
 

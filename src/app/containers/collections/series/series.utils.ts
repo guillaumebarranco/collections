@@ -106,6 +106,15 @@ export const getSortedSeries = (
       return series.sort(
         (a, b) => getSerieTotalEpisodes(a) - getSerieTotalEpisodes(b)
       );
+    case 'watchPriority':
+      return series.sort((a, b) => {
+        const priorityA = a.watchPriority ?? 0;
+        const priorityB = b.watchPriority ?? 0;
+        if (priorityB !== priorityA) {
+          return priorityB - priorityA;
+        }
+        return a.title.localeCompare(b.title);
+      });
     default:
       return series.sort((a, b) => a.title.localeCompare(b.title));
   }

@@ -8,6 +8,7 @@ export const ronanManwhas: UserManwhas = [
     rating: 3,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Tower Of God',
@@ -16,6 +17,7 @@ export const ronanManwhas: UserManwhas = [
     rating: 3,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Solo Leveling',
@@ -24,5 +26,6 @@ export const ronanManwhas: UserManwhas = [
     rating: 3.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 ];

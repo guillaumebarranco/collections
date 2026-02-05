@@ -54,7 +54,10 @@ router.post('/', (req: any, res: any) => {
     let updatedFile: string | null = null;
 
     if (!entityOnly) {
-      const serieFiles = getUserSeriesFiles(userId);
+      const serieFiles = [
+        ...getUserSeriesFiles(userId),
+        ...getUserWatchlistSeriesFiles(userId),
+      ];
       for (const serieFile of serieFiles) {
         const fileContent = fs.readFileSync(serieFile, 'utf8');
         try {
@@ -151,6 +154,7 @@ router.post('/', (req: any, res: any) => {
         title: payload.title,
         director: payload.director,
         owned: payload.owned,
+        watchPriority: payload.watchPriority,
       })
     );
   } catch (error: any) {

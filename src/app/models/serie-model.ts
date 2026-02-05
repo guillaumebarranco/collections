@@ -30,6 +30,7 @@ export interface UserSerieSeason {
 export interface UserSerie extends MandatorySerieData {
   seasons: UserSerieSeason[];
   owned: boolean;
+  watchPriority: number;
 }
 
 export type UserSeries = UserSerie[];

@@ -139,6 +139,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -153,6 +154,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -227,6 +229,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -265,6 +268,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -279,6 +283,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -323,6 +328,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -343,6 +349,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -453,6 +460,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -479,6 +487,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -505,6 +514,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -537,6 +547,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -551,6 +562,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -565,6 +577,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -603,6 +616,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -617,6 +631,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -649,6 +664,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -699,6 +715,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -773,6 +790,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -847,6 +865,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -873,6 +892,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -923,6 +943,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -973,6 +994,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -1047,6 +1069,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -1061,6 +1084,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -1213,6 +1237,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -1227,6 +1252,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -1259,6 +1285,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -1315,6 +1342,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -1329,6 +1357,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -1343,6 +1372,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -1363,6 +1393,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -1383,6 +1414,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -1415,6 +1447,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -1441,6 +1474,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -1461,6 +1495,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 
   {
@@ -1487,6 +1522,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Code Geass',
@@ -1506,6 +1542,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'GTO : Great Teacher Onizuka',
@@ -1519,6 +1556,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Psycho-Pass',
@@ -1544,6 +1582,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Your Lie in April',
@@ -1557,6 +1596,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Sword Art Online',
@@ -1588,6 +1628,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Tokyo Ghoul',
@@ -1619,6 +1660,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Fairy Tail',
@@ -1680,6 +1722,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Fate/zero',
@@ -1699,6 +1742,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Fate Stay Night',
@@ -1712,6 +1756,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Fate Apocrypha',
@@ -1725,6 +1770,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Fate Grand Order',
@@ -1738,6 +1784,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Fate Unlimited blade works',
@@ -1757,6 +1804,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'RWBY',
@@ -1818,6 +1866,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Elfen Lied',
@@ -1831,6 +1880,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Angel Beats!',
@@ -1844,6 +1894,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Charlotte',
@@ -1857,6 +1908,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Clannad',
@@ -1876,6 +1928,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Mirai Nikki',
@@ -1889,6 +1942,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Durarara!!',
@@ -1920,6 +1974,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Nana',
@@ -1933,6 +1988,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Black Butler',
@@ -1964,6 +2020,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Violet Evergarden',
@@ -1977,6 +2034,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'The Promised Neverland',
@@ -1996,6 +2054,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Death Parade',
@@ -2009,6 +2068,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Magia record',
@@ -2034,6 +2094,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Gambling School',
@@ -2053,6 +2114,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Oshi no Ko',
@@ -2072,6 +2134,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Another',
@@ -2085,6 +2148,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Solo Leveling',
@@ -2104,6 +2168,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Tower of god',
@@ -2123,6 +2188,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Noblesse',
@@ -2136,6 +2202,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Beyblade',
@@ -2161,6 +2228,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'High school of the dead',
@@ -2174,6 +2242,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Deadman Wonderland',
@@ -2187,6 +2256,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Danganronpa',
@@ -2200,6 +2270,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: "Darwin's Game",
@@ -2213,6 +2284,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Toriko',
@@ -2226,6 +2298,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Aggretsuko',
@@ -2263,6 +2336,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Sailor Moon',
@@ -2300,6 +2374,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Fruit Basket',
@@ -2325,6 +2400,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Guilty Crown',
@@ -2338,6 +2414,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Sakura chasseuse de cartes',
@@ -2351,6 +2428,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Hamtaro',
@@ -2364,6 +2442,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Higurashi no naku koro ni',
@@ -2377,6 +2456,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Umineko no naku koro ni',
@@ -2390,6 +2470,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Romeo X Juliet',
@@ -2403,6 +2484,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Jeanne et Serge',
@@ -2416,6 +2498,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Toradora !',
@@ -2429,6 +2512,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Tonari no Kaibutsu-kun',
@@ -2442,6 +2526,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Maid sama',
@@ -2455,6 +2540,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'My happy marriage',
@@ -2468,6 +2554,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Yakuza fiancee',
@@ -2481,6 +2568,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Si je suis la vilaine, autant mater le boss final',
@@ -2494,6 +2582,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'winx club',
@@ -2507,6 +2596,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'magical girl raising project',
@@ -2520,6 +2610,7 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'wish upon the pleiades',
@@ -2533,5 +2624,6 @@ export const cassandreSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 ];

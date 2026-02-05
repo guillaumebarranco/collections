@@ -139,6 +139,7 @@ export class SelectGamesComponent
       platined: false,
       timesFinishedHundredPercent: 0,
       owned: false,
+      gamelistPriority: 0,
     }));
   }
 

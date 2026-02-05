@@ -37,6 +37,7 @@ import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
+import { getApiBaseUrl } from '../../../core/config';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedGame = Game & {
@@ -159,7 +160,9 @@ export class GamesComponent implements OnInit {
   });
 
   sortedGames = computed<Game[]>(() =>
-    getSortedGames([...this.filteredGames()], this.selectedSort())
+    this.selectedView() === 'gamelist'
+      ? getSortedGames([...this.filteredGames()], 'gamelistPriority')
+      : getSortedGames([...this.filteredGames()], this.selectedSort())
   );
 
   stats = computed<StatItem[]>(() => {
@@ -233,6 +236,7 @@ export class GamesComponent implements OnInit {
         additionnalEstimatedTime: 0,
         platined: false,
         owned: false,
+        gamelistPriority: 0,
       }));
       this.adminGamesList.set(games);
       this.baseGamesList.set(games);
@@ -265,6 +269,7 @@ export class GamesComponent implements OnInit {
         additionnalEstimatedTime: 0,
         platined: false,
         owned: false,
+        gamelistPriority: 0,
       }))
     );
   }
@@ -474,5 +479,49 @@ export class GamesComponent implements OnInit {
         editor: game.editor,
       },
     });
+  }
+
+  async updateGamelistPriority(data: {
+    game: Game;
+    priority: number;
+  }): Promise<void> {
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/games`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify([
+          {
+            userId: this.getActiveUserId(),
+            title: data.game.title,
+            editor: data.game.editor,
+            rating: data.game.rating,
+            timesFinished: data.game.timesFinished,
+            additionnalEstimatedTime: data.game.additionnalEstimatedTime,
+            timesFinishedHundredPercent: data.game.timesFinishedHundredPercent,
+            platined: data.game.platined,
+            owned: data.game.owned,
+            gamelistPriority: data.priority,
+          },
+        ]),
+      });
+
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn(
+          'Échec de la mise à jour de la priorité :',
+          payload?.error || response.statusText
+        );
+        return;
+      }
+
+      await this.refreshGames();
+    } catch (error) {
+      console.warn(
+        'Erreur réseau lors de la mise à jour de la priorité.',
+        error
+      );
+    }
   }
 }

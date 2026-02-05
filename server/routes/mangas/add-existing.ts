@@ -50,7 +50,7 @@ function formatUserManga(manga: any) {
     manga.title
   )}',\n    author: '${escapeString(
     manga.author
-  )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n  },`;
+  )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n    readPriority: 0,\n  },`;
 }
 
 function getUserMangasTargetFile(userId: string, isReadlist: boolean) {

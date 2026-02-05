@@ -10,6 +10,7 @@ export const ronanGameListGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -21,6 +22,7 @@ export const ronanGameListGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 
   {
@@ -32,5 +34,6 @@ export const ronanGameListGames: UserGames = [
     additionnalEstimatedTime: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 1,
   },
 ];

@@ -150,4 +150,8 @@ export class SerieComponent {
     if (entityQuizzs.length === 0) return;
     this.openQuizz.emit(entityQuizzs);
   }
+
+  updateWatchPriority(priority: number): void {
+    this.watchPriorityUpdated.emit({ serie: this.serie, priority });
+  }
 }

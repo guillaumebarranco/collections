@@ -294,6 +294,7 @@ export class ComicsComponent implements OnInit {
         readDate: '',
         readTimes: 0,
         owned: false,
+        readPriority: 0,
       }));
       this.adminComicsList.set(comics);
       this.baseComicsList.set(comics);
@@ -320,6 +321,7 @@ export class ComicsComponent implements OnInit {
         readDate: '',
         readTimes: 0,
         owned: false,
+        readPriority: 0,
       }))
     );
   }

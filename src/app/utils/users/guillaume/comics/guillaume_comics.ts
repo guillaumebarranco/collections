@@ -8,5 +8,6 @@ export const guillaumeComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
   },
 ];

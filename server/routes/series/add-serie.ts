@@ -77,6 +77,7 @@ function formatUserSerie(user: any): string {
     director: '${escapeString(user.director)}',
 ${seasonsBlock}
     owned: ${user.owned ?? false},
+    watchPriority: ${user.watchPriority ?? 0},
   },`;
 }
 
@@ -192,6 +193,7 @@ router.post('/add', (req: any, res: any) => {
       seasonsCount,
       owned: normalizeBoolean(user.owned, 'owned') ?? false,
       seasons: normalizedUserSeasons,
+      watchPriority: normalizeNumber(user.watchPriority, 'watchPriority') ?? 0,
     };
 
     const baseSerieContent = appendObjectToArrayFile(

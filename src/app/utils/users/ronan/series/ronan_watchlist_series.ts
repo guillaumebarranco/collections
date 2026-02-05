@@ -55,6 +55,7 @@ export const ronanWatchlistSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Cobra Kai',
@@ -98,6 +99,7 @@ export const ronanWatchlistSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Mentalist',
@@ -147,6 +149,7 @@ export const ronanWatchlistSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Reacher',
@@ -166,6 +169,7 @@ export const ronanWatchlistSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'Suits, Avocats sur mesure',
@@ -227,6 +231,7 @@ export const ronanWatchlistSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
   {
     title: 'The Glory',
@@ -240,5 +245,6 @@ export const ronanWatchlistSeries: UserSeries = [
       },
     ],
     owned: false,
+    watchPriority: 1,
   },
 ];

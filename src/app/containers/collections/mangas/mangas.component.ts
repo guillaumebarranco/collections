@@ -307,6 +307,7 @@ export class MangasComponent implements OnInit {
         readDate: '',
         readTimes: 0,
         owned: false,
+        readPriority: 0,
       }));
       this.adminMangasList.set(mangas);
       this.baseMangasList.set(mangas);
@@ -334,6 +335,7 @@ export class MangasComponent implements OnInit {
         readDate: '',
         readTimes: 0,
         owned: false,
+        readPriority: 0,
       }))
     );
   }

@@ -128,6 +128,7 @@ function parseComicsFromFile(content: string): any[] {
             readTimes: parseNumberField(objectText, 'readTimes') ?? 0,
             readDate: parseStringField(objectText, 'readDate') ?? '',
             owned: parseBooleanField(objectText, 'owned') ?? false,
+            readPriority: parseNumberField(objectText, 'readPriority') ?? 0,
           });
         }
       }

@@ -54,7 +54,10 @@ router.post('/', (req: any, res: any) => {
 
     let updatedCount = 0;
     if (!entityOnly) {
-      const manwhaFiles = getUserManwhasFiles(userId);
+      const manwhaFiles = [
+        ...getUserManwhasFiles(userId),
+        ...getUserReadlistManwhasFiles(userId),
+      ];
       if (!manwhaFiles.length) {
         res.status(404).json({ error: 'User manwhas not found' });
         return;

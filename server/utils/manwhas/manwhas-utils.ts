@@ -131,6 +131,7 @@ function parseManwhasFromFile(content: string): any[] {
             readTimes: parseNumberField(objectText, 'readTimes') ?? 0,
             readDate: parseStringField(objectText, 'readDate') ?? '',
             owned: parseBooleanField(objectText, 'owned') ?? false,
+            readPriority: parseNumberField(objectText, 'readPriority') ?? 0,
           });
         }
       }
@@ -269,6 +270,7 @@ function updateManwhaInFile(filePath: string, manwhaData: any): boolean {
     rating: ${manwha.rating ?? 0},
     readTimes: ${manwha.readTimes ?? 1},
     owned: ${manwha.owned ?? false},
+    readPriority: ${manwha.readPriority ?? 0},
   }`
     )
     .join(',\n');

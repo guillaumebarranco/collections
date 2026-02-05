@@ -52,6 +52,7 @@ async function getAllGamesData(games: UserGame[]): Promise<Game[]> {
       averageTimeToHundredPercent:
         definitiveMatchingGame?.averageTimeToHundredPercent || 0,
       owned: game.owned,
+      gamelistPriority: game.gamelistPriority,
     };
   });
 }

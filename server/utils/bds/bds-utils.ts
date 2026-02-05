@@ -128,6 +128,7 @@ function parseBdsFromFile(content: string): any[] {
             readTimes: parseNumberField(objectText, 'readTimes') ?? 0,
             readDate: parseStringField(objectText, 'readDate') ?? '',
             owned: parseBooleanField(objectText, 'owned') ?? false,
+            readPriority: parseNumberField(objectText, 'readPriority') ?? 0,
           });
         }
       }
@@ -267,6 +268,7 @@ function updateBdInFile(filePath: string, bdData: any): boolean {
     rating: ${bd.rating ?? 0},
     readTimes: ${bd.readTimes ?? 1},
     owned: ${bd.owned ?? false},
+    readPriority: ${bd.readPriority ?? 0},
   }`
     )
     .join(',\n');

@@ -28,6 +28,7 @@ import { EntityType } from '../../../models/quizz-model';
 type EditSerieForm = {
   seasons: UserSerieSeason[];
   owned: boolean;
+  watchPriority: number;
 };
 
 type EditSerieEntityForm = {
@@ -162,6 +163,7 @@ export class EditSerieComponent {
           director: serie.director,
           seasons: form.seasons,
           owned: form.owned,
+          watchPriority: form.watchPriority,
           entity: this.isAdminView()
             ? this.toEntityPayload(this.serieEntityForm())
             : undefined,
@@ -354,6 +356,7 @@ export class EditSerieComponent {
     return {
       seasons: this.buildSeasons(serie),
       owned: serie.owned,
+      watchPriority: serie.watchPriority ?? 0,
     };
   }
 
@@ -389,6 +392,20 @@ export class EditSerieComponent {
     this.serieForm.set({
       ...current,
       [field]: checked,
+    });
+  }
+
+  updateField<K extends keyof EditSerieForm>(field: K, value: number) {
+    const current = this.serieForm();
+    if (!current) return;
+    let nextValue: EditSerieForm[K] = value as EditSerieForm[K];
+    if (field === 'watchPriority') {
+      const asNumber = Number(value);
+      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditSerieForm[K];
+    }
+    this.serieForm.set({
+      ...current,
+      [field]: nextValue,
     });
   }
 

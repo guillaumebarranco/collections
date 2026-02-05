@@ -144,6 +144,18 @@
         name="owned"
       />
     </div>
+
+    <div class="form-row">
+      <label for="watchPriority">Priorité dans la watchlist</label>
+      <input
+        id="watchPriority"
+        type="number"
+        [ngModel]="serieForm()?.watchPriority"
+        (ngModelChange)="updateField('watchPriority', $event)"
+        name="watchPriority"
+        min="0"
+      />
+    </div>
     } @if (isAdminView() && serieEntityForm()) {
     <div class="form-row">
       <label for="entityActors">Acteurs (séparés par des virgules)</label>

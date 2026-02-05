@@ -23,6 +23,7 @@ type AddGameUserForm = {
   timesFinishedHundredPercent: number;
   platined: boolean;
   owned: boolean;
+  gamelistPriority: number;
 };
 
 type AddGameDialogData = {
@@ -65,6 +66,7 @@ export class AddGameComponent {
     timesFinishedHundredPercent: 0,
     platined: false,
     owned: false,
+    gamelistPriority: 0,
   });
 
   close() {
@@ -99,7 +101,8 @@ export class AddGameComponent {
       field === 'rating' ||
       field === 'timesFinished' ||
       field === 'additionnalEstimatedTime' ||
-      field === 'timesFinishedHundredPercent'
+      field === 'timesFinishedHundredPercent' ||
+      field === 'gamelistPriority'
     ) {
       const asNumber = Number(value);
       nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as AddGameUserForm[K];

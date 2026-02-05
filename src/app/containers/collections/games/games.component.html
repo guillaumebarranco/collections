@@ -52,8 +52,10 @@
         [list]="sortedGames()"
         [index]="i"
         [quizzs]="quizzs()"
+        [isGamelistView]="selectedView() === 'gamelist'"
         (gameUpdated)="refreshGames()"
         (openQuizz)="openQuizzModal($event)"
+        (gamelistPriorityUpdated)="updateGamelistPriority($event)"
       ></app-game>
     </div>
     }

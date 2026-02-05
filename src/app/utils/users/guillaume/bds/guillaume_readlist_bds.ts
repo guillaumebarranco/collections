@@ -8,6 +8,7 @@ export const guillaumeReadListBds: UserBds = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -17,5 +18,6 @@ export const guillaumeReadListBds: UserBds = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 ];

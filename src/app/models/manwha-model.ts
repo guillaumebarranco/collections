@@ -16,6 +16,7 @@ export interface UserManwha extends MandatoryManwhaData {
   rating: number;
   readTimes?: number;
   owned: boolean;
+  readPriority: number;
 }
 
 export type UserManwhas = UserManwha[];

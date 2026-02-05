@@ -157,6 +157,18 @@
         name="owned"
       />
     </div>
+
+    <div class="form-row">
+      <label for="gamelistPriority">Priorité dans la gamelist</label>
+      <input
+        id="gamelistPriority"
+        type="number"
+        [ngModel]="gameForm()?.gamelistPriority"
+        (ngModelChange)="updateField('gamelistPriority', $event)"
+        name="gamelistPriority"
+        min="0"
+      />
+    </div>
     } @if (isAdminView() && gameEntityForm()) {
     <div class="form-row">
       <label for="entityHero">Héro</label>

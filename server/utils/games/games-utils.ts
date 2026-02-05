@@ -130,6 +130,7 @@ function parseGamesFromFile(content: string): any[] {
               parseNumberField(objectText, 'timesFinishedHundredPercent') ?? 0,
             platined: parseBooleanField(objectText, 'platined') ?? false,
             owned: parseBooleanField(objectText, 'owned') ?? false,
+            gamelistPriority: parseNumberField(objectText, 'gamelistPriority') ?? 0,
           });
         }
       }
@@ -325,6 +326,7 @@ function updateGameIdentityInFile(filePath: string, gameData: any): boolean {
     platined: ${game.platined ?? false},
     timesFinishedHundredPercent: ${game.timesFinishedHundredPercent ?? 0},
     owned: ${game.owned ?? false},
+    gamelistPriority: ${game.gamelistPriority ?? 0},
   }`
     )
     .join(',\n');

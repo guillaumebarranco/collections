@@ -8,6 +8,7 @@ export const guillaumeReadListComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -17,6 +18,7 @@ export const guillaumeReadListComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -26,6 +28,7 @@ export const guillaumeReadListComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -35,6 +38,7 @@ export const guillaumeReadListComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -44,6 +48,7 @@ export const guillaumeReadListComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 
   {
@@ -53,5 +58,6 @@ export const guillaumeReadListComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
 ];

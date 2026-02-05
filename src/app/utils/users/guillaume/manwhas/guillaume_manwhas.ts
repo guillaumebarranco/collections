@@ -8,6 +8,7 @@ export const guillaumeManwhas: UserManwhas = [
     rating: 3.5,
     readTimes: 2,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Red Storm',
@@ -16,6 +17,7 @@ export const guillaumeManwhas: UserManwhas = [
     rating: 3,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Noblesse',
@@ -24,6 +26,7 @@ export const guillaumeManwhas: UserManwhas = [
     rating: 4.25,
     readTimes: 5,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Tower Of God',
@@ -32,6 +35,7 @@ export const guillaumeManwhas: UserManwhas = [
     rating: 4.5,
     readTimes: 2,
     owned: false,
+    readPriority: 1,
   },
   {
     title: "Girls of The Wild's",
@@ -40,6 +44,7 @@ export const guillaumeManwhas: UserManwhas = [
     rating: 3.5,
     readTimes: 2,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'DICE: The Cube that Changes Everything',
@@ -48,6 +53,7 @@ export const guillaumeManwhas: UserManwhas = [
     rating: 3.75,
     readTimes: 2,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Dr. Frost',
@@ -56,6 +62,7 @@ export const guillaumeManwhas: UserManwhas = [
     rating: 3.25,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Unordinary',
@@ -64,6 +71,7 @@ export const guillaumeManwhas: UserManwhas = [
     rating: 4.25,
     readTimes: 3,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'I Love Yoo',
@@ -72,6 +80,7 @@ export const guillaumeManwhas: UserManwhas = [
     rating: 3.25,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Wind Breaker',
@@ -80,6 +89,7 @@ export const guillaumeManwhas: UserManwhas = [
     rating: 3,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Lookism',
@@ -88,6 +98,7 @@ export const guillaumeManwhas: UserManwhas = [
     rating: 2.75,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Bastard',
@@ -96,6 +107,7 @@ export const guillaumeManwhas: UserManwhas = [
     rating: 4,
     readTimes: 2,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Sidekicks',
@@ -104,6 +116,7 @@ export const guillaumeManwhas: UserManwhas = [
     rating: 4,
     readTimes: 3,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Solo Leveling',
@@ -112,5 +125,6 @@ export const guillaumeManwhas: UserManwhas = [
     rating: 4.25,
     readTimes: 3,
     owned: false,
+    readPriority: 1,
   },
 ];

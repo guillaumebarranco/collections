@@ -84,6 +84,7 @@ async function getAllSeriesData(series: UserSerie[]): Promise<Serie[]> {
       genre: definitiveMatchingSerie?.genre || '',
       seasonsData: definitiveMatchingSerie?.seasonsData || [],
       owned: serie.owned,
+      watchPriority: serie.watchPriority,
     };
   });
 }
