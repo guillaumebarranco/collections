@@ -36,6 +36,7 @@ router.post('/', (req: any, res: any) => {
       director,
       seasons: Array.isArray(input.seasons) ? input.seasons : undefined,
       owned: normalizeBoolean(input.owned, 'owned'),
+      watchPriority: normalizeNumber(input.watchPriority, 'watchPriority'),
     };
 
     const entityPayload = input.entity || null;

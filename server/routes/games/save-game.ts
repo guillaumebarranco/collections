@@ -53,6 +53,7 @@ router.post('/', (req: any, res: any) => {
         ) ?? 0,
       platined: normalizeBoolean(game.platined, 'platined') ?? false,
       owned: normalizeBoolean(game.owned, 'owned') ?? false,
+      gamelistPriority: normalizeNumber(game.gamelistPriority, 'gamelistPriority') ?? 0,
     }));
 
     let updatedCount = 0;

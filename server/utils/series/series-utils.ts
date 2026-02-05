@@ -490,7 +490,8 @@ function formatSeasons(seasons: any[]) {
 
 function replaceSeasonsField(objectText: string, seasons: any[]) {
   if (!Array.isArray(seasons)) return objectText;
-  const regex = /seasons\s*:\s*\[[\s\S]*?\]/;
+  // Capture seasons: [...] suivi d'une virgule optionnelle
+  const regex = /seasons\s*:\s*\[[\s\S]*?\]\s*,?/;
   const replacement = `${formatSeasons(seasons)},`;
   if (regex.test(objectText)) {
     return objectText.replace(regex, replacement);

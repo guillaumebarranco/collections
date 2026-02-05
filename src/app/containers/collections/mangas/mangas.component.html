@@ -48,8 +48,11 @@
       <app-manga
         [manga]="manga"
         [quizzs]="quizzs()"
+        [readOnly]="selectedView() === 'readlist'"
+        [isReadlistView]="selectedView() === 'readlist'"
         (editRequested)="openEditMangaDialog(manga)"
         (openQuizz)="openQuizzModal($event)"
+        (readPriorityUpdated)="updateReadPriority($event)"
       ></app-manga>
     </div>
     }

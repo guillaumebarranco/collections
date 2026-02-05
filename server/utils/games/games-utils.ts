@@ -274,6 +274,7 @@ function updateGameInFile(filePath: string, gameData: any): boolean {
     timesFinishedHundredPercent: ${game.timesFinishedHundredPercent ?? 0},
     platined: ${game.platined ?? false},
     owned: ${game.owned ?? false},
+    gamelistPriority: ${game.gamelistPriority ?? 0},
   }`
     )
     .join(',\n');

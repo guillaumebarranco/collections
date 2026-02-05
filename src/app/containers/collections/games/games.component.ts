@@ -491,20 +491,18 @@ export class GamesComponent implements OnInit {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify([
-          {
-            userId: this.getActiveUserId(),
-            title: data.game.title,
-            editor: data.game.editor,
-            rating: data.game.rating,
-            timesFinished: data.game.timesFinished,
-            additionnalEstimatedTime: data.game.additionnalEstimatedTime,
-            timesFinishedHundredPercent: data.game.timesFinishedHundredPercent,
-            platined: data.game.platined,
-            owned: data.game.owned,
-            gamelistPriority: data.priority,
-          },
-        ]),
+        body: JSON.stringify({
+          userId: this.getActiveUserId(),
+          title: data.game.title,
+          editor: data.game.editor,
+          rating: data.game.rating,
+          timesFinished: data.game.timesFinished,
+          additionnalEstimatedTime: data.game.additionnalEstimatedTime,
+          timesFinishedHundredPercent: data.game.timesFinishedHundredPercent,
+          platined: data.game.platined,
+          owned: data.game.owned,
+          gamelistPriority: data.priority,
+        }),
       });
 
       if (!response.ok) {

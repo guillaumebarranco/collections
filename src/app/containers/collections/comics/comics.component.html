@@ -48,8 +48,11 @@
       <app-comic
         [comic]="comic"
         [quizzs]="quizzs()"
+        [readOnly]="selectedView() === 'readlist'"
+        [isReadlistView]="selectedView() === 'readlist'"
         (editRequested)="openEditComicDialog(comic)"
         (openQuizz)="openQuizzModal($event)"
+        (readPriorityUpdated)="updateReadPriority($event)"
       ></app-comic>
     </div>
     }

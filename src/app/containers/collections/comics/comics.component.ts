@@ -42,7 +42,7 @@ import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
-
+import { getApiBaseUrl } from '../../../core/config';
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedComic = Comic & {
   recommendationDetails: RecommendationDetail[];
@@ -148,7 +148,9 @@ export class ComicsComponent implements OnInit {
   });
 
   sortedComics = computed<Comic[]>(() =>
-    getSortedComics([...this.filteredComics()], this.selectedSort())
+    this.selectedView() === 'readlist'
+      ? getSortedComics([...this.filteredComics()], 'readPriority')
+      : getSortedComics([...this.filteredComics()], this.selectedSort())
   );
 
   stats = computed<StatItem[]>(() => {
@@ -352,6 +354,46 @@ export class ComicsComponent implements OnInit {
         void this.refreshComics();
       }
     });
+  }
+
+  async updateReadPriority(data: {
+    comic: Comic;
+    priority: number;
+  }): Promise<void> {
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/comics`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.getActiveUserId(),
+          title: data.comic.title,
+          writer: data.comic.writer,
+          rating: data.comic.rating,
+          readTimes: data.comic.readTimes,
+          readDate: data.comic.readDate,
+          owned: data.comic.owned,
+          readPriority: data.priority,
+        }),
+      });
+
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn(
+          'Échec de la mise à jour de la priorité :',
+          payload?.error || response.statusText
+        );
+        return;
+      }
+
+      await this.refreshComics();
+    } catch (error) {
+      console.warn(
+        'Erreur réseau lors de la mise à jour de la priorité.',
+        error
+      );
+    }
   }
 
   private getActiveUserId(): string {

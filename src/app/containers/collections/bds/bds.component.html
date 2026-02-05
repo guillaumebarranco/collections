@@ -47,8 +47,11 @@
       <app-bd
         [bd]="bd"
         [quizzs]="quizzs()"
+        [readOnly]="selectedView() === 'readlist'"
+        [isReadlistView]="selectedView() === 'readlist'"
         (editRequested)="openEditBdDialog(bd)"
         (openQuizz)="openQuizzModal($event)"
+        (readPriorityUpdated)="updateReadPriority($event)"
       ></app-bd>
     </div>
     }

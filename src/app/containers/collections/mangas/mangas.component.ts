@@ -44,6 +44,7 @@ import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
+import { getApiBaseUrl } from '../../../core/config';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedManga = Manga & {
@@ -150,7 +151,9 @@ export class MangasComponent implements OnInit {
   });
 
   sortedMangas = computed<Manga[]>(() =>
-    getSortedMangas([...this.filteredMangas()], this.selectedSort())
+    this.selectedView() === 'readlist'
+      ? getSortedMangas([...this.filteredMangas()], 'readPriority')
+      : getSortedMangas([...this.filteredMangas()], this.selectedSort())
   );
 
   stats = computed<StatItem[]>(() => {
@@ -485,6 +488,46 @@ export class MangasComponent implements OnInit {
     return readlist.some(
       (m) => m.title === manga.title && m.author === manga.author
     );
+  }
+
+  async updateReadPriority(data: {
+    manga: Manga;
+    priority: number;
+  }): Promise<void> {
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/mangas`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.getActiveUserId(),
+          title: data.manga.title,
+          author: data.manga.author,
+          rating: data.manga.rating,
+          readTimes: data.manga.readTimes,
+          readDate: data.manga.readDate,
+          owned: data.manga.owned,
+          readPriority: data.priority,
+        }),
+      });
+
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn(
+          'Échec de la mise à jour de la priorité :',
+          payload?.error || response.statusText
+        );
+        return;
+      }
+
+      await this.refreshMangas();
+    } catch (error) {
+      console.warn(
+        'Erreur réseau lors de la mise à jour de la priorité.',
+        error
+      );
+    }
   }
 
   addMangaToReadlist(manga: Manga) {

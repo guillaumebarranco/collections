@@ -60,8 +60,11 @@
       <app-manwha
         [manwha]="manwha"
         [quizzs]="quizzs()"
+        [readOnly]="selectedView() === 'readlist'"
+        [isReadlistView]="selectedView() === 'readlist'"
         (editRequested)="openEditManwhaDialog(manwha)"
         (openQuizz)="openQuizzModal($event)"
+        (readPriorityUpdated)="updateReadPriority($event)"
       ></app-manwha>
     </div>
     }

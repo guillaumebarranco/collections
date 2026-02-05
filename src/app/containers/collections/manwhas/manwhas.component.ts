@@ -33,7 +33,6 @@ import {
   PAGES_PER_MANWHA_CHAPTER,
 } from '../../../utils/stats.utils';
 import {
-  StatsDisplayComponent,
   StatItem,
   StatItemColor,
 } from '../../../components/stats-display/stats-display.component';
@@ -45,6 +44,7 @@ import { Quizz } from '../../../models/quizz-model';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
+import { getApiBaseUrl } from '../../../core/config';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedManwha = Manwha & {
@@ -151,7 +151,9 @@ export class ManwhasComponent implements OnInit {
   });
 
   sortedManwhas = computed<Manwha[]>(() =>
-    getSortedManwhas([...this.filteredManwhas()], this.selectedSort())
+    this.selectedView() === 'readlist'
+      ? getSortedManwhas([...this.filteredManwhas()], 'readPriority')
+      : getSortedManwhas([...this.filteredManwhas()], this.selectedSort())
   );
 
   stats = computed<StatItem[]>(() => {
@@ -496,6 +498,46 @@ export class ManwhasComponent implements OnInit {
     return readlist.some(
       (m) => m.title === manwha.title && m.author === manwha.author
     );
+  }
+
+  async updateReadPriority(data: {
+    manwha: Manwha;
+    priority: number;
+  }): Promise<void> {
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/manwhas`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.getActiveUserId(),
+          title: data.manwha.title,
+          author: data.manwha.author,
+          rating: data.manwha.rating,
+          readTimes: data.manwha.readTimes,
+          readDate: data.manwha.readDate,
+          owned: data.manwha.owned,
+          readPriority: data.priority,
+        }),
+      });
+
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn(
+          'Échec de la mise à jour de la priorité :',
+          payload?.error || response.statusText
+        );
+        return;
+      }
+
+      await this.refreshManwhas();
+    } catch (error) {
+      console.warn(
+        'Erreur réseau lors de la mise à jour de la priorité.',
+        error
+      );
+    }
   }
 
   addManwhaToReadlist(manwha: Manwha) {

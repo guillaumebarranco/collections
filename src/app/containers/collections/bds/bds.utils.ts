@@ -17,6 +17,8 @@ export const bdsSortOptions: { value: string; label: string }[] = [
   { value: 'nbTomes-asc', label: 'Nombre de tomes (faible)' },
   { value: 'genre', label: 'Genre (A-Z)' },
   { value: 'genre-desc', label: 'Genre (Z-A)' },
+  { value: 'readPriority', label: 'Priorité (élevée)' },
+  { value: 'readPriority-asc', label: 'Priorité (faible)' },
 ];
 
 export const bdViewOptions: { value: BdView; label: string }[] = [
@@ -80,6 +82,10 @@ export const getSortedBds = (bds: Bd[], selectedSort: string): Bd[] => {
       return bds.sort((a, b) => a.genre.localeCompare(b.genre));
     case 'genre-desc':
       return bds.sort((a, b) => b.genre.localeCompare(a.genre));
+    case 'readPriority':
+      return bds.sort((a, b) => (b.readPriority || 0) - (a.readPriority || 0));
+    case 'readPriority-asc':
+      return bds.sort((a, b) => (a.readPriority || 0) - (b.readPriority || 0));
     default:
       return bds.sort((a, b) => (b.rating || 0) - (a.rating || 0));
   }

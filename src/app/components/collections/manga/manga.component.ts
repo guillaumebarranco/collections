@@ -41,9 +41,11 @@ export class MangaComponent {
   @Input() showAddToReadlistButton = false;
   @Input() isInReadlist = false;
   @Input() recommendationBadge = '';
+  @Input() isReadlistView = false;
   @Output() editRequested = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
   @Output() addToReadlist = new EventEmitter<Manga>();
+  @Output() readPriorityUpdated = new EventEmitter<{ manga: Manga; priority: number }>();
 
   isBaseEntityView = isBaseEntityView();
 
@@ -85,5 +87,9 @@ export class MangaComponent {
     const entityQuizzs = this.getEntityQuizzs();
     if (entityQuizzs.length === 0) return;
     this.openQuizz.emit(entityQuizzs);
+  }
+
+  updateReadPriority(priority: number): void {
+    this.readPriorityUpdated.emit({ manga: this.manga, priority });
   }
 }

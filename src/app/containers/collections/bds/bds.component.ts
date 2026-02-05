@@ -44,6 +44,7 @@ import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
+import { getApiBaseUrl } from '../../../core/config';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedBd = Bd & {
@@ -150,7 +151,9 @@ export class BdsComponent implements OnInit {
   });
 
   sortedBds = computed<Bd[]>(() =>
-    getSortedBds([...this.filteredBds()], this.selectedSort())
+    this.selectedView() === 'readlist'
+      ? getSortedBds([...this.filteredBds()], 'readPriority')
+      : getSortedBds([...this.filteredBds()], this.selectedSort())
   );
 
   stats = computed<StatItem[]>(() => {
@@ -483,6 +486,43 @@ export class BdsComponent implements OnInit {
   bdAlreadyInUserReadlist(bd: Bd): boolean {
     const readlist = this.allReadlistBds();
     return readlist.some((b) => b.title === bd.title && b.writer === bd.writer);
+  }
+
+  async updateReadPriority(data: { bd: Bd; priority: number }): Promise<void> {
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/bds`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.getActiveUserId(),
+          title: data.bd.title,
+          writer: data.bd.writer,
+          rating: data.bd.rating,
+          readTimes: data.bd.readTimes,
+          readDate: data.bd.readDate,
+          owned: data.bd.owned,
+          readPriority: data.priority,
+        }),
+      });
+
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn(
+          'Échec de la mise à jour de la priorité :',
+          payload?.error || response.statusText
+        );
+        return;
+      }
+
+      await this.refreshBds();
+    } catch (error) {
+      console.warn(
+        'Erreur réseau lors de la mise à jour de la priorité.',
+        error
+      );
+    }
   }
 
   addBdToReadlist(bd: Bd) {

@@ -17,6 +17,8 @@ export const manwhasSortOptions: { value: string; label: string }[] = [
   { value: 'nbChapters-asc', label: 'Nombre de tomes (faible)' },
   { value: 'genre', label: 'Genre (A-Z)' },
   { value: 'genre-desc', label: 'Genre (Z-A)' },
+  { value: 'readPriority', label: 'Priorité (élevée)' },
+  { value: 'readPriority-asc', label: 'Priorité (faible)' },
 ];
 
 export const manwhaViewOptions: { value: ManwhaView; label: string }[] = [
@@ -89,6 +91,10 @@ export const getSortedManwhas = (
       return manwhas.sort((a, b) => a.genre.localeCompare(b.genre));
     case 'genre-desc':
       return manwhas.sort((a, b) => b.genre.localeCompare(a.genre));
+    case 'readPriority':
+      return manwhas.sort((a, b) => (b.readPriority || 0) - (a.readPriority || 0));
+    case 'readPriority-asc':
+      return manwhas.sort((a, b) => (a.readPriority || 0) - (b.readPriority || 0));
     default:
       return manwhas.sort((a, b) => (b.rating || 0) - (a.rating || 0));
   }

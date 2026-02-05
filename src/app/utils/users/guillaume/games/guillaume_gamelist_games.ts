@@ -12,7 +12,6 @@ export const guillaumeGameListGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
   },
-
   {
     title: 'Clair Obscur : Expedition 33',
     editor: 'Sandfall Interactive',
@@ -22,9 +21,8 @@ export const guillaumeGameListGames: UserGames = [
     timesFinishedHundredPercent: 0,
     platined: false,
     owned: false,
-    gamelistPriority: 1,
+    gamelistPriority: 3,
   },
-
   {
     title: 'Ratchet & Clank : Rift Apart',
     editor: 'Insomniac Games',
@@ -35,5 +33,5 @@ export const guillaumeGameListGames: UserGames = [
     platined: false,
     owned: false,
     gamelistPriority: 1,
-  },
+  }
 ];

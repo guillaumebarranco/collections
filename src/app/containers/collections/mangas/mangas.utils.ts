@@ -17,6 +17,8 @@ export const mangasSortOptions: { value: string; label: string }[] = [
   { value: 'nbTomes-asc', label: 'Nombre de tomes (faible)' },
   { value: 'genre', label: 'Genre (A-Z)' },
   { value: 'genre-desc', label: 'Genre (Z-A)' },
+  { value: 'readPriority', label: 'Priorité (élevée)' },
+  { value: 'readPriority-asc', label: 'Priorité (faible)' },
 ];
 
 export const mangaViewOptions: { value: MangaView; label: string }[] = [
@@ -81,6 +83,10 @@ export const getSortedMangas = (
       return mangas.sort((a, b) => a.genre.localeCompare(b.genre));
     case 'genre-desc':
       return mangas.sort((a, b) => b.genre.localeCompare(a.genre));
+    case 'readPriority':
+      return mangas.sort((a, b) => (b.readPriority || 0) - (a.readPriority || 0));
+    case 'readPriority-asc':
+      return mangas.sort((a, b) => (a.readPriority || 0) - (b.readPriority || 0));
     default:
       return mangas.sort((a, b) => (b.rating || 0) - (a.rating || 0));
   }
