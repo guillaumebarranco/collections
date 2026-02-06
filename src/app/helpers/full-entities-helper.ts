@@ -20,7 +20,7 @@ export const getFullBd = (bd: BaseBd): Bd => ({
   readDate: '',
   readTimes: 0,
   owned: false,
-  readPriority: 0,
+  readPriority: 1,
 });
 
 export const getFullComic = (comic: BaseComic): Comic => ({
@@ -34,7 +34,7 @@ export const getFullComic = (comic: BaseComic): Comic => ({
   readDate: '',
   readTimes: 0,
   owned: false,
-  readPriority: 0,
+  readPriority: 1,
 });
 
 export const getFullBook = (book: BaseBook): Book => ({
@@ -51,7 +51,7 @@ export const getFullBook = (book: BaseBook): Book => ({
   readDate: '',
   readTimes: 0,
   owned: false,
-  readPriority: 0,
+  readPriority: 1,
 });
 
 export const getFullGame = (game: BaseGame): Game => ({
@@ -71,7 +71,7 @@ export const getFullGame = (game: BaseGame): Game => ({
   additionnalEstimatedTime: 0,
   platined: false,
   owned: false,
-  gamelistPriority: 0,
+  gamelistPriority: 1,
 });
 
 export const getFullManga = (manga: BaseManga): Manga => ({
@@ -86,7 +86,7 @@ export const getFullManga = (manga: BaseManga): Manga => ({
   readDate: '',
   readTimes: 0,
   owned: false,
-  readPriority: 0,
+  readPriority: 1,
 });
 
 export const getFullManwha = (manwha: BaseManwha): Manwha => ({
@@ -101,7 +101,7 @@ export const getFullManwha = (manwha: BaseManwha): Manwha => ({
   readDate: '',
   readTimes: 0,
   owned: false,
-  readPriority: 0,
+  readPriority: 1,
 });
 
 export const getFullMovie = (movie: BaseMovie): Movie => ({
@@ -120,7 +120,7 @@ export const getFullMovie = (movie: BaseMovie): Movie => ({
   seenAtCinema: false,
   owned: false,
   wantToSeeAgain: false,
-  watchPriority: 0,
+  watchPriority: 1,
 });
 
 export const getFullSerie = (serie: BaseSerie): Serie => ({
@@ -134,5 +134,5 @@ export const getFullSerie = (serie: BaseSerie): Serie => ({
   seasonsData: serie.seasonsData,
   seasons: [],
   owned: false,
-  watchPriority: 0,
+  watchPriority: 1,
 });

@@ -693,14 +693,33 @@ export class BooksComponent implements OnInit {
     );
   }
 
-  addBookToReadlist(book: Book) {
-    this.router.navigate(['/select-books'], {
-      queryParams: {
-        readlist: 'true',
-        title: book.title,
-        author: book.author,
-      },
-    });
+  async addBookToReadlist(book: Book) {
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/books/add-existing`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.getActiveUserId(),
+          books: [book],
+          readlist: true,
+        }),
+      });
+
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn(
+          "Échec de l'ajout batch des livres :",
+          payload?.error || response.statusText
+        );
+        return;
+      }
+
+      this.router.navigate([`${this.getActiveUserId()}/books`]);
+    } catch (error) {
+      console.warn("Erreur réseau lors de l'ajout batch des films.", error);
+    }
   }
 
   async updateReadPriority(data: {

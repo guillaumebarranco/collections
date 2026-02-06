@@ -469,4 +469,34 @@ export const guillaumeReadlistBooks: UserBooks = [
     owned: true,
     readPriority: 1,
   },
+
+  {
+    title: 'Les disparus du phare de Tévennec',
+    author: 'Aricia Favalli',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+  },
+
+  {
+    title: 'Eragon (Eragon, #1)',
+    author: 'Christopher Paolini',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 0,
+  },
+
+  {
+    title: 'The Invisible Life of Addie LaRue',
+    author: 'V.E. Schwab',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 0,
+  },
 ];

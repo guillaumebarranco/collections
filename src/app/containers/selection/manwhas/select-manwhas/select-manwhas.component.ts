@@ -1,8 +1,9 @@
 import { Component, signal, computed, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../../components/menu/menu.component';
-import { Manwha } from '../../../../models/manwha-model';
+import { BaseManwha, Manwha } from '../../../../models/manwha-model';
 import {
+  getAllBaseManwhas,
   getAllManwhasMerged,
   getCurrentReadlistManwhasByUser,
   getManwhasByUser,
@@ -11,8 +12,8 @@ import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddManwhaComponent } from '../../../add/add-manwha/add-manwha.component';
 import { getApiBaseUrl, isLocalhost } from '../../../../core/config';
-import { Router } from '@angular/router';
 import { SelectEntityComponent } from '../../../../components/select-entity/select-entity.component';
+import { getEmptyManwha } from '../../../../helpers/empty-entities-helper';
 
 @Component({
   selector: 'app-select-manwhas',
@@ -32,6 +33,7 @@ export class SelectManwhasComponent
   private readonly dialog = inject(MatDialog);
 
   userManwhas = signal<Manwha[]>([]);
+  baseManwhas = signal<BaseManwha[]>([]);
   readlistManwhas = signal<Manwha[]>([]);
   allManwhasMergedList = signal<Manwha[]>([]);
   searchTerm = signal('');
@@ -50,7 +52,7 @@ export class SelectManwhasComponent
   });
 
   allManwhas = computed<Manwha[]>(() => {
-    const allManwhasList = this.allManwhasMergedList();
+    const allManwhasList = this.baseManwhas().map(getEmptyManwha);
 
     if (!this.isWatchOrReadlistMode()) {
       return allManwhasList.filter(
@@ -118,12 +120,14 @@ export class SelectManwhasComponent
 
   async ngOnInit() {
     const userId = this.userId();
-    const [manwhas, readlist] = await Promise.all([
+    const [baseManwhas, manwhas, readlist] = await Promise.all([
+      getAllBaseManwhas(),
       getManwhasByUser(userId),
       getCurrentReadlistManwhasByUser(userId),
     ]);
     const allManwhas = await this.getAllManwhasForSelection(userId);
     this.userManwhas.set(manwhas);
+    this.baseManwhas.set(baseManwhas);
     this.readlistManwhas.set(readlist);
     this.allManwhasMergedList.set(allManwhas);
   }

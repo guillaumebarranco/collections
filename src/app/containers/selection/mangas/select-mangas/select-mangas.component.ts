@@ -1,8 +1,9 @@
 import { Component, signal, computed, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../../components/menu/menu.component';
-import { Manga } from '../../../../models/manga-model';
+import { BaseManga, Manga } from '../../../../models/manga-model';
 import {
+  getAllBaseMangas,
   getAllMangasMerged,
   getCurrentReadlistMangasByUser,
   getMangasByUser,
@@ -11,8 +12,8 @@ import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddMangaComponent } from '../../../add/add-manga/add-manga.component';
 import { getApiBaseUrl, isLocalhost } from '../../../../core/config';
-import { Router } from '@angular/router';
 import { SelectEntityComponent } from '../../../../components/select-entity/select-entity.component';
+import { getEmptyManga } from '../../../../helpers/empty-entities-helper';
 
 @Component({
   selector: 'app-select-mangas',
@@ -32,6 +33,7 @@ export class SelectMangasComponent
   private readonly dialog = inject(MatDialog);
 
   userMangas = signal<Manga[]>([]);
+  baseMangas = signal<BaseManga[]>([]);
   readlistMangas = signal<Manga[]>([]);
   allMangasMergedList = signal<Manga[]>([]);
   searchTerm = signal('');
@@ -50,7 +52,7 @@ export class SelectMangasComponent
   });
 
   allMangas = computed<Manga[]>(() => {
-    const allMangasList = this.allMangasMergedList();
+    const allMangasList = this.baseMangas().map(getEmptyManga);
 
     if (!this.isWatchOrReadlistMode()) {
       return allMangasList.filter(
@@ -118,11 +120,13 @@ export class SelectMangasComponent
 
   async ngOnInit() {
     const userId = this.userId();
-    const [mangas, readlist] = await Promise.all([
+    const [baseMangas, mangas, readlist] = await Promise.all([
+      getAllBaseMangas(),
       getMangasByUser(userId),
       getCurrentReadlistMangasByUser(userId),
     ]);
     const allMangas = await this.getAllMangasForSelection(userId);
+    this.baseMangas.set(baseMangas);
     this.userMangas.set(mangas);
     this.readlistMangas.set(readlist);
     this.allMangasMergedList.set(allMangas);

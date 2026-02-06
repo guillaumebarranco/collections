@@ -1,17 +1,19 @@
 import { Component, signal, computed, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../../components/menu/menu.component';
-import { Bd } from '../../../../models/bd-model';
+import { BaseBd, Bd } from '../../../../models/bd-model';
 import {
   getAllBdsMerged,
   getCurrentReadlistBdsByUser,
   getBdsByUser,
+  getAllBaseBds,
 } from '../../../../facades/bds/bds.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddBdComponent } from '../../../add/add-bd/add-bd.component';
 import { getApiBaseUrl, isLocalhost } from '../../../../core/config';
 import { SelectEntityComponent } from '../../../../components/select-entity/select-entity.component';
+import { getEmptyBd } from '../../../../helpers/empty-entities-helper';
 
 @Component({
   selector: 'app-select-bds',
@@ -30,6 +32,7 @@ export class SelectBdsComponent
 {
   private readonly dialog = inject(MatDialog);
 
+  baseBds = signal<BaseBd[]>([]);
   userBds = signal<Bd[]>([]);
   readlistBds = signal<Bd[]>([]);
   allBdsMergedList = signal<Bd[]>([]);
@@ -49,7 +52,7 @@ export class SelectBdsComponent
   });
 
   allBds = computed<Bd[]>(() => {
-    const allBdsList = this.allBdsMergedList();
+    const allBdsList = this.baseBds().map(getEmptyBd);
 
     if (!this.isWatchOrReadlistMode()) {
       return allBdsList.filter(
@@ -74,7 +77,9 @@ export class SelectBdsComponent
       const title = bd.title?.toLowerCase() || '';
       const writer = bd.writer?.toLowerCase() || '';
       const designer = bd.designer?.toLowerCase() || '';
-      return title.includes(term) || writer.includes(term) || designer.includes(term);
+      return (
+        title.includes(term) || writer.includes(term) || designer.includes(term)
+      );
     });
   });
 
@@ -118,11 +123,13 @@ export class SelectBdsComponent
 
   async ngOnInit() {
     const userId = this.userId();
-    const [bds, readlist] = await Promise.all([
+    const [baseBds, bds, readlist] = await Promise.all([
+      getAllBaseBds(),
       getBdsByUser(userId),
       getCurrentReadlistBdsByUser(userId),
     ]);
     const allBds = await this.getAllBdsForSelection(userId);
+    this.baseBds.set(baseBds);
     this.userBds.set(bds);
     this.readlistBds.set(readlist);
     this.allBdsMergedList.set(allBds);

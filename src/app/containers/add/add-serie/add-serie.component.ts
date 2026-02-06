@@ -61,12 +61,12 @@ export class AddSerieComponent {
     endDate: '',
     genre: '',
     seasonsData: [],
-    watchPriority: 0,
+    watchPriority: 1,
   });
 
   userForm = signal<AddSerieUserForm>({
     owned: false,
-    watchPriority: 0,
+    watchPriority: 1,
     seasons: [],
   });
 

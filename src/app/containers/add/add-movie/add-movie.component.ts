@@ -66,7 +66,7 @@ export class AddMovieComponent {
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 0,
+    watchPriority: 1,
   });
 
   close() {
@@ -97,7 +97,11 @@ export class AddMovieComponent {
   ) {
     const current = this.userForm();
     let nextValue: AddMovieUserForm[K] = value as AddMovieUserForm[K];
-    if (field === 'rating' || field === 'timesWatched' || field === 'watchPriority') {
+    if (
+      field === 'rating' ||
+      field === 'timesWatched' ||
+      field === 'watchPriority'
+    ) {
       const asNumber = Number(value);
       nextValue = (
         Number.isNaN(asNumber) ? 0 : asNumber
@@ -109,7 +113,10 @@ export class AddMovieComponent {
     });
   }
 
-  updateCheckbox(field: 'seenAtCinema' | 'owned' | 'wantToSeeAgain', checked: boolean) {
+  updateCheckbox(
+    field: 'seenAtCinema' | 'owned' | 'wantToSeeAgain',
+    checked: boolean
+  ) {
     const current = this.userForm();
     this.userForm.set({
       ...current,

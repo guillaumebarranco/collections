@@ -14,7 +14,6 @@ import { AddBookComponent } from '../../../add/add-book/add-book.component';
 import { SelectEntityComponent } from '../../../../components/select-entity/select-entity.component';
 
 import { isLocalhost } from '../../../../core/config';
-import { Router } from '@angular/router';
 import { getApiBaseUrl } from '../../../../core/config';
 import { getEmptyBook } from '../../../../helpers/empty-entities-helper';
 

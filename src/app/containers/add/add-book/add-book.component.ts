@@ -62,7 +62,7 @@ export class AddBookComponent {
     readTimes: 1,
     readDate: '',
     owned: false,
-    readPriority: 0,
+    readPriority: 1,
   });
 
   close() {
@@ -93,7 +93,11 @@ export class AddBookComponent {
   ) {
     const current = this.userForm();
     let nextValue: AddBookUserForm[K] = value as AddBookUserForm[K];
-    if (field === 'rating' || field === 'readTimes' || field === 'readPriority') {
+    if (
+      field === 'rating' ||
+      field === 'readTimes' ||
+      field === 'readPriority'
+    ) {
       const asNumber = Number(value);
       nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as AddBookUserForm[K];
     }

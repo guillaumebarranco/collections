@@ -66,7 +66,7 @@ export class AddGameComponent {
     timesFinishedHundredPercent: 0,
     platined: false,
     owned: false,
-    gamelistPriority: 0,
+    gamelistPriority: 1,
   });
 
   close() {
