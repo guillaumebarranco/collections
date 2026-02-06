@@ -34,7 +34,7 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Le Loup de Wall Street',
     director: 'Martin Scorsese',
-    actors: [{ name: 'Leonardo DiCaprio' }],
+    actors: [{ name: 'Leonardo DiCaprio' }, { name: 'Margot Robbie' }],
     coverUrl:
       '/movies_pictures/86114-the-wolf-of-wall-street-0-150-0-225-crop.jpg',
     releaseDate: '2013-12-25',
@@ -90,7 +90,7 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Le Majordome',
     director: 'Lee Daniels',
-    actors: [{ name: 'Forest Whitaker' }],
+    actors: [{ name: 'Forest Whitaker' }, { name: 'Robin Williams' }],
     coverUrl: '/movies_pictures/le_majordome.jpg',
     releaseDate: '2013-08-16',
     length: 132,
@@ -703,7 +703,7 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'From Paris with Love',
     director: 'Pierre Morel',
-    actors: [{ name: 'John Travolta' }],
+    actors: [{ name: 'John Travolta' }, { name: 'Jonathan Rhys Meyers' }],
     coverUrl:
       '/movies_pictures/MV5BNThhNDcyYjktNTNkOC00NDFmLTkyMjAtNGU2NjYyY2ZlMjBhXkEyXkFqcGc@._V1_.jpg',
     releaseDate: '2010-02-05',
@@ -1307,7 +1307,11 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Once Upon a Time in Hollywood',
     director: 'Quentin Tarantino',
-    actors: [{ name: 'Leonardo DiCaprio' }, { name: 'Brad Pitt' }],
+    actors: [
+      { name: 'Leonardo DiCaprio' },
+      { name: 'Brad Pitt' },
+      { name: 'Margot Robbie' },
+    ],
     coverUrl: '/movies_pictures/0719990.jpg',
     releaseDate: '2019-07-26',
     length: 161,

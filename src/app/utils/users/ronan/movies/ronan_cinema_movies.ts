@@ -2535,7 +2535,7 @@ export const ronanCinemaMovies: UserMovies = [
     watchPriority: 1,
   },
   {
-    title: 'Out of the Furnace',
+    title: 'Les Brasiers de la colère',
     director: 'Scott Cooper',
     rating: 3,
     timesWatched: 1,

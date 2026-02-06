@@ -611,7 +611,11 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
   {
     title: 'About Time',
     director: 'Richard Curtis',
-    actors: [{ name: 'Domhnall Gleeson' }, { name: 'Rachel McAdams' }],
+    actors: [
+      { name: 'Domhnall Gleeson' },
+      { name: 'Rachel McAdams' },
+      { name: 'Margot Robbie' },
+    ],
     coverUrl: '/movies_pictures/814fRqJ+AyL.jpg',
     releaseDate: '2013-11-08',
     length: 123,
@@ -674,7 +678,11 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
   {
     title: 'Ted',
     director: 'Seth MacFarlane',
-    actors: [{ name: 'Mark Wahlberg' }, { name: 'Mila Kunis' }],
+    actors: [
+      { name: 'Mark Wahlberg' },
+      { name: 'Mila Kunis' },
+      { name: 'Ryan Reynolds' },
+    ],
     coverUrl: '/movies_pictures/20196214.webp',
     releaseDate: '2012-06-29',
     length: 106,
@@ -808,7 +816,11 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
   {
     title: 'Public Enemies',
     director: 'Michael Mann',
-    actors: [{ name: 'Johnny Depp' }, { name: 'Christian Bale' }],
+    actors: [
+      { name: 'Johnny Depp' },
+      { name: 'Christian Bale' },
+      { name: 'Marion Cotillard' },
+    ],
     coverUrl: '/movies_pictures/088353.webp',
     releaseDate: '2009-07-01',
     length: 140,

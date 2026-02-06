@@ -896,4 +896,14 @@ export const baseBooks: BaseBook[] = [
     sagaOrder: 0,
     sagaFinished: false,
   },
+  {
+    title: 'Da Vinci Code',
+    author: 'Dan Brown',
+    coverUrl: '/books_pictures/Da-Vinci-code.jpg',
+    pages: 480,
+    genre: 'Thriller',
+    saga: '',
+    sagaOrder: 0,
+    sagaFinished: false,
+  },
 ];

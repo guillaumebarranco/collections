@@ -257,6 +257,9 @@ export const baseMoviesPage1: BaseMovie[] = [
       {
         name: 'Aaron Taylor-Johnson',
       },
+      {
+        name: 'Sandra Bullock',
+      },
     ],
     coverUrl: '/movies_pictures/641961-bullet-train-0-150-0-225-crop.jpg',
     releaseDate: '2022-08-05',

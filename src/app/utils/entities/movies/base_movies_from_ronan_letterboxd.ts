@@ -414,6 +414,9 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       {
         name: 'Jodie Turner-Smith',
       },
+      {
+        name: 'Scarlett Johansson',
+      },
     ],
     coverUrl: '/movies_pictures/jurassic_world_renaissance.jpg',
     releaseDate: '2025-07-04',
@@ -5959,7 +5962,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Hunger Games',
   },
   {
-    title: 'Out of the Furnace',
+    title: 'Les Brasiers de la colère',
     director: 'Scott Cooper',
     actors: [
       {
@@ -7394,21 +7397,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     length: 105,
     genre: 'Animation',
     saga: '',
-  },
-  {
-    title: 'La Nuit au musée 2',
-    director: 'Shawn Levy',
-    actors: [
-      {
-        name: 'Ben Stiller',
-      },
-    ],
-    coverUrl:
-      '/movies_pictures/night_at_the_museum_battle_of_the_smithsonian.jpg',
-    releaseDate: '2009-05-22',
-    length: 105,
-    genre: 'Comédie',
-    saga: 'La nuit au musée',
   },
   {
     title: 'Star Trek',

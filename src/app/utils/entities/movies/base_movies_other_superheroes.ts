@@ -98,7 +98,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: 'X-Men Origins : Wolverine',
     director: 'Gavin Hood',
-    actors: [{ name: 'Hugh Jackman' }],
+    actors: [{ name: 'Hugh Jackman' }, { name: 'Ryan Reynolds' }],
     coverUrl:
       '/movies_pictures/50544-x-men-origins-wolverine-0-150-0-225-crop.jpg',
     releaseDate: '2009-05-01',

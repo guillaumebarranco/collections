@@ -43,6 +43,21 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Chris Evans',
       },
+      {
+        name: 'Scarlett Johansson',
+      },
+      {
+        name: 'Mark Ruffalo',
+      },
+      {
+        name: 'Jeremy Renner',
+      },
+      {
+        name: 'Samuel L. Jackson',
+      },
+      {
+        name: 'Tom Hiddleston',
+      },
     ],
     coverUrl:
       '/movies_pictures/81605-avengers-age-of-ultron-0-150-0-225-crop.jpg',
@@ -61,6 +76,30 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Chris Evans',
       },
+      {
+        name: 'Scarlett Johansson',
+      },
+      {
+        name: 'Mark Ruffalo',
+      },
+      {
+        name: 'Jeremy Renner',
+      },
+      {
+        name: 'Samuel L. Jackson',
+      },
+      {
+        name: 'Tom Hiddleston',
+      },
+      {
+        name: 'Paul Bettany',
+      },
+      {
+        name: 'Benedict Cumberbatch',
+      },
+      {
+        name: 'Chadwick Boseman',
+      },
     ],
     coverUrl:
       '/movies_pictures/226661-avengers-infinity-war-0-150-0-225-crop.jpg',
@@ -78,6 +117,27 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       {
         name: 'Chris Evans',
+      },
+      {
+        name: 'Scarlett Johansson',
+      },
+      {
+        name: 'Mark Ruffalo',
+      },
+      {
+        name: 'Jeremy Renner',
+      },
+      {
+        name: 'Samuel L. Jackson',
+      },
+      {
+        name: 'Paul Bettany',
+      },
+      {
+        name: 'Benedict Cumberbatch',
+      },
+      {
+        name: 'Chadwick Boseman',
       },
     ],
     coverUrl: '/movies_pictures/226660-avengers-endgame-0-150-0-225-crop.jpg',
@@ -104,7 +164,14 @@ export const baseMoviesMcu: BaseMovie[] = [
   {
     title: "Captain America : Le Soldat de l'Hiver",
     director: 'Anthony Russo, Joe Russo',
-    actors: [{ name: 'Chris Evans' }],
+    actors: [
+      {
+        name: 'Chris Evans',
+      },
+      {
+        name: 'Scarlett Johansson',
+      },
+    ],
     coverUrl: '/movies_pictures/captain_america_le_soldat_de_lhiver.jpg',
     releaseDate: '2014-04-04',
     length: 136,
@@ -120,6 +187,18 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       {
         name: 'Robert Downey Jr.',
+      },
+      {
+        name: 'Scarlett Johansson',
+      },
+      {
+        name: 'Mark Ruffalo',
+      },
+      {
+        name: 'Jeremy Renner',
+      },
+      {
+        name: 'Samuel L. Jackson',
       },
     ],
     coverUrl:
@@ -172,6 +251,21 @@ export const baseMoviesMcu: BaseMovie[] = [
     actors: [
       {
         name: 'Robert Downey Jr.',
+      },
+      {
+        name: 'Scarlett Johansson',
+      },
+      {
+        name: 'Gwyneth Paltrow',
+      },
+      {
+        name: 'Jon Favreau',
+      },
+      {
+        name: 'Don Cheadle',
+      },
+      {
+        name: 'Mickey Rourke',
       },
     ],
     coverUrl: '/movies_pictures/46511-iron-man-2-0-150-0-225-crop.jpg',
@@ -275,6 +369,9 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       {
         name: 'Nathalie Portman',
+      },
+      {
+        name: 'Christian Bale',
       },
     ],
     coverUrl:

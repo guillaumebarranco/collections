@@ -422,7 +422,7 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: "Maman je m'occupe des méchants",
     director: 'Raja Gosnell',
-    actors: [{ name: '' }],
+    actors: [{ name: 'Scarlett Johansson' }],
     coverUrl: '/movies_pictures/46891-home-alone-3-0-1000-0-1500-crop.jpg',
     releaseDate: '1997-02-05',
     length: 102,
@@ -718,7 +718,11 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Le Prestige',
     director: 'Christopher Nolan',
-    actors: [{ name: 'Christian Bale' }, { name: 'Hugh Jackman' }],
+    actors: [
+      { name: 'Christian Bale' },
+      { name: 'Hugh Jackman' },
+      { name: 'Scarlett Johansson' },
+    ],
     coverUrl: '/movies_pictures/51147-the-prestige-0-150-0-225-crop.jpg',
     releaseDate: '2006-10-20',
     length: 130,
@@ -772,7 +776,7 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: "Le Diable s'Habille en Prada",
     director: 'David Frankel',
-    actors: [{ name: 'Anne Hathaway' }],
+    actors: [{ name: 'Anne Hathaway' }, { name: 'Meryl Streep' }],
     coverUrl:
       '/movies_pictures/51712-the-devil-wears-prada-0-150-0-225-crop.jpg',
     releaseDate: '2006-06-30',
@@ -1018,7 +1022,7 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'True Lies',
     director: 'James Cameron',
-    actors: [{ name: 'Arnold Schwarzenegger' }],
+    actors: [{ name: 'Arnold Schwarzenegger' }, { name: 'Jamie Lee Curtis' }],
     coverUrl: '/movies_pictures/true_lies.jpg',
     releaseDate: '1994-07-15',
     length: 141,
@@ -1132,7 +1136,7 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Will Hunting',
     director: 'Gus Van Sant',
-    actors: [{ name: 'Matt Damon' }],
+    actors: [{ name: 'Matt Damon' }, { name: 'Robin Williams' }],
     coverUrl: '/movies_pictures/51621-good-will-hunting-0-150-0-225-crop.jpg',
     releaseDate: '1997-12-05',
     length: 126,

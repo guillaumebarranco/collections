@@ -209,6 +209,15 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Daniel Craig',
       },
+      {
+        name: 'Ana de Armas',
+      },
+      {
+        name: 'Chris Evans',
+      },
+      {
+        name: 'Jamie Lee Curtis',
+      },
     ],
     coverUrl: '/movies_pictures/475370-knives-out-0-150-0-225-crop.jpg',
     releaseDate: '2019-11-27',
@@ -562,7 +571,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'La nuit au musée',
     director: 'Shawn Levy',
-    actors: [{ name: 'Ben Stiller' }],
+    actors: [{ name: 'Ben Stiller' }, { name: 'Robin Williams' }],
     coverUrl: '/movies_pictures/50941-night-at-the-museum-0-150-0-225-crop.jpg',
     releaseDate: '2006-12-22',
     length: 108,
@@ -572,7 +581,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'La Nuit au musée 2',
     director: 'Shawn Levy',
-    actors: [{ name: 'Ben Stiller' }],
+    actors: [{ name: 'Ben Stiller' }, { name: 'Robin Williams' }],
     coverUrl: '/movies_pictures/la_nuit_au_musee.jpg',
     releaseDate: '2009-05-22',
     length: 105,
@@ -733,6 +742,9 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     actors: [
       {
         name: 'Sandra Bullock',
+      },
+      {
+        name: 'Anne Hathaway',
       },
     ],
     coverUrl:
@@ -1042,7 +1054,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Blade : Trinity',
     director: 'David S. Goyer',
-    actors: [{ name: 'Wesley Snipes' }],
+    actors: [{ name: 'Wesley Snipes' }, { name: 'Ryan Reynolds' }],
     coverUrl: '/movies_pictures/blade_trinity.jpg',
     releaseDate: '2004-12-08',
     length: 113,
@@ -1052,7 +1064,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Twilight : Chapitre 1 - Fascination',
     director: 'Catherine Hardwicke',
-    actors: [{ name: 'Kristen Stewart' }],
+    actors: [{ name: 'Kristen Stewart' }, { name: 'Robert Pattinson' }],
     coverUrl: '/movies_pictures/47469-twilight-0-150-0-225-crop.jpg',
     releaseDate: '2008-11-21',
     length: 122,
@@ -1062,7 +1074,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Twilight : Chapitre 2 - Tentation',
     director: 'Chris Weitz',
-    actors: [{ name: 'Kristen Stewart' }],
+    actors: [{ name: 'Kristen Stewart' }, { name: 'Robert Pattinson' }],
     coverUrl:
       '/movies_pictures/40480-the-twilight-saga-new-moon-0-150-0-225-crop.jpg',
     releaseDate: '2009-11-20',
@@ -1073,7 +1085,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Twilight : Chapitre 3 - Hésitation',
     director: 'David Slade',
-    actors: [{ name: 'Kristen Stewart' }],
+    actors: [{ name: 'Kristen Stewart' }, { name: 'Robert Pattinson' }],
     coverUrl: '/movies_pictures/hesitation.jpg',
     releaseDate: '2010-06-30',
     length: 124,
@@ -1083,7 +1095,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Twilight : Chapitre 4 - Révélation - Partie 1',
     director: 'Bill Condon',
-    actors: [{ name: 'Kristen Stewart' }],
+    actors: [{ name: 'Kristen Stewart' }, { name: 'Robert Pattinson' }],
     coverUrl:
       '/movies_pictures/15077-the-twilight-saga-breaking-dawn-part-1-0-1000-0-1500-crop.jpg',
     releaseDate: '2011-11-18',
@@ -1094,7 +1106,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Twilight : Chapitre 4 - Révélation - Partie 2',
     director: 'Bill Condon',
-    actors: [{ name: 'Kristen Stewart' }],
+    actors: [{ name: 'Kristen Stewart' }, { name: 'Robert Pattinson' }],
     coverUrl:
       '/movies_pictures/15076-the-twilight-saga-breaking-dawn-part-2-0-150-0-225-crop.jpg',
     releaseDate: '2012-11-16',
@@ -1251,7 +1263,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     actors: [
       {
         name: 'Sam Worthington',
-      }
+      },
     ],
     coverUrl:
       '/movies_pictures/63058-avatar-the-way-of-water-0-150-0-225-crop.jpg',

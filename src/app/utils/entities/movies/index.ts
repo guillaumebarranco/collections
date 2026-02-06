@@ -3,6 +3,7 @@ export * from './base_movies_2';
 export * from './base_movies_3';
 export * from './base_movies_4';
 export * from './base_movies_5';
+export * from './base_movies_6';
 export * from './base_movies_mcu';
 export * from './base_movies_dc';
 export * from './base_movies_other_superheroes';

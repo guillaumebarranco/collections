@@ -305,7 +305,7 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Love & autres drogues',
     director: 'Edward Zwick',
-    actors: [{ name: 'Jake Gyllenhaal' }],
+    actors: [{ name: 'Jake Gyllenhaal' }, { name: 'Anne Hathaway' }],
     coverUrl: '/movies_pictures/21801-love-other-drugs-0-150-0-225-crop.jpg',
     releaseDate: '2010-11-24',
     length: 112,
@@ -385,7 +385,7 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: "Valentine's Day",
     director: 'Garry Marshall',
-    actors: [{ name: 'Julia Roberts' }],
+    actors: [{ name: 'Julia Roberts' }, { name: 'Anne Hathaway' }],
     coverUrl: '/movies_pictures/valentine_day.jpg',
     releaseDate: '2010-02-12',
     length: 125,
@@ -395,7 +395,7 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'La proposition',
     director: 'Anne Fletcher',
-    actors: [{ name: 'Sandra Bullock' }],
+    actors: [{ name: 'Sandra Bullock' }, { name: 'Ryan Reynolds' }],
     coverUrl: '/movies_pictures/40479-the-proposal-0-150-0-225-crop.jpg',
     releaseDate: '2009-06-19',
     length: 108,
@@ -456,7 +456,7 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Match Point',
     director: 'Woody Allen',
-    actors: [{ name: 'Jonathan Rhys Meyers' }],
+    actors: [{ name: 'Jonathan Rhys Meyers' }, { name: 'Scarlett Johansson' }],
     coverUrl: '/movies_pictures/match_point.jpg',
     releaseDate: '2005-05-12',
     length: 124,
@@ -466,7 +466,11 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Hitch : Expert en Séduction',
     director: 'Andy Tennant',
-    actors: [{ name: 'Will Smith' }],
+    actors: [
+      { name: 'Will Smith' },
+      { name: 'Eva Mendes' },
+      { name: 'Kevin James' },
+    ],
     coverUrl: '/movies_pictures/47699-hitch-0-150-0-225-crop.jpg',
     releaseDate: '2005-02-11',
     length: 118,

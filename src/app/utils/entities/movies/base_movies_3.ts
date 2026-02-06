@@ -183,7 +183,7 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Pixels',
     director: 'Chris Columbus',
-    actors: [{ name: 'Adam Sandler' }],
+    actors: [{ name: 'Adam Sandler' }, { name: 'Kevin James' }],
     coverUrl: '/movies_pictures/181118-pixels-0-150-0-225-crop.jpg',
     releaseDate: '2015-07-24',
     length: 105,
@@ -203,7 +203,7 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Diversion',
     director: 'Glenn Ficarra, John Requa',
-    actors: [{ name: 'Will Smith' }],
+    actors: [{ name: 'Will Smith' }, { name: 'Margot Robbie' }],
     coverUrl: '/movies_pictures/180414-focus-0-150-0-225-crop.jpg',
     releaseDate: '2015-02-27',
     length: 105,
@@ -1030,7 +1030,7 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Alice au Pays des Merveilles',
     director: 'Tim Burton',
-    actors: [{ name: 'Johnny Depp' }],
+    actors: [{ name: 'Johnny Depp' }, { name: 'Anne Hathaway' }],
     coverUrl:
       '/movies_pictures/alice-in-wonderland-original-0-150-0-225-crop.jpg',
     releaseDate: '2010-03-05',
