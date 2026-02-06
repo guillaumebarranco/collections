@@ -27,6 +27,7 @@ type EditBookForm = {
   readDate: string;
   owned: boolean;
   readPriority: number;
+  sagaFinished: boolean;
 };
 
 type EditBookEntityForm = {
@@ -34,8 +35,7 @@ type EditBookEntityForm = {
   genre: string;
   saga: string;
   sagaOrder: number;
-  nbTomes: number;
-  isFinished: boolean;
+  sagaFinished: boolean;
   coverUrl: string;
 };
 
@@ -144,7 +144,11 @@ export class EditBookComponent {
     if (!current) return;
 
     let nextValue: EditBookForm[K] = value as EditBookForm[K];
-    if (field === 'rating' || field === 'readTimes' || field === 'readPriority') {
+    if (
+      field === 'rating' ||
+      field === 'readTimes' ||
+      field === 'readPriority'
+    ) {
       const asNumber = Number(value);
       nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditBookForm[K];
     }
@@ -183,7 +187,7 @@ export class EditBookComponent {
     });
   }
 
-  updateEntityCheckbox(field: 'isFinished', checked: boolean) {
+  updateEntityCheckbox(field: 'sagaFinished', checked: boolean) {
     const current = this.bookEntityForm();
     if (!current) return;
     this.bookEntityForm.set({
@@ -428,6 +432,7 @@ export class EditBookComponent {
       readDate: book.readDate,
       owned: book.owned,
       readPriority: book.readPriority ?? 0,
+      sagaFinished: book.sagaFinished,
     };
   }
 
@@ -437,9 +442,8 @@ export class EditBookComponent {
       genre: book.genre || '',
       saga: book.saga || '',
       sagaOrder: book.sagaOrder || 0,
-      nbTomes: book.nbTomes || 0,
-      isFinished: book.isFinished !== false,
       coverUrl: book.coverUrl || '',
+      sagaFinished: book.sagaFinished,
     };
   }
 
@@ -450,8 +454,7 @@ export class EditBookComponent {
       genre: form.genre,
       saga: form.saga,
       sagaOrder: form.sagaOrder,
-      nbTomes: form.nbTomes,
-      isFinished: form.isFinished,
+      sagaFinished: form.sagaFinished,
       coverUrl: form.coverUrl,
     };
   }

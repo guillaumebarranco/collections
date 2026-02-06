@@ -9,6 +9,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Dystopie',
     saga: 'Hunger Games',
     sagaOrder: 1,
+    sagaFinished: true,
   },
   {
     title: "L'Embrasement",
@@ -19,6 +20,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Dystopie',
     saga: 'Hunger Games',
     sagaOrder: 2,
+    sagaFinished: true,
   },
   {
     title: 'La Révolte',
@@ -29,6 +31,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Dystopie',
     saga: 'Hunger Games',
     sagaOrder: 3,
+    sagaFinished: true,
   },
   {
     title: "La Ballade du serpent et de l'oiseau chanteur",
@@ -39,6 +42,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Dystopie',
     saga: 'Hunger Games',
     sagaOrder: 4,
+    sagaFinished: true,
   },
   {
     title: 'Lever de soleil sur la moisson',
@@ -48,6 +52,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Science Fiction',
     saga: 'Hunger Games',
     sagaOrder: 5,
+    sagaFinished: true,
   },
   {
     title: "Harry Potter à l'école des sorciers",
@@ -58,6 +63,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Harry Potter',
     sagaOrder: 1,
+    sagaFinished: true,
   },
   {
     title: 'Harry Potter et la Chambre des secrets',
@@ -68,6 +74,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Harry Potter',
     sagaOrder: 2,
+    sagaFinished: true,
   },
   {
     title: "Harry Potter et le Prisonnier d'Azkaban",
@@ -78,6 +85,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Harry Potter',
     sagaOrder: 3,
+    sagaFinished: true,
   },
   {
     title: 'Harry Potter et la Coupe de feu',
@@ -88,6 +96,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Harry Potter',
     sagaOrder: 4,
+    sagaFinished: true,
   },
   {
     title: "Harry Potter et l'Ordre du Phénix",
@@ -98,6 +107,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Harry Potter',
     sagaOrder: 5,
+    sagaFinished: true,
   },
   {
     title: 'Harry Potter et le Prince de sang-mêlé',
@@ -108,6 +118,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Harry Potter',
     sagaOrder: 6,
+    sagaFinished: true,
   },
   {
     title: 'Harry Potter et les Reliques de la Mort',
@@ -118,6 +129,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Harry Potter',
     sagaOrder: 7,
+    sagaFinished: true,
   },
   {
     title: "Harry Potter et l'Enfant maudit",
@@ -125,8 +137,9 @@ export const baseBooksSaga: BaseBook[] = [
     coverUrl: '/books_pictures/harry_potter_tome_8_enfant_maudit.jpg',
     pages: 330,
     genre: 'Fantasy',
-    saga: 'Harry Potter',
-    sagaOrder: 8,
+    saga: '',
+    sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: 'Fascination',
@@ -136,6 +149,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Romance',
     saga: 'Twilight',
     sagaOrder: 1,
+    sagaFinished: true,
   },
   {
     title: 'Tentation',
@@ -145,6 +159,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Romance',
     saga: 'Twilight',
     sagaOrder: 2,
+    sagaFinished: true,
   },
   {
     title: 'Hésitation',
@@ -154,6 +169,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Romance',
     saga: 'Twilight',
     sagaOrder: 3,
+    sagaFinished: true,
   },
   {
     title: 'Révélation',
@@ -163,6 +179,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Romance',
     saga: 'Twilight',
     sagaOrder: 4,
+    sagaFinished: true,
   },
   {
     title: 'Midnight Sun',
@@ -172,6 +189,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Romance',
     saga: 'Twilight',
     sagaOrder: 5,
+    sagaFinished: true,
   },
   {
     title: 'Le Voleur de foudre',
@@ -182,6 +200,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Percy Jackson',
     sagaOrder: 1,
+    sagaFinished: true,
   },
   {
     title: 'La Mer des monstres',
@@ -192,6 +211,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Percy Jackson',
     sagaOrder: 2,
+    sagaFinished: true,
   },
   {
     title: 'Le Sort du titan',
@@ -202,6 +222,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Percy Jackson',
     sagaOrder: 3,
+    sagaFinished: true,
   },
   {
     title: 'La Bataille du labyrinthe',
@@ -212,6 +233,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Percy Jackson',
     sagaOrder: 4,
+    sagaFinished: true,
   },
   {
     title: 'Le Dernier Olympien',
@@ -222,6 +244,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Percy Jackson',
     sagaOrder: 5,
+    sagaFinished: true,
   },
   {
     title: 'Le Calice des dieux',
@@ -232,6 +255,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Percy Jackson',
     sagaOrder: 6,
+    sagaFinished: true,
   },
   {
     title: 'Divergente',
@@ -241,6 +265,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Dystopie',
     saga: 'Divergente',
     sagaOrder: 1,
+    sagaFinished: true,
   },
   {
     title: "Divergente Tome 2 : L'Insurrection",
@@ -250,6 +275,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Science-Fiction',
     saga: 'Divergente',
     sagaOrder: 2,
+    sagaFinished: true,
   },
   {
     title: 'Divergente Tome 3 : Allégeance',
@@ -259,6 +285,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Science-Fiction',
     saga: 'Divergente',
     sagaOrder: 3,
+    sagaFinished: true,
   },
   {
     title: 'Le Labyrinthe',
@@ -268,6 +295,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Dystopie',
     saga: 'Le Labyrinthe',
     sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: 'Une étude en rouge',
@@ -277,6 +305,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Enquête',
     saga: 'Sherlock Holmes',
     sagaOrder: 1,
+    sagaFinished: true,
   },
   {
     title: 'Le Signe des quatre',
@@ -286,6 +315,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Enquête',
     saga: 'Sherlock Holmes',
     sagaOrder: 2,
+    sagaFinished: true,
   },
   {
     title: 'Le Chien des Baskerville',
@@ -295,6 +325,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Enquête',
     saga: 'Sherlock Holmes',
     sagaOrder: 3,
+    sagaFinished: true,
   },
   {
     title: 'La vallée de la peur',
@@ -304,6 +335,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Enquête',
     saga: 'Sherlock Holmes',
     sagaOrder: 4,
+    sagaFinished: true,
   },
   {
     title: 'Les Mobilisés',
@@ -313,6 +345,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Dystopie',
     saga: 'Absolu',
     sagaOrder: 1,
+    sagaFinished: true,
   },
   {
     title: 'Les Effacés',
@@ -322,6 +355,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Dystopie',
     saga: 'Absolu',
     sagaOrder: 2,
+    sagaFinished: true,
   },
   {
     title: 'Les Éveillés',
@@ -331,6 +365,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Dystopie',
     saga: 'Absolu',
     sagaOrder: 3,
+    sagaFinished: true,
   },
   {
     title: 'Inside Mac: Tome 1',
@@ -340,6 +375,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Dark Romance',
     saga: 'Inside Mac',
     sagaOrder: 1,
+    sagaFinished: true,
   },
   {
     title: 'Inside Mac: Tome 2',
@@ -349,6 +385,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Dark Romance',
     saga: 'Inside Mac',
     sagaOrder: 2,
+    sagaFinished: true,
   },
   {
     title: 'Player One',
@@ -358,6 +395,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Science Fiction',
     saga: 'Ready Player One',
     sagaOrder: 1,
+    sagaFinished: true,
   },
   {
     title: 'Ready Player Two',
@@ -368,6 +406,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Science Fiction',
     saga: 'Ready Player One',
     sagaOrder: 2,
+    sagaFinished: true,
   },
   {
     title: 'La femme de ménage',
@@ -377,6 +416,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Thriller',
     saga: 'La femme de ménage',
     sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: 'Les secrets de la femme de ménage',
@@ -386,6 +426,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Thriller',
     saga: 'La femme de ménage',
     sagaOrder: 2,
+    sagaFinished: false,
   },
   {
     title: 'La femme de ménage se marie',
@@ -395,6 +436,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Thriller',
     saga: 'La femme de ménage',
     sagaOrder: 3,
+    sagaFinished: false,
   },
   {
     title: 'La femme de ménage voit tout',
@@ -404,6 +446,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Thriller',
     saga: 'La femme de ménage',
     sagaOrder: 4,
+    sagaFinished: false,
   },
   {
     title: 'Les Trois Mousquetaires',
@@ -413,6 +456,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Classiques',
     saga: 'Les trois mousquetaires',
     sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: 'Le Faucon malté',
@@ -423,6 +467,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Enfant',
     saga: 'Les frères Diamant',
     sagaOrder: 1,
+    sagaFinished: true,
   },
   {
     title: "L'ennemi public n°2",
@@ -432,6 +477,7 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Enfant',
     saga: 'Les frères Diamant',
     sagaOrder: 2,
+    sagaFinished: true,
   },
   {
     title: 'Devine qui vient tuer',
@@ -441,5 +487,6 @@ export const baseBooksSaga: BaseBook[] = [
     genre: 'Enfant',
     saga: 'Les frères Diamant',
     sagaOrder: 3,
+    sagaFinished: true,
   },
 ];

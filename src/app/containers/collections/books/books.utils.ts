@@ -1,6 +1,12 @@
 import { Book } from '../../../models/book-model';
 
-export type BookView = 'read' | 'readlist' | 'owned' | 'authors' | 'sagas' | 'recommendations';
+export type BookView =
+  | 'read'
+  | 'readlist'
+  | 'owned'
+  | 'authors'
+  | 'sagas'
+  | 'recommendations';
 
 export const booksSortOptions: { value: string; label: string }[] = [
   { value: 'title', label: 'Titre (A-Z)' },
@@ -187,6 +193,7 @@ export const getBooksByAuthor = ({
 
 export type BooksBySagaGroup = {
   saga: string;
+  isSagaFinished: boolean;
   seenBooks: Book[];
   missingBooks: Book[];
 };
@@ -237,9 +244,7 @@ export const getBooksBySaga = ({
       return sorted[0] === a ? -1 : 1;
     });
 
-    const missingBooks = isAdminView
-      ? []
-      : [...(baseBySaga.get(saga) ?? [])];
+    const missingBooks = isAdminView ? [] : [...(baseBySaga.get(saga) ?? [])];
 
     // Trier les livres manquants par sagaOrder, puis par le tri sélectionné
     const sortedMissingBooks = missingBooks.sort((a, b) => {
@@ -255,6 +260,7 @@ export const getBooksBySaga = ({
 
     return {
       saga,
+      isSagaFinished: sortedSeenBooks.every((book) => book.sagaFinished),
       seenBooks: sortedSeenBooks,
       missingBooks: sortedMissingBooks,
     };

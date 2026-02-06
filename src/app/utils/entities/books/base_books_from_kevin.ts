@@ -9,6 +9,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: "L'Alchimiste",
@@ -18,6 +19,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fiction',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Le porteur de lumière, tome 1 : Le prisme noir',
@@ -27,6 +29,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Le porteur de lumière',
     sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: 'Croc-Blanc',
@@ -36,6 +39,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: "L'Assassin royal, tome 1 : L'Apprenti assassin",
@@ -45,6 +49,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "L'Assassin royal",
     sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: "L'Assassin royal, tome 2 : L'Assassin du roi",
@@ -54,6 +59,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "L'Assassin royal",
     sagaOrder: 2,
+    sagaFinished: false,
   },
   {
     title: "L'Assassin royal, tome 3 : La Nef du crépuscule",
@@ -63,6 +69,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "L'Assassin royal",
     sagaOrder: 3,
+    sagaFinished: false,
   },
   {
     title: "L'Assassin royal, tome 4 : Le Poison de la vengeance",
@@ -72,6 +79,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "L'Assassin royal",
     sagaOrder: 4,
+    sagaFinished: false,
   },
   {
     title: "L'Assassin royal, tome 5 : La voie magique",
@@ -81,6 +89,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "L'Assassin royal",
     sagaOrder: 5,
+    sagaFinished: false,
   },
   {
     title: "L'Assassin royal, tome 6 : La Reine solitaire",
@@ -90,6 +99,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "L'Assassin royal",
     sagaOrder: 6,
+    sagaFinished: false,
   },
   {
     title: "L'Assassin royal, tome 7 : Le Prophète blanc",
@@ -99,6 +109,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "L'Assassin royal",
     sagaOrder: 7,
+    sagaFinished: false,
   },
   {
     title: "L'Assassin royal, tome 8 : La Secte maudite",
@@ -108,6 +119,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "L'Assassin royal",
     sagaOrder: 8,
+    sagaFinished: false,
   },
   {
     title: "L'Assassin royal, tome 9 : Les Secrets de Castelcerf",
@@ -117,6 +129,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "L'Assassin royal",
     sagaOrder: 9,
+    sagaFinished: false,
   },
   {
     title: "L'Assassin royal, tome 10 : Serments et deuils",
@@ -126,6 +139,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "L'Assassin royal",
     sagaOrder: 10,
+    sagaFinished: false,
   },
   {
     title: "L'Assassin royal, tome 11 : Le Dragon des glaces",
@@ -135,6 +149,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "L'Assassin royal",
     sagaOrder: 11,
+    sagaFinished: false,
   },
   {
     title: "L'Assassin royal, tome 12 : L'Homme noir",
@@ -144,6 +159,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "L'Assassin royal",
     sagaOrder: 12,
+    sagaFinished: false,
   },
   {
     title: "L'Assassin royal, tome 13 : Adieux et retrouvailles",
@@ -153,6 +169,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "L'Assassin royal",
     sagaOrder: 13,
+    sagaFinished: false,
   },
   {
     title: "Le Fou et l'Assassin, tome 1",
@@ -162,6 +179,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "Le Fou et l'Assassin",
     sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: "Le fou et l'assassin, tome 2 : La fille de l'assassin",
@@ -171,6 +189,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "Le Fou et l'Assassin",
     sagaOrder: 2,
+    sagaFinished: false,
   },
   {
     title: "Le fou et l'assassin, tome 3 : En quête de vengeance",
@@ -180,6 +199,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "Le Fou et l'Assassin",
     sagaOrder: 3,
+    sagaFinished: false,
   },
   {
     title: "Le fou et l'assassin, tome 4 : Le retour de l'assassin",
@@ -189,6 +209,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "Le Fou et l'Assassin",
     sagaOrder: 4,
+    sagaFinished: false,
   },
   {
     title: "Le fou et l'assassin, tome 5 : Sur les rives de l'Art",
@@ -198,6 +219,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "Le Fou et l'Assassin",
     sagaOrder: 5,
+    sagaFinished: false,
   },
   {
     title: "Le fou et l'assassin, tome 6 : Le destin de l'assassin",
@@ -207,6 +229,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "Le Fou et l'Assassin",
     sagaOrder: 6,
+    sagaFinished: false,
   },
   {
     title: 'Quand vient la horde',
@@ -216,6 +239,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Les annales du Disque-Monde, tome 1 : La huitième couleur',
@@ -225,6 +249,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Les annales du Disque-Monde',
     sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: "Nevernight, tome 1 : N'oublie jamais",
@@ -234,6 +259,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Nevernight',
     sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: 'Nevernight, tome 2 : Les grands jeux',
@@ -243,6 +269,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Nevernight',
     sagaOrder: 2,
+    sagaFinished: false,
   },
   {
     title: "Nevernight, tome 3 : L'aube obscure",
@@ -252,6 +279,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Nevernight',
     sagaOrder: 3,
+    sagaFinished: false,
   },
   {
     title: "Fils des brumes, tome 1 : L'Empire ultime",
@@ -261,6 +289,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Fils des brumes',
     sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: "Fils des brumes, tome 2 : Le puits de l'ascension",
@@ -271,6 +300,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Fils des brumes',
     sagaOrder: 2,
+    sagaFinished: false,
   },
   {
     title: 'Fils des brumes, tome 3 : Le héros des siècles',
@@ -280,6 +310,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Fils des brumes',
     sagaOrder: 3,
+    sagaFinished: false,
   },
   {
     title: 'Les Voleurs de fumée, tome 1',
@@ -289,6 +320,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Les Voleurs de fumée',
     sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: 'Le Démon et mademoiselle Prym',
@@ -298,6 +330,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fiction',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Les Maîtres enlumineurs, tome 1',
@@ -308,6 +341,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Les Maîtres enlumineurs',
     sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: "L'Ange de la Nuit, Tome 1 : La Voie des ombres",
@@ -317,6 +351,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "L'Ange de la Nuit",
     sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: "Le royaume de Pierre d'Angle, tome 1 : L'art du naufrage",
@@ -326,6 +361,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "Le royaume de Pierre d'Angle",
     sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: 'Cycle de Tschai - Intégrale',
@@ -335,6 +371,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Science Fiction',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Les salauds gentilshommes, tome 1 : Les mensonges de Locke Lamora',
@@ -344,6 +381,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Les salauds gentilshommes',
     sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: 'Les salauds gentilshommes, tome 2 : Des horizons rouge sang',
@@ -353,6 +391,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Les salauds gentilshommes',
     sagaOrder: 2,
+    sagaFinished: false,
   },
   {
     title: 'Les salauds gentilshommes, tome 3 : La république des voleurs',
@@ -362,6 +401,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Les salauds gentilshommes',
     sagaOrder: 3,
+    sagaFinished: false,
   },
   {
     title: 'Les Annales de la Compagnie Noire, Tome 1 : La compagnie noire',
@@ -371,6 +411,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Les Annales de la Compagnie Noire',
     sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: 'Les Annales de la Compagnie Noire, Tome 2 : Le château noir',
@@ -380,6 +421,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Les Annales de la Compagnie Noire',
     sagaOrder: 2,
+    sagaFinished: false,
   },
   {
     title: 'Les Annales de la Compagnie Noire, Tome 3 : La rose blanche',
@@ -389,6 +431,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Les Annales de la Compagnie Noire',
     sagaOrder: 3,
+    sagaFinished: false,
   },
   {
     title: "Le Cycle de Syffe, tome 1 : L'Enfant de poussière",
@@ -398,6 +441,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Le Cycle de Syffe',
     sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: 'Le cycle de Syffe, tome 2 : La peste et la vigne',
@@ -407,6 +451,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Le Cycle de Syffe',
     sagaOrder: 2,
+    sagaFinished: false,
   },
   {
     title: 'Le cycle de Syffe, tome 3 : Les chiens et la charrue',
@@ -416,6 +461,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Le Cycle de Syffe',
     sagaOrder: 3,
+    sagaFinished: false,
   },
   {
     title: 'Le cycle de Syffe, tome 4 : La Maison des veilleurs',
@@ -425,6 +471,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Le Cycle de Syffe',
     sagaOrder: 4,
+    sagaFinished: false,
   },
   {
     title: 'Les faucons de Raverra, tome 1 : La sorcière captive',
@@ -434,6 +481,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Les faucons de Raverra',
     sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: "Les faucons de Raverra, tome 2 : L'héritière rebelle",
@@ -443,6 +491,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Les faucons de Raverra',
     sagaOrder: 2,
+    sagaFinished: false,
   },
   {
     title: "Les faucons de Raverra, tome 3 : L'empire libéré",
@@ -452,6 +501,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Les faucons de Raverra',
     sagaOrder: 3,
+    sagaFinished: false,
   },
   {
     title: 'Les archives de Roshar, tome 1 : La voie des rois (1/2)',
@@ -461,6 +511,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Les archives de Roshar',
     sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: 'Les archives de Roshar, tome 1 : La voie des rois (2/2)',
@@ -470,6 +521,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Les archives de Roshar',
     sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: 'Les archives de Roshar, tome 2 : Le livre des Radieux (1/2)',
@@ -479,6 +531,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Les archives de Roshar',
     sagaOrder: 2,
+    sagaFinished: false,
   },
   {
     title: 'Les archives de Roshar, tome 2 : Le livre des Radieux (2/2)',
@@ -488,6 +541,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Les archives de Roshar',
     sagaOrder: 2,
+    sagaFinished: false,
   },
   {
     title: 'Les archives de Roshar, tome 3 : Justicière (1/2)',
@@ -497,6 +551,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Les archives de Roshar',
     sagaOrder: 3,
+    sagaFinished: false,
   },
   {
     title: 'Les archives de Roshar, tome 3 : Justicière (2/2)',
@@ -507,6 +562,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Les archives de Roshar',
     sagaOrder: 3,
+    sagaFinished: false,
   },
   {
     title: 'Les archives de Roshar, tome 4 : Rythme de guerre (1/2)',
@@ -516,6 +572,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Les archives de Roshar',
     sagaOrder: 4,
+    sagaFinished: false,
   },
   {
     title: 'Les archives de Roshar, tome 4 : Rythme de guerre (2/2)',
@@ -525,6 +582,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Les archives de Roshar',
     sagaOrder: 4,
+    sagaFinished: false,
   },
   {
     title: 'La guilde des ombres, tome 1 : Le don de mort (1/2)',
@@ -534,6 +592,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'La guilde des ombres',
     sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: 'La guilde des ombres, tome 1 : Le don de mort (2/2)',
@@ -543,6 +602,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'La guilde des ombres',
     sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: 'La guilde des ombres, tome 2 : Le don de vie (1/2)',
@@ -552,6 +612,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'La guilde des ombres',
     sagaOrder: 2,
+    sagaFinished: false,
   },
   {
     title: 'La guilde des ombres, tome 2 : Le don de vie (2/2)',
@@ -561,6 +622,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'La guilde des ombres',
     sagaOrder: 2,
+    sagaFinished: false,
   },
   {
     title: 'La guilde des ombres, tome 3 : La guerre céleste (1/2)',
@@ -570,6 +632,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'La guilde des ombres',
     sagaOrder: 3,
+    sagaFinished: false,
   },
   {
     title: 'La guilde des ombres, tome 3 : La guerre céleste (2/2)',
@@ -579,6 +642,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'La guilde des ombres',
     sagaOrder: 3,
+    sagaFinished: false,
   },
   {
     title: 'Le Livre des Martyrs, tome 1 : Les Jardins de la Lune',
@@ -588,6 +652,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Le Livre des Martyrs',
     sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: 'Le livre des martyrs, tome 2 : Les portes de la maison des morts',
@@ -597,6 +662,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Le Livre des Martyrs',
     sagaOrder: 2,
+    sagaFinished: false,
   },
   {
     title: 'Le Livre des Martyrs, tome 3 : Les Souvenirs de la Glace',
@@ -606,6 +672,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Le Livre des Martyrs',
     sagaOrder: 3,
+    sagaFinished: false,
   },
   {
     title: 'Le Livre des martyrs, tome 4 : La Maison des chaînes',
@@ -615,6 +682,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Le Livre des Martyrs',
     sagaOrder: 4,
+    sagaFinished: false,
   },
   {
     title: 'Le Livre des martyrs, tome 5 : Les Marées de minuit',
@@ -624,6 +692,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Le Livre des Martyrs',
     sagaOrder: 5,
+    sagaFinished: false,
   },
   {
     title: "Wax et Wayne, tome 1 : L'alliage de la justice",
@@ -633,6 +702,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Wax et Wayne',
     sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: 'Wax et Wayne, tome 2 : Jeux de masques',
@@ -642,6 +712,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Wax et Wayne',
     sagaOrder: 2,
+    sagaFinished: false,
   },
   {
     title: 'Wax et Wayne, tome 3 : Les bracelets des larmes',
@@ -651,6 +722,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'Wax et Wayne',
     sagaOrder: 3,
+    sagaFinished: false,
   },
   {
     title: "Les Princes d'Ambre - Cycle 1",
@@ -660,6 +732,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "Les Princes d'Ambre",
     sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: "L'Arcane des Epées, tome 1 : Le trône du dragon",
@@ -670,6 +743,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "L'Arcane des Epées",
     sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: "L'Arcane des Epées, tome 2 : Le roi de l'orage",
@@ -679,6 +753,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "L'Arcane des Epées",
     sagaOrder: 2,
+    sagaFinished: false,
   },
   {
     title: "L'Arcane des Epées, tome 3 : La maison de l'ancêtre",
@@ -688,6 +763,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "L'Arcane des Epées",
     sagaOrder: 3,
+    sagaFinished: false,
   },
   {
     title: "L'arcane des épées, tome 4 : La pierre de l'adieu",
@@ -697,6 +773,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "L'Arcane des Epées",
     sagaOrder: 4,
+    sagaFinished: false,
   },
   {
     title: "L'Arcane des Epées, tome 5 : Le livre du nécromant",
@@ -707,6 +784,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "L'Arcane des Epées",
     sagaOrder: 5,
+    sagaFinished: false,
   },
   {
     title: "L'Arcane des Epées, tome 6 : Le cri de Camaris",
@@ -716,6 +794,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "L'Arcane des Epées",
     sagaOrder: 6,
+    sagaFinished: false,
   },
   {
     title: "L'Arcane des Epées, tome 7 : L'ombre de la roue",
@@ -725,6 +804,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "L'Arcane des Epées",
     sagaOrder: 7,
+    sagaFinished: false,
   },
   {
     title: "L'Arcane des Epées, tome 8 : La tour de l'ange vert",
@@ -735,6 +815,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "L'Arcane des Epées",
     sagaOrder: 8,
+    sagaFinished: false,
   },
   {
     title: "Une couronne d'épines, tome 1 : Tuer la reine",
@@ -744,6 +825,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "Une couronne d'épines",
     sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: "Une couronne d'épines, tome 2 : Défendre le prince",
@@ -753,6 +835,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "Une couronne d'épines",
     sagaOrder: 2,
+    sagaFinished: false,
   },
   {
     title: "Une couronne d'épines, tome 3 : Écraser le roi",
@@ -762,5 +845,6 @@ export const baseBooksFromKevin: BaseBook[] = [
     genre: 'Fantasy',
     saga: "Une couronne d'épines",
     sagaOrder: 3,
+    sagaFinished: false,
   },
 ];

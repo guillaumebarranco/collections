@@ -28,10 +28,6 @@
       <p><strong>Saga :</strong> {{ book()?.saga }}</p>
       } @if (book()?.sagaOrder) {
       <p><strong>Tome :</strong> {{ book()?.sagaOrder }}</p>
-      } @if (book()?.nbTomes) {
-      <p><strong>Nombre de tomes :</strong> {{ book()?.nbTomes }}</p>
-      } @if (book()?.isFinished === false) {
-      <p><strong>Saga :</strong> En cours</p>
       }
     </div>
   </div>
@@ -187,28 +183,16 @@
       />
     </div>
 
-    <div class="form-row">
-      <label for="entityNbTomes">Nombre de tomes</label>
-      <input
-        id="entityNbTomes"
-        type="number"
-        min="0"
-        [ngModel]="bookEntityForm()?.nbTomes"
-        (ngModelChange)="updateEntityField('nbTomes', $event)"
-        name="entityNbTomes"
-      />
-    </div>
-
     <div class="form-row checkbox-row">
-      <label for="entityIsFinished">Saga terminée</label>
+      <label for="sagaIsFinished">Saga terminée</label>
       <input
-        id="entityIsFinished"
+        id="sagaIsFinished"
         type="checkbox"
-        [checked]="bookEntityForm()?.isFinished"
+        [checked]="bookEntityForm()?.sagaFinished"
         (change)="
-          updateEntityCheckbox('isFinished', $any($event).target.checked)
+          updateEntityCheckbox('sagaFinished', $any($event).target.checked)
         "
-        name="entityIsFinished"
+        name="sagaIsFinished"
       />
     </div>
 

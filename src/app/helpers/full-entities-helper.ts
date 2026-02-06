@@ -45,13 +45,12 @@ export const getFullBook = (book: BaseBook): Book => ({
   genre: book.genre,
   saga: book.saga,
   sagaOrder: book.sagaOrder,
-  nbTomes: book.nbTomes,
-  isFinished: book.isFinished,
   rating: 0,
   readDate: '',
   readTimes: 0,
   owned: false,
   readPriority: 1,
+  sagaFinished: book.sagaFinished,
 });
 
 export const getFullGame = (game: BaseGame): Game => ({

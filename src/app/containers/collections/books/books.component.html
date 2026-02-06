@@ -41,7 +41,11 @@
         [readOnly]="true"
         [quizzs]="quizzs()"
         [recommendationText]="getBookRecommendationText(book)"
-        [recommendationBadge]="bookAlreadyInUserReadlist(book) ? 'Déjà dans votre readlist' : 'Recommandé'"
+        [recommendationBadge]="
+          bookAlreadyInUserReadlist(book)
+            ? 'Déjà dans votre readlist'
+            : 'Recommandé'
+        "
         [showAddToReadlistButton]="true"
         [isInReadlist]="bookAlreadyInUserReadlist(book)"
         (openQuizz)="openQuizzModal($event)"
@@ -122,7 +126,11 @@
             sagaGroup.seenBooks.length
           }}
           lus) ({{ sagaGroup.missingBooks.length }}
-          restants à lire) }
+          restants à lire) } @if(sagaGroup.isSagaFinished) {
+          <span style="color: green">Saga terminée</span>
+          } @else {
+          <span style="color: orange">Saga en cours</span>
+          }
         </h2>
         <div class="books">
           @for (book of sagaGroup.seenBooks; track book.title) {

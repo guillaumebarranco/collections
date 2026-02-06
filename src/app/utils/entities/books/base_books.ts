@@ -9,6 +9,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Nonfiction',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Les liaisons dangereuses',
@@ -18,6 +19,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Dark Romance',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Castel Boy',
@@ -27,6 +29,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Romance',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'En bons pères de famille',
@@ -36,6 +39,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Nonfiction',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: "Où va l'argent des pauvres",
@@ -45,6 +49,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Nonfiction',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Les tout-petits face aux écrans',
@@ -54,6 +59,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Nonfiction',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Les serres sous le velours noir',
@@ -63,6 +69,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Enquête',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: "Ne tirez pas sur l'oiseau moqueur",
@@ -72,6 +79,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Les Hauts de Hurlevent',
@@ -81,6 +89,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Voyage au centre de la terre',
@@ -90,6 +99,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Science Fiction',
     saga: 'Les voyages extraordinaires',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Le tour du monde en 80 jours',
@@ -99,6 +109,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Science Fiction',
     saga: 'Les voyages extraordinaires',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Vingt Mille Lieues sous les mers',
@@ -108,6 +119,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Science Fiction',
     saga: 'Les voyages extraordinaires',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: "L'Île mystérieuse",
@@ -117,6 +129,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Science Fiction',
     saga: 'Les voyages extraordinaires',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'De la Terre à la Lune',
@@ -126,6 +139,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Science Fiction',
     saga: 'Les voyages extraordinaires',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Le Comte de Monte-Cristo',
@@ -135,8 +149,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
-    nbTomes: 0,
-    isFinished: true,
+    sagaFinished: false,
   },
   {
     title: 'Frankenstein',
@@ -146,8 +159,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
-    nbTomes: 0,
-    isFinished: true,
+    sagaFinished: false,
   },
   {
     title: 'Le Portrait de Dorian Gray',
@@ -157,6 +169,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'La Ferme des animaux',
@@ -166,6 +179,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Orgueil et Préjugés',
@@ -175,6 +189,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: '1984',
@@ -184,6 +199,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Fondation',
@@ -193,6 +209,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Science Fiction',
     saga: 'Fondation',
     sagaOrder: 1,
+    sagaFinished: false,
   },
   {
     title: 'Fahrenheit 451',
@@ -202,6 +219,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Science Fiction',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Miss Marple au club du mardi',
@@ -211,6 +229,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Enquête',
     saga: 'Agatha Christie',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: "L'Affaire Protheroe",
@@ -220,6 +239,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Enquête',
     saga: 'Agatha Christie',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: "Le crime de l'Orient Express",
@@ -229,6 +249,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Enquête',
     saga: 'Agatha Christie',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Mort sur le Nil',
@@ -238,6 +259,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Enquête',
     saga: 'Hercule Poirot',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Ils étaient dix',
@@ -247,6 +269,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Enquête',
     saga: 'Agatha Christie',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Le Meurtre de Roger Ackroyd',
@@ -256,6 +279,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Enquête',
     saga: 'Agatha Christie',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Meurtre en Mésopotamie',
@@ -265,6 +289,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Enquête',
     saga: 'Agatha Christie',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Cinq petits cochons',
@@ -274,6 +299,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Enquête',
     saga: 'Agatha Christie',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Dracula',
@@ -283,6 +309,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Jane Eyre',
@@ -292,6 +319,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Une vie',
@@ -301,6 +329,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'La tête sur les épaules',
@@ -310,6 +339,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'La Nuit des temps',
@@ -319,6 +349,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Science Fiction',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'La Horde du Contrevent',
@@ -328,6 +359,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Science Fiction',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Madame Bovary',
@@ -337,6 +369,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Bel-Ami',
@@ -346,6 +379,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Résister',
@@ -355,6 +389,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Nonfiction',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Le coût de la virilité',
@@ -364,6 +399,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Nonfiction',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Sois jeune et tais-toi',
@@ -373,6 +409,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Nonfiction',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: "L'Île au trésor",
@@ -382,6 +419,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Faites-les lire !',
@@ -391,6 +429,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Nonfiction',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Candide',
@@ -400,6 +439,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Carrie',
@@ -409,6 +449,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Thriller',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Désolation',
@@ -418,6 +459,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Thriller',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: "L'étrange cas du docteur Jekyll et de Mr. Hyde",
@@ -427,6 +469,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: "L'ordinatueur",
@@ -436,6 +479,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Enfant',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'La Potion magique de Georges Bouillon',
@@ -445,6 +489,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Enfant',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Gatsby le magnifique',
@@ -454,6 +499,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classique',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'La guerre des mondes',
@@ -463,6 +509,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Science-fiction',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'La machine à explorer le temps',
@@ -472,6 +519,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Science-fiction',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'La photo qui tue',
@@ -481,6 +529,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Thriller',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: "L'homme invisible",
@@ -490,6 +539,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Science-fiction',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Les pages de notre amour',
@@ -499,6 +549,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Romance',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'À tout jamais',
@@ -508,6 +559,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Romance',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Le porte bonheur',
@@ -517,6 +569,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Romance',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Memento mori',
@@ -526,6 +579,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Dark Romance',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Un choix',
@@ -535,6 +589,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Romance',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Viridia: Les racines du pouvoir',
@@ -544,6 +599,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Fantasy',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Alchemised',
@@ -553,6 +609,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Fantasy',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Une seconde chance',
@@ -562,6 +619,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Romance',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: "L'Iliade",
@@ -571,6 +629,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: "L'Odyssée",
@@ -580,6 +639,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Adam',
@@ -589,6 +649,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Dark Romance',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
 
   {
@@ -600,6 +661,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Fiction',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Roméo et Juliette',
@@ -609,6 +671,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'La brute',
@@ -618,6 +681,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Fiction',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'La fille du train',
@@ -627,6 +691,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Thriller',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: "L'amour aux temps du choléra",
@@ -636,6 +701,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Thriller',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
 
   {
@@ -646,6 +712,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Nonfiction',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Tout le bleu du ciel',
@@ -655,6 +722,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Romance, Aventure',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Don Quichotte',
@@ -665,6 +733,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Faust',
@@ -674,6 +743,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Autant en emporte le vent',
@@ -683,6 +753,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Romance',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
 
   {
@@ -693,6 +764,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Anna Karénine',
@@ -702,6 +774,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: "L'espace d'un an",
@@ -711,6 +784,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Science-fiction',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Princess Bride',
@@ -720,6 +794,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'La Maison des feuilles',
@@ -729,6 +804,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Horror',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'La Révoltée',
@@ -738,6 +814,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Polar',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: "L'impure",
@@ -747,6 +824,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Polar',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Il était une fois: Tome 1 : Mon premier baiser',
@@ -756,6 +834,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Romance',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Un raccourci dans le temps',
@@ -765,6 +844,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Science-fiction',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Les voyages de Gulliver',
@@ -774,6 +854,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Science-fiction',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: "Rien qu'un surhomme",
@@ -783,6 +864,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Science-fiction',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Le Souffle de la Hyène',
@@ -792,6 +874,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Fantasy',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: "Le Journal d'Anne Frank",
@@ -801,6 +884,7 @@ export const baseBooks: BaseBook[] = [
     genre: 'Nonfiction',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
   {
     title: 'Le Procès',
@@ -810,5 +894,6 @@ export const baseBooks: BaseBook[] = [
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
+    sagaFinished: false,
   },
 ];
