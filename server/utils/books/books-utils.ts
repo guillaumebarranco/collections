@@ -217,6 +217,7 @@ function parseBaseBooksFullFromFile(content: string): any[] {
           genre: parseStringField(objectText, 'genre') || '',
           saga: parseStringField(objectText, 'saga') || '',
           sagaOrder: parseNumberField(objectText, 'sagaOrder') ?? 0,
+          sagaFinished: parseBooleanField(objectText, 'sagaFinished') ?? false,
           nbTomes: parseNumberField(objectText, 'nbTomes') ?? 0,
           isFinished: parseBooleanField(objectText, 'isFinished') ?? true,
         });
@@ -502,6 +503,7 @@ function updateBaseBookInFile(content: string, payload: any) {
           updated = upsertField(updated, 'genre', payload.genre);
           updated = upsertField(updated, 'saga', payload.saga);
           updated = upsertField(updated, 'sagaOrder', payload.sagaOrder);
+          updated = upsertField(updated, 'sagaFinished', payload.sagaFinished);
           updated = upsertField(updated, 'nbTomes', payload.nbTomes);
           updated = upsertField(updated, 'isFinished', payload.isFinished);
 

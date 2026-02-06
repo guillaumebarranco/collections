@@ -101,6 +101,7 @@ router.post('/', (req: any, res: any) => {
         genre: normalizeString(entityPayload.genre, 'genre'),
         saga: normalizeString(entityPayload.saga, 'saga'),
         sagaOrder: normalizeNumber(entityPayload.sagaOrder, 'sagaOrder'),
+        sagaFinished: normalizeBoolean(entityPayload.sagaFinished, 'sagaFinished'),
         nbTomes: normalizeNumber(entityPayload.nbTomes, 'nbTomes'),
         isFinished: normalizeBoolean(entityPayload.isFinished, 'isFinished'),
       });

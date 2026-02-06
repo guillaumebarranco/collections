@@ -28,6 +28,7 @@ function formatBaseBook(entity: any): string {
     entity.saga || ''
   )}',
     sagaOrder: ${entity.sagaOrder || 0},
+    sagaFinished: ${entity.sagaFinished ?? false},
     nbTomes: ${
     entity.nbTomes || 0
   },
@@ -120,6 +121,7 @@ router.post('/add', (req: any, res: any) => {
       genre: normalizeString(entity.genre, 'genre') || '',
       saga: normalizeString(entity.saga, 'saga') || '',
       sagaOrder: normalizeNumber(entity.sagaOrder, 'sagaOrder') || 0,
+      sagaFinished: normalizeBoolean(entity.sagaFinished, 'sagaFinished') ?? false,
       nbTomes: normalizeNumber(entity.nbTomes, 'nbTomes') || 0,
       isFinished: normalizeBoolean(entity.isFinished, 'isFinished') ?? true,
     };
