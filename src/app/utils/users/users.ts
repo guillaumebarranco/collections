@@ -16,5 +16,11 @@ export const users = [
     passwordHash: '3a0607714f1fba01dce6f425955df75c4330742c50702dfbbc2a4576e15429354e4bb8f8454921d6d6ed86fc271c5bc36c9e2a56304ed0a6bc83ce45869ee33f',
     passwordSalt: '5afabc7fc45f7426ff6c2834b40fff1e',
     admin: false,
+  },
+  {
+    username: 'kevin',
+    passwordHash: '96260f3e88622368ee54fd4294a6c213a4391d039079e04ac9a93f5ea8c65908b0bec2ebfb1c0d89dc470d10ca772bfe1302663e9dbded58a9f30f800f13de74',
+    passwordSalt: 'dc957e7e63517f6277aaef3ebcca8c7a',
+    admin: false,
   }
 ];
