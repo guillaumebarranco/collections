@@ -200,16 +200,21 @@ export const getMoviesByActor = ({
     }
   }
 
-  const groups = Array.from(actorMap.entries()).map(([actor, seenMovies]) => {
-    const missing = isAdminView
-      ? []
-      : getSortedMovies([...(baseByActor.get(actor) ?? [])], 'releaseDate-asc');
-    return {
-      actor,
-      seenMovies: getSortedMovies(seenMovies, 'releaseDate-asc'),
-      missingMovies: missing,
-    };
-  });
+  const groups = Array.from(actorMap.entries())
+    .map(([actor, seenMovies]) => {
+      const missing = isAdminView
+        ? []
+        : getSortedMovies(
+            [...(baseByActor.get(actor) ?? [])],
+            'releaseDate-asc'
+          );
+      return {
+        actor,
+        seenMovies: getSortedMovies(seenMovies, 'releaseDate-asc'),
+        missingMovies: missing,
+      };
+    })
+    .filter((group) => group.seenMovies.length > 1);
 
   groups.sort((a, b) => {
     const countA = a.seenMovies.length + a.missingMovies.length;
@@ -283,5 +288,5 @@ export const getMoviesByDirector = ({
     return a.director.localeCompare(b.director);
   });
 
-  return groups;
+  return groups.filter((group) => group.seenMovies.length > 1);
 };

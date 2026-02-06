@@ -237,3 +237,12 @@ ul li {
   font-weight: 600;
   z-index: 1;
 }
+
+.entity-badges {
+  .missing-badge {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: fit-content;
+  }
+}

@@ -3,6 +3,9 @@
   @if(!isBaseEntityView) {
   <ng-content select="[entity-quizz]"></ng-content>
   }
+  <div class="entity-badges">
+    <ng-content select="[entity-badges]"></ng-content>
+  </div>
   <div class="entity-cover">
     <ng-content select="[entity-cover]"></ng-content>
   </div>

@@ -1,10 +1,16 @@
-@use '../../styles/components.scss' as components;
+@use "../../styles/components.scss" as components;
 
 app-entity-card {
-
   .entity-card {
     @include components.component-card-base;
     position: relative;
+  }
+
+  .entity-badges {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 8px;
   }
 
   .edit-button {

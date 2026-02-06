@@ -92,7 +92,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       },
       {
         name: 'Leopold Stokowski',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/71MQJ6N1H9L._AC_UF894,1000_QL80_.jpg',
     releaseDate: '1940-11-13',
@@ -701,16 +701,6 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     length: 102,
     genre: 'Animation',
     saga: 'Shrek',
-  },
-  {
-    title: 'Fourmiz',
-    director: 'Eric Darnell, Tim Johnson',
-    actors: [{ name: 'Woody Allen' }, { name: 'Sharon Stone' }],
-    coverUrl: '/movies_pictures/fourmiz-a-354x500.jpg',
-    releaseDate: '1998-10-02',
-    length: 83,
-    genre: 'Animation',
-    saga: '',
   },
   {
     title: 'Coco',

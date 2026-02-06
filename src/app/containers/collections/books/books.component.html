@@ -46,6 +46,7 @@
             ? 'Déjà dans votre readlist'
             : 'Recommandé'
         "
+        [sagaBadge]="getSagaBadge(book)"
         [showAddToReadlistButton]="true"
         [isInReadlist]="bookAlreadyInUserReadlist(book)"
         (openQuizz)="openQuizzModal($event)"

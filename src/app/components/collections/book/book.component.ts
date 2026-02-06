@@ -40,11 +40,15 @@ export class BookComponent {
   @Input() showAddToReadlistButton = false;
   @Input() isInReadlist = false;
   @Input() recommendationBadge = '';
+  @Input() sagaBadge: 'Saga terminée' | 'Saga en cours' | null = null;
   @Input() isReadlistView = false;
   @Output() editRequested = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
   @Output() addToReadlist = new EventEmitter<any>();
-  @Output() readPriorityUpdated = new EventEmitter<{ book: any; priority: number }>();
+  @Output() readPriorityUpdated = new EventEmitter<{
+    book: any;
+    priority: number;
+  }>();
 
   isBaseEntityView = isBaseEntityView();
 

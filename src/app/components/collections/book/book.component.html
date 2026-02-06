@@ -20,6 +20,22 @@
     🏆
   </button>
   }
+
+  <ng-container entity-badges>
+    @if (recommendationBadge) {
+    <span class="missing-badge">{{ recommendationBadge }}</span>
+    } @if (sagaBadge) {
+    <span
+      class="missing-badge"
+      [style.background-color]="
+        sagaBadge === 'Saga terminée' ? '#4caf50' : '#ff9800'
+      "
+      [style.color]="'white'"
+      >{{ sagaBadge }}</span
+    >
+    }
+  </ng-container>
+
   <img
     entity-cover
     [src]="book.coverUrl"
@@ -62,8 +78,6 @@
     <p class="book-genre">{{ book.genre }}</p>
     } @if (recommendationText) {
     <p class="recommendation-text">{{ recommendationText }}</p>
-    } @if (recommendationBadge) {
-    <span class="missing-badge">{{ recommendationBadge }}</span>
     } @if (isReadlistView && !isBaseEntityView) {
     <div class="readlist-priority">
       <div class="priority-label">Priorité :</div>

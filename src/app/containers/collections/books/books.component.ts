@@ -703,6 +703,29 @@ export class BooksComponent implements OnInit {
     } à ce livre`;
   }
 
+  isSagaFinished(book: Book): boolean | null {
+    if (!book.saga || !book.saga.trim()) {
+      return null; // Pas de saga
+    }
+    const sagaName = book.saga.trim();
+    const sagaBooks = this.baseBooksList().filter(
+      (b) => b.saga?.trim() === sagaName
+    );
+    if (sagaBooks.length === 0) {
+      return null; // Saga non trouvée
+    }
+    // Une saga est terminée si tous les livres de la saga ont sagaFinished: true
+    return sagaBooks.every((b) => b.sagaFinished === true);
+  }
+
+  getSagaBadge(book: Book): 'Saga terminée' | 'Saga en cours' | null {
+    const sagaStatus = this.isSagaFinished(book);
+    if (sagaStatus === null) {
+      return null; // Pas de saga ou saga non trouvée
+    }
+    return sagaStatus ? 'Saga terminée' : 'Saga en cours';
+  }
+
   bookAlreadyInUserReadlist(book: Book): boolean {
     const readlist = this.allReadlistBooks();
     return readlist.some(

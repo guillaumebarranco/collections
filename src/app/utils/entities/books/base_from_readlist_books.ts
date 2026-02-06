@@ -221,26 +221,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaOrder: 0,
     sagaFinished: false,
   },
-  {
-    title: 'Les deux tours',
-    author: 'J.R.R. Tolkien',
-    coverUrl: '/books_pictures/11_9782266346771_1_75.jpg',
-    pages: 450,
-    genre: 'Fantasy',
-    saga: 'Le Seigneur des Anneaux',
-    sagaOrder: 2,
-    sagaFinished: false,
-  },
-  {
-    title: 'Le retour du roi',
-    author: 'J.R.R. Tolkien',
-    coverUrl: '/books_pictures/9782266346788_1_75.jpg',
-    pages: 500,
-    genre: 'Fantasy',
-    saga: 'Le Seigneur des Anneaux',
-    sagaOrder: 3,
-    sagaFinished: false,
-  },
+
   {
     title: 'Leçons de chimie',
     author: 'Bonnie Garmus',
