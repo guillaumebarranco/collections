@@ -2663,7 +2663,7 @@ export const baseGames: BaseGame[] = [
     title: "Uncharted 3 : L'illusion de Drake",
     editor: 'Naughty Dog',
     hero: 'Nathan Drake',
-    coverUrl: '/games_pictures/Uncharted_3_L%27Illusion_de_Drake.webp',
+    coverUrl: '/games_pictures/Uncharted_3_Boxart.jpg',
     releaseDate: '2011-11-01',
     platineTime: 0,
     averageTimeToFinish: 12,

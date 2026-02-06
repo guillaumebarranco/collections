@@ -110,6 +110,51 @@
       </section>
       }
     </div>
+    } @else if(selectedView() === 'sagas') {
+    <div class="books-by-author">
+      @for (sagaGroup of booksBySaga(); track sagaGroup.saga) {
+      <section class="books-author-section">
+        <h2 class="books-author-title">
+          @if (isAdminView()) {
+          {{ sagaGroup.saga }} ({{
+            sagaGroup.seenBooks.length + sagaGroup.missingBooks.length
+          }}) } @else { {{ sagaGroup.saga }} ({{
+            sagaGroup.seenBooks.length
+          }}
+          lus) ({{ sagaGroup.missingBooks.length }}
+          restants à lire) }
+        </h2>
+        <div class="books">
+          @for (book of sagaGroup.seenBooks; track book.title) {
+          <div class="book-card">
+            <app-book
+              [book]="book"
+              [quizzs]="quizzs()"
+              (editRequested)="openEditBookDialog(book)"
+              (openQuizz)="openQuizzModal($event)"
+            ></app-book>
+          </div>
+          }
+        </div>
+        @if (sagaGroup.missingBooks.length > 0) {
+        <div class="books-author-missing">
+          <p class="books-author-missing-label">Livres pas encore lus</p>
+          <div class="books">
+            @for (book of sagaGroup.missingBooks; track book.title) {
+            <div class="book-card book-card--missing">
+              <app-book
+                [book]="book"
+                [readOnly]="true"
+                [recommendationBadge]="'Non lu'"
+              ></app-book>
+            </div>
+            }
+          </div>
+        </div>
+        }
+      </section>
+      }
+    </div>
     } @else { @if(groupedBooks()) { Groupement activé, le tri ne sera pas pris
     en compte. } @if (groupedBooks()) {
     <div class="books-groups">

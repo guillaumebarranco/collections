@@ -94,8 +94,7 @@ export const baseGamesApi: BaseGame[] = [
     title: "Harry Potter à l'école des sorciers",
     editor: 'Electronic Arts',
     hero: 'Harry Potter',
-    coverUrl:
-      'https://static.wikia.nocookie.net/harrypotter/images/1/12/Harry_Potter_%C3%A0_l%27%C3%A9cole_des_sorciers_GBA_%28recto%29.jpg/revision/latest?cb=20160424135633&path-prefix=fr',
+    coverUrl: '/games_pictures/Harry_Potter_2728recto.webp',
     releaseDate: '2001-11-16',
     averageTimeToFinish: 11,
     averageTimeToHundredPercent: 0,
@@ -206,8 +205,7 @@ export const baseGamesApi: BaseGame[] = [
     title: 'Animal Crossing : Wild World',
     editor: 'Nintendo',
     hero: '',
-    coverUrl:
-      'https://en.wikipedia.org/wiki/Animal_Crossing:_Wild_World#/media/File:Animal_Crossing_Wild_World_cover.png',
+    coverUrl: '/games_pictures/Animal_Crossing_Wild_World_cover.png',
     releaseDate: '2006-10-05',
     averageTimeToFinish: 40,
     averageTimeToHundredPercent: 0,
@@ -320,7 +318,7 @@ export const baseGamesApi: BaseGame[] = [
     title: 'FIFA 10',
     editor: 'Electronic Arts',
     hero: '',
-    coverUrl: '',
+    coverUrl: '/games_pictures/FIFA_10_Cover.jpg',
     releaseDate: '2009-10-02',
     averageTimeToFinish: 22,
     averageTimeToHundredPercent: 0,
@@ -585,8 +583,7 @@ export const baseGamesApi: BaseGame[] = [
     title: 'Naruto: Ninja Council 3',
     editor: 'Takara Tomy',
     hero: 'Naruto',
-    coverUrl:
-      'https://static.wikia.nocookie.net/naruto/images/a/a9/Naruto_NC3.jpg/revision/latest?cb=20220227145558&path-prefix=fr',
+    coverUrl: '/games_pictures/Naruto_NC3.webp',
     releaseDate: '2007-07-25',
     averageTimeToFinish: 7,
     averageTimeToHundredPercent: 0,

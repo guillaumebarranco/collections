@@ -94,6 +94,8 @@ export class BooksHeaderComponent {
       ? 'Livres possédés'
       : this.selectedView() === 'authors'
       ? 'Livres par auteur'
+      : this.selectedView() === 'sagas'
+      ? 'Livres par saga'
       : this.selectedView() === 'recommendations'
       ? 'Recommandations'
       : 'Livres lus';

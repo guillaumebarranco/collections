@@ -1,6 +1,6 @@
 import { Book } from '../../../models/book-model';
 
-export type BookView = 'read' | 'readlist' | 'owned' | 'authors' | 'recommendations';
+export type BookView = 'read' | 'readlist' | 'owned' | 'authors' | 'sagas' | 'recommendations';
 
 export const booksSortOptions: { value: string; label: string }[] = [
   { value: 'title', label: 'Titre (A-Z)' },
@@ -38,6 +38,7 @@ export const bookViewOptions: { value: BookView; label: string }[] = [
   { value: 'readlist', label: 'Livres à lire' },
   { value: 'owned', label: 'Livres possédés' },
   { value: 'authors', label: 'Voir les auteurs' },
+  { value: 'sagas', label: 'Voir les sagas' },
   { value: 'recommendations', label: 'Recommandations' },
 ];
 
@@ -179,6 +180,93 @@ export const getBooksByAuthor = ({
       return countB - countA;
     }
     return a.author.localeCompare(b.author);
+  });
+
+  return groups;
+};
+
+export type BooksBySagaGroup = {
+  saga: string;
+  seenBooks: Book[];
+  missingBooks: Book[];
+};
+
+export const getBooksBySaga = ({
+  sortedBooks,
+  allBooks,
+  baseBooks,
+  selectedSort,
+  isAdminView,
+}: {
+  sortedBooks: Book[];
+  allBooks: Book[];
+  baseBooks: Book[];
+  selectedSort: string;
+  isAdminView: boolean;
+}): BooksBySagaGroup[] => {
+  const sagaMap = new Map<string, Book[]>();
+  for (const book of sortedBooks) {
+    const sagaName = book.saga?.trim();
+    if (!sagaName) continue;
+    const list = sagaMap.get(sagaName) ?? [];
+    list.push(book);
+    sagaMap.set(sagaName, list);
+  }
+
+  const seenKeys = new Set(allBooks.map((book) => getBookIdentityKey(book)));
+  const baseBySaga = new Map<string, Book[]>();
+  for (const book of baseBooks) {
+    if (seenKeys.has(getBookIdentityKey(book))) continue;
+    const sagaName = book.saga?.trim();
+    if (!sagaName) continue;
+    const list = baseBySaga.get(sagaName) ?? [];
+    list.push(book);
+    baseBySaga.set(sagaName, list);
+  }
+
+  const groups = Array.from(sagaMap.entries()).map(([saga, seenBooks]) => {
+    // Trier les livres lus par sagaOrder, puis par le tri sélectionné
+    const sortedSeenBooks = [...seenBooks].sort((a, b) => {
+      const orderA = a.sagaOrder ?? 0;
+      const orderB = b.sagaOrder ?? 0;
+      if (orderA !== orderB) {
+        return orderA - orderB;
+      }
+      // Si même sagaOrder, utiliser le tri sélectionné
+      const sorted = getSortedBooks([a, b], selectedSort);
+      return sorted[0] === a ? -1 : 1;
+    });
+
+    const missingBooks = isAdminView
+      ? []
+      : [...(baseBySaga.get(saga) ?? [])];
+
+    // Trier les livres manquants par sagaOrder, puis par le tri sélectionné
+    const sortedMissingBooks = missingBooks.sort((a, b) => {
+      const orderA = a.sagaOrder ?? 0;
+      const orderB = b.sagaOrder ?? 0;
+      if (orderA !== orderB) {
+        return orderA - orderB;
+      }
+      // Si même sagaOrder, utiliser le tri sélectionné
+      const sorted = getSortedBooks([a, b], selectedSort);
+      return sorted[0] === a ? -1 : 1;
+    });
+
+    return {
+      saga,
+      seenBooks: sortedSeenBooks,
+      missingBooks: sortedMissingBooks,
+    };
+  });
+
+  groups.sort((a, b) => {
+    const countA = a.seenBooks.length + a.missingBooks.length;
+    const countB = b.seenBooks.length + b.missingBooks.length;
+    if (countB !== countA) {
+      return countB - countA;
+    }
+    return a.saga.localeCompare(b.saga);
   });
 
   return groups;

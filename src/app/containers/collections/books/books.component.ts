@@ -24,6 +24,7 @@ import {
   bookViewOptions,
   booksSortOptions,
   getBooksByAuthor,
+  getBooksBySaga,
   getSortedBooks,
   groupByOptions,
   yearFilterOptions,
@@ -217,6 +218,7 @@ export class BooksComponent implements OnInit {
       queryParams['view'] === 'read' ||
       queryParams['view'] === 'owned' ||
       queryParams['view'] === 'authors' ||
+      queryParams['view'] === 'sagas' ||
       queryParams['view'] === 'recommendations'
     ) {
       this.selectedView.set(queryParams['view'] as BookView);
@@ -324,6 +326,8 @@ export class BooksComponent implements OnInit {
       books = this.allBooks().filter((book) => book.owned);
     } else if (this.selectedView() === 'authors') {
       books = this.allBooks();
+    } else if (this.selectedView() === 'sagas') {
+      books = this.allBooks();
     }
 
     const term = this.searchTerm().trim().toLowerCase();
@@ -379,7 +383,7 @@ export class BooksComponent implements OnInit {
   );
 
   groupedBooks = computed(() => {
-    if (this.selectedView() === 'authors') {
+    if (this.selectedView() === 'authors' || this.selectedView() === 'sagas') {
       return null;
     }
     if (this.selectedGroupBy() === 'none') {
@@ -472,7 +476,7 @@ export class BooksComponent implements OnInit {
 
   onViewChange(view: BookView) {
     this.selectedView.set(view);
-    if (view === 'authors') {
+    if (view === 'authors' || view === 'sagas') {
       this.selectedGroupBy.set('none');
     }
     if (view === 'recommendations') {
@@ -493,6 +497,19 @@ export class BooksComponent implements OnInit {
       return [];
     }
     return getBooksByAuthor({
+      sortedBooks: this.allBooks(),
+      allBooks: this.allBooks(),
+      baseBooks: this.baseBooksList(),
+      selectedSort: 'readDate',
+      isAdminView: this.isAdminView(),
+    });
+  });
+
+  booksBySaga = computed(() => {
+    if (this.selectedView() !== 'sagas') {
+      return [];
+    }
+    return getBooksBySaga({
       sortedBooks: this.allBooks(),
       allBooks: this.allBooks(),
       baseBooks: this.baseBooksList(),

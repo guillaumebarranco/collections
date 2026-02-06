@@ -2606,8 +2606,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         name: "Shin'ichirô Miki",
       },
     ],
-    coverUrl:
-      'https://static.wikia.nocookie.net/fma/images/e/e9/Fmab-poster.png/revision/latest?cb=20131124145205',
+    coverUrl: '/series_pictures/2364027.webp',
     releaseDate: '2009-04-05',
     endDate: '2010-07-04',
     genre: 'Anime',
