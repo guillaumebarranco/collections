@@ -11625,4 +11625,17 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
+
+  {
+    title: 'KPop Demon Hunters',
+    director: 'Maggie Kang, Chris Appelhans',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2026-02-05',
+    lastViewedDate: '2026-02-05',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 0,
+  },
 ];
