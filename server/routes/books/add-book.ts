@@ -16,36 +16,22 @@ const router = express.Router();
 function formatBaseBook(entity: any): string {
   return `  {
     title: '${escapeString(entity.title)}',
-    author: '${escapeString(
-    entity.author
-  )}',
+    author: '${escapeString(entity.author)}',
     coverUrl: '${escapeString(entity.coverUrl || '')}',
-    pages: ${
-    entity.pages || 0
-  },
+    pages: ${entity.pages || 0},
     genre: '${escapeString(entity.genre || '')}',
-    saga: '${escapeString(
-    entity.saga || ''
-  )}',
+    saga: '${escapeString(entity.saga || '')}',
     sagaOrder: ${entity.sagaOrder || 0},
     sagaFinished: ${entity.sagaFinished ?? false},
-    nbTomes: ${
-    entity.nbTomes || 0
-  },
-    isFinished: ${entity.isFinished ?? true},
   },`;
 }
 
 function formatUserBook(user: any): string {
   return `  {
     title: '${escapeString(user.title)}',
-    author: '${escapeString(
-    user.author
-  )}',
+    author: '${escapeString(user.author)}',
     readDate: '${escapeString(user.readDate || '')}',
-    rating: ${
-    user.rating ?? 0
-  },
+    rating: ${user.rating ?? 0},
     readTimes: ${user.readTimes ?? 1},
     owned: ${user.owned ?? false},
     readPriority: ${user.readPriority ?? 0},
@@ -121,9 +107,8 @@ router.post('/add', (req: any, res: any) => {
       genre: normalizeString(entity.genre, 'genre') || '',
       saga: normalizeString(entity.saga, 'saga') || '',
       sagaOrder: normalizeNumber(entity.sagaOrder, 'sagaOrder') || 0,
-      sagaFinished: normalizeBoolean(entity.sagaFinished, 'sagaFinished') ?? false,
-      nbTomes: normalizeNumber(entity.nbTomes, 'nbTomes') || 0,
-      isFinished: normalizeBoolean(entity.isFinished, 'isFinished') ?? true,
+      sagaFinished:
+        normalizeBoolean(entity.sagaFinished, 'sagaFinished') ?? false,
     };
 
     const userPayload = {
