@@ -141,7 +141,7 @@ export class AddBookComponent {
     return 'empty';
   }
 
-  private getUserId(): string {
+  getUserId(): string {
     return this.dialogData?.userId || 'guillaume';
   }
 

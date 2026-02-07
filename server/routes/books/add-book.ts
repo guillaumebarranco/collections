@@ -142,18 +142,25 @@ router.post('/add', (req: any, res: any) => {
     );
     fs.writeFileSync(BASE_BOOKS_API_FILE, baseBookContent, 'utf8');
 
-    const userBooksFile = getUserBooksTargetFile(userId);
-    const userBookContent = appendObjectToArrayFile(
-      userBooksFile,
-      formatUserBook(userPayload)
-    );
-    fs.writeFileSync(userBooksFile, userBookContent, 'utf8');
+    if (userId !== 'admin') {
+      const userBooksFile = getUserBooksTargetFile(userId);
+      const userBookContent = appendObjectToArrayFile(
+        userBooksFile,
+        formatUserBook(userPayload)
+      );
+      fs.writeFileSync(userBooksFile, userBookContent, 'utf8');
 
-    res.json({
-      ok: true,
-      entityFile: BASE_BOOKS_API_FILE,
-      userFile: userBooksFile,
-    });
+      res.json({
+        ok: true,
+        entityFile: BASE_BOOKS_API_FILE,
+        userFile: userBooksFile,
+      });
+    } else {
+      res.json({
+        ok: true,
+        entityFile: BASE_BOOKS_API_FILE,
+      });
+    }
   } catch (error: any) {
     res.status(500).json({ error: error.message || 'Unknown error' });
   }

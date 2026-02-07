@@ -113,6 +113,7 @@
       </div>
     </section>
 
+    @if(getUserId() !== 'admin') {
     <section class="form-section">
       <h2>Informations utilisateur</h2>
 
@@ -190,6 +191,7 @@
         />
       </div>
     </section>
+    }
 
     @if(errorMessage()) {
     <p class="error-message">{{ errorMessage() }}</p>

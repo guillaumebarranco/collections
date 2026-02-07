@@ -8,7 +8,11 @@
     }}) }
   </h1>
 
-  @if(allBooksCount() !== 0) {
+  @if(isAdminView()) {
+  <button class="makya-btn" (click)="openAddBookAdminDialog()">
+    Créer un nouveau livre
+  </button>
+  } @if(allBooksCount() !== 0) {
   <div class="books-header-top">
     @if (!isAdminView()) {
     <app-view-toggle

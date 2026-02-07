@@ -647,7 +647,7 @@ export const guillaumeBooks: UserBooks = [
     title: 'La fille du train',
     author: 'Paula Hawkins',
     readDate: '2026-02-06',
-    rating: 3.5,
+    rating: 3.75,
     readTimes: 1,
     owned: false,
     readPriority: 1,

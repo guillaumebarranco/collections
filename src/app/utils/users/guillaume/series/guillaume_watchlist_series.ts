@@ -12,7 +12,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     }
   ],
     owned: false,
-    watchPriority: 3,
+    watchPriority: 1,
   },
 
   {
@@ -34,5 +34,26 @@ export const guillaumeWatchListSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+  },
+
+  {
+    title: 'Fallout',
+    director: 'Geneva Robertson-Dworet, Graham Wagner',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+      lastViewedDate: '',
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+      lastViewedDate: '',
+    }
+  ],
+    owned: false,
+    watchPriority: 2,
   },
 ];

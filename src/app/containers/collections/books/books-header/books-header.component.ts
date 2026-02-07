@@ -19,6 +19,8 @@ import { AuthService } from '../../../../core/auth.service';
 import { BookView } from '../books.utils';
 import { StatItem } from '../../../../components/stats-display/stats-display.component';
 import { FormsModule } from '@angular/forms';
+import { AddBookComponent } from '../../../add/add-book/add-book.component';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-books-header',
@@ -28,6 +30,7 @@ import { FormsModule } from '@angular/forms';
     ViewToggleComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
+    MatDialogModule,
   ],
   templateUrl: './books-header.component.html',
   styleUrls: ['./books-header.component.scss'],
@@ -62,6 +65,7 @@ export class BooksHeaderComponent {
   private readonly authService = inject(AuthService);
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
+  private readonly dialog = inject(MatDialog);
 
   selectedSort = signal<string>('readDate');
   selectedYearFilter = signal<string>('all');
@@ -138,5 +142,19 @@ export class BooksHeaderComponent {
     return hasNameParam
       ? `/${params['id']}/select-books-owned`
       : '/select-books-owned';
+  }
+
+  openAddBookAdminDialog(): void {
+    const dialogRef = this.dialog.open(AddBookComponent, {
+      data: { userId: 'admin' },
+      width: '760px',
+      maxWidth: '95vw',
+    });
+
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result?.created) {
+        this.router.navigate(['/admin/books']);
+      }
+    });
   }
 }

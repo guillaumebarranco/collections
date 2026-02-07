@@ -49,14 +49,20 @@ function ensureUserExists(userId: string) {
 }
 
 function formatUserBook(book: any) {
+  const today = new Date();
+  const year = today.getFullYear();
+  const month = String(today.getMonth() + 1).padStart(2, '0');
+  const day = String(today.getDate()).padStart(2, '0');
+  const readDate = `${year}-${month}-${day}`;
+
   return `  {
     title: '${escapeString(book.title)}',
     author: '${escapeString(book.author)}',
-    readDate: '',
+    readDate: '${readDate}',
     rating: 0,
     readTimes: 1,
     owned: false,
-    readPriority: 1,
+    readPriority: ${book.readPriority ?? 1},
   },`;
 }
 

@@ -792,7 +792,12 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Seven',
     director: 'David Fincher',
-    actors: [{ name: 'Brad Pitt' }],
+    actors: [
+      { name: 'Brad Pitt' },
+      { name: 'Morgan Freeman' },
+      { name: 'Kevin Spacey' },
+      { name: 'Gwyneth Paltrow' },
+    ],
     coverUrl: '/movies_pictures/51345-se7en-0-150-0-225-crop.jpg',
     releaseDate: '1995-09-22',
     length: 127,
