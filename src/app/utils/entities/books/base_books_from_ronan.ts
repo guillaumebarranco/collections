@@ -22,7 +22,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Le Monde de Narnia',
     sagaOrder: 2,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1950-10-16',
   },
   {
     title: 'Les disparus du phare de Tévennec',
@@ -66,7 +66,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: "Héros de l'Olympe",
     sagaOrder: 1,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2010-10-12',
   },
   {
     title: 'Le fantôme de Canterville',
@@ -77,7 +77,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1887-02-23',
   },
   {
     title: 'Arthur et la cité interdite (Arthur et les Minimoys, #2)',
@@ -88,7 +88,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Arthur et les Minimoys',
     sagaOrder: 2,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2003-01-01',
   },
   {
     title: 'Arthur et la vengeance de Maltazard (Arthur et les Minimoys, #3)',
@@ -100,7 +100,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Arthur et les Minimoys',
     sagaOrder: 3,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2004-01-01',
   },
   {
     title: 'Arthur et la guerre des deux mondes (Arthur et les Minimoys, #4)',
@@ -111,7 +111,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Arthur et les Minimoys',
     sagaOrder: 4,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2005-01-01',
   },
   {
     title: 'La Cour des Miracles (Vampyria : le cycle de Jeanne, #2)',
@@ -123,7 +123,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Vampyria : le cycle de Jeanne',
     sagaOrder: 2,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2018-01-01',
   },
   {
     title: 'La Cour des Ouragans (Vampyria : le cycle de Jeanne, #3)',
@@ -135,7 +135,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Vampyria : le cycle de Jeanne',
     sagaOrder: 3,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2019-01-01',
   },
   {
     title: 'La Cour des ténèbres (Vampyria : le cycle de Jeanne, #1)',
@@ -146,7 +146,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Vampyria : le cycle de Jeanne',
     sagaOrder: 1,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2017-01-01',
   },
   {
     title: 'La Planète des singes',
@@ -157,7 +157,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1963-01-01',
   },
   {
     title: 'La Tour des anges (A la croisée des mondes, #2)',
@@ -168,7 +168,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'À la croisée des mondes',
     sagaOrder: 2,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1997-01-01',
   },
   {
     title: 'Les Royaumes du Nord (À la croisée des mondes, #1)',
@@ -179,7 +179,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'À la croisée des mondes',
     sagaOrder: 1,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1995-01-01',
   },
   {
     title: 'Genèse (Autre-Monde, #7)',
@@ -190,7 +190,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Autre-Monde',
     sagaOrder: 7,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2013-01-01',
   },
   {
     title: 'Neverland (Autre-Monde, #6)',
@@ -201,7 +201,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Autre-Monde',
     sagaOrder: 6,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2012-01-01',
   },
   {
     title: 'Oz (Autre-Monde, #5)',
@@ -212,7 +212,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Autre-Monde',
     sagaOrder: 5,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2011-01-01',
   },
   {
     title: 'Entropia (Autre Monde, #4)',
@@ -223,7 +223,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Autre-Monde',
     sagaOrder: 4,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2010-01-01',
   },
   {
     title: 'Le Cœur de la Terre (Autre-Monde, #3)',
@@ -234,7 +234,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Autre-Monde',
     sagaOrder: 3,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2009-01-01',
   },
   {
     title: "L'Alliance des Trois (Autre-Monde, #1)",
@@ -245,7 +245,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Autre-Monde',
     sagaOrder: 1,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2007-01-01',
   },
   {
     title: 'Malronce (Autre-Monde, #2)',
@@ -256,7 +256,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Autre-Monde',
     sagaOrder: 2,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2008-01-01',
   },
   {
     title: 'Le Silmarillon',
@@ -267,7 +267,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Le Seigneur des Anneaux',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1977-09-15',
   },
   {
     title: 'Bilbo le Hobbit',
@@ -278,7 +278,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Le Seigneur des Anneaux',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1937-09-21',
   },
   {
     title: 'La Dame du lac (The Witcher, #7)',
@@ -289,7 +289,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Sorceleur',
     sagaOrder: 7,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1999-01-01',
   },
   {
     title: 'Le temps du mépris (The Witcher, #4)',
@@ -300,7 +300,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Sorceleur',
     sagaOrder: 4,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1995-01-01',
   },
   {
     title: 'Le sang des elfes (The Witcher, #3)',
@@ -311,7 +311,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Sorceleur',
     sagaOrder: 3,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1994-01-01',
   },
   {
     title: "L'épée de la providence (The Witcher, #2)",
@@ -322,7 +322,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Sorceleur',
     sagaOrder: 2,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1992-01-01',
   },
   {
     title: 'Sword of Destiny (The Witcher, #0.7)',
@@ -333,7 +333,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Sorceleur',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1992-01-01',
   },
   {
     title: 'Le dernier voeu (The Witcher, #1)',
@@ -344,7 +344,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Sorceleur',
     sagaOrder: 1,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1993-01-01',
   },
   {
     title: 'The Last Wish (The Witcher, #0.5)',
@@ -355,7 +355,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Sorceleur',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1993-01-01',
   },
   {
     title: 'The Invisible Life of Addie LaRue',
@@ -366,7 +366,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2020-10-06',
   },
   {
     title: "L'héritage (Eragon, #4)",
@@ -377,7 +377,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Eragon',
     sagaOrder: 4,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2011-11-08',
   },
   {
     title: 'Brisingr (Eragon, #3)',
@@ -388,7 +388,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Eragon',
     sagaOrder: 3,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2008-09-20',
   },
   {
     title: "L'aîné (Eragon, #2)",
@@ -399,7 +399,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Eragon',
     sagaOrder: 2,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2005-08-23',
   },
   {
     title: 'Eragon (Eragon, #1)',
@@ -410,7 +410,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Eragon',
     sagaOrder: 1,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2003-08-26',
   },
   {
     title: 'Et ils meurent tous les deux à la fin',
@@ -421,7 +421,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2017-09-05',
   },
   {
     title: 'La Maison au milieu de la Mer Céruléenne (Cerulean Chronicles, #1)',
@@ -433,7 +433,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Cerulean Chronicles',
     sagaOrder: 1,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2020-03-17',
   },
   {
     title: 'Azincourt par temps de pluie',
@@ -444,7 +444,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2012-01-01',
   },
   {
     title: "Le Fantôme d'à côté (Chair de poule #16)",
@@ -455,7 +455,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1994-01-01',
   },
   {
     title: "Le Miroir d'ambre (À la croisée des mondes, #3)",
@@ -466,7 +466,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2000-01-01',
   },
   {
     title: "Les ténèbres (Journal d'un vampire, #2)",
@@ -477,7 +477,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1991-01-01',
   },
   {
     title: "Le réveil (Journal d'un vampire, #1)",
@@ -488,7 +488,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1991-01-01',
   },
   {
     title: "Le sang de l'Olympe (Héros de l'Olympe #5)",
@@ -499,7 +499,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2014-10-07',
   },
   {
     title: "La Maison d'Hadès (Héros de l'Olympe, #4)",
@@ -510,6 +510,6 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2013-10-08',
   },
 ];

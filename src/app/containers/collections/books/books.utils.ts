@@ -15,6 +15,8 @@ export const booksSortOptions: { value: string; label: string }[] = [
   { value: 'author-desc', label: 'Auteur (Z-A)' },
   { value: 'readDate', label: 'Date de lecture (récent)' },
   { value: 'readDate-asc', label: 'Date de lecture (ancien)' },
+  { value: 'releaseDate', label: 'Date de parution (récent)' },
+  { value: 'releaseDate-asc', label: 'Date de parution (ancien)' },
   { value: 'rating', label: 'Note (élevée)' },
   { value: 'rating-asc', label: 'Note (faible)' },
   { value: 'readTimes', label: 'Relectures (élevé)' },
@@ -71,6 +73,20 @@ export const getSortedBooks = (books: Book[], selectedSort: string): Book[] => {
         if (!a.readDate) return 1;
         if (!b.readDate) return -1;
         return new Date(a.readDate).getTime() - new Date(b.readDate).getTime();
+      });
+    case 'releaseDate':
+      return books.sort((a, b) => {
+        if (!a.releaseDate && !b.releaseDate) return 0;
+        if (!a.releaseDate) return 1;
+        if (!b.releaseDate) return -1;
+        return new Date(b.releaseDate).getTime() - new Date(a.releaseDate).getTime();
+      });
+    case 'releaseDate-asc':
+      return books.sort((a, b) => {
+        if (!a.releaseDate && !b.releaseDate) return 0;
+        if (!a.releaseDate) return 1;
+        if (!b.releaseDate) return -1;
+        return new Date(a.releaseDate).getTime() - new Date(b.releaseDate).getTime();
       });
     case 'rating':
       return books.sort((a, b) => {

@@ -10,7 +10,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2023-01-01',
   },
   {
     title: 'Les liaisons dangereuses',
@@ -21,7 +21,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2022-01-01',
   },
   {
     title: 'Castel Boy',
@@ -32,7 +32,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2021-01-01',
   },
   {
     title: 'En bons pères de famille',
@@ -43,7 +43,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2021-09-01',
   },
   {
     title: "Où va l'argent des pauvres",
@@ -54,7 +54,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2019-01-01',
   },
   {
     title: 'Les tout-petits face aux écrans',
@@ -65,7 +65,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2017-01-01',
   },
   {
     title: 'Les serres sous le velours noir',
@@ -76,7 +76,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2022-01-01',
   },
   {
     title: "Ne tirez pas sur l'oiseau moqueur",
@@ -87,7 +87,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1960-07-11',
   },
   {
     title: 'Les Hauts de Hurlevent',
@@ -142,7 +142,7 @@ export const baseBooks: BaseBook[] = [
     saga: 'Les voyages extraordinaires',
     sagaOrder: 0,
     sagaFinished: true,
-    releaseDate: '',
+    releaseDate: '1874-09-22',
   },
   {
     title: 'De la Terre à la Lune',
@@ -263,7 +263,7 @@ export const baseBooks: BaseBook[] = [
     saga: 'Miss Marple',
     sagaOrder: 2,
     sagaFinished: true,
-    releaseDate: '',
+    releaseDate: '1930-01-01',
   },
   {
     title: "Le crime de l'Orient Express",
@@ -274,7 +274,7 @@ export const baseBooks: BaseBook[] = [
     saga: 'Hercule Poirot',
     sagaOrder: 0,
     sagaFinished: true,
-    releaseDate: '',
+    releaseDate: '1934-01-01',
   },
   {
     title: 'Mort sur le Nil',
@@ -373,7 +373,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1951-01-01',
   },
   {
     title: 'La Nuit des temps',
@@ -428,7 +428,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2021-01-01',
   },
   {
     title: 'Le coût de la virilité',
@@ -439,7 +439,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2021-01-01',
   },
   {
     title: 'Sois jeune et tais-toi',
@@ -450,7 +450,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2020-01-01',
   },
   {
     title: "L'Île au trésor",
@@ -461,7 +461,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1883-05-23',
   },
   {
     title: 'Faites-les lire !',
@@ -472,7 +472,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2019-01-01',
   },
   {
     title: 'Candide',
@@ -516,7 +516,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1886-01-05',
   },
   {
     title: "L'ordinatueur",
@@ -527,7 +527,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1984-01-01',
   },
   {
     title: 'La Potion magique de Georges Bouillon',
@@ -582,7 +582,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2000-01-01',
   },
   {
     title: "L'homme invisible",
@@ -593,7 +593,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1897-01-01',
   },
   {
     title: 'Les pages de notre amour',
@@ -604,7 +604,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1996-01-01',
   },
   {
     title: 'À tout jamais',
@@ -615,7 +615,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2004-01-01',
   },
   {
     title: 'Le porte bonheur',
@@ -626,7 +626,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2003-01-01',
   },
   {
     title: 'Memento mori',
@@ -637,7 +637,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2023-01-01',
   },
   {
     title: 'Un choix',
@@ -648,7 +648,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2007-01-01',
   },
   {
     title: 'Viridia: Les racines du pouvoir',
@@ -659,7 +659,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2023-01-01',
   },
   {
     title: 'Alchemised',
@@ -670,7 +670,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2023-01-01',
   },
   {
     title: 'Une seconde chance',
@@ -681,7 +681,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2013-01-01',
   },
   {
     title: "L'Iliade",
@@ -692,7 +692,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '-0800-01-01',
   },
   {
     title: "L'Odyssée",
@@ -703,7 +703,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '-0800-01-01',
   },
   {
     title: 'Adam',
@@ -714,7 +714,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2022-01-01',
   },
 
   {
@@ -749,7 +749,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1951-01-01',
   },
   {
     title: 'La fille du train',
@@ -760,7 +760,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2015-01-13',
   },
   {
     title: "L'amour aux temps du choléra",
@@ -771,7 +771,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1985-03-27',
   },
 
   {
@@ -783,7 +783,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2023-01-01',
   },
   {
     title: 'Tout le bleu du ciel',
@@ -794,7 +794,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2021-01-01',
   },
   {
     title: 'Don Quichotte',
@@ -862,7 +862,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2014-07-29',
   },
   {
     title: 'Princess Bride',
@@ -895,7 +895,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1952-01-01',
   },
   {
     title: "L'impure",
@@ -906,7 +906,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1956-01-01',
   },
   {
     title: 'Il était une fois: Tome 1 : Mon premier baiser',
@@ -917,7 +917,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2023-01-01',
   },
   {
     title: 'Un raccourci dans le temps',
@@ -928,7 +928,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1962-01-01',
   },
   {
     title: 'Les voyages de Gulliver',
@@ -950,7 +950,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1930-01-01',
   },
   {
     title: 'Le Souffle de la Hyène',
@@ -972,7 +972,7 @@ export const baseBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1947-06-25',
   },
   {
     title: 'Le Procès',
