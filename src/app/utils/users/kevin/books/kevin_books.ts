@@ -901,4 +901,24 @@ export const kevinBooks: UserBooks = [
     owned: false,
     readPriority: 1,
   },
+
+  {
+    title: 'Un jour de nuit tombée',
+    author: 'Samantha Shannon',
+    readDate: '2025-11-01',
+    rating: 4,
+    readTimes: 1,
+    owned: true,
+    readPriority: 1,
+  },
+
+  {
+    title: 'Le Prieuré de l\'Oranger',
+    author: 'Samantha Shannon',
+    readDate: '2025-10-01',
+    rating: 3.5,
+    readTimes: 1,
+    owned: true,
+    readPriority: 1,
+  },
 ];
