@@ -32,7 +32,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     saga: 'Le porteur de lumière',
     sagaOrder: 1,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2008-10-01',
   },
   {
     title: 'Croc-Blanc',
@@ -43,7 +43,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1906-10-01',
   },
   {
     title: "L'Apprenti Assassin",

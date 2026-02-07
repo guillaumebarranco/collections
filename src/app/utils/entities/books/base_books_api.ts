@@ -10,7 +10,7 @@ export const baseBooksApi: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1906-10-01',
   },
 
   {
@@ -35,7 +35,7 @@ export const baseBooksApi: BaseBook[] = [
     saga: 'Le Monde de Narnia',
     sagaOrder: 3,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1954-09-06',
   },
 
   {
@@ -48,7 +48,7 @@ export const baseBooksApi: BaseBook[] = [
     saga: "Le Prieuré de l'Oranger",
     sagaOrder: 2,
     sagaFinished: true,
-    releaseDate: '',
+    releaseDate: '2023-02-28',
   },
 
   {

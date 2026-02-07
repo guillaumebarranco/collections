@@ -10,7 +10,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: 'Le Monde de Narnia',
     sagaOrder: 1,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1955-05-02',
   },
   {
     title:
@@ -33,7 +33,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2021-01-01',
   },
   {
     title: 'The Mark of Athena (The Heroes of Olympus, #3)',
@@ -44,7 +44,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: "Héros de l'Olympe",
     sagaOrder: 3,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2012-10-02',
   },
   {
     title: 'The Son of Neptune (The Heroes of Olympus, #2)',
@@ -55,7 +55,7 @@ export const baseBooksFromRonan: BaseBook[] = [
     saga: "Héros de l'Olympe",
     sagaOrder: 2,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2011-10-04',
   },
   {
     title: 'The Lost Hero (The Heroes of Olympus, #1)',

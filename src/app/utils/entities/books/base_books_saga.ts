@@ -10,7 +10,7 @@ export const baseBooksSaga: BaseBook[] = [
     saga: 'Hunger Games',
     sagaOrder: 1,
     sagaFinished: true,
-    releaseDate: '',
+    releaseDate: '2008-09-14',
   },
   {
     title: "L'Embrasement",
@@ -34,7 +34,7 @@ export const baseBooksSaga: BaseBook[] = [
     saga: 'Hunger Games',
     sagaOrder: 3,
     sagaFinished: true,
-    releaseDate: '',
+    releaseDate: '2010-08-24',
   },
   {
     title: "La Ballade du serpent et de l'oiseau chanteur",

@@ -10,7 +10,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1866-01-01',
   },
   {
     title: 'Les liaisons dangereuses',
@@ -21,7 +21,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1782-03-23',
   },
   {
     title: 'Les filles du Docteur March',
@@ -32,7 +32,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1868-01-01',
   },
   {
     title: 'Circe',
@@ -43,7 +43,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '2018-04-10',
   },
   {
     title: "Le chant d'Achille",
