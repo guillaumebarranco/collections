@@ -642,4 +642,14 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
   },
+
+  {
+    title: 'La fille du train',
+    author: 'Paula Hawkins',
+    readDate: '2026-02-06',
+    rating: 3.5,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+  },
 ];

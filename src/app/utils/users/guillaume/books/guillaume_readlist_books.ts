@@ -38,7 +38,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "Le chant d'Achille",
+    title: 'Le chant d\'Achille',
     author: 'Madeline Miller',
     readDate: '',
     rating: 0,
@@ -65,7 +65,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "L'écume des jours",
+    title: 'L\'écume des jours',
     author: 'Boris Vian',
     readDate: '',
     rating: 0,
@@ -209,7 +209,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "L'enfer",
+    title: 'L\'enfer',
     author: 'Dante Alighieri',
     readDate: '',
     rating: 0,
@@ -218,7 +218,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "L'epopée de Gilgamesh",
+    title: 'L\'epopée de Gilgamesh',
     author: 'Anonyme',
     readDate: '',
     rating: 0,
@@ -290,16 +290,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: 'La fille du train',
-    author: 'Paula Hawkins',
-    readDate: '',
-    rating: 0,
-    readTimes: 0,
-    owned: true,
-    readPriority: 3,
-  },
-  {
-    title: "L'amour aux temps du choléra",
+    title: 'L\'amour aux temps du choléra',
     author: 'Gabriel García Márquez',
     readDate: '',
     rating: 0,
@@ -308,7 +299,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "Le Gaslighting ou l'art de faire taire les femmes",
+    title: 'Le Gaslighting ou l\'art de faire taire les femmes',
     author: 'Hélène Frappat',
     readDate: '',
     rating: 0,
@@ -371,7 +362,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "L'espace d'un an",
+    title: 'L\'espace d\'un an',
     author: 'Becky Chambers',
     readDate: '',
     rating: 0,
@@ -407,7 +398,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "L'impure",
+    title: 'L\'impure',
     author: 'Guy des Cars',
     readDate: '',
     rating: 0,
@@ -426,7 +417,7 @@ export const guillaumeReadlistBooks: UserBooks = [
   },
   {
     title: 'Un raccourci dans le temps',
-    author: "Madeleine L'Engle",
+    author: 'Madeleine L\'Engle',
     readDate: '',
     rating: 0,
     readTimes: 0,
@@ -443,7 +434,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "Rien qu'un surhomme",
+    title: 'Rien qu\'un surhomme',
     author: 'Olaf Stapledon',
     readDate: '',
     rating: 0,
@@ -461,7 +452,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "Le Journal d'Anne Frank",
+    title: 'Le Journal d\'Anne Frank',
     author: 'Anne Frank',
     readDate: '',
     rating: 0,
@@ -469,7 +460,6 @@ export const guillaumeReadlistBooks: UserBooks = [
     owned: true,
     readPriority: 1,
   },
-
   {
     title: 'Les disparus du phare de Tévennec',
     author: 'Aricia Favalli',
@@ -479,7 +469,6 @@ export const guillaumeReadlistBooks: UserBooks = [
     owned: false,
     readPriority: 1,
   },
-
   {
     title: 'Eragon (Eragon, #1)',
     author: 'Christopher Paolini',
@@ -489,7 +478,6 @@ export const guillaumeReadlistBooks: UserBooks = [
     owned: false,
     readPriority: 1,
   },
-
   {
     title: 'The Invisible Life of Addie LaRue',
     author: 'V.E. Schwab',
@@ -507,5 +495,5 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 2,
-  },
+  }
 ];
