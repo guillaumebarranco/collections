@@ -151,7 +151,7 @@ export const baseBooksApi: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'La Compagnie Noire',
     sagaOrder: 4,
-    sagaFinished: true,
+    sagaFinished: false,
     releaseDate: '',
   },
 
@@ -164,7 +164,7 @@ export const baseBooksApi: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'La Compagnie Noire',
     sagaOrder: 5,
-    sagaFinished: true,
+    sagaFinished: false,
     releaseDate: '',
   },
 
@@ -177,7 +177,7 @@ export const baseBooksApi: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'La Compagnie Noire',
     sagaOrder: 6,
-    sagaFinished: true,
+    sagaFinished: false,
     releaseDate: '',
   },
 
@@ -190,7 +190,7 @@ export const baseBooksApi: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'La Compagnie Noire',
     sagaOrder: 7,
-    sagaFinished: true,
+    sagaFinished: false,
     releaseDate: '',
   },
 
@@ -203,7 +203,7 @@ export const baseBooksApi: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'La Compagnie Noire',
     sagaOrder: 8,
-    sagaFinished: true,
+    sagaFinished: false,
     releaseDate: '',
   },
 
@@ -216,7 +216,7 @@ export const baseBooksApi: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'La Compagnie Noire',
     sagaOrder: 9,
-    sagaFinished: true,
+    sagaFinished: false,
     releaseDate: '',
   },
 
@@ -228,7 +228,7 @@ export const baseBooksApi: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'La Compagnie Noire',
     sagaOrder: 10,
-    sagaFinished: true,
+    sagaFinished: false,
     releaseDate: '',
   },
 
@@ -240,7 +240,7 @@ export const baseBooksApi: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'La Compagnie Noire',
     sagaOrder: 11,
-    sagaFinished: true,
+    sagaFinished: false,
     releaseDate: '',
   },
 
@@ -253,7 +253,7 @@ export const baseBooksApi: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'La Compagnie Noire',
     sagaOrder: 12,
-    sagaFinished: true,
+    sagaFinished: false,
     releaseDate: '',
   },
 
@@ -266,7 +266,7 @@ export const baseBooksApi: BaseBook[] = [
     genre: 'Fantasy',
     saga: 'La Compagnie Noire',
     sagaOrder: 13,
-    sagaFinished: true,
+    sagaFinished: false,
     releaseDate: '',
   },
 

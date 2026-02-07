@@ -389,7 +389,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: 'Fils des brumes, tome 1 : L\'Empire ultime',
+    title: 'L\'Empire Ultime',
     author: 'Brandon Sanderson',
     readDate: '2023-12-01',
     rating: 5,
@@ -398,7 +398,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: 'Fils des brumes, tome 2 : Le puits de l\'ascension',
+    title: 'Le puits de l\'Ascension',
     author: 'Brandon Sanderson',
     readDate: '2023-12-15',
     rating: 5,
@@ -407,7 +407,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: 'Fils des brumes, tome 3 : Le héros des siècles',
+    title: 'Le Héros des Siècles',
     author: 'Brandon Sanderson',
     readDate: '2023-12-22',
     rating: 5,
@@ -560,7 +560,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: 'Les faucons de Raverra, tome 1 : La sorcière captive',
+    title: 'La Sorcière Captive',
     author: 'Melissa Caruso',
     readDate: '2023-11-01',
     rating: 5,
@@ -569,7 +569,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: 'Les faucons de Raverra, tome 2 : L\'héritière rebelle',
+    title: 'L\'Héritière Rebelle',
     author: 'Melissa Caruso',
     readDate: '2023-11-10',
     rating: 5,
@@ -578,7 +578,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: 'Les faucons de Raverra, tome 3 : L\'empire libéré',
+    title: 'L\'Empire Libéré',
     author: 'Melissa Caruso',
     readDate: '2023-11-20',
     rating: 5,
@@ -758,7 +758,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: 'Wax et Wayne, tome 1 : L\'alliage de la justice',
+    title: 'L\'Alliage de la Justice',
     author: 'Brandon Sanderson',
     readDate: '2024-01-01',
     rating: 4,
@@ -767,7 +767,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: 'Wax et Wayne, tome 2 : Jeux de masques',
+    title: 'Jeux de Masques',
     author: 'Brandon Sanderson',
     readDate: '2024-01-08',
     rating: 4.5,
@@ -776,7 +776,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: 'Wax et Wayne, tome 3 : Les bracelets des larmes',
+    title: 'Les Bracelets des Larmes',
     author: 'Brandon Sanderson',
     readDate: '2024-01-17',
     rating: 4.5,
