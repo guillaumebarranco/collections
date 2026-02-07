@@ -218,8 +218,6 @@ function parseBaseBooksFullFromFile(content: string): any[] {
           saga: parseStringField(objectText, 'saga') || '',
           sagaOrder: parseNumberField(objectText, 'sagaOrder') ?? 0,
           sagaFinished: parseBooleanField(objectText, 'sagaFinished') ?? false,
-          nbTomes: parseNumberField(objectText, 'nbTomes') ?? 0,
-          isFinished: parseBooleanField(objectText, 'isFinished') ?? true,
         });
       }
     }
@@ -326,10 +324,7 @@ function upsertField(objectText: string, key: string, value: any) {
       return replaceField(next, key, value);
     }
     const escaped = escapeString(value);
-    return next.replace(
-      /\}\s*$/,
-      `    ${key}: '${escaped}',\n  }`
-    );
+    return next.replace(/\}\s*$/, `    ${key}: '${escaped}',\n  }`);
   }
   if (typeof value === 'boolean' || typeof value === 'number') {
     const regex = new RegExp(`(${key}\\s*:\\s*)([^,\\n]+)`);
@@ -504,8 +499,6 @@ function updateBaseBookInFile(content: string, payload: any) {
           updated = upsertField(updated, 'saga', payload.saga);
           updated = upsertField(updated, 'sagaOrder', payload.sagaOrder);
           updated = upsertField(updated, 'sagaFinished', payload.sagaFinished);
-          updated = upsertField(updated, 'nbTomes', payload.nbTomes);
-          updated = upsertField(updated, 'isFinished', payload.isFinished);
 
           return (
             content.slice(0, objectStart) +
@@ -609,9 +602,7 @@ function getUserReadlistBooksFiles(userId: string) {
     .readdirSync(userBooksDir)
     .filter(
       (file: string) =>
-        file.endsWith('.ts') &&
-        file !== 'index.ts' &&
-        file.includes('readlist')
+        file.endsWith('.ts') && file !== 'index.ts' && file.includes('readlist')
     )
     .map((file: string) => path.join(userBooksDir, file));
 }
