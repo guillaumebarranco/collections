@@ -407,7 +407,7 @@ export const ronanBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "Nevernight, tome 1 : N'oublie jamais",
+    title: "N'oublie Jamais",
     author: 'Jay Kristoff',
     rating: 4,
     readDate: '2023-03-05',
@@ -416,7 +416,7 @@ export const ronanBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: 'Nevernight, tome 2 : Les grands jeux',
+    title: 'Les Grands Jeux',
     author: 'Jay Kristoff',
     rating: 4,
     readDate: '2023-03-19',
@@ -425,7 +425,7 @@ export const ronanBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "Nevernight, tome 3 : L'aube obscure",
+    title: "L'Aube Obscure",
     author: 'Jay Kristoff',
     rating: 4,
     readDate: '',

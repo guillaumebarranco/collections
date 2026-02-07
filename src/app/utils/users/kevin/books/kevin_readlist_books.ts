@@ -8,7 +8,7 @@ export const kevinReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
-    readPriority: 1,
+    readPriority: 3,
   },
 
   {
@@ -18,7 +18,7 @@ export const kevinReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
-    readPriority: 1,
+    readPriority: 3,
   },
 
   {
@@ -99,5 +99,25 @@ export const kevinReadListBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+  },
+
+  {
+    title: 'La Voie des Ombres',
+    author: 'Brent Weeks',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 3,
+  },
+
+  {
+    title: 'Le Prisme Noir',
+    author: 'Brent Weeks',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 3,
   },
 ];

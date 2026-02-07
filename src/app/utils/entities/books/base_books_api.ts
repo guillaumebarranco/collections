@@ -251,4 +251,26 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 13,
     sagaFinished: true,
   },
+
+  {
+    title: 'La Voie des Ombres',
+    author: 'Brent Weeks',
+    coverUrl: 'https://www.bragelonne.fr/media/cache/cat_w272/58/9782352942658.jpg',
+    pages: 552,
+    genre: 'Fantasy',
+    saga: 'L\'Ange de la Nuit',
+    sagaOrder: 1,
+    sagaFinished: true,
+  },
+
+  {
+    title: 'Le Prisme Noir',
+    author: 'Brent Weeks',
+    coverUrl: 'https://www.bragelonne.fr/media/cache/cat_w272/60/9782352945260.jpg',
+    pages: 576,
+    genre: 'Fantasy',
+    saga: 'Le Porteur de Lumière',
+    sagaOrder: 1,
+    sagaFinished: true,
+  },
 ];

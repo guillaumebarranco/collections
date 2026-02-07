@@ -2,7 +2,7 @@ import { UserBooks } from '../../../../models/book-model';
 
 export const kevinBooks: UserBooks = [
   {
-    title: "L'étranger",
+    title: 'L\'étranger',
     author: 'Albert Camus',
     readDate: '',
     rating: 0,
@@ -11,7 +11,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "L'Alchimiste",
+    title: 'L\'Alchimiste',
     author: 'Paulo Coelho',
     readDate: '',
     rating: 5,
@@ -85,17 +85,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'The Lost Hero (The Heroes of Olympus, #1)',
     author: 'Rick Riordan',
+    readDate: '',
     rating: 0,
-    readDate: '',
-    readTimes: 1,
-    owned: false,
-    readPriority: 1,
-  },
-  {
-    title: 'La Horde du Contrevent',
-    author: 'Alain Damasio',
-    readDate: '',
-    rating: 2.5,
     readTimes: 1,
     owned: false,
     readPriority: 1,
@@ -137,7 +128,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "L'Embrasement",
+    title: 'L\'Embrasement',
     author: 'Suzanne Collins',
     readDate: '',
     rating: 0,
@@ -155,7 +146,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "La Ballade du serpent et de l'oiseau chanteur",
+    title: 'La Ballade du serpent et de l\'oiseau chanteur',
     author: 'Suzanne Collins',
     readDate: '',
     rating: 0,
@@ -182,7 +173,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "L'Assassin royal, tome 1 : L'Apprenti assassin",
+    title: 'L\'Assassin royal, tome 1 : L\'Apprenti assassin',
     author: 'Robin Hobb',
     readDate: '',
     rating: 5,
@@ -191,7 +182,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "L'Assassin royal, tome 2 : L'Assassin du roi",
+    title: 'L\'Assassin royal, tome 2 : L\'Assassin du roi',
     author: 'Robin Hobb',
     readDate: '',
     rating: 0,
@@ -200,7 +191,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "L'Assassin royal, tome 3 : La Nef du crépuscule",
+    title: 'L\'Assassin royal, tome 3 : La Nef du crépuscule',
     author: 'Robin Hobb',
     readDate: '',
     rating: 0,
@@ -209,7 +200,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "L'Assassin royal, tome 4 : Le Poison de la vengeance",
+    title: 'L\'Assassin royal, tome 4 : Le Poison de la vengeance',
     author: 'Robin Hobb',
     readDate: '',
     rating: 0,
@@ -218,7 +209,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "L'Assassin royal, tome 5 : La voie magique",
+    title: 'L\'Assassin royal, tome 5 : La voie magique',
     author: 'Robin Hobb',
     readDate: '',
     rating: 0,
@@ -227,7 +218,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "L'Assassin royal, tome 6 : La Reine solitaire",
+    title: 'L\'Assassin royal, tome 6 : La Reine solitaire',
     author: 'Robin Hobb',
     readDate: '',
     rating: 0,
@@ -236,7 +227,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "L'Assassin royal, tome 7 : Le Prophète blanc",
+    title: 'L\'Assassin royal, tome 7 : Le Prophète blanc',
     author: 'Robin Hobb',
     readDate: '',
     rating: 0,
@@ -245,7 +236,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "L'Assassin royal, tome 8 : La Secte maudite",
+    title: 'L\'Assassin royal, tome 8 : La Secte maudite',
     author: 'Robin Hobb',
     readDate: '',
     rating: 0,
@@ -254,7 +245,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "L'Assassin royal, tome 9 : Les Secrets de Castelcerf",
+    title: 'L\'Assassin royal, tome 9 : Les Secrets de Castelcerf',
     author: 'Robin Hobb',
     readDate: '',
     rating: 0,
@@ -263,7 +254,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "L'Assassin royal, tome 10 : Serments et deuils",
+    title: 'L\'Assassin royal, tome 10 : Serments et deuils',
     author: 'Robin Hobb',
     readDate: '',
     rating: 0,
@@ -272,7 +263,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "L'Assassin royal, tome 11 : Le Dragon des glaces",
+    title: 'L\'Assassin royal, tome 11 : Le Dragon des glaces',
     author: 'Robin Hobb',
     readDate: '',
     rating: 0,
@@ -281,7 +272,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "L'Assassin royal, tome 12 : L'Homme noir",
+    title: 'L\'Assassin royal, tome 12 : L\'Homme noir',
     author: 'Robin Hobb',
     readDate: '',
     rating: 0,
@@ -290,7 +281,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "L'Assassin royal, tome 13 : Adieux et retrouvailles",
+    title: 'L\'Assassin royal, tome 13 : Adieux et retrouvailles',
     author: 'Robin Hobb',
     readDate: '',
     rating: 0,
@@ -299,54 +290,54 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "Le Fou et l'Assassin, tome 1",
+    title: 'Le Fou et l\'Assassin',
     author: 'Robin Hobb',
-    readDate: '',
+    readDate: '2024-06-01',
     rating: 0,
     readTimes: 1,
     owned: false,
     readPriority: 1,
   },
   {
-    title: "Le fou et l'assassin, tome 2 : La fille de l'assassin",
+    title: 'La Fille de l\'Assassin',
     author: 'Robin Hobb',
-    readDate: '',
+    readDate: '2024-06-12',
     rating: 0,
     readTimes: 1,
     owned: false,
     readPriority: 1,
   },
   {
-    title: "Le fou et l'assassin, tome 3 : En quête de vengeance",
+    title: 'En Quête de Vengeance',
     author: 'Robin Hobb',
-    readDate: '',
+    readDate: '2024-06-20',
     rating: 0,
     readTimes: 1,
     owned: false,
     readPriority: 1,
   },
   {
-    title: "Le fou et l'assassin, tome 4 : Le retour de l'assassin",
+    title: 'Le Retour de l\'Assassin',
     author: 'Robin Hobb',
-    readDate: '',
+    readDate: '2024-07-02',
     rating: 0,
     readTimes: 1,
     owned: false,
     readPriority: 1,
   },
   {
-    title: "Le fou et l'assassin, tome 5 : Sur les rives de l'Art",
+    title: 'Sur les Rives de l\'Art',
     author: 'Robin Hobb',
-    readDate: '',
+    readDate: '2024-07-10',
     rating: 0,
     readTimes: 1,
     owned: false,
     readPriority: 1,
   },
   {
-    title: "Le fou et l'assassin, tome 6 : Le destin de l'assassin",
+    title: 'Le Destin de l\'Assassin',
     author: 'Robin Hobb',
-    readDate: '',
+    readDate: '2024-07-18',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -371,34 +362,34 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "Nevernight, tome 1 : N'oublie jamais",
+    title: 'N\'oublie Jamais',
     author: 'Jay Kristoff',
-    readDate: '',
+    readDate: '2024-08-15',
     rating: 4.5,
     readTimes: 1,
     owned: false,
     readPriority: 1,
   },
   {
-    title: 'Nevernight, tome 2 : Les grands jeux',
+    title: 'Les Grands Jeux',
     author: 'Jay Kristoff',
-    readDate: '',
+    readDate: '2024-08-25',
     rating: 5,
     readTimes: 1,
     owned: false,
     readPriority: 1,
   },
   {
-    title: "Nevernight, tome 3 : L'aube obscure",
+    title: 'L\'Aube Obscure',
     author: 'Jay Kristoff',
-    readDate: '',
+    readDate: '2024-09-05',
     rating: 4.5,
     readTimes: 1,
     owned: false,
     readPriority: 1,
   },
   {
-    title: "Fils des brumes, tome 1 : L'Empire ultime",
+    title: 'Fils des brumes, tome 1 : L\'Empire ultime',
     author: 'Brandon Sanderson',
     readDate: '',
     rating: 5,
@@ -407,7 +398,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "Fils des brumes, tome 2 : Le puits de l'ascension",
+    title: 'Fils des brumes, tome 2 : Le puits de l\'ascension',
     author: 'Brandon Sanderson',
     readDate: '',
     rating: 5,
@@ -427,7 +418,7 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Les Voleurs de fumée, tome 1',
     author: 'Sally Green',
-    readDate: '',
+    readDate: '2024-08-07',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -452,7 +443,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "L'Ange de la Nuit, Tome 1 : La Voie des ombres",
+    title: 'L\'Ange de la Nuit, Tome 1 : La Voie des ombres',
     author: 'Brent Weeks',
     readDate: '',
     rating: 0,
@@ -461,9 +452,9 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "Le royaume de Pierre d'Angle, tome 1 : L'art du naufrage",
+    title: 'Le royaume de Pierre d\'Angle, tome 1 : L\'art du naufrage',
     author: 'Mark Lawrence',
-    readDate: '',
+    readDate: '2024-08-01',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -533,7 +524,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "L'Enfant de Poussière",
+    title: 'L\'Enfant de Poussière',
     author: 'Patrick K. Dewdney',
     readDate: '2025-01-15',
     rating: 3,
@@ -578,7 +569,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "Les faucons de Raverra, tome 2 : L'héritière rebelle",
+    title: 'Les faucons de Raverra, tome 2 : L\'héritière rebelle',
     author: 'Melissa Caruso',
     readDate: '',
     rating: 5,
@@ -587,7 +578,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "Les faucons de Raverra, tome 3 : L'empire libéré",
+    title: 'Les faucons de Raverra, tome 3 : L\'empire libéré',
     author: 'Melissa Caruso',
     readDate: '',
     rating: 5,
@@ -596,72 +587,72 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: 'Les archives de Roshar, tome 1 : La voie des rois (1/2)',
+    title: 'La Voie des Rois (1/2)',
     author: 'Brandon Sanderson',
-    readDate: '',
+    readDate: '2024-09-25',
     rating: 5,
     readTimes: 1,
     owned: false,
     readPriority: 1,
   },
   {
-    title: 'Les archives de Roshar, tome 1 : La voie des rois (2/2)',
+    title: 'La Voie des Rois (2/2)',
     author: 'Brandon Sanderson',
-    readDate: '',
+    readDate: '2024-10-05',
     rating: 4.5,
     readTimes: 1,
     owned: false,
     readPriority: 1,
   },
   {
-    title: 'Les archives de Roshar, tome 2 : Le livre des Radieux (1/2)',
+    title: 'Le livre des Radieux (1/2)',
     author: 'Brandon Sanderson',
-    readDate: '',
+    readDate: '2024-10-15',
     rating: 4,
     readTimes: 1,
     owned: false,
     readPriority: 1,
   },
   {
-    title: 'Les archives de Roshar, tome 2 : Le livre des Radieux (2/2)',
+    title: 'Le Livre des Radieux (2/2)',
     author: 'Brandon Sanderson',
-    readDate: '',
+    readDate: '2024-10-25',
     rating: 4,
     readTimes: 1,
     owned: false,
     readPriority: 1,
   },
   {
-    title: 'Les archives de Roshar, tome 3 : Justicière (1/2)',
+    title: 'Justicière (1/2)',
     author: 'Brandon Sanderson',
-    readDate: '',
+    readDate: '2024-11-05',
     rating: 4.5,
     readTimes: 1,
     owned: false,
     readPriority: 1,
   },
   {
-    title: 'Les archives de Roshar, tome 3 : Justicière (2/2)',
+    title: 'Justicière (2/2)',
     author: 'Brandon Sanderson',
-    readDate: '',
+    readDate: '2024-11-15',
     rating: 4.5,
     readTimes: 1,
     owned: false,
     readPriority: 1,
   },
   {
-    title: 'Les archives de Roshar, tome 4 : Rythme de guerre (1/2)',
+    title: 'Rythme de Guerre (1/2)',
     author: 'Brandon Sanderson',
-    readDate: '',
+    readDate: '2024-11-25',
     rating: 4.5,
     readTimes: 1,
     owned: false,
     readPriority: 1,
   },
   {
-    title: 'Les archives de Roshar, tome 4 : Rythme de guerre (2/2)',
+    title: 'Rythme de Guerre (2/2)',
     author: 'Brandon Sanderson',
-    readDate: '',
+    readDate: '2024-12-01',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -724,7 +715,7 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Le Livre des Martyrs, tome 1 : Les Jardins de la Lune',
     author: 'Steven Erikson',
-    readDate: '',
+    readDate: '2024-05-01',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -733,7 +724,7 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Le livre des martyrs, tome 2 : Les portes de la maison des morts',
     author: 'Steven Erikson',
-    readDate: '',
+    readDate: '2024-09-15',
     rating: 5,
     readTimes: 1,
     owned: false,
@@ -767,7 +758,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "Wax et Wayne, tome 1 : L'alliage de la justice",
+    title: 'Wax et Wayne, tome 1 : L\'alliage de la justice',
     author: 'Brandon Sanderson',
     readDate: '',
     rating: 4,
@@ -794,16 +785,16 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "Les Princes d'Ambre - Cycle 1",
+    title: 'Les Princes d\'Ambre - Cycle 1',
     author: 'Roger Zelazny',
-    readDate: '',
+    readDate: '2024-07-25',
     rating: 2,
     readTimes: 1,
     owned: false,
     readPriority: 1,
   },
   {
-    title: "Le Trône du Dragon",
+    title: 'Le Trône du Dragon',
     author: 'Tad Williams',
     readDate: '2025-07-07',
     rating: 3.5,
@@ -812,7 +803,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "Le Roi de l'Orage",
+    title: 'Le Roi de l\'Orage',
     author: 'Tad Williams',
     readDate: '2025-07-15',
     rating: 4,
@@ -821,7 +812,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "La Maison de l'Ancêtre",
+    title: 'La Maison de l\'Ancêtre',
     author: 'Tad Williams',
     readDate: '2025-07-23',
     rating: 4.5,
@@ -830,7 +821,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "La Pierre de l'Adieu",
+    title: 'La Pierre de l\'Adieu',
     author: 'Tad Williams',
     readDate: '2025-08-01',
     rating: 4,
@@ -839,7 +830,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "Le Livre du Nécromant",
+    title: 'Le Livre du Nécromant',
     author: 'Tad Williams',
     readDate: '2025-08-07',
     rating: 3.5,
@@ -848,7 +839,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "Le Cri de Camaris",
+    title: 'Le Cri de Camaris',
     author: 'Tad Williams',
     readDate: '2025-08-13',
     rating: 4.5,
@@ -857,7 +848,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "L'Ombre de la Roue",
+    title: 'L\'Ombre de la Roue',
     author: 'Tad Williams',
     readDate: '2025-08-20',
     rating: 4.5,
@@ -866,7 +857,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "La Tour de l'Ange Vert",
+    title: 'La Tour de l\'Ange Vert',
     author: 'Tad Williams',
     readDate: '2025-08-30',
     rating: 3.5,
@@ -875,7 +866,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "Tuer la Reine",
+    title: 'Tuer la Reine',
     author: 'Jennifer Estep',
     readDate: '2024-12-07',
     rating: 2.5,
@@ -884,7 +875,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "Défendre le Prince",
+    title: 'Défendre le Prince',
     author: 'Jennifer Estep',
     readDate: '2024-12-15',
     rating: 2.5,
@@ -893,7 +884,7 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: "Écraser le roi",
+    title: 'Écraser le roi',
     author: 'Jennifer Estep',
     readDate: '2024-12-25',
     rating: 2.5,
@@ -901,7 +892,6 @@ export const kevinBooks: UserBooks = [
     owned: false,
     readPriority: 1,
   },
-
   {
     title: 'Un jour de nuit tombée',
     author: 'Samantha Shannon',
@@ -911,7 +901,6 @@ export const kevinBooks: UserBooks = [
     owned: true,
     readPriority: 1,
   },
-
   {
     title: 'Le Prieuré de l\'Oranger',
     author: 'Samantha Shannon',
@@ -921,7 +910,6 @@ export const kevinBooks: UserBooks = [
     owned: true,
     readPriority: 1,
   },
-
   {
     title: 'La Tempête des Echos',
     author: 'Christelle Dabos',
@@ -931,7 +919,6 @@ export const kevinBooks: UserBooks = [
     owned: true,
     readPriority: 1,
   },
-
   {
     title: 'La Mémoire de Babel',
     author: 'Christelle Dabos',
@@ -941,7 +928,6 @@ export const kevinBooks: UserBooks = [
     owned: true,
     readPriority: 1,
   },
-
   {
     title: 'Les Disparus du Clairdelune',
     author: 'Christelle Dabos',
@@ -951,7 +937,6 @@ export const kevinBooks: UserBooks = [
     owned: true,
     readPriority: 1,
   },
-
   {
     title: 'Les Fiancés de l\'Hiver',
     author: 'Christelle Dabos',
@@ -961,7 +946,6 @@ export const kevinBooks: UserBooks = [
     owned: true,
     readPriority: 1,
   },
-
   {
     title: 'Le Retour du Hiérophante',
     author: 'Robert Jackson Bennett',
@@ -971,7 +955,6 @@ export const kevinBooks: UserBooks = [
     owned: true,
     readPriority: 1,
   },
-
   {
     title: 'Les Terres Closes',
     author: 'Robert Jackson Bennett',
@@ -980,5 +963,5 @@ export const kevinBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
-  },
+  }
 ];
