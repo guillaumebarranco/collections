@@ -51,13 +51,6 @@
     <p class="book-author">{{ book.author }}</p>
     @if (book.pages) {
     <p class="book-pages">{{ book.pages }} pages</p>
-    } @if (book.nbTomes) {
-    <p>
-      <span class="book-pages">{{ book.nbTomes }} tomes</span>
-      @if(!book.isFinished) {
-      <span class="book-pages"> (En cours)</span>
-      }
-    </p>
     } @if (book.readDate.includes('-') && !isBaseEntityView) {
     <p class="book-read-times">
       Lu le {{ book.readDate | date : "dd/MM/yyyy" }}

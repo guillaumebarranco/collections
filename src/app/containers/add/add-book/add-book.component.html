@@ -89,18 +89,6 @@
         />
       </div>
 
-      <div class="form-row">
-        <label for="nbTomes">Nombre de tomes</label>
-        <input
-          id="nbTomes"
-          type="number"
-          min="0"
-          [ngModel]="entityForm().nbTomes"
-          (ngModelChange)="updateEntityField('nbTomes', $event)"
-          name="nbTomes"
-        />
-      </div>
-
       <div class="form-row checkbox-row">
         <label for="isFinished">Saga terminée</label>
         <input
@@ -191,9 +179,7 @@
         />
       </div>
     </section>
-    }
-
-    @if(errorMessage()) {
+    } @if(errorMessage()) {
     <p class="error-message">{{ errorMessage() }}</p>
     }
 
@@ -202,7 +188,7 @@
         Annuler
       </button>
       <button type="submit" class="btn primary" [disabled]="isSaving()">
-        {{ isSaving() ? 'Ajout...' : 'Ajouter' }}
+        {{ isSaving() ? "Ajout..." : "Ajouter" }}
       </button>
     </div>
   </form>

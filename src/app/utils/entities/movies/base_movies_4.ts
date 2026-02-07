@@ -160,7 +160,11 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Oblivion',
     director: 'Joseph Kosinski',
-    actors: [{ name: 'Tom Cruise' }],
+    actors: [
+      { name: 'Tom Cruise' },
+      { name: 'Morgan Freeman' },
+      { name: 'Andrea Riseborough' },
+    ],
     coverUrl: '/movies_pictures/62108-oblivion-0-150-0-225-crop.jpg',
     releaseDate: '2013-04-19',
     length: 124,

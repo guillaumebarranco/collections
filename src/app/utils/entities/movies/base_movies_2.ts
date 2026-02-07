@@ -991,7 +991,11 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Million Dollar Baby',
     director: 'Clint Eastwood',
-    actors: [{ name: 'Hilary Swank' }],
+    actors: [
+      { name: 'Hilary Swank' },
+      { name: 'Morgan Freeman' },
+      { name: 'Clint Eastwood' },
+    ],
     coverUrl: '/movies_pictures/51979-million-dollar-baby-0-150-0-225-crop.jpg',
     releaseDate: '2004-12-15',
     length: 132,

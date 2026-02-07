@@ -43,7 +43,7 @@ export const baseMoviesDc: BaseMovie[] = [
       },
       {
         name: 'Jim Carrey',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/51678-batman-forever-0-150-0-225-crop.jpg',
     releaseDate: '1995-06-16',
@@ -60,7 +60,7 @@ export const baseMoviesDc: BaseMovie[] = [
       },
       {
         name: 'Arnold Schwarzenegger',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/batman_and_robin.jpg',
     releaseDate: '1997-06-20',
@@ -77,7 +77,19 @@ export const baseMoviesDc: BaseMovie[] = [
       },
       {
         name: 'Liam Neeson',
-      }
+      },
+      {
+        name: 'Morgan Freeman',
+      },
+      {
+        name: 'Gary Oldman',
+      },
+      {
+        name: 'Cillian Murphy',
+      },
+      {
+        name: 'Michael Caine',
+      },
     ],
     coverUrl: '/movies_pictures/51784-batman-begins-0-150-0-225-crop.jpg',
     releaseDate: '2005-06-15',
@@ -93,8 +105,17 @@ export const baseMoviesDc: BaseMovie[] = [
         name: 'Christian Bale',
       },
       {
+        name: 'Morgan Freeman',
+      },
+      {
+        name: 'Gary Oldman',
+      },
+      {
+        name: 'Michael Caine',
+      },
+      {
         name: 'Heath Ledger',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/the_dark_knight.jpg',
     releaseDate: '2008-07-18',
@@ -114,7 +135,16 @@ export const baseMoviesDc: BaseMovie[] = [
       },
       {
         name: 'Anne Hathaway',
-      }
+      },
+      {
+        name: 'Morgan Freeman',
+      },
+      {
+        name: 'Gary Oldman',
+      },
+      {
+        name: 'Michael Caine',
+      },
     ],
     coverUrl:
       '/movies_pictures/16550-the-dark-knight-rises-0-150-0-225-crop.jpg',
@@ -132,7 +162,7 @@ export const baseMoviesDc: BaseMovie[] = [
       },
       {
         name: 'Paul Dano',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/348914-the-batman-0-150-0-225-crop.jpg',
     releaseDate: '2022-03-04',
@@ -158,7 +188,7 @@ export const baseMoviesDc: BaseMovie[] = [
       },
       {
         name: 'Jeremy Irons',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/batman_v_superman.jpg',
     releaseDate: '2016-03-25',
@@ -172,7 +202,7 @@ export const baseMoviesDc: BaseMovie[] = [
     actors: [
       {
         name: 'Zachary Levi',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/213190-shazam--0-150-0-225-crop.jpg',
     releaseDate: '2019-04-05',
@@ -186,7 +216,7 @@ export const baseMoviesDc: BaseMovie[] = [
     actors: [
       {
         name: 'Jason Momoa',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/225060-aquaman-0-150-0-225-crop.jpg',
     releaseDate: '2018-12-21',
@@ -203,7 +233,7 @@ export const baseMoviesDc: BaseMovie[] = [
       },
       {
         name: 'Pierce Brosnan',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/369179-black-adam-0-150-0-225-crop.jpg',
     releaseDate: '2022-10-21',
@@ -226,7 +256,7 @@ export const baseMoviesDc: BaseMovie[] = [
       },
       {
         name: 'Jeremy Irons',
-      }
+      },
     ],
     coverUrl:
       '/movies_pictures/709530-zack-snyder-s-justice-league-0-150-0-225-crop.jpg',
@@ -244,7 +274,7 @@ export const baseMoviesDc: BaseMovie[] = [
       },
       {
         name: 'Margot Robbie',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/suicide_squad.jpg',
     releaseDate: '2016-08-05',
@@ -258,7 +288,7 @@ export const baseMoviesDc: BaseMovie[] = [
     actors: [
       {
         name: 'Henry Cavill',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/man_of_steel.jpg',
     releaseDate: '2013-06-14',
@@ -278,7 +308,7 @@ export const baseMoviesDc: BaseMovie[] = [
       },
       {
         name: 'Nicholas Hoult',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/superman_2025.jpg',
     releaseDate: '2025-07-11',
@@ -312,7 +342,7 @@ export const baseMoviesDc: BaseMovie[] = [
     actors: [
       {
         name: 'Gal Gadot',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/225027-wonder-woman-0-150-0-225-crop.jpg',
     releaseDate: '2017-06-02',
@@ -326,7 +356,7 @@ export const baseMoviesDc: BaseMovie[] = [
     actors: [
       {
         name: 'Gal Gadot',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/395731-wonder-woman-1984-0-150-0-225-crop.jpg',
     releaseDate: '2020-12-25',
@@ -340,7 +370,7 @@ export const baseMoviesDc: BaseMovie[] = [
     actors: [
       {
         name: 'Ezra Miller',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/225845-the-flash-0-150-0-225-crop.jpg',
     releaseDate: '2023-06-16',
@@ -354,7 +384,7 @@ export const baseMoviesDc: BaseMovie[] = [
     actors: [
       {
         name: 'Margot Robbie',
-      }
+      },
     ],
     coverUrl:
       '/movies_pictures/426131-birds-of-prey-and-the-fantabulous-emancipation-of-one-har-0-150-0-225-crop.jpg',

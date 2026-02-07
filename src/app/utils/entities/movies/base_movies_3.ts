@@ -542,7 +542,11 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Wanted : Choisis ton Destin',
     director: 'Timur Bekmambetov',
-    actors: [{ name: 'James McAvoy' }],
+    actors: [
+      { name: 'James McAvoy' },
+      { name: 'Morgan Freeman' },
+      { name: 'Angelina Jolie' },
+    ],
     coverUrl: '/movies_pictures/wanted.jpg',
     releaseDate: '2008-06-27',
     length: 110,
@@ -622,7 +626,13 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Gone Baby Gone',
     director: 'Ben Affleck',
-    actors: [{ name: 'Casey Affleck' }],
+    actors: [
+      { name: 'Casey Affleck' },
+      { name: 'Morgan Freeman' },
+      { name: 'Amy Ryan' },
+      { name: 'Michelle Monaghan' },
+      { name: 'John Dennehy' },
+    ],
     coverUrl: '/movies_pictures/gone_baby_gone.jpg',
     releaseDate: '2007-10-19',
     length: 114,

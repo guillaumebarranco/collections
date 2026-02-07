@@ -12,8 +12,7 @@ type AddBookEntityForm = {
   genre: string;
   saga: string;
   sagaOrder: number;
-  nbTomes: number;
-  isFinished: boolean;
+  sagaFinished: boolean;
 };
 
 type AddBookUserForm = {
@@ -53,8 +52,7 @@ export class AddBookComponent {
     genre: '',
     saga: '',
     sagaOrder: 0,
-    nbTomes: 0,
-    isFinished: true,
+    sagaFinished: true,
   });
 
   userForm = signal<AddBookUserForm>({
@@ -75,7 +73,7 @@ export class AddBookComponent {
   ) {
     const current = this.entityForm();
     let nextValue: AddBookEntityForm[K] = value as AddBookEntityForm[K];
-    if (field === 'pages' || field === 'sagaOrder' || field === 'nbTomes') {
+    if (field === 'pages' || field === 'sagaOrder') {
       const asNumber = Number(value);
       nextValue = (
         Number.isNaN(asNumber) ? 0 : asNumber
@@ -107,7 +105,7 @@ export class AddBookComponent {
     });
   }
 
-  updateCheckbox(field: 'isFinished', checked: boolean) {
+  updateCheckbox(field: 'sagaFinished', checked: boolean) {
     const current = this.entityForm();
     this.entityForm.set({
       ...current,

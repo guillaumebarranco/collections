@@ -856,6 +856,18 @@ export const baseMoviesPage5: BaseMovie[] = [
       {
         name: 'Bruce Willis',
       },
+      {
+        name: 'Josh Hartnett',
+      },
+      {
+        name: 'Ben Kingsley',
+      },
+      {
+        name: 'Morgan Freeman',
+      },
+      {
+        name: 'James Caan',
+      },
     ],
     coverUrl: '/movies_pictures/18646042.jpg',
     releaseDate: '2006-04-07',
@@ -1258,6 +1270,9 @@ export const baseMoviesPage5: BaseMovie[] = [
     actors: [
       {
         name: 'Matt Damon',
+      },
+      {
+        name: 'Morgan Freeman',
       },
     ],
     coverUrl: '/movies_pictures/unnamed (1).jpg',

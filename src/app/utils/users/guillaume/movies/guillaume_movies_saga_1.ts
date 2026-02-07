@@ -914,7 +914,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     watchPriority: 1,
   },
   {
-    title: 'Inssaisissables',
+    title: 'Insaisissables',
     director: 'Louis Leterrier',
     rating: 4.5,
     timesWatched: 3,
@@ -926,7 +926,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     watchPriority: 1,
   },
   {
-    title: 'Inssaisissables 2',
+    title: 'Insaisissables 2',
     director: 'Jon M. Chu',
     rating: 3.25,
     timesWatched: 1,

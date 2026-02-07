@@ -1041,7 +1041,13 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'RED',
     director: 'Robert Schwentke',
-    actors: [{ name: 'Bruce Willis' }],
+    actors: [
+      { name: 'Bruce Willis' },
+      { name: 'Morgan Freeman' },
+      { name: 'John Malkovich' },
+      { name: 'Mary-Louise Parker' },
+      { name: 'Helen Mirren' },
+    ],
     coverUrl: '/movies_pictures/25175-red-0-150-0-225-crop.jpg',
     releaseDate: '2010-10-15',
     length: 111,

@@ -2223,7 +2223,7 @@ export const amandineMovies1: UserMovies = [
     watchPriority: 1,
   },
   {
-    title: 'Inssaisissables',
+    title: 'Insaisissables',
     director: 'Louis Leterrier',
     rating: 0,
     timesWatched: 1,

@@ -10853,7 +10853,7 @@ export const ronanMovies: UserMovies = [
     watchPriority: 1,
   },
   {
-    title: 'Inssaisissables 2',
+    title: 'Insaisissables 2',
     director: 'Jon M. Chu',
     rating: 3,
     timesWatched: 3,
