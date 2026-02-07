@@ -90,13 +90,13 @@
       </div>
 
       <div class="form-row checkbox-row">
-        <label for="isFinished">Saga terminée</label>
+        <label for="sagaFinished">Saga terminée</label>
         <input
-          id="isFinished"
+          id="sagaFinished"
           type="checkbox"
-          [checked]="entityForm().isFinished"
-          (change)="updateCheckbox('isFinished', $any($event).target.checked)"
-          name="isFinished"
+          [checked]="entityForm().sagaFinished"
+          (change)="updateCheckbox('sagaFinished', $any($event).target.checked)"
+          name="sagaFinished"
         />
       </div>
     </section>
