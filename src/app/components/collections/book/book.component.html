@@ -94,6 +94,9 @@
         }
       </div>
     </div>
+    <button class="makya-btn" (click)="addBookFromReadlist()">
+      J'ai lu ce livre
+    </button>
     } @if (showAddToReadlistButton && !isBaseEntityView) { @if(!isInReadlist) {
     <button class="makya-btn-small" (click)="addToReadlist.emit(book)">
       Ajouter à ma readlist

@@ -187,14 +187,15 @@
     <div class="books">
       @for (book of sortedBooks(); track book.title) {
       <div class="book-card">
-        <app-book
-          [book]="book"
-          [quizzs]="quizzs()"
-          [isReadlistView]="selectedView() === 'readlist'"
-          (editRequested)="openEditBookDialog(book)"
-          (openQuizz)="openQuizzModal($event)"
-          (readPriorityUpdated)="updateReadPriority($event)"
-        ></app-book>
+          <app-book
+            [book]="book"
+            [quizzs]="quizzs()"
+            [isReadlistView]="selectedView() === 'readlist'"
+            (editRequested)="openEditBookDialog(book)"
+            (openQuizz)="openQuizzModal($event)"
+            (readPriorityUpdated)="updateReadPriority($event)"
+            (bookUpdated)="refreshBooks()"
+          ></app-book>
       </div>
       }
     </div>

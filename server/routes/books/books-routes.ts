@@ -10,6 +10,7 @@ const addBookRouter = require('./add-book');
 const addExistingRouter = require('./add-existing');
 const deleteBookRouter = require('./delete-book');
 const othersRatedRouter = require('./get-others-users-books-rated');
+const moveBookFromReadlistRouter = require('./move-book-from-readlist-to-read');
 
 const router = express.Router();
 
@@ -24,6 +25,7 @@ router.use(batchOwnedRouter);
 router.use(addBookRouter);
 router.use(addExistingRouter);
 router.use(deleteBookRouter);
+router.use(moveBookFromReadlistRouter);
 
 module.exports = router;
 

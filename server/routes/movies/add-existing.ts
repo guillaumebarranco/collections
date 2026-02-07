@@ -40,7 +40,9 @@ function ensureUserExists(userId: string) {
   const shouldBuild =
     process.env['MAKYA_BUILD'] === 'true' ||
     process.env['NODE_ENV'] === 'production';
-  const args = shouldBuild ? [createUserScript, userId, '--build'] : [createUserScript, userId];
+  const args = shouldBuild
+    ? [createUserScript, userId, '--build']
+    : [createUserScript, userId];
   execFileSync('node', args, { stdio: 'ignore' });
 }
 
@@ -53,7 +55,7 @@ function formatUserMovie(movie: any) {
     movie.title
   )}',\n    director: '${escapeString(
     movie.director
-  )}',\n    rating: 0,\n    timesWatched: 1,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 0,\n  },`;
+  )}',\n    rating: 0,\n    timesWatched: 1,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n  },`;
 }
 
 function formatWatchlistMovie(movie: any) {
@@ -61,7 +63,7 @@ function formatWatchlistMovie(movie: any) {
     movie.title
   )}',\n    director: '${escapeString(
     movie.director
-  )}',\n    rating: 0,\n    timesWatched: 0,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 0,\n  },`;
+  )}',\n    rating: 0,\n    timesWatched: 0,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n  },`;
 }
 
 function getUserMoviesTargetFile(userId: string, isWatchlist: boolean) {

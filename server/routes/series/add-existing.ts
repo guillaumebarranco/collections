@@ -41,7 +41,9 @@ function ensureUserExists(userId: string) {
   const shouldBuild =
     process.env['MAKYA_BUILD'] === 'true' ||
     process.env['NODE_ENV'] === 'production';
-  const args = shouldBuild ? [createUserScript, userId, '--build'] : [createUserScript, userId];
+  const args = shouldBuild
+    ? [createUserScript, userId, '--build']
+    : [createUserScript, userId];
   execFileSync('node', args, { stdio: 'ignore' });
 }
 
@@ -78,7 +80,7 @@ function formatUserSerie(serie: any) {
     director: '${escapeString(serie.director)}',
 ${formatSeasons(seasons)}
     owned: false,
-    watchPriority: 0,
+    watchPriority: 1,
   },`;
 }
 
@@ -89,7 +91,7 @@ function formatWatchlistSerie(serie: any) {
     director: '${escapeString(serie.director)}',
 ${formatSeasons(seasons)}
     owned: false,
-    watchPriority: 0,
+    watchPriority: 1,
   },`;
 }
 

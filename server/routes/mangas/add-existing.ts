@@ -41,7 +41,9 @@ function ensureUserExists(userId: string) {
   const shouldBuild =
     process.env['MAKYA_BUILD'] === 'true' ||
     process.env['NODE_ENV'] === 'production';
-  const args = shouldBuild ? [createUserScript, userId, '--build'] : [createUserScript, userId];
+  const args = shouldBuild
+    ? [createUserScript, userId, '--build']
+    : [createUserScript, userId];
   execFileSync('node', args, { stdio: 'ignore' });
 }
 
@@ -50,7 +52,7 @@ function formatUserManga(manga: any) {
     manga.title
   )}',\n    author: '${escapeString(
     manga.author
-  )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n    readPriority: 0,\n  },`;
+  )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n    readPriority: 1,\n  },`;
 }
 
 function getUserMangasTargetFile(userId: string, isReadlist: boolean) {

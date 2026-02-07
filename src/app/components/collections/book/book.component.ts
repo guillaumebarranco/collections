@@ -13,7 +13,7 @@ import { EntityCardComponent } from '../../entity-card/entity-card.component';
 import { AuthService } from '../../../core/auth.service';
 import { Quizz, EntityType } from '../../../models/quizz-model';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
-import { isBaseEntityView } from '../../../core/config';
+import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -49,6 +49,7 @@ export class BookComponent {
     book: any;
     priority: number;
   }>();
+  @Output() bookUpdated = new EventEmitter<void>();
 
   isBaseEntityView = isBaseEntityView();
 
@@ -94,5 +95,43 @@ export class BookComponent {
 
   updateReadPriority(priority: number): void {
     this.readPriorityUpdated.emit({ book: this.book, priority });
+  }
+
+  private getActiveUserId(): string {
+    const params = this.activatedRoute.snapshot.params;
+    return params['id'] ?? 'guillaume';
+  }
+
+  async addBookFromReadlist(): Promise<void> {
+    try {
+      const response = await fetch(
+        `${getApiBaseUrl()}/books/move-book-from-readlist-to-read`,
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            userId: this.getActiveUserId(),
+            books: [this.book],
+            readlist: false,
+          }),
+        }
+      );
+
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn(
+          "Échec de l'ajout batch des livres :",
+          payload?.error || response.statusText
+        );
+        return;
+      }
+
+      // Émettre un événement pour rafraîchir la liste
+      this.bookUpdated.emit();
+    } catch (error) {
+      console.warn("Erreur réseau lors de l'ajout batch des livres.", error);
+    }
   }
 }

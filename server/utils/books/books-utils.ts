@@ -568,6 +568,7 @@ function removeBookFromFile(content: string, payload: any) {
     rating: ${book.rating ?? 0},
     readTimes: ${book.readTimes ?? 0},
     owned: ${book.owned ?? false},
+    readPriority: ${book.readPriority ?? 0},
   }`
     )
     .join(',\n');

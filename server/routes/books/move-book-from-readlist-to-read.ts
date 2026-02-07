@@ -8,6 +8,8 @@ const {
   appendObjectToArrayFile,
   parseBooksFromFile,
   getUserBooksFiles,
+  removeBookFromFile,
+  getUserReadlistBooksFiles,
 } = require('../../utils/books/books-utils');
 
 const router = express.Router();
@@ -46,16 +48,32 @@ function ensureUserExists(userId: string) {
   execFileSync('node', args, { stdio: 'ignore' });
 }
 
-function escapeString(value: string) {
-  return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+function formatUserBook(book: any) {
+  return `  {
+    title: '${escapeString(book.title)}',
+    author: '${escapeString(book.author)}',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+  },`;
 }
 
-function formatUserBook(book: any) {
-  return `  {\n    title: '${escapeString(
-    book.title
-  )}',\n    author: '${escapeString(
-    book.author
-  )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n    readPriority: 1,\n  },`;
+function formatReadlistBook(book: any) {
+  return `  {
+    title: '${escapeString(book.title)}',
+    author: '${escapeString(book.author)}',
+    readDate: '',
+    rating: 0,
+    readTimes: 0,
+    owned: false,
+    readPriority: ${book.readPriority ?? 0},
+  },`;
+}
+
+function escapeString(value: string) {
+  return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
 }
 
 function getUserBooksTargetFile(userId: string, isReadlist: boolean) {
@@ -95,7 +113,7 @@ function getUserBooksTargetFile(userId: string, isReadlist: boolean) {
   return path.join(userDir, selected);
 }
 
-router.post('/add-existing', (req: any, res: any) => {
+router.post('/move-book-from-readlist-to-read', (req: any, res: any) => {
   try {
     const input = req.body || {};
     const userId = normalizeString(input.userId, 'userId');
@@ -144,9 +162,39 @@ router.post('/add-existing', (req: any, res: any) => {
 
     const userFile = getUserBooksTargetFile(userId, isReadlist);
     let nextContent = fs.readFileSync(userFile, 'utf8');
+    const formatBook = isReadlist ? formatReadlistBook : formatUserBook;
     for (const book of toAdd) {
-      nextContent = appendObjectToArrayFile(userFile, formatUserBook(book));
+      nextContent = appendObjectToArrayFile(userFile, formatBook(book));
       fs.writeFileSync(userFile, nextContent, 'utf8');
+    }
+
+    const readlistFiles = getUserReadlistBooksFiles(userId);
+
+    let updatedFile: string | null = null;
+
+    const title = normalizeString(toAdd[0].title, 'title');
+    const author = normalizeString(toAdd[0].author, 'author');
+
+    for (const bookFile of readlistFiles) {
+      const fileContent = fs.readFileSync(bookFile, 'utf8');
+      try {
+        const updatedContent = removeBookFromFile(fileContent, {
+          title,
+          author,
+        });
+        fs.writeFileSync(bookFile, updatedContent, 'utf8');
+        updatedFile = bookFile;
+        break;
+      } catch (error: any) {
+        if (error.message !== 'Book not found') {
+          throw error;
+        }
+      }
+    }
+
+    if (!updatedFile) {
+      res.status(404).json({ error: 'Book not found' });
+      return;
     }
 
     res.json({

@@ -487,7 +487,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
-    readPriority: 0,
+    readPriority: 1,
   },
 
   {
@@ -497,7 +497,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
-    readPriority: 0,
+    readPriority: 1,
   },
   {
     title: 'Da Vinci Code',
