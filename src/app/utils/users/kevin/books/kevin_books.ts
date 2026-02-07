@@ -443,9 +443,9 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
   },
   {
-    title: 'Les Maîtres enlumineurs, tome 1',
-    author: 'David Moody',
-    readDate: '',
+    title: 'Les Maîtres Enlumineurs',
+    author: 'Robert Jackson Bennett',
+    readDate: '2025-08-05',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -919,6 +919,66 @@ export const kevinBooks: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
+    readPriority: 1,
+  },
+
+  {
+    title: 'La Tempête des Echos',
+    author: 'Christelle Dabos',
+    readDate: '2025-09-30',
+    rating: 4,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+  },
+
+  {
+    title: 'La Mémoire de Babel',
+    author: 'Christelle Dabos',
+    readDate: '2025-09-20',
+    rating: 4,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+  },
+
+  {
+    title: 'Les Disparus du Clairdelune',
+    author: 'Christelle Dabos',
+    readDate: '2025-09-10',
+    rating: 4.5,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+  },
+
+  {
+    title: 'Les Fiancés de l\'Hiver',
+    author: 'Christelle Dabos',
+    readDate: '2025-09-01',
+    rating: 4,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+  },
+
+  {
+    title: 'Le Retour du Hiérophante',
+    author: 'Robert Jackson Bennett',
+    readDate: '2025-08-15',
+    rating: 4.5,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+  },
+
+  {
+    title: 'Les Terres Closes',
+    author: 'Robert Jackson Bennett',
+    readDate: '2025-08-30',
+    rating: 4.5,
+    readTimes: 1,
+    owned: false,
     readPriority: 1,
   },
 ];

@@ -333,15 +333,15 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
   },
   {
-    title: 'Les Maîtres enlumineurs, tome 1',
-    author: 'David Moody',
+    title: 'Les Maîtres Enlumineurs',
+    author: 'Robert Jackson Bennett',
     coverUrl:
       '/books_pictures/les_maitres_enlumineurs_tome_1-1482893-264-432.jpg',
-    pages: 400,
+    pages: 768,
     genre: 'Fantasy',
-    saga: 'Les Maîtres enlumineurs',
+    saga: 'Les Maîtres Enlumineurs',
     sagaOrder: 1,
-    sagaFinished: false,
+    sagaFinished: true,
   },
   {
     title: "L'Ange de la Nuit, Tome 1 : La Voie des ombres",
