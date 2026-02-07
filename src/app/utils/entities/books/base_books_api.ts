@@ -10,6 +10,7 @@ export const baseBooksApi: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
 
   {
@@ -21,6 +22,7 @@ export const baseBooksApi: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
 
   {
@@ -33,6 +35,7 @@ export const baseBooksApi: BaseBook[] = [
     saga: 'Le Monde de Narnia',
     sagaOrder: 3,
     sagaFinished: false,
+    releaseDate: '',
   },
 
   {
@@ -45,6 +48,7 @@ export const baseBooksApi: BaseBook[] = [
     saga: "Le Prieuré de l'Oranger",
     sagaOrder: 2,
     sagaFinished: true,
+    releaseDate: '',
   },
 
   {
@@ -57,6 +61,7 @@ export const baseBooksApi: BaseBook[] = [
     saga: "Le Prieuré de l'Oranger",
     sagaOrder: 1,
     sagaFinished: true,
+    releaseDate: '',
   },
 
   {
@@ -69,6 +74,7 @@ export const baseBooksApi: BaseBook[] = [
     saga: 'La Passe-Miroir',
     sagaOrder: 4,
     sagaFinished: true,
+    releaseDate: '',
   },
 
   {
@@ -81,6 +87,7 @@ export const baseBooksApi: BaseBook[] = [
     saga: 'La Passe-Miroir',
     sagaOrder: 3,
     sagaFinished: true,
+    releaseDate: '',
   },
 
   {
@@ -93,6 +100,7 @@ export const baseBooksApi: BaseBook[] = [
     saga: 'La Passe-Miroir',
     sagaOrder: 2,
     sagaFinished: true,
+    releaseDate: '',
   },
 
   {
@@ -105,6 +113,7 @@ export const baseBooksApi: BaseBook[] = [
     saga: 'La Passe-Miroir',
     sagaOrder: 1,
     sagaFinished: true,
+    releaseDate: '',
   },
 
   {
@@ -117,6 +126,7 @@ export const baseBooksApi: BaseBook[] = [
     saga: 'Les Maîtres Enlumineurs',
     sagaOrder: 2,
     sagaFinished: false,
+    releaseDate: '',
   },
 
   {
@@ -129,5 +139,6 @@ export const baseBooksApi: BaseBook[] = [
     saga: 'Les Maîtres Enlumineurs',
     sagaOrder: 3,
     sagaFinished: false,
+    releaseDate: '',
   },
 ];

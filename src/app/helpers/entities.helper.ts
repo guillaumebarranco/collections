@@ -48,6 +48,7 @@ export const getBookDataFromUserBookAndBaseBook = (
   owned: userBook.owned,
   readPriority: userBook.readPriority,
   sagaFinished: baseBook?.sagaFinished || false,
+  releaseDate: baseBook?.releaseDate || '',
 });
 
 export const getComicDataFromUserComicAndBaseComic = (

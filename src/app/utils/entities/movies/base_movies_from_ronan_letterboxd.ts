@@ -150,6 +150,9 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       {
         name: 'Alan Tudyk',
       },
+      {
+        name: 'Morgan Freeman',
+      },
     ],
     coverUrl: '/movies_pictures/insaisissables_3.jpg',
     releaseDate: '2025-11-12',
@@ -1169,7 +1172,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
   },
   {
-    title: 'We Live in Time',
+    title: "L'amour au présent",
     director: 'John Crowley',
     actors: [
       {
@@ -3179,6 +3182,9 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Salma Hayek',
+      },
+      {
+        name: 'Morgan Freeman',
       },
     ],
     coverUrl: '/movies_pictures/hitman_bodyguard_2.jpg',
@@ -5273,6 +5279,9 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Amanda Seyfried',
+      },
+      {
+        name: 'Morgan Freeman',
       },
     ],
     coverUrl: '/movies_pictures/ted_2.jpg',
@@ -7846,26 +7855,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2006-10-18',
     length: 109,
     genre: 'Science Fiction',
-    saga: '',
-  },
-  {
-    title: 'Admis à tous prix',
-    director: 'Steve Pink',
-    actors: [
-      {
-        name: 'Justin Long',
-      },
-      {
-        name: 'Jonah Hill',
-      },
-      {
-        name: 'Blake Lively',
-      },
-    ],
-    coverUrl: '/movies_pictures/accepted.jpg',
-    releaseDate: '2006-06-07',
-    length: 93,
-    genre: 'Comédie',
     saga: '',
   },
   {

@@ -279,7 +279,7 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Lucy',
     director: 'Luc Besson',
-    actors: [{ name: 'Scarlett Johansson' }],
+    actors: [{ name: 'Scarlett Johansson' }, { name: 'Morgan Freeman' }],
     coverUrl: '/movies_pictures/168860-lucy-0-150-0-225-crop.jpg',
     releaseDate: '2014-07-25',
     length: 89,
@@ -747,16 +747,6 @@ export const baseMoviesPage3: BaseMovie[] = [
     releaseDate: '2007-03-16',
     length: 96,
     genre: 'Thriller',
-    saga: '',
-  },
-  {
-    title: 'Ecrire pour exister',
-    director: 'Richard LaGravenese',
-    actors: [{ name: 'Hilary Swank' }],
-    coverUrl: '/movies_pictures/50896-freedom-writers-0-150-0-225-crop.jpg',
-    releaseDate: '2007-01-05',
-    length: 123,
-    genre: 'Drama',
     saga: '',
   },
   {

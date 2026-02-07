@@ -30,6 +30,7 @@ export const getEmptyBook = (book: BaseBook): Book => ({
   rating: 0,
   readPriority: 1,
   sagaFinished: false,
+  releaseDate: '',
 });
 
 export const getEmptyComic = (comic: BaseComic): Comic => ({

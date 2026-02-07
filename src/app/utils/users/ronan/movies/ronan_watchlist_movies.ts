@@ -301,19 +301,6 @@ export const ronanWatchlistMovies: UserMovies = [
   },
 
   {
-    title: 'Ecrire pour exister',
-    director: 'Richard LaGravenese',
-    rating: 0,
-    timesWatched: 0,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-  },
-
-  {
     title: 'Trainspotting',
     director: 'Danny Boyle',
     rating: 0,

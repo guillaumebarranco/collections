@@ -855,18 +855,6 @@ export const guillaumeMoviesPage4: UserMovies = [
     watchPriority: 1,
   },
   {
-    title: 'Ecrire pour exister',
-    director: 'Richard LaGravenese',
-    rating: 3.25,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-  },
-  {
     title: "L'effaceur",
     director: 'Chuck Russell',
     rating: 3.75,

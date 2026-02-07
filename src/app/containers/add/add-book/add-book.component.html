@@ -99,6 +99,17 @@
           name="sagaFinished"
         />
       </div>
+
+      <div class="form-row">
+        <label for="releaseDate">Date de sortie</label>
+        <input
+          id="releaseDate"
+          type="date"
+          [ngModel]="entityForm().releaseDate"
+          (ngModelChange)="updateEntityField('releaseDate', $event)"
+          name="releaseDate"
+        />
+      </div>
     </section>
 
     @if(getUserId() !== 'admin') {

@@ -13,6 +13,7 @@ type AddBookEntityForm = {
   saga: string;
   sagaOrder: number;
   sagaFinished: boolean;
+  releaseDate: string;
 };
 
 type AddBookUserForm = {
@@ -53,6 +54,7 @@ export class AddBookComponent {
     saga: '',
     sagaOrder: 0,
     sagaFinished: true,
+    releaseDate: '',
   });
 
   userForm = signal<AddBookUserForm>({

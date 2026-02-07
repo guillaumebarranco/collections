@@ -10,6 +10,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: 'Les liaisons dangereuses',
@@ -20,6 +21,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: 'Les filles du Docteur March',
@@ -30,6 +32,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: 'Circe',
@@ -40,6 +43,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: "Le chant d'Achille",
@@ -50,6 +54,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: 'Dark Shores',
@@ -60,6 +65,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: 'Les piliers de la terre',
@@ -70,6 +76,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: 'Le Horla',
@@ -80,6 +87,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: "L'écume des jours",
@@ -90,6 +98,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: 'Notre-Dame de Paris',
@@ -100,6 +109,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: 'Le roi de fer',
@@ -110,6 +120,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: 'Les Rois maudits',
     sagaOrder: 1,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: 'Le vicomte de Bragelonne',
@@ -120,6 +131,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: 'La reine Margot',
@@ -130,6 +142,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: 'Le trone de fer intégrale 4',
@@ -140,6 +153,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: 'Le Trône de fer',
     sagaOrder: 4,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: 'Le trone de fer intégrale 5',
@@ -150,6 +164,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: 'Le Trône de fer',
     sagaOrder: 5,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: 'Robinson Crusoe',
@@ -160,6 +175,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: 'Cyrano de Bergerac',
@@ -170,6 +186,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: 'Le Parfum',
@@ -180,6 +197,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: 'Où vont les larmes quand elles sèchent',
@@ -190,6 +208,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: 'Cinq semaines en ballon',
@@ -200,6 +219,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: 'Les voyages extraordinaires',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: 'Autour de la Lune',
@@ -210,6 +230,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: 'Les voyages extraordinaires',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: 'The Dead zone',
@@ -220,6 +241,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
 
   {
@@ -231,6 +253,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: 'Gagner la guerre',
@@ -241,6 +264,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: "L'enfer",
@@ -251,6 +275,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: 'La Divine Comédie',
     sagaOrder: 1,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: "L'epopée de Gilgamesh",
@@ -261,6 +286,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: 'Hamlet',
@@ -271,6 +297,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: 'Macbeth',
@@ -281,6 +308,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: 'La Controverse de Valladolid',
@@ -291,6 +319,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: 'La dernière chanson',
@@ -301,6 +330,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: 'Fais un voeu',
@@ -311,6 +341,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: 'Au rythme de ton souffle',
@@ -321,6 +352,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
   {
     title: 'Un havre de paix',
@@ -331,5 +363,6 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
+    releaseDate: '',
   },
 ];

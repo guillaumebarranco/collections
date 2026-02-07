@@ -37,6 +37,7 @@ type EditBookEntityForm = {
   sagaOrder: number;
   sagaFinished: boolean;
   coverUrl: string;
+  releaseDate: string;
 };
 
 type EditBookDialogData = {
@@ -175,7 +176,7 @@ export class EditBookComponent {
     const current = this.bookEntityForm();
     if (!current) return;
     let nextValue: EditBookEntityForm[K] = value as EditBookEntityForm[K];
-    if (field !== 'genre' && field !== 'saga' && field !== 'coverUrl') {
+    if (field !== 'genre' && field !== 'saga' && field !== 'coverUrl' && field !== 'releaseDate') {
       const asNumber = Number(value);
       nextValue = (
         Number.isNaN(asNumber) ? 0 : asNumber
@@ -444,6 +445,7 @@ export class EditBookComponent {
       sagaOrder: book.sagaOrder || 0,
       coverUrl: book.coverUrl || '',
       sagaFinished: book.sagaFinished,
+      releaseDate: book.releaseDate || '',
     };
   }
 
@@ -456,6 +458,7 @@ export class EditBookComponent {
       sagaOrder: form.sagaOrder,
       sagaFinished: form.sagaFinished,
       coverUrl: form.coverUrl,
+      releaseDate: form.releaseDate,
     };
   }
 

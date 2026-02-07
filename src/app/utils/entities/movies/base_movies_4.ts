@@ -1166,16 +1166,6 @@ export const baseMoviesPage4: BaseMovie[] = [
     saga: '',
   },
   {
-    title: "L'amour au présent",
-    director: 'John Crowley',
-    actors: [{ name: 'Andrew Garfield' }, { name: 'Florence Pugh' }],
-    coverUrl: '/movies_pictures/c67d718699bb1158eace4179794b6861.jpg',
-    releaseDate: '2024-09-27',
-    length: 0,
-    genre: 'Drama',
-    saga: '',
-  },
-  {
     title: 'Sinners',
     director: 'Ryan Coogler',
     actors: [{ name: 'Michael B. Jordan' }, { name: 'Hailee Steinfeld' }],

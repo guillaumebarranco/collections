@@ -746,7 +746,17 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Admis à tout prix',
     director: 'Steve Pink',
-    actors: [{ name: 'Justin Long' }],
+    actors: [
+      {
+        name: 'Justin Long',
+      },
+      {
+        name: 'Jonah Hill',
+      },
+      {
+        name: 'Blake Lively',
+      },
+    ],
     coverUrl: '/movies_pictures/46823-accepted-0-150-0-225-crop.jpg',
     releaseDate: '2006-08-18',
     length: 93,

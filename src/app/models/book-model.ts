@@ -10,6 +10,7 @@ export interface BaseBook extends MandatoryBookData {
   saga: string;
   sagaOrder: number;
   sagaFinished: boolean;
+  releaseDate: string;
 }
 
 export interface UserBook extends MandatoryBookData {
