@@ -20,6 +20,7 @@ export class MenuComponent implements OnInit {
   isMobile = false;
   isCompactMenu = false;
   isReadingMenuOpen = false;
+  isUserMenuOpen = false;
 
   activatedRoute = inject(ActivatedRoute);
   router = inject(Router);
@@ -137,6 +138,14 @@ export class MenuComponent implements OnInit {
     this.checkScreenSize();
   }
 
+  @HostListener('document:click', ['$event'])
+  onDocumentClick(event: MouseEvent) {
+    const target = event.target as HTMLElement;
+    if (!target.closest('.menu-user-group')) {
+      this.closeUserMenu();
+    }
+  }
+
   private checkScreenSize() {
     this.isMobile = window.innerWidth < 768;
     this.isCompactMenu = window.innerWidth < 1500;
@@ -196,5 +205,19 @@ export class MenuComponent implements OnInit {
 
   isReadingMenuActive(): boolean {
     return this.readingMenuItems.some((item) => this.isActive(item.route));
+  }
+
+  toggleUserMenu(): void {
+    this.isUserMenuOpen = !this.isUserMenuOpen;
+  }
+
+  closeUserMenu(): void {
+    this.isUserMenuOpen = false;
+  }
+
+  logout(): void {
+    this.authService.clearAuthenticatedUserId();
+    this.closeUserMenu();
+    this.router.navigate(['/']);
   }
 }

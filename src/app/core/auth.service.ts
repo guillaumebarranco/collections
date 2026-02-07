@@ -44,7 +44,7 @@ export class AuthService {
   }
 
   isAuthenticated(): boolean {
-    return isLocalhost() || Boolean(this.authenticatedUserId());
+    return Boolean(this.authenticatedUserId());
   }
 
   isAdmin(): boolean {

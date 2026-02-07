@@ -44,7 +44,31 @@
     </div>
     <div class="menu-auth">
       @if (authenticatedUser()) {
-      <span class="menu-user">{{ authenticatedUser() }}</span>
+      <div class="menu-user-group" [class.open]="isUserMenuOpen">
+        <button
+          class="menu-user makya-btn-small"
+          type="button"
+          (click)="toggleUserMenu()"
+        >
+          <span class="menu-user-mobile">👤</span>
+          <span class="menu-user-username">{{ authenticatedUser() }}</span>
+          <span class="menu-caret">▾</span>
+        </button>
+        <div
+          class="menu-submenu menu-user-submenu"
+          [class.open]="isUserMenuOpen"
+        >
+          <div class="menu-subitem menu-subitem-disabled">
+            <span class="menu-label"
+              >Connecté en tant que {{ authenticatedUser() }}</span
+            >
+          </div>
+          <button class="menu-subitem" type="button" (click)="logout()">
+            <span class="menu-label">Se déconnecter</span>
+          </button>
+        </div>
+      </div>
+      <span class="menu-user-mobile"></span>
       } @else {
       <button class="makya-btn-small" (click)="goToLogin()">
         Se connecter

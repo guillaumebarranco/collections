@@ -151,6 +151,9 @@ export class DashboardComponent implements OnInit {
       return params['id'];
     }
 
+    console.log(this.authService.isAuthenticated());
+    console.log(this.authService.getAuthenticatedUserId());
+
     if (this.authService.isAuthenticated()) {
       this.router.navigate(['/', this.authService.getAuthenticatedUserId()]);
       return '';

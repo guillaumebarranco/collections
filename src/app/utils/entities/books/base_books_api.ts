@@ -143,73 +143,85 @@ export const baseBooksApi: BaseBook[] = [
   },
 
   {
-    title: 'Jeux d\'Ombres',
+    title: "Jeux d'Ombres",
     author: 'Glen Cook',
-    coverUrl: 'https://cdn1.booknode.com/book_cover/1007/les_annales_de_la_compagnie_noire_tome_4_jeux_dombres-1006907-264-432.webp',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/1007/les_annales_de_la_compagnie_noire_tome_4_jeux_dombres-1006907-264-432.webp',
     pages: 377,
     genre: 'Fantasy',
     saga: 'La Compagnie Noire',
     sagaOrder: 4,
     sagaFinished: true,
+    releaseDate: '',
   },
 
   {
-    title: 'Rêves d\'Acier',
+    title: "Rêves d'Acier",
     author: 'Glen Cook',
-    coverUrl: 'https://cdn1.booknode.com/book_cover/1007/les_annales_de_la_compagnie_noire_tome_5_reves_dacier-1006909-264-432.webp',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/1007/les_annales_de_la_compagnie_noire_tome_5_reves_dacier-1006909-264-432.webp',
     pages: 411,
     genre: 'Fantasy',
     saga: 'La Compagnie Noire',
     sagaOrder: 5,
     sagaFinished: true,
+    releaseDate: '',
   },
 
   {
-    title: 'La Pointe d\'Argent',
+    title: "La Pointe d'Argent",
     author: 'Glen Cook',
-    coverUrl: 'https://madimado.com/wp-content/uploads/2013/08/couverture-14539-cook-glen-la-compagnie-noire-06-la-pointe-d-argent.jpg',
+    coverUrl:
+      'https://madimado.com/wp-content/uploads/2013/08/couverture-14539-cook-glen-la-compagnie-noire-06-la-pointe-d-argent.jpg',
     pages: 411,
     genre: 'Fantasy',
     saga: 'La Compagnie Noire',
     sagaOrder: 6,
     sagaFinished: true,
+    releaseDate: '',
   },
 
   {
     title: 'Saisons Funestes',
     author: 'Glen Cook',
-    coverUrl: 'https://images2.medimops.eu/product/f4b970/M02290008184-source.jpg',
+    coverUrl:
+      'https://images2.medimops.eu/product/f4b970/M02290008184-source.jpg',
     pages: 410,
     genre: 'Fantasy',
     saga: 'La Compagnie Noire',
     sagaOrder: 7,
     sagaFinished: true,
+    releaseDate: '',
   },
 
   {
     title: 'Elle est les Ténèbres - Part. 1',
     author: 'Glen Cook',
-    coverUrl: 'https://cdn1.booknode.com/book_cover/1007/les_annales_de_la_compagnie_noire_tome_8_elle_est_les_tenebres_i-1006897-264-432.webp',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/1007/les_annales_de_la_compagnie_noire_tome_8_elle_est_les_tenebres_i-1006897-264-432.webp',
     pages: 315,
     genre: 'Fantasy',
     saga: 'La Compagnie Noire',
     sagaOrder: 8,
     sagaFinished: true,
+    releaseDate: '',
   },
 
   {
     title: 'Elle est les Ténèbres - Part. 2',
     author: 'Glen Cook',
-    coverUrl: 'https://www.babelio.com/couv/CVT_CVT_Les-Annales-de-la-Compagnie-Noire-Tome-9--Elle-es_5241.jpg',
+    coverUrl:
+      'https://www.babelio.com/couv/CVT_CVT_Les-Annales-de-la-Compagnie-Noire-Tome-9--Elle-es_5241.jpg',
     pages: 412,
     genre: 'Fantasy',
     saga: 'La Compagnie Noire',
     sagaOrder: 9,
     sagaFinished: true,
+    releaseDate: '',
   },
 
   {
-    title: 'L\'Eau Dort - Part. 1',
+    title: "L'Eau Dort - Part. 1",
     author: 'Glen Cook',
     coverUrl: 'https://bddi.2dcom.fr/libriweb.php?ean=9782290022856',
     pages: 314,
@@ -217,10 +229,11 @@ export const baseBooksApi: BaseBook[] = [
     saga: 'La Compagnie Noire',
     sagaOrder: 10,
     sagaFinished: true,
+    releaseDate: '',
   },
 
   {
-    title: 'L\'Eau Dort - Part. 2',
+    title: "L'Eau Dort - Part. 2",
     author: 'Glen Cook',
     coverUrl: 'https://img.livraddict.com/covers/32/32996/couv24655615.jpg',
     pages: 319,
@@ -228,49 +241,58 @@ export const baseBooksApi: BaseBook[] = [
     saga: 'La Compagnie Noire',
     sagaOrder: 11,
     sagaFinished: true,
+    releaseDate: '',
   },
 
   {
     title: 'Les Soldats de Pierre - Part. 1',
     author: 'Glen Cook',
-    coverUrl: 'https://m.media-amazon.com/images/I/41IxZDs2VPL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/41IxZDs2VPL._AC_UF1000,1000_QL80_.jpg',
     pages: 379,
     genre: 'Fantasy',
     saga: 'La Compagnie Noire',
     sagaOrder: 12,
     sagaFinished: true,
+    releaseDate: '',
   },
 
   {
     title: 'Les Soldats de Pierre - Part. 2',
     author: 'Glen Cook',
-    coverUrl: 'https://img.over-blog-kiwi.com/0/55/30/38/20170228/ob_9933a9_couv58290243.jpg',
+    coverUrl:
+      'https://img.over-blog-kiwi.com/0/55/30/38/20170228/ob_9933a9_couv58290243.jpg',
     pages: 379,
     genre: 'Fantasy',
     saga: 'La Compagnie Noire',
     sagaOrder: 13,
     sagaFinished: true,
+    releaseDate: '',
   },
 
   {
     title: 'La Voie des Ombres',
     author: 'Brent Weeks',
-    coverUrl: 'https://www.bragelonne.fr/media/cache/cat_w272/58/9782352942658.jpg',
+    coverUrl:
+      'https://www.bragelonne.fr/media/cache/cat_w272/58/9782352942658.jpg',
     pages: 552,
     genre: 'Fantasy',
-    saga: 'L\'Ange de la Nuit',
+    saga: "L'Ange de la Nuit",
     sagaOrder: 1,
     sagaFinished: true,
+    releaseDate: '',
   },
 
   {
     title: 'Le Prisme Noir',
     author: 'Brent Weeks',
-    coverUrl: 'https://www.bragelonne.fr/media/cache/cat_w272/60/9782352945260.jpg',
+    coverUrl:
+      'https://www.bragelonne.fr/media/cache/cat_w272/60/9782352945260.jpg',
     pages: 576,
     genre: 'Fantasy',
     saga: 'Le Porteur de Lumière',
     sagaOrder: 1,
     sagaFinished: true,
+    releaseDate: '',
   },
 ];
