@@ -218,6 +218,7 @@ function parseBaseBooksFullFromFile(content: string): any[] {
           saga: parseStringField(objectText, 'saga') || '',
           sagaOrder: parseNumberField(objectText, 'sagaOrder') ?? 0,
           sagaFinished: parseBooleanField(objectText, 'sagaFinished') ?? false,
+          releaseDate: parseStringField(objectText, 'releaseDate') || '',
         });
       }
     }
@@ -499,6 +500,7 @@ function updateBaseBookInFile(content: string, payload: any) {
           updated = upsertField(updated, 'saga', payload.saga);
           updated = upsertField(updated, 'sagaOrder', payload.sagaOrder);
           updated = upsertField(updated, 'sagaFinished', payload.sagaFinished);
+          updated = upsertField(updated, 'releaseDate', payload.releaseDate);
 
           return (
             content.slice(0, objectStart) +

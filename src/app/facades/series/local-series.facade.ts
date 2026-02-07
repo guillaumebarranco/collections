@@ -13,6 +13,8 @@ import { amandineSeries } from '../../utils/users/amandine/series/amandine_serie
 import { amandineWatchListSeries } from '../../utils/users/amandine/series/amandine_watchlist_series';
 import { williamSeries } from '../../utils/users/william/series/william_series';
 import { williamWatchListSeries } from '../../utils/users/william/series/william_watchlist_series';
+import { cassandreWatchListSeries } from '../../utils/users/cassandre/series/cassandre_watchlist_series';
+import { cassandreSeries } from '../../utils/users/cassandre/series/cassandre_series';
 
 export const allBaseSeries: BaseSerie[] = [
   ...baseSeries,
@@ -32,6 +34,8 @@ export function getLocalSeriesByUser(userId: string): UserSerie[] {
       return [...amandineSeries];
     case 'william':
       return [...williamSeries];
+    case 'cassandre':
+      return [...cassandreSeries];
     default:
       return [];
   }
@@ -49,6 +53,8 @@ export function getLocalWatchlistByUser(userId: string): UserSerie[] {
       return [...amandineWatchListSeries];
     case 'william':
       return [...williamWatchListSeries];
+    case 'cassandre':
+      return [...cassandreWatchListSeries];
     default:
       return [];
   }

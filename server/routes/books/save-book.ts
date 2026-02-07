@@ -105,6 +105,7 @@ router.post('/', (req: any, res: any) => {
           entityPayload.sagaFinished,
           'sagaFinished'
         ),
+        releaseDate: normalizeString(entityPayload.releaseDate, 'releaseDate'),
       });
 
       if (originalTitle || originalAuthor) {

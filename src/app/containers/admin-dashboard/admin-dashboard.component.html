@@ -3,12 +3,27 @@
 <div class="admin-dashboard">
   <h1>Vue admin</h1>
 
-  @if (usersCount() !== null) {
+  @if (isLoading()) {
+  <p class="admin-loading">Chargement des utilisateurs...</p>
+  } @else {
   <div class="admin-card">
     <h2>Utilisateurs</h2>
-    <p class="admin-count">{{ usersCount() }}</p>
+    <p class="admin-count">Total : {{ usersCount() }}</p>
+    <div class="admin-users-list">
+      @for (user of users(); track user.username) {
+      <div class="admin-user-item">
+        <span class="admin-user-name">{{
+          capitalizeFirstLetter(user.username)
+        }}</span>
+        <a
+          [routerLink]="getUserRoute(user.username)"
+          class="admin-user-link makya-btn-small"
+        >
+          Voir le profil
+        </a>
+      </div>
+      }
+    </div>
   </div>
-  } @else {
-  <p class="admin-loading">Chargement des utilisateurs...</p>
   }
 </div>

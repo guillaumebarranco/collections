@@ -41,6 +41,16 @@ export class MenuComponent implements OnInit {
     return String(val).charAt(0).toUpperCase() + String(val).slice(1);
   }
 
+  isAdmin(): boolean {
+    return this.authService.isAdmin();
+  }
+
+  goToDashboard(): void {
+    this.router.navigate([
+      `/${this.authenticatedUser().toLowerCase()}/dashboard`,
+    ]);
+  }
+
   menuItems = [
     {
       label: 'Home',

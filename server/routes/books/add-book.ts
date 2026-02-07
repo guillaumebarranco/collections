@@ -23,6 +23,7 @@ function formatBaseBook(entity: any): string {
     saga: '${escapeString(entity.saga || '')}',
     sagaOrder: ${entity.sagaOrder || 0},
     sagaFinished: ${entity.sagaFinished ?? false},
+    releaseDate: '${escapeString(entity.releaseDate || '')}',
   },`;
 }
 
@@ -109,6 +110,7 @@ router.post('/add', (req: any, res: any) => {
       sagaOrder: normalizeNumber(entity.sagaOrder, 'sagaOrder') || 0,
       sagaFinished:
         normalizeBoolean(entity.sagaFinished, 'sagaFinished') ?? false,
+      releaseDate: normalizeString(entity.releaseDate, 'releaseDate') || '',
     };
 
     const userPayload = {

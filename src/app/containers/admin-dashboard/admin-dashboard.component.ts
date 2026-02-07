@@ -1,26 +1,42 @@
 import { Component, OnInit, computed, inject, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 import { MenuComponent } from '../../components/menu/menu.component';
 import { AuthService } from '../../core/auth.service';
-import { getAdminUsersCount } from '../../facades/admin/admin.facade';
+import { getAdminUsers, AdminUser } from '../../facades/admin/admin.facade';
 
 @Component({
   selector: 'app-admin-dashboard',
   standalone: true,
-  imports: [CommonModule, MenuComponent],
+  imports: [CommonModule, RouterModule, MenuComponent],
   templateUrl: './admin-dashboard.component.html',
   styleUrls: ['./admin-dashboard.component.scss'],
 })
 export class AdminDashboardComponent implements OnInit {
   private readonly authService = inject(AuthService);
 
-  readonly usersCount = signal<number | null>(null);
+  readonly users = signal<AdminUser[]>([]);
+  readonly usersCount = computed(() => this.users().length);
+  readonly isLoading = signal<boolean>(true);
   readonly isAdmin = computed(() => this.authService.isAdmin());
+
+  capitalizeFirstLetter(val: string): string {
+    return String(val).charAt(0).toUpperCase() + String(val).slice(1);
+  }
+
+  getUserRoute(username: string): string {
+    return `/${username.toLowerCase()}/dashboard`;
+  }
 
   async ngOnInit() {
     if (!this.isAdmin()) return;
-    const userId = this.authService.getAuthenticatedUserId() || 'guillaume';
-    const count = await getAdminUsersCount(userId);
-    this.usersCount.set(count);
+    this.isLoading.set(true);
+    try {
+      const userId = this.authService.getAuthenticatedUserId() || 'guillaume';
+      const response = await getAdminUsers(userId);
+      this.users.set(response.users);
+    } finally {
+      this.isLoading.set(false);
+    }
   }
 }

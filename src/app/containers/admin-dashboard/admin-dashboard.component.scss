@@ -6,14 +6,43 @@
   border: 1px solid #e5e7eb;
   border-radius: 12px;
   padding: 16px;
-  max-width: 320px;
+  max-width: 600px;
 }
 
 .admin-count {
-  font-size: 2.2rem;
-  margin: 8px 0 0;
+  font-size: 1.5rem;
+  margin: 8px 0 16px;
+  font-weight: 600;
+  color: #374151;
 }
 
 .admin-loading {
   color: #6b7280;
+}
+
+.admin-users-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.admin-user-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  background: #f9fafb;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.admin-user-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #111827;
+}
+
+.admin-user-link {
+  text-decoration: none;
 }

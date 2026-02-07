@@ -63,6 +63,14 @@
               >Connecté en tant que {{ authenticatedUser() }}</span
             >
           </div>
+          <button class="menu-subitem" type="button" (click)="goToDashboard()">
+            <span class="menu-label">Aller sur mon dashboard</span>
+          </button>
+          @if (isAdmin()) {
+          <button class="menu-subitem" type="button" [routerLink]="'/admin'">
+            Aller sur la vue Admin
+          </button>
+          }
           <button class="menu-subitem" type="button" (click)="logout()">
             <span class="menu-label">Se déconnecter</span>
           </button>
