@@ -180,4 +180,104 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 3,
   },
+
+  {
+    title: 'Le Feu de la Sorcière',
+    author: 'James Clemens',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+  },
+
+  {
+    title: 'Les Foudres de la Sorcière',
+    author: 'James Clemens',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+  },
+
+  {
+    title: 'La Guerre de la Sorcière',
+    author: 'James Clemens',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+  },
+
+  {
+    title: 'Le Portail de la Sorcière',
+    author: 'James Clemens',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+  },
+
+  {
+    title: 'L\'Etoile de la Sorcière',
+    author: 'James Clemens',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+  },
+
+  {
+    title: 'Le Couteau Aveuglant',
+    author: 'Brent Weeks',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+  },
+
+  {
+    title: 'L\'Oeil Brisé',
+    author: 'Brent Weeks',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+  },
+
+  {
+    title: 'Le Miroir de Sang',
+    author: 'Brent Weeks',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+  },
+
+  {
+    title: 'Le Blanc Incandescent (1/2)',
+    author: 'Brent Weeks',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+  },
+
+  {
+    title: 'Le Blanc Incandescent (2/2)',
+    author: 'Brent Weeks',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+  },
 ];
