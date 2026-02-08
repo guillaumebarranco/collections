@@ -8,9 +8,8 @@ export const kevinReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
-    readPriority: 3,
+    readPriority: 2,
   },
-
   {
     title: 'Rêves d\'Acier',
     author: 'Glen Cook',
@@ -18,9 +17,8 @@ export const kevinReadListBooks: UserBooks = [
     rating: 0,
     readTimes: 1,
     owned: false,
-    readPriority: 3,
+    readPriority: 2,
   },
-
   {
     title: 'La Pointe d\'Argent',
     author: 'Glen Cook',
@@ -30,7 +28,6 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
   },
-
   {
     title: 'Saisons Funestes',
     author: 'Glen Cook',
@@ -40,7 +37,6 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
   },
-
   {
     title: 'Elle est les Ténèbres - Part. 1',
     author: 'Glen Cook',
@@ -50,7 +46,6 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
   },
-
   {
     title: 'Elle est les Ténèbres - Part. 2',
     author: 'Glen Cook',
@@ -60,7 +55,6 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
   },
-
   {
     title: 'L\'Eau Dort - Part. 1',
     author: 'Glen Cook',
@@ -70,7 +64,6 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
   },
-
   {
     title: 'L\'Eau Dort - Part. 2',
     author: 'Glen Cook',
@@ -80,7 +73,6 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
   },
-
   {
     title: 'Les Soldats de Pierre - Part. 1',
     author: 'Glen Cook',
@@ -90,7 +82,25 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
   },
-
+  {
+    title: 'La Voie des Ombres',
+    author: 'Brent Weeks',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 2,
+  },
+  {
+    title: 'Le Prisme Noir',
+    author: 'Brent Weeks',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 2,
+  }
+,
   {
     title: 'Les Soldats de Pierre - Part. 2',
     author: 'Glen Cook',
@@ -102,8 +112,8 @@ export const kevinReadListBooks: UserBooks = [
   },
 
   {
-    title: 'La Voie des Ombres',
-    author: 'Brent Weeks',
+    title: 'Le Nom du Vent',
+    author: 'Patrick Rothfuss',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -112,8 +122,58 @@ export const kevinReadListBooks: UserBooks = [
   },
 
   {
-    title: 'Le Prisme Noir',
+    title: 'La Peur du Sage (2/2)',
+    author: 'Patrick Rothfuss',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 3,
+  },
+
+  {
+    title: 'Le Choix des Ombres',
     author: 'Brent Weeks',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+  },
+
+  {
+    title: 'Au-delà des Ombres',
+    author: 'Brent Weeks',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+  },
+
+  {
+    title: 'Le Palais Adamantin',
+    author: 'Stephen Deas',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 3,
+  },
+
+  {
+    title: 'Le Roi des Cimes',
+    author: 'Stephen Deas',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 3,
+  },
+
+  {
+    title: 'L\'Ordre des Ecailleux',
+    author: 'Stephen Deas',
     readDate: '',
     rating: 0,
     readTimes: 1,
