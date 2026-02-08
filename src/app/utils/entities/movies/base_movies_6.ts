@@ -1001,16 +1001,6 @@ export const baseMoviesPage6: BaseMovie[] = [
     saga: '',
   },
   {
-    title: 'Scoop',
-    director: 'Woody Allen',
-    actors: [{ name: 'Scarlett Johansson' }, { name: 'Hugh Jackman' }],
-    coverUrl: '/movies_pictures/18674307.webp',
-    releaseDate: '2006-07-28',
-    length: 96,
-    genre: 'Comedy',
-    saga: '',
-  },
-  {
     title: 'Le Dahlia noir',
     director: 'Brian De Palma',
     actors: [

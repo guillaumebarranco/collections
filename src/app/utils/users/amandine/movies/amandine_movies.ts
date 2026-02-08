@@ -158,7 +158,7 @@ export const amandineMovies1: UserMovies = [
     watchPriority: 1,
   },
   {
-    title: 'Someone, Somewhere',
+    title: 'Deux moi',
     director: 'Cédric Klapisch',
     rating: 0,
     timesWatched: 1,

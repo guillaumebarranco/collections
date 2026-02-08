@@ -4035,18 +4035,6 @@ export const ronanMovies: UserMovies = [
     watchPriority: 1,
   },
   {
-    title: 'Someone, Somewhere',
-    director: 'Cédric Klapisch',
-    rating: 2,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-  },
-  {
     title: 'Frankenstein',
     director: 'Guillermo del Toro',
     rating: 3.5,

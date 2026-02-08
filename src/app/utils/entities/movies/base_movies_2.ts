@@ -115,20 +115,6 @@ export const baseMoviesPage2: BaseMovie[] = [
     saga: '',
   },
   {
-    title: 'Someone, Somewhere',
-    director: 'Cédric Klapisch',
-    actors: [
-      {
-        name: 'Ana Girardot',
-      },
-    ],
-    coverUrl: '/movies_pictures/511412-someone-somewhere-0-150-0-225-crop.jpg',
-    releaseDate: '2019-09-25',
-    length: 110,
-    genre: 'Drama',
-    saga: '',
-  },
-  {
     title: 'Evasion 3',
     director: 'John Herzfeld',
     actors: [
