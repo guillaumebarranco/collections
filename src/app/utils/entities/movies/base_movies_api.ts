@@ -324,4 +324,17 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Animation',
     saga: '',
   },
+
+  {
+    title: 'Wedding Daze',
+    director: 'Michael Ian Black',
+    actors: [
+      { name: 'Inconnu' },
+    ],
+    coverUrl: '',
+    releaseDate: '',
+    length: 0,
+    genre: '',
+    saga: '',
+  },
 ];
