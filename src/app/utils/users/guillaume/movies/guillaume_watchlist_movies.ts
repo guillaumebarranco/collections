@@ -191,7 +191,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 2,
+    watchPriority: 3,
   },
   {
     title: 'Gattaca',
@@ -251,7 +251,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
   {
     title: 'Mad Max: Fury Road',
@@ -263,7 +263,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
   {
     title: 'Atonement',
@@ -287,7 +287,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
   {
     title: "L'amour au présent",
@@ -323,7 +323,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
   {
     title: 'Companion',
@@ -371,7 +371,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
   {
     title: 'Looper',
@@ -383,7 +383,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
   {
     title: 'Philadelphia',
@@ -539,7 +539,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
 
   {
@@ -552,7 +552,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 2,
+    watchPriority: 3,
   },
 
   {
@@ -747,7 +747,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
 
   {
@@ -877,7 +877,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
 
   {
@@ -890,7 +890,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 3,
   },
 
   {
@@ -942,7 +942,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
 
   {
@@ -955,7 +955,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
 
   {
@@ -981,7 +981,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
 
   {
@@ -1020,7 +1020,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
 
   {
@@ -1150,7 +1150,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
 
   {
@@ -1176,7 +1176,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
 
   {
@@ -1228,7 +1228,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
 
   {
@@ -1254,7 +1254,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
 
   {
@@ -1332,7 +1332,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
 
   {
@@ -1371,7 +1371,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
 
   {
@@ -1410,7 +1410,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
 
   {
@@ -1488,7 +1488,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
 
   {
@@ -1501,7 +1501,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
 
   {
@@ -1514,7 +1514,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
 
   {
@@ -1540,7 +1540,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
 
   {
@@ -1579,7 +1579,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
 
   {
@@ -1592,7 +1592,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
 
   {
@@ -1670,7 +1670,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
 
   {
@@ -1683,7 +1683,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
 
   {
@@ -1709,7 +1709,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
 
   {
@@ -1917,7 +1917,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
 
   {
@@ -2021,7 +2021,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
 
   {
