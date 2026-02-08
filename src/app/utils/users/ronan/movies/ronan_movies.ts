@@ -2498,18 +2498,6 @@ export const ronanMovies: UserMovies = [
     watchPriority: 1,
   },
   {
-    title: 'Léon',
-    director: 'Luc Besson',
-    rating: 4,
-    timesWatched: 3,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-  },
-  {
     title: 'Cars 2',
     director: 'John Lasseter, Brad Lewis',
     rating: 2,
@@ -11227,7 +11215,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Leon',
     director: 'Luc Besson',
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',

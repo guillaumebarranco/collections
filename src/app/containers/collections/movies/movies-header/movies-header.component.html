@@ -31,6 +31,9 @@
       >
         ⚙️ Configurer ma vue films
       </button>
+
+      @if(selectedView() === 'watched' || selectedView() === 'watchlist' ||
+      selectedView() === 'cinema') {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectMoviesRoute()"
@@ -49,28 +52,32 @@
             : "Ajouter des films vus"
         }}
       </button>
+      } @if(selectedView() === 'watched') {
 
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectMoviesRatingRoute()"
-        title="Mettre à jour les notes de mes films"
-      >
-        ⭐ Notes
-      </button>
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectMoviesTimesWatchedRoute()"
-        title="Mettre à jour le nombre de visionnages de mes films"
-      >
-        🎬 Visionnages
-      </button>
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectMoviesOwnedRoute()"
-        title="Mettre à jour les films possédés"
-      >
-        ✅ Possédés
-      </button>
+      <ng-container>
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectMoviesRatingRoute()"
+          title="Mettre à jour les notes de mes films"
+        >
+          ⭐ Notes
+        </button>
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectMoviesTimesWatchedRoute()"
+          title="Mettre à jour le nombre de visionnages de mes films"
+        >
+          🎬 Visionnages
+        </button>
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectMoviesOwnedRoute()"
+          title="Mettre à jour les films possédés"
+        >
+          ✅ Possédés
+        </button>
+      </ng-container>
+      }
     </div>
     }
   </div>
@@ -99,36 +106,8 @@
   </div>
   } @if (!isAdminView()) {
   <div class="movies-stats-bloc">
-    <app-stats-display
-      [stats]="stats()"
-      [count]="filteredMoviesByYearCount()"
-      countLabel="films"
-    >
-    </app-stats-display>
-
-    <div class="movies-filters">
-      <!-- Dropdown de filtre d'années -->
-      @if(!isAdminView() && (selectedView() === 'watched' || selectedView() ===
-      'cinema')) {
-      <div class="movies-filters-item">
-        <app-sort-dropdown
-          label="Filtrer par année :"
-          [sortOptions]="yearFilterOptions()"
-          [selectedSort]="selectedYearFilter()"
-          (sortChange)="onYearFilterChange.emit($event)"
-        >
-        </app-sort-dropdown>
-      </div>
-      } @if(sortOptions().length > 0) {
-      <app-sort-dropdown
-        label="Trier par :"
-        [sortOptions]="sortOptions()"
-        [selectedSort]="selectedSort()"
-        (sortChange)="onSortChange.emit($event)"
-      >
-      </app-sort-dropdown>
-      }
-    </div>
+    <ng-content select="[movies-stats-bloc-content]"></ng-content>
+    <ng-content select="[movies-filters]"></ng-content>
   </div>
   }
 

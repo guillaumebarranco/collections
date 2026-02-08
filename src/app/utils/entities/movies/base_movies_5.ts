@@ -2959,29 +2959,6 @@ export const baseMoviesPage5: BaseMovie[] = [
     saga: '',
   },
   {
-    title: 'Dracula',
-    director: 'Francis Ford Coppola',
-    actors: [
-      {
-        name: 'Keanu Reeves',
-      },
-      {
-        name: 'Gary Oldman',
-      },
-      {
-        name: 'Winona Ryder',
-      },
-      {
-        name: 'Anthony Hopkins',
-      },
-    ],
-    coverUrl: '/movies_pictures/1071785.webp',
-    releaseDate: '1992-11-13',
-    length: 128,
-    genre: 'Horror',
-    saga: '',
-  },
-  {
     title: 'Little Buddha',
     director: 'Bernardo Bertolucci',
     actors: [

@@ -10,10 +10,14 @@ import {
 import { CommonModule } from '@angular/common';
 import { MovieComponent } from '../../../components/collections/movie/movie.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
-import { SortOption } from '../../../components/sort-dropdown/sort-dropdown.component';
+import {
+  SortDropdownComponent,
+  SortOption,
+} from '../../../components/sort-dropdown/sort-dropdown.component';
 import {
   StatItem,
   StatItemColor,
+  StatsDisplayComponent,
 } from '../../../components/stats-display/stats-display.component';
 import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
 import {
@@ -62,6 +66,8 @@ type RecommendedMovie = Movie & {
     MenuComponent,
     QuizzModalComponent,
     MoviesHeaderComponent,
+    StatsDisplayComponent,
+    SortDropdownComponent,
   ],
   templateUrl: './movies.component.html',
   styleUrls: ['./movies.component.scss'],
@@ -190,10 +196,7 @@ export class MoviesComponent implements OnInit {
   }
 
   sortOptions = computed(() => {
-    if (this.selectedView() === 'watchlist') {
-      return [];
-    }
-    return moviesSortOptions;
+    return moviesSortOptions(this.selectedView());
   });
 
   movieViewOptions: { value: MovieView; label: string }[] = movieViewOptions;
@@ -385,25 +388,35 @@ export class MoviesComponent implements OnInit {
     if (this.isAdminView()) {
       return [];
     }
-    // Utiliser les films filtrés pour les stats
-    const moviesToUse = this.filteredMoviesByYear();
-    const totalDuration = getTotalDuration(moviesToUse);
-    const totalWatchingTime = getTotalWatchingTime(moviesToUse);
 
-    return [
-      {
-        label: 'Durée totale de tous les films',
-        value: totalDuration.formatted,
-        icon: '🎬',
-        color: StatItemColor.SUCCESS,
-      },
-      {
-        label: 'Temps total passé devant des films',
-        value: totalWatchingTime.formatted,
-        icon: '⏱️',
-        color: StatItemColor.PRIMARY,
-      },
-    ];
+    if (
+      this.selectedView() === 'watched' ||
+      this.selectedView() === 'watchlist' ||
+      this.selectedView() === 'toReWatch' ||
+      this.selectedView() === 'cinema'
+    ) {
+      // Utiliser les films filtrés pour les stats
+      const moviesToUse = this.filteredMoviesByYear();
+      const totalDuration = getTotalDuration(moviesToUse);
+      const totalWatchingTime = getTotalWatchingTime(moviesToUse);
+
+      return [
+        {
+          label: 'Durée totale de tous les films',
+          value: totalDuration.formatted,
+          icon: '🎬',
+          color: StatItemColor.SUCCESS,
+        },
+        {
+          label: 'Temps total passé devant des films',
+          value: totalWatchingTime.formatted,
+          icon: '⏱️',
+          color: StatItemColor.PRIMARY,
+        },
+      ];
+    }
+
+    return [];
   });
 
   private loadParamsFromUrl(queryParams: Params) {
@@ -427,15 +440,6 @@ export class MoviesComponent implements OnInit {
       );
       if (validSort) {
         this.selectedSort.set(queryParams['sort']);
-      }
-    }
-
-    if (queryParams['year']) {
-      const validYear = this.yearFilterOptions.find(
-        (opt) => opt.value === queryParams['year']
-      );
-      if (validYear) {
-        this.selectedYearFilter.set(queryParams['year']);
       }
     }
   }
@@ -480,6 +484,30 @@ export class MoviesComponent implements OnInit {
 
   onViewChange(view: MovieView) {
     this.selectedView.set(view);
+
+    // Réinitialiser les filtres et tris lors du changement de vue
+    this.selectedYearFilter.set('all');
+    this.searchTerm.set('');
+
+    // Réinitialiser le tri selon la vue
+    if (
+      view === 'watched' ||
+      view === 'cinema' ||
+      view === 'toReWatch' ||
+      view === 'owned'
+    ) {
+      this.selectedSort.set('lastViewedDate');
+    } else if (view === 'actors') {
+      // Première option de tri pour les acteurs
+      this.selectedSort.set('actor-count');
+    } else if (view === 'directors') {
+      // Première option de tri pour les réalisateurs
+      this.selectedSort.set('director-count');
+    } else {
+      // Pour watchlist, sagas, recommendations : pas de tri ou tri par défaut
+      this.selectedSort.set('title');
+    }
+
     if (view === 'recommendations') {
       void this.loadRecommendations();
     }
@@ -714,16 +742,10 @@ export class MoviesComponent implements OnInit {
         (opt: { value: string; label: string }) => opt.value === parsed.sort
       )
     ) {
+      console.log('parsed.sort', parsed.sort);
       this.selectedSort.set(parsed.sort);
     }
-    if (
-      parsed.year &&
-      this.yearFilterOptions.some(
-        (opt: { value: string; label: string }) => opt.value === parsed.year
-      )
-    ) {
-      this.selectedYearFilter.set(parsed.year);
-    }
+
     this.isLoadingPreferences = false;
   }
 

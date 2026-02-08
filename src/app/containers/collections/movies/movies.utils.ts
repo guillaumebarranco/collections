@@ -18,7 +18,71 @@ export const allYearsSince2000 = [
   2000,
 ];
 
-export const moviesSortOptions: { value: string; label: string }[] = [
+export const moviesSortOptions = (
+  selectedView: MovieView
+): { value: string; label: string }[] => {
+  if (
+    selectedView === 'watched' ||
+    selectedView === 'cinema' ||
+    selectedView === 'toReWatch' ||
+    selectedView === 'owned'
+  ) {
+    return viewedMoviesSortOptions;
+  }
+
+  if (selectedView === 'watchlist') {
+    return [];
+  }
+
+  if (selectedView === 'actors') {
+    return actorsMoviesSortOptions;
+  }
+
+  if (selectedView === 'directors') {
+    return directorsMoviesSortOptions;
+  }
+
+  return [];
+};
+
+export const actorsMoviesSortOptions: { value: string; label: string }[] = [
+  { value: 'actor-count', label: 'Nombre de films' },
+  { value: 'actor-user-rating', label: 'Acteur le mieux noté par vous' },
+  {
+    value: 'actor-global-rating',
+    label: 'Acteur le mieux noté par les utilisateurs',
+  },
+  {
+    value: 'actor-seen-count',
+    label: 'Acteur avec le plus de films vus par vous',
+  },
+  {
+    value: 'actor-rewatched-count',
+    label: 'Acteur avec le plus de films revus par vous',
+  },
+];
+
+export const directorsMoviesSortOptions: { value: string; label: string }[] = [
+  { value: 'director-count', label: 'Nombre de films' },
+  {
+    value: 'director-user-rating',
+    label: 'Réalisateur le mieux noté par vous',
+  },
+  {
+    value: 'director-global-rating',
+    label: 'Réalisateur le mieux noté par les utilisateurs',
+  },
+  {
+    value: 'director-seen-count',
+    label: 'Réalisateur avec le plus de films vus par vous',
+  },
+  {
+    value: 'director-rewatched-count',
+    label: 'Réalisateur avec le plus de films revus par vous',
+  },
+];
+
+export const viewedMoviesSortOptions: { value: string; label: string }[] = [
   { value: 'title', label: 'Titre (A-Z)' },
   { value: 'title-desc', label: 'Titre (Z-A)' },
   { value: 'releaseDate', label: 'Date de sortie (récent)' },
@@ -216,16 +280,105 @@ export const getMoviesByActor = ({
     })
     .filter((group) => group.seenMovies.length > 1);
 
-  groups.sort((a, b) => {
-    const countA = a.seenMovies.length + a.missingMovies.length;
-    const countB = b.seenMovies.length + b.missingMovies.length;
-    if (countB !== countA) {
-      return countB - countA;
+  // Filtrer les acteurs avec au moins 5 films notés pour les tris basés sur les notes
+  const filteredGroups =
+    selectedSort === 'actor-user-rating' ||
+    selectedSort === 'actor-global-rating'
+      ? groups.filter((group) => {
+          const ratedMovies = group.seenMovies.filter(
+            (movie) => movie.rating && movie.rating > 0
+          );
+          return ratedMovies.length >= 5;
+        })
+      : groups;
+
+  // Appliquer le tri selon selectedSort
+  filteredGroups.sort((a, b) => {
+    switch (selectedSort) {
+      case 'actor-count': {
+        const countA = a.seenMovies.length + a.missingMovies.length;
+        const countB = b.seenMovies.length + b.missingMovies.length;
+        if (countB !== countA) {
+          return countB - countA;
+        }
+        return a.actor.localeCompare(b.actor);
+      }
+      case 'actor-user-rating': {
+        // Calculer la moyenne des notes de l'utilisateur pour chaque acteur
+        // (seulement pour les films notés)
+        const ratedMoviesA = a.seenMovies.filter(
+          (movie) => movie.rating && movie.rating > 0
+        );
+        const ratedMoviesB = b.seenMovies.filter(
+          (movie) => movie.rating && movie.rating > 0
+        );
+        const avgRatingA =
+          ratedMoviesA.reduce((sum, movie) => sum + (movie.rating || 0), 0) /
+          (ratedMoviesA.length || 1);
+        const avgRatingB =
+          ratedMoviesB.reduce((sum, movie) => sum + (movie.rating || 0), 0) /
+          (ratedMoviesB.length || 1);
+        if (Math.abs(avgRatingB - avgRatingA) > 0.01) {
+          return avgRatingB - avgRatingA;
+        }
+        return a.actor.localeCompare(b.actor);
+      }
+      case 'actor-global-rating': {
+        // Pour l'instant, utiliser la même logique que actor-user-rating
+        // (peut être amélioré plus tard avec les notes des autres utilisateurs)
+        // (seulement pour les films notés)
+        const ratedMoviesA = a.seenMovies.filter(
+          (movie) => movie.rating && movie.rating > 0
+        );
+        const ratedMoviesB = b.seenMovies.filter(
+          (movie) => movie.rating && movie.rating > 0
+        );
+        const avgRatingA =
+          ratedMoviesA.reduce((sum, movie) => sum + (movie.rating || 0), 0) /
+          (ratedMoviesA.length || 1);
+        const avgRatingB =
+          ratedMoviesB.reduce((sum, movie) => sum + (movie.rating || 0), 0) /
+          (ratedMoviesB.length || 1);
+        if (Math.abs(avgRatingB - avgRatingA) > 0.01) {
+          return avgRatingB - avgRatingA;
+        }
+        return a.actor.localeCompare(b.actor);
+      }
+      case 'actor-seen-count': {
+        // Trier par le nombre de films vus par l'utilisateur
+        const countA = a.seenMovies.length;
+        const countB = b.seenMovies.length;
+        if (countB !== countA) {
+          return countB - countA;
+        }
+        return a.actor.localeCompare(b.actor);
+      }
+      case 'actor-rewatched-count': {
+        // Trier par le nombre de films revus (timesWatched > 1)
+        const rewatchedCountA = a.seenMovies.filter(
+          (movie) => movie.timesWatched && movie.timesWatched > 1
+        ).length;
+        const rewatchedCountB = b.seenMovies.filter(
+          (movie) => movie.timesWatched && movie.timesWatched > 1
+        ).length;
+        if (rewatchedCountB !== rewatchedCountA) {
+          return rewatchedCountB - rewatchedCountA;
+        }
+        return a.actor.localeCompare(b.actor);
+      }
+      default: {
+        // Tri par défaut : nombre de films puis ordre alphabétique
+        const countA = a.seenMovies.length + a.missingMovies.length;
+        const countB = b.seenMovies.length + b.missingMovies.length;
+        if (countB !== countA) {
+          return countB - countA;
+        }
+        return a.actor.localeCompare(b.actor);
+      }
     }
-    return a.actor.localeCompare(b.actor);
   });
 
-  return groups;
+  return filteredGroups;
 };
 
 export const getMoviesByDirector = ({
@@ -279,14 +432,103 @@ export const getMoviesByDirector = ({
     }
   );
 
-  groups.sort((a, b) => {
-    const countA = a.seenMovies.length + a.missingMovies.length;
-    const countB = b.seenMovies.length + b.missingMovies.length;
-    if (countB !== countA) {
-      return countB - countA;
+  // Filtrer les réalisateurs avec au moins 5 films notés pour les tris basés sur les notes
+  const filteredGroups =
+    selectedSort === 'director-user-rating' ||
+    selectedSort === 'director-global-rating'
+      ? groups.filter((group) => {
+          const ratedMovies = group.seenMovies.filter(
+            (movie) => movie.rating && movie.rating > 0
+          );
+          return ratedMovies.length >= 5;
+        })
+      : groups;
+
+  // Appliquer le tri selon selectedSort
+  filteredGroups.sort((a, b) => {
+    switch (selectedSort) {
+      case 'director-count': {
+        const countA = a.seenMovies.length + a.missingMovies.length;
+        const countB = b.seenMovies.length + b.missingMovies.length;
+        if (countB !== countA) {
+          return countB - countA;
+        }
+        return a.director.localeCompare(b.director);
+      }
+      case 'director-user-rating': {
+        // Calculer la moyenne des notes de l'utilisateur pour chaque réalisateur
+        // (seulement pour les films notés)
+        const ratedMoviesA = a.seenMovies.filter(
+          (movie) => movie.rating && movie.rating > 0
+        );
+        const ratedMoviesB = b.seenMovies.filter(
+          (movie) => movie.rating && movie.rating > 0
+        );
+        const avgRatingA =
+          ratedMoviesA.reduce((sum, movie) => sum + (movie.rating || 0), 0) /
+          (ratedMoviesA.length || 1);
+        const avgRatingB =
+          ratedMoviesB.reduce((sum, movie) => sum + (movie.rating || 0), 0) /
+          (ratedMoviesB.length || 1);
+        if (Math.abs(avgRatingB - avgRatingA) > 0.01) {
+          return avgRatingB - avgRatingA;
+        }
+        return a.director.localeCompare(b.director);
+      }
+      case 'director-global-rating': {
+        // Pour l'instant, utiliser la même logique que director-user-rating
+        // (peut être amélioré plus tard avec les notes des autres utilisateurs)
+        // (seulement pour les films notés)
+        const ratedMoviesA = a.seenMovies.filter(
+          (movie) => movie.rating && movie.rating > 0
+        );
+        const ratedMoviesB = b.seenMovies.filter(
+          (movie) => movie.rating && movie.rating > 0
+        );
+        const avgRatingA =
+          ratedMoviesA.reduce((sum, movie) => sum + (movie.rating || 0), 0) /
+          (ratedMoviesA.length || 1);
+        const avgRatingB =
+          ratedMoviesB.reduce((sum, movie) => sum + (movie.rating || 0), 0) /
+          (ratedMoviesB.length || 1);
+        if (Math.abs(avgRatingB - avgRatingA) > 0.01) {
+          return avgRatingB - avgRatingA;
+        }
+        return a.director.localeCompare(b.director);
+      }
+      case 'director-seen-count': {
+        // Trier par le nombre de films vus par l'utilisateur
+        const countA = a.seenMovies.length;
+        const countB = b.seenMovies.length;
+        if (countB !== countA) {
+          return countB - countA;
+        }
+        return a.director.localeCompare(b.director);
+      }
+      case 'director-rewatched-count': {
+        // Trier par le nombre de films revus (timesWatched > 1)
+        const rewatchedCountA = a.seenMovies.filter(
+          (movie) => movie.timesWatched && movie.timesWatched > 1
+        ).length;
+        const rewatchedCountB = b.seenMovies.filter(
+          (movie) => movie.timesWatched && movie.timesWatched > 1
+        ).length;
+        if (rewatchedCountB !== rewatchedCountA) {
+          return rewatchedCountB - rewatchedCountA;
+        }
+        return a.director.localeCompare(b.director);
+      }
+      default: {
+        // Tri par défaut : nombre de films puis ordre alphabétique
+        const countA = a.seenMovies.length + a.missingMovies.length;
+        const countB = b.seenMovies.length + b.missingMovies.length;
+        if (countB !== countA) {
+          return countB - countA;
+        }
+        return a.director.localeCompare(b.director);
+      }
     }
-    return a.director.localeCompare(b.director);
   });
 
-  return groups.filter((group) => group.seenMovies.length > 1);
+  return filteredGroups.filter((group) => group.seenMovies.length > 1);
 };

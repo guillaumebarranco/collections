@@ -8,29 +8,16 @@ import {
   signal,
 } from '@angular/core';
 import { ViewToggleComponent } from '../../../../components/view-toggle/view-toggle.component';
-import {
-  SortDropdownComponent,
-  SortOption,
-} from '../../../../components/sort-dropdown/sort-dropdown.component';
-import { StatsDisplayComponent } from '../../../../components/stats-display/stats-display.component';
 import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
 import { AuthService } from '../../../../core/auth.service';
 import { MovieView } from '../movies.utils';
-import { StatItem } from '../../../../components/stats-display/stats-display.component';
 import { FormsModule } from '@angular/forms';
 import { AddMovieComponent } from '../../../add/add-movie/add-movie.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-movies-header',
-  imports: [
-    RouterModule,
-    FormsModule,
-    ViewToggleComponent,
-    SortDropdownComponent,
-    StatsDisplayComponent,
-    MatDialogModule,
-  ],
+  imports: [RouterModule, FormsModule, ViewToggleComponent, MatDialogModule],
   templateUrl: './movies-header.component.html',
   styleUrls: ['./movies-header.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -46,23 +33,18 @@ export class MoviesHeaderComponent {
   allMoviesCount = input<number>(0);
   filteredMoviesByYearCount = input<number>(0);
   recommendedMoviesCount = input<number>(0);
-  sortOptions = input<SortOption[]>([]);
-  yearFilterOptions = input<SortOption[]>([]);
   visibleMovieViewOptions = input<
     {
       value: MovieView;
       label: string;
     }[]
   >([]);
-  stats = input.required<StatItem[]>();
 
   private readonly authService = inject(AuthService);
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
   private readonly dialog = inject(MatDialog);
 
-  selectedSort = signal<string>('lastViewedDate');
-  selectedYearFilter = signal<string>('all');
   searchTerm = signal<string>('');
 
   moviesPageTitle = computed(() => {

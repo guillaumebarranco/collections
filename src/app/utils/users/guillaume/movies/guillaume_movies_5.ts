@@ -554,18 +554,6 @@ export const guillaumeMoviesPage5: UserMovies = [
     watchPriority: 1,
   },
   {
-    title: 'Léon',
-    director: 'Luc Besson',
-    rating: 3.75,
-    timesWatched: 5,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-  },
-  {
     title: 'Cars 2',
     director: 'John Lasseter, Brad Lewis',
     rating: 3,

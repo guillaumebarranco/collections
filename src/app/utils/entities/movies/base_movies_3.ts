@@ -1138,15 +1138,4 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
   },
-
-  {
-    title: 'Léon',
-    director: 'Luc Besson',
-    actors: [{ name: 'Jean Reno' }, { name: 'Natalie Portman' }],
-    coverUrl: '/movies_pictures/leon.jpg',
-    releaseDate: '1994-09-14',
-    length: 110,
-    genre: 'Action',
-    saga: '',
-  },
 ];

@@ -6,16 +6,39 @@
     [filteredMoviesByYearCount]="filteredMoviesByYear().length"
     [recommendedMoviesCount]="recommendedMovies().length"
     [allMoviesCount]="allMovies().length"
-    [stats]="stats()"
     [visibleMovieViewOptions]="visibleMovieViewOptions()"
-    [sortOptions]="sortOptions()"
-    [yearFilterOptions]="yearFilterOptions"
     (onViewChange)="onViewChange($any($event))"
     (onOpenViewConfig)="openViewConfig()"
-    (onYearFilterChange)="onYearFilterChange($event)"
     (onSearchChange)="onSearchChange($event)"
-    (onSortChange)="onSortChange($event)"
-  ></app-movies-header>
+  >
+    <app-stats-display
+      movies-stats-bloc-content
+      [stats]="stats()"
+      [count]="filteredMoviesByYear().length"
+      countLabel="films"
+    >
+    </app-stats-display>
+    <div class="movies-filters" movies-filters>
+      <div class="movies-filters-item">
+        <app-sort-dropdown
+          label="Filtrer par année :"
+          [sortOptions]="yearFilterOptions"
+          [selectedSort]="selectedYearFilter()"
+          (sortChange)="onYearFilterChange($event)"
+        >
+        </app-sort-dropdown>
+      </div>
+      @if(sortOptions().length > 0) {
+      <app-sort-dropdown
+        label="Trier par :"
+        [sortOptions]="sortOptions()"
+        [selectedSort]="selectedSort()"
+        (sortChange)="onSortChange($event)"
+      >
+      </app-sort-dropdown>
+      }
+    </div>
+  </app-movies-header>
 
   @if(selectedView() === 'watched') {
   <p>Résultats affichés: {{ sortedMovies().length }}</p>
