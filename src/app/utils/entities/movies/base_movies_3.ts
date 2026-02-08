@@ -971,7 +971,7 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Black Swan',
     director: 'Darren Aronofsky',
-    actors: [{ name: 'Natalie Portman' }],
+    actors: [{ name: 'Natalie Portman' }, { name: 'Vincent Cassel' }],
     coverUrl: '/movies_pictures/black_swan.jpg',
     releaseDate: '2010-12-03',
     length: 108,
@@ -1025,7 +1025,7 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Le Choc des Titans',
     director: 'Louis Leterrier',
-    actors: [{ name: 'Sam Worthington' }],
+    actors: [{ name: 'Sam Worthington' }, { name: 'Liam Neeson' }],
     coverUrl: '/movies_pictures/40075-clash-of-the-titans-0-150-0-225-crop.jpg',
     releaseDate: '2010-04-02',
     length: 106,

@@ -189,6 +189,9 @@ export const baseMoviesDc: BaseMovie[] = [
       {
         name: 'Jeremy Irons',
       },
+      {
+        name: 'Amy Adams',
+      },
     ],
     coverUrl: '/movies_pictures/batman_v_superman.jpg',
     releaseDate: '2016-03-25',
@@ -257,6 +260,9 @@ export const baseMoviesDc: BaseMovie[] = [
       {
         name: 'Jeremy Irons',
       },
+      {
+        name: 'Amy Adams',
+      },
     ],
     coverUrl:
       '/movies_pictures/709530-zack-snyder-s-justice-league-0-150-0-225-crop.jpg',
@@ -288,6 +294,18 @@ export const baseMoviesDc: BaseMovie[] = [
     actors: [
       {
         name: 'Henry Cavill',
+      },
+      {
+        name: 'Amy Adams',
+      },
+      {
+        name: 'Laurence Fishburne',
+      },
+      {
+        name: 'Kevin Costner',
+      },
+      {
+        name: 'Russell Crowe',
       },
     ],
     coverUrl: '/movies_pictures/man_of_steel.jpg',

@@ -313,7 +313,7 @@ export const baseMoviesMcu: BaseMovie[] = [
         name: 'Chris Hemsworth',
       },
       {
-        name: 'Nathalie Portman',
+        name: 'Natalie Portman',
       },
       {
         name: 'Tom Hiddleston',
@@ -333,7 +333,7 @@ export const baseMoviesMcu: BaseMovie[] = [
         name: 'Chris Hemsworth',
       },
       {
-        name: 'Nathalie Portman',
+        name: 'Natalie Portman',
       },
     ],
     coverUrl:
@@ -368,7 +368,7 @@ export const baseMoviesMcu: BaseMovie[] = [
         name: 'Chris Hemsworth',
       },
       {
-        name: 'Nathalie Portman',
+        name: 'Natalie Portman',
       },
       {
         name: 'Christian Bale',

@@ -857,7 +857,7 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'V pour Vendetta',
     director: 'James McTeigue',
-    actors: [{ name: 'Hugo Weaving' }],
+    actors: [{ name: 'Hugo Weaving' }, { name: 'Natalie Portman' }],
     coverUrl: '/movies_pictures/51400-v-for-vendetta-0-150-0-225-crop.jpg',
     releaseDate: '2006-03-17',
     length: 132,

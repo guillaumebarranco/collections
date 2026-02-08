@@ -88,7 +88,11 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Star Wars : Épisode 1 - La menace fantôme',
     director: 'George Lucas',
-    actors: [{ name: 'Liam Neeson' }],
+    actors: [
+      { name: 'Liam Neeson' },
+      { name: 'Ewan McGregor' },
+      { name: 'Natalie Portman' },
+    ],
     coverUrl:
       '/movies_pictures/50711-star-wars-episode-i-the-phantom-menace-0-150-0-225-crop.jpg',
     releaseDate: '1999-05-19',
@@ -99,7 +103,11 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: "Star Wars: Episode 2 - L'attaque des clones",
     director: 'George Lucas',
-    actors: [{ name: 'Hayden Christensen' }],
+    actors: [
+      { name: 'Hayden Christensen' },
+      { name: 'Ewan McGregor' },
+      { name: 'Natalie Portman' },
+    ],
     coverUrl:
       '/movies_pictures/50710-star-wars-episode-ii-attack-of-the-clones-0-150-0-225-crop.jpg',
     releaseDate: '2002-05-16',
@@ -110,7 +118,11 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Star Wars : Épisode 3 - La revanche des Sith',
     director: 'George Lucas',
-    actors: [{ name: 'Hayden Christensen' }],
+    actors: [
+      { name: 'Hayden Christensen' },
+      { name: 'Ewan McGregor' },
+      { name: 'Natalie Portman' },
+    ],
     coverUrl:
       '/movies_pictures/50709-star-wars-episode-iii-revenge-of-the-sith-0-150-0-225-crop.jpg',
     releaseDate: '2005-05-19',
@@ -121,7 +133,11 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Star Wars : Episode 4 - Un nouvel espoir',
     director: 'George Lucas',
-    actors: [{ name: 'Mark Hamill' }],
+    actors: [
+      { name: 'Mark Hamill' },
+      { name: 'Harrison Ford' },
+      { name: 'Carrie Fisher' },
+    ],
     coverUrl: '/movies_pictures/star_wars_nouvel_espoir.jpg',
     releaseDate: '1977-05-25',
     length: 121,
@@ -131,7 +147,11 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: "Star Wars : Episode 5 - L'empire contre-attaque",
     director: 'Irvin Kershner',
-    actors: [{ name: 'Mark Hamill' }],
+    actors: [
+      { name: 'Mark Hamill' },
+      { name: 'Harrison Ford' },
+      { name: 'Carrie Fisher' },
+    ],
     coverUrl: '/movies_pictures/star_wars_empire_contre_attaque.jpg',
     releaseDate: '1980-05-21',
     length: 124,
@@ -141,7 +161,11 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Star Wars : Episode 6 - Le retour du Jedi',
     director: 'Richard Marquand',
-    actors: [{ name: 'Mark Hamill' }],
+    actors: [
+      { name: 'Mark Hamill' },
+      { name: 'Harrison Ford' },
+      { name: 'Carrie Fisher' },
+    ],
     coverUrl: '/movies_pictures/star_wars_retour_du_jedi.jpg',
     releaseDate: '1983-05-25',
     length: 131,
@@ -151,7 +175,11 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Star Wars : Episode 7 - Le réveil de la Force',
     director: 'J.J. Abrams',
-    actors: [{ name: 'Daisy Ridley' }],
+    actors: [
+      { name: 'Daisy Ridley' },
+      { name: 'John Boyega' },
+      { name: 'Adam Driver' },
+    ],
     coverUrl: '/movies_pictures/star_wars_le_reveil_de_la_force.jpg',
     releaseDate: '2015-12-18',
     length: 138,
@@ -164,6 +192,12 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     actors: [
       {
         name: 'Daisy Ridley',
+      },
+      {
+        name: 'John Boyega',
+      },
+      {
+        name: 'Adam Driver',
       },
     ],
     coverUrl: '/movies_pictures/star_wars_le_dernier_jedi.jpg',
@@ -178,6 +212,12 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     actors: [
       {
         name: 'Daisy Ridley',
+      },
+      {
+        name: 'John Boyega',
+      },
+      {
+        name: 'Adam Driver',
       },
     ],
     coverUrl:

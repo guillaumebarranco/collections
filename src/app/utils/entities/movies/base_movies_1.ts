@@ -1116,9 +1116,13 @@ export const baseMoviesPage1: BaseMovie[] = [
     saga: '',
   },
   {
-    title: 'Attrape-moi si tu peux',
+    title: 'Arrête-moi si tu peux',
     director: 'Steven Spielberg',
-    actors: [{ name: 'Leonardo DiCaprio' }, { name: 'Tom Hanks' }],
+    actors: [
+      { name: 'Leonardo DiCaprio' },
+      { name: 'Tom Hanks' },
+      { name: 'Amy Adams' },
+    ],
     coverUrl: '/movies_pictures/51484-catch-me-if-you-can-0-150-0-225-crop.jpg',
     releaseDate: '2002-12-25',
     length: 141,

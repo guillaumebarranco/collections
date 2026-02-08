@@ -1431,7 +1431,7 @@ export const amandineMovies1: UserMovies = [
     watchPriority: 1,
   },
   {
-    title: 'Attrape-moi si tu peux',
+    title: 'Arrête-moi si tu peux',
     director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 20,

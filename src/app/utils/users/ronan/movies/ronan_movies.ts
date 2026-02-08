@@ -6939,7 +6939,7 @@ export const ronanMovies: UserMovies = [
     watchPriority: 1,
   },
   {
-    title: 'Attrape-moi si tu peux',
+    title: 'Arrête-moi si tu peux',
     director: 'Steven Spielberg',
     rating: 4,
     timesWatched: 1,

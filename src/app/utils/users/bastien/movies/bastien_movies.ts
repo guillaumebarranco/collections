@@ -254,7 +254,7 @@ export const bastienMovies: UserMovies = [
     watchPriority: 1,
   },
   {
-    title: 'Attrape-moi si tu peux',
+    title: 'Arrête-moi si tu peux',
     director: 'Steven Spielberg',
     rating: 3,
     timesWatched: 1,

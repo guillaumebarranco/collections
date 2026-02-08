@@ -4261,6 +4261,12 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       {
         name: 'Gal Gadot',
       },
+      {
+        name: 'Amy Adams',
+      },
+      {
+        name: 'Jeremy Irons',
+      },
     ],
     coverUrl: '/movies_pictures/justice_league.jpg',
     releaseDate: '2017-11-15',
@@ -5823,6 +5829,9 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       {
         name: 'Bill Murray',
       },
+      {
+        name: 'Jean Dujardin',
+      },
     ],
     coverUrl: '/movies_pictures/the_monuments_men.jpg',
     releaseDate: '2014-03-12',
@@ -6961,20 +6970,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     coverUrl: '/movies_pictures/bad_teacher.jpg',
     releaseDate: '2011-07-27',
     length: 92,
-    genre: 'Comédie',
-    saga: '',
-  },
-  {
-    title: 'Sex Friends',
-    director: 'Ivan Reitman',
-    actors: [
-      {
-        name: 'Natalie Portman',
-      },
-    ],
-    coverUrl: '/movies_pictures/no_strings_attached.jpg',
-    releaseDate: '2011-02-16',
-    length: 108,
     genre: 'Comédie',
     saga: '',
   },

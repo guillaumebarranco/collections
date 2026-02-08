@@ -8,6 +8,9 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'François Civil',
       },
+      {
+        name: 'Joséphine Japy',
+      },
     ],
     coverUrl:
       '/movies_pictures/498516-love-at-second-sight-0-150-0-225-crop.jpg',
@@ -294,7 +297,7 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Sex Friends',
     director: 'Ivan Reitman',
-    actors: [{ name: 'Natalie Portman' }],
+    actors: [{ name: 'Natalie Portman' }, { name: 'Ashton Kutcher' }],
     coverUrl:
       '/movies_pictures/no-strings-attached-original-0-150-0-225-crop.jpg',
     releaseDate: '2011-01-21',
@@ -521,7 +524,12 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Love Actually',
     director: 'Richard Curtis',
-    actors: [{ name: 'Hugh Grant' }],
+    actors: [
+      { name: 'Hugh Grant' },
+      { name: 'Emma Thompson' },
+      { name: 'Keira Knightley' },
+      { name: 'Liam Neeson' },
+    ],
     coverUrl: '/movies_pictures/51602-love-actually-0-150-0-225-crop.jpg',
     releaseDate: '2003-11-07',
     length: 135,
@@ -615,7 +623,7 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: "L'amour ouf",
     director: 'Claude Zidi Jr.',
-    actors: [{ name: 'François Civil' }],
+    actors: [{ name: 'François Civil' }, { name: 'Adèle Exarchopoulos' }],
     coverUrl:
       '/movies_pictures/863617-beating-hearts-2024-0-150-0-225-crop.jpg',
     releaseDate: '2024-01-31',

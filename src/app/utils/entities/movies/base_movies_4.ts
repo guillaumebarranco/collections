@@ -34,7 +34,11 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Le Loup de Wall Street',
     director: 'Martin Scorsese',
-    actors: [{ name: 'Leonardo DiCaprio' }, { name: 'Margot Robbie' }],
+    actors: [
+      { name: 'Leonardo DiCaprio' },
+      { name: 'Margot Robbie' },
+      { name: 'Jean Dujardin' },
+    ],
     coverUrl:
       '/movies_pictures/86114-the-wolf-of-wall-street-0-150-0-225-crop.jpg',
     releaseDate: '2013-12-25',
