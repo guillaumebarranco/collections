@@ -68,7 +68,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     releaseDate: '',
   },
   {
-    title: "La Nef du Crépuscule",
+    title: 'La Nef du Crépuscule',
     author: 'Robin Hobb',
     coverUrl: '/books_pictures/B17ujV8KQ3L._UF1000,1000_QL80_.jpg',
     pages: 416,
@@ -79,7 +79,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     releaseDate: '',
   },
   {
-    title: "Le Poison de la Vengeance",
+    title: 'Le Poison de la Vengeance',
     author: 'Robin Hobb',
     coverUrl: '/books_pictures/71tHCd+juBL._AC_UF1000,1000_QL80_.jpg',
     pages: 352,
@@ -90,7 +90,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     releaseDate: '',
   },
   {
-    title: "La Voie Magique",
+    title: 'La Voie Magique',
     author: 'Robin Hobb',
     coverUrl: '/books_pictures/L-Aain-royal (1).jpg',
     pages: 384,
@@ -101,7 +101,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     releaseDate: '',
   },
   {
-    title: "La Reine Solitaire",
+    title: 'La Reine Solitaire',
     author: 'Robin Hobb',
     coverUrl: '/books_pictures/9782290383315.jpg',
     pages: 384,
@@ -112,7 +112,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     releaseDate: '',
   },
   {
-    title: "Le Prophète Blanc",
+    title: 'Le Prophète Blanc',
     author: 'Robin Hobb',
     coverUrl: '/books_pictures/9782290383360.jpg',
     pages: 411,
@@ -123,7 +123,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     releaseDate: '',
   },
   {
-    title: "La Secte Maudite",
+    title: 'La Secte Maudite',
     author: 'Robin Hobb',
     coverUrl: '/books_pictures/L-Aain-royal (2).jpg',
     pages: 445,
@@ -134,7 +134,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     releaseDate: '',
   },
   {
-    title: "Les Secrets de Castelcerf",
+    title: 'Les Secrets de Castelcerf',
     author: 'Robin Hobb',
     coverUrl: '/books_pictures/B1toxBHfsJL._UF1000,1000_QL80_.jpg',
     pages: 471,
@@ -145,7 +145,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     releaseDate: '',
   },
   {
-    title: "Serments et Deuils",
+    title: 'Serments et Deuils',
     author: 'Robin Hobb',
     coverUrl: '/books_pictures/B1lUlSj6qbL._UF1000,1000_QL80_.jpg',
     pages: 300,
@@ -156,7 +156,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     releaseDate: '',
   },
   {
-    title: "Le Dragon des Glaces",
+    title: 'Le Dragon des Glaces',
     author: 'Robin Hobb',
     coverUrl: '/books_pictures/B1q-2ak7erL._UF1000,1000_QL80_.jpg',
     pages: 381,
@@ -178,7 +178,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     releaseDate: '',
   },
   {
-    title: "Adieux et Retrouvailles",
+    title: 'Adieux et Retrouvailles',
     author: 'Robin Hobb',
     coverUrl: '/books_pictures/L-Aain-royal (4).jpg',
     pages: 378,
@@ -211,7 +211,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     releaseDate: '',
   },
   {
-    title: "En Quête de Vengeance",
+    title: 'En Quête de Vengeance',
     author: 'Robin Hobb',
     coverUrl: '/books_pictures/9782290403341-475x500-1.webp',
     pages: 462,
@@ -279,7 +279,7 @@ export const baseBooksFromKevin: BaseBook[] = [
   {
     title: "N'oublie Jamais",
     author: 'Jay Kristoff',
-    coverUrl: 'https://m.media-amazon.com/images/I/71F79CtIiNL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/n-oublie-jamais.jpg',
     pages: 768,
     genre: 'Fantasy',
     saga: 'Nevernight',
@@ -290,7 +290,7 @@ export const baseBooksFromKevin: BaseBook[] = [
   {
     title: 'Les Grands Jeux',
     author: 'Jay Kristoff',
-    coverUrl: 'https://images.epagine.fr/321/9782290364321_1_75.jpg',
+    coverUrl: '/books_pictures/grands-jeux-kristoff.jpg',
     pages: 800,
     genre: 'Fantasy',
     saga: 'Nevernight',
@@ -301,7 +301,7 @@ export const baseBooksFromKevin: BaseBook[] = [
   {
     title: "L'Aube Obscure",
     author: 'Jay Kristoff',
-    coverUrl: 'https://static.fnac-static.com/multimedia/PE/Images/FR/NR/1a/40/e7/15155226/1507-1/tsp20250201080049/Nevernight.jpg',
+    coverUrl: '/books_pictures/aube-obscure.jpg',
     pages: 800,
     genre: 'Fantasy',
     saga: 'Nevernight',
@@ -446,7 +446,8 @@ export const baseBooksFromKevin: BaseBook[] = [
   {
     title: 'La Compagnie Noire',
     author: 'Glen Cook',
-    coverUrl: 'https://cdn1.booknode.com/book_cover/727/les_annales_de_la_compagnie_noire_tome_1_la_compagnie_noire-727468-264-432.webp',
+    coverUrl:
+      '/books_pictures/les_annales_de_la_compagnie_noire_tome_1_la_compagnie_noire-727468-264-432.jpg',
     pages: 379,
     genre: 'Fantasy',
     saga: 'Les Annales de la Compagnie Noire',
@@ -457,7 +458,7 @@ export const baseBooksFromKevin: BaseBook[] = [
   {
     title: 'Le Château Noir',
     author: 'Glen Cook',
-    coverUrl: 'https://m.media-amazon.com/images/I/51SGslHFnLL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/chateau-noir.jpg',
     pages: 413,
     genre: 'Fantasy',
     saga: 'Les Annales de la Compagnie Noire',
@@ -468,7 +469,7 @@ export const baseBooksFromKevin: BaseBook[] = [
   {
     title: 'La Rose Blanche',
     author: 'Glen Cook',
-    coverUrl: 'https://images2.medimops.eu/product/9be238/M0229033068X-large.jpg',
+    coverUrl: '/books_pictures/rose-blanche.jpg',
     pages: 445,
     genre: 'Fantasy',
     saga: 'Les Annales de la Compagnie Noire',
@@ -589,7 +590,7 @@ export const baseBooksFromKevin: BaseBook[] = [
   {
     title: 'Le Livre des Radieux (2/2)',
     author: 'Brandon Sanderson',
-    coverUrl: 'https://static.fnac-static.com/multimedia/PE/Images/FR/NR/d1/26/84/8660689/1540-1/tsp20251015155425/Le-Livre-des-Radieux-Volume-2-Les-Archives-de-Roshar-Tome-2.jpg',
+    coverUrl: '/books_pictures/livre-radieux-2.jpg',
     pages: 774,
     genre: 'Fantasy',
     saga: 'Les Archives de Roshar',
@@ -645,7 +646,7 @@ export const baseBooksFromKevin: BaseBook[] = [
   {
     title: 'Le Don de Mort',
     author: 'Anna Triss',
-    coverUrl: 'https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/TITELIVE/0_9782266325356_1_75.jpg',
+    coverUrl: '/books_pictures/don-de-mort.jpg',
     pages: 864,
     genre: 'Fantasy',
     saga: 'La Guilde des Ombres',
@@ -656,7 +657,7 @@ export const baseBooksFromKevin: BaseBook[] = [
   {
     title: 'La Grande Traque',
     author: 'Anna Triss',
-    coverUrl: 'https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/TITELIVE/14_9782266325363_1_75.jpg',
+    coverUrl: '/books_pictures/grande-traque.jpg',
     pages: 864,
     genre: 'Fantasy',
     saga: 'La Guilde des Ombres',
@@ -667,7 +668,7 @@ export const baseBooksFromKevin: BaseBook[] = [
   {
     title: 'Le Don de Vie',
     author: 'Anna Triss',
-    coverUrl: 'https://images.epagine.fr/370/9782266325370_1_75.jpg',
+    coverUrl: '/books_pictures/don-de-vie.jpg',
     pages: 822,
     genre: 'Fantasy',
     saga: 'La Guilde des Ombres',
@@ -676,9 +677,9 @@ export const baseBooksFromKevin: BaseBook[] = [
     releaseDate: '',
   },
   {
-    title: 'L\'Etoile de Feu',
+    title: "L'Etoile de Feu",
     author: 'Anna Triss',
-    coverUrl: 'https://images.epagine.fr/387/9782266325387_1_75.jpg',
+    coverUrl: '/books_pictures/etoile-de-feu.jpg',
     pages: 976,
     genre: 'Fantasy',
     saga: 'La Guilde des Ombres',
@@ -689,7 +690,7 @@ export const baseBooksFromKevin: BaseBook[] = [
   {
     title: 'La Guerre Céleste',
     author: 'Anna Triss',
-    coverUrl: 'https://img.lisez.com/s3fs-public/import/images/POC/P3/9782266325394.jpg',
+    coverUrl: '/books_pictures/guerre-celeste.jpg',
     pages: 816,
     genre: 'Fantasy',
     saga: 'La Guilde des Ombres',
@@ -700,7 +701,7 @@ export const baseBooksFromKevin: BaseBook[] = [
   {
     title: 'La Dixième Prophétie',
     author: 'Anna Triss',
-    coverUrl: 'https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/TITELIVE/68_9782266325400_1_75.jpg',
+    coverUrl: '/books_pictures/dixieme-prophetie.jpg',
     pages: 1176,
     genre: 'Fantasy',
     saga: 'La Guilde des Ombres',
@@ -711,7 +712,7 @@ export const baseBooksFromKevin: BaseBook[] = [
   {
     title: 'Les Jardins de la Lune',
     author: 'Steven Erikson',
-    coverUrl: 'https://m.media-amazon.com/images/I/71w4ln4ecPL.jpg',
+    coverUrl: '/books_pictures/jardins-lune.jpg',
     pages: 1024,
     genre: 'Fantasy',
     saga: 'Le Livre des Martyrs',
@@ -722,7 +723,7 @@ export const baseBooksFromKevin: BaseBook[] = [
   {
     title: 'Les Portes de la Maison des Morts',
     author: 'Steven Erikson',
-    coverUrl: 'https://static.fnac-static.com/multimedia/PE/Images/FR/NR/75/9e/db/14392949/1507-1/tsp20260109090549/Les-Portes-de-la-maison-des-morts-Le-Livre-des-martyrs-Tome-2.jpg',
+    coverUrl: '/books_pictures/portes-maison-morts.jpg',
     pages: 1344,
     genre: 'Fantasy',
     saga: 'Le Livre des Martyrs',
@@ -733,7 +734,7 @@ export const baseBooksFromKevin: BaseBook[] = [
   {
     title: 'Les Souvenirs de la Glace',
     author: 'Steven Erikson',
-    coverUrl: 'https://products-images.di-static.com/image/erikson-steven-le-livre-des-martyrs-tome-3-les-souvenirs-de-la-glace/9782253242338-475x500-1.webp',
+    coverUrl: '/books_pictures/souvenirs-glace.webp',
     pages: 1440,
     genre: 'Fantasy',
     saga: 'Le Livre des Martyrs',
@@ -744,7 +745,7 @@ export const baseBooksFromKevin: BaseBook[] = [
   {
     title: 'La Maison des Chaînes',
     author: 'Steven Erikson',
-    coverUrl: 'https://static.fnac-static.com/multimedia/PE/Images/FR/NR/5c/cc/eb/15453276/1507-1/tsp20250701080217/La-Maison-des-chaines-Le-Livre-des-martyrs-Tome-4.jpg',
+    coverUrl: '/books_pictures/maison-chaines.jpg',
     pages: 1312,
     genre: 'Fantasy',
     saga: 'Le Livre des Martyrs',
@@ -755,7 +756,7 @@ export const baseBooksFromKevin: BaseBook[] = [
   {
     title: 'Les Marées de Minuit',
     author: 'Steven Erikson',
-    coverUrl: 'https://m.media-amazon.com/images/I/910W0kbyo0L._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/marees-minuit.jpg',
     pages: 1184,
     genre: 'Fantasy',
     saga: 'Le Livre des Martyrs',
@@ -899,7 +900,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     releaseDate: '',
   },
   {
-    title: "Tuer la Reine",
+    title: 'Tuer la Reine',
     author: 'Jennifer Estep',
     coverUrl: '/books_pictures/71lmtW2SGuL._AC_UF1000,1000_QL80_.jpg',
     pages: 465,
@@ -910,7 +911,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     releaseDate: '',
   },
   {
-    title: "Défendre le Prince",
+    title: 'Défendre le Prince',
     author: 'Jennifer Estep',
     coverUrl: '/books_pictures/81hqx4l8WSL._UF1000,1000_QL80_.jpg',
     pages: 464,
@@ -921,7 +922,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     releaseDate: '',
   },
   {
-    title: "Écraser le roi",
+    title: 'Écraser le roi',
     author: 'Jennifer Estep',
     coverUrl: '/books_pictures/81mj9OqmjiL.jpg',
     pages: 470,
