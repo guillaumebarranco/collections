@@ -273,7 +273,7 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Chronicle',
     director: 'Josh Trank',
-    actors: [{ name: 'Dane DeHaan' }],
+    actors: [{ name: 'Dane DeHaan' }, { name: 'Michael B. Jordan' }],
     coverUrl: '/movies_pictures/chronicles.jpg',
     releaseDate: '2012-02-03',
     length: 84,
@@ -283,7 +283,7 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Time Out',
     director: 'Andrew Niccol',
-    actors: [{ name: 'Justin Timberlake' }],
+    actors: [{ name: 'Justin Timberlake' }, { name: 'Amanda Seyfried' }],
     coverUrl: '/movies_pictures/16082-in-time-0-150-0-225-crop.jpg',
     releaseDate: '2011-10-28',
     length: 109,

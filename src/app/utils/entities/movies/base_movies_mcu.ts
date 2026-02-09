@@ -100,6 +100,9 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Chadwick Boseman',
       },
+      {
+        name: 'Zoe Saldana',
+      },
     ],
     coverUrl:
       '/movies_pictures/226661-avengers-infinity-war-0-150-0-225-crop.jpg',
@@ -138,6 +141,9 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       {
         name: 'Chadwick Boseman',
+      },
+      {
+        name: 'Zoe Saldana',
       },
     ],
     coverUrl: '/movies_pictures/226660-avengers-endgame-0-150-0-225-crop.jpg',
@@ -458,6 +464,12 @@ export const baseMoviesMcu: BaseMovie[] = [
     actors: [
       {
         name: 'Chadwick Boseman',
+      },
+      {
+        name: 'Forest Whitaker',
+      },
+      {
+        name: 'Michael B. Jordan',
       },
     ],
     coverUrl: '/movies_pictures/209383-black-panther-0-150-0-225-crop.jpg',

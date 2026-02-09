@@ -611,6 +611,8 @@ function removeMovieFromFile(content: string, payload: any) {
     lastViewedDate: '${escapeString(movie.lastViewedDate || '')}',
     seenAtCinema: ${movie.seenAtCinema ?? false},
     owned: ${movie.owned ?? false},
+    wantToSeeAgain: ${movie.wantToSeeAgain ?? false},
+    watchPriority: ${movie.watchPriority ?? 1},
   }`
     )
     .join(',\n');

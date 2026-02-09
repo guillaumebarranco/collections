@@ -438,7 +438,7 @@ export const baseMoviesPage1: BaseMovie[] = [
   {
     title: 'The Terminal',
     director: 'Steven Spielberg',
-    actors: [{ name: 'Tom Hanks' }],
+    actors: [{ name: 'Tom Hanks' }, { name: 'Zoe Saldana' }],
     coverUrl: '/movies_pictures/51527-the-terminal-0-150-0-225-crop.jpg',
     releaseDate: '2004-06-18',
     length: 128,
@@ -1172,7 +1172,7 @@ export const baseMoviesPage1: BaseMovie[] = [
   {
     title: 'Phone Game',
     director: 'Joel Schumacher',
-    actors: [{ name: 'Colin Farrell' }],
+    actors: [{ name: 'Colin Farrell' }, { name: 'Forest Whitaker' }],
     coverUrl: '/movies_pictures/phone_game.jpg',
     releaseDate: '2002-09-10',
     length: 81,

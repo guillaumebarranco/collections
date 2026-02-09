@@ -35,7 +35,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
         name: 'Sam Worthington',
       },
       {
-        name: 'Zoe Saldaña',
+        name: 'Zoe Saldana',
       },
       {
         name: 'Sigourney Weaver',
@@ -113,7 +113,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
         name: 'Sam Worthington',
       },
       {
-        name: 'Zoe Saldaña',
+        name: 'Zoe Saldana',
       },
       {
         name: 'Sigourney Weaver',
@@ -1404,7 +1404,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
         name: 'Karla Sofía Gascón',
       },
       {
-        name: 'Zoe Saldaña',
+        name: 'Zoe Saldana',
       },
       {
         name: 'Selena Gomez',
@@ -4848,6 +4848,9 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       {
         name: 'Karl Urban',
       },
+      {
+        name: 'Zoe Saldana',
+      },
     ],
     coverUrl: '/movies_pictures/star_trek_beyond.jpg',
     releaseDate: '2016-08-17',
@@ -5954,6 +5957,12 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       {
         name: 'Woody Harrelson',
       },
+      {
+        name: 'Forest Whitaker',
+      },
+      {
+        name: 'Zoe Saldana',
+      },
     ],
     coverUrl: '/movies_pictures/out_of_the_furnace.jpg',
     releaseDate: '2014-01-15',
@@ -6213,6 +6222,9 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Benedict Cumberbatch',
+      },
+      {
+        name: 'Zoe Saldana',
       },
     ],
     coverUrl: '/movies_pictures/star_trek_into_darkness.jpg',
@@ -7355,7 +7367,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
         name: 'Zachary Quinto',
       },
       {
-        name: 'Zoe Saldaña',
+        name: 'Zoe Saldana',
       },
     ],
     coverUrl: '/movies_pictures/star_trek.jpg',

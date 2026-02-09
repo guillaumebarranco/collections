@@ -197,7 +197,7 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'La rage au ventre',
     director: 'Antoine Fuqua',
-    actors: [{ name: 'Jake Gyllenhaal' }],
+    actors: [{ name: 'Jake Gyllenhaal' }, { name: 'Forest Whitaker' }],
     coverUrl: '/movies_pictures/234208-southpaw-0-150-0-225-crop.jpg',
     releaseDate: '2015-07-24',
     length: 124,

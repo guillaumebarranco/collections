@@ -1140,4 +1140,17 @@ export const guillaumeMoviesPage1: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
+
+  {
+    title: 'Les Nouveaux Mutants',
+    director: 'Josh Boone',
+    rating: 3.75,
+    timesWatched: 1,
+    firstViewedDate: '2026-02-09',
+    lastViewedDate: '2026-02-09',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+  },
 ];

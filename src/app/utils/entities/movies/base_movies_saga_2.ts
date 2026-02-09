@@ -1264,7 +1264,11 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Avatar',
     director: 'James Cameron',
-    actors: [{ name: 'Sam Worthington' }],
+    actors: [
+      { name: 'Sam Worthington' },
+      { name: 'Zoe Saldana' },
+      { name: 'Sigourney Weaver' },
+    ],
     coverUrl: '/movies_pictures/avatar.jpg',
     releaseDate: '2009-12-18',
     length: 162,
@@ -1277,6 +1281,9 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     actors: [
       {
         name: 'Sam Worthington',
+      },
+      {
+        name: 'Zoe Saldana',
       },
     ],
     coverUrl:

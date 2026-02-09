@@ -378,7 +378,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: 'Les 4 Fantastiques',
     director: 'Josh Trank',
-    actors: [{ name: 'Miles Teller' }],
+    actors: [{ name: 'Miles Teller' }, { name: 'Michael B. Jordan' }],
     coverUrl: '/movies_pictures/123065-fantastic-four-0-150-0-225-crop.jpg',
     releaseDate: '2015-08-07',
     length: 100,

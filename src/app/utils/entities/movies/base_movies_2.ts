@@ -459,7 +459,14 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Panic Room',
     director: 'David Fincher',
-    actors: [{ name: 'Jodie Foster' }],
+    actors: [
+      { name: 'Jodie Foster' },
+      { name: 'Forest Whitaker' },
+      {
+        name: 'Kristen Stewart',
+      },
+      { name: 'Jared Leto' },
+    ],
     coverUrl: '/movies_pictures/panic_room.jpg',
     releaseDate: '2002-03-29',
     length: 112,

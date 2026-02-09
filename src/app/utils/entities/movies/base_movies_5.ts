@@ -2850,6 +2850,9 @@ export const baseMoviesPage5: BaseMovie[] = [
       {
         name: 'Hugh Jackman',
       },
+      {
+        name: 'Amanda Seyfried',
+      },
     ],
     coverUrl: '/movies_pictures/377029.webp',
     releaseDate: '2015-10-09',
