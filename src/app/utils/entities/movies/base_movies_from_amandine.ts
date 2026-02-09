@@ -721,17 +721,6 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
   },
   {
-    title: 'La Planète des singes : Les Origines',
-    director: 'Rupert Wyatt',
-    actors: [{ name: 'Andy Serkis' }, { name: 'James Franco' }],
-    coverUrl: '/movies_pictures/19765980.webp',
-    releaseDate: '2011-08-05',
-    length: 105,
-    genre: 'Sci-Fi, Action',
-    saga: 'La Planète des Singes',
-  },
-
-  {
     title: 'Minuit à Paris',
     director: 'Woody Allen',
     actors: [{ name: 'Owen Wilson' }, { name: 'Rachel McAdams' }],

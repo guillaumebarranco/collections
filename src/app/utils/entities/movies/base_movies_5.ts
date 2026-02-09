@@ -1049,20 +1049,6 @@ export const baseMoviesPage5: BaseMovie[] = [
     saga: '',
   },
   {
-    title: 'Sonic 3 - le film',
-    director: 'Jeff Fowler',
-    actors: [
-      {
-        name: 'Jim Carrey',
-      },
-    ],
-    coverUrl: '/movies_pictures/unnamed.jpg',
-    releaseDate: '2024-12-20',
-    length: 104,
-    genre: 'Action',
-    saga: 'Sonic',
-  },
-  {
     title: 'Il faut sauver le soldat Ryan',
     director: 'Steven Spielberg',
     actors: [

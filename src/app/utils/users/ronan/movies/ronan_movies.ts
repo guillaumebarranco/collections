@@ -11733,7 +11733,7 @@ export const ronanMovies: UserMovies = [
   },
 
   {
-    title: 'Fous d\'Irène',
+    title: "Fous d'Irène",
     director: 'Bobby Farrelly, Peter Farrelly',
     rating: 0,
     timesWatched: 1,
@@ -11748,19 +11748,6 @@ export const ronanMovies: UserMovies = [
   {
     title: 'M. Popper et ses pingouins',
     director: 'Mark Waters',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-  },
-
-  {
-    title: 'Sonic 3 - le film',
-    director: 'Jeff Fowler',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12188,19 +12175,6 @@ export const ronanMovies: UserMovies = [
   },
 
   {
-    title: 'To the Moon',
-    director: 'Greg Berlanti',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-  },
-
-  {
     title: 'La Chute de la Maison-Blanche',
     director: 'Roland Emmerich',
     rating: 0,
@@ -12253,7 +12227,7 @@ export const ronanMovies: UserMovies = [
   },
 
   {
-    title: 'Le Discours d\'un roi',
+    title: "Le Discours d'un roi",
     director: 'Tom Hooper',
     rating: 0,
     timesWatched: 1,
@@ -12383,7 +12357,7 @@ export const ronanMovies: UserMovies = [
   },
 
   {
-    title: 'Le Fabuleux Destin d\'Amélie Poulain',
+    title: "Le Fabuleux Destin d'Amélie Poulain",
     director: 'Jean-Pierre Jeunet',
     rating: 0,
     timesWatched: 1,
@@ -12422,7 +12396,7 @@ export const ronanMovies: UserMovies = [
   },
 
   {
-    title: 'Jeux d\'enfants',
+    title: "Jeux d'enfants",
     director: 'Yann Samuel',
     rating: 0,
     timesWatched: 1,
@@ -12448,7 +12422,7 @@ export const ronanMovies: UserMovies = [
   },
 
   {
-    title: 'Qu\'est-ce qu\'on a fait au bon dieu ?',
+    title: "Qu'est-ce qu'on a fait au bon dieu ?",
     director: 'Philippe de Chauveron',
     rating: 0,
     timesWatched: 1,
@@ -12500,7 +12474,7 @@ export const ronanMovies: UserMovies = [
   },
 
   {
-    title: 'Bienvenue chez les Ch\'tis',
+    title: "Bienvenue chez les Ch'tis",
     director: 'Dany Boon',
     rating: 0,
     timesWatched: 1,
@@ -12539,7 +12513,7 @@ export const ronanMovies: UserMovies = [
   },
 
   {
-    title: 'Kuzco, l\'Empereur mégalo',
+    title: "Kuzco, l'Empereur mégalo",
     director: 'Mark Dindal',
     rating: 0,
     timesWatched: 1,

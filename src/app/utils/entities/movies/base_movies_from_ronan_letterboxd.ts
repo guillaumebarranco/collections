@@ -7465,20 +7465,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Fantastique',
     saga: '',
   },
-  {
-    title: 'Sexy Dance 2',
-    director: 'Jon M. Chu',
-    actors: [
-      {
-        name: 'Briana Evigan',
-      },
-    ],
-    coverUrl: '/movies_pictures/step_up_2_the_streets.jpg',
-    releaseDate: '2008-04-09',
-    length: 98,
-    genre: 'Drame',
-    saga: 'Sexy Dance',
-  },
 
   {
     title: 'Benjamin Gates et le Livre des secrets',

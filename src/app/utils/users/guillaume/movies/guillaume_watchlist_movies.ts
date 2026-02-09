@@ -556,7 +556,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
   },
 
   {
-    title: 'Ennemi d\'Etat',
+    title: "Ennemi d'Etat",
     director: 'Tony Scott',
     rating: 0,
     timesWatched: 0,
@@ -634,7 +634,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
   },
 
   {
-    title: 'L\'Expert',
+    title: "L'Expert",
     director: 'James Mangold',
     rating: 0,
     timesWatched: 0,
@@ -894,7 +894,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
   },
 
   {
-    title: 'Spy game, jeu d\'espions',
+    title: "Spy game, jeu d'espions",
     director: 'Tony Scott',
     rating: 0,
     timesWatched: 0,
@@ -1089,7 +1089,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
   },
 
   {
-    title: 'Une bataille après l\'autre',
+    title: "Une bataille après l'autre",
     director: 'Paul Thomas Anderson',
     rating: 0,
     timesWatched: 0,
@@ -1232,7 +1232,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
   },
 
   {
-    title: 'L\'Amour sans préavis',
+    title: "L'Amour sans préavis",
     director: 'Marc Lawrence',
     rating: 0,
     timesWatched: 0,
@@ -1428,7 +1428,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
 
   {
     title: 'Hurlevent',
-    director: 'Frances O\'Connor',
+    director: "Frances O'Connor",
     rating: 0,
     timesWatched: 0,
     firstViewedDate: '',
@@ -1479,7 +1479,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
   },
 
   {
-    title: 'L\'impasse',
+    title: "L'impasse",
     director: 'Brian De Palma',
     rating: 0,
     timesWatched: 0,
@@ -1505,7 +1505,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
   },
 
   {
-    title: 'Le Discours d\'un roi',
+    title: "Le Discours d'un roi",
     director: 'Tom Hooper',
     rating: 0,
     timesWatched: 0,
@@ -1584,7 +1584,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
 
   {
     title: 'Jane Got a Gun',
-    director: 'Gavin O\'Connor',
+    director: "Gavin O'Connor",
     rating: 0,
     timesWatched: 0,
     firstViewedDate: '',
@@ -1869,7 +1869,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
   },
 
   {
-    title: 'Jennifer\'s Body',
+    title: "Jennifer's Body",
     director: 'Karyn Kusama',
     rating: 0,
     timesWatched: 0,
@@ -1973,7 +1973,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
   },
 
   {
-    title: 'Souviens-toi... l\'été dernier',
+    title: "Souviens-toi... l'été dernier",
     director: 'Jim Gillespie',
     rating: 0,
     timesWatched: 0,
@@ -2183,6 +2183,18 @@ export const guillaumeWatchlistMovies: UserMovies = [
   {
     title: 'Risky Business',
     director: 'Paul Brickman',
+    rating: 0,
+    timesWatched: 0,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+  },
+  {
+    title: 'Mise à prix',
+    director: 'Howard Deutch',
     rating: 0,
     timesWatched: 0,
     firstViewedDate: '',

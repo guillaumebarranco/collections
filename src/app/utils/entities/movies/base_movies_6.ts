@@ -1079,16 +1079,6 @@ export const baseMoviesPage6: BaseMovie[] = [
     saga: '',
   },
   {
-    title: 'To the Moon',
-    director: 'Greg Berlanti',
-    actors: [{ name: 'Scarlett Johansson' }, { name: 'Channing Tatum' }],
-    coverUrl: '/movies_pictures/19aade896568089a9c8bf63a7997cee9.webp',
-    releaseDate: '2022-07-15',
-    length: 104,
-    genre: 'Romance',
-    saga: '',
-  },
-  {
     title: 'Catching Fire: The Story of Anita Pallenberg',
     director: 'Alexis Bloom',
     actors: [{ name: 'Scarlett Johansson' }],
@@ -1672,16 +1662,6 @@ export const baseMoviesPage6: BaseMovie[] = [
     releaseDate: '2002-09-24',
     length: 150,
     genre: 'Drama',
-    saga: '',
-  },
-  {
-    title: "L'Attaque des titans : La dernière attaque",
-    director: 'Yuichiro Hayashi',
-    actors: [],
-    coverUrl: '/movies_pictures/8587ee48e2e8f521fd4afbf7894715e5.jpg',
-    releaseDate: '2023-11-04',
-    length: 60,
-    genre: 'Animation',
     saga: '',
   },
   {
