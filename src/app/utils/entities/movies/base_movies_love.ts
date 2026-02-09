@@ -626,13 +626,20 @@ export const baseMoviesLove: BaseMovie[] = [
   },
   {
     title: "L'amour ouf",
-    director: 'Claude Zidi Jr.',
-    actors: [{ name: 'François Civil' }, { name: 'Adèle Exarchopoulos' }],
+    director: 'Gilles Lellouche',
+    actors: [
+      {
+        name: 'François Civil',
+      },
+      {
+        name: 'Adèle Exarchopoulos',
+      }
+    ],
     coverUrl:
       '/movies_pictures/863617-beating-hearts-2024-0-150-0-225-crop.jpg',
     releaseDate: '2024-01-31',
     length: 95,
-    genre: 'Romance',
+    genre: 'Romance, Drame',
     saga: '',
   },
   {

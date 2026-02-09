@@ -305,10 +305,17 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
   {
     title: '1917',
     director: 'Sam Mendes',
-    actors: [{ name: 'George MacKay' }, { name: 'Dean-Charles Chapman' }],
+    actors: [
+      {
+        name: 'George MacKay',
+      },
+      {
+        name: 'Dean-Charles Chapman',
+      }
+    ],
     coverUrl:
       '/movies_pictures/bf49d560a26b1c7f988001ea1d5a8e107e15d34a32d8ae9fe2f6af6f2bda661f.jpg',
-    releaseDate: '2019-12-25',
+    releaseDate: '2020-01-15',
     length: 119,
     genre: 'War, Drama',
     saga: '',

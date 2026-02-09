@@ -2265,7 +2265,7 @@ export const ronanCinemaMovies: UserMovies = [
     timesWatched: 1,
     firstViewedDate: '2020-01-01',
     lastViewedDate: '2020-01-01',
-    seenAtCinema: true,
+    seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
@@ -3305,7 +3305,7 @@ export const ronanCinemaMovies: UserMovies = [
   },
   {
     title: "L'amour ouf",
-    director: 'Claude Zidi Jr.',
+    director: 'Gilles Lellouche',
     rating: 3.5, // Beating Hearts (2024) ★★★½
     timesWatched: 1,
     firstViewedDate: '2024-01-31',

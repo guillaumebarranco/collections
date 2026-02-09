@@ -603,7 +603,7 @@ export const guillaumeMoviesLove: UserMovies = [
   },
   {
     title: "L'amour ouf",
-    director: 'Claude Zidi Jr.',
+    director: 'Gilles Lellouche',
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '2025-04-31',

@@ -5265,7 +5265,7 @@ export const ronanMovies: UserMovies = [
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
-    seenAtCinema: false,
+    seenAtCinema: true,
     owned: true,
     wantToSeeAgain: false,
     watchPriority: 1,
