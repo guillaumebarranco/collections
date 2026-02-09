@@ -1,0 +1,6 @@
+<div class="loader" role="status" aria-live="polite" [attr.aria-label]="message() || 'Chargement en cours'">
+  <div class="loader__spinner"></div>
+  @if (message()) {
+    <p class="loader__message">{{ message() }}</p>
+  }
+</div>

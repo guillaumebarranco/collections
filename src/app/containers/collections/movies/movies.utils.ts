@@ -223,6 +223,70 @@ const getMovieIdentityKey = (movie: Movie): string => {
   return `${movie.title}|${movie.director}`;
 };
 
+export const getMoviesBySaga = ({
+  sortedMovies,
+  allMovies,
+  baseMovies,
+  selectedSort,
+  isAdminView,
+}: {
+  sortedMovies: Movie[];
+  allMovies: Movie[];
+  baseMovies: Movie[];
+  selectedSort: string;
+  isAdminView: boolean;
+}): { saga: string; seenMovies: Movie[]; missingMovies: Movie[] }[] => {
+  const sagaMap = new Map<string, Movie[]>();
+  for (const movie of sortedMovies) {
+    const sagaName = movie.saga?.trim();
+    if (!sagaName && !isAdminView) {
+      continue;
+    }
+    const sagaKey = sagaName || 'Sans saga';
+    const list = sagaMap.get(sagaKey) ?? [];
+    list.push(movie);
+    sagaMap.set(sagaKey, list);
+  }
+
+  const seenKeys = new Set(
+    allMovies.map((movie: any) => getMovieIdentityKey(movie))
+  );
+  const baseBySaga = new Map<string, Movie[]>();
+  for (const movie of baseMovies) {
+    const sagaName = movie.saga?.trim();
+    if (!sagaName) continue;
+    if (seenKeys.has(getMovieIdentityKey(movie))) continue;
+    const list = baseBySaga.get(sagaName) ?? [];
+    list.push(movie);
+    baseBySaga.set(sagaName, list);
+  }
+
+  const sagaGroups = Array.from(sagaMap.entries()).map(([saga, seenMovies]) => {
+    const missing =
+      isAdminView || saga === 'Sans saga'
+        ? []
+        : getSortedMovies([...(baseBySaga.get(saga) ?? [])], 'releaseDate-asc');
+    return {
+      saga,
+      seenMovies: getSortedMovies(seenMovies, 'releaseDate-asc'),
+      missingMovies: missing,
+    };
+  });
+
+  const filteredSagaGroups = sagaGroups
+    .filter((group) => group.seenMovies.length + group.missingMovies.length > 3)
+    .sort((a, b) => {
+      const countA = a.seenMovies.length + a.missingMovies.length;
+      const countB = b.seenMovies.length + b.missingMovies.length;
+      if (countB !== countA) {
+        return countB - countA;
+      }
+      return a.saga.localeCompare(b.saga);
+    });
+
+  return filteredSagaGroups;
+};
+
 export const getMoviesByActor = ({
   sortedMovies,
   allMovies,
@@ -290,7 +354,9 @@ export const getMoviesByActor = ({
           );
           return ratedMovies.length >= 5;
         })
-      : groups;
+      : groups.filter(
+          (group) => group.seenMovies.length + group.missingMovies.length > 4
+        );
 
   // Appliquer le tri selon selectedSort
   filteredGroups.sort((a, b) => {
@@ -442,7 +508,9 @@ export const getMoviesByDirector = ({
           );
           return ratedMovies.length >= 5;
         })
-      : groups;
+      : groups.filter(
+          (group) => group.seenMovies.length + group.missingMovies.length > 4
+        );
 
   // Appliquer le tri selon selectedSort
   filteredGroups.sort((a, b) => {

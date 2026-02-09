@@ -1,6 +1,9 @@
 <app-menu></app-menu>
 
 <div class="movies-container">
+  @if (isLoadingMovies()) {
+    <app-loader message="Chargement des films..." />
+  } @else {
   <app-movies-header
     [selectedView]="selectedView()"
     [filteredMoviesByYearCount]="filteredMoviesByYear().length"
@@ -319,6 +322,7 @@
     </div>
     }
   </div>
+  }
   }
 </div>
 

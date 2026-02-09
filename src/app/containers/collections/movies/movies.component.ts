@@ -47,9 +47,11 @@ import {
   yearFilterOptions,
   getMoviesByActor,
   getMoviesByDirector,
+  getMoviesBySaga,
 } from './movies.utils';
 import { getApiBaseUrl } from '../../../core/config';
 import { MoviesHeaderComponent } from './movies-header/movies-header.component';
+import { LoaderComponent } from '../../../components/loader/loader.component';
 import { getFullMovie } from '../../../helpers/full-entities-helper';
 
 type RecommendationDetail = { userId: string; rating: number };
@@ -66,6 +68,7 @@ type RecommendedMovie = Movie & {
     MenuComponent,
     QuizzModalComponent,
     MoviesHeaderComponent,
+    LoaderComponent,
     StatsDisplayComponent,
     SortDropdownComponent,
   ],
@@ -217,6 +220,9 @@ export class MoviesComponent implements OnInit {
 
   yearFilterOptions = yearFilterOptions;
 
+  /** True tant que les films (moviesList / adminMoviesList) n'ont pas été chargés une première fois. */
+  isLoadingMovies = signal<boolean>(true);
+
   moviesList = signal<{ [key: string]: Movie[] }>({});
   adminMoviesList = signal<Movie[]>([]);
   baseMoviesList = signal<Movie[]>([]);
@@ -316,58 +322,13 @@ export class MoviesComponent implements OnInit {
       return [];
     }
 
-    const sagaMap = new Map<string, Movie[]>();
-    for (const movie of this.sortedMovies()) {
-      const sagaName = movie.saga?.trim();
-      if (!sagaName && !this.isAdminView()) {
-        continue;
-      }
-      const sagaKey = sagaName || 'Sans saga';
-      const list = sagaMap.get(sagaKey) ?? [];
-      list.push(movie);
-      sagaMap.set(sagaKey, list);
-    }
-
-    const seenKeys = new Set(
-      this.allMovies().map((movie) => this.getMovieIdentityKey(movie))
-    );
-    const baseBySaga = new Map<string, Movie[]>();
-    for (const movie of this.baseMoviesList()) {
-      const sagaName = movie.saga?.trim();
-      if (!sagaName) continue;
-      if (seenKeys.has(this.getMovieIdentityKey(movie))) continue;
-      const list = baseBySaga.get(sagaName) ?? [];
-      list.push(movie);
-      baseBySaga.set(sagaName, list);
-    }
-
-    const sagaGroups = Array.from(sagaMap.entries()).map(
-      ([saga, seenMovies]) => {
-        const missing =
-          this.isAdminView() || saga === 'Sans saga'
-            ? []
-            : getSortedMovies(
-                [...(baseBySaga.get(saga) ?? [])],
-                'releaseDate-asc'
-              );
-        return {
-          saga,
-          seenMovies: getSortedMovies(seenMovies, 'releaseDate-asc'),
-          missingMovies: missing,
-        };
-      }
-    );
-
-    sagaGroups.sort((a, b) => {
-      const countA = a.seenMovies.length + a.missingMovies.length;
-      const countB = b.seenMovies.length + b.missingMovies.length;
-      if (countB !== countA) {
-        return countB - countA;
-      }
-      return a.saga.localeCompare(b.saga);
+    return getMoviesBySaga({
+      sortedMovies: this.sortedMovies(),
+      allMovies: this.allMovies(),
+      baseMovies: this.baseMoviesList(),
+      selectedSort: this.selectedSort(),
+      isAdminView: this.isAdminView(),
     });
-
-    return sagaGroups;
   });
 
   collapsedSagas = signal<Record<string, boolean>>({});
@@ -445,23 +406,28 @@ export class MoviesComponent implements OnInit {
   }
 
   async refreshMovies() {
-    if (this.isAdminView()) {
-      const baseMovies = await getAllBaseMovies();
-      const movies = baseMovies.map(getFullMovie);
-      this.adminMoviesList.set(movies);
-      this.baseMoviesList.set(movies);
-      return;
-    }
+    this.isLoadingMovies.set(true);
+    try {
+      if (this.isAdminView()) {
+        const baseMovies = await getAllBaseMovies();
+        const movies = baseMovies.map(getFullMovie);
+        this.adminMoviesList.set(movies);
+        this.baseMoviesList.set(movies);
+        return;
+      }
 
-    const userId = this.getActiveUserId();
-    const [movies, watchlist, baseMovies] = await Promise.all([
-      getAllMovies(userId),
-      getAllWatchlistMovies(userId),
-      getAllBaseMovies(),
-    ]);
-    this.moviesList.set(movies);
-    this.watchingMoviesList.set(watchlist);
-    this.baseMoviesList.set(baseMovies.map(getFullMovie));
+      const userId = this.getActiveUserId();
+      const [movies, watchlist, baseMovies] = await Promise.all([
+        getAllMovies(userId),
+        getAllWatchlistMovies(userId),
+        getAllBaseMovies(),
+      ]);
+      this.moviesList.set(movies);
+      this.watchingMoviesList.set(watchlist);
+      this.baseMoviesList.set(baseMovies.map(getFullMovie));
+    } finally {
+      this.isLoadingMovies.set(false);
+    }
   }
 
   async refreshQuizzs() {

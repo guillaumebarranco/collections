@@ -318,10 +318,8 @@ export const baseMoviesApi: BaseMovie[] = [
   {
     title: 'Wedding Daze',
     director: 'Michael Ian Black',
-    actors: [
-      { name: 'Inconnu' },
-    ],
-    coverUrl: '',
+    actors: [{ name: 'Inconnu' }],
+    coverUrl: '/movies_pictures/51tjE6CC0BL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '',
     length: 0,
     genre: '',
