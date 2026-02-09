@@ -70,7 +70,12 @@
   border-radius: 6px;
   background: rgba(0, 0, 0, 0.04);
   max-width: 32%;
+  box-sizing: border-box;
   padding: 4px 6px;
+
+  @media (max-width: 768px) {
+    max-width: none;
+  }
 }
 
 .serie-season-title {

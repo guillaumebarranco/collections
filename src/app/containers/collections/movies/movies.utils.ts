@@ -122,14 +122,14 @@ export const viewedMoviesSortOptions: { value: string; label: string }[] = [
 ];
 
 export const movieViewOptions: { value: MovieView; label: string }[] = [
-  { value: 'watched', label: 'Films vus' },
-  { value: 'cinema', label: 'Films vus au cinéma' },
-  { value: 'watchlist', label: 'Films à voir' },
-  { value: 'owned', label: 'Films possédés' },
-  { value: 'toReWatch', label: 'Films à revoir' },
-  { value: 'sagas', label: 'Voir les sagas' },
-  { value: 'actors', label: 'Voir les acteurs' },
-  { value: 'directors', label: 'Voir les réalisateurs' },
+  { value: 'watched', label: 'Vus' },
+  { value: 'cinema', label: 'Vus au cinéma' },
+  { value: 'watchlist', label: 'À voir' },
+  { value: 'owned', label: 'Possédés' },
+  { value: 'toReWatch', label: 'À revoir' },
+  { value: 'sagas', label: 'Voir par sagas' },
+  { value: 'actors', label: 'Voir par acteurs' },
+  { value: 'directors', label: 'Voir par réalisateurs' },
   { value: 'recommendations', label: 'Recommandations' },
 ];
 

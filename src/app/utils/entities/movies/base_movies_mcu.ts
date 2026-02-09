@@ -698,6 +698,12 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Gemma Chan',
       },
+      {
+        name: 'Salma Hayek',
+      },
+      {
+        name: 'Angelina Jolie',
+      },
     ],
     coverUrl: '/movies_pictures/454016-eternals-0-150-0-225-crop.jpg',
     releaseDate: '2021-11-05',

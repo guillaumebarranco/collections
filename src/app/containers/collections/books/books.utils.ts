@@ -42,11 +42,11 @@ export const groupByOptions: { value: string; label: string }[] = [
 ];
 
 export const bookViewOptions: { value: BookView; label: string }[] = [
-  { value: 'read', label: 'Livres lus' },
-  { value: 'readlist', label: 'Livres à lire' },
-  { value: 'owned', label: 'Livres possédés' },
-  { value: 'authors', label: 'Voir les auteurs' },
-  { value: 'sagas', label: 'Voir les sagas' },
+  { value: 'read', label: 'Lus' },
+  { value: 'readlist', label: 'À lire' },
+  { value: 'owned', label: 'Possédés' },
+  { value: 'authors', label: 'Voir par auteurs' },
+  { value: 'sagas', label: 'Voir par sagas' },
   { value: 'recommendations', label: 'Recommandations' },
 ];
 
@@ -79,14 +79,18 @@ export const getSortedBooks = (books: Book[], selectedSort: string): Book[] => {
         if (!a.releaseDate && !b.releaseDate) return 0;
         if (!a.releaseDate) return 1;
         if (!b.releaseDate) return -1;
-        return new Date(b.releaseDate).getTime() - new Date(a.releaseDate).getTime();
+        return (
+          new Date(b.releaseDate).getTime() - new Date(a.releaseDate).getTime()
+        );
       });
     case 'releaseDate-asc':
       return books.sort((a, b) => {
         if (!a.releaseDate && !b.releaseDate) return 0;
         if (!a.releaseDate) return 1;
         if (!b.releaseDate) return -1;
-        return new Date(a.releaseDate).getTime() - new Date(b.releaseDate).getTime();
+        return (
+          new Date(a.releaseDate).getTime() - new Date(b.releaseDate).getTime()
+        );
       });
     case 'rating':
       return books.sort((a, b) => {
