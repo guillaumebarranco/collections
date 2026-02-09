@@ -139,6 +139,10 @@
   .movies {
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 16px;
+
+    @media (max-width: 768px) {
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    }
   }
 
   .movie-card {
