@@ -994,7 +994,11 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
   {
     title: 'Aviator',
     director: 'Martin Scorsese',
-    actors: [{ name: 'Leonardo DiCaprio' }, { name: 'Cate Blanchett' }],
+    actors: [
+      { name: 'Leonardo DiCaprio' },
+      { name: 'Cate Blanchett' },
+      { name: 'Kate Beckinsale' },
+    ],
     coverUrl: '/movies_pictures/18402266.jpg',
     releaseDate: '2004-12-25',
     length: 170,

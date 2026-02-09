@@ -549,7 +549,11 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Pearl Harbor',
     director: 'Michael Bay',
-    actors: [{ name: 'Ben Affleck' }],
+    actors: [
+      { name: 'Ben Affleck' },
+      { name: 'Josh Hartnett' },
+      { name: 'Kate Beckinsale' },
+    ],
     coverUrl: '/movies_pictures/51448-pearl-harbor-0-150-0-225-crop.jpg',
     releaseDate: '2001-05-25',
     length: 183,

@@ -90,6 +90,9 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Keanu Reeves',
       },
+      {
+        name: 'Halle Berry',
+      },
     ],
     coverUrl:
       '/movies_pictures/390039-john-wick-chapter-3-parabellum-0-150-0-225-crop.jpg',

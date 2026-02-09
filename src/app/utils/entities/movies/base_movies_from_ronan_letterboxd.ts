@@ -5153,26 +5153,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Western',
     saga: '',
   },
-  {
-    title: 'Hunger Games : La Révolte, partie 2',
-    director: 'Francis Lawrence',
-    actors: [
-      {
-        name: 'Jennifer Lawrence',
-      },
-      {
-        name: 'Josh Hutcherson',
-      },
-      {
-        name: 'Liam Hemsworth',
-      },
-    ],
-    coverUrl: '/movies_pictures/the_hunger_games_mockingjay_part_2.jpg',
-    releaseDate: '2015-11-18',
-    length: 137,
-    genre: 'Science Fiction',
-    saga: 'Hunger Games',
-  },
+
   {
     title: 'Crimson Peak',
     director: 'Guillermo del Toro',
@@ -5959,26 +5940,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Fantastique',
     saga: 'Tolkien',
   },
-  {
-    title: "Hunger Games : L'Embrasement",
-    director: 'Francis Lawrence',
-    actors: [
-      {
-        name: 'Jennifer Lawrence',
-      },
-      {
-        name: 'Josh Hutcherson',
-      },
-      {
-        name: 'Liam Hemsworth',
-      },
-    ],
-    coverUrl: '/movies_pictures/the_hunger_games_catching_fire.jpg',
-    releaseDate: '2013-11-27',
-    length: 146,
-    genre: 'Science Fiction',
-    saga: 'Hunger Games',
-  },
+
   {
     title: 'Les Brasiers de la colère',
     director: 'Scott Cooper',
@@ -6475,26 +6437,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     length: 95,
     genre: 'Horreur',
     saga: 'Paranormal Activity',
-  },
-  {
-    title: 'Cloud Atlas',
-    director: 'Lana Wachowski, Lilly Wachowski, Tom Tykwer',
-    actors: [
-      {
-        name: 'José Garcia',
-      },
-      {
-        name: 'Jean-Pierre Marielle',
-      },
-      {
-        name: 'Franck Dubosc',
-      },
-    ],
-    coverUrl: '/movies_pictures/cloud_atlas.jpg',
-    releaseDate: '2013-03-13',
-    length: 172,
-    genre: 'Science Fiction',
-    saga: '',
   },
   {
     title: 'Le Monde de Charlie',

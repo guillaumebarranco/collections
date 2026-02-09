@@ -854,7 +854,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     title:
       "Le Monde de Narnia : Le Lion, la Sorcière Blanche et l'Armoire Magique",
     director: 'Andrew Adamson',
-    actors: [{ name: 'Georgie Henley' }],
+    actors: [{ name: 'Georgie Henley' }, { name: 'James McAvoy' }],
     coverUrl: '/movies_pictures/narnia.jpg',
     releaseDate: '2005-12-09',
     length: 143,

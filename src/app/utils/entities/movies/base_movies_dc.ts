@@ -14,7 +14,7 @@ export const baseMoviesDc: BaseMovie[] = [
   {
     title: 'Batman',
     director: 'Tim Burton',
-    actors: [{ name: 'Michael Keaton' }],
+    actors: [{ name: 'Michael Keaton' }, { name: 'Jack Nicholson' }],
     coverUrl: '/movies_pictures/51788-batman-0-150-0-225-crop.jpg',
     releaseDate: '1989-06-23',
     length: 126,
@@ -24,7 +24,12 @@ export const baseMoviesDc: BaseMovie[] = [
   {
     title: 'Batman Returns',
     director: 'Tim Burton',
-    actors: [{ name: 'Michael Keaton' }],
+    actors: [
+      { name: 'Michael Keaton' },
+      { name: 'Michelle Pfeiffer' },
+      { name: 'Christopher Walken' },
+      { name: 'Danny DeVito' },
+    ],
     coverUrl: '/movies_pictures/51709-batman-returns-0-150-0-225-crop.jpg',
     releaseDate: '1992-06-19',
     length: 126,

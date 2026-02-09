@@ -15,7 +15,11 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Kingsman: The Golden Circle',
     director: 'Matthew Vaughn',
-    actors: [{ name: 'Taron Egerton' }],
+    actors: [
+      { name: 'Taron Egerton' },
+      { name: 'Mark Strong' },
+      { name: 'Halle Berry' },
+    ],
     coverUrl: '/movies_pictures/kingsman_the_golden_circle.jpg',
     releaseDate: '2017-09-22',
     length: 141,
@@ -73,7 +77,7 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Atomic Blonde',
     director: 'David Leitch',
-    actors: [{ name: 'Charlize Theron' }],
+    actors: [{ name: 'Charlize Theron' }, { name: 'James McAvoy' }],
     coverUrl: '/movies_pictures/270477-atomic-blonde-0-150-0-225-crop.jpg',
     releaseDate: '2017-07-28',
     length: 115,
@@ -985,6 +989,7 @@ export const baseMoviesPage3: BaseMovie[] = [
       { name: 'Sylvester Stallone' },
       { name: 'Arnold Schwarzenegger' },
       { name: 'Bruce Willis' },
+      { name: 'Jet Li' },
     ],
     coverUrl: '/movies_pictures/34395-the-expendables-0-150-0-225-crop.jpg',
     releaseDate: '2010-08-13',

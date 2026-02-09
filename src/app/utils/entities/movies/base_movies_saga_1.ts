@@ -671,7 +671,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'La Momie',
     director: 'Stephen Sommers',
-    actors: [{ name: 'Brendan Fraser' }],
+    actors: [{ name: 'Brendan Fraser' }, { name: 'Rachel Weisz' }],
     coverUrl: '/movies_pictures/la_momie.jpg',
     releaseDate: '1999-05-07',
     length: 125,
@@ -691,7 +691,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: "La momie : la tombe de l'empereur dragon",
     director: 'Rob Cohen',
-    actors: [{ name: 'Brendan Fraser' }],
+    actors: [{ name: 'Brendan Fraser' }, { name: 'Jet Li' }],
     coverUrl: '/movies_pictures/la_momie_la_tombe_de_l_empereur_dragon.jpg',
     releaseDate: '2008-08-06',
     length: 112,
@@ -1017,6 +1017,26 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     saga: 'Hunger Games',
   },
   {
+    title: "Hunger Games : L'Embrasement",
+    director: 'Francis Lawrence',
+    actors: [
+      {
+        name: 'Jennifer Lawrence',
+      },
+      {
+        name: 'Josh Hutcherson',
+      },
+      {
+        name: 'Liam Hemsworth',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_hunger_games_catching_fire.jpg',
+    releaseDate: '2013-11-27',
+    length: 146,
+    genre: 'Science Fiction',
+    saga: 'Hunger Games',
+  },
+  {
     title: 'Hunger Games : La Révolte - Partie 1',
     director: 'Francis Lawrence',
     actors: [{ name: 'Jennifer Lawrence' }],
@@ -1025,6 +1045,26 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2014-11-21',
     length: 123,
     genre: 'Action',
+    saga: 'Hunger Games',
+  },
+  {
+    title: 'Hunger Games : La Révolte, partie 2',
+    director: 'Francis Lawrence',
+    actors: [
+      {
+        name: 'Jennifer Lawrence',
+      },
+      {
+        name: 'Josh Hutcherson',
+      },
+      {
+        name: 'Liam Hemsworth',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_hunger_games_mockingjay_part_2.jpg',
+    releaseDate: '2015-11-18',
+    length: 137,
+    genre: 'Science Fiction',
     saga: 'Hunger Games',
   },
   {

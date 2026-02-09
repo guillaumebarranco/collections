@@ -2103,6 +2103,9 @@ export const baseMoviesPage5: BaseMovie[] = [
       {
         name: 'Tom Cruise',
       },
+      {
+        name: 'Forest Whitaker',
+      },
     ],
     coverUrl: '/movies_pictures/la_couleur_de_l_argent.jpg',
     releaseDate: '1986-10-17',

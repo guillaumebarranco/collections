@@ -67,6 +67,12 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
       {
         name: 'Hugh Jackman',
       },
+      {
+        name: 'Ian McKellen',
+      },
+      {
+        name: 'Halle Berry',
+      },
     ],
     coverUrl: '/movies_pictures/27723-x-men-0-150-0-225-crop.jpg',
     releaseDate: '2000-07-14',
@@ -77,7 +83,12 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: 'X-men 2',
     director: 'Bryan Singer',
-    actors: [{ name: 'Patrick Stewart' }, { name: 'Hugh Jackman' }],
+    actors: [
+      { name: 'Patrick Stewart' },
+      { name: 'Hugh Jackman' },
+      { name: 'Ian McKellen' },
+      { name: 'Halle Berry' },
+    ],
     coverUrl: '/movies_pictures/xmen2-poster-0-150-0-225-crop.jpg',
     releaseDate: '2003-05-02',
     length: 134,
@@ -87,7 +98,12 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: "X-Men : L'Affrontement Final",
     director: 'Brett Ratner',
-    actors: [{ name: 'Hugh Jackman' }, { name: 'Patrick Stewart' }],
+    actors: [
+      { name: 'Hugh Jackman' },
+      { name: 'Patrick Stewart' },
+      { name: 'Ian McKellen' },
+      { name: 'Halle Berry' },
+    ],
     coverUrl:
       '/movies_pictures/27713-x-men-the-last-stand-0-150-0-225-crop.jpg',
     releaseDate: '2006-05-26',
@@ -129,7 +145,11 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: 'X-Men : Le Commencement',
     director: 'Matthew Vaughn',
-    actors: [{ name: 'James McAvoy' }],
+    actors: [
+      { name: 'James McAvoy' },
+      { name: 'Michael Fassbender' },
+      { name: 'Jennifer Lawrence' },
+    ],
     coverUrl: '/movies_pictures/16074-x-men-first-class-0-150-0-225-crop.jpg',
     releaseDate: '2011-06-03',
     length: 132,
@@ -139,7 +159,12 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: 'X-Men : Days of Future Past',
     director: 'Bryan Singer',
-    actors: [{ name: 'Hugh Jackman' }],
+    actors: [
+      { name: 'Hugh Jackman' },
+      { name: 'James McAvoy' },
+      { name: 'Michael Fassbender' },
+      { name: 'Jennifer Lawrence' },
+    ],
     coverUrl:
       '/movies_pictures/99507-x-men-days-of-future-past-0-150-0-225-crop.jpg',
     releaseDate: '2014-05-23',
@@ -150,7 +175,12 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: 'X-Men : Apocalypse',
     director: 'Bryan Singer',
-    actors: [{ name: 'James McAvoy' }],
+    actors: [
+      { name: 'James McAvoy' },
+      { name: 'Michael Fassbender' },
+      { name: 'Jennifer Lawrence' },
+      { name: 'Sophie Turner' },
+    ],
     coverUrl: '/movies_pictures/172492-x-men-apocalypse-0-150-0-225-crop.jpg',
     releaseDate: '2016-05-27',
     length: 144,
@@ -164,6 +194,9 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
       {
         name: 'Sophie Turner',
       },
+      { name: 'Jennifer Lawrence' },
+      { name: 'James McAvoy' },
+      { name: 'Michael Fassbender' },
     ],
     coverUrl: '/movies_pictures/247385-dark-phoenix-0-150-0-225-crop.jpg',
     releaseDate: '2019-06-07',

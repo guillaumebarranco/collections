@@ -208,7 +208,11 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Expendables 2',
     director: 'Simon West',
-    actors: [{ name: 'Sylvester Stallone' }, { name: 'Arnold Schwarzenegger' }],
+    actors: [
+      { name: 'Sylvester Stallone' },
+      { name: 'Arnold Schwarzenegger' },
+      { name: 'Jet Li' },
+    ],
     coverUrl: '/movies_pictures/62593-the-expendables-2-0-150-0-225-crop.jpg',
     releaseDate: '2012-08-17',
     length: 103,
@@ -411,7 +415,7 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Good Morning, Vietnam',
     director: 'Barry Levinson',
-    actors: [{ name: 'Robin Williams' }],
+    actors: [{ name: 'Robin Williams' }, { name: 'Forest Whitaker' }],
     coverUrl: '/movies_pictures/good_morning_vietnam.jpg',
     releaseDate: '1987-12-23',
     length: 121,
@@ -500,7 +504,11 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Le dernier samaritain',
     director: 'Tony Scott',
-    actors: [{ name: 'Bruce Willis' }],
+    actors: [
+      { name: 'Bruce Willis' },
+      { name: 'Damon Wayans' },
+      { name: 'Halle Berry' },
+    ],
     coverUrl: '/movies_pictures/le_dernier_samaritain.jpg',
     releaseDate: '1991-12-13',
     length: 105,
