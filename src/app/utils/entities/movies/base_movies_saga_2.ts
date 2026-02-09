@@ -296,7 +296,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     title: 'James Bond : Skyfall',
     director: 'Sam Mendes',
     actors: [{ name: 'Daniel Craig' }],
-    coverUrl: '/movies_pictures/dune_1.jpg',
+    coverUrl: '/movies_pictures/20264212.webp',
     releaseDate: '2012-11-09',
     length: 143,
     genre: 'Action',

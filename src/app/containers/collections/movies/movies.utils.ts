@@ -42,6 +42,10 @@ export const moviesSortOptions = (
     return directorsMoviesSortOptions;
   }
 
+  if (selectedView === 'sagas') {
+    return sagasMoviesSortOptions;
+  }
+
   return [];
 };
 
@@ -79,6 +83,26 @@ export const directorsMoviesSortOptions: { value: string; label: string }[] = [
   {
     value: 'director-rewatched-count',
     label: 'Réalisateur avec le plus de films revus par vous',
+  },
+];
+
+export const sagasMoviesSortOptions: { value: string; label: string }[] = [
+  { value: 'saga-count', label: 'Nombre de films' },
+  {
+    value: 'saga-user-rating',
+    label: 'Saga la mieux notée par vous',
+  },
+  {
+    value: 'saga-global-rating',
+    label: 'Saga la mieux notée par les utilisateurs',
+  },
+  {
+    value: 'saga-seen-count',
+    label: 'Saga avec le plus de films vus par vous',
+  },
+  {
+    value: 'saga-rewatched-count',
+    label: 'Saga avec le plus de films revus par vous',
   },
 ];
 
@@ -273,16 +297,79 @@ export const getMoviesBySaga = ({
     };
   });
 
-  const filteredSagaGroups = sagaGroups
-    .filter((group) => group.seenMovies.length + group.missingMovies.length > 3)
-    .sort((a, b) => {
-      const countA = a.seenMovies.length + a.missingMovies.length;
-      const countB = b.seenMovies.length + b.missingMovies.length;
-      if (countB !== countA) {
-        return countB - countA;
+  // Filtrer les sagas avec au moins 5 films notés pour les tris basés sur les notes
+  const filteredSagaGroups =
+    selectedSort === 'saga-user-rating' || selectedSort === 'saga-global-rating'
+      ? sagaGroups.filter((group) => {
+          const ratedMovies = group.seenMovies.filter(
+            (movie) => movie.rating && movie.rating > 0
+          );
+          return ratedMovies.length >= 5;
+        })
+      : sagaGroups.filter(
+          (group) => group.seenMovies.length + group.missingMovies.length > 3
+        );
+
+  // Appliquer le tri selon selectedSort
+  filteredSagaGroups.sort((a, b) => {
+    switch (selectedSort) {
+      case 'saga-count': {
+        const countA = a.seenMovies.length + a.missingMovies.length;
+        const countB = b.seenMovies.length + b.missingMovies.length;
+        if (countB !== countA) {
+          return countB - countA;
+        }
+        return a.saga.localeCompare(b.saga);
       }
-      return a.saga.localeCompare(b.saga);
-    });
+      case 'saga-user-rating':
+      case 'saga-global-rating': {
+        const ratedMoviesA = a.seenMovies.filter(
+          (movie) => movie.rating && movie.rating > 0
+        );
+        const ratedMoviesB = b.seenMovies.filter(
+          (movie) => movie.rating && movie.rating > 0
+        );
+        const avgRatingA =
+          ratedMoviesA.reduce((sum, movie) => sum + (movie.rating || 0), 0) /
+          (ratedMoviesA.length || 1);
+        const avgRatingB =
+          ratedMoviesB.reduce((sum, movie) => sum + (movie.rating || 0), 0) /
+          (ratedMoviesB.length || 1);
+        if (Math.abs(avgRatingB - avgRatingA) > 0.01) {
+          return avgRatingB - avgRatingA;
+        }
+        return a.saga.localeCompare(b.saga);
+      }
+      case 'saga-seen-count': {
+        const countA = a.seenMovies.length;
+        const countB = b.seenMovies.length;
+        if (countB !== countA) {
+          return countB - countA;
+        }
+        return a.saga.localeCompare(b.saga);
+      }
+      case 'saga-rewatched-count': {
+        const rewatchedCountA = a.seenMovies.filter(
+          (movie) => movie.timesWatched && movie.timesWatched > 1
+        ).length;
+        const rewatchedCountB = b.seenMovies.filter(
+          (movie) => movie.timesWatched && movie.timesWatched > 1
+        ).length;
+        if (rewatchedCountB !== rewatchedCountA) {
+          return rewatchedCountB - rewatchedCountA;
+        }
+        return a.saga.localeCompare(b.saga);
+      }
+      default: {
+        const countA = a.seenMovies.length + a.missingMovies.length;
+        const countB = b.seenMovies.length + b.missingMovies.length;
+        if (countB !== countA) {
+          return countB - countA;
+        }
+        return a.saga.localeCompare(b.saga);
+      }
+    }
+  });
 
   return filteredSagaGroups;
 };

@@ -1,8 +1,15 @@
 <app-menu></app-menu>
 
-<div class="movies-container">
+<div
+  class="movies-container"
+  [class.container-saga-mode]="
+    selectedView() === 'sagas' ||
+    selectedView() === 'actors' ||
+    selectedView() === 'directors'
+  "
+>
   @if (isLoadingMovies()) {
-    <app-loader message="Chargement des films..." />
+  <app-loader message="Chargement des films..." />
   } @else {
   <app-movies-header
     [selectedView]="selectedView()"
@@ -322,8 +329,7 @@
     </div>
     }
   </div>
-  }
-  }
+  } }
 </div>
 
 <app-quizz-modal

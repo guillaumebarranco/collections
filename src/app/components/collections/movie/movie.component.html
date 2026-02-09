@@ -29,12 +29,37 @@
   />
   <div entity-info>
     <h3 class="movie-title">{{ movie.title }}</h3>
-    <p class="movie-director">Réalisé par {{ movie.director }}</p>
+    @if (directorsList().length > 0) {
+    <div class="movie-directors">
+      @for (director of visibleDirectors(); track director) {
+        <span class="movie-director-badge">{{ director }}</span>
+      }
+      @if (directorsList().length > 2) {
+        <button
+          type="button"
+          class="makya-btn-small movie-directors-toggle"
+          (click)="toggleDirectorsExpanded()"
+        >
+          {{ directorsExpanded() ? "Voir moins" : "Voir plus" }}
+        </button>
+      }
+    </div>
+    }
     @if (movie.actors && movie.actors.length > 0) {
-    <p class="movie-actors">
-      Avec {{ movie.actors[0].name
-      }}{{ movie.actors.length > 1 ? ", " + movie.actors[1].name : "" }}
-    </p>
+    <div class="movie-actors">
+      @for (actor of visibleActors(); track actor.name) {
+        <span class="movie-actor-badge">{{ actor.name }}</span>
+      }
+      @if (movie.actors.length > 3) {
+        <button
+          type="button"
+          class="makya-btn-small movie-actors-toggle"
+          (click)="toggleActorsExpanded()"
+        >
+          {{ actorsExpanded() ? "Voir moins" : "Voir plus" }}
+        </button>
+      }
+    </div>
     } @if (movie.length > 0) {
     <p class="movie-length">{{ movie.length }} min</p>
     }

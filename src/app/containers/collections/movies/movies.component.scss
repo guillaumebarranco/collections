@@ -137,12 +137,12 @@
   border-radius: 14px;
 
   .movies {
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 16px;
   }
 
   .movie-card {
-    padding: 10px;
+    padding: 0;
   }
 }
 

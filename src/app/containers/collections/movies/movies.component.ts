@@ -10,10 +10,7 @@ import {
 import { CommonModule } from '@angular/common';
 import { MovieComponent } from '../../../components/collections/movie/movie.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
-import {
-  SortDropdownComponent,
-  SortOption,
-} from '../../../components/sort-dropdown/sort-dropdown.component';
+import { SortDropdownComponent } from '../../../components/sort-dropdown/sort-dropdown.component';
 import {
   StatItem,
   StatItemColor,
@@ -291,7 +288,7 @@ export class MoviesComponent implements OnInit {
       return filteredMovies;
     }
 
-    // Filtrage par année (seulement pour les films vus et vus au cinéma, basé sur firstViewedDate)
+    // Filtrage par année : date de visionnage pour vus/cinéma, date de sortie pour sagas/acteurs/réalisateurs
     if (this.selectedView() === 'watched' || this.selectedView() === 'cinema') {
       if (allYearsSince2000.includes(Number(this.selectedYearFilter()))) {
         filteredMovies = filteredMovies.filter((m) =>
@@ -303,6 +300,24 @@ export class MoviesComponent implements OnInit {
           const year = parseInt(m.firstViewedDate.substring(0, 4));
           return year < 2002;
         });
+      }
+    } else if (
+      this.selectedView() === 'sagas' ||
+      this.selectedView() === 'actors' ||
+      this.selectedView() === 'directors'
+    ) {
+      if (this.selectedYearFilter() !== 'all') {
+        if (allYearsSince2000.includes(Number(this.selectedYearFilter()))) {
+          filteredMovies = filteredMovies.filter((m) =>
+            m.releaseDate?.startsWith(this.selectedYearFilter())
+          );
+        } else if (this.selectedYearFilter() === 'before2002') {
+          filteredMovies = filteredMovies.filter((m) => {
+            if (!m.releaseDate) return true;
+            const year = parseInt(m.releaseDate.substring(0, 4));
+            return year < 2002;
+          });
+        }
       }
     }
 
@@ -464,13 +479,13 @@ export class MoviesComponent implements OnInit {
     ) {
       this.selectedSort.set('lastViewedDate');
     } else if (view === 'actors') {
-      // Première option de tri pour les acteurs
       this.selectedSort.set('actor-count');
     } else if (view === 'directors') {
-      // Première option de tri pour les réalisateurs
       this.selectedSort.set('director-count');
+    } else if (view === 'sagas') {
+      this.selectedSort.set('saga-count');
     } else {
-      // Pour watchlist, sagas, recommendations : pas de tri ou tri par défaut
+      // Pour watchlist, recommendations : pas de tri ou tri par défaut
       this.selectedSort.set('title');
     }
 

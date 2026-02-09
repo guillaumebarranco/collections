@@ -4,12 +4,52 @@
   @include components.component-title-base;
 }
 
-.movie-director {
-  @include components.component-author-base;
+.movie-directors {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 8px 0;
+}
+
+.movie-director-badge {
+  display: inline-block;
+  background: #dbeafe;
+  color: #1e40af;
+  border: 1px solid #93c5fd;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-wrap: nowrap;
+}
+
+.movie-directors-toggle {
+  flex-shrink: 0;
 }
 
 .movie-actors {
-  @include components.component-secondary-info-base;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 8px 0;
+}
+
+.movie-actor-badge {
+  display: inline-block;
+  background: #e8eaf0;
+  color: #4a5568;
+  border: 1px solid #d1d5db;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-wrap: nowrap;
+}
+
+.movie-actors-toggle {
+  flex-shrink: 0;
 }
 
 .movie-length {

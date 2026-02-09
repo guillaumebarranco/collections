@@ -7,6 +7,7 @@ import {
   computed,
   inject,
   input,
+  signal,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Params, Router } from '@angular/router';
@@ -61,6 +62,39 @@ export class MovieComponent {
   recommendationText = input<string>('');
 
   isBaseEntityView = isBaseEntityView();
+
+  /** Afficher tous les acteurs (au-delà des 3 premiers). */
+  actorsExpanded = signal<boolean>(false);
+
+  /** Acteurs à afficher : 3 premiers ou tous si déplié. */
+  visibleActors = computed(() => {
+    const list = this.movie?.actors ?? [];
+    return this.actorsExpanded() ? list : list.slice(0, 3);
+  });
+
+  toggleActorsExpanded(): void {
+    this.actorsExpanded.update((v) => !v);
+  }
+
+  /** Réalisateurs : chaîne splittée par virgules (model = string). */
+  directorsList = computed(() => {
+    const raw = this.movie?.director?.trim();
+    if (!raw) return [];
+    return raw.split(',').map((d) => d.trim()).filter(Boolean);
+  });
+
+  /** Afficher tous les réalisateurs (au-delà des 2 premiers). */
+  directorsExpanded = signal<boolean>(false);
+
+  /** Réalisateurs à afficher : 2 premiers ou tous si déplié. */
+  visibleDirectors = computed(() => {
+    const list = this.directorsList();
+    return this.directorsExpanded() ? list : list.slice(0, 2);
+  });
+
+  toggleDirectorsExpanded(): void {
+    this.directorsExpanded.update((v) => !v);
+  }
 
   readonly canEdit = computed(() => {
     const directId = this.activatedRoute.snapshot.params['id'];
