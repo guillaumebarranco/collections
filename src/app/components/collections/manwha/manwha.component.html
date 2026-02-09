@@ -30,9 +30,7 @@
   <div entity-info>
     <h3 class="book-title">{{ manwha.title }}</h3>
     <p class="book-author">{{ manwha.author }}</p>
-    @if (manwha.pages) {
-    <p class="book-pages">{{ manwha.pages }} pages</p>
-    } @if (manwha.nbChapters) {
+    @if (manwha.nbChapters) {
     <p>
       <span class="book-pages">{{ manwha.nbChapters }} chapitres</span>
       @if(!manwha.isFinished) {

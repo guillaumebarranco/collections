@@ -127,4 +127,14 @@ export const guillaumeManwhas: UserManwhas = [
     owned: false,
     readPriority: 1,
   },
+
+  {
+    title: 'jniiubiuiubiub',
+    author: 'ijhiuhuii',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+  },
 ];

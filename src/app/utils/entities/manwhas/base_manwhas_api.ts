@@ -18,4 +18,13 @@ export const baseManwhasApi: BaseManwha[] = [
     nbChapters: 435,
     isFinished: false,
   },
+
+  {
+    title: 'jniiubiuiubiub',
+    author: 'ijhiuhuii',
+    coverUrl: '',
+    genre: '',
+    nbChapters: 23,
+    isFinished: true,
+  },
 ];

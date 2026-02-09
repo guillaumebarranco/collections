@@ -32,9 +32,7 @@
   <div entity-info>
     <h3 class="book-title">{{ manga.title }}</h3>
     <p class="book-author">{{ manga.author }}</p>
-    @if (manga.pages) {
-    <p class="book-pages">{{ manga.pages }} pages</p>
-    } @if (manga.nbTomes) {
+    @if (manga.nbTomes) {
     <p>
       <span class="book-pages">{{ manga.nbTomes }} tomes</span>
       @if(!manga.isFinished) {

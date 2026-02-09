@@ -9,7 +9,7 @@ type AddManwhaEntityForm = {
   author: string;
   coverUrl: string;
   genre: string;
-  nbTomes: number;
+  nbChapters: number;
   isFinished: boolean;
 };
 
@@ -46,7 +46,7 @@ export class AddManwhaComponent {
     author: '',
     coverUrl: '',
     genre: '',
-    nbTomes: 0,
+    nbChapters: 0,
     isFinished: true,
   });
 
@@ -67,7 +67,7 @@ export class AddManwhaComponent {
   ) {
     const current = this.entityForm();
     let nextValue: AddManwhaEntityForm[K] = value as AddManwhaEntityForm[K];
-    if (field === 'nbTomes') {
+    if (field === 'nbChapters') {
       const asNumber = Number(value);
       nextValue = (
         Number.isNaN(asNumber) ? 0 : asNumber

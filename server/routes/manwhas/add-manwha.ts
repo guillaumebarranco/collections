@@ -97,10 +97,7 @@ router.post('/add', (req: any, res: any) => {
       return;
     }
 
-    const nbChapters =
-      normalizeNumber(entity.nbChapters, 'nbChapters') ??
-      normalizeNumber(entity.nbTomes, 'nbTomes') ??
-      0;
+    const nbChapters = normalizeNumber(entity.nbChapters, 'nbChapters') ?? 0;
 
     const entityPayload = {
       title,
