@@ -99,8 +99,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Marion Barbeau',
       },
     ],
-    coverUrl:
-      'https://www.franceinfo.fr/pictures/opqGlAnn4JdCIEUHz77XvPBBZas/0x0:810x1080/fit-in/720x/filters:format(jpg)/2026/01/23/affiche-gourou-69739a616185e473791238.jpg',
+    coverUrl: '/movies_pictures/gourou.jpg',
     releaseDate: '2026-01-28',
     length: 126,
     genre: 'Thriller',
@@ -121,8 +120,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Ralph Fiennes',
       },
     ],
-    coverUrl:
-      'https://fr.web.img4.acsta.net/img/06/ce/06ceefbccc9f512925c9af7ac11c6d56.jpg',
+    coverUrl: '/movies_pictures/28-ans-plus-tard.jpg',
     releaseDate: '2025-06-18',
     length: 115,
     genre: 'Horreur',
@@ -140,8 +138,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Laura Felpin',
       },
     ],
-    coverUrl:
-      'https://fr.web.img6.acsta.net/img/f7/ab/f7ab00e30a61ebb9e441a458f5305e6b.jpg',
+    coverUrl: '/movies_pictures/amour-surcote.jpg',
     releaseDate: '2025-04-23',
     length: 98,
     genre: 'Comédie romantique',
@@ -163,8 +160,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Ian McKellen',
       },
     ],
-    coverUrl:
-      'https://thumb.canalplus.pro/http/unsafe/%7BresolutionXY%7D/filters:quality(%7BimageQualityPercentage%7D)/media.prod.hawc.canal.aws.io-cplus.net/WBD_233982_000_FR_JAQCANAL_fr-FR.jpg',
+    coverUrl: '/movies_pictures/seigneur-anneaux-1.jpg',
     releaseDate: '2002-08-06',
     length: 228,
     genre: 'Fantasy',
@@ -185,8 +181,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Ian McKellen',
       },
     ],
-    coverUrl:
-      'https://m.media-amazon.com/images/S/pv-target-images/2002a21ab31e83aef16c675592917dd1907b75a688ae03a297b7a1daf0fd3443.jpg',
+    coverUrl: '/movies_pictures/seigneur-anneaux-2.jpg',
     releaseDate: '2003-08-26',
     length: 235,
     genre: 'Fantasy',
@@ -207,8 +202,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Ian McKellen',
       },
     ],
-    coverUrl:
-      'https://m.media-amazon.com/images/S/pv-target-images/9077191b52c8be5301fa89c49bf227e578fcec58c164342bc9917f9ccfd0b2b4.jpg',
+    coverUrl: '/movies_pictures/seigneur-anneaux-3.jpg',
     releaseDate: '2004-12-14',
     length: 264,
     genre: 'Fantasy',
@@ -225,8 +219,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'James Marsden',
       },
     ],
-    coverUrl:
-      'https://fr.web.img5.acsta.net/pictures/22/03/14/15/39/4137538.jpg',
+    coverUrl: '/movies_pictures/sonic-2.jpg',
     releaseDate: '2022-03-30',
     length: 122,
     genre: 'Aventure, Famille',
@@ -247,8 +240,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Elisa Erka',
       },
     ],
-    coverUrl:
-      'https://fr.web.img2.acsta.net/img/81/32/8132bc17bd057afa6a76fca0304b0124.jpg',
+    coverUrl: '/movies_pictures/avignon.jpg',
     releaseDate: '2025-06-18',
     length: 99,
     genre: 'Comédie',
@@ -271,8 +263,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Keanu Reeves',
       },
     ],
-    coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BNGRhYjY5MWItNGI0ZS00OTVkLTkyYWYtMzYwYjU1NTk3YWIyXkEyXkFqcGc@._V1_.jpg',
+    coverUrl: '/movies_pictures/sonic-3.jpg',
     releaseDate: '2024-12-25',
     length: 110,
     genre: 'Aventure, Famille',
@@ -293,8 +284,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'James Marsden',
       },
     ],
-    coverUrl:
-      'https://fr.web.img3.acsta.net/medias/nmedia/18/35/32/48/18384546.jpg',
+    coverUrl: '/movies_pictures/n-oublie-jamais-film.jpg',
     releaseDate: '2004-09-08',
     length: 121,
     genre: 'Comédie romantique',
@@ -318,7 +308,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Ji-young Yoo',
       },
     ],
-    coverUrl: 'https://fr.web.img6.acsta.net/img/83/64/8364d5a0828f7f9754cc8d798590c0b9.jpg',
+    coverUrl: '/movies_pictures/kpop-demon-hunters.jpg',
     releaseDate: '2025-06-20',
     length: 95,
     genre: 'Animation',

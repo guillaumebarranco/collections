@@ -759,8 +759,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
         name: 'Anne Hathaway',
       },
     ],
-    coverUrl:
-      'https://fr.web.img3.acsta.net/pictures/18/05/14/12/19/5676009.jpg',
+    coverUrl: '/movies_pictures/5676009.webp',
     releaseDate: '2018-06-08',
     length: 110,
     genre: 'Crime',

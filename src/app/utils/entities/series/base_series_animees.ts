@@ -2513,8 +2513,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         name: 'Bryce Papenbrook',
       },
     ],
-    coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BZjBkYmRiOTAtY2IwOS00ZWU3LTk3YjItNjMzYWZiMDE1MjcyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    coverUrl: '/series_pictures/assassination-classroom.jpg',
     releaseDate: '2015-01-09',
     endDate: '2016-06-30',
     genre: 'Anime',
@@ -2545,8 +2544,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         name: 'Yumiko Kobayashi',
       },
     ],
-    coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BNTJiOWM5NGMtZTdhYi00MmY3LTlhZGYtMjMwYTk2MTI4NGJlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    coverUrl: '/series_pictures/soul-eater.jpg',
     releaseDate: '2008-04-07',
     endDate: '2009-03-30',
     genre: 'Anime',
@@ -2573,8 +2571,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         name: 'Megumi Toyoguchi',
       },
     ],
-    coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BNDczZWMyMjEtZDI0ZS00YThjLWE2MjEtNTIxNmVmZDhkNDg5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    coverUrl: '/series_pictures/full-metal-alchemist.jpg',
     releaseDate: '2003-10-04',
     endDate: '2004-10-02',
     genre: 'Anime',
@@ -2638,8 +2635,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         name: 'Atsushi Tamura',
       },
     ],
-    coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMTBjMDU1ODktYTA1MC00NzdlLTlmMTgtZmQyNzBlMThkY2E3XkEyXkFqcGc@._V1_.jpg',
+    coverUrl: '/series_pictures/eyeshield-21.jpg',
     releaseDate: '2005-04-06',
     endDate: '2008-03-19',
     genre: 'Anime',
@@ -2675,8 +2671,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         name: 'Marina Inoue',
       },
     ],
-    coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BZjliODY5MzQtMmViZC00MTZmLWFhMWMtMjMwM2I3OGY1MTRiXkEyXkFqcGc@._V1_.jpg',
+    coverUrl: '/series_pictures/attaque-des-titans.jpg',
     releaseDate: '2013-04-07',
     endDate: '2023-11-04',
     genre: 'Anime',
@@ -2717,8 +2712,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         name: 'Hikaru Midorikawa',
       },
     ],
-    coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_.jpg',
+    coverUrl: '/series_pictures/one-punch-man.jpg',
     releaseDate: '2015-10-05',
     endDate: '2025-12-28',
     genre: 'Anime',
@@ -3421,8 +3415,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         name: 'Isabelle Volpe',
       },
     ],
-    coverUrl:
-      'https://m.media-amazon.com/images/I/81u6OXSVQgL._AC_UF894,1000_QL80_.jpg',
+    coverUrl: '/series_pictures/galactik-football.jpg',
     releaseDate: '2006-05-27',
     endDate: '2011-03-01',
     genre: 'Anime',
@@ -3458,8 +3451,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         name: 'P. J. Byrne',
       },
     ],
-    coverUrl:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAzAVjbNr4zjpi3dXqToKYq-A66-7qDDL96_wYjwOGvPpehRtXGDuEcDWvCBIg-aNO0o2M1hogxmp5MT-P8vv9y6csK4BrZRyBd-tlEw&s=10',
+    coverUrl: '/series_pictures/legende-de-korra.jpg',
     releaseDate: '2012-04-14',
     endDate: '2014-12-19',
     genre: 'Anime',
@@ -3659,7 +3651,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         name: 'Inconnu',
       },
     ],
-    coverUrl: 'https://bdi.dlpdomain.com/serie/visuel/BDA_9407/1-M480x680.jpg',
+    coverUrl: '/series_pictures/fairy-tail.jpg',
     releaseDate: '2009-01-01',
     endDate: '',
     genre: 'Anime',

@@ -12,8 +12,7 @@ export const baseSeriesApi: BaseSerie[] = [
         name: 'Jon Bernthal',
       },
     ],
-    coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BNWQ4Y2QyNzEtZGQyYS00MGUzLTgxNGMtMjZmNzM0ZjRhYjdlXkEyXkFqcGc@._V1_.jpg',
+    coverUrl: '/series_pictures/his-hers.jpg',
     releaseDate: '2026-01-08',
     endDate: '2026-01-08',
     genre: 'Thriller',
@@ -40,8 +39,7 @@ export const baseSeriesApi: BaseSerie[] = [
         name: 'Walton Goggins',
       }
     ],
-    coverUrl:
-      'https://fr.web.img6.acsta.net/pictures/24/03/07/15/16/4242537.jpg',
+    coverUrl: '/series_pictures/fallout.jpg',
     releaseDate: '2024-04-10',
     endDate: '',
     genre: 'Post-apocalyptique',
@@ -73,8 +71,7 @@ export const baseSeriesApi: BaseSerie[] = [
         name: 'Julia Jones',
       },
     ],
-    coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BZGY4YjY5MGItNzM2NS00Y2M1LWFkYTYtZjI0ZDk3NTE0NmE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    coverUrl: '/series_pictures/dexter-new-blood.jpg',
     releaseDate: '2021-11-07',
     endDate: '2022-01-09',
     genre: '',
@@ -104,8 +101,7 @@ export const baseSeriesApi: BaseSerie[] = [
         name: 'David Zayas',
       },
     ],
-    coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMzgxNzUwZTctMzliNi00MDUwLWE4YzctNjgwMDE2OWQwNzMxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    coverUrl: '/series_pictures/dexter-resurrection.jpg',
     releaseDate: '2025-07-11',
     endDate: '2025-09-05',
     genre: 'Thriller',
@@ -134,7 +130,7 @@ export const baseSeriesApi: BaseSerie[] = [
         name: 'Ben Kingsley',
       }
     ],
-    coverUrl: 'https://m.media-amazon.com/images/M/MV5BMDk5YzQ3NjQtNzY3MC00NzM3LWE4NzYtZGRkNDQxYjdiZDkyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    coverUrl: '/series_pictures/wonder-man.jpg',
     releaseDate: '2026-01-28',
     endDate: '',
     genre: 'Super-héro',
@@ -161,7 +157,7 @@ export const baseSeriesApi: BaseSerie[] = [
         name: 'Mark Strong',
       },
     ],
-    coverUrl: 'https://m.media-amazon.com/images/M/MV5BOTc2YTFiOTItZmRiNi00OWE5LThhOTEtMmZhMTkzYmRiNjIxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    coverUrl: '/series_pictures/dune-prophecy.jpg',
     releaseDate: '2024-11-17',
     endDate: '2024-12-23',
     genre: 'Science Fiction',

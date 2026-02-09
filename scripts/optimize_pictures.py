@@ -9,7 +9,7 @@ except Exception as exc:  # pragma: no cover
     ) from exc
 
 
-MAX_SIZE_KB = 500
+MAX_SIZE_KB = 300
 MIN_HEIGHT_PX = 400
 
 FORMATS = {".jpg", ".jpeg", ".png", ".webp"}
