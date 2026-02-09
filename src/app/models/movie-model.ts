@@ -22,7 +22,7 @@ export interface UserMovie extends MandatoryMovieData {
   seenAtCinema: boolean;
   owned: boolean;
   wantToSeeAgain: boolean;
-  watchPriority: number;
+  watchPriority: 1 | 2 | 3;
 }
 
 export type UserMovies = UserMovie[];

@@ -11612,7 +11612,7 @@ export const ronanMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 0,
+    watchPriority: 1,
   },
 
   {

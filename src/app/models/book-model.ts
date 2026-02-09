@@ -18,7 +18,7 @@ export interface UserBook extends MandatoryBookData {
   rating: number;
   readTimes?: number;
   owned: boolean;
-  readPriority: number;
+  readPriority: 1 | 2 | 3;
 }
 
 export type UserBooks = UserBook[];

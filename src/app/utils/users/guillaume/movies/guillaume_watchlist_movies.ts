@@ -227,7 +227,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 1,
+    watchPriority: 2,
   },
   {
     title: 'Borat',

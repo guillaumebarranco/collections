@@ -8,6 +8,7 @@ export const ronanMangas: UserMangas = [
     rating: 5,
     readTimes: 3,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Eyeshield 21',
@@ -16,6 +17,7 @@ export const ronanMangas: UserMangas = [
     rating: 4,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'My Hero Academia',
@@ -24,6 +26,7 @@ export const ronanMangas: UserMangas = [
     rating: 3.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Dragon Ball',
@@ -32,6 +35,7 @@ export const ronanMangas: UserMangas = [
     rating: 3,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Hikaru No Go',
@@ -40,6 +44,7 @@ export const ronanMangas: UserMangas = [
     rating: 3.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Rave',
@@ -48,6 +53,7 @@ export const ronanMangas: UserMangas = [
     rating: 3,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Bakuman',
@@ -56,6 +62,7 @@ export const ronanMangas: UserMangas = [
     rating: 3,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Fullmetal Alchemist',
@@ -64,6 +71,7 @@ export const ronanMangas: UserMangas = [
     rating: 4,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Puella Magi Madoka Magica',
@@ -72,6 +80,7 @@ export const ronanMangas: UserMangas = [
     rating: 0,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'One Piece',
@@ -80,6 +89,7 @@ export const ronanMangas: UserMangas = [
     rating: 4.5,
     readTimes: 2,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Kenshin le Vagabond',
@@ -88,6 +98,7 @@ export const ronanMangas: UserMangas = [
     rating: 4,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Toriko',
@@ -96,6 +107,7 @@ export const ronanMangas: UserMangas = [
     rating: 3,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Satan 666',
@@ -104,6 +116,7 @@ export const ronanMangas: UserMangas = [
     rating: 2.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Worst',
@@ -112,6 +125,7 @@ export const ronanMangas: UserMangas = [
     rating: 4,
     readTimes: 2,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Death Note',
@@ -120,6 +134,7 @@ export const ronanMangas: UserMangas = [
     rating: 4.5,
     readTimes: 2,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Hunter X Hunter',
@@ -128,6 +143,7 @@ export const ronanMangas: UserMangas = [
     rating: 4,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Beelzebub',
@@ -136,14 +152,16 @@ export const ronanMangas: UserMangas = [
     rating: 3.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
-    title: 'L\'attaque des titans',
+    title: "L'attaque des titans",
     author: 'Isayama Hajime',
     readDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Ashita No Joe',
@@ -152,6 +170,7 @@ export const ronanMangas: UserMangas = [
     rating: 3.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Gamaran',
@@ -160,6 +179,7 @@ export const ronanMangas: UserMangas = [
     rating: 4,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Asu No Yoichi',
@@ -168,6 +188,7 @@ export const ronanMangas: UserMangas = [
     rating: 3,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Ken-ichi, le disciple ultime',
@@ -176,6 +197,7 @@ export const ronanMangas: UserMangas = [
     rating: 3.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Crows',
@@ -184,6 +206,7 @@ export const ronanMangas: UserMangas = [
     rating: 4,
     readTimes: 2,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Gunnm',
@@ -192,6 +215,7 @@ export const ronanMangas: UserMangas = [
     rating: 3,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'All You Need Is Kill',
@@ -200,6 +224,7 @@ export const ronanMangas: UserMangas = [
     rating: 3,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Fairy Tail',
@@ -208,5 +233,6 @@ export const ronanMangas: UserMangas = [
     rating: 4,
     readTimes: 1,
     owned: true,
-  }
+    readPriority: 1,
+  },
 ];

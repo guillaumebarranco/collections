@@ -94,7 +94,9 @@ function parseStringArrayField(objectText: string, key: string): string[] {
 }
 
 function parseEntityType(objectText: string) {
-  const regex = /entityType\s*:\s*QuizzEntityType\.([A-Z_]+)/;
+  // Accepter EntityType et QuizzEntityType (utilisés dans le modèle frontend)
+  const regex =
+    /entityType\s*:\s*(?:QuizzEntityType|EntityType)\.([A-Z_]+)/;
   const match = objectText.match(regex);
   if (!match) return null;
   return ENTITY_TYPE_MAP[match[1]] || null;
@@ -211,13 +213,13 @@ function formatQuizzFile(quizzs: any[], exportName: string) {
       return `  {\n    creator: '${String(quizz.creator || '').replace(
         /'/g,
         "\\'"
-      )}',\n    entityType: QuizzEntityType.${entityEnum},\n    entityTitle: '${String(
+      )}',\n    entityType: EntityType.${entityEnum},\n    entityTitle: '${String(
         quizz.entityTitle || ''
       ).replace(/'/g, "\\'")}',\n    level: ${quizz.level || 1},\n    questions: [\n${questions}\n    ],\n  }`;
     })
     .join(',\n');
 
-  return `import { Quizz, QuizzEntityType } from '../../models/quizz-model';\n\nexport const ${exportName}: Quizz[] = [\n${items}\n];\n`;
+  return `import { Quizz, EntityType } from '../../models/quizz-model';\n\nexport const ${exportName}: Quizz[] = [\n${items}\n];\n`;
 }
 
 function getExportNameFromCreator(creator: string) {
@@ -280,6 +282,13 @@ function saveQuizz(quizz: any) {
   if (fs.existsSync(filePath)) {
     const content = fs.readFileSync(filePath, 'utf8');
     existing = parseQuizzsFromFile(content);
+    // Sécurité : si le fichier existe et contient des données mais le parsing a échoué (existing vide),
+    // ne pas écraser pour éviter de perdre des quizzs existants
+    if (existing.length === 0 && content.includes('export const') && content.length > 150) {
+      throw new Error(
+        'Impossible de parser les quizzs existants. Le fichier n\'a pas été modifié pour éviter la perte de données.'
+      );
+    }
   }
 
   const updated = [...existing, quizz];

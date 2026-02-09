@@ -8,6 +8,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 4,
     readTimes: 5,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Kingdom',
@@ -16,6 +17,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 4,
     readTimes: 2,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Eyeshield 21',
@@ -24,6 +26,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 4.75,
     readTimes: 10,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'My Hero Academia',
@@ -32,6 +35,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Black Clover',
@@ -40,6 +44,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Nisekoi',
@@ -48,6 +53,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 2.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Dreamland',
@@ -56,6 +62,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.25,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Saru Lock',
@@ -64,6 +71,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 2.75,
     readTimes: 2,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Pretty Face',
@@ -72,6 +80,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.5,
     readTimes: 5,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Dragon Ball',
@@ -80,6 +89,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 4.5,
     readTimes: 15,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Dragon Ball Super',
@@ -88,6 +98,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'OnePunch-Man',
@@ -96,6 +107,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.75,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'GTO',
@@ -104,6 +116,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 2.75,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Captain Tsubasa',
@@ -112,6 +125,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.75,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Slam Dunk',
@@ -120,14 +134,16 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.75,
     readTimes: 2,
     owned: false,
+    readPriority: 1,
   },
   {
-    title: 'Darwin\'s Game',
+    title: "Darwin's Game",
     author: 'Flipf lops',
     readDate: '16/04/2016',
     rating: 2.75,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Hikaru No Go',
@@ -136,6 +152,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 4.25,
     readTimes: 5,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Rave',
@@ -144,6 +161,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.5,
     readTimes: 10,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Kuroko No Basket',
@@ -152,6 +170,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Code:breaker',
@@ -160,6 +179,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 2.75,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Bakuman',
@@ -168,6 +188,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 4.75,
     readTimes: 10,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Jackals',
@@ -176,6 +197,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.75,
     readTimes: 2,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Magi The Labyrinth of Magic',
@@ -184,6 +206,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.75,
     readTimes: 2,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Fullmetal Alchemist',
@@ -192,6 +215,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Ginga Patrol Jako',
@@ -200,6 +224,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 2.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Gamble fish',
@@ -208,6 +233,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.5,
     readTimes: 3,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Tonari no Seki-kun',
@@ -216,6 +242,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 2.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Puella Magi Madoka Magica',
@@ -224,6 +251,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.25,
     readTimes: 2,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Nanatsu No Taizai',
@@ -232,6 +260,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.25,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Black Cat',
@@ -240,6 +269,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Shaman king',
@@ -248,6 +278,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.25,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Doubt',
@@ -256,6 +287,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 2.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Shokugeki no Soma',
@@ -264,6 +296,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Blue Dragon : Ral Ω Grad',
@@ -272,6 +305,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 2.75,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'One Piece',
@@ -280,6 +314,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 5,
     readTimes: 20,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Kenshin le Vagabond',
@@ -288,6 +323,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 4.75,
     readTimes: 15,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Feng Shen Ji',
@@ -296,6 +332,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 4.5,
     readTimes: 5,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Toriko',
@@ -304,6 +341,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 4.25,
     readTimes: 5,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Satan 666',
@@ -312,6 +350,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 4,
     readTimes: 5,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Worst',
@@ -320,6 +359,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 4,
     readTimes: 5,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Akame Ga Kill',
@@ -328,6 +368,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Death Note',
@@ -336,6 +377,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 4.75,
     readTimes: 15,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Assassination Classroom',
@@ -344,6 +386,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.75,
     readTimes: 3,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Karate Shoukoushi Kohinata Minoru',
@@ -352,6 +395,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.25,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Hunter X Hunter',
@@ -360,6 +404,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.75,
     readTimes: 2,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Beelzebub',
@@ -368,14 +413,16 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.75,
     readTimes: 2,
     owned: true,
+    readPriority: 1,
   },
   {
-    title: 'L\'attaque des titans',
+    title: "L'attaque des titans",
     author: 'Isayama Hajime',
     readDate: '16/04/2016',
     rating: 3.75,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Claymore',
@@ -384,6 +431,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 4,
     readTimes: 3,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Ashita No Joe',
@@ -392,6 +440,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 4.25,
     readTimes: 5,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Gamaran',
@@ -400,6 +449,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Terra Formars',
@@ -408,6 +458,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'World Trigger',
@@ -416,6 +467,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'The Breaker',
@@ -424,6 +476,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.5,
     readTimes: 3,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Asu No Yoichi',
@@ -432,6 +485,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 2.75,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Ken-ichi, le disciple ultime',
@@ -440,6 +494,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.75,
     readTimes: 3,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Yu-Gi-Oh!',
@@ -448,6 +503,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 4,
     readTimes: 2,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Bleach',
@@ -456,6 +512,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 4,
     readTimes: 5,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Lui Ou Rien !',
@@ -464,6 +521,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'All You Need Is Kill',
@@ -472,6 +530,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 4.25,
     readTimes: 5,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Crows',
@@ -480,6 +539,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 4,
     readTimes: 3,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Détective Conan',
@@ -488,6 +548,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.75,
     readTimes: 2,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Hinomaru Zumou',
@@ -496,6 +557,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.25,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Haikyū!!',
@@ -504,6 +566,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'The Promised Neverland',
@@ -512,6 +575,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Gunnm',
@@ -520,6 +584,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.5,
     readTimes: 2,
     owned: true,
+    readPriority: 1,
   },
   {
     title: 'Hajime no Ippo',
@@ -528,6 +593,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Vagabond',
@@ -536,6 +602,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Ken le Survivant',
@@ -544,6 +611,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.75,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Captain Tsubasa : World Youth',
@@ -552,6 +620,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 4,
     readTimes: 5,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Captain Tsubasa: Road to 2002',
@@ -560,6 +629,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Captain Tsubasa: Golden 23',
@@ -568,6 +638,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Captain Tsubasa: Rising Sun',
@@ -576,6 +647,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.5,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'Platinum End',
@@ -584,6 +656,7 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.25,
     readTimes: 1,
     owned: false,
+    readPriority: 1,
   },
   {
     title: 'The Legend Of Zelda',
@@ -592,5 +665,6 @@ export const guillaumeMangas: UserMangas = [
     rating: 3.5,
     readTimes: 1,
     owned: false,
-  }
+    readPriority: 1,
+  },
 ];

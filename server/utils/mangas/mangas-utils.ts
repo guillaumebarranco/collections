@@ -318,6 +318,7 @@ function updateMangaIdentityInFile(filePath: string, mangaData: any): boolean {
     rating: ${manga.rating ?? 0},
     readTimes: ${manga.readTimes ?? 1},
     owned: ${manga.owned ?? false},
+    readPriority: ${manga.readPriority ?? 0},
   }`
     )
     .join(',\n');
@@ -431,6 +432,7 @@ function removeMangaFromFile(content: string, payload: any): string {
     rating: ${manga.rating ?? 0},
     readTimes: ${manga.readTimes ?? 1},
     owned: ${manga.owned ?? false},
+    readPriority: ${manga.readPriority ?? 0},
   }`
     )
     .join(',\n');

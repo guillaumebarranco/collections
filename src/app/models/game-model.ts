@@ -21,7 +21,7 @@ export interface UserGame extends MandatoryGameData {
   additionnalEstimatedTime: number;
   platined: boolean;
   owned: boolean;
-  gamelistPriority: number;
+  gamelistPriority: 1 | 2 | 3;
 }
 
 export type UserGames = UserGame[];

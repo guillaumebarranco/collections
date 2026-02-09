@@ -339,10 +339,7 @@ function upsertField(objectText: string, key: string, value: any) {
       return replaceField(next, key, value);
     }
     const escaped = escapeString(value);
-    return next.replace(
-      /\}\s*$/,
-      `    ${key}: '${escaped}',\n  }`
-    );
+    return next.replace(/\}\s*$/, `    ${key}: '${escaped}',\n  }`);
   }
   if (typeof value === 'boolean' || typeof value === 'number') {
     const regex = new RegExp(`(${key}\\s*:\\s*)([^,\\n]+)`);
@@ -419,8 +416,16 @@ function updateMovieInFile(content: string, payload: any) {
           );
           updated = replaceField(updated, 'seenAtCinema', payload.seenAtCinema);
           updated = replaceField(updated, 'owned', payload.owned);
-          updated = replaceField(updated, 'wantToSeeAgain', payload.wantToSeeAgain);
-          updated = replaceField(updated, 'watchPriority', payload.watchPriority);
+          updated = replaceField(
+            updated,
+            'wantToSeeAgain',
+            payload.wantToSeeAgain
+          );
+          updated = replaceField(
+            updated,
+            'watchPriority',
+            payload.watchPriority
+          );
 
           return (
             content.slice(0, objectStart) +
