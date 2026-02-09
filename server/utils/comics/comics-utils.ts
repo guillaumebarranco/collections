@@ -59,9 +59,7 @@ function normalizeString(value: any, field: string) {
 }
 
 function parseStringField(objectText: string, key: string) {
-  const regex = new RegExp(
-    `${key}\\s*:\\s*(['"])((?:\\\\.|(?!\\1).)*)\\1`
-  );
+  const regex = new RegExp(`${key}\\s*:\\s*(['"])((?:\\\\.|(?!\\1).)*)\\1`);
   const match = objectText.match(regex);
   if (!match) return null;
   const quote = match[1];
@@ -128,7 +126,7 @@ function parseComicsFromFile(content: string): any[] {
             readTimes: parseNumberField(objectText, 'readTimes') ?? 0,
             readDate: parseStringField(objectText, 'readDate') ?? '',
             owned: parseBooleanField(objectText, 'owned') ?? false,
-            readPriority: parseNumberField(objectText, 'readPriority') ?? 0,
+            readPriority: parseNumberField(objectText, 'readPriority') ?? 1,
           });
         }
       }
@@ -247,7 +245,8 @@ function updateComicInFile(filePath: string, comicData: any): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const comics = parseComicsFromFile(content);
   const index = comics.findIndex(
-    (comic) => comic.title === comicData.title && comic.writer === comicData.writer
+    (comic) =>
+      comic.title === comicData.title && comic.writer === comicData.writer
   );
 
   if (index === -1) {
@@ -271,7 +270,7 @@ function updateComicInFile(filePath: string, comicData: any): boolean {
     rating: ${comic.rating ?? 0},
     readTimes: ${comic.readTimes ?? 1},
     owned: ${comic.owned ?? false},
-    readPriority: ${comic.readPriority ?? 0},
+    readPriority: ${comic.readPriority ?? 1},
   }`
     )
     .join(',\n');
@@ -322,7 +321,7 @@ function updateComicIdentityInFile(filePath: string, comicData: any): boolean {
     rating: ${comic.rating ?? 0},
     readTimes: ${comic.readTimes ?? 1},
     owned: ${comic.owned ?? false},
-    readPriority: ${comic.readPriority ?? 0},
+    readPriority: ${comic.readPriority ?? 1},
   }`
     )
     .join(',\n');
@@ -473,9 +472,7 @@ function getUserReadlistComicsFiles(userId: string): string[] {
     .readdirSync(userDir)
     .filter(
       (file: string) =>
-        file.endsWith('.ts') &&
-        file !== 'index.ts' &&
-        file.includes('readlist')
+        file.endsWith('.ts') && file !== 'index.ts' && file.includes('readlist')
     )
     .map((file: string) => path.join(userDir, file));
 }

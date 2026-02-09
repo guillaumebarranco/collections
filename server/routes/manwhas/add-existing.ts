@@ -61,7 +61,7 @@ function formatReadlistManwha(manwha: any) {
   )}',\n    author: '${escapeString(
     manwha.author
   )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 0,\n    owned: false,\n    readPriority: ${
-    manwha.readPriority ?? 0
+    manwha.readPriority ?? 1
   },\n  },`;
 }
 

@@ -29,7 +29,6 @@ type EditMangaForm = {
 };
 
 type EditMangaEntityForm = {
-  pages: number;
   genre: string;
   nbTomes: number;
   isFinished: boolean;
@@ -427,7 +426,6 @@ export class EditMangaComponent {
 
   private toEntityForm(manga: Manga): EditMangaEntityForm {
     return {
-      pages: manga.pages || 0,
       genre: manga.genre || '',
       nbTomes: manga.nbTomes || 0,
       isFinished: manga.isFinished !== false,
@@ -438,7 +436,6 @@ export class EditMangaComponent {
   private toEntityPayload(form: EditMangaEntityForm | null) {
     if (!form) return undefined;
     return {
-      pages: form.pages,
       genre: form.genre,
       nbTomes: form.nbTomes,
       isFinished: form.isFinished,

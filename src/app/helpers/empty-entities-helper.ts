@@ -68,6 +68,9 @@ export const getEmptyManga = (manga: BaseManga): Manga => ({
   readDate: '',
   rating: 0,
   readPriority: 1,
+  nbTomes: manga.nbTomes,
+  isFinished: manga.isFinished,
+  readTimes: 0,
 });
 
 export const getEmptyManwha = (manwha: BaseManwha): Manwha => ({
@@ -79,6 +82,9 @@ export const getEmptyManwha = (manwha: BaseManwha): Manwha => ({
   readDate: '',
   rating: 0,
   readPriority: 1,
+  nbChapters: manwha.nbChapters,
+  isFinished: manwha.isFinished,
+  readTimes: 0,
 });
 
 export const getEmptyGame = (game: BaseGame): Game => ({

@@ -5,16 +5,15 @@ export interface MandatoryMangaData {
 
 export interface BaseManga extends MandatoryMangaData {
   coverUrl: string;
-  pages?: number;
   genre: string;
-  nbTomes?: number;
-  isFinished?: boolean;
+  nbTomes: number;
+  isFinished: boolean;
 }
 
 export interface UserManga extends MandatoryMangaData {
   readDate: string;
   rating: number;
-  readTimes?: number;
+  readTimes: number;
   owned: boolean;
   readPriority: 1 | 2 | 3;
 }

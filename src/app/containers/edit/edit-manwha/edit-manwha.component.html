@@ -128,17 +128,6 @@
       />
     </div>
     } @if (isAdminView() && manwhaEntityForm()) {
-    <div class="form-row">
-      <label for="entityPages">Pages</label>
-      <input
-        id="entityPages"
-        type="number"
-        min="0"
-        [ngModel]="manwhaEntityForm()?.pages"
-        (ngModelChange)="updateEntityField('pages', $event)"
-        name="entityPages"
-      />
-    </div>
 
     <div class="form-row">
       <label for="entityGenre">Genre</label>

@@ -74,7 +74,7 @@ function formatReadlistBook(book: any) {
     rating: 0,
     readTimes: 0,
     owned: false,
-    readPriority: ${book.readPriority ?? 0},
+    readPriority: ${book.readPriority ?? 1},
   },`;
 }
 

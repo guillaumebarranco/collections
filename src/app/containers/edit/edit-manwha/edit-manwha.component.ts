@@ -29,7 +29,6 @@ type EditManwhaForm = {
 };
 
 type EditManwhaEntityForm = {
-  pages: number;
   genre: string;
   nbChapters: number;
   isFinished: boolean;
@@ -430,7 +429,6 @@ export class EditManwhaComponent {
 
   private toEntityForm(manwha: Manwha): EditManwhaEntityForm {
     return {
-      pages: manwha.pages || 0,
       genre: manwha.genre || '',
       nbChapters: manwha.nbChapters || 0,
       isFinished: manwha.isFinished !== false,
@@ -441,7 +439,6 @@ export class EditManwhaComponent {
   private toEntityPayload(form: EditManwhaEntityForm | null) {
     if (!form) return undefined;
     return {
-      pages: form.pages,
       genre: form.genre,
       nbChapters: form.nbChapters,
       isFinished: form.isFinished,

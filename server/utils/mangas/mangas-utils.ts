@@ -59,9 +59,7 @@ function normalizeString(value: any, field: string) {
 }
 
 function parseStringField(objectText: string, key: string) {
-  const regex = new RegExp(
-    `${key}\\s*:\\s*(['"])((?:\\\\.|(?!\\1).)*)\\1`
-  );
+  const regex = new RegExp(`${key}\\s*:\\s*(['"])((?:\\\\.|(?!\\1).)*)\\1`);
   const match = objectText.match(regex);
   if (!match) return null;
   const quote = match[1];
@@ -128,7 +126,7 @@ function parseMangasFromFile(content: string): any[] {
             readTimes: parseNumberField(objectText, 'readTimes') ?? 0,
             readDate: parseStringField(objectText, 'readDate') ?? '',
             owned: parseBooleanField(objectText, 'owned') ?? false,
-            readPriority: parseNumberField(objectText, 'readPriority') ?? 0,
+            readPriority: parseNumberField(objectText, 'readPriority') ?? 1,
           });
         }
       }
@@ -179,7 +177,6 @@ function parseBaseMangasFullFromFile(content: string): any[] {
           title,
           author,
           coverUrl: parseStringField(objectText, 'coverUrl') || '',
-          pages: parseNumberField(objectText, 'pages') ?? 0,
           genre: parseStringField(objectText, 'genre') || '',
           nbTomes: parseNumberField(objectText, 'nbTomes') ?? 0,
           isFinished: parseBooleanField(objectText, 'isFinished') ?? false,
@@ -246,7 +243,8 @@ function updateMangaInFile(filePath: string, mangaData: any): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const mangas = parseMangasFromFile(content);
   const index = mangas.findIndex(
-    (manga) => manga.title === mangaData.title && manga.author === mangaData.author
+    (manga) =>
+      manga.title === mangaData.title && manga.author === mangaData.author
   );
 
   if (index === -1) {
@@ -267,7 +265,7 @@ function updateMangaInFile(filePath: string, mangaData: any): boolean {
     rating: ${manga.rating ?? 0},
     readTimes: ${manga.readTimes ?? 1},
     owned: ${manga.owned ?? false},
-    readPriority: ${manga.readPriority ?? 0},
+    readPriority: ${manga.readPriority ?? 1},
   }`
     )
     .join(',\n');
@@ -318,7 +316,7 @@ function updateMangaIdentityInFile(filePath: string, mangaData: any): boolean {
     rating: ${manga.rating ?? 0},
     readTimes: ${manga.readTimes ?? 1},
     owned: ${manga.owned ?? false},
-    readPriority: ${manga.readPriority ?? 0},
+    readPriority: ${manga.readPriority ?? 1},
   }`
     )
     .join(',\n');
@@ -367,7 +365,6 @@ function updateBaseMangaInFile(filePath: string, mangaData: any): boolean {
     title: '${escapeString(manga.title)}',
     author: '${escapeString(manga.author)}',
     coverUrl: '${escapeString(manga.coverUrl || '')}',
-    pages: ${manga.pages ?? 0},
     genre: '${escapeString(manga.genre || '')}',
     nbTomes: ${manga.nbTomes ?? 0},
     isFinished: ${manga.isFinished ?? false},
@@ -432,7 +429,7 @@ function removeMangaFromFile(content: string, payload: any): string {
     rating: ${manga.rating ?? 0},
     readTimes: ${manga.readTimes ?? 1},
     owned: ${manga.owned ?? false},
-    readPriority: ${manga.readPriority ?? 0},
+    readPriority: ${manga.readPriority ?? 1},
   }`
     )
     .join(',\n');
@@ -469,9 +466,7 @@ function getUserReadlistMangasFiles(userId: string): string[] {
     .readdirSync(userDir)
     .filter(
       (file: string) =>
-        file.endsWith('.ts') &&
-        file !== 'index.ts' &&
-        file.includes('readlist')
+        file.endsWith('.ts') && file !== 'index.ts' && file.includes('readlist')
     )
     .map((file: string) => path.join(userDir, file));
 }

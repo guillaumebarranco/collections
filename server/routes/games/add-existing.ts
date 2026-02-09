@@ -71,7 +71,7 @@ function formatGamelistGame(game: any): string {
     timesFinishedHundredPercent: 0,
     platined: false,
     owned: false,
-    gamelistPriority: ${game.gamelistPriority ?? 0},
+    gamelistPriority: ${game.gamelistPriority ?? 1},
   },`;
 }
 

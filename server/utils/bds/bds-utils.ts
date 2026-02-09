@@ -59,9 +59,7 @@ function normalizeString(value: any, field: string) {
 }
 
 function parseStringField(objectText: string, key: string) {
-  const regex = new RegExp(
-    `${key}\\s*:\\s*(['"])((?:\\\\.|(?!\\1).)*)\\1`
-  );
+  const regex = new RegExp(`${key}\\s*:\\s*(['"])((?:\\\\.|(?!\\1).)*)\\1`);
   const match = objectText.match(regex);
   if (!match) return null;
   const quote = match[1];
@@ -128,7 +126,7 @@ function parseBdsFromFile(content: string): any[] {
             readTimes: parseNumberField(objectText, 'readTimes') ?? 0,
             readDate: parseStringField(objectText, 'readDate') ?? '',
             owned: parseBooleanField(objectText, 'owned') ?? false,
-            readPriority: parseNumberField(objectText, 'readPriority') ?? 0,
+            readPriority: parseNumberField(objectText, 'readPriority') ?? 1,
           });
         }
       }
@@ -268,7 +266,7 @@ function updateBdInFile(filePath: string, bdData: any): boolean {
     rating: ${bd.rating ?? 0},
     readTimes: ${bd.readTimes ?? 1},
     owned: ${bd.owned ?? false},
-    readPriority: ${bd.readPriority ?? 0},
+    readPriority: ${bd.readPriority ?? 1},
   }`
     )
     .join(',\n');
@@ -469,9 +467,7 @@ function getUserReadlistBdsFiles(userId: string): string[] {
     .readdirSync(userDir)
     .filter(
       (file: string) =>
-        file.endsWith('.ts') &&
-        file !== 'index.ts' &&
-        file.includes('readlist')
+        file.endsWith('.ts') && file !== 'index.ts' && file.includes('readlist')
     )
     .map((file: string) => path.join(userDir, file));
 }

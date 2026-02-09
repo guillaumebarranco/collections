@@ -62,9 +62,7 @@ function normalizeString(value: any, field: string) {
 }
 
 function parseStringField(objectText: string, key: string) {
-  const regex = new RegExp(
-    `${key}\\s*:\\s*(['"])((?:\\\\.|(?!\\1).)*)\\1`
-  );
+  const regex = new RegExp(`${key}\\s*:\\s*(['"])((?:\\\\.|(?!\\1).)*)\\1`);
   const match = objectText.match(regex);
   if (!match) return null;
   const quote = match[1];
@@ -131,7 +129,7 @@ function parseManwhasFromFile(content: string): any[] {
             readTimes: parseNumberField(objectText, 'readTimes') ?? 0,
             readDate: parseStringField(objectText, 'readDate') ?? '',
             owned: parseBooleanField(objectText, 'owned') ?? false,
-            readPriority: parseNumberField(objectText, 'readPriority') ?? 0,
+            readPriority: parseNumberField(objectText, 'readPriority') ?? 1,
           });
         }
       }
@@ -182,7 +180,6 @@ function parseBaseManwhasFullFromFile(content: string): any[] {
           title,
           author,
           coverUrl: parseStringField(objectText, 'coverUrl') || '',
-          pages: parseNumberField(objectText, 'pages') ?? 0,
           genre: parseStringField(objectText, 'genre') || '',
           nbChapters: parseNumberField(objectText, 'nbChapters') ?? 0,
           isFinished: parseBooleanField(objectText, 'isFinished') ?? false,
@@ -249,7 +246,8 @@ function updateManwhaInFile(filePath: string, manwhaData: any): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const manwhas = parseManwhasFromFile(content);
   const index = manwhas.findIndex(
-    (manwha) => manwha.title === manwhaData.title && manwha.author === manwhaData.author
+    (manwha) =>
+      manwha.title === manwhaData.title && manwha.author === manwhaData.author
   );
 
   if (index === -1) {
@@ -270,7 +268,7 @@ function updateManwhaInFile(filePath: string, manwhaData: any): boolean {
     rating: ${manwha.rating ?? 0},
     readTimes: ${manwha.readTimes ?? 1},
     owned: ${manwha.owned ?? false},
-    readPriority: ${manwha.readPriority ?? 0},
+    readPriority: ${manwha.readPriority ?? 1},
   }`
     )
     .join(',\n');
@@ -293,7 +291,10 @@ function updateManwhaInFile(filePath: string, manwhaData: any): boolean {
   return true;
 }
 
-function updateManwhaIdentityInFile(filePath: string, manwhaData: any): boolean {
+function updateManwhaIdentityInFile(
+  filePath: string,
+  manwhaData: any
+): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const manwhas = parseManwhasFromFile(content);
   const matchTitle = manwhaData.matchTitle ?? manwhaData.title;
@@ -369,7 +370,6 @@ function updateBaseManwhaInFile(filePath: string, manwhaData: any): boolean {
     title: '${escapeString(manwha.title)}',
     author: '${escapeString(manwha.author)}',
     coverUrl: '${escapeString(manwha.coverUrl || '')}',
-    pages: ${manwha.pages ?? 0},
     genre: '${escapeString(manwha.genre || '')}',
     nbChapters: ${manwha.nbChapters ?? 0},
     isFinished: ${manwha.isFinished ?? false},
@@ -471,9 +471,7 @@ function getUserReadlistManwhasFiles(userId: string): string[] {
     .readdirSync(userDir)
     .filter(
       (file: string) =>
-        file.endsWith('.ts') &&
-        file !== 'index.ts' &&
-        file.includes('readlist')
+        file.endsWith('.ts') && file !== 'index.ts' && file.includes('readlist')
     )
     .map((file: string) => path.join(userDir, file));
 }

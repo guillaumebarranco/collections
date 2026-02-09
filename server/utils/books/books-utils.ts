@@ -117,7 +117,7 @@ function parseBooksFromFile(content: string): any[] {
             readTimes: parseNumberField(objectText, 'readTimes') ?? 0,
             readDate: parseStringField(objectText, 'readDate') ?? '',
             owned: parseBooleanField(objectText, 'owned') ?? false,
-            readPriority: parseNumberField(objectText, 'readPriority') ?? 0,
+            readPriority: parseNumberField(objectText, 'readPriority') ?? 1,
           });
         }
       }
@@ -563,7 +563,7 @@ function removeBookFromFile(content: string, payload: any) {
     rating: ${book.rating ?? 0},
     readTimes: ${book.readTimes ?? 0},
     owned: ${book.owned ?? false},
-    readPriority: ${book.readPriority ?? 0},
+    readPriority: ${book.readPriority ?? 1},
   }`
     )
     .join(',\n');

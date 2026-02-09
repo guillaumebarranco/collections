@@ -48,9 +48,9 @@ function formatUserMovie(user: any): string {
     user.lastViewedDate || ''
   )}',\n    seenAtCinema: ${user.seenAtCinema ?? false},\n    owned: ${
     user.owned ?? false
-  },\n    wantToSeeAgain: ${user.wantToSeeAgain ?? false},\n    watchPriority: ${
-    user.watchPriority ?? 0
-  },\n  },`;
+  },\n    wantToSeeAgain: ${
+    user.wantToSeeAgain ?? false
+  },\n    watchPriority: ${user.watchPriority ?? 1},\n  },`;
 }
 
 function getUserMoviesTargetFile(userId: string) {
@@ -127,7 +127,7 @@ router.post('/add', (req: any, res: any) => {
       owned: normalizeBoolean(user.owned, 'owned') ?? false,
       wantToSeeAgain:
         normalizeBoolean(user.wantToSeeAgain, 'wantToSeeAgain') ?? false,
-      watchPriority: normalizeNumber(user.watchPriority, 'watchPriority') ?? 0,
+      watchPriority: normalizeNumber(user.watchPriority, 'watchPriority') ?? 1,
     };
 
     const baseMovieContent = appendObjectToArrayFile(

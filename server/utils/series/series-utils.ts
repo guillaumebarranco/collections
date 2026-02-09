@@ -191,7 +191,7 @@ function parseSeriesFromFile(content: string): any[] {
             director,
             seasons: parseSeasonsField(objectText) ?? [],
             owned: parseBooleanField(objectText, 'owned') ?? false,
-            watchPriority: parseNumberField(objectText, 'watchPriority') ?? 0,
+            watchPriority: parseNumberField(objectText, 'watchPriority') ?? 1,
           });
         }
       }
@@ -411,10 +411,7 @@ function upsertField(objectText: string, key: string, value: any) {
       return replaceField(next, key, value);
     }
     const escaped = escapeString(value);
-    return next.replace(
-      /\}\s*$/,
-      `    ${key}: '${escaped}',\n  }`
-    );
+    return next.replace(/\}\s*$/, `    ${key}: '${escaped}',\n  }`);
   }
   if (typeof value === 'boolean' || typeof value === 'number') {
     const regex = new RegExp(`(${key}\\s*:\\s*)([^,\\n]+)`);
@@ -460,7 +457,10 @@ function formatSeasonsData(seasons: any[]) {
   return `seasonsData: [\n${lines.join(',\n')}\n    ]`;
 }
 
-function upsertSeasonsDataField(objectText: string, seasonsData: any[] | undefined) {
+function upsertSeasonsDataField(
+  objectText: string,
+  seasonsData: any[] | undefined
+) {
   if (!Array.isArray(seasonsData)) return objectText;
   const block = formatSeasonsData(seasonsData);
   const regex = /seasonsData\s*:\s*\[[\s\S]*?\]/;
@@ -536,7 +536,11 @@ function updateSerieInFile(content: string, payload: any) {
             updated = replaceSeasonsField(updated, payload.seasons);
           }
           updated = replaceField(updated, 'owned', payload.owned);
-          updated = replaceField(updated, 'watchPriority', payload.watchPriority);
+          updated = replaceField(
+            updated,
+            'watchPriority',
+            payload.watchPriority
+          );
 
           return (
             content.slice(0, objectStart) +

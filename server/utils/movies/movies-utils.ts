@@ -124,7 +124,7 @@ function parseMoviesFromFile(content: string): any[] {
             owned: parseBooleanField(objectText, 'owned') ?? false,
             wantToSeeAgain:
               parseBooleanField(objectText, 'wantToSeeAgain') ?? false,
-            watchPriority: parseNumberField(objectText, 'watchPriority') ?? 0,
+            watchPriority: parseNumberField(objectText, 'watchPriority') ?? 1,
           });
         }
       }

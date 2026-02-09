@@ -37,7 +37,7 @@ router.post('/', (req: any, res: any) => {
       readTimes: normalizeNumber(input.readTimes, 'readTimes') ?? 1,
       readDate: normalizeString(input.readDate, 'readDate') || '',
       owned: normalizeBoolean(input.owned, 'owned') ?? false,
-      readPriority: normalizeNumber(input.readPriority, 'readPriority') ?? 0,
+      readPriority: normalizeNumber(input.readPriority, 'readPriority') ?? 1,
     };
 
     const entityPayload = input.entity || null;

@@ -32,7 +32,7 @@ function formatUserComic(user: any): string {
     rating: ${user.rating ?? 0},
     readTimes: ${user.readTimes ?? 1},
     owned: ${user.owned ?? false},
-    readPriority: ${user.readPriority ?? 0},
+    readPriority: ${user.readPriority ?? 1},
   },`;
 }
 
@@ -114,7 +114,7 @@ router.post('/add', (req: any, res: any) => {
       readTimes: normalizeNumber(user.readTimes, 'readTimes') ?? 1,
       readDate: normalizeString(user.readDate, 'readDate') || '',
       owned: normalizeBoolean(user.owned, 'owned') ?? false,
-      readPriority: normalizeNumber(user.readPriority, 'readPriority') ?? 0,
+      readPriority: normalizeNumber(user.readPriority, 'readPriority') ?? 1,
     };
 
     const baseComicContent = appendObjectToArrayFile(

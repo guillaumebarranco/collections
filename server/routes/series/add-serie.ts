@@ -16,11 +16,15 @@ const router = express.Router();
 function formatBaseSerie(entity: any): string {
   const actors = Array.isArray(entity.actors) ? entity.actors : [];
   const actorsLines = actors
-    .map((name: string) => `      {
+    .map(
+      (name: string) => `      {
         name: '${escapeString(name)}',
-      },`)
+      },`
+    )
     .join('\n');
-  const seasonsData = Array.isArray(entity.seasonsData) ? entity.seasonsData : [];
+  const seasonsData = Array.isArray(entity.seasonsData)
+    ? entity.seasonsData
+    : [];
   const seasonsLines = seasonsData
     .map(
       (season: any) => `      {
@@ -35,9 +39,7 @@ function formatBaseSerie(entity: any): string {
     title: '${escapeString(entity.title)}',
     director: '${escapeString(entity.director)}',
     actors: [
-${
-    actorsLines || "      { name: 'Inconnu' },"
-  }
+${actorsLines || "      { name: 'Inconnu' },"}
     ],
     coverUrl: '${escapeString(entity.coverUrl || '')}',
     releaseDate: '${escapeString(entity.releaseDate || '')}',
@@ -77,7 +79,7 @@ function formatUserSerie(user: any): string {
     director: '${escapeString(user.director)}',
 ${seasonsBlock}
     owned: ${user.owned ?? false},
-    watchPriority: ${user.watchPriority ?? 0},
+    watchPriority: ${user.watchPriority ?? 1},
   },`;
 }
 
@@ -100,9 +102,7 @@ function getUserSeriesTargetFile(userId: string) {
 
   const files = fs
     .readdirSync(userDir)
-    .filter(
-      (file: string) => file.endsWith('.ts') && file !== 'index.ts'
-    );
+    .filter((file: string) => file.endsWith('.ts') && file !== 'index.ts');
 
   const preferred = files.find((file: string) =>
     file.includes(`${userId}_series`)
@@ -148,8 +148,7 @@ router.post('/add', (req: any, res: any) => {
       ? entity.seasonsData
           .map((season: any, index: number) => ({
             seasonNumber:
-              normalizeNumber(season.seasonNumber, 'seasonNumber') ||
-              index + 1,
+              normalizeNumber(season.seasonNumber, 'seasonNumber') || index + 1,
             nbEpisodes: normalizeNumber(season.nbEpisodes, 'nbEpisodes') || 0,
             totalLength:
               normalizeNumber(season.totalLength, 'seasonLength') || 0,
@@ -193,7 +192,7 @@ router.post('/add', (req: any, res: any) => {
       seasonsCount,
       owned: normalizeBoolean(user.owned, 'owned') ?? false,
       seasons: normalizedUserSeasons,
-      watchPriority: normalizeNumber(user.watchPriority, 'watchPriority') ?? 0,
+      watchPriority: normalizeNumber(user.watchPriority, 'watchPriority') ?? 1,
     };
 
     const baseSerieContent = appendObjectToArrayFile(

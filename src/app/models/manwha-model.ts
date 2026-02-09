@@ -5,16 +5,15 @@ export interface MandatoryManwhaData {
 
 export interface BaseManwha extends MandatoryManwhaData {
   coverUrl: string;
-  pages?: number;
   genre: string;
-  nbChapters?: number;
-  isFinished?: boolean;
+  nbChapters: number;
+  isFinished: boolean;
 }
 
 export interface UserManwha extends MandatoryManwhaData {
   readDate: string;
   rating: number;
-  readTimes?: number;
+  readTimes: number;
   owned: boolean;
   readPriority: 1 | 2 | 3;
 }

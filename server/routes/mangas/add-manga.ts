@@ -18,7 +18,6 @@ function formatBaseManga(entity: any): string {
     title: '${escapeString(entity.title)}',
     author: '${escapeString(entity.author)}',
     coverUrl: '${escapeString(entity.coverUrl || '')}',
-    pages: ${entity.pages || 0},
     genre: '${escapeString(entity.genre || '')}',
     nbTomes: ${entity.nbTomes || 0},
     isFinished: ${entity.isFinished ?? true},
@@ -33,7 +32,7 @@ function formatUserManga(user: any): string {
     rating: ${user.rating ?? 0},
     readTimes: ${user.readTimes ?? 1},
     owned: ${user.owned ?? false},
-    readPriority: ${user.readPriority ?? 0},
+    readPriority: ${user.readPriority ?? 1},
   },`;
 }
 
@@ -102,7 +101,6 @@ router.post('/add', (req: any, res: any) => {
       title,
       author,
       coverUrl: normalizeString(entity.coverUrl, 'coverUrl') || '',
-      pages: normalizeNumber(entity.pages, 'pages') || 0,
       genre: normalizeString(entity.genre, 'genre') || '',
       nbTomes: normalizeNumber(entity.nbTomes, 'nbTomes') || 0,
       isFinished: normalizeBoolean(entity.isFinished, 'isFinished') ?? true,
@@ -115,7 +113,7 @@ router.post('/add', (req: any, res: any) => {
       readTimes: normalizeNumber(user.readTimes, 'readTimes') ?? 1,
       readDate: normalizeString(user.readDate, 'readDate') || '',
       owned: normalizeBoolean(user.owned, 'owned') ?? false,
-      readPriority: normalizeNumber(user.readPriority, 'readPriority') ?? 0,
+      readPriority: normalizeNumber(user.readPriority, 'readPriority') ?? 1,
     };
 
     const baseMangaContent = appendObjectToArrayFile(
