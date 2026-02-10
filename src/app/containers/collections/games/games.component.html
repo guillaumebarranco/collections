@@ -53,9 +53,13 @@
         [index]="i"
         [quizzs]="quizzs()"
         [isGamelistView]="selectedView() === 'gamelist'"
+        [showToRePlayButton]="true"
+        [selectedView]="selectedView()"
         (gameUpdated)="refreshGames()"
         (openQuizz)="openQuizzModal($event)"
         (gamelistPriorityUpdated)="updateGamelistPriority($event)"
+        (wantToRePlay)="markGameAsWantToRePlay($event)"
+        (haveRePlayed)="markGameAsRePlayed($event)"
       ></app-game>
     </div>
     }

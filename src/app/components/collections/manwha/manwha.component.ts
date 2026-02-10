@@ -15,6 +15,7 @@ import { Manwha } from '../../../models/manwha-model';
 import { Quizz, EntityType } from '../../../models/quizz-model';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
 import { isBaseEntityView } from '../../../core/config';
+import { ManwhaView } from '../../../containers/collections/manwhas/manwhas.utils';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -42,10 +43,14 @@ export class ManwhaComponent {
   @Input() isInReadlist = false;
   @Input() recommendationBadge = '';
   @Input() isReadlistView = false;
+  @Input() showToReReadButton = false;
+  @Input() selectedView: ManwhaView = 'read';
   @Output() editRequested = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
   @Output() addToReadlist = new EventEmitter<Manwha>();
   @Output() readPriorityUpdated = new EventEmitter<{ manwha: Manwha; priority: number }>();
+  @Output() wantToReRead = new EventEmitter<Manwha>();
+  @Output() haveReRead = new EventEmitter<Manwha>();
 
   isBaseEntityView = isBaseEntityView();
 

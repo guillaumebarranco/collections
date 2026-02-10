@@ -138,6 +138,8 @@ export class ComicsComponent implements OnInit {
       comics = this.allReadlistComics();
     } else if (this.selectedView() === 'owned') {
       comics = this.allComics().filter((comic) => comic.owned);
+    } else if (this.selectedView() === 'toReRead') {
+      comics = this.allComics().filter((comic) => comic.wantToReadAgain === true);
     }
 
     const term = this.searchTerm().trim().toLowerCase();
@@ -350,6 +352,7 @@ export class ComicsComponent implements OnInit {
           readDate: data.comic.readDate,
           owned: data.comic.owned,
           readPriority: data.priority,
+          wantToReadAgain: data.comic.wantToReadAgain ?? false,
         }),
       });
 
@@ -368,6 +371,62 @@ export class ComicsComponent implements OnInit {
         'Erreur réseau lors de la mise à jour de la priorité.',
         error
       );
+    }
+  }
+
+  async markComicAsWantToReRead(comic: Comic): Promise<void> {
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/comics`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          userId: this.getActiveUserId(),
+          title: comic.title,
+          writer: comic.writer,
+          rating: comic.rating,
+          readTimes: comic.readTimes,
+          readDate: comic.readDate,
+          owned: comic.owned,
+          readPriority: comic.readPriority ?? 1,
+          wantToReadAgain: true,
+        }),
+      });
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn('Échec marquer à relire:', payload?.error || response.statusText);
+        return;
+      }
+      await this.refreshComics();
+    } catch (error) {
+      console.warn('Erreur réseau marquer comic à relire.', error);
+    }
+  }
+
+  async markComicAsReRead(comic: Comic): Promise<void> {
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/comics`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          userId: this.getActiveUserId(),
+          title: comic.title,
+          writer: comic.writer,
+          rating: comic.rating,
+          readTimes: comic.readTimes,
+          readDate: comic.readDate,
+          owned: comic.owned,
+          readPriority: comic.readPriority ?? 1,
+          wantToReadAgain: false,
+        }),
+      });
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn('Échec marquer relu:', payload?.error || response.statusText);
+        return;
+      }
+      await this.refreshComics();
+    } catch (error) {
+      console.warn('Erreur réseau marquer comic relu.', error);
     }
   }
 

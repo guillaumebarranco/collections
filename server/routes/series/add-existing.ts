@@ -81,6 +81,7 @@ function formatUserSerie(serie: any) {
 ${formatSeasons(seasons)}
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },`;
 }
 
@@ -92,6 +93,7 @@ function formatWatchlistSerie(serie: any) {
 ${formatSeasons(seasons)}
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },`;
 }
 

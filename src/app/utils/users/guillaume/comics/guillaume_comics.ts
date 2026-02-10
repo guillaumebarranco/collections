@@ -9,5 +9,6 @@ export const guillaumeComics: UserComics = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 ];

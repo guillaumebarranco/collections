@@ -26,6 +26,7 @@ type EditMangaForm = {
   readTimes: number;
   readDate: string;
   owned: boolean;
+  wantToReadAgain: boolean;
 };
 
 type EditMangaEntityForm = {
@@ -150,7 +151,7 @@ export class EditMangaComponent {
     });
   }
 
-  updateCheckbox(field: 'owned', checked: boolean) {
+  updateCheckbox(field: 'owned' | 'wantToReadAgain', checked: boolean) {
     const current = this.mangaForm();
     if (!current) return;
     this.mangaForm.set({
@@ -232,6 +233,7 @@ export class EditMangaComponent {
           readTimes: form.readTimes,
           readDate: form.readDate,
           owned: form.owned,
+          wantToReadAgain: form.wantToReadAgain,
           entity: this.isAdminView()
             ? this.toEntityPayload(this.mangaEntityForm())
             : undefined,
@@ -421,6 +423,7 @@ export class EditMangaComponent {
       readTimes: manga.readTimes || 0,
       readDate: manga.readDate,
       owned: manga.owned,
+      wantToReadAgain: manga.wantToReadAgain ?? false,
     };
   }
 

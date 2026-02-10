@@ -26,6 +26,7 @@ type EditComicForm = {
   readTimes: number;
   readDate: string;
   owned: boolean;
+  wantToReadAgain: boolean;
 };
 
 type EditComicEntityForm = {
@@ -150,7 +151,7 @@ export class EditComicComponent {
     });
   }
 
-  updateCheckbox(field: 'owned', checked: boolean) {
+  updateCheckbox(field: 'owned' | 'wantToReadAgain', checked: boolean) {
     const current = this.comicForm();
     if (!current) return;
     this.comicForm.set({
@@ -223,6 +224,7 @@ export class EditComicComponent {
           readTimes: form.readTimes,
           readDate: form.readDate,
           owned: form.owned,
+          wantToReadAgain: form.wantToReadAgain,
           entity: this.isAdminView()
             ? this.toEntityPayload(this.comicEntityForm())
             : undefined,
@@ -412,6 +414,7 @@ export class EditComicComponent {
       readTimes: comic.readTimes || 0,
       readDate: comic.readDate,
       owned: comic.owned,
+      wantToReadAgain: comic.wantToReadAgain ?? false,
     };
   }
 

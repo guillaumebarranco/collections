@@ -38,6 +38,7 @@ function formatUserGame(user: any): string {
     platined: ${user.platined ?? false},
     owned: ${user.owned ?? false},
     gamelistPriority: ${user.gamelistPriority ?? 1},
+    wantToPlayAgain: ${user.wantToPlayAgain ?? false},
   },`;
 }
 
@@ -134,6 +135,8 @@ router.post('/add', (req: any, res: any) => {
       owned: normalizeBoolean(user.owned, 'owned') ?? false,
       gamelistPriority:
         normalizeNumber(user.gamelistPriority, 'gamelistPriority') ?? 1,
+      wantToPlayAgain:
+        normalizeBoolean(user.wantToPlayAgain, 'wantToPlayAgain') ?? false,
     };
 
     const baseGameContent = appendObjectToArrayFile(

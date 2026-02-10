@@ -15,6 +15,7 @@ import { Comic } from '../../../models/comic-model';
 import { Quizz, EntityType } from '../../../models/quizz-model';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
 import { isBaseEntityView } from '../../../core/config';
+import { ComicView } from '../../../containers/collections/comics/comics.utils';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -42,10 +43,14 @@ export class ComicComponent {
   @Input() isInReadlist = false;
   @Input() recommendationBadge = '';
   @Input() isReadlistView = false;
+  @Input() showToReReadButton = false;
+  @Input() selectedView: ComicView = 'read';
   @Output() editRequested = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
   @Output() addToReadlist = new EventEmitter<Comic>();
   @Output() readPriorityUpdated = new EventEmitter<{ comic: Comic; priority: number }>();
+  @Output() wantToReRead = new EventEmitter<Comic>();
+  @Output() haveReRead = new EventEmitter<Comic>();
 
   isBaseEntityView = isBaseEntityView();
 

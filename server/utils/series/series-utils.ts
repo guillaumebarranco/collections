@@ -192,6 +192,8 @@ function parseSeriesFromFile(content: string): any[] {
             seasons: parseSeasonsField(objectText) ?? [],
             owned: parseBooleanField(objectText, 'owned') ?? false,
             watchPriority: parseNumberField(objectText, 'watchPriority') ?? 1,
+            wantToWatchAgain:
+              parseBooleanField(objectText, 'wantToWatchAgain') ?? false,
           });
         }
       }
@@ -541,6 +543,11 @@ function updateSerieInFile(content: string, payload: any) {
             'watchPriority',
             payload.watchPriority
           );
+          updated = replaceField(
+            updated,
+            'wantToWatchAgain',
+            payload.wantToWatchAgain
+          );
 
           return (
             content.slice(0, objectStart) +
@@ -733,6 +740,8 @@ function removeSerieFromFile(content: string, payload: any) {
     director: '${escapeString(serie.director)}',
 ${seasonsText}
     owned: ${serie.owned ?? false},
+    watchPriority: ${serie.watchPriority ?? 1},
+    wantToWatchAgain: ${serie.wantToWatchAgain ?? false},
   }`;
     })
     .join(',\n');

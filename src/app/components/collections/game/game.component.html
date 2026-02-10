@@ -29,6 +29,9 @@
   />
   <div entity-info>
     <h3 class="game-title">{{ game.title }}</h3>
+    @if (game.wantToPlayAgain && !isBaseEntityView) {
+    <span class="missing-badge" style="background-color: #2196f3; color: white">À rejouer</span>
+    }
     <p class="game-editor">{{ game.editor }}</p>
     <p class="game-platform">Plateforme: {{ game.platform }}</p>
     <p class="game-saga">Saga: {{ game.saga }}</p>
@@ -84,5 +87,19 @@
     </button>
     } @else {
     <span class="recommendation-text">Déjà dans votre gamelist</span> } }
+    @if (showToRePlayButton && !isBaseEntityView && selectedView !== 'toRePlay' && selectedView !== 'gamelist') {
+      @if (!game.wantToPlayAgain) {
+    <button class="makya-btn-small" (click)="wantToRePlay.emit(game)">
+      Je veux rejouer à ce jeu
+    </button>
+      } @else {
+    <span class="recommendation-text">Déjà ajouté à vos jeux à rejouer</span>
+      }
+    }
+    @if (selectedView === 'toRePlay' && !isBaseEntityView && game.wantToPlayAgain) {
+    <button class="makya-btn-small" (click)="haveRePlayed.emit(game)">
+      J'ai rejoué à ce jeu
+    </button>
+    }
   </div>
 </app-entity-card>

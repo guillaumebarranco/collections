@@ -49,9 +49,13 @@
         [quizzs]="quizzs()"
         [readOnly]="selectedView() === 'readlist'"
         [isReadlistView]="selectedView() === 'readlist'"
+        [showToReReadButton]="true"
+        [selectedView]="selectedView()"
         (editRequested)="openEditBdDialog(bd)"
         (openQuizz)="openQuizzModal($event)"
         (readPriorityUpdated)="updateReadPriority($event)"
+        (wantToReRead)="markBdAsWantToReRead($event)"
+        (haveReRead)="markBdAsReRead($event)"
       ></app-bd>
     </div>
     }

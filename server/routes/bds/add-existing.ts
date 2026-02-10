@@ -52,7 +52,7 @@ function formatUserBd(bd: any) {
     bd.title
   )}',\n    writer: '${escapeString(
     bd.writer
-  )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n    readPriority: 1,\n  },`;
+  )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n    readPriority: 1,\n    wantToReadAgain: false,\n  },`;
 }
 
 function getUserBdsTargetFile(userId: string, isReadlist: boolean) {

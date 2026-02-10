@@ -31,6 +31,7 @@ export const getEmptyBook = (book: BaseBook): Book => ({
   readPriority: 1,
   sagaFinished: false,
   releaseDate: '',
+  wantToReadAgain: false,
 });
 
 export const getEmptyComic = (comic: BaseComic): Comic => ({
@@ -44,6 +45,7 @@ export const getEmptyComic = (comic: BaseComic): Comic => ({
   readDate: '',
   rating: 0,
   readPriority: 1,
+  wantToReadAgain: false,
 });
 
 export const getEmptyBd = (bd: BaseBd): Bd => ({
@@ -57,6 +59,7 @@ export const getEmptyBd = (bd: BaseBd): Bd => ({
   readDate: '',
   rating: 0,
   readPriority: 1,
+  wantToReadAgain: false,
 });
 
 export const getEmptyManga = (manga: BaseManga): Manga => ({
@@ -71,6 +74,7 @@ export const getEmptyManga = (manga: BaseManga): Manga => ({
   nbTomes: manga.nbTomes,
   isFinished: manga.isFinished,
   readTimes: 0,
+  wantToReadAgain: false,
 });
 
 export const getEmptyManwha = (manwha: BaseManwha): Manwha => ({
@@ -85,6 +89,7 @@ export const getEmptyManwha = (manwha: BaseManwha): Manwha => ({
   nbChapters: manwha.nbChapters,
   isFinished: manwha.isFinished,
   readTimes: 0,
+  wantToReadAgain: false,
 });
 
 export const getEmptyGame = (game: BaseGame): Game => ({
@@ -96,4 +101,5 @@ export const getEmptyGame = (game: BaseGame): Game => ({
   timesFinishedHundredPercent: 0,
   owned: false,
   gamelistPriority: 1,
+  wantToPlayAgain: false,
 });

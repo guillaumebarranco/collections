@@ -127,6 +127,8 @@ function parseComicsFromFile(content: string): any[] {
             readDate: parseStringField(objectText, 'readDate') ?? '',
             owned: parseBooleanField(objectText, 'owned') ?? false,
             readPriority: parseNumberField(objectText, 'readPriority') ?? 1,
+            wantToReadAgain:
+              parseBooleanField(objectText, 'wantToReadAgain') ?? false,
           });
         }
       }
@@ -259,6 +261,7 @@ function updateComicInFile(filePath: string, comicData: any): boolean {
     title: comicData.title ?? comics[index].title,
     writer: comicData.writer ?? comics[index].writer,
     readPriority: comicData.readPriority ?? comics[index].readPriority,
+    wantToReadAgain: comicData.wantToReadAgain ?? comics[index].wantToReadAgain,
   };
 
   const newArrayContent = comics
@@ -271,6 +274,7 @@ function updateComicInFile(filePath: string, comicData: any): boolean {
     readTimes: ${comic.readTimes ?? 1},
     owned: ${comic.owned ?? false},
     readPriority: ${comic.readPriority ?? 1},
+    wantToReadAgain: ${comic.wantToReadAgain ?? false},
   }`
     )
     .join(',\n');
@@ -322,6 +326,7 @@ function updateComicIdentityInFile(filePath: string, comicData: any): boolean {
     readTimes: ${comic.readTimes ?? 1},
     owned: ${comic.owned ?? false},
     readPriority: ${comic.readPriority ?? 1},
+    wantToReadAgain: ${comic.wantToReadAgain ?? false},
   }`
     )
     .join(',\n');
@@ -436,6 +441,8 @@ function removeComicFromFile(content: string, payload: any): string {
     rating: ${comic.rating ?? 0},
     readTimes: ${comic.readTimes ?? 1},
     owned: ${comic.owned ?? false},
+    readPriority: ${comic.readPriority ?? 1},
+    wantToReadAgain: ${comic.wantToReadAgain ?? false},
   }`
     )
     .join(',\n');

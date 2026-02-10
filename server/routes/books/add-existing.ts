@@ -55,7 +55,7 @@ function formatUserBook(book: any) {
     book.title
   )}',\n    author: '${escapeString(
     book.author
-  )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n    readPriority: 1,\n  },`;
+  )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n    readPriority: 1,\n    wantToReadAgain: false,\n  },`;
 }
 
 function getUserBooksTargetFile(userId: string, isReadlist: boolean) {

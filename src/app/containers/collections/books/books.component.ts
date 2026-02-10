@@ -217,6 +217,7 @@ export class BooksComponent implements OnInit {
       queryParams['view'] === 'readlist' ||
       queryParams['view'] === 'read' ||
       queryParams['view'] === 'owned' ||
+      queryParams['view'] === 'toReRead' ||
       queryParams['view'] === 'authors' ||
       queryParams['view'] === 'sagas' ||
       queryParams['view'] === 'recommendations'
@@ -324,6 +325,8 @@ export class BooksComponent implements OnInit {
       books = this.allReadlistBooks();
     } else if (this.selectedView() === 'owned') {
       books = this.allBooks().filter((book) => book.owned);
+    } else if (this.selectedView() === 'toReRead') {
+      books = this.allBooks().filter((book) => book.wantToReadAgain === true);
     } else if (this.selectedView() === 'authors') {
       books = this.allBooks();
     } else if (this.selectedView() === 'sagas') {
@@ -351,8 +354,8 @@ export class BooksComponent implements OnInit {
       return filteredBooks;
     }
 
-    // Filtrage par année (seulement pour les livres lus)
-    if (this.selectedView() === 'read') {
+    // Filtrage par année (livres lus ou à relire)
+    if (this.selectedView() === 'read' || this.selectedView() === 'toReRead') {
       if (this.selectedYearFilter() === '2026') {
         filteredBooks = filteredBooks.filter((b) =>
           b.readDate.startsWith('2026')
@@ -379,7 +382,10 @@ export class BooksComponent implements OnInit {
   sortedBooks = computed(() =>
     this.selectedView() === 'readlist'
       ? getSortedBooks([...this.filteredBooksByYear()], 'readPriority')
-      : getSortedBooks([...this.filteredBooksByYear()], this.selectedSort())
+      : getSortedBooks(
+          [...this.filteredBooksByYear()],
+          this.selectedSort()
+        )
   );
 
   groupedBooks = computed(() => {
@@ -762,6 +768,82 @@ export class BooksComponent implements OnInit {
     }
   }
 
+  async markBookAsWantToReRead(book: Book): Promise<void> {
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/books`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.getActiveUserId(),
+          title: book.title,
+          author: book.author,
+          rating: book.rating,
+          readTimes: book.readTimes,
+          readDate: book.readDate,
+          owned: book.owned,
+          readPriority: book.readPriority ?? 0,
+          wantToReadAgain: true,
+        }),
+      });
+
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn(
+          'Échec de la mise à jour du livre :',
+          payload?.error || response.statusText
+        );
+        return;
+      }
+
+      await this.refreshBooks();
+    } catch (error) {
+      console.warn(
+        'Erreur réseau lors de la mise à jour du livre.',
+        error
+      );
+    }
+  }
+
+  async markBookAsReRead(book: Book): Promise<void> {
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/books`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          userId: this.getActiveUserId(),
+          title: book.title,
+          author: book.author,
+          rating: book.rating,
+          readTimes: (book.readTimes ?? 0) + 1,
+          readDate: book.readDate,
+          owned: book.owned,
+          readPriority: book.readPriority ?? 0,
+          wantToReadAgain: false,
+        }),
+      });
+
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn(
+          'Échec de la mise à jour du livre :',
+          payload?.error || response.statusText
+        );
+        return;
+      }
+
+      await this.refreshBooks();
+    } catch (error) {
+      console.warn(
+        'Erreur réseau lors de la mise à jour du livre.',
+        error
+      );
+    }
+  }
+
   async updateReadPriority(data: {
     book: Book;
     priority: number;
@@ -781,6 +863,7 @@ export class BooksComponent implements OnInit {
           readDate: data.book.readDate,
           owned: data.book.owned,
           readPriority: data.priority,
+          wantToReadAgain: data.book.wantToReadAgain ?? false,
         }),
       });
 

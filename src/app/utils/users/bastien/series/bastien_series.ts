@@ -26,6 +26,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Arcane',
@@ -46,6 +47,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Bloqués',
@@ -78,6 +80,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Altered Carbon',
@@ -98,6 +101,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Brooklyn Nine-Nine',
@@ -154,6 +158,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Cloak & Dagger',
@@ -174,6 +179,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Community',
@@ -218,6 +224,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Daredevil',
@@ -244,6 +251,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Hawkeye',
@@ -258,6 +266,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Gotham',
@@ -296,6 +305,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Heroes',
@@ -328,6 +338,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Iron Fist',
@@ -348,6 +359,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Jessica Jones',
@@ -374,6 +386,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: "Jupiter's Legacy",
@@ -388,6 +401,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Locke & Key',
@@ -414,6 +428,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Loki',
@@ -434,6 +449,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Luke Cage',
@@ -454,6 +470,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Malcolm in the Middle',
@@ -504,6 +521,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Misfits',
@@ -542,6 +560,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Mercredi',
@@ -562,6 +581,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Obi-Wan Kenobi',
@@ -576,6 +596,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'One Piece (live-action)',
@@ -590,6 +611,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Smallville',
@@ -658,6 +680,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'South Park',
@@ -822,6 +845,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Squid Game',
@@ -848,6 +872,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Stranger Things',
@@ -886,6 +911,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Supernatural',
@@ -984,6 +1010,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'The Boys',
@@ -1016,6 +1043,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'The Defenders',
@@ -1030,6 +1058,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'The Falcon and the Winter Soldier',
@@ -1044,6 +1073,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'The Office',
@@ -1106,6 +1136,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'The Shannara Chronicles',
@@ -1126,6 +1157,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'The Punisher',
@@ -1146,6 +1178,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'WandaVision',
@@ -1160,6 +1193,7 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Yu Yu Hakusho (live-action)',
@@ -1174,5 +1208,6 @@ const bastienSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 ];

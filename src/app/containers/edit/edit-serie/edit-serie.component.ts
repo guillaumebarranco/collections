@@ -29,6 +29,7 @@ type EditSerieForm = {
   seasons: UserSerieSeason[];
   owned: boolean;
   watchPriority: number;
+  wantToWatchAgain: boolean;
 };
 
 type EditSerieEntityForm = {
@@ -164,6 +165,7 @@ export class EditSerieComponent {
           seasons: form.seasons,
           owned: form.owned,
           watchPriority: form.watchPriority,
+          wantToWatchAgain: form.wantToWatchAgain,
           entity: this.isAdminView()
             ? this.toEntityPayload(this.serieEntityForm())
             : undefined,
@@ -357,6 +359,7 @@ export class EditSerieComponent {
       seasons: this.buildSeasons(serie),
       owned: serie.owned,
       watchPriority: serie.watchPriority ?? 0,
+      wantToWatchAgain: serie.wantToWatchAgain ?? false,
     };
   }
 
@@ -386,7 +389,7 @@ export class EditSerieComponent {
     };
   }
 
-  updateCheckbox(field: 'owned', checked: boolean) {
+  updateCheckbox(field: 'owned' | 'wantToWatchAgain', checked: boolean) {
     const current = this.serieForm();
     if (!current) return;
     this.serieForm.set({

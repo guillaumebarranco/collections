@@ -158,6 +158,17 @@
       />
     </div>
 
+    <div class="form-row checkbox-row">
+      <label for="wantToPlayAgain">À rejouer</label>
+      <input
+        id="wantToPlayAgain"
+        type="checkbox"
+        [checked]="gameForm()?.wantToPlayAgain"
+        (change)="updateCheckbox('wantToPlayAgain', $any($event).target.checked)"
+        name="wantToPlayAgain"
+      />
+    </div>
+
     <div class="form-row">
       <label for="gamelistPriority">Priorité dans la gamelist</label>
       <input

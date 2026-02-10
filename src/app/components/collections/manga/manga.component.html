@@ -31,6 +31,9 @@
   />
   <div entity-info>
     <h3 class="book-title">{{ manga.title }}</h3>
+    @if (manga.wantToReadAgain && !isBaseEntityView) {
+    <span class="missing-badge" style="background-color: #2196f3; color: white">À relire</span>
+    }
     <p class="book-author">{{ manga.author }}</p>
     @if (manga.nbTomes) {
     <p>
@@ -81,5 +84,19 @@
     </button>
     } @else {
     <span class="recommendation-text">Déjà dans votre readlist</span> } }
+    @if (showToReReadButton && !isBaseEntityView && selectedView !== 'toReRead' && selectedView !== 'readlist') {
+      @if (!manga.wantToReadAgain) {
+    <button class="makya-btn-small" (click)="wantToReRead.emit(manga)">
+      Je veux relire ce manga
+    </button>
+      } @else {
+    <span class="recommendation-text">Déjà ajouté à vos mangas à relire</span>
+      }
+    }
+    @if (selectedView === 'toReRead' && !isBaseEntityView && manga.wantToReadAgain) {
+    <button class="makya-btn-small" (click)="haveReRead.emit(manga)">
+      J'ai relu ce manga
+    </button>
+    }
   </div>
 </app-entity-card>

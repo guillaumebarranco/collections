@@ -29,6 +29,7 @@ export const getBdDataFromUserBdAndBaseBd = (
   designer: baseBd?.designer || '',
   owned: userBd.owned,
   readPriority: userBd.readPriority,
+  wantToReadAgain: userBd.wantToReadAgain,
 });
 
 export const getBookDataFromUserBookAndBaseBook = (
@@ -49,6 +50,7 @@ export const getBookDataFromUserBookAndBaseBook = (
   readPriority: userBook.readPriority,
   sagaFinished: baseBook?.sagaFinished || false,
   releaseDate: baseBook?.releaseDate || '',
+  wantToReadAgain: userBook.wantToReadAgain,
 });
 
 export const getComicDataFromUserComicAndBaseComic = (
@@ -66,6 +68,7 @@ export const getComicDataFromUserComicAndBaseComic = (
   designer: baseComic?.designer || '',
   owned: userComic.owned,
   readPriority: userComic.readPriority,
+  wantToReadAgain: userComic.wantToReadAgain,
 });
 
 export const getGameDataFromUserGameAndBaseGame = (
@@ -89,6 +92,7 @@ export const getGameDataFromUserGameAndBaseGame = (
   averageTimeToHundredPercent: baseGame?.averageTimeToHundredPercent || 0,
   owned: userGame.owned,
   gamelistPriority: userGame.gamelistPriority,
+  wantToPlayAgain: userGame.wantToPlayAgain,
 });
 
 export const getMangaDataFromUserMangaAndBaseManga = (
@@ -106,6 +110,7 @@ export const getMangaDataFromUserMangaAndBaseManga = (
   isFinished: baseManga?.isFinished || false,
   owned: userManga.owned,
   readPriority: userManga.readPriority,
+  wantToReadAgain: userManga.wantToReadAgain,
 });
 
 export const getManwhaDataFromUserManwhaAndBaseManwha = (
@@ -125,6 +130,7 @@ export const getManwhaDataFromUserManwhaAndBaseManwha = (
   sagaOrder: 0,
   owned: userManwha.owned,
   readPriority: userManwha.readPriority,
+  wantToReadAgain: userManwha.wantToReadAgain,
 });
 
 export const getMovieDataFromUserMovieAndBaseMovie = (
@@ -165,4 +171,5 @@ export const getSerieDataFromUserSerieAndBaseSerie = (
   seasonsData: baseSerie?.seasonsData || [],
   owned: userSerie.owned,
   watchPriority: userSerie.watchPriority,
+  wantToWatchAgain: userSerie.wantToWatchAgain,
 });

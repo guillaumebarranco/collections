@@ -7,7 +7,7 @@ import {
   getSerieTotalTimesWatched,
 } from '../../../utils/series.utils';
 
-export type SerieView = 'finished' | 'watchlist' | 'owned' | 'recommendations';
+export type SerieView = 'finished' | 'watchlist' | 'owned' | 'toReWatch' | 'recommendations';
 
 export const seriesSortOptions: { value: string; label: string }[] = [
   { value: 'title', label: 'Titre (A-Z)' },
@@ -30,6 +30,7 @@ export const serieViewOptions: { value: SerieView; label: string }[] = [
   { value: 'finished', label: 'Séries finies' },
   { value: 'watchlist', label: 'Séries à voir' },
   { value: 'owned', label: 'Séries possédées' },
+  { value: 'toReWatch', label: 'À revoir' },
   { value: 'recommendations', label: 'Recommandations' },
 ];
 

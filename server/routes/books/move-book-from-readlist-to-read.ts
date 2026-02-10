@@ -63,6 +63,7 @@ function formatUserBook(book: any) {
     readTimes: 1,
     owned: false,
     readPriority: ${book.readPriority ?? 1},
+    wantToReadAgain: ${book.wantToReadAgain ?? false},
   },`;
 }
 
@@ -75,6 +76,7 @@ function formatReadlistBook(book: any) {
     readTimes: 0,
     owned: false,
     readPriority: ${book.readPriority ?? 1},
+    wantToReadAgain: ${book.wantToReadAgain ?? false},
   },`;
 }
 

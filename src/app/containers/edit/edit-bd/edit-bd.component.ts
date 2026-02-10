@@ -26,6 +26,7 @@ type EditBdForm = {
   readTimes: number;
   readDate: string;
   owned: boolean;
+  wantToReadAgain: boolean;
 };
 
 type EditBdEntityForm = {
@@ -152,7 +153,7 @@ export class EditBdComponent {
     });
   }
 
-  updateCheckbox(field: 'owned', checked: boolean) {
+  updateCheckbox(field: 'owned' | 'wantToReadAgain', checked: boolean) {
     const current = this.bdForm();
     if (!current) return;
     this.bdForm.set({
@@ -234,6 +235,7 @@ export class EditBdComponent {
           readTimes: form.readTimes,
           readDate: form.readDate,
           owned: form.owned,
+          wantToReadAgain: form.wantToReadAgain,
           entity: this.isAdminView()
             ? this.toEntityPayload(this.bdEntityForm())
             : undefined,
@@ -423,6 +425,7 @@ export class EditBdComponent {
       readTimes: bd.readTimes || 0,
       readDate: bd.readDate,
       owned: bd.owned,
+      wantToReadAgain: bd.wantToReadAgain ?? false,
     };
   }
 

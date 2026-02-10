@@ -133,6 +133,8 @@ export class SeriesComponent implements OnInit {
       series = this.allWatchlistSeries();
     } else if (this.selectedView() === 'owned') {
       series = this.allSeries().filter((serie) => serie.owned);
+    } else if (this.selectedView() === 'toReWatch') {
+      series = this.allSeries().filter((serie) => serie.wantToWatchAgain === true);
     } else {
       series = this.allSeries();
     }
@@ -195,7 +197,7 @@ export class SeriesComponent implements OnInit {
     this.isLoadingPreferences = true;
     if (
       parsed.view &&
-      ['finished', 'watchlist', 'owned'].includes(parsed.view)
+      this.viewOptions.some((opt) => opt.value === parsed.view)
     ) {
       this.selectedView.set(parsed.view);
     }
@@ -432,6 +434,7 @@ export class SeriesComponent implements OnInit {
           seasons: data.serie.seasons,
           owned: data.serie.owned,
           watchPriority: data.priority,
+          wantToWatchAgain: data.serie.wantToWatchAgain ?? false,
         }),
       });
 
@@ -450,6 +453,58 @@ export class SeriesComponent implements OnInit {
         'Erreur réseau lors de la mise à jour de la priorité.',
         error
       );
+    }
+  }
+
+  async markSerieAsWantToReWatch(serie: Serie): Promise<void> {
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/series`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          userId: this.getActiveUserId(),
+          title: serie.title,
+          director: serie.director,
+          seasons: serie.seasons,
+          owned: serie.owned,
+          watchPriority: serie.watchPriority ?? 1,
+          wantToWatchAgain: true,
+        }),
+      });
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn('Échec marquer à revoir:', payload?.error || response.statusText);
+        return;
+      }
+      await this.refreshSeries();
+    } catch (error) {
+      console.warn('Erreur réseau marquer série à revoir.', error);
+    }
+  }
+
+  async markSerieAsReWatched(serie: Serie): Promise<void> {
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/series`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          userId: this.getActiveUserId(),
+          title: serie.title,
+          director: serie.director,
+          seasons: serie.seasons,
+          owned: serie.owned,
+          watchPriority: serie.watchPriority ?? 1,
+          wantToWatchAgain: false,
+        }),
+      });
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn('Échec marquer revu:', payload?.error || response.statusText);
+        return;
+      }
+      await this.refreshSeries();
+    } catch (error) {
+      console.warn('Erreur réseau marquer série revue.', error);
     }
   }
 }

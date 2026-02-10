@@ -24,6 +24,8 @@
   <ng-container entity-badges>
     @if (recommendationBadge) {
     <span class="missing-badge">{{ recommendationBadge }}</span>
+    } @if (book.wantToReadAgain && !isBaseEntityView) {
+    <span class="missing-badge" style="background-color: #2196f3; color: white">À relire</span>
     } @if (sagaBadge) {
     <span
       class="missing-badge"
@@ -93,6 +95,18 @@
     </div>
     <button class="makya-btn" (click)="addBookFromReadlist()">
       J'ai lu ce livre
+    </button>
+    } @if (showToReReadButton && !isBaseEntityView && selectedView !== 'toReRead' && selectedView !== 'readlist') {
+      @if (!book.wantToReadAgain) {
+    <button class="makya-btn-small" (click)="wantToReRead.emit(book)">
+      Je veux relire ce livre
+    </button>
+      } @else {
+    <span class="recommendation-text">Déjà ajouté à vos livres à relire</span>
+      }
+    } @if (selectedView === 'toReRead' && !isBaseEntityView && book.wantToReadAgain) {
+    <button class="makya-btn-small" (click)="haveReRead.emit(book)">
+      J'ai relu ce livre
     </button>
     } @if (showAddToReadlistButton && !isBaseEntityView) { @if(!isInReadlist) {
     <button class="makya-btn-small" (click)="addToReadlist.emit(book)">

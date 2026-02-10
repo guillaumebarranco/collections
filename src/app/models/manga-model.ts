@@ -16,6 +16,7 @@ export interface UserManga extends MandatoryMangaData {
   readTimes: number;
   owned: boolean;
   readPriority: 1 | 2 | 3;
+  wantToReadAgain: boolean;
 }
 
 export type UserMangas = UserManga[];

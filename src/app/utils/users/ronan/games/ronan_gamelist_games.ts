@@ -11,6 +11,7 @@ export const ronanGameListGames: UserGames = [
     platined: false,
     owned: false,
     gamelistPriority: 1,
+    wantToPlayAgain: false,
   },
 
   {
@@ -23,6 +24,7 @@ export const ronanGameListGames: UserGames = [
     platined: false,
     owned: false,
     gamelistPriority: 1,
+    wantToPlayAgain: false,
   },
 
   {
@@ -35,5 +37,6 @@ export const ronanGameListGames: UserGames = [
     platined: false,
     owned: false,
     gamelistPriority: 1,
+    wantToPlayAgain: false,
   },
 ];

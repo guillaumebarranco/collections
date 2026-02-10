@@ -9,6 +9,7 @@ export const guillaumeManwhas: UserManwhas = [
     readTimes: 2,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Red Storm',
@@ -18,6 +19,7 @@ export const guillaumeManwhas: UserManwhas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Noblesse',
@@ -27,6 +29,7 @@ export const guillaumeManwhas: UserManwhas = [
     readTimes: 5,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Tower Of God',
@@ -36,6 +39,7 @@ export const guillaumeManwhas: UserManwhas = [
     readTimes: 2,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: "Girls of The Wild's",
@@ -45,6 +49,7 @@ export const guillaumeManwhas: UserManwhas = [
     readTimes: 2,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'DICE: The Cube that Changes Everything',
@@ -54,6 +59,7 @@ export const guillaumeManwhas: UserManwhas = [
     readTimes: 2,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Dr. Frost',
@@ -63,6 +69,7 @@ export const guillaumeManwhas: UserManwhas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Unordinary',
@@ -72,6 +79,7 @@ export const guillaumeManwhas: UserManwhas = [
     readTimes: 3,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'I Love Yoo',
@@ -81,6 +89,7 @@ export const guillaumeManwhas: UserManwhas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Wind Breaker',
@@ -90,6 +99,7 @@ export const guillaumeManwhas: UserManwhas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Lookism',
@@ -99,6 +109,7 @@ export const guillaumeManwhas: UserManwhas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Bastard',
@@ -108,6 +119,7 @@ export const guillaumeManwhas: UserManwhas = [
     readTimes: 2,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Sidekicks',
@@ -117,6 +129,7 @@ export const guillaumeManwhas: UserManwhas = [
     readTimes: 3,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Solo Leveling',
@@ -126,6 +139,7 @@ export const guillaumeManwhas: UserManwhas = [
     readTimes: 3,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 
   {
@@ -136,5 +150,6 @@ export const guillaumeManwhas: UserManwhas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 ];

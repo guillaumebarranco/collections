@@ -9,6 +9,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 5,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Kingdom',
@@ -18,6 +19,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 2,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Eyeshield 21',
@@ -27,6 +29,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 10,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'My Hero Academia',
@@ -36,6 +39,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Black Clover',
@@ -45,6 +49,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Nisekoi',
@@ -54,6 +59,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Dreamland',
@@ -63,6 +69,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Saru Lock',
@@ -72,6 +79,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 2,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Pretty Face',
@@ -81,6 +89,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 5,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Dragon Ball',
@@ -90,6 +99,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 15,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Dragon Ball Super',
@@ -99,6 +109,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'OnePunch-Man',
@@ -108,6 +119,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'GTO',
@@ -117,6 +129,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Captain Tsubasa',
@@ -126,6 +139,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Slam Dunk',
@@ -135,6 +149,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 2,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: "Darwin's Game",
@@ -144,6 +159,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Hikaru No Go',
@@ -153,6 +169,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 5,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Rave',
@@ -162,6 +179,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 10,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Kuroko No Basket',
@@ -171,6 +189,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Code:breaker',
@@ -180,6 +199,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Bakuman',
@@ -189,6 +209,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 10,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Jackals',
@@ -198,6 +219,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 2,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Magi The Labyrinth of Magic',
@@ -207,6 +229,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 2,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Fullmetal Alchemist',
@@ -216,6 +239,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Ginga Patrol Jako',
@@ -225,6 +249,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Gamble fish',
@@ -234,6 +259,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 3,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Tonari no Seki-kun',
@@ -243,6 +269,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Puella Magi Madoka Magica',
@@ -252,6 +279,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 2,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Nanatsu No Taizai',
@@ -261,6 +289,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Black Cat',
@@ -270,6 +299,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Shaman king',
@@ -279,6 +309,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Doubt',
@@ -288,6 +319,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Shokugeki no Soma',
@@ -297,6 +329,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Blue Dragon : Ral Ω Grad',
@@ -306,6 +339,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'One Piece',
@@ -315,6 +349,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 20,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Kenshin le Vagabond',
@@ -324,6 +359,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 15,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Feng Shen Ji',
@@ -333,6 +369,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 5,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Toriko',
@@ -342,6 +379,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 5,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Satan 666',
@@ -351,6 +389,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 5,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Worst',
@@ -360,6 +399,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 5,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Akame Ga Kill',
@@ -369,6 +409,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Death Note',
@@ -378,6 +419,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 15,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Assassination Classroom',
@@ -387,6 +429,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 3,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Karate Shoukoushi Kohinata Minoru',
@@ -396,6 +439,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Hunter X Hunter',
@@ -405,6 +449,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 2,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Beelzebub',
@@ -414,6 +459,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 2,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: "L'attaque des titans",
@@ -423,6 +469,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Claymore',
@@ -432,6 +479,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 3,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Ashita No Joe',
@@ -441,6 +489,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 5,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Gamaran',
@@ -450,6 +499,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Terra Formars',
@@ -459,6 +509,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'World Trigger',
@@ -468,6 +519,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'The Breaker',
@@ -477,6 +529,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 3,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Asu No Yoichi',
@@ -486,6 +539,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Ken-ichi, le disciple ultime',
@@ -495,6 +549,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 3,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Yu-Gi-Oh!',
@@ -504,6 +559,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 2,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Bleach',
@@ -513,6 +569,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 5,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Lui Ou Rien !',
@@ -522,6 +579,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'All You Need Is Kill',
@@ -531,6 +589,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 5,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Crows',
@@ -540,6 +599,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 3,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Détective Conan',
@@ -549,6 +609,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 2,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Hinomaru Zumou',
@@ -558,6 +619,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Haikyū!!',
@@ -567,6 +629,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'The Promised Neverland',
@@ -576,6 +639,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Gunnm',
@@ -585,6 +649,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 2,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Hajime no Ippo',
@@ -594,6 +659,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Vagabond',
@@ -603,6 +669,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Ken le Survivant',
@@ -612,6 +679,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Captain Tsubasa : World Youth',
@@ -621,6 +689,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 5,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Captain Tsubasa: Road to 2002',
@@ -630,6 +699,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Captain Tsubasa: Golden 23',
@@ -639,6 +709,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Captain Tsubasa: Rising Sun',
@@ -648,6 +719,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Platinum End',
@@ -657,6 +729,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'The Legend Of Zelda',
@@ -666,5 +739,6 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 ];

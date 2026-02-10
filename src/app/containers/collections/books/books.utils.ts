@@ -4,6 +4,7 @@ export type BookView =
   | 'read'
   | 'readlist'
   | 'owned'
+  | 'toReRead'
   | 'authors'
   | 'sagas'
   | 'recommendations';
@@ -45,6 +46,7 @@ export const bookViewOptions: { value: BookView; label: string }[] = [
   { value: 'read', label: 'Lus' },
   { value: 'readlist', label: 'À lire' },
   { value: 'owned', label: 'Possédés' },
+  { value: 'toReRead', label: 'À relire' },
   { value: 'authors', label: 'Voir par auteurs' },
   { value: 'sagas', label: 'Voir par sagas' },
   { value: 'recommendations', label: 'Recommandations' },

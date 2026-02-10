@@ -62,9 +62,13 @@
         [quizzs]="quizzs()"
         [readOnly]="selectedView() === 'readlist'"
         [isReadlistView]="selectedView() === 'readlist'"
+        [showToReReadButton]="true"
+        [selectedView]="selectedView()"
         (editRequested)="openEditManwhaDialog(manwha)"
         (openQuizz)="openQuizzModal($event)"
         (readPriorityUpdated)="updateReadPriority($event)"
+        (wantToReRead)="markManwhaAsWantToReRead($event)"
+        (haveReRead)="markManwhaAsReRead($event)"
       ></app-manwha>
     </div>
     }

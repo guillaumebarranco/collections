@@ -31,6 +31,7 @@ export interface UserSerie extends MandatorySerieData {
   seasons: UserSerieSeason[];
   owned: boolean;
   watchPriority: 1 | 2 | 3;
+  wantToWatchAgain: boolean;
 }
 
 export type UserSeries = UserSerie[];

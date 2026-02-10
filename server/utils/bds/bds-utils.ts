@@ -127,6 +127,8 @@ function parseBdsFromFile(content: string): any[] {
             readDate: parseStringField(objectText, 'readDate') ?? '',
             owned: parseBooleanField(objectText, 'owned') ?? false,
             readPriority: parseNumberField(objectText, 'readPriority') ?? 1,
+            wantToReadAgain:
+              parseBooleanField(objectText, 'wantToReadAgain') ?? false,
           });
         }
       }
@@ -267,6 +269,7 @@ function updateBdInFile(filePath: string, bdData: any): boolean {
     readTimes: ${bd.readTimes ?? 1},
     owned: ${bd.owned ?? false},
     readPriority: ${bd.readPriority ?? 1},
+    wantToReadAgain: ${bd.wantToReadAgain ?? false},
   }`
     )
     .join(',\n');
@@ -317,6 +320,8 @@ function updateBdIdentityInFile(filePath: string, bdData: any): boolean {
     rating: ${bd.rating ?? 0},
     readTimes: ${bd.readTimes ?? 1},
     owned: ${bd.owned ?? false},
+    readPriority: ${bd.readPriority ?? 1},
+    wantToReadAgain: ${bd.wantToReadAgain ?? false},
   }`
     )
     .join(',\n');
@@ -431,6 +436,8 @@ function removeBdFromFile(content: string, payload: any): string {
     rating: ${bd.rating ?? 0},
     readTimes: ${bd.readTimes ?? 1},
     owned: ${bd.owned ?? false},
+    readPriority: ${bd.readPriority ?? 1},
+    wantToReadAgain: ${bd.wantToReadAgain ?? false},
   }`
     )
     .join(',\n');

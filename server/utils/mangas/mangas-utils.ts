@@ -127,6 +127,8 @@ function parseMangasFromFile(content: string): any[] {
             readDate: parseStringField(objectText, 'readDate') ?? '',
             owned: parseBooleanField(objectText, 'owned') ?? false,
             readPriority: parseNumberField(objectText, 'readPriority') ?? 1,
+            wantToReadAgain:
+              parseBooleanField(objectText, 'wantToReadAgain') ?? false,
           });
         }
       }
@@ -266,6 +268,7 @@ function updateMangaInFile(filePath: string, mangaData: any): boolean {
     readTimes: ${manga.readTimes ?? 1},
     owned: ${manga.owned ?? false},
     readPriority: ${manga.readPriority ?? 1},
+    wantToReadAgain: ${manga.wantToReadAgain ?? false},
   }`
     )
     .join(',\n');
@@ -317,6 +320,7 @@ function updateMangaIdentityInFile(filePath: string, mangaData: any): boolean {
     readTimes: ${manga.readTimes ?? 1},
     owned: ${manga.owned ?? false},
     readPriority: ${manga.readPriority ?? 1},
+    wantToReadAgain: ${manga.wantToReadAgain ?? false},
   }`
     )
     .join(',\n');
@@ -430,6 +434,7 @@ function removeMangaFromFile(content: string, payload: any): string {
     readTimes: ${manga.readTimes ?? 1},
     owned: ${manga.owned ?? false},
     readPriority: ${manga.readPriority ?? 1},
+    wantToReadAgain: ${manga.wantToReadAgain ?? false},
   }`
     )
     .join(',\n');

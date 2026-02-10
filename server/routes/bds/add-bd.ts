@@ -35,6 +35,7 @@ function formatUserBd(user: any): string {
     readTimes: ${user.readTimes ?? 1},
     owned: ${user.owned ?? false},
     readPriority: ${user.readPriority ?? 1},
+    wantToReadAgain: ${user.wantToReadAgain ?? false},
   },`;
 }
 
@@ -119,6 +120,7 @@ router.post('/add', (req: any, res: any) => {
       readDate: normalizeString(user.readDate, 'readDate') || '',
       owned: normalizeBoolean(user.owned, 'owned') ?? false,
       readPriority: normalizeNumber(user.readPriority, 'readPriority') ?? 1,
+      wantToReadAgain: normalizeBoolean(user.wantToReadAgain, 'wantToReadAgain') ?? false,
     };
 
     const baseBdContent = appendObjectToArrayFile(

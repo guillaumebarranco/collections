@@ -14,6 +14,7 @@ export const cassandreWatchListSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Anohana',
@@ -28,6 +29,7 @@ export const cassandreWatchListSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Steins Gate',
@@ -42,5 +44,6 @@ export const cassandreWatchListSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 ];

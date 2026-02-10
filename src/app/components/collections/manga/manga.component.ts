@@ -15,6 +15,7 @@ import { Manga } from '../../../models/manga-model';
 import { Quizz, EntityType } from '../../../models/quizz-model';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
 import { isBaseEntityView } from '../../../core/config';
+import { MangaView } from '../../../containers/collections/mangas/mangas.utils';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -42,10 +43,14 @@ export class MangaComponent {
   @Input() isInReadlist = false;
   @Input() recommendationBadge = '';
   @Input() isReadlistView = false;
+  @Input() showToReReadButton = false;
+  @Input() selectedView: MangaView = 'read';
   @Output() editRequested = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
   @Output() addToReadlist = new EventEmitter<Manga>();
   @Output() readPriorityUpdated = new EventEmitter<{ manga: Manga; priority: number }>();
+  @Output() wantToReRead = new EventEmitter<Manga>();
+  @Output() haveReRead = new EventEmitter<Manga>();
 
   isBaseEntityView = isBaseEntityView();
 

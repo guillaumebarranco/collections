@@ -95,8 +95,12 @@
             <app-book
               [book]="book"
               [quizzs]="quizzs()"
+              [showToReReadButton]="true"
+              [selectedView]="selectedView()"
               (editRequested)="openEditBookDialog(book)"
               (openQuizz)="openQuizzModal($event)"
+              (wantToReRead)="markBookAsWantToReRead($event)"
+              (haveReRead)="markBookAsReRead($event)"
             ></app-book>
           </div>
           }
@@ -144,8 +148,12 @@
             <app-book
               [book]="book"
               [quizzs]="quizzs()"
+              [showToReReadButton]="true"
+              [selectedView]="selectedView()"
               (editRequested)="openEditBookDialog(book)"
               (openQuizz)="openQuizzModal($event)"
+              (wantToReRead)="markBookAsWantToReRead($event)"
+              (haveReRead)="markBookAsReRead($event)"
             ></app-book>
           </div>
           }
@@ -180,8 +188,12 @@
           <app-book
             [book]="book"
             [quizzs]="quizzs()"
+            [showToReReadButton]="true"
+            [selectedView]="selectedView()"
             (editRequested)="openEditBookDialog(book)"
             (openQuizz)="openQuizzModal($event)"
+            (wantToReRead)="markBookAsWantToReRead($event)"
+            (haveReRead)="markBookAsReRead($event)"
           ></app-book>
         </div>
         }
@@ -196,10 +208,14 @@
           [book]="book"
           [quizzs]="quizzs()"
           [isReadlistView]="selectedView() === 'readlist'"
+          [showToReReadButton]="true"
+          [selectedView]="selectedView()"
           (editRequested)="openEditBookDialog(book)"
           (openQuizz)="openQuizzModal($event)"
           (readPriorityUpdated)="updateReadPriority($event)"
           (bookUpdated)="refreshBooks()"
+          (wantToReRead)="markBookAsWantToReRead($event)"
+          (haveReRead)="markBookAsReRead($event)"
         ></app-book>
       </div>
       }

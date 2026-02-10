@@ -1,6 +1,6 @@
 import { Bd } from '../../../models/bd-model';
 
-export type BdView = 'read' | 'readlist' | 'owned' | 'recommendations';
+export type BdView = 'read' | 'readlist' | 'owned' | 'toReRead' | 'recommendations';
 
 export const bdsSortOptions: { value: string; label: string }[] = [
   { value: 'title', label: 'Titre (A-Z)' },
@@ -25,6 +25,7 @@ export const bdViewOptions: { value: BdView; label: string }[] = [
   { value: 'read', label: 'BD lues' },
   { value: 'readlist', label: 'BD à lire' },
   { value: 'owned', label: 'BD possédées' },
+  { value: 'toReRead', label: 'À relire' },
   { value: 'recommendations', label: 'Recommandations' },
 ];
 

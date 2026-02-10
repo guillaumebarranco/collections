@@ -132,6 +132,8 @@ function parseGamesFromFile(content: string): any[] {
             owned: parseBooleanField(objectText, 'owned') ?? false,
             gamelistPriority:
               parseNumberField(objectText, 'gamelistPriority') ?? 1,
+            wantToPlayAgain:
+              parseBooleanField(objectText, 'wantToPlayAgain') ?? false,
           });
         }
       }
@@ -276,6 +278,7 @@ function updateGameInFile(filePath: string, gameData: any): boolean {
     platined: ${game.platined ?? false},
     owned: ${game.owned ?? false},
     gamelistPriority: ${game.gamelistPriority ?? 1},
+    wantToPlayAgain: ${game.wantToPlayAgain ?? false},
   }`
     )
     .join(',\n');
@@ -329,6 +332,7 @@ function updateGameIdentityInFile(filePath: string, gameData: any): boolean {
     timesFinishedHundredPercent: ${game.timesFinishedHundredPercent ?? 0},
     owned: ${game.owned ?? false},
     gamelistPriority: ${game.gamelistPriority ?? 1},
+    wantToPlayAgain: ${game.wantToPlayAgain ?? false},
   }`
     )
     .join(',\n');
@@ -447,6 +451,8 @@ function removeGameFromFile(content: string, payload: any): string {
     timesFinishedHundredPercent: ${game.timesFinishedHundredPercent ?? 0},
     platined: ${game.platined ?? false},
     owned: ${game.owned ?? false},
+    gamelistPriority: ${game.gamelistPriority ?? 1},
+    wantToPlayAgain: ${game.wantToPlayAgain ?? false},
   }`
     )
     .join(',\n');

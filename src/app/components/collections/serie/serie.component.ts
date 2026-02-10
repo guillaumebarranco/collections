@@ -13,6 +13,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { Serie } from '../../../models/serie-model';
 import { Quizz, EntityType } from '../../../models/quizz-model';
+import { SerieView } from '../../../containers/collections/series/series.utils';
 import { EditSerieComponent } from '../../../containers/edit/edit-serie/edit-serie.component';
 import { EditSerieSeasonsComponent } from '../../../containers/edit/edit-serie-seasons/edit-serie-seasons.component';
 import { EntityCardComponent } from '../../entity-card/entity-card.component';
@@ -49,10 +50,14 @@ export class SerieComponent {
   @Input() isInWatchlist = false;
   @Input() recommendationBadge = '';
   @Input() isWatchlistView = false;
+  @Input() showToReWatchButton = false;
+  @Input() selectedView: SerieView = 'finished';
   @Output() serieUpdated = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
   @Output() addToWatchlist = new EventEmitter<Serie>();
   @Output() watchPriorityUpdated = new EventEmitter<{ serie: Serie; priority: number }>();
+  @Output() wantToReWatch = new EventEmitter<Serie>();
+  @Output() haveReWatched = new EventEmitter<Serie>();
 
   isBaseEntityView = isBaseEntityView();
   seasonsExpanded = signal(false);

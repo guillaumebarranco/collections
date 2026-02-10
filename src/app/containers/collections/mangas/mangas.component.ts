@@ -141,6 +141,8 @@ export class MangasComponent implements OnInit {
       mangas = this.allReadlistMangas();
     } else if (this.selectedView() === 'owned') {
       mangas = this.allMangas().filter((manga) => manga.owned);
+    } else if (this.selectedView() === 'toReRead') {
+      mangas = this.allMangas().filter((manga) => manga.wantToReadAgain === true);
     }
 
     const term = this.searchTerm().trim().toLowerCase();
@@ -482,6 +484,7 @@ export class MangasComponent implements OnInit {
           readDate: data.manga.readDate,
           owned: data.manga.owned,
           readPriority: data.priority,
+          wantToReadAgain: data.manga.wantToReadAgain ?? false,
         }),
       });
 
@@ -500,6 +503,62 @@ export class MangasComponent implements OnInit {
         'Erreur réseau lors de la mise à jour de la priorité.',
         error
       );
+    }
+  }
+
+  async markMangaAsWantToReRead(manga: Manga): Promise<void> {
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/mangas`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          userId: this.getActiveUserId(),
+          title: manga.title,
+          author: manga.author,
+          rating: manga.rating,
+          readTimes: manga.readTimes,
+          readDate: manga.readDate,
+          owned: manga.owned,
+          readPriority: manga.readPriority ?? 1,
+          wantToReadAgain: true,
+        }),
+      });
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn('Échec marquer à relire:', payload?.error || response.statusText);
+        return;
+      }
+      await this.refreshMangas();
+    } catch (error) {
+      console.warn('Erreur réseau marquer manga à relire.', error);
+    }
+  }
+
+  async markMangaAsReRead(manga: Manga): Promise<void> {
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/mangas`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          userId: this.getActiveUserId(),
+          title: manga.title,
+          author: manga.author,
+          rating: manga.rating,
+          readTimes: manga.readTimes,
+          readDate: manga.readDate,
+          owned: manga.owned,
+          readPriority: manga.readPriority ?? 1,
+          wantToReadAgain: false,
+        }),
+      });
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn('Échec marquer relu:', payload?.error || response.statusText);
+        return;
+      }
+      await this.refreshMangas();
+    } catch (error) {
+      console.warn('Erreur réseau marquer manga relu.', error);
     }
   }
 

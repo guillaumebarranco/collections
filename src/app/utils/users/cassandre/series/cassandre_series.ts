@@ -140,6 +140,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -155,6 +156,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -230,6 +232,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -269,6 +272,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -284,6 +288,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -329,6 +334,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -350,6 +356,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -461,6 +468,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -488,6 +496,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -515,6 +524,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -548,6 +558,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -563,6 +574,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -578,6 +590,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -617,6 +630,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -632,6 +646,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -665,6 +680,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -716,6 +732,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -791,6 +808,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -866,6 +884,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -893,6 +912,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -944,6 +964,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -995,6 +1016,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -1070,6 +1092,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -1085,6 +1108,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -1238,6 +1262,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -1253,6 +1278,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -1286,6 +1312,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -1343,6 +1370,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -1358,6 +1386,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -1373,6 +1402,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -1394,6 +1424,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -1415,6 +1446,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -1448,6 +1480,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -1475,6 +1508,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -1496,6 +1530,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 
   {
@@ -1523,6 +1558,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Code Geass',
@@ -1543,6 +1579,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'GTO : Great Teacher Onizuka',
@@ -1557,6 +1594,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Psycho-Pass',
@@ -1583,6 +1621,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Your Lie in April',
@@ -1597,6 +1636,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Sword Art Online',
@@ -1629,6 +1669,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Tokyo Ghoul',
@@ -1661,6 +1702,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Fairy Tail',
@@ -1723,6 +1765,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Fate/zero',
@@ -1743,6 +1786,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Fate Stay Night',
@@ -1757,6 +1801,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Fate Apocrypha',
@@ -1771,6 +1816,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Fate Grand Order',
@@ -1785,6 +1831,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Fate Unlimited blade works',
@@ -1805,6 +1852,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'RWBY',
@@ -1867,6 +1915,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Elfen Lied',
@@ -1881,6 +1930,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Angel Beats!',
@@ -1895,6 +1945,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Charlotte',
@@ -1909,6 +1960,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Clannad',
@@ -1929,6 +1981,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Mirai Nikki',
@@ -1943,6 +1996,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Durarara!!',
@@ -1975,6 +2029,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Nana',
@@ -1989,6 +2044,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Black Butler',
@@ -2021,6 +2077,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Violet Evergarden',
@@ -2035,6 +2092,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'The Promised Neverland',
@@ -2055,6 +2113,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Death Parade',
@@ -2069,6 +2128,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Magia record',
@@ -2095,6 +2155,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Gambling School',
@@ -2115,6 +2176,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Oshi no Ko',
@@ -2135,6 +2197,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Another',
@@ -2149,6 +2212,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Solo Leveling',
@@ -2169,6 +2233,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Tower of god',
@@ -2189,6 +2254,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Noblesse',
@@ -2203,6 +2269,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Beyblade',
@@ -2229,6 +2296,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'High school of the dead',
@@ -2243,6 +2311,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Deadman Wonderland',
@@ -2257,6 +2326,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Danganronpa',
@@ -2271,6 +2341,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: "Darwin's Game",
@@ -2285,6 +2356,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Toriko',
@@ -2299,6 +2371,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Aggretsuko',
@@ -2337,6 +2410,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Sailor Moon',
@@ -2375,6 +2449,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Fruit Basket',
@@ -2401,6 +2476,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Guilty Crown',
@@ -2415,6 +2491,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Sakura chasseuse de cartes',
@@ -2429,6 +2506,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Hamtaro',
@@ -2443,6 +2521,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Higurashi no naku koro ni',
@@ -2457,6 +2536,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Umineko no naku koro ni',
@@ -2471,6 +2551,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Romeo X Juliet',
@@ -2485,6 +2566,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Jeanne et Serge',
@@ -2499,6 +2581,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Toradora !',
@@ -2513,6 +2596,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Tonari no Kaibutsu-kun',
@@ -2527,6 +2611,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Maid sama',
@@ -2541,6 +2626,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'My happy marriage',
@@ -2555,6 +2641,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Yakuza fiancee',
@@ -2569,6 +2656,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'Si je suis la vilaine, autant mater le boss final',
@@ -2583,6 +2671,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'winx club',
@@ -2597,6 +2686,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'magical girl raising project',
@@ -2611,6 +2701,7 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
   {
     title: 'wish upon the pleiades',
@@ -2625,5 +2716,6 @@ export const cassandreSeries: UserSeries = [
     ],
     owned: false,
     watchPriority: 1,
+    wantToWatchAgain: false,
   },
 ];

@@ -29,6 +29,7 @@ type EditGameForm = {
   timesFinishedHundredPercent: number;
   owned: boolean;
   gamelistPriority: number;
+  wantToPlayAgain: boolean;
 };
 
 type EditGameEntityForm = {
@@ -163,7 +164,7 @@ export class EditGameComponent {
     });
   }
 
-  updateCheckbox(field: 'platined' | 'owned', checked: boolean) {
+  updateCheckbox(field: 'platined' | 'owned' | 'wantToPlayAgain', checked: boolean) {
     const current = this.gameForm();
     if (!current) return;
     this.gameForm.set({
@@ -242,6 +243,7 @@ export class EditGameComponent {
           platined: form.platined,
           owned: form.owned,
           gamelistPriority: form.gamelistPriority,
+          wantToPlayAgain: form.wantToPlayAgain,
           entity: this.isAdminView()
             ? this.toEntityPayload(this.gameEntityForm())
             : undefined,
@@ -434,6 +436,7 @@ export class EditGameComponent {
       timesFinishedHundredPercent: game.timesFinishedHundredPercent,
       owned: game.owned,
       gamelistPriority: game.gamelistPriority ?? 0,
+      wantToPlayAgain: game.wantToPlayAgain ?? false,
     };
   }
 

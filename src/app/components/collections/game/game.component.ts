@@ -18,6 +18,7 @@ import { AuthService } from '../../../core/auth.service';
 import { getGameTimePlayed } from '../../../utils/games.utils';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
 import { isBaseEntityView } from '../../../core/config';
+import { GameView } from '../../../containers/collections/games/games.utils';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -48,10 +49,14 @@ export class GameComponent {
   @Input() isInGamelist = false;
   @Input() recommendationBadge = '';
   @Input() isGamelistView = false;
+  @Input() showToRePlayButton = false;
+  @Input() selectedView: GameView = 'finished';
   @Output() gameUpdated = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
   @Output() addToGamelist = new EventEmitter<Game>();
   @Output() gamelistPriorityUpdated = new EventEmitter<{ game: Game; priority: number }>();
+  @Output() wantToRePlay = new EventEmitter<Game>();
+  @Output() haveRePlayed = new EventEmitter<Game>();
 
   isBaseEntityView = isBaseEntityView();
 

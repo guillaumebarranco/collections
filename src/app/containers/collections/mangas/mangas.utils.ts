@@ -1,6 +1,6 @@
 import { Manga } from '../../../models/manga-model';
 
-export type MangaView = 'read' | 'readlist' | 'owned' | 'recommendations';
+export type MangaView = 'read' | 'readlist' | 'owned' | 'toReRead' | 'recommendations';
 
 export const mangasSortOptions: { value: string; label: string }[] = [
   { value: 'title', label: 'Titre (A-Z)' },
@@ -25,6 +25,7 @@ export const mangaViewOptions: { value: MangaView; label: string }[] = [
   { value: 'read', label: 'Mangas lus' },
   { value: 'readlist', label: 'Mangas à lire' },
   { value: 'owned', label: 'Mangas possédés' },
+  { value: 'toReRead', label: 'À relire' },
   { value: 'recommendations', label: 'Recommandations' },
 ];
 

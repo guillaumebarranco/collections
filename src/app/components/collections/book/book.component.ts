@@ -14,6 +14,8 @@ import { AuthService } from '../../../core/auth.service';
 import { Quizz, EntityType } from '../../../models/quizz-model';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
 import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
+import { BookView } from '../../../containers/collections/books/books.utils';
+import { Book } from '../../../models/book-model';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -42,6 +44,8 @@ export class BookComponent {
   @Input() recommendationBadge = '';
   @Input() sagaBadge: 'Saga terminée' | 'Saga en cours' | null = null;
   @Input() isReadlistView = false;
+  @Input() showToReReadButton = false;
+  @Input() selectedView: BookView = 'read';
   @Output() editRequested = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
   @Output() addToReadlist = new EventEmitter<any>();
@@ -50,6 +54,8 @@ export class BookComponent {
     priority: number;
   }>();
   @Output() bookUpdated = new EventEmitter<void>();
+  @Output() wantToReRead = new EventEmitter<Book>();
+  @Output() haveReRead = new EventEmitter<Book>();
 
   isBaseEntityView = isBaseEntityView();
 

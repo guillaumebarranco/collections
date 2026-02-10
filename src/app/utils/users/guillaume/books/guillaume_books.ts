@@ -9,6 +9,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Les liaisons dangereuses',
@@ -18,6 +19,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Castel Boy',
@@ -27,6 +29,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 2,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'En bons pères de famille',
@@ -36,6 +39,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: "Où va l'argent des pauvres",
@@ -45,6 +49,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Les tout-petits face aux écrans',
@@ -54,6 +59,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Les serres sous le velours noir',
@@ -63,6 +69,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: "Ne tirez pas sur l'oiseau moqueur",
@@ -72,6 +79,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Les Hauts de Hurlevent',
@@ -81,6 +89,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Voyage au centre de la terre',
@@ -90,6 +99,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Le tour du monde en 80 jours',
@@ -99,6 +109,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Vingt Mille Lieues sous les mers',
@@ -108,6 +119,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: "L'Île mystérieuse",
@@ -117,6 +129,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'De la Terre à la Lune',
@@ -126,6 +139,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Le Comte de Monte-Cristo',
@@ -135,6 +149,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 2,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Frankenstein',
@@ -144,6 +159,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Le Portrait de Dorian Gray',
@@ -153,6 +169,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'La Ferme des animaux',
@@ -162,6 +179,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Orgueil et Préjugés',
@@ -171,6 +189,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: '1984',
@@ -180,6 +199,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Fondation',
@@ -189,6 +209,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Fahrenheit 451',
@@ -198,6 +219,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Miss Marple au club du mardi',
@@ -207,6 +229,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: "L'Affaire Protheroe",
@@ -216,6 +239,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: "Le crime de l'Orient Express",
@@ -225,6 +249,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Mort sur le Nil',
@@ -234,6 +259,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Ils étaient dix',
@@ -243,6 +269,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Le Meurtre de Roger Ackroyd',
@@ -252,6 +279,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Meurtre en Mésopotamie',
@@ -261,6 +289,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Cinq petits cochons',
@@ -270,6 +299,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Dracula',
@@ -279,6 +309,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Jane Eyre',
@@ -288,6 +319,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Une vie',
@@ -297,6 +329,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'La tête sur les épaules',
@@ -306,6 +339,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'La Nuit des temps',
@@ -315,6 +349,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'La Horde du Contrevent',
@@ -324,6 +359,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Madame Bovary',
@@ -333,6 +369,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Bel-Ami',
@@ -342,6 +379,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Résister',
@@ -351,6 +389,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Le coût de la virilité',
@@ -360,6 +399,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Sois jeune et tais-toi',
@@ -369,6 +409,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: "L'Île au trésor",
@@ -378,6 +419,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Faites-les lire !',
@@ -387,6 +429,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Candide',
@@ -396,6 +439,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Carrie',
@@ -405,6 +449,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Désolation',
@@ -414,6 +459,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: "L'étrange cas du docteur Jekyll et de Mr. Hyde",
@@ -423,6 +469,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: "L'ordinatueur",
@@ -432,6 +479,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 3,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'La Potion magique de Georges Bouillon',
@@ -441,6 +489,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 3,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Gatsby le magnifique',
@@ -450,6 +499,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'La guerre des mondes',
@@ -459,6 +509,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'La machine à explorer le temps',
@@ -468,6 +519,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: "L'homme invisible",
@@ -477,6 +529,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'La photo qui tue',
@@ -486,6 +539,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Les pages de notre amour',
@@ -495,6 +549,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'À tout jamais',
@@ -504,6 +559,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Le porte bonheur',
@@ -513,6 +569,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Memento mori',
@@ -522,6 +579,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 2,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Un choix',
@@ -531,6 +589,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Viridia: Les racines du pouvoir',
@@ -540,6 +599,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Alchemised',
@@ -549,6 +609,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Une seconde chance',
@@ -558,6 +619,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: "L'Iliade",
@@ -567,6 +629,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: "L'Odyssée",
@@ -576,6 +639,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Adam',
@@ -585,6 +649,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 
   {
@@ -595,6 +660,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Roméo et Juliette',
@@ -604,6 +670,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'La brute',
@@ -613,6 +680,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'The Dead zone',
@@ -622,6 +690,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 
   {
@@ -632,6 +701,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Les piliers de la terre',
@@ -641,6 +711,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 
   {
@@ -651,5 +722,6 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 ];

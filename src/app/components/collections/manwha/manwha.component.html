@@ -29,6 +29,9 @@
   />
   <div entity-info>
     <h3 class="book-title">{{ manwha.title }}</h3>
+    @if (manwha.wantToReadAgain && !isBaseEntityView) {
+    <span class="missing-badge" style="background-color: #2196f3; color: white">À relire</span>
+    }
     <p class="book-author">{{ manwha.author }}</p>
     @if (manwha.nbChapters) {
     <p>
@@ -79,5 +82,19 @@
     </button>
     } @else {
     <span class="recommendation-text">Déjà dans votre readlist</span> } }
+    @if (showToReReadButton && !isBaseEntityView && selectedView !== 'toReRead' && selectedView !== 'readlist') {
+      @if (!manwha.wantToReadAgain) {
+    <button class="makya-btn-small" (click)="wantToReRead.emit(manwha)">
+      Je veux relire ce manwha
+    </button>
+      } @else {
+    <span class="recommendation-text">Déjà ajouté à vos manwhas à relire</span>
+      }
+    }
+    @if (selectedView === 'toReRead' && !isBaseEntityView && manwha.wantToReadAgain) {
+    <button class="makya-btn-small" (click)="haveReRead.emit(manwha)">
+      J'ai relu ce manwha
+    </button>
+    }
   </div>
 </app-entity-card>

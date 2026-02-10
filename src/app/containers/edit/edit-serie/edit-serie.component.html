@@ -145,6 +145,17 @@
       />
     </div>
 
+    <div class="form-row checkbox-row">
+      <label for="wantToWatchAgain">À revoir</label>
+      <input
+        id="wantToWatchAgain"
+        type="checkbox"
+        [checked]="serieForm()?.wantToWatchAgain"
+        (change)="updateCheckbox('wantToWatchAgain', $any($event).target.checked)"
+        name="wantToWatchAgain"
+      />
+    </div>
+
     <div class="form-row">
       <label for="watchPriority">Priorité dans la watchlist</label>
       <input

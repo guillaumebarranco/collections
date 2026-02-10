@@ -130,6 +130,8 @@ function parseManwhasFromFile(content: string): any[] {
             readDate: parseStringField(objectText, 'readDate') ?? '',
             owned: parseBooleanField(objectText, 'owned') ?? false,
             readPriority: parseNumberField(objectText, 'readPriority') ?? 1,
+            wantToReadAgain:
+              parseBooleanField(objectText, 'wantToReadAgain') ?? false,
           });
         }
       }
@@ -269,6 +271,7 @@ function updateManwhaInFile(filePath: string, manwhaData: any): boolean {
     readTimes: ${manwha.readTimes ?? 1},
     owned: ${manwha.owned ?? false},
     readPriority: ${manwha.readPriority ?? 1},
+    wantToReadAgain: ${manwha.wantToReadAgain ?? false},
   }`
     )
     .join(',\n');
@@ -322,6 +325,8 @@ function updateManwhaIdentityInFile(
     rating: ${manwha.rating ?? 0},
     readTimes: ${manwha.readTimes ?? 1},
     owned: ${manwha.owned ?? false},
+    readPriority: ${manwha.readPriority ?? 1},
+    wantToReadAgain: ${manwha.wantToReadAgain ?? false},
   }`
     )
     .join(',\n');
@@ -435,6 +440,8 @@ function removeManwhaFromFile(content: string, payload: any): string {
     rating: ${manwha.rating ?? 0},
     readTimes: ${manwha.readTimes ?? 1},
     owned: ${manwha.owned ?? false},
+    readPriority: ${manwha.readPriority ?? 1},
+    wantToReadAgain: ${manwha.wantToReadAgain ?? false},
   }`
     )
     .join(',\n');

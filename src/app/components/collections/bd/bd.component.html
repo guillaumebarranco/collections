@@ -29,6 +29,9 @@
   />
   <div entity-info>
     <h3 class="book-title">{{ bd.title }}</h3>
+    @if (bd.wantToReadAgain && !isBaseEntityView) {
+    <span class="missing-badge" style="background-color: #2196f3; color: white">À relire</span>
+    }
     <p class="book-author">{{ bd.designer }}</p>
     @if (bd.writer && bd.writer !== bd.designer) {
     <p class="book-pages">{{ bd.writer }}</p>
@@ -81,5 +84,19 @@
     </button>
     } @else {
     <span class="recommendation-text">Déjà dans votre readlist</span> } }
+    @if (showToReReadButton && !isBaseEntityView && selectedView !== 'toReRead' && selectedView !== 'readlist') {
+      @if (!bd.wantToReadAgain) {
+    <button class="makya-btn-small" (click)="wantToReRead.emit(bd)">
+      Je veux relire cette BD
+    </button>
+      } @else {
+    <span class="recommendation-text">Déjà ajouté à vos BDs à relire</span>
+      }
+    }
+    @if (selectedView === 'toReRead' && !isBaseEntityView && bd.wantToReadAgain) {
+    <button class="makya-btn-small" (click)="haveReRead.emit(bd)">
+      J'ai relu cette BD
+    </button>
+    }
   </div>
 </app-entity-card>

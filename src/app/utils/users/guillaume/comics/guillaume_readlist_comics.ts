@@ -9,6 +9,7 @@ export const guillaumeReadListComics: UserComics = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Killing Joke',
@@ -18,6 +19,7 @@ export const guillaumeReadListComics: UserComics = [
     readTimes: 1,
     owned: false,
     readPriority: 3,
+    wantToReadAgain: false,
   },
   {
     title: 'Kingdom Come',
@@ -27,6 +29,7 @@ export const guillaumeReadListComics: UserComics = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Absolute Batman',
@@ -36,6 +39,7 @@ export const guillaumeReadListComics: UserComics = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'World War Hulk',
@@ -45,6 +49,7 @@ export const guillaumeReadListComics: UserComics = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Wolverine : Old Man Logan',
@@ -54,5 +59,6 @@ export const guillaumeReadListComics: UserComics = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
-  }
+    wantToReadAgain: false,
+  },
 ];

@@ -15,6 +15,7 @@ import { Bd } from '../../../models/bd-model';
 import { Quizz, EntityType } from '../../../models/quizz-model';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
 import { isBaseEntityView } from '../../../core/config';
+import { BdView } from '../../../containers/collections/bds/bds.utils';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -41,10 +42,14 @@ export class BdComponent {
   @Input() isInReadlist = false;
   @Input() recommendationBadge = '';
   @Input() isReadlistView = false;
+  @Input() showToReReadButton = false;
+  @Input() selectedView: BdView = 'read';
   @Output() editRequested = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
   @Output() addToReadlist = new EventEmitter<Bd>();
   @Output() readPriorityUpdated = new EventEmitter<{ bd: Bd; priority: number }>();
+  @Output() wantToReRead = new EventEmitter<Bd>();
+  @Output() haveReRead = new EventEmitter<Bd>();
 
   isBaseEntityView = isBaseEntityView();
 

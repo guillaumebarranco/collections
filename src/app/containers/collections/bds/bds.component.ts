@@ -141,6 +141,8 @@ export class BdsComponent implements OnInit {
       bds = this.allReadlistBds();
     } else if (this.selectedView() === 'owned') {
       bds = this.allBds().filter((bd) => bd.owned);
+    } else if (this.selectedView() === 'toReRead') {
+      bds = this.allBds().filter((bd) => bd.wantToReadAgain === true);
     }
 
     const term = this.searchTerm().trim().toLowerCase();
@@ -475,6 +477,7 @@ export class BdsComponent implements OnInit {
           readDate: data.bd.readDate,
           owned: data.bd.owned,
           readPriority: data.priority,
+          wantToReadAgain: data.bd.wantToReadAgain ?? false,
         }),
       });
 
@@ -493,6 +496,62 @@ export class BdsComponent implements OnInit {
         'Erreur réseau lors de la mise à jour de la priorité.',
         error
       );
+    }
+  }
+
+  async markBdAsWantToReRead(bd: Bd): Promise<void> {
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/bds`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          userId: this.getActiveUserId(),
+          title: bd.title,
+          writer: bd.writer,
+          rating: bd.rating,
+          readTimes: bd.readTimes,
+          readDate: bd.readDate,
+          owned: bd.owned,
+          readPriority: bd.readPriority ?? 1,
+          wantToReadAgain: true,
+        }),
+      });
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn('Échec marquer à relire:', payload?.error || response.statusText);
+        return;
+      }
+      await this.refreshBds();
+    } catch (error) {
+      console.warn('Erreur réseau marquer BD à relire.', error);
+    }
+  }
+
+  async markBdAsReRead(bd: Bd): Promise<void> {
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/bds`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          userId: this.getActiveUserId(),
+          title: bd.title,
+          writer: bd.writer,
+          rating: bd.rating,
+          readTimes: bd.readTimes,
+          readDate: bd.readDate,
+          owned: bd.owned,
+          readPriority: bd.readPriority ?? 1,
+          wantToReadAgain: false,
+        }),
+      });
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn('Échec marquer relu:', payload?.error || response.statusText);
+        return;
+      }
+      await this.refreshBds();
+    } catch (error) {
+      console.warn('Erreur réseau marquer BD relue.', error);
     }
   }
 

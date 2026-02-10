@@ -26,6 +26,7 @@ type EditManwhaForm = {
   readTimes: number;
   readDate: string;
   owned: boolean;
+  wantToReadAgain: boolean;
 };
 
 type EditManwhaEntityForm = {
@@ -153,7 +154,7 @@ export class EditManwhaComponent {
     });
   }
 
-  updateCheckbox(field: 'owned', checked: boolean) {
+  updateCheckbox(field: 'owned' | 'wantToReadAgain', checked: boolean) {
     const current = this.manwhaForm();
     if (!current) return;
     this.manwhaForm.set({
@@ -235,6 +236,7 @@ export class EditManwhaComponent {
           readTimes: form.readTimes,
           readDate: form.readDate,
           owned: form.owned,
+          wantToReadAgain: form.wantToReadAgain,
           entity: this.isAdminView()
             ? this.toEntityPayload(this.manwhaEntityForm())
             : undefined,
@@ -424,6 +426,7 @@ export class EditManwhaComponent {
       readTimes: manwha.readTimes || 0,
       readDate: manwha.readDate,
       owned: manwha.owned,
+      wantToReadAgain: manwha.wantToReadAgain ?? false,
     };
   }
 

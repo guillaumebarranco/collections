@@ -28,6 +28,7 @@ type EditBookForm = {
   owned: boolean;
   readPriority: number;
   sagaFinished: boolean;
+  wantToReadAgain: boolean;
 };
 
 type EditBookEntityForm = {
@@ -160,7 +161,7 @@ export class EditBookComponent {
     });
   }
 
-  updateCheckbox(field: 'owned', checked: boolean) {
+  updateCheckbox(field: 'owned' | 'wantToReadAgain', checked: boolean) {
     const current = this.bookForm();
     if (!current) return;
     this.bookForm.set({
@@ -243,6 +244,7 @@ export class EditBookComponent {
           readDate: form.readDate,
           owned: form.owned,
           readPriority: form.readPriority,
+          wantToReadAgain: form.wantToReadAgain,
           entity: this.isAdminView()
             ? this.toEntityPayload(this.bookEntityForm())
             : undefined,
@@ -434,6 +436,7 @@ export class EditBookComponent {
       owned: book.owned,
       readPriority: book.readPriority ?? 0,
       sagaFinished: book.sagaFinished,
+      wantToReadAgain: book.wantToReadAgain ?? false,
     };
   }
 

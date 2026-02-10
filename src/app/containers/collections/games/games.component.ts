@@ -146,6 +146,8 @@ export class GamesComponent implements OnInit {
       games = this.allGames().filter((game) => game.platined);
     } else if (this.selectedView() === 'owned') {
       games = this.allGames().filter((game) => game.owned);
+    } else if (this.selectedView() === 'toRePlay') {
+      games = this.allGames().filter((game) => game.wantToPlayAgain === true);
     }
 
     const term = this.searchTerm().trim().toLowerCase();
@@ -465,6 +467,7 @@ export class GamesComponent implements OnInit {
           platined: data.game.platined,
           owned: data.game.owned,
           gamelistPriority: data.priority,
+          wantToPlayAgain: data.game.wantToPlayAgain ?? false,
         }),
       });
 
@@ -483,6 +486,66 @@ export class GamesComponent implements OnInit {
         'Erreur réseau lors de la mise à jour de la priorité.',
         error
       );
+    }
+  }
+
+  async markGameAsWantToRePlay(game: Game): Promise<void> {
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/games`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          userId: this.getActiveUserId(),
+          title: game.title,
+          editor: game.editor,
+          rating: game.rating,
+          timesFinished: game.timesFinished,
+          additionnalEstimatedTime: game.additionnalEstimatedTime,
+          timesFinishedHundredPercent: game.timesFinishedHundredPercent,
+          platined: game.platined,
+          owned: game.owned,
+          gamelistPriority: game.gamelistPriority ?? 1,
+          wantToPlayAgain: true,
+        }),
+      });
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn('Échec marquer à rejouer:', payload?.error || response.statusText);
+        return;
+      }
+      await this.refreshGames();
+    } catch (error) {
+      console.warn('Erreur réseau marquer jeu à rejouer.', error);
+    }
+  }
+
+  async markGameAsRePlayed(game: Game): Promise<void> {
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/games`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          userId: this.getActiveUserId(),
+          title: game.title,
+          editor: game.editor,
+          rating: game.rating,
+          timesFinished: game.timesFinished,
+          additionnalEstimatedTime: game.additionnalEstimatedTime,
+          timesFinishedHundredPercent: game.timesFinishedHundredPercent,
+          platined: game.platined,
+          owned: game.owned,
+          gamelistPriority: game.gamelistPriority ?? 1,
+          wantToPlayAgain: false,
+        }),
+      });
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn('Échec marquer rejoué:', payload?.error || response.statusText);
+        return;
+      }
+      await this.refreshGames();
+    } catch (error) {
+      console.warn('Erreur réseau marquer jeu rejoué.', error);
     }
   }
 }

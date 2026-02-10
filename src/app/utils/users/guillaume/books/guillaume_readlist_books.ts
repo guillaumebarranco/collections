@@ -9,6 +9,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Les liaisons dangereuses',
@@ -18,6 +19,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Les filles du Docteur March',
@@ -27,6 +29,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Circe',
@@ -36,15 +39,17 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
-    title: 'Le chant d\'Achille',
+    title: "Le chant d'Achille",
     author: 'Madeline Miller',
     readDate: '',
     rating: 0,
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Dark Shores',
@@ -54,6 +59,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Le Horla',
@@ -63,15 +69,17 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
-    title: 'L\'écume des jours',
+    title: "L'écume des jours",
     author: 'Boris Vian',
     readDate: '',
     rating: 0,
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Notre-Dame de Paris',
@@ -81,6 +89,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Le roi de fer',
@@ -90,6 +99,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Le vicomte de Bragelonne',
@@ -99,6 +109,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'La reine Margot',
@@ -108,6 +119,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 2,
+    wantToReadAgain: false,
   },
   {
     title: 'Le trone de fer intégrale 4',
@@ -117,6 +129,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Le trone de fer intégrale 5',
@@ -126,6 +139,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Robinson Crusoe',
@@ -135,6 +149,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Cyrano de Bergerac',
@@ -144,6 +159,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Où vont les larmes quand elles sèchent',
@@ -153,6 +169,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Cinq semaines en ballon',
@@ -162,6 +179,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Autour de la Lune',
@@ -171,6 +189,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Les deux tours',
@@ -180,6 +199,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Le retour du roi',
@@ -189,6 +209,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Leçons de chimie',
@@ -198,6 +219,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Gagner la guerre',
@@ -207,24 +229,27 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
-    title: 'L\'enfer',
+    title: "L'enfer",
     author: 'Dante Alighieri',
     readDate: '',
     rating: 0,
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
-    title: 'L\'epopée de Gilgamesh',
+    title: "L'epopée de Gilgamesh",
     author: 'Anonyme',
     readDate: '',
     rating: 0,
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Hamlet',
@@ -234,6 +259,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Macbeth',
@@ -243,6 +269,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'La Controverse de Valladolid',
@@ -252,6 +279,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: false,
     readPriority: 2,
+    wantToReadAgain: false,
   },
   {
     title: 'La dernière chanson',
@@ -261,6 +289,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Fais un voeu',
@@ -270,6 +299,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Au rythme de ton souffle',
@@ -279,6 +309,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Un havre de paix',
@@ -288,24 +319,27 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
-    title: 'L\'amour aux temps du choléra',
+    title: "L'amour aux temps du choléra",
     author: 'Gabriel García Márquez',
     readDate: '',
     rating: 0,
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
-    title: 'Le Gaslighting ou l\'art de faire taire les femmes',
+    title: "Le Gaslighting ou l'art de faire taire les femmes",
     author: 'Hélène Frappat',
     readDate: '',
     rating: 0,
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Tout le bleu du ciel',
@@ -315,6 +349,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 2,
+    wantToReadAgain: false,
   },
   {
     title: 'Don Quichotte',
@@ -324,6 +359,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Faust',
@@ -333,6 +369,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Autant en emporte le vent',
@@ -342,6 +379,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Les Mille et Une Nuits',
@@ -351,6 +389,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Anna Karénine',
@@ -360,15 +399,17 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
-    title: 'L\'espace d\'un an',
+    title: "L'espace d'un an",
     author: 'Becky Chambers',
     readDate: '',
     rating: 0,
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Princess Bride',
@@ -378,6 +419,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'La Maison des feuilles',
@@ -387,6 +429,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'La Révoltée',
@@ -396,15 +439,17 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
-    title: 'L\'impure',
+    title: "L'impure",
     author: 'Guy des Cars',
     readDate: '',
     rating: 0,
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Il était une fois: Tome 1 : Mon premier baiser',
@@ -414,15 +459,17 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Un raccourci dans le temps',
-    author: 'Madeleine L\'Engle',
+    author: "Madeleine L'Engle",
     readDate: '',
     rating: 0,
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Les voyages de Gulliver',
@@ -432,15 +479,17 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
-    title: 'Rien qu\'un surhomme',
+    title: "Rien qu'un surhomme",
     author: 'Olaf Stapledon',
     readDate: '',
     rating: 0,
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Le Souffle de la Hyène',
@@ -450,15 +499,17 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
-    title: 'Le Journal d\'Anne Frank',
+    title: "Le Journal d'Anne Frank",
     author: 'Anne Frank',
     readDate: '',
     rating: 0,
     readTimes: 0,
     owned: true,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Les disparus du phare de Tévennec',
@@ -468,6 +519,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Eragon (Eragon, #1)',
@@ -477,6 +529,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'The Invisible Life of Addie LaRue',
@@ -486,6 +539,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Da Vinci Code',
@@ -495,36 +549,39 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 2,
-  }
-,
+    wantToReadAgain: false,
+  },
   {
-    title: 'Jeux d\'Ombres',
+    title: "Jeux d'Ombres",
     author: 'Glen Cook',
     readDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 
   {
-    title: 'Rêves d\'Acier',
+    title: "Rêves d'Acier",
     author: 'Glen Cook',
     readDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 
   {
-    title: 'La Pointe d\'Argent',
+    title: "La Pointe d'Argent",
     author: 'Glen Cook',
     readDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 
   {
@@ -535,6 +592,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 
   {
@@ -545,6 +603,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 
   {
@@ -555,26 +614,29 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 
   {
-    title: 'L\'Eau Dort - Part. 1',
+    title: "L'Eau Dort - Part. 1",
     author: 'Glen Cook',
     readDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 
   {
-    title: 'L\'Eau Dort - Part. 2',
+    title: "L'Eau Dort - Part. 2",
     author: 'Glen Cook',
     readDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 
   {
@@ -585,6 +647,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 
   {
@@ -595,5 +658,6 @@ export const guillaumeReadlistBooks: UserBooks = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 ];

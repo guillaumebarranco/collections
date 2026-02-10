@@ -29,6 +29,9 @@
   />
   <div entity-info>
     <h3 class="comic-title">{{ comic.title }}</h3>
+    @if (comic.wantToReadAgain && !isBaseEntityView) {
+    <span class="missing-badge" style="background-color: #2196f3; color: white">À relire</span>
+    }
     <p class="comic-designer">Dessinateur : {{ comic.designer }}</p>
     <p class="comic-writer">Scénariste : {{ comic.writer }}</p>
 
@@ -77,6 +80,20 @@
     </button>
     } @else {
     <span class="recommendation-text">Déjà dans votre readlist</span> }
+    }
+    @if (showToReReadButton && !isBaseEntityView && selectedView !== 'toReRead' && selectedView !== 'readlist') {
+      @if (!comic.wantToReadAgain) {
+    <button class="makya-btn-small" (click)="wantToReRead.emit(comic)">
+      Je veux relire ce comic
+    </button>
+      } @else {
+    <span class="recommendation-text">Déjà ajouté à vos comics à relire</span>
+      }
+    }
+    @if (selectedView === 'toReRead' && !isBaseEntityView && comic.wantToReadAgain) {
+    <button class="makya-btn-small" (click)="haveReRead.emit(comic)">
+      J'ai relu ce comic
+    </button>
     }
   </div>
 </app-entity-card>

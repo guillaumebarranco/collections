@@ -55,6 +55,8 @@ router.post('/', (req: any, res: any) => {
       owned: normalizeBoolean(game.owned, 'owned') ?? false,
       gamelistPriority:
         normalizeNumber(game.gamelistPriority, 'gamelistPriority') ?? 1,
+      wantToPlayAgain:
+        normalizeBoolean(game.wantToPlayAgain, 'wantToPlayAgain') ?? false,
     }));
 
     let updatedCount = 0;

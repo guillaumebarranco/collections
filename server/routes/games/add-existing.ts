@@ -58,6 +58,7 @@ function formatUserGame(game: any): string {
     platined: false,
     owned: false,
     gamelistPriority: 1,
+    wantToPlayAgain: false,
   },`;
 }
 
@@ -72,6 +73,7 @@ function formatGamelistGame(game: any): string {
     platined: false,
     owned: false,
     gamelistPriority: ${game.gamelistPriority ?? 1},
+    wantToPlayAgain: false,
   },`;
 }
 

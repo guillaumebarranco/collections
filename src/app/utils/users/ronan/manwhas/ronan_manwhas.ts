@@ -9,6 +9,7 @@ export const ronanManwhas: UserManwhas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Tower Of God',
@@ -18,6 +19,7 @@ export const ronanManwhas: UserManwhas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
   {
     title: 'Solo Leveling',
@@ -27,5 +29,6 @@ export const ronanManwhas: UserManwhas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 ];

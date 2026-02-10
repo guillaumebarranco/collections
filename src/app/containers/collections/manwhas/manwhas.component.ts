@@ -141,6 +141,8 @@ export class ManwhasComponent implements OnInit {
       manwhas = this.allReadlistManwhas();
     } else if (this.selectedView() === 'owned') {
       manwhas = this.allManwhas().filter((manwha) => manwha.owned);
+    } else if (this.selectedView() === 'toReRead') {
+      manwhas = this.allManwhas().filter((manwha) => manwha.wantToReadAgain === true);
     }
 
     const term = this.searchTerm().trim().toLowerCase();
@@ -490,6 +492,7 @@ export class ManwhasComponent implements OnInit {
           readDate: data.manwha.readDate,
           owned: data.manwha.owned,
           readPriority: data.priority,
+          wantToReadAgain: data.manwha.wantToReadAgain ?? false,
         }),
       });
 
@@ -508,6 +511,62 @@ export class ManwhasComponent implements OnInit {
         'Erreur réseau lors de la mise à jour de la priorité.',
         error
       );
+    }
+  }
+
+  async markManwhaAsWantToReRead(manwha: Manwha): Promise<void> {
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/manwhas`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          userId: this.getActiveUserId(),
+          title: manwha.title,
+          author: manwha.author,
+          rating: manwha.rating,
+          readTimes: manwha.readTimes,
+          readDate: manwha.readDate,
+          owned: manwha.owned,
+          readPriority: manwha.readPriority ?? 1,
+          wantToReadAgain: true,
+        }),
+      });
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn('Échec marquer à relire:', payload?.error || response.statusText);
+        return;
+      }
+      await this.refreshManwhas();
+    } catch (error) {
+      console.warn('Erreur réseau marquer manwha à relire.', error);
+    }
+  }
+
+  async markManwhaAsReRead(manwha: Manwha): Promise<void> {
+    try {
+      const response = await fetch(`${getApiBaseUrl()}/manwhas`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          userId: this.getActiveUserId(),
+          title: manwha.title,
+          author: manwha.author,
+          rating: manwha.rating,
+          readTimes: manwha.readTimes,
+          readDate: manwha.readDate,
+          owned: manwha.owned,
+          readPriority: manwha.readPriority ?? 1,
+          wantToReadAgain: false,
+        }),
+      });
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn('Échec marquer relu:', payload?.error || response.statusText);
+        return;
+      }
+      await this.refreshManwhas();
+    } catch (error) {
+      console.warn('Erreur réseau marquer manwha relu.', error);
     }
   }
 

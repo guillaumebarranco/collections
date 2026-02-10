@@ -11,6 +11,7 @@ export const guillaumeGameListGames: UserGames = [
     platined: false,
     owned: false,
     gamelistPriority: 1,
+    wantToPlayAgain: false,
   },
   {
     title: 'Clair Obscur : Expedition 33',
@@ -22,6 +23,7 @@ export const guillaumeGameListGames: UserGames = [
     platined: false,
     owned: false,
     gamelistPriority: 3,
+    wantToPlayAgain: false,
   },
   {
     title: 'Ratchet & Clank : Rift Apart',
@@ -33,5 +35,6 @@ export const guillaumeGameListGames: UserGames = [
     platined: false,
     owned: false,
     gamelistPriority: 1,
-  }
+    wantToPlayAgain: false,
+  },
 ];

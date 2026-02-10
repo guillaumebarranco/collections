@@ -9,6 +9,7 @@ export const ronanReadListMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 
   {
@@ -19,6 +20,7 @@ export const ronanReadListMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 
   {
@@ -29,6 +31,7 @@ export const ronanReadListMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 
   {
@@ -39,6 +42,7 @@ export const ronanReadListMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 
   {
@@ -49,6 +53,7 @@ export const ronanReadListMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 
   {
@@ -59,6 +64,7 @@ export const ronanReadListMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 
   {
@@ -69,6 +75,7 @@ export const ronanReadListMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 
   {
@@ -79,6 +86,7 @@ export const ronanReadListMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 
   {
@@ -89,6 +97,7 @@ export const ronanReadListMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 
   {
@@ -99,6 +108,7 @@ export const ronanReadListMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 
   {
@@ -109,6 +119,7 @@ export const ronanReadListMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 
   {
@@ -119,5 +130,6 @@ export const ronanReadListMangas: UserMangas = [
     readTimes: 1,
     owned: false,
     readPriority: 1,
+    wantToReadAgain: false,
   },
 ];

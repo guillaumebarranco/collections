@@ -125,6 +125,17 @@
         name="owned"
       />
     </div>
+
+    <div class="form-row checkbox-row">
+      <label for="wantToReadAgain">À relire</label>
+      <input
+        id="wantToReadAgain"
+        type="checkbox"
+        [checked]="comicForm()?.wantToReadAgain"
+        (change)="updateCheckbox('wantToReadAgain', $any($event).target.checked)"
+        name="wantToReadAgain"
+      />
+    </div>
     } @if (isAdminView() && comicEntityForm()) {
     <div class="form-row">
       <label for="entityPages">Pages</label>

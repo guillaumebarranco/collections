@@ -52,9 +52,13 @@
         [index]="i"
         [quizzs]="quizzs()"
         [isWatchlistView]="selectedView() === 'watchlist'"
+        [showToReWatchButton]="true"
+        [selectedView]="selectedView()"
         (serieUpdated)="refreshSeries()"
         (openQuizz)="openQuizzModal($event)"
         (watchPriorityUpdated)="updateWatchPriority($event)"
+        (wantToReWatch)="markSerieAsWantToReWatch($event)"
+        (haveReWatched)="markSerieAsReWatched($event)"
       ></app-serie>
     </div>
     }
