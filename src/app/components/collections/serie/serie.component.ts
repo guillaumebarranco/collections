@@ -19,7 +19,7 @@ import { EditSerieSeasonsComponent } from '../../../containers/edit/edit-serie-s
 import { EntityCardComponent } from '../../entity-card/entity-card.component';
 import { AuthService } from '../../../core/auth.service';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
-import { isBaseEntityView } from '../../../core/config';
+import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -160,5 +160,45 @@ export class SerieComponent {
 
   updateWatchPriority(priority: number): void {
     this.watchPriorityUpdated.emit({ serie: this.serie, priority });
+  }
+
+  private getActiveUserId(): string {
+    const params = this.activatedRoute.snapshot.params;
+    return params['id'] ?? 'guillaume';
+  }
+
+  async addSerieFromWatchlist(): Promise<void> {
+    try {
+      const response = await fetch(
+        `${getApiBaseUrl()}/series/move-serie-from-watchlist-to-watched`,
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            userId: this.getActiveUserId(),
+            series: [this.serie],
+            watchlist: false,
+          }),
+        }
+      );
+
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn(
+          "Échec du passage de la série en « vus » :",
+          payload?.error || response.statusText
+        );
+        return;
+      }
+
+      this.serieUpdated.emit();
+    } catch (error) {
+      console.warn(
+        "Erreur réseau lors du passage de la série en « vus ».",
+        error
+      );
+    }
   }
 }

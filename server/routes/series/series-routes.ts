@@ -10,11 +10,13 @@ const addSerieRouter = require('./add-serie');
 const addExistingRouter = require('./add-existing');
 const deleteSerieRouter = require('./delete-serie');
 const othersRatedRouter = require('./get-others-users-series-rated');
+const moveSerieFromWatchlistRouter = require('./move-serie-from-watchlist-to-watched');
 
 const router = express.Router();
 
 router.use(getEntitiesRouter);
 router.use(getWatchlistRouter);
+router.use(moveSerieFromWatchlistRouter);
 router.use(othersRatedRouter);
 router.use(getSeriesRouter);
 router.use(saveSerieRouter);

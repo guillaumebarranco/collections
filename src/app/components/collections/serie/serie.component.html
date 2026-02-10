@@ -97,6 +97,9 @@
         }
       </div>
     </div>
+    <button class="makya-btn" (click)="addSerieFromWatchlist()">
+      J'ai vu cette série
+    </button>
     } @if (showAddToWatchlistButton && !isBaseEntityView) { @if(!isInWatchlist)
     {
     <button class="makya-btn-small" (click)="addToWatchlist.emit(serie)">
