@@ -52,12 +52,21 @@ function escapeString(value: string) {
   return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
 }
 
+function getTodayISO(): string {
+  const today = new Date();
+  const year = today.getFullYear();
+  const month = String(today.getMonth() + 1).padStart(2, '0');
+  const day = String(today.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}
+
 function formatUserMovie(movie: any) {
+  const viewedDate = getTodayISO();
   return `  {\n    title: '${escapeString(
     movie.title
   )}',\n    director: '${escapeString(
     movie.director
-  )}',\n    rating: 0,\n    timesWatched: 1,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n  },`;
+  )}',\n    rating: 0,\n    timesWatched: 1,\n    firstViewedDate: '${viewedDate}',\n    lastViewedDate: '${viewedDate}',\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n  },`;
 }
 
 function formatWatchlistMovie(movie: any) {

@@ -1165,4 +1165,17 @@ export const guillaumeMoviesPage1: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
+
+  {
+    title: 'Moulin Rouge !',
+    director: 'Baz Luhrmann',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2026-02-10',
+    lastViewedDate: '2026-02-10',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+  },
 ];

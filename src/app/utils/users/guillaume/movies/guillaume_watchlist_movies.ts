@@ -50,7 +50,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     watchPriority: 1,
   },
   {
-    title: "Le Crime de l'Orient-Express",
+    title: 'Le Crime de l\'Orient-Express',
     director: 'Kenneth Branagh',
     rating: 0,
     timesWatched: 0,
@@ -98,7 +98,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     watchPriority: 1,
   },
   {
-    title: "L'Étrange Histoire de Benjamin Button",
+    title: 'L\'Étrange Histoire de Benjamin Button',
     director: 'David Fincher',
     rating: 0,
     timesWatched: 0,
@@ -158,7 +158,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     watchPriority: 1,
   },
   {
-    title: "Atlantis : L'Empire perdu",
+    title: 'Atlantis : L\'Empire perdu',
     director: 'Gary Trousdale, Kirk Wise',
     rating: 0,
     timesWatched: 0,
@@ -168,18 +168,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
-  },
-  {
-    title: 'Moulin Rouge !',
-    director: 'Baz Luhrmann',
-    rating: 0,
-    timesWatched: 0,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 3,
   },
   {
     title: 'Titanic',
@@ -290,7 +278,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     watchPriority: 2,
   },
   {
-    title: "L'amour au présent",
+    title: 'L\'amour au présent',
     director: 'John Crowley',
     rating: 0,
     timesWatched: 0,
@@ -446,7 +434,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     watchPriority: 1,
   },
   {
-    title: "À tous les garçons que j'ai aimés",
+    title: 'À tous les garçons que j\'ai aimés',
     director: 'Susan Johnson',
     rating: 0,
     timesWatched: 0,
@@ -529,7 +517,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
   },
-
   {
     title: 'Nobody 2',
     director: 'Timo Tjahjanto',
@@ -542,9 +529,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 3,
   },
-
   {
-    title: "Ennemi d'Etat",
+    title: 'Ennemi d\'Etat',
     director: 'Tony Scott',
     rating: 0,
     timesWatched: 0,
@@ -555,7 +541,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'La Légende de Bagger Vance',
     director: 'Robert Redford',
@@ -568,7 +553,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Ali',
     director: 'Michael Mann',
@@ -581,7 +565,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Seul contre tous',
     director: 'Peter Landesman',
@@ -594,7 +577,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Bright',
     director: 'David Ayer',
@@ -607,7 +589,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Emancipation',
     director: 'Antoine Fuqua',
@@ -620,9 +601,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
-    title: "L'Expert",
+    title: 'L\'Expert',
     director: 'James Mangold',
     rating: 0,
     timesWatched: 0,
@@ -633,7 +613,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Copland',
     director: 'James Mangold',
@@ -646,7 +625,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Get Carter',
     director: 'Stephen Kay',
@@ -659,7 +637,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Les Maîtres du jeu',
     director: 'Sylvester Stallone',
@@ -672,7 +649,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Mafia Love',
     director: 'Sylvester Stallone',
@@ -685,7 +661,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Rambo: Last Blood',
     director: 'Adrian Grunberg',
@@ -698,7 +673,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'La Fin des temps',
     director: 'Peter Hyams',
@@ -711,7 +685,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Le Dernier rempart',
     director: 'Rod Lurie',
@@ -724,7 +697,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Hudson Hawk, gentleman et cambrioleur',
     director: 'Michael Lehmann',
@@ -737,7 +709,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
   },
-
   {
     title: 'Piège en eaux troubles',
     director: 'Harold Becker',
@@ -750,7 +721,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Le Chacal',
     director: 'Michael Caton-Jones',
@@ -763,7 +733,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Mon voisin le tueur 2',
     director: 'Patrick Read Johnson',
@@ -776,7 +745,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Les Larmes du soleil',
     director: 'Antoine Fuqua',
@@ -789,7 +757,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: '16 Blocs',
     director: 'Richard Donner',
@@ -802,7 +769,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Slevin',
     director: 'Paul McGuigan',
@@ -815,7 +781,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Top Cops',
     director: 'David Twohy',
@@ -828,7 +793,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Sans issue',
     director: 'Guy Ritchie',
@@ -841,7 +805,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Les Joueurs',
     director: 'John Dahl',
@@ -854,7 +817,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Le Talentueux Mr Ripley',
     director: 'Anthony Minghella',
@@ -867,7 +829,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
   },
-
   {
     title: 'Invictus',
     director: 'Clint Eastwood',
@@ -880,9 +841,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 3,
   },
-
   {
-    title: "Spy game, jeu d'espions",
+    title: 'Spy game, jeu d\'espions',
     director: 'Tony Scott',
     rating: 0,
     timesWatched: 0,
@@ -893,7 +853,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Le stratège',
     director: 'Bennett Miller',
@@ -906,7 +865,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'The Tree of Life',
     director: 'Terrence Malick',
@@ -919,7 +877,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'The Big Short',
     director: 'Adam McKay',
@@ -932,7 +889,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
   },
-
   {
     title: 'Le Secret de la cité perdue',
     director: 'Aaron Nee, Adam Nee',
@@ -945,7 +901,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
   },
-
   {
     title: 'Le Pont des espions',
     director: 'Steven Spielberg',
@@ -958,7 +913,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'The Circle',
     director: 'James Ponsoldt',
@@ -971,7 +925,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
   },
-
   {
     title: 'Asteroid City',
     director: 'Wes Anderson',
@@ -984,7 +937,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Jerry Maguire',
     director: 'Cameron Crowe',
@@ -997,7 +949,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Eyes Wide Shut',
     director: 'Stanley Kubrick',
@@ -1010,7 +961,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
   },
-
   {
     title: 'Tonnerre sous les Tropiques',
     director: 'Ben Stiller',
@@ -1023,7 +973,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'La Momie',
     director: 'Alex Kurtzman',
@@ -1036,7 +985,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Les Noces rebelles',
     director: 'Sam Mendes',
@@ -1049,7 +997,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'J. Edgar',
     director: 'Clint Eastwood',
@@ -1062,7 +1009,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'The Revenant',
     director: 'Alejandro González Iñárritu',
@@ -1075,9 +1021,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
-    title: "Une bataille après l'autre",
+    title: 'Une bataille après l\'autre',
     director: 'Paul Thomas Anderson',
     rating: 0,
     timesWatched: 0,
@@ -1088,7 +1033,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Night Call',
     director: 'Antoine Fuqua',
@@ -1101,7 +1045,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Okja',
     director: 'Bong Joon-ho',
@@ -1114,7 +1057,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Scoop',
     director: 'Woody Allen',
@@ -1127,7 +1069,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Australia',
     director: 'Baz Luhrmann',
@@ -1138,9 +1079,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 2,
+    watchPriority: 3,
   },
-
   {
     title: 'Reminiscence',
     director: 'Lisa Joy',
@@ -1153,7 +1093,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Entre deux rives',
     director: 'Alejandro Agresti',
@@ -1166,7 +1105,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
   },
-
   {
     title: '47 Ronin',
     director: 'Carl Rinsch',
@@ -1179,7 +1117,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Serenity',
     director: 'Steven Knight',
@@ -1192,7 +1129,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: '6 Underground',
     director: 'Michael Bay',
@@ -1205,7 +1141,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: '28 Jours en sursis',
     director: 'Betty Thomas',
@@ -1218,9 +1153,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
   },
-
   {
-    title: "L'Amour sans préavis",
+    title: 'L\'Amour sans préavis',
     director: 'Marc Lawrence',
     rating: 0,
     timesWatched: 0,
@@ -1231,7 +1165,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Punch-Drunk Love',
     director: 'Paul Thomas Anderson',
@@ -1244,7 +1177,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
   },
-
   {
     title: 'Zookeeper',
     director: 'Frank Coraci',
@@ -1257,7 +1189,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Happy Gilmore',
     director: 'Dennis Dugan',
@@ -1270,7 +1201,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Empire du soleil',
     director: 'Steven Spielberg',
@@ -1283,7 +1213,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Velvet Goldmine',
     director: 'Todd Haynes',
@@ -1296,7 +1225,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Shaft',
     director: 'John Singleton',
@@ -1309,7 +1237,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Le Règne du feu',
     director: 'Rob Bowman',
@@ -1322,7 +1249,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
   },
-
   {
     title: 'The Machinist',
     director: 'Brad Anderson',
@@ -1335,7 +1261,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Exodus: Gods and Kings',
     director: 'Ridley Scott',
@@ -1348,7 +1273,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'The Island',
     director: 'Michael Bay',
@@ -1361,7 +1285,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
   },
-
   {
     title: 'Scoop',
     director: 'Woody Allen',
@@ -1374,7 +1297,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Deux Sœurs pour un roi',
     director: 'Justin Chadwick',
@@ -1387,7 +1309,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Ghost in the Shell',
     director: 'Rupert Sanders',
@@ -1400,7 +1321,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
   },
-
   {
     title: 'Scandale',
     director: 'Jay Roach',
@@ -1413,10 +1333,9 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Hurlevent',
-    director: "Frances O'Connor",
+    director: 'Frances O\'Connor',
     rating: 0,
     timesWatched: 0,
     firstViewedDate: '',
@@ -1426,7 +1345,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'La Loi du Silence',
     director: 'John Korty',
@@ -1439,7 +1357,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Le Collectionneur',
     director: 'Marcus Dunstan',
@@ -1452,7 +1369,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Deep Impact',
     director: 'Mimi Leder',
@@ -1465,9 +1381,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
-    title: "L'impasse",
+    title: 'L\'impasse',
     director: 'Brian De Palma',
     rating: 0,
     timesWatched: 0,
@@ -1478,7 +1393,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
   },
-
   {
     title: 'Le Pianiste',
     director: 'Roman Polanski',
@@ -1491,9 +1405,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
   },
-
   {
-    title: "Le Discours d'un roi",
+    title: 'Le Discours d\'un roi',
     director: 'Tom Hooper',
     rating: 0,
     timesWatched: 0,
@@ -1504,7 +1417,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
   },
-
   {
     title: 'Imitation Game',
     director: 'Morten Tyldum',
@@ -1517,7 +1429,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'M le Maudit',
     director: 'Fritz Lang',
@@ -1530,7 +1441,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
   },
-
   {
     title: 'Mad Max',
     director: 'George Miller',
@@ -1543,7 +1453,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Mad Max 2',
     director: 'George Miller',
@@ -1556,7 +1465,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Signes',
     director: 'M. Night Shyamalan',
@@ -1569,10 +1477,9 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
   },
-
   {
     title: 'Jane Got a Gun',
-    director: "Gavin O'Connor",
+    director: 'Gavin O\'Connor',
     rating: 0,
     timesWatched: 0,
     firstViewedDate: '',
@@ -1582,7 +1489,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
   },
-
   {
     title: 'Jackie',
     director: 'Pablo Larraín',
@@ -1595,7 +1501,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Le Monde de Charlie',
     director: 'Stephen Chbosky',
@@ -1608,7 +1513,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'The Bling Ring',
     director: 'Sofia Coppola',
@@ -1621,7 +1525,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Colonia',
     director: 'Florian Gallenberger',
@@ -1634,7 +1537,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Régression',
     director: 'Alejandro Amenábar',
@@ -1647,7 +1549,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Respire',
     director: 'Mélanie Laurent',
@@ -1660,7 +1561,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
   },
-
   {
     title: 'Irréprochable',
     director: 'Sébastien Marnier',
@@ -1673,7 +1573,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
   },
-
   {
     title: 'Eugénie Grandet',
     director: 'Marc Dugain',
@@ -1686,7 +1585,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Jack Mimoun et les Secrets de Val Verde',
     director: 'Ludovic Bernard',
@@ -1699,7 +1597,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
   },
-
   {
     title: 'Ma mère, Dieu et Sylvie Vartan',
     director: 'Sylvie Audcoeur',
@@ -1712,7 +1609,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'La French',
     director: 'Cédric Jimenez',
@@ -1725,7 +1621,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Le père Noël est une ordure',
     director: 'Jean-Marie Poiré',
@@ -1738,7 +1633,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'La Haine',
     director: 'Mathieu Kassovitz',
@@ -1751,7 +1645,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Le Grand bleu',
     director: 'Luc Besson',
@@ -1764,7 +1657,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Zootopie',
     director: 'Byron Howard, Rich Moore',
@@ -1777,7 +1669,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Casablanca',
     director: 'Michael Curtiz',
@@ -1790,7 +1681,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'The Rip',
     director: 'Joe Carnahan',
@@ -1803,7 +1693,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Frankenstein',
     director: 'Guillermo del Toro',
@@ -1816,7 +1705,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Wonka',
     director: 'Paul King',
@@ -1829,7 +1717,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Blonde',
     director: 'Andrew Dominik',
@@ -1842,7 +1729,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Snowpiercer',
     director: 'Bong Joon-ho',
@@ -1855,9 +1741,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
-    title: "Jennifer's Body",
+    title: 'Jennifer\'s Body',
     director: 'Karyn Kusama',
     rating: 0,
     timesWatched: 0,
@@ -1868,7 +1753,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'District 9',
     director: 'Neill Blomkamp',
@@ -1881,7 +1765,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Public Enemies',
     director: 'Michael Mann',
@@ -1894,7 +1777,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Troy',
     director: 'Wolfgang Petersen',
@@ -1907,7 +1789,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
   },
-
   {
     title: 'The Others',
     director: 'Alejandro Amenábar',
@@ -1920,7 +1801,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Le Journal de Bridget Jones',
     director: 'Sharon Maguire',
@@ -1933,7 +1813,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Le Grinch',
     director: 'Ron Howard',
@@ -1946,7 +1825,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Fight Club',
     director: 'David Fincher',
@@ -1959,9 +1837,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
-    title: "Souviens-toi... l'été dernier",
+    title: 'Souviens-toi... l\'été dernier',
     director: 'Jim Gillespie',
     rating: 0,
     timesWatched: 0,
@@ -1972,7 +1849,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Insaisissables 3',
     director: 'Ruben Fleischer',
@@ -1985,7 +1861,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'F1',
     director: 'Joseph Kosinski',
@@ -1998,7 +1873,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Anora',
     director: 'Sean Baker',
@@ -2011,7 +1885,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
   },
-
   {
     title: 'The Princess',
     director: 'Le-Van Kiet',
@@ -2024,7 +1897,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Hitman & Bodyguard 2',
     director: 'Patrick Hughes',
@@ -2037,7 +1909,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Sonic the Hedgehog',
     director: 'Jeff Fowler',
@@ -2050,7 +1921,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Hellboy',
     director: 'Neil Marshall',
@@ -2063,7 +1933,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Nicky Larson Private Eyes',
     director: 'Kenji Kodama',
@@ -2076,7 +1945,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Life : Origine inconnue',
     director: 'Daniel Espinosa',
@@ -2089,7 +1957,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'The Monuments Men',
     director: 'George Clooney',
@@ -2102,7 +1969,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Her',
     director: 'Spike Jonze',
@@ -2115,7 +1981,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Funny Games U.S.',
     director: 'Michael Haneke',
@@ -2128,7 +1993,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Le Secret de Brokeback Mountain',
     director: 'Ang Lee',
@@ -2141,7 +2005,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Les Fils du vent',
     director: 'Julien Seri',
@@ -2154,7 +2017,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Donnie Darko',
     director: 'Richard Kelly',
@@ -2167,7 +2029,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
-
   {
     title: 'Risky Business',
     director: 'Paul Brickman',
@@ -2191,5 +2052,5 @@ export const guillaumeWatchlistMovies: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
-  },
+  }
 ];
