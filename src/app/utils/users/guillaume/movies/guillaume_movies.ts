@@ -1153,4 +1153,16 @@ export const guillaumeMoviesPage1: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
+  {
+    title: 'Seven Sisters',
+    director: 'Tommy Wirkola',
+    rating: 3.75,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+  },
 ];
