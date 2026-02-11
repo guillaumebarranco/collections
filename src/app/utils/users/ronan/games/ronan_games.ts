@@ -230,7 +230,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Marvel\'s Spider-Man',
+    title: "Marvel's Spider-Man",
     editor: 'Insomniac Games',
     rating: 4,
     timesFinished: 3,
@@ -242,7 +242,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Marvel\'s Spider-Man: Miles Morales',
+    title: "Marvel's Spider-Man: Miles Morales",
     editor: 'Insomniac Games',
     rating: 4,
     timesFinished: 3,
@@ -254,7 +254,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Marvel\'s Spider-Man 2',
+    title: "Marvel's Spider-Man 2",
     editor: 'Insomniac Games',
     rating: 4,
     timesFinished: 1,
@@ -446,7 +446,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Assassin\'s Creed II',
+    title: "Assassin's Creed II",
     editor: 'Ubisoft',
     rating: 4,
     timesFinished: 3,
@@ -458,7 +458,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Assassin\'s Creed : Brotherhood',
+    title: "Assassin's Creed : Brotherhood",
     editor: 'Ubisoft',
     rating: 4.5,
     timesFinished: 3,
@@ -470,7 +470,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Assassin\'s Creed : Revelations',
+    title: "Assassin's Creed : Revelations",
     editor: 'Ubisoft',
     rating: 3.5,
     timesFinished: 3,
@@ -482,7 +482,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Assassin\'s Creed III',
+    title: "Assassin's Creed III",
     editor: 'Ubisoft',
     rating: 3.5,
     timesFinished: 2,
@@ -494,7 +494,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Assassin\'s Creed Liberation Remastered',
+    title: "Assassin's Creed Liberation Remastered",
     editor: 'Ubisoft',
     rating: 3,
     timesFinished: 1,
@@ -506,7 +506,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Assassin\'s Creed III Remastered',
+    title: "Assassin's Creed III Remastered",
     editor: 'Ubisoft',
     rating: 4,
     timesFinished: 1,
@@ -518,7 +518,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Assassin\'s Creed IV : Black Flag',
+    title: "Assassin's Creed IV : Black Flag",
     editor: 'Ubisoft',
     rating: 3.5,
     timesFinished: 2,
@@ -530,7 +530,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Assassin\'s Creed Rogue',
+    title: "Assassin's Creed Rogue",
     editor: 'Ubisoft',
     rating: 3,
     timesFinished: 2,
@@ -542,7 +542,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Assassin\'s Creed Unity',
+    title: "Assassin's Creed Unity",
     editor: 'Ubisoft',
     rating: 3,
     timesFinished: 2,
@@ -554,7 +554,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Assassin\'s Creed Syndicate',
+    title: "Assassin's Creed Syndicate",
     editor: 'Ubisoft',
     rating: 3.5,
     timesFinished: 2,
@@ -566,7 +566,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Assassin\'s Creed Origins',
+    title: "Assassin's Creed Origins",
     editor: 'Ubisoft',
     rating: 3.5,
     timesFinished: 2,
@@ -578,7 +578,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Assassin\'s Creed Odyssey',
+    title: "Assassin's Creed Odyssey",
     editor: 'Ubisoft',
     rating: 3.5,
     timesFinished: 2,
@@ -590,7 +590,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Assassin\'s Creed Valhalla',
+    title: "Assassin's Creed Valhalla",
     editor: 'Ubisoft',
     rating: 2.5,
     timesFinished: 1,
@@ -602,7 +602,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Assassin\'s Creed Mirage',
+    title: "Assassin's Creed Mirage",
     editor: 'Ubisoft',
     rating: 2,
     timesFinished: 1,
@@ -614,7 +614,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Assassin\'s Creed Shadows',
+    title: "Assassin's Creed Shadows",
     editor: 'Ubisoft',
     rating: 2.5,
     timesFinished: 1,
@@ -626,7 +626,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Astro\'s Playroom',
+    title: "Astro's Playroom",
     editor: 'Sony Interactive Entertainment',
     rating: 3.5,
     timesFinished: 1,
@@ -914,7 +914,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Fist of the North Star : Ken\'s Rage',
+    title: "Fist of the North Star : Ken's Rage",
     editor: 'Koei Tecmo',
     rating: 3.5,
     timesFinished: 1,
@@ -1106,7 +1106,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'La Terre du Milieu : L\'Ombre du Mordor',
+    title: "La Terre du Milieu : L'Ombre du Mordor",
     editor: 'Monolith Productions',
     rating: 3.5,
     timesFinished: 1,
@@ -1118,7 +1118,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'La Terre du Milieu : L\'Ombre de la Guerre',
+    title: "La Terre du Milieu : L'Ombre de la Guerre",
     editor: 'Monolith Productions',
     rating: 3.5,
     timesFinished: 1,
@@ -1166,7 +1166,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Marvel\'s Guardians of the Galaxy',
+    title: "Marvel's Guardians of the Galaxy",
     editor: 'Eidos-Montréal',
     rating: 4,
     timesFinished: 1,
@@ -1310,7 +1310,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: true,
   },
   {
-    title: 'Le Seigneur des Anneaux : La Quête d\'Aragorn',
+    title: "Le Seigneur des Anneaux : La Quête d'Aragorn",
     editor: 'Turbine',
     rating: 3,
     timesFinished: 1,
@@ -1454,7 +1454,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: true,
   },
   {
-    title: 'Tom Clancy\'s The Division',
+    title: "Tom Clancy's The Division",
     editor: 'Massive Entertainment',
     rating: 3,
     timesFinished: 1,
@@ -1490,7 +1490,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Uncharted : Drake\'s Fortune',
+    title: "Uncharted : Drake's Fortune",
     editor: 'Naughty Dog',
     rating: 4.5,
     timesFinished: 2,
@@ -1526,7 +1526,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Uncharted 3 : L\'illusion de Drake',
+    title: "Uncharted 3 : L'illusion de Drake",
     editor: 'Naughty Dog',
     rating: 4,
     timesFinished: 1,
@@ -1538,7 +1538,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Uncharted 3 : L\'Illusion de Drake Remastered',
+    title: "Uncharted 3 : L'Illusion de Drake Remastered",
     editor: 'Naughty Dog',
     rating: 4,
     timesFinished: 1,
@@ -1550,7 +1550,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Uncharted 4 : A Thief\'s End',
+    title: "Uncharted 4 : A Thief's End",
     editor: 'Naughty Dog',
     rating: 5,
     timesFinished: 3,
@@ -1754,7 +1754,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: true,
   },
   {
-    title: 'Harry Potter à l\'école des sorciers',
+    title: "Harry Potter à l'école des sorciers",
     editor: 'Electronic Arts',
     rating: 3.5,
     timesFinished: 3,
@@ -2042,7 +2042,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Harry Potter et l\'Ordre du Phénix',
+    title: "Harry Potter et l'Ordre du Phénix",
     editor: 'Electronic Arts',
     rating: 2.5,
     timesFinished: 1,
@@ -2230,7 +2230,7 @@ export const ronanGames: UserGames = [
     platined: false,
     timesFinishedHundredPercent: 0,
     owned: false,
-    gamelistPriority: 0,
+    gamelistPriority: 1,
     wantToPlayAgain: false,
   },
   {
@@ -2294,7 +2294,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Pirates des Caraïbes: Jusqu\'au Bout du Monde',
+    title: "Pirates des Caraïbes: Jusqu'au Bout du Monde",
     editor: 'Disney',
     rating: 3.5,
     timesFinished: 3,
@@ -2366,7 +2366,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: false,
   },
   {
-    title: 'Programme d\'entraînement cérébral du Dr Kawashima',
+    title: "Programme d'entraînement cérébral du Dr Kawashima",
     editor: 'Nintendo',
     rating: 3,
     timesFinished: 1,
@@ -2412,5 +2412,5 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-  }
+  },
 ];
