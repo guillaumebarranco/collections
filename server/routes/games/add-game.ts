@@ -28,23 +28,25 @@ function formatBaseGame(entity: any): string {
 }
 
 function formatUserGame(user: any): string {
-  const sessions = Array.isArray(user.sessions) && user.sessions.length > 0
-    ? 'sessions: [\n' + user.sessions.map((s: any) =>
-        `      { finishedGame: ${s.finishedGame ?? false}, finishedGameWithHundredPercent: ${s.finishedGameWithHundredPercent ?? false}, platinedGame: ${s.platinedGame ?? false}, additionnalEstimatedTime: ${s.additionnalEstimatedTime ?? 0} }`
-      ).join(',\n') + '\n    ],'
-    : '';
-  const base = `  {
+  const sessions = Array.isArray(user.sessions) ? user.sessions : [];
+  const sessionsStr =
+    'sessions: [\n' +
+    sessions
+      .map(
+        (s: any) =>
+          `      { finishedGame: ${s.finishedGame ?? false}, finishedGameWithHundredPercent: ${s.finishedGameWithHundredPercent ?? false}, platinedGame: ${s.platinedGame ?? false}, additionnalEstimatedTime: ${s.additionnalEstimatedTime ?? 0} }`
+      )
+      .join(',\n') +
+    '\n    ],';
+  return `  {
     title: '${escapeString(user.title)}',
     editor: '${escapeString(user.editor)}',
     rating: ${user.rating ?? 0},
-    timesFinished: ${user.timesFinished ?? 1},
-    additionnalEstimatedTime: ${user.additionnalEstimatedTime ?? 0},
-    timesFinishedHundredPercent: ${user.timesFinishedHundredPercent ?? 0},
-    platined: ${user.platined ?? false},
     owned: ${user.owned ?? false},
     gamelistPriority: ${user.gamelistPriority ?? 1},
-    wantToPlayAgain: ${user.wantToPlayAgain ?? false},`;
-  return sessions ? base + '\n    ' + sessions + '\n  },' : base + '\n  },';
+    wantToPlayAgain: ${user.wantToPlayAgain ?? false},
+    ${sessionsStr}
+  },`;
 }
 
 function getUserGamesTargetFile(userId: string) {
@@ -121,38 +123,27 @@ router.post('/add', (req: any, res: any) => {
       platineTime: normalizeNumber(entity.platineTime, 'platineTime') || 0,
     };
 
+    const sessions = Array.isArray(user.sessions)
+      ? user.sessions.map((s: any) => ({
+          finishedGame: normalizeBoolean(s.finishedGame, 'finishedGame') ?? false,
+          finishedGameWithHundredPercent:
+            normalizeBoolean(s.finishedGameWithHundredPercent, 'finishedGameWithHundredPercent') ?? false,
+          platinedGame: normalizeBoolean(s.platinedGame, 'platinedGame') ?? false,
+          additionnalEstimatedTime:
+            normalizeNumber(s.additionnalEstimatedTime, 'additionnalEstimatedTime') ?? 0,
+        }))
+      : [];
     const userPayload = {
       title,
       editor,
       rating: normalizeNumber(user.rating, 'rating') ?? 0,
-      timesFinished: normalizeNumber(user.timesFinished, 'timesFinished') ?? 1,
-      additionnalEstimatedTime:
-        normalizeNumber(
-          user.additionnalEstimatedTime,
-          'additionnalEstimatedTime'
-        ) ?? 0,
-      platined: normalizeBoolean(user.platined, 'platined') ?? false,
-      timesFinishedHundredPercent:
-        normalizeNumber(
-          user.timesFinishedHundredPercent,
-          'timesFinishedHundredPercent'
-        ) ?? 0,
       owned: normalizeBoolean(user.owned, 'owned') ?? false,
       gamelistPriority:
         normalizeNumber(user.gamelistPriority, 'gamelistPriority') ?? 1,
       wantToPlayAgain:
         normalizeBoolean(user.wantToPlayAgain, 'wantToPlayAgain') ?? false,
+      sessions,
     };
-    if (Array.isArray(user.sessions) && user.sessions.length > 0) {
-      userPayload.sessions = user.sessions.map((s) => ({
-        finishedGame: normalizeBoolean(s.finishedGame, 'finishedGame') ?? false,
-        finishedGameWithHundredPercent:
-          normalizeBoolean(s.finishedGameWithHundredPercent, 'finishedGameWithHundredPercent') ?? false,
-        platinedGame: normalizeBoolean(s.platinedGame, 'platinedGame') ?? false,
-        additionnalEstimatedTime:
-          normalizeNumber(s.additionnalEstimatedTime, 'additionnalEstimatedTime') ?? 0,
-      }));
-    }
 
     const baseGameContent = appendObjectToArrayFile(
       BASE_GAMES_API_FILE,

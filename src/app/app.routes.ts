@@ -38,7 +38,6 @@ import { SelectManwhasTimesReadComponent } from './containers/selection/manwhas/
 import { SelectManwhasOwnedComponent } from './containers/selection/manwhas/select-manwhas-owned/select-manwhas-owned.component';
 import { SelectGamesComponent } from './containers/selection/games/select-games/select-games.component';
 import { SelectGamesRatingComponent } from './containers/selection/games/select-games-rating/select-games-rating.component';
-import { SelectGamesTimesFinishedComponent } from './containers/selection/games/select-games-times-finished/select-games-times-finished.component';
 import { SelectGamesOwnedComponent } from './containers/selection/games/select-games-owned/select-games-owned.component';
 import { MusicsComponent } from './containers/collections/musics/musics.component';
 import { SelectMusicsComponent } from './containers/selection/musics/select-musics/select-musics.component';
@@ -249,10 +248,6 @@ export const routes: Routes = [
   {
     path: 'select-games-rating',
     component: SelectGamesRatingComponent,
-  },
-  {
-    path: 'select-games-times-finished',
-    component: SelectGamesTimesFinishedComponent,
   },
   {
     path: 'select-games-owned',
@@ -477,10 +472,6 @@ export const routes: Routes = [
       {
         path: 'select-games-rating',
         component: SelectGamesRatingComponent,
-      },
-      {
-        path: 'select-games-times-finished',
-        component: SelectGamesTimesFinishedComponent,
       },
       {
         path: 'select-games-owned',

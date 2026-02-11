@@ -118,15 +118,7 @@ function getGameUserTotals(userGame: UserGame): {
   platined: boolean;
   additionnalEstimatedTime: number;
 } {
-  if (userGame.sessions && userGame.sessions.length > 0) {
-    return getGameTotalsFromSessions(userGame.sessions);
-  }
-  return {
-    timesFinished: userGame.timesFinished ?? 0,
-    timesFinishedHundredPercent: userGame.timesFinishedHundredPercent ?? 0,
-    platined: userGame.platined ?? false,
-    additionnalEstimatedTime: userGame.additionnalEstimatedTime ?? 0,
-  };
+  return getGameTotalsFromSessions(userGame.sessions ?? []);
 }
 
 export const getGameDataFromUserGameAndBaseGame = (

@@ -58,24 +58,16 @@ export const getFullBook = (book: BaseBook): Book => ({
 });
 
 export const getFullGame = (game: BaseGame): Game => ({
-  title: game.title,
-  editor: game.editor,
-  hero: game.hero,
-  coverUrl: game.coverUrl,
-  releaseDate: game.releaseDate,
-  averageTimeToFinish: game.averageTimeToFinish,
-  averageTimeToHundredPercent: game.averageTimeToHundredPercent,
-  platform: game.platform,
-  saga: game.saga,
-  platineTime: game.platineTime,
+  ...game,
   rating: 0,
+  owned: false,
+  gamelistPriority: 1,
+  wantToPlayAgain: false,
+  sessions: [],
   timesFinished: 0,
   timesFinishedHundredPercent: 0,
   additionnalEstimatedTime: 0,
   platined: false,
-  owned: false,
-  gamelistPriority: 1,
-  wantToPlayAgain: false,
 });
 
 export const getFullManga = (manga: BaseManga): Manga => ({

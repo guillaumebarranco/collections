@@ -461,14 +461,10 @@ export class GamesComponent implements OnInit {
           title: data.game.title,
           editor: data.game.editor,
           rating: data.game.rating,
-          timesFinished: data.game.timesFinished,
-          additionnalEstimatedTime: data.game.additionnalEstimatedTime,
-          timesFinishedHundredPercent: data.game.timesFinishedHundredPercent,
-          platined: data.game.platined,
           owned: data.game.owned,
           gamelistPriority: data.priority,
           wantToPlayAgain: data.game.wantToPlayAgain ?? false,
-          ...(data.game.sessions && { sessions: data.game.sessions }),
+          sessions: data.game.sessions ?? [],
         }),
       });
 
@@ -500,14 +496,10 @@ export class GamesComponent implements OnInit {
           title: game.title,
           editor: game.editor,
           rating: game.rating,
-          timesFinished: game.timesFinished,
-          additionnalEstimatedTime: game.additionnalEstimatedTime,
-          timesFinishedHundredPercent: game.timesFinishedHundredPercent,
-          platined: game.platined,
           owned: game.owned,
           gamelistPriority: game.gamelistPriority ?? 1,
           wantToPlayAgain: true,
-          ...(game.sessions && { sessions: game.sessions }),
+          sessions: game.sessions ?? [],
         }),
       });
       if (!response.ok) {
@@ -531,14 +523,10 @@ export class GamesComponent implements OnInit {
           title: game.title,
           editor: game.editor,
           rating: game.rating,
-          timesFinished: game.timesFinished,
-          additionnalEstimatedTime: game.additionnalEstimatedTime,
-          timesFinishedHundredPercent: game.timesFinishedHundredPercent,
-          platined: game.platined,
           owned: game.owned,
           gamelistPriority: game.gamelistPriority ?? 1,
           wantToPlayAgain: false,
-          ...(game.sessions && { sessions: game.sessions }),
+          sessions: game.sessions ?? [],
         }),
       });
       if (!response.ok) {

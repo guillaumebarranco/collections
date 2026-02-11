@@ -23,7 +23,6 @@ import { EditEntityHeaderComponent } from '../../../components/edit-entity-heade
 import { AuthService } from '../../../core/auth.service';
 import { QuizzCreateModalComponent } from '../../../components/quizz-create-modal/quizz-create-modal.component';
 import { EntityType } from '../../../models/quizz-model';
-import { getGameTotalsFromSessions } from '../../../helpers/entities.helper';
 
 /** Type de complétion pour une session (une seule option par session). */
 export type SessionCompletionType =
@@ -485,21 +484,10 @@ export class EditGameComponent {
   }
 
   private toForm(game: Game): EditGameForm {
-    let sessions = this.gameSessionsToFormSessions(game.sessions ?? []);
-    if (sessions.length === 0) {
-      if (game.timesFinished > 0 || game.timesFinishedHundredPercent > 0 || game.platined || (game.additionnalEstimatedTime ?? 0) > 0) {
-        sessions = [
-          this.legacyToSessionForm(
-            game.timesFinished,
-            game.timesFinishedHundredPercent,
-            game.platined,
-            game.additionnalEstimatedTime ?? 0
-          ),
-        ];
-      } else {
-        sessions = [{ completion: 'none', additionnalEstimatedTime: 0 }];
-      }
-    }
+    const sessions =
+      (game.sessions ?? []).length > 0
+        ? this.gameSessionsToFormSessions(game.sessions)
+        : [{ completion: 'none' as const, additionnalEstimatedTime: 0 }];
     return {
       rating: game.rating,
       sessions,
@@ -522,35 +510,16 @@ export class EditGameComponent {
     });
   }
 
-  private legacyToSessionForm(
-    timesFinished: number,
-    timesFinishedHundredPercent: number,
-    platined: boolean,
-    additionnalEstimatedTime: number
-  ): EditGameSessionForm {
-    if (platined) return { completion: 'platined', additionnalEstimatedTime: 0 };
-    if (timesFinishedHundredPercent > 0) return { completion: 'hundred', additionnalEstimatedTime: 0 };
-    if (timesFinished > 0) return { completion: 'finished', additionnalEstimatedTime: 0 };
-    return { completion: 'none', additionnalEstimatedTime };
-  }
-
-  private formSessionsToPayload(
-    formSessions: EditGameSessionForm[]
-  ): { sessions: UserGameSession[]; timesFinished: number; timesFinishedHundredPercent: number; platined: boolean; additionnalEstimatedTime: number } {
+  private formSessionsToPayload(formSessions: EditGameSessionForm[]): {
+    sessions: UserGameSession[];
+  } {
     const sessions: UserGameSession[] = formSessions.map((f) => ({
       finishedGame: f.completion === 'finished',
       finishedGameWithHundredPercent: f.completion === 'hundred',
       platinedGame: f.completion === 'platined',
       additionnalEstimatedTime: f.completion === 'none' ? (f.additionnalEstimatedTime ?? 0) : 0,
     }));
-    const totals = getGameTotalsFromSessions(sessions);
-    return {
-      sessions,
-      timesFinished: totals.timesFinished,
-      timesFinishedHundredPercent: totals.timesFinishedHundredPercent,
-      platined: totals.platined,
-      additionnalEstimatedTime: totals.additionnalEstimatedTime,
-    };
+    return { sessions };
   }
 
   private toEntityForm(game: Game): EditGameEntityForm {

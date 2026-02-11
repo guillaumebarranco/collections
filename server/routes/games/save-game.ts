@@ -37,39 +37,27 @@ router.post('/', (req: any, res: any) => {
     }
 
     const payload = games.map((game: any) => {
-      const normalized: any = {
+      const sessions = Array.isArray(game.sessions)
+        ? game.sessions.map((s: any) => ({
+            finishedGame: normalizeBoolean(s.finishedGame, 'finishedGame') ?? false,
+            finishedGameWithHundredPercent:
+              normalizeBoolean(s.finishedGameWithHundredPercent, 'finishedGameWithHundredPercent') ?? false,
+            platinedGame: normalizeBoolean(s.platinedGame, 'platinedGame') ?? false,
+            additionnalEstimatedTime:
+              normalizeNumber(s.additionnalEstimatedTime, 'additionnalEstimatedTime') ?? 0,
+          }))
+        : [];
+      return {
         title: normalizeString(game.title, 'title'),
         editor: normalizeString(game.editor, 'editor'),
         rating: normalizeNumber(game.rating, 'rating') ?? 0,
-        timesFinished: normalizeNumber(game.timesFinished, 'timesFinished') ?? 0,
-        additionnalEstimatedTime:
-          normalizeNumber(
-            game.additionnalEstimatedTime,
-            'additionnalEstimatedTime'
-          ) ?? 0,
-        timesFinishedHundredPercent:
-          normalizeNumber(
-            game.timesFinishedHundredPercent,
-            'timesFinishedHundredPercent'
-          ) ?? 0,
-        platined: normalizeBoolean(game.platined, 'platined') ?? false,
         owned: normalizeBoolean(game.owned, 'owned') ?? false,
         gamelistPriority:
           normalizeNumber(game.gamelistPriority, 'gamelistPriority') ?? 1,
         wantToPlayAgain:
           normalizeBoolean(game.wantToPlayAgain, 'wantToPlayAgain') ?? false,
+        sessions,
       };
-      if (Array.isArray(game.sessions) && game.sessions.length > 0) {
-        normalized.sessions = game.sessions.map((s: any) => ({
-          finishedGame: normalizeBoolean(s.finishedGame, 'finishedGame') ?? false,
-          finishedGameWithHundredPercent:
-            normalizeBoolean(s.finishedGameWithHundredPercent, 'finishedGameWithHundredPercent') ?? false,
-          platinedGame: normalizeBoolean(s.platinedGame, 'platinedGame') ?? false,
-          additionnalEstimatedTime:
-            normalizeNumber(s.additionnalEstimatedTime, 'additionnalEstimatedTime') ?? 0,
-        }));
-      }
-      return normalized;
     });
 
     let updatedCount = 0;

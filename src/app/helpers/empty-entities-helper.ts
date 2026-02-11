@@ -95,11 +95,12 @@ export const getEmptyManwha = (manwha: BaseManwha): Manwha => ({
 export const getEmptyGame = (game: BaseGame): Game => ({
   ...game,
   rating: 0,
-  timesFinished: 0,
-  additionnalEstimatedTime: 0,
-  platined: false,
-  timesFinishedHundredPercent: 0,
   owned: false,
   gamelistPriority: 1,
   wantToPlayAgain: false,
+  sessions: [],
+  timesFinished: 0,
+  timesFinishedHundredPercent: 0,
+  additionnalEstimatedTime: 0,
+  platined: false,
 });

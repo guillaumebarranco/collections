@@ -52,13 +52,10 @@ function formatUserGame(game: any): string {
     title: '${escapeString(game.title)}',
     editor: '${escapeString(game.editor)}',
     rating: 0,
-    timesFinished: 0,
-    additionnalEstimatedTime: 0,
-    timesFinishedHundredPercent: 0,
-    platined: false,
     owned: false,
     gamelistPriority: ${game.gamelistPriority ?? 1},
     wantToPlayAgain: false,
+    sessions: [],
   },`;
 }
 
@@ -67,13 +64,10 @@ function formatGamelistGame(game: any): string {
     title: '${escapeString(game.title)}',
     editor: '${escapeString(game.editor)}',
     rating: 0,
-    timesFinished: 0,
-    additionnalEstimatedTime: 0,
-    timesFinishedHundredPercent: 0,
-    platined: false,
     owned: false,
     gamelistPriority: ${game.gamelistPriority ?? 1},
     wantToPlayAgain: false,
+    sessions: [],
   },`;
 }
 

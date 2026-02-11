@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import type { UserGameSession } from '../../../models/game-model';
-import { getGameTotalsFromSessions } from '../../../helpers/entities.helper';
 
 type AddGameEntityForm = {
   title: string;
@@ -30,6 +29,7 @@ type AddGameUserForm = {
   sessions: AddGameSessionForm[];
   owned: boolean;
   gamelistPriority: number;
+  wantToPlayAgain: boolean;
 };
 
 type AddGameDialogData = {
@@ -70,6 +70,7 @@ export class AddGameComponent {
     sessions: [{ completion: 'none', additionnalEstimatedTime: 0 }],
     owned: false,
     gamelistPriority: 1,
+    wantToPlayAgain: false,
   });
 
   close() {
@@ -201,15 +202,11 @@ export class AddGameComponent {
         platinedGame: f.completion === 'platined',
         additionnalEstimatedTime: f.completion === 'none' ? (f.additionnalEstimatedTime ?? 0) : 0,
       }));
-      const totals = getGameTotalsFromSessions(sessions);
       const userPayload = {
         rating: user.rating,
-        timesFinished: totals.timesFinished,
-        additionnalEstimatedTime: totals.additionnalEstimatedTime,
-        timesFinishedHundredPercent: totals.timesFinishedHundredPercent,
-        platined: totals.platined,
         owned: user.owned,
         gamelistPriority: user.gamelistPriority,
+        wantToPlayAgain: user.wantToPlayAgain ?? false,
         sessions,
       };
       const response = await fetch(`${getApiBaseUrl()}/games/add`, {

@@ -152,27 +152,22 @@ function formatSession(session: any) {
 }
 
 function formatSessions(sessions: any[]) {
-  if (!Array.isArray(sessions) || sessions.length === 0) return '';
+  if (!Array.isArray(sessions) || sessions.length === 0) return 'sessions: [],';
   return 'sessions: [\n' + sessions.map(formatSession).join(',\n') + '\n    ],';
 }
 
 function formatGameObject(game: any) {
-  const sessionsPart = formatSessions(game.sessions);
-  const base = `  {
+  const sessions = Array.isArray(game.sessions) ? game.sessions : [];
+  const sessionsPart = formatSessions(sessions);
+  return `  {
     title: '${escapeString(game.title)}',
     editor: '${escapeString(game.editor)}',
     rating: ${game.rating ?? 0},
-    timesFinished: ${game.timesFinished ?? 0},
-    additionnalEstimatedTime: ${game.additionnalEstimatedTime ?? 0},
-    timesFinishedHundredPercent: ${game.timesFinishedHundredPercent ?? 0},
-    platined: ${game.platined ?? false},
     owned: ${game.owned ?? false},
     gamelistPriority: ${game.gamelistPriority ?? 1},
-    wantToPlayAgain: ${game.wantToPlayAgain ?? false},`;
-  if (sessionsPart) {
-    return base + '\n    ' + sessionsPart + '\n  }';
-  }
-  return base + '\n  }';
+    wantToPlayAgain: ${game.wantToPlayAgain ?? false},
+    ${sessionsPart}
+  }`;
 }
 
 function parseGamesFromFile(content: string): any[] {
@@ -212,18 +207,12 @@ function parseGamesFromFile(content: string): any[] {
             title,
             editor,
             rating: parseNumberField(objectText, 'rating') ?? 0,
-            timesFinished: parseNumberField(objectText, 'timesFinished') ?? 0,
-            additionnalEstimatedTime:
-              parseNumberField(objectText, 'additionnalEstimatedTime') ?? 0,
-            timesFinishedHundredPercent:
-              parseNumberField(objectText, 'timesFinishedHundredPercent') ?? 0,
-            platined: parseBooleanField(objectText, 'platined') ?? false,
             owned: parseBooleanField(objectText, 'owned') ?? false,
             gamelistPriority:
               parseNumberField(objectText, 'gamelistPriority') ?? 1,
             wantToPlayAgain:
               parseBooleanField(objectText, 'wantToPlayAgain') ?? false,
-            ...(sessions !== undefined && { sessions }),
+            sessions: Array.isArray(sessions) ? sessions : [],
           });
         }
       }

@@ -5,6 +5,7 @@ const {
   normalizeString,
   updateGameInFile,
   getUserGamesFiles,
+  parseGamesFromFile,
 } = require('../../utils/games/games-utils');
 
 const router = express.Router();
@@ -25,14 +26,7 @@ router.post('/batch-times-finished', (req: any, res: any) => {
     }
 
     const gameFiles = getUserGamesFiles(userId);
-    const fileState = new Map(
-      gameFiles.map((filePath: string) => [
-        filePath,
-        { content: fs.readFileSync(filePath, 'utf8'), dirty: false },
-      ])
-    );
-
-    const missing: { title: string; editor: string }[] = [];
+    const missing = [];
     let updatedCount = 0;
 
     for (const rawGame of games) {
@@ -43,38 +37,41 @@ router.post('/batch-times-finished', (req: any, res: any) => {
         return;
       }
 
-      const payload = {
-        title,
-        editor,
-        timesFinished: normalizeNumber(rawGame?.timesFinished, 'timesFinished'),
-      };
-
       let updated = false;
-      for (const [filePath, state] of fileState.entries()) {
-        const stateObject = state as { content: string; dirty: boolean };
-        try {
-          const nextContent = updateGameInFile(stateObject.content, payload);
-          stateObject.content = nextContent;
-          stateObject.dirty = true;
+      for (const filePath of gameFiles) {
+        const content = fs.readFileSync(filePath, 'utf8');
+        const fileGames = parseGamesFromFile(content);
+        const index = fileGames.findIndex(
+          (g) => g.title === title && g.editor === editor
+        );
+        if (index === -1) continue;
+        const game = fileGames[index];
+        const sessions = Array.isArray(game.sessions) ? [...game.sessions] : [];
+        const count = normalizeNumber(rawGame?.timesFinished, 'timesFinished') ?? 1;
+        for (let i = 0; i < count; i++) {
+          sessions.push({
+            finishedGame: true,
+            finishedGameWithHundredPercent: false,
+            platinedGame: false,
+            additionnalEstimatedTime: 0,
+          });
+        }
+        const payload = {
+          title,
+          editor,
+          rating: game.rating ?? 0,
+          owned: game.owned ?? false,
+          gamelistPriority: game.gamelistPriority ?? 1,
+          wantToPlayAgain: game.wantToPlayAgain ?? false,
+          sessions,
+        };
+        if (updateGameInFile(filePath, payload)) {
           updated = true;
           updatedCount += 1;
           break;
-        } catch (error: any) {
-          if (error.message !== 'Game not found') {
-            throw error;
-          }
         }
       }
-
-      if (!updated) {
-        missing.push({ title, editor });
-      }
-    }
-
-    for (const [filePath, state] of fileState.entries()) {
-      const stateObject = state as { content: string; dirty: boolean };
-      if (!stateObject.dirty) continue;
-      fs.writeFileSync(filePath, stateObject.content, 'utf8');
+      if (!updated) missing.push({ title, editor });
     }
 
     res.json({

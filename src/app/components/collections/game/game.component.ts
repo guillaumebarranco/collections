@@ -54,7 +54,10 @@ export class GameComponent {
   @Output() gameUpdated = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
   @Output() addToGamelist = new EventEmitter<Game>();
-  @Output() gamelistPriorityUpdated = new EventEmitter<{ game: Game; priority: number }>();
+  @Output() gamelistPriorityUpdated = new EventEmitter<{
+    game: Game;
+    priority: number;
+  }>();
   @Output() wantToRePlay = new EventEmitter<Game>();
   @Output() haveRePlayed = new EventEmitter<Game>();
 
@@ -108,14 +111,10 @@ export class GameComponent {
 
   getGameTimePlayed(game: Game): number {
     return getGameTimePlayed({
-      title: game.title,
-      platineTime: game.platineTime,
+      sessions: game.sessions,
       averageTimeToFinish: game.averageTimeToFinish,
-      timesFinished: game.timesFinished,
-      additionnalEstimatedTime: game.additionnalEstimatedTime,
-      timesFinishedHundredPercent: game.timesFinishedHundredPercent,
+      platineTime: game.platineTime,
       averageTimeToHundredPercent: game.averageTimeToHundredPercent,
-      platined: game.platined,
     });
   }
 
