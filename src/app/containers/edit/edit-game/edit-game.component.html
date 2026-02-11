@@ -100,51 +100,84 @@
       </div>
     </div>
 
-    <div class="form-row">
-      <label for="timesFinished">Termines</label>
-      <input
-        id="timesFinished"
-        type="number"
-        min="0"
-        [ngModel]="gameForm()?.timesFinished"
-        (ngModelChange)="updateField('timesFinished', $event)"
-        name="timesFinished"
-      />
-    </div>
+    <div class="form-row sessions-block">
+      <label>Sessions de jeu</label>
+      <p class="sessions-hint">
+        Pour chaque session, cochez une seule option : soit platiné, soit
+        terminé à 100%, soit terminé, soit aucune (et indiquez le temps passé).
+      </p>
+      @for (session of gameForm()?.sessions; track $index) {
+      <div class="session-card">
+        <span class="session-label">Session {{ $index + 1 }}</span>
+        <div class="session-options">
+          @if (canShowPlatinedOption($index)) {
+          <label class="session-option">
+            <input
+              type="radio"
+              [name]="'sessionCompletion' + $index"
+              [checked]="gameForm()?.sessions?.[$index]?.completion === 'platined'"
+              (change)="updateSessionCompletion($index, 'platined')"
+            />
+            Platiné
+          </label>
+          }
+          <label class="session-option">
+            <input
+              type="radio"
+              [name]="'sessionCompletion' + $index"
+              [checked]="gameForm()?.sessions?.[$index]?.completion === 'hundred'"
+              (change)="updateSessionCompletion($index, 'hundred')"
+            />
+            Terminé à 100%
+          </label>
+          <label class="session-option">
+            <input
+              type="radio"
+              [name]="'sessionCompletion' + $index"
+              [checked]="gameForm()?.sessions?.[$index]?.completion === 'finished'"
+              (change)="updateSessionCompletion($index, 'finished')"
+            />
+            Terminé
+          </label>
+          <label class="session-option">
+            <input
+              type="radio"
+              [name]="'sessionCompletion' + $index"
+              [checked]="gameForm()?.sessions?.[$index]?.completion === 'none'"
+              (change)="updateSessionCompletion($index, 'none')"
+            />
+            Aucune (temps passé uniquement)
+          </label>
+        </div>
+        <div class="form-row session-hours">
+          <label>Temps passé (h)</label>
+          <input
+            type="number"
+            min="0"
+            [ngModel]="gameForm()?.sessions?.[$index]?.additionnalEstimatedTime"
+            (ngModelChange)="updateSessionAdditionnalTime($index, $event)"
+            name="sessionHours{{ $index }}"
+          />
+        </div>
 
-    <div class="form-row">
-      <label for="additionnalEstimatedTime">Temps additionnel (h)</label>
-      <input
-        id="additionnalEstimatedTime"
-        type="number"
-        min="0"
-        [ngModel]="gameForm()?.additionnalEstimatedTime"
-        (ngModelChange)="updateField('additionnalEstimatedTime', $event)"
-        name="additionnalEstimatedTime"
-      />
-    </div>
-
-    <div class="form-row">
-      <label for="timesFinishedHundredPercent">Terminé à 100%</label>
-      <input
-        id="timesFinishedHundredPercent"
-        type="number"
-        min="0"
-        [ngModel]="gameForm()?.timesFinishedHundredPercent"
-        (ngModelChange)="updateField('timesFinishedHundredPercent', $event)"
-        name="timesFinishedHundredPercent"
-      />
-    </div>
-
-    <div class="form-row checkbox-row">
-      <label for="platined">Platined</label>
-      <input
-        id="platined"
-        type="checkbox"
-        [checked]="gameForm()?.platined"
-        (change)="updateCheckbox('platined', $any($event).target.checked)"
-        name="platined"
-      />
+        @if ((gameForm()?.sessions?.length ?? 0) > 1) {
+        <button
+          type="button"
+          class="makya-btn makya-delete-btn session-remove"
+          (click)="removeSession($index)"
+        >
+          Supprimer cette session
+        </button>
+        }
+      </div>
+      }
+      <button
+        type="button"
+        class="makya-btn session-add"
+        (click)="addSession()"
+      >
+        Ajouter une session
+      </button>
     </div>
 
     <div class="form-row checkbox-row">
@@ -164,7 +197,9 @@
         id="wantToPlayAgain"
         type="checkbox"
         [checked]="gameForm()?.wantToPlayAgain"
-        (change)="updateCheckbox('wantToPlayAgain', $any($event).target.checked)"
+        (change)="
+          updateCheckbox('wantToPlayAgain', $any($event).target.checked)
+        "
         name="wantToPlayAgain"
       />
     </div>

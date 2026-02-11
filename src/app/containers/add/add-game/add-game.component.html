@@ -143,52 +143,80 @@
         </div>
       </div>
 
-      <div class="form-row">
-        <label for="timesFinished">Termines</label>
-        <input
-          id="timesFinished"
-          type="number"
-          min="0"
-          [ngModel]="userForm().timesFinished"
-          (ngModelChange)="updateUserField('timesFinished', $event)"
-          name="timesFinished"
-        />
-      </div>
+      <div class="form-row sessions-block">
+        <label>Sessions de jeu</label>
+        <p class="sessions-hint">
+          Une seule option par session : platiné, terminé à 100%, terminé, ou
+          temps passé uniquement.
+        </p>
+        @for (session of userForm().sessions; track $index) {
+        <div class="session-card">
+          <span class="session-label">Session {{ $index + 1 }}</span>
+          <div class="session-options">
+            @if (canShowPlatinedOption($index)) {
+            <label class="session-option">
+              <input
+                type="radio"
+                [name]="'addSessionCompletion' + $index"
+                [checked]="session.completion === 'platined'"
+                (change)="updateSessionCompletion($index, 'platined')"
+              />
+              Platiné
+            </label>
+            }
+            <label class="session-option">
+              <input
+                type="radio"
+                [name]="'addSessionCompletion' + $index"
+                [checked]="session.completion === 'hundred'"
+                (change)="updateSessionCompletion($index, 'hundred')"
+              />
+              Terminé à 100%
+            </label>
+            <label class="session-option">
+              <input
+                type="radio"
+                [name]="'addSessionCompletion' + $index"
+                [checked]="session.completion === 'finished'"
+                (change)="updateSessionCompletion($index, 'finished')"
+              />
+              Terminé
+            </label>
+            <label class="session-option">
+              <input
+                type="radio"
+                [name]="'addSessionCompletion' + $index"
+                [checked]="session.completion === 'none'"
+                (change)="updateSessionCompletion($index, 'none')"
+              />
+              Aucune (temps passé uniquement)
+            </label>
+          </div>
+          <div class="form-row session-hours">
+            <label>Temps passé (h)</label>
+            <input
+              type="number"
+              min="0"
+              [ngModel]="session.additionnalEstimatedTime"
+              (ngModelChange)="updateSessionAdditionnalTime($index, $event)"
+              name="addSessionHours{{ $index }}"
+            />
+          </div>
 
-      <div class="form-row">
-        <label for="additionnalEstimatedTime">Temps additionnel (h)</label>
-        <input
-          id="additionnalEstimatedTime"
-          type="number"
-          min="0"
-          [ngModel]="userForm().additionnalEstimatedTime"
-          (ngModelChange)="updateUserField('additionnalEstimatedTime', $event)"
-          name="additionnalEstimatedTime"
-        />
-      </div>
-      <div class="form-row">
-        <label for="timesFinishedHundredPercent">Terminé à 100%</label>
-        <input
-          id="timesFinishedHundredPercent"
-          type="number"
-          min="0"
-          [ngModel]="userForm().timesFinishedHundredPercent"
-          (ngModelChange)="
-            updateUserField('timesFinishedHundredPercent', $event)
-          "
-          name="timesFinishedHundredPercent"
-        />
-      </div>
-
-      <div class="form-row checkbox-row">
-        <label for="platined">Platined</label>
-        <input
-          id="platined"
-          type="checkbox"
-          [checked]="userForm().platined"
-          (change)="updateCheckbox('platined', $any($event).target.checked)"
-          name="platined"
-        />
+          @if (userForm().sessions.length > 1) {
+          <button
+            type="button"
+            class="btn session-remove"
+            (click)="removeSession($index)"
+          >
+            Supprimer cette session
+          </button>
+          }
+        </div>
+        }
+        <button type="button" class="btn session-add" (click)="addSession()">
+          Ajouter une session
+        </button>
       </div>
 
       <div class="form-row checkbox-row">

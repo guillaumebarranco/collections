@@ -52,12 +52,12 @@ function formatUserGame(game: any): string {
     title: '${escapeString(game.title)}',
     editor: '${escapeString(game.editor)}',
     rating: 0,
-    timesFinished: 1,
+    timesFinished: 0,
     additionnalEstimatedTime: 0,
     timesFinishedHundredPercent: 0,
     platined: false,
     owned: false,
-    gamelistPriority: 1,
+    gamelistPriority: ${game.gamelistPriority ?? 1},
     wantToPlayAgain: false,
   },`;
 }

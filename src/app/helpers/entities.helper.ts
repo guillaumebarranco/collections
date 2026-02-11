@@ -1,7 +1,12 @@
 import { BaseBd, Bd, UserBd } from '../models/bd-model';
 import { BaseBook, Book, UserBook } from '../models/book-model';
 import { BaseComic, Comic, UserComic } from '../models/comic-model';
-import { BaseGame, Game, UserGame } from '../models/game-model';
+import {
+  BaseGame,
+  Game,
+  UserGame,
+  UserGameSession,
+} from '../models/game-model';
 import { BaseManga, Manga, UserManga } from '../models/manga-model';
 import { BaseManwha, UserManwha } from '../models/manwha-model';
 import { BaseMovie, Movie, UserMovie } from '../models/movie-model';
@@ -71,29 +76,86 @@ export const getComicDataFromUserComicAndBaseComic = (
   wantToReadAgain: userComic.wantToReadAgain,
 });
 
+/**
+ * Dérive les totaux legacy (timesFinished, platined, etc.) à partir des sessions.
+ * Utilisé pour l'affichage et les stats quand l'utilisateur utilise le nouveau système de sessions.
+ */
+export function getGameTotalsFromSessions(sessions: UserGameSession[]): {
+  timesFinished: number;
+  timesFinishedHundredPercent: number;
+  platined: boolean;
+  additionnalEstimatedTime: number;
+} {
+  let timesFinished = 0;
+  let timesFinishedHundredPercent = 0;
+  let platined = false;
+  let additionnalEstimatedTime = 0;
+  for (const s of sessions) {
+    if (s.platinedGame) {
+      platined = true;
+      timesFinishedHundredPercent += 1;
+      timesFinished += 1;
+    } else if (s.finishedGameWithHundredPercent) {
+      timesFinishedHundredPercent += 1;
+      timesFinished += 1;
+    } else if (s.finishedGame) {
+      timesFinished += 1;
+    } else {
+      additionnalEstimatedTime += s.additionnalEstimatedTime ?? 0;
+    }
+  }
+  return {
+    timesFinished,
+    timesFinishedHundredPercent,
+    platined,
+    additionnalEstimatedTime,
+  };
+}
+
+function getGameUserTotals(userGame: UserGame): {
+  timesFinished: number;
+  timesFinishedHundredPercent: number;
+  platined: boolean;
+  additionnalEstimatedTime: number;
+} {
+  if (userGame.sessions && userGame.sessions.length > 0) {
+    return getGameTotalsFromSessions(userGame.sessions);
+  }
+  return {
+    timesFinished: userGame.timesFinished ?? 0,
+    timesFinishedHundredPercent: userGame.timesFinishedHundredPercent ?? 0,
+    platined: userGame.platined ?? false,
+    additionnalEstimatedTime: userGame.additionnalEstimatedTime ?? 0,
+  };
+}
+
 export const getGameDataFromUserGameAndBaseGame = (
   userGame: UserGame,
   baseGame: BaseGame
-): Game => ({
-  title: userGame.title,
-  editor: userGame.editor,
-  rating: userGame.rating,
-  timesFinished: userGame.timesFinished,
-  additionnalEstimatedTime: userGame.additionnalEstimatedTime,
-  hero: baseGame?.hero || '',
-  coverUrl: baseGame?.coverUrl || '',
-  releaseDate: baseGame?.releaseDate || '',
-  averageTimeToFinish: baseGame?.averageTimeToFinish || 0,
-  platform: baseGame?.platform || '',
-  saga: baseGame?.saga || '',
-  platineTime: baseGame?.platineTime || 0,
-  platined: userGame.platined,
-  timesFinishedHundredPercent: userGame.timesFinishedHundredPercent,
-  averageTimeToHundredPercent: baseGame?.averageTimeToHundredPercent || 0,
-  owned: userGame.owned,
-  gamelistPriority: userGame.gamelistPriority,
-  wantToPlayAgain: userGame.wantToPlayAgain,
-});
+): Game => {
+  const totals = getGameUserTotals(userGame);
+  return {
+    title: userGame.title,
+    editor: userGame.editor,
+    rating: userGame.rating,
+    timesFinished: totals.timesFinished,
+    additionnalEstimatedTime: totals.additionnalEstimatedTime,
+    hero: baseGame?.hero || '',
+    coverUrl: baseGame?.coverUrl || '',
+    releaseDate: baseGame?.releaseDate || '',
+    averageTimeToFinish: baseGame?.averageTimeToFinish || 0,
+    platform: baseGame?.platform || '',
+    saga: baseGame?.saga || '',
+    platineTime: baseGame?.platineTime || 0,
+    platined: totals.platined,
+    timesFinishedHundredPercent: totals.timesFinishedHundredPercent,
+    averageTimeToHundredPercent: baseGame?.averageTimeToHundredPercent || 0,
+    owned: userGame.owned,
+    gamelistPriority: userGame.gamelistPriority,
+    wantToPlayAgain: userGame.wantToPlayAgain,
+    sessions: userGame.sessions ?? [],
+  };
+};
 
 export const getMangaDataFromUserMangaAndBaseManga = (
   userManga: UserManga,

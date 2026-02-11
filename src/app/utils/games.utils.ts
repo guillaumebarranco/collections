@@ -1,4 +1,5 @@
 import { formatTimeStats, ItemWithGameLength, TimeStats } from './stats.utils';
+import type { UserGameSession } from '../models/game-model';
 
 export function getTotalTimeToFinishGames(
   items: ItemWithGameLength[]
@@ -25,38 +26,60 @@ export function getTotalTimeToFinishGamesAtHundredPercent(
   return formatTimeStats(totalHours * 60);
 }
 
-export function getGameTimePlayed(game: ItemWithGameLength): number {
+type GameWithSessions = ItemWithGameLength & {
+  sessions?: UserGameSession[];
+};
+
+/**
+ * Calcule le temps joué à partir des sessions (nouveau modèle).
+ */
+function getGameTimePlayedFromSessions(
+  sessions: UserGameSession[],
+  game: ItemWithGameLength
+): number {
+  let total = 0;
+  for (const s of sessions) {
+    if (s.platinedGame) {
+      total += game.platineTime > 0 ? game.platineTime : game.averageTimeToHundredPercent;
+    } else if (s.finishedGameWithHundredPercent) {
+      total += game.averageTimeToHundredPercent;
+    } else if (s.finishedGame) {
+      total += game.averageTimeToFinish;
+    } else {
+      total += s.additionnalEstimatedTime ?? 0;
+    }
+  }
+  return total;
+}
+
+export function getGameTimePlayed(game: GameWithSessions): number {
+  if (game.sessions && game.sessions.length > 0) {
+    return getGameTimePlayedFromSessions(game.sessions, game);
+  }
+
   let length = 0;
 
-  // Si l'utilisateur a platiné le jeu et ne l'a pas fini une nouvelle fois ensuite
   if (game.platined && game.timesFinished < 2) {
     length += game.platineTime;
-
     if (game.timesFinished > 1) {
       length += (game.timesFinished - 1) * game.averageTimeToFinish;
     }
   }
 
-  // Si l'utilisateur a platiné le jeu et l'a fini plusieurs fois ensuite
   if (game.platined && game.timesFinished > 1) {
     length += game.platineTime;
-
     length += (game.timesFinished - 1) * game.averageTimeToFinish;
   }
 
-  // Si l'utilisateur a fini le jeu à 100%
   if (game.timesFinishedHundredPercent > 0 && game.timesFinished < 2) {
-    length +=
-      game.averageTimeToHundredPercent * game.timesFinishedHundredPercent;
+    length += game.averageTimeToHundredPercent * game.timesFinishedHundredPercent;
   }
 
   if (game.timesFinishedHundredPercent > 0 && game.timesFinished > 1) {
     length += game.averageTimeToHundredPercent;
-
     length += (game.timesFinished - 1) * game.averageTimeToFinish;
   }
 
-  // Si l'utilisateur a fini le jeu mais pas à 100%
   if (
     !game.platined &&
     game.timesFinishedHundredPercent < 1 &&

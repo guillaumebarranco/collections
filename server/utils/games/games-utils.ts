@@ -87,6 +87,94 @@ function parseBooleanField(objectText: string, key: string) {
   return match[1] === 'true';
 }
 
+function parseSessionsField(objectText: string) {
+  const sessionsIndex = objectText.indexOf('sessions:');
+  if (sessionsIndex === -1) return undefined;
+  const bracketStart = objectText.indexOf('[', sessionsIndex);
+  if (bracketStart === -1) return undefined;
+  let depth = 0;
+  let i = bracketStart;
+  const sessions = [];
+  while (i < objectText.length) {
+    const char = objectText[i];
+    if (char === '[') {
+      depth += 1;
+      i += 1;
+      continue;
+    }
+    if (char === ']') {
+      depth -= 1;
+      if (depth === 0) break;
+      i += 1;
+      continue;
+    }
+    if (depth === 1 && char === '{') {
+      const objStart = i;
+      let objDepth = 0;
+      let j = i;
+      while (j < objectText.length) {
+        const c = objectText[j];
+        if (c === '{') objDepth += 1;
+        else if (c === '}') {
+          objDepth -= 1;
+          if (objDepth === 0) {
+            const objText = objectText.slice(objStart, j + 1);
+            sessions.push({
+              finishedGame: parseBooleanField(objText, 'finishedGame') ?? false,
+              finishedGameWithHundredPercent:
+                parseBooleanField(objText, 'finishedGameWithHundredPercent') ??
+                false,
+              platinedGame:
+                parseBooleanField(objText, 'platinedGame') ?? false,
+              additionnalEstimatedTime:
+                parseNumberField(objText, 'additionnalEstimatedTime') ?? 0,
+            });
+            i = j + 1;
+            break;
+          }
+        }
+        j += 1;
+      }
+      continue;
+    }
+    i += 1;
+  }
+  return sessions;
+}
+
+function formatSession(session: any) {
+  return `{
+      finishedGame: ${session.finishedGame ?? false},
+      finishedGameWithHundredPercent: ${session.finishedGameWithHundredPercent ?? false},
+      platinedGame: ${session.platinedGame ?? false},
+      additionnalEstimatedTime: ${session.additionnalEstimatedTime ?? 0},
+    }`;
+}
+
+function formatSessions(sessions: any[]) {
+  if (!Array.isArray(sessions) || sessions.length === 0) return '';
+  return 'sessions: [\n' + sessions.map(formatSession).join(',\n') + '\n    ],';
+}
+
+function formatGameObject(game: any) {
+  const sessionsPart = formatSessions(game.sessions);
+  const base = `  {
+    title: '${escapeString(game.title)}',
+    editor: '${escapeString(game.editor)}',
+    rating: ${game.rating ?? 0},
+    timesFinished: ${game.timesFinished ?? 0},
+    additionnalEstimatedTime: ${game.additionnalEstimatedTime ?? 0},
+    timesFinishedHundredPercent: ${game.timesFinishedHundredPercent ?? 0},
+    platined: ${game.platined ?? false},
+    owned: ${game.owned ?? false},
+    gamelistPriority: ${game.gamelistPriority ?? 1},
+    wantToPlayAgain: ${game.wantToPlayAgain ?? false},`;
+  if (sessionsPart) {
+    return base + '\n    ' + sessionsPart + '\n  }';
+  }
+  return base + '\n  }';
+}
+
 function parseGamesFromFile(content: string): any[] {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
@@ -119,6 +207,7 @@ function parseGamesFromFile(content: string): any[] {
         const title = parseStringField(objectText, 'title');
         const editor = parseStringField(objectText, 'editor');
         if (title && editor) {
+          const sessions = parseSessionsField(objectText);
           games.push({
             title,
             editor,
@@ -134,6 +223,7 @@ function parseGamesFromFile(content: string): any[] {
               parseNumberField(objectText, 'gamelistPriority') ?? 1,
             wantToPlayAgain:
               parseBooleanField(objectText, 'wantToPlayAgain') ?? false,
+            ...(sessions !== undefined && { sessions }),
           });
         }
       }
@@ -266,22 +356,7 @@ function updateGameInFile(filePath: string, gameData: any): boolean {
     ...gameData,
   };
 
-  const newArrayContent = games
-    .map(
-      (game) => `  {
-    title: '${escapeString(game.title)}',
-    editor: '${escapeString(game.editor)}',
-    rating: ${game.rating ?? 0},
-    timesFinished: ${game.timesFinished ?? 0},
-    additionnalEstimatedTime: ${game.additionnalEstimatedTime ?? 0},
-    timesFinishedHundredPercent: ${game.timesFinishedHundredPercent ?? 0},
-    platined: ${game.platined ?? false},
-    owned: ${game.owned ?? false},
-    gamelistPriority: ${game.gamelistPriority ?? 1},
-    wantToPlayAgain: ${game.wantToPlayAgain ?? false},
-  }`
-    )
-    .join(',\n');
+  const newArrayContent = games.map((game) => formatGameObject(game)).join(',\n');
 
   const exportIndex = content.indexOf('export const');
   const bounds = getArrayBounds(content, exportIndex);
@@ -320,22 +395,7 @@ function updateGameIdentityInFile(filePath: string, gameData: any): boolean {
     editor: gameData.editor ?? games[index].editor,
   };
 
-  const newArrayContent = games
-    .map(
-      (game) => `  {
-    title: '${escapeString(game.title)}',
-    editor: '${escapeString(game.editor)}',
-    rating: ${game.rating ?? 0},
-    timesFinished: ${game.timesFinished ?? 0},
-    additionnalEstimatedTime: ${game.additionnalEstimatedTime ?? 0},
-    platined: ${game.platined ?? false},
-    timesFinishedHundredPercent: ${game.timesFinishedHundredPercent ?? 0},
-    owned: ${game.owned ?? false},
-    gamelistPriority: ${game.gamelistPriority ?? 1},
-    wantToPlayAgain: ${game.wantToPlayAgain ?? false},
-  }`
-    )
-    .join(',\n');
+  const newArrayContent = games.map((game) => formatGameObject(game)).join(',\n');
 
   const exportIndex = content.indexOf('export const');
   const bounds = getArrayBounds(content, exportIndex);
@@ -447,20 +507,7 @@ function removeGameFromFile(content: string, payload: any): string {
   }
 
   const newArrayContent = filtered
-    .map(
-      (game) => `  {
-    title: '${escapeString(game.title)}',
-    editor: '${escapeString(game.editor)}',
-    rating: ${game.rating ?? 0},
-    timesFinished: ${game.timesFinished ?? 0},
-    additionnalEstimatedTime: ${game.additionnalEstimatedTime ?? 0},
-    timesFinishedHundredPercent: ${game.timesFinishedHundredPercent ?? 0},
-    platined: ${game.platined ?? false},
-    owned: ${game.owned ?? false},
-    gamelistPriority: ${game.gamelistPriority ?? 1},
-    wantToPlayAgain: ${game.wantToPlayAgain ?? false},
-  }`
-    )
+    .map((game) => formatGameObject(game))
     .join(',\n');
 
   return (

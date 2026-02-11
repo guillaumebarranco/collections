@@ -12,6 +12,7 @@ export const ronanGameListGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
+    sessions: [],
   },
 
   {
@@ -25,6 +26,7 @@ export const ronanGameListGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
+    sessions: [],
   },
 
   {
@@ -38,6 +40,7 @@ export const ronanGameListGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
+    sessions: [],
   },
 
   {
@@ -51,6 +54,7 @@ export const ronanGameListGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
+    sessions: [],
   },
 
   {
@@ -64,6 +68,7 @@ export const ronanGameListGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
+    sessions: [],
   },
 
   {
@@ -77,6 +82,7 @@ export const ronanGameListGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
+    sessions: [],
   },
 
   {
@@ -90,5 +96,6 @@ export const ronanGameListGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
+    sessions: [],
   },
 ];

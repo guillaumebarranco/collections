@@ -7,7 +7,10 @@ import {
   Router,
   RouterModule,
 } from '@angular/router';
-import { Game } from '../../../models/game-model';
+import {
+  Game,
+  UserGameSession,
+} from '../../../models/game-model';
 import { getGamesByUser } from '../../../facades/games/games.facade';
 import {
   MAT_DIALOG_DATA,
@@ -20,13 +23,23 @@ import { EditEntityHeaderComponent } from '../../../components/edit-entity-heade
 import { AuthService } from '../../../core/auth.service';
 import { QuizzCreateModalComponent } from '../../../components/quizz-create-modal/quizz-create-modal.component';
 import { EntityType } from '../../../models/quizz-model';
+import { getGameTotalsFromSessions } from '../../../helpers/entities.helper';
+
+/** Type de complétion pour une session (une seule option par session). */
+export type SessionCompletionType =
+  | 'platined'
+  | 'hundred'
+  | 'finished'
+  | 'none';
+
+export type EditGameSessionForm = {
+  completion: SessionCompletionType;
+  additionnalEstimatedTime: number;
+};
 
 type EditGameForm = {
   rating: number;
-  timesFinished: number;
-  additionnalEstimatedTime: number;
-  platined: boolean;
-  timesFinishedHundredPercent: number;
+  sessions: EditGameSessionForm[];
   owned: boolean;
   gamelistPriority: number;
   wantToPlayAgain: boolean;
@@ -147,13 +160,7 @@ export class EditGameComponent {
     if (!current) return;
 
     let nextValue: EditGameForm[K] = value as EditGameForm[K];
-    if (
-      field === 'rating' ||
-      field === 'timesFinished' ||
-      field === 'additionnalEstimatedTime' ||
-      field === 'timesFinishedHundredPercent' ||
-      field === 'gamelistPriority'
-    ) {
+    if (field === 'rating' || field === 'gamelistPriority') {
       const asNumber = Number(value);
       nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditGameForm[K];
     }
@@ -164,7 +171,59 @@ export class EditGameComponent {
     });
   }
 
-  updateCheckbox(field: 'platined' | 'owned' | 'wantToPlayAgain', checked: boolean) {
+  updateSessionCompletion(sessionIndex: number, completion: SessionCompletionType) {
+    const current = this.gameForm();
+    if (!current || sessionIndex < 0 || sessionIndex >= current.sessions.length) return;
+    const next = [...current.sessions];
+    next[sessionIndex] = { ...next[sessionIndex], completion };
+    this.gameForm.set({ ...current, sessions: next });
+  }
+
+  updateSessionAdditionnalTime(sessionIndex: number, value: string | number) {
+    const current = this.gameForm();
+    if (!current || sessionIndex < 0 || sessionIndex >= current.sessions.length) return;
+    const hours = Number(value);
+    const next = [...current.sessions];
+    next[sessionIndex] = {
+      ...next[sessionIndex],
+      additionnalEstimatedTime: Number.isNaN(hours) ? 0 : hours,
+    };
+    this.gameForm.set({ ...current, sessions: next });
+  }
+
+  addSession() {
+    const current = this.gameForm();
+    if (!current) return;
+    this.gameForm.set({
+      ...current,
+      sessions: [...current.sessions, { completion: 'none', additionnalEstimatedTime: 0 }],
+    });
+  }
+
+  removeSession(sessionIndex: number) {
+    const current = this.gameForm();
+    if (!current || sessionIndex < 0 || sessionIndex >= current.sessions.length) return;
+    const next = current.sessions.filter((_, i) => i !== sessionIndex);
+    this.gameForm.set({ ...current, sessions: next });
+  }
+
+  /** True si une autre session a déjà "Platiné" coché (une seule session platine par jeu). */
+  hasOtherSessionPlatined(sessionIndex: number): boolean {
+    const form = this.gameForm();
+    if (!form) return true;
+    return form.sessions.some(
+      (s, i) => i !== sessionIndex && s.completion === 'platined'
+    );
+  }
+
+  /** Afficher l’option "Platiné" seulement si le jeu a un platineTime > 0 et qu’aucune autre session n’est platine. */
+  canShowPlatinedOption(sessionIndex: number): boolean {
+    const game = this.game();
+    if (!game || game.platineTime <= 0) return false;
+    return !this.hasOtherSessionPlatined(sessionIndex);
+  }
+
+  updateCheckbox(field: 'owned' | 'wantToPlayAgain', checked: boolean) {
     const current = this.gameForm();
     if (!current) return;
     this.gameForm.set({
@@ -238,9 +297,7 @@ export class EditGameComponent {
           title: game.title,
           editor: game.editor,
           rating: form.rating,
-          timesFinished: form.timesFinished,
-          additionnalEstimatedTime: form.additionnalEstimatedTime,
-          platined: form.platined,
+          ...this.formSessionsToPayload(form.sessions),
           owned: form.owned,
           gamelistPriority: form.gamelistPriority,
           wantToPlayAgain: form.wantToPlayAgain,
@@ -428,15 +485,71 @@ export class EditGameComponent {
   }
 
   private toForm(game: Game): EditGameForm {
+    let sessions = this.gameSessionsToFormSessions(game.sessions ?? []);
+    if (sessions.length === 0) {
+      if (game.timesFinished > 0 || game.timesFinishedHundredPercent > 0 || game.platined || (game.additionnalEstimatedTime ?? 0) > 0) {
+        sessions = [
+          this.legacyToSessionForm(
+            game.timesFinished,
+            game.timesFinishedHundredPercent,
+            game.platined,
+            game.additionnalEstimatedTime ?? 0
+          ),
+        ];
+      } else {
+        sessions = [{ completion: 'none', additionnalEstimatedTime: 0 }];
+      }
+    }
     return {
       rating: game.rating,
-      timesFinished: game.timesFinished,
-      additionnalEstimatedTime: game.additionnalEstimatedTime,
-      platined: game.platined,
-      timesFinishedHundredPercent: game.timesFinishedHundredPercent,
+      sessions,
       owned: game.owned,
       gamelistPriority: game.gamelistPriority ?? 0,
       wantToPlayAgain: game.wantToPlayAgain ?? false,
+    };
+  }
+
+  private gameSessionsToFormSessions(sessions: UserGameSession[]): EditGameSessionForm[] {
+    return sessions.map((s) => {
+      let completion: SessionCompletionType = 'none';
+      if (s.platinedGame) completion = 'platined';
+      else if (s.finishedGameWithHundredPercent) completion = 'hundred';
+      else if (s.finishedGame) completion = 'finished';
+      return {
+        completion,
+        additionnalEstimatedTime: s.additionnalEstimatedTime ?? 0,
+      };
+    });
+  }
+
+  private legacyToSessionForm(
+    timesFinished: number,
+    timesFinishedHundredPercent: number,
+    platined: boolean,
+    additionnalEstimatedTime: number
+  ): EditGameSessionForm {
+    if (platined) return { completion: 'platined', additionnalEstimatedTime: 0 };
+    if (timesFinishedHundredPercent > 0) return { completion: 'hundred', additionnalEstimatedTime: 0 };
+    if (timesFinished > 0) return { completion: 'finished', additionnalEstimatedTime: 0 };
+    return { completion: 'none', additionnalEstimatedTime };
+  }
+
+  private formSessionsToPayload(
+    formSessions: EditGameSessionForm[]
+  ): { sessions: UserGameSession[]; timesFinished: number; timesFinishedHundredPercent: number; platined: boolean; additionnalEstimatedTime: number } {
+    const sessions: UserGameSession[] = formSessions.map((f) => ({
+      finishedGame: f.completion === 'finished',
+      finishedGameWithHundredPercent: f.completion === 'hundred',
+      platinedGame: f.completion === 'platined',
+      additionnalEstimatedTime: f.completion === 'none' ? (f.additionnalEstimatedTime ?? 0) : 0,
+    }));
+    const totals = getGameTotalsFromSessions(sessions);
+    return {
+      sessions,
+      timesFinished: totals.timesFinished,
+      timesFinishedHundredPercent: totals.timesFinishedHundredPercent,
+      platined: totals.platined,
+      additionnalEstimatedTime: totals.additionnalEstimatedTime,
     };
   }
 

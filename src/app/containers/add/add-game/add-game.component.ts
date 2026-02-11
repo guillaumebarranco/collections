@@ -3,6 +3,8 @@ import { Component, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
+import type { UserGameSession } from '../../../models/game-model';
+import { getGameTotalsFromSessions } from '../../../helpers/entities.helper';
 
 type AddGameEntityForm = {
   title: string;
@@ -16,12 +18,16 @@ type AddGameEntityForm = {
   platineTime: number;
 };
 
+type SessionCompletionType = 'platined' | 'hundred' | 'finished' | 'none';
+
+type AddGameSessionForm = {
+  completion: SessionCompletionType;
+  additionnalEstimatedTime: number;
+};
+
 type AddGameUserForm = {
   rating: number;
-  timesFinished: number;
-  additionnalEstimatedTime: number;
-  timesFinishedHundredPercent: number;
-  platined: boolean;
+  sessions: AddGameSessionForm[];
   owned: boolean;
   gamelistPriority: number;
 };
@@ -61,10 +67,7 @@ export class AddGameComponent {
 
   userForm = signal<AddGameUserForm>({
     rating: 0,
-    timesFinished: 1,
-    additionnalEstimatedTime: 0,
-    timesFinishedHundredPercent: 0,
-    platined: false,
+    sessions: [{ completion: 'none', additionnalEstimatedTime: 0 }],
     owned: false,
     gamelistPriority: 1,
   });
@@ -97,13 +100,7 @@ export class AddGameComponent {
   ) {
     const current = this.userForm();
     let nextValue: AddGameUserForm[K] = value as AddGameUserForm[K];
-    if (
-      field === 'rating' ||
-      field === 'timesFinished' ||
-      field === 'additionnalEstimatedTime' ||
-      field === 'timesFinishedHundredPercent' ||
-      field === 'gamelistPriority'
-    ) {
+    if (field === 'rating' || field === 'gamelistPriority') {
       const asNumber = Number(value);
       nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as AddGameUserForm[K];
     }
@@ -113,7 +110,49 @@ export class AddGameComponent {
     });
   }
 
-  updateCheckbox(field: 'platined' | 'owned', checked: boolean) {
+  updateSessionCompletion(sessionIndex: number, completion: SessionCompletionType) {
+    const current = this.userForm();
+    if (sessionIndex < 0 || sessionIndex >= current.sessions.length) return;
+    const next = [...current.sessions];
+    next[sessionIndex] = { ...next[sessionIndex], completion };
+    this.userForm.set({ ...current, sessions: next });
+  }
+
+  updateSessionAdditionnalTime(sessionIndex: number, value: string | number) {
+    const current = this.userForm();
+    if (sessionIndex < 0 || sessionIndex >= current.sessions.length) return;
+    const hours = Number(value);
+    const next = [...current.sessions];
+    next[sessionIndex] = {
+      ...next[sessionIndex],
+      additionnalEstimatedTime: Number.isNaN(hours) ? 0 : hours,
+    };
+    this.userForm.set({ ...current, sessions: next });
+  }
+
+  addSession() {
+    const current = this.userForm();
+    this.userForm.set({
+      ...current,
+      sessions: [...current.sessions, { completion: 'none', additionnalEstimatedTime: 0 }],
+    });
+  }
+
+  removeSession(sessionIndex: number) {
+    const current = this.userForm();
+    if (current.sessions.length <= 1) return;
+    const next = current.sessions.filter((_, i) => i !== sessionIndex);
+    this.userForm.set({ ...current, sessions: next });
+  }
+
+  canShowPlatinedOption(sessionIndex: number): boolean {
+    const entity = this.entityForm();
+    if (entity.platineTime <= 0) return false;
+    const current = this.userForm();
+    return !current.sessions.some((s, i) => i !== sessionIndex && s.completion === 'platined');
+  }
+
+  updateCheckbox(field: 'owned', checked: boolean) {
     const current = this.userForm();
     this.userForm.set({
       ...current,
@@ -156,6 +195,23 @@ export class AddGameComponent {
     this.errorMessage.set('');
 
     try {
+      const sessions: UserGameSession[] = user.sessions.map((f) => ({
+        finishedGame: f.completion === 'finished',
+        finishedGameWithHundredPercent: f.completion === 'hundred',
+        platinedGame: f.completion === 'platined',
+        additionnalEstimatedTime: f.completion === 'none' ? (f.additionnalEstimatedTime ?? 0) : 0,
+      }));
+      const totals = getGameTotalsFromSessions(sessions);
+      const userPayload = {
+        rating: user.rating,
+        timesFinished: totals.timesFinished,
+        additionnalEstimatedTime: totals.additionnalEstimatedTime,
+        timesFinishedHundredPercent: totals.timesFinishedHundredPercent,
+        platined: totals.platined,
+        owned: user.owned,
+        gamelistPriority: user.gamelistPriority,
+        sessions,
+      };
       const response = await fetch(`${getApiBaseUrl()}/games/add`, {
         method: 'POST',
         headers: {
@@ -164,7 +220,7 @@ export class AddGameComponent {
         body: JSON.stringify({
           userId: this.getUserId(),
           entity,
-          user,
+          user: userPayload,
         }),
       });
 

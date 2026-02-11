@@ -468,6 +468,7 @@ export class GamesComponent implements OnInit {
           owned: data.game.owned,
           gamelistPriority: data.priority,
           wantToPlayAgain: data.game.wantToPlayAgain ?? false,
+          ...(data.game.sessions && { sessions: data.game.sessions }),
         }),
       });
 
@@ -506,6 +507,7 @@ export class GamesComponent implements OnInit {
           owned: game.owned,
           gamelistPriority: game.gamelistPriority ?? 1,
           wantToPlayAgain: true,
+          ...(game.sessions && { sessions: game.sessions }),
         }),
       });
       if (!response.ok) {
@@ -536,6 +538,7 @@ export class GamesComponent implements OnInit {
           owned: game.owned,
           gamelistPriority: game.gamelistPriority ?? 1,
           wantToPlayAgain: false,
+          ...(game.sessions && { sessions: game.sessions }),
         }),
       });
       if (!response.ok) {

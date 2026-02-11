@@ -28,7 +28,12 @@ function formatBaseGame(entity: any): string {
 }
 
 function formatUserGame(user: any): string {
-  return `  {
+  const sessions = Array.isArray(user.sessions) && user.sessions.length > 0
+    ? 'sessions: [\n' + user.sessions.map((s: any) =>
+        `      { finishedGame: ${s.finishedGame ?? false}, finishedGameWithHundredPercent: ${s.finishedGameWithHundredPercent ?? false}, platinedGame: ${s.platinedGame ?? false}, additionnalEstimatedTime: ${s.additionnalEstimatedTime ?? 0} }`
+      ).join(',\n') + '\n    ],'
+    : '';
+  const base = `  {
     title: '${escapeString(user.title)}',
     editor: '${escapeString(user.editor)}',
     rating: ${user.rating ?? 0},
@@ -38,8 +43,8 @@ function formatUserGame(user: any): string {
     platined: ${user.platined ?? false},
     owned: ${user.owned ?? false},
     gamelistPriority: ${user.gamelistPriority ?? 1},
-    wantToPlayAgain: ${user.wantToPlayAgain ?? false},
-  },`;
+    wantToPlayAgain: ${user.wantToPlayAgain ?? false},`;
+  return sessions ? base + '\n    ' + sessions + '\n  },' : base + '\n  },';
 }
 
 function getUserGamesTargetFile(userId: string) {
@@ -138,6 +143,16 @@ router.post('/add', (req: any, res: any) => {
       wantToPlayAgain:
         normalizeBoolean(user.wantToPlayAgain, 'wantToPlayAgain') ?? false,
     };
+    if (Array.isArray(user.sessions) && user.sessions.length > 0) {
+      userPayload.sessions = user.sessions.map((s) => ({
+        finishedGame: normalizeBoolean(s.finishedGame, 'finishedGame') ?? false,
+        finishedGameWithHundredPercent:
+          normalizeBoolean(s.finishedGameWithHundredPercent, 'finishedGameWithHundredPercent') ?? false,
+        platinedGame: normalizeBoolean(s.platinedGame, 'platinedGame') ?? false,
+        additionnalEstimatedTime:
+          normalizeNumber(s.additionnalEstimatedTime, 'additionnalEstimatedTime') ?? 0,
+      }));
+    }
 
     const baseGameContent = appendObjectToArrayFile(
       BASE_GAMES_API_FILE,
