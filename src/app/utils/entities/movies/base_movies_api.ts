@@ -325,4 +325,25 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: '',
     saga: '',
   },
+
+  {
+    title: 'O\'Brother',
+    director: 'Ethan Coen, Joel Coen',
+    actors: [
+      {
+        name: 'George Clooney',
+      },
+      {
+        name: 'Tim Blake Nelson',
+      },
+      {
+        name: 'John Turturro',
+      },
+    ],
+    coverUrl: 'https://m.media-amazon.com/images/M/MV5BNzc0YTZiYWYtM2MzMC00YTdmLTljNTktMWRkZDUzNzBiZjRkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2000-08-30',
+    length: 106,
+    genre: 'Comédie, Policier',
+    saga: '',
+  },
 ];
