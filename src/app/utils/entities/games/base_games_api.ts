@@ -733,4 +733,16 @@ export const baseGamesApi: BaseGame[] = [
     saga: 'Saints Row',
     platineTime: 0,
   },
+
+  {
+    title: 'Stray',
+    editor: 'Annapurna Interactive',
+    hero: '',
+    coverUrl: 'https://m.media-amazon.com/images/M/MV5BYzJiNTQwNWMtNzhmNi00MjFiLWE1OTctNjZmMGYwODEwNWIwXkEyXkFqcGc@._V1_.jpg',
+    releaseDate: '2022-07-19',
+    averageTimeToFinish: 7,
+    platform: 'Playstation 5',
+    saga: '',
+    platineTime: 11,
+  },
 ];
