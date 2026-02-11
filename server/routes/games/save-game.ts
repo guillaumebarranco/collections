@@ -118,16 +118,16 @@ router.post('/', (req: any, res: any) => {
         matchTitle: originalTitle || target.title,
         matchEditor: originalEditor || target.editor,
       };
-      if (hero !== undefined) baseUpdate.hero = hero;
-      if (coverUrl !== undefined) baseUpdate.coverUrl = coverUrl;
-      if (releaseDate !== undefined) baseUpdate.releaseDate = releaseDate;
+      if (hero !== undefined) baseUpdate['hero'] = hero;
+      if (coverUrl !== undefined) baseUpdate['coverUrl'] = coverUrl;
+      if (releaseDate !== undefined) baseUpdate['releaseDate'] = releaseDate;
       if (averageTimeToFinish !== undefined)
-        baseUpdate.averageTimeToFinish = averageTimeToFinish;
+        baseUpdate['averageTimeToFinish'] = averageTimeToFinish;
       if (averageTimeToHundredPercent !== undefined)
-        baseUpdate.averageTimeToHundredPercent = averageTimeToHundredPercent;
-      if (platform !== undefined) baseUpdate.platform = platform;
-      if (saga !== undefined) baseUpdate.saga = saga;
-      if (platineTime !== undefined) baseUpdate.platineTime = platineTime;
+        baseUpdate['averageTimeToHundredPercent'] = averageTimeToHundredPercent;
+      if (platform !== undefined) baseUpdate['platform'] = platform;
+      if (saga !== undefined) baseUpdate['saga'] = saga;
+      if (platineTime !== undefined) baseUpdate['platineTime'] = platineTime;
       baseUpdatedFile = updateBaseGameInFiles(baseUpdate);
 
       if (originalTitle || originalEditor) {
