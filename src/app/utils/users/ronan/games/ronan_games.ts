@@ -4,6 +4,9 @@ export const ronanGames: UserGames = [
     title: 'Call of Duty 4: Modern Warfare',
     editor: 'Infinity Ward',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -12,14 +15,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Call of Duty: Modern Warfare 2',
     editor: 'Infinity Ward',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -28,14 +31,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Call of Duty: Black Ops',
     editor: 'Treyarch',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -50,14 +53,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 100,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Call of Duty: Modern Warfare 3',
     editor: 'Infinity Ward',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -66,14 +69,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Call of Duty: Black Ops II',
     editor: 'Treyarch',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -82,14 +85,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 50,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Call of Duty: Black Ops III',
     editor: 'Treyarch',
     rating: 3,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -98,14 +101,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 213,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Call of Duty: Black Ops 4',
     editor: 'Treyarch',
     rating: 2.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -114,14 +117,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Call of Duty: Black Ops Cold War',
     editor: 'Treyarch',
     rating: 3,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -130,14 +133,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 60,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Call of Duty: Black Ops 6',
     editor: 'Treyarch',
     rating: 3,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -146,14 +149,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 30,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'One Piece: Pirate Warriors',
     editor: 'Omega Force',
     rating: 3.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -168,14 +171,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Naruto: Ultimate Ninja Storm',
     editor: 'CyberConnect2',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: true,
     sessions: [
       {
         finishedGame: true,
@@ -184,14 +187,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 15,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: true,
   },
   {
     title: 'Naruto Shippuden: Ultimate Ninja Storm 2',
     editor: 'CyberConnect2',
     rating: 4.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: true,
     sessions: [
       {
         finishedGame: false,
@@ -200,14 +203,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: true,
   },
   {
     title: 'Naruto Shippuden: Ultimate Ninja Storm 3',
     editor: 'CyberConnect2',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -222,14 +225,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Naruto Shippuden: Ultimate Ninja Storm 4',
     editor: 'CyberConnect2',
     rating: 4.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: true,
     sessions: [
       {
         finishedGame: false,
@@ -244,14 +247,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: true,
   },
   {
     title: 'Infamous',
     editor: 'Sucker Punch Productions',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -266,14 +269,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Infamous 2',
     editor: 'Sucker Punch Productions',
     rating: 3,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -288,14 +291,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Infamous: Second Son',
     editor: 'Sucker Punch Productions',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -310,14 +313,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Infamous: First Light',
     editor: 'Sucker Punch Productions',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -332,14 +335,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'The Amazing Spider-Man',
     editor: 'Beenox',
     rating: 3.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -348,14 +351,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Marvel's Spider-Man",
     editor: 'Insomniac Games',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -370,14 +373,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Marvel's Spider-Man: Miles Morales",
     editor: 'Insomniac Games',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -392,14 +395,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Marvel's Spider-Man 2",
     editor: 'Insomniac Games',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: true,
     sessions: [
       {
         finishedGame: false,
@@ -408,14 +411,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: true,
   },
   {
     title: 'BioShock Infinite',
     editor: 'Irrational Games',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: true,
     sessions: [
       {
         finishedGame: true,
@@ -424,14 +427,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: true,
   },
   {
     title: 'Watch Dogs',
     editor: 'Ubisoft',
     rating: 4,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -440,14 +443,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Dragon Ball Z: Budokai 3',
     editor: 'Dimps',
     rating: 4,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -480,14 +483,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'South Park: Le Bâton de la Vérité',
     editor: 'Obsidian Entertainment',
     rating: 4,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -496,14 +499,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'God of War',
     editor: 'Santa Monica Studio',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -518,14 +521,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'God of War Ragnarök',
     editor: 'Santa Monica Studio',
     rating: 4.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -534,14 +537,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Hogwarts Legacy',
     editor: 'Avalanche Software',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -550,14 +553,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Grand Theft Auto: Liberty City Stories',
     editor: 'Rockstar Games',
     rating: 3.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -566,14 +569,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Star Wars: Le Pouvoir de la Force',
     editor: 'LucasArts',
     rating: 3.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: true,
     sessions: [
       {
         finishedGame: true,
@@ -582,14 +585,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: true,
   },
   {
     title: 'Lego Star Wars',
     editor: 'LucasArts',
     rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -598,14 +601,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Wii Sports',
     editor: 'Nintendo',
     rating: 4,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -614,14 +617,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'A Plague Tale : Innocence',
     editor: 'Asobo Studio',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -636,14 +639,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'A Plague Tale : Requiem',
     editor: 'Asobo Studio',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -652,14 +655,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'A Way Out',
     editor: 'Hazelight Studios',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -668,14 +671,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Anthem',
     editor: 'BioWare',
     rating: 2.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -684,14 +687,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Assassin's Creed II",
     editor: 'Ubisoft',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -712,14 +715,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Assassin's Creed : Brotherhood",
     editor: 'Ubisoft',
     rating: 4.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -740,14 +743,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Assassin's Creed : Revelations",
     editor: 'Ubisoft',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -768,14 +771,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Assassin's Creed III",
     editor: 'Ubisoft',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -790,14 +793,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Assassin's Creed Liberation Remastered",
     editor: 'Ubisoft',
     rating: 3,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -806,14 +809,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Assassin's Creed III Remastered",
     editor: 'Ubisoft',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -822,14 +825,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Assassin's Creed IV : Black Flag",
     editor: 'Ubisoft',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -844,14 +847,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Assassin's Creed Rogue",
     editor: 'Ubisoft',
     rating: 3,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -866,14 +869,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Assassin's Creed Unity",
     editor: 'Ubisoft',
     rating: 3,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -888,14 +891,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Assassin's Creed Syndicate",
     editor: 'Ubisoft',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -910,14 +913,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Assassin's Creed Origins",
     editor: 'Ubisoft',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -932,14 +935,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Assassin's Creed Odyssey",
     editor: 'Ubisoft',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -954,14 +957,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Assassin's Creed Valhalla",
     editor: 'Ubisoft',
     rating: 2.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -970,14 +973,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Assassin's Creed Mirage",
     editor: 'Ubisoft',
     rating: 2,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -986,14 +989,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Assassin's Creed Shadows",
     editor: 'Ubisoft',
     rating: 2.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -1002,14 +1005,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Astro's Playroom",
     editor: 'Sony Interactive Entertainment',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -1018,14 +1021,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Avatar : Frontiers of Pandora',
     editor: 'Ubisoft',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -1034,14 +1037,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Batman: Arkham Asylum',
     editor: 'Rocksteady Studios',
     rating: 4.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: true,
     sessions: [
       {
         finishedGame: false,
@@ -1062,14 +1065,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: true,
   },
   {
     title: 'Batman: Arkham City',
     editor: 'Rocksteady Studios',
     rating: 4.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: true,
     sessions: [
       {
         finishedGame: false,
@@ -1090,14 +1093,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: true,
   },
   {
     title: 'Batman: Arkham Knight',
     editor: 'Rocksteady Studios',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: true,
     sessions: [
       {
         finishedGame: false,
@@ -1118,14 +1121,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: true,
   },
   {
     title: 'Batman: Arkham Origins',
     editor: 'WB Games Montréal',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: true,
     sessions: [
       {
         finishedGame: true,
@@ -1140,14 +1143,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: true,
   },
   {
     title: 'Battlefield 4',
     editor: 'EA DICE',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -1156,14 +1159,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'BioShock Remastered (Complete Edition)',
     editor: '2K Games',
     rating: 3,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -1172,14 +1175,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Black Myth : Wukong',
     editor: 'Game Science',
     rating: 2.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -1188,14 +1191,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 30,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Call of Duty : Modern Warfare Remastered',
     editor: 'Infinity Ward',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -1204,14 +1207,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 30,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Clair Obscur : Expedition 33',
     editor: 'Sandfall Interactive',
     rating: 5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -1220,14 +1223,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Cyberpunk 2077',
     editor: 'CD Projekt Red',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -1242,14 +1245,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Darksiders',
     editor: 'Vigil Games',
     rating: 3,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -1258,14 +1261,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 10,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Darksiders II Deathinitive Edition',
     editor: 'Vigil Games',
     rating: 2.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -1274,14 +1277,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Days Gone',
     editor: 'Bend Studio',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -1296,14 +1299,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Deliver Us The Moon',
     editor: 'KeokeN Interactive',
     rating: 3,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -1318,14 +1321,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Detroit : Become Human',
     editor: 'Quantic Dream',
     rating: 4.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -1334,14 +1337,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 8,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Dishonored : Definitive Edition',
     editor: 'Arkane Studios',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -1350,14 +1353,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 8,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Dishonored 2',
     editor: 'Arkane Studios',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -1366,14 +1369,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'DmC Devil May Cry : Definitive Edition',
     editor: 'Ninja Theory',
     rating: 3,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -1382,14 +1385,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 8,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Dragon Ball Raging Blast 2',
     editor: 'Spike',
     rating: 3.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -1398,14 +1401,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 8,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Elden Ring',
     editor: 'FromSoftware',
     rating: 4.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -1414,14 +1417,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 75,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Far Cry 3',
     editor: 'Ubisoft',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -1436,14 +1439,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Far Cry 4',
     editor: 'Ubisoft',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -1452,14 +1455,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 25,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Fist of the North Star : Ken's Rage",
     editor: 'Koei Tecmo',
     rating: 3.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -1468,14 +1471,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Ghost of Tsushima',
     editor: 'Sucker Punch Productions',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -1484,14 +1487,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'God of War III',
     editor: 'Santa Monica Studio',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: true,
     sessions: [
       {
         finishedGame: true,
@@ -1500,14 +1503,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: true,
   },
   {
     title: 'Gotham Knights',
     editor: 'WB Games Montréal',
     rating: 3,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -1516,14 +1519,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Gran Turismo 7',
     editor: 'Polyphony Digital',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -1532,14 +1535,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 20,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Grand Theft Auto V',
     editor: 'Rockstar Games',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -1548,14 +1551,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 20,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Heavy Rain',
     editor: 'Quantic Dream',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -1564,14 +1567,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 15,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Hitman',
     editor: 'IO Interactive',
     rating: 3,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -1580,14 +1583,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Horizon Zero Dawn',
     editor: 'Guerrilla Games',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -1602,14 +1605,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Horizon Forbidden West',
     editor: 'Guerrilla Games',
     rating: 3,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -1618,14 +1621,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Indiana Jones et le Cercle Ancien',
     editor: 'MachineGames',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -1640,14 +1643,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Injustice : Les Dieux sont Parmi Nous',
     editor: 'NetherRealm Studios',
     rating: 3.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -1656,14 +1659,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 30,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Injustice : Les Dieux sont Parmi Nous - Ultimate Edition',
     editor: 'NetherRealm Studios',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -1672,14 +1675,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Injustice 2',
     editor: 'NetherRealm Studios',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -1688,14 +1691,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Kena : Bridge of Spirits',
     editor: 'Ember Lab',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -1704,14 +1707,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Killzone Shadow Fall',
     editor: 'Guerrilla Games',
     rating: 4,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -1720,14 +1723,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "La Terre du Milieu : L'Ombre du Mordor",
     editor: 'Monolith Productions',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -1736,14 +1739,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "La Terre du Milieu : L'Ombre de la Guerre",
     editor: 'Monolith Productions',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -1752,14 +1755,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Life is Strange',
     editor: 'Dontnod Entertainment',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -1768,14 +1771,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Mafia : The Old Country',
     editor: 'Hangar 13',
     rating: 3,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -1784,14 +1787,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Mafia III : Definitive Edition',
     editor: 'Hangar 13',
     rating: 2.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -1800,14 +1803,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Marvel's Guardians of the Galaxy",
     editor: 'Eidos-Montréal',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -1816,14 +1819,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 12,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Naruto Shippuden : Ultimate Ninja Storm Generations',
     editor: 'CyberConnect2',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -1832,14 +1835,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Operation : Tango',
     editor: 'Clever Plays',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -1848,14 +1851,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Prince of Persia : Les Sables Oubliés',
     editor: 'Ubisoft',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -1864,14 +1867,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Qui es-tu?',
     editor: 'Inconnu',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -1880,14 +1883,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Ratchet & Clank : Rift Apart',
     editor: 'Insomniac Games',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -1896,14 +1899,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Red Dead Redemption',
     editor: 'Rockstar Games',
     rating: 4.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: true,
     sessions: [
       {
         finishedGame: true,
@@ -1912,14 +1915,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: true,
   },
   {
     title: 'Red Dead Redemption 2',
     editor: 'Rockstar Games',
     rating: 4.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: true,
     sessions: [
       {
         finishedGame: true,
@@ -1928,14 +1931,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 50,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: true,
   },
   {
     title: 'Resident Evil 7 : Biohazard',
     editor: 'Capcom',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -1944,14 +1947,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Returnal',
     editor: 'Housemarque',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -1960,14 +1963,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Rise of the Tomb Raider',
     editor: 'Crystal Dynamics',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: true,
     sessions: [
       {
         finishedGame: true,
@@ -1976,14 +1979,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 5,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: true,
   },
   {
     title: 'Shadow of the Tomb Raider',
     editor: 'Crystal Dynamics',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: true,
     sessions: [
       {
         finishedGame: true,
@@ -1992,14 +1995,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: true,
   },
   {
     title: "Le Seigneur des Anneaux : La Quête d'Aragorn",
     editor: 'Turbine',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2008,14 +2011,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'SSX',
     editor: 'EA Sports',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2024,14 +2027,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Star Wars : Battlefront II',
     editor: 'EA DICE',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -2040,14 +2043,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Star Wars Jedi : Fallen Order',
     editor: 'Respawn Entertainment',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -2062,14 +2065,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Star Wars Jedi : Survivor',
     editor: 'Respawn Entertainment',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -2078,14 +2081,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Star Wars : Le Pouvoir de la Force II',
     editor: 'LucasArts',
     rating: 3.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: true,
     sessions: [
       {
         finishedGame: true,
@@ -2094,14 +2097,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: true,
   },
   {
     title: 'Tekken 6',
     editor: 'Bandai Namco',
     rating: 3.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2110,14 +2113,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Tekken Revolution',
     editor: 'Bandai Namco',
     rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -2126,14 +2129,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'The Elder Scrolls V : Skyrim',
     editor: 'Bethesda Game Studios',
     rating: 4,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: true,
     sessions: [
       {
         finishedGame: true,
@@ -2142,14 +2145,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: true,
   },
   {
     title: 'The Last of Us',
     editor: 'Naughty Dog',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2158,14 +2161,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'The Last of Us Part II',
     editor: 'Naughty Dog',
     rating: 4.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -2180,14 +2183,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'The Order : 1886',
     editor: 'Ready at Dawn',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: true,
     sessions: [
       {
         finishedGame: true,
@@ -2196,14 +2199,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: true,
   },
   {
     title: "Tom Clancy's The Division",
     editor: 'Massive Entertainment',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2212,14 +2215,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Tomb Raider : Definitive Edition',
     editor: 'Crystal Dynamics',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: true,
     sessions: [
       {
         finishedGame: true,
@@ -2228,14 +2231,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 8,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: true,
   },
   {
     title: 'Titanfall 2',
     editor: 'Respawn Entertainment',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -2244,14 +2247,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 8,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Uncharted : Drake's Fortune",
     editor: 'Naughty Dog',
     rating: 4.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2260,14 +2263,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Uncharted 2 : Among Thieves',
     editor: 'Naughty Dog',
     rating: 4.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2276,14 +2279,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Uncharted 2 : Among Thieves Remastered',
     editor: 'Naughty Dog',
     rating: 4.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2292,14 +2295,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Uncharted 3 : L'illusion de Drake",
     editor: 'Naughty Dog',
     rating: 4,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2308,14 +2311,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 8,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Uncharted 3 : L'Illusion de Drake Remastered",
     editor: 'Naughty Dog',
     rating: 4,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2324,14 +2327,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 8,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Uncharted 4 : A Thief's End",
     editor: 'Naughty Dog',
     rating: 5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2340,14 +2343,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Uncharted : Legacy of Thieves Collection',
     editor: 'Naughty Dog',
     rating: 5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -2356,14 +2359,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Watch Dogs 2',
     editor: 'Ubisoft',
     rating: 3.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2372,14 +2375,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'The Witcher 3 : Wild Hunt',
     editor: 'CD Projekt Red',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: true,
     sessions: [
       {
         finishedGame: true,
@@ -2388,14 +2391,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: true,
   },
   {
     title: 'Wolfenstein : The New Order',
     editor: 'MachineGames',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2404,14 +2407,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Tetris',
     editor: 'Nintendo',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -2420,14 +2423,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 15,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Super Mario 2',
     editor: 'Nintendo',
     rating: 3.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2436,14 +2439,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 15,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Pokémon Émeraude',
     editor: 'Game Freak',
     rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: true,
     sessions: [
       {
         finishedGame: true,
@@ -2452,14 +2455,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: true,
   },
   {
     title: 'Dragon Ball Z: Budokai 2',
     editor: 'Dimps',
     rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2468,14 +2471,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Dragon Ball Z: Budokai Tenkaichi 2',
     editor: 'Spike',
     rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2484,14 +2487,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Need for Speed: Most Wanted',
     editor: 'Electronic Arts',
     rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2500,14 +2503,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Pokémon Bleu',
     editor: 'Game Freak',
     rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2516,14 +2519,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Teenage Mutant Hero Turtles: Fall of the Foot Clan',
     editor: 'Konami',
     rating: 4,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2532,14 +2535,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Double Dragon',
     editor: 'Nintendo',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2548,14 +2551,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Pokemon Jaune',
     editor: 'Nintendo',
     rating: 3.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2564,14 +2567,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Bomberman GB',
     editor: 'Nintendo',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2580,14 +2583,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Harry Potter et La Chambre des Secrets',
     editor: 'Electronic Arts',
     rating: 3.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: true,
     sessions: [
       {
         finishedGame: true,
@@ -2596,14 +2599,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: true,
   },
   {
     title: "Harry Potter à l'école des sorciers",
     editor: 'Electronic Arts',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: true,
     sessions: [
       {
         finishedGame: true,
@@ -2612,14 +2615,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: true,
   },
   {
     title: 'Harry Potter et La Coupe de Feu',
     editor: 'Electronic Arts',
     rating: 3.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2628,14 +2631,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Pokemon version Ruby',
     editor: 'Nintendo',
     rating: 4,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2644,14 +2647,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Sonic Advance',
     editor: 'Sega',
     rating: 2.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2660,14 +2663,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Star Wars III - La Revanche des Siths',
     editor: 'Ubisoft',
     rating: 3.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2676,14 +2679,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Spider-Man 3',
     editor: 'Activision',
     rating: 3.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2692,14 +2695,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Les Urbz - Les Sims in the City',
     editor: 'Electronic Arts',
     rating: 2.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2708,14 +2711,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Star Wars : Flight of the Falcon',
     editor: 'Ubisoft',
     rating: 1.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: true,
     sessions: [
       {
         finishedGame: true,
@@ -2724,14 +2727,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: true,
   },
   {
     title: 'Custom Robo Arena',
     editor: 'Nintendo',
     rating: 4,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: true,
     sessions: [
       {
         finishedGame: true,
@@ -2740,14 +2743,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: true,
   },
   {
     title: 'Animal Crossing : Wild World',
     editor: 'Nintendo',
     rating: 2.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2756,14 +2759,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Arthur et les Minimoys',
     editor: 'Atari',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2772,14 +2775,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Assassin’s Creed Altaïr Chronicles',
     editor: 'Ubisoft',
     rating: 2.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2800,14 +2803,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Assassin’s Creed II : Discovery',
     editor: 'Ubisoft',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2828,14 +2831,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Astérix aux Jeux Olympiques',
     editor: 'Atari',
     rating: 2.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2898,14 +2901,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Call of Duty 4 : Modern Warfare (DS)',
     editor: 'Activision',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2914,14 +2917,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Dragon Ball Z: Harukanaru Densetsu',
     editor: 'Atari',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2930,14 +2933,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Dragon Ball Z: Supersonic Warriors 2',
     editor: 'Atari',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2946,14 +2949,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Eragon',
     editor: 'Vivendi',
     rating: 2.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2962,14 +2965,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'FIFA 10',
     editor: 'Electronic Arts',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -2978,14 +2981,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Dragon Quest IX : Les Sentinelles du Firmament',
     editor: 'Nintendo',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: true,
     sessions: [
       {
         finishedGame: true,
@@ -2994,14 +2997,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: true,
   },
   {
     title: 'Galactick Football',
     editor: 'Ubisoft',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3010,14 +3013,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Grand Theft Auto: Chinatown Wars',
     editor: 'Rockstar',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3026,14 +3029,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Guitar Hero: On Tour',
     editor: 'Activision',
     rating: 4,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3042,14 +3045,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Harry Potter et la Coupe de Feu',
     editor: 'Electronic Arts',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3058,14 +3061,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Harry Potter et l'Ordre du Phénix",
     editor: 'Electronic Arts',
     rating: 2.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3074,14 +3077,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Harry Potter et le Prince de Sang Mêlé',
     editor: 'Electronic Arts',
     rating: 2.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3090,14 +3093,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Iron Man',
     editor: 'Sega',
     rating: 2,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3106,14 +3109,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Jump Ultimate Stars',
     editor: 'Nintendo',
     rating: 2.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3122,14 +3125,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Zelda Phantom Hourglass',
     editor: 'Nintendo',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3138,14 +3141,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Lego Batman',
     editor: 'Warner',
     rating: 3.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3154,14 +3157,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'LEGO Indiana Jones',
     editor: 'LucasArts',
     rating: 4,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3170,14 +3173,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'LEGO Star Wars : The Complete Saga',
     editor: 'LucasArts',
     rating: 4,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3186,14 +3189,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Mario & Sonic aux Jeux Olympiques',
     editor: 'Sega',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3202,14 +3205,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Mario & Sonic JO Hiver',
     editor: 'Sega',
     rating: 2.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3218,14 +3221,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Mario Kart DS',
     editor: 'Nintendo',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3288,14 +3291,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Mario Party DS',
     editor: 'Nintendo',
     rating: 4,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3304,14 +3307,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Mario Slam Basketball',
     editor: 'Nintendo',
     rating: 3.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3320,14 +3323,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Naruto Shippuden: Ninja Council 4',
     editor: 'Ubisoft',
     rating: 3.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3336,14 +3339,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Naruto: Ninja Destiny 2',
     editor: 'Takara Tomy',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3352,14 +3355,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Naruto: Ninja Council 3',
     editor: 'Takara Tomy',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3368,14 +3371,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Naruto : Ninja Destiny',
     editor: 'Takara Tomy',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3384,14 +3387,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Need for Speed : Most Wanted (DS)',
     editor: 'Electronic Arts',
     rating: 2.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3400,14 +3403,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Need for Speed : Nitro',
     editor: 'Electronic Arts',
     rating: 2.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3416,14 +3419,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Ninja Gaiden: Dragon Sword',
     editor: 'Tecmo',
     rating: 2.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3432,14 +3435,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Nintendogs',
     editor: 'Nintendo',
     rating: 3.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3448,14 +3451,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 1,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Pirates des Caraïbes: Jusqu'au Bout du Monde",
     editor: 'Disney',
     rating: 3.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3464,14 +3467,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Star Wars : Le Pouvoir de la Force',
     editor: 'LucasArts',
     rating: 3.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3480,14 +3483,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Trackmania DS',
     editor: 'Ubisoft',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3496,14 +3499,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Transformers : The Game',
     editor: 'Activision',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3512,14 +3515,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'X-Men Origins: Wolverine',
     editor: 'Activision',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3528,14 +3531,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Marvel Nemesis: Rise of the Imperfects',
     editor: 'Electronic Arts',
     rating: 2.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3544,14 +3547,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: "Programme d'entraînement cérébral du Dr Kawashima",
     editor: 'Nintendo',
     rating: 3,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3560,14 +3563,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 5,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Professeur Layton et la Boite de Pandore',
     editor: 'Nintendo',
     rating: 3.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: true,
@@ -3576,14 +3579,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
   {
     title: 'Saints Row 2',
     editor: 'THQ',
     rating: 4,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: true,
     sessions: [
       {
         finishedGame: true,
@@ -3592,14 +3595,14 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: true,
   },
   {
     title: 'Stray',
     editor: 'Annapurna Interactive',
     rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
     sessions: [
       {
         finishedGame: false,
@@ -3608,8 +3611,5 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
-    owned: true,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
   },
 ];
