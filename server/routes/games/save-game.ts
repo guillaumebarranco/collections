@@ -92,26 +92,43 @@ router.post('/', (req: any, res: any) => {
         input.originalEditor,
         'originalEditor'
       );
-      baseUpdatedFile = updateBaseGameInFiles({
+      const hero = normalizeString(entityPayload.hero, 'hero');
+      const coverUrl = normalizeString(entityPayload.coverUrl, 'coverUrl');
+      const releaseDate = normalizeString(
+        entityPayload.releaseDate,
+        'releaseDate'
+      );
+      const averageTimeToFinish = normalizeNumber(
+        entityPayload.averageTimeToFinish,
+        'averageTimeToFinish'
+      );
+      const averageTimeToHundredPercent = normalizeNumber(
+        entityPayload.averageTimeToHundredPercent,
+        'averageTimeToHundredPercent'
+      );
+      const platform = normalizeString(entityPayload.platform, 'platform');
+      const saga = normalizeString(entityPayload.saga, 'saga');
+      const platineTime = normalizeNumber(
+        entityPayload.platineTime,
+        'platineTime'
+      );
+      const baseUpdate: Record<string, any> = {
         title: target.title,
         editor: target.editor,
         matchTitle: originalTitle || target.title,
         matchEditor: originalEditor || target.editor,
-        hero: normalizeString(entityPayload.hero, 'hero'),
-        coverUrl: normalizeString(entityPayload.coverUrl, 'coverUrl'),
-        releaseDate: normalizeString(entityPayload.releaseDate, 'releaseDate'),
-        averageTimeToFinish: normalizeNumber(
-          entityPayload.averageTimeToFinish,
-          'averageTimeToFinish'
-        ),
-        averageTimeToHundredPercent: normalizeNumber(
-          entityPayload.averageTimeToHundredPercent,
-          'averageTimeToHundredPercent'
-        ),
-        platform: normalizeString(entityPayload.platform, 'platform'),
-        saga: normalizeString(entityPayload.saga, 'saga'),
-        platineTime: normalizeNumber(entityPayload.platineTime, 'platineTime'),
-      });
+      };
+      if (hero !== undefined) baseUpdate.hero = hero;
+      if (coverUrl !== undefined) baseUpdate.coverUrl = coverUrl;
+      if (releaseDate !== undefined) baseUpdate.releaseDate = releaseDate;
+      if (averageTimeToFinish !== undefined)
+        baseUpdate.averageTimeToFinish = averageTimeToFinish;
+      if (averageTimeToHundredPercent !== undefined)
+        baseUpdate.averageTimeToHundredPercent = averageTimeToHundredPercent;
+      if (platform !== undefined) baseUpdate.platform = platform;
+      if (saga !== undefined) baseUpdate.saga = saga;
+      if (platineTime !== undefined) baseUpdate.platineTime = platineTime;
+      baseUpdatedFile = updateBaseGameInFiles(baseUpdate);
 
       if (originalTitle || originalEditor) {
         const users = loadUsers();

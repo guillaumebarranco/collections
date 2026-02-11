@@ -368,12 +368,18 @@ function updateBaseGameInFile(filePath: string, gameData: any): boolean {
     return false;
   }
 
-  games[index] = {
-    ...games[index],
-    ...gameData,
-    title: gameData.title ?? games[index].title,
-    editor: gameData.editor ?? games[index].editor,
-  };
+  const existing = games[index];
+  const merged = { ...existing };
+  for (const key of Object.keys(gameData)) {
+    if (key === 'matchTitle' || key === 'matchEditor') continue;
+    const value = gameData[key];
+    if (value !== undefined) {
+      merged[key] = value;
+    }
+  }
+  merged.title = gameData.title ?? existing.title;
+  merged.editor = gameData.editor ?? existing.editor;
+  games[index] = merged;
 
   const newArrayContent = games
     .map(
