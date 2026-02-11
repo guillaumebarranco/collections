@@ -26,7 +26,7 @@ router.post('/batch-times-finished', (req: any, res: any) => {
     }
 
     const gameFiles = getUserGamesFiles(userId);
-    const missing = [];
+    const missing: any = [];
     let updatedCount = 0;
 
     for (const rawGame of games) {
@@ -42,12 +42,13 @@ router.post('/batch-times-finished', (req: any, res: any) => {
         const content = fs.readFileSync(filePath, 'utf8');
         const fileGames = parseGamesFromFile(content);
         const index = fileGames.findIndex(
-          (g) => g.title === title && g.editor === editor
+          (g: any) => g.title === title && g.editor === editor
         );
         if (index === -1) continue;
         const game = fileGames[index];
         const sessions = Array.isArray(game.sessions) ? [...game.sessions] : [];
-        const count = normalizeNumber(rawGame?.timesFinished, 'timesFinished') ?? 1;
+        const count =
+          normalizeNumber(rawGame?.timesFinished, 'timesFinished') ?? 1;
         for (let i = 0; i < count; i++) {
           sessions.push({
             finishedGame: true,

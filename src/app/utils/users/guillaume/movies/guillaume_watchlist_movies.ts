@@ -1094,18 +1094,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     watchPriority: 1,
   },
   {
-    title: 'Entre deux rives',
-    director: 'Alejandro Agresti',
-    rating: 0,
-    timesWatched: 0,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 2,
-  },
-  {
     title: '47 Ronin',
     director: 'Carl Rinsch',
     rating: 0,

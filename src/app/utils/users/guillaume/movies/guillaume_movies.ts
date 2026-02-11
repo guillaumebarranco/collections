@@ -1178,4 +1178,17 @@ export const guillaumeMoviesPage1: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
   },
+
+  {
+    title: 'Entre deux rives',
+    director: 'Alejandro Agresti',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2026-02-11',
+    lastViewedDate: '2026-02-11',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+  },
 ];

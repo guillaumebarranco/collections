@@ -1,4 +1,5 @@
 import { Game } from '../../../models/game-model';
+import { getGameTimePlayed } from '../../../utils/games.utils';
 
 export type GameView =
   | 'played'
@@ -99,18 +100,14 @@ export const getSortedGames = (games: Game[], selectedSort: string): Game[] => {
       );
     case 'totalPlayedTime':
       return games.sort((a, b) => {
-        const totalTimeA =
-          a.averageTimeToFinish * a.timesFinished + a.additionnalEstimatedTime;
-        const totalTimeB =
-          b.averageTimeToFinish * b.timesFinished + b.additionnalEstimatedTime;
+        const totalTimeA = getGameTimePlayed(a);
+        const totalTimeB = getGameTimePlayed(b);
         return totalTimeB - totalTimeA;
       });
     case 'totalPlayedTime-asc':
       return games.sort((a, b) => {
-        const totalTimeA =
-          a.averageTimeToFinish * a.timesFinished + a.additionnalEstimatedTime;
-        const totalTimeB =
-          b.averageTimeToFinish * b.timesFinished + b.additionnalEstimatedTime;
+        const totalTimeA = getGameTimePlayed(a);
+        const totalTimeB = getGameTimePlayed(b);
         return totalTimeA - totalTimeB;
       });
     case 'gamelistPriority':

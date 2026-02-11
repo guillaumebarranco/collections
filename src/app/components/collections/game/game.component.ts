@@ -110,12 +110,16 @@ export class GameComponent {
   }
 
   getGameTimePlayed(game: Game): number {
-    return getGameTimePlayed({
+    const data = getGameTimePlayed({
       sessions: game.sessions,
       averageTimeToFinish: game.averageTimeToFinish,
       platineTime: game.platineTime,
       averageTimeToHundredPercent: game.averageTimeToHundredPercent,
     });
+
+    console.log(game.title, data);
+
+    return data;
   }
 
   getEntityQuizzs(): Quizz[] {
