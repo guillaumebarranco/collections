@@ -13575,4 +13575,17 @@ export const ronanMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
+
+  {
+    title: 'Bugonia',
+    director: 'Yórgos Lánthimos',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2026-02-12',
+    lastViewedDate: '2026-02-12',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+  },
 ];

@@ -364,4 +364,22 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
   },
+
+  {
+    title: 'Bugonia',
+    director: 'Yórgos Lánthimos',
+    actors: [
+      {
+        name: 'Emma Stone',
+      },
+      {
+        name: 'Jesse Plemons',
+      },
+    ],
+    coverUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNXvkqRf_Mgjw15MP6OVhxPtslAoo1ImwAJOG894Sw-Hcslh1QgVBxCbbOf_Qu_uzc55xTlDy5CNuvJenGtUG1XjVkX9v2UFlryGhA-e4&s=10',
+    releaseDate: '2025-11-26',
+    length: 119,
+    genre: 'Thriller',
+    saga: '',
+  },
 ];

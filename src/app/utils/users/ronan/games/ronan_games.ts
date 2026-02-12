@@ -7,15 +7,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Call of Duty: Modern Warfare 2',
@@ -24,15 +24,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Call of Duty: Black Ops',
@@ -41,21 +41,21 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 100,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 100,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 100,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 100,
+    }
+    ],
   },
   {
     title: 'Call of Duty: Modern Warfare 3',
@@ -64,15 +64,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Call of Duty: Black Ops II',
@@ -81,15 +81,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 50,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 50,
+    }
+    ],
   },
   {
     title: 'Call of Duty: Black Ops III',
@@ -98,15 +98,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 213,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 213,
+    }
+    ],
   },
   {
     title: 'Call of Duty: Black Ops 4',
@@ -115,15 +115,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Call of Duty: Black Ops Cold War',
@@ -132,15 +132,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 60,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 60,
+    }
+    ],
   },
   {
     title: 'Call of Duty: Black Ops 6',
@@ -149,15 +149,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 30,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 30,
+    }
+    ],
   },
   {
     title: 'One Piece: Pirate Warriors',
@@ -166,21 +166,21 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 20,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 20,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Naruto: Ultimate Ninja Storm',
@@ -189,15 +189,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: true,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 15,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 15,
+    }
+    ],
   },
   {
     title: 'Naruto Shippuden: Ultimate Ninja Storm 2',
@@ -206,15 +206,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: true,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Naruto Shippuden: Ultimate Ninja Storm 3',
@@ -223,21 +223,21 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 20,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 20,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Naruto Shippuden: Ultimate Ninja Storm 4',
@@ -246,21 +246,21 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: true,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 20,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 20,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Infamous',
@@ -269,21 +269,21 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 20,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 20,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Infamous 2',
@@ -292,21 +292,21 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Infamous: Second Son',
@@ -315,21 +315,21 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Infamous: First Light',
@@ -338,21 +338,21 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'The Amazing Spider-Man',
@@ -361,78 +361,78 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "Marvel's Spider-Man",
+    title: 'Marvel\'s Spider-Man',
     editor: 'Insomniac Games',
     rating: 4,
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "Marvel's Spider-Man: Miles Morales",
+    title: 'Marvel\'s Spider-Man: Miles Morales',
     editor: 'Insomniac Games',
     rating: 4,
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "Marvel's Spider-Man 2",
+    title: 'Marvel\'s Spider-Man 2',
     editor: 'Insomniac Games',
     rating: 4,
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: true,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'BioShock Infinite',
@@ -441,15 +441,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: true,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Watch Dogs',
@@ -458,15 +458,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Dragon Ball Z: Budokai 3',
@@ -475,39 +475,39 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 15,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 15,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'South Park: Le Bâton de la Vérité',
@@ -516,15 +516,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'God of War',
@@ -533,21 +533,21 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'God of War Ragnarök',
@@ -556,15 +556,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Hogwarts Legacy',
@@ -573,15 +573,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Grand Theft Auto: Liberty City Stories',
@@ -590,15 +590,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Star Wars: Le Pouvoir de la Force',
@@ -607,15 +607,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: true,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Lego Star Wars',
@@ -624,15 +624,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Wii Sports',
@@ -641,15 +641,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'A Plague Tale : Innocence',
@@ -658,21 +658,21 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'A Plague Tale : Requiem',
@@ -681,15 +681,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'A Way Out',
@@ -698,15 +698,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Anthem',
@@ -715,365 +715,365 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "Assassin's Creed II",
+    title: 'Assassin\'s Creed II',
     editor: 'Ubisoft',
     rating: 4,
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 15,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 15,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "Assassin's Creed : Brotherhood",
+    title: 'Assassin\'s Creed : Brotherhood',
     editor: 'Ubisoft',
     rating: 4.5,
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "Assassin's Creed : Revelations",
+    title: 'Assassin\'s Creed : Revelations',
     editor: 'Ubisoft',
     rating: 3.5,
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "Assassin's Creed III",
+    title: 'Assassin\'s Creed III',
     editor: 'Ubisoft',
     rating: 3.5,
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "Assassin's Creed Liberation Remastered",
+    title: 'Assassin\'s Creed Liberation Remastered',
     editor: 'Ubisoft',
     rating: 3,
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "Assassin's Creed III Remastered",
+    title: 'Assassin\'s Creed III Remastered',
     editor: 'Ubisoft',
     rating: 4,
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "Assassin's Creed IV : Black Flag",
+    title: 'Assassin\'s Creed IV : Black Flag',
     editor: 'Ubisoft',
     rating: 3.5,
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 15,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 15,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "Assassin's Creed Rogue",
+    title: 'Assassin\'s Creed Rogue',
     editor: 'Ubisoft',
     rating: 3,
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "Assassin's Creed Unity",
+    title: 'Assassin\'s Creed Unity',
     editor: 'Ubisoft',
     rating: 3,
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "Assassin's Creed Syndicate",
+    title: 'Assassin\'s Creed Syndicate',
     editor: 'Ubisoft',
     rating: 3.5,
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 15,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 15,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "Assassin's Creed Origins",
+    title: 'Assassin\'s Creed Origins',
     editor: 'Ubisoft',
     rating: 3.5,
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "Assassin's Creed Odyssey",
+    title: 'Assassin\'s Creed Odyssey',
     editor: 'Ubisoft',
     rating: 3.5,
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "Assassin's Creed Valhalla",
+    title: 'Assassin\'s Creed Valhalla',
     editor: 'Ubisoft',
     rating: 2.5,
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "Assassin's Creed Mirage",
+    title: 'Assassin\'s Creed Mirage',
     editor: 'Ubisoft',
     rating: 2,
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "Assassin's Creed Shadows",
+    title: 'Assassin\'s Creed Shadows',
     editor: 'Ubisoft',
     rating: 2.5,
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "Astro's Playroom",
+    title: 'Astro\'s Playroom',
     editor: 'Sony Interactive Entertainment',
     rating: 3.5,
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Avatar : Frontiers of Pandora',
@@ -1082,15 +1082,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Batman: Arkham Asylum',
@@ -1099,27 +1099,39 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: true,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Batman: Arkham City',
@@ -1128,27 +1140,27 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: true,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Batman: Arkham Knight',
@@ -1157,27 +1169,27 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: true,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Batman: Arkham Origins',
@@ -1186,21 +1198,21 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: true,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Battlefield 4',
@@ -1209,15 +1221,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'BioShock Remastered (Complete Edition)',
@@ -1226,15 +1238,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Black Myth : Wukong',
@@ -1243,15 +1255,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 30,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 30,
+    }
+    ],
   },
   {
     title: 'Call of Duty : Modern Warfare Remastered',
@@ -1260,15 +1272,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 30,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 30,
+    }
+    ],
   },
   {
     title: 'Clair Obscur : Expedition 33',
@@ -1277,15 +1289,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Cyberpunk 2077',
@@ -1294,21 +1306,21 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 20,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 20,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Darksiders',
@@ -1317,15 +1329,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 10,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 10,
+    }
+    ],
   },
   {
     title: 'Darksiders II Deathinitive Edition',
@@ -1334,15 +1346,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Days Gone',
@@ -1351,21 +1363,21 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 10,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 10,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Deliver Us The Moon',
@@ -1374,21 +1386,21 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 4,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 4,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Detroit : Become Human',
@@ -1397,15 +1409,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 8,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 8,
+    }
+    ],
   },
   {
     title: 'Dishonored : Definitive Edition',
@@ -1414,15 +1426,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 8,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 8,
+    }
+    ],
   },
   {
     title: 'Dishonored 2',
@@ -1431,15 +1443,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'DmC Devil May Cry : Definitive Edition',
@@ -1448,15 +1460,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 8,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 8,
+    }
+    ],
   },
   {
     title: 'Dragon Ball Raging Blast 2',
@@ -1465,15 +1477,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 8,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 8,
+    }
+    ],
   },
   {
     title: 'Elden Ring',
@@ -1482,15 +1494,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 75,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 75,
+    }
+    ],
   },
   {
     title: 'Far Cry 3',
@@ -1499,21 +1511,21 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 75,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 75,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Far Cry 4',
@@ -1522,32 +1534,32 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 25,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 25,
+    }
+    ],
   },
   {
-    title: "Fist of the North Star : Ken's Rage",
+    title: 'Fist of the North Star : Ken\'s Rage',
     editor: 'Koei Tecmo',
     rating: 3.5,
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Ghost of Tsushima',
@@ -1556,15 +1568,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'God of War III',
@@ -1573,15 +1585,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: true,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Gotham Knights',
@@ -1590,15 +1602,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Gran Turismo 7',
@@ -1607,15 +1619,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 20,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 20,
+    }
+    ],
   },
   {
     title: 'Grand Theft Auto V',
@@ -1624,15 +1636,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 20,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 20,
+    }
+    ],
   },
   {
     title: 'Heavy Rain',
@@ -1641,15 +1653,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 15,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 15,
+    }
+    ],
   },
   {
     title: 'Hitman',
@@ -1658,15 +1670,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Horizon Zero Dawn',
@@ -1675,21 +1687,21 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Horizon Forbidden West',
@@ -1698,15 +1710,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Indiana Jones et le Cercle Ancien',
@@ -1715,21 +1727,21 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 30,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 30,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Injustice : Les Dieux sont Parmi Nous',
@@ -1738,15 +1750,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 30,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 30,
+    }
+    ],
   },
   {
     title: 'Injustice : Les Dieux sont Parmi Nous - Ultimate Edition',
@@ -1755,15 +1767,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Injustice 2',
@@ -1772,15 +1784,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Kena : Bridge of Spirits',
@@ -1789,15 +1801,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Killzone Shadow Fall',
@@ -1806,49 +1818,49 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "La Terre du Milieu : L'Ombre du Mordor",
+    title: 'La Terre du Milieu : L\'Ombre du Mordor',
     editor: 'Monolith Productions',
     rating: 3.5,
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "La Terre du Milieu : L'Ombre de la Guerre",
+    title: 'La Terre du Milieu : L\'Ombre de la Guerre',
     editor: 'Monolith Productions',
     rating: 3.5,
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Life is Strange',
@@ -1857,15 +1869,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Mafia : The Old Country',
@@ -1874,15 +1886,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Mafia III : Definitive Edition',
@@ -1891,32 +1903,32 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "Marvel's Guardians of the Galaxy",
+    title: 'Marvel\'s Guardians of the Galaxy',
     editor: 'Eidos-Montréal',
     rating: 4,
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 12,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 12,
+    }
+    ],
   },
   {
     title: 'Naruto Shippuden : Ultimate Ninja Storm Generations',
@@ -1925,15 +1937,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Operation : Tango',
@@ -1942,15 +1954,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Prince of Persia : Les Sables Oubliés',
@@ -1959,15 +1971,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Qui es-tu?',
@@ -1976,15 +1988,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Ratchet & Clank : Rift Apart',
@@ -1993,15 +2005,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Red Dead Redemption',
@@ -2010,15 +2022,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: true,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Red Dead Redemption 2',
@@ -2027,15 +2039,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: true,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 50,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 50,
+    }
+    ],
   },
   {
     title: 'Resident Evil 7 : Biohazard',
@@ -2044,15 +2056,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Returnal',
@@ -2061,15 +2073,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Rise of the Tomb Raider',
@@ -2078,15 +2090,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: true,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 5,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 5,
+    }
+    ],
   },
   {
     title: 'Shadow of the Tomb Raider',
@@ -2095,32 +2107,32 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: true,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "Le Seigneur des Anneaux : La Quête d'Aragorn",
+    title: 'Le Seigneur des Anneaux : La Quête d\'Aragorn',
     editor: 'Turbine',
     rating: 3,
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'SSX',
@@ -2129,15 +2141,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Star Wars : Battlefront II',
@@ -2146,15 +2158,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Star Wars Jedi : Fallen Order',
@@ -2163,21 +2175,21 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Star Wars Jedi : Survivor',
@@ -2186,15 +2198,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Star Wars : Le Pouvoir de la Force II',
@@ -2203,15 +2215,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: true,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Tekken 6',
@@ -2220,15 +2232,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Tekken Revolution',
@@ -2237,15 +2249,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'The Elder Scrolls V : Skyrim',
@@ -2254,15 +2266,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: true,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'The Last of Us',
@@ -2271,15 +2283,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'The Last of Us Part II',
@@ -2288,21 +2300,21 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'The Order : 1886',
@@ -2311,32 +2323,32 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: true,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "Tom Clancy's The Division",
+    title: 'Tom Clancy\'s The Division',
     editor: 'Massive Entertainment',
     rating: 3,
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Tomb Raider : Definitive Edition',
@@ -2345,15 +2357,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: true,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 8,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 8,
+    }
+    ],
   },
   {
     title: 'Titanfall 2',
@@ -2362,32 +2374,32 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 8,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 8,
+    }
+    ],
   },
   {
-    title: "Uncharted : Drake's Fortune",
+    title: 'Uncharted : Drake\'s Fortune',
     editor: 'Naughty Dog',
     rating: 4.5,
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Uncharted 2 : Among Thieves',
@@ -2396,15 +2408,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Uncharted 2 : Among Thieves Remastered',
@@ -2413,66 +2425,66 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "Uncharted 3 : L'illusion de Drake",
+    title: 'Uncharted 3 : L\'illusion de Drake',
     editor: 'Naughty Dog',
     rating: 4,
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 8,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 8,
+    }
+    ],
   },
   {
-    title: "Uncharted 3 : L'Illusion de Drake Remastered",
+    title: 'Uncharted 3 : L\'Illusion de Drake Remastered',
     editor: 'Naughty Dog',
     rating: 4,
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 8,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 8,
+    }
+    ],
   },
   {
-    title: "Uncharted 4 : A Thief's End",
+    title: 'Uncharted 4 : A Thief\'s End',
     editor: 'Naughty Dog',
     rating: 5,
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Uncharted : Legacy of Thieves Collection',
@@ -2481,15 +2493,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Watch Dogs 2',
@@ -2498,15 +2510,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'The Witcher 3 : Wild Hunt',
@@ -2515,15 +2527,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: true,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Wolfenstein : The New Order',
@@ -2532,15 +2544,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Tetris',
@@ -2549,15 +2561,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 15,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 15,
+    }
+    ],
   },
   {
     title: 'Super Mario 2',
@@ -2566,15 +2578,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 15,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 15,
+    }
+    ],
   },
   {
     title: 'Pokémon Émeraude',
@@ -2583,15 +2595,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: true,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Dragon Ball Z: Budokai 2',
@@ -2600,15 +2612,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Dragon Ball Z: Budokai Tenkaichi 2',
@@ -2617,15 +2629,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Need for Speed: Most Wanted',
@@ -2634,15 +2646,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Pokémon Bleu',
@@ -2651,15 +2663,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Teenage Mutant Hero Turtles: Fall of the Foot Clan',
@@ -2668,15 +2680,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Double Dragon',
@@ -2685,15 +2697,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Pokemon Jaune',
@@ -2702,15 +2714,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Bomberman GB',
@@ -2719,15 +2731,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Harry Potter et La Chambre des Secrets',
@@ -2736,32 +2748,44 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: true,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "Harry Potter à l'école des sorciers",
+    title: 'Harry Potter à l\'école des sorciers',
     editor: 'Electronic Arts',
     rating: 3.5,
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: true,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Harry Potter et La Coupe de Feu',
@@ -2770,15 +2794,27 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Pokemon version Ruby',
@@ -2787,15 +2823,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Sonic Advance',
@@ -2804,15 +2840,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Star Wars III - La Revanche des Siths',
@@ -2821,15 +2857,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Spider-Man 3',
@@ -2838,15 +2874,27 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Les Urbz - Les Sims in the City',
@@ -2855,15 +2903,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Star Wars : Flight of the Falcon',
@@ -2872,15 +2920,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: true,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Custom Robo Arena',
@@ -2889,15 +2937,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: true,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Animal Crossing : Wild World',
@@ -2906,15 +2954,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Arthur et les Minimoys',
@@ -2923,15 +2971,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Assassin’s Creed Altaïr Chronicles',
@@ -2940,27 +2988,27 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Assassin’s Creed II : Discovery',
@@ -2969,27 +3017,27 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Astérix aux Jeux Olympiques',
@@ -2998,69 +3046,69 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Call of Duty 4 : Modern Warfare (DS)',
@@ -3069,15 +3117,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Dragon Ball Z: Harukanaru Densetsu',
@@ -3086,15 +3134,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Dragon Ball Z: Supersonic Warriors 2',
@@ -3103,15 +3151,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Eragon',
@@ -3120,15 +3168,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'FIFA 10',
@@ -3137,15 +3185,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Dragon Quest IX : Les Sentinelles du Firmament',
@@ -3154,15 +3202,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: true,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Galactick Football',
@@ -3171,15 +3219,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Grand Theft Auto: Chinatown Wars',
@@ -3188,15 +3236,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Guitar Hero: On Tour',
@@ -3205,15 +3253,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Harry Potter et la Coupe de Feu',
@@ -3222,32 +3270,32 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "Harry Potter et l'Ordre du Phénix",
+    title: 'Harry Potter et l\'Ordre du Phénix',
     editor: 'Electronic Arts',
     rating: 2.5,
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Harry Potter et le Prince de Sang Mêlé',
@@ -3256,15 +3304,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Iron Man',
@@ -3273,15 +3321,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Jump Ultimate Stars',
@@ -3290,15 +3338,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Zelda Phantom Hourglass',
@@ -3307,15 +3355,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Lego Batman',
@@ -3324,15 +3372,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'LEGO Indiana Jones',
@@ -3341,15 +3389,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'LEGO Star Wars : The Complete Saga',
@@ -3358,15 +3406,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Mario & Sonic aux Jeux Olympiques',
@@ -3375,15 +3423,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Mario & Sonic JO Hiver',
@@ -3392,15 +3440,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Mario Kart DS',
@@ -3409,69 +3457,69 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    },
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Mario Party DS',
@@ -3480,15 +3528,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Mario Slam Basketball',
@@ -3497,15 +3545,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Naruto Shippuden: Ninja Council 4',
@@ -3514,15 +3562,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Naruto: Ninja Destiny 2',
@@ -3531,15 +3579,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Naruto: Ninja Council 3',
@@ -3548,15 +3596,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Naruto : Ninja Destiny',
@@ -3565,15 +3613,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Need for Speed : Most Wanted (DS)',
@@ -3582,15 +3630,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Need for Speed : Nitro',
@@ -3599,15 +3647,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Ninja Gaiden: Dragon Sword',
@@ -3616,15 +3664,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Nintendogs',
@@ -3633,32 +3681,32 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 1,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "Pirates des Caraïbes: Jusqu'au Bout du Monde",
+    title: 'Pirates des Caraïbes: Jusqu\'au Bout du Monde',
     editor: 'Disney',
     rating: 3.5,
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Star Wars : Le Pouvoir de la Force',
@@ -3667,15 +3715,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Trackmania DS',
@@ -3684,15 +3732,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Transformers : The Game',
@@ -3701,15 +3749,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'X-Men Origins: Wolverine',
@@ -3718,15 +3766,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Marvel Nemesis: Rise of the Imperfects',
@@ -3735,32 +3783,32 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
-    title: "Programme d'entraînement cérébral du Dr Kawashima",
+    title: 'Programme d\'entraînement cérébral du Dr Kawashima',
     editor: 'Nintendo',
     rating: 3,
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 5,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 5,
+    }
+    ],
   },
   {
     title: 'Professeur Layton et la Boite de Pandore',
@@ -3769,15 +3817,15 @@ export const ronanGames: UserGames = [
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Saints Row 2',
@@ -3786,15 +3834,15 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: true,
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
+    sessions: [
+{
+      finishedGame: true,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+    }
+    ],
   },
   {
     title: 'Stray',
@@ -3803,14 +3851,14 @@ export const ronanGames: UserGames = [
     owned: true,
     gamelistPriority: 1,
     wantToPlayAgain: false,
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: true,
-        additionnalEstimatedTime: 0,
-      },
-    ],
     ratingComment: '',
-  },
+    sessions: [
+{
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: true,
+      additionnalEstimatedTime: 0,
+    }
+    ],
+  }
 ];
