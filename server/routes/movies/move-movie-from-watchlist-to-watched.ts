@@ -66,7 +66,7 @@ function formatUserMovie(movie: any) {
     movie.title
   )}',\n    director: '${escapeString(
     movie.director
-  )}',\n    rating: 0,\n    timesWatched: 1,\n    firstViewedDate: '${viewedDate}',\n    lastViewedDate: '${viewedDate}',\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n  },`;
+  )}',\n    rating: 0,\n    timesWatched: 1,\n    firstViewedDate: '${viewedDate}',\n    lastViewedDate: '${viewedDate}',\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: '',\n  },`;
 }
 
 function formatWatchlistMovie(movie: any) {
@@ -74,7 +74,7 @@ function formatWatchlistMovie(movie: any) {
     movie.title
   )}',\n    director: '${escapeString(
     movie.director
-  )}',\n    rating: 0,\n    timesWatched: 0,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n  },`;
+  )}',\n    rating: 0,\n    timesWatched: 0,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: '',\n  },`;
 }
 
 function getUserMoviesTargetFile(userId: string, isWatchlist: boolean) {

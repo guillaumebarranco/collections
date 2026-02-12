@@ -93,6 +93,7 @@ ${formatSeasons(seasons)}
     owned: false,
     watchPriority: ${serie.watchPriority ?? 1},
     wantToWatchAgain: false,
+    ratingComment: '',
   },`;
 }
 

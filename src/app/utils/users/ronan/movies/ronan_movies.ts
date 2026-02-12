@@ -13587,5 +13587,6 @@ export const ronanMovies: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 ];

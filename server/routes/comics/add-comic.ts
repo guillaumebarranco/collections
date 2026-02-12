@@ -21,6 +21,7 @@ function formatBaseComic(entity: any): string {
     coverUrl: '${escapeString(entity.coverUrl || '')}',
     pages: ${entity.pages || 0},
     genre: '${escapeString(entity.genre || '')}',
+    description: '${escapeString(entity.description ?? '')}',
   },`;
 }
 
@@ -34,6 +35,7 @@ function formatUserComic(user: any): string {
     owned: ${user.owned ?? false},
     readPriority: ${user.readPriority ?? 1},
     wantToReadAgain: ${user.wantToReadAgain ?? false},
+    ratingComment: '${escapeString(user.ratingComment ?? '')}',
   },`;
 }
 
@@ -106,6 +108,7 @@ router.post('/add', (req: any, res: any) => {
       coverUrl: normalizeString(entity.coverUrl, 'coverUrl') || '',
       pages: normalizeNumber(entity.pages, 'pages') || 0,
       genre: normalizeString(entity.genre, 'genre') || '',
+      description: normalizeString(entity.description, 'description') ?? '',
     };
 
     const userPayload = {
@@ -117,6 +120,8 @@ router.post('/add', (req: any, res: any) => {
       owned: normalizeBoolean(user.owned, 'owned') ?? false,
       readPriority: normalizeNumber(user.readPriority, 'readPriority') ?? 1,
       wantToReadAgain: normalizeBoolean(user.wantToReadAgain, 'wantToReadAgain') ?? false,
+      ratingComment:
+        normalizeString(user.ratingComment, 'ratingComment') ?? '',
     };
 
     const baseComicContent = appendObjectToArrayFile(

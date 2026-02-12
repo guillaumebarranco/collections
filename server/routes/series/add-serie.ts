@@ -48,6 +48,7 @@ ${actorsLines || "      { name: 'Inconnu' },"}
     seasonsData: [
 ${seasonsLines}
     ],
+    description: '${escapeString(entity.description ?? '')}',
   },`;
 }
 
@@ -81,6 +82,7 @@ ${seasonsBlock}
     owned: ${user.owned ?? false},
     watchPriority: ${user.watchPriority ?? 1},
     wantToWatchAgain: ${user.wantToWatchAgain ?? false},
+    ratingComment: '${escapeString(user.ratingComment ?? '')}',
   },`;
 }
 
@@ -166,6 +168,7 @@ router.post('/add', (req: any, res: any) => {
       endDate: normalizeString(entity.endDate, 'endDate') || '',
       genre: normalizeString(entity.genre, 'genre') || '',
       seasonsData,
+      description: normalizeString(entity.description, 'description') ?? '',
     };
 
     const rawUserSeasons = Array.isArray(user.seasons) ? user.seasons : [];
@@ -196,6 +199,8 @@ router.post('/add', (req: any, res: any) => {
       watchPriority: normalizeNumber(user.watchPriority, 'watchPriority') ?? 1,
       wantToWatchAgain:
         normalizeBoolean(user.wantToWatchAgain, 'wantToWatchAgain') ?? false,
+      ratingComment:
+        normalizeString(user.ratingComment, 'ratingComment') ?? '',
     };
 
     const baseSerieContent = appendObjectToArrayFile(

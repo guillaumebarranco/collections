@@ -24,6 +24,7 @@ function formatBaseGame(entity: any): string {
     platform: '${escapeString(entity.platform || '')}',
     saga: '${escapeString(entity.saga || '')}',
     platineTime: ${entity.platineTime || 0},
+    description: '${escapeString(entity.description ?? '')}',
   },`;
 }
 
@@ -45,6 +46,7 @@ function formatUserGame(user: any): string {
     owned: ${user.owned ?? false},
     gamelistPriority: ${user.gamelistPriority ?? 1},
     wantToPlayAgain: ${user.wantToPlayAgain ?? false},
+    ratingComment: '${escapeString(user.ratingComment ?? '')}',
     ${sessionsStr}
   },`;
 }
@@ -121,6 +123,7 @@ router.post('/add', (req: any, res: any) => {
       platform: normalizeString(entity.platform, 'platform') || '',
       saga: normalizeString(entity.saga, 'saga') || '',
       platineTime: normalizeNumber(entity.platineTime, 'platineTime') || 0,
+      description: normalizeString(entity.description, 'description') ?? '',
     };
 
     const sessions = Array.isArray(user.sessions)
@@ -142,6 +145,8 @@ router.post('/add', (req: any, res: any) => {
         normalizeNumber(user.gamelistPriority, 'gamelistPriority') ?? 1,
       wantToPlayAgain:
         normalizeBoolean(user.wantToPlayAgain, 'wantToPlayAgain') ?? false,
+      ratingComment:
+        normalizeString(user.ratingComment, 'ratingComment') ?? '',
       sessions,
     };
 

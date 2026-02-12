@@ -32,7 +32,9 @@ function formatBaseMovie(entity: any): string {
     entity.releaseDate || ''
   )}',\n    length: ${entity.length || 0},\n    genre: '${escapeString(
     entity.genre || ''
-  )}',\n    saga: '${escapeString(entity.saga || '')}',\n  },`;
+  )}',\n    saga: '${escapeString(entity.saga || '')}',\n    description: '${escapeString(
+    entity.description ?? ''
+  )}',\n  },`;
 }
 
 function formatUserMovie(user: any): string {
@@ -50,7 +52,9 @@ function formatUserMovie(user: any): string {
     user.owned ?? false
   },\n    wantToSeeAgain: ${
     user.wantToSeeAgain ?? false
-  },\n    watchPriority: ${user.watchPriority ?? 1},\n  },`;
+  },\n    watchPriority: ${user.watchPriority ?? 1},\n    ratingComment: '${escapeString(
+    user.ratingComment ?? ''
+  )}',\n  },`;
 }
 
 function getUserMoviesTargetFile(userId: string) {
@@ -111,6 +115,7 @@ router.post('/add', (req: any, res: any) => {
       length: normalizeNumber(entity.length, 'length') || 0,
       genre: normalizeString(entity.genre, 'genre') || '',
       saga: normalizeString(entity.saga, 'saga') || '',
+      description: normalizeString(entity.description, 'description') ?? '',
     };
 
     const userPayload = {
@@ -128,6 +133,8 @@ router.post('/add', (req: any, res: any) => {
       wantToSeeAgain:
         normalizeBoolean(user.wantToSeeAgain, 'wantToSeeAgain') ?? false,
       watchPriority: normalizeNumber(user.watchPriority, 'watchPriority') ?? 1,
+      ratingComment:
+        normalizeString(user.ratingComment, 'ratingComment') ?? '',
     };
 
     const baseMovieContent = appendObjectToArrayFile(

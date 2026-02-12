@@ -82,6 +82,7 @@ ${formatSeasons(seasons)}
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },`;
 }
 
@@ -94,6 +95,7 @@ ${formatSeasons(seasons)}
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },`;
 }
 

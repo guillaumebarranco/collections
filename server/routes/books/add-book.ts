@@ -24,6 +24,7 @@ function formatBaseBook(entity: any): string {
     sagaOrder: ${entity.sagaOrder || 0},
     sagaFinished: ${entity.sagaFinished ?? false},
     releaseDate: '${escapeString(entity.releaseDate || '')}',
+    description: '${escapeString(entity.description ?? '')}',
   },`;
 }
 
@@ -37,6 +38,7 @@ function formatUserBook(user: any): string {
     owned: ${user.owned ?? false},
     readPriority: ${user.readPriority ?? 1},
     wantToReadAgain: ${user.wantToReadAgain ?? false},
+    ratingComment: '${escapeString(user.ratingComment ?? '')}',
   },`;
 }
 
@@ -112,6 +114,7 @@ router.post('/add', (req: any, res: any) => {
       sagaFinished:
         normalizeBoolean(entity.sagaFinished, 'sagaFinished') ?? false,
       releaseDate: normalizeString(entity.releaseDate, 'releaseDate') || '',
+      description: normalizeString(entity.description, 'description') ?? '',
     };
 
     const userPayload = {
@@ -124,6 +127,8 @@ router.post('/add', (req: any, res: any) => {
       readPriority: normalizeNumber(user.readPriority, 'readPriority') ?? 1,
       wantToReadAgain:
         normalizeBoolean(user.wantToReadAgain, 'wantToReadAgain') ?? false,
+      ratingComment:
+        normalizeString(user.ratingComment, 'ratingComment') ?? '',
     };
 
     const baseBookContent = appendObjectToArrayFile(

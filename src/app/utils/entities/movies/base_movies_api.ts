@@ -381,5 +381,6 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 119,
     genre: 'Thriller',
     saga: '',
+    description: '',
   },
 ];

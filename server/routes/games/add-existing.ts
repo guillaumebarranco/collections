@@ -55,6 +55,7 @@ function formatUserGame(game: any): string {
     owned: false,
     gamelistPriority: ${game.gamelistPriority ?? 1},
     wantToPlayAgain: false,
+    ratingComment: '',
     sessions: [],
   },`;
 }
@@ -67,6 +68,7 @@ function formatGamelistGame(game: any): string {
     owned: false,
     gamelistPriority: ${game.gamelistPriority ?? 1},
     wantToPlayAgain: false,
+    ratingComment: '',
     sessions: [],
   },`;
 }

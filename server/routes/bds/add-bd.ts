@@ -23,6 +23,7 @@ function formatBaseBd(entity: any): string {
     genre: '${escapeString(entity.genre || '')}',
     nbTomes: ${entity.nbTomes || 0},
     isFinished: ${entity.isFinished ?? true},
+    description: '${escapeString(entity.description ?? '')}',
   },`;
 }
 
@@ -36,6 +37,7 @@ function formatUserBd(user: any): string {
     owned: ${user.owned ?? false},
     readPriority: ${user.readPriority ?? 1},
     wantToReadAgain: ${user.wantToReadAgain ?? false},
+    ratingComment: '${escapeString(user.ratingComment ?? '')}',
   },`;
 }
 
@@ -110,6 +112,7 @@ router.post('/add', (req: any, res: any) => {
       genre: normalizeString(entity.genre, 'genre') || '',
       nbTomes: normalizeNumber(entity.nbTomes, 'nbTomes') || 0,
       isFinished: normalizeBoolean(entity.isFinished, 'isFinished') ?? true,
+      description: normalizeString(entity.description, 'description') ?? '',
     };
 
     const userPayload = {
@@ -121,6 +124,8 @@ router.post('/add', (req: any, res: any) => {
       owned: normalizeBoolean(user.owned, 'owned') ?? false,
       readPriority: normalizeNumber(user.readPriority, 'readPriority') ?? 1,
       wantToReadAgain: normalizeBoolean(user.wantToReadAgain, 'wantToReadAgain') ?? false,
+      ratingComment:
+        normalizeString(user.ratingComment, 'ratingComment') ?? '',
     };
 
     const baseBdContent = appendObjectToArrayFile(
