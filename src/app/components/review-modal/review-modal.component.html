@@ -1,0 +1,41 @@
+<div class="review-modal">
+  <div class="review-modal__header">
+    <h2 class="review-modal__title">{{ reviewTitle }}</h2>
+    <button
+      type="button"
+      class="review-modal__close"
+      aria-label="Fermer"
+      (click)="close()"
+    >
+      ✕
+    </button>
+  </div>
+  <div class="review-modal__body">
+    <p class="review-modal__work-title">{{ data.workTitle }}</p>
+    <div class="review-modal__rating">
+      <span class="review-modal__stars">
+        @for (star of getStars(data.rating); track $index) {
+          <span
+            class="review-modal__star review-modal__star--{{ star }}"
+            [attr.aria-hidden]="true"
+          >
+            {{ star === 'full' ? '★' : star === 'half' ? '½' : '☆' }}
+          </span>
+        }
+      </span>
+      <span class="review-modal__rating-text">{{ data.rating }}/5</span>
+    </div>
+    <div class="review-modal__comment">
+      @if (data.ratingComment?.trim()) {
+        <p class="review-modal__comment-text">{{ data.ratingComment }}</p>
+      } @else {
+        <p class="review-modal__comment-empty">Aucun commentaire</p>
+      }
+    </div>
+  </div>
+  <div class="review-modal__footer">
+    <button type="button" class="makya-btn-small" (click)="close()">
+      Fermer
+    </button>
+  </div>
+</div>

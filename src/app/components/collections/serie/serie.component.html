@@ -80,8 +80,14 @@
       </div>
       }
     </div>
-    @if (serie.ratingComment && !isBaseEntityView) {
-    <p class="serie-rating-comment">{{ serie.ratingComment }}</p>
+    @if (!isBaseEntityView) {
+    <button
+      type="button"
+      class="makya-btn-small"
+      (click)="openReviewModal()"
+    >
+      Voir le commentaire
+    </button>
     }
     @if (recommendationText) {
     <p class="recommendation-text">{{ recommendationText }}</p>

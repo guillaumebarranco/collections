@@ -59,9 +59,13 @@
       </span>
       <span class="rating-text">{{ manwha.rating }}/5</span>
     </div>
-    @if (manwha.ratingComment) {
-    <p class="manwha-rating-comment">{{ manwha.ratingComment }}</p>
-    }
+    <button
+      type="button"
+      class="makya-btn-small"
+      (click)="openReviewModal()"
+    >
+      Voir le commentaire
+    </button>
     } @if (recommendationText) {
     <p class="recommendation-text">{{ recommendationText }}</p>
     } @if (recommendationBadge) {

@@ -64,9 +64,13 @@
       </span>
       <span class="rating-text">{{ game.rating }}/5</span>
     </div>
-    @if (game.ratingComment) {
-    <p class="game-rating-comment">{{ game.ratingComment }}</p>
-    }
+    <button
+      type="button"
+      class="makya-btn-small"
+      (click)="openReviewModal()"
+    >
+      Voir le commentaire
+    </button>
     } @if (recommendationText) {
     <p class="recommendation-text">{{ recommendationText }}</p>
     } @if (recommendationBadge) {

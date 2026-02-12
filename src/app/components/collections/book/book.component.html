@@ -75,9 +75,13 @@
       </span>
       <span class="rating-text">{{ book.rating }}/5</span>
     </div>
-    @if (book.ratingComment) {
-    <p class="book-rating-comment">{{ book.ratingComment }}</p>
-    }
+    <button
+      type="button"
+      class="makya-btn-small"
+      (click)="openReviewModal()"
+    >
+      Voir le commentaire
+    </button>
     } @if (isBaseEntityView) {
     <p class="book-genre">{{ book.genre }}</p>
     } @if (recommendationText) {

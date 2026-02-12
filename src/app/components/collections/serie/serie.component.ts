@@ -12,6 +12,7 @@ import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Router } from '@angular/router';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { Serie } from '../../../models/serie-model';
+import { ReviewModalComponent } from '../../review-modal/review-modal.component';
 import { Quizz, EntityType } from '../../../models/quizz-model';
 import { SerieView } from '../../../containers/collections/series/series.utils';
 import { EditSerieComponent } from '../../../containers/edit/edit-serie/edit-serie.component';
@@ -69,6 +70,29 @@ export class SerieComponent {
       this.authService.isAdmin() && this.router.url.startsWith('/admin');
     return isAdminView || this.authService.canEdit(directId || parentId);
   });
+
+  private getActiveUserId(): string {
+    const directId = this.activatedRoute.snapshot.params['id'];
+    const parentId = this.activatedRoute.parent?.snapshot.params['id'];
+    return directId || parentId || 'guillaume';
+  }
+
+  openReviewModal(): void {
+    const seasons = this.serie.seasons ?? [];
+    const total = seasons.reduce((s, se) => s + (se.seasonRating ?? 0), 0);
+    const avgRating =
+      seasons.length > 0 ? Math.round((total / seasons.length) * 2) / 2 : 0;
+    this.dialog.open(ReviewModalComponent, {
+      data: {
+        workTitle: this.serie.title,
+        rating: avgRating,
+        ratingComment: this.serie.ratingComment ?? '',
+        userName: this.getActiveUserId(),
+      },
+      width: 'auto',
+      maxWidth: '95vw',
+    });
+  }
 
   navigateToEdit(): void {
     const directId = this.activatedRoute.snapshot.params['id'];
@@ -160,11 +184,6 @@ export class SerieComponent {
 
   updateWatchPriority(priority: number): void {
     this.watchPriorityUpdated.emit({ serie: this.serie, priority });
-  }
-
-  private getActiveUserId(): string {
-    const params = this.activatedRoute.snapshot.params;
-    return params['id'] ?? 'guillaume';
   }
 
   async addSerieFromWatchlist(): Promise<void> {

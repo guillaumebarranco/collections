@@ -15,6 +15,7 @@ import { Movie } from '../../../models/movie-model';
 import { Quizz, EntityType } from '../../../models/quizz-model';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditMovieComponent } from '../../../containers/edit/edit-movie/edit-movie.component';
+import { ReviewModalComponent } from '../../review-modal/review-modal.component';
 import { EntityCardComponent } from '../../entity-card/entity-card.component';
 import { AuthService } from '../../../core/auth.service';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
@@ -107,6 +108,19 @@ export class MovieComponent {
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? 'guillaume';
+  }
+
+  openReviewModal(): void {
+    this.dialog.open(ReviewModalComponent, {
+      data: {
+        workTitle: this.movie.title,
+        rating: this.movie.rating ?? 0,
+        ratingComment: this.movie.ratingComment ?? '',
+        userName: this.getActiveUserId(),
+      },
+      width: 'auto',
+      maxWidth: '95vw',
+    });
   }
 
   navigateToEdit(): void {

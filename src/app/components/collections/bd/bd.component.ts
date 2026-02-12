@@ -9,7 +9,9 @@ import {
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EntityCardComponent } from '../../entity-card/entity-card.component';
+import { ReviewModalComponent } from '../../review-modal/review-modal.component';
 import { AuthService } from '../../../core/auth.service';
 import { Bd } from '../../../models/bd-model';
 import { Quizz, EntityType } from '../../../models/quizz-model';
@@ -25,7 +27,7 @@ interface StarInfo {
 @Component({
   selector: 'app-bd',
   standalone: true,
-  imports: [CommonModule, EntityCardComponent],
+  imports: [CommonModule, EntityCardComponent, MatDialogModule],
   templateUrl: './bd.component.html',
   styleUrls: ['./bd.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -33,6 +35,7 @@ interface StarInfo {
 export class BdComponent {
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly authService = inject(AuthService);
+  private readonly dialog = inject(MatDialog);
 
   @Input() bd!: Bd;
   @Input() quizzs: Quizz[] = [];
@@ -93,5 +96,24 @@ export class BdComponent {
 
   updateReadPriority(priority: number): void {
     this.readPriorityUpdated.emit({ bd: this.bd, priority });
+  }
+
+  private getActiveUserId(): string {
+    const directId = this.activatedRoute.snapshot.params['id'];
+    const parentId = this.activatedRoute.parent?.snapshot.params['id'];
+    return directId || parentId || 'guillaume';
+  }
+
+  openReviewModal(): void {
+    this.dialog.open(ReviewModalComponent, {
+      data: {
+        workTitle: this.bd.title,
+        rating: this.bd.rating ?? 0,
+        ratingComment: this.bd.ratingComment ?? '',
+        userName: this.getActiveUserId(),
+      },
+      width: 'auto',
+      maxWidth: '95vw',
+    });
   }
 }

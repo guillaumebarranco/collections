@@ -80,9 +80,13 @@
       </span>
       <span class="rating-text">{{ movie.rating }}/5</span>
     </div>
-    @if (movie.ratingComment) {
-    <p class="movie-rating-comment">{{ movie.ratingComment }}</p>
-    }
+    <button
+      type="button"
+      class="makya-btn-small"
+      (click)="openReviewModal()"
+    >
+      Voir le commentaire
+    </button>
     } @if (isBaseEntityView) {
     <p class="movie-genre">{{ movie.genre }}</p>
     } @if (recommendationView()) {

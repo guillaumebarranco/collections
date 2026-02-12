@@ -61,9 +61,13 @@
       </span>
       <span class="rating-text">{{ bd.rating }}/5</span>
     </div>
-    @if (bd.ratingComment) {
-    <p class="bd-rating-comment">{{ bd.ratingComment }}</p>
-    }
+    <button
+      type="button"
+      class="makya-btn-small"
+      (click)="openReviewModal()"
+    >
+      Voir le commentaire
+    </button>
     } @if (recommendationText) {
     <p class="recommendation-text">{{ recommendationText }}</p>
     } @if (recommendationBadge) {

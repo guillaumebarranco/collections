@@ -11,6 +11,7 @@ import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Router } from '@angular/router';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { Game } from '../../../models/game-model';
+import { ReviewModalComponent } from '../../review-modal/review-modal.component';
 import { Quizz, EntityType } from '../../../models/quizz-model';
 import { EditGameComponent } from '../../../containers/edit/edit-game/edit-game.component';
 import { EntityCardComponent } from '../../entity-card/entity-card.component';
@@ -70,6 +71,25 @@ export class GameComponent {
       this.authService.isAdmin() && this.router.url.startsWith('/admin');
     return isAdminView || this.authService.canEdit(directId || parentId);
   });
+
+  private getActiveUserId(): string {
+    const directId = this.activatedRoute.snapshot.params['id'];
+    const parentId = this.activatedRoute.parent?.snapshot.params['id'];
+    return directId || parentId || 'guillaume';
+  }
+
+  openReviewModal(): void {
+    this.dialog.open(ReviewModalComponent, {
+      data: {
+        workTitle: this.game.title,
+        rating: this.game.rating ?? 0,
+        ratingComment: this.game.ratingComment ?? '',
+        userName: this.getActiveUserId(),
+      },
+      width: 'auto',
+      maxWidth: '95vw',
+    });
+  }
 
   navigateToEdit(): void {
     const directId = this.activatedRoute.snapshot.params['id'];

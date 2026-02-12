@@ -9,7 +9,9 @@ import {
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Router } from '@angular/router';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EntityCardComponent } from '../../entity-card/entity-card.component';
+import { ReviewModalComponent } from '../../review-modal/review-modal.component';
 import { AuthService } from '../../../core/auth.service';
 import { Comic } from '../../../models/comic-model';
 import { Quizz, EntityType } from '../../../models/quizz-model';
@@ -25,7 +27,7 @@ interface StarInfo {
 @Component({
   selector: 'app-comic',
   standalone: true,
-  imports: [CommonModule, EntityCardComponent],
+  imports: [CommonModule, EntityCardComponent, MatDialogModule],
   templateUrl: './comic.component.html',
   styleUrls: ['./comic.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -34,6 +36,7 @@ export class ComicComponent {
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
   private readonly authService = inject(AuthService);
+  private readonly dialog = inject(MatDialog);
 
   @Input() comic!: Comic;
   @Input() quizzs: Quizz[] = [];
@@ -96,5 +99,24 @@ export class ComicComponent {
 
   updateReadPriority(priority: number): void {
     this.readPriorityUpdated.emit({ comic: this.comic, priority });
+  }
+
+  private getActiveUserId(): string {
+    const directId = this.activatedRoute.snapshot.params['id'];
+    const parentId = this.activatedRoute.parent?.snapshot.params['id'];
+    return directId || parentId || 'guillaume';
+  }
+
+  openReviewModal(): void {
+    this.dialog.open(ReviewModalComponent, {
+      data: {
+        workTitle: this.comic.title,
+        rating: this.comic.rating ?? 0,
+        ratingComment: this.comic.ratingComment ?? '',
+        userName: this.getActiveUserId(),
+      },
+      width: 'auto',
+      maxWidth: '95vw',
+    });
   }
 }

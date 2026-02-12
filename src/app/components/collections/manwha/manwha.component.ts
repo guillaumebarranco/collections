@@ -9,7 +9,9 @@ import {
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Router } from '@angular/router';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EntityCardComponent } from '../../entity-card/entity-card.component';
+import { ReviewModalComponent } from '../../review-modal/review-modal.component';
 import { AuthService } from '../../../core/auth.service';
 import { Manwha } from '../../../models/manwha-model';
 import { Quizz, EntityType } from '../../../models/quizz-model';
@@ -25,7 +27,7 @@ interface StarInfo {
 @Component({
   selector: 'app-manwha',
   standalone: true,
-  imports: [CommonModule, EntityCardComponent],
+  imports: [CommonModule, EntityCardComponent, MatDialogModule],
   templateUrl: './manwha.component.html',
   styleUrls: ['./manwha.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -34,6 +36,7 @@ export class ManwhaComponent {
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
   private readonly authService = inject(AuthService);
+  private readonly dialog = inject(MatDialog);
 
   @Input() manwha!: Manwha;
   @Input() quizzs: Quizz[] = [];
@@ -96,5 +99,24 @@ export class ManwhaComponent {
 
   updateReadPriority(priority: number): void {
     this.readPriorityUpdated.emit({ manwha: this.manwha, priority });
+  }
+
+  private getActiveUserId(): string {
+    const directId = this.activatedRoute.snapshot.params['id'];
+    const parentId = this.activatedRoute.parent?.snapshot.params['id'];
+    return directId || parentId || 'guillaume';
+  }
+
+  openReviewModal(): void {
+    this.dialog.open(ReviewModalComponent, {
+      data: {
+        workTitle: this.manwha.title,
+        rating: this.manwha.rating ?? 0,
+        ratingComment: this.manwha.ratingComment ?? '',
+        userName: this.getActiveUserId(),
+      },
+      width: 'auto',
+      maxWidth: '95vw',
+    });
   }
 }

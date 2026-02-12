@@ -56,9 +56,13 @@
       </span>
       <span class="rating-text">{{ comic.rating }}/5</span>
     </div>
-    @if (comic.ratingComment) {
-    <p class="comic-rating-comment">{{ comic.ratingComment }}</p>
-    }
+    <button
+      type="button"
+      class="makya-btn-small"
+      (click)="openReviewModal()"
+    >
+      Voir le commentaire
+    </button>
     } @if (recommendationText) {
     <p class="recommendation-text">{{ recommendationText }}</p>
     } @if (recommendationBadge) {

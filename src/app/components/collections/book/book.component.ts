@@ -9,6 +9,7 @@ import {
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Router } from '@angular/router';
+import { MatDialog } from '@angular/material/dialog';
 import { EntityCardComponent } from '../../entity-card/entity-card.component';
 import { AuthService } from '../../../core/auth.service';
 import { Quizz, EntityType } from '../../../models/quizz-model';
@@ -16,6 +17,7 @@ import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
 import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
 import { BookView } from '../../../containers/collections/books/books.utils';
 import { Book } from '../../../models/book-model';
+import { ReviewModalComponent } from '../../review-modal/review-modal.component';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -34,6 +36,7 @@ export class BookComponent {
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
   private readonly authService = inject(AuthService);
+  private readonly dialog = inject(MatDialog);
 
   @Input() book!: any;
   @Input() quizzs: Quizz[] = [];
@@ -106,6 +109,19 @@ export class BookComponent {
   private getActiveUserId(): string {
     const params = this.activatedRoute.snapshot.params;
     return params['id'] ?? 'guillaume';
+  }
+
+  openReviewModal(): void {
+    this.dialog.open(ReviewModalComponent, {
+      data: {
+        workTitle: this.book.title,
+        rating: this.book.rating ?? 0,
+        ratingComment: this.book.ratingComment ?? '',
+        userName: this.getActiveUserId(),
+      },
+      width: 'auto',
+      maxWidth: '95vw',
+    });
   }
 
   async addBookFromReadlist(): Promise<void> {
