@@ -724,4 +724,15 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
   },
+
+  {
+    title: 'Faust',
+    author: 'Johann Wolfgang von Goethe',
+    readDate: '2026-02-12',
+    rating: 2.5,
+    readTimes: 1,
+    owned: true,
+    readPriority: 1,
+    wantToReadAgain: false,
+  },
 ];
