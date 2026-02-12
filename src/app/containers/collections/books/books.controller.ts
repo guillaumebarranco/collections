@@ -54,6 +54,7 @@ export async function markBookAsWantToReRead(
         owned: book.owned,
         readPriority: book.readPriority ?? 0,
         wantToReadAgain: true,
+        ratingComment: book.ratingComment ?? '',
       }),
     });
 
@@ -96,6 +97,7 @@ export async function markBookAsReRead(
         owned: book.owned,
         readPriority: book.readPriority ?? 0,
         wantToReadAgain: false,
+        ratingComment: book.ratingComment ?? '',
       }),
     });
 
@@ -141,6 +143,7 @@ export async function updateReadPriority(
         owned: data.book.owned,
         readPriority: data.priority,
         wantToReadAgain: data.book.wantToReadAgain ?? false,
+        ratingComment: data.book.ratingComment ?? '',
       }),
     });
 

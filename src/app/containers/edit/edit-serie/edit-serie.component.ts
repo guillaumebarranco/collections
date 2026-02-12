@@ -30,6 +30,7 @@ type EditSerieForm = {
   owned: boolean;
   watchPriority: number;
   wantToWatchAgain: boolean;
+  ratingComment: string;
 };
 
 type EditSerieEntityForm = {
@@ -39,6 +40,7 @@ type EditSerieEntityForm = {
   endDate: string;
   genre: string;
   seasonsData: BaseSerieSeasonData[];
+  description: string;
 };
 
 type EditSerieDialogData = {
@@ -166,6 +168,7 @@ export class EditSerieComponent {
           owned: form.owned,
           watchPriority: form.watchPriority,
           wantToWatchAgain: form.wantToWatchAgain,
+          ratingComment: form.ratingComment ?? '',
           entity: this.isAdminView()
             ? this.toEntityPayload(this.serieEntityForm())
             : undefined,
@@ -360,6 +363,7 @@ export class EditSerieComponent {
       owned: serie.owned,
       watchPriority: serie.watchPriority ?? 0,
       wantToWatchAgain: serie.wantToWatchAgain ?? false,
+      ratingComment: serie.ratingComment ?? '',
     };
   }
 
@@ -371,6 +375,7 @@ export class EditSerieComponent {
       endDate: serie.endDate,
       genre: serie.genre,
       seasonsData: serie.seasonsData || [],
+      description: serie.description ?? '',
     };
   }
 
@@ -386,6 +391,7 @@ export class EditSerieComponent {
       endDate: form.endDate,
       genre: form.genre,
       seasonsData: form.seasonsData,
+      description: form.description ?? '',
     };
   }
 
@@ -398,13 +404,16 @@ export class EditSerieComponent {
     });
   }
 
-  updateField<K extends keyof EditSerieForm>(field: K, value: number) {
+  updateField<K extends keyof EditSerieForm>(field: K, value: number | string) {
     const current = this.serieForm();
     if (!current) return;
     let nextValue: EditSerieForm[K] = value as EditSerieForm[K];
     if (field === 'watchPriority') {
       const asNumber = Number(value);
       nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditSerieForm[K];
+    }
+    if (field === 'ratingComment') {
+      nextValue = (typeof value === 'string' ? value : '') as EditSerieForm[K];
     }
     this.serieForm.set({
       ...current,

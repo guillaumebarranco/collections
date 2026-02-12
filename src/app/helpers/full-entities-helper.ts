@@ -22,6 +22,8 @@ export const getFullBd = (bd: BaseBd): Bd => ({
   owned: false,
   readPriority: 1,
   wantToReadAgain: false,
+  description: bd.description ?? '',
+  ratingComment: '',
 });
 
 export const getFullComic = (comic: BaseComic): Comic => ({
@@ -37,6 +39,8 @@ export const getFullComic = (comic: BaseComic): Comic => ({
   owned: false,
   readPriority: 1,
   wantToReadAgain: false,
+  description: comic.description ?? '',
+  ratingComment: '',
 });
 
 export const getFullBook = (book: BaseBook): Book => ({
@@ -55,6 +59,8 @@ export const getFullBook = (book: BaseBook): Book => ({
   sagaFinished: book.sagaFinished,
   releaseDate: book.releaseDate,
   wantToReadAgain: false,
+  description: book.description ?? '',
+  ratingComment: '',
 });
 
 export const getFullGame = (game: BaseGame): Game => ({
@@ -68,6 +74,7 @@ export const getFullGame = (game: BaseGame): Game => ({
   timesFinishedHundredPercent: 0,
   additionnalEstimatedTime: 0,
   platined: false,
+  ratingComment: '',
 });
 
 export const getFullManga = (manga: BaseManga): Manga => ({
@@ -83,6 +90,8 @@ export const getFullManga = (manga: BaseManga): Manga => ({
   owned: false,
   readPriority: 1,
   wantToReadAgain: false,
+  description: manga.description ?? '',
+  ratingComment: '',
 });
 
 export const getFullManwha = (manwha: BaseManwha): Manwha => ({
@@ -98,6 +107,8 @@ export const getFullManwha = (manwha: BaseManwha): Manwha => ({
   owned: false,
   readPriority: 1,
   wantToReadAgain: false,
+  description: manwha.description ?? '',
+  ratingComment: '',
 });
 
 export const getFullMovie = (movie: BaseMovie): Movie => ({
@@ -117,6 +128,8 @@ export const getFullMovie = (movie: BaseMovie): Movie => ({
   owned: false,
   wantToSeeAgain: false,
   watchPriority: 1,
+  description: movie.description ?? '',
+  ratingComment: '',
 });
 
 export const getFullSerie = (serie: BaseSerie): Serie => ({
@@ -132,4 +145,6 @@ export const getFullSerie = (serie: BaseSerie): Serie => ({
   owned: false,
   watchPriority: 1,
   wantToWatchAgain: false,
+  description: serie.description ?? '',
+  ratingComment: '',
 });

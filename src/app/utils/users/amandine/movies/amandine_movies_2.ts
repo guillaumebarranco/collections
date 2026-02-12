@@ -12,6 +12,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Wicked',
@@ -24,6 +25,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Wonka',
@@ -36,6 +38,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Élémentaire',
@@ -48,6 +51,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'La Petite Sirène',
@@ -60,6 +64,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "Donjons & Dragons : L'Honneur des voleurs",
@@ -72,6 +77,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Il était une fois 2',
@@ -84,6 +90,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Pinocchio',
@@ -96,6 +103,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Blonde',
@@ -108,6 +116,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Elvis',
@@ -120,6 +129,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Downton Abbey II : Une nouvelle ère',
@@ -132,6 +142,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Morbius',
@@ -144,6 +155,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Mort sur le Nil',
@@ -156,6 +168,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "The King's Man : Première mission",
@@ -168,6 +181,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'West Side Story',
@@ -180,6 +194,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Cendrillon',
@@ -192,6 +207,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "He's All That",
@@ -204,6 +220,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "S.O.S. Fantômes : L'Héritage",
@@ -216,6 +233,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Jungle Cruise',
@@ -228,6 +246,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Old',
@@ -240,6 +259,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Luca',
@@ -252,6 +272,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Cruella',
@@ -264,6 +285,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'À tous les garçons : Pour toujours et à jamais',
@@ -276,6 +298,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Sacrées sorcières',
@@ -288,6 +311,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: '2 Hearts',
@@ -300,6 +324,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Rebecca',
@@ -312,6 +337,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'The Kissing Booth 2',
@@ -324,6 +350,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Hollywood',
@@ -336,6 +363,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Love Wedding Repeat',
@@ -348,6 +376,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Emma.',
@@ -360,6 +389,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "À tous les garçons : P.S. Je t'aime toujours",
@@ -372,6 +402,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: '1917',
@@ -384,6 +415,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'The Gentlemen',
@@ -396,6 +428,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'La Belle et le Clochard',
@@ -408,6 +441,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'La Reine des neiges 2',
@@ -420,6 +454,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Klaus',
@@ -432,6 +467,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Maléfique : Le Pouvoir du Mal',
@@ -444,6 +480,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'The King',
@@ -456,6 +493,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Parasite',
@@ -468,6 +506,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Rocketman',
@@ -480,6 +519,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Pokémon : Détective Pikachu',
@@ -492,6 +532,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Dumbo',
@@ -504,6 +545,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Retour de Mary Poppins',
@@ -516,6 +558,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Bohemian Rhapsody',
@@ -528,6 +571,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Mamma Mia! Here We Go Again',
@@ -540,6 +584,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Jurassic World: Fallen Kingdom',
@@ -552,6 +597,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'BlacKkKlansman',
@@ -564,6 +610,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Tomb Raider',
@@ -576,6 +623,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Pitch Perfect 3',
@@ -588,6 +636,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'The Greatest Showman',
@@ -600,6 +649,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Jumanji : Bienvenue dans la jungle',
@@ -612,6 +662,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Paddington 2',
@@ -624,6 +675,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "Le Crime de l'Orient-Express",
@@ -636,6 +688,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Pirates des Caraïbes : La Vengeance de Salazar',
@@ -648,6 +701,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Miss Peregrine et les Enfants particuliers',
@@ -660,6 +714,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Lion',
@@ -672,6 +727,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Piper',
@@ -684,6 +740,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Warcraft',
@@ -696,6 +753,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Livre de la jungle',
@@ -708,6 +766,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Zootopie',
@@ -720,6 +779,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Nouveau Stagiaire',
@@ -732,6 +792,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Jurassic World',
@@ -744,6 +805,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Pitch Perfect 2',
@@ -756,6 +818,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Cendrillon',
@@ -768,6 +831,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Paddington',
@@ -780,6 +844,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Big Eyes',
@@ -792,6 +857,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'The Lego Movie',
@@ -804,6 +870,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'La Reine des Neiges',
@@ -816,6 +883,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Snowpiercer',
@@ -828,6 +896,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'About Time',
@@ -840,6 +909,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Monsters University',
@@ -852,6 +922,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Gatsby le Magnifique',
@@ -864,6 +935,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "Le Monde fantastique d'Oz",
@@ -876,6 +948,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Warm Bodies',
@@ -888,6 +961,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Les Misérables',
@@ -900,6 +974,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Hobbit : Un voyage inattendu',
@@ -912,6 +987,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Pitch Perfect',
@@ -924,6 +1000,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Hôtel Transylvanie',
@@ -936,6 +1013,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Ted',
@@ -948,6 +1026,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Dark Shadows',
@@ -960,6 +1039,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Chat Potté',
@@ -972,6 +1052,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Les Aventures de Tintin',
@@ -984,6 +1065,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Hugo',
@@ -996,6 +1078,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'La Planète des singes : Les Origines',
@@ -1008,6 +1091,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Kung Fu Panda 2',
@@ -1020,6 +1104,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Minuit à Paris',
@@ -1032,6 +1117,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Rio',
@@ -1044,6 +1130,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Rango',
@@ -1056,6 +1143,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Raiponce',
@@ -1068,6 +1156,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Little White Lies',
@@ -1080,6 +1169,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Arrietty, le petit monde des chapardeurs',
@@ -1092,6 +1182,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "L'Apprenti sorcier",
@@ -1104,6 +1195,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Percy Jackson : Le Voleur de Foudre',
@@ -1116,6 +1208,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Sherlock Holmes',
@@ -1128,6 +1221,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Lovely Bones',
@@ -1140,6 +1234,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "Jennifer's Body",
@@ -1152,6 +1247,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'District 9',
@@ -1164,6 +1260,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Orphan',
@@ -1176,6 +1273,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Public Enemies',
@@ -1188,6 +1286,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'La proposition',
@@ -1200,6 +1299,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Là-haut',
@@ -1212,6 +1312,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Coraline',
@@ -1224,6 +1325,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Bride Wars',
@@ -1236,6 +1338,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "L'Étrange Histoire de Benjamin Button",
@@ -1248,6 +1351,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Bolt',
@@ -1260,6 +1364,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Madagascar 2',
@@ -1272,6 +1377,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Ponyo',
@@ -1284,6 +1390,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Mamma Mia!',
@@ -1296,6 +1403,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Monde de Narnia : Le Prince Caspian',
@@ -1308,6 +1416,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Sex and the City',
@@ -1320,6 +1429,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: '27 Robes',
@@ -1332,6 +1442,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Alvin et les Chipmunks',
@@ -1344,6 +1455,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Sweeney Todd : Le Diabolique Barbier de Fleet Street',
@@ -1356,6 +1468,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Enchanted',
@@ -1368,6 +1481,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'P.S. I Love You',
@@ -1380,6 +1494,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Stardust',
@@ -1392,6 +1507,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Hairspray',
@@ -1404,6 +1520,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Secret de Terabithia',
@@ -1416,6 +1533,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Happy Feet',
@@ -1428,6 +1546,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Labyrinthe de Pan',
@@ -1440,6 +1559,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Marie Antoinette',
@@ -1452,6 +1572,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Les Noces funèbres',
@@ -1464,6 +1585,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Madagascar',
@@ -1476,6 +1598,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Constantine',
@@ -1488,6 +1611,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Aviator',
@@ -1500,6 +1624,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Les déstreuses aventures des Orphelins Baudelaire',
@@ -1512,6 +1637,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Benjamin Gates et le Trésor des Templiers',
@@ -1524,6 +1650,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Mulan 2',
@@ -1536,6 +1663,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'The Princess Diaries 2: Royal Engagement',
@@ -1548,6 +1676,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Mickey, Donald, Dingo : Les Trois Mousquetaires',
@@ -1560,6 +1689,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Village',
@@ -1572,6 +1702,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Comme Cendrillon',
@@ -1584,6 +1715,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Troy',
@@ -1596,6 +1728,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Lolita malgré moi',
@@ -1608,6 +1741,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: '30 ans sinon rien',
@@ -1620,6 +1754,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Ella au pays enchanté',
@@ -1632,6 +1767,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Une nana au poil',
@@ -1644,6 +1780,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Big Fish',
@@ -1656,6 +1793,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Manoir hanté et les 999 Fantômes',
@@ -1668,6 +1806,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Dernier Samouraï',
@@ -1680,6 +1819,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Frère des ours',
@@ -1692,6 +1832,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'George de la Jungle 2',
@@ -1704,6 +1845,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Un vendredi dingue, dingue, dingue',
@@ -1716,6 +1858,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "Comment se débarrasser d'un mec en 10 jours",
@@ -1728,6 +1871,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Thirteen',
@@ -1740,6 +1884,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Chicago',
@@ -1752,6 +1897,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'La Planète au trésor',
@@ -1764,6 +1910,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Tuck Everlasting',
@@ -1776,6 +1923,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: '8 Mile',
@@ -1788,6 +1936,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Royaume des chats',
@@ -1800,6 +1949,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Lilo et Stitch',
@@ -1812,6 +1962,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Insomnia',
@@ -1824,6 +1975,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Princesse malgré elle',
@@ -1836,6 +1988,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'The Others',
@@ -1848,6 +2001,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'La Planète des singes',
@@ -1860,6 +2014,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Voyage de Chihiro',
@@ -1872,6 +2027,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "La Revanche d'une blonde",
@@ -1884,6 +2040,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'A.I. Intelligence artificielle',
@@ -1896,6 +2053,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "Atlantis : L'Empire perdu",
@@ -1908,6 +2066,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Moulin Rouge !',
@@ -1920,6 +2079,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Journal de Bridget Jones',
@@ -1932,6 +2092,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "Kuzco, l'Empereur mégalo",
@@ -1944,6 +2105,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Grinch',
@@ -1956,6 +2118,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Drôles de dames',
@@ -1968,6 +2131,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Mon beau-père et moi',
@@ -1980,6 +2144,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Chicken Run',
@@ -1992,6 +2157,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Billy Elliot',
@@ -2004,6 +2170,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Dinosaure',
@@ -2016,6 +2183,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "La Route d'Eldorado",
@@ -2028,6 +2196,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "La Petite Sirène 2 : Retour à l'océan",
@@ -2040,6 +2209,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Fantasia 2000',
@@ -2052,6 +2222,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Stuart Little',
@@ -2064,6 +2235,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Sleepy Hollow',
@@ -2076,6 +2248,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Fight Club',
@@ -2088,6 +2261,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: '10 bonnes raisons de te larguer',
@@ -2100,6 +2274,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Elle est trop bien',
@@ -2112,6 +2287,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "Le Prince d'Égypte",
@@ -2124,6 +2300,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: '1001 Pattes',
@@ -2136,6 +2313,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "Le Roi Lion 2 : L'Honneur de la tribu",
@@ -2148,6 +2326,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Pocahontas 2 : Un monde nouveau',
@@ -2160,6 +2339,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'À nous quatre',
@@ -2172,6 +2352,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Mary à tout prix',
@@ -2184,6 +2365,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Monde magique de la Belle et la Bête',
@@ -2196,6 +2378,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Flubber',
@@ -2208,6 +2391,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Anastasia',
@@ -2220,6 +2404,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Titanic',
@@ -2232,6 +2417,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Tower of Terror',
@@ -2244,6 +2430,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "Souviens-toi... l'été dernier",
@@ -2256,6 +2443,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Gattaca',
@@ -2268,6 +2456,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Face/Off',
@@ -2280,6 +2469,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Monde perdu : Jurassic Park',
@@ -2292,6 +2482,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Austin Powers',
@@ -2304,6 +2495,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Mars Attacks !',
@@ -2316,6 +2508,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Les 101 Dalmatiens',
@@ -2328,6 +2521,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Roméo + Juliette',
@@ -2340,6 +2534,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Matilda',
@@ -2352,6 +2547,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Bossu de Notre-Dame',
@@ -2364,6 +2560,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'James et la Pêche géante',
@@ -2376,6 +2573,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'GoldenEye',
@@ -2388,6 +2586,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Casper',
@@ -2400,6 +2599,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Braveheart',
@@ -2412,6 +2612,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Super Noël',
@@ -2424,6 +2625,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Entretien avec un vampire',
@@ -2436,6 +2638,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le retour de Jafar',
@@ -2448,6 +2651,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Ace Ventura: Détective pour chiens et chats',
@@ -2460,6 +2664,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "L'Étrange Noël de monsieur Jack",
@@ -2472,6 +2677,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Un jour sans fin',
@@ -2484,6 +2690,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: '3 Ninjas',
@@ -2496,6 +2703,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Strictly Ballroom',
@@ -2508,6 +2716,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'JFK',
@@ -2520,6 +2729,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'La Famille Addams',
@@ -2532,6 +2742,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Hook ou la Revanche du capitaine Crochet',
@@ -2544,6 +2755,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "Edward aux mains d'argent",
@@ -2556,6 +2768,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Ghost',
@@ -2568,6 +2781,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Kiki la petite sorcière',
@@ -2580,6 +2794,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Indiana Jones et la Dernière Croisade',
@@ -2592,6 +2807,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Oliver et Compagnie',
@@ -2604,6 +2820,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Tombeau des lucioles',
@@ -2616,6 +2833,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Mon voisin Totoro',
@@ -2628,6 +2846,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Beetlejuice',
@@ -2640,6 +2859,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Château dans le ciel',
@@ -2652,6 +2872,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Labyrinthe',
@@ -2664,6 +2885,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Gremlins',
@@ -2676,6 +2898,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'S.O.S. Fantômes',
@@ -2688,6 +2911,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Indiana Jones et le Temple maudit',
@@ -2700,6 +2924,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Nausicaä de la Vallée du Vent',
@@ -2712,6 +2937,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Grease 2',
@@ -2724,6 +2950,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'The Blues Brothers',
@@ -2736,6 +2963,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Halloween',
@@ -2748,6 +2976,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Grease',
@@ -2760,6 +2989,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Livre de la jungle',
@@ -2772,6 +3002,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'La Mélodie du bonheur',
@@ -2784,6 +3015,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Mary Poppins',
@@ -2796,6 +3028,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Les Parapluies de Cherbourg',
@@ -2808,6 +3041,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'West Side Story',
@@ -2820,6 +3054,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'La Belle au bois dormant',
@@ -2832,6 +3067,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'La Belle et le Clochard',
@@ -2844,6 +3080,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Vacances romaines',
@@ -2856,6 +3093,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Chantons sous la pluie',
@@ -2868,6 +3106,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Alice au pays des merveilles',
@@ -2880,6 +3119,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Cendrillon',
@@ -2892,6 +3132,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Pierre et le Loup',
@@ -2904,6 +3145,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Les Trois Caballeros',
@@ -2916,6 +3158,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Saludos Amigos',
@@ -2928,6 +3171,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Bambi',
@@ -2940,6 +3184,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Dumbo',
@@ -2952,6 +3197,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Fantasia',
@@ -2964,6 +3210,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "Le Magicien d'Oz",
@@ -2976,6 +3223,7 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Blanche-Neige et les Sept Nains',
@@ -2988,5 +3236,6 @@ export const amandineMovies2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 ];

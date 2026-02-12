@@ -41,6 +41,7 @@ export const manwhas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -83,6 +84,7 @@ export const manwhas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -134,6 +136,7 @@ export const manwhas = [
         publicationStart: '',
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -180,6 +183,7 @@ export const manwhas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -223,6 +227,7 @@ export const manwhas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -267,6 +272,7 @@ export const manwhas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -311,6 +317,7 @@ export const manwhas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -350,6 +357,7 @@ export const manwhas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -389,6 +397,7 @@ export const manwhas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -428,6 +437,7 @@ export const manwhas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -467,6 +477,7 @@ export const manwhas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -506,6 +517,7 @@ export const manwhas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -548,6 +560,7 @@ export const manwhas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -587,6 +600,7 @@ export const manwhas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -629,5 +643,6 @@ export const manwhas = [
         },
       },
     },
+    ratingComment: '',
   },
 ];

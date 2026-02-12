@@ -8,6 +8,7 @@ export const baseBds: BaseBd[] = [
     coverUrl: '/bd_pictures/arnaque_des_nouveaux_peres.jpeg',
     pages: 184,
     genre: 'Nonfiction',
+    description: '',
   },
 
   {
@@ -17,6 +18,7 @@ export const baseBds: BaseBd[] = [
     coverUrl: '/bd_pictures/9782413077077.jpg',
     pages: 128,
     genre: 'Nonfiction',
+    description: '',
   },
   {
     title: 'Goupil ou face',
@@ -25,6 +27,7 @@ export const baseBds: BaseBd[] = [
     coverUrl: '/bd_pictures/7171qDnKF5L.jpg',
     pages: 156,
     genre: 'Nonfiction',
+    description: '',
   },
   {
     title: 'Racines',
@@ -33,5 +36,6 @@ export const baseBds: BaseBd[] = [
     coverUrl: '/bd_pictures/9782413082743.jpg',
     pages: 216,
     genre: 'Nonfiction',
+    description: '',
   },
 ];

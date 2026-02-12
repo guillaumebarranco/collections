@@ -33,6 +33,9 @@
     <span class="missing-badge" style="background-color: #2196f3; color: white">À relire</span>
     }
     <p class="book-author">{{ manwha.author }}</p>
+    @if (manwha.description) {
+    <p class="manwha-description">{{ manwha.description }}</p>
+    }
     @if (manwha.nbChapters) {
     <p>
       <span class="book-pages">{{ manwha.nbChapters }} chapitres</span>
@@ -56,6 +59,9 @@
       </span>
       <span class="rating-text">{{ manwha.rating }}/5</span>
     </div>
+    @if (manwha.ratingComment) {
+    <p class="manwha-rating-comment">{{ manwha.ratingComment }}</p>
+    }
     } @if (recommendationText) {
     <p class="recommendation-text">{{ recommendationText }}</p>
     } @if (recommendationBadge) {

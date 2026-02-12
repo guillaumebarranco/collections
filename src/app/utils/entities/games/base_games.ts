@@ -12,6 +12,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Nintendo 64',
     saga: 'The Legend of Zelda',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'The Legend of Zelda: The Wind Waker',
@@ -25,6 +26,7 @@ export const baseGames: BaseGame[] = [
     platform: 'GameCube',
     saga: 'The Legend of Zelda',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'The Legend of Zelda: Twilight Princess',
@@ -38,6 +40,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Wii',
     saga: 'The Legend of Zelda',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'The Legend of Zelda: Skyward Sword',
@@ -51,6 +54,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Wii',
     saga: 'The Legend of Zelda',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'The Legend of Zelda: Breath of the Wild',
@@ -63,6 +67,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Nintendo Switch',
     saga: 'The Legend of Zelda',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'The Legend of Zelda: A Link to the Past',
@@ -75,6 +80,7 @@ export const baseGames: BaseGame[] = [
     platform: 'SNES',
     saga: 'The Legend of Zelda',
     platineTime: 0,
+    description: '',
   },
   {
     title: "The Legend of Zelda: Link's Awakening",
@@ -88,6 +94,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Game Boy',
     saga: 'The Legend of Zelda',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'The Legend of Zelda: Oracle of Seasons',
@@ -101,6 +108,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Game Boy Color',
     saga: 'The Legend of Zelda',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'The Legend of Zelda: Oracle of Ages',
@@ -113,6 +121,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Game Boy Color',
     saga: 'The Legend of Zelda',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'The Legend of Zelda: The Minish Cap',
@@ -126,6 +135,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Game Boy Advance',
     saga: 'The Legend of Zelda',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Call of Duty 4: Modern Warfare',
@@ -138,6 +148,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Call of Duty',
     platineTime: 15,
+    description: '',
   },
   {
     title: 'Call of Duty: World at War',
@@ -150,6 +161,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Call of Duty',
     platineTime: 30,
+    description: '',
   },
   {
     title: 'Call of Duty: Modern Warfare 2',
@@ -162,6 +174,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Call of Duty',
     platineTime: 30,
+    description: '',
   },
   {
     title: 'Call of Duty: Black Ops',
@@ -174,6 +187,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Call of Duty',
     platineTime: 25,
+    description: '',
   },
   {
     title: 'Call of Duty: Modern Warfare 3',
@@ -187,6 +201,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Call of Duty',
     platineTime: 50,
+    description: '',
   },
   {
     title: 'Call of Duty: Black Ops II',
@@ -199,6 +214,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Call of Duty',
     platineTime: 50,
+    description: '',
   },
   {
     title: 'Call of Duty: Black Ops III',
@@ -211,6 +227,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Call of Duty',
     platineTime: 90,
+    description: '',
   },
   {
     title: 'Call of Duty: Infinite Warfare',
@@ -223,6 +240,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Call of Duty',
     platineTime: 50,
+    description: '',
   },
   {
     title: 'Call of Duty: WWII',
@@ -236,6 +254,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Call of Duty',
     platineTime: 60,
+    description: '',
   },
   {
     title: 'Call of Duty: Black Ops 4',
@@ -248,6 +267,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Call of Duty',
     platineTime: 250,
+    description: '',
   },
   {
     title: 'Call of Duty: Black Ops Cold War',
@@ -260,6 +280,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: 'Call of Duty',
     platineTime: 50,
+    description: '',
   },
   {
     title: 'Call of Duty: Black Ops 6',
@@ -273,6 +294,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: 'Call of Duty',
     platineTime: 45,
+    description: '',
   },
   {
     title: 'Call of Duty: Black Ops 7',
@@ -285,6 +307,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: 'Call of Duty',
     platineTime: 50,
+    description: '',
   },
   {
     title: 'Pokémon Bleu',
@@ -297,6 +320,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Game Boy',
     saga: 'Pokémon',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Pokémon Or',
@@ -309,6 +333,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Game Boy Color',
     saga: 'Pokémon',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Pokémon Cristal',
@@ -321,6 +346,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Game Boy Color',
     saga: 'Pokémon',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Pokémon Saphir',
@@ -333,6 +359,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Game Boy Advance',
     saga: 'Pokémon',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Pokémon Émeraude',
@@ -345,6 +372,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Game Boy Advance',
     saga: 'Pokémon',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Pokémon Rouge Feu',
@@ -357,6 +385,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Game Boy Advance',
     saga: 'Pokémon',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Pokémon Bouclier',
@@ -369,6 +398,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Nintendo Switch',
     saga: 'Pokémon',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Pokémon Violet',
@@ -381,6 +411,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Nintendo Switch',
     saga: 'Pokémon',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'One Piece: Unlimited Cruise Episode 1',
@@ -394,6 +425,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Wii',
     saga: 'One Piece',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'One Piece: Unlimited Cruise Episode 2',
@@ -407,6 +439,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Wii',
     saga: 'One Piece',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'One Piece: Pirate Warriors',
@@ -420,6 +453,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'One Piece',
     platineTime: 55,
+    description: '',
   },
   {
     title: 'One Piece: Pirate Warriors 2',
@@ -432,6 +466,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'One Piece',
     platineTime: 50,
+    description: '',
   },
   {
     title: 'One Piece: Unlimited World Red',
@@ -445,6 +480,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Nintendo 3DS',
     saga: 'One Piece',
     platineTime: 70,
+    description: '',
   },
   {
     title: 'One Piece: Pirate Warriors 3',
@@ -458,6 +494,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'One Piece',
     platineTime: 100,
+    description: '',
   },
   {
     title: 'One Piece: Burning Blood',
@@ -470,6 +507,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'One Piece',
     platineTime: 15,
+    description: '',
   },
   {
     title: 'One Piece: Treasure Cruise',
@@ -483,6 +521,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Android',
     saga: 'One Piece',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Naruto: Ultimate Ninja Storm',
@@ -496,6 +535,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Naruto Storm',
     platineTime: 20,
+    description: '',
   },
   {
     title: 'Naruto Shippuden: Ultimate Ninja Storm 2',
@@ -509,6 +549,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Naruto Storm',
     platineTime: 35,
+    description: '',
   },
   {
     title: 'Naruto Shippuden: Ultimate Ninja Storm 3',
@@ -522,6 +563,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Naruto Storm',
     platineTime: 35,
+    description: '',
   },
   {
     title: 'Naruto Shippuden: Ultimate Ninja Storm 4',
@@ -534,6 +576,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Naruto Storm',
     platineTime: 20,
+    description: '',
   },
   {
     title: 'Infamous',
@@ -547,6 +590,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Infamous',
     platineTime: 30,
+    description: '',
   },
   {
     title: 'Infamous 2',
@@ -560,6 +604,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Infamous',
     platineTime: 30,
+    description: '',
   },
   {
     title: 'Infamous: Second Son',
@@ -572,6 +617,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Infamous',
     platineTime: 20,
+    description: '',
   },
   {
     title: 'Infamous: First Light',
@@ -585,6 +631,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Infamous',
     platineTime: 12,
+    description: '',
   },
   {
     title: 'Super Smash Bros. Melee',
@@ -597,6 +644,7 @@ export const baseGames: BaseGame[] = [
     platform: 'GameCube',
     saga: 'Super Smash Bros',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Super Smash Bros. Ultimate',
@@ -609,6 +657,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Nintendo Switch',
     saga: 'Super Smash Bros',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'LittleBigPlanet',
@@ -622,6 +671,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'LittleBigPlanet',
     platineTime: 25,
+    description: '',
   },
   {
     title: 'Brutal Legend',
@@ -634,6 +684,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Brutal Legend',
     platineTime: 30,
+    description: '',
   },
   {
     title: 'Batman: Arkham Asylum',
@@ -646,6 +697,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Batman Arkham',
     platineTime: 25,
+    description: '',
   },
   {
     title: 'Batman: Arkham City',
@@ -658,6 +710,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Batman Arkham',
     platineTime: 45,
+    description: '',
   },
   {
     title: 'Batman: Arkham Knight',
@@ -670,6 +723,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Batman Arkham',
     platineTime: 50,
+    description: '',
   },
   {
     title: 'Batman: Arkham Origins',
@@ -682,6 +736,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Batman Arkham',
     platineTime: 60,
+    description: '',
   },
   {
     title: 'The Amazing Spider-Man',
@@ -694,6 +749,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Spider-Man',
     platineTime: 20,
+    description: '',
   },
   {
     title: "Marvel's Spider-Man",
@@ -706,6 +762,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Spider-Man',
     platineTime: 30,
+    description: '',
   },
   {
     title: "Marvel's Spider-Man: Miles Morales",
@@ -718,6 +775,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: 'Spider-Man',
     platineTime: 20,
+    description: '',
   },
   {
     title: "Marvel's Spider-Man 2",
@@ -731,6 +789,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: 'Spider-Man',
     platineTime: 30,
+    description: '',
   },
   {
     title: 'Dead Nation',
@@ -743,6 +802,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Dead Nation',
     platineTime: 20,
+    description: '',
   },
   {
     title: 'BioShock Infinite',
@@ -756,6 +816,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'BioShock',
     platineTime: 25,
+    description: '',
   },
   {
     title: 'Brothers: A Tale of Two Sons',
@@ -769,6 +830,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Brothers',
     platineTime: 4,
+    description: '',
   },
   {
     title: 'Injustice: Gods Among Us Ultimate Edition',
@@ -781,6 +843,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Injustice',
     platineTime: 80,
+    description: '',
   },
   {
     title: "Mirror's Edge",
@@ -793,6 +856,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: "Mirror's Edge",
     platineTime: 40,
+    description: '',
   },
   {
     title: 'PlayStation All-Stars Battle Royale',
@@ -805,6 +869,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'PlayStation All-Stars',
     platineTime: 20,
+    description: '',
   },
   {
     title: 'Stick It to the Man',
@@ -817,6 +882,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Stick It to the Man',
     platineTime: 15,
+    description: '',
   },
   {
     title: 'Watch Dogs',
@@ -829,6 +895,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Watch Dogs',
     platineTime: 50,
+    description: '',
   },
   {
     title: 'Super Meat Boy',
@@ -841,6 +908,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Super Meat Boy',
     platineTime: 70,
+    description: '',
   },
   {
     title: 'J-Stars Victory VS',
@@ -853,6 +921,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'J-Stars Victory',
     platineTime: 40,
+    description: '',
   },
   {
     title: 'Dragon Ball Z: Budokai 2',
@@ -865,6 +934,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 2',
     saga: 'Dragon Ball',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Dragon Ball Z: Budokai 3',
@@ -877,6 +947,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 2',
     saga: 'Dragon Ball',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Dragon Ball Z: Budokai Tenkaichi 2',
@@ -890,6 +961,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 2',
     saga: 'Dragon Ball',
     platineTime: 40,
+    description: '',
   },
   {
     title: 'Dragon Ball Z: Dokkan Battle',
@@ -902,6 +974,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Android',
     saga: 'Dragon Ball',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Ratchet & Clank',
@@ -915,6 +988,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 2',
     saga: 'Ratchet & Clank',
     platineTime: 25,
+    description: '',
   },
   {
     title: 'South Park: Le Bâton de la Vérité',
@@ -927,6 +1001,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'South Park',
     platineTime: 25,
+    description: '',
   },
   {
     title: 'God of War',
@@ -939,6 +1014,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'God of War',
     platineTime: 45,
+    description: '',
   },
   {
     title: 'God of War Ragnarök',
@@ -951,6 +1027,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: 'God of War',
     platineTime: 50,
+    description: '',
   },
   {
     title: 'Hogwarts Legacy',
@@ -964,6 +1041,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: 'Hogwarts Legacy',
     platineTime: 70,
+    description: '',
   },
   {
     title: 'Metroid Fusion',
@@ -977,6 +1055,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Game Boy Advance',
     saga: 'Metroid',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Metroid: Zero Mission',
@@ -990,6 +1069,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Game Boy Advance',
     saga: 'Metroid',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Metroid Prime',
@@ -1002,6 +1082,7 @@ export const baseGames: BaseGame[] = [
     platform: 'GameCube',
     saga: 'Metroid',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Metroid Prime 2: Echoes',
@@ -1014,6 +1095,7 @@ export const baseGames: BaseGame[] = [
     platform: 'GameCube',
     saga: 'Metroid',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Metroid Prime 3: Corruption',
@@ -1026,6 +1108,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Wii',
     saga: 'Metroid',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Metroid Dread',
@@ -1038,6 +1121,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Nintendo Switch',
     saga: 'Metroid',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Super Mario 64',
@@ -1050,6 +1134,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Nintendo 64',
     saga: 'Super Mario',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Super Mario Galaxy',
@@ -1062,6 +1147,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Wii',
     saga: 'Super Mario',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Super Mario Odyssey',
@@ -1074,6 +1160,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Nintendo Switch',
     saga: 'Super Mario',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Mario Kart: Double Dash!!',
@@ -1086,6 +1173,7 @@ export const baseGames: BaseGame[] = [
     platform: 'GameCube',
     saga: 'Mario Kart',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Mario Kart Wii',
@@ -1098,6 +1186,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Wii',
     saga: 'Mario Kart',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Mario Kart 8 Deluxe',
@@ -1110,6 +1199,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Nintendo Switch',
     saga: 'Mario Kart',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Mario Party 5',
@@ -1122,6 +1212,7 @@ export const baseGames: BaseGame[] = [
     platform: 'GameCube',
     saga: 'Mario Party',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Mario Party 6',
@@ -1134,6 +1225,7 @@ export const baseGames: BaseGame[] = [
     platform: 'GameCube',
     saga: 'Mario Party',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Mario Party 7',
@@ -1146,6 +1238,7 @@ export const baseGames: BaseGame[] = [
     platform: 'GameCube',
     saga: 'Mario Party',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Mario Party 8',
@@ -1158,6 +1251,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Wii',
     saga: 'Mario Party',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Super Mario Party',
@@ -1170,6 +1264,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Nintendo Switch',
     saga: 'Mario Party',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Super Paper Mario',
@@ -1182,6 +1277,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Wii',
     saga: 'Paper Mario',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Mario & Luigi: Superstar Saga',
@@ -1194,6 +1290,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Game Boy Advance',
     saga: 'Mario & Luigi',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Need for Speed: Most Wanted',
@@ -1206,6 +1303,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 2',
     saga: 'Need for Speed',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Need for Speed: Carbon',
@@ -1218,6 +1316,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 2',
     saga: 'Need for Speed',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Yu-Gi-Oh! Duel des ténèbres',
@@ -1230,6 +1329,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Game Boy Advance',
     saga: 'Yu-Gi-Oh!',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Yu-Gi-Oh! The Sacred Cards',
@@ -1242,6 +1342,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Game Boy Advance',
     saga: 'Yu-Gi-Oh!',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Yu-Gi-Oh! Reshef of Destruction',
@@ -1254,6 +1355,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Game Boy Advance',
     saga: 'Yu-Gi-Oh!',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Medal of Honor : En première ligne',
@@ -1266,6 +1368,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation',
     saga: 'Medal of Honor',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Guitar Hero III: Legends of Rock',
@@ -1278,6 +1381,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 2',
     saga: 'Guitar Hero',
     platineTime: 0,
+    description: '',
   },
   {
     title: "Luigi's Mansion",
@@ -1290,6 +1394,7 @@ export const baseGames: BaseGame[] = [
     platform: 'GameCube',
     saga: "Luigi's Mansion",
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Tekken: Dark Resurrection',
@@ -1302,6 +1407,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation Portable',
     saga: 'Tekken',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Grand Theft Auto: San Andreas',
@@ -1314,6 +1420,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 2',
     saga: 'Grand Theft Auto',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Grand Theft Auto: Vice City',
@@ -1326,6 +1433,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 2',
     saga: 'Grand Theft Auto',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Grand Theft Auto: Vice City Stories',
@@ -1338,6 +1446,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 2',
     saga: 'Grand Theft Auto',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Grand Theft Auto: Liberty City Stories',
@@ -1350,6 +1459,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 2',
     saga: 'Grand Theft Auto',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Star Wars: Le Pouvoir de la Force',
@@ -1362,6 +1472,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Star Wars',
     platineTime: 15,
+    description: '',
   },
   {
     title: 'Lego Star Wars',
@@ -1374,6 +1485,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 2',
     saga: 'Star Wars',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Star Wars: Rebel Strike',
@@ -1386,6 +1498,7 @@ export const baseGames: BaseGame[] = [
     platform: 'GameCube',
     saga: 'Star Wars',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'WarioWare: Smooth Moves',
@@ -1398,6 +1511,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Wii',
     saga: 'WarioWare',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Gunbound World Champion',
@@ -1410,6 +1524,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PC',
     saga: 'Gunbound',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'GoldenEye 007',
@@ -1423,6 +1538,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Nintendo 64',
     saga: 'GoldenEye',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Wii Sports',
@@ -1435,6 +1551,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Wii',
     saga: 'Wii Sports',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Harry Potter: Coupe du Monde de Quidditch',
@@ -1447,6 +1564,7 @@ export const baseGames: BaseGame[] = [
     platform: 'GameCube',
     saga: 'Harry Potter',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Les Simpsons: Le Jeu',
@@ -1459,6 +1577,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Wii',
     saga: 'Les Simpsons',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Sonic Adventure 2 Battle',
@@ -1472,6 +1591,7 @@ export const baseGames: BaseGame[] = [
     platform: 'GameCube',
     saga: 'Sonic',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Sonic Unleashed',
@@ -1484,6 +1604,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Wii',
     saga: 'Sonic',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Super Smash Bros. Brawl',
@@ -1496,6 +1617,7 @@ export const baseGames: BaseGame[] = [
     platform: 'Wii',
     saga: 'Super Smash Bros',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'A Plague Tale : Innocence',
@@ -1508,6 +1630,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'A Plague Tale',
     platineTime: 20,
+    description: '',
   },
   {
     title: 'A Plague Tale : Requiem',
@@ -1521,6 +1644,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: 'A Plague Tale',
     platineTime: 30,
+    description: '',
   },
   {
     title: 'A Way Out',
@@ -1533,6 +1657,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'A Way Out',
     platineTime: 6,
+    description: '',
   },
   {
     title: 'Anthem',
@@ -1545,6 +1670,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Anthem',
     platineTime: 60,
+    description: '',
   },
   {
     title: "Assassin's Creed II",
@@ -1557,6 +1683,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: "Assassin's Creed",
     platineTime: 40,
+    description: '',
   },
   {
     title: "Assassin's Creed : Brotherhood",
@@ -1569,6 +1696,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: "Assassin's Creed",
     platineTime: 40,
+    description: '',
   },
   {
     title: "Assassin's Creed : Revelations",
@@ -1581,6 +1709,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: "Assassin's Creed",
     platineTime: 40,
+    description: '',
   },
   {
     title: "Assassin's Creed III",
@@ -1593,6 +1722,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: "Assassin's Creed",
     platineTime: 50,
+    description: '',
   },
   {
     title: "Assassin's Creed Liberation Remastered",
@@ -1605,6 +1735,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: "Assassin's Creed",
     platineTime: 15,
+    description: '',
   },
   {
     title: "Assassin's Creed III Remastered",
@@ -1618,6 +1749,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: "Assassin's Creed",
     platineTime: 50,
+    description: '',
   },
   {
     title: "Assassin's Creed IV : Black Flag",
@@ -1631,6 +1763,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: "Assassin's Creed",
     platineTime: 60,
+    description: '',
   },
   {
     title: "Assassin's Creed Rogue",
@@ -1643,6 +1776,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: "Assassin's Creed",
     platineTime: 30,
+    description: '',
   },
   {
     title: "Assassin's Creed Unity",
@@ -1655,6 +1789,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: "Assassin's Creed",
     platineTime: 45,
+    description: '',
   },
   {
     title: "Assassin's Creed Syndicate",
@@ -1667,6 +1802,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: "Assassin's Creed",
     platineTime: 50,
+    description: '',
   },
   {
     title: "Assassin's Creed Origins",
@@ -1679,6 +1815,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: "Assassin's Creed",
     platineTime: 80,
+    description: '',
   },
   {
     title: "Assassin's Creed Odyssey",
@@ -1691,6 +1828,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: "Assassin's Creed",
     platineTime: 90,
+    description: '',
   },
   {
     title: "Assassin's Creed Valhalla",
@@ -1704,6 +1842,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: "Assassin's Creed",
     platineTime: 150,
+    description: '',
   },
   {
     title: "Assassin's Creed Mirage",
@@ -1716,6 +1855,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: "Assassin's Creed",
     platineTime: 30,
+    description: '',
   },
   {
     title: "Assassin's Creed Shadows",
@@ -1729,6 +1869,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: "Assassin's Creed",
     platineTime: 90,
+    description: '',
   },
   {
     title: "Astro's Playroom",
@@ -1741,6 +1882,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: "Astro's Playroom",
     platineTime: 5,
+    description: '',
   },
   {
     title: 'Avatar : Frontiers of Pandora',
@@ -1753,6 +1895,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: 'Avatar',
     platineTime: 50,
+    description: '',
   },
   {
     title: 'Battlefield 4',
@@ -1765,6 +1908,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Battlefield',
     platineTime: 18,
+    description: '',
   },
   {
     title: 'BioShock Remastered (Complete Edition)',
@@ -1778,6 +1922,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'BioShock',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Black Myth : Wukong',
@@ -1790,6 +1935,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: 'Black Myth',
     platineTime: 80,
+    description: '',
   },
   {
     title: 'Call of Duty : Modern Warfare Remastered',
@@ -1802,6 +1948,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Call of Duty',
     platineTime: 18,
+    description: '',
   },
   {
     title: 'Clair Obscur : Expedition 33',
@@ -1815,6 +1962,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: 'Clair Obscur',
     platineTime: 70,
+    description: '',
   },
   {
     title: 'Cyberpunk 2077',
@@ -1827,6 +1975,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: 'Cyberpunk',
     platineTime: 100,
+    description: '',
   },
   {
     title: 'Darksiders',
@@ -1839,6 +1988,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Darksiders',
     platineTime: 30,
+    description: '',
   },
   {
     title: 'Darksiders II Deathinitive Edition',
@@ -1851,6 +2001,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Darksiders',
     platineTime: 50,
+    description: '',
   },
   {
     title: 'Days Gone',
@@ -1863,6 +2014,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Days Gone',
     platineTime: 50,
+    description: '',
   },
   {
     title: 'Deliver Us The Moon',
@@ -1875,6 +2027,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Deliver Us The Moon',
     platineTime: 6,
+    description: '',
   },
   {
     title: 'Detroit : Become Human',
@@ -1887,6 +2040,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Detroit',
     platineTime: 25,
+    description: '',
   },
   {
     title: 'Dishonored : Definitive Edition',
@@ -1899,6 +2053,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Dishonored',
     platineTime: 50,
+    description: '',
   },
   {
     title: 'Dishonored 2',
@@ -1912,6 +2067,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Dishonored',
     platineTime: 50,
+    description: '',
   },
   {
     title: 'DmC Devil May Cry : Definitive Edition',
@@ -1924,6 +2080,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Devil May Cry',
     platineTime: 40,
+    description: '',
   },
   {
     title: 'Dragon Ball Raging Blast 2',
@@ -1937,6 +2094,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Dragon Ball',
     platineTime: 50,
+    description: '',
   },
   {
     title: 'Far Cry 3',
@@ -1949,6 +2107,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Far Cry',
     platineTime: 25,
+    description: '',
   },
   {
     title: 'Far Cry 4',
@@ -1961,6 +2120,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Far Cry',
     platineTime: 30,
+    description: '',
   },
   {
     title: "Fist of the North Star : Ken's Rage",
@@ -1974,6 +2134,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Fist of the North Star',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Ghost of Tsushima',
@@ -1986,6 +2147,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Ghost of Tsushima',
     platineTime: 45,
+    description: '',
   },
   {
     title: 'God of War III',
@@ -1998,6 +2160,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'God of War',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Gotham Knights',
@@ -2010,6 +2173,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: 'Gotham Knights',
     platineTime: 30,
+    description: '',
   },
   {
     title: 'Gran Turismo 7',
@@ -2022,6 +2186,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: 'Gran Turismo',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Grand Theft Auto V',
@@ -2034,6 +2199,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Grand Theft Auto',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Heavy Rain',
@@ -2046,6 +2212,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Heavy Rain',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Hitman',
@@ -2058,6 +2225,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Hitman',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Horizon Zero Dawn',
@@ -2071,6 +2239,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Horizon',
     platineTime: 50,
+    description: '',
   },
   {
     title: 'Horizon Forbidden West',
@@ -2083,6 +2252,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: 'Horizon',
     platineTime: 50,
+    description: '',
   },
   {
     title: 'Indiana Jones et le Cercle Ancien',
@@ -2095,6 +2265,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: 'Indiana Jones',
     platineTime: 33,
+    description: '',
   },
   {
     title: 'Injustice : Les Dieux sont Parmi Nous',
@@ -2107,6 +2278,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Injustice',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Injustice : Les Dieux sont Parmi Nous - Ultimate Edition',
@@ -2119,6 +2291,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Injustice',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Injustice 2',
@@ -2131,6 +2304,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Injustice',
     platineTime: 100,
+    description: '',
   },
   {
     title: 'Kena : Bridge of Spirits',
@@ -2143,6 +2317,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: 'Kena',
     platineTime: 22,
+    description: '',
   },
   {
     title: 'Killzone Shadow Fall',
@@ -2155,6 +2330,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Killzone',
     platineTime: 0,
+    description: '',
   },
   {
     title: "La Terre du Milieu : L'Ombre du Mordor",
@@ -2167,6 +2343,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Middle-earth',
     platineTime: 30,
+    description: '',
   },
   {
     title: "La Terre du Milieu : L'Ombre de la Guerre",
@@ -2179,6 +2356,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Middle-earth',
     platineTime: 55,
+    description: '',
   },
   {
     title: 'Life is Strange',
@@ -2191,6 +2369,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Life is Strange',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Mafia : The Old Country',
@@ -2203,6 +2382,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: 'Mafia',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Mafia III : Definitive Edition',
@@ -2216,6 +2396,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Mafia',
     platineTime: 0,
+    description: '',
   },
   {
     title: "Marvel's Guardians of the Galaxy",
@@ -2228,6 +2409,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: "Marvel's Guardians",
     platineTime: 18,
+    description: '',
   },
   {
     title: 'Naruto Shippuden : Ultimate Ninja Storm Generations',
@@ -2240,6 +2422,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Naruto',
     platineTime: 30,
+    description: '',
   },
   {
     title: 'Naruto Shippuden : Ultimate Ninja Storm 3',
@@ -2252,6 +2435,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Naruto',
     platineTime: 30,
+    description: '',
   },
   {
     title: 'Operation : Tango',
@@ -2264,6 +2448,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: 'Operation Tango',
     platineTime: 7,
+    description: '',
   },
   {
     title: 'Prince of Persia : Les Sables Oubliés',
@@ -2276,6 +2461,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Prince of Persia',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Qui es-tu?',
@@ -2288,6 +2474,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Qui es-tu',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Ratchet & Clank : Rift Apart',
@@ -2300,6 +2487,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: 'Ratchet & Clank',
     platineTime: 15,
+    description: '',
   },
   {
     title: 'Red Dead Redemption',
@@ -2312,6 +2500,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Red Dead Redemption',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Red Dead Redemption 2',
@@ -2324,6 +2513,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Red Dead Redemption',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Resident Evil 7 : Biohazard',
@@ -2336,6 +2526,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Resident Evil',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Returnal',
@@ -2348,6 +2539,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: 'Returnal',
     platineTime: 60,
+    description: '',
   },
   {
     title: 'Rise of the Tomb Raider',
@@ -2360,6 +2552,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Tomb Raider',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Shadow of the Tomb Raider',
@@ -2372,6 +2565,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Tomb Raider',
     platineTime: 0,
+    description: '',
   },
   {
     title: "Le Seigneur des Anneaux : La Quête d'Aragorn",
@@ -2385,6 +2579,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Le Seigneur des Anneaux',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'SSX',
@@ -2398,6 +2593,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'SSX',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Star Wars : Battlefront II',
@@ -2410,6 +2606,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Star Wars',
     platineTime: 135,
+    description: '',
   },
   {
     title: 'Star Wars Jedi : Fallen Order',
@@ -2422,6 +2619,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Star Wars Jedi',
     platineTime: 35,
+    description: '',
   },
   {
     title: 'Star Wars Jedi : Survivor',
@@ -2435,6 +2633,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: 'Star Wars Jedi',
     platineTime: 50,
+    description: '',
   },
   {
     title: 'Star Wars : Le Pouvoir de la Force II',
@@ -2447,6 +2646,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Star Wars',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Tekken 6',
@@ -2459,6 +2659,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Tekken',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Tekken Revolution',
@@ -2472,6 +2673,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Tekken',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'The Elder Scrolls V : Skyrim',
@@ -2484,6 +2686,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'The Elder Scrolls',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'The Last of Us',
@@ -2496,6 +2699,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'The Last of Us',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'The Last of Us Part II',
@@ -2508,6 +2712,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'The Last of Us',
     platineTime: 40,
+    description: '',
   },
   {
     title: 'Elden Ring',
@@ -2520,6 +2725,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Elden Ring',
     platineTime: 70,
+    description: '',
   },
   {
     title: 'The Order : 1886',
@@ -2533,6 +2739,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'The Order',
     platineTime: 0,
+    description: '',
   },
   {
     title: "Tom Clancy's The Division",
@@ -2545,6 +2752,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Tom Clancy',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Tomb Raider : Definitive Edition',
@@ -2557,6 +2765,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Tomb Raider',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Titanfall 2',
@@ -2569,6 +2778,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Titanfall',
     platineTime: 19,
+    description: '',
   },
   {
     title: "Uncharted : Drake's Fortune",
@@ -2582,6 +2792,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Uncharted',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Uncharted 2 : Among Thieves',
@@ -2595,6 +2806,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Uncharted',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Uncharted 2 : Among Thieves Remastered',
@@ -2607,6 +2819,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Uncharted',
     platineTime: 0,
+    description: '',
   },
   {
     title: "Uncharted 3 : L'illusion de Drake",
@@ -2619,6 +2832,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 3',
     saga: 'Uncharted',
     platineTime: 0,
+    description: '',
   },
   {
     title: "Uncharted 3 : L'Illusion de Drake Remastered",
@@ -2632,6 +2846,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Uncharted',
     platineTime: 0,
+    description: '',
   },
   {
     title: "Uncharted 4 : A Thief's End",
@@ -2645,6 +2860,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Uncharted',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Uncharted : Legacy of Thieves Collection',
@@ -2657,6 +2873,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 5',
     saga: 'Uncharted',
     platineTime: 23,
+    description: '',
   },
   {
     title: 'Watch Dogs 2',
@@ -2670,6 +2887,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Watch Dogs',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'The Witcher 3 : Wild Hunt',
@@ -2682,6 +2900,7 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'The Witcher',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Wolfenstein : The New Order',
@@ -2694,5 +2913,6 @@ export const baseGames: BaseGame[] = [
     platform: 'PlayStation 4',
     saga: 'Wolfenstein',
     platineTime: 0,
+    description: '',
   },
 ];

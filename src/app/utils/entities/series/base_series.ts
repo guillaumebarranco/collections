@@ -42,6 +42,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 630,
       },
     ],
+    description: '',
   },
   {
     title: 'Agent Carter',
@@ -73,6 +74,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 600,
       },
     ],
+    description: '',
   },
   {
     title: 'Agents of S.H.I.E.L.D.',
@@ -129,6 +131,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 780,
       },
     ],
+    description: '',
   },
   {
     title: 'Ahsoka',
@@ -158,6 +161,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 359,
       },
     ],
+    description: '',
   },
   {
     title: 'Altered Carbon',
@@ -189,6 +193,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 396,
       },
     ],
+    description: '',
   },
   {
     title: 'Arrow',
@@ -250,6 +255,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 600,
       },
     ],
+    description: '',
   },
 
   {
@@ -277,6 +283,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 344,
       },
     ],
+    description: '',
   },
   {
     title: 'Bloqués',
@@ -303,6 +310,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 188,
       },
     ],
+    description: '',
   },
   {
     title: 'Bodyguard',
@@ -329,6 +337,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 375,
       },
     ],
+    description: '',
   },
   {
     title: 'Black Mirror',
@@ -379,6 +388,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 367,
       },
     ],
+    description: '',
   },
   {
     title: 'Bodies',
@@ -405,6 +415,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 455,
       },
     ],
+    description: '',
   },
   {
     title: 'Breaking Bad',
@@ -452,6 +463,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 960,
       },
     ],
+    description: '',
   },
   {
     title: 'Brooklyn Nine-Nine',
@@ -513,6 +525,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 300,
       },
     ],
+    description: '',
   },
   {
     title: 'Castle',
@@ -574,6 +587,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 1320,
       },
     ],
+    description: '',
   },
   {
     title: 'Cloak & Dagger',
@@ -605,6 +619,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 600,
       },
     ],
+    description: '',
   },
   {
     title: 'Community',
@@ -656,6 +671,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 390,
       },
     ],
+    description: '',
   },
   {
     title: 'Constantine',
@@ -682,6 +698,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 780,
       },
     ],
+    description: '',
   },
   {
     title: 'Cobra Kai',
@@ -734,6 +751,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 601,
       },
     ],
+    description: '',
   },
   {
     title: 'Daredevil',
@@ -770,6 +788,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 669,
       },
     ],
+    description: '',
   },
 
   {
@@ -832,6 +851,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 1380,
       },
     ],
+    description: '',
   },
   {
     title: 'Dexter',
@@ -845,7 +865,7 @@ export const baseSeries: BaseSerie[] = [
       },
       {
         name: 'David Zayas',
-      }
+      },
     ],
     coverUrl: '/series_pictures/81JKXT1j0OL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '2006-10-01',
@@ -891,8 +911,9 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 8,
         nbEpisodes: 12,
         totalLength: 720,
-      }
+      },
     ],
+    description: '',
   },
   {
     title: 'Daredevil : Born Again',
@@ -919,6 +940,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 1080,
       },
     ],
+    description: '',
   },
   {
     title: 'Emily in Paris',
@@ -968,6 +990,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 344,
       },
     ],
+    description: '',
   },
   {
     title: 'En un battement',
@@ -993,6 +1016,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 462,
       },
     ],
+    description: '',
   },
   {
     title: 'Family Business',
@@ -1029,6 +1053,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 214,
       },
     ],
+    description: '',
   },
   {
     title: 'FUBAR',
@@ -1060,6 +1085,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 382,
       },
     ],
+    description: '',
   },
   {
     title: 'Game of Thrones',
@@ -1121,6 +1147,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 447,
       },
     ],
+    description: '',
   },
   {
     title: 'Gotham',
@@ -1168,6 +1195,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 720,
       },
     ],
+    description: '',
   },
   {
     title: 'HPI',
@@ -1214,6 +1242,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 480,
       },
     ],
+    description: '',
   },
   {
     title: 'Hawkeye',
@@ -1240,6 +1269,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
   {
     title: 'Heroes',
@@ -1282,6 +1312,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 1140,
       },
     ],
+    description: '',
   },
   {
     title: 'Heroes Reborn',
@@ -1308,6 +1339,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 780,
       },
     ],
+    description: '',
   },
   {
     title: 'How I Met Your Mother',
@@ -1380,6 +1412,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 720,
       },
     ],
+    description: '',
   },
   {
     title: 'Iron Fist',
@@ -1411,6 +1444,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 526,
       },
     ],
+    description: '',
   },
   {
     title: 'Inhumans',
@@ -1437,6 +1471,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 132,
       },
     ],
+    description: '',
   },
   {
     title: 'iZombie',
@@ -1483,6 +1518,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 780,
       },
     ],
+    description: '',
   },
   {
     title: 'Jessica Jones',
@@ -1519,6 +1555,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 660,
       },
     ],
+    description: '',
   },
   {
     title: "Jupiter's Legacy",
@@ -1545,6 +1582,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 361,
       },
     ],
+    description: '',
   },
   {
     title: 'La Casa de Papel',
@@ -1586,6 +1624,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 544,
       },
     ],
+    description: '',
   },
   {
     title: 'Les Grands',
@@ -1622,6 +1661,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 250,
       },
     ],
+    description: '',
   },
   {
     title: 'La servante écarlate',
@@ -1668,6 +1708,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 660,
       },
     ],
+    description: '',
   },
   {
     title: 'Le Jeu de la Dame',
@@ -1688,6 +1729,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 395,
       },
     ],
+    description: '',
   },
 
   {
@@ -1728,6 +1770,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 334,
       },
     ],
+    description: '',
   },
   {
     title: 'Loki',
@@ -1759,6 +1802,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 309,
       },
     ],
+    description: '',
   },
   {
     title: 'Lucifer',
@@ -1811,6 +1855,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 530,
       },
     ],
+    description: '',
   },
   {
     title: 'Luke Cage',
@@ -1843,6 +1888,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 764,
       },
     ],
+    description: '',
   },
   {
     title: 'Lupin',
@@ -1879,6 +1925,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 330,
       },
     ],
+    description: '',
   },
   {
     title: 'Malcolm in the Middle',
@@ -1935,6 +1982,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 660,
       },
     ],
+    description: '',
   },
   {
     title: 'Mentalist',
@@ -1992,6 +2040,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 780,
       },
     ],
+    description: '',
   },
   {
     title: 'Mindhunter',
@@ -2023,6 +2072,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 523,
       },
     ],
+    description: '',
   },
   {
     title: 'Misfits',
@@ -2069,6 +2119,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 480,
       },
     ],
+    description: '',
   },
   {
     title: 'Mortel',
@@ -2100,6 +2151,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 329,
       },
     ],
+    description: '',
   },
   {
     title: 'Mercredi',
@@ -2131,6 +2183,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 480,
       },
     ],
+    description: '',
   },
   {
     title: 'Mon amie Adèle',
@@ -2157,6 +2210,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 294,
       },
     ],
+    description: '',
   },
   {
     title: 'Montre jamais ça à personne',
@@ -2188,6 +2242,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 161,
       },
     ],
+    description: '',
   },
   {
     title: 'Obi-Wan Kenobi',
@@ -2214,6 +2269,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 271,
       },
     ],
+    description: '',
   },
   {
     title: 'Obsession',
@@ -2241,6 +2297,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 155,
       },
     ],
+    description: '',
   },
 
   {
@@ -2269,6 +2326,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 448,
       },
     ],
+    description: '',
   },
   {
     title: 'Penny Dreadful',
@@ -2305,6 +2363,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 540,
       },
     ],
+    description: '',
   },
   {
     title: 'Reacher',
@@ -2341,6 +2400,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 404,
       },
     ],
+    description: '',
   },
   {
     title: 'Runaways',
@@ -2367,6 +2427,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 240,
       },
     ],
+    description: '',
   },
 
   {
@@ -2400,6 +2461,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 585,
       },
     ],
+    description: '',
   },
   {
     title: 'Shameless',
@@ -2477,6 +2539,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 720,
       },
     ],
+    description: '',
   },
   {
     title: 'Smallville',
@@ -2549,6 +2612,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 1320,
       },
     ],
+    description: '',
   },
   {
     title: 'Sons of Anarchy',
@@ -2606,6 +2670,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 791,
       },
     ],
+    description: '',
   },
   {
     title: 'Spartacus',
@@ -2642,6 +2707,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 600,
       },
     ],
+    description: '',
   },
   {
     title: 'Squid Game',
@@ -2678,6 +2744,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 366,
       },
     ],
+    description: '',
   },
   {
     title: 'Stranger Things',
@@ -2725,6 +2792,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 620,
       },
     ],
+    description: '',
   },
   {
     title: 'Supernatural',
@@ -2821,6 +2889,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 1200,
       },
     ],
+    description: '',
   },
   {
     title: 'Suits, Avocats sur mesure',
@@ -2887,6 +2956,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 560,
       },
     ],
+    description: '',
   },
   {
     title: 'Superman & Lois',
@@ -2928,6 +2998,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 600,
       },
     ],
+    description: '',
   },
   {
     title: 'Teen Wolf',
@@ -2979,6 +3050,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 1200,
       },
     ],
+    description: '',
   },
   {
     title: 'The Big Bang Theory',
@@ -3060,6 +3132,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 720,
       },
     ],
+    description: '',
   },
   {
     title: 'The Boys',
@@ -3106,6 +3179,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 496,
       },
     ],
+    description: '',
   },
   {
     title: 'The Defenders',
@@ -3132,6 +3206,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 398,
       },
     ],
+    description: '',
   },
   {
     title: 'The Falcon and the Winter Soldier',
@@ -3158,6 +3233,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 302,
       },
     ],
+    description: '',
   },
   {
     title: 'The Get Down',
@@ -3190,6 +3266,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 300,
       },
     ],
+    description: '',
   },
   {
     title: 'The End of the F***ing World',
@@ -3221,6 +3298,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 174,
       },
     ],
+    description: '',
   },
   {
     title: 'The Flash',
@@ -3287,6 +3365,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 780,
       },
     ],
+    description: '',
   },
   {
     title: 'The Office',
@@ -3354,6 +3433,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 825,
       },
     ],
+    description: '',
   },
   {
     title: 'The Originals',
@@ -3401,6 +3481,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 780,
       },
     ],
+    description: '',
   },
   {
     title: 'The Returned',
@@ -3428,6 +3509,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 600,
       },
     ],
+    description: '',
   },
   {
     title: 'The Shannara Chronicles',
@@ -3460,6 +3542,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 600,
       },
     ],
+    description: '',
   },
   {
     title: 'The Tomorrow People',
@@ -3486,6 +3569,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 1320,
       },
     ],
+    description: '',
   },
   {
     title: 'The Vampire Diaries',
@@ -3548,6 +3632,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 960,
       },
     ],
+    description: '',
   },
   {
     title: 'The Glory',
@@ -3574,6 +3659,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 851,
       },
     ],
+    description: '',
   },
   {
     title: 'The Last of Us',
@@ -3606,6 +3692,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 407,
       },
     ],
+    description: '',
   },
   {
     title: 'The Punisher',
@@ -3637,6 +3724,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 690,
       },
     ],
+    description: '',
   },
   {
     title: 'Umbrella Academy',
@@ -3678,6 +3766,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 341,
       },
     ],
+    description: '',
   },
   {
     title: 'Under the Dome',
@@ -3714,6 +3803,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 780,
       },
     ],
+    description: '',
   },
   {
     title: 'Unorthodox',
@@ -3740,6 +3830,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 215,
       },
     ],
+    description: '',
   },
   {
     title: 'Vikings',
@@ -3791,6 +3882,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 1200,
       },
     ],
+    description: '',
   },
   {
     title: 'WandaVision',
@@ -3817,6 +3909,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 321,
       },
     ],
+    description: '',
   },
   {
     title: 'Watchmen',
@@ -3843,6 +3936,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 530,
       },
     ],
+    description: '',
   },
   {
     title: 'You',
@@ -3889,6 +3983,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 502,
       },
     ],
+    description: '',
   },
 
   {
@@ -3919,5 +4014,6 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 300,
       },
     ],
+    description: '',
   },
 ];

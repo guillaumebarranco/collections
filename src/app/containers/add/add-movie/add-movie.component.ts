@@ -13,6 +13,7 @@ type AddMovieEntityForm = {
   length: number;
   genre: string;
   saga: string;
+  description: string;
 };
 
 type AddMovieUserForm = {
@@ -24,6 +25,7 @@ type AddMovieUserForm = {
   owned: boolean;
   wantToSeeAgain: boolean;
   watchPriority: number;
+  ratingComment: string;
 };
 
 type AddMovieDialogData = {
@@ -56,6 +58,7 @@ export class AddMovieComponent {
     length: 0,
     genre: '',
     saga: '',
+    description: '',
   });
 
   userForm = signal<AddMovieUserForm>({
@@ -67,6 +70,7 @@ export class AddMovieComponent {
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   });
 
   close() {

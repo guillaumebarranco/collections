@@ -10,6 +10,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Frankenstein',
@@ -20,6 +21,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Mort sur le Nil',
@@ -30,6 +32,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "L'Île au trésor",
@@ -40,6 +43,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Candide',
@@ -50,6 +54,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Viridia: Les racines du pouvoir',
@@ -60,6 +65,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Le grand éveil',
@@ -70,6 +76,7 @@ export const ronanBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Le cheval de feu',
@@ -80,6 +87,7 @@ export const ronanBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "Mâchoires d'écume",
@@ -90,6 +98,7 @@ export const ronanBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "Le porteur d'espoir",
@@ -100,6 +109,7 @@ export const ronanBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Ciel de cendres',
@@ -110,6 +120,7 @@ export const ronanBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "D'un monde à l'autre",
@@ -120,6 +131,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Les frontières de glace',
@@ -130,6 +142,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "L'île du destin",
@@ -140,6 +153,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'La Forêt des captifs',
@@ -150,6 +164,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "L'Œil d'Otolep",
@@ -160,6 +175,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Les Tentacules du mal',
@@ -170,6 +186,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Ellana',
@@ -180,6 +197,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "Ellana, l'Envol",
@@ -190,6 +208,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Ellana, la Prophétie',
@@ -200,6 +219,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
@@ -210,6 +230,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "Harry Potter à l'école des sorciers",
@@ -220,6 +241,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Harry Potter et la Chambre des secrets',
@@ -230,6 +252,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "Harry Potter et le Prisonnier d'Azkaban",
@@ -240,6 +263,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Harry Potter et la Coupe de feu',
@@ -250,6 +274,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "Harry Potter et l'Ordre du Phénix",
@@ -260,6 +285,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Harry Potter et le Prince de sang-mêlé',
@@ -270,6 +296,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Harry Potter et les Reliques de la Mort',
@@ -280,6 +307,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "Harry Potter et l'Enfant maudit",
@@ -290,6 +318,7 @@ export const ronanBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Fascination',
@@ -300,6 +329,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Tentation',
@@ -310,6 +340,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Hésitation',
@@ -320,6 +351,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Révélation',
@@ -330,6 +362,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Midnight Sun',
@@ -340,6 +373,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Le Voleur de foudre',
@@ -350,6 +384,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'La Mer des monstres',
@@ -360,6 +395,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Le Sort du titan',
@@ -370,6 +406,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'La Bataille du labyrinthe',
@@ -380,6 +417,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Le Dernier Olympien',
@@ -390,6 +428,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Les Mobilisés',
@@ -400,6 +439,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Les Effacés',
@@ -410,6 +450,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Les Éveillés',
@@ -420,6 +461,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Inside Mac: Tome 1',
@@ -430,6 +472,7 @@ export const ronanBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Inside Mac: Tome 2',
@@ -440,6 +483,7 @@ export const ronanBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'La femme de ménage',
@@ -450,6 +494,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "N'oublie Jamais",
@@ -460,6 +505,7 @@ export const ronanBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Les Grands Jeux',
@@ -470,6 +516,7 @@ export const ronanBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "L'Aube Obscure",
@@ -480,6 +527,7 @@ export const ronanBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Le Monde de Narnia (Tome 1) Le Neveu du Magicien',
@@ -490,6 +538,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title:
@@ -501,6 +550,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Les disparus du phare de Tévennec',
@@ -511,6 +561,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "Le sang de l'Olympe (Héros de l'Olympe #5)",
@@ -521,6 +572,7 @@ export const ronanBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "La Maison d'Hadès (Héros de l'Olympe, #4)",
@@ -531,6 +583,7 @@ export const ronanBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'The Mark of Athena (The Heroes of Olympus, #3)',
@@ -541,6 +594,7 @@ export const ronanBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'The Son of Neptune (The Heroes of Olympus, #2)',
@@ -551,6 +605,7 @@ export const ronanBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'The Lost Hero (The Heroes of Olympus, #1)',
@@ -561,6 +616,7 @@ export const ronanBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "Les ténèbres (Journal d'un vampire, #2)",
@@ -571,6 +627,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "Le réveil (Journal d'un vampire, #1)",
@@ -581,6 +638,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Le fantôme de Canterville',
@@ -591,6 +649,7 @@ export const ronanBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "Le Fantôme d'à côté (Chair de poule #16)",
@@ -601,6 +660,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Arthur et la cité interdite (Arthur et les Minimoys, #2)',
@@ -611,6 +671,7 @@ export const ronanBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Arthur et la vengeance de Maltazard (Arthur et les Minimoys, #3)',
@@ -621,6 +682,7 @@ export const ronanBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Arthur et la guerre des deux mondes (Arthur et les Minimoys, #4)',
@@ -631,6 +693,7 @@ export const ronanBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'La Cour des Miracles (Vampyria : le cycle de Jeanne, #2)',
@@ -641,6 +704,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'La Cour des Ouragans (Vampyria : le cycle de Jeanne, #3)',
@@ -651,6 +715,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'La Cour des ténèbres (Vampyria : le cycle de Jeanne, #1)',
@@ -661,6 +726,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'La Planète des singes',
@@ -671,6 +737,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "Le Miroir d'ambre (À la croisée des mondes, #3)",
@@ -681,6 +748,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'La Tour des anges (A la croisée des mondes, #2)',
@@ -691,6 +759,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Les Royaumes du Nord (À la croisée des mondes, #1)',
@@ -701,6 +770,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Genèse (Autre-Monde, #7)',
@@ -711,6 +781,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Neverland (Autre-Monde, #6)',
@@ -721,6 +792,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Oz (Autre-Monde, #5)',
@@ -731,6 +803,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Entropia (Autre Monde, #4)',
@@ -741,6 +814,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Le Cœur de la Terre (Autre-Monde, #3)',
@@ -751,6 +825,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Malronce (Autre-Monde, #2)',
@@ -761,6 +836,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "L'Alliance des Trois (Autre-Monde, #1)",
@@ -771,6 +847,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Le Silmarillon',
@@ -781,6 +858,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Bilbo le Hobbit',
@@ -791,6 +869,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Les deux tours',
@@ -801,6 +880,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Le retour du roi',
@@ -811,6 +891,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'La Dame du lac (The Witcher, #7)',
@@ -821,6 +902,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Le temps du mépris (The Witcher, #4)',
@@ -831,6 +913,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Le sang des elfes (The Witcher, #3)',
@@ -841,6 +924,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "L'épée de la providence (The Witcher, #2)",
@@ -851,6 +935,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Sword of Destiny (The Witcher, #0.7)',
@@ -861,6 +946,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Le dernier voeu (The Witcher, #1)',
@@ -871,6 +957,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'The Last Wish (The Witcher, #0.5)',
@@ -881,6 +968,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'The Invisible Life of Addie LaRue',
@@ -891,6 +979,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "L'héritage (Eragon, #4)",
@@ -901,6 +990,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Brisingr (Eragon, #3)',
@@ -911,6 +1001,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "L'aîné (Eragon, #2)",
@@ -921,6 +1012,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Eragon (Eragon, #1)',
@@ -931,6 +1023,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Et ils meurent tous les deux à la fin',
@@ -941,6 +1034,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'La Maison au milieu de la Mer Céruléenne (Cerulean Chronicles, #1)',
@@ -951,6 +1045,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Azincourt par temps de pluie',
@@ -961,6 +1056,7 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Le Monde de Narnia (Tome 3) Le Cheval et son Ecuyer',
@@ -971,5 +1067,6 @@ export const ronanBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 ];

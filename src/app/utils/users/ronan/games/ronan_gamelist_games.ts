@@ -9,6 +9,7 @@ export const ronanGameListGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     sessions: [],
+    ratingComment: '',
   },
 
   {
@@ -19,6 +20,7 @@ export const ronanGameListGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     sessions: [],
+    ratingComment: '',
   },
 
   {
@@ -29,6 +31,7 @@ export const ronanGameListGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     sessions: [],
+    ratingComment: '',
   },
 
   {
@@ -39,6 +42,7 @@ export const ronanGameListGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     sessions: [],
+    ratingComment: '',
   },
 
   {
@@ -49,6 +53,7 @@ export const ronanGameListGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     sessions: [],
+    ratingComment: '',
   },
 
   {
@@ -59,6 +64,7 @@ export const ronanGameListGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     sessions: [],
+    ratingComment: '',
   },
 
   {
@@ -69,5 +75,6 @@ export const ronanGameListGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     sessions: [],
+    ratingComment: '',
   },
 ];

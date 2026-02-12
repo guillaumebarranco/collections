@@ -10,5 +10,6 @@ export const guillaumeBds: UserBds = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 ];

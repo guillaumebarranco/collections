@@ -11,6 +11,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 0,
     sagaFinished: false,
     releaseDate: '1906-10-01',
+    description: '',
   },
 
   {
@@ -23,6 +24,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 0,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -35,6 +37,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: false,
     releaseDate: '1954-09-06',
+    description: '',
   },
 
   {
@@ -47,6 +50,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '2023-02-28',
+    description: '',
   },
 
   {
@@ -59,6 +63,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -71,6 +76,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 4,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -83,6 +89,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -95,6 +102,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -107,6 +115,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -119,6 +128,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -131,6 +141,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -144,6 +155,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 4,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -157,6 +169,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 5,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -169,6 +182,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 6,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -181,6 +195,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 7,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -194,6 +209,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 8,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -206,6 +222,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 9,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -218,6 +235,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 10,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -230,6 +248,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 11,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -242,6 +261,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 12,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -254,6 +274,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 13,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -266,6 +287,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -278,6 +300,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -290,6 +313,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 8.5,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -302,6 +326,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 6,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -314,6 +339,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 7,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -326,6 +352,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -338,6 +365,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -350,6 +378,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -363,6 +392,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -376,6 +406,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -389,6 +420,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -401,6 +433,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -413,6 +446,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -425,6 +459,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 4,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -437,6 +472,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -449,6 +485,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -461,6 +498,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -473,6 +511,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 4,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -485,6 +524,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 5,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -498,6 +538,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -511,6 +552,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -524,6 +566,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 4,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -537,6 +580,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 5,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 
   {
@@ -550,5 +594,6 @@ export const baseBooksApi: BaseBook[] = [
     sagaOrder: 6,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 ];

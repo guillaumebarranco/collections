@@ -15,6 +15,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Call of Duty: Modern Warfare 2',
@@ -31,6 +32,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Call of Duty: Black Ops',
@@ -53,6 +55,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 100,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Call of Duty: Modern Warfare 3',
@@ -69,6 +72,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Call of Duty: Black Ops II',
@@ -85,6 +89,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 50,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Call of Duty: Black Ops III',
@@ -101,6 +106,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 213,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Call of Duty: Black Ops 4',
@@ -117,6 +123,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Call of Duty: Black Ops Cold War',
@@ -133,6 +140,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 60,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Call of Duty: Black Ops 6',
@@ -149,6 +157,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 30,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'One Piece: Pirate Warriors',
@@ -171,6 +180,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Naruto: Ultimate Ninja Storm',
@@ -187,6 +197,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 15,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Naruto Shippuden: Ultimate Ninja Storm 2',
@@ -203,6 +214,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Naruto Shippuden: Ultimate Ninja Storm 3',
@@ -225,6 +237,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Naruto Shippuden: Ultimate Ninja Storm 4',
@@ -247,6 +260,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Infamous',
@@ -269,6 +283,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Infamous 2',
@@ -291,6 +306,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Infamous: Second Son',
@@ -313,6 +329,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Infamous: First Light',
@@ -335,6 +352,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'The Amazing Spider-Man',
@@ -351,6 +369,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Marvel's Spider-Man",
@@ -373,6 +392,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Marvel's Spider-Man: Miles Morales",
@@ -395,6 +415,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Marvel's Spider-Man 2",
@@ -411,6 +432,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'BioShock Infinite',
@@ -427,6 +449,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Watch Dogs',
@@ -443,6 +466,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Dragon Ball Z: Budokai 3',
@@ -483,6 +507,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'South Park: Le Bâton de la Vérité',
@@ -499,6 +524,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'God of War',
@@ -521,6 +547,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'God of War Ragnarök',
@@ -537,6 +564,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Hogwarts Legacy',
@@ -553,6 +581,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Grand Theft Auto: Liberty City Stories',
@@ -569,6 +598,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Star Wars: Le Pouvoir de la Force',
@@ -585,6 +615,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Lego Star Wars',
@@ -601,6 +632,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Wii Sports',
@@ -617,6 +649,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'A Plague Tale : Innocence',
@@ -639,6 +672,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'A Plague Tale : Requiem',
@@ -655,6 +689,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'A Way Out',
@@ -671,6 +706,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Anthem',
@@ -687,6 +723,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Assassin's Creed II",
@@ -715,6 +752,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Assassin's Creed : Brotherhood",
@@ -743,6 +781,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Assassin's Creed : Revelations",
@@ -771,6 +810,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Assassin's Creed III",
@@ -793,6 +833,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Assassin's Creed Liberation Remastered",
@@ -809,6 +850,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Assassin's Creed III Remastered",
@@ -825,6 +867,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Assassin's Creed IV : Black Flag",
@@ -847,6 +890,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Assassin's Creed Rogue",
@@ -869,6 +913,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Assassin's Creed Unity",
@@ -891,6 +936,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Assassin's Creed Syndicate",
@@ -913,6 +959,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Assassin's Creed Origins",
@@ -935,6 +982,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Assassin's Creed Odyssey",
@@ -957,6 +1005,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Assassin's Creed Valhalla",
@@ -973,6 +1022,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Assassin's Creed Mirage",
@@ -989,6 +1039,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Assassin's Creed Shadows",
@@ -1005,6 +1056,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Astro's Playroom",
@@ -1021,6 +1073,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Avatar : Frontiers of Pandora',
@@ -1037,6 +1090,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Batman: Arkham Asylum',
@@ -1065,6 +1119,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Batman: Arkham City',
@@ -1093,6 +1148,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Batman: Arkham Knight',
@@ -1121,6 +1177,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Batman: Arkham Origins',
@@ -1143,6 +1200,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Battlefield 4',
@@ -1159,6 +1217,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'BioShock Remastered (Complete Edition)',
@@ -1175,6 +1234,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Black Myth : Wukong',
@@ -1191,6 +1251,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 30,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Call of Duty : Modern Warfare Remastered',
@@ -1207,6 +1268,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 30,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Clair Obscur : Expedition 33',
@@ -1223,6 +1285,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Cyberpunk 2077',
@@ -1245,6 +1308,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Darksiders',
@@ -1261,6 +1325,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 10,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Darksiders II Deathinitive Edition',
@@ -1277,6 +1342,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Days Gone',
@@ -1299,6 +1365,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Deliver Us The Moon',
@@ -1321,6 +1388,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Detroit : Become Human',
@@ -1337,6 +1405,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 8,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Dishonored : Definitive Edition',
@@ -1353,6 +1422,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 8,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Dishonored 2',
@@ -1369,6 +1439,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'DmC Devil May Cry : Definitive Edition',
@@ -1385,6 +1456,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 8,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Dragon Ball Raging Blast 2',
@@ -1401,6 +1473,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 8,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Elden Ring',
@@ -1417,6 +1490,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 75,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Far Cry 3',
@@ -1439,6 +1513,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Far Cry 4',
@@ -1455,6 +1530,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 25,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Fist of the North Star : Ken's Rage",
@@ -1471,6 +1547,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Ghost of Tsushima',
@@ -1487,6 +1564,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'God of War III',
@@ -1503,6 +1581,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Gotham Knights',
@@ -1519,6 +1598,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Gran Turismo 7',
@@ -1535,6 +1615,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 20,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Grand Theft Auto V',
@@ -1551,6 +1632,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 20,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Heavy Rain',
@@ -1567,6 +1649,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 15,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Hitman',
@@ -1583,6 +1666,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Horizon Zero Dawn',
@@ -1605,6 +1689,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Horizon Forbidden West',
@@ -1621,6 +1706,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Indiana Jones et le Cercle Ancien',
@@ -1643,6 +1729,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Injustice : Les Dieux sont Parmi Nous',
@@ -1659,6 +1746,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 30,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Injustice : Les Dieux sont Parmi Nous - Ultimate Edition',
@@ -1675,6 +1763,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Injustice 2',
@@ -1691,6 +1780,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Kena : Bridge of Spirits',
@@ -1707,6 +1797,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Killzone Shadow Fall',
@@ -1723,6 +1814,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "La Terre du Milieu : L'Ombre du Mordor",
@@ -1739,6 +1831,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "La Terre du Milieu : L'Ombre de la Guerre",
@@ -1755,6 +1848,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Life is Strange',
@@ -1771,6 +1865,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Mafia : The Old Country',
@@ -1787,6 +1882,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Mafia III : Definitive Edition',
@@ -1803,6 +1899,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Marvel's Guardians of the Galaxy",
@@ -1819,6 +1916,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 12,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Naruto Shippuden : Ultimate Ninja Storm Generations',
@@ -1835,6 +1933,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Operation : Tango',
@@ -1851,6 +1950,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Prince of Persia : Les Sables Oubliés',
@@ -1867,6 +1967,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Qui es-tu?',
@@ -1883,6 +1984,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Ratchet & Clank : Rift Apart',
@@ -1899,6 +2001,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Red Dead Redemption',
@@ -1915,6 +2018,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Red Dead Redemption 2',
@@ -1931,6 +2035,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 50,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Resident Evil 7 : Biohazard',
@@ -1947,6 +2052,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Returnal',
@@ -1963,6 +2069,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Rise of the Tomb Raider',
@@ -1979,6 +2086,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 5,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Shadow of the Tomb Raider',
@@ -1995,6 +2103,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Le Seigneur des Anneaux : La Quête d'Aragorn",
@@ -2011,6 +2120,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'SSX',
@@ -2027,6 +2137,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Star Wars : Battlefront II',
@@ -2043,6 +2154,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Star Wars Jedi : Fallen Order',
@@ -2065,6 +2177,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Star Wars Jedi : Survivor',
@@ -2081,6 +2194,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Star Wars : Le Pouvoir de la Force II',
@@ -2097,6 +2211,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Tekken 6',
@@ -2113,6 +2228,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Tekken Revolution',
@@ -2129,6 +2245,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'The Elder Scrolls V : Skyrim',
@@ -2145,6 +2262,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'The Last of Us',
@@ -2161,6 +2279,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'The Last of Us Part II',
@@ -2183,6 +2302,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'The Order : 1886',
@@ -2199,6 +2319,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Tom Clancy's The Division",
@@ -2215,6 +2336,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Tomb Raider : Definitive Edition',
@@ -2231,6 +2353,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 8,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Titanfall 2',
@@ -2247,6 +2370,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 8,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Uncharted : Drake's Fortune",
@@ -2263,6 +2387,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Uncharted 2 : Among Thieves',
@@ -2279,6 +2404,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Uncharted 2 : Among Thieves Remastered',
@@ -2295,6 +2421,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Uncharted 3 : L'illusion de Drake",
@@ -2311,6 +2438,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 8,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Uncharted 3 : L'Illusion de Drake Remastered",
@@ -2327,6 +2455,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 8,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Uncharted 4 : A Thief's End",
@@ -2343,6 +2472,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Uncharted : Legacy of Thieves Collection',
@@ -2359,6 +2489,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Watch Dogs 2',
@@ -2375,6 +2506,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'The Witcher 3 : Wild Hunt',
@@ -2391,6 +2523,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Wolfenstein : The New Order',
@@ -2407,6 +2540,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Tetris',
@@ -2423,6 +2557,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 15,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Super Mario 2',
@@ -2439,6 +2574,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 15,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Pokémon Émeraude',
@@ -2455,6 +2591,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Dragon Ball Z: Budokai 2',
@@ -2471,6 +2608,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Dragon Ball Z: Budokai Tenkaichi 2',
@@ -2487,6 +2625,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Need for Speed: Most Wanted',
@@ -2503,6 +2642,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Pokémon Bleu',
@@ -2519,6 +2659,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Teenage Mutant Hero Turtles: Fall of the Foot Clan',
@@ -2535,6 +2676,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Double Dragon',
@@ -2551,6 +2693,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Pokemon Jaune',
@@ -2567,6 +2710,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Bomberman GB',
@@ -2583,6 +2727,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Harry Potter et La Chambre des Secrets',
@@ -2599,6 +2744,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Harry Potter à l'école des sorciers",
@@ -2615,6 +2761,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Harry Potter et La Coupe de Feu',
@@ -2631,6 +2778,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Pokemon version Ruby',
@@ -2647,6 +2795,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Sonic Advance',
@@ -2663,6 +2812,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Star Wars III - La Revanche des Siths',
@@ -2679,6 +2829,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Spider-Man 3',
@@ -2695,6 +2846,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Les Urbz - Les Sims in the City',
@@ -2711,6 +2863,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Star Wars : Flight of the Falcon',
@@ -2727,6 +2880,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Custom Robo Arena',
@@ -2743,6 +2897,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Animal Crossing : Wild World',
@@ -2759,6 +2914,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Arthur et les Minimoys',
@@ -2775,6 +2931,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Assassin’s Creed Altaïr Chronicles',
@@ -2803,6 +2960,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Assassin’s Creed II : Discovery',
@@ -2831,6 +2989,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Astérix aux Jeux Olympiques',
@@ -2901,6 +3060,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Call of Duty 4 : Modern Warfare (DS)',
@@ -2917,6 +3077,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Dragon Ball Z: Harukanaru Densetsu',
@@ -2933,6 +3094,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Dragon Ball Z: Supersonic Warriors 2',
@@ -2949,6 +3111,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Eragon',
@@ -2965,6 +3128,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'FIFA 10',
@@ -2981,6 +3145,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Dragon Quest IX : Les Sentinelles du Firmament',
@@ -2997,6 +3162,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Galactick Football',
@@ -3013,6 +3179,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Grand Theft Auto: Chinatown Wars',
@@ -3029,6 +3196,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Guitar Hero: On Tour',
@@ -3045,6 +3213,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Harry Potter et la Coupe de Feu',
@@ -3061,6 +3230,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Harry Potter et l'Ordre du Phénix",
@@ -3077,6 +3247,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Harry Potter et le Prince de Sang Mêlé',
@@ -3093,6 +3264,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Iron Man',
@@ -3109,6 +3281,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Jump Ultimate Stars',
@@ -3125,6 +3298,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Zelda Phantom Hourglass',
@@ -3141,6 +3315,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Lego Batman',
@@ -3157,6 +3332,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'LEGO Indiana Jones',
@@ -3173,6 +3349,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'LEGO Star Wars : The Complete Saga',
@@ -3189,6 +3366,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Mario & Sonic aux Jeux Olympiques',
@@ -3205,6 +3383,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Mario & Sonic JO Hiver',
@@ -3221,6 +3400,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Mario Kart DS',
@@ -3291,6 +3471,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Mario Party DS',
@@ -3307,6 +3488,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Mario Slam Basketball',
@@ -3323,6 +3505,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Naruto Shippuden: Ninja Council 4',
@@ -3339,6 +3522,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Naruto: Ninja Destiny 2',
@@ -3355,6 +3539,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Naruto: Ninja Council 3',
@@ -3371,6 +3556,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Naruto : Ninja Destiny',
@@ -3387,6 +3573,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Need for Speed : Most Wanted (DS)',
@@ -3403,6 +3590,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Need for Speed : Nitro',
@@ -3419,6 +3607,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Ninja Gaiden: Dragon Sword',
@@ -3435,6 +3624,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Nintendogs',
@@ -3451,6 +3641,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 1,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Pirates des Caraïbes: Jusqu'au Bout du Monde",
@@ -3467,6 +3658,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Star Wars : Le Pouvoir de la Force',
@@ -3483,6 +3675,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Trackmania DS',
@@ -3499,6 +3692,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Transformers : The Game',
@@ -3515,6 +3709,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'X-Men Origins: Wolverine',
@@ -3531,6 +3726,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Marvel Nemesis: Rise of the Imperfects',
@@ -3547,6 +3743,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: "Programme d'entraînement cérébral du Dr Kawashima",
@@ -3563,6 +3760,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 5,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Professeur Layton et la Boite de Pandore',
@@ -3579,6 +3777,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Saints Row 2',
@@ -3595,6 +3794,7 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
   {
     title: 'Stray',
@@ -3611,5 +3811,6 @@ export const ronanGames: UserGames = [
         additionnalEstimatedTime: 0,
       },
     ],
+    ratingComment: '',
   },
 ];

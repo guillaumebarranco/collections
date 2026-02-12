@@ -132,6 +132,7 @@ function parseManwhasFromFile(content: string): any[] {
             readPriority: parseNumberField(objectText, 'readPriority') ?? 1,
             wantToReadAgain:
               parseBooleanField(objectText, 'wantToReadAgain') ?? false,
+            ratingComment: parseStringField(objectText, 'ratingComment') ?? '',
           });
         }
       }
@@ -185,6 +186,7 @@ function parseBaseManwhasFullFromFile(content: string): any[] {
           genre: parseStringField(objectText, 'genre') || '',
           nbChapters: parseNumberField(objectText, 'nbChapters') ?? 0,
           isFinished: parseBooleanField(objectText, 'isFinished') ?? false,
+          description: parseStringField(objectText, 'description') || '',
         });
       }
     }
@@ -272,6 +274,7 @@ function updateManwhaInFile(filePath: string, manwhaData: any): boolean {
     owned: ${manwha.owned ?? false},
     readPriority: ${manwha.readPriority ?? 1},
     wantToReadAgain: ${manwha.wantToReadAgain ?? false},
+    ratingComment: '${escapeString(manwha.ratingComment || '')}',
   }`
     )
     .join(',\n');
@@ -327,6 +330,7 @@ function updateManwhaIdentityInFile(
     owned: ${manwha.owned ?? false},
     readPriority: ${manwha.readPriority ?? 1},
     wantToReadAgain: ${manwha.wantToReadAgain ?? false},
+    ratingComment: '${escapeString(manwha.ratingComment || '')}',
   }`
     )
     .join(',\n');
@@ -378,6 +382,7 @@ function updateBaseManwhaInFile(filePath: string, manwhaData: any): boolean {
     genre: '${escapeString(manwha.genre || '')}',
     nbChapters: ${manwha.nbChapters ?? 0},
     isFinished: ${manwha.isFinished ?? false},
+    description: '${escapeString(manwha.description || '')}',
   }`
     )
     .join(',\n');
@@ -442,6 +447,7 @@ function removeManwhaFromFile(content: string, payload: any): string {
     owned: ${manwha.owned ?? false},
     readPriority: ${manwha.readPriority ?? 1},
     wantToReadAgain: ${manwha.wantToReadAgain ?? false},
+    ratingComment: '${escapeString(manwha.ratingComment || '')}',
   }`
     )
     .join(',\n');

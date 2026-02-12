@@ -35,6 +35,8 @@ export const getBdDataFromUserBdAndBaseBd = (
   owned: userBd.owned,
   readPriority: userBd.readPriority,
   wantToReadAgain: userBd.wantToReadAgain,
+  description: baseBd?.description ?? '',
+  ratingComment: userBd.ratingComment ?? '',
 });
 
 export const getBookDataFromUserBookAndBaseBook = (
@@ -56,6 +58,8 @@ export const getBookDataFromUserBookAndBaseBook = (
   sagaFinished: baseBook?.sagaFinished || false,
   releaseDate: baseBook?.releaseDate || '',
   wantToReadAgain: userBook.wantToReadAgain,
+  description: baseBook?.description ?? '',
+  ratingComment: userBook.ratingComment ?? '',
 });
 
 export const getComicDataFromUserComicAndBaseComic = (
@@ -74,6 +78,8 @@ export const getComicDataFromUserComicAndBaseComic = (
   owned: userComic.owned,
   readPriority: userComic.readPriority,
   wantToReadAgain: userComic.wantToReadAgain,
+  description: baseComic?.description ?? '',
+  ratingComment: userComic.ratingComment ?? '',
 });
 
 /**
@@ -146,6 +152,8 @@ export const getGameDataFromUserGameAndBaseGame = (
     gamelistPriority: userGame.gamelistPriority,
     wantToPlayAgain: userGame.wantToPlayAgain,
     sessions: userGame.sessions ?? [],
+    description: baseGame?.description ?? '',
+    ratingComment: userGame.ratingComment ?? '',
   };
 };
 
@@ -165,6 +173,8 @@ export const getMangaDataFromUserMangaAndBaseManga = (
   owned: userManga.owned,
   readPriority: userManga.readPriority,
   wantToReadAgain: userManga.wantToReadAgain,
+  description: baseManga?.description ?? '',
+  ratingComment: userManga.ratingComment ?? '',
 });
 
 export const getManwhaDataFromUserManwhaAndBaseManwha = (
@@ -185,6 +195,8 @@ export const getManwhaDataFromUserManwhaAndBaseManwha = (
   owned: userManwha.owned,
   readPriority: userManwha.readPriority,
   wantToReadAgain: userManwha.wantToReadAgain,
+  description: baseManwha?.description ?? '',
+  ratingComment: userManwha.ratingComment ?? '',
 });
 
 export const getMovieDataFromUserMovieAndBaseMovie = (
@@ -207,6 +219,8 @@ export const getMovieDataFromUserMovieAndBaseMovie = (
   saga: baseMovie?.saga || '',
   wantToSeeAgain: userMovie.wantToSeeAgain,
   watchPriority: userMovie.watchPriority,
+  description: baseMovie?.description ?? '',
+  ratingComment: userMovie.ratingComment ?? '',
 });
 
 export const getSerieDataFromUserSerieAndBaseSerie = (
@@ -226,4 +240,6 @@ export const getSerieDataFromUserSerieAndBaseSerie = (
   owned: userSerie.owned,
   watchPriority: userSerie.watchPriority,
   wantToWatchAgain: userSerie.wantToWatchAgain,
+  description: baseSerie?.description ?? '',
+  ratingComment: userSerie.ratingComment ?? '',
 });

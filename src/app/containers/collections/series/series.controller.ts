@@ -22,6 +22,7 @@ export async function updateWatchPriority(
         owned: data.serie.owned,
         watchPriority: data.priority,
         wantToWatchAgain: data.serie.wantToWatchAgain ?? false,
+        ratingComment: data.serie.ratingComment ?? '',
       }),
     });
 
@@ -60,6 +61,7 @@ export async function markSerieAsWantToReWatch(
         owned: serie.owned,
         watchPriority: serie.watchPriority ?? 1,
         wantToWatchAgain: true,
+        ratingComment: serie.ratingComment ?? '',
       }),
     });
     if (!response.ok) {
@@ -90,6 +92,7 @@ export async function markSerieAsReWatched(
         owned: serie.owned,
         watchPriority: serie.watchPriority ?? 1,
         wantToWatchAgain: false,
+        ratingComment: serie.ratingComment ?? '',
       }),
     });
     if (!response.ok) {

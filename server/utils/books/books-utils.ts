@@ -120,6 +120,7 @@ function parseBooksFromFile(content: string): any[] {
             readPriority: parseNumberField(objectText, 'readPriority') ?? 1,
             wantToReadAgain:
               parseBooleanField(objectText, 'wantToReadAgain') ?? false,
+            ratingComment: parseStringField(objectText, 'ratingComment') ?? '',
           });
         }
       }
@@ -221,6 +222,7 @@ function parseBaseBooksFullFromFile(content: string): any[] {
           sagaOrder: parseNumberField(objectText, 'sagaOrder') ?? 0,
           sagaFinished: parseBooleanField(objectText, 'sagaFinished') ?? false,
           releaseDate: parseStringField(objectText, 'releaseDate') || '',
+          description: parseStringField(objectText, 'description') || '',
         });
       }
     }
@@ -382,6 +384,7 @@ function updateBookInFile(content: string, payload: any) {
             'wantToReadAgain',
             payload.wantToReadAgain
           );
+          updated = upsertField(updated, 'ratingComment', payload.ratingComment ?? '');
 
           return (
             content.slice(0, objectStart) +
@@ -508,6 +511,7 @@ function updateBaseBookInFile(content: string, payload: any) {
           updated = upsertField(updated, 'sagaOrder', payload.sagaOrder);
           updated = upsertField(updated, 'sagaFinished', payload.sagaFinished);
           updated = upsertField(updated, 'releaseDate', payload.releaseDate);
+          updated = upsertField(updated, 'description', payload.description ?? '');
 
           return (
             content.slice(0, objectStart) +

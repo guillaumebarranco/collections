@@ -10,5 +10,6 @@ export const guillaumeReadListManwhas: UserManwhas = [
     owned: false,
     readPriority: 2,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 ];

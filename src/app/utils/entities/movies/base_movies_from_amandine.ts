@@ -15,6 +15,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 140,
     genre: 'Horror, Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'Wicked',
@@ -25,6 +26,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 160,
     genre: 'Musical, Fantasy',
     saga: '',
+    description: '',
   },
   {
     title: 'Wonka',
@@ -42,6 +44,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 116,
     genre: 'Fantasy, Family',
     saga: '',
+    description: '',
   },
 
   {
@@ -53,6 +56,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 135,
     genre: 'Musical, Fantasy',
     saga: '',
+    description: '',
   },
   {
     title: "Donjons & Dragons : L'Honneur des voleurs",
@@ -64,6 +68,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 134,
     genre: 'Fantasy, Adventure',
     saga: '',
+    description: '',
   },
   {
     title: 'Il était une fois 2',
@@ -74,6 +79,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 119,
     genre: 'Fantasy, Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Pinocchio',
@@ -88,6 +94,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 117,
     genre: 'Fantasy',
     saga: '',
+    description: '',
   },
   {
     title: 'Blonde',
@@ -98,6 +105,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 166,
     genre: 'Drama, Biography',
     saga: '',
+    description: '',
   },
   {
     title: 'Elvis',
@@ -108,6 +116,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 159,
     genre: 'Drama, Musical',
     saga: '',
+    description: '',
   },
   {
     title: 'Downton Abbey II : Une nouvelle ère',
@@ -118,6 +127,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 125,
     genre: 'Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'Morbius',
@@ -128,6 +138,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 104,
     genre: 'Action, Horror',
     saga: '',
+    description: '',
   },
   {
     title: 'Mort sur le Nil',
@@ -138,6 +149,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 127,
     genre: 'Mystery, Crime',
     saga: '',
+    description: '',
   },
 
   {
@@ -149,6 +161,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 156,
     genre: 'Musical, Romance',
     saga: '',
+    description: '',
   },
   {
     title: 'Cendrillon',
@@ -159,6 +172,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 113,
     genre: 'Musical, Romance',
     saga: '',
+    description: '',
   },
   {
     title: "He's All That",
@@ -169,6 +183,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 88,
     genre: 'Comedy, Romance',
     saga: '',
+    description: '',
   },
   {
     title: "S.O.S. Fantômes : L'Héritage",
@@ -179,6 +194,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 124,
     genre: 'Fantasy, Comedy',
     saga: 'Ghostbusters',
+    description: '',
   },
   {
     title: 'Jungle Cruise',
@@ -189,6 +205,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 127,
     genre: 'Adventure, Fantasy',
     saga: '',
+    description: '',
   },
   {
     title: 'Old',
@@ -199,6 +216,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 108,
     genre: 'Thriller, Mystery',
     saga: '',
+    description: '',
   },
 
   {
@@ -210,6 +228,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 134,
     genre: 'Crime, Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'À tous les garçons : Pour toujours et à jamais',
@@ -220,6 +239,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 115,
     genre: 'Romance, Comedy',
     saga: 'A Tous les Garçons',
+    description: '',
   },
   {
     title: 'Sacrées sorcières',
@@ -230,6 +250,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 106,
     genre: 'Fantasy, Comedy',
     saga: '',
+    description: '',
   },
   {
     title: '2 Hearts',
@@ -240,6 +261,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 100,
     genre: 'Drama, Romance',
     saga: '',
+    description: '',
   },
   {
     title: 'Rebecca',
@@ -250,6 +272,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 123,
     genre: 'Romance, Thriller',
     saga: '',
+    description: '',
   },
   {
     title: 'The Kissing Booth 2',
@@ -260,6 +283,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 132,
     genre: 'Romance, Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Hollywood',
@@ -271,6 +295,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 347,
     genre: 'Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'Love Wedding Repeat',
@@ -281,6 +306,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 100,
     genre: 'Comedy, Romance',
     saga: '',
+    description: '',
   },
   {
     title: 'Emma.',
@@ -291,6 +317,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 124,
     genre: 'Comedy, Romance',
     saga: '',
+    description: '',
   },
   {
     title: "À tous les garçons : P.S. Je t'aime toujours",
@@ -301,6 +328,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 102,
     genre: 'Romance, Comedy',
     saga: 'A Tous les Garçons',
+    description: '',
   },
   {
     title: '1917',
@@ -311,7 +339,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       },
       {
         name: 'Dean-Charles Chapman',
-      }
+      },
     ],
     coverUrl:
       '/movies_pictures/bf49d560a26b1c7f988001ea1d5a8e107e15d34a32d8ae9fe2f6af6f2bda661f.jpg',
@@ -319,6 +347,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 119,
     genre: 'War, Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'The Gentlemen',
@@ -329,6 +358,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 113,
     genre: 'Crime, Action',
     saga: '',
+    description: '',
   },
   {
     title: 'La Belle et le Clochard',
@@ -339,6 +369,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 103,
     genre: 'Romance, Family',
     saga: '',
+    description: '',
   },
 
   {
@@ -350,6 +381,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 119,
     genre: 'Fantasy, Adventure',
     saga: 'Disney Live Action',
+    description: '',
   },
   {
     title: 'The King',
@@ -361,6 +393,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 140,
     genre: 'Historical, Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'Parasite',
@@ -378,6 +411,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 132,
     genre: 'Thriller, Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'Rocketman',
@@ -388,6 +422,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 121,
     genre: 'Biography, Musical',
     saga: '',
+    description: '',
   },
   {
     title: 'Pokémon : Détective Pikachu',
@@ -398,6 +433,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 104,
     genre: 'Mystery, Adventure',
     saga: '',
+    description: '',
   },
   {
     title: 'Dumbo',
@@ -408,6 +444,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 112,
     genre: 'Fantasy, Family',
     saga: 'Disney Live Action',
+    description: '',
   },
   {
     title: 'Le Retour de Mary Poppins',
@@ -418,6 +455,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 130,
     genre: 'Fantasy, Musical',
     saga: '',
+    description: '',
   },
   {
     title: 'Bohemian Rhapsody',
@@ -428,6 +466,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 134,
     genre: 'Biography, Music',
     saga: '',
+    description: '',
   },
   {
     title: 'Mamma Mia! Here We Go Again',
@@ -438,6 +477,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 114,
     genre: 'Musical, Romance',
     saga: '',
+    description: '',
   },
   {
     title: 'Jurassic World: Fallen Kingdom',
@@ -448,6 +488,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 128,
     genre: 'Action, Adventure',
     saga: 'Jurassic',
+    description: '',
   },
   {
     title: 'BlacKkKlansman',
@@ -458,6 +499,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 135,
     genre: 'Crime, Biography',
     saga: '',
+    description: '',
   },
   {
     title: 'Tomb Raider',
@@ -468,6 +510,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 118,
     genre: 'Action, Adventure',
     saga: '',
+    description: '',
   },
   {
     title: 'Pitch Perfect 3',
@@ -478,6 +521,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 93,
     genre: 'Comedy, Music',
     saga: '',
+    description: '',
   },
   {
     title: 'The Greatest Showman',
@@ -489,6 +533,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 105,
     genre: 'Musical, Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'Paddington 2',
@@ -499,6 +544,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 104,
     genre: 'Family, Comedy',
     saga: '',
+    description: '',
   },
   {
     title: "Le Crime de l'Orient-Express",
@@ -509,6 +555,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 114,
     genre: 'Mystery, Crime',
     saga: 'Hercule Poirot',
+    description: '',
   },
 
   {
@@ -520,6 +567,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 127,
     genre: 'Fantasy, Adventure',
     saga: '',
+    description: '',
   },
   {
     title: 'Lion',
@@ -530,6 +578,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 118,
     genre: 'Drama, Biography',
     saga: '',
+    description: '',
   },
 
   {
@@ -541,6 +590,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 123,
     genre: 'Fantasy, Action',
     saga: '',
+    description: '',
   },
 
   {
@@ -553,6 +603,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 121,
     genre: 'Comedy, Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'Jurassic World',
@@ -563,6 +614,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 124,
     genre: 'Action, Adventure',
     saga: 'Jurassic',
+    description: '',
   },
   {
     title: 'Pitch Perfect 2',
@@ -573,6 +625,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 115,
     genre: 'Comedy, Music',
     saga: '',
+    description: '',
   },
   {
     title: 'Cendrillon',
@@ -583,6 +636,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 113,
     genre: 'Fantasy, Romance',
     saga: '',
+    description: '',
   },
   {
     title: 'Paddington',
@@ -593,6 +647,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 95,
     genre: 'Family, Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Big Eyes',
@@ -603,6 +658,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 106,
     genre: 'Biography, Drama',
     saga: '',
+    description: '',
   },
 
   {
@@ -614,6 +670,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 126,
     genre: 'Sci-Fi, Thriller',
     saga: '',
+    description: '',
   },
   {
     title: 'About Time',
@@ -628,6 +685,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 123,
     genre: 'Romance, Fantasy',
     saga: '',
+    description: '',
   },
 
   {
@@ -639,6 +697,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 130,
     genre: 'Fantasy, Adventure',
     saga: '',
+    description: '',
   },
   {
     title: 'Warm Bodies',
@@ -649,6 +708,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 98,
     genre: 'Romance, Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Les Misérables',
@@ -659,6 +719,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 158,
     genre: 'Musical, Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'Le Hobbit : Un voyage inattendu',
@@ -669,6 +730,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 169,
     genre: 'Fantasy, Adventure',
     saga: 'Tolkien',
+    description: '',
   },
   {
     title: 'Pitch Perfect',
@@ -680,6 +742,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 112,
     genre: 'Comedy, Music',
     saga: '',
+    description: '',
   },
 
   {
@@ -695,6 +758,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 106,
     genre: 'Comedy, Fantasy',
     saga: '',
+    description: '',
   },
   {
     title: 'Dark Shadows',
@@ -705,6 +769,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 113,
     genre: 'Comedy, Fantasy',
     saga: '',
+    description: '',
   },
 
   {
@@ -716,6 +781,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 107,
     genre: 'Adventure, Mystery',
     saga: '',
+    description: '',
   },
   {
     title: 'Hugo',
@@ -726,6 +792,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 126,
     genre: 'Adventure, Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'Minuit à Paris',
@@ -736,6 +803,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 94,
     genre: 'Romance, Fantasy',
     saga: '',
+    description: '',
   },
 
   {
@@ -747,6 +815,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 154,
     genre: 'Drama, Comedy',
     saga: '',
+    description: '',
   },
   {
     title: "L'Apprenti sorcier",
@@ -757,6 +826,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 109,
     genre: 'Fantasy, Adventure',
     saga: '',
+    description: '',
   },
   {
     title: 'Sherlock Holmes',
@@ -767,6 +837,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 128,
     genre: 'Action, Mystery',
     saga: '',
+    description: '',
   },
   {
     title: 'Lovely Bones',
@@ -777,6 +848,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 135,
     genre: 'Drama, Fantasy',
     saga: '',
+    description: '',
   },
   {
     title: "Jennifer's Body",
@@ -787,6 +859,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 102,
     genre: 'Horror, Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'District 9',
@@ -797,6 +870,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 112,
     genre: 'Sci-Fi, Thriller',
     saga: '',
+    description: '',
   },
   {
     title: 'Orphan',
@@ -808,6 +882,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 123,
     genre: 'Horror, Thriller',
     saga: '',
+    description: '',
   },
   {
     title: 'Public Enemies',
@@ -822,6 +897,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 140,
     genre: 'Crime, Drama',
     saga: '',
+    description: '',
   },
 
   {
@@ -833,6 +909,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 89,
     genre: 'Comedy, Romance',
     saga: '',
+    description: '',
   },
   {
     title: "L'Étrange Histoire de Benjamin Button",
@@ -843,6 +920,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 166,
     genre: 'Drama, Fantasy',
     saga: '',
+    description: '',
   },
 
   {
@@ -854,6 +932,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 108,
     genre: 'Musical, Romance',
     saga: '',
+    description: '',
   },
   {
     title: 'Le Monde de Narnia : Le Prince Caspian',
@@ -864,6 +943,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 150,
     genre: 'Fantasy, Adventure',
     saga: 'Narnia',
+    description: '',
   },
   {
     title: 'Sex and the City',
@@ -874,6 +954,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 145,
     genre: 'Comedy, Romance',
     saga: '',
+    description: '',
   },
   {
     title: '27 Robes',
@@ -884,6 +965,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 111,
     genre: 'Comedy, Romance',
     saga: '',
+    description: '',
   },
   {
     title: 'Alvin et les Chipmunks',
@@ -894,6 +976,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 92,
     genre: 'Comedy, Family',
     saga: '',
+    description: '',
   },
   {
     title: 'Sweeney Todd : Le Diabolique Barbier de Fleet Street',
@@ -904,6 +987,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 116,
     genre: 'Musical, Horror',
     saga: '',
+    description: '',
   },
   {
     title: 'Enchanted',
@@ -914,6 +998,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 107,
     genre: 'Fantasy, Romance',
     saga: '',
+    description: '',
   },
   {
     title: 'P.S. I Love You',
@@ -924,6 +1009,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 126,
     genre: 'Romance, Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'Stardust',
@@ -934,6 +1020,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 127,
     genre: 'Fantasy, Adventure',
     saga: '',
+    description: '',
   },
   {
     title: 'Hairspray',
@@ -944,6 +1031,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 117,
     genre: 'Musical, Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Le Secret de Terabithia',
@@ -954,6 +1042,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 96,
     genre: 'Fantasy, Drama',
     saga: '',
+    description: '',
   },
 
   {
@@ -965,6 +1054,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 118,
     genre: 'Fantasy, War',
     saga: '',
+    description: '',
   },
   {
     title: 'Marie Antoinette',
@@ -975,6 +1065,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 123,
     genre: 'Historical, Drama',
     saga: '',
+    description: '',
   },
 
   {
@@ -986,6 +1077,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 121,
     genre: 'Fantasy, Horror',
     saga: '',
+    description: '',
   },
   {
     title: 'Aviator',
@@ -1000,6 +1092,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 170,
     genre: 'Biography, Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'Les déstreuses aventures des Orphelins Baudelaire',
@@ -1010,6 +1103,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 108,
     genre: 'Adventure, Family',
     saga: '',
+    description: '',
   },
 
   {
@@ -1021,6 +1115,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 113,
     genre: 'Comedy, Romance',
     saga: '',
+    description: '',
   },
 
   {
@@ -1032,6 +1127,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 108,
     genre: 'Thriller, Mystery',
     saga: '',
+    description: '',
   },
   {
     title: 'Comme Cendrillon',
@@ -1042,6 +1138,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 95,
     genre: 'Comedy, Romance',
     saga: '',
+    description: '',
   },
   {
     title: 'Troy',
@@ -1053,6 +1150,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 163,
     genre: 'Action, Historical',
     saga: '',
+    description: '',
   },
   {
     title: 'Lolita malgré moi',
@@ -1063,6 +1161,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 97,
     genre: 'Comedy, Teen',
     saga: '',
+    description: '',
   },
   {
     title: '30 ans sinon rien',
@@ -1073,6 +1172,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 98,
     genre: 'Comedy, Fantasy',
     saga: '',
+    description: '',
   },
   {
     title: 'Ella au pays enchanté',
@@ -1083,6 +1183,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 96,
     genre: 'Fantasy, Adventure',
     saga: '',
+    description: '',
   },
   {
     title: 'Une nana au poil',
@@ -1093,6 +1194,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 97,
     genre: 'Comedy, Fantasy',
     saga: '',
+    description: '',
   },
   {
     title: 'Big Fish',
@@ -1103,6 +1205,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 125,
     genre: 'Fantasy, Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'Le Manoir hanté et les 999 Fantômes',
@@ -1113,6 +1216,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 99,
     genre: 'Comedy, Fantasy',
     saga: '',
+    description: '',
   },
   {
     title: 'Le Dernier Samouraï',
@@ -1123,6 +1227,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 154,
     genre: 'Historical, Action',
     saga: '',
+    description: '',
   },
 
   {
@@ -1134,6 +1239,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 87,
     genre: 'Comedy, Family',
     saga: '',
+    description: '',
   },
   {
     title: 'Un vendredi dingue, dingue, dingue',
@@ -1144,6 +1250,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 0,
     genre: '',
     saga: '',
+    description: '',
   },
   {
     title: "Comment se débarrasser d'un mec en 10 jours",
@@ -1154,6 +1261,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 116,
     genre: 'Comedy, Romance',
     saga: '',
+    description: '',
   },
   {
     title: 'Thirteen',
@@ -1164,6 +1272,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 100,
     genre: 'Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'Chicago',
@@ -1174,6 +1283,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 113,
     genre: 'Musical, Crime',
     saga: '',
+    description: '',
   },
 
   {
@@ -1185,6 +1295,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 96,
     genre: 'Fantasy, Romance',
     saga: '',
+    description: '',
   },
   {
     title: '8 Mile',
@@ -1195,6 +1306,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 110,
     genre: 'Drama, Music',
     saga: '',
+    description: '',
   },
 
   {
@@ -1206,6 +1318,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 118,
     genre: 'Thriller, Crime',
     saga: '',
+    description: '',
   },
   {
     title: 'Princesse malgré elle',
@@ -1216,6 +1329,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 111,
     genre: 'Comedy, Romance',
     saga: '',
+    description: '',
   },
   {
     title: 'The Others',
@@ -1226,6 +1340,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 104,
     genre: 'Horror, Mystery',
     saga: '',
+    description: '',
   },
   {
     title: 'La Planète des singes',
@@ -1236,6 +1351,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 119,
     genre: 'Sci-Fi, Adventure',
     saga: '',
+    description: '',
   },
 
   {
@@ -1247,6 +1363,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 96,
     genre: 'Comedy, Romance',
     saga: '',
+    description: '',
   },
   {
     title: 'A.I. Intelligence artificielle',
@@ -1257,6 +1374,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 146,
     genre: 'Sci-Fi, Drama',
     saga: '',
+    description: '',
   },
 
   {
@@ -1268,6 +1386,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 127,
     genre: 'Musical, Romance',
     saga: '',
+    description: '',
   },
   {
     title: 'Le Journal de Bridget Jones',
@@ -1278,6 +1397,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 97,
     genre: 'Comedy, Romance',
     saga: '',
+    description: '',
   },
 
   {
@@ -1289,6 +1409,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 104,
     genre: 'Comedy, Family',
     saga: '',
+    description: '',
   },
   {
     title: 'Drôles de dames',
@@ -1300,6 +1421,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 98,
     genre: 'Action, Adventure',
     saga: '',
+    description: '',
   },
   {
     title: 'Mon beau-père et moi',
@@ -1310,6 +1432,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 108,
     genre: 'Comedy, Romance',
     saga: 'Mon Beau-Père et... Moi',
+    description: '',
   },
 
   {
@@ -1321,6 +1444,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 110,
     genre: 'Drama',
     saga: '',
+    description: '',
   },
 
   {
@@ -1332,6 +1456,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 84,
     genre: 'Family, Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Sleepy Hollow',
@@ -1342,6 +1467,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 105,
     genre: 'Horror, Mystery',
     saga: '',
+    description: '',
   },
   {
     title: 'Fight Club',
@@ -1352,6 +1478,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 139,
     genre: 'Drama, Thriller',
     saga: '',
+    description: '',
   },
   {
     title: '10 bonnes raisons de te larguer',
@@ -1362,6 +1489,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 97,
     genre: 'Romance, Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Elle est trop bien',
@@ -1372,6 +1500,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 95,
     genre: 'Romance, Comedy',
     saga: '',
+    description: '',
   },
 
   {
@@ -1383,6 +1512,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 128,
     genre: 'Comedy, Family',
     saga: '',
+    description: '',
   },
   {
     title: 'Mary à tout prix',
@@ -1393,6 +1523,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 119,
     genre: 'Comedy, Romance',
     saga: '',
+    description: '',
   },
 
   {
@@ -1405,6 +1536,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 93,
     genre: 'Comedy, Family',
     saga: '',
+    description: '',
   },
 
   {
@@ -1416,6 +1548,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 195,
     genre: 'Romance, Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'Tower of Terror',
@@ -1426,6 +1559,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 89,
     genre: 'Mystery, Family',
     saga: '',
+    description: '',
   },
   {
     title: "Souviens-toi... l'été dernier",
@@ -1439,6 +1573,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 101,
     genre: 'Horror, Thriller',
     saga: '',
+    description: '',
   },
   {
     title: 'Gattaca',
@@ -1449,6 +1584,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 106,
     genre: 'Sci-Fi, Thriller',
     saga: '',
+    description: '',
   },
   {
     title: 'Face/Off',
@@ -1460,6 +1596,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 138,
     genre: 'Action, Thriller',
     saga: '',
+    description: '',
   },
   {
     title: 'Austin Powers',
@@ -1470,6 +1607,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 94,
     genre: 'Comedy, Spy',
     saga: 'Austin Powers',
+    description: '',
   },
   {
     title: 'Mars Attacks !',
@@ -1480,6 +1618,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 106,
     genre: 'Sci-Fi, Comedy',
     saga: '',
+    description: '',
   },
 
   {
@@ -1491,6 +1630,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 120,
     genre: 'Romance, Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'Matilda',
@@ -1501,6 +1641,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 98,
     genre: 'Comedy, Family',
     saga: '',
+    description: '',
   },
 
   {
@@ -1512,6 +1653,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 130,
     genre: 'Action, Spy',
     saga: '',
+    description: '',
   },
   {
     title: 'Casper',
@@ -1522,6 +1664,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 100,
     genre: 'Fantasy, Family',
     saga: '',
+    description: '',
   },
   {
     title: 'Braveheart',
@@ -1532,6 +1675,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 178,
     genre: 'Historical, Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'Super Noël',
@@ -1542,6 +1686,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 97,
     genre: 'Comedy, Family',
     saga: '',
+    description: '',
   },
   {
     title: 'Entretien avec un vampire',
@@ -1553,6 +1698,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 123,
     genre: 'Horror, Drama',
     saga: '',
+    description: '',
   },
 
   {
@@ -1564,6 +1710,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 86,
     genre: 'Comedy, Mystery',
     saga: '',
+    description: '',
   },
 
   {
@@ -1575,6 +1722,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 101,
     genre: 'Comedy, Fantasy',
     saga: '',
+    description: '',
   },
   {
     title: '3 Ninjas',
@@ -1585,6 +1733,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 104,
     genre: 'Action, Family',
     saga: '',
+    description: '',
   },
   {
     title: 'Strictly Ballroom',
@@ -1595,6 +1744,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 94,
     genre: 'Romance, Dance',
     saga: '',
+    description: '',
   },
   {
     title: 'JFK',
@@ -1605,6 +1755,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 189,
     genre: 'Drama, Thriller',
     saga: '',
+    description: '',
   },
   {
     title: 'La Famille Addams',
@@ -1615,6 +1766,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 102,
     genre: 'Comedy, Fantasy',
     saga: '',
+    description: '',
   },
   {
     title: 'Hook ou la Revanche du capitaine Crochet',
@@ -1625,6 +1777,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 142,
     genre: 'Adventure, Fantasy',
     saga: '',
+    description: '',
   },
   {
     title: "Edward aux mains d'argent",
@@ -1635,6 +1788,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 105,
     genre: 'Fantasy, Romance',
     saga: '',
+    description: '',
   },
   {
     title: 'Ghost',
@@ -1645,6 +1799,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 127,
     genre: 'Romance, Fantasy',
     saga: '',
+    description: '',
   },
 
   {
@@ -1656,6 +1811,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 92,
     genre: 'Comedy, Fantasy',
     saga: '',
+    description: '',
   },
 
   {
@@ -1667,6 +1823,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 101,
     genre: 'Fantasy, Adventure',
     saga: '',
+    description: '',
   },
   {
     title: 'Gremlins',
@@ -1677,6 +1834,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 106,
     genre: 'Horror, Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'S.O.S. Fantômes',
@@ -1687,6 +1845,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 105,
     genre: 'Comedy, Fantasy',
     saga: 'Ghostbusters',
+    description: '',
   },
 
   {
@@ -1698,6 +1857,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 115,
     genre: 'Musical, Romance',
     saga: '',
+    description: '',
   },
   {
     title: 'The Blues Brothers',
@@ -1708,6 +1868,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 133,
     genre: 'Comedy, Musical',
     saga: '',
+    description: '',
   },
   {
     title: 'Halloween',
@@ -1718,6 +1879,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 91,
     genre: 'Horror, Thriller',
     saga: '',
+    description: '',
   },
   {
     title: 'Grease',
@@ -1728,6 +1890,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 110,
     genre: 'Musical, Romance',
     saga: '',
+    description: '',
   },
 
   {
@@ -1739,6 +1902,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 174,
     genre: 'Musical, Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'Mary Poppins',
@@ -1749,6 +1913,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 139,
     genre: 'Fantasy, Musical',
     saga: 'Disney Classique',
+    description: '',
   },
   {
     title: 'Les Parapluies de Cherbourg',
@@ -1759,6 +1924,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 91,
     genre: 'Musical, Romance',
     saga: '',
+    description: '',
   },
   {
     title: 'West Side Story',
@@ -1769,6 +1935,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 152,
     genre: 'Musical, Romance',
     saga: '',
+    description: '',
   },
 
   {
@@ -1780,6 +1947,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 118,
     genre: 'Romance, Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Chantons sous la pluie',
@@ -1790,6 +1958,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 103,
     genre: 'Musical, Romance',
     saga: '',
+    description: '',
   },
 
   {
@@ -1801,5 +1970,6 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     length: 102,
     genre: 'Fantasy, Musical',
     saga: '',
+    description: '',
   },
 ];

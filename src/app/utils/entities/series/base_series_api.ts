@@ -23,6 +23,7 @@ export const baseSeriesApi: BaseSerie[] = [
         totalLength: 259,
       },
     ],
+    description: '',
   },
 
   {
@@ -37,7 +38,7 @@ export const baseSeriesApi: BaseSerie[] = [
       },
       {
         name: 'Walton Goggins',
-      }
+      },
     ],
     coverUrl: '/series_pictures/fallout.jpg',
     releaseDate: '2024-04-10',
@@ -53,8 +54,9 @@ export const baseSeriesApi: BaseSerie[] = [
         seasonNumber: 2,
         nbEpisodes: 8,
         totalLength: 440,
-      }
+      },
     ],
+    description: '',
   },
 
   {
@@ -82,6 +84,7 @@ export const baseSeriesApi: BaseSerie[] = [
         totalLength: 0,
       },
     ],
+    description: '',
   },
 
   {
@@ -117,6 +120,7 @@ export const baseSeriesApi: BaseSerie[] = [
         totalLength: 0,
       },
     ],
+    description: '',
   },
 
   {
@@ -128,7 +132,7 @@ export const baseSeriesApi: BaseSerie[] = [
       },
       {
         name: 'Ben Kingsley',
-      }
+      },
     ],
     coverUrl: '/series_pictures/wonder-man.jpg',
     releaseDate: '2026-01-28',
@@ -139,8 +143,9 @@ export const baseSeriesApi: BaseSerie[] = [
         seasonNumber: 1,
         nbEpisodes: 8,
         totalLength: 267,
-      }
+      },
     ],
+    description: '',
   },
 
   {
@@ -168,5 +173,6 @@ export const baseSeriesApi: BaseSerie[] = [
         totalLength: 391,
       },
     ],
+    description: '',
   },
 ];

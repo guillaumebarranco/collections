@@ -41,6 +41,7 @@ router.post('/', (req: any, res: any) => {
       readPriority: normalizeNumber(input.readPriority, 'readPriority'),
       wantToReadAgain:
         normalizeBoolean(input.wantToReadAgain, 'wantToReadAgain') ?? false,
+      ratingComment: normalizeString(input.ratingComment, 'ratingComment') ?? '',
     };
 
     const entityPayload = input.entity || null;
@@ -108,6 +109,7 @@ router.post('/', (req: any, res: any) => {
           'sagaFinished'
         ),
         releaseDate: normalizeString(entityPayload.releaseDate, 'releaseDate'),
+        description: normalizeString(entityPayload.description, 'description') ?? '',
       });
 
       if (originalTitle || originalAuthor) {

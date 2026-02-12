@@ -12,6 +12,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'La Nuit au musée 2',
@@ -24,6 +25,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Banlieue 13',
@@ -36,6 +38,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Banlieue 13 : Ultimatum',
@@ -48,6 +51,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Resident Evil',
@@ -60,6 +64,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Resident Evil : Apocalypse',
@@ -72,6 +77,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Resident Evil : Extinction',
@@ -84,6 +90,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Resident Evil : Afterlife',
@@ -96,6 +103,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Resident Evil : Retribution',
@@ -108,6 +116,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Rush Hour',
@@ -120,6 +129,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Rush Hour 2',
@@ -132,6 +142,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Rush Hour 3',
@@ -144,6 +155,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "Ocean's Eleven",
@@ -156,6 +168,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "Ocean's Twelve",
@@ -168,6 +181,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "Ocean's Thirteen",
@@ -180,6 +194,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "Ocean's Eight",
@@ -192,6 +207,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Pirates des Caraïbes : La malédiction du Black Pearl',
@@ -204,6 +220,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Pirates des Caraïbes 2 : Le Secret du Coffre Maudit',
@@ -216,6 +233,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "Pirates des Caraïbes 3 : Jusqu'au Bout du Monde",
@@ -228,6 +246,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Taxi',
@@ -240,6 +259,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Taxi 2',
@@ -252,6 +272,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Taxi 3',
@@ -264,6 +285,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: true,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Taxi 4',
@@ -276,6 +298,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Scary Movie',
@@ -288,6 +311,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Scary Movie 2',
@@ -300,6 +324,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Scary Movie 3',
@@ -312,6 +337,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Scary Movie 4',
@@ -324,6 +350,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Kill Bill: Vol. 1',
@@ -336,6 +363,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Kill Bill: Vol. 2',
@@ -348,6 +376,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Hellboy',
@@ -360,6 +389,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "Hellboy 2 : Les Légions d'Or Maudites",
@@ -372,6 +402,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Les bronzés',
@@ -384,6 +415,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Les bronzés font du ski',
@@ -396,6 +428,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Les Bronzés 3 : Amis pour la Vie',
@@ -408,6 +441,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Transporteur',
@@ -420,6 +454,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Transporteur 2',
@@ -432,6 +467,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Transporteur 3',
@@ -444,6 +480,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'xXx',
@@ -456,6 +493,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'xXx² : The Next Level',
@@ -468,6 +506,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Sin City',
@@ -480,6 +519,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "Sin City : J'ai Tué pour Elle",
@@ -492,6 +532,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Blade',
@@ -504,6 +545,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Blade II',
@@ -516,6 +558,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Blade : Trinity',
@@ -528,6 +571,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Scooby-Doo',
@@ -540,6 +584,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Scooby-Doo 2: Monsters Unleashed',
@@ -552,6 +597,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Matrix',
@@ -564,6 +610,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'The Matrix Reloaded',
@@ -576,6 +623,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'The Matrix Revolutions',
@@ -588,6 +636,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Spy Kids',
@@ -600,6 +649,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Spy Kids 2 : Espions en herbe',
@@ -612,6 +662,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Spy Kids 3-D: Game Over',
@@ -624,6 +675,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Bad Boys',
@@ -636,6 +688,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Bad Boys II',
@@ -648,6 +701,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Men in Black',
@@ -660,6 +714,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Men in Black II',
@@ -672,6 +727,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Men in Black 3',
@@ -684,6 +740,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Lara Croft : Tomb Raider',
@@ -696,6 +753,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Tomb Raider : le berceau de la vie',
@@ -708,6 +766,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'La Momie',
@@ -720,6 +779,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Retour de la Momie',
@@ -732,6 +792,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "La momie : la tombe de l'empereur dragon",
@@ -744,6 +805,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "L'arme fatale",
@@ -756,6 +818,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "L'arme fatale 2",
@@ -768,6 +831,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "L'arme fatale 3",
@@ -780,6 +844,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "L'arme fatale 4",
@@ -792,6 +857,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Predator',
@@ -804,6 +870,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Predator 2',
@@ -816,6 +883,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Predators',
@@ -828,6 +896,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Alien',
@@ -840,6 +909,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Aliens',
@@ -852,6 +922,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Alien 3',
@@ -864,6 +935,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Alien : La Résurrection',
@@ -876,6 +948,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Alien vs. Predator',
@@ -888,6 +961,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Alien vs. Predator : Requiem',
@@ -900,6 +974,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Independence Day',
@@ -912,6 +987,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "Maman j'ai raté l'avion",
@@ -924,6 +1000,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "Maman j'ai raté l'avion 2",
@@ -936,6 +1013,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Retour vers le futur',
@@ -948,6 +1026,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Retour vers le futur 2',
@@ -960,6 +1039,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Retour vers le futur 3',
@@ -972,6 +1052,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Rambo : First Blood',
@@ -984,6 +1065,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Rambo 2 : la mission',
@@ -996,6 +1078,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Rambo 3',
@@ -1008,6 +1091,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'John Rambo',
@@ -1020,6 +1104,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Parrain',
@@ -1032,6 +1117,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Parrain 2',
@@ -1044,6 +1130,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Scream',
@@ -1056,6 +1143,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Scream 2',
@@ -1068,6 +1156,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Scream 3',
@@ -1080,6 +1169,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Scream 4',
@@ -1092,6 +1182,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Avatar',
@@ -1104,6 +1195,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "Avatar : La Voie de l'Eau",
@@ -1116,6 +1208,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'American Pie',
@@ -1128,6 +1221,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'American Pie 2',
@@ -1140,6 +1234,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'American Pie 3 : Marions-les',
@@ -1152,6 +1247,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'American Pie Presents: Beta House',
@@ -1164,6 +1260,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'American Pie Presents: The Naked Mile',
@@ -1176,6 +1273,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'American Pie Presents: Band Camp',
@@ -1188,6 +1286,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'American Pie Presents: The Book of Love',
@@ -1200,6 +1299,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'American Pie 4',
@@ -1212,5 +1312,6 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 ];

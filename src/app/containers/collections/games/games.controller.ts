@@ -23,6 +23,7 @@ export async function updateGamelistPriority(
         gamelistPriority: data.priority,
         wantToPlayAgain: data.game.wantToPlayAgain ?? false,
         sessions: data.game.sessions ?? [],
+        ratingComment: data.game.ratingComment ?? '',
       }),
     });
 
@@ -62,6 +63,7 @@ export async function markGameAsWantToRePlay(
         gamelistPriority: game.gamelistPriority ?? 1,
         wantToPlayAgain: true,
         sessions: game.sessions ?? [],
+        ratingComment: game.ratingComment ?? '',
       }),
     });
     if (!response.ok) {
@@ -93,6 +95,7 @@ export async function markGameAsRePlayed(
         gamelistPriority: game.gamelistPriority ?? 1,
         wantToPlayAgain: false,
         sessions: game.sessions ?? [],
+        ratingComment: game.ratingComment ?? '',
       }),
     });
     if (!response.ok) {

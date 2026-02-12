@@ -60,10 +60,13 @@
         </button>
       }
     </div>
-    } @if (movie.length > 0) {
+    }     @if (movie.length > 0) {
     <p class="movie-length">{{ movie.length }} min</p>
     }
     <p class="movie-release-date">{{ movie.releaseDate | date : "yyyy" }}</p>
+    @if (movie.description) {
+    <p class="movie-description">{{ movie.description }}</p>
+    }
     @if (movie.timesWatched && movie.timesWatched > 1 && !isBaseEntityView) {
     <p class="movie-times-watched">🎬 Visionné {{ movie.timesWatched }} fois</p>
 
@@ -77,6 +80,9 @@
       </span>
       <span class="rating-text">{{ movie.rating }}/5</span>
     </div>
+    @if (movie.ratingComment) {
+    <p class="movie-rating-comment">{{ movie.ratingComment }}</p>
+    }
     } @if (isBaseEntityView) {
     <p class="movie-genre">{{ movie.genre }}</p>
     } @if (recommendationView()) {

@@ -10,5 +10,6 @@ export const guillaumeComics: UserComics = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 ];

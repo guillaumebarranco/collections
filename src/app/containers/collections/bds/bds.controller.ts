@@ -21,6 +21,7 @@ export async function updateReadPriority(
         owned: data.bd.owned,
         readPriority: data.priority,
         wantToReadAgain: data.bd.wantToReadAgain ?? false,
+        ratingComment: data.bd.ratingComment ?? '',
       }),
     });
 
@@ -61,6 +62,7 @@ export async function markBdAsWantToReRead(
         owned: bd.owned,
         readPriority: bd.readPriority ?? 1,
         wantToReadAgain: true,
+        ratingComment: bd.ratingComment ?? '',
       }),
     });
     if (!response.ok) {
@@ -93,6 +95,7 @@ export async function markBdAsReRead(
         owned: bd.owned,
         readPriority: bd.readPriority ?? 1,
         wantToReadAgain: false,
+        ratingComment: bd.ratingComment ?? '',
       }),
     });
     if (!response.ok) {

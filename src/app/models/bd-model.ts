@@ -10,6 +10,7 @@ export interface BaseBd extends MandatoryBdData {
   nbTomes?: number;
   isFinished?: boolean;
   designer: string;
+  description: string;
 }
 
 export interface UserBd extends MandatoryBdData {
@@ -19,6 +20,7 @@ export interface UserBd extends MandatoryBdData {
   owned: boolean;
   readPriority: 1 | 2 | 3;
   wantToReadAgain: boolean;
+  ratingComment: string;
 }
 
 export type UserBds = UserBd[];

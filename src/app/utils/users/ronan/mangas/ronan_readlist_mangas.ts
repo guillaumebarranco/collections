@@ -10,6 +10,7 @@ export const ronanReadListMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -21,6 +22,7 @@ export const ronanReadListMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -32,6 +34,7 @@ export const ronanReadListMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -43,6 +46,7 @@ export const ronanReadListMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -54,6 +58,7 @@ export const ronanReadListMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -65,6 +70,7 @@ export const ronanReadListMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -76,6 +82,7 @@ export const ronanReadListMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -87,6 +94,7 @@ export const ronanReadListMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -98,6 +106,7 @@ export const ronanReadListMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -109,6 +118,7 @@ export const ronanReadListMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -120,6 +130,7 @@ export const ronanReadListMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -131,5 +142,6 @@ export const ronanReadListMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 ];

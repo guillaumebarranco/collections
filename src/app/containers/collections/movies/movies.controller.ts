@@ -26,6 +26,7 @@ export async function updateWatchPriority(
         owned: data.movie.owned,
         wantToSeeAgain: data.movie.wantToSeeAgain,
         watchPriority: data.priority,
+        ratingComment: data.movie.ratingComment ?? '',
       }),
     });
 
@@ -68,6 +69,7 @@ export async function markMovieAsReWatched(
         owned: movie.owned,
         wantToSeeAgain: false,
         watchPriority: movie.watchPriority ?? 0,
+        ratingComment: movie.ratingComment ?? '',
       }),
     });
 
@@ -109,6 +111,7 @@ export async function markMovieAsWantToReWatch(
         owned: movie.owned,
         wantToSeeAgain: true,
         watchPriority: movie.watchPriority ?? 0,
+        ratingComment: movie.ratingComment ?? '',
       }),
     });
 

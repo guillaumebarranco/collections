@@ -12,6 +12,7 @@ type AddBdEntityForm = {
   genre: string;
   nbTomes: number;
   isFinished: boolean;
+  description: string;
 };
 
 type AddBdUserForm = {
@@ -19,6 +20,7 @@ type AddBdUserForm = {
   readTimes: number;
   readDate: string;
   owned: boolean;
+  ratingComment: string;
 };
 
 type AddBdDialogData = {
@@ -50,6 +52,7 @@ export class AddBdComponent {
     genre: '',
     nbTomes: 0,
     isFinished: true,
+    description: '',
   });
 
   userForm = signal<AddBdUserForm>({
@@ -57,6 +60,7 @@ export class AddBdComponent {
     readTimes: 1,
     readDate: '',
     owned: false,
+    ratingComment: '',
   });
 
   close() {
@@ -71,9 +75,7 @@ export class AddBdComponent {
     let nextValue: AddBdEntityForm[K] = value as AddBdEntityForm[K];
     if (field === 'nbTomes') {
       const asNumber = Number(value);
-      nextValue = (
-        Number.isNaN(asNumber) ? 0 : asNumber
-      ) as AddBdEntityForm[K];
+      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as AddBdEntityForm[K];
     }
     this.entityForm.set({
       ...current,
@@ -89,9 +91,7 @@ export class AddBdComponent {
     let nextValue: AddBdUserForm[K] = value as AddBdUserForm[K];
     if (field === 'rating' || field === 'readTimes') {
       const asNumber = Number(value);
-      nextValue = (
-        Number.isNaN(asNumber) ? 0 : asNumber
-      ) as AddBdUserForm[K];
+      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as AddBdUserForm[K];
     }
     this.userForm.set({
       ...current,

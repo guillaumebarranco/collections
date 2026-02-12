@@ -27,6 +27,7 @@ type EditBdForm = {
   readDate: string;
   owned: boolean;
   wantToReadAgain: boolean;
+  ratingComment: string;
 };
 
 type EditBdEntityForm = {
@@ -36,6 +37,7 @@ type EditBdEntityForm = {
   isFinished: boolean;
   writer: string;
   coverUrl: string;
+  description: string;
 };
 
 type EditBdDialogData = {
@@ -236,6 +238,7 @@ export class EditBdComponent {
           readDate: form.readDate,
           owned: form.owned,
           wantToReadAgain: form.wantToReadAgain,
+          ratingComment: form.ratingComment ?? '',
           entity: this.isAdminView()
             ? this.toEntityPayload(this.bdEntityForm())
             : undefined,
@@ -426,6 +429,7 @@ export class EditBdComponent {
       readDate: bd.readDate,
       owned: bd.owned,
       wantToReadAgain: bd.wantToReadAgain ?? false,
+      ratingComment: bd.ratingComment ?? '',
     };
   }
 
@@ -437,6 +441,7 @@ export class EditBdComponent {
       isFinished: bd.isFinished !== false,
       writer: bd.writer || '',
       coverUrl: bd.coverUrl || '',
+      description: bd.description ?? '',
     };
   }
 
@@ -449,6 +454,7 @@ export class EditBdComponent {
       isFinished: form.isFinished,
       writer: form.writer,
       coverUrl: form.coverUrl,
+      description: form.description ?? '',
     };
   }
 

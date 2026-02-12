@@ -15,6 +15,7 @@ type AddGameEntityForm = {
   platform: string;
   saga: string;
   platineTime: number;
+  description: string;
 };
 
 type SessionCompletionType = 'platined' | 'hundred' | 'finished' | 'none';
@@ -30,6 +31,7 @@ type AddGameUserForm = {
   owned: boolean;
   gamelistPriority: number;
   wantToPlayAgain: boolean;
+  ratingComment: string;
 };
 
 type AddGameDialogData = {
@@ -63,6 +65,7 @@ export class AddGameComponent {
     platform: '',
     saga: '',
     platineTime: 0,
+    description: '',
   });
 
   userForm = signal<AddGameUserForm>({
@@ -71,6 +74,7 @@ export class AddGameComponent {
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
+    ratingComment: '',
   });
 
   close() {
@@ -111,7 +115,10 @@ export class AddGameComponent {
     });
   }
 
-  updateSessionCompletion(sessionIndex: number, completion: SessionCompletionType) {
+  updateSessionCompletion(
+    sessionIndex: number,
+    completion: SessionCompletionType
+  ) {
     const current = this.userForm();
     if (sessionIndex < 0 || sessionIndex >= current.sessions.length) return;
     const next = [...current.sessions];
@@ -135,7 +142,10 @@ export class AddGameComponent {
     const current = this.userForm();
     this.userForm.set({
       ...current,
-      sessions: [...current.sessions, { completion: 'none', additionnalEstimatedTime: 0 }],
+      sessions: [
+        ...current.sessions,
+        { completion: 'none', additionnalEstimatedTime: 0 },
+      ],
     });
   }
 
@@ -150,7 +160,9 @@ export class AddGameComponent {
     const entity = this.entityForm();
     if (entity.platineTime <= 0) return false;
     const current = this.userForm();
-    return !current.sessions.some((s, i) => i !== sessionIndex && s.completion === 'platined');
+    return !current.sessions.some(
+      (s, i) => i !== sessionIndex && s.completion === 'platined'
+    );
   }
 
   updateCheckbox(field: 'owned', checked: boolean) {
@@ -200,7 +212,8 @@ export class AddGameComponent {
         finishedGame: f.completion === 'finished',
         finishedGameWithHundredPercent: f.completion === 'hundred',
         platinedGame: f.completion === 'platined',
-        additionnalEstimatedTime: f.completion === 'none' ? (f.additionnalEstimatedTime ?? 0) : 0,
+        additionnalEstimatedTime:
+          f.completion === 'none' ? f.additionnalEstimatedTime ?? 0 : 0,
       }));
       const userPayload = {
         rating: user.rating,

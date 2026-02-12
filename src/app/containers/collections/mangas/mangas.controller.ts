@@ -24,6 +24,7 @@ export async function updateReadPriority(
         owned: data.manga.owned,
         readPriority: data.priority,
         wantToReadAgain: data.manga.wantToReadAgain ?? false,
+        ratingComment: data.manga.ratingComment ?? '',
       }),
     });
 
@@ -64,6 +65,7 @@ export async function markMangaAsWantToReRead(
         owned: manga.owned,
         readPriority: manga.readPriority ?? 1,
         wantToReadAgain: true,
+        ratingComment: manga.ratingComment ?? '',
       }),
     });
     if (!response.ok) {
@@ -96,6 +98,7 @@ export async function markMangaAsReRead(
         owned: manga.owned,
         readPriority: manga.readPriority ?? 1,
         wantToReadAgain: false,
+        ratingComment: manga.ratingComment ?? '',
       }),
     });
     if (!response.ok) {

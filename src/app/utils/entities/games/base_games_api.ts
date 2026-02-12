@@ -12,6 +12,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: '',
     saga: '',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Super Mario 2',
@@ -24,6 +25,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Game Boy',
     saga: 'Mario',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Teenage Mutant Hero Turtles: Fall of the Foot Clan',
@@ -36,6 +38,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Game Boy',
     saga: '',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Double Dragon',
@@ -48,6 +51,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Game Boy',
     saga: '',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Pokemon Jaune',
@@ -60,6 +64,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Game Boy',
     saga: 'Pokemon',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Bomberman GB',
@@ -72,6 +77,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: '',
     saga: 'Bomberman',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Harry Potter et La Chambre des Secrets',
@@ -84,6 +90,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Game Boy Color',
     saga: 'Harry Potter',
     platineTime: 0,
+    description: '',
   },
   {
     title: "Harry Potter à l'école des sorciers",
@@ -96,6 +103,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Game Boy Advance',
     saga: 'Harry Potter',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Harry Potter et La Coupe de Feu',
@@ -108,6 +116,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Game Boy Advance',
     saga: 'Harry Potter',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Pokemon version Ruby',
@@ -120,6 +129,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Game Boy Advance',
     saga: 'Pokemon',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Sonic Advance',
@@ -132,6 +142,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Game Boy Advance',
     saga: 'Sonic',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Star Wars III - La Revanche des Siths',
@@ -144,6 +155,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: '',
     saga: 'Star Wars',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Spider-Man 3',
@@ -156,6 +168,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Game Boy Advance',
     saga: 'Spider-Man',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Les Urbz - Les Sims in the City',
@@ -168,6 +181,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Game Boy Advance',
     saga: 'Les Sims',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Star Wars : Flight of the Falcon',
@@ -180,6 +194,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Game Boy Advance',
     saga: 'Star Wars',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Custom Robo Arena',
@@ -192,6 +207,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: '',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Animal Crossing : Wild World',
@@ -204,6 +220,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: '',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Arthur et les Minimoys',
@@ -216,6 +233,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: '',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Assassin’s Creed Altaïr Chronicles',
@@ -228,6 +246,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: "Assassin's Creed",
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Assassin’s Creed II : Discovery',
@@ -240,6 +259,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: "Assassin's Creed",
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Astérix aux Jeux Olympiques',
@@ -252,6 +272,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Astérix',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Call of Duty 4 : Modern Warfare (DS)',
@@ -264,6 +285,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Call of Duty',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Dragon Ball Z: Harukanaru Densetsu',
@@ -276,6 +298,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Dragon Ball',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Dragon Ball Z: Supersonic Warriors 2',
@@ -288,6 +311,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Dragon Ball',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Eragon',
@@ -300,6 +324,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: '',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'FIFA 10',
@@ -312,6 +337,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'FIFA',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Dragon Quest IX : Les Sentinelles du Firmament',
@@ -324,6 +350,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Dragon Quest',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Galactick Football',
@@ -336,6 +363,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: '',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Grand Theft Auto: Chinatown Wars',
@@ -348,6 +376,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Grand Theft Auto',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Guitar Hero: On Tour',
@@ -360,6 +389,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Guitar Hero',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Harry Potter et la Coupe de Feu',
@@ -372,6 +402,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Harry Potter',
     platineTime: 0,
+    description: '',
   },
   {
     title: "Harry Potter et l'Ordre du Phénix",
@@ -384,6 +415,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Harry Potter',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Harry Potter et le Prince de Sang Mêlé',
@@ -396,6 +428,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Harry Potter',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Iron Man',
@@ -408,6 +441,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Marvel',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Jump Ultimate Stars',
@@ -420,6 +454,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: '',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Zelda Phantom Hourglass',
@@ -432,6 +467,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'The Legend of Zelda',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Lego Batman',
@@ -444,6 +480,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'LEGO',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'LEGO Indiana Jones',
@@ -456,6 +493,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'LEGO',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'LEGO Star Wars : The Complete Saga',
@@ -468,6 +506,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Star Wars',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Mario & Sonic aux Jeux Olympiques',
@@ -480,6 +519,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Mario',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Mario & Sonic JO Hiver',
@@ -492,6 +532,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Mario',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Mario Kart DS',
@@ -504,6 +545,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Mario',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Mario Party DS',
@@ -516,6 +558,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Mario',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Mario Slam Basketball',
@@ -528,6 +571,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Mario',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Naruto Shippuden: Ninja Council 4',
@@ -540,6 +584,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Naruto',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Naruto: Ninja Destiny 2',
@@ -552,6 +597,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Naruto',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Naruto: Ninja Council 3',
@@ -564,6 +610,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Naruto',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Naruto : Ninja Destiny',
@@ -576,6 +623,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Naruto',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Need for Speed : Most Wanted (DS)',
@@ -588,6 +636,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Need for Speed',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Need for Speed : Nitro',
@@ -600,6 +649,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Need for Speed',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Ninja Gaiden: Dragon Sword',
@@ -612,6 +662,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Ninja Gaiden',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Nintendogs',
@@ -624,6 +675,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: '',
     platineTime: 15,
+    description: '',
   },
   {
     title: "Pirates des Caraïbes: Jusqu'au Bout du Monde",
@@ -636,6 +688,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: '',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Star Wars : Le Pouvoir de la Force',
@@ -648,6 +701,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Star Wars',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Trackmania DS',
@@ -660,6 +714,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: '',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Transformers : The Game',
@@ -672,6 +727,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Transformers',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'X-Men Origins: Wolverine',
@@ -684,6 +740,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: '',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Marvel Nemesis: Rise of the Imperfects',
@@ -696,6 +753,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Marvel',
     platineTime: 0,
+    description: '',
   },
   {
     title: "Programme d'entraînement cérébral du Dr Kawashima",
@@ -708,6 +766,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: '',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Professeur Layton et la Boite de Pandore',
@@ -720,6 +779,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Nintendo DS',
     saga: 'Professeur Layton',
     platineTime: 0,
+    description: '',
   },
   {
     title: 'Saints Row 2',
@@ -732,6 +792,7 @@ export const baseGamesApi: BaseGame[] = [
     platform: 'Playstation 3',
     saga: 'Saints Row',
     platineTime: 0,
+    description: '',
   },
 
   {
@@ -746,5 +807,6 @@ export const baseGamesApi: BaseGame[] = [
     saga: '',
     platineTime: 11,
     averageTimeToHundredPercent: 11,
+    description: '',
   },
 ];

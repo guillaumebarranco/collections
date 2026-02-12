@@ -12,6 +12,7 @@ export interface BaseGame extends MandatoryGameData {
   platform: string;
   saga: string;
   platineTime: number;
+  description: string;
 }
 
 export interface UserGame extends MandatoryGameData {
@@ -21,6 +22,7 @@ export interface UserGame extends MandatoryGameData {
   wantToPlayAgain: boolean;
   /** Sessions de jeu (dérivent timesFinished, platined, etc.) */
   sessions: UserGameSession[];
+  ratingComment: string;
 }
 
 export interface UserGameSession {

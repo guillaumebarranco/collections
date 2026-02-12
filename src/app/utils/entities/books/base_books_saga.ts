@@ -11,6 +11,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '2008-09-14',
+    description: '',
   },
   {
     title: "L'Embrasement",
@@ -23,6 +24,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '2009-09-01',
+    description: '',
   },
   {
     title: 'La Révolte',
@@ -35,6 +37,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '2010-08-24',
+    description: '',
   },
   {
     title: "La Ballade du serpent et de l'oiseau chanteur",
@@ -47,6 +50,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 4,
     sagaFinished: true,
     releaseDate: '2020-05-19',
+    description: '',
   },
   {
     title: 'Lever de soleil sur la moisson',
@@ -58,6 +62,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 5,
     sagaFinished: true,
     releaseDate: '2023-03-07',
+    description: '',
   },
   {
     title: "Harry Potter à l'école des sorciers",
@@ -70,6 +75,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '1997-06-26',
+    description: '',
   },
   {
     title: 'Harry Potter et la Chambre des secrets',
@@ -82,6 +88,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '1998-07-02',
+    description: '',
   },
   {
     title: "Harry Potter et le Prisonnier d'Azkaban",
@@ -94,6 +101,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '1999-07-08',
+    description: '',
   },
   {
     title: 'Harry Potter et la Coupe de feu',
@@ -106,6 +114,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 4,
     sagaFinished: true,
     releaseDate: '2000-07-08',
+    description: '',
   },
   {
     title: "Harry Potter et l'Ordre du Phénix",
@@ -118,6 +127,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 5,
     sagaFinished: true,
     releaseDate: '2003-06-21',
+    description: '',
   },
   {
     title: 'Harry Potter et le Prince de sang-mêlé',
@@ -130,6 +140,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 6,
     sagaFinished: true,
     releaseDate: '2005-07-16',
+    description: '',
   },
   {
     title: 'Harry Potter et les Reliques de la Mort',
@@ -142,6 +153,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 7,
     sagaFinished: true,
     releaseDate: '2007-07-21',
+    description: '',
   },
   {
     title: "Harry Potter et l'Enfant maudit",
@@ -153,6 +165,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: false,
     releaseDate: '2016-07-31',
+    description: '',
   },
   {
     title: 'Fascination',
@@ -164,6 +177,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '2005-10-05',
+    description: '',
   },
   {
     title: 'Tentation',
@@ -175,6 +189,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '2006-09-06',
+    description: '',
   },
   {
     title: 'Hésitation',
@@ -186,6 +201,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '2007-08-07',
+    description: '',
   },
   {
     title: 'Révélation',
@@ -197,6 +213,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 4,
     sagaFinished: true,
     releaseDate: '2008-08-02',
+    description: '',
   },
   {
     title: 'Midnight Sun',
@@ -208,6 +225,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 5,
     sagaFinished: true,
     releaseDate: '2020-08-04',
+    description: '',
   },
   {
     title: 'Le Voleur de foudre',
@@ -220,6 +238,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '2005-06-28',
+    description: '',
   },
   {
     title: 'La Mer des monstres',
@@ -232,6 +251,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '2006-04-01',
+    description: '',
   },
   {
     title: 'Le Sort du titan',
@@ -244,6 +264,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '2007-05-01',
+    description: '',
   },
   {
     title: 'La Bataille du labyrinthe',
@@ -256,6 +277,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 4,
     sagaFinished: true,
     releaseDate: '2008-05-06',
+    description: '',
   },
   {
     title: 'Le Dernier Olympien',
@@ -268,6 +290,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 5,
     sagaFinished: true,
     releaseDate: '2009-05-05',
+    description: '',
   },
   {
     title: 'Le Calice des dieux',
@@ -280,6 +303,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 6,
     sagaFinished: true,
     releaseDate: '2023-09-26',
+    description: '',
   },
   {
     title: 'Divergente',
@@ -291,6 +315,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '2011-04-26',
+    description: '',
   },
   {
     title: "Divergente Tome 2 : L'Insurrection",
@@ -302,6 +327,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '2012-05-01',
+    description: '',
   },
   {
     title: 'Divergente Tome 3 : Allégeance',
@@ -313,6 +339,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '2013-10-22',
+    description: '',
   },
   {
     title: 'Le Labyrinthe',
@@ -324,6 +351,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: false,
     releaseDate: '2009-10-06',
+    description: '',
   },
   {
     title: 'Une étude en rouge',
@@ -335,6 +363,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '1887-11-01',
+    description: '',
   },
   {
     title: 'Le Signe des quatre',
@@ -346,6 +375,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '1890-02-01',
+    description: '',
   },
   {
     title: 'Le Chien des Baskerville',
@@ -357,6 +387,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '1902-04-01',
+    description: '',
   },
   {
     title: 'La vallée de la peur',
@@ -368,6 +399,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 4,
     sagaFinished: true,
     releaseDate: '1915-09-27',
+    description: '',
   },
   {
     title: 'Les Mobilisés',
@@ -379,6 +411,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '2022-01-01',
+    description: '',
   },
   {
     title: 'Les Effacés',
@@ -390,6 +423,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '2023-01-01',
+    description: '',
   },
   {
     title: 'Les Éveillés',
@@ -401,6 +435,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '2024-01-01',
+    description: '',
   },
   {
     title: 'Inside Mac: Tome 1',
@@ -412,6 +447,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '2022-01-01',
+    description: '',
   },
   {
     title: 'Inside Mac: Tome 2',
@@ -423,6 +459,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '2023-01-01',
+    description: '',
   },
   {
     title: 'Player One',
@@ -434,6 +471,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '2011-08-16',
+    description: '',
   },
   {
     title: 'Ready Player Two',
@@ -446,6 +484,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '2020-11-24',
+    description: '',
   },
   {
     title: 'La femme de ménage',
@@ -457,6 +496,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: false,
     releaseDate: '2022-04-05',
+    description: '',
   },
   {
     title: 'Les secrets de la femme de ménage',
@@ -468,6 +508,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: false,
     releaseDate: '2023-01-01',
+    description: '',
   },
   {
     title: 'La femme de ménage se marie',
@@ -479,6 +520,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: false,
     releaseDate: '2023-01-01',
+    description: '',
   },
   {
     title: 'La femme de ménage voit tout',
@@ -490,6 +532,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 4,
     sagaFinished: false,
     releaseDate: '2024-01-01',
+    description: '',
   },
   {
     title: 'Les Trois Mousquetaires',
@@ -501,6 +544,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: false,
     releaseDate: '1844-03-14',
+    description: '',
   },
   {
     title: 'Le Faucon malté',
@@ -513,6 +557,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '2005-01-01',
+    description: '',
   },
   {
     title: "L'ennemi public n°2",
@@ -524,6 +569,7 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '2006-01-01',
+    description: '',
   },
   {
     title: 'Devine qui vient tuer',
@@ -535,5 +581,6 @@ export const baseBooksSaga: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '2007-01-01',
+    description: '',
   },
 ];

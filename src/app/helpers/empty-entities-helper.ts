@@ -16,6 +16,7 @@ export const getEmptyMovie = (movie: BaseMovie): Movie => ({
   owned: false,
   wantToSeeAgain: false,
   watchPriority: 1,
+  ratingComment: '',
 });
 
 export const getEmptyBook = (book: BaseBook): Book => ({
@@ -30,8 +31,10 @@ export const getEmptyBook = (book: BaseBook): Book => ({
   rating: 0,
   readPriority: 1,
   sagaFinished: false,
-  releaseDate: '',
+  releaseDate: book.releaseDate,
   wantToReadAgain: false,
+  description: book.description ?? '',
+  ratingComment: '',
 });
 
 export const getEmptyComic = (comic: BaseComic): Comic => ({
@@ -46,6 +49,8 @@ export const getEmptyComic = (comic: BaseComic): Comic => ({
   rating: 0,
   readPriority: 1,
   wantToReadAgain: false,
+  description: comic.description ?? '',
+  ratingComment: '',
 });
 
 export const getEmptyBd = (bd: BaseBd): Bd => ({
@@ -60,6 +65,8 @@ export const getEmptyBd = (bd: BaseBd): Bd => ({
   rating: 0,
   readPriority: 1,
   wantToReadAgain: false,
+  description: bd.description ?? '',
+  ratingComment: '',
 });
 
 export const getEmptyManga = (manga: BaseManga): Manga => ({
@@ -75,6 +82,8 @@ export const getEmptyManga = (manga: BaseManga): Manga => ({
   isFinished: manga.isFinished,
   readTimes: 0,
   wantToReadAgain: false,
+  description: manga.description ?? '',
+  ratingComment: '',
 });
 
 export const getEmptyManwha = (manwha: BaseManwha): Manwha => ({
@@ -90,6 +99,8 @@ export const getEmptyManwha = (manwha: BaseManwha): Manwha => ({
   isFinished: manwha.isFinished,
   readTimes: 0,
   wantToReadAgain: false,
+  description: manwha.description ?? '',
+  ratingComment: '',
 });
 
 export const getEmptyGame = (game: BaseGame): Game => ({
@@ -103,4 +114,5 @@ export const getEmptyGame = (game: BaseGame): Game => ({
   timesFinishedHundredPercent: 0,
   additionnalEstimatedTime: 0,
   platined: false,
+  ratingComment: '',
 });

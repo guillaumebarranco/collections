@@ -11,6 +11,7 @@ export interface BaseBook extends MandatoryBookData {
   sagaOrder: number;
   sagaFinished: boolean;
   releaseDate: string;
+  description: string;
 }
 
 export interface UserBook extends MandatoryBookData {
@@ -20,6 +21,7 @@ export interface UserBook extends MandatoryBookData {
   owned: boolean;
   readPriority: 1 | 2 | 3;
   wantToReadAgain: boolean;
+  ratingComment: string;
 }
 
 export type UserBooks = UserBook[];

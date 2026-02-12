@@ -12,6 +12,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '2019-01-01',
+    description: '',
   },
   {
     title: 'Le cheval de feu',
@@ -24,6 +25,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '2020-01-01',
+    description: '',
   },
   {
     title: "Mâchoires d'écume",
@@ -36,6 +38,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '2021-01-01',
+    description: '',
   },
   {
     title: "Le porteur d'espoir",
@@ -48,6 +51,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 4,
     sagaFinished: true,
     releaseDate: '2022-01-01',
+    description: '',
   },
   {
     title: 'Ciel de cendres',
@@ -60,6 +64,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 5,
     sagaFinished: true,
     releaseDate: '2023-01-01',
+    description: '',
   },
   {
     title: "D'un monde à l'autre",
@@ -72,6 +77,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '2003-01-01',
+    description: '',
   },
   {
     title: 'Les frontières de glace',
@@ -84,6 +90,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '2004-01-01',
+    description: '',
   },
   {
     title: "L'île du destin",
@@ -96,6 +103,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '2005-01-01',
+    description: '',
   },
   {
     title: 'La Forêt des captifs',
@@ -108,6 +116,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 4,
     sagaFinished: true,
     releaseDate: '2006-01-01',
+    description: '',
   },
   {
     title: "L'Œil d'Otolep",
@@ -120,6 +129,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 5,
     sagaFinished: true,
     releaseDate: '2007-01-01',
+    description: '',
   },
   {
     title: 'Les Tentacules du mal',
@@ -132,6 +142,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 6,
     sagaFinished: true,
     releaseDate: '2008-01-01',
+    description: '',
   },
   {
     title: 'Ellana',
@@ -144,6 +155,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 7,
     sagaFinished: true,
     releaseDate: '2006-01-01',
+    description: '',
   },
   {
     title: "Ellana, l'Envol",
@@ -156,6 +168,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 8,
     sagaFinished: true,
     releaseDate: '2007-01-01',
+    description: '',
   },
   {
     title: 'Ellana, la Prophétie',
@@ -168,6 +181,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 9,
     sagaFinished: true,
     releaseDate: '2008-01-01',
+    description: '',
   },
   {
     title: 'Les sortceliers',
@@ -180,6 +194,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '2003-01-01',
+    description: '',
   },
   {
     title: 'Le livre interdit',
@@ -192,6 +207,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '2004-01-01',
+    description: '',
   },
   {
     title: 'Le sceptre maudit',
@@ -204,6 +220,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '2005-01-01',
+    description: '',
   },
   {
     title: 'Le dragon renégat',
@@ -216,6 +233,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 4,
     sagaFinished: true,
     releaseDate: '2006-01-01',
+    description: '',
   },
   {
     title: 'Le continent interdit',
@@ -228,6 +246,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 5,
     sagaFinished: true,
     releaseDate: '2007-01-01',
+    description: '',
   },
   {
     title: 'Dans le piège de Magister',
@@ -240,6 +259,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 6,
     sagaFinished: true,
     releaseDate: '2008-01-01',
+    description: '',
   },
   {
     title: "Tara Duncan et l'invasion fantôme",
@@ -252,6 +272,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 7,
     sagaFinished: true,
     releaseDate: '2009-01-01',
+    description: '',
   },
   {
     title: "L'impératrice maléfique",
@@ -264,6 +285,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 8,
     sagaFinished: true,
     releaseDate: '2010-01-01',
+    description: '',
   },
   {
     title: 'Tara Duncan contre la reine noire',
@@ -276,6 +298,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 9,
     sagaFinished: true,
     releaseDate: '2011-01-01',
+    description: '',
   },
   {
     title: 'Dragons contre Démons',
@@ -288,6 +311,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 10,
     sagaFinished: true,
     releaseDate: '2012-01-01',
+    description: '',
   },
   {
     title: 'La Guerre des planètes',
@@ -300,6 +324,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 11,
     sagaFinished: true,
     releaseDate: '2013-01-01',
+    description: '',
   },
   {
     title: "L'Ultime Combat",
@@ -312,6 +337,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 12,
     sagaFinished: true,
     releaseDate: '2014-01-01',
+    description: '',
   },
   {
     title: 'Tara et Cal',
@@ -324,6 +350,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 13,
     sagaFinished: true,
     releaseDate: '2015-01-01',
+    description: '',
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 1",
@@ -336,6 +363,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: false,
     releaseDate: '1996-08-01',
+    description: '',
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 2",
@@ -348,6 +376,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: false,
     releaseDate: '1998-11-16',
+    description: '',
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 3",
@@ -360,6 +389,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: false,
     releaseDate: '2000-08-08',
+    description: '',
   },
   {
     title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
@@ -371,6 +401,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '1954-07-29',
+    description: '',
   },
   {
     title: 'Les deux tours',
@@ -382,6 +413,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '1954-11-11',
+    description: '',
   },
   {
     title: 'Le retour du roi',
@@ -393,5 +425,6 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '1955-10-20',
+    description: '',
   },
 ];

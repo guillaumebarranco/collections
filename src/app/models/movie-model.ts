@@ -12,6 +12,7 @@ export interface BaseMovie extends MandatoryMovieData {
   length: number;
   genre: string;
   saga: string;
+  description: string;
 }
 
 export interface UserMovie extends MandatoryMovieData {
@@ -23,6 +24,7 @@ export interface UserMovie extends MandatoryMovieData {
   owned: boolean;
   wantToSeeAgain: boolean;
   watchPriority: 1 | 2 | 3;
+  ratingComment: string;
 }
 
 export type UserMovies = UserMovie[];

@@ -8,6 +8,7 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Shonen',
     nbChapters: 510,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Red Storm',
@@ -16,6 +17,7 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Shonen',
     nbChapters: 0,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Noblesse',
@@ -24,6 +26,7 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Shonen',
     nbChapters: 544,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Tower Of God',
@@ -32,6 +35,7 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Shonen',
     nbChapters: 652,
     isFinished: false,
+    description: '',
   },
   {
     title: "Girls of The Wild's",
@@ -40,6 +44,7 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Shonen',
     nbChapters: 264,
     isFinished: true,
+    description: '',
   },
   {
     title: 'DICE: The Cube that Changes Everything',
@@ -48,6 +53,7 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Shonen',
     nbChapters: 388,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Dr. Frost',
@@ -56,6 +62,7 @@ export const baseManwhas: BaseManwha[] = [
     genre: '',
     nbChapters: 265,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Unordinary',
@@ -64,6 +71,7 @@ export const baseManwhas: BaseManwha[] = [
     genre: '',
     nbChapters: 384,
     isFinished: false,
+    description: '',
   },
   {
     title: 'I Love Yoo',
@@ -72,6 +80,7 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Romance',
     nbChapters: 281,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Wind Breaker',
@@ -80,6 +89,7 @@ export const baseManwhas: BaseManwha[] = [
     genre: '',
     nbChapters: 479,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Lookism',
@@ -88,6 +98,7 @@ export const baseManwhas: BaseManwha[] = [
     genre: '',
     nbChapters: 581,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Bastard',
@@ -96,6 +107,7 @@ export const baseManwhas: BaseManwha[] = [
     genre: '',
     nbChapters: 94,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Sidekicks',
@@ -104,6 +116,7 @@ export const baseManwhas: BaseManwha[] = [
     genre: '',
     nbChapters: 131,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Solo Leveling',
@@ -112,5 +125,6 @@ export const baseManwhas: BaseManwha[] = [
     genre: '',
     nbChapters: 270,
     isFinished: false,
+    description: '',
   },
 ];

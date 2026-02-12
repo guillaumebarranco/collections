@@ -11,6 +11,7 @@ type AddMangaEntityForm = {
   genre: string;
   nbTomes: number;
   isFinished: boolean;
+  description: string;
 };
 
 type AddMangaUserForm = {
@@ -18,6 +19,7 @@ type AddMangaUserForm = {
   readTimes: number;
   readDate: string;
   owned: boolean;
+  ratingComment: string;
 };
 
 type AddMangaDialogData = {
@@ -48,6 +50,7 @@ export class AddMangaComponent {
     genre: '',
     nbTomes: 0,
     isFinished: true,
+    description: '',
   });
 
   userForm = signal<AddMangaUserForm>({
@@ -55,6 +58,7 @@ export class AddMangaComponent {
     readTimes: 1,
     readDate: '',
     owned: false,
+    ratingComment: '',
   });
 
   close() {

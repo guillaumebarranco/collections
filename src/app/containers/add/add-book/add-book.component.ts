@@ -14,6 +14,7 @@ type AddBookEntityForm = {
   sagaOrder: number;
   sagaFinished: boolean;
   releaseDate: string;
+  description: string;
 };
 
 type AddBookUserForm = {
@@ -22,6 +23,7 @@ type AddBookUserForm = {
   readDate: string;
   owned: boolean;
   readPriority: number;
+  ratingComment: string;
 };
 
 type AddBookDialogData = {
@@ -55,6 +57,7 @@ export class AddBookComponent {
     sagaOrder: 0,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   });
 
   userForm = signal<AddBookUserForm>({
@@ -63,6 +66,7 @@ export class AddBookComponent {
     readDate: '',
     owned: false,
     readPriority: 1,
+    ratingComment: '',
   });
 
   close() {

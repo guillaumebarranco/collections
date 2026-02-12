@@ -35,7 +35,10 @@
     <p class="book-author">{{ bd.designer }}</p>
     @if (bd.writer && bd.writer !== bd.designer) {
     <p class="book-pages">{{ bd.writer }}</p>
-    } @if (bd.pages) {
+    } @if (bd.description) {
+    <p class="bd-description">{{ bd.description }}</p>
+    }
+    @if (bd.pages) {
     <p class="book-pages">{{ bd.pages }} pages</p>
     } @if (bd.nbTomes) {
     <p>
@@ -58,6 +61,9 @@
       </span>
       <span class="rating-text">{{ bd.rating }}/5</span>
     </div>
+    @if (bd.ratingComment) {
+    <p class="bd-rating-comment">{{ bd.ratingComment }}</p>
+    }
     } @if (recommendationText) {
     <p class="recommendation-text">{{ recommendationText }}</p>
     } @if (recommendationBadge) {

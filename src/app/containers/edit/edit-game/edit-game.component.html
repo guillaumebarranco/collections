@@ -35,6 +35,8 @@
       <p><strong>Héro :</strong> {{ game()?.hero }}</p>
       } @if (game()?.saga) {
       <p><strong>Saga :</strong> {{ game()?.saga }}</p>
+      } @if (game()?.description) {
+      <p><strong>Description :</strong> {{ game()?.description }}</p>
       }
     </div>
     <br />
@@ -215,6 +217,18 @@
         min="0"
       />
     </div>
+
+    <div class="form-row">
+      <label for="ratingComment">Commentaire sur la note</label>
+      <textarea
+        id="ratingComment"
+        rows="3"
+        [ngModel]="gameForm()?.ratingComment"
+        (ngModelChange)="updateField('ratingComment', $event)"
+        name="ratingComment"
+        placeholder="Optionnel"
+      ></textarea>
+    </div>
     } @if (isAdminView() && gameEntityForm()) {
     <div class="form-row">
       <label for="entityHero">Héro</label>
@@ -307,6 +321,18 @@
         (ngModelChange)="updateEntityField('coverUrl', $event)"
         name="entityCoverUrl"
       />
+    </div>
+
+    <div class="form-row">
+      <label for="entityDescription">Description</label>
+      <textarea
+        id="entityDescription"
+        rows="3"
+        [ngModel]="gameEntityForm()?.description"
+        (ngModelChange)="updateEntityField('description', $event)"
+        name="entityDescription"
+        placeholder="Optionnel"
+      ></textarea>
     </div>
     }
 

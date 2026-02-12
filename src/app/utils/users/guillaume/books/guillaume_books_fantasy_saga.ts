@@ -10,6 +10,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Le cheval de feu',
@@ -20,6 +21,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "Mâchoires d'écume",
@@ -30,6 +32,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "Le porteur d'espoir",
@@ -40,6 +43,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Ciel de cendres',
@@ -50,6 +54,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "D'un monde à l'autre",
@@ -60,6 +65,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Les frontières de glace',
@@ -70,6 +76,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "L'île du destin",
@@ -80,6 +87,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'La Forêt des captifs',
@@ -90,6 +98,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "L'Œil d'Otolep",
@@ -100,6 +109,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Les Tentacules du mal',
@@ -110,6 +120,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Ellana',
@@ -120,6 +131,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "Ellana, l'Envol",
@@ -130,6 +142,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Ellana, la Prophétie',
@@ -140,6 +153,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Les sortceliers',
@@ -150,6 +164,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Le livre interdit',
@@ -160,6 +175,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Le sceptre maudit',
@@ -170,6 +186,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Le dragon renégat',
@@ -180,6 +197,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Le continent interdit',
@@ -190,6 +208,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Dans le piège de Magister',
@@ -200,6 +219,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "Tara Duncan et l'invasion fantôme",
@@ -210,6 +230,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "L'impératrice maléfique",
@@ -220,6 +241,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Tara Duncan contre la reine noire',
@@ -230,6 +252,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Dragons contre Démons',
@@ -240,6 +263,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'La Guerre des planètes',
@@ -250,6 +274,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "L'Ultime Combat",
@@ -260,6 +285,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Tara et Cal',
@@ -270,6 +296,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 1",
@@ -280,6 +307,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 2",
@@ -290,6 +318,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 3",
@@ -300,6 +329,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
@@ -310,5 +340,6 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 ];

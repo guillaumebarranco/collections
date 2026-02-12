@@ -8,5 +8,6 @@ export const baseMangasApi: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 61,
     isFinished: true,
+    description: '',
   },
 ];

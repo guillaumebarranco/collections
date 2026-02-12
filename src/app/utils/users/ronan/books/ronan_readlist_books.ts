@@ -10,6 +10,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -21,6 +22,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -32,6 +34,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -43,6 +46,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -54,6 +58,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -65,6 +70,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -76,6 +82,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -87,6 +94,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -98,6 +106,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -109,6 +118,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -120,6 +130,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -131,6 +142,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -142,6 +154,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -153,6 +166,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -164,6 +178,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -175,6 +190,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -186,6 +202,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -197,6 +214,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -208,6 +226,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -219,6 +238,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -230,6 +250,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -241,6 +262,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -252,6 +274,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -263,6 +286,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -274,6 +298,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -285,6 +310,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -296,6 +322,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -307,6 +334,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -318,6 +346,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -329,6 +358,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -340,6 +370,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -351,6 +382,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -362,6 +394,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -373,6 +406,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -384,6 +418,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -395,6 +430,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -406,6 +442,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -417,6 +454,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -428,6 +466,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -439,6 +478,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -450,6 +490,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -461,6 +502,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -472,6 +514,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -483,6 +526,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -494,6 +538,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -505,6 +550,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -516,6 +562,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -527,6 +574,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -538,6 +586,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -549,6 +598,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -560,6 +610,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -571,6 +622,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -582,6 +634,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -593,6 +646,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -604,6 +658,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -615,6 +670,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -626,6 +682,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -637,6 +694,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -648,6 +706,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -659,6 +718,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -670,6 +730,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -681,6 +742,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -692,6 +754,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -703,6 +766,7 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -714,5 +778,6 @@ export const ronanReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 ];

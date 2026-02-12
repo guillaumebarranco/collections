@@ -42,6 +42,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 340,
       },
     ],
+    description: '',
   },
   {
     title: 'Olive et Tom : Le retour',
@@ -72,6 +73,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 540,
       },
     ],
+    description: '',
   },
   {
     title: 'Naruto',
@@ -123,6 +125,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 150,
       },
     ],
+    description: '',
   },
   {
     title: 'Naruto Shippuden',
@@ -249,6 +252,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 420,
       },
     ],
+    description: '',
   },
   {
     title: 'One Piece',
@@ -374,6 +378,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 100,
       },
     ],
+    description: '',
   },
   {
     title: 'My Hero Academia',
@@ -439,6 +444,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 300,
       },
     ],
+    description: '',
   },
   {
     title: 'Boruto',
@@ -484,6 +490,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 660,
       },
     ],
+    description: '',
   },
   {
     title: 'Dandadan',
@@ -509,6 +516,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 240,
       },
     ],
+    description: '',
   },
   {
     title: 'Dragon Ball',
@@ -569,6 +577,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 1860,
       },
     ],
+    description: '',
   },
   {
     title: 'Dragon Ball Z',
@@ -640,6 +649,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 100,
       },
     ],
+    description: '',
   },
   {
     title: 'Dragon Ball GT',
@@ -680,6 +690,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 20,
       },
     ],
+    description: '',
   },
   {
     title: 'Dragon Ball Super',
@@ -720,6 +731,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 1100,
       },
     ],
+    description: '',
   },
   {
     title: 'Dragon Ball Daima',
@@ -740,6 +752,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 400,
       },
     ],
+    description: '',
   },
   {
     title: 'Olive et Tom',
@@ -815,6 +828,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 780,
       },
     ],
+    description: '',
   },
   {
     title: 'Puella Magi Madoka Magica',
@@ -835,6 +849,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 240,
       },
     ],
+    description: '',
   },
   {
     title: 'Nanatsu No Taizai (Seven Deadly Sins)',
@@ -880,6 +895,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 60,
       },
     ],
+    description: '',
   },
   {
     title: 'Shaman king',
@@ -900,6 +916,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 1280,
       },
     ],
+    description: '',
   },
   {
     title: 'Shokugeki no Soma (Food Wars)',
@@ -945,6 +962,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 100,
       },
     ],
+    description: '',
   },
   {
     title: 'Akame Ga Kill',
@@ -965,6 +983,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 480,
       },
     ],
+    description: '',
   },
   {
     title: 'Hunter X Hunter',
@@ -995,6 +1014,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 980,
       },
     ],
+    description: '',
   },
   {
     title: 'Beelzebub',
@@ -1020,6 +1040,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 1200,
       },
     ],
+    description: '',
   },
   {
     title: 'Bleach',
@@ -1121,6 +1142,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 800,
       },
     ],
+    description: '',
   },
   {
     title: 'Détective Conan',
@@ -1247,6 +1269,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 1000,
       },
     ],
+    description: '',
   },
   {
     title: 'Jujutsu Kaisen',
@@ -1277,6 +1300,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 100,
       },
     ],
+    description: '',
   },
   {
     title: "JoJo's Bizarre Adventure",
@@ -1308,6 +1332,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 100,
       },
     ],
+    description: '',
   },
   {
     title: 'Demon Slayer',
@@ -1343,6 +1368,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 160,
       },
     ],
+    description: '',
   },
   {
     title: 'Spy x Family',
@@ -1363,6 +1389,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 740,
       },
     ],
+    description: '',
   },
   {
     title: 'Chainsaw Man',
@@ -1383,6 +1410,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 240,
       },
     ],
+    description: '',
   },
   {
     title: 'Ken le Survivant',
@@ -1433,6 +1461,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 80,
       },
     ],
+    description: '',
   },
   {
     title: 'Les Chevaliers du Zodiaque',
@@ -1464,6 +1493,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 760,
       },
     ],
+    description: '',
   },
   {
     title: "Les Mystérieuses Cités d'Or",
@@ -1484,6 +1514,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 780,
       },
     ],
+    description: '',
   },
   {
     title: 'Magical Dorémi',
@@ -1524,6 +1555,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 800,
       },
     ],
+    description: '',
   },
   {
     title: "Les carnets de l'apothicaire",
@@ -1544,6 +1576,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 480,
       },
     ],
+    description: '',
   },
   {
     title: 'Code Lyoko',
@@ -1579,6 +1612,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 600,
       },
     ],
+    description: '',
   },
   {
     title: 'Albator',
@@ -1599,6 +1633,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 840,
       },
     ],
+    description: '',
   },
   {
     title: 'Goldorak',
@@ -1624,6 +1659,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 740,
       },
     ],
+    description: '',
   },
   {
     title: 'Totally Spies',
@@ -1674,6 +1710,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 520,
       },
     ],
+    description: '',
   },
   {
     title: 'Les super nanas',
@@ -1744,6 +1781,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 20,
       },
     ],
+    description: '',
   },
   {
     title: "Les zinzins de l'espace",
@@ -1814,6 +1852,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 20,
       },
     ],
+    description: '',
   },
   {
     title: 'Teen Titans',
@@ -1870,6 +1909,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 20,
       },
     ],
+    description: '',
   },
   {
     title: 'Le marsupilami',
@@ -1900,6 +1940,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 680,
       },
     ],
+    description: '',
   },
   {
     title: 'Oggy et les cafards',
@@ -1951,6 +1992,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 1560,
       },
     ],
+    description: '',
   },
   {
     title: "Bob l'éponge",
@@ -2001,6 +2043,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 1560,
       },
     ],
+    description: '',
   },
   {
     title: 'Les Tortues Ninja',
@@ -2071,6 +2114,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 140,
       },
     ],
+    description: '',
   },
   {
     title: 'Princesse Sarah',
@@ -2091,6 +2135,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 920,
       },
     ],
+    description: '',
   },
   {
     title: 'Pokémon',
@@ -2226,6 +2271,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 1000,
       },
     ],
+    description: '',
   },
   {
     title: "L'école des champions",
@@ -2251,6 +2297,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 680,
       },
     ],
+    description: '',
   },
   {
     title: 'Jackie Chan (série animée)',
@@ -2277,6 +2324,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 940,
       },
     ],
+    description: '',
   },
   {
     title: 'Marcelino',
@@ -2297,6 +2345,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 520,
       },
     ],
+    description: '',
   },
   {
     title: 'Cobra',
@@ -2317,6 +2366,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 744,
       },
     ],
+    description: '',
   },
   {
     title: 'Nicky Larson',
@@ -2352,6 +2402,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 260,
       },
     ],
+    description: '',
   },
   {
     title: 'Gintama',
@@ -2417,6 +2468,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 560,
       },
     ],
+    description: '',
   },
   {
     title: 'Yu-Gi-Oh!',
@@ -2472,6 +2524,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 80,
       },
     ],
+    description: '',
   },
   {
     title: 'Death Note',
@@ -2498,6 +2551,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 1110,
       },
     ],
+    description: '',
   },
   {
     title: 'Assassination Classroom',
@@ -2529,6 +2583,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 571,
       },
     ],
+    description: '',
   },
   {
     title: 'Soul Eater',
@@ -2555,6 +2610,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 1020,
       },
     ],
+    description: '',
   },
 
   {
@@ -2587,6 +2643,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 100,
       },
     ],
+    description: '',
   },
 
   {
@@ -2619,6 +2676,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 80,
       },
     ],
+    description: '',
   },
 
   {
@@ -2656,6 +2714,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 1095,
       },
     ],
+    description: '',
   },
   {
     title: "L'Attaque des Titans",
@@ -2697,6 +2756,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 817,
       },
     ],
+    description: '',
   },
   {
     title: 'One Punch Man',
@@ -2733,6 +2793,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
   {
     title: 'Rick and Morty',
@@ -2795,6 +2856,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 300,
       },
     ],
+    description: '',
   },
   {
     title: 'Samurai Champloo',
@@ -2821,6 +2883,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 650,
       },
     ],
+    description: '',
   },
   {
     title: 'Les Simpsons',
@@ -3017,6 +3080,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 525,
       },
     ],
+    description: '',
   },
   {
     title: 'Astérix & Obélix : Le Combat des Chefs',
@@ -3043,6 +3107,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 150,
       },
     ],
+    description: '',
   },
   {
     title: 'Arcane',
@@ -3075,6 +3140,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 370,
       },
     ],
+    description: '',
   },
   {
     title: 'Avengers Assemble',
@@ -3111,6 +3177,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 35,
       },
     ],
+    description: '',
   },
   {
     title: 'Avatar: The Last Airbender',
@@ -3147,6 +3214,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 630,
       },
     ],
+    description: '',
   },
   {
     title: 'South Park',
@@ -3303,6 +3371,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 152,
       },
     ],
+    description: '',
   },
   {
     title: 'Star Wars: The Clone Wars',
@@ -3359,6 +3428,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 360,
       },
     ],
+    description: '',
   },
   {
     title: 'Star Wars Rebels',
@@ -3400,6 +3470,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 480,
       },
     ],
+    description: '',
   },
   {
     title: 'Galactik Football',
@@ -3436,6 +3507,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 598,
       },
     ],
+    description: '',
   },
   {
     title: 'La Légende de Korra',
@@ -3477,6 +3549,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 299,
       },
     ],
+    description: '',
   },
   {
     title: 'Code Geass',
@@ -3502,6 +3575,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 600,
       },
     ],
+    description: '',
   },
   {
     title: 'GTO : Great Teacher Onizuka',
@@ -3522,6 +3596,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 1032,
       },
     ],
+    description: '',
   },
   {
     title: 'Psycho-Pass',
@@ -3552,6 +3627,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 192,
       },
     ],
+    description: '',
   },
   {
     title: 'Your Lie in April',
@@ -3572,6 +3648,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 528,
       },
     ],
+    description: '',
   },
   {
     title: 'Sword Art Online',
@@ -3607,6 +3684,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 552,
       },
     ],
+    description: '',
   },
   {
     title: 'Tokyo Ghoul',
@@ -3642,6 +3720,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
   {
     title: 'Fairy Tail',
@@ -3702,6 +3781,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 1224,
       },
     ],
+    description: '',
   },
   {
     title: 'Fate/zero',
@@ -3728,6 +3808,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
   {
     title: 'Fate Stay Night',
@@ -3748,6 +3829,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 576,
       },
     ],
+    description: '',
   },
   {
     title: 'Fate Apocrypha',
@@ -3768,6 +3850,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 600,
       },
     ],
+    description: '',
   },
   {
     title: 'Fate Grand Order',
@@ -3788,6 +3871,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 504,
       },
     ],
+    description: '',
   },
   {
     title: 'Fate Unlimited blade works',
@@ -3813,6 +3897,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 312,
       },
     ],
+    description: '',
   },
   {
     title: 'RWBY',
@@ -3873,6 +3958,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 240,
       },
     ],
+    description: '',
   },
   {
     title: 'Elfen Lied',
@@ -3893,6 +3979,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 312,
       },
     ],
+    description: '',
   },
   {
     title: 'Angel Beats!',
@@ -3913,6 +4000,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 312,
       },
     ],
+    description: '',
   },
   {
     title: 'Charlotte',
@@ -3933,6 +4021,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 312,
       },
     ],
+    description: '',
   },
   {
     title: 'Clannad',
@@ -3958,6 +4047,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 576,
       },
     ],
+    description: '',
   },
   {
     title: 'Mirai Nikki',
@@ -3978,6 +4068,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 624,
       },
     ],
+    description: '',
   },
   {
     title: 'Durarara!!',
@@ -4014,6 +4105,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
   {
     title: 'Nana',
@@ -4034,6 +4126,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 1128,
       },
     ],
+    description: '',
   },
   {
     title: 'Black Butler',
@@ -4069,6 +4162,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 264,
       },
     ],
+    description: '',
   },
   {
     title: 'Violet Evergarden',
@@ -4089,6 +4183,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 312,
       },
     ],
+    description: '',
   },
   {
     title: 'The Promised Neverland',
@@ -4114,6 +4209,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 264,
       },
     ],
+    description: '',
   },
   {
     title: 'Death Parade',
@@ -4134,6 +4230,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
   {
     title: 'Magia record',
@@ -4164,6 +4261,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 96,
       },
     ],
+    description: '',
   },
   {
     title: 'Gambling School',
@@ -4189,6 +4287,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
   {
     title: 'Oshi no Ko',
@@ -4214,6 +4313,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 312,
       },
     ],
+    description: '',
   },
   {
     title: 'Another',
@@ -4234,6 +4334,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
   {
     title: 'Solo Leveling',
@@ -4259,6 +4360,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 312,
       },
     ],
+    description: '',
   },
   {
     title: 'Tower of god',
@@ -4284,6 +4386,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 624,
       },
     ],
+    description: '',
   },
   {
     title: 'Noblesse',
@@ -4304,6 +4407,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 312,
       },
     ],
+    description: '',
   },
   {
     title: 'Beyblade',
@@ -4335,6 +4439,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 1248,
       },
     ],
+    description: '',
   },
   {
     title: 'High school of the dead',
@@ -4355,6 +4460,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
   {
     title: 'Deadman Wonderland',
@@ -4375,6 +4481,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
   {
     title: 'Danganronpa',
@@ -4395,6 +4502,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 312,
       },
     ],
+    description: '',
   },
   {
     title: "Darwin's Game",
@@ -4415,6 +4523,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 264,
       },
     ],
+    description: '',
   },
   {
     title: 'Toriko',
@@ -4435,6 +4544,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 3528,
       },
     ],
+    description: '',
   },
   {
     title: 'Aggretsuko',
@@ -4475,6 +4585,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 240,
       },
     ],
+    description: '',
   },
   {
     title: 'Sailor Moon',
@@ -4515,6 +4626,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 816,
       },
     ],
+    description: '',
   },
   {
     title: 'Fruit Basket',
@@ -4545,6 +4657,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 312,
       },
     ],
+    description: '',
   },
   {
     title: 'Guilty Crown',
@@ -4565,6 +4678,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 528,
       },
     ],
+    description: '',
   },
   {
     title: 'Sakura chasseuse de cartes',
@@ -4585,6 +4699,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
   {
     title: 'Hamtaro',
@@ -4606,6 +4721,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
   {
     title: 'Higurashi no naku koro ni',
@@ -4626,6 +4742,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
   {
     title: 'Umineko no naku koro ni',
@@ -4647,6 +4764,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
   {
     title: 'Romeo X Juliet',
@@ -4667,6 +4785,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
   {
     title: 'Jeanne et Serge',
@@ -4687,6 +4806,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
   {
     title: 'Toradora !',
@@ -4707,6 +4827,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
   {
     title: 'Tonari no Kaibutsu-kun',
@@ -4728,6 +4849,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
   {
     title: 'Maid sama',
@@ -4748,6 +4870,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
   {
     title: 'My happy marriage',
@@ -4768,6 +4891,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
   {
     title: 'Yakuza fiancee',
@@ -4788,6 +4912,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
   {
     title: 'Si je suis la vilaine, autant mater le boss final',
@@ -4808,6 +4933,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
   {
     title: 'winx club',
@@ -4828,6 +4954,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
   {
     title: 'magical girl raising project',
@@ -4849,6 +4976,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
   {
     title: 'wish upon the pleiades',
@@ -4870,6 +4998,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
   {
     title: 'Anohana',
@@ -4890,6 +5019,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
   {
     title: 'Steins Gate',
@@ -4910,6 +5040,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
   {
     title: 'No Game No Life',
@@ -4930,5 +5061,6 @@ export const baseSeriesAnimees: BaseSerie[] = [
         totalLength: 288,
       },
     ],
+    description: '',
   },
 ];

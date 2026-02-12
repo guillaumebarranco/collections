@@ -10,6 +10,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Les liaisons dangereuses',
@@ -20,6 +21,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Castel Boy',
@@ -30,6 +32,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'En bons pères de famille',
@@ -40,6 +43,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "Où va l'argent des pauvres",
@@ -50,6 +54,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Les tout-petits face aux écrans',
@@ -60,6 +65,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Les serres sous le velours noir',
@@ -70,6 +76,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "Ne tirez pas sur l'oiseau moqueur",
@@ -80,6 +87,7 @@ export const guillaumeBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Les Hauts de Hurlevent',
@@ -90,6 +98,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Voyage au centre de la terre',
@@ -100,6 +109,7 @@ export const guillaumeBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Le tour du monde en 80 jours',
@@ -110,6 +120,7 @@ export const guillaumeBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Vingt Mille Lieues sous les mers',
@@ -120,6 +131,7 @@ export const guillaumeBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "L'Île mystérieuse",
@@ -130,6 +142,7 @@ export const guillaumeBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'De la Terre à la Lune',
@@ -140,6 +153,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Le Comte de Monte-Cristo',
@@ -150,6 +164,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Frankenstein',
@@ -160,6 +175,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Le Portrait de Dorian Gray',
@@ -170,6 +186,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'La Ferme des animaux',
@@ -180,6 +197,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Orgueil et Préjugés',
@@ -190,6 +208,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: '1984',
@@ -200,6 +219,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Fondation',
@@ -210,6 +230,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Fahrenheit 451',
@@ -220,6 +241,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Miss Marple au club du mardi',
@@ -230,6 +252,7 @@ export const guillaumeBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "L'Affaire Protheroe",
@@ -240,6 +263,7 @@ export const guillaumeBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "Le crime de l'Orient Express",
@@ -250,6 +274,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Mort sur le Nil',
@@ -260,6 +285,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Ils étaient dix',
@@ -270,6 +296,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Le Meurtre de Roger Ackroyd',
@@ -280,6 +307,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Meurtre en Mésopotamie',
@@ -290,6 +318,7 @@ export const guillaumeBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Cinq petits cochons',
@@ -300,6 +329,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Dracula',
@@ -310,6 +340,7 @@ export const guillaumeBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Jane Eyre',
@@ -320,6 +351,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Une vie',
@@ -330,6 +362,7 @@ export const guillaumeBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'La tête sur les épaules',
@@ -340,6 +373,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'La Nuit des temps',
@@ -350,6 +384,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'La Horde du Contrevent',
@@ -360,6 +395,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Madame Bovary',
@@ -370,6 +406,7 @@ export const guillaumeBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Bel-Ami',
@@ -380,6 +417,7 @@ export const guillaumeBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Résister',
@@ -390,6 +428,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Le coût de la virilité',
@@ -400,6 +439,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Sois jeune et tais-toi',
@@ -410,6 +450,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "L'Île au trésor",
@@ -420,6 +461,7 @@ export const guillaumeBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Faites-les lire !',
@@ -430,6 +472,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Candide',
@@ -440,6 +483,7 @@ export const guillaumeBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Carrie',
@@ -450,6 +494,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Désolation',
@@ -460,6 +505,7 @@ export const guillaumeBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "L'étrange cas du docteur Jekyll et de Mr. Hyde",
@@ -470,6 +516,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "L'ordinatueur",
@@ -480,6 +527,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'La Potion magique de Georges Bouillon',
@@ -490,6 +538,7 @@ export const guillaumeBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Gatsby le magnifique',
@@ -500,6 +549,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'La guerre des mondes',
@@ -510,6 +560,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'La machine à explorer le temps',
@@ -520,6 +571,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "L'homme invisible",
@@ -530,6 +582,7 @@ export const guillaumeBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'La photo qui tue',
@@ -540,6 +593,7 @@ export const guillaumeBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Les pages de notre amour',
@@ -550,6 +604,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'À tout jamais',
@@ -560,6 +615,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Le porte bonheur',
@@ -570,6 +626,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Memento mori',
@@ -580,6 +637,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Un choix',
@@ -590,6 +648,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Viridia: Les racines du pouvoir',
@@ -600,6 +659,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Alchemised',
@@ -610,6 +670,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Une seconde chance',
@@ -620,6 +681,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "L'Iliade",
@@ -630,6 +692,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "L'Odyssée",
@@ -640,6 +703,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Adam',
@@ -650,6 +714,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -661,6 +726,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Roméo et Juliette',
@@ -671,6 +737,7 @@ export const guillaumeBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'La brute',
@@ -681,6 +748,7 @@ export const guillaumeBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'The Dead zone',
@@ -691,6 +759,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -702,6 +771,7 @@ export const guillaumeBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Les piliers de la terre',
@@ -712,6 +782,7 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -723,6 +794,7 @@ export const guillaumeBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -734,5 +806,6 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: 'sdgdfgfdgdf',
   },
 ];

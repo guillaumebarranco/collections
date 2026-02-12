@@ -27,6 +27,7 @@ type EditComicForm = {
   readDate: string;
   owned: boolean;
   wantToReadAgain: boolean;
+  ratingComment: string;
 };
 
 type EditComicEntityForm = {
@@ -34,6 +35,7 @@ type EditComicEntityForm = {
   genre: string;
   writer: string;
   coverUrl: string;
+  description: string;
 };
 
 type EditComicDialogData = {
@@ -225,6 +227,7 @@ export class EditComicComponent {
           readDate: form.readDate,
           owned: form.owned,
           wantToReadAgain: form.wantToReadAgain,
+          ratingComment: form.ratingComment ?? '',
           entity: this.isAdminView()
             ? this.toEntityPayload(this.comicEntityForm())
             : undefined,
@@ -415,6 +418,7 @@ export class EditComicComponent {
       readDate: comic.readDate,
       owned: comic.owned,
       wantToReadAgain: comic.wantToReadAgain ?? false,
+      ratingComment: comic.ratingComment ?? '',
     };
   }
 
@@ -424,6 +428,7 @@ export class EditComicComponent {
       genre: comic.genre || '',
       writer: comic.writer || '',
       coverUrl: comic.coverUrl || '',
+      description: comic.description ?? '',
     };
   }
 
@@ -434,6 +439,7 @@ export class EditComicComponent {
       genre: form.genre,
       writer: form.writer,
       coverUrl: form.coverUrl,
+      description: form.description ?? '',
     };
   }
 

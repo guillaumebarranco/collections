@@ -12,6 +12,7 @@ export interface BaseSerie extends MandatorySerieData {
   endDate: string;
   genre: string;
   seasonsData: BaseSerieSeasonData[];
+  description: string;
 }
 
 export interface BaseSerieSeasonData {
@@ -32,6 +33,7 @@ export interface UserSerie extends MandatorySerieData {
   owned: boolean;
   watchPriority: 1 | 2 | 3;
   wantToWatchAgain: boolean;
+  ratingComment: string;
 }
 
 export type UserSeries = UserSerie[];

@@ -18,6 +18,7 @@ type AddSerieEntityForm = {
     totalLength: number;
   }[];
   watchPriority: number;
+  description: string;
 };
 
 type AddSerieDialogData = {
@@ -33,6 +34,7 @@ type AddSerieUserForm = {
     seasonTimesWatched: number;
     lastViewedDate: string;
   }[];
+  ratingComment: string;
 };
 
 @Component({
@@ -62,12 +64,14 @@ export class AddSerieComponent {
     genre: '',
     seasonsData: [],
     watchPriority: 1,
+    description: '',
   });
 
   userForm = signal<AddSerieUserForm>({
     owned: false,
     watchPriority: 1,
     seasons: [],
+    ratingComment: '',
   });
 
   close() {

@@ -8,6 +8,7 @@ export const baseManwhasApi: BaseManwha[] = [
     genre: 'Shonen',
     nbChapters: 140,
     isFinished: true,
+    description: '',
   },
   {
     title: 'The God of High School',
@@ -17,6 +18,7 @@ export const baseManwhasApi: BaseManwha[] = [
     genre: 'Shonen',
     nbChapters: 435,
     isFinished: false,
+    description: '',
   },
 
   {
@@ -26,5 +28,6 @@ export const baseManwhasApi: BaseManwha[] = [
     genre: '',
     nbChapters: 23,
     isFinished: true,
+    description: '',
   },
 ];

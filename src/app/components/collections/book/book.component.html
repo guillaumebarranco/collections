@@ -53,6 +53,8 @@
     <p class="book-author">{{ book.author }}</p>
     @if(book.releaseDate) {
     <p class="book-pages">Paru en {{ book.releaseDate | date : "yyyy" }}</p>
+    } @if (book.description) {
+    <p class="book-description">{{ book.description }}</p>
     } @if (book.pages) {
     <p class="book-pages">
       <span>{{ book.pages }}</span> pages
@@ -73,6 +75,9 @@
       </span>
       <span class="rating-text">{{ book.rating }}/5</span>
     </div>
+    @if (book.ratingComment) {
+    <p class="book-rating-comment">{{ book.ratingComment }}</p>
+    }
     } @if (isBaseEntityView) {
     <p class="book-genre">{{ book.genre }}</p>
     } @if (recommendationText) {

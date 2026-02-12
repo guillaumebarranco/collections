@@ -30,6 +30,7 @@ type EditMovieForm = {
   owned: boolean;
   wantToSeeAgain: boolean;
   watchPriority: number;
+  ratingComment: string;
 };
 
 type EditMovieEntityForm = {
@@ -39,6 +40,7 @@ type EditMovieEntityForm = {
   length: number;
   genre: string;
   saga: string;
+  description: string;
 };
 
 type EditMovieDialogData = {
@@ -233,6 +235,7 @@ export class EditMovieComponent {
           owned: form.owned,
           wantToSeeAgain: form.wantToSeeAgain,
           watchPriority: form.watchPriority,
+          ratingComment: form.ratingComment ?? '',
           entity: this.isAdminView()
             ? this.toEntityPayload(this.movieEntityForm())
             : undefined,
@@ -431,6 +434,7 @@ export class EditMovieComponent {
       owned: movie.owned,
       wantToSeeAgain: movie.wantToSeeAgain ?? false,
       watchPriority: movie.watchPriority ?? 0,
+      ratingComment: movie.ratingComment ?? '',
     };
   }
 
@@ -442,6 +446,7 @@ export class EditMovieComponent {
       length: movie.length,
       genre: movie.genre,
       saga: movie.saga || '',
+      description: movie.description ?? '',
     };
   }
 
@@ -457,6 +462,7 @@ export class EditMovieComponent {
       length: form.length,
       genre: form.genre,
       saga: form.saga,
+      description: form.description ?? '',
     };
   }
 

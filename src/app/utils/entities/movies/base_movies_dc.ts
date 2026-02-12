@@ -10,6 +10,7 @@ export const baseMoviesDc: BaseMovie[] = [
     length: 114,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'Batman',
@@ -20,6 +21,7 @@ export const baseMoviesDc: BaseMovie[] = [
     length: 126,
     genre: 'Action',
     saga: 'Batman',
+    description: '',
   },
   {
     title: 'Batman Returns',
@@ -35,6 +37,7 @@ export const baseMoviesDc: BaseMovie[] = [
     length: 126,
     genre: 'Action',
     saga: 'Batman',
+    description: '',
   },
   {
     title: 'Batman Forever',
@@ -55,6 +58,7 @@ export const baseMoviesDc: BaseMovie[] = [
     length: 121,
     genre: 'Action',
     saga: 'Batman',
+    description: '',
   },
   {
     title: 'Batman & Robin',
@@ -72,6 +76,7 @@ export const baseMoviesDc: BaseMovie[] = [
     length: 125,
     genre: 'Action',
     saga: 'Batman',
+    description: '',
   },
   {
     title: 'Batman Begins',
@@ -101,6 +106,7 @@ export const baseMoviesDc: BaseMovie[] = [
     length: 140,
     genre: 'Action',
     saga: 'The Dark Knight',
+    description: '',
   },
   {
     title: 'The Dark Knight : Le Chevalier Noir',
@@ -127,6 +133,7 @@ export const baseMoviesDc: BaseMovie[] = [
     length: 152,
     genre: 'Action',
     saga: 'The Dark Knight',
+    description: '',
   },
   {
     title: 'The Dark Knight Rises',
@@ -157,6 +164,7 @@ export const baseMoviesDc: BaseMovie[] = [
     length: 164,
     genre: 'Action',
     saga: 'The Dark Knight',
+    description: '',
   },
   {
     title: 'The Batman',
@@ -174,6 +182,7 @@ export const baseMoviesDc: BaseMovie[] = [
     length: 176,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: "Batman v Superman : L'Aube de la Justice",
@@ -203,6 +212,7 @@ export const baseMoviesDc: BaseMovie[] = [
     length: 151,
     genre: 'Action',
     saga: 'DCEU',
+    description: '',
   },
   {
     title: 'Shazam!',
@@ -217,6 +227,7 @@ export const baseMoviesDc: BaseMovie[] = [
     length: 132,
     genre: 'Action',
     saga: 'DCEU',
+    description: '',
   },
   {
     title: 'Aquaman',
@@ -231,6 +242,7 @@ export const baseMoviesDc: BaseMovie[] = [
     length: 143,
     genre: 'Action',
     saga: 'DCEU',
+    description: '',
   },
   {
     title: 'Black Adam',
@@ -248,6 +260,7 @@ export const baseMoviesDc: BaseMovie[] = [
     length: 125,
     genre: 'Action',
     saga: 'DCEU',
+    description: '',
   },
   {
     title: "Zack Snyder's Justice League",
@@ -275,6 +288,7 @@ export const baseMoviesDc: BaseMovie[] = [
     length: 242,
     genre: 'Action',
     saga: 'DCEU',
+    description: '',
   },
   {
     title: 'Suicide Squad',
@@ -292,6 +306,7 @@ export const baseMoviesDc: BaseMovie[] = [
     length: 123,
     genre: 'Action',
     saga: 'DCEU',
+    description: '',
   },
   {
     title: 'Man of Steel',
@@ -318,6 +333,7 @@ export const baseMoviesDc: BaseMovie[] = [
     length: 143,
     genre: 'Action',
     saga: 'DCEU',
+    description: '',
   },
   {
     title: 'Superman',
@@ -338,6 +354,7 @@ export const baseMoviesDc: BaseMovie[] = [
     length: 150,
     genre: 'Action',
     saga: 'DCU',
+    description: '',
   },
   {
     title: 'Watchmen : Les Gardiens',
@@ -348,6 +365,7 @@ export const baseMoviesDc: BaseMovie[] = [
     length: 162,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'Catwoman',
@@ -358,6 +376,7 @@ export const baseMoviesDc: BaseMovie[] = [
     length: 104,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'Wonder Woman',
@@ -372,6 +391,7 @@ export const baseMoviesDc: BaseMovie[] = [
     length: 141,
     genre: 'Action',
     saga: 'DCEU',
+    description: '',
   },
   {
     title: 'Wonder Woman 1984',
@@ -386,6 +406,7 @@ export const baseMoviesDc: BaseMovie[] = [
     length: 151,
     genre: 'Action',
     saga: 'DCEU',
+    description: '',
   },
   {
     title: 'The Flash',
@@ -400,6 +421,7 @@ export const baseMoviesDc: BaseMovie[] = [
     length: 144,
     genre: 'Action',
     saga: 'DCEU',
+    description: '',
   },
   {
     title: 'Birds of Prey',
@@ -415,5 +437,6 @@ export const baseMoviesDc: BaseMovie[] = [
     length: 109,
     genre: 'Action',
     saga: 'DCEU',
+    description: '',
   },
 ];

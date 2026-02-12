@@ -10,6 +10,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 108,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'Deadpool 2',
@@ -33,6 +34,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 119,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'Daredevil',
@@ -56,6 +58,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 103,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'X-Men',
@@ -79,6 +82,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 104,
     genre: 'Action',
     saga: 'X-Men',
+    description: '',
   },
   {
     title: 'X-men 2',
@@ -94,6 +98,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 134,
     genre: 'Action',
     saga: 'X-Men',
+    description: '',
   },
   {
     title: "X-Men : L'Affrontement Final",
@@ -110,6 +115,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 104,
     genre: 'Action',
     saga: 'X-Men',
+    description: '',
   },
   {
     title: 'X-Men Origins : Wolverine',
@@ -121,6 +127,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 107,
     genre: 'Action',
     saga: 'X-Men',
+    description: '',
   },
   {
     title: 'The Wolverine',
@@ -131,6 +138,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 126,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'Logan',
@@ -141,6 +149,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 137,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'X-Men : Le Commencement',
@@ -155,6 +164,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 132,
     genre: 'Action',
     saga: 'X-Men',
+    description: '',
   },
   {
     title: 'X-Men : Days of Future Past',
@@ -171,6 +181,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 132,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'X-Men : Apocalypse',
@@ -186,6 +197,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 144,
     genre: 'Action',
     saga: 'X-Men',
+    description: '',
   },
   {
     title: 'X-Men :Dark Phoenix',
@@ -203,6 +215,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 114,
     genre: 'Action',
     saga: 'X-Men',
+    description: '',
   },
   {
     title: 'Venom',
@@ -217,6 +230,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 112,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'Venom : Let There Be Carnage',
@@ -232,6 +246,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 97,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'Spider-Man',
@@ -242,6 +257,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 121,
     genre: 'Action',
     saga: 'Spider-Man',
+    description: '',
   },
   {
     title: 'Spider-Man 2',
@@ -252,6 +268,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 127,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'Spider-Man 3',
@@ -262,6 +279,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 139,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'The Amazing Spider-Man',
@@ -273,6 +291,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 136,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: "The Amazing Spider-Man : Le Destin d'un Héros",
@@ -283,6 +302,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 142,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'Kick-Ass',
@@ -293,6 +313,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 117,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'Kick-Ass 2',
@@ -303,6 +324,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 103,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'Hancock',
@@ -313,6 +335,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 92,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'Les 4 Fantastiques',
@@ -323,6 +346,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 106,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: "Les 4 Fantastiques et le Surfeur d'Argent",
@@ -334,6 +358,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 92,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'Ghost Rider',
@@ -344,6 +369,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 114,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'Sky High',
@@ -354,6 +380,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 100,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Hulk',
@@ -364,6 +391,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 138,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'The Punisher',
@@ -374,6 +402,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 124,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'Les 4 Fantastiques',
@@ -384,5 +413,6 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     length: 100,
     genre: 'Action',
     saga: '',
+    description: '',
   },
 ];

@@ -9,6 +9,7 @@ export const guillaumeGameListGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     sessions: [],
+    ratingComment: '',
   },
   {
     title: 'Clair Obscur : Expedition 33',
@@ -18,6 +19,7 @@ export const guillaumeGameListGames: UserGames = [
     gamelistPriority: 3,
     wantToPlayAgain: false,
     sessions: [],
+    ratingComment: '',
   },
   {
     title: 'Ratchet & Clank : Rift Apart',
@@ -27,5 +29,6 @@ export const guillaumeGameListGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     sessions: [],
+    ratingComment: '',
   },
 ];

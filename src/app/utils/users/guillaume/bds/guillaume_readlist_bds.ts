@@ -10,6 +10,7 @@ export const guillaumeReadListBds: UserBds = [
     owned: false,
     readPriority: 2,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Racines',
@@ -20,5 +21,6 @@ export const guillaumeReadListBds: UserBds = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 ];

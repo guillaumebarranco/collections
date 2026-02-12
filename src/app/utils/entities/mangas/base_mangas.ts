@@ -8,6 +8,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 72,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Kingdom',
@@ -16,6 +17,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Seinen',
     nbTomes: 75,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Eyeshield 21',
@@ -24,6 +26,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 37,
     isFinished: true,
+    description: '',
   },
   {
     title: 'My Hero Academia',
@@ -32,6 +35,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 15,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Black Clover',
@@ -40,6 +44,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 11,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Boruto',
@@ -48,6 +53,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 20,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Dandadan',
@@ -56,6 +62,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 12,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Nisekoi',
@@ -64,6 +71,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 25,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Dreamland',
@@ -72,6 +80,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 16,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Saru Lock',
@@ -80,6 +89,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Seinen',
     nbTomes: 22,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Hi No Tori',
@@ -88,6 +98,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Seinen',
     nbTomes: 21,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Pretty Face',
@@ -96,6 +107,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 6,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Dragon Ball',
@@ -104,6 +116,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 42,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Dragon Ball Super',
@@ -112,6 +125,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 22,
     isFinished: false,
+    description: '',
   },
   {
     title: 'OnePunch-Man',
@@ -120,6 +134,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 14,
     isFinished: false,
+    description: '',
   },
   {
     title: 'GTO',
@@ -128,6 +143,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 25,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Captain Tsubasa',
@@ -136,6 +152,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 37,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Slam Dunk',
@@ -144,6 +161,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 31,
     isFinished: true,
+    description: '',
   },
   {
     title: "Darwin's Game",
@@ -152,6 +170,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 8,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Hikaru No Go',
@@ -160,6 +179,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 23,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Rave',
@@ -168,6 +188,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 35,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Kuroko No Basket',
@@ -176,6 +197,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 30,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Code:breaker',
@@ -184,6 +206,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 26,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Reborn',
@@ -192,6 +215,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 42,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Bakuman',
@@ -200,6 +224,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 20,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Jackals',
@@ -208,6 +233,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Seinen',
     nbTomes: 6,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Magi The Labyrinth of Magic',
@@ -216,6 +242,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 37,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Yu Yu Hakusho',
@@ -224,6 +251,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 19,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Fullmetal Alchemist',
@@ -232,6 +260,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 27,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Ginga Patrol Jako',
@@ -240,6 +269,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 1,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Gamble fish',
@@ -248,6 +278,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Ecchi',
     nbTomes: 19,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Tonari no Seki-kun',
@@ -256,6 +287,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 12,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Puella Magi Madoka Magica',
@@ -264,6 +296,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Seinen',
     nbTomes: 3,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Nanatsu No Taizai',
@@ -272,6 +305,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 41,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Black Cat',
@@ -280,6 +314,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 20,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Shaman king',
@@ -288,6 +323,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 32,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Doubt',
@@ -296,6 +332,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Seinen',
     nbTomes: 6,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Shokugeki no Soma',
@@ -304,6 +341,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 36,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Blue Dragon : Ral Ω Grad',
@@ -312,6 +350,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 4,
     isFinished: true,
+    description: '',
   },
   {
     title: 'One Piece',
@@ -320,6 +359,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 111,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Kenshin le Vagabond',
@@ -328,6 +368,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 28,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Feng Shen Ji',
@@ -336,6 +377,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 20,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Toriko',
@@ -344,6 +386,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 43,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Satan 666',
@@ -352,6 +395,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 19,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Worst',
@@ -360,6 +404,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 33,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Akame Ga Kill',
@@ -368,6 +413,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 15,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Death Note',
@@ -376,6 +422,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 13,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Assassination Classroom',
@@ -384,6 +431,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 22,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Karate Shoukoushi Kohinata Minoru',
@@ -392,6 +440,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 25,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Hunter X Hunter',
@@ -400,6 +449,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 38,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Beelzebub',
@@ -408,6 +458,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 28,
     isFinished: true,
+    description: '',
   },
   {
     title: "L'attaque des titans",
@@ -416,6 +467,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Seinen',
     nbTomes: 34,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Claymore',
@@ -424,6 +476,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 27,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Ashita No Joe',
@@ -432,6 +485,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 12,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Gamaran',
@@ -440,6 +494,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 20,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Terra Formars',
@@ -448,6 +503,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 22,
     isFinished: true,
+    description: '',
   },
   {
     title: 'World Trigger',
@@ -456,6 +512,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 23,
     isFinished: true,
+    description: '',
   },
   {
     title: 'The Breaker',
@@ -464,6 +521,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 10,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Asu No Yoichi',
@@ -472,6 +530,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Ecchi',
     nbTomes: 4,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Ken-ichi, le disciple ultime',
@@ -480,6 +539,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 61,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Yu-Gi-Oh!',
@@ -488,6 +548,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 37,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Bleach',
@@ -496,6 +557,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 74,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Lui Ou Rien !',
@@ -504,6 +566,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 6,
     isFinished: true,
+    description: '',
   },
   {
     title: 'All You Need Is Kill',
@@ -512,6 +575,7 @@ export const baseMangas: BaseManga[] = [
     genre: '',
     nbTomes: 2,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Crows',
@@ -520,6 +584,7 @@ export const baseMangas: BaseManga[] = [
     genre: '',
     nbTomes: 26,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Détective Conan',
@@ -528,6 +593,7 @@ export const baseMangas: BaseManga[] = [
     genre: '',
     nbTomes: 103,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Hinomaru Zumou',
@@ -536,6 +602,7 @@ export const baseMangas: BaseManga[] = [
     genre: '',
     nbTomes: 28,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Haikyū!!',
@@ -544,6 +611,7 @@ export const baseMangas: BaseManga[] = [
     genre: '',
     nbTomes: 45,
     isFinished: false,
+    description: '',
   },
   {
     title: 'The Promised Neverland',
@@ -552,6 +620,7 @@ export const baseMangas: BaseManga[] = [
     genre: '',
     nbTomes: 20,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Gunnm',
@@ -560,6 +629,7 @@ export const baseMangas: BaseManga[] = [
     genre: '',
     nbTomes: 9,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Hajime no Ippo',
@@ -568,6 +638,7 @@ export const baseMangas: BaseManga[] = [
     genre: '',
     nbTomes: 143,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Jujutsu Kaisen',
@@ -576,6 +647,7 @@ export const baseMangas: BaseManga[] = [
     genre: '',
     nbTomes: 30,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Demon Slayer',
@@ -584,6 +656,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 23,
     isFinished: true,
+    description: '',
   },
   {
     title: "JoJo's Bizarre Adventure",
@@ -592,6 +665,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 136,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Captain Tsubasa : World Youth',
@@ -600,6 +674,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 18,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Captain Tsubasa: Road to 2002',
@@ -609,6 +684,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 15,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Captain Tsubasa: Golden 23',
@@ -617,6 +693,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 12,
     isFinished: true,
+    description: '',
   },
   {
     title: 'Captain Tsubasa: Rising Sun',
@@ -625,6 +702,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 20,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Spy x Family',
@@ -633,6 +711,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 13,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Chainsaw Man',
@@ -641,6 +720,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 16,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Platinum End',
@@ -649,6 +729,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 14,
     isFinished: true,
+    description: '',
   },
   {
     title: 'The Legend Of Zelda',
@@ -657,6 +738,7 @@ export const baseMangas: BaseManga[] = [
     genre: 'Shonen',
     nbTomes: 10,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Vagabond',
@@ -665,6 +747,7 @@ export const baseMangas: BaseManga[] = [
     genre: '',
     nbTomes: 37,
     isFinished: false,
+    description: '',
   },
   {
     title: 'Ken le Survivant',
@@ -673,6 +756,7 @@ export const baseMangas: BaseManga[] = [
     genre: '',
     nbTomes: 27,
     isFinished: true,
+    description: '',
   },
   {
     title: "Gen d'Hiroshima",
@@ -681,5 +765,6 @@ export const baseMangas: BaseManga[] = [
     genre: '',
     nbTomes: 10,
     isFinished: true,
+    description: '',
   },
 ];

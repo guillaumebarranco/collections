@@ -27,6 +27,7 @@ type EditMangaForm = {
   readDate: string;
   owned: boolean;
   wantToReadAgain: boolean;
+  ratingComment: string;
 };
 
 type EditMangaEntityForm = {
@@ -34,6 +35,7 @@ type EditMangaEntityForm = {
   nbTomes: number;
   isFinished: boolean;
   coverUrl: string;
+  description: string;
 };
 
 type EditMangaDialogData = {
@@ -234,6 +236,7 @@ export class EditMangaComponent {
           readDate: form.readDate,
           owned: form.owned,
           wantToReadAgain: form.wantToReadAgain,
+          ratingComment: form.ratingComment ?? '',
           entity: this.isAdminView()
             ? this.toEntityPayload(this.mangaEntityForm())
             : undefined,
@@ -424,6 +427,7 @@ export class EditMangaComponent {
       readDate: manga.readDate,
       owned: manga.owned,
       wantToReadAgain: manga.wantToReadAgain ?? false,
+      ratingComment: manga.ratingComment ?? '',
     };
   }
 
@@ -433,6 +437,7 @@ export class EditMangaComponent {
       nbTomes: manga.nbTomes || 0,
       isFinished: manga.isFinished !== false,
       coverUrl: manga.coverUrl || '',
+      description: manga.description ?? '',
     };
   }
 
@@ -443,6 +448,7 @@ export class EditMangaComponent {
       nbTomes: form.nbTomes,
       isFinished: form.isFinished,
       coverUrl: form.coverUrl,
+      description: form.description ?? '',
     };
   }
 

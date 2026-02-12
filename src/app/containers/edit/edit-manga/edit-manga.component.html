@@ -29,6 +29,8 @@
       <p><strong>Nombre de tomes :</strong> {{ manga()?.nbTomes }}</p>
       } @if (manga()?.isFinished === false) {
       <p><strong>Série :</strong> En cours</p>
+      } @if (manga()?.description) {
+      <p><strong>Description :</strong> {{ manga()?.description }}</p>
       }
     </div>
     <br />
@@ -138,6 +140,18 @@
         name="wantToReadAgain"
       />
     </div>
+
+    <div class="form-row">
+      <label for="ratingComment">Commentaire sur la note</label>
+      <textarea
+        id="ratingComment"
+        rows="3"
+        [ngModel]="mangaForm()?.ratingComment"
+        (ngModelChange)="updateField('ratingComment', $event)"
+        name="ratingComment"
+        placeholder="Optionnel"
+      ></textarea>
+    </div>
     } @if (isAdminView() && mangaEntityForm()) {
     <div class="form-row">
       <label for="entityGenre">Genre</label>
@@ -184,6 +198,18 @@
         (ngModelChange)="updateEntityField('coverUrl', $event)"
         name="entityCoverUrl"
       />
+    </div>
+
+    <div class="form-row">
+      <label for="entityDescription">Description</label>
+      <textarea
+        id="entityDescription"
+        rows="3"
+        [ngModel]="mangaEntityForm()?.description"
+        (ngModelChange)="updateEntityField('description', $event)"
+        name="entityDescription"
+        placeholder="Optionnel"
+      ></textarea>
     </div>
     }
 

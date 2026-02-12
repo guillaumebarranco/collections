@@ -12,6 +12,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Mickey 17',
@@ -24,6 +25,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Carry-On',
@@ -36,6 +38,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Comte de Monte-Cristo',
@@ -48,6 +51,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Challengers',
@@ -60,6 +64,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Road House',
@@ -72,6 +77,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Damsel',
@@ -84,6 +90,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Sly',
@@ -96,6 +103,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Gran Turismo',
@@ -108,6 +116,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Oppenheimer',
@@ -120,6 +129,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Barbie',
@@ -132,6 +142,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Arnold',
@@ -144,6 +155,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Creed III',
@@ -156,6 +168,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Babylon',
@@ -168,6 +181,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Chat Potté 2 : La Dernière Quête',
@@ -180,6 +194,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "L'École du Bien et du Mal",
@@ -192,6 +207,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Samaritan',
@@ -204,6 +220,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Prey',
@@ -216,6 +233,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Bullet Train',
@@ -228,6 +246,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le haut du panier',
@@ -240,6 +259,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Top Gun : Maverick',
@@ -252,6 +272,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Everything Everywhere All at Once',
@@ -264,6 +285,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'The Adam Project',
@@ -276,6 +298,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "Don't look up, déni cosmique",
@@ -288,6 +311,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Red Notice',
@@ -300,6 +324,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'The Guilty',
@@ -312,6 +337,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'La méthode Williams',
@@ -324,6 +350,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Free Guy',
@@ -336,6 +363,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Jolt',
@@ -348,6 +376,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'The Terminal',
@@ -360,6 +389,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Tanguy',
@@ -372,6 +402,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'The One',
@@ -384,6 +415,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Wasabi',
@@ -396,6 +428,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Training Day',
@@ -408,6 +441,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Shaolin Soccer',
@@ -420,6 +454,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Mulholland Drive',
@@ -432,6 +467,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Replicant',
@@ -444,6 +480,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Battle Royale',
@@ -456,6 +493,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Miss Détective',
@@ -468,6 +506,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "A l'aube du 6ème jour",
@@ -480,6 +519,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Memento',
@@ -492,6 +532,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Snatch',
@@ -504,6 +545,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Requiem for a Dream',
@@ -516,6 +558,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Gladiator',
@@ -528,6 +571,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Rebel Ridge',
@@ -540,6 +584,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: '84 m²',
@@ -552,6 +597,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Brick',
@@ -564,6 +610,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'La carte qui mène à toi',
@@ -576,6 +623,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Les 4 fantastiques',
@@ -588,6 +636,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Premier contact',
@@ -600,6 +649,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Sexe entre amis',
@@ -612,6 +662,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Source Code',
@@ -624,6 +675,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le témoin amoureux',
@@ -636,6 +688,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Une femme en jeu',
@@ -648,6 +701,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Lettres à Juliette',
@@ -660,6 +714,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'My Oxford Year',
@@ -672,6 +727,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Ordinary Angels',
@@ -684,6 +740,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'French Lover',
@@ -696,6 +753,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Thunderbolts',
@@ -708,6 +766,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le silence des agneaux',
@@ -720,6 +779,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Maintenance Required',
@@ -732,6 +792,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Nocturnal Animals',
@@ -744,6 +805,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Superman',
@@ -756,6 +818,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Superman II',
@@ -768,6 +831,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Superman Returns',
@@ -780,6 +844,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Enemy',
@@ -792,6 +857,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Forever My Girl',
@@ -804,6 +870,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Dans tes rêves',
@@ -816,6 +883,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'La femme de ménage',
@@ -828,6 +896,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Eaux profondes',
@@ -840,6 +909,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 
   {
@@ -853,6 +923,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 
   {
@@ -866,6 +937,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 
   {
@@ -879,6 +951,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 
   {
@@ -892,6 +965,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 
   {
@@ -905,6 +979,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 
   {
@@ -918,6 +993,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 
   {
@@ -931,6 +1007,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 
   {
@@ -944,6 +1021,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 
   {
@@ -957,6 +1035,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 
   {
@@ -970,6 +1049,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 
   {
@@ -983,6 +1063,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 
   {
@@ -996,6 +1077,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 
   {
@@ -1009,6 +1091,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 
   {
@@ -1022,6 +1105,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 
   {
@@ -1035,6 +1119,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 
   {
@@ -1048,6 +1133,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 
   {
@@ -1061,6 +1147,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 
   {
@@ -1074,6 +1161,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 
   {
@@ -1087,6 +1175,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 
   {
@@ -1100,6 +1189,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 
   {
@@ -1113,6 +1203,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 
   {
@@ -1126,6 +1217,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 
   {
@@ -1139,6 +1231,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 
   {
@@ -1152,6 +1245,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Seven Sisters',
@@ -1164,6 +1258,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 
   {
@@ -1177,6 +1272,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 
   {
@@ -1190,5 +1286,6 @@ export const guillaumeMoviesPage1: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 ];

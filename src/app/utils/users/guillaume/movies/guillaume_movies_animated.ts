@@ -12,6 +12,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Dragons 2',
@@ -24,6 +25,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Dragons 3 : Le Monde caché',
@@ -36,6 +38,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Spider-Man: Into the Spider-Verse',
@@ -48,6 +51,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Spider-Man : À Travers le Spider-Verse',
@@ -60,6 +64,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Les Mondes de Ralph',
@@ -72,6 +77,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Ralph Breaks the Internet',
@@ -84,6 +90,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Super Mario Bros. le Film',
@@ -96,6 +103,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Encanto',
@@ -108,6 +116,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Cars',
@@ -120,6 +129,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Cars 3',
@@ -132,6 +142,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Baby boss',
@@ -144,6 +155,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Vaiana',
@@ -156,6 +168,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Vice-Versa',
@@ -168,6 +181,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Les Nouveaux Héros',
@@ -180,6 +194,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'La Reine des Neiges',
@@ -192,6 +207,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Moi, Moche et Méchant',
@@ -204,6 +220,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Moi, Moche et Méchant 2',
@@ -216,6 +233,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Les Cinq Légendes',
@@ -228,6 +246,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "L'Âge de Glace",
@@ -240,6 +259,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "L'Âge de Glace 2",
@@ -252,6 +272,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "L'Âge de Glace 3 : Le Temps des Dinosaures",
@@ -264,6 +285,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "L'Âge de Glace 4 : La Dérive des Continents",
@@ -276,6 +298,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Rebelle',
@@ -288,6 +311,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Arthur et les Minimoys',
@@ -300,6 +324,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Arthur et la Vengeance de Maltazard',
@@ -312,6 +337,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Arthur 3 : La Guerre des Deux Mondes',
@@ -324,6 +350,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'La Princesse et la Grenouille',
@@ -336,6 +363,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Tempête de Boulettes Géantes',
@@ -348,6 +376,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Monstres contre Aliens',
@@ -360,6 +389,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'WALL-E',
@@ -372,6 +402,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Kung Fu Panda',
@@ -384,6 +415,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Raiponce',
@@ -396,6 +428,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "Bee Movie : Drôle d'Abeille",
@@ -408,6 +441,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Les Simpson, le Film',
@@ -420,6 +454,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Ratatouille',
@@ -432,6 +467,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Shrek',
@@ -444,6 +480,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Shrek 2',
@@ -456,6 +493,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Shrek le Troisième',
@@ -468,6 +506,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Shrek 4 : Il Était une Fois',
@@ -480,6 +519,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Les Indestructibles',
@@ -492,6 +532,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Les Indestructibles 2',
@@ -504,6 +545,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le monde de Nemo',
@@ -516,6 +558,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Monstres et Cie',
@@ -528,6 +571,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Toy Story',
@@ -540,6 +584,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Toy Story 2',
@@ -552,6 +597,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Toy Story 3',
@@ -564,6 +610,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'South Park, le Film',
@@ -576,6 +623,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Tarzan',
@@ -588,6 +636,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Fourmiz',
@@ -600,6 +649,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Mulan',
@@ -612,6 +662,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Princesse Mononoké',
@@ -624,6 +675,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Hercule',
@@ -636,6 +688,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Pocahontas',
@@ -648,6 +701,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Space Jam',
@@ -660,6 +714,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Le Roi Lion',
@@ -672,6 +727,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Aladdin',
@@ -684,6 +740,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'La petite sirène',
@@ -696,6 +753,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Peter Pan',
@@ -708,6 +766,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Pinocchio',
@@ -721,6 +780,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Megamind',
@@ -733,6 +793,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Horton',
@@ -745,6 +806,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Raya et le Dernier Dragon',
@@ -757,6 +819,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Dragon Ball Z: Battle of Gods',
@@ -769,6 +832,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Dragon Ball Z: Bojack Unbound',
@@ -781,6 +845,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Dragon Ball Z: The Tree of Might',
@@ -793,6 +858,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Dragon Ball Z : Fusions',
@@ -805,6 +871,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Dragon Ball Z : Bio-Broly',
@@ -817,6 +884,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Dragon Ball Z : Broly le super guerrier',
@@ -829,6 +897,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 
   {
@@ -842,6 +911,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Dragon Ball Z : Rivaux dangereux',
@@ -854,6 +924,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "Dragon Ball Z : L'Offensive des cyborgs",
@@ -866,6 +937,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Dragon Ball Z : La Revanche de Cooler',
@@ -878,6 +950,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Dragon Ball Z : La Menace de Namek',
@@ -890,6 +963,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Dragon Ball Z : À la poursuite de Garlic',
@@ -902,6 +976,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'Dragon Ball Z : Cent Mille Guerriers de métal',
@@ -914,6 +989,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "Dragon Ball Z : La Résurrection de 'F'",
@@ -926,6 +1002,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'One Piece : Le film',
@@ -938,6 +1015,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "One Piece : L'Aventure de l'île de l'horloge",
@@ -950,6 +1028,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "One Piece : Le Royaume de Chopper, l'île des bêtes étranges",
@@ -962,6 +1041,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "One Piece : L'Aventure sans issue",
@@ -974,6 +1054,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "One Piece : La Malédiction de l'épée sacrée",
@@ -986,6 +1067,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: "One Piece : Le baron Omatsuri et l'île secrète",
@@ -998,6 +1080,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'One Piece : Le Mecha géant du château Karakuri',
@@ -1010,6 +1093,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'One Piece Film: Strong World',
@@ -1022,6 +1106,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'One Piece Film Z',
@@ -1034,6 +1119,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'One Piece : Gold',
@@ -1046,6 +1132,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'One Piece: Stampede',
@@ -1058,6 +1145,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
   {
     title: 'One Piece Film: Red',
@@ -1070,5 +1158,6 @@ export const guillaumeMoviesAnimated: UserMovies = [
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
+    ratingComment: '',
   },
 ];

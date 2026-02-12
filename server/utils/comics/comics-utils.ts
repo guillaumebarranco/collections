@@ -129,6 +129,7 @@ function parseComicsFromFile(content: string): any[] {
             readPriority: parseNumberField(objectText, 'readPriority') ?? 1,
             wantToReadAgain:
               parseBooleanField(objectText, 'wantToReadAgain') ?? false,
+            ratingComment: parseStringField(objectText, 'ratingComment') ?? '',
           });
         }
       }
@@ -184,6 +185,7 @@ function parseBaseComicsFullFromFile(content: string): any[] {
           genre: parseStringField(objectText, 'genre') || '',
           nbTomes: parseNumberField(objectText, 'nbTomes') ?? 0,
           isFinished: parseBooleanField(objectText, 'isFinished') ?? false,
+          description: parseStringField(objectText, 'description') || '',
         });
       }
     }
@@ -275,6 +277,7 @@ function updateComicInFile(filePath: string, comicData: any): boolean {
     owned: ${comic.owned ?? false},
     readPriority: ${comic.readPriority ?? 1},
     wantToReadAgain: ${comic.wantToReadAgain ?? false},
+    ratingComment: '${escapeString(comic.ratingComment || '')}',
   }`
     )
     .join(',\n');
@@ -327,6 +330,7 @@ function updateComicIdentityInFile(filePath: string, comicData: any): boolean {
     owned: ${comic.owned ?? false},
     readPriority: ${comic.readPriority ?? 1},
     wantToReadAgain: ${comic.wantToReadAgain ?? false},
+    ratingComment: '${escapeString(comic.ratingComment || '')}',
   }`
     )
     .join(',\n');
@@ -380,6 +384,7 @@ function updateBaseComicInFile(filePath: string, comicData: any): boolean {
     genre: '${escapeString(comic.genre || '')}',
     nbTomes: ${comic.nbTomes ?? 0},
     isFinished: ${comic.isFinished ?? false},
+    description: '${escapeString(comic.description || '')}',
   }`
     )
     .join(',\n');
@@ -443,6 +448,7 @@ function removeComicFromFile(content: string, payload: any): string {
     owned: ${comic.owned ?? false},
     readPriority: ${comic.readPriority ?? 1},
     wantToReadAgain: ${comic.wantToReadAgain ?? false},
+    ratingComment: '${escapeString(comic.ratingComment || '')}',
   }`
     )
     .join(',\n');

@@ -29,6 +29,7 @@ type EditBookForm = {
   readPriority: number;
   sagaFinished: boolean;
   wantToReadAgain: boolean;
+  ratingComment: string;
 };
 
 type EditBookEntityForm = {
@@ -39,6 +40,7 @@ type EditBookEntityForm = {
   sagaFinished: boolean;
   coverUrl: string;
   releaseDate: string;
+  description: string;
 };
 
 type EditBookDialogData = {
@@ -245,6 +247,7 @@ export class EditBookComponent {
           owned: form.owned,
           readPriority: form.readPriority,
           wantToReadAgain: form.wantToReadAgain,
+          ratingComment: form.ratingComment ?? '',
           entity: this.isAdminView()
             ? this.toEntityPayload(this.bookEntityForm())
             : undefined,
@@ -437,6 +440,7 @@ export class EditBookComponent {
       readPriority: book.readPriority ?? 0,
       sagaFinished: book.sagaFinished,
       wantToReadAgain: book.wantToReadAgain ?? false,
+      ratingComment: book.ratingComment ?? '',
     };
   }
 
@@ -449,6 +453,7 @@ export class EditBookComponent {
       coverUrl: book.coverUrl || '',
       sagaFinished: book.sagaFinished,
       releaseDate: book.releaseDate || '',
+      description: book.description ?? '',
     };
   }
 
@@ -462,6 +467,7 @@ export class EditBookComponent {
       sagaFinished: form.sagaFinished,
       coverUrl: form.coverUrl,
       releaseDate: form.releaseDate,
+      description: form.description ?? '',
     };
   }
 

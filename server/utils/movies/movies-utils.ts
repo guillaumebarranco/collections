@@ -125,6 +125,7 @@ function parseMoviesFromFile(content: string): any[] {
             wantToSeeAgain:
               parseBooleanField(objectText, 'wantToSeeAgain') ?? false,
             watchPriority: parseNumberField(objectText, 'watchPriority') ?? 1,
+            ratingComment: parseStringField(objectText, 'ratingComment') ?? '',
           });
         }
       }
@@ -236,6 +237,7 @@ function parseBaseMoviesFullFromFile(content: string): any[] {
           length: parseNumberField(objectText, 'length') ?? 0,
           genre: parseStringField(objectText, 'genre') || '',
           saga: parseStringField(objectText, 'saga') || '',
+          description: parseStringField(objectText, 'description') || '',
         });
       }
     }
@@ -426,6 +428,7 @@ function updateMovieInFile(content: string, payload: any) {
             'watchPriority',
             payload.watchPriority
           );
+          updated = upsertField(updated, 'ratingComment', payload.ratingComment ?? '');
 
           return (
             content.slice(0, objectStart) +
@@ -551,6 +554,7 @@ function updateBaseMovieInFile(content: string, payload: any) {
           updated = upsertField(updated, 'length', payload.length);
           updated = upsertField(updated, 'genre', payload.genre);
           updated = upsertField(updated, 'saga', payload.saga);
+          updated = upsertField(updated, 'description', payload.description ?? '');
 
           return (
             content.slice(0, objectStart) +
@@ -618,6 +622,7 @@ function removeMovieFromFile(content: string, payload: any) {
     owned: ${movie.owned ?? false},
     wantToSeeAgain: ${movie.wantToSeeAgain ?? false},
     watchPriority: ${movie.watchPriority ?? 1},
+    ratingComment: '${escapeString(movie.ratingComment || '')}',
   }`
     )
     .join(',\n');

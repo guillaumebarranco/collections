@@ -10,6 +10,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 98,
     genre: 'Animation',
     saga: 'Dragons',
+    description: '',
   },
   {
     title: 'Dragons 2',
@@ -21,6 +22,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 102,
     genre: 'Animation',
     saga: 'Dragons',
+    description: '',
   },
   {
     title: 'Dragons 3 : Le Monde caché',
@@ -36,6 +38,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 104,
     genre: 'Animation',
     saga: 'Dragons',
+    description: '',
   },
   {
     title: 'Spider-Man: Into the Spider-Verse',
@@ -51,6 +54,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 117,
     genre: 'Animation',
     saga: 'Spider-Verse',
+    description: '',
   },
   {
     title: 'Spider-Man : À Travers le Spider-Verse',
@@ -66,6 +70,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 140,
     genre: 'Animation',
     saga: 'Spider-Verse',
+    description: '',
   },
   {
     title: 'Les Mondes de Ralph',
@@ -76,6 +81,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 101,
     genre: 'Animation',
     saga: 'Disney Classique',
+    description: '',
   },
   {
     title: 'Ralph Breaks the Internet',
@@ -91,6 +97,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 112,
     genre: 'Animation',
     saga: 'Disney Classique',
+    description: '',
   },
   {
     title: 'Super Mario Bros. le Film',
@@ -106,6 +113,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 92,
     genre: 'Animation',
     saga: '',
+    description: '',
   },
   {
     title: 'Encanto',
@@ -120,6 +128,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 102,
     genre: 'Animation',
     saga: 'Disney Classique',
+    description: '',
   },
   {
     title: 'Cars',
@@ -131,6 +140,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 116,
     genre: 'Animation',
     saga: 'Pixar',
+    description: '',
   },
   {
     title: 'Cars 2',
@@ -141,6 +151,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 106,
     genre: 'Animation',
     saga: 'Pixar',
+    description: '',
   },
   {
     title: 'Cars 3',
@@ -151,6 +162,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 102,
     genre: 'Animation',
     saga: 'Pixar',
+    description: '',
   },
   {
     title: 'Baby boss',
@@ -161,6 +173,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 97,
     genre: 'Animation',
     saga: '',
+    description: '',
   },
   {
     title: 'Vaiana',
@@ -171,6 +184,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 107,
     genre: 'Animation',
     saga: 'Disney Classique',
+    description: '',
   },
   {
     title: 'Vice-Versa',
@@ -181,6 +195,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 95,
     genre: 'Animation',
     saga: 'Pixar',
+    description: '',
   },
   {
     title: 'Les Nouveaux Héros',
@@ -191,6 +206,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 102,
     genre: 'Animation',
     saga: 'Disney Classique',
+    description: '',
   },
   {
     title: 'La Reine des Neiges',
@@ -201,6 +217,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 102,
     genre: 'Animation',
     saga: 'Disney Classique',
+    description: '',
   },
   {
     title: 'Moi, Moche et Méchant',
@@ -211,6 +228,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 95,
     genre: 'Animation',
     saga: 'Moi, Moche et Méchant',
+    description: '',
   },
   {
     title: 'Moi, Moche et Méchant 2',
@@ -221,6 +239,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 98,
     genre: 'Animation',
     saga: 'Moi, Moche et Méchant',
+    description: '',
   },
   {
     title: 'Les Cinq Légendes',
@@ -231,6 +250,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 97,
     genre: 'Animation',
     saga: '',
+    description: '',
   },
   {
     title: "L'Âge de Glace",
@@ -241,6 +261,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 81,
     genre: 'Animation',
     saga: "L'Age de Glace",
+    description: '',
   },
   {
     title: "L'Âge de Glace 2",
@@ -251,6 +272,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 91,
     genre: 'Animation',
     saga: "L'Age de Glace",
+    description: '',
   },
   {
     title: "L'Âge de Glace 3 : Le Temps des Dinosaures",
@@ -262,6 +284,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 94,
     genre: 'Animation',
     saga: "L'Age de Glace",
+    description: '',
   },
   {
     title: "L'Âge de Glace 4 : La Dérive des Continents",
@@ -272,6 +295,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 88,
     genre: 'Animation',
     saga: "L'Age de Glace",
+    description: '',
   },
   {
     title: 'Rebelle',
@@ -282,6 +306,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 93,
     genre: 'Animation',
     saga: 'Pixar',
+    description: '',
   },
   {
     title: 'Arthur et les Minimoys',
@@ -293,6 +318,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 94,
     genre: 'Fantasy',
     saga: 'Minimoys',
+    description: '',
   },
   {
     title: 'Arthur et la Vengeance de Maltazard',
@@ -304,6 +330,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 94,
     genre: 'Adventure',
     saga: 'Minimoys',
+    description: '',
   },
   {
     title: 'Arthur 3 : La Guerre des Deux Mondes',
@@ -315,6 +342,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 101,
     genre: 'Adventure',
     saga: 'Minimoys',
+    description: '',
   },
   {
     title: 'La Princesse et la Grenouille',
@@ -326,6 +354,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 97,
     genre: 'Animation',
     saga: 'Disney Classique',
+    description: '',
   },
   {
     title: 'Tempête de Boulettes Géantes',
@@ -337,6 +366,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 90,
     genre: 'Animation',
     saga: '',
+    description: '',
   },
   {
     title: 'Monstres contre Aliens',
@@ -347,6 +377,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 94,
     genre: 'Animation',
     saga: '',
+    description: '',
   },
   {
     title: 'WALL-E',
@@ -357,6 +388,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 98,
     genre: 'Animation',
     saga: 'Pixar',
+    description: '',
   },
   {
     title: 'Kung Fu Panda',
@@ -368,6 +400,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 92,
     genre: 'Animation',
     saga: 'Kung Fu Panda',
+    description: '',
   },
   {
     title: "Bee Movie : Drôle d'Abeille",
@@ -378,6 +411,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 91,
     genre: 'Animation',
     saga: '',
+    description: '',
   },
   {
     title: 'Les Simpson, le Film',
@@ -388,6 +422,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 87,
     genre: 'Animation',
     saga: '',
+    description: '',
   },
   {
     title: 'Ratatouille',
@@ -398,6 +433,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 111,
     genre: 'Animation',
     saga: 'Pixar',
+    description: '',
   },
   {
     title: 'Shrek',
@@ -408,6 +444,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 90,
     genre: 'Animation',
     saga: 'Shrek',
+    description: '',
   },
   {
     title: 'Shrek 2',
@@ -418,6 +455,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 93,
     genre: 'Animation',
     saga: 'Shrek',
+    description: '',
   },
   {
     title: 'Shrek le Troisième',
@@ -428,6 +466,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 93,
     genre: 'Animation',
     saga: 'Shrek',
+    description: '',
   },
   {
     title: 'Shrek 4 : Il Était une Fois',
@@ -438,6 +477,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 93,
     genre: 'Animation',
     saga: 'Shrek',
+    description: '',
   },
   {
     title: 'Les Indestructibles',
@@ -448,6 +488,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 115,
     genre: 'Animation',
     saga: 'Pixar',
+    description: '',
   },
   {
     title: 'Les Indestructibles 2',
@@ -462,6 +503,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 118,
     genre: 'Animation',
     saga: 'Pixar',
+    description: '',
   },
   {
     title: 'Le monde de Nemo',
@@ -472,6 +514,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 100,
     genre: 'Animation',
     saga: 'Pixar',
+    description: '',
   },
   {
     title: 'Le monde de Dory',
@@ -482,6 +525,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 97,
     genre: 'Animation',
     saga: 'Pixar',
+    description: '',
   },
   {
     title: 'Planes',
@@ -492,6 +536,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 84,
     genre: 'Animation',
     saga: '',
+    description: '',
   },
   {
     title: 'Planes 2',
@@ -502,6 +547,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 102,
     genre: 'Animation',
     saga: '',
+    description: '',
   },
   {
     title: 'Monstres et Cie',
@@ -512,6 +558,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 92,
     genre: 'Animation',
     saga: 'Pixar',
+    description: '',
   },
   {
     title: 'Toy Story',
@@ -522,6 +569,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 81,
     genre: 'Animation',
     saga: 'Pixar',
+    description: '',
   },
   {
     title: 'Toy Story 2',
@@ -532,6 +580,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 92,
     genre: 'Animation',
     saga: 'Pixar',
+    description: '',
   },
   {
     title: 'Toy Story 3',
@@ -542,6 +591,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 103,
     genre: 'Animation',
     saga: 'Pixar',
+    description: '',
   },
   {
     title: 'South Park, le Film',
@@ -553,6 +603,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 81,
     genre: 'Animation',
     saga: '',
+    description: '',
   },
   {
     title: 'Tarzan',
@@ -563,6 +614,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 88,
     genre: 'Animation',
     saga: 'Disney Classique',
+    description: '',
   },
   {
     title: 'Fourmiz',
@@ -573,6 +625,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 83,
     genre: 'Animation',
     saga: '',
+    description: '',
   },
   {
     title: 'Mulan',
@@ -583,6 +636,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 87,
     genre: 'Animation',
     saga: '',
+    description: '',
   },
   {
     title: 'Princesse Mononoké',
@@ -594,6 +648,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 134,
     genre: 'Animation',
     saga: 'Ghibli',
+    description: '',
   },
   {
     title: 'Hercule',
@@ -604,6 +659,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 93,
     genre: 'Animation',
     saga: 'Disney Classique',
+    description: '',
   },
   {
     title: 'Pocahontas',
@@ -614,6 +670,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 81,
     genre: 'Animation',
     saga: 'Disney Classique',
+    description: '',
   },
   {
     title: 'Space Jam',
@@ -624,6 +681,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 88,
     genre: 'Animation',
     saga: '',
+    description: '',
   },
   {
     title: 'Le Roi Lion',
@@ -634,6 +692,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 88,
     genre: 'Animation',
     saga: 'Disney Classique',
+    description: '',
   },
   {
     title: 'Aladdin',
@@ -644,6 +703,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 90,
     genre: 'Animation',
     saga: 'Disney Classique',
+    description: '',
   },
   {
     title: 'La petite sirène',
@@ -654,6 +714,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 83,
     genre: 'Animation',
     saga: 'Disney Classique',
+    description: '',
   },
   {
     title: 'Peter Pan',
@@ -664,6 +725,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 77,
     genre: 'Animation',
     saga: 'Disney Classique',
+    description: '',
   },
   {
     title: 'Pinocchio',
@@ -672,13 +734,14 @@ export const baseMoviesAnimated: BaseMovie[] = [
     actors: [
       {
         name: 'Dickie Jones',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/45797-pinocchio-0-150-0-225-crop.jpg',
     releaseDate: '1940-02-07',
     length: 88,
     genre: 'Animation',
     saga: 'Disney Classique',
+    description: '',
   },
   {
     title: 'Megamind',
@@ -689,6 +752,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 95,
     genre: 'Animation',
     saga: '',
+    description: '',
   },
   {
     title: 'Horton',
@@ -699,6 +763,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 86,
     genre: 'Animation',
     saga: '',
+    description: '',
   },
   {
     title: 'Raya et le Dernier Dragon',
@@ -714,6 +779,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 107,
     genre: 'Animation',
     saga: 'Disney Classique',
+    description: '',
   },
   {
     title: 'One Piece : Le film',
@@ -724,6 +790,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 52,
     genre: 'Animation',
     saga: 'One Piece OAV',
+    description: '',
   },
   {
     title: "One Piece : L'Aventure de l'île de l'horloge",
@@ -735,6 +802,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 55,
     genre: 'Animation',
     saga: 'One Piece OAV',
+    description: '',
   },
   {
     title: "One Piece : Le Royaume de Chopper, l'île des bêtes étranges",
@@ -745,6 +813,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 55,
     genre: 'Animation',
     saga: 'One Piece OAV',
+    description: '',
   },
   {
     title: "One Piece : L'Aventure sans issue",
@@ -756,6 +825,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 95,
     genre: 'Animation',
     saga: 'One Piece OAV',
+    description: '',
   },
   {
     title: "One Piece : La Malédiction de l'épée sacrée",
@@ -766,6 +836,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 95,
     genre: 'Animation',
     saga: 'One Piece OAV',
+    description: '',
   },
   {
     title: "One Piece : Le baron Omatsuri et l'île secrète",
@@ -776,6 +847,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 92,
     genre: 'Animation',
     saga: '',
+    description: '',
   },
   {
     title: 'One Piece : Le Mecha géant du château Karakuri',
@@ -786,6 +858,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 94,
     genre: 'Animation',
     saga: '',
+    description: '',
   },
   {
     title: 'One Piece Film: Strong World',
@@ -806,6 +879,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 113,
     genre: 'Animation',
     saga: 'One Piece OAV',
+    description: '',
   },
   {
     title: 'One Piece Film Z',
@@ -826,6 +900,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 107,
     genre: 'Animation',
     saga: 'One Piece OAV',
+    description: '',
   },
   {
     title: 'One Piece : Gold',
@@ -836,6 +911,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 120,
     genre: 'Animation',
     saga: 'One Piece OAV',
+    description: '',
   },
   {
     title: 'One Piece: Stampede',
@@ -846,6 +922,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 101,
     genre: 'Animation',
     saga: 'One Piece OAV',
+    description: '',
   },
   {
     title: 'One Piece Film: Red',
@@ -866,6 +943,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 115,
     genre: 'Animation',
     saga: 'One Piece OAV',
+    description: '',
   },
   {
     title: 'Élémentaire',
@@ -876,5 +954,6 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 102,
     genre: 'Animation, Romance',
     saga: 'Pixar',
+    description: '',
   },
 ];

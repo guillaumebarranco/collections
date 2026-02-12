@@ -10,6 +10,7 @@ export const ronanMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Eyeshield 21',
@@ -20,6 +21,7 @@ export const ronanMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'My Hero Academia',
@@ -30,6 +32,7 @@ export const ronanMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Dragon Ball',
@@ -40,6 +43,7 @@ export const ronanMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Hikaru No Go',
@@ -50,6 +54,7 @@ export const ronanMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Rave',
@@ -60,6 +65,7 @@ export const ronanMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Bakuman',
@@ -70,6 +76,7 @@ export const ronanMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Fullmetal Alchemist',
@@ -80,6 +87,7 @@ export const ronanMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Puella Magi Madoka Magica',
@@ -90,6 +98,7 @@ export const ronanMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'One Piece',
@@ -100,6 +109,7 @@ export const ronanMangas: UserMangas = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Kenshin le Vagabond',
@@ -110,6 +120,7 @@ export const ronanMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Toriko',
@@ -120,6 +131,7 @@ export const ronanMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Satan 666',
@@ -130,6 +142,7 @@ export const ronanMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Worst',
@@ -140,6 +153,7 @@ export const ronanMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Death Note',
@@ -150,6 +164,7 @@ export const ronanMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Hunter X Hunter',
@@ -160,6 +175,7 @@ export const ronanMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Beelzebub',
@@ -170,6 +186,7 @@ export const ronanMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "L'attaque des titans",
@@ -180,6 +197,7 @@ export const ronanMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Ashita No Joe',
@@ -190,6 +208,7 @@ export const ronanMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Gamaran',
@@ -200,6 +219,7 @@ export const ronanMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Asu No Yoichi',
@@ -210,6 +230,7 @@ export const ronanMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Ken-ichi, le disciple ultime',
@@ -220,6 +241,7 @@ export const ronanMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Crows',
@@ -230,6 +252,7 @@ export const ronanMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Gunnm',
@@ -240,6 +263,7 @@ export const ronanMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'All You Need Is Kill',
@@ -250,6 +274,7 @@ export const ronanMangas: UserMangas = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Fairy Tail',
@@ -260,5 +285,6 @@ export const ronanMangas: UserMangas = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 ];

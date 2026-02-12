@@ -27,6 +27,7 @@ type EditManwhaForm = {
   readDate: string;
   owned: boolean;
   wantToReadAgain: boolean;
+  ratingComment: string;
 };
 
 type EditManwhaEntityForm = {
@@ -34,6 +35,7 @@ type EditManwhaEntityForm = {
   nbChapters: number;
   isFinished: boolean;
   coverUrl: string;
+  description: string;
 };
 
 type EditManwhaDialogData = {
@@ -237,6 +239,7 @@ export class EditManwhaComponent {
           readDate: form.readDate,
           owned: form.owned,
           wantToReadAgain: form.wantToReadAgain,
+          ratingComment: form.ratingComment ?? '',
           entity: this.isAdminView()
             ? this.toEntityPayload(this.manwhaEntityForm())
             : undefined,
@@ -427,6 +430,7 @@ export class EditManwhaComponent {
       readDate: manwha.readDate,
       owned: manwha.owned,
       wantToReadAgain: manwha.wantToReadAgain ?? false,
+      ratingComment: manwha.ratingComment ?? '',
     };
   }
 
@@ -436,6 +440,7 @@ export class EditManwhaComponent {
       nbChapters: manwha.nbChapters || 0,
       isFinished: manwha.isFinished !== false,
       coverUrl: manwha.coverUrl || '',
+      description: manwha.description ?? '',
     };
   }
 
@@ -446,6 +451,7 @@ export class EditManwhaComponent {
       nbChapters: form.nbChapters,
       isFinished: form.isFinished,
       coverUrl: form.coverUrl,
+      description: form.description ?? '',
     };
   }
 

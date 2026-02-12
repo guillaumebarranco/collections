@@ -34,6 +34,8 @@
       <p><strong>Durée :</strong> {{ movie()?.length }} min</p>
       } @if (movie()?.actors?.length) {
       <p><strong>Acteurs :</strong> {{ getActorsLabel(movie()?.actors) }}</p>
+      } @if (movie()?.description) {
+      <p><strong>Description :</strong> {{ movie()?.description }}</p>
       }
     </div>
     <br />
@@ -177,6 +179,18 @@
         min="0"
       />
     </div>
+
+    <div class="form-row">
+      <label for="ratingComment">Commentaire sur la note</label>
+      <textarea
+        id="ratingComment"
+        rows="3"
+        [ngModel]="movieForm()?.ratingComment"
+        (ngModelChange)="updateField('ratingComment', $event)"
+        name="ratingComment"
+        placeholder="Optionnel"
+      ></textarea>
+    </div>
     } @if (isAdminView() && movieEntityForm()) {
     <div class="form-row">
       <label for="entityActors">Acteurs (séparés par des virgules)</label>
@@ -243,6 +257,18 @@
         (ngModelChange)="updateEntityField('coverUrl', $event)"
         name="entityCoverUrl"
       />
+    </div>
+
+    <div class="form-row">
+      <label for="entityDescription">Description</label>
+      <textarea
+        id="entityDescription"
+        rows="3"
+        [ngModel]="movieEntityForm()?.description"
+        (ngModelChange)="updateEntityField('description', $event)"
+        name="entityDescription"
+        placeholder="Optionnel"
+      ></textarea>
     </div>
     }
 

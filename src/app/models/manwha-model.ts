@@ -8,6 +8,7 @@ export interface BaseManwha extends MandatoryManwhaData {
   genre: string;
   nbChapters: number;
   isFinished: boolean;
+  description: string;
 }
 
 export interface UserManwha extends MandatoryManwhaData {
@@ -17,6 +18,7 @@ export interface UserManwha extends MandatoryManwhaData {
   owned: boolean;
   readPriority: 1 | 2 | 3;
   wantToReadAgain: boolean;
+  ratingComment: string;
 }
 
 export type UserManwhas = UserManwha[];

@@ -14,6 +14,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 109,
     genre: 'Science Fiction',
     saga: '',
+    description: '',
   },
   {
     title: 'Love and Monsters',
@@ -28,6 +29,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 109,
     genre: 'Adventure',
     saga: '',
+    description: '',
   },
   {
     title: 'Tenet',
@@ -43,6 +45,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 150,
     genre: 'Science Fiction',
     saga: '',
+    description: '',
   },
   {
     title: 'Ava',
@@ -57,6 +60,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 96,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'Mulan',
@@ -71,6 +75,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 115,
     genre: 'Action',
     saga: 'Disney Classique',
+    description: '',
   },
   {
     title: 'Palm Springs',
@@ -85,6 +90,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 90,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Guns Akimbo',
@@ -99,6 +105,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 97,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'Joker',
@@ -113,6 +120,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 122,
     genre: 'Crime',
     saga: '',
+    description: '',
   },
   {
     title: 'Evasion 3',
@@ -128,6 +136,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 97,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'Aladdin',
@@ -142,6 +151,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 128,
     genre: 'Fantasy',
     saga: 'Disney Live Action',
+    description: '',
   },
   {
     title: 'Alita: Battle Angel',
@@ -156,6 +166,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 122,
     genre: 'Science Fiction',
     saga: '',
+    description: '',
   },
   {
     title: 'Le chant du loup',
@@ -170,6 +181,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 116,
     genre: 'Thriller',
     saga: '',
+    description: '',
   },
   {
     title: 'Bird Box',
@@ -184,6 +196,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 124,
     genre: 'Thriller',
     saga: '',
+    description: '',
   },
   {
     title: 'A Star Is Born',
@@ -198,6 +211,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 136,
     genre: 'Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'Evasion 2: Hades',
@@ -213,6 +227,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 93,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'Ready Player One',
@@ -227,6 +242,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 140,
     genre: 'Science Fiction',
     saga: '',
+    description: '',
   },
 
   {
@@ -239,6 +255,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 115,
     genre: 'Science Fiction',
     saga: '',
+    description: '',
   },
   {
     title: 'La soupe aux choux',
@@ -249,6 +266,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 100,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'The Shining',
@@ -259,6 +277,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 146,
     genre: 'Horror',
     saga: '',
+    description: '',
   },
   {
     title: "L'aile ou la cuisse",
@@ -270,6 +289,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 104,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Taxi Driver',
@@ -280,6 +300,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 114,
     genre: 'Crime',
     saga: '',
+    description: '',
   },
   {
     title: "L'exorciste",
@@ -290,6 +311,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 122,
     genre: 'Horror',
     saga: '',
+    description: '',
   },
   {
     title: 'Les aventures de Rabbi Jacob',
@@ -301,6 +323,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 95,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'La Folie des grandeurs',
@@ -312,6 +335,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 95,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Oscar',
@@ -322,6 +346,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 85,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Fantomas',
@@ -332,6 +357,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 105,
     genre: 'Adventure',
     saga: '',
+    description: '',
   },
   {
     title: 'Le Gendarme de Saint-Tropez',
@@ -343,6 +369,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 95,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Les oiseaux',
@@ -353,6 +380,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 119,
     genre: 'Horror',
     saga: '',
+    description: '',
   },
   {
     title: 'Psychose',
@@ -363,6 +391,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 109,
     genre: 'Horror',
     saga: '',
+    description: '',
   },
   {
     title: '12 hommes en colère',
@@ -373,6 +402,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 96,
     genre: 'Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'Citizen Kane',
@@ -383,6 +413,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 119,
     genre: 'Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'Les temps modernes',
@@ -393,6 +424,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 87,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Babylon A.D',
@@ -404,6 +436,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 101,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: "Maman je m'occupe des méchants",
@@ -414,6 +447,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 102,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Yamakasi',
@@ -424,6 +458,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 90,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Jackie chan dans le bronx',
@@ -435,6 +470,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 106,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Minority Report',
@@ -445,6 +481,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 145,
     genre: 'Science Fiction',
     saga: '',
+    description: '',
   },
   {
     title: 'Calculs Meurtriers',
@@ -455,6 +492,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 120,
     genre: 'Thriller',
     saga: '',
+    description: '',
   },
   {
     title: 'Panic Room',
@@ -472,6 +510,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 112,
     genre: 'Thriller',
     saga: '',
+    description: '',
   },
   {
     title: 'Rollerball',
@@ -482,6 +521,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 98,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'Dommage Collateral',
@@ -492,6 +532,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 108,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'Astérix et Obélix contre César',
@@ -502,6 +543,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 105,
     genre: 'Comedy',
     saga: 'Astérix',
+    description: '',
   },
   {
     title: 'Astérix & Obélix : Mission Cléopâtre',
@@ -513,6 +555,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 107,
     genre: 'Comedy',
     saga: 'Astérix',
+    description: '',
   },
   {
     title: 'Astérix aux Jeux Olympiques',
@@ -533,6 +576,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 117,
     genre: 'Comédie',
     saga: 'Astérix',
+    description: '',
   },
   {
     title: "Astérix et Obélix : L'Empire du Milieu",
@@ -553,6 +597,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 112,
     genre: 'Comédie',
     saga: 'Astérix',
+    description: '',
   },
   {
     title: "L'Associé du diable",
@@ -564,6 +609,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 144,
     genre: 'Thriller',
     saga: '',
+    description: '',
   },
   {
     title: 'Le Cinquième Élément',
@@ -574,6 +620,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 126,
     genre: 'Science Fiction',
     saga: '',
+    description: '',
   },
   {
     title: 'American Beauty',
@@ -584,6 +631,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 122,
     genre: 'Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'Sixième Sens',
@@ -594,6 +642,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 107,
     genre: 'Thriller',
     saga: '',
+    description: '',
   },
 
   {
@@ -605,6 +654,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 106,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Sex intentions',
@@ -615,6 +665,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 97,
     genre: 'Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'Armageddon',
@@ -625,6 +676,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 151,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'The Truman Show',
@@ -635,6 +687,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 103,
     genre: 'Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'Godzilla',
@@ -645,6 +698,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 139,
     genre: 'Action',
     saga: 'MonsterVerse',
+    description: '',
   },
   {
     title: 'Mon voisin le tueur',
@@ -656,6 +710,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 98,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'La Ligne Verte',
@@ -666,6 +721,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 189,
     genre: 'Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'À la Recherche du Bonheur',
@@ -677,6 +733,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 117,
     genre: 'Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'Hors de Prix',
@@ -687,6 +744,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 104,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: '300',
@@ -697,6 +755,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 117,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'Blood Diamond',
@@ -707,6 +766,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 143,
     genre: 'Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'Le Prestige',
@@ -721,6 +781,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 130,
     genre: 'Thriller',
     saga: '',
+    description: '',
   },
   {
     title: 'Les Infiltrés',
@@ -735,6 +796,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 151,
     genre: 'Crime',
     saga: '',
+    description: '',
   },
   {
     title: 'Admis à tout prix',
@@ -755,6 +817,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 93,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Nos Jours heureux',
@@ -775,6 +838,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 95,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: "Le Diable s'Habille en Prada",
@@ -786,6 +850,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 109,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Babel',
@@ -796,6 +861,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 143,
     genre: 'Drama',
     saga: '',
+    description: '',
   },
   {
     title: "De l'autre côté du lit",
@@ -806,6 +872,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 106,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Da Vinci Code',
@@ -816,6 +883,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 149,
     genre: 'Enquête',
     saga: '',
+    description: '',
   },
   {
     title: 'Camping',
@@ -826,6 +894,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 111,
     genre: 'Comedy',
     saga: 'Camping',
+    description: '',
   },
   {
     title: 'Volver',
@@ -836,6 +905,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 121,
     genre: 'Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'Incontrôlable',
@@ -846,6 +916,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 90,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'V pour Vendetta',
@@ -856,6 +927,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 132,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title:
@@ -867,6 +939,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 143,
     genre: 'Fantasy',
     saga: '',
+    description: '',
   },
   {
     title: 'King Kong',
@@ -877,6 +950,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 187,
     genre: 'Adventure',
     saga: '',
+    description: '',
   },
   {
     title: 'Nanny McPhee',
@@ -887,6 +961,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 97,
     genre: 'Fantasy',
     saga: '',
+    description: '',
   },
   {
     title: 'Lord of War',
@@ -897,6 +972,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 122,
     genre: 'Crime',
     saga: '',
+    description: '',
   },
   {
     title: 'Serenity',
@@ -907,6 +983,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 119,
     genre: 'Science Fiction',
     saga: '',
+    description: '',
   },
   {
     title: "L'honneur du dragon",
@@ -917,6 +994,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 111,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: '40 Ans, Toujours Puceau',
@@ -928,6 +1006,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 116,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Sous haute pression',
@@ -938,6 +1017,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 85,
     genre: 'Thriller',
     saga: '',
+    description: '',
   },
 
   {
@@ -949,6 +1029,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 119,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Charlie et la Chocolaterie',
@@ -960,6 +1041,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 115,
     genre: 'Fantasy',
     saga: '',
+    description: '',
   },
   {
     title: 'Mr. & Mrs. Smith',
@@ -970,6 +1052,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 120,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'The Descent',
@@ -980,6 +1063,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 99,
     genre: 'Horror',
     saga: '',
+    description: '',
   },
   {
     title: 'Baby Sittor',
@@ -990,6 +1074,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 95,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Million Dollar Baby',
@@ -1004,6 +1089,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 132,
     genre: 'Drama',
     saga: '',
+    description: '',
   },
 
   {
@@ -1015,6 +1101,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 110,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'The Mask',
@@ -1025,6 +1112,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 101,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'True Lies',
@@ -1035,6 +1123,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 141,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'Forrest Gump',
@@ -1045,6 +1134,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 142,
     genre: 'Drama',
     saga: '',
+    description: '',
   },
   {
     title: 'Speed',
@@ -1055,6 +1145,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 116,
     genre: 'Action',
     saga: '',
+    description: '',
   },
   {
     title: 'Pulp Fiction',
@@ -1078,6 +1169,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 154,
     genre: 'Crime',
     saga: '',
+    description: '',
   },
   {
     title: 'La cité de la peur',
@@ -1099,6 +1191,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 85,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Mrs. Doubtfire',
@@ -1109,6 +1202,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 125,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Le Dîner de Cons',
@@ -1119,6 +1213,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 80,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Code mercury',
@@ -1129,6 +1224,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 111,
     genre: 'Thriller',
     saga: '',
+    description: '',
   },
   {
     title: 'The Big Lebowski',
@@ -1139,6 +1235,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 117,
     genre: 'Comedy',
     saga: '',
+    description: '',
   },
   {
     title: 'Will Hunting',
@@ -1149,6 +1246,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 126,
     genre: 'Drama',
     saga: '',
+    description: '',
   },
   {
     title: "Je Sais ce que Vous Avez Fait l'Été Dernier",
@@ -1160,5 +1258,6 @@ export const baseMoviesPage2: BaseMovie[] = [
     length: 101,
     genre: 'Horror',
     saga: '',
+    description: '',
   },
 ];

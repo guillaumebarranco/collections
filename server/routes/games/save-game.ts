@@ -56,6 +56,7 @@ router.post('/', (req: any, res: any) => {
           normalizeNumber(game.gamelistPriority, 'gamelistPriority') ?? 1,
         wantToPlayAgain:
           normalizeBoolean(game.wantToPlayAgain, 'wantToPlayAgain') ?? false,
+        ratingComment: normalizeString(game.ratingComment, 'ratingComment') ?? '',
         sessions,
       };
     });
@@ -129,6 +130,8 @@ router.post('/', (req: any, res: any) => {
       if (platform !== undefined) baseUpdate['platform'] = platform;
       if (saga !== undefined) baseUpdate['saga'] = saga;
       if (platineTime !== undefined) baseUpdate['platineTime'] = platineTime;
+      const description = normalizeString(entityPayload.description, 'description');
+      if (description !== undefined) baseUpdate['description'] = description ?? '';
       baseUpdatedFile = updateBaseGameInFiles(baseUpdate);
 
       if (originalTitle || originalEditor) {

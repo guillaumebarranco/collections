@@ -42,6 +42,7 @@ type EditGameForm = {
   owned: boolean;
   gamelistPriority: number;
   wantToPlayAgain: boolean;
+  ratingComment: string;
 };
 
 type EditGameEntityForm = {
@@ -52,6 +53,7 @@ type EditGameEntityForm = {
   averageTimeToHundredPercent: number;
   platform: string;
   saga: string;
+  description: string;
   platineTime: number;
 };
 
@@ -300,6 +302,7 @@ export class EditGameComponent {
           owned: form.owned,
           gamelistPriority: form.gamelistPriority,
           wantToPlayAgain: form.wantToPlayAgain,
+          ratingComment: form.ratingComment ?? '',
           entity: this.isAdminView()
             ? this.toEntityPayload(this.gameEntityForm())
             : undefined,
@@ -494,6 +497,7 @@ export class EditGameComponent {
       owned: game.owned,
       gamelistPriority: game.gamelistPriority ?? 0,
       wantToPlayAgain: game.wantToPlayAgain ?? false,
+      ratingComment: game.ratingComment ?? '',
     };
   }
 
@@ -532,6 +536,7 @@ export class EditGameComponent {
       platform: game.platform || '',
       saga: game.saga || '',
       platineTime: game.platineTime || 0,
+      description: game.description ?? '',
     };
   }
 
@@ -546,6 +551,7 @@ export class EditGameComponent {
       platform: form.platform,
       saga: form.saga,
       platineTime: form.platineTime,
+      description: form.description ?? '',
     };
   }
 

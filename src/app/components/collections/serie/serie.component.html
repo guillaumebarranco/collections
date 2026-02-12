@@ -45,6 +45,9 @@
     @if (serie.endDate) {
     <p class="serie-end-date">Terminé en {{ serie.endDate | date : "yyyy" }}</p>
     }
+    @if (serie.description) {
+    <p class="serie-description">{{ serie.description }}</p>
+    }
 
     <div class="serie-seasons-details">
       @for (season of getSerieSeasons(); track season.seasonNumber) {
@@ -77,6 +80,9 @@
       </div>
       }
     </div>
+    @if (serie.ratingComment && !isBaseEntityView) {
+    <p class="serie-rating-comment">{{ serie.ratingComment }}</p>
+    }
     @if (recommendationText) {
     <p class="recommendation-text">{{ recommendationText }}</p>
     } @if (recommendationBadge) {

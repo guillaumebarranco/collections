@@ -1,4 +1,3 @@
-
 export const mangas = [
   {
     _type: 'manga',
@@ -43,6 +42,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -87,6 +87,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -134,6 +135,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -178,6 +180,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -221,6 +224,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -264,6 +268,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -301,6 +306,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -343,6 +349,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -386,6 +393,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -431,6 +439,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -475,6 +484,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -518,6 +528,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -560,6 +571,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -604,6 +616,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -647,6 +660,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -690,6 +704,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -737,6 +752,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -780,6 +796,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -823,6 +840,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -867,6 +885,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -911,6 +930,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -957,6 +977,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -1001,6 +1022,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -1045,6 +1067,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -1088,6 +1111,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -1131,6 +1155,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -1174,6 +1199,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -1211,6 +1237,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -1255,6 +1282,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -1301,6 +1329,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -1347,6 +1376,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -1390,6 +1420,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -1433,6 +1464,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -1479,6 +1511,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -1522,6 +1555,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -1567,6 +1601,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -1611,6 +1646,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -1655,6 +1691,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -1699,6 +1736,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -1743,6 +1781,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -1788,6 +1827,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -1831,6 +1871,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -1873,6 +1914,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -1917,6 +1959,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -1962,6 +2005,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -2006,6 +2050,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -2048,6 +2093,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -2091,6 +2137,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -2134,6 +2181,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -2177,6 +2225,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -2228,6 +2277,7 @@ export const mangas = [
         type: 'Shonen',
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -2238,7 +2288,7 @@ export const mangas = [
       manga: {
         name: 'Ashita No Joe',
         slug: 'ashita_no_joe',
-        frenchName: "Ashita No Joe",
+        frenchName: 'Ashita No Joe',
         authors: [
           {
             name: 'Takamori Asao',
@@ -2280,6 +2330,7 @@ export const mangas = [
         type: 'Shonen',
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -2331,6 +2382,7 @@ export const mangas = [
         type: 'Shonen',
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -2373,6 +2425,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -2416,6 +2469,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -2461,6 +2515,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -2503,6 +2558,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -2511,7 +2567,7 @@ export const mangas = [
     _readTimes: 3,
     _source: {
       manga: {
-        name: "Ken-ichi, le disciple ultime",
+        name: 'Ken-ichi, le disciple ultime',
         slug: 'kenichi',
         frenchName: 'Ken-ichi, le disciple ultime',
         authors: [
@@ -2546,6 +2602,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -2589,6 +2646,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -2632,6 +2690,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -2677,6 +2736,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -2720,6 +2780,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -2758,6 +2819,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -2797,6 +2859,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -2839,6 +2902,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -2878,6 +2942,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -2920,6 +2985,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -2959,6 +3025,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -2998,6 +3065,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -3037,6 +3105,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -3076,6 +3145,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -3115,6 +3185,7 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
   {
     _type: 'manga',
@@ -3123,7 +3194,7 @@ export const mangas = [
     _readTimes: 1,
     _source: {
       manga: {
-        name: 'Gen d\'Hiroshima',
+        name: "Gen d'Hiroshima",
         slug: 'gen_d_hiroshima',
         authors: [
           {
@@ -3137,7 +3208,7 @@ export const mangas = [
         isFinished: true,
         keywords: '',
         mainHero: {
-          name: 'Gen d\'Hiroshima',
+          name: "Gen d'Hiroshima",
         },
         france: {
           editor: '',
@@ -3154,5 +3225,6 @@ export const mangas = [
         },
       },
     },
+    ratingComment: '',
   },
 ];

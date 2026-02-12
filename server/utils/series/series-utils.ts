@@ -194,6 +194,8 @@ function parseSeriesFromFile(content: string): any[] {
             watchPriority: parseNumberField(objectText, 'watchPriority') ?? 1,
             wantToWatchAgain:
               parseBooleanField(objectText, 'wantToWatchAgain') ?? false,
+            rating: parseNumberField(objectText, 'rating') ?? 0,
+            ratingComment: parseStringField(objectText, 'ratingComment') ?? '',
           });
         }
       }
@@ -291,6 +293,7 @@ function parseBaseSeriesFullFromFile(content: string): any[] {
           endDate: parseStringField(objectText, 'endDate') || '',
           genre: parseStringField(objectText, 'genre') || '',
           seasonsData: parseSeasonsDataField(objectText) ?? [],
+          description: parseStringField(objectText, 'description') || '',
         });
       }
     }
@@ -548,6 +551,8 @@ function updateSerieInFile(content: string, payload: any) {
             'wantToWatchAgain',
             payload.wantToWatchAgain
           );
+          updated = upsertField(updated, 'rating', payload.rating ?? 0);
+          updated = upsertField(updated, 'ratingComment', payload.ratingComment ?? '');
 
           return (
             content.slice(0, objectStart) +
@@ -673,6 +678,7 @@ function updateBaseSerieInFile(content: string, payload: any) {
           updated = upsertField(updated, 'endDate', payload.endDate);
           updated = upsertField(updated, 'genre', payload.genre);
           updated = upsertSeasonsDataField(updated, payload.seasonsData);
+          updated = upsertField(updated, 'description', payload.description ?? '');
 
           return (
             content.slice(0, objectStart) +
@@ -742,6 +748,8 @@ ${seasonsText}
     owned: ${serie.owned ?? false},
     watchPriority: ${serie.watchPriority ?? 1},
     wantToWatchAgain: ${serie.wantToWatchAgain ?? false},
+    rating: ${serie.rating ?? 0},
+    ratingComment: '${escapeString(serie.ratingComment || '')}',
   }`;
     })
     .join(',\n');

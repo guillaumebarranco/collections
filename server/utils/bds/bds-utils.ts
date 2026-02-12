@@ -129,6 +129,7 @@ function parseBdsFromFile(content: string): any[] {
             readPriority: parseNumberField(objectText, 'readPriority') ?? 1,
             wantToReadAgain:
               parseBooleanField(objectText, 'wantToReadAgain') ?? false,
+            ratingComment: parseStringField(objectText, 'ratingComment') ?? '',
           });
         }
       }
@@ -184,6 +185,7 @@ function parseBaseBdsFullFromFile(content: string): any[] {
           genre: parseStringField(objectText, 'genre') || '',
           nbTomes: parseNumberField(objectText, 'nbTomes') ?? 0,
           isFinished: parseBooleanField(objectText, 'isFinished') ?? false,
+          description: parseStringField(objectText, 'description') || '',
         });
       }
     }
@@ -270,6 +272,7 @@ function updateBdInFile(filePath: string, bdData: any): boolean {
     owned: ${bd.owned ?? false},
     readPriority: ${bd.readPriority ?? 1},
     wantToReadAgain: ${bd.wantToReadAgain ?? false},
+    ratingComment: '${escapeString(bd.ratingComment || '')}',
   }`
     )
     .join(',\n');
@@ -322,6 +325,7 @@ function updateBdIdentityInFile(filePath: string, bdData: any): boolean {
     owned: ${bd.owned ?? false},
     readPriority: ${bd.readPriority ?? 1},
     wantToReadAgain: ${bd.wantToReadAgain ?? false},
+    ratingComment: '${escapeString(bd.ratingComment || '')}',
   }`
     )
     .join(',\n');
@@ -375,6 +379,7 @@ function updateBaseBdInFile(filePath: string, bdData: any): boolean {
     genre: '${escapeString(bd.genre || '')}',
     nbTomes: ${bd.nbTomes ?? 0},
     isFinished: ${bd.isFinished ?? false},
+    description: '${escapeString(bd.description || '')}',
   }`
     )
     .join(',\n');
@@ -438,6 +443,7 @@ function removeBdFromFile(content: string, payload: any): string {
     owned: ${bd.owned ?? false},
     readPriority: ${bd.readPriority ?? 1},
     wantToReadAgain: ${bd.wantToReadAgain ?? false},
+    ratingComment: '${escapeString(bd.ratingComment || '')}',
   }`
     )
     .join(',\n');

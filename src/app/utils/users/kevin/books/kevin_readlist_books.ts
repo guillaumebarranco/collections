@@ -10,6 +10,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 2,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "Rêves d'Acier",
@@ -20,6 +21,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 2,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "La Pointe d'Argent",
@@ -30,6 +32,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Saisons Funestes',
@@ -40,6 +43,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Elle est les Ténèbres - Part. 1',
@@ -50,6 +54,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Elle est les Ténèbres - Part. 2',
@@ -60,6 +65,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "L'Eau Dort - Part. 1",
@@ -70,6 +76,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: "L'Eau Dort - Part. 2",
@@ -80,6 +87,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Les Soldats de Pierre - Part. 1',
@@ -90,6 +98,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'La Voie des Ombres',
@@ -100,6 +109,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 2,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Le Prisme Noir',
@@ -110,6 +120,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 2,
     wantToReadAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Les Soldats de Pierre - Part. 2',
@@ -120,6 +131,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -131,6 +143,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 3,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -142,6 +155,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 3,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -153,6 +167,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -164,6 +179,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -175,6 +191,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 3,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -186,6 +203,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 3,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -197,6 +215,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 3,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -208,6 +227,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -219,6 +239,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -230,6 +251,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -241,6 +263,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -252,6 +275,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -263,6 +287,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -274,6 +299,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -285,6 +311,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -296,6 +323,7 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -307,5 +335,6 @@ export const kevinReadListBooks: UserBooks = [
     owned: false,
     readPriority: 1,
     wantToReadAgain: false,
+    ratingComment: '',
   },
 ];

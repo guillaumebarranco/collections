@@ -39,6 +39,7 @@ router.post('/', (req: any, res: any) => {
       owned: normalizeBoolean(input.owned, 'owned') ?? false,
       readPriority: normalizeNumber(input.readPriority, 'readPriority') ?? 1,
       wantToReadAgain: normalizeBoolean(input.wantToReadAgain, 'wantToReadAgain') ?? false,
+      ratingComment: normalizeString(input.ratingComment, 'ratingComment') ?? '',
     };
 
     const entityPayload = input.entity || null;
@@ -98,6 +99,7 @@ router.post('/', (req: any, res: any) => {
         nbTomes: normalizeNumber(entityPayload.nbTomes, 'nbTomes'),
         isFinished: normalizeBoolean(entityPayload.isFinished, 'isFinished'),
         designer: normalizeString(entityPayload.designer, 'designer'),
+        description: normalizeString(entityPayload.description, 'description') ?? '',
       });
 
       if (originalTitle || originalWriter) {

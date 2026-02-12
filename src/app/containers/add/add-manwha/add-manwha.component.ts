@@ -11,6 +11,7 @@ type AddManwhaEntityForm = {
   genre: string;
   nbChapters: number;
   isFinished: boolean;
+  description: string;
 };
 
 type AddManwhaUserForm = {
@@ -18,6 +19,7 @@ type AddManwhaUserForm = {
   readTimes: number;
   readDate: string;
   owned: boolean;
+  ratingComment: string;
 };
 
 type AddManwhaDialogData = {
@@ -48,6 +50,7 @@ export class AddManwhaComponent {
     genre: '',
     nbChapters: 0,
     isFinished: true,
+    description: '',
   });
 
   userForm = signal<AddManwhaUserForm>({
@@ -55,6 +58,7 @@ export class AddManwhaComponent {
     readTimes: 1,
     readDate: '',
     owned: false,
+    ratingComment: '',
   });
 
   close() {

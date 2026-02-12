@@ -28,6 +28,8 @@
       <p><strong>Saga :</strong> {{ book()?.saga }}</p>
       } @if (book()?.sagaOrder) {
       <p><strong>Tome :</strong> {{ book()?.sagaOrder }}</p>
+      } @if (book()?.description) {
+      <p><strong>Description :</strong> {{ book()?.description }}</p>
       }
     </div>
   </div>
@@ -147,6 +149,18 @@
         min="0"
       />
     </div>
+
+    <div class="form-row">
+      <label for="ratingComment">Commentaire sur la note</label>
+      <textarea
+        id="ratingComment"
+        rows="3"
+        [ngModel]="bookForm()?.ratingComment"
+        (ngModelChange)="updateField('ratingComment', $event)"
+        name="ratingComment"
+        placeholder="Optionnel"
+      ></textarea>
+    </div>
     } @if (isAdminView() && bookEntityForm()) {
     <div class="form-row">
       <label for="entityPages">Pages</label>
@@ -227,6 +241,18 @@
         (ngModelChange)="updateEntityField('releaseDate', $event)"
         name="entityReleaseDate"
       />
+    </div>
+
+    <div class="form-row">
+      <label for="entityDescription">Description</label>
+      <textarea
+        id="entityDescription"
+        rows="3"
+        [ngModel]="bookEntityForm()?.description"
+        (ngModelChange)="updateEntityField('description', $event)"
+        name="entityDescription"
+        placeholder="Optionnel"
+      ></textarea>
     </div>
     }
 

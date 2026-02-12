@@ -11,6 +11,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 0,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: "L'Alchimiste",
@@ -22,6 +23,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 0,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Le porteur de lumière, tome 1 : Le prisme noir',
@@ -33,6 +35,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: false,
     releaseDate: '2008-10-01',
+    description: '',
   },
   {
     title: 'Croc-Blanc',
@@ -44,6 +47,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 0,
     sagaFinished: false,
     releaseDate: '1906-10-01',
+    description: '',
   },
   {
     title: "L'Apprenti Assassin",
@@ -55,6 +59,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: "L'Assassin du Roi",
@@ -66,6 +71,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'La Nef du Crépuscule',
@@ -77,6 +83,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Le Poison de la Vengeance',
@@ -88,6 +95,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 4,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'La Voie Magique',
@@ -99,6 +107,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 5,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'La Reine Solitaire',
@@ -110,6 +119,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 6,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Le Prophète Blanc',
@@ -121,6 +131,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 7,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'La Secte Maudite',
@@ -132,6 +143,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 8,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Les Secrets de Castelcerf',
@@ -143,6 +155,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 9,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Serments et Deuils',
@@ -154,6 +167,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 10,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Le Dragon des Glaces',
@@ -165,6 +179,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 11,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: "L'Homme Noir",
@@ -176,6 +191,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 12,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Adieux et Retrouvailles',
@@ -187,6 +203,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 13,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: "Le Fou et l'Assassin",
@@ -198,6 +215,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: "La Fille de l'Assassin",
@@ -209,6 +227,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'En Quête de Vengeance',
@@ -220,6 +239,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: "Le Retour de l'Assassin",
@@ -231,6 +251,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 4,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: "Sur les Rives de l'Art",
@@ -242,6 +263,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 5,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: "Le Destin de l'Assassin",
@@ -253,6 +275,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 6,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Quand Vient la Horde',
@@ -264,6 +287,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 0,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Les annales du Disque-Monde, tome 1 : La huitième couleur',
@@ -275,6 +299,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: "N'oublie Jamais",
@@ -286,6 +311,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Les Grands Jeux',
@@ -297,6 +323,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: "L'Aube Obscure",
@@ -308,6 +335,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: "L'Empire Ultime",
@@ -319,6 +347,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: "Le puits de l'Ascension",
@@ -331,6 +360,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Le Héros des Siècles',
@@ -342,6 +372,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Les Voleurs de fumée, tome 1',
@@ -353,6 +384,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Le Démon et mademoiselle Prym',
@@ -364,6 +396,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 0,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Les Maîtres Enlumineurs',
@@ -376,6 +409,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: "L'Ange de la Nuit, Tome 1 : La Voie des ombres",
@@ -387,6 +421,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: "Le royaume de Pierre d'Angle, tome 1 : L'art du naufrage",
@@ -398,6 +433,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Cycle de Tschai - Intégrale',
@@ -409,6 +445,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 0,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Les Mensonges de Locke Lamora',
@@ -420,6 +457,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Des Horizons Rouge Sang',
@@ -431,6 +469,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'La République des Voleurs',
@@ -442,6 +481,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'La Compagnie Noire',
@@ -454,6 +494,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Le Château Noir',
@@ -465,6 +506,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'La Rose Blanche',
@@ -476,6 +518,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: "L'Enfant de Poussière",
@@ -487,6 +530,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'La Peste et la Vigne',
@@ -498,6 +542,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Les Chiens et la Charrue',
@@ -509,6 +554,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'La Maison des Veilleurs',
@@ -520,6 +566,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 4,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'La Sorcière Captive',
@@ -531,6 +578,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: "L'Héritière Rebelle",
@@ -542,6 +590,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: "L'Empire Libéré",
@@ -553,6 +602,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'La Voie des Rois (1/2)',
@@ -564,6 +614,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'La Voie des Rois (2/2)',
@@ -575,6 +626,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Le livre des Radieux (1/2)',
@@ -586,6 +638,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Le Livre des Radieux (2/2)',
@@ -597,6 +650,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 4,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Justicière (1/2)',
@@ -608,6 +662,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 5,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Justicière (2/2)',
@@ -620,6 +675,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 6,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Rythme de Guerre (1/2)',
@@ -631,6 +687,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 7,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Rythme de Guerre (2/2)',
@@ -642,6 +699,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 8,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Le Don de Mort',
@@ -653,6 +711,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'La Grande Traque',
@@ -664,6 +723,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Le Don de Vie',
@@ -675,6 +735,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: "L'Etoile de Feu",
@@ -686,6 +747,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 4,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'La Guerre Céleste',
@@ -697,6 +759,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 5,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'La Dixième Prophétie',
@@ -708,6 +771,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 6,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Les Jardins de la Lune',
@@ -719,6 +783,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Les Portes de la Maison des Morts',
@@ -730,6 +795,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Les Souvenirs de la Glace',
@@ -741,6 +807,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'La Maison des Chaînes',
@@ -752,6 +819,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 4,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Les Marées de Minuit',
@@ -763,6 +831,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 5,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: "L'Alliage de la Justice",
@@ -774,6 +843,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Jeux de Masques',
@@ -785,6 +855,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Les Bracelets des Larmes',
@@ -796,6 +867,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: "Les Princes d'Ambre - Cycle 1",
@@ -807,6 +879,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: false,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Le Trône du Dragon',
@@ -819,6 +892,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: "Le Roi de l'Orage",
@@ -830,6 +904,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: "La Maison de l'Ancêtre",
@@ -841,6 +916,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: "La Pierre de l'Adieu",
@@ -852,6 +928,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 4,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Le Livre du Nécromant',
@@ -864,6 +941,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 5,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Le Cri de Camaris',
@@ -875,6 +953,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 6,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: "L'Ombre de la Roue",
@@ -886,6 +965,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 7,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: "La Tour de l'Ange Vert",
@@ -898,6 +978,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 8,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Tuer la Reine',
@@ -909,6 +990,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 1,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Défendre le Prince',
@@ -920,6 +1002,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 2,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
   {
     title: 'Écraser le roi',
@@ -931,5 +1014,6 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '',
+    description: '',
   },
 ];

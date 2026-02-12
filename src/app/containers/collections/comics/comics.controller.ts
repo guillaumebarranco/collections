@@ -24,6 +24,7 @@ export async function updateReadPriority(
         owned: data.comic.owned,
         readPriority: data.priority,
         wantToReadAgain: data.comic.wantToReadAgain ?? false,
+        ratingComment: data.comic.ratingComment ?? '',
       }),
     });
 
@@ -64,6 +65,7 @@ export async function markComicAsWantToReRead(
         owned: comic.owned,
         readPriority: comic.readPriority ?? 1,
         wantToReadAgain: true,
+        ratingComment: comic.ratingComment ?? '',
       }),
     });
     if (!response.ok) {
@@ -96,6 +98,7 @@ export async function markComicAsReRead(
         owned: comic.owned,
         readPriority: comic.readPriority ?? 1,
         wantToReadAgain: false,
+        ratingComment: comic.ratingComment ?? '',
       }),
     });
     if (!response.ok) {

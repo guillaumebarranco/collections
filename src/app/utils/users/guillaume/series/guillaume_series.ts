@@ -51,6 +51,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'How I Met Your Mother',
@@ -114,6 +115,7 @@ export const guillaumeSeries: UserSeries = [
     owned: true,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Loki',
@@ -135,6 +137,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Le Jeu de la Dame',
@@ -150,6 +153,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'WandaVision',
@@ -165,6 +169,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Obi-Wan Kenobi',
@@ -180,6 +185,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Squid Game',
@@ -207,6 +213,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Bodies',
@@ -222,6 +229,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Breaking Bad',
@@ -261,6 +269,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Umbrella Academy',
@@ -288,6 +297,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'You',
@@ -327,6 +337,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'HPI',
@@ -354,6 +365,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'The Boys',
@@ -387,6 +399,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Stranger Things',
@@ -426,6 +439,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Lupin',
@@ -453,6 +467,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'La servante écarlate',
@@ -492,6 +507,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Arcane',
@@ -513,6 +529,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'South Park',
@@ -678,6 +695,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Les Simpsons',
@@ -897,6 +915,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Daredevil',
@@ -924,6 +943,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Daredevil : Born Again',
@@ -939,6 +959,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Jessica Jones',
@@ -966,6 +987,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Luke Cage',
@@ -987,6 +1009,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Iron Fist',
@@ -1008,6 +1031,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'The Defenders',
@@ -1023,6 +1047,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'The Last of Us',
@@ -1044,6 +1069,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Obsession',
@@ -1059,6 +1085,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Cobra',
@@ -1074,6 +1101,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Nicky Larson',
@@ -1089,6 +1117,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Yu-Gi-Oh!',
@@ -1146,6 +1175,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Olive et Tom : Le retour',
@@ -1173,6 +1203,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: '13 Reasons Why',
@@ -1206,6 +1237,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Castle',
@@ -1263,6 +1295,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Mentalist',
@@ -1314,6 +1347,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Astérix & Obélix : Le Combat des Chefs',
@@ -1329,6 +1363,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Bet',
@@ -1344,6 +1379,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Brooklyn Nine-Nine',
@@ -1401,6 +1437,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Cobra Kai',
@@ -1446,6 +1483,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Mercredi',
@@ -1467,6 +1505,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Montre jamais ça à personne',
@@ -1482,6 +1521,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Arrow',
@@ -1539,6 +1579,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'The Flash',
@@ -1602,6 +1643,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Reacher',
@@ -1623,6 +1665,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'iZombie',
@@ -1662,6 +1705,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'La Casa de Papel',
@@ -1701,6 +1745,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Lucifer',
@@ -1746,6 +1791,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'The Punisher',
@@ -1767,6 +1813,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Rick and Morty',
@@ -1818,6 +1865,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Sense8',
@@ -1839,6 +1887,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Suits, Avocats sur mesure',
@@ -1902,6 +1951,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'The End of the F***ing World',
@@ -1923,6 +1973,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Under the Dome',
@@ -1950,6 +2001,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Superman & Lois',
@@ -1977,6 +2029,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Locke & Key',
@@ -2004,6 +2057,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Unorthodox',
@@ -2019,6 +2073,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Mon amie Adèle',
@@ -2034,6 +2089,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Emily in Paris',
@@ -2073,6 +2129,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'The Glory',
@@ -2088,6 +2145,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'FUBAR',
@@ -2109,6 +2167,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'En un battement',
@@ -2130,6 +2189,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'One Piece (live-action)',
@@ -2145,6 +2205,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Yu Yu Hakusho (live-action)',
@@ -2160,6 +2221,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -2176,22 +2238,24 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
 
   {
     title: 'Death Note',
     director: 'Tetsurō Araki',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 4.5,
-      seasonTimesWatched: 5,
-      lastViewedDate: '',
-    }
-  ],
+      {
+        seasonNumber: 1,
+        seasonRating: 4.5,
+        seasonTimesWatched: 5,
+        lastViewedDate: '',
+      },
+    ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: true,
+    ratingComment: '',
   },
 
   {
@@ -2214,6 +2278,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -2248,6 +2313,7 @@ export const guillaumeSeries: UserSeries = [
     owned: true,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -2282,6 +2348,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -2310,6 +2377,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -2386,6 +2454,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -2426,6 +2495,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -2508,6 +2578,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -2524,6 +2595,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -2636,6 +2708,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -2664,6 +2737,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -2716,6 +2790,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -2792,6 +2867,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
 
   {
@@ -2814,6 +2890,7 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'No Game No Life',
@@ -2829,27 +2906,29 @@ export const guillaumeSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
 
   {
     title: 'Fallout',
     director: 'Geneva Robertson-Dworet, Graham Wagner',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 3.5,
-      seasonTimesWatched: 1,
-      lastViewedDate: '2026-02-10',
-    },
-    {
-      seasonNumber: 2,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
-      lastViewedDate: '2026-02-10',
-    }
-  ],
+      {
+        seasonNumber: 1,
+        seasonRating: 3.5,
+        seasonTimesWatched: 1,
+        lastViewedDate: '2026-02-10',
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '2026-02-10',
+      },
+    ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
 ];

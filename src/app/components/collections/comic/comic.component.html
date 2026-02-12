@@ -34,6 +34,9 @@
     }
     <p class="comic-designer">Dessinateur : {{ comic.designer }}</p>
     <p class="comic-writer">Scénariste : {{ comic.writer }}</p>
+    @if (comic.description) {
+    <p class="comic-description">{{ comic.description }}</p>
+    }
 
     @if (comic.pages) {
     <p class="comic-pages">{{ comic.pages }} pages</p>
@@ -53,6 +56,9 @@
       </span>
       <span class="rating-text">{{ comic.rating }}/5</span>
     </div>
+    @if (comic.ratingComment) {
+    <p class="comic-rating-comment">{{ comic.ratingComment }}</p>
+    }
     } @if (recommendationText) {
     <p class="recommendation-text">{{ recommendationText }}</p>
     } @if (recommendationBadge) {

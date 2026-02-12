@@ -39,6 +39,8 @@ router.post('/', (req: any, res: any) => {
       watchPriority: normalizeNumber(input.watchPriority, 'watchPriority'),
       wantToWatchAgain:
         normalizeBoolean(input.wantToWatchAgain, 'wantToWatchAgain') ?? false,
+      rating: normalizeNumber(input.rating, 'rating'),
+      ratingComment: normalizeString(input.ratingComment, 'ratingComment') ?? '',
     };
 
     const entityPayload = input.entity || null;
@@ -106,6 +108,7 @@ router.post('/', (req: any, res: any) => {
         seasonsData: Array.isArray(entityPayload.seasonsData)
           ? entityPayload.seasonsData
           : undefined,
+        description: normalizeString(entityPayload.description, 'description') ?? '',
       });
 
       if (originalTitle || originalDirector) {

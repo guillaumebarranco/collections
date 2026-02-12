@@ -24,6 +24,7 @@ export async function updateReadPriority(
         owned: data.manwha.owned,
         readPriority: data.priority,
         wantToReadAgain: data.manwha.wantToReadAgain ?? false,
+        ratingComment: data.manwha.ratingComment ?? '',
       }),
     });
 
@@ -64,6 +65,7 @@ export async function markManwhaAsWantToReRead(
         owned: manwha.owned,
         readPriority: manwha.readPriority ?? 1,
         wantToReadAgain: true,
+        ratingComment: manwha.ratingComment ?? '',
       }),
     });
     if (!response.ok) {
@@ -96,6 +98,7 @@ export async function markManwhaAsReRead(
         owned: manwha.owned,
         readPriority: manwha.readPriority ?? 1,
         wantToReadAgain: false,
+        ratingComment: manwha.ratingComment ?? '',
       }),
     });
     if (!response.ok) {

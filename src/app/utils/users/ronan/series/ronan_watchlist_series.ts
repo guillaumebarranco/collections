@@ -57,6 +57,7 @@ export const ronanWatchlistSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Cobra Kai',
@@ -102,6 +103,7 @@ export const ronanWatchlistSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Mentalist',
@@ -153,6 +155,7 @@ export const ronanWatchlistSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Reacher',
@@ -174,6 +177,7 @@ export const ronanWatchlistSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'Suits, Avocats sur mesure',
@@ -237,6 +241,7 @@ export const ronanWatchlistSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
   {
     title: 'The Glory',
@@ -252,5 +257,6 @@ export const ronanWatchlistSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
+    ratingComment: '',
   },
 ];

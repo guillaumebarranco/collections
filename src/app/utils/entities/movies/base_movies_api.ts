@@ -20,6 +20,7 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 102,
     genre: 'Drame',
     saga: '',
+    description: '',
   },
 
   {
@@ -41,6 +42,7 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 115,
     genre: 'Thriller',
     saga: '',
+    description: '',
   },
 
   {
@@ -62,6 +64,7 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 120,
     genre: 'Catastrophe',
     saga: '',
+    description: '',
   },
 
   {
@@ -86,6 +89,7 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 130,
     genre: 'Drame',
     saga: '',
+    description: '',
   },
 
   {
@@ -104,6 +108,7 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 126,
     genre: 'Thriller',
     saga: '',
+    description: '',
   },
 
   {
@@ -125,6 +130,7 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 115,
     genre: 'Horreur',
     saga: '28... plus tard',
+    description: '',
   },
 
   {
@@ -143,6 +149,7 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 98,
     genre: 'Comédie romantique',
     saga: '',
+    description: '',
   },
 
   {
@@ -165,6 +172,7 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 228,
     genre: 'Fantasy',
     saga: 'Tolkien',
+    description: '',
   },
 
   {
@@ -186,6 +194,7 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 235,
     genre: 'Fantasy',
     saga: 'Tolkien',
+    description: '',
   },
 
   {
@@ -207,6 +216,7 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 264,
     genre: 'Fantasy',
     saga: 'Tolkien',
+    description: '',
   },
   {
     title: 'Sonic 2, le film',
@@ -224,6 +234,7 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 122,
     genre: 'Aventure, Famille',
     saga: 'Sonic',
+    description: '',
   },
 
   {
@@ -245,6 +256,7 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 99,
     genre: 'Comédie',
     saga: '',
+    description: '',
   },
   {
     title: 'Sonic 3, le film',
@@ -268,6 +280,7 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 110,
     genre: 'Aventure, Famille',
     saga: 'Sonic',
+    description: '',
   },
 
   {
@@ -289,6 +302,7 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 121,
     genre: 'Comédie romantique',
     saga: '',
+    description: '',
   },
 
   {
@@ -313,6 +327,7 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 95,
     genre: 'Animation',
     saga: '',
+    description: '',
   },
 
   {
@@ -324,10 +339,11 @@ export const baseMoviesApi: BaseMovie[] = [
     length: 0,
     genre: '',
     saga: '',
+    description: '',
   },
 
   {
-    title: 'O\'Brother',
+    title: "O'Brother",
     director: 'Ethan Coen, Joel Coen',
     actors: [
       {
@@ -340,10 +356,12 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'John Turturro',
       },
     ],
-    coverUrl: 'https://m.media-amazon.com/images/M/MV5BNzc0YTZiYWYtM2MzMC00YTdmLTljNTktMWRkZDUzNzBiZjRkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BNzc0YTZiYWYtM2MzMC00YTdmLTljNTktMWRkZDUzNzBiZjRkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
     releaseDate: '2000-08-30',
     length: 106,
     genre: 'Comédie, Policier',
     saga: '',
+    description: '',
   },
 ];

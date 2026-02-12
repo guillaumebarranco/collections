@@ -166,6 +166,7 @@ function formatGameObject(game: any) {
     owned: ${game.owned ?? false},
     gamelistPriority: ${game.gamelistPriority ?? 1},
     wantToPlayAgain: ${game.wantToPlayAgain ?? false},
+    ratingComment: '${escapeString(game.ratingComment || '')}',
     ${sessionsPart}
   }`;
 }
@@ -212,6 +213,7 @@ function parseGamesFromFile(content: string): any[] {
               parseNumberField(objectText, 'gamelistPriority') ?? 1,
             wantToPlayAgain:
               parseBooleanField(objectText, 'wantToPlayAgain') ?? false,
+            ratingComment: parseStringField(objectText, 'ratingComment') ?? '',
             sessions: Array.isArray(sessions) ? sessions : [],
           });
         }
@@ -270,6 +272,7 @@ function parseBaseGamesFullFromFile(content: string): any[] {
           platform: parseStringField(objectText, 'platform') || '',
           saga: parseStringField(objectText, 'saga') || '',
           platineTime: parseNumberField(objectText, 'platineTime') ?? 0,
+          description: parseStringField(objectText, 'description') || '',
         });
       }
     }
@@ -443,6 +446,7 @@ function updateBaseGameInFile(filePath: string, gameData: any): boolean {
     platform: '${escapeString(game.platform || '')}',
     saga: '${escapeString(game.saga || '')}',
     platineTime: ${game.platineTime ?? 0},
+    description: '${escapeString(game.description || '')}',
   }`
     )
     .join(',\n');

@@ -12,6 +12,7 @@ type AddComicEntityForm = {
   genre: string;
   nbTomes: number;
   isFinished: boolean;
+  description: string;
 };
 
 type AddComicUserForm = {
@@ -19,6 +20,7 @@ type AddComicUserForm = {
   readTimes: number;
   readDate: string;
   owned: boolean;
+  ratingComment: string;
 };
 
 type AddComicDialogData = {
@@ -50,6 +52,7 @@ export class AddComicComponent {
     genre: '',
     nbTomes: 0,
     isFinished: true,
+    description: '',
   });
 
   userForm = signal<AddComicUserForm>({
@@ -57,6 +60,7 @@ export class AddComicComponent {
     readTimes: 1,
     readDate: '',
     owned: false,
+    ratingComment: '',
   });
 
   close() {

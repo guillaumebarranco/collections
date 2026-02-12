@@ -38,6 +38,9 @@
     <p class="game-release">
       Sortie: {{ game.releaseDate | date : "dd/MM/yyyy" }}
     </p>
+    @if (game.description) {
+    <p class="game-description">{{ game.description }}</p>
+    }
     @if (game.platined && !isBaseEntityView) {
     <div class="platine-container">
       <span>Platiné</span>
@@ -61,6 +64,9 @@
       </span>
       <span class="rating-text">{{ game.rating }}/5</span>
     </div>
+    @if (game.ratingComment) {
+    <p class="game-rating-comment">{{ game.ratingComment }}</p>
+    }
     } @if (recommendationText) {
     <p class="recommendation-text">{{ recommendationText }}</p>
     } @if (recommendationBadge) {

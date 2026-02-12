@@ -31,6 +31,8 @@
       <p><strong>Nombre de tomes :</strong> {{ bd()?.nbTomes }}</p>
       } @if (bd()?.isFinished === false) {
       <p><strong>Série :</strong> En cours</p>
+      } @if (bd()?.description) {
+      <p><strong>Description :</strong> {{ bd()?.description }}</p>
       }
     </div>
     <br />
@@ -135,6 +137,18 @@
         name="wantToReadAgain"
       />
     </div>
+
+    <div class="form-row">
+      <label for="ratingComment">Commentaire sur la note</label>
+      <textarea
+        id="ratingComment"
+        rows="3"
+        [ngModel]="bdForm()?.ratingComment"
+        (ngModelChange)="updateField('ratingComment', $event)"
+        name="ratingComment"
+        placeholder="Optionnel"
+      ></textarea>
+    </div>
     } @if (isAdminView() && bdEntityForm()) {
     <div class="form-row">
       <label for="entityPages">Pages</label>
@@ -204,6 +218,18 @@
         (ngModelChange)="updateEntityField('coverUrl', $event)"
         name="entityCoverUrl"
       />
+    </div>
+
+    <div class="form-row">
+      <label for="entityDescription">Description</label>
+      <textarea
+        id="entityDescription"
+        rows="3"
+        [ngModel]="bdEntityForm()?.description"
+        (ngModelChange)="updateEntityField('description', $event)"
+        name="entityDescription"
+        placeholder="Optionnel"
+      ></textarea>
     </div>
     }
 
