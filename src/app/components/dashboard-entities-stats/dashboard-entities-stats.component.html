@@ -18,6 +18,17 @@
   <div class="stats-content">
     @if (selectedEntity() === 'movies') {
     <div class="stats-section stats-section--wide">
+      <h3>🎬 Films vus par an (2000-{{ currentYear }})</h3>
+      @if (moviesWatchedTotal() === 0) {
+      <div class="no-data">Aucun film vu depuis 2000.</div>
+      } @else {
+      <div #moviesWatchedChart class="cinema-chart"></div>
+      <div class="chart-footnote">
+        Total: {{ moviesWatchedTotal() }} film(s) vus
+      </div>
+      }
+    </div>
+    <div class="stats-section stats-section--wide">
       <h3>🎬 Films vus au cinéma par an (2000-{{ currentYear }})</h3>
       @if (moviesCinemaTotal() === 0) {
       <div class="no-data">Aucun film vu au cinéma depuis 2000.</div>

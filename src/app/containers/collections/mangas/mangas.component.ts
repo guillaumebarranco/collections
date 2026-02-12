@@ -44,8 +44,12 @@ import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
-import { getApiBaseUrl } from '../../../core/config';
 import { getFullManga } from '../../../helpers/full-entities-helper';
+import {
+  updateReadPriority as updateReadPriorityApi,
+  markMangaAsWantToReRead as markMangaAsWantToReReadApi,
+  markMangaAsReRead as markMangaAsReReadApi,
+} from './mangas.controller';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedManga = Manga & {
@@ -469,96 +473,23 @@ export class MangasComponent implements OnInit {
     manga: Manga;
     priority: number;
   }): Promise<void> {
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/mangas`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          userId: this.getActiveUserId(),
-          title: data.manga.title,
-          author: data.manga.author,
-          rating: data.manga.rating,
-          readTimes: data.manga.readTimes,
-          readDate: data.manga.readDate,
-          owned: data.manga.owned,
-          readPriority: data.priority,
-          wantToReadAgain: data.manga.wantToReadAgain ?? false,
-        }),
-      });
-
-      if (!response.ok) {
-        const payload = await response.json().catch(() => ({}));
-        console.warn(
-          'Échec de la mise à jour de la priorité :',
-          payload?.error || response.statusText
-        );
-        return;
-      }
-
+    const success = await updateReadPriorityApi(data, this.getActiveUserId());
+    if (success) {
       await this.refreshMangas();
-    } catch (error) {
-      console.warn(
-        'Erreur réseau lors de la mise à jour de la priorité.',
-        error
-      );
     }
   }
 
   async markMangaAsWantToReRead(manga: Manga): Promise<void> {
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/mangas`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          userId: this.getActiveUserId(),
-          title: manga.title,
-          author: manga.author,
-          rating: manga.rating,
-          readTimes: manga.readTimes,
-          readDate: manga.readDate,
-          owned: manga.owned,
-          readPriority: manga.readPriority ?? 1,
-          wantToReadAgain: true,
-        }),
-      });
-      if (!response.ok) {
-        const payload = await response.json().catch(() => ({}));
-        console.warn('Échec marquer à relire:', payload?.error || response.statusText);
-        return;
-      }
+    const success = await markMangaAsWantToReReadApi(manga, this.getActiveUserId());
+    if (success) {
       await this.refreshMangas();
-    } catch (error) {
-      console.warn('Erreur réseau marquer manga à relire.', error);
     }
   }
 
   async markMangaAsReRead(manga: Manga): Promise<void> {
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/mangas`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          userId: this.getActiveUserId(),
-          title: manga.title,
-          author: manga.author,
-          rating: manga.rating,
-          readTimes: manga.readTimes,
-          readDate: manga.readDate,
-          owned: manga.owned,
-          readPriority: manga.readPriority ?? 1,
-          wantToReadAgain: false,
-        }),
-      });
-      if (!response.ok) {
-        const payload = await response.json().catch(() => ({}));
-        console.warn('Échec marquer relu:', payload?.error || response.statusText);
-        return;
-      }
+    const success = await markMangaAsReReadApi(manga, this.getActiveUserId());
+    if (success) {
       await this.refreshMangas();
-    } catch (error) {
-      console.warn('Erreur réseau marquer manga relu.', error);
     }
   }
 

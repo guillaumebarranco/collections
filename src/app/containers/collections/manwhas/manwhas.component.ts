@@ -44,8 +44,12 @@ import { Quizz } from '../../../models/quizz-model';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
-import { getApiBaseUrl } from '../../../core/config';
 import { getFullManwha } from '../../../helpers/full-entities-helper';
+import {
+  updateReadPriority as updateReadPriorityApi,
+  markManwhaAsWantToReRead as markManwhaAsWantToReReadApi,
+  markManwhaAsReRead as markManwhaAsReReadApi,
+} from './manwhas.controller';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedManwha = Manwha & {
@@ -477,96 +481,23 @@ export class ManwhasComponent implements OnInit {
     manwha: Manwha;
     priority: number;
   }): Promise<void> {
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/manwhas`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          userId: this.getActiveUserId(),
-          title: data.manwha.title,
-          author: data.manwha.author,
-          rating: data.manwha.rating,
-          readTimes: data.manwha.readTimes,
-          readDate: data.manwha.readDate,
-          owned: data.manwha.owned,
-          readPriority: data.priority,
-          wantToReadAgain: data.manwha.wantToReadAgain ?? false,
-        }),
-      });
-
-      if (!response.ok) {
-        const payload = await response.json().catch(() => ({}));
-        console.warn(
-          'Échec de la mise à jour de la priorité :',
-          payload?.error || response.statusText
-        );
-        return;
-      }
-
+    const success = await updateReadPriorityApi(data, this.getActiveUserId());
+    if (success) {
       await this.refreshManwhas();
-    } catch (error) {
-      console.warn(
-        'Erreur réseau lors de la mise à jour de la priorité.',
-        error
-      );
     }
   }
 
   async markManwhaAsWantToReRead(manwha: Manwha): Promise<void> {
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/manwhas`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          userId: this.getActiveUserId(),
-          title: manwha.title,
-          author: manwha.author,
-          rating: manwha.rating,
-          readTimes: manwha.readTimes,
-          readDate: manwha.readDate,
-          owned: manwha.owned,
-          readPriority: manwha.readPriority ?? 1,
-          wantToReadAgain: true,
-        }),
-      });
-      if (!response.ok) {
-        const payload = await response.json().catch(() => ({}));
-        console.warn('Échec marquer à relire:', payload?.error || response.statusText);
-        return;
-      }
+    const success = await markManwhaAsWantToReReadApi(manwha, this.getActiveUserId());
+    if (success) {
       await this.refreshManwhas();
-    } catch (error) {
-      console.warn('Erreur réseau marquer manwha à relire.', error);
     }
   }
 
   async markManwhaAsReRead(manwha: Manwha): Promise<void> {
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/manwhas`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          userId: this.getActiveUserId(),
-          title: manwha.title,
-          author: manwha.author,
-          rating: manwha.rating,
-          readTimes: manwha.readTimes,
-          readDate: manwha.readDate,
-          owned: manwha.owned,
-          readPriority: manwha.readPriority ?? 1,
-          wantToReadAgain: false,
-        }),
-      });
-      if (!response.ok) {
-        const payload = await response.json().catch(() => ({}));
-        console.warn('Échec marquer relu:', payload?.error || response.statusText);
-        return;
-      }
+    const success = await markManwhaAsReReadApi(manwha, this.getActiveUserId());
+    if (success) {
       await this.refreshManwhas();
-    } catch (error) {
-      console.warn('Erreur réseau marquer manwha relu.', error);
     }
   }
 

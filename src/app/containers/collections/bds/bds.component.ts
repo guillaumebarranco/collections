@@ -44,8 +44,12 @@ import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
-import { getApiBaseUrl } from '../../../core/config';
 import { getFullBd } from '../../../helpers/full-entities-helper';
+import {
+  updateReadPriority as updateReadPriorityApi,
+  markBdAsWantToReRead as markBdAsWantToReReadApi,
+  markBdAsReRead as markBdAsReReadApi,
+} from './bds.controller';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedBd = Bd & {
@@ -462,96 +466,23 @@ export class BdsComponent implements OnInit {
   }
 
   async updateReadPriority(data: { bd: Bd; priority: number }): Promise<void> {
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/bds`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          userId: this.getActiveUserId(),
-          title: data.bd.title,
-          writer: data.bd.writer,
-          rating: data.bd.rating,
-          readTimes: data.bd.readTimes,
-          readDate: data.bd.readDate,
-          owned: data.bd.owned,
-          readPriority: data.priority,
-          wantToReadAgain: data.bd.wantToReadAgain ?? false,
-        }),
-      });
-
-      if (!response.ok) {
-        const payload = await response.json().catch(() => ({}));
-        console.warn(
-          'Échec de la mise à jour de la priorité :',
-          payload?.error || response.statusText
-        );
-        return;
-      }
-
+    const success = await updateReadPriorityApi(data, this.getActiveUserId());
+    if (success) {
       await this.refreshBds();
-    } catch (error) {
-      console.warn(
-        'Erreur réseau lors de la mise à jour de la priorité.',
-        error
-      );
     }
   }
 
   async markBdAsWantToReRead(bd: Bd): Promise<void> {
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/bds`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          userId: this.getActiveUserId(),
-          title: bd.title,
-          writer: bd.writer,
-          rating: bd.rating,
-          readTimes: bd.readTimes,
-          readDate: bd.readDate,
-          owned: bd.owned,
-          readPriority: bd.readPriority ?? 1,
-          wantToReadAgain: true,
-        }),
-      });
-      if (!response.ok) {
-        const payload = await response.json().catch(() => ({}));
-        console.warn('Échec marquer à relire:', payload?.error || response.statusText);
-        return;
-      }
+    const success = await markBdAsWantToReReadApi(bd, this.getActiveUserId());
+    if (success) {
       await this.refreshBds();
-    } catch (error) {
-      console.warn('Erreur réseau marquer BD à relire.', error);
     }
   }
 
   async markBdAsReRead(bd: Bd): Promise<void> {
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/bds`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          userId: this.getActiveUserId(),
-          title: bd.title,
-          writer: bd.writer,
-          rating: bd.rating,
-          readTimes: bd.readTimes,
-          readDate: bd.readDate,
-          owned: bd.owned,
-          readPriority: bd.readPriority ?? 1,
-          wantToReadAgain: false,
-        }),
-      });
-      if (!response.ok) {
-        const payload = await response.json().catch(() => ({}));
-        console.warn('Échec marquer relu:', payload?.error || response.statusText);
-        return;
-      }
+    const success = await markBdAsReReadApi(bd, this.getActiveUserId());
+    if (success) {
       await this.refreshBds();
-    } catch (error) {
-      console.warn('Erreur réseau marquer BD relue.', error);
     }
   }
 

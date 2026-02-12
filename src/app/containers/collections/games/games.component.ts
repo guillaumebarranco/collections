@@ -37,8 +37,12 @@ import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
-import { getApiBaseUrl } from '../../../core/config';
 import { getFullGame } from '../../../helpers/full-entities-helper';
+import {
+  updateGamelistPriority as updateGamelistPriorityApi,
+  markGameAsWantToRePlay as markGameAsWantToRePlayApi,
+  markGameAsRePlayed as markGameAsRePlayedApi,
+} from './games.controller';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedGame = Game & {
@@ -450,93 +454,23 @@ export class GamesComponent implements OnInit {
     game: Game;
     priority: number;
   }): Promise<void> {
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/games`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          userId: this.getActiveUserId(),
-          title: data.game.title,
-          editor: data.game.editor,
-          rating: data.game.rating,
-          owned: data.game.owned,
-          gamelistPriority: data.priority,
-          wantToPlayAgain: data.game.wantToPlayAgain ?? false,
-          sessions: data.game.sessions ?? [],
-        }),
-      });
-
-      if (!response.ok) {
-        const payload = await response.json().catch(() => ({}));
-        console.warn(
-          'Échec de la mise à jour de la priorité :',
-          payload?.error || response.statusText
-        );
-        return;
-      }
-
+    const success = await updateGamelistPriorityApi(data, this.getActiveUserId());
+    if (success) {
       await this.refreshGames();
-    } catch (error) {
-      console.warn(
-        'Erreur réseau lors de la mise à jour de la priorité.',
-        error
-      );
     }
   }
 
   async markGameAsWantToRePlay(game: Game): Promise<void> {
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/games`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          userId: this.getActiveUserId(),
-          title: game.title,
-          editor: game.editor,
-          rating: game.rating,
-          owned: game.owned,
-          gamelistPriority: game.gamelistPriority ?? 1,
-          wantToPlayAgain: true,
-          sessions: game.sessions ?? [],
-        }),
-      });
-      if (!response.ok) {
-        const payload = await response.json().catch(() => ({}));
-        console.warn('Échec marquer à rejouer:', payload?.error || response.statusText);
-        return;
-      }
+    const success = await markGameAsWantToRePlayApi(game, this.getActiveUserId());
+    if (success) {
       await this.refreshGames();
-    } catch (error) {
-      console.warn('Erreur réseau marquer jeu à rejouer.', error);
     }
   }
 
   async markGameAsRePlayed(game: Game): Promise<void> {
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/games`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          userId: this.getActiveUserId(),
-          title: game.title,
-          editor: game.editor,
-          rating: game.rating,
-          owned: game.owned,
-          gamelistPriority: game.gamelistPriority ?? 1,
-          wantToPlayAgain: false,
-          sessions: game.sessions ?? [],
-        }),
-      });
-      if (!response.ok) {
-        const payload = await response.json().catch(() => ({}));
-        console.warn('Échec marquer rejoué:', payload?.error || response.statusText);
-        return;
-      }
+    const success = await markGameAsRePlayedApi(game, this.getActiveUserId());
+    if (success) {
       await this.refreshGames();
-    } catch (error) {
-      console.warn('Erreur réseau marquer jeu rejoué.', error);
     }
   }
 }

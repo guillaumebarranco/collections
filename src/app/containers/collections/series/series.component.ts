@@ -41,8 +41,12 @@ import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
-import { getApiBaseUrl } from '../../../core/config';
 import { getFullSerie } from '../../../helpers/full-entities-helper';
+import {
+  updateWatchPriority as updateWatchPriorityApi,
+  markSerieAsWantToReWatch as markSerieAsWantToReWatchApi,
+  markSerieAsReWatched as markSerieAsReWatchedApi,
+} from './series.controller';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedSerie = Serie & {
@@ -421,90 +425,23 @@ export class SeriesComponent implements OnInit {
     serie: Serie;
     priority: number;
   }): Promise<void> {
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/series`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          userId: this.getActiveUserId(),
-          title: data.serie.title,
-          director: data.serie.director,
-          seasons: data.serie.seasons,
-          owned: data.serie.owned,
-          watchPriority: data.priority,
-          wantToWatchAgain: data.serie.wantToWatchAgain ?? false,
-        }),
-      });
-
-      if (!response.ok) {
-        const payload = await response.json().catch(() => ({}));
-        console.warn(
-          'Échec de la mise à jour de la priorité :',
-          payload?.error || response.statusText
-        );
-        return;
-      }
-
+    const success = await updateWatchPriorityApi(data, this.getActiveUserId());
+    if (success) {
       await this.refreshSeries();
-    } catch (error) {
-      console.warn(
-        'Erreur réseau lors de la mise à jour de la priorité.',
-        error
-      );
     }
   }
 
   async markSerieAsWantToReWatch(serie: Serie): Promise<void> {
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/series`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          userId: this.getActiveUserId(),
-          title: serie.title,
-          director: serie.director,
-          seasons: serie.seasons,
-          owned: serie.owned,
-          watchPriority: serie.watchPriority ?? 1,
-          wantToWatchAgain: true,
-        }),
-      });
-      if (!response.ok) {
-        const payload = await response.json().catch(() => ({}));
-        console.warn('Échec marquer à revoir:', payload?.error || response.statusText);
-        return;
-      }
+    const success = await markSerieAsWantToReWatchApi(serie, this.getActiveUserId());
+    if (success) {
       await this.refreshSeries();
-    } catch (error) {
-      console.warn('Erreur réseau marquer série à revoir.', error);
     }
   }
 
   async markSerieAsReWatched(serie: Serie): Promise<void> {
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/series`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          userId: this.getActiveUserId(),
-          title: serie.title,
-          director: serie.director,
-          seasons: serie.seasons,
-          owned: serie.owned,
-          watchPriority: serie.watchPriority ?? 1,
-          wantToWatchAgain: false,
-        }),
-      });
-      if (!response.ok) {
-        const payload = await response.json().catch(() => ({}));
-        console.warn('Échec marquer revu:', payload?.error || response.statusText);
-        return;
-      }
+    const success = await markSerieAsReWatchedApi(serie, this.getActiveUserId());
+    if (success) {
       await this.refreshSeries();
-    } catch (error) {
-      console.warn('Erreur réseau marquer série revue.', error);
     }
   }
 }

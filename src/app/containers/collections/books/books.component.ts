@@ -50,8 +50,13 @@ import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
-import { getApiBaseUrl } from '../../../core/config';
 import { getFullBook } from '../../../helpers/full-entities-helper';
+import {
+  addBookToReadlist as addBookToReadlistApi,
+  markBookAsWantToReRead as markBookAsWantToReReadApi,
+  markBookAsReRead as markBookAsReReadApi,
+  updateReadPriority as updateReadPriorityApi,
+} from './books.controller';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedBook = Book & {
@@ -740,107 +745,23 @@ export class BooksComponent implements OnInit {
   }
 
   async addBookToReadlist(book: Book) {
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/books/add-existing`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          userId: this.getActiveUserId(),
-          books: [book],
-          readlist: true,
-        }),
-      });
-
-      if (!response.ok) {
-        const payload = await response.json().catch(() => ({}));
-        console.warn(
-          "Échec de l'ajout batch des livres :",
-          payload?.error || response.statusText
-        );
-        return;
-      }
-
+    const success = await addBookToReadlistApi(book, this.getActiveUserId());
+    if (success) {
       this.router.navigate([`${this.getActiveUserId()}/books`]);
-    } catch (error) {
-      console.warn("Erreur réseau lors de l'ajout batch des films.", error);
     }
   }
 
   async markBookAsWantToReRead(book: Book): Promise<void> {
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/books`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          userId: this.getActiveUserId(),
-          title: book.title,
-          author: book.author,
-          rating: book.rating,
-          readTimes: book.readTimes,
-          readDate: book.readDate,
-          owned: book.owned,
-          readPriority: book.readPriority ?? 0,
-          wantToReadAgain: true,
-        }),
-      });
-
-      if (!response.ok) {
-        const payload = await response.json().catch(() => ({}));
-        console.warn(
-          'Échec de la mise à jour du livre :',
-          payload?.error || response.statusText
-        );
-        return;
-      }
-
+    const success = await markBookAsWantToReReadApi(book, this.getActiveUserId());
+    if (success) {
       await this.refreshBooks();
-    } catch (error) {
-      console.warn(
-        'Erreur réseau lors de la mise à jour du livre.',
-        error
-      );
     }
   }
 
   async markBookAsReRead(book: Book): Promise<void> {
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/books`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          userId: this.getActiveUserId(),
-          title: book.title,
-          author: book.author,
-          rating: book.rating,
-          readTimes: (book.readTimes ?? 0) + 1,
-          readDate: book.readDate,
-          owned: book.owned,
-          readPriority: book.readPriority ?? 0,
-          wantToReadAgain: false,
-        }),
-      });
-
-      if (!response.ok) {
-        const payload = await response.json().catch(() => ({}));
-        console.warn(
-          'Échec de la mise à jour du livre :',
-          payload?.error || response.statusText
-        );
-        return;
-      }
-
+    const success = await markBookAsReReadApi(book, this.getActiveUserId());
+    if (success) {
       await this.refreshBooks();
-    } catch (error) {
-      console.warn(
-        'Erreur réseau lors de la mise à jour du livre.',
-        error
-      );
     }
   }
 
@@ -848,40 +769,9 @@ export class BooksComponent implements OnInit {
     book: Book;
     priority: number;
   }): Promise<void> {
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/books`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          userId: this.getActiveUserId(),
-          title: data.book.title,
-          author: data.book.author,
-          rating: data.book.rating,
-          readTimes: data.book.readTimes,
-          readDate: data.book.readDate,
-          owned: data.book.owned,
-          readPriority: data.priority,
-          wantToReadAgain: data.book.wantToReadAgain ?? false,
-        }),
-      });
-
-      if (!response.ok) {
-        const payload = await response.json().catch(() => ({}));
-        console.warn(
-          'Échec de la mise à jour de la priorité :',
-          payload?.error || response.statusText
-        );
-        return;
-      }
-
+    const success = await updateReadPriorityApi(data, this.getActiveUserId());
+    if (success) {
       await this.refreshBooks();
-    } catch (error) {
-      console.warn(
-        'Erreur réseau lors de la mise à jour de la priorité.',
-        error
-      );
     }
   }
 }

@@ -13,6 +13,7 @@ import { ActivatedRoute, Params } from '@angular/router';
 import {
   renderBooksReadChart,
   renderMoviesCinemaChart,
+  renderMoviesWatchedChart,
 } from '../../utils/graph.utils';
 import { Movie } from '../../models/movie-model';
 import { Serie } from '../../models/serie-model';
@@ -21,6 +22,8 @@ import { Game } from '../../models/game-model';
 import { Music } from '../../models/music-model';
 import { Comic } from '../../models/comic-model';
 import { Bd } from '../../models/bd-model';
+import { Manga } from '../../models/manga-model';
+import { Manwha } from '../../models/manwha-model';
 import { getAllMovies } from '../../facades/movies/movies.facade';
 import { getAllSeries } from '../../facades/series/series.facade';
 import { getAllBooks } from '../../facades/books/books.facade';
@@ -28,6 +31,8 @@ import { getAllGames } from '../../facades/games/games.facade';
 import { getAllMusics } from '../../facades/musics/musics.facade';
 import { getAllComics } from '../../facades/comics/comics.facade';
 import { getAllBds } from '../../facades/bds/bds.facade';
+import { getAllMangas } from '../../facades/mangas/mangas.facade';
+import { getAllManwhas } from '../../facades/manwhas/manwhas.facade';
 
 export type EntityType =
   | 'movies'
@@ -36,7 +41,9 @@ export type EntityType =
   | 'games'
   | 'musics'
   | 'comics'
-  | 'bds';
+  | 'bds'
+  | 'mangas'
+  | 'manwhas';
 
 interface TopStat {
   name: string;
@@ -73,6 +80,8 @@ export class DashboardEntitiesStatsComponent implements OnInit, AfterViewInit {
     'musics',
     'comics',
     'bds',
+    'mangas',
+    'manwhas',
   ];
 
   moviesList = signal<{ [key: string]: Movie[] }>({});
@@ -82,6 +91,11 @@ export class DashboardEntitiesStatsComponent implements OnInit, AfterViewInit {
   musicsList = signal<{ [key: string]: Music[] }>({});
   comicsList = signal<{ [key: string]: Comic[] }>({});
   bdsList = signal<{ [key: string]: Bd[] }>({});
+  mangasList = signal<{ [key: string]: Manga[] }>({});
+  manwhasList = signal<{ [key: string]: Manwha[] }>({});
+
+  @ViewChild('moviesWatchedChart')
+  moviesWatchedChart?: ElementRef<HTMLDivElement>;
 
   @ViewChild('moviesCinemaChart')
   moviesCinemaChart?: ElementRef<HTMLDivElement>;
@@ -124,6 +138,14 @@ export class DashboardEntitiesStatsComponent implements OnInit, AfterViewInit {
     return this.bdsList()[this.userId()] || [];
   });
 
+  allMangas = computed<Manga[]>(() => {
+    return this.mangasList()[this.userId()] || [];
+  });
+
+  allManwhas = computed<Manwha[]>(() => {
+    return this.manwhasList()[this.userId()] || [];
+  });
+
   stats = computed<EntityStats>(() => {
     const entity = this.selectedEntity();
 
@@ -142,9 +164,43 @@ export class DashboardEntitiesStatsComponent implements OnInit, AfterViewInit {
         return this.getComicsStats();
       case 'bds':
         return this.getBdsStats();
+      case 'mangas':
+        return this.getMangasStats();
+      case 'manwhas':
+        return this.getManwhasStats();
       default:
         return {};
     }
+  });
+
+  /** Films vus par an (tous, pas seulement au cinéma) */
+  moviesWatchedByYear = computed(() => {
+    const startYear = 2000;
+    const endYear = this.currentYear;
+    const years = Array.from(
+      { length: endYear - startYear + 1 },
+      (_, index) => startYear + index
+    );
+    const counts = new Map<number, number>();
+    years.forEach((year) => counts.set(year, 0));
+
+    const uniqueMovies = this.getUniqueMovies(this.allMovies());
+    uniqueMovies.forEach((movie) => {
+      const year = this.getMovieViewedYear(movie);
+      if (year === null || year < startYear || year > endYear) {
+        return;
+      }
+      counts.set(year, (counts.get(year) || 0) + 1);
+    });
+
+    return years.map((year) => ({
+      year,
+      count: counts.get(year) || 0,
+    }));
+  });
+
+  moviesWatchedTotal = computed(() => {
+    return this.moviesWatchedByYear().reduce((sum, item) => sum + item.count, 0);
   });
 
   moviesCinemaByYear = computed(() => {
@@ -474,6 +530,64 @@ export class DashboardEntitiesStatsComponent implements OnInit, AfterViewInit {
     };
   }
 
+  private getMangasStats(): EntityStats {
+    const mangas = this.allMangas();
+    const uniqueMangas = Array.from(
+      new Set(mangas.map((m) => `${m.title}|${m.author}`))
+    ).map((key) => {
+      const [title, author] = key.split('|');
+      return mangas.find((m) => m.title === title && m.author === author)!;
+    });
+
+    const authorsCount: { [key: string]: number } = {};
+    uniqueMangas.forEach((manga) => {
+      if (manga.author) {
+        authorsCount[manga.author] = (authorsCount[manga.author] || 0) + 1;
+      }
+    });
+
+    const genresCount: { [key: string]: number } = {};
+    uniqueMangas.forEach((manga) => {
+      if (manga.genre) {
+        genresCount[manga.genre] = (genresCount[manga.genre] || 0) + 1;
+      }
+    });
+
+    return {
+      topAuthors: this.sortAndLimit(authorsCount, 10),
+      topGenres: this.sortAndLimit(genresCount, 10),
+    };
+  }
+
+  private getManwhasStats(): EntityStats {
+    const manwhas = this.allManwhas();
+    const uniqueManwhas = Array.from(
+      new Set(manwhas.map((m) => `${m.title}|${m.author}`))
+    ).map((key) => {
+      const [title, author] = key.split('|');
+      return manwhas.find((m) => m.title === title && m.author === author)!;
+    });
+
+    const authorsCount: { [key: string]: number } = {};
+    uniqueManwhas.forEach((manwha) => {
+      if (manwha.author) {
+        authorsCount[manwha.author] = (authorsCount[manwha.author] || 0) + 1;
+      }
+    });
+
+    const genresCount: { [key: string]: number } = {};
+    uniqueManwhas.forEach((manwha) => {
+      if (manwha.genre) {
+        genresCount[manwha.genre] = (genresCount[manwha.genre] || 0) + 1;
+      }
+    });
+
+    return {
+      topAuthors: this.sortAndLimit(authorsCount, 10),
+      topGenres: this.sortAndLimit(genresCount, 10),
+    };
+  }
+
   private sortAndLimit(
     counts: { [key: string]: number },
     limit: number
@@ -487,7 +601,10 @@ export class DashboardEntitiesStatsComponent implements OnInit, AfterViewInit {
   selectEntity(entity: EntityType): void {
     this.selectedEntity.set(entity);
     if (entity === 'movies') {
-      requestAnimationFrame(() => this.renderMoviesCinemaChart());
+      requestAnimationFrame(() => {
+        this.renderMoviesWatchedChart();
+        this.renderMoviesCinemaChart();
+      });
     }
     if (entity === 'books') {
       requestAnimationFrame(() => this.renderBooksReadChart());
@@ -503,6 +620,8 @@ export class DashboardEntitiesStatsComponent implements OnInit, AfterViewInit {
       musics: '🎵 Musiques',
       comics: '🦸 Comics',
       bds: '📗 BD',
+      mangas: '📚 Mangas',
+      manwhas: '📖 Manwhas',
     };
     return labels[entity];
   }
@@ -532,10 +651,15 @@ export class DashboardEntitiesStatsComponent implements OnInit, AfterViewInit {
     void this.loadMusicsData();
     void this.loadComicsData();
     void this.loadBdsData();
+    void this.loadMangasData();
+    void this.loadManwhasData();
   }
 
   ngAfterViewInit() {
-    requestAnimationFrame(() => this.renderMoviesCinemaChart());
+    requestAnimationFrame(() => {
+      this.renderMoviesWatchedChart();
+      this.renderMoviesCinemaChart();
+    });
     requestAnimationFrame(() => this.renderBooksReadChart());
   }
 
@@ -544,7 +668,10 @@ export class DashboardEntitiesStatsComponent implements OnInit, AfterViewInit {
     const movies = await getAllMovies(userId);
     this.moviesList.set(movies);
     if (this.selectedEntity() === 'movies') {
-      requestAnimationFrame(() => this.renderMoviesCinemaChart());
+      requestAnimationFrame(() => {
+        this.renderMoviesWatchedChart();
+        this.renderMoviesCinemaChart();
+      });
     }
   }
 
@@ -587,6 +714,18 @@ export class DashboardEntitiesStatsComponent implements OnInit, AfterViewInit {
     this.bdsList.set(bds);
   }
 
+  private async loadMangasData() {
+    const userId = this.userId() || 'guillaume';
+    const mangas = await getAllMangas(userId);
+    this.mangasList.set(mangas);
+  }
+
+  private async loadManwhasData() {
+    const userId = this.userId() || 'guillaume';
+    const manwhas = await getAllManwhas(userId);
+    this.manwhasList.set(manwhas);
+  }
+
   private getUniqueMovies(movies: Movie[]): Movie[] {
     return Array.from(
       new Set(movies.map((m) => `${m.title}|${m.director}`))
@@ -626,6 +765,18 @@ export class DashboardEntitiesStatsComponent implements OnInit, AfterViewInit {
       return null;
     }
     return year;
+  }
+
+  private renderMoviesWatchedChart(): void {
+    if (this.selectedEntity() !== 'movies') {
+      return;
+    }
+    const container = this.moviesWatchedChart?.nativeElement;
+    renderMoviesWatchedChart(
+      container,
+      this.moviesWatchedTotal(),
+      this.moviesWatchedByYear()
+    );
   }
 
   private renderMoviesCinemaChart(): void {

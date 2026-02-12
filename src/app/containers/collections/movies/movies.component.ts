@@ -50,6 +50,12 @@ import { getApiBaseUrl } from '../../../core/config';
 import { MoviesHeaderComponent } from './movies-header/movies-header.component';
 import { LoaderComponent } from '../../../components/loader/loader.component';
 import { getFullMovie } from '../../../helpers/full-entities-helper';
+import {
+  updateWatchPriority,
+  markMovieAsReWatched,
+  markMovieAsWantToReWatch,
+  addMovieToWatchlist,
+} from './movies.controller';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedMovie = Movie & {
@@ -723,7 +729,6 @@ export class MoviesComponent implements OnInit {
         (opt: { value: string; label: string }) => opt.value === parsed.sort
       )
     ) {
-      console.log('parsed.sort', parsed.sort);
       this.selectedSort.set(parsed.sort);
     }
 
@@ -772,106 +777,32 @@ export class MoviesComponent implements OnInit {
   }
 
   async addMovieToWatchlist(movie: Movie): Promise<void> {
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/movies/add-existing`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          userId: this.getActiveUserId(),
-          movies: [movie],
-          watchlist: true,
-        }),
-      });
+    const addSuccess = await addMovieToWatchlist(movie, this.getActiveUserId());
 
-      if (!response.ok) {
-        const payload = await response.json().catch(() => ({}));
-        console.warn(
-          "Échec de l'ajout batch des films :",
-          payload?.error || response.statusText
-        );
-        return;
-      }
-
-      this.router.navigate([`${this.getActiveUserId()}/movies`]);
-    } catch (error) {
-      console.warn("Erreur réseau lors de l'ajout batch des films.", error);
+    if (addSuccess) {
+      await this.refreshMovies();
     }
   }
 
   async markMovieAsWantToReWatch(movie: Movie): Promise<void> {
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/movies`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          userId: this.getActiveUserId(),
-          title: movie.title,
-          director: movie.director,
-          rating: movie.rating,
-          timesWatched: movie.timesWatched,
-          firstViewedDate: movie.firstViewedDate,
-          lastViewedDate: movie.lastViewedDate,
-          seenAtCinema: movie.seenAtCinema,
-          owned: movie.owned,
-          wantToSeeAgain: true,
-          watchPriority: movie.watchPriority ?? 0,
-        }),
-      });
+    const markSuccess = await markMovieAsWantToReWatch(
+      movie,
+      this.getActiveUserId()
+    );
 
-      if (!response.ok) {
-        const payload = await response.json().catch(() => ({}));
-        console.warn(
-          'Échec de la mise à jour du film :',
-          payload?.error || response.statusText
-        );
-        return;
-      }
-
+    if (markSuccess) {
       await this.refreshMovies();
-    } catch (error) {
-      console.warn('Erreur réseau lors de la mise à jour du film.', error);
     }
   }
 
   async markMovieAsReWatched(movie: Movie): Promise<void> {
-    try {
-      const today = new Date().toISOString().split('T')[0];
-      const response = await fetch(`${getApiBaseUrl()}/movies`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          userId: this.getActiveUserId(),
-          title: movie.title,
-          director: movie.director,
-          rating: movie.rating,
-          timesWatched: (movie.timesWatched || 0) + 1,
-          firstViewedDate: movie.firstViewedDate,
-          lastViewedDate: today,
-          seenAtCinema: movie.seenAtCinema,
-          owned: movie.owned,
-          wantToSeeAgain: false,
-          watchPriority: movie.watchPriority ?? 0,
-        }),
-      });
+    const markSuccess = await markMovieAsReWatched(
+      movie,
+      this.getActiveUserId()
+    );
 
-      if (!response.ok) {
-        const payload = await response.json().catch(() => ({}));
-        console.warn(
-          'Échec de la mise à jour du film :',
-          payload?.error || response.statusText
-        );
-        return;
-      }
-
+    if (markSuccess) {
       await this.refreshMovies();
-    } catch (error) {
-      console.warn('Erreur réseau lors de la mise à jour du film.', error);
     }
   }
 
@@ -879,42 +810,13 @@ export class MoviesComponent implements OnInit {
     movie: Movie;
     priority: number;
   }): Promise<void> {
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/movies`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          userId: this.getActiveUserId(),
-          title: data.movie.title,
-          director: data.movie.director,
-          rating: data.movie.rating,
-          timesWatched: data.movie.timesWatched,
-          firstViewedDate: data.movie.firstViewedDate,
-          lastViewedDate: data.movie.lastViewedDate,
-          seenAtCinema: data.movie.seenAtCinema,
-          owned: data.movie.owned,
-          wantToSeeAgain: data.movie.wantToSeeAgain,
-          watchPriority: data.priority,
-        }),
-      });
+    const updateSuccess = await updateWatchPriority(
+      data,
+      this.getActiveUserId()
+    );
 
-      if (!response.ok) {
-        const payload = await response.json().catch(() => ({}));
-        console.warn(
-          'Échec de la mise à jour de la priorité :',
-          payload?.error || response.statusText
-        );
-        return;
-      }
-
+    if (updateSuccess) {
       await this.refreshMovies();
-    } catch (error) {
-      console.warn(
-        'Erreur réseau lors de la mise à jour de la priorité.',
-        error
-      );
     }
   }
 }

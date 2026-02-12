@@ -42,8 +42,12 @@ import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
-import { getApiBaseUrl } from '../../../core/config';
 import { getFullComic } from '../../../helpers/full-entities-helper';
+import {
+  updateReadPriority as updateReadPriorityApi,
+  markComicAsWantToReRead as markComicAsWantToReReadApi,
+  markComicAsReRead as markComicAsReReadApi,
+} from './comics.controller';
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedComic = Comic & {
   recommendationDetails: RecommendationDetail[];
@@ -337,96 +341,23 @@ export class ComicsComponent implements OnInit {
     comic: Comic;
     priority: number;
   }): Promise<void> {
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/comics`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          userId: this.getActiveUserId(),
-          title: data.comic.title,
-          writer: data.comic.writer,
-          rating: data.comic.rating,
-          readTimes: data.comic.readTimes,
-          readDate: data.comic.readDate,
-          owned: data.comic.owned,
-          readPriority: data.priority,
-          wantToReadAgain: data.comic.wantToReadAgain ?? false,
-        }),
-      });
-
-      if (!response.ok) {
-        const payload = await response.json().catch(() => ({}));
-        console.warn(
-          'Échec de la mise à jour de la priorité :',
-          payload?.error || response.statusText
-        );
-        return;
-      }
-
+    const success = await updateReadPriorityApi(data, this.getActiveUserId());
+    if (success) {
       await this.refreshComics();
-    } catch (error) {
-      console.warn(
-        'Erreur réseau lors de la mise à jour de la priorité.',
-        error
-      );
     }
   }
 
   async markComicAsWantToReRead(comic: Comic): Promise<void> {
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/comics`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          userId: this.getActiveUserId(),
-          title: comic.title,
-          writer: comic.writer,
-          rating: comic.rating,
-          readTimes: comic.readTimes,
-          readDate: comic.readDate,
-          owned: comic.owned,
-          readPriority: comic.readPriority ?? 1,
-          wantToReadAgain: true,
-        }),
-      });
-      if (!response.ok) {
-        const payload = await response.json().catch(() => ({}));
-        console.warn('Échec marquer à relire:', payload?.error || response.statusText);
-        return;
-      }
+    const success = await markComicAsWantToReReadApi(comic, this.getActiveUserId());
+    if (success) {
       await this.refreshComics();
-    } catch (error) {
-      console.warn('Erreur réseau marquer comic à relire.', error);
     }
   }
 
   async markComicAsReRead(comic: Comic): Promise<void> {
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/comics`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          userId: this.getActiveUserId(),
-          title: comic.title,
-          writer: comic.writer,
-          rating: comic.rating,
-          readTimes: comic.readTimes,
-          readDate: comic.readDate,
-          owned: comic.owned,
-          readPriority: comic.readPriority ?? 1,
-          wantToReadAgain: false,
-        }),
-      });
-      if (!response.ok) {
-        const payload = await response.json().catch(() => ({}));
-        console.warn('Échec marquer relu:', payload?.error || response.statusText);
-        return;
-      }
+    const success = await markComicAsReReadApi(comic, this.getActiveUserId());
+    if (success) {
       await this.refreshComics();
-    } catch (error) {
-      console.warn('Erreur réseau marquer comic relu.', error);
     }
   }
 
