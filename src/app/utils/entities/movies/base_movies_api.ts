@@ -442,4 +442,26 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
   },
+
+  {
+    title: 'Nope',
+    director: 'Jordan Peele',
+    actors: [
+      {
+        name: 'Daniel Kaluuya',
+      },
+      {
+        name: 'Keke Palmer',
+      },
+      {
+        name: 'Steven Yeun',
+      },
+    ],
+    coverUrl: 'https://s3.amazonaws.com/nightjarprod/content/uploads/sites/192/2022/12/29154434/AcKVlWaNVVVFQwro3nLXqPljcYA1.jpg',
+    releaseDate: '2022-08-10',
+    length: 131,
+    genre: 'Science Fiction, Horreur',
+    saga: '',
+    description: '',
+  },
 ];

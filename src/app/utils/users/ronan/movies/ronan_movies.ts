@@ -13631,4 +13631,18 @@ export const ronanMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
+
+  {
+    title: 'Nope',
+    director: 'Jordan Peele',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2026-02-13',
+    lastViewedDate: '2026-02-13',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+  },
 ];

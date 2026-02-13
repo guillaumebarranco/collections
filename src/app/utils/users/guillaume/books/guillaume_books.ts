@@ -808,4 +808,16 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: 'sdgdfgfdgdf',
   },
+
+  {
+    title: 'Les Fiancés de l\'Hiver',
+    author: 'Christelle Dabos',
+    readDate: '2026-02-13',
+    rating: 4,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
 ];
