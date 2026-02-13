@@ -30,15 +30,15 @@
   <div entity-info>
     <h3 class="comic-title">{{ comic.title }}</h3>
     @if (comic.wantToReadAgain && !isBaseEntityView) {
-    <span class="missing-badge" style="background-color: #2196f3; color: white">À relire</span>
+    <span class="missing-badge" style="background-color: #2196f3; color: white"
+      >À relire</span
+    >
     }
     <p class="comic-designer">Dessinateur : {{ comic.designer }}</p>
     <p class="comic-writer">Scénariste : {{ comic.writer }}</p>
     @if (comic.description) {
     <p class="comic-description">{{ comic.description }}</p>
-    }
-
-    @if (comic.pages) {
+    } @if (comic.pages) {
     <p class="comic-pages">{{ comic.pages }} pages</p>
     } @if (comic.readDate.includes('-') && !isBaseEntityView) {
     <p class="comic-read-times">
@@ -47,66 +47,64 @@
     } @if (comic.readTimes && comic.readTimes > 1 && !isBaseEntityView) {
     <p class="comic-read-times">Lu {{ comic.readTimes }} fois</p>
     } @if (!isBaseEntityView) {
-    <div class="comic-rating entity-rating">
-      <span class="stars">
-        <span
-          *ngFor="let star of getRatingStars(comic.rating || 0)"
-          [class]="'star star-' + star.type"
-        ></span>
-      </span>
-      <span class="rating-text">{{ comic.rating }}/5</span>
-    </div>
-    <button
-      type="button"
-      class="makya-btn-small"
-      (click)="openReviewModal()"
-    >
-      Voir le commentaire
-    </button>
-    } @if (recommendationText) {
-    <p class="recommendation-text">{{ recommendationText }}</p>
-    } @if (recommendationBadge) {
-    <span class="missing-badge">{{ recommendationBadge }}</span>
-    } @if (isReadlistView && !isBaseEntityView) {
-    <div class="readlist-priority">
-      <div class="priority-label">Priorité :</div>
-      <div>
-        @for (priority of [1, 2, 3]; track priority) {
-        <button
-          class="makya-btn-times"
-          [class.active]="comic.readPriority === priority"
-          (click)="updateReadPriority(priority)"
-          [title]="'Priorité ' + priority"
-        >
-          {{ priority }}
-        </button>
-        }
+    <div class="rating-and-buttons">
+      <div class="comic-rating entity-rating">
+        <span class="stars">
+          <span
+            *ngFor="let star of getRatingStars(comic.rating || 0)"
+            [class]="'star star-' + star.type"
+          ></span>
+        </span>
+        <span class="rating-text">{{ comic.rating }}/5</span>
       </div>
-    </div>
-    <button class="makya-btn" (click)="addComicFromReadlist()">
-      J'ai lu ce comic
-    </button>
-    } @if (showAddToReadlistButton && !isBaseEntityView) {
-    @if(!isInReadlist) {
-    <button class="makya-btn-small" (click)="addToReadlist.emit(comic)">
-      Ajouter à ma readlist
-    </button>
-    } @else {
-    <span class="recommendation-text">Déjà dans votre readlist</span> }
-    }
-    @if (showToReReadButton && !isBaseEntityView && selectedView !== 'toReRead' && selectedView !== 'readlist') {
-      @if (!comic.wantToReadAgain) {
-    <button class="makya-btn-small" (click)="wantToReRead.emit(comic)">
-      Je veux relire ce comic
-    </button>
+      @if (comic.ratingComment) {
+      <button type="button" class="makya-btn-small" (click)="openReviewModal()">
+        Voir le commentaire
+      </button>
+      } @if (recommendationText) {
+      <p class="recommendation-text">{{ recommendationText }}</p>
+      } @if (recommendationBadge) {
+      <span class="missing-badge">{{ recommendationBadge }}</span>
+      } @if (isReadlistView && !isBaseEntityView) {
+      <div class="readlist-priority">
+        <div class="priority-label">Priorité :</div>
+        <div>
+          @for (priority of [1, 2, 3]; track priority) {
+          <button
+            class="makya-btn-times"
+            [class.active]="comic.readPriority === priority"
+            (click)="updateReadPriority(priority)"
+            [title]="'Priorité ' + priority"
+          >
+            {{ priority }}
+          </button>
+          }
+        </div>
+      </div>
+      <button class="makya-btn-small" (click)="addComicFromReadlist()">
+        J'ai lu ce comic
+      </button>
+      } @if (showAddToReadlistButton && !isBaseEntityView) { @if(!isInReadlist)
+      {
+      <button class="makya-btn-small" (click)="addToReadlist.emit(comic)">
+        Ajouter à ma readlist
+      </button>
       } @else {
-    <span class="recommendation-text">Déjà ajouté à vos comics à relire</span>
+      <span class="recommendation-text">Déjà dans votre readlist</span> } } @if
+      (showToReReadButton && !isBaseEntityView && selectedView !== 'toReRead' &&
+      selectedView !== 'readlist') { @if (!comic.wantToReadAgain) {
+      <button class="makya-btn-small" (click)="wantToReRead.emit(comic)">
+        Je veux relire ce comic
+      </button>
+      } @else {
+      <span class="recommendation-text">Déjà ajouté à vos comics à relire</span>
+      } } @if (selectedView === 'toReRead' && !isBaseEntityView &&
+      comic.wantToReadAgain) {
+      <button class="makya-btn-small" (click)="haveReRead.emit(comic)">
+        J'ai relu ce comic
+      </button>
       }
-    }
-    @if (selectedView === 'toReRead' && !isBaseEntityView && comic.wantToReadAgain) {
-    <button class="makya-btn-small" (click)="haveReRead.emit(comic)">
-      J'ai relu ce comic
-    </button>
+    </div>
     }
   </div>
 </app-entity-card>

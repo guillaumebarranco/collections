@@ -15,21 +15,21 @@
     <div class="review-modal__rating">
       <span class="review-modal__stars">
         @for (star of getStars(data.rating); track $index) {
-          <span
-            class="review-modal__star review-modal__star--{{ star }}"
-            [attr.aria-hidden]="true"
-          >
-            {{ star === 'full' ? '★' : star === 'half' ? '½' : '☆' }}
-          </span>
+        <span
+          class="review-modal__star review-modal__star--{{ star }}"
+          [attr.aria-hidden]="true"
+        >
+          {{ star === "full" ? "★" : star === "half" ? "½" : "☆" }}
+        </span>
         }
       </span>
       <span class="review-modal__rating-text">{{ data.rating }}/5</span>
     </div>
     <div class="review-modal__comment">
-      @if (data.ratingComment?.trim()) {
-        <p class="review-modal__comment-text">{{ data.ratingComment }}</p>
+      @if (data.ratingComment.trim()) {
+      <p class="review-modal__comment-text">{{ data.ratingComment }}</p>
       } @else {
-        <p class="review-modal__comment-empty">Aucun commentaire</p>
+      <p class="review-modal__comment-empty">Aucun commentaire</p>
       }
     </div>
   </div>

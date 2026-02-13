@@ -30,7 +30,9 @@
   <div entity-info>
     <h3 class="game-title">{{ game.title }}</h3>
     @if (game.wantToPlayAgain && !isBaseEntityView) {
-    <span class="missing-badge" style="background-color: #2196f3; color: white">À rejouer</span>
+    <span class="missing-badge" style="background-color: #2196f3; color: white"
+      >À rejouer</span
+    >
     }
     <p class="game-editor">{{ game.editor }}</p>
     <p class="game-platform">Plateforme: {{ game.platform }}</p>
@@ -40,79 +42,78 @@
     </p>
     @if (game.description) {
     <p class="game-description">{{ game.description }}</p>
-    }
-    @if (game.platined && !isBaseEntityView) {
+    } @if (game.platined && !isBaseEntityView) {
     <div class="platine-container">
       <span>Platiné</span>
       <img src="/platine.jpg" alt="Trophée platine" width="15" />
     </div>
     } @if (!isBaseEntityView) {
-    <p class="game-time">
-      Temps passé:
-      {{ getGameTimePlayed(game) }}h
-    </p>
-    <p class="game-finished">Terminé {{ game.timesFinished }} fois</p>
+    <div class="rating-and-buttons">
+      <p class="game-time">
+        Temps passé:
+        {{ getGameTimePlayed(game) }}h
+      </p>
+      <p class="game-finished">Terminé {{ game.timesFinished }} fois</p>
 
-    <div class="game-rating entity-rating">
-      <span class="stars">
-        <span
-          *ngFor="let star of getRatingStars(game.rating || 0)"
-          [class]="'star star-' + star.type"
-        >
-          {{ star.type === "full" ? "★" : star.type === "half" ? "☆" : "☆" }}
+      <div class="game-rating entity-rating">
+        <span class="stars">
+          <span
+            *ngFor="let star of getRatingStars(game.rating || 0)"
+            [class]="'star star-' + star.type"
+          >
+            {{ star.type === "full" ? "★" : star.type === "half" ? "☆" : "☆" }}
+          </span>
         </span>
-      </span>
-      <span class="rating-text">{{ game.rating }}/5</span>
-    </div>
-    <button
-      type="button"
-      class="makya-btn-small"
-      (click)="openReviewModal()"
-    >
-      Voir le commentaire
-    </button>
-    } @if (recommendationText) {
-    <p class="recommendation-text">{{ recommendationText }}</p>
-    } @if (recommendationBadge) {
-    <span class="missing-badge">{{ recommendationBadge }}</span>
-    } @if (isGamelistView && !isBaseEntityView) {
-    <div class="gamelist-priority">
-      <div class="priority-label">Priorité :</div>
-      <div>
-        @for (priority of [1, 2, 3]; track priority) {
-        <button
-          class="makya-btn-times"
-          [class.active]="game.gamelistPriority === priority"
-          (click)="updateGamelistPriority(priority)"
-          [title]="'Priorité ' + priority"
-        >
-          {{ priority }}
-        </button>
-        }
+        <span class="rating-text">{{ game.rating }}/5</span>
       </div>
-    </div>
-    <button class="makya-btn" (click)="addGameFromGamelist()">
-      J'ai joué à ce jeu
-    </button>
-    } @if (showAddToGamelistButton && !isBaseEntityView) { @if(!isInGamelist) {
-    <button class="makya-btn-small" (click)="addToGamelist.emit(game)">
-      Ajouter à ma gamelist
-    </button>
-    } @else {
-    <span class="recommendation-text">Déjà dans votre gamelist</span> } }
-    @if (showToRePlayButton && !isBaseEntityView && selectedView !== 'toRePlay' && selectedView !== 'gamelist') {
-      @if (!game.wantToPlayAgain) {
-    <button class="makya-btn-small" (click)="wantToRePlay.emit(game)">
-      Je veux rejouer à ce jeu
-    </button>
+      @if (game.ratingComment) {
+      <button type="button" class="makya-btn-small" (click)="openReviewModal()">
+        Voir le commentaire
+      </button>
+      } @if (recommendationText) {
+      <p class="recommendation-text">{{ recommendationText }}</p>
+      } @if (recommendationBadge) {
+      <span class="missing-badge">{{ recommendationBadge }}</span>
+      } @if (isGamelistView && !isBaseEntityView) {
+      <div class="gamelist-priority">
+        <div class="priority-label">Priorité :</div>
+        <div>
+          @for (priority of [1, 2, 3]; track priority) {
+          <button
+            class="makya-btn-times"
+            [class.active]="game.gamelistPriority === priority"
+            (click)="updateGamelistPriority(priority)"
+            [title]="'Priorité ' + priority"
+          >
+            {{ priority }}
+          </button>
+          }
+        </div>
+      </div>
+      <button class="makya-btn-small" (click)="addGameFromGamelist()">
+        J'ai joué à ce jeu
+      </button>
+      } @if (showAddToGamelistButton && !isBaseEntityView) { @if(!isInGamelist)
+      {
+      <button class="makya-btn-small" (click)="addToGamelist.emit(game)">
+        Ajouter à ma gamelist
+      </button>
       } @else {
-    <span class="recommendation-text">Déjà ajouté à vos jeux à rejouer</span>
+      <span class="recommendation-text">Déjà dans votre gamelist</span> } } @if
+      (showToRePlayButton && !isBaseEntityView && selectedView !== 'toRePlay' &&
+      selectedView !== 'gamelist') { @if (!game.wantToPlayAgain) {
+      <button class="makya-btn-small" (click)="wantToRePlay.emit(game)">
+        Je veux rejouer à ce jeu
+      </button>
+      } @else {
+      <span class="recommendation-text">Déjà ajouté à vos jeux à rejouer</span>
+      } } @if (selectedView === 'toRePlay' && !isBaseEntityView &&
+      game.wantToPlayAgain) {
+      <button class="makya-btn-small" (click)="haveRePlayed.emit(game)">
+        J'ai rejoué à ce jeu
+      </button>
       }
-    }
-    @if (selectedView === 'toRePlay' && !isBaseEntityView && game.wantToPlayAgain) {
-    <button class="makya-btn-small" (click)="haveRePlayed.emit(game)">
-      J'ai rejoué à ce jeu
-    </button>
+    </div>
     }
   </div>
 </app-entity-card>

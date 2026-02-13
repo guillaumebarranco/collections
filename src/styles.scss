@@ -246,3 +246,13 @@ ul li {
     width: fit-content;
   }
 }
+
+.rating-and-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  .makya-btn-small {
+    width: fit-content;
+  }
+}

@@ -44,97 +44,92 @@
     <p class="serie-release-date">{{ serie.releaseDate | date : "yyyy" }}</p>
     @if (serie.endDate) {
     <p class="serie-end-date">Terminé en {{ serie.endDate | date : "yyyy" }}</p>
-    }
-    @if (serie.description) {
+    } @if (serie.description) {
     <p class="serie-description">{{ serie.description }}</p>
-    }
-
-    <div class="serie-seasons-details">
-      @for (season of getSerieSeasons(); track season.seasonNumber) {
-      <div class="serie-season-row">
-        <span class="serie-season-title">Saison {{ season.seasonNumber }}</span>
-        @if (!isBaseEntityView) {
-        <span class="serie-season-stars">
-          <span class="stars">
-            <span
-              *ngFor="let star of getRatingStars(season.seasonRating || 0)"
-              [class]="'star star-' + star.type"
-            ></span>
-          </span>
-        </span>
-        } @if (!isBaseEntityView) {
-        <span class="serie-season-views">
-          <svg
-            class="serie-season-eye"
-            viewBox="0 0 24 24"
-            aria-hidden="true"
-            focusable="false"
+    } @if (!isBaseEntityView) {
+    <div class="rating-and-buttons">
+      <div class="serie-seasons-details">
+        @for (season of getSerieSeasons(); track season.seasonNumber) {
+        <div class="serie-season-row">
+          <span class="serie-season-title"
+            >Saison {{ season.seasonNumber }}</span
           >
-            <path
-              d="M12 5c5.05 0 9.27 3.11 11 7-1.73 3.89-5.95 7-11 7s-9.27-3.11-11-7c1.73-3.89 5.95-7 11-7zm0 2c-3.84 0-7.23 2.19-8.83 5 1.6 2.81 4.99 5 8.83 5s7.23-2.19 8.83-5c-1.6-2.81-4.99-5-8.83-5zm0 2.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5z"
-            />
-          </svg>
-          {{ season.seasonTimesWatched }}
-        </span>
+          @if (!isBaseEntityView) {
+          <span class="serie-season-stars">
+            <span class="stars">
+              <span
+                *ngFor="let star of getRatingStars(season.seasonRating || 0)"
+                [class]="'star star-' + star.type"
+              ></span>
+            </span>
+          </span>
+          } @if (!isBaseEntityView) {
+          <span class="serie-season-views">
+            <svg
+              class="serie-season-eye"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <path
+                d="M12 5c5.05 0 9.27 3.11 11 7-1.73 3.89-5.95 7-11 7s-9.27-3.11-11-7c1.73-3.89 5.95-7 11-7zm0 2c-3.84 0-7.23 2.19-8.83 5 1.6 2.81 4.99 5 8.83 5s7.23-2.19 8.83-5c-1.6-2.81-4.99-5-8.83-5zm0 2.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5z"
+              />
+            </svg>
+            {{ season.seasonTimesWatched }}
+          </span>
+          }
+        </div>
         }
       </div>
+
+      @if (serie.ratingComment) {
+      <button type="button" class="makya-btn-small" (click)="openReviewModal()">
+        Voir le commentaire
+      </button>
+      } @if (recommendationText) {
+      <p class="recommendation-text">{{ recommendationText }}</p>
+      } @if (recommendationBadge) {
+      <span class="missing-badge">{{ recommendationBadge }}</span>
+      } @if (isWatchlistView && !isBaseEntityView) {
+      <div class="watchlist-priority">
+        <div class="priority-label">Priorité :</div>
+        <div>
+          @for (priority of [1, 2, 3]; track priority) {
+          <button
+            class="makya-btn-times"
+            [class.active]="serie.watchPriority === priority"
+            (click)="updateWatchPriority(priority)"
+            [title]="'Priorité ' + priority"
+          >
+            {{ priority }}
+          </button>
+          }
+        </div>
+      </div>
+      <button class="makya-btn-small" (click)="addSerieFromWatchlist()">
+        J'ai vu cette série
+      </button>
+      } @if (showAddToWatchlistButton && !isBaseEntityView) {
+      @if(!isInWatchlist) {
+      <button class="makya-btn-small" (click)="addToWatchlist.emit(serie)">
+        Ajouter à ma watchlist
+      </button>
+      } @else {
+      <span class="recommendation-text">Déjà dans votre watchlist</span> } } @if
+      (showToReWatchButton && !isBaseEntityView && selectedView !== 'toReWatch'
+      && selectedView !== 'watchlist') { @if (!serie.wantToWatchAgain) {
+      <button class="makya-btn-small" (click)="wantToReWatch.emit(serie)">
+        Je veux revoir cette série
+      </button>
+      } @else {
+      <span class="recommendation-text">Déjà ajouté à vos séries à revoir</span>
+      } } @if (selectedView === 'toReWatch' && !isBaseEntityView &&
+      serie.wantToWatchAgain) {
+      <button class="makya-btn-small" (click)="haveReWatched.emit(serie)">
+        J'ai revu cette série
+      </button>
       }
     </div>
-    @if (!isBaseEntityView) {
-    <button
-      type="button"
-      class="makya-btn-small"
-      (click)="openReviewModal()"
-    >
-      Voir le commentaire
-    </button>
-    }
-    @if (recommendationText) {
-    <p class="recommendation-text">{{ recommendationText }}</p>
-    } @if (recommendationBadge) {
-    <span class="missing-badge">{{ recommendationBadge }}</span>
-    } @if (isWatchlistView && !isBaseEntityView) {
-    <div class="watchlist-priority">
-      <div class="priority-label">Priorité :</div>
-      <div>
-        @for (priority of [1, 2, 3]; track priority) {
-        <button
-          class="makya-btn-times"
-          [class.active]="serie.watchPriority === priority"
-          (click)="updateWatchPriority(priority)"
-          [title]="'Priorité ' + priority"
-        >
-          {{ priority }}
-        </button>
-        }
-      </div>
-    </div>
-    <button class="makya-btn" (click)="addSerieFromWatchlist()">
-      J'ai vu cette série
-    </button>
-    } @if (showAddToWatchlistButton && !isBaseEntityView) { @if(!isInWatchlist)
-    {
-    <button class="makya-btn-small" (click)="addToWatchlist.emit(serie)">
-      Ajouter à ma watchlist
-    </button>
-    } @else {
-    <span class="recommendation-text">Déjà dans votre watchlist</span> } } @if
-    (showToReWatchButton && !isBaseEntityView && selectedView !== 'toReWatch' &&
-    selectedView !== 'watchlist') { @if (!serie.wantToWatchAgain) {
-    <button
-      class="makya-btn-small"
-      style="margin-top: 8px"
-      (click)="wantToReWatch.emit(serie)"
-    >
-      Je veux revoir cette série
-    </button>
-    } @else {
-    <span class="recommendation-text">Déjà ajouté à vos séries à revoir</span>
-    } } @if (selectedView === 'toReWatch' && !isBaseEntityView &&
-    serie.wantToWatchAgain) {
-    <button class="makya-btn-small" (click)="haveReWatched.emit(serie)">
-      J'ai revu cette série
-    </button>
     }
   </div>
 </app-entity-card>

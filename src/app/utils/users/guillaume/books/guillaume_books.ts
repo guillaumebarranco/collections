@@ -669,7 +669,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 1,
     owned: true,
     readPriority: 1,
-    wantToReadAgain: false,
+    wantToReadAgain: true,
     ratingComment: '',
   },
   {

@@ -32,105 +32,103 @@
     @if (directorsList().length > 0) {
     <div class="movie-directors">
       @for (director of visibleDirectors(); track director) {
-        <span class="movie-director-badge">{{ director }}</span>
-      }
-      @if (directorsList().length > 2) {
-        <button
-          type="button"
-          class="makya-btn-small movie-directors-toggle"
-          (click)="toggleDirectorsExpanded()"
-        >
-          {{ directorsExpanded() ? "Voir moins" : "Voir plus" }}
-        </button>
+      <span class="movie-director-badge">{{ director }}</span>
+      } @if (directorsList().length > 2) {
+      <button
+        type="button"
+        class="makya-btn-small movie-directors-toggle"
+        (click)="toggleDirectorsExpanded()"
+      >
+        {{ directorsExpanded() ? "Voir moins" : "Voir plus" }}
+      </button>
       }
     </div>
-    }
-    @if (movie.actors && movie.actors.length > 0) {
+    } @if (movie.actors && movie.actors.length > 0) {
     <div class="movie-actors">
       @for (actor of visibleActors(); track actor.name) {
-        <span class="movie-actor-badge">{{ actor.name }}</span>
-      }
-      @if (movie.actors.length > 3) {
-        <button
-          type="button"
-          class="makya-btn-small movie-actors-toggle"
-          (click)="toggleActorsExpanded()"
-        >
-          {{ actorsExpanded() ? "Voir moins" : "Voir plus" }}
-        </button>
+      <span class="movie-actor-badge">{{ actor.name }}</span>
+      } @if (movie.actors.length > 3) {
+      <button
+        type="button"
+        class="makya-btn-small movie-actors-toggle"
+        (click)="toggleActorsExpanded()"
+      >
+        {{ actorsExpanded() ? "Voir moins" : "Voir plus" }}
+      </button>
       }
     </div>
-    }     @if (movie.length > 0) {
+    } @if (movie.length > 0) {
     <p class="movie-length">{{ movie.length }} min</p>
     }
     <p class="movie-release-date">{{ movie.releaseDate | date : "yyyy" }}</p>
     @if (movie.description) {
     <p class="movie-description">{{ movie.description }}</p>
-    }
-    @if (movie.timesWatched && movie.timesWatched > 1 && !isBaseEntityView) {
+    } @if (movie.timesWatched && movie.timesWatched > 1 && !isBaseEntityView) {
     <p class="movie-times-watched">🎬 Visionné {{ movie.timesWatched }} fois</p>
 
-    } @if (!isBaseEntityView && !recommendationView()) {
-    <div class="movie-rating entity-rating">
-      <span class="stars">
-        <span
-          *ngFor="let star of getRatingStars(movie.rating || 0)"
-          [class]="'star star-' + star.type"
-        ></span>
-      </span>
-      <span class="rating-text">{{ movie.rating }}/5</span>
+    } @if (!isBaseEntityView) {
+    <div class="rating-and-buttons">
+      @if (!recommendationView()) {
+      <div class="movie-rating entity-rating">
+        <span class="stars">
+          <span
+            *ngFor="let star of getRatingStars(movie.rating || 0)"
+            [class]="'star star-' + star.type"
+          ></span>
+        </span>
+        <span class="rating-text">{{ movie.rating }}/5</span>
+      </div>
+      @if (movie.ratingComment) {
+      <button type="button" class="makya-btn-small" (click)="openReviewModal()">
+        Voir le commentaire
+      </button>
+      } } @if (recommendationView()) {
+      <p class="recommendation-text">{{ recommendationText() }}</p>
+      } @if (isWatchList() && !isBaseEntityView) {
+      <div class="watchlist-priority">
+        <div class="priority-label">Priorité :</div>
+        <div>
+          @for (priority of [1, 2, 3]; track priority) {
+          <button
+            class="makya-btn-times"
+            [class.active]="movie.watchPriority === priority"
+            (click)="updateWatchPriority(priority)"
+            [title]="'Priorité ' + priority"
+          >
+            {{ priority }}
+          </button>
+          }
+        </div>
+      </div>
+      <button class="makya-btn-small" (click)="addMovieFromWatchlist()">
+        J'ai vu ce film
+      </button>
+      } @if (showToReWatchButton && !isBaseEntityView && selectedView !==
+      'toReWatch' && selectedView !== 'watchlist') { @if(!movie.wantToSeeAgain)
+      {
+      <button class="makya-btn-small" (click)="wantToReWatch.emit(movie)">
+        Je veux revoir ce film
+      </button>
+      } @else {
+      <span class="recommendation-text">Déjà ajouté à vos films à revoir</span>
+      } } @if (recommendationBadge) {
+      <span class="missing-badge">{{ recommendationBadge }}</span>
+      } @if (showAddToWatchlistButton && !isBaseEntityView) {
+      @if(!isInWatchlist) {
+      <button class="makya-btn-small" (click)="addToWatchlist.emit(movie)">
+        Ajouter à ma watchlist
+      </button>
+      } @else {
+      <span class="recommendation-text">Déjà dans votre watchlist</span> } } @if
+      (selectedView === 'toReWatch' && !isBaseEntityView &&
+      movie.wantToSeeAgain) {
+      <button class="makya-btn-small" (click)="hasReWatched.emit(movie)">
+        J'ai revu ce film
+      </button>
+      }
     </div>
-    <button
-      type="button"
-      class="makya-btn-small"
-      (click)="openReviewModal()"
-    >
-      Voir le commentaire
-    </button>
     } @if (isBaseEntityView) {
     <p class="movie-genre">{{ movie.genre }}</p>
-    } @if (recommendationView()) {
-    <p class="recommendation-text">{{ recommendationText() }}</p>
-    } @if (isWatchList() && !isBaseEntityView) {
-    <div class="watchlist-priority">
-      <div class="priority-label">Priorité :</div>
-      <div>
-        @for (priority of [1, 2, 3]; track priority) {
-        <button
-          class="makya-btn-times"
-          [class.active]="movie.watchPriority === priority"
-          (click)="updateWatchPriority(priority)"
-          [title]="'Priorité ' + priority"
-        >
-          {{ priority }}
-        </button>
-        }
-      </div>
-    </div>
-    <button class="makya-btn" (click)="addMovieFromWatchlist()">
-      J'ai vu ce film
-    </button>
-    } @if (showToReWatchButton && !isBaseEntityView && selectedView !==
-    'toReWatch' && selectedView !== 'watchlist') { @if(!movie.wantToSeeAgain) {
-    <button class="makya-btn-small" (click)="wantToReWatch.emit(movie)">
-      Je veux revoir ce film
-    </button>
-    } @else {
-    <span class="recommendation-text">Déjà ajouté à vos films à revoir</span> }
-    } @if (recommendationBadge) {
-    <span class="missing-badge">{{ recommendationBadge }}</span>
-    } @if (showAddToWatchlistButton && !isBaseEntityView) { @if(!isInWatchlist)
-    {
-    <button class="makya-btn-small" (click)="addToWatchlist.emit(movie)">
-      Ajouter à ma watchlist
-    </button>
-    } @else {
-    <span class="recommendation-text">Déjà dans votre watchlist</span> } } @if
-    (selectedView === 'toReWatch' && !isBaseEntityView && movie.wantToSeeAgain)
-    {
-    <button class="makya-btn-small" (click)="hasReWatched.emit(movie)">
-      J'ai revu ce film
-    </button>
     }
   </div>
 </app-entity-card>
