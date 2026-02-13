@@ -16,7 +16,7 @@
         <span class="menu-icon">{{ item.icon }}</span>
         <span class="menu-label">{{ item.label }}</span>
       </button>
-      } @if (isCompactMenu) {
+      } @if (isCompactMenu && visibleMenuItems.length > 4) {
       <div class="menu-item menu-item-group" [class.open]="isReadingMenuOpen">
         <button
           class="menu-group-toggle"
@@ -65,6 +65,13 @@
           </div>
           <button class="menu-subitem" type="button" (click)="goToDashboard()">
             <span class="menu-label">Aller sur mon dashboard</span>
+          </button>
+          <button
+            class="menu-subitem"
+            type="button"
+            (click)="openMenuConfigModal()"
+          >
+            <span class="menu-label">Configuration de mon menu</span>
           </button>
           @if (isAdmin()) {
           <button class="menu-subitem" type="button" [routerLink]="'/admin'">

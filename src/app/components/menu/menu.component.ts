@@ -7,7 +7,10 @@ import {
 } from '@angular/core';
 import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { MatDialog } from '@angular/material/dialog';
 import { AuthService } from '../../core/auth.service';
+import { MenuConfigService } from '../../core/menu-config.service';
+import { MenuConfigModalComponent } from '../menu-config-modal/menu-config-modal.component';
 
 @Component({
   selector: 'app-menu',
@@ -25,6 +28,8 @@ export class MenuComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
   router = inject(Router);
   authService = inject(AuthService);
+  menuConfig = inject(MenuConfigService);
+  private readonly dialog = inject(MatDialog);
 
   currentUser = computed(() => {
     const params: Params = this.activatedRoute.snapshot.params;
@@ -165,8 +170,11 @@ export class MenuComponent implements OnInit {
   }
 
   get visibleMenuItems() {
+    this.menuConfig.enabledKeys(); // dépendance signal pour mise à jour après config
     return this.menuItems.filter(
-      (item) => !item.hideOnMobile || !this.isMobile
+      (item) =>
+        this.menuConfig.isEnabled(item.key) &&
+        (!item.hideOnMobile || !this.isMobile)
     );
   }
 
@@ -183,6 +191,8 @@ export class MenuComponent implements OnInit {
 
   get primaryMenuItems() {
     if (!this.isCompactMenu) return this.visibleMenuItems;
+    if (this.isCompactMenu && this.visibleMenuItems.length < 5)
+      return this.visibleMenuItems;
     const readingKeys = new Set([
       'books',
       'mangas',
@@ -223,6 +233,14 @@ export class MenuComponent implements OnInit {
 
   closeUserMenu(): void {
     this.isUserMenuOpen = false;
+  }
+
+  openMenuConfigModal(): void {
+    this.closeUserMenu();
+    this.dialog.open(MenuConfigModalComponent, {
+      width: 'auto',
+      maxWidth: '95vw',
+    });
   }
 
   logout(): void {

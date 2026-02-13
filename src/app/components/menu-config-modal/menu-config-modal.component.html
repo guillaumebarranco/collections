@@ -1,0 +1,43 @@
+<div class="menu-config-modal">
+  <div class="menu-config-modal__header">
+    <h2 class="menu-config-modal__title">Configuration de mon menu</h2>
+    <button
+      type="button"
+      class="menu-config-modal__close"
+      aria-label="Fermer"
+      (click)="cancel()"
+    >
+      ✕
+    </button>
+  </div>
+  <div class="menu-config-modal__body">
+    <p class="menu-config-modal__hint">
+      Cochez les entrées que vous souhaitez afficher dans le menu. Home reste
+      toujours affiché.
+    </p>
+    <ul class="menu-config-modal__list">
+      @for (item of items; track item.key) {
+      <li class="menu-config-modal__row">
+        <label class="menu-config-modal__label">
+          <input
+            type="checkbox"
+            [checked]="isChecked(item.key)"
+            (change)="setChecked(item.key, $any($event.target).checked)"
+            class="menu-config-modal__checkbox"
+          />
+          <span class="menu-config-modal__icon">{{ item.icon }}</span>
+          <span class="menu-config-modal__text">{{ item.label }}</span>
+        </label>
+      </li>
+      }
+    </ul>
+  </div>
+  <div class="menu-config-modal__footer">
+    <button type="button" class="makya-btn-small" (click)="cancel()">
+      Annuler
+    </button>
+    <button type="button" class="makya-btn" (click)="save()">
+      Enregistrer
+    </button>
+  </div>
+</div>

@@ -1,0 +1,101 @@
+.menu-config-modal {
+  min-width: 320px;
+  max-width: 420px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-config-modal__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px 20px;
+  border-bottom: 1px solid #ecf0f1;
+  gap: 12px;
+}
+
+.menu-config-modal__title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.menu-config-modal__close {
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  line-height: 1;
+  color: #7f8c8d;
+  cursor: pointer;
+  padding: 0 4px;
+
+  &:hover {
+    color: #2c3e50;
+  }
+}
+
+.menu-config-modal__body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.menu-config-modal__hint {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+
+.menu-config-modal__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.menu-config-modal__row {
+  margin: 0;
+}
+
+.menu-config-modal__label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+  cursor: pointer;
+  font-size: 0.95rem;
+  user-select: none;
+
+  &:hover {
+    color: #2c3e50;
+  }
+}
+
+.menu-config-modal__checkbox {
+  width: 18px;
+  height: 18px;
+  accent-color: #667eea;
+  cursor: pointer;
+}
+
+.menu-config-modal__icon {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.menu-config-modal__text {
+  flex: 1;
+}
+
+.menu-config-modal__footer {
+  padding: 12px 20px 20px;
+  border-top: 1px solid #ecf0f1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
