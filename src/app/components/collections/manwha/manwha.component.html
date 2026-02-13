@@ -86,6 +86,9 @@
         }
       </div>
     </div>
+    <button class="makya-btn" (click)="addManwhaFromReadlist()">
+      J'ai lu ce manwha
+    </button>
     } @if (showAddToReadlistButton && !isBaseEntityView) { @if(!isInReadlist) {
     <button class="makya-btn-small" (click)="addToReadlist.emit(manwha)">
       Ajouter à ma readlist

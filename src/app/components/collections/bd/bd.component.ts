@@ -16,8 +16,12 @@ import { AuthService } from '../../../core/auth.service';
 import { Bd } from '../../../models/bd-model';
 import { Quizz, EntityType } from '../../../models/quizz-model';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
-import { isBaseEntityView } from '../../../core/config';
+import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
 import { BdView } from '../../../containers/collections/bds/bds.utils';
+import {
+  MoveEntityReviewModalComponent,
+  MoveEntityReviewModalResult,
+} from '../../move-entity-review-modal/move-entity-review-modal.component';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -53,6 +57,7 @@ export class BdComponent {
   @Output() readPriorityUpdated = new EventEmitter<{ bd: Bd; priority: number }>();
   @Output() wantToReRead = new EventEmitter<Bd>();
   @Output() haveReRead = new EventEmitter<Bd>();
+  @Output() bdUpdated = new EventEmitter<void>();
 
   isBaseEntityView = isBaseEntityView();
 
@@ -115,5 +120,53 @@ export class BdComponent {
       width: 'auto',
       maxWidth: '95vw',
     });
+  }
+
+  addBdFromReadlist(): void {
+    const dialogRef = this.dialog.open<
+      MoveEntityReviewModalComponent,
+      { entityTitle: string },
+      MoveEntityReviewModalResult | undefined
+    >(MoveEntityReviewModalComponent, {
+      data: { entityTitle: this.bd.title },
+      width: 'auto',
+      maxWidth: '95vw',
+    });
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result === undefined) return;
+      this.callMoveBdFromReadlistApi(result.rating, result.ratingComment);
+    });
+  }
+
+  private async callMoveBdFromReadlistApi(
+    rating: number,
+    ratingComment: string
+  ): Promise<void> {
+    try {
+      const body: Record<string, unknown> = {
+        userId: this.getActiveUserId(),
+        bds: [this.bd],
+      };
+      if (rating > 0 || ratingComment) {
+        body['rating'] = rating;
+        body['ratingComment'] = ratingComment;
+      }
+      const response = await fetch(
+        `${getApiBaseUrl()}/bds/move-bd-from-readlist-to-read`,
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(body),
+        }
+      );
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn('Échec du passage de la BD en lue :', payload?.error || response.statusText);
+        return;
+      }
+      this.bdUpdated.emit();
+    } catch (error) {
+      console.warn('Erreur réseau lors du passage de la BD en lue.', error);
+    }
   }
 }

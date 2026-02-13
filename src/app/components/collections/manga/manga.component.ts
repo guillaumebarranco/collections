@@ -16,8 +16,12 @@ import { AuthService } from '../../../core/auth.service';
 import { Manga } from '../../../models/manga-model';
 import { Quizz, EntityType } from '../../../models/quizz-model';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
-import { isBaseEntityView } from '../../../core/config';
+import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
 import { MangaView } from '../../../containers/collections/mangas/mangas.utils';
+import {
+  MoveEntityReviewModalComponent,
+  MoveEntityReviewModalResult,
+} from '../../move-entity-review-modal/move-entity-review-modal.component';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -54,6 +58,7 @@ export class MangaComponent {
   @Output() readPriorityUpdated = new EventEmitter<{ manga: Manga; priority: number }>();
   @Output() wantToReRead = new EventEmitter<Manga>();
   @Output() haveReRead = new EventEmitter<Manga>();
+  @Output() mangaUpdated = new EventEmitter<void>();
 
   isBaseEntityView = isBaseEntityView();
 
@@ -118,5 +123,53 @@ export class MangaComponent {
       width: 'auto',
       maxWidth: '95vw',
     });
+  }
+
+  addMangaFromReadlist(): void {
+    const dialogRef = this.dialog.open<
+      MoveEntityReviewModalComponent,
+      { entityTitle: string },
+      MoveEntityReviewModalResult | undefined
+    >(MoveEntityReviewModalComponent, {
+      data: { entityTitle: this.manga.title },
+      width: 'auto',
+      maxWidth: '95vw',
+    });
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result === undefined) return;
+      this.callMoveMangaFromReadlistApi(result.rating, result.ratingComment);
+    });
+  }
+
+  private async callMoveMangaFromReadlistApi(
+    rating: number,
+    ratingComment: string
+  ): Promise<void> {
+    try {
+      const body: Record<string, unknown> = {
+        userId: this.getActiveUserId(),
+        mangas: [this.manga],
+      };
+      if (rating > 0 || ratingComment) {
+        body['rating'] = rating;
+        body['ratingComment'] = ratingComment;
+      }
+      const response = await fetch(
+        `${getApiBaseUrl()}/mangas/move-manga-from-readlist-to-read`,
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(body),
+        }
+      );
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn('Échec du passage du manga en lu :', payload?.error || response.statusText);
+        return;
+      }
+      this.mangaUpdated.emit();
+    } catch (error) {
+      console.warn('Erreur réseau lors du passage du manga en lu.', error);
+    }
   }
 }

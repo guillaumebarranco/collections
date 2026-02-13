@@ -350,6 +350,10 @@ export class MangasComponent implements OnInit {
     });
   }
 
+  onMangaUpdated(): void {
+    void this.refreshMangas();
+  }
+
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? 'guillaume';

@@ -885,7 +885,7 @@ export const baseBooks: BaseBook[] = [
     title: 'Faust',
     author: 'Johann Wolfgang von Goethe',
     coverUrl: '/books_pictures/Faust.jpg',
-    pages: 503,
+    pages: 180,
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,

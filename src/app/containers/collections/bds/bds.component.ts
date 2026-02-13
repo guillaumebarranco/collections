@@ -348,6 +348,10 @@ export class BdsComponent implements OnInit {
     });
   }
 
+  onBdUpdated(): void {
+    void this.refreshBds();
+  }
+
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? 'guillaume';

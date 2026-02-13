@@ -337,6 +337,10 @@ export class ComicsComponent implements OnInit {
     });
   }
 
+  onComicUpdated(): void {
+    void this.refreshComics();
+  }
+
   async updateReadPriority(data: {
     comic: Comic;
     priority: number;

@@ -16,8 +16,12 @@ import { AuthService } from '../../../core/auth.service';
 import { Manwha } from '../../../models/manwha-model';
 import { Quizz, EntityType } from '../../../models/quizz-model';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
-import { isBaseEntityView } from '../../../core/config';
+import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
 import { ManwhaView } from '../../../containers/collections/manwhas/manwhas.utils';
+import {
+  MoveEntityReviewModalComponent,
+  MoveEntityReviewModalResult,
+} from '../../move-entity-review-modal/move-entity-review-modal.component';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -54,6 +58,7 @@ export class ManwhaComponent {
   @Output() readPriorityUpdated = new EventEmitter<{ manwha: Manwha; priority: number }>();
   @Output() wantToReRead = new EventEmitter<Manwha>();
   @Output() haveReRead = new EventEmitter<Manwha>();
+  @Output() manwhaUpdated = new EventEmitter<void>();
 
   isBaseEntityView = isBaseEntityView();
 
@@ -118,5 +123,53 @@ export class ManwhaComponent {
       width: 'auto',
       maxWidth: '95vw',
     });
+  }
+
+  addManwhaFromReadlist(): void {
+    const dialogRef = this.dialog.open<
+      MoveEntityReviewModalComponent,
+      { entityTitle: string },
+      MoveEntityReviewModalResult | undefined
+    >(MoveEntityReviewModalComponent, {
+      data: { entityTitle: this.manwha.title },
+      width: 'auto',
+      maxWidth: '95vw',
+    });
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result === undefined) return;
+      this.callMoveManwhaFromReadlistApi(result.rating, result.ratingComment);
+    });
+  }
+
+  private async callMoveManwhaFromReadlistApi(
+    rating: number,
+    ratingComment: string
+  ): Promise<void> {
+    try {
+      const body: Record<string, unknown> = {
+        userId: this.getActiveUserId(),
+        manwhas: [this.manwha],
+      };
+      if (rating > 0 || ratingComment) {
+        body['rating'] = rating;
+        body['ratingComment'] = ratingComment;
+      }
+      const response = await fetch(
+        `${getApiBaseUrl()}/manwhas/move-manwha-from-readlist-to-read`,
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(body),
+        }
+      );
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn('Échec du passage du manwha en lu :', payload?.error || response.statusText);
+        return;
+      }
+      this.manwhaUpdated.emit();
+    } catch (error) {
+      console.warn('Erreur réseau lors du passage du manwha en lu.', error);
+    }
   }
 }

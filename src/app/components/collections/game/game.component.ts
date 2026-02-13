@@ -18,8 +18,12 @@ import { EntityCardComponent } from '../../entity-card/entity-card.component';
 import { AuthService } from '../../../core/auth.service';
 import { getGameTimePlayed } from '../../../utils/games.utils';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
-import { isBaseEntityView } from '../../../core/config';
+import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
 import { GameView } from '../../../containers/collections/games/games.utils';
+import {
+  MoveEntityReviewModalComponent,
+  MoveEntityReviewModalResult,
+} from '../../move-entity-review-modal/move-entity-review-modal.component';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -158,5 +162,53 @@ export class GameComponent {
 
   updateGamelistPriority(priority: number): void {
     this.gamelistPriorityUpdated.emit({ game: this.game, priority });
+  }
+
+  addGameFromGamelist(): void {
+    const dialogRef = this.dialog.open<
+      MoveEntityReviewModalComponent,
+      { entityTitle: string },
+      MoveEntityReviewModalResult | undefined
+    >(MoveEntityReviewModalComponent, {
+      data: { entityTitle: this.game.title },
+      width: 'auto',
+      maxWidth: '95vw',
+    });
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result === undefined) return;
+      this.callMoveGameFromGamelistApi(result.rating, result.ratingComment);
+    });
+  }
+
+  private async callMoveGameFromGamelistApi(
+    rating: number,
+    ratingComment: string
+  ): Promise<void> {
+    try {
+      const body: Record<string, unknown> = {
+        userId: this.getActiveUserId(),
+        games: [this.game],
+      };
+      if (rating > 0 || ratingComment) {
+        body['rating'] = rating;
+        body['ratingComment'] = ratingComment;
+      }
+      const response = await fetch(
+        `${getApiBaseUrl()}/games/move-game-from-gamelist-to-played`,
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(body),
+        }
+      );
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn('Échec du passage du jeu en joué :', payload?.error || response.statusText);
+        return;
+      }
+      this.gameUpdated.emit();
+    } catch (error) {
+      console.warn('Erreur réseau lors du passage du jeu en joué.', error);
+    }
   }
 }

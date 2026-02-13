@@ -8,6 +8,7 @@ const batchTimesReadRouter = require('./batch-times-read');
 const batchOwnedRouter = require('./batch-owned');
 const addComicRouter = require('./add-comic');
 const addExistingRouter = require('./add-existing');
+const moveComicFromReadlistRouter = require('./move-comic-from-readlist-to-read');
 const deleteComicRouter = require('./delete-comic');
 const othersRatedRouter = require('./get-others-users-comics-rated');
 
@@ -23,6 +24,7 @@ router.use(batchTimesReadRouter);
 router.use(batchOwnedRouter);
 router.use(addComicRouter);
 router.use(addExistingRouter);
+router.use(moveComicFromReadlistRouter);
 router.use(deleteComicRouter);
 
 module.exports = router;

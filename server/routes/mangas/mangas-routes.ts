@@ -8,6 +8,7 @@ const batchTimesReadRouter = require('./batch-times-read');
 const batchOwnedRouter = require('./batch-owned');
 const addMangaRouter = require('./add-manga');
 const addExistingRouter = require('./add-existing');
+const moveMangaFromReadlistRouter = require('./move-manga-from-readlist-to-read');
 const deleteMangaRouter = require('./delete-manga');
 const othersRatedRouter = require('./get-others-users-mangas-rated');
 
@@ -23,6 +24,7 @@ router.use(batchTimesReadRouter);
 router.use(batchOwnedRouter);
 router.use(addMangaRouter);
 router.use(addExistingRouter);
+router.use(moveMangaFromReadlistRouter);
 router.use(deleteMangaRouter);
 
 module.exports = router;

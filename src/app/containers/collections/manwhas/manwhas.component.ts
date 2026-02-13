@@ -333,6 +333,10 @@ export class ManwhasComponent implements OnInit {
     });
   }
 
+  onManwhaUpdated(): void {
+    void this.refreshManwhas();
+  }
+
   private async refreshManwhas() {
     if (this.isAdminView()) {
       const baseManwhas = await getAllBaseManwhas();

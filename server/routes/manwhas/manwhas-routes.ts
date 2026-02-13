@@ -8,6 +8,7 @@ const batchTimesReadRouter = require('./batch-times-read');
 const batchOwnedRouter = require('./batch-owned');
 const addManwhaRouter = require('./add-manwha');
 const addExistingRouter = require('./add-existing');
+const moveManwhaFromReadlistRouter = require('./move-manwha-from-readlist-to-read');
 const deleteManwhaRouter = require('./delete-manwha');
 const othersRatedRouter = require('./get-others-users-manwhas-rated');
 
@@ -23,6 +24,7 @@ router.use(batchTimesReadRouter);
 router.use(batchOwnedRouter);
 router.use(addManwhaRouter);
 router.use(addExistingRouter);
+router.use(moveManwhaFromReadlistRouter);
 router.use(deleteManwhaRouter);
 
 module.exports = router;

@@ -16,8 +16,12 @@ import { AuthService } from '../../../core/auth.service';
 import { Comic } from '../../../models/comic-model';
 import { Quizz, EntityType } from '../../../models/quizz-model';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
-import { isBaseEntityView } from '../../../core/config';
+import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
 import { ComicView } from '../../../containers/collections/comics/comics.utils';
+import {
+  MoveEntityReviewModalComponent,
+  MoveEntityReviewModalResult,
+} from '../../move-entity-review-modal/move-entity-review-modal.component';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -54,6 +58,7 @@ export class ComicComponent {
   @Output() readPriorityUpdated = new EventEmitter<{ comic: Comic; priority: number }>();
   @Output() wantToReRead = new EventEmitter<Comic>();
   @Output() haveReRead = new EventEmitter<Comic>();
+  @Output() comicUpdated = new EventEmitter<void>();
 
   isBaseEntityView = isBaseEntityView();
 
@@ -118,5 +123,53 @@ export class ComicComponent {
       width: 'auto',
       maxWidth: '95vw',
     });
+  }
+
+  addComicFromReadlist(): void {
+    const dialogRef = this.dialog.open<
+      MoveEntityReviewModalComponent,
+      { entityTitle: string },
+      MoveEntityReviewModalResult | undefined
+    >(MoveEntityReviewModalComponent, {
+      data: { entityTitle: this.comic.title },
+      width: 'auto',
+      maxWidth: '95vw',
+    });
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result === undefined) return;
+      this.callMoveComicFromReadlistApi(result.rating, result.ratingComment);
+    });
+  }
+
+  private async callMoveComicFromReadlistApi(
+    rating: number,
+    ratingComment: string
+  ): Promise<void> {
+    try {
+      const body: Record<string, unknown> = {
+        userId: this.getActiveUserId(),
+        comics: [this.comic],
+      };
+      if (rating > 0 || ratingComment) {
+        body['rating'] = rating;
+        body['ratingComment'] = ratingComment;
+      }
+      const response = await fetch(
+        `${getApiBaseUrl()}/comics/move-comic-from-readlist-to-read`,
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(body),
+        }
+      );
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        console.warn('Échec du passage du comic en lu :', payload?.error || response.statusText);
+        return;
+      }
+      this.comicUpdated.emit();
+    } catch (error) {
+      console.warn('Erreur réseau lors du passage du comic en lu.', error);
+    }
   }
 }

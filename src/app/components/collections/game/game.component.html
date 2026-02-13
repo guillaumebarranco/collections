@@ -91,6 +91,9 @@
         }
       </div>
     </div>
+    <button class="makya-btn" (click)="addGameFromGamelist()">
+      J'ai joué à ce jeu
+    </button>
     } @if (showAddToGamelistButton && !isBaseEntityView) { @if(!isInGamelist) {
     <button class="makya-btn-small" (click)="addToGamelist.emit(game)">
       Ajouter à ma gamelist

@@ -11,6 +11,7 @@ const batchTimesFinished = require('./batch-times-finished');
 const batchOwned = require('./batch-owned');
 const addGame = require('./add-game');
 const addExisting = require('./add-existing');
+const moveGameFromGamelistRouter = require('./move-game-from-gamelist-to-played');
 const deleteGame = require('./delete-game');
 const othersRatedRouter = require('./get-others-users-games-rated');
 
@@ -24,6 +25,7 @@ router.use('/', batchTimesFinished);
 router.use('/', batchOwned);
 router.use('/', addGame);
 router.use('/', addExisting);
+router.use('/', moveGameFromGamelistRouter);
 router.use('/', deleteGame);
 
 module.exports = router;
