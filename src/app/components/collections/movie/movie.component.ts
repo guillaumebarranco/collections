@@ -16,6 +16,10 @@ import { Quizz, EntityType } from '../../../models/quizz-model';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditMovieComponent } from '../../../containers/edit/edit-movie/edit-movie.component';
 import { ReviewModalComponent } from '../../review-modal/review-modal.component';
+import {
+  MoveEntityReviewModalComponent,
+  MoveEntityReviewModalResult,
+} from '../../move-entity-review-modal/move-entity-review-modal.component';
 import { EntityCardComponent } from '../../entity-card/entity-card.component';
 import { AuthService } from '../../../core/auth.service';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
@@ -179,8 +183,37 @@ export class MovieComponent {
     this.watchPriorityUpdated.emit({ movie: this.movie, priority });
   }
 
-  async addMovieFromWatchlist(): Promise<void> {
+  addMovieFromWatchlist(): void {
+    const dialogRef = this.dialog.open<
+      MoveEntityReviewModalComponent,
+      { entityTitle: string },
+      MoveEntityReviewModalResult | undefined
+    >(MoveEntityReviewModalComponent, {
+      data: { entityTitle: this.movie.title },
+      width: 'auto',
+      maxWidth: '95vw',
+    });
+
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result === undefined) return;
+      this.callMoveMovieFromWatchlistApi(result.rating, result.ratingComment);
+    });
+  }
+
+  private async callMoveMovieFromWatchlistApi(
+    rating: number,
+    ratingComment: string
+  ): Promise<void> {
     try {
+      const body: Record<string, unknown> = {
+        userId: this.getActiveUserId(),
+        movies: [this.movie],
+        watchlist: false,
+      };
+      if (rating > 0 || ratingComment) {
+        body['rating'] = rating;
+        body['ratingComment'] = ratingComment;
+      }
       const response = await fetch(
         `${getApiBaseUrl()}/movies/move-movie-from-watchlist-to-watched`,
         {
@@ -188,11 +221,7 @@ export class MovieComponent {
           headers: {
             'Content-Type': 'application/json',
           },
-          body: JSON.stringify({
-            userId: this.getActiveUserId(),
-            movies: [this.movie],
-            watchlist: false,
-          }),
+          body: JSON.stringify(body),
         }
       );
 

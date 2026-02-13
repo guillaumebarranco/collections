@@ -1,0 +1,142 @@
+.move-entity-review-modal {
+  min-width: 280px;
+  max-width: 420px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.move-entity-review-modal__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px 20px;
+  border-bottom: 1px solid #ecf0f1;
+  gap: 12px;
+}
+
+.move-entity-review-modal__title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.move-entity-review-modal__close {
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  line-height: 1;
+  color: #7f8c8d;
+  cursor: pointer;
+  padding: 0 4px;
+
+  &:hover {
+    color: #2c3e50;
+  }
+}
+
+.move-entity-review-modal__body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.move-entity-review-modal__entity-title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.move-entity-review-modal__hint {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+
+.move-entity-review-modal__label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #2c3e50;
+  margin-bottom: 6px;
+}
+
+.move-entity-review-modal__rating {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.move-entity-review-modal__stars-row {
+  display: flex;
+  gap: 2px;
+}
+
+.move-entity-review-modal__star {
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  line-height: 1;
+  padding: 0 2px;
+  cursor: pointer;
+  color: #bdc3c7;
+
+  &:hover {
+    color: #f1c40f;
+    opacity: 0.9;
+  }
+
+  &--full {
+    color: #f1c40f;
+  }
+
+  &--half {
+    color: #f1c40f;
+    opacity: 0.8;
+  }
+}
+
+.move-entity-review-modal__rating-input {
+  width: 56px;
+  padding: 4px 8px;
+  font-size: 0.95rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.move-entity-review-modal__rating-text {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+
+.move-entity-review-modal__comment {
+  margin-top: 0;
+}
+
+.move-entity-review-modal__textarea {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 0.95rem;
+  font-family: inherit;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+  min-height: 80px;
+  box-sizing: border-box;
+
+  &::placeholder {
+    color: #95a5a6;
+  }
+}
+
+.move-entity-review-modal__footer {
+  padding: 12px 20px 20px;
+  border-top: 1px solid #ecf0f1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}

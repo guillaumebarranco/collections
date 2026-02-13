@@ -48,8 +48,13 @@ function ensureUserExists(userId: string) {
   execFileSync('node', args, { stdio: 'ignore' });
 }
 
+/** Échappe une chaîne pour l’injection dans un fichier .ts (chaîne entre simples quotes). */
 function escapeString(value: string) {
-  return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+  return value
+    .replace(/\\/g, '\\\\')
+    .replace(/'/g, "\\'")
+    .replace(/\r/g, '\\r')
+    .replace(/\n/g, '\\n');
 }
 
 function getTodayISO(): string {
@@ -60,13 +65,15 @@ function getTodayISO(): string {
   return `${year}-${month}-${day}`;
 }
 
-function formatUserMovie(movie: any) {
+function formatUserMovie(movie: any, options?: { rating?: number; ratingComment?: string }) {
   const viewedDate = getTodayISO();
+  const rating = options?.rating != null ? Number(options.rating) : 0;
+  const ratingComment = typeof options?.ratingComment === 'string' ? options.ratingComment : '';
   return `  {\n    title: '${escapeString(
     movie.title
   )}',\n    director: '${escapeString(
     movie.director
-  )}',\n    rating: 0,\n    timesWatched: 1,\n    firstViewedDate: '${viewedDate}',\n    lastViewedDate: '${viewedDate}',\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: '',\n  },`;
+  )}',\n    rating: ${rating},\n    timesWatched: 1,\n    firstViewedDate: '${viewedDate}',\n    lastViewedDate: '${viewedDate}',\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: '${escapeString(ratingComment)}',\n  },`;
 }
 
 function formatWatchlistMovie(movie: any) {
@@ -127,6 +134,8 @@ router.post('/move-movie-from-watchlist-to-watched', (req: any, res: any) => {
 
     const movies = Array.isArray(input.movies) ? input.movies : [];
     const isWatchlist = normalizeBoolean(input.watchlist, 'watchlist') ?? false;
+    const rating = input.rating != null ? Number(input.rating) : undefined;
+    const ratingComment = typeof input.ratingComment === 'string' ? input.ratingComment : undefined;
     const normalizedMovies = movies
       .map((movie: any) => ({
         title: normalizeString(movie.title, 'title'),
@@ -164,8 +173,12 @@ router.post('/move-movie-from-watchlist-to-watched', (req: any, res: any) => {
     const userFile = getUserMoviesTargetFile(userId, isWatchlist);
     let nextContent = fs.readFileSync(userFile, 'utf8');
     const formatMovie = isWatchlist ? formatWatchlistMovie : formatUserMovie;
+    const reviewOptions = (rating != null || ratingComment != null) ? { rating, ratingComment } : undefined;
     for (const movie of toAdd) {
-      nextContent = appendObjectToArrayFile(userFile, formatMovie(movie));
+      nextContent = appendObjectToArrayFile(
+        userFile,
+        isWatchlist ? formatMovie(movie) : formatUserMovie(movie, reviewOptions)
+      );
       fs.writeFileSync(userFile, nextContent, 'utf8');
     }
 

@@ -551,7 +551,6 @@ function updateSerieInFile(content: string, payload: any) {
             'wantToWatchAgain',
             payload.wantToWatchAgain
           );
-          updated = upsertField(updated, 'rating', payload.rating ?? 0);
           updated = upsertField(updated, 'ratingComment', payload.ratingComment ?? '');
 
           return (
@@ -748,7 +747,6 @@ ${seasonsText}
     owned: ${serie.owned ?? false},
     watchPriority: ${serie.watchPriority ?? 1},
     wantToWatchAgain: ${serie.wantToWatchAgain ?? false},
-    rating: ${serie.rating ?? 0},
     ratingComment: '${escapeString(serie.ratingComment || '')}',
   }`;
     })

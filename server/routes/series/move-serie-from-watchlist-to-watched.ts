@@ -49,8 +49,13 @@ function ensureUserExists(userId: string) {
   execFileSync('node', args, { stdio: 'ignore' });
 }
 
+/** Échappe une chaîne pour l’injection dans un fichier .ts (chaîne entre simples quotes). */
 function escapeString(value: string) {
-  return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+  return value
+    .replace(/\\/g, '\\\\')
+    .replace(/'/g, "\\'")
+    .replace(/\r/g, '\\r')
+    .replace(/\n/g, '\\n');
 }
 
 function getTodayISO(): string {
@@ -84,8 +89,9 @@ function formatSeasons(seasons: any[]) {
   return `    seasons: [\n${lines.join(',\n')}\n    ],`;
 }
 
-function formatUserSerie(serie: any) {
+function formatUserSerie(serie: any, options?: { ratingComment?: string }) {
   const seasons = buildWatchedSeasons(serie.seasonsCount);
+  const ratingComment = typeof options?.ratingComment === 'string' ? options.ratingComment : '';
   return `  {
     title: '${escapeString(serie.title)}',
     director: '${escapeString(serie.director)}',
@@ -93,7 +99,7 @@ ${formatSeasons(seasons)}
     owned: false,
     watchPriority: ${serie.watchPriority ?? 1},
     wantToWatchAgain: false,
-    ratingComment: '',
+    ratingComment: '${escapeString(ratingComment)}',
   },`;
 }
 
@@ -148,6 +154,7 @@ router.post('/move-serie-from-watchlist-to-watched', (req: any, res: any) => {
 
     const series = Array.isArray(input.series) ? input.series : [];
     const isWatchlist = normalizeBoolean(input.watchlist, 'watchlist') ?? false;
+    const ratingComment = typeof input.ratingComment === 'string' ? input.ratingComment : undefined;
     const normalizedSeries = series
       .map((serie: any) => ({
         title: normalizeString(serie.title, 'title'),
@@ -194,8 +201,9 @@ router.post('/move-serie-from-watchlist-to-watched', (req: any, res: any) => {
 
     const userFile = getUserSeriesTargetFile(userId, isWatchlist);
     let nextContent = fs.readFileSync(userFile, 'utf8');
+    const reviewOptions = ratingComment != null ? { ratingComment } : undefined;
     for (const serie of toAdd) {
-      nextContent = appendObjectToArrayFile(userFile, formatUserSerie(serie));
+      nextContent = appendObjectToArrayFile(userFile, formatUserSerie(serie, reviewOptions));
       fs.writeFileSync(userFile, nextContent, 'utf8');
     }
 

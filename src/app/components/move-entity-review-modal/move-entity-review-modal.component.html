@@ -1,0 +1,66 @@
+<div class="move-entity-review-modal">
+  <div class="move-entity-review-modal__header">
+    <h2 class="move-entity-review-modal__title">Note et commentaire</h2>
+    <button
+      type="button"
+      class="move-entity-review-modal__close"
+      aria-label="Fermer"
+      (click)="cancel()"
+    >
+      ✕
+    </button>
+  </div>
+  <div class="move-entity-review-modal__body">
+    <p class="move-entity-review-modal__entity-title">{{ data.entityTitle }}</p>
+    <p class="move-entity-review-modal__hint">Optionnel : ajoutez une note et/ou un commentaire.</p>
+
+    <div class="move-entity-review-modal__rating">
+      <label class="move-entity-review-modal__label" for="move-review-rating">Note (0 à 5)</label>
+      <div class="move-entity-review-modal__stars-row">
+        @for (star of stars(); track $index) {
+          <button
+            type="button"
+            class="move-entity-review-modal__star move-entity-review-modal__star--{{ star }}"
+            [attr.aria-label]="'Note ' + ($index + 1) + ' sur 5'"
+            (click)="setRating($index + 1)"
+          >
+            {{ star === 'full' ? '★' : star === 'half' ? '½' : '☆' }}
+          </button>
+        }
+      </div>
+      <input
+        id="move-review-rating"
+        type="number"
+        min="0"
+        max="5"
+        step="0.5"
+        [value]="rating()"
+        (input)="onRatingInput($event)"
+        class="move-entity-review-modal__rating-input"
+        aria-label="Note numérique"
+      />
+      <span class="move-entity-review-modal__rating-text">{{ rating() }}/5</span>
+    </div>
+
+    <div class="move-entity-review-modal__comment">
+      <label class="move-entity-review-modal__label" for="move-review-comment">Commentaire</label>
+      <textarea
+        id="move-review-comment"
+        class="move-entity-review-modal__textarea"
+        rows="4"
+        placeholder="Votre avis (optionnel)"
+        [value]="ratingComment()"
+        (input)="onCommentInput($event)"
+        aria-label="Commentaire optionnel"
+      ></textarea>
+    </div>
+  </div>
+  <div class="move-entity-review-modal__footer">
+    <button type="button" class="makya-btn-small" (click)="cancel()">
+      Annuler
+    </button>
+    <button type="button" class="makya-btn" (click)="confirm()">
+      {{ confirmLabel() }}
+    </button>
+  </div>
+</div>

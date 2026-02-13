@@ -232,8 +232,13 @@ function parseBaseBooksFullFromFile(content: string): any[] {
   return books;
 }
 
+/** Échappe une chaîne pour l'injection dans un fichier .ts (chaîne entre simples quotes). */
 function escapeString(value: string): string {
-  return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+  return value
+    .replace(/\\/g, '\\\\')
+    .replace(/'/g, "\\'")
+    .replace(/\r/g, '\\r')
+    .replace(/\n/g, '\\n');
 }
 
 function appendObjectToArrayFile(filePath: string, objectText: string) {
@@ -576,6 +581,7 @@ function removeBookFromFile(content: string, payload: any) {
     owned: ${book.owned ?? false},
     readPriority: ${book.readPriority ?? 1},
     wantToReadAgain: ${book.wantToReadAgain ?? false},
+    ratingComment: '${escapeString(book.ratingComment ?? '')}',
   }`
     )
     .join(',\n');

@@ -18,6 +18,10 @@ import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
 import { BookView } from '../../../containers/collections/books/books.utils';
 import { Book } from '../../../models/book-model';
 import { ReviewModalComponent } from '../../review-modal/review-modal.component';
+import {
+  MoveEntityReviewModalComponent,
+  MoveEntityReviewModalResult,
+} from '../../move-entity-review-modal/move-entity-review-modal.component';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -124,8 +128,37 @@ export class BookComponent {
     });
   }
 
-  async addBookFromReadlist(): Promise<void> {
+  addBookFromReadlist(): void {
+    const dialogRef = this.dialog.open<
+      MoveEntityReviewModalComponent,
+      { entityTitle: string },
+      MoveEntityReviewModalResult | undefined
+    >(MoveEntityReviewModalComponent, {
+      data: { entityTitle: this.book.title },
+      width: 'auto',
+      maxWidth: '95vw',
+    });
+
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result === undefined) return;
+      this.callMoveBookFromReadlistApi(result.rating, result.ratingComment);
+    });
+  }
+
+  private async callMoveBookFromReadlistApi(
+    rating: number,
+    ratingComment: string
+  ): Promise<void> {
     try {
+      const body: Record<string, unknown> = {
+        userId: this.getActiveUserId(),
+        books: [this.book],
+        readlist: false,
+      };
+      if (rating > 0 || ratingComment) {
+        body['rating'] = rating;
+        body['ratingComment'] = ratingComment;
+      }
       const response = await fetch(
         `${getApiBaseUrl()}/books/move-book-from-readlist-to-read`,
         {
@@ -133,11 +166,7 @@ export class BookComponent {
           headers: {
             'Content-Type': 'application/json',
           },
-          body: JSON.stringify({
-            userId: this.getActiveUserId(),
-            books: [this.book],
-            readlist: false,
-          }),
+          body: JSON.stringify(body),
         }
       );
 
@@ -150,7 +179,6 @@ export class BookComponent {
         return;
       }
 
-      // Émettre un événement pour rafraîchir la liste
       this.bookUpdated.emit();
     } catch (error) {
       console.warn("Erreur réseau lors de l'ajout batch des livres.", error);

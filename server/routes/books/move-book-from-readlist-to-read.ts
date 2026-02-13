@@ -48,23 +48,25 @@ function ensureUserExists(userId: string) {
   execFileSync('node', args, { stdio: 'ignore' });
 }
 
-function formatUserBook(book: any) {
+function formatUserBook(book: any, options?: { rating?: number; ratingComment?: string }) {
   const today = new Date();
   const year = today.getFullYear();
   const month = String(today.getMonth() + 1).padStart(2, '0');
   const day = String(today.getDate()).padStart(2, '0');
   const readDate = `${year}-${month}-${day}`;
+  const rating = options?.rating != null ? Number(options.rating) : 0;
+  const ratingComment = typeof options?.ratingComment === 'string' ? options.ratingComment : '';
 
   return `  {
     title: '${escapeString(book.title)}',
     author: '${escapeString(book.author)}',
     readDate: '${readDate}',
-    rating: 0,
+    rating: ${rating},
     readTimes: 1,
     owned: false,
     readPriority: ${book.readPriority ?? 1},
     wantToReadAgain: ${book.wantToReadAgain ?? false},
-    ratingComment: '',
+    ratingComment: '${escapeString(ratingComment)}',
   },`;
 }
 
@@ -82,8 +84,13 @@ function formatReadlistBook(book: any) {
   },`;
 }
 
+/** Échappe une chaîne pour l’injection dans un fichier .ts (chaîne entre simples quotes). */
 function escapeString(value: string) {
-  return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+  return value
+    .replace(/\\/g, '\\\\')
+    .replace(/'/g, "\\'")
+    .replace(/\r/g, '\\r')
+    .replace(/\n/g, '\\n');
 }
 
 function getUserBooksTargetFile(userId: string, isReadlist: boolean) {
@@ -136,10 +143,14 @@ router.post('/move-book-from-readlist-to-read', (req: any, res: any) => {
 
     const books = Array.isArray(input.books) ? input.books : [];
     const isReadlist = normalizeBoolean(input.readlist, 'readlist') ?? false;
+    const rating = input.rating != null ? Number(input.rating) : undefined;
+    const ratingComment = typeof input.ratingComment === 'string' ? input.ratingComment : undefined;
     const normalizedBooks = books
       .map((book: any) => ({
         title: normalizeString(book.title, 'title'),
         author: normalizeString(book.author, 'author'),
+        readPriority: book.readPriority,
+        wantToReadAgain: book.wantToReadAgain,
       }))
       .filter((book: any) => book.title && book.author);
 
@@ -172,9 +183,12 @@ router.post('/move-book-from-readlist-to-read', (req: any, res: any) => {
 
     const userFile = getUserBooksTargetFile(userId, isReadlist);
     let nextContent = fs.readFileSync(userFile, 'utf8');
-    const formatBook = isReadlist ? formatReadlistBook : formatUserBook;
+    const reviewOptions = (rating != null || ratingComment != null) ? { rating, ratingComment } : undefined;
     for (const book of toAdd) {
-      nextContent = appendObjectToArrayFile(userFile, formatBook(book));
+      nextContent = appendObjectToArrayFile(
+        userFile,
+        isReadlist ? formatReadlistBook(book) : formatUserBook(book, reviewOptions)
+      );
       fs.writeFileSync(userFile, nextContent, 'utf8');
     }
 

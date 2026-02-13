@@ -13,6 +13,10 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { Serie } from '../../../models/serie-model';
 import { ReviewModalComponent } from '../../review-modal/review-modal.component';
+import {
+  MoveEntityReviewModalComponent,
+  MoveEntityReviewModalResult,
+} from '../../move-entity-review-modal/move-entity-review-modal.component';
 import { Quizz, EntityType } from '../../../models/quizz-model';
 import { SerieView } from '../../../containers/collections/series/series.utils';
 import { EditSerieComponent } from '../../../containers/edit/edit-serie/edit-serie.component';
@@ -186,8 +190,36 @@ export class SerieComponent {
     this.watchPriorityUpdated.emit({ serie: this.serie, priority });
   }
 
-  async addSerieFromWatchlist(): Promise<void> {
+  addSerieFromWatchlist(): void {
+    const dialogRef = this.dialog.open<
+      MoveEntityReviewModalComponent,
+      { entityTitle: string },
+      MoveEntityReviewModalResult | undefined
+    >(MoveEntityReviewModalComponent, {
+      data: { entityTitle: this.serie.title },
+      width: 'auto',
+      maxWidth: '95vw',
+    });
+
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result === undefined) return;
+      this.callMoveSerieFromWatchlistApi(result.rating, result.ratingComment);
+    });
+  }
+
+  private async callMoveSerieFromWatchlistApi(
+    rating: number,
+    ratingComment: string
+  ): Promise<void> {
     try {
+      const body: Record<string, unknown> = {
+        userId: this.getActiveUserId(),
+        series: [this.serie],
+        watchlist: false,
+      };
+      if (ratingComment) {
+        body['ratingComment'] = ratingComment;
+      }
       const response = await fetch(
         `${getApiBaseUrl()}/series/move-serie-from-watchlist-to-watched`,
         {
@@ -195,11 +227,7 @@ export class SerieComponent {
           headers: {
             'Content-Type': 'application/json',
           },
-          body: JSON.stringify({
-            userId: this.getActiveUserId(),
-            series: [this.serie],
-            watchlist: false,
-          }),
+          body: JSON.stringify(body),
         }
       );
 
