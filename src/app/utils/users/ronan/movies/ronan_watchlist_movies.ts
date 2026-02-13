@@ -14,7 +14,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Shaolin Soccer',
     director: 'Stephen Chow',
@@ -28,7 +27,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Mulholland Drive',
     director: 'David Lynch',
@@ -42,9 +40,8 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
-    title: "A l'aube du 6ème jour",
+    title: 'A l\'aube du 6ème jour',
     director: 'Roger Spottiswoode',
     rating: 0,
     timesWatched: 0,
@@ -56,7 +53,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Requiem for a Dream',
     director: 'Darren Aronofsky',
@@ -70,7 +66,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Nocturnal Animals',
     director: 'Tom Ford',
@@ -84,7 +79,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'La soupe aux choux',
     director: 'Jean-Charles Tacchella',
@@ -98,7 +92,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Les oiseaux',
     director: 'Alfred Hitchcock',
@@ -112,7 +105,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Psychose',
     director: 'Alfred Hitchcock',
@@ -126,7 +118,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Citizen Kane',
     director: 'Orson Welles',
@@ -140,7 +131,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Babylon A.D',
     director: 'Mathieu Kassovitz',
@@ -154,7 +144,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Babel',
     director: 'Alejandro González Iñárritu',
@@ -168,7 +157,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Baby Sittor',
     director: 'Adam Shankman',
@@ -182,7 +170,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Speed',
     director: 'Jan de Bont',
@@ -196,7 +183,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Demolition',
     director: 'Jean-Marc Vallée',
@@ -210,7 +196,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Spaceballs',
     director: 'Mel Brooks',
@@ -224,7 +209,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Les Incorruptibles',
     director: 'Brian De Palma',
@@ -238,7 +222,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Commando',
     director: 'Mark L. Lester',
@@ -252,7 +235,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le flic de Beverly Hills',
     director: 'Martin Brest',
@@ -266,7 +248,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Speed Racer',
     director: 'Lana Wachowski, Lilly Wachowski',
@@ -280,7 +261,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'La vague',
     director: 'Dennis Gansel',
@@ -294,7 +274,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Gone Baby Gone',
     director: 'Ben Affleck',
@@ -308,7 +287,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'La chambre 1408',
     director: 'Mikael Håfström',
@@ -322,7 +300,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Trainspotting',
     director: 'Danny Boyle',
@@ -336,7 +313,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'The Blind Side',
     director: 'John Lee Hancock',
@@ -350,7 +326,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le Majordome',
     director: 'Lee Daniels',
@@ -364,7 +339,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Cowboys & Aliens',
     director: 'Jon Favreau',
@@ -378,7 +352,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Good Morning, Vietnam',
     director: 'Barry Levinson',
@@ -392,7 +365,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le dernier samaritain',
     director: 'Tony Scott',
@@ -406,7 +378,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Double Impact',
     director: 'Sheldon Lettich',
@@ -420,7 +391,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Les Affranchis',
     director: 'Martin Scorsese',
@@ -434,7 +404,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Nikita',
     director: 'Luc Besson',
@@ -448,7 +417,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Cliffhanger',
     director: 'Renny Harlin',
@@ -462,7 +430,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le fugitif',
     director: 'Andrew Davis',
@@ -476,9 +443,8 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
-    title: "Le Joyeux Noël d'Harold et Kumar",
+    title: 'Le Joyeux Noël d\'Harold et Kumar',
     director: 'Todd Strauss-Schulson',
     rating: 0,
     timesWatched: 0,
@@ -490,7 +456,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Écrire pour exister',
     director: 'Richard LaGravenese',
@@ -504,7 +469,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le nombre 23',
     director: 'Joel Schumacher',
@@ -518,7 +482,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Renaissances',
     director: 'Tarsem Singh',
@@ -532,7 +495,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Philadelphia',
     director: 'Jonathan Demme',
@@ -546,7 +508,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Sully',
     director: 'Clint Eastwood',
@@ -560,7 +521,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Pinocchio',
     director: 'Guillermo del Toro, Mark Gustafson',
@@ -574,7 +534,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Blonde',
     director: 'Andrew Dominik',
@@ -588,7 +547,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le Retour de Mary Poppins',
     director: 'Rob Marshall',
@@ -602,7 +560,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Mamma Mia! Here We Go Again',
     director: 'Ol Parker',
@@ -616,7 +573,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Paddington 2',
     director: 'Paul King',
@@ -630,7 +586,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Paddington',
     director: 'Paul King',
@@ -644,7 +599,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Big Eyes',
     director: 'Tim Burton',
@@ -658,7 +612,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'About Time',
     director: 'Richard Curtis',
@@ -672,7 +625,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Sweeney Todd : Le Diabolique Barbier de Fleet Street',
     director: 'Tim Burton',
@@ -686,7 +638,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le Labyrinthe de Pan',
     director: 'Guillermo del Toro',
@@ -700,7 +651,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Marie Antoinette',
     director: 'Sofia Coppola',
@@ -714,7 +664,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Aviator',
     director: 'Martin Scorsese',
@@ -728,7 +677,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'La Planète des singes',
     director: 'Tim Burton',
@@ -742,7 +690,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'A.I. Intelligence artificielle',
     director: 'Steven Spielberg',
@@ -756,7 +703,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Moulin Rouge !',
     director: 'Baz Luhrmann',
@@ -770,7 +716,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Billy Elliot',
     director: 'Stephen Daldry',
@@ -784,7 +729,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Fantasia 2000',
     director: 'James Algar, Gaëtan Brizzi',
@@ -798,7 +742,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: '10 bonnes raisons de te larguer',
     director: 'Gil Junger',
@@ -812,7 +755,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Gattaca',
     director: 'Andrew Niccol',
@@ -826,7 +768,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Face/Off',
     director: 'John Woo',
@@ -840,7 +781,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Roméo + Juliette',
     director: 'Baz Luhrmann',
@@ -854,7 +794,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'James et la Pêche géante',
     director: 'Henry Selick',
@@ -868,7 +807,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'GoldenEye',
     director: 'Martin Campbell',
@@ -882,7 +820,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Braveheart',
     director: 'Mel Gibson',
@@ -896,7 +833,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Ace Ventura: Détective pour chiens et chats',
     director: 'Tom Shadyac',
@@ -910,7 +846,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'JFK',
     director: 'Oliver Stone',
@@ -924,7 +859,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'La Famille Addams',
     director: 'Barry Sonnenfeld',
@@ -938,7 +872,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Ghost',
     director: 'Jerry Zucker',
@@ -952,7 +885,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Oliver et Compagnie',
     director: 'George Scribner',
@@ -966,7 +898,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le Tombeau des lucioles',
     director: 'Isao Takahata',
@@ -980,7 +911,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Nausicaä de la Vallée du Vent',
     director: 'Hayao Miyazaki',
@@ -994,7 +924,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'The Blues Brothers',
     director: 'John Landis',
@@ -1008,7 +937,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Halloween',
     director: 'John Carpenter',
@@ -1022,7 +950,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Les Parapluies de Cherbourg',
     director: 'Jacques Demy',
@@ -1036,7 +963,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Vacances romaines',
     director: 'William Wyler',
@@ -1050,7 +976,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Chantons sous la pluie',
     director: 'Gene Kelly, Stanley Donen',
@@ -1064,7 +989,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Orgueil et Préjugés',
     director: 'Joe Wright',
@@ -1078,7 +1002,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Rencontre avec Joe Black',
     director: 'Martin Brest',
@@ -1092,7 +1015,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Isi & Ossi',
     director: 'Oliver Kienle',
@@ -1106,9 +1028,8 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
-    title: "L'arme fatale 4",
+    title: 'L\'arme fatale 4',
     director: 'Richard Donner',
     rating: 0,
     timesWatched: 0,
@@ -1120,7 +1041,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Predator 2',
     director: 'Stephen Hopkins',
@@ -1134,7 +1054,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Predators',
     director: 'Nimród Antal',
@@ -1148,7 +1067,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'The Predator',
     director: 'Shane Black',
@@ -1162,7 +1080,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Aliens',
     director: 'James Cameron',
@@ -1176,7 +1093,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Alien 3',
     director: 'David Fincher',
@@ -1190,7 +1106,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Alien : La Résurrection',
     director: 'Jean-Pierre Jeunet',
@@ -1204,7 +1119,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Alien vs. Predator : Requiem',
     director: 'Colin Strause, Greg Strause',
@@ -1218,7 +1132,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Rambo 3',
     director: 'Peter MacDonald',
@@ -1232,7 +1145,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'John Rambo',
     director: 'Sylvester Stallone',
@@ -1246,7 +1158,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Die Hard : Belle Journée pour Mourir',
     director: 'John Moore',
@@ -1260,7 +1171,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'James Bond: Meurs un autre jour',
     director: 'Lee Tamahori',
@@ -1274,7 +1184,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le cercle : The ring',
     director: 'Gore Verbinski',
@@ -1288,7 +1197,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Ava',
     director: 'Tate Taylor',
@@ -1302,7 +1210,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Lord of War',
     director: 'Andrew Niccol',
@@ -1316,7 +1223,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Serial Nocers',
     director: 'David Dobkin',
@@ -1330,7 +1236,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'True Lies',
     director: 'James Cameron',
@@ -1344,7 +1249,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'La ligue des gentlemen extraordinaires',
     director: 'Stephen Norrington',
@@ -1358,7 +1262,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Waterworld',
     director: 'Kevin Reynolds',
@@ -1372,7 +1275,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Tango & Cash',
     director: 'Andrei Konchalovsky',
@@ -1386,7 +1288,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'The Running Man',
     director: 'Paul Michael Glaser',
@@ -1400,7 +1301,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Atonement',
     director: 'Joe Wright',
@@ -1414,7 +1314,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'The Worst Person in the World',
     director: 'Joachim Trier',
@@ -1428,7 +1327,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Novocaine',
     director: 'David Atkins',
@@ -1442,7 +1340,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Companion',
     director: 'Drew Hancock',
@@ -1456,7 +1353,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Nobody 2',
     director: 'Timo Tjahjanto',
@@ -1470,7 +1366,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Seul sur Mars',
     director: 'Ridley Scott',
@@ -1484,9 +1379,8 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
-    title: "Ennemi d'Etat",
+    title: 'Ennemi d\'Etat',
     director: 'Tony Scott',
     rating: 0,
     timesWatched: 0,
@@ -1498,21 +1392,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
-  {
-    title: 'Bad Boys Ride or Die',
-    director: 'Adil El Arbi, Bilall Fallah',
-    rating: 0,
-    timesWatched: 0,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-  },
-
   {
     title: 'Cobra',
     director: 'George P. Cosmatos',
@@ -1526,7 +1405,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Haute sécurité',
     director: 'Marco Brambilla',
@@ -1540,7 +1418,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Copland',
     director: 'James Mangold',
@@ -1554,7 +1431,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Rambo: Last Blood',
     director: 'Adrian Grunberg',
@@ -1568,7 +1444,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Expend4bles',
     director: 'Scott Waugh',
@@ -1582,7 +1457,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Jumeaux',
     director: 'Ivan Reitman',
@@ -1596,7 +1470,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Un flic à la maternelle',
     director: 'Ivan Reitman',
@@ -1610,7 +1483,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Junior',
     director: 'Ivan Reitman',
@@ -1624,7 +1496,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le Dernier rempart',
     director: 'Rod Lurie',
@@ -1638,7 +1509,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Sabotage',
     director: 'David Ayer',
@@ -1652,9 +1522,8 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
-    title: "L'Armée des 12 singes",
+    title: 'L\'Armée des 12 singes',
     director: 'Terry Gilliam',
     rating: 0,
     timesWatched: 0,
@@ -1666,7 +1535,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Sale Môme',
     director: 'Barry Levinson',
@@ -1680,7 +1548,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Bandits',
     director: 'Barry Levinson',
@@ -1694,7 +1561,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Mon voisin le tueur 2',
     director: 'Patrick Read Johnson',
@@ -1708,7 +1574,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Slevin',
     director: 'Paul McGuigan',
@@ -1722,7 +1587,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Top Cops',
     director: 'David Twohy',
@@ -1736,7 +1600,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Clones',
     director: 'Jonathan Mostow',
@@ -1750,7 +1613,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Ace Ventura en Afrique',
     director: 'Steve Oedekerk',
@@ -1764,9 +1626,8 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
-    title: "Fous d'Irène",
+    title: 'Fous d\'Irène',
     director: 'Bobby Farrelly, Peter Farrelly',
     rating: 0,
     timesWatched: 0,
@@ -1778,7 +1639,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Braqueurs amateurs',
     director: 'Les Mayfield',
@@ -1792,7 +1652,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le Drôle de Noël de Scrooge',
     director: 'Robert Zemeckis',
@@ -1806,7 +1665,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'M. Popper et ses pingouins',
     director: 'Mark Waters',
@@ -1820,7 +1678,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Il faut sauver le soldat Ryan',
     director: 'Steven Spielberg',
@@ -1834,7 +1691,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Les Joueurs',
     director: 'John Dahl',
@@ -1848,7 +1704,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Les Frères Grimm',
     director: 'Terry Gilliam',
@@ -1862,7 +1717,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'True Grit',
     director: 'Joel Coen, Ethan Coen',
@@ -1876,7 +1730,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Green Zone',
     director: 'Paul Greengrass',
@@ -1890,7 +1743,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Stillwater',
     director: 'Tom McCarthy',
@@ -1904,9 +1756,8 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
-    title: "Légendes d'automne",
+    title: 'Légendes d\'automne',
     director: 'Edward Zwick',
     rating: 0,
     timesWatched: 0,
@@ -1918,7 +1769,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Sleepers',
     director: 'Barry Levinson',
@@ -1932,7 +1782,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Sept Ans au Tibet',
     director: 'Jean-Jacques Annaud',
@@ -1946,7 +1795,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Ennemis rapprochés',
     director: 'David O. Russell',
@@ -1960,9 +1808,8 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
-    title: "Spy game, jeu d'espions",
+    title: 'Spy game, jeu d\'espions',
     director: 'Tony Scott',
     rating: 0,
     timesWatched: 0,
@@ -1974,9 +1821,8 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
-    title: "L'Assassinat de Jesse James par le lâche Robert Ford",
+    title: 'L\'Assassinat de Jesse James par le lâche Robert Ford',
     director: 'Andrew Dominik',
     rating: 0,
     timesWatched: 0,
@@ -1988,7 +1834,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Burn After Reading',
     director: 'Joel Coen, Ethan Coen',
@@ -2002,7 +1847,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le stratège',
     director: 'Bennett Miller',
@@ -2016,7 +1860,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'The Tree of Life',
     director: 'Terrence Malick',
@@ -2030,7 +1873,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Cogan - Killing Them Softly',
     director: 'Andrew Dominik',
@@ -2044,7 +1886,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: '12 Years a Slave',
     director: 'Steve McQueen',
@@ -2058,7 +1899,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'The Big Short',
     director: 'Adam McKay',
@@ -2072,7 +1912,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'War Machine',
     director: 'David Michôd',
@@ -2086,7 +1925,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Apollo 13',
     director: 'Ron Howard',
@@ -2100,9 +1938,8 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
-    title: "Il n'est jamais trop tard",
+    title: 'Il n\'est jamais trop tard',
     director: 'Tom Hanks',
     rating: 0,
     timesWatched: 0,
@@ -2114,7 +1951,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Capitaine Phillips',
     director: 'Paul Greengrass',
@@ -2128,7 +1964,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le Pont des espions',
     director: 'Steven Spielberg',
@@ -2142,7 +1977,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Pentagon Papers',
     director: 'Steven Spielberg',
@@ -2156,7 +1990,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Finch',
     director: 'Miguel Sapochnik',
@@ -2170,7 +2003,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Asteroid City',
     director: 'Wes Anderson',
@@ -2184,7 +2016,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Here - Les plus belles années de notre vie',
     director: 'Robert Zemeckis',
@@ -2198,7 +2029,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Cocktail',
     director: 'Roger Donaldson',
@@ -2212,7 +2042,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Jours de tonnerre',
     director: 'Tony Scott',
@@ -2226,7 +2055,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Jerry Maguire',
     director: 'Cameron Crowe',
@@ -2240,7 +2068,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Magnolia',
     director: 'Paul Thomas Anderson',
@@ -2254,7 +2081,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Eyes Wide Shut',
     director: 'Stanley Kubrick',
@@ -2268,7 +2094,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Vanilla Sky',
     director: 'Cameron Crowe',
@@ -2282,7 +2107,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Walkyrie',
     director: 'Bryan Singer',
@@ -2296,7 +2120,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Rock Forever',
     director: 'Adam Shankman',
@@ -2310,7 +2133,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Gilbert Grape',
     director: 'Lasse Hallström',
@@ -2324,9 +2146,8 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
-    title: "Mensonges d'État",
+    title: 'Mensonges d\'État',
     director: 'Ridley Scott',
     rating: 0,
     timesWatched: 0,
@@ -2338,7 +2159,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Les Noces rebelles',
     director: 'Sam Mendes',
@@ -2352,7 +2172,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'J. Edgar',
     director: 'Clint Eastwood',
@@ -2366,7 +2185,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'End of Watch',
     director: 'David Ayer',
@@ -2380,7 +2198,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Everest',
     director: 'Baltasar Kormákur',
@@ -2394,7 +2211,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Stronger',
     director: 'David Gordon Green',
@@ -2408,7 +2224,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Okja',
     director: 'Bong Joon-ho',
@@ -2422,7 +2237,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'The Covenant',
     director: 'Guy Ritchie',
@@ -2436,7 +2250,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Australia',
     director: 'Baz Luhrmann',
@@ -2450,7 +2263,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Reminiscence',
     director: 'Lisa Joy',
@@ -2464,7 +2276,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Max la Menace',
     director: 'Peter Segal',
@@ -2478,7 +2289,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Buried',
     director: 'Rodrigo Cortés',
@@ -2492,7 +2302,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Captives',
     director: 'Atom Egoyan',
@@ -2506,7 +2315,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Big Daddy',
     director: 'Dennis Dugan',
@@ -2520,7 +2328,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Punch-Drunk Love',
     director: 'Paul Thomas Anderson',
@@ -2534,7 +2341,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Spaceman',
     director: 'Johan Renck',
@@ -2548,7 +2354,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Happy Gilmore',
     director: 'Dennis Dugan',
@@ -2562,7 +2367,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Empire du soleil',
     director: 'Steven Spielberg',
@@ -2576,9 +2380,8 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
-    title: "L'Île au trésor",
+    title: 'L\'Île au trésor',
     director: 'Fraser Clarke Heston',
     rating: 0,
     timesWatched: 0,
@@ -2590,7 +2393,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Shaft',
     director: 'John Singleton',
@@ -2604,7 +2406,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Capitaine Corelli',
     director: 'John Madden',
@@ -2618,7 +2419,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le Règne du feu',
     director: 'Rob Bowman',
@@ -2632,7 +2432,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'The Machinist',
     director: 'Brad Anderson',
@@ -2646,7 +2445,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'La Promesse',
     director: 'Terry George',
@@ -2660,7 +2458,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Vice',
     director: 'Adam McKay',
@@ -2674,7 +2471,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'The Pale Blue Eye',
     director: 'Scott Cooper',
@@ -2688,7 +2484,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Deux Sœurs pour un roi',
     director: 'Justin Chadwick',
@@ -2702,7 +2497,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Hitchcock',
     director: 'Sacha Gervasi',
@@ -2716,7 +2510,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Moi, Tonya',
     director: 'Craig Gillespie',
@@ -2730,7 +2523,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Scandale',
     director: 'Jay Roach',
@@ -2744,10 +2536,9 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Hurlevent',
-    director: "Frances O'Connor",
+    director: 'Frances O\'Connor',
     rating: 0,
     timesWatched: 0,
     firstViewedDate: '',
@@ -2758,7 +2549,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Jack',
     director: 'Francis Ford Coppola',
@@ -2772,7 +2562,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Docteur Patch',
     director: 'Christopher Nolan',
@@ -2786,7 +2575,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Amistad',
     director: 'Steven Spielberg',
@@ -2800,7 +2588,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Deep Impact',
     director: 'Mimi Leder',
@@ -2814,7 +2601,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Last Vegas',
     director: 'Jon Turteltaub',
@@ -2828,7 +2614,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Transcendance',
     director: 'Wally Pfister',
@@ -2842,9 +2627,8 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
-    title: "Braquage à l'ancienne",
+    title: 'Braquage à l\'ancienne',
     director: 'Zach Braff',
     rating: 0,
     timesWatched: 0,
@@ -2856,9 +2640,8 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
-    title: "L'impasse",
+    title: 'L\'impasse',
     director: 'Brian De Palma',
     rating: 0,
     timesWatched: 0,
@@ -2870,9 +2653,8 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
-    title: "Vol au-dessus d'un nid de coucou",
+    title: 'Vol au-dessus d\'un nid de coucou',
     director: 'Milos Forman',
     rating: 0,
     timesWatched: 0,
@@ -2884,7 +2666,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Il était une fois en Amérique',
     director: 'Sergio Leone',
@@ -2898,7 +2679,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le Bon, la brute et le truand',
     director: 'Sergio Leone',
@@ -2912,7 +2692,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le Dictateur',
     director: 'Charlie Chaplin',
@@ -2926,7 +2705,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'La Vie est belle',
     director: 'Roberto Benigni',
@@ -2940,7 +2718,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Apocalypse Now',
     director: 'Francis Ford Coppola',
@@ -2954,9 +2731,8 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
-    title: "Voyage au bout de l'enfer",
+    title: 'Voyage au bout de l\'enfer',
     director: 'Michael Cimino',
     rating: 0,
     timesWatched: 0,
@@ -2968,7 +2744,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le Pianiste',
     director: 'Roman Polanski',
@@ -2982,7 +2757,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Je verrai toujours vos visages',
     director: 'Jeanne Herry',
@@ -2996,7 +2770,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Elephant Man',
     director: 'David Lynch',
@@ -3010,7 +2783,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Fenêtre sur cour',
     director: 'Alfred Hitchcock',
@@ -3024,7 +2796,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Barry Lyndon',
     director: 'Stanley Kubrick',
@@ -3038,7 +2809,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Vivre',
     director: 'Akira Kurosawa',
@@ -3052,9 +2822,8 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
-    title: "La Ruée vers l'or",
+    title: 'La Ruée vers l\'or',
     director: 'Charlie Chaplin',
     rating: 0,
     timesWatched: 0,
@@ -3066,7 +2835,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le Conte de la princesse Kaguya',
     director: 'Isao Takahata',
@@ -3080,7 +2848,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'La Grande Vadrouille',
     director: 'Gérard Oury',
@@ -3094,7 +2861,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Sueurs froides',
     director: 'Alfred Hitchcock',
@@ -3108,7 +2874,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Barberousse',
     director: 'Akira Kurosawa',
@@ -3122,7 +2887,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'La Mort aux trousses',
     director: 'Alfred Hitchcock',
@@ -3136,7 +2900,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'La Vie est belle',
     director: 'Frank Capra',
@@ -3150,7 +2913,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Danse avec les loups',
     director: 'Kevin Costner',
@@ -3164,7 +2926,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Casino',
     director: 'Martin Scorsese',
@@ -3178,7 +2939,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Et pour quelques dollars de plus',
     director: 'Sergio Leone',
@@ -3192,9 +2952,8 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
-    title: "Lawrence d'Arabie",
+    title: 'Lawrence d\'Arabie',
     director: 'David Lean',
     rating: 0,
     timesWatched: 0,
@@ -3206,7 +2965,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'M le Maudit',
     director: 'Fritz Lang',
@@ -3220,10 +2978,9 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Je veux manger ton pancréas',
-    director: "Shin'ichirô Ushijima",
+    director: 'Shin\'ichirô Ushijima',
     rating: 0,
     timesWatched: 0,
     firstViewedDate: '',
@@ -3234,7 +2991,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le Nom de la Rose',
     director: 'Jean-Jacques Annaud',
@@ -3248,7 +3004,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Mad Max',
     director: 'George Miller',
@@ -3262,7 +3017,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Mad Max 2',
     director: 'George Miller',
@@ -3276,7 +3030,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'La Passion du Christ',
     director: 'Mel Gibson',
@@ -3290,7 +3043,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Jackie',
     director: 'Pablo Larraín',
@@ -3304,7 +3056,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Annihilation',
     director: 'Alex Garland',
@@ -3318,7 +3069,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Les Filles du docteur March',
     director: 'Greta Gerwig',
@@ -3332,7 +3082,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Ma mère, Dieu et Sylvie Vartan',
     director: 'Sylvie Audcoeur',
@@ -3346,7 +3095,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'La French',
     director: 'Cédric Jimenez',
@@ -3360,7 +3108,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Un homme à la hauteur',
     director: 'Laurent Tirard',
@@ -3374,9 +3121,8 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
-    title: "La vie d'Adèle",
+    title: 'La vie d\'Adèle',
     director: 'Abdellatif Kechiche',
     rating: 0,
     timesWatched: 0,
@@ -3388,7 +3134,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Un singe en hiver',
     director: 'Henri Verneuil',
@@ -3402,7 +3147,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Steak',
     director: 'Charles Nemes',
@@ -3416,7 +3160,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Tempête de Boulettes Géantes',
     director: 'Phil Lord, Christopher Miller',
@@ -3430,7 +3173,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Horton',
     director: 'Jimmy Hayward, Steve Martino',
@@ -3444,7 +3186,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'One Piece : Gold',
     director: 'Hiroaki Miyamoto',
@@ -3458,7 +3199,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'One Piece: Stampede',
     director: 'Takashi Otsuka',
@@ -3472,7 +3212,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Fantasia',
     director: 'James Algar, Samuel Armstrong',
@@ -3486,7 +3225,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Anastasia',
     director: 'Don Bluth, Gary Goldman',
@@ -3500,7 +3238,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Ponyo',
     director: 'Hayao Miyazaki',
@@ -3514,7 +3251,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Coraline',
     director: 'Henry Selick',
@@ -3528,7 +3264,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Arrietty, le petit monde des chapardeurs',
     director: 'Hiromasa Yonebayashi',
@@ -3542,7 +3277,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Bubble',
     director: 'Tetsurō Araki',
@@ -3556,7 +3290,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Hollywood',
     director: 'Ryan Murphy',
@@ -3570,7 +3303,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Bohemian Rhapsody',
     director: 'Bryan Singer',
@@ -3584,7 +3316,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Lion',
     director: 'Garth Davis',
@@ -3598,7 +3329,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Minuit à Paris',
     director: 'Woody Allen',
@@ -3612,7 +3342,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Little White Lies',
     director: 'Guillaume Canet',
@@ -3626,7 +3355,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Lovely Bones',
     director: 'Peter Jackson',
@@ -3640,7 +3368,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: '27 Robes',
     director: 'Anne Fletcher',
@@ -3654,7 +3381,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'P.S. I Love You',
     director: 'Richard LaGravenese',
@@ -3668,7 +3394,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Les déstreuses aventures des Orphelins Baudelaire',
     director: 'Brad Silberling',
@@ -3682,7 +3407,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le Village',
     director: 'M. Night Shyamalan',
@@ -3696,7 +3420,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Comme Cendrillon',
     director: 'Mark Rosman',
@@ -3710,7 +3433,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Lolita malgré moi',
     director: 'Mark Waters',
@@ -3724,7 +3446,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'The Others',
     director: 'Alejandro Amenábar',
@@ -3738,9 +3459,8 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
-    title: "La Revanche d'une blonde",
+    title: 'La Revanche d\'une blonde',
     director: 'Robert Luketic',
     rating: 0,
     timesWatched: 0,
@@ -3752,7 +3472,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le Journal de Bridget Jones',
     director: 'Sharon Maguire',
@@ -3766,7 +3485,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'People We Meet on Vacation',
     director: 'Brett Haley',
@@ -3780,7 +3498,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Nos coeurs meurtris',
     director: 'Elizabeth Allen Rosenbaum',
@@ -3794,7 +3511,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Rush Hour 2',
     director: 'Brett Ratner',
@@ -3808,7 +3524,6 @@ export const ronanWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Rush Hour 3',
     director: 'Brett Ratner',
@@ -3821,5 +3536,5 @@ export const ronanWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-  },
+  }
 ];

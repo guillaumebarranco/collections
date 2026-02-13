@@ -383,4 +383,63 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
   },
+
+  {
+    title: 'Marsupilami',
+    director: 'Philippe Lacheau',
+    actors: [
+      {
+        name: 'Philippe Lacheau',
+      },
+      {
+        name: 'Elodie Fontan',
+      },
+      {
+        name: 'Jamel Debbouze',
+      },
+      {
+        name: 'Tarek Boudali',
+      },
+      {
+        name: 'Julien Arruti',
+      },
+      {
+        name: 'Jean Reno',
+      },
+    ],
+    coverUrl: 'https://m.media-amazon.com/images/M/MV5BYTRiMTBkYWYtZjNlMi00OGUyLWE4YWMtMGExMjA2MWQ5NGUzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2026-02-04',
+    length: 109,
+    genre: 'Comédie',
+    saga: '',
+    description: '',
+  },
+
+  {
+    title: 'Kraven the Hunter',
+    director: 'J.C Chandor',
+    actors: [
+      {
+        name: 'Aaron Taylor-Johnson',
+      },
+      {
+        name: 'Russell Crowe',
+      },
+      {
+        name: 'Ariana DeBose',
+      },
+      {
+        name: 'Alessandro Nivola',
+      },
+      {
+        name: 'Fred Hechinger',
+      },
+    ],
+    coverUrl: 'https://jevaisciner.fr/wp/wp-content/uploads/jvc_posters/Kraven%20The%20Hunter%20Poster-scaled.jpg.webp',
+    releaseDate: '2024-12-18',
+    length: 125,
+    genre: 'Action',
+    saga: '',
+    description: '',
+  },
 ];

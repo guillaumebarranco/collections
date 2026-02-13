@@ -140,6 +140,12 @@ export const baseMoviesPage5: BaseMovie[] = [
       {
         name: 'Will Smith',
       },
+      {
+        name: 'Martin Lawrence',
+      },
+      {
+        name: 'Vanessa Hudgens',
+      }
     ],
     coverUrl: '/movies_pictures/efbbe86f093b0904258c8a9b1e60bae7.webp',
     releaseDate: '2024-06-07',
