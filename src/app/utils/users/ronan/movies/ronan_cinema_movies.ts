@@ -3647,9 +3647,9 @@ export const ronanCinemaMovies: UserMovies = [
     title: 'Harry Potter et la coupe de feu',
     director: 'Mike Newell',
     rating: 4, // Harry Potter and the Goblet of Fire (2005) ★★★★
-    timesWatched: 20,
+    timesWatched: 21,
     firstViewedDate: '2005-11-18',
-    lastViewedDate: '',
+    lastViewedDate: '2026-02-14',
     seenAtCinema: true,
     owned: true,
     wantToSeeAgain: false,

@@ -4,63 +4,168 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: "Harry Potter à l'école des sorciers",
     director: 'Chris Columbus',
-    actors: [{ name: 'Daniel Radcliffe' }],
+    actors: [
+      {
+        name: 'Daniel Radcliffe',
+      },
+      {
+        name: 'Emma Watson',
+      },
+      {
+        name: 'Rupert Grint',
+      },
+      {
+        name: 'Alan Rickman',
+      },
+      {
+        name: 'Richard Harris',
+      }
+    ],
     coverUrl: '/movies_pictures/harry_potter_ecole_des_sorciers.jpg',
     releaseDate: '2001-11-16',
     length: 152,
-    genre: 'Fantasy',
+    genre: 'Fantastique',
     saga: 'Wizarding World',
     description: '',
   },
   {
     title: 'Harry Potter et la chambre des secrets',
     director: 'Chris Columbus',
-    actors: [{ name: 'Daniel Radcliffe' }],
+    actors: [
+      {
+        name: 'Daniel Radcliffe',
+      },
+      {
+        name: 'Emma Watson',
+      },
+      {
+        name: 'Rupert Grint',
+      },
+      {
+        name: 'Alan Rickman',
+      },
+      {
+        name: 'Richard Harris',
+      }
+    ],
     coverUrl: '/movies_pictures/harry_potter_chambre_des_secrets.jpg',
     releaseDate: '2002-11-15',
     length: 161,
-    genre: 'Fantasy',
+    genre: 'Fantastique',
     saga: 'Wizarding World',
     description: '',
   },
   {
     title: "Harry Potter et le prisonnier d'Azkaban",
     director: 'Alfonso Cuarón',
-    actors: [{ name: 'Daniel Radcliffe' }],
+    actors: [
+      {
+        name: 'Daniel Radcliffe',
+      }
+    ],
     coverUrl: '/movies_pictures/harry_potter_prisonnier_askaban.jpg',
     releaseDate: '2004-06-04',
     length: 142,
-    genre: 'Fantasy',
+    genre: 'Fantastique',
     saga: 'Wizarding World',
     description: '',
   },
   {
     title: 'Harry Potter et la coupe de feu',
     director: 'Mike Newell',
-    actors: [{ name: 'Daniel Radcliffe' }],
+    actors: [
+      {
+        name: 'Daniel Radcliffe',
+      },
+      {
+        name: 'Emma Watson',
+      },
+      {
+        name: 'Rupert Grint',
+      },
+      {
+        name: 'Alan Rickman',
+      },
+      {
+        name: 'Michael Gambon',
+      },
+      {
+        name: 'Robert Pattinson',
+      },
+      {
+        name: 'Ralph Fiennes',
+      }
+    ],
     coverUrl:
       '/movies_pictures/51450-harry-potter-and-the-goblet-of-fire-0-150-0-225-crop.jpg',
     releaseDate: '2005-11-18',
     length: 157,
-    genre: 'Fantasy',
+    genre: 'Fantastique',
     saga: 'Wizarding World',
     description: '',
   },
   {
     title: "Harry Potter et l'ordre du phénix",
     director: 'David Yates',
-    actors: [{ name: 'Daniel Radcliffe' }],
+    actors: [
+      {
+        name: 'Daniel Radcliffe',
+      },
+      {
+        name: 'Emma Watson',
+      },
+      {
+        name: 'Rupert Grint',
+      },
+      {
+        name: 'Alan Rickman',
+      },
+      {
+        name: 'Michael Gambon',
+      },
+      {
+        name: 'Ralph Fiennes',
+      },
+      {
+        name: 'Helena Bonham Carter',
+      },
+      {
+        name: 'Gary Oldman',
+      },
+      {
+        name: 'Imelda Staunton',
+      }
+    ],
     coverUrl: '/movies_pictures/harry_potter_ordre_du_phenix.jpg',
     releaseDate: '2007-07-11',
     length: 138,
-    genre: 'Fantasy',
+    genre: 'Fantastique',
     saga: 'Wizarding World',
     description: '',
   },
   {
     title: 'Harry Potter et le prince de sang-mêlé',
     director: 'David Yates',
-    actors: [{ name: 'Daniel Radcliffe' }],
+    actors: [
+      {
+        name: 'Daniel Radcliffe',
+      },
+      {
+        name: 'Emma Watson',
+      },
+      {
+        name: 'Rupert Grint',
+      },
+      {
+        name: 'Alan Rickman',
+      },
+      {
+        name: 'Michael Gambon',
+      },
+      {
+        name: 'Helena Bonham Carter',
+      }
+    ],
     coverUrl:
       '/movies_pictures/51385-harry-potter-and-the-half-blood-prince-0-150-0-225-crop.jpg',
     releaseDate: '2009-07-15',
@@ -72,24 +177,68 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Harry Potter et les reliques de la mort - partie 1',
     director: 'David Yates',
-    actors: [{ name: 'Daniel Radcliffe' }],
+    actors: [
+      {
+        name: 'Daniel Radcliffe',
+      },
+      {
+        name: 'Emma Watson',
+      },
+      {
+        name: 'Rupert Grint',
+      },
+      {
+        name: 'Helena Bonham Carter',
+      },
+      {
+        name: 'Bill Nighy',
+      },
+      {
+        name: 'Imelda Staunton',
+      },
+      {
+        name: 'Ralph Fiennes',
+      }
+    ],
     coverUrl:
       '/movies_pictures/harry-potter-and-the-deathly-hallows-part-i-original-0-150-0-225-crop.jpg',
     releaseDate: '2010-11-19',
     length: 146,
-    genre: 'Fantasy',
+    genre: 'Fantastique',
     saga: 'Wizarding World',
     description: '',
   },
   {
     title: 'Harry Potter et les reliques de la mort - partie 2',
     director: 'David Yates',
-    actors: [{ name: 'Daniel Radcliffe' }],
+    actors: [
+      {
+        name: 'Daniel Radcliffe',
+      },
+      {
+        name: 'Emma Watson',
+      },
+      {
+        name: 'Rupert Grint',
+      },
+      {
+        name: 'Alan Rickman',
+      },
+      {
+        name: 'Michael Gambon',
+      },
+      {
+        name: 'Ralph Fiennes',
+      },
+      {
+        name: 'Helena Bonham Carter',
+      }
+    ],
     coverUrl:
       '/movies_pictures/44580-harry-potter-and-the-deathly-hallows-part-2-0-150-0-225-crop.jpg',
     releaseDate: '2011-07-15',
     length: 130,
-    genre: 'Fantasy',
+    genre: 'Fantastique',
     saga: 'Wizarding World',
     description: '',
   },

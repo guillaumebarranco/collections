@@ -464,4 +464,26 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
   },
+
+  {
+    title: 'L\'Auberge Espagnol',
+    director: 'Cédric Klapisch',
+    actors: [
+      {
+        name: 'Romain Duris',
+      },
+      {
+        name: 'Cécile de France',
+      },
+      {
+        name: 'Audrey Tautou',
+      },
+    ],
+    coverUrl: 'https://antreducinema.fr/wp-content/uploads/2020/04/AUBERGE-ESPAGNOLE.jpg',
+    releaseDate: '2002-06-19',
+    length: 120,
+    genre: 'Comédie ',
+    saga: 'Trilogie Cédric Klapisch',
+    description: '',
+  },
 ];

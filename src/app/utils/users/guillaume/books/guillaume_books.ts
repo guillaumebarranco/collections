@@ -820,4 +820,16 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: 'Les Disparus du Clairdelune',
+    author: 'Christelle Dabos',
+    readDate: '2026-02-15',
+    rating: 5,
+    readTimes: 1,
+    owned: false,
+    readPriority: 3,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
 ];

@@ -13645,4 +13645,18 @@ export const ronanMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
+
+  {
+    title: 'L\'Auberge Espagnol',
+    director: 'Cédric Klapisch',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2026-02-14',
+    lastViewedDate: '2026-02-14',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+  },
 ];

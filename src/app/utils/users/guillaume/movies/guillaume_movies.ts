@@ -1288,4 +1288,18 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
+
+  {
+    title: 'Cruella',
+    director: 'Craig Gillespie',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2026-02-14',
+    lastViewedDate: '2026-02-14',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: 'Ce fut un très bon film de la Saint-Valentin',
+  },
 ];
