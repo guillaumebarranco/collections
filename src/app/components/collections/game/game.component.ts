@@ -131,7 +131,7 @@ export class GameComponent {
       rating: this.game.rating ?? 0,
       hasRatingComment: !!this.game.ratingComment,
       currentPriority: this.getGamelistPriority(),
-      entityType: 'game',
+      entityType: EntityType.GAME,
       wantToReRead: !!this.game.wantToPlayAgain,
     };
   }
@@ -206,7 +206,10 @@ export class GameComponent {
       );
       if (!response.ok) {
         const payload = await response.json().catch(() => ({}));
-        console.warn('Échec du passage du jeu en joué :', payload?.error || response.statusText);
+        console.warn(
+          'Échec du passage du jeu en joué :',
+          payload?.error || response.statusText
+        );
         return;
       }
       this.gameUpdated.emit();

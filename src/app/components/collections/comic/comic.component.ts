@@ -57,7 +57,10 @@ export class ComicComponent {
   @Output() editRequested = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
   @Output() addToReadlist = new EventEmitter<Comic>();
-  @Output() readPriorityUpdated = new EventEmitter<{ comic: Comic; priority: number }>();
+  @Output() readPriorityUpdated = new EventEmitter<{
+    comic: Comic;
+    priority: number;
+  }>();
   @Output() wantToReRead = new EventEmitter<Comic>();
   @Output() haveReRead = new EventEmitter<Comic>();
   @Output() comicUpdated = new EventEmitter<void>();
@@ -86,7 +89,7 @@ export class ComicComponent {
       rating: this.comic.rating ?? 0,
       hasRatingComment: !!this.comic.ratingComment,
       currentPriority: this.getReadPriority(),
-      entityType: 'comic',
+      entityType: EntityType.COMIC,
       wantToReRead: !!this.comic.wantToReadAgain,
     };
   }
@@ -167,7 +170,10 @@ export class ComicComponent {
       );
       if (!response.ok) {
         const payload = await response.json().catch(() => ({}));
-        console.warn('Échec du passage du comic en lu :', payload?.error || response.statusText);
+        console.warn(
+          'Échec du passage du comic en lu :',
+          payload?.error || response.statusText
+        );
         return;
       }
       this.comicUpdated.emit();

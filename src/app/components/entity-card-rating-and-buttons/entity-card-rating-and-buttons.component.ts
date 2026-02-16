@@ -7,15 +7,7 @@ import {
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-export type EntityType =
-  | 'bd'
-  | 'book'
-  | 'manga'
-  | 'comic'
-  | 'manwha'
-  | 'movie'
-  | 'game'
-  | 'serie';
+import { EntityType } from '../../models/quizz-model';
 
 /** Données communes à l’entité affichée dans la carte (note, priorité, type, etc.). */
 export interface EntityCardEntityData {
@@ -56,7 +48,6 @@ export class EntityCardRatingAndButtonsComponent {
   @Input() showAddToListButton = true;
   @Input() isInList = false;
   @Input() selectedView = '';
-  /** Quand false, masque le bloc note/étoiles (ex: vue recommandation film, série). */
   @Input() showRating = true;
   /** Override optionnel des libellés par défaut (déduits de entityType). */
   @Input() labels: Partial<EntityCardRatingLabels> = {};
@@ -98,7 +89,9 @@ export class EntityCardRatingAndButtonsComponent {
   }
 
   get effectiveLabels(): EntityCardRatingLabels {
-    const defaultLabels = this.getDefaultLabelsForType(this.entityData?.entityType);
+    const defaultLabels = this.getDefaultLabelsForType(
+      this.entityData?.entityType
+    );
     return { ...defaultLabels, ...this.labels };
   }
 

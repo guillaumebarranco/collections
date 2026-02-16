@@ -30,7 +30,11 @@ import {
 @Component({
   selector: 'app-book',
   standalone: true,
-  imports: [CommonModule, EntityCardComponent, EntityCardRatingAndButtonsComponent],
+  imports: [
+    CommonModule,
+    EntityCardComponent,
+    EntityCardRatingAndButtonsComponent,
+  ],
   templateUrl: './book.component.html',
   styleUrls: ['./book.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -85,7 +89,7 @@ export class BookComponent {
       rating: this.book.rating ?? 0,
       hasRatingComment: !!this.book.ratingComment,
       currentPriority: this.getReadPriority(),
-      entityType: 'book',
+      entityType: EntityType.BOOK,
       wantToReRead: !!this.book.wantToReadAgain,
     };
   }

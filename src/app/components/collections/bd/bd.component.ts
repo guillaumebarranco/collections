@@ -56,7 +56,10 @@ export class BdComponent {
   @Output() editRequested = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
   @Output() addToReadlist = new EventEmitter<Bd>();
-  @Output() readPriorityUpdated = new EventEmitter<{ bd: Bd; priority: number }>();
+  @Output() readPriorityUpdated = new EventEmitter<{
+    bd: Bd;
+    priority: number;
+  }>();
   @Output() wantToReRead = new EventEmitter<Bd>();
   @Output() haveReRead = new EventEmitter<Bd>();
   @Output() bdUpdated = new EventEmitter<void>();
@@ -83,7 +86,7 @@ export class BdComponent {
       rating: this.bd.rating ?? 0,
       hasRatingComment: !!this.bd.ratingComment,
       currentPriority: this.getReadPriority(),
-      entityType: 'bd',
+      entityType: EntityType.BD,
       wantToReRead: !!this.bd.wantToReadAgain,
     };
   }
@@ -164,7 +167,10 @@ export class BdComponent {
       );
       if (!response.ok) {
         const payload = await response.json().catch(() => ({}));
-        console.warn('Échec du passage de la BD en lue :', payload?.error || response.statusText);
+        console.warn(
+          'Échec du passage de la BD en lue :',
+          payload?.error || response.statusText
+        );
         return;
       }
       this.bdUpdated.emit();

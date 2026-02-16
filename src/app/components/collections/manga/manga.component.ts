@@ -57,7 +57,10 @@ export class MangaComponent {
   @Output() editRequested = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
   @Output() addToReadlist = new EventEmitter<Manga>();
-  @Output() readPriorityUpdated = new EventEmitter<{ manga: Manga; priority: number }>();
+  @Output() readPriorityUpdated = new EventEmitter<{
+    manga: Manga;
+    priority: number;
+  }>();
   @Output() wantToReRead = new EventEmitter<Manga>();
   @Output() haveReRead = new EventEmitter<Manga>();
   @Output() mangaUpdated = new EventEmitter<void>();
@@ -86,7 +89,7 @@ export class MangaComponent {
       rating: this.manga.rating ?? 0,
       hasRatingComment: !!this.manga.ratingComment,
       currentPriority: this.getReadPriority(),
-      entityType: 'manga',
+      entityType: EntityType.MANGA,
       wantToReRead: !!this.manga.wantToReadAgain,
     };
   }
@@ -167,7 +170,10 @@ export class MangaComponent {
       );
       if (!response.ok) {
         const payload = await response.json().catch(() => ({}));
-        console.warn('Échec du passage du manga en lu :', payload?.error || response.statusText);
+        console.warn(
+          'Échec du passage du manga en lu :',
+          payload?.error || response.statusText
+        );
         return;
       }
       this.mangaUpdated.emit();

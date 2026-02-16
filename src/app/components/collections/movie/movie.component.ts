@@ -62,7 +62,10 @@ export class MovieComponent {
   @Output() wantToReWatch = new EventEmitter<Movie>();
   @Output() addToWatchlist = new EventEmitter<Movie>();
   @Output() hasReWatched = new EventEmitter<Movie>();
-  @Output() watchPriorityUpdated = new EventEmitter<{ movie: Movie; priority: number }>();
+  @Output() watchPriorityUpdated = new EventEmitter<{
+    movie: Movie;
+    priority: number;
+  }>();
   isWatchList = input<boolean>(false);
 
   recommendationView = input<boolean>(false);
@@ -87,7 +90,10 @@ export class MovieComponent {
   directorsList = computed(() => {
     const raw = this.movie?.director?.trim();
     if (!raw) return [];
-    return raw.split(',').map((d) => d.trim()).filter(Boolean);
+    return raw
+      .split(',')
+      .map((d) => d.trim())
+      .filter(Boolean);
   });
 
   /** Afficher tous les réalisateurs (au-delà des 2 premiers). */
@@ -163,7 +169,7 @@ export class MovieComponent {
       rating: this.movie.rating ?? 0,
       hasRatingComment: !!this.movie.ratingComment,
       currentPriority: this.getWatchPriority(),
-      entityType: 'movie',
+      entityType: EntityType.MOVIE,
       wantToReRead: !!this.movie.wantToSeeAgain,
     };
   }

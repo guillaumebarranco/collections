@@ -64,7 +64,7 @@
 
   <div>
     @if(selectedView() !== 'recommendations') { @if(!isAdminView() &&
-    selectedView() === 'readlist') {
+    selectedView() === 'readlist' && sortedBooks().length === 0) {
     <div class="readlist-actions">
       <button
         class="makya-btn-ultra-big"

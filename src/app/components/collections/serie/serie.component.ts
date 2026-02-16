@@ -67,7 +67,10 @@ export class SerieComponent {
   @Output() serieUpdated = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
   @Output() addToWatchlist = new EventEmitter<Serie>();
-  @Output() watchPriorityUpdated = new EventEmitter<{ serie: Serie; priority: number }>();
+  @Output() watchPriorityUpdated = new EventEmitter<{
+    serie: Serie;
+    priority: number;
+  }>();
   @Output() wantToReWatch = new EventEmitter<Serie>();
   @Output() haveReWatched = new EventEmitter<Serie>();
 
@@ -115,7 +118,7 @@ export class SerieComponent {
       rating: 0,
       hasRatingComment: !!this.serie.ratingComment,
       currentPriority: this.getWatchPriority(),
-      entityType: 'serie',
+      entityType: EntityType.SERIE,
       wantToReRead: !!this.serie.wantToWatchAgain,
     };
   }
@@ -256,7 +259,7 @@ export class SerieComponent {
       if (!response.ok) {
         const payload = await response.json().catch(() => ({}));
         console.warn(
-          "Échec du passage de la série en « vus » :",
+          'Échec du passage de la série en « vus » :',
           payload?.error || response.statusText
         );
         return;
@@ -265,7 +268,7 @@ export class SerieComponent {
       this.serieUpdated.emit();
     } catch (error) {
       console.warn(
-        "Erreur réseau lors du passage de la série en « vus ».",
+        'Erreur réseau lors du passage de la série en « vus ».',
         error
       );
     }

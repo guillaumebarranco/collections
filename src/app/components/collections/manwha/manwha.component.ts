@@ -57,7 +57,10 @@ export class ManwhaComponent {
   @Output() editRequested = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
   @Output() addToReadlist = new EventEmitter<Manwha>();
-  @Output() readPriorityUpdated = new EventEmitter<{ manwha: Manwha; priority: number }>();
+  @Output() readPriorityUpdated = new EventEmitter<{
+    manwha: Manwha;
+    priority: number;
+  }>();
   @Output() wantToReRead = new EventEmitter<Manwha>();
   @Output() haveReRead = new EventEmitter<Manwha>();
   @Output() manwhaUpdated = new EventEmitter<void>();
@@ -86,7 +89,7 @@ export class ManwhaComponent {
       rating: this.manwha.rating ?? 0,
       hasRatingComment: !!this.manwha.ratingComment,
       currentPriority: this.getReadPriority(),
-      entityType: 'manwha',
+      entityType: EntityType.MANWHA,
       wantToReRead: !!this.manwha.wantToReadAgain,
     };
   }
@@ -167,7 +170,10 @@ export class ManwhaComponent {
       );
       if (!response.ok) {
         const payload = await response.json().catch(() => ({}));
-        console.warn('Échec du passage du manwha en lu :', payload?.error || response.statusText);
+        console.warn(
+          'Échec du passage du manwha en lu :',
+          payload?.error || response.statusText
+        );
         return;
       }
       this.manwhaUpdated.emit();
