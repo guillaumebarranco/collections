@@ -21,6 +21,7 @@ import { StatItem } from '../../../../components/stats-display/stats-display.com
 import { FormsModule } from '@angular/forms';
 import { AddBookComponent } from '../../../add/add-book/add-book.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { DEFAULT_USER_ID } from '../../../../utils/constants';
 
 @Component({
   selector: 'app-books-header',
@@ -107,7 +108,7 @@ export class BooksHeaderComponent {
 
   private userId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
-    return params['id'] ?? 'guillaume';
+    return params['id'] ?? DEFAULT_USER_ID;
   }
 
   isAdminView(): boolean {

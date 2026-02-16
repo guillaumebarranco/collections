@@ -14,6 +14,7 @@ import { MovieView } from '../movies.utils';
 import { FormsModule } from '@angular/forms';
 import { AddMovieComponent } from '../../../add/add-movie/add-movie.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { DEFAULT_USER_ID } from '../../../../utils/constants';
 
 @Component({
   selector: 'app-movies-header',
@@ -72,7 +73,7 @@ export class MoviesHeaderComponent {
 
   private userId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
-    return params['id'] ?? 'guillaume';
+    return params['id'] ?? DEFAULT_USER_ID;
   }
 
   isAdminView(): boolean {
@@ -88,7 +89,7 @@ export class MoviesHeaderComponent {
   getSelectWatchlistRoute(): string[] {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
-    const userId = hasNameParam ? params['id'] : 'guillaume';
+    const userId = hasNameParam ? params['id'] : DEFAULT_USER_ID;
     return hasNameParam ? [`/${userId}`, 'select-movies'] : ['/select-movies'];
   }
 

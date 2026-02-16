@@ -18,6 +18,7 @@ import {
 import { MangasHeaderComponent } from './mangas-header/mangas-header.component';
 import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
 import { Manga } from '../../../models/manga-model';
+import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { Quizz } from '../../../models/quizz-model';
 import {
   MangaView,
@@ -122,7 +123,7 @@ export class MangasComponent implements OnInit {
 
     return hasNameParam
       ? this.mangasList()[params['id']] || []
-      : this.mangasList()['guillaume'];
+      : this.mangasList()[DEFAULT_USER_ID];
   });
 
   allReadlistMangas = computed<Manga[]>(() => {
@@ -134,7 +135,7 @@ export class MangasComponent implements OnInit {
 
     return hasNameParam
       ? this.readlistMangasList()[params['id']] || []
-      : this.readlistMangasList()['guillaume'];
+      : this.readlistMangasList()[DEFAULT_USER_ID];
   });
 
   filteredMangas = computed<Manga[]>(() => {
@@ -356,7 +357,7 @@ export class MangasComponent implements OnInit {
 
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
-    return params['id'] ?? 'guillaume';
+    return params['id'] ?? DEFAULT_USER_ID;
   }
 
   public isAdminView(): boolean {

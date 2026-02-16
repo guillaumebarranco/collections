@@ -1,5 +1,7 @@
 import { Component, computed, inject } from '@angular/core';
 import { Params, ActivatedRoute, Router } from '@angular/router';
+import { DEFAULT_USER_ID } from '../../utils/constants';
+
 @Component({
   selector: 'app-select-entities',
   template: '',
@@ -43,7 +45,7 @@ export class SelectEntitiesComponent {
   userId = computed<string>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
-    return hasNameParam ? params['id'] : 'guillaume';
+    return hasNameParam ? params['id'] : DEFAULT_USER_ID;
   });
 
   username = computed<string>(() => {

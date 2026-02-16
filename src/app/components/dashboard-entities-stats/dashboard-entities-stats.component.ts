@@ -1,20 +1,6 @@
-import {
-  Component,
-  computed,
-  inject,
-  signal,
-  OnInit,
-  AfterViewInit,
-  ElementRef,
-  ViewChild,
-} from '@angular/core';
+import { Component, computed, inject, signal, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Params } from '@angular/router';
-import {
-  renderBooksReadChart,
-  renderMoviesCinemaChart,
-  renderMoviesWatchedChart,
-} from '../../utils/graph.utils';
 import { Movie } from '../../models/movie-model';
 import { Serie } from '../../models/serie-model';
 import { Book } from '../../models/book-model';
@@ -24,6 +10,7 @@ import { Comic } from '../../models/comic-model';
 import { Bd } from '../../models/bd-model';
 import { Manga } from '../../models/manga-model';
 import { Manwha } from '../../models/manwha-model';
+import { DEFAULT_USER_ID } from '../../utils/constants';
 import { getAllMovies } from '../../facades/movies/movies.facade';
 import { getAllSeries } from '../../facades/series/series.facade';
 import { getAllBooks } from '../../facades/books/books.facade';
@@ -68,7 +55,7 @@ interface EntityStats {
   templateUrl: './dashboard-entities-stats.component.html',
   styleUrls: ['./dashboard-entities-stats.component.scss'],
 })
-export class DashboardEntitiesStatsComponent implements OnInit, AfterViewInit {
+export class DashboardEntitiesStatsComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
 
   selectedEntity = signal<EntityType>('movies');
@@ -93,17 +80,6 @@ export class DashboardEntitiesStatsComponent implements OnInit, AfterViewInit {
   bdsList = signal<{ [key: string]: Bd[] }>({});
   mangasList = signal<{ [key: string]: Manga[] }>({});
   manwhasList = signal<{ [key: string]: Manwha[] }>({});
-
-  @ViewChild('moviesWatchedChart')
-  moviesWatchedChart?: ElementRef<HTMLDivElement>;
-
-  @ViewChild('moviesCinemaChart')
-  moviesCinemaChart?: ElementRef<HTMLDivElement>;
-
-  @ViewChild('booksReadChart')
-  booksReadChart?: ElementRef<HTMLDivElement>;
-
-  currentYear = new Date().getFullYear();
 
   userId = computed<string>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
@@ -171,97 +147,6 @@ export class DashboardEntitiesStatsComponent implements OnInit, AfterViewInit {
       default:
         return {};
     }
-  });
-
-  /** Films vus par an (tous, pas seulement au cinéma) */
-  moviesWatchedByYear = computed(() => {
-    const startYear = 2000;
-    const endYear = this.currentYear;
-    const years = Array.from(
-      { length: endYear - startYear + 1 },
-      (_, index) => startYear + index
-    );
-    const counts = new Map<number, number>();
-    years.forEach((year) => counts.set(year, 0));
-
-    const uniqueMovies = this.getUniqueMovies(this.allMovies());
-    uniqueMovies.forEach((movie) => {
-      const year = this.getMovieViewedYear(movie);
-      if (year === null || year < startYear || year > endYear) {
-        return;
-      }
-      counts.set(year, (counts.get(year) || 0) + 1);
-    });
-
-    return years.map((year) => ({
-      year,
-      count: counts.get(year) || 0,
-    }));
-  });
-
-  moviesWatchedTotal = computed(() => {
-    return this.moviesWatchedByYear().reduce((sum, item) => sum + item.count, 0);
-  });
-
-  moviesCinemaByYear = computed(() => {
-    const startYear = 2000;
-    const endYear = this.currentYear;
-    const years = Array.from(
-      { length: endYear - startYear + 1 },
-      (_, index) => startYear + index
-    );
-    const counts = new Map<number, number>();
-    years.forEach((year) => counts.set(year, 0));
-
-    const uniqueMovies = this.getUniqueMovies(this.allMovies());
-    uniqueMovies.forEach((movie) => {
-      if (!movie.seenAtCinema) {
-        return;
-      }
-      const year = this.getMovieViewedYear(movie);
-      if (year === null || year < startYear || year > endYear) {
-        return;
-      }
-      counts.set(year, (counts.get(year) || 0) + 1);
-    });
-
-    return years.map((year) => ({
-      year,
-      count: counts.get(year) || 0,
-    }));
-  });
-
-  moviesCinemaTotal = computed(() => {
-    return this.moviesCinemaByYear().reduce((sum, item) => sum + item.count, 0);
-  });
-
-  booksReadByYear = computed(() => {
-    const startYear = 2000;
-    const endYear = this.currentYear;
-    const years = Array.from(
-      { length: endYear - startYear + 1 },
-      (_, index) => startYear + index
-    );
-    const counts = new Map<number, number>();
-    years.forEach((year) => counts.set(year, 0));
-
-    const uniqueBooks = this.getUniqueBooks(this.allBooks());
-    uniqueBooks.forEach((book) => {
-      const year = this.getBookReadYear(book);
-      if (year === null || year < startYear || year > endYear) {
-        return;
-      }
-      counts.set(year, (counts.get(year) || 0) + 1);
-    });
-
-    return years.map((year) => ({
-      year,
-      count: counts.get(year) || 0,
-    }));
-  });
-
-  booksReadTotal = computed(() => {
-    return this.booksReadByYear().reduce((sum, item) => sum + item.count, 0);
   });
 
   private getMoviesStats(): EntityStats {
@@ -600,15 +485,6 @@ export class DashboardEntitiesStatsComponent implements OnInit, AfterViewInit {
 
   selectEntity(entity: EntityType): void {
     this.selectedEntity.set(entity);
-    if (entity === 'movies') {
-      requestAnimationFrame(() => {
-        this.renderMoviesWatchedChart();
-        this.renderMoviesCinemaChart();
-      });
-    }
-    if (entity === 'books') {
-      requestAnimationFrame(() => this.renderBooksReadChart());
-    }
   }
 
   getEntityLabel(entity: EntityType): string {
@@ -655,73 +531,56 @@ export class DashboardEntitiesStatsComponent implements OnInit, AfterViewInit {
     void this.loadManwhasData();
   }
 
-  ngAfterViewInit() {
-    requestAnimationFrame(() => {
-      this.renderMoviesWatchedChart();
-      this.renderMoviesCinemaChart();
-    });
-    requestAnimationFrame(() => this.renderBooksReadChart());
-  }
-
   private async loadMoviesData() {
-    const userId = this.userId() || 'guillaume';
+    const userId = this.userId() || DEFAULT_USER_ID;
     const movies = await getAllMovies(userId);
     this.moviesList.set(movies);
-    if (this.selectedEntity() === 'movies') {
-      requestAnimationFrame(() => {
-        this.renderMoviesWatchedChart();
-        this.renderMoviesCinemaChart();
-      });
-    }
   }
 
   private async loadBooksData() {
-    const userId = this.userId() || 'guillaume';
+    const userId = this.userId() || DEFAULT_USER_ID;
     const books = await getAllBooks(userId);
     this.booksList.set(books);
-    if (this.selectedEntity() === 'books') {
-      requestAnimationFrame(() => this.renderBooksReadChart());
-    }
   }
 
   private async loadSeriesData() {
-    const userId = this.userId() || 'guillaume';
+    const userId = this.userId() || DEFAULT_USER_ID;
     const series = await getAllSeries(userId);
     this.seriesList.set(series);
   }
 
   private async loadGamesData() {
-    const userId = this.userId() || 'guillaume';
+    const userId = this.userId() || DEFAULT_USER_ID;
     const games = await getAllGames(userId);
     this.gamesList.set(games);
   }
 
   private async loadMusicsData() {
-    const userId = this.userId() || 'guillaume';
+    const userId = this.userId() || DEFAULT_USER_ID;
     const musics = await getAllMusics(userId);
     this.musicsList.set(musics);
   }
 
   private async loadComicsData() {
-    const userId = this.userId() || 'guillaume';
+    const userId = this.userId() || DEFAULT_USER_ID;
     const comics = await getAllComics(userId);
     this.comicsList.set(comics);
   }
 
   private async loadBdsData() {
-    const userId = this.userId() || 'guillaume';
+    const userId = this.userId() || DEFAULT_USER_ID;
     const bds = await getAllBds(userId);
     this.bdsList.set(bds);
   }
 
   private async loadMangasData() {
-    const userId = this.userId() || 'guillaume';
+    const userId = this.userId() || DEFAULT_USER_ID;
     const mangas = await getAllMangas(userId);
     this.mangasList.set(mangas);
   }
 
   private async loadManwhasData() {
-    const userId = this.userId() || 'guillaume';
+    const userId = this.userId() || DEFAULT_USER_ID;
     const manwhas = await getAllManwhas(userId);
     this.manwhasList.set(manwhas);
   }
@@ -733,73 +592,5 @@ export class DashboardEntitiesStatsComponent implements OnInit, AfterViewInit {
       const [title, director] = key.split('|');
       return movies.find((m) => m.title === title && m.director === director)!;
     });
-  }
-
-  private getUniqueBooks(books: Book[]): Book[] {
-    return Array.from(new Set(books.map((b) => `${b.title}|${b.author}`))).map(
-      (key) => {
-        const [title, author] = key.split('|');
-        return books.find((b) => b.title === title && b.author === author)!;
-      }
-    );
-  }
-
-  private getMovieViewedYear(movie: Movie): number | null {
-    const dateValue = movie.firstViewedDate || movie.lastViewedDate;
-    if (!dateValue) {
-      return null;
-    }
-    const year = new Date(dateValue).getFullYear();
-    if (Number.isNaN(year)) {
-      return null;
-    }
-    return year;
-  }
-
-  private getBookReadYear(book: Book): number | null {
-    if (!book.readDate) {
-      return null;
-    }
-    const year = new Date(book.readDate).getFullYear();
-    if (Number.isNaN(year)) {
-      return null;
-    }
-    return year;
-  }
-
-  private renderMoviesWatchedChart(): void {
-    if (this.selectedEntity() !== 'movies') {
-      return;
-    }
-    const container = this.moviesWatchedChart?.nativeElement;
-    renderMoviesWatchedChart(
-      container,
-      this.moviesWatchedTotal(),
-      this.moviesWatchedByYear()
-    );
-  }
-
-  private renderMoviesCinemaChart(): void {
-    if (this.selectedEntity() !== 'movies') {
-      return;
-    }
-    const container = this.moviesCinemaChart?.nativeElement;
-    renderMoviesCinemaChart(
-      container,
-      this.moviesCinemaTotal(),
-      this.moviesCinemaByYear()
-    );
-  }
-
-  private renderBooksReadChart(): void {
-    if (this.selectedEntity() !== 'books') {
-      return;
-    }
-    const container = this.booksReadChart?.nativeElement;
-    renderBooksReadChart(
-      container,
-      this.booksReadTotal(),
-      this.booksReadByYear()
-    );
   }
 }

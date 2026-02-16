@@ -29,6 +29,7 @@ import {
 import { AuthService } from '../../../core/auth.service';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
 import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
+import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { StarInfo } from '../../../models/various-model';
 import { getRatingStars } from '../../../utils/constants';
 
@@ -85,7 +86,7 @@ export class SerieComponent {
   private getActiveUserId(): string {
     const directId = this.activatedRoute.snapshot.params['id'];
     const parentId = this.activatedRoute.parent?.snapshot.params['id'];
-    return directId || parentId || 'guillaume';
+    return directId || parentId || DEFAULT_USER_ID;
   }
 
   openReviewModal(): void {
@@ -129,7 +130,7 @@ export class SerieComponent {
     const dialogRef = this.dialog.open(EditSerieComponent, {
       data: {
         serie: this.serie,
-        userId: userId || 'guillaume',
+        userId: userId || DEFAULT_USER_ID,
         list,
         index,
       },
@@ -151,7 +152,7 @@ export class SerieComponent {
     const dialogRef = this.dialog.open(EditSerieSeasonsComponent, {
       data: {
         serie: this.serie,
-        userId: userId || 'guillaume',
+        userId: userId || DEFAULT_USER_ID,
       },
       width: '720px',
       maxWidth: '95vw',

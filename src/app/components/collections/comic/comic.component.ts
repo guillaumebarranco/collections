@@ -21,6 +21,7 @@ import { Comic } from '../../../models/comic-model';
 import { Quizz, EntityType } from '../../../models/quizz-model';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
 import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
+import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { ComicView } from '../../../containers/collections/comics/comics.utils';
 import {
   MoveEntityReviewModalComponent,
@@ -115,7 +116,7 @@ export class ComicComponent {
   private getActiveUserId(): string {
     const directId = this.activatedRoute.snapshot.params['id'];
     const parentId = this.activatedRoute.parent?.snapshot.params['id'];
-    return directId || parentId || 'guillaume';
+    return directId || parentId || DEFAULT_USER_ID;
   }
 
   openReviewModal(): void {

@@ -23,6 +23,7 @@ import { AuthService } from '../../../core/auth.service';
 import { getGameTimePlayed } from '../../../utils/games.utils';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
 import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
+import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { GameView } from '../../../containers/collections/games/games.utils';
 import {
   MoveEntityReviewModalComponent,
@@ -81,7 +82,7 @@ export class GameComponent {
   private getActiveUserId(): string {
     const directId = this.activatedRoute.snapshot.params['id'];
     const parentId = this.activatedRoute.parent?.snapshot.params['id'];
-    return directId || parentId || 'guillaume';
+    return directId || parentId || DEFAULT_USER_ID;
   }
 
   openReviewModal(): void {
@@ -106,7 +107,7 @@ export class GameComponent {
     const dialogRef = this.dialog.open(EditGameComponent, {
       data: {
         game: this.game,
-        userId: userId || 'guillaume',
+        userId: userId || DEFAULT_USER_ID,
         list,
         index,
       },

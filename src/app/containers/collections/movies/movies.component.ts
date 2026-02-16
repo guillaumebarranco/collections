@@ -23,6 +23,7 @@ import {
   capitalizeFirstLetter,
 } from '../../../utils/stats.utils';
 import { Movie } from '../../../models/movie-model';
+import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { Quizz } from '../../../models/quizz-model';
 import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
 import {
@@ -240,7 +241,7 @@ export class MoviesComponent implements OnInit {
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
       ? this.watchingMoviesList()[params['id']] || []
-      : this.watchingMoviesList()['guillaume'];
+      : this.watchingMoviesList()[DEFAULT_USER_ID];
   });
 
   allMovies = computed<Movie[]>(() => {
@@ -251,7 +252,7 @@ export class MoviesComponent implements OnInit {
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
       ? this.moviesList()[params['id']] || []
-      : this.moviesList()['guillaume'];
+      : this.moviesList()[DEFAULT_USER_ID];
   });
 
   filteredMovies = computed<Movie[]>(() => {
@@ -458,7 +459,7 @@ export class MoviesComponent implements OnInit {
 
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
-    return params['id'] ?? 'guillaume';
+    return params['id'] ?? DEFAULT_USER_ID;
   }
 
   isAdminView(): boolean {
@@ -518,7 +519,7 @@ export class MoviesComponent implements OnInit {
   getSelectWatchlistRoute(): string[] {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
-    const userId = hasNameParam ? params['id'] : 'guillaume';
+    const userId = hasNameParam ? params['id'] : DEFAULT_USER_ID;
     return hasNameParam ? [`/${userId}`, 'select-movies'] : ['/select-movies'];
   }
 

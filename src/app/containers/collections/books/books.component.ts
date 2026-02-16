@@ -18,6 +18,7 @@ import {
 import { BooksHeaderComponent } from './books-header/books-header.component';
 import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
 import { Book } from '../../../models/book-model';
+import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { Quizz } from '../../../models/quizz-model';
 import {
   BookView,
@@ -308,7 +309,7 @@ export class BooksComponent implements OnInit {
 
     return hasNameParam
       ? this.booksList()[params['id']] || []
-      : this.booksList()['guillaume'];
+      : this.booksList()[DEFAULT_USER_ID];
   });
 
   allReadlistBooks = computed<Book[]>(() => {
@@ -319,7 +320,7 @@ export class BooksComponent implements OnInit {
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
       ? this.readlistBooksList()[params['id']] || []
-      : this.readlistBooksList()['guillaume'];
+      : this.readlistBooksList()[DEFAULT_USER_ID];
   });
 
   filteredBooks = computed<Book[]>(() => {
@@ -565,7 +566,7 @@ export class BooksComponent implements OnInit {
 
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
-    return params['id'] ?? 'guillaume';
+    return params['id'] ?? DEFAULT_USER_ID;
   }
 
   isAdminView(): boolean {

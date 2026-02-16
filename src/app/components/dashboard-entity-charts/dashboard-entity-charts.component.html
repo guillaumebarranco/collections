@@ -1,0 +1,62 @@
+<div class="entity-charts-container">
+  <h2>📈 Graphiques par entité</h2>
+
+  <div class="tabs">
+    @for (entity of entities; track entity) {
+    <button
+      class="tab-button"
+      [class.active]="selectedEntity() === entity"
+      (click)="selectEntity(entity)"
+    >
+      {{ getEntityLabel(entity) }}
+    </button>
+    }
+  </div>
+
+  <div class="charts-content">
+    @if (!hasChartForEntity(selectedEntity())) {
+    <div class="no-chart-message">
+      <p>Pas de graphique disponible pour cette entité pour le moment.</p>
+      <p class="no-chart-hint">
+        Les graphiques par entité seront ajoutés progressivement (films, livres,
+        etc.).
+      </p>
+    </div>
+    } @if (selectedEntity() === 'movies') {
+    <div class="charts-section charts-section--wide">
+      <h3>🎬 Films vus par an (2000-{{ currentYear }})</h3>
+      @if (moviesWatchedTotal() === 0) {
+      <div class="no-data">Aucun film vu depuis 2000.</div>
+      } @else {
+      <div #moviesWatchedChart class="cinema-chart"></div>
+      <div class="chart-footnote">
+        Total: {{ moviesWatchedTotal() }} film(s) vus
+      </div>
+      }
+    </div>
+    <div class="charts-section charts-section--wide">
+      <h3>🎬 Films vus au cinéma par an (2000-{{ currentYear }})</h3>
+      @if (moviesCinemaTotal() === 0) {
+      <div class="no-data">Aucun film vu au cinéma depuis 2000.</div>
+      } @else {
+      <div #moviesCinemaChart class="cinema-chart"></div>
+      <div class="chart-footnote">
+        Total: {{ moviesCinemaTotal() }} film(s) vus au cinéma
+      </div>
+      }
+    </div>
+    } @if (selectedEntity() === 'books') {
+    <div class="charts-section charts-section--wide">
+      <h3>📖 Livres lus par an (2000-{{ currentYear }})</h3>
+      @if (booksReadTotal() === 0) {
+      <div class="no-data">Aucun livre lu depuis 2000.</div>
+      } @else {
+      <div #booksReadChart class="books-chart"></div>
+      <div class="chart-footnote">
+        Total: {{ booksReadTotal() }} livre(s) lus
+      </div>
+      }
+    </div>
+    }
+  </div>
+</div>

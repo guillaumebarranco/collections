@@ -23,6 +23,7 @@ import { EditEntityHeaderComponent } from '../../../components/edit-entity-heade
 import { AuthService } from '../../../core/auth.service';
 import { QuizzCreateModalComponent } from '../../../components/quizz-create-modal/quizz-create-modal.component';
 import { EntityType } from '../../../models/quizz-model';
+import { DEFAULT_USER_ID } from '../../../utils/constants';
 
 /** Type de complétion pour une session (une seule option par session). */
 export type SessionCompletionType =
@@ -63,8 +64,6 @@ type EditGameDialogData = {
   list?: Game[];
   index?: number;
 };
-
-const DEFAULT_USER_ID = 'guillaume';
 
 @Component({
   selector: 'app-edit-game',

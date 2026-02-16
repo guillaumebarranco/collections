@@ -65,8 +65,13 @@
     <app-dashboard-entities-stats></app-dashboard-entities-stats>
     }
 
+    <!-- Graphiques par entité -->
+    @if (selectedTab() === 'charts') {
+    <app-dashboard-entity-charts></app-dashboard-entity-charts>
+    }
+
     <!-- Top 5 -->
-    @if (selectedTab() === 'top5') {
+    @if (selectedTab() === 'top5stats') {
     <div class="dashboard-section">
       <h2>🏆 Top 5</h2>
 

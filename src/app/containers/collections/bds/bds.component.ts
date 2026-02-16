@@ -18,6 +18,7 @@ import {
 import { BdsHeaderComponent } from './bds-header/bds-header.component';
 import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
 import { Bd } from '../../../models/bd-model';
+import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { Quizz } from '../../../models/quizz-model';
 import {
   BdView,
@@ -122,7 +123,7 @@ export class BdsComponent implements OnInit {
 
     return hasNameParam
       ? this.bdsList()[params['id']] || []
-      : this.bdsList()['guillaume'];
+      : this.bdsList()[DEFAULT_USER_ID];
   });
 
   allReadlistBds = computed<Bd[]>(() => {
@@ -134,7 +135,7 @@ export class BdsComponent implements OnInit {
 
     return hasNameParam
       ? this.readlistBdsList()[params['id']] || []
-      : this.readlistBdsList()['guillaume'];
+      : this.readlistBdsList()[DEFAULT_USER_ID];
   });
 
   filteredBds = computed<Bd[]>(() => {
@@ -354,7 +355,7 @@ export class BdsComponent implements OnInit {
 
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
-    return params['id'] ?? 'guillaume';
+    return params['id'] ?? DEFAULT_USER_ID;
   }
 
   public isAdminView(): boolean {

@@ -28,6 +28,7 @@ import {
 import { AuthService } from '../../../core/auth.service';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
 import { getApiBaseUrl, isBaseEntityView } from '../../../core/config';
+import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { MovieView } from '../../../containers/collections/movies/movies.utils';
 
 @Component({
@@ -119,7 +120,7 @@ export class MovieComponent {
 
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
-    return params['id'] ?? 'guillaume';
+    return params['id'] ?? DEFAULT_USER_ID;
   }
 
   openReviewModal(): void {
@@ -144,7 +145,7 @@ export class MovieComponent {
     const dialogRef = this.dialog.open(EditMovieComponent, {
       data: {
         movie: this.movie,
-        userId: userId || 'guillaume',
+        userId: userId || DEFAULT_USER_ID,
         list,
         index,
       },

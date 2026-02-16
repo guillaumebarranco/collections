@@ -18,6 +18,7 @@ import {
 import { ComicsHeaderComponent } from './comics-header/comics-header.component';
 import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
 import { Comic } from '../../../models/comic-model';
+import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { Quizz } from '../../../models/quizz-model';
 import {
   ComicView,
@@ -119,7 +120,7 @@ export class ComicsComponent implements OnInit {
 
     return hasNameParam
       ? this.comicsList()[params['id']] || []
-      : this.comicsList()['guillaume'];
+      : this.comicsList()[DEFAULT_USER_ID];
   });
 
   allReadlistComics = computed<Comic[]>(() => {
@@ -131,7 +132,7 @@ export class ComicsComponent implements OnInit {
 
     return hasNameParam
       ? this.readlistComicsList()[params['id']] || []
-      : this.readlistComicsList()['guillaume'];
+      : this.readlistComicsList()[DEFAULT_USER_ID];
   });
 
   filteredComics = computed<Comic[]>(() => {
@@ -367,7 +368,7 @@ export class ComicsComponent implements OnInit {
 
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
-    return params['id'] ?? 'guillaume';
+    return params['id'] ?? DEFAULT_USER_ID;
   }
 
   public isAdminView(): boolean {

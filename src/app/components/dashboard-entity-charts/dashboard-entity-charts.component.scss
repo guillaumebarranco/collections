@@ -1,4 +1,4 @@
-.entities-stats-container {
+.entity-charts-container {
   background: white;
   border-radius: 15px;
   padding: 25px;
@@ -46,13 +46,13 @@
     }
   }
 
-  .stats-content {
+  .charts-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: 1fr;
     gap: 25px;
   }
 
-  .stats-section {
+  .charts-section {
     background: #f8f9fa;
     border-radius: 12px;
     padding: 20px;
@@ -67,65 +67,82 @@
     }
   }
 
-  .stats-section--wide {
+  .charts-section--wide {
     grid-column: 1 / -1;
   }
 
-  .stats-list {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  .cinema-chart,
+  .books-chart {
+    width: 100%;
+    min-height: 260px;
+    position: relative;
+
+    svg {
+      width: 100%;
+      height: auto;
+      overflow: visible;
+    }
+
+    .cinema-grid line {
+      stroke: #e3e6ea;
+    }
+
+    .cinema-grid path {
+      stroke: transparent;
+    }
   }
 
-  .stat-item {
-    display: flex;
-    align-items: center;
-    padding: 10px 12px;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    transition: transform 0.2s ease;
+  :host ::ng-deep .chart-tooltip {
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    background: #212529;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    transform: translateY(-50%);
+    transition: opacity 0.1s ease;
+  }
 
-    &:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  .chart-footnote {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+
+  .no-data {
+    text-align: center;
+    padding: 15px;
+    color: #6c757d;
+    font-style: italic;
+  }
+
+  .no-chart-message {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 40px 20px;
+    background: #f8f9fa;
+    border-radius: 12px;
+    border: 1px dashed #dee2e6;
+
+    p {
+      margin: 0 0 10px 0;
+      color: #495057;
+      font-size: 1.1rem;
     }
 
-    .rank {
-      font-weight: bold;
+    .no-chart-hint {
+      font-size: 0.95rem;
       color: #6c757d;
-      min-width: 35px;
-      font-size: 0.9rem;
-    }
-
-    .name {
-      flex: 1;
-      margin: 0 10px;
-      font-weight: 500;
-      color: #212529;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-    }
-
-    .count {
-      font-weight: bold;
-      color: #007bff;
-      background: #e3f2fd;
-      padding: 4px 10px;
-      border-radius: 12px;
-      font-size: 0.85rem;
-      min-width: 40px;
-      text-align: center;
     }
   }
 }
 
-// Responsive
 @media (max-width: 768px) {
-
-
-  .entities-stats-container {
+  .entity-charts-container {
     padding: 20px;
 
     h2 {
@@ -142,27 +159,19 @@
       font-size: 0.9rem;
     }
 
-    .stats-content {
-      gap: 20px;
-    }
-
-    .stats-section {
-      padding: 5px;
+    .charts-section {
+      padding: 15px;
 
       h3 {
         font-size: 1.1rem;
       }
     }
 
-    .stat-item {
-      padding: 8px 10px;
+    .no-chart-message {
+      padding: 30px 15px;
 
-      .name {
-        font-size: 0.9rem;
-      }
-
-      .count {
-        font-size: 0.8rem;
+      p {
+        font-size: 1rem;
       }
     }
   }

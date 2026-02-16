@@ -13,6 +13,7 @@ import { MenuComponent } from '../../../components/menu/menu.component';
 import { SortOption } from '../../../components/sort-dropdown/sort-dropdown.component';
 import { ManwhasHeaderComponent } from './manwhas-header/manwhas-header.component';
 import { Manwha } from '../../../models/manwha-model';
+import { DEFAULT_USER_ID } from '../../../utils/constants';
 import {
   ManwhaView,
   getSortedManwhas,
@@ -120,7 +121,7 @@ export class ManwhasComponent implements OnInit {
 
     const manwhas = hasNameParam
       ? this.manwhasList()[params['id']] || []
-      : this.manwhasList()['guillaume'];
+      : this.manwhasList()[DEFAULT_USER_ID];
 
     return manwhas;
   });
@@ -134,7 +135,7 @@ export class ManwhasComponent implements OnInit {
 
     return hasNameParam
       ? this.readlistManwhasList()[params['id']] || []
-      : this.readlistManwhasList()['guillaume'];
+      : this.readlistManwhasList()[DEFAULT_USER_ID];
   });
 
   filteredManwhas = computed<Manwha[]>(() => {
@@ -364,7 +365,7 @@ export class ManwhasComponent implements OnInit {
 
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
-    return params['id'] ?? 'guillaume';
+    return params['id'] ?? DEFAULT_USER_ID;
   }
 
   public isAdminView(): boolean {

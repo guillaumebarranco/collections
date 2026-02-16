@@ -18,6 +18,7 @@ import {
 import { SeriesHeaderComponent } from './series-header/series-header.component';
 import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
 import { Serie } from '../../../models/serie-model';
+import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { Quizz } from '../../../models/quizz-model';
 import {
   SerieView,
@@ -115,7 +116,7 @@ export class SeriesComponent implements OnInit {
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
       ? this.seriesList()[params['id']] || []
-      : this.seriesList()['guillaume'];
+      : this.seriesList()[DEFAULT_USER_ID];
   });
 
   allWatchlistSeries = computed<Serie[]>(() => {
@@ -126,7 +127,7 @@ export class SeriesComponent implements OnInit {
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
       ? this.watchingSeriesList()[params['id']] || []
-      : this.watchingSeriesList()['guillaume'];
+      : this.watchingSeriesList()[DEFAULT_USER_ID];
   });
 
   filteredSeries = computed<Serie[]>(() => {
@@ -250,7 +251,7 @@ export class SeriesComponent implements OnInit {
 
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
-    return params['id'] ?? 'guillaume';
+    return params['id'] ?? DEFAULT_USER_ID;
   }
 
   public isAdminView(): boolean {

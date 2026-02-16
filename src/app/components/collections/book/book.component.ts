@@ -19,6 +19,7 @@ import { AuthService } from '../../../core/auth.service';
 import { Quizz, EntityType } from '../../../models/quizz-model';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
 import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
+import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { BookView } from '../../../containers/collections/books/books.utils';
 import { Book } from '../../../models/book-model';
 import { ReviewModalComponent } from '../../review-modal/review-modal.component';
@@ -114,7 +115,7 @@ export class BookComponent {
 
   private getActiveUserId(): string {
     const params = this.activatedRoute.snapshot.params;
-    return params['id'] ?? 'guillaume';
+    return params['id'] ?? DEFAULT_USER_ID;
   }
 
   openReviewModal(): void {

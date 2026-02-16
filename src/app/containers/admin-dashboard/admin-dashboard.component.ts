@@ -4,6 +4,7 @@ import { RouterModule } from '@angular/router';
 import { MenuComponent } from '../../components/menu/menu.component';
 import { AuthService } from '../../core/auth.service';
 import { getAdminUsers, AdminUser } from '../../facades/admin/admin.facade';
+import { DEFAULT_USER_ID } from '../../utils/constants';
 
 @Component({
   selector: 'app-admin-dashboard',
@@ -32,7 +33,7 @@ export class AdminDashboardComponent implements OnInit {
     if (!this.isAdmin()) return;
     this.isLoading.set(true);
     try {
-      const userId = this.authService.getAuthenticatedUserId() || 'guillaume';
+      const userId = this.authService.getAuthenticatedUserId() || DEFAULT_USER_ID;
       const response = await getAdminUsers(userId);
       this.users.set(response.users);
     } finally {

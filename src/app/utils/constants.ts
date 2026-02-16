@@ -15,3 +15,5 @@ export function getRatingStars(rating: number): StarInfo[] {
   }
   return stars;
 }
+
+export const DEFAULT_USER_ID = 'guillaume';

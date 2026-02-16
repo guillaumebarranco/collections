@@ -18,6 +18,7 @@ import {
 import { GamesHeaderComponent } from './games-header/games-header.component';
 import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
 import { Game } from '../../../models/game-model';
+import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { Quizz } from '../../../models/quizz-model';
 
 import {
@@ -126,7 +127,7 @@ export class GamesComponent implements OnInit {
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
       ? this.gamesList()[params['id']] || []
-      : this.gamesList()['guillaume'];
+      : this.gamesList()[DEFAULT_USER_ID];
   });
 
   allGamelistGames = computed<Game[]>(() => {
@@ -137,7 +138,7 @@ export class GamesComponent implements OnInit {
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
       ? this.gamelistGamesList()[params['id']] || []
-      : this.gamelistGamesList()['guillaume'];
+      : this.gamelistGamesList()[DEFAULT_USER_ID];
   });
 
   filteredGames = computed<Game[]>(() => {
@@ -250,7 +251,7 @@ export class GamesComponent implements OnInit {
 
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
-    return params['id'] ?? 'guillaume';
+    return params['id'] ?? DEFAULT_USER_ID;
   }
 
   public isAdminView(): boolean {

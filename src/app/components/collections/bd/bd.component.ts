@@ -26,6 +26,7 @@ import {
   MoveEntityReviewModalComponent,
   MoveEntityReviewModalResult,
 } from '../../move-entity-review-modal/move-entity-review-modal.component';
+import { DEFAULT_USER_ID } from '../../../utils/constants';
 
 @Component({
   selector: 'app-bd',
@@ -112,7 +113,7 @@ export class BdComponent {
   private getActiveUserId(): string {
     const directId = this.activatedRoute.snapshot.params['id'];
     const parentId = this.activatedRoute.parent?.snapshot.params['id'];
-    return directId || parentId || 'guillaume';
+    return directId || parentId || DEFAULT_USER_ID;
   }
 
   openReviewModal(): void {

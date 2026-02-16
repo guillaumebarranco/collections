@@ -36,6 +36,7 @@ import {
   musicSortOptions,
   musicViewOptions,
 } from './musics.utils';
+import { DEFAULT_USER_ID } from '../../../utils/constants';
 
 @Component({
   selector: 'app-musics',
@@ -99,7 +100,7 @@ export class MusicsComponent implements OnInit {
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
       ? this.musicsList()[params['id']] || []
-      : this.musicsList()['guillaume'];
+      : this.musicsList()[DEFAULT_USER_ID];
   });
 
   // Musiques filtrées selon le filtre sélectionné
@@ -322,7 +323,7 @@ export class MusicsComponent implements OnInit {
 
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
-    return params['id'] ?? 'guillaume';
+    return params['id'] ?? DEFAULT_USER_ID;
   }
 
   private calculateTotalDuration(): string {

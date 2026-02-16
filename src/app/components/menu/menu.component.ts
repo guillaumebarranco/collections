@@ -9,6 +9,7 @@ import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { MatDialog } from '@angular/material/dialog';
 import { AuthService } from '../../core/auth.service';
+import { DEFAULT_USER_ID } from '../../utils/constants';
 import { MenuConfigService } from '../../core/menu-config.service';
 import { MenuConfigModalComponent } from '../menu-config-modal/menu-config-modal.component';
 
@@ -145,7 +146,7 @@ export class MenuComponent implements OnInit {
     if (hasNameParam) {
       return `/${params['id']}/${route}`;
     }
-    return `/guillaume/${route}`;
+    return `/${DEFAULT_USER_ID}/${route}`;
   }
 
   @HostListener('window:resize')

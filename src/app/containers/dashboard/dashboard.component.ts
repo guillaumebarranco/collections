@@ -11,10 +11,12 @@ import {
   StatItemColor,
 } from '../../components/stats-display/stats-display.component';
 import { DashboardEntitiesStatsComponent } from '../../components/dashboard-entities-stats/dashboard-entities-stats.component';
+import { DashboardEntityChartsComponent } from '../../components/dashboard-entity-charts/dashboard-entity-charts.component';
 import { DashboardUserTodosComponent } from '../../components/dashboard-user-todos/dashboard-user-todos.component';
 import { LoginComponent } from '../../components/login/login.component';
 
 import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
+import { DEFAULT_USER_ID } from '../../utils/constants';
 import { Book } from '../../models/book-model';
 import { Movie } from '../../models/movie-model';
 import { Music } from '../../models/music-model';
@@ -103,6 +105,7 @@ interface TopManga extends Manga {
     ViewToggleComponent,
     StatsDisplayComponent,
     DashboardEntitiesStatsComponent,
+    DashboardEntityChartsComponent,
     DashboardUserTodosComponent,
     LoginComponent,
   ],
@@ -115,14 +118,17 @@ export class DashboardComponent implements OnInit {
   authService = inject(AuthService);
 
   filledUserId = signal<string>('');
-  selectedTab = signal<'overview' | 'entities' | 'top5'>('overview');
+  selectedTab = signal<'overview' | 'entities' | 'charts' | 'top5stats'>(
+    'overview'
+  );
   isAuthenticated = computed<boolean>(() => this.authService.isAuthenticated());
   isAdmin = computed<boolean>(() => this.authService.isAdmin());
 
   tabOptions: ViewToggleOption[] = [
     { value: 'overview', label: "Vue d'ensemble" },
     { value: 'entities', label: 'Statistiques par entité' },
-    { value: 'top5', label: 'Top 5' },
+    { value: 'charts', label: 'Graphiques par entité' },
+    { value: 'top5stats', label: 'Top 5 (statistiques)' },
   ];
 
   booksList = signal<{ [key: string]: Book[] }>({});
@@ -600,7 +606,7 @@ export class DashboardComponent implements OnInit {
     this.router.navigate([normalized]);
   }
 
-  onTabChange(tab: 'overview' | 'entities' | 'top5'): void {
+  onTabChange(tab: 'overview' | 'entities' | 'charts' | 'top5stats'): void {
     this.selectedTab.set(tab);
   }
 
@@ -624,97 +630,97 @@ export class DashboardComponent implements OnInit {
   }
 
   private async loadMoviesData() {
-    const userId = this.userId() || 'guillaume';
+    const userId = this.userId() || DEFAULT_USER_ID;
     const movies = await getAllMovies(userId);
     this.moviesList.set(movies);
   }
 
   private async loadWatchlistMoviesData() {
-    const userId = this.userId() || 'guillaume';
+    const userId = this.userId() || DEFAULT_USER_ID;
     const movies = await getAllWatchlistMovies(userId);
     this.watchlistMoviesList.set(movies);
   }
 
   private async loadBooksData() {
-    const userId = this.userId() || 'guillaume';
+    const userId = this.userId() || DEFAULT_USER_ID;
     const books = await getAllBooks(userId);
     this.booksList.set(books);
   }
 
   private async loadReadlistBooksData() {
-    const userId = this.userId() || 'guillaume';
+    const userId = this.userId() || DEFAULT_USER_ID;
     const books = await getAllReadlistBooks(userId);
     this.readlistBooksList.set(books);
   }
 
   private async loadMangasData() {
-    const userId = this.userId() || 'guillaume';
+    const userId = this.userId() || DEFAULT_USER_ID;
     const mangas = await getAllMangas(userId);
     this.mangasList.set(mangas);
   }
 
   private async loadComicsData() {
-    const userId = this.userId() || 'guillaume';
+    const userId = this.userId() || DEFAULT_USER_ID;
     const comics = await getAllComics(userId);
     this.comicsList.set(comics);
   }
 
   private async loadReadlistComicsData() {
-    const userId = this.userId() || 'guillaume';
+    const userId = this.userId() || DEFAULT_USER_ID;
     const comics = await getAllReadlistComics(userId);
     this.readlistComicsList.set(comics);
   }
 
   private async loadBdsData() {
-    const userId = this.userId() || 'guillaume';
+    const userId = this.userId() || DEFAULT_USER_ID;
     const bds = await getAllBds(userId);
     this.bdsList.set(bds);
   }
 
   private async loadReadlistBdsData() {
-    const userId = this.userId() || 'guillaume';
+    const userId = this.userId() || DEFAULT_USER_ID;
     const bds = await getAllReadlistBds(userId);
     this.readlistBdsList.set(bds);
   }
 
   private async loadReadlistMangasData() {
-    const userId = this.userId() || 'guillaume';
+    const userId = this.userId() || DEFAULT_USER_ID;
     const mangas = await getAllReadlistMangas(userId);
     this.readlistMangasList.set(mangas);
   }
 
   private async loadManwhasData() {
-    const userId = this.userId() || 'guillaume';
+    const userId = this.userId() || DEFAULT_USER_ID;
     const manwhas = await getAllManwhas(userId);
     this.manwhasList.set(manwhas);
   }
 
   private async loadReadlistManwhasData() {
-    const userId = this.userId() || 'guillaume';
+    const userId = this.userId() || DEFAULT_USER_ID;
     const manwhas = await getAllReadlistManwhas(userId);
     this.readlistManwhasList.set(manwhas);
   }
 
   private async loadSeriesData() {
-    const userId = this.userId() || 'guillaume';
+    const userId = this.userId() || DEFAULT_USER_ID;
     const series = await getAllSeries(userId);
     this.seriesList.set(series);
   }
 
   private async loadWatchlistSeriesData() {
-    const userId = this.userId() || 'guillaume';
+    const userId = this.userId() || DEFAULT_USER_ID;
     const series = await getAllWatchlistSeries(userId);
     this.watchlistSeriesList.set(series);
   }
 
   private async loadGamesData() {
-    const userId = this.userId() || 'guillaume';
+    const userId = this.userId() || DEFAULT_USER_ID;
     const games = await getAllGames(userId);
     this.gamesList.set(games);
   }
 
   private async loadMusicsData() {
-    const userId = this.userId() || 'guillaume';
+    const userId = this.userId() || DEFAULT_USER_ID;
     const musics = await getAllMusics(userId);
     this.musicsList.set(musics);
   }

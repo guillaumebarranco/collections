@@ -7,13 +7,12 @@ import { Serie, UserSerieSeason } from '../../../models/serie-model';
 import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
 import { AuthService } from '../../../core/auth.service';
+import { DEFAULT_USER_ID } from '../../../utils/constants';
 
 type EditSerieSeasonsDialogData = {
   serie: Serie;
   userId?: string;
 };
-
-const DEFAULT_USER_ID = 'guillaume';
 
 @Component({
   selector: 'app-edit-serie-seasons',

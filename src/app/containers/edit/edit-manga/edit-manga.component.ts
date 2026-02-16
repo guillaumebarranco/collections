@@ -20,6 +20,7 @@ import { EditEntityHeaderComponent } from '../../../components/edit-entity-heade
 import { AuthService } from '../../../core/auth.service';
 import { QuizzCreateModalComponent } from '../../../components/quizz-create-modal/quizz-create-modal.component';
 import { EntityType } from '../../../models/quizz-model';
+import { DEFAULT_USER_ID } from '../../../utils/constants';
 
 type EditMangaForm = {
   rating: number;
@@ -44,8 +45,6 @@ type EditMangaDialogData = {
   list?: Manga[];
   index?: number;
 };
-
-const DEFAULT_USER_ID = 'guillaume';
 
 @Component({
   selector: 'app-edit-manga',

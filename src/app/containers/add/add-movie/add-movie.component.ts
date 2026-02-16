@@ -3,6 +3,7 @@ import { Component, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
+import { DEFAULT_USER_ID } from '../../../utils/constants';
 
 type AddMovieEntityForm = {
   title: string;
@@ -155,7 +156,7 @@ export class AddMovieComponent {
   }
 
   getUserId(): string {
-    return this.dialogData?.userId || 'guillaume';
+    return this.dialogData?.userId || DEFAULT_USER_ID;
   }
 
   async onSubmit() {
