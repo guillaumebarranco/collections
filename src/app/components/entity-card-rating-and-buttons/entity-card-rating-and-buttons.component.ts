@@ -9,6 +9,9 @@ import { CommonModule } from '@angular/common';
 
 import { EntityType } from '../../models/quizz-model';
 
+import { StarInfo } from '../../models/various-model';
+import { getRatingStars } from '../../utils/constants';
+
 /** Données communes à l’entité affichée dans la carte (note, priorité, type, etc.). */
 export interface EntityCardEntityData {
   rating: number;
@@ -27,12 +30,6 @@ export interface EntityCardRatingLabels {
   alreadyWantToReRead: string;
   haveReRead: string;
 }
-
-interface StarInfo {
-  type: 'full' | 'half' | 'empty';
-  value: number;
-}
-
 @Component({
   selector: 'app-entity-card-rating-and-buttons',
   standalone: true,
@@ -217,17 +214,7 @@ export class EntityCardRatingAndButtonsComponent {
   }
 
   getRatingStars(rating: number): StarInfo[] {
-    const stars: StarInfo[] = [];
-    for (let i = 1; i <= 5; i++) {
-      if (rating >= i) {
-        stars.push({ type: 'full', value: i });
-      } else if (rating >= i - 0.5) {
-        stars.push({ type: 'half', value: i });
-      } else {
-        stars.push({ type: 'empty', value: i });
-      }
-    }
-    return stars;
+    return getRatingStars(rating);
   }
 
   get priorities(): [1, 2, 3] {

@@ -5,6 +5,7 @@ import { Serie } from '../../../../models/serie-model';
 import { getSeriesByUser } from '../../../../facades/series/series.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { getApiBaseUrl } from '../../../../core/config';
+import { ratingOptions } from '../../../../utils/constants';
 
 @Component({
   selector: 'app-select-series-rating',
@@ -24,18 +25,14 @@ export class SelectSeriesRatingComponent
 
   seriesList = signal<Serie[]>([]);
 
-  // Toutes les sÃ©ries de l'utilisateur
   allSeries = computed<Serie[]>(() => {
     return this.seriesList();
   });
 
-  // Map pour stocker les saisons mises Ã  jour (clÃ©: title-director)
   seriesSeasons = signal<Map<string, Serie['seasons']>>(new Map());
 
-  // Valeurs possibles pour rating (0 Ã  5 avec incrÃ©ments de 0.5)
-  readonly ratingOptions = [0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5];
+  readonly ratingOptions = ratingOptions;
 
-  // GÃ©nÃ©rer une clÃ© unique pour une sÃ©rie
   private getSerieKey(serie: Serie): string {
     return `${serie.title}-${serie.director}`;
   }
@@ -100,6 +97,7 @@ export class SelectSeriesRatingComponent
     }
 
     this.isSaving.set(true);
+
     try {
       const response = await fetch(`${getApiBaseUrl()}/series/batch-rating`, {
         method: 'POST',

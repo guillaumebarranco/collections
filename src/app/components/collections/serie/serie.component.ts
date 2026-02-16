@@ -29,11 +29,8 @@ import {
 import { AuthService } from '../../../core/auth.service';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
 import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
-
-interface StarInfo {
-  type: 'full' | 'half' | 'empty';
-  value: number;
-}
+import { StarInfo } from '../../../models/various-model';
+import { getRatingStars } from '../../../utils/constants';
 
 @Component({
   selector: 'app-serie',
@@ -184,17 +181,7 @@ export class SerieComponent {
   }
 
   getRatingStars(rating: number): StarInfo[] {
-    const stars: StarInfo[] = [];
-    for (let i = 1; i <= 5; i++) {
-      if (rating >= i) {
-        stars.push({ type: 'full', value: i });
-      } else if (rating >= i - 0.5) {
-        stars.push({ type: 'half', value: i });
-      } else {
-        stars.push({ type: 'empty', value: i });
-      }
-    }
-    return stars;
+    return getRatingStars(rating);
   }
 
   getEntityQuizzs(): Quizz[] {

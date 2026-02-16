@@ -5,11 +5,8 @@ import { Music } from '../../../../models/music-model';
 import { getMusicsByUser } from '../../../../facades/musics/musics.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { getApiBaseUrl } from '../../../../core/config';
-
-interface StarInfo {
-  type: 'full' | 'half' | 'empty';
-  value: number;
-}
+import { StarInfo } from '../../../../models/various-model';
+import { getRatingStars, ratingOptions } from '../../../../utils/constants';
 
 @Component({
   selector: 'app-select-musics-rating',
@@ -35,7 +32,7 @@ export class SelectMusicsRatingComponent
 
   musicsRatings = signal<Map<string, number>>(new Map());
 
-  readonly ratingOptions = [0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5];
+  readonly ratingOptions = ratingOptions;
 
   private getMusicKey(music: Music): string {
     return `${music.title}-${music.artist}`;
@@ -62,17 +59,7 @@ export class SelectMusicsRatingComponent
   });
 
   getRatingStars(rating: number): StarInfo[] {
-    const stars: StarInfo[] = [];
-    for (let i = 1; i <= 5; i++) {
-      if (rating >= i) {
-        stars.push({ type: 'full', value: i });
-      } else if (rating >= i - 0.5) {
-        stars.push({ type: 'half', value: i });
-      } else {
-        stars.push({ type: 'empty', value: i });
-      }
-    }
-    return stars;
+    return getRatingStars(rating);
   }
 
   async saveMusicsRatings(): Promise<void> {

@@ -5,11 +5,8 @@ import { Game } from '../../../../models/game-model';
 import { getGamesByUser } from '../../../../facades/games/games.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { getApiBaseUrl } from '../../../../core/config';
-
-interface StarInfo {
-  type: 'full' | 'half' | 'empty';
-  value: number;
-}
+import { StarInfo } from '../../../../models/various-model';
+import { getRatingStars, ratingOptions } from '../../../../utils/constants';
 
 @Component({
   selector: 'app-select-games-rating',
@@ -26,7 +23,7 @@ export class SelectGamesRatingComponent
 
   gamesRatings = signal<Map<string, number>>(new Map());
 
-  readonly ratingOptions = [0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5];
+  readonly ratingOptions = ratingOptions;
 
   private getGameKey(game: Game): string {
     return `${game.title}-${game.editor}`;
@@ -53,17 +50,7 @@ export class SelectGamesRatingComponent
   });
 
   getRatingStars(rating: number): StarInfo[] {
-    const stars: StarInfo[] = [];
-    for (let i = 1; i <= 5; i++) {
-      if (rating >= i) {
-        stars.push({ type: 'full', value: i });
-      } else if (rating >= i - 0.5) {
-        stars.push({ type: 'half', value: i });
-      } else {
-        stars.push({ type: 'empty', value: i });
-      }
-    }
-    return stars;
+    return getRatingStars(rating);
   }
 
   async saveGamesRatings(): Promise<void> {
@@ -94,14 +81,14 @@ export class SelectGamesRatingComponent
       const payload = await response.json().catch(() => ({}));
       if (!response.ok) {
         console.warn('games:batch-rating:error', payload);
-        alert("La mise à jour des notes a échoué.");
+        alert('La mise à jour des notes a échoué.');
         return;
       }
 
       this.navigateToEntityList('games');
     } catch (error) {
       console.warn('games:batch-rating:error', error);
-      alert("La mise à jour des notes a échoué.");
+      alert('La mise à jour des notes a échoué.');
     } finally {
       this.isSaving.set(false);
     }

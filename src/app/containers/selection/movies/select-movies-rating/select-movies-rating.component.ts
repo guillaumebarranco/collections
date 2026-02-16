@@ -5,11 +5,8 @@ import { Movie } from '../../../../models/movie-model';
 import { getMoviesByUser } from '../../../../facades/movies/movies.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { getApiBaseUrl } from '../../../../core/config';
-
-interface StarInfo {
-  type: 'full' | 'half' | 'empty';
-  value: number;
-}
+import { StarInfo } from '../../../../models/various-model';
+import { getRatingStars, ratingOptions } from '../../../../utils/constants';
 
 @Component({
   selector: 'app-select-movies-rating',
@@ -38,7 +35,7 @@ export class SelectMoviesRatingComponent
   moviesRatings = signal<Map<string, number>>(new Map());
 
   // Valeurs possibles pour rating (0 à 5 avec incréments de 0.5)
-  readonly ratingOptions = [0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5];
+  readonly ratingOptions = ratingOptions;
 
   // Générer une clé unique pour un film
   private getMovieKey(movie: Movie): string {
@@ -70,17 +67,7 @@ export class SelectMoviesRatingComponent
 
   // Obtenir les étoiles pour un rating (similaire au codebase)
   getRatingStars(rating: number): StarInfo[] {
-    const stars: StarInfo[] = [];
-    for (let i = 1; i <= 5; i++) {
-      if (rating >= i) {
-        stars.push({ type: 'full', value: i });
-      } else if (rating >= i - 0.5) {
-        stars.push({ type: 'half', value: i });
-      } else {
-        stars.push({ type: 'empty', value: i });
-      }
-    }
-    return stars;
+    return getRatingStars(rating);
   }
 
   // Enregistrer les ratings modifiés via l'API
@@ -114,14 +101,14 @@ export class SelectMoviesRatingComponent
       const payload = await response.json().catch(() => ({}));
       if (!response.ok) {
         console.warn('movies:batch-rating:error', payload);
-        alert("La mise à jour des notes a échoué.");
+        alert('La mise à jour des notes a échoué.');
         return;
       }
 
       this.navigateToEntityList('movies');
     } catch (error) {
       console.warn('movies:batch-rating:error', error);
-      alert("La mise à jour des notes a échoué.");
+      alert('La mise à jour des notes a échoué.');
     } finally {
       this.isSaving.set(false);
     }

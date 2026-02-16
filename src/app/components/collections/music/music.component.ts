@@ -2,6 +2,8 @@ import { Component, input } from '@angular/core';
 import { Music } from '../../../models/music-model';
 import { CommonModule } from '@angular/common';
 import { isBaseEntityView } from '../../../core/config';
+import { StarInfo } from '../../../models/various-model';
+import { getRatingStars } from '../../../utils/constants';
 
 @Component({
   selector: 'app-music',
@@ -19,11 +21,7 @@ export class MusicComponent {
     return `${minutes}:${remainingSeconds.toString().padStart(2, '0')}`;
   }
 
-  getRatingStars(rating: number): string {
-    const fullStars = Math.floor(rating);
-    const halfStar = rating % 1 >= 0.5 ? 0.5 : 0;
-    let stars = '⭐'.repeat(fullStars);
-    if (halfStar) stars += '½';
-    return stars || '☆';
+  getRatingStars(rating: number): StarInfo[] {
+    return getRatingStars(rating);
   }
 }
