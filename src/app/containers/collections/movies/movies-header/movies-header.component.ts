@@ -29,8 +29,10 @@ export class MoviesHeaderComponent {
   onYearFilterChange = output<string>();
   onSearchChange = output<string>();
   onSortChange = output<string>();
+  onTopFiveRankChange = output<void>();
 
   selectedView = input<MovieView>('watched');
+  showTopFiveRank = input<boolean>(false);
   allMoviesCount = input<number>(0);
   filteredMoviesByYearCount = input<number>(0);
   recommendedMoviesCount = input<number>(0);

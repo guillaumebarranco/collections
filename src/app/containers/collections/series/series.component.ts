@@ -39,6 +39,8 @@ import {
   getOtherUsersSeriesRated,
 } from '../../../facades/series/series.facade';
 import { LocalStorageService } from '../../../services/local-storage.service';
+import { TopFiveService } from '../../../services/top-five.service';
+import { getEntityKey } from '../../../utils/top-five.utils';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
@@ -71,6 +73,7 @@ export class SeriesComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
   router = inject(Router);
   private readonly localStorageService = inject(LocalStorageService);
+  private readonly topFiveService = inject(TopFiveService);
   private readonly authService = inject(AuthService);
   private isLoadingPreferences = false;
   private readonly viewPreferencesStorageKey = 'series_view_preferences';
@@ -78,6 +81,7 @@ export class SeriesComponent implements OnInit {
   selectedSort = signal<string>('rating');
   selectedView = signal<SerieView>('finished');
   searchTerm = signal<string>('');
+  showTopFiveRank = signal<boolean>(false);
   isQuizzModalOpen = signal<boolean>(false);
   activeQuizzs = signal<Quizz[]>([]);
   quizzs = signal<Quizz[]>([]);
@@ -252,6 +256,31 @@ export class SeriesComponent implements OnInit {
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? DEFAULT_USER_ID;
+  }
+
+  topFive = computed(() => {
+    this.topFiveService.cache();
+    return this.topFiveService.getTopFive(this.getActiveUserId());
+  });
+
+  getTopFiveRank(serie: Serie): number | null {
+    const tf = this.topFive();
+    const key = getEntityKey('series', serie);
+    const idx = (tf.series ?? []).indexOf(key);
+    return idx === -1 ? null : idx + 1;
+  }
+
+  onTopFiveRankChange(serie: Serie, rank: number | null): void {
+    this.topFiveService.setRank(
+      this.getActiveUserId(),
+      'series',
+      getEntityKey('series', serie),
+      rank
+    );
+  }
+
+  toggleTopFiveRankDisplay(): void {
+    this.showTopFiveRank.set(!this.showTopFiveRank());
   }
 
   public isAdminView(): boolean {

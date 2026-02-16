@@ -11,12 +11,13 @@ const musicsRoutes = require('./routes/musics/musics-routes');
 const quizzsRoutes = require('./routes/quizzs/quizzs-routes');
 const authRoutes = require('./routes/auth/auth-routes');
 const adminRoutes = require('./routes/admin/users-count');
+const usersRoutes = require('./routes/users/users-routes');
 
 const PORT = 3001;
 
 function setCors(res: any) {
   res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 }
 
@@ -45,6 +46,7 @@ app.use('/api/musics', musicsRoutes);
 app.use('/api/quizzs', quizzsRoutes);
 app.use('/api/auth', authRoutes);
 app.use('/api/admin', adminRoutes);
+app.use('/api/users', usersRoutes);
 
 app.use((_req: any, res: any) => {
   res.status(404).json({ error: 'Not found' });

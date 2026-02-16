@@ -22,7 +22,24 @@
   }
 
   <ng-container entity-badges>
-    @if (recommendationBadge) {
+    @if (showTopFiveSelector && !readOnly) {
+    <span class="top-five-selector">
+      <label for="top5-{{ book.title }}-{{ book.author }}" class="top-five-label">Top 5</label>
+      <select
+        [id]="'top5-' + book.title + '-' + book.author"
+        [value]="topFiveRank !== null ? topFiveRank : ''"
+        (change)="onTopFiveSelect($event)"
+        class="top-five-select"
+      >
+        <option value="">—</option>
+        <option value="1">#1</option>
+        <option value="2">#2</option>
+        <option value="3">#3</option>
+        <option value="4">#4</option>
+        <option value="5">#5</option>
+      </select>
+    </span>
+    } @if (recommendationBadge) {
     <span class="missing-badge">{{ recommendationBadge }}</span>
     } @if (book.wantToReadAgain && !isBaseEntityView) {
     <span class="missing-badge" style="background-color: #2196f3; color: white"

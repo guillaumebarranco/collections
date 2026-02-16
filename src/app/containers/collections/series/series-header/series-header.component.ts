@@ -37,7 +37,9 @@ export class SeriesHeaderComponent {
   onViewChange = output<SerieView>();
   onSearchChange = output<string>();
   onSortChange = output<string>();
+  onTopFiveRankChange = output<void>();
 
+  showTopFiveRank = input<boolean>(false);
   selectedView = input<SerieView>('finished');
   selectedSortInput = input<string>('rating');
   searchTermInput = input<string>('');

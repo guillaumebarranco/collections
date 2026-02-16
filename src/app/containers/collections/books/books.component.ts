@@ -48,6 +48,8 @@ import {
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditBookComponent } from '../../edit/edit-book/edit-book.component';
 import { LocalStorageService } from '../../../services/local-storage.service';
+import { TopFiveService } from '../../../services/top-five.service';
+import { getEntityKey } from '../../../utils/top-five.utils';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
@@ -88,11 +90,13 @@ export class BooksComponent implements OnInit {
   isQuizzModalOpen = signal<boolean>(false);
   activeQuizzs = signal<Quizz[]>([]);
   quizzs = signal<Quizz[]>([]);
+  showTopFiveRank = signal<boolean>(false);
 
   activatedRoute = inject(ActivatedRoute);
   router = inject(Router);
   private readonly authService = inject(AuthService);
   private readonly localStorageService = inject(LocalStorageService);
+  private readonly topFiveService = inject(TopFiveService);
   private readonly dialog = inject(MatDialog);
   private isInitializing = false;
   private isLoadingPreferences = false;
@@ -388,10 +392,7 @@ export class BooksComponent implements OnInit {
   sortedBooks = computed(() =>
     this.selectedView() === 'readlist'
       ? getSortedBooks([...this.filteredBooksByYear()], 'readPriority')
-      : getSortedBooks(
-          [...this.filteredBooksByYear()],
-          this.selectedSort()
-        )
+      : getSortedBooks([...this.filteredBooksByYear()], this.selectedSort())
   );
 
   groupedBooks = computed(() => {
@@ -567,6 +568,28 @@ export class BooksComponent implements OnInit {
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? DEFAULT_USER_ID;
+  }
+
+  /** Réactivité au cache Top 5 (pour mettre à jour le rang affiché) */
+  topFive = computed(() => {
+    this.topFiveService.cache();
+    return this.topFiveService.getTopFive(this.getActiveUserId());
+  });
+
+  getTopFiveRank(book: Book): number | null {
+    const tf = this.topFive();
+    const key = getEntityKey('books', book);
+    const idx = (tf.books ?? []).indexOf(key);
+    return idx === -1 ? null : idx + 1;
+  }
+
+  onTopFiveRankChange(book: Book, rank: number | null): void {
+    this.topFiveService.setRank(
+      this.getActiveUserId(),
+      'books',
+      getEntityKey('books', book),
+      rank
+    );
   }
 
   isAdminView(): boolean {
@@ -753,7 +776,10 @@ export class BooksComponent implements OnInit {
   }
 
   async markBookAsWantToReRead(book: Book): Promise<void> {
-    const success = await markBookAsWantToReReadApi(book, this.getActiveUserId());
+    const success = await markBookAsWantToReReadApi(
+      book,
+      this.getActiveUserId()
+    );
     if (success) {
       await this.refreshBooks();
     }
@@ -774,5 +800,9 @@ export class BooksComponent implements OnInit {
     if (success) {
       await this.refreshBooks();
     }
+  }
+
+  toggleTopFiveRankDisplay(): void {
+    this.showTopFiveRank.set(!this.showTopFiveRank());
   }
 }

@@ -59,6 +59,14 @@
         ✅ Possédées
       </button>
       }
+      <button
+        class="makya-btn-small"
+        [class.active]="showTopFiveRank()"
+        title="Voir les top 5 des séries"
+        (click)="onTopFiveRankChange.emit()"
+      >
+        🏆 Top 5
+      </button>
     </div>
   </div>
   } @if(!isAdminView() && allSeriesCount() === 0) {

@@ -67,6 +67,9 @@ export class MovieComponent {
     movie: Movie;
     priority: number;
   }>();
+  @Input() showTopFiveSelector = false;
+  @Input() topFiveRank: number | null = null;
+  @Output() topFiveRankChange = new EventEmitter<number | null>();
   isWatchList = input<boolean>(false);
 
   recommendationView = input<boolean>(false);
@@ -134,6 +137,13 @@ export class MovieComponent {
       width: 'auto',
       maxWidth: '95vw',
     });
+  }
+
+  onTopFiveSelect(event: Event): void {
+    const value = (event.target as HTMLSelectElement).value;
+    this.topFiveRankChange.emit(
+      value === '' ? null : Math.min(5, Math.max(1, parseInt(value, 10)))
+    );
   }
 
   navigateToEdit(): void {

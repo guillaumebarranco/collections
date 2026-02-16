@@ -33,6 +33,8 @@ import {
   getOtherUsersMoviesRated,
 } from '../../../facades/movies/movies.facade';
 import { LocalStorageService } from '../../../services/local-storage.service';
+import { TopFiveService } from '../../../services/top-five.service';
+import { getEntityKey } from '../../../utils/top-five.utils';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { AuthService } from '../../../core/auth.service';
 import {
@@ -85,6 +87,7 @@ export class MoviesComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
   private readonly authService = inject(AuthService);
   private readonly localStorageService = inject(LocalStorageService);
+  private readonly topFiveService = inject(TopFiveService);
   private isInitializing = false;
   private isLoadingViewConfig = false;
   private isLoadingPreferences = false;
@@ -95,6 +98,7 @@ export class MoviesComponent implements OnInit {
   selectedView = signal<MovieView>('watched');
   selectedYearFilter = signal<string>('all');
   searchTerm = signal<string>('');
+  showTopFiveRank = signal<boolean>(false);
   isViewConfigOpen = signal<boolean>(false);
   isQuizzModalOpen = signal<boolean>(false);
   activeQuizzs = signal<Quizz[]>([]);
@@ -460,6 +464,31 @@ export class MoviesComponent implements OnInit {
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? DEFAULT_USER_ID;
+  }
+
+  topFive = computed(() => {
+    this.topFiveService.cache();
+    return this.topFiveService.getTopFive(this.getActiveUserId());
+  });
+
+  getTopFiveRank(movie: Movie): number | null {
+    const tf = this.topFive();
+    const key = getEntityKey('movies', movie);
+    const idx = (tf.movies ?? []).indexOf(key);
+    return idx === -1 ? null : idx + 1;
+  }
+
+  onTopFiveRankChange(movie: Movie, rank: number | null): void {
+    this.topFiveService.setRank(
+      this.getActiveUserId(),
+      'movies',
+      getEntityKey('movies', movie),
+      rank
+    );
+  }
+
+  toggleTopFiveRankDisplay(): void {
+    this.showTopFiveRank.set(!this.showTopFiveRank());
   }
 
   isAdminView(): boolean {

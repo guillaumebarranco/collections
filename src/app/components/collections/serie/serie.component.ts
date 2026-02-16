@@ -71,6 +71,9 @@ export class SerieComponent {
   }>();
   @Output() wantToReWatch = new EventEmitter<Serie>();
   @Output() haveReWatched = new EventEmitter<Serie>();
+  @Input() showTopFiveSelector = false;
+  @Input() topFiveRank: number | null = null;
+  @Output() topFiveRankChange = new EventEmitter<number | null>();
 
   isBaseEntityView = isBaseEntityView();
   seasonsExpanded = signal(false);
@@ -87,6 +90,13 @@ export class SerieComponent {
     const directId = this.activatedRoute.snapshot.params['id'];
     const parentId = this.activatedRoute.parent?.snapshot.params['id'];
     return directId || parentId || DEFAULT_USER_ID;
+  }
+
+  onTopFiveSelect(event: Event): void {
+    const value = (event.target as HTMLSelectElement).value;
+    this.topFiveRankChange.emit(
+      value === '' ? null : Math.min(5, Math.max(1, parseInt(value, 10)))
+    );
   }
 
   openReviewModal(): void {

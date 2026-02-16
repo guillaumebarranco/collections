@@ -17,9 +17,11 @@
     [recommendedMoviesCount]="recommendedMovies().length"
     [allMoviesCount]="allMovies().length"
     [visibleMovieViewOptions]="visibleMovieViewOptions()"
+    [showTopFiveRank]="showTopFiveRank()"
     (onViewChange)="onViewChange($any($event))"
     (onOpenViewConfig)="openViewConfig()"
     (onSearchChange)="onSearchChange($event)"
+    (onTopFiveRankChange)="toggleTopFiveRankDisplay()"
   >
     <app-stats-display
       movies-stats-bloc-content
@@ -133,8 +135,11 @@
             [index]="i"
             [selectedView]="selectedView()"
             [quizzs]="quizzs()"
+            [showTopFiveSelector]="showTopFiveRank()"
+            [topFiveRank]="getTopFiveRank(movie)"
             (movieUpdated)="refreshMovies()"
             (openQuizz)="openQuizzModal($event)"
+            (topFiveRankChange)="onTopFiveRankChange(movie, $event)"
             (wantToReWatch)="markMovieAsWantToReWatch($event)"
           ></app-movie>
         </div>
@@ -200,8 +205,11 @@
             [index]="i"
             [selectedView]="selectedView()"
             [quizzs]="quizzs()"
+            [showTopFiveSelector]="showTopFiveRank()"
+            [topFiveRank]="getTopFiveRank(movie)"
             (movieUpdated)="refreshMovies()"
             (openQuizz)="openQuizzModal($event)"
+            (topFiveRankChange)="onTopFiveRankChange(movie, $event)"
             (wantToReWatch)="markMovieAsWantToReWatch($event)"
           ></app-movie>
         </div>
@@ -267,8 +275,11 @@
             [selectedView]="selectedView()"
             [index]="i"
             [quizzs]="quizzs()"
+            [showTopFiveSelector]="showTopFiveRank()"
+            [topFiveRank]="getTopFiveRank(movie)"
             (movieUpdated)="refreshMovies()"
             (openQuizz)="openQuizzModal($event)"
+            (topFiveRankChange)="onTopFiveRankChange(movie, $event)"
             (wantToReWatch)="markMovieAsWantToReWatch($event)"
           ></app-movie>
         </div>
@@ -312,8 +323,11 @@
         [isWatchList]="selectedView() === 'watchlist'"
         [selectedView]="selectedView()"
         [quizzs]="quizzs()"
+        [showTopFiveSelector]="showTopFiveRank()"
+        [topFiveRank]="getTopFiveRank(movie)"
         (movieUpdated)="refreshMovies()"
         (openQuizz)="openQuizzModal($event)"
+        (topFiveRankChange)="onTopFiveRankChange(movie, $event)"
         (wantToReWatch)="markMovieAsWantToReWatch($event)"
         (hasReWatched)="markMovieAsReWatched($event)"
         (watchPriorityUpdated)="updateWatchPriority($event)"

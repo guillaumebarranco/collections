@@ -65,6 +65,11 @@ export class BookComponent {
   @Output() bookUpdated = new EventEmitter<void>();
   @Output() wantToReRead = new EventEmitter<Book>();
   @Output() haveReRead = new EventEmitter<Book>();
+  /** Afficher le sélecteur "Mon top 5" (rang 1-5). À utiliser dans les vues collection. */
+  @Input() showTopFiveSelector = false;
+  /** Rang actuel dans le top 5 personnel (1-5) ou null. */
+  @Input() topFiveRank: number | null = null;
+  @Output() topFiveRankChange = new EventEmitter<number | null>();
 
   isBaseEntityView = isBaseEntityView();
 
@@ -78,6 +83,13 @@ export class BookComponent {
 
   requestEdit(): void {
     this.editRequested.emit();
+  }
+
+  onTopFiveSelect(event: Event): void {
+    const value = (event.target as HTMLSelectElement).value;
+    this.topFiveRankChange.emit(
+      value === '' ? null : Math.min(5, Math.max(1, parseInt(value, 10)))
+    );
   }
 
   getReadPriority(): 1 | 2 | 3 {

@@ -78,6 +78,14 @@
         </button>
       </ng-container>
       }
+      <button
+        class="makya-btn-small"
+        [class.active]="showTopFiveRank()"
+        title="Voir les top 5 des films"
+        (click)="onTopFiveRankChange.emit()"
+      >
+        🏆 Top 5
+      </button>
     </div>
     }
   </div>

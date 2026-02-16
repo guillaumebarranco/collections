@@ -15,6 +15,7 @@
     [filteredBooksCount]="filteredBooks().length"
     [recommendedBooksCount]="recommendedBooks().length"
     [allBooksCount]="allBooks().length"
+    [showTopFiveRank]="showTopFiveRank()"
     [stats]="stats()"
     [viewOptions]="viewOptions"
     [sortOptions]="sortOptions"
@@ -25,6 +26,7 @@
     (onSearchChange)="onSearchChange($event)"
     (onSortChange)="onSortChange($event)"
     (onGroupByChange)="onGroupByChangeFromHeader($event)"
+    (onTopFiveRankChange)="toggleTopFiveRankDisplay()"
   ></app-books-header>
 
   @if(!isAdminView() && selectedYearFilter() !== 'all') {
@@ -94,9 +96,12 @@
             <app-book
               [book]="book"
               [quizzs]="quizzs()"
+              [showTopFiveSelector]="showTopFiveRank()"
               [selectedView]="selectedView()"
+              [topFiveRank]="getTopFiveRank(book)"
               (editRequested)="openEditBookDialog(book)"
               (openQuizz)="openQuizzModal($event)"
+              (topFiveRankChange)="onTopFiveRankChange(book, $event)"
               (wantToReRead)="markBookAsWantToReRead($event)"
               (haveReRead)="markBookAsReRead($event)"
             ></app-book>
@@ -146,9 +151,12 @@
             <app-book
               [book]="book"
               [quizzs]="quizzs()"
+              [showTopFiveSelector]="showTopFiveRank()"
               [selectedView]="selectedView()"
+              [topFiveRank]="getTopFiveRank(book)"
               (editRequested)="openEditBookDialog(book)"
               (openQuizz)="openQuizzModal($event)"
+              (topFiveRankChange)="onTopFiveRankChange(book, $event)"
               (wantToReRead)="markBookAsWantToReRead($event)"
               (haveReRead)="markBookAsReRead($event)"
             ></app-book>
@@ -185,9 +193,12 @@
           <app-book
             [book]="book"
             [quizzs]="quizzs()"
+            [showTopFiveSelector]="showTopFiveRank()"
             [selectedView]="selectedView()"
+            [topFiveRank]="getTopFiveRank(book)"
             (editRequested)="openEditBookDialog(book)"
             (openQuizz)="openQuizzModal($event)"
+            (topFiveRankChange)="onTopFiveRankChange(book, $event)"
             (wantToReRead)="markBookAsWantToReRead($event)"
             (haveReRead)="markBookAsReRead($event)"
           ></app-book>
@@ -203,12 +214,15 @@
         <app-book
           [book]="book"
           [quizzs]="quizzs()"
+          [showTopFiveSelector]="showTopFiveRank()"
           [isReadlistView]="selectedView() === 'readlist'"
           [selectedView]="selectedView()"
+          [topFiveRank]="getTopFiveRank(book)"
           (editRequested)="openEditBookDialog(book)"
           (openQuizz)="openQuizzModal($event)"
           (readPriorityUpdated)="updateReadPriority($event)"
           (bookUpdated)="refreshBooks()"
+          (topFiveRankChange)="onTopFiveRankChange(book, $event)"
           (wantToReRead)="markBookAsWantToReRead($event)"
           (haveReRead)="markBookAsReRead($event)"
         ></app-book>

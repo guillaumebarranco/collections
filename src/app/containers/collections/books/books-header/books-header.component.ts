@@ -43,6 +43,7 @@ export class BooksHeaderComponent {
   onSearchChange = output<string>();
   onSortChange = output<string>();
   onGroupByChange = output<string>();
+  onTopFiveRankChange = output<void>();
 
   selectedView = input<BookView>('read');
   selectedSortInput = input<string>('readDate');
@@ -62,6 +63,7 @@ export class BooksHeaderComponent {
     }[]
   >([]);
   stats = input.required<StatItem[]>();
+  showTopFiveRank = input<boolean>(false);
 
   private readonly authService = inject(AuthService);
   private readonly activatedRoute = inject(ActivatedRoute);

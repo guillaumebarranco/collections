@@ -11,9 +11,11 @@
     [stats]="stats()"
     [viewOptions]="viewOptions"
     [sortOptions]="sortOptions()"
+    [showTopFiveRank]="showTopFiveRank()"
     (onViewChange)="onViewChange($any($event))"
     (onSearchChange)="onSearchChange($event)"
     (onSortChange)="onSortChange($event)"
+    (onTopFiveRankChange)="toggleTopFiveRankDisplay()"
   ></app-series-header>
 
   <!-- Recommendations -->
@@ -52,8 +54,11 @@
         [quizzs]="quizzs()"
         [isWatchlistView]="selectedView() === 'watchlist'"
         [selectedView]="selectedView()"
+        [showTopFiveSelector]="showTopFiveRank()"
+        [topFiveRank]="getTopFiveRank(serie)"
         (serieUpdated)="refreshSeries()"
         (openQuizz)="openQuizzModal($event)"
+        (topFiveRankChange)="onTopFiveRankChange(serie, $event)"
         (watchPriorityUpdated)="updateWatchPriority($event)"
         (wantToReWatch)="markSerieAsWantToReWatch($event)"
         (haveReWatched)="markSerieAsReWatched($event)"

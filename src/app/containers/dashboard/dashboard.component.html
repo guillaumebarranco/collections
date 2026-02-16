@@ -190,6 +190,32 @@
       </div>
     </div>
     }
+
+    <!-- Top 5 personnel (choisi par l'utilisateur) -->
+    @if (selectedTab() === 'top5personal') {
+    <div class="dashboard-section">
+      <h2>🏆 Mon Top 5 personnel</h2>
+      <p class="top5-personal-hint">
+        Remplissez votre top 5 depuis chaque collection (Livres, Films, etc.)
+        en choisissant le rang pour vos œuvres préférées.
+      </p>
+      <div class="top5-grid">
+        @for (entityType of personalTopFiveEntityTypes; track entityType) {
+        <div class="top5-category">
+          <h3>{{ personalTopFiveLabels[entityType] }}</h3>
+          <div class="top5-list">
+            @for (slot of personalTopFiveDisplay()[entityType]; track slot.rank) {
+            <div class="top5-item">
+              <span class="rank">#{{ slot.rank }}</span>
+              <span class="title">{{ slot.label || '—' }}</span>
+            </div>
+            }
+          </div>
+        </div>
+        }
+      </div>
+    </div>
+    }
   </div>
 </div>
 } @if(userId() && !userHasData()) {

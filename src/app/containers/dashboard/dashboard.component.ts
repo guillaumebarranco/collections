@@ -69,6 +69,13 @@ import {
 } from '../../facades/manwhas/manwhas.facade';
 import { AuthService } from '../../core/auth.service';
 import { getGameTimePlayed } from '../../utils/games.utils';
+import { TopFiveService } from '../../services/top-five.service';
+import type { TopFiveEntityType } from '../../models/top-five-model';
+import {
+  findEntityByKey,
+  getEntityDisplayLabel,
+  type Entity,
+} from '../../utils/top-five.utils';
 
 interface TopBook extends Book {
   formattedReadingTime: string;
@@ -116,11 +123,12 @@ export class DashboardComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
   router = inject(Router);
   authService = inject(AuthService);
+  topFiveService = inject(TopFiveService);
 
   filledUserId = signal<string>('');
-  selectedTab = signal<'overview' | 'entities' | 'charts' | 'top5stats'>(
-    'overview'
-  );
+  selectedTab = signal<
+    'overview' | 'entities' | 'charts' | 'top5stats' | 'top5personal'
+  >('overview');
   isAuthenticated = computed<boolean>(() => this.authService.isAuthenticated());
   isAdmin = computed<boolean>(() => this.authService.isAdmin());
 
@@ -129,6 +137,7 @@ export class DashboardComponent implements OnInit {
     { value: 'entities', label: 'Statistiques par entité' },
     { value: 'charts', label: 'Graphiques par entité' },
     { value: 'top5stats', label: 'Top 5 (statistiques)' },
+    { value: 'top5personal', label: 'Top 5 personnel' },
   ];
 
   booksList = signal<{ [key: string]: Book[] }>({});
@@ -435,6 +444,71 @@ export class DashboardComponent implements OnInit {
       .slice(0, 5);
   });
 
+  /** Top 5 personnel : récupération réactive depuis le service */
+  topFive = computed(() => {
+    this.topFiveService.cache();
+    return this.topFiveService.getTopFive(
+      this.userId() || DEFAULT_USER_ID
+    );
+  });
+
+  /** Pour l’affichage du Top 5 personnel : chaque slot a un rang et un libellé (résolu depuis les listes) */
+  personalTopFiveDisplay = computed<Record<TopFiveEntityType, { rank: number; label: string }[]>>(() => {
+    const uid = this.userId() || DEFAULT_USER_ID;
+    const tf = this.topFive();
+    const resolve = (
+      entityType: TopFiveEntityType,
+      list: Entity[],
+      keys: string[]
+    ) =>
+      keys.map((key, i) => {
+        if (!key) return { rank: i + 1, label: '' };
+        const entity = findEntityByKey(list, entityType, key);
+        return {
+          rank: i + 1,
+          label: entity
+            ? getEntityDisplayLabel(entityType, entity)
+            : '(entrée supprimée)',
+        };
+      });
+
+    return {
+      books: resolve('books', this.allBooks() as Entity[], tf.books ?? []),
+      movies: resolve('movies', this.allMovies() as Entity[], tf.movies ?? []),
+      series: resolve('series', this.allSeries() as Entity[], tf.series ?? []),
+      games: resolve('games', this.allGames() as Entity[], tf.games ?? []),
+      musics: resolve('musics', this.allMusics() as Entity[], tf.musics ?? []),
+      comics: resolve('comics', this.allComics() as Entity[], tf.comics ?? []),
+      bds: resolve('bds', this.allBds() as Entity[], tf.bds ?? []),
+      mangas: resolve('mangas', this.allMangas() as Entity[], tf.mangas ?? []),
+      manwhas: resolve('manwhas', this.allManwhas() as Entity[], tf.manwhas ?? []),
+    };
+  });
+
+  personalTopFiveLabels: Record<TopFiveEntityType, string> = {
+    books: '📖 Livres',
+    movies: '🎬 Films',
+    series: '📺 Séries',
+    games: '🎮 Jeux',
+    musics: '🎵 Musiques',
+    comics: '🦸 Comics',
+    bds: '📗 BD',
+    mangas: '📚 Mangas',
+    manwhas: '📖 Manwhas',
+  };
+
+  personalTopFiveEntityTypes: TopFiveEntityType[] = [
+    'books',
+    'movies',
+    'series',
+    'games',
+    'musics',
+    'comics',
+    'bds',
+    'mangas',
+    'manwhas',
+  ];
+
   timeEntitiesStats = computed<StatItem[]>(() => {
     const booksTotalReadingTime =
       this.allBooks().length > 0
@@ -606,11 +680,21 @@ export class DashboardComponent implements OnInit {
     this.router.navigate([normalized]);
   }
 
-  onTabChange(tab: 'overview' | 'entities' | 'charts' | 'top5stats'): void {
+  onTabChange(
+    tab:
+      | 'overview'
+      | 'entities'
+      | 'charts'
+      | 'top5stats'
+      | 'top5personal'
+  ): void {
     this.selectedTab.set(tab);
   }
 
   ngOnInit() {
+    this.topFiveService.loadFromStorage();
+    const uid = this.userId() || DEFAULT_USER_ID;
+    this.topFiveService.loadFromApi(uid);
     this.loadMoviesData();
     this.loadWatchlistMoviesData();
     this.loadBooksData();
