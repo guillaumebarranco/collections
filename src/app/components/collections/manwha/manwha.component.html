@@ -51,66 +51,19 @@
     } @if (manwha.readTimes && manwha.readTimes > 1 && !isBaseEntityView) {
     <p class="book-read-times">Lu {{ manwha.readTimes }} fois</p>
     } @if (!isBaseEntityView) {
-    <div class="rating-and-buttons">
-      <div class="book-rating entity-rating">
-        <span class="stars">
-          <span
-            *ngFor="let star of getRatingStars(manwha.rating || 0)"
-            [class]="'star star-' + star.type"
-          ></span>
-        </span>
-        <span class="rating-text">{{ manwha.rating }}/5</span>
-      </div>
-      @if (manwha.ratingComment) {
-      <button type="button" class="makya-btn-small" (click)="openReviewModal()">
-        Voir le commentaire
-      </button>
-      } @if (recommendationText) {
-      <p class="recommendation-text">{{ recommendationText }}</p>
-      } @if (recommendationBadge) {
-      <span class="missing-badge">{{ recommendationBadge }}</span>
-      } @if (isReadlistView && !isBaseEntityView) {
-      <div class="readlist-priority">
-        <div class="priority-label">Priorité :</div>
-        <div>
-          @for (priority of [1, 2, 3]; track priority) {
-          <button
-            class="makya-btn-times"
-            [class.active]="manwha.readPriority === priority"
-            (click)="updateReadPriority(priority)"
-            [title]="'Priorité ' + priority"
-          >
-            {{ priority }}
-          </button>
-          }
-        </div>
-      </div>
-      <button class="makya-btn-small" (click)="addManwhaFromReadlist()">
-        J'ai lu ce manwha
-      </button>
-      } @if (showAddToReadlistButton && !isBaseEntityView) { @if(!isInReadlist)
-      {
-      <button class="makya-btn-small" (click)="addToReadlist.emit(manwha)">
-        Ajouter à ma readlist
-      </button>
-      } @else {
-      <span class="recommendation-text">Déjà dans votre readlist</span> } } @if
-      (showToReReadButton && !isBaseEntityView && selectedView !== 'toReRead' &&
-      selectedView !== 'readlist') { @if (!manwha.wantToReadAgain) {
-      <button class="makya-btn-small" (click)="wantToReRead.emit(manwha)">
-        Je veux relire ce manwha
-      </button>
-      } @else {
-      <span class="recommendation-text"
-        >Déjà ajouté à vos manwhas à relire</span
-      >
-      } } @if (selectedView === 'toReRead' && !isBaseEntityView &&
-      manwha.wantToReadAgain) {
-      <button class="makya-btn-small" (click)="haveReRead.emit(manwha)">
-        J'ai relu ce manwha
-      </button>
-      }
-    </div>
+    <app-entity-card-rating-and-buttons
+      [entityData]="getEntityData()"
+      [recommendationText]="recommendationText"
+      [recommendationBadge]="recommendationBadge"
+      [isInList]="isInReadlist"
+      [selectedView]="selectedView"
+      (openReview)="openReviewModal()"
+      (priorityUpdated)="updateReadPriority($event)"
+      (addFromList)="addManwhaFromReadlist()"
+      (addToList)="addToReadlist.emit(manwha)"
+      (wantToReReadClick)="wantToReRead.emit(manwha)"
+      (haveReReadClick)="haveReRead.emit(manwha)"
+    />
     }
   </div>
 </app-entity-card>

@@ -11,6 +11,10 @@ import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Router } from '@angular/router';
 import { MatDialog } from '@angular/material/dialog';
 import { EntityCardComponent } from '../../entity-card/entity-card.component';
+import {
+  EntityCardRatingAndButtonsComponent,
+  EntityCardEntityData,
+} from '../../entity-card-rating-and-buttons/entity-card-rating-and-buttons.component';
 import { AuthService } from '../../../core/auth.service';
 import { Quizz, EntityType } from '../../../models/quizz-model';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
@@ -23,15 +27,10 @@ import {
   MoveEntityReviewModalResult,
 } from '../../move-entity-review-modal/move-entity-review-modal.component';
 
-interface StarInfo {
-  type: 'full' | 'half' | 'empty';
-  value: number;
-}
-
 @Component({
   selector: 'app-book',
   standalone: true,
-  imports: [CommonModule, EntityCardComponent],
+  imports: [CommonModule, EntityCardComponent, EntityCardRatingAndButtonsComponent],
   templateUrl: './book.component.html',
   styleUrls: ['./book.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -46,12 +45,10 @@ export class BookComponent {
   @Input() quizzs: Quizz[] = [];
   @Input() readOnly = false;
   @Input() recommendationText = '';
-  @Input() showAddToReadlistButton = false;
   @Input() isInReadlist = false;
   @Input() recommendationBadge = '';
   @Input() sagaBadge: 'Saga terminée' | 'Saga en cours' | null = null;
   @Input() isReadlistView = false;
-  @Input() showToReReadButton = false;
   @Input() selectedView: BookView = 'read';
   @Output() editRequested = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
@@ -78,18 +75,19 @@ export class BookComponent {
     this.editRequested.emit();
   }
 
-  getRatingStars(rating: number): StarInfo[] {
-    const stars: StarInfo[] = [];
-    for (let i = 1; i <= 5; i++) {
-      if (rating >= i) {
-        stars.push({ type: 'full', value: i });
-      } else if (rating >= i - 0.5) {
-        stars.push({ type: 'half', value: i });
-      } else {
-        stars.push({ type: 'empty', value: i });
-      }
-    }
-    return stars;
+  getReadPriority(): 1 | 2 | 3 {
+    const p = this.book.readPriority ?? 1;
+    return (p >= 1 && p <= 3 ? p : 1) as 1 | 2 | 3;
+  }
+
+  getEntityData(): EntityCardEntityData {
+    return {
+      rating: this.book.rating ?? 0,
+      hasRatingComment: !!this.book.ratingComment,
+      currentPriority: this.getReadPriority(),
+      entityType: 'book',
+      wantToReRead: !!this.book.wantToReadAgain,
+    };
   }
 
   getEntityQuizzs(): Quizz[] {

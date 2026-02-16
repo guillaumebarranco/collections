@@ -806,11 +806,11 @@ export const guillaumeBooks: UserBooks = [
     owned: true,
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: 'sdgdfgfdgdf',
+    ratingComment: '',
   },
 
   {
-    title: 'Les Fiancés de l\'Hiver',
+    title: "Les Fiancés de l'Hiver",
     author: 'Christelle Dabos',
     readDate: '2026-02-13',
     rating: 4,

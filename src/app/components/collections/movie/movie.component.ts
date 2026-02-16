@@ -21,20 +21,24 @@ import {
   MoveEntityReviewModalResult,
 } from '../../move-entity-review-modal/move-entity-review-modal.component';
 import { EntityCardComponent } from '../../entity-card/entity-card.component';
+import {
+  EntityCardRatingAndButtonsComponent,
+  EntityCardEntityData,
+} from '../../entity-card-rating-and-buttons/entity-card-rating-and-buttons.component';
 import { AuthService } from '../../../core/auth.service';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
 import { getApiBaseUrl, isBaseEntityView } from '../../../core/config';
 import { MovieView } from '../../../containers/collections/movies/movies.utils';
 
-interface StarInfo {
-  type: 'full' | 'half' | 'empty';
-  value: number;
-}
-
 @Component({
   selector: 'app-movie',
   standalone: true,
-  imports: [CommonModule, MatDialogModule, EntityCardComponent],
+  imports: [
+    CommonModule,
+    MatDialogModule,
+    EntityCardComponent,
+    EntityCardRatingAndButtonsComponent,
+  ],
   templateUrl: './movie.component.html',
   styleUrls: ['./movie.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -50,8 +54,6 @@ export class MovieComponent {
   @Input() index = -1;
   @Input() quizzs: Quizz[] = [];
   @Input() readOnly = false;
-  @Input() showToReWatchButton = false;
-  @Input() showAddToWatchlistButton = false;
   @Input() isInWatchlist = false;
   @Input() selectedView: MovieView = 'watched';
   @Input() recommendationBadge = '';
@@ -151,18 +153,19 @@ export class MovieComponent {
     });
   }
 
-  getRatingStars(rating: number): StarInfo[] {
-    const stars: StarInfo[] = [];
-    for (let i = 1; i <= 5; i++) {
-      if (rating >= i) {
-        stars.push({ type: 'full', value: i });
-      } else if (rating >= i - 0.5) {
-        stars.push({ type: 'half', value: i });
-      } else {
-        stars.push({ type: 'empty', value: i });
-      }
-    }
-    return stars;
+  getWatchPriority(): 1 | 2 | 3 {
+    const p = this.movie.watchPriority ?? 1;
+    return (p >= 1 && p <= 3 ? p : 1) as 1 | 2 | 3;
+  }
+
+  getEntityData(): EntityCardEntityData {
+    return {
+      rating: this.movie.rating ?? 0,
+      hasRatingComment: !!this.movie.ratingComment,
+      currentPriority: this.getWatchPriority(),
+      entityType: 'movie',
+      wantToReRead: !!this.movie.wantToSeeAgain,
+    };
   }
 
   getEntityQuizzs(): Quizz[] {

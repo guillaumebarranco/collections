@@ -68,63 +68,19 @@
     } @if (book.readTimes && book.readTimes > 1 && !isBaseEntityView) {
     <p class="book-read-times">Lu {{ book.readTimes }} fois</p>
     } @if (!isBaseEntityView) {
-    <div class="rating-and-buttons">
-      <div class="book-rating entity-rating">
-        <span class="stars">
-          <span
-            *ngFor="let star of getRatingStars(book.rating || 0)"
-            [class]="'star star-' + star.type"
-          ></span>
-        </span>
-        <span class="rating-text">{{ book.rating }}/5</span>
-      </div>
-
-      @if (book.ratingComment) {
-      <button type="button" class="makya-btn-small" (click)="openReviewModal()">
-        Voir le commentaire
-      </button>
-      } @if (isReadlistView && !isBaseEntityView) {
-      <div class="readlist-priority">
-        <div class="priority-label">Priorité :</div>
-        <div>
-          @for (priority of [1, 2, 3]; track priority) {
-          <button
-            class="makya-btn-times"
-            [class.active]="book.readPriority === priority"
-            (click)="updateReadPriority(priority)"
-            [title]="'Priorité ' + priority"
-          >
-            {{ priority }}
-          </button>
-          }
-        </div>
-      </div>
-      <button class="makya-btn-small" (click)="addBookFromReadlist()">
-        J'ai lu ce livre
-      </button>
-      } @if (recommendationText) {
-      <p class="recommendation-text">{{ recommendationText }}</p>
-      } @if (showToReReadButton && !isBaseEntityView && selectedView !==
-      'toReRead' && selectedView !== 'readlist') { @if (!book.wantToReadAgain) {
-      <button class="makya-btn-small" (click)="wantToReRead.emit(book)">
-        Je veux relire ce livre
-      </button>
-      } @else {
-      <span class="recommendation-text">Déjà ajouté à vos livres à relire</span>
-      } } @if (selectedView === 'toReRead' && !isBaseEntityView &&
-      book.wantToReadAgain) {
-      <button class="makya-btn-small" (click)="haveReRead.emit(book)">
-        J'ai relu ce livre
-      </button>
-      } @if (showAddToReadlistButton && !isBaseEntityView) { @if(!isInReadlist)
-      {
-      <button class="makya-btn-small" (click)="addToReadlist.emit(book)">
-        Ajouter à ma readlist
-      </button>
-      } @else {
-      <span class="recommendation-text">Déjà dans votre readlist</span> } }
-    </div>
-
+    <app-entity-card-rating-and-buttons
+      [entityData]="getEntityData()"
+      [recommendationText]="recommendationText"
+      [recommendationBadge]="recommendationBadge"
+      [isInList]="isInReadlist"
+      [selectedView]="selectedView"
+      (openReview)="openReviewModal()"
+      (priorityUpdated)="updateReadPriority($event)"
+      (addFromList)="addBookFromReadlist()"
+      (addToList)="addToReadlist.emit(book)"
+      (wantToReReadClick)="wantToReRead.emit(book)"
+      (haveReReadClick)="haveReRead.emit(book)"
+    />
     } @if (isBaseEntityView) {
     <p class="book-genre">{{ book.genre }}</p>
     }

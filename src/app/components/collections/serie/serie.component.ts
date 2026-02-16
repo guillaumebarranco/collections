@@ -22,6 +22,10 @@ import { SerieView } from '../../../containers/collections/series/series.utils';
 import { EditSerieComponent } from '../../../containers/edit/edit-serie/edit-serie.component';
 import { EditSerieSeasonsComponent } from '../../../containers/edit/edit-serie-seasons/edit-serie-seasons.component';
 import { EntityCardComponent } from '../../entity-card/entity-card.component';
+import {
+  EntityCardRatingAndButtonsComponent,
+  EntityCardEntityData,
+} from '../../entity-card-rating-and-buttons/entity-card-rating-and-buttons.component';
 import { AuthService } from '../../../core/auth.service';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
 import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
@@ -34,7 +38,12 @@ interface StarInfo {
 @Component({
   selector: 'app-serie',
   standalone: true,
-  imports: [CommonModule, MatDialogModule, EntityCardComponent],
+  imports: [
+    CommonModule,
+    MatDialogModule,
+    EntityCardComponent,
+    EntityCardRatingAndButtonsComponent,
+  ],
   templateUrl: './serie.component.html',
   styleUrls: ['./serie.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -51,11 +60,9 @@ export class SerieComponent {
   @Input() quizzs: Quizz[] = [];
   @Input() readOnly = false;
   @Input() recommendationText = '';
-  @Input() showAddToWatchlistButton = false;
   @Input() isInWatchlist = false;
   @Input() recommendationBadge = '';
   @Input() isWatchlistView = false;
-  @Input() showToReWatchButton = false;
   @Input() selectedView: SerieView = 'finished';
   @Output() serieUpdated = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
@@ -96,6 +103,21 @@ export class SerieComponent {
       width: 'auto',
       maxWidth: '95vw',
     });
+  }
+
+  getWatchPriority(): 1 | 2 | 3 {
+    const p = this.serie.watchPriority ?? 1;
+    return (p >= 1 && p <= 3 ? p : 1) as 1 | 2 | 3;
+  }
+
+  getEntityData(): EntityCardEntityData {
+    return {
+      rating: 0,
+      hasRatingComment: !!this.serie.ratingComment,
+      currentPriority: this.getWatchPriority(),
+      entityType: 'serie',
+      wantToReRead: !!this.serie.wantToWatchAgain,
+    };
   }
 
   navigateToEdit(): void {

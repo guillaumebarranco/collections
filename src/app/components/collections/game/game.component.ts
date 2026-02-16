@@ -15,6 +15,10 @@ import { ReviewModalComponent } from '../../review-modal/review-modal.component'
 import { Quizz, EntityType } from '../../../models/quizz-model';
 import { EditGameComponent } from '../../../containers/edit/edit-game/edit-game.component';
 import { EntityCardComponent } from '../../entity-card/entity-card.component';
+import {
+  EntityCardRatingAndButtonsComponent,
+  EntityCardEntityData,
+} from '../../entity-card-rating-and-buttons/entity-card-rating-and-buttons.component';
 import { AuthService } from '../../../core/auth.service';
 import { getGameTimePlayed } from '../../../utils/games.utils';
 import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
@@ -25,15 +29,15 @@ import {
   MoveEntityReviewModalResult,
 } from '../../move-entity-review-modal/move-entity-review-modal.component';
 
-interface StarInfo {
-  type: 'full' | 'half' | 'empty';
-  value: number;
-}
-
 @Component({
   selector: 'app-game',
   standalone: true,
-  imports: [CommonModule, MatDialogModule, EntityCardComponent],
+  imports: [
+    CommonModule,
+    MatDialogModule,
+    EntityCardComponent,
+    EntityCardRatingAndButtonsComponent,
+  ],
   templateUrl: './game.component.html',
   styleUrls: ['./game.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -50,11 +54,9 @@ export class GameComponent {
   @Input() quizzs: Quizz[] = [];
   @Input() readOnly = false;
   @Input() recommendationText = '';
-  @Input() showAddToGamelistButton = false;
   @Input() isInGamelist = false;
   @Input() recommendationBadge = '';
   @Input() isGamelistView = false;
-  @Input() showToRePlayButton = false;
   @Input() selectedView: GameView = 'finished';
   @Output() gameUpdated = new EventEmitter<void>();
   @Output() openQuizz = new EventEmitter<Quizz[]>();
@@ -119,18 +121,19 @@ export class GameComponent {
     });
   }
 
-  getRatingStars(rating: number): StarInfo[] {
-    const stars: StarInfo[] = [];
-    for (let i = 1; i <= 5; i++) {
-      if (rating >= i) {
-        stars.push({ type: 'full', value: i });
-      } else if (rating >= i - 0.5) {
-        stars.push({ type: 'half', value: i });
-      } else {
-        stars.push({ type: 'empty', value: i });
-      }
-    }
-    return stars;
+  getGamelistPriority(): 1 | 2 | 3 {
+    const p = this.game.gamelistPriority ?? 1;
+    return (p >= 1 && p <= 3 ? p : 1) as 1 | 2 | 3;
+  }
+
+  getEntityData(): EntityCardEntityData {
+    return {
+      rating: this.game.rating ?? 0,
+      hasRatingComment: !!this.game.ratingComment,
+      currentPriority: this.getGamelistPriority(),
+      entityType: 'game',
+      wantToReRead: !!this.game.wantToPlayAgain,
+    };
   }
 
   getGameTimePlayed(game: Game): number {

@@ -52,7 +52,6 @@
             : 'Recommandé'
         "
         [sagaBadge]="getSagaBadge(book)"
-        [showAddToReadlistButton]="true"
         [isInReadlist]="bookAlreadyInUserReadlist(book)"
         (openQuizz)="openQuizzModal($event)"
         (addToReadlist)="addBookToReadlist($event)"
@@ -95,7 +94,6 @@
             <app-book
               [book]="book"
               [quizzs]="quizzs()"
-              [showToReReadButton]="true"
               [selectedView]="selectedView()"
               (editRequested)="openEditBookDialog(book)"
               (openQuizz)="openQuizzModal($event)"
@@ -148,7 +146,6 @@
             <app-book
               [book]="book"
               [quizzs]="quizzs()"
-              [showToReReadButton]="true"
               [selectedView]="selectedView()"
               (editRequested)="openEditBookDialog(book)"
               (openQuizz)="openQuizzModal($event)"
@@ -188,7 +185,6 @@
           <app-book
             [book]="book"
             [quizzs]="quizzs()"
-            [showToReReadButton]="true"
             [selectedView]="selectedView()"
             (editRequested)="openEditBookDialog(book)"
             (openQuizz)="openQuizzModal($event)"
@@ -208,7 +204,6 @@
           [book]="book"
           [quizzs]="quizzs()"
           [isReadlistView]="selectedView() === 'readlist'"
-          [showToReReadButton]="true"
           [selectedView]="selectedView()"
           (editRequested)="openEditBookDialog(book)"
           (openQuizz)="openQuizzModal($event)"
