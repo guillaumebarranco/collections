@@ -1849,7 +1849,7 @@ export const amandineMovies2: UserMovies = [
   },
   {
     title: 'Un vendredi dingue, dingue, dingue',
-    director: '',
+    director: 'Gary Nelson',
     rating: 0,
     timesWatched: 10,
     firstViewedDate: '',

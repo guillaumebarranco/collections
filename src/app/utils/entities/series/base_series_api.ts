@@ -81,7 +81,7 @@ export const baseSeriesApi: BaseSerie[] = [
       {
         seasonNumber: 1,
         nbEpisodes: 10,
-        totalLength: 0,
+        totalLength: 527,
       },
     ],
     description: '',
@@ -117,7 +117,7 @@ export const baseSeriesApi: BaseSerie[] = [
       {
         seasonNumber: 2,
         nbEpisodes: 0,
-        totalLength: 0,
+        totalLength: 550,
       },
     ],
     description: '',

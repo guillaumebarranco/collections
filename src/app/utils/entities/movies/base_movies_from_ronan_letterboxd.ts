@@ -314,7 +314,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     ],
     coverUrl: '/movies_pictures/jay_kelly.jpg',
     releaseDate: '2025-01-01',
-    length: 0,
+    length: 132,
     genre: '',
     saga: '',
     description: '',

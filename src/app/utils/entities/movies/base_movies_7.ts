@@ -878,4 +878,27 @@ export const baseMoviesPage7: BaseMovie[] = [
     saga: '',
     description: '',
   },
+  {
+    title: 'A Working Man',
+    director: 'David Ayer',
+    actors: [{ name: 'Jason Statham' }],
+    coverUrl:
+      '/movies_pictures/MV5BYTg5ZTVhN2UtYjkwZS00OWI1LWFhNTgtNWZkYmRhMDViNjhmXkEyXkFqcGc@._V1_.jpg',
+    releaseDate: '2025-03-28',
+    length: 116,
+    genre: 'Action, Thriller',
+    saga: '',
+    description: '',
+  },
+  {
+    title: 'Yoroï',
+    director: 'David Tomaszewski',
+    actors: [{ name: 'Orelsan' }],
+    coverUrl: '/movies_pictures/8d14de5f174c2eda406c19b663fbe942.jpg',
+    releaseDate: '2025-10-29',
+    length: 102,
+    genre: 'Action, Fantastique',
+    saga: '',
+    description: '',
+  },
 ];

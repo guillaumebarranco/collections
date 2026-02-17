@@ -333,10 +333,10 @@ export const baseMoviesApi: BaseMovie[] = [
   {
     title: 'Wedding Daze',
     director: 'Michael Ian Black',
-    actors: [{ name: 'Inconnu' }],
+    actors: [{ name: 'Jason Biggs' }, { name: 'Isla Fisher' }],
     coverUrl: '/movies_pictures/51tjE6CC0BL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '',
-    length: 0,
+    length: 90,
     genre: '',
     saga: '',
     description: '',
@@ -376,7 +376,8 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Jesse Plemons',
       },
     ],
-    coverUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNXvkqRf_Mgjw15MP6OVhxPtslAoo1ImwAJOG894Sw-Hcslh1QgVBxCbbOf_Qu_uzc55xTlDy5CNuvJenGtUG1XjVkX9v2UFlryGhA-e4&s=10',
+    coverUrl:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNXvkqRf_Mgjw15MP6OVhxPtslAoo1ImwAJOG894Sw-Hcslh1QgVBxCbbOf_Qu_uzc55xTlDy5CNuvJenGtUG1XjVkX9v2UFlryGhA-e4&s=10',
     releaseDate: '2025-11-26',
     length: 119,
     genre: 'Thriller',
@@ -407,7 +408,8 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Jean Reno',
       },
     ],
-    coverUrl: 'https://m.media-amazon.com/images/M/MV5BYTRiMTBkYWYtZjNlMi00OGUyLWE4YWMtMGExMjA2MWQ5NGUzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BYTRiMTBkYWYtZjNlMi00OGUyLWE4YWMtMGExMjA2MWQ5NGUzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
     releaseDate: '2026-02-04',
     length: 109,
     genre: 'Comédie',
@@ -435,7 +437,8 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Fred Hechinger',
       },
     ],
-    coverUrl: 'https://jevaisciner.fr/wp/wp-content/uploads/jvc_posters/Kraven%20The%20Hunter%20Poster-scaled.jpg.webp',
+    coverUrl:
+      'https://jevaisciner.fr/wp/wp-content/uploads/jvc_posters/Kraven%20The%20Hunter%20Poster-scaled.jpg.webp',
     releaseDate: '2024-12-18',
     length: 125,
     genre: 'Action',
@@ -457,7 +460,8 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Steven Yeun',
       },
     ],
-    coverUrl: 'https://s3.amazonaws.com/nightjarprod/content/uploads/sites/192/2022/12/29154434/AcKVlWaNVVVFQwro3nLXqPljcYA1.jpg',
+    coverUrl:
+      'https://s3.amazonaws.com/nightjarprod/content/uploads/sites/192/2022/12/29154434/AcKVlWaNVVVFQwro3nLXqPljcYA1.jpg',
     releaseDate: '2022-08-10',
     length: 131,
     genre: 'Science Fiction, Horreur',
@@ -466,7 +470,7 @@ export const baseMoviesApi: BaseMovie[] = [
   },
 
   {
-    title: 'L\'Auberge Espagnol',
+    title: "L'Auberge Espagnol",
     director: 'Cédric Klapisch',
     actors: [
       {
@@ -479,7 +483,8 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Audrey Tautou',
       },
     ],
-    coverUrl: 'https://antreducinema.fr/wp-content/uploads/2020/04/AUBERGE-ESPAGNOLE.jpg',
+    coverUrl:
+      'https://antreducinema.fr/wp-content/uploads/2020/04/AUBERGE-ESPAGNOLE.jpg',
     releaseDate: '2002-06-19',
     length: 120,
     genre: 'Comédie ',
@@ -498,7 +503,8 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Paul Mescal',
       },
     ],
-    coverUrl: 'https://digitalcine.b-cdn.net/wp-content/uploads/2026/01/hamnet_affiche-fr.jpg',
+    coverUrl:
+      'https://digitalcine.b-cdn.net/wp-content/uploads/2026/01/hamnet_affiche-fr.jpg',
     releaseDate: '2026-01-21',
     length: 125,
     genre: 'Drame',
