@@ -34,7 +34,6 @@ import {
   getEstimatedComicsReadingTime,
 } from '../../utils/stats.utils';
 import {
-  getSerieTotalLengthMinutes,
   getSerieTotalTimesWatched,
   getSerieWatchedLengthMinutes,
 } from '../../utils/series.utils';
@@ -543,7 +542,7 @@ export class DashboardComponent implements OnInit {
         0
       ) +
       this.allSeries().reduce((sum, serie) => {
-        return sum + getSerieTotalLengthMinutes(serie) / 60;
+        return sum + getSerieWatchedLengthMinutes(serie) / 60;
       }, 0);
 
     const gamesTotalTime = this.allGames().reduce(
