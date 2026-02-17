@@ -37,7 +37,9 @@ export class GamesHeaderComponent {
   onViewChange = output<GameView>();
   onSearchChange = output<string>();
   onSortChange = output<string>();
+  onTopFiveRankChange = output<void>();
 
+  showTopFiveRank = input<boolean>(false);
   selectedView = input<GameView>('played');
   selectedSortInput = input<string>('rating');
   searchTermInput = input<string>('');

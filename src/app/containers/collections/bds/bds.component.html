@@ -12,9 +12,11 @@
     [stats]="stats()"
     [viewOptions]="viewOptions"
     [sortOptions]="sortOptions()"
+    [showTopFiveRank]="showTopFiveRank()"
     (onViewChange)="onViewChange($any($event))"
     (onSearchChange)="onSearchChange($event)"
     (onSortChange)="onSortChange($event)"
+    (onTopFiveRankChange)="toggleTopFiveRankDisplay()"
   ></app-bds-header>
 
   <!-- Recommendations -->
@@ -49,8 +51,11 @@
         [readOnly]="selectedView() === 'readlist'"
         [isReadlistView]="selectedView() === 'readlist'"
         [selectedView]="selectedView()"
+        [showTopFiveSelector]="showTopFiveRank()"
+        [topFiveRank]="getTopFiveRank(bd)"
         (editRequested)="openEditBdDialog(bd)"
         (openQuizz)="openQuizzModal($event)"
+        (topFiveRankChange)="onTopFiveRankChange(bd, $event)"
         (readPriorityUpdated)="updateReadPriority($event)"
         (wantToReRead)="markBdAsWantToReRead($event)"
         (haveReRead)="markBdAsReRead($event)"

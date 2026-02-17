@@ -56,6 +56,14 @@
         ✅ Possédés
       </button>
       }
+      <button
+        class="makya-btn-small"
+        [class.active]="showTopFiveRank()"
+        title="Voir les top 5 des comics"
+        (click)="onTopFiveRankChange.emit()"
+      >
+        🏆 Top 5
+      </button>
     </div>
   </div>
   } @if(!isAdminView() && allComicsCount() === 0 && allReadlistComicsCount() === 0) {

@@ -37,7 +37,9 @@ export class ComicsHeaderComponent {
   onViewChange = output<ComicView>();
   onSearchChange = output<string>();
   onSortChange = output<string>();
+  onTopFiveRankChange = output<void>();
 
+  showTopFiveRank = input<boolean>(false);
   selectedView = input<ComicView>('read');
   selectedSortInput = input<string>('rating');
   searchTermInput = input<string>('');

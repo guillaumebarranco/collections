@@ -56,6 +56,14 @@
         ✅ Possédées
       </button>
       }
+      <button
+        class="makya-btn-small"
+        [class.active]="showTopFiveRank()"
+        title="Voir les top 5 des BD"
+        (click)="onTopFiveRankChange.emit()"
+      >
+        🏆 Top 5
+      </button>
     </div>
   </div>
   } @if(!isAdminView() && allBdsCount() === 0 && allReadlistBdsCount() === 0) {

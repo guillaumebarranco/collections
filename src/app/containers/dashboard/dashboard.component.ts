@@ -447,13 +447,13 @@ export class DashboardComponent implements OnInit {
   /** Top 5 personnel : récupération réactive depuis le service */
   topFive = computed(() => {
     this.topFiveService.cache();
-    return this.topFiveService.getTopFive(
-      this.userId() || DEFAULT_USER_ID
-    );
+    return this.topFiveService.getTopFive(this.userId() || DEFAULT_USER_ID);
   });
 
   /** Pour l’affichage du Top 5 personnel : chaque slot a un rang et un libellé (résolu depuis les listes) */
-  personalTopFiveDisplay = computed<Record<TopFiveEntityType, { rank: number; label: string }[]>>(() => {
+  personalTopFiveDisplay = computed<
+    Record<TopFiveEntityType, { rank: number; label: string }[]>
+  >(() => {
     const uid = this.userId() || DEFAULT_USER_ID;
     const tf = this.topFive();
     const resolve = (
@@ -477,11 +477,15 @@ export class DashboardComponent implements OnInit {
       movies: resolve('movies', this.allMovies() as Entity[], tf.movies ?? []),
       series: resolve('series', this.allSeries() as Entity[], tf.series ?? []),
       games: resolve('games', this.allGames() as Entity[], tf.games ?? []),
-      musics: resolve('musics', this.allMusics() as Entity[], tf.musics ?? []),
-      comics: resolve('comics', this.allComics() as Entity[], tf.comics ?? []),
-      bds: resolve('bds', this.allBds() as Entity[], tf.bds ?? []),
       mangas: resolve('mangas', this.allMangas() as Entity[], tf.mangas ?? []),
-      manwhas: resolve('manwhas', this.allManwhas() as Entity[], tf.manwhas ?? []),
+      manwhas: resolve(
+        'manwhas',
+        this.allManwhas() as Entity[],
+        tf.manwhas ?? []
+      ),
+      bds: resolve('bds', this.allBds() as Entity[], tf.bds ?? []),
+      comics: resolve('comics', this.allComics() as Entity[], tf.comics ?? []),
+      musics: resolve('musics', this.allMusics() as Entity[], tf.musics ?? []),
     };
   });
 
@@ -490,11 +494,11 @@ export class DashboardComponent implements OnInit {
     movies: '🎬 Films',
     series: '📺 Séries',
     games: '🎮 Jeux',
-    musics: '🎵 Musiques',
-    comics: '🦸 Comics',
-    bds: '📗 BD',
     mangas: '📚 Mangas',
     manwhas: '📖 Manwhas',
+    comics: '🦸 Comics',
+    bds: '📗 BD',
+    musics: '🎵 Musiques',
   };
 
   personalTopFiveEntityTypes: TopFiveEntityType[] = [
@@ -502,11 +506,11 @@ export class DashboardComponent implements OnInit {
     'movies',
     'series',
     'games',
-    'musics',
-    'comics',
-    'bds',
     'mangas',
     'manwhas',
+    'comics',
+    'bds',
+    'musics',
   ];
 
   timeEntitiesStats = computed<StatItem[]>(() => {
@@ -681,12 +685,7 @@ export class DashboardComponent implements OnInit {
   }
 
   onTabChange(
-    tab:
-      | 'overview'
-      | 'entities'
-      | 'charts'
-      | 'top5stats'
-      | 'top5personal'
+    tab: 'overview' | 'entities' | 'charts' | 'top5stats' | 'top5personal'
   ): void {
     this.selectedTab.set(tab);
   }

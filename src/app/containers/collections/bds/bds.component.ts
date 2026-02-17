@@ -51,6 +51,8 @@ import {
   markBdAsWantToReRead as markBdAsWantToReReadApi,
   markBdAsReRead as markBdAsReReadApi,
 } from './bds.controller';
+import { TopFiveService } from '../../../services/top-five.service';
+import { getEntityKey } from '../../../utils/top-five.utils';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedBd = Bd & {
@@ -78,12 +80,14 @@ export class BdsComponent implements OnInit {
   private readonly dialog = inject(MatDialog);
   private readonly localStorageService = inject(LocalStorageService);
   private readonly authService = inject(AuthService);
+  private readonly topFiveService = inject(TopFiveService);
   private isLoadingPreferences = false;
   private readonly viewPreferencesStorageKey = 'bds_view_preferences';
 
   selectedSort = signal<string>('rating');
   selectedView = signal<BdView>('read');
   searchTerm = signal<string>('');
+  showTopFiveRank = signal<boolean>(false);
   isQuizzModalOpen = signal<boolean>(false);
   activeQuizzs = signal<Quizz[]>([]);
   quizzs = signal<Quizz[]>([]);
@@ -99,6 +103,11 @@ export class BdsComponent implements OnInit {
   recommendations = signal<RecommendedBd[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
   recommendationsUserId = signal<string>('');
+
+  topFive = computed(() => {
+    this.topFiveService.cache();
+    return this.topFiveService.getTopFive(this.getActiveUserId());
+  });
 
   constructor() {
     effect(() => {
@@ -360,6 +369,26 @@ export class BdsComponent implements OnInit {
 
   public isAdminView(): boolean {
     return this.authService.isAdmin() && this.router.url.startsWith('/admin');
+  }
+
+  getTopFiveRank(bd: Bd): number | null {
+    const tf = this.topFive();
+    const key = getEntityKey('bds', bd);
+    const idx = (tf.bds ?? []).indexOf(key);
+    return idx === -1 ? null : idx + 1;
+  }
+
+  onTopFiveRankChange(bd: Bd, rank: number | null): void {
+    this.topFiveService.setRank(
+      this.getActiveUserId(),
+      'bds',
+      getEntityKey('bds', bd),
+      rank
+    );
+  }
+
+  toggleTopFiveRankDisplay(): void {
+    this.showTopFiveRank.set(!this.showTopFiveRank());
   }
 
   async loadRecommendations() {

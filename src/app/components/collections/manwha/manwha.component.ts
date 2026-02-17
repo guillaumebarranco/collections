@@ -65,6 +65,9 @@ export class ManwhaComponent {
   @Output() wantToReRead = new EventEmitter<Manwha>();
   @Output() haveReRead = new EventEmitter<Manwha>();
   @Output() manwhaUpdated = new EventEmitter<void>();
+  @Input() showTopFiveSelector = false;
+  @Input() topFiveRank: number | null = null;
+  @Output() topFiveRankChange = new EventEmitter<number | null>();
 
   isBaseEntityView = isBaseEntityView();
 
@@ -78,6 +81,13 @@ export class ManwhaComponent {
 
   requestEdit(): void {
     this.editRequested.emit();
+  }
+
+  onTopFiveSelect(event: Event): void {
+    const value = (event.target as HTMLSelectElement).value;
+    this.topFiveRankChange.emit(
+      value === '' ? null : Math.min(5, Math.max(1, parseInt(value, 10)))
+    );
   }
 
   getReadPriority(): 1 | 2 | 3 {
@@ -181,5 +191,9 @@ export class ManwhaComponent {
     } catch (error) {
       console.warn('Erreur réseau lors du passage du manwha en lu.', error);
     }
+  }
+
+  getTopFiveLabel(manwha: Manwha) {
+    return `top5-${manwha.title}-${manwha.author}`;
   }
 }

@@ -20,6 +20,27 @@
     🏆
   </button>
   }
+
+  <ng-container entity-badges>
+    @if (showTopFiveSelector && !readOnly) {
+    <span class="top-five-selector">
+      <label [for]="getTopFiveLabel(bd)" class="top-five-label">Top 5</label>
+      <select
+        [id]="getTopFiveLabel(bd)"
+        [value]="topFiveRank !== null ? topFiveRank : ''"
+        (change)="onTopFiveSelect($event)"
+        class="top-five-select"
+      >
+        <option value="">—</option>
+        <option value="1">#1</option>
+        <option value="2">#2</option>
+        <option value="3">#3</option>
+        <option value="4">#4</option>
+        <option value="5">#5</option>
+      </select>
+    </span>
+    }
+  </ng-container>
   <img
     entity-cover
     [src]="bd.coverUrl"

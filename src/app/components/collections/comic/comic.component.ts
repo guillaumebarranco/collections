@@ -65,6 +65,9 @@ export class ComicComponent {
   @Output() wantToReRead = new EventEmitter<Comic>();
   @Output() haveReRead = new EventEmitter<Comic>();
   @Output() comicUpdated = new EventEmitter<void>();
+  @Input() showTopFiveSelector = false;
+  @Input() topFiveRank: number | null = null;
+  @Output() topFiveRankChange = new EventEmitter<number | null>();
 
   isBaseEntityView = isBaseEntityView();
 
@@ -78,6 +81,13 @@ export class ComicComponent {
 
   requestEdit(): void {
     this.editRequested.emit();
+  }
+
+  onTopFiveSelect(event: Event): void {
+    const value = (event.target as HTMLSelectElement).value;
+    this.topFiveRankChange.emit(
+      value === '' ? null : Math.min(5, Math.max(1, parseInt(value, 10)))
+    );
   }
 
   getReadPriority(): 1 | 2 | 3 {
@@ -181,5 +191,9 @@ export class ComicComponent {
     } catch (error) {
       console.warn('Erreur réseau lors du passage du comic en lu.', error);
     }
+  }
+
+  getTopFiveLabel(comic: Comic) {
+    return `top5-${comic.title}-${comic.writer}`;
   }
 }

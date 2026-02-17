@@ -59,6 +59,14 @@
         ✅ Possédés
       </button>
       }
+      <button
+        class="makya-btn-small"
+        [class.active]="showTopFiveRank()"
+        title="Voir les top 5 des jeux"
+        (click)="onTopFiveRankChange.emit()"
+      >
+        🏆 Top 5
+      </button>
     </div>
   </div>
   } @if(allGamesCount() === 0 && allGamelistGamesCount() === 0) {

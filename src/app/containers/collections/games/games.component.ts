@@ -44,6 +44,8 @@ import {
   markGameAsWantToRePlay as markGameAsWantToRePlayApi,
   markGameAsRePlayed as markGameAsRePlayedApi,
 } from './games.controller';
+import { TopFiveService } from '../../../services/top-five.service';
+import { getEntityKey } from '../../../utils/top-five.utils';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedGame = Game & {
@@ -75,12 +77,14 @@ export class GamesComponent implements OnInit {
   router = inject(Router);
   private readonly localStorageService = inject(LocalStorageService);
   private readonly authService = inject(AuthService);
+  private readonly topFiveService = inject(TopFiveService);
   private isLoadingPreferences = false;
   private readonly viewPreferencesStorageKey = 'games_view_preferences';
 
   selectedSort = signal<string>('rating');
   selectedView = signal<GameView>('played');
   searchTerm = signal<string>('');
+  showTopFiveRank = signal<boolean>(false);
   isQuizzModalOpen = signal<boolean>(false);
   activeQuizzs = signal<Quizz[]>([]);
   quizzs = signal<Quizz[]>([]);
@@ -104,6 +108,11 @@ export class GamesComponent implements OnInit {
   recommendations = signal<RecommendedGame[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
   recommendationsUserId = signal<string>('');
+
+  topFive = computed(() => {
+    this.topFiveService.cache();
+    return this.topFiveService.getTopFive(this.getActiveUserId());
+  });
 
   constructor() {
     effect(() => {
@@ -256,6 +265,26 @@ export class GamesComponent implements OnInit {
 
   public isAdminView(): boolean {
     return this.authService.isAdmin() && this.router.url.startsWith('/admin');
+  }
+
+  getTopFiveRank(game: Game): number | null {
+    const tf = this.topFive();
+    const key = getEntityKey('games', game);
+    const idx = (tf.games ?? []).indexOf(key);
+    return idx === -1 ? null : idx + 1;
+  }
+
+  onTopFiveRankChange(game: Game, rank: number | null): void {
+    this.topFiveService.setRank(
+      this.getActiveUserId(),
+      'games',
+      getEntityKey('games', game),
+      rank
+    );
+  }
+
+  toggleTopFiveRankDisplay(): void {
+    this.showTopFiveRank.set(!this.showTopFiveRank());
   }
 
   onSortChange(sortValue: string) {

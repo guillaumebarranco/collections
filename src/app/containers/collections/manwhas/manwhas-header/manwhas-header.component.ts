@@ -37,7 +37,9 @@ export class ManwhasHeaderComponent {
   onViewChange = output<ManwhaView>();
   onSearchChange = output<string>();
   onSortChange = output<string>();
+  onTopFiveRankChange = output<void>();
 
+  showTopFiveRank = input<boolean>(false);
   selectedView = input<ManwhaView>('read');
   selectedSortInput = input<string>('rating');
   searchTermInput = input<string>('');

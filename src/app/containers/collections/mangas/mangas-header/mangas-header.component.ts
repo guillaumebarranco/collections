@@ -37,7 +37,9 @@ export class MangasHeaderComponent {
   onViewChange = output<MangaView>();
   onSearchChange = output<string>();
   onSortChange = output<string>();
+  onTopFiveRankChange = output<void>();
 
+  showTopFiveRank = input<boolean>(false);
   selectedView = input<MangaView>('read');
   selectedSortInput = input<string>('rating');
   searchTermInput = input<string>('');

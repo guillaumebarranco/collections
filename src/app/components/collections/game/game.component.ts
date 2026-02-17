@@ -68,6 +68,9 @@ export class GameComponent {
   }>();
   @Output() wantToRePlay = new EventEmitter<Game>();
   @Output() haveRePlayed = new EventEmitter<Game>();
+  @Input() showTopFiveSelector = false;
+  @Input() topFiveRank: number | null = null;
+  @Output() topFiveRankChange = new EventEmitter<number | null>();
 
   isBaseEntityView = isBaseEntityView();
 
@@ -125,6 +128,13 @@ export class GameComponent {
   getGamelistPriority(): 1 | 2 | 3 {
     const p = this.game.gamelistPriority ?? 1;
     return (p >= 1 && p <= 3 ? p : 1) as 1 | 2 | 3;
+  }
+
+  onTopFiveSelect(event: Event): void {
+    const value = (event.target as HTMLSelectElement).value;
+    this.topFiveRankChange.emit(
+      value === '' ? null : Math.min(5, Math.max(1, parseInt(value, 10)))
+    );
   }
 
   getEntityData(): EntityCardEntityData {
@@ -217,5 +227,9 @@ export class GameComponent {
     } catch (error) {
       console.warn('Erreur réseau lors du passage du jeu en joué.', error);
     }
+  }
+
+  getTopFiveLabel(game: Game) {
+    return `top5-${game.title}-${game.editor}`;
   }
 }

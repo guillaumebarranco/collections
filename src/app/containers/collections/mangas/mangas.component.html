@@ -12,9 +12,11 @@
     [stats]="stats()"
     [viewOptions]="viewOptions"
     [sortOptions]="sortOptions()"
+    [showTopFiveRank]="showTopFiveRank()"
     (onViewChange)="onViewChange($any($event))"
     (onSearchChange)="onSearchChange($event)"
     (onSortChange)="onSortChange($event)"
+    (onTopFiveRankChange)="toggleTopFiveRankDisplay()"
   ></app-mangas-header>
 
   <!-- Recommendations -->
@@ -50,8 +52,11 @@
         [readOnly]="selectedView() === 'readlist'"
         [isReadlistView]="selectedView() === 'readlist'"
         [selectedView]="selectedView()"
+        [showTopFiveSelector]="showTopFiveRank()"
+        [topFiveRank]="getTopFiveRank(manga)"
         (editRequested)="openEditMangaDialog(manga)"
         (openQuizz)="openQuizzModal($event)"
+        (topFiveRankChange)="onTopFiveRankChange(manga, $event)"
         (readPriorityUpdated)="updateReadPriority($event)"
         (wantToReRead)="markMangaAsWantToReRead($event)"
         (haveReRead)="markMangaAsReRead($event)"

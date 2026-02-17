@@ -81,7 +81,12 @@
           <h3>📖 Livres les plus lus</h3>
           <div class="top5-list">
             @for (book of topBooks(); track book.title; let i = $index) {
-            <div class="top5-item">
+            <div
+              class="top5-item"
+              [class.top5-item--gold]="i === 0"
+              [class.top5-item--silver]="i === 1"
+              [class.top5-item--bronze]="i === 2"
+            >
               <span class="rank">#{{ i + 1 }}</span>
               <span class="title">{{ book.title }}</span>
               <span class="count"
@@ -99,7 +104,12 @@
           <h3>📚 Mangas les plus lus</h3>
           <div class="top5-list">
             @for (manga of topMangas(); track manga.title; let i = $index) {
-            <div class="top5-item">
+            <div
+              class="top5-item"
+              [class.top5-item--gold]="i === 0"
+              [class.top5-item--silver]="i === 1"
+              [class.top5-item--bronze]="i === 2"
+            >
               <span class="rank">#{{ i + 1 }}</span>
               <span class="title">{{ manga.title }}</span>
               <span class="count"
@@ -117,7 +127,12 @@
           <h3>🎬 Films les plus vus</h3>
           <div class="top5-list">
             @for (movie of topMovies(); track movie.title; let i = $index) {
-            <div class="top5-item">
+            <div
+              class="top5-item"
+              [class.top5-item--gold]="i === 0"
+              [class.top5-item--silver]="i === 1"
+              [class.top5-item--bronze]="i === 2"
+            >
               <span class="rank">#{{ i + 1 }}</span>
               <span class="title">{{ movie.title }}</span>
               <span class="count"
@@ -137,7 +152,12 @@
           <h3>📺 Séries les plus vues</h3>
           <div class="top5-list">
             @for (serie of topSeries(); track serie.title; let i = $index) {
-            <div class="top5-item">
+            <div
+              class="top5-item"
+              [class.top5-item--gold]="i === 0"
+              [class.top5-item--silver]="i === 1"
+              [class.top5-item--bronze]="i === 2"
+            >
               <span class="rank">#{{ i + 1 }}</span>
               <span class="title">{{ serie.title }}</span>
               <span class="count"
@@ -157,7 +177,12 @@
           <h3>🎮 Jeux avec le plus de temps passé</h3>
           <div class="top5-list">
             @for (game of topGames(); track game.title; let i = $index) {
-            <div class="top5-item">
+            <div
+              class="top5-item"
+              [class.top5-item--gold]="i === 0"
+              [class.top5-item--silver]="i === 1"
+              [class.top5-item--bronze]="i === 2"
+            >
               <span class="rank">#{{ i + 1 }}</span>
               <span class="title">{{ game.title }}</span>
               <span class="count">{{ game.formattedPlayedTime }}</span>
@@ -173,7 +198,12 @@
           <h3>🎵 Musiques les plus écoutées</h3>
           <div class="top5-list">
             @for (music of topMusics(); track music.title; let i = $index) {
-            <div class="top5-item">
+            <div
+              class="top5-item"
+              [class.top5-item--gold]="i === 0"
+              [class.top5-item--silver]="i === 1"
+              [class.top5-item--bronze]="i === 2"
+            >
               <span class="rank">#{{ i + 1 }}</span>
               <span class="title">{{ music.title }} - {{ music.artist }}</span>
               <span class="count"
@@ -205,7 +235,12 @@
           <h3>{{ personalTopFiveLabels[entityType] }}</h3>
           <div class="top5-list">
             @for (slot of personalTopFiveDisplay()[entityType]; track slot.rank) {
-            <div class="top5-item">
+            <div
+              class="top5-item"
+              [class.top5-item--gold]="slot.rank === 1"
+              [class.top5-item--silver]="slot.rank === 2"
+              [class.top5-item--bronze]="slot.rank === 3"
+            >
               <span class="rank">#{{ slot.rank }}</span>
               <span class="title">{{ slot.label || '—' }}</span>
             </div>

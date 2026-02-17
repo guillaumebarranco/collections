@@ -65,6 +65,9 @@ export class MangaComponent {
   @Output() wantToReRead = new EventEmitter<Manga>();
   @Output() haveReRead = new EventEmitter<Manga>();
   @Output() mangaUpdated = new EventEmitter<void>();
+  @Input() showTopFiveSelector = false;
+  @Input() topFiveRank: number | null = null;
+  @Output() topFiveRankChange = new EventEmitter<number | null>();
 
   isBaseEntityView = isBaseEntityView();
 
@@ -78,6 +81,13 @@ export class MangaComponent {
 
   requestEdit(): void {
     this.editRequested.emit();
+  }
+
+  onTopFiveSelect(event: Event): void {
+    const value = (event.target as HTMLSelectElement).value;
+    this.topFiveRankChange.emit(
+      value === '' ? null : Math.min(5, Math.max(1, parseInt(value, 10)))
+    );
   }
 
   getReadPriority(): 1 | 2 | 3 {
@@ -181,5 +191,9 @@ export class MangaComponent {
     } catch (error) {
       console.warn('Erreur réseau lors du passage du manga en lu.', error);
     }
+  }
+
+  getTopFiveLabel(manga: Manga) {
+    return `top5-${manga.title}-${manga.author}`;
   }
 }

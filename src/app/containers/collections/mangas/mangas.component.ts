@@ -51,6 +51,8 @@ import {
   markMangaAsWantToReRead as markMangaAsWantToReReadApi,
   markMangaAsReRead as markMangaAsReReadApi,
 } from './mangas.controller';
+import { TopFiveService } from '../../../services/top-five.service';
+import { getEntityKey } from '../../../utils/top-five.utils';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedManga = Manga & {
@@ -78,12 +80,14 @@ export class MangasComponent implements OnInit {
   private readonly dialog = inject(MatDialog);
   private readonly localStorageService = inject(LocalStorageService);
   private readonly authService = inject(AuthService);
+  private readonly topFiveService = inject(TopFiveService);
   private isLoadingPreferences = false;
   private readonly viewPreferencesStorageKey = 'mangas_view_preferences';
 
   selectedSort = signal<string>('rating');
   selectedView = signal<MangaView>('read');
   searchTerm = signal<string>('');
+  showTopFiveRank = signal<boolean>(false);
   isQuizzModalOpen = signal<boolean>(false);
   activeQuizzs = signal<Quizz[]>([]);
   quizzs = signal<Quizz[]>([]);
@@ -99,6 +103,11 @@ export class MangasComponent implements OnInit {
   recommendations = signal<RecommendedManga[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
   recommendationsUserId = signal<string>('');
+
+  topFive = computed(() => {
+    this.topFiveService.cache();
+    return this.topFiveService.getTopFive(this.getActiveUserId());
+  });
 
   constructor() {
     effect(() => {
@@ -362,6 +371,26 @@ export class MangasComponent implements OnInit {
 
   public isAdminView(): boolean {
     return this.authService.isAdmin() && this.router.url.startsWith('/admin');
+  }
+
+  getTopFiveRank(manga: Manga): number | null {
+    const tf = this.topFive();
+    const key = getEntityKey('mangas', manga);
+    const idx = (tf.mangas ?? []).indexOf(key);
+    return idx === -1 ? null : idx + 1;
+  }
+
+  onTopFiveRankChange(manga: Manga, rank: number | null): void {
+    this.topFiveService.setRank(
+      this.getActiveUserId(),
+      'mangas',
+      getEntityKey('mangas', manga),
+      rank
+    );
+  }
+
+  toggleTopFiveRankDisplay(): void {
+    this.showTopFiveRank.set(!this.showTopFiveRank());
   }
 
   async loadRecommendations() {

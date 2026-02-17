@@ -12,9 +12,11 @@
     [stats]="stats()"
     [viewOptions]="viewOptions"
     [sortOptions]="sortOptions()"
+    [showTopFiveRank]="showTopFiveRank()"
     (onViewChange)="onViewChange($any($event))"
     (onSearchChange)="onSearchChange($event)"
     (onSortChange)="onSortChange($event)"
+    (onTopFiveRankChange)="toggleTopFiveRankDisplay()"
   ></app-manwhas-header>
 
   @if(selectedView() === 'readlist') {
@@ -62,8 +64,11 @@
         [readOnly]="selectedView() === 'readlist'"
         [isReadlistView]="selectedView() === 'readlist'"
         [selectedView]="selectedView()"
+        [showTopFiveSelector]="showTopFiveRank()"
+        [topFiveRank]="getTopFiveRank(manwha)"
         (editRequested)="openEditManwhaDialog(manwha)"
         (openQuizz)="openQuizzModal($event)"
+        (topFiveRankChange)="onTopFiveRankChange(manwha, $event)"
         (readPriorityUpdated)="updateReadPriority($event)"
         (wantToReRead)="markManwhaAsWantToReRead($event)"
         (haveReRead)="markManwhaAsReRead($event)"

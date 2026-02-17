@@ -51,6 +51,8 @@ import {
   markManwhaAsWantToReRead as markManwhaAsWantToReReadApi,
   markManwhaAsReRead as markManwhaAsReReadApi,
 } from './manwhas.controller';
+import { TopFiveService } from '../../../services/top-five.service';
+import { getEntityKey } from '../../../utils/top-five.utils';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedManwha = Manwha & {
@@ -77,11 +79,13 @@ export class ManwhasComponent implements OnInit {
   private readonly dialog = inject(MatDialog);
   private readonly localStorageService = inject(LocalStorageService);
   private readonly authService = inject(AuthService);
+  private readonly topFiveService = inject(TopFiveService);
   private isLoadingPreferences = false;
   private readonly viewPreferencesStorageKey = 'manwhas_view_preferences';
   selectedSort = signal<string>('rating');
   selectedView = signal<ManwhaView>('read');
   searchTerm = signal<string>('');
+  showTopFiveRank = signal<boolean>(false);
   isQuizzModalOpen = signal<boolean>(false);
   activeQuizzs = signal<Quizz[]>([]);
   quizzs = signal<Quizz[]>([]);
@@ -97,6 +101,11 @@ export class ManwhasComponent implements OnInit {
   recommendations = signal<RecommendedManwha[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
   recommendationsUserId = signal<string>('');
+
+  topFive = computed(() => {
+    this.topFiveService.cache();
+    return this.topFiveService.getTopFive(this.getActiveUserId());
+  });
 
   constructor() {
     effect(() => {
@@ -370,6 +379,26 @@ export class ManwhasComponent implements OnInit {
 
   public isAdminView(): boolean {
     return this.authService.isAdmin() && this.router.url.startsWith('/admin');
+  }
+
+  getTopFiveRank(manwha: Manwha): number | null {
+    const tf = this.topFive();
+    const key = getEntityKey('manwhas', manwha);
+    const idx = (tf.manwhas ?? []).indexOf(key);
+    return idx === -1 ? null : idx + 1;
+  }
+
+  onTopFiveRankChange(manwha: Manwha, rank: number | null): void {
+    this.topFiveService.setRank(
+      this.getActiveUserId(),
+      'manwhas',
+      getEntityKey('manwhas', manwha),
+      rank
+    );
+  }
+
+  toggleTopFiveRankDisplay(): void {
+    this.showTopFiveRank.set(!this.showTopFiveRank());
   }
 
   async loadRecommendations() {

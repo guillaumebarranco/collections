@@ -49,6 +49,8 @@ import {
   markComicAsWantToReRead as markComicAsWantToReReadApi,
   markComicAsReRead as markComicAsReReadApi,
 } from './comics.controller';
+import { TopFiveService } from '../../../services/top-five.service';
+import { getEntityKey } from '../../../utils/top-five.utils';
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedComic = Comic & {
   recommendationDetails: RecommendationDetail[];
@@ -75,12 +77,14 @@ export class ComicsComponent implements OnInit {
   private readonly dialog = inject(MatDialog);
   private readonly localStorageService = inject(LocalStorageService);
   private readonly authService = inject(AuthService);
+  private readonly topFiveService = inject(TopFiveService);
   private isLoadingPreferences = false;
   private readonly viewPreferencesStorageKey = 'comics_view_preferences';
 
   selectedSort = signal<string>('rating');
   selectedView = signal<ComicView>('read');
   searchTerm = signal<string>('');
+  showTopFiveRank = signal<boolean>(false);
   isQuizzModalOpen = signal<boolean>(false);
   activeQuizzs = signal<Quizz[]>([]);
   quizzs = signal<Quizz[]>([]);
@@ -96,6 +100,11 @@ export class ComicsComponent implements OnInit {
   recommendations = signal<RecommendedComic[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
   recommendationsUserId = signal<string>('');
+
+  topFive = computed(() => {
+    this.topFiveService.cache();
+    return this.topFiveService.getTopFive(this.getActiveUserId());
+  });
 
   constructor() {
     effect(() => {
@@ -373,6 +382,26 @@ export class ComicsComponent implements OnInit {
 
   public isAdminView(): boolean {
     return this.authService.isAdmin() && this.router.url.startsWith('/admin');
+  }
+
+  getTopFiveRank(comic: Comic): number | null {
+    const tf = this.topFive();
+    const key = getEntityKey('comics', comic);
+    const idx = (tf.comics ?? []).indexOf(key);
+    return idx === -1 ? null : idx + 1;
+  }
+
+  onTopFiveRankChange(comic: Comic, rank: number | null): void {
+    this.topFiveService.setRank(
+      this.getActiveUserId(),
+      'comics',
+      getEntityKey('comics', comic),
+      rank
+    );
+  }
+
+  toggleTopFiveRankDisplay(): void {
+    this.showTopFiveRank.set(!this.showTopFiveRank());
   }
 
   async loadRecommendations() {
