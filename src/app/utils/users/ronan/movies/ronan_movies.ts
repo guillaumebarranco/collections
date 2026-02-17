@@ -13659,4 +13659,18 @@ export const ronanMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
+
+  {
+    title: 'Hamnet',
+    director: 'Chloé Zhao',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2026-02-16',
+    lastViewedDate: '2026-02-16',
+    seenAtCinema: true,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+  },
 ];

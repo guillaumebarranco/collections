@@ -486,4 +486,23 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: 'Trilogie Cédric Klapisch',
     description: '',
   },
+
+  {
+    title: 'Hamnet',
+    director: 'Chloé Zhao',
+    actors: [
+      {
+        name: 'Jessie Buckley',
+      },
+      {
+        name: 'Paul Mescal',
+      },
+    ],
+    coverUrl: 'https://digitalcine.b-cdn.net/wp-content/uploads/2026/01/hamnet_affiche-fr.jpg',
+    releaseDate: '2026-01-21',
+    length: 125,
+    genre: 'Drame',
+    saga: '',
+    description: '',
+  },
 ];
