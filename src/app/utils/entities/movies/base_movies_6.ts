@@ -2391,7 +2391,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     director: 'Gabriel Julien-Laferrière',
     actors: [{ name: 'Joséphine Japy' }],
     coverUrl: '/movies_pictures/0525282.jpg',
-    releaseDate: '2010-01-01',
+    releaseDate: '2017-08-08',
     length: 97,
     genre: 'Comedy',
     saga: '',

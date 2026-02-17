@@ -449,10 +449,20 @@ export const baseMoviesPage2: BaseMovie[] = [
     saga: '',
     description: '',
   },
+
   {
     title: 'Yamakasi',
     director: 'Julien Seri',
-    actors: [{ name: '' }],
+    actors: [
+      { name: 'Châu Belle Dinh' },
+      { name: 'Williams Belle' },
+      { name: 'Malik Diouf' },
+      { name: "Yannn H'Nautra" },
+      { name: "Guylain N'Guba Boyeke" },
+      { name: 'Laurent Piemontesi' },
+      { name: 'Charles Perrière' },
+      { name: 'Maher Kamoun' },
+    ],
     coverUrl: '/movies_pictures/48171-yamakasi-0-1000-0-1500-crop.jpg',
     releaseDate: '2001-02-05',
     length: 90,

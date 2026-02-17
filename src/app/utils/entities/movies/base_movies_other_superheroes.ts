@@ -263,7 +263,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     title: 'Spider-Man 2',
     director: 'Sam Raimi',
     actors: [{ name: 'Tobey Maguire' }],
-    coverUrl: '/movies_pictures/amazin_spiderman_2.jpg',
+    coverUrl: '/movies_pictures/18380826.jpg',
     releaseDate: '2004-06-30',
     length: 127,
     genre: 'Action',

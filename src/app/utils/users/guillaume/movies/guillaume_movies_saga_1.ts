@@ -1292,7 +1292,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     title: 'Die Hard 3 : une journée en enfer',
     director: 'John McTiernan',
     rating: 5,
-    timesWatched: 30,
+    timesWatched: 25,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,

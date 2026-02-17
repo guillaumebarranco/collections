@@ -5,7 +5,7 @@ export const guillaumeMoviesMcu: UserMovies = [
     title: 'Avengers',
     director: 'Joss Whedon',
     rating: 4.75,
-    timesWatched: 30,
+    timesWatched: 25,
     firstViewedDate: '2012-05-04',
     lastViewedDate: '2012-05-04',
     seenAtCinema: true,

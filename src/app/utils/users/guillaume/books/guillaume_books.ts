@@ -832,4 +832,16 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: 'La Mémoire de Babel',
+    author: 'Christelle Dabos',
+    readDate: '2026-02-17',
+    rating: 3.75,
+    readTimes: 1,
+    owned: false,
+    readPriority: 3,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
 ];

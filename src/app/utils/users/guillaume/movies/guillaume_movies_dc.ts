@@ -83,7 +83,7 @@ export const guillaumeMoviesDc: UserMovies = [
     title: 'The Dark Knight : Le Chevalier Noir',
     director: 'Christopher Nolan',
     rating: 5,
-    timesWatched: 30,
+    timesWatched: 25,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,

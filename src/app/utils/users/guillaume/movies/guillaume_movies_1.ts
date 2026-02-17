@@ -70,9 +70,9 @@ export const guillaumeMoviesPage1: UserMovies = [
     title: 'Road House',
     director: 'Doug Liman',
     rating: 3.75,
-    timesWatched: 5,
+    timesWatched: 3,
     firstViewedDate: '2024-03-21',
-    lastViewedDate: '',
+    lastViewedDate: '2024-07-21',
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
@@ -85,7 +85,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     rating: 3.5,
     timesWatched: 2,
     firstViewedDate: '2024-03-24',
-    lastViewedDate: '2024-03-24',
+    lastViewedDate: '2024-11-24',
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
@@ -162,8 +162,8 @@ export const guillaumeMoviesPage1: UserMovies = [
     director: 'Michael B. Jordan',
     rating: 3,
     timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2024-02-02',
+    lastViewedDate: '2024-02-02',
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
@@ -279,8 +279,8 @@ export const guillaumeMoviesPage1: UserMovies = [
     director: 'Daniel Kwan, Daniel Scheinert',
     rating: 3.5,
     timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2023-10-10',
+    lastViewedDate: '2023-10-10',
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
@@ -319,7 +319,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     rating: 3.25,
     timesWatched: 3,
     firstViewedDate: '2021-12-03',
-    lastViewedDate: '',
+    lastViewedDate: '2024-12-03',
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
@@ -370,8 +370,8 @@ export const guillaumeMoviesPage1: UserMovies = [
     director: 'Tanya Wexler',
     rating: 3.75,
     timesWatched: 3,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2021-08-01',
+    lastViewedDate: '2024-07-07',
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
@@ -418,19 +418,6 @@ export const guillaumeMoviesPage1: UserMovies = [
     ratingComment: '',
   },
   {
-    title: 'Wasabi',
-    director: 'Gérard Krawczyk',
-    rating: 3,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-  },
-  {
     title: 'Training Day',
     director: 'Antoine Fuqua',
     rating: 3.25,
@@ -461,8 +448,8 @@ export const guillaumeMoviesPage1: UserMovies = [
     director: 'David Lynch',
     rating: 2.5,
     timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2021-05-10',
+    lastViewedDate: '2021-05-10',
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
@@ -552,8 +539,8 @@ export const guillaumeMoviesPage1: UserMovies = [
     director: 'Darren Aronofsky',
     rating: 2.5,
     timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2009-05-14',
+    lastViewedDate: '2009-05-14',
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
@@ -812,8 +799,8 @@ export const guillaumeMoviesPage1: UserMovies = [
     director: 'Richard Donner',
     rating: 3.25,
     timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2025-09-09',
+    lastViewedDate: '2025-09-09',
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
@@ -911,7 +898,6 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Nobody',
     director: 'Ilya Naishuller',
@@ -925,7 +911,6 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Clones',
     director: 'Jonathan Mostow',
@@ -939,7 +924,6 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'La Vie est belle',
     director: 'Roberto Benigni',
@@ -953,21 +937,19 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'La Mort aux trousses',
     director: 'Alfred Hitchcock',
     rating: 3,
     timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2010-05-05',
+    lastViewedDate: '2010-05-05',
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Sans identité',
     director: 'Jaume Collet-Serra',
@@ -981,7 +963,6 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'La Colère des Titans',
     director: 'Jonathan Liebesman',
@@ -995,7 +976,6 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Neuilly, sa mère !',
     director: 'Gabriel Julien-Laferrière',
@@ -1009,21 +989,19 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Neuilly, sa mère sa mère',
     director: 'Gabriel Julien-Laferrière',
     rating: 2.75,
     timesWatched: 1,
-    firstViewedDate: '2010-01-01',
-    lastViewedDate: '2010-01-01',
+    firstViewedDate: '2017-08-08',
+    lastViewedDate: '2017-08-08',
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Seuls Two',
     director: 'David Charhon',
@@ -1037,7 +1015,6 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: "Le Fabuleux Destin d'Amélie Poulain",
     director: 'Jean-Pierre Jeunet',
@@ -1051,7 +1028,6 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: "Jeux d'enfants",
     director: 'Yann Samuel',
@@ -1065,7 +1041,6 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Les trois frères',
     director: 'Didier Bourdon',
@@ -1079,21 +1054,19 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Quai des Brumes',
     director: 'Marcel Carné',
     rating: 3,
     timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2010-05-05',
+    lastViewedDate: '2010-05-05',
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Patients',
     director: 'Grand Corps Malade',
@@ -1107,7 +1080,6 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Babysitting',
     director: 'Philippe Lacheau',
@@ -1121,7 +1093,6 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Babysitting 2',
     director: 'Philippe Lacheau',
@@ -1135,7 +1106,6 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: "Bienvenue chez les Ch'tis",
     director: 'Dany Boon',
@@ -1149,7 +1119,6 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Les Beaux Gosses',
     director: 'Riad Sattouf',
@@ -1163,7 +1132,6 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Tais-toi',
     director: 'Francis Veber',
@@ -1177,7 +1145,6 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Steak',
     director: 'Charles Nemes',
@@ -1191,7 +1158,6 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Deux Frères',
     director: 'Jean-Jacques Annaud',
@@ -1205,7 +1171,6 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Les Choristes',
     director: 'Christophe Barratier',
@@ -1219,21 +1184,19 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: "Jusqu'au bout du rêve",
     director: 'Phil Alden Robinson',
     rating: 3.5,
     timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
+    firstViewedDate: '2015-03-04',
+    lastViewedDate: '2015-03-04',
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Les Nouveaux Mutants',
     director: 'Josh Boone',
@@ -1260,7 +1223,6 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Moulin Rouge !',
     director: 'Baz Luhrmann',
@@ -1274,7 +1236,6 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Entre deux rives',
     director: 'Alejandro Agresti',
@@ -1288,7 +1249,6 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Cruella',
     director: 'Craig Gillespie',
