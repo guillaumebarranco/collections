@@ -1,9 +1,9 @@
 {
   "books": [
-    "",
-    "",
-    "",
-    "",
+    "Les Tentacules du mal|Pierre Bottero",
+    "Harry Potter et le Prince de sang-mêlé|J.K. Rowling",
+    "Le Dernier Olympien|Rick Riordan",
+    "Ellana, l'Envol|Pierre Bottero",
     ""
   ],
   "movies": [
@@ -14,18 +14,18 @@
     "Le chant du loup|Antonin Baudry"
   ],
   "series": [
-    "",
-    "",
-    "",
-    "",
-    ""
+    "Game of Thrones|David Benioff, D.B. Weiss",
+    "How I Met Your Mother|Carter Bays, Craig Thomas",
+    "Arcane|Pascal Charrue, Arnaud Delord",
+    "The Get Down|Baz Luhrmann, Stephen Adly Guirgis",
+    "Agents of S.H.I.E.L.D.|Jed Whedon, Maurissa Tancharoen"
   ],
   "games": [
-    "",
-    "",
-    "",
-    "",
-    ""
+    "Uncharted 4 : A Thief's End|Naughty Dog",
+    "Batman: Arkham City|Rocksteady Studios",
+    "Elden Ring|FromSoftware",
+    "Assassin's Creed : Brotherhood|Ubisoft",
+    "Naruto Shippuden: Ultimate Ninja Storm 2|CyberConnect2"
   ],
   "musics": [
     "",
@@ -35,11 +35,11 @@
     ""
   ],
   "comics": [
-    "",
-    "",
-    "",
-    "",
-    ""
+    "Civil War|Mark Millar",
+    "Spider-Man : Bleu|Jeph Loeb",
+    "Justice League : Crise d'identité|Brad Meltzer",
+    "House of M|Brian Michael Bendis",
+    "Spider-Man : 11 septembre 2001|Inconnu"
   ],
   "bds": [
     "",
@@ -49,11 +49,11 @@
     ""
   ],
   "mangas": [
-    "",
-    "",
-    "",
-    "",
-    ""
+    "Naruto|Masashi Kishimoto",
+    "One Piece|Eiichirō Oda",
+    "Crows|Hiroshi Takahashi",
+    "Fullmetal Alchemist|Hiromu Arakawa",
+    "Eyeshield 21|Riichirō Inagaki"
   ],
   "manwhas": [
     "",
