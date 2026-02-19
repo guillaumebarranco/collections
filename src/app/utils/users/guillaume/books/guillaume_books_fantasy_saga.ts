@@ -2,7 +2,7 @@ import { UserBooks } from '../../../../models/book-model';
 
 export const guillaumeBooksFantasySaga: UserBooks = [
   {
-    title: 'Le grand éveil',
+    title: 'Les Enfants d\'Aliel - Le grand éveil',
     author: 'Sara Schneider',
     readDate: '2025-03-25',
     rating: 3.5,
@@ -13,7 +13,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'Le cheval de feu',
+    title: 'Les Enfants d\'Aliel - Le cheval de feu',
     author: 'Sara Schneider',
     readDate: '2025-04-05',
     rating: 3.5,
@@ -24,7 +24,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     ratingComment: '',
   },
   {
-    title: "Mâchoires d'écume",
+    title: "Les Enfants d'Aliel - Mâchoires d'écume",
     author: 'Sara Schneider',
     readDate: '2025-04-08',
     rating: 4,
@@ -35,7 +35,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     ratingComment: '',
   },
   {
-    title: "Le porteur d'espoir",
+    title: "Les Enfants d'Aliel - Le porteur d'espoir",
     author: 'Sara Schneider',
     readDate: '2025-04-09',
     rating: 4.5,
@@ -46,7 +46,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'Ciel de cendres',
+    title: 'Les Enfants d\'Aliel - Ciel de cendres',
     author: 'Sara Schneider',
     readDate: '2025-04-14',
     rating: 3.5,

@@ -907,19 +907,19 @@ export const ronanSeries: UserSeries = [
     title: 'Montre jamais ça à personne',
     director: 'Hugo Benamozig, David Caviglioli',
     seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 4.5,
-        seasonTimesWatched: 1,
-        lastViewedDate: '',
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 4.5,
-        seasonTimesWatched: 0,
-        lastViewedDate: '',
-      },
-    ],
+    {
+      seasonNumber: 1,
+      seasonRating: 4.5,
+      seasonTimesWatched: 1,
+      lastViewedDate: '',
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 4.5,
+      seasonTimesWatched: 1,
+      lastViewedDate: '',
+    }
+  ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,

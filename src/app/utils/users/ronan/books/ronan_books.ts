@@ -68,7 +68,7 @@ export const ronanBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'Le grand éveil',
+    title: 'Les Enfants d\'Aliel - Le grand éveil',
     author: 'Sara Schneider',
     rating: 3,
     readDate: '',
@@ -79,7 +79,7 @@ export const ronanBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'Le cheval de feu',
+    title: 'Les Enfants d\'Aliel - Le cheval de feu',
     author: 'Sara Schneider',
     rating: 4,
     readDate: '',
@@ -90,7 +90,7 @@ export const ronanBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: "Mâchoires d'écume",
+    title: "Les Enfants d'Aliel - Mâchoires d'écume",
     author: 'Sara Schneider',
     rating: 3,
     readDate: '2025-01-18',
@@ -101,7 +101,7 @@ export const ronanBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: "Le porteur d'espoir",
+    title: "Les Enfants d'Aliel - Le porteur d'espoir",
     author: 'Sara Schneider',
     rating: 4,
     readDate: '2025-03-22',
@@ -112,7 +112,7 @@ export const ronanBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'Ciel de cendres',
+    title: 'Les Enfants d\'Aliel - Ciel de cendres',
     author: 'Sara Schneider',
     rating: 3,
     readDate: '2025-08-11',
@@ -431,7 +431,7 @@ export const ronanBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'Les Mobilisés',
+    title: 'Absolu - Les Mobilisés',
     author: 'Margot Dessenne',
     rating: 4,
     readDate: '',
@@ -442,7 +442,7 @@ export const ronanBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'Les Effacés',
+    title: 'Absolu - Les Effacés',
     author: 'Margot Dessenne',
     rating: 5,
     readDate: '',
@@ -453,7 +453,7 @@ export const ronanBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'Les Éveillés',
+    title: 'Absolu - Les Éveillés',
     author: 'Margot Dessenne',
     rating: 4,
     readDate: '2024-11-23',
@@ -1063,6 +1063,18 @@ export const ronanBooks: UserBooks = [
     author: 'C. S. Lewis',
     readDate: '2026-02-02',
     rating: 3.5,
+    readTimes: 1,
+    owned: true,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Le Monde de Narnia (Tome 4) Le Prince Caspian',
+    author: 'C. S. Lewis',
+    readDate: '2026-02-19',
+    rating: 3,
     readTimes: 1,
     owned: true,
     readPriority: 1,

@@ -354,7 +354,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'Les Mobilisés',
+    title: 'Absolu - Les Mobilisés',
     author: 'Margot Dessenne',
     readDate: '2024-02-26',
     rating: 4,
@@ -365,7 +365,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'Les Effacés',
+    title: 'Absolu - Les Effacés',
     author: 'Margot Dessenne',
     readDate: '2024-02-27',
     rating: 3.5,
@@ -376,7 +376,7 @@ export const guillaumeBooksSaga: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'Les Éveillés',
+    title: 'Absolu - Les Éveillés',
     author: 'Margot Dessenne',
     readDate: '2024-12-21',
     rating: 4,

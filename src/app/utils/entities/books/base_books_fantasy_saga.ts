@@ -2,7 +2,7 @@ import { BaseBook } from '../../../models/book-model';
 
 export const baseBooksFantasySaga: BaseBook[] = [
   {
-    title: 'Le grand éveil',
+    title: 'Les Enfants d\'Aliel - Le grand éveil',
     author: 'Sara Schneider',
     coverUrl:
       '/books_pictures/les_enfants_daliel_tome_1_le_grand_eveil-1301631-264-432.jpg',
@@ -15,7 +15,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     description: '',
   },
   {
-    title: 'Le cheval de feu',
+    title: 'Les Enfants d\'Aliel - Le cheval de feu',
     author: 'Sara Schneider',
     coverUrl:
       '/books_pictures/les_enfants_daliel_tome_2_le_cheval_de_feu-1235625-264-432.jpg',
@@ -28,7 +28,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     description: '',
   },
   {
-    title: "Mâchoires d'écume",
+    title: "Les Enfants d'Aliel - Mâchoires d'écume",
     author: 'Sara Schneider',
     coverUrl:
       '/books_pictures/les_enfants_daliel_tome_3_machoires_decume-1347405-264-432.jpg',
@@ -41,7 +41,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     description: '',
   },
   {
-    title: "Le porteur d'espoir",
+    title: "Les Enfants d'Aliel - Le porteur d'espoir",
     author: 'Sara Schneider',
     coverUrl:
       '/books_pictures/les_enfants_daliel_tome_4_le_porteur_despoir-1497527-264-432.jpg',
@@ -54,7 +54,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     description: '',
   },
   {
-    title: 'Ciel de cendres',
+    title: 'Les Enfants d\'Aliel - Ciel de cendres',
     author: 'Sara Schneider',
     coverUrl:
       '/books_pictures/les_enfants_daliel_tome_5_ciel_de_cendres-5009301-264-432.jpg',

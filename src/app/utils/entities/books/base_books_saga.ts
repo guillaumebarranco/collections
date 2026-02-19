@@ -402,7 +402,7 @@ export const baseBooksSaga: BaseBook[] = [
     description: '',
   },
   {
-    title: 'Les Mobilisés',
+    title: 'Absolu - Les Mobilisés',
     author: 'Margot Dessenne',
     coverUrl: '/books_pictures/absolu_tome_1_les_mobilises-5068580-264-432.jpg',
     pages: 540,
@@ -414,7 +414,7 @@ export const baseBooksSaga: BaseBook[] = [
     description: '',
   },
   {
-    title: 'Les Effacés',
+    title: 'Absolu - Les Effacés',
     author: 'Margot Dessenne',
     coverUrl: '/books_pictures/absolu_tome_2_les_effaces-5229178-264-432.jpg',
     pages: 608,
@@ -426,7 +426,7 @@ export const baseBooksSaga: BaseBook[] = [
     description: '',
   },
   {
-    title: 'Les Éveillés',
+    title: 'Absolu - Les Éveillés',
     author: 'Margot Dessenne',
     coverUrl: '/books_pictures/absolu_tome_3_les_eveilles-5515539-264-432.jpg',
     pages: 600,

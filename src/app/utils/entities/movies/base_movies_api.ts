@@ -533,4 +533,29 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
   },
+
+  {
+    title: 'Les Poupées Russes',
+    director: 'Cédric Klapisch',
+    actors: [
+      {
+        name: 'Romain Duris',
+      },
+      {
+        name: 'Cécile de France',
+      },
+      {
+        name: 'Audrey Tautou',
+      },
+      {
+        name: 'Kelly Reilly',
+      }
+    ],
+    coverUrl: 'https://fr.web.img6.acsta.net/c_310_420/medias/nmedia/18/35/79/54/18425307.jpg',
+    releaseDate: '2005-06-15',
+    length: 130,
+    genre: 'Comédie',
+    saga: 'Trilogie Cédric Klapisch',
+    description: '',
+  },
 ];

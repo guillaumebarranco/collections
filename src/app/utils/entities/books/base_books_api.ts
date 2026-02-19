@@ -596,4 +596,17 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
   },
+
+  {
+    title: 'Le Monde de Narnia (Tome 4) Le Prince Caspian',
+    author: 'C. S. Lewis',
+    coverUrl: 'https://cdn.shopify.com/s/files/1/0398/4202/1535/files/Y2681YOTO02221LemondedeNarnia4LeprinceCaspian_Rounded.png?v=1711318708',
+    pages: 240,
+    genre: 'Fantasy',
+    saga: 'Le Monde de Narnia',
+    sagaOrder: 4,
+    sagaFinished: true,
+    releaseDate: '1951-10-15',
+    description: '',
+  },
 ];
