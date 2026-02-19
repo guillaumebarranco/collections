@@ -21,7 +21,11 @@
   </button>
   } @if (showTopFiveSelector && !readOnly) {
   <span class="top-five-selector" entity-badges>
-    <label [for]="'top5-movie-' + movie.title + '-' + movie.director" class="top-five-label">Top 5</label>
+    <label
+      [for]="'top5-movie-' + movie.title + '-' + movie.director"
+      class="top-five-label"
+      >Top 5</label
+    >
     <select
       [id]="'top5-movie-' + movie.title + '-' + movie.director"
       [value]="topFiveRank !== null ? topFiveRank : ''"
@@ -82,7 +86,15 @@
     <p class="movie-description">{{ movie.description }}</p>
     } @if (movie.timesWatched && movie.timesWatched > 1 && !isBaseEntityView) {
     <p class="movie-times-watched">🎬 Visionné {{ movie.timesWatched }} fois</p>
-
+    } @if(movie.timesWatched === 1) {
+    <p class="movie-times-watched">
+      Vu le {{ movie.firstViewedDate | date : "dd/MM/yyyy" }}
+    </p>
+    } @if(movie.timesWatched > 1) {
+    <p class="movie-times-watched">
+      Dernier visionnage le
+      {{ movie.lastViewedDate | date : "dd/MM/yyyy" }}
+    </p>
     } @if (!isBaseEntityView) {
     <app-entity-card-rating-and-buttons
       [entityData]="getEntityData()"
