@@ -12,4 +12,15 @@ export const guillaumeBds: UserBds = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+  {
+    title: 'CommitStrip : Rise of The Coders',
+    writer: 'Etienne Issartial',
+    readDate: '2016-11-11',
+    rating: 3.5,
+    readTimes: 1,
+    owned: true,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
 ];

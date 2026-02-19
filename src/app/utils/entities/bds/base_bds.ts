@@ -38,4 +38,13 @@ export const baseBds: BaseBd[] = [
     genre: 'Nonfiction',
     description: '',
   },
+  {
+    title: 'CommitStrip : Rise of The Coders',
+    writer: 'Etienne Issartial',
+    designer: 'Thomas Gx',
+    coverUrl: '/bd_pictures/cover-111827-200.jpg',
+    pages: 128,
+    genre: 'Nonfiction',
+    description: '',
+  },
 ];
