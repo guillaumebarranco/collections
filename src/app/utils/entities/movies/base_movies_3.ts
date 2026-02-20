@@ -1054,7 +1054,12 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Comment tuer son boss',
     director: 'Seth Gordon',
-    actors: [{ name: 'Jason Bateman' }],
+    actors: [
+      { name: 'Jason Bateman' },
+      { name: 'Charlie Day' },
+      { name: 'Jason Sudeikis' },
+      { name: 'Christoph Waltz' },
+    ],
     coverUrl: '/movies_pictures/horrible_bosses.jpg',
     releaseDate: '2011-07-08',
     length: 98,

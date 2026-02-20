@@ -46,6 +46,8 @@ export class EntityCardRatingAndButtonsComponent {
   @Input() isInList = false;
   @Input() selectedView = '';
   @Input() showRating = true;
+  /** Masquer le bouton "Je veux revoir/relire" (ex. section "Films pas encore vus" en vue acteurs/sagas/...) */
+  @Input() hideWantToReReadButton = false;
   /** Override optionnel des libellés par défaut (déduits de entityType). */
   @Input() labels: Partial<EntityCardRatingLabels> = {};
 

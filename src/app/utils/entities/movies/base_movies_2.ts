@@ -170,6 +170,9 @@ export const baseMoviesPage2: BaseMovie[] = [
       {
         name: 'Rosa Salazar',
       },
+      {
+        name: 'Christoph Waltz',
+      },
     ],
     coverUrl: '/movies_pictures/333832-alita-battle-angel-0-150-0-225-crop.jpg',
     releaseDate: '2019-02-14',

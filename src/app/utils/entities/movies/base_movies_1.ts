@@ -346,22 +346,6 @@ export const baseMoviesPage1: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
-    title: 'The Adam Project',
-    director: 'Shawn Levy',
-    actors: [
-      {
-        name: 'Ryan Reynolds',
-      },
-    ],
-    coverUrl: '/movies_pictures/620665-the-adam-project-0-150-0-225-crop.jpg',
-    releaseDate: '2022-03-11',
-    length: 106,
-    genre: 'Science Fiction',
-    saga: '',
-    description: '',
-    countryOrigin: 'États-Unis',
-  },
-  {
     title: "Don't look up, déni cosmique",
     director: 'Adam McKay',
     actors: [
@@ -1443,5 +1427,33 @@ export const baseMoviesPage1: BaseMovie[] = [
     saga: '',
     description: '',
     countryOrigin: 'France',
+  },
+  {
+    title: 'Adèle Blanc-Sec',
+    director: 'Luc Besson',
+    actors: [{ name: 'Louise Bourgoin' }],
+    coverUrl: '/movies_pictures/19410139.jpg',
+    releaseDate: '2010-04-14',
+    length: 107,
+    genre: 'Adventure, Fantasy',
+    saga: '',
+    description: '',
+    countryOrigin: 'France',
+  },
+  {
+    title: 'Le Murder Club du jeudi',
+    director: 'Chris Columbus',
+    actors: [
+      { name: 'Helen Mirren' },
+      { name: 'Pierce Brosnan' },
+      { name: 'Ben Kingsley' },
+    ],
+    coverUrl: '/movies_pictures/le-murder-club-du-jeudi-2025.jpg',
+    releaseDate: '2025-08-21',
+    length: 118,
+    genre: 'Comedy, Crime',
+    saga: '',
+    description: '',
+    countryOrigin: 'Royaume-Uni',
   },
 ];

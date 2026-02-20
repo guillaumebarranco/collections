@@ -26,6 +26,22 @@
 
 .series-stats-bloc {
   @include containers.header-base;
+
+  .series-filters {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-width: 320px;
+  }
+
+  .series-filters-item {
+    display: flex;
+    gap: 10px;
+    color: #34495e;
+    font-size: 1rem;
+    font-weight: 500;
+    white-space: nowrap;
+  }
 }
 
 .series-search {
@@ -48,6 +64,10 @@
     flex-direction: column;
     gap: 15px;
     text-align: center;
+
+    .series-filters {
+      width: 100%;
+    }
   }
 
   .series-header-top {

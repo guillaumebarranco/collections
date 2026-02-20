@@ -210,7 +210,11 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Django Unchained',
     director: 'Quentin Tarantino',
-    actors: [{ name: 'Jamie Foxx' }, { name: 'Leonardo DiCaprio' }],
+    actors: [
+      { name: 'Jamie Foxx' },
+      { name: 'Leonardo DiCaprio' },
+      { name: 'Christoph Waltz' },
+    ],
     coverUrl: '/movies_pictures/52516-django-unchained-0-150-0-225-crop.jpg',
     releaseDate: '2012-12-25',
     length: 165,
@@ -528,7 +532,13 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Inglourious Basterds',
     director: 'Quentin Tarantino',
-    actors: [{ name: 'Brad Pitt' }],
+    actors: [
+      { name: 'Brad Pitt' },
+      { name: 'Diane Kruger' },
+      { name: 'Eli Roth' },
+      { name: 'Michael Fassbender' },
+      { name: 'Christoph Waltz' },
+    ],
     coverUrl:
       '/movies_pictures/41352-inglourious-basterds-0-150-0-225-crop.jpg',
     releaseDate: '2009-08-21',

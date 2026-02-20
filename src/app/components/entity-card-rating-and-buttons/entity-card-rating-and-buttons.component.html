@@ -5,72 +5,59 @@
   <div class="book-rating entity-rating">
     <span class="stars">
       @for (star of getRatingStars(rating); track star.value) {
-        <span [class]="'star star-' + star.type"></span>
+      <span [class]="'star star-' + star.type"></span>
       }
     </span>
     <span class="rating-text">{{ rating }}/5</span>
   </div>
 
-  }
-
-  @if (hasRatingComment) {
-    <button type="button" class="makya-btn-small" (click)="onOpenReview()">
-      {{ effectiveLabels.viewComment }}
-    </button>
-  }
-
-  @if (recommendationText) {
-    <p class="recommendation-text">{{ recommendationText }}</p>
-  }
-
-  @if (recommendationBadge) {
-    <span class="missing-badge">{{ recommendationBadge }}</span>
-  }
-
-  @if (isReadlistView) {
-    <div class="readlist-priority">
-      <div class="priority-label">Priorité :</div>
-      <div>
-        @for (priority of priorities; track priority) {
-          <button
-            class="makya-btn-times"
-            [class.active]="currentPriority === priority"
-            (click)="onPriorityUpdated(priority)"
-            [title]="'Priorité ' + priority"
-          >
-            {{ priority }}
-          </button>
-        }
-      </div>
+  } @if (hasRatingComment) {
+  <button type="button" class="makya-btn-small" (click)="onOpenReview()">
+    {{ effectiveLabels.viewComment }}
+  </button>
+  } @if (recommendationText) {
+  <p class="recommendation-text">{{ recommendationText }}</p>
+  } @if (isReadlistView) {
+  <div class="readlist-priority">
+    <div class="priority-label">Priorité :</div>
+    <div>
+      @for (priority of priorities; track priority) {
+      <button
+        class="makya-btn-times"
+        [class.active]="currentPriority === priority"
+        (click)="onPriorityUpdated(priority)"
+        [title]="'Priorité ' + priority"
+      >
+        {{ priority }}
+      </button>
+      }
     </div>
-    <button type="button" class="makya-btn-small" (click)="onAddFromList()">
-      {{ effectiveLabels.addFromList }}
-    </button>
-  }
-
-  @if (showAddToListButton) {
-    @if (!isInList) {
-      <button type="button" class="makya-btn-small" (click)="onAddToList()">
-        {{ effectiveLabels.addToList }}
-      </button>
-    } @else {
-      <span class="recommendation-text">{{ effectiveLabels.alreadyInList }}</span>
-    }
-  }
-
-  @if (selectedView !== reReadViewName && selectedView !== listViewName) {
-    @if (!wantToReRead) {
-      <button type="button" class="makya-btn-small" (click)="onWantToReReadClick()">
-        {{ effectiveLabels.wantToReRead }}
-      </button>
-    } @else {
-      <span class="recommendation-text">{{ effectiveLabels.alreadyWantToReRead }}</span>
-    }
-  }
-
-  @if (selectedView === reReadViewName && wantToReRead) {
-    <button type="button" class="makya-btn-small" (click)="onHaveReReadClick()">
-      {{ effectiveLabels.haveReRead }}
-    </button>
+  </div>
+  <button type="button" class="makya-btn-small" (click)="onAddFromList()">
+    {{ effectiveLabels.addFromList }}
+  </button>
+  } @if (showAddToListButton) { @if (!isInList) {
+  <button type="button" class="makya-btn-small" (click)="onAddToList()">
+    {{ effectiveLabels.addToList }}
+  </button>
+  } @else {
+  <span class="recommendation-text">{{ effectiveLabels.alreadyInList }}</span>
+  }   } @if (
+    !hideWantToReReadButton &&
+    selectedView !== reReadViewName &&
+    selectedView !== listViewName
+  ) {
+  @if (!wantToReRead) {
+  <button type="button" class="makya-btn-small" (click)="onWantToReReadClick()">
+    {{ effectiveLabels.wantToReRead }}
+  </button>
+  } @else {
+  <span class="recommendation-text">{{
+    effectiveLabels.alreadyWantToReRead
+  }}</span>
+  } } @if (selectedView === reReadViewName && wantToReRead) {
+  <button type="button" class="makya-btn-small" (click)="onHaveReReadClick()">
+    {{ effectiveLabels.haveReRead }}
+  </button>
   }
 </div>

@@ -175,6 +175,18 @@ export class MovieComponent {
     return (p >= 1 && p <= 3 ? p : 1) as 1 | 2 | 3;
   }
 
+  /** Vue groupée (acteurs, réalisateurs, sagas, pays) où les films "déjà vus" ne doivent pas afficher "Ajouter à ma watchlist". */
+  private get isGroupedMovieView(): boolean {
+    const v = this.selectedView;
+    return v === 'actors' || v === 'directors' || v === 'sagas' || v === 'countries';
+  }
+
+  /** Afficher le bouton "Ajouter à ma watchlist" (masqué en vue groupée pour les films déjà vus). */
+  get showAddToWatchlistButton(): boolean {
+    if (this.isGroupedMovieView && !this.readOnly) return false;
+    return true;
+  }
+
   getEntityData(): EntityCardEntityData {
     return {
       rating: this.movie.rating ?? 0,

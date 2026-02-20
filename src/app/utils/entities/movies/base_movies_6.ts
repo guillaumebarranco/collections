@@ -1498,7 +1498,7 @@ export const baseMoviesPage6: BaseMovie[] = [
   },
   {
     title: 'Docteur Patch',
-    director: 'Christopher Nolan',
+    director: 'Tom Shadyac',
     actors: [{ name: 'Robin Williams' }],
     coverUrl: '/movies_pictures/5325579.webp',
     releaseDate: '2002-10-04',

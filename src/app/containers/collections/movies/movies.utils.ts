@@ -279,6 +279,15 @@ const getMovieIdentityKey = (movie: Movie): string => {
   return `${movie.title}|${movie.director}`;
 };
 
+/** Extrait les noms individuels de réalisateurs (séparés par des virgules). */
+const getDirectorNames = (director: string | undefined): string[] => {
+  if (!director?.trim()) return [];
+  return director
+    .split(/,\s*/)
+    .map((s) => s.trim())
+    .filter(Boolean);
+};
+
 export const getMoviesBySaga = ({
   sortedMovies,
   allMovies,
@@ -581,11 +590,13 @@ export const getMoviesByDirector = ({
 }): MoviesByDirectorGroup[] => {
   const directorMap = new Map<string, Movie[]>();
   for (const movie of sortedMovies) {
-    const directorName = movie.director?.trim();
-    if (!directorName) continue;
-    const list = directorMap.get(directorName) ?? [];
-    list.push(movie);
-    directorMap.set(directorName, list);
+    const directorNames = getDirectorNames(movie.director);
+    if (directorNames.length === 0) continue;
+    for (const directorName of directorNames) {
+      const list = directorMap.get(directorName) ?? [];
+      list.push(movie);
+      directorMap.set(directorName, list);
+    }
   }
 
   const seenKeys = new Set(
@@ -594,11 +605,13 @@ export const getMoviesByDirector = ({
   const baseByDirector = new Map<string, Movie[]>();
   for (const movie of baseMovies) {
     if (seenKeys.has(getMovieIdentityKey(movie))) continue;
-    const directorName = movie.director?.trim();
-    if (!directorName) continue;
-    const list = baseByDirector.get(directorName) ?? [];
-    list.push(movie);
-    baseByDirector.set(directorName, list);
+    const directorNames = getDirectorNames(movie.director);
+    if (directorNames.length === 0) continue;
+    for (const directorName of directorNames) {
+      const list = baseByDirector.get(directorName) ?? [];
+      list.push(movie);
+      baseByDirector.set(directorName, list);
+    }
   }
 
   const groups = Array.from(directorMap.entries()).map(

@@ -8,6 +8,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       { name: 'Andrew Garfield' },
       { name: 'Oscar Isaac' },
       { name: 'Mia Goth' },
+      { name: 'Christoph Waltz' },
     ],
     coverUrl:
       '/movies_pictures/EN-US_FRNK_Teaser_Creator_LabBack_Vertical_27x40_sRGB_PREDate-PRE.jpg',
@@ -93,6 +94,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       { name: 'Gregory Mann' },
       { name: 'Ewan McGregor' },
       { name: 'Tom Hanks' },
+      { name: 'Christoph Waltz' },
     ],
     coverUrl: '/movies_pictures/Pinocchio_(2022_animated_film).jpg',
     releaseDate: '2022-12-09',

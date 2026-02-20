@@ -977,19 +977,6 @@ export const ronanMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: 'The Adam Project',
-    director: 'Shawn Levy',
-    rating: 4,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-  },
-  {
     title: 'Red Notice',
     director: 'Rawson Marshall Thurber',
     rating: 1,
@@ -8013,7 +8000,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Adam à travers le temps',
     director: 'Shawn Levy',
-    rating: 3,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -13647,7 +13634,7 @@ export const ronanMovies: UserMovies = [
   },
 
   {
-    title: 'L\'Auberge Espagnol',
+    title: "L'Auberge Espagnol",
     director: 'Cédric Klapisch',
     rating: 3.5,
     timesWatched: 1,

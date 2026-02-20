@@ -352,7 +352,11 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'James Bond : Spectre',
     director: 'Sam Mendes',
-    actors: [{ name: 'Daniel Craig' }],
+    actors: [
+      { name: 'Daniel Craig' },
+      { name: 'Christoph Waltz' },
+      { name: 'Léa Seydoux' },
+    ],
     coverUrl: '/movies_pictures/spectre.jpg',
     releaseDate: '2015-11-06',
     length: 148,
@@ -367,6 +371,15 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     actors: [
       {
         name: 'Daniel Craig',
+      },
+      {
+        name: 'Léa Seydoux',
+      },
+      {
+        name: 'Rami Malek',
+      },
+      {
+        name: 'Christoph Waltz',
       },
     ],
     coverUrl: '/movies_pictures/305964-no-time-to-die-0-150-0-225-crop.jpg',

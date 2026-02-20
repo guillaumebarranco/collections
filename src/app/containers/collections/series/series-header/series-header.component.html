@@ -93,12 +93,15 @@
     </app-stats-display>
     }
 
-    <app-sort-dropdown
-      [sortOptions]="sortOptions()"
-      [selectedSort]="selectedSort()"
-      (sortChange)="onSortChange.emit($event)"
-    >
-    </app-sort-dropdown>
+    <div class="series-filters">
+      <app-sort-dropdown
+        label="Trier par :"
+        [sortOptions]="sortOptions()"
+        [selectedSort]="selectedSort()"
+        (sortChange)="onSortChange.emit($event)"
+      >
+      </app-sort-dropdown>
+    </div>
   </div>
 
   <div class="series-search">
