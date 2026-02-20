@@ -735,16 +735,16 @@ export const baseMoviesLove: BaseMovie[] = [
       },
       {
         name: 'Adèle Exarchopoulos',
-      },
+      }
     ],
     coverUrl:
       '/movies_pictures/863617-beating-hearts-2024-0-150-0-225-crop.jpg',
     releaseDate: '2024-01-31',
-    length: 95,
+    length: 160,
     genre: 'Romance, Drame',
     saga: '',
     description: '',
-    countryOrigin: 'États-Unis',
+    countryOrigin: 'France',
   },
   {
     title: 'The Princess Switch : Switched Again',

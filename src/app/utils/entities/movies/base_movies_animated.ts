@@ -336,7 +336,11 @@ export const baseMoviesAnimated: BaseMovie[] = [
   {
     title: 'Arthur et les Minimoys',
     director: 'Luc Besson',
-    actors: [{ name: 'Freddie Highmore' }],
+    actors: [
+      {
+        name: 'Freddie Highmore',
+      }
+    ],
     coverUrl:
       '/movies_pictures/46649-arthur-and-the-invisibles-0-150-0-225-crop.jpg',
     releaseDate: '2006-12-13',
@@ -344,12 +348,16 @@ export const baseMoviesAnimated: BaseMovie[] = [
     genre: 'Fantasy',
     saga: 'Minimoys',
     description: '',
-    countryOrigin: 'États-Unis',
+    countryOrigin: 'France',
   },
   {
     title: 'Arthur et la Vengeance de Maltazard',
     director: 'Luc Besson',
-    actors: [{ name: 'Freddie Highmore' }],
+    actors: [
+      {
+        name: 'Freddie Highmore',
+      }
+    ],
     coverUrl:
       '/movies_pictures/35270-arthur-and-the-revenge-of-maltazard-0-150-0-225-crop.jpg',
     releaseDate: '2009-12-02',
@@ -357,12 +365,16 @@ export const baseMoviesAnimated: BaseMovie[] = [
     genre: 'Adventure',
     saga: 'Minimoys',
     description: '',
-    countryOrigin: 'États-Unis',
+    countryOrigin: 'France',
   },
   {
     title: 'Arthur 3 : La Guerre des Deux Mondes',
     director: 'Luc Besson',
-    actors: [{ name: 'Freddie Highmore' }],
+    actors: [
+      {
+        name: 'Freddie Highmore',
+      }
+    ],
     coverUrl:
       '/movies_pictures/22170-arthur-3-the-war-of-the-two-worlds-0-150-0-225-crop.jpg',
     releaseDate: '2010-10-13',
@@ -370,7 +382,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     genre: 'Adventure',
     saga: 'Minimoys',
     description: '',
-    countryOrigin: 'États-Unis',
+    countryOrigin: 'France',
   },
   {
     title: 'La Princesse et la Grenouille',
@@ -1013,7 +1025,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
       },
       {
         name: 'Ado',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/one_piece_film_red.jpg',
     releaseDate: '2022-08-10',

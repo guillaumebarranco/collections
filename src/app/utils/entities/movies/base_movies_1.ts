@@ -567,14 +567,18 @@ export const baseMoviesPage1: BaseMovie[] = [
   {
     title: 'Battle Royale',
     director: 'Kinji Fukasaku',
-    actors: [{ name: 'Tatsuya Fujiwara' }],
+    actors: [
+      {
+        name: 'Tatsuya Fujiwara',
+      }
+    ],
     coverUrl: '/movies_pictures/49810-battle-royale-0-150-0-225-crop.jpg',
     releaseDate: '2000-12-16',
     length: 113,
     genre: 'Thriller',
     saga: '',
     description: '',
-    countryOrigin: 'États-Unis',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Miss Détective',
@@ -952,14 +956,21 @@ export const baseMoviesPage1: BaseMovie[] = [
   {
     title: 'Enemy',
     director: 'Denis Villeneuve',
-    actors: [{ name: 'Jake Gyllenhaal' }, { name: 'Mélanie Laurent' }],
+    actors: [
+      {
+        name: 'Jake Gyllenhaal',
+      },
+      {
+        name: 'Mélanie Laurent',
+      }
+    ],
     coverUrl: '/movies_pictures/317481.webp',
     releaseDate: '2013-09-08',
     length: 90,
     genre: 'Thriller',
     saga: '',
     description: '',
-    countryOrigin: 'États-Unis',
+    countryOrigin: 'Canada',
   },
   {
     title: 'Forever My Girl',
@@ -1124,26 +1135,34 @@ export const baseMoviesPage1: BaseMovie[] = [
   {
     title: 'Les 11 commandements',
     director: 'François Desagnat, Thomas Sorriaux',
-    actors: [{ name: 'François Desagnat' }],
+    actors: [
+      {
+        name: 'François Desagnat',
+      }
+    ],
     coverUrl: '/movies_pictures/40754-the-11-commandments-0-150-0-225-crop.jpg',
     releaseDate: '2004-02-11',
     length: 90,
     genre: 'Comedy',
     saga: '',
     description: '',
-    countryOrigin: 'États-Unis',
+    countryOrigin: 'France',
   },
   {
     title: 'RRRrrrr!!!',
     director: 'Alain Chabat',
-    actors: [{ name: 'Marion Cotillard' }],
+    actors: [
+      {
+        name: 'Marion Cotillard',
+      }
+    ],
     coverUrl: '/movies_pictures/38203-rrrrrrr--0-150-0-225-crop.jpg',
     releaseDate: '2004-01-28',
     length: 94,
     genre: 'Comedy',
     saga: '',
     description: '',
-    countryOrigin: 'États-Unis',
+    countryOrigin: 'France',
   },
   {
     title: 'Saw',
@@ -1204,14 +1223,18 @@ export const baseMoviesPage1: BaseMovie[] = [
   {
     title: 'Moi, Cesar, 10 ans et demi, 1m39',
     director: 'Richard Berry',
-    actors: [{ name: 'Richard Berry' }],
+    actors: [
+      {
+        name: 'Richard Berry',
+      }
+    ],
     coverUrl: '/movies_pictures/6543-i-cesar-0-150-0-225-crop.jpg',
     releaseDate: '2003-04-30',
     length: 91,
     genre: 'Comedy',
     saga: '',
     description: '',
-    countryOrigin: 'États-Unis',
+    countryOrigin: 'France',
   },
   {
     title: 'En sursis',
@@ -1241,7 +1264,7 @@ export const baseMoviesPage1: BaseMovie[] = [
       },
       {
         name: 'Michael Youn',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/la_beuze.jpg',
     releaseDate: '2003-02-05',
@@ -1249,7 +1272,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
-    countryOrigin: 'États-Unis',
+    countryOrigin: 'France',
   },
   {
     title: 'Ong Bak',

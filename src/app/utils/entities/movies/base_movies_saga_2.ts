@@ -713,14 +713,18 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Banlieue 13',
     director: 'Pierre Morel',
-    actors: [{ name: 'David Belle' }],
+    actors: [
+      {
+        name: 'David Belle',
+      }
+    ],
     coverUrl: '/movies_pictures/46599-district-13-0-150-0-225-crop.jpg',
     releaseDate: '2004-11-10',
     length: 84,
     genre: 'Action',
     saga: 'Banlieue 13',
     description: '',
-    countryOrigin: 'États-Unis',
+    countryOrigin: 'France',
   },
   {
     title: 'Banlieue 13 : Ultimatum',

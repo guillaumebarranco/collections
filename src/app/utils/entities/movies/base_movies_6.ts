@@ -1895,26 +1895,32 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'Your Name',
     director: 'Makoto Shinkai',
-    actors: [],
+    actors: [
+
+    ],
     coverUrl: '/movies_pictures/295774.webp',
     releaseDate: '2016-08-26',
     length: 106,
     genre: 'Animation',
     saga: '',
     description: '',
-    countryOrigin: 'États-Unis',
+    countryOrigin: 'Japon',
   },
   {
     title: 'La Vie est belle',
     director: 'Roberto Benigni',
-    actors: [{ name: 'Roberto Benigni' }],
+    actors: [
+      {
+        name: 'Roberto Benigni',
+      }
+    ],
     coverUrl: '/movies_pictures/042308_af.webp',
     releaseDate: '1946-12-20',
     length: 130,
     genre: 'Drama',
     saga: '',
     description: '',
-    countryOrigin: 'États-Unis',
+    countryOrigin: 'Italie',
   },
   {
     title: 'Apocalypse Now',
@@ -1979,26 +1985,30 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'Je verrai toujours vos visages',
     director: 'Jeanne Herry',
-    actors: [],
+    actors: [
+
+    ],
     coverUrl: '/movies_pictures/5603857.jpg',
     releaseDate: '2023-03-15',
     length: 120,
     genre: 'Drama',
     saga: '',
     description: '',
-    countryOrigin: 'États-Unis',
+    countryOrigin: 'France',
   },
   {
     title: "L'Intendant Sansho",
     director: 'Kenji Mizoguchi',
-    actors: [],
+    actors: [
+
+    ],
     coverUrl: '/movies_pictures/2025jff_mtl_cin_v_03-fr-1744898196.avif',
     releaseDate: '1954-03-31',
     length: 124,
     genre: 'Drama',
     saga: '',
     description: '',
-    countryOrigin: 'États-Unis',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Le Trou',
@@ -2111,26 +2121,32 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'La Vérité',
     director: 'Henri-Georges Clouzot',
-    actors: [{ name: 'Brigitte Bardot' }],
+    actors: [
+      {
+        name: 'Brigitte Bardot',
+      }
+    ],
     coverUrl: '/movies_pictures/19532982.jpg',
     releaseDate: '1960-11-02',
     length: 128,
     genre: 'Drama',
     saga: '',
     description: '',
-    countryOrigin: 'États-Unis',
+    countryOrigin: 'France',
   },
   {
     title: 'Le Conte de la princesse Kaguya',
     director: 'Isao Takahata',
-    actors: [],
+    actors: [
+
+    ],
     coverUrl: '/movies_pictures/122290.webp',
     releaseDate: '2013-11-23',
     length: 137,
     genre: 'Animation',
     saga: '',
     description: '',
-    countryOrigin: 'États-Unis',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Muganga - Celui qui soigne',
@@ -2328,14 +2344,16 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'Je veux manger ton pancréas',
     director: "Shin'ichirô Ushijima",
-    actors: [],
+    actors: [
+
+    ],
     coverUrl: '/movies_pictures/je-veux-manger-ton-pancreas.jpg',
     releaseDate: '2018-09-01',
     length: 108,
     genre: 'Animation',
     saga: '',
     description: '',
-    countryOrigin: 'États-Unis',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Le Nom de la Rose',

@@ -671,9 +671,13 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Le Cinquième Élément',
     director: 'Luc Besson',
-    actors: [{ name: 'Bruce Willis' }],
-    coverUrl: '/movies_pictures/le_cinquieme_element.jpg',
-    releaseDate: '1997-05-09',
+    actors: [
+      {
+        name: 'Bruce Willis',
+      }
+    ],
+    coverUrl: '/movies_pictures/the_fifth_element.jpg',
+    releaseDate: '1997-05-07',
     length: 126,
     genre: 'Science Fiction',
     saga: '',

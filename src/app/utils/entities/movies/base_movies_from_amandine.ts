@@ -581,14 +581,21 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
   {
     title: 'Paddington 2',
     director: 'Paul King',
-    actors: [{ name: 'Ben Whishaw' }, { name: 'Hugh Grant' }],
+    actors: [
+      {
+        name: 'Ben Whishaw',
+      },
+      {
+        name: 'Hugh Grant',
+      }
+    ],
     coverUrl: '/movies_pictures/1496521.jpg',
     releaseDate: '2018-01-12',
     length: 104,
     genre: 'Family, Comedy',
     saga: '',
     description: '',
-    countryOrigin: 'États-Unis',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: "Le Crime de l'Orient-Express",
@@ -690,14 +697,21 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
   {
     title: 'Paddington',
     director: 'Paul King',
-    actors: [{ name: 'Ben Whishaw' }, { name: 'Sally Hawkins' }],
+    actors: [
+      {
+        name: 'Ben Whishaw',
+      },
+      {
+        name: 'Sally Hawkins',
+      }
+    ],
     coverUrl: '/movies_pictures/508053.webp',
     releaseDate: '2015-01-16',
     length: 95,
     genre: 'Family, Comedy',
     saga: '',
     description: '',
-    countryOrigin: 'États-Unis',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Big Eyes',
@@ -1333,11 +1347,15 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
   {
     title: 'Un vendredi dingue, dingue, dingue',
     director: 'Gary Nelson',
-    actors: [{ name: 'Jodie Foster' }],
-    coverUrl: '/movies_pictures/584',
-    releaseDate: '2003-01-01',
+    actors: [
+      {
+        name: 'Jodie Foster',
+      }
+    ],
+    coverUrl: 'https://thumb.canalplus.pro/http/unsafe/%7BresolutionXY%7D/filters:quality(%7BimageQualityPercentage%7D)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/101162374',
+    releaseDate: '1977-01-21',
     length: 95,
-    genre: '',
+    genre: 'Comédie',
     saga: '',
     description: '',
     countryOrigin: 'États-Unis',
@@ -2048,14 +2066,21 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
   {
     title: 'Les Parapluies de Cherbourg',
     director: 'Jacques Demy',
-    actors: [{ name: 'Catherine Deneuve' }, { name: 'Nino Castelnuovo' }],
+    actors: [
+      {
+        name: 'Catherine Deneuve',
+      },
+      {
+        name: 'Nino Castelnuovo',
+      }
+    ],
     coverUrl: '/movies_pictures/21003043_20130503122946122.webp',
     releaseDate: '1964-02-19',
     length: 91,
     genre: 'Musical, Romance',
     saga: '',
     description: '',
-    countryOrigin: 'États-Unis',
+    countryOrigin: 'France',
   },
   {
     title: 'West Side Story',

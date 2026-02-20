@@ -249,7 +249,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     ratingComment: '',
   },
   {
-    title: "L'aile ou la cuisse",
+    title: 'L\'aile ou la cuisse',
     director: 'Claude Zidi',
     rating: 3,
     timesWatched: 5,
@@ -275,7 +275,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     ratingComment: '',
   },
   {
-    title: "L'exorciste",
+    title: 'L\'exorciste',
     director: 'William Friedkin',
     rating: 2.5,
     timesWatched: 1,
@@ -418,7 +418,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     ratingComment: '',
   },
   {
-    title: "Maman je m'occupe des méchants",
+    title: 'Maman je m\'occupe des méchants',
     director: 'Raja Gosnell',
     rating: 4,
     timesWatched: 20,
@@ -548,19 +548,6 @@ export const guillaumeMoviesPage2: UserMovies = [
     ratingComment: '',
   },
   {
-    title: 'Les choristes',
-    director: 'Christophe Barratier',
-    rating: 3.75,
-    timesWatched: 10,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-  },
-  {
     title: 'EuroTrip',
     director: 'Jeff Schaffer',
     rating: 3.5,
@@ -613,7 +600,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     ratingComment: '',
   },
   {
-    title: "L'effet papillon",
+    title: 'L\'effet papillon',
     director: 'Eric Bress, J. Mackye Gruber',
     rating: 3.5,
     timesWatched: 1,
@@ -899,7 +886,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     ratingComment: '',
   },
   {
-    title: "L'Associé du diable",
+    title: 'L\'Associé du diable',
     director: 'Taylor Hackford',
     rating: 3.25,
     timesWatched: 1,
@@ -1040,5 +1027,5 @@ export const guillaumeMoviesPage2: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-  },
+  }
 ];

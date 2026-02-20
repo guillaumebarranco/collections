@@ -205,14 +205,21 @@ export const baseMoviesAnimated2: BaseMovie[] = [
   {
     title: 'Le Tombeau des lucioles',
     director: 'Isao Takahata',
-    actors: [{ name: 'Tsutomu Tatsumi' }, { name: 'Ayano Shiraishi' }],
+    actors: [
+      {
+        name: 'Tsutomu Tatsumi',
+      },
+      {
+        name: 'Ayano Shiraishi',
+      }
+    ],
     coverUrl: '/movies_pictures/19079741.webp',
     releaseDate: '1988-04-16',
     length: 89,
     genre: 'Animation, War',
     saga: '',
     description: '',
-    countryOrigin: 'États-Unis',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Mon voisin Totoro',
@@ -653,14 +660,21 @@ export const baseMoviesAnimated2: BaseMovie[] = [
   {
     title: 'Arrietty, le petit monde des chapardeurs',
     director: 'Hiromasa Yonebayashi',
-    actors: [{ name: 'Mirai Shida' }, { name: 'Ryunosuke Kamiki' }],
+    actors: [
+      {
+        name: 'Mirai Shida',
+      },
+      {
+        name: 'Ryunosuke Kamiki',
+      }
+    ],
     coverUrl: '/movies_pictures/19597854.webp',
     releaseDate: '2010-07-17',
     length: 94,
     genre: 'Animation, Fantasy',
     saga: '',
     description: '',
-    countryOrigin: 'États-Unis',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Rio',
@@ -878,7 +892,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       },
       {
         name: 'Oscar Tresanini',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/4bb40b414c1d86022f4031676a309432.webp',
     releaseDate: '2025-10-22',
@@ -886,6 +900,6 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation',
     saga: '',
     description: '',
-    countryOrigin: 'États-Unis',
+    countryOrigin: 'France',
   },
 ];

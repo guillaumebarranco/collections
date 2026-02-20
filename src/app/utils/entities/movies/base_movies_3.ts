@@ -76,7 +76,11 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Valerian and the City of a Thousand Planets',
     director: 'Luc Besson',
-    actors: [{ name: 'Dane DeHaan' }],
+    actors: [
+      {
+        name: 'Dane DeHaan',
+      }
+    ],
     coverUrl:
       '/movies_pictures/269458-valerian-and-the-city-of-a-thousand-planets-0-150-0-225-crop.jpg',
     releaseDate: '2017-07-21',
@@ -84,7 +88,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
     description: '',
-    countryOrigin: 'États-Unis',
+    countryOrigin: 'France',
   },
   {
     title: 'Atomic Blonde',
@@ -328,14 +332,21 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Lucy',
     director: 'Luc Besson',
-    actors: [{ name: 'Scarlett Johansson' }, { name: 'Morgan Freeman' }],
+    actors: [
+      {
+        name: 'Scarlett Johansson',
+      },
+      {
+        name: 'Morgan Freeman',
+      }
+    ],
     coverUrl: '/movies_pictures/168860-lucy-0-150-0-225-crop.jpg',
     releaseDate: '2014-07-25',
     length: 89,
     genre: 'Action',
     saga: '',
     description: '',
-    countryOrigin: 'États-Unis',
+    countryOrigin: 'France',
   },
   {
     title: 'Le médaillon',
