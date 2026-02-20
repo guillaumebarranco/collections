@@ -22,9 +22,10 @@ import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { Quizz } from '../../../models/quizz-model';
 import {
   SerieView,
+  getSeriesByCountry,
+  getSeriesSortOptions,
   getSortedSeries,
   serieViewOptions,
-  seriesSortOptions,
 } from './series.utils';
 import { formatTimeStats } from '../../../utils/stats.utils';
 import {
@@ -86,7 +87,11 @@ export class SeriesComponent implements OnInit {
   activeQuizzs = signal<Quizz[]>([]);
   quizzs = signal<Quizz[]>([]);
 
-  sortOptions = signal<SortOption[]>(seriesSortOptions);
+  sortOptions = computed<SortOption[]>(() =>
+    getSeriesSortOptions(this.selectedView())
+  );
+
+  collapsedCountries = signal<Record<string, boolean>>({});
 
   viewOptions: { value: SerieView; label: string }[] = serieViewOptions;
 
@@ -144,6 +149,8 @@ export class SeriesComponent implements OnInit {
       series = this.allSeries().filter((serie) => serie.owned);
     } else if (this.selectedView() === 'toReWatch') {
       series = this.allSeries().filter((serie) => serie.wantToWatchAgain === true);
+    } else if (this.selectedView() === 'countries') {
+      series = this.allSeries();
     } else {
       series = this.allSeries();
     }
@@ -296,6 +303,28 @@ export class SeriesComponent implements OnInit {
     if (view === 'recommendations') {
       void this.loadRecommendations();
     }
+  }
+
+  seriesByCountry = computed(() => {
+    if (this.selectedView() !== 'countries') return [];
+    return getSeriesByCountry({
+      sortedSeries: this.sortedSeries(),
+      allSeries: this.allSeries(),
+      baseSeries: this.baseSeriesList(),
+      selectedSort: this.selectedSort(),
+      isAdminView: this.isAdminView(),
+    });
+  });
+
+  toggleCountry(country: string): void {
+    this.collapsedCountries.update((prev) => ({
+      ...prev,
+      [country]: !prev[country],
+    }));
+  }
+
+  isCountryCollapsed(country: string): boolean {
+    return !!this.collapsedCountries()[country];
   }
 
   onSearchChange(value: string) {

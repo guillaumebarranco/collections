@@ -24,6 +24,7 @@ export const baseSeriesApi: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
 
   {
@@ -57,6 +58,7 @@ export const baseSeriesApi: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -85,6 +87,7 @@ export const baseSeriesApi: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -121,6 +124,7 @@ export const baseSeriesApi: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -146,6 +150,7 @@ export const baseSeriesApi: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -174,5 +179,6 @@ export const baseSeriesApi: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
 ];

@@ -49,6 +49,7 @@ ${actorsLines || "      { name: 'Inconnu' },"}
 ${seasonsLines}
     ],
     description: '${escapeString(entity.description ?? '')}',
+    countryOrigin: '${escapeString(entity.countryOrigin ?? '')}',
   },`;
 }
 
@@ -169,6 +170,7 @@ router.post('/add', (req: any, res: any) => {
       genre: normalizeString(entity.genre, 'genre') || '',
       seasonsData,
       description: normalizeString(entity.description, 'description') ?? '',
+      countryOrigin: normalizeString(entity.countryOrigin, 'countryOrigin') ?? '',
     };
 
     const rawUserSeasons = Array.isArray(user.seasons) ? user.seasons : [];

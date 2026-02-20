@@ -43,6 +43,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Agent Carter',
@@ -75,6 +76,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Agents of S.H.I.E.L.D.',
@@ -132,6 +134,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Ahsoka',
@@ -162,6 +165,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Altered Carbon',
@@ -194,6 +198,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Arrow',
@@ -256,6 +261,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -284,6 +290,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Canada',
   },
   {
     title: 'Bloqués',
@@ -311,6 +318,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Bodyguard',
@@ -338,6 +346,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Black Mirror',
@@ -389,6 +398,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Bodies',
@@ -416,6 +426,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Breaking Bad',
@@ -464,6 +475,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Brooklyn Nine-Nine',
@@ -526,6 +538,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Castle',
@@ -588,6 +601,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Cloak & Dagger',
@@ -620,6 +634,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Community',
@@ -672,6 +687,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Constantine',
@@ -699,6 +715,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Cobra Kai',
@@ -752,6 +769,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Daredevil',
@@ -789,6 +807,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -852,6 +871,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Dexter',
@@ -914,6 +934,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Daredevil : Born Again',
@@ -941,6 +962,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Emily in Paris',
@@ -991,6 +1013,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'En un battement',
@@ -1017,6 +1040,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Canada',
   },
   {
     title: 'Family Business',
@@ -1054,6 +1078,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'FUBAR',
@@ -1086,6 +1111,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Game of Thrones',
@@ -1148,6 +1174,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Gotham',
@@ -1196,6 +1223,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'HPI',
@@ -1243,6 +1271,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Hawkeye',
@@ -1270,6 +1299,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Heroes',
@@ -1313,6 +1343,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Heroes Reborn',
@@ -1340,6 +1371,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'How I Met Your Mother',
@@ -1413,6 +1445,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Iron Fist',
@@ -1445,6 +1478,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Inhumans',
@@ -1472,6 +1506,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'iZombie',
@@ -1519,6 +1554,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Jessica Jones',
@@ -1556,6 +1592,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "Jupiter's Legacy",
@@ -1583,6 +1620,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'La Casa de Papel',
@@ -1625,6 +1663,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Espagne',
   },
   {
     title: 'Les Grands',
@@ -1662,6 +1701,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'La servante écarlate',
@@ -1709,6 +1749,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le Jeu de la Dame',
@@ -1730,6 +1771,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -1771,6 +1813,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Loki',
@@ -1803,6 +1846,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Lucifer',
@@ -1856,6 +1900,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Luke Cage',
@@ -1889,6 +1934,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Lupin',
@@ -1926,6 +1972,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Malcolm in the Middle',
@@ -1983,6 +2030,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Mentalist',
@@ -2041,6 +2089,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Mindhunter',
@@ -2073,6 +2122,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Misfits',
@@ -2120,6 +2170,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Mortel',
@@ -2152,6 +2203,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Mercredi',
@@ -2184,6 +2236,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Mon amie Adèle',
@@ -2211,6 +2264,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Montre jamais ça à personne',
@@ -2243,6 +2297,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Obi-Wan Kenobi',
@@ -2270,6 +2325,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Obsession',
@@ -2298,6 +2354,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
 
   {
@@ -2327,6 +2384,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Penny Dreadful',
@@ -2364,6 +2422,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Reacher',
@@ -2401,6 +2460,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Runaways',
@@ -2428,6 +2488,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -2462,6 +2523,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Shameless',
@@ -2540,6 +2602,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Smallville',
@@ -2613,6 +2676,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Sons of Anarchy',
@@ -2671,6 +2735,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Spartacus',
@@ -2708,6 +2773,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Squid Game',
@@ -2745,6 +2811,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Corée du Sud',
   },
   {
     title: 'Stranger Things',
@@ -2793,6 +2860,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Supernatural',
@@ -2890,6 +2958,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Suits, Avocats sur mesure',
@@ -2957,6 +3026,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Superman & Lois',
@@ -2999,6 +3069,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Teen Wolf',
@@ -3051,6 +3122,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The Big Bang Theory',
@@ -3133,6 +3205,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The Boys',
@@ -3180,6 +3253,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The Defenders',
@@ -3207,6 +3281,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The Falcon and the Winter Soldier',
@@ -3234,6 +3309,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The Get Down',
@@ -3267,6 +3343,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The End of the F***ing World',
@@ -3299,6 +3376,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'The Flash',
@@ -3366,6 +3444,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The Office',
@@ -3434,6 +3513,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The Originals',
@@ -3482,6 +3562,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The Returned',
@@ -3510,6 +3591,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The Shannara Chronicles',
@@ -3543,6 +3625,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The Tomorrow People',
@@ -3570,6 +3653,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The Vampire Diaries',
@@ -3633,6 +3717,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The Glory',
@@ -3660,6 +3745,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The Last of Us',
@@ -3693,6 +3779,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The Punisher',
@@ -3725,6 +3812,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Umbrella Academy',
@@ -3767,6 +3855,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Under the Dome',
@@ -3804,6 +3893,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Unorthodox',
@@ -3831,6 +3921,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Vikings',
@@ -3883,6 +3974,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'WandaVision',
@@ -3910,6 +4002,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Watchmen',
@@ -3937,6 +4030,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'You',
@@ -3984,6 +4078,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -4015,5 +4110,6 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
 ];

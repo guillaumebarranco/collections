@@ -143,6 +143,7 @@ export const getFullSerie = (serie: BaseSerie): Serie => ({
   endDate: serie.endDate,
   genre: serie.genre,
   seasonsData: serie.seasonsData,
+  countryOrigin: (serie.countryOrigin ?? '') as Serie['countryOrigin'],
   seasons: [],
   owned: false,
   watchPriority: 1,

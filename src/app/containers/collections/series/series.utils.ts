@@ -7,7 +7,13 @@ import {
   getSerieTotalTimesWatched,
 } from '../../../utils/series.utils';
 
-export type SerieView = 'finished' | 'watchlist' | 'owned' | 'toReWatch' | 'recommendations';
+export type SerieView =
+  | 'finished'
+  | 'watchlist'
+  | 'owned'
+  | 'toReWatch'
+  | 'countries'
+  | 'recommendations';
 
 export const seriesSortOptions: { value: string; label: string }[] = [
   { value: 'title', label: 'Titre (A-Z)' },
@@ -31,8 +37,163 @@ export const serieViewOptions: { value: SerieView; label: string }[] = [
   { value: 'watchlist', label: 'Séries à voir' },
   { value: 'owned', label: 'Séries possédées' },
   { value: 'toReWatch', label: 'À revoir' },
+  { value: 'countries', label: 'Voir par pays' },
   { value: 'recommendations', label: 'Recommandations' },
 ];
+
+export const countriesSeriesSortOptions: { value: string; label: string }[] = [
+  { value: 'country-count', label: 'Nombre de séries' },
+  {
+    value: 'country-user-rating',
+    label: 'Pays le mieux noté par vous',
+  },
+  {
+    value: 'country-global-rating',
+    label: 'Pays le mieux noté par les utilisateurs',
+  },
+  {
+    value: 'country-seen-count',
+    label: 'Pays avec le plus de séries vues par vous',
+  },
+  {
+    value: 'country-rewatched-count',
+    label: 'Pays avec le plus de séries revues par vous',
+  },
+];
+
+export const getSeriesSortOptions = (
+  selectedView: SerieView
+): { value: string; label: string }[] => {
+  if (selectedView === 'countries') {
+    return countriesSeriesSortOptions;
+  }
+  return seriesSortOptions;
+};
+
+export type SeriesByCountryGroup = {
+  country: string;
+  seenSeries: Serie[];
+  missingSeries: Serie[];
+};
+
+const getSerieIdentityKey = (serie: Serie): string =>
+  `${serie.title}|${serie.director}`;
+
+export const getSeriesByCountry = ({
+  sortedSeries,
+  allSeries,
+  baseSeries,
+  selectedSort,
+  isAdminView,
+}: {
+  sortedSeries: Serie[];
+  allSeries: Serie[];
+  baseSeries: Serie[];
+  selectedSort: string;
+  isAdminView: boolean;
+}): SeriesByCountryGroup[] => {
+  const countryMap = new Map<string, Serie[]>();
+  for (const serie of sortedSeries) {
+    const countryName = (serie.countryOrigin ?? '').toString().trim();
+    if (!countryName) continue;
+    const list = countryMap.get(countryName) ?? [];
+    list.push(serie);
+    countryMap.set(countryName, list);
+  }
+
+  const seenKeys = new Set(allSeries.map((serie) => getSerieIdentityKey(serie)));
+  const baseByCountry = new Map<string, Serie[]>();
+  for (const serie of baseSeries) {
+    const countryName = (serie.countryOrigin ?? '').toString().trim();
+    if (!countryName) continue;
+    if (seenKeys.has(getSerieIdentityKey(serie))) continue;
+    const list = baseByCountry.get(countryName) ?? [];
+    list.push(serie);
+    baseByCountry.set(countryName, list);
+  }
+
+  const countryGroups = Array.from(countryMap.entries()).map(
+    ([country, seenSeries]) => {
+      const missing = isAdminView
+        ? []
+        : getSortedSeries(
+            [...(baseByCountry.get(country) ?? [])],
+            'releaseDate-asc'
+          );
+      return {
+        country,
+        seenSeries: getSortedSeries(seenSeries, 'releaseDate-asc'),
+        missingSeries: missing,
+      };
+    }
+  );
+
+  const filteredCountryGroups =
+    selectedSort === 'country-user-rating' ||
+    selectedSort === 'country-global-rating'
+      ? countryGroups.filter((group) => {
+          const ratedSeries = group.seenSeries.filter(
+            (serie) => getSerieAverageRating(serie) > 0
+          );
+          return ratedSeries.length >= 5;
+        })
+      : countryGroups.filter(
+          (group) =>
+            group.seenSeries.length + group.missingSeries.length > 3
+        );
+
+  filteredCountryGroups.sort((a, b) => {
+    switch (selectedSort) {
+      case 'country-count': {
+        const countA = a.seenSeries.length + a.missingSeries.length;
+        const countB = b.seenSeries.length + b.missingSeries.length;
+        if (countB !== countA) return countB - countA;
+        return a.country.localeCompare(b.country);
+      }
+      case 'country-user-rating':
+      case 'country-global-rating': {
+        const ratedA = a.seenSeries.filter(
+          (s) => getSerieAverageRating(s) > 0
+        );
+        const ratedB = b.seenSeries.filter(
+          (s) => getSerieAverageRating(s) > 0
+        );
+        const avgA =
+          ratedA.reduce((sum, s) => sum + getSerieAverageRating(s), 0) /
+          (ratedA.length || 1);
+        const avgB =
+          ratedB.reduce((sum, s) => sum + getSerieAverageRating(s), 0) /
+          (ratedB.length || 1);
+        if (Math.abs(avgB - avgA) > 0.01) return avgB - avgA;
+        return a.country.localeCompare(b.country);
+      }
+      case 'country-seen-count': {
+        const countA = a.seenSeries.length;
+        const countB = b.seenSeries.length;
+        if (countB !== countA) return countB - countA;
+        return a.country.localeCompare(b.country);
+      }
+      case 'country-rewatched-count': {
+        const rewatchedA = a.seenSeries.filter(
+          (s) => getSerieTotalTimesWatched(s) > 1
+        ).length;
+        const rewatchedB = b.seenSeries.filter(
+          (s) => getSerieTotalTimesWatched(s) > 1
+        ).length;
+        if (rewatchedB !== rewatchedA) return rewatchedB - rewatchedA;
+        return a.country.localeCompare(b.country);
+      }
+      default: {
+        const countA = a.seenSeries.length + a.missingSeries.length;
+        const countB = b.seenSeries.length + b.missingSeries.length;
+        if (countB !== countA) return countB - countA;
+        return a.country.localeCompare(b.country);
+      }
+    }
+  });
+
+  return filteredCountryGroups;
+};
 
 export const getSortedSeries = (
   series: Serie[],

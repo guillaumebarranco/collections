@@ -1303,4 +1303,17 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
+  {
+    title: 'Fanfan la Tulipe',
+    director: 'Gérard Krawczyk',
+    rating: 3.5,
+    timesWatched: 25,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: true,
+    watchPriority: 2,
+    ratingComment: '',
+  },
 ];

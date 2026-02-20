@@ -33,6 +33,8 @@
       <p><strong>Acteurs :</strong> {{ getActorsLabel(serie()?.actors) }}</p>
       } @if (serie()?.description) {
       <p><strong>Description :</strong> {{ serie()?.description }}</p>
+      } @if (serie()?.countryOrigin) {
+      <p><strong>Nationalité :</strong> {{ serie()?.countryOrigin }}</p>
       }
     </div>
     <br />
@@ -223,6 +225,16 @@
         [ngModel]="serieEntityForm()?.genre"
         (ngModelChange)="updateEntityField('genre', $event)"
         name="entityGenre"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityCountryOrigin">Nationalité</label>
+      <app-country-select
+        inputId="entityCountryOrigin"
+        name="entityCountryOrigin"
+        [value]="serieEntityForm()?.countryOrigin ?? ''"
+        (valueChange)="updateEntityField('countryOrigin', $event)"
       />
     </div>
 

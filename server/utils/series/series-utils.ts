@@ -294,6 +294,7 @@ function parseBaseSeriesFullFromFile(content: string): any[] {
           genre: parseStringField(objectText, 'genre') || '',
           seasonsData: parseSeasonsDataField(objectText) ?? [],
           description: parseStringField(objectText, 'description') || '',
+          countryOrigin: parseStringField(objectText, 'countryOrigin') || '',
         });
       }
     }
@@ -678,6 +679,7 @@ function updateBaseSerieInFile(content: string, payload: any) {
           updated = upsertField(updated, 'genre', payload.genre);
           updated = upsertSeasonsDataField(updated, payload.seasonsData);
           updated = upsertField(updated, 'description', payload.description ?? '');
+          updated = upsertField(updated, 'countryOrigin', payload.countryOrigin ?? '');
 
           return (
             content.slice(0, objectStart) +

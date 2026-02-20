@@ -21,6 +21,7 @@ import {
 import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
 import { EditEntityHeaderComponent } from '../../../components/edit-entity-header/edit-entity-header.component';
+import { CountrySelectComponent } from '../../../components/country-select/country-select.component';
 import { AuthService } from '../../../core/auth.service';
 import { QuizzCreateModalComponent } from '../../../components/quizz-create-modal/quizz-create-modal.component';
 import { EntityType } from '../../../models/quizz-model';
@@ -42,6 +43,7 @@ type EditSerieEntityForm = {
   genre: string;
   seasonsData: BaseSerieSeasonData[];
   description: string;
+  countryOrigin: string;
 };
 
 type EditSerieDialogData = {
@@ -60,6 +62,7 @@ type EditSerieDialogData = {
     RouterModule,
     EditEntityComponent,
     EditEntityHeaderComponent,
+    CountrySelectComponent,
   ],
   templateUrl: './edit-serie.component.html',
   styleUrls: ['./edit-serie.component.scss'],
@@ -375,6 +378,7 @@ export class EditSerieComponent {
       genre: serie.genre,
       seasonsData: serie.seasonsData || [],
       description: serie.description ?? '',
+      countryOrigin: serie.countryOrigin ?? '',
     };
   }
 
@@ -391,6 +395,7 @@ export class EditSerieComponent {
       genre: form.genre,
       seasonsData: form.seasonsData,
       description: form.description ?? '',
+      countryOrigin: form.countryOrigin ?? '',
     };
   }
 

@@ -1,3 +1,5 @@
+import { Country } from './countries.enum';
+
 export interface MandatorySerieData {
   title: string;
   director: string;
@@ -13,6 +15,7 @@ export interface BaseSerie extends MandatorySerieData {
   genre: string;
   seasonsData: BaseSerieSeasonData[];
   description: string;
+  countryOrigin: Country;
 }
 
 export interface BaseSerieSeasonData {

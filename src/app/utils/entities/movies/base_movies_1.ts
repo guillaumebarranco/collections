@@ -1432,4 +1432,16 @@ export const baseMoviesPage1: BaseMovie[] = [
     description: '',
     countryOrigin: 'France',
   },
+  {
+    title: 'Fanfan la Tulipe',
+    director: 'Gérard Krawczyk',
+    actors: [{ name: 'Vincent Perez' }, { name: 'Penélope Cruz' }],
+    coverUrl: '/movies_pictures/affiche3.jpg',
+    releaseDate: '2003-05-14',
+    length: 97,
+    genre: 'Adventure, Comedy',
+    saga: '',
+    description: '',
+    countryOrigin: 'France',
+  },
 ];

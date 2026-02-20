@@ -109,6 +109,7 @@ router.post('/', (req: any, res: any) => {
           ? entityPayload.seasonsData
           : undefined,
         description: normalizeString(entityPayload.description, 'description') ?? '',
+        countryOrigin: normalizeString(entityPayload.countryOrigin, 'countryOrigin') ?? '',
       });
 
       if (originalTitle || originalDirector) {

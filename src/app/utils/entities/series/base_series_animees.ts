@@ -43,6 +43,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Olive et Tom : Le retour',
@@ -74,6 +75,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Naruto',
@@ -126,6 +128,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Naruto Shippuden',
@@ -253,6 +256,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'One Piece',
@@ -379,6 +383,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'My Hero Academia',
@@ -445,6 +450,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Boruto',
@@ -491,6 +497,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Dandadan',
@@ -517,6 +524,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Dragon Ball',
@@ -578,6 +586,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Dragon Ball Z',
@@ -650,6 +659,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Dragon Ball GT',
@@ -691,6 +701,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Dragon Ball Super',
@@ -732,6 +743,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Dragon Ball Daima',
@@ -753,6 +765,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Olive et Tom',
@@ -829,6 +842,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Puella Magi Madoka Magica',
@@ -850,6 +864,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Nanatsu No Taizai (Seven Deadly Sins)',
@@ -896,6 +911,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Shaman king',
@@ -917,6 +933,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Shokugeki no Soma (Food Wars)',
@@ -963,6 +980,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Akame Ga Kill',
@@ -984,6 +1002,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Hunter X Hunter',
@@ -1015,6 +1034,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Beelzebub',
@@ -1041,6 +1061,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Bleach',
@@ -1143,6 +1164,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Détective Conan',
@@ -1270,6 +1292,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Jujutsu Kaisen',
@@ -1301,6 +1324,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: "JoJo's Bizarre Adventure",
@@ -1333,6 +1357,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Demon Slayer',
@@ -1369,6 +1394,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Spy x Family',
@@ -1390,6 +1416,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Chainsaw Man',
@@ -1411,6 +1438,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Ken le Survivant',
@@ -1462,6 +1490,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Les Chevaliers du Zodiaque',
@@ -1494,6 +1523,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: "Les Mystérieuses Cités d'Or",
@@ -1515,6 +1545,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Magical Dorémi',
@@ -1556,6 +1587,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: "Les carnets de l'apothicaire",
@@ -1577,6 +1609,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Code Lyoko',
@@ -1613,6 +1646,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Albator',
@@ -1634,6 +1668,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Goldorak',
@@ -1660,6 +1695,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Totally Spies',
@@ -1711,6 +1747,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Les super nanas',
@@ -1782,6 +1819,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "Les zinzins de l'espace",
@@ -1853,6 +1891,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Teen Titans',
@@ -1910,6 +1949,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le marsupilami',
@@ -1941,6 +1981,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Oggy et les cafards',
@@ -1993,6 +2034,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: "Bob l'éponge",
@@ -2044,6 +2086,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Les Tortues Ninja',
@@ -2115,6 +2158,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Princesse Sarah',
@@ -2136,6 +2180,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Pokémon',
@@ -2272,6 +2317,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: "L'école des champions",
@@ -2298,6 +2344,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Jackie Chan (série animée)',
@@ -2325,6 +2372,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Marcelino',
@@ -2346,6 +2394,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Cobra',
@@ -2367,6 +2416,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Nicky Larson',
@@ -2403,6 +2453,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Gintama',
@@ -2469,6 +2520,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Yu-Gi-Oh!',
@@ -2525,6 +2577,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Death Note',
@@ -2552,6 +2605,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Assassination Classroom',
@@ -2584,6 +2638,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Soul Eater',
@@ -2611,6 +2666,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
 
   {
@@ -2644,6 +2700,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
 
   {
@@ -2677,6 +2734,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
 
   {
@@ -2715,6 +2773,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: "L'Attaque des Titans",
@@ -2757,6 +2816,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'One Punch Man',
@@ -2794,6 +2854,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Rick and Morty',
@@ -2857,6 +2918,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Samurai Champloo',
@@ -2884,6 +2946,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Les Simpsons',
@@ -3081,6 +3144,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Astérix & Obélix : Le Combat des Chefs',
@@ -3108,6 +3172,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Arcane',
@@ -3141,6 +3206,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Avengers Assemble',
@@ -3178,6 +3244,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Avatar: The Last Airbender',
@@ -3215,6 +3282,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'South Park',
@@ -3372,6 +3440,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Star Wars: The Clone Wars',
@@ -3429,6 +3498,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Star Wars Rebels',
@@ -3471,6 +3541,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Galactik Football',
@@ -3508,6 +3579,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'La Légende de Korra',
@@ -3550,6 +3622,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Code Geass',
@@ -3576,6 +3649,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'GTO : Great Teacher Onizuka',
@@ -3597,6 +3671,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Psycho-Pass',
@@ -3628,6 +3703,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Your Lie in April',
@@ -3649,6 +3725,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Sword Art Online',
@@ -3685,6 +3762,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Tokyo Ghoul',
@@ -3721,6 +3799,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Fairy Tail',
@@ -3782,6 +3861,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Fate/zero',
@@ -3809,6 +3889,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Fate Stay Night',
@@ -3830,6 +3911,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Fate Apocrypha',
@@ -3851,6 +3933,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Fate Grand Order',
@@ -3872,6 +3955,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Fate Unlimited blade works',
@@ -3898,6 +3982,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'RWBY',
@@ -3959,6 +4044,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Elfen Lied',
@@ -3980,6 +4066,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Angel Beats!',
@@ -4001,6 +4088,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Charlotte',
@@ -4022,6 +4110,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Clannad',
@@ -4048,6 +4137,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Mirai Nikki',
@@ -4069,6 +4159,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Durarara!!',
@@ -4106,6 +4197,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Nana',
@@ -4127,6 +4219,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Black Butler',
@@ -4163,6 +4256,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Violet Evergarden',
@@ -4184,6 +4278,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'The Promised Neverland',
@@ -4210,6 +4305,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Death Parade',
@@ -4231,6 +4327,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Magia record',
@@ -4262,6 +4359,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Gambling School',
@@ -4288,6 +4386,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Oshi no Ko',
@@ -4314,6 +4413,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Another',
@@ -4335,6 +4435,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Solo Leveling',
@@ -4361,6 +4462,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Tower of god',
@@ -4387,6 +4489,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Noblesse',
@@ -4408,6 +4511,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Beyblade',
@@ -4440,6 +4544,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'High school of the dead',
@@ -4461,6 +4566,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Deadman Wonderland',
@@ -4482,6 +4588,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Danganronpa',
@@ -4503,6 +4610,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: "Darwin's Game",
@@ -4524,6 +4632,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Toriko',
@@ -4545,6 +4654,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Aggretsuko',
@@ -4586,6 +4696,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Sailor Moon',
@@ -4627,6 +4738,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Fruit Basket',
@@ -4658,6 +4770,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Guilty Crown',
@@ -4679,6 +4792,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Sakura chasseuse de cartes',
@@ -4700,6 +4814,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Hamtaro',
@@ -4722,6 +4837,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Higurashi no naku koro ni',
@@ -4743,6 +4859,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Umineko no naku koro ni',
@@ -4765,6 +4882,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Romeo X Juliet',
@@ -4786,6 +4904,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Jeanne et Serge',
@@ -4807,6 +4926,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Toradora !',
@@ -4828,6 +4948,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Tonari no Kaibutsu-kun',
@@ -4850,6 +4971,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Maid sama',
@@ -4871,6 +4993,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'My happy marriage',
@@ -4892,6 +5015,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Yakuza fiancee',
@@ -4913,6 +5037,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Si je suis la vilaine, autant mater le boss final',
@@ -4934,6 +5059,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'winx club',
@@ -4955,6 +5081,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'magical girl raising project',
@@ -4977,6 +5104,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'wish upon the pleiades',
@@ -4999,6 +5127,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Anohana',
@@ -5020,6 +5149,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'Steins Gate',
@@ -5041,6 +5171,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
   {
     title: 'No Game No Life',
@@ -5062,5 +5193,6 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    countryOrigin: 'Japon',
   },
 ];

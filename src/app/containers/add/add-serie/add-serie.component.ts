@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
+import { CountrySelectComponent } from '../../../components/country-select/country-select.component';
 
 type AddSerieEntityForm = {
   title: string;
@@ -20,6 +21,7 @@ type AddSerieEntityForm = {
   }[];
   watchPriority: number;
   description: string;
+  countryOrigin: string;
 };
 
 type AddSerieDialogData = {
@@ -41,7 +43,7 @@ type AddSerieUserForm = {
 @Component({
   selector: 'app-add-serie',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, CountrySelectComponent],
   templateUrl: './add-serie.component.html',
   styleUrls: ['./add-serie.component.scss'],
 })
@@ -66,6 +68,7 @@ export class AddSerieComponent {
     seasonsData: [],
     watchPriority: 1,
     description: '',
+    countryOrigin: '',
   });
 
   userForm = signal<AddSerieUserForm>({

@@ -239,6 +239,7 @@ export const getSerieDataFromUserSerieAndBaseSerie = (
   endDate: baseSerie?.endDate || '',
   genre: baseSerie?.genre || '',
   seasonsData: baseSerie?.seasonsData || [],
+  countryOrigin: (baseSerie?.countryOrigin ?? '') as Serie['countryOrigin'],
   owned: userSerie.owned,
   watchPriority: userSerie.watchPriority,
   wantToWatchAgain: userSerie.wantToWatchAgain,
