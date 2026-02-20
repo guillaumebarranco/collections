@@ -223,6 +223,7 @@ function parseBaseBooksFullFromFile(content: string): any[] {
           sagaFinished: parseBooleanField(objectText, 'sagaFinished') ?? false,
           releaseDate: parseStringField(objectText, 'releaseDate') || '',
           description: parseStringField(objectText, 'description') || '',
+          countryOrigin: parseStringField(objectText, 'countryOrigin') || '',
         });
       }
     }
@@ -517,6 +518,7 @@ function updateBaseBookInFile(content: string, payload: any) {
           updated = upsertField(updated, 'sagaFinished', payload.sagaFinished);
           updated = upsertField(updated, 'releaseDate', payload.releaseDate);
           updated = upsertField(updated, 'description', payload.description ?? '');
+          updated = upsertField(updated, 'countryOrigin', payload.countryOrigin ?? '');
 
           return (
             content.slice(0, objectStart) +

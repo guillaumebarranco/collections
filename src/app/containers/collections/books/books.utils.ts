@@ -7,6 +7,7 @@ export type BookView =
   | 'toReRead'
   | 'authors'
   | 'sagas'
+  | 'countries'
   | 'recommendations';
 
 export const booksSortOptions: { value: string; label: string }[] = [
@@ -49,8 +50,38 @@ export const bookViewOptions: { value: BookView; label: string }[] = [
   { value: 'toReRead', label: 'À relire' },
   { value: 'authors', label: 'Voir par auteurs' },
   { value: 'sagas', label: 'Voir par sagas' },
+  { value: 'countries', label: 'Voir par pays' },
   { value: 'recommendations', label: 'Recommandations' },
 ];
+
+export const countriesBooksSortOptions: { value: string; label: string }[] = [
+  { value: 'country-count', label: 'Nombre de livres' },
+  {
+    value: 'country-user-rating',
+    label: 'Pays le mieux noté par vous',
+  },
+  {
+    value: 'country-global-rating',
+    label: 'Pays le mieux noté par les utilisateurs',
+  },
+  {
+    value: 'country-seen-count',
+    label: 'Pays avec le plus de livres lus par vous',
+  },
+  {
+    value: 'country-reread-count',
+    label: 'Pays avec le plus de relectures par vous',
+  },
+];
+
+export const getBooksSortOptions = (
+  selectedView: BookView
+): { value: string; label: string }[] => {
+  if (selectedView === 'countries') {
+    return countriesBooksSortOptions;
+  }
+  return booksSortOptions;
+};
 
 export const getSortedBooks = (books: Book[], selectedSort: string): Book[] => {
   switch (selectedSort) {
@@ -149,7 +180,7 @@ export const getSortedBooks = (books: Book[], selectedSort: string): Book[] => {
 
 export type BooksByAuthorGroup = {
   author: string;
-  seenBooks: Book[];
+  readBooks: Book[];
   missingBooks: Book[];
 };
 
@@ -190,20 +221,20 @@ export const getBooksByAuthor = ({
     baseByAuthor.set(authorName, list);
   }
 
-  const groups = Array.from(authorMap.entries()).map(([author, seenBooks]) => {
+  const groups = Array.from(authorMap.entries()).map(([author, readBooks]) => {
     const missing = isAdminView
       ? []
       : getSortedBooks([...(baseByAuthor.get(author) ?? [])], selectedSort);
     return {
       author,
-      seenBooks,
+      readBooks,
       missingBooks: missing,
     };
   });
 
   groups.sort((a, b) => {
-    const countA = a.seenBooks.length + a.missingBooks.length;
-    const countB = b.seenBooks.length + b.missingBooks.length;
+    const countA = a.readBooks.length + a.missingBooks.length;
+    const countB = b.readBooks.length + b.missingBooks.length;
     if (countB !== countA) {
       return countB - countA;
     }
@@ -216,7 +247,7 @@ export const getBooksByAuthor = ({
 export type BooksBySagaGroup = {
   saga: string;
   isSagaFinished: boolean;
-  seenBooks: Book[];
+  readBooks: Book[];
   missingBooks: Book[];
 };
 
@@ -253,9 +284,9 @@ export const getBooksBySaga = ({
     baseBySaga.set(sagaName, list);
   }
 
-  const groups = Array.from(sagaMap.entries()).map(([saga, seenBooks]) => {
+  const groups = Array.from(sagaMap.entries()).map(([saga, readBooks]) => {
     // Trier les livres lus par sagaOrder, puis par le tri sélectionné
-    const sortedSeenBooks = [...seenBooks].sort((a, b) => {
+    const sortedreadBooks = [...readBooks].sort((a, b) => {
       const orderA = a.sagaOrder ?? 0;
       const orderB = b.sagaOrder ?? 0;
       if (orderA !== orderB) {
@@ -282,15 +313,15 @@ export const getBooksBySaga = ({
 
     return {
       saga,
-      isSagaFinished: sortedSeenBooks.every((book) => book.sagaFinished),
-      seenBooks: sortedSeenBooks,
+      isSagaFinished: sortedreadBooks.every((book) => book.sagaFinished),
+      readBooks: sortedreadBooks,
       missingBooks: sortedMissingBooks,
     };
   });
 
   groups.sort((a, b) => {
-    const countA = a.seenBooks.length + a.missingBooks.length;
-    const countB = b.seenBooks.length + b.missingBooks.length;
+    const countA = a.readBooks.length + a.missingBooks.length;
+    const countB = b.readBooks.length + b.missingBooks.length;
     if (countB !== countA) {
       return countB - countA;
     }
@@ -298,4 +329,135 @@ export const getBooksBySaga = ({
   });
 
   return groups;
+};
+
+export type BooksByCountryGroup = {
+  country: string;
+  readBooks: Book[];
+  missingBooks: Book[];
+};
+
+export const getBooksByCountry = ({
+  sortedBooks,
+  allBooks,
+  baseBooks,
+  selectedSort,
+  isAdminView,
+}: {
+  sortedBooks: Book[];
+  allBooks: Book[];
+  baseBooks: Book[];
+  selectedSort: string;
+  isAdminView: boolean;
+}): BooksByCountryGroup[] => {
+  const countryMap = new Map<string, Book[]>();
+  for (const book of sortedBooks) {
+    const countryName = (book.countryOrigin ?? '').toString().trim();
+    if (!countryName) continue;
+    const list = countryMap.get(countryName) ?? [];
+    list.push(book);
+    countryMap.set(countryName, list);
+  }
+
+  const seenKeys = new Set(allBooks.map((book) => getBookIdentityKey(book)));
+  const baseByCountry = new Map<string, Book[]>();
+  for (const book of baseBooks) {
+    const countryName = (book.countryOrigin ?? '').toString().trim();
+    if (!countryName) continue;
+    if (seenKeys.has(getBookIdentityKey(book))) continue;
+    const list = baseByCountry.get(countryName) ?? [];
+    list.push(book);
+    baseByCountry.set(countryName, list);
+  }
+
+  const countryGroups = Array.from(countryMap.entries()).map(
+    ([country, readBooks]) => {
+      const missing = isAdminView
+        ? []
+        : getSortedBooks(
+            [...(baseByCountry.get(country) ?? [])],
+            'releaseDate-asc'
+          );
+      return {
+        country,
+        readBooks: getSortedBooks(readBooks, 'readDate'),
+        missingBooks: missing,
+      };
+    }
+  );
+
+  const filteredCountryGroups =
+    selectedSort === 'country-user-rating' ||
+    selectedSort === 'country-global-rating'
+      ? countryGroups.filter((group) => {
+          const ratedBooks = group.readBooks.filter(
+            (book) => book.rating && book.rating > 0
+          );
+          return ratedBooks.length >= 0;
+        })
+      : countryGroups.filter(
+          (group) => group.readBooks.length + group.missingBooks.length > 0
+        );
+
+  filteredCountryGroups.sort((a, b) => {
+    switch (selectedSort) {
+      case 'country-count': {
+        const countA = a.readBooks.length + a.missingBooks.length;
+        const countB = b.readBooks.length + b.missingBooks.length;
+        if (countB !== countA) {
+          return countB - countA;
+        }
+        return a.country.localeCompare(b.country);
+      }
+      case 'country-user-rating':
+      case 'country-global-rating': {
+        const ratedBooksA = a.readBooks.filter(
+          (book) => book.rating && book.rating > 0
+        );
+        const ratedBooksB = b.readBooks.filter(
+          (book) => book.rating && book.rating > 0
+        );
+        const avgRatingA =
+          ratedBooksA.reduce((sum, book) => sum + (book.rating || 0), 0) /
+          (ratedBooksA.length || 1);
+        const avgRatingB =
+          ratedBooksB.reduce((sum, book) => sum + (book.rating || 0), 0) /
+          (ratedBooksB.length || 1);
+        if (Math.abs(avgRatingB - avgRatingA) > 0.01) {
+          return avgRatingB - avgRatingA;
+        }
+        return a.country.localeCompare(b.country);
+      }
+      case 'country-seen-count': {
+        const countA = a.readBooks.length;
+        const countB = b.readBooks.length;
+        if (countB !== countA) {
+          return countB - countA;
+        }
+        return a.country.localeCompare(b.country);
+      }
+      case 'country-reread-count': {
+        const rereadCountA = a.readBooks.filter(
+          (book) => book.readTimes && book.readTimes > 1
+        ).length;
+        const rereadCountB = b.readBooks.filter(
+          (book) => book.readTimes && book.readTimes > 1
+        ).length;
+        if (rereadCountB !== rereadCountA) {
+          return rereadCountB - rereadCountA;
+        }
+        return a.country.localeCompare(b.country);
+      }
+      default: {
+        const countA = a.readBooks.length + a.missingBooks.length;
+        const countB = b.readBooks.length + b.missingBooks.length;
+        if (countB !== countA) {
+          return countB - countA;
+        }
+        return a.country.localeCompare(b.country);
+      }
+    }
+  });
+
+  return filteredCountryGroups;
 };

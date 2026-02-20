@@ -101,13 +101,11 @@
 
       <div class="form-row">
         <label for="countryOrigin">Nationalité du film</label>
-        <input
-          id="countryOrigin"
-          type="text"
-          [ngModel]="entityForm().countryOrigin"
-          (ngModelChange)="updateEntityField('countryOrigin', $event)"
+        <app-country-select
+          inputId="countryOrigin"
           name="countryOrigin"
-          placeholder="ex. France, États-Unis"
+          [value]="entityForm().countryOrigin"
+          (valueChange)="updateEntityField('countryOrigin', $event)"
         />
       </div>
     </section>

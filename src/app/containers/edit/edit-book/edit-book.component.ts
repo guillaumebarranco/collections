@@ -20,6 +20,7 @@ import { AuthService } from '../../../core/auth.service';
 import { QuizzCreateModalComponent } from '../../../components/quizz-create-modal/quizz-create-modal.component';
 import { EntityType } from '../../../models/quizz-model';
 import { EditEntityHeaderComponent } from '../../../components/edit-entity-header/edit-entity-header.component';
+import { CountrySelectComponent } from '../../../components/country-select/country-select.component';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 
 type EditBookForm = {
@@ -42,6 +43,7 @@ type EditBookEntityForm = {
   coverUrl: string;
   releaseDate: string;
   description: string;
+  countryOrigin: string;
 };
 
 type EditBookDialogData = {
@@ -60,6 +62,7 @@ type EditBookDialogData = {
     RouterModule,
     EditEntityComponent,
     EditEntityHeaderComponent,
+    CountrySelectComponent,
   ],
   templateUrl: './edit-book.component.html',
   styleUrls: ['./edit-book.component.scss'],
@@ -453,6 +456,7 @@ export class EditBookComponent {
       sagaFinished: book.sagaFinished,
       releaseDate: book.releaseDate || '',
       description: book.description ?? '',
+      countryOrigin: book.countryOrigin ?? '',
     };
   }
 
@@ -467,6 +471,7 @@ export class EditBookComponent {
       coverUrl: form.coverUrl,
       releaseDate: form.releaseDate,
       description: form.description ?? '',
+      countryOrigin: form.countryOrigin ?? '',
     };
   }
 

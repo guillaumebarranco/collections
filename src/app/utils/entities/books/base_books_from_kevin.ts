@@ -12,6 +12,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "L'Alchimiste",
@@ -24,6 +25,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le porteur de lumière, tome 1 : Le prisme noir',
@@ -36,6 +38,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2008-10-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Croc-Blanc',
@@ -48,6 +51,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1906-10-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "L'Apprenti Assassin",
@@ -60,6 +64,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "L'Assassin du Roi",
@@ -72,6 +77,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'La Nef du Crépuscule',
@@ -84,6 +90,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le Poison de la Vengeance',
@@ -96,6 +103,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'La Voie Magique',
@@ -108,6 +116,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'La Reine Solitaire',
@@ -120,6 +129,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le Prophète Blanc',
@@ -132,6 +142,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'La Secte Maudite',
@@ -144,6 +155,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Les Secrets de Castelcerf',
@@ -156,6 +168,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Serments et Deuils',
@@ -168,6 +181,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le Dragon des Glaces',
@@ -180,6 +194,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "L'Homme Noir",
@@ -192,6 +207,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Adieux et Retrouvailles',
@@ -204,6 +220,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "Le Fou et l'Assassin",
@@ -216,6 +233,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "La Fille de l'Assassin",
@@ -228,6 +246,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'En Quête de Vengeance',
@@ -240,6 +259,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "Le Retour de l'Assassin",
@@ -252,6 +272,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "Sur les Rives de l'Art",
@@ -264,6 +285,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "Le Destin de l'Assassin",
@@ -276,6 +298,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Quand Vient la Horde',
@@ -288,6 +311,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Les annales du Disque-Monde, tome 1 : La huitième couleur',
@@ -300,6 +324,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "N'oublie Jamais",
@@ -312,6 +337,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Les Grands Jeux',
@@ -324,6 +350,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "L'Aube Obscure",
@@ -336,6 +363,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "L'Empire Ultime",
@@ -348,6 +376,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "Le puits de l'Ascension",
@@ -361,6 +390,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le Héros des Siècles',
@@ -373,6 +403,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Les Voleurs de fumée, tome 1',
@@ -385,6 +416,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le Démon et mademoiselle Prym',
@@ -397,6 +429,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Les Maîtres Enlumineurs',
@@ -410,6 +443,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "L'Ange de la Nuit, Tome 1 : La Voie des ombres",
@@ -422,6 +456,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "Le royaume de Pierre d'Angle, tome 1 : L'art du naufrage",
@@ -434,6 +469,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Cycle de Tschai - Intégrale',
@@ -446,6 +482,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Les Mensonges de Locke Lamora',
@@ -458,6 +495,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Des Horizons Rouge Sang',
@@ -470,6 +508,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'La République des Voleurs',
@@ -482,6 +521,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'La Compagnie Noire',
@@ -495,6 +535,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le Château Noir',
@@ -507,6 +548,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'La Rose Blanche',
@@ -519,6 +561,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "L'Enfant de Poussière",
@@ -531,6 +574,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'La Peste et la Vigne',
@@ -543,6 +587,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Les Chiens et la Charrue',
@@ -555,6 +600,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'La Maison des Veilleurs',
@@ -567,6 +613,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'La Sorcière Captive',
@@ -579,6 +626,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "L'Héritière Rebelle",
@@ -591,6 +639,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "L'Empire Libéré",
@@ -603,6 +652,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'La Voie des Rois (1/2)',
@@ -615,6 +665,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'La Voie des Rois (2/2)',
@@ -627,6 +678,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le livre des Radieux (1/2)',
@@ -639,6 +691,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le Livre des Radieux (2/2)',
@@ -651,6 +704,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Justicière (1/2)',
@@ -663,6 +717,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Justicière (2/2)',
@@ -676,6 +731,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Rythme de Guerre (1/2)',
@@ -688,6 +744,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Rythme de Guerre (2/2)',
@@ -700,6 +757,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le Don de Mort',
@@ -712,6 +770,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'La Grande Traque',
@@ -724,6 +783,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le Don de Vie',
@@ -736,6 +796,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "L'Etoile de Feu",
@@ -748,6 +809,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'La Guerre Céleste',
@@ -760,6 +822,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'La Dixième Prophétie',
@@ -772,6 +835,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Les Jardins de la Lune',
@@ -784,6 +848,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Les Portes de la Maison des Morts',
@@ -796,6 +861,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Les Souvenirs de la Glace',
@@ -808,6 +874,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'La Maison des Chaînes',
@@ -820,6 +887,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Les Marées de Minuit',
@@ -832,6 +900,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "L'Alliage de la Justice",
@@ -844,6 +913,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Jeux de Masques',
@@ -856,6 +926,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Les Bracelets des Larmes',
@@ -868,6 +939,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "Les Princes d'Ambre - Cycle 1",
@@ -880,6 +952,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le Trône du Dragon',
@@ -893,6 +966,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "Le Roi de l'Orage",
@@ -905,6 +979,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "La Maison de l'Ancêtre",
@@ -917,6 +992,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "La Pierre de l'Adieu",
@@ -929,6 +1005,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le Livre du Nécromant',
@@ -942,6 +1019,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le Cri de Camaris',
@@ -954,6 +1032,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "L'Ombre de la Roue",
@@ -966,6 +1045,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "La Tour de l'Ange Vert",
@@ -979,6 +1059,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Tuer la Reine',
@@ -991,6 +1072,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Défendre le Prince',
@@ -1003,6 +1085,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Écraser le roi',
@@ -1015,5 +1098,6 @@ export const baseBooksFromKevin: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 ];

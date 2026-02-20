@@ -12,6 +12,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1866-01-01',
     description: '',
+    countryOrigin: 'Russie',
   },
   {
     title: 'Les liaisons dangereuses',
@@ -24,6 +25,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1782-03-23',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Les filles du Docteur March',
@@ -36,6 +38,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1868-01-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Circe',
@@ -48,6 +51,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2018-04-10',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "Le chant d'Achille",
@@ -60,6 +64,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2011-09-20',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Dark Shores',
@@ -72,6 +77,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2019-05-07',
     description: '',
+    countryOrigin: 'Canada',
   },
   {
     title: 'Les piliers de la terre',
@@ -84,6 +90,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1989-01-01',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Le Horla',
@@ -96,6 +103,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1887-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: "L'écume des jours",
@@ -108,6 +116,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1947-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Notre-Dame de Paris',
@@ -120,6 +129,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1831-01-16',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Le roi de fer',
@@ -132,6 +142,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1955-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Le vicomte de Bragelonne',
@@ -144,6 +155,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1847-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'La reine Margot',
@@ -156,6 +168,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1845-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Le trone de fer intégrale 4',
@@ -168,6 +181,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2005-11-08',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le trone de fer intégrale 5',
@@ -180,6 +194,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2011-07-12',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Robinson Crusoe',
@@ -192,6 +207,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1719-04-25',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Cyrano de Bergerac',
@@ -204,6 +220,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1897-12-28',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Le Parfum',
@@ -216,6 +233,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1985-01-01',
     description: '',
+    countryOrigin: 'Allemagne',
   },
   {
     title: 'Où vont les larmes quand elles sèchent',
@@ -228,6 +246,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2018-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Cinq semaines en ballon',
@@ -240,6 +259,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1863-01-31',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Autour de la Lune',
@@ -252,6 +272,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1870-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'The Dead zone',
@@ -264,6 +285,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1979-08-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -277,6 +299,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2022-04-05',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Gagner la guerre',
@@ -289,6 +312,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2009-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: "L'enfer",
@@ -301,6 +325,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1320-01-01',
     description: '',
+    countryOrigin: 'Italie',
   },
   {
     title: "L'epopée de Gilgamesh",
@@ -313,6 +338,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '-2100-01-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Hamlet',
@@ -325,6 +351,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1603-01-01',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Macbeth',
@@ -337,6 +364,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1623-01-01',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'La Controverse de Valladolid',
@@ -349,6 +377,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1992-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'La dernière chanson',
@@ -361,6 +390,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2009-09-08',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Fais un voeu',
@@ -373,6 +403,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2020-09-29',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Au rythme de ton souffle',
@@ -385,6 +416,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2021-09-28',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Un havre de paix',
@@ -397,5 +429,6 @@ export const baseFromReadlistBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2022-09-20',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 ];

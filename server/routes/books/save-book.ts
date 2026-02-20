@@ -110,6 +110,10 @@ router.post('/', (req: any, res: any) => {
         ),
         releaseDate: normalizeString(entityPayload.releaseDate, 'releaseDate'),
         description: normalizeString(entityPayload.description, 'description') ?? '',
+        countryOrigin:
+          entityPayload.countryOrigin != null
+            ? normalizeString(entityPayload.countryOrigin, 'countryOrigin')
+            : '',
       });
 
       if (originalTitle || originalAuthor) {

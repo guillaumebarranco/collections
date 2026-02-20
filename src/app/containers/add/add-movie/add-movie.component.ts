@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
+import { CountrySelectComponent } from '../../../components/country-select/country-select.component';
 
 type AddMovieEntityForm = {
   title: string;
@@ -37,7 +38,7 @@ type AddMovieDialogData = {
 @Component({
   selector: 'app-add-movie',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, CountrySelectComponent],
   templateUrl: './add-movie.component.html',
   styleUrls: ['./add-movie.component.scss'],
 })

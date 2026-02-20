@@ -60,6 +60,7 @@ export const getBookDataFromUserBookAndBaseBook = (
   wantToReadAgain: userBook.wantToReadAgain,
   description: baseBook?.description ?? '',
   ratingComment: userBook.ratingComment ?? '',
+  countryOrigin: baseBook?.countryOrigin ?? '',
 });
 
 export const getComicDataFromUserComicAndBaseComic = (

@@ -17,6 +17,7 @@ import {
 import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
 import { EditEntityHeaderComponent } from '../../../components/edit-entity-header/edit-entity-header.component';
+import { CountrySelectComponent } from '../../../components/country-select/country-select.component';
 import { AuthService } from '../../../core/auth.service';
 import { QuizzCreateModalComponent } from '../../../components/quizz-create-modal/quizz-create-modal.component';
 import { EntityType } from '../../../models/quizz-model';
@@ -61,6 +62,7 @@ type EditMovieDialogData = {
     RouterModule,
     EditEntityComponent,
     EditEntityHeaderComponent,
+    CountrySelectComponent,
   ],
   templateUrl: './edit-movie.component.html',
   styleUrls: ['./edit-movie.component.scss'],

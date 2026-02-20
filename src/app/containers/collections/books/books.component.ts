@@ -23,9 +23,10 @@ import { Quizz } from '../../../models/quizz-model';
 import {
   BookView,
   bookViewOptions,
-  booksSortOptions,
   getBooksByAuthor,
+  getBooksByCountry,
   getBooksBySaga,
+  getBooksSortOptions,
   getSortedBooks,
   groupByOptions,
   yearFilterOptions,
@@ -102,7 +103,11 @@ export class BooksComponent implements OnInit {
   private isLoadingPreferences = false;
   private readonly viewPreferencesStorageKey = 'books_view_preferences';
 
-  sortOptions: SortOption[] = booksSortOptions;
+  sortOptions = computed<SortOption[]>(() =>
+    getBooksSortOptions(this.selectedView())
+  );
+
+  collapsedCountries = signal<Record<string, boolean>>({});
 
   yearFilterOptions = yearFilterOptions;
 
@@ -230,6 +235,7 @@ export class BooksComponent implements OnInit {
       queryParams['view'] === 'toReRead' ||
       queryParams['view'] === 'authors' ||
       queryParams['view'] === 'sagas' ||
+      queryParams['view'] === 'countries' ||
       queryParams['view'] === 'recommendations'
     ) {
       this.selectedView.set(queryParams['view'] as BookView);
@@ -239,7 +245,7 @@ export class BooksComponent implements OnInit {
     }
 
     if (queryParams['sort']) {
-      const validSort = this.sortOptions.find(
+      const validSort = this.sortOptions().find(
         (opt) => opt.value === queryParams['sort']
       );
       if (validSort) {
@@ -285,7 +291,7 @@ export class BooksComponent implements OnInit {
     }
     if (
       parsed.sort &&
-      this.sortOptions.some((opt) => opt.value === parsed.sort)
+      this.sortOptions().some((opt) => opt.value === parsed.sort)
     ) {
       this.selectedSort.set(parsed.sort);
     }
@@ -340,6 +346,8 @@ export class BooksComponent implements OnInit {
     } else if (this.selectedView() === 'authors') {
       books = this.allBooks();
     } else if (this.selectedView() === 'sagas') {
+      books = this.allBooks();
+    } else if (this.selectedView() === 'countries') {
       books = this.allBooks();
     }
 
@@ -396,7 +404,11 @@ export class BooksComponent implements OnInit {
   );
 
   groupedBooks = computed(() => {
-    if (this.selectedView() === 'authors' || this.selectedView() === 'sagas') {
+    if (
+      this.selectedView() === 'authors' ||
+      this.selectedView() === 'sagas' ||
+      this.selectedView() === 'countries'
+    ) {
       return null;
     }
     if (this.selectedGroupBy() === 'none') {
@@ -489,7 +501,7 @@ export class BooksComponent implements OnInit {
 
   onViewChange(view: BookView) {
     this.selectedView.set(view);
-    if (view === 'authors' || view === 'sagas') {
+    if (view === 'authors' || view === 'sagas' || view === 'countries') {
       this.selectedGroupBy.set('none');
     }
     if (view === 'recommendations') {
@@ -530,6 +542,30 @@ export class BooksComponent implements OnInit {
       isAdminView: this.isAdminView(),
     });
   });
+
+  booksByCountry = computed(() => {
+    if (this.selectedView() !== 'countries') {
+      return [];
+    }
+    return getBooksByCountry({
+      sortedBooks: this.sortedBooks(),
+      allBooks: this.allBooks(),
+      baseBooks: this.baseBooksList(),
+      selectedSort: this.selectedSort(),
+      isAdminView: this.isAdminView(),
+    });
+  });
+
+  toggleCountry(country: string): void {
+    this.collapsedCountries.update((prev) => ({
+      ...prev,
+      [country]: !prev[country],
+    }));
+  }
+
+  isCountryCollapsed(country: string): boolean {
+    return !!this.collapsedCountries()[country];
+  }
 
   openQuizzModal(quizzs: Quizz[]) {
     if (!quizzs || quizzs.length === 0) return;

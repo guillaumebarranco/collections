@@ -30,6 +30,8 @@
       <p><strong>Tome :</strong> {{ book()?.sagaOrder }}</p>
       } @if (book()?.description) {
       <p><strong>Description :</strong> {{ book()?.description }}</p>
+      } @if (book()?.countryOrigin) {
+      <p><strong>Pays d'origine :</strong> {{ book()?.countryOrigin }}</p>
       }
     </div>
   </div>
@@ -240,6 +242,16 @@
         [ngModel]="bookEntityForm()?.releaseDate"
         (ngModelChange)="updateEntityField('releaseDate', $event)"
         name="entityReleaseDate"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityCountryOrigin">Pays d'origine</label>
+      <app-country-select
+        inputId="entityCountryOrigin"
+        name="entityCountryOrigin"
+        [value]="bookEntityForm()?.countryOrigin ?? ''"
+        (valueChange)="updateEntityField('countryOrigin', $event)"
       />
     </div>
 

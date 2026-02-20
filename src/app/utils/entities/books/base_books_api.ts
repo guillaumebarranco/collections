@@ -12,6 +12,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1906-10-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -25,6 +26,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'Canada',
   },
 
   {
@@ -38,6 +40,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1954-09-06',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
 
   {
@@ -51,6 +54,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2023-02-28',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
 
   {
@@ -64,6 +68,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
 
   {
@@ -77,6 +82,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'France',
   },
 
   {
@@ -90,6 +96,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'France',
   },
 
   {
@@ -103,6 +110,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'France',
   },
 
   {
@@ -116,6 +124,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'France',
   },
 
   {
@@ -129,6 +138,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -142,6 +152,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -156,6 +167,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -170,6 +182,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -183,6 +196,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -196,6 +210,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -210,6 +225,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -223,6 +239,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -236,6 +253,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -249,6 +267,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -262,6 +281,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -275,6 +295,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -288,6 +309,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -301,6 +323,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -314,6 +337,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -327,6 +351,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'Canada',
   },
 
   {
@@ -340,6 +365,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'Canada',
   },
 
   {
@@ -353,6 +379,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -366,6 +393,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -379,6 +407,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -393,6 +422,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -407,6 +437,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -421,6 +452,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
 
   {
@@ -434,6 +466,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
 
   {
@@ -447,6 +480,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
 
   {
@@ -460,6 +494,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -473,6 +508,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -486,6 +522,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -499,6 +536,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -512,6 +550,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -525,6 +564,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -539,6 +579,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -553,6 +594,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -567,6 +609,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -581,6 +624,7 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -595,12 +639,14 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
     title: 'Le Monde de Narnia (Tome 4) Le Prince Caspian',
     author: 'C. S. Lewis',
-    coverUrl: 'https://cdn.shopify.com/s/files/1/0398/4202/1535/files/Y2681YOTO02221LemondedeNarnia4LeprinceCaspian_Rounded.png?v=1711318708',
+    coverUrl:
+      'https://cdn.shopify.com/s/files/1/0398/4202/1535/files/Y2681YOTO02221LemondedeNarnia4LeprinceCaspian_Rounded.png?v=1711318708',
     pages: 240,
     genre: 'Fantasy',
     saga: 'Le Monde de Narnia',
@@ -608,5 +654,6 @@ export const baseBooksApi: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '1951-10-15',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
 ];

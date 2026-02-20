@@ -1,3 +1,5 @@
+import { Country } from './countries.enum';
+
 export interface MandatoryBookData {
   title: string;
   author: string;
@@ -12,6 +14,7 @@ export interface BaseBook extends MandatoryBookData {
   sagaFinished: boolean;
   releaseDate: string;
   description: string;
+  countryOrigin: Country;
 }
 
 export interface UserBook extends MandatoryBookData {

@@ -1,0 +1,13 @@
+<select
+  class="country-select"
+  [id]="inputId()"
+  [name]="name()"
+  [ngModel]="value()"
+  (ngModelChange)="onSelectChange($event)"
+>
+  @for (country of options; track country) {
+    <option [value]="country">{{
+      country === '' ? 'Sélectionner un pays' : country
+    }}</option>
+  }
+</select>

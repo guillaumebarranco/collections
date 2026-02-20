@@ -760,9 +760,9 @@ export const getMoviesByCountry = ({
       const missing = isAdminView
         ? []
         : getSortedMovies(
-              [...(baseByCountry.get(country) ?? [])],
-              'releaseDate-asc'
-            );
+            [...(baseByCountry.get(country) ?? [])],
+            'releaseDate-asc'
+          );
       return {
         country,
         seenMovies: getSortedMovies(seenMovies, 'releaseDate-asc'),
@@ -778,11 +778,10 @@ export const getMoviesByCountry = ({
           const ratedMovies = group.seenMovies.filter(
             (movie) => movie.rating && movie.rating > 0
           );
-          return ratedMovies.length >= 5;
+          return ratedMovies.length >= 0;
         })
       : countryGroups.filter(
-          (group) =>
-            group.seenMovies.length + group.missingMovies.length > 3
+          (group) => group.seenMovies.length + group.missingMovies.length > 0
         );
 
   filteredCountryGroups.sort((a, b) => {

@@ -110,6 +110,16 @@
           name="releaseDate"
         />
       </div>
+
+      <div class="form-row">
+        <label for="countryOrigin">Pays d'origine</label>
+        <app-country-select
+          inputId="countryOrigin"
+          name="countryOrigin"
+          [value]="entityForm().countryOrigin"
+          (valueChange)="updateEntityField('countryOrigin', $event)"
+        />
+      </div>
     </section>
 
     @if(getUserId() !== 'admin') {

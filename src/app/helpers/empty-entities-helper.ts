@@ -35,6 +35,7 @@ export const getEmptyBook = (book: BaseBook): Book => ({
   wantToReadAgain: false,
   description: book.description ?? '',
   ratingComment: '',
+  countryOrigin: book.countryOrigin ?? '',
 });
 
 export const getEmptyComic = (comic: BaseComic): Comic => ({

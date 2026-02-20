@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
+import { CountrySelectComponent } from '../../../components/country-select/country-select.component';
 
 type AddBookEntityForm = {
   title: string;
@@ -16,6 +17,7 @@ type AddBookEntityForm = {
   sagaFinished: boolean;
   releaseDate: string;
   description: string;
+  countryOrigin: string;
 };
 
 type AddBookUserForm = {
@@ -34,7 +36,7 @@ type AddBookDialogData = {
 @Component({
   selector: 'app-add-book',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, CountrySelectComponent],
   templateUrl: './add-book.component.html',
   styleUrls: ['./add-book.component.scss'],
 })
@@ -59,6 +61,7 @@ export class AddBookComponent {
     sagaFinished: true,
     releaseDate: '',
     description: '',
+    countryOrigin: '',
   });
 
   userForm = signal<AddBookUserForm>({

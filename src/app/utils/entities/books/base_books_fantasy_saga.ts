@@ -2,7 +2,7 @@ import { BaseBook } from '../../../models/book-model';
 
 export const baseBooksFantasySaga: BaseBook[] = [
   {
-    title: 'Les Enfants d\'Aliel - Le grand éveil',
+    title: "Les Enfants d'Aliel - Le grand éveil",
     author: 'Sara Schneider',
     coverUrl:
       '/books_pictures/les_enfants_daliel_tome_1_le_grand_eveil-1301631-264-432.jpg',
@@ -13,9 +13,10 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2019-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
-    title: 'Les Enfants d\'Aliel - Le cheval de feu',
+    title: "Les Enfants d'Aliel - Le cheval de feu",
     author: 'Sara Schneider',
     coverUrl:
       '/books_pictures/les_enfants_daliel_tome_2_le_cheval_de_feu-1235625-264-432.jpg',
@@ -26,6 +27,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2020-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: "Les Enfants d'Aliel - Mâchoires d'écume",
@@ -39,6 +41,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2021-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: "Les Enfants d'Aliel - Le porteur d'espoir",
@@ -52,9 +55,10 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2022-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
-    title: 'Les Enfants d\'Aliel - Ciel de cendres',
+    title: "Les Enfants d'Aliel - Ciel de cendres",
     author: 'Sara Schneider',
     coverUrl:
       '/books_pictures/les_enfants_daliel_tome_5_ciel_de_cendres-5009301-264-432.jpg',
@@ -65,6 +69,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2023-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: "D'un monde à l'autre",
@@ -78,6 +83,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2003-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Les frontières de glace',
@@ -91,6 +97,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2004-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: "L'île du destin",
@@ -104,6 +111,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2005-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'La Forêt des captifs',
@@ -117,6 +125,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2006-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: "L'Œil d'Otolep",
@@ -130,6 +139,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2007-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Les Tentacules du mal',
@@ -143,6 +153,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2008-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Ellana',
@@ -156,6 +167,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2006-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: "Ellana, l'Envol",
@@ -169,6 +181,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2007-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Ellana, la Prophétie',
@@ -182,6 +195,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2008-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Les sortceliers',
@@ -195,6 +209,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2003-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Le livre interdit',
@@ -208,6 +223,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2004-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Le sceptre maudit',
@@ -221,6 +237,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2005-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Le dragon renégat',
@@ -234,6 +251,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2006-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Le continent interdit',
@@ -247,6 +265,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2007-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Dans le piège de Magister',
@@ -260,6 +279,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2008-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: "Tara Duncan et l'invasion fantôme",
@@ -273,6 +293,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2009-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: "L'impératrice maléfique",
@@ -286,6 +307,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2010-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Tara Duncan contre la reine noire',
@@ -299,6 +321,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2011-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Dragons contre Démons',
@@ -312,6 +335,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2012-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'La Guerre des planètes',
@@ -325,6 +349,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2013-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: "L'Ultime Combat",
@@ -338,6 +363,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2014-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Tara et Cal',
@@ -351,6 +377,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '2015-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 1",
@@ -364,6 +391,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1996-08-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 2",
@@ -377,6 +405,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1998-11-16',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 3",
@@ -390,6 +419,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2000-08-08',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
@@ -402,6 +432,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '1954-07-29',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Les deux tours',
@@ -414,6 +445,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '1954-11-11',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Le retour du roi',
@@ -426,5 +458,6 @@ export const baseBooksFantasySaga: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '1955-10-20',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
 ];

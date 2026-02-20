@@ -12,6 +12,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2023-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Les liaisons dangereuses',
@@ -24,6 +25,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2022-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Castel Boy',
@@ -36,6 +38,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2021-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'En bons pères de famille',
@@ -48,6 +51,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2021-09-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: "Où va l'argent des pauvres",
@@ -60,6 +64,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2019-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Les tout-petits face aux écrans',
@@ -72,6 +77,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2017-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Les serres sous le velours noir',
@@ -84,6 +90,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2022-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: "Ne tirez pas sur l'oiseau moqueur",
@@ -96,6 +103,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1960-07-11',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Les Hauts de Hurlevent',
@@ -108,6 +116,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1847-12-01',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Voyage au centre de la terre',
@@ -120,6 +129,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '1864-11-25',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Le tour du monde en 80 jours',
@@ -132,6 +142,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '1872-12-22',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Vingt Mille Lieues sous les mers',
@@ -144,6 +155,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '1870-03-20',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: "L'Île mystérieuse",
@@ -156,6 +168,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '1874-09-22',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'De la Terre à la Lune',
@@ -168,6 +181,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '1865-09-14',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Le Comte de Monte-Cristo',
@@ -180,6 +194,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1844-08-28',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Frankenstein',
@@ -192,6 +207,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1818-01-01',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Le Portrait de Dorian Gray',
@@ -204,6 +220,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1890-07-01',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'La Ferme des animaux',
@@ -216,6 +233,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1945-08-17',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Orgueil et Préjugés',
@@ -228,6 +246,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1813-01-28',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: '1984',
@@ -240,6 +259,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1949-06-08',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Fondation',
@@ -252,6 +272,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1951-05-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Fahrenheit 451',
@@ -264,6 +285,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1953-10-19',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Miss Marple au club du mardi',
@@ -276,6 +298,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '1932-01-01',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: "L'Affaire Protheroe",
@@ -288,6 +311,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '1930-01-01',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: "Le crime de l'Orient Express",
@@ -300,6 +324,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '1934-01-01',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Mort sur le Nil',
@@ -312,6 +337,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '1937-01-01',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Ils étaient dix',
@@ -324,6 +350,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '1939-11-06',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Le Meurtre de Roger Ackroyd',
@@ -336,6 +363,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '1926-06-01',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Meurtre en Mésopotamie',
@@ -348,6 +376,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '1936-07-06',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Cinq petits cochons',
@@ -360,6 +389,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: true,
     releaseDate: '1942-05-01',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Dracula',
@@ -372,6 +402,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1897-05-26',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Jane Eyre',
@@ -384,6 +415,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1847-10-16',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Une vie',
@@ -396,6 +428,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1883-02-14',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'La tête sur les épaules',
@@ -408,6 +441,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1951-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'La Nuit des temps',
@@ -420,6 +454,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1968-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'La Horde du Contrevent',
@@ -432,6 +467,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2004-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Madame Bovary',
@@ -444,6 +480,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1856-12-15',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Bel-Ami',
@@ -456,6 +493,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1885-04-27',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Résister',
@@ -468,6 +506,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2021-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Le coût de la virilité',
@@ -480,6 +519,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2021-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Sois jeune et tais-toi',
@@ -492,6 +532,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2020-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: "L'Île au trésor",
@@ -504,6 +545,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1883-05-23',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Faites-les lire !',
@@ -516,6 +558,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2019-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Candide',
@@ -528,6 +571,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1759-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Carrie',
@@ -540,6 +584,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1974-04-05',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Désolation',
@@ -552,6 +597,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2016-09-06',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "L'étrange cas du docteur Jekyll et de Mr. Hyde",
@@ -564,6 +610,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1886-01-05',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: "L'ordinatueur",
@@ -576,6 +623,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1984-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'La Potion magique de Georges Bouillon',
@@ -588,6 +636,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1981-01-01',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Gatsby le magnifique',
@@ -600,6 +649,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1925-04-10',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'La guerre des mondes',
@@ -612,6 +662,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1898-01-01',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'La machine à explorer le temps',
@@ -624,6 +675,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1895-01-01',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'La photo qui tue',
@@ -636,6 +688,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2000-01-01',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: "L'homme invisible",
@@ -648,6 +701,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1897-01-01',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Les pages de notre amour',
@@ -660,6 +714,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1996-01-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'À tout jamais',
@@ -672,6 +727,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2004-01-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le porte bonheur',
@@ -684,6 +740,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2003-01-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Memento mori',
@@ -696,6 +753,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2023-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Un choix',
@@ -708,6 +766,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2007-01-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Viridia: Les racines du pouvoir',
@@ -720,6 +779,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2023-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Alchemised',
@@ -732,6 +792,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2023-01-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Une seconde chance',
@@ -744,6 +805,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2013-01-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "L'Iliade",
@@ -756,6 +818,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '-0800-01-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "L'Odyssée",
@@ -768,6 +831,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '-0800-01-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Adam',
@@ -780,6 +844,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2022-01-01',
     description: '',
+    countryOrigin: 'France',
   },
 
   {
@@ -794,6 +859,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2018-08-14',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Roméo et Juliette',
@@ -806,6 +872,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1597-01-01',
     description: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'La brute',
@@ -818,6 +885,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1951-01-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'La fille du train',
@@ -830,6 +898,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2015-01-13',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "L'amour aux temps du choléra",
@@ -842,6 +911,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1985-03-27',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -855,6 +925,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2023-01-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Tout le bleu du ciel',
@@ -867,6 +938,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2021-01-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Don Quichotte',
@@ -880,6 +952,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1605-01-16',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Faust',
@@ -892,6 +965,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1808-01-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Autant en emporte le vent',
@@ -904,6 +978,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1936-06-30',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 
   {
@@ -917,6 +992,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1706-01-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Anna Karénine',
@@ -929,6 +1005,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1877-01-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "L'espace d'un an",
@@ -941,6 +1018,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2014-07-29',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Princess Bride',
@@ -953,6 +1031,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1973-01-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'La Maison des feuilles',
@@ -965,6 +1044,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2000-03-07',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'La Révoltée',
@@ -977,6 +1057,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1952-01-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "L'impure",
@@ -989,6 +1070,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1956-01-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Il était une fois: Tome 1 : Mon premier baiser',
@@ -1001,6 +1083,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2023-01-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Un raccourci dans le temps',
@@ -1013,6 +1096,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1962-01-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Les voyages de Gulliver',
@@ -1025,6 +1109,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1726-10-28',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "Rien qu'un surhomme",
@@ -1037,6 +1122,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1930-01-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le Souffle de la Hyène',
@@ -1049,6 +1135,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2003-01-01',
     description: '',
+    countryOrigin: 'France',
   },
   {
     title: "Le Journal d'Anne Frank",
@@ -1061,6 +1148,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1947-06-25',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le Procès',
@@ -1073,6 +1161,7 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '1925-01-01',
     description: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Da Vinci Code',
@@ -1085,5 +1174,6 @@ export const baseBooks: BaseBook[] = [
     sagaFinished: false,
     releaseDate: '2003-03-18',
     description: '',
+    countryOrigin: 'États-Unis',
   },
 ];
