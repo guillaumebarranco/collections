@@ -9,6 +9,7 @@ export type MovieView =
   | 'sagas'
   | 'actors'
   | 'directors'
+  | 'countries'
   | 'recommendations';
 export type OptionalMovieView = Exclude<MovieView, 'watched' | 'watchlist'>;
 
@@ -44,6 +45,10 @@ export const moviesSortOptions = (
 
   if (selectedView === 'sagas') {
     return sagasMoviesSortOptions;
+  }
+
+  if (selectedView === 'countries') {
+    return countriesMoviesSortOptions;
   }
 
   return [];
@@ -106,6 +111,26 @@ export const sagasMoviesSortOptions: { value: string; label: string }[] = [
   },
 ];
 
+export const countriesMoviesSortOptions: { value: string; label: string }[] = [
+  { value: 'country-count', label: 'Nombre de films' },
+  {
+    value: 'country-user-rating',
+    label: 'Pays le mieux noté par vous',
+  },
+  {
+    value: 'country-global-rating',
+    label: 'Pays le mieux noté par les utilisateurs',
+  },
+  {
+    value: 'country-seen-count',
+    label: 'Pays avec le plus de films vus par vous',
+  },
+  {
+    value: 'country-rewatched-count',
+    label: 'Pays avec le plus de films revus par vous',
+  },
+];
+
 export const viewedMoviesSortOptions: { value: string; label: string }[] = [
   { value: 'title', label: 'Titre (A-Z)' },
   { value: 'title-desc', label: 'Titre (Z-A)' },
@@ -130,6 +155,7 @@ export const movieViewOptions: { value: MovieView; label: string }[] = [
   { value: 'sagas', label: 'Voir par sagas' },
   { value: 'actors', label: 'Voir par acteurs' },
   { value: 'directors', label: 'Voir par réalisateurs' },
+  { value: 'countries', label: 'Voir par pays' },
   { value: 'recommendations', label: 'Recommandations' },
 ];
 
@@ -239,6 +265,12 @@ export type MoviesByActorGroup = {
 
 export type MoviesByDirectorGroup = {
   director: string;
+  seenMovies: Movie[];
+  missingMovies: Movie[];
+};
+
+export type MoviesByCountryGroup = {
+  country: string;
   seenMovies: Movie[];
   missingMovies: Movie[];
 };
@@ -686,4 +718,132 @@ export const getMoviesByDirector = ({
   });
 
   return filteredGroups.filter((group) => group.seenMovies.length > 1);
+};
+
+export const getMoviesByCountry = ({
+  sortedMovies,
+  allMovies,
+  baseMovies,
+  selectedSort,
+  isAdminView,
+}: {
+  sortedMovies: Movie[];
+  allMovies: Movie[];
+  baseMovies: Movie[];
+  selectedSort: string;
+  isAdminView: boolean;
+}): MoviesByCountryGroup[] => {
+  const countryMap = new Map<string, Movie[]>();
+  for (const movie of sortedMovies) {
+    const countryName = (movie.countryOrigin ?? '').trim();
+    if (!countryName) continue;
+    const list = countryMap.get(countryName) ?? [];
+    list.push(movie);
+    countryMap.set(countryName, list);
+  }
+
+  const seenKeys = new Set(
+    allMovies.map((movie) => getMovieIdentityKey(movie))
+  );
+  const baseByCountry = new Map<string, Movie[]>();
+  for (const movie of baseMovies) {
+    const countryName = (movie.countryOrigin ?? '').trim();
+    if (!countryName) continue;
+    if (seenKeys.has(getMovieIdentityKey(movie))) continue;
+    const list = baseByCountry.get(countryName) ?? [];
+    list.push(movie);
+    baseByCountry.set(countryName, list);
+  }
+
+  const countryGroups = Array.from(countryMap.entries()).map(
+    ([country, seenMovies]) => {
+      const missing = isAdminView
+        ? []
+        : getSortedMovies(
+              [...(baseByCountry.get(country) ?? [])],
+              'releaseDate-asc'
+            );
+      return {
+        country,
+        seenMovies: getSortedMovies(seenMovies, 'releaseDate-asc'),
+        missingMovies: missing,
+      };
+    }
+  );
+
+  const filteredCountryGroups =
+    selectedSort === 'country-user-rating' ||
+    selectedSort === 'country-global-rating'
+      ? countryGroups.filter((group) => {
+          const ratedMovies = group.seenMovies.filter(
+            (movie) => movie.rating && movie.rating > 0
+          );
+          return ratedMovies.length >= 5;
+        })
+      : countryGroups.filter(
+          (group) =>
+            group.seenMovies.length + group.missingMovies.length > 3
+        );
+
+  filteredCountryGroups.sort((a, b) => {
+    switch (selectedSort) {
+      case 'country-count': {
+        const countA = a.seenMovies.length + a.missingMovies.length;
+        const countB = b.seenMovies.length + b.missingMovies.length;
+        if (countB !== countA) {
+          return countB - countA;
+        }
+        return a.country.localeCompare(b.country);
+      }
+      case 'country-user-rating':
+      case 'country-global-rating': {
+        const ratedMoviesA = a.seenMovies.filter(
+          (movie) => movie.rating && movie.rating > 0
+        );
+        const ratedMoviesB = b.seenMovies.filter(
+          (movie) => movie.rating && movie.rating > 0
+        );
+        const avgRatingA =
+          ratedMoviesA.reduce((sum, movie) => sum + (movie.rating || 0), 0) /
+          (ratedMoviesA.length || 1);
+        const avgRatingB =
+          ratedMoviesB.reduce((sum, movie) => sum + (movie.rating || 0), 0) /
+          (ratedMoviesB.length || 1);
+        if (Math.abs(avgRatingB - avgRatingA) > 0.01) {
+          return avgRatingB - avgRatingA;
+        }
+        return a.country.localeCompare(b.country);
+      }
+      case 'country-seen-count': {
+        const countA = a.seenMovies.length;
+        const countB = b.seenMovies.length;
+        if (countB !== countA) {
+          return countB - countA;
+        }
+        return a.country.localeCompare(b.country);
+      }
+      case 'country-rewatched-count': {
+        const rewatchedCountA = a.seenMovies.filter(
+          (movie) => movie.timesWatched && movie.timesWatched > 1
+        ).length;
+        const rewatchedCountB = b.seenMovies.filter(
+          (movie) => movie.timesWatched && movie.timesWatched > 1
+        ).length;
+        if (rewatchedCountB !== rewatchedCountA) {
+          return rewatchedCountB - rewatchedCountA;
+        }
+        return a.country.localeCompare(b.country);
+      }
+      default: {
+        const countA = a.seenMovies.length + a.missingMovies.length;
+        const countB = b.seenMovies.length + b.missingMovies.length;
+        if (countB !== countA) {
+          return countB - countA;
+        }
+        return a.country.localeCompare(b.country);
+      }
+    }
+  });
+
+  return filteredCountryGroups;
 };

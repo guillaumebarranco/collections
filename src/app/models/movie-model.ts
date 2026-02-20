@@ -1,3 +1,5 @@
+import { Country } from './countries.enum';
+
 export interface MandatoryMovieData {
   title: string;
   director: string;
@@ -13,6 +15,7 @@ export interface BaseMovie extends MandatoryMovieData {
   genre: string;
   saga: string;
   description: string;
+  countryOrigin: Country;
 }
 
 export interface UserMovie extends MandatoryMovieData {

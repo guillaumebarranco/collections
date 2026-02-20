@@ -220,6 +220,7 @@ export const getMovieDataFromUserMovieAndBaseMovie = (
   wantToSeeAgain: userMovie.wantToSeeAgain,
   watchPriority: userMovie.watchPriority,
   description: baseMovie?.description ?? '',
+  countryOrigin: baseMovie?.countryOrigin ?? '',
   ratingComment: userMovie.ratingComment ?? '',
 });
 

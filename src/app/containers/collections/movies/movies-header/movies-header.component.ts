@@ -64,6 +64,8 @@ export class MoviesHeaderComponent {
       ? 'Films par acteur'
       : this.selectedView() === 'directors'
       ? 'Films par réalisateur'
+      : this.selectedView() === 'countries'
+      ? 'Films par pays'
       : this.selectedView() === 'recommendations'
       ? 'Recommandations'
       : this.selectedView() === 'owned'

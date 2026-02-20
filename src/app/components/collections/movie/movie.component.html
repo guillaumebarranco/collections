@@ -86,11 +86,11 @@
     <p class="movie-description">{{ movie.description }}</p>
     } @if (movie.timesWatched && movie.timesWatched > 1 && !isBaseEntityView) {
     <p class="movie-times-watched">🎬 Visionné {{ movie.timesWatched }} fois</p>
-    } @if(movie.timesWatched === 1) {
+    } @if(movie.timesWatched === 1 && movie.firstViewedDate) {
     <p class="movie-times-watched">
       Vu le {{ movie.firstViewedDate | date : "dd/MM/yyyy" }}
     </p>
-    } @if(movie.timesWatched > 1) {
+    } @if(movie.timesWatched > 1 && movie.lastViewedDate) {
     <p class="movie-times-watched">
       Dernier visionnage le
       {{ movie.lastViewedDate | date : "dd/MM/yyyy" }}

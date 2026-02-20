@@ -42,6 +42,7 @@ type EditMovieEntityForm = {
   genre: string;
   saga: string;
   description: string;
+  countryOrigin: string;
 };
 
 type EditMovieDialogData = {
@@ -446,6 +447,7 @@ export class EditMovieComponent {
       genre: movie.genre,
       saga: movie.saga || '',
       description: movie.description ?? '',
+      countryOrigin: movie.countryOrigin ?? '',
     };
   }
 
@@ -462,6 +464,7 @@ export class EditMovieComponent {
       genre: form.genre,
       saga: form.saga,
       description: form.description ?? '',
+      countryOrigin: form.countryOrigin ?? '',
     };
   }
 

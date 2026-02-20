@@ -98,6 +98,18 @@
           name="saga"
         />
       </div>
+
+      <div class="form-row">
+        <label for="countryOrigin">Nationalité du film</label>
+        <input
+          id="countryOrigin"
+          type="text"
+          [ngModel]="entityForm().countryOrigin"
+          (ngModelChange)="updateEntityField('countryOrigin', $event)"
+          name="countryOrigin"
+          placeholder="ex. France, États-Unis"
+        />
+      </div>
     </section>
 
     @if(getUserId() !== 'admin') {

@@ -11,6 +11,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Pixar',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Blanche-Neige et les Sept Nains',
@@ -22,6 +23,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Fantasy',
     saga: 'Disney Classique',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Cendrillon',
@@ -33,6 +35,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Romance',
     saga: 'Disney Classique',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Pierre et le Loup',
@@ -44,6 +47,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Short',
     saga: 'Disney Classique',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Les Trois Caballeros',
@@ -56,6 +60,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Musical',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Saludos Amigos',
@@ -68,6 +73,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Musical',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Bambi',
@@ -79,6 +85,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Drama',
     saga: 'Disney Classique',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Dumbo',
@@ -90,6 +97,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Family',
     saga: 'Disney Classique',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Fantasia',
@@ -108,6 +116,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Musical',
     saga: 'Disney Classique',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Alice au pays des merveilles',
@@ -119,6 +128,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Fantasy',
     saga: 'Disney Classique',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'La Belle au bois dormant',
@@ -130,6 +140,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Fantasy',
     saga: 'Disney Classique',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'La Belle et le Clochard',
@@ -141,6 +152,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Romance',
     saga: 'Disney Classique',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Le Livre de la jungle',
@@ -152,6 +164,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Disney Classique',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Nausicaä de la Vallée du Vent',
@@ -163,6 +176,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Le Château dans le ciel',
@@ -174,6 +188,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Ghibli',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Oliver et Compagnie',
@@ -185,6 +200,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Le Tombeau des lucioles',
@@ -196,6 +212,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, War',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Mon voisin Totoro',
@@ -214,6 +231,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation',
     saga: 'Ghibli',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Kiki la petite sorcière',
@@ -225,6 +243,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Fantasy',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: "L'Étrange Noël de monsieur Jack",
@@ -236,6 +255,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Fantasy',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Le retour de Jafar',
@@ -247,6 +267,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Fantasy',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Le Bossu de Notre-Dame',
@@ -258,6 +279,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Musical',
     saga: 'Disney Classique',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'James et la Pêche géante',
@@ -269,6 +291,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Les 101 Dalmatiens',
@@ -280,6 +303,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Family, Comedy',
     saga: 'Disney Classique',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Anastasia',
@@ -291,6 +315,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Le Monde magique de la Belle et la Bête',
@@ -302,6 +327,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Fantasy',
     saga: 'Disney Classique',
     description: '',
+    countryOrigin: '',
   },
   {
     title: "Le Prince d'Égypte",
@@ -313,6 +339,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: '1001 Pattes',
@@ -324,6 +351,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Pixar',
     description: '',
+    countryOrigin: '',
   },
   {
     title: "Le Roi Lion 2 : L'Honneur de la tribu",
@@ -335,6 +363,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Musical',
     saga: 'Disney Classique',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Pocahontas 2 : Un monde nouveau',
@@ -346,6 +375,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Dinosaure',
@@ -357,6 +387,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Disney Classique',
     description: '',
+    countryOrigin: '',
   },
   {
     title: "La Route d'Eldorado",
@@ -368,6 +399,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: "La Petite Sirène 2 : Retour à l'océan",
@@ -379,6 +411,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Family',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Fantasia 2000',
@@ -390,6 +423,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Musical',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Chicken Run',
@@ -401,6 +435,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: "Kuzco, l'Empereur mégalo",
@@ -412,6 +447,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Comedy',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: "Atlantis : L'Empire perdu",
@@ -423,6 +459,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Disney Classique',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Le Voyage de Chihiro',
@@ -434,6 +471,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Fantasy',
     saga: 'Ghibli',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Le Royaume des chats',
@@ -445,6 +483,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Fantasy',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Lilo et Stitch',
@@ -456,6 +495,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Comedy',
     saga: 'Disney Classique',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'La Planète au trésor',
@@ -467,6 +507,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Disney Classique',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Frère des ours',
@@ -478,6 +519,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Disney Classique',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Mickey, Donald, Dingo : Les Trois Mousquetaires',
@@ -490,6 +532,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Mulan 2',
@@ -501,6 +544,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Family',
     saga: 'Disney Classique',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Les Noces funèbres',
@@ -519,6 +563,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Madagascar',
@@ -530,6 +575,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Madagascar',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Happy Feet',
@@ -542,6 +588,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Musical',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Bolt',
@@ -553,6 +600,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Disney Classique',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Madagascar 2',
@@ -564,6 +612,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Comedy',
     saga: 'Madagascar',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Ponyo',
@@ -575,6 +624,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Fantasy',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Là-haut',
@@ -586,6 +636,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Pixar',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Coraline',
@@ -597,6 +648,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Fantasy',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
 
   {
@@ -609,6 +661,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Fantasy',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Rio',
@@ -620,6 +673,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Rango',
@@ -631,6 +685,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Raiponce',
@@ -652,6 +707,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation',
     saga: 'Disney Classique',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Kung Fu Panda 2',
@@ -663,6 +719,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Action',
     saga: 'Kung Fu Panda',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Le Chat Potté',
@@ -674,6 +731,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Shrek',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Hôtel Transylvanie',
@@ -685,6 +743,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Comedy',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Monsters University',
@@ -696,6 +755,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Comedy',
     saga: 'Pixar',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'The Lego Movie',
@@ -707,6 +767,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Lego',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Zootopie',
@@ -718,6 +779,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Disney Classique',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Piper',
@@ -729,6 +791,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Short',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'La Reine des neiges 2',
@@ -740,6 +803,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Fantasy',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Klaus',
@@ -751,6 +815,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Le Chat Potté 2 : La Dernière Quête',
@@ -767,6 +832,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation',
     saga: 'Shrek',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Coco',
@@ -778,6 +844,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Bubble',
@@ -789,6 +856,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Vice-Versa 2',
@@ -800,6 +868,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation',
     saga: 'Pixar',
     description: '',
+    countryOrigin: '',
   },
   {
     title: 'Arco',
@@ -818,5 +887,6 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation',
     saga: '',
     description: '',
+    countryOrigin: '',
   },
 ];

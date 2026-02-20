@@ -48,6 +48,7 @@ import {
   getMoviesByActor,
   getMoviesByDirector,
   getMoviesBySaga,
+  getMoviesByCountry,
 } from './movies.utils';
 import { getApiBaseUrl } from '../../../core/config';
 import { MoviesHeaderComponent } from './movies-header/movies-header.component';
@@ -110,6 +111,7 @@ export class MoviesComponent implements OnInit {
     sagas: true,
     actors: false,
     directors: false,
+    countries: false,
     recommendations: false,
   });
 
@@ -219,7 +221,8 @@ export class MoviesComponent implements OnInit {
             option.value === 'watched' ||
             option.value === 'sagas' ||
             option.value === 'actors' ||
-            option.value === 'directors'
+            option.value === 'directors' ||
+            option.value === 'countries'
         )
       : this.movieViewOptions.filter((option) =>
           this.isViewOptionVisible(option.value)
@@ -277,6 +280,7 @@ export class MoviesComponent implements OnInit {
       this.selectedView() === 'sagas' ||
       this.selectedView() === 'actors' ||
       this.selectedView() === 'directors' ||
+      this.selectedView() === 'countries' ||
       this.selectedView() === 'recommendations'
     ) {
       movies = this.allMovies();
@@ -315,7 +319,8 @@ export class MoviesComponent implements OnInit {
     } else if (
       this.selectedView() === 'sagas' ||
       this.selectedView() === 'actors' ||
-      this.selectedView() === 'directors'
+      this.selectedView() === 'directors' ||
+      this.selectedView() === 'countries'
     ) {
       if (this.selectedYearFilter() !== 'all') {
         if (allYearsSince2000.includes(Number(this.selectedYearFilter()))) {
@@ -360,6 +365,7 @@ export class MoviesComponent implements OnInit {
   collapsedSagas = signal<Record<string, boolean>>({});
   collapsedActors = signal<Record<string, boolean>>({});
   collapsedDirectors = signal<Record<string, boolean>>({});
+  collapsedCountries = signal<Record<string, boolean>>({});
   recommendations = signal<RecommendedMovie[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
   recommendationsUserId = signal<string>('');
@@ -416,6 +422,7 @@ export class MoviesComponent implements OnInit {
       queryParams['view'] === 'sagas' ||
       queryParams['view'] === 'actors' ||
       queryParams['view'] === 'directors' ||
+      queryParams['view'] === 'countries' ||
       queryParams['view'] === 'recommendations'
     ) {
       this.selectedView.set(queryParams['view'] as MovieView);
@@ -520,6 +527,8 @@ export class MoviesComponent implements OnInit {
       this.selectedSort.set('director-count');
     } else if (view === 'sagas') {
       this.selectedSort.set('saga-count');
+    } else if (view === 'countries') {
+      this.selectedSort.set('country-count');
     } else {
       // Pour watchlist, recommendations : pas de tri ou tri par défaut
       this.selectedSort.set('title');
@@ -663,6 +672,17 @@ export class MoviesComponent implements OnInit {
     return Boolean(this.collapsedDirectors()[director]);
   }
 
+  toggleCountry(country: string) {
+    this.collapsedCountries.update((current) => ({
+      ...current,
+      [country]: !current[country],
+    }));
+  }
+
+  isCountryCollapsed(country: string): boolean {
+    return Boolean(this.collapsedCountries()[country]);
+  }
+
   openQuizzModal(quizzs: Quizz[]) {
     if (!quizzs || quizzs.length === 0) return;
     this.activeQuizzs.set(quizzs);
@@ -682,6 +702,7 @@ export class MoviesComponent implements OnInit {
       actors,
       movie.genre,
       movie.saga,
+      movie.countryOrigin ?? '',
     ]
       .filter(Boolean)
       .join(' ');
@@ -709,6 +730,19 @@ export class MoviesComponent implements OnInit {
       return [];
     }
     return getMoviesByDirector({
+      sortedMovies: this.sortedMovies(),
+      allMovies: this.allMovies(),
+      baseMovies: this.baseMoviesList(),
+      selectedSort: this.selectedSort(),
+      isAdminView: this.isAdminView(),
+    });
+  });
+
+  moviesByCountry = computed(() => {
+    if (this.selectedView() !== 'countries') {
+      return [];
+    }
+    return getMoviesByCountry({
       sortedMovies: this.sortedMovies(),
       allMovies: this.allMovies(),
       baseMovies: this.baseMoviesList(),
@@ -777,6 +811,7 @@ export class MoviesComponent implements OnInit {
       sagas: parsed.sagas ?? true,
       actors: parsed.actors ?? false,
       directors: parsed.directors ?? false,
+      countries: parsed.countries ?? false,
       recommendations: parsed.recommendations ?? false,
       toReWatch: parsed.toReWatch ?? true,
     });

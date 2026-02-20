@@ -15,6 +15,7 @@ type AddMovieEntityForm = {
   genre: string;
   saga: string;
   description: string;
+  countryOrigin: string;
 };
 
 type AddMovieUserForm = {
@@ -60,6 +61,7 @@ export class AddMovieComponent {
     genre: '',
     saga: '',
     description: '',
+    countryOrigin: '',
   });
 
   userForm = signal<AddMovieUserForm>({

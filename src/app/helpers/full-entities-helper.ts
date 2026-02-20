@@ -120,6 +120,7 @@ export const getFullMovie = (movie: BaseMovie): Movie => ({
   genre: movie.genre,
   saga: movie.saga,
   actors: movie.actors,
+  countryOrigin: movie.countryOrigin ?? '',
   rating: 0,
   timesWatched: 0,
   firstViewedDate: '',

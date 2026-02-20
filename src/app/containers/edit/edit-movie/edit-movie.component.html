@@ -26,8 +26,10 @@
       <p><strong>Réalisateur :</strong> {{ movie()?.director }}</p>
       @if (movie()?.genre) {
       <p><strong>Genre :</strong> {{ movie()?.genre }}</p>
-      } @if (movie()?.saga) {
+      }       @if (movie()?.saga) {
       <p><strong>Saga :</strong> {{ movie()?.saga }}</p>
+      } @if (movie()?.countryOrigin) {
+      <p><strong>Nationalité :</strong> {{ movie()?.countryOrigin }}</p>
       } @if (movie()?.releaseDate) {
       <p><strong>Date de sortie :</strong> {{ movie()?.releaseDate }}</p>
       } @if (movie()?.length) {
@@ -245,6 +247,18 @@
         [ngModel]="movieEntityForm()?.saga"
         (ngModelChange)="updateEntityField('saga', $event)"
         name="entitySaga"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityCountryOrigin">Nationalité du film</label>
+      <input
+        id="entityCountryOrigin"
+        type="text"
+        [ngModel]="movieEntityForm()?.countryOrigin"
+        (ngModelChange)="updateEntityField('countryOrigin', $event)"
+        name="entityCountryOrigin"
+        placeholder="ex. France, États-Unis"
       />
     </div>
 
