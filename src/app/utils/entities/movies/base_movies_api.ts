@@ -21,9 +21,8 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Drame',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'The Rip',
     director: 'Joe Carnahan',
@@ -44,9 +43,8 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Greenland - Le Dernier Refuge',
     director: 'Ric Roman Waugh',
@@ -67,9 +65,8 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Catastrophe',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'La Cité de Dieu',
     director: 'Fernando Meirelles, Kátia Lund',
@@ -93,9 +90,8 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Drame',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'Brésil',
   },
-
   {
     title: 'Gourou',
     director: 'Yann Gozlan',
@@ -113,9 +109,8 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'France',
   },
-
   {
     title: '28 ans plus tard',
     director: 'Danny Boyle',
@@ -136,9 +131,8 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Horreur',
     saga: '28... plus tard',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'Royaume-Uni',
   },
-
   {
     title: "L'Amour, c'est surcoté ",
     director: 'Mourad Winter',
@@ -156,9 +150,8 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Comédie romantique',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'France',
   },
-
   {
     title:
       "Le Seigneur des Anneaux - La Communauté de l'Anneau - Version Longue",
@@ -180,9 +173,8 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Fantasy',
     saga: 'Tolkien',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'Nouvelle-Zélande',
   },
-
   {
     title: 'Le Seigneur des Anneaux - Les Deux Tours - Version Longue',
     director: 'Peter Jackson',
@@ -203,9 +195,8 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Fantasy',
     saga: 'Tolkien',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'Nouvelle-Zélande',
   },
-
   {
     title: 'Le Seigneur des Anneaux - Le Retour du Roi - Version Longue',
     director: 'Peter Jackson',
@@ -226,7 +217,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Fantasy',
     saga: 'Tolkien',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'Nouvelle-Zélande',
   },
   {
     title: 'Sonic 2, le film',
@@ -245,9 +236,8 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Aventure, Famille',
     saga: 'Sonic',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Avignon',
     director: 'Johann Dionnet',
@@ -268,7 +258,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Comédie',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Sonic 3, le film',
@@ -293,9 +283,8 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Aventure, Famille',
     saga: 'Sonic',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: "N'oublie Jamais",
     director: 'Nick Cassavetes',
@@ -316,9 +305,8 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Comédie romantique',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'KPop Demon Hunters',
     director: 'Maggie Kang, Chris Appelhans',
@@ -342,9 +330,8 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Animation',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Wedding Daze',
     director: 'Michael Ian Black',
@@ -355,9 +342,8 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: '',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: "O'Brother",
     director: 'Ethan Coen, Joel Coen',
@@ -379,9 +365,8 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Comédie, Policier',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Bugonia',
     director: 'Yórgos Lánthimos',
@@ -400,9 +385,8 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Marsupilami',
     director: 'Philippe Lacheau',
@@ -433,9 +417,8 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Comédie',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'France',
   },
-
   {
     title: 'Kraven the Hunter',
     director: 'J.C Chandor',
@@ -463,9 +446,8 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Nope',
     director: 'Jordan Peele',
@@ -487,9 +469,8 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Science Fiction, Horreur',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: "L'Auberge Espagnol",
     director: 'Cédric Klapisch',
@@ -511,9 +492,8 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Comédie ',
     saga: 'Trilogie Cédric Klapisch',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'France',
   },
-
   {
     title: 'Hamnet',
     director: 'Chloé Zhao',
@@ -532,9 +512,8 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Drame',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'Royaume-Uni',
   },
-
   {
     title: 'Hannah Montana - Le Film',
     director: 'Peter Chelsom',
@@ -556,9 +535,8 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Comédie musicale',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Les Poupées Russes',
     director: 'Cédric Klapisch',
@@ -583,9 +561,8 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Comédie',
     saga: 'Trilogie Cédric Klapisch',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'France',
   },
-
   {
     title: 'Le Coursier',
     director: 'Hervé Renoh',
@@ -612,6 +589,146 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Comédie',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'France',
+  },
+  {
+    title: 'Un prophète',
+    director: 'Jacques Audiard',
+    actors: [
+      { name: 'Tahar Rahim' },
+      { name: 'Niels Arestrup' },
+      { name: 'Adel Bencherif' },
+    ],
+    coverUrl: '/movies_pictures/19138702.webp',
+    releaseDate: '2009-08-26',
+    length: 155,
+    genre: 'Drame, Thriller',
+    saga: '',
+    description: '',
+    countryOrigin: 'France',
+  },
+  {
+    title: 'Grave',
+    director: 'Julia Ducournau',
+    actors: [
+      { name: 'Garance Marillier' },
+      { name: 'Ella Rumpf' },
+      { name: 'Rabah Nait Oufella' },
+    ],
+    coverUrl: '/movies_pictures/538324.jpg',
+    releaseDate: '2016-09-14',
+    length: 99,
+    genre: 'Horreur, Drame',
+    saga: '',
+    description: '',
+    countryOrigin: 'France',
+  },
+  {
+    title: 'Les Sous-doués',
+    director: 'Claude Zidi',
+    actors: [
+      { name: 'Daniel Auteuil' },
+      { name: 'Gérard Jugnot' },
+      { name: 'Marie-Anne Chazel' },
+      { name: 'Dominique Lavanant' },
+    ],
+    coverUrl: '/movies_pictures/les_sous_doues.jpg',
+    releaseDate: '1980-01-23',
+    length: 100,
+    genre: 'Comédie',
+    saga: '',
+    description: '',
+    countryOrigin: 'France',
+  },
+  {
+    title: 'Case départ',
+    director: "Lionel Steketee, Fabrice Éboué, Thomas N'Gijol",
+    actors: [
+      { name: 'Fabrice Éboué' },
+      { name: "Thomas N'Gijol" },
+      { name: 'Émilie Caen' },
+      { name: 'Noom Diawara' },
+    ],
+    coverUrl: '/movies_pictures/19760131.jpg',
+    releaseDate: '2011-07-06',
+    length: 94,
+    genre: 'Comédie',
+    saga: '',
+    description: '',
+    countryOrigin: 'France',
+  },
+  {
+    title: 'Monty Python - Sacré Graal !',
+    director: 'Terry Gilliam, Terry Jones',
+    actors: [
+      { name: 'Graham Chapman' },
+      { name: 'John Cleese' },
+      { name: 'Terry Gilliam' },
+      { name: 'Eric Idle' },
+      { name: 'Terry Jones' },
+      { name: 'Michael Palin' },
+    ],
+    coverUrl: 'https://m.media-amazon.com/images/M/MV5BN2IyNTE4YzUtMzlkMC00NTg2LWEwNzktMTAzNTc3ODk4OTE5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '1975-05-25',
+    length: 91,
+    genre: 'Comédie',
+    saga: 'Monty Python',
+    description: '',
+    countryOrigin: 'Royaume-Uni',
+  },
+  {
+    title: 'Orange mécanique',
+    director: 'Stanley Kubrick',
+    actors: [
+      { name: 'Malcolm McDowell' },
+      { name: 'Patrick Magee' },
+      { name: 'Michael Bates' },
+      { name: 'Warren Clarke' },
+      { name: 'Adrienne Corri' },
+    ],
+    coverUrl: 'https://m.media-amazon.com/images/M/MV5BMTY3MjM1Mzc4N15BMl5BanBnXkFtZTgwODM0NzAxMDE@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '1971-12-19',
+    length: 136,
+    genre: 'Science Fiction, Drame',
+    saga: '',
+    description: '',
+    countryOrigin: 'Royaume-Uni',
+  },
+  {
+    title: 'Arnaques, crimes & botanique',
+    director: 'Guy Ritchie',
+    actors: [
+      { name: 'Jason Flemyng' },
+      { name: 'Dexter Fletcher' },
+      { name: 'Nick Moran' },
+      { name: 'Jason Statham' },
+      { name: 'Vinnie Jones' },
+    ],
+    coverUrl: 'https://m.media-amazon.com/images/M/MV5BMTAyN2JmZmEtNjAyMy00NzYwLThmY2MtYWQ3OGNhNjExMmM4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '1998-08-28',
+    length: 107,
+    genre: 'Comédie, Thriller, Crime',
+    saga: '',
+    description: '',
+    countryOrigin: 'Royaume-Uni',
+  },
+  {
+    title: 'Le Dernier Pub avant la fin du monde',
+    director: 'Edgar Wright',
+    actors: [
+      { name: 'Simon Pegg' },
+      { name: 'Nick Frost' },
+      { name: 'Martin Freeman' },
+      { name: 'Paddy Considine' },
+      { name: 'Eddie Marsan' },
+      { name: 'Rosamund Pike' },
+    ],
+    coverUrl: 'https://m.media-amazon.com/images/M/MV5BNzM2MDk3MTcyMV5BMl5BanBnXkFtZTcwNDg0OTI0OQ@@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2013-07-19',
+    length: 109,
+    genre: 'Comédie, Science Fiction',
+    saga: 'Trilogie Cornetto',
+    description: '',
+    countryOrigin: 'Royaume-Uni',
   },
 ];

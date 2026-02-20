@@ -19,7 +19,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'France',
   },
   {
     title: 'The Princess Switch',
@@ -36,7 +36,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Petits coups montés',
@@ -52,7 +52,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The life list',
@@ -68,7 +68,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Champagne Problems',
@@ -87,7 +87,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'People We Meet on Vacation',
@@ -106,7 +106,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Tout le Bleu du Ciel',
@@ -123,7 +123,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Nos coeurs meurtris',
@@ -139,7 +139,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Au plaisir de se faire trahir',
@@ -155,7 +155,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "La Probabilité statistique de l'amour au premier regard",
@@ -171,7 +171,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Ce sera toi',
@@ -187,7 +187,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Hello, goodbye and everything in between',
@@ -204,7 +204,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Un Accord Parfait',
@@ -220,7 +220,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The In-between',
@@ -236,7 +236,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'À Travers Ma Fenêtre',
@@ -252,7 +252,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Love Hard',
@@ -268,7 +268,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "L'Amour complexe",
@@ -284,7 +284,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'La Belle et la Bête',
@@ -297,7 +297,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Fantasy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Un choix',
@@ -309,7 +309,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "L'agence",
@@ -322,7 +322,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Un jour',
@@ -334,7 +334,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Sex Friends',
@@ -347,7 +347,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Love & autres drogues',
@@ -359,7 +359,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Sexy Dance',
@@ -371,7 +371,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Drama',
     saga: 'Sexy Dance',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Sexy Dance 2',
@@ -383,7 +383,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Drama',
     saga: 'Sexy Dance',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Sexy Dance 3D',
@@ -395,7 +395,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Drama',
     saga: 'Sexy Dance',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Sexy Dance 4 : Miami Heat',
@@ -417,7 +417,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Drame',
     saga: 'Sexy Dance',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "L'Arnacœur",
@@ -429,7 +429,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'France',
   },
   {
     title: 'Remember Me',
@@ -441,7 +441,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "Valentine's Day",
@@ -453,7 +453,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'La proposition',
@@ -465,7 +465,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: '17 ans encore',
@@ -477,7 +477,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: '(500) Jours Ensemble',
@@ -489,7 +489,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Jackpot',
@@ -502,7 +502,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Juno',
@@ -514,7 +514,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Orgueil et Préjugés',
@@ -526,7 +526,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Match Point',
@@ -538,7 +538,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Hitch : Expert en Séduction',
@@ -554,7 +554,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'First Daughter',
@@ -566,7 +566,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Eternal Sunshine of the Spotless Mind',
@@ -578,7 +578,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The Girl Next Door',
@@ -591,7 +591,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Amour & Amnésie',
@@ -603,7 +603,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Love Actually',
@@ -620,7 +620,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: "Le temps d'un automne",
@@ -632,7 +632,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Pearl Harbor',
@@ -648,7 +648,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Ce que Veulent les Femmes',
@@ -660,7 +660,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Coup de foudre à Notting Hill',
@@ -672,7 +672,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Rencontre avec Joe Black',
@@ -684,7 +684,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Pretty Woman',
@@ -696,7 +696,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "L'Amour puissance mille",
@@ -712,7 +712,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'La La Land',
@@ -724,7 +724,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "L'amour ouf",
@@ -744,7 +744,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance, Drame',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The Princess Switch : Switched Again',
@@ -761,7 +761,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Holidate',
@@ -777,7 +777,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Rich in Love',
@@ -793,7 +793,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Isi & Ossi',
@@ -809,7 +809,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Last Christmas',
@@ -825,7 +825,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: '40 jours et 40 nuits',
@@ -837,7 +837,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Coup de foudre à Manhattan',
@@ -856,7 +856,7 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Love again: un peu, beaucoup, passionnément',
@@ -878,6 +878,6 @@ export const baseMoviesLove: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
 ];

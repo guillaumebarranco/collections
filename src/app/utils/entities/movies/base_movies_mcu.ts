@@ -33,7 +33,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "Avengers : L'Ère d'Ultron",
@@ -68,7 +68,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Avengers: Infinity War',
@@ -115,7 +115,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Avengers: Endgame',
@@ -158,7 +158,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Captain America : First Avenger',
@@ -175,7 +175,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "Captain America : Le Soldat de l'Hiver",
@@ -194,7 +194,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Captain America : Civil War',
@@ -226,7 +226,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Captain America: Brave New World',
@@ -245,7 +245,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Iron Man',
@@ -267,7 +267,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Iron Man 2',
@@ -298,7 +298,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Iron Man 3',
@@ -314,7 +314,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "L'Incroyable Hulk",
@@ -333,7 +333,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Thor',
@@ -355,7 +355,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Thor: The Dark World',
@@ -375,7 +375,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Thor: Ragnarok',
@@ -394,7 +394,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Thor : Love & Thunder',
@@ -417,7 +417,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Captain Marvel',
@@ -436,7 +436,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Les Marvels',
@@ -452,7 +452,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Shang-Chi et la Légende des Dix Anneaux',
@@ -469,7 +469,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Doctor Strange',
@@ -481,7 +481,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Doctor Strange dans le Multivers de la Folie',
@@ -498,7 +498,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Black Panther',
@@ -520,7 +520,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Black Panther : Wakanda pour Toujours',
@@ -537,7 +537,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Les Gardiens de la Galaxie',
@@ -560,7 +560,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Les Gardiens de la Galaxie Vol. 2',
@@ -585,7 +585,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Les Gardiens de la Galaxie Vol. 3',
@@ -611,7 +611,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Ant-Man',
@@ -633,7 +633,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Ant-Man et la Guêpe',
@@ -656,7 +656,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Ant-Man et la Guêpe : Quantumania',
@@ -679,7 +679,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Spider-Man: Homecoming',
@@ -702,7 +702,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Spider-Man: Far From Home',
@@ -728,7 +728,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Spider-Man : No Way Home',
@@ -751,7 +751,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Black Widow',
@@ -767,7 +767,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Les Éternels',
@@ -789,7 +789,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Deadpool et Wolverine',
@@ -808,6 +808,6 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
 ];

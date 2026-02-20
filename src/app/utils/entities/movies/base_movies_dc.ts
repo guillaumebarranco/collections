@@ -11,7 +11,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Batman',
@@ -23,7 +23,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'Batman',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Batman Returns',
@@ -40,7 +40,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'Batman',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Batman Forever',
@@ -62,7 +62,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'Batman',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Batman & Robin',
@@ -81,7 +81,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'Batman',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Batman Begins',
@@ -112,7 +112,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'The Dark Knight',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The Dark Knight : Le Chevalier Noir',
@@ -140,7 +140,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'The Dark Knight',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The Dark Knight Rises',
@@ -172,7 +172,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'The Dark Knight',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The Batman',
@@ -191,7 +191,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "Batman v Superman : L'Aube de la Justice",
@@ -222,7 +222,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'DCEU',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Shazam!',
@@ -238,7 +238,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'DCEU',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Aquaman',
@@ -254,7 +254,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'DCEU',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Black Adam',
@@ -273,7 +273,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'DCEU',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "Zack Snyder's Justice League",
@@ -302,7 +302,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'DCEU',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Suicide Squad',
@@ -321,7 +321,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'DCEU',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Man of Steel',
@@ -349,7 +349,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'DCEU',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Superman',
@@ -371,7 +371,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'DCU',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Watchmen : Les Gardiens',
@@ -383,7 +383,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Catwoman',
@@ -395,7 +395,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Wonder Woman',
@@ -411,7 +411,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'DCEU',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Wonder Woman 1984',
@@ -427,7 +427,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'DCEU',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The Flash',
@@ -443,7 +443,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'DCEU',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Birds of Prey',
@@ -460,6 +460,6 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'DCEU',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
 ];

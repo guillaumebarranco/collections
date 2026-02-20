@@ -16,7 +16,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Horror, Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Wicked',
@@ -28,7 +28,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Musical, Fantasy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Wonka',
@@ -47,9 +47,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Family',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'La Petite Sirène',
     director: 'Rob Marshall',
@@ -60,7 +59,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Musical, Fantasy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "Donjons & Dragons : L'Honneur des voleurs",
@@ -73,7 +72,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Adventure',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Il était une fois 2',
@@ -85,7 +84,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Comedy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Pinocchio',
@@ -101,7 +100,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Blonde',
@@ -113,7 +112,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Drama, Biography',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Elvis',
@@ -125,7 +124,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Drama, Musical',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Downton Abbey II : Une nouvelle ère',
@@ -137,7 +136,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Morbius',
@@ -149,7 +148,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Action, Horror',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Mort sur le Nil',
@@ -161,9 +160,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Mystery, Crime',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'West Side Story',
     director: 'Steven Spielberg',
@@ -174,7 +172,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Musical, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Cendrillon',
@@ -186,7 +184,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Musical, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "He's All That",
@@ -198,7 +196,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "S.O.S. Fantômes : L'Héritage",
@@ -210,7 +208,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Comedy',
     saga: 'Ghostbusters',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Jungle Cruise',
@@ -222,7 +220,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Adventure, Fantasy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Old',
@@ -234,9 +232,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Thriller, Mystery',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Cruella',
     director: 'Craig Gillespie',
@@ -247,7 +244,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Crime, Comedy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'À tous les garçons : Pour toujours et à jamais',
@@ -259,7 +256,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Romance, Comedy',
     saga: 'A Tous les Garçons',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Sacrées sorcières',
@@ -271,7 +268,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Comedy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: '2 Hearts',
@@ -283,7 +280,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Drama, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Rebecca',
@@ -295,7 +292,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Romance, Thriller',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The Kissing Booth 2',
@@ -307,7 +304,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Romance, Comedy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Hollywood',
@@ -320,7 +317,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Love Wedding Repeat',
@@ -332,7 +329,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Emma.',
@@ -344,7 +341,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "À tous les garçons : P.S. Je t'aime toujours",
@@ -356,7 +353,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Romance, Comedy',
     saga: 'A Tous les Garçons',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: '1917',
@@ -376,7 +373,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'War, Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The Gentlemen',
@@ -388,7 +385,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Crime, Action',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'La Belle et le Clochard',
@@ -400,9 +397,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Romance, Family',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Maléfique : Le Pouvoir du Mal',
     director: 'Joachim Rønning',
@@ -413,7 +409,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Adventure',
     saga: 'Disney Live Action',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The King',
@@ -426,7 +422,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Historical, Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Parasite',
@@ -445,7 +441,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Thriller, Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'Corée du Sud',
   },
   {
     title: 'Rocketman',
@@ -457,7 +453,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Biography, Musical',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Pokémon : Détective Pikachu',
@@ -469,7 +465,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Mystery, Adventure',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Dumbo',
@@ -481,7 +477,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Family',
     saga: 'Disney Live Action',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le Retour de Mary Poppins',
@@ -493,7 +489,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Musical',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Bohemian Rhapsody',
@@ -505,7 +501,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Biography, Music',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Mamma Mia! Here We Go Again',
@@ -517,7 +513,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Musical, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Jurassic World: Fallen Kingdom',
@@ -529,7 +525,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Action, Adventure',
     saga: 'Jurassic',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'BlacKkKlansman',
@@ -541,7 +537,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Crime, Biography',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Tomb Raider',
@@ -553,7 +549,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Action, Adventure',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Pitch Perfect 3',
@@ -565,7 +561,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Music',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The Greatest Showman',
@@ -578,7 +574,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Musical, Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Paddington 2',
@@ -590,7 +586,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Family, Comedy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "Le Crime de l'Orient-Express",
@@ -602,9 +598,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Mystery, Crime',
     saga: 'Hercule Poirot',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Miss Peregrine et les Enfants particuliers',
     director: 'Tim Burton',
@@ -615,7 +610,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Adventure',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Lion',
@@ -627,9 +622,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Drama, Biography',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Warcraft',
     director: 'Duncan Jones',
@@ -640,9 +634,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Action',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Le Nouveau Stagiaire',
     director: 'Nancy Meyers',
@@ -654,7 +647,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Jurassic World',
@@ -666,7 +659,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Action, Adventure',
     saga: 'Jurassic',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Pitch Perfect 2',
@@ -678,7 +671,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Music',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Cendrillon',
@@ -690,7 +683,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Paddington',
@@ -702,7 +695,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Family, Comedy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Big Eyes',
@@ -714,9 +707,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Biography, Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Snowpiercer',
     director: 'Bong Joon-ho',
@@ -727,7 +719,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Sci-Fi, Thriller',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'Corée du Sud',
   },
   {
     title: 'About Time',
@@ -743,9 +735,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Romance, Fantasy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: "Le Monde fantastique d'Oz",
     director: 'Sam Raimi',
@@ -756,7 +747,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Adventure',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Warm Bodies',
@@ -768,7 +759,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Romance, Comedy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Les Misérables',
@@ -780,7 +771,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Musical, Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le Hobbit : Un voyage inattendu',
@@ -792,7 +783,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Adventure',
     saga: 'Tolkien',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Pitch Perfect',
@@ -805,9 +796,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Music',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Ted',
     director: 'Seth MacFarlane',
@@ -822,7 +812,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Fantasy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Dark Shadows',
@@ -834,9 +824,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Fantasy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Les Aventures de Tintin',
     director: 'Steven Spielberg',
@@ -847,7 +836,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Adventure, Mystery',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Hugo',
@@ -859,7 +848,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Adventure, Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Minuit à Paris',
@@ -871,9 +860,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Romance, Fantasy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Little White Lies',
     director: 'Guillaume Canet',
@@ -884,7 +872,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Drama, Comedy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "L'Apprenti sorcier",
@@ -896,7 +884,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Adventure',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Sherlock Holmes',
@@ -908,7 +896,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Action, Mystery',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Lovely Bones',
@@ -920,7 +908,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Drama, Fantasy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "Jennifer's Body",
@@ -932,7 +920,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Horror, Comedy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'District 9',
@@ -944,7 +932,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Sci-Fi, Thriller',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Orphan',
@@ -957,7 +945,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Horror, Thriller',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Public Enemies',
@@ -973,9 +961,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Crime, Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Bride Wars',
     director: 'Gary Winick',
@@ -986,7 +973,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "L'Étrange Histoire de Benjamin Button",
@@ -998,9 +985,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Drama, Fantasy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Mamma Mia!',
     director: 'Phyllida Lloyd',
@@ -1011,7 +997,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Musical, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le Monde de Narnia : Le Prince Caspian',
@@ -1023,7 +1009,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Adventure',
     saga: 'Narnia',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Sex and the City',
@@ -1035,7 +1021,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: '27 Robes',
@@ -1047,7 +1033,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Alvin et les Chipmunks',
@@ -1059,7 +1045,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Family',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Sweeney Todd : Le Diabolique Barbier de Fleet Street',
@@ -1071,7 +1057,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Musical, Horror',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Enchanted',
@@ -1083,7 +1069,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'P.S. I Love You',
@@ -1095,7 +1081,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Romance, Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Stardust',
@@ -1107,7 +1093,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Adventure',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Hairspray',
@@ -1119,7 +1105,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Musical, Comedy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le Secret de Terabithia',
@@ -1131,9 +1117,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Le Labyrinthe de Pan',
     director: 'Guillermo del Toro',
@@ -1144,7 +1129,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, War',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'Espagne',
   },
   {
     title: 'Marie Antoinette',
@@ -1156,9 +1141,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Historical, Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Constantine',
     director: 'Francis Lawrence',
@@ -1169,7 +1153,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Horror',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Aviator',
@@ -1185,7 +1169,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Biography, Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Les déstreuses aventures des Orphelins Baudelaire',
@@ -1197,9 +1181,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Adventure, Family',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'The Princess Diaries 2: Royal Engagement',
     director: 'Garry Marshall',
@@ -1210,9 +1193,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Le Village',
     director: 'M. Night Shyamalan',
@@ -1223,7 +1205,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Thriller, Mystery',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Comme Cendrillon',
@@ -1235,7 +1217,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Troy',
@@ -1248,7 +1230,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Action, Historical',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Lolita malgré moi',
@@ -1260,7 +1242,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Teen',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: '30 ans sinon rien',
@@ -1272,7 +1254,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Fantasy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Ella au pays enchanté',
@@ -1284,7 +1266,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Adventure',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Une nana au poil',
@@ -1296,7 +1278,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Fantasy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Big Fish',
@@ -1308,7 +1290,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le Manoir hanté et les 999 Fantômes',
@@ -1320,7 +1302,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Fantasy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le Dernier Samouraï',
@@ -1332,9 +1314,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Historical, Action',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'George de la Jungle 2',
     director: 'David Grossman',
@@ -1345,7 +1326,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Family',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Un vendredi dingue, dingue, dingue',
@@ -1357,7 +1338,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: '',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "Comment se débarrasser d'un mec en 10 jours",
@@ -1369,7 +1350,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Thirteen',
@@ -1381,7 +1362,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Chicago',
@@ -1393,9 +1374,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Musical, Crime',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Tuck Everlasting',
     director: 'Jay Russell',
@@ -1406,7 +1386,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: '8 Mile',
@@ -1418,9 +1398,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Drama, Music',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Insomnia',
     director: 'Christopher Nolan',
@@ -1431,7 +1410,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Thriller, Crime',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Princesse malgré elle',
@@ -1443,7 +1422,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The Others',
@@ -1455,7 +1434,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Horror, Mystery',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'Espagne',
   },
   {
     title: 'La Planète des singes',
@@ -1467,9 +1446,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Sci-Fi, Adventure',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: "La Revanche d'une blonde",
     director: 'Robert Luketic',
@@ -1480,7 +1458,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'A.I. Intelligence artificielle',
@@ -1492,9 +1470,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Sci-Fi, Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Moulin Rouge !',
     director: 'Baz Luhrmann',
@@ -1505,7 +1482,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Musical, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le Journal de Bridget Jones',
@@ -1517,9 +1494,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Le Grinch',
     director: 'Ron Howard',
@@ -1530,7 +1506,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Family',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Drôles de dames',
@@ -1543,7 +1519,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Action, Adventure',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Mon beau-père et moi',
@@ -1555,9 +1531,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Romance',
     saga: 'Mon Beau-Père et... Moi',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Billy Elliot',
     director: 'Stephen Daldry',
@@ -1568,9 +1543,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Stuart Little',
     director: 'Rob Minkoff',
@@ -1581,7 +1555,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Family, Comedy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Sleepy Hollow',
@@ -1593,7 +1567,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Horror, Mystery',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Fight Club',
@@ -1605,7 +1579,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Drama, Thriller',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: '10 bonnes raisons de te larguer',
@@ -1617,7 +1591,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Romance, Comedy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Elle est trop bien',
@@ -1629,9 +1603,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Romance, Comedy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'À nous quatre',
     director: 'Nancy Meyers',
@@ -1642,7 +1615,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Family',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Mary à tout prix',
@@ -1654,9 +1627,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Flubber',
     director: 'Les Mayfield',
@@ -1668,9 +1640,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Family',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Titanic',
     director: 'James Cameron',
@@ -1681,7 +1652,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Romance, Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Tower of Terror',
@@ -1693,7 +1664,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Mystery, Family',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "Souviens-toi... l'été dernier",
@@ -1708,7 +1679,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Horror, Thriller',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Gattaca',
@@ -1720,7 +1691,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Sci-Fi, Thriller',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Face/Off',
@@ -1733,7 +1704,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Action, Thriller',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Austin Powers',
@@ -1745,7 +1716,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Spy',
     saga: 'Austin Powers',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Mars Attacks !',
@@ -1757,9 +1728,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Sci-Fi, Comedy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Roméo + Juliette',
     director: 'Baz Luhrmann',
@@ -1770,7 +1740,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Romance, Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Matilda',
@@ -1782,9 +1752,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Family',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'GoldenEye',
     director: 'Martin Campbell',
@@ -1795,7 +1764,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Action, Spy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Casper',
@@ -1807,7 +1776,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Family',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Braveheart',
@@ -1819,7 +1788,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Historical, Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Super Noël',
@@ -1831,7 +1800,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Family',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Entretien avec un vampire',
@@ -1844,9 +1813,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Horror, Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Ace Ventura: Détective pour chiens et chats',
     director: 'Tom Shadyac',
@@ -1857,9 +1825,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Mystery',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Un jour sans fin',
     director: 'Harold Ramis',
@@ -1870,7 +1837,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Fantasy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: '3 Ninjas',
@@ -1882,7 +1849,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Action, Family',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Strictly Ballroom',
@@ -1894,7 +1861,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Romance, Dance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'JFK',
@@ -1906,7 +1873,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Drama, Thriller',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'La Famille Addams',
@@ -1918,7 +1885,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Fantasy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Hook ou la Revanche du capitaine Crochet',
@@ -1930,7 +1897,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Adventure, Fantasy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: "Edward aux mains d'argent",
@@ -1942,7 +1909,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Ghost',
@@ -1954,9 +1921,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Romance, Fantasy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Beetlejuice',
     director: 'Tim Burton',
@@ -1967,9 +1933,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Fantasy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Labyrinthe',
     director: 'Jim Henson',
@@ -1980,7 +1945,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Adventure',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Gremlins',
@@ -1992,7 +1957,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Horror, Comedy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'S.O.S. Fantômes',
@@ -2004,9 +1969,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Fantasy',
     saga: 'Ghostbusters',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Grease 2',
     director: 'Patricia Birch',
@@ -2017,7 +1981,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Musical, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The Blues Brothers',
@@ -2029,7 +1993,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Musical',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Halloween',
@@ -2041,7 +2005,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Horror, Thriller',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Grease',
@@ -2053,9 +2017,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Musical, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'La Mélodie du bonheur',
     director: 'Robert Wise',
@@ -2066,7 +2029,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Musical, Drama',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Mary Poppins',
@@ -2078,7 +2041,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Musical',
     saga: 'Disney Classique',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Les Parapluies de Cherbourg',
@@ -2090,7 +2053,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Musical, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'West Side Story',
@@ -2102,9 +2065,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Musical, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Vacances romaines',
     director: 'William Wyler',
@@ -2115,7 +2077,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Romance, Comedy',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Chantons sous la pluie',
@@ -2127,9 +2089,8 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Musical, Romance',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
-
   {
     title: "Le Magicien d'Oz",
     director: 'Victor Fleming',
@@ -2140,6 +2101,6 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Musical',
     saga: '',
     description: '',
-    countryOrigin: '',
+    countryOrigin: 'États-Unis',
   },
 ];

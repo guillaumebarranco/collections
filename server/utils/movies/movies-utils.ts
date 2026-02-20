@@ -238,6 +238,7 @@ function parseBaseMoviesFullFromFile(content: string): any[] {
           genre: parseStringField(objectText, 'genre') || '',
           saga: parseStringField(objectText, 'saga') || '',
           description: parseStringField(objectText, 'description') || '',
+          countryOrigin: parseStringField(objectText, 'countryOrigin') || '',
         });
       }
     }
@@ -555,6 +556,7 @@ function updateBaseMovieInFile(content: string, payload: any) {
           updated = upsertField(updated, 'genre', payload.genre);
           updated = upsertField(updated, 'saga', payload.saga);
           updated = upsertField(updated, 'description', payload.description ?? '');
+          updated = upsertField(updated, 'countryOrigin', payload.countryOrigin ?? '');
 
           return (
             content.slice(0, objectStart) +
