@@ -1285,7 +1285,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
-    wantToSeeAgain: false,
+    wantToSeeAgain: true,
     watchPriority: 1,
     ratingComment: '',
   },
