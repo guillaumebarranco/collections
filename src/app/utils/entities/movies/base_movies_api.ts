@@ -731,4 +731,24 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     countryOrigin: 'Royaume-Uni',
   },
+
+  {
+    title: 'Le Rêve Américain',
+    director: 'Anthony Marciano',
+    actors: [
+      {
+        name: 'Jean-Pascal Zadi',
+      },
+      {
+        name: 'Raphaël Quenard',
+      },
+    ],
+    coverUrl: 'https://www.franceinfo.fr/pictures/jK_vfwYOcmnvVo7m_PKyNKCbz0M/0x0:797x1080/fit-in/720x/filters:format(jpg)/2026/02/13/le-reve-americain-affiche-698f46413ec01629473537.jpeg',
+    releaseDate: '2026-02-18',
+    length: 121,
+    genre: 'Biopic',
+    saga: '',
+    description: '',
+    countryOrigin: 'France',
+  },
 ];

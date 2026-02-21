@@ -13688,4 +13688,18 @@ export const ronanMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
+
+  {
+    title: 'Le Rêve Américain',
+    director: 'Anthony Marciano',
+    rating: 4.5,
+    timesWatched: 1,
+    firstViewedDate: '2026-02-21',
+    lastViewedDate: '2026-02-21',
+    seenAtCinema: true,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+  },
 ];

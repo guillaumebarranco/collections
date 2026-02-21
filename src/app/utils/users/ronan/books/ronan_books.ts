@@ -59,7 +59,7 @@ export const ronanBooks: UserBooks = [
   {
     title: 'Viridia: Les racines du pouvoir',
     author: 'Aricia Favalli',
-    rating: 4,
+    rating: 2.5,
     readDate: '2025-05-08',
     readTimes: 1,
     owned: true,
@@ -544,7 +544,7 @@ export const ronanBooks: UserBooks = [
     title:
       "Le Monde de Narnia (Tome 2) Le Lion, la Sorcière blanche et l'Armoire magique",
     author: 'C.S. Lewis',
-    rating: 4,
+    rating: 3.5,
     readDate: '2026-01-14',
     readTimes: 1,
     owned: true,
