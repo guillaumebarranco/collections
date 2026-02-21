@@ -844,4 +844,16 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: 'La Tempête des Echos',
+    author: 'Christelle Dabos',
+    readDate: '2026-02-21',
+    rating: 4.25,
+    readTimes: 1,
+    owned: false,
+    readPriority: 3,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
 ];
