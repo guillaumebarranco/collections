@@ -46,7 +46,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'Le chant d\'Achille',
+    title: "Le chant d'Achille",
     author: 'Madeline Miller',
     readDate: '',
     rating: 0,
@@ -79,7 +79,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'L\'écume des jours',
+    title: "L'écume des jours",
     author: 'Boris Vian',
     readDate: '',
     rating: 0,
@@ -255,7 +255,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'L\'enfer',
+    title: "L'enfer",
     author: 'Dante Alighieri',
     readDate: '',
     rating: 0,
@@ -266,7 +266,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'L\'epopée de Gilgamesh',
+    title: "L'epopée de Gilgamesh",
     author: 'Anonyme',
     readDate: '',
     rating: 0,
@@ -354,7 +354,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'L\'amour aux temps du choléra',
+    title: "L'amour aux temps du choléra",
     author: 'Gabriel García Márquez',
     readDate: '',
     rating: 0,
@@ -365,7 +365,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'Le Gaslighting ou l\'art de faire taire les femmes',
+    title: "Le Gaslighting ou l'art de faire taire les femmes",
     author: 'Hélène Frappat',
     readDate: '',
     rating: 0,
@@ -421,7 +421,7 @@ export const guillaumeReadlistBooks: UserBooks = [
   },
   {
     title: 'Anna Karénine',
-    author: 'Leo Tolstoy',
+    author: 'Léon Tolstoï',
     readDate: '',
     rating: 0,
     readTimes: 0,
@@ -431,7 +431,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'L\'espace d\'un an',
+    title: "L'espace d'un an",
     author: 'Becky Chambers',
     readDate: '',
     rating: 0,
@@ -475,7 +475,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'L\'impure',
+    title: "L'impure",
     author: 'Guy des Cars',
     readDate: '',
     rating: 0,
@@ -498,7 +498,7 @@ export const guillaumeReadlistBooks: UserBooks = [
   },
   {
     title: 'Un raccourci dans le temps',
-    author: 'Madeleine L\'Engle',
+    author: "Madeleine L'Engle",
     readDate: '',
     rating: 0,
     readTimes: 0,
@@ -519,7 +519,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'Rien qu\'un surhomme',
+    title: "Rien qu'un surhomme",
     author: 'Olaf Stapledon',
     readDate: '',
     rating: 0,
@@ -541,7 +541,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'Le Journal d\'Anne Frank',
+    title: "Le Journal d'Anne Frank",
     author: 'Anne Frank',
     readDate: '',
     rating: 0,
@@ -596,7 +596,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'Jeux d\'Ombres',
+    title: "Jeux d'Ombres",
     author: 'Glen Cook',
     readDate: '',
     rating: 0,
@@ -607,7 +607,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'Rêves d\'Acier',
+    title: "Rêves d'Acier",
     author: 'Glen Cook',
     readDate: '',
     rating: 0,
@@ -618,7 +618,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'La Pointe d\'Argent',
+    title: "La Pointe d'Argent",
     author: 'Glen Cook',
     readDate: '',
     rating: 0,
@@ -662,7 +662,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'L\'Eau Dort - Part. 1',
+    title: "L'Eau Dort - Part. 1",
     author: 'Glen Cook',
     readDate: '',
     rating: 0,
@@ -673,7 +673,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'L\'Eau Dort - Part. 2',
+    title: "L'Eau Dort - Part. 2",
     author: 'Glen Cook',
     readDate: '',
     rating: 0,
@@ -715,5 +715,5 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: '',
-  }
+  },
 ];

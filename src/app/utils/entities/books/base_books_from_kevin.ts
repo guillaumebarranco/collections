@@ -23,7 +23,7 @@ export const baseBooksFromKevin: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '',
+    releaseDate: '1998-01-01',
     description: '',
     countryOrigin: 'États-Unis',
   },
