@@ -856,4 +856,16 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: 'Il était une fois: Tome 1 : Mon premier baiser',
+    author: 'Chlore Smythe, Juliette Pierce',
+    readDate: '2026-02-22',
+    rating: 4,
+    readTimes: 1,
+    owned: false,
+    readPriority: 3,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
 ];

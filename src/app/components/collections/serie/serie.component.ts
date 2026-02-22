@@ -123,6 +123,7 @@ export class SerieComponent {
 
   getEntityData(): EntityCardEntityData {
     return {
+      alreadySeenRead: !!(this.serie.seasons && this.serie.seasons.length > 0),
       rating: 0,
       hasRatingComment: !!this.serie.ratingComment,
       currentPriority: this.getWatchPriority(),

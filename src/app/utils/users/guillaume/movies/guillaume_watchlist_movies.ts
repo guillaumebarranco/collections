@@ -171,19 +171,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: 'Titanic',
-    director: 'James Cameron',
-    rating: 0,
-    timesWatched: 0,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 3,
-    ratingComment: '',
-  },
-  {
     title: 'Gattaca',
     director: 'Andrew Niccol',
     rating: 0,
@@ -2197,8 +2184,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-  }
-,
+  },
   {
     title: 'Dunkerque',
     director: 'Christopher Nolan',
@@ -2212,7 +2198,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'The Game',
     director: 'David Fincher',
@@ -2226,7 +2211,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Un homme en colère',
     director: 'Guy Ritchie',
@@ -2240,7 +2224,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Arnaques, crimes & botanique',
     director: 'Guy Ritchie',
@@ -2253,5 +2236,5 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-  },
+  }
 ];

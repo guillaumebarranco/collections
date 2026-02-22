@@ -97,6 +97,7 @@ export class MangaComponent {
 
   getEntityData(): EntityCardEntityData {
     return {
+      alreadySeenRead: !!(this.manga.readTimes && this.manga.readTimes > 0),
       rating: this.manga.rating ?? 0,
       hasRatingComment: !!this.manga.ratingComment,
       currentPriority: this.getReadPriority(),

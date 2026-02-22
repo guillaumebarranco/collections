@@ -17,7 +17,7 @@
   </button>
   } @if (recommendationText) {
   <p class="recommendation-text">{{ recommendationText }}</p>
-  } @if (isReadlistView) {
+  } @if (canEdit()) { @if (isReadlistView) {
   <div class="readlist-priority">
     <div class="priority-label">Priorité :</div>
     <div>
@@ -36,18 +36,14 @@
   <button type="button" class="makya-btn-small" (click)="onAddFromList()">
     {{ effectiveLabels.addFromList }}
   </button>
-  } @if (showAddToListButton) { @if (!isInList) {
+  } @if (showAddToListButton()) { @if (!isInList) {
   <button type="button" class="makya-btn-small" (click)="onAddToList()">
     {{ effectiveLabels.addToList }}
   </button>
   } @else {
   <span class="recommendation-text">{{ effectiveLabels.alreadyInList }}</span>
-  }   } @if (
-    !hideWantToReReadButton &&
-    selectedView !== reReadViewName &&
-    selectedView !== listViewName
-  ) {
-  @if (!wantToReRead) {
+  } } @if ( !hideWantToReReadButton && selectedView !== reReadViewName &&
+  selectedView !== listViewName ) { @if (!wantToReRead) {
   <button type="button" class="makya-btn-small" (click)="onWantToReReadClick()">
     {{ effectiveLabels.wantToReRead }}
   </button>
@@ -59,5 +55,5 @@
   <button type="button" class="makya-btn-small" (click)="onHaveReReadClick()">
     {{ effectiveLabels.haveReRead }}
   </button>
-  }
+  } }
 </div>

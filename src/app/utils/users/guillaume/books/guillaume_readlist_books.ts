@@ -46,7 +46,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: "Le chant d'Achille",
+    title: 'Le chant d\'Achille',
     author: 'Madeline Miller',
     readDate: '',
     rating: 0,
@@ -79,7 +79,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: "L'écume des jours",
+    title: 'L\'écume des jours',
     author: 'Boris Vian',
     readDate: '',
     rating: 0,
@@ -255,7 +255,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: "L'enfer",
+    title: 'L\'enfer',
     author: 'Dante Alighieri',
     readDate: '',
     rating: 0,
@@ -266,7 +266,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: "L'epopée de Gilgamesh",
+    title: 'L\'epopée de Gilgamesh',
     author: 'Anonyme',
     readDate: '',
     rating: 0,
@@ -354,7 +354,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: "L'amour aux temps du choléra",
+    title: 'L\'amour aux temps du choléra',
     author: 'Gabriel García Márquez',
     readDate: '',
     rating: 0,
@@ -365,7 +365,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: "Le Gaslighting ou l'art de faire taire les femmes",
+    title: 'Le Gaslighting ou l\'art de faire taire les femmes',
     author: 'Hélène Frappat',
     readDate: '',
     rating: 0,
@@ -431,7 +431,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: "L'espace d'un an",
+    title: 'L\'espace d\'un an',
     author: 'Becky Chambers',
     readDate: '',
     rating: 0,
@@ -475,7 +475,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: "L'impure",
+    title: 'L\'impure',
     author: 'Guy des Cars',
     readDate: '',
     rating: 0,
@@ -486,19 +486,8 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'Il était une fois: Tome 1 : Mon premier baiser',
-    author: 'Chlore Smythe, Juliette Pierce',
-    readDate: '',
-    rating: 0,
-    readTimes: 0,
-    owned: true,
-    readPriority: 3,
-    wantToReadAgain: false,
-    ratingComment: '',
-  },
-  {
     title: 'Un raccourci dans le temps',
-    author: "Madeleine L'Engle",
+    author: 'Madeleine L\'Engle',
     readDate: '',
     rating: 0,
     readTimes: 0,
@@ -519,7 +508,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: "Rien qu'un surhomme",
+    title: 'Rien qu\'un surhomme',
     author: 'Olaf Stapledon',
     readDate: '',
     rating: 0,
@@ -541,7 +530,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: "Le Journal d'Anne Frank",
+    title: 'Le Journal d\'Anne Frank',
     author: 'Anne Frank',
     readDate: '',
     rating: 0,
@@ -606,7 +595,6 @@ export const guillaumeReadlistBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Le pouvoir des six',
     author: 'Pittacus Lore',
@@ -618,9 +606,8 @@ export const guillaumeReadlistBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
-    title: "Un palais d'épines et de roses",
+    title: 'Un palais d\'épines et de roses',
     author: 'Sarah J. Maas',
     readDate: '',
     rating: 0,
@@ -630,7 +617,6 @@ export const guillaumeReadlistBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Le meilleur des mondes',
     author: 'Aldous Huxley',
@@ -642,7 +628,6 @@ export const guillaumeReadlistBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'La Dame aux camélias',
     author: 'Alexandre Dumas fils',
@@ -654,7 +639,6 @@ export const guillaumeReadlistBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'La voleuse de livres',
     author: 'Markus Zusak',
@@ -666,9 +650,8 @@ export const guillaumeReadlistBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
-    title: "L'Alchimiste",
+    title: 'L\'Alchimiste',
     author: 'Paulo Coelho',
     readDate: '',
     rating: 0,
@@ -678,4 +661,15 @@ export const guillaumeReadlistBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+  {
+    title: 'Nous',
+    author: 'Christelle Dabos',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 2,
+    wantToReadAgain: false,
+    ratingComment: '',
+  }
 ];

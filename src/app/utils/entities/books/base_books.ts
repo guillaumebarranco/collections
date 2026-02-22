@@ -1514,4 +1514,17 @@ export const baseBooks: BaseBook[] = [
     description: '',
     countryOrigin: 'États-Unis',
   },
+  {
+    title: 'Nous',
+    author: 'Christelle Dabos',
+    coverUrl: '/books_pictures/J05323.jpg',
+    pages: 528,
+    genre: 'Fantasy',
+    saga: '',
+    sagaOrder: 1,
+    sagaFinished: true,
+    releaseDate: '2024-07-07',
+    description: '',
+    countryOrigin: 'France',
+  },
 ];

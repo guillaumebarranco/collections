@@ -1330,4 +1330,18 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
+
+  {
+    title: 'Titanic',
+    director: 'James Cameron',
+    rating: 5,
+    timesWatched: 1,
+    firstViewedDate: '2026-02-22',
+    lastViewedDate: '2026-02-22',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+  },
 ];

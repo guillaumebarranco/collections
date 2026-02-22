@@ -52,9 +52,6 @@ export class AuthService {
   }
 
   canEdit(targetUserId?: string | null): boolean {
-    if (isLocalhost()) {
-      return true;
-    }
     if (!targetUserId) return false;
     const authUserId = this.authenticatedUserId();
     return Boolean(authUserId && authUserId === targetUserId.toLowerCase());

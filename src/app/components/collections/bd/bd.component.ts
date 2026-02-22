@@ -94,6 +94,7 @@ export class BdComponent {
 
   getEntityData(): EntityCardEntityData {
     return {
+      alreadySeenRead: !!(this.bd.readTimes && this.bd.readTimes > 0),
       rating: this.bd.rating ?? 0,
       hasRatingComment: !!this.bd.ratingComment,
       currentPriority: this.getReadPriority(),

@@ -1,7 +1,9 @@
 import {
   ChangeDetectionStrategy,
   Component,
+  computed,
   EventEmitter,
+  inject,
   Input,
   Output,
 } from '@angular/core';
@@ -11,9 +13,12 @@ import { EntityType } from '../../models/quizz-model';
 
 import { StarInfo } from '../../models/various-model';
 import { getRatingStars } from '../../utils/constants';
+import { AuthService } from '../../core/auth.service';
+import { ActivatedRoute } from '@angular/router';
 
 /** Données communes à l’entité affichée dans la carte (note, priorité, type, etc.). */
 export interface EntityCardEntityData {
+  alreadySeenRead: boolean;
   rating: number;
   hasRatingComment: boolean;
   currentPriority: 1 | 2 | 3;
@@ -42,7 +47,6 @@ export class EntityCardRatingAndButtonsComponent {
   @Input() entityData!: EntityCardEntityData;
   @Input() recommendationText = '';
   @Input() recommendationBadge = '';
-  @Input() showAddToListButton = true;
   @Input() isInList = false;
   @Input() selectedView = '';
   @Input() showRating = true;
@@ -57,6 +61,32 @@ export class EntityCardRatingAndButtonsComponent {
   @Output() addToList = new EventEmitter<void>();
   @Output() wantToReReadClick = new EventEmitter<void>();
   @Output() haveReReadClick = new EventEmitter<void>();
+
+  private readonly activatedRoute = inject(ActivatedRoute);
+  private readonly authService = inject(AuthService);
+
+  readonly canEdit = computed(() => {
+    const directId = this.activatedRoute.snapshot.params['id'];
+    const parentId = this.activatedRoute.parent?.snapshot.params['id'];
+    return this.authService.canEdit(directId || parentId);
+  });
+
+  showAddToListButton = computed(() => {
+    if (this.entityData?.alreadySeenRead) {
+      return false;
+    }
+
+    return (
+      this.selectedView !==
+        this.getReadViewNameForType(this.entityData?.entityType) &&
+      this.selectedView !==
+        this.getReReadViewNameForType(this.entityData?.entityType) &&
+      this.selectedView !==
+        this.getListViewNameForType(this.entityData?.entityType) &&
+      this.selectedView !==
+        this.getOwnedViewNameForType(this.entityData?.entityType)
+    );
+  });
 
   get rating(): number {
     return this.entityData?.rating ?? 0;
@@ -191,6 +221,18 @@ export class EntityCardRatingAndButtonsComponent {
     }
   }
 
+  private getReadViewNameForType(entityType: EntityType | undefined): string {
+    switch (entityType) {
+      case 'movie':
+      case 'serie':
+        return 'watched';
+      case 'game':
+        return 'played';
+      default:
+        return 'read';
+    }
+  }
+
   private getReReadViewNameForType(entityType: EntityType | undefined): string {
     switch (entityType) {
       case 'movie':
@@ -212,6 +254,18 @@ export class EntityCardRatingAndButtonsComponent {
         return 'gamelist';
       default:
         return 'readlist';
+    }
+  }
+
+  private getOwnedViewNameForType(entityType: EntityType | undefined): string {
+    switch (entityType) {
+      case 'movie':
+      case 'serie':
+        return 'owned';
+      case 'game':
+        return 'owned';
+      default:
+        return 'owned';
     }
   }
 

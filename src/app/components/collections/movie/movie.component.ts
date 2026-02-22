@@ -178,17 +178,16 @@ export class MovieComponent {
   /** Vue groupée (acteurs, réalisateurs, sagas, pays) où les films "déjà vus" ne doivent pas afficher "Ajouter à ma watchlist". */
   private get isGroupedMovieView(): boolean {
     const v = this.selectedView;
-    return v === 'actors' || v === 'directors' || v === 'sagas' || v === 'countries';
-  }
-
-  /** Afficher le bouton "Ajouter à ma watchlist" (masqué en vue groupée pour les films déjà vus). */
-  get showAddToWatchlistButton(): boolean {
-    if (this.isGroupedMovieView && !this.readOnly) return false;
-    return true;
+    return (
+      v === 'actors' || v === 'directors' || v === 'sagas' || v === 'countries'
+    );
   }
 
   getEntityData(): EntityCardEntityData {
     return {
+      alreadySeenRead: !!(
+        this.movie.timesWatched && this.movie.timesWatched > 0
+      ),
       rating: this.movie.rating ?? 0,
       hasRatingComment: !!this.movie.ratingComment,
       currentPriority: this.getWatchPriority(),
