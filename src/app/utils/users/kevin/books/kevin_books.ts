@@ -1203,8 +1203,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Le Souffle du Moissonneur',
     author: 'Steven Erikson',
-    readDate: '2026-02-01',
-    rating: 0,
+    readDate: '2026-02-22',
+    rating: 3.5,
     readTimes: 1,
     owned: false,
     readPriority: 1,

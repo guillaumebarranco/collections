@@ -6440,7 +6440,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Seven Psychopaths',
     director: 'Martin McDonagh',
-    rating: 3,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '2026-02-17',

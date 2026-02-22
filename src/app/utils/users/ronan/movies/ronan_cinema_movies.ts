@@ -1466,7 +1466,7 @@ export const ronanCinemaMovies: UserMovies = [
     firstViewedDate: '2025-10-08',
     lastViewedDate: '2025-10-08',
     seenAtCinema: true,
-    owned: false,
+    owned: true,
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
