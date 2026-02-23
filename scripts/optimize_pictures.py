@@ -62,7 +62,9 @@ def main() -> None:
     for path in public_dir.rglob("*"):
         if not path.is_file():
             continue
-        if not any(part.endswith("_pictures") for part in path.parts):
+        in_pictures = any(part.endswith("_pictures") for part in path.parts)
+        in_badges = "badges" in path.parts
+        if not (in_pictures or in_badges):
             continue
         if path.suffix.lower() not in FORMATS:
             continue

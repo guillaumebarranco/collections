@@ -151,6 +151,97 @@
   border: 1px dashed #dee2e6;
 }
 
+// Section Badges
+.badges-intro {
+  margin: 0 0 16px 0;
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.badges-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.badge-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 14px 12px;
+  border-radius: 10px;
+  border: 1px solid #e9ecef;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &--earned {
+    background: linear-gradient(145deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-color: #0ea5e9;
+    box-shadow: 0 2px 8px rgba(14, 165, 233, 0.2);
+  }
+
+  &--locked {
+    background: #f8f9fa;
+    opacity: 0.85;
+
+    &:hover {
+      opacity: 1;
+
+      .badge-card-image {
+        &.badge-card-image-locked {
+          filter: none;
+        }
+      }
+    }
+  }
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+
+  .badge-card-image {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 6px;
+    border-radius: 50%;
+
+    &.badge-card-image-locked {
+      filter: grayscale(0.7);
+      opacity: 0.7;
+    }
+  }
+
+  &__name {
+    margin: 0 0 4px 0;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #2c3e50;
+  }
+
+  &__description {
+    margin: 0 0 8px 0;
+    font-size: 0.8rem;
+    color: #64748b;
+    line-height: 1.35;
+    flex: 1;
+  }
+
+  &__status {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #0ea5e9;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+
+    &--locked {
+      color: #94a3b8;
+    }
+  }
+}
+
 // Responsive
 @include containers.responsive-base {
   .dashboard-container {

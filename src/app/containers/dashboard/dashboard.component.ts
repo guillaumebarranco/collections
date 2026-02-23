@@ -75,6 +75,11 @@ import {
   getEntityDisplayLabel,
   type Entity,
 } from '../../utils/top-five.utils';
+import {
+  getBadgesDisplay,
+  type BadgeDisplay,
+} from '../../utils/users/badges';
+import { BadgesService } from '../../services/badges.service';
 
 interface TopBook extends Book {
   formattedReadingTime: string;
@@ -123,10 +128,16 @@ export class DashboardComponent implements OnInit {
   router = inject(Router);
   authService = inject(AuthService);
   topFiveService = inject(TopFiveService);
+  badgesService = inject(BadgesService);
 
   filledUserId = signal<string>('');
   selectedTab = signal<
-    'overview' | 'entities' | 'charts' | 'top5stats' | 'top5personal'
+    | 'overview'
+    | 'entities'
+    | 'charts'
+    | 'top5stats'
+    | 'top5personal'
+    | 'badges'
   >('overview');
   isAuthenticated = computed<boolean>(() => this.authService.isAuthenticated());
   isAdmin = computed<boolean>(() => this.authService.isAdmin());
@@ -137,6 +148,7 @@ export class DashboardComponent implements OnInit {
     { value: 'charts', label: 'Graphiques par entité' },
     { value: 'top5stats', label: 'Top 5 (statistiques)' },
     { value: 'top5personal', label: 'Top 5 personnel' },
+    { value: 'badges', label: 'Badges' },
   ];
 
   booksList = signal<{ [key: string]: Book[] }>({});
@@ -349,6 +361,14 @@ export class DashboardComponent implements OnInit {
       this.allSeries().length > 0 ||
       this.allGames().length > 0 ||
       this.allMusics().length > 0
+    );
+  });
+
+  /** Badges de l'utilisateur (débloqués et non débloqués), récupérés via l'API comme les Top 5. */
+  userBadges = computed<BadgeDisplay[]>(() => {
+    this.badgesService.cache();
+    return getBadgesDisplay(
+      this.badgesService.getBadges(this.userId() || DEFAULT_USER_ID)
     );
   });
 
@@ -684,15 +704,23 @@ export class DashboardComponent implements OnInit {
   }
 
   onTabChange(
-    tab: 'overview' | 'entities' | 'charts' | 'top5stats' | 'top5personal'
+    tab:
+      | 'overview'
+      | 'entities'
+      | 'charts'
+      | 'top5stats'
+      | 'top5personal'
+      | 'badges'
   ): void {
     this.selectedTab.set(tab);
   }
 
   ngOnInit() {
     this.topFiveService.loadFromStorage();
+    this.badgesService.loadFromStorage();
     const uid = this.userId() || DEFAULT_USER_ID;
     this.topFiveService.loadFromApi(uid);
+    this.badgesService.loadFromApi(uid);
     this.loadMoviesData();
     this.loadWatchlistMoviesData();
     this.loadBooksData();

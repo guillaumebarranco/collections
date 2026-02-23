@@ -48,3 +48,5 @@ export const users = [
     admin: false,
   }
 ];
+
+export * from './badges';

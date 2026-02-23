@@ -226,15 +226,16 @@
     <div class="dashboard-section">
       <h2>🏆 Mon Top 5 personnel</h2>
       <p class="top5-personal-hint">
-        Remplissez votre top 5 depuis chaque collection (Livres, Films, etc.)
-        en choisissant le rang pour vos œuvres préférées.
+        Remplissez votre top 5 depuis chaque collection (Livres, Films, etc.) en
+        choisissant le rang pour vos œuvres préférées.
       </p>
       <div class="top5-grid">
         @for (entityType of personalTopFiveEntityTypes; track entityType) {
         <div class="top5-category">
           <h3>{{ personalTopFiveLabels[entityType] }}</h3>
           <div class="top5-list">
-            @for (slot of personalTopFiveDisplay()[entityType]; track slot.rank) {
+            @for (slot of personalTopFiveDisplay()[entityType]; track slot.rank)
+            {
             <div
               class="top5-item"
               [class.top5-item--gold]="slot.rank === 1"
@@ -242,10 +243,45 @@
               [class.top5-item--bronze]="slot.rank === 3"
             >
               <span class="rank">#{{ slot.rank }}</span>
-              <span class="title">{{ slot.label || '—' }}</span>
+              <span class="title">{{ slot.label || "—" }}</span>
             </div>
             }
           </div>
+        </div>
+        }
+      </div>
+    </div>
+    }
+
+    <!-- Badges (gamification) -->
+    @if (selectedTab() === 'badges') {
+    <div class="dashboard-section">
+      <h2>🏅 Badges</h2>
+      <p class="badges-intro">
+        Débloquez des badges en lisant, regardant et notant vos œuvres.
+      </p>
+      <div class="badges-grid">
+        @for (badge of userBadges(); track badge.id) {
+        <div
+          class="badge-card"
+          [class.badge-card--earned]="badge.earned"
+          [class.badge-card--locked]="!badge.earned"
+        >
+          <img
+            [src]="badge.image"
+            [alt]="badge.name"
+            class="badge-card-image"
+            [class.badge-card-image-locked]="!badge.earned"
+          />
+          <h3 class="badge-card__name">{{ badge.name }}</h3>
+          <p class="badge-card__description">{{ badge.description }}</p>
+          @if (badge.earned) {
+          <span class="badge-card__status">Débloqué</span>
+          } @else {
+          <span class="badge-card__status badge-card__status--locked"
+            >À débloquer</span
+          >
+          }
         </div>
         }
       </div>
