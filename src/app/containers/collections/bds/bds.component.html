@@ -10,10 +10,11 @@
     [allBdsCount]="allBds().length"
     [allReadlistBdsCount]="allReadlistBds().length"
     [stats]="stats()"
-    [viewOptions]="viewOptions"
+    [viewOptions]="visibleViewOptions()"
     [sortOptions]="sortOptions()"
     [showTopFiveRank]="showTopFiveRank()"
     (onViewChange)="onViewChange($any($event))"
+    (onOpenViewConfig)="openViewConfig()"
     (onSearchChange)="onSearchChange($event)"
     (onSortChange)="onSortChange($event)"
     (onTopFiveRankChange)="toggleTopFiveRankDisplay()"
@@ -72,3 +73,50 @@
   [quizzs]="activeQuizzs()"
   (close)="closeQuizzModal()"
 ></app-quizz-modal>
+
+@if (isViewConfigOpen()) {
+<div class="bds-config-overlay" (click)="closeViewConfig()">
+  <div
+    class="bds-config-content"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Configurer ma vue BD"
+    (click)="$event.stopPropagation()"
+  >
+    <div class="bds-config-header">
+      <h2>Configurer ma vue BD</h2>
+      <button class="bds-config-close" (click)="closeViewConfig()">✕</button>
+    </div>
+    <div class="bds-config-body">
+      <p class="bds-config-subtitle">Choisissez les onglets à afficher.</p>
+      <label class="bds-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().owned"
+          (change)="onOptionalViewChange('owned', $any($event.target).checked)"
+        />
+        BD possédées
+      </label>
+      <label class="bds-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().toReRead"
+          (change)="onOptionalViewChange('toReRead', $any($event.target).checked)"
+        />
+        À relire
+      </label>
+      <label class="bds-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().recommendations"
+          (change)="onOptionalViewChange('recommendations', $any($event.target).checked)"
+        />
+        Recommandations
+      </label>
+      <p class="bds-config-hint">
+        "BD lues" et "BD à lire" restent affichés par défaut.
+      </p>
+    </div>
+  </div>
+</div>
+}

@@ -22,6 +22,7 @@ import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { Quizz } from '../../../models/quizz-model';
 import {
   ComicView,
+  OptionalComicView,
   comicViewOptions,
   comicsSortOptions,
   getSortedComics,
@@ -79,19 +80,31 @@ export class ComicsComponent implements OnInit {
   private readonly authService = inject(AuthService);
   private readonly topFiveService = inject(TopFiveService);
   private isLoadingPreferences = false;
+  private isLoadingViewConfig = false;
+  private readonly viewConfigStorageKey = 'comics_view_config';
   private readonly viewPreferencesStorageKey = 'comics_view_preferences';
 
   selectedSort = signal<string>('rating');
   selectedView = signal<ComicView>('read');
   searchTerm = signal<string>('');
   showTopFiveRank = signal<boolean>(false);
+  isViewConfigOpen = signal<boolean>(false);
   isQuizzModalOpen = signal<boolean>(false);
   activeQuizzs = signal<Quizz[]>([]);
   quizzs = signal<Quizz[]>([]);
+  optionalViewConfig = signal<Record<OptionalComicView, boolean>>({
+    owned: true,
+    toReRead: true,
+    recommendations: false,
+  });
 
   sortOptions = signal<SortOption[]>(comicsSortOptions);
 
   viewOptions: { value: ComicView; label: string }[] = comicViewOptions;
+
+  visibleViewOptions = computed(() =>
+    this.viewOptions.filter((option) => this.isViewOptionVisible(option.value))
+  );
 
   comicsList = signal<{ [key: string]: Comic[] }>({});
   readlistComicsList = signal<{ [key: string]: Comic[] }>({});
@@ -117,6 +130,20 @@ export class ComicsComponent implements OnInit {
         this.viewPreferencesStorageKey,
         preferences
       );
+    });
+
+    effect(() => {
+      const config = this.optionalViewConfig();
+      if (this.isLoadingViewConfig || this.isAdminView()) return;
+      this.localStorageService.setItem(this.viewConfigStorageKey, config);
+    });
+
+    effect(() => {
+      const view = this.selectedView();
+      if (this.isAdminView()) return;
+      if (!this.isViewOptionVisible(view)) {
+        this.selectedView.set('read');
+      }
     });
   }
 
@@ -209,6 +236,42 @@ export class ComicsComponent implements OnInit {
     ];
   });
 
+  openViewConfig(): void {
+    this.isViewConfigOpen.set(true);
+  }
+
+  closeViewConfig(): void {
+    this.isViewConfigOpen.set(false);
+  }
+
+  onOptionalViewChange(view: OptionalComicView, enabled: boolean): void {
+    this.optionalViewConfig.update((current) => ({
+      ...current,
+      [view]: enabled,
+    }));
+  }
+
+  private isViewOptionVisible(view: ComicView): boolean {
+    if (view === 'read' || view === 'readlist') {
+      return true;
+    }
+    return this.optionalViewConfig()[view];
+  }
+
+  private loadViewConfigFromStorage(): void {
+    const parsed = this.localStorageService.getItem<
+      Partial<Record<OptionalComicView, boolean>>
+    >(this.viewConfigStorageKey);
+    if (!parsed || typeof parsed !== 'object') return;
+    this.isLoadingViewConfig = true;
+    this.optionalViewConfig.set({
+      owned: parsed.owned ?? true,
+      toReRead: parsed.toReRead ?? true,
+      recommendations: parsed.recommendations ?? false,
+    });
+    this.isLoadingViewConfig = false;
+  }
+
   private loadViewPreferencesFromStorage(): void {
     const parsed = this.localStorageService.getItem<
       Partial<{
@@ -253,6 +316,7 @@ export class ComicsComponent implements OnInit {
     if (this.isAdminView()) {
       this.selectedView.set('read');
     }
+    this.loadViewConfigFromStorage();
     this.loadViewPreferencesFromStorage();
     void this.refreshQuizzs();
     await this.refreshComics();

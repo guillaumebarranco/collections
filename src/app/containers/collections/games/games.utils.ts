@@ -10,6 +10,8 @@ export type GameView =
   | 'toRePlay'
   | 'recommendations';
 
+export type OptionalGameView = Exclude<GameView, 'played' | 'gamelist'>;
+
 export const gamesSortOptions: { value: string; label: string }[] = [
   { value: 'title', label: 'Titre (A-Z)' },
   { value: 'title-desc', label: 'Titre (Z-A)' },

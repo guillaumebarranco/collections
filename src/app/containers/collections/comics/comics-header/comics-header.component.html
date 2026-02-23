@@ -19,8 +19,16 @@
     ></app-view-toggle>
     }
 
+    @if (!isAdminView()) {
     <div class="comics-actions">
-      @if (!isAdminView()) {
+      <button
+        class="makya-btn-small"
+        type="button"
+        title="Configurer l'affichage des onglets"
+        (click)="onOpenViewConfig.emit()"
+      >
+        ⚙️ Configurer ma vue comics
+      </button>
       <button
         class="makya-btn-small"
         [routerLink]="getSelectComicsRoute()"
@@ -55,7 +63,6 @@
       >
         ✅ Possédés
       </button>
-      }
       <button
         class="makya-btn-small"
         [class.active]="showTopFiveRank()"
@@ -65,6 +72,7 @@
         🏆 Top 5
       </button>
     </div>
+    }
   </div>
   } @if(!isAdminView() && allComicsCount() === 0 && allReadlistComicsCount() === 0) {
   <div class="empty-state">

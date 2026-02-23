@@ -2,6 +2,8 @@ import { Manwha } from '../../../models/manwha-model';
 
 export type ManwhaView = 'read' | 'readlist' | 'owned' | 'toReRead' | 'recommendations';
 
+export type OptionalManwhaView = Exclude<ManwhaView, 'read' | 'readlist'>;
+
 export const manwhasSortOptions: { value: string; label: string }[] = [
   { value: 'title', label: 'Titre (A-Z)' },
   { value: 'title-desc', label: 'Titre (Z-A)' },

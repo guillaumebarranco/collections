@@ -23,6 +23,7 @@ import { Quizz } from '../../../models/quizz-model';
 import {
   BookView,
   bookViewOptions,
+  OptionalBookView,
   getBooksByAuthor,
   getBooksByCountry,
   getBooksBySaga,
@@ -100,8 +101,20 @@ export class BooksComponent implements OnInit {
   private readonly topFiveService = inject(TopFiveService);
   private readonly dialog = inject(MatDialog);
   private isInitializing = false;
+  private isLoadingViewConfig = false;
   private isLoadingPreferences = false;
+  private readonly viewConfigStorageKey = 'books_view_config';
   private readonly viewPreferencesStorageKey = 'books_view_preferences';
+
+  isViewConfigOpen = signal<boolean>(false);
+  optionalViewConfig = signal<Record<OptionalBookView, boolean>>({
+    owned: true,
+    toReRead: true,
+    authors: false,
+    sagas: false,
+    countries: false,
+    recommendations: false,
+  });
 
   sortOptions = computed<SortOption[]>(() =>
     getBooksSortOptions(this.selectedView())
@@ -114,6 +127,10 @@ export class BooksComponent implements OnInit {
   groupByOptions = groupByOptions;
 
   viewOptions = bookViewOptions;
+
+  visibleViewOptions = computed(() =>
+    this.viewOptions.filter((option) => this.isViewOptionVisible(option.value))
+  );
 
   booksList = signal<{ [key: string]: Book[] }>({});
   readlistBooksList = signal<{ [key: string]: Book[] }>({});
@@ -180,6 +197,20 @@ export class BooksComponent implements OnInit {
         preferences
       );
     });
+
+    effect(() => {
+      const config = this.optionalViewConfig();
+      if (this.isLoadingViewConfig || this.isAdminView()) return;
+      this.localStorageService.setItem(this.viewConfigStorageKey, config);
+    });
+
+    effect(() => {
+      const view = this.selectedView();
+      if (this.isAdminView()) return;
+      if (!this.isViewOptionVisible(view)) {
+        this.selectedView.set('read');
+      }
+    });
   }
 
   ngOnInit() {
@@ -187,6 +218,7 @@ export class BooksComponent implements OnInit {
       this.selectedView.set('read');
       this.selectedGroupBy.set('none');
     }
+    this.loadViewConfigFromStorage();
     void this.refreshQuizzs();
     this.loadViewPreferencesFromStorage();
     // Lire les paramètres de l'URL au démarrage
@@ -270,6 +302,45 @@ export class BooksComponent implements OnInit {
         this.selectedGroupBy.set(queryParams['groupBy']);
       }
     }
+  }
+
+  openViewConfig(): void {
+    this.isViewConfigOpen.set(true);
+  }
+
+  closeViewConfig(): void {
+    this.isViewConfigOpen.set(false);
+  }
+
+  onOptionalViewChange(view: OptionalBookView, enabled: boolean): void {
+    this.optionalViewConfig.update((current) => ({
+      ...current,
+      [view]: enabled,
+    }));
+  }
+
+  private isViewOptionVisible(view: BookView): boolean {
+    if (view === 'read' || view === 'readlist') {
+      return true;
+    }
+    return this.optionalViewConfig()[view];
+  }
+
+  private loadViewConfigFromStorage(): void {
+    const parsed = this.localStorageService.getItem<
+      Partial<Record<OptionalBookView, boolean>>
+    >(this.viewConfigStorageKey);
+    if (!parsed || typeof parsed !== 'object') return;
+    this.isLoadingViewConfig = true;
+    this.optionalViewConfig.set({
+      owned: parsed.owned ?? true,
+      toReRead: parsed.toReRead ?? true,
+      authors: parsed.authors ?? false,
+      sagas: parsed.sagas ?? false,
+      countries: parsed.countries ?? false,
+      recommendations: parsed.recommendations ?? false,
+    });
+    this.isLoadingViewConfig = false;
   }
 
   private loadViewPreferencesFromStorage(): void {

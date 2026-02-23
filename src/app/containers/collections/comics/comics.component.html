@@ -10,10 +10,11 @@
     [allComicsCount]="allComics().length"
     [allReadlistComicsCount]="allReadlistComics().length"
     [stats]="stats()"
-    [viewOptions]="viewOptions"
+    [viewOptions]="visibleViewOptions()"
     [sortOptions]="sortOptions()"
     [showTopFiveRank]="showTopFiveRank()"
     (onViewChange)="onViewChange($any($event))"
+    (onOpenViewConfig)="openViewConfig()"
     (onSearchChange)="onSearchChange($event)"
     (onSortChange)="onSortChange($event)"
     (onTopFiveRankChange)="toggleTopFiveRankDisplay()"
@@ -73,3 +74,50 @@
   [quizzs]="activeQuizzs()"
   (close)="closeQuizzModal()"
 ></app-quizz-modal>
+
+@if (isViewConfigOpen()) {
+<div class="comics-config-overlay" (click)="closeViewConfig()">
+  <div
+    class="comics-config-content"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Configurer ma vue comics"
+    (click)="$event.stopPropagation()"
+  >
+    <div class="comics-config-header">
+      <h2>Configurer ma vue comics</h2>
+      <button class="comics-config-close" (click)="closeViewConfig()">✕</button>
+    </div>
+    <div class="comics-config-body">
+      <p class="comics-config-subtitle">Choisissez les onglets à afficher.</p>
+      <label class="comics-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().owned"
+          (change)="onOptionalViewChange('owned', $any($event.target).checked)"
+        />
+        Comics possédés
+      </label>
+      <label class="comics-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().toReRead"
+          (change)="onOptionalViewChange('toReRead', $any($event.target).checked)"
+        />
+        À relire
+      </label>
+      <label class="comics-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().recommendations"
+          (change)="onOptionalViewChange('recommendations', $any($event.target).checked)"
+        />
+        Recommandations
+      </label>
+      <p class="comics-config-hint">
+        "Comics lus" et "Comics à lire" restent affichés par défaut.
+      </p>
+    </div>
+  </div>
+</div>
+}

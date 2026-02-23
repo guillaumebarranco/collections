@@ -35,6 +35,7 @@ import { FormsModule } from '@angular/forms';
 })
 export class BdsHeaderComponent {
   onViewChange = output<BdView>();
+  onOpenViewConfig = output<void>();
   onSearchChange = output<string>();
   onSortChange = output<string>();
   onTopFiveRankChange = output<void>();

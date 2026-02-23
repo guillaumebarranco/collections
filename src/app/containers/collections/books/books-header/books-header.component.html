@@ -21,10 +21,16 @@
       [selected]="selectedView()"
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
-    }
-
+    } @if (!isAdminView()) {
     <div class="books-actions">
-      @if (!isAdminView()) {
+      <button
+        class="makya-btn-small"
+        type="button"
+        title="Configurer l'affichage des onglets"
+        (click)="onOpenViewConfig.emit()"
+      >
+        ⚙️ Configurer ma vue livres
+      </button>
       <button
         class="makya-btn-small"
         [routerLink]="getSelectBooksRoute()"
@@ -67,8 +73,8 @@
       >
         🏆 Top 5
       </button>
-      }
     </div>
+    }
   </div>
   } @if(allBooksCount() === 0) {
   <div class="empty-state">

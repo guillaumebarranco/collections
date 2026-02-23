@@ -2,6 +2,8 @@ import { Comic } from '../../../models/comic-model';
 
 export type ComicView = 'read' | 'readlist' | 'owned' | 'toReRead' | 'recommendations';
 
+export type OptionalComicView = Exclude<ComicView, 'read' | 'readlist'>;
+
 export const comicsSortOptions: { value: string; label: string }[] = [
   { value: 'title', label: 'Titre (A-Z)' },
   { value: 'title-desc', label: 'Titre (Z-A)' },

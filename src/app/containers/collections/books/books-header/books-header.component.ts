@@ -39,6 +39,7 @@ import { DEFAULT_USER_ID } from '../../../../utils/constants';
 })
 export class BooksHeaderComponent {
   onViewChange = output<BookView>();
+  onOpenViewConfig = output<void>();
   onYearFilterChange = output<string>();
   onSearchChange = output<string>();
   onSortChange = output<string>();

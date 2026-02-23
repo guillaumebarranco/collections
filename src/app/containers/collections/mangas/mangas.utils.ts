@@ -2,6 +2,8 @@ import { Manga } from '../../../models/manga-model';
 
 export type MangaView = 'read' | 'readlist' | 'owned' | 'toReRead' | 'recommendations';
 
+export type OptionalMangaView = Exclude<MangaView, 'read' | 'readlist'>;
+
 export const mangasSortOptions: { value: string; label: string }[] = [
   { value: 'title', label: 'Titre (A-Z)' },
   { value: 'title-desc', label: 'Titre (Z-A)' },

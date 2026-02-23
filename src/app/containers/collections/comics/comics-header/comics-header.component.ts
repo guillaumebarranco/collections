@@ -35,6 +35,7 @@ import { FormsModule } from '@angular/forms';
 })
 export class ComicsHeaderComponent {
   onViewChange = output<ComicView>();
+  onOpenViewConfig = output<void>();
   onSearchChange = output<string>();
   onSortChange = output<string>();
   onTopFiveRankChange = output<void>();

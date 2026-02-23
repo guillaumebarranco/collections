@@ -22,6 +22,7 @@ import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { Quizz } from '../../../models/quizz-model';
 import {
   SerieView,
+  OptionalSerieView,
   getSeriesByCountry,
   getSeriesSortOptions,
   getSortedSeries,
@@ -77,15 +78,24 @@ export class SeriesComponent implements OnInit {
   private readonly topFiveService = inject(TopFiveService);
   private readonly authService = inject(AuthService);
   private isLoadingPreferences = false;
+  private isLoadingViewConfig = false;
+  private readonly viewConfigStorageKey = 'series_view_config';
   private readonly viewPreferencesStorageKey = 'series_view_preferences';
 
   selectedSort = signal<string>('rating');
   selectedView = signal<SerieView>('finished');
   searchTerm = signal<string>('');
   showTopFiveRank = signal<boolean>(false);
+  isViewConfigOpen = signal<boolean>(false);
   isQuizzModalOpen = signal<boolean>(false);
   activeQuizzs = signal<Quizz[]>([]);
   quizzs = signal<Quizz[]>([]);
+  optionalViewConfig = signal<Record<OptionalSerieView, boolean>>({
+    owned: true,
+    toReWatch: true,
+    countries: false,
+    recommendations: false,
+  });
 
   sortOptions = computed<SortOption[]>(() =>
     getSeriesSortOptions(this.selectedView())
@@ -94,6 +104,10 @@ export class SeriesComponent implements OnInit {
   collapsedCountries = signal<Record<string, boolean>>({});
 
   viewOptions: { value: SerieView; label: string }[] = serieViewOptions;
+
+  visibleViewOptions = computed(() =>
+    this.viewOptions.filter((option) => this.isViewOptionVisible(option.value))
+  );
 
   seriesList = signal<{ [key: string]: Serie[] }>({});
   watchingSeriesList = signal<{ [key: string]: Serie[] }>({});
@@ -114,6 +128,20 @@ export class SeriesComponent implements OnInit {
         this.viewPreferencesStorageKey,
         preferences
       );
+    });
+
+    effect(() => {
+      const config = this.optionalViewConfig();
+      if (this.isLoadingViewConfig || this.isAdminView()) return;
+      this.localStorageService.setItem(this.viewConfigStorageKey, config);
+    });
+
+    effect(() => {
+      const view = this.selectedView();
+      if (this.isAdminView()) return;
+      if (!this.isViewOptionVisible(view)) {
+        this.selectedView.set('finished');
+      }
     });
   }
 
@@ -202,6 +230,43 @@ export class SeriesComponent implements OnInit {
     ];
   });
 
+  openViewConfig(): void {
+    this.isViewConfigOpen.set(true);
+  }
+
+  closeViewConfig(): void {
+    this.isViewConfigOpen.set(false);
+  }
+
+  onOptionalViewChange(view: OptionalSerieView, enabled: boolean): void {
+    this.optionalViewConfig.update((current) => ({
+      ...current,
+      [view]: enabled,
+    }));
+  }
+
+  private isViewOptionVisible(view: SerieView): boolean {
+    if (view === 'finished' || view === 'watchlist') {
+      return true;
+    }
+    return this.optionalViewConfig()[view];
+  }
+
+  private loadViewConfigFromStorage(): void {
+    const parsed = this.localStorageService.getItem<
+      Partial<Record<OptionalSerieView, boolean>>
+    >(this.viewConfigStorageKey);
+    if (!parsed || typeof parsed !== 'object') return;
+    this.isLoadingViewConfig = true;
+    this.optionalViewConfig.set({
+      owned: parsed.owned ?? true,
+      toReWatch: parsed.toReWatch ?? true,
+      countries: parsed.countries ?? false,
+      recommendations: parsed.recommendations ?? false,
+    });
+    this.isLoadingViewConfig = false;
+  }
+
   private loadViewPreferencesFromStorage(): void {
     const parsed = this.localStorageService.getItem<
       Partial<{
@@ -230,6 +295,7 @@ export class SeriesComponent implements OnInit {
     if (this.isAdminView()) {
       this.selectedView.set('finished');
     }
+    this.loadViewConfigFromStorage();
     void this.refreshQuizzs();
     this.loadViewPreferencesFromStorage();
     void this.refreshSeries();

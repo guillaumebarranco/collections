@@ -23,6 +23,7 @@ import { Quizz } from '../../../models/quizz-model';
 
 import {
   GameView,
+  OptionalGameView,
   gameViewOptions,
   gamesSortOptions,
   getSortedGames,
@@ -79,15 +80,25 @@ export class GamesComponent implements OnInit {
   private readonly authService = inject(AuthService);
   private readonly topFiveService = inject(TopFiveService);
   private isLoadingPreferences = false;
+  private isLoadingViewConfig = false;
+  private readonly viewConfigStorageKey = 'games_view_config';
   private readonly viewPreferencesStorageKey = 'games_view_preferences';
 
   selectedSort = signal<string>('rating');
   selectedView = signal<GameView>('played');
   searchTerm = signal<string>('');
   showTopFiveRank = signal<boolean>(false);
+  isViewConfigOpen = signal<boolean>(false);
   isQuizzModalOpen = signal<boolean>(false);
   activeQuizzs = signal<Quizz[]>([]);
   quizzs = signal<Quizz[]>([]);
+  optionalViewConfig = signal<Record<OptionalGameView, boolean>>({
+    platined: true,
+    owned: true,
+    finished: true,
+    toRePlay: true,
+    recommendations: false,
+  });
 
   sortOptions = signal<SortOption[]>(gamesSortOptions);
 
@@ -100,6 +111,10 @@ export class GamesComponent implements OnInit {
 
     return options;
   });
+
+  visibleViewOptions = computed(() =>
+    this.viewOptions().filter((option) => this.isViewOptionVisible(option.value))
+  );
 
   gamesList = signal<{ [key: string]: Game[] }>({});
   gamelistGamesList = signal<{ [key: string]: Game[] }>({});
@@ -125,6 +140,20 @@ export class GamesComponent implements OnInit {
         this.viewPreferencesStorageKey,
         preferences
       );
+    });
+
+    effect(() => {
+      const config = this.optionalViewConfig();
+      if (this.isLoadingViewConfig || this.isAdminView()) return;
+      this.localStorageService.setItem(this.viewConfigStorageKey, config);
+    });
+
+    effect(() => {
+      const view = this.selectedView();
+      if (this.isAdminView()) return;
+      if (!this.isViewOptionVisible(view)) {
+        this.selectedView.set('played');
+      }
     });
   }
 
@@ -228,6 +257,7 @@ export class GamesComponent implements OnInit {
     if (this.isAdminView()) {
       this.selectedView.set('finished');
     }
+    this.loadViewConfigFromStorage();
     void this.refreshQuizzs();
     this.loadViewPreferencesFromStorage();
     void this.refreshGames();
@@ -311,6 +341,44 @@ export class GamesComponent implements OnInit {
   closeQuizzModal() {
     this.isQuizzModalOpen.set(false);
     this.activeQuizzs.set([]);
+  }
+
+  openViewConfig(): void {
+    this.isViewConfigOpen.set(true);
+  }
+
+  closeViewConfig(): void {
+    this.isViewConfigOpen.set(false);
+  }
+
+  onOptionalViewChange(view: OptionalGameView, enabled: boolean): void {
+    this.optionalViewConfig.update((current) => ({
+      ...current,
+      [view]: enabled,
+    }));
+  }
+
+  private isViewOptionVisible(view: GameView): boolean {
+    if (view === 'played' || view === 'gamelist') {
+      return true;
+    }
+    return this.optionalViewConfig()[view];
+  }
+
+  private loadViewConfigFromStorage(): void {
+    const parsed = this.localStorageService.getItem<
+      Partial<Record<OptionalGameView, boolean>>
+    >(this.viewConfigStorageKey);
+    if (!parsed || typeof parsed !== 'object') return;
+    this.isLoadingViewConfig = true;
+    this.optionalViewConfig.set({
+      platined: parsed.platined ?? true,
+      owned: parsed.owned ?? true,
+      finished: parsed.finished ?? true,
+      toRePlay: parsed.toRePlay ?? true,
+      recommendations: parsed.recommendations ?? false,
+    });
+    this.isLoadingViewConfig = false;
   }
 
   private loadViewPreferencesFromStorage(): void {

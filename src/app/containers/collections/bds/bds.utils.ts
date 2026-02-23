@@ -2,6 +2,8 @@ import { Bd } from '../../../models/bd-model';
 
 export type BdView = 'read' | 'readlist' | 'owned' | 'toReRead' | 'recommendations';
 
+export type OptionalBdView = Exclude<BdView, 'read' | 'readlist'>;
+
 export const bdsSortOptions: { value: string; label: string }[] = [
   { value: 'title', label: 'Titre (A-Z)' },
   { value: 'title-desc', label: 'Titre (Z-A)' },

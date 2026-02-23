@@ -19,8 +19,16 @@
     ></app-view-toggle>
     }
 
+    @if (!isAdminView()) {
     <div class="games-actions">
-      @if (!isAdminView()) {
+      <button
+        class="makya-btn-small"
+        type="button"
+        title="Configurer l'affichage des onglets"
+        (click)="onOpenViewConfig.emit()"
+      >
+        ⚙️ Configurer ma vue jeux
+      </button>
       <button
         class="makya-btn-small"
         [routerLink]="getSelectGamesRoute()"
@@ -58,7 +66,6 @@
       >
         ✅ Possédés
       </button>
-      }
       <button
         class="makya-btn-small"
         [class.active]="showTopFiveRank()"
@@ -68,6 +75,7 @@
         🏆 Top 5
       </button>
     </div>
+    }
   </div>
   } @if(allGamesCount() === 0 && allGamelistGamesCount() === 0) {
   <div class="empty-state">

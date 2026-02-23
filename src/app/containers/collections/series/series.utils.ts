@@ -15,6 +15,8 @@ export type SerieView =
   | 'countries'
   | 'recommendations';
 
+export type OptionalSerieView = Exclude<SerieView, 'finished' | 'watchlist'>;
+
 export const seriesSortOptions: { value: string; label: string }[] = [
   { value: 'title', label: 'Titre (A-Z)' },
   { value: 'title-desc', label: 'Titre (Z-A)' },

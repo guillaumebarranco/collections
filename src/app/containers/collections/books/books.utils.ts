@@ -10,6 +10,8 @@ export type BookView =
   | 'countries'
   | 'recommendations';
 
+export type OptionalBookView = Exclude<BookView, 'read' | 'readlist'>;
+
 export const booksSortOptions: { value: string; label: string }[] = [
   { value: 'title', label: 'Titre (A-Z)' },
   { value: 'title-desc', label: 'Titre (Z-A)' },

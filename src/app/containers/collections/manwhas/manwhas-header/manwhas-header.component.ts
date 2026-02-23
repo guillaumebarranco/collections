@@ -35,6 +35,7 @@ import { FormsModule } from '@angular/forms';
 })
 export class ManwhasHeaderComponent {
   onViewChange = output<ManwhaView>();
+  onOpenViewConfig = output<void>();
   onSearchChange = output<string>();
   onSortChange = output<string>();
   onTopFiveRankChange = output<void>();

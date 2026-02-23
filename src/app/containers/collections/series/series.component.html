@@ -9,10 +9,11 @@
     [recommendedSeriesCount]="recommendedSeries().length"
     [allSeriesCount]="allSeries().length"
     [stats]="stats()"
-    [viewOptions]="viewOptions"
+    [viewOptions]="visibleViewOptions()"
     [sortOptions]="sortOptions()"
     [showTopFiveRank]="showTopFiveRank()"
     (onViewChange)="onViewChange($any($event))"
+    (onOpenViewConfig)="openViewConfig()"
     (onSearchChange)="onSearchChange($event)"
     (onSortChange)="onSortChange($event)"
     (onTopFiveRankChange)="toggleTopFiveRankDisplay()"
@@ -141,3 +142,58 @@
   [quizzs]="activeQuizzs()"
   (close)="closeQuizzModal()"
 ></app-quizz-modal>
+
+@if (isViewConfigOpen()) {
+<div class="series-config-overlay" (click)="closeViewConfig()">
+  <div
+    class="series-config-content"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Configurer ma vue séries"
+    (click)="$event.stopPropagation()"
+  >
+    <div class="series-config-header">
+      <h2>Configurer ma vue séries</h2>
+      <button class="series-config-close" (click)="closeViewConfig()">✕</button>
+    </div>
+    <div class="series-config-body">
+      <p class="series-config-subtitle">Choisissez les onglets à afficher.</p>
+      <label class="series-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().owned"
+          (change)="onOptionalViewChange('owned', $any($event.target).checked)"
+        />
+        Séries possédées
+      </label>
+      <label class="series-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().toReWatch"
+          (change)="onOptionalViewChange('toReWatch', $any($event.target).checked)"
+        />
+        À revoir
+      </label>
+      <label class="series-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().countries"
+          (change)="onOptionalViewChange('countries', $any($event.target).checked)"
+        />
+        Voir par pays
+      </label>
+      <label class="series-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().recommendations"
+          (change)="onOptionalViewChange('recommendations', $any($event.target).checked)"
+        />
+        Recommandations
+      </label>
+      <p class="series-config-hint">
+        "Séries finies" et "Séries à voir" restent affichés par défaut.
+      </p>
+    </div>
+  </div>
+</div>
+}

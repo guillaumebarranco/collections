@@ -10,10 +10,11 @@
     [allMangasCount]="allMangas().length"
     [allReadlistMangasCount]="allReadlistMangas().length"
     [stats]="stats()"
-    [viewOptions]="viewOptions"
+    [viewOptions]="visibleViewOptions()"
     [sortOptions]="sortOptions()"
     [showTopFiveRank]="showTopFiveRank()"
     (onViewChange)="onViewChange($any($event))"
+    (onOpenViewConfig)="openViewConfig()"
     (onSearchChange)="onSearchChange($event)"
     (onSortChange)="onSortChange($event)"
     (onTopFiveRankChange)="toggleTopFiveRankDisplay()"
@@ -73,3 +74,50 @@
   [quizzs]="activeQuizzs()"
   (close)="closeQuizzModal()"
 ></app-quizz-modal>
+
+@if (isViewConfigOpen()) {
+<div class="mangas-config-overlay" (click)="closeViewConfig()">
+  <div
+    class="mangas-config-content"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Configurer ma vue mangas"
+    (click)="$event.stopPropagation()"
+  >
+    <div class="mangas-config-header">
+      <h2>Configurer ma vue mangas</h2>
+      <button class="mangas-config-close" (click)="closeViewConfig()">✕</button>
+    </div>
+    <div class="mangas-config-body">
+      <p class="mangas-config-subtitle">Choisissez les onglets à afficher.</p>
+      <label class="mangas-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().owned"
+          (change)="onOptionalViewChange('owned', $any($event.target).checked)"
+        />
+        Mangas possédés
+      </label>
+      <label class="mangas-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().toReRead"
+          (change)="onOptionalViewChange('toReRead', $any($event.target).checked)"
+        />
+        À relire
+      </label>
+      <label class="mangas-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().recommendations"
+          (change)="onOptionalViewChange('recommendations', $any($event.target).checked)"
+        />
+        Recommandations
+      </label>
+      <p class="mangas-config-hint">
+        "Mangas lus" et "Mangas à lire" restent affichés par défaut.
+      </p>
+    </div>
+  </div>
+</div>
+}

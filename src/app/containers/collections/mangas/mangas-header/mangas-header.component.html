@@ -19,8 +19,16 @@
     ></app-view-toggle>
     }
 
+    @if (!isAdminView()) {
     <div class="mangas-actions">
-      @if (!isAdminView()) {
+      <button
+        class="makya-btn-small"
+        type="button"
+        title="Configurer l'affichage des onglets"
+        (click)="onOpenViewConfig.emit()"
+      >
+        ⚙️ Configurer ma vue mangas
+      </button>
       <button
         class="makya-btn-small"
         [routerLink]="getSelectMangasRoute()"
@@ -55,7 +63,6 @@
       >
         ✅ Possédés
       </button>
-      }
       <button
         class="makya-btn-small"
         [class.active]="showTopFiveRank()"
@@ -65,6 +72,7 @@
         🏆 Top 5
       </button>
     </div>
+    }
   </div>
   } @if(!isAdminView() && allMangasCount() === 0 && allReadlistMangasCount() === 0) {
   <div class="empty-state">

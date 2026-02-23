@@ -19,11 +19,12 @@
     [allBooksCount]="allBooks().length"
     [showTopFiveRank]="showTopFiveRank()"
     [stats]="stats()"
-    [viewOptions]="viewOptions"
+    [viewOptions]="visibleViewOptions()"
     [sortOptions]="sortOptions()"
     [yearFilterOptions]="yearFilterOptions"
     [groupByOptions]="groupByOptions"
     (onViewChange)="onViewChange($any($event))"
+    (onOpenViewConfig)="openViewConfig()"
     (onYearFilterChange)="onYearFilterChange($event)"
     (onSearchChange)="onSearchChange($event)"
     (onSortChange)="onSortChange($event)"
@@ -299,3 +300,74 @@
   [quizzs]="activeQuizzs()"
   (close)="closeQuizzModal()"
 ></app-quizz-modal>
+
+@if (isViewConfigOpen()) {
+<div class="books-config-overlay" (click)="closeViewConfig()">
+  <div
+    class="books-config-content"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Configurer ma vue livres"
+    (click)="$event.stopPropagation()"
+  >
+    <div class="books-config-header">
+      <h2>Configurer ma vue livres</h2>
+      <button class="books-config-close" (click)="closeViewConfig()">✕</button>
+    </div>
+    <div class="books-config-body">
+      <p class="books-config-subtitle">Choisissez les onglets à afficher.</p>
+      <label class="books-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().owned"
+          (change)="onOptionalViewChange('owned', $any($event.target).checked)"
+        />
+        Livres possédés
+      </label>
+      <label class="books-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().toReRead"
+          (change)="onOptionalViewChange('toReRead', $any($event.target).checked)"
+        />
+        Livres à relire
+      </label>
+      <label class="books-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().authors"
+          (change)="onOptionalViewChange('authors', $any($event.target).checked)"
+        />
+        Voir par auteurs
+      </label>
+      <label class="books-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().sagas"
+          (change)="onOptionalViewChange('sagas', $any($event.target).checked)"
+        />
+        Voir par sagas
+      </label>
+      <label class="books-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().countries"
+          (change)="onOptionalViewChange('countries', $any($event.target).checked)"
+        />
+        Voir par pays
+      </label>
+      <label class="books-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().recommendations"
+          (change)="onOptionalViewChange('recommendations', $any($event.target).checked)"
+        />
+        Recommandations
+      </label>
+      <p class="books-config-hint">
+        "Lus" et "À lire" restent affichés par défaut.
+      </p>
+    </div>
+  </div>
+</div>
+}
