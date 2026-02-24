@@ -1,25 +1,21 @@
 <div class="games-header">
   <h1>
-    @if (isAdminView()) { Jeux ({{ filteredGamesCount() }}) } @else {
     {{ gamesPageTitle() }} ({{
       selectedView() === "recommendations"
         ? recommendedGamesCount()
         : filteredGamesCount()
-    }}) }
+    }})
   </h1>
 
   @if(allGamesCount() !== 0 || allGamelistGamesCount() !== 0) {
   <div class="games-header-top">
-    @if (!isAdminView()) {
     <app-view-toggle
       [toggleClass]="'games-view-toggle'"
       [options]="viewOptions()"
       [selected]="selectedView()"
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
-    }
 
-    @if (!isAdminView()) {
     <div class="games-actions">
       <button
         class="makya-btn-small"
@@ -75,7 +71,6 @@
         🏆 Top 5
       </button>
     </div>
-    }
   </div>
   } @if(allGamesCount() === 0 && allGamelistGamesCount() === 0) {
   <div class="empty-state">
@@ -90,14 +85,12 @@
   }
 
   <div class="games-stats-bloc">
-    @if (!isAdminView()) {
     <app-stats-display
       [stats]="stats()"
       [count]="filteredGamesCount()"
       countLabel="jeux"
     >
     </app-stats-display>
-    }
 
     <app-sort-dropdown
       [sortOptions]="sortOptions()"

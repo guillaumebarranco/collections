@@ -1,0 +1,27 @@
+<app-menu></app-menu>
+
+<div class="games-container">
+  <app-admin-games-header
+    [selectedView]="selectedView()"
+    [searchTermInput]="searchTerm()"
+    [filteredGamesCount]="filteredGames().length"
+    [viewOptions]="visibleViewOptions()"
+    (onViewChange)="onViewChange($any($event))"
+    (onSearchChange)="onSearchChange($event)"
+  ></app-admin-games-header>
+
+  <div class="games">
+    @for (game of sortedGames(); track game.title; let i = $index) {
+    <div class="game-card">
+      <app-game
+        [game]="game"
+        [list]="sortedGames()"
+        [index]="i"
+        [quizzs]="[]"
+        [readOnly]="true"
+        (gameUpdated)="refreshGames()"
+      ></app-game>
+    </div>
+    }
+  </div>
+</div>

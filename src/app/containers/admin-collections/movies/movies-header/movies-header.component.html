@@ -1,0 +1,33 @@
+<div class="movies-header">
+  <h1>{{ moviesPageTitle() }} ({{ filteredMoviesByYearCount() }})</h1>
+
+  <button class="makya-btn" (click)="openAddMovieAdminDialog()">
+    Créer un nouveau film
+  </button>
+
+  @if (allMoviesCount() !== 0) {
+  <div class="movies-header-top">
+    <app-view-toggle
+      [toggleClass]="'movies-view-toggle'"
+      [options]="visibleMovieViewOptions()"
+      [selected]="selectedView()"
+      (selectedChange)="onViewChange.emit($any($event))"
+    ></app-view-toggle>
+  </div>
+  }
+
+  @if (filteredMoviesByYearCount() === 0) {
+  <div class="empty-state">
+    <p class="empty-message">Aucun film à afficher pour cette sélection.</p>
+  </div>
+  }
+
+  <div class="movies-search">
+    <input
+      type="text"
+      placeholder="Rechercher par titre, réalisateur, acteur..."
+      [ngModel]="searchTerm()"
+      (ngModelChange)="onSearchChange.emit($event)"
+    />
+  </div>
+</div>

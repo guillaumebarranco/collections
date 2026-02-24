@@ -44,7 +44,6 @@ import { EditManwhaComponent } from '../../edit/edit-manwha/edit-manwha.componen
 import { LocalStorageService } from '../../../services/local-storage.service';
 import { Quizz } from '../../../models/quizz-model';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
-import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
 import { getFullManwha } from '../../../helpers/full-entities-helper';
 import {
@@ -79,7 +78,6 @@ export class ManwhasComponent implements OnInit {
   router = inject(Router);
   private readonly dialog = inject(MatDialog);
   private readonly localStorageService = inject(LocalStorageService);
-  private readonly authService = inject(AuthService);
   private readonly topFiveService = inject(TopFiveService);
   private isLoadingPreferences = false;
   private isLoadingViewConfig = false;
@@ -105,12 +103,13 @@ export class ManwhasComponent implements OnInit {
   viewOptions: { value: ManwhaView; label: string }[] = manwhaViewOptions;
 
   visibleViewOptions = computed(() =>
-    this.viewOptions.filter((option) => this.isViewOptionVisible(option.value))
+    this.viewOptions.filter((option) =>
+      this.isViewOptionVisible(option.value)
+    )
   );
 
   manwhasList = signal<{ [key: string]: Manwha[] }>({});
   readlistManwhasList = signal<{ [key: string]: Manwha[] }>({});
-  adminManwhasList = signal<Manwha[]>([]);
   baseManwhasList = signal<Manwha[]>([]);
   recommendations = signal<RecommendedManwha[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
@@ -123,7 +122,7 @@ export class ManwhasComponent implements OnInit {
 
   constructor() {
     effect(() => {
-      if (this.isLoadingPreferences || this.isAdminView()) return;
+      if (this.isLoadingPreferences) return;
       const preferences = {
         view: this.selectedView(),
         sort: this.selectedSort(),
@@ -136,13 +135,12 @@ export class ManwhasComponent implements OnInit {
 
     effect(() => {
       const config = this.optionalViewConfig();
-      if (this.isLoadingViewConfig || this.isAdminView()) return;
+      if (this.isLoadingViewConfig) return;
       this.localStorageService.setItem(this.viewConfigStorageKey, config);
     });
 
     effect(() => {
       const view = this.selectedView();
-      if (this.isAdminView()) return;
       if (!this.isViewOptionVisible(view)) {
         this.selectedView.set('read');
       }
@@ -150,41 +148,31 @@ export class ManwhasComponent implements OnInit {
   }
 
   allManwhas = computed<Manwha[]>(() => {
-    if (this.isAdminView()) {
-      return this.adminManwhasList();
-    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
-
-    const manwhas = hasNameParam
+    return hasNameParam
       ? this.manwhasList()[params['id']] || []
       : this.manwhasList()[DEFAULT_USER_ID];
-
-    return manwhas;
   });
 
   allReadlistManwhas = computed<Manwha[]>(() => {
-    if (this.isAdminView()) {
-      return [];
-    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
-
     return hasNameParam
       ? this.readlistManwhasList()[params['id']] || []
       : this.readlistManwhasList()[DEFAULT_USER_ID];
   });
 
   filteredManwhas = computed<Manwha[]>(() => {
-    let manwhas = this.allManwhas();
-    if (this.isAdminView()) {
-      manwhas = this.allManwhas();
-    } else if (this.selectedView() === 'readlist') {
+    let manwhas: Manwha[];
+    if (this.selectedView() === 'readlist') {
       manwhas = this.allReadlistManwhas();
     } else if (this.selectedView() === 'owned') {
       manwhas = this.allManwhas().filter((manwha) => manwha.owned);
     } else if (this.selectedView() === 'toReRead') {
       manwhas = this.allManwhas().filter((manwha) => manwha.wantToReadAgain === true);
+    } else {
+      manwhas = this.allManwhas();
     }
 
     const term = this.searchTerm().trim().toLowerCase();
@@ -202,9 +190,6 @@ export class ManwhasComponent implements OnInit {
   );
 
   stats = computed<StatItem[]>(() => {
-    if (this.isAdminView()) {
-      return [];
-    }
     const totalChapters = this.calculateTotalChapters();
     const totalPages = this.calculateTotalManwhasPages();
     const totalChaptersRead = getTotalManwhasChaptersRead(
@@ -326,9 +311,6 @@ export class ManwhasComponent implements OnInit {
   }
 
   async ngOnInit() {
-    if (this.isAdminView()) {
-      this.selectedView.set('read');
-    }
     this.loadViewConfigFromStorage();
     void this.refreshQuizzs();
     this.loadViewPreferencesFromStorage();
@@ -413,14 +395,6 @@ export class ManwhasComponent implements OnInit {
   }
 
   private async refreshManwhas() {
-    if (this.isAdminView()) {
-      const baseManwhas = await getAllBaseManwhas();
-      const manwhas = baseManwhas.map(getFullManwha);
-      this.adminManwhasList.set(manwhas);
-      this.baseManwhasList.set(manwhas);
-      return;
-    }
-
     const userId = this.getActiveUserId();
     const [manwhas, readlist, baseManwhas] = await Promise.all([
       getAllManwhas(userId),
@@ -440,10 +414,6 @@ export class ManwhasComponent implements OnInit {
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? DEFAULT_USER_ID;
-  }
-
-  public isAdminView(): boolean {
-    return this.authService.isAdmin() && this.router.url.startsWith('/admin');
   }
 
   getTopFiveRank(manwha: Manwha): number | null {
@@ -467,7 +437,6 @@ export class ManwhasComponent implements OnInit {
   }
 
   async loadRecommendations() {
-    if (this.isAdminView()) return;
     if (this.isLoadingRecommendations()) return;
 
     const userId = this.getActiveUserId();

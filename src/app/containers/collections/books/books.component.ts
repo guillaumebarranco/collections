@@ -53,7 +53,6 @@ import { LocalStorageService } from '../../../services/local-storage.service';
 import { TopFiveService } from '../../../services/top-five.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
-import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
 import { getFullBook } from '../../../helpers/full-entities-helper';
 import {
@@ -96,7 +95,6 @@ export class BooksComponent implements OnInit {
 
   activatedRoute = inject(ActivatedRoute);
   router = inject(Router);
-  private readonly authService = inject(AuthService);
   private readonly localStorageService = inject(LocalStorageService);
   private readonly topFiveService = inject(TopFiveService);
   private readonly dialog = inject(MatDialog);
@@ -129,12 +127,13 @@ export class BooksComponent implements OnInit {
   viewOptions = bookViewOptions;
 
   visibleViewOptions = computed(() =>
-    this.viewOptions.filter((option) => this.isViewOptionVisible(option.value))
+    this.viewOptions.filter((option) =>
+      this.isViewOptionVisible(option.value)
+    )
   );
 
   booksList = signal<{ [key: string]: Book[] }>({});
   readlistBooksList = signal<{ [key: string]: Book[] }>({});
-  adminBooksList = signal<Book[]>([]);
   baseBooksList = signal<Book[]>([]);
   recommendations = signal<RecommendedBook[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
@@ -143,7 +142,7 @@ export class BooksComponent implements OnInit {
   constructor() {
     // Synchroniser les changements de filtres/tri avec l'URL
     effect(() => {
-      if (this.isInitializing || this.isAdminView()) return;
+      if (this.isInitializing) return;
 
       const queryParams: any = {};
 
@@ -180,12 +179,7 @@ export class BooksComponent implements OnInit {
     });
 
     effect(() => {
-      if (
-        this.isLoadingPreferences ||
-        this.isInitializing ||
-        this.isAdminView()
-      )
-        return;
+      if (this.isLoadingPreferences || this.isInitializing) return;
       const preferences = {
         view: this.selectedView(),
         sort: this.selectedSort(),
@@ -200,13 +194,12 @@ export class BooksComponent implements OnInit {
 
     effect(() => {
       const config = this.optionalViewConfig();
-      if (this.isLoadingViewConfig || this.isAdminView()) return;
+      if (this.isLoadingViewConfig) return;
       this.localStorageService.setItem(this.viewConfigStorageKey, config);
     });
 
     effect(() => {
       const view = this.selectedView();
-      if (this.isAdminView()) return;
       if (!this.isViewOptionVisible(view)) {
         this.selectedView.set('read');
       }
@@ -214,10 +207,6 @@ export class BooksComponent implements OnInit {
   }
 
   ngOnInit() {
-    if (this.isAdminView()) {
-      this.selectedView.set('read');
-      this.selectedGroupBy.set('none');
-    }
     this.loadViewConfigFromStorage();
     void this.refreshQuizzs();
     this.loadViewPreferencesFromStorage();
@@ -235,14 +224,6 @@ export class BooksComponent implements OnInit {
   }
 
   async refreshBooks() {
-    if (this.isAdminView()) {
-      const baseBooks = await getAllBaseBooks();
-      const books = baseBooks.map(getFullBook);
-      this.adminBooksList.set(books);
-      this.baseBooksList.set(books);
-      return;
-    }
-
     const userId = this.getActiveUserId();
     const [books, readlist, baseBooks] = await Promise.all([
       getAllBooks(userId),
@@ -382,21 +363,14 @@ export class BooksComponent implements OnInit {
   }
 
   allBooks = computed<Book[]>(() => {
-    if (this.isAdminView()) {
-      return this.adminBooksList();
-    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
-
     return hasNameParam
       ? this.booksList()[params['id']] || []
       : this.booksList()[DEFAULT_USER_ID];
   });
 
   allReadlistBooks = computed<Book[]>(() => {
-    if (this.isAdminView()) {
-      return [];
-    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
@@ -405,10 +379,8 @@ export class BooksComponent implements OnInit {
   });
 
   filteredBooks = computed<Book[]>(() => {
-    let books = this.allBooks();
-    if (this.isAdminView()) {
-      books = this.allBooks();
-    } else if (this.selectedView() === 'readlist') {
+    let books: Book[] = this.allBooks();
+    if (this.selectedView() === 'readlist') {
       books = this.allReadlistBooks();
     } else if (this.selectedView() === 'owned') {
       books = this.allBooks().filter((book) => book.owned);
@@ -438,10 +410,6 @@ export class BooksComponent implements OnInit {
 
   filteredBooksByYear = computed(() => {
     let filteredBooks = [...this.filteredBooks()];
-
-    if (this.isAdminView()) {
-      return filteredBooks;
-    }
 
     // Filtrage par année (livres lus ou à relire)
     if (this.selectedView() === 'read' || this.selectedView() === 'toReRead') {
@@ -503,9 +471,6 @@ export class BooksComponent implements OnInit {
   });
 
   stats = computed<StatItem[]>(() => {
-    if (this.isAdminView()) {
-      return [];
-    }
     // Utiliser les livres filtrés pour les stats
     const booksToUse = this.filteredBooksByYear();
     const totalPages = getTotalPages(booksToUse);
@@ -597,7 +562,6 @@ export class BooksComponent implements OnInit {
       allBooks: this.allBooks(),
       baseBooks: this.baseBooksList(),
       selectedSort: 'readDate',
-      isAdminView: this.isAdminView(),
     });
   });
 
@@ -610,7 +574,6 @@ export class BooksComponent implements OnInit {
       allBooks: this.allBooks(),
       baseBooks: this.baseBooksList(),
       selectedSort: 'readDate',
-      isAdminView: this.isAdminView(),
     });
   });
 
@@ -623,7 +586,6 @@ export class BooksComponent implements OnInit {
       allBooks: this.allBooks(),
       baseBooks: this.baseBooksList(),
       selectedSort: this.selectedSort(),
-      isAdminView: this.isAdminView(),
     });
   });
 
@@ -699,10 +661,6 @@ export class BooksComponent implements OnInit {
     );
   }
 
-  isAdminView(): boolean {
-    return this.authService.isAdmin() && this.router.url.startsWith('/admin');
-  }
-
   private matchesSearch(book: Book, term: string): boolean {
     const haystack = [book.title, book.author, book.genre, book.saga]
       .filter(Boolean)
@@ -721,7 +679,6 @@ export class BooksComponent implements OnInit {
   }
 
   async loadRecommendations() {
-    if (this.isAdminView()) return;
     if (this.isLoadingRecommendations()) return;
 
     const userId = this.getActiveUserId();

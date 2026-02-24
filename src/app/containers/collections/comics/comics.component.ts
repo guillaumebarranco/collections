@@ -42,7 +42,6 @@ import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditComicComponent } from '../../edit/edit-comic/edit-comic.component';
 import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
-import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
 import { getFullComic } from '../../../helpers/full-entities-helper';
 import {
@@ -77,7 +76,6 @@ export class ComicsComponent implements OnInit {
   router = inject(Router);
   private readonly dialog = inject(MatDialog);
   private readonly localStorageService = inject(LocalStorageService);
-  private readonly authService = inject(AuthService);
   private readonly topFiveService = inject(TopFiveService);
   private isLoadingPreferences = false;
   private isLoadingViewConfig = false;
@@ -103,12 +101,13 @@ export class ComicsComponent implements OnInit {
   viewOptions: { value: ComicView; label: string }[] = comicViewOptions;
 
   visibleViewOptions = computed(() =>
-    this.viewOptions.filter((option) => this.isViewOptionVisible(option.value))
+    this.viewOptions.filter((option) =>
+      this.isViewOptionVisible(option.value)
+    )
   );
 
   comicsList = signal<{ [key: string]: Comic[] }>({});
   readlistComicsList = signal<{ [key: string]: Comic[] }>({});
-  adminComicsList = signal<Comic[]>([]);
   baseComicsList = signal<Comic[]>([]);
   recommendations = signal<RecommendedComic[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
@@ -121,7 +120,7 @@ export class ComicsComponent implements OnInit {
 
   constructor() {
     effect(() => {
-      if (this.isLoadingPreferences || this.isAdminView()) return;
+      if (this.isLoadingPreferences) return;
       const preferences = {
         view: this.selectedView(),
         sort: this.selectedSort(),
@@ -134,13 +133,12 @@ export class ComicsComponent implements OnInit {
 
     effect(() => {
       const config = this.optionalViewConfig();
-      if (this.isLoadingViewConfig || this.isAdminView()) return;
+      if (this.isLoadingViewConfig) return;
       this.localStorageService.setItem(this.viewConfigStorageKey, config);
     });
 
     effect(() => {
       const view = this.selectedView();
-      if (this.isAdminView()) return;
       if (!this.isViewOptionVisible(view)) {
         this.selectedView.set('read');
       }
@@ -148,39 +146,31 @@ export class ComicsComponent implements OnInit {
   }
 
   allComics = computed<Comic[]>(() => {
-    if (this.isAdminView()) {
-      return this.adminComicsList();
-    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
-
     return hasNameParam
       ? this.comicsList()[params['id']] || []
       : this.comicsList()[DEFAULT_USER_ID];
   });
 
   allReadlistComics = computed<Comic[]>(() => {
-    if (this.isAdminView()) {
-      return [];
-    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
-
     return hasNameParam
       ? this.readlistComicsList()[params['id']] || []
       : this.readlistComicsList()[DEFAULT_USER_ID];
   });
 
   filteredComics = computed<Comic[]>(() => {
-    let comics = this.allComics();
-    if (this.isAdminView()) {
-      comics = this.allComics();
-    } else if (this.selectedView() === 'readlist') {
+    let comics: Comic[];
+    if (this.selectedView() === 'readlist') {
       comics = this.allReadlistComics();
     } else if (this.selectedView() === 'owned') {
       comics = this.allComics().filter((comic) => comic.owned);
     } else if (this.selectedView() === 'toReRead') {
       comics = this.allComics().filter((comic) => comic.wantToReadAgain === true);
+    } else {
+      comics = this.allComics();
     }
 
     const term = this.searchTerm().trim().toLowerCase();
@@ -198,9 +188,6 @@ export class ComicsComponent implements OnInit {
   );
 
   stats = computed<StatItem[]>(() => {
-    if (this.isAdminView()) {
-      return [];
-    }
     const totalTomes = this.calculateTotalComics();
     const totalPages = this.calculateTotalPages();
     const totalPagesRead = getTotalComicsPages(this.filteredComics());
@@ -313,9 +300,6 @@ export class ComicsComponent implements OnInit {
   }
 
   async ngOnInit() {
-    if (this.isAdminView()) {
-      this.selectedView.set('read');
-    }
     this.loadViewConfigFromStorage();
     this.loadViewPreferencesFromStorage();
     void this.refreshQuizzs();
@@ -364,14 +348,6 @@ export class ComicsComponent implements OnInit {
   }
 
   private async refreshComics() {
-    if (this.isAdminView()) {
-      const baseComics = await getAllBaseComics();
-      const comics = baseComics.map(getFullComic);
-      this.adminComicsList.set(comics);
-      this.baseComicsList.set(comics);
-      return;
-    }
-
     const userId = this.getActiveUserId();
     const [comics, readlist, baseComics] = await Promise.all([
       getAllComics(userId),
@@ -444,10 +420,6 @@ export class ComicsComponent implements OnInit {
     return params['id'] ?? DEFAULT_USER_ID;
   }
 
-  public isAdminView(): boolean {
-    return this.authService.isAdmin() && this.router.url.startsWith('/admin');
-  }
-
   getTopFiveRank(comic: Comic): number | null {
     const tf = this.topFive();
     const key = getEntityKey('comics', comic);
@@ -469,7 +441,6 @@ export class ComicsComponent implements OnInit {
   }
 
   async loadRecommendations() {
-    if (this.isAdminView()) return;
     if (this.isLoadingRecommendations()) return;
 
     const userId = this.getActiveUserId();

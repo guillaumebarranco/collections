@@ -40,6 +40,7 @@ import { SelectGamesComponent } from './containers/selection/games/select-games/
 import { SelectGamesRatingComponent } from './containers/selection/games/select-games-rating/select-games-rating.component';
 import { SelectGamesOwnedComponent } from './containers/selection/games/select-games-owned/select-games-owned.component';
 import { MusicsComponent } from './containers/collections/musics/musics.component';
+import { AdminMusicsComponent } from './containers/admin-collections/musics/musics.component';
 import { SelectMusicsComponent } from './containers/selection/musics/select-musics/select-musics.component';
 import { SelectMusicsRatingComponent } from './containers/selection/musics/select-musics-rating/select-musics-rating.component';
 import { SelectMusicsTimesListenedComponent } from './containers/selection/musics/select-musics-times-listened/select-musics-times-listened.component';
@@ -48,6 +49,14 @@ import { EditBookComponent } from './containers/edit/edit-book/edit-book.compone
 import { EditSerieComponent } from './containers/edit/edit-serie/edit-serie.component';
 import { EditGameComponent } from './containers/edit/edit-game/edit-game.component';
 import { AdminDashboardComponent } from './containers/admin-dashboard/admin-dashboard.component';
+import { AdminMoviesComponent } from './containers/admin-collections/movies/movies.component';
+import { AdminGamesComponent } from './containers/admin-collections/games/games.component';
+import { AdminSeriesComponent } from './containers/admin-collections/series/series.component';
+import { AdminBooksComponent } from './containers/admin-collections/books/books.component';
+import { AdminMangasComponent } from './containers/admin-collections/mangas/mangas.component';
+import { AdminManwhasComponent } from './containers/admin-collections/manwhas/manwhas.component';
+import { AdminComicsComponent } from './containers/admin-collections/comics/comics.component';
+import { AdminBdsComponent } from './containers/admin-collections/bds/bds.component';
 
 export const routes: Routes = [
   {
@@ -63,39 +72,39 @@ export const routes: Routes = [
       },
       {
         path: 'movies',
-        component: MoviesComponent,
+        component: AdminMoviesComponent,
       },
       {
         path: 'books',
-        component: BooksComponent,
+        component: AdminBooksComponent,
       },
       {
         path: 'mangas',
-        component: MangasComponent,
+        component: AdminMangasComponent,
       },
       {
         path: 'manwhas',
-        component: ManwhasComponent,
+        component: AdminManwhasComponent,
       },
       {
         path: 'comics',
-        component: ComicsComponent,
+        component: AdminComicsComponent,
       },
       {
         path: 'bds',
-        component: BdsComponent,
+        component: AdminBdsComponent,
       },
       {
         path: 'series',
-        component: SeriesComponent,
+        component: AdminSeriesComponent,
       },
       {
         path: 'games',
-        component: GamesComponent,
+        component: AdminGamesComponent,
       },
       {
         path: 'musics',
-        component: MusicsComponent,
+        component: AdminMusicsComponent,
       },
     ],
   },

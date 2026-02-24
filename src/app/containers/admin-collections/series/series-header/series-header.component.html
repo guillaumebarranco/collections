@@ -1,0 +1,25 @@
+<div class="series-header">
+  <h1>Séries ({{ filteredSeriesCount() }})</h1>
+
+  <button class="makya-btn" (click)="openAddSerieAdminDialog()">
+    Créer une nouvelle série
+  </button>
+
+  <div class="series-header-top">
+    <app-view-toggle
+      [toggleClass]="'series-view-toggle'"
+      [options]="viewOptions()"
+      [selected]="selectedView()"
+      (selectedChange)="onViewChange.emit($any($event))"
+    ></app-view-toggle>
+  </div>
+
+  <div class="series-search">
+    <input
+      type="text"
+      placeholder="Rechercher par titre, réalisateur, acteur..."
+      [ngModel]="searchTerm()"
+      (ngModelChange)="onSearchChange.emit($event)"
+    />
+  </div>
+</div>

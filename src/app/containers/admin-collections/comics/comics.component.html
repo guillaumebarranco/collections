@@ -1,0 +1,44 @@
+<app-menu></app-menu>
+
+<div class="comics-container">
+  @if (isLoadingComics()) {
+  <app-loader message="Chargement des comics..." />
+  } @else {
+  <app-admin-comics-header
+    [selectedView]="selectedView()"
+    [filteredCount]="filteredComics().length"
+    [allCount]="allComics().length"
+    [visibleViewOptions]="visibleViewOptions()"
+    (onViewChange)="onViewChange($any($event))"
+    (onSearchChange)="onSearchChange($event)"
+  ></app-admin-comics-header>
+
+  @if (filteredComics().length === 0) {
+  <div class="empty-state">
+    <p class="empty-message">Aucun comic à afficher pour cette sélection.</p>
+  </div>
+  } @else {
+  <div class="comics">
+    @for (comic of sortedComics(); track `${comic.title}-${comic.writer}`) {
+    <div class="comic-card">
+      <app-comic
+        [comic]="comic"
+        [quizzs]="quizzs()"
+        [readOnly]="false"
+        [isReadlistView]="false"
+        [selectedView]="'read'"
+        (editRequested)="openEditComicDialog(comic)"
+        (openQuizz)="openQuizzModal($event)"
+        (comicUpdated)="onComicUpdated()"
+      ></app-comic>
+    </div>
+    }
+  </div>
+  } }
+</div>
+
+<app-quizz-modal
+  [isOpen]="isQuizzModalOpen()"
+  [quizzs]="activeQuizzs()"
+  (close)="closeQuizzModal()"
+></app-quizz-modal>

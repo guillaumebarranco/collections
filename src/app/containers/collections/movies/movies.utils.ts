@@ -293,18 +293,16 @@ export const getMoviesBySaga = ({
   allMovies,
   baseMovies,
   selectedSort,
-  isAdminView,
 }: {
   sortedMovies: Movie[];
   allMovies: Movie[];
   baseMovies: Movie[];
   selectedSort: string;
-  isAdminView: boolean;
 }): { saga: string; seenMovies: Movie[]; missingMovies: Movie[] }[] => {
   const sagaMap = new Map<string, Movie[]>();
   for (const movie of sortedMovies) {
     const sagaName = movie.saga?.trim();
-    if (!sagaName && !isAdminView) {
+    if (!sagaName) {
       continue;
     }
     const sagaKey = sagaName || 'Sans saga';
@@ -328,7 +326,7 @@ export const getMoviesBySaga = ({
 
   const sagaGroups = Array.from(sagaMap.entries()).map(([saga, seenMovies]) => {
     const missing =
-      isAdminView || saga === 'Sans saga'
+      saga === 'Sans saga'
         ? []
         : getSortedMovies([...(baseBySaga.get(saga) ?? [])], 'releaseDate-asc');
     return {
@@ -420,13 +418,11 @@ export const getMoviesByActor = ({
   allMovies,
   baseMovies,
   selectedSort,
-  isAdminView,
 }: {
   sortedMovies: Movie[];
   allMovies: Movie[];
   baseMovies: Movie[];
   selectedSort: string;
-  isAdminView: boolean;
 }): MoviesByActorGroup[] => {
   const actorMap = new Map<string, Movie[]>();
   for (const movie of sortedMovies) {
@@ -458,12 +454,10 @@ export const getMoviesByActor = ({
 
   const groups = Array.from(actorMap.entries())
     .map(([actor, seenMovies]) => {
-      const missing = isAdminView
-        ? []
-        : getSortedMovies(
-            [...(baseByActor.get(actor) ?? [])],
-            'releaseDate-asc'
-          );
+      const missing = getSortedMovies(
+        [...(baseByActor.get(actor) ?? [])],
+        'releaseDate-asc'
+      );
       return {
         actor,
         seenMovies: getSortedMovies(seenMovies, 'releaseDate-asc'),
@@ -580,13 +574,11 @@ export const getMoviesByDirector = ({
   allMovies,
   baseMovies,
   selectedSort,
-  isAdminView,
 }: {
   sortedMovies: Movie[];
   allMovies: Movie[];
   baseMovies: Movie[];
   selectedSort: string;
-  isAdminView: boolean;
 }): MoviesByDirectorGroup[] => {
   const directorMap = new Map<string, Movie[]>();
   for (const movie of sortedMovies) {
@@ -616,12 +608,10 @@ export const getMoviesByDirector = ({
 
   const groups = Array.from(directorMap.entries()).map(
     ([director, seenMovies]) => {
-      const missing = isAdminView
-        ? []
-        : getSortedMovies(
-            [...(baseByDirector.get(director) ?? [])],
-            'releaseDate-asc'
-          );
+      const missing = getSortedMovies(
+        [...(baseByDirector.get(director) ?? [])],
+        'releaseDate-asc'
+      );
       return {
         director,
         seenMovies: getSortedMovies(seenMovies, 'releaseDate-asc'),
@@ -738,13 +728,11 @@ export const getMoviesByCountry = ({
   allMovies,
   baseMovies,
   selectedSort,
-  isAdminView,
 }: {
   sortedMovies: Movie[];
   allMovies: Movie[];
   baseMovies: Movie[];
   selectedSort: string;
-  isAdminView: boolean;
 }): MoviesByCountryGroup[] => {
   const countryMap = new Map<string, Movie[]>();
   for (const movie of sortedMovies) {
@@ -770,12 +758,10 @@ export const getMoviesByCountry = ({
 
   const countryGroups = Array.from(countryMap.entries()).map(
     ([country, seenMovies]) => {
-      const missing = isAdminView
-        ? []
-        : getSortedMovies(
-            [...(baseByCountry.get(country) ?? [])],
-            'releaseDate-asc'
-          );
+      const missing = getSortedMovies(
+        [...(baseByCountry.get(country) ?? [])],
+        'releaseDate-asc'
+      );
       return {
         country,
         seenMovies: getSortedMovies(seenMovies, 'releaseDate-asc'),

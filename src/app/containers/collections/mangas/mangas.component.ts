@@ -44,7 +44,6 @@ import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditMangaComponent } from '../../edit/edit-manga/edit-manga.component';
 import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
-import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
 import { getFullManga } from '../../../helpers/full-entities-helper';
 import {
@@ -80,7 +79,6 @@ export class MangasComponent implements OnInit {
   router = inject(Router);
   private readonly dialog = inject(MatDialog);
   private readonly localStorageService = inject(LocalStorageService);
-  private readonly authService = inject(AuthService);
   private readonly topFiveService = inject(TopFiveService);
   private isLoadingPreferences = false;
   private isLoadingViewConfig = false;
@@ -106,12 +104,13 @@ export class MangasComponent implements OnInit {
   viewOptions: { value: MangaView; label: string }[] = mangaViewOptions;
 
   visibleViewOptions = computed(() =>
-    this.viewOptions.filter((option) => this.isViewOptionVisible(option.value))
+    this.viewOptions.filter((option) =>
+      this.isViewOptionVisible(option.value)
+    )
   );
 
   mangasList = signal<{ [key: string]: Manga[] }>({});
   readlistMangasList = signal<{ [key: string]: Manga[] }>({});
-  adminMangasList = signal<Manga[]>([]);
   baseMangasList = signal<Manga[]>([]);
   recommendations = signal<RecommendedManga[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
@@ -124,7 +123,7 @@ export class MangasComponent implements OnInit {
 
   constructor() {
     effect(() => {
-      if (this.isLoadingPreferences || this.isAdminView()) return;
+      if (this.isLoadingPreferences) return;
       const preferences = {
         view: this.selectedView(),
         sort: this.selectedSort(),
@@ -137,13 +136,12 @@ export class MangasComponent implements OnInit {
 
     effect(() => {
       const config = this.optionalViewConfig();
-      if (this.isLoadingViewConfig || this.isAdminView()) return;
+      if (this.isLoadingViewConfig) return;
       this.localStorageService.setItem(this.viewConfigStorageKey, config);
     });
 
     effect(() => {
       const view = this.selectedView();
-      if (this.isAdminView()) return;
       if (!this.isViewOptionVisible(view)) {
         this.selectedView.set('read');
       }
@@ -151,39 +149,31 @@ export class MangasComponent implements OnInit {
   }
 
   allMangas = computed<Manga[]>(() => {
-    if (this.isAdminView()) {
-      return this.adminMangasList();
-    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
-
     return hasNameParam
       ? this.mangasList()[params['id']] || []
       : this.mangasList()[DEFAULT_USER_ID];
   });
 
   allReadlistMangas = computed<Manga[]>(() => {
-    if (this.isAdminView()) {
-      return [];
-    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
-
     return hasNameParam
       ? this.readlistMangasList()[params['id']] || []
       : this.readlistMangasList()[DEFAULT_USER_ID];
   });
 
   filteredMangas = computed<Manga[]>(() => {
-    let mangas = this.allMangas();
-    if (this.isAdminView()) {
-      mangas = this.allMangas();
-    } else if (this.selectedView() === 'readlist') {
+    let mangas: Manga[];
+    if (this.selectedView() === 'readlist') {
       mangas = this.allReadlistMangas();
     } else if (this.selectedView() === 'owned') {
       mangas = this.allMangas().filter((manga) => manga.owned);
     } else if (this.selectedView() === 'toReRead') {
       mangas = this.allMangas().filter((manga) => manga.wantToReadAgain === true);
+    } else {
+      mangas = this.allMangas();
     }
 
     const term = this.searchTerm().trim().toLowerCase();
@@ -201,9 +191,6 @@ export class MangasComponent implements OnInit {
   );
 
   stats = computed<StatItem[]>(() => {
-    if (this.isAdminView()) {
-      return [];
-    }
     const totalTomes = this.calculateTotalTomes();
     const totalPages = this.calculateTotalPages();
     const totalTomesRead = getTotalMangaTomesRead(this.filteredMangas());
@@ -323,9 +310,6 @@ export class MangasComponent implements OnInit {
   }
 
   async ngOnInit() {
-    if (this.isAdminView()) {
-      this.selectedView.set('read');
-    }
     this.loadViewConfigFromStorage();
     void this.refreshQuizzs();
     this.loadViewPreferencesFromStorage();
@@ -377,14 +361,6 @@ export class MangasComponent implements OnInit {
   }
 
   private async refreshMangas() {
-    if (this.isAdminView()) {
-      const baseMangas = await getAllBaseMangas();
-      const mangas = baseMangas.map(getFullManga);
-      this.adminMangasList.set(mangas);
-      this.baseMangasList.set(mangas);
-      return;
-    }
-
     const userId = this.getActiveUserId();
     const [mangas, readlist, baseMangas] = await Promise.all([
       getAllMangas(userId),
@@ -433,10 +409,6 @@ export class MangasComponent implements OnInit {
     return params['id'] ?? DEFAULT_USER_ID;
   }
 
-  public isAdminView(): boolean {
-    return this.authService.isAdmin() && this.router.url.startsWith('/admin');
-  }
-
   getTopFiveRank(manga: Manga): number | null {
     const tf = this.topFive();
     const key = getEntityKey('mangas', manga);
@@ -458,7 +430,6 @@ export class MangasComponent implements OnInit {
   }
 
   async loadRecommendations() {
-    if (this.isAdminView()) return;
     if (this.isLoadingRecommendations()) return;
 
     const userId = this.getActiveUserId();

@@ -1,25 +1,21 @@
 <div class="comics-header">
   <h1>
-    @if (isAdminView()) { Comics ({{ filteredComicsCount() }}) } @else {
     {{ comicsPageTitle() }} ({{
       selectedView() === "recommendations"
         ? recommendedComicsCount()
         : filteredComicsCount()
-    }}) }
+    }})
   </h1>
 
   @if(allComicsCount() !== 0 || allReadlistComicsCount() !== 0) {
   <div class="comics-header-top">
-    @if (!isAdminView()) {
     <app-view-toggle
       [toggleClass]="'comics-view-toggle'"
       [options]="viewOptions()"
       [selected]="selectedView()"
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
-    }
 
-    @if (!isAdminView()) {
     <div class="comics-actions">
       <button
         class="makya-btn-small"
@@ -72,9 +68,8 @@
         🏆 Top 5
       </button>
     </div>
-    }
   </div>
-  } @if(!isAdminView() && allComicsCount() === 0 && allReadlistComicsCount() === 0) {
+  } @if(allComicsCount() === 0 && allReadlistComicsCount() === 0) {
   <div class="empty-state">
     <p class="empty-message">Vous n'avez aucun comic dans votre collection.</p>
     <p class="empty-subtitle">
@@ -87,14 +82,12 @@
   }
 
   <div class="comics-stats-bloc">
-    @if (!isAdminView()) {
     <app-stats-display
       [stats]="stats()"
       [count]="filteredComicsCount()"
       countLabel="comics"
     >
     </app-stats-display>
-    }
 
     <app-sort-dropdown
       [sortOptions]="sortOptions()"

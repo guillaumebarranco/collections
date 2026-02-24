@@ -15,7 +15,6 @@ import {
 } from '../../../../components/sort-dropdown/sort-dropdown.component';
 import { StatsDisplayComponent } from '../../../../components/stats-display/stats-display.component';
 import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
-import { AuthService } from '../../../../core/auth.service';
 import { GameView } from '../games.utils';
 import { StatItem } from '../../../../components/stats-display/stats-display.component';
 import { FormsModule } from '@angular/forms';
@@ -57,7 +56,6 @@ export class GamesHeaderComponent {
   >([]);
   stats = input.required<StatItem[]>();
 
-  private readonly authService = inject(AuthService);
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
 
@@ -73,22 +71,15 @@ export class GamesHeaderComponent {
     });
   }
 
-  gamesPageTitle = computed(() => {
-    if (this.isAdminView()) {
-      return 'Jeux';
-    }
-    return this.selectedView() === 'gamelist'
+  gamesPageTitle = computed(() =>
+    this.selectedView() === 'gamelist'
       ? '🎮 Jeux à jouer'
       : this.selectedView() === 'owned'
       ? '🎮 Jeux possédés'
       : this.selectedView() === 'recommendations'
       ? 'Recommandations'
-      : '🎮 Jeux vidéo';
-  });
-
-  isAdminView(): boolean {
-    return this.authService.isAdmin() && this.router.url.startsWith('/admin');
-  }
+      : '🎮 Jeux vidéo'
+  );
 
   getSelectGamesRoute(): string {
     const params: Params = this.activatedRoute.snapshot.params;

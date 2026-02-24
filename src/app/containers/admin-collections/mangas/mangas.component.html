@@ -1,0 +1,44 @@
+<app-menu></app-menu>
+
+<div class="mangas-container">
+  @if (isLoadingMangas()) {
+  <app-loader message="Chargement des mangas..." />
+  } @else {
+  <app-admin-mangas-header
+    [selectedView]="selectedView()"
+    [filteredCount]="filteredMangas().length"
+    [allCount]="allMangas().length"
+    [visibleViewOptions]="visibleViewOptions()"
+    (onViewChange)="onViewChange($any($event))"
+    (onSearchChange)="onSearchChange($event)"
+  ></app-admin-mangas-header>
+
+  @if (filteredMangas().length === 0) {
+  <div class="empty-state">
+    <p class="empty-message">Aucun manga à afficher pour cette sélection.</p>
+  </div>
+  } @else {
+  <div class="mangas">
+    @for (manga of sortedMangas(); track `${manga.title}-${manga.author}`) {
+    <div class="manga-card">
+      <app-manga
+        [manga]="manga"
+        [quizzs]="quizzs()"
+        [readOnly]="false"
+        [isReadlistView]="false"
+        [selectedView]="'read'"
+        (editRequested)="openEditMangaDialog(manga)"
+        (openQuizz)="openQuizzModal($event)"
+        (mangaUpdated)="onMangaUpdated()"
+      ></app-manga>
+    </div>
+    }
+  </div>
+  } }
+</div>
+
+<app-quizz-modal
+  [isOpen]="isQuizzModalOpen()"
+  [quizzs]="activeQuizzs()"
+  (close)="closeQuizzModal()"
+></app-quizz-modal>

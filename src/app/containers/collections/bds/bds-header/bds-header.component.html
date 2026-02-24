@@ -1,25 +1,21 @@
 <div class="bds-header">
   <h1>
-    @if (isAdminView()) { BD ({{ filteredBdsCount() }}) } @else {
     {{ bdsPageTitle() }} ({{
       selectedView() === "recommendations"
         ? recommendedBdsCount()
         : filteredBdsCount()
-    }}) }
+    }})
   </h1>
 
   @if(allBdsCount() !== 0 || allReadlistBdsCount() !== 0) {
   <div class="bds-header-top">
-    @if (!isAdminView()) {
     <app-view-toggle
       [toggleClass]="'bds-view-toggle'"
       [options]="viewOptions()"
       [selected]="selectedView()"
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
-    }
 
-    @if (!isAdminView()) {
     <div class="bds-actions">
       <button
         class="makya-btn-small"
@@ -72,9 +68,8 @@
         🏆 Top 5
       </button>
     </div>
-    }
   </div>
-  } @if(!isAdminView() && allBdsCount() === 0 && allReadlistBdsCount() === 0) {
+  } @if(allBdsCount() === 0 && allReadlistBdsCount() === 0) {
   <div class="empty-state">
     <p class="empty-message">Vous n'avez aucune BD dans votre collection.</p>
     <p class="empty-subtitle">
@@ -87,14 +82,12 @@
   }
 
   <div class="bds-stats-bloc">
-    @if (!isAdminView()) {
     <app-stats-display
       [stats]="stats()"
       [count]="filteredBdsCount()"
       countLabel="BD"
     >
     </app-stats-display>
-    }
 
     <app-sort-dropdown
       [sortOptions]="sortOptions()"

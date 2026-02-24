@@ -1,25 +1,21 @@
 <div class="manwhas-header">
   <h1>
-    @if (isAdminView()) { Manwhas ({{ filteredManwhasCount() }}) } @else {
     {{ manwhasPageTitle() }} ({{
       selectedView() === "recommendations"
         ? recommendedManwhasCount()
         : filteredManwhasCount()
-    }}) }
+    }})
   </h1>
 
   @if(allManwhasCount() !== 0 || allReadlistManwhasCount() !== 0) {
   <div class="manwhas-header-top">
-    @if (!isAdminView()) {
     <app-view-toggle
       [toggleClass]="'manwhas-view-toggle'"
       [options]="viewOptions()"
       [selected]="selectedView()"
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
-    }
 
-    @if (!isAdminView()) {
     <div class="manwhas-actions">
       <button
         class="makya-btn-small"
@@ -72,9 +68,8 @@
         🏆 Top 5
       </button>
     </div>
-    }
   </div>
-  } @if(!isAdminView() && allManwhasCount() === 0 && allReadlistManwhasCount() === 0) {
+  } @if(allManwhasCount() === 0 && allReadlistManwhasCount() === 0) {
   <div class="empty-state">
     <p class="empty-message">Vous n'avez aucun manwha dans votre collection.</p>
     <p class="empty-subtitle">
@@ -87,14 +82,12 @@
   }
 
   <div class="manwhas-stats-bloc">
-    @if (!isAdminView()) {
     <app-stats-display
       [stats]="stats()"
       [count]="filteredManwhasCount()"
       countLabel="manwhas"
     >
     </app-stats-display>
-    }
 
     <app-sort-dropdown
       [sortOptions]="sortOptions()"

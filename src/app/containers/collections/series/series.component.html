@@ -59,13 +59,10 @@
             {{ isSagaCollapsed(sagaGroup.saga) ? "▶" : "▼" }}
           </span>
           {{ sagaGroup.saga }}
-          @if (isAdminView()) { ({{
-            sagaGroup.seenSeries.length +
-              sagaGroup.missingSeries.length
-          }}) } @else { ({{ sagaGroup.seenSeries.length }} séries vues) ({{
+          ({{ sagaGroup.seenSeries.length }} séries vues) ({{
             sagaGroup.missingSeries.length
           }}
-          séries restantes à voir) }
+          séries restantes à voir)
         </button>
       </h2>
       @if (!isSagaCollapsed(sagaGroup.saga)) {
@@ -126,13 +123,10 @@
             {{ isCountryCollapsed(countryGroup.country) ? "▶" : "▼" }}
           </span>
           {{ countryGroup.country }}
-          @if (isAdminView()) { ({{
-            countryGroup.seenSeries.length +
-              countryGroup.missingSeries.length
-          }}) } @else { ({{ countryGroup.seenSeries.length }} séries vues) ({{
+          ({{ countryGroup.seenSeries.length }} séries vues) ({{
             countryGroup.missingSeries.length
           }}
-          séries restantes à voir) }
+          séries restantes à voir)
         </button>
       </h2>
       @if (!isCountryCollapsed(countryGroup.country)) {

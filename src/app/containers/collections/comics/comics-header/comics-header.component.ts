@@ -14,8 +14,7 @@ import {
   SortOption,
 } from '../../../../components/sort-dropdown/sort-dropdown.component';
 import { StatsDisplayComponent } from '../../../../components/stats-display/stats-display.component';
-import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
-import { AuthService } from '../../../../core/auth.service';
+import { ActivatedRoute, Params, RouterModule } from '@angular/router';
 import { ComicView } from '../comics.utils';
 import { StatItem } from '../../../../components/stats-display/stats-display.component';
 import { FormsModule } from '@angular/forms';
@@ -57,9 +56,7 @@ export class ComicsHeaderComponent {
   >([]);
   stats = input.required<StatItem[]>();
 
-  private readonly authService = inject(AuthService);
   private readonly activatedRoute = inject(ActivatedRoute);
-  private readonly router = inject(Router);
 
   selectedSort = signal<string>('rating');
   searchTerm = signal<string>('');
@@ -73,22 +70,15 @@ export class ComicsHeaderComponent {
     });
   }
 
-  comicsPageTitle = computed(() => {
-    if (this.isAdminView()) {
-      return 'Comics';
-    }
-    return this.selectedView() === 'readlist'
+  comicsPageTitle = computed(() =>
+    this.selectedView() === 'readlist'
       ? 'Comics à lire'
       : this.selectedView() === 'owned'
       ? 'Comics possédés'
       : this.selectedView() === 'recommendations'
       ? 'Recommandations'
-      : 'Comics lus';
-  });
-
-  isAdminView(): boolean {
-    return this.authService.isAdmin() && this.router.url.startsWith('/admin');
-  }
+      : 'Comics lus'
+  );
 
   getSelectComicsRoute(): string {
     const params: Params = this.activatedRoute.snapshot.params;

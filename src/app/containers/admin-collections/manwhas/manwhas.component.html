@@ -1,0 +1,44 @@
+<app-menu></app-menu>
+
+<div class="manwhas-container">
+  @if (isLoadingManwhas()) {
+  <app-loader message="Chargement des manwhas..." />
+  } @else {
+  <app-admin-manwhas-header
+    [selectedView]="selectedView()"
+    [filteredCount]="filteredManwhas().length"
+    [allCount]="allManwhas().length"
+    [visibleViewOptions]="visibleViewOptions()"
+    (onViewChange)="onViewChange($any($event))"
+    (onSearchChange)="onSearchChange($event)"
+  ></app-admin-manwhas-header>
+
+  @if (filteredManwhas().length === 0) {
+  <div class="empty-state">
+    <p class="empty-message">Aucun manwha à afficher pour cette sélection.</p>
+  </div>
+  } @else {
+  <div class="manwhas">
+    @for (manwha of sortedManwhas(); track `${manwha.title}-${manwha.author}`) {
+    <div class="manwha-card">
+      <app-manwha
+        [manwha]="manwha"
+        [quizzs]="quizzs()"
+        [readOnly]="false"
+        [isReadlistView]="false"
+        [selectedView]="'read'"
+        (editRequested)="openEditManwhaDialog(manwha)"
+        (openQuizz)="openQuizzModal($event)"
+        (manwhaUpdated)="onManwhaUpdated()"
+      ></app-manwha>
+    </div>
+    }
+  </div>
+  } }
+</div>
+
+<app-quizz-modal
+  [isOpen]="isQuizzModalOpen()"
+  [quizzs]="activeQuizzs()"
+  (close)="closeQuizzModal()"
+></app-quizz-modal>

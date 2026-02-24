@@ -117,12 +117,10 @@
             {{ isSagaCollapsed(sagaGroup.saga) ? "▶" : "▼" }}
           </span>
           {{ sagaGroup.saga }}
-          @if (isAdminView()) { ({{
-            sagaGroup.seenMovies.length + sagaGroup.missingMovies.length
-          }}) } @else { ({{ sagaGroup.seenMovies.length }} films vus) ({{
+          ({{ sagaGroup.seenMovies.length }} films vus) ({{
             sagaGroup.missingMovies.length
           }}
-          films restants à voir) }
+          films restants à voir)
         </button>
       </h2>
       @if (!isSagaCollapsed(sagaGroup.saga)) {
@@ -187,12 +185,10 @@
           </span>
 
           {{ actorGroup.actor }}
-          @if (isAdminView()) { ({{
-            actorGroup.seenMovies.length + actorGroup.missingMovies.length
-          }}) } @else { ({{ actorGroup.seenMovies.length }} films vus) ({{
+          ({{ actorGroup.seenMovies.length }} films vus) ({{
             actorGroup.missingMovies.length
           }}
-          films restants à voir) }
+          films restants à voir)
         </button>
       </h2>
       @if (!isActorCollapsed(actorGroup.actor)) {
@@ -256,13 +252,10 @@
             {{ isCountryCollapsed(countryGroup.country) ? "▶" : "▼" }}
           </span>
           {{ countryGroup.country }}
-          @if (isAdminView()) { ({{
-            countryGroup.seenMovies.length +
-              countryGroup.missingMovies.length
-          }}) } @else { ({{ countryGroup.seenMovies.length }} films vus) ({{
+          ({{ countryGroup.seenMovies.length }} films vus) ({{
             countryGroup.missingMovies.length
           }}
-          films restants à voir) }
+          films restants à voir)
         </button>
       </h2>
       @if (!isCountryCollapsed(countryGroup.country)) {
@@ -326,13 +319,10 @@
             {{ isDirectorCollapsed(directorGroup.director) ? "▶" : "▼" }}
           </span>
           {{ directorGroup.director }}
-          @if (isAdminView()) { ({{
-            directorGroup.seenMovies.length +
-              directorGroup.missingMovies.length
-          }}) } @else { ({{ directorGroup.seenMovies.length }} films vus) ({{
+          ({{ directorGroup.seenMovies.length }} films vus) ({{
             directorGroup.missingMovies.length
           }}
-          films restants à voir) }
+          films restants à voir)
         </button>
       </h2>
       @if (!isDirectorCollapsed(directorGroup.director)) {

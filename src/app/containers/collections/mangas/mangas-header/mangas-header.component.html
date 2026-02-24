@@ -1,25 +1,21 @@
 <div class="mangas-header">
   <h1>
-    @if (isAdminView()) { Mangas ({{ filteredMangasCount() }}) } @else {
     {{ mangasPageTitle() }} ({{
       selectedView() === "recommendations"
         ? recommendedMangasCount()
         : filteredMangasCount()
-    }}) }
+    }})
   </h1>
 
   @if(allMangasCount() !== 0 || allReadlistMangasCount() !== 0) {
   <div class="mangas-header-top">
-    @if (!isAdminView()) {
     <app-view-toggle
       [toggleClass]="'mangas-view-toggle'"
       [options]="viewOptions()"
       [selected]="selectedView()"
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
-    }
 
-    @if (!isAdminView()) {
     <div class="mangas-actions">
       <button
         class="makya-btn-small"
@@ -72,9 +68,8 @@
         🏆 Top 5
       </button>
     </div>
-    }
   </div>
-  } @if(!isAdminView() && allMangasCount() === 0 && allReadlistMangasCount() === 0) {
+  } @if(allMangasCount() === 0 && allReadlistMangasCount() === 0) {
   <div class="empty-state">
     <p class="empty-message">Vous n'avez aucun manga dans votre collection.</p>
     <p class="empty-subtitle">
@@ -87,14 +82,12 @@
   }
 
   <div class="mangas-stats-bloc">
-    @if (!isAdminView()) {
     <app-stats-display
       [stats]="stats()"
       [count]="filteredMangasCount()"
       countLabel="mangas"
     >
     </app-stats-display>
-    }
 
     <app-sort-dropdown
       [sortOptions]="sortOptions()"

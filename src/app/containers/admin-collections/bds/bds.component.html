@@ -1,0 +1,44 @@
+<app-menu></app-menu>
+
+<div class="bds-container">
+  @if (isLoadingBds()) {
+  <app-loader message="Chargement des BD..." />
+  } @else {
+  <app-admin-bds-header
+    [selectedView]="selectedView()"
+    [filteredCount]="filteredBds().length"
+    [allCount]="allBds().length"
+    [visibleViewOptions]="visibleViewOptions()"
+    (onViewChange)="onViewChange($any($event))"
+    (onSearchChange)="onSearchChange($event)"
+  ></app-admin-bds-header>
+
+  @if (filteredBds().length === 0) {
+  <div class="empty-state">
+    <p class="empty-message">Aucune BD à afficher pour cette sélection.</p>
+  </div>
+  } @else {
+  <div class="bds">
+    @for (bd of sortedBds(); track `${bd.title}-${bd.writer}`) {
+    <div class="bd-card">
+      <app-bd
+        [bd]="bd"
+        [quizzs]="quizzs()"
+        [readOnly]="false"
+        [isReadlistView]="false"
+        [selectedView]="'read'"
+        (editRequested)="openEditBdDialog(bd)"
+        (openQuizz)="openQuizzModal($event)"
+        (bdUpdated)="onBdUpdated()"
+      ></app-bd>
+    </div>
+    }
+  </div>
+  } }
+</div>
+
+<app-quizz-modal
+  [isOpen]="isQuizzModalOpen()"
+  [quizzs]="activeQuizzs()"
+  (close)="closeQuizzModal()"
+></app-quizz-modal>

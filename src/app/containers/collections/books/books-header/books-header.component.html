@@ -1,27 +1,20 @@
 <div class="books-header">
   <h1>
-    @if (isAdminView()) { Livres ({{ filteredBooksCount() }}) } @else {
     {{ booksPageTitle() }} ({{
       selectedView() === "recommendations"
         ? recommendedBooksCount()
         : filteredBooksCount()
-    }}) }
+    }})
   </h1>
 
-  @if(isAdminView()) {
-  <button class="makya-btn" (click)="openAddBookAdminDialog()">
-    Créer un nouveau livre
-  </button>
-  } @if(allBooksCount() !== 0) {
+  @if(allBooksCount() !== 0) {
   <div class="books-header-top">
-    @if (!isAdminView()) {
     <app-view-toggle
       [toggleClass]="'books-view-toggle'"
       [options]="viewOptions()"
       [selected]="selectedView()"
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
-    } @if (!isAdminView()) {
     <div class="books-actions">
       <button
         class="makya-btn-small"
@@ -74,7 +67,6 @@
         🏆 Top 5
       </button>
     </div>
-    }
   </div>
   } @if(allBooksCount() === 0) {
   <div class="empty-state">
@@ -89,17 +81,14 @@
   }
 
   <div class="books-stats-bloc">
-    @if (!isAdminView()) {
     <app-stats-display
       [stats]="stats()"
       [count]="filteredBooksCount()"
       countLabel="livres"
     >
     </app-stats-display>
-    }
 
     <div class="books-filters">
-      @if (!isAdminView()) {
       <div class="books-filters-item">
         <p>Grouper par :</p>
         <select
@@ -115,10 +104,8 @@
           }
         </select>
       </div>
-      }
 
-      <!-- Dropdown de filtre d'années -->
-      @if(!isAdminView() && selectedView() === 'read') {
+      @if(selectedView() === 'read') {
       <div class="books-filters-item">
         <app-sort-dropdown
           label="Filtrer par année :"

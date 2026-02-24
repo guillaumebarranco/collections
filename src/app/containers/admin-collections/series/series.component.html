@@ -1,0 +1,148 @@
+<app-menu></app-menu>
+
+<div class="series-container">
+  <app-admin-series-header
+    [selectedView]="selectedView()"
+    [searchTermInput]="searchTerm()"
+    [filteredSeriesCount]="filteredSeries().length"
+    [viewOptions]="visibleViewOptions()"
+    (onViewChange)="onViewChange($any($event))"
+    (onSearchChange)="onSearchChange($event)"
+  ></app-admin-series-header>
+
+  @if (selectedView() === 'sagas') {
+  <div class="series-by-saga">
+    @for (sagaGroup of seriesBySaga(); track sagaGroup.saga) {
+    <section class="series-saga-section">
+      <h2 class="series-saga-title">
+        <button
+          type="button"
+          class="series-saga-toggle"
+          [attr.aria-expanded]="!isSagaCollapsed(sagaGroup.saga)"
+          (click)="toggleSaga(sagaGroup.saga)"
+        >
+          <span class="series-saga-toggle-icon">
+            {{ isSagaCollapsed(sagaGroup.saga) ? "▶" : "▼" }}
+          </span>
+          {{ sagaGroup.saga }}
+          ({{ sagaGroup.seenSeries.length + sagaGroup.missingSeries.length }})
+        </button>
+      </h2>
+      @if (!isSagaCollapsed(sagaGroup.saga)) {
+      <div class="series">
+        @for (serie of sagaGroup.seenSeries; track
+        `${serie.title}-${serie.director}`; let i = $index) {
+        <div class="serie-card">
+          <app-serie
+            [serie]="serie"
+            [list]="sagaGroup.seenSeries"
+            [index]="i"
+            [quizzs]="quizzs()"
+            [selectedView]="selectedView()"
+            (serieUpdated)="refreshSeries()"
+            (openQuizz)="openQuizzModal($event)"
+          ></app-serie>
+        </div>
+        }
+      </div>
+      @if (sagaGroup.missingSeries.length > 0) {
+      <div class="series-saga-missing">
+        <p class="series-saga-missing-label">Séries pas encore vues</p>
+        <div class="series">
+          @for (serie of sagaGroup.missingSeries; track
+          `${serie.title}-${serie.director}`) {
+          <div class="serie-card serie-card--missing">
+            <app-serie
+              [serie]="serie"
+              [readOnly]="true"
+              [recommendationBadge]="'Non vue'"
+            ></app-serie>
+          </div>
+          }
+        </div>
+      </div>
+      }
+      }
+    </section>
+    }
+  </div>
+  } @else if (selectedView() === 'countries') {
+  <div class="series-by-country">
+    @for (countryGroup of seriesByCountry(); track countryGroup.country) {
+    <section class="series-country-section">
+      <h2 class="series-country-title">
+        <button
+          type="button"
+          class="series-country-toggle"
+          [attr.aria-expanded]="!isCountryCollapsed(countryGroup.country)"
+          (click)="toggleCountry(countryGroup.country)"
+        >
+          <span class="series-country-toggle-icon">
+            {{ isCountryCollapsed(countryGroup.country) ? "▶" : "▼" }}
+          </span>
+          {{ countryGroup.country }}
+          ({{ countryGroup.seenSeries.length + countryGroup.missingSeries.length }})
+        </button>
+      </h2>
+      @if (!isCountryCollapsed(countryGroup.country)) {
+      <div class="series">
+        @for (serie of countryGroup.seenSeries; track
+        `${serie.title}-${serie.director}`; let i = $index) {
+        <div class="serie-card">
+          <app-serie
+            [serie]="serie"
+            [list]="countryGroup.seenSeries"
+            [index]="i"
+            [quizzs]="quizzs()"
+            [selectedView]="selectedView()"
+            (serieUpdated)="refreshSeries()"
+            (openQuizz)="openQuizzModal($event)"
+          ></app-serie>
+        </div>
+        }
+      </div>
+      @if (countryGroup.missingSeries.length > 0) {
+      <div class="series-country-missing">
+        <p class="series-country-missing-label">Séries pas encore vues</p>
+        <div class="series">
+          @for (serie of countryGroup.missingSeries; track
+          `${serie.title}-${serie.director}`) {
+          <div class="serie-card serie-card--missing">
+            <app-serie
+              [serie]="serie"
+              [readOnly]="true"
+              [recommendationBadge]="'Non vue'"
+            ></app-serie>
+          </div>
+          }
+        </div>
+      </div>
+      }
+      }
+    </section>
+    }
+  </div>
+  } @else {
+  <div class="series">
+    @for (serie of sortedSeries(); track serie.title; let i = $index) {
+    <div class="serie-card">
+      <app-serie
+        [serie]="serie"
+        [list]="sortedSeries()"
+        [index]="i"
+        [quizzs]="quizzs()"
+        [selectedView]="selectedView()"
+        (serieUpdated)="refreshSeries()"
+        (openQuizz)="openQuizzModal($event)"
+      ></app-serie>
+    </div>
+    }
+  </div>
+  }
+</div>
+
+<app-quizz-modal
+  [isOpen]="isQuizzModalOpen()"
+  [quizzs]="activeQuizzs()"
+  (close)="closeQuizzModal()"
+></app-quizz-modal>

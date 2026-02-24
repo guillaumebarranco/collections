@@ -1,0 +1,33 @@
+<div class="bds-header">
+  <h1>BD ({{ filteredCount() }})</h1>
+
+  <button class="makya-btn" (click)="openAddBdAdminDialog()">
+    Créer une nouvelle BD
+  </button>
+
+  @if (allCount() !== 0) {
+  <div class="bds-header-top">
+    <app-view-toggle
+      [toggleClass]="'bds-view-toggle'"
+      [options]="visibleViewOptions()"
+      [selected]="selectedView()"
+      (selectedChange)="onViewChange.emit($any($event))"
+    ></app-view-toggle>
+  </div>
+  }
+
+  @if (filteredCount() === 0) {
+  <div class="empty-state">
+    <p class="empty-message">Aucune BD à afficher pour cette sélection.</p>
+  </div>
+  }
+
+  <div class="bds-search">
+    <input
+      type="text"
+      placeholder="Rechercher par titre, designer, genre..."
+      [ngModel]="searchTerm()"
+      (ngModelChange)="onSearchChange.emit($event)"
+    />
+  </div>
+</div>

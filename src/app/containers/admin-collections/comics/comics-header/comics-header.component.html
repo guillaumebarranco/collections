@@ -1,0 +1,33 @@
+<div class="comics-header">
+  <h1>Comics ({{ filteredCount() }})</h1>
+
+  <button class="makya-btn" (click)="openAddComicAdminDialog()">
+    Créer un nouveau comic
+  </button>
+
+  @if (allCount() !== 0) {
+  <div class="comics-header-top">
+    <app-view-toggle
+      [toggleClass]="'comics-view-toggle'"
+      [options]="visibleViewOptions()"
+      [selected]="selectedView()"
+      (selectedChange)="onViewChange.emit($any($event))"
+    ></app-view-toggle>
+  </div>
+  }
+
+  @if (filteredCount() === 0) {
+  <div class="empty-state">
+    <p class="empty-message">Aucun comic à afficher pour cette sélection.</p>
+  </div>
+  }
+
+  <div class="comics-search">
+    <input
+      type="text"
+      placeholder="Rechercher par titre, designer, genre..."
+      [ngModel]="searchTerm()"
+      (ngModelChange)="onSearchChange.emit($event)"
+    />
+  </div>
+</div>

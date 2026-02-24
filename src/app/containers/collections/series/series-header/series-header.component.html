@@ -1,25 +1,21 @@
 <div class="series-header">
   <h1>
-    @if (isAdminView()) { Séries ({{ filteredSeriesCount() }}) } @else {
     {{ seriesPageTitle() }} ({{
       selectedView() === "recommendations"
         ? recommendedSeriesCount()
         : filteredSeriesCount()
-    }}) }
+    }})
   </h1>
 
   @if(allSeriesCount() !== 0) {
   <div class="series-header-top">
-    @if (!isAdminView()) {
     <app-view-toggle
       [toggleClass]="'series-view-toggle'"
       [options]="viewOptions()"
       [selected]="selectedView()"
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
-    }
 
-    @if (!isAdminView()) {
     <div class="series-actions">
       <button
         class="makya-btn-small"
@@ -75,9 +71,8 @@
         🏆 Top 5
       </button>
     </div>
-    }
   </div>
-  } @if(!isAdminView() && allSeriesCount() === 0) {
+  } @if(allSeriesCount() === 0) {
   <div class="empty-state">
     <p class="empty-message">
       Vous n'avez aucune série dans votre collection.
@@ -92,14 +87,12 @@
   }
 
   <div class="series-stats-bloc">
-    @if (!isAdminView()) {
     <app-stats-display
       [stats]="stats()"
       [count]="filteredSeriesCount()"
       countLabel="séries"
     >
     </app-stats-display>
-    }
 
     <div class="series-filters">
       <app-sort-dropdown

@@ -1,0 +1,291 @@
+<app-menu></app-menu>
+
+<div
+  class="movies-container"
+  [class.container-saga-mode]="
+    selectedView() === 'sagas' ||
+    selectedView() === 'actors' ||
+    selectedView() === 'directors' ||
+    selectedView() === 'countries'
+  "
+>
+  @if (isLoadingMovies()) {
+  <app-loader message="Chargement des films..." />
+  } @else {
+  <app-admin-movies-header
+    [selectedView]="selectedView()"
+    [filteredMoviesByYearCount]="filteredMoviesByYear().length"
+    [allMoviesCount]="allMovies().length"
+    [visibleMovieViewOptions]="visibleMovieViewOptions()"
+    (onViewChange)="onViewChange($any($event))"
+    (onSearchChange)="onSearchChange($event)"
+  >
+  </app-admin-movies-header>
+
+  @if (selectedView() === 'watched') {
+  <p>Résultats affichés: {{ sortedMovies().length }}</p>
+  }
+
+  <!-- Movies by saga -->
+  @if (selectedView() === 'sagas') {
+  <div class="movies-by-saga">
+    @for (sagaGroup of moviesBySaga(); track sagaGroup.saga) {
+    <section class="movies-saga-section">
+      <h2 class="movies-saga-title">
+        <button
+          type="button"
+          class="movies-saga-toggle"
+          [attr.aria-expanded]="!isSagaCollapsed(sagaGroup.saga)"
+          (click)="toggleSaga(sagaGroup.saga)"
+        >
+          <span class="movies-saga-toggle-icon">
+            {{ isSagaCollapsed(sagaGroup.saga) ? "▶" : "▼" }}
+          </span>
+          {{ sagaGroup.saga }}
+          ({{ sagaGroup.seenMovies.length + sagaGroup.missingMovies.length }})
+        </button>
+      </h2>
+      @if (!isSagaCollapsed(sagaGroup.saga)) {
+      <div class="movies">
+        @for (movie of sagaGroup.seenMovies; track
+        `${movie.title}-${movie.releaseDate}`; let i = $index) {
+        <div class="movie-card">
+          <app-movie
+            [movie]="movie"
+            [list]="sagaGroup.seenMovies"
+            [index]="i"
+            [selectedView]="selectedView()"
+            [quizzs]="quizzs()"
+            (movieUpdated)="refreshMovies()"
+            (openQuizz)="openQuizzModal($event)"
+          ></app-movie>
+        </div>
+        }
+      </div>
+      @if (sagaGroup.missingMovies.length > 0) {
+      <div class="movies-saga-missing">
+        <p class="movies-saga-missing-label">Films pas encore vus</p>
+        <div class="movies">
+          @for (movie of sagaGroup.missingMovies; track
+          `${movie.title}-${movie.releaseDate}`) {
+          <div class="movie-card movie-card--missing">
+            <app-movie
+              [movie]="movie"
+              [readOnly]="true"
+              [selectedView]="selectedView()"
+              [recommendationBadge]="'Non vu'"
+            ></app-movie>
+          </div>
+          }
+        </div>
+      </div>
+      } }
+    </section>
+    }
+  </div>
+
+  <!-- Movies by actor -->
+  } @else if (selectedView() === 'actors') {
+  <div class="movies-by-saga">
+    @for (actorGroup of moviesByActor(); track actorGroup.actor) {
+    <section class="movies-saga-section">
+      <h2 class="movies-saga-title">
+        <button
+          type="button"
+          class="movies-saga-toggle"
+          [attr.aria-expanded]="!isActorCollapsed(actorGroup.actor)"
+          (click)="toggleActor(actorGroup.actor)"
+        >
+          <span class="movies-saga-toggle-icon">
+            {{ isActorCollapsed(actorGroup.actor) ? "▶" : "▼" }}
+          </span>
+          {{ actorGroup.actor }}
+          ({{ actorGroup.seenMovies.length + actorGroup.missingMovies.length }})
+        </button>
+      </h2>
+      @if (!isActorCollapsed(actorGroup.actor)) {
+      <div class="movies">
+        @for (movie of actorGroup.seenMovies; track
+        `${movie.title}-${movie.releaseDate}`; let i = $index) {
+        <div class="movie-card">
+          <app-movie
+            [movie]="movie"
+            [list]="actorGroup.seenMovies"
+            [index]="i"
+            [selectedView]="selectedView()"
+            [quizzs]="quizzs()"
+            (movieUpdated)="refreshMovies()"
+            (openQuizz)="openQuizzModal($event)"
+          ></app-movie>
+        </div>
+        }
+      </div>
+      @if (actorGroup.missingMovies.length > 0) {
+      <div class="movies-saga-missing">
+        <p class="movies-saga-missing-label">Films pas encore vus</p>
+        <div class="movies">
+          @for (movie of actorGroup.missingMovies; track
+          `${movie.title}-${movie.releaseDate}`) {
+          <div class="movie-card movie-card--missing">
+            <app-movie
+              [movie]="movie"
+              [readOnly]="true"
+              [recommendationBadge]="'Non vu'"
+              [selectedView]="selectedView()"
+            ></app-movie>
+          </div>
+          }
+        </div>
+      </div>
+      } }
+    </section>
+    }
+  </div>
+
+  <!-- Movies by country -->
+  } @else if (selectedView() === 'countries') {
+  <div class="movies-by-saga">
+    @for (countryGroup of moviesByCountry(); track countryGroup.country) {
+    <section class="movies-saga-section">
+      <h2 class="movies-saga-title">
+        <button
+          type="button"
+          class="movies-saga-toggle"
+          [attr.aria-expanded]="!isCountryCollapsed(countryGroup.country)"
+          (click)="toggleCountry(countryGroup.country)"
+        >
+          <span class="movies-saga-toggle-icon">
+            {{ isCountryCollapsed(countryGroup.country) ? "▶" : "▼" }}
+          </span>
+          {{ countryGroup.country }}
+          ({{
+            countryGroup.seenMovies.length + countryGroup.missingMovies.length
+          }})
+        </button>
+      </h2>
+      @if (!isCountryCollapsed(countryGroup.country)) {
+      <div class="movies">
+        @for (movie of countryGroup.seenMovies; track
+        `${movie.title}-${movie.releaseDate}`; let i = $index) {
+        <div class="movie-card">
+          <app-movie
+            [movie]="movie"
+            [list]="countryGroup.seenMovies"
+            [selectedView]="selectedView()"
+            [index]="i"
+            [quizzs]="quizzs()"
+            (movieUpdated)="refreshMovies()"
+            (openQuizz)="openQuizzModal($event)"
+          ></app-movie>
+        </div>
+        }
+      </div>
+      @if (countryGroup.missingMovies.length > 0) {
+      <div class="movies-saga-missing">
+        <p class="movies-saga-missing-label">Films pas encore vus</p>
+        <div class="movies">
+          @for (movie of countryGroup.missingMovies; track
+          `${movie.title}-${movie.releaseDate}`) {
+          <div class="movie-card movie-card--missing">
+            <app-movie
+              [movie]="movie"
+              [readOnly]="true"
+              [recommendationBadge]="'Non vu'"
+              [selectedView]="selectedView()"
+            ></app-movie>
+          </div>
+          }
+        </div>
+      </div>
+      } }
+    </section>
+    }
+  </div>
+
+  <!-- Movies by director -->
+  } @else if (selectedView() === 'directors') {
+  <div class="movies-by-saga">
+    @for (directorGroup of moviesByDirector(); track directorGroup.director) {
+    <section class="movies-saga-section">
+      <h2 class="movies-saga-title">
+        <button
+          type="button"
+          class="movies-saga-toggle"
+          [attr.aria-expanded]="!isDirectorCollapsed(directorGroup.director)"
+          (click)="toggleDirector(directorGroup.director)"
+        >
+          <span class="movies-saga-toggle-icon">
+            {{ isDirectorCollapsed(directorGroup.director) ? "▶" : "▼" }}
+          </span>
+          {{ directorGroup.director }}
+          ({{
+            directorGroup.seenMovies.length +
+              directorGroup.missingMovies.length
+          }})
+        </button>
+      </h2>
+      @if (!isDirectorCollapsed(directorGroup.director)) {
+      <div class="movies">
+        @for (movie of directorGroup.seenMovies; track
+        `${movie.title}-${movie.releaseDate}`; let i = $index) {
+        <div class="movie-card">
+          <app-movie
+            [movie]="movie"
+            [list]="directorGroup.seenMovies"
+            [selectedView]="selectedView()"
+            [index]="i"
+            [quizzs]="quizzs()"
+            (movieUpdated)="refreshMovies()"
+            (openQuizz)="openQuizzModal($event)"
+          ></app-movie>
+        </div>
+        }
+      </div>
+      @if (directorGroup.missingMovies.length > 0) {
+      <div class="movies-saga-missing">
+        <p class="movies-saga-missing-label">Films pas encore vus</p>
+        <div class="movies">
+          @for (movie of directorGroup.missingMovies; track
+          `${movie.title}-${movie.releaseDate}`) {
+          <div class="movie-card movie-card--missing">
+            <app-movie
+              [movie]="movie"
+              [readOnly]="true"
+              [recommendationBadge]="'Non vu'"
+              [selectedView]="selectedView()"
+            ></app-movie>
+          </div>
+          }
+        </div>
+      </div>
+      } }
+    </section>
+    }
+  </div>
+
+  <!-- Classic list (Voir tout) -->
+  } @else {
+  <div class="movies">
+    @for (movie of sortedMovies(); track `${movie.title}-${movie.releaseDate}`;
+    let i = $index) {
+    <div class="movie-card">
+      <app-movie
+        [movie]="movie"
+        [list]="sortedMovies()"
+        [index]="i"
+        [selectedView]="selectedView()"
+        [quizzs]="quizzs()"
+        (movieUpdated)="refreshMovies()"
+        (openQuizz)="openQuizzModal($event)"
+      ></app-movie>
+    </div>
+    }
+  </div>
+  } }
+</div>
+
+<app-quizz-modal
+  [isOpen]="isQuizzModalOpen()"
+  [quizzs]="activeQuizzs()"
+  (close)="closeQuizzModal()"
+></app-quizz-modal>

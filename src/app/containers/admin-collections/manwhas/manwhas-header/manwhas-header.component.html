@@ -1,0 +1,33 @@
+<div class="manwhas-header">
+  <h1>Manwhas ({{ filteredCount() }})</h1>
+
+  <button class="makya-btn" (click)="openAddManwhaAdminDialog()">
+    Créer un nouveau manwha
+  </button>
+
+  @if (allCount() !== 0) {
+  <div class="manwhas-header-top">
+    <app-view-toggle
+      [toggleClass]="'manwhas-view-toggle'"
+      [options]="visibleViewOptions()"
+      [selected]="selectedView()"
+      (selectedChange)="onViewChange.emit($any($event))"
+    ></app-view-toggle>
+  </div>
+  }
+
+  @if (filteredCount() === 0) {
+  <div class="empty-state">
+    <p class="empty-message">Aucun manwha à afficher pour cette sélection.</p>
+  </div>
+  }
+
+  <div class="manwhas-search">
+    <input
+      type="text"
+      placeholder="Rechercher par titre, auteur, genre..."
+      [ngModel]="searchTerm()"
+      (ngModelChange)="onSearchChange.emit($event)"
+    />
+  </div>
+</div>

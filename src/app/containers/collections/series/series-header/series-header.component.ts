@@ -15,7 +15,6 @@ import {
 } from '../../../../components/sort-dropdown/sort-dropdown.component';
 import { StatsDisplayComponent } from '../../../../components/stats-display/stats-display.component';
 import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
-import { AuthService } from '../../../../core/auth.service';
 import { SerieView } from '../series.utils';
 import { StatItem } from '../../../../components/stats-display/stats-display.component';
 import { FormsModule } from '@angular/forms';
@@ -56,7 +55,6 @@ export class SeriesHeaderComponent {
   >([]);
   stats = input.required<StatItem[]>();
 
-  private readonly authService = inject(AuthService);
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
 
@@ -72,11 +70,8 @@ export class SeriesHeaderComponent {
     });
   }
 
-  seriesPageTitle = computed(() => {
-    if (this.isAdminView()) {
-      return 'Séries';
-    }
-    return this.selectedView() === 'watchlist'
+  seriesPageTitle = computed(() =>
+    this.selectedView() === 'watchlist'
       ? 'Séries à voir'
       : this.selectedView() === 'owned'
       ? 'Séries possédées'
@@ -86,12 +81,8 @@ export class SeriesHeaderComponent {
       ? 'Recommandations'
       : this.selectedView() === 'countries'
       ? 'Séries par pays'
-      : 'Séries finies';
-  });
-
-  isAdminView(): boolean {
-    return this.authService.isAdmin() && this.router.url.startsWith('/admin');
-  }
+      : 'Séries finies'
+  );
 
   getSelectSeriesRoute(): string {
     const params: Params = this.activatedRoute.snapshot.params;

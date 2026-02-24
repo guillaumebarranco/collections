@@ -1,0 +1,33 @@
+<div class="mangas-header">
+  <h1>Mangas ({{ filteredCount() }})</h1>
+
+  <button class="makya-btn" (click)="openAddMangaAdminDialog()">
+    Créer un nouveau manga
+  </button>
+
+  @if (allCount() !== 0) {
+  <div class="mangas-header-top">
+    <app-view-toggle
+      [toggleClass]="'mangas-view-toggle'"
+      [options]="visibleViewOptions()"
+      [selected]="selectedView()"
+      (selectedChange)="onViewChange.emit($any($event))"
+    ></app-view-toggle>
+  </div>
+  }
+
+  @if (filteredCount() === 0) {
+  <div class="empty-state">
+    <p class="empty-message">Aucun manga à afficher pour cette sélection.</p>
+  </div>
+  }
+
+  <div class="mangas-search">
+    <input
+      type="text"
+      placeholder="Rechercher par titre, auteur, genre..."
+      [ngModel]="searchTerm()"
+      (ngModelChange)="onSearchChange.emit($event)"
+    />
+  </div>
+</div>

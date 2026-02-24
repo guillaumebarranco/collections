@@ -45,7 +45,6 @@ import { LocalStorageService } from '../../../services/local-storage.service';
 import { TopFiveService } from '../../../services/top-five.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
-import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
 import { getFullSerie } from '../../../helpers/full-entities-helper';
 import {
@@ -77,7 +76,6 @@ export class SeriesComponent implements OnInit {
   router = inject(Router);
   private readonly localStorageService = inject(LocalStorageService);
   private readonly topFiveService = inject(TopFiveService);
-  private readonly authService = inject(AuthService);
   private isLoadingPreferences = false;
   private isLoadingViewConfig = false;
   private readonly viewConfigStorageKey = 'series_view_config';
@@ -108,12 +106,13 @@ export class SeriesComponent implements OnInit {
   viewOptions: { value: SerieView; label: string }[] = serieViewOptions;
 
   visibleViewOptions = computed(() =>
-    this.viewOptions.filter((option) => this.isViewOptionVisible(option.value))
+    this.viewOptions.filter((option) =>
+      this.isViewOptionVisible(option.value)
+    )
   );
 
   seriesList = signal<{ [key: string]: Serie[] }>({});
   watchingSeriesList = signal<{ [key: string]: Serie[] }>({});
-  adminSeriesList = signal<Serie[]>([]);
   baseSeriesList = signal<Serie[]>([]);
   recommendations = signal<RecommendedSerie[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
@@ -121,7 +120,7 @@ export class SeriesComponent implements OnInit {
 
   constructor() {
     effect(() => {
-      if (this.isLoadingPreferences || this.isAdminView()) return;
+      if (this.isLoadingPreferences) return;
       const preferences = {
         view: this.selectedView(),
         sort: this.selectedSort(),
@@ -134,13 +133,12 @@ export class SeriesComponent implements OnInit {
 
     effect(() => {
       const config = this.optionalViewConfig();
-      if (this.isLoadingViewConfig || this.isAdminView()) return;
+      if (this.isLoadingViewConfig) return;
       this.localStorageService.setItem(this.viewConfigStorageKey, config);
     });
 
     effect(() => {
       const view = this.selectedView();
-      if (this.isAdminView()) return;
       if (!this.isViewOptionVisible(view)) {
         this.selectedView.set('finished');
       }
@@ -148,9 +146,6 @@ export class SeriesComponent implements OnInit {
   }
 
   allSeries = computed<Serie[]>(() => {
-    if (this.isAdminView()) {
-      return this.adminSeriesList();
-    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
@@ -159,9 +154,6 @@ export class SeriesComponent implements OnInit {
   });
 
   allWatchlistSeries = computed<Serie[]>(() => {
-    if (this.isAdminView()) {
-      return [];
-    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
@@ -171,9 +163,7 @@ export class SeriesComponent implements OnInit {
 
   filteredSeries = computed<Serie[]>(() => {
     let series: Serie[] = [];
-    if (this.isAdminView()) {
-      series = this.allSeries();
-    } else if (this.selectedView() === 'watchlist') {
+    if (this.selectedView() === 'watchlist') {
       series = this.allWatchlistSeries();
     } else if (this.selectedView() === 'owned') {
       series = this.allSeries().filter((serie) => serie.owned);
@@ -200,9 +190,6 @@ export class SeriesComponent implements OnInit {
   );
 
   stats = computed<StatItem[]>(() => {
-    if (this.isAdminView()) {
-      return [];
-    }
     const seriesToUse = this.filteredSeries();
 
     const totalDurationMinutes = seriesToUse.reduce(
@@ -295,9 +282,6 @@ export class SeriesComponent implements OnInit {
   }
 
   ngOnInit() {
-    if (this.isAdminView()) {
-      this.selectedView.set('finished');
-    }
     this.loadViewConfigFromStorage();
     void this.refreshQuizzs();
     this.loadViewPreferencesFromStorage();
@@ -305,14 +289,6 @@ export class SeriesComponent implements OnInit {
   }
 
   async refreshSeries() {
-    if (this.isAdminView()) {
-      const baseSeries = await getAllBaseSeries();
-      const series = baseSeries.map(getFullSerie);
-      this.adminSeriesList.set(series);
-      this.baseSeriesList.set(series);
-      return;
-    }
-
     const userId = this.getActiveUserId();
     const [series, watchlist, baseSeries] = await Promise.all([
       getAllSeries(userId),
@@ -359,10 +335,6 @@ export class SeriesComponent implements OnInit {
     this.showTopFiveRank.set(!this.showTopFiveRank());
   }
 
-  public isAdminView(): boolean {
-    return this.authService.isAdmin() && this.router.url.startsWith('/admin');
-  }
-
   onSortChange(sortValue: string) {
     this.selectedSort.set(sortValue);
   }
@@ -381,7 +353,6 @@ export class SeriesComponent implements OnInit {
       allSeries: this.allSeries(),
       baseSeries: this.baseSeriesList(),
       selectedSort: this.selectedSort(),
-      isAdminView: this.isAdminView(),
     });
   });
 
@@ -392,7 +363,6 @@ export class SeriesComponent implements OnInit {
       allSeries: this.allSeries(),
       baseSeries: this.baseSeriesList(),
       selectedSort: this.selectedSort(),
-      isAdminView: this.isAdminView(),
     });
   });
 
@@ -454,7 +424,6 @@ export class SeriesComponent implements OnInit {
   }
 
   async loadRecommendations() {
-    if (this.isAdminView()) return;
     if (this.isLoadingRecommendations()) return;
 
     const userId = this.getActiveUserId();

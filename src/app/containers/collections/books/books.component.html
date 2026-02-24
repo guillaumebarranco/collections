@@ -32,7 +32,7 @@
     (onTopFiveRankChange)="toggleTopFiveRankDisplay()"
   ></app-books-header>
 
-  @if(!isAdminView() && selectedYearFilter() !== 'all') {
+  @if(selectedYearFilter() !== 'all') {
   <p>Résultats affichés: {{ sortedBooks().length }}</p>
   }
 
@@ -68,8 +68,8 @@
   }
 
   <div>
-    @if(selectedView() !== 'recommendations') { @if(!isAdminView() &&
-    selectedView() === 'readlist' && sortedBooks().length === 0) {
+    @if(selectedView() !== 'recommendations') { @if(selectedView() ===
+    'readlist' && sortedBooks().length === 0) {
     <div class="readlist-actions">
       <button
         class="makya-btn-ultra-big"
@@ -84,14 +84,11 @@
       @for (authorGroup of booksByAuthor(); track authorGroup.author) {
       <section class="books-author-section">
         <h2 class="books-author-title">
-          @if (isAdminView()) {
           {{ authorGroup.author }} ({{
-            authorGroup.readBooks.length + authorGroup.missingBooks.length
-          }}) } @else { {{ authorGroup.author }} ({{
             authorGroup.readBooks.length
           }}
           lus) ({{ authorGroup.missingBooks.length }}
-          restants à lire) }
+          restants à lire)
         </h2>
         <div class="books">
           @for (book of authorGroup.readBooks; track book.title) {
@@ -135,14 +132,11 @@
       @for (sagaGroup of booksBySaga(); track sagaGroup.saga) {
       <section class="books-author-section">
         <h2 class="books-author-title">
-          @if (isAdminView()) {
           {{ sagaGroup.saga }} ({{
-            sagaGroup.readBooks.length + sagaGroup.missingBooks.length
-          }}) } @else { {{ sagaGroup.saga }} ({{
             sagaGroup.readBooks.length
           }}
           lus) ({{ sagaGroup.missingBooks.length }}
-          restants à lire) } @if(sagaGroup.isSagaFinished) {
+          restants à lire) @if(sagaGroup.isSagaFinished) {
           <span style="color: green">Saga terminée</span>
           } @else {
           <span style="color: orange">Saga en cours</span>
@@ -197,14 +191,11 @@
           <span class="books-author-title-chevron">▶</span>
           } @else {
           <span class="books-author-title-chevron">▼</span>
-          } @if (isAdminView()) {
-          {{ countryGroup.country }} ({{
-            countryGroup.readBooks.length + countryGroup.missingBooks.length
-          }}) } @else { {{ countryGroup.country }} ({{
+          } {{ countryGroup.country }} ({{
             countryGroup.readBooks.length
           }}
           lus) ({{ countryGroup.missingBooks.length }}
-          restants à lire) }
+          restants à lire)
         </h2>
         @if (!isCountryCollapsed(countryGroup.country)) {
         <div class="books">

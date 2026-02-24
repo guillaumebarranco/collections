@@ -1,0 +1,268 @@
+@use "../../../styles/containers.scss" as containers;
+
+.movies-container {
+  @include containers.container-base;
+
+  .empty-state {
+    @include containers.empty-state-base;
+  }
+}
+
+.watchlist-actions {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+}
+
+.movies-count {
+  @include containers.count;
+}
+
+.movies-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 320px;
+}
+
+.movies-config-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.movies-config-content {
+  background: #fff;
+  border-radius: 14px;
+  width: 100%;
+  max-width: 520px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  padding: 20px 22px 18px;
+}
+
+.movies-config-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+
+  h2 {
+    margin: 0;
+    font-size: 1.4rem;
+    color: #2c3e50;
+  }
+}
+
+.movies-config-close {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: #95a5a6;
+  cursor: pointer;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: #ecf0f1;
+    color: #2c3e50;
+  }
+}
+
+.movies-config-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.movies-config-subtitle {
+  margin: 0;
+  color: #7f8c8d;
+  font-size: 0.95rem;
+}
+
+.movies-config-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+  color: #34495e;
+  font-weight: 500;
+
+  input {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.movies-config-hint {
+  margin: 6px 0 0;
+  font-size: 0.9rem;
+  color: #95a5a6;
+}
+
+.movies {
+  @include containers.grid-base;
+}
+
+.movie-card {
+  position: relative;
+  @include containers.card-base;
+}
+
+.movies-by-saga {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.movies-saga-section {
+  padding: 12px 16px 4px;
+  background: #f9fafb;
+  border-radius: 14px;
+
+  .movies {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 16px;
+
+    @media (max-width: 768px) {
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    }
+  }
+
+  .movie-card {
+    padding: 0;
+  }
+}
+
+.movies-saga-title {
+  margin: 0 0 12px;
+  font-size: 1.35rem;
+  color: #2c3e50;
+}
+
+.movies-saga-toggle {
+  background: transparent;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.movies-saga-toggle-icon {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+
+.movies-saga-missing {
+  margin-top: 12px;
+}
+
+.movies-saga-missing-label {
+  margin: 0 0 10px;
+  font-size: 0.95rem;
+  color: #7f8c8d;
+  font-weight: 600;
+}
+
+.movie-card--missing {
+  position: relative;
+
+  &.movie-card--recommended {
+    button {
+      left: 110px;
+      top: 5px;
+    }
+  }
+
+  button {
+    position: relative;
+    right: 0;
+    top: 15px;
+    z-index: 5;
+  }
+
+  .movie-rating,
+  .movie-times-watched {
+    display: none;
+  }
+}
+
+.movies-watching-time {
+  color: #fffbe6;
+  background: #7f53ac;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-right: 18px;
+  box-shadow: 0 2px 8px rgba(127, 83, 172, 0.08);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.movies-watching-time strong {
+  color: #ffe082;
+  margin-left: 6px;
+  font-size: 1.15em;
+}
+
+.movies-duration {
+  color: #fffbe6;
+  background: #4caf50;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-right: 18px;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.08);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.movies-duration strong {
+  color: #c8e6c9;
+  margin-left: 6px;
+  font-size: 1.15em;
+}
+
+// Responsive
+@include containers.responsive-base {
+  .movies-container {
+    padding: 15px;
+
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+  .movies-actions {
+    justify-content: center;
+  }
+
+  .movies {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+  }
+}

@@ -1,0 +1,20 @@
+<div class="musics-header">
+  <h1>Musiques ({{ allMusicsCount() }})</h1>
+
+  <div class="musics-header-top">
+    <app-view-toggle
+      toggleClass="musics-view-toggle"
+      [options]="viewOptions"
+      [selected]="'all'"
+    ></app-view-toggle>
+  </div>
+
+  <div class="musics-search">
+    <input
+      type="text"
+      placeholder="Rechercher par titre, artiste, album..."
+      [ngModel]="searchTermInput()"
+      (ngModelChange)="onSearchChange.emit($event)"
+    />
+  </div>
+</div>

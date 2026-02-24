@@ -44,7 +44,6 @@ import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditBdComponent } from '../../edit/edit-bd/edit-bd.component';
 import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
-import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
 import { getFullBd } from '../../../helpers/full-entities-helper';
 import {
@@ -80,7 +79,6 @@ export class BdsComponent implements OnInit {
   router = inject(Router);
   private readonly dialog = inject(MatDialog);
   private readonly localStorageService = inject(LocalStorageService);
-  private readonly authService = inject(AuthService);
   private readonly topFiveService = inject(TopFiveService);
   private isLoadingPreferences = false;
   private isLoadingViewConfig = false;
@@ -106,12 +104,13 @@ export class BdsComponent implements OnInit {
   viewOptions: { value: BdView; label: string }[] = bdViewOptions;
 
   visibleViewOptions = computed(() =>
-    this.viewOptions.filter((option) => this.isViewOptionVisible(option.value))
+    this.viewOptions.filter((option) =>
+      this.isViewOptionVisible(option.value)
+    )
   );
 
   bdsList = signal<{ [key: string]: Bd[] }>({});
   readlistBdsList = signal<{ [key: string]: Bd[] }>({});
-  adminBdsList = signal<Bd[]>([]);
   baseBdsList = signal<Bd[]>([]);
   recommendations = signal<RecommendedBd[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
@@ -124,7 +123,7 @@ export class BdsComponent implements OnInit {
 
   constructor() {
     effect(() => {
-      if (this.isLoadingPreferences || this.isAdminView()) return;
+      if (this.isLoadingPreferences) return;
       const preferences = {
         view: this.selectedView(),
         sort: this.selectedSort(),
@@ -137,13 +136,12 @@ export class BdsComponent implements OnInit {
 
     effect(() => {
       const config = this.optionalViewConfig();
-      if (this.isLoadingViewConfig || this.isAdminView()) return;
+      if (this.isLoadingViewConfig) return;
       this.localStorageService.setItem(this.viewConfigStorageKey, config);
     });
 
     effect(() => {
       const view = this.selectedView();
-      if (this.isAdminView()) return;
       if (!this.isViewOptionVisible(view)) {
         this.selectedView.set('read');
       }
@@ -151,39 +149,31 @@ export class BdsComponent implements OnInit {
   }
 
   allBds = computed<Bd[]>(() => {
-    if (this.isAdminView()) {
-      return this.adminBdsList();
-    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
-
     return hasNameParam
       ? this.bdsList()[params['id']] || []
       : this.bdsList()[DEFAULT_USER_ID];
   });
 
   allReadlistBds = computed<Bd[]>(() => {
-    if (this.isAdminView()) {
-      return [];
-    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
-
     return hasNameParam
       ? this.readlistBdsList()[params['id']] || []
       : this.readlistBdsList()[DEFAULT_USER_ID];
   });
 
   filteredBds = computed<Bd[]>(() => {
-    let bds = this.allBds();
-    if (this.isAdminView()) {
-      bds = this.allBds();
-    } else if (this.selectedView() === 'readlist') {
+    let bds: Bd[];
+    if (this.selectedView() === 'readlist') {
       bds = this.allReadlistBds();
     } else if (this.selectedView() === 'owned') {
       bds = this.allBds().filter((bd) => bd.owned);
     } else if (this.selectedView() === 'toReRead') {
       bds = this.allBds().filter((bd) => bd.wantToReadAgain === true);
+    } else {
+      bds = this.allBds();
     }
 
     const term = this.searchTerm().trim().toLowerCase();
@@ -201,9 +191,6 @@ export class BdsComponent implements OnInit {
   );
 
   stats = computed<StatItem[]>(() => {
-    if (this.isAdminView()) {
-      return [];
-    }
     const totalTomes = this.calculateTotalTomes();
     const totalPages = this.calculateTotalPages();
     const totalTomesRead = getTotalTomesBdRead(this.filteredBds());
@@ -321,9 +308,6 @@ export class BdsComponent implements OnInit {
   }
 
   async ngOnInit() {
-    if (this.isAdminView()) {
-      this.selectedView.set('read');
-    }
     this.loadViewConfigFromStorage();
     this.loadViewPreferencesFromStorage();
     void this.refreshQuizzs();
@@ -375,14 +359,6 @@ export class BdsComponent implements OnInit {
   }
 
   private async refreshBds() {
-    if (this.isAdminView()) {
-      const baseBds = await getAllBaseBds();
-      const bds = baseBds.map(getFullBd);
-      this.adminBdsList.set(bds);
-      this.baseBdsList.set(bds);
-      return;
-    }
-
     const userId = this.getActiveUserId();
     const [bds, readlist, baseBds] = await Promise.all([
       getAllBds(userId),
@@ -431,10 +407,6 @@ export class BdsComponent implements OnInit {
     return params['id'] ?? DEFAULT_USER_ID;
   }
 
-  public isAdminView(): boolean {
-    return this.authService.isAdmin() && this.router.url.startsWith('/admin');
-  }
-
   getTopFiveRank(bd: Bd): number | null {
     const tf = this.topFive();
     const key = getEntityKey('bds', bd);
@@ -456,7 +428,6 @@ export class BdsComponent implements OnInit {
   }
 
   async loadRecommendations() {
-    if (this.isAdminView()) return;
     if (this.isLoadingRecommendations()) return;
 
     const userId = this.getActiveUserId();

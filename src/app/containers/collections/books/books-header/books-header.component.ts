@@ -15,12 +15,9 @@ import {
 } from '../../../../components/sort-dropdown/sort-dropdown.component';
 import { StatsDisplayComponent } from '../../../../components/stats-display/stats-display.component';
 import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
-import { AuthService } from '../../../../core/auth.service';
 import { BookView } from '../books.utils';
 import { StatItem } from '../../../../components/stats-display/stats-display.component';
 import { FormsModule } from '@angular/forms';
-import { AddBookComponent } from '../../../add/add-book/add-book.component';
-import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { DEFAULT_USER_ID } from '../../../../utils/constants';
 
 @Component({
@@ -31,7 +28,6 @@ import { DEFAULT_USER_ID } from '../../../../utils/constants';
     ViewToggleComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
-    MatDialogModule,
   ],
   templateUrl: './books-header.component.html',
   styleUrls: ['./books-header.component.scss'],
@@ -66,10 +62,8 @@ export class BooksHeaderComponent {
   stats = input.required<StatItem[]>();
   showTopFiveRank = input<boolean>(false);
 
-  private readonly authService = inject(AuthService);
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
-  private readonly dialog = inject(MatDialog);
 
   selectedSort = signal<string>('readDate');
   selectedYearFilter = signal<string>('all');
@@ -92,11 +86,8 @@ export class BooksHeaderComponent {
     });
   }
 
-  booksPageTitle = computed(() => {
-    if (this.isAdminView()) {
-      return 'Livres';
-    }
-    return this.selectedView() === 'readlist'
+  booksPageTitle = computed(() =>
+    this.selectedView() === 'readlist'
       ? 'Livres à lire'
       : this.selectedView() === 'owned'
       ? 'Livres possédés'
@@ -106,16 +97,12 @@ export class BooksHeaderComponent {
       ? 'Livres par saga'
       : this.selectedView() === 'recommendations'
       ? 'Recommandations'
-      : 'Livres lus';
-  });
+      : 'Livres lus'
+  );
 
   private userId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? DEFAULT_USER_ID;
-  }
-
-  isAdminView(): boolean {
-    return this.authService.isAdmin() && this.router.url.startsWith('/admin');
   }
 
   getSelectBooksRoute(): string {
@@ -146,19 +133,5 @@ export class BooksHeaderComponent {
     return hasNameParam
       ? `/${params['id']}/select-books-owned`
       : '/select-books-owned';
-  }
-
-  openAddBookAdminDialog(): void {
-    const dialogRef = this.dialog.open(AddBookComponent, {
-      data: { userId: 'admin' },
-      width: '760px',
-      maxWidth: '95vw',
-    });
-
-    dialogRef.afterClosed().subscribe((result) => {
-      if (result?.created) {
-        this.router.navigate(['/admin/books']);
-      }
-    });
   }
 }

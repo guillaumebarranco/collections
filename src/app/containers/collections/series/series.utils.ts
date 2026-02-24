@@ -117,13 +117,11 @@ export const getSeriesByCountry = ({
   allSeries,
   baseSeries,
   selectedSort,
-  isAdminView,
 }: {
   sortedSeries: Serie[];
   allSeries: Serie[];
   baseSeries: Serie[];
   selectedSort: string;
-  isAdminView: boolean;
 }): SeriesByCountryGroup[] => {
   const countryMap = new Map<string, Serie[]>();
   for (const serie of sortedSeries) {
@@ -147,12 +145,10 @@ export const getSeriesByCountry = ({
 
   const countryGroups = Array.from(countryMap.entries()).map(
     ([country, seenSeries]) => {
-      const missing = isAdminView
-        ? []
-        : getSortedSeries(
-            [...(baseByCountry.get(country) ?? [])],
-            'releaseDate-asc'
-          );
+      const missing = getSortedSeries(
+        [...(baseByCountry.get(country) ?? [])],
+        'releaseDate-asc'
+      );
       return {
         country,
         seenSeries: getSortedSeries(seenSeries, 'releaseDate-asc'),
@@ -233,13 +229,11 @@ export const getSeriesBySaga = ({
   allSeries,
   baseSeries,
   selectedSort,
-  isAdminView,
 }: {
   sortedSeries: Serie[];
   allSeries: Serie[];
   baseSeries: Serie[];
   selectedSort: string;
-  isAdminView: boolean;
 }): SeriesBySagaGroup[] => {
   const sagaMap = new Map<string, Serie[]>();
   for (const serie of sortedSeries) {
@@ -263,7 +257,7 @@ export const getSeriesBySaga = ({
 
   const sagaGroups = Array.from(sagaMap.entries()).map(([saga, seenSeries]) => {
     const missing =
-      isAdminView || saga === 'Sans saga'
+      saga === 'Sans saga'
         ? []
         : getSortedSeries([...(baseBySaga.get(saga) ?? [])], 'releaseDate-asc');
     return {

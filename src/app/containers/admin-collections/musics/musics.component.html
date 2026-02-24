@@ -1,0 +1,19 @@
+<app-menu></app-menu>
+
+<div class="musics-container">
+  <app-admin-musics-header
+    [allMusicsCount]="allMusics().length"
+    [searchTermInput]="searchTerm()"
+    (onSearchChange)="onSearchChange($event)"
+  ></app-admin-musics-header>
+
+  <p>Résultats affichés: {{ sortedMusics().length }}</p>
+
+  <div class="musics">
+    @for (music of sortedMusics(); track `${music.title}-${music.artist}`) {
+    <div class="music-card">
+      <app-music [music]="music"></app-music>
+    </div>
+    }
+  </div>
+</div>

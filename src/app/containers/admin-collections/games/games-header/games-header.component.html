@@ -1,0 +1,25 @@
+<div class="games-header">
+  <h1>{{ gamesPageTitle() }}</h1>
+
+  <button class="makya-btn" (click)="openAddGameAdminDialog()">
+    Créer un nouveau jeu
+  </button>
+
+  <div class="games-header-top">
+    <app-view-toggle
+      [toggleClass]="'games-view-toggle'"
+      [options]="viewOptions()"
+      [selected]="selectedView()"
+      (selectedChange)="onViewChange.emit($any($event))"
+    ></app-view-toggle>
+  </div>
+
+  <div class="games-search">
+    <input
+      type="text"
+      placeholder="Rechercher par titre, éditeur, plateforme..."
+      [ngModel]="searchTerm()"
+      (ngModelChange)="onSearchChange.emit($event)"
+    />
+  </div>
+</div>

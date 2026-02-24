@@ -15,7 +15,6 @@ import {
 } from '../../../../components/sort-dropdown/sort-dropdown.component';
 import { StatsDisplayComponent } from '../../../../components/stats-display/stats-display.component';
 import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
-import { AuthService } from '../../../../core/auth.service';
 import { StatItem } from '../../../../components/stats-display/stats-display.component';
 import { FormsModule } from '@angular/forms';
 
@@ -59,7 +58,6 @@ export class MusicsHeaderComponent {
   >([]);
   stats = input.required<StatItem[]>();
 
-  private readonly authService = inject(AuthService);
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
 
@@ -77,10 +75,6 @@ export class MusicsHeaderComponent {
     effect(() => {
       this.searchTerm.set(this.searchTermInput());
     });
-  }
-
-  isAdminView(): boolean {
-    return this.authService.isAdmin() && this.router.url.startsWith('/admin');
   }
 
   getSelectMusicsRoute(): string {

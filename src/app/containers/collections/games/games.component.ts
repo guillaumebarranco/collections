@@ -37,7 +37,6 @@ import {
 } from '../../../facades/games/games.facade';
 import { LocalStorageService } from '../../../services/local-storage.service';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
-import { AuthService } from '../../../core/auth.service';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
 import { getFullGame } from '../../../helpers/full-entities-helper';
 import {
@@ -77,7 +76,6 @@ export class GamesComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
   router = inject(Router);
   private readonly localStorageService = inject(LocalStorageService);
-  private readonly authService = inject(AuthService);
   private readonly topFiveService = inject(TopFiveService);
   private isLoadingPreferences = false;
   private isLoadingViewConfig = false;
@@ -113,12 +111,13 @@ export class GamesComponent implements OnInit {
   });
 
   visibleViewOptions = computed(() =>
-    this.viewOptions().filter((option) => this.isViewOptionVisible(option.value))
+    this.viewOptions().filter((option) =>
+      this.isViewOptionVisible(option.value)
+    )
   );
 
   gamesList = signal<{ [key: string]: Game[] }>({});
   gamelistGamesList = signal<{ [key: string]: Game[] }>({});
-  adminGamesList = signal<Game[]>([]);
   baseGamesList = signal<Game[]>([]);
   recommendations = signal<RecommendedGame[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
@@ -131,7 +130,7 @@ export class GamesComponent implements OnInit {
 
   constructor() {
     effect(() => {
-      if (this.isLoadingPreferences || this.isAdminView()) return;
+      if (this.isLoadingPreferences) return;
       const preferences = {
         view: this.selectedView(),
         sort: this.selectedSort(),
@@ -144,13 +143,12 @@ export class GamesComponent implements OnInit {
 
     effect(() => {
       const config = this.optionalViewConfig();
-      if (this.isLoadingViewConfig || this.isAdminView()) return;
+      if (this.isLoadingViewConfig) return;
       this.localStorageService.setItem(this.viewConfigStorageKey, config);
     });
 
     effect(() => {
       const view = this.selectedView();
-      if (this.isAdminView()) return;
       if (!this.isViewOptionVisible(view)) {
         this.selectedView.set('played');
       }
@@ -158,9 +156,6 @@ export class GamesComponent implements OnInit {
   }
 
   allGames = computed<Game[]>(() => {
-    if (this.isAdminView()) {
-      return this.adminGamesList();
-    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
@@ -169,9 +164,6 @@ export class GamesComponent implements OnInit {
   });
 
   allGamelistGames = computed<Game[]>(() => {
-    if (this.isAdminView()) {
-      return [];
-    }
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
@@ -180,10 +172,8 @@ export class GamesComponent implements OnInit {
   });
 
   filteredGames = computed<Game[]>(() => {
-    let games = this.allGames();
-    if (this.isAdminView()) {
-      games = this.allGames();
-    } else if (this.selectedView() === 'gamelist') {
+    let games: Game[];
+    if (this.selectedView() === 'gamelist') {
       games = this.allGamelistGames();
     } else if (this.selectedView() === 'platined') {
       games = this.allGames().filter((game) => game.platined);
@@ -191,6 +181,8 @@ export class GamesComponent implements OnInit {
       games = this.allGames().filter((game) => game.owned);
     } else if (this.selectedView() === 'toRePlay') {
       games = this.allGames().filter((game) => game.wantToPlayAgain === true);
+    } else {
+      games = this.allGames();
     }
 
     const term = this.searchTerm().trim().toLowerCase();
@@ -212,9 +204,6 @@ export class GamesComponent implements OnInit {
   );
 
   stats = computed<StatItem[]>(() => {
-    if (this.isAdminView()) {
-      return [];
-    }
     const totalTimeToFinishGames = getTotalTimeToFinishGames(
       this.filteredGames()
     );
@@ -254,9 +243,6 @@ export class GamesComponent implements OnInit {
   });
 
   ngOnInit() {
-    if (this.isAdminView()) {
-      this.selectedView.set('finished');
-    }
     this.loadViewConfigFromStorage();
     void this.refreshQuizzs();
     this.loadViewPreferencesFromStorage();
@@ -264,14 +250,6 @@ export class GamesComponent implements OnInit {
   }
 
   async refreshGames() {
-    if (this.isAdminView()) {
-      const baseGames = await getAllBaseGames();
-      const games = baseGames.map(getFullGame);
-      this.adminGamesList.set(games);
-      this.baseGamesList.set(games);
-      return;
-    }
-
     const userId = this.getActiveUserId();
     const [games, gamelist, baseGames] = await Promise.all([
       getAllGames(userId),
@@ -291,10 +269,6 @@ export class GamesComponent implements OnInit {
   private getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? DEFAULT_USER_ID;
-  }
-
-  public isAdminView(): boolean {
-    return this.authService.isAdmin() && this.router.url.startsWith('/admin');
   }
 
   getTopFiveRank(game: Game): number | null {
@@ -429,7 +403,6 @@ export class GamesComponent implements OnInit {
   }
 
   async loadRecommendations() {
-    if (this.isAdminView()) return;
     if (this.isLoadingRecommendations()) return;
 
     const userId = this.getActiveUserId();

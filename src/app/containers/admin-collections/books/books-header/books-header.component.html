@@ -1,0 +1,25 @@
+<div class="books-header">
+  <h1>{{ pageTitle() }}</h1>
+
+  <button class="makya-btn" (click)="openAddBookAdminDialog()">
+    Créer un nouveau livre
+  </button>
+
+  <div class="books-header-top">
+    <app-view-toggle
+      [toggleClass]="'books-view-toggle'"
+      [options]="viewOptions"
+      [selected]="selectedView()"
+      (selectedChange)="onViewChange.emit($any($event))"
+    ></app-view-toggle>
+  </div>
+
+  <div class="books-search">
+    <input
+      type="text"
+      placeholder="Rechercher par titre, auteur, genre..."
+      [ngModel]="searchTerm()"
+      (ngModelChange)="onSearchChange.emit($event)"
+    />
+  </div>
+</div>

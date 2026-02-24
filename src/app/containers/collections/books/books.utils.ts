@@ -195,13 +195,11 @@ export const getBooksByAuthor = ({
   allBooks,
   baseBooks,
   selectedSort,
-  isAdminView,
 }: {
   sortedBooks: Book[];
   allBooks: Book[];
   baseBooks: Book[];
   selectedSort: string;
-  isAdminView: boolean;
 }): BooksByAuthorGroup[] => {
   const authorMap = new Map<string, Book[]>();
   for (const book of sortedBooks) {
@@ -224,9 +222,10 @@ export const getBooksByAuthor = ({
   }
 
   const groups = Array.from(authorMap.entries()).map(([author, readBooks]) => {
-    const missing = isAdminView
-      ? []
-      : getSortedBooks([...(baseByAuthor.get(author) ?? [])], selectedSort);
+    const missing = getSortedBooks(
+      [...(baseByAuthor.get(author) ?? [])],
+      selectedSort
+    );
     return {
       author,
       readBooks,
@@ -258,13 +257,11 @@ export const getBooksBySaga = ({
   allBooks,
   baseBooks,
   selectedSort,
-  isAdminView,
 }: {
   sortedBooks: Book[];
   allBooks: Book[];
   baseBooks: Book[];
   selectedSort: string;
-  isAdminView: boolean;
 }): BooksBySagaGroup[] => {
   const sagaMap = new Map<string, Book[]>();
   for (const book of sortedBooks) {
@@ -299,7 +296,7 @@ export const getBooksBySaga = ({
       return sorted[0] === a ? -1 : 1;
     });
 
-    const missingBooks = isAdminView ? [] : [...(baseBySaga.get(saga) ?? [])];
+    const missingBooks = [...(baseBySaga.get(saga) ?? [])];
 
     // Trier les livres manquants par sagaOrder, puis par le tri sélectionné
     const sortedMissingBooks = missingBooks.sort((a, b) => {
@@ -344,13 +341,11 @@ export const getBooksByCountry = ({
   allBooks,
   baseBooks,
   selectedSort,
-  isAdminView,
 }: {
   sortedBooks: Book[];
   allBooks: Book[];
   baseBooks: Book[];
   selectedSort: string;
-  isAdminView: boolean;
 }): BooksByCountryGroup[] => {
   const countryMap = new Map<string, Book[]>();
   for (const book of sortedBooks) {
@@ -374,12 +369,10 @@ export const getBooksByCountry = ({
 
   const countryGroups = Array.from(countryMap.entries()).map(
     ([country, readBooks]) => {
-      const missing = isAdminView
-        ? []
-        : getSortedBooks(
-            [...(baseByCountry.get(country) ?? [])],
-            'releaseDate-asc'
-          );
+      const missing = getSortedBooks(
+        [...(baseByCountry.get(country) ?? [])],
+        'releaseDate-asc'
+      );
       return {
         country,
         readBooks: getSortedBooks(readBooks, 'readDate'),
