@@ -6,20 +6,29 @@
 export const usersBadges: Record<string, string[]> = {
   "guillaume": [
     "amoureux-fantasy",
+    "badges-des-trois-sorciers",
     "chevalier-fantasy",
     "cinephile-amateur",
     "cinephile-devoué",
     "cinephile-herbe",
     "cinephile-passionne",
     "eleve-fantasy",
+    "gamer",
     "graine-lecteur",
+    "joueur-capable",
+    "joueur-du-dimanche",
     "lecteur-assidu",
+    "membre-de-l-ordre",
     "petit-beguin-books",
     "petit-beguin-movies",
-    "petit-lecteur"
+    "petit-joueur",
+    "petit-lecteur",
+    "vengeurs-de-la-terre"
   ],
   "ronan": [
     "amoureux-fantasy",
+    "badges-des-trois-sorciers",
+    "champion-du-joystick",
     "chevalier-fantasy",
     "cinephile-amateur",
     "cinephile-devoué",
@@ -27,8 +36,17 @@ export const usersBadges: Record<string, string[]> = {
     "cinephile-inconditionnel",
     "cinephile-passionne",
     "eleve-fantasy",
+    "gamer",
     "graine-lecteur",
-    "petit-lecteur"
+    "guerrier-de-la-terre-du-milieu",
+    "joueur-capable",
+    "joueur-du-dimanche",
+    "membre-de-l-ordre",
+    "nerd",
+    "no-life",
+    "petit-joueur",
+    "petit-lecteur",
+    "vengeurs-de-la-terre"
   ],
   "cassandre": [],
   "kevin": [
@@ -41,6 +59,7 @@ export const usersBadges: Record<string, string[]> = {
     "petit-lecteur"
   ],
   "amandine": [
+    "badges-des-trois-sorciers",
     "cinephile-amateur",
     "cinephile-herbe",
     "cinephile-passionne",

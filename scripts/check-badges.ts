@@ -19,20 +19,26 @@ const USERS_BADGES_PATH = path.join(
   'users-badges.ts'
 );
 
+/** Type des stats passées aux conditions de badges. */
+type BadgeStats = {
+  booksRead: number;
+  booksFantasyRead: number;
+  booksRomanceRead: number;
+  moviesWatched: number;
+  moviesRomanceWatched: number;
+  booksRated: number;
+  moviesRated: number;
+  gamesRated: number;
+  /** Nombre de jeux vidéo auxquels l'utilisateur a joué (dans sa liste). */
+  gamesPlayed: number;
+  /** Nombre de jeux vidéo terminés (au moins une session avec finishedGame). */
+  gamesFinished: number;
+  /** Sagas pour lesquelles l'utilisateur a vu tous les films (saga name -> true). */
+  sagasFullyWatched: Set<string>;
+};
+
 /** Conditions des badges (alignées avec badges.ts). */
-const BADGE_CONDITIONS: Record<
-  string,
-  (stats: {
-    booksRead: number;
-    booksFantasyRead: number;
-    booksRomanceRead: number;
-    moviesWatched: number;
-    moviesRomanceWatched: number;
-    booksRated: number;
-    moviesRated: number;
-    gamesRated: number;
-  }) => boolean
-> = {
+const BADGE_CONDITIONS: Record<string, (stats: BadgeStats) => boolean> = {
   // ——— Livres (général)
   'petit-lecteur': (s) => s.booksRead >= 50,
   'graine-lecteur': (s) => s.booksRead >= 100,
@@ -66,6 +72,21 @@ const BADGE_CONDITIONS: Record<
   'amoureux-movies': (s) => s.moviesRomanceWatched >= 150,
   'grand-amour-movies': (s) => s.moviesRomanceWatched >= 200,
   'amour-eternel-movies': (s) => s.moviesRomanceWatched >= 300,
+  // ——— Films (sagas) — avoir vu tous les films de la saga
+  'vengeurs-de-la-terre': (s) => s.sagasFullyWatched.has('Marvel Cinematic Universe'),
+  'badges-des-trois-sorciers': (s) => s.sagasFullyWatched.has('Wizarding World'),
+  'guerrier-de-la-terre-du-milieu': (s) => s.sagasFullyWatched.has('Tolkien'),
+  'membre-de-l-ordre': (s) => s.sagasFullyWatched.has('Star Wars'),
+  // ——— Jeux vidéo (joués)
+  'joueur-du-dimanche': (s) => s.gamesPlayed >= 20,
+  'petit-joueur': (s) => s.gamesPlayed >= 50,
+  'gamer': (s) => s.gamesPlayed >= 100,
+  'nerd': (s) => s.gamesPlayed >= 150,
+  'no-life': (s) => s.gamesPlayed >= 200,
+  // ——— Jeux vidéo (terminés)
+  'joueur-capable': (s) => s.gamesFinished >= 50,
+  'champion-du-joystick': (s) => s.gamesFinished >= 100,
+  'virtuose-de-la-manette': (s) => s.gamesFinished >= 200,
 };
 
 function isRated(rating: unknown): boolean {
@@ -102,8 +123,16 @@ function main(): void {
   }
 
   const genreByMovieKey: Record<string, string> = {};
+  const sagaToMovieKeys: Record<string, Set<string>> = {};
   for (const m of allBaseMovies) {
     genreByMovieKey[movieKey(m)] = m.genre || '';
+    const sagaName = (m.saga || '').trim();
+    if (sagaName) {
+      if (!sagaToMovieKeys[sagaName]) {
+        sagaToMovieKeys[sagaName] = new Set();
+      }
+      sagaToMovieKeys[sagaName].add(movieKey(m));
+    }
   }
 
   const next: Record<string, string[]> = {};
@@ -128,7 +157,23 @@ function main(): void {
         (genreByMovieKey[movieKey(m)] || '').toLowerCase().includes('romance')
     ).length;
 
-    const stats = {
+    const userMovieKeys = new Set(
+      movies.map((m: { title: string; director: string }) => movieKey(m))
+    );
+    const sagasFullyWatched = new Set<string>();
+    for (const [sagaName, keys] of Object.entries(sagaToMovieKeys)) {
+      const keyList = [...keys];
+      if (keyList.length > 0 && keyList.every((k) => userMovieKeys.has(k))) {
+        sagasFullyWatched.add(sagaName);
+      }
+    }
+
+    const gamesFinished = games.filter(
+      (g: { sessions?: Array<{ finishedGame?: boolean }> }) =>
+        (g.sessions || []).some((s) => s.finishedGame === true)
+    ).length;
+
+    const stats: BadgeStats = {
       booksRead: books.length,
       booksFantasyRead,
       booksRomanceRead,
@@ -137,6 +182,9 @@ function main(): void {
       booksRated: books.filter((b: { rating?: unknown }) => isRated(b.rating)).length,
       moviesRated: movies.filter((m: { rating?: unknown }) => isRated(m.rating)).length,
       gamesRated: games.filter((g: { rating?: unknown }) => isRated(g.rating)).length,
+      gamesPlayed: games.length,
+      gamesFinished,
+      sagasFullyWatched,
     };
 
     const earned = badgeIds.filter((id) =>
