@@ -1505,7 +1505,7 @@ export const ronanSeries: UserSeries = [
   },
   {
     title: 'Bloqués',
-    director: 'Jonathan Cohen, Ramzy Bedia',
+    director: 'Bruno Muschio, Kyan Khojandi',
     seasons: [
       {
         seasonNumber: 1,
@@ -4676,6 +4676,177 @@ export const ronanSeries: UserSeries = [
       },
     ],
     owned: true,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'A Knight of the Seven Kingdoms',
+    director: 'Ira Parker,George R. R. Martin',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 4,
+        seasonTimesWatched: 1,
+        lastViewedDate: '2026-02-23',
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Bref',
+    director: 'Kyan Khojandi, Bruno Muschio',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 4,
+        seasonTimesWatched: 5,
+        lastViewedDate: '',
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Bref.2',
+    director: 'Kyan Khojandi, Bruno Muschio',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 4.5,
+        seasonTimesWatched: 1,
+        lastViewedDate: '2025-02-18',
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Serge le Mytho',
+    director: 'Kyan Khojandi, Bruno Muschio',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 3.5,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'The Mandalorian',
+    director: 'Jon Favreau',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 3.5,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 3.5,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 3.5,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      }
+    ],
+    owned: true,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Le Livre de Boba Fett',
+    director: 'Jon Favreau',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 2,
+        seasonTimesWatched: 1,
+        lastViewedDate: '2022-02-09',
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Andor',
+    director: 'Tony Gilroy',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 4.75,
+        seasonTimesWatched: 2,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 4.5,
+        seasonTimesWatched: 1,
+        lastViewedDate: '2025-05-14',
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'The Acolyte',
+    director: 'Leslye Headland',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 2,
+        seasonTimesWatched: 1,
+        lastViewedDate: '2024-07-17',
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Skeleton Crew',
+    director: 'Christopher Ford, Jon Watts',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 3.5,
+        seasonTimesWatched: 1,
+        lastViewedDate: '2025-01-15',
+      }
+    ],
+    owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',

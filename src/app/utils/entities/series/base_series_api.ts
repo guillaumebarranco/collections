@@ -73,7 +73,7 @@ export const baseSeriesApi: BaseSerie[] = [
       },
       {
         name: 'Julia Jones',
-      },
+      }
     ],
     coverUrl: '/series_pictures/dexter-new-blood.jpg',
     releaseDate: '2021-11-07',
@@ -84,10 +84,10 @@ export const baseSeriesApi: BaseSerie[] = [
         seasonNumber: 1,
         nbEpisodes: 10,
         totalLength: 527,
-      },
+      }
     ],
     description: '',
-    saga: '',
+    saga: 'Dexter',
     countryOrigin: 'États-Unis',
   },
   {
@@ -105,7 +105,7 @@ export const baseSeriesApi: BaseSerie[] = [
       },
       {
         name: 'David Zayas',
-      },
+      }
     ],
     coverUrl: '/series_pictures/dexter-resurrection.jpg',
     releaseDate: '2025-07-11',
@@ -121,10 +121,10 @@ export const baseSeriesApi: BaseSerie[] = [
         seasonNumber: 2,
         nbEpisodes: 0,
         totalLength: 550,
-      },
+      }
     ],
     description: '',
-    saga: '',
+    saga: 'Dexter',
     countryOrigin: 'États-Unis',
   },
   {
@@ -136,7 +136,7 @@ export const baseSeriesApi: BaseSerie[] = [
       },
       {
         name: 'Ben Kingsley',
-      },
+      }
     ],
     coverUrl: '/series_pictures/wonder-man.jpg',
     releaseDate: '2026-01-28',
@@ -147,10 +147,10 @@ export const baseSeriesApi: BaseSerie[] = [
         seasonNumber: 1,
         nbEpisodes: 8,
         totalLength: 267,
-      },
+      }
     ],
     description: '',
-    saga: '',
+    saga: 'Marvel Cinematic Universe',
     countryOrigin: 'États-Unis',
   },
   {
@@ -181,5 +181,314 @@ export const baseSeriesApi: BaseSerie[] = [
     description: '',
     saga: 'Dune',
     countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'A Knight of the Seven Kingdoms',
+    director: 'Ira Parker,George R. R. Martin',
+    actors: [
+      {
+        name: 'Peter Claffey',
+      },
+      {
+        name: 'Dexter Sol Ansell',
+      },
+      {
+        name: 'Daniel Ings',
+      },
+    ],
+    coverUrl: 'https://fr.web.img2.acsta.net/img/ce/dd/cedd8e006d594d417922727708e79bc2.jpg',
+    releaseDate: '2026-01-18',
+    endDate: '',
+    genre: 'Fantasy',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 6,
+        totalLength: 208,
+      },
+    ],
+    description: '',
+    countryOrigin: 'États-Unis',
+    saga: 'Game of Thrones',
+  },
+
+  {
+    title: 'Bref',
+    director: 'Kyan Khojandi, Bruno Muschio',
+    actors: [
+      {
+        name: 'Kyan Khojandi',
+      },
+      {
+        name: 'Alice David',
+      },
+      {
+        name: 'Baptiste Lecaplain',
+      },
+      {
+        name: 'Bérengère Krief',
+      },
+    ],
+    coverUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2HsGlxfsaBIbwWD0HTIhR7IHpmKKtg5EttISLOpJMuBrmEUMvhEbRLadBnLaKI82dLMmYjLrSiTcpjoCFdAgmR-SefEpDXOW4ahRfg&s=10',
+    releaseDate: '2011-08-29',
+    endDate: '2012-07-12',
+    genre: 'Comédie',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 82,
+        totalLength: 143.5,
+      },
+    ],
+    description: '',
+    countryOrigin: 'France',
+    saga: 'Bref',
+  },
+
+  {
+    title: 'Bref.2',
+    director: 'Kyan Khojandi, Bruno Muschio',
+    actors: [
+      {
+        name: 'Kyan Khojandi',
+      },
+      {
+        name: 'Alice David',
+      },
+      {
+        name: 'Baptiste Lecaplain',
+      },
+      {
+        name: 'Bérengère Krief',
+      },
+      {
+        name: 'Laura Felpin',
+      },
+    ],
+    coverUrl: 'https://media.senscritique.com/media/000022643099/0/bref_2.png',
+    releaseDate: '2025-02-14',
+    endDate: '2025-02-14',
+    genre: 'Comédie',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 6,
+        totalLength: 216,
+      },
+    ],
+    description: '',
+    countryOrigin: 'France',
+    saga: 'Bref',
+  },
+
+  {
+    title: 'Serge le Mytho',
+    director: 'Kyan Khojandi, Bruno Muschio',
+    actors: [
+      {
+        name: 'Jonathan Cohen',
+      },
+      {
+        name: 'Izïa Higelin',
+      },
+      {
+        name: 'Jérémie Galan',
+      },
+    ],
+    coverUrl: 'https://fr.web.img5.acsta.net/r_1920_1080/img/5d/7f/5d7f1ddc55d85a0289910907aff4b29e.jpg',
+    releaseDate: '2016-10-07',
+    endDate: '2017-06-28',
+    genre: 'Comédie',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 30,
+        totalLength: 159,
+      },
+    ],
+    description: '',
+    countryOrigin: 'France',
+    saga: 'Bref',
+  },
+
+  {
+    title: 'The Mandalorian',
+    director: 'Jon Favreau',
+    actors: [
+      {
+        name: 'Pedro Pascal',
+      },
+      {
+        name: 'Gina Carano',
+      },
+      {
+        name: 'Carl Weathers',
+      },
+    ],
+    coverUrl: 'https://www.emaginarock.fr/wp-content/uploads/2021/01/The-Mandalorian-saison-1-affiche-pt.jpg',
+    releaseDate: '2020-04-07',
+    endDate: '',
+    genre: 'Science Fiction',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 8,
+        totalLength: 315,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 8,
+        totalLength: 323,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 8,
+        totalLength: 340,
+      },
+    ],
+    description: '',
+    countryOrigin: 'États-Unis',
+    saga: 'Star Wars',
+  },
+
+  {
+    title: 'Le Livre de Boba Fett',
+    director: 'Jon Favreau',
+    actors: [
+      {
+        name: 'Temuera Morrison',
+      },
+      {
+        name: 'Ming-Na Wen',
+      },
+    ],
+    coverUrl: 'https://m.media-amazon.com/images/M/MV5BY2JlY2NkOWItYjAyZS00Yzc5LWE4ZWEtMGY2NzBlZDkzNjYzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2021-12-29',
+    endDate: '2022-02-09',
+    genre: 'Science Fiction',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 7,
+        totalLength: 330,
+      },
+    ],
+    description: '',
+    countryOrigin: 'États-Unis',
+    saga: 'Star Wars',
+  },
+
+  {
+    title: 'Andor',
+    director: 'Tony Gilroy',
+    actors: [
+      {
+        name: 'Diego Luna',
+      },
+      {
+        name: 'Stellan Skarsgård',
+      },
+      {
+        name: 'Adria Arjona',
+      },
+      {
+        name: 'Genevieve O\'Reilly',
+      },
+      {
+        name: 'Kyle Soller',
+      },
+      {
+        name: 'Denise Gough',
+      },
+    ],
+    coverUrl: 'https://static.wikia.nocookie.net/starwars/images/6/6e/AndorPosterFull.jpg/revision/latest?cb=20220802224227',
+    releaseDate: '2022-09-21',
+    endDate: '2025-05-14',
+    genre: 'Science Fiction',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 555,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 12,
+        totalLength: 595,
+      },
+    ],
+    description: '',
+    countryOrigin: 'États-Unis',
+    saga: 'Star Wars',
+  },
+
+  {
+    title: 'The Acolyte',
+    director: 'Leslye Headland',
+    actors: [
+      {
+        name: 'Lee Jung-jae',
+      },
+      {
+        name: 'Amandla Stenberg',
+      },
+      {
+        name: 'Manny Jacinto',
+      },
+      {
+        name: 'Dafne Keen',
+      },
+      {
+        name: 'Charlie Barnett',
+      },
+    ],
+    coverUrl: 'https://m.media-amazon.com/images/M/MV5BYzkxYjcxOWUtNWM5Zi00MzY3LTliYjAtNGYyNjE5OWY2MmU4XkEyXkFqcGc@._V1_.jpg',
+    releaseDate: '2024-06-05',
+    endDate: '2024-07-17',
+    genre: 'Science Fiction',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 8,
+        totalLength: 304,
+      },
+    ],
+    description: '',
+    countryOrigin: '',
+    saga: 'Star Wars',
+  },
+
+  {
+    title: 'Skeleton Crew',
+    director: 'Christopher Ford, Jon Watts',
+    actors: [
+      {
+        name: 'Jude Law',
+      },
+      {
+        name: 'Ravi Cabot-Conyers',
+      },
+      {
+        name: 'Ryan Kiera Armstrong',
+      },
+      {
+        name: 'Nick Frost',
+      },
+    ],
+    coverUrl: 'https://fr.web.img3.acsta.net/img/9c/4f/9c4f71bffa179e271309142c6aedf01f.jpg',
+    releaseDate: '2024-12-03',
+    endDate: '2025-01-15',
+    genre: 'Science Fiction',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 8,
+        totalLength: 295,
+      },
+    ],
+    description: '',
+    countryOrigin: 'États-Unis',
+    saga: 'Star Wars',
   },
 ];

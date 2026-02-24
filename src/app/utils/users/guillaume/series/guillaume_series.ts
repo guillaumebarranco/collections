@@ -2226,7 +2226,7 @@ export const guillaumeSeries: UserSeries = [
 
   {
     title: 'Bloqués',
-    director: 'Jonathan Cohen, Ramzy Bedia',
+    director: 'Bruno Muschio, Kyan Khojandi',
     seasons: [
       {
         seasonNumber: 1,

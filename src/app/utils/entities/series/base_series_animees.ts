@@ -3523,7 +3523,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
       {
         name: 'James Arnold Taylor',
-      },
+      }
     ],
     coverUrl: '/series_pictures/Poster_de_The_Clone_Wars_le_film.webp',
     releaseDate: '2008-10-03',
@@ -3564,10 +3564,10 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 7,
         nbEpisodes: 12,
         totalLength: 360,
-      },
+      }
     ],
     description: '',
-    saga: '',
+    saga: 'Star Wars',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3582,7 +3582,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
       {
         name: 'Freddie Prinze Jr.',
-      },
+      }
     ],
     coverUrl: '/series_pictures/Rebels_saison_4.webp',
     releaseDate: '2014-10-03',
@@ -3608,10 +3608,10 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 4,
         nbEpisodes: 15,
         totalLength: 480,
-      },
+      }
     ],
     description: '',
-    saga: '',
+    saga: 'Star Wars',
     countryOrigin: 'États-Unis',
   },
   {
