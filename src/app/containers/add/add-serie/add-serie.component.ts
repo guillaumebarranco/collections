@@ -22,6 +22,7 @@ type AddSerieEntityForm = {
   watchPriority: number;
   description: string;
   countryOrigin: string;
+  saga: string;
 };
 
 type AddSerieDialogData = {
@@ -69,6 +70,7 @@ export class AddSerieComponent {
     watchPriority: 1,
     description: '',
     countryOrigin: '',
+    saga: '',
   });
 
   userForm = signal<AddSerieUserForm>({

@@ -44,6 +44,7 @@ type EditSerieEntityForm = {
   seasonsData: BaseSerieSeasonData[];
   description: string;
   countryOrigin: string;
+  saga: string;
 };
 
 type EditSerieDialogData = {
@@ -379,6 +380,7 @@ export class EditSerieComponent {
       seasonsData: serie.seasonsData || [],
       description: serie.description ?? '',
       countryOrigin: serie.countryOrigin ?? '',
+      saga: serie.saga ?? '',
     };
   }
 
@@ -396,6 +398,7 @@ export class EditSerieComponent {
       seasonsData: form.seasonsData,
       description: form.description ?? '',
       countryOrigin: form.countryOrigin ?? '',
+      saga: form.saga ?? '',
     };
   }
 

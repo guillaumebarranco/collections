@@ -43,6 +43,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -76,6 +77,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: 'Marvel Cinematic Universe',
     countryOrigin: 'États-Unis',
   },
   {
@@ -134,6 +136,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: 'Marvel Cinematic Universe',
     countryOrigin: 'États-Unis',
   },
   {
@@ -165,6 +168,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: 'Star Wars',
     countryOrigin: 'États-Unis',
   },
   {
@@ -198,6 +202,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -261,6 +266,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: 'DC Comics',
     countryOrigin: 'États-Unis',
   },
 
@@ -290,6 +296,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Canada',
   },
   {
@@ -318,6 +325,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'France',
   },
   {
@@ -346,6 +354,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Royaume-Uni',
   },
   {
@@ -398,6 +407,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -426,6 +436,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Royaume-Uni',
   },
   {
@@ -475,6 +486,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -538,6 +550,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -601,6 +614,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -634,6 +648,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -687,6 +702,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -715,6 +731,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: 'Marvel Cinematic Universe',
     countryOrigin: 'États-Unis',
   },
   {
@@ -769,6 +786,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -807,9 +825,9 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: 'Marvel Cinematic Universe',
     countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Desperate Housewives',
     director: 'Marc Cherry',
@@ -871,6 +889,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -934,6 +953,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -962,6 +982,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: 'Marvel Cinematic Universe',
     countryOrigin: 'États-Unis',
   },
   {
@@ -1013,6 +1034,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -1040,6 +1062,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Canada',
   },
   {
@@ -1078,6 +1101,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'France',
   },
   {
@@ -1111,6 +1135,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -1174,6 +1199,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -1223,6 +1249,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: 'DC Comics',
     countryOrigin: 'États-Unis',
   },
   {
@@ -1271,6 +1298,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'France',
   },
   {
@@ -1299,6 +1327,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: 'Marvel Cinematic Universe',
     countryOrigin: 'États-Unis',
   },
   {
@@ -1343,6 +1372,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -1371,6 +1401,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -1445,6 +1476,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -1478,6 +1510,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: 'Marvel Cinematic Universe',
     countryOrigin: 'États-Unis',
   },
   {
@@ -1506,6 +1539,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: 'Marvel Cinematic Universe',
     countryOrigin: 'États-Unis',
   },
   {
@@ -1554,6 +1588,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -1592,6 +1627,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: 'Marvel Cinematic Universe',
     countryOrigin: 'États-Unis',
   },
   {
@@ -1620,6 +1656,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -1663,6 +1700,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Espagne',
   },
   {
@@ -1701,6 +1739,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'France',
   },
   {
@@ -1749,6 +1788,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -1771,9 +1811,9 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Locke & Key',
     director: 'Carlton Cuse',
@@ -1813,6 +1853,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -1846,6 +1887,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: 'Marvel Cinematic Universe',
     countryOrigin: 'États-Unis',
   },
   {
@@ -1900,6 +1942,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -1934,6 +1977,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: 'DC Comics',
     countryOrigin: 'États-Unis',
   },
   {
@@ -1972,6 +2016,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'France',
   },
   {
@@ -2030,6 +2075,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -2089,6 +2135,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -2122,6 +2169,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -2170,6 +2218,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Royaume-Uni',
   },
   {
@@ -2203,6 +2252,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'France',
   },
   {
@@ -2236,6 +2286,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -2264,6 +2315,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Royaume-Uni',
   },
   {
@@ -2297,6 +2349,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'France',
   },
   {
@@ -2325,6 +2378,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: 'Star Wars',
     countryOrigin: 'États-Unis',
   },
   {
@@ -2354,9 +2408,9 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Royaume-Uni',
   },
-
   {
     title: 'One Piece (live-action)',
     director: 'Matt Owens, Steven Maeda',
@@ -2384,6 +2438,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -2422,6 +2477,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Royaume-Uni',
   },
   {
@@ -2460,6 +2516,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -2488,9 +2545,9 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Sense8',
     director: 'Lana Wachowski, Lilly Wachowski',
@@ -2523,6 +2580,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -2602,6 +2660,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -2676,6 +2735,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -2735,6 +2795,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -2773,6 +2834,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -2811,6 +2873,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Corée du Sud',
   },
   {
@@ -2860,6 +2923,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -2958,6 +3022,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3026,6 +3091,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3069,6 +3135,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: 'DC Comics',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3122,6 +3189,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3205,6 +3273,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3253,6 +3322,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3281,6 +3351,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: 'Marvel Cinematic Universe',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3309,6 +3380,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: 'Marvel Cinematic Universe',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3343,6 +3415,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3376,6 +3449,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Royaume-Uni',
   },
   {
@@ -3444,6 +3518,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: 'DC Comics',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3513,6 +3588,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3562,6 +3638,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3591,6 +3668,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3625,6 +3703,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3653,6 +3732,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3717,6 +3797,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3745,6 +3826,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3779,6 +3861,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3812,6 +3895,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: 'Marvel Cinematic Universe',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3855,6 +3939,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3893,6 +3978,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3921,6 +4007,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3974,6 +4061,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -4002,6 +4090,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: 'Marvel Cinematic Universe',
     countryOrigin: 'États-Unis',
   },
   {
@@ -4030,6 +4119,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: 'DC Comics',
     countryOrigin: 'États-Unis',
   },
   {
@@ -4078,9 +4168,9 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Yu Yu Hakusho (live-action)',
     director: 'Shô Tsukikawa',
@@ -4110,6 +4200,7 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
 ];

@@ -107,14 +107,16 @@
   @include containers.card-base;
 }
 
-.series-by-country {
+.series-by-country,
+.series-by-saga {
   display: flex;
   flex-direction: column;
   gap: 24px;
   margin-top: 20px;
 }
 
-.series-country-section {
+.series-country-section,
+.series-saga-section {
   padding: 12px 16px 4px;
   background: #f9fafb;
   border-radius: 14px;
@@ -129,13 +131,15 @@
   }
 }
 
-.series-country-title {
+.series-country-title,
+.series-saga-title {
   margin: 0 0 12px;
   font-size: 1.35rem;
   color: #2c3e50;
 }
 
-.series-country-toggle {
+.series-country-toggle,
+.series-saga-toggle {
   background: transparent;
   border: none;
   padding: 0;
@@ -147,16 +151,19 @@
   gap: 8px;
 }
 
-.series-country-toggle-icon {
+.series-country-toggle-icon,
+.series-saga-toggle-icon {
   font-size: 0.9rem;
   color: #7f8c8d;
 }
 
-.series-country-missing {
+.series-country-missing,
+.series-saga-missing {
   margin-top: 12px;
 }
 
-.series-country-missing-label {
+.series-country-missing-label,
+.series-saga-missing-label {
   margin: 0 0 10px;
   font-size: 0.95rem;
   color: #7f8c8d;

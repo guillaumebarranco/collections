@@ -80,8 +80,12 @@ export class SeriesHeaderComponent {
       ? 'Séries à voir'
       : this.selectedView() === 'owned'
       ? 'Séries possédées'
+      : this.selectedView() === 'sagas'
+      ? 'Séries par saga'
       : this.selectedView() === 'recommendations'
       ? 'Recommandations'
+      : this.selectedView() === 'countries'
+      ? 'Séries par pays'
       : 'Séries finies';
   });
 

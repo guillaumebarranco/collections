@@ -110,6 +110,7 @@ router.post('/', (req: any, res: any) => {
           : undefined,
         description: normalizeString(entityPayload.description, 'description') ?? '',
         countryOrigin: normalizeString(entityPayload.countryOrigin, 'countryOrigin') ?? '',
+        saga: normalizeString(entityPayload.saga, 'saga') ?? '',
       });
 
       if (originalTitle || originalDirector) {

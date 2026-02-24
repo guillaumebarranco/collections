@@ -50,6 +50,7 @@ ${seasonsLines}
     ],
     description: '${escapeString(entity.description ?? '')}',
     countryOrigin: '${escapeString(entity.countryOrigin ?? '')}',
+    saga: '${escapeString(entity.saga ?? '')}',
   },`;
 }
 
@@ -171,6 +172,7 @@ router.post('/add', (req: any, res: any) => {
       seasonsData,
       description: normalizeString(entity.description, 'description') ?? '',
       countryOrigin: normalizeString(entity.countryOrigin, 'countryOrigin') ?? '',
+      saga: normalizeString(entity.saga, 'saga') ?? '',
     };
 
     const rawUserSeasons = Array.isArray(user.seasons) ? user.seasons : [];

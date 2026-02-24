@@ -12,6 +12,7 @@ export type SerieView =
   | 'watchlist'
   | 'owned'
   | 'toReWatch'
+  | 'sagas'
   | 'countries'
   | 'recommendations';
 
@@ -39,8 +40,29 @@ export const serieViewOptions: { value: SerieView; label: string }[] = [
   { value: 'watchlist', label: 'Séries à voir' },
   { value: 'owned', label: 'Séries possédées' },
   { value: 'toReWatch', label: 'À revoir' },
+  { value: 'sagas', label: 'Voir par saga' },
   { value: 'countries', label: 'Voir par pays' },
   { value: 'recommendations', label: 'Recommandations' },
+];
+
+export const sagasSeriesSortOptions: { value: string; label: string }[] = [
+  { value: 'saga-count', label: 'Nombre de séries' },
+  {
+    value: 'saga-user-rating',
+    label: 'Saga la mieux notée par vous',
+  },
+  {
+    value: 'saga-global-rating',
+    label: 'Saga la mieux notée par les utilisateurs',
+  },
+  {
+    value: 'saga-seen-count',
+    label: 'Saga avec le plus de séries vues par vous',
+  },
+  {
+    value: 'saga-rewatched-count',
+    label: 'Saga avec le plus de séries revues par vous',
+  },
 ];
 
 export const countriesSeriesSortOptions: { value: string; label: string }[] = [
@@ -66,6 +88,9 @@ export const countriesSeriesSortOptions: { value: string; label: string }[] = [
 export const getSeriesSortOptions = (
   selectedView: SerieView
 ): { value: string; label: string }[] => {
+  if (selectedView === 'sagas') {
+    return sagasSeriesSortOptions;
+  }
   if (selectedView === 'countries') {
     return countriesSeriesSortOptions;
   }
@@ -74,6 +99,12 @@ export const getSeriesSortOptions = (
 
 export type SeriesByCountryGroup = {
   country: string;
+  seenSeries: Serie[];
+  missingSeries: Serie[];
+};
+
+export type SeriesBySagaGroup = {
+  saga: string;
   seenSeries: Serie[];
   missingSeries: Serie[];
 };
@@ -195,6 +226,117 @@ export const getSeriesByCountry = ({
   });
 
   return filteredCountryGroups;
+};
+
+export const getSeriesBySaga = ({
+  sortedSeries,
+  allSeries,
+  baseSeries,
+  selectedSort,
+  isAdminView,
+}: {
+  sortedSeries: Serie[];
+  allSeries: Serie[];
+  baseSeries: Serie[];
+  selectedSort: string;
+  isAdminView: boolean;
+}): SeriesBySagaGroup[] => {
+  const sagaMap = new Map<string, Serie[]>();
+  for (const serie of sortedSeries) {
+    const sagaName = (serie.saga ?? '').trim();
+    const sagaKey = sagaName || 'Sans saga';
+    const list = sagaMap.get(sagaKey) ?? [];
+    list.push(serie);
+    sagaMap.set(sagaKey, list);
+  }
+
+  const seenKeys = new Set(allSeries.map((s) => getSerieIdentityKey(s)));
+  const baseBySaga = new Map<string, Serie[]>();
+  for (const serie of baseSeries) {
+    const sagaName = (serie.saga ?? '').trim();
+    if (!sagaName) continue;
+    if (seenKeys.has(getSerieIdentityKey(serie))) continue;
+    const list = baseBySaga.get(sagaName) ?? [];
+    list.push(serie);
+    baseBySaga.set(sagaName, list);
+  }
+
+  const sagaGroups = Array.from(sagaMap.entries()).map(([saga, seenSeries]) => {
+    const missing =
+      isAdminView || saga === 'Sans saga'
+        ? []
+        : getSortedSeries([...(baseBySaga.get(saga) ?? [])], 'releaseDate-asc');
+    return {
+      saga,
+      seenSeries: getSortedSeries(seenSeries, 'releaseDate-asc'),
+      missingSeries: missing,
+    };
+  });
+
+  const filteredSagaGroups =
+    selectedSort === 'saga-user-rating' || selectedSort === 'saga-global-rating'
+      ? sagaGroups.filter((group) => {
+          const ratedSeries = group.seenSeries.filter(
+            (s) => getSerieAverageRating(s) > 0
+          );
+          return ratedSeries.length >= 5;
+        })
+      : sagaGroups.filter(
+          (group) =>
+            group.seenSeries.length + group.missingSeries.length > 3
+        );
+
+  filteredSagaGroups.sort((a, b) => {
+    switch (selectedSort) {
+      case 'saga-count': {
+        const countA = a.seenSeries.length + a.missingSeries.length;
+        const countB = b.seenSeries.length + b.missingSeries.length;
+        if (countB !== countA) return countB - countA;
+        return a.saga.localeCompare(b.saga);
+      }
+      case 'saga-user-rating':
+      case 'saga-global-rating': {
+        const ratedA = a.seenSeries.filter(
+          (s) => getSerieAverageRating(s) > 0
+        );
+        const ratedB = b.seenSeries.filter(
+          (s) => getSerieAverageRating(s) > 0
+        );
+        const avgA =
+          ratedA.reduce((sum, s) => sum + getSerieAverageRating(s), 0) /
+          (ratedA.length || 1);
+        const avgB =
+          ratedB.reduce((sum, s) => sum + getSerieAverageRating(s), 0) /
+          (ratedB.length || 1);
+        if (Math.abs(avgB - avgA) > 0.01) return avgB - avgA;
+        return a.saga.localeCompare(b.saga);
+      }
+      case 'saga-seen-count': {
+        const countA = a.seenSeries.length;
+        const countB = b.seenSeries.length;
+        if (countB !== countA) return countB - countA;
+        return a.saga.localeCompare(b.saga);
+      }
+      case 'saga-rewatched-count': {
+        const rewatchedA = a.seenSeries.filter(
+          (s) => getSerieTotalTimesWatched(s) > 1
+        ).length;
+        const rewatchedB = b.seenSeries.filter(
+          (s) => getSerieTotalTimesWatched(s) > 1
+        ).length;
+        if (rewatchedB !== rewatchedA) return rewatchedB - rewatchedA;
+        return a.saga.localeCompare(b.saga);
+      }
+      default: {
+        const countA = a.seenSeries.length + a.missingSeries.length;
+        const countB = b.seenSeries.length + b.missingSeries.length;
+        if (countB !== countA) return countB - countA;
+        return a.saga.localeCompare(b.saga);
+      }
+    }
+  });
+
+  return filteredSagaGroups;
 };
 
 export const getSortedSeries = (

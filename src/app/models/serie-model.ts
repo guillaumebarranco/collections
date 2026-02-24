@@ -16,6 +16,7 @@ export interface BaseSerie extends MandatorySerieData {
   seasonsData: BaseSerieSeasonData[];
   description: string;
   countryOrigin: Country;
+  saga: string;
 }
 
 export interface BaseSerieSeasonData {

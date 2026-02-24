@@ -44,6 +44,73 @@
     </div>
     } }
   </div>
+  } @else if(selectedView() === 'sagas') {
+  <div class="series-by-saga">
+    @for (sagaGroup of seriesBySaga(); track sagaGroup.saga) {
+    <section class="series-saga-section">
+      <h2 class="series-saga-title">
+        <button
+          type="button"
+          class="series-saga-toggle"
+          [attr.aria-expanded]="!isSagaCollapsed(sagaGroup.saga)"
+          (click)="toggleSaga(sagaGroup.saga)"
+        >
+          <span class="series-saga-toggle-icon">
+            {{ isSagaCollapsed(sagaGroup.saga) ? "▶" : "▼" }}
+          </span>
+          {{ sagaGroup.saga }}
+          @if (isAdminView()) { ({{
+            sagaGroup.seenSeries.length +
+              sagaGroup.missingSeries.length
+          }}) } @else { ({{ sagaGroup.seenSeries.length }} séries vues) ({{
+            sagaGroup.missingSeries.length
+          }}
+          séries restantes à voir) }
+        </button>
+      </h2>
+      @if (!isSagaCollapsed(sagaGroup.saga)) {
+      <div class="series">
+        @for (serie of sagaGroup.seenSeries; track
+        `${serie.title}-${serie.director}`; let i = $index) {
+        <div class="serie-card">
+          <app-serie
+            [serie]="serie"
+            [list]="sagaGroup.seenSeries"
+            [index]="i"
+            [quizzs]="quizzs()"
+            [selectedView]="selectedView()"
+            [showTopFiveSelector]="showTopFiveRank()"
+            [topFiveRank]="getTopFiveRank(serie)"
+            (serieUpdated)="refreshSeries()"
+            (openQuizz)="openQuizzModal($event)"
+            (topFiveRankChange)="onTopFiveRankChange(serie, $event)"
+            (wantToReWatch)="markSerieAsWantToReWatch($event)"
+            (haveReWatched)="markSerieAsReWatched($event)"
+          ></app-serie>
+        </div>
+        }
+      </div>
+      @if (sagaGroup.missingSeries.length > 0) {
+      <div class="series-saga-missing">
+        <p class="series-saga-missing-label">Séries pas encore vues</p>
+        <div class="series">
+          @for (serie of sagaGroup.missingSeries; track
+          `${serie.title}-${serie.director}`) {
+          <div class="serie-card serie-card--missing">
+            <app-serie
+              [serie]="serie"
+              [readOnly]="true"
+              [recommendationBadge]="'Non vue'"
+            ></app-serie>
+          </div>
+          }
+        </div>
+      </div>
+      }
+      }
+    </section>
+    }
+  </div>
   } @else if(selectedView() === 'countries') {
   <div class="series-by-country">
     @for (countryGroup of seriesByCountry(); track countryGroup.country) {
@@ -173,6 +240,14 @@
           (change)="onOptionalViewChange('toReWatch', $any($event.target).checked)"
         />
         À revoir
+      </label>
+      <label class="series-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().sagas"
+          (change)="onOptionalViewChange('sagas', $any($event.target).checked)"
+        />
+        Voir par saga
       </label>
       <label class="series-config-option">
         <input

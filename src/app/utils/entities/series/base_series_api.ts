@@ -24,9 +24,9 @@ export const baseSeriesApi: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Royaume-Uni',
   },
-
   {
     title: 'Fallout',
     director: 'Geneva Robertson-Dworet, Graham Wagner',
@@ -58,9 +58,9 @@ export const baseSeriesApi: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Dexter: New Blood',
     director: 'Clyde Phillips',
@@ -87,9 +87,9 @@ export const baseSeriesApi: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Dexter: Resurrection',
     director: 'Clyde Phillips',
@@ -124,9 +124,9 @@ export const baseSeriesApi: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Wonder Man',
     director: 'Destin Daniel Cretton, Andrew Guest',
@@ -150,9 +150,9 @@ export const baseSeriesApi: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
-
   {
     title: 'Dune : Prophecy',
     director: 'Diane Ademu-John, Alison Schapker',
@@ -179,6 +179,7 @@ export const baseSeriesApi: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: 'Dune',
     countryOrigin: 'États-Unis',
   },
 ];

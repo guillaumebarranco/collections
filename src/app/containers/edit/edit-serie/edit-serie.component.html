@@ -35,6 +35,8 @@
       <p><strong>Description :</strong> {{ serie()?.description }}</p>
       } @if (serie()?.countryOrigin) {
       <p><strong>Nationalité :</strong> {{ serie()?.countryOrigin }}</p>
+      } @if (serie()?.saga) {
+      <p><strong>Saga :</strong> {{ serie()?.saga }}</p>
       }
     </div>
     <br />
@@ -235,6 +237,18 @@
         name="entityCountryOrigin"
         [value]="serieEntityForm()?.countryOrigin ?? ''"
         (valueChange)="updateEntityField('countryOrigin', $event)"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entitySaga">Saga</label>
+      <input
+        id="entitySaga"
+        type="text"
+        [ngModel]="serieEntityForm()?.saga ?? ''"
+        (ngModelChange)="updateEntityField('saga', $event)"
+        name="entitySaga"
+        placeholder="Optionnel"
       />
     </div>
 

@@ -24,6 +24,7 @@ import {
   SerieView,
   OptionalSerieView,
   getSeriesByCountry,
+  getSeriesBySaga,
   getSeriesSortOptions,
   getSortedSeries,
   serieViewOptions,
@@ -93,6 +94,7 @@ export class SeriesComponent implements OnInit {
   optionalViewConfig = signal<Record<OptionalSerieView, boolean>>({
     owned: true,
     toReWatch: true,
+    sagas: false,
     countries: false,
     recommendations: false,
   });
@@ -177,7 +179,7 @@ export class SeriesComponent implements OnInit {
       series = this.allSeries().filter((serie) => serie.owned);
     } else if (this.selectedView() === 'toReWatch') {
       series = this.allSeries().filter((serie) => serie.wantToWatchAgain === true);
-    } else if (this.selectedView() === 'countries') {
+    } else if (this.selectedView() === 'sagas' || this.selectedView() === 'countries') {
       series = this.allSeries();
     } else {
       series = this.allSeries();
@@ -261,6 +263,7 @@ export class SeriesComponent implements OnInit {
     this.optionalViewConfig.set({
       owned: parsed.owned ?? true,
       toReWatch: parsed.toReWatch ?? true,
+      sagas: parsed.sagas ?? false,
       countries: parsed.countries ?? false,
       recommendations: parsed.recommendations ?? false,
     });
@@ -382,6 +385,30 @@ export class SeriesComponent implements OnInit {
     });
   });
 
+  seriesBySaga = computed(() => {
+    if (this.selectedView() !== 'sagas') return [];
+    return getSeriesBySaga({
+      sortedSeries: this.sortedSeries(),
+      allSeries: this.allSeries(),
+      baseSeries: this.baseSeriesList(),
+      selectedSort: this.selectedSort(),
+      isAdminView: this.isAdminView(),
+    });
+  });
+
+  collapsedSagas = signal<Record<string, boolean>>({});
+
+  toggleSaga(saga: string): void {
+    this.collapsedSagas.update((prev) => ({
+      ...prev,
+      [saga]: !prev[saga],
+    }));
+  }
+
+  isSagaCollapsed(saga: string): boolean {
+    return !!this.collapsedSagas()[saga];
+  }
+
   toggleCountry(country: string): void {
     this.collapsedCountries.update((prev) => ({
       ...prev,
@@ -410,7 +437,7 @@ export class SeriesComponent implements OnInit {
 
   private matchesSearch(serie: Serie, term: string): boolean {
     const actors = serie.actors?.map((actor) => actor.name).join(' ') || '';
-    const haystack = [serie.title, serie.director, actors, serie.genre]
+    const haystack = [serie.title, serie.director, actors, serie.genre, serie.saga]
       .filter(Boolean)
       .join(' ');
 

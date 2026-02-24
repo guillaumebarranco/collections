@@ -43,6 +43,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -75,6 +76,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -128,6 +130,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -256,6 +259,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -383,6 +387,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -450,6 +455,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -497,6 +503,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -524,6 +531,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -586,6 +594,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -659,6 +668,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -701,6 +711,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -743,6 +754,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -765,6 +777,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -842,6 +855,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -864,6 +878,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -911,6 +926,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -933,6 +949,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -980,6 +997,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -1002,6 +1020,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -1034,6 +1053,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -1061,6 +1081,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -1164,6 +1185,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -1292,6 +1314,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -1324,6 +1347,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -1357,6 +1381,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -1394,6 +1419,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -1416,6 +1442,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -1438,6 +1465,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -1490,6 +1518,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -1523,6 +1552,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -1545,6 +1575,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -1587,6 +1618,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -1609,6 +1641,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -1646,6 +1679,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'France',
   },
   {
@@ -1668,6 +1702,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -1695,6 +1730,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -1747,6 +1783,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'France',
   },
   {
@@ -1819,6 +1856,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -1891,6 +1929,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'France',
   },
   {
@@ -1949,6 +1988,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -1981,6 +2021,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'France',
   },
   {
@@ -2034,6 +2075,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'France',
   },
   {
@@ -2086,6 +2128,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -2158,6 +2201,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -2180,6 +2224,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -2317,6 +2362,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -2344,6 +2390,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -2372,6 +2419,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -2394,6 +2442,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'France',
   },
   {
@@ -2416,6 +2465,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -2453,6 +2503,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -2520,6 +2571,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -2577,6 +2629,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -2605,6 +2658,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -2638,6 +2692,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -2666,6 +2721,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
 
@@ -2700,6 +2756,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
 
@@ -2734,6 +2791,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
 
@@ -2773,6 +2831,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -2816,6 +2875,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -2854,6 +2914,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -2918,6 +2979,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -2946,6 +3008,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -3144,6 +3207,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3172,6 +3236,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'France',
   },
   {
@@ -3206,6 +3271,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3244,6 +3310,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3282,6 +3349,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -3440,6 +3508,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3498,6 +3567,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3541,6 +3611,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3579,6 +3650,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'France',
   },
   {
@@ -3622,6 +3694,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -3649,6 +3722,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -3671,6 +3745,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -3703,6 +3778,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -3725,6 +3801,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -3762,6 +3839,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -3799,6 +3877,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -3861,6 +3940,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -3889,6 +3969,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -3911,6 +3992,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -3933,6 +4015,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -3955,6 +4038,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -3982,6 +4066,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4044,6 +4129,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'États-Unis',
   },
   {
@@ -4066,6 +4152,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4088,6 +4175,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4110,6 +4198,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4137,6 +4226,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4159,6 +4249,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4197,6 +4288,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4219,6 +4311,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4256,6 +4349,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4278,6 +4372,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4305,6 +4400,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4327,6 +4423,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4359,6 +4456,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4386,6 +4484,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4413,6 +4512,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4435,6 +4535,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4462,6 +4563,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4489,6 +4591,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4511,6 +4614,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4544,6 +4648,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4566,6 +4671,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4588,6 +4694,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4610,6 +4717,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4632,6 +4740,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4654,6 +4763,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4696,6 +4806,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4738,6 +4849,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4770,6 +4882,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4792,6 +4905,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4814,6 +4928,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4837,6 +4952,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4859,6 +4975,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4882,6 +4999,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4904,6 +5022,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4926,6 +5045,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4948,6 +5068,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4971,6 +5092,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -4993,6 +5115,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -5015,6 +5138,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -5037,6 +5161,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -5059,6 +5184,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -5081,6 +5207,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -5104,6 +5231,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -5127,6 +5255,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -5149,6 +5278,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -5171,6 +5301,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
   {
@@ -5193,6 +5324,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
+    saga: '',
     countryOrigin: 'Japon',
   },
 ];

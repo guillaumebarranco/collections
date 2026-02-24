@@ -245,4 +245,5 @@ export const getSerieDataFromUserSerieAndBaseSerie = (
   wantToWatchAgain: userSerie.wantToWatchAgain,
   description: baseSerie?.description ?? '',
   ratingComment: userSerie.ratingComment ?? '',
+  saga: baseSerie?.saga ?? '',
 });

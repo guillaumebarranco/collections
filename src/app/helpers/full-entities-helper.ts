@@ -150,4 +150,5 @@ export const getFullSerie = (serie: BaseSerie): Serie => ({
   wantToWatchAgain: false,
   description: serie.description ?? '',
   ratingComment: '',
+  saga: serie.saga ?? '',
 });
