@@ -46,7 +46,11 @@ export const users = [
     passwordHash: '7e8ef88b672d2f04b12a35e61c65a027f38f06b9c844748bf4a8ff3533d5acf17d419dcaffd2c497a5805c584c7181394ca6df7c8c1203ede0f9e7dd83f3f640',
     passwordSalt: '7a2c5a1e82fd705ce5bb3d9ee684f2f0',
     admin: false,
+  },
+  {
+    username: 'emmanuelle',
+    passwordHash: '0180d7497eb8fb03a8120a1bb4bdd2ae2dafab681257ca7e4da3a1a5b2a0d909ebdf2be0e18ae6a68552e2a9a4e2e911dce4983a197a629c530ddddb3bde5e45',
+    passwordSalt: 'e5651a544a65858867d43d93286db5d0',
+    admin: false,
   }
 ];
-
-export * from './badges';

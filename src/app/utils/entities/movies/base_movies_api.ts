@@ -751,4 +751,27 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     countryOrigin: 'France',
   },
+
+  {
+    title: 'Scream 7',
+    director: 'Kevin Williamson',
+    actors: [
+      {
+        name: 'Neve Campbell',
+      },
+      {
+        name: 'Isabel May',
+      },
+      {
+        name: 'Courteney Cox',
+      },
+    ],
+    coverUrl: 'https://monsieurvintage.com/photos/2025/10/scream-7-affiche.jpg',
+    releaseDate: '2026-02-25',
+    length: 114,
+    genre: 'Horreur',
+    saga: 'Scream',
+    description: '',
+    countryOrigin: 'France',
+  },
 ];

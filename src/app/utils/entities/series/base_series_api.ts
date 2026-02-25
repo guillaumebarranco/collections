@@ -531,4 +531,117 @@ export const baseSeriesApi: BaseSerie[] = [
     countryOrigin: 'États-Unis',
     saga: 'Game of Thrones',
   },
+
+  {
+    title: 'Supergirl',
+    director: 'Greg Berlanti, Ali Adler',
+    actors: [
+      {
+        name: 'Melissa Benoist',
+      },
+      {
+        name: 'Chyler Leigh',
+      },
+      {
+        name: 'David Harewood',
+      },
+      {
+        name: 'Katie McGrath',
+      },
+    ],
+    coverUrl: 'https://fr.web.img5.acsta.net/pictures/18/09/17/10/28/0640095.jpg',
+    releaseDate: '2015-10-26',
+    endDate: '2021-11-09',
+    genre: 'Super-héro',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 20,
+        totalLength: 858,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 22,
+        totalLength: 954,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 23,
+        totalLength: 957,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 22,
+        totalLength: 903,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 19,
+        totalLength: 789,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 20,
+        totalLength: 866,
+      },
+    ],
+    description: '',
+    countryOrigin: 'États-Unis',
+    saga: 'ArrowVerse',
+  },
+
+  {
+    title: 'Supergirl',
+    director: ' Ali Adler, Greg Berlanti, Andrew Kreisberg',
+    actors: [
+      {
+        name: 'Melissa Benoist',
+      },
+      {
+        name: 'Chyler Leigh',
+      },
+      {
+        name: 'David Harewood',
+      },
+    ],
+    coverUrl: 'https://fr.web.img5.acsta.net/pictures/18/09/17/10/28/0640095.jpg',
+    releaseDate: '2015-07-11',
+    endDate: '2021-11-09',
+    genre: 'Super-héro',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 20,
+        totalLength: 858,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 22,
+        totalLength: 954,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 23,
+        totalLength: 961,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 22,
+        totalLength: 903,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 19,
+        totalLength: 789,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 20,
+        totalLength: 862,
+      },
+    ],
+    description: '',
+    countryOrigin: 'États-Unis',
+    saga: 'ArrowVerse',
+  },
 ];

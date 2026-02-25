@@ -217,7 +217,7 @@ export const baseSeries: BaseSerie[] = [
       },
       {
         name: 'David Ramsey',
-      },
+      }
     ],
     coverUrl: '/series_pictures/arrow-affiche_hd.jpg',
     releaseDate: '2012-10-10',
@@ -263,10 +263,10 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 8,
         nbEpisodes: 10,
         totalLength: 600,
-      },
+      }
     ],
     description: '',
-    saga: 'DC Comics',
+    saga: 'ArrowVerse',
     countryOrigin: 'États-Unis',
   },
 
@@ -3106,7 +3106,7 @@ export const baseSeries: BaseSerie[] = [
       },
       {
         name: 'Jordan Elsass',
-      },
+      }
     ],
     coverUrl: '/series_pictures/3782519.webp',
     releaseDate: '2021-02-23',
@@ -3132,10 +3132,10 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 4,
         nbEpisodes: 10,
         totalLength: 600,
-      },
+      }
     ],
     description: '',
-    saga: 'DC Comics',
+    saga: 'ArrowVerse',
     countryOrigin: 'États-Unis',
   },
   {
@@ -3464,7 +3464,7 @@ export const baseSeries: BaseSerie[] = [
       },
       {
         name: 'Danielle Panabaker',
-      },
+      }
     ],
     coverUrl: '/series_pictures/81lGgNZx70L._UF894,1000_QL80_.jpg',
     releaseDate: '2014-10-07',
@@ -3515,10 +3515,10 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 9,
         nbEpisodes: 13,
         totalLength: 780,
-      },
+      }
     ],
     description: '',
-    saga: 'DC Comics',
+    saga: 'ArrowVerse',
     countryOrigin: 'États-Unis',
   },
   {

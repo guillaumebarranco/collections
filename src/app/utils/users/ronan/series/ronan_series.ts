@@ -4880,4 +4880,51 @@ export const ronanSeries: UserSeries = [
     wantToWatchAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: 'Supergirl',
+    director: ' Ali Adler, Greg Berlanti, Andrew Kreisberg',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 3,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 4,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 2.5,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 2,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 6,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
 ];

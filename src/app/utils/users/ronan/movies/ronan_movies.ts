@@ -13702,4 +13702,18 @@ export const ronanMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
+
+  {
+    title: 'Scream 7',
+    director: 'Kevin Williamson',
+    rating: 1.5,
+    timesWatched: 1,
+    firstViewedDate: '2026-02-24',
+    lastViewedDate: '2026-02-24',
+    seenAtCinema: true,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+  },
 ];
