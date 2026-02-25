@@ -868,4 +868,16 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: 'Il était une fois: Tome 2 : Mon dernier amour',
+    author: 'Chlore Smythe, Juliette Pierce',
+    readDate: '2026-02-24',
+    rating: 4,
+    readTimes: 1,
+    owned: true,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
 ];
