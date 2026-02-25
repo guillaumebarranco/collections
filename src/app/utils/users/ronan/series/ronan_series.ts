@@ -907,19 +907,19 @@ export const ronanSeries: UserSeries = [
     title: 'Montre jamais ça à personne',
     director: 'Hugo Benamozig, David Caviglioli',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 4.5,
-      seasonTimesWatched: 1,
-      lastViewedDate: '',
-    },
-    {
-      seasonNumber: 2,
-      seasonRating: 4.5,
-      seasonTimesWatched: 1,
-      lastViewedDate: '',
-    }
-  ],
+      {
+        seasonNumber: 1,
+        seasonRating: 4.5,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 4.5,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+    ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
@@ -4690,7 +4690,7 @@ export const ronanSeries: UserSeries = [
         seasonRating: 4,
         seasonTimesWatched: 1,
         lastViewedDate: '2026-02-23',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -4707,7 +4707,7 @@ export const ronanSeries: UserSeries = [
         seasonRating: 4,
         seasonTimesWatched: 5,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -4724,7 +4724,7 @@ export const ronanSeries: UserSeries = [
         seasonRating: 4.5,
         seasonTimesWatched: 1,
         lastViewedDate: '2025-02-18',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -4741,7 +4741,7 @@ export const ronanSeries: UserSeries = [
         seasonRating: 3.5,
         seasonTimesWatched: 1,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -4770,7 +4770,7 @@ export const ronanSeries: UserSeries = [
         seasonRating: 3.5,
         seasonTimesWatched: 1,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: true,
     watchPriority: 1,
@@ -4787,7 +4787,7 @@ export const ronanSeries: UserSeries = [
         seasonRating: 2,
         seasonTimesWatched: 1,
         lastViewedDate: '2022-02-09',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -4810,7 +4810,7 @@ export const ronanSeries: UserSeries = [
         seasonRating: 4.5,
         seasonTimesWatched: 1,
         lastViewedDate: '2025-05-14',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -4827,7 +4827,7 @@ export const ronanSeries: UserSeries = [
         seasonRating: 2,
         seasonTimesWatched: 1,
         lastViewedDate: '2024-07-17',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -4844,7 +4844,7 @@ export const ronanSeries: UserSeries = [
         seasonRating: 3.5,
         seasonTimesWatched: 1,
         lastViewedDate: '2025-01-15',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -4873,7 +4873,7 @@ export const ronanSeries: UserSeries = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: true,
     watchPriority: 1,
@@ -4883,7 +4883,7 @@ export const ronanSeries: UserSeries = [
 
   {
     title: 'Supergirl',
-    director: ' Ali Adler, Greg Berlanti, Andrew Kreisberg',
+    director: 'Greg Berlanti, Ali Adler',
     seasons: [
       {
         seasonNumber: 1,
@@ -4920,7 +4920,7 @@ export const ronanSeries: UserSeries = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,

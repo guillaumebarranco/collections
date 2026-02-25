@@ -73,7 +73,7 @@ export const baseSeriesApi: BaseSerie[] = [
       },
       {
         name: 'Julia Jones',
-      }
+      },
     ],
     coverUrl: '/series_pictures/dexter-new-blood.jpg',
     releaseDate: '2021-11-07',
@@ -84,7 +84,7 @@ export const baseSeriesApi: BaseSerie[] = [
         seasonNumber: 1,
         nbEpisodes: 10,
         totalLength: 527,
-      }
+      },
     ],
     description: '',
     saga: 'Dexter',
@@ -105,7 +105,7 @@ export const baseSeriesApi: BaseSerie[] = [
       },
       {
         name: 'David Zayas',
-      }
+      },
     ],
     coverUrl: '/series_pictures/dexter-resurrection.jpg',
     releaseDate: '2025-07-11',
@@ -121,7 +121,7 @@ export const baseSeriesApi: BaseSerie[] = [
         seasonNumber: 2,
         nbEpisodes: 0,
         totalLength: 550,
-      }
+      },
     ],
     description: '',
     saga: 'Dexter',
@@ -136,7 +136,7 @@ export const baseSeriesApi: BaseSerie[] = [
       },
       {
         name: 'Ben Kingsley',
-      }
+      },
     ],
     coverUrl: '/series_pictures/wonder-man.jpg',
     releaseDate: '2026-01-28',
@@ -147,7 +147,7 @@ export const baseSeriesApi: BaseSerie[] = [
         seasonNumber: 1,
         nbEpisodes: 8,
         totalLength: 267,
-      }
+      },
     ],
     description: '',
     saga: 'Marvel Cinematic Universe',
@@ -197,7 +197,8 @@ export const baseSeriesApi: BaseSerie[] = [
         name: 'Daniel Ings',
       },
     ],
-    coverUrl: 'https://fr.web.img2.acsta.net/img/ce/dd/cedd8e006d594d417922727708e79bc2.jpg',
+    coverUrl:
+      'https://fr.web.img2.acsta.net/img/ce/dd/cedd8e006d594d417922727708e79bc2.jpg',
     releaseDate: '2026-01-18',
     endDate: '',
     genre: 'Fantasy',
@@ -230,7 +231,8 @@ export const baseSeriesApi: BaseSerie[] = [
         name: 'Bérengère Krief',
       },
     ],
-    coverUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2HsGlxfsaBIbwWD0HTIhR7IHpmKKtg5EttISLOpJMuBrmEUMvhEbRLadBnLaKI82dLMmYjLrSiTcpjoCFdAgmR-SefEpDXOW4ahRfg&s=10',
+    coverUrl:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2HsGlxfsaBIbwWD0HTIhR7IHpmKKtg5EttISLOpJMuBrmEUMvhEbRLadBnLaKI82dLMmYjLrSiTcpjoCFdAgmR-SefEpDXOW4ahRfg&s=10',
     releaseDate: '2011-08-29',
     endDate: '2012-07-12',
     genre: 'Comédie',
@@ -296,7 +298,8 @@ export const baseSeriesApi: BaseSerie[] = [
         name: 'Jérémie Galan',
       },
     ],
-    coverUrl: 'https://fr.web.img5.acsta.net/r_1920_1080/img/5d/7f/5d7f1ddc55d85a0289910907aff4b29e.jpg',
+    coverUrl:
+      'https://fr.web.img5.acsta.net/r_1920_1080/img/5d/7f/5d7f1ddc55d85a0289910907aff4b29e.jpg',
     releaseDate: '2016-10-07',
     endDate: '2017-06-28',
     genre: 'Comédie',
@@ -326,7 +329,8 @@ export const baseSeriesApi: BaseSerie[] = [
         name: 'Carl Weathers',
       },
     ],
-    coverUrl: 'https://www.emaginarock.fr/wp-content/uploads/2021/01/The-Mandalorian-saison-1-affiche-pt.jpg',
+    coverUrl:
+      'https://www.emaginarock.fr/wp-content/uploads/2021/01/The-Mandalorian-saison-1-affiche-pt.jpg',
     releaseDate: '2020-04-07',
     endDate: '',
     genre: 'Science Fiction',
@@ -363,7 +367,8 @@ export const baseSeriesApi: BaseSerie[] = [
         name: 'Ming-Na Wen',
       },
     ],
-    coverUrl: 'https://m.media-amazon.com/images/M/MV5BY2JlY2NkOWItYjAyZS00Yzc5LWE4ZWEtMGY2NzBlZDkzNjYzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BY2JlY2NkOWItYjAyZS00Yzc5LWE4ZWEtMGY2NzBlZDkzNjYzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
     releaseDate: '2021-12-29',
     endDate: '2022-02-09',
     genre: 'Science Fiction',
@@ -393,7 +398,7 @@ export const baseSeriesApi: BaseSerie[] = [
         name: 'Adria Arjona',
       },
       {
-        name: 'Genevieve O\'Reilly',
+        name: "Genevieve O'Reilly",
       },
       {
         name: 'Kyle Soller',
@@ -402,7 +407,8 @@ export const baseSeriesApi: BaseSerie[] = [
         name: 'Denise Gough',
       },
     ],
-    coverUrl: 'https://static.wikia.nocookie.net/starwars/images/6/6e/AndorPosterFull.jpg/revision/latest?cb=20220802224227',
+    coverUrl:
+      'https://static.wikia.nocookie.net/starwars/images/6/6e/AndorPosterFull.jpg/revision/latest?cb=20220802224227',
     releaseDate: '2022-09-21',
     endDate: '2025-05-14',
     genre: 'Science Fiction',
@@ -443,7 +449,8 @@ export const baseSeriesApi: BaseSerie[] = [
         name: 'Charlie Barnett',
       },
     ],
-    coverUrl: 'https://m.media-amazon.com/images/M/MV5BYzkxYjcxOWUtNWM5Zi00MzY3LTliYjAtNGYyNjE5OWY2MmU4XkEyXkFqcGc@._V1_.jpg',
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BYzkxYjcxOWUtNWM5Zi00MzY3LTliYjAtNGYyNjE5OWY2MmU4XkEyXkFqcGc@._V1_.jpg',
     releaseDate: '2024-06-05',
     endDate: '2024-07-17',
     genre: 'Science Fiction',
@@ -476,7 +483,8 @@ export const baseSeriesApi: BaseSerie[] = [
         name: 'Nick Frost',
       },
     ],
-    coverUrl: 'https://fr.web.img3.acsta.net/img/9c/4f/9c4f71bffa179e271309142c6aedf01f.jpg',
+    coverUrl:
+      'https://fr.web.img3.acsta.net/img/9c/4f/9c4f71bffa179e271309142c6aedf01f.jpg',
     releaseDate: '2024-12-03',
     endDate: '2025-01-15',
     genre: 'Science Fiction',
@@ -500,13 +508,14 @@ export const baseSeriesApi: BaseSerie[] = [
         name: 'Matt Smith',
       },
       {
-        name: 'Emma D\'Arcy',
+        name: "Emma D'Arcy",
       },
       {
         name: 'Olivia Cooke',
       },
     ],
-    coverUrl: 'https://m.media-amazon.com/images/I/91hzahi6hzL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/91hzahi6hzL._AC_UF1000,1000_QL80_.jpg',
     releaseDate: '2022-08-22',
     endDate: '',
     genre: 'Fantasy',
@@ -549,7 +558,8 @@ export const baseSeriesApi: BaseSerie[] = [
         name: 'Katie McGrath',
       },
     ],
-    coverUrl: 'https://fr.web.img5.acsta.net/pictures/18/09/17/10/28/0640095.jpg',
+    coverUrl:
+      'https://fr.web.img5.acsta.net/pictures/18/09/17/10/28/0640095.jpg',
     releaseDate: '2015-10-26',
     endDate: '2021-11-09',
     genre: 'Super-héro',
@@ -583,61 +593,6 @@ export const baseSeriesApi: BaseSerie[] = [
         seasonNumber: 6,
         nbEpisodes: 20,
         totalLength: 866,
-      },
-    ],
-    description: '',
-    countryOrigin: 'États-Unis',
-    saga: 'ArrowVerse',
-  },
-
-  {
-    title: 'Supergirl',
-    director: ' Ali Adler, Greg Berlanti, Andrew Kreisberg',
-    actors: [
-      {
-        name: 'Melissa Benoist',
-      },
-      {
-        name: 'Chyler Leigh',
-      },
-      {
-        name: 'David Harewood',
-      },
-    ],
-    coverUrl: 'https://fr.web.img5.acsta.net/pictures/18/09/17/10/28/0640095.jpg',
-    releaseDate: '2015-07-11',
-    endDate: '2021-11-09',
-    genre: 'Super-héro',
-    seasonsData: [
-      {
-        seasonNumber: 1,
-        nbEpisodes: 20,
-        totalLength: 858,
-      },
-      {
-        seasonNumber: 2,
-        nbEpisodes: 22,
-        totalLength: 954,
-      },
-      {
-        seasonNumber: 3,
-        nbEpisodes: 23,
-        totalLength: 961,
-      },
-      {
-        seasonNumber: 4,
-        nbEpisodes: 22,
-        totalLength: 903,
-      },
-      {
-        seasonNumber: 5,
-        nbEpisodes: 19,
-        totalLength: 789,
-      },
-      {
-        seasonNumber: 6,
-        nbEpisodes: 20,
-        totalLength: 862,
       },
     ],
     description: '',
