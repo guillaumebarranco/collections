@@ -491,4 +491,44 @@ export const baseSeriesApi: BaseSerie[] = [
     countryOrigin: 'États-Unis',
     saga: 'Star Wars',
   },
+
+  {
+    title: 'House of the Dragon',
+    director: 'Ryan Condal, George R.R. Martin',
+    actors: [
+      {
+        name: 'Matt Smith',
+      },
+      {
+        name: 'Emma D\'Arcy',
+      },
+      {
+        name: 'Olivia Cooke',
+      },
+    ],
+    coverUrl: 'https://m.media-amazon.com/images/I/91hzahi6hzL._AC_UF1000,1000_QL80_.jpg',
+    releaseDate: '2022-08-22',
+    endDate: '',
+    genre: 'Fantasy',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 10,
+        totalLength: 615,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 8,
+        totalLength: 511,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 0,
+        totalLength: 0,
+      },
+    ],
+    description: '',
+    countryOrigin: 'États-Unis',
+    saga: 'Game of Thrones',
+  },
 ];

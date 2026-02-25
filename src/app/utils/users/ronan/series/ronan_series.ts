@@ -4851,4 +4851,33 @@ export const ronanSeries: UserSeries = [
     wantToWatchAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: 'House of the Dragon',
+    director: 'Ryan Condal, George R.R. Martin',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 4,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 3,
+        seasonTimesWatched: 1,
+        lastViewedDate: '2024-08-04',
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      }
+    ],
+    owned: true,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
 ];
