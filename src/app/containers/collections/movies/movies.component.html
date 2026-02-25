@@ -54,7 +54,7 @@
     </div>
   </app-movies-header>
 
-  @if(selectedView() === 'watched') {
+  @if(selectedView() === 'watched' && allMovies().length > 0) {
   <p>Résultats affichés: {{ sortedMovies().length }}</p>
   }
 
@@ -110,8 +110,7 @@
       Vous devez ajouter des films supplémentaires pour que cette vue contienne
       des données
     </p>
-    } @else {
-    @for (sagaGroup of moviesBySaga(); track sagaGroup.saga) {
+    } @else { @for (sagaGroup of moviesBySaga(); track sagaGroup.saga) {
     <section class="movies-saga-section">
       <h2 class="movies-saga-title">
         <button
@@ -172,8 +171,7 @@
       </div>
       } }
     </section>
-    }
-    }
+    } }
   </div>
 
   <!-- Movies by actor -->
@@ -184,8 +182,7 @@
       Vous devez ajouter des films supplémentaires pour que cette vue contienne
       des données
     </p>
-    } @else {
-    @for (actorGroup of moviesByActor(); track actorGroup.actor) {
+    } @else { @for (actorGroup of moviesByActor(); track actorGroup.actor) {
     <section class="movies-saga-section">
       <h2 class="movies-saga-title">
         <button
@@ -247,8 +244,7 @@
       </div>
       } }
     </section>
-    }
-    }
+    } }
   </div>
 
   <!-- Movies by country -->
@@ -326,8 +322,8 @@
       Vous devez ajouter des films supplémentaires pour que cette vue contienne
       des données
     </p>
-    } @else {
-    @for (directorGroup of moviesByDirector(); track directorGroup.director) {
+    } @else { @for (directorGroup of moviesByDirector(); track
+    directorGroup.director) {
     <section class="movies-saga-section">
       <h2 class="movies-saga-title">
         <button
@@ -388,8 +384,7 @@
       </div>
       } }
     </section>
-    }
-    }
+    } }
   </div>
 
   <!-- Classic Movies list -->

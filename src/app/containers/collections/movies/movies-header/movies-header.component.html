@@ -82,8 +82,18 @@
       }
     </div>
   </div>
+  } @if(allMoviesCount() === 0) {
+  <div class="empty-state">
+    <p class="empty-message">Vous n'avez aucun film dans votre collection.</p>
+    <p class="empty-subtitle">
+      Commencez dès maintenant à créer votre cinéthèque personnelle !
+    </p>
+    <button class="makya-btn-ultra-big" [routerLink]="getSelectMoviesRoute()">
+      Sélectionner mes films
+    </button>
+  </div>
   } @if(filteredMoviesByYearCount() === 0 && selectedView() !== 'watchlist' &&
-  selectedView() !== 'toReWatch') {
+  selectedView() !== 'toReWatch' && allMoviesCount() !== 0) {
   <div class="empty-state">
     <p class="empty-message">Aucun film à afficher pour cette sélection.</p>
     <p class="empty-subtitle">

@@ -4,6 +4,10 @@
   h1 {
     @include containers.header-title-base;
   }
+
+  .empty-state {
+    @include containers.empty-state-base;
+  }
 }
 
 .movies-header-top {
