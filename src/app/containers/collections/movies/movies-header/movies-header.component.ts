@@ -33,6 +33,8 @@ export class MoviesHeaderComponent {
   allMoviesCount = input<number>(0);
   filteredMoviesByYearCount = input<number>(0);
   recommendedMoviesCount = input<number>(0);
+  /** Afficher le bloc stats, filtres et la recherche (masqué quand l'utilisateur n'a pas de films). */
+  showFiltersAndSearch = input<boolean>(true);
   visibleMovieViewOptions = input<
     {
       value: MovieView;

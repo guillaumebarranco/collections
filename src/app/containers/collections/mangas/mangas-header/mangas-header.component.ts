@@ -47,6 +47,8 @@ export class MangasHeaderComponent {
   allReadlistMangasCount = input<number>(0);
   filteredMangasCount = input<number>(0);
   recommendedMangasCount = input<number>(0);
+  /** Afficher le bloc stats, filtres et la recherche (masqué quand l'utilisateur n'a pas d'items). */
+  showFiltersAndSearch = input<boolean>(true);
   sortOptions = input<SortOption[]>([]);
   viewOptions = input<
     {

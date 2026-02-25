@@ -17,6 +17,7 @@
     [filteredMoviesByYearCount]="filteredMoviesByYear().length"
     [recommendedMoviesCount]="recommendedMovies().length"
     [allMoviesCount]="allMovies().length"
+    [showFiltersAndSearch]="showFiltersAndSearch()"
     [visibleMovieViewOptions]="visibleMovieViewOptions()"
     [showTopFiveRank]="showTopFiveRank()"
     (onViewChange)="onViewChange($any($event))"
@@ -104,6 +105,12 @@
   <!-- Movies by saga -->
   } @else if(selectedView() === 'sagas') {
   <div class="movies-by-saga">
+    @if (allMovies().length > 0 && moviesBySaga().length === 0) {
+    <p class="movies-empty-view-message">
+      Vous devez ajouter des films supplémentaires pour que cette vue contienne
+      des données
+    </p>
+    } @else {
     @for (sagaGroup of moviesBySaga(); track sagaGroup.saga) {
     <section class="movies-saga-section">
       <h2 class="movies-saga-title">
@@ -166,11 +173,18 @@
       } }
     </section>
     }
+    }
   </div>
 
   <!-- Movies by actor -->
   } @else if(selectedView() === 'actors') {
   <div class="movies-by-saga">
+    @if (allMovies().length > 0 && moviesByActor().length === 0) {
+    <p class="movies-empty-view-message">
+      Vous devez ajouter des films supplémentaires pour que cette vue contienne
+      des données
+    </p>
+    } @else {
     @for (actorGroup of moviesByActor(); track actorGroup.actor) {
     <section class="movies-saga-section">
       <h2 class="movies-saga-title">
@@ -233,6 +247,7 @@
       </div>
       } }
     </section>
+    }
     }
   </div>
 
@@ -306,6 +321,12 @@
   <!-- Movies by director -->
   } @else if(selectedView() === 'directors') {
   <div class="movies-by-saga">
+    @if (allMovies().length > 0 && moviesByDirector().length === 0) {
+    <p class="movies-empty-view-message">
+      Vous devez ajouter des films supplémentaires pour que cette vue contienne
+      des données
+    </p>
+    } @else {
     @for (directorGroup of moviesByDirector(); track directorGroup.director) {
     <section class="movies-saga-section">
       <h2 class="movies-saga-title">
@@ -367,6 +388,7 @@
       </div>
       } }
     </section>
+    }
     }
   </div>
 

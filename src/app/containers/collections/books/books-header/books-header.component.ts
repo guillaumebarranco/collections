@@ -50,6 +50,8 @@ export class BooksHeaderComponent {
   allBooksCount = input<number>(0);
   filteredBooksCount = input<number>(0);
   recommendedBooksCount = input<number>(0);
+  /** Afficher le bloc stats, filtres et la recherche (masqué quand l'utilisateur n'a pas de livres lus). */
+  showFiltersAndSearch = input<boolean>(true);
   sortOptions = input<SortOption[]>([]);
   yearFilterOptions = input<SortOption[]>([]);
   groupByOptions = input<SortOption[]>([]);

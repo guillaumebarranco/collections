@@ -161,6 +161,13 @@ export class ComicsComponent implements OnInit {
       : this.readlistComicsList()[DEFAULT_USER_ID];
   });
 
+  /** True si l'utilisateur a des items dans la vue courante (affiche stats, filtres, recherche). */
+  showFiltersAndSearch = computed(() =>
+    this.selectedView() === 'readlist'
+      ? this.allReadlistComics().length > 0
+      : this.allComics().length > 0
+  );
+
   filteredComics = computed<Comic[]>(() => {
     let comics: Comic[];
     if (this.selectedView() === 'readlist') {

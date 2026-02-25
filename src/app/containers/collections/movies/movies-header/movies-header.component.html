@@ -70,16 +70,16 @@
         >
           ✅ Possédés
         </button>
+        <button
+          class="makya-btn-small"
+          [class.active]="showTopFiveRank()"
+          title="Voir les top 5 des films"
+          (click)="onTopFiveRankChange.emit()"
+        >
+          🏆 Top 5
+        </button>
       </ng-container>
       }
-      <button
-        class="makya-btn-small"
-        [class.active]="showTopFiveRank()"
-        title="Voir les top 5 des films"
-        (click)="onTopFiveRankChange.emit()"
-      >
-        🏆 Top 5
-      </button>
     </div>
   </div>
   } @if(filteredMoviesByYearCount() === 0 && selectedView() !== 'watchlist' &&
@@ -105,7 +105,7 @@
     </button>
     }
   </div>
-  }
+  } @if (showFiltersAndSearch()) {
   <div class="movies-stats-bloc">
     <ng-content select="[movies-stats-bloc-content]"></ng-content>
     <ng-content select="[movies-filters]"></ng-content>
@@ -119,4 +119,5 @@
       (ngModelChange)="onSearchChange.emit($event)"
     />
   </div>
+  }
 </div>

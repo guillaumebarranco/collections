@@ -164,6 +164,13 @@ export class BdsComponent implements OnInit {
       : this.readlistBdsList()[DEFAULT_USER_ID];
   });
 
+  /** True si l'utilisateur a des items dans la vue courante (affiche stats, filtres, recherche). */
+  showFiltersAndSearch = computed(() =>
+    this.selectedView() === 'readlist'
+      ? this.allReadlistBds().length > 0
+      : this.allBds().length > 0
+  );
+
   filteredBds = computed<Bd[]>(() => {
     let bds: Bd[];
     if (this.selectedView() === 'readlist') {

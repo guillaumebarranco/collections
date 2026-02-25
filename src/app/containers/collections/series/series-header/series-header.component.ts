@@ -46,6 +46,8 @@ export class SeriesHeaderComponent {
   allSeriesCount = input<number>(0);
   filteredSeriesCount = input<number>(0);
   recommendedSeriesCount = input<number>(0);
+  /** Afficher le bloc stats, filtres et la recherche (masqué quand l'utilisateur n'a pas d'items). */
+  showFiltersAndSearch = input<boolean>(true);
   sortOptions = input<SortOption[]>([]);
   viewOptions = input<
     {

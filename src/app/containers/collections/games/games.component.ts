@@ -171,6 +171,13 @@ export class GamesComponent implements OnInit {
       : this.gamelistGamesList()[DEFAULT_USER_ID];
   });
 
+  /** True si l'utilisateur a des items dans la vue courante (affiche stats, filtres, recherche). */
+  showFiltersAndSearch = computed(() =>
+    this.selectedView() === 'gamelist'
+      ? this.allGamelistGames().length > 0
+      : this.allGames().length > 0
+  );
+
   filteredGames = computed<Game[]>(() => {
     let games: Game[];
     if (this.selectedView() === 'gamelist') {

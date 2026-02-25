@@ -161,6 +161,13 @@ export class SeriesComponent implements OnInit {
       : this.watchingSeriesList()[DEFAULT_USER_ID];
   });
 
+  /** True si l'utilisateur a des items dans la vue courante (affiche stats, filtres, recherche). */
+  showFiltersAndSearch = computed(() =>
+    this.selectedView() === 'watchlist'
+      ? this.allWatchlistSeries().length > 0
+      : this.allSeries().length > 0
+  );
+
   filteredSeries = computed<Serie[]>(() => {
     let series: Serie[] = [];
     if (this.selectedView() === 'watchlist') {

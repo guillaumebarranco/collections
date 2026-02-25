@@ -234,6 +234,13 @@ export class MoviesComponent implements OnInit {
       : this.moviesList()[DEFAULT_USER_ID];
   });
 
+  /** True si l'utilisateur a des films dans la vue courante (affiche stats, filtres, recherche). */
+  showFiltersAndSearch = computed(() =>
+    this.selectedView() === 'watchlist'
+      ? this.allWatchlistMovies().length > 0
+      : this.allMovies().length > 0
+  );
+
   filteredMovies = computed<Movie[]>(() => {
     let movies: Movie[] = [];
     if (this.selectedView() === 'watchlist') {

@@ -51,6 +51,7 @@
   </div>
   }
 
+  @if (showFiltersAndSearch()) {
   <div class="musics-stats-bloc">
     <app-stats-display
       [stats]="stats()"
@@ -93,4 +94,5 @@
       (ngModelChange)="onSearchChange.emit($event)"
     />
   </div>
+  }
 </div>

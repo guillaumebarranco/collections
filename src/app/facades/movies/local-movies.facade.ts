@@ -70,6 +70,8 @@ export const allBaseMovies: BaseMovie[] = [
   ...baseMoviesFromRonanLetterboxd,
   ...baseMoviesApi,
 ];
+import { emmanuelleMovies } from '../../utils/users/emmanuelle/movies/emmanuelle_movies';
+
 export function getLocalMoviesByUser(userId: string): UserMovie[] {
   switch (userId) {
     case 'guillaume':
@@ -95,6 +97,8 @@ export function getLocalMoviesByUser(userId: string): UserMovie[] {
       return [...ronanMovies, ...ronanCinemaMovies];
     case 'kevin':
       return [...kevinMovies];
+    case 'emmanuelle':
+      return [...emmanuelleMovies];
     default:
       return [];
   }

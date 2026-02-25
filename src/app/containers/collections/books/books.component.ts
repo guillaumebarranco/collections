@@ -378,6 +378,9 @@ export class BooksComponent implements OnInit {
       : this.readlistBooksList()[DEFAULT_USER_ID];
   });
 
+  /** True si l'utilisateur a des livres lus (affiche stats, filtres, recherche). */
+  showFiltersAndSearch = computed(() => this.allBooks().length > 0);
+
   filteredBooks = computed<Book[]>(() => {
     let books: Book[] = this.allBooks();
     if (this.selectedView() === 'readlist') {

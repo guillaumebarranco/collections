@@ -164,6 +164,13 @@ export class MangasComponent implements OnInit {
       : this.readlistMangasList()[DEFAULT_USER_ID];
   });
 
+  /** True si l'utilisateur a des items dans la vue courante (affiche stats, filtres, recherche). */
+  showFiltersAndSearch = computed(() =>
+    this.selectedView() === 'readlist'
+      ? this.allReadlistMangas().length > 0
+      : this.allMangas().length > 0
+  );
+
   filteredMangas = computed<Manga[]>(() => {
     let mangas: Manga[];
     if (this.selectedView() === 'readlist') {

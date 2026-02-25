@@ -97,6 +97,9 @@ export class MusicsComponent implements OnInit {
       : this.musicsList()[DEFAULT_USER_ID];
   });
 
+  /** True si l'utilisateur a des musiques (affiche stats, filtres, recherche). */
+  showFiltersAndSearch = computed(() => this.allMusics().length > 0);
+
   // Musiques filtrées selon le filtre sélectionné
   filteredMusics = computed<Music[]>(() => {
     let filtered = [...this.allMusics()];

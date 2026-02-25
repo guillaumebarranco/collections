@@ -464,7 +464,7 @@ export const getMoviesByActor = ({
         missingMovies: missing,
       };
     })
-    .filter((group) => group.seenMovies.length > 1);
+    .filter((group) => group.seenMovies.length > 0);
 
   // Filtrer les acteurs avec au moins 5 films notés pour les tris basés sur les notes
   const filteredGroups =
@@ -631,7 +631,7 @@ export const getMoviesByDirector = ({
           return ratedMovies.length >= 5;
         })
       : groups.filter(
-          (group) => group.seenMovies.length + group.missingMovies.length > 4
+          (group) => group.seenMovies.length + group.missingMovies.length > 0
         );
 
   // Appliquer le tri selon selectedSort

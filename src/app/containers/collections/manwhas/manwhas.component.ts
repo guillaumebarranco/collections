@@ -163,6 +163,13 @@ export class ManwhasComponent implements OnInit {
       : this.readlistManwhasList()[DEFAULT_USER_ID];
   });
 
+  /** True si l'utilisateur a des items dans la vue courante (affiche stats, filtres, recherche). */
+  showFiltersAndSearch = computed(() =>
+    this.selectedView() === 'readlist'
+      ? this.allReadlistManwhas().length > 0
+      : this.allManwhas().length > 0
+  );
+
   filteredManwhas = computed<Manwha[]>(() => {
     let manwhas: Manwha[];
     if (this.selectedView() === 'readlist') {

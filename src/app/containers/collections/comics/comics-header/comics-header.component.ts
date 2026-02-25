@@ -47,6 +47,8 @@ export class ComicsHeaderComponent {
   allReadlistComicsCount = input<number>(0);
   filteredComicsCount = input<number>(0);
   recommendedComicsCount = input<number>(0);
+  /** Afficher le bloc stats, filtres et la recherche (masqué quand l'utilisateur n'a pas d'items). */
+  showFiltersAndSearch = input<boolean>(true);
   sortOptions = input<SortOption[]>([]);
   viewOptions = input<
     {
