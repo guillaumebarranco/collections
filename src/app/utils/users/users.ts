@@ -52,5 +52,11 @@ export const users = [
     passwordHash: '0180d7497eb8fb03a8120a1bb4bdd2ae2dafab681257ca7e4da3a1a5b2a0d909ebdf2be0e18ae6a68552e2a9a4e2e911dce4983a197a629c530ddddb3bde5e45',
     passwordSalt: 'e5651a544a65858867d43d93286db5d0',
     admin: false,
+  },
+  {
+    username: 'unho',
+    passwordHash: 'aed4698d5b2d17cf4ca441d7c5e337af41e39ef0eef7d968624b50c7461e45faf622eaa41f76990e31b20d545d308d88de9182e5aa345fa46d7d154b8dc76c76',
+    passwordSalt: 'ef81755cb2c80233f64cc79f92a08720',
+    admin: false,
   }
 ];
