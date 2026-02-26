@@ -599,4 +599,275 @@ export const baseSeriesApi: BaseSerie[] = [
     countryOrigin: 'États-Unis',
     saga: 'ArrowVerse',
   },
+
+  {
+    title: 'DC\'s Legends of Tomorrow',
+    director: 'Greg Berlanti, Marc Guggenheim',
+    actors: [
+      {
+        name: 'Caity Lotz',
+      },
+      {
+        name: 'Dominic Purcell',
+      },
+      {
+        name: 'Nick Zano',
+      },
+      {
+        name: 'Brandon Routh',
+      },
+    ],
+    coverUrl: 'https://www.moviemeter.nl/series/images/photo/0/440.jpg',
+    releaseDate: '2016-09-17',
+    endDate: '2022-03-02',
+    genre: 'Super-héro',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 14,
+        totalLength: 702,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 17,
+        totalLength: 751,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 18,
+        totalLength: 756,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 16,
+        totalLength: 685,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 15,
+        totalLength: 644,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 15,
+        totalLength: 651,
+      },
+      {
+        seasonNumber: 7,
+        nbEpisodes: 13,
+        totalLength: 561,
+      },
+    ],
+    description: '',
+    countryOrigin: 'États-Unis',
+    saga: 'ArrowVerse',
+  },
+
+  {
+    title: 'Black Lightning',
+    director: ' Salim Akil',
+    actors: [
+      {
+        name: 'Cress Williams',
+      },
+      {
+        name: 'Nafessa Williams',
+      },
+      {
+        name: 'Christine Adams',
+      },
+      {
+        name: 'China Anne McClain',
+      },
+      {
+        name: 'James Remar',
+      },
+      {
+        name: 'Marvin Jones III',
+      },
+    ],
+    coverUrl: 'https://m.media-amazon.com/images/I/81M44-eztxL._AC_UF1000,1000_QL80_.jpg',
+    releaseDate: '2018-01-23',
+    endDate: '2021-05-24',
+    genre: 'Super-héro',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 13,
+        totalLength: 561,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 16,
+        totalLength: 691,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 16,
+        totalLength: 688,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 13,
+        totalLength: 558,
+      },
+    ],
+    description: '',
+    countryOrigin: 'États-Unis',
+    saga: 'ArrowVerse',
+  },
+
+  {
+    title: 'Batwoman',
+    director: 'Caroline Dries',
+    actors: [
+      {
+        name: 'Ruby Rose',
+      },
+      {
+        name: 'Camrus Johnson',
+      },
+      {
+        name: 'Rachel Skarsten',
+      },
+      {
+        name: 'Javicia Leslie',
+      },
+    ],
+    coverUrl: 'https://m.media-amazon.com/images/M/MV5BYWU5YWRmMDMtMzA2NC00YWUxLWE0N2MtMjU1OGYwNGQ2ZGYyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2020-11-05',
+    endDate: '2022-03-02',
+    genre: 'Super-héro',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 20,
+        totalLength: 861,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 18,
+        totalLength: 774,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 13,
+        totalLength: 559,
+      },
+    ],
+    description: '',
+    countryOrigin: 'États-Unis',
+    saga: 'ArrowVerse',
+  },
+
+  {
+    title: 'Vixen',
+    director: 'Greg Berlanti, Marc Guggenheim, Andrew Kreisberg',
+    actors: [
+      {
+        name: 'Megalyn Echikunwoke',
+      },
+      {
+        name: 'Stephen Amell',
+      },
+      {
+        name: 'Grant Gustin',
+      },
+    ],
+    coverUrl: 'https://m.media-amazon.com/images/M/MV5BNjAzOTA3NjktNDg3Ni00MDYxLTkwZTYtNTkzNzM5MGRkN2JmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2015-08-25',
+    endDate: '2016-11-18',
+    genre: 'Science Fiction',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 6,
+        totalLength: 36,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 6,
+        totalLength: 38,
+      },
+    ],
+    description: '',
+    countryOrigin: 'États-Unis',
+    saga: 'ArrowVerse',
+  },
+
+  {
+    title: 'Freedom Fighters: The Ray',
+    director: 'Greg Berlanti, Marc Guggenheim',
+    actors: [
+      {
+        name: 'Russell Tovey',
+      },
+      {
+        name: 'Jason Mitchell',
+      },
+      {
+        name: 'Melissa Benoist',
+      },
+    ],
+    coverUrl: 'https://m.media-amazon.com/images/M/MV5BZTM5MDdhOWQtNTQ3ZS00YjYwLWFlYzItNDQ2ZjQwNjcwM2JkXkEyXkFqcGc@._V1_QL75_UX190_CR0,6,190,281_.jpg',
+    releaseDate: '2017-12-08',
+    endDate: '2018-07-18',
+    genre: 'Super-héro',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 6,
+        totalLength: 42,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 6,
+        totalLength: 37,
+      },
+    ],
+    description: '',
+    countryOrigin: 'États-Unis',
+    saga: 'ArrowVerse',
+  },
+
+  {
+    title: 'Dragon Ball Z Kai',
+    director: 'Yashuhiro Nowata',
+    actors: [
+      {
+        name: 'Masako Nozawa',
+      },
+      {
+        name: 'Ryo Horikawa',
+      },
+      {
+        name: 'Toshio Furukawa',
+      },
+      {
+        name: 'Mayumi Tanaka',
+      },
+      {
+        name: 'Hiromi Tsuru',
+      },
+    ],
+    coverUrl: 'https://otakonseil.fr/wp-content/uploads/2024/08/main-qimg-25f1cb89a41353881fe6f6f76c618fc6.jpg',
+    releaseDate: '2009-06-05',
+    endDate: '2015-06-28',
+    genre: 'Anime',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 98,
+        totalLength: 2269,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 69,
+        totalLength: 1594,
+      },
+    ],
+    description: '',
+    countryOrigin: 'Japon',
+    saga: 'Dragon Ball',
+  },
 ];

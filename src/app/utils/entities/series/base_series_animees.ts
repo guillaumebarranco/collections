@@ -540,7 +540,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     actors: [
       {
         name: 'Inconnu',
-      },
+      }
     ],
     coverUrl: '/series_pictures/3642167.jpg',
     releaseDate: '1986-02-26',
@@ -591,10 +591,10 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 9,
         nbEpisodes: 93,
         totalLength: 1860,
-      },
+      }
     ],
     description: '',
-    saga: '',
+    saga: 'Dragon Ball',
     countryOrigin: 'Japon',
   },
   {
@@ -603,7 +603,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     actors: [
       {
         name: 'Inconnu',
-      },
+      }
     ],
     coverUrl:
       '/series_pictures/334f00b53cf3ef848ea7048b25711bc98e8236ce1685a096990c80d0965835ea.png',
@@ -665,10 +665,10 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 11,
         nbEpisodes: 5,
         totalLength: 100,
-      },
+      }
     ],
     description: '',
-    saga: '',
+    saga: 'Dragon Ball',
     countryOrigin: 'Japon',
   },
   {
@@ -677,7 +677,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     actors: [
       {
         name: 'Inconnu',
-      },
+      }
     ],
     coverUrl: '/series_pictures/dragon_ball_gt.webp',
     releaseDate: '1996-02-07',
@@ -708,10 +708,10 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 5,
         nbEpisodes: 1,
         totalLength: 20,
-      },
+      }
     ],
     description: '',
-    saga: '',
+    saga: 'Dragon Ball',
     countryOrigin: 'Japon',
   },
   {
@@ -720,7 +720,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     actors: [
       {
         name: 'Inconnu',
-      },
+      }
     ],
     coverUrl: '/series_pictures/anime-dragon-ball-super-visuel-4.webp',
     releaseDate: '',
@@ -751,10 +751,10 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 5,
         nbEpisodes: 55,
         totalLength: 1100,
-      },
+      }
     ],
     description: '',
-    saga: '',
+    saga: 'Dragon Ball',
     countryOrigin: 'Japon',
   },
   {
@@ -763,7 +763,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     actors: [
       {
         name: 'Inconnu',
-      },
+      }
     ],
     coverUrl: '/series_pictures/Dragon-Ball-Daima-Anime-Tv-Series-Dvd.webp',
     releaseDate: '2024-10-11',
@@ -774,10 +774,10 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 1,
         nbEpisodes: 20,
         totalLength: 400,
-      },
+      }
     ],
     description: '',
-    saga: '',
+    saga: 'Dragon Ball',
     countryOrigin: 'Japon',
   },
   {

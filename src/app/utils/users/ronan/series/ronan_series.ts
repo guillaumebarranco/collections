@@ -4885,42 +4885,228 @@ export const ronanSeries: UserSeries = [
     title: 'Supergirl',
     director: 'Greg Berlanti, Ali Adler',
     seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 3,
+      seasonTimesWatched: 1,
+      lastViewedDate: '',
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 4,
+      seasonTimesWatched: 0,
+      lastViewedDate: '',
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 2.5,
+      seasonTimesWatched: 1,
+      lastViewedDate: '',
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 2,
+      seasonTimesWatched: 1,
+      lastViewedDate: '',
+    },
+    {
+      seasonNumber: 5,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+      lastViewedDate: '',
+    },
+    {
+      seasonNumber: 6,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+      lastViewedDate: '',
+    }
+  ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'DC\'s Legends of Tomorrow',
+    director: 'Greg Berlanti, Marc Guggenheim',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 2.5,
+      seasonTimesWatched: 1,
+      lastViewedDate: '',
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 3.5,
+      seasonTimesWatched: 1,
+      lastViewedDate: '',
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 4,
+      seasonTimesWatched: 1,
+      lastViewedDate: '',
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 4,
+      seasonTimesWatched: 1,
+      lastViewedDate: '',
+    },
+    {
+      seasonNumber: 5,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+      lastViewedDate: '',
+    },
+    {
+      seasonNumber: 6,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+      lastViewedDate: '',
+    },
+    {
+      seasonNumber: 7,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+      lastViewedDate: '',
+    }
+  ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Black Lightning',
+    director: ' Salim Akil',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 2.5,
+      seasonTimesWatched: 1,
+      lastViewedDate: '',
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 2,
+      seasonTimesWatched: 1,
+      lastViewedDate: '',
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 1.5,
+      seasonTimesWatched: 1,
+      lastViewedDate: '',
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+      lastViewedDate: '',
+    }
+  ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Batwoman',
+    director: 'Caroline Dries',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 2,
+      seasonTimesWatched: 1,
+      lastViewedDate: '',
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+      lastViewedDate: '',
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+      lastViewedDate: '',
+    }
+  ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Vixen',
+    director: 'Greg Berlanti, Marc Guggenheim, Andrew Kreisberg',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 2.5,
+      seasonTimesWatched: 1,
+      lastViewedDate: '',
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 2.5,
+      seasonTimesWatched: 1,
+      lastViewedDate: '',
+    }
+  ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Freedom Fighters: The Ray',
+    director: 'Greg Berlanti, Marc Guggenheim',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 2.5,
+      seasonTimesWatched: 0,
+      lastViewedDate: '',
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 2.5,
+      seasonTimesWatched: 1,
+      lastViewedDate: '',
+    }
+  ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Dragon Ball Z Kai',
+    director: 'Yashuhiro Nowata',
+    seasons: [
       {
         seasonNumber: 1,
-        seasonRating: 3,
+        seasonRating: 4,
         seasonTimesWatched: 1,
         lastViewedDate: '',
       },
       {
         seasonNumber: 2,
-        seasonRating: 4,
-        seasonTimesWatched: 0,
-        lastViewedDate: '',
-      },
-      {
-        seasonNumber: 3,
-        seasonRating: 2.5,
-        seasonTimesWatched: 1,
-        lastViewedDate: '',
-      },
-      {
-        seasonNumber: 4,
-        seasonRating: 2,
-        seasonTimesWatched: 1,
-        lastViewedDate: '',
-      },
-      {
-        seasonNumber: 5,
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      },
-      {
-        seasonNumber: 6,
-        seasonRating: 0,
-        seasonTimesWatched: 0,
-        lastViewedDate: '',
-      },
+      }
     ],
     owned: false,
     watchPriority: 1,
