@@ -180,7 +180,11 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Fantasy',
     saga: 'Tolkien',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
+      secondEntityKey: 'J.R.R. Tolkien',
+    },
     countryOrigin: 'Nouvelle-Zélande',
   },
   {
@@ -203,7 +207,11 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Fantasy',
     saga: 'Tolkien',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
+      secondEntityKey: 'J.R.R. Tolkien',
+    },
     countryOrigin: 'Nouvelle-Zélande',
   },
   {
@@ -226,7 +234,11 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Fantasy',
     saga: 'Tolkien',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
+      secondEntityKey: 'J.R.R. Tolkien',
+    },
     countryOrigin: 'Nouvelle-Zélande',
   },
   {
@@ -246,7 +258,11 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Aventure, Famille',
     saga: 'Sonic',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'game',
+      title: 'Sonic the Hedgehog',
+      secondEntityKey: 'Sega',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -295,7 +311,11 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Aventure, Famille',
     saga: 'Sonic',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'game',
+      title: 'Sonic the Hedgehog',
+      secondEntityKey: 'Sega',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -318,7 +338,11 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Comédie romantique',
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Les pages de notre amour',
+      secondEntityKey: 'Nicholas Sparks',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -534,7 +558,11 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Drame',
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Hamlet',
+      secondEntityKey: 'William Shakespeare',
+    },
     countryOrigin: 'Royaume-Uni',
   },
   {
@@ -837,7 +865,11 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Action',
     saga: 'Dragon Ball',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Dragon Ball',
+      secondEntityKey: 'Akira Toriyama',
+    },
     countryOrigin: 'États-Unis',
   },
 ];

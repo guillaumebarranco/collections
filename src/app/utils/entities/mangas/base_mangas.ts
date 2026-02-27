@@ -2,6 +2,15 @@ import { BaseManga } from '../../../models/manga-model';
 
 export const baseMangas: BaseManga[] = [
   {
+    title: 'City Hunter',
+    author: 'Tsukasa Hōjō',
+    coverUrl: 'mangas_pictures/citu_hunter_ultime_01_large.webp',
+    genre: 'Shonen',
+    nbTomes: 35,
+    isFinished: true,
+    description: '',
+  },
+  {
     title: 'Naruto',
     author: 'Masashi Kishimoto',
     coverUrl: '/mangas_pictures/naruto.jpg',

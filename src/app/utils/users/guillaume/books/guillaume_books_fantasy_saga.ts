@@ -2,7 +2,7 @@ import { UserBooks } from '../../../../models/book-model';
 
 export const guillaumeBooksFantasySaga: UserBooks = [
   {
-    title: 'Les Enfants d\'Aliel - Le grand éveil',
+    title: "Les Enfants d'Aliel - Le grand éveil",
     author: 'Sara Schneider',
     readDate: '2025-03-25',
     rating: 3.5,
@@ -11,9 +11,10 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
-    title: 'Les Enfants d\'Aliel - Le cheval de feu',
+    title: "Les Enfants d'Aliel - Le cheval de feu",
     author: 'Sara Schneider',
     readDate: '2025-04-05',
     rating: 3.5,
@@ -22,6 +23,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: "Les Enfants d'Aliel - Mâchoires d'écume",
@@ -33,6 +35,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: "Les Enfants d'Aliel - Le porteur d'espoir",
@@ -44,9 +47,10 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
-    title: 'Les Enfants d\'Aliel - Ciel de cendres',
+    title: "Les Enfants d'Aliel - Ciel de cendres",
     author: 'Sara Schneider',
     readDate: '2025-04-14',
     rating: 3.5,
@@ -55,6 +59,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: "D'un monde à l'autre",
@@ -66,6 +71,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Les frontières de glace',
@@ -77,6 +83,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: "L'île du destin",
@@ -88,6 +95,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'La Forêt des captifs',
@@ -99,6 +107,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: "L'Œil d'Otolep",
@@ -110,6 +119,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Les Tentacules du mal',
@@ -121,6 +131,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Ellana',
@@ -132,6 +143,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: "Ellana, l'Envol",
@@ -143,6 +155,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Ellana, la Prophétie',
@@ -154,6 +167,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Les sortceliers',
@@ -165,6 +179,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Le livre interdit',
@@ -176,6 +191,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Le sceptre maudit',
@@ -187,6 +203,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Le dragon renégat',
@@ -198,6 +215,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Le continent interdit',
@@ -209,6 +227,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Dans le piège de Magister',
@@ -220,6 +239,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: "Tara Duncan et l'invasion fantôme",
@@ -231,6 +251,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: "L'impératrice maléfique",
@@ -242,6 +263,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Tara Duncan contre la reine noire',
@@ -253,6 +275,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Dragons contre Démons',
@@ -264,6 +287,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'La Guerre des planètes',
@@ -275,6 +299,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: "L'Ultime Combat",
@@ -286,6 +311,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Tara et Cal',
@@ -297,6 +323,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 1",
@@ -308,6 +335,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 2",
@@ -319,6 +347,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 3",
@@ -330,6 +359,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
@@ -341,5 +371,6 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 ];

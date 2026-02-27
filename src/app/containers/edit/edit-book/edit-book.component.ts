@@ -28,6 +28,7 @@ type EditBookForm = {
   readTimes: number;
   readDate: string;
   owned: boolean;
+  borrowed: boolean;
   readPriority: number;
   sagaFinished: boolean;
   wantToReadAgain: boolean;
@@ -165,7 +166,7 @@ export class EditBookComponent {
     });
   }
 
-  updateCheckbox(field: 'owned' | 'wantToReadAgain', checked: boolean) {
+  updateCheckbox(field: 'owned' | 'borrowed' | 'wantToReadAgain', checked: boolean) {
     const current = this.bookForm();
     if (!current) return;
     this.bookForm.set({
@@ -247,6 +248,7 @@ export class EditBookComponent {
           readTimes: form.readTimes,
           readDate: form.readDate,
           owned: form.owned,
+          borrowed: form.borrowed,
           readPriority: form.readPriority,
           wantToReadAgain: form.wantToReadAgain,
           ratingComment: form.ratingComment ?? '',
@@ -439,6 +441,7 @@ export class EditBookComponent {
       readTimes: book.readTimes || 0,
       readDate: book.readDate,
       owned: book.owned,
+      borrowed: book.borrowed ?? false,
       readPriority: book.readPriority ?? 0,
       sagaFinished: book.sagaFinished,
       wantToReadAgain: book.wantToReadAgain ?? false,

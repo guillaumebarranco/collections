@@ -41,6 +41,10 @@
     </span>
     } @if (recommendationBadge) {
     <span class="missing-badge">{{ recommendationBadge }}</span>
+    } @if (book.borrowed && !isBaseEntityView) {
+    <span class="missing-badge" style="background-color: #9c27b0; color: white"
+      >Prêté</span
+    >
     } @if (book.wantToReadAgain && !isBaseEntityView) {
     <span class="missing-badge" style="background-color: #2196f3; color: white"
       >À relire</span

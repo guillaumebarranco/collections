@@ -86,6 +86,8 @@ export class BooksHeaderComponent {
       ? 'Livres à lire'
       : this.selectedView() === 'owned'
       ? 'Livres possédés'
+      : this.selectedView() === 'borrowed'
+      ? 'Livres empruntés'
       : this.selectedView() === 'authors'
       ? 'Livres par auteur'
       : this.selectedView() === 'sagas'

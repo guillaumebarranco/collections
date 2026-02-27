@@ -11,6 +11,7 @@ export const xerythBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -23,5 +24,6 @@ export const xerythBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 ];

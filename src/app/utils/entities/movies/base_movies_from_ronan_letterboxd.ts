@@ -1009,7 +1009,11 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Fantasy',
     saga: 'Tolkien',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
+      secondEntityKey: 'J.R.R. Tolkien',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -1325,7 +1329,11 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Drame',
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -2023,7 +2031,11 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Aventure',
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Les Trois Mousquetaires',
+      secondEntityKey: 'Alexandre Dumas',
+    },
     countryOrigin: 'France',
   },
   {
@@ -2111,7 +2123,11 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: 'Hunger Games',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Hunger Games',
+      secondEntityKey: 'Suzanne Collins',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -2701,7 +2717,11 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: '',
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Les Trois Mousquetaires',
+      secondEntityKey: 'Alexandre Dumas',
+    },
     countryOrigin: 'France',
   },
   {
@@ -3046,7 +3066,11 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Animation',
     saga: 'One Piece OAV',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'One Piece',
+      secondEntityKey: 'Eiichiro Oda',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -3276,7 +3300,11 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'game',
+      title: "Uncharted : Drake's Fortune",
+      secondEntityKey: 'Naughty Dog',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -3966,7 +3994,11 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: '',
     saga: 'Sonic',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'game',
+      title: 'Sonic the Hedgehog',
+      secondEntityKey: 'Sega',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -4380,7 +4412,11 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Animation',
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'City Hunter',
+      secondEntityKey: 'Tsukasa Hōjō',
+    },
     countryOrigin: 'France',
   },
   {
@@ -4656,7 +4692,11 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Animation',
     saga: 'Astérix',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Astérix le Gaulois',
+      secondEntityKey: 'René Goscinny',
+    },
     countryOrigin: 'France',
   },
   {
@@ -5188,7 +5228,11 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Animation',
     saga: 'Lego',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -5303,7 +5347,11 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'game',
+      title: "Assassin's Creed II",
+      secondEntityKey: 'Ubisoft',
+    },
     countryOrigin: 'États-Unis',
   },
   {

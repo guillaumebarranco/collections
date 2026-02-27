@@ -11,6 +11,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -23,6 +24,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -35,6 +37,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -47,6 +50,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -59,6 +63,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -71,6 +76,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -83,6 +89,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -95,6 +102,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -107,6 +115,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -119,6 +128,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -131,6 +141,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -143,6 +154,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -155,6 +167,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -167,6 +180,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -179,6 +193,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -191,6 +206,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -203,6 +219,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -215,6 +232,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -227,6 +245,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -239,6 +258,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -251,6 +271,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -263,6 +284,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -275,6 +297,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -287,6 +310,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -299,6 +323,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -311,6 +336,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -323,6 +349,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -335,6 +362,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -347,6 +375,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -359,6 +388,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -371,6 +401,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -383,6 +414,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -395,6 +427,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -407,6 +440,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -419,6 +453,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -431,6 +466,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -443,6 +479,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -455,6 +492,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -467,6 +505,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -479,6 +518,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -491,6 +531,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -503,6 +544,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -515,6 +557,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -527,6 +570,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -539,6 +583,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -551,6 +596,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -563,6 +609,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -575,6 +622,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -587,6 +635,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -599,6 +648,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -611,6 +661,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -623,6 +674,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -635,6 +687,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -647,6 +700,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -659,6 +713,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -671,6 +726,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -683,6 +739,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -695,6 +752,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -707,6 +765,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -719,6 +778,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -731,6 +791,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -743,6 +804,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -755,6 +817,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -767,6 +830,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -779,6 +843,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -791,6 +856,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -803,6 +869,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -815,10 +882,11 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
-    title: 'L\'étranger',
+    title: "L'étranger",
     author: 'Albert Camus',
     readDate: '',
     rating: 0,
@@ -827,6 +895,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -839,6 +908,7 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 
   {
@@ -851,5 +921,6 @@ export const ronanReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 ];

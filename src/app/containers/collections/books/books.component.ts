@@ -105,6 +105,7 @@ export class BooksComponent implements OnInit {
   isViewConfigOpen = signal<boolean>(false);
   optionalViewConfig = signal<Record<OptionalBookView, boolean>>({
     owned: true,
+    borrowed: true,
     toReRead: true,
     authors: false,
     sagas: false,
@@ -234,6 +235,7 @@ export class BooksComponent implements OnInit {
       queryParams['view'] === 'readlist' ||
       queryParams['view'] === 'read' ||
       queryParams['view'] === 'owned' ||
+      queryParams['view'] === 'borrowed' ||
       queryParams['view'] === 'toReRead' ||
       queryParams['view'] === 'authors' ||
       queryParams['view'] === 'sagas' ||
@@ -295,6 +297,7 @@ export class BooksComponent implements OnInit {
     this.isLoadingViewConfig = true;
     this.optionalViewConfig.set({
       owned: parsed.owned ?? true,
+      borrowed: parsed.borrowed ?? true,
       toReRead: parsed.toReRead ?? true,
       authors: parsed.authors ?? false,
       sagas: parsed.sagas ?? false,
@@ -360,6 +363,8 @@ export class BooksComponent implements OnInit {
       books = this.allReadlistBooks();
     } else if (this.selectedView() === 'owned') {
       books = this.allBooks().filter((book) => book.owned);
+    } else if (this.selectedView() === 'borrowed') {
+      books = this.allBooks().filter((book) => book.borrowed === true);
     } else if (this.selectedView() === 'toReRead') {
       books = this.allBooks().filter((book) => book.wantToReadAgain === true);
     } else if (this.selectedView() === 'authors') {
@@ -387,8 +392,12 @@ export class BooksComponent implements OnInit {
   filteredBooksByYear = computed(() => {
     let filteredBooks = [...this.filteredBooks()];
 
-    // Filtrage par année (livres lus ou à relire)
-    if (this.selectedView() === 'read' || this.selectedView() === 'toReRead') {
+    // Filtrage par année (livres lus, empruntés ou à relire)
+    if (
+      this.selectedView() === 'read' ||
+      this.selectedView() === 'borrowed' ||
+      this.selectedView() === 'toReRead'
+    ) {
       if (this.selectedYearFilter() === '2026') {
         filteredBooks = filteredBooks.filter((b) =>
           b.readDate.startsWith('2026')

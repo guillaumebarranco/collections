@@ -54,6 +54,7 @@ export const getBookDataFromUserBookAndBaseBook = (
   saga: baseBook?.saga || '',
   sagaOrder: baseBook?.sagaOrder || 0,
   owned: userBook.owned,
+  borrowed: userBook.borrowed ?? false,
   readPriority: userBook.readPriority,
   sagaFinished: baseBook?.sagaFinished || false,
   releaseDate: baseBook?.releaseDate || '',

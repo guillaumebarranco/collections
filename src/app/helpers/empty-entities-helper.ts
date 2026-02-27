@@ -27,6 +27,7 @@ export const getEmptyBook = (book: BaseBook): Book => ({
   saga: book.saga,
   sagaOrder: book.sagaOrder,
   owned: false,
+  borrowed: false,
   readDate: '',
   rating: 0,
   readPriority: 1,

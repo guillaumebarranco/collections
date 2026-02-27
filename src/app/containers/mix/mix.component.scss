@@ -44,7 +44,8 @@
   background: #f9fafb;
   border-radius: 14px;
 
-  .mix-movies {
+  .mix-movies,
+  .mix-series {
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 16px;
 
@@ -53,7 +54,8 @@
     }
   }
 
-  .mix-movie-card {
+  .mix-movie-card,
+  .mix-serie-card {
     padding: 0;
   }
 }
@@ -95,12 +97,14 @@
   font-size: 0.95rem;
 }
 
-.mix-movies {
+.mix-movies,
+.mix-series {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   gap: 1rem;
 }
 
-.mix-movie-card {
+.mix-movie-card,
+.mix-serie-card {
   min-width: 0;
 }

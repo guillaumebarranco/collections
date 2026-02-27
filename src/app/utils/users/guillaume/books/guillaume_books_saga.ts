@@ -11,6 +11,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: "L'Embrasement",
@@ -22,6 +23,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'La Révolte',
@@ -33,6 +35,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: "La Ballade du serpent et de l'oiseau chanteur",
@@ -44,6 +47,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Lever de soleil sur la moisson',
@@ -55,6 +59,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: "Harry Potter à l'école des sorciers",
@@ -66,6 +71,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Harry Potter et la Chambre des secrets',
@@ -77,6 +83,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: "Harry Potter et le Prisonnier d'Azkaban",
@@ -88,6 +95,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Harry Potter et la Coupe de feu',
@@ -99,6 +107,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: "Harry Potter et l'Ordre du Phénix",
@@ -110,6 +119,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Harry Potter et le Prince de sang-mêlé',
@@ -121,6 +131,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Harry Potter et les Reliques de la Mort',
@@ -132,6 +143,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: "Harry Potter et l'Enfant maudit",
@@ -143,6 +155,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Fascination',
@@ -154,6 +167,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Tentation',
@@ -165,6 +179,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Hésitation',
@@ -176,6 +191,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Révélation',
@@ -187,6 +203,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Midnight Sun',
@@ -198,6 +215,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Le Voleur de foudre',
@@ -209,6 +227,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'La Mer des monstres',
@@ -220,6 +239,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Le Sort du titan',
@@ -231,6 +251,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'La Bataille du labyrinthe',
@@ -242,6 +263,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Le Dernier Olympien',
@@ -253,6 +275,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Le Calice des dieux',
@@ -264,6 +287,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Divergente',
@@ -275,6 +299,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: "Divergente Tome 2 : L'Insurrection",
@@ -286,6 +311,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Divergente Tome 3 : Allégeance',
@@ -297,6 +323,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Le Labyrinthe',
@@ -308,6 +335,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Une étude en rouge',
@@ -319,6 +347,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Le Signe des quatre',
@@ -330,6 +359,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Le Chien des Baskerville',
@@ -341,6 +371,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'La vallée de la peur',
@@ -352,6 +383,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Absolu - Les Mobilisés',
@@ -363,6 +395,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Absolu - Les Effacés',
@@ -374,6 +407,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Absolu - Les Éveillés',
@@ -385,6 +419,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Inside Mac: Tome 1',
@@ -396,6 +431,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Inside Mac: Tome 2',
@@ -407,6 +443,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Player One',
@@ -418,6 +455,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Ready Player Two',
@@ -429,6 +467,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'La femme de ménage',
@@ -440,6 +479,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Les secrets de la femme de ménage',
@@ -451,6 +491,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'La femme de ménage se marie',
@@ -462,6 +503,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'La femme de ménage voit tout',
@@ -473,6 +515,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Les Trois Mousquetaires',
@@ -484,6 +527,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Le Faucon malté',
@@ -495,6 +539,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: "L'ennemi public n°2",
@@ -506,6 +551,7 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Devine qui vient tuer',
@@ -517,5 +563,6 @@ export const guillaumeBooksSaga: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
 ];

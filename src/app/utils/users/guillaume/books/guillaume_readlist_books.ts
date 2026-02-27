@@ -11,6 +11,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Les liaisons dangereuses',
@@ -22,6 +23,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Les filles du Docteur March',
@@ -33,6 +35,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Circe',
@@ -44,9 +47,10 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
-    title: 'Le chant d\'Achille',
+    title: "Le chant d'Achille",
     author: 'Madeline Miller',
     readDate: '',
     rating: 0,
@@ -55,6 +59,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Dark Shores',
@@ -66,6 +71,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Le Horla',
@@ -77,9 +83,10 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
-    title: 'L\'écume des jours',
+    title: "L'écume des jours",
     author: 'Boris Vian',
     readDate: '',
     rating: 0,
@@ -88,6 +95,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Notre-Dame de Paris',
@@ -99,6 +107,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Le roi de fer',
@@ -110,6 +119,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Le vicomte de Bragelonne',
@@ -121,6 +131,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'La reine Margot',
@@ -132,6 +143,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Le trone de fer intégrale 4',
@@ -143,6 +155,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Le trone de fer intégrale 5',
@@ -154,6 +167,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Robinson Crusoe',
@@ -165,6 +179,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Cyrano de Bergerac',
@@ -176,6 +191,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Où vont les larmes quand elles sèchent',
@@ -187,6 +203,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Cinq semaines en ballon',
@@ -198,6 +215,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Autour de la Lune',
@@ -209,6 +227,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Les deux tours',
@@ -220,6 +239,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Le retour du roi',
@@ -231,6 +251,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Leçons de chimie',
@@ -242,6 +263,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Gagner la guerre',
@@ -253,9 +275,10 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
-    title: 'L\'enfer',
+    title: "L'enfer",
     author: 'Dante Alighieri',
     readDate: '',
     rating: 0,
@@ -264,9 +287,10 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
-    title: 'L\'epopée de Gilgamesh',
+    title: "L'epopée de Gilgamesh",
     author: 'Anonyme',
     readDate: '',
     rating: 0,
@@ -275,6 +299,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Hamlet',
@@ -286,6 +311,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Macbeth',
@@ -297,6 +323,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'La Controverse de Valladolid',
@@ -308,6 +335,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'La dernière chanson',
@@ -319,6 +347,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Fais un voeu',
@@ -330,6 +359,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Au rythme de ton souffle',
@@ -341,6 +371,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Un havre de paix',
@@ -352,9 +383,10 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
-    title: 'L\'amour aux temps du choléra',
+    title: "L'amour aux temps du choléra",
     author: 'Gabriel García Márquez',
     readDate: '',
     rating: 0,
@@ -363,9 +395,10 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
-    title: 'Le Gaslighting ou l\'art de faire taire les femmes',
+    title: "Le Gaslighting ou l'art de faire taire les femmes",
     author: 'Hélène Frappat',
     readDate: '',
     rating: 0,
@@ -374,6 +407,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Tout le bleu du ciel',
@@ -385,6 +419,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Don Quichotte',
@@ -396,6 +431,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Autant en emporte le vent',
@@ -407,6 +443,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Les Mille et Une Nuits',
@@ -418,6 +455,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Anna Karénine',
@@ -429,9 +467,10 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
-    title: 'L\'espace d\'un an',
+    title: "L'espace d'un an",
     author: 'Becky Chambers',
     readDate: '',
     rating: 0,
@@ -440,6 +479,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Princess Bride',
@@ -451,6 +491,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'La Maison des feuilles',
@@ -462,6 +503,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'La Révoltée',
@@ -473,9 +515,10 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
-    title: 'L\'impure',
+    title: "L'impure",
     author: 'Guy des Cars',
     readDate: '',
     rating: 0,
@@ -484,10 +527,11 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Un raccourci dans le temps',
-    author: 'Madeleine L\'Engle',
+    author: "Madeleine L'Engle",
     readDate: '',
     rating: 0,
     readTimes: 0,
@@ -495,6 +539,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Les voyages de Gulliver',
@@ -506,9 +551,10 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
-    title: 'Rien qu\'un surhomme',
+    title: "Rien qu'un surhomme",
     author: 'Olaf Stapledon',
     readDate: '',
     rating: 0,
@@ -517,6 +563,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Le Souffle de la Hyène',
@@ -528,9 +575,10 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
-    title: 'Le Journal d\'Anne Frank',
+    title: "Le Journal d'Anne Frank",
     author: 'Anne Frank',
     readDate: '',
     rating: 0,
@@ -539,6 +587,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Les disparus du phare de Tévennec',
@@ -550,6 +599,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Eragon (Eragon, #1)',
@@ -561,6 +611,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'The Invisible Life of Addie LaRue',
@@ -572,6 +623,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Da Vinci Code',
@@ -583,6 +635,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Le pouvoir des six',
@@ -594,9 +647,10 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
-    title: 'Un palais d\'épines et de roses',
+    title: "Un palais d'épines et de roses",
     author: 'Sarah J. Maas',
     readDate: '',
     rating: 0,
@@ -605,6 +659,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Le meilleur des mondes',
@@ -616,6 +671,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'La Dame aux camélias',
@@ -627,6 +683,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'La voleuse de livres',
@@ -638,9 +695,10 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
-    title: 'L\'Alchimiste',
+    title: "L'Alchimiste",
     author: 'Paulo Coelho',
     readDate: '',
     rating: 0,
@@ -649,6 +707,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: false,
   },
   {
     title: 'Nous',
@@ -660,5 +719,6 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: '',
-  }
+    borrowed: false,
+  },
 ];

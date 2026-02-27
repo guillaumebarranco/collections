@@ -24,7 +24,11 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'Batman',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -42,7 +46,11 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'Batman',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -65,7 +73,11 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'Batman',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -85,7 +97,11 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'Batman',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -117,7 +133,11 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'The Dark Knight',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -146,7 +166,11 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'The Dark Knight',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -179,7 +203,11 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'The Dark Knight',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -199,7 +227,11 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -231,7 +263,11 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'DCEU',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -348,7 +384,11 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'Superman',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Superman',
+      secondEntityKey: 'DC Comics',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -361,7 +401,11 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'Superman',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Superman',
+      secondEntityKey: 'DC Comics',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -374,7 +418,11 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'Superman',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Superman',
+      secondEntityKey: 'DC Comics',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -403,7 +451,11 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'DCEU',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Superman',
+      secondEntityKey: 'DC Comics',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -426,7 +478,11 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'DCU',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Superman',
+      secondEntityKey: 'DC Comics',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -439,7 +495,11 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Watchmen',
+      secondEntityKey: 'Alan Moore',
+    },
     countryOrigin: 'États-Unis',
   },
   {

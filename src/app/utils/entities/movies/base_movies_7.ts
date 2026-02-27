@@ -106,7 +106,11 @@ export const baseMoviesPage7: BaseMovie[] = [
     genre: 'Drame',
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Macbeth',
+      secondEntityKey: 'William Shakespeare',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -132,7 +136,11 @@ export const baseMoviesPage7: BaseMovie[] = [
     genre: 'Horreur, Science-Fiction',
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Frankenstein',
+      secondEntityKey: 'Mary Shelley',
+    },
     countryOrigin: 'États-Unis',
   },
   {

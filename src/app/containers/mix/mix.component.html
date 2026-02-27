@@ -15,6 +15,63 @@
 
   @if (isLoading()) {
   <p class="mix-loading">Chargement...</p>
+  } @else if (selectedView() === 'sagasFilmsSeries') {
+  <div class="mix-content mix-by-entity">
+    @if (sagasFilmsSeries().length === 0) {
+    <p class="mix-empty">Aucune saga commune entre films et séries pour le moment.</p>
+    } @else {
+    @for (item of sagasFilmsSeries(); track item.sagaKey) {
+    <section class="mix-section">
+      <h2 class="mix-section-title">
+        <button
+          type="button"
+          class="mix-section-toggle"
+          [attr.aria-expanded]="!isSectionCollapsed(item.sagaKey)"
+          (click)="toggleSection(item.sagaKey)"
+        >
+          <span class="mix-section-toggle-icon">
+            {{ isSectionCollapsed(item.sagaKey) ? "▶" : "▼" }}
+          </span>
+          {{ item.sagaName }}
+          ({{ item.movies.length }} film{{ item.movies.length > 1 ? 's' : '' }}, {{ item.series.length }} série{{ item.series.length > 1 ? 's' : '' }})
+        </button>
+      </h2>
+      @if (!isSectionCollapsed(item.sagaKey)) {
+      @if (item.movies.length > 0) {
+      <p class="mix-adaptations-label">Films :</p>
+      <div class="mix-movies">
+        @for (movie of item.movies; track movie.title + '|' + movie.director) {
+        <div class="mix-movie-card">
+          <app-movie
+            [movie]="movie"
+            [readOnly]="true"
+            [list]="item.movies"
+            [index]="$index"
+          ></app-movie>
+        </div>
+        }
+      </div>
+      }
+      @if (item.series.length > 0) {
+      <p class="mix-adaptations-label">Séries :</p>
+      <div class="mix-series">
+        @for (serie of item.series; track serie.title + '|' + serie.director) {
+        <div class="mix-serie-card">
+          <app-serie
+            [serie]="serie"
+            [readOnly]="true"
+            [list]="item.series"
+            [index]="$index"
+          ></app-serie>
+        </div>
+        }
+      </div>
+      }
+      }
+    </section>
+    }
+    }
+  </div>
   } @else if (selectedView() === 'booksAdapted') {
   <div class="mix-content mix-by-entity">
     @if (booksAdapted().length === 0) {

@@ -25,6 +25,7 @@ export interface UserBook extends MandatoryBookData {
   readPriority: 1 | 2 | 3;
   wantToReadAgain: boolean;
   ratingComment: string;
+  borrowed: boolean;
 }
 
 export type UserBooks = UserBook[];

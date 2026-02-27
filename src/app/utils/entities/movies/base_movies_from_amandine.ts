@@ -17,7 +17,11 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Horror, Drama',
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Frankenstein',
+      secondEntityKey: 'Mary Shelley',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -50,7 +54,11 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Family',
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Charlie et la chocolaterie',
+      secondEntityKey: 'Roald Dahl',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -173,7 +181,11 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Mystery, Crime',
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Mort sur le Nil',
+      secondEntityKey: 'Agatha Christie',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -369,7 +381,11 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Comedy, Romance',
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Emma',
+      secondEntityKey: 'Jane Austen',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -502,7 +518,11 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Mystery, Adventure',
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'game',
+      title: 'Pokémon Bleu',
+      secondEntityKey: 'Game Freak',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -653,7 +673,11 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Mystery, Crime',
     saga: 'Hercule Poirot',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Le Crime de l'Orient-Express",
+      secondEntityKey: 'Agatha Christie',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -847,7 +871,11 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Musical, Drama',
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Les Misérables',
+      secondEntityKey: 'Victor Hugo',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -982,7 +1010,11 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Action, Mystery',
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Une étude en rouge',
+      secondEntityKey: 'Arthur Conan Doyle',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -1104,7 +1136,11 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Adventure',
     saga: 'Narnia',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le Monde de Narnia (Tome 1) Le Neveu du Magicien',
+      secondEntityKey: 'C.S. Lewis',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -1343,7 +1379,11 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Action, Historical',
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "L'iliade",
+      secondEntityKey: 'Homère',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -1900,7 +1940,11 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Romance, Drama',
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Roméo et Juliette',
+      secondEntityKey: 'William Shakespeare',
+    },
     countryOrigin: 'États-Unis',
   },
   {

@@ -287,6 +287,16 @@
       <label class="books-config-option">
         <input
           type="checkbox"
+          [checked]="optionalViewConfig().borrowed"
+          (change)="
+            onOptionalViewChange('borrowed', $any($event.target).checked)
+          "
+        />
+        Livres empruntés
+      </label>
+      <label class="books-config-option">
+        <input
+          type="checkbox"
           [checked]="optionalViewConfig().toReRead"
           (change)="
             onOptionalViewChange('toReRead', $any($event.target).checked)
