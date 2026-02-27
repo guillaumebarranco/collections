@@ -15,6 +15,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -31,6 +32,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -47,6 +49,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -64,6 +67,11 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Adventure',
     saga: '',
     description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le Comte de Monte-Cristo',
+      secondEntityKey: 'Alexandre Dumas',
+    },
     countryOrigin: 'France',
   },
   {
@@ -80,6 +88,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -96,6 +105,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -112,6 +122,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Fantasy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -128,6 +139,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Documentary',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -144,6 +156,11 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Gran Turismo',
+      secondEntityKey: 'Polyphony Digital',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -169,6 +186,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -185,6 +203,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -201,6 +220,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Documentary',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -220,6 +240,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -237,6 +258,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Fantasy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -253,6 +275,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -269,6 +292,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Action',
     saga: 'Predator',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -294,6 +318,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -310,6 +335,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -324,8 +350,9 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2022-05-27',
     length: 130,
     genre: 'Action',
-    saga: '',
+    saga: 'Top Gun',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -343,6 +370,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -380,6 +408,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -402,6 +431,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -418,6 +448,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -434,6 +465,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -450,6 +482,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -466,6 +499,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -478,6 +512,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -490,6 +525,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -502,6 +538,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -514,6 +551,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -526,6 +564,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Crime',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -538,6 +577,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -550,6 +590,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Enquête',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -562,6 +603,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -570,7 +612,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     actors: [
       {
         name: 'Tatsuya Fujiwara',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/49810-battle-royale-0-150-0-225-crop.jpg',
     releaseDate: '2000-12-16',
@@ -578,6 +620,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -590,6 +633,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -602,6 +646,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -614,6 +659,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -633,6 +679,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Crime',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Royaume-Uni',
   },
   {
@@ -645,6 +692,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -657,6 +705,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -669,6 +718,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -681,6 +731,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Corée du Sud',
   },
   {
@@ -693,6 +744,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Thriller, Science Fiction',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -705,32 +757,11 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Les 4 fantastiques',
-    director: 'Matt Shakman',
-    actors: [
-      {
-        name: 'Pedro Pascal',
-      },
-      {
-        name: 'Vanessa Kirby',
-      },
-      {
-        name: 'Joseph Quinn',
-      },
-      {
-        name: 'Ebon Moss-Bachrach',
-      },
-    ],
-    coverUrl:
-      '/movies_pictures/les-4-fantastiques-premiers-pas-affiche-officielle-scaled.jpg',
-    releaseDate: '2025-07-25',
-    length: 130,
-    genre: 'Action, Adventure',
-    saga: 'Marvel Cinematic Universe',
-    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "La carte qui mène jusqu'à toi",
+      secondEntityKey: 'Joseph Monninger',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -747,6 +778,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Science Fiction, Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -763,6 +795,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Comedy, Romance',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -779,6 +812,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Science Fiction, Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -795,6 +829,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Comedy, Romance',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -807,6 +842,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -819,6 +855,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -831,6 +868,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -843,6 +881,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -856,29 +895,8 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
-  },
-  {
-    title: 'Thunderbolts',
-    director: 'Jake Schreier',
-    actors: [
-      {
-        name: 'Florence Pugh',
-      },
-      {
-        name: 'Sebastian Stan',
-      },
-      {
-        name: 'David Harbour',
-      },
-    ],
-    coverUrl: '/movies_pictures/72b74175dd05a704ebed57975b0f6487.jpg',
-    releaseDate: '2025-05-02',
-    length: 126,
-    genre: 'Action',
-    saga: 'Marvel Cinematic Universe',
-    description: '',
-    countryOrigin: 'États-Unis',
   },
   {
     title: 'Le silence des agneaux',
@@ -890,6 +908,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -903,6 +922,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -915,42 +935,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Superman',
-    director: 'Richard Donner',
-    actors: [{ name: 'Christopher Reeve' }, { name: 'Margot Kidder' }],
-    coverUrl: '/movies_pictures/Superman_affiche_film_1.webp',
-    releaseDate: '1978-12-15',
-    length: 143,
-    genre: 'Action',
-    saga: 'Superman',
-    description: '',
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Superman II',
-    director: 'Richard Lester',
-    actors: [{ name: 'Christopher Reeve' }, { name: 'Margot Kidder' }],
-    coverUrl: '/movies_pictures/61a2Wp8ylUL._AC_UF894,1000_QL80_.jpg',
-    releaseDate: '1980-12-12',
-    length: 127,
-    genre: 'Action',
-    saga: 'Superman',
-    description: '',
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Superman Returns',
-    director: 'Bryan Singer',
-    actors: [{ name: 'Brandon Routh' }, { name: 'Kate Bosworth' }],
-    coverUrl: '/movies_pictures/18648048.jpg',
-    releaseDate: '2006-06-28',
-    length: 154,
-    genre: 'Action',
-    saga: 'Superman',
-    description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -962,7 +947,7 @@ export const baseMoviesPage1: BaseMovie[] = [
       },
       {
         name: 'Mélanie Laurent',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/317481.webp',
     releaseDate: '2013-09-08',
@@ -970,6 +955,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Canada',
   },
   {
@@ -982,6 +968,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -998,6 +985,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Comedy, Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1020,6 +1008,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1032,6 +1021,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1044,6 +1034,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Comedy',
     saga: 'Harold & Kumar',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1063,6 +1054,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1082,6 +1074,11 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Dracula',
+      secondEntityKey: 'Bram Stoker',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -1094,6 +1091,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1106,6 +1104,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Comedy',
     saga: 'Cornetto',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Royaume-Uni',
   },
   {
@@ -1118,6 +1117,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1130,6 +1130,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1138,7 +1139,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     actors: [
       {
         name: 'François Desagnat',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/40754-the-11-commandments-0-150-0-225-crop.jpg',
     releaseDate: '2004-02-11',
@@ -1146,6 +1147,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -1154,7 +1156,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     actors: [
       {
         name: 'Marion Cotillard',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/38203-rrrrrrr--0-150-0-225-crop.jpg',
     releaseDate: '2004-01-28',
@@ -1162,6 +1164,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -1174,6 +1177,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Horror',
     saga: 'Saw',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1187,6 +1191,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1199,6 +1204,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Corée du Sud',
   },
   {
@@ -1218,6 +1224,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1226,7 +1233,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     actors: [
       {
         name: 'Richard Berry',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/6543-i-cesar-0-150-0-225-crop.jpg',
     releaseDate: '2003-04-30',
@@ -1234,6 +1241,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -1253,6 +1261,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1264,7 +1273,7 @@ export const baseMoviesPage1: BaseMovie[] = [
       },
       {
         name: 'Michael Youn',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/la_beuze.jpg',
     releaseDate: '2003-02-05',
@@ -1272,6 +1281,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -1284,6 +1294,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1300,6 +1311,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Crime',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1312,6 +1324,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1324,6 +1337,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1336,6 +1350,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Horror',
     saga: '28... plus tard',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Royaume-Uni',
   },
   {
@@ -1348,6 +1363,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Horror',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1360,6 +1376,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1376,6 +1393,11 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'La femme de ménage',
+      secondEntityKey: 'Freida McFadden',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -1393,6 +1415,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1415,6 +1438,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Comédie, Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1437,6 +1461,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Drame, Historique',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -1449,6 +1474,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Adventure, Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -1461,6 +1487,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Adventure, Fantasy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -1477,6 +1504,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     genre: 'Comedy, Crime',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Royaume-Uni',
   },
 ];

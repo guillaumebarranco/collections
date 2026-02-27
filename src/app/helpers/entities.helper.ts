@@ -222,6 +222,7 @@ export const getMovieDataFromUserMovieAndBaseMovie = (
   watchPriority: userMovie.watchPriority,
   description: baseMovie?.description ?? '',
   countryOrigin: baseMovie?.countryOrigin ?? '',
+  fromEntity: baseMovie?.fromEntity ?? null,
   ratingComment: userMovie.ratingComment ?? '',
 });
 

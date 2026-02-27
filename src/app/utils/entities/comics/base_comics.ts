@@ -2,6 +2,15 @@ import { BaseComic } from '../../../models/comic-model';
 
 export const baseComics: BaseComic[] = [
   {
+    title: 'V pour Vendetta',
+    writer: 'Alan Moore',
+    designer: 'David Lloyd',
+    coverUrl: '/comics_pictures/A1GQ8YsGz2L._UF1000,1000_QL80_.jpg',
+    pages: 296,
+    genre: 'Science-fiction',
+    description: '',
+  },
+  {
     title: 'Watchmen',
     writer: 'Alan Moore',
     designer: 'Alan Moore',

@@ -16,6 +16,11 @@ export interface BaseMovie extends MandatoryMovieData {
   saga: string;
   description: string;
   countryOrigin: Country;
+  fromEntity: {
+    entityType: 'book' | 'game' | 'comic' | 'manga' | 'manwha' | 'serie';
+    title: string;
+    secondEntityKey: string;
+  } | null;
 }
 
 export interface UserMovie extends MandatoryMovieData {

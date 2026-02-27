@@ -11,6 +11,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -23,6 +24,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'Batman',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -40,6 +42,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'Batman',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -62,6 +65,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'Batman',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -81,6 +85,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'Batman',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -112,6 +117,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'The Dark Knight',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -140,6 +146,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'The Dark Knight',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -172,6 +179,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'The Dark Knight',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -191,6 +199,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -222,6 +231,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'DCEU',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -238,6 +248,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'DCEU',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -254,6 +265,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'DCEU',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -273,6 +285,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'DCEU',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -302,6 +315,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'DCEU',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -321,6 +335,46 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'DCEU',
     description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Superman',
+    director: 'Richard Donner',
+    actors: [{ name: 'Christopher Reeve' }, { name: 'Margot Kidder' }],
+    coverUrl: '/movies_pictures/Superman_affiche_film_1.webp',
+    releaseDate: '1978-12-15',
+    length: 143,
+    genre: 'Action',
+    saga: 'Superman',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Superman II',
+    director: 'Richard Lester',
+    actors: [{ name: 'Christopher Reeve' }, { name: 'Margot Kidder' }],
+    coverUrl: '/movies_pictures/61a2Wp8ylUL._AC_UF894,1000_QL80_.jpg',
+    releaseDate: '1980-12-12',
+    length: 127,
+    genre: 'Action',
+    saga: 'Superman',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Superman Returns',
+    director: 'Bryan Singer',
+    actors: [{ name: 'Brandon Routh' }, { name: 'Kate Bosworth' }],
+    coverUrl: '/movies_pictures/18648048.jpg',
+    releaseDate: '2006-06-28',
+    length: 154,
+    genre: 'Action',
+    saga: 'Superman',
+    description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -349,6 +403,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'DCEU',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -371,6 +426,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'DCU',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -383,6 +439,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -395,6 +452,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -411,6 +469,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'DCEU',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -427,6 +486,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'DCEU',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -443,6 +503,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'DCEU',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -460,6 +521,7 @@ export const baseMoviesDc: BaseMovie[] = [
     genre: 'Action',
     saga: 'DCEU',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
 ];

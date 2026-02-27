@@ -15,6 +15,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -31,6 +32,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Adventure',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -48,6 +50,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -64,6 +67,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -80,6 +84,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Action',
     saga: 'Disney Classique',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -96,6 +101,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -112,6 +118,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -128,6 +135,11 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Crime',
     saga: '',
     description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -145,6 +157,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -161,6 +174,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Fantasy',
     saga: 'Disney Live Action',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -180,6 +194,11 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
     description: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Gunnm',
+      secondEntityKey: 'Yukito Kishiro',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -196,6 +215,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -212,6 +232,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -228,6 +249,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -245,6 +267,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -261,6 +284,11 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
     description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Player One',
+      secondEntityKey: 'Ernest Cline',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -274,6 +302,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -286,6 +315,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -298,6 +328,11 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Horror',
     saga: '',
     description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'The Shining',
+      secondEntityKey: 'Stephen King',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -311,6 +346,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -323,6 +359,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Crime',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -335,6 +372,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Horror',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -348,6 +386,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -361,6 +400,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -373,6 +413,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -385,6 +426,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Adventure',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -398,6 +440,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -410,6 +453,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Horror',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -422,6 +466,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Horror',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -434,6 +479,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -446,6 +492,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -458,6 +505,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -471,6 +519,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -483,6 +532,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -504,6 +554,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -517,6 +568,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -529,6 +581,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -541,6 +594,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -560,6 +614,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -572,6 +627,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -584,6 +640,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -596,6 +653,11 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: 'Astérix',
     description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Astérix le Gaulois',
+      secondEntityKey: 'René Goscinny',
+    },
     countryOrigin: 'France',
   },
   {
@@ -609,6 +671,11 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: 'Astérix',
     description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Astérix le Gaulois',
+      secondEntityKey: 'René Goscinny',
+    },
     countryOrigin: 'France',
   },
   {
@@ -631,6 +698,11 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comédie',
     saga: 'Astérix',
     description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Astérix le Gaulois',
+      secondEntityKey: 'René Goscinny',
+    },
     countryOrigin: 'France',
   },
   {
@@ -653,6 +725,11 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comédie',
     saga: 'Astérix',
     description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Astérix le Gaulois',
+      secondEntityKey: 'René Goscinny',
+    },
     countryOrigin: 'France',
   },
   {
@@ -666,6 +743,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -674,7 +752,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     actors: [
       {
         name: 'Bruce Willis',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/the_fifth_element.jpg',
     releaseDate: '1997-05-07',
@@ -682,6 +760,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -694,6 +773,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -706,6 +786,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -718,6 +799,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -730,6 +812,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -742,6 +825,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -754,6 +838,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -766,6 +851,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Action',
     saga: 'MonsterVerse',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -779,6 +865,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -791,6 +878,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -804,6 +892,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -816,6 +905,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -828,6 +918,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -840,6 +931,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -856,6 +948,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -872,6 +965,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Crime',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -894,6 +988,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -916,6 +1011,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -929,6 +1025,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -941,6 +1038,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -953,6 +1051,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -965,6 +1064,11 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Enquête',
     saga: '',
     description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Da Vinci Code',
+      secondEntityKey: 'Dan Brown',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -977,6 +1081,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: 'Camping',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -989,6 +1094,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Espagne',
   },
   {
@@ -1001,6 +1107,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -1013,6 +1120,11 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'V pour Vendetta',
+      secondEntityKey: 'Alan Moore',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -1026,6 +1138,11 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Fantasy',
     saga: '',
     description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le Monde de Narnia',
+      secondEntityKey: 'C.S. Lewis',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -1038,6 +1155,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Adventure',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1050,6 +1168,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Fantasy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1062,6 +1181,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Crime',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1074,6 +1194,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1086,6 +1207,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1099,6 +1221,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1111,6 +1234,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1123,6 +1247,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1136,6 +1261,11 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Fantasy',
     saga: '',
     description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Charlie et la Chocolaterie',
+      secondEntityKey: 'Roald Dahl',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -1148,6 +1278,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1160,6 +1291,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Horror',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1172,6 +1304,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1188,6 +1321,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1200,6 +1334,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -1212,6 +1347,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1224,6 +1360,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1236,6 +1373,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1248,6 +1386,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1273,6 +1412,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Crime',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1296,6 +1436,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -1308,6 +1449,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1320,6 +1462,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -1332,6 +1475,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1344,6 +1488,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1356,6 +1501,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1369,6 +1515,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Horror',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
 ];

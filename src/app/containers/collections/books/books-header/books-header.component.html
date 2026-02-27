@@ -90,22 +90,6 @@
     </app-stats-display>
 
     <div class="books-filters">
-      <div class="books-filters-item">
-        <p>Grouper par :</p>
-        <select
-          class="app-dropdown"
-          [ngModel]="selectedGroupBy()"
-          (ngModelChange)="onGroupByChange.emit($event)"
-          style="margin-bottom: 8px"
-        >
-          @for (option of groupByOptions(); track option.value) {
-          <option [value]="option.value">
-            {{ option.label }}
-          </option>
-          }
-        </select>
-      </div>
-
       @if(selectedView() === 'read') {
       <div class="books-filters-item">
         <app-sort-dropdown

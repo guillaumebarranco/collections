@@ -880,4 +880,16 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: 'Numéro quatre',
+    author: 'Pittacus Lore',
+    readDate: '2026-02-27',
+    rating: 4,
+    readTimes: 1,
+    owned: false,
+    readPriority: 3,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
 ];

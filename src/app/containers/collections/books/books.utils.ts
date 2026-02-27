@@ -39,12 +39,6 @@ export const yearFilterOptions: { value: string; label: string }[] = [
   { value: 'before2024', label: 'Avant 2024' },
 ];
 
-export const groupByOptions: { value: string; label: string }[] = [
-  { value: 'none', label: 'Aucun' },
-  { value: 'author', label: 'Auteur' },
-  { value: 'genre', label: 'Genre' },
-];
-
 export const bookViewOptions: { value: BookView; label: string }[] = [
   { value: 'read', label: 'Lus' },
   { value: 'readlist', label: 'À lire' },

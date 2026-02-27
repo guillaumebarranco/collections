@@ -21,6 +21,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Drame',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -43,6 +44,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -65,6 +67,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Catastrophe',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -90,6 +93,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Drame',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Brésil',
   },
   {
@@ -109,6 +113,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -131,6 +136,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Horreur',
     saga: '28... plus tard',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Royaume-Uni',
   },
   {
@@ -150,6 +156,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Comédie romantique',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -173,6 +180,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Fantasy',
     saga: 'Tolkien',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Nouvelle-Zélande',
   },
   {
@@ -195,6 +203,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Fantasy',
     saga: 'Tolkien',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Nouvelle-Zélande',
   },
   {
@@ -217,6 +226,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Fantasy',
     saga: 'Tolkien',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Nouvelle-Zélande',
   },
   {
@@ -236,6 +246,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Aventure, Famille',
     saga: 'Sonic',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -258,6 +269,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Comédie',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -283,6 +295,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Aventure, Famille',
     saga: 'Sonic',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -305,6 +318,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Comédie romantique',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -330,6 +344,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Animation',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -342,6 +357,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: '',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -365,6 +381,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Comédie, Policier',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -385,6 +402,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -417,6 +435,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Comédie',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -446,6 +465,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -469,6 +489,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Science Fiction, Horreur',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -492,6 +513,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Comédie ',
     saga: 'Trilogie Cédric Klapisch',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -512,6 +534,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Drame',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Royaume-Uni',
   },
   {
@@ -535,6 +558,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Comédie musicale',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -561,6 +585,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Comédie',
     saga: 'Trilogie Cédric Klapisch',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -589,6 +614,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Comédie',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -605,6 +631,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Drame, Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -621,6 +648,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Horreur, Drame',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -638,6 +666,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Comédie',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -655,6 +684,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Comédie',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -674,6 +704,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Comédie',
     saga: 'Monty Python',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Royaume-Uni',
   },
   {
@@ -692,6 +723,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Science Fiction, Drame',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Royaume-Uni',
   },
   {
@@ -710,6 +742,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Comédie, Thriller, Crime',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Royaume-Uni',
   },
   {
@@ -729,6 +762,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Comédie, Science Fiction',
     saga: 'Trilogie Cornetto',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Royaume-Uni',
   },
 
@@ -743,12 +777,14 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Raphaël Quenard',
       },
     ],
-    coverUrl: 'https://www.franceinfo.fr/pictures/jK_vfwYOcmnvVo7m_PKyNKCbz0M/0x0:797x1080/fit-in/720x/filters:format(jpg)/2026/02/13/le-reve-americain-affiche-698f46413ec01629473537.jpeg',
+    coverUrl:
+      'https://www.franceinfo.fr/pictures/jK_vfwYOcmnvVo7m_PKyNKCbz0M/0x0:797x1080/fit-in/720x/filters:format(jpg)/2026/02/13/le-reve-americain-affiche-698f46413ec01629473537.jpeg',
     releaseDate: '2026-02-18',
     length: 121,
     genre: 'Biopic',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
 
@@ -772,6 +808,36 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Horreur',
     saga: 'Scream',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
+  },
+  {
+    title: 'Dragonball Evolution',
+    director: 'James Wong',
+    actors: [
+      {
+        name: 'Justin Chatwin',
+      },
+      {
+        name: 'James Marsters',
+      },
+      {
+        name: 'Chow Yun-fat',
+      },
+      {
+        name: 'Emmy Rossum',
+      },
+      {
+        name: 'Jamie Chung',
+      },
+    ],
+    coverUrl: '/movies_pictures/19065645.jpg',
+    releaseDate: '2009-04-10',
+    length: 85,
+    genre: 'Action',
+    saga: 'Dragon Ball',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
   },
 ];

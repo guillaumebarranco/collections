@@ -33,6 +33,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -68,6 +69,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -115,6 +117,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -158,6 +161,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -175,6 +179,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -194,6 +199,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -226,6 +232,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -245,6 +252,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -267,6 +275,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -298,6 +307,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -314,6 +324,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -333,6 +344,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -355,6 +367,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -375,6 +388,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -394,6 +408,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -417,6 +432,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -436,6 +452,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -452,6 +469,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -469,6 +487,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -481,6 +500,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -498,6 +518,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -520,6 +541,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -537,6 +559,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -560,6 +583,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -585,6 +609,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -611,6 +636,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -633,6 +659,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -656,6 +683,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -679,6 +707,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -702,6 +731,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -728,6 +758,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -751,6 +782,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -767,6 +799,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -789,6 +822,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -808,6 +842,57 @@ export const baseMoviesMcu: BaseMovie[] = [
     genre: 'Action',
     saga: 'Marvel Cinematic Universe',
     description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Les 4 fantastiques',
+    director: 'Matt Shakman',
+    actors: [
+      {
+        name: 'Pedro Pascal',
+      },
+      {
+        name: 'Vanessa Kirby',
+      },
+      {
+        name: 'Joseph Quinn',
+      },
+      {
+        name: 'Ebon Moss-Bachrach',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/les-4-fantastiques-premiers-pas-affiche-officielle-scaled.jpg',
+    releaseDate: '2025-07-25',
+    length: 130,
+    genre: 'Action, Adventure',
+    saga: 'Marvel Cinematic Universe',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Thunderbolts',
+    director: 'Jake Schreier',
+    actors: [
+      {
+        name: 'Florence Pugh',
+      },
+      {
+        name: 'Sebastian Stan',
+      },
+      {
+        name: 'David Harbour',
+      },
+    ],
+    coverUrl: '/movies_pictures/72b74175dd05a704ebed57975b0f6487.jpg',
+    releaseDate: '2025-05-02',
+    length: 126,
+    genre: 'Action',
+    saga: 'Marvel Cinematic Universe',
+    description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
 ];

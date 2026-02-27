@@ -1,0 +1,106 @@
+@use "../../styles/containers.scss" as containers;
+
+.mix-container {
+  @include containers.container-base;
+}
+
+.mix-header {
+  margin-bottom: 1.5rem;
+
+  h1 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+  }
+}
+
+.mix-header-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+.mix-loading,
+.mix-empty {
+  padding: 2rem;
+  text-align: center;
+  color: var(--text-secondary, #666);
+}
+
+.mix-content {
+  margin-top: 1rem;
+}
+
+/* Même structure que films par saga / livres par saga */
+.mix-by-entity {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.mix-section {
+  padding: 12px 16px 4px;
+  background: #f9fafb;
+  border-radius: 14px;
+
+  .mix-movies {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 16px;
+
+    @media (max-width: 768px) {
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    }
+  }
+
+  .mix-movie-card {
+    padding: 0;
+  }
+}
+
+.mix-section-title {
+  margin: 0 0 12px;
+  font-size: 1.35rem;
+  color: #2c3e50;
+}
+
+.mix-section-toggle {
+  background: transparent;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.mix-section-toggle-icon {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+
+.mix-section-book,
+.mix-section-game,
+.mix-section-bd,
+.mix-section-comic {
+  margin-bottom: 1rem;
+  max-width: 320px;
+}
+
+.mix-adaptations-label {
+  margin: 1rem 0 0.5rem 0;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.mix-movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.mix-movie-card {
+  min-width: 0;
+}

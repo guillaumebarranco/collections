@@ -1,0 +1,351 @@
+<app-menu></app-menu>
+
+<div class="mix-container container-saga-mode">
+  <header class="mix-header">
+    <h1>Livres &amp; Films</h1>
+    <div class="mix-header-top">
+      <app-view-toggle
+        [toggleClass]="'mix-view-toggle'"
+        [options]="viewOptions"
+        [selected]="selectedView()"
+        (selectedChange)="onViewChange($any($event))"
+      ></app-view-toggle>
+    </div>
+  </header>
+
+  @if (isLoading()) {
+  <p class="mix-loading">Chargement...</p>
+  } @else if (selectedView() === 'booksAdapted') {
+  <div class="mix-content mix-by-entity">
+    @if (booksAdapted().length === 0) {
+    <p class="mix-empty">Aucun livre adapté en film pour le moment.</p>
+    } @else {
+    @for (item of booksAdapted(); track item.book.title + '|' +
+    item.book.author) {
+    <section class="mix-section">
+      <h2 class="mix-section-title">
+        <button
+          type="button"
+          class="mix-section-toggle"
+          [attr.aria-expanded]="!isSectionCollapsed(item.book.title + '|' + item.book.author)"
+          (click)="toggleSection(item.book.title + '|' + item.book.author)"
+        >
+          <span class="mix-section-toggle-icon">
+            {{ isSectionCollapsed(item.book.title + '|' + item.book.author) ? "▶" : "▼" }}
+          </span>
+          {{ item.book.title }} — {{ item.book.author }}
+          ({{ item.movies.length }} adaptation{{ item.movies.length > 1 ? 's' : '' }})
+        </button>
+      </h2>
+      @if (!isSectionCollapsed(item.book.title + '|' + item.book.author)) {
+      <div class="mix-section-book">
+        <app-book [book]="item.book" [readOnly]="true"></app-book>
+      </div>
+      <p class="mix-adaptations-label">Adaptation(s) film :</p>
+      <div class="mix-movies">
+        @for (movie of item.movies; track movie.title + '|' + movie.director) {
+        <div class="mix-movie-card">
+          <app-movie
+            [movie]="movie"
+            [readOnly]="true"
+            [list]="item.movies"
+            [index]="$index"
+          ></app-movie>
+        </div>
+        }
+      </div>
+      }
+    </section>
+    }
+    }
+  </div>
+  } @else if (selectedView() === 'moviesFromBooks') {
+  <div class="mix-content mix-by-entity">
+    @if (moviesFromBooksBySource().length === 0) {
+    <p class="mix-empty">Aucun film provenant d'un livre pour le moment.</p>
+    } @else {
+    @for (group of moviesFromBooksBySource(); track group.sourceKey) {
+    <section class="mix-section">
+      <h2 class="mix-section-title">
+        <button
+          type="button"
+          class="mix-section-toggle"
+          [attr.aria-expanded]="!isSectionCollapsed(group.sourceKey)"
+          (click)="toggleSection(group.sourceKey)"
+        >
+          <span class="mix-section-toggle-icon">
+            {{ isSectionCollapsed(group.sourceKey) ? "▶" : "▼" }}
+          </span>
+          {{ group.sourceLabel }}
+          ({{ group.movies.length }} film{{ group.movies.length > 1 ? 's' : '' }})
+        </button>
+      </h2>
+      @if (!isSectionCollapsed(group.sourceKey)) {
+      <div class="mix-movies">
+        @for (movie of group.movies; track movie.title + '|' + movie.director) {
+        <div class="mix-movie-card">
+          <app-movie
+            [movie]="movie"
+            [readOnly]="true"
+            [list]="group.movies"
+            [index]="$index"
+          ></app-movie>
+        </div>
+        }
+      </div>
+      }
+    </section>
+    }
+    }
+  </div>
+  } @else if (selectedView() === 'moviesFromGames') {
+  <div class="mix-content mix-by-entity">
+    @if (moviesFromGamesBySource().length === 0) {
+    <p class="mix-empty">Aucun film adapté d'un jeu pour le moment.</p>
+    } @else {
+    @for (group of moviesFromGamesBySource(); track group.sourceKey) {
+    <section class="mix-section">
+      <h2 class="mix-section-title">
+        <button
+          type="button"
+          class="mix-section-toggle"
+          [attr.aria-expanded]="!isSectionCollapsed(group.sourceKey)"
+          (click)="toggleSection(group.sourceKey)"
+        >
+          <span class="mix-section-toggle-icon">
+            {{ isSectionCollapsed(group.sourceKey) ? "▶" : "▼" }}
+          </span>
+          {{ group.sourceLabel }}
+          ({{ group.movies.length }} film{{ group.movies.length > 1 ? 's' : '' }})
+        </button>
+      </h2>
+      @if (!isSectionCollapsed(group.sourceKey)) {
+      <div class="mix-movies">
+        @for (movie of group.movies; track movie.title + '|' + movie.director) {
+        <div class="mix-movie-card">
+          <app-movie
+            [movie]="movie"
+            [readOnly]="true"
+            [list]="group.movies"
+            [index]="$index"
+          ></app-movie>
+        </div>
+        }
+      </div>
+      }
+    </section>
+    }
+    }
+  </div>
+  } @else if (selectedView() === 'gamesAdapted') {
+  <div class="mix-content mix-by-entity">
+    @if (gamesAdapted().length === 0) {
+    <p class="mix-empty">Aucun jeu adapté en film pour le moment.</p>
+    } @else {
+    @for (item of gamesAdapted(); track item.game.title + '|' +
+    item.game.editor) {
+    <section class="mix-section">
+      <h2 class="mix-section-title">
+        <button
+          type="button"
+          class="mix-section-toggle"
+          [attr.aria-expanded]="!isSectionCollapsed(item.game.title + '|' + item.game.editor)"
+          (click)="toggleSection(item.game.title + '|' + item.game.editor)"
+        >
+          <span class="mix-section-toggle-icon">
+            {{ isSectionCollapsed(item.game.title + '|' + item.game.editor) ? "▶" : "▼" }}
+          </span>
+          {{ item.game.title }} — {{ item.game.editor }}
+          ({{ item.movies.length }} adaptation{{ item.movies.length > 1 ? 's' : '' }})
+        </button>
+      </h2>
+      @if (!isSectionCollapsed(item.game.title + '|' + item.game.editor)) {
+      <div class="mix-section-game">
+        <app-game [game]="item.game" [readOnly]="true"></app-game>
+      </div>
+      <p class="mix-adaptations-label">Adaptation(s) film :</p>
+      <div class="mix-movies">
+        @for (movie of item.movies; track movie.title + '|' + movie.director) {
+        <div class="mix-movie-card">
+          <app-movie
+            [movie]="movie"
+            [readOnly]="true"
+            [list]="item.movies"
+            [index]="$index"
+          ></app-movie>
+        </div>
+        }
+      </div>
+      }
+    </section>
+    }
+    }
+  </div>
+  } @else if (selectedView() === 'moviesFromComics') {
+  <div class="mix-content mix-by-entity">
+    @if (moviesFromComicsBySource().length === 0) {
+    <p class="mix-empty">Aucun film adapté d'une BD pour le moment.</p>
+    } @else {
+    @for (group of moviesFromComicsBySource(); track group.sourceKey) {
+    <section class="mix-section">
+      <h2 class="mix-section-title">
+        <button
+          type="button"
+          class="mix-section-toggle"
+          [attr.aria-expanded]="!isSectionCollapsed(group.sourceKey)"
+          (click)="toggleSection(group.sourceKey)"
+        >
+          <span class="mix-section-toggle-icon">
+            {{ isSectionCollapsed(group.sourceKey) ? "▶" : "▼" }}
+          </span>
+          {{ group.sourceLabel }}
+          ({{ group.movies.length }} film{{ group.movies.length > 1 ? 's' : '' }})
+        </button>
+      </h2>
+      @if (!isSectionCollapsed(group.sourceKey)) {
+      <div class="mix-movies">
+        @for (movie of group.movies; track movie.title + '|' + movie.director) {
+        <div class="mix-movie-card">
+          <app-movie
+            [movie]="movie"
+            [readOnly]="true"
+            [list]="group.movies"
+            [index]="$index"
+          ></app-movie>
+        </div>
+        }
+      </div>
+      }
+    </section>
+    }
+    }
+  </div>
+  } @else if (selectedView() === 'comicsAdapted') {
+  <div class="mix-content mix-by-entity">
+    @if (bdsAdapted().length === 0) {
+    <p class="mix-empty">Aucune BD adaptée en film pour le moment.</p>
+    } @else {
+    @for (item of bdsAdapted(); track item.bd.title + '|' +
+    item.bd.writer) {
+    <section class="mix-section">
+      <h2 class="mix-section-title">
+        <button
+          type="button"
+          class="mix-section-toggle"
+          [attr.aria-expanded]="!isSectionCollapsed(item.bd.title + '|' + item.bd.writer)"
+          (click)="toggleSection(item.bd.title + '|' + item.bd.writer)"
+        >
+          <span class="mix-section-toggle-icon">
+            {{ isSectionCollapsed(item.bd.title + '|' + item.bd.writer) ? "▶" : "▼" }}
+          </span>
+          {{ item.bd.title }} — {{ item.bd.writer }}
+          ({{ item.movies.length }} adaptation{{ item.movies.length > 1 ? 's' : '' }})
+        </button>
+      </h2>
+      @if (!isSectionCollapsed(item.bd.title + '|' + item.bd.writer)) {
+      <div class="mix-section-bd">
+        <app-bd [bd]="item.bd" [readOnly]="true"></app-bd>
+      </div>
+      <p class="mix-adaptations-label">Adaptation(s) film :</p>
+      <div class="mix-movies">
+        @for (movie of item.movies; track movie.title + '|' + movie.director) {
+        <div class="mix-movie-card">
+          <app-movie
+            [movie]="movie"
+            [readOnly]="true"
+            [list]="item.movies"
+            [index]="$index"
+          ></app-movie>
+        </div>
+        }
+      </div>
+      }
+    </section>
+    }
+    }
+  </div>
+  } @else if (selectedView() === 'moviesFromComicBooks') {
+  <div class="mix-content mix-by-entity">
+    @if (moviesFromComicBooksBySource().length === 0) {
+    <p class="mix-empty">Aucun film adapté d'un comic pour le moment.</p>
+    } @else {
+    @for (group of moviesFromComicBooksBySource(); track group.sourceKey) {
+    <section class="mix-section">
+      <h2 class="mix-section-title">
+        <button
+          type="button"
+          class="mix-section-toggle"
+          [attr.aria-expanded]="!isSectionCollapsed(group.sourceKey)"
+          (click)="toggleSection(group.sourceKey)"
+        >
+          <span class="mix-section-toggle-icon">
+            {{ isSectionCollapsed(group.sourceKey) ? "▶" : "▼" }}
+          </span>
+          {{ group.sourceLabel }}
+          ({{ group.movies.length }} film{{ group.movies.length > 1 ? 's' : '' }})
+        </button>
+      </h2>
+      @if (!isSectionCollapsed(group.sourceKey)) {
+      <div class="mix-movies">
+        @for (movie of group.movies; track movie.title + '|' + movie.director) {
+        <div class="mix-movie-card">
+          <app-movie
+            [movie]="movie"
+            [readOnly]="true"
+            [list]="group.movies"
+            [index]="$index"
+          ></app-movie>
+        </div>
+        }
+      </div>
+      }
+    </section>
+    }
+    }
+  </div>
+  } @else if (selectedView() === 'comicBooksAdapted') {
+  <div class="mix-content mix-by-entity">
+    @if (comicBooksAdapted().length === 0) {
+    <p class="mix-empty">Aucun comic adapté en film pour le moment.</p>
+    } @else {
+    @for (item of comicBooksAdapted(); track item.comic.title + '|' +
+    item.comic.writer) {
+    <section class="mix-section">
+      <h2 class="mix-section-title">
+        <button
+          type="button"
+          class="mix-section-toggle"
+          [attr.aria-expanded]="!isSectionCollapsed(item.comic.title + '|' + item.comic.writer)"
+          (click)="toggleSection(item.comic.title + '|' + item.comic.writer)"
+        >
+          <span class="mix-section-toggle-icon">
+            {{ isSectionCollapsed(item.comic.title + '|' + item.comic.writer) ? "▶" : "▼" }}
+          </span>
+          {{ item.comic.title }} — {{ item.comic.writer }}
+          ({{ item.movies.length }} adaptation{{ item.movies.length > 1 ? 's' : '' }})
+        </button>
+      </h2>
+      @if (!isSectionCollapsed(item.comic.title + '|' + item.comic.writer)) {
+      <div class="mix-section-comic">
+        <app-comic [comic]="item.comic" [readOnly]="true"></app-comic>
+      </div>
+      <p class="mix-adaptations-label">Adaptation(s) film :</p>
+      <div class="mix-movies">
+        @for (movie of item.movies; track movie.title + '|' + movie.director) {
+        <div class="mix-movie-card">
+          <app-movie
+            [movie]="movie"
+            [readOnly]="true"
+            [list]="item.movies"
+            [index]="$index"
+          ></app-movie>
+        </div>
+        }
+      </div>
+      }
+    </section>
+    }
+    }
+  </div>
+  }
+</div>

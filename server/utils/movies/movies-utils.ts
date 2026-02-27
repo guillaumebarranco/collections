@@ -78,6 +78,41 @@ function parseBooleanField(objectText: string, key: string) {
   return match[1] === 'true';
 }
 
+const FROM_ENTITY_TYPES = ['book', 'game', 'comic', 'manga', 'manwha', 'serie'];
+
+function parsefromEntityField(objectText: string) {
+  const nullMatch = objectText.match(/fromEntity\s*:\s*null/);
+  if (nullMatch) return null;
+  const objStart = objectText.indexOf('fromEntity');
+  if (objStart === -1) return null;
+  const braceStart = objectText.indexOf('{', objStart);
+  if (braceStart === -1) return null;
+  let depth = 1;
+  let i = braceStart + 1;
+  while (i < objectText.length && depth > 0) {
+    const c = objectText[i];
+    if (c === '{') depth += 1;
+    else if (c === '}') depth -= 1;
+    i += 1;
+  }
+  const inner = objectText.slice(braceStart, i);
+  const entityTypeRaw = parseStringField(inner, 'entityType');
+  const entityType = FROM_ENTITY_TYPES.includes(entityTypeRaw || '')
+    ? entityTypeRaw
+    : 'book';
+  const title = parseStringField(inner, 'title');
+  const secondEntityKey =
+    parseStringField(inner, 'secondEntityKey') ??
+    parseStringField(inner, 'author');
+  if (title != null && secondEntityKey != null)
+    return {
+      entityType: entityType || 'book',
+      title,
+      secondEntityKey,
+    };
+  return null;
+}
+
 function parseMoviesFromFile(content: string): any[] {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
@@ -239,6 +274,7 @@ function parseBaseMoviesFullFromFile(content: string): any[] {
           saga: parseStringField(objectText, 'saga') || '',
           description: parseStringField(objectText, 'description') || '',
           countryOrigin: parseStringField(objectText, 'countryOrigin') || '',
+          fromEntity: parsefromEntityField(objectText) ?? null,
         });
       }
     }
@@ -372,6 +408,35 @@ function upsertActorsField(objectText: string, actors: string[] | undefined) {
   return objectText.replace(/\}\s*$/, `    ${block},\n  }`);
 }
 
+function upsertfromEntityField(
+  objectText: string,
+  value:
+    | { entityType: string; title: string; secondEntityKey: string }
+    | null
+    | undefined
+) {
+  if (value === undefined) return objectText;
+  const entityType =
+    value !== null && FROM_ENTITY_TYPES.includes(value.entityType)
+      ? value.entityType
+      : 'book';
+  const fromEntityBlock =
+    value === null
+      ? 'fromEntity: null'
+      : `fromEntity: { entityType: '${entityType}', title: '${escapeString(
+          value.title
+        )}', secondEntityKey: '${escapeString(value.secondEntityKey)}' }`;
+  const existingNull = /fromEntity\s*:\s*null/;
+  const existingObj = /fromEntity\s*:\s*\{[\s\S]*?\}/;
+  if (existingNull.test(objectText)) {
+    return objectText.replace(existingNull, fromEntityBlock);
+  }
+  if (existingObj.test(objectText)) {
+    return objectText.replace(existingObj, fromEntityBlock);
+  }
+  return objectText.replace(/\}\s*$/, `    ${fromEntityBlock},\n  }`);
+}
+
 function updateMovieInFile(content: string, payload: any) {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
@@ -429,7 +494,11 @@ function updateMovieInFile(content: string, payload: any) {
             'watchPriority',
             payload.watchPriority
           );
-          updated = upsertField(updated, 'ratingComment', payload.ratingComment ?? '');
+          updated = upsertField(
+            updated,
+            'ratingComment',
+            payload.ratingComment ?? ''
+          );
 
           return (
             content.slice(0, objectStart) +
@@ -555,8 +624,17 @@ function updateBaseMovieInFile(content: string, payload: any) {
           updated = upsertField(updated, 'length', payload.length);
           updated = upsertField(updated, 'genre', payload.genre);
           updated = upsertField(updated, 'saga', payload.saga);
-          updated = upsertField(updated, 'description', payload.description ?? '');
-          updated = upsertField(updated, 'countryOrigin', payload.countryOrigin ?? '');
+          updated = upsertField(
+            updated,
+            'description',
+            payload.description ?? ''
+          );
+          updated = upsertField(
+            updated,
+            'countryOrigin',
+            payload.countryOrigin ?? ''
+          );
+          updated = upsertfromEntityField(updated, payload.fromEntity);
 
           return (
             content.slice(0, objectStart) +

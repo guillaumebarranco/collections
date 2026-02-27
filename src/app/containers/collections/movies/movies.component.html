@@ -59,7 +59,7 @@
   }
 
   <!-- Add movies to watchlist button -->
-  @if(selectedView() === 'watchlist') {
+  @if(selectedView() === 'watchlist' && allWatchlistMovies().length === 0) {
   <div class="watchlist-actions">
     <button
       class="makya-btn-ultra-big"

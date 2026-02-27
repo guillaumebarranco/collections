@@ -77,6 +77,19 @@ export class MovieComponent {
 
   isBaseEntityView = isBaseEntityView();
 
+  private static readonly FROM_ENTITY_LABELS: Record<string, string> = {
+    book: 'Adapté du livre',
+    game: 'Adapté du jeu',
+    comic: 'Adapté de la BD',
+    manga: 'Adapté du manga',
+    manwha: 'Adapté du manhwa',
+    serie: 'Adapté de la série',
+  };
+
+  fromEntityLabel(entityType: string): string {
+    return MovieComponent.FROM_ENTITY_LABELS[entityType] ?? 'Adapté de';
+  }
+
   /** Afficher tous les acteurs (au-delà des 3 premiers). */
   actorsExpanded = signal<boolean>(false);
 

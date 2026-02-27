@@ -2,6 +2,15 @@ import { BaseBd } from '../../../models/bd-model';
 
 export const baseBds: BaseBd[] = [
   {
+    title: 'Astérix le Gaulois',
+    writer: 'René Goscinny',
+    designer: 'Albert Uderzo',
+    coverUrl: '/bd_pictures/17_9782012101333_1_75.jpg',
+    pages: 48,
+    genre: 'Humour',
+    description: '',
+  },
+  {
     title: "L'Arnaque des nouveaux pères",
     writer: 'Stephane Jourdain',
     designer: 'Stephane Jourdain',

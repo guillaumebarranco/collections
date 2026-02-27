@@ -128,6 +128,13 @@ export class MenuComponent implements OnInit {
       key: 'musics',
       hideOnMobile: false,
     },
+    {
+      label: 'Mix',
+      route: this.getRoute('mix'),
+      icon: '🔀',
+      key: 'mix',
+      hideOnMobile: false,
+    },
   ];
 
   ngOnInit() {

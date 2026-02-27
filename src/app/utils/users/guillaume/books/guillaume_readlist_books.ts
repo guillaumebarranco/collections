@@ -585,17 +585,6 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'Numéro quatre',
-    author: 'Pittacus Lore',
-    readDate: '',
-    rating: 0,
-    readTimes: 1,
-    owned: false,
-    readPriority: 3,
-    wantToReadAgain: false,
-    ratingComment: '',
-  },
-  {
     title: 'Le pouvoir des six',
     author: 'Pittacus Lore',
     readDate: '',

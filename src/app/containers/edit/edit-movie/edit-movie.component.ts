@@ -7,7 +7,7 @@ import {
   Router,
   RouterModule,
 } from '@angular/router';
-import { Movie } from '../../../models/movie-model';
+import { BaseMovie, Movie } from '../../../models/movie-model';
 import { getMoviesByUser } from '../../../facades/movies/movies.facade';
 import {
   MAT_DIALOG_DATA,
@@ -22,6 +22,8 @@ import { AuthService } from '../../../core/auth.service';
 import { QuizzCreateModalComponent } from '../../../components/quizz-create-modal/quizz-create-modal.component';
 import { EntityType } from '../../../models/quizz-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
+import { getAllBaseBooks } from '../../../facades/books/books.facade';
+import { BaseBook } from '../../../models/book-model';
 
 type EditMovieForm = {
   rating: number;
@@ -44,6 +46,7 @@ type EditMovieEntityForm = {
   saga: string;
   description: string;
   countryOrigin: string;
+  fromEntity: BaseMovie['fromEntity'];
 };
 
 type EditMovieDialogData = {
@@ -129,6 +132,13 @@ export class EditMovieComponent {
     return `${this.dialogIndex() + 1}/${this.dialogList().length}`;
   });
 
+  readonly baseBooks = signal<BaseBook[]>([]);
+  readonly fromEntitySelectValue = computed(() => {
+    const form = this.movieEntityForm();
+    if (!form?.fromEntity) return '';
+    return `${form.fromEntity.title}|${form.fromEntity.secondEntityKey}`;
+  });
+
   readonly movieSlug = computed(() => {
     return this.activatedRoute.snapshot.paramMap.get('slug') || '';
   });
@@ -136,12 +146,21 @@ export class EditMovieComponent {
   constructor() {
     if (this.dialogData?.movie) {
       this.setupDialogNavigation(this.dialogData);
+      void this.loadBaseBooksIfAdmin();
       return;
     }
 
     this.activatedRoute.paramMap.subscribe((params) => {
       void this.loadMovieFromSlug(params);
     });
+    void this.loadBaseBooksIfAdmin();
+  }
+
+  private async loadBaseBooksIfAdmin() {
+    if (this.isAdminView()) {
+      const books = await getAllBaseBooks();
+      this.baseBooks.set(books);
+    }
   }
 
   updateField<K extends keyof EditMovieForm>(field: K, value: string | number) {
@@ -149,7 +168,11 @@ export class EditMovieComponent {
     if (!current) return;
 
     let nextValue: EditMovieForm[K] = value as EditMovieForm[K];
-    if (field === 'rating' || field === 'timesWatched' || field === 'watchPriority') {
+    if (
+      field === 'rating' ||
+      field === 'timesWatched' ||
+      field === 'watchPriority'
+    ) {
       const asNumber = Number(value);
       nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditMovieForm[K];
     }
@@ -160,7 +183,10 @@ export class EditMovieComponent {
     });
   }
 
-  updateCheckbox(field: 'seenAtCinema' | 'owned' | 'wantToSeeAgain', checked: boolean) {
+  updateCheckbox(
+    field: 'seenAtCinema' | 'owned' | 'wantToSeeAgain',
+    checked: boolean
+  ) {
     const current = this.movieForm();
     if (!current) return;
     this.movieForm.set({
@@ -450,6 +476,7 @@ export class EditMovieComponent {
       saga: movie.saga || '',
       description: movie.description ?? '',
       countryOrigin: movie.countryOrigin ?? '',
+      fromEntity: movie.fromEntity ?? null,
     };
   }
 
@@ -467,7 +494,28 @@ export class EditMovieComponent {
       saga: form.saga,
       description: form.description ?? '',
       countryOrigin: form.countryOrigin ?? '',
+      fromEntity: form.fromEntity,
     };
+  }
+
+  onFromEntitySelect(value: string) {
+    const current = this.movieEntityForm();
+    if (!current) return;
+    if (!value.trim()) {
+      this.movieEntityForm.set({ ...current, fromEntity: null });
+      return;
+    }
+    const [title, secondEntityKey] = value.split('|');
+    if (title && secondEntityKey) {
+      this.movieEntityForm.set({
+        ...current,
+        fromEntity: {
+          entityType: 'book',
+          title: title.trim(),
+          secondEntityKey: secondEntityKey.trim(),
+        },
+      });
+    }
   }
 
   private canEditCurrentUser(): boolean {

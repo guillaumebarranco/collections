@@ -11,6 +11,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -36,6 +37,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -61,6 +63,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -86,6 +89,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: 'X-Men',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -103,6 +107,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: 'X-Men',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -121,6 +126,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: 'X-Men',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -134,6 +140,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: 'X-Men',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -146,6 +153,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -158,6 +166,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -174,6 +183,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: 'X-Men',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -192,6 +202,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -209,6 +220,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: 'X-Men',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -228,6 +240,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: 'X-Men',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -244,6 +257,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -261,6 +275,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -273,6 +288,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: 'Spider-Man',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -285,6 +301,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -297,6 +314,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -310,6 +328,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -322,6 +341,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -334,6 +354,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -346,6 +367,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -358,6 +380,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -370,6 +393,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -383,6 +407,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -395,6 +420,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -407,6 +433,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -419,6 +446,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -431,6 +459,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -443,6 +472,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
 ];

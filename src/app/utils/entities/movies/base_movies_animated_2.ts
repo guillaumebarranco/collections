@@ -11,6 +11,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Pixar',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -23,6 +24,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Fantasy',
     saga: 'Disney Classique',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -35,6 +37,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Romance',
     saga: 'Disney Classique',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -47,6 +50,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Short',
     saga: 'Disney Classique',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -60,6 +64,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Musical',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -73,6 +78,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Musical',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -85,6 +91,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Drama',
     saga: 'Disney Classique',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -97,6 +104,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Family',
     saga: 'Disney Classique',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -116,6 +124,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Musical',
     saga: 'Disney Classique',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -128,6 +137,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Fantasy',
     saga: 'Disney Classique',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -140,6 +150,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Fantasy',
     saga: 'Disney Classique',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -152,6 +163,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Romance',
     saga: 'Disney Classique',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -164,6 +176,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Disney Classique',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -176,6 +189,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -188,6 +202,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Ghibli',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -200,6 +215,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -211,7 +227,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       },
       {
         name: 'Ayano Shiraishi',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/19079741.webp',
     releaseDate: '1988-04-16',
@@ -219,6 +235,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, War',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -238,6 +255,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation',
     saga: 'Ghibli',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -250,6 +268,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Fantasy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -262,6 +281,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Fantasy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -274,6 +294,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Fantasy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -286,6 +307,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Musical',
     saga: 'Disney Classique',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -298,6 +320,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -310,6 +333,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Family, Comedy',
     saga: 'Disney Classique',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -322,6 +346,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -334,6 +359,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Fantasy',
     saga: 'Disney Classique',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -346,6 +372,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -358,6 +385,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Pixar',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -370,6 +398,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Musical',
     saga: 'Disney Classique',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -382,6 +411,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -394,6 +424,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Disney Classique',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -406,6 +437,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -418,6 +450,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Family',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -430,6 +463,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Musical',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -442,6 +476,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -454,6 +489,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -466,6 +502,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Disney Classique',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -478,6 +515,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Fantasy',
     saga: 'Ghibli',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -490,6 +528,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Fantasy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -502,6 +541,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Comedy',
     saga: 'Disney Classique',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -514,6 +554,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Disney Classique',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -526,6 +567,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Disney Classique',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -539,6 +581,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -551,6 +594,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Family',
     saga: 'Disney Classique',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -570,6 +614,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -582,6 +627,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Madagascar',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -595,6 +641,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Musical',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -607,6 +654,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Disney Classique',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -619,6 +667,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Comedy',
     saga: 'Madagascar',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -631,6 +680,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Fantasy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -643,6 +693,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Pixar',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -655,6 +706,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Fantasy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -666,7 +718,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       },
       {
         name: 'Ryunosuke Kamiki',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/19597854.webp',
     releaseDate: '2010-07-17',
@@ -674,6 +726,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Fantasy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -686,6 +739,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -698,6 +752,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -720,6 +775,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation',
     saga: 'Disney Classique',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -732,6 +788,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Action',
     saga: 'Kung Fu Panda',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -744,6 +801,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Shrek',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -756,6 +814,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -768,6 +827,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Comedy',
     saga: 'Pixar',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -780,6 +840,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Lego',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -792,6 +853,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: 'Disney Classique',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -804,6 +866,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Short',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -816,6 +879,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Fantasy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -828,6 +892,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation, Adventure',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Espagne',
   },
   {
@@ -845,6 +910,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation',
     saga: 'Shrek',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -857,6 +923,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -869,6 +936,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -881,6 +949,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation',
     saga: 'Pixar',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -892,7 +961,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       },
       {
         name: 'Oscar Tresanini',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/4bb40b414c1d86022f4031676a309432.webp',
     releaseDate: '2025-10-22',
@@ -900,6 +969,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: 'Animation',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
 ];

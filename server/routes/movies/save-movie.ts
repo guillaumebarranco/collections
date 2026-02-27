@@ -45,7 +45,8 @@ router.post('/', (req: any, res: any) => {
       owned: normalizeBoolean(input.owned, 'owned'),
       wantToSeeAgain: normalizeBoolean(input.wantToSeeAgain, 'wantToSeeAgain'),
       watchPriority: normalizeNumber(input.watchPriority, 'watchPriority'),
-      ratingComment: normalizeString(input.ratingComment, 'ratingComment') ?? '',
+      ratingComment:
+        normalizeString(input.ratingComment, 'ratingComment') ?? '',
     };
 
     const entityPayload = input.entity || null;
@@ -111,8 +112,27 @@ router.post('/', (req: any, res: any) => {
         length: normalizeNumber(entityPayload.length, 'length'),
         genre: normalizeString(entityPayload.genre, 'genre'),
         saga: normalizeString(entityPayload.saga, 'saga'),
-        description: normalizeString(entityPayload.description, 'description') ?? '',
-        countryOrigin: normalizeString(entityPayload.countryOrigin, 'countryOrigin') ?? '',
+        description:
+          normalizeString(entityPayload.description, 'description') ?? '',
+        countryOrigin:
+          normalizeString(entityPayload.countryOrigin, 'countryOrigin') ?? '',
+        fromEntity:
+          entityPayload.fromEntity === null ||
+          entityPayload.fromEntity === undefined
+            ? null
+            : typeof entityPayload.fromEntity === 'object' &&
+              entityPayload.fromEntity?.title != null &&
+              entityPayload.fromEntity?.secondEntityKey != null
+            ? {
+                entityType: String(
+                  entityPayload.fromEntity.entityType || 'book'
+                ),
+                title: String(entityPayload.fromEntity.title),
+                secondEntityKey: String(
+                  entityPayload.fromEntity.secondEntityKey
+                ),
+              }
+            : undefined,
       });
 
       if (originalTitle || originalDirector) {

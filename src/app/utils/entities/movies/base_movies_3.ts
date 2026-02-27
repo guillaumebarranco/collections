@@ -12,6 +12,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Action',
     saga: 'Kingsman',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Royaume-Uni',
   },
   {
@@ -28,6 +29,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Action',
     saga: 'Kingsman',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -47,6 +49,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Action, Espionnage',
     saga: 'Kingsman',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -59,6 +62,11 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Death Note',
+      secondEntityKey: 'Tsugumi Ohba',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -71,6 +79,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -79,7 +88,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     actors: [
       {
         name: 'Dane DeHaan',
-      }
+      },
     ],
     coverUrl:
       '/movies_pictures/269458-valerian-and-the-city-of-a-thousand-planets-0-150-0-225-crop.jpg',
@@ -88,6 +97,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -100,6 +110,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -112,6 +123,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -124,6 +136,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -137,6 +150,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -156,6 +170,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -168,6 +183,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -180,6 +196,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -192,6 +209,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Horror',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -205,6 +223,11 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Action',
     saga: 'Le Labyrinthe',
     description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le Labyrinthe',
+      secondEntityKey: 'James Dashner',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -217,6 +240,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -229,6 +253,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -241,6 +266,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -253,6 +279,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Crime',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -265,6 +292,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -277,6 +305,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -293,6 +322,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -305,6 +335,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -327,6 +358,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -338,7 +370,7 @@ export const baseMoviesPage3: BaseMovie[] = [
       },
       {
         name: 'Morgan Freeman',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/168860-lucy-0-150-0-225-crop.jpg',
     releaseDate: '2014-07-25',
@@ -346,6 +378,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -358,6 +391,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -370,6 +404,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -382,6 +417,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -394,6 +430,11 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
     description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'La guerre des mondes',
+      secondEntityKey: 'H.G. Wells',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -406,6 +447,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -418,6 +460,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -430,6 +473,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -443,6 +487,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Crime',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -455,6 +500,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Romance',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -467,6 +513,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -479,6 +526,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -491,6 +539,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -503,6 +552,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Drama',
     saga: 'Karate Kid',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -515,6 +565,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Crime',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -527,6 +578,11 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'The Dead Zone',
+      secondEntityKey: 'Stephen King',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -539,6 +595,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -551,6 +608,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -563,6 +621,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -575,6 +634,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -587,6 +647,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -599,6 +660,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -611,6 +673,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -623,6 +686,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -635,6 +699,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -648,6 +713,11 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Adventure',
     saga: '',
     description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Voyage au Centre de la Terre',
+      secondEntityKey: 'Jules Verne',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -664,6 +734,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -676,6 +747,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -688,6 +760,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -700,6 +773,11 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'La vague',
+      secondEntityKey: 'Todd Strasser',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -712,6 +790,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -724,6 +803,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -736,6 +816,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -748,6 +829,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Horror',
     saga: 'Paranormal Activity',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -766,6 +848,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Crime',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -778,6 +861,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -790,6 +874,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Horror',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -802,6 +887,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -824,6 +910,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Crime',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -836,6 +923,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Horror',
     saga: '28... plus tard',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Espagne',
   },
   {
@@ -848,6 +936,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -860,6 +949,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -872,6 +962,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -884,6 +975,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Crime',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -896,6 +988,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -908,6 +1001,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -920,6 +1014,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -932,6 +1027,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Royaume-Uni',
   },
   {
@@ -944,6 +1040,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Adventure',
     saga: 'Jumanji',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -961,6 +1058,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Crime',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -973,6 +1071,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -986,6 +1085,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -998,6 +1098,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1010,6 +1111,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Crime',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1022,6 +1124,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1035,6 +1138,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -1048,6 +1152,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1060,6 +1165,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -1077,6 +1183,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1089,6 +1196,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1101,6 +1209,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Crime',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1113,6 +1222,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -1125,6 +1235,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1137,6 +1248,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1149,6 +1261,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1161,6 +1274,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1173,6 +1287,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1190,6 +1305,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Action',
     saga: 'Expandables',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1202,6 +1318,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1214,6 +1331,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -1226,6 +1344,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1238,6 +1357,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1251,6 +1371,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Fantasy',
     saga: 'Disney Live Action',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1263,6 +1384,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1276,6 +1398,11 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Fantasy',
     saga: '',
     description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le Voleur de foudre',
+      secondEntityKey: 'Rick Riordan',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -1292,6 +1419,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1304,6 +1432,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -1316,6 +1445,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1328,6 +1458,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Action',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1340,6 +1471,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Comedy',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1352,6 +1484,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Drama',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1364,6 +1497,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
 ];

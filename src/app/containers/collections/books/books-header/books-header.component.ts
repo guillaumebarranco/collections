@@ -39,13 +39,11 @@ export class BooksHeaderComponent {
   onYearFilterChange = output<string>();
   onSearchChange = output<string>();
   onSortChange = output<string>();
-  onGroupByChange = output<string>();
   onTopFiveRankChange = output<void>();
 
   selectedView = input<BookView>('read');
   selectedSortInput = input<string>('readDate');
   selectedYearFilterInput = input<string>('all');
-  selectedGroupByInput = input<string>('none');
   searchTermInput = input<string>('');
   allBooksCount = input<number>(0);
   filteredBooksCount = input<number>(0);
@@ -54,7 +52,6 @@ export class BooksHeaderComponent {
   showFiltersAndSearch = input<boolean>(true);
   sortOptions = input<SortOption[]>([]);
   yearFilterOptions = input<SortOption[]>([]);
-  groupByOptions = input<SortOption[]>([]);
   viewOptions = input<
     {
       value: BookView;
@@ -69,7 +66,6 @@ export class BooksHeaderComponent {
 
   selectedSort = signal<string>('readDate');
   selectedYearFilter = signal<string>('all');
-  selectedGroupBy = signal<string>('none');
   searchTerm = signal<string>('');
 
   constructor() {
@@ -79,9 +75,6 @@ export class BooksHeaderComponent {
     });
     effect(() => {
       this.selectedYearFilter.set(this.selectedYearFilterInput());
-    });
-    effect(() => {
-      this.selectedGroupBy.set(this.selectedGroupByInput());
     });
     effect(() => {
       this.searchTerm.set(this.searchTermInput());

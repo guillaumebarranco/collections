@@ -57,6 +57,7 @@ import { AdminMangasComponent } from './containers/admin-collections/mangas/mang
 import { AdminManwhasComponent } from './containers/admin-collections/manwhas/manwhas.component';
 import { AdminComicsComponent } from './containers/admin-collections/comics/comics.component';
 import { AdminBdsComponent } from './containers/admin-collections/bds/bds.component';
+import { MixComponent } from './containers/mix/mix.component';
 
 export const routes: Routes = [
   {
@@ -137,6 +138,10 @@ export const routes: Routes = [
   {
     path: 'musics',
     component: MusicsComponent,
+  },
+  {
+    path: 'mix',
+    component: MixComponent,
   },
   {
     path: 'select-movies',
@@ -361,6 +366,10 @@ export const routes: Routes = [
       {
         path: 'musics',
         component: MusicsComponent,
+      },
+      {
+        path: 'mix',
+        component: MixComponent,
       },
       {
         path: 'select-movies',

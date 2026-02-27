@@ -12,7 +12,6 @@
     [selectedView]="selectedView()"
     [selectedSortInput]="selectedSort()"
     [selectedYearFilterInput]="selectedYearFilter()"
-    [selectedGroupByInput]="selectedGroupBy()"
     [searchTermInput]="searchTerm()"
     [filteredBooksCount]="filteredBooks().length"
     [recommendedBooksCount]="recommendedBooks().length"
@@ -23,13 +22,11 @@
     [viewOptions]="visibleViewOptions()"
     [sortOptions]="sortOptions()"
     [yearFilterOptions]="yearFilterOptions"
-    [groupByOptions]="groupByOptions"
     (onViewChange)="onViewChange($any($event))"
     (onOpenViewConfig)="openViewConfig()"
     (onYearFilterChange)="onYearFilterChange($event)"
     (onSearchChange)="onSearchChange($event)"
     (onSortChange)="onSortChange($event)"
-    (onGroupByChange)="onGroupByChangeFromHeader($event)"
     (onTopFiveRankChange)="toggleTopFiveRankDisplay()"
   ></app-books-header>
 
@@ -85,10 +82,9 @@
       @for (authorGroup of booksByAuthor(); track authorGroup.author) {
       <section class="books-author-section">
         <h2 class="books-author-title">
-          {{ authorGroup.author }} ({{
-            authorGroup.readBooks.length
+          {{ authorGroup.author }} ({{ authorGroup.readBooks.length }} lus) ({{
+            authorGroup.missingBooks.length
           }}
-          lus) ({{ authorGroup.missingBooks.length }}
           restants à lire)
         </h2>
         <div class="books">
@@ -133,10 +129,9 @@
       @for (sagaGroup of booksBySaga(); track sagaGroup.saga) {
       <section class="books-author-section">
         <h2 class="books-author-title">
-          {{ sagaGroup.saga }} ({{
-            sagaGroup.readBooks.length
+          {{ sagaGroup.saga }} ({{ sagaGroup.readBooks.length }} lus) ({{
+            sagaGroup.missingBooks.length
           }}
-          lus) ({{ sagaGroup.missingBooks.length }}
           restants à lire) @if(sagaGroup.isSagaFinished) {
           <span style="color: green">Saga terminée</span>
           } @else {
@@ -192,10 +187,8 @@
           <span class="books-author-title-chevron">▶</span>
           } @else {
           <span class="books-author-title-chevron">▼</span>
-          } {{ countryGroup.country }} ({{
-            countryGroup.readBooks.length
-          }}
-          lus) ({{ countryGroup.missingBooks.length }}
+          } {{ countryGroup.country }} ({{ countryGroup.readBooks.length }} lus)
+          ({{ countryGroup.missingBooks.length }}
           restants à lire)
         </h2>
         @if (!isCountryCollapsed(countryGroup.country)) {
@@ -236,31 +229,6 @@
       </section>
       }
     </div>
-    } @else { @if(groupedBooks()) { Groupement activé, le tri ne sera pas pris
-    en compte. } @if (groupedBooks()) {
-    <div class="books-groups">
-      @for (group of groupedBooks(); track group.key) {
-      <h2>{{ group.key }} ({{ group.books.length }})</h2>
-      <div class="books">
-        @for (book of group.books; track book.title) {
-        <div class="book-card">
-          <app-book
-            [book]="book"
-            [quizzs]="quizzs()"
-            [showTopFiveSelector]="showTopFiveRank()"
-            [selectedView]="selectedView()"
-            [topFiveRank]="getTopFiveRank(book)"
-            (editRequested)="openEditBookDialog(book)"
-            (openQuizz)="openQuizzModal($event)"
-            (topFiveRankChange)="onTopFiveRankChange(book, $event)"
-            (wantToReRead)="markBookAsWantToReRead($event)"
-            (haveReRead)="markBookAsReRead($event)"
-          ></app-book>
-        </div>
-        }
-      </div>
-      }
-    </div>
     } @else {
     <div class="books">
       @for (book of sortedBooks(); track book.title) {
@@ -283,7 +251,7 @@
       </div>
       }
     </div>
-    } } }
+    } }
   </div>
 </div>
 
@@ -320,7 +288,9 @@
         <input
           type="checkbox"
           [checked]="optionalViewConfig().toReRead"
-          (change)="onOptionalViewChange('toReRead', $any($event.target).checked)"
+          (change)="
+            onOptionalViewChange('toReRead', $any($event.target).checked)
+          "
         />
         Livres à relire
       </label>
@@ -328,7 +298,9 @@
         <input
           type="checkbox"
           [checked]="optionalViewConfig().authors"
-          (change)="onOptionalViewChange('authors', $any($event.target).checked)"
+          (change)="
+            onOptionalViewChange('authors', $any($event.target).checked)
+          "
         />
         Voir par auteurs
       </label>
@@ -344,7 +316,9 @@
         <input
           type="checkbox"
           [checked]="optionalViewConfig().countries"
-          (change)="onOptionalViewChange('countries', $any($event.target).checked)"
+          (change)="
+            onOptionalViewChange('countries', $any($event.target).checked)
+          "
         />
         Voir par pays
       </label>
@@ -352,7 +326,9 @@
         <input
           type="checkbox"
           [checked]="optionalViewConfig().recommendations"
-          (change)="onOptionalViewChange('recommendations', $any($event.target).checked)"
+          (change)="
+            onOptionalViewChange('recommendations', $any($event.target).checked)
+          "
         />
         Recommandations
       </label>

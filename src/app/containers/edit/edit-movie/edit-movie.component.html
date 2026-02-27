@@ -26,7 +26,7 @@
       <p><strong>Réalisateur :</strong> {{ movie()?.director }}</p>
       @if (movie()?.genre) {
       <p><strong>Genre :</strong> {{ movie()?.genre }}</p>
-      }       @if (movie()?.saga) {
+      } @if (movie()?.saga) {
       <p><strong>Saga :</strong> {{ movie()?.saga }}</p>
       } @if (movie()?.countryOrigin) {
       <p><strong>Nationalité :</strong> {{ movie()?.countryOrigin }}</p>
@@ -38,6 +38,12 @@
       <p><strong>Acteurs :</strong> {{ getActorsLabel(movie()?.actors) }}</p>
       } @if (movie()?.description) {
       <p><strong>Description :</strong> {{ movie()?.description }}</p>
+      } @if (movie()?.fromEntity) {
+      <p>
+        <strong>Adapté de :</strong> {{ movie()?.fromEntity?.title }} ({{
+          movie()?.fromEntity?.secondEntityKey
+        }})
+      </p>
       }
     </div>
     <br />
@@ -281,6 +287,23 @@
         name="entityDescription"
         placeholder="Optionnel"
       ></textarea>
+    </div>
+
+    <div class="form-row">
+      <label for="entityFromEntity">Livre source (adaptation)</label>
+      <select
+        id="entityFromEntity"
+        name="entityFromEntity"
+        [ngModel]="fromEntitySelectValue()"
+        (ngModelChange)="onFromEntitySelect($event)"
+      >
+        <option value="">Aucun</option>
+        @for (book of baseBooks(); track book.title + '|' + book.author) {
+        <option [value]="book.title + '|' + book.author">
+          {{ book.title }} — {{ book.author }}
+        </option>
+        }
+      </select>
     </div>
     }
 

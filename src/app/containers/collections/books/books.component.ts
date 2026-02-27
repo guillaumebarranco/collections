@@ -29,7 +29,6 @@ import {
   getBooksBySaga,
   getBooksSortOptions,
   getSortedBooks,
-  groupByOptions,
   yearFilterOptions,
 } from './books.utils';
 
@@ -85,7 +84,6 @@ type RecommendedBook = Book & {
 export class BooksComponent implements OnInit {
   selectedSort = signal<string>('readDate');
   selectedYearFilter = signal<string>('all');
-  selectedGroupBy = signal<string>('none');
   selectedView = signal<BookView>('read');
   searchTerm = signal<string>('');
   isQuizzModalOpen = signal<boolean>(false);
@@ -121,8 +119,6 @@ export class BooksComponent implements OnInit {
   collapsedCountries = signal<Record<string, boolean>>({});
 
   yearFilterOptions = yearFilterOptions;
-
-  groupByOptions = groupByOptions;
 
   viewOptions = bookViewOptions;
 
@@ -164,12 +160,6 @@ export class BooksComponent implements OnInit {
         queryParams.year = null;
       }
 
-      if (this.selectedGroupBy() !== 'none') {
-        queryParams.groupBy = this.selectedGroupBy();
-      } else {
-        queryParams.groupBy = null;
-      }
-
       this.router.navigate([], {
         relativeTo: this.activatedRoute,
         queryParams: Object.keys(queryParams).length > 0 ? queryParams : {},
@@ -184,7 +174,6 @@ export class BooksComponent implements OnInit {
         view: this.selectedView(),
         sort: this.selectedSort(),
         year: this.selectedYearFilter(),
-        groupBy: this.selectedGroupBy(),
       };
       this.localStorageService.setItem(
         this.viewPreferencesStorageKey,
@@ -274,15 +263,6 @@ export class BooksComponent implements OnInit {
         this.selectedYearFilter.set(queryParams['year']);
       }
     }
-
-    if (queryParams['groupBy']) {
-      const validGroupBy = this.groupByOptions.find(
-        (opt) => opt.value === queryParams['groupBy']
-      );
-      if (validGroupBy) {
-        this.selectedGroupBy.set(queryParams['groupBy']);
-      }
-    }
   }
 
   openViewConfig(): void {
@@ -330,7 +310,6 @@ export class BooksComponent implements OnInit {
         view: BookView;
         sort: string;
         year: string;
-        groupBy: string;
       }>
     >(this.viewPreferencesStorageKey);
     if (!parsed || typeof parsed !== 'object') return;
@@ -352,12 +331,6 @@ export class BooksComponent implements OnInit {
       this.yearFilterOptions.some((opt) => opt.value === parsed.year)
     ) {
       this.selectedYearFilter.set(parsed.year);
-    }
-    if (
-      parsed.groupBy &&
-      this.groupByOptions.some((opt) => opt.value === parsed.groupBy)
-    ) {
-      this.selectedGroupBy.set(parsed.groupBy);
     }
     this.isLoadingPreferences = false;
   }
@@ -445,34 +418,6 @@ export class BooksComponent implements OnInit {
       : getSortedBooks([...this.filteredBooksByYear()], this.selectedSort())
   );
 
-  groupedBooks = computed(() => {
-    if (
-      this.selectedView() === 'authors' ||
-      this.selectedView() === 'sagas' ||
-      this.selectedView() === 'countries'
-    ) {
-      return null;
-    }
-    if (this.selectedGroupBy() === 'none') {
-      return null;
-    }
-    const groups: { key: string; books: Book[] }[] = [];
-    const map = new Map<string, Book[]>();
-    for (const book of this.filteredBooksByYear()) {
-      let key = '';
-      if (this.selectedGroupBy() === 'author') key = book.author;
-      else if (this.selectedGroupBy() === 'genre') key = book.genre;
-      if (!map.has(key)) map.set(key, []);
-      map.get(key)!.push(book);
-    }
-    for (const [key, books] of map.entries()) {
-      groups.push({ key, books });
-    }
-    // Tri des groupes par nombre de livres
-    groups.sort((a, b) => b.books.length - a.books.length);
-    return groups;
-  });
-
   stats = computed<StatItem[]>(() => {
     // Utiliser les livres filtrés pour les stats
     const booksToUse = this.filteredBooksByYear();
@@ -534,22 +479,11 @@ export class BooksComponent implements OnInit {
     this.selectedYearFilter.set(year);
   }
 
-  onGroupByChange(groupBy: string) {
-    this.selectedGroupBy.set(groupBy);
-  }
-
   onViewChange(view: BookView) {
     this.selectedView.set(view);
-    if (view === 'authors' || view === 'sagas' || view === 'countries') {
-      this.selectedGroupBy.set('none');
-    }
     if (view === 'recommendations') {
       void this.loadRecommendations();
     }
-  }
-
-  onGroupByChangeFromHeader(groupBy: string) {
-    this.selectedGroupBy.set(groupBy);
   }
 
   onSearchChange(value: string) {
