@@ -1,4 +1,12 @@
-import { Component, computed, inject, signal, OnInit } from '@angular/core';
+import {
+  Component,
+  computed,
+  effect,
+  inject,
+  signal,
+  OnInit,
+} from '@angular/core';
+import { toSignal } from '@angular/core/rxjs-interop';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../components/menu/menu.component';
 import {
@@ -75,6 +83,7 @@ import {
   type FollowsModalData,
 } from '../../components/follows-modal/follows-modal.component';
 import { FollowsService } from '../../services/follows.service';
+import { ImpersonateService } from '../../services/impersonate.service';
 import type { TopFiveEntityType } from '../../models/top-five-model';
 import {
   findEntityByKey,
@@ -134,6 +143,7 @@ export class DashboardComponent implements OnInit {
   badgesService = inject(BadgesService);
   private readonly dialog = inject(MatDialog);
   private readonly followsService = inject(FollowsService);
+  private readonly impersonateService = inject(ImpersonateService);
 
   filledUserId = signal<string>('');
   selectedTab = signal<
@@ -177,26 +187,28 @@ export class DashboardComponent implements OnInit {
   musicsList = signal<{ [key: string]: Music[] }>({});
   readlistMangasList = signal<{ [key: string]: Manga[] }>({});
 
+  /** Paramètres de la route en réactif pour que le contenu se mette à jour au changement d'URL (ex. clic "voir le profil"). */
+  private routeParams = toSignal(this.activatedRoute.params, {
+    initialValue: this.activatedRoute.snapshot.params as Params,
+  });
+
   userId = computed<string>(() => {
-    const params: Params = this.activatedRoute.snapshot.params;
+    const params = this.routeParams();
 
     if (params['id']) {
       return params['id'];
     }
-
-    console.log(this.authService.isAuthenticated());
-    console.log(this.authService.getAuthenticatedUserId());
 
     if (this.authService.isAuthenticated()) {
       this.router.navigate(['/', this.authService.getAuthenticatedUserId()]);
       return '';
     }
 
-    return null;
+    return '';
   });
 
   allBooks = computed<Book[]>(() => {
-    const params: Params = this.activatedRoute.snapshot.params;
+    const params: Params = this.routeParams();
     const hasNameParam = params['id'] !== undefined;
 
     return hasNameParam
@@ -207,7 +219,7 @@ export class DashboardComponent implements OnInit {
   });
 
   allMovies = computed<Movie[]>(() => {
-    const params: Params = this.activatedRoute.snapshot.params;
+    const params: Params = this.routeParams();
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
       ? Boolean(this.moviesList()[this.userId()])
@@ -217,7 +229,7 @@ export class DashboardComponent implements OnInit {
   });
 
   allWatchlistMovies = computed<Movie[]>(() => {
-    const params: Params = this.activatedRoute.snapshot.params;
+    const params: Params = this.routeParams();
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
       ? Boolean(this.watchlistMoviesList()[this.userId()])
@@ -227,7 +239,7 @@ export class DashboardComponent implements OnInit {
   });
 
   allSeries = computed<Serie[]>(() => {
-    const params: Params = this.activatedRoute.snapshot.params;
+    const params: Params = this.routeParams();
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
       ? Boolean(this.seriesList()[this.userId()])
@@ -237,7 +249,7 @@ export class DashboardComponent implements OnInit {
   });
 
   allWatchlistSeries = computed<Serie[]>(() => {
-    const params: Params = this.activatedRoute.snapshot.params;
+    const params: Params = this.routeParams();
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
       ? Boolean(this.watchlistSeriesList()[this.userId()])
@@ -247,7 +259,7 @@ export class DashboardComponent implements OnInit {
   });
 
   allGames = computed<Game[]>(() => {
-    const params: Params = this.activatedRoute.snapshot.params;
+    const params: Params = this.routeParams();
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
       ? Boolean(this.gamesList()[this.userId()])
@@ -257,7 +269,7 @@ export class DashboardComponent implements OnInit {
   });
 
   allMangas = computed<Manga[]>(() => {
-    const params: Params = this.activatedRoute.snapshot.params;
+    const params: Params = this.routeParams();
     const hasNameParam = params['id'] !== undefined;
 
     return hasNameParam
@@ -268,7 +280,7 @@ export class DashboardComponent implements OnInit {
   });
 
   allComics = computed<Comic[]>(() => {
-    const params: Params = this.activatedRoute.snapshot.params;
+    const params: Params = this.routeParams();
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
       ? Boolean(this.comicsList()[this.userId()])
@@ -278,7 +290,7 @@ export class DashboardComponent implements OnInit {
   });
 
   allBds = computed<Bd[]>(() => {
-    const params: Params = this.activatedRoute.snapshot.params;
+    const params: Params = this.routeParams();
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
       ? Boolean(this.bdsList()[this.userId()])
@@ -288,7 +300,7 @@ export class DashboardComponent implements OnInit {
   });
 
   allReadlistMangas = computed<Manga[]>(() => {
-    const params: Params = this.activatedRoute.snapshot.params;
+    const params: Params = this.routeParams();
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
       ? Boolean(this.readlistMangasList()[this.userId()])
@@ -298,7 +310,7 @@ export class DashboardComponent implements OnInit {
   });
 
   allManwhas = computed<Manwha[]>(() => {
-    const params: Params = this.activatedRoute.snapshot.params;
+    const params: Params = this.routeParams();
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
       ? Boolean(this.manwhasList()[this.userId()])
@@ -308,7 +320,7 @@ export class DashboardComponent implements OnInit {
   });
 
   allReadlistManwhas = computed<Manwha[]>(() => {
-    const params: Params = this.activatedRoute.snapshot.params;
+    const params: Params = this.routeParams();
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
       ? Boolean(this.readlistManwhasList()[this.userId()])
@@ -318,7 +330,7 @@ export class DashboardComponent implements OnInit {
   });
 
   allMusics = computed<Music[]>(() => {
-    const params: Params = this.activatedRoute.snapshot.params;
+    const params: Params = this.routeParams();
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
       ? Boolean(this.musicsList()[this.userId()])
@@ -328,7 +340,7 @@ export class DashboardComponent implements OnInit {
   });
 
   allReadlistBooks = computed<Book[]>(() => {
-    const params: Params = this.activatedRoute.snapshot.params;
+    const params: Params = this.routeParams();
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
       ? Boolean(this.readlistBooksList()[this.userId()])
@@ -338,7 +350,7 @@ export class DashboardComponent implements OnInit {
   });
 
   allReadlistComics = computed<Comic[]>(() => {
-    const params: Params = this.activatedRoute.snapshot.params;
+    const params: Params = this.routeParams();
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
       ? Boolean(this.readlistComicsList()[this.userId()])
@@ -348,7 +360,7 @@ export class DashboardComponent implements OnInit {
   });
 
   allReadlistBds = computed<Bd[]>(() => {
-    const params: Params = this.activatedRoute.snapshot.params;
+    const params: Params = this.routeParams();
     const hasNameParam = params['id'] !== undefined;
     return hasNameParam
       ? Boolean(this.readlistBdsList()[this.userId()])
@@ -732,20 +744,33 @@ export class DashboardComponent implements OnInit {
   }
 
   goToOwnDashboard(): void {
-    const uid = this.userId();
-    if (!uid) return;
-    this.router.navigate([uid]);
+    this.impersonateService.clearImpersonation();
+    const ownId = this.authService.getAuthenticatedUserId();
+    if (ownId) {
+      this.router.navigate([`/${ownId.toLowerCase()}/dashboard`]);
+    }
+  }
+
+  constructor() {
+    // Recharger les données à chaque changement d'utilisateur (navigation "voir le profil" ou premier chargement).
+    effect(() => {
+      const uid = this.userId();
+      if (!uid) return;
+      this.topFiveService.loadFromApi(uid);
+      this.badgesService.loadFromApi(uid);
+      if (this.isOwnUserDashboard()) {
+        void this.followsService.loadFromApi(uid);
+      }
+      void this.loadAllDashboardData();
+    });
   }
 
   ngOnInit() {
     this.topFiveService.loadFromStorage();
     this.badgesService.loadFromStorage();
-    const uid = this.userId() || DEFAULT_USER_ID;
-    this.topFiveService.loadFromApi(uid);
-    this.badgesService.loadFromApi(uid);
-    if (this.isOwnUserDashboard()) {
-      void this.followsService.loadFromApi(uid);
-    }
+  }
+
+  private loadAllDashboardData(): void {
     this.loadMoviesData();
     this.loadWatchlistMoviesData();
     this.loadBooksData();

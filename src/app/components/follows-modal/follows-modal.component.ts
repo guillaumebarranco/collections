@@ -7,6 +7,7 @@ import {
   MatDialogRef,
 } from '@angular/material/dialog';
 import { FollowsService } from '../../services/follows.service';
+import { ImpersonateService } from '../../services/impersonate.service';
 import { getUsersListFromApi } from '../../facades/follows/follows.facade';
 
 export type FollowsModalData = {
@@ -27,6 +28,7 @@ export class FollowsModalComponent implements OnInit {
     optional: true,
   });
   private readonly followsService = inject(FollowsService);
+  private readonly impersonateService = inject(ImpersonateService);
 
   readonly userId = signal<string>(this.data?.userId ?? '');
   readonly allUsers = signal<string[]>([]);
@@ -90,7 +92,12 @@ export class FollowsModalComponent implements OnInit {
     }
   }
 
-  seeProfilAndClose() {
+  /** Ouvre le profil de l'utilisateur et active l'impersonation (menu restera sur ce profil). */
+  seeProfilAndClose(username: string): void {
+    const targetId = username.trim().toLowerCase();
+    if (targetId) {
+      this.impersonateService.setImpersonation(targetId);
+    }
     this.close();
   }
 

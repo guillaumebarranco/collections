@@ -12,6 +12,7 @@ import { AuthService } from '../../core/auth.service';
 import { DEFAULT_USER_ID } from '../../utils/constants';
 import { MenuConfigService } from '../../core/menu-config.service';
 import { MenuConfigModalComponent } from '../menu-config-modal/menu-config-modal.component';
+import { ImpersonateService } from '../../services/impersonate.service';
 
 @Component({
   selector: 'app-menu',
@@ -30,12 +31,22 @@ export class MenuComponent implements OnInit {
   router = inject(Router);
   authService = inject(AuthService);
   menuConfig = inject(MenuConfigService);
+  impersonateService = inject(ImpersonateService);
   private readonly dialog = inject(MatDialog);
 
+  /** Utilisateur dont on affiche le contexte (impersonation ou route ou connecté). */
+  effectiveUserId = computed(() => {
+    const impersonated = this.impersonateService.impersonatedUserId();
+    if (impersonated) return impersonated;
+    const routeId = this.getRouteIdFromRouter();
+    if (routeId) return routeId;
+    const auth = this.authService.getAuthenticatedUserId?.() ?? this.authService.userId();
+    return auth ?? DEFAULT_USER_ID;
+  });
+
   currentUser = computed(() => {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
-    return hasNameParam ? this.capitalizeFirstLetter(params['id']) : '';
+    const uid = this.effectiveUserId();
+    return uid ? this.capitalizeFirstLetter(uid) : '';
   });
 
   authenticatedUser = computed(() => {
@@ -51,90 +62,27 @@ export class MenuComponent implements OnInit {
     return this.authService.isAdmin();
   }
 
+  /** Retour sur son propre dashboard et arrêt de l'impersonation. */
   goToDashboard(): void {
-    this.router.navigate([
-      `/${this.authenticatedUser().toLowerCase()}/dashboard`,
-    ]);
+    this.impersonateService.clearImpersonation();
+    const authId =
+      this.authService.getAuthenticatedUserId?.() ?? this.authService.userId();
+    const uid = authId ? String(authId).toLowerCase() : DEFAULT_USER_ID;
+    this.router.navigate([`/${uid}/dashboard`]);
   }
 
   menuItems = [
-    {
-      label: 'Home',
-      route: this.getRoute('dashboard'),
-      icon: '📊',
-      key: 'dashboard',
-      hideOnMobile: false,
-    },
-    {
-      label: 'Livres',
-      route: this.getRoute('books'),
-      icon: '📚',
-      key: 'books',
-      hideOnMobile: false,
-    },
-    {
-      label: 'Films',
-      route: this.getRoute('movies'),
-      icon: '🎬',
-      key: 'movies',
-      hideOnMobile: false,
-    },
-    {
-      label: 'Séries',
-      route: this.getRoute('series'),
-      icon: '📺',
-      key: 'series',
-      hideOnMobile: false,
-    },
-    {
-      label: 'Jeux',
-      route: this.getRoute('games'),
-      icon: '🎮',
-      key: 'games',
-      hideOnMobile: false,
-    },
-    {
-      label: 'Mangas',
-      route: this.getRoute('mangas'),
-      icon: '📖',
-      key: 'mangas',
-      hideOnMobile: false,
-    },
-    {
-      label: 'Manwhas',
-      route: this.getRoute('manwhas'),
-      icon: '🎨',
-      key: 'manwhas',
-      hideOnMobile: true,
-    },
-    {
-      label: 'Comics',
-      route: this.getRoute('comics'),
-      icon: '🦸',
-      key: 'comics',
-      hideOnMobile: false,
-    },
-    {
-      label: 'BD',
-      route: this.getRoute('bds'),
-      icon: '📗',
-      key: 'bds',
-      hideOnMobile: false,
-    },
-    {
-      label: 'Musiques',
-      route: this.getRoute('musics'),
-      icon: '🎵',
-      key: 'musics',
-      hideOnMobile: false,
-    },
-    {
-      label: 'Mix',
-      route: this.getRoute('mix'),
-      icon: '🔀',
-      key: 'mix',
-      hideOnMobile: false,
-    },
+    { label: 'Home', icon: '📊', key: 'dashboard', hideOnMobile: false },
+    { label: 'Livres', icon: '📚', key: 'books', hideOnMobile: false },
+    { label: 'Films', icon: '🎬', key: 'movies', hideOnMobile: false },
+    { label: 'Séries', icon: '📺', key: 'series', hideOnMobile: false },
+    { label: 'Jeux', icon: '🎮', key: 'games', hideOnMobile: false },
+    { label: 'Mangas', icon: '📖', key: 'mangas', hideOnMobile: false },
+    { label: 'Manwhas', icon: '🎨', key: 'manwhas', hideOnMobile: true },
+    { label: 'Comics', icon: '🦸', key: 'comics', hideOnMobile: false },
+    { label: 'BD', icon: '📗', key: 'bds', hideOnMobile: false },
+    { label: 'Musiques', icon: '🎵', key: 'musics', hideOnMobile: false },
+    { label: 'Mix', icon: '🔀', key: 'mix', hideOnMobile: false },
   ];
 
   ngOnInit() {
@@ -142,18 +90,23 @@ export class MenuComponent implements OnInit {
   }
 
   getRoute(route: string): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    const hasNameParam = params['id'] !== undefined;
     const isAdminView = this.router.url.startsWith('/admin');
-
     if (isAdminView) {
       return route === 'dashboard' ? '/admin' : `/admin/${route}`;
     }
+    const uid = this.effectiveUserId();
+    return `/${uid}/${route}`;
+  }
 
-    if (hasNameParam) {
-      return `/${params['id']}/${route}`;
+  /** Récupère l'id utilisateur depuis l'arbre des routes (ex. :id dans l'URL). */
+  private getRouteIdFromRouter(): string | null {
+    let route: ActivatedRoute | null = this.router.routerState.root;
+    while (route) {
+      const id = route.snapshot.params['id'];
+      if (id) return id;
+      route = route.firstChild;
     }
-    return `/${DEFAULT_USER_ID}/${route}`;
+    return null;
   }
 
   @HostListener('window:resize')
@@ -232,7 +185,9 @@ export class MenuComponent implements OnInit {
   }
 
   isReadingMenuActive(): boolean {
-    return this.readingMenuItems.some((item) => this.isActive(item.route));
+    return this.readingMenuItems.some((item) =>
+      this.isActive(this.getRoute(item.key))
+    );
   }
 
   toggleUserMenu(): void {

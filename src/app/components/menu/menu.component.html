@@ -1,17 +1,17 @@
 <nav class="menu">
   <div class="menu-container">
-    <div class="menu-logo" [routerLink]="[getRoute('dashboard')]">
+    <a class="menu-logo" [routerLink]="getRoute('dashboard')">
       <span class="logo-text">Makya</span>
       <img src="/logo.png" alt="Makya" class="logo-image" />
-    </div>
+    </a>
 
     <div class="menu-items">
       @for (item of primaryMenuItems; let i = $index; track item.label) {
       <button
         class="menu-item"
-        [class.active]="isActive(item.route)"
+        [class.active]="isActive(getRoute(item.key))"
         [class.hide-on-mobile]="i > 3"
-        (click)="navigateTo(item.route)"
+        (click)="navigateTo(getRoute(item.key))"
       >
         <span class="menu-icon">{{ item.icon }}</span>
         <span class="menu-label">{{ item.label }}</span>
@@ -32,7 +32,7 @@
           @for (item of readingMenuItems; track item.label) {
           <button
             class="menu-subitem"
-            (click)="navigateTo(item.route); closeReadingMenu()"
+            (click)="navigateTo(getRoute(item.key)); closeReadingMenu()"
           >
             <span class="menu-icon">{{ item.icon }}</span>
             <span class="menu-label">{{ item.label }}</span>
