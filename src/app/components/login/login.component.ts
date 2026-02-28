@@ -6,6 +6,9 @@ import { AuthService } from '../../core/auth.service';
 
 type LoginMode = 'login' | 'register';
 
+/** Nom d'utilisateur valide à la création : uniquement minuscules (a-z) et chiffres, sans espace ni caractère spécial. */
+const USERNAME_REGISTER_PATTERN = /^[a-z0-9]+$/;
+
 @Component({
   selector: 'app-login',
   standalone: true,
@@ -33,12 +36,31 @@ export class LoginComponent {
     this.errorMessage.set('');
   }
 
+  /** Message d'erreur sur le champ username en mode inscription (espaces/caractères spéciaux/majuscules interdits). */
+  getUsernameValidationError(): string | null {
+    if (this.mode() !== 'register') return null;
+    const raw = this.username().trim();
+    if (!raw) return null;
+    if (/\s/.test(this.username())) return 'Le nom d\'utilisateur ne doit pas contenir d\'espace.';
+    if (this.username() !== this.username().toLowerCase()) return 'Le nom d\'utilisateur doit être entièrement en minuscules.';
+    if (!USERNAME_REGISTER_PATTERN.test(raw)) return 'Le nom d\'utilisateur ne doit contenir que des lettres minuscules (a-z) et des chiffres, sans caractère spécial.';
+    return null;
+  }
+
   async onSubmit() {
-    const username = this.username().trim().toLowerCase();
+    const rawUsername = this.username().trim();
+    const username = rawUsername.toLowerCase();
     const password = this.password();
     if (!username || !password) {
       this.errorMessage.set('Merci de renseigner un nom et un mot de passe.');
       return;
+    }
+    if (this.mode() === 'register') {
+      const usernameError = this.getUsernameValidationError();
+      if (usernameError) {
+        this.errorMessage.set(usernameError);
+        return;
+      }
     }
 
     this.isLoading.set(true);

@@ -12,7 +12,14 @@
       [ngModel]="username()"
       (ngModelChange)="onUsernameChange($event)"
       (keydown.enter)="onSubmit()"
+      [attr.aria-invalid]="mode() === 'register' && getUsernameValidationError() ? 'true' : null"
+      [attr.aria-describedby]="mode() === 'register' && getUsernameValidationError() ? 'login-username-hint' : null"
     />
+    @if (mode() === 'register' && getUsernameValidationError()) {
+    <p id="login-username-hint" class="login-field-error" role="alert">
+      {{ getUsernameValidationError() }}
+    </p>
+    }
   </div>
 
   <div class="login-field">

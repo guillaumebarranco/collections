@@ -31,6 +31,16 @@
     padding: 8px 10px;
     font-size: 0.9rem;
   }
+
+  input[aria-invalid="true"] {
+    border-color: #d83a3a;
+  }
+}
+
+.login-field-error {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #d83a3a;
 }
 
 .login-error {
