@@ -1,3 +1,179 @@
 import { UserGame } from '../../../../models/game-model';
 
-export const dantesGames: UserGame[] = [];
+export const dantesGames: UserGame[] = [
+  {
+    title: 'God of War',
+    editor: 'Santa Monica Studio',
+    rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: '',
+    sessions: [],
+  },
+
+  {
+    title: 'God of War Ragnarök',
+    editor: 'Santa Monica Studio',
+    rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: '',
+    sessions: [],
+  },
+
+  {
+    title: 'Assassin\'s Creed II',
+    editor: 'Ubisoft',
+    rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: '',
+    sessions: [],
+  },
+
+  {
+    title: 'Assassin\'s Creed : Brotherhood',
+    editor: 'Ubisoft',
+    rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: '',
+    sessions: [],
+  },
+
+  {
+    title: 'Assassin\'s Creed : Revelations',
+    editor: 'Ubisoft',
+    rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: '',
+    sessions: [],
+  },
+
+  {
+    title: 'Assassin\'s Creed III',
+    editor: 'Ubisoft',
+    rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: '',
+    sessions: [],
+  },
+
+  {
+    title: 'Assassin\'s Creed Liberation Remastered',
+    editor: 'Ubisoft',
+    rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: '',
+    sessions: [],
+  },
+
+  {
+    title: 'Assassin\'s Creed III Remastered',
+    editor: 'Ubisoft',
+    rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: '',
+    sessions: [],
+  },
+
+  {
+    title: 'Assassin\'s Creed IV : Black Flag',
+    editor: 'Ubisoft',
+    rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: '',
+    sessions: [],
+  },
+
+  {
+    title: 'Assassin\'s Creed Rogue',
+    editor: 'Ubisoft',
+    rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: '',
+    sessions: [],
+  },
+
+  {
+    title: 'Assassin\'s Creed Unity',
+    editor: 'Ubisoft',
+    rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: '',
+    sessions: [],
+  },
+
+  {
+    title: 'Assassin\'s Creed Syndicate',
+    editor: 'Ubisoft',
+    rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: '',
+    sessions: [],
+  },
+
+  {
+    title: 'Assassin\'s Creed Odyssey',
+    editor: 'Ubisoft',
+    rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: '',
+    sessions: [],
+  },
+
+  {
+    title: 'Assassin\'s Creed Valhalla',
+    editor: 'Ubisoft',
+    rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: '',
+    sessions: [],
+  },
+
+  {
+    title: 'Assassin\'s Creed Mirage',
+    editor: 'Ubisoft',
+    rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: '',
+    sessions: [],
+  },
+
+  {
+    title: 'Elden Ring',
+    editor: 'FromSoftware',
+    rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: '',
+    sessions: [],
+  },
+];
