@@ -610,7 +610,23 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Eternal Sunshine of the Spotless Mind',
     director: 'Michel Gondry',
-    actors: [{ name: 'Jim Carrey' }],
+    actors: [
+      {
+        name: 'Jim Carrey',
+      },
+      {
+        name: 'Kate Winslet',
+      },
+      {
+        name: 'Elijah Wood',
+      },
+      {
+        name: 'Mark Ruffalo',
+      },
+      {
+        name: 'Kirsten Dunst',
+      }
+    ],
     coverUrl: '/movies_pictures/eternal_sunchine_of_the_spotless_mind.jpg',
     releaseDate: '2004-03-19',
     length: 108,

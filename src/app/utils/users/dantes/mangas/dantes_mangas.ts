@@ -1,3 +1,147 @@
 import { UserManga } from '../../../../models/manga-model';
 
-export const dantesMangas: UserManga[] = [];
+export const dantesMangas: UserManga[] = [
+  {
+    title: 'Naruto',
+    author: 'Masashi Kishimoto',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Kingdom',
+    author: 'Yasuhisa Hara',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Boruto',
+    author: 'Ukyo Kodachi, Masashi Kishimoto',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Dragon Ball',
+    author: 'Akira Toriyama',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Dragon Ball Super',
+    author: 'Akira Toriyama, Toyotarou',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'GTO',
+    author: 'Tōru Fujisawa',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Captain Tsubasa',
+    author: 'Yōichi Takahashi',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Yu Yu Hakusho',
+    author: 'Yoshihiro Togashi',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Fullmetal Alchemist',
+    author: 'Hiromu Arakawa',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Nanatsu No Taizai',
+    author: 'Suzuki Nakaba',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'One Piece',
+    author: 'Eiichirō Oda',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Assassination Classroom',
+    author: 'Matsui Yuusei',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+];
