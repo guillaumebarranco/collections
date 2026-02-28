@@ -58,5 +58,11 @@ export const users = [
     passwordHash: 'aed4698d5b2d17cf4ca441d7c5e337af41e39ef0eef7d968624b50c7461e45faf622eaa41f76990e31b20d545d308d88de9182e5aa345fa46d7d154b8dc76c76',
     passwordSalt: 'ef81755cb2c80233f64cc79f92a08720',
     admin: false,
+  },
+  {
+    username: 'dantes 009',
+    passwordHash: 'f2c01ae258b6924f6d9d1e50d75703d3e692e4bcd5fb4ef02c5d211afeee574ac66b6a8f99d81ed61b95f2c3242fb36bd65fe10169ac092b94822cb441dfa268',
+    passwordSalt: 'ebd064ed0b48a50255f16cb41b2c6c21',
+    admin: false,
   }
 ];
