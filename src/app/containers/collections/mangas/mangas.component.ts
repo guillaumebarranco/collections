@@ -33,7 +33,7 @@ import {
   getEstimatedMangaReadingTime,
   PAGES_PER_MANGA_TOME,
 } from '../../../utils/stats.utils';
-import { ActivatedRoute, Params, Router } from '@angular/router';
+import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
 import {
   getAllBaseMangas,
   getAllMangas,
@@ -52,6 +52,7 @@ import {
   markMangaAsReRead as markMangaAsReReadApi,
 } from './mangas.controller';
 import { TopFiveService } from '../../../services/top-five.service';
+import { FollowsService } from '../../../services/follows.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
 
 type RecommendationDetail = { userId: string; rating: number };
@@ -70,6 +71,7 @@ type RecommendedManga = Manga & {
     MatDialogModule,
     QuizzModalComponent,
     MangasHeaderComponent,
+    RouterLink,
   ],
   templateUrl: './mangas.component.html',
   styleUrls: ['./mangas.component.scss'],
@@ -80,6 +82,7 @@ export class MangasComponent implements OnInit {
   private readonly dialog = inject(MatDialog);
   private readonly localStorageService = inject(LocalStorageService);
   private readonly topFiveService = inject(TopFiveService);
+  private readonly followsService = inject(FollowsService);
   private isLoadingPreferences = false;
   private isLoadingViewConfig = false;
   private readonly viewConfigStorageKey = 'mangas_view_config';
@@ -104,9 +107,7 @@ export class MangasComponent implements OnInit {
   viewOptions: { value: MangaView; label: string }[] = mangaViewOptions;
 
   visibleViewOptions = computed(() =>
-    this.viewOptions.filter((option) =>
-      this.isViewOptionVisible(option.value)
-    )
+    this.viewOptions.filter((option) => this.isViewOptionVisible(option.value))
   );
 
   mangasList = signal<{ [key: string]: Manga[] }>({});
@@ -178,7 +179,9 @@ export class MangasComponent implements OnInit {
     } else if (this.selectedView() === 'owned') {
       mangas = this.allMangas().filter((manga) => manga.owned);
     } else if (this.selectedView() === 'toReRead') {
-      mangas = this.allMangas().filter((manga) => manga.wantToReadAgain === true);
+      mangas = this.allMangas().filter(
+        (manga) => manga.wantToReadAgain === true
+      );
     } else {
       mangas = this.allMangas();
     }
@@ -411,7 +414,7 @@ export class MangasComponent implements OnInit {
     void this.refreshMangas();
   }
 
-  private getActiveUserId(): string {
+  getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? DEFAULT_USER_ID;
   }
@@ -436,13 +439,15 @@ export class MangasComponent implements OnInit {
     this.showTopFiveRank.set(!this.showTopFiveRank());
   }
 
+  readonly followedIdsForRecommendations = signal<string[]>([]);
+
   async loadRecommendations() {
     if (this.isLoadingRecommendations()) return;
 
     const userId = this.getActiveUserId();
     if (
       this.recommendationsUserId() === userId &&
-      this.recommendations().length
+      this.recommendations().length > 0
     ) {
       return;
     }
@@ -454,7 +459,21 @@ export class MangasComponent implements OnInit {
 
     this.isLoadingRecommendations.set(true);
     try {
-      const othersRated = await getOtherUsersMangasRated(userId, 4);
+      await this.followsService.loadFromApi(userId);
+      const followedIds = this.followsService.getFollows(userId);
+      this.followedIdsForRecommendations.set(followedIds);
+
+      if (followedIds.length === 0) {
+        this.recommendations.set([]);
+        this.recommendationsUserId.set(userId);
+        return;
+      }
+
+      const othersRated = await getOtherUsersMangasRated(
+        userId,
+        4,
+        followedIds
+      );
 
       const detailsMap = new Map<string, Map<string, number>>();
       for (const manga of othersRated) {
@@ -556,7 +575,10 @@ export class MangasComponent implements OnInit {
   }
 
   async markMangaAsWantToReRead(manga: Manga): Promise<void> {
-    const success = await markMangaAsWantToReReadApi(manga, this.getActiveUserId());
+    const success = await markMangaAsWantToReReadApi(
+      manga,
+      this.getActiveUserId()
+    );
     if (success) {
       await this.refreshMangas();
     }

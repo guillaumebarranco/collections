@@ -14,7 +14,6 @@ import {
   OtherUserGameRating,
 } from './api-games.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
-import { users } from '../../utils/users/users';
 import { getGameDataFromUserGameAndBaseGame } from '../../helpers/entities.helper';
 
 const fetchBaseGamesCached = createCachedFetcher(fetchBaseGamesFromApi);
@@ -146,12 +145,14 @@ export async function getCurrentGamelistGamesByUser(
 
 export async function getOtherUsersGamesRated(
   currentUserId = 'guillaume',
-  minRating = 4
+  minRating = 4,
+  followedUserIds: string[] = []
 ): Promise<OtherUserGameRating[]> {
+  const otherUsers =
+    followedUserIds.length > 0
+      ? followedUserIds.filter((id) => id !== currentUserId.toLowerCase())
+      : [];
   if (isLocalhost()) {
-    const otherUsers = users
-      .map((user) => user.username)
-      .filter((username) => username !== currentUserId);
     const results: OtherUserGameRating[] = [];
     otherUsers.forEach((username) => {
       const games = getLocalGamesByUser(username);
@@ -170,7 +171,11 @@ export async function getOtherUsersGamesRated(
   }
 
   try {
-    return await fetchOtherUsersGamesRatedFromApi(currentUserId, minRating);
+    return await fetchOtherUsersGamesRatedFromApi(
+      currentUserId,
+      minRating,
+      followedUserIds
+    );
   } catch {
     return [];
   }

@@ -13,7 +13,6 @@ import {
   fetchWatchlistMoviesFromApi,
 } from './api-movies.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
-import { users } from '../../utils/users/users';
 import { getMovieDataFromUserMovieAndBaseMovie } from '../../helpers/entities.helper';
 
 const fetchBaseMoviesCached = createCachedFetcher(fetchBaseMoviesFromApi);
@@ -73,12 +72,14 @@ export async function getAllMovies(
 
 export async function getOtherUsersMoviesRated(
   currentUserId = 'guillaume',
-  minRating = 4
+  minRating = 4,
+  followedUserIds: string[] = []
 ): Promise<OtherUserMovieRating[]> {
+  const otherUsers =
+    followedUserIds.length > 0
+      ? followedUserIds.filter((id) => id !== currentUserId.toLowerCase())
+      : [];
   if (isLocalhost()) {
-    const otherUsers = users
-      .map((user) => user.username)
-      .filter((username) => username !== currentUserId);
     const results: OtherUserMovieRating[] = [];
     otherUsers.forEach((username) => {
       const movies = getLocalMoviesByUser(username);
@@ -97,7 +98,11 @@ export async function getOtherUsersMoviesRated(
   }
 
   try {
-    return await fetchOtherUsersMoviesRatedFromApi(currentUserId, minRating);
+    return await fetchOtherUsersMoviesRatedFromApi(
+      currentUserId,
+      minRating,
+      followedUserIds
+    );
   } catch {
     return [];
   }

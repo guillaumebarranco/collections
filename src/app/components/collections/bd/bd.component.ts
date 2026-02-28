@@ -121,7 +121,7 @@ export class BdComponent {
     this.readPriorityUpdated.emit({ bd: this.bd, priority });
   }
 
-  private getActiveUserId(): string {
+  getActiveUserId(): string {
     const directId = this.activatedRoute.snapshot.params['id'];
     const parentId = this.activatedRoute.parent?.snapshot.params['id'];
     return directId || parentId || DEFAULT_USER_ID;

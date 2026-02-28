@@ -31,7 +31,7 @@ import {
   getTotalComicsPages,
   getEstimatedComicsReadingTime,
 } from '../../../utils/stats.utils';
-import { ActivatedRoute, Params, Router } from '@angular/router';
+import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
 import {
   getAllBaseComics,
   getAllComics,
@@ -50,6 +50,7 @@ import {
   markComicAsReRead as markComicAsReReadApi,
 } from './comics.controller';
 import { TopFiveService } from '../../../services/top-five.service';
+import { FollowsService } from '../../../services/follows.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedComic = Comic & {
@@ -67,6 +68,7 @@ type RecommendedComic = Comic & {
     MatDialogModule,
     QuizzModalComponent,
     ComicsHeaderComponent,
+    RouterLink,
   ],
   templateUrl: './comics.component.html',
   styleUrls: ['./comics.component.scss'],
@@ -77,6 +79,7 @@ export class ComicsComponent implements OnInit {
   private readonly dialog = inject(MatDialog);
   private readonly localStorageService = inject(LocalStorageService);
   private readonly topFiveService = inject(TopFiveService);
+  private readonly followsService = inject(FollowsService);
   private isLoadingPreferences = false;
   private isLoadingViewConfig = false;
   private readonly viewConfigStorageKey = 'comics_view_config';
@@ -101,9 +104,7 @@ export class ComicsComponent implements OnInit {
   viewOptions: { value: ComicView; label: string }[] = comicViewOptions;
 
   visibleViewOptions = computed(() =>
-    this.viewOptions.filter((option) =>
-      this.isViewOptionVisible(option.value)
-    )
+    this.viewOptions.filter((option) => this.isViewOptionVisible(option.value))
   );
 
   comicsList = signal<{ [key: string]: Comic[] }>({});
@@ -175,7 +176,9 @@ export class ComicsComponent implements OnInit {
     } else if (this.selectedView() === 'owned') {
       comics = this.allComics().filter((comic) => comic.owned);
     } else if (this.selectedView() === 'toReRead') {
-      comics = this.allComics().filter((comic) => comic.wantToReadAgain === true);
+      comics = this.allComics().filter(
+        (comic) => comic.wantToReadAgain === true
+      );
     } else {
       comics = this.allComics();
     }
@@ -409,7 +412,10 @@ export class ComicsComponent implements OnInit {
   }
 
   async markComicAsWantToReRead(comic: Comic): Promise<void> {
-    const success = await markComicAsWantToReReadApi(comic, this.getActiveUserId());
+    const success = await markComicAsWantToReReadApi(
+      comic,
+      this.getActiveUserId()
+    );
     if (success) {
       await this.refreshComics();
     }
@@ -422,7 +428,7 @@ export class ComicsComponent implements OnInit {
     }
   }
 
-  private getActiveUserId(): string {
+  getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? DEFAULT_USER_ID;
   }
@@ -447,13 +453,15 @@ export class ComicsComponent implements OnInit {
     this.showTopFiveRank.set(!this.showTopFiveRank());
   }
 
+  readonly followedIdsForRecommendations = signal<string[]>([]);
+
   async loadRecommendations() {
     if (this.isLoadingRecommendations()) return;
 
     const userId = this.getActiveUserId();
     if (
       this.recommendationsUserId() === userId &&
-      this.recommendations().length
+      this.recommendations().length > 0
     ) {
       return;
     }
@@ -465,7 +473,21 @@ export class ComicsComponent implements OnInit {
 
     this.isLoadingRecommendations.set(true);
     try {
-      const othersRated = await getOtherUsersComicsRated(userId, 4);
+      await this.followsService.loadFromApi(userId);
+      const followedIds = this.followsService.getFollows(userId);
+      this.followedIdsForRecommendations.set(followedIds);
+
+      if (followedIds.length === 0) {
+        this.recommendations.set([]);
+        this.recommendationsUserId.set(userId);
+        return;
+      }
+
+      const othersRated = await getOtherUsersComicsRated(
+        userId,
+        4,
+        followedIds
+      );
 
       const detailsMap = new Map<string, Map<string, number>>();
       for (const comic of othersRated) {

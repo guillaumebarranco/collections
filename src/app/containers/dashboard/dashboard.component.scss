@@ -11,6 +11,12 @@
   gap: 16px;
 }
 
+.dashboard-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .dashboard-character {
   display: flex;
   justify-content: center;

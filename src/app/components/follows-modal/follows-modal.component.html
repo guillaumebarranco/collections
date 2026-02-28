@@ -1,0 +1,50 @@
+<div class="follows-modal">
+  <h2 mat-dialog-title>Comptes suivis</h2>
+  <mat-dialog-content>
+    <p class="follows-modal__intro">
+      Cochez les comptes que vous souhaitez suivre pour accéder à leur tableau
+      de bord et leurs collections.
+    </p>
+
+    @if (loading()) {
+    <p class="follows-modal__loading">Chargement…</p>
+    } @else { @if (errorMessage()) {
+    <p class="follows-modal__error" role="alert">{{ errorMessage() }}</p>
+    }
+
+    <div class="follows-modal__list">
+      <h3>Utilisateurs</h3>
+      @if (otherUsers().length === 0) {
+      <p class="follows-modal__empty">Aucun autre utilisateur.</p>
+      } @else {
+      <ul class="follows-modal__items">
+        @for (username of otherUsers(); track username) {
+        <li class="follows-modal__item">
+          <label class="follows-modal__label">
+            <input
+              type="checkbox"
+              [checked]="isFollowing(username)"
+              [disabled]="togglingUserId() === username"
+              (change)="toggleFollow(username)"
+            />
+            <span class="follows-modal__label-text">{{
+              capitalize(username)
+            }}</span>
+          </label>
+          <a
+            [routerLink]="['/', username]"
+            (click)="seeProfilAndClose()"
+            class="follows-modal__link"
+            >Voir le profil</a
+          >
+        </li>
+        }
+      </ul>
+      }
+    </div>
+    }
+  </mat-dialog-content>
+  <mat-dialog-actions align="end">
+    <button type="button" class="makya-btn" (click)="close()">Fermer</button>
+  </mat-dialog-actions>
+</div>

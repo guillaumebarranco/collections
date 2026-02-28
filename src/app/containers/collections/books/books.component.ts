@@ -50,6 +50,7 @@ import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditBookComponent } from '../../edit/edit-book/edit-book.component';
 import { LocalStorageService } from '../../../services/local-storage.service';
 import { TopFiveService } from '../../../services/top-five.service';
+import { FollowsService } from '../../../services/follows.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
@@ -95,6 +96,7 @@ export class BooksComponent implements OnInit {
   router = inject(Router);
   private readonly localStorageService = inject(LocalStorageService);
   private readonly topFiveService = inject(TopFiveService);
+  private readonly followsService = inject(FollowsService);
   private readonly dialog = inject(MatDialog);
   private isInitializing = false;
   private isLoadingViewConfig = false;
@@ -124,9 +126,7 @@ export class BooksComponent implements OnInit {
   viewOptions = bookViewOptions;
 
   visibleViewOptions = computed(() =>
-    this.viewOptions.filter((option) =>
-      this.isViewOptionVisible(option.value)
-    )
+    this.viewOptions.filter((option) => this.isViewOptionVisible(option.value))
   );
 
   booksList = signal<{ [key: string]: Book[] }>({});
@@ -580,7 +580,7 @@ export class BooksComponent implements OnInit {
     });
   }
 
-  private getActiveUserId(): string {
+  getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? DEFAULT_USER_ID;
   }
@@ -624,25 +624,38 @@ export class BooksComponent implements OnInit {
       .toLowerCase();
   }
 
+  /** Liste des comptes suivis utilisée pour les recommandations (pour afficher le message si vide). */
+  readonly followedIdsForRecommendations = signal<string[]>([]);
+
   async loadRecommendations() {
     if (this.isLoadingRecommendations()) return;
 
     const userId = this.getActiveUserId();
     if (
       this.recommendationsUserId() === userId &&
-      this.recommendations().length
+      this.recommendations().length > 0
     ) {
       return;
     }
 
-    // S'assurer que baseBooksList est chargé
-    if (this.baseBooksList().length === 0) {
-      await this.refreshBooks();
-    }
-
     this.isLoadingRecommendations.set(true);
     try {
-      const othersRated = await getOtherUsersBooksRated(userId, 4);
+      await this.followsService.loadFromApi(userId);
+      const followedIds = this.followsService.getFollows(userId);
+      this.followedIdsForRecommendations.set(followedIds);
+
+      if (followedIds.length === 0) {
+        this.recommendations.set([]);
+        this.recommendationsUserId.set(userId);
+        return;
+      }
+
+      // S'assurer que baseBooksList est chargé
+      if (this.baseBooksList().length === 0) {
+        await this.refreshBooks();
+      }
+
+      const othersRated = await getOtherUsersBooksRated(userId, 4, followedIds);
 
       console.log('books:recommendations:othersRated', othersRated.length);
       console.log(

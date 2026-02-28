@@ -6,22 +6,30 @@ const {
   getUserManwhasFiles,
   parseManwhasFromFile,
 } = require('../../utils/manwhas/manwhas-utils');
-const { loadUsers, normalizeUsername } = require('../../utils/users/users-utils');
+const { normalizeUsername } = require('../../utils/users/users-utils');
 
 const router = express.Router();
+
+function getFollowedUserIdsFromQuery(req: any): string[] {
+  const raw = req.query.followedUserIds;
+  if (raw == null || typeof raw !== 'string' || !raw.trim()) return [];
+  return raw
+    .split(',')
+    .map((s: string) => normalizeUsername(s.trim()))
+    .filter(Boolean);
+}
 
 router.get('/others-users-manwhas-rated', (req: any, res: any) => {
   try {
     const inputUserId = normalizeString(req.query.userId, 'userId');
     const minRating = normalizeNumber(req.query.minRating, 'minRating') ?? 4;
+    const followedUserIds = getFollowedUserIdsFromQuery(req);
 
     const normalizedUserId = inputUserId ? normalizeUsername(inputUserId) : '';
-    const users = loadUsers();
-    const otherUsers = users
-      .map((user: any) => user.username)
-      .filter(
-        (username: string) => normalizeUsername(username) !== normalizedUserId
-      );
+    const otherUsers =
+      followedUserIds.length > 0
+        ? followedUserIds.filter((id: string) => id !== normalizedUserId)
+        : [];
 
     const results: any[] = [];
     for (const userId of otherUsers) {

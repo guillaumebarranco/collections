@@ -73,6 +73,8 @@ export const allBaseMovies: BaseMovie[] = [
   ...baseMoviesApi,
 ];
 import { emmanuelleMovies } from '../../utils/users/emmanuelle/movies/emmanuelle_movies';
+import { dantesMovies } from '../../utils/users/dantes/movies/dantes_movies';
+import { bastienMovies } from '../../utils/users/bastien/movies/bastien_movies';
 
 export function getLocalMoviesByUser(userId: string): UserMovie[] {
   switch (userId) {
@@ -101,6 +103,10 @@ export function getLocalMoviesByUser(userId: string): UserMovie[] {
       return [...kevinMovies];
     case 'emmanuelle':
       return [...emmanuelleMovies];
+    case 'dantes':
+      return [...dantesMovies];
+    case 'bastien':
+      return [...bastienMovies];
     default:
       return [];
   }

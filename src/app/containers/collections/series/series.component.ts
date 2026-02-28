@@ -34,7 +34,7 @@ import {
   getSerieTotalLengthMinutes,
   getSerieWatchedLengthMinutes,
 } from '../../../utils/series.utils';
-import { ActivatedRoute, Params, Router } from '@angular/router';
+import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
 import {
   getAllBaseSeries,
   getAllSeries,
@@ -43,6 +43,7 @@ import {
 } from '../../../facades/series/series.facade';
 import { LocalStorageService } from '../../../services/local-storage.service';
 import { TopFiveService } from '../../../services/top-five.service';
+import { FollowsService } from '../../../services/follows.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
@@ -67,6 +68,7 @@ type RecommendedSerie = Serie & {
     MenuComponent,
     QuizzModalComponent,
     SeriesHeaderComponent,
+    RouterLink,
   ],
   templateUrl: './series.component.html',
   styleUrls: ['./series.component.scss'],
@@ -76,6 +78,7 @@ export class SeriesComponent implements OnInit {
   router = inject(Router);
   private readonly localStorageService = inject(LocalStorageService);
   private readonly topFiveService = inject(TopFiveService);
+  private readonly followsService = inject(FollowsService);
   private isLoadingPreferences = false;
   private isLoadingViewConfig = false;
   private readonly viewConfigStorageKey = 'series_view_config';
@@ -106,9 +109,7 @@ export class SeriesComponent implements OnInit {
   viewOptions: { value: SerieView; label: string }[] = serieViewOptions;
 
   visibleViewOptions = computed(() =>
-    this.viewOptions.filter((option) =>
-      this.isViewOptionVisible(option.value)
-    )
+    this.viewOptions.filter((option) => this.isViewOptionVisible(option.value))
   );
 
   seriesList = signal<{ [key: string]: Serie[] }>({});
@@ -175,8 +176,13 @@ export class SeriesComponent implements OnInit {
     } else if (this.selectedView() === 'owned') {
       series = this.allSeries().filter((serie) => serie.owned);
     } else if (this.selectedView() === 'toReWatch') {
-      series = this.allSeries().filter((serie) => serie.wantToWatchAgain === true);
-    } else if (this.selectedView() === 'sagas' || this.selectedView() === 'countries') {
+      series = this.allSeries().filter(
+        (serie) => serie.wantToWatchAgain === true
+      );
+    } else if (
+      this.selectedView() === 'sagas' ||
+      this.selectedView() === 'countries'
+    ) {
       series = this.allSeries();
     } else {
       series = this.allSeries();
@@ -312,7 +318,7 @@ export class SeriesComponent implements OnInit {
     this.quizzs.set(quizzs);
   }
 
-  private getActiveUserId(): string {
+  getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? DEFAULT_USER_ID;
   }
@@ -414,7 +420,13 @@ export class SeriesComponent implements OnInit {
 
   private matchesSearch(serie: Serie, term: string): boolean {
     const actors = serie.actors?.map((actor) => actor.name).join(' ') || '';
-    const haystack = [serie.title, serie.director, actors, serie.genre, serie.saga]
+    const haystack = [
+      serie.title,
+      serie.director,
+      actors,
+      serie.genre,
+      serie.saga,
+    ]
       .filter(Boolean)
       .join(' ');
 
@@ -430,13 +442,15 @@ export class SeriesComponent implements OnInit {
       .toLowerCase();
   }
 
+  readonly followedIdsForRecommendations = signal<string[]>([]);
+
   async loadRecommendations() {
     if (this.isLoadingRecommendations()) return;
 
     const userId = this.getActiveUserId();
     if (
       this.recommendationsUserId() === userId &&
-      this.recommendations().length
+      this.recommendations().length > 0
     ) {
       return;
     }
@@ -448,7 +462,21 @@ export class SeriesComponent implements OnInit {
 
     this.isLoadingRecommendations.set(true);
     try {
-      const othersRated = await getOtherUsersSeriesRated(userId, 4);
+      await this.followsService.loadFromApi(userId);
+      const followedIds = this.followsService.getFollows(userId);
+      this.followedIdsForRecommendations.set(followedIds);
+
+      if (followedIds.length === 0) {
+        this.recommendations.set([]);
+        this.recommendationsUserId.set(userId);
+        return;
+      }
+
+      const othersRated = await getOtherUsersSeriesRated(
+        userId,
+        4,
+        followedIds
+      );
 
       const detailsMap = new Map<string, Map<string, number>>();
       for (const serie of othersRated) {
@@ -560,14 +588,20 @@ export class SeriesComponent implements OnInit {
   }
 
   async markSerieAsWantToReWatch(serie: Serie): Promise<void> {
-    const success = await markSerieAsWantToReWatchApi(serie, this.getActiveUserId());
+    const success = await markSerieAsWantToReWatchApi(
+      serie,
+      this.getActiveUserId()
+    );
     if (success) {
       await this.refreshSeries();
     }
   }
 
   async markSerieAsReWatched(serie: Serie): Promise<void> {
-    const success = await markSerieAsReWatchedApi(serie, this.getActiveUserId());
+    const success = await markSerieAsReWatchedApi(
+      serie,
+      this.getActiveUserId()
+    );
     if (success) {
       await this.refreshSeries();
     }

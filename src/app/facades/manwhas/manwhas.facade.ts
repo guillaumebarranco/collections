@@ -14,7 +14,6 @@ import {
   OtherUserManwhaRating,
 } from './api-manwhas.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
-import { users } from '../../utils/users/users';
 import { getManwhaDataFromUserManwhaAndBaseManwha } from '../../helpers/entities.helper';
 
 const fetchBaseManwhasCached = createCachedFetcher(fetchBaseManwhasFromApi);
@@ -148,12 +147,14 @@ export async function getCurrentReadlistManwhasByUser(
 
 export async function getOtherUsersManwhasRated(
   currentUserId = 'guillaume',
-  minRating = 4
+  minRating = 4,
+  followedUserIds: string[] = []
 ): Promise<OtherUserManwhaRating[]> {
+  const otherUsers =
+    followedUserIds.length > 0
+      ? followedUserIds.filter((id) => id !== currentUserId.toLowerCase())
+      : [];
   if (isLocalhost()) {
-    const otherUsers = users
-      .map((user) => user.username)
-      .filter((username) => username !== currentUserId);
     const results: OtherUserManwhaRating[] = [];
     otherUsers.forEach((username) => {
       const manwhas = getLocalManwhasByUser(username);
@@ -172,7 +173,11 @@ export async function getOtherUsersManwhasRated(
   }
 
   try {
-    return await fetchOtherUsersManwhasRatedFromApi(currentUserId, minRating);
+    return await fetchOtherUsersManwhasRatedFromApi(
+      currentUserId,
+      minRating,
+      followedUserIds
+    );
   } catch {
     return [];
   }

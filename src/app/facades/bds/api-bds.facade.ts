@@ -43,12 +43,16 @@ export type OtherUserBdRating = {
 
 export async function fetchOtherUsersBdsRatedFromApi(
   userId: string,
-  minRating = 4
+  minRating = 4,
+  followedUserIds: string[] = []
 ): Promise<OtherUserBdRating[]> {
   const params = new URLSearchParams({
     userId,
     minRating: String(minRating),
   });
+  if (followedUserIds.length > 0) {
+    params.set('followedUserIds', followedUserIds.join(','));
+  }
   const response = await fetch(
     `${getApiBaseUrl()}/bds/others-users-bds-rated?${params.toString()}`
   );

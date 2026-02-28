@@ -19,7 +19,6 @@ import {
   OtherUserSerieRating,
 } from './api-series.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
-import { users } from '../../utils/users/users';
 import { getSerieDataFromUserSerieAndBaseSerie } from '../../helpers/entities.helper';
 
 const fetchBaseSeriesCached = createCachedFetcher(fetchBaseSeriesFromApi);
@@ -189,12 +188,14 @@ export async function getCurrentWatchlistSeriesByUser(
 
 export async function getOtherUsersSeriesRated(
   currentUserId = 'guillaume',
-  minRating = 4
+  minRating = 4,
+  followedUserIds: string[] = []
 ): Promise<OtherUserSerieRating[]> {
+  const otherUsers =
+    followedUserIds.length > 0
+      ? followedUserIds.filter((id) => id !== currentUserId.toLowerCase())
+      : [];
   if (isLocalhost()) {
-    const otherUsers = users
-      .map((user) => user.username)
-      .filter((username) => username !== currentUserId);
     const results: OtherUserSerieRating[] = [];
     otherUsers.forEach((username) => {
       const series = getLocalSeriesByUser(username);
@@ -231,7 +232,11 @@ export async function getOtherUsersSeriesRated(
   }
 
   try {
-    return await fetchOtherUsersSeriesRatedFromApi(currentUserId, minRating);
+    return await fetchOtherUsersSeriesRatedFromApi(
+      currentUserId,
+      minRating,
+      followedUserIds
+    );
   } catch {
     return [];
   }

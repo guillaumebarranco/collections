@@ -134,7 +134,7 @@ export class MovieComponent {
     return isAdminView || this.authService.canEdit(directId || parentId);
   });
 
-  private getActiveUserId(): string {
+  getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? DEFAULT_USER_ID;
   }

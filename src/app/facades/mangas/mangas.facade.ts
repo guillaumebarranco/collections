@@ -14,7 +14,6 @@ import {
   OtherUserMangaRating,
 } from './api-mangas.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
-import { users } from '../../utils/users/users';
 import { getMangaDataFromUserMangaAndBaseManga } from '../../helpers/entities.helper';
 
 const fetchBaseMangasCached = createCachedFetcher(fetchBaseMangasFromApi);
@@ -147,12 +146,14 @@ export async function getCurrentReadlistMangasByUser(
 
 export async function getOtherUsersMangasRated(
   currentUserId = 'guillaume',
-  minRating = 4
+  minRating = 4,
+  followedUserIds: string[] = []
 ): Promise<OtherUserMangaRating[]> {
+  const otherUsers =
+    followedUserIds.length > 0
+      ? followedUserIds.filter((id) => id !== currentUserId.toLowerCase())
+      : [];
   if (isLocalhost()) {
-    const otherUsers = users
-      .map((user) => user.username)
-      .filter((username) => username !== currentUserId);
     const results: OtherUserMangaRating[] = [];
     otherUsers.forEach((username) => {
       const mangas = getLocalMangasByUser(username);
@@ -171,7 +172,11 @@ export async function getOtherUsersMangasRated(
   }
 
   try {
-    return await fetchOtherUsersMangasRatedFromApi(currentUserId, minRating);
+    return await fetchOtherUsersMangasRatedFromApi(
+      currentUserId,
+      minRating,
+      followedUserIds
+    );
   } catch {
     return [];
   }

@@ -25,6 +25,12 @@
   <div class="series">
     @if (isLoadingRecommendations()) {
     <p>Chargement des recommandations...</p>
+    } @else if (followedIdsForRecommendations().length === 0) {
+    <p class="recommendations-no-follows">
+      Vous ne suivez aucun compte. Suivez des utilisateurs depuis votre
+      <a [routerLink]="[getActiveUserId(), 'dashboard']">tableau de bord</a>
+      pour avoir des recommandations.
+    </p>
     } @else if (recommendedSeries().length === 0) {
     <p>Aucune recommandation disponible pour le moment.</p>
     } @else { @for (serie of recommendedSeries(); track

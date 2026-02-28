@@ -33,7 +33,7 @@ import {
   getTotalTomesBdRead,
   getTotalBdPages,
 } from '../../../utils/stats.utils';
-import { ActivatedRoute, Params, Router } from '@angular/router';
+import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
 import {
   getAllBaseBds,
   getAllBds,
@@ -52,6 +52,7 @@ import {
   markBdAsReRead as markBdAsReReadApi,
 } from './bds.controller';
 import { TopFiveService } from '../../../services/top-five.service';
+import { FollowsService } from '../../../services/follows.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
 
 type RecommendationDetail = { userId: string; rating: number };
@@ -70,6 +71,7 @@ type RecommendedBd = Bd & {
     MatDialogModule,
     QuizzModalComponent,
     BdsHeaderComponent,
+    RouterLink,
   ],
   templateUrl: './bds.component.html',
   styleUrls: ['./bds.component.scss'],
@@ -80,6 +82,7 @@ export class BdsComponent implements OnInit {
   private readonly dialog = inject(MatDialog);
   private readonly localStorageService = inject(LocalStorageService);
   private readonly topFiveService = inject(TopFiveService);
+  private readonly followsService = inject(FollowsService);
   private isLoadingPreferences = false;
   private isLoadingViewConfig = false;
   private readonly viewConfigStorageKey = 'bds_view_config';
@@ -104,9 +107,7 @@ export class BdsComponent implements OnInit {
   viewOptions: { value: BdView; label: string }[] = bdViewOptions;
 
   visibleViewOptions = computed(() =>
-    this.viewOptions.filter((option) =>
-      this.isViewOptionVisible(option.value)
-    )
+    this.viewOptions.filter((option) => this.isViewOptionVisible(option.value))
   );
 
   bdsList = signal<{ [key: string]: Bd[] }>({});
@@ -409,7 +410,7 @@ export class BdsComponent implements OnInit {
     void this.refreshBds();
   }
 
-  private getActiveUserId(): string {
+  getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? DEFAULT_USER_ID;
   }
@@ -434,13 +435,15 @@ export class BdsComponent implements OnInit {
     this.showTopFiveRank.set(!this.showTopFiveRank());
   }
 
+  readonly followedIdsForRecommendations = signal<string[]>([]);
+
   async loadRecommendations() {
     if (this.isLoadingRecommendations()) return;
 
     const userId = this.getActiveUserId();
     if (
       this.recommendationsUserId() === userId &&
-      this.recommendations().length
+      this.recommendations().length > 0
     ) {
       return;
     }
@@ -452,7 +455,17 @@ export class BdsComponent implements OnInit {
 
     this.isLoadingRecommendations.set(true);
     try {
-      const othersRated = await getOtherUsersBdsRated(userId, 4);
+      await this.followsService.loadFromApi(userId);
+      const followedIds = this.followsService.getFollows(userId);
+      this.followedIdsForRecommendations.set(followedIds);
+
+      if (followedIds.length === 0) {
+        this.recommendations.set([]);
+        this.recommendationsUserId.set(userId);
+        return;
+      }
+
+      const othersRated = await getOtherUsersBdsRated(userId, 4, followedIds);
 
       const detailsMap = new Map<string, Map<string, number>>();
       for (const bd of othersRated) {

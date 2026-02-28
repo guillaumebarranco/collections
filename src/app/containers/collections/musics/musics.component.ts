@@ -294,7 +294,7 @@ export class MusicsComponent implements OnInit {
     this.searchTerm.set(value);
   }
 
-  private getActiveUserId(): string {
+  getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? DEFAULT_USER_ID;
   }

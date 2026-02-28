@@ -45,12 +45,16 @@ export type OtherUserGameRating = {
 
 export async function fetchOtherUsersGamesRatedFromApi(
   userId: string,
-  minRating = 4
+  minRating = 4,
+  followedUserIds: string[] = []
 ): Promise<OtherUserGameRating[]> {
   const params = new URLSearchParams({
     userId,
     minRating: String(minRating),
   });
+  if (followedUserIds.length > 0) {
+    params.set('followedUserIds', followedUserIds.join(','));
+  }
   const response = await fetch(
     `${getApiBaseUrl()}/games/others-users-games-rated?${params.toString()}`
   );

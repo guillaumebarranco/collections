@@ -69,16 +69,19 @@ import {
 import { AuthService } from '../../core/auth.service';
 import { getGameTimePlayed } from '../../utils/games.utils';
 import { TopFiveService } from '../../services/top-five.service';
+import { MatDialog } from '@angular/material/dialog';
+import {
+  FollowsModalComponent,
+  type FollowsModalData,
+} from '../../components/follows-modal/follows-modal.component';
+import { FollowsService } from '../../services/follows.service';
 import type { TopFiveEntityType } from '../../models/top-five-model';
 import {
   findEntityByKey,
   getEntityDisplayLabel,
   type Entity,
 } from '../../utils/top-five.utils';
-import {
-  getBadgesDisplay,
-  type BadgeDisplay,
-} from '../../utils/users/badges';
+import { getBadgesDisplay, type BadgeDisplay } from '../../utils/users/badges';
 import { BadgesService } from '../../services/badges.service';
 
 interface TopBook extends Book {
@@ -129,18 +132,22 @@ export class DashboardComponent implements OnInit {
   authService = inject(AuthService);
   topFiveService = inject(TopFiveService);
   badgesService = inject(BadgesService);
+  private readonly dialog = inject(MatDialog);
+  private readonly followsService = inject(FollowsService);
 
   filledUserId = signal<string>('');
   selectedTab = signal<
-    | 'overview'
-    | 'entities'
-    | 'charts'
-    | 'top5stats'
-    | 'top5personal'
-    | 'badges'
+    'overview' | 'entities' | 'charts' | 'top5stats' | 'top5personal' | 'badges'
   >('overview');
   isAuthenticated = computed<boolean>(() => this.authService.isAuthenticated());
   isAdmin = computed<boolean>(() => this.authService.isAdmin());
+
+  /** True si l'utilisateur connecté regarde son propre dashboard (peut gérer les comptes suivis). */
+  isOwnUserDashboard = computed<boolean>(() => {
+    const uid = this.userId();
+    const auth = this.authService.getAuthenticatedUserId();
+    return Boolean(uid && auth && uid.toLowerCase() === auth.toLowerCase());
+  });
 
   tabOptions: ViewToggleOption[] = [
     { value: 'overview', label: "Vue d'ensemble" },
@@ -715,12 +722,30 @@ export class DashboardComponent implements OnInit {
     this.selectedTab.set(tab);
   }
 
+  openFollowsModal(): void {
+    const uid = this.userId();
+    if (!uid) return;
+    this.dialog.open(FollowsModalComponent, {
+      data: { userId: uid } satisfies FollowsModalData,
+      width: '420px',
+    });
+  }
+
+  goToOwnDashboard(): void {
+    const uid = this.userId();
+    if (!uid) return;
+    this.router.navigate([uid]);
+  }
+
   ngOnInit() {
     this.topFiveService.loadFromStorage();
     this.badgesService.loadFromStorage();
     const uid = this.userId() || DEFAULT_USER_ID;
     this.topFiveService.loadFromApi(uid);
     this.badgesService.loadFromApi(uid);
+    if (this.isOwnUserDashboard()) {
+      void this.followsService.loadFromApi(uid);
+    }
     this.loadMoviesData();
     this.loadWatchlistMoviesData();
     this.loadBooksData();

@@ -14,7 +14,6 @@ import {
   OtherUserBookRating,
 } from './api-books.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
-import { users } from '../../utils/users/users';
 import { getBookDataFromUserBookAndBaseBook } from '../../helpers/entities.helper';
 
 const fetchBaseBooksCached = createCachedFetcher(fetchBaseBooksFromApi);
@@ -145,12 +144,14 @@ export async function getCurrentReadlistBooksByUser(
 
 export async function getOtherUsersBooksRated(
   currentUserId = 'guillaume',
-  minRating = 4
+  minRating = 4,
+  followedUserIds: string[] = []
 ): Promise<OtherUserBookRating[]> {
+  const otherUsers =
+    followedUserIds.length > 0
+      ? followedUserIds.filter((id) => id !== currentUserId.toLowerCase())
+      : [];
   if (isLocalhost()) {
-    const otherUsers = users
-      .map((user) => user.username)
-      .filter((username) => username !== currentUserId);
     const results: OtherUserBookRating[] = [];
     otherUsers.forEach((username) => {
       const books = getLocalBooksByUser(username);
@@ -169,7 +170,11 @@ export async function getOtherUsersBooksRated(
   }
 
   try {
-    return await fetchOtherUsersBooksRatedFromApi(currentUserId, minRating);
+    return await fetchOtherUsersBooksRatedFromApi(
+      currentUserId,
+      minRating,
+      followedUserIds
+    );
   } catch {
     return [];
   }

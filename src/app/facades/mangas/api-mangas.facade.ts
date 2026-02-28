@@ -45,12 +45,16 @@ export type OtherUserMangaRating = {
 
 export async function fetchOtherUsersMangasRatedFromApi(
   userId: string,
-  minRating = 4
+  minRating = 4,
+  followedUserIds: string[] = []
 ): Promise<OtherUserMangaRating[]> {
   const params = new URLSearchParams({
     userId,
     minRating: String(minRating),
   });
+  if (followedUserIds.length > 0) {
+    params.set('followedUserIds', followedUserIds.join(','));
+  }
   const response = await fetch(
     `${getApiBaseUrl()}/mangas/others-users-mangas-rated?${params.toString()}`
   );

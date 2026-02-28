@@ -13,7 +13,6 @@ import {
   OtherUserComicRating,
 } from './api-comics.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
-import { users } from '../../utils/users/users';
 import { getComicDataFromUserComicAndBaseComic } from '../../helpers/entities.helper';
 
 const fetchBaseComicsCached = createCachedFetcher(fetchBaseComicsFromApi);
@@ -147,12 +146,14 @@ export async function getCurrentReadlistComicsByUser(
 
 export async function getOtherUsersComicsRated(
   currentUserId = 'guillaume',
-  minRating = 4
+  minRating = 4,
+  followedUserIds: string[] = []
 ): Promise<OtherUserComicRating[]> {
+  const otherUsers =
+    followedUserIds.length > 0
+      ? followedUserIds.filter((id) => id !== currentUserId.toLowerCase())
+      : [];
   if (isLocalhost()) {
-    const otherUsers = users
-      .map((user) => user.username)
-      .filter((username) => username !== currentUserId);
     const results: OtherUserComicRating[] = [];
     otherUsers.forEach((username) => {
       const comics = getLocalComicsByUser(username);
@@ -171,7 +172,11 @@ export async function getOtherUsersComicsRated(
   }
 
   try {
-    return await fetchOtherUsersComicsRatedFromApi(currentUserId, minRating);
+    return await fetchOtherUsersComicsRatedFromApi(
+      currentUserId,
+      minRating,
+      followedUserIds
+    );
   } catch {
     return [];
   }

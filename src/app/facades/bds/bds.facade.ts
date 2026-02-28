@@ -13,7 +13,6 @@ import {
   OtherUserBdRating,
 } from './api-bds.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
-import { users } from '../../utils/users/users';
 import { getBdDataFromUserBdAndBaseBd } from '../../helpers/entities.helper';
 
 const fetchBaseBdsCached = createCachedFetcher(fetchBaseBdsFromApi);
@@ -140,12 +139,14 @@ export async function getCurrentReadlistBdsByUser(
 
 export async function getOtherUsersBdsRated(
   currentUserId = 'guillaume',
-  minRating = 4
+  minRating = 4,
+  followedUserIds: string[] = []
 ): Promise<OtherUserBdRating[]> {
+  const otherUsers =
+    followedUserIds.length > 0
+      ? followedUserIds.filter((id) => id !== currentUserId.toLowerCase())
+      : [];
   if (isLocalhost()) {
-    const otherUsers = users
-      .map((user) => user.username)
-      .filter((username) => username !== currentUserId);
     const results: OtherUserBdRating[] = [];
     otherUsers.forEach((username) => {
       const bds = getLocalBdsByUser(username);
@@ -164,7 +165,11 @@ export async function getOtherUsersBdsRated(
   }
 
   try {
-    return await fetchOtherUsersBdsRatedFromApi(currentUserId, minRating);
+    return await fetchOtherUsersBdsRatedFromApi(
+      currentUserId,
+      minRating,
+      followedUserIds
+    );
   } catch {
     return [];
   }

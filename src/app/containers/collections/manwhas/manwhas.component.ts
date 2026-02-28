@@ -52,6 +52,7 @@ import {
   markManwhaAsReRead as markManwhaAsReReadApi,
 } from './manwhas.controller';
 import { TopFiveService } from '../../../services/top-five.service';
+import { FollowsService } from '../../../services/follows.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
 
 type RecommendationDetail = { userId: string; rating: number };
@@ -79,6 +80,7 @@ export class ManwhasComponent implements OnInit {
   private readonly dialog = inject(MatDialog);
   private readonly localStorageService = inject(LocalStorageService);
   private readonly topFiveService = inject(TopFiveService);
+  private readonly followsService = inject(FollowsService);
   private isLoadingPreferences = false;
   private isLoadingViewConfig = false;
   private readonly viewConfigStorageKey = 'manwhas_view_config';
@@ -103,9 +105,7 @@ export class ManwhasComponent implements OnInit {
   viewOptions: { value: ManwhaView; label: string }[] = manwhaViewOptions;
 
   visibleViewOptions = computed(() =>
-    this.viewOptions.filter((option) =>
-      this.isViewOptionVisible(option.value)
-    )
+    this.viewOptions.filter((option) => this.isViewOptionVisible(option.value))
   );
 
   manwhasList = signal<{ [key: string]: Manwha[] }>({});
@@ -177,7 +177,9 @@ export class ManwhasComponent implements OnInit {
     } else if (this.selectedView() === 'owned') {
       manwhas = this.allManwhas().filter((manwha) => manwha.owned);
     } else if (this.selectedView() === 'toReRead') {
-      manwhas = this.allManwhas().filter((manwha) => manwha.wantToReadAgain === true);
+      manwhas = this.allManwhas().filter(
+        (manwha) => manwha.wantToReadAgain === true
+      );
     } else {
       manwhas = this.allManwhas();
     }
@@ -418,7 +420,7 @@ export class ManwhasComponent implements OnInit {
     this.quizzs.set(quizzs);
   }
 
-  private getActiveUserId(): string {
+  getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? DEFAULT_USER_ID;
   }
@@ -443,13 +445,15 @@ export class ManwhasComponent implements OnInit {
     this.showTopFiveRank.set(!this.showTopFiveRank());
   }
 
+  readonly followedIdsForRecommendations = signal<string[]>([]);
+
   async loadRecommendations() {
     if (this.isLoadingRecommendations()) return;
 
     const userId = this.getActiveUserId();
     if (
       this.recommendationsUserId() === userId &&
-      this.recommendations().length
+      this.recommendations().length > 0
     ) {
       return;
     }
@@ -461,7 +465,21 @@ export class ManwhasComponent implements OnInit {
 
     this.isLoadingRecommendations.set(true);
     try {
-      const othersRated = await getOtherUsersManwhasRated(userId, 4);
+      await this.followsService.loadFromApi(userId);
+      const followedIds = this.followsService.getFollows(userId);
+      this.followedIdsForRecommendations.set(followedIds);
+
+      if (followedIds.length === 0) {
+        this.recommendations.set([]);
+        this.recommendationsUserId.set(userId);
+        return;
+      }
+
+      const othersRated = await getOtherUsersManwhasRated(
+        userId,
+        4,
+        followedIds
+      );
 
       const detailsMap = new Map<string, Map<string, number>>();
       for (const manwha of othersRated) {
@@ -563,7 +581,10 @@ export class ManwhasComponent implements OnInit {
   }
 
   async markManwhaAsWantToReRead(manwha: Manwha): Promise<void> {
-    const success = await markManwhaAsWantToReReadApi(manwha, this.getActiveUserId());
+    const success = await markManwhaAsWantToReReadApi(
+      manwha,
+      this.getActiveUserId()
+    );
     if (success) {
       await this.refreshManwhas();
     }

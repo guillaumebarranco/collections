@@ -126,7 +126,7 @@ export class BookComponent {
     this.readPriorityUpdated.emit({ book: this.book, priority });
   }
 
-  private getActiveUserId(): string {
+  getActiveUserId(): string {
     const params = this.activatedRoute.snapshot.params;
     return params['id'] ?? DEFAULT_USER_ID;
   }

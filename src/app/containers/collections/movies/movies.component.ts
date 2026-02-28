@@ -34,6 +34,7 @@ import {
 } from '../../../facades/movies/movies.facade';
 import { LocalStorageService } from '../../../services/local-storage.service';
 import { TopFiveService } from '../../../services/top-five.service';
+import { FollowsService } from '../../../services/follows.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import {
@@ -87,6 +88,7 @@ export class MoviesComponent implements OnInit {
   activatedRoute = inject(ActivatedRoute);
   private readonly localStorageService = inject(LocalStorageService);
   private readonly topFiveService = inject(TopFiveService);
+  private readonly followsService = inject(FollowsService);
   private isInitializing = false;
   private isLoadingViewConfig = false;
   private isLoadingPreferences = false;
@@ -428,7 +430,7 @@ export class MoviesComponent implements OnInit {
     this.quizzs.set(quizzs);
   }
 
-  private getActiveUserId(): string {
+  getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? DEFAULT_USER_ID;
   }
@@ -525,20 +527,36 @@ export class MoviesComponent implements OnInit {
     this.searchTerm.set(value);
   }
 
+  readonly followedIdsForRecommendations = signal<string[]>([]);
+
   async loadRecommendations() {
     if (this.isLoadingRecommendations()) return;
 
     const userId = this.getActiveUserId();
     if (
       this.recommendationsUserId() === userId &&
-      this.recommendations().length
+      this.recommendations().length > 0
     ) {
       return;
     }
 
     this.isLoadingRecommendations.set(true);
     try {
-      const othersRated = await getOtherUsersMoviesRated(userId, 4);
+      await this.followsService.loadFromApi(userId);
+      const followedIds = this.followsService.getFollows(userId);
+      this.followedIdsForRecommendations.set(followedIds);
+
+      if (followedIds.length === 0) {
+        this.recommendations.set([]);
+        this.recommendationsUserId.set(userId);
+        return;
+      }
+
+      const othersRated = await getOtherUsersMoviesRated(
+        userId,
+        4,
+        followedIds
+      );
 
       const detailsMap = new Map<string, Map<string, number>>();
       for (const movie of othersRated) {

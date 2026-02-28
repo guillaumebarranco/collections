@@ -1,13 +1,21 @@
 const express = require('express');
+const getUsersListRouter = require('./get-users-list');
 const getTopFiveRouter = require('./get-top-five');
 const putTopFiveRouter = require('./put-top-five');
 const getBadgesRouter = require('./get-badges');
+const getFollowsRouter = require('./get-follows');
+const postFollowsRouter = require('./post-follows');
+const deleteFollowRouter = require('./delete-follow');
 
 const router = express.Router();
 
+router.use(getUsersListRouter);
 router.use(getTopFiveRouter);
 router.use(putTopFiveRouter);
 router.use(getBadgesRouter);
+router.use(getFollowsRouter);
+router.use(postFollowsRouter);
+router.use(deleteFollowRouter);
 
 module.exports = router;
 

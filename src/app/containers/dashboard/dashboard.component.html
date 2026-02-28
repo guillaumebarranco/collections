@@ -4,11 +4,29 @@
 <div class="dashboard-container">
   <div class="dashboard-header">
     <h1>Tableau de bord</h1>
-    @if (isAdmin()) {
-    <button class="makya-btn" type="button" [routerLink]="'/admin'">
-      Aller sur la vue Admin
-    </button>
-    }
+    <div class="dashboard-header-actions">
+      @if (isOwnUserDashboard()) {
+      <button
+        class="makya-btn makya-btn--secondary"
+        type="button"
+        (click)="openFollowsModal()"
+      >
+        Comptes suivis
+      </button>
+      } @if (!isOwnUserDashboard()) {
+      <button
+        class="makya-btn makya-btn--secondary"
+        type="button"
+        (click)="goToOwnDashboard()"
+      >
+        Retour sur mon dashboard
+      </button>
+      } @if (isAdmin()) {
+      <button class="makya-btn" type="button" [routerLink]="'/admin'">
+        Aller sur la vue Admin
+      </button>
+      }
+    </div>
   </div>
 
   <app-view-toggle
@@ -291,10 +309,21 @@
 </div>
 } @if(userId() && !userHasData()) {
 <div class="dashboard-container dashboard-logged-user-no-data">
+  <div class="dashboard-header">
+    <h1>Tableau de bord</h1>
+    @if (isOwnUserDashboard()) {
+    <button
+      class="makya-btn makya-btn--secondary"
+      type="button"
+      (click)="openFollowsModal()"
+    >
+      Comptes suivis
+    </button>
+    }
+  </div>
   <div class="dashboard-character">
     <img src="/logo.png" alt="Makya" class="character-image" />
   </div>
-  <h1>Tableau de bord</h1>
   <p>
     Bonjour {{ userId() }} ! Vous n'avez pas encore de données dans votre
     tableau de bord. <br /><br />

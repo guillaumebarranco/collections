@@ -45,12 +45,16 @@ export type OtherUserManwhaRating = {
 
 export async function fetchOtherUsersManwhasRatedFromApi(
   userId: string,
-  minRating = 4
+  minRating = 4,
+  followedUserIds: string[] = []
 ): Promise<OtherUserManwhaRating[]> {
   const params = new URLSearchParams({
     userId,
     minRating: String(minRating),
   });
+  if (followedUserIds.length > 0) {
+    params.set('followedUserIds', followedUserIds.join(','));
+  }
   const response = await fetch(
     `${getApiBaseUrl()}/manwhas/others-users-manwhas-rated?${params.toString()}`
   );
