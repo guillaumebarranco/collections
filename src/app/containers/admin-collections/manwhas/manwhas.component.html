@@ -23,12 +23,10 @@
     <div class="manwha-card">
       <app-manwha
         [manwha]="manwha"
-        [quizzs]="quizzs()"
         [readOnly]="false"
         [isReadlistView]="false"
         [selectedView]="'read'"
         (editRequested)="openEditManwhaDialog(manwha)"
-        (openQuizz)="openQuizzModal($event)"
         (manwhaUpdated)="onManwhaUpdated()"
       ></app-manwha>
     </div>

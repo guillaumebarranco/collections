@@ -16,8 +16,8 @@ import {
   EntityCardEntityData,
 } from '../../entity-card-rating-and-buttons/entity-card-rating-and-buttons.component';
 import { AuthService } from '../../../core/auth.service';
-import { Quizz, EntityType } from '../../../models/quizz-model';
-import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
+import { EntityType } from '../../../models/quizz-model';
+
 import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { BookView } from '../../../containers/collections/books/books.utils';
@@ -47,7 +47,7 @@ export class BookComponent {
   private readonly dialog = inject(MatDialog);
 
   @Input() book!: any;
-  @Input() quizzs: Quizz[] = [];
+
   @Input() readOnly = false;
   @Input() recommendationText = '';
   @Input() isInReadlist = false;
@@ -56,7 +56,7 @@ export class BookComponent {
   @Input() isReadlistView = false;
   @Input() selectedView: BookView = 'read';
   @Output() editRequested = new EventEmitter<void>();
-  @Output() openQuizz = new EventEmitter<Quizz[]>();
+
   @Output() addToReadlist = new EventEmitter<any>();
   @Output() readPriorityUpdated = new EventEmitter<{
     book: any;
@@ -107,20 +107,6 @@ export class BookComponent {
       entityType: EntityType.BOOK,
       wantToReRead: !!this.book.wantToReadAgain,
     };
-  }
-
-  getEntityQuizzs(): Quizz[] {
-    return this.quizzs.filter(
-      (quizz) =>
-        quizz.entityType === EntityType.BOOK &&
-        matchesQuizzEntityTitle(this.book.title, quizz.entityTitle)
-    );
-  }
-
-  openQuizzModal(): void {
-    const entityQuizzs = this.getEntityQuizzs();
-    if (entityQuizzs.length === 0) return;
-    this.openQuizz.emit(entityQuizzs);
   }
 
   updateReadPriority(priority: number): void {

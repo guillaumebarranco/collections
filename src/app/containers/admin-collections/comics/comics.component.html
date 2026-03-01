@@ -23,12 +23,10 @@
     <div class="comic-card">
       <app-comic
         [comic]="comic"
-        [quizzs]="quizzs()"
         [readOnly]="false"
         [isReadlistView]="false"
         [selectedView]="'read'"
         (editRequested)="openEditComicDialog(comic)"
-        (openQuizz)="openQuizzModal($event)"
         (comicUpdated)="onComicUpdated()"
       ></app-comic>
     </div>

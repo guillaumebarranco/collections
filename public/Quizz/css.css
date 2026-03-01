@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+body {font-family:Georgia,Times New Roman, Times, serif; font-size: 80%;background: black;}
+
+h1 {color: white;}
+h2 {color: grey;}
+p {color: white;}
+img {border-radius: 25px; }
+a:link {color :#c36;text-decoration:none;}
+/* a:link sa veut dire aspect du lien qui n'a jamais été cliqué */
+
+a:visited {color:#c36;text-decoration:none;}
+/* aspect du lien qui a déjà été cliqué */
+
+a:hover{text-decoration:none; color:#ccc;}
+/* aspect du lien au survol */
+
+a:active{background-color:#ccc;}
+/* écrire ces 4 classe "a" toujours dans cette ordre là */
+
+#lor {text-align: center;}
+#menu {margin-left: 455px;}
+#menu ul {
+ margin:0;
+ padding:0;
+ list-style-type:none;
+ text-align:center;
+ }
+#menu li {
+ float:left;
+ margin:auto;
+ padding:0;
+ background: black;
+ 
+ }
+#menu li a {
+ display:block;
+ width:100px;
+ color:white;
+ text-decoration:none;
+ padding:5px;
+
+ }
+#menu li a:link {
+ color:grey;
+ }
+ #menu li a:visited{
+ color:grey;
+ }
+ #menu li a:hover {
+ color:white;
+ }
+ 
+ #menu ul li ul {
+ display:none;
+ }
+ 
+ #menu ul li:hover ul {
+ display:block;
+ }
+#menu li:hover ul li {
+ float:none;
+ }
+ 

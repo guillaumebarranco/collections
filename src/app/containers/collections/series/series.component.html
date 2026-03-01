@@ -40,12 +40,14 @@
         [serie]="serie"
         [list]="recommendedSeries()"
         [index]="i"
-        [quizzs]="quizzs()"
         [readOnly]="true"
         [recommendationText]="getSerieRecommendationText(serie)"
-        [recommendationBadge]="serieAlreadyInUserWatchlist(serie) ? 'Déjà dans votre watchlist' : 'Recommandé'"
+        [recommendationBadge]="
+          serieAlreadyInUserWatchlist(serie)
+            ? 'Déjà dans votre watchlist'
+            : 'Recommandé'
+        "
         [isInWatchlist]="serieAlreadyInUserWatchlist(serie)"
-        (openQuizz)="openQuizzModal($event)"
         (addToWatchlist)="addSerieToWatchlist($event)"
       ></app-serie>
     </div>
@@ -81,12 +83,10 @@
             [serie]="serie"
             [list]="sagaGroup.seenSeries"
             [index]="i"
-            [quizzs]="quizzs()"
             [selectedView]="selectedView()"
             [showTopFiveSelector]="showTopFiveRank()"
             [topFiveRank]="getTopFiveRank(serie)"
             (serieUpdated)="refreshSeries()"
-            (openQuizz)="openQuizzModal($event)"
             (topFiveRankChange)="onTopFiveRankChange(serie, $event)"
             (wantToReWatch)="markSerieAsWantToReWatch($event)"
             (haveReWatched)="markSerieAsReWatched($event)"
@@ -110,8 +110,7 @@
           }
         </div>
       </div>
-      }
-      }
+      } }
     </section>
     }
   </div>
@@ -145,12 +144,10 @@
             [serie]="serie"
             [list]="countryGroup.seenSeries"
             [index]="i"
-            [quizzs]="quizzs()"
             [selectedView]="selectedView()"
             [showTopFiveSelector]="showTopFiveRank()"
             [topFiveRank]="getTopFiveRank(serie)"
             (serieUpdated)="refreshSeries()"
-            (openQuizz)="openQuizzModal($event)"
             (topFiveRankChange)="onTopFiveRankChange(serie, $event)"
             (wantToReWatch)="markSerieAsWantToReWatch($event)"
             (haveReWatched)="markSerieAsReWatched($event)"
@@ -174,8 +171,7 @@
           }
         </div>
       </div>
-      }
-      }
+      } }
     </section>
     }
   </div>
@@ -187,13 +183,11 @@
         [serie]="serie"
         [list]="sortedSeries()"
         [index]="i"
-        [quizzs]="quizzs()"
         [isWatchlistView]="selectedView() === 'watchlist'"
         [selectedView]="selectedView()"
         [showTopFiveSelector]="showTopFiveRank()"
         [topFiveRank]="getTopFiveRank(serie)"
         (serieUpdated)="refreshSeries()"
-        (openQuizz)="openQuizzModal($event)"
         (topFiveRankChange)="onTopFiveRankChange(serie, $event)"
         (watchPriorityUpdated)="updateWatchPriority($event)"
         (wantToReWatch)="markSerieAsWantToReWatch($event)"
@@ -238,7 +232,9 @@
         <input
           type="checkbox"
           [checked]="optionalViewConfig().toReWatch"
-          (change)="onOptionalViewChange('toReWatch', $any($event.target).checked)"
+          (change)="
+            onOptionalViewChange('toReWatch', $any($event.target).checked)
+          "
         />
         À revoir
       </label>
@@ -254,7 +250,9 @@
         <input
           type="checkbox"
           [checked]="optionalViewConfig().countries"
-          (change)="onOptionalViewChange('countries', $any($event.target).checked)"
+          (change)="
+            onOptionalViewChange('countries', $any($event.target).checked)
+          "
         />
         Voir par pays
       </label>
@@ -262,7 +260,9 @@
         <input
           type="checkbox"
           [checked]="optionalViewConfig().recommendations"
-          (change)="onOptionalViewChange('recommendations', $any($event.target).checked)"
+          (change)="
+            onOptionalViewChange('recommendations', $any($event.target).checked)
+          "
         />
         Recommandations
       </label>

@@ -41,12 +41,14 @@
         [game]="game"
         [list]="recommendedGames()"
         [index]="i"
-        [quizzs]="quizzs()"
         [readOnly]="true"
         [recommendationText]="getGameRecommendationText(game)"
-        [recommendationBadge]="gameAlreadyInUserGamelist(game) ? 'Déjà dans votre gamelist' : 'Recommandé'"
+        [recommendationBadge]="
+          gameAlreadyInUserGamelist(game)
+            ? 'Déjà dans votre gamelist'
+            : 'Recommandé'
+        "
         [isInGamelist]="gameAlreadyInUserGamelist(game)"
-        (openQuizz)="openQuizzModal($event)"
         (addToGamelist)="addGameToGamelist($event)"
       ></app-game>
     </div>
@@ -60,13 +62,11 @@
         [game]="game"
         [list]="sortedGames()"
         [index]="i"
-        [quizzs]="quizzs()"
         [isGamelistView]="selectedView() === 'gamelist'"
         [selectedView]="selectedView()"
         [showTopFiveSelector]="showTopFiveRank()"
         [topFiveRank]="getTopFiveRank(game)"
         (gameUpdated)="refreshGames()"
-        (openQuizz)="openQuizzModal($event)"
         (topFiveRankChange)="onTopFiveRankChange(game, $event)"
         (gamelistPriorityUpdated)="updateGamelistPriority($event)"
         (wantToRePlay)="markGameAsWantToRePlay($event)"
@@ -103,7 +103,9 @@
         <input
           type="checkbox"
           [checked]="optionalViewConfig().platined"
-          (change)="onOptionalViewChange('platined', $any($event.target).checked)"
+          (change)="
+            onOptionalViewChange('platined', $any($event.target).checked)
+          "
         />
         Jeux platinés
       </label>
@@ -119,7 +121,9 @@
         <input
           type="checkbox"
           [checked]="optionalViewConfig().finished"
-          (change)="onOptionalViewChange('finished', $any($event.target).checked)"
+          (change)="
+            onOptionalViewChange('finished', $any($event.target).checked)
+          "
         />
         Jeux terminés (100%)
       </label>
@@ -127,7 +131,9 @@
         <input
           type="checkbox"
           [checked]="optionalViewConfig().toRePlay"
-          (change)="onOptionalViewChange('toRePlay', $any($event.target).checked)"
+          (change)="
+            onOptionalViewChange('toRePlay', $any($event.target).checked)
+          "
         />
         À rejouer
       </label>
@@ -135,7 +141,9 @@
         <input
           type="checkbox"
           [checked]="optionalViewConfig().recommendations"
-          (change)="onOptionalViewChange('recommendations', $any($event.target).checked)"
+          (change)="
+            onOptionalViewChange('recommendations', $any($event.target).checked)
+          "
         />
         Recommandations
       </label>

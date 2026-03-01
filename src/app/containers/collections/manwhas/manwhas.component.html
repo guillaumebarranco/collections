@@ -52,11 +52,13 @@
       <app-manwha
         [manwha]="manwha"
         [readOnly]="true"
-        [quizzs]="quizzs()"
         [recommendationText]="getManwhaRecommendationText(manwha)"
-        [recommendationBadge]="manwhaAlreadyInUserReadlist(manwha) ? 'Déjà dans votre readlist' : 'Recommandé'"
+        [recommendationBadge]="
+          manwhaAlreadyInUserReadlist(manwha)
+            ? 'Déjà dans votre readlist'
+            : 'Recommandé'
+        "
         [isInReadlist]="manwhaAlreadyInUserReadlist(manwha)"
-        (openQuizz)="openQuizzModal($event)"
         (addToReadlist)="addManwhaToReadlist($event)"
       ></app-manwha>
     </div>
@@ -68,14 +70,12 @@
     <div class="manwha-card">
       <app-manwha
         [manwha]="manwha"
-        [quizzs]="quizzs()"
         [readOnly]="selectedView() === 'readlist'"
         [isReadlistView]="selectedView() === 'readlist'"
         [selectedView]="selectedView()"
         [showTopFiveSelector]="showTopFiveRank()"
         [topFiveRank]="getTopFiveRank(manwha)"
         (editRequested)="openEditManwhaDialog(manwha)"
-        (openQuizz)="openQuizzModal($event)"
         (topFiveRankChange)="onTopFiveRankChange(manwha, $event)"
         (readPriorityUpdated)="updateReadPriority($event)"
         (wantToReRead)="markManwhaAsWantToReRead($event)"
@@ -105,7 +105,9 @@
   >
     <div class="manwhas-config-header">
       <h2>Configurer ma vue manwhas</h2>
-      <button class="manwhas-config-close" (click)="closeViewConfig()">✕</button>
+      <button class="manwhas-config-close" (click)="closeViewConfig()">
+        ✕
+      </button>
     </div>
     <div class="manwhas-config-body">
       <p class="manwhas-config-subtitle">Choisissez les onglets à afficher.</p>
@@ -121,7 +123,9 @@
         <input
           type="checkbox"
           [checked]="optionalViewConfig().toReRead"
-          (change)="onOptionalViewChange('toReRead', $any($event.target).checked)"
+          (change)="
+            onOptionalViewChange('toReRead', $any($event.target).checked)
+          "
         />
         À relire
       </label>
@@ -129,7 +133,9 @@
         <input
           type="checkbox"
           [checked]="optionalViewConfig().recommendations"
-          (change)="onOptionalViewChange('recommendations', $any($event.target).checked)"
+          (change)="
+            onOptionalViewChange('recommendations', $any($event.target).checked)
+          "
         />
         Recommandations
       </label>

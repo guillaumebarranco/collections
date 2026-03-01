@@ -30,9 +30,7 @@
         <div class="book-card">
           <app-book
             [book]="book"
-            [quizzs]="quizzs()"
             (editRequested)="openEditBookDialog(book)"
-            (openQuizz)="openQuizzModal($event)"
           ></app-book>
         </div>
         }
@@ -63,8 +61,7 @@
       <h2 class="books-author-title">
         {{ sagaGroup.saga }} ({{
           sagaGroup.readBooks.length + sagaGroup.missingBooks.length
-        }})
-        @if (sagaGroup.isSagaFinished) {
+        }}) @if (sagaGroup.isSagaFinished) {
         <span style="color: green">Saga terminée</span>
         } @else {
         <span style="color: orange">Saga en cours</span>
@@ -75,9 +72,7 @@
         <div class="book-card">
           <app-book
             [book]="book"
-            [quizzs]="quizzs()"
             (editRequested)="openEditBookDialog(book)"
-            (openQuizz)="openQuizzModal($event)"
           ></app-book>
         </div>
         }
@@ -124,9 +119,7 @@
         <div class="book-card">
           <app-book
             [book]="book"
-            [quizzs]="quizzs()"
             (editRequested)="openEditBookDialog(book)"
-            (openQuizz)="openQuizzModal($event)"
           ></app-book>
         </div>
         }
@@ -156,9 +149,7 @@
     <div class="book-card">
       <app-book
         [book]="book"
-        [quizzs]="quizzs()"
         (editRequested)="openEditBookDialog(book)"
-        (openQuizz)="openQuizzModal($event)"
         (bookUpdated)="refreshBooks()"
       ></app-book>
     </div>

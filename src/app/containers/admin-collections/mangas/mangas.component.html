@@ -23,12 +23,10 @@
     <div class="manga-card">
       <app-manga
         [manga]="manga"
-        [quizzs]="quizzs()"
         [readOnly]="false"
         [isReadlistView]="false"
         [selectedView]="'read'"
         (editRequested)="openEditMangaDialog(manga)"
-        (openQuizz)="openQuizzModal($event)"
         (mangaUpdated)="onMangaUpdated()"
       ></app-manga>
     </div>

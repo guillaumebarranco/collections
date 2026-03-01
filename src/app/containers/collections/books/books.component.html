@@ -53,7 +53,6 @@
       <app-book
         [book]="book"
         [readOnly]="true"
-        [quizzs]="quizzs()"
         [recommendationText]="getBookRecommendationText(book)"
         [recommendationBadge]="
           bookAlreadyInUserReadlist(book)
@@ -62,7 +61,6 @@
         "
         [sagaBadge]="getSagaBadge(book)"
         [isInReadlist]="bookAlreadyInUserReadlist(book)"
-        (openQuizz)="openQuizzModal($event)"
         (addToReadlist)="addBookToReadlist($event)"
       >
       </app-book>
@@ -98,12 +96,10 @@
           <div class="book-card">
             <app-book
               [book]="book"
-              [quizzs]="quizzs()"
               [showTopFiveSelector]="showTopFiveRank()"
               [selectedView]="selectedView()"
               [topFiveRank]="getTopFiveRank(book)"
               (editRequested)="openEditBookDialog(book)"
-              (openQuizz)="openQuizzModal($event)"
               (topFiveRankChange)="onTopFiveRankChange(book, $event)"
               (wantToReRead)="markBookAsWantToReRead($event)"
               (haveReRead)="markBookAsReRead($event)"
@@ -149,12 +145,10 @@
           <div class="book-card">
             <app-book
               [book]="book"
-              [quizzs]="quizzs()"
               [showTopFiveSelector]="showTopFiveRank()"
               [selectedView]="selectedView()"
               [topFiveRank]="getTopFiveRank(book)"
               (editRequested)="openEditBookDialog(book)"
-              (openQuizz)="openQuizzModal($event)"
               (topFiveRankChange)="onTopFiveRankChange(book, $event)"
               (wantToReRead)="markBookAsWantToReRead($event)"
               (haveReRead)="markBookAsReRead($event)"
@@ -203,12 +197,10 @@
           <div class="book-card">
             <app-book
               [book]="book"
-              [quizzs]="quizzs()"
               [showTopFiveSelector]="showTopFiveRank()"
               [selectedView]="selectedView()"
               [topFiveRank]="getTopFiveRank(book)"
               (editRequested)="openEditBookDialog(book)"
-              (openQuizz)="openQuizzModal($event)"
               (topFiveRankChange)="onTopFiveRankChange(book, $event)"
               (wantToReRead)="markBookAsWantToReRead($event)"
               (haveReRead)="markBookAsReRead($event)"
@@ -241,14 +233,12 @@
       <div class="book-card">
         <app-book
           [book]="book"
-          [quizzs]="quizzs()"
           [showTopFiveSelector]="showTopFiveRank()"
           [isReadlistView]="selectedView() === 'readlist'"
           [selectedView]="selectedView()"
           [isInReadlist]="bookAlreadyInUserReadlist(book)"
           [topFiveRank]="getTopFiveRank(book)"
           (editRequested)="openEditBookDialog(book)"
-          (openQuizz)="openQuizzModal($event)"
           (readPriorityUpdated)="updateReadPriority($event)"
           (bookUpdated)="refreshBooks()"
           (topFiveRankChange)="onTopFiveRankChange(book, $event)"

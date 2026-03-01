@@ -40,11 +40,13 @@
       <app-comic
         [comic]="comic"
         [readOnly]="true"
-        [quizzs]="quizzs()"
         [recommendationText]="getComicRecommendationText(comic)"
-        [recommendationBadge]="comicAlreadyInUserReadlist(comic) ? 'Déjà dans votre readlist' : 'Recommandé'"
+        [recommendationBadge]="
+          comicAlreadyInUserReadlist(comic)
+            ? 'Déjà dans votre readlist'
+            : 'Recommandé'
+        "
         [isInReadlist]="comicAlreadyInUserReadlist(comic)"
-        (openQuizz)="openQuizzModal($event)"
         (addToReadlist)="addComicToReadlist($event)"
       ></app-comic>
     </div>
@@ -56,14 +58,12 @@
     <div class="comic-card">
       <app-comic
         [comic]="comic"
-        [quizzs]="quizzs()"
         [readOnly]="selectedView() === 'readlist'"
         [isReadlistView]="selectedView() === 'readlist'"
         [selectedView]="selectedView()"
         [showTopFiveSelector]="showTopFiveRank()"
         [topFiveRank]="getTopFiveRank(comic)"
         (editRequested)="openEditComicDialog(comic)"
-        (openQuizz)="openQuizzModal($event)"
         (topFiveRankChange)="onTopFiveRankChange(comic, $event)"
         (readPriorityUpdated)="updateReadPriority($event)"
         (wantToReRead)="markComicAsWantToReRead($event)"
@@ -109,7 +109,9 @@
         <input
           type="checkbox"
           [checked]="optionalViewConfig().toReRead"
-          (change)="onOptionalViewChange('toReRead', $any($event.target).checked)"
+          (change)="
+            onOptionalViewChange('toReRead', $any($event.target).checked)
+          "
         />
         À relire
       </label>
@@ -117,7 +119,9 @@
         <input
           type="checkbox"
           [checked]="optionalViewConfig().recommendations"
-          (change)="onOptionalViewChange('recommendations', $any($event.target).checked)"
+          (change)="
+            onOptionalViewChange('recommendations', $any($event.target).checked)
+          "
         />
         Recommandations
       </label>

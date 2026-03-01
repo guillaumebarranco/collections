@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8"/>
+<title>Quizz Réplques cultes</title>
+       <link rel="stylesheet" type="text/css" href="css.css" />
+</head>
+
+<body>
+<script>
+
+var vie = 3, nombreUtilisateur, nombreATrouver, motUtilisateur, motATrouver, un, score = 0;
+alert('Combien de questions allez-vous tenir avant une mort inévitable?');
+alert('Vous démarrez avec 3 vies');
+alert('Vous perdez une vie à chaque erreur!');
+alert('Attention, ça commence!');
+alert('Rappelez-vous bien de toujours écrire vos réponses avec une majuscule à la première lettre. Chaque réponse doit être un seul mot ou un nombre. Répondez en chiffre ou nombre lorsqu\'on vous demande un nombre, un numéro...');
+//Question 1
+motUtilisateur = prompt('Quel acteur prononce la phrase : "Tu es doué petit, très doué. Mais tant que je serais dans le métier, tu ne seras jamais que le second" ? Donnez le nom de famille.');
+motATrouver = 'Carrey';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+//Question 2
+motUtilisateur = prompt('Dans quel film entend-on : "Je reviendrai" ?');
+motATrouver = 'Terminator';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies'); 
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vies');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+
+//Question 3
+motUtilisateur = prompt('Qui dit : "Voilà ! Vois en moi l\'image d\'un humble vétéran de vaudeville, distribué vicieusement dans les rôles de victime et de vilain par les vicissitudes de la vie. Ce visage, plus qu\'un vil vernis de vanité, est un vestige de la vox populi aujourd\'hui vacante, évanouie. Cependant, cette vaillante visite d\'une vexation passée se retrouve vivifiée et a fait vœu de vaincre cette vénale et virulente vermine vantant le vice et versant dans la vicieusement violente et vorace violation de la volition. Un seul verdict : la vengeance. Une vendetta telle une offrande votive mais pas en vain car sa valeur et sa véracité viendront un jour faire valoir le vigilant et le vertueux. En vérité ce velouté de verbiage vire vraiment au verbeux, alors laisse-moi simplement ajouter que c\'est un véritable honneur que de te rencontrer." ? Donner le nom du personnage dans le film.');
+motATrouver = 'V';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+if (vie > 0) {
+//Question 4
+motUtilisateur = prompt('Dans quel film entend-on : "19 minutes 32 ! Sa vous laissera même le temps d\'prendre un p\'tit café !" ?');
+motATrouver = 'Taxi';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 5
+motUtilisateur = prompt('A quelle film fait référence cette phrase : "Néo est l\'élu car Chuck Norris a voté pour lui." ?');
+motATrouver = 'Matrix';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 6
+motUtilisateur = prompt('Quel acteur prononce la phrase : "J\'ai confiance en tout le monde. Ce dont je me méfie c\'est du diable qui est en chaque homme" ? Donnez le nom de famille.');
+motATrouver = 'Connery';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 7
+motUtilisateur = prompt('Dans quel film entend t-on : "Je vous pourchasserais. Je vous trouverais. Et je vous tuerais." ?');
+motATrouver = 'Taken';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 8
+nombreUtilisateur = parseInt(prompt('Dans quel numéro de  l\'Age de Glace entend-on : "Même que des fois moi je vomis !" ?'));
+nombreATrouver = 2;
+if (nombreUtilisateur == nombreATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 9
+motUtilisateur = prompt('Dans quel film entend t-on : "Règle de base : N\'importe quel homme peut envouter n\'importe quelle femme, il faut la baguette magique." ? ');
+motATrouver = 'Hitch';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+// Question 10
+motUtilisateur = prompt('Dans quel film entend t-on : "- Tu pues l\'alcool ! - C\'est parce que j\'ai bu pauvre conne !"?');
+motATrouver = 'Hancock';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 11
+motUtilisateur = prompt('Dans quel film entend t-on : "En ville tu fais la loi, mais ici c\'est moi. Alors me fais pas chier, ou j\'te ferais une guerre comme t\'en as jamais vu." ?');
+motATrouver = 'Rambo';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 12
+motUtilisateur = prompt('Dans quel film entend t-on : "Je t\'aime papa. Et, je t\'aime maman." ?');
+motATrouver = 'Tanguy';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 13
+motUtilisateur = prompt('Dans quel film entend t-on : "Le signal sonore a dit que l\'bide est plein !" ?');
+motATrouver = 'Garfield';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 14
+motUtilisateur = prompt('Dans quel film entend t-on : "Très souvent il gagnait, souvent je gagnais presque." ?');
+motATrouver = 'Megamind';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 15
+motUtilisateur = prompt('Qui dit : "Vous savez moi je crois pas qu\'il y ai de bonnes ou de mauvaises situations. Moi si je devais résumer ma vie avec vous aujourd\'hui, je dirais que c\'est d\'abord des rencontres. Des gens qui m\'ont tendus la main à un moment où je ne pouvais pas, où j\'étais seul chez moi. Et c\'est assez drôle quand on se dit que quand on a le goût de la chose, le goût de la chose bien faite, parfois on ne trouve pas l\'interlocuteur à qui parler, je dirais le miroir qui reflète... Alors bien sur comme je le disais ce n\'est pas mon cas, moi je dis merci à la vie. Je dis merci à la vie, je chante la vie je danse la vie, je ne suis qu\'AMOUR ! Et quand certains me disent, mais comment fais-tu pour avoir cette humanité? Eh bien je leur répond très simplement que c\'est ce goût de la vie qui m\'a, poussé aujourd\'hui à entreprendre une construction mécanique, mais qui sait demain à me mettre au service de la communauté, à faire le don de.. De... De soi." ? Donner le nom du personnage dans le film.');
+motATrouver = 'Otis';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 16
+motUtilisateur = prompt('Dans quel film entend t-on : "T\'as déjà dit à quelqu\'un : fait péter l\'clafoutis ! Et qui t\'a dit : j\'aime pas le clafoutis !" ?');
+motATrouver = 'Shrek';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 17
+nombreUtilisateur = parseInt(prompt('Dans quel Star Wars, dans l\'ordre chronologique de la série, entend t-on : "Si tu n\'es pas avec moi, alors tu es contre moi." ? Donnez le numéro.'));
+nombreATrouver = 3;
+if (nombreUtilisateur == nombreATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 18
+motUtilisateur = prompt('Quel acteur prononce la célèbre phrase : "J\'suis trop vieux pour ces conneries." ? Donnez le nom de famille.');
+motATrouver = 'Glover';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 19
+motUtilisateur = prompt('A quel acteur est destiné cette phrase : "Est-ce que toi comprendre les mots qui sortent de ma bouche ?" ? Donnez le nom de famille.');
+motATrouver = 'Chan';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 20
+motUtilisateur = prompt('Donnez le prénom de celui qui dit : "Maintenant il faut que je retrouve ma famille, que je sauve ma ville, et que je perde 5 kilos !" ?');
+motATrouver = 'Homer';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+alert('Félicitations ! Vous avez réussi à terminer ce Quizz, vous êtes un vrai caid ! Il vous restait ' + vie + ' vies et votre score est de ' + score + ' bonnes réponses.');
+} else {
+alert('You\'re dead people');
+}
+
+</script>
+<p><a href="../index.html">Retourner à l'index</a></p><br><br>
+<img src ="imgquizz/rc.jpg" width="300" height="300" alt="photos des répliques cultes">
+<br>
+<div id="lor"><p><a href="http://webarranco.fr/livre-dor/livre_signer.php?lng_sel=lg01_fr">Mettez en ligne votre score !</a></p></div>
+</body>

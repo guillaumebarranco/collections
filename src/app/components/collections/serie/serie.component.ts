@@ -17,7 +17,7 @@ import {
   MoveEntityReviewModalComponent,
   MoveEntityReviewModalResult,
 } from '../../move-entity-review-modal/move-entity-review-modal.component';
-import { Quizz, EntityType } from '../../../models/quizz-model';
+import { EntityType } from '../../../models/quizz-model';
 import { SerieView } from '../../../containers/collections/series/series.utils';
 import { EditSerieComponent } from '../../../containers/edit/edit-serie/edit-serie.component';
 import { EditSerieSeasonsComponent } from '../../../containers/edit/edit-serie-seasons/edit-serie-seasons.component';
@@ -27,7 +27,7 @@ import {
   EntityCardEntityData,
 } from '../../entity-card-rating-and-buttons/entity-card-rating-and-buttons.component';
 import { AuthService } from '../../../core/auth.service';
-import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
+
 import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { StarInfo } from '../../../models/various-model';
@@ -55,7 +55,7 @@ export class SerieComponent {
   @Input() serie!: Serie;
   @Input() list: Serie[] = [];
   @Input() index = -1;
-  @Input() quizzs: Quizz[] = [];
+
   @Input() readOnly = false;
   @Input() recommendationText = '';
   @Input() isInWatchlist = false;
@@ -63,7 +63,7 @@ export class SerieComponent {
   @Input() isWatchlistView = false;
   @Input() selectedView: SerieView = 'finished';
   @Output() serieUpdated = new EventEmitter<void>();
-  @Output() openQuizz = new EventEmitter<Quizz[]>();
+
   @Output() addToWatchlist = new EventEmitter<Serie>();
   @Output() watchPriorityUpdated = new EventEmitter<{
     serie: Serie;
@@ -195,20 +195,6 @@ export class SerieComponent {
 
   getRatingStars(rating: number): StarInfo[] {
     return getRatingStars(rating);
-  }
-
-  getEntityQuizzs(): Quizz[] {
-    return this.quizzs.filter(
-      (quizz) =>
-        quizz.entityType === EntityType.SERIE &&
-        matchesQuizzEntityTitle(this.serie.title, quizz.entityTitle)
-    );
-  }
-
-  openQuizzModal(): void {
-    const entityQuizzs = this.getEntityQuizzs();
-    if (entityQuizzs.length === 0) return;
-    this.openQuizz.emit(entityQuizzs);
   }
 
   updateWatchPriority(priority: number): void {

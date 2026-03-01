@@ -55,9 +55,7 @@
             [list]="sagaGroup.seenMovies"
             [index]="i"
             [selectedView]="selectedView()"
-            [quizzs]="quizzs()"
             (movieUpdated)="refreshMovies()"
-            (openQuizz)="openQuizzModal($event)"
           ></app-movie>
         </div>
         }
@@ -113,9 +111,7 @@
             [list]="actorGroup.seenMovies"
             [index]="i"
             [selectedView]="selectedView()"
-            [quizzs]="quizzs()"
             (movieUpdated)="refreshMovies()"
-            (openQuizz)="openQuizzModal($event)"
           ></app-movie>
         </div>
         }
@@ -173,9 +169,7 @@
             [list]="countryGroup.seenMovies"
             [selectedView]="selectedView()"
             [index]="i"
-            [quizzs]="quizzs()"
             (movieUpdated)="refreshMovies()"
-            (openQuizz)="openQuizzModal($event)"
           ></app-movie>
         </div>
         }
@@ -234,9 +228,7 @@
             [list]="directorGroup.seenMovies"
             [selectedView]="selectedView()"
             [index]="i"
-            [quizzs]="quizzs()"
             (movieUpdated)="refreshMovies()"
-            (openQuizz)="openQuizzModal($event)"
           ></app-movie>
         </div>
         }
@@ -274,9 +266,7 @@
         [list]="sortedMovies()"
         [index]="i"
         [selectedView]="selectedView()"
-        [quizzs]="quizzs()"
         (movieUpdated)="refreshMovies()"
-        (openQuizz)="openQuizzModal($event)"
       ></app-movie>
     </div>
     }

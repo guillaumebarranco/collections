@@ -23,12 +23,10 @@
     <div class="bd-card">
       <app-bd
         [bd]="bd"
-        [quizzs]="quizzs()"
         [readOnly]="false"
         [isReadlistView]="false"
         [selectedView]="'read'"
         (editRequested)="openEditBdDialog(bd)"
-        (openQuizz)="openQuizzModal($event)"
         (bdUpdated)="onBdUpdated()"
       ></app-bd>
     </div>

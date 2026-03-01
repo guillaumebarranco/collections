@@ -18,8 +18,8 @@ import {
 import { ReviewModalComponent } from '../../review-modal/review-modal.component';
 import { AuthService } from '../../../core/auth.service';
 import { Bd } from '../../../models/bd-model';
-import { Quizz, EntityType } from '../../../models/quizz-model';
-import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
+import { EntityType } from '../../../models/quizz-model';
+
 import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
 import { BdView } from '../../../containers/collections/bds/bds.utils';
 import {
@@ -47,7 +47,7 @@ export class BdComponent {
   private readonly dialog = inject(MatDialog);
 
   @Input() bd!: Bd;
-  @Input() quizzs: Quizz[] = [];
+
   @Input() readOnly = false;
   @Input() recommendationText = '';
   @Input() isInReadlist = false;
@@ -55,7 +55,7 @@ export class BdComponent {
   @Input() isReadlistView = false;
   @Input() selectedView: BdView = 'read';
   @Output() editRequested = new EventEmitter<void>();
-  @Output() openQuizz = new EventEmitter<Quizz[]>();
+
   @Output() addToReadlist = new EventEmitter<Bd>();
   @Output() readPriorityUpdated = new EventEmitter<{
     bd: Bd;
@@ -102,20 +102,6 @@ export class BdComponent {
       entityType: EntityType.BD,
       wantToReRead: !!this.bd.wantToReadAgain,
     };
-  }
-
-  getEntityQuizzs(): Quizz[] {
-    return this.quizzs.filter(
-      (quizz) =>
-        quizz.entityType === EntityType.BD &&
-        matchesQuizzEntityTitle(this.bd.title, quizz.entityTitle)
-    );
-  }
-
-  openQuizzModal(): void {
-    const entityQuizzs = this.getEntityQuizzs();
-    if (entityQuizzs.length === 0) return;
-    this.openQuizz.emit(entityQuizzs);
   }
 
   updateReadPriority(priority: number): void {

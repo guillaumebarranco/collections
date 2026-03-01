@@ -12,7 +12,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { Game } from '../../../models/game-model';
 import { ReviewModalComponent } from '../../review-modal/review-modal.component';
-import { Quizz, EntityType } from '../../../models/quizz-model';
+import { EntityType } from '../../../models/quizz-model';
 import { EditGameComponent } from '../../../containers/edit/edit-game/edit-game.component';
 import { EntityCardComponent } from '../../entity-card/entity-card.component';
 import {
@@ -21,7 +21,7 @@ import {
 } from '../../entity-card-rating-and-buttons/entity-card-rating-and-buttons.component';
 import { AuthService } from '../../../core/auth.service';
 import { getGameTimePlayed } from '../../../utils/games.utils';
-import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
+
 import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { GameView } from '../../../containers/collections/games/games.utils';
@@ -52,7 +52,7 @@ export class GameComponent {
   @Input() game!: Game;
   @Input() list: Game[] = [];
   @Input() index = -1;
-  @Input() quizzs: Quizz[] = [];
+
   @Input() readOnly = false;
   @Input() recommendationText = '';
   @Input() isInGamelist = false;
@@ -60,7 +60,7 @@ export class GameComponent {
   @Input() isGamelistView = false;
   @Input() selectedView: GameView = 'finished';
   @Output() gameUpdated = new EventEmitter<void>();
-  @Output() openQuizz = new EventEmitter<Quizz[]>();
+
   @Output() addToGamelist = new EventEmitter<Game>();
   @Output() gamelistPriorityUpdated = new EventEmitter<{
     game: Game;
@@ -160,20 +160,6 @@ export class GameComponent {
     console.log(game.title, data);
 
     return data;
-  }
-
-  getEntityQuizzs(): Quizz[] {
-    return this.quizzs.filter(
-      (quizz) =>
-        quizz.entityType === EntityType.GAME &&
-        matchesQuizzEntityTitle(this.game.title, quizz.entityTitle)
-    );
-  }
-
-  openQuizzModal(): void {
-    const entityQuizzs = this.getEntityQuizzs();
-    if (entityQuizzs.length === 0) return;
-    this.openQuizz.emit(entityQuizzs);
   }
 
   updateGamelistPriority(priority: number): void {
