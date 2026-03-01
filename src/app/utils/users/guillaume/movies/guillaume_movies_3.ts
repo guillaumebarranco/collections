@@ -41,7 +41,7 @@ export const guillaumeMoviesPage3: UserMovies = [
     ratingComment: '',
   },
   {
-    title: "The Hitman's Bodyguard",
+    title: 'The Hitman\'s Bodyguard',
     director: 'Patrick Hughes',
     rating: 3,
     timesWatched: 1,
@@ -132,7 +132,7 @@ export const guillaumeMoviesPage3: UserMovies = [
     ratingComment: '',
   },
   {
-    title: "Comment c'est loin",
+    title: 'Comment c\'est loin',
     director: 'Orelsan',
     rating: 3.25,
     timesWatched: 1,
@@ -639,7 +639,7 @@ export const guillaumeMoviesPage3: UserMovies = [
     ratingComment: '',
   },
   {
-    title: "Le Diable s'Habille en Prada",
+    title: 'Le Diable s\'Habille en Prada',
     director: 'David Frankel',
     rating: 4,
     timesWatched: 10,
@@ -665,7 +665,7 @@ export const guillaumeMoviesPage3: UserMovies = [
     ratingComment: '',
   },
   {
-    title: "De l'autre côté du lit",
+    title: 'De l\'autre côté du lit',
     director: 'Peyton Reed',
     rating: 2.5,
     timesWatched: 1,
@@ -743,20 +743,6 @@ export const guillaumeMoviesPage3: UserMovies = [
     ratingComment: '',
   },
   {
-    title:
-      "Le Monde de Narnia : Le Lion, la Sorcière Blanche et l'Armoire Magique",
-    director: 'Andrew Adamson',
-    rating: 3.25,
-    timesWatched: 1,
-    firstViewedDate: '2005-12-14',
-    lastViewedDate: '2005-12-14',
-    seenAtCinema: true,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-  },
-  {
     title: 'King Kong',
     director: 'Peter Jackson',
     rating: 4,
@@ -809,7 +795,7 @@ export const guillaumeMoviesPage3: UserMovies = [
     ratingComment: '',
   },
   {
-    title: "L'honneur du dragon",
+    title: 'L\'honneur du dragon',
     director: 'Prachya Pinkaew',
     rating: 2.75,
     timesWatched: 5,
@@ -847,7 +833,6 @@ export const guillaumeMoviesPage3: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Serial Nocers',
     director: 'David Dobkin',
@@ -926,7 +911,6 @@ export const guillaumeMoviesPage3: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Leon',
     director: 'Luc Besson',
@@ -1084,7 +1068,7 @@ export const guillaumeMoviesPage3: UserMovies = [
     ratingComment: '',
   },
   {
-    title: "Je Sais ce que Vous Avez Fait l'Été Dernier",
+    title: 'Je Sais ce que Vous Avez Fait l\'Été Dernier',
     director: 'Jim Gillespie',
     rating: 3,
     timesWatched: 1,
@@ -1095,5 +1079,5 @@ export const guillaumeMoviesPage3: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-  },
+  }
 ];

@@ -1425,14 +1425,18 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Hunger Games',
     director: 'Gary Ross',
-    actors: [{ name: 'Jennifer Lawrence' }],
+    actors: [
+      {
+        name: 'Jennifer Lawrence',
+      }
+    ],
     coverUrl: '/movies_pictures/hunger_games_1.jpg',
     releaseDate: '2012-03-23',
     length: 142,
     genre: 'Action',
     saga: 'Hunger Games',
     description: '',
-    fromEntity: null,
+    fromEntity: { entityType: 'book', title: 'Hunger Games', secondEntityKey: 'Suzanne Collins' },
     countryOrigin: 'États-Unis',
   },
   {
@@ -1447,7 +1451,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
       },
       {
         name: 'Liam Hemsworth',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/the_hunger_games_catching_fire.jpg',
     releaseDate: '2013-11-27',
@@ -1455,13 +1459,17 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: 'Hunger Games',
     description: '',
-    fromEntity: null,
+    fromEntity: { entityType: 'book', title: 'Hunger Games', secondEntityKey: 'Suzanne Collins' },
     countryOrigin: 'États-Unis',
   },
   {
     title: 'Hunger Games : La Révolte - Partie 1',
     director: 'Francis Lawrence',
-    actors: [{ name: 'Jennifer Lawrence' }],
+    actors: [
+      {
+        name: 'Jennifer Lawrence',
+      }
+    ],
     coverUrl:
       '/movies_pictures/101991-the-hunger-games-mockingjay-part-1-0-150-0-225-crop.jpg',
     releaseDate: '2014-11-21',
@@ -1469,7 +1477,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     genre: 'Action',
     saga: 'Hunger Games',
     description: '',
-    fromEntity: null,
+    fromEntity: { entityType: 'book', title: 'Hunger Games', secondEntityKey: 'Suzanne Collins' },
     countryOrigin: 'États-Unis',
   },
   {
@@ -1484,7 +1492,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
       },
       {
         name: 'Liam Hemsworth',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/the_hunger_games_mockingjay_part_2.jpg',
     releaseDate: '2015-11-18',
@@ -1492,7 +1500,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: 'Hunger Games',
     description: '',
-    fromEntity: null,
+    fromEntity: { entityType: 'book', title: 'Hunger Games', secondEntityKey: 'Suzanne Collins' },
     countryOrigin: 'États-Unis',
   },
   {

@@ -5113,4 +5113,27 @@ export const ronanSeries: UserSeries = [
     wantToWatchAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: 'Percy Jackson & les Olympiens',
+    director: 'Jonathan E. Steinberg, Rick Riordan',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 3,
+        seasonTimesWatched: 1,
+        lastViewedDate: '2024-01-30',
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 3.5,
+        seasonTimesWatched: 1,
+        lastViewedDate: '2026-01-21',
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
 ];

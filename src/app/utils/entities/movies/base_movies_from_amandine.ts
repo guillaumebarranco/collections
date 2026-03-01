@@ -46,7 +46,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       },
       {
         name: 'Hugh Grant',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/1249162.jpg',
     releaseDate: '2023-12-15',
@@ -54,11 +54,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Family',
     saga: '',
     description: '',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Charlie et la chocolaterie',
-      secondEntityKey: 'Roald Dahl',
-    },
+    fromEntity: { entityType: 'book', title: 'Charlie et la Chocolaterie', secondEntityKey: 'Roald Dahl' },
     countryOrigin: 'États-Unis',
   },
   {
@@ -191,14 +187,21 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
   {
     title: 'West Side Story',
     director: 'Steven Spielberg',
-    actors: [{ name: 'Rachel Zegler' }, { name: 'Ansel Elgort' }],
+    actors: [
+      {
+        name: 'Rachel Zegler',
+      },
+      {
+        name: 'Ansel Elgort',
+      }
+    ],
     coverUrl: '/movies_pictures/2324146.jpg',
     releaseDate: '2021-12-10',
     length: 156,
     genre: 'Musical, Romance',
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: { entityType: 'book', title: 'Roméo et Juliette', secondEntityKey: 'William Shakespeare' },
     countryOrigin: 'États-Unis',
   },
   {
@@ -2296,14 +2299,21 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
   {
     title: 'West Side Story',
     director: 'Robert Wise, Jerome Robbins',
-    actors: [{ name: 'Natalie Wood' }, { name: 'Richard Beymer' }],
-    coverUrl: '/movies_pictures/West_Side_Story_2021_Official_Poster.jpg',
+    actors: [
+      {
+        name: 'Natalie Wood',
+      },
+      {
+        name: 'Richard Beymer',
+      }
+    ],
+    coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/0/0b/West_Side_Story_1961_film_poster.jpg',
     releaseDate: '1961-10-18',
     length: 152,
     genre: 'Musical, Romance',
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: { entityType: 'book', title: 'Roméo et Juliette', secondEntityKey: 'William Shakespeare' },
     countryOrigin: 'États-Unis',
   },
   {

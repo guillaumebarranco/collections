@@ -1390,19 +1390,19 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Percy Jackson : Le Voleur de Foudre',
     director: 'Chris Columbus',
-    actors: [{ name: 'Logan Lerman' }],
+    actors: [
+      {
+        name: 'Logan Lerman',
+      }
+    ],
     coverUrl:
       '/movies_pictures/30264-percy-jackson-the-olympians-the-lightning-thief-0-150-0-225-crop.jpg',
     releaseDate: '2010-02-12',
     length: 118,
     genre: 'Fantasy',
-    saga: '',
+    saga: 'Percy Jackson',
     description: '',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Le Voleur de foudre',
-      secondEntityKey: 'Rick Riordan',
-    },
+    fromEntity: { entityType: 'book', title: 'Le Voleur de foudre', secondEntityKey: 'Rick Riordan' },
     countryOrigin: 'États-Unis',
   },
   {
