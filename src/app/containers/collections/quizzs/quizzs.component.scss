@@ -1,0 +1,130 @@
+@use "../../../styles/containers.scss" as containers;
+
+.quizzs-container {
+  @include containers.container-base;
+}
+
+.quizzs-header {
+  margin-bottom: 28px;
+  text-align: center;
+
+  h1 {
+    @include containers.header-title-base;
+    margin-bottom: 8px;
+  }
+}
+
+.quizzs-intro {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.05rem;
+}
+
+.quizzs-loading,
+.quizzs-empty {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.1rem;
+  margin: 40px 0;
+}
+
+.quizzs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+  padding: 0 0 32px;
+}
+
+.quizz-card {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.quizz-card__cover {
+  position: relative;
+  aspect-ratio: 200 / 280;
+  background: #e8e4f0;
+}
+
+.quizz-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.quizz-card__type {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(102, 126, 234, 0.95);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.quizz-card__body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+}
+
+.quizz-card__title {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #2c3e50;
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.quizz-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.quizz-card__btn {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 14px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.15s ease;
+
+  &:hover {
+    opacity: 0.95;
+    transform: scale(1.02);
+  }
+}
+
+.quizz-card__level {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 500;
+  opacity: 0.9;
+  margin-top: 2px;
+}

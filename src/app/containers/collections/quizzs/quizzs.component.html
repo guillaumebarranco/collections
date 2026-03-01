@@ -1,0 +1,55 @@
+<app-menu></app-menu>
+
+<div class="quizzs-container">
+  <header class="quizzs-header">
+    <h1>Quizz</h1>
+    <p class="quizzs-intro">
+      Choisis un thème puis le quizz par créateur pour jouer.
+    </p>
+  </header>
+
+  @if (isLoading()) {
+  <p class="quizzs-loading">Chargement des quizzs...</p>
+  } @else if (cardGroups().length === 0) {
+  <p class="quizzs-empty">Aucun quizz disponible pour le moment.</p>
+  } @else {
+  <div class="quizzs-grid">
+    @for (group of cardGroups(); track group.entityType + '|' + group.entityTitle) {
+    <article class="quizz-card">
+      <div class="quizz-card__cover">
+        <img
+          [src]="group.coverUrl"
+          [alt]="group.entityTitle"
+          class="quizz-card__img"
+        />
+        <span class="quizz-card__type">{{ group.entityTypeLabel }}</span>
+      </div>
+      <div class="quizz-card__body">
+        <h2 class="quizz-card__title">{{ group.entityTitle }}</h2>
+        <div class="quizz-card__actions">
+          @for (quizz of group.quizzs; track quizz.creator + quizz.level) {
+          <button
+            type="button"
+            class="quizz-card__btn"
+            (click)="openQuizz(quizz)"
+          >
+            Quizz par {{ quizz.creator }}
+            @if (quizz.level > 1) {
+            <span class="quizz-card__level">Niveau {{ quizz.level }}</span>
+            }
+          </button>
+          }
+        </div>
+      </div>
+    </article>
+    }
+  </div>
+  }
+
+  <app-quizz-modal
+    [isOpen]="isQuizzModalOpen()"
+    [quizzs]="activeQuizzs()"
+    [preselectedQuizz]="preselectedQuizz()"
+    (close)="closeQuizzModal()"
+  ></app-quizz-modal>
+</div>

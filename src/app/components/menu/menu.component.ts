@@ -83,6 +83,7 @@ export class MenuComponent implements OnInit {
     { label: 'BD', icon: '📗', key: 'bds', hideOnMobile: false },
     { label: 'Musiques', icon: '🎵', key: 'musics', hideOnMobile: false },
     { label: 'Mix', icon: '🔀', key: 'mix', hideOnMobile: false },
+    { label: 'Quizz', icon: '🎯', key: 'quizzs', hideOnMobile: false },
   ];
 
   ngOnInit() {

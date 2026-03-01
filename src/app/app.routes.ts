@@ -58,6 +58,7 @@ import { AdminManwhasComponent } from './containers/admin-collections/manwhas/ma
 import { AdminComicsComponent } from './containers/admin-collections/comics/comics.component';
 import { AdminBdsComponent } from './containers/admin-collections/bds/bds.component';
 import { MixComponent } from './containers/mix/mix.component';
+import { QuizzsComponent } from './containers/collections/quizzs/quizzs.component';
 
 export const routes: Routes = [
   {
@@ -142,6 +143,10 @@ export const routes: Routes = [
   {
     path: 'mix',
     component: MixComponent,
+  },
+  {
+    path: 'quizzs',
+    component: QuizzsComponent,
   },
   {
     path: 'select-movies',
@@ -370,6 +375,10 @@ export const routes: Routes = [
       {
         path: 'mix',
         component: MixComponent,
+      },
+      {
+        path: 'quizzs',
+        component: QuizzsComponent,
       },
       {
         path: 'select-movies',

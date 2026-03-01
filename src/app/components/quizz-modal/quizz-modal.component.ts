@@ -13,6 +13,8 @@ import { normalizeQuizzText } from '../../utils/quizzs/quizzs.utils';
 export class QuizzModalComponent {
   quizzs = input.required<Quizz[]>();
   isOpen = input.required<boolean>();
+  /** Quand fourni à l’ouverture, ce quizz est sélectionné directement (liste ignorée). */
+  preselectedQuizz = input<Quizz | null>(null);
   close = output<void>();
 
   selectedQuizz = signal<Quizz | null>(null);
@@ -37,9 +39,14 @@ export class QuizzModalComponent {
     effect(() => {
       const open = this.isOpen();
       if (open && !this.wasOpen) {
-        this.selectedQuizz.set(null);
-        this.answers.set([]);
-        this.submitted.set(false);
+        const preselected = this.preselectedQuizz();
+        if (preselected) {
+          this.selectQuizz(preselected);
+        } else {
+          this.selectedQuizz.set(null);
+          this.answers.set([]);
+          this.submitted.set(false);
+        }
       }
       this.wasOpen = open;
     });

@@ -40,11 +40,13 @@
       <app-manga
         [manga]="manga"
         [readOnly]="true"
-        [quizzs]="quizzs()"
         [recommendationText]="getMangaRecommendationText(manga)"
-        [recommendationBadge]="mangaAlreadyInUserReadlist(manga) ? 'Déjà dans votre readlist' : 'Recommandé'"
+        [recommendationBadge]="
+          mangaAlreadyInUserReadlist(manga)
+            ? 'Déjà dans votre readlist'
+            : 'Recommandé'
+        "
         [isInReadlist]="mangaAlreadyInUserReadlist(manga)"
-        (openQuizz)="openQuizzModal($event)"
         (addToReadlist)="addMangaToReadlist($event)"
       ></app-manga>
     </div>
@@ -56,14 +58,12 @@
     <div class="manga-card">
       <app-manga
         [manga]="manga"
-        [quizzs]="quizzs()"
         [readOnly]="selectedView() === 'readlist'"
         [isReadlistView]="selectedView() === 'readlist'"
         [selectedView]="selectedView()"
         [showTopFiveSelector]="showTopFiveRank()"
         [topFiveRank]="getTopFiveRank(manga)"
         (editRequested)="openEditMangaDialog(manga)"
-        (openQuizz)="openQuizzModal($event)"
         (topFiveRankChange)="onTopFiveRankChange(manga, $event)"
         (readPriorityUpdated)="updateReadPriority($event)"
         (wantToReRead)="markMangaAsWantToReRead($event)"
@@ -109,7 +109,9 @@
         <input
           type="checkbox"
           [checked]="optionalViewConfig().toReRead"
-          (change)="onOptionalViewChange('toReRead', $any($event.target).checked)"
+          (change)="
+            onOptionalViewChange('toReRead', $any($event.target).checked)
+          "
         />
         À relire
       </label>
@@ -117,7 +119,9 @@
         <input
           type="checkbox"
           [checked]="optionalViewConfig().recommendations"
-          (change)="onOptionalViewChange('recommendations', $any($event.target).checked)"
+          (change)="
+            onOptionalViewChange('recommendations', $any($event.target).checked)
+          "
         />
         Recommandations
       </label>

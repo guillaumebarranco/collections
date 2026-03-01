@@ -18,8 +18,8 @@ import {
 import { ReviewModalComponent } from '../../review-modal/review-modal.component';
 import { AuthService } from '../../../core/auth.service';
 import { Manga } from '../../../models/manga-model';
-import { Quizz, EntityType } from '../../../models/quizz-model';
-import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
+import { EntityType } from '../../../models/quizz-model';
+
 import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { MangaView } from '../../../containers/collections/mangas/mangas.utils';
@@ -48,7 +48,7 @@ export class MangaComponent {
   private readonly dialog = inject(MatDialog);
 
   @Input() manga!: Manga;
-  @Input() quizzs: Quizz[] = [];
+
   @Input() readOnly = false;
   @Input() recommendationText = '';
   @Input() isInReadlist = false;
@@ -56,7 +56,7 @@ export class MangaComponent {
   @Input() isReadlistView = false;
   @Input() selectedView: MangaView = 'read';
   @Output() editRequested = new EventEmitter<void>();
-  @Output() openQuizz = new EventEmitter<Quizz[]>();
+
   @Output() addToReadlist = new EventEmitter<Manga>();
   @Output() readPriorityUpdated = new EventEmitter<{
     manga: Manga;
@@ -105,20 +105,6 @@ export class MangaComponent {
       entityType: EntityType.MANGA,
       wantToReRead: !!this.manga.wantToReadAgain,
     };
-  }
-
-  getEntityQuizzs(): Quizz[] {
-    return this.quizzs.filter(
-      (quizz) =>
-        quizz.entityType === EntityType.MANGA &&
-        matchesQuizzEntityTitle(this.manga.title, quizz.entityTitle)
-    );
-  }
-
-  openQuizzModal(): void {
-    const entityQuizzs = this.getEntityQuizzs();
-    if (entityQuizzs.length === 0) return;
-    this.openQuizz.emit(entityQuizzs);
   }
 
   updateReadPriority(priority: number): void {

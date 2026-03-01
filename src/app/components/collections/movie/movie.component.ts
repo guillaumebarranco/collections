@@ -12,7 +12,7 @@ import {
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Params, Router } from '@angular/router';
 import { Movie } from '../../../models/movie-model';
-import { Quizz, EntityType } from '../../../models/quizz-model';
+import { EntityType } from '../../../models/quizz-model';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditMovieComponent } from '../../../containers/edit/edit-movie/edit-movie.component';
 import { ReviewModalComponent } from '../../review-modal/review-modal.component';
@@ -26,7 +26,7 @@ import {
   EntityCardEntityData,
 } from '../../entity-card-rating-and-buttons/entity-card-rating-and-buttons.component';
 import { AuthService } from '../../../core/auth.service';
-import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
+
 import { getApiBaseUrl, isBaseEntityView } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { MovieView } from '../../../containers/collections/movies/movies.utils';
@@ -53,13 +53,13 @@ export class MovieComponent {
   @Input() movie!: Movie;
   @Input() list: Movie[] = [];
   @Input() index = -1;
-  @Input() quizzs: Quizz[] = [];
+
   @Input() readOnly = false;
   @Input() isInWatchlist = false;
   @Input() selectedView: MovieView = 'watched';
   @Input() recommendationBadge = '';
   @Output() movieUpdated = new EventEmitter<void>();
-  @Output() openQuizz = new EventEmitter<Quizz[]>();
+
   @Output() wantToReWatch = new EventEmitter<Movie>();
   @Output() addToWatchlist = new EventEmitter<Movie>();
   @Output() hasReWatched = new EventEmitter<Movie>();
@@ -208,20 +208,6 @@ export class MovieComponent {
       entityType: EntityType.MOVIE,
       wantToReRead: !!this.movie.wantToSeeAgain,
     };
-  }
-
-  getEntityQuizzs(): Quizz[] {
-    return this.quizzs.filter(
-      (quizz) =>
-        quizz.entityType === EntityType.MOVIE &&
-        matchesQuizzEntityTitle(this.movie.title, quizz.entityTitle)
-    );
-  }
-
-  openQuizzModal(): void {
-    const entityQuizzs = this.getEntityQuizzs();
-    if (entityQuizzs.length === 0) return;
-    this.openQuizz.emit(entityQuizzs);
   }
 
   updateWatchPriority(priority: number): void {

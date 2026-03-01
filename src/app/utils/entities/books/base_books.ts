@@ -303,7 +303,7 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Emma',
     author: 'Jane Austen',
-    coverUrl: '',
+    coverUrl: '/books_pictures/81vfJi+HAVL._AC_UF1000,1000_QL80_.jpg',
     pages: 474,
     genre: 'Classiques',
     saga: '',

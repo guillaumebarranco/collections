@@ -18,8 +18,8 @@ import {
 import { ReviewModalComponent } from '../../review-modal/review-modal.component';
 import { AuthService } from '../../../core/auth.service';
 import { Manwha } from '../../../models/manwha-model';
-import { Quizz, EntityType } from '../../../models/quizz-model';
-import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
+import { EntityType } from '../../../models/quizz-model';
+
 import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { ManwhaView } from '../../../containers/collections/manwhas/manwhas.utils';
@@ -48,7 +48,7 @@ export class ManwhaComponent {
   private readonly dialog = inject(MatDialog);
 
   @Input() manwha!: Manwha;
-  @Input() quizzs: Quizz[] = [];
+
   @Input() readOnly = false;
   @Input() recommendationText = '';
   @Input() isInReadlist = false;
@@ -56,7 +56,7 @@ export class ManwhaComponent {
   @Input() isReadlistView = false;
   @Input() selectedView: ManwhaView = 'read';
   @Output() editRequested = new EventEmitter<void>();
-  @Output() openQuizz = new EventEmitter<Quizz[]>();
+
   @Output() addToReadlist = new EventEmitter<Manwha>();
   @Output() readPriorityUpdated = new EventEmitter<{
     manwha: Manwha;
@@ -105,20 +105,6 @@ export class ManwhaComponent {
       entityType: EntityType.MANWHA,
       wantToReRead: !!this.manwha.wantToReadAgain,
     };
-  }
-
-  getEntityQuizzs(): Quizz[] {
-    return this.quizzs.filter(
-      (quizz) =>
-        quizz.entityType === EntityType.MANWHA &&
-        matchesQuizzEntityTitle(this.manwha.title, quizz.entityTitle)
-    );
-  }
-
-  openQuizzModal(): void {
-    const entityQuizzs = this.getEntityQuizzs();
-    if (entityQuizzs.length === 0) return;
-    this.openQuizz.emit(entityQuizzs);
   }
 
   updateReadPriority(priority: number): void {

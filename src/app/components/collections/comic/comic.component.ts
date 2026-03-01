@@ -18,8 +18,8 @@ import {
 import { ReviewModalComponent } from '../../review-modal/review-modal.component';
 import { AuthService } from '../../../core/auth.service';
 import { Comic } from '../../../models/comic-model';
-import { Quizz, EntityType } from '../../../models/quizz-model';
-import { matchesQuizzEntityTitle } from '../../../utils/quizzs/quizzs.utils';
+import { EntityType } from '../../../models/quizz-model';
+
 import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { ComicView } from '../../../containers/collections/comics/comics.utils';
@@ -48,7 +48,7 @@ export class ComicComponent {
   private readonly dialog = inject(MatDialog);
 
   @Input() comic!: Comic;
-  @Input() quizzs: Quizz[] = [];
+
   @Input() readOnly = false;
   @Input() recommendationText = '';
   @Input() isInReadlist = false;
@@ -56,7 +56,7 @@ export class ComicComponent {
   @Input() isReadlistView = false;
   @Input() selectedView: ComicView = 'read';
   @Output() editRequested = new EventEmitter<void>();
-  @Output() openQuizz = new EventEmitter<Quizz[]>();
+
   @Output() addToReadlist = new EventEmitter<Comic>();
   @Output() readPriorityUpdated = new EventEmitter<{
     comic: Comic;
@@ -105,20 +105,6 @@ export class ComicComponent {
       entityType: EntityType.COMIC,
       wantToReRead: !!this.comic.wantToReadAgain,
     };
-  }
-
-  getEntityQuizzs(): Quizz[] {
-    return this.quizzs.filter(
-      (quizz) =>
-        quizz.entityType === EntityType.COMIC &&
-        matchesQuizzEntityTitle(this.comic.title, quizz.entityTitle)
-    );
-  }
-
-  openQuizzModal(): void {
-    const entityQuizzs = this.getEntityQuizzs();
-    if (entityQuizzs.length === 0) return;
-    this.openQuizz.emit(entityQuizzs);
   }
 
   updateReadPriority(priority: number): void {

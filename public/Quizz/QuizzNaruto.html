@@ -1,0 +1,358 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8"/>
+<title>Quizz Naruto</title>
+       <link rel="stylesheet" type="text/css" href="css.css" />
+</head>
+
+<body>
+<script>
+
+var vie = 3, nombreUtilisateur, nombreATrouver, motUtilisateur, motATrouver, un, score = 0;
+alert('Combien de questions allez-vous tenir avant une mort inévitable?');
+alert('Vous démarrez avec 3 vies');
+alert('Vous perdez une vie à chaque erreur!');
+alert('Attention, ça commence!');
+alert('Rappelez-vous bien de toujours écrire vos réponses avec une majuscule à la première lettre. Chaque réponse doit être un seul mot ou un nombre. Répondez en chiffre ou nombre lorsqu\'on vous demande un nombre, un numéro...');
+//Question 1
+motUtilisateur = prompt('Quel est le nom de la pupille caractéristique du clan Uchiwa?');
+motATrouver = 'Sharingan';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+//Question 2
+motUtilisateur = prompt('Quel est le prénom du 4ème Hokage?');
+motATrouver = 'Minato';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies'); 
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vies');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+
+//Question 3
+motUtilisateur = prompt('Que signifie le kanji que Gaara a sur le front? ');
+motATrouver = 'Amour';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+if (vie > 0) {
+//Question 4
+motUtilisateur = prompt('Les invocations dans le manga se font à l\'aide d\'un don de ... ?');
+motATrouver = 'Sang';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 5
+nombreUtilisateur = parseInt(prompt('Combien y\'a t-il de Pain qui se battent contre Jiraya?'));
+nombreATrouver = 6;
+if (nombreUtilisateur == nombreATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 6
+motUtilisateur = prompt('Comment s\'appellait la fille qui faisait partie de l\'équipe de Kakashi et Obito?');
+motATrouver = 'Rin';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 7
+motUtilisateur = prompt('Comment s\'appelle le père de Gamatatsu?');
+motATrouver = 'Gamabunta';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 8
+motUtilisateur = prompt('De quel clan la technique de possession est-elle la spécialité?');
+motATrouver = 'Yamanaka';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+// Question 9
+motUtilisateur = prompt('Qui laisse Sasuke pour mort avec des aiguilles plantées dans la peau?');
+motATrouver = 'Haku';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 10
+motUtilisateur = prompt('Sasuke est à la fois de type Raiton et de type : ... ');
+motATrouver = 'Katon';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+
+
+if (vie > 0) {
+//Question 11
+motUtilisateur = prompt('Quel est le troisième pouvoir du mangekyou?');
+motATrouver = 'Susanoo';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 12
+motUtilisateur = prompt('Quel est le nom dui seigneur de Hidan?');
+motATrouver = 'Jashin';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 13
+motUtilisateur = prompt('Quel mot japonais désigne un ninja déserteur?');
+motATrouver = 'Nukenin';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 14
+nombreUtilisateur = parseInt(prompt('Combien de personnes se battent contre Kimimaro lorsque celui-ci enlève Sasuke?'));
+nombreATrouver = 3;
+if (nombreUtilisateur == nombreATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 15
+motUtilisateur = prompt('Quel ennemi découvre le premier l\'angle mort de Neji? Sans accent.');
+motATrouver = 'Kidomaru';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 16
+motUtilisateur = prompt('Le pays où a lieu le sommet des 5 kages est protégé par des : ... ?');
+motATrouver = 'Samourais';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 17
+motUtilisateur = prompt('En quoi se transforme Naruto tandis que Sasuke lui dit : Bien joué, alors là tu m\'épates. ?');
+motATrouver = 'Shuriken';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+
+if (vie > 0) {
+//Question 18
+motUtilisateur = prompt('Qui a inventé l\'Edo Tensei? Donnez le prénom.');
+motATrouver = 'Tobirama';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 19
+motUtilisateur = prompt('Quel mot japonais Naruto rajoute t-il devant Rasengan lorsqu\'il en fait un gigantesque?');
+motATrouver = 'Oodama';
+if (nombreUtilisateur == nombreATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+
+if (vie > 0) {
+//Question 20
+motUtilisateur = prompt('De quel type est l\'attaque la plus puissante d\'Oonoki? En français.');
+motATrouver = 'Poussière';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+alert('Félicitations ! Vous avez réussi à terminer ce Quizz, vous êtes un vrai caid ! Il vous restait ' + vie + ' vies et votre score est de ' + score + ' bonnes réponses.');
+} else {
+alert('You\'re dead people');
+}
+
+</script>
+<p><a href="../index.html">Retourner à l'index</a></p><br><br><br>
+<img src ="imgquizz/naruto.png" width="350" height="415" alt="fond bleach">
+
+<div id="lor"><p><a href="http://webarranco.fr/livre-dor/livre_signer.php?lng_sel=lg01_fr">Mettez en ligne votre score !</a></p></div>
+</body>
+
+</html>

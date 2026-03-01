@@ -37,10 +37,8 @@
             [serie]="serie"
             [list]="sagaGroup.seenSeries"
             [index]="i"
-            [quizzs]="quizzs()"
             [selectedView]="selectedView()"
             (serieUpdated)="refreshSeries()"
-            (openQuizz)="openQuizzModal($event)"
           ></app-serie>
         </div>
         }
@@ -61,8 +59,7 @@
           }
         </div>
       </div>
-      }
-      }
+      } }
     </section>
     }
   </div>
@@ -81,7 +78,9 @@
             {{ isCountryCollapsed(countryGroup.country) ? "▶" : "▼" }}
           </span>
           {{ countryGroup.country }}
-          ({{ countryGroup.seenSeries.length + countryGroup.missingSeries.length }})
+          ({{
+            countryGroup.seenSeries.length + countryGroup.missingSeries.length
+          }})
         </button>
       </h2>
       @if (!isCountryCollapsed(countryGroup.country)) {
@@ -93,10 +92,8 @@
             [serie]="serie"
             [list]="countryGroup.seenSeries"
             [index]="i"
-            [quizzs]="quizzs()"
             [selectedView]="selectedView()"
             (serieUpdated)="refreshSeries()"
-            (openQuizz)="openQuizzModal($event)"
           ></app-serie>
         </div>
         }
@@ -117,8 +114,7 @@
           }
         </div>
       </div>
-      }
-      }
+      } }
     </section>
     }
   </div>
@@ -130,10 +126,8 @@
         [serie]="serie"
         [list]="sortedSeries()"
         [index]="i"
-        [quizzs]="quizzs()"
         [selectedView]="selectedView()"
         (serieUpdated)="refreshSeries()"
-        (openQuizz)="openQuizzModal($event)"
       ></app-serie>
     </div>
     }

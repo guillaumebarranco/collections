@@ -39,11 +39,13 @@
       <app-bd
         [bd]="bd"
         [readOnly]="true"
-        [quizzs]="quizzs()"
         [recommendationText]="getBdRecommendationText(bd)"
-        [recommendationBadge]="bdAlreadyInUserReadlist(bd) ? 'Déjà dans votre readlist' : 'Recommandé'"
+        [recommendationBadge]="
+          bdAlreadyInUserReadlist(bd)
+            ? 'Déjà dans votre readlist'
+            : 'Recommandé'
+        "
         [isInReadlist]="bdAlreadyInUserReadlist(bd)"
-        (openQuizz)="openQuizzModal($event)"
         (addToReadlist)="addBdToReadlist($event)"
       ></app-bd>
     </div>
@@ -55,14 +57,12 @@
     <div class="bd-card">
       <app-bd
         [bd]="bd"
-        [quizzs]="quizzs()"
         [readOnly]="selectedView() === 'readlist'"
         [isReadlistView]="selectedView() === 'readlist'"
         [selectedView]="selectedView()"
         [showTopFiveSelector]="showTopFiveRank()"
         [topFiveRank]="getTopFiveRank(bd)"
         (editRequested)="openEditBdDialog(bd)"
-        (openQuizz)="openQuizzModal($event)"
         (topFiveRankChange)="onTopFiveRankChange(bd, $event)"
         (readPriorityUpdated)="updateReadPriority($event)"
         (wantToReRead)="markBdAsWantToReRead($event)"
@@ -108,7 +108,9 @@
         <input
           type="checkbox"
           [checked]="optionalViewConfig().toReRead"
-          (change)="onOptionalViewChange('toReRead', $any($event.target).checked)"
+          (change)="
+            onOptionalViewChange('toReRead', $any($event.target).checked)
+          "
         />
         À relire
       </label>
@@ -116,7 +118,9 @@
         <input
           type="checkbox"
           [checked]="optionalViewConfig().recommendations"
-          (change)="onOptionalViewChange('recommendations', $any($event.target).checked)"
+          (change)="
+            onOptionalViewChange('recommendations', $any($event.target).checked)
+          "
         />
         Recommandations
       </label>

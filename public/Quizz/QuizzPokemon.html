@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8"/>
+<title>Quizz Pokémon</title>
+       <link rel="stylesheet" type="text/css" href="css.css" />
+</head>
+
+<body>
+<script>
+
+var vie = 3, nombreUtilisateur, nombreATrouver, motUtilisateur, motATrouver, un, score = 0;
+alert('Combien de questions allez-vous tenir avant une mort inévitable?');
+alert('Vous démarrez avec 3 vies');
+alert('Vous perdez une vie à chaque erreur!');
+alert('Attention, ça commence!');
+alert('Rappelez-vous bien de toujours écrire vos réponses avec une majuscule à la première lettre. Chaque réponse doit être un seul mot ou un nombre. Répondez en chiffre ou nombre lorsqu\'on vous demande un nombre, un numéro...');
+//Question 1
+nombreUtilisateur = parseInt(prompt('Combien Salameche a d\'évolution?'));
+nombreATrouver = 2;
+if (nombreUtilisateur == nombreATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies'); 
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vies');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+//Question 2
+motUtilisateur = prompt('Comment s\'appele le clone de Mew?');
+motATrouver = 'Mewtwo';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+//Question 3
+motUtilisateur = prompt('Quel est le légume que porte Canarticho?');
+motATrouver = 'Poireau';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+
+if (vie > 0) {
+//Question 4
+nombreUtilisateur = parseInt(prompt('Combien la 1ère génération compte-elle de pokémons?'));
+nombreATrouver = 151;
+if (nombreUtilisateur == nombreATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+
+
+if (vie > 0) {
+//Question 5
+motUtilisateur = prompt('Comment s\'appelle la pré-évolution de Rhinoféros?');
+motATrouver = 'Rhinocorne';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 6
+motUtilisateur = prompt('Quelle est le type de Steelix?');
+motATrouver = 'Acier';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 7
+motUtilisateur = prompt('Complétez cette liste : - Elechtor, - Sulfura, - ...');
+motATrouver = 'Artikodin';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 8
+nombreUtilisateur = parseInt(prompt('Combien y\'a t-il d\'attaques de type électrique qui font des dégâts dans la première génération?'));
+nombreATrouver = 3;
+if (nombreUtilisateur == nombreATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 9
+motUtilisateur = prompt('Quelle est la pré-évolution de Lippoutou?');
+motATrouver = 'Lippouti';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 10
+motUtilisateur = prompt('Comment s\'appelle l\'attaque ultime de feu dans la première génération?');
+motATrouver = 'Déflagration';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 11
+nombreUtilisateur = parseInt(prompt('A quelle niveau rencontre t-on Mewtwo dans la grotte?'));
+nombreATrouver = 70;
+if (nombreUtilisateur == nombreATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+// Question 12
+nombreUtilisateur = parseInt(prompt('Combien Mew a t-il de clones?'));
+nombreATrouver = 2;
+if (nombreUtilisateur == nombreATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 13
+nombreUtilisateur = parseInt(prompt('Combien de pokémons doivent-être échangés pour pouvoir évoluer dans la première génération?'));
+nombreATrouver = 4;
+if (nombreUtilisateur == nombreATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 14
+motUtilisateur = prompt('Quelle est la CT que donne Giovanni? Attention aux accents éventuels.');
+motATrouver = 'Abîme';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 15
+nombreUtilisateur = parseInt(prompt('Quel niveau a Pikachu lorsqu\'on rencontre Red au mont argent?'));
+nombreATrouver = 81;
+if (nombreUtilisateur == nombreATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 16
+motUtilisateur = prompt('Quel est le nom du 7ème badge?');
+motATrouver = 'Volcan';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 17
+motUtilisateur = prompt('Quelle type de ball permet d\'attraper plus facilement des pokemons aquatiques? Dans la deuxième génération.');
+motATrouver = 'Filet';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+
+if (vie > 0) {
+//Question 18
+motUtilisateur = prompt('Quelle est l\'évolution finale de Chuchmur?');
+motATrouver = 'Brouhabam';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 19
+motUtilisateur = prompt('Quel attaque comptient la CT50 lors de la 3ème génération?');
+motATrouver = 'Surchauffe';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 20
+motUtilisateur = prompt('Comment s\'appelle la fille du prof Seko?');
+motATrouver = 'Flora';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponses');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+alert('Félicitations ! Vous avez réussi à terminer ce Quizz, vous êtes un vrai caid ! Il vous restait ' + vie + ' vies et votre score est de ' + score + ' bonnes réponses.');
+} else {
+alert('You\'re dead people');
+}
+
+</script>
+<p><a href="../index.html">Retourner à l'index</a></p>
+<img src ="imgquizz/pokemon.png" width="330" height="453" alt="fond pokemon">
+<br><br>
+<div id="lor"><p><a href="http://webarranco.fr/livre-dor/livre_signer.php?lng_sel=lg01_fr">Mettez en ligne votre score !</a></p></div>
+</body>
+
+</html>

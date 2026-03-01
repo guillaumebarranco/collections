@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8"/>
+<title>Quizz Simpsons</title>
+<link rel="stylesheet" type="text/css" href="css.css" />
+
+</head>
+
+<body>
+<script>
+
+var vie = 3, nombreUtilisateur, nombreATrouver, motUtilisateur, motATrouver, un, score = 0;
+alert('Combien de questions allez-vous tenir avant une mort inévitable?');
+alert('Vous démarrez avec 3 vies');
+alert('Vous perdez une vie à chaque erreur!');
+alert('Attention, ça commence!');
+alert('Rappelez-vous bien de toujours écrire vos réponses avec une majuscule à la première lettre. Chaque réponse doit être un seul mot ou un nombre. Répondez en chiffre ou nombre lorsqu\'on vous demande un nombre, un numéro...');
+//Question 1
+motUtilisateur = prompt('Comment s\'appelle la soeur de Lisa?');
+motATrouver = 'Maggie';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+//Question 2
+motUtilisateur = prompt('Quelle est la marque de bière qu\'Homer adore?');
+motATrouver = 'Duff';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies'); 
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vies');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+
+//Question 3
+motUtilisateur = prompt('Sans l\'épisode où Marge construit des oeuvres avec des batonnets, Homer un vendeur de ... Au pluriel.');
+motATrouver = 'Glaces';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+
+if (vie > 0) {
+//Question 4
+motUtilisateur = prompt('Dans le film, quel animal Homer adopte t-il? ');
+motATrouver = 'Cochon';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 5
+motUtilisateur = prompt('Comment s\'appelle le plus grand des fils de Flanders?');
+motATrouver = 'Todd';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+
+if (vie > 0) {
+//Question 6
+motUtilisateur = prompt('Qui est le riche milliardaire de Springfield?');
+motATrouver = 'Burns';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 7
+motUtilisateur = prompt('Que possède Tahiti Bob de plus grand que la moyenne, ce qui le rend facilement reconnaissable? Au pluriel et sans article.');
+motATrouver = 'Pieds';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 8
+motUtilisateur = prompt('Complétez : Hou, Kebab d\'agneau ! Hou, Kebab de poulet ! Hou, Kebab de : ');
+motATrouver = 'Feu';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 9
+motUtilisateur = prompt('Quelle langue Milhouse apprend t-il à Lisa lors d\'un épisode?');
+motATrouver = 'Italien';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+// Question 10
+motUtilisateur = prompt('Le syndrome que certaines personnes attrapent à Jerusalem est le syndrome du :');
+motATrouver = 'Messie';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+
+
+if (vie > 0) {
+//Question 11
+motUtilisateur = prompt('Avec qui Edna est-elle sortie lorsqu\'elle est arrivée à Spingfield pour enseigner?');
+motATrouver = 'Moe';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 12
+nombreUtilisateur = parseInt(prompt('Dans quel numéro d\'horror show Homer mange t-il un chewing-gum de l\'espace?'));
+nombreATrouver = 17;
+if (nombreUtilisateur == nombreATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 13
+motUtilisateur = prompt('Qu\'a t-on voler au serpent pour qu\'il décide de devenir un criminel? Sans article.');
+motATrouver = 'Trésor';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+
+
+if (vie > 0) {
+//Question 14
+nombreUtilisateur = parseInt(prompt('Dans quelle saison se trouve la Ned Zone?'));
+nombreATrouver = 16;
+if (nombreUtilisateur == nombreATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 15
+motUtilisateur = prompt('De quelle type de sauce est composé la sucette qui contient la clé des menottes d\'Homer lorsque celui-ci se fait enlever par Patty et Selma?');
+motATrouver = 'Chili';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 16
+nombreUtilisateur = parseInt(prompt('Dans quel saison revoyons-nous la thérapeute d\'Homer du film?'));
+nombreATrouver = 22;
+if (nombreUtilisateur == nombreATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 17
+motUtilisateur = prompt('Quel est le prénom de l\'homme qui a été élu chef de classe à la place d\'Homer en terminale?');
+motATrouver = 'Vance';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 18
+motUtilisateur = prompt('Quel sport Homer et Marge se mettent-ils à pratiquer en compagnie de Skinner et de sa mère?');
+motATrouver = 'Curling';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 19
+motUtilisateur = prompt('Marge avait-elle déjà rencontrée Homer avant le lycée?');
+motATrouver = 'Oui';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 20
+motUtilisateur = prompt('Quelle est la couleur du peignoir de Bart lorsqu\'il se veut playboy après avoir lu les magazines de son père?');
+motATrouver = 'Violet';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+alert('Félicitations ! Vous avez réussi à terminer ce Quizz, vous êtes un vrai caid ! Il vous restait ' + vie + ' vies et votre score est de ' + score + ' bonnes réponses.');
+} else {
+alert('You\'re dead people');
+}
+
+</script>
+<p><a href="../index.html">Retourner à l'index</a></p>
+<img src ="imgquizz/simpsons.png" width="400" height="396" alt="fond simpsons"><br><br>
+<div id="lor"><p><a href="http://webarranco.fr/livre-dor/livre_signer.php?lng_sel=lg01_fr">Mettez en ligne votre score !</a></p></div>
+
+</body>
+
+</html>

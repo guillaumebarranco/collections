@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8"/>
+<title>Quizz Yu Yu Hakusho</title>
+       <link rel="stylesheet" type="text/css" href="css.css" />
+</head>
+
+<body>
+<script>
+
+var vie = 3, nombreUtilisateur, nombreATrouver, motUtilisateur, motATrouver, un, score = 0;
+alert('Combien de questions allez-vous tenir avant une mort inévitable?');
+alert('Vous démarrez avec 3 vies');
+alert('Vous perdez une vie à chaque erreur!');
+alert('Attention, ça commence!');
+alert('Rappelez-vous bien de toujours écrire vos réponses avec une majuscule à la première lettre. Chaque réponse doit être un seul mot ou un nombre. Répondez en chiffre ou nombre lorsqu\'on vous demande un nombre, un numéro...');
+//Question 1
+motUtilisateur = prompt('Quel est le type d\'énergie qu\'utilise Yusuke? Au féminin.');
+motATrouver = 'Astrale';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+//Question 2
+motUtilisateur = prompt('Comment s\'appelle celui qui possède le troisième oeil?');
+motATrouver = 'Hiei';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies'); 
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vies');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+
+//Question 3
+motUtilisateur = prompt('Comment s\'appelle le démon qui vole les techniques des grands maitres avant de les tuer?');
+motATrouver = 'Rando';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+if (vie > 0) {
+//Question 4
+motUtilisateur = prompt('Comment s\'appelle celui qui maitrise l\'énergie divine?');
+motATrouver = 'Sensui';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 5
+nombreUtilisateur = parseInt(prompt('Combien de membres combattants contient l\'équipe Urameshi dans les arts martiaux de l\'ombre?'));
+nombreATrouver = 5;
+if (nombreUtilisateur == nombreATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 6
+motUtilisateur = prompt('De quel couleur est le feu du seigneur des ténèbres de Hiei?');
+motATrouver = 'Noir';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 7
+motUtilisateur = prompt('Complétez : La fleur, c\'est le cerisier. L\'homme, c\'est ... .');
+motATrouver = 'Kuwabara';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 8
+motUtilisateur = prompt('Toguro est un monstre de classe :');
+motATrouver = 'B';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 9
+nombreUtilisateur = parseInt(prompt('Combien de personnages différents composent Sensui?'));
+nombreATrouver = 6;
+if (nombreUtilisateur == nombreATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+// Question 10
+motUtilisateur = prompt('Quel est le nom de l\'ancienne identité de Kurama?');
+motATrouver = 'Yoko';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 11
+motUtilisateur = prompt('Quelle nouvelle technique de type astrale utilise Yusuke face à Jin?');
+motATrouver = 'Vague';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 12
+motUtilisateur = prompt('De quel élément Toya est-il le maître?');
+motATrouver = 'Glace';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 13
+nombreUtilisateur = parseInt(prompt('Combien de fois Kuwabara se fait-il envoyer balader face aux légendes de l\'enfer?'));
+nombreATrouver = 2;
+if (nombreUtilisateur == nombreATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 14
+motUtilisateur = prompt('Quel est le nom du vrai père de Yusuke?');
+motATrouver = 'Raizen';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 15
+motUtilisateur = prompt('Quel est le nom de famille de Keiko?');
+motATrouver = 'Yukimura';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 16
+nombreUtilisateur = parseInt(prompt('En combien Suzaku se démultiplie t-il?'));
+nombreATrouver = 7;
+if (nombreUtilisateur == nombreATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 17
+motUtilisateur = prompt('Quel adjectif Suzuki désire t-il qu\'on mette devant son nom?');
+motATrouver = 'Sublime';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 18
+motUtilisateur = prompt('De quelle race est l\'ancêtre de Yusuke qui lui permet une renaissance sous cette même forme?');
+motATrouver = 'Mazoku';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 19
+motUtilisateur = prompt('De quelle couleur est l\'animal qui est le reflet de l\'âme de Yusuke? Donnez la couleur au masculin singulier.');
+motATrouver = 'Bleu';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 20
+nombreUtilisateur = parseInt(prompt('Combien de milliards Mr. Sayto mise t-il sur la victoire des intrus face aux frères Toguro?'));
+nombreATrouver = 66000;
+if (nombreUtilisateur == nombreATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+
+
+if (vie > 0) {
+alert('Félicitations ! Vous avez réussi à terminer ce Quizz, vous êtes un vrai caid ! Il vous restait ' + vie + ' vies et votre score est de ' + score + ' bonnes réponses.');
+} else {
+alert('You\'re dead people');
+}
+
+</script>
+<p><a href="../index.html">Retourner à l'index</a></p>
+<img src ="imgquizz/yu.png" width="250" height="525" alt="fond yusuke">
+
+<div id="lor"><p><a href="http://webarranco.fr/livre-dor/livre_signer.php?lng_sel=lg01_fr">Mettez en ligne votre score !</a></p></div>
+</body>
+
+</html>

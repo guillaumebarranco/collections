@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8"/>
+<title>Quizz Dragon Ball</title>
+       <link rel="stylesheet" type="text/css" href="css.css" />
+</head>
+
+<body>
+<script>
+
+var vie = 3, nombreUtilisateur, nombreATrouver, motUtilisateur, motATrouver, un, score = 0;
+alert('Combien de questions allez-vous tenir avant une mort inévitable?');
+alert('Vous démarrez avec 3 vies');
+alert('Vous perdez une vie à chaque erreur!');
+alert('Attention, ça commence!');
+alert('Rappelez-vous bien de toujours écrire vos réponses avec une majuscule à la première lettre. Chaque réponse doit être un seul mot ou un nombre. Répondez en chiffre ou nombre lorsqu\'on vous demande un nombre, un numéro...');
+//Question 1
+motUtilisateur = prompt('Comment s\'appelle le garçon qui s\'entraine avec Sangoku chez Tortue Géniale ?');
+motATrouver = 'Krilin';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+//Question 2
+motUtilisateur = prompt('Le rival de Sangoku est : ');
+motATrouver = 'Vegeta';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies'); 
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vies');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+
+//Question 3
+motUtilisateur = prompt('Quel est le nom donné aux haricots magiques qui permettent de soigner toutes les blessures? Au singulier.');
+motATrouver = 'Senzu';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+if (vie > 0) {
+//Question 4
+motUtilisateur = prompt('Comment s\'appelle le fils de Vegeta?');
+motATrouver = 'Trunks';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 5
+nombreUtilisateur = parseInt(prompt('Combien de cyborgs Cell doit-il absorber pour être parfait?'));
+nombreATrouver = 2;
+if (nombreUtilisateur == nombreATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 6
+nombreUtilisateur = parseInt(prompt('Quel numéro de Cyborg meurt devant Sangohan, après lui avoir conseillé de se mettre en colère?'));
+nombreATrouver = 16;
+if (nombreUtilisateur == nombreATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 7
+motUtilisateur = prompt('Quel est le nom du peuple de Radditz ? Au singulier.');
+motATrouver = 'Saiyen';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 8
+motUtilisateur = prompt('Barta pense être l\'être le plus ... de l\'univers.');
+motATrouver = 'Rapide';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 9
+nombreUtilisateur = parseInt(prompt('Combien de stades de super saiyen Sangoku peut-il passer à la fin du manga?'));
+nombreATrouver = 3;
+if (nombreUtilisateur == nombreATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+// Question 10
+motUtilisateur = prompt('Comment s\'appelle le sorcier qui ressucite Boubou?');
+motATrouver = 'Babidi';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+if (vie > 0) {
+//Question 11
+nombreUtilisateur = parseInt(prompt('Combien Freezer a d\'évolutions?'));
+nombreATrouver = 3;
+if (nombreUtilisateur == nombreATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 12
+motUtilisateur = prompt('Comment s\'appelle le dragon de Namek?');
+motATrouver = 'Porunga';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 13
+nombreUtilisateur = parseInt(prompt('Combien gagne t-on lorsqu\'on gagne le tournoi des arts martiaux?'));
+nombreATrouver = 1000000;
+if (nombreUtilisateur == nombreATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 14
+motUtilisateur = prompt('Dans les Hors-Séries, qui est le super saiyen légendaire?');
+motATrouver = 'Broly';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 15
+motUtilisateur = prompt('Quel nom choisit le tout-puissant pour participer au tournoi des arts martiaux?');
+motATrouver = 'Shen';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 16
+nombreUtilisateur = parseInt(prompt('A combien de G au maximum Sangoku s\'entraine t-il avant d\'aller sur Namek?'));
+nombreATrouver = 100;
+if (nombreUtilisateur == nombreATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 17
+motUtilisateur = prompt('Avec qui Sangoku a t-il envisagé de fusionner après Sangohan et avant Vegeta contre Majin Boo?');
+motATrouver = 'Satan';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 18
+motUtilisateur = prompt('Quel est le nom du métal le plus solide de l\'univers?');
+motATrouver = 'Katchin';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 19
+nombreUtilisateur = parseInt(prompt('Dans le manga, quelle est la puissance à laquelle arrive Sangoku contre Ginue? Sans espaces.'));
+nombreATrouver = 180000;
+if (nombreUtilisateur == nombreATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+//Question 20
+motUtilisateur = prompt('Contre qui se bat Gogeta, dans les hors-séries?');
+motATrouver = 'Janemba';
+if (motUtilisateur == motATrouver) {
+alert('Bonne réponse, il vous reste ' + vie + ' vies');
+score = score + 1;
+alert('Votre score est de ' + score + ' bonne réponse');
+} else {
+vie = vie - 1;
+alert('Mauvaise réponse, il vous reste ' + vie + ' vie(s)');
+alert('Votre score est de ' + score + ' bonne réponse');
+}
+} else {
+alert('You\'re dead people');
+}
+
+if (vie > 0) {
+alert('Félicitations ! Vous avez réussi à terminer ce Quizz, vous êtes un vrai caid ! Il vous restait ' + vie + ' vies et votre score est de ' + score + ' bonnes réponses.');
+} else {
+alert('You\'re dead people');
+}
+
+</script>
+<p><a href="../index.html">Retourner à l'index</a></p><br><br>
+<img src ="imgquizz/dbz.png" width="360" height="432" alt="fond sangoku">
+<br><br>
+<div id="lor"><p><a href="http://webarranco.fr/livre-dor/livre_signer.php?lng_sel=lg01_fr">Mettez en ligne votre score !</a></p></div>
+</body>
+
+</html>
