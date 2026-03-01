@@ -23,6 +23,7 @@ const CONFIGURABLE_ITEMS: { key: MenuConfigKey; label: string; icon: string }[] 
   { key: 'bds', label: 'BD', icon: '📗' },
   { key: 'musics', label: 'Musiques', icon: '🎵' },
   { key: 'mix', label: 'Livres & Films (Mix)', icon: '🔀' },
+  { key: 'quizzs', label: 'Quizz', icon: '🎯' },
 ];
 
 @Component({

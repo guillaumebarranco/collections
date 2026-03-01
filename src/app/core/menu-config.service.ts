@@ -14,6 +14,7 @@ export const CONFIGURABLE_MENU_KEYS = [
   'bds',
   'musics',
   'mix',
+  'quizzs',
 ] as const;
 
 export type MenuConfigKey = (typeof CONFIGURABLE_MENU_KEYS)[number];
@@ -32,17 +33,19 @@ function readStored(): Set<string> {
     );
     const storedSet = new Set(valid);
     // Clé "mix" ajoutée après coup : l’afficher par défaut si absente du storage
-    if (!storedSet.has('mix')) {
-      storedSet.add('mix');
-      try {
-        localStorage.setItem(
-          STORAGE_KEY,
-          JSON.stringify([...storedSet].filter((k) =>
-            CONFIGURABLE_MENU_KEYS.includes(k as MenuConfigKey)
-          ))
-        );
-      } catch {
-        // ignore
+    for (const key of ['mix', 'quizzs'] as const) {
+      if (!storedSet.has(key)) {
+        storedSet.add(key);
+        try {
+          localStorage.setItem(
+            STORAGE_KEY,
+            JSON.stringify([...storedSet].filter((k) =>
+              CONFIGURABLE_MENU_KEYS.includes(k as MenuConfigKey)
+            ))
+          );
+        } catch {
+          // ignore
+        }
       }
     }
     return storedSet;

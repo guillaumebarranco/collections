@@ -1623,7 +1623,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'Hernani (Théâtre)',
+    title: 'Hernani',
     author: 'Victor Hugo',
     readDate: '',
     rating: 0,
@@ -1635,7 +1635,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'Cromwell (Théâtre)',
+    title: 'Cromwell',
     author: 'Victor Hugo',
     readDate: '',
     rating: 0,
@@ -1647,7 +1647,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'Lucrèce Borgia (Théâtre)',
+    title: 'Lucrèce Borgia',
     author: 'Victor Hugo',
     readDate: '',
     rating: 0,
@@ -1659,7 +1659,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'Les châtiments (Poésie)',
+    title: 'Les châtiments',
     author: 'Victor Hugo',
     readDate: '',
     rating: 0,
@@ -1671,7 +1671,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'Les Contemplations (Poésie)',
+    title: 'Les Contemplations',
     author: 'Victor Hugo',
     readDate: '',
     rating: 0,
@@ -1683,7 +1683,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'Les Orientales (Poésie)',
+    title: 'Les Orientales',
     author: 'Victor Hugo',
     readDate: '',
     rating: 0,
@@ -1815,7 +1815,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'Le mariage de Figaro (théâtre)',
+    title: 'Le mariage de Figaro',
     author: 'Beaumarchais',
     readDate: '',
     rating: 0,
@@ -1827,7 +1827,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'Le barbier de Seville (Théâtre)',
+    title: 'Le barbier de Seville',
     author: 'Beaumarchais',
     readDate: '',
     rating: 0,
@@ -1839,7 +1839,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: "L'autre Tartuffe ou la mère coupable (Théâtre)",
+    title: "L'autre Tartuffe ou la mère coupable",
     author: 'Beaumarchais',
     readDate: '',
     rating: 0,
@@ -2295,7 +2295,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'Arsène Lupin, gentleman cambrioleur (1907)',
+    title: 'Arsène Lupin, gentleman cambrioleur',
     author: 'Maurice Leblanc',
     readDate: '',
     rating: 0,
@@ -2307,7 +2307,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'Arsène Lupin contre Herlock Sholmès (1908)',
+    title: 'Arsène Lupin contre Herlock Sholmès',
     author: 'Maurice Leblanc',
     readDate: '',
     rating: 0,
@@ -2319,7 +2319,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: "L'Aiguille creuse (1909)",
+    title: "L'Aiguille creuse",
     author: 'Maurice Leblanc',
     readDate: '',
     rating: 0,
@@ -2331,7 +2331,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: "La double vie d'Arsène Lupin (1917)",
+    title: "La double vie d'Arsène Lupin",
     author: 'Maurice Leblanc',
     readDate: '',
     rating: 0,
@@ -2343,7 +2343,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: "Les trois crimes d'Arsène Lupin (1917)",
+    title: "Les trois crimes d'Arsène Lupin",
     author: 'Maurice Leblanc',
     readDate: '',
     rating: 0,
@@ -2355,7 +2355,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'Le Bouchon de cristal (1912)',
+    title: 'Le Bouchon de cristal',
     author: 'Maurice Leblanc',
     readDate: '',
     rating: 0,
@@ -2367,7 +2367,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: "Les Confidences d'Arsène Lupin (1913)",
+    title: "Les Confidences d'Arsène Lupin",
     author: 'Maurice Leblanc',
     readDate: '',
     rating: 0,
@@ -2379,7 +2379,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: "L'Éclat d'obus (1915)",
+    title: "L'Éclat d'obus",
     author: 'Maurice Leblanc',
     readDate: '',
     rating: 0,
@@ -2391,7 +2391,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: "Le Triangle d'or (1917)",
+    title: "Le Triangle d'or",
     author: 'Maurice Leblanc',
     readDate: '',
     rating: 0,
@@ -2403,7 +2403,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: "L'Île aux trente cercueils (1919)",
+    title: "L'Île aux trente cercueils",
     author: 'Maurice Leblanc',
     readDate: '',
     rating: 0,
@@ -2415,7 +2415,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'Les Dents du tigre (1920)',
+    title: 'Les Dents du tigre',
     author: 'Maurice Leblanc',
     readDate: '',
     rating: 0,
@@ -2427,7 +2427,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: "Les Huit Coups de l'horloge (1923)",
+    title: "Les Huit Coups de l'horloge",
     author: 'Maurice Leblanc',
     readDate: '',
     rating: 0,
@@ -2439,7 +2439,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'La Comtesse de Cagliostro (1924)',
+    title: 'La Comtesse de Cagliostro',
     author: 'Maurice Leblanc',
     readDate: '',
     rating: 0,
@@ -2451,7 +2451,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'La Demoiselle aux yeux verts (1927)',
+    title: 'La Demoiselle aux yeux verts',
     author: 'Maurice Leblanc',
     readDate: '',
     rating: 0,
@@ -2463,7 +2463,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: "Le Cabochon d'émeraude suivi de L'Homme à la peau de bique (1930)",
+    title: "Le Cabochon d'émeraude suivi de L'Homme à la peau de bique",
     author: 'Maurice Leblanc',
     readDate: '',
     rating: 0,
@@ -2475,7 +2475,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: "L'Agence Barnett et Cie (1928)",
+    title: "L'Agence Barnett et Cie",
     author: 'Maurice Leblanc',
     readDate: '',
     rating: 0,
@@ -2487,7 +2487,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'La Demeure mystérieuse (1928)',
+    title: 'La Demeure mystérieuse',
     author: 'Maurice Leblanc',
     readDate: '',
     rating: 0,
@@ -2499,7 +2499,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'La Barre-y-va (1930)',
+    title: 'La Barre-y-va',
     author: 'Maurice Leblanc',
     readDate: '',
     rating: 0,
@@ -2511,7 +2511,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'La Femme aux deux sourires (1932)',
+    title: 'La Femme aux deux sourires',
     author: 'Maurice Leblanc',
     readDate: '',
     rating: 0,
@@ -2523,7 +2523,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'Victor, de la Brigade mondaine (1934)',
+    title: 'Victor, de la Brigade mondaine',
     author: 'Maurice Leblanc',
     readDate: '',
     rating: 0,
@@ -2535,7 +2535,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'La Cagliostro se venge (1935)',
+    title: 'La Cagliostro se venge',
     author: 'Maurice Leblanc',
     readDate: '',
     rating: 0,
@@ -2547,7 +2547,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: "Le Dernier Amour d'Arsène Lupin (1936)",
+    title: "Le Dernier Amour d'Arsène Lupin",
     author: 'Maurice Leblanc',
     readDate: '',
     rating: 0,
@@ -2559,7 +2559,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: "L'Arrestation d'Arsène Lupin (1905)",
+    title: "L'Arrestation d'Arsène Lupin",
     author: 'Maurice Leblanc',
     readDate: '',
     rating: 0,
@@ -2571,7 +2571,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'Les Trois Yeux (1920)',
+    title: 'Les Trois Yeux',
     author: 'Maurice Leblanc',
     readDate: '',
     rating: 0,
@@ -2583,7 +2583,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'Le Formidable Événement (1921)',
+    title: 'Le Formidable Événement',
     author: 'Maurice Leblanc',
     readDate: '',
     rating: 0,
@@ -2595,7 +2595,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'Dorothée, danseuse de corde (1923)',
+    title: 'Dorothée, danseuse de corde',
     author: 'Maurice Leblanc',
     readDate: '',
     rating: 0,
@@ -2607,7 +2607,7 @@ export const dantesBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'La Vie extravagante de Balthazar (1924)',
+    title: 'La Vie extravagante de Balthazar',
     author: 'Maurice Leblanc',
     readDate: '',
     rating: 0,
