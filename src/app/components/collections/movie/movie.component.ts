@@ -201,6 +201,7 @@ export class MovieComponent {
       alreadySeenRead: !!(
         this.movie.timesWatched && this.movie.timesWatched > 0
       ),
+      alreadyInList: this.isInWatchlist,
       rating: this.movie.rating ?? 0,
       hasRatingComment: !!this.movie.ratingComment,
       currentPriority: this.getWatchPriority(),

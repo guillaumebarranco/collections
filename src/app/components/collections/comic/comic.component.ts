@@ -98,6 +98,7 @@ export class ComicComponent {
   getEntityData(): EntityCardEntityData {
     return {
       alreadySeenRead: !!(this.comic.readTimes && this.comic.readTimes > 0),
+      alreadyInList: this.isInReadlist,
       rating: this.comic.rating ?? 0,
       hasRatingComment: !!this.comic.ratingComment,
       currentPriority: this.getReadPriority(),

@@ -1606,4 +1606,17 @@ export const baseBooks: BaseBook[] = [
     description: '',
     countryOrigin: 'France',
   },
+  {
+    title: 'Puzzle',
+    author: 'Franck Thilliez',
+    coverUrl: '/books_pictures/9782266246446-475x500-1.webp',
+    pages: 432,
+    genre: 'Thriller',
+    saga: '',
+    sagaOrder: 0,
+    sagaFinished: false,
+    releaseDate: '2013-10-03',
+    description: '',
+    countryOrigin: 'France',
+  },
 ];

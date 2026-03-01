@@ -100,6 +100,7 @@ export class BookComponent {
   getEntityData(): EntityCardEntityData {
     return {
       alreadySeenRead: !!(this.book.readTimes && this.book.readTimes > 0),
+      alreadyInList: this.isInReadlist,
       rating: this.book.rating ?? 0,
       hasRatingComment: !!this.book.ratingComment,
       currentPriority: this.getReadPriority(),

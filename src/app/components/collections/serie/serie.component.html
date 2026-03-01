@@ -21,7 +21,11 @@
   </button>
   } @if (showTopFiveSelector && !readOnly) {
   <span class="top-five-selector" entity-badges>
-    <label [for]="'top5-serie-' + serie.title + '-' + serie.director" class="top-five-label">Top 5</label>
+    <label
+      [for]="'top5-serie-' + serie.title + '-' + serie.director"
+      class="top-five-label"
+      >Top 5</label
+    >
     <select
       [id]="'top5-serie-' + serie.title + '-' + serie.director"
       [value]="topFiveRank !== null ? topFiveRank : ''"
@@ -71,7 +75,6 @@
       [recommendationText]="recommendationText"
       [recommendationBadge]="recommendationBadge"
       [showRating]="false"
-      [isInList]="isInWatchlist"
       [selectedView]="selectedView"
       (openReview)="openReviewModal()"
       (priorityUpdated)="updateWatchPriority($event)"
@@ -82,29 +85,32 @@
     >
       <div entityCardRatingExtra class="serie-seasons-details">
         @for (season of getSerieSeasons(); track season.seasonNumber) {
-          <div class="serie-season-row">
-            <span class="serie-season-title">Saison {{ season.seasonNumber }}</span>
-            <span class="serie-season-stars">
-              <span class="stars">
-                @for (star of getRatingStars(season.seasonRating || 0); track star.value) {
-                  <span [class]="'star star-' + star.type"></span>
-                }
-              </span>
+        <div class="serie-season-row">
+          <span class="serie-season-title"
+            >Saison {{ season.seasonNumber }}</span
+          >
+          <span class="serie-season-stars">
+            <span class="stars">
+              @for (star of getRatingStars(season.seasonRating || 0); track
+              star.value) {
+              <span [class]="'star star-' + star.type"></span>
+              }
             </span>
-            <span class="serie-season-views">
-              <svg
-                class="serie-season-eye"
-                viewBox="0 0 24 24"
-                aria-hidden="true"
-                focusable="false"
-              >
-                <path
-                  d="M12 5c5.05 0 9.27 3.11 11 7-1.73 3.89-5.95 7-11 7s-9.27-3.11-11-7c1.73-3.89 5.95-7 11-7zm0 2c-3.84 0-7.23 2.19-8.83 5 1.6 2.81 4.99 5 8.83 5s7.23-2.19 8.83-5c-1.6-2.81-4.99-5-8.83-5zm0 2.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5z"
-                />
-              </svg>
-              {{ season.seasonTimesWatched }}
-            </span>
-          </div>
+          </span>
+          <span class="serie-season-views">
+            <svg
+              class="serie-season-eye"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <path
+                d="M12 5c5.05 0 9.27 3.11 11 7-1.73 3.89-5.95 7-11 7s-9.27-3.11-11-7c1.73-3.89 5.95-7 11-7zm0 2c-3.84 0-7.23 2.19-8.83 5 1.6 2.81 4.99 5 8.83 5s7.23-2.19 8.83-5c-1.6-2.81-4.99-5-8.83-5zm0 2.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5z"
+              />
+            </svg>
+            {{ season.seasonTimesWatched }}
+          </span>
+        </div>
         }
       </div>
     </app-entity-card-rating-and-buttons>

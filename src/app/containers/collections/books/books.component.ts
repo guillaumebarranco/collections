@@ -364,7 +364,17 @@ export class BooksComponent implements OnInit {
     } else if (this.selectedView() === 'owned') {
       books = this.allBooks().filter((book) => book.owned);
     } else if (this.selectedView() === 'borrowed') {
-      books = this.allBooks().filter((book) => book.borrowed === true);
+      const readBorrowed = this.allBooks().filter((book) => book.borrowed === true);
+      const readlistBorrowed = this.allReadlistBooks().filter(
+        (book) => book.borrowed === true
+      );
+      const seen = new Set<string>();
+      books = [...readBorrowed, ...readlistBorrowed].filter((book) => {
+        const key = `${book.title}|${book.author}`;
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      });
     } else if (this.selectedView() === 'toReRead') {
       books = this.allBooks().filter((book) => book.wantToReadAgain === true);
     } else if (this.selectedView() === 'authors') {
@@ -412,9 +422,29 @@ export class BooksComponent implements OnInit {
         );
       } else if (this.selectedYearFilter() === 'before2024') {
         filteredBooks = filteredBooks.filter((b) => {
-          const year = parseInt(b.readDate.substring(0, 4));
-          return year < 2024;
+          const year = parseInt(b.readDate.substring(0, 4), 10);
+          return !Number.isNaN(year) && year < 2024;
         });
+      }
+
+      // Vue « Livres empruntés » : garder aussi les empruntés de la readlist (sans date de lecture)
+      if (
+        this.selectedView() === 'borrowed' &&
+        this.selectedYearFilter() !== 'all'
+      ) {
+        const readlistBorrowed = this.allReadlistBooks().filter(
+          (b) => b.borrowed === true
+        );
+        const seen = new Set(
+          filteredBooks.map((b) => `${b.title}|${b.author}`)
+        );
+        for (const b of readlistBorrowed) {
+          const key = `${b.title}|${b.author}`;
+          if (!seen.has(key)) {
+            seen.add(key);
+            filteredBooks = [...filteredBooks, b];
+          }
+        }
       }
     }
 

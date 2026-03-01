@@ -98,6 +98,7 @@ export class ManwhaComponent {
   getEntityData(): EntityCardEntityData {
     return {
       alreadySeenRead: !!(this.manwha.readTimes && this.manwha.readTimes > 0),
+      alreadyInList: this.isInReadlist,
       rating: this.manwha.rating ?? 0,
       hasRatingComment: !!this.manwha.ratingComment,
       currentPriority: this.getReadPriority(),

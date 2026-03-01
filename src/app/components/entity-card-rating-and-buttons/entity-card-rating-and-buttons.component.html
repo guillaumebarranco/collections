@@ -36,14 +36,15 @@
   <button type="button" class="makya-btn-small" (click)="onAddFromList()">
     {{ effectiveLabels.addFromList }}
   </button>
-  } @if (showAddToListButton()) { @if (!isInList) {
+  } @if (showAddToListButton()) { @if (!entityData.alreadyInList) {
   <button type="button" class="makya-btn-small" (click)="onAddToList()">
     {{ effectiveLabels.addToList }}
   </button>
   } @else {
   <span class="recommendation-text">{{ effectiveLabels.alreadyInList }}</span>
   } } @if ( !hideWantToReReadButton && selectedView !== reReadViewName &&
-  selectedView !== listViewName ) { @if (!wantToReRead) {
+  selectedView !== listViewName && entityData.alreadySeenRead ) { @if
+  (!wantToReRead) {
   <button type="button" class="makya-btn-small" (click)="onWantToReReadClick()">
     {{ effectiveLabels.wantToReRead }}
   </button>

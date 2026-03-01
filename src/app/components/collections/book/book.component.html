@@ -24,7 +24,11 @@
   <ng-container entity-badges>
     @if (showTopFiveSelector && !readOnly) {
     <span class="top-five-selector">
-      <label for="top5-{{ book.title }}-{{ book.author }}" class="top-five-label">Top 5</label>
+      <label
+        for="top5-{{ book.title }}-{{ book.author }}"
+        class="top-five-label"
+        >Top 5</label
+      >
       <select
         [id]="'top5-' + book.title + '-' + book.author"
         [value]="topFiveRank !== null ? topFiveRank : ''"
@@ -93,7 +97,6 @@
       [entityData]="getEntityData()"
       [recommendationText]="recommendationText"
       [recommendationBadge]="recommendationBadge"
-      [isInList]="isInReadlist"
       [selectedView]="selectedView"
       (openReview)="openReviewModal()"
       (priorityUpdated)="updateReadPriority($event)"

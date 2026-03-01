@@ -140,6 +140,7 @@ export class GameComponent {
   getEntityData(): EntityCardEntityData {
     return {
       alreadySeenRead: !!(this.game.sessions && this.game.sessions.length > 0),
+      alreadyInList: this.isInGamelist,
       rating: this.game.rating ?? 0,
       hasRatingComment: !!this.game.ratingComment,
       currentPriority: this.getGamelistPriority(),

@@ -245,6 +245,7 @@
           [showTopFiveSelector]="showTopFiveRank()"
           [isReadlistView]="selectedView() === 'readlist'"
           [selectedView]="selectedView()"
+          [isInReadlist]="bookAlreadyInUserReadlist(book)"
           [topFiveRank]="getTopFiveRank(book)"
           (editRequested)="openEditBookDialog(book)"
           (openQuizz)="openQuizzModal($event)"

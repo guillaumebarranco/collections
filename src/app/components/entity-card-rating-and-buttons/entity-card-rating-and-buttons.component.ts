@@ -19,6 +19,7 @@ import { ActivatedRoute } from '@angular/router';
 /** Données communes à l’entité affichée dans la carte (note, priorité, type, etc.). */
 export interface EntityCardEntityData {
   alreadySeenRead: boolean;
+  alreadyInList: boolean;
   rating: number;
   hasRatingComment: boolean;
   currentPriority: 1 | 2 | 3;
@@ -47,7 +48,6 @@ export class EntityCardRatingAndButtonsComponent {
   @Input() entityData!: EntityCardEntityData;
   @Input() recommendationText = '';
   @Input() recommendationBadge = '';
-  @Input() isInList = false;
   @Input() selectedView = '';
   @Input() showRating = true;
   /** Masquer le bouton "Je veux revoir/relire" (ex. section "Films pas encore vus" en vue acteurs/sagas/...) */
