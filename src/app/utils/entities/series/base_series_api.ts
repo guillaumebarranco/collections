@@ -870,4 +870,42 @@ export const baseSeriesApi: BaseSerie[] = [
     countryOrigin: 'Japon',
     saga: 'Dragon Ball',
   },
+
+  {
+    title: 'Percy Jackson & les Olympiens',
+    director: 'Jonathan E. Steinberg, Rick Riordan',
+    actors: [
+      {
+        name: 'Walker Scobell',
+      },
+      {
+        name: 'Leah Sava Jeffries',
+      },
+      {
+        name: 'Aryan Simhadri',
+      },
+      {
+        name: 'Charlie Bushnell',
+      },
+    ],
+    coverUrl: 'https://fr.web.img3.acsta.net/r_1920_1080/pictures/23/09/19/09/23/0665277.jpg',
+    releaseDate: '2023-12-20',
+    endDate: '',
+    genre: 'Fantasy',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 8,
+        totalLength: 313,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 8,
+        totalLength: 325,
+      },
+    ],
+    description: '',
+    countryOrigin: 'États-Unis',
+    saga: 'Percy Jackson',
+  },
 ];
