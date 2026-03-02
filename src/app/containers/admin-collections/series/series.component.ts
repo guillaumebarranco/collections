@@ -1,16 +1,10 @@
-import {
-  Component,
-  computed,
-  inject,
-  signal,
-  OnInit,
-} from '@angular/core';
+import { Component, computed, inject, signal, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { SerieComponent } from '../../../components/collections/serie/serie.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import { AdminSeriesHeaderComponent } from './series-header/series-header.component';
-import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
+import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quizz-modal.component';
 import { Serie } from '../../../models/serie-model';
 import {
   SerieView,
@@ -153,7 +147,13 @@ export class AdminSeriesComponent implements OnInit {
 
   private matchesSearch(serie: Serie, term: string): boolean {
     const actors = serie.actors?.map((actor) => actor.name).join(' ') || '';
-    const haystack = [serie.title, serie.director, actors, serie.genre, serie.saga]
+    const haystack = [
+      serie.title,
+      serie.director,
+      actors,
+      serie.genre,
+      serie.saga,
+    ]
       .filter(Boolean)
       .join(' ');
     const normalizedHaystack = this.normalizeSearchText(haystack);

@@ -12,15 +12,15 @@ import { MenuComponent } from '../../components/menu/menu.component';
 import {
   ViewToggleComponent,
   ViewToggleOption,
-} from '../../components/view-toggle/view-toggle.component';
+} from '../../components/shared/view-toggle/view-toggle.component';
 import {
   StatsDisplayComponent,
   StatItem,
   StatItemColor,
-} from '../../components/stats-display/stats-display.component';
-import { DashboardEntitiesStatsComponent } from '../../components/dashboard-entities-stats/dashboard-entities-stats.component';
-import { DashboardEntityChartsComponent } from '../../components/dashboard-entity-charts/dashboard-entity-charts.component';
-import { DashboardUserTodosComponent } from '../../components/dashboard-user-todos/dashboard-user-todos.component';
+} from '../../components/shared/stats-display/stats-display.component';
+import { DashboardEntitiesStatsComponent } from '../../components/dashboard/dashboard-entities-stats/dashboard-entities-stats.component';
+import { DashboardEntityChartsComponent } from '../../components/dashboard/dashboard-entity-charts/dashboard-entity-charts.component';
+import { DashboardUserTodosComponent } from '../../components/dashboard/dashboard-user-todos/dashboard-user-todos.component';
 import { LoginComponent } from '../../components/login/login.component';
 
 import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
@@ -81,7 +81,7 @@ import { MatDialog } from '@angular/material/dialog';
 import {
   FollowsModalComponent,
   type FollowsModalData,
-} from '../../components/follows-modal/follows-modal.component';
+} from '../../components/modals/follows-modal/follows-modal.component';
 import { FollowsService } from '../../services/follows.service';
 import { ImpersonateService } from '../../services/impersonate.service';
 import type { TopFiveEntityType } from '../../models/top-five-model';

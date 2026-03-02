@@ -8,7 +8,7 @@ import {
   output,
   signal,
 } from '@angular/core';
-import { ViewToggleComponent } from '../../../../components/view-toggle/view-toggle.component';
+import { ViewToggleComponent } from '../../../../components/shared/view-toggle/view-toggle.component';
 import { RouterModule } from '@angular/router';
 import { BookView } from '../../../collections/books/books.utils';
 import { FormsModule } from '@angular/forms';
@@ -27,12 +27,7 @@ const ADMIN_VIEW_OPTIONS: { value: BookView; label: string }[] = [
 
 @Component({
   selector: 'app-admin-books-header',
-  imports: [
-    RouterModule,
-    FormsModule,
-    ViewToggleComponent,
-    MatDialogModule,
-  ],
+  imports: [RouterModule, FormsModule, ViewToggleComponent, MatDialogModule],
   templateUrl: './books-header.component.html',
   styleUrls: ['./books-header.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,

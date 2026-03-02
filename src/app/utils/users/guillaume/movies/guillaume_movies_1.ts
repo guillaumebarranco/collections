@@ -1387,7 +1387,7 @@ export const guillaumeMoviesPage1: UserMovies = [
   {
     title: 'Australia',
     director: 'Baz Luhrmann',
-    rating: 4,
+    rating: 3.75,
     timesWatched: 1,
     firstViewedDate: '2026-02-27',
     lastViewedDate: '2026-02-27',

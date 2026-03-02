@@ -8,15 +8,15 @@ import {
   output,
   signal,
 } from '@angular/core';
-import { ViewToggleComponent } from '../../../../components/view-toggle/view-toggle.component';
+import { ViewToggleComponent } from '../../../../components/shared/view-toggle/view-toggle.component';
 import {
   SortDropdownComponent,
   SortOption,
-} from '../../../../components/sort-dropdown/sort-dropdown.component';
-import { StatsDisplayComponent } from '../../../../components/stats-display/stats-display.component';
+} from '../../../../components/shared/sort-dropdown/sort-dropdown.component';
+import { StatsDisplayComponent } from '../../../../components/shared/stats-display/stats-display.component';
 import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
 import { BookView } from '../books.utils';
-import { StatItem } from '../../../../components/stats-display/stats-display.component';
+import { StatItem } from '../../../../components/shared/stats-display/stats-display.component';
 import { FormsModule } from '@angular/forms';
 import { DEFAULT_USER_ID } from '../../../../utils/constants';
 import { CanEditDirective } from '../../../../directives/can-edit.directive';

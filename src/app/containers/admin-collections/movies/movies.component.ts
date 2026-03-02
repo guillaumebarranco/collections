@@ -9,7 +9,7 @@ import {
 import { CommonModule } from '@angular/common';
 import { MovieComponent } from '../../../components/collections/movie/movie.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
-import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
+import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quizz-modal.component';
 import { Movie } from '../../../models/movie-model';
 import { Quizz } from '../../../models/quizz-model';
 import { getAllBaseMovies } from '../../../facades/movies/movies.facade';
@@ -25,7 +25,7 @@ import {
 } from '../../collections/movies/movies.utils';
 import { getFullMovie } from '../../../helpers/full-entities-helper';
 import { AdminMoviesHeaderComponent } from './movies-header/movies-header.component';
-import { LoaderComponent } from '../../../components/loader/loader.component';
+import { LoaderComponent } from '../../../components/shared/loader/loader.component';
 
 const ADMIN_VIEWS: MovieView[] = [
   'watched',

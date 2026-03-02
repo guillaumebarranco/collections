@@ -1,7 +1,7 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { PwaService } from './services/pwa.service';
-import { PwaInstallComponent } from './components/pwa-install/pwa-install.component';
+import { PwaInstallComponent } from './components/shared/pwa-install/pwa-install.component';
 
 @Component({
   selector: 'app-root',

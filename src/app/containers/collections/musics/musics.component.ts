@@ -10,16 +10,16 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { MusicComponent } from '../../../components/collections/music/music.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
-import { SortOption } from '../../../components/sort-dropdown/sort-dropdown.component';
+import { SortOption } from '../../../components/shared/sort-dropdown/sort-dropdown.component';
 import {
   StatItem,
   StatItemColor,
-} from '../../../components/stats-display/stats-display.component';
+} from '../../../components/shared/stats-display/stats-display.component';
 import { MusicsHeaderComponent } from './musics-header/musics-header.component';
 import {
   AlbumModalComponent,
   Album,
-} from '../../../components/album-modal/album-modal.component';
+} from '../../../components/modals/album-modal/album-modal.component';
 import { Music } from '../../../models/music-model';
 import { ActivatedRoute, Params, Router } from '@angular/router';
 import {

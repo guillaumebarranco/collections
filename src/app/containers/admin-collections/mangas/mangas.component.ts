@@ -9,7 +9,7 @@ import {
 import { CommonModule } from '@angular/common';
 import { MangaComponent } from '../../../components/collections/manga/manga.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
-import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
+import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quizz-modal.component';
 import { Manga } from '../../../models/manga-model';
 import { Quizz } from '../../../models/quizz-model';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
@@ -17,7 +17,7 @@ import { getAllBaseMangas } from '../../../facades/mangas/mangas.facade';
 import { getSortedMangas } from '../../collections/mangas/mangas.utils';
 import { getFullManga } from '../../../helpers/full-entities-helper';
 import { AdminMangasHeaderComponent } from './mangas-header/mangas-header.component';
-import { LoaderComponent } from '../../../components/loader/loader.component';
+import { LoaderComponent } from '../../../components/shared/loader/loader.component';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { EditMangaComponent } from '../../edit/edit-manga/edit-manga.component';
 
@@ -60,7 +60,9 @@ export class AdminMangasComponent implements OnInit {
     getSortedMangas([...this.filteredMangas()], 'title')
   );
 
-  visibleViewOptions = computed(() => [{ value: 'read' as const, label: 'Voir tout' }]);
+  visibleViewOptions = computed(() => [
+    { value: 'read' as const, label: 'Voir tout' },
+  ]);
 
   ngOnInit() {
     void this.refreshMangas();
@@ -122,13 +124,18 @@ export class AdminMangasComponent implements OnInit {
   }
 
   private matchesSearch(manga: Manga, term: string): boolean {
-    const haystack = [manga.title, manga.author, manga.genre].filter(Boolean).join(' ');
+    const haystack = [manga.title, manga.author, manga.genre]
+      .filter(Boolean)
+      .join(' ');
     const normalizedHaystack = this.normalizeSearchText(haystack);
     const normalizedTerm = this.normalizeSearchText(term);
     return normalizedHaystack.includes(normalizedTerm);
   }
 
   private normalizeSearchText(value: string): string {
-    return value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    return value
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase();
   }
 }

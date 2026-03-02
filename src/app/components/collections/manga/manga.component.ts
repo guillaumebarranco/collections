@@ -9,12 +9,12 @@ import {
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Router } from '@angular/router';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
-import { EntityCardComponent } from '../../entity-card/entity-card.component';
+import { EntityCardComponent } from '../../entity/entity-card/entity-card.component';
 import {
   EntityCardRatingAndButtonsComponent,
   EntityCardEntityData,
-} from '../../entity-card-rating-and-buttons/entity-card-rating-and-buttons.component';
-import { ReviewModalComponent } from '../../review-modal/review-modal.component';
+} from '../../entity/entity-card-rating-and-buttons/entity-card-rating-and-buttons.component';
+import { ReviewModalComponent } from '../../modals/review-modal/review-modal.component';
 import { CanEditDirective } from '../../../directives/can-edit.directive';
 import { Manga } from '../../../models/manga-model';
 import { EntityType } from '../../../models/quizz-model';
@@ -25,7 +25,7 @@ import { MangaView } from '../../../containers/collections/mangas/mangas.utils';
 import {
   MoveEntityReviewModalComponent,
   MoveEntityReviewModalResult,
-} from '../../move-entity-review-modal/move-entity-review-modal.component';
+} from '../../modals/move-entity-review-modal/move-entity-review-modal.component';
 
 @Component({
   selector: 'app-manga',

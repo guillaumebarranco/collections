@@ -15,12 +15,12 @@ import {
   MatDialogRef,
 } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
-import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
+import { EditEntityComponent } from '../../../components/entity/edit-entity/edit-entity.component';
 import { AuthService } from '../../../core/auth.service';
-import { QuizzCreateModalComponent } from '../../../components/quizz-create-modal/quizz-create-modal.component';
+import { QuizzCreateModalComponent } from '../../../components/modals/quizz-create-modal/quizz-create-modal.component';
 import { EntityType } from '../../../models/quizz-model';
-import { EditEntityHeaderComponent } from '../../../components/edit-entity-header/edit-entity-header.component';
-import { CountrySelectComponent } from '../../../components/country-select/country-select.component';
+import { EditEntityHeaderComponent } from '../../../components/entity/edit-entity-header/edit-entity-header.component';
+import { CountrySelectComponent } from '../../../components/shared/country-select/country-select.component';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 
 type EditBookForm = {
@@ -166,7 +166,10 @@ export class EditBookComponent {
     });
   }
 
-  updateCheckbox(field: 'owned' | 'borrowed' | 'wantToReadAgain', checked: boolean) {
+  updateCheckbox(
+    field: 'owned' | 'borrowed' | 'wantToReadAgain',
+    checked: boolean
+  ) {
     const current = this.bookForm();
     if (!current) return;
     this.bookForm.set({
@@ -182,7 +185,12 @@ export class EditBookComponent {
     const current = this.bookEntityForm();
     if (!current) return;
     let nextValue: EditBookEntityForm[K] = value as EditBookEntityForm[K];
-    if (field !== 'genre' && field !== 'saga' && field !== 'coverUrl' && field !== 'releaseDate') {
+    if (
+      field !== 'genre' &&
+      field !== 'saga' &&
+      field !== 'coverUrl' &&
+      field !== 'releaseDate'
+    ) {
       const asNumber = Number(value);
       nextValue = (
         Number.isNaN(asNumber) ? 0 : asNumber

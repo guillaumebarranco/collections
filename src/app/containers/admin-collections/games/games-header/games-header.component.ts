@@ -8,7 +8,7 @@ import {
   output,
   signal,
 } from '@angular/core';
-import { ViewToggleComponent } from '../../../../components/view-toggle/view-toggle.component';
+import { ViewToggleComponent } from '../../../../components/shared/view-toggle/view-toggle.component';
 import { Router, RouterModule } from '@angular/router';
 import { AuthService } from '../../../../core/auth.service';
 import { GameView } from '../../../collections/games/games.utils';
@@ -18,12 +18,7 @@ import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-admin-games-header',
-  imports: [
-    RouterModule,
-    FormsModule,
-    ViewToggleComponent,
-    MatDialogModule,
-  ],
+  imports: [RouterModule, FormsModule, ViewToggleComponent, MatDialogModule],
   templateUrl: './games-header.component.html',
   styleUrls: ['./games-header.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,

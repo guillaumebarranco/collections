@@ -11,20 +11,20 @@ import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Router } from '@angular/router';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { Serie } from '../../../models/serie-model';
-import { ReviewModalComponent } from '../../review-modal/review-modal.component';
+import { ReviewModalComponent } from '../../modals/review-modal/review-modal.component';
 import {
   MoveEntityReviewModalComponent,
   MoveEntityReviewModalResult,
-} from '../../move-entity-review-modal/move-entity-review-modal.component';
+} from '../../modals/move-entity-review-modal/move-entity-review-modal.component';
 import { EntityType } from '../../../models/quizz-model';
 import { SerieView } from '../../../containers/collections/series/series.utils';
 import { EditSerieComponent } from '../../../containers/edit/edit-serie/edit-serie.component';
 import { EditSerieSeasonsComponent } from '../../../containers/edit/edit-serie-seasons/edit-serie-seasons.component';
-import { EntityCardComponent } from '../../entity-card/entity-card.component';
+import { EntityCardComponent } from '../../entity/entity-card/entity-card.component';
 import {
   EntityCardRatingAndButtonsComponent,
   EntityCardEntityData,
-} from '../../entity-card-rating-and-buttons/entity-card-rating-and-buttons.component';
+} from '../../entity/entity-card-rating-and-buttons/entity-card-rating-and-buttons.component';
 import { CanEditDirective } from '../../../directives/can-edit.directive';
 import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';

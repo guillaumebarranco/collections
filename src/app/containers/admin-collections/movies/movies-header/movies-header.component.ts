@@ -7,7 +7,7 @@ import {
   output,
   signal,
 } from '@angular/core';
-import { ViewToggleComponent } from '../../../../components/view-toggle/view-toggle.component';
+import { ViewToggleComponent } from '../../../../components/shared/view-toggle/view-toggle.component';
 import { Router, RouterModule } from '@angular/router';
 import { MovieView } from '../../../collections/movies/movies.utils';
 import { FormsModule } from '@angular/forms';

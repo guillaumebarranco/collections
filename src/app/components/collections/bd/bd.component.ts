@@ -9,12 +9,12 @@ import {
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
-import { EntityCardComponent } from '../../entity-card/entity-card.component';
+import { EntityCardComponent } from '../../entity/entity-card/entity-card.component';
 import {
   EntityCardRatingAndButtonsComponent,
   EntityCardEntityData,
-} from '../../entity-card-rating-and-buttons/entity-card-rating-and-buttons.component';
-import { ReviewModalComponent } from '../../review-modal/review-modal.component';
+} from '../../entity/entity-card-rating-and-buttons/entity-card-rating-and-buttons.component';
+import { ReviewModalComponent } from '../../modals/review-modal/review-modal.component';
 import { CanEditDirective } from '../../../directives/can-edit.directive';
 import { Bd } from '../../../models/bd-model';
 import { EntityType } from '../../../models/quizz-model';
@@ -24,7 +24,7 @@ import { BdView } from '../../../containers/collections/bds/bds.utils';
 import {
   MoveEntityReviewModalComponent,
   MoveEntityReviewModalResult,
-} from '../../move-entity-review-modal/move-entity-review-modal.component';
+} from '../../modals/move-entity-review-modal/move-entity-review-modal.component';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 
 @Component({

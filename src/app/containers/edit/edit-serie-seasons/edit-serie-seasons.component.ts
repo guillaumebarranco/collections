@@ -5,7 +5,7 @@ import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { Router, RouterModule } from '@angular/router';
 import { Serie, UserSerieSeason } from '../../../models/serie-model';
 import { getApiBaseUrl } from '../../../core/config';
-import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
+import { EditEntityComponent } from '../../../components/entity/edit-entity/edit-entity.component';
 import { AuthService } from '../../../core/auth.service';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 
@@ -54,8 +54,8 @@ export class EditSerieSeasonsComponent {
                 field === 'lastViewedDate'
                   ? String(value)
                   : Number.isNaN(Number(value))
-                    ? 0
-                    : Number(value),
+                  ? 0
+                  : Number(value),
             }
           : season
       )

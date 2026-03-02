@@ -15,16 +15,16 @@ import { Movie } from '../../../models/movie-model';
 import { EntityType } from '../../../models/quizz-model';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditMovieComponent } from '../../../containers/edit/edit-movie/edit-movie.component';
-import { ReviewModalComponent } from '../../review-modal/review-modal.component';
+import { ReviewModalComponent } from '../../modals/review-modal/review-modal.component';
 import {
   MoveEntityReviewModalComponent,
   MoveEntityReviewModalResult,
-} from '../../move-entity-review-modal/move-entity-review-modal.component';
-import { EntityCardComponent } from '../../entity-card/entity-card.component';
+} from '../../modals/move-entity-review-modal/move-entity-review-modal.component';
+import { EntityCardComponent } from '../../entity/entity-card/entity-card.component';
 import {
   EntityCardRatingAndButtonsComponent,
   EntityCardEntityData,
-} from '../../entity-card-rating-and-buttons/entity-card-rating-and-buttons.component';
+} from '../../entity/entity-card-rating-and-buttons/entity-card-rating-and-buttons.component';
 import { CanEditDirective } from '../../../directives/can-edit.directive';
 import { getApiBaseUrl, isBaseEntityView } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';

@@ -7,10 +7,7 @@ import {
   Router,
   RouterModule,
 } from '@angular/router';
-import {
-  Game,
-  UserGameSession,
-} from '../../../models/game-model';
+import { Game, UserGameSession } from '../../../models/game-model';
 import { getGamesByUser } from '../../../facades/games/games.facade';
 import {
   MAT_DIALOG_DATA,
@@ -18,10 +15,10 @@ import {
   MatDialogRef,
 } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
-import { EditEntityComponent } from '../../../components/edit-entity/edit-entity.component';
-import { EditEntityHeaderComponent } from '../../../components/edit-entity-header/edit-entity-header.component';
+import { EditEntityComponent } from '../../../components/entity/edit-entity/edit-entity.component';
+import { EditEntityHeaderComponent } from '../../../components/entity/edit-entity-header/edit-entity-header.component';
 import { AuthService } from '../../../core/auth.service';
-import { QuizzCreateModalComponent } from '../../../components/quizz-create-modal/quizz-create-modal.component';
+import { QuizzCreateModalComponent } from '../../../components/modals/quizz-create-modal/quizz-create-modal.component';
 import { EntityType } from '../../../models/quizz-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 
@@ -171,9 +168,13 @@ export class EditGameComponent {
     });
   }
 
-  updateSessionCompletion(sessionIndex: number, completion: SessionCompletionType) {
+  updateSessionCompletion(
+    sessionIndex: number,
+    completion: SessionCompletionType
+  ) {
     const current = this.gameForm();
-    if (!current || sessionIndex < 0 || sessionIndex >= current.sessions.length) return;
+    if (!current || sessionIndex < 0 || sessionIndex >= current.sessions.length)
+      return;
     const next = [...current.sessions];
     next[sessionIndex] = { ...next[sessionIndex], completion };
     this.gameForm.set({ ...current, sessions: next });
@@ -181,7 +182,8 @@ export class EditGameComponent {
 
   updateSessionAdditionnalTime(sessionIndex: number, value: string | number) {
     const current = this.gameForm();
-    if (!current || sessionIndex < 0 || sessionIndex >= current.sessions.length) return;
+    if (!current || sessionIndex < 0 || sessionIndex >= current.sessions.length)
+      return;
     const hours = Number(value);
     const next = [...current.sessions];
     next[sessionIndex] = {
@@ -196,13 +198,17 @@ export class EditGameComponent {
     if (!current) return;
     this.gameForm.set({
       ...current,
-      sessions: [...current.sessions, { completion: 'none', additionnalEstimatedTime: 0 }],
+      sessions: [
+        ...current.sessions,
+        { completion: 'none', additionnalEstimatedTime: 0 },
+      ],
     });
   }
 
   removeSession(sessionIndex: number) {
     const current = this.gameForm();
-    if (!current || sessionIndex < 0 || sessionIndex >= current.sessions.length) return;
+    if (!current || sessionIndex < 0 || sessionIndex >= current.sessions.length)
+      return;
     const next = current.sessions.filter((_, i) => i !== sessionIndex);
     this.gameForm.set({ ...current, sessions: next });
   }
@@ -500,7 +506,9 @@ export class EditGameComponent {
     };
   }
 
-  private gameSessionsToFormSessions(sessions: UserGameSession[]): EditGameSessionForm[] {
+  private gameSessionsToFormSessions(
+    sessions: UserGameSession[]
+  ): EditGameSessionForm[] {
     return sessions.map((s) => {
       let completion: SessionCompletionType = 'none';
       if (s.platinedGame) completion = 'platined';
@@ -520,7 +528,8 @@ export class EditGameComponent {
       finishedGame: f.completion === 'finished',
       finishedGameWithHundredPercent: f.completion === 'hundred',
       platinedGame: f.completion === 'platined',
-      additionnalEstimatedTime: f.completion === 'none' ? (f.additionnalEstimatedTime ?? 0) : 0,
+      additionnalEstimatedTime:
+        f.completion === 'none' ? f.additionnalEstimatedTime ?? 0 : 0,
     }));
     return { sessions };
   }

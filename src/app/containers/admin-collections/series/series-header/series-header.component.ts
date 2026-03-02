@@ -7,7 +7,7 @@ import {
   output,
   signal,
 } from '@angular/core';
-import { ViewToggleComponent } from '../../../../components/view-toggle/view-toggle.component';
+import { ViewToggleComponent } from '../../../../components/shared/view-toggle/view-toggle.component';
 import { Router, RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { AddSerieComponent } from '../../../add/add-serie/add-serie.component';
@@ -16,12 +16,7 @@ import { SerieView } from '../../../collections/series/series.utils';
 
 @Component({
   selector: 'app-admin-series-header',
-  imports: [
-    RouterModule,
-    FormsModule,
-    ViewToggleComponent,
-    MatDialogModule,
-  ],
+  imports: [RouterModule, FormsModule, ViewToggleComponent, MatDialogModule],
   templateUrl: './series-header.component.html',
   styleUrls: ['./series-header.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,

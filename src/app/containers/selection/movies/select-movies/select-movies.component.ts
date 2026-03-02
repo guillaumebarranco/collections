@@ -10,7 +10,7 @@ import {
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddMovieComponent } from '../../../add/add-movie/add-movie.component';
-import { SelectEntityComponent } from '../../../../components/select-entity/select-entity.component';
+import { SelectEntityComponent } from '../../../../components/entity/select-entity/select-entity.component';
 import { Router } from '@angular/router';
 import { getApiBaseUrl } from '../../../../core/config';
 import { getEmptyMovie } from '../../../../helpers/empty-entities-helper';

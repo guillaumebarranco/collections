@@ -6,7 +6,7 @@ import {
   output,
   signal,
 } from '@angular/core';
-import { ViewToggleComponent } from '../../../../components/view-toggle/view-toggle.component';
+import { ViewToggleComponent } from '../../../../components/shared/view-toggle/view-toggle.component';
 import { Router } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { AddBdComponent } from '../../../add/add-bd/add-bd.component';

@@ -8,7 +8,7 @@ import {
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../components/menu/menu.component';
-import { ViewToggleComponent } from '../../components/view-toggle/view-toggle.component';
+import { ViewToggleComponent } from '../../components/shared/view-toggle/view-toggle.component';
 import { BdComponent } from '../../components/collections/bd/bd.component';
 import { BookComponent } from '../../components/collections/book/book.component';
 import { ComicComponent } from '../../components/collections/comic/comic.component';
@@ -21,7 +21,14 @@ import { getAllBaseComics } from '../../facades/comics/comics.facade';
 import { getAllBaseGames } from '../../facades/games/games.facade';
 import { getAllBaseMovies } from '../../facades/movies/movies.facade';
 import { getAllBaseSeries } from '../../facades/series/series.facade';
-import { getFullBd, getFullBook, getFullComic, getFullGame, getFullMovie, getFullSerie } from '../../helpers/full-entities-helper';
+import {
+  getFullBd,
+  getFullBook,
+  getFullComic,
+  getFullGame,
+  getFullMovie,
+  getFullSerie,
+} from '../../helpers/full-entities-helper';
 import { BaseBd } from '../../models/bd-model';
 import { BaseBook } from '../../models/book-model';
 import { BaseComic } from '../../models/comic-model';
@@ -192,10 +199,7 @@ export class MixComponent implements OnInit {
   readonly moviesFromBooks = computed<Movie[]>(() => {
     const movies = this.baseMovies();
     return movies
-      .filter(
-        (m) =>
-          m.fromEntity != null && m.fromEntity.entityType === 'book'
-      )
+      .filter((m) => m.fromEntity != null && m.fromEntity.entityType === 'book')
       .map((m) => getFullMovie(m));
   });
 
@@ -224,10 +228,7 @@ export class MixComponent implements OnInit {
   readonly moviesFromGames = computed<Movie[]>(() => {
     const movies = this.baseMovies();
     return movies
-      .filter(
-        (m) =>
-          m.fromEntity != null && m.fromEntity.entityType === 'game'
-      )
+      .filter((m) => m.fromEntity != null && m.fromEntity.entityType === 'game')
       .map((m) => getFullMovie(m));
   });
 
@@ -281,8 +282,7 @@ export class MixComponent implements OnInit {
     const movies = this.baseMovies();
     return movies
       .filter(
-        (m) =>
-          m.fromEntity != null && m.fromEntity.entityType === 'comic'
+        (m) => m.fromEntity != null && m.fromEntity.entityType === 'comic'
       )
       .map((m) => getFullMovie(m));
   });

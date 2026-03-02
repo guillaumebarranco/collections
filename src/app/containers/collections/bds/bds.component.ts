@@ -10,13 +10,13 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { BdComponent } from '../../../components/collections/bd/bd.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
-import { SortOption } from '../../../components/sort-dropdown/sort-dropdown.component';
+import { SortOption } from '../../../components/shared/sort-dropdown/sort-dropdown.component';
 import {
   StatItem,
   StatItemColor,
-} from '../../../components/stats-display/stats-display.component';
+} from '../../../components/shared/stats-display/stats-display.component';
 import { BdsHeaderComponent } from './bds-header/bds-header.component';
-import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
+import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quizz-modal.component';
 import { Bd } from '../../../models/bd-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { Quizz } from '../../../models/quizz-model';

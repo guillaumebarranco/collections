@@ -4,7 +4,7 @@ import {
   input,
   output,
 } from '@angular/core';
-import { ViewToggleComponent } from '../../../../components/view-toggle/view-toggle.component';
+import { ViewToggleComponent } from '../../../../components/shared/view-toggle/view-toggle.component';
 import { FormsModule } from '@angular/forms';
 
 const ADMIN_VIEW_OPTIONS: { value: string; label: string }[] = [

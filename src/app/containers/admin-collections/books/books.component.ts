@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { BookComponent } from '../../../components/collections/book/book.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import { AdminBooksHeaderComponent } from './books-header/books-header.component';
-import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
+import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quizz-modal.component';
 import { Book } from '../../../models/book-model';
 import {
   BookView,

@@ -9,7 +9,7 @@ import {
 import { CommonModule } from '@angular/common';
 import { BdComponent } from '../../../components/collections/bd/bd.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
-import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
+import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quizz-modal.component';
 import { Bd } from '../../../models/bd-model';
 import { Quizz } from '../../../models/quizz-model';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
@@ -17,7 +17,7 @@ import { getAllBaseBds } from '../../../facades/bds/bds.facade';
 import { getSortedBds } from '../../collections/bds/bds.utils';
 import { getFullBd } from '../../../helpers/full-entities-helper';
 import { AdminBdsHeaderComponent } from './bds-header/bds-header.component';
-import { LoaderComponent } from '../../../components/loader/loader.component';
+import { LoaderComponent } from '../../../components/shared/loader/loader.component';
 import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
 import { EditBdComponent } from '../../edit/edit-bd/edit-bd.component';
 
@@ -60,7 +60,9 @@ export class AdminBdsComponent implements OnInit {
     getSortedBds([...this.filteredBds()], 'title')
   );
 
-  visibleViewOptions = computed(() => [{ value: 'read' as const, label: 'Voir tout' }]);
+  visibleViewOptions = computed(() => [
+    { value: 'read' as const, label: 'Voir tout' },
+  ]);
 
   ngOnInit() {
     void this.refreshBds();
@@ -131,6 +133,9 @@ export class AdminBdsComponent implements OnInit {
   }
 
   private normalizeSearchText(value: string): string {
-    return value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    return value
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase();
   }
 }

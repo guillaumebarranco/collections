@@ -10,7 +10,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ManwhaComponent } from '../../../components/collections/manwha/manwha.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
-import { SortOption } from '../../../components/sort-dropdown/sort-dropdown.component';
+import { SortOption } from '../../../components/shared/sort-dropdown/sort-dropdown.component';
 import { ManwhasHeaderComponent } from './manwhas-header/manwhas-header.component';
 import { Manwha } from '../../../models/manwha-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
@@ -37,8 +37,8 @@ import {
 import {
   StatItem,
   StatItemColor,
-} from '../../../components/stats-display/stats-display.component';
-import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
+} from '../../../components/shared/stats-display/stats-display.component';
+import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quizz-modal.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditManwhaComponent } from '../../edit/edit-manwha/edit-manwha.component';
 import { LocalStorageService } from '../../../services/local-storage.service';

@@ -9,7 +9,7 @@ import {
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { MenuComponent } from '../../../components/menu/menu.component';
-import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
+import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quizz-modal.component';
 import { Quizz, EntityType } from '../../../models/quizz-model';
 import {
   getAllQuizzs,
@@ -79,7 +79,10 @@ async function loadEntityCoverMap(): Promise<Map<string, string>> {
       getAllBaseManwhas(),
     ]);
 
-  const addAll = (type: EntityType, items: { title: string; coverUrl: string }[]) => {
+  const addAll = (
+    type: EntityType,
+    items: { title: string; coverUrl: string }[]
+  ) => {
     items.forEach((item) => {
       if (item.coverUrl) {
         map.set(buildCoverMapKey(type, item.title), item.coverUrl);
@@ -167,7 +170,8 @@ export class QuizzsComponent implements OnInit {
       route = route.parent;
     }
     const auth =
-      this.authService.getAuthenticatedUserId?.() ?? this.authService.userId?.();
+      this.authService.getAuthenticatedUserId?.() ??
+      this.authService.userId?.();
     return auth ? String(auth).trim().toLowerCase() : DEFAULT_USER_ID;
   }
 

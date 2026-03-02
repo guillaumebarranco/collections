@@ -11,7 +11,7 @@ import { MatDialog } from '@angular/material/dialog';
 import { AuthService } from '../../core/auth.service';
 import { DEFAULT_USER_ID } from '../../utils/constants';
 import { MenuConfigService } from '../../core/menu-config.service';
-import { MenuConfigModalComponent } from '../menu-config-modal/menu-config-modal.component';
+import { MenuConfigModalComponent } from '../modals/menu-config-modal/menu-config-modal.component';
 import { ImpersonateService } from '../../services/impersonate.service';
 
 @Component({
@@ -40,7 +40,8 @@ export class MenuComponent implements OnInit {
     if (impersonated) return impersonated;
     const routeId = this.getRouteIdFromRouter();
     if (routeId) return routeId;
-    const auth = this.authService.getAuthenticatedUserId?.() ?? this.authService.userId();
+    const auth =
+      this.authService.getAuthenticatedUserId?.() ?? this.authService.userId();
     return auth ?? DEFAULT_USER_ID;
   });
 

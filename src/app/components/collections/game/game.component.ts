@@ -10,14 +10,14 @@ import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Router } from '@angular/router';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { Game } from '../../../models/game-model';
-import { ReviewModalComponent } from '../../review-modal/review-modal.component';
+import { ReviewModalComponent } from '../../modals/review-modal/review-modal.component';
 import { EntityType } from '../../../models/quizz-model';
 import { EditGameComponent } from '../../../containers/edit/edit-game/edit-game.component';
-import { EntityCardComponent } from '../../entity-card/entity-card.component';
+import { EntityCardComponent } from '../../entity/entity-card/entity-card.component';
 import {
   EntityCardRatingAndButtonsComponent,
   EntityCardEntityData,
-} from '../../entity-card-rating-and-buttons/entity-card-rating-and-buttons.component';
+} from '../../entity/entity-card-rating-and-buttons/entity-card-rating-and-buttons.component';
 import { CanEditDirective } from '../../../directives/can-edit.directive';
 import { getGameTimePlayed } from '../../../utils/games.utils';
 
@@ -27,7 +27,7 @@ import { GameView } from '../../../containers/collections/games/games.utils';
 import {
   MoveEntityReviewModalComponent,
   MoveEntityReviewModalResult,
-} from '../../move-entity-review-modal/move-entity-review-modal.component';
+} from '../../modals/move-entity-review-modal/move-entity-review-modal.component';
 
 @Component({
   selector: 'app-game',

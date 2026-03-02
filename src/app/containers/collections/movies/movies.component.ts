@@ -10,13 +10,13 @@ import {
 import { CommonModule } from '@angular/common';
 import { MovieComponent } from '../../../components/collections/movie/movie.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
-import { SortDropdownComponent } from '../../../components/sort-dropdown/sort-dropdown.component';
+import { SortDropdownComponent } from '../../../components/shared/sort-dropdown/sort-dropdown.component';
 import {
   StatItem,
   StatItemColor,
   StatsDisplayComponent,
-} from '../../../components/stats-display/stats-display.component';
-import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
+} from '../../../components/shared/stats-display/stats-display.component';
+import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quizz-modal.component';
 import {
   getTotalWatchingTime,
   getTotalDuration,
@@ -52,7 +52,7 @@ import {
 } from './movies.utils';
 import { getApiBaseUrl } from '../../../core/config';
 import { MoviesHeaderComponent } from './movies-header/movies-header.component';
-import { LoaderComponent } from '../../../components/loader/loader.component';
+import { LoaderComponent } from '../../../components/shared/loader/loader.component';
 import { getFullMovie } from '../../../helpers/full-entities-helper';
 import {
   updateWatchPriority,

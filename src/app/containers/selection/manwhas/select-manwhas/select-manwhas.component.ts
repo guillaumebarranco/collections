@@ -12,7 +12,7 @@ import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddManwhaComponent } from '../../../add/add-manwha/add-manwha.component';
 import { getApiBaseUrl, isLocalhost } from '../../../../core/config';
-import { SelectEntityComponent } from '../../../../components/select-entity/select-entity.component';
+import { SelectEntityComponent } from '../../../../components/entity/select-entity/select-entity.component';
 import { getEmptyManwha } from '../../../../helpers/empty-entities-helper';
 
 @Component({
