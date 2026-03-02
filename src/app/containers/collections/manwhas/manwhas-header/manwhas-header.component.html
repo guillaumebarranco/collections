@@ -16,7 +16,7 @@
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
 
-    <div class="manwhas-actions">
+    <div class="manwhas-actions" *appCanEdit>
       <button
         class="makya-btn-small"
         type="button"
@@ -79,9 +79,7 @@
       Sélectionner mes manwhas
     </button>
   </div>
-  }
-
-  @if (showFiltersAndSearch()) {
+  } @if (showFiltersAndSearch()) {
   <div class="manwhas-stats-bloc">
     <app-stats-display
       [stats]="stats()"

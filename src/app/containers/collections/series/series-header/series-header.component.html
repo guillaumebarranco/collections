@@ -16,7 +16,7 @@
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
 
-    <div class="series-actions">
+    <div class="series-actions" *appCanEdit>
       <button
         class="makya-btn-small"
         type="button"
@@ -74,9 +74,7 @@
   </div>
   } @if(allSeriesCount() === 0) {
   <div class="empty-state">
-    <p class="empty-message">
-      Vous n'avez aucune série dans votre collection.
-    </p>
+    <p class="empty-message">Vous n'avez aucune série dans votre collection.</p>
     <p class="empty-subtitle">
       Commencez dès maintenant à créer votre sériethèque personnelle !
     </p>
@@ -84,9 +82,7 @@
       Sélectionner mes séries
     </button>
   </div>
-  }
-
-  @if (showFiltersAndSearch()) {
+  } @if (showFiltersAndSearch()) {
   <div class="series-stats-bloc">
     <app-stats-display
       [stats]="stats()"

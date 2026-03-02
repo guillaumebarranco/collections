@@ -4,7 +4,6 @@ import {
   EventEmitter,
   Input,
   Output,
-  computed,
   inject,
   signal,
 } from '@angular/core';
@@ -26,8 +25,7 @@ import {
   EntityCardRatingAndButtonsComponent,
   EntityCardEntityData,
 } from '../../entity-card-rating-and-buttons/entity-card-rating-and-buttons.component';
-import { AuthService } from '../../../core/auth.service';
-
+import { CanEditDirective } from '../../../directives/can-edit.directive';
 import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { StarInfo } from '../../../models/various-model';
@@ -41,6 +39,7 @@ import { getRatingStars } from '../../../utils/constants';
     MatDialogModule,
     EntityCardComponent,
     EntityCardRatingAndButtonsComponent,
+    CanEditDirective,
   ],
   templateUrl: './serie.component.html',
   styleUrls: ['./serie.component.scss'],
@@ -50,7 +49,6 @@ export class SerieComponent {
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
   private readonly dialog = inject(MatDialog);
-  private readonly authService = inject(AuthService);
 
   @Input() serie!: Serie;
   @Input() list: Serie[] = [];
@@ -77,14 +75,6 @@ export class SerieComponent {
 
   isBaseEntityView = isBaseEntityView();
   seasonsExpanded = signal(false);
-
-  readonly canEdit = computed(() => {
-    const directId = this.activatedRoute.snapshot.params['id'];
-    const parentId = this.activatedRoute.parent?.snapshot.params['id'];
-    const isAdminView =
-      this.authService.isAdmin() && this.router.url.startsWith('/admin');
-    return isAdminView || this.authService.canEdit(directId || parentId);
-  });
 
   getActiveUserId(): string {
     const directId = this.activatedRoute.snapshot.params['id'];

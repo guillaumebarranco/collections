@@ -201,4 +201,18 @@
 .quizz-score {
   font-weight: 600;
   color: #2c3e50;
+
+  .quizz-score-saving {
+    margin-left: 8px;
+    font-weight: 500;
+    color: #7f8c8d;
+  }
+
+  .quizz-score-error {
+    display: block;
+    margin-top: 4px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #e74c3c;
+  }
 }

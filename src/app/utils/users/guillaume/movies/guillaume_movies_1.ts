@@ -1344,7 +1344,19 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
+  {
+    title: "Souviens-toi... l'été dernier",
+    director: 'Jim Gillespie',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+  },
   {
     title: 'Insomnia',
     director: 'Christopher Nolan',

@@ -18,6 +18,7 @@ import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
 import { MangaView } from '../mangas.utils';
 import { StatItem } from '../../../../components/stats-display/stats-display.component';
 import { FormsModule } from '@angular/forms';
+import { CanEditDirective } from '../../../../directives/can-edit.directive';
 
 @Component({
   selector: 'app-mangas-header',
@@ -27,6 +28,7 @@ import { FormsModule } from '@angular/forms';
     ViewToggleComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
+    CanEditDirective,
   ],
   templateUrl: './mangas-header.component.html',
   styleUrls: ['./mangas-header.component.scss'],
@@ -59,7 +61,6 @@ export class MangasHeaderComponent {
   stats = input.required<StatItem[]>();
 
   private readonly activatedRoute = inject(ActivatedRoute);
-  private readonly router = inject(Router);
 
   selectedSort = signal<string>('rating');
   searchTerm = signal<string>('');

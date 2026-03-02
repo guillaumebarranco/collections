@@ -15,7 +15,8 @@
       [selected]="selectedView()"
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
-    <div class="books-actions">
+
+    <div class="books-actions" *appCanEdit>
       <button
         class="makya-btn-small"
         type="button"
@@ -78,9 +79,7 @@
       Sélectionner mes livres
     </button>
   </div>
-  }
-
-  @if (showFiltersAndSearch()) {
+  } @if (showFiltersAndSearch()) {
   <div class="books-stats-bloc">
     <app-stats-display
       [stats]="stats()"

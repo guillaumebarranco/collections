@@ -1,11 +1,12 @@
 <app-entity-card>
-  @if (canEdit() && !readOnly) {
+  @if (!readOnly) {
   <button
     entity-edit
     type="button"
     class="edit-button"
     aria-label="Editer le jeu"
     (click)="navigateToEdit()"
+    *appCanEdit
   >
     &#9998;
   </button>

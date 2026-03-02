@@ -16,7 +16,7 @@
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
 
-    <div class="mangas-actions">
+    <div class="mangas-actions" *appCanEdit>
       <button
         class="makya-btn-small"
         type="button"
@@ -79,9 +79,7 @@
       Sélectionner mes mangas
     </button>
   </div>
-  }
-
-  @if (showFiltersAndSearch()) {
+  } @if (showFiltersAndSearch()) {
   <div class="mangas-stats-bloc">
     <app-stats-display
       [stats]="stats()"

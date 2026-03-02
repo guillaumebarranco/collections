@@ -18,6 +18,7 @@ import { ActivatedRoute, Params, RouterModule } from '@angular/router';
 import { ManwhaView } from '../manwhas.utils';
 import { StatItem } from '../../../../components/stats-display/stats-display.component';
 import { FormsModule } from '@angular/forms';
+import { CanEditDirective } from '../../../../directives/can-edit.directive';
 
 @Component({
   selector: 'app-manwhas-header',
@@ -27,6 +28,7 @@ import { FormsModule } from '@angular/forms';
     ViewToggleComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
+    CanEditDirective,
   ],
   templateUrl: './manwhas-header.component.html',
   styleUrls: ['./manwhas-header.component.scss'],
@@ -59,7 +61,6 @@ export class ManwhasHeaderComponent {
   stats = input.required<StatItem[]>();
 
   private readonly activatedRoute = inject(ActivatedRoute);
-
   selectedSort = signal<string>('rating');
   searchTerm = signal<string>('');
 

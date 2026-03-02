@@ -3,13 +3,18 @@ import {
   OnInit,
   computed,
   signal,
+  inject,
   ChangeDetectionStrategy,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ActivatedRoute } from '@angular/router';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import { QuizzModalComponent } from '../../../components/quizz-modal/quizz-modal.component';
 import { Quizz, EntityType } from '../../../models/quizz-model';
-import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
+import {
+  getAllQuizzs,
+  getQuizzScoresForUser,
+} from '../../../facades/quizzs/quizzs.facade';
 import { getAllBaseBooks } from '../../../facades/books/books.facade';
 import { getAllBaseMovies } from '../../../facades/movies/movies.facade';
 import { getAllBaseSeries } from '../../../facades/series/series.facade';
@@ -18,6 +23,12 @@ import { getAllBaseBds } from '../../../facades/bds/bds.facade';
 import { getAllBaseComics } from '../../../facades/comics/comics.facade';
 import { getAllBaseMangas } from '../../../facades/mangas/mangas.facade';
 import { getAllBaseManwhas } from '../../../facades/manwhas/manwhas.facade';
+import { AuthService } from '../../../core/auth.service';
+import { DEFAULT_USER_ID } from '../../../utils/constants';
+import {
+  getQuizzScoreKey,
+  type QuizzScoreEntry,
+} from '../../../utils/users/users-quizz-scores';
 
 export interface QuizzCardGroup {
   entityType: EntityType;
@@ -123,28 +134,64 @@ function groupQuizzsByEntity(
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class QuizzsComponent implements OnInit {
+  private readonly activatedRoute = inject(ActivatedRoute);
+  private readonly authService = inject(AuthService);
+
   private loading = signal<boolean>(true);
   private quizzsRaw = signal<Quizz[]>([]);
   private coverMap = signal<Map<string, string>>(new Map());
+  private scores = signal<QuizzScoreEntry[]>([]);
 
   readonly isLoading = this.loading;
   readonly cardGroups = computed<QuizzCardGroup[]>(() =>
     groupQuizzsByEntity(this.quizzsRaw(), this.coverMap())
   );
+  /** Map clé quizz -> dernier score enregistré (pour affichage "Déjà fait : X/Y"). */
+  readonly scoreByKey = computed<Map<string, QuizzScoreEntry>>(() => {
+    const map = new Map<string, QuizzScoreEntry>();
+    for (const entry of this.scores()) {
+      map.set(getQuizzScoreKey(entry), entry);
+    }
+    return map;
+  });
 
   isQuizzModalOpen = signal<boolean>(false);
   activeQuizzs = signal<Quizz[]>([]);
   preselectedQuizz = signal<Quizz | null>(null);
 
+  getActiveUserId(): string {
+    let route: ActivatedRoute | null = this.activatedRoute;
+    while (route) {
+      const id = route.snapshot.params['id'];
+      if (id) return String(id).trim().toLowerCase();
+      route = route.parent;
+    }
+    const auth =
+      this.authService.getAuthenticatedUserId?.() ?? this.authService.userId?.();
+    return auth ? String(auth).trim().toLowerCase() : DEFAULT_USER_ID;
+  }
+
+  getScoreForQuizz(quizz: Quizz): QuizzScoreEntry | undefined {
+    return this.scoreByKey().get(getQuizzScoreKey(quizz));
+  }
+
+  async loadScores(): Promise<void> {
+    const userId = this.getActiveUserId();
+    const list = await getQuizzScoresForUser(userId);
+    this.scores.set(list);
+  }
+
   async ngOnInit(): Promise<void> {
     this.loading.set(true);
     try {
-      const [list, covers] = await Promise.all([
+      const [list, covers, scoreList] = await Promise.all([
         getAllQuizzs(),
         loadEntityCoverMap(),
+        getQuizzScoresForUser(this.getActiveUserId()),
       ]);
       this.quizzsRaw.set(list);
       this.coverMap.set(covers);
+      this.scores.set(scoreList);
     } finally {
       this.loading.set(false);
     }
@@ -160,5 +207,9 @@ export class QuizzsComponent implements OnInit {
     this.isQuizzModalOpen.set(false);
     this.activeQuizzs.set([]);
     this.preselectedQuizz.set(null);
+  }
+
+  onQuizzScoreSaved(): void {
+    this.loadScores();
   }
 }

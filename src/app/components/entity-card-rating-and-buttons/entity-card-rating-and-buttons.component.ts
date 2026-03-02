@@ -13,7 +13,7 @@ import { EntityType } from '../../models/quizz-model';
 
 import { StarInfo } from '../../models/various-model';
 import { getRatingStars } from '../../utils/constants';
-import { AuthService } from '../../core/auth.service';
+import { CanEditDirective } from '../../directives/can-edit.directive';
 import { ActivatedRoute } from '@angular/router';
 
 /** Données communes à l’entité affichée dans la carte (note, priorité, type, etc.). */
@@ -39,7 +39,7 @@ export interface EntityCardRatingLabels {
 @Component({
   selector: 'app-entity-card-rating-and-buttons',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, CanEditDirective],
   templateUrl: './entity-card-rating-and-buttons.component.html',
   styleUrls: ['./entity-card-rating-and-buttons.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -63,13 +63,6 @@ export class EntityCardRatingAndButtonsComponent {
   @Output() haveReReadClick = new EventEmitter<void>();
 
   private readonly activatedRoute = inject(ActivatedRoute);
-  private readonly authService = inject(AuthService);
-
-  readonly canEdit = computed(() => {
-    const directId = this.activatedRoute.snapshot.params['id'];
-    const parentId = this.activatedRoute.parent?.snapshot.params['id'];
-    return this.authService.canEdit(directId || parentId);
-  });
 
   showAddToListButton = computed(() => {
     if (this.entityData?.alreadySeenRead) {

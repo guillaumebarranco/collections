@@ -37,6 +37,11 @@
             @if (quizz.level > 1) {
             <span class="quizz-card__level">Niveau {{ quizz.level }}</span>
             }
+            @if (getScoreForQuizz(quizz); as scoreEntry) {
+            <span class="quizz-card__score"
+              >Déjà fait : {{ scoreEntry.correct }}/{{ scoreEntry.total }}</span
+            >
+            }
           </button>
           }
         </div>
@@ -51,5 +56,6 @@
     [quizzs]="activeQuizzs()"
     [preselectedQuizz]="preselectedQuizz()"
     (close)="closeQuizzModal()"
+    (scoreSaved)="onQuizzScoreSaved()"
   ></app-quizz-modal>
 </div>

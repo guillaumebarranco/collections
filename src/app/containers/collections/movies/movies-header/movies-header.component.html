@@ -16,7 +16,7 @@
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
 
-    <div class="movies-actions">
+    <div class="movies-actions" *appCanEdit>
       <button
         class="makya-btn-small"
         type="button"

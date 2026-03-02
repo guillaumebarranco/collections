@@ -1,11 +1,12 @@
 <app-entity-card>
-  @if (canEdit() && !readOnly) {
+  @if (!readOnly) {
   <button
     entity-edit
     type="button"
     class="edit-button"
     aria-label="Éditer le film"
     (click)="navigateToEdit()"
+    *appCanEdit
   >
     &#9998;
   </button>
@@ -74,12 +75,8 @@
     <p class="movie-release-date">{{ movie.releaseDate | date : "yyyy" }}</p>
     @if (movie.description) {
     <p class="movie-description">{{ movie.description }}</p>
-    } @if (movie.fromEntity) {
-    <p class="movie-from-entity">
-      {{ fromEntityLabel(movie.fromEntity.entityType) }} :
-      {{ movie.fromEntity.title }} ({{ movie.fromEntity.secondEntityKey }})
-    </p>
-    } @if (movie.timesWatched && movie.timesWatched > 1 && !isBaseEntityView) {
+    } @if (movie.fromEntity) { } @if (movie.timesWatched && movie.timesWatched >
+    1 && !isBaseEntityView) {
     <p class="movie-times-watched">🎬 Visionné {{ movie.timesWatched }} fois</p>
     } @if(movie.timesWatched === 1 && movie.firstViewedDate) {
     <p class="movie-times-watched">

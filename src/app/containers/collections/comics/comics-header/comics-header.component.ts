@@ -18,6 +18,7 @@ import { ActivatedRoute, Params, RouterModule } from '@angular/router';
 import { ComicView } from '../comics.utils';
 import { StatItem } from '../../../../components/stats-display/stats-display.component';
 import { FormsModule } from '@angular/forms';
+import { CanEditDirective } from '../../../../directives/can-edit.directive';
 
 @Component({
   selector: 'app-comics-header',
@@ -27,6 +28,7 @@ import { FormsModule } from '@angular/forms';
     ViewToggleComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
+    CanEditDirective,
   ],
   templateUrl: './comics-header.component.html',
   styleUrls: ['./comics-header.component.scss'],
@@ -59,7 +61,6 @@ export class ComicsHeaderComponent {
   stats = input.required<StatItem[]>();
 
   private readonly activatedRoute = inject(ActivatedRoute);
-
   selectedSort = signal<string>('rating');
   searchTerm = signal<string>('');
 

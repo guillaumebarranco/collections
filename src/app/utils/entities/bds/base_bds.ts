@@ -56,4 +56,13 @@ export const baseBds: BaseBd[] = [
     genre: 'Nonfiction',
     description: '',
   },
+  {
+    title: 'Le Donjon de Naheulbeuk',
+    writer: 'Clair de Lune',
+    designer: 'Clair de Lune',
+    coverUrl: '/bd_pictures/Couv_42675.jpg',
+    pages: 192,
+    genre: 'Fantasy',
+    description: '',
+  },
 ];

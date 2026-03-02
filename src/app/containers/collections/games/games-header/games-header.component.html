@@ -16,7 +16,7 @@
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
 
-    <div class="games-actions">
+    <div class="games-actions" *appCanEdit>
       <button
         class="makya-btn-small"
         type="button"
@@ -82,9 +82,7 @@
       Sélectionner mes jeux
     </button>
   </div>
-  }
-
-  @if (showFiltersAndSearch()) {
+  } @if (showFiltersAndSearch()) {
   <div class="games-stats-bloc">
     <app-stats-display
       [stats]="stats()"

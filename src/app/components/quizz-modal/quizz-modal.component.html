@@ -82,6 +82,12 @@
           } @else {
           <div class="quizz-score">
             Score : {{ score()!.correct }}/{{ score()!.total }}
+            @if (savingScore()) {
+            <span class="quizz-score-saving">Enregistrement…</span>
+            }
+            @if (scoreSaveError()) {
+            <span class="quizz-score-error">{{ scoreSaveError() }}</span>
+            }
           </div>
           }
         </div>

@@ -1,5 +1,5 @@
 import { Injectable, signal } from '@angular/core';
-import { getApiBaseUrl, isLocalhost } from './config';
+import { getApiBaseUrl } from './config';
 
 const STORAGE_KEY = 'makya-auth-user';
 const STORAGE_ADMIN_KEY = 'makya-auth-admin';
@@ -48,7 +48,7 @@ export class AuthService {
   }
 
   isAdmin(): boolean {
-    return isLocalhost() || Boolean(this.authenticatedUserAdmin());
+    return Boolean(this.authenticatedUserAdmin());
   }
 
   canEdit(targetUserId?: string | null): boolean {

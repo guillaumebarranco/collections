@@ -14,10 +14,11 @@ import {
   SortOption,
 } from '../../../../components/sort-dropdown/sort-dropdown.component';
 import { StatsDisplayComponent } from '../../../../components/stats-display/stats-display.component';
-import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
+import { ActivatedRoute, Params, RouterModule } from '@angular/router';
 import { SerieView } from '../series.utils';
 import { StatItem } from '../../../../components/stats-display/stats-display.component';
 import { FormsModule } from '@angular/forms';
+import { CanEditDirective } from '../../../../directives/can-edit.directive';
 
 @Component({
   selector: 'app-series-header',
@@ -27,6 +28,7 @@ import { FormsModule } from '@angular/forms';
     ViewToggleComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
+    CanEditDirective,
   ],
   templateUrl: './series-header.component.html',
   styleUrls: ['./series-header.component.scss'],
@@ -58,8 +60,6 @@ export class SeriesHeaderComponent {
   stats = input.required<StatItem[]>();
 
   private readonly activatedRoute = inject(ActivatedRoute);
-  private readonly router = inject(Router);
-
   selectedSort = signal<string>('rating');
   searchTerm = signal<string>('');
 

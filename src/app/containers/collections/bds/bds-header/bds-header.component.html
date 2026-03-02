@@ -16,7 +16,7 @@
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
 
-    <div class="bds-actions">
+    <div class="bds-actions" *appCanEdit>
       <button
         class="makya-btn-small"
         type="button"
@@ -79,9 +79,7 @@
       Sélectionner mes BD
     </button>
   </div>
-  }
-
-  @if (showFiltersAndSearch()) {
+  } @if (showFiltersAndSearch()) {
   <div class="bds-stats-bloc">
     <app-stats-display
       [stats]="stats()"

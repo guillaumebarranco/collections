@@ -8,14 +8,15 @@ import {
   signal,
 } from '@angular/core';
 import { ViewToggleComponent } from '../../../../components/view-toggle/view-toggle.component';
-import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
+import { ActivatedRoute, Params, RouterModule } from '@angular/router';
 import { MovieView } from '../movies.utils';
 import { FormsModule } from '@angular/forms';
 import { DEFAULT_USER_ID } from '../../../../utils/constants';
+import { CanEditDirective } from '../../../../directives/can-edit.directive';
 
 @Component({
   selector: 'app-movies-header',
-  imports: [RouterModule, FormsModule, ViewToggleComponent],
+  imports: [RouterModule, FormsModule, ViewToggleComponent, CanEditDirective],
   templateUrl: './movies-header.component.html',
   styleUrls: ['./movies-header.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -43,7 +44,6 @@ export class MoviesHeaderComponent {
   >([]);
 
   private readonly activatedRoute = inject(ActivatedRoute);
-  private readonly router = inject(Router);
 
   searchTerm = signal<string>('');
 
@@ -68,11 +68,6 @@ export class MoviesHeaderComponent {
       ? 'Films à revoir'
       : 'Films visionnés'
   );
-
-  private userId(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    return params['id'] ?? DEFAULT_USER_ID;
-  }
 
   getSelectMoviesRoute(): string {
     const params: Params = this.activatedRoute.snapshot.params;

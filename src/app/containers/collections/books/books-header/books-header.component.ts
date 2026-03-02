@@ -19,6 +19,7 @@ import { BookView } from '../books.utils';
 import { StatItem } from '../../../../components/stats-display/stats-display.component';
 import { FormsModule } from '@angular/forms';
 import { DEFAULT_USER_ID } from '../../../../utils/constants';
+import { CanEditDirective } from '../../../../directives/can-edit.directive';
 
 @Component({
   selector: 'app-books-header',
@@ -28,6 +29,7 @@ import { DEFAULT_USER_ID } from '../../../../utils/constants';
     ViewToggleComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
+    CanEditDirective,
   ],
   templateUrl: './books-header.component.html',
   styleUrls: ['./books-header.component.scss'],
@@ -62,7 +64,6 @@ export class BooksHeaderComponent {
   showTopFiveRank = input<boolean>(false);
 
   private readonly activatedRoute = inject(ActivatedRoute);
-  private readonly router = inject(Router);
 
   selectedSort = signal<string>('readDate');
   selectedYearFilter = signal<string>('all');

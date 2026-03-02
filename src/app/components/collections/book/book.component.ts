@@ -4,7 +4,6 @@ import {
   EventEmitter,
   Input,
   Output,
-  computed,
   inject,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -15,7 +14,7 @@ import {
   EntityCardRatingAndButtonsComponent,
   EntityCardEntityData,
 } from '../../entity-card-rating-and-buttons/entity-card-rating-and-buttons.component';
-import { AuthService } from '../../../core/auth.service';
+import { CanEditDirective } from '../../../directives/can-edit.directive';
 import { EntityType } from '../../../models/quizz-model';
 
 import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
@@ -35,6 +34,7 @@ import {
     CommonModule,
     EntityCardComponent,
     EntityCardRatingAndButtonsComponent,
+    CanEditDirective,
   ],
   templateUrl: './book.component.html',
   styleUrls: ['./book.component.scss'],
@@ -43,7 +43,6 @@ import {
 export class BookComponent {
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
-  private readonly authService = inject(AuthService);
   private readonly dialog = inject(MatDialog);
 
   @Input() book!: any;
@@ -72,14 +71,6 @@ export class BookComponent {
   @Output() topFiveRankChange = new EventEmitter<number | null>();
 
   isBaseEntityView = isBaseEntityView();
-
-  readonly canEdit = computed(() => {
-    const directId = this.activatedRoute.snapshot.params['id'];
-    const parentId = this.activatedRoute.parent?.snapshot.params['id'];
-    const isAdminView =
-      this.authService.isAdmin() && this.router.url.startsWith('/admin');
-    return isAdminView || this.authService.canEdit(directId || parentId);
-  });
 
   requestEdit(): void {
     this.editRequested.emit();

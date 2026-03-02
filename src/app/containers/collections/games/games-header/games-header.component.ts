@@ -18,6 +18,7 @@ import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
 import { GameView } from '../games.utils';
 import { StatItem } from '../../../../components/stats-display/stats-display.component';
 import { FormsModule } from '@angular/forms';
+import { CanEditDirective } from '../../../../directives/can-edit.directive';
 
 @Component({
   selector: 'app-games-header',
@@ -27,6 +28,7 @@ import { FormsModule } from '@angular/forms';
     ViewToggleComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
+    CanEditDirective,
   ],
   templateUrl: './games-header.component.html',
   styleUrls: ['./games-header.component.scss'],
@@ -60,7 +62,6 @@ export class GamesHeaderComponent {
 
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
-
   selectedSort = signal<string>('rating');
   searchTerm = signal<string>('');
 

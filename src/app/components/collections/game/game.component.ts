@@ -4,7 +4,6 @@ import {
   EventEmitter,
   Input,
   Output,
-  computed,
   inject,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -19,7 +18,7 @@ import {
   EntityCardRatingAndButtonsComponent,
   EntityCardEntityData,
 } from '../../entity-card-rating-and-buttons/entity-card-rating-and-buttons.component';
-import { AuthService } from '../../../core/auth.service';
+import { CanEditDirective } from '../../../directives/can-edit.directive';
 import { getGameTimePlayed } from '../../../utils/games.utils';
 
 import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
@@ -38,6 +37,7 @@ import {
     MatDialogModule,
     EntityCardComponent,
     EntityCardRatingAndButtonsComponent,
+    CanEditDirective,
   ],
   templateUrl: './game.component.html',
   styleUrls: ['./game.component.scss'],
@@ -47,7 +47,6 @@ export class GameComponent {
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
   private readonly dialog = inject(MatDialog);
-  private readonly authService = inject(AuthService);
 
   @Input() game!: Game;
   @Input() list: Game[] = [];
@@ -73,14 +72,6 @@ export class GameComponent {
   @Output() topFiveRankChange = new EventEmitter<number | null>();
 
   isBaseEntityView = isBaseEntityView();
-
-  readonly canEdit = computed(() => {
-    const directId = this.activatedRoute.snapshot.params['id'];
-    const parentId = this.activatedRoute.parent?.snapshot.params['id'];
-    const isAdminView =
-      this.authService.isAdmin() && this.router.url.startsWith('/admin');
-    return isAdminView || this.authService.canEdit(directId || parentId);
-  });
 
   getActiveUserId(): string {
     const directId = this.activatedRoute.snapshot.params['id'];

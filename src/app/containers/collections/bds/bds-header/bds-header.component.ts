@@ -18,6 +18,7 @@ import { ActivatedRoute, Params, RouterModule } from '@angular/router';
 import { BdView } from '../bds.utils';
 import { StatItem } from '../../../../components/stats-display/stats-display.component';
 import { FormsModule } from '@angular/forms';
+import { CanEditDirective } from '../../../../directives/can-edit.directive';
 
 @Component({
   selector: 'app-bds-header',
@@ -27,6 +28,7 @@ import { FormsModule } from '@angular/forms';
     ViewToggleComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
+    CanEditDirective,
   ],
   templateUrl: './bds-header.component.html',
   styleUrls: ['./bds-header.component.scss'],
@@ -59,7 +61,6 @@ export class BdsHeaderComponent {
   stats = input.required<StatItem[]>();
 
   private readonly activatedRoute = inject(ActivatedRoute);
-
   selectedSort = signal<string>('rating');
   searchTerm = signal<string>('');
 

@@ -4,7 +4,6 @@ import {
   EventEmitter,
   Input,
   Output,
-  computed,
   inject,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -16,7 +15,7 @@ import {
   EntityCardEntityData,
 } from '../../entity-card-rating-and-buttons/entity-card-rating-and-buttons.component';
 import { ReviewModalComponent } from '../../review-modal/review-modal.component';
-import { AuthService } from '../../../core/auth.service';
+import { CanEditDirective } from '../../../directives/can-edit.directive';
 import { Bd } from '../../../models/bd-model';
 import { EntityType } from '../../../models/quizz-model';
 
@@ -36,6 +35,7 @@ import { DEFAULT_USER_ID } from '../../../utils/constants';
     EntityCardComponent,
     EntityCardRatingAndButtonsComponent,
     MatDialogModule,
+    CanEditDirective,
   ],
   templateUrl: './bd.component.html',
   styleUrls: ['./bd.component.scss'],
@@ -43,7 +43,6 @@ import { DEFAULT_USER_ID } from '../../../utils/constants';
 })
 export class BdComponent {
   private readonly activatedRoute = inject(ActivatedRoute);
-  private readonly authService = inject(AuthService);
   private readonly dialog = inject(MatDialog);
 
   @Input() bd!: Bd;
@@ -69,12 +68,6 @@ export class BdComponent {
   @Output() topFiveRankChange = new EventEmitter<number | null>();
 
   isBaseEntityView = isBaseEntityView();
-
-  readonly canEdit = computed(() => {
-    const directId = this.activatedRoute.snapshot.params['id'];
-    const parentId = this.activatedRoute.parent?.snapshot.params['id'];
-    return this.authService.canEdit(directId || parentId);
-  });
 
   requestEdit(): void {
     this.editRequested.emit();

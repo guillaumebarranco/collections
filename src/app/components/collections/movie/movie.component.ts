@@ -25,8 +25,7 @@ import {
   EntityCardRatingAndButtonsComponent,
   EntityCardEntityData,
 } from '../../entity-card-rating-and-buttons/entity-card-rating-and-buttons.component';
-import { AuthService } from '../../../core/auth.service';
-
+import { CanEditDirective } from '../../../directives/can-edit.directive';
 import { getApiBaseUrl, isBaseEntityView } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { MovieView } from '../../../containers/collections/movies/movies.utils';
@@ -39,6 +38,7 @@ import { MovieView } from '../../../containers/collections/movies/movies.utils';
     MatDialogModule,
     EntityCardComponent,
     EntityCardRatingAndButtonsComponent,
+    CanEditDirective,
   ],
   templateUrl: './movie.component.html',
   styleUrls: ['./movie.component.scss'],
@@ -48,7 +48,6 @@ export class MovieComponent {
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
   private readonly dialog = inject(MatDialog);
-  private readonly authService = inject(AuthService);
 
   @Input() movie!: Movie;
   @Input() list: Movie[] = [];
@@ -76,19 +75,6 @@ export class MovieComponent {
   recommendationText = input<string>('');
 
   isBaseEntityView = isBaseEntityView();
-
-  private static readonly FROM_ENTITY_LABELS: Record<string, string> = {
-    book: 'Adapté du livre',
-    game: 'Adapté du jeu',
-    comic: 'Adapté de la BD',
-    manga: 'Adapté du manga',
-    manwha: 'Adapté du manhwa',
-    serie: 'Adapté de la série',
-  };
-
-  fromEntityLabel(entityType: string): string {
-    return MovieComponent.FROM_ENTITY_LABELS[entityType] ?? 'Adapté de';
-  }
 
   /** Afficher tous les acteurs (au-delà des 3 premiers). */
   actorsExpanded = signal<boolean>(false);
@@ -125,14 +111,6 @@ export class MovieComponent {
   toggleDirectorsExpanded(): void {
     this.directorsExpanded.update((v) => !v);
   }
-
-  readonly canEdit = computed(() => {
-    const directId = this.activatedRoute.snapshot.params['id'];
-    const parentId = this.activatedRoute.parent?.snapshot.params['id'];
-    const isAdminView =
-      this.authService.isAdmin() && this.router.url.startsWith('/admin');
-    return isAdminView || this.authService.canEdit(directId || parentId);
-  });
 
   getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;

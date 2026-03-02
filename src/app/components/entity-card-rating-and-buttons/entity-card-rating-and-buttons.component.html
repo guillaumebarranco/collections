@@ -17,7 +17,7 @@
   </button>
   } @if (recommendationText) {
   <p class="recommendation-text">{{ recommendationText }}</p>
-  } @if (canEdit()) { @if (isReadlistView) {
+  } <div *appCanEdit> @if (isReadlistView) {
   <div class="readlist-priority">
     <div class="priority-label">Priorité :</div>
     <div>
@@ -56,5 +56,5 @@
   <button type="button" class="makya-btn-small" (click)="onHaveReReadClick()">
     {{ effectiveLabels.haveReRead }}
   </button>
-  } }
+  } </div>
 </div>
