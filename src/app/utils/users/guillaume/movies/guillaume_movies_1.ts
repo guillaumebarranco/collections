@@ -1410,4 +1410,18 @@ export const guillaumeMoviesPage1: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
+
+  {
+    title: 'Le père Noël est une ordure',
+    director: 'Jean-Marie Poiré',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2026-03-02',
+    lastViewedDate: '2026-03-02',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+  },
 ];

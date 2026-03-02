@@ -41,7 +41,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: "Le Crime de l'Orient-Express",
+    title: 'Le Crime de l\'Orient-Express',
     director: 'Kenneth Branagh',
     rating: 0,
     timesWatched: 0,
@@ -93,7 +93,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: "L'Étrange Histoire de Benjamin Button",
+    title: 'L\'Étrange Histoire de Benjamin Button',
     director: 'David Fincher',
     rating: 0,
     timesWatched: 0,
@@ -145,7 +145,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: "Atlantis : L'Empire perdu",
+    title: 'Atlantis : L\'Empire perdu',
     director: 'Gary Trousdale, Kirk Wise',
     rating: 0,
     timesWatched: 0,
@@ -262,7 +262,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: "L'amour au présent",
+    title: 'L\'amour au présent',
     director: 'John Crowley',
     rating: 0,
     timesWatched: 0,
@@ -431,7 +431,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: "À tous les garçons que j'ai aimés",
+    title: 'À tous les garçons que j\'ai aimés',
     director: 'Susan Johnson',
     rating: 0,
     timesWatched: 0,
@@ -535,7 +535,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: "Ennemi d'Etat",
+    title: 'Ennemi d\'Etat',
     director: 'Tony Scott',
     rating: 0,
     timesWatched: 0,
@@ -613,7 +613,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: "L'Expert",
+    title: 'L\'Expert',
     director: 'James Mangold',
     rating: 0,
     timesWatched: 0,
@@ -873,7 +873,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: "Spy game, jeu d'espions",
+    title: 'Spy game, jeu d\'espions',
     director: 'Tony Scott',
     rating: 0,
     timesWatched: 0,
@@ -1068,7 +1068,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: "Une bataille après l'autre",
+    title: 'Une bataille après l\'autre',
     director: 'Paul Thomas Anderson',
     rating: 0,
     timesWatched: 0,
@@ -1185,7 +1185,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: "L'Amour sans préavis",
+    title: 'L\'Amour sans préavis',
     director: 'Marc Lawrence',
     rating: 0,
     timesWatched: 0,
@@ -1368,7 +1368,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
   },
   {
     title: 'Hurlevent',
-    director: "Frances O'Connor",
+    director: 'Frances O\'Connor',
     rating: 0,
     timesWatched: 0,
     firstViewedDate: '',
@@ -1419,7 +1419,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: "L'impasse",
+    title: 'L\'impasse',
     director: 'Brian De Palma',
     rating: 0,
     timesWatched: 0,
@@ -1445,7 +1445,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: "Le Discours d'un roi",
+    title: 'Le Discours d\'un roi',
     director: 'Tom Hooper',
     rating: 0,
     timesWatched: 0,
@@ -1524,7 +1524,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
   },
   {
     title: 'Jane Got a Gun',
-    director: "Gavin O'Connor",
+    director: 'Gavin O\'Connor',
     rating: 0,
     timesWatched: 0,
     firstViewedDate: '',
@@ -1679,19 +1679,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: 'Le père Noël est une ordure',
-    director: 'Jean-Marie Poiré',
-    rating: 0,
-    timesWatched: 0,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 3,
-    ratingComment: '',
-  },
-  {
     title: 'La Haine',
     director: 'Mathieu Kassovitz',
     rating: 0,
@@ -1809,7 +1796,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: "Jennifer's Body",
+    title: 'Jennifer\'s Body',
     director: 'Karyn Kusama',
     rating: 0,
     timesWatched: 0,
@@ -1912,7 +1899,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Insaisissables 3',
     director: 'Ruben Fleischer',
@@ -2198,5 +2184,5 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
-  },
+  }
 ];
