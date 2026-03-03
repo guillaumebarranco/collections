@@ -908,4 +908,40 @@ export const baseSeriesApi: BaseSerie[] = [
     countryOrigin: 'États-Unis',
     saga: 'Percy Jackson',
   },
+
+  {
+    title: 'Dexter : Les Origines',
+    director: 'Clyde Philips, Scott Reynolds',
+    actors: [
+      {
+        name: 'Patrick Gibson',
+      },
+      {
+        name: 'Michael C. Hall',
+      },
+      {
+        name: 'Christian Slater',
+      },
+      {
+        name: 'Sarah Michelle Gellar',
+      },
+      {
+        name: 'Patrick Dempsey',
+      },
+    ],
+    coverUrl: 'https://thumb.canalplus.pro/http/unsafe/%7BresolutionXY%7D/filters:quality(%7BimageQualityPercentage%7D)/canalplus-cdn.canal-plus.io/p1/brand/27664830/canal-ouah/JAQCANAL/myCANAL_Jaquette_MEA_600x800-K5uS',
+    releaseDate: '2024-12-15',
+    endDate: '2025-02-16',
+    genre: 'Thriller',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 10,
+        totalLength: 508,
+      },
+    ],
+    description: '',
+    countryOrigin: 'États-Unis',
+    saga: 'Dexter',
+  },
 ];
