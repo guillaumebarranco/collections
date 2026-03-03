@@ -1333,4 +1333,17 @@ export const kevinBooks: UserBooks = [
     ratingComment: '',
     borrowed: false,
   },
+
+  {
+    title: 'Le Palais Adamantin',
+    author: 'Stephen Deas',
+    readDate: '2026-03-02',
+    rating: 3.5,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 3,
+    wantToReadAgain: false,
+    ratingComment: 'Des idées intéressantes mais une écriture qui laisse à désirer. L\'histoire est assez classique sans grande surprise. La fin du tome est tout de même sympathique sans être extraordinaire.',
+  },
 ];

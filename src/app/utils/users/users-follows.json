@@ -2,5 +2,8 @@
   "guillaume": [
     "cassandre",
     "dantes"
+  ],
+  "dantes": [
+    "guillaume"
   ]
 }
