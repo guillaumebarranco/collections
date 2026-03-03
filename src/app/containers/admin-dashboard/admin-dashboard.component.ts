@@ -3,8 +3,28 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { MenuComponent } from '../../components/menu/menu.component';
 import { AuthService } from '../../core/auth.service';
-import { getAdminUsers, AdminUser } from '../../facades/admin/admin.facade';
+import {
+  getAdminUsers,
+  getAdminUserStats,
+  AdminUser,
+  UserCollectionCounts,
+} from '../../facades/admin/admin.facade';
 import { DEFAULT_USER_ID } from '../../utils/constants';
+
+export type AdminUserWithStats = AdminUser & { counts: UserCollectionCounts };
+
+/** Libellés courts pour les types de collection (affichage carte). */
+export const COLLECTION_LABELS: { key: keyof UserCollectionCounts; label: string }[] = [
+  { key: 'movies', label: 'Films' },
+  { key: 'series', label: 'Séries' },
+  { key: 'books', label: 'Livres' },
+  { key: 'games', label: 'Jeux' },
+  { key: 'mangas', label: 'Mangas' },
+  { key: 'manwhas', label: 'Manwhas' },
+  { key: 'comics', label: 'Comics' },
+  { key: 'bds', label: 'BD' },
+  { key: 'musics', label: 'Musiques' },
+];
 
 @Component({
   selector: 'app-admin-dashboard',
@@ -16,7 +36,8 @@ import { DEFAULT_USER_ID } from '../../utils/constants';
 export class AdminDashboardComponent implements OnInit {
   private readonly authService = inject(AuthService);
 
-  readonly users = signal<AdminUser[]>([]);
+  readonly collectionLabels = COLLECTION_LABELS;
+  readonly users = signal<AdminUserWithStats[]>([]);
   readonly usersCount = computed(() => this.users().length);
   readonly isLoading = signal<boolean>(true);
   readonly isAdmin = computed(() => this.authService.isAdmin());
@@ -33,9 +54,16 @@ export class AdminDashboardComponent implements OnInit {
     if (!this.isAdmin()) return;
     this.isLoading.set(true);
     try {
-      const userId = this.authService.getAuthenticatedUserId() || DEFAULT_USER_ID;
+      const userId =
+        this.authService.getAuthenticatedUserId() || DEFAULT_USER_ID;
       const response = await getAdminUsers(userId);
-      this.users.set(response.users);
+      const withStats: AdminUserWithStats[] = await Promise.all(
+        response.users.map(async (user) => {
+          const counts = await getAdminUserStats(user.username);
+          return { ...user, counts };
+        })
+      );
+      this.users.set(withStats);
     } finally {
       this.isLoading.set(false);
     }

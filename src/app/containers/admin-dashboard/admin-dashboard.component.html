@@ -6,12 +6,11 @@
   @if (isLoading()) {
   <p class="admin-loading">Chargement des utilisateurs...</p>
   } @else {
-  <div class="admin-card">
-    <h2>Utilisateurs</h2>
-    <p class="admin-count">Total : {{ usersCount() }}</p>
-    <div class="admin-users-list">
-      @for (user of users(); track user.username) {
-      <div class="admin-user-item">
+  <p class="admin-count">Total : {{ usersCount() }} utilisateur(s)</p>
+  <div class="admin-users-grid">
+    @for (user of users(); track user.username) {
+    <div class="admin-user-card">
+      <div class="admin-user-card-header">
         <span class="admin-user-name">{{
           capitalizeFirstLetter(user.username)
         }}</span>
@@ -22,8 +21,16 @@
           Voir le profil
         </a>
       </div>
-      }
+      <div class="admin-user-card-stats">
+        @for (col of collectionLabels; track col.key) {
+        <div class="admin-user-stat">
+          <span class="admin-user-stat-label">{{ col.label }}</span>
+          <span class="admin-user-stat-value">{{ user.counts[col.key] }}</span>
+        </div>
+        }
+      </div>
     </div>
+    }
   </div>
   }
 </div>
