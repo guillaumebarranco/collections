@@ -399,7 +399,7 @@ export const baseMoviesApi: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BNzc0YTZiYWYtM2MzMC00YTdmLTljNTktMWRkZDUzNzBiZjRkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/movies_pictures/1f14c0e6a8c4.jpg',
     releaseDate: '2000-08-30',
     length: 106,
     genre: 'Comédie, Policier',
@@ -420,7 +420,7 @@ export const baseMoviesApi: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNXvkqRf_Mgjw15MP6OVhxPtslAoo1ImwAJOG894Sw-Hcslh1QgVBxCbbOf_Qu_uzc55xTlDy5CNuvJenGtUG1XjVkX9v2UFlryGhA-e4&s=10',
+      '/movies_pictures/afd8a20d4a52.jpg',
     releaseDate: '2025-11-26',
     length: 119,
     genre: 'Thriller',
@@ -453,7 +453,7 @@ export const baseMoviesApi: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BYTRiMTBkYWYtZjNlMi00OGUyLWE4YWMtMGExMjA2MWQ5NGUzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/movies_pictures/813c13b26a5c.jpg',
     releaseDate: '2026-02-04',
     length: 109,
     genre: 'Comédie',
@@ -483,7 +483,7 @@ export const baseMoviesApi: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://jevaisciner.fr/wp/wp-content/uploads/jvc_posters/Kraven%20The%20Hunter%20Poster-scaled.jpg.webp',
+      '/movies_pictures/f89b822eddbd.webp',
     releaseDate: '2024-12-18',
     length: 125,
     genre: 'Action',
@@ -507,7 +507,7 @@ export const baseMoviesApi: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://s3.amazonaws.com/nightjarprod/content/uploads/sites/192/2022/12/29154434/AcKVlWaNVVVFQwro3nLXqPljcYA1.jpg',
+      '/movies_pictures/c5f6e612cd96.jpg',
     releaseDate: '2022-08-10',
     length: 131,
     genre: 'Science Fiction, Horreur',
@@ -531,7 +531,7 @@ export const baseMoviesApi: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://antreducinema.fr/wp-content/uploads/2020/04/AUBERGE-ESPAGNOLE.jpg',
+      '/movies_pictures/3649f55f5292.jpg',
     releaseDate: '2002-06-19',
     length: 120,
     genre: 'Comédie ',
@@ -552,7 +552,7 @@ export const baseMoviesApi: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://digitalcine.b-cdn.net/wp-content/uploads/2026/01/hamnet_affiche-fr.jpg',
+      '/movies_pictures/de3c06c3f4d3.jpg',
     releaseDate: '2026-01-21',
     length: 125,
     genre: 'Drame',
@@ -580,7 +580,7 @@ export const baseMoviesApi: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://fr.web.img4.acsta.net/medias/nmedia/18/69/01/99/19096684.jpg',
+      '/movies_pictures/1bccb06dc7f5.jpg',
     releaseDate: '2009-06-17',
     length: 102,
     genre: 'Comédie musicale',
@@ -607,7 +607,7 @@ export const baseMoviesApi: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://fr.web.img6.acsta.net/c_310_420/medias/nmedia/18/35/79/54/18425307.jpg',
+      '/movies_pictures/fd3c28640df1.jpg',
     releaseDate: '2005-06-15',
     length: 130,
     genre: 'Comédie',
@@ -806,7 +806,7 @@ export const baseMoviesApi: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://www.franceinfo.fr/pictures/jK_vfwYOcmnvVo7m_PKyNKCbz0M/0x0:797x1080/fit-in/720x/filters:format(jpg)/2026/02/13/le-reve-americain-affiche-698f46413ec01629473537.jpeg',
+      '/movies_pictures/05188b045ef2.jpeg',
     releaseDate: '2026-02-18',
     length: 121,
     genre: 'Biopic',
@@ -830,7 +830,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Courteney Cox',
       },
     ],
-    coverUrl: 'https://monsieurvintage.com/photos/2025/10/scream-7-affiche.jpg',
+    coverUrl: '/movies_pictures/9ee7fe56e47a.jpg',
     releaseDate: '2026-02-25',
     length: 114,
     genre: 'Horreur',

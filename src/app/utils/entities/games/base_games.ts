@@ -954,7 +954,7 @@ export const baseGames: BaseGame[] = [
     editor: 'Spike',
     hero: 'Goku',
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BYThiZmZlMjctZTJlYS00YzZhLWEwZTEtZWFmM2ZlZDgwZjM1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/games_pictures/a1b06af57e20.jpg',
     releaseDate: '2006-10-03',
     averageTimeToFinish: 20,
     averageTimeToHundredPercent: 40,
@@ -2811,7 +2811,7 @@ export const baseGames: BaseGame[] = [
     editor: 'Naughty Dog',
     hero: 'Nathan Drake',
     coverUrl:
-      'https://m.media-amazon.com/images/I/A1Er5NlA3eL._AC_UF1000,1000_QL80_.jpg',
+      '/games_pictures/cd096b2ecfac.jpg',
     releaseDate: '2007-11-19',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 0,

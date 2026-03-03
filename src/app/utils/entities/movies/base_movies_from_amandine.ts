@@ -1502,7 +1502,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://thumb.canalplus.pro/http/unsafe/%7BresolutionXY%7D/filters:quality(%7BimageQualityPercentage%7D)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/101162374',
+      '/movies_pictures/ef07c72dedc1.jpg',
     releaseDate: '1977-01-21',
     length: 95,
     genre: 'Comédie',
@@ -2307,7 +2307,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
         name: 'Richard Beymer',
       }
     ],
-    coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/0/0b/West_Side_Story_1961_film_poster.jpg',
+    coverUrl: '/movies_pictures/031ea613b0b2.jpg',
     releaseDate: '1961-10-18',
     length: 152,
     genre: 'Musical, Romance',

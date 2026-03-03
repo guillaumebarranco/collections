@@ -25,6 +25,8 @@ export class MenuComponent implements OnInit {
   isMobile = false;
   isCompactMenu = false;
   isReadingMenuOpen = false;
+  isScreenMenuOpen = false;
+  isExtrasMenuOpen = false;
   isUserMenuOpen = false;
 
   activatedRoute = inject(ActivatedRoute);
@@ -82,9 +84,9 @@ export class MenuComponent implements OnInit {
     { label: 'Manwhas', icon: '🎨', key: 'manwhas', hideOnMobile: true },
     { label: 'Comics', icon: '🦸', key: 'comics', hideOnMobile: false },
     { label: 'BD', icon: '📗', key: 'bds', hideOnMobile: false },
-    { label: 'Musiques', icon: '🎵', key: 'musics', hideOnMobile: false },
-    { label: 'Mix', icon: '🔀', key: 'mix', hideOnMobile: false },
-    { label: 'Quizz', icon: '🎯', key: 'quizzs', hideOnMobile: false },
+    { label: 'Musiques', icon: '🎵', key: 'musics', hideOnMobile: true },
+    { label: 'Mix', icon: '🔀', key: 'mix', hideOnMobile: false, group: 'extras' },
+    { label: 'Quizz', icon: '🎯', key: 'quizzs', hideOnMobile: false, group: 'extras' },
   ];
 
   ngOnInit() {
@@ -122,6 +124,15 @@ export class MenuComponent implements OnInit {
     if (!target.closest('.menu-user-group')) {
       this.closeUserMenu();
     }
+    if (
+      !target.closest('.menu-item-group') &&
+      !target.closest('.menu-extras-group') &&
+      !target.closest('.menu-screen-group')
+    ) {
+      this.closeReadingMenu();
+      this.closeScreenMenu();
+      this.closeExtrasMenu();
+    }
   }
 
   private checkScreenSize() {
@@ -129,6 +140,8 @@ export class MenuComponent implements OnInit {
     this.isCompactMenu = window.innerWidth < 1500;
     if (!this.isCompactMenu) {
       this.isReadingMenuOpen = false;
+      this.isScreenMenuOpen = false;
+      this.isExtrasMenuOpen = false;
     }
   }
 
@@ -152,10 +165,40 @@ export class MenuComponent implements OnInit {
     return this.visibleMenuItems.filter((item) => readingKeys.has(item.key));
   }
 
+  /** Entrées du sous-menu Écran (Films, Séries, Jeux) – affiché en mode compact. */
+  get screenMenuItems() {
+    const screenKeys = new Set(['movies', 'series', 'games']);
+    return this.visibleMenuItems.filter((item) => screenKeys.has(item.key));
+  }
+
+  /** Entrées du sous-menu Extras (Mix, Quizz). */
+  get extrasMenuItems() {
+    return this.visibleMenuItems.filter(
+      (item) => (item as { group?: string }).group === 'extras'
+    );
+  }
+
   get primaryMenuItems() {
-    if (!this.isCompactMenu) return this.visibleMenuItems;
-    if (this.isCompactMenu && this.visibleMenuItems.length < 5)
-      return this.visibleMenuItems;
+    const visible = this.visibleMenuItems;
+    const extras = this.extrasMenuItems;
+    const withoutExtras = visible.filter(
+      (item) => (item as { group?: string }).group !== 'extras'
+    );
+    const withExtrasEntry =
+      extras.length > 0
+        ? [
+            ...withoutExtras,
+            {
+              label: 'Extras',
+              icon: '✨',
+              key: 'extras',
+              hideOnMobile: false,
+              isGroup: true,
+            },
+          ]
+        : withoutExtras;
+    if (!this.isCompactMenu) return withExtrasEntry;
+    if (this.isCompactMenu && withExtrasEntry.length < 5) return withExtrasEntry;
     const readingKeys = new Set([
       'books',
       'mangas',
@@ -163,7 +206,10 @@ export class MenuComponent implements OnInit {
       'bds',
       'comics',
     ]);
-    return this.visibleMenuItems.filter((item) => !readingKeys.has(item.key));
+    const screenKeys = new Set(['movies', 'series', 'games']);
+    return withExtrasEntry.filter(
+      (item) => !readingKeys.has(item.key) && !screenKeys.has(item.key)
+    );
   }
 
   isActive(route: string): boolean {
@@ -180,6 +226,7 @@ export class MenuComponent implements OnInit {
 
   toggleReadingMenu(): void {
     this.isReadingMenuOpen = !this.isReadingMenuOpen;
+    if (this.isReadingMenuOpen) this.closeScreenMenu();
   }
 
   closeReadingMenu(): void {
@@ -188,6 +235,42 @@ export class MenuComponent implements OnInit {
 
   isReadingMenuActive(): boolean {
     return this.readingMenuItems.some((item) =>
+      this.isActive(this.getRoute(item.key))
+    );
+  }
+
+  toggleScreenMenu(): void {
+    this.isScreenMenuOpen = !this.isScreenMenuOpen;
+    if (this.isScreenMenuOpen) {
+      this.closeReadingMenu();
+      this.closeExtrasMenu();
+    }
+  }
+
+  closeScreenMenu(): void {
+    this.isScreenMenuOpen = false;
+  }
+
+  isScreenMenuActive(): boolean {
+    return this.screenMenuItems.some((item) =>
+      this.isActive(this.getRoute(item.key))
+    );
+  }
+
+  toggleExtrasMenu(): void {
+    this.isExtrasMenuOpen = !this.isExtrasMenuOpen;
+    if (this.isExtrasMenuOpen) {
+      this.closeReadingMenu();
+      this.closeScreenMenu();
+    }
+  }
+
+  closeExtrasMenu(): void {
+    this.isExtrasMenuOpen = false;
+  }
+
+  isExtrasMenuActive(): boolean {
+    return this.extrasMenuItems.some((item) =>
       this.isActive(this.getRoute(item.key))
     );
   }

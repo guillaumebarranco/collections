@@ -800,7 +800,7 @@ export const baseGamesApi: BaseGame[] = [
     editor: 'Annapurna Interactive',
     hero: '',
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BYzJiNTQwNWMtNzhmNi00MjFiLWE1OTctNjZmMGYwODEwNWIwXkEyXkFqcGc@._V1_.jpg',
+      '/games_pictures/19466137824f.jpg',
     releaseDate: '2022-07-19',
     averageTimeToFinish: 7,
     platform: 'Playstation 5',

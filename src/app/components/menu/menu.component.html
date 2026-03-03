@@ -6,7 +6,32 @@
     </a>
 
     <div class="menu-items">
-      @for (item of primaryMenuItems; let i = $index; track item.label) {
+      @for (item of primaryMenuItems; let i = $index; track item.key) {
+      @if (item.key === 'extras') {
+      <div class="menu-item menu-item-group menu-extras-group" [class.open]="isExtrasMenuOpen">
+        <button
+          class="menu-group-toggle"
+          type="button"
+          (click)="toggleExtrasMenu()"
+          [class.active]="isExtrasMenuActive()"
+        >
+          <span class="menu-icon">{{ item.icon }}</span>
+          <span class="menu-label">{{ item.label }}</span>
+          <span class="menu-caret">▾</span>
+        </button>
+        <div class="menu-submenu" [class.open]="isExtrasMenuOpen">
+          @for (sub of extrasMenuItems; track sub.label) {
+          <button
+            class="menu-subitem"
+            (click)="navigateTo(getRoute(sub.key)); closeExtrasMenu()"
+          >
+            <span class="menu-icon">{{ sub.icon }}</span>
+            <span class="menu-label">{{ sub.label }}</span>
+          </button>
+          }
+        </div>
+      </div>
+      } @else {
       <button
         class="menu-item"
         [class.active]="isActive(getRoute(item.key))"
@@ -16,6 +41,31 @@
         <span class="menu-icon">{{ item.icon }}</span>
         <span class="menu-label">{{ item.label }}</span>
       </button>
+      }
+      } @if (isCompactMenu && visibleMenuItems.length > 4 && screenMenuItems.length > 0) {
+      <div class="menu-item menu-item-group menu-screen-group" [class.open]="isScreenMenuOpen">
+        <button
+          class="menu-group-toggle"
+          type="button"
+          (click)="toggleScreenMenu()"
+          [class.active]="isScreenMenuActive()"
+        >
+          <span class="menu-icon">🖥️</span>
+          <span class="menu-label">Écran</span>
+          <span class="menu-caret">▾</span>
+        </button>
+        <div class="menu-submenu" [class.open]="isScreenMenuOpen">
+          @for (item of screenMenuItems; track item.label) {
+          <button
+            class="menu-subitem"
+            (click)="navigateTo(getRoute(item.key)); closeScreenMenu()"
+          >
+            <span class="menu-icon">{{ item.icon }}</span>
+            <span class="menu-label">{{ item.label }}</span>
+          </button>
+          }
+        </div>
+      </div>
       } @if (isCompactMenu && visibleMenuItems.length > 4) {
       <div class="menu-item menu-item-group" [class.open]="isReadingMenuOpen">
         <button

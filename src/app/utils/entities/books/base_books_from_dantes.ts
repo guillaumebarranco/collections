@@ -43,7 +43,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'No Pasaran le jeu',
     author: 'Christian Lehmann',
-    coverUrl: 'https://covers.openlibrary.org/b/id/11687379-M.jpg',
+    coverUrl: '/books_pictures/eedc788eaf64.jpg',
     pages: 224,
     genre: 'Classiques',
     saga: '',
@@ -56,7 +56,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le Passeur',
     author: 'Lois Lowry',
-    coverUrl: 'https://covers.openlibrary.org/b/id/8352502-M.jpg',
+    coverUrl: '/books_pictures/52eb16ee72ee.jpg',
     pages: 240,
     genre: 'Classiques',
     saga: '',
@@ -69,7 +69,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Délivrez-nous du mal',
     author: 'Romain Sardou',
-    coverUrl: 'https://covers.openlibrary.org/b/id/13701755-M.jpg',
+    coverUrl: '/books_pictures/f08b053686a8.jpg',
     pages: 430,
     genre: 'Thriller',
     saga: '',
@@ -82,7 +82,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Pardonnez nos offenses',
     author: 'Romain Sardou',
-    coverUrl: 'https://covers.openlibrary.org/b/id/989303-M.jpg',
+    coverUrl: '/books_pictures/8266ee38387d.jpg',
     pages: 430,
     genre: 'Thriller',
     saga: '',
@@ -95,7 +95,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "L'éclat de dieu ou le roman du temps",
     author: 'Romain Sardou',
-    coverUrl: 'https://covers.openlibrary.org/b/id/10417208-M.jpg',
+    coverUrl: '/books_pictures/ff3f155d1a2c.jpg',
     pages: 430,
     genre: 'Thriller',
     saga: '',
@@ -108,7 +108,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Un homme averti ne vaut rien',
     author: 'Romain Sardou',
-    coverUrl: 'https://covers.openlibrary.org/b/id/10586962-M.jpg',
+    coverUrl: '/books_pictures/76c9eeff2135.jpg',
     pages: 430,
     genre: 'Thriller',
     saga: '',
@@ -160,7 +160,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "Le dernier jour d'un condamné",
     author: 'Victor Hugo',
-    coverUrl: 'https://covers.openlibrary.org/b/id/3097407-M.jpg',
+    coverUrl: '/books_pictures/1a2a3aa2270e.jpg',
     pages: 192,
     genre: 'Classiques',
     saga: '',
@@ -173,7 +173,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Hernani',
     author: 'Victor Hugo',
-    coverUrl: 'https://covers.openlibrary.org/b/id/10240221-M.jpg',
+    coverUrl: '/books_pictures/3208abea99ad.jpg',
     pages: 160,
     genre: 'Théâtre',
     saga: '',
@@ -199,7 +199,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Lucrèce Borgia',
     author: 'Victor Hugo',
-    coverUrl: 'https://covers.openlibrary.org/b/id/6366720-M.jpg',
+    coverUrl: '/books_pictures/0bbb9a919367.jpg',
     pages: 160,
     genre: 'Théâtre',
     saga: '',
@@ -212,7 +212,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Les châtiments',
     author: 'Victor Hugo',
-    coverUrl: 'https://covers.openlibrary.org/b/id/110533-M.jpg',
+    coverUrl: '/books_pictures/365448d6ef52.jpg',
     pages: 220,
     genre: 'Poésie',
     saga: '',
@@ -225,7 +225,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Les Contemplations',
     author: 'Victor Hugo',
-    coverUrl: 'https://covers.openlibrary.org/b/id/110533-M.jpg',
+    coverUrl: '/books_pictures/365448d6ef52.jpg',
     pages: 220,
     genre: 'Poésie',
     saga: '',
@@ -238,7 +238,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Les Orientales',
     author: 'Victor Hugo',
-    coverUrl: 'https://covers.openlibrary.org/b/id/110533-M.jpg',
+    coverUrl: '/books_pictures/365448d6ef52.jpg',
     pages: 220,
     genre: 'Poésie',
     saga: '',
@@ -251,7 +251,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'La peste',
     author: 'Albert Camus',
-    coverUrl: 'https://covers.openlibrary.org/b/id/13151272-M.jpg',
+    coverUrl: '/books_pictures/f16164712580.jpg',
     pages: 320,
     genre: 'Classiques',
     saga: '',
@@ -277,7 +277,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Les fourberies de Scapin',
     author: 'Molière',
-    coverUrl: 'https://covers.openlibrary.org/b/id/11669439-M.jpg',
+    coverUrl: '/books_pictures/8e32b430b869.jpg',
     pages: 160,
     genre: 'Théâtre',
     saga: '',
@@ -290,7 +290,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "L'avare",
     author: 'Molière',
-    coverUrl: 'https://covers.openlibrary.org/b/id/3097402-M.jpg',
+    coverUrl: '/books_pictures/f330c890d794.jpg',
     pages: 160,
     genre: 'Théâtre',
     saga: '',
@@ -303,7 +303,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "L'école des femmes",
     author: 'Molière',
-    coverUrl: 'https://covers.openlibrary.org/b/id/3066562-M.jpg',
+    coverUrl: '/books_pictures/13d4f5e80b7f.jpg',
     pages: 160,
     genre: 'Théâtre',
     saga: '',
@@ -329,7 +329,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Tartuffe',
     author: 'Molière',
-    coverUrl: 'https://covers.openlibrary.org/b/id/8240407-M.jpg',
+    coverUrl: '/books_pictures/88661930853d.jpg',
     pages: 160,
     genre: 'Théâtre',
     saga: '',
@@ -342,7 +342,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Les précieuses ridicules',
     author: 'Molière',
-    coverUrl: 'https://covers.openlibrary.org/b/id/3103928-M.jpg',
+    coverUrl: '/books_pictures/9f21e0ef227d.jpg',
     pages: 160,
     genre: 'Théâtre',
     saga: '',
@@ -355,7 +355,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le Misanthrope',
     author: 'Molière',
-    coverUrl: 'https://covers.openlibrary.org/b/id/6523174-M.jpg',
+    coverUrl: '/books_pictures/774ab1399638.jpg',
     pages: 160,
     genre: 'Théâtre',
     saga: '',
@@ -368,7 +368,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le Cid',
     author: 'Corneille',
-    coverUrl: 'https://covers.openlibrary.org/b/id/8236984-M.jpg',
+    coverUrl: '/books_pictures/d3ed0edf6b19.jpg',
     pages: 160,
     genre: 'Théâtre',
     saga: '',
@@ -381,7 +381,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le mariage de Figaro',
     author: 'Beaumarchais',
-    coverUrl: 'https://covers.openlibrary.org/b/id/6159923-M.jpg',
+    coverUrl: '/books_pictures/d81c544296a1.jpg',
     pages: 160,
     genre: 'Théâtre',
     saga: '',
@@ -394,7 +394,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le barbier de Seville',
     author: 'Beaumarchais',
-    coverUrl: 'https://covers.openlibrary.org/b/id/5972581-M.jpg',
+    coverUrl: '/books_pictures/02cd559531f5.jpg',
     pages: 160,
     genre: 'Théâtre',
     saga: '',
@@ -446,7 +446,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'La Fille du marquis',
     author: 'Alexandre Dumas',
-    coverUrl: 'https://covers.openlibrary.org/b/id/14566946-M.jpg',
+    coverUrl: '/books_pictures/0625120104aa.jpg',
     pages: 420,
     genre: 'Classiques',
     saga: '',
@@ -459,7 +459,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Un Monde sans fin',
     author: 'Ken Follett',
-    coverUrl: 'https://covers.openlibrary.org/b/id/362346-M.jpg',
+    coverUrl: '/books_pictures/d5c06874df12.jpg',
     pages: 1000,
     genre: 'Fiction historique',
     saga: '',
@@ -472,7 +472,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Une Colonne de feu',
     author: 'Ken Follett',
-    coverUrl: 'https://covers.openlibrary.org/b/id/8465187-M.jpg',
+    coverUrl: '/books_pictures/c4f3599f1574.jpg',
     pages: 900,
     genre: 'Fiction historique',
     saga: '',
@@ -485,7 +485,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Les armes de la lumière',
     author: 'Ken Follett',
-    coverUrl: 'https://covers.openlibrary.org/b/id/12928524-M.jpg',
+    coverUrl: '/books_pictures/6ad179e5421d.jpg',
     pages: 900,
     genre: 'Fiction historique',
     saga: '',
@@ -498,7 +498,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "Le crépuscule et l'aube",
     author: 'Ken Follett',
-    coverUrl: 'https://covers.openlibrary.org/b/id/12566123-M.jpg',
+    coverUrl: '/books_pictures/c1c495d7fbb7.jpg',
     pages: 850,
     genre: 'Fiction historique',
     saga: '',
@@ -511,7 +511,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'La chute des géants',
     author: 'Ken Follett',
-    coverUrl: 'https://covers.openlibrary.org/b/id/6929288-M.jpg',
+    coverUrl: '/books_pictures/fdc394f52a96.jpg',
     pages: 1000,
     genre: 'Fiction historique',
     saga: '',
@@ -524,7 +524,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "L'hiver du monde",
     author: 'Ken Follett',
-    coverUrl: 'https://covers.openlibrary.org/b/id/7245065-M.jpg',
+    coverUrl: '/books_pictures/a57428aa71d8.jpg',
     pages: 1000,
     genre: 'Fiction historique',
     saga: '',
@@ -537,7 +537,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "Aux portes de l'éternité",
     author: 'Ken Follett',
-    coverUrl: 'https://covers.openlibrary.org/b/id/13113218-M.jpg',
+    coverUrl: '/books_pictures/8061071a9e93.jpg',
     pages: 1000,
     genre: 'Fiction historique',
     saga: '',
@@ -550,7 +550,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le Cercle des jours',
     author: 'Ken Follett',
-    coverUrl: 'https://covers.openlibrary.org/b/id/15156827-M.jpg',
+    coverUrl: '/books_pictures/8c24148b95c4.jpg',
     pages: 420,
     genre: 'Classiques',
     saga: '',
@@ -563,7 +563,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Anges et démons',
     author: 'Dan Brown',
-    coverUrl: 'https://covers.openlibrary.org/b/id/11408459-M.jpg',
+    coverUrl: '/books_pictures/1c77b1f5d8a1.jpg',
     pages: 560,
     genre: 'Thriller',
     saga: '',
@@ -576,7 +576,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le Symbole Perdu',
     author: 'Dan Brown',
-    coverUrl: 'https://covers.openlibrary.org/b/id/8373389-M.jpg',
+    coverUrl: '/books_pictures/8eb1cc7e29b3.jpg',
     pages: 560,
     genre: 'Thriller',
     saga: '',
@@ -589,7 +589,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Inferno',
     author: 'Dan Brown',
-    coverUrl: 'https://covers.openlibrary.org/b/id/9322673-M.jpg',
+    coverUrl: '/books_pictures/e0b4a857720c.jpg',
     pages: 560,
     genre: 'Thriller',
     saga: '',
@@ -602,7 +602,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Origine',
     author: 'Dan Brown',
-    coverUrl: 'https://covers.openlibrary.org/b/id/11013590-M.jpg',
+    coverUrl: '/books_pictures/b63d6a823419.jpg',
     pages: 560,
     genre: 'Thriller',
     saga: '',
@@ -615,7 +615,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le Secret des secrets',
     author: 'Dan Brown',
-    coverUrl: 'https://covers.openlibrary.org/b/id/8373389-M.jpg',
+    coverUrl: '/books_pictures/8eb1cc7e29b3.jpg',
     pages: 560,
     genre: 'Thriller',
     saga: '',
@@ -628,7 +628,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Forteresse Digitale',
     author: 'Dan Brown',
-    coverUrl: 'https://covers.openlibrary.org/b/id/8396115-M.jpg',
+    coverUrl: '/books_pictures/7c94e57e33e2.jpg',
     pages: 560,
     genre: 'Thriller',
     saga: '',
@@ -641,7 +641,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Deception Point',
     author: 'Dan Brown',
-    coverUrl: 'https://covers.openlibrary.org/b/id/14553479-M.jpg',
+    coverUrl: '/books_pictures/37de90dd3a50.jpg',
     pages: 560,
     genre: 'Thriller',
     saga: '',
@@ -654,7 +654,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "La Vérité sur l'Affaire Harry Quebert",
     author: 'Joël Dicker',
-    coverUrl: 'https://covers.openlibrary.org/b/id/11753543-M.jpg',
+    coverUrl: '/books_pictures/8492cf7c7372.jpg',
     pages: 670,
     genre: 'Thriller',
     saga: '',
@@ -667,7 +667,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le Livre des Baltimore',
     author: 'Joël Dicker',
-    coverUrl: 'https://covers.openlibrary.org/b/id/11217246-M.jpg',
+    coverUrl: '/books_pictures/7a2324032e73.jpg',
     pages: 480,
     genre: 'Thriller',
     saga: '',
@@ -706,7 +706,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Les derniers de nos pères',
     author: 'Joël Dicker',
-    coverUrl: 'https://covers.openlibrary.org/b/id/14748865-M.jpg',
+    coverUrl: '/books_pictures/1a2b55da06dc.jpg',
     pages: 430,
     genre: 'Thriller',
     saga: '',
@@ -719,7 +719,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Pantagruel',
     author: 'François Rabelais',
-    coverUrl: 'https://covers.openlibrary.org/b/id/13484451-M.jpg',
+    coverUrl: '/books_pictures/9219b42da897.jpg',
     pages: 500,
     genre: 'Classiques',
     saga: '',
@@ -732,7 +732,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Gargantua',
     author: 'François Rabelais',
-    coverUrl: 'https://covers.openlibrary.org/b/id/9176313-M.jpg',
+    coverUrl: '/books_pictures/9440e4759a3d.jpg',
     pages: 500,
     genre: 'Classiques',
     saga: '',
@@ -745,7 +745,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le rouge et le noir',
     author: 'Stendhal',
-    coverUrl: 'https://covers.openlibrary.org/b/id/8231413-M.jpg',
+    coverUrl: '/books_pictures/1d2a0cb1e3a7.jpg',
     pages: 640,
     genre: 'Classiques',
     saga: '',
@@ -771,7 +771,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Oliver Twist',
     author: 'Charles Dickens',
-    coverUrl: 'https://covers.openlibrary.org/b/id/9289570-M.jpg',
+    coverUrl: '/books_pictures/a2571b5a016e.jpg',
     pages: 480,
     genre: 'Classiques',
     saga: '',
@@ -784,7 +784,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le nom de la rose',
     author: 'Umberto Eco',
-    coverUrl: 'https://covers.openlibrary.org/b/id/8598263-M.jpg',
+    coverUrl: '/books_pictures/3826edf41c78.jpg',
     pages: 640,
     genre: 'Classiques',
     saga: '',
@@ -797,7 +797,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Les oiseaux se cachent pour mourir',
     author: 'Colleen McCullough',
-    coverUrl: 'https://covers.openlibrary.org/b/id/8293225-M.jpg',
+    coverUrl: '/books_pictures/e4b88c2837ac.jpg',
     pages: 560,
     genre: 'Classiques',
     saga: '',
@@ -810,7 +810,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Mon bel Orange',
     author: 'José Mauro de Vasconcelos',
-    coverUrl: 'https://covers.openlibrary.org/b/id/963029-M.jpg',
+    coverUrl: '/books_pictures/a38af9b20558.jpg',
     pages: 256,
     genre: 'Classiques',
     saga: '',
@@ -849,7 +849,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Les Mémoires de Sherlock Holmes',
     author: 'Arthur Conan Doyle',
-    coverUrl: 'https://covers.openlibrary.org/b/id/12501284-M.jpg',
+    coverUrl: '/books_pictures/06aa76b76bcf.jpg',
     pages: 320,
     genre: 'Policier',
     saga: '',
@@ -888,7 +888,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Les Archives de Sherlock Holmes',
     author: 'Arthur Conan Doyle',
-    coverUrl: 'https://covers.openlibrary.org/b/id/975048-M.jpg',
+    coverUrl: '/books_pictures/67d5a11b9ef9.jpg',
     pages: 320,
     genre: 'Policier',
     saga: '',
@@ -901,7 +901,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Arsène Lupin, gentleman cambrioleur',
     author: 'Maurice Leblanc',
-    coverUrl: 'https://covers.openlibrary.org/b/id/10399747-M.jpg',
+    coverUrl: '/books_pictures/dd45f43f7a52.jpg',
     pages: 320,
     genre: 'Policier',
     saga: '',
@@ -914,7 +914,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Arsène Lupin contre Herlock Sholmès',
     author: 'Maurice Leblanc',
-    coverUrl: 'https://covers.openlibrary.org/b/id/5892924-M.jpg',
+    coverUrl: '/books_pictures/c981150a8c24.jpg',
     pages: 320,
     genre: 'Policier',
     saga: '',
@@ -1005,7 +1005,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "Le Triangle d'or",
     author: 'Maurice Leblanc',
-    coverUrl: 'https://covers.openlibrary.org/b/id/11044152-M.jpg',
+    coverUrl: '/books_pictures/b43f2542818c.jpg',
     pages: 320,
     genre: 'Policier',
     saga: '',
@@ -1148,7 +1148,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Victor, de la Brigade mondaine',
     author: 'Maurice Leblanc',
-    coverUrl: 'https://covers.openlibrary.org/b/id/14314714-M.jpg',
+    coverUrl: '/books_pictures/a6035ee3856e.jpg',
     pages: 320,
     genre: 'Policier',
     saga: '',
