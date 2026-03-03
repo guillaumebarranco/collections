@@ -9,6 +9,7 @@
 }
 
 .watchlist-actions {
+  flex-wrap: wrap;
   display: flex;
   justify-content: center;
   margin: 20px 0;
@@ -268,6 +269,7 @@
   }
 
   .movies-actions {
+    flex-wrap: wrap;
     justify-content: center;
   }
 

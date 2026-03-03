@@ -20,6 +20,7 @@
 }
 
 .comics-actions {
+  flex-wrap: wrap;
   display: flex;
   gap: 8px;
 }

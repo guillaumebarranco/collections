@@ -20,8 +20,10 @@
 }
 
 .books-actions {
+  flex-wrap: wrap;
   display: flex;
   gap: 8px;
+  flex-wrap: wrap;
 }
 
 .books-stats-bloc {
