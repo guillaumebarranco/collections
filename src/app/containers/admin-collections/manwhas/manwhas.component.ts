@@ -9,9 +9,9 @@ import {
 import { CommonModule } from '@angular/common';
 import { ManwhaComponent } from '../../../components/collections/manwha/manwha.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
-import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quizz-modal.component';
+
 import { Manwha } from '../../../models/manwha-model';
-import { Quizz } from '../../../models/quizz-model';
+
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { getAllBaseManwhas } from '../../../facades/manwhas/manwhas.facade';
 import { getSortedManwhas } from '../../collections/manwhas/manwhas.utils';
@@ -29,7 +29,7 @@ import { EditManwhaComponent } from '../../edit/edit-manwha/edit-manwha.componen
     ManwhaComponent,
     MenuComponent,
     MatDialogModule,
-    QuizzModalComponent,
+
     AdminManwhasHeaderComponent,
     LoaderComponent,
   ],
@@ -42,9 +42,7 @@ export class AdminManwhasComponent implements OnInit {
 
   selectedView = signal<'read'>('read');
   searchTerm = signal<string>('');
-  isQuizzModalOpen = signal<boolean>(false);
-  activeQuizzs = signal<Quizz[]>([]);
-  quizzs = signal<Quizz[]>([]);
+
   isLoadingManwhas = signal<boolean>(true);
   adminManwhasList = signal<Manwha[]>([]);
 
@@ -115,5 +113,4 @@ export class AdminManwhasComponent implements OnInit {
     const normalizedTerm = normalizeSearchText(term);
     return normalizedHaystack.includes(normalizedTerm);
   }
-
 }

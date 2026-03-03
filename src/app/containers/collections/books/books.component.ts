@@ -16,11 +16,11 @@ import {
   StatItemColor,
 } from '../../../components/shared/stats-display/stats-display.component';
 import { BooksHeaderComponent } from './books-header/books-header.component';
-import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quizz-modal.component';
+
 import { Book } from '../../../models/book-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { normalizeSearchText } from '../../../utils/normalize-search-text';
-import { Quizz } from '../../../models/quizz-model';
+
 import {
   BookView,
   bookViewOptions,
@@ -77,7 +77,7 @@ type RecommendedBook = Book & {
     BookComponent,
     MenuComponent,
     MatDialogModule,
-    QuizzModalComponent,
+
     BooksHeaderComponent,
   ],
   templateUrl: './books.component.html',
@@ -88,9 +88,7 @@ export class BooksComponent implements OnInit {
   selectedYearFilter = signal<string>('all');
   selectedView = signal<BookView>('read');
   searchTerm = signal<string>('');
-  isQuizzModalOpen = signal<boolean>(false);
-  activeQuizzs = signal<Quizz[]>([]);
-  quizzs = signal<Quizz[]>([]);
+
   showTopFiveRank = signal<boolean>(false);
 
   activatedRoute = inject(ActivatedRoute);

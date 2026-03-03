@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { SerieComponent } from '../../../components/collections/serie/serie.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import { AdminSeriesHeaderComponent } from './series-header/series-header.component';
-import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quizz-modal.component';
+
 import { Serie } from '../../../models/serie-model';
 import {
   SerieView,
@@ -17,7 +17,6 @@ import { getAllBaseSeries } from '../../../facades/series/series.facade';
 
 import { getFullSerie } from '../../../helpers/full-entities-helper';
 import { normalizeSearchText } from '../../../utils/normalize-search-text';
-import { Quizz } from '../../../models/quizz-model';
 
 const ADMIN_VIEW_OPTIONS: SerieView[] = ['finished', 'sagas', 'countries'];
 
@@ -28,7 +27,7 @@ const ADMIN_VIEW_OPTIONS: SerieView[] = ['finished', 'sagas', 'countries'];
     FormsModule,
     SerieComponent,
     MenuComponent,
-    QuizzModalComponent,
+
     AdminSeriesHeaderComponent,
   ],
   templateUrl: './series.component.html',
@@ -37,9 +36,6 @@ const ADMIN_VIEW_OPTIONS: SerieView[] = ['finished', 'sagas', 'countries'];
 export class AdminSeriesComponent implements OnInit {
   searchTerm = signal<string>('');
   selectedView = signal<SerieView>('finished');
-  isQuizzModalOpen = signal<boolean>(false);
-  activeQuizzs = signal<Quizz[]>([]);
-  quizzs = signal<Quizz[]>([]);
 
   visibleViewOptions = computed(() => {
     const options = serieViewOptions.filter((opt) =>
@@ -144,5 +140,4 @@ export class AdminSeriesComponent implements OnInit {
     const normalizedTerm = normalizeSearchText(term);
     return normalizedHaystack.includes(normalizedTerm);
   }
-
 }

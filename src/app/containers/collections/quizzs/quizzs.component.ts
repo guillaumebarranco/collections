@@ -9,7 +9,7 @@ import {
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { MenuComponent } from '../../../components/menu/menu.component';
-import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quizz-modal.component';
+
 import { Quizz, EntityType } from '../../../models/quizz-model';
 import {
   getAllQuizzs,
@@ -29,6 +29,7 @@ import {
   getQuizzScoreKey,
   type QuizzScoreEntry,
 } from '../../../utils/users/users-quizz-scores';
+import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quizz-modal.component';
 
 export interface QuizzCardGroup {
   entityType: EntityType;

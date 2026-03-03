@@ -39,11 +39,10 @@ import {
   StatItem,
   StatItemColor,
 } from '../../../components/shared/stats-display/stats-display.component';
-import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quizz-modal.component';
+
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditManwhaComponent } from '../../edit/edit-manwha/edit-manwha.component';
 import { LocalStorageService } from '../../../services/local-storage.service';
-import { Quizz } from '../../../models/quizz-model';
 
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
 import { getFullManwha } from '../../../helpers/full-entities-helper';
@@ -69,7 +68,7 @@ type RecommendedManwha = Manwha & {
     ManwhaComponent,
     MenuComponent,
     MatDialogModule,
-    QuizzModalComponent,
+
     ManwhasHeaderComponent,
   ],
   templateUrl: './manwhas.component.html',
@@ -92,9 +91,7 @@ export class ManwhasComponent implements OnInit {
   searchTerm = signal<string>('');
   showTopFiveRank = signal<boolean>(false);
   isViewConfigOpen = signal<boolean>(false);
-  isQuizzModalOpen = signal<boolean>(false);
-  activeQuizzs = signal<Quizz[]>([]);
-  quizzs = signal<Quizz[]>([]);
+
   optionalViewConfig = signal<Record<OptionalManwhaView, boolean>>({
     owned: true,
     toReRead: true,

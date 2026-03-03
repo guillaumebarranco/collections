@@ -16,10 +16,10 @@ import {
   StatItemColor,
 } from '../../../components/shared/stats-display/stats-display.component';
 import { SeriesHeaderComponent } from './series-header/series-header.component';
-import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quizz-modal.component';
+
 import { Serie } from '../../../models/serie-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
-import { Quizz } from '../../../models/quizz-model';
+
 import {
   SerieView,
   OptionalSerieView,
@@ -67,7 +67,7 @@ type RecommendedSerie = Serie & {
     FormsModule,
     SerieComponent,
     MenuComponent,
-    QuizzModalComponent,
+
     SeriesHeaderComponent,
     RouterLink,
   ],
@@ -90,9 +90,7 @@ export class SeriesComponent implements OnInit {
   searchTerm = signal<string>('');
   showTopFiveRank = signal<boolean>(false);
   isViewConfigOpen = signal<boolean>(false);
-  isQuizzModalOpen = signal<boolean>(false);
-  activeQuizzs = signal<Quizz[]>([]);
-  quizzs = signal<Quizz[]>([]);
+
   optionalViewConfig = signal<Record<OptionalSerieView, boolean>>({
     owned: true,
     toReWatch: true,

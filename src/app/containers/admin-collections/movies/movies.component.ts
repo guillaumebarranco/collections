@@ -9,9 +9,9 @@ import {
 import { CommonModule } from '@angular/common';
 import { MovieComponent } from '../../../components/collections/movie/movie.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
-import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quizz-modal.component';
+
 import { Movie } from '../../../models/movie-model';
-import { Quizz } from '../../../models/quizz-model';
+
 import { getAllBaseMovies } from '../../../facades/movies/movies.facade';
 import { normalizeSearchText } from '../../../utils/normalize-search-text';
 
@@ -42,7 +42,7 @@ const ADMIN_VIEWS: MovieView[] = [
     CommonModule,
     MovieComponent,
     MenuComponent,
-    QuizzModalComponent,
+
     AdminMoviesHeaderComponent,
     LoaderComponent,
   ],
@@ -54,9 +54,6 @@ export class AdminMoviesComponent implements OnInit {
   selectedSort = signal<string>('title');
   selectedView = signal<MovieView>('watched');
   searchTerm = signal<string>('');
-  isQuizzModalOpen = signal<boolean>(false);
-  activeQuizzs = signal<Quizz[]>([]);
-  quizzs = signal<Quizz[]>([]);
 
   /** True until base movies have been loaded once. */
   isLoadingMovies = signal<boolean>(true);
@@ -222,5 +219,4 @@ export class AdminMoviesComponent implements OnInit {
     const normalizedTerm = normalizeSearchText(term);
     return normalizedHaystack.includes(normalizedTerm);
   }
-
 }

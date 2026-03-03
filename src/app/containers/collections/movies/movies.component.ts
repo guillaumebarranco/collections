@@ -16,7 +16,7 @@ import {
   StatItemColor,
   StatsDisplayComponent,
 } from '../../../components/shared/stats-display/stats-display.component';
-import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quizz-modal.component';
+
 import {
   getTotalWatchingTime,
   getTotalDuration,
@@ -25,7 +25,7 @@ import {
 import { normalizeSearchText } from '../../../utils/normalize-search-text';
 import { Movie } from '../../../models/movie-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
-import { Quizz } from '../../../models/quizz-model';
+
 import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
 import {
   getAllBaseMovies,
@@ -74,7 +74,7 @@ type RecommendedMovie = Movie & {
     CommonModule,
     MovieComponent,
     MenuComponent,
-    QuizzModalComponent,
+
     MoviesHeaderComponent,
     LoaderComponent,
     StatsDisplayComponent,
@@ -102,9 +102,7 @@ export class MoviesComponent implements OnInit {
   searchTerm = signal<string>('');
   showTopFiveRank = signal<boolean>(false);
   isViewConfigOpen = signal<boolean>(false);
-  isQuizzModalOpen = signal<boolean>(false);
-  activeQuizzs = signal<Quizz[]>([]);
-  quizzs = signal<Quizz[]>([]);
+
   optionalViewConfig = signal<Record<OptionalMovieView, boolean>>({
     cinema: true,
     owned: true,

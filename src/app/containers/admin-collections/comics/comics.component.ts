@@ -9,9 +9,9 @@ import {
 import { CommonModule } from '@angular/common';
 import { ComicComponent } from '../../../components/collections/comic/comic.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
-import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quizz-modal.component';
+
 import { Comic } from '../../../models/comic-model';
-import { Quizz } from '../../../models/quizz-model';
+
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { getAllBaseComics } from '../../../facades/comics/comics.facade';
 import { getSortedComics } from '../../collections/comics/comics.utils';
@@ -29,7 +29,7 @@ import { EditComicComponent } from '../../edit/edit-comic/edit-comic.component';
     ComicComponent,
     MenuComponent,
     MatDialogModule,
-    QuizzModalComponent,
+
     AdminComicsHeaderComponent,
     LoaderComponent,
   ],
@@ -42,9 +42,7 @@ export class AdminComicsComponent implements OnInit {
 
   selectedView = signal<'read'>('read');
   searchTerm = signal<string>('');
-  isQuizzModalOpen = signal<boolean>(false);
-  activeQuizzs = signal<Quizz[]>([]);
-  quizzs = signal<Quizz[]>([]);
+
   isLoadingComics = signal<boolean>(true);
   adminComicsList = signal<Comic[]>([]);
 
@@ -115,5 +113,4 @@ export class AdminComicsComponent implements OnInit {
     const normalizedTerm = normalizeSearchText(term);
     return normalizedHaystack.includes(normalizedTerm);
   }
-
 }

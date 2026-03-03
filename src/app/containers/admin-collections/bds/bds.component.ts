@@ -9,9 +9,9 @@ import {
 import { CommonModule } from '@angular/common';
 import { BdComponent } from '../../../components/collections/bd/bd.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
-import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quizz-modal.component';
+
 import { Bd } from '../../../models/bd-model';
-import { Quizz } from '../../../models/quizz-model';
+
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { getAllBaseBds } from '../../../facades/bds/bds.facade';
 import { getSortedBds } from '../../collections/bds/bds.utils';
@@ -29,7 +29,7 @@ import { EditBdComponent } from '../../edit/edit-bd/edit-bd.component';
     BdComponent,
     MenuComponent,
     MatDialogModule,
-    QuizzModalComponent,
+
     AdminBdsHeaderComponent,
     LoaderComponent,
   ],
@@ -42,9 +42,7 @@ export class AdminBdsComponent implements OnInit {
 
   selectedView = signal<'read'>('read');
   searchTerm = signal<string>('');
-  isQuizzModalOpen = signal<boolean>(false);
-  activeQuizzs = signal<Quizz[]>([]);
-  quizzs = signal<Quizz[]>([]);
+
   isLoadingBds = signal<boolean>(true);
   adminBdsList = signal<Bd[]>([]);
 
@@ -115,5 +113,4 @@ export class AdminBdsComponent implements OnInit {
     const normalizedTerm = normalizeSearchText(term);
     return normalizedHaystack.includes(normalizedTerm);
   }
-
 }

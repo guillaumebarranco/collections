@@ -16,11 +16,10 @@ import {
   StatItemColor,
 } from '../../../components/shared/stats-display/stats-display.component';
 import { GamesHeaderComponent } from './games-header/games-header.component';
-import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quizz-modal.component';
+
 import { Game } from '../../../models/game-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { normalizeSearchText } from '../../../utils/normalize-search-text';
-import { Quizz } from '../../../models/quizz-model';
 
 import {
   GameView,
@@ -68,7 +67,7 @@ import {
     FormsModule,
     GameComponent,
     MenuComponent,
-    QuizzModalComponent,
+
     GamesHeaderComponent,
     RouterLink,
   ],
@@ -91,9 +90,7 @@ export class GamesComponent implements OnInit {
   searchTerm = signal<string>('');
   showTopFiveRank = signal<boolean>(false);
   isViewConfigOpen = signal<boolean>(false);
-  isQuizzModalOpen = signal<boolean>(false);
-  activeQuizzs = signal<Quizz[]>([]);
-  quizzs = signal<Quizz[]>([]);
+
   optionalViewConfig = signal<Record<OptionalGameView, boolean>>({
     platined: true,
     owned: true,

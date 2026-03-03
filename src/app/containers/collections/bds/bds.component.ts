@@ -16,11 +16,11 @@ import {
   StatItemColor,
 } from '../../../components/shared/stats-display/stats-display.component';
 import { BdsHeaderComponent } from './bds-header/bds-header.component';
-import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quizz-modal.component';
+
 import { Bd } from '../../../models/bd-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { normalizeSearchText } from '../../../utils/normalize-search-text';
-import { Quizz } from '../../../models/quizz-model';
+
 import {
   BdView,
   OptionalBdView,
@@ -70,7 +70,7 @@ type RecommendedBd = Bd & {
     BdComponent,
     MenuComponent,
     MatDialogModule,
-    QuizzModalComponent,
+
     BdsHeaderComponent,
     RouterLink,
   ],
@@ -94,9 +94,7 @@ export class BdsComponent implements OnInit {
   searchTerm = signal<string>('');
   showTopFiveRank = signal<boolean>(false);
   isViewConfigOpen = signal<boolean>(false);
-  isQuizzModalOpen = signal<boolean>(false);
-  activeQuizzs = signal<Quizz[]>([]);
-  quizzs = signal<Quizz[]>([]);
+
   optionalViewConfig = signal<Record<OptionalBdView, boolean>>({
     owned: true,
     toReRead: true,

@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { BookComponent } from '../../../components/collections/book/book.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import { AdminBooksHeaderComponent } from './books-header/books-header.component';
-import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quizz-modal.component';
+
 import { Book } from '../../../models/book-model';
 import {
   BookView,
@@ -17,7 +17,6 @@ import { getAllBaseBooks } from '../../../facades/books/books.facade';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditBookComponent } from '../../edit/edit-book/edit-book.component';
 
-import { Quizz } from '../../../models/quizz-model';
 import { getFullBook } from '../../../helpers/full-entities-helper';
 import { normalizeSearchText } from '../../../utils/normalize-search-text';
 
@@ -29,7 +28,7 @@ import { normalizeSearchText } from '../../../utils/normalize-search-text';
     BookComponent,
     MenuComponent,
     MatDialogModule,
-    QuizzModalComponent,
+
     AdminBooksHeaderComponent,
   ],
   templateUrl: './books.component.html',
@@ -38,9 +37,7 @@ import { normalizeSearchText } from '../../../utils/normalize-search-text';
 export class AdminBooksComponent implements OnInit {
   selectedView = signal<BookView>('read');
   searchTerm = signal<string>('');
-  isQuizzModalOpen = signal<boolean>(false);
-  activeQuizzs = signal<Quizz[]>([]);
-  quizzs = signal<Quizz[]>([]);
+
   collapsedCountries = signal<Record<string, boolean>>({});
 
   private readonly dialog = inject(MatDialog);
@@ -150,5 +147,4 @@ export class AdminBooksComponent implements OnInit {
     const normalizedTerm = normalizeSearchText(term);
     return normalizedHaystack.includes(normalizedTerm);
   }
-
 }

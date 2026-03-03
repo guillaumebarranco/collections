@@ -16,11 +16,11 @@ import {
   StatItemColor,
 } from '../../../components/shared/stats-display/stats-display.component';
 import { ComicsHeaderComponent } from './comics-header/comics-header.component';
-import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quizz-modal.component';
+
 import { Comic } from '../../../models/comic-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { normalizeSearchText } from '../../../utils/normalize-search-text';
-import { Quizz } from '../../../models/quizz-model';
+
 import {
   ComicView,
   OptionalComicView,
@@ -67,7 +67,7 @@ type RecommendedComic = Comic & {
     ComicComponent,
     MenuComponent,
     MatDialogModule,
-    QuizzModalComponent,
+
     ComicsHeaderComponent,
     RouterLink,
   ],
@@ -91,9 +91,7 @@ export class ComicsComponent implements OnInit {
   searchTerm = signal<string>('');
   showTopFiveRank = signal<boolean>(false);
   isViewConfigOpen = signal<boolean>(false);
-  isQuizzModalOpen = signal<boolean>(false);
-  activeQuizzs = signal<Quizz[]>([]);
-  quizzs = signal<Quizz[]>([]);
+
   optionalViewConfig = signal<Record<OptionalComicView, boolean>>({
     owned: true,
     toReRead: true,

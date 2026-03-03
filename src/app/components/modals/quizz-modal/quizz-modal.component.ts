@@ -8,10 +8,12 @@ import {
   computed,
   effect,
 } from '@angular/core';
-import { Quizz } from '../../../models/quizz-model';
+
 import { normalizeQuizzText } from '../../../utils/quizzs/quizzs.utils';
 import { AuthService } from '../../../core/auth.service';
 import { saveQuizzScore } from '../../../facades/quizzs/quizzs.facade';
+
+import { Quizz } from '../../../models/quizz-model';
 
 @Component({
   selector: 'app-quizz-modal',
