@@ -21,6 +21,7 @@ import {
   Album,
 } from '../../../components/modals/album-modal/album-modal.component';
 import { Music } from '../../../models/music-model';
+import { normalizeSearchText } from '../../../utils/normalize-search-text';
 import { ActivatedRoute, Params, Router } from '@angular/router';
 import {
   getAllBaseMusics,
@@ -363,15 +364,8 @@ export class MusicsComponent implements OnInit {
       .filter(Boolean)
       .join(' ');
 
-    const normalizedHaystack = this.normalizeSearchText(haystack);
-    const normalizedTerm = this.normalizeSearchText(term);
+    const normalizedHaystack = normalizeSearchText(haystack);
+    const normalizedTerm = normalizeSearchText(term);
     return normalizedHaystack.includes(normalizedTerm);
-  }
-
-  private normalizeSearchText(value: string): string {
-    return value
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .toLowerCase();
   }
 }

@@ -16,9 +16,10 @@ import {
 import { getAllBaseBooks } from '../../../facades/books/books.facade';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditBookComponent } from '../../edit/edit-book/edit-book.component';
-import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
+
 import { Quizz } from '../../../models/quizz-model';
 import { getFullBook } from '../../../helpers/full-entities-helper';
+import { normalizeSearchText } from '../../../utils/normalize-search-text';
 
 @Component({
   selector: 'app-admin-books',
@@ -47,7 +48,6 @@ export class AdminBooksComponent implements OnInit {
   adminBooksList = signal<Book[]>([]);
 
   ngOnInit() {
-    void this.refreshQuizzs();
     this.refreshBooks();
   }
 
@@ -55,11 +55,6 @@ export class AdminBooksComponent implements OnInit {
     const baseBooks = await getAllBaseBooks();
     const books = baseBooks.map(getFullBook);
     this.adminBooksList.set(books);
-  }
-
-  async refreshQuizzs() {
-    const quizzs = await getAllQuizzs();
-    this.quizzs.set(quizzs);
   }
 
   allBooks = computed<Book[]>(() => this.adminBooksList());
@@ -124,17 +119,6 @@ export class AdminBooksComponent implements OnInit {
     return !!this.collapsedCountries()[country];
   }
 
-  openQuizzModal(quizzs: Quizz[]) {
-    if (!quizzs || quizzs.length === 0) return;
-    this.activeQuizzs.set(quizzs);
-    this.isQuizzModalOpen.set(true);
-  }
-
-  closeQuizzModal() {
-    this.isQuizzModalOpen.set(false);
-    this.activeQuizzs.set([]);
-  }
-
   openEditBookDialog(book: Book): void {
     const books = this.sortedBooks();
     const index = books.findIndex(
@@ -162,15 +146,9 @@ export class AdminBooksComponent implements OnInit {
     const haystack = [book.title, book.author, book.genre, book.saga]
       .filter(Boolean)
       .join(' ');
-    const normalizedHaystack = this.normalizeSearchText(haystack);
-    const normalizedTerm = this.normalizeSearchText(term);
+    const normalizedHaystack = normalizeSearchText(haystack);
+    const normalizedTerm = normalizeSearchText(term);
     return normalizedHaystack.includes(normalizedTerm);
   }
 
-  private normalizeSearchText(value: string): string {
-    return value
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .toLowerCase();
-  }
 }

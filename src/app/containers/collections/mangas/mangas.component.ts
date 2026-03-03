@@ -19,6 +19,7 @@ import { MangasHeaderComponent } from './mangas-header/mangas-header.component';
 import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quizz-modal.component';
 import { Manga } from '../../../models/manga-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
+import { normalizeSearchText } from '../../../utils/normalize-search-text';
 import { Quizz } from '../../../models/quizz-model';
 import {
   MangaView,
@@ -43,7 +44,7 @@ import {
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditMangaComponent } from '../../edit/edit-manga/edit-manga.component';
 import { LocalStorageService } from '../../../services/local-storage.service';
-import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
+
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
 import { getFullManga } from '../../../helpers/full-entities-helper';
 import {
@@ -308,20 +309,8 @@ export class MangasComponent implements OnInit {
     this.searchTerm.set(value);
   }
 
-  openQuizzModal(quizzs: Quizz[]) {
-    if (!quizzs || quizzs.length === 0) return;
-    this.activeQuizzs.set(quizzs);
-    this.isQuizzModalOpen.set(true);
-  }
-
-  closeQuizzModal() {
-    this.isQuizzModalOpen.set(false);
-    this.activeQuizzs.set([]);
-  }
-
   async ngOnInit() {
     this.loadViewConfigFromStorage();
-    void this.refreshQuizzs();
     this.loadViewPreferencesFromStorage();
     await this.refreshMangas();
   }
@@ -338,16 +327,9 @@ export class MangasComponent implements OnInit {
       .filter(Boolean)
       .join(' ');
 
-    const normalizedHaystack = this.normalizeSearchText(haystack);
-    const normalizedTerm = this.normalizeSearchText(term);
+    const normalizedHaystack = normalizeSearchText(haystack);
+    const normalizedTerm = normalizeSearchText(term);
     return normalizedHaystack.includes(normalizedTerm);
-  }
-
-  private normalizeSearchText(value: string): string {
-    return value
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .toLowerCase();
   }
 
   private calculateTotalTomes(): number {
@@ -380,11 +362,6 @@ export class MangasComponent implements OnInit {
     this.mangasList.set(mangas);
     this.readlistMangasList.set(readlist);
     this.baseMangasList.set(baseMangas.map(getFullManga));
-  }
-
-  private async refreshQuizzs() {
-    const quizzs = await getAllQuizzs();
-    this.quizzs.set(quizzs);
   }
 
   openEditMangaDialog(manga: Manga): void {

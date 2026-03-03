@@ -13,7 +13,8 @@ import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quiz
 import { Movie } from '../../../models/movie-model';
 import { Quizz } from '../../../models/quizz-model';
 import { getAllBaseMovies } from '../../../facades/movies/movies.facade';
-import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
+import { normalizeSearchText } from '../../../utils/normalize-search-text';
+
 import {
   getSortedMovies,
   MovieView,
@@ -139,7 +140,6 @@ export class AdminMoviesComponent implements OnInit {
   ngOnInit() {
     this.selectedView.set('watched');
     void this.refreshMovies();
-    void this.refreshQuizzs();
   }
 
   async refreshMovies() {
@@ -152,11 +152,6 @@ export class AdminMoviesComponent implements OnInit {
     } finally {
       this.isLoadingMovies.set(false);
     }
-  }
-
-  async refreshQuizzs() {
-    const quizzs = await getAllQuizzs();
-    this.quizzs.set(quizzs);
   }
 
   onViewChange(view: MovieView) {
@@ -211,17 +206,6 @@ export class AdminMoviesComponent implements OnInit {
     return Boolean(this.collapsedCountries()[country]);
   }
 
-  openQuizzModal(quizzs: Quizz[]) {
-    if (!quizzs?.length) return;
-    this.activeQuizzs.set(quizzs);
-    this.isQuizzModalOpen.set(true);
-  }
-
-  closeQuizzModal() {
-    this.isQuizzModalOpen.set(false);
-    this.activeQuizzs.set([]);
-  }
-
   private matchesSearch(movie: Movie, term: string): boolean {
     const actors = movie.actors?.map((a) => a.name).join(' ') || '';
     const haystack = [
@@ -234,15 +218,9 @@ export class AdminMoviesComponent implements OnInit {
     ]
       .filter(Boolean)
       .join(' ');
-    const normalizedHaystack = this.normalizeSearchText(haystack);
-    const normalizedTerm = this.normalizeSearchText(term);
+    const normalizedHaystack = normalizeSearchText(haystack);
+    const normalizedTerm = normalizeSearchText(term);
     return normalizedHaystack.includes(normalizedTerm);
   }
 
-  private normalizeSearchText(value: string): string {
-    return value
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .toLowerCase();
-  }
 }

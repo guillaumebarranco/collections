@@ -88,12 +88,6 @@
   }
 </div>
 
-<app-quizz-modal
-  [isOpen]="isQuizzModalOpen()"
-  [quizzs]="activeQuizzs()"
-  (close)="closeQuizzModal()"
-></app-quizz-modal>
-
 @if (isViewConfigOpen()) {
 <div class="manwhas-config-overlay" (click)="closeViewConfig()">
   <div

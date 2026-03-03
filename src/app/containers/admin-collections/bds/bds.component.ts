@@ -16,9 +16,10 @@ import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { getAllBaseBds } from '../../../facades/bds/bds.facade';
 import { getSortedBds } from '../../collections/bds/bds.utils';
 import { getFullBd } from '../../../helpers/full-entities-helper';
+import { normalizeSearchText } from '../../../utils/normalize-search-text';
 import { AdminBdsHeaderComponent } from './bds-header/bds-header.component';
 import { LoaderComponent } from '../../../components/shared/loader/loader.component';
-import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
+
 import { EditBdComponent } from '../../edit/edit-bd/edit-bd.component';
 
 @Component({
@@ -66,7 +67,6 @@ export class AdminBdsComponent implements OnInit {
 
   ngOnInit() {
     void this.refreshBds();
-    void this.refreshQuizzs();
   }
 
   async refreshBds() {
@@ -80,28 +80,12 @@ export class AdminBdsComponent implements OnInit {
     }
   }
 
-  async refreshQuizzs() {
-    const q = await getAllQuizzs();
-    this.quizzs.set(q);
-  }
-
   onViewChange(_view: 'read') {
     this.selectedView.set('read');
   }
 
   onSearchChange(value: string) {
     this.searchTerm.set(value);
-  }
-
-  openQuizzModal(quizzs: Quizz[]) {
-    if (!quizzs?.length) return;
-    this.activeQuizzs.set(quizzs);
-    this.isQuizzModalOpen.set(true);
-  }
-
-  closeQuizzModal() {
-    this.isQuizzModalOpen.set(false);
-    this.activeQuizzs.set([]);
   }
 
   openEditBdDialog(bd: Bd): void {
@@ -127,15 +111,9 @@ export class AdminBdsComponent implements OnInit {
     const haystack = [bd.title, bd.writer, bd.designer, bd.genre]
       .filter(Boolean)
       .join(' ');
-    const normalizedHaystack = this.normalizeSearchText(haystack);
-    const normalizedTerm = this.normalizeSearchText(term);
+    const normalizedHaystack = normalizeSearchText(haystack);
+    const normalizedTerm = normalizeSearchText(term);
     return normalizedHaystack.includes(normalizedTerm);
   }
 
-  private normalizeSearchText(value: string): string {
-    return value
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .toLowerCase();
-  }
 }

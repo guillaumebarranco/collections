@@ -14,6 +14,7 @@ import { SortOption } from '../../../components/shared/sort-dropdown/sort-dropdo
 import { ManwhasHeaderComponent } from './manwhas-header/manwhas-header.component';
 import { Manwha } from '../../../models/manwha-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
+import { normalizeSearchText } from '../../../utils/normalize-search-text';
 import {
   ManwhaView,
   OptionalManwhaView,
@@ -43,7 +44,7 @@ import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditManwhaComponent } from '../../edit/edit-manwha/edit-manwha.component';
 import { LocalStorageService } from '../../../services/local-storage.service';
 import { Quizz } from '../../../models/quizz-model';
-import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
+
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
 import { getFullManwha } from '../../../helpers/full-entities-helper';
 import {
@@ -308,20 +309,8 @@ export class ManwhasComponent implements OnInit {
     this.searchTerm.set(value);
   }
 
-  openQuizzModal(quizzs: Quizz[]) {
-    if (!quizzs || quizzs.length === 0) return;
-    this.activeQuizzs.set(quizzs);
-    this.isQuizzModalOpen.set(true);
-  }
-
-  closeQuizzModal() {
-    this.isQuizzModalOpen.set(false);
-    this.activeQuizzs.set([]);
-  }
-
   async ngOnInit() {
     this.loadViewConfigFromStorage();
-    void this.refreshQuizzs();
     this.loadViewPreferencesFromStorage();
     await this.refreshManwhas();
   }
@@ -338,16 +327,9 @@ export class ManwhasComponent implements OnInit {
       .filter(Boolean)
       .join(' ');
 
-    const normalizedHaystack = this.normalizeSearchText(haystack);
-    const normalizedTerm = this.normalizeSearchText(term);
+    const normalizedHaystack = normalizeSearchText(haystack);
+    const normalizedTerm = normalizeSearchText(term);
     return normalizedHaystack.includes(normalizedTerm);
-  }
-
-  private normalizeSearchText(value: string): string {
-    return value
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .toLowerCase();
   }
 
   getSelectManwhasRoute(): string {
@@ -413,11 +395,6 @@ export class ManwhasComponent implements OnInit {
     this.manwhasList.set(manwhas);
     this.readlistManwhasList.set(readlist);
     this.baseManwhasList.set(baseManwhas.map(getFullManwha));
-  }
-
-  private async refreshQuizzs() {
-    const quizzs = await getAllQuizzs();
-    this.quizzs.set(quizzs);
   }
 
   getActiveUserId(): string {

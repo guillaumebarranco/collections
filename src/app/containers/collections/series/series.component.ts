@@ -30,6 +30,7 @@ import {
   serieViewOptions,
 } from './series.utils';
 import { formatTimeStats } from '../../../utils/stats.utils';
+import { normalizeSearchText } from '../../../utils/normalize-search-text';
 import {
   getSerieTotalLengthMinutes,
   getSerieWatchedLengthMinutes,
@@ -45,7 +46,7 @@ import { LocalStorageService } from '../../../services/local-storage.service';
 import { TopFiveService } from '../../../services/top-five.service';
 import { FollowsService } from '../../../services/follows.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
-import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
+
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
 import { getFullSerie } from '../../../helpers/full-entities-helper';
 import {
@@ -296,7 +297,6 @@ export class SeriesComponent implements OnInit {
 
   ngOnInit() {
     this.loadViewConfigFromStorage();
-    void this.refreshQuizzs();
     this.loadViewPreferencesFromStorage();
     void this.refreshSeries();
   }
@@ -311,11 +311,6 @@ export class SeriesComponent implements OnInit {
     this.seriesList.set(series);
     this.watchingSeriesList.set(watchlist);
     this.baseSeriesList.set(baseSeries.map(getFullSerie));
-  }
-
-  private async refreshQuizzs() {
-    const quizzs = await getAllQuizzs();
-    this.quizzs.set(quizzs);
   }
 
   getActiveUserId(): string {
@@ -407,17 +402,6 @@ export class SeriesComponent implements OnInit {
     this.searchTerm.set(value);
   }
 
-  openQuizzModal(quizzs: Quizz[]) {
-    if (!quizzs || quizzs.length === 0) return;
-    this.activeQuizzs.set(quizzs);
-    this.isQuizzModalOpen.set(true);
-  }
-
-  closeQuizzModal() {
-    this.isQuizzModalOpen.set(false);
-    this.activeQuizzs.set([]);
-  }
-
   private matchesSearch(serie: Serie, term: string): boolean {
     const actors = serie.actors?.map((actor) => actor.name).join(' ') || '';
     const haystack = [
@@ -430,16 +414,9 @@ export class SeriesComponent implements OnInit {
       .filter(Boolean)
       .join(' ');
 
-    const normalizedHaystack = this.normalizeSearchText(haystack);
-    const normalizedTerm = this.normalizeSearchText(term);
+    const normalizedHaystack = normalizeSearchText(haystack);
+    const normalizedTerm = normalizeSearchText(term);
     return normalizedHaystack.includes(normalizedTerm);
-  }
-
-  private normalizeSearchText(value: string): string {
-    return value
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .toLowerCase();
   }
 
   readonly followedIdsForRecommendations = signal<string[]>([]);

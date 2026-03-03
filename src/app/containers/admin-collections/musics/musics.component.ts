@@ -14,6 +14,7 @@ import { AdminMusicsHeaderComponent } from './musics-header/musics-header.compon
 import { Music } from '../../../models/music-model';
 import { getAllBaseMusics } from '../../../facades/musics/musics.facade';
 import { getSortedMusics } from '../../collections/musics/musics.utils';
+import { normalizeSearchText } from '../../../utils/normalize-search-text';
 
 @Component({
   selector: 'app-admin-musics',
@@ -71,15 +72,9 @@ export class AdminMusicsComponent implements OnInit {
     const haystack = [music.title, music.artist, music.album, music.genre]
       .filter(Boolean)
       .join(' ');
-    const normalizedHaystack = this.normalizeSearchText(haystack);
-    const normalizedTerm = this.normalizeSearchText(term);
+    const normalizedHaystack = normalizeSearchText(haystack);
+    const normalizedTerm = normalizeSearchText(term);
     return normalizedHaystack.includes(normalizedTerm);
   }
 
-  private normalizeSearchText(value: string): string {
-    return value
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .toLowerCase();
-  }
 }

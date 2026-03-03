@@ -19,6 +19,7 @@ import { BooksHeaderComponent } from './books-header/books-header.component';
 import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quizz-modal.component';
 import { Book } from '../../../models/book-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
+import { normalizeSearchText } from '../../../utils/normalize-search-text';
 import { Quizz } from '../../../models/quizz-model';
 import {
   BookView,
@@ -52,7 +53,7 @@ import { LocalStorageService } from '../../../services/local-storage.service';
 import { TopFiveService } from '../../../services/top-five.service';
 import { FollowsService } from '../../../services/follows.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
-import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
+
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
 import { getFullBook } from '../../../helpers/full-entities-helper';
 import {
@@ -198,7 +199,6 @@ export class BooksComponent implements OnInit {
 
   ngOnInit() {
     this.loadViewConfigFromStorage();
-    void this.refreshQuizzs();
     this.loadViewPreferencesFromStorage();
     // Lire les paramètres de l'URL au démarrage
     this.loadParamsFromUrl(this.activatedRoute.snapshot.queryParams);
@@ -223,11 +223,6 @@ export class BooksComponent implements OnInit {
     this.booksList.set(books);
     this.readlistBooksList.set(readlist);
     this.baseBooksList.set(baseBooks.map(getFullBook));
-  }
-
-  async refreshQuizzs() {
-    const quizzs = await getAllQuizzs();
-    this.quizzs.set(quizzs);
   }
 
   private loadParamsFromUrl(queryParams: Params) {
@@ -578,17 +573,6 @@ export class BooksComponent implements OnInit {
     return !!this.collapsedCountries()[country];
   }
 
-  openQuizzModal(quizzs: Quizz[]) {
-    if (!quizzs || quizzs.length === 0) return;
-    this.activeQuizzs.set(quizzs);
-    this.isQuizzModalOpen.set(true);
-  }
-
-  closeQuizzModal() {
-    this.isQuizzModalOpen.set(false);
-    this.activeQuizzs.set([]);
-  }
-
   openEditBookDialog(book: Book): void {
     const books = this.sortedBooks();
     const index = books.findIndex(
@@ -644,16 +628,9 @@ export class BooksComponent implements OnInit {
       .filter(Boolean)
       .join(' ');
 
-    const normalizedHaystack = this.normalizeSearchText(haystack);
-    const normalizedTerm = this.normalizeSearchText(term);
+    const normalizedHaystack = normalizeSearchText(haystack);
+    const normalizedTerm = normalizeSearchText(term);
     return normalizedHaystack.includes(normalizedTerm);
-  }
-
-  private normalizeSearchText(value: string): string {
-    return value
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .toLowerCase();
   }
 
   /** Liste des comptes suivis utilisée pour les recommandations (pour afficher le message si vide). */

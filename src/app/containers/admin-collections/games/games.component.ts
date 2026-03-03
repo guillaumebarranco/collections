@@ -14,6 +14,7 @@ import { Game } from '../../../models/game-model';
 import { GameView, getSortedGames } from '../../collections/games/games.utils';
 import { getAllBaseGames } from '../../../facades/games/games.facade';
 import { getFullGame } from '../../../helpers/full-entities-helper';
+import { normalizeSearchText } from '../../../utils/normalize-search-text';
 import { Router } from '@angular/router';
 import { AuthService } from '../../../core/auth.service';
 
@@ -97,15 +98,9 @@ export class AdminGamesComponent implements OnInit {
     ]
       .filter(Boolean)
       .join(' ');
-    const normalizedHaystack = this.normalizeSearchText(haystack);
-    const normalizedTerm = this.normalizeSearchText(term);
+    const normalizedHaystack = normalizeSearchText(haystack);
+    const normalizedTerm = normalizeSearchText(term);
     return normalizedHaystack.includes(normalizedTerm);
   }
 
-  private normalizeSearchText(value: string): string {
-    return value
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .toLowerCase();
-  }
 }

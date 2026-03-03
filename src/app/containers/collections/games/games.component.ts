@@ -19,6 +19,7 @@ import { GamesHeaderComponent } from './games-header/games-header.component';
 import { QuizzModalComponent } from '../../../components/modals/quizz-modal/quizz-modal.component';
 import { Game } from '../../../models/game-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
+import { normalizeSearchText } from '../../../utils/normalize-search-text';
 import { Quizz } from '../../../models/quizz-model';
 
 import {
@@ -36,7 +37,7 @@ import {
   getOtherUsersGamesRated,
 } from '../../../facades/games/games.facade';
 import { LocalStorageService } from '../../../services/local-storage.service';
-import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
+
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
 import { getFullGame } from '../../../helpers/full-entities-helper';
 import {
@@ -254,7 +255,6 @@ export class GamesComponent implements OnInit {
 
   ngOnInit() {
     this.loadViewConfigFromStorage();
-    void this.refreshQuizzs();
     this.loadViewPreferencesFromStorage();
     void this.refreshGames();
   }
@@ -269,11 +269,6 @@ export class GamesComponent implements OnInit {
     this.gamesList.set(games);
     this.gamelistGamesList.set(gamelist);
     this.baseGamesList.set(baseGames.map(getFullGame));
-  }
-
-  private async refreshQuizzs() {
-    const quizzs = await getAllQuizzs();
-    this.quizzs.set(quizzs);
   }
 
   getActiveUserId(): string {
@@ -314,17 +309,6 @@ export class GamesComponent implements OnInit {
 
   onSearchChange(value: string) {
     this.searchTerm.set(value);
-  }
-
-  openQuizzModal(quizzs: Quizz[]) {
-    if (!quizzs || quizzs.length === 0) return;
-    this.activeQuizzs.set(quizzs);
-    this.isQuizzModalOpen.set(true);
-  }
-
-  closeQuizzModal() {
-    this.isQuizzModalOpen.set(false);
-    this.activeQuizzs.set([]);
   }
 
   openViewConfig(): void {
@@ -400,16 +384,9 @@ export class GamesComponent implements OnInit {
       .filter(Boolean)
       .join(' ');
 
-    const normalizedHaystack = this.normalizeSearchText(haystack);
-    const normalizedTerm = this.normalizeSearchText(term);
+    const normalizedHaystack = normalizeSearchText(haystack);
+    const normalizedTerm = normalizeSearchText(term);
     return normalizedHaystack.includes(normalizedTerm);
-  }
-
-  private normalizeSearchText(value: string): string {
-    return value
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .toLowerCase();
   }
 
   readonly followedIdsForRecommendations = signal<string[]>([]);

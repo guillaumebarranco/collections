@@ -16,9 +16,10 @@ import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { getAllBaseMangas } from '../../../facades/mangas/mangas.facade';
 import { getSortedMangas } from '../../collections/mangas/mangas.utils';
 import { getFullManga } from '../../../helpers/full-entities-helper';
+import { normalizeSearchText } from '../../../utils/normalize-search-text';
 import { AdminMangasHeaderComponent } from './mangas-header/mangas-header.component';
 import { LoaderComponent } from '../../../components/shared/loader/loader.component';
-import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
+
 import { EditMangaComponent } from '../../edit/edit-manga/edit-manga.component';
 
 @Component({
@@ -66,7 +67,6 @@ export class AdminMangasComponent implements OnInit {
 
   ngOnInit() {
     void this.refreshMangas();
-    void this.refreshQuizzs();
   }
 
   async refreshMangas() {
@@ -80,28 +80,12 @@ export class AdminMangasComponent implements OnInit {
     }
   }
 
-  async refreshQuizzs() {
-    const q = await getAllQuizzs();
-    this.quizzs.set(q);
-  }
-
   onViewChange(_view: 'read') {
     this.selectedView.set('read');
   }
 
   onSearchChange(value: string) {
     this.searchTerm.set(value);
-  }
-
-  openQuizzModal(quizzs: Quizz[]) {
-    if (!quizzs?.length) return;
-    this.activeQuizzs.set(quizzs);
-    this.isQuizzModalOpen.set(true);
-  }
-
-  closeQuizzModal() {
-    this.isQuizzModalOpen.set(false);
-    this.activeQuizzs.set([]);
   }
 
   openEditMangaDialog(manga: Manga): void {
@@ -127,15 +111,9 @@ export class AdminMangasComponent implements OnInit {
     const haystack = [manga.title, manga.author, manga.genre]
       .filter(Boolean)
       .join(' ');
-    const normalizedHaystack = this.normalizeSearchText(haystack);
-    const normalizedTerm = this.normalizeSearchText(term);
+    const normalizedHaystack = normalizeSearchText(haystack);
+    const normalizedTerm = normalizeSearchText(term);
     return normalizedHaystack.includes(normalizedTerm);
   }
 
-  private normalizeSearchText(value: string): string {
-    return value
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .toLowerCase();
-  }
 }

@@ -22,6 +22,7 @@ import {
   getTotalDuration,
   capitalizeFirstLetter,
 } from '../../../utils/stats.utils';
+import { normalizeSearchText } from '../../../utils/normalize-search-text';
 import { Movie } from '../../../models/movie-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { Quizz } from '../../../models/quizz-model';
@@ -36,7 +37,7 @@ import { LocalStorageService } from '../../../services/local-storage.service';
 import { TopFiveService } from '../../../services/top-five.service';
 import { FollowsService } from '../../../services/follows.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
-import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
+
 import {
   getSortedMovies,
   allYearsSince2000,
@@ -195,7 +196,6 @@ export class MoviesComponent implements OnInit {
     });
 
     void this.refreshMovies();
-    void this.refreshQuizzs();
   }
 
   sortOptions = computed(() => {
@@ -425,11 +425,6 @@ export class MoviesComponent implements OnInit {
     }
   }
 
-  async refreshQuizzs() {
-    const quizzs = await getAllQuizzs();
-    this.quizzs.set(quizzs);
-  }
-
   getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? DEFAULT_USER_ID;
@@ -656,17 +651,6 @@ export class MoviesComponent implements OnInit {
     return Boolean(this.collapsedCountries()[country]);
   }
 
-  openQuizzModal(quizzs: Quizz[]) {
-    if (!quizzs || quizzs.length === 0) return;
-    this.activeQuizzs.set(quizzs);
-    this.isQuizzModalOpen.set(true);
-  }
-
-  closeQuizzModal() {
-    this.isQuizzModalOpen.set(false);
-    this.activeQuizzs.set([]);
-  }
-
   private matchesSearch(movie: Movie, term: string): boolean {
     const actors = movie.actors?.map((actor) => actor.name).join(' ') || '';
     const haystack = [
@@ -680,8 +664,8 @@ export class MoviesComponent implements OnInit {
       .filter(Boolean)
       .join(' ');
 
-    const normalizedHaystack = this.normalizeSearchText(haystack);
-    const normalizedTerm = this.normalizeSearchText(term);
+    const normalizedHaystack = normalizeSearchText(haystack);
+    const normalizedTerm = normalizeSearchText(term);
     return normalizedHaystack.includes(normalizedTerm);
   }
 
@@ -723,13 +707,6 @@ export class MoviesComponent implements OnInit {
 
   private getMovieIdentityKey(movie: Movie): string {
     return `${movie.title}|${movie.director}`;
-  }
-
-  private normalizeSearchText(value: string): string {
-    return value
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .toLowerCase();
   }
 
   private isViewOptionVisible(view: MovieView): boolean {

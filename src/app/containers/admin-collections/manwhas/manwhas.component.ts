@@ -16,9 +16,10 @@ import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { getAllBaseManwhas } from '../../../facades/manwhas/manwhas.facade';
 import { getSortedManwhas } from '../../collections/manwhas/manwhas.utils';
 import { getFullManwha } from '../../../helpers/full-entities-helper';
+import { normalizeSearchText } from '../../../utils/normalize-search-text';
 import { AdminManwhasHeaderComponent } from './manwhas-header/manwhas-header.component';
 import { LoaderComponent } from '../../../components/shared/loader/loader.component';
-import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
+
 import { EditManwhaComponent } from '../../edit/edit-manwha/edit-manwha.component';
 
 @Component({
@@ -66,7 +67,6 @@ export class AdminManwhasComponent implements OnInit {
 
   ngOnInit() {
     void this.refreshManwhas();
-    void this.refreshQuizzs();
   }
 
   async refreshManwhas() {
@@ -80,28 +80,12 @@ export class AdminManwhasComponent implements OnInit {
     }
   }
 
-  async refreshQuizzs() {
-    const q = await getAllQuizzs();
-    this.quizzs.set(q);
-  }
-
   onViewChange(_view: 'read') {
     this.selectedView.set('read');
   }
 
   onSearchChange(value: string) {
     this.searchTerm.set(value);
-  }
-
-  openQuizzModal(quizzs: Quizz[]) {
-    if (!quizzs?.length) return;
-    this.activeQuizzs.set(quizzs);
-    this.isQuizzModalOpen.set(true);
-  }
-
-  closeQuizzModal() {
-    this.isQuizzModalOpen.set(false);
-    this.activeQuizzs.set([]);
   }
 
   openEditManwhaDialog(manwha: Manwha): void {
@@ -127,15 +111,9 @@ export class AdminManwhasComponent implements OnInit {
     const haystack = [manwha.title, manwha.author, manwha.genre]
       .filter(Boolean)
       .join(' ');
-    const normalizedHaystack = this.normalizeSearchText(haystack);
-    const normalizedTerm = this.normalizeSearchText(term);
+    const normalizedHaystack = normalizeSearchText(haystack);
+    const normalizedTerm = normalizeSearchText(term);
     return normalizedHaystack.includes(normalizedTerm);
   }
 
-  private normalizeSearchText(value: string): string {
-    return value
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .toLowerCase();
-  }
 }

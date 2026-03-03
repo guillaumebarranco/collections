@@ -14,8 +14,9 @@ import {
   serieViewOptions,
 } from '../../collections/series/series.utils';
 import { getAllBaseSeries } from '../../../facades/series/series.facade';
-import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
+
 import { getFullSerie } from '../../../helpers/full-entities-helper';
+import { normalizeSearchText } from '../../../utils/normalize-search-text';
 import { Quizz } from '../../../models/quizz-model';
 
 const ADMIN_VIEW_OPTIONS: SerieView[] = ['finished', 'sagas', 'countries'];
@@ -88,7 +89,6 @@ export class AdminSeriesComponent implements OnInit {
   });
 
   ngOnInit() {
-    void this.refreshQuizzs();
     void this.refreshSeries();
   }
 
@@ -97,11 +97,6 @@ export class AdminSeriesComponent implements OnInit {
     const series = baseSeries.map(getFullSerie);
     this.adminSeriesList.set(series);
     this.baseSeriesList.set(series);
-  }
-
-  private async refreshQuizzs() {
-    const quizzs = await getAllQuizzs();
-    this.quizzs.set(quizzs);
   }
 
   onViewChange(view: SerieView) {
@@ -134,17 +129,6 @@ export class AdminSeriesComponent implements OnInit {
     return !!this.collapsedCountries()[country];
   }
 
-  openQuizzModal(quizzs: Quizz[]) {
-    if (!quizzs || quizzs.length === 0) return;
-    this.activeQuizzs.set(quizzs);
-    this.isQuizzModalOpen.set(true);
-  }
-
-  closeQuizzModal() {
-    this.isQuizzModalOpen.set(false);
-    this.activeQuizzs.set([]);
-  }
-
   private matchesSearch(serie: Serie, term: string): boolean {
     const actors = serie.actors?.map((actor) => actor.name).join(' ') || '';
     const haystack = [
@@ -156,15 +140,9 @@ export class AdminSeriesComponent implements OnInit {
     ]
       .filter(Boolean)
       .join(' ');
-    const normalizedHaystack = this.normalizeSearchText(haystack);
-    const normalizedTerm = this.normalizeSearchText(term);
+    const normalizedHaystack = normalizeSearchText(haystack);
+    const normalizedTerm = normalizeSearchText(term);
     return normalizedHaystack.includes(normalizedTerm);
   }
 
-  private normalizeSearchText(value: string): string {
-    return value
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .toLowerCase();
-  }
 }

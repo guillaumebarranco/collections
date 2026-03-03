@@ -16,9 +16,10 @@ import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { getAllBaseComics } from '../../../facades/comics/comics.facade';
 import { getSortedComics } from '../../collections/comics/comics.utils';
 import { getFullComic } from '../../../helpers/full-entities-helper';
+import { normalizeSearchText } from '../../../utils/normalize-search-text';
 import { AdminComicsHeaderComponent } from './comics-header/comics-header.component';
 import { LoaderComponent } from '../../../components/shared/loader/loader.component';
-import { getAllQuizzs } from '../../../facades/quizzs/quizzs.facade';
+
 import { EditComicComponent } from '../../edit/edit-comic/edit-comic.component';
 
 @Component({
@@ -66,7 +67,6 @@ export class AdminComicsComponent implements OnInit {
 
   ngOnInit() {
     void this.refreshComics();
-    void this.refreshQuizzs();
   }
 
   async refreshComics() {
@@ -80,28 +80,12 @@ export class AdminComicsComponent implements OnInit {
     }
   }
 
-  async refreshQuizzs() {
-    const q = await getAllQuizzs();
-    this.quizzs.set(q);
-  }
-
   onViewChange(_view: 'read') {
     this.selectedView.set('read');
   }
 
   onSearchChange(value: string) {
     this.searchTerm.set(value);
-  }
-
-  openQuizzModal(quizzs: Quizz[]) {
-    if (!quizzs?.length) return;
-    this.activeQuizzs.set(quizzs);
-    this.isQuizzModalOpen.set(true);
-  }
-
-  closeQuizzModal() {
-    this.isQuizzModalOpen.set(false);
-    this.activeQuizzs.set([]);
   }
 
   openEditComicDialog(comic: Comic): void {
@@ -127,15 +111,9 @@ export class AdminComicsComponent implements OnInit {
     const haystack = [comic.title, comic.writer, comic.designer, comic.genre]
       .filter(Boolean)
       .join(' ');
-    const normalizedHaystack = this.normalizeSearchText(haystack);
-    const normalizedTerm = this.normalizeSearchText(term);
+    const normalizedHaystack = normalizeSearchText(haystack);
+    const normalizedTerm = normalizeSearchText(term);
     return normalizedHaystack.includes(normalizedTerm);
   }
 
-  private normalizeSearchText(value: string): string {
-    return value
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .toLowerCase();
-  }
 }
