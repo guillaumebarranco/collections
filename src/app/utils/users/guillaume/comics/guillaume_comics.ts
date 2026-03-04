@@ -5,7 +5,7 @@ export const guillaumeComics: UserComics = [
     title: 'Watchmen',
     writer: 'Alan Moore',
     readDate: '',
-    rating: 0,
+    rating: 3,
     readTimes: 1,
     owned: true,
     readPriority: 1,

@@ -57,6 +57,22 @@
       </div>
       }
     </div>
+    } @if (selectedEntity() === 'series') {
+    <div class="charts-section charts-section--wide">
+      <h3>📺 Saisons visionnées par an (2000-{{ currentYear }})</h3>
+      <p class="chart-description">
+        Nombre de saisons de séries visionnées par année (date de dernier
+        visionnage par saison).
+      </p>
+      @if (seriesSeasonsViewedTotal() === 0) {
+      <div class="no-data">Aucune saison visionnée depuis 2000.</div>
+      } @else {
+      <div #seriesSeasonsViewedChart class="cinema-chart"></div>
+      <div class="chart-footnote">
+        Total: {{ seriesSeasonsViewedTotal() }} saison(s) visionnée(s)
+      </div>
+      }
+    </div>
     }
   </div>
 </div>

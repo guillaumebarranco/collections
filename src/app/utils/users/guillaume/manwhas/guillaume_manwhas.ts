@@ -155,16 +155,4 @@ export const guillaumeManwhas: UserManwhas = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
-  {
-    title: 'jniiubiuiubiub',
-    author: 'ijhiuhuii',
-    readDate: '',
-    rating: 0,
-    readTimes: 1,
-    owned: false,
-    readPriority: 1,
-    wantToReadAgain: false,
-    ratingComment: '',
-  },
 ];

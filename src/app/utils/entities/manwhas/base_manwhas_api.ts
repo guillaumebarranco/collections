@@ -20,14 +20,4 @@ export const baseManwhasApi: BaseManwha[] = [
     isFinished: false,
     description: '',
   },
-
-  {
-    title: 'jniiubiuiubiub',
-    author: 'ijhiuhuii',
-    coverUrl: '',
-    genre: '',
-    nbChapters: 23,
-    isFinished: true,
-    description: '',
-  },
 ];

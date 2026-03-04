@@ -14,12 +14,15 @@ import {
   renderBooksReadChart,
   renderMoviesCinemaChart,
   renderMoviesWatchedChart,
+  renderSeriesSeasonsViewedChart,
 } from '../../../utils/graph.utils';
 import { Movie } from '../../../models/movie-model';
 import { Book } from '../../../models/book-model';
+import { Serie } from '../../../models/serie-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { getAllMovies } from '../../../facades/movies/movies.facade';
 import { getAllBooks } from '../../../facades/books/books.facade';
+import { getAllSeries } from '../../../facades/series/series.facade';
 
 export type EntityType =
   | 'books'
@@ -32,7 +35,7 @@ export type EntityType =
   | 'mangas'
   | 'manwhas';
 
-const ENTITIES_WITH_CHARTS: EntityType[] = ['movies', 'books'];
+const ENTITIES_WITH_CHARTS: EntityType[] = ['movies', 'books', 'series'];
 
 @Component({
   selector: 'app-dashboard-entity-charts',
@@ -59,6 +62,7 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
 
   moviesList = signal<{ [key: string]: Movie[] }>({});
   booksList = signal<{ [key: string]: Book[] }>({});
+  seriesList = signal<{ [key: string]: Serie[] }>({});
 
   @ViewChild('moviesWatchedChart')
   moviesWatchedChart?: ElementRef<HTMLDivElement>;
@@ -68,6 +72,9 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
 
   @ViewChild('booksReadChart')
   booksReadChart?: ElementRef<HTMLDivElement>;
+
+  @ViewChild('seriesSeasonsViewedChart')
+  seriesSeasonsViewedChart?: ElementRef<HTMLDivElement>;
 
   currentYear = new Date().getFullYear();
 
@@ -82,6 +89,10 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
 
   allBooks = computed<Book[]>(() => {
     return this.booksList()[this.userId()] || [];
+  });
+
+  allSeries = computed<Serie[]>(() => {
+    return this.seriesList()[this.userId()] || [];
   });
 
   hasChartForEntity = (entity: EntityType): boolean =>
@@ -181,6 +192,40 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     return this.booksReadByYear().reduce((sum, item) => sum + item.count, 0);
   });
 
+  /** Saisons visionnées par an (basé sur lastViewedDate de chaque saison). */
+  seriesSeasonsViewedByYear = computed(() => {
+    const startYear = 2000;
+    const endYear = this.currentYear;
+    const years = Array.from(
+      { length: endYear - startYear + 1 },
+      (_, index) => startYear + index
+    );
+    const counts = new Map<number, number>();
+    years.forEach((year) => counts.set(year, 0));
+
+    this.allSeries().forEach((serie) => {
+      (serie.seasons || []).forEach((season) => {
+        const dateStr = season.lastViewedDate;
+        if (!dateStr) return;
+        const year = new Date(dateStr).getFullYear();
+        if (Number.isNaN(year) || year < startYear || year > endYear) return;
+        counts.set(year, (counts.get(year) || 0) + 1);
+      });
+    });
+
+    return years.map((year) => ({
+      year,
+      count: counts.get(year) || 0,
+    }));
+  });
+
+  seriesSeasonsViewedTotal = computed(() => {
+    return this.seriesSeasonsViewedByYear().reduce(
+      (sum, item) => sum + item.count,
+      0
+    );
+  });
+
   getEntityLabel(entity: EntityType): string {
     const labels: { [key in EntityType]: string } = {
       movies: '🎬 Films',
@@ -207,11 +252,15 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     if (entity === 'books') {
       requestAnimationFrame(() => this.renderBooksReadChart());
     }
+    if (entity === 'series') {
+      requestAnimationFrame(() => this.renderSeriesSeasonsViewedChart());
+    }
   }
 
   ngOnInit() {
     void this.loadMoviesData();
     void this.loadBooksData();
+    void this.loadSeriesData();
   }
 
   ngAfterViewInit() {
@@ -220,6 +269,7 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
       this.renderMoviesCinemaChart();
     });
     requestAnimationFrame(() => this.renderBooksReadChart());
+    requestAnimationFrame(() => this.renderSeriesSeasonsViewedChart());
   }
 
   private async loadMoviesData() {
@@ -240,6 +290,15 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     this.booksList.set(books);
     if (this.selectedEntity() === 'books') {
       requestAnimationFrame(() => this.renderBooksReadChart());
+    }
+  }
+
+  private async loadSeriesData() {
+    const uid = this.userId();
+    const series = await getAllSeries(uid);
+    this.seriesList.set(series);
+    if (this.selectedEntity() === 'series') {
+      requestAnimationFrame(() => this.renderSeriesSeasonsViewedChart());
     }
   }
 
@@ -317,6 +376,18 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
       container,
       this.booksReadTotal(),
       this.booksReadByYear()
+    );
+  }
+
+  private renderSeriesSeasonsViewedChart(): void {
+    if (this.selectedEntity() !== 'series') {
+      return;
+    }
+    const container = this.seriesSeasonsViewedChart?.nativeElement;
+    renderSeriesSeasonsViewedChart(
+      container,
+      this.seriesSeasonsViewedTotal(),
+      this.seriesSeasonsViewedByYear()
     );
   }
 }

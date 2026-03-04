@@ -78,16 +78,9 @@ export class DashboardUserTodosComponent {
 
     const seriesItems: TodoItem[] = [];
 
-    const missingSerieRatings = this.series.filter(
-      (serie) =>
-        !serie.seasons?.length ||
-        serie.seasons.some((season) => !season.seasonRating)
-    ).length;
-    const missingSerieTimes = this.series.filter(
-      (serie) =>
-        !serie.seasons?.length ||
-        serie.seasons.some((season) => !season.seasonTimesWatched)
-    ).length;
+    const missingSerieRatings = this.countMissingSeriesRatings(this.series);
+    const missingSerieTimes = this.countMissingSeriesTimesWatched(this.series);
+
     if (missingSerieRatings > 0) {
       seriesItems.push({
         label: 'Séries sans note',
@@ -231,10 +224,7 @@ export class DashboardUserTodosComponent {
     const gameItems: TodoItem[] = [];
 
     const missingGameRatings = this.countMissing(this.games, (g) => g.rating);
-    const missingGameTimes = this.countMissing(
-      this.games,
-      (g) => g.timesFinished
-    );
+    const missingGameTimes = this.countMissingGamesTimesFinished(this.games);
     if (missingGameRatings > 0) {
       gameItems.push({ label: 'Jeux sans note', count: missingGameRatings });
     }
@@ -337,6 +327,40 @@ export class DashboardUserTodosComponent {
     return items.filter((item) => {
       const value = getValue(item);
       return value === undefined || value === null || value <= 0;
+    }).length;
+  }
+
+  private countMissingGamesTimesFinished(games: Game[]) {
+    return games.filter((game) => {
+      const isGameFinished =
+        game.timesFinished > 0 ||
+        game.timesFinishedHundredPercent > 0 ||
+        game.platined;
+
+      return !(isGameFinished || game.additionnalEstimatedTime > 0);
+    }).length;
+  }
+
+  private countMissingSeriesRatings(series: Serie[]) {
+    return series.filter((series) => {
+      const isSeriesRated = series.seasons?.some(
+        (season) => season.seasonRating
+      );
+      return !(
+        isSeriesRated || series.seasons?.some((season) => season.seasonRating)
+      );
+    }).length;
+  }
+
+  private countMissingSeriesTimesWatched(series: Serie[]) {
+    return series.filter((series) => {
+      const isSeriesWatched = series.seasons?.some(
+        (season) => season.seasonTimesWatched
+      );
+      return !(
+        isSeriesWatched ||
+        series.seasons?.some((season) => season.seasonTimesWatched)
+      );
     }).length;
   }
 }
