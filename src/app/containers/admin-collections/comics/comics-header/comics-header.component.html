@@ -14,15 +14,13 @@
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
   </div>
-  }
-
-  @if (filteredCount() === 0) {
+  } @if (filteredCount() === 0) {
   <div class="empty-state">
     <p class="empty-message">Aucun comic à afficher pour cette sélection.</p>
   </div>
   }
 
-  <div class="comics-search">
+  <div class="entity-input-search">
     <input
       type="text"
       placeholder="Rechercher par titre, designer, genre..."

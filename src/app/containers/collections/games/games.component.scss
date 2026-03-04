@@ -114,21 +114,6 @@
   @include containers.header-base;
 }
 
-.games-search {
-  margin: 12px 0 4px;
-  max-width: 420px;
-
-  input {
-    width: 100%;
-    padding: 10px 12px;
-    border-radius: 8px;
-    border: 1px solid #d9d9d9;
-    background: #fff;
-    font-size: 0.95rem;
-    box-sizing: border-box;
-  }
-}
-
 .games-count {
   @include containers.count;
 }

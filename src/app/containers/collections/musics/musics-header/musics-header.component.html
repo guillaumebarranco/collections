@@ -1,9 +1,5 @@
 <div class="musics-header">
-  <h1>
-    Musiques écoutées ({{
-      allMusicsCount()
-    }})
-  </h1>
+  <h1>Musiques écoutées ({{ allMusicsCount() }})</h1>
 
   @if(allMusicsCount() === 0) {
   <div class="empty-state">
@@ -49,9 +45,7 @@
       </button>
     </div>
   </div>
-  }
-
-  @if (showFiltersAndSearch()) {
+  } @if (showFiltersAndSearch()) {
   <div class="musics-stats-bloc">
     <app-stats-display
       [stats]="stats()"
@@ -86,7 +80,7 @@
     </div>
   </div>
 
-  <div class="musics-search">
+  <div class="entity-input-search">
     <input
       type="text"
       placeholder="Rechercher par titre, artiste, album..."

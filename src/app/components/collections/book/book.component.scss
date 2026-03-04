@@ -19,24 +19,3 @@
 .book-genre {
   @include components.component-genre-base;
 }
-
-.top-five-selector {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.top-five-label {
-  font-size: 0.75rem;
-  color: #6c757d;
-  white-space: nowrap;
-}
-
-.top-five-select {
-  font-size: 0.8rem;
-  padding: 2px 6px;
-  border-radius: 6px;
-  border: 1px solid #dee2e6;
-  background: #fff;
-  cursor: pointer;
-}

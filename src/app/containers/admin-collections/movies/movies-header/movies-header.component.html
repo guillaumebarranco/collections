@@ -14,15 +14,13 @@
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
   </div>
-  }
-
-  @if (filteredMoviesByYearCount() === 0) {
+  } @if (filteredMoviesByYearCount() === 0) {
   <div class="empty-state">
     <p class="empty-message">Aucun film à afficher pour cette sélection.</p>
   </div>
   }
 
-  <div class="movies-search">
+  <div class="entity-input-search">
     <input
       type="text"
       placeholder="Rechercher par titre, réalisateur, acteur..."
