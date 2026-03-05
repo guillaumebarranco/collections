@@ -14,6 +14,7 @@ import { AddMangaComponent } from '../../../add/add-manga/add-manga.component';
 import { getApiBaseUrl, isLocalhost } from '../../../../core/config';
 import { SelectEntityComponent } from '../../../../components/entity/select-entity/select-entity.component';
 import { getEmptyManga } from '../../../../helpers/empty-entities-helper';
+import { normalizeSearchText } from '../../../../utils/normalize-search-text';
 
 @Component({
   selector: 'app-select-mangas',
@@ -70,13 +71,13 @@ export class SelectMangasComponent
   });
 
   filteredMangas = computed<Manga[]>(() => {
-    const term = this.searchTerm().trim().toLowerCase();
+    const normalizedTerm = normalizeSearchText(this.searchTerm().trim());
     const list = this.allMangas();
-    if (!term) return list;
+    if (!normalizedTerm) return list;
     return list.filter((manga) => {
-      const title = manga.title?.toLowerCase() || '';
-      const author = manga.author?.toLowerCase() || '';
-      return title.includes(term) || author.includes(term);
+      const title = normalizeSearchText(manga.title ?? '');
+      const author = normalizeSearchText(manga.author ?? '');
+      return title.includes(normalizedTerm) || author.includes(normalizedTerm);
     });
   });
 

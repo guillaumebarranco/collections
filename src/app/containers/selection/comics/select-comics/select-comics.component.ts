@@ -14,6 +14,7 @@ import { AddComicComponent } from '../../../add/add-comic/add-comic.component';
 import { getApiBaseUrl, isLocalhost } from '../../../../core/config';
 import { SelectEntityComponent } from '../../../../components/entity/select-entity/select-entity.component';
 import { getEmptyComic } from '../../../../helpers/empty-entities-helper';
+import { normalizeSearchText } from '../../../../utils/normalize-search-text';
 
 @Component({
   selector: 'app-select-comics',
@@ -70,15 +71,17 @@ export class SelectComicsComponent
   });
 
   filteredComics = computed<Comic[]>(() => {
-    const term = this.searchTerm().trim().toLowerCase();
+    const normalizedTerm = normalizeSearchText(this.searchTerm().trim());
     const list = this.allComics();
-    if (!term) return list;
+    if (!normalizedTerm) return list;
     return list.filter((comic) => {
-      const title = comic.title?.toLowerCase() || '';
-      const writer = comic.writer?.toLowerCase() || '';
-      const designer = comic.designer?.toLowerCase() || '';
+      const title = normalizeSearchText(comic.title ?? '');
+      const writer = normalizeSearchText(comic.writer ?? '');
+      const designer = normalizeSearchText(comic.designer ?? '');
       return (
-        title.includes(term) || writer.includes(term) || designer.includes(term)
+        title.includes(normalizedTerm) ||
+        writer.includes(normalizedTerm) ||
+        designer.includes(normalizedTerm)
       );
     });
   });

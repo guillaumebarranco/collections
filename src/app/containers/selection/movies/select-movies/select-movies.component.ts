@@ -14,6 +14,7 @@ import { SelectEntityComponent } from '../../../../components/entity/select-enti
 import { Router } from '@angular/router';
 import { getApiBaseUrl } from '../../../../core/config';
 import { getEmptyMovie } from '../../../../helpers/empty-entities-helper';
+import { normalizeSearchText } from '../../../../utils/normalize-search-text';
 
 @Component({
   selector: 'app-select-movies',
@@ -74,13 +75,13 @@ export class SelectMoviesComponent
   });
 
   filteredMovies = computed<Movie[]>(() => {
-    const term = this.searchTerm().trim().toLowerCase();
+    const normalizedTerm = normalizeSearchText(this.searchTerm().trim());
     const list = this.allMovies();
-    if (!term) return list;
+    if (!normalizedTerm) return list;
     return list.filter((movie) => {
-      const title = movie.title?.toLowerCase() || '';
-      const director = movie.director?.toLowerCase() || '';
-      return title.includes(term) || director.includes(term);
+      const title = normalizeSearchText(movie.title ?? '');
+      const director = normalizeSearchText(movie.director ?? '');
+      return title.includes(normalizedTerm) || director.includes(normalizedTerm);
     });
   });
 

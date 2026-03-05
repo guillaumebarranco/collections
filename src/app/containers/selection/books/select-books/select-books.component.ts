@@ -16,6 +16,7 @@ import { SelectEntityComponent } from '../../../../components/entity/select-enti
 import { isLocalhost } from '../../../../core/config';
 import { getApiBaseUrl } from '../../../../core/config';
 import { getEmptyBook } from '../../../../helpers/empty-entities-helper';
+import { normalizeSearchText } from '../../../../utils/normalize-search-text';
 
 @Component({
   selector: 'app-select-books',
@@ -74,15 +75,17 @@ export class SelectBooksComponent
   });
 
   filteredBooks = computed<Book[]>(() => {
-    const term = this.searchTerm().trim().toLowerCase();
+    const normalizedTerm = normalizeSearchText(this.searchTerm().trim());
     const list = this.allBooks();
-    if (!term) return list;
+    if (!normalizedTerm) return list;
     return list.filter((book) => {
-      const title = book.title?.toLowerCase() || '';
-      const author = book.author?.toLowerCase() || '';
-      const saga = book.saga?.toLowerCase() || '';
+      const title = normalizeSearchText(book.title ?? '');
+      const author = normalizeSearchText(book.author ?? '');
+      const saga = normalizeSearchText(book.saga ?? '');
       return (
-        title.includes(term) || author.includes(term) || saga.includes(term)
+        title.includes(normalizedTerm) ||
+        author.includes(normalizedTerm) ||
+        saga.includes(normalizedTerm)
       );
     });
   });

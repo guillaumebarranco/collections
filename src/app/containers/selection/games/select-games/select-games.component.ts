@@ -14,6 +14,7 @@ import { SelectEntityComponent } from '../../../../components/entity/select-enti
 import { Router } from '@angular/router';
 import { getApiBaseUrl } from '../../../../core/config';
 import { getEmptyGame } from '../../../../helpers/empty-entities-helper';
+import { normalizeSearchText } from '../../../../utils/normalize-search-text';
 
 @Component({
   selector: 'app-select-games',
@@ -71,13 +72,13 @@ export class SelectGamesComponent
   });
 
   filteredGames = computed<Game[]>(() => {
-    const term = this.searchTerm().trim().toLowerCase();
+    const normalizedTerm = normalizeSearchText(this.searchTerm().trim());
     const list = this.allGames();
-    if (!term) return list;
+    if (!normalizedTerm) return list;
     return list.filter((game) => {
-      const title = game.title?.toLowerCase() || '';
-      const editor = game.editor?.toLowerCase() || '';
-      return title.includes(term) || editor.includes(term);
+      const title = normalizeSearchText(game.title ?? '');
+      const editor = normalizeSearchText(game.editor ?? '');
+      return title.includes(normalizedTerm) || editor.includes(normalizedTerm);
     });
   });
 

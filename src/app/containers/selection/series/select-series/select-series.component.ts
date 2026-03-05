@@ -10,6 +10,7 @@ import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddSerieComponent } from '../../../add/add-serie/add-serie.component';
 import { getApiBaseUrl } from '../../../../core/config';
+import { normalizeSearchText } from '../../../../utils/normalize-search-text';
 
 @Component({
   selector: 'app-select-series',
@@ -49,13 +50,13 @@ export class SelectSeriesComponent
   });
 
   filteredSeries = computed<Serie[]>(() => {
-    const term = this.searchTerm().trim().toLowerCase();
+    const normalizedTerm = normalizeSearchText(this.searchTerm().trim());
     const list = this.allSeries();
-    if (!term) return list;
+    if (!normalizedTerm) return list;
     return list.filter((serie) => {
-      const title = serie.title?.toLowerCase() || '';
-      const director = serie.director?.toLowerCase() || '';
-      return title.includes(term) || director.includes(term);
+      const title = normalizeSearchText(serie.title ?? '');
+      const director = normalizeSearchText(serie.director ?? '');
+      return title.includes(normalizedTerm) || director.includes(normalizedTerm);
     });
   });
 

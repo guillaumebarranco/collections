@@ -14,6 +14,7 @@ import { AddManwhaComponent } from '../../../add/add-manwha/add-manwha.component
 import { getApiBaseUrl, isLocalhost } from '../../../../core/config';
 import { SelectEntityComponent } from '../../../../components/entity/select-entity/select-entity.component';
 import { getEmptyManwha } from '../../../../helpers/empty-entities-helper';
+import { normalizeSearchText } from '../../../../utils/normalize-search-text';
 
 @Component({
   selector: 'app-select-manwhas',
@@ -70,13 +71,13 @@ export class SelectManwhasComponent
   });
 
   filteredManwhas = computed<Manwha[]>(() => {
-    const term = this.searchTerm().trim().toLowerCase();
+    const normalizedTerm = normalizeSearchText(this.searchTerm().trim());
     const list = this.allManwhas();
-    if (!term) return list;
+    if (!normalizedTerm) return list;
     return list.filter((manwha) => {
-      const title = manwha.title?.toLowerCase() || '';
-      const author = manwha.author?.toLowerCase() || '';
-      return title.includes(term) || author.includes(term);
+      const title = normalizeSearchText(manwha.title ?? '');
+      const author = normalizeSearchText(manwha.author ?? '');
+      return title.includes(normalizedTerm) || author.includes(normalizedTerm);
     });
   });
 

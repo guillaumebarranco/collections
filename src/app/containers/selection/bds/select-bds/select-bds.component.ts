@@ -14,6 +14,7 @@ import { AddBdComponent } from '../../../add/add-bd/add-bd.component';
 import { getApiBaseUrl, isLocalhost } from '../../../../core/config';
 import { SelectEntityComponent } from '../../../../components/entity/select-entity/select-entity.component';
 import { getEmptyBd } from '../../../../helpers/empty-entities-helper';
+import { normalizeSearchText } from '../../../../utils/normalize-search-text';
 
 @Component({
   selector: 'app-select-bds',
@@ -70,15 +71,17 @@ export class SelectBdsComponent
   });
 
   filteredBds = computed<Bd[]>(() => {
-    const term = this.searchTerm().trim().toLowerCase();
+    const normalizedTerm = normalizeSearchText(this.searchTerm().trim());
     const list = this.allBds();
-    if (!term) return list;
+    if (!normalizedTerm) return list;
     return list.filter((bd) => {
-      const title = bd.title?.toLowerCase() || '';
-      const writer = bd.writer?.toLowerCase() || '';
-      const designer = bd.designer?.toLowerCase() || '';
+      const title = normalizeSearchText(bd.title ?? '');
+      const writer = normalizeSearchText(bd.writer ?? '');
+      const designer = normalizeSearchText(bd.designer ?? '');
       return (
-        title.includes(term) || writer.includes(term) || designer.includes(term)
+        title.includes(normalizedTerm) ||
+        writer.includes(normalizedTerm) ||
+        designer.includes(normalizedTerm)
       );
     });
   });

@@ -8,6 +8,7 @@ import {
 } from '../../../../facades/musics/musics.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { getApiBaseUrl } from '../../../../core/config';
+import { normalizeSearchText } from '../../../../utils/normalize-search-text';
 
 @Component({
   selector: 'app-select-musics',
@@ -77,27 +78,29 @@ export class SelectMusicsComponent
   });
 
   filteredMusics = computed(() => {
-    const term = this.searchTerm().trim().toLowerCase();
+    const normalizedTerm = normalizeSearchText(this.searchTerm().trim());
     const list = this.availableMusics();
-    if (!term) return list;
+    if (!normalizedTerm) return list;
     return list.filter((music) => {
-      const title = music.title?.toLowerCase() || '';
-      const artist = music.artist?.toLowerCase() || '';
-      const album = music.album?.toLowerCase() || '';
+      const title = normalizeSearchText(music.title ?? '');
+      const artist = normalizeSearchText(music.artist ?? '');
+      const album = normalizeSearchText(music.album ?? '');
       return (
-        title.includes(term) || artist.includes(term) || album.includes(term)
+        title.includes(normalizedTerm) ||
+        artist.includes(normalizedTerm) ||
+        album.includes(normalizedTerm)
       );
     });
   });
 
   filteredAlbums = computed(() => {
-    const term = this.searchTerm().trim().toLowerCase();
+    const normalizedTerm = normalizeSearchText(this.searchTerm().trim());
     const list = this.albumGroups();
-    if (!term) return list;
+    if (!normalizedTerm) return list;
     return list.filter((album) => {
-      const title = album.album?.toLowerCase() || '';
-      const artist = album.artist?.toLowerCase() || '';
-      return title.includes(term) || artist.includes(term);
+      const title = normalizeSearchText(album.album ?? '');
+      const artist = normalizeSearchText(album.artist ?? '');
+      return title.includes(normalizedTerm) || artist.includes(normalizedTerm);
     });
   });
 
