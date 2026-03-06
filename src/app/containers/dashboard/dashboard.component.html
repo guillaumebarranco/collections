@@ -55,6 +55,17 @@
       </app-stats-display>
     </div>
 
+    @if (isOwnUserDashboard()) {
+    <div class="dashboard-section">
+      <h2>📰 Feed – Activité des comptes suivis</h2>
+      <p class="feed-intro">
+        Films vus, livres lus et séries vues par les personnes que vous suivez
+        (dernier mois, 5 max par catégorie).
+      </p>
+      <app-dashboard-feed [feedData]="feedData()"></app-dashboard-feed>
+    </div>
+    }
+
     <div class="dashboard-section">
       <h2>📝 À faire</h2>
       <app-dashboard-user-todos

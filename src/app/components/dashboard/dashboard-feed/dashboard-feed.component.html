@@ -1,0 +1,67 @@
+@let data = feedData(); @if (data.feed.length === 0) {
+<p class="feed-empty">
+  Aucune activité récente des comptes que vous suivez (films, livres, séries des
+  derniers 30 jours). Ajoutez des comptes à suivre pour voir leur activité ici.
+</p>
+} @else {
+<div class="feed-list">
+  @for (entry of data.feed; track entry.userId) {
+  <div class="feed-user-card">
+    <h3 class="feed-user-name">
+      <a [routerLink]="['/', entry.userId]">{{ getUserName(entry.userId) }}</a>
+    </h3>
+    <div class="feed-categories">
+      @if (entry.movies.length > 0) {
+      <div class="feed-category">
+        <h4>Films vus récemment</h4>
+        <ul class="feed-items">
+          @for (m of entry.movies; track m.title + m.date) {
+          <li>
+            <span class="feed-item-title">{{ m.title }}</span>
+            <span class="feed-item-meta">{{ m.date }}</span>
+            @if (m.rating != null && m.rating > 0) {
+            <span class="feed-item-rating">★ {{ m.rating }}</span>
+            }
+          </li>
+          }
+        </ul>
+      </div>
+      } @if (entry.books.length > 0) {
+      <div class="feed-category">
+        <h4>Livres lus récemment</h4>
+        <ul class="feed-items">
+          @for (b of entry.books; track b.title + b.date) {
+          <li>
+            <span class="feed-item-title">{{ b.title }}</span>
+            <span class="feed-item-meta">{{ b.date }}</span>
+            @if (b.rating != null && b.rating > 0) {
+            <span class="feed-item-rating">★ {{ b.rating }}</span>
+            }
+          </li>
+          }
+        </ul>
+      </div>
+      } @if (entry.series.length > 0) {
+      <div class="feed-category">
+        <h4>Séries vues récemment</h4>
+        <ul class="feed-items">
+          @for (s of entry.series; track s.title + s.date) {
+          <li>
+            <span class="feed-item-title">{{ s.title }}</span>
+            <span class="feed-item-meta">{{ s.date }}</span>
+            @if (s.rating != null && s.rating > 0) {
+            <span class="feed-item-rating">★ {{ s.rating }}</span>
+            }
+          </li>
+          }
+        </ul>
+      </div>
+      } @if (entry.movies.length === 0 && entry.books.length === 0 &&
+      entry.series.length === 0) {
+      <p class="feed-user-empty">Aucune activité ce mois-ci.</p>
+      }
+    </div>
+  </div>
+  }
+</div>
+}

@@ -1,0 +1,84 @@
+.feed-empty {
+  margin: 0;
+  color: #6c757d;
+  font-size: 0.95rem;
+}
+
+.feed-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.feed-user-card {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #e9ecef;
+}
+
+.feed-user-name {
+  margin: 0 0 16px 0;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #2c3e50;
+
+  a {
+    color: #3498db;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.feed-categories {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.feed-category {
+  h4 {
+    margin: 0 0 8px 0;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #495057;
+  }
+}
+
+.feed-items {
+  margin: 0;
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.feed-items li {
+  margin-bottom: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.feed-item-title {
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.feed-item-meta {
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+
+.feed-item-rating {
+  font-size: 0.875rem;
+  color: #f39c12;
+}
+
+.feed-user-empty {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #6c757d;
+}

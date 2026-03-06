@@ -21,6 +21,7 @@ import {
 import { DashboardEntitiesStatsComponent } from '../../components/dashboard/dashboard-entities-stats/dashboard-entities-stats.component';
 import { DashboardEntityChartsComponent } from '../../components/dashboard/dashboard-entity-charts/dashboard-entity-charts.component';
 import { DashboardUserTodosComponent } from '../../components/dashboard/dashboard-user-todos/dashboard-user-todos.component';
+import { DashboardFeedComponent } from '../../components/dashboard/dashboard-feed/dashboard-feed.component';
 import { LoginComponent } from '../../components/login/login.component';
 
 import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
@@ -83,6 +84,7 @@ import {
   type FollowsModalData,
 } from '../../components/modals/follows-modal/follows-modal.component';
 import { FollowsService } from '../../services/follows.service';
+import { FeedService } from '../../services/feed.service';
 import { ImpersonateService } from '../../services/impersonate.service';
 import type { TopFiveEntityType } from '../../models/top-five-model';
 import {
@@ -130,6 +132,7 @@ interface TopManga extends Manga {
     DashboardEntitiesStatsComponent,
     DashboardEntityChartsComponent,
     DashboardUserTodosComponent,
+    DashboardFeedComponent,
     LoginComponent,
   ],
   templateUrl: './dashboard.component.html',
@@ -143,6 +146,7 @@ export class DashboardComponent implements OnInit {
   badgesService = inject(BadgesService);
   private readonly dialog = inject(MatDialog);
   private readonly followsService = inject(FollowsService);
+  private readonly feedService = inject(FeedService);
   private readonly impersonateService = inject(ImpersonateService);
 
   filledUserId = signal<string>('');
@@ -381,6 +385,12 @@ export class DashboardComponent implements OnInit {
       this.allGames().length > 0 ||
       this.allMusics().length > 0
     );
+  });
+
+  /** Feed des utilisateurs suivis (films/livres/séries des 30 derniers jours, max 5 par catégorie). */
+  feedData = computed(() => {
+    this.feedService.cache();
+    return this.feedService.getFeed(this.userId() || DEFAULT_USER_ID);
   });
 
   /** Badges de l'utilisateur (débloqués et non débloqués), récupérés via l'API comme les Top 5. */
@@ -760,6 +770,7 @@ export class DashboardComponent implements OnInit {
       this.badgesService.loadFromApi(uid);
       if (this.isOwnUserDashboard()) {
         void this.followsService.loadFromApi(uid);
+        void this.feedService.loadFromApi(uid);
       }
       void this.loadAllDashboardData();
     });

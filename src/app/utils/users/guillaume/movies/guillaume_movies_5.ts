@@ -1314,4 +1314,17 @@ export const guillaumeMoviesPage5: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
   },
+  {
+    title: 'Chocolat',
+    director: 'Roschdy Zem',
+    rating: 3.75,
+    timesWatched: 1,
+    firstViewedDate: '2026-03-06',
+    lastViewedDate: '2026-03-06',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+  },
 ];
