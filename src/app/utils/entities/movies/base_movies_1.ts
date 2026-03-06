@@ -1498,7 +1498,7 @@ export const baseMoviesPage1: BaseMovie[] = [
       { name: 'Pierce Brosnan' },
       { name: 'Ben Kingsley' },
     ],
-    coverUrl: '/movies_pictures/le-murder-club-du-jeudi-2025.jpg',
+    coverUrl: '/movies_pictures/71cfda9b6e17b1b060ca232f1a038ea1.jpg',
     releaseDate: '2025-08-21',
     length: 118,
     genre: 'Comedy, Crime',

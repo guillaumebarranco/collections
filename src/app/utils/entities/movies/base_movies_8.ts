@@ -4,7 +4,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Perfect Blue',
     director: 'Satoshi Kon',
-    actors: [{ name: 'Junko Iwao' }, { name: 'Rica Matsumoto' }, { name: 'Shinpachi Tsuji' }],
+    actors: [
+      { name: 'Junko Iwao' },
+      { name: 'Rica Matsumoto' },
+      { name: 'Shinpachi Tsuji' },
+    ],
     coverUrl: '/movies_pictures/d8bc0964d441.jpg',
     releaseDate: '1998-02-28',
     length: 82,
@@ -17,7 +21,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Chico et Rita',
     director: 'Tono Errando, Javier Mariscal, Fernando Trueba',
-    actors: [{ name: 'Eman Xor Oña' }, { name: 'Limara Meneses' }, { name: 'Mario Guerra' }],
+    actors: [
+      { name: 'Eman Xor Oña' },
+      { name: 'Limara Meneses' },
+      { name: 'Mario Guerra' },
+    ],
     coverUrl: '/movies_pictures/8a35ac7665de.jpg',
     releaseDate: '2010-11-19',
     length: 94,
@@ -30,7 +38,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Mars Express',
     director: 'Jérémie Périn',
-    actors: [{ name: 'Léa Drucker' }, { name: 'Mathieu Amalric' }, { name: 'Daniel Njo Lobé' }],
+    actors: [
+      { name: 'Léa Drucker' },
+      { name: 'Mathieu Amalric' },
+      { name: 'Daniel Njo Lobé' },
+    ],
     coverUrl: '/movies_pictures/acc0f3070039.jpg',
     releaseDate: '2024-05-03',
     length: 88,
@@ -43,7 +55,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Longlegs',
     director: 'Osgood Perkins',
-    actors: [{ name: 'Maika Monroe' }, { name: 'Nicolas Cage' }, { name: 'Blair Underwood' }],
+    actors: [
+      { name: 'Maika Monroe' },
+      { name: 'Nicolas Cage' },
+      { name: 'Blair Underwood' },
+    ],
     coverUrl: '/movies_pictures/0bb88175b829.jpg',
     releaseDate: '2024-07-12',
     length: 101,
@@ -56,7 +72,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Burning',
     director: 'Lee Chang-dong',
-    actors: [{ name: 'Yoo Ah-in' }, { name: 'Steven Yeun' }, { name: 'Jeon Jong-seo' }],
+    actors: [
+      { name: 'Yoo Ah-in' },
+      { name: 'Steven Yeun' },
+      { name: 'Jeon Jong-seo' },
+    ],
     coverUrl: '/movies_pictures/a402dd2ff766.jpg',
     releaseDate: '2018-05-17',
     length: 148,
@@ -69,7 +89,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Quelque part dans le temps',
     director: 'Jeannot Szwarc',
-    actors: [{ name: 'Christopher Reeve' }, { name: 'Jane Seymour' }, { name: 'Christopher Plummer' }],
+    actors: [
+      { name: 'Christopher Reeve' },
+      { name: 'Jane Seymour' },
+      { name: 'Christopher Plummer' },
+    ],
     coverUrl: '/movies_pictures/be5bdd230e42.jpg',
     releaseDate: '1980-10-03',
     length: 103,
@@ -82,7 +106,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'The Strangers',
     director: 'Bryan Bertino',
-    actors: [{ name: 'Scott Speedman' }, { name: 'Liv Tyler' }, { name: 'Gemma Ward' }],
+    actors: [
+      { name: 'Scott Speedman' },
+      { name: 'Liv Tyler' },
+      { name: 'Gemma Ward' },
+    ],
     coverUrl: '/movies_pictures/68d08002820f.jpg',
     releaseDate: '2008-05-30',
     length: 86,
@@ -95,7 +123,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Silence',
     director: 'Martin Scorsese',
-    actors: [{ name: 'Andrew Garfield' }, { name: 'Adam Driver' }, { name: 'Liam Neeson' }],
+    actors: [
+      { name: 'Andrew Garfield' },
+      { name: 'Adam Driver' },
+      { name: 'Liam Neeson' },
+    ],
     coverUrl: '/movies_pictures/522953c5bc29.jpg',
     releaseDate: '2017-01-13',
     length: 161,
@@ -108,7 +140,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Take Shelter',
     director: 'Jeff Nichols',
-    actors: [{ name: 'Michael Shannon' }, { name: 'Jessica Chastain' }, { name: 'Shea Whigham' }],
+    actors: [
+      { name: 'Michael Shannon' },
+      { name: 'Jessica Chastain' },
+      { name: 'Shea Whigham' },
+    ],
     coverUrl: '/movies_pictures/e8ecd0041cdf.jpg',
     releaseDate: '2011-11-10',
     length: 120,
@@ -121,7 +157,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Massacre à la tronconneuse',
     director: 'Tobe Hooper',
-    actors: [{ name: 'Marilyn Burns' }, { name: 'Edwin Neal' }, { name: 'Allen Danziger' }],
+    actors: [
+      { name: 'Marilyn Burns' },
+      { name: 'Edwin Neal' },
+      { name: 'Allen Danziger' },
+    ],
     coverUrl: '/movies_pictures/51be6df3ed27.jpg',
     releaseDate: '1974-10-11',
     length: 83,
@@ -134,7 +174,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Vendredi 13',
     director: 'Sean S. Cunningham',
-    actors: [{ name: 'Betsy Palmer' }, { name: 'Adrienne King' }, { name: 'Jeannine Taylor' }],
+    actors: [
+      { name: 'Betsy Palmer' },
+      { name: 'Adrienne King' },
+      { name: 'Jeannine Taylor' },
+    ],
     coverUrl: '/movies_pictures/83bfe2cbef81.jpg',
     releaseDate: '1980-05-09',
     length: 95,
@@ -145,9 +189,13 @@ export const baseMoviesPage8: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
-    title: 'L\'Imaginarium du Docte...',
+    title: "L'Imaginarium du Docte...",
     director: 'Terry Gilliam',
-    actors: [{ name: 'Christopher Plummer' }, { name: 'Lily Cole' }, { name: 'Heath Ledger' }],
+    actors: [
+      { name: 'Christopher Plummer' },
+      { name: 'Lily Cole' },
+      { name: 'Heath Ledger' },
+    ],
     coverUrl: '/movies_pictures/4646fc766040.jpg',
     releaseDate: '2010-01-08',
     length: 123,
@@ -160,7 +208,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Démineurs',
     director: 'Kathryn Bigelow',
-    actors: [{ name: 'Jeremy Renner' }, { name: 'Anthony Mackie' }, { name: 'Brian Geraghty' }],
+    actors: [
+      { name: 'Jeremy Renner' },
+      { name: 'Anthony Mackie' },
+      { name: 'Brian Geraghty' },
+    ],
     coverUrl: '/movies_pictures/f2c725ede032.jpg',
     releaseDate: '2009-07-31',
     length: 131,
@@ -173,7 +225,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Neverland',
     director: 'Marc Forster',
-    actors: [{ name: 'Johnny Depp' }, { name: 'Kate Winslet' }, { name: 'Julie Christie' }],
+    actors: [
+      { name: 'Johnny Depp' },
+      { name: 'Kate Winslet' },
+      { name: 'Julie Christie' },
+    ],
     coverUrl: '/movies_pictures/e9854d41b3e3.jpg',
     releaseDate: '2004-12-17',
     length: 106,
@@ -186,7 +242,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Misanthrope',
     director: 'Damián Szifron',
-    actors: [{ name: 'Shailene Woodley' }, { name: 'Ben Mendelsohn' }, { name: 'Jovan Adepo' }],
+    actors: [
+      { name: 'Shailene Woodley' },
+      { name: 'Ben Mendelsohn' },
+      { name: 'Jovan Adepo' },
+    ],
     coverUrl: '/movies_pictures/d899cd5fd89e.jpg',
     releaseDate: '2023-04-06',
     length: 119,
@@ -197,9 +257,13 @@ export const baseMoviesPage8: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
-    title: 'La Zone d\'intérêt',
+    title: "La Zone d'intérêt",
     director: 'Jonathan Glazer',
-    actors: [{ name: 'Christian Friedel' }, { name: 'Sandra Hüller' }, { name: 'Johann Karthaus' }],
+    actors: [
+      { name: 'Christian Friedel' },
+      { name: 'Sandra Hüller' },
+      { name: 'Johann Karthaus' },
+    ],
     coverUrl: '/movies_pictures/a4ae1c971170.jpg',
     releaseDate: '2024-02-20',
     length: 105,
@@ -212,7 +276,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'La Chair et le Sang',
     director: 'Paul Verhoeven',
-    actors: [{ name: 'Rutger Hauer' }, { name: 'Jennifer Jason Leigh' }, { name: 'Tom Burlinson' }],
+    actors: [
+      { name: 'Rutger Hauer' },
+      { name: 'Jennifer Jason Leigh' },
+      { name: 'Tom Burlinson' },
+    ],
     coverUrl: '/movies_pictures/6c07ad60a350.jpg',
     releaseDate: '1985-08-30',
     length: 126,
@@ -225,7 +293,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Le Règne animal',
     director: 'Thomas Cailley',
-    actors: [{ name: 'Romain Duris' }, { name: 'Paul Kircher' }, { name: 'Adèle Exarchopoulos' }],
+    actors: [
+      { name: 'Romain Duris' },
+      { name: 'Paul Kircher' },
+      { name: 'Adèle Exarchopoulos' },
+    ],
     coverUrl: '/movies_pictures/2cb76b4a079c.jpg',
     releaseDate: '2024-03-15',
     length: 128,
@@ -238,7 +310,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Winter Break',
     director: 'Alexander Payne',
-    actors: [{ name: 'Paul Giamatti' }, { name: 'Da\'Vine Joy Randolph' }, { name: 'Dominic Sessa' }],
+    actors: [
+      { name: 'Paul Giamatti' },
+      { name: "Da'Vine Joy Randolph" },
+      { name: 'Dominic Sessa' },
+    ],
     coverUrl: '/movies_pictures/e048afd5c841.jpg',
     releaseDate: '2023-11-10',
     length: 133,
@@ -251,7 +327,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Sympathy for Mister Vengeance',
     director: 'Park Chan-wook',
-    actors: [{ name: 'Song Kang-ho' }, { name: 'Shin Ha-kyun' }, { name: 'Bae Doona' }],
+    actors: [
+      { name: 'Song Kang-ho' },
+      { name: 'Shin Ha-kyun' },
+      { name: 'Bae Doona' },
+    ],
     coverUrl: '/movies_pictures/3f3e65f5f31f.jpg',
     releaseDate: '2002-03-29',
     length: 129,
@@ -262,9 +342,13 @@ export const baseMoviesPage8: BaseMovie[] = [
     countryOrigin: 'Corée du Sud',
   },
   {
-    title: 'Les Promesses de l\'ombre',
+    title: "Les Promesses de l'ombre",
     director: 'David Cronenberg',
-    actors: [{ name: 'Josef Altin' }, { name: 'Mina E. Mina' }, { name: 'Aleksandar Mikic' }],
+    actors: [
+      { name: 'Josef Altin' },
+      { name: 'Mina E. Mina' },
+      { name: 'Aleksandar Mikic' },
+    ],
     coverUrl: '/movies_pictures/8bec99db5ab7.jpg',
     releaseDate: '2007-09-21',
     length: 100,
@@ -277,7 +361,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Loft',
     director: 'Erik Van Looy',
-    actors: [{ name: 'Koen De Bouw' }, { name: 'Filip Peeters' }, { name: 'Matthias Schoenaerts' }],
+    actors: [
+      { name: 'Koen De Bouw' },
+      { name: 'Filip Peeters' },
+      { name: 'Matthias Schoenaerts' },
+    ],
     coverUrl: '/movies_pictures/153cfee2167f.jpg',
     releaseDate: '2008-10-22',
     length: 118,
@@ -290,7 +378,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Taking Lives, destins violés',
     director: 'D.J. Caruso',
-    actors: [{ name: 'Angelina Jolie' }, { name: 'Ethan Hawke' }, { name: 'Kiefer Sutherland' }],
+    actors: [
+      { name: 'Angelina Jolie' },
+      { name: 'Ethan Hawke' },
+      { name: 'Kiefer Sutherland' },
+    ],
     coverUrl: '/movies_pictures/8fedd7b8e5f8.jpg',
     releaseDate: '2004-03-19',
     length: 103,
@@ -303,7 +395,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Rupture fatale',
     director: 'Andrew Davis',
-    actors: [{ name: 'Michael Douglas' }, { name: 'Gwyneth Paltrow' }, { name: 'Viggo Mortensen' }],
+    actors: [
+      { name: 'Michael Douglas' },
+      { name: 'Gwyneth Paltrow' },
+      { name: 'Viggo Mortensen' },
+    ],
     coverUrl: '/movies_pictures/c74575742b7a.jpg',
     releaseDate: '1998-06-05',
     length: 107,
@@ -316,7 +412,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Les Intrus',
     director: 'Alejandro Amenábar',
-    actors: [{ name: 'Nicole Kidman' }, { name: 'Christopher Eccleston' }, { name: 'Fionnula Flanagan' }],
+    actors: [
+      { name: 'Nicole Kidman' },
+      { name: 'Christopher Eccleston' },
+      { name: 'Fionnula Flanagan' },
+    ],
     coverUrl: '/movies_pictures/875a10b63c6a.jpg',
     releaseDate: '2001-08-10',
     length: 104,
@@ -329,7 +429,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'La Fracture',
     director: 'Paul Haggis',
-    actors: [{ name: 'Don Cheadle' }, { name: 'Sandra Bullock' }, { name: 'Thandiwe Newton' }],
+    actors: [
+      { name: 'Don Cheadle' },
+      { name: 'Sandra Bullock' },
+      { name: 'Thandiwe Newton' },
+    ],
     coverUrl: '/movies_pictures/be330d12a084.jpg',
     releaseDate: '2005-05-06',
     length: 112,
@@ -342,7 +446,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'The Lost Bus - Au cœur de...',
     director: 'Paul Greengrass',
-    actors: [{ name: 'Matthew McConaughey' }, { name: 'America Ferrera' }, { name: 'Yul Vazquez' }],
+    actors: [
+      { name: 'Matthew McConaughey' },
+      { name: 'America Ferrera' },
+      { name: 'Yul Vazquez' },
+    ],
     coverUrl: '/movies_pictures/8dd42cb907a8.jpg',
     releaseDate: '2025-10-03',
     length: 130,
@@ -355,8 +463,13 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Jouer avec le feu',
     director: 'Florian Desmoulins',
-    actors: [{ name: 'Karim Belkhadra' }, { name: 'Constantin Briest' }, { name: 'Audrey Dana' }],
-    coverUrl: '',
+    actors: [
+      { name: 'Karim Belkhadra' },
+      { name: 'Constantin Briest' },
+      { name: 'Audrey Dana' },
+    ],
+    coverUrl:
+      '/movies_pictures/MV5BNmFlYTQ2NjgtNGE3MC00ODk4LWFjMWQtOTlkMjRjZjAwNTczXkEyXkFqcGc@._V1_QL75_UY207_CR14,0,140,207_.jpg',
     releaseDate: '2011-02-01',
     length: 0,
     genre: 'Short, Comedy',
@@ -366,9 +479,13 @@ export const baseMoviesPage8: BaseMovie[] = [
     countryOrigin: 'France',
   },
   {
-    title: 'Willy\'s Wonderland',
+    title: "Willy's Wonderland",
     director: 'Kevin Lewis',
-    actors: [{ name: 'Nicolas Cage' }, { name: 'Emily Tosta' }, { name: 'Beth Grant' }],
+    actors: [
+      { name: 'Nicolas Cage' },
+      { name: 'Emily Tosta' },
+      { name: 'Beth Grant' },
+    ],
     coverUrl: '/movies_pictures/8bf0eec3bb92.jpg',
     releaseDate: '2021-02-12',
     length: 88,
@@ -381,7 +498,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Un grand voyage vers la nuit',
     director: 'Bi Gan',
-    actors: [{ name: 'Tang Wei' }, { name: 'Jue Huang' }, { name: 'Sylvia Chang' }],
+    actors: [
+      { name: 'Tang Wei' },
+      { name: 'Jue Huang' },
+      { name: 'Sylvia Chang' },
+    ],
     coverUrl: '/movies_pictures/d1b1f4900aef.jpg',
     releaseDate: '2018-12-31',
     length: 138,
@@ -394,7 +515,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Ray',
     director: 'Taylor Hackford',
-    actors: [{ name: 'Jamie Foxx' }, { name: 'Regina King' }, { name: 'Kerry Washington' }],
+    actors: [
+      { name: 'Jamie Foxx' },
+      { name: 'Regina King' },
+      { name: 'Kerry Washington' },
+    ],
     coverUrl: '/movies_pictures/619fa804e1af.jpg',
     releaseDate: '2004-10-29',
     length: 152,
@@ -407,7 +532,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'La Nuit des masques',
     director: 'John Carpenter',
-    actors: [{ name: 'Donald Pleasence' }, { name: 'Jamie Lee Curtis' }, { name: 'Tony Moran' }],
+    actors: [
+      { name: 'Donald Pleasence' },
+      { name: 'Jamie Lee Curtis' },
+      { name: 'Tony Moran' },
+    ],
     coverUrl: '/movies_pictures/2780991375dd.jpg',
     releaseDate: '1978-10-27',
     length: 91,
@@ -420,7 +549,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Les Griffes de la nuit',
     director: 'Wes Craven',
-    actors: [{ name: 'Heather Langenkamp' }, { name: 'Johnny Depp' }, { name: 'Robert Englund' }],
+    actors: [
+      { name: 'Heather Langenkamp' },
+      { name: 'Johnny Depp' },
+      { name: 'Robert Englund' },
+    ],
     coverUrl: '/movies_pictures/e891261945c0.jpg',
     releaseDate: '1984-11-16',
     length: 91,
@@ -433,7 +566,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Primer',
     director: 'Shane Carruth',
-    actors: [{ name: 'Shane Carruth' }, { name: 'David Sullivan' }, { name: 'Casey Gooden' }],
+    actors: [
+      { name: 'Shane Carruth' },
+      { name: 'David Sullivan' },
+      { name: 'Casey Gooden' },
+    ],
     coverUrl: '/movies_pictures/c51b57314600.jpg',
     releaseDate: '2005-05-25',
     length: 77,
@@ -446,7 +583,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'The Man from Earth',
     director: 'Richard Schenkman',
-    actors: [{ name: 'David Lee Smith' }, { name: 'Tony Todd' }, { name: 'John Billingsley' }],
+    actors: [
+      { name: 'David Lee Smith' },
+      { name: 'Tony Todd' },
+      { name: 'John Billingsley' },
+    ],
     coverUrl: '/movies_pictures/05e5224b1fb5.jpg',
     releaseDate: '2007-11-13',
     length: 87,
@@ -459,7 +600,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'The Patriot : Le Chemin de l...',
     director: 'Roland Emmerich',
-    actors: [{ name: 'Mel Gibson' }, { name: 'Heath Ledger' }, { name: 'Joely Richardson' }],
+    actors: [
+      { name: 'Mel Gibson' },
+      { name: 'Heath Ledger' },
+      { name: 'Joely Richardson' },
+    ],
     coverUrl: '/movies_pictures/6cd490078bc2.jpg',
     releaseDate: '2000-06-28',
     length: 165,
@@ -470,9 +615,13 @@ export const baseMoviesPage8: BaseMovie[] = [
     countryOrigin: 'Allemagne',
   },
   {
-    title: 'Largo Winch : Le Prix de l\'argent',
+    title: "Largo Winch : Le Prix de l'argent",
     director: 'Olivier Masset-Depasse',
-    actors: [{ name: 'Tomer Sisley' }, { name: 'Narayan David Hecter' }, { name: 'Paibool Poolsuk' }],
+    actors: [
+      { name: 'Tomer Sisley' },
+      { name: 'Narayan David Hecter' },
+      { name: 'Paibool Poolsuk' },
+    ],
     coverUrl: '/movies_pictures/131a2ee8ae3c.jpg',
     releaseDate: '2024-07-31',
     length: 100,
@@ -485,7 +634,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Largo Winch',
     director: '',
-    actors: [{ name: 'Paolo Seganti' }, { name: 'Sydney Penny' }, { name: 'Diego Wallraff' }],
+    actors: [
+      { name: 'Paolo Seganti' },
+      { name: 'Sydney Penny' },
+      { name: 'Diego Wallraff' },
+    ],
     coverUrl: '/movies_pictures/8e5744f3aea5.jpg',
     releaseDate: '2001-01-26',
     length: 48,
@@ -498,7 +651,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Largo Winch II',
     director: 'Jérôme Salle',
-    actors: [{ name: 'Tomer Sisley' }, { name: 'Sharon Stone' }, { name: 'Ulrich Tukur' }],
+    actors: [
+      { name: 'Tomer Sisley' },
+      { name: 'Sharon Stone' },
+      { name: 'Ulrich Tukur' },
+    ],
     coverUrl: '/movies_pictures/244d4205a8ab.jpg',
     releaseDate: '2011-02-16',
     length: 114,
@@ -511,7 +668,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Alien : Romulus',
     director: 'Fede Alvarez',
-    actors: [{ name: 'Cailee Spaeny' }, { name: 'David Jonsson' }, { name: 'Archie Renaux' }],
+    actors: [
+      { name: 'Cailee Spaeny' },
+      { name: 'David Jonsson' },
+      { name: 'Archie Renaux' },
+    ],
     coverUrl: '/movies_pictures/5fe513cd7721.jpg',
     releaseDate: '2024-08-16',
     length: 119,
@@ -524,7 +685,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Sans un bruit : Jour 1',
     director: 'Michael Sarnoski',
-    actors: [{ name: 'Lupita Nyong\'o' }, { name: 'Joseph Quinn' }, { name: 'Alex Wolff' }],
+    actors: [
+      { name: "Lupita Nyong'o" },
+      { name: 'Joseph Quinn' },
+      { name: 'Alex Wolff' },
+    ],
     coverUrl: '/movies_pictures/525fd8ddb96e.jpg',
     releaseDate: '2024-06-28',
     length: 99,
@@ -537,7 +702,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Back to Black',
     director: 'Sam Taylor-Johnson',
-    actors: [{ name: 'Marisa Abela' }, { name: 'Jack O\'Connell' }, { name: 'Eddie Marsan' }],
+    actors: [
+      { name: 'Marisa Abela' },
+      { name: "Jack O'Connell" },
+      { name: 'Eddie Marsan' },
+    ],
     coverUrl: '/movies_pictures/9209e5ea4ac0.jpg',
     releaseDate: '2024-05-17',
     length: 122,
@@ -550,7 +719,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Before Midnight',
     director: 'Richard Linklater',
-    actors: [{ name: 'Ethan Hawke' }, { name: 'Julie Delpy' }, { name: 'Seamus Davey-Fitzpatrick' }],
+    actors: [
+      { name: 'Ethan Hawke' },
+      { name: 'Julie Delpy' },
+      { name: 'Seamus Davey-Fitzpatrick' },
+    ],
     coverUrl: '/movies_pictures/47d21c2c835f.jpg',
     releaseDate: '2013-06-14',
     length: 109,
@@ -563,7 +736,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Empire of Light',
     director: 'Sam Mendes',
-    actors: [{ name: 'Olivia Colman' }, { name: 'Micheal Ward' }, { name: 'Colin Firth' }],
+    actors: [
+      { name: 'Olivia Colman' },
+      { name: 'Micheal Ward' },
+      { name: 'Colin Firth' },
+    ],
     coverUrl: '/movies_pictures/53bedacb7084.jpg',
     releaseDate: '2022-12-09',
     length: 115,
@@ -576,7 +753,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Le Monde après nous',
     director: 'Sam Esmail',
-    actors: [{ name: 'Julia Roberts' }, { name: 'Mahershala Ali' }, { name: 'Ethan Hawke' }],
+    actors: [
+      { name: 'Julia Roberts' },
+      { name: 'Mahershala Ali' },
+      { name: 'Ethan Hawke' },
+    ],
     coverUrl: '/movies_pictures/8976cdf5d83f.jpg',
     releaseDate: '2023-12-08',
     length: 138,
@@ -587,9 +768,13 @@ export const baseMoviesPage8: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
-    title: 'Anatomie d\'une chute',
+    title: "Anatomie d'une chute",
     director: 'Justine Triet',
-    actors: [{ name: 'Sandra Hüller' }, { name: 'Swann Arlaud' }, { name: 'Milo Machado-Graner' }],
+    actors: [
+      { name: 'Sandra Hüller' },
+      { name: 'Swann Arlaud' },
+      { name: 'Milo Machado-Graner' },
+    ],
     coverUrl: '/movies_pictures/f7a2d9e295b1.jpg',
     releaseDate: '2024-03-22',
     length: 151,
@@ -600,9 +785,13 @@ export const baseMoviesPage8: BaseMovie[] = [
     countryOrigin: 'France',
   },
   {
-    title: 'L\'Homme qui en savait trop',
+    title: "L'Homme qui en savait trop",
     director: 'Alfred Hitchcock',
-    actors: [{ name: 'James Stewart' }, { name: 'Doris Day' }, { name: 'Brenda de Banzie' }],
+    actors: [
+      { name: 'James Stewart' },
+      { name: 'Doris Day' },
+      { name: 'Brenda de Banzie' },
+    ],
     coverUrl: '/movies_pictures/0865cab8034a.jpg',
     releaseDate: '1956-06-01',
     length: 120,
@@ -615,7 +804,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Val',
     director: 'Ting Poo, Leo Scott',
-    actors: [{ name: 'Val Kilmer' }, { name: 'Jack Kilmer' }, { name: 'Mercedes Kilmer' }],
+    actors: [
+      { name: 'Val Kilmer' },
+      { name: 'Jack Kilmer' },
+      { name: 'Mercedes Kilmer' },
+    ],
     coverUrl: '/movies_pictures/15bb8a3209be.jpg',
     releaseDate: '2021-08-06',
     length: 109,
@@ -628,7 +821,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Malcolm X',
     director: 'Spike Lee',
-    actors: [{ name: 'Denzel Washington' }, { name: 'Angela Bassett' }, { name: 'Delroy Lindo' }],
+    actors: [
+      { name: 'Denzel Washington' },
+      { name: 'Angela Bassett' },
+      { name: 'Delroy Lindo' },
+    ],
     coverUrl: '/movies_pictures/ca67538983a5.jpg',
     releaseDate: '1992-11-18',
     length: 202,
@@ -641,7 +838,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Aftersun',
     director: 'Charlotte Wells',
-    actors: [{ name: 'Paul Mescal' }, { name: 'Frankie Corio' }, { name: 'Celia Rowlson-Hall' }],
+    actors: [
+      { name: 'Paul Mescal' },
+      { name: 'Frankie Corio' },
+      { name: 'Celia Rowlson-Hall' },
+    ],
     coverUrl: '/movies_pictures/9deb4357dc21.jpg',
     releaseDate: '2022-11-18',
     length: 102,
@@ -654,7 +855,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Paprika',
     director: 'Satoshi Kon',
-    actors: [{ name: 'Megumi Hayashibara' }, { name: 'Tôru Emori' }, { name: 'Katsunosuke Hori' }],
+    actors: [
+      { name: 'Megumi Hayashibara' },
+      { name: 'Tôru Emori' },
+      { name: 'Katsunosuke Hori' },
+    ],
     coverUrl: '/movies_pictures/5e709990943e.jpg',
     releaseDate: '2007-06-22',
     length: 90,
@@ -667,7 +872,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Snowden',
     director: 'Oliver Stone',
-    actors: [{ name: 'Joseph Gordon-Levitt' }, { name: 'Shailene Woodley' }, { name: 'Melissa Leo' }],
+    actors: [
+      { name: 'Joseph Gordon-Levitt' },
+      { name: 'Shailene Woodley' },
+      { name: 'Melissa Leo' },
+    ],
     coverUrl: '/movies_pictures/5423d54216c7.jpg',
     releaseDate: '2016-09-16',
     length: 134,
@@ -680,7 +889,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Volte/Face',
     director: 'John Woo',
-    actors: [{ name: 'John Travolta' }, { name: 'Nicolas Cage' }, { name: 'Joan Allen' }],
+    actors: [
+      { name: 'John Travolta' },
+      { name: 'Nicolas Cage' },
+      { name: 'Joan Allen' },
+    ],
     coverUrl: '/movies_pictures/dee971fe8775.jpg',
     releaseDate: '1997-06-27',
     length: 138,
@@ -693,7 +906,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Foxcatcher',
     director: 'Bennett Miller',
-    actors: [{ name: 'Steve Carell' }, { name: 'Channing Tatum' }, { name: 'Mark Ruffalo' }],
+    actors: [
+      { name: 'Steve Carell' },
+      { name: 'Channing Tatum' },
+      { name: 'Mark Ruffalo' },
+    ],
     coverUrl: '/movies_pictures/bbaa864429e8.jpg',
     releaseDate: '2015-01-16',
     length: 134,
@@ -706,7 +923,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Spotlight',
     director: 'Tom McCarthy',
-    actors: [{ name: 'Mark Ruffalo' }, { name: 'Michael Keaton' }, { name: 'Rachel McAdams' }],
+    actors: [
+      { name: 'Mark Ruffalo' },
+      { name: 'Michael Keaton' },
+      { name: 'Rachel McAdams' },
+    ],
     coverUrl: '/movies_pictures/ac337c72d50e.jpg',
     releaseDate: '2015-11-20',
     length: 129,
@@ -719,7 +940,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Nightmare Alley',
     director: 'Guillermo del Toro',
-    actors: [{ name: 'Bradley Cooper' }, { name: 'Cate Blanchett' }, { name: 'Toni Collette' }],
+    actors: [
+      { name: 'Bradley Cooper' },
+      { name: 'Cate Blanchett' },
+      { name: 'Toni Collette' },
+    ],
     coverUrl: '/movies_pictures/ba62e04a4d35.jpg',
     releaseDate: '2021-12-17',
     length: 150,
@@ -732,7 +957,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Last Night in Soho',
     director: 'Edgar Wright',
-    actors: [{ name: 'Thomasin McKenzie' }, { name: 'Anya Taylor-Joy' }, { name: 'Matt Smith' }],
+    actors: [
+      { name: 'Thomasin McKenzie' },
+      { name: 'Anya Taylor-Joy' },
+      { name: 'Matt Smith' },
+    ],
     coverUrl: '/movies_pictures/9999ab020440.jpg',
     releaseDate: '2021-10-29',
     length: 116,
@@ -743,10 +972,10 @@ export const baseMoviesPage8: BaseMovie[] = [
     countryOrigin: 'Royaume-Uni',
   },
   {
-    title: '2001 : L\'Odyssée de l\'espace',
+    title: "2001 : L'Odyssée de l'espace",
     director: 'Yannick Rolandeau',
     actors: [],
-    coverUrl: '',
+    coverUrl: '/movies_pictures/2001-lodyssee-de-lespace.jpg',
     releaseDate: '2018-07-30',
     length: 0,
     genre: 'Documentary, Short',
@@ -758,7 +987,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'First Man - Le Premier Homme s...',
     director: 'Damien Chazelle',
-    actors: [{ name: 'Ryan Gosling' }, { name: 'Claire Foy' }, { name: 'Jason Clarke' }],
+    actors: [
+      { name: 'Ryan Gosling' },
+      { name: 'Claire Foy' },
+      { name: 'Jason Clarke' },
+    ],
     coverUrl: '/movies_pictures/27f89c74f815.jpg',
     releaseDate: '2018-10-12',
     length: 141,
@@ -771,7 +1004,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'The Thing',
     director: 'John Carpenter',
-    actors: [{ name: 'Kurt Russell' }, { name: 'Wilford Brimley' }, { name: 'Keith David' }],
+    actors: [
+      { name: 'Kurt Russell' },
+      { name: 'Wilford Brimley' },
+      { name: 'Keith David' },
+    ],
     coverUrl: '/movies_pictures/24d116931b1d.jpg',
     releaseDate: '1982-06-25',
     length: 109,
@@ -784,7 +1021,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Wolfs',
     director: 'Jon Watts',
-    actors: [{ name: 'George Clooney' }, { name: 'Brad Pitt' }, { name: 'Amy Ryan' }],
+    actors: [
+      { name: 'George Clooney' },
+      { name: 'Brad Pitt' },
+      { name: 'Amy Ryan' },
+    ],
     coverUrl: '/movies_pictures/af04164512a5.jpg',
     releaseDate: '2024-09-27',
     length: 108,
@@ -797,7 +1038,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Fantastic Mr. Fox',
     director: 'Wes Anderson',
-    actors: [{ name: 'George Clooney' }, { name: 'Meryl Streep' }, { name: 'Bill Murray' }],
+    actors: [
+      { name: 'George Clooney' },
+      { name: 'Meryl Streep' },
+      { name: 'Bill Murray' },
+    ],
     coverUrl: '/movies_pictures/8f8b8cd076d3.jpg',
     releaseDate: '2009-11-25',
     length: 87,
@@ -810,7 +1055,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Ave, César',
     director: 'Ethan Coen, Joel Coen',
-    actors: [{ name: 'Josh Brolin' }, { name: 'George Clooney' }, { name: 'Alden Ehrenreich' }],
+    actors: [
+      { name: 'Josh Brolin' },
+      { name: 'George Clooney' },
+      { name: 'Alden Ehrenreich' },
+    ],
     coverUrl: '/movies_pictures/e20042b8b823.jpg',
     releaseDate: '2016-02-05',
     length: 106,
@@ -849,7 +1098,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Magazine Dreams',
     director: 'Elijah Bynum',
-    actors: [{ name: 'Jonathan Majors' }, { name: 'Harrison Page' }, { name: 'Harriet Sansom Harris' }],
+    actors: [
+      { name: 'Jonathan Majors' },
+      { name: 'Harrison Page' },
+      { name: 'Harriet Sansom Harris' },
+    ],
     coverUrl: '/movies_pictures/9675bf162099.jpg',
     releaseDate: '2025-03-21',
     length: 123,
@@ -862,7 +1115,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Les Sept Samourais',
     director: 'Akira Kurosawa',
-    actors: [{ name: 'Toshirô Mifune' }, { name: 'Takashi Shimura' }, { name: 'Keiko Tsushima' }],
+    actors: [
+      { name: 'Toshirô Mifune' },
+      { name: 'Takashi Shimura' },
+      { name: 'Keiko Tsushima' },
+    ],
     coverUrl: '/movies_pictures/b6bcfa6c01a2.jpg',
     releaseDate: '1956-11-19',
     length: 207,
@@ -888,7 +1145,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Vermines',
     director: 'Loucas St-Jacques',
-    actors: [{ name: 'Audrey-Ann Brown' }, { name: 'Clémence Roy-Darisse' }, { name: 'Felix Tardif' }],
+    actors: [
+      { name: 'Audrey-Ann Brown' },
+      { name: 'Clémence Roy-Darisse' },
+      { name: 'Felix Tardif' },
+    ],
     coverUrl: '',
     releaseDate: '',
     length: 17,
@@ -901,7 +1162,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Under the Silver Lake',
     director: 'David Robert Mitchell',
-    actors: [{ name: 'Andrew Garfield' }, { name: 'Riley Keough' }, { name: 'Topher Grace' }],
+    actors: [
+      { name: 'Andrew Garfield' },
+      { name: 'Riley Keough' },
+      { name: 'Topher Grace' },
+    ],
     coverUrl: '/movies_pictures/a5cd1b39b206.jpg',
     releaseDate: '2019-04-19',
     length: 139,
@@ -914,7 +1179,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Le Garçon au pyjama rayé',
     director: 'Mark Herman',
-    actors: [{ name: 'Asa Butterfield' }, { name: 'David Thewlis' }, { name: 'Rupert Friend' }],
+    actors: [
+      { name: 'Asa Butterfield' },
+      { name: 'David Thewlis' },
+      { name: 'Rupert Friend' },
+    ],
     coverUrl: '/movies_pictures/2b39b5fe6075.jpg',
     releaseDate: '2008-11-26',
     length: 94,
@@ -927,7 +1196,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Lady Vengeance',
     director: 'Park Chan-wook',
-    actors: [{ name: 'Lee Yeong-ae' }, { name: 'Choi Min-sik' }, { name: 'Yea-young Kwon' }],
+    actors: [
+      { name: 'Lee Yeong-ae' },
+      { name: 'Choi Min-sik' },
+      { name: 'Yea-young Kwon' },
+    ],
     coverUrl: '/movies_pictures/ce03253e5261.jpg',
     releaseDate: '2005-07-29',
     length: 115,
@@ -940,7 +1213,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'La Chute',
     director: 'Oliver Hirschbiegel',
-    actors: [{ name: 'Bruno Ganz' }, { name: 'Alexandra Maria Lara' }, { name: 'Ulrich Matthes' }],
+    actors: [
+      { name: 'Bruno Ganz' },
+      { name: 'Alexandra Maria Lara' },
+      { name: 'Ulrich Matthes' },
+    ],
     coverUrl: '/movies_pictures/e9067edc9cd6.jpg',
     releaseDate: '2005-04-08',
     length: 156,
@@ -951,9 +1228,13 @@ export const baseMoviesPage8: BaseMovie[] = [
     countryOrigin: 'Allemagne',
   },
   {
-    title: 'Les Banshees d\'Inisherin',
+    title: "Les Banshees d'Inisherin",
     director: 'Martin McDonagh',
-    actors: [{ name: 'Colin Farrell' }, { name: 'Brendan Gleeson' }, { name: 'Kerry Condon' }],
+    actors: [
+      { name: 'Colin Farrell' },
+      { name: 'Brendan Gleeson' },
+      { name: 'Kerry Condon' },
+    ],
     coverUrl: '/movies_pictures/5530bc434fc9.jpg',
     releaseDate: '2022-11-04',
     length: 114,
@@ -966,7 +1247,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'The Crow',
     director: 'Alex Proyas',
-    actors: [{ name: 'Brandon Lee' }, { name: 'Michael Wincott' }, { name: 'Rochelle Davis' }],
+    actors: [
+      { name: 'Brandon Lee' },
+      { name: 'Michael Wincott' },
+      { name: 'Rochelle Davis' },
+    ],
     coverUrl: '/movies_pictures/189f0a3cdb49.jpg',
     releaseDate: '1994-05-13',
     length: 102,
@@ -979,7 +1264,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Papillon',
     director: 'Franklin J. Schaffner',
-    actors: [{ name: 'Steve McQueen' }, { name: 'Dustin Hoffman' }, { name: 'Victor Jory' }],
+    actors: [
+      { name: 'Steve McQueen' },
+      { name: 'Dustin Hoffman' },
+      { name: 'Victor Jory' },
+    ],
     coverUrl: '/movies_pictures/af365b644a01.jpg',
     releaseDate: '1973-12-19',
     length: 151,
@@ -992,7 +1281,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Il était une fois le Bronx',
     director: 'Robert De Niro',
-    actors: [{ name: 'Robert De Niro' }, { name: 'Chazz Palminteri' }, { name: 'Lillo Brancato' }],
+    actors: [
+      { name: 'Robert De Niro' },
+      { name: 'Chazz Palminteri' },
+      { name: 'Lillo Brancato' },
+    ],
     coverUrl: '/movies_pictures/273419783e3a.jpg',
     releaseDate: '1993-10-01',
     length: 121,
@@ -1005,7 +1298,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Fargo',
     director: 'Joel Coen, Ethan Coen',
-    actors: [{ name: 'William H. Macy' }, { name: 'Frances McDormand' }, { name: 'Steve Buscemi' }],
+    actors: [
+      { name: 'William H. Macy' },
+      { name: 'Frances McDormand' },
+      { name: 'Steve Buscemi' },
+    ],
     coverUrl: '/movies_pictures/861cda0007f0.jpg',
     releaseDate: '1996-04-05',
     length: 98,
@@ -1018,7 +1315,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Booksmart',
     director: 'Olivia Wilde',
-    actors: [{ name: 'Kaitlyn Dever' }, { name: 'Beanie Feldstein' }, { name: 'Jessica Williams' }],
+    actors: [
+      { name: 'Kaitlyn Dever' },
+      { name: 'Beanie Feldstein' },
+      { name: 'Jessica Williams' },
+    ],
     coverUrl: '/movies_pictures/cef7ac5785a5.jpg',
     releaseDate: '2019-05-24',
     length: 102,
@@ -1031,7 +1332,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Poker Face',
     director: '',
-    actors: [{ name: 'Natasha Lyonne' }, { name: 'Simon Helberg' }, { name: 'Benjamin Bratt' }],
+    actors: [
+      { name: 'Natasha Lyonne' },
+      { name: 'Simon Helberg' },
+      { name: 'Benjamin Bratt' },
+    ],
     coverUrl: '/movies_pictures/96b6931c2548.jpg',
     releaseDate: '2023-01-26',
     length: 0,
@@ -1044,7 +1349,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Une nuit en enfer',
     director: 'Robert Rodriguez',
-    actors: [{ name: 'Harvey Keitel' }, { name: 'George Clooney' }, { name: 'Juliette Lewis' }],
+    actors: [
+      { name: 'Harvey Keitel' },
+      { name: 'George Clooney' },
+      { name: 'Juliette Lewis' },
+    ],
     coverUrl: '/movies_pictures/8964a69c98ca.jpg',
     releaseDate: '1996-01-19',
     length: 108,
@@ -1057,7 +1366,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Festen',
     director: '',
-    actors: [{ name: 'Edy Dzafic' }, { name: 'Sophia Martinsson' }, { name: 'Simona Karpin' }],
+    actors: [
+      { name: 'Edy Dzafic' },
+      { name: 'Sophia Martinsson' },
+      { name: 'Simona Karpin' },
+    ],
     coverUrl: '/movies_pictures/774a7633ed23.jpg',
     releaseDate: '2019-04-14',
     length: 0,
@@ -1070,7 +1383,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Armageddon Time',
     director: 'James Gray',
-    actors: [{ name: 'Anne Hathaway' }, { name: 'Jeremy Strong' }, { name: 'Banks Repeta' }],
+    actors: [
+      { name: 'Anne Hathaway' },
+      { name: 'Jeremy Strong' },
+      { name: 'Banks Repeta' },
+    ],
     coverUrl: '/movies_pictures/8abbf52eb284.jpg',
     releaseDate: '2022-11-04',
     length: 114,
@@ -1083,7 +1400,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Violent Night',
     director: 'Tommy Wirkola',
-    actors: [{ name: 'David Harbour' }, { name: 'John Leguizamo' }, { name: 'Beverly D\'Angelo' }],
+    actors: [
+      { name: 'David Harbour' },
+      { name: 'John Leguizamo' },
+      { name: "Beverly D'Angelo" },
+    ],
     coverUrl: '/movies_pictures/43e0cf3c29cc.jpg',
     releaseDate: '2022-12-02',
     length: 112,
@@ -1096,7 +1417,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Novembre',
     director: 'Rainer Sarnet',
-    actors: [{ name: 'Rea Lest' }, { name: 'Jörgen Liik' }, { name: 'Arvo Kukumägi' }],
+    actors: [
+      { name: 'Rea Lest' },
+      { name: 'Jörgen Liik' },
+      { name: 'Arvo Kukumägi' },
+    ],
     coverUrl: '/movies_pictures/e4c8eeda54e4.jpg',
     releaseDate: '2018-02-23',
     length: 115,
@@ -1109,7 +1434,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'The Northman',
     director: 'Robert Eggers',
-    actors: [{ name: 'Alexander Skarsgård' }, { name: 'Nicole Kidman' }, { name: 'Claes Bang' }],
+    actors: [
+      { name: 'Alexander Skarsgård' },
+      { name: 'Nicole Kidman' },
+      { name: 'Claes Bang' },
+    ],
     coverUrl: '/movies_pictures/1e84a9c1da1c.jpg',
     releaseDate: '2022-04-22',
     length: 137,
@@ -1122,7 +1451,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'The Reader',
     director: 'Stephen Daldry',
-    actors: [{ name: 'Ralph Fiennes' }, { name: 'Jeanette Hain' }, { name: 'David Kross' }],
+    actors: [
+      { name: 'Ralph Fiennes' },
+      { name: 'Jeanette Hain' },
+      { name: 'David Kross' },
+    ],
     coverUrl: '/movies_pictures/2c3f91f42b1a.jpg',
     releaseDate: '2009-01-30',
     length: 124,
@@ -1135,7 +1468,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Rock',
     director: 'Michael Bay',
-    actors: [{ name: 'Sean Connery' }, { name: 'Nicolas Cage' }, { name: 'Ed Harris' }],
+    actors: [
+      { name: 'Sean Connery' },
+      { name: 'Nicolas Cage' },
+      { name: 'Ed Harris' },
+    ],
     coverUrl: '/movies_pictures/698f9338c6d7.jpg',
     releaseDate: '1996-06-07',
     length: 136,
@@ -1146,9 +1483,13 @@ export const baseMoviesPage8: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
-    title: 'La Proie d\'une ombre',
+    title: "La Proie d'une ombre",
     director: 'Nick Murphy',
-    actors: [{ name: 'Rebecca Hall' }, { name: 'Dominic West' }, { name: 'Imelda Staunton' }],
+    actors: [
+      { name: 'Rebecca Hall' },
+      { name: 'Dominic West' },
+      { name: 'Imelda Staunton' },
+    ],
     coverUrl: '/movies_pictures/35d588b8b549.jpg',
     releaseDate: '2011-11-11',
     length: 102,
@@ -1161,7 +1502,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Blow Out',
     director: 'Brian De Palma',
-    actors: [{ name: 'John Travolta' }, { name: 'Nancy Allen' }, { name: 'John Lithgow' }],
+    actors: [
+      { name: 'John Travolta' },
+      { name: 'Nancy Allen' },
+      { name: 'John Lithgow' },
+    ],
     coverUrl: '/movies_pictures/48cb5edb7b1a.jpg',
     releaseDate: '1981-07-24',
     length: 108,
@@ -1174,7 +1519,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'The Bikeriders',
     director: 'Jeff Nichols',
-    actors: [{ name: 'Austin Butler' }, { name: 'Jodie Comer' }, { name: 'Tom Hardy' }],
+    actors: [
+      { name: 'Austin Butler' },
+      { name: 'Jodie Comer' },
+      { name: 'Tom Hardy' },
+    ],
     coverUrl: '/movies_pictures/22a448a899c6.jpg',
     releaseDate: '2024-06-21',
     length: 116,
@@ -1187,7 +1536,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Le Garçon et le héron',
     director: 'Hayao Miyazaki',
-    actors: [{ name: 'Soma Santoki' }, { name: 'Masaki Suda' }, { name: 'Kô Shibasaki' }],
+    actors: [
+      { name: 'Soma Santoki' },
+      { name: 'Masaki Suda' },
+      { name: 'Kô Shibasaki' },
+    ],
     coverUrl: '/movies_pictures/2a73b849b82a.jpg',
     releaseDate: '2023-12-08',
     length: 124,
@@ -1200,7 +1553,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Le Plus Beau des combats',
     director: 'Boaz Yakin',
-    actors: [{ name: 'Denzel Washington' }, { name: 'Will Patton' }, { name: 'Wood Harris' }],
+    actors: [
+      { name: 'Denzel Washington' },
+      { name: 'Will Patton' },
+      { name: 'Wood Harris' },
+    ],
     coverUrl: '/movies_pictures/aa501d641834.jpg',
     releaseDate: '2000-09-29',
     length: 113,
@@ -1213,7 +1570,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Only God Forgives',
     director: 'Nicolas Winding Refn',
-    actors: [{ name: 'Ryan Gosling' }, { name: 'Kristin Scott Thomas' }, { name: 'Vithaya Pansringarm' }],
+    actors: [
+      { name: 'Ryan Gosling' },
+      { name: 'Kristin Scott Thomas' },
+      { name: 'Vithaya Pansringarm' },
+    ],
     coverUrl: '/movies_pictures/87a510d30209.jpg',
     releaseDate: '2013-05-22',
     length: 90,
@@ -1226,7 +1587,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Les Marches du pouvoir',
     director: 'George Clooney',
-    actors: [{ name: 'Paul Giamatti' }, { name: 'George Clooney' }, { name: 'Philip Seymour Hoffman' }],
+    actors: [
+      { name: 'Paul Giamatti' },
+      { name: 'George Clooney' },
+      { name: 'Philip Seymour Hoffman' },
+    ],
     coverUrl: '/movies_pictures/c2498df1160c.jpg',
     releaseDate: '2011-10-07',
     length: 101,
@@ -1239,7 +1604,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Excalibur',
     director: 'John Boorman',
-    actors: [{ name: 'Nigel Terry' }, { name: 'Helen Mirren' }, { name: 'Nicholas Clay' }],
+    actors: [
+      { name: 'Nigel Terry' },
+      { name: 'Helen Mirren' },
+      { name: 'Nicholas Clay' },
+    ],
     coverUrl: '/movies_pictures/25e1c9041fe9.jpg',
     releaseDate: '1981-04-10',
     length: 140,
@@ -1252,7 +1621,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Le cas Richard Jewell',
     director: 'Clint Eastwood',
-    actors: [{ name: 'Paul Walter Hauser' }, { name: 'Sam Rockwell' }, { name: 'Brandon Stanley' }],
+    actors: [
+      { name: 'Paul Walter Hauser' },
+      { name: 'Sam Rockwell' },
+      { name: 'Brandon Stanley' },
+    ],
     coverUrl: '/movies_pictures/21997e389791.jpg',
     releaseDate: '2019-12-13',
     length: 131,
@@ -1265,7 +1638,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Moonfall',
     director: 'Roland Emmerich',
-    actors: [{ name: 'Halle Berry' }, { name: 'Patrick Wilson' }, { name: 'John Bradley' }],
+    actors: [
+      { name: 'Halle Berry' },
+      { name: 'Patrick Wilson' },
+      { name: 'John Bradley' },
+    ],
     coverUrl: '/movies_pictures/c35d22bef995.jpg',
     releaseDate: '2022-02-04',
     length: 130,
@@ -1278,7 +1655,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Mort sur le Nil',
     director: 'Kenneth Branagh',
-    actors: [{ name: 'Tom Bateman' }, { name: 'Annette Bening' }, { name: 'Kenneth Branagh' }],
+    actors: [
+      { name: 'Tom Bateman' },
+      { name: 'Annette Bening' },
+      { name: 'Kenneth Branagh' },
+    ],
     coverUrl: '/movies_pictures/6a82e3617b8b.jpg',
     releaseDate: '2022-02-11',
     length: 127,
@@ -1291,7 +1672,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Palmer',
     director: 'Fisher Stevens',
-    actors: [{ name: 'Justin Timberlake' }, { name: 'Juno Temple' }, { name: 'Alisha Wainwright' }],
+    actors: [
+      { name: 'Justin Timberlake' },
+      { name: 'Juno Temple' },
+      { name: 'Alisha Wainwright' },
+    ],
     coverUrl: '/movies_pictures/1fc781e6aa8b.jpg',
     releaseDate: '2021-01-29',
     length: 110,
@@ -1302,10 +1687,11 @@ export const baseMoviesPage8: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
-    title: 'My Dinner with André',
+    title: 'My Dinner with Andrew',
     director: 'Tim Ryan',
     actors: [{ name: 'Bob Glouberman' }, { name: 'Tim Ryan' }],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/MV5BYWE3OTcwYTUtNzIyMy00OTMwLWFiNjMtZjljMjM4ZDU5NDg0XkEyXkFqcGc@._V1_.jpg',
     releaseDate: '',
     length: 0,
     genre: 'Comedy, Short',
@@ -1317,7 +1703,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'A history of violence',
     director: 'David Cronenberg',
-    actors: [{ name: 'Viggo Mortensen' }, { name: 'Maria Bello' }, { name: 'Ed Harris' }],
+    actors: [
+      { name: 'Viggo Mortensen' },
+      { name: 'Maria Bello' },
+      { name: 'Ed Harris' },
+    ],
     coverUrl: '/movies_pictures/320600784791.jpg',
     releaseDate: '2005-09-30',
     length: 96,
@@ -1330,7 +1720,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'The Wicker Man',
     director: 'Robin Hardy',
-    actors: [{ name: 'Edward Woodward' }, { name: 'Christopher Lee' }, { name: 'Diane Cilento' }],
+    actors: [
+      { name: 'Edward Woodward' },
+      { name: 'Christopher Lee' },
+      { name: 'Diane Cilento' },
+    ],
     coverUrl: '/movies_pictures/b70408de8157.jpg',
     releaseDate: '1974-08-07',
     length: 88,
@@ -1343,7 +1737,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Family Man',
     director: 'Brett Ratner',
-    actors: [{ name: 'Nicolas Cage' }, { name: 'Téa Leoni' }, { name: 'Don Cheadle' }],
+    actors: [
+      { name: 'Nicolas Cage' },
+      { name: 'Téa Leoni' },
+      { name: 'Don Cheadle' },
+    ],
     coverUrl: '/movies_pictures/29999f5194d8.jpg',
     releaseDate: '2000-12-22',
     length: 125,
@@ -1356,7 +1754,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'La Stratégie Ender',
     director: 'Gavin Hood',
-    actors: [{ name: 'Harrison Ford' }, { name: 'Asa Butterfield' }, { name: 'Hailee Steinfeld' }],
+    actors: [
+      { name: 'Harrison Ford' },
+      { name: 'Asa Butterfield' },
+      { name: 'Hailee Steinfeld' },
+    ],
     coverUrl: '/movies_pictures/437aa4f6af22.jpg',
     releaseDate: '2013-11-01',
     length: 114,
@@ -1369,7 +1771,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Tu ne tueras point',
     director: 'Mel Gibson',
-    actors: [{ name: 'Andrew Garfield' }, { name: 'Sam Worthington' }, { name: 'Luke Bracey' }],
+    actors: [
+      { name: 'Andrew Garfield' },
+      { name: 'Sam Worthington' },
+      { name: 'Luke Bracey' },
+    ],
     coverUrl: '/movies_pictures/fcdf6a74e256.jpg',
     releaseDate: '2016-11-04',
     length: 139,
@@ -1382,7 +1788,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Lincoln',
     director: 'Steven Spielberg',
-    actors: [{ name: 'Daniel Day-Lewis' }, { name: 'Sally Field' }, { name: 'David Strathairn' }],
+    actors: [
+      { name: 'Daniel Day-Lewis' },
+      { name: 'Sally Field' },
+      { name: 'David Strathairn' },
+    ],
     coverUrl: '/movies_pictures/68073f32b5f3.jpg',
     releaseDate: '2012-11-16',
     length: 150,
@@ -1395,7 +1805,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Reviens-moi',
     director: 'Joe Wright',
-    actors: [{ name: 'Keira Knightley' }, { name: 'James McAvoy' }, { name: 'Brenda Blethyn' }],
+    actors: [
+      { name: 'Keira Knightley' },
+      { name: 'James McAvoy' },
+      { name: 'Brenda Blethyn' },
+    ],
     coverUrl: '/movies_pictures/0d86b8fcd2b0.jpg',
     releaseDate: '2008-01-11',
     length: 123,
@@ -1421,7 +1835,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Wind River',
     director: 'Taylor Sheridan',
-    actors: [{ name: 'Elizabeth Olsen' }, { name: 'Jeremy Renner' }, { name: 'Graham Greene' }],
+    actors: [
+      { name: 'Elizabeth Olsen' },
+      { name: 'Jeremy Renner' },
+      { name: 'Graham Greene' },
+    ],
     coverUrl: '/movies_pictures/7f7b4d733d72.jpg',
     releaseDate: '2017-08-18',
     length: 107,
@@ -1434,7 +1852,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Killer Joe',
     director: 'William Friedkin',
-    actors: [{ name: 'Matthew McConaughey' }, { name: 'Emile Hirsch' }, { name: 'Juno Temple' }],
+    actors: [
+      { name: 'Matthew McConaughey' },
+      { name: 'Emile Hirsch' },
+      { name: 'Juno Temple' },
+    ],
     coverUrl: '/movies_pictures/573695f19d85.jpg',
     releaseDate: '2012-06-29',
     length: 102,
@@ -1447,7 +1869,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'La Fièvre du Samedi soir',
     director: 'John Badham',
-    actors: [{ name: 'John Travolta' }, { name: 'Karen Lynn Gorney' }, { name: 'Barry Miller' }],
+    actors: [
+      { name: 'John Travolta' },
+      { name: 'Karen Lynn Gorney' },
+      { name: 'Barry Miller' },
+    ],
     coverUrl: '/movies_pictures/0337a9fc03a8.jpg',
     releaseDate: '1977-12-16',
     length: 118,
@@ -1460,7 +1886,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Highlander',
     director: 'Russell Mulcahy',
-    actors: [{ name: 'Christopher Lambert' }, { name: 'Sean Connery' }, { name: 'Clancy Brown' }],
+    actors: [
+      { name: 'Christopher Lambert' },
+      { name: 'Sean Connery' },
+      { name: 'Clancy Brown' },
+    ],
     coverUrl: '/movies_pictures/82dd20c437cf.jpg',
     releaseDate: '1986-03-07',
     length: 116,
@@ -1473,7 +1903,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Peur primale',
     director: 'Gregory Hoblit',
-    actors: [{ name: 'Richard Gere' }, { name: 'Laura Linney' }, { name: 'Edward Norton' }],
+    actors: [
+      { name: 'Richard Gere' },
+      { name: 'Laura Linney' },
+      { name: 'Edward Norton' },
+    ],
     coverUrl: '/movies_pictures/8a3851b1ad24.jpg',
     releaseDate: '1996-04-03',
     length: 129,
@@ -1486,7 +1920,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Le Secret des Marrowbone',
     director: 'Sergio G. Sánchez',
-    actors: [{ name: 'George MacKay' }, { name: 'Anya Taylor-Joy' }, { name: 'Charlie Heaton' }],
+    actors: [
+      { name: 'George MacKay' },
+      { name: 'Anya Taylor-Joy' },
+      { name: 'Charlie Heaton' },
+    ],
     coverUrl: '/movies_pictures/df1bfc91dd15.jpg',
     releaseDate: '2018-04-13',
     length: 110,
@@ -1499,7 +1937,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Bagdad Café',
     director: 'Percy Adlon',
-    actors: [{ name: 'Marianne Sägebrecht' }, { name: 'CCH Pounder' }, { name: 'Jack Palance' }],
+    actors: [
+      { name: 'Marianne Sägebrecht' },
+      { name: 'CCH Pounder' },
+      { name: 'Jack Palance' },
+    ],
     coverUrl: '/movies_pictures/6263c71e6952.jpg',
     releaseDate: '1988-04-22',
     length: 95,
@@ -1512,7 +1954,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Snake Eyes',
     director: 'Brian De Palma',
-    actors: [{ name: 'Nicolas Cage' }, { name: 'Gary Sinise' }, { name: 'John Heard' }],
+    actors: [
+      { name: 'Nicolas Cage' },
+      { name: 'Gary Sinise' },
+      { name: 'John Heard' },
+    ],
     coverUrl: '/movies_pictures/23f17422e32a.jpg',
     releaseDate: '1998-08-07',
     length: 98,
@@ -1525,7 +1971,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Spartacus',
     director: '',
-    actors: [{ name: 'Andy Whitfield' }, { name: 'Lucy Lawless' }, { name: 'Manu Bennett' }],
+    actors: [
+      { name: 'Andy Whitfield' },
+      { name: 'Lucy Lawless' },
+      { name: 'Manu Bennett' },
+    ],
     coverUrl: '/movies_pictures/14f06165b6ca.jpg',
     releaseDate: '2010-01-22',
     length: 55,
@@ -1538,7 +1988,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Sur la route de Madison',
     director: 'Clint Eastwood',
-    actors: [{ name: 'Clint Eastwood' }, { name: 'Meryl Streep' }, { name: 'Annie Corley' }],
+    actors: [
+      { name: 'Clint Eastwood' },
+      { name: 'Meryl Streep' },
+      { name: 'Annie Corley' },
+    ],
     coverUrl: '/movies_pictures/864a22444efb.jpg',
     releaseDate: '1995-06-02',
     length: 135,
@@ -1551,7 +2005,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'The Green Knight',
     director: 'David Lowery',
-    actors: [{ name: 'Dev Patel' }, { name: 'Alicia Vikander' }, { name: 'Joel Edgerton' }],
+    actors: [
+      { name: 'Dev Patel' },
+      { name: 'Alicia Vikander' },
+      { name: 'Joel Edgerton' },
+    ],
     coverUrl: '/movies_pictures/ba078f098e8d.jpg',
     releaseDate: '2021-07-30',
     length: 130,
@@ -1564,7 +2022,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Chaplin',
     director: 'Richard Attenborough',
-    actors: [{ name: 'Robert Downey Jr.' }, { name: 'Geraldine Chaplin' }, { name: 'Paul Rhys' }],
+    actors: [
+      { name: 'Robert Downey Jr.' },
+      { name: 'Geraldine Chaplin' },
+      { name: 'Paul Rhys' },
+    ],
     coverUrl: '/movies_pictures/cdcef1713337.jpg',
     releaseDate: '1993-01-08',
     length: 143,
@@ -1577,7 +2039,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'The Father',
     director: 'Florian Zeller',
-    actors: [{ name: 'Anthony Hopkins' }, { name: 'Olivia Colman' }, { name: 'Mark Gatiss' }],
+    actors: [
+      { name: 'Anthony Hopkins' },
+      { name: 'Olivia Colman' },
+      { name: 'Mark Gatiss' },
+    ],
     coverUrl: '/movies_pictures/3f3cd875b176.jpg',
     releaseDate: '2021-02-26',
     length: 97,
@@ -1590,7 +2056,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'La 25ème Heure',
     director: 'Spike Lee',
-    actors: [{ name: 'Edward Norton' }, { name: 'Barry Pepper' }, { name: 'Philip Seymour Hoffman' }],
+    actors: [
+      { name: 'Edward Norton' },
+      { name: 'Barry Pepper' },
+      { name: 'Philip Seymour Hoffman' },
+    ],
     coverUrl: '/movies_pictures/3c91bb8badc2.jpg',
     releaseDate: '2003-01-10',
     length: 135,
@@ -1603,7 +2073,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Coherence',
     director: 'James Ward Byrkit',
-    actors: [{ name: 'Emily Baldoni' }, { name: 'Maury Sterling' }, { name: 'Nicholas Brendon' }],
+    actors: [
+      { name: 'Emily Baldoni' },
+      { name: 'Maury Sterling' },
+      { name: 'Nicholas Brendon' },
+    ],
     coverUrl: '/movies_pictures/76ea7bf90947.jpg',
     releaseDate: '2014-08-06',
     length: 89,
@@ -1616,7 +2090,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Boyhood',
     director: 'Richard Linklater',
-    actors: [{ name: 'Ellar Coltrane' }, { name: 'Patricia Arquette' }, { name: 'Ethan Hawke' }],
+    actors: [
+      { name: 'Ellar Coltrane' },
+      { name: 'Patricia Arquette' },
+      { name: 'Ethan Hawke' },
+    ],
     coverUrl: '/movies_pictures/610f93af3016.jpg',
     releaseDate: '2014-08-15',
     length: 165,
@@ -1629,7 +2107,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Before Sunrise',
     director: 'Richard Linklater',
-    actors: [{ name: 'Ethan Hawke' }, { name: 'Julie Delpy' }, { name: 'Andrea Eckert' }],
+    actors: [
+      { name: 'Ethan Hawke' },
+      { name: 'Julie Delpy' },
+      { name: 'Andrea Eckert' },
+    ],
     coverUrl: '/movies_pictures/9749c107c5c5.jpg',
     releaseDate: '1995-01-27',
     length: 101,
@@ -1642,7 +2124,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Before Sunset',
     director: 'Richard Linklater',
-    actors: [{ name: 'Ethan Hawke' }, { name: 'Julie Delpy' }, { name: 'Vernon Dobtcheff' }],
+    actors: [
+      { name: 'Ethan Hawke' },
+      { name: 'Julie Delpy' },
+      { name: 'Vernon Dobtcheff' },
+    ],
     coverUrl: '/movies_pictures/d3c65f2b58aa.jpg',
     releaseDate: '2004-07-30',
     length: 80,
@@ -1655,7 +2141,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Live by Night',
     director: 'Ben Affleck',
-    actors: [{ name: 'Ben Affleck' }, { name: 'Elle Fanning' }, { name: 'Brendan Gleeson' }],
+    actors: [
+      { name: 'Ben Affleck' },
+      { name: 'Elle Fanning' },
+      { name: 'Brendan Gleeson' },
+    ],
     coverUrl: '/movies_pictures/af87a16547a1.jpg',
     releaseDate: '2017-01-13',
     length: 129,
@@ -1668,7 +2158,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Cherry',
     director: 'Anthony Russo, Joe Russo',
-    actors: [{ name: 'Tom Holland' }, { name: 'Ciara Bravo' }, { name: 'Jack Reynor' }],
+    actors: [
+      { name: 'Tom Holland' },
+      { name: 'Ciara Bravo' },
+      { name: 'Jack Reynor' },
+    ],
     coverUrl: '/movies_pictures/5c82d8fe2818.jpg',
     releaseDate: '2021-03-12',
     length: 142,
@@ -1681,7 +2175,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Orgueil et Préjugés et Zombies',
     director: 'Burr Steers',
-    actors: [{ name: 'Lily James' }, { name: 'Sam Riley' }, { name: 'Jack Huston' }],
+    actors: [
+      { name: 'Lily James' },
+      { name: 'Sam Riley' },
+      { name: 'Jack Huston' },
+    ],
     coverUrl: '/movies_pictures/503ec36b8b74.jpg',
     releaseDate: '2016-02-05',
     length: 108,
@@ -1694,7 +2192,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Autant en emporte le vent',
     director: 'Victor Fleming',
-    actors: [{ name: 'Clark Gable' }, { name: 'Vivien Leigh' }, { name: 'Thomas Mitchell' }],
+    actors: [
+      { name: 'Clark Gable' },
+      { name: 'Vivien Leigh' },
+      { name: 'Thomas Mitchell' },
+    ],
     coverUrl: '/movies_pictures/9a1be988f866.jpg',
     releaseDate: '1940-01-17',
     length: 238,
@@ -1707,7 +2209,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Casse-Noisette et les quatr...',
     director: 'Lasse Hallström, Joe Johnston',
-    actors: [{ name: 'Mackenzie Foy' }, { name: 'Keira Knightley' }, { name: 'Morgan Freeman' }],
+    actors: [
+      { name: 'Mackenzie Foy' },
+      { name: 'Keira Knightley' },
+      { name: 'Morgan Freeman' },
+    ],
     coverUrl: '/movies_pictures/834b67dd6806.jpg',
     releaseDate: '2018-11-02',
     length: 99,
@@ -1720,7 +2226,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Ben-Hur',
     director: 'William Wyler',
-    actors: [{ name: 'Charlton Heston' }, { name: 'Jack Hawkins' }, { name: 'Stephen Boyd' }],
+    actors: [
+      { name: 'Charlton Heston' },
+      { name: 'Jack Hawkins' },
+      { name: 'Stephen Boyd' },
+    ],
     coverUrl: '/movies_pictures/6d090b1a5b2a.jpg',
     releaseDate: '1959-11-18',
     length: 212,
@@ -1733,7 +2243,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'There Will Be Blood',
     director: 'Paul Thomas Anderson',
-    actors: [{ name: 'Daniel Day-Lewis' }, { name: 'Paul Dano' }, { name: 'Ciarán Hinds' }],
+    actors: [
+      { name: 'Daniel Day-Lewis' },
+      { name: 'Paul Dano' },
+      { name: 'Ciarán Hinds' },
+    ],
     coverUrl: '/movies_pictures/015541270639.jpg',
     releaseDate: '2008-01-25',
     length: 158,
@@ -1746,7 +2260,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Air Force One',
     director: 'Wolfgang Petersen',
-    actors: [{ name: 'Harrison Ford' }, { name: 'Gary Oldman' }, { name: 'Glenn Close' }],
+    actors: [
+      { name: 'Harrison Ford' },
+      { name: 'Gary Oldman' },
+      { name: 'Glenn Close' },
+    ],
     coverUrl: '/movies_pictures/a91d0105dc94.jpg',
     releaseDate: '1997-07-25',
     length: 124,
@@ -1759,7 +2277,11 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: "L'Échange",
     director: 'Clint Eastwood',
-    actors: [{ name: 'Angelina Jolie' }, { name: 'Colm Feore' }, { name: 'Amy Ryan' }],
+    actors: [
+      { name: 'Angelina Jolie' },
+      { name: 'Colm Feore' },
+      { name: 'Amy Ryan' },
+    ],
     coverUrl: '/movies_pictures/eeaad4fc4c3c.jpg',
     releaseDate: '2008-10-31',
     length: 141,
@@ -1770,5 +2292,3 @@ export const baseMoviesPage8: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
 ];
-
-

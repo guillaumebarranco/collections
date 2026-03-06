@@ -3746,7 +3746,7 @@ export const ronanWatchlistMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: 'L\'Imaginarium du Docte...',
+    title: "L'Imaginarium du Docte...",
     director: 'Terry Gilliam',
     rating: 0,
     timesWatched: 0,
@@ -3798,7 +3798,7 @@ export const ronanWatchlistMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: 'La Zone d\'intérêt',
+    title: "La Zone d'intérêt",
     director: 'Jonathan Glazer',
     rating: 0,
     timesWatched: 0,
@@ -3863,7 +3863,7 @@ export const ronanWatchlistMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: 'Les Promesses de l\'ombre',
+    title: "Les Promesses de l'ombre",
     director: 'David Cronenberg',
     rating: 0,
     timesWatched: 0,
@@ -3967,7 +3967,7 @@ export const ronanWatchlistMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: 'Willy\'s Wonderland',
+    title: "Willy's Wonderland",
     director: 'Kevin Lewis',
     rating: 0,
     timesWatched: 0,
@@ -4071,7 +4071,7 @@ export const ronanWatchlistMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: 'Largo Winch : Le Prix de l\'argent',
+    title: "Largo Winch : Le Prix de l'argent",
     director: 'Olivier Masset-Depasse',
     rating: 0,
     timesWatched: 0,
@@ -4188,7 +4188,7 @@ export const ronanWatchlistMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: 'Anatomie d\'une chute',
+    title: "Anatomie d'une chute",
     director: 'Justine Triet',
     rating: 0,
     timesWatched: 0,
@@ -4201,7 +4201,7 @@ export const ronanWatchlistMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: 'L\'Homme qui en savait trop',
+    title: "L'Homme qui en savait trop",
     director: 'Alfred Hitchcock',
     rating: 0,
     timesWatched: 0,
@@ -4344,7 +4344,7 @@ export const ronanWatchlistMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: '2001 : L\'Odyssée de l\'espace',
+    title: "2001 : L'Odyssée de l'espace",
     director: 'Yannick Rolandeau',
     rating: 0,
     timesWatched: 0,
@@ -4552,7 +4552,7 @@ export const ronanWatchlistMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: 'Les Banshees d\'Inisherin',
+    title: "Les Banshees d'Inisherin",
     director: 'Martin McDonagh',
     rating: 0,
     timesWatched: 0,
@@ -4747,7 +4747,7 @@ export const ronanWatchlistMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: 'La Proie d\'une ombre',
+    title: "La Proie d'une ombre",
     director: 'Nick Murphy',
     rating: 0,
     timesWatched: 0,
@@ -4903,7 +4903,7 @@ export const ronanWatchlistMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: 'My Dinner with André',
+    title: 'My Dinner with Andrew',
     director: 'Tim Ryan',
     rating: 0,
     timesWatched: 0,
@@ -5358,7 +5358,7 @@ export const ronanWatchlistMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: 'L\'Échange',
+    title: "L'Échange",
     director: 'Clint Eastwood',
     rating: 0,
     timesWatched: 0,
