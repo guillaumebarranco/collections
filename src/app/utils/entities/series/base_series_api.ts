@@ -944,4 +944,76 @@ export const baseSeriesApi: BaseSerie[] = [
     countryOrigin: 'États-Unis',
     saga: 'Dexter',
   },
+
+  {
+    title: 'Ms. Marvel',
+    director: 'Bisha K. Ali',
+    actors: [
+      {
+        name: 'Iman Vellani',
+      },
+      {
+        name: 'Matt Lintz',
+      },
+      {
+        name: 'Zenobia Shroff',
+      },
+      {
+        name: 'Mohan Kapur',
+      }
+    ],
+    coverUrl: 'https://m.media-amazon.com/images/M/MV5BNzlkNjBmOWUtOTgzZS00OWIzLThkNWEtZTg5MGY2ODAyYzZjXkEyXkFqcGc@._V1_.jpg',
+    releaseDate: '2022-06-08',
+    endDate: '2022-07-13',
+    genre: 'Super-héro',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 6,
+        totalLength: 271,
+      }
+    ],
+    description: '',
+    countryOrigin: 'États-Unis',
+    saga: 'Marvel Cinematic Universe',
+  },
+
+  {
+    title: 'Your Friendly Neighborhood Spider-Man',
+    director: 'Melchior Zwyer',
+    actors: [
+      {
+        name: 'Hudson Thames',
+      },
+      {
+        name: 'Kari Wahlgren',
+      },
+      {
+        name: 'Eugene Byrd',
+      },
+      {
+        name: 'Colman Domingo',
+      },
+      {
+        name: 'Grace Song',
+      },
+      {
+        name: 'Zeno Robinson',
+      },
+    ],
+    coverUrl: 'https://resizing.flixster.com/5qlwTXVARDqckvrDqGV4DpsrShY=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vZDZhOGQyYWUtNTQwYi00M2ZiLWFlYzEtZjI1OTE3ZGFiNGI2LmpwZw==',
+    releaseDate: '2025-01-28',
+    endDate: '',
+    genre: 'Super-héro',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 10,
+        totalLength: 308,
+      },
+    ],
+    description: '',
+    countryOrigin: 'États-Unis',
+    saga: 'Marvel Cinematic Universe',
+  },
 ];

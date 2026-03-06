@@ -2500,7 +2500,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Shutter Island',
     director: 'Martin Scorsese',
-    rating: 4.5,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '2026-03-03',

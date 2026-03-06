@@ -5153,4 +5153,38 @@ export const ronanSeries: UserSeries = [
     wantToWatchAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: 'Ms. Marvel',
+    director: 'Bisha K. Ali',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 3,
+        seasonTimesWatched: 1,
+        lastViewedDate: '2022-07-13',
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Your Friendly Neighborhood Spider-Man',
+    director: 'Melchior Zwyer',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 4,
+        seasonTimesWatched: 1,
+        lastViewedDate: '2025-02-18',
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
 ];
