@@ -46,7 +46,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       },
       {
         name: 'Hugh Grant',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/1249162.jpg',
     releaseDate: '2023-12-15',
@@ -54,7 +54,11 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Fantasy, Family',
     saga: '',
     description: '',
-    fromEntity: { entityType: 'book', title: 'Charlie et la Chocolaterie', secondEntityKey: 'Roald Dahl' },
+    fromEntity: {
+      entityType: 'book',
+      title: 'Charlie et la Chocolaterie',
+      secondEntityKey: 'Roald Dahl',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -193,7 +197,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       },
       {
         name: 'Ansel Elgort',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/2324146.jpg',
     releaseDate: '2021-12-10',
@@ -201,7 +205,11 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Musical, Romance',
     saga: '',
     description: '',
-    fromEntity: { entityType: 'book', title: 'Roméo et Juliette', secondEntityKey: 'William Shakespeare' },
+    fromEntity: {
+      entityType: 'book',
+      title: 'Roméo et Juliette',
+      secondEntityKey: 'William Shakespeare',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -1501,8 +1509,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
         name: 'Jodie Foster',
       },
     ],
-    coverUrl:
-      '/movies_pictures/ef07c72dedc1.jpg',
+    coverUrl: '/movies_pictures/ef07c72dedc1.jpg',
     releaseDate: '1977-01-21',
     length: 95,
     genre: 'Comédie',
@@ -2186,19 +2193,6 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
-    title: 'S.O.S. Fantômes',
-    director: 'Ivan Reitman',
-    actors: [{ name: 'Bill Murray' }, { name: 'Dan Aykroyd' }],
-    coverUrl: '/movies_pictures/19681642.webp',
-    releaseDate: '1984-06-08',
-    length: 105,
-    genre: 'Comedy, Fantasy',
-    saga: 'Ghostbusters',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
-  {
     title: 'Grease 2',
     director: 'Patricia Birch',
     actors: [{ name: 'Michelle Pfeiffer' }, { name: 'Maxwell Caulfield' }],
@@ -2305,7 +2299,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       },
       {
         name: 'Richard Beymer',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/031ea613b0b2.jpg',
     releaseDate: '1961-10-18',
@@ -2313,7 +2307,11 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     genre: 'Musical, Romance',
     saga: '',
     description: '',
-    fromEntity: { entityType: 'book', title: 'Roméo et Juliette', secondEntityKey: 'William Shakespeare' },
+    fromEntity: {
+      entityType: 'book',
+      title: 'Roméo et Juliette',
+      secondEntityKey: 'William Shakespeare',
+    },
     countryOrigin: 'États-Unis',
   },
   {

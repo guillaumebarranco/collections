@@ -1063,7 +1063,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Lorraine Ashbourne',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/nosferatu.jpg',
     releaseDate: '2024-12-25',
@@ -1071,7 +1071,11 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Horreur',
     saga: '',
     description: '',
-    fromEntity: { entityType: 'book', title: 'Dracula', secondEntityKey: 'Bram Stoker' },
+    fromEntity: {
+      entityType: 'book',
+      title: 'Dracula',
+      secondEntityKey: 'Bram Stoker',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -6333,7 +6337,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Dominic Cooper',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/dracula_untold.jpg',
     releaseDate: '2014-10-01',
@@ -6341,7 +6345,11 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Fantastique',
     saga: '',
     description: '',
-    fromEntity: { entityType: 'book', title: 'Dracula', secondEntityKey: 'Bram Stoker' },
+    fromEntity: {
+      entityType: 'book',
+      title: 'Dracula',
+      secondEntityKey: 'Bram Stoker',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -6940,7 +6948,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Brandon T. Jackson',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/percy_jackson_sea_of_monsters.jpg',
     releaseDate: '2013-08-14',
@@ -6948,7 +6956,11 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Aventure',
     saga: 'Percy Jackson',
     description: '',
-    fromEntity: { entityType: 'book', title: 'Le Voleur de foudre', secondEntityKey: 'Rick Riordan' },
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le Voleur de foudre',
+      secondEntityKey: 'Rick Riordan',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -9050,7 +9062,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Tilda Swinton',
-      }
+      },
     ],
     coverUrl:
       '/movies_pictures/the_chronicles_of_narnia_the_lion_the_witch_and_th.jpg',
@@ -9059,7 +9071,11 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Fantastique',
     saga: '',
     description: '',
-    fromEntity: { entityType: 'book', title: 'Le Monde de Narnia (Tome 1) Le Neveu du Magicien', secondEntityKey: 'C.S. Lewis' },
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le Monde de Narnia (Tome 1) Le Neveu du Magicien',
+      secondEntityKey: 'C.S. Lewis',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -10681,7 +10697,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Anthony Hopkins',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/bram_stoker_s_dracula.jpg',
     releaseDate: '1993-01-13',
@@ -10689,7 +10705,11 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: 'Fantastique',
     saga: '',
     description: '',
-    fromEntity: { entityType: 'book', title: 'Dracula', secondEntityKey: 'Bram Stoker' },
+    fromEntity: {
+      entityType: 'book',
+      title: 'Dracula',
+      secondEntityKey: 'Bram Stoker',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -11343,6 +11363,9 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Dan Aykroyd',
+      },
+      {
+        name: 'Sigourney Weaver',
       },
     ],
     coverUrl: '/movies_pictures/ghostbusters.jpg',
