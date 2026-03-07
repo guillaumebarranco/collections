@@ -1016,4 +1016,44 @@ export const baseSeriesApi: BaseSerie[] = [
     countryOrigin: 'États-Unis',
     saga: 'Marvel Cinematic Universe',
   },
+
+  {
+    title: 'What if...?',
+    director: 'A.C. Bradley',
+    actors: [
+      {
+        name: 'Jeffrey Wright',
+      },
+      {
+        name: 'Hayley Atwell',
+      },
+      {
+        name: 'Samuel L. Jackson',
+      },
+    ],
+    coverUrl: 'https://fr.web.img6.acsta.net/pictures/21/07/09/10/46/0300683.jpg',
+    releaseDate: '2021-08-11',
+    endDate: '2024-12-28',
+    genre: 'Super-héro',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 9,
+        totalLength: 289,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 9,
+        totalLength: 281,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 8,
+        totalLength: 235,
+      },
+    ],
+    description: '',
+    countryOrigin: 'États-Unis',
+    saga: 'Marvel Cinematic Universe',
+  },
 ];

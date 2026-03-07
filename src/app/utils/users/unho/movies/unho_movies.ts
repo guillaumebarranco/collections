@@ -1508,7 +1508,7 @@ export const unhoMovies: UserMovie[] = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
-    wantToSeeAgain: false,
+    wantToSeeAgain: true,
     watchPriority: 1,
     ratingComment: '',
   },
