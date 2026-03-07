@@ -8,7 +8,6 @@ import {
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ManwhaComponent } from '../../../components/collections/manwha/manwha.component';
-import { MenuComponent } from '../../../components/menu/menu.component';
 
 import { Manwha } from '../../../models/manwha-model';
 
@@ -27,9 +26,7 @@ import { EditManwhaComponent } from '../../edit/edit-manwha/edit-manwha.componen
   imports: [
     CommonModule,
     ManwhaComponent,
-    MenuComponent,
     MatDialogModule,
-
     AdminManwhasHeaderComponent,
     LoaderComponent,
   ],

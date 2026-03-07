@@ -2,7 +2,6 @@ import { Component, computed, inject, signal, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { SerieComponent } from '../../../components/collections/serie/serie.component';
-import { MenuComponent } from '../../../components/menu/menu.component';
 import { AdminSeriesHeaderComponent } from './series-header/series-header.component';
 
 import { Serie } from '../../../models/serie-model';
@@ -26,8 +25,6 @@ const ADMIN_VIEW_OPTIONS: SerieView[] = ['finished', 'sagas', 'countries'];
     CommonModule,
     FormsModule,
     SerieComponent,
-    MenuComponent,
-
     AdminSeriesHeaderComponent,
   ],
   templateUrl: './series.component.html',

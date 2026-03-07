@@ -9,7 +9,6 @@ import {
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { MusicComponent } from '../../../components/collections/music/music.component';
-import { MenuComponent } from '../../../components/menu/menu.component';
 import { AdminMusicsHeaderComponent } from './musics-header/musics-header.component';
 import { Music } from '../../../models/music-model';
 import { getAllBaseMusics } from '../../../facades/musics/musics.facade';
@@ -22,7 +21,6 @@ import { normalizeSearchText } from '../../../utils/normalize-search-text';
     CommonModule,
     FormsModule,
     MusicComponent,
-    MenuComponent,
     AdminMusicsHeaderComponent,
   ],
   templateUrl: './musics.component.html',

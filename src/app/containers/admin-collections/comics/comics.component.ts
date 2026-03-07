@@ -8,7 +8,6 @@ import {
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ComicComponent } from '../../../components/collections/comic/comic.component';
-import { MenuComponent } from '../../../components/menu/menu.component';
 
 import { Comic } from '../../../models/comic-model';
 
@@ -27,9 +26,7 @@ import { EditComicComponent } from '../../edit/edit-comic/edit-comic.component';
   imports: [
     CommonModule,
     ComicComponent,
-    MenuComponent,
     MatDialogModule,
-
     AdminComicsHeaderComponent,
     LoaderComponent,
   ],

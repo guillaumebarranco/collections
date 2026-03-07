@@ -48,6 +48,7 @@ import { EditMovieComponent } from './containers/edit/edit-movie/edit-movie.comp
 import { EditBookComponent } from './containers/edit/edit-book/edit-book.component';
 import { EditSerieComponent } from './containers/edit/edit-serie/edit-serie.component';
 import { EditGameComponent } from './containers/edit/edit-game/edit-game.component';
+import { AdminLayoutComponent } from './containers/admin-layout/admin-layout.component';
 import { AdminDashboardComponent } from './containers/admin-dashboard/admin-dashboard.component';
 import { AdminMoviesComponent } from './containers/admin-collections/movies/movies.component';
 import { AdminGamesComponent } from './containers/admin-collections/games/games.component';
@@ -67,6 +68,7 @@ export const routes: Routes = [
   },
   {
     path: 'admin',
+    component: AdminLayoutComponent,
     children: [
       {
         path: '',

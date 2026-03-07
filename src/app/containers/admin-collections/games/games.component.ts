@@ -8,7 +8,6 @@ import {
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { GameComponent } from '../../../components/collections/game/game.component';
-import { MenuComponent } from '../../../components/menu/menu.component';
 import { AdminGamesHeaderComponent } from './games-header/games-header.component';
 import { Game } from '../../../models/game-model';
 import { GameView, getSortedGames } from '../../collections/games/games.utils';
@@ -30,7 +29,6 @@ const adminViewOptions: { value: GameView; label: string }[] = [
     CommonModule,
     FormsModule,
     GameComponent,
-    MenuComponent,
     AdminGamesHeaderComponent,
   ],
   templateUrl: './games.component.html',

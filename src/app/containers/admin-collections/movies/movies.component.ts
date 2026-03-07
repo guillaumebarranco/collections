@@ -8,7 +8,6 @@ import {
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MovieComponent } from '../../../components/collections/movie/movie.component';
-import { MenuComponent } from '../../../components/menu/menu.component';
 
 import { Movie } from '../../../models/movie-model';
 
@@ -41,8 +40,6 @@ const ADMIN_VIEWS: MovieView[] = [
   imports: [
     CommonModule,
     MovieComponent,
-    MenuComponent,
-
     AdminMoviesHeaderComponent,
     LoaderComponent,
   ],

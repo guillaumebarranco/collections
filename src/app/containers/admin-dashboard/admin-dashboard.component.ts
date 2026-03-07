@@ -1,7 +1,6 @@
 import { Component, OnInit, computed, inject, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
-import { MenuComponent } from '../../components/menu/menu.component';
 import { AuthService } from '../../core/auth.service';
 import {
   getAdminUsers,
@@ -29,7 +28,7 @@ export const COLLECTION_LABELS: { key: keyof UserCollectionCounts; label: string
 @Component({
   selector: 'app-admin-dashboard',
   standalone: true,
-  imports: [CommonModule, RouterModule, MenuComponent],
+  imports: [CommonModule, RouterModule],
   templateUrl: './admin-dashboard.component.html',
   styleUrls: ['./admin-dashboard.component.scss'],
 })

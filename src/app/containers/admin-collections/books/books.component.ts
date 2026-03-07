@@ -2,7 +2,6 @@ import { Component, OnInit, signal, computed, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { BookComponent } from '../../../components/collections/book/book.component';
-import { MenuComponent } from '../../../components/menu/menu.component';
 import { AdminBooksHeaderComponent } from './books-header/books-header.component';
 
 import { Book } from '../../../models/book-model';
@@ -26,9 +25,7 @@ import { normalizeSearchText } from '../../../utils/normalize-search-text';
     CommonModule,
     FormsModule,
     BookComponent,
-    MenuComponent,
     MatDialogModule,
-
     AdminBooksHeaderComponent,
   ],
   templateUrl: './books.component.html',

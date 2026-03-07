@@ -1,0 +1,42 @@
+.admin-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.admin-layout__banner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 24px;
+  background: linear-gradient(90deg, #1a4d3e 0%, #25645d 100%);
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  flex-shrink: 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.admin-layout__banner-icon {
+  font-size: 1.1rem;
+  opacity: 0.95;
+}
+
+.admin-layout__banner-label {
+  letter-spacing: 0.02em;
+}
+
+.admin-layout__banner-hint {
+  font-size: 0.8rem;
+  font-weight: 400;
+  opacity: 0.85;
+  margin-left: 4px;
+
+  @media (max-width: 600px) {
+    display: none;
+  }
+}
+
+.admin-layout__content {
+  flex: 1;
+}

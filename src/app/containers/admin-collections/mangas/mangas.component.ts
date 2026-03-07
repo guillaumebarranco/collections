@@ -8,7 +8,6 @@ import {
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MangaComponent } from '../../../components/collections/manga/manga.component';
-import { MenuComponent } from '../../../components/menu/menu.component';
 
 import { Manga } from '../../../models/manga-model';
 
@@ -27,9 +26,7 @@ import { EditMangaComponent } from '../../edit/edit-manga/edit-manga.component';
   imports: [
     CommonModule,
     MangaComponent,
-    MenuComponent,
     MatDialogModule,
-
     AdminMangasHeaderComponent,
     LoaderComponent,
   ],

@@ -8,7 +8,6 @@ import {
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BdComponent } from '../../../components/collections/bd/bd.component';
-import { MenuComponent } from '../../../components/menu/menu.component';
 
 import { Bd } from '../../../models/bd-model';
 
@@ -27,9 +26,7 @@ import { EditBdComponent } from '../../edit/edit-bd/edit-bd.component';
   imports: [
     CommonModule,
     BdComponent,
-    MenuComponent,
     MatDialogModule,
-
     AdminBdsHeaderComponent,
     LoaderComponent,
   ],
