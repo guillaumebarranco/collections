@@ -898,4 +898,30 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
+
+  {
+    title: 'Dragon Ball : Salut ! Son Goku et ses amis sont de retour !!',
+    director: ' Yoshihiro Ueda',
+    actors: [
+      {
+        name: 'Masako Nozawa',
+      },
+      {
+        name: 'Ryō Horikawa',
+      },
+      {
+        name: 'Mayumi Tanaka',
+      },
+      {
+        name: 'Toshio Furukawa',
+      },
+    ],
+    coverUrl: 'https://static.wikia.nocookie.net/dragonball/images/d/d9/Dragon_Ball_Ossu_Son_Gok%C3%BB_et_ses_amis_sont_de_retour.jpg/revision/latest?cb=20180731181819&path-prefix=fr',
+    releaseDate: '2008-09-21',
+    length: 35,
+    genre: 'Anime',
+    saga: 'Dragon Ball',
+    description: '',
+    countryOrigin: 'Japon',
+  },
 ];

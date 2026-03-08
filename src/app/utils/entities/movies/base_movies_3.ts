@@ -1377,7 +1377,17 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Shutter Island',
     director: 'Martin Scorsese',
-    actors: [{ name: 'Leonardo DiCaprio' }],
+    actors: [
+      {
+        name: 'Leonardo DiCaprio',
+      },
+      {
+        name: 'Mark Ruffalo',
+      },
+      {
+        name: 'Ben Kingsley',
+      }
+    ],
     coverUrl: '/movies_pictures/45409-shutter-island-0-150-0-225-crop.jpg',
     releaseDate: '2010-02-19',
     length: 138,
