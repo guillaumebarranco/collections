@@ -916,7 +916,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Toshio Furukawa',
       },
     ],
-    coverUrl: 'https://static.wikia.nocookie.net/dragonball/images/d/d9/Dragon_Ball_Ossu_Son_Gok%C3%BB_et_ses_amis_sont_de_retour.jpg/revision/latest?cb=20180731181819&path-prefix=fr',
+    coverUrl: '/movies_pictures/fa9c940df3c7.jpg',
     releaseDate: '2008-09-21',
     length: 35,
     genre: 'Anime',

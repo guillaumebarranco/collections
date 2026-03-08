@@ -336,7 +336,7 @@ export const baseFromReadlistBooks: BaseBook[] = [
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '-2100-01-01',
+    releaseDate: '0001-01-01',
     description: '',
     countryOrigin: 'États-Unis',
   },

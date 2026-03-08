@@ -1437,7 +1437,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "Songe d'une nuit d'été",
     author: 'William Shakespeare',
-    coverUrl: 'https://covers.openlibrary.org/b/id/7205924-L.jpg',
+    coverUrl: '/books_pictures/0d6d6a2abfe5.jpg',
     pages: 96,
     genre: 'Théâtre',
     saga: '',
@@ -1450,7 +1450,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'La Nuit des rois',
     author: 'William Shakespeare',
-    coverUrl: 'https://covers.openlibrary.org/b/id/9119932-L.jpg',
+    coverUrl: '/books_pictures/8b1ac87ebcee.jpg',
     pages: 112,
     genre: 'Théâtre',
     saga: '',
@@ -1463,7 +1463,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le marchand de Venise',
     author: 'William Shakespeare',
-    coverUrl: 'https://covers.openlibrary.org/b/id/7182819-L.jpg',
+    coverUrl: '/books_pictures/7c56cd91c1ea.jpg',
     pages: 108,
     genre: 'Théâtre',
     saga: '',
@@ -1476,7 +1476,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'La mégère apprivoisée',
     author: 'William Shakespeare',
-    coverUrl: 'https://covers.openlibrary.org/b/id/7889534-L.jpg',
+    coverUrl: '/books_pictures/50ad0a71ecec.jpg',
     pages: 120,
     genre: 'Théâtre',
     saga: '',
@@ -1489,7 +1489,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Richard II',
     author: 'William Shakespeare',
-    coverUrl: 'https://covers.openlibrary.org/b/id/9069548-L.jpg',
+    coverUrl: '/books_pictures/c6a41c6d6333.jpg',
     pages: 128,
     genre: 'Théâtre',
     saga: '',
@@ -1502,7 +1502,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Richard III',
     author: 'William Shakespeare',
-    coverUrl: 'https://covers.openlibrary.org/b/id/9020720-L.jpg',
+    coverUrl: '/books_pictures/2cd940307eee.jpg',
     pages: 160,
     genre: 'Théâtre',
     saga: '',
@@ -1515,7 +1515,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Othello',
     author: 'William Shakespeare',
-    coverUrl: 'https://covers.openlibrary.org/b/id/7165018-L.jpg',
+    coverUrl: '/books_pictures/42c664c04add.jpg',
     pages: 144,
     genre: 'Théâtre',
     saga: '',
@@ -1528,7 +1528,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le roi Lear',
     author: 'William Shakespeare',
-    coverUrl: 'https://covers.openlibrary.org/b/id/7420452-L.jpg',
+    coverUrl: '/books_pictures/b96de1c1a01f.jpg',
     pages: 160,
     genre: 'Théâtre',
     saga: '',
@@ -1541,7 +1541,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Antoine et Cléopâtre',
     author: 'William Shakespeare',
-    coverUrl: 'https://covers.openlibrary.org/b/id/8222096-L.jpg',
+    coverUrl: '/books_pictures/cfdc4c5c3551.jpg',
     pages: 176,
     genre: 'Théâtre',
     saga: '',
@@ -1554,7 +1554,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Antigone',
     author: 'Jean Anouilh',
-    coverUrl: 'https://covers.openlibrary.org/b/id/116843-L.jpg',
+    coverUrl: '/books_pictures/e9b5031c7cd1.jpg',
     pages: 96,
     genre: 'Théâtre',
     saga: '',
@@ -1567,7 +1567,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Eurydice',
     author: 'Jean Anouilh',
-    coverUrl: 'https://covers.openlibrary.org/b/id/116843-L.jpg',
+    coverUrl: '/books_pictures/e9b5031c7cd1.jpg',
     pages: 96,
     genre: 'Théâtre',
     saga: '',
@@ -1580,7 +1580,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Thomas Becket',
     author: 'Jean Anouilh',
-    coverUrl: 'https://covers.openlibrary.org/b/id/116843-L.jpg',
+    coverUrl: '/books_pictures/e9b5031c7cd1.jpg',
     pages: 128,
     genre: 'Théâtre',
     saga: '',
@@ -1593,7 +1593,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "La Guerre de Troie n'aura pas lieu",
     author: 'Jean Giraudoux',
-    coverUrl: 'https://covers.openlibrary.org/b/id/976576-L.jpg',
+    coverUrl: '/books_pictures/a04a32e22e0e.jpg',
     pages: 128,
     genre: 'Théâtre',
     saga: '',
@@ -1606,7 +1606,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Chantecler',
     author: 'Edmond Rostand',
-    coverUrl: 'https://covers.openlibrary.org/b/id/4173683-L.jpg',
+    coverUrl: '/books_pictures/cece43195370.jpg',
     pages: 176,
     genre: 'Théâtre',
     saga: '',
@@ -1619,7 +1619,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "L'Aiglon",
     author: 'Edmond Rostand',
-    coverUrl: 'https://covers.openlibrary.org/b/id/8236320-L.jpg',
+    coverUrl: '/books_pictures/156168e6588b.jpg',
     pages: 192,
     genre: 'Théâtre',
     saga: '',
@@ -1632,7 +1632,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'La Divine Comédie',
     author: 'Dante Alighieri',
-    coverUrl: 'https://covers.openlibrary.org/b/id/6387077-L.jpg',
+    coverUrl: '/books_pictures/b65c3eab3e75.jpg',
     pages: 512,
     genre: 'Classiques',
     saga: '',
@@ -1645,20 +1645,20 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "L'Énéide",
     author: 'Virgile',
-    coverUrl: 'https://covers.openlibrary.org/b/id/15161755-L.jpg',
+    coverUrl: '/books_pictures/bd220114b20f.jpg',
     pages: 384,
     genre: 'Classiques',
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,
-    releaseDate: '-0019-01-01',
+    releaseDate: '0001-01-01',
     description: '',
     countryOrigin: 'Italie',
   },
   {
     title: 'Lancelot ou le Chevalier de la charrette',
     author: 'Chrétien de Troyes',
-    coverUrl: 'https://covers.openlibrary.org/b/olid/OL32132563M-L.jpg',
+    coverUrl: '/books_pictures/57db8d8d81af.jpg',
     pages: 224,
     genre: 'Classiques',
     saga: '',
@@ -1671,7 +1671,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Yvain ou le Chevalier au lion',
     author: 'Chrétien de Troyes',
-    coverUrl: 'https://covers.openlibrary.org/b/olid/OL32132563M-L.jpg',
+    coverUrl: '/books_pictures/57db8d8d81af.jpg',
     pages: 208,
     genre: 'Classiques',
     saga: '',
@@ -1684,7 +1684,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Perceval ou le Conte du Graal',
     author: 'Chrétien de Troyes',
-    coverUrl: 'https://covers.openlibrary.org/b/olid/OL32132563M-L.jpg',
+    coverUrl: '/books_pictures/57db8d8d81af.jpg',
     pages: 288,
     genre: 'Classiques',
     saga: '',
@@ -1697,7 +1697,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'La Prophétie des Andes',
     author: 'James Redfield',
-    coverUrl: 'https://covers.openlibrary.org/b/id/8749217-L.jpg',
+    coverUrl: '/books_pictures/5eb84c62a65f.jpg',
     pages: 256,
     genre: 'Fiction',
     saga: '',
@@ -1710,7 +1710,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'La Dixième Prophétie',
     author: 'James Redfield',
-    coverUrl: 'https://covers.openlibrary.org/b/id/8749217-L.jpg',
+    coverUrl: '/books_pictures/5eb84c62a65f.jpg',
     pages: 272,
     genre: 'Fiction',
     saga: '',
@@ -1723,7 +1723,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le Secret de Shambhala',
     author: 'James Redfield',
-    coverUrl: 'https://covers.openlibrary.org/b/id/8749217-L.jpg',
+    coverUrl: '/books_pictures/5eb84c62a65f.jpg',
     pages: 240,
     genre: 'Fiction',
     saga: '',
@@ -1736,7 +1736,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le Capital',
     author: 'Karl Marx',
-    coverUrl: 'https://covers.openlibrary.org/b/id/104119-L.jpg',
+    coverUrl: '/books_pictures/059e281f2fa5.jpg',
     pages: 940,
     genre: 'Nonfiction',
     saga: '',
@@ -1749,7 +1749,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le Manifeste du parti communiste',
     author: 'Karl Marx',
-    coverUrl: 'https://covers.openlibrary.org/b/id/104119-L.jpg',
+    coverUrl: '/books_pictures/059e281f2fa5.jpg',
     pages: 64,
     genre: 'Nonfiction',
     saga: '',
@@ -1762,7 +1762,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Eichmann à Jérusalem',
     author: 'Hannah Arendt',
-    coverUrl: 'https://covers.openlibrary.org/b/id/97789-L.jpg',
+    coverUrl: '/books_pictures/29228cd2eca8.jpg',
     pages: 336,
     genre: 'Nonfiction',
     saga: '',
@@ -1775,7 +1775,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "L'Origine des espèces",
     author: 'Charles Darwin',
-    coverUrl: 'https://covers.openlibrary.org/b/id/7153600-L.jpg',
+    coverUrl: '/books_pictures/0e08f698b74c.jpg',
     pages: 502,
     genre: 'Nonfiction',
     saga: '',
@@ -1788,7 +1788,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Utopie',
     author: 'Thomas More',
-    coverUrl: 'https://covers.openlibrary.org/b/id/7222976-L.jpg',
+    coverUrl: '/books_pictures/0aeda204bade.jpg',
     pages: 160,
     genre: 'Classiques',
     saga: '',
@@ -1801,7 +1801,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Les Mémoires',
     author: 'Winston Churchill',
-    coverUrl: 'https://covers.openlibrary.org/b/id/7346102-L.jpg',
+    coverUrl: '/books_pictures/5fd2ce71db8a.jpg',
     pages: 2400,
     genre: 'Nonfiction',
     saga: '',
@@ -1814,7 +1814,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "La Gloire de l'Empire",
     author: "Jean d'Ormesson",
-    coverUrl: 'https://covers.openlibrary.org/b/id/7257667-L.jpg',
+    coverUrl: '/books_pictures/c9576b2fba30.jpg',
     pages: 576,
     genre: 'Fiction',
     saga: '',
@@ -1827,7 +1827,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "L'Amour est un plaisir",
     author: "Jean d'Ormesson",
-    coverUrl: 'https://covers.openlibrary.org/b/id/7257667-L.jpg',
+    coverUrl: '/books_pictures/c9576b2fba30.jpg',
     pages: 288,
     genre: 'Fiction',
     saga: '',
@@ -1840,7 +1840,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Histoire du Juif errant',
     author: "Jean d'Ormesson",
-    coverUrl: 'https://covers.openlibrary.org/b/id/7257667-L.jpg',
+    coverUrl: '/books_pictures/c9576b2fba30.jpg',
     pages: 768,
     genre: 'Fiction',
     saga: '',
@@ -1853,7 +1853,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Guide des égarés',
     author: "Jean d'Ormesson",
-    coverUrl: 'https://covers.openlibrary.org/b/id/7257667-L.jpg',
+    coverUrl: '/books_pictures/c9576b2fba30.jpg',
     pages: 352,
     genre: 'Fiction',
     saga: '',
@@ -1866,7 +1866,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Et moi je vis toujours',
     author: "Jean d'Ormesson",
-    coverUrl: 'https://covers.openlibrary.org/b/id/7257667-L.jpg',
+    coverUrl: '/books_pictures/c9576b2fba30.jpg',
     pages: 288,
     genre: 'Fiction',
     saga: '',
@@ -1879,7 +1879,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Un Hosanna sans fin',
     author: "Jean d'Ormesson",
-    coverUrl: 'https://covers.openlibrary.org/b/id/7257667-L.jpg',
+    coverUrl: '/books_pictures/c9576b2fba30.jpg',
     pages: 256,
     genre: 'Fiction',
     saga: '',
@@ -1892,7 +1892,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "L'Évangile selon Pilate",
     author: 'Éric-Emmanuel Schmitt',
-    coverUrl: 'https://covers.openlibrary.org/b/id/977242-L.jpg',
+    coverUrl: '/books_pictures/6df4458d7fc6.jpg',
     pages: 384,
     genre: 'Fiction',
     saga: '',
@@ -1905,7 +1905,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Ulysse from Bagdad',
     author: 'Éric-Emmanuel Schmitt',
-    coverUrl: 'https://covers.openlibrary.org/b/id/977242-L.jpg',
+    coverUrl: '/books_pictures/6df4458d7fc6.jpg',
     pages: 256,
     genre: 'Fiction',
     saga: '',
@@ -1918,7 +1918,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Oscar et la dame en rose',
     author: 'Éric-Emmanuel Schmitt',
-    coverUrl: 'https://covers.openlibrary.org/b/id/7257667-L.jpg',
+    coverUrl: '/books_pictures/c9576b2fba30.jpg',
     pages: 112,
     genre: 'Fiction',
     saga: '',
@@ -1931,7 +1931,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Paradis perdus',
     author: 'Éric-Emmanuel Schmitt',
-    coverUrl: 'https://covers.openlibrary.org/b/id/7257667-L.jpg',
+    coverUrl: '/books_pictures/c9576b2fba30.jpg',
     pages: 320,
     genre: 'Fiction',
     saga: 'La Saga la traversée des temps',
@@ -1944,7 +1944,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'La Porte du ciel',
     author: 'Éric-Emmanuel Schmitt',
-    coverUrl: 'https://covers.openlibrary.org/b/id/7257667-L.jpg',
+    coverUrl: '/books_pictures/c9576b2fba30.jpg',
     pages: 336,
     genre: 'Fiction',
     saga: 'La Saga la traversée des temps',
@@ -1957,7 +1957,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Soleil sombre',
     author: 'Éric-Emmanuel Schmitt',
-    coverUrl: 'https://covers.openlibrary.org/b/id/7257667-L.jpg',
+    coverUrl: '/books_pictures/c9576b2fba30.jpg',
     pages: 352,
     genre: 'Fiction',
     saga: 'La Saga la traversée des temps',
@@ -1970,7 +1970,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'La Lumière du bonheur',
     author: 'Éric-Emmanuel Schmitt',
-    coverUrl: 'https://covers.openlibrary.org/b/id/7257667-L.jpg',
+    coverUrl: '/books_pictures/c9576b2fba30.jpg',
     pages: 368,
     genre: 'Fiction',
     saga: 'La Saga la traversée des temps',
@@ -1983,7 +1983,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Les dieux ne sont pas morts',
     author: 'Marguerite Yourcenar',
-    coverUrl: 'https://covers.openlibrary.org/b/id/966139-L.jpg',
+    coverUrl: '/books_pictures/7aa623d0866e.jpg',
     pages: 192,
     genre: 'Poésie',
     saga: '',
@@ -1996,7 +1996,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'La nouvelle Eurydice',
     author: 'Marguerite Yourcenar',
-    coverUrl: 'https://covers.openlibrary.org/b/id/15015608-L.jpg',
+    coverUrl: '/books_pictures/fbd281c09ea5.jpg',
     pages: 192,
     genre: 'Fiction',
     saga: '',
@@ -2009,7 +2009,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "Mémoire d'Hadrien",
     author: 'Marguerite Yourcenar',
-    coverUrl: 'https://covers.openlibrary.org/b/id/15015608-L.jpg',
+    coverUrl: '/books_pictures/fbd281c09ea5.jpg',
     pages: 368,
     genre: 'Fiction',
     saga: '',
@@ -2022,7 +2022,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "L'œuvre au noir",
     author: 'Marguerite Yourcenar',
-    coverUrl: 'https://covers.openlibrary.org/b/id/966139-L.jpg',
+    coverUrl: '/books_pictures/7aa623d0866e.jpg',
     pages: 384,
     genre: 'Fiction',
     saga: '',
@@ -2035,7 +2035,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le cheval noir à la tête blanche',
     author: 'Marguerite Yourcenar',
-    coverUrl: 'https://covers.openlibrary.org/b/id/966139-L.jpg',
+    coverUrl: '/books_pictures/7aa623d0866e.jpg',
     pages: 96,
     genre: 'Conte',
     saga: '',
@@ -2048,7 +2048,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'La vieille dame et moi',
     author: 'Jacqueline Harpman',
-    coverUrl: 'https://covers.openlibrary.org/b/id/7257667-L.jpg',
+    coverUrl: '/books_pictures/c9576b2fba30.jpg',
     pages: 224,
     genre: 'Fiction',
     saga: '',
@@ -2061,7 +2061,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "La forêt d'Ardenne",
     author: 'Jacqueline Harpman',
-    coverUrl: 'https://covers.openlibrary.org/b/id/7257667-L.jpg',
+    coverUrl: '/books_pictures/c9576b2fba30.jpg',
     pages: 256,
     genre: 'Fiction',
     saga: '',
@@ -2074,7 +2074,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "Du côté d'Ostende",
     author: 'Jacqueline Harpman',
-    coverUrl: 'https://covers.openlibrary.org/b/id/7257667-L.jpg',
+    coverUrl: '/books_pictures/c9576b2fba30.jpg',
     pages: 208,
     genre: 'Fiction',
     saga: '',

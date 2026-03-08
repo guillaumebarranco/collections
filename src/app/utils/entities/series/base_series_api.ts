@@ -919,8 +919,7 @@ export const baseSeriesApi: BaseSerie[] = [
         name: 'Patrick Dempsey',
       },
     ],
-    coverUrl:
-      'https://thumb.canalplus.pro/http/unsafe/%7BresolutionXY%7D/filters:quality(%7BimageQualityPercentage%7D)/canalplus-cdn.canal-plus.io/p1/brand/27664830/canal-ouah/JAQCANAL/myCANAL_Jaquette_MEA_600x800-K5uS',
+    coverUrl: '/series_pictures/64ff1ce4e54f.jpg',
     releaseDate: '2024-12-15',
     endDate: '2025-02-16',
     genre: 'Thriller',
@@ -953,8 +952,7 @@ export const baseSeriesApi: BaseSerie[] = [
         name: 'Mohan Kapur',
       },
     ],
-    coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BNzlkNjBmOWUtOTgzZS00OWIzLThkNWEtZTg5MGY2ODAyYzZjXkEyXkFqcGc@._V1_.jpg',
+    coverUrl: '/series_pictures/f0c30ee33d1e.jpg',
     releaseDate: '2022-06-08',
     endDate: '2022-07-13',
     genre: 'Super-héro',
@@ -993,8 +991,7 @@ export const baseSeriesApi: BaseSerie[] = [
         name: 'Zeno Robinson',
       },
     ],
-    coverUrl:
-      'https://resizing.flixster.com/5qlwTXVARDqckvrDqGV4DpsrShY=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vZDZhOGQyYWUtNTQwYi00M2ZiLWFlYzEtZjI1OTE3ZGFiNGI2LmpwZw==',
+    coverUrl: '/series_pictures/sggdgf.jpg',
     releaseDate: '2025-01-28',
     endDate: '',
     genre: 'Super-héro',
@@ -1024,8 +1021,7 @@ export const baseSeriesApi: BaseSerie[] = [
         name: 'Samuel L. Jackson',
       },
     ],
-    coverUrl:
-      'https://fr.web.img6.acsta.net/pictures/21/07/09/10/46/0300683.jpg',
+    coverUrl: '/series_pictures/6210e65ef16b.jpg',
     releaseDate: '2021-08-11',
     endDate: '2024-12-28',
     genre: 'Super-héro',
