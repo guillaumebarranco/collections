@@ -2,6 +2,7 @@ import { Component, input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import type { FeedResponse } from '../../../models/feed-model';
+import { getRatingStars } from '../../../utils/constants';
 
 @Component({
   selector: 'app-dashboard-feed',
@@ -13,6 +14,8 @@ import type { FeedResponse } from '../../../models/feed-model';
 export class DashboardFeedComponent {
   /** Données du feed (activité des utilisateurs suivis sur le dernier mois). */
   feedData = input.required<FeedResponse>();
+
+  getRatingStars = getRatingStars;
 
   getUserName(userId: string): string {
     return this.capitalizeFirstLetter(userId);

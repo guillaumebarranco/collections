@@ -294,7 +294,7 @@ function appendObjectToArrayFile(filePath: string, objectText: string) {
   if (exportIndex === -1) {
     throw new Error('Array not found');
   }
-  const arrayStart = content.indexOf('[', exportIndex);
+  const arrayStart = getArrayLiteralStartIndex(content, exportIndex);
   const arrayEnd = content.indexOf('];', arrayStart);
   if (arrayStart === -1 || arrayEnd === -1) {
     throw new Error('Array bounds not found');
@@ -667,13 +667,22 @@ function updateBaseMovieInFiles(payload: any) {
   return null;
 }
 
+/** Index du '[' qui ouvre le tableau littéral (après " = ["), pas celui du type UserMovie[]. */
+function getArrayLiteralStartIndex(content: string, exportIndex: number) {
+  const eqBracket = content.indexOf(' = [', exportIndex);
+  if (eqBracket >= 0) {
+    return eqBracket + ' = ['.length - 1;
+  }
+  return content.indexOf('[', exportIndex);
+}
+
 function removeMovieFromFile(content: string, payload: any) {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     throw new Error('Array not found');
   }
 
-  const arrayStart = content.indexOf('[', exportIndex);
+  const arrayStart = getArrayLiteralStartIndex(content, exportIndex);
   const arrayEnd = content.indexOf('];', arrayStart);
   if (arrayStart === -1 || arrayEnd === -1) {
     throw new Error('Array bounds not found');

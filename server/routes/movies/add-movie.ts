@@ -30,11 +30,11 @@ function formatBaseMovie(entity: any): string {
     entity.coverUrl || ''
   )}',\n    releaseDate: '${escapeString(
     entity.releaseDate || ''
-  )}',\n    length: ${entity.length || 0},\n    genre: '${escapeString(
+  )}',\n    length: ${entity.length ?? 0},\n    genre: '${escapeString(
     entity.genre || ''
   )}',\n    saga: '${escapeString(entity.saga || '')}',\n    description: '${escapeString(
     entity.description ?? ''
-  )}',\n    countryOrigin: '${escapeString(entity.countryOrigin ?? '')}',\n  },`;
+  )}',\n    fromEntity: null,\n    countryOrigin: '${escapeString(entity.countryOrigin ?? '')}',\n  },`;
 }
 
 function formatUserMovie(user: any): string {

@@ -20,10 +20,11 @@ function formatBaseGame(entity: any): string {
     hero: '${escapeString(entity.hero || '')}',
     coverUrl: '${escapeString(entity.coverUrl || '')}',
     releaseDate: '${escapeString(entity.releaseDate || '')}',
-    averageTimeToFinish: ${entity.averageTimeToFinish || 0},
+    averageTimeToFinish: ${entity.averageTimeToFinish ?? 0},
+    averageTimeToHundredPercent: ${entity.averageTimeToHundredPercent ?? 0},
     platform: '${escapeString(entity.platform || '')}',
     saga: '${escapeString(entity.saga || '')}',
-    platineTime: ${entity.platineTime || 0},
+    platineTime: ${entity.platineTime ?? 0},
     description: '${escapeString(entity.description ?? '')}',
   },`;
 }
@@ -119,10 +120,12 @@ router.post('/add', (req: any, res: any) => {
       coverUrl: normalizeString(entity.coverUrl, 'coverUrl') || '',
       releaseDate: normalizeString(entity.releaseDate, 'releaseDate') || '',
       averageTimeToFinish:
-        normalizeNumber(entity.averageTimeToFinish, 'averageTimeToFinish') || 0,
+        normalizeNumber(entity.averageTimeToFinish, 'averageTimeToFinish') ?? 0,
+      averageTimeToHundredPercent:
+        normalizeNumber(entity.averageTimeToHundredPercent, 'averageTimeToHundredPercent') ?? 0,
       platform: normalizeString(entity.platform, 'platform') || '',
       saga: normalizeString(entity.saga, 'saga') || '',
-      platineTime: normalizeNumber(entity.platineTime, 'platineTime') || 0,
+      platineTime: normalizeNumber(entity.platineTime, 'platineTime') ?? 0,
       description: normalizeString(entity.description, 'description') ?? '',
     };
 

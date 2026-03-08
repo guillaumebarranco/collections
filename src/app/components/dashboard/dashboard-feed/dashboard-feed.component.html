@@ -18,9 +18,17 @@
           @for (m of entry.movies; track m.title + m.date) {
           <li>
             <span class="feed-item-title">{{ m.title }}</span>
-            <span class="feed-item-meta">{{ m.date }}</span>
+            <span class="feed-item-meta">{{
+              m.date | date : "dd/MM/yyyy"
+            }}</span>
             @if (m.rating != null && m.rating > 0) {
-            <span class="feed-item-rating">★ {{ m.rating }}</span>
+            <span class="feed-item-rating">
+              <span class="stars">
+                @for (star of getRatingStars(m.rating); track star.value) {
+                <span [class]="'star star-' + star.type"></span>
+                }
+              </span>
+            </span>
             }
           </li>
           }
@@ -33,9 +41,17 @@
           @for (b of entry.books; track b.title + b.date) {
           <li>
             <span class="feed-item-title">{{ b.title }}</span>
-            <span class="feed-item-meta">{{ b.date }}</span>
+            <span class="feed-item-meta">{{
+              b.date | date : "dd/MM/yyyy"
+            }}</span>
             @if (b.rating != null && b.rating > 0) {
-            <span class="feed-item-rating">★ {{ b.rating }}</span>
+            <span class="feed-item-rating">
+              <span class="stars">
+                @for (star of getRatingStars(b.rating); track star.value) {
+                <span [class]="'star star-' + star.type"></span>
+                }
+              </span>
+            </span>
             }
           </li>
           }
@@ -48,9 +64,17 @@
           @for (s of entry.series; track s.title + s.date) {
           <li>
             <span class="feed-item-title">{{ s.title }}</span>
-            <span class="feed-item-meta">{{ s.date }}</span>
+            <span class="feed-item-meta">{{
+              s.date | date : "dd/MM/yyyy"
+            }}</span>
             @if (s.rating != null && s.rating > 0) {
-            <span class="feed-item-rating">★ {{ s.rating }}</span>
+            <span class="feed-item-rating">
+              <span class="stars">
+                @for (star of getRatingStars(s.rating); track star.value) {
+                <span [class]="'star star-' + star.type"></span>
+                }
+              </span>
+            </span>
             }
           </li>
           }

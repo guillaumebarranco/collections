@@ -961,6 +961,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Comédie dramatique',
     saga: '',
     description: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
 ];

@@ -1,3 +1,5 @@
+@use "../../../styles/components.scss" as components;
+
 .feed-empty {
   margin: 0;
   color: #6c757d;
@@ -73,8 +75,16 @@
 }
 
 .feed-item-rating {
-  font-size: 0.875rem;
-  color: #f39c12;
+  display: inline-flex;
+  align-items: center;
+
+  .stars {
+    @include components.component-stars-base;
+  }
+
+  .star {
+    @include components.component-star-base;
+  }
 }
 
 .feed-user-empty {

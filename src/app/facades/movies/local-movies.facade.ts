@@ -76,6 +76,7 @@ import { emmanuelleMovies } from '../../utils/users/emmanuelle/movies/emmanuelle
 import { dantesMovies } from '../../utils/users/dantes/movies/dantes_movies';
 import { bastienMovies } from '../../utils/users/bastien/movies/bastien_movies';
 import { unhoMovies } from '../../utils/users/unho/movies/unho_movies';
+import { unhoWatchListMovies } from '../../utils/users/unho/movies/unho_watchlist_movies';
 
 export function getLocalMoviesByUser(userId: string): UserMovie[] {
   switch (userId) {
@@ -127,6 +128,8 @@ export function getLocalWatchlistByUser(userId: string): UserMovie[] {
       return [...kevinWatchlistMovies];
     case 'william':
       return [...williamWatchListMovies];
+    case 'unho':
+      return [...unhoWatchListMovies];
     default:
       return [];
   }

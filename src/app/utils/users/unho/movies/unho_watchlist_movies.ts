@@ -1,6 +1,6 @@
 import { UserMovie } from '../../../../models/movie-model';
 
-export const unhoWatchListMovies: UserMovie[
+export const unhoWatchListMovies: UserMovie[] = [
   {
     title: 'Pulp Fiction',
     director: 'Quentin Tarantino',

@@ -817,6 +817,7 @@ export const baseGamesApi: BaseGame[] = [
     coverUrl: 'https://upload.wikimedia.org/wikipedia/en/e/e3/Sifu_cover_art.jpg',
     releaseDate: '2022-11-08',
     averageTimeToFinish: 8,
+    averageTimeToHundredPercent: 0,
     platform: 'Playstation 5',
     saga: '',
     platineTime: 20,
