@@ -33,7 +33,11 @@ export async function fetchBaseMoviesFromApi(): Promise<BaseMovie[]> {
     throw new Error('Movies entities API error');
   }
   const data = await response.json();
-  return Array.isArray(data) ? data : data.movies || [];
+  const raw = Array.isArray(data) ? data : data.movies || [];
+  return raw.map((m: BaseMovie) => ({
+    ...m,
+    fromEntity: m.fromEntity ?? null,
+  }));
 }
 
 export type OtherUserMovieRating = {

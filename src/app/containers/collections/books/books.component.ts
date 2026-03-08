@@ -1,4 +1,5 @@
 import {
+  ChangeDetectorRef,
   Component,
   OnInit,
   signal,
@@ -97,6 +98,7 @@ export class BooksComponent implements OnInit {
   private readonly topFiveService = inject(TopFiveService);
   private readonly followsService = inject(FollowsService);
   private readonly dialog = inject(MatDialog);
+  private readonly cdr = inject(ChangeDetectorRef);
   private isInitializing = false;
   private isLoadingViewConfig = false;
   private isLoadingPreferences = false;
@@ -221,6 +223,8 @@ export class BooksComponent implements OnInit {
     this.booksList.set(books);
     this.readlistBooksList.set(readlist);
     this.baseBooksList.set(baseBooks.map(getFullBook));
+    // Forcer la détection des changements pour que le header (OnPush) affiche le bloc stats
+    this.cdr.detectChanges();
   }
 
   private loadParamsFromUrl(queryParams: Params) {

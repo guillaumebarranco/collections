@@ -922,6 +922,7 @@ export const baseMoviesApi: BaseMovie[] = [
     genre: 'Anime',
     saga: 'Dragon Ball',
     description: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
 ];
