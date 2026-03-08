@@ -4,7 +4,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "L'étranger",
     author: 'Albert Camus',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -16,7 +17,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "L'Alchimiste",
     author: 'Paulo Coelho',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 5,
     readTimes: 1,
     owned: false,
@@ -28,7 +30,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Le porteur de lumière, tome 1 : Le prisme noir',
     author: 'Brent Weeks',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -40,7 +43,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Le Signe des quatre',
     author: 'Arthur Conan Doyle',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -52,7 +56,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Le Voleur de foudre',
     author: 'Rick Riordan',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -64,7 +69,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'La Mer des monstres',
     author: 'Rick Riordan',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -76,7 +82,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Le Sort du titan',
     author: 'Rick Riordan',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -88,7 +95,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'La Bataille du labyrinthe',
     author: 'Rick Riordan',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -100,7 +108,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Le Dernier Olympien',
     author: 'Rick Riordan',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -112,7 +121,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'The Lost Hero (The Heroes of Olympus, #1)',
     author: 'Rick Riordan',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -124,7 +134,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Ils étaient dix',
     author: 'Agatha Christie',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -136,7 +147,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Madame Bovary',
     author: 'Gustave Flaubert',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -148,7 +160,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Candide',
     author: 'Voltaire',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -160,7 +173,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Hunger Games',
     author: 'Suzanne Collins',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -172,7 +186,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "L'Embrasement",
     author: 'Suzanne Collins',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -184,7 +199,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'La Révolte',
     author: 'Suzanne Collins',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -196,7 +212,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "La Ballade du serpent et de l'oiseau chanteur",
     author: 'Suzanne Collins',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -208,7 +225,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Croc-Blanc',
     author: 'Jack London',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -220,7 +238,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Robinson Crusoe',
     author: 'Daniel Defoe',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -232,7 +251,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "L'Apprenti Assassin",
     author: 'Robin Hobb',
-    readDate: '2024-01-25',
+    firstReadDate: '2024-01-25',
+    lastReadDate: '2024-01-25',
     rating: 5,
     readTimes: 1,
     owned: false,
@@ -244,7 +264,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "L'Assassin du Roi",
     author: 'Robin Hobb',
-    readDate: '2024-02-03',
+    firstReadDate: '2024-02-03',
+    lastReadDate: '2024-02-03',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -256,7 +277,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'La Nef du Crépuscule',
     author: 'Robin Hobb',
-    readDate: '2024-02-09',
+    firstReadDate: '2024-02-09',
+    lastReadDate: '2024-02-09',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -268,7 +290,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Le Poison de la Vengeance',
     author: 'Robin Hobb',
-    readDate: '2024-02-16',
+    firstReadDate: '2024-02-16',
+    lastReadDate: '2024-02-16',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -280,7 +303,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'La Voie Magique',
     author: 'Robin Hobb',
-    readDate: '2024-02-21',
+    firstReadDate: '2024-02-21',
+    lastReadDate: '2024-02-21',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -292,7 +316,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'La Reine Solitaire',
     author: 'Robin Hobb',
-    readDate: '2024-03-01',
+    firstReadDate: '2024-03-01',
+    lastReadDate: '2024-03-01',
     rating: 5,
     readTimes: 1,
     owned: false,
@@ -304,7 +329,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Le Prophète Blanc',
     author: 'Robin Hobb',
-    readDate: '2024-03-08',
+    firstReadDate: '2024-03-08',
+    lastReadDate: '2024-03-08',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -316,7 +342,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'La Secte Maudite',
     author: 'Robin Hobb',
-    readDate: '2024-03-15',
+    firstReadDate: '2024-03-15',
+    lastReadDate: '',
     rating: 5,
     readTimes: 3,
     owned: false,
@@ -328,7 +355,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Les Secrets de Castelcerf',
     author: 'Robin Hobb',
-    readDate: '2024-03-22',
+    firstReadDate: '2024-03-22',
+    lastReadDate: '2024-03-22',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -340,7 +368,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Serments et Deuils',
     author: 'Robin Hobb',
-    readDate: '2024-03-31',
+    firstReadDate: '2024-03-31',
+    lastReadDate: '2024-03-31',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -352,7 +381,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Le Dragon des Glaces',
     author: 'Robin Hobb',
-    readDate: '2024-04-07',
+    firstReadDate: '2024-04-07',
+    lastReadDate: '2024-04-07',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -364,7 +394,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "L'Homme Noir",
     author: 'Robin Hobb',
-    readDate: '2024-04-15',
+    firstReadDate: '2024-04-15',
+    lastReadDate: '2024-04-15',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -376,7 +407,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Adieux et Retrouvailles',
     author: 'Robin Hobb',
-    readDate: '2024-04-23',
+    firstReadDate: '2024-04-23',
+    lastReadDate: '2024-04-23',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -388,7 +420,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "Le Fou et l'Assassin",
     author: 'Robin Hobb',
-    readDate: '2024-06-01',
+    firstReadDate: '2024-06-01',
+    lastReadDate: '2024-06-01',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -400,7 +433,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "La Fille de l'Assassin",
     author: 'Robin Hobb',
-    readDate: '2024-06-12',
+    firstReadDate: '2024-06-12',
+    lastReadDate: '2024-06-12',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -412,7 +446,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'En Quête de Vengeance',
     author: 'Robin Hobb',
-    readDate: '2024-06-20',
+    firstReadDate: '2024-06-20',
+    lastReadDate: '2024-06-20',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -424,7 +459,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "Le Retour de l'Assassin",
     author: 'Robin Hobb',
-    readDate: '2024-07-02',
+    firstReadDate: '2024-07-02',
+    lastReadDate: '2024-07-02',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -436,7 +472,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "Sur les Rives de l'Art",
     author: 'Robin Hobb',
-    readDate: '2024-07-10',
+    firstReadDate: '2024-07-10',
+    lastReadDate: '2024-07-10',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -448,7 +485,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "Le Destin de l'Assassin",
     author: 'Robin Hobb',
-    readDate: '2024-07-18',
+    firstReadDate: '2024-07-18',
+    lastReadDate: '2024-07-18',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -460,7 +498,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Quand Vient la Horde',
     author: 'Aurélie Luong',
-    readDate: '2025-01-01',
+    firstReadDate: '2025-01-01',
+    lastReadDate: '2025-01-01',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -472,7 +511,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Les annales du Disque-Monde, tome 1 : La huitième couleur',
     author: 'Terry Pratchett',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -484,7 +524,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "N'oublie Jamais",
     author: 'Jay Kristoff',
-    readDate: '2024-08-15',
+    firstReadDate: '2024-08-15',
+    lastReadDate: '2024-08-15',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -496,7 +537,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Les Grands Jeux',
     author: 'Jay Kristoff',
-    readDate: '2024-08-25',
+    firstReadDate: '2024-08-25',
+    lastReadDate: '2024-08-25',
     rating: 5,
     readTimes: 1,
     owned: false,
@@ -508,7 +550,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "L'Aube Obscure",
     author: 'Jay Kristoff',
-    readDate: '2024-09-05',
+    firstReadDate: '2024-09-05',
+    lastReadDate: '2024-09-05',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -520,7 +563,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "L'Empire Ultime",
     author: 'Brandon Sanderson',
-    readDate: '2023-12-01',
+    firstReadDate: '2023-12-01',
+    lastReadDate: '2023-12-01',
     rating: 5,
     readTimes: 1,
     owned: false,
@@ -532,7 +576,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "Le puits de l'Ascension",
     author: 'Brandon Sanderson',
-    readDate: '2023-12-15',
+    firstReadDate: '2023-12-15',
+    lastReadDate: '2023-12-15',
     rating: 5,
     readTimes: 1,
     owned: false,
@@ -544,7 +589,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Le Héros des Siècles',
     author: 'Brandon Sanderson',
-    readDate: '2023-12-22',
+    firstReadDate: '2023-12-22',
+    lastReadDate: '2023-12-22',
     rating: 5,
     readTimes: 1,
     owned: false,
@@ -556,7 +602,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Les Voleurs de fumée, tome 1',
     author: 'Sally Green',
-    readDate: '2024-08-07',
+    firstReadDate: '2024-08-07',
+    lastReadDate: '2024-08-07',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -568,7 +615,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Le Démon et mademoiselle Prym',
     author: 'Paulo Coelho',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 5,
     readTimes: 1,
     owned: false,
@@ -580,7 +628,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Les Maîtres Enlumineurs',
     author: 'Robert Jackson Bennett',
-    readDate: '2025-09-10',
+    firstReadDate: '2025-09-10',
+    lastReadDate: '2025-09-10',
     rating: 3.5,
     readTimes: 1,
     owned: true,
@@ -592,7 +641,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "L'Ange de la Nuit, Tome 1 : La Voie des ombres",
     author: 'Brent Weeks',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -604,7 +654,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "Le royaume de Pierre d'Angle, tome 1 : L'art du naufrage",
     author: 'Mark Lawrence',
-    readDate: '2024-08-01',
+    firstReadDate: '2024-08-01',
+    lastReadDate: '2024-08-01',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -616,7 +667,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Cycle de Tschai - Intégrale',
     author: 'Jack Vance',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -628,7 +680,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Les Mensonges de Locke Lamora',
     author: 'Scott Lynch',
-    readDate: '2025-06-15',
+    firstReadDate: '2025-06-15',
+    lastReadDate: '2025-06-15',
     rating: 4.5,
     readTimes: 1,
     owned: true,
@@ -640,7 +693,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Des Horizons Rouge Sang',
     author: 'Scott Lynch',
-    readDate: '2025-06-23',
+    firstReadDate: '2025-06-23',
+    lastReadDate: '2025-06-23',
     rating: 4,
     readTimes: 1,
     owned: true,
@@ -652,7 +706,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'La République des Voleurs',
     author: 'Scott Lynch',
-    readDate: '2025-07-01',
+    firstReadDate: '2025-07-01',
+    lastReadDate: '2025-07-01',
     rating: 4,
     readTimes: 1,
     owned: true,
@@ -664,7 +719,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'La Compagnie Noire',
     author: 'Glen Cook',
-    readDate: '2025-05-01',
+    firstReadDate: '2025-05-01',
+    lastReadDate: '2025-05-01',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -676,7 +732,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Le Château Noir',
     author: 'Glen Cook',
-    readDate: '2025-05-06',
+    firstReadDate: '2025-05-06',
+    lastReadDate: '2025-05-06',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -688,7 +745,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'La Rose Blanche',
     author: 'Glen Cook',
-    readDate: '2025-05-30',
+    firstReadDate: '2025-05-30',
+    lastReadDate: '2025-05-30',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -700,7 +758,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "L'Enfant de Poussière",
     author: 'Patrick K. Dewdney',
-    readDate: '2025-01-15',
+    firstReadDate: '2025-01-15',
+    lastReadDate: '2025-01-15',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -712,7 +771,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'La Peste et la Vigne',
     author: 'Patrick K. Dewdney',
-    readDate: '2025-01-25',
+    firstReadDate: '2025-01-25',
+    lastReadDate: '2025-01-25',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -724,7 +784,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Les Chiens et la Charrue',
     author: 'Patrick K. Dewdney',
-    readDate: '2025-02-05',
+    firstReadDate: '2025-02-05',
+    lastReadDate: '2025-02-05',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -736,7 +797,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'La Maison des Veilleurs',
     author: 'Patrick K. Dewdney',
-    readDate: '2025-04-23',
+    firstReadDate: '2025-04-23',
+    lastReadDate: '2025-04-23',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -748,7 +810,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'La Sorcière Captive',
     author: 'Melissa Caruso',
-    readDate: '2023-11-01',
+    firstReadDate: '2023-11-01',
+    lastReadDate: '2023-11-01',
     rating: 5,
     readTimes: 1,
     owned: false,
@@ -760,7 +823,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "L'Héritière Rebelle",
     author: 'Melissa Caruso',
-    readDate: '2023-11-10',
+    firstReadDate: '2023-11-10',
+    lastReadDate: '2023-11-10',
     rating: 5,
     readTimes: 1,
     owned: false,
@@ -772,7 +836,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "L'Empire Libéré",
     author: 'Melissa Caruso',
-    readDate: '2023-11-20',
+    firstReadDate: '2023-11-20',
+    lastReadDate: '2023-11-20',
     rating: 5,
     readTimes: 1,
     owned: false,
@@ -784,7 +849,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'La Voie des Rois (1/2)',
     author: 'Brandon Sanderson',
-    readDate: '2024-09-25',
+    firstReadDate: '2024-09-25',
+    lastReadDate: '2024-09-25',
     rating: 5,
     readTimes: 1,
     owned: false,
@@ -796,7 +862,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'La Voie des Rois (2/2)',
     author: 'Brandon Sanderson',
-    readDate: '2024-10-05',
+    firstReadDate: '2024-10-05',
+    lastReadDate: '2024-10-05',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -808,7 +875,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Le livre des Radieux (1/2)',
     author: 'Brandon Sanderson',
-    readDate: '2024-10-15',
+    firstReadDate: '2024-10-15',
+    lastReadDate: '2024-10-15',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -820,7 +888,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Le Livre des Radieux (2/2)',
     author: 'Brandon Sanderson',
-    readDate: '2024-10-25',
+    firstReadDate: '2024-10-25',
+    lastReadDate: '2024-10-25',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -832,7 +901,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Justicière (1/2)',
     author: 'Brandon Sanderson',
-    readDate: '2024-11-05',
+    firstReadDate: '2024-11-05',
+    lastReadDate: '2024-11-05',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -844,7 +914,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Justicière (2/2)',
     author: 'Brandon Sanderson',
-    readDate: '2024-11-15',
+    firstReadDate: '2024-11-15',
+    lastReadDate: '2024-11-15',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -856,7 +927,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Rythme de Guerre (1/2)',
     author: 'Brandon Sanderson',
-    readDate: '2024-11-25',
+    firstReadDate: '2024-11-25',
+    lastReadDate: '2024-11-25',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -868,7 +940,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Rythme de Guerre (2/2)',
     author: 'Brandon Sanderson',
-    readDate: '2024-12-01',
+    firstReadDate: '2024-12-01',
+    lastReadDate: '2024-12-01',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -880,7 +953,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Le Don de Mort',
     author: 'Anna Triss',
-    readDate: '2025-03-07',
+    firstReadDate: '2025-03-07',
+    lastReadDate: '2025-03-07',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -892,7 +966,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'La Grande Traque',
     author: 'Anna Triss',
-    readDate: '2025-03-15',
+    firstReadDate: '2025-03-15',
+    lastReadDate: '2025-03-15',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -904,7 +979,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Le Don de Vie',
     author: 'Anna Triss',
-    readDate: '2025-03-23',
+    firstReadDate: '2025-03-23',
+    lastReadDate: '2025-03-23',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -916,7 +992,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "L'Etoile de Feu",
     author: 'Anna Triss',
-    readDate: '2025-04-01',
+    firstReadDate: '2025-04-01',
+    lastReadDate: '2025-04-01',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -928,7 +1005,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'La Guerre Céleste',
     author: 'Anna Triss',
-    readDate: '2025-04-07',
+    firstReadDate: '2025-04-07',
+    lastReadDate: '2025-04-07',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -940,7 +1018,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'La Dixième Prophétie',
     author: 'Anna Triss',
-    readDate: '2025-04-15',
+    firstReadDate: '2025-04-15',
+    lastReadDate: '2025-04-15',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -952,7 +1031,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Les Jardins de la Lune',
     author: 'Steven Erikson',
-    readDate: '2024-05-01',
+    firstReadDate: '2024-05-01',
+    lastReadDate: '2024-05-01',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -964,7 +1044,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Les Portes de la Maison des Morts',
     author: 'Steven Erikson',
-    readDate: '2024-09-15',
+    firstReadDate: '2024-09-15',
+    lastReadDate: '2024-09-15',
     rating: 5,
     readTimes: 1,
     owned: false,
@@ -976,7 +1057,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Les Souvenirs de la Glace',
     author: 'Steven Erikson',
-    readDate: '2025-02-15',
+    firstReadDate: '2025-02-15',
+    lastReadDate: '2025-02-15',
     rating: 5,
     readTimes: 1,
     owned: false,
@@ -988,7 +1070,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'La Maison des Chaînes',
     author: 'Steven Erikson',
-    readDate: '2025-02-23',
+    firstReadDate: '2025-02-23',
+    lastReadDate: '2025-02-23',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -1000,7 +1083,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Les Marées de Minuit',
     author: 'Steven Erikson',
-    readDate: '2025-03-01',
+    firstReadDate: '2025-03-01',
+    lastReadDate: '2025-03-01',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -1012,7 +1096,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "L'Alliage de la Justice",
     author: 'Brandon Sanderson',
-    readDate: '2024-01-01',
+    firstReadDate: '2024-01-01',
+    lastReadDate: '2024-01-01',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -1024,7 +1109,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Jeux de Masques',
     author: 'Brandon Sanderson',
-    readDate: '2024-01-08',
+    firstReadDate: '2024-01-08',
+    lastReadDate: '2024-01-08',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -1036,7 +1122,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Les Bracelets des Larmes',
     author: 'Brandon Sanderson',
-    readDate: '2024-01-17',
+    firstReadDate: '2024-01-17',
+    lastReadDate: '2024-01-17',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -1048,7 +1135,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "Les Princes d'Ambre - Cycle 1",
     author: 'Roger Zelazny',
-    readDate: '2024-07-25',
+    firstReadDate: '2024-07-25',
+    lastReadDate: '2024-07-25',
     rating: 2,
     readTimes: 1,
     owned: false,
@@ -1060,7 +1148,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Le Trône du Dragon',
     author: 'Tad Williams',
-    readDate: '2025-07-07',
+    firstReadDate: '2025-07-07',
+    lastReadDate: '2025-07-07',
     rating: 3.5,
     readTimes: 1,
     owned: true,
@@ -1072,7 +1161,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "Le Roi de l'Orage",
     author: 'Tad Williams',
-    readDate: '2025-07-15',
+    firstReadDate: '2025-07-15',
+    lastReadDate: '2025-07-15',
     rating: 4,
     readTimes: 1,
     owned: true,
@@ -1084,7 +1174,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "La Maison de l'Ancêtre",
     author: 'Tad Williams',
-    readDate: '2025-07-23',
+    firstReadDate: '2025-07-23',
+    lastReadDate: '2025-07-23',
     rating: 4.5,
     readTimes: 1,
     owned: true,
@@ -1096,7 +1187,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "La Pierre de l'Adieu",
     author: 'Tad Williams',
-    readDate: '2025-08-01',
+    firstReadDate: '2025-08-01',
+    lastReadDate: '2025-08-01',
     rating: 4,
     readTimes: 1,
     owned: true,
@@ -1108,7 +1200,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Le Livre du Nécromant',
     author: 'Tad Williams',
-    readDate: '2025-08-07',
+    firstReadDate: '2025-08-07',
+    lastReadDate: '2025-08-07',
     rating: 3.5,
     readTimes: 1,
     owned: true,
@@ -1120,7 +1213,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Le Cri de Camaris',
     author: 'Tad Williams',
-    readDate: '2025-08-13',
+    firstReadDate: '2025-08-13',
+    lastReadDate: '2025-08-13',
     rating: 4.5,
     readTimes: 1,
     owned: true,
@@ -1132,7 +1226,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "L'Ombre de la Roue",
     author: 'Tad Williams',
-    readDate: '2025-08-20',
+    firstReadDate: '2025-08-20',
+    lastReadDate: '2025-08-20',
     rating: 4.5,
     readTimes: 1,
     owned: true,
@@ -1144,7 +1239,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "La Tour de l'Ange Vert",
     author: 'Tad Williams',
-    readDate: '2025-08-30',
+    firstReadDate: '2025-08-30',
+    lastReadDate: '2025-08-30',
     rating: 3.5,
     readTimes: 1,
     owned: true,
@@ -1156,7 +1252,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Tuer la Reine',
     author: 'Jennifer Estep',
-    readDate: '2024-12-07',
+    firstReadDate: '2024-12-07',
+    lastReadDate: '2024-12-07',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -1168,7 +1265,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Défendre le Prince',
     author: 'Jennifer Estep',
-    readDate: '2024-12-15',
+    firstReadDate: '2024-12-15',
+    lastReadDate: '2024-12-15',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -1180,7 +1278,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Écraser le roi',
     author: 'Jennifer Estep',
-    readDate: '2024-12-25',
+    firstReadDate: '2024-12-25',
+    lastReadDate: '2024-12-25',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -1192,7 +1291,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Un jour de nuit tombée',
     author: 'Samantha Shannon',
-    readDate: '2025-11-30',
+    firstReadDate: '2025-11-30',
+    lastReadDate: '2025-11-30',
     rating: 4,
     readTimes: 1,
     owned: true,
@@ -1204,7 +1304,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "Le Prieuré de l'Oranger",
     author: 'Samantha Shannon',
-    readDate: '2025-11-15',
+    firstReadDate: '2025-11-15',
+    lastReadDate: '2025-11-15',
     rating: 3.5,
     readTimes: 1,
     owned: true,
@@ -1216,7 +1317,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'La Tempête des Echos',
     author: 'Christelle Dabos',
-    readDate: '2025-10-30',
+    firstReadDate: '2025-10-30',
+    lastReadDate: '2025-10-30',
     rating: 4,
     readTimes: 1,
     owned: true,
@@ -1228,7 +1330,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'La Mémoire de Babel',
     author: 'Christelle Dabos',
-    readDate: '2025-10-23',
+    firstReadDate: '2025-10-23',
+    lastReadDate: '2025-10-23',
     rating: 4,
     readTimes: 1,
     owned: true,
@@ -1240,7 +1343,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Les Disparus du Clairdelune',
     author: 'Christelle Dabos',
-    readDate: '2025-10-15',
+    firstReadDate: '2025-10-15',
+    lastReadDate: '2025-10-15',
     rating: 4.5,
     readTimes: 1,
     owned: true,
@@ -1252,7 +1356,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "Les Fiancés de l'Hiver",
     author: 'Christelle Dabos',
-    readDate: '2025-10-07',
+    firstReadDate: '2025-10-07',
+    lastReadDate: '2025-10-07',
     rating: 4,
     readTimes: 1,
     owned: true,
@@ -1264,7 +1369,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Le Retour du Hiérophante',
     author: 'Robert Jackson Bennett',
-    readDate: '2025-09-20',
+    firstReadDate: '2025-09-20',
+    lastReadDate: '2025-09-20',
     rating: 4.5,
     readTimes: 1,
     owned: true,
@@ -1276,7 +1382,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Les Terres Closes',
     author: 'Robert Jackson Bennett',
-    readDate: '2025-09-30',
+    firstReadDate: '2025-09-30',
+    lastReadDate: '2025-09-30',
     rating: 4.5,
     readTimes: 1,
     owned: true,
@@ -1288,7 +1395,8 @@ export const kevinBooks: UserBooks = [
   {
     title: "Eclat de l'Aube",
     author: 'Brandon Sanderson',
-    readDate: '2026-01-15',
+    firstReadDate: '2026-01-15',
+    lastReadDate: '2026-01-15',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -1300,7 +1408,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Les Osseleurs',
     author: 'Steven Erikson',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -1312,7 +1421,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Le Souffle du Moissonneur',
     author: 'Steven Erikson',
-    readDate: '2026-02-22',
+    firstReadDate: '2026-02-22',
+    lastReadDate: '2026-02-22',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -1324,7 +1434,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Le Métal Perdu',
     author: 'Brandon Sanderson',
-    readDate: '2025-04-01',
+    firstReadDate: '2025-04-01',
+    lastReadDate: '2025-04-01',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -1337,7 +1448,8 @@ export const kevinBooks: UserBooks = [
   {
     title: 'Le Palais Adamantin',
     author: 'Stephen Deas',
-    readDate: '2026-03-02',
+    firstReadDate: '2026-03-02',
+    lastReadDate: '2026-03-02',
     rating: 3.5,
     readTimes: 1,
     owned: false,

@@ -4,7 +4,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Hunger Games',
     author: 'Suzanne Collins',
-    readDate: '2025-02-12',
+    firstReadDate: '2025-02-12',
+    lastReadDate: '2025-02-12',
     rating: 4.25,
     readTimes: 1,
     owned: true,
@@ -16,7 +17,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: "L'Embrasement",
     author: 'Suzanne Collins',
-    readDate: '2025-02-14',
+    firstReadDate: '2025-02-14',
+    lastReadDate: '2025-02-14',
     rating: 4,
     readTimes: 1,
     owned: true,
@@ -28,7 +30,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'La Révolte',
     author: 'Suzanne Collins',
-    readDate: '2025-02-15',
+    firstReadDate: '2025-02-15',
+    lastReadDate: '2025-02-15',
     rating: 4,
     readTimes: 1,
     owned: true,
@@ -40,7 +43,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: "La Ballade du serpent et de l'oiseau chanteur",
     author: 'Suzanne Collins',
-    readDate: '2025-02-19',
+    firstReadDate: '2025-02-19',
+    lastReadDate: '2025-02-19',
     rating: 3.5,
     readTimes: 1,
     owned: true,
@@ -52,7 +56,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Lever de soleil sur la moisson',
     author: 'Suzanne Collins',
-    readDate: '2025-11-12',
+    firstReadDate: '2025-11-12',
+    lastReadDate: '2025-11-12',
     rating: 4,
     readTimes: 1,
     owned: true,
@@ -64,7 +69,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: "Harry Potter à l'école des sorciers",
     author: 'J.K. Rowling',
-    readDate: '2004-07-01',
+    firstReadDate: '2004-07-01',
+    lastReadDate: '2004-07-01',
     rating: 4,
     readTimes: 5,
     owned: true,
@@ -76,7 +82,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Harry Potter et la Chambre des secrets',
     author: 'J.K. Rowling',
-    readDate: '2004-07-02',
+    firstReadDate: '2004-07-02',
+    lastReadDate: '2004-07-02',
     rating: 4,
     readTimes: 5,
     owned: true,
@@ -88,7 +95,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: "Harry Potter et le Prisonnier d'Azkaban",
     author: 'J.K. Rowling',
-    readDate: '2004-07-03',
+    firstReadDate: '2004-07-03',
+    lastReadDate: '2004-07-03',
     rating: 4.5,
     readTimes: 5,
     owned: true,
@@ -100,7 +108,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Harry Potter et la Coupe de feu',
     author: 'J.K. Rowling',
-    readDate: '2004-07-04',
+    firstReadDate: '2004-07-04',
+    lastReadDate: '2004-07-04',
     rating: 4.5,
     readTimes: 10,
     owned: true,
@@ -112,7 +121,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: "Harry Potter et l'Ordre du Phénix",
     author: 'J.K. Rowling',
-    readDate: '2004-07-05',
+    firstReadDate: '2004-07-05',
+    lastReadDate: '2004-07-05',
     rating: 4,
     readTimes: 5,
     owned: true,
@@ -124,7 +134,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Harry Potter et le Prince de sang-mêlé',
     author: 'J.K. Rowling',
-    readDate: '2005-07-20',
+    firstReadDate: '2005-07-20',
+    lastReadDate: '2005-07-20',
     rating: 5,
     readTimes: 20,
     owned: true,
@@ -136,7 +147,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Harry Potter et les Reliques de la Mort',
     author: 'J.K. Rowling',
-    readDate: '2007-10-30',
+    firstReadDate: '2007-10-30',
+    lastReadDate: '2007-10-30',
     rating: 5,
     readTimes: 15,
     owned: true,
@@ -148,7 +160,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: "Harry Potter et l'Enfant maudit",
     author: 'J.K. Rowling',
-    readDate: '2016-07-31',
+    firstReadDate: '2016-07-31',
+    lastReadDate: '2016-07-31',
     rating: 3,
     readTimes: 1,
     owned: true,
@@ -160,7 +173,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Fascination',
     author: 'Stephenie Meyer',
-    readDate: '2010-07-16',
+    firstReadDate: '2010-07-16',
+    lastReadDate: '2010-07-16',
     rating: 4.75,
     readTimes: 30,
     owned: true,
@@ -172,7 +186,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Tentation',
     author: 'Stephenie Meyer',
-    readDate: '2010-07-17',
+    firstReadDate: '2010-07-17',
+    lastReadDate: '2010-07-17',
     rating: 3.5,
     readTimes: 10,
     owned: true,
@@ -184,7 +199,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Hésitation',
     author: 'Stephenie Meyer',
-    readDate: '2010-07-18',
+    firstReadDate: '2010-07-18',
+    lastReadDate: '2010-07-18',
     rating: 3.5,
     readTimes: 10,
     owned: true,
@@ -196,7 +212,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Révélation',
     author: 'Stephenie Meyer',
-    readDate: '2010-07-19',
+    firstReadDate: '2010-07-19',
+    lastReadDate: '2010-07-19',
     rating: 4.5,
     readTimes: 20,
     owned: true,
@@ -208,7 +225,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Midnight Sun',
     author: 'Stephenie Meyer',
-    readDate: '2020-08-04',
+    firstReadDate: '2020-08-04',
+    lastReadDate: '2025-08-04',
     rating: 5,
     readTimes: 5,
     owned: true,
@@ -220,7 +238,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Le Voleur de foudre',
     author: 'Rick Riordan',
-    readDate: '2024-01-23',
+    firstReadDate: '2024-01-23',
+    lastReadDate: '2024-01-23',
     rating: 3.5,
     readTimes: 1,
     owned: true,
@@ -232,7 +251,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'La Mer des monstres',
     author: 'Rick Riordan',
-    readDate: '2024-01-26',
+    firstReadDate: '2024-01-26',
+    lastReadDate: '2024-01-26',
     rating: 3,
     readTimes: 1,
     owned: true,
@@ -244,7 +264,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Le Sort du titan',
     author: 'Rick Riordan',
-    readDate: '2024-01-28',
+    firstReadDate: '2024-01-28',
+    lastReadDate: '2024-01-28',
     rating: 3.5,
     readTimes: 1,
     owned: true,
@@ -256,7 +277,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'La Bataille du labyrinthe',
     author: 'Rick Riordan',
-    readDate: '2024-02-02',
+    firstReadDate: '2024-02-02',
+    lastReadDate: '2024-02-02',
     rating: 4,
     readTimes: 1,
     owned: true,
@@ -268,7 +290,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Le Dernier Olympien',
     author: 'Rick Riordan',
-    readDate: '2024-02-03',
+    firstReadDate: '2024-02-03',
+    lastReadDate: '2024-02-03',
     rating: 4,
     readTimes: 1,
     owned: true,
@@ -280,7 +303,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Le Calice des dieux',
     author: 'Rick Riordan',
-    readDate: '2025-01-02',
+    firstReadDate: '2025-01-02',
+    lastReadDate: '2025-01-02',
     rating: 2,
     readTimes: 1,
     owned: true,
@@ -292,7 +316,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Divergente',
     author: 'Veronica Roth',
-    readDate: '2025-06-25',
+    firstReadDate: '2025-06-25',
+    lastReadDate: '2025-06-25',
     rating: 4,
     readTimes: 1,
     owned: true,
@@ -304,7 +329,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: "Divergente Tome 2 : L'Insurrection",
     author: 'Veronica Roth',
-    readDate: '2025-08-13',
+    firstReadDate: '2025-08-13',
+    lastReadDate: '2025-08-13',
     rating: 3.5,
     readTimes: 1,
     owned: true,
@@ -316,7 +342,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Divergente Tome 3 : Allégeance',
     author: 'Veronica Roth',
-    readDate: '2025-08-16',
+    firstReadDate: '2025-08-16',
+    lastReadDate: '2025-08-16',
     rating: 3.5,
     readTimes: 1,
     owned: true,
@@ -328,7 +355,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Le Labyrinthe',
     author: 'James Dashner',
-    readDate: '2025-02-11',
+    firstReadDate: '2025-02-11',
+    lastReadDate: '2025-02-11',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -340,7 +368,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Une étude en rouge',
     author: 'Arthur Conan Doyle',
-    readDate: '2024-01-09',
+    firstReadDate: '2024-01-09',
+    lastReadDate: '2024-01-09',
     rating: 4,
     readTimes: 1,
     owned: true,
@@ -352,7 +381,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Le Signe des quatre',
     author: 'Arthur Conan Doyle',
-    readDate: '2024-02-28',
+    firstReadDate: '2024-02-28',
+    lastReadDate: '2024-02-28',
     rating: 4,
     readTimes: 1,
     owned: true,
@@ -364,7 +394,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Le Chien des Baskerville',
     author: 'Arthur Conan Doyle',
-    readDate: '2024-03-07',
+    firstReadDate: '2024-03-07',
+    lastReadDate: '2024-03-07',
     rating: 3.5,
     readTimes: 1,
     owned: true,
@@ -376,7 +407,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'La vallée de la peur',
     author: 'Arthur Conan Doyle',
-    readDate: '2024-07-29',
+    firstReadDate: '2024-07-29',
+    lastReadDate: '2024-07-29',
     rating: 4,
     readTimes: 1,
     owned: true,
@@ -388,7 +420,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Absolu - Les Mobilisés',
     author: 'Margot Dessenne',
-    readDate: '2024-02-26',
+    firstReadDate: '2024-02-26',
+    lastReadDate: '2024-02-26',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -400,7 +433,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Absolu - Les Effacés',
     author: 'Margot Dessenne',
-    readDate: '2024-02-27',
+    firstReadDate: '2024-02-27',
+    lastReadDate: '2024-02-27',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -412,7 +446,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Absolu - Les Éveillés',
     author: 'Margot Dessenne',
-    readDate: '2024-12-21',
+    firstReadDate: '2024-12-21',
+    lastReadDate: '2024-12-21',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -424,7 +459,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Inside Mac: Tome 1',
     author: 'Eny Heli',
-    readDate: '2024-05-20',
+    firstReadDate: '2024-05-20',
+    lastReadDate: '2024-05-20',
     rating: 5,
     readTimes: 3,
     owned: true,
@@ -436,7 +472,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Inside Mac: Tome 2',
     author: 'Eny Heli',
-    readDate: '2024-06-19',
+    firstReadDate: '2024-06-19',
+    lastReadDate: '2024-06-19',
     rating: 4.5,
     readTimes: 2,
     owned: true,
@@ -448,7 +485,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Player One',
     author: 'Ernest Cline',
-    readDate: '2025-01-29',
+    firstReadDate: '2025-01-29',
+    lastReadDate: '2025-01-29',
     rating: 4.5,
     readTimes: 1,
     owned: true,
@@ -460,7 +498,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Ready Player Two',
     author: 'Ernest Cline',
-    readDate: '2025-01-31',
+    firstReadDate: '2025-01-31',
+    lastReadDate: '2025-01-31',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -472,7 +511,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'La femme de ménage',
     author: 'Freida McFadden',
-    readDate: '2025-06-27',
+    firstReadDate: '2025-06-27',
+    lastReadDate: '2025-06-27',
     rating: 4,
     readTimes: 1,
     owned: true,
@@ -484,7 +524,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Les secrets de la femme de ménage',
     author: 'Freida McFadden',
-    readDate: '2025-07-02',
+    firstReadDate: '2025-07-02',
+    lastReadDate: '2025-07-02',
     rating: 3.5,
     readTimes: 1,
     owned: true,
@@ -496,7 +537,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'La femme de ménage se marie',
     author: 'Freida McFadden',
-    readDate: '2025-07-03',
+    firstReadDate: '2025-07-03',
+    lastReadDate: '2025-07-03',
     rating: 3,
     readTimes: 1,
     owned: true,
@@ -508,7 +550,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'La femme de ménage voit tout',
     author: 'Freida McFadden',
-    readDate: '2025-07-04',
+    firstReadDate: '2025-07-04',
+    lastReadDate: '2025-07-04',
     rating: 3.5,
     readTimes: 1,
     owned: true,
@@ -520,7 +563,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Les Trois Mousquetaires',
     author: 'Alexandre Dumas',
-    readDate: '2024-07-01',
+    firstReadDate: '2024-07-01',
+    lastReadDate: '2024-07-01',
     rating: 4,
     readTimes: 1,
     owned: true,
@@ -532,7 +576,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Le Faucon malté',
     author: 'Anthony Horowitz',
-    readDate: '2004-02-28',
+    firstReadDate: '2004-02-28',
+    lastReadDate: '2004-02-28',
     rating: 4,
     readTimes: 5,
     owned: true,
@@ -544,7 +589,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: "L'ennemi public n°2",
     author: 'Anthony Horowitz',
-    readDate: '2004-02-29',
+    firstReadDate: '2004-02-29',
+    lastReadDate: '2004-02-29',
     rating: 3.5,
     readTimes: 3,
     owned: true,
@@ -556,7 +602,8 @@ export const guillaumeBooksSaga: UserBooks = [
   {
     title: 'Devine qui vient tuer',
     author: 'Anthony Horowitz',
-    readDate: '2004-02-30',
+    firstReadDate: '2004-02-30',
+    lastReadDate: '2004-02-30',
     rating: 3.5,
     readTimes: 3,
     owned: true,

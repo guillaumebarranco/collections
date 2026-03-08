@@ -333,10 +333,11 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
   }
 
   private getBookReadYear(book: Book): number | null {
-    if (!book.readDate) {
+    const dateStr = book.lastReadDate || book.firstReadDate;
+    if (!dateStr) {
       return null;
     }
-    const year = new Date(book.readDate).getFullYear();
+    const year = new Date(dateStr).getFullYear();
     if (Number.isNaN(year)) {
       return null;
     }

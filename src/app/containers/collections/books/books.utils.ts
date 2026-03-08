@@ -91,20 +91,28 @@ export const getSortedBooks = (books: Book[], selectedSort: string): Book[] => {
       return books.sort((a, b) => a.author.localeCompare(b.author));
     case 'author-desc':
       return books.sort((a, b) => b.author.localeCompare(a.author));
-    case 'readDate':
+    case 'readDate': {
+      const d = (x: Book) => x.lastReadDate || x.firstReadDate || '';
       return books.sort((a, b) => {
-        if (!a.readDate && !b.readDate) return 0;
-        if (!a.readDate) return 1;
-        if (!b.readDate) return -1;
-        return new Date(b.readDate).getTime() - new Date(a.readDate).getTime();
+        const da = d(a);
+        const db = d(b);
+        if (!da && !db) return 0;
+        if (!da) return 1;
+        if (!db) return -1;
+        return new Date(db).getTime() - new Date(da).getTime();
       });
-    case 'readDate-asc':
+    }
+    case 'readDate-asc': {
+      const d = (x: Book) => x.lastReadDate || x.firstReadDate || '';
       return books.sort((a, b) => {
-        if (!a.readDate && !b.readDate) return 0;
-        if (!a.readDate) return 1;
-        if (!b.readDate) return -1;
-        return new Date(a.readDate).getTime() - new Date(b.readDate).getTime();
+        const da = d(a);
+        const db = d(b);
+        if (!da && !db) return 0;
+        if (!da) return 1;
+        if (!db) return -1;
+        return new Date(da).getTime() - new Date(db).getTime();
       });
+    }
     case 'releaseDate':
       return books.sort((a, b) => {
         if (!a.releaseDate && !b.releaseDate) return 0;
@@ -166,13 +174,17 @@ export const getSortedBooks = (books: Book[], selectedSort: string): Book[] => {
         }
         return a.title.localeCompare(b.title);
       });
-    default:
+    default: {
+      const d = (x: Book) => x.lastReadDate || x.firstReadDate || '';
       return books.sort((a, b) => {
-        if (!a.readDate && !b.readDate) return 0;
-        if (!a.readDate) return 1;
-        if (!b.readDate) return -1;
-        return new Date(b.readDate).getTime() - new Date(a.readDate).getTime();
+        const da = d(a);
+        const db = d(b);
+        if (!da && !db) return 0;
+        if (!da) return 1;
+        if (!db) return -1;
+        return new Date(db).getTime() - new Date(da).getTime();
       });
+    }
   }
 };
 

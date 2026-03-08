@@ -26,7 +26,8 @@ import { DEFAULT_USER_ID } from '../../../utils/constants';
 type EditBookForm = {
   rating: number;
   readTimes: number;
-  readDate: string;
+  firstReadDate: string;
+  lastReadDate: string;
   owned: boolean;
   borrowed: boolean;
   readPriority: number;
@@ -254,7 +255,8 @@ export class EditBookComponent {
           author: book.author,
           rating: form.rating,
           readTimes: form.readTimes,
-          readDate: form.readDate,
+          firstReadDate: form.firstReadDate,
+          lastReadDate: form.lastReadDate,
           owned: form.owned,
           borrowed: form.borrowed,
           readPriority: form.readPriority,
@@ -447,7 +449,8 @@ export class EditBookComponent {
     return {
       rating: book.rating,
       readTimes: book.readTimes || 0,
-      readDate: book.readDate,
+      firstReadDate: book.firstReadDate,
+      lastReadDate: book.lastReadDate,
       owned: book.owned,
       borrowed: book.borrowed ?? false,
       readPriority: book.readPriority ?? 0,

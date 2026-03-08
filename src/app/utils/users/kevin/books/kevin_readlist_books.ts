@@ -4,7 +4,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'Jeux d\'Ombres',
     author: 'Glen Cook',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -16,7 +17,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'Rêves d\'Acier',
     author: 'Glen Cook',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -28,7 +30,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'La Pointe d\'Argent',
     author: 'Glen Cook',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -40,7 +43,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'Saisons Funestes',
     author: 'Glen Cook',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -52,7 +56,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'Elle est les Ténèbres - Part. 1',
     author: 'Glen Cook',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -64,7 +69,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'Elle est les Ténèbres - Part. 2',
     author: 'Glen Cook',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -76,7 +82,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'L\'Eau Dort - Part. 1',
     author: 'Glen Cook',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -88,7 +95,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'L\'Eau Dort - Part. 2',
     author: 'Glen Cook',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -100,7 +108,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'Les Soldats de Pierre - Part. 1',
     author: 'Glen Cook',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -112,7 +121,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'La Voie des Ombres',
     author: 'Brent Weeks',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -124,7 +134,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'Le Prisme Noir',
     author: 'Brent Weeks',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -136,7 +147,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'Les Soldats de Pierre - Part. 2',
     author: 'Glen Cook',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -148,7 +160,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'Le Nom du Vent',
     author: 'Patrick Rothfuss',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -160,7 +173,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'La Peur du Sage (2/2)',
     author: 'Patrick Rothfuss',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -172,7 +186,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'Le Choix des Ombres',
     author: 'Brent Weeks',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -184,7 +199,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'Au-delà des Ombres',
     author: 'Brent Weeks',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -196,7 +212,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'Le Roi des Cimes',
     author: 'Stephen Deas',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -208,7 +225,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'L\'Ordre des Ecailleux',
     author: 'Stephen Deas',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -220,7 +238,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'Le Feu de la Sorcière',
     author: 'James Clemens',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -232,7 +251,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'Les Foudres de la Sorcière',
     author: 'James Clemens',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -244,7 +264,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'La Guerre de la Sorcière',
     author: 'James Clemens',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -256,7 +277,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'Le Portail de la Sorcière',
     author: 'James Clemens',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -268,7 +290,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'L\'Etoile de la Sorcière',
     author: 'James Clemens',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -280,7 +303,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'Le Couteau Aveuglant',
     author: 'Brent Weeks',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -292,7 +316,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'L\'Oeil Brisé',
     author: 'Brent Weeks',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -304,7 +329,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'Le Miroir de Sang',
     author: 'Brent Weeks',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -316,7 +342,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'Le Blanc Incandescent (1/2)',
     author: 'Brent Weeks',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -328,7 +355,8 @@ export const kevinReadListBooks: UserBooks = [
   {
     title: 'Le Blanc Incandescent (2/2)',
     author: 'Brent Weeks',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,

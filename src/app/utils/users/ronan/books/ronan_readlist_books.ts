@@ -4,7 +4,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Les Hauts de Hurlevent',
     author: 'Emily Brontë',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -17,7 +18,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Voyage au centre de la terre',
     author: 'Jules Verne',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -30,7 +32,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Le tour du monde en 80 jours',
     author: 'Jules Verne',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -43,7 +46,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Vingt Mille Lieues sous les mers',
     author: 'Jules Verne',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -56,7 +60,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: "L'Île mystérieuse",
     author: 'Jules Verne',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -69,7 +74,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'De la Terre à la Lune',
     author: 'Jules Verne',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -82,7 +88,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Le Portrait de Dorian Gray',
     author: 'Oscar Wilde',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -95,7 +102,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'La Ferme des animaux',
     author: 'George Orwell',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -108,7 +116,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Orgueil et Préjugés',
     author: 'Jane Austen',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -121,7 +130,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: '1984',
     author: 'George Orwell',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -134,7 +144,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Fondation',
     author: 'Isaac Asimov',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -147,7 +158,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Fahrenheit 451',
     author: 'Ray Bradbury',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -160,7 +172,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Dracula',
     author: 'Bram Stoker',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -173,7 +186,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Jane Eyre',
     author: 'Charlotte Brontë',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -186,7 +200,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Carrie',
     author: 'Stephen King',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -199,7 +214,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Désolation',
     author: 'Stephen King',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -212,7 +228,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Gatsby le magnifique',
     author: 'F. Scott Fitzgerald',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -225,7 +242,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'La guerre des mondes',
     author: 'H.G. Wells',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -238,7 +256,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'La machine à explorer le temps',
     author: 'H.G. Wells',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -251,7 +270,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: "L'homme invisible",
     author: 'H.G. Wells',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -264,7 +284,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Alchemised',
     author: 'SenLinYu',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -277,7 +298,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: "L'Odyssée",
     author: 'Homère',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -290,7 +312,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: "L'Iliade",
     author: 'Homère',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -303,7 +326,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Là où chantent les écrevisses',
     author: 'Delia Owens',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -316,7 +340,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Les sortceliers',
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -329,7 +354,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Le livre interdit',
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -342,7 +368,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Le sceptre maudit',
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -355,7 +382,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Le dragon renégat',
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -368,7 +396,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Le continent interdit',
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -381,7 +410,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Dans le piège de Magister',
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -394,7 +424,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: "Tara Duncan et l'invasion fantôme",
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -407,7 +438,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: "L'impératrice maléfique",
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -420,7 +452,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Tara Duncan contre la reine noire',
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -433,7 +466,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Dragons contre Démons',
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -446,7 +480,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'La Guerre des planètes',
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -459,7 +494,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: "L'Ultime Combat",
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -472,7 +508,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Tara et Cal',
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -485,7 +522,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: "Le Trône de fer, L'Intégrale Tome 1",
     author: 'George R.R. Martin',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -498,7 +536,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: "Le Trône de fer, L'Intégrale Tome 2",
     author: 'George R.R. Martin',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -511,7 +550,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: "Le Trône de fer, L'Intégrale Tome 3",
     author: 'George R.R. Martin',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -524,7 +564,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Hunger Games',
     author: 'Suzanne Collins',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -537,7 +578,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: "L'Embrasement",
     author: 'Suzanne Collins',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -550,7 +592,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'La Révolte',
     author: 'Suzanne Collins',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -563,7 +606,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: "La Ballade du serpent et de l'oiseau chanteur",
     author: 'Suzanne Collins',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -576,7 +620,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Lever de soleil sur la moisson',
     author: 'Suzanne Collins',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -589,7 +634,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Le Calice des dieux',
     author: 'Rick Riordan',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -602,7 +648,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Le Labyrinthe',
     author: 'James Dashner',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -615,7 +662,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Player One',
     author: 'Ernest Cline',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -628,7 +676,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Ready Player Two',
     author: 'Ernest Cline',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -641,7 +690,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Les secrets de la femme de ménage',
     author: 'Freida McFadden',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -654,7 +704,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'La femme de ménage se marie',
     author: 'Freida McFadden',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -667,7 +718,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'La femme de ménage voit tout',
     author: 'Freida McFadden',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -680,7 +732,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Les Trois Mousquetaires',
     author: 'Alexandre Dumas',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -693,7 +746,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Les filles du Docteur March',
     author: 'Louisa May Alcott',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -706,7 +760,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Dark Shores',
     author: 'Danielle L. Jensen',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -719,7 +774,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Notre-Dame de Paris',
     author: 'Victor Hugo',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -732,7 +788,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Le vicomte de Bragelonne',
     author: 'Alexandre Dumas',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -745,7 +802,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'La reine Margot',
     author: 'Alexandre Dumas',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -758,7 +816,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Le trone de fer intégrale 4',
     author: 'George R.R. Martin',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -771,7 +830,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Le trone de fer intégrale 5',
     author: 'George R.R. Martin',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -784,7 +844,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Le Parfum',
     author: 'Patrick Süskind',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -797,7 +858,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Cinq semaines en ballon',
     author: 'Jules Verne',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -810,7 +872,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Autour de la Lune',
     author: 'Jules Verne',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -823,7 +886,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'The Dead zone',
     author: 'Stephen King',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -836,7 +900,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Gagner la guerre',
     author: 'Jean-Philippe Jaworski',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -849,7 +914,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Le Nom du Vent',
     author: 'Patrick Rothfuss',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -862,7 +928,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'La Peur du Sage (2/2)',
     author: 'Patrick Rothfuss',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -875,7 +942,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'La Peur du Sage (1/2)',
     author: 'Patrick Rothfuss',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -888,7 +956,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: "L'étranger",
     author: 'Albert Camus',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -901,7 +970,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Hamlet',
     author: 'William Shakespeare',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -914,7 +984,8 @@ export const ronanReadListBooks: UserBooks = [
   {
     title: 'Macbeth',
     author: 'William Shakespeare',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,

@@ -167,7 +167,8 @@ export class SelectBooksComponent
           ...book,
           readTimes: 1,
           rating: 0,
-          readDate: '',
+          firstReadDate: '',
+          lastReadDate: '',
         };
       });
 

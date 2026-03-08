@@ -60,7 +60,8 @@ function formatUserBook(book: any, options?: { rating?: number; ratingComment?: 
   return `  {
     title: '${escapeString(book.title)}',
     author: '${escapeString(book.author)}',
-    readDate: '${readDate}',
+    firstReadDate: '${readDate}',
+    lastReadDate: '${readDate}',
     rating: ${rating},
     readTimes: 1,
     owned: false,
@@ -75,7 +76,8 @@ function formatReadlistBook(book: any) {
   return `  {
     title: '${escapeString(book.title)}',
     author: '${escapeString(book.author)}',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 0,
     owned: false,

@@ -77,9 +77,9 @@
     <p class="book-pages">
       <span>{{ book.pages }}</span> pages
     </p>
-    } @if (book.readDate.includes('-') && !isBaseEntityView) {
+    } @if ((book.lastReadDate || book.firstReadDate).includes('-') && !isBaseEntityView) {
     <p class="book-read-times">
-      Lu le {{ book.readDate | date : "dd/MM/yyyy" }}
+      Lu le {{ (book.lastReadDate || book.firstReadDate) | date : "dd/MM/yyyy" }}
     </p>
     } @if (book.readTimes && book.readTimes > 1 && !isBaseEntityView) {
     <p class="book-read-times">Lu {{ book.readTimes }} fois</p>

@@ -401,29 +401,38 @@ export class BooksComponent implements OnInit {
   filteredBooksByYear = computed(() => {
     let filteredBooks = [...this.filteredBooks()];
 
-    // Filtrage par année (livres lus, empruntés ou à relire)
+    // Filtrage par année (livres lus, empruntés ou à relire) : inclut les livres dont firstReadDate OU lastReadDate correspond à l'année
     if (
       this.selectedView() === 'read' ||
       this.selectedView() === 'borrowed' ||
       this.selectedView() === 'toReRead'
     ) {
+      const dateInYear = (
+        b: { firstReadDate: string; lastReadDate: string },
+        yearStr: string
+      ) =>
+        (b.firstReadDate && b.firstReadDate.startsWith(yearStr)) ||
+        (b.lastReadDate && b.lastReadDate.startsWith(yearStr));
+      const dateBefore2024 = (b: {
+        firstReadDate: string;
+        lastReadDate: string;
+      }) => {
+        const yearFrom = (s: string) =>
+          s && s.length >= 4 ? parseInt(s.substring(0, 4), 10) : NaN;
+        const y1 = yearFrom(b.firstReadDate);
+        const y2 = yearFrom(b.lastReadDate);
+        return (
+          (!Number.isNaN(y1) && y1 < 2024) || (!Number.isNaN(y2) && y2 < 2024)
+        );
+      };
       if (this.selectedYearFilter() === '2026') {
-        filteredBooks = filteredBooks.filter((b) =>
-          b.readDate.startsWith('2026')
-        );
+        filteredBooks = filteredBooks.filter((b) => dateInYear(b, '2026'));
       } else if (this.selectedYearFilter() === '2025') {
-        filteredBooks = filteredBooks.filter((b) =>
-          b.readDate.startsWith('2025')
-        );
+        filteredBooks = filteredBooks.filter((b) => dateInYear(b, '2025'));
       } else if (this.selectedYearFilter() === '2024') {
-        filteredBooks = filteredBooks.filter((b) =>
-          b.readDate.startsWith('2024')
-        );
+        filteredBooks = filteredBooks.filter((b) => dateInYear(b, '2024'));
       } else if (this.selectedYearFilter() === 'before2024') {
-        filteredBooks = filteredBooks.filter((b) => {
-          const year = parseInt(b.readDate.substring(0, 4), 10);
-          return !Number.isNaN(year) && year < 2024;
-        });
+        filteredBooks = filteredBooks.filter((b) => dateBefore2024(b));
       }
 
       // Vue « Livres empruntés » : garder aussi les empruntés de la readlist (sans date de lecture)

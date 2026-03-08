@@ -4,7 +4,8 @@ export const xerythBooks: UserBooks = [
   {
     title: 'Iron Prince',
     author: "Bryce O'Connor et Luke Chmilenko",
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -17,7 +18,8 @@ export const xerythBooks: UserBooks = [
   {
     title: "Harry Potter à l'école des sorciers",
     author: 'J.K. Rowling',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,

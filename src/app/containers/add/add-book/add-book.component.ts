@@ -23,7 +23,8 @@ type AddBookEntityForm = {
 type AddBookUserForm = {
   rating: number;
   readTimes: number;
-  readDate: string;
+  firstReadDate: string;
+  lastReadDate: string;
   owned: boolean;
   borrowed: boolean;
   readPriority: number;
@@ -68,7 +69,8 @@ export class AddBookComponent {
   userForm = signal<AddBookUserForm>({
     rating: 0,
     readTimes: 1,
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     owned: false,
     borrowed: false,
     readPriority: 1,

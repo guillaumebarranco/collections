@@ -4,7 +4,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Charlie et la Chocolaterie',
     author: 'Roald Dahl',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -17,7 +18,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'The Shining',
     author: 'Stephen King',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -29,7 +31,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les Hauts de Hurlevent',
     author: 'Emily Brontë',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -42,7 +45,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Voyage au centre de la terre',
     author: 'Jules Verne',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -55,7 +59,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le tour du monde en 80 jours',
     author: 'Jules Verne',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -68,7 +73,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Vingt Mille Lieues sous les mers',
     author: 'Jules Verne',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -81,7 +87,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'Île mystérieuse",
     author: 'Jules Verne',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -94,7 +101,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'De la Terre à la Lune',
     author: 'Jules Verne',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -107,7 +115,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le Comte de Monte-Cristo',
     author: 'Alexandre Dumas',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 5,
     readTimes: 1,
     owned: false,
@@ -120,7 +129,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Frankenstein',
     author: 'Mary Shelley',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -133,7 +143,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le Portrait de Dorian Gray',
     author: 'Oscar Wilde',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2,
     readTimes: 1,
     owned: false,
@@ -146,7 +157,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La Ferme des animaux',
     author: 'George Orwell',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -159,7 +171,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Orgueil et Préjugés',
     author: 'Jane Austen',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -172,7 +185,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Emma',
     author: 'Jane Austen',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -185,7 +199,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: '1984',
     author: 'George Orwell',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -198,7 +213,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Fahrenheit 451',
     author: 'Ray Bradbury',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -211,7 +227,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Miss Marple au club du mardi',
     author: 'Agatha Christie',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -224,7 +241,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "Le crime de l'Orient Express",
     author: 'Agatha Christie',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -237,7 +255,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Mort sur le Nil',
     author: 'Agatha Christie',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -250,7 +269,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Ils étaient dix',
     author: 'Agatha Christie',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -263,7 +283,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Cinq petits cochons',
     author: 'Agatha Christie',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -276,7 +297,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Jane Eyre',
     author: 'Charlotte Brontë',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -289,7 +311,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Une vie',
     author: 'Guy de Maupassant',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -302,7 +325,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La Nuit des temps',
     author: 'René Barjavel',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -315,7 +339,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Madame Bovary',
     author: 'Gustave Flaubert',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2,
     readTimes: 1,
     owned: false,
@@ -328,7 +353,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Résister',
     author: 'Salomé Saqué',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -341,7 +367,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'Île au trésor",
     author: 'Robert Louis Stevenson',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -354,7 +381,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Candide',
     author: 'Voltaire',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -367,7 +395,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'étrange cas du docteur Jekyll et de Mr. Hyde",
     author: 'Robert Louis Stevenson',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -380,7 +409,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La Potion magique de Georges Bouillon',
     author: 'Roald Dahl',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2,
     readTimes: 1,
     owned: false,
@@ -393,7 +423,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Gatsby le magnifique',
     author: 'F. Scott Fitzgerald',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2,
     readTimes: 1,
     owned: false,
@@ -406,7 +437,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'homme invisible",
     author: 'H.G. Wells',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -419,7 +451,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'Iliade",
     author: 'Homère',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -432,7 +465,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'Odyssée",
     author: 'Homère',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -445,7 +479,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Là où chantent les écrevisses',
     author: 'Delia Owens',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -458,7 +493,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Roméo et Juliette',
     author: 'William Shakespeare',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -471,7 +507,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Don Quichotte',
     author: 'Miguel de Cervantes',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -484,7 +521,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Faust',
     author: 'Johann Wolfgang von Goethe',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -497,7 +535,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les Mille et Une Nuits',
     author: 'Anonymous',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -510,7 +549,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Anna Karénine',
     author: 'Léon Tolstoï',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -523,7 +563,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "Le Journal d'Anne Frank",
     author: 'Anne Frank',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -536,7 +577,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Da Vinci Code',
     author: 'Dan Brown',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -549,7 +591,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Martin Eden',
     author: 'Jack London',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -562,7 +605,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Sa majesté des mouches',
     author: 'William Golding',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -575,7 +619,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La Couleur des sentiments',
     author: 'Kathryn Stockett',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -588,7 +633,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les raisins de la colère',
     author: 'John Steinbeck',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -601,7 +647,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le Vieil Homme et la Mer',
     author: 'Ernest Hemingway',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -614,7 +661,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "Lettre d'une inconnue",
     author: 'Stefan Zweig',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -627,7 +675,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La Dame aux camélias',
     author: 'Alexandre Dumas fils',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -640,7 +689,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Tristan et Iseult',
     author: 'René Louis',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -653,7 +703,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Moby Dick',
     author: 'Herman Melville',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -666,7 +717,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'À la recherche du temps perdu',
     author: 'Marcel Proust',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -679,7 +731,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'attrape-cœurs",
     author: 'J.D. Salinger',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -692,7 +745,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Voyage au bout de la nuit',
     author: 'Louis-Ferdinand Céline',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -705,7 +759,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le Petit Prince',
     author: 'Antoine de Saint-Exupéry',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -718,7 +773,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les Misérables',
     author: 'Victor Hugo',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -731,7 +787,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Croc-Blanc',
     author: 'Jack London',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -744,7 +801,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "Le Trône de fer, L'Intégrale Tome 1",
     author: 'George R.R. Martin',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -757,7 +815,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "Le Trône de fer, L'Intégrale Tome 2",
     author: 'George R.R. Martin',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -770,7 +829,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "Le Trône de fer, L'Intégrale Tome 3",
     author: 'George R.R. Martin',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -783,7 +843,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
     author: 'J.R.R. Tolkien',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -796,7 +857,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les deux tours',
     author: 'J.R.R. Tolkien',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -809,7 +871,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le retour du roi',
     author: 'J.R.R. Tolkien',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -822,7 +885,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'étranger",
     author: 'Albert Camus',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -835,7 +899,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Croc-Blanc',
     author: 'Jack London',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -848,7 +913,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La Planète des singes',
     author: 'Pierre Boulle',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2,
     readTimes: 1,
     owned: false,
@@ -861,7 +927,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "Harry Potter à l'école des sorciers",
     author: 'J.K. Rowling',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -874,7 +941,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Harry Potter et la Chambre des secrets',
     author: 'J.K. Rowling',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -887,7 +955,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "Harry Potter et le Prisonnier d'Azkaban",
     author: 'J.K. Rowling',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -900,7 +969,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Harry Potter et la Coupe de feu',
     author: 'J.K. Rowling',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -913,7 +983,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "Harry Potter et l'Ordre du Phénix",
     author: 'J.K. Rowling',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -926,7 +997,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Harry Potter et le Prince de sang-mêlé',
     author: 'J.K. Rowling',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -939,7 +1011,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Harry Potter et les Reliques de la Mort',
     author: 'J.K. Rowling',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -952,7 +1025,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "Harry Potter et l'Enfant maudit",
     author: 'J.K. Rowling',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -965,7 +1039,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Une étude en rouge',
     author: 'Arthur Conan Doyle',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -978,7 +1053,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le Signe des quatre',
     author: 'Arthur Conan Doyle',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -991,7 +1067,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le Chien des Baskerville',
     author: 'Arthur Conan Doyle',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -1004,7 +1081,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La vallée de la peur',
     author: 'Arthur Conan Doyle',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -1017,7 +1095,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les Trois Mousquetaires',
     author: 'Alexandre Dumas',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 5,
     readTimes: 1,
     owned: false,
@@ -1030,7 +1109,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La Louve de France',
     author: 'Maurice Druon',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -1043,7 +1123,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le Lis et le Lion',
     author: 'Maurice Druon',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -1056,7 +1137,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La Loi des mâles',
     author: 'Maurice Druon',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -1069,7 +1151,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La Reine étranglée',
     author: 'Maurice Druon',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -1082,7 +1165,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les Poisons de la Couronne',
     author: 'Maurice Druon',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -1095,7 +1179,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Quand un roi perd la France',
     author: 'Maurice Druon',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -1108,7 +1193,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Crime et chatiment',
     author: 'Fiodor Dostoïevski',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -1121,7 +1207,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les liaisons dangereuses',
     author: 'Pierre Choderlos de Laclos',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -1134,7 +1221,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les piliers de la terre',
     author: 'Ken Follett',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 5,
     readTimes: 1,
     owned: false,
@@ -1147,7 +1235,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le Horla',
     author: 'Guy de Maupassant',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -1160,7 +1249,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'écume des jours",
     author: 'Boris Vian',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -1173,7 +1263,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Notre-Dame de Paris',
     author: 'Victor Hugo',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -1186,7 +1277,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le roi de fer',
     author: 'Maurice Druon',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -1199,7 +1291,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le vicomte de Bragelonne',
     author: 'Alexandre Dumas',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 5,
     readTimes: 1,
     owned: false,
@@ -1212,7 +1305,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La reine Margot',
     author: 'Alexandre Dumas',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -1225,7 +1319,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le trone de fer intégrale 4',
     author: 'George R.R. Martin',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -1238,7 +1333,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le trone de fer intégrale 5',
     author: 'George R.R. Martin',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -1251,7 +1347,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Robinson Crusoe',
     author: 'Daniel Defoe',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -1264,7 +1361,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Cyrano de Bergerac',
     author: 'Edmond Rostand',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -1277,7 +1375,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le Parfum',
     author: 'Patrick Süskind',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -1290,7 +1389,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Cinq semaines en ballon',
     author: 'Jules Verne',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -1303,7 +1403,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Autour de la Lune',
     author: 'Jules Verne',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -1316,7 +1417,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'enfer",
     author: 'Dante Alighieri',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -1329,7 +1431,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'epopée de Gilgamesh",
     author: 'Anonyme',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -1342,7 +1445,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Hamlet',
     author: 'William Shakespeare',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -1355,7 +1459,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Macbeth',
     author: 'William Shakespeare',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -1368,7 +1473,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les voyages de Gulliver',
     author: 'Jonathan Swift',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -1381,7 +1487,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le Procès',
     author: 'Franz Kafka',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -1394,7 +1501,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La Métamorphose',
     author: 'Franz Kafka',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2,
     readTimes: 1,
     owned: false,
@@ -1407,7 +1515,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Guerre et Paix',
     author: 'Léon Tolstoï',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -1420,7 +1529,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les Frères Karamazov',
     author: 'Fiodor Dostoïevski',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2,
     readTimes: 1,
     owned: false,
@@ -1432,7 +1542,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Autant en emporte le vent',
     author: 'Margaret Mitchell',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: true,
@@ -1444,7 +1555,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Bel-Ami',
     author: 'Guy de Maupassant',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -1456,7 +1568,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les filles du Docteur March',
     author: 'Louisa May Alcott',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: true,
@@ -1468,7 +1581,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le Château des Papes : Les Intriguants',
     author: 'Inconnu',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -1480,7 +1594,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le Château des Papes II : Les bâtisseurs',
     author: 'Inconnu',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -1492,7 +1607,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le Château des Papes III : Les Impétueux',
     author: 'Inconnu',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -1504,7 +1620,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'No Pasaran le jeu',
     author: 'Christian Lehmann',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -1516,7 +1633,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le Passeur',
     author: 'Lois Lowry',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -1528,7 +1646,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Délivrez-nous du mal',
     author: 'Romain Sardou',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -1540,7 +1659,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Pardonnez nos offenses',
     author: 'Romain Sardou',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -1552,7 +1672,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'éclat de dieu ou le roman du temps",
     author: 'Romain Sardou',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -1564,7 +1685,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Un homme averti ne vaut rien',
     author: 'Romain Sardou',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -1576,7 +1698,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Quitte Rome ou meurs',
     author: 'Romain Sardou',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -1588,7 +1711,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'America I : La treizième colonie',
     author: 'Romain Sardou',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -1600,7 +1724,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'America II : La main rouge',
     author: 'Romain Sardou',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -1612,7 +1737,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "Le dernier jour d'un condamné",
     author: 'Victor Hugo',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -1624,7 +1750,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Hernani',
     author: 'Victor Hugo',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -1636,7 +1763,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Cromwell',
     author: 'Victor Hugo',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -1648,7 +1776,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Lucrèce Borgia',
     author: 'Victor Hugo',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -1660,7 +1789,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les châtiments',
     author: 'Victor Hugo',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -1672,7 +1802,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les Contemplations',
     author: 'Victor Hugo',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -1684,7 +1815,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les Orientales',
     author: 'Victor Hugo',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -1696,7 +1828,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La peste',
     author: 'Albert Camus',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -1708,7 +1841,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le bourgeois Gentilshommes',
     author: 'Molière',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -1720,7 +1854,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les fourberies de Scapin',
     author: 'Molière',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -1732,7 +1867,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'avare",
     author: 'Molière',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -1744,7 +1880,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'école des femmes",
     author: 'Molière',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -1756,7 +1893,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'école des maris",
     author: 'Molière',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -1768,7 +1906,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Tartuffe',
     author: 'Molière',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -1780,7 +1919,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les précieuses ridicules',
     author: 'Molière',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -1792,7 +1932,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le Misanthrope',
     author: 'Molière',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -1804,7 +1945,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le Cid',
     author: 'Corneille',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -1816,7 +1958,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le mariage de Figaro',
     author: 'Beaumarchais',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -1828,7 +1971,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le barbier de Seville',
     author: 'Beaumarchais',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -1840,7 +1984,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'autre Tartuffe ou la mère coupable",
     author: 'Beaumarchais',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -1852,7 +1997,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: '20 ans après',
     author: 'Alexandre Dumas',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -1864,7 +2010,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le Collier de la reine',
     author: 'Alexandre Dumas',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -1876,7 +2023,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La Fille du marquis',
     author: 'Alexandre Dumas',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -1888,7 +2036,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Un Monde sans fin',
     author: 'Ken Follett',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -1900,7 +2049,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Une Colonne de feu',
     author: 'Ken Follett',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -1912,7 +2062,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les armes de la lumière',
     author: 'Ken Follett',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -1924,7 +2075,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "Le crépuscule et l'aube",
     author: 'Ken Follett',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -1936,7 +2088,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La chute des géants',
     author: 'Ken Follett',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 5,
     readTimes: 1,
     owned: false,
@@ -1948,7 +2101,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'hiver du monde",
     author: 'Ken Follett',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 5,
     readTimes: 1,
     owned: false,
@@ -1960,7 +2114,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "Aux portes de l'éternité",
     author: 'Ken Follett',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 5,
     readTimes: 1,
     owned: false,
@@ -1972,7 +2127,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le Cercle des jours',
     author: 'Ken Follett',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -1984,7 +2140,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Anges et démons',
     author: 'Dan Brown',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -1996,7 +2153,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le Symbole Perdu',
     author: 'Dan Brown',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -2008,7 +2166,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Inferno',
     author: 'Dan Brown',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -2020,7 +2179,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Origine',
     author: 'Dan Brown',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -2032,7 +2192,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le Secret des secrets',
     author: 'Dan Brown',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -2044,7 +2205,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Forteresse Digitale',
     author: 'Dan Brown',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -2056,7 +2218,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Deception Point',
     author: 'Dan Brown',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -2068,7 +2231,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "La Vérité sur l'Affaire Harry Quebert",
     author: 'Joël Dicker',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -2080,7 +2244,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le Livre des Baltimore',
     author: 'Joël Dicker',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -2092,7 +2257,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'Affaire Alaska Sanders",
     author: 'Joël Dicker',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -2104,7 +2270,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La chambre 622',
     author: 'Joël Dicker',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -2116,7 +2283,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les derniers de nos pères',
     author: 'Joël Dicker',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -2128,7 +2296,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Pantagruel',
     author: 'François Rabelais',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -2140,7 +2309,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Gargantua',
     author: 'François Rabelais',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -2152,7 +2322,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le rouge et le noir',
     author: 'Stendhal',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -2164,7 +2335,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'De grandes espérances',
     author: 'Charles Dickens',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -2176,7 +2348,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Oliver Twist',
     author: 'Charles Dickens',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -2188,7 +2361,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le nom de la rose',
     author: 'Umberto Eco',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4.5,
     readTimes: 1,
     owned: false,
@@ -2200,7 +2374,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les oiseaux se cachent pour mourir',
     author: 'Colleen McCullough',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -2212,7 +2387,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Mon bel Oranger',
     author: 'José Mauro de Vasconcelos',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 5,
     readTimes: 1,
     owned: false,
@@ -2224,7 +2400,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "La promesse de l'aube",
     author: 'Romain Gary',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -2236,7 +2413,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les Aventures de Sherlock Holmes',
     author: 'Arthur Conan Doyle',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -2248,7 +2426,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les Mémoires de Sherlock Holmes',
     author: 'Arthur Conan Doyle',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -2260,7 +2439,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le Retour de Sherlock Holmes',
     author: 'Arthur Conan Doyle',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -2272,7 +2452,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "Son dernier coup d'archet",
     author: 'Arthur Conan Doyle',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -2284,7 +2465,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les Archives de Sherlock Holmes',
     author: 'Arthur Conan Doyle',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -2296,7 +2478,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Arsène Lupin, gentleman cambrioleur',
     author: 'Maurice Leblanc',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -2308,7 +2491,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Arsène Lupin contre Herlock Sholmès',
     author: 'Maurice Leblanc',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3.5,
     readTimes: 1,
     owned: false,
@@ -2320,7 +2504,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'Aiguille creuse",
     author: 'Maurice Leblanc',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 4,
     readTimes: 1,
     owned: false,
@@ -2332,7 +2517,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "La double vie d'Arsène Lupin",
     author: 'Maurice Leblanc',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -2344,7 +2530,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "Les trois crimes d'Arsène Lupin",
     author: 'Maurice Leblanc',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -2356,7 +2543,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le Bouchon de cristal',
     author: 'Maurice Leblanc',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -2368,7 +2556,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "Les Confidences d'Arsène Lupin",
     author: 'Maurice Leblanc',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -2380,7 +2569,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'Éclat d'obus",
     author: 'Maurice Leblanc',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -2392,7 +2582,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "Le Triangle d'or",
     author: 'Maurice Leblanc',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -2404,7 +2595,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'Île aux trente cercueils",
     author: 'Maurice Leblanc',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -2416,7 +2608,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les Dents du tigre',
     author: 'Maurice Leblanc',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -2428,7 +2621,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "Les Huit Coups de l'horloge",
     author: 'Maurice Leblanc',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -2440,7 +2634,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La Comtesse de Cagliostro',
     author: 'Maurice Leblanc',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -2452,7 +2647,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La Demoiselle aux yeux verts',
     author: 'Maurice Leblanc',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -2464,7 +2660,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "Le Cabochon d'émeraude suivi de L'Homme à la peau de bique",
     author: 'Maurice Leblanc',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -2476,7 +2673,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'Agence Barnett et Cie",
     author: 'Maurice Leblanc',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -2488,7 +2686,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La Demeure mystérieuse',
     author: 'Maurice Leblanc',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -2500,7 +2699,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La Barre-y-va',
     author: 'Maurice Leblanc',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -2512,7 +2712,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La Femme aux deux sourires',
     author: 'Maurice Leblanc',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -2524,7 +2725,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Victor, de la Brigade mondaine',
     author: 'Maurice Leblanc',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2,
     readTimes: 1,
     owned: false,
@@ -2536,7 +2738,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La Cagliostro se venge',
     author: 'Maurice Leblanc',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -2548,7 +2751,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "Le Dernier Amour d'Arsène Lupin",
     author: 'Maurice Leblanc',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -2560,7 +2764,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'Arrestation d'Arsène Lupin",
     author: 'Maurice Leblanc',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -2572,7 +2777,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les Trois Yeux',
     author: 'Maurice Leblanc',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -2584,7 +2790,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le Formidable Événement',
     author: 'Maurice Leblanc',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -2596,7 +2803,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Dorothée, danseuse de corde',
     author: 'Maurice Leblanc',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 2.5,
     readTimes: 1,
     owned: false,
@@ -2608,7 +2816,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La Vie extravagante de Balthazar',
     author: 'Maurice Leblanc',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -2621,7 +2830,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les Deux Royaumes',
     author: 'Bernard Werber',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2633,7 +2843,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'Arbre des possible",
     author: 'Bernard Werber',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2645,7 +2856,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les fourmis',
     author: 'Bernard Werber',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2657,7 +2869,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le jour des fourmis',
     author: 'Bernard Werber',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2669,7 +2882,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La révolution des fourmis',
     author: 'Bernard Werber',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2681,7 +2895,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les Thanatonautes',
     author: 'Bernard Werber',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2693,7 +2908,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'empire des Anges",
     author: 'Bernard Werber',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2705,7 +2921,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Nous, les dieux',
     author: 'Bernard Werber',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2717,7 +2934,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Pélléas et Mélisande',
     author: 'Maurice Maeterlinck',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2729,7 +2947,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La vie des Abeilles',
     author: 'Maurice Maeterlinck',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2741,7 +2960,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'intelligence des Fleurs",
     author: 'Maurice Maeterlinck',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2753,7 +2973,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La mort',
     author: 'Maurice Maeterlinck',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2765,7 +2986,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les nouvelles enquêtes de Maigret',
     author: 'Georges Simenon',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2777,7 +2999,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les 13 coupables',
     author: 'Georges Simenon',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2789,7 +3012,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "Songe d'une nuit d'été",
     author: 'William Shakespeare',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2801,7 +3025,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La Nuit des rois',
     author: 'William Shakespeare',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2813,7 +3038,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le marchand de Venise',
     author: 'William Shakespeare',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2825,7 +3051,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La mégère apprivoisée',
     author: 'William Shakespeare',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2837,7 +3064,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Richard II',
     author: 'William Shakespeare',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2849,7 +3077,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Richard III',
     author: 'William Shakespeare',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2861,7 +3090,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Othello',
     author: 'William Shakespeare',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2873,7 +3103,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le roi Lear',
     author: 'William Shakespeare',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2885,7 +3116,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Antoine et Cléopâtre',
     author: 'William Shakespeare',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2897,7 +3129,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Antigone',
     author: 'Jean Anouilh',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2909,7 +3142,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Eurydice',
     author: 'Jean Anouilh',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2921,7 +3155,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Thomas Becket',
     author: 'Jean Anouilh',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2933,7 +3168,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "La Guerre de Troie n'aura pas lieu",
     author: 'Jean Giraudoux',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2945,7 +3181,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Chantecler',
     author: 'Edmond Rostand',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2957,7 +3194,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'Aiglon",
     author: 'Edmond Rostand',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2969,7 +3207,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La Divine Comédie',
     author: 'Dante Alighieri',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2981,7 +3220,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'Énéide",
     author: 'Virgile',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -2993,7 +3233,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Lancelot ou le Chevalier de la charrette',
     author: 'Chrétien de Troyes',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3005,7 +3246,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Yvain ou le Chevalier au lion',
     author: 'Chrétien de Troyes',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3017,7 +3259,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Perceval ou le Conte du Graal',
     author: 'Chrétien de Troyes',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3029,7 +3272,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La Prophétie des Andes',
     author: 'James Redfield',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3041,7 +3285,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La Dixième Prophétie',
     author: 'James Redfield',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3053,7 +3298,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le Secret de Shambhala',
     author: 'James Redfield',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3065,7 +3311,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le Capital',
     author: 'Karl Marx',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3077,7 +3324,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le Manifeste du parti communiste',
     author: 'Karl Marx',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3089,7 +3337,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Eichmann à Jérusalem',
     author: 'Hannah Arendt',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3101,7 +3350,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'Origine des espèces",
     author: 'Charles Darwin',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3113,7 +3363,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Utopie',
     author: 'Thomas More',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3125,7 +3376,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les Mémoires',
     author: 'Winston Churchill',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3137,7 +3389,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "La Gloire de l'Empire",
     author: "Jean d'Ormesson",
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3149,7 +3402,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'Amour est un plaisir",
     author: "Jean d'Ormesson",
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3161,7 +3415,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Histoire du Juif errant',
     author: "Jean d'Ormesson",
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3173,7 +3428,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Guide des égarés',
     author: "Jean d'Ormesson",
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3185,7 +3441,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Et moi je vis toujours',
     author: "Jean d'Ormesson",
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3197,7 +3454,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Un Hosanna sans fin',
     author: "Jean d'Ormesson",
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3209,7 +3467,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'Évangile selon Pilate",
     author: 'Éric-Emmanuel Schmitt',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3221,7 +3480,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Ulysse from Bagdad',
     author: 'Éric-Emmanuel Schmitt',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3233,7 +3493,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Oscar et la dame en rose',
     author: 'Éric-Emmanuel Schmitt',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3245,7 +3506,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Paradis perdus',
     author: 'Éric-Emmanuel Schmitt',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3257,7 +3519,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La Porte du ciel',
     author: 'Éric-Emmanuel Schmitt',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3269,7 +3532,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Soleil sombre',
     author: 'Éric-Emmanuel Schmitt',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3281,7 +3545,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La Lumière du bonheur',
     author: 'Éric-Emmanuel Schmitt',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3293,7 +3558,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Les dieux ne sont pas morts',
     author: 'Marguerite Yourcenar',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3305,7 +3571,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La nouvelle Eurydice',
     author: 'Marguerite Yourcenar',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3317,7 +3584,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "Mémoire d'Hadrien",
     author: 'Marguerite Yourcenar',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3329,7 +3597,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "L'œuvre au noir",
     author: 'Marguerite Yourcenar',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3341,7 +3610,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'Le cheval noir à la tête blanche',
     author: 'Marguerite Yourcenar',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3353,7 +3623,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: 'La vieille dame et moi',
     author: 'Jacqueline Harpman',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3365,7 +3636,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "La forêt d'Ardenne",
     author: 'Jacqueline Harpman',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -3377,7 +3649,8 @@ export const dantesBooks: UserBook[] = [
   {
     title: "Du côté d'Ostende",
     author: 'Jacqueline Harpman',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,

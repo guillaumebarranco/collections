@@ -108,13 +108,23 @@
     </div>
 
     <div class="form-row">
-      <label for="readDate">Date de lecture</label>
+      <label for="firstReadDate">Date de première lecture</label>
       <input
-        id="readDate"
+        id="firstReadDate"
         type="date"
-        [ngModel]="bookForm()?.readDate"
-        (ngModelChange)="updateField('readDate', $event)"
-        name="readDate"
+        [ngModel]="bookForm()?.firstReadDate"
+        (ngModelChange)="updateField('firstReadDate', $event)"
+        name="firstReadDate"
+      />
+    </div>
+    <div class="form-row">
+      <label for="lastReadDate">Date de dernière lecture</label>
+      <input
+        id="lastReadDate"
+        type="date"
+        [ngModel]="bookForm()?.lastReadDate"
+        (ngModelChange)="updateField('lastReadDate', $event)"
+        name="lastReadDate"
       />
     </div>
 

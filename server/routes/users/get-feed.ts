@@ -93,13 +93,13 @@ router.get('/:userId/feed', (req: any, res: any) => {
         }));
 
       const books = loadUserBooks(followedUserId)
-        .filter((b: any) => isDateWithinLastMonth(b.readDate ?? '', oneMonthAgo))
-        .sort((a: any, b: any) => (b.readDate || '').localeCompare(a.readDate || ''))
+        .filter((b: any) => isDateWithinLastMonth(b.lastReadDate || b.firstReadDate || '', oneMonthAgo))
+        .sort((a: any, b: any) => ((b.lastReadDate || b.firstReadDate) || '').localeCompare((a.lastReadDate || a.firstReadDate) || ''))
         .slice(0, FEED_MAX_ITEMS)
         .map((b: any) => ({
           title: b.title,
           author: b.author,
-          date: b.readDate,
+          date: b.lastReadDate || b.firstReadDate,
           rating: b.rating,
         }));
 

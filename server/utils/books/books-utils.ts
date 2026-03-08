@@ -115,7 +115,8 @@ function parseBooksFromFile(content: string): any[] {
             author,
             rating: parseNumberField(objectText, 'rating') ?? 0,
             readTimes: parseNumberField(objectText, 'readTimes') ?? 0,
-            readDate: parseStringField(objectText, 'readDate') ?? '',
+            firstReadDate: parseStringField(objectText, 'firstReadDate') ?? '',
+            lastReadDate: parseStringField(objectText, 'lastReadDate') ?? '',
             owned: parseBooleanField(objectText, 'owned') ?? false,
             borrowed: parseBooleanField(objectText, 'borrowed') ?? false,
             readPriority: parseNumberField(objectText, 'readPriority') ?? 1,
@@ -383,7 +384,8 @@ function updateBookInFile(content: string, payload: any) {
           let updated = objectText;
           updated = replaceField(updated, 'rating', payload.rating);
           updated = replaceField(updated, 'readTimes', payload.readTimes);
-          updated = replaceField(updated, 'readDate', payload.readDate);
+          updated = replaceField(updated, 'firstReadDate', payload.firstReadDate);
+          updated = replaceField(updated, 'lastReadDate', payload.lastReadDate);
           updated = replaceField(updated, 'owned', payload.owned);
           updated = upsertField(updated, 'borrowed', payload.borrowed);
           updated = replaceField(updated, 'readPriority', payload.readPriority);
@@ -579,7 +581,8 @@ function removeBookFromFile(content: string, payload: any) {
       (book) => `  {
     title: '${escapeString(book.title)}',
     author: '${escapeString(book.author)}',
-    readDate: '${escapeString(book.readDate || '')}',
+    firstReadDate: '${escapeString(book.firstReadDate || '')}',
+    lastReadDate: '${escapeString(book.lastReadDate || '')}',
     rating: ${book.rating ?? 0},
     readTimes: ${book.readTimes ?? 0},
     owned: ${book.owned ?? false},

@@ -4,7 +4,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Charlie et la Chocolaterie',
     author: 'Roald Dahl',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -17,7 +18,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Dracula',
     author: 'Bram Stoker',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -30,7 +32,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Candide',
     author: 'Voltaire',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -43,7 +46,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Gatsby le magnifique',
     author: 'F. Scott Fitzgerald',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -56,7 +60,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'L\'Odyssée',
     author: 'Homère',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -69,7 +74,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Roméo et Juliette',
     author: 'William Shakespeare',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -82,7 +88,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Don Quichotte',
     author: 'Miguel de Cervantes',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -95,7 +102,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Le meilleur des mondes',
     author: 'Aldous Huxley',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -108,7 +116,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Le Petit Prince',
     author: 'Antoine de Saint-Exupéry',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -121,7 +130,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Un palais d\'épines et de roses',
     author: 'Sarah J. Maas',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -134,7 +144,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Les sortceliers',
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -147,7 +158,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Le livre interdit',
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -160,7 +172,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Dans le piège de Magister',
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -173,7 +186,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'La peste',
     author: 'Albert Camus',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -186,7 +200,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Les fourberies de Scapin',
     author: 'Molière',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -199,7 +214,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'L\'avare',
     author: 'Molière',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -212,7 +228,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Tartuffe',
     author: 'Molière',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -225,7 +242,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Le Monde de Narnia (Tome 1) Le Neveu du Magicien',
     author: 'C.S. Lewis',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -238,7 +256,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Le Monde de Narnia (Tome 2) Le Lion, la Sorcière blanche et l\'Armoire magique',
     author: 'C.S. Lewis',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -251,7 +270,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Et ils meurent tous les deux à la fin',
     author: 'Adam Silvera',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -264,7 +284,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Hunger Games',
     author: 'Suzanne Collins',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -277,7 +298,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'L\'Embrasement',
     author: 'Suzanne Collins',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -290,7 +312,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'La Révolte',
     author: 'Suzanne Collins',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -303,7 +326,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'La Ballade du serpent et de l\'oiseau chanteur',
     author: 'Suzanne Collins',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -316,7 +340,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Lever de soleil sur la moisson',
     author: 'Suzanne Collins',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -329,7 +354,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Harry Potter à l\'école des sorciers',
     author: 'J.K. Rowling',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -342,7 +368,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Harry Potter et la Chambre des secrets',
     author: 'J.K. Rowling',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -355,7 +382,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Harry Potter et le Prisonnier d\'Azkaban',
     author: 'J.K. Rowling',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -368,7 +396,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Harry Potter et la Coupe de feu',
     author: 'J.K. Rowling',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -381,7 +410,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Harry Potter et l\'Ordre du Phénix',
     author: 'J.K. Rowling',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -394,7 +424,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Harry Potter et le Prince de sang-mêlé',
     author: 'J.K. Rowling',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -407,7 +438,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Harry Potter et les Reliques de la Mort',
     author: 'J.K. Rowling',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -420,7 +452,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Harry Potter et l\'Enfant maudit',
     author: 'J.K. Rowling',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -433,7 +466,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Fascination',
     author: 'Stephenie Meyer',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -446,7 +480,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Tentation',
     author: 'Stephenie Meyer',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -459,7 +494,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Hésitation',
     author: 'Stephenie Meyer',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -472,7 +508,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Révélation',
     author: 'Stephenie Meyer',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -485,7 +522,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Midnight Sun',
     author: 'Stephenie Meyer',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -498,7 +536,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Le Voleur de foudre',
     author: 'Rick Riordan',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -511,7 +550,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'La Mer des monstres',
     author: 'Rick Riordan',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -524,7 +564,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Le Sort du titan',
     author: 'Rick Riordan',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -537,7 +578,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'La Bataille du labyrinthe',
     author: 'Rick Riordan',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -550,7 +592,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Le Dernier Olympien',
     author: 'Rick Riordan',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -563,7 +606,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Le Labyrinthe',
     author: 'James Dashner',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -576,7 +620,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'La femme de ménage',
     author: 'Freida McFadden',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -589,7 +634,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Les secrets de la femme de ménage',
     author: 'Freida McFadden',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -602,7 +648,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Les Trois Mousquetaires',
     author: 'Alexandre Dumas',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -615,7 +662,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Blackwater I : La crue',
     author: 'Michael McDowell',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -628,7 +676,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Blackwater II : La digue',
     author: 'Michael McDowell',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -641,7 +690,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Blackwater III : La maison',
     author: 'Michael McDowell',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -654,7 +704,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Blackwater IV : La guerre',
     author: 'Michael McDowell',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -667,7 +718,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Blackwater V : La fortune',
     author: 'Michael McDowell',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,
@@ -680,7 +732,8 @@ export const marinaBooks: UserBook[] = [
   {
     title: 'Blackwater VI : Pluie',
     author: 'Michael McDowell',
-    readDate: '',
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,

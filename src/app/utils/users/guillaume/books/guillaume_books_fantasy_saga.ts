@@ -4,7 +4,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: "Les Enfants d'Aliel - Le grand éveil",
     author: 'Sara Schneider',
-    readDate: '2025-03-25',
+    firstReadDate: '2025-03-25',
+    lastReadDate: '2025-03-25',
     rating: 3.5,
     readTimes: 1,
     owned: true,
@@ -16,7 +17,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: "Les Enfants d'Aliel - Le cheval de feu",
     author: 'Sara Schneider',
-    readDate: '2025-04-05',
+    firstReadDate: '2025-04-05',
+    lastReadDate: '2025-04-05',
     rating: 3.5,
     readTimes: 1,
     owned: true,
@@ -28,7 +30,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: "Les Enfants d'Aliel - Mâchoires d'écume",
     author: 'Sara Schneider',
-    readDate: '2025-04-08',
+    firstReadDate: '2025-04-08',
+    lastReadDate: '2025-04-08',
     rating: 4,
     readTimes: 1,
     owned: true,
@@ -40,7 +43,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: "Les Enfants d'Aliel - Le porteur d'espoir",
     author: 'Sara Schneider',
-    readDate: '2025-04-09',
+    firstReadDate: '2025-04-09',
+    lastReadDate: '2025-04-09',
     rating: 4.5,
     readTimes: 1,
     owned: true,
@@ -52,7 +56,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: "Les Enfants d'Aliel - Ciel de cendres",
     author: 'Sara Schneider',
-    readDate: '2025-04-14',
+    firstReadDate: '2025-04-14',
+    lastReadDate: '2025-04-14',
     rating: 3.5,
     readTimes: 1,
     owned: true,
@@ -64,7 +69,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: "D'un monde à l'autre",
     author: 'Pierre Bottero',
-    readDate: '2024-06-13',
+    firstReadDate: '2024-06-13',
+    lastReadDate: '2024-06-13',
     rating: 3.5,
     readTimes: 1,
     owned: true,
@@ -76,7 +82,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: 'Les frontières de glace',
     author: 'Pierre Bottero',
-    readDate: '2024-06-24',
+    firstReadDate: '2024-06-24',
+    lastReadDate: '2024-06-24',
     rating: 3,
     readTimes: 1,
     owned: true,
@@ -88,7 +95,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: "L'île du destin",
     author: 'Pierre Bottero',
-    readDate: '2024-06-25',
+    firstReadDate: '2024-06-25',
+    lastReadDate: '2024-06-25',
     rating: 3.5,
     readTimes: 1,
     owned: true,
@@ -100,7 +108,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: 'La Forêt des captifs',
     author: 'Pierre Bottero',
-    readDate: '2025-01-03',
+    firstReadDate: '2025-01-03',
+    lastReadDate: '2025-01-03',
     rating: 3.5,
     readTimes: 1,
     owned: true,
@@ -112,7 +121,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: "L'Œil d'Otolep",
     author: 'Pierre Bottero',
-    readDate: '2025-01-04',
+    firstReadDate: '2025-01-04',
+    lastReadDate: '2025-01-04',
     rating: 4,
     readTimes: 1,
     owned: true,
@@ -124,7 +134,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: 'Les Tentacules du mal',
     author: 'Pierre Bottero',
-    readDate: '2025-01-05',
+    firstReadDate: '2025-01-05',
+    lastReadDate: '2025-01-05',
     rating: 4.5,
     readTimes: 1,
     owned: true,
@@ -136,7 +147,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: 'Ellana',
     author: 'Pierre Bottero',
-    readDate: '2025-01-06',
+    firstReadDate: '2025-01-06',
+    lastReadDate: '2025-01-06',
     rating: 4.5,
     readTimes: 1,
     owned: true,
@@ -148,7 +160,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: "Ellana, l'Envol",
     author: 'Pierre Bottero',
-    readDate: '2025-01-07',
+    firstReadDate: '2025-01-07',
+    lastReadDate: '2025-01-07',
     rating: 4.5,
     readTimes: 1,
     owned: true,
@@ -160,7 +173,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: 'Ellana, la Prophétie',
     author: 'Pierre Bottero',
-    readDate: '2025-01-08',
+    firstReadDate: '2025-01-08',
+    lastReadDate: '2025-01-08',
     rating: 5,
     readTimes: 1,
     owned: true,
@@ -172,7 +186,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: 'Les sortceliers',
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '2012-07-31',
+    firstReadDate: '2012-07-31',
+    lastReadDate: '2012-07-31',
     rating: 4,
     readTimes: 5,
     owned: true,
@@ -184,7 +199,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: 'Le livre interdit',
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '2012-08-01',
+    firstReadDate: '2012-08-01',
+    lastReadDate: '2012-08-01',
     rating: 4,
     readTimes: 5,
     owned: true,
@@ -196,7 +212,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: 'Le sceptre maudit',
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '2012-08-02',
+    firstReadDate: '2012-08-02',
+    lastReadDate: '2012-08-02',
     rating: 4,
     readTimes: 5,
     owned: true,
@@ -208,7 +225,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: 'Le dragon renégat',
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '2012-08-03',
+    firstReadDate: '2012-08-03',
+    lastReadDate: '2012-08-03',
     rating: 3.5,
     readTimes: 5,
     owned: true,
@@ -220,7 +238,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: 'Le continent interdit',
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '2012-08-04',
+    firstReadDate: '2012-08-04',
+    lastReadDate: '2012-08-04',
     rating: 5,
     readTimes: 10,
     owned: true,
@@ -232,7 +251,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: 'Dans le piège de Magister',
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '2012-08-05',
+    firstReadDate: '2012-08-05',
+    lastReadDate: '2012-08-05',
     rating: 4.5,
     readTimes: 5,
     owned: true,
@@ -244,7 +264,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: "Tara Duncan et l'invasion fantôme",
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '2012-08-06',
+    firstReadDate: '2012-08-06',
+    lastReadDate: '2012-08-06',
     rating: 4,
     readTimes: 5,
     owned: true,
@@ -256,7 +277,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: "L'impératrice maléfique",
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '2012-08-08',
+    firstReadDate: '2012-08-08',
+    lastReadDate: '2012-08-08',
     rating: 4.5,
     readTimes: 5,
     owned: true,
@@ -268,7 +290,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: 'Tara Duncan contre la reine noire',
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '2012-08-09',
+    firstReadDate: '2012-08-09',
+    lastReadDate: '2012-08-09',
     rating: 4.5,
     readTimes: 5,
     owned: true,
@@ -280,7 +303,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: 'Dragons contre Démons',
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '2012-09-27',
+    firstReadDate: '2012-09-27',
+    lastReadDate: '2012-09-27',
     rating: 4.5,
     readTimes: 5,
     owned: true,
@@ -292,7 +316,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: 'La Guerre des planètes',
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '2013-09-19',
+    firstReadDate: '2013-09-19',
+    lastReadDate: '2013-09-19',
     rating: 4.5,
     readTimes: 5,
     owned: true,
@@ -304,7 +329,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: "L'Ultime Combat",
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '2014-09-18',
+    firstReadDate: '2014-09-18',
+    lastReadDate: '2014-09-18',
     rating: 4.5,
     readTimes: 5,
     owned: true,
@@ -316,7 +342,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: 'Tara et Cal',
     author: 'Sophie Audouin-Mamikonian',
-    readDate: '2015-09-20',
+    firstReadDate: '2015-09-20',
+    lastReadDate: '2015-09-20',
     rating: 3,
     readTimes: 1,
     owned: true,
@@ -328,7 +355,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: "Le Trône de fer, L'Intégrale Tome 1",
     author: 'George R.R. Martin',
-    readDate: '2024-09-25',
+    firstReadDate: '2024-09-25',
+    lastReadDate: '2024-09-25',
     rating: 3,
     readTimes: 1,
     owned: false,
@@ -340,7 +368,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: "Le Trône de fer, L'Intégrale Tome 2",
     author: 'George R.R. Martin',
-    readDate: '2024-10-11',
+    firstReadDate: '2024-10-11',
+    lastReadDate: '2024-10-11',
     rating: 3,
     readTimes: 1,
     owned: true,
@@ -352,7 +381,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: "Le Trône de fer, L'Intégrale Tome 3",
     author: 'George R.R. Martin',
-    readDate: '2024-12-04',
+    firstReadDate: '2024-12-04',
+    lastReadDate: '2024-12-04',
     rating: 3.5,
     readTimes: 1,
     owned: true,
@@ -364,7 +394,8 @@ export const guillaumeBooksFantasySaga: UserBooks = [
   {
     title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
     author: 'J.R.R. Tolkien',
-    readDate: '2025-08-02',
+    firstReadDate: '2025-08-02',
+    lastReadDate: '2025-08-02',
     rating: 3,
     readTimes: 1,
     owned: true,
