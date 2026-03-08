@@ -5192,6 +5192,35 @@ export const ronanSeries: UserSeries = [
     title: 'What if...?',
     director: 'A.C. Bradley',
     seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 3,
+      seasonTimesWatched: 1,
+      lastViewedDate: '',
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 3,
+      seasonTimesWatched: 1,
+      lastViewedDate: '',
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 3,
+      seasonTimesWatched: 1,
+      lastViewedDate: '',
+    }
+  ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Star Wars: Visions',
+    director: 'James Waugh',
+    seasons: [
       {
         seasonNumber: 1,
         seasonRating: 0,
@@ -5211,6 +5240,165 @@ export const ronanSeries: UserSeries = [
         lastViewedDate: '',
       }
     ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Agatha All Along',
+    director: 'Jac Schaeffer',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 3.5,
+      seasonTimesWatched: 1,
+      lastViewedDate: '',
+    }
+  ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Eyes of Wakanda',
+    director: 'Todd Harris',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 2.5,
+      seasonTimesWatched: 1,
+      lastViewedDate: '',
+    }
+  ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Moon Knight',
+    director: 'Mohamed Diab',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 2.5,
+      seasonTimesWatched: 1,
+      lastViewedDate: '',
+    }
+  ],
+    owned: true,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Je s\'appelle Groot',
+    director: 'Kirsten Lepore',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 2.5,
+      seasonTimesWatched: 0,
+      lastViewedDate: '',
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+      lastViewedDate: '',
+    }
+  ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'She-Hulk : Attorney at Law',
+    director: 'Jessica Gao',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 3,
+      seasonTimesWatched: 1,
+      lastViewedDate: '',
+    }
+  ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Secret Invasion',
+    director: 'Kyle Bradstreet',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 3,
+      seasonTimesWatched: 1,
+      lastViewedDate: '',
+    }
+  ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Echo',
+    director: 'Sydney Freeland',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 2.5,
+      seasonTimesWatched: 1,
+      lastViewedDate: '',
+    }
+  ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Ironheart',
+    director: 'Chinaka Hodge',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 2,
+      seasonTimesWatched: 1,
+      lastViewedDate: '',
+    }
+  ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Marvel Zombies',
+    director: 'Zeb Wells',
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 3,
+      seasonTimesWatched: 1,
+      lastViewedDate: '',
+    }
+  ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,

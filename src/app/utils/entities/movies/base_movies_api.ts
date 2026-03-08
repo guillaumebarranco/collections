@@ -925,4 +925,42 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'Japon',
   },
+
+  {
+    title: 'La Venue de l\'Avenir',
+    director: 'Cédric Klapisch',
+    actors: [
+      {
+        name: 'Suzanne Lindon',
+      },
+      {
+        name: 'Abraham Wapler',
+      },
+      {
+        name: 'Vincent Macaigne',
+      },
+      {
+        name: 'Julia Piaton',
+      },
+      {
+        name: 'Zinedine Soualem',
+      },
+      {
+        name: 'Paul Kircher',
+      },
+      {
+        name: 'Vassili Schneider',
+      },
+      {
+        name: 'Sara Giraudeau',
+      },
+    ],
+    coverUrl: 'https://fr.web.img6.acsta.net/img/ff/a9/ffa9ece0041769e66fb572c6d8a458a3.jpg',
+    releaseDate: '2025-05-22',
+    length: 125,
+    genre: 'Comédie dramatique',
+    saga: '',
+    description: '',
+    countryOrigin: 'France',
+  },
 ];

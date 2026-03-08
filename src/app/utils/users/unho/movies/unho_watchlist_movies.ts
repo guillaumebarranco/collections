@@ -1,6 +1,6 @@
 import { UserMovie } from '../../../../models/movie-model';
 
-export const unhoWatchListMovies: UserMovie[] = [
+export const unhoWatchListMovies: UserMovie[
   {
     title: 'Pulp Fiction',
     director: 'Quentin Tarantino',
@@ -14,7 +14,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'La Ligne Verte',
     director: 'Frank Darabont',
@@ -28,7 +27,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Gladiator',
     director: 'Ridley Scott',
@@ -42,7 +40,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Mulholland Drive',
     director: 'David Lynch',
@@ -56,7 +53,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Les Evadés',
     director: 'Frank Darabont',
@@ -70,7 +66,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'E.T. the Extra-Terrestrial',
     director: 'Steven Spielberg',
@@ -84,7 +79,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le Fabuleux Destin d\'Amélie Poulain',
     director: 'Jean-Pierre Jeunet',
@@ -98,7 +92,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Lost in Translation',
     director: 'Sofia Coppola',
@@ -112,7 +105,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Top Gun : Maverick',
     director: 'Joseph Kosinski',
@@ -126,7 +118,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Top Gun',
     director: 'Tony Scott',
@@ -140,7 +131,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'La Haine',
     director: 'Mathieu Kassovitz',
@@ -154,7 +144,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: '2001 : L\'Odyssée de l\'espace',
     director: 'Yannick Rolandeau',
@@ -168,7 +157,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Oppenheimer',
     director: 'Christopher Nolan',
@@ -182,7 +170,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Prey',
     director: 'Dan Trachtenberg',
@@ -196,7 +183,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Requiem for a Dream',
     director: 'Darren Aronofsky',
@@ -210,7 +196,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le silence des agneaux',
     director: 'Jonathan Demme',
@@ -224,7 +209,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: '28 jours plus tard',
     director: 'Danny Boyle',
@@ -238,7 +222,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Ready Player One',
     director: 'Steven Spielberg',
@@ -252,7 +235,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'L\'exorciste',
     director: 'William Friedkin',
@@ -266,7 +248,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Sixième Sens',
     director: 'M. Night Shyamalan',
@@ -280,7 +261,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Mrs. Doubtfire',
     director: 'Chris Columbus',
@@ -294,7 +274,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'The Big Lebowski',
     director: 'Joel Coen, Ethan Coen',
@@ -308,7 +287,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Will Hunting',
     director: 'Gus Van Sant',
@@ -322,7 +300,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Into the Wild',
     director: 'Sean Penn',
@@ -336,7 +313,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'No Country for Old Men',
     director: 'Joel Coen, Ethan Coen',
@@ -350,7 +326,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: '127 Heures',
     director: 'Danny Boyle',
@@ -364,7 +339,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Black Swan',
     director: 'Darren Aronofsky',
@@ -378,7 +352,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Edge of Tomorrow',
     director: 'Doug Liman',
@@ -392,7 +365,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le Loup de Wall Street',
     director: 'Martin Scorsese',
@@ -406,7 +378,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Prisoners',
     director: 'Denis Villeneuve',
@@ -420,7 +391,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Elysium',
     director: 'Neill Blomkamp',
@@ -434,7 +404,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Last Action Hero',
     director: 'John McTiernan',
@@ -448,7 +417,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Sinners',
     director: 'Ryan Coogler',
@@ -462,21 +430,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
-  {
-    title: 'Once Upon a Time in Hollywood',
-    director: 'Quentin Tarantino',
-    rating: 0,
-    timesWatched: 0,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-  },
-
   {
     title: '12 Years a Slave',
     director: 'Steve McQueen',
@@ -490,7 +443,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Une bataille après l\'autre',
     director: 'Paul Thomas Anderson',
@@ -504,7 +456,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le Règne du feu',
     director: 'Rob Bowman',
@@ -518,7 +469,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'The Northman',
     director: 'Robert Eggers',
@@ -532,7 +482,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Lady Vengeance',
     director: 'Park Chan-wook',
@@ -546,7 +495,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'The Northman',
     director: 'Robert Eggers',
@@ -560,7 +508,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Super Mario Bros. le Film',
     director: 'Aaron Horvath, Michael Jelenic',
@@ -574,7 +521,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Les Cinq Légendes',
     director: 'Peter Ramsey',
@@ -588,7 +534,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Toy Story 2',
     director: 'John Lasseter',
@@ -602,7 +547,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Toy Story 3',
     director: 'Lee Unkrich',
@@ -616,7 +560,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le Tombeau des lucioles',
     director: 'Isao Takahata',
@@ -630,7 +573,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Kiki la petite sorcière',
     director: 'Hayao Miyazaki',
@@ -644,7 +586,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le Prince d\'Égypte',
     director: 'Brenda Chapman, Steve Hickner',
@@ -658,7 +599,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Coraline',
     director: 'Henry Selick',
@@ -672,7 +612,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Orange mécanique',
     director: 'Stanley Kubrick',
@@ -686,7 +625,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le Dernier Pub avant la fin du monde',
     director: 'Edgar Wright',
@@ -700,7 +638,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Batman',
     director: 'Tim Burton',
@@ -714,7 +651,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Batman Returns',
     director: 'Tim Burton',
@@ -728,7 +664,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'The Batman',
     director: 'Matt Reeves',
@@ -742,7 +677,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'La Revanche d\'une blonde',
     director: 'Robert Luketic',
@@ -756,7 +690,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Mars Attacks !',
     director: 'Tim Burton',
@@ -770,7 +703,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Labyrinthe',
     director: 'Jim Henson',
@@ -784,7 +716,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Wicked: For Good',
     director: 'Jon M. Chu',
@@ -798,7 +729,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Anora',
     director: 'Sean Baker',
@@ -812,7 +742,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'The Substance',
     director: 'Coralie Fargeat',
@@ -826,7 +755,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Hunger Games : La Ballade du serpent et de l\'oiseau chanteur',
     director: 'Francis Lawrence',
@@ -840,7 +768,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Godzilla Minus One',
     director: 'Takashi Yamazaki',
@@ -854,7 +781,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Killers of the Flower Moon',
     director: 'Martin Scorsese',
@@ -868,7 +794,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'It Chapter Two',
     director: 'Andy Muschietti',
@@ -882,7 +807,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Toy Story 4',
     director: 'Josh Cooley',
@@ -896,7 +820,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'La Forme de l\'eau',
     director: 'Guillermo del Toro',
@@ -910,7 +833,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Sicario',
     director: 'Denis Villeneuve',
@@ -924,7 +846,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Gatsby le Magnifique',
     director: 'Baz Luhrmann',
@@ -938,7 +859,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Incendies',
     director: 'Denis Villeneuve',
@@ -952,7 +872,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Le Dernier des Mohicans',
     director: 'Michael Mann',
@@ -966,7 +885,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Rain Man',
     director: 'Barry Levinson',
@@ -980,7 +898,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'La Folle Journée de Ferris Bueller',
     director: 'John Hughes',
@@ -994,7 +911,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Les Goonies',
     director: 'Richard Donner',
@@ -1008,7 +924,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Evil Dead',
     director: 'Sam Raimi',
@@ -1022,7 +937,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Love Actually',
     director: 'Richard Curtis',
@@ -1036,7 +950,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Avengers',
     director: 'Joss Whedon',
@@ -1050,7 +963,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Avengers : L\'Ère d\'Ultron',
     director: 'Joss Whedon',
@@ -1064,7 +976,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Avengers: Infinity War',
     director: 'Anthony Russo, Joe Russo',
@@ -1078,7 +989,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Avengers: Endgame',
     director: 'Anthony Russo, Joe Russo',
@@ -1092,7 +1002,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Star Wars : Episode 8 - Le dernier Jedi',
     director: 'Rian Johnson',
@@ -1106,7 +1015,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Star Wars : Episode 9 - L\'ascension de Skywalker',
     director: 'J.J. Abrams',
@@ -1120,7 +1028,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Terminator 2: Judgment Day',
     director: 'James Cameron',
@@ -1134,7 +1041,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'The Matrix Reloaded',
     director: 'Lana Wachowski, Lilly Wachowski',
@@ -1148,7 +1054,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'The Matrix Revolutions',
     director: 'Lana Wachowski, Lilly Wachowski',
@@ -1162,7 +1067,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Alien : La Résurrection',
     director: 'Jean-Pierre Jeunet',
@@ -1176,7 +1080,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Les Animaux Fantastiques 3 : Les Secrets de Dumbledore',
     director: 'David Yates',
@@ -1190,7 +1093,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'James Bond : Spectre',
     director: 'Sam Mendes',
@@ -1204,7 +1106,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'James Bond : Mourir Peut Attendre',
     director: 'Cary Joji Fukunaga',
@@ -1218,7 +1119,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Resident Evil',
     director: 'Paul W.S. Anderson',
@@ -1232,7 +1132,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Resident Evil : Apocalypse',
     director: 'Alexander Witt',
@@ -1246,7 +1145,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Resident Evil : Extinction',
     director: 'Russell Mulcahy',
@@ -1260,7 +1158,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Resident Evil : Afterlife',
     director: 'Paul W.S. Anderson',
@@ -1274,7 +1171,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Resident Evil : Retribution',
     director: 'Paul W.S. Anderson',
@@ -1288,7 +1184,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     watchPriority: 1,
     ratingComment: '',
   },
-
   {
     title: 'Pirates des Caraïbes : La Vengeance de Salazar',
     director: 'Joachim Rønning, Espen Sandberg',
@@ -1301,5 +1196,5 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-  },
+  }
 ];

@@ -809,4 +809,17 @@ export const baseGamesApi: BaseGame[] = [
     averageTimeToHundredPercent: 11,
     description: '',
   },
+
+  {
+    title: 'Sifu',
+    editor: 'Kepler Interactive',
+    hero: '',
+    coverUrl: 'https://upload.wikimedia.org/wikipedia/en/e/e3/Sifu_cover_art.jpg',
+    releaseDate: '2022-11-08',
+    averageTimeToFinish: 8,
+    platform: 'Playstation 5',
+    saga: '',
+    platineTime: 20,
+    description: '',
+  },
 ];

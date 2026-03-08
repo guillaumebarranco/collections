@@ -3861,4 +3861,17 @@ export const ronanGames: UserGames = [
       },
     ],
   },
+
+  {
+    title: 'Sifu',
+    editor: 'Kepler Interactive',
+    rating: 2.5,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: '',
+    sessions: [
+      { finishedGame: true, finishedGameWithHundredPercent: false, platinedGame: false, additionnalEstimatedTime: 0 }
+    ],
+  },
 ];
