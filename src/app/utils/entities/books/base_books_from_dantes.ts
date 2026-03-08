@@ -212,7 +212,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Les châtiments',
     author: 'Victor Hugo',
-    coverUrl: '/books_pictures/365448d6ef52.jpg',
+    coverUrl: '/books_pictures/9782253016861-001-X.webp',
     pages: 220,
     genre: 'Poésie',
     saga: '',
@@ -642,7 +642,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Deception Point',
     author: 'Dan Brown',
-    coverUrl: '/books_pictures/37de90dd3a50.jpg',
+    coverUrl: '/books_pictures/9782253123163-fr.jpg',
     pages: 560,
     genre: 'Thriller',
     saga: '',
@@ -809,9 +809,9 @@ export const baseBooksFromDantes: BaseBook[] = [
     countryOrigin: 'France',
   },
   {
-    title: 'Mon bel Orange',
+    title: 'Mon bel Oranger',
     author: 'José Mauro de Vasconcelos',
-    coverUrl: '/books_pictures/a38af9b20558.jpg',
+    coverUrl: '/books_pictures/81f-tCyQt9L._UF1000,1000_QL80_.jpg',
     pages: 256,
     genre: 'Classiques',
     saga: '',
@@ -1633,7 +1633,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'La Divine Comédie',
     author: 'Dante Alighieri',
-    coverUrl: '/books_pictures/b65c3eab3e75.jpg',
+    coverUrl: '/books_pictures/La-Divine-Comedie.jpg',
     pages: 512,
     genre: 'Classiques',
     saga: '',
@@ -1646,7 +1646,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "L'Énéide",
     author: 'Virgile',
-    coverUrl: '/books_pictures/bd220114b20f.jpg',
+    coverUrl: '/books_pictures/L-Eneide.jpg',
     pages: 384,
     genre: 'Classiques',
     saga: '',
@@ -1659,7 +1659,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Lancelot ou le Chevalier de la charrette',
     author: 'Chrétien de Troyes',
-    coverUrl: '/books_pictures/57db8d8d81af.jpg',
+    coverUrl: '/books_pictures/2_9782075130592_1_75.jpg',
     pages: 224,
     genre: 'Classiques',
     saga: '',
@@ -1672,7 +1672,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Yvain ou le Chevalier au lion',
     author: 'Chrétien de Troyes',
-    coverUrl: '/books_pictures/57db8d8d81af.jpg',
+    coverUrl: '/books_pictures/9782035834249_1_75.jpg',
     pages: 208,
     genre: 'Classiques',
     saga: '',
@@ -1685,7 +1685,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Perceval ou le Conte du Graal',
     author: 'Chrétien de Troyes',
-    coverUrl: '/books_pictures/57db8d8d81af.jpg',
+    coverUrl: '/books_pictures/5_9782075130691_1_75.jpg',
     pages: 288,
     genre: 'Classiques',
     saga: '',
@@ -1698,7 +1698,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'La Prophétie des Andes',
     author: 'James Redfield',
-    coverUrl: '/books_pictures/5eb84c62a65f.jpg',
+    coverUrl: '/books_pictures/1_9782290235669_1_75.jpg',
     pages: 256,
     genre: 'Fiction',
     saga: '',
@@ -1711,7 +1711,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'La Dixième Prophétie',
     author: 'James Redfield',
-    coverUrl: '/books_pictures/5eb84c62a65f.jpg',
+    coverUrl: '/books_pictures/71iWiijGXJL.jpg',
     pages: 272,
     genre: 'Fiction',
     saga: '',
@@ -1724,7 +1724,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le Secret de Shambhala',
     author: 'James Redfield',
-    coverUrl: '/books_pictures/5eb84c62a65f.jpg',
+    coverUrl: '/books_pictures/Le-secret-de-Shambhala.jpg',
     pages: 240,
     genre: 'Fiction',
     saga: '',
@@ -1737,7 +1737,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le Capital',
     author: 'Karl Marx',
-    coverUrl: '/books_pictures/059e281f2fa5.jpg',
+    coverUrl: '/books_pictures/9791090589001_1_75.jpg',
     pages: 940,
     genre: 'Nonfiction',
     saga: '',
@@ -1750,7 +1750,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le Manifeste du parti communiste',
     author: 'Karl Marx',
-    coverUrl: '/books_pictures/059e281f2fa5.jpg',
+    coverUrl: '/books_pictures/71UvjjK+N4L._UF1000,1000_QL80_.jpg',
     pages: 64,
     genre: 'Nonfiction',
     saga: '',
@@ -1763,7 +1763,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Eichmann à Jérusalem',
     author: 'Hannah Arendt',
-    coverUrl: '/books_pictures/29228cd2eca8.jpg',
+    coverUrl: '/books_pictures/81VaTEhm-gL.jpg',
     pages: 336,
     genre: 'Nonfiction',
     saga: '',
@@ -1776,7 +1776,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "L'Origine des espèces",
     author: 'Charles Darwin',
-    coverUrl: '/books_pictures/0e08f698b74c.jpg',
+    coverUrl: '/books_pictures/71ENynZ0A0L._AC_UF1000,1000_QL80_.jpg',
     pages: 502,
     genre: 'Nonfiction',
     saga: '',
@@ -1789,7 +1789,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Utopie',
     author: 'Thomas More',
-    coverUrl: '/books_pictures/0aeda204bade.jpg',
+    coverUrl: '/books_pictures/L-Utopie.jpg',
     pages: 160,
     genre: 'Classiques',
     saga: '',
@@ -1802,7 +1802,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Les Mémoires',
     author: 'Winston Churchill',
-    coverUrl: '/books_pictures/5fd2ce71db8a.jpg',
+    coverUrl: '/books_pictures/71Jt3lofMfL._AC_UF1000,1000_QL80_.jpg',
     pages: 2400,
     genre: 'Nonfiction',
     saga: '',
@@ -1815,7 +1815,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "La Gloire de l'Empire",
     author: "Jean d'Ormesson",
-    coverUrl: '/books_pictures/c9576b2fba30.jpg',
+    coverUrl: '/books_pictures/81-7xXVpK6L.jpg',
     pages: 576,
     genre: 'Fiction',
     saga: '',
@@ -1828,7 +1828,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "L'Amour est un plaisir",
     author: "Jean d'Ormesson",
-    coverUrl: '/books_pictures/c9576b2fba30.jpg',
+    coverUrl: '/books_pictures/91P9qzelGcL._AC_UF1000,1000_QL80_.jpg',
     pages: 288,
     genre: 'Fiction',
     saga: '',
@@ -1841,7 +1841,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Histoire du Juif errant',
     author: "Jean d'Ormesson",
-    coverUrl: '/books_pictures/c9576b2fba30.jpg',
+    coverUrl: '/books_pictures/91avwiOvNNL.jpg',
     pages: 768,
     genre: 'Fiction',
     saga: '',
@@ -1854,7 +1854,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Guide des égarés',
     author: "Jean d'Ormesson",
-    coverUrl: '/books_pictures/c9576b2fba30.jpg',
+    coverUrl: '/books_pictures/41bJwfgml3L._AC_UF1000,1000_QL80_.jpg',
     pages: 352,
     genre: 'Fiction',
     saga: '',
@@ -1867,7 +1867,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Et moi je vis toujours',
     author: "Jean d'Ormesson",
-    coverUrl: '/books_pictures/c9576b2fba30.jpg',
+    coverUrl: '/books_pictures/9782848688190-475x500-1.jpg',
     pages: 288,
     genre: 'Fiction',
     saga: '',
@@ -1880,7 +1880,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Un Hosanna sans fin',
     author: "Jean d'Ormesson",
-    coverUrl: '/books_pictures/c9576b2fba30.jpg',
+    coverUrl: '/books_pictures/81+cv83h1kL.jpg',
     pages: 256,
     genre: 'Fiction',
     saga: '',
@@ -1906,7 +1906,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Ulysse from Bagdad',
     author: 'Éric-Emmanuel Schmitt',
-    coverUrl: '/books_pictures/6df4458d7fc6.jpg',
+    coverUrl: '/books_pictures/716b0W7XKEL.jpg',
     pages: 256,
     genre: 'Fiction',
     saga: '',
@@ -1932,7 +1932,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Paradis perdus',
     author: 'Éric-Emmanuel Schmitt',
-    coverUrl: '/books_pictures/c9576b2fba30.jpg',
+    coverUrl: '/books_pictures/9782226450227-j.jpg',
     pages: 320,
     genre: 'Fiction',
     saga: 'La Saga la traversée des temps',
@@ -1945,7 +1945,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'La Porte du ciel',
     author: 'Éric-Emmanuel Schmitt',
-    coverUrl: '/books_pictures/c9576b2fba30.jpg',
+    coverUrl: '/books_pictures/9782226450234-j.jpg',
     pages: 336,
     genre: 'Fiction',
     saga: 'La Saga la traversée des temps',
@@ -1958,7 +1958,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Soleil sombre',
     author: 'Éric-Emmanuel Schmitt',
-    coverUrl: '/books_pictures/c9576b2fba30.jpg',
+    coverUrl: '/books_pictures/9782226467447_internet_w290.jpg',
     pages: 352,
     genre: 'Fiction',
     saga: 'La Saga la traversée des temps',
@@ -1971,7 +1971,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'La Lumière du bonheur',
     author: 'Éric-Emmanuel Schmitt',
-    coverUrl: '/books_pictures/c9576b2fba30.jpg',
+    coverUrl: '/books_pictures/La-lumiere-du-bonheur-1-e1760263046125.jpg',
     pages: 368,
     genre: 'Fiction',
     saga: 'La Saga la traversée des temps',
@@ -1984,7 +1984,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Les dieux ne sont pas morts',
     author: 'Marguerite Yourcenar',
-    coverUrl: '/books_pictures/7aa623d0866e.jpg',
+    coverUrl: '/books_pictures/fsdfsdfd.jpg',
     pages: 192,
     genre: 'Poésie',
     saga: '',
@@ -1997,7 +1997,8 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'La nouvelle Eurydice',
     author: 'Marguerite Yourcenar',
-    coverUrl: '/books_pictures/fbd281c09ea5.jpg',
+    coverUrl:
+      '/books_pictures/yourcenar-marguerite-la-nouvelle-eurydice-1931-edition-originale-l-un-des-10-ex-num-reimposes-in-4-telliere-imprimes-sur-montval.jpg',
     pages: 192,
     genre: 'Fiction',
     saga: '',
@@ -2010,7 +2011,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "Mémoire d'Hadrien",
     author: 'Marguerite Yourcenar',
-    coverUrl: '/books_pictures/fbd281c09ea5.jpg',
+    coverUrl: '/books_pictures/916t4h4ihRL._AC_UF1000,1000_QL80_.jpg',
     pages: 368,
     genre: 'Fiction',
     saga: '',
@@ -2023,7 +2024,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "L'œuvre au noir",
     author: 'Marguerite Yourcenar',
-    coverUrl: '/books_pictures/7aa623d0866e.jpg',
+    coverUrl: '/books_pictures/81iGqOfl3nL.jpg',
     pages: 384,
     genre: 'Fiction',
     saga: '',
@@ -2036,7 +2037,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le cheval noir à la tête blanche',
     author: 'Marguerite Yourcenar',
-    coverUrl: '/books_pictures/7aa623d0866e.jpg',
+    coverUrl: '/books_pictures/413q0OJipmL.webp',
     pages: 96,
     genre: 'Conte',
     saga: '',
@@ -2049,7 +2050,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'La vieille dame et moi',
     author: 'Jacqueline Harpman',
-    coverUrl: '/books_pictures/c9576b2fba30.jpg',
+    coverUrl: '/books_pictures/la-vieille-dame-et-moi-4928227.jpg',
     pages: 224,
     genre: 'Fiction',
     saga: '',
@@ -2062,7 +2063,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "La forêt d'Ardenne",
     author: 'Jacqueline Harpman',
-    coverUrl: '/books_pictures/c9576b2fba30.jpg',
+    coverUrl: '/books_pictures/41ORtrIfkrL._AC_UF1000,1000_QL80_.jpg',
     pages: 256,
     genre: 'Fiction',
     saga: '',
@@ -2075,7 +2076,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "Du côté d'Ostende",
     author: 'Jacqueline Harpman',
-    coverUrl: '/books_pictures/c9576b2fba30.jpg',
+    coverUrl: '/books_pictures/71zn8Fcz6XL._AC_UF1000,1000_QL80_.jpg',
     pages: 208,
     genre: 'Fiction',
     saga: '',
