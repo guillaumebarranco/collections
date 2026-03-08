@@ -56,7 +56,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le Passeur',
     author: 'Lois Lowry',
-    coverUrl: '/books_pictures/52eb16ee72ee.jpg',
+    coverUrl: '/books_pictures/61LZPuwK6pL._AC_UF1000,1000_QL80_.jpg',
     pages: 240,
     genre: 'Classiques',
     saga: '',
@@ -95,7 +95,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "L'éclat de dieu ou le roman du temps",
     author: 'Romain Sardou',
-    coverUrl: '/books_pictures/ff3f155d1a2c.jpg',
+    coverUrl: '/books_pictures/LÉCLAT_de_DIEU_SARDOU1.jpg',
     pages: 430,
     genre: 'Thriller',
     saga: '',
@@ -160,7 +160,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "Le dernier jour d'un condamné",
     author: 'Victor Hugo',
-    coverUrl: '/books_pictures/1a2a3aa2270e.jpg',
+    coverUrl: '/books_pictures/9782080473356_1_75.jpg',
     pages: 192,
     genre: 'Classiques',
     saga: '',
@@ -173,7 +173,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Hernani',
     author: 'Victor Hugo',
-    coverUrl: '/books_pictures/3208abea99ad.jpg',
+    coverUrl: '/books_pictures/81tOJl3CnNL._AC_UF1000,1000_QL80_.jpg',
     pages: 160,
     genre: 'Théâtre',
     saga: '',
@@ -199,7 +199,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Lucrèce Borgia',
     author: 'Victor Hugo',
-    coverUrl: '/books_pictures/0bbb9a919367.jpg',
+    coverUrl: '/books_pictures/qfsgsgrgr.jpg',
     pages: 160,
     genre: 'Théâtre',
     saga: '',
@@ -225,7 +225,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Les Contemplations',
     author: 'Victor Hugo',
-    coverUrl: '/books_pictures/365448d6ef52.jpg',
+    coverUrl: '/books_pictures/71eSlt9YpAL.jpg',
     pages: 220,
     genre: 'Poésie',
     saga: '',
@@ -238,7 +238,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Les Orientales',
     author: 'Victor Hugo',
-    coverUrl: '/books_pictures/365448d6ef52.jpg',
+    coverUrl: '/books_pictures/81c1twldkCL._UF1000,1000_QL80_.jpg',
     pages: 220,
     genre: 'Poésie',
     saga: '',
@@ -251,7 +251,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'La peste',
     author: 'Albert Camus',
-    coverUrl: '/books_pictures/f16164712580.jpg',
+    coverUrl: '/books_pictures/71JTYQvrywL._AC_UF1000,1000_QL80_.jpg',
     pages: 320,
     genre: 'Classiques',
     saga: '',
@@ -277,7 +277,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Les fourberies de Scapin',
     author: 'Molière',
-    coverUrl: '/books_pictures/8e32b430b869.jpg',
+    coverUrl: '/books_pictures/M0B085KR57P1-440px.webp',
     pages: 160,
     genre: 'Théâtre',
     saga: '',
@@ -290,7 +290,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "L'avare",
     author: 'Molière',
-    coverUrl: '/books_pictures/f330c890d794.jpg',
+    coverUrl: '/books_pictures/9782075164474_1_75.jpg',
     pages: 160,
     genre: 'Théâtre',
     saga: '',
@@ -303,7 +303,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "L'école des femmes",
     author: 'Molière',
-    coverUrl: '/books_pictures/13d4f5e80b7f.jpg',
+    coverUrl: '/books_pictures/9782253038566-001-X.webp',
     pages: 160,
     genre: 'Théâtre',
     saga: '',
@@ -329,7 +329,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Tartuffe',
     author: 'Molière',
-    coverUrl: '/books_pictures/88661930853d.jpg',
+    coverUrl: '/books_pictures/61TtXlF-diL._AC_UF1000,1000_QL80_.jpg',
     pages: 160,
     genre: 'Théâtre',
     saga: '',
@@ -368,7 +368,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le Cid',
     author: 'Corneille',
-    coverUrl: '/books_pictures/d3ed0edf6b19.jpg',
+    coverUrl: '/books_pictures/J04974.jpg',
     pages: 160,
     genre: 'Théâtre',
     saga: '',
@@ -381,7 +381,8 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le mariage de Figaro',
     author: 'Beaumarchais',
-    coverUrl: '/books_pictures/d81c544296a1.jpg',
+    coverUrl:
+      '/books_pictures/p6gw0fhyJhddbUTTKvU6yXPWIxckq_D_OOZRHH4jheVaWJ9yE_3tew-cover-large.webp',
     pages: 160,
     genre: 'Théâtre',
     saga: '',
@@ -394,7 +395,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le barbier de Seville',
     author: 'Beaumarchais',
-    coverUrl: '/books_pictures/02cd559531f5.jpg',
+    coverUrl: '/books_pictures/9782363074935_1_75.jpg',
     pages: 160,
     genre: 'Théâtre',
     saga: '',
@@ -446,7 +447,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'La Fille du marquis',
     author: 'Alexandre Dumas',
-    coverUrl: '/books_pictures/0625120104aa.jpg',
+    coverUrl: '/books_pictures/71oD+bOXthL._AC_UF1000,1000_QL80_.jpg',
     pages: 420,
     genre: 'Classiques',
     saga: '',
@@ -459,7 +460,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Un Monde sans fin',
     author: 'Ken Follett',
-    coverUrl: '/books_pictures/d5c06874df12.jpg',
+    coverUrl: '/books_pictures/61c5rw9dB+L._AC_UF1000,1000_QL80_.jpg',
     pages: 1000,
     genre: 'Fiction historique',
     saga: '',
@@ -472,7 +473,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Une Colonne de feu',
     author: 'Ken Follett',
-    coverUrl: '/books_pictures/c4f3599f1574.jpg',
+    coverUrl: '/books_pictures/812SHZxQbcL._AC_UF1000,1000_QL80_.jpg',
     pages: 900,
     genre: 'Fiction historique',
     saga: '',
@@ -485,7 +486,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Les armes de la lumière',
     author: 'Ken Follett',
-    coverUrl: '/books_pictures/6ad179e5421d.jpg',
+    coverUrl: '/books_pictures/71mIgEgQgFL.jpg',
     pages: 900,
     genre: 'Fiction historique',
     saga: '',
@@ -511,7 +512,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'La chute des géants',
     author: 'Ken Follett',
-    coverUrl: '/books_pictures/fdc394f52a96.jpg',
+    coverUrl: '/books_pictures/81hA6o2Sa3L._AC_UF1000,1000_QL80_.jpg',
     pages: 1000,
     genre: 'Fiction historique',
     saga: '',
@@ -524,7 +525,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "L'hiver du monde",
     author: 'Ken Follett',
-    coverUrl: '/books_pictures/a57428aa71d8.jpg',
+    coverUrl: '/books_pictures/81i-42J6w0L.jpg',
     pages: 1000,
     genre: 'Fiction historique',
     saga: '',
@@ -576,7 +577,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le Symbole Perdu',
     author: 'Dan Brown',
-    coverUrl: '/books_pictures/8eb1cc7e29b3.jpg',
+    coverUrl: '/books_pictures/M02253134171-source.jpg',
     pages: 560,
     genre: 'Thriller',
     saga: '',
@@ -589,7 +590,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Inferno',
     author: 'Dan Brown',
-    coverUrl: '/books_pictures/e0b4a857720c.jpg',
+    coverUrl: '/books_pictures/9782709643740-001-X.webp',
     pages: 560,
     genre: 'Thriller',
     saga: '',
@@ -602,7 +603,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Origine',
     author: 'Dan Brown',
-    coverUrl: '/books_pictures/b63d6a823419.jpg',
+    coverUrl: '/books_pictures/9782709659802-001-X.webp',
     pages: 560,
     genre: 'Thriller',
     saga: '',
@@ -615,7 +616,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le Secret des secrets',
     author: 'Dan Brown',
-    coverUrl: '/books_pictures/8eb1cc7e29b3.jpg',
+    coverUrl: '/books_pictures/71YtCnXuTVL._AC_UF1000,1000_QL80_.jpg',
     pages: 560,
     genre: 'Thriller',
     saga: '',
@@ -654,7 +655,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "La Vérité sur l'Affaire Harry Quebert",
     author: 'Joël Dicker',
-    coverUrl: '/books_pictures/8492cf7c7372.jpg',
+    coverUrl: '/books_pictures/24_9782889730087_1_75.jpg',
     pages: 670,
     genre: 'Thriller',
     saga: '',
@@ -719,7 +720,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Pantagruel',
     author: 'François Rabelais',
-    coverUrl: '/books_pictures/9219b42da897.jpg',
+    coverUrl: '/books_pictures/9782757891889_1_75.jpg',
     pages: 500,
     genre: 'Classiques',
     saga: '',
@@ -732,7 +733,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Gargantua',
     author: 'François Rabelais',
-    coverUrl: '/books_pictures/9440e4759a3d.jpg',
+    coverUrl: '/books_pictures/9782081357754_1_75.jpg',
     pages: 500,
     genre: 'Classiques',
     saga: '',
@@ -745,7 +746,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le rouge et le noir',
     author: 'Stendhal',
-    coverUrl: '/books_pictures/1d2a0cb1e3a7.jpg',
+    coverUrl: '/books_pictures/9782491801434_1_75.jpg',
     pages: 640,
     genre: 'Classiques',
     saga: '',
@@ -771,7 +772,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Oliver Twist',
     author: 'Charles Dickens',
-    coverUrl: '/books_pictures/a2571b5a016e.jpg',
+    coverUrl: '/books_pictures/oliver-twist-illustrated-edition.jpg',
     pages: 480,
     genre: 'Classiques',
     saga: '',
@@ -784,7 +785,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le nom de la rose',
     author: 'Umberto Eco',
-    coverUrl: '/books_pictures/3826edf41c78.jpg',
+    coverUrl: '/books_pictures/81W6mh0rv1L.jpg',
     pages: 640,
     genre: 'Classiques',
     saga: '',
@@ -797,7 +798,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Les oiseaux se cachent pour mourir',
     author: 'Colleen McCullough',
-    coverUrl: '/books_pictures/e4b88c2837ac.jpg',
+    coverUrl: '/books_pictures/61H25WyZTLL.jpg',
     pages: 560,
     genre: 'Classiques',
     saga: '',
@@ -901,7 +902,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Arsène Lupin, gentleman cambrioleur',
     author: 'Maurice Leblanc',
-    coverUrl: '/books_pictures/dd45f43f7a52.jpg',
+    coverUrl: '/books_pictures/71uMZ9VqyVS.jpg',
     pages: 320,
     genre: 'Policier',
     saga: '',
@@ -914,7 +915,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Arsène Lupin contre Herlock Sholmès',
     author: 'Maurice Leblanc',
-    coverUrl: '/books_pictures/c981150a8c24.jpg',
+    coverUrl: '/books_pictures/J03751.jpg',
     pages: 320,
     genre: 'Policier',
     saga: '',
@@ -1437,7 +1438,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "Songe d'une nuit d'été",
     author: 'William Shakespeare',
-    coverUrl: '/books_pictures/0d6d6a2abfe5.jpg',
+    coverUrl: '/books_pictures/9782363074911_1_75.jpg',
     pages: 96,
     genre: 'Théâtre',
     saga: '',
@@ -1450,7 +1451,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'La Nuit des rois',
     author: 'William Shakespeare',
-    coverUrl: '/books_pictures/8b1ac87ebcee.jpg',
+    coverUrl: '/books_pictures/9791021900134_1_75.jpg',
     pages: 112,
     genre: 'Théâtre',
     saga: '',
@@ -1463,7 +1464,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le marchand de Venise',
     author: 'William Shakespeare',
-    coverUrl: '/books_pictures/7c56cd91c1ea.jpg',
+    coverUrl: '/books_pictures/9782080708458_1_75.jpg',
     pages: 108,
     genre: 'Théâtre',
     saga: '',
@@ -1476,7 +1477,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'La mégère apprivoisée',
     author: 'William Shakespeare',
-    coverUrl: '/books_pictures/50ad0a71ecec.jpg',
+    coverUrl: '/books_pictures/71cyh44PVfL._AC_UF1000,1000_QL80_.jpg',
     pages: 120,
     genre: 'Théâtre',
     saga: '',
@@ -1489,7 +1490,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Richard II',
     author: 'William Shakespeare',
-    coverUrl: '/books_pictures/c6a41c6d6333.jpg',
+    coverUrl: '/books_pictures/71mCBGKQe0L._AC_UF1000,1000_QL80_.jpg',
     pages: 128,
     genre: 'Théâtre',
     saga: '',
@@ -1502,7 +1503,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Richard III',
     author: 'William Shakespeare',
-    coverUrl: '/books_pictures/2cd940307eee.jpg',
+    coverUrl: '/books_pictures/26_9782290339084_1_75.jpg',
     pages: 160,
     genre: 'Théâtre',
     saga: '',
@@ -1515,7 +1516,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Othello',
     author: 'William Shakespeare',
-    coverUrl: '/books_pictures/42c664c04add.jpg',
+    coverUrl: '/books_pictures/71y1AkbS3sL._UF1000,1000_QL80_.jpg',
     pages: 144,
     genre: 'Théâtre',
     saga: '',
@@ -1528,7 +1529,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Le roi Lear',
     author: 'William Shakespeare',
-    coverUrl: '/books_pictures/b96de1c1a01f.jpg',
+    coverUrl: '/books_pictures/71IKspZIiXL._AC_UF1000,1000_QL80_.jpg',
     pages: 160,
     genre: 'Théâtre',
     saga: '',
@@ -1541,7 +1542,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Antoine et Cléopâtre',
     author: 'William Shakespeare',
-    coverUrl: '/books_pictures/cfdc4c5c3551.jpg',
+    coverUrl: '/books_pictures/81O-G3+EOAL._UF1000,1000_QL80_.jpg',
     pages: 176,
     genre: 'Théâtre',
     saga: '',
@@ -1554,7 +1555,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Antigone',
     author: 'Jean Anouilh',
-    coverUrl: '/books_pictures/e9b5031c7cd1.jpg',
+    coverUrl: '/books_pictures/71YaZvOn64L._AC_UF1000,1000_QL80_.jpg',
     pages: 96,
     genre: 'Théâtre',
     saga: '',
@@ -1567,7 +1568,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Eurydice',
     author: 'Jean Anouilh',
-    coverUrl: '/books_pictures/e9b5031c7cd1.jpg',
+    coverUrl: '/books_pictures/81h+8LZgJ9L._AC_UF1000,1000_QL80_.jpg',
     pages: 96,
     genre: 'Théâtre',
     saga: '',
@@ -1580,7 +1581,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Thomas Becket',
     author: 'Jean Anouilh',
-    coverUrl: '/books_pictures/e9b5031c7cd1.jpg',
+    coverUrl: '/books_pictures/9782070361915_1_75.jpg',
     pages: 128,
     genre: 'Théâtre',
     saga: '',
@@ -1593,7 +1594,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "La Guerre de Troie n'aura pas lieu",
     author: 'Jean Giraudoux',
-    coverUrl: '/books_pictures/a04a32e22e0e.jpg',
+    coverUrl: '/books_pictures/La-guerre-de-Troie-n-aura-pas-lieu.jpg',
     pages: 128,
     genre: 'Théâtre',
     saga: '',
@@ -1606,7 +1607,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: 'Chantecler',
     author: 'Edmond Rostand',
-    coverUrl: '/books_pictures/cece43195370.jpg',
+    coverUrl: '/books_pictures/9782081427761-475x500-1.webp',
     pages: 176,
     genre: 'Théâtre',
     saga: '',
@@ -1619,7 +1620,7 @@ export const baseBooksFromDantes: BaseBook[] = [
   {
     title: "L'Aiglon",
     author: 'Edmond Rostand',
-    coverUrl: '/books_pictures/156168e6588b.jpg',
+    coverUrl: '/books_pictures/9782081425729_1_75.jpg',
     pages: 192,
     genre: 'Théâtre',
     saga: '',

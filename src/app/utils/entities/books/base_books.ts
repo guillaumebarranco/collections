@@ -1466,7 +1466,7 @@ export const baseBooks: BaseBook[] = [
   {
     title: "L'attrape-cœurs",
     author: 'J.D. Salinger',
-    coverUrl: '/books_pictures/c_9782221157480-9782221157480_1.jpg',
+    coverUrl: '/books_pictures/couv50306888.jpg',
     pages: 277,
     genre: 'Classiques',
     saga: '',
