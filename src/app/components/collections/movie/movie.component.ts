@@ -12,6 +12,7 @@ import {
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Params, Router } from '@angular/router';
 import { Movie } from '../../../models/movie-model';
+import { UserMovieListItem } from '../../../models/movie-list.model';
 import { EntityType } from '../../../models/quizz-model';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EditMovieComponent } from '../../../containers/edit/edit-movie/edit-movie.component';
@@ -20,6 +21,10 @@ import {
   MoveEntityReviewModalComponent,
   MoveEntityReviewModalResult,
 } from '../../modals/move-entity-review-modal/move-entity-review-modal.component';
+import {
+  MovieListsModalComponent,
+  type MovieListsModalResult,
+} from '../../modals/movie-lists-modal/movie-lists-modal.component';
 import { EntityCardComponent } from '../../entity/entity-card/entity-card.component';
 import {
   EntityCardRatingAndButtonsComponent,
@@ -69,7 +74,21 @@ export class MovieComponent {
   @Input() showTopFiveSelector = false;
   @Input() topFiveRank: number | null = null;
   @Output() topFiveRankChange = new EventEmitter<number | null>();
+  /** Listes de films de l'utilisateur (pour "Ajouter à une liste"). Défini uniquement sur sa propre collection. */
+  userLists = input<UserMovieListItem[] | undefined>(undefined);
+  @Output() addMovieToList = new EventEmitter<{ movie: Movie; listName: string }>();
+  @Output() createListAndAddMovie = new EventEmitter<Movie>();
   isWatchList = input<boolean>(false);
+
+  /** Listes auxquelles ce film appartient (pour afficher les tags sur la card). */
+  movieListTags = computed(() => {
+    const lists = this.userLists();
+    const inList = this.movie?.inList ?? [];
+    if (!lists?.length) return [];
+    return inList
+      .map((name) => lists.find((l) => l.name === name))
+      .filter((x): x is UserMovieListItem => x != null);
+  });
 
   recommendationView = input<boolean>(false);
   recommendationText = input<string>('');
@@ -207,6 +226,39 @@ export class MovieComponent {
       if (result === undefined) return;
       this.callMoveMovieFromWatchlistApi(result.rating, result.ratingComment);
     });
+  }
+
+  openMovieListsModal(): void {
+    const lists = this.userLists() ?? [];
+    if (lists.length === 0) {
+      this.createListAndAddMovie.emit(this.movie);
+      return;
+    }
+    const dialogRef = this.dialog.open<
+      MovieListsModalComponent,
+      { movie: Movie; userLists: UserMovieListItem[] },
+      MovieListsModalResult
+    >(MovieListsModalComponent, {
+      data: { movie: this.movie, userLists: lists },
+      width: 'min(400px, 95vw)',
+    });
+    dialogRef.afterClosed().subscribe((result) => {
+      if (!result) return;
+      if ('listName' in result) {
+        this.addMovieToList.emit({ movie: this.movie, listName: result.listName });
+      }
+      if ('createNew' in result && result.createNew) {
+        this.createListAndAddMovie.emit(this.movie);
+      }
+    });
+  }
+
+  onAddToUserList(listName: string): void {
+    this.addMovieToList.emit({ movie: this.movie, listName });
+  }
+
+  onCreateListAndAdd(): void {
+    this.createListAndAddMovie.emit(this.movie);
   }
 
   private async callMoveMovieFromWatchlistApi(

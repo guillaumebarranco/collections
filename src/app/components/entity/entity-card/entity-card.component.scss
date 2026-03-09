@@ -29,6 +29,10 @@ app-entity-card {
     font-size: 14px;
     z-index: 2;
     transition: background 0.2s ease, transform 0.2s ease;
+
+    &.lists-button {
+      top: 50px;
+    }
   }
 
   .edit-button:hover {

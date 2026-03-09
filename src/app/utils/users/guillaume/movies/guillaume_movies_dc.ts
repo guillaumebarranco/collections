@@ -13,6 +13,7 @@ export const guillaumeMoviesDc: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Batman',
@@ -26,6 +27,7 @@ export const guillaumeMoviesDc: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Batman Returns',
@@ -39,6 +41,7 @@ export const guillaumeMoviesDc: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Batman Forever',
@@ -52,6 +55,7 @@ export const guillaumeMoviesDc: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Batman & Robin',
@@ -65,6 +69,7 @@ export const guillaumeMoviesDc: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Batman Begins',
@@ -78,6 +83,7 @@ export const guillaumeMoviesDc: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Dark Knight : Le Chevalier Noir',
@@ -91,6 +97,7 @@ export const guillaumeMoviesDc: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Dark Knight Rises',
@@ -104,6 +111,7 @@ export const guillaumeMoviesDc: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Batman',
@@ -117,6 +125,7 @@ export const guillaumeMoviesDc: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Batman v Superman : L'Aube de la Justice",
@@ -130,6 +139,7 @@ export const guillaumeMoviesDc: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Shazam!',
@@ -143,6 +153,7 @@ export const guillaumeMoviesDc: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Aquaman',
@@ -156,6 +167,7 @@ export const guillaumeMoviesDc: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Black Adam',
@@ -169,6 +181,7 @@ export const guillaumeMoviesDc: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Justice League',
@@ -182,6 +195,7 @@ export const guillaumeMoviesDc: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Zack Snyder's Justice League",
@@ -195,6 +209,7 @@ export const guillaumeMoviesDc: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Suicide Squad',
@@ -208,6 +223,7 @@ export const guillaumeMoviesDc: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Man of Steel',
@@ -221,6 +237,7 @@ export const guillaumeMoviesDc: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Superman',
@@ -234,6 +251,7 @@ export const guillaumeMoviesDc: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Watchmen : Les Gardiens',
@@ -247,6 +265,7 @@ export const guillaumeMoviesDc: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Catwoman',
@@ -260,6 +279,7 @@ export const guillaumeMoviesDc: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Wonder Woman',
@@ -273,6 +293,7 @@ export const guillaumeMoviesDc: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Wonder Woman 1984',
@@ -286,6 +307,7 @@ export const guillaumeMoviesDc: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Flash',
@@ -299,6 +321,7 @@ export const guillaumeMoviesDc: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Birds of Prey',
@@ -312,5 +335,6 @@ export const guillaumeMoviesDc: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 ];

@@ -13,5 +13,6 @@ export const emmanuelleWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 3,
     ratingComment: '',
+    inList: [],
   },
 ];

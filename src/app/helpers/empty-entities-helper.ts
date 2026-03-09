@@ -17,6 +17,7 @@ export const getEmptyMovie = (movie: BaseMovie): Movie => ({
   wantToSeeAgain: false,
   watchPriority: 1,
   ratingComment: '',
+  inList: [],
 });
 
 export const getEmptyBook = (book: BaseBook): Book => ({

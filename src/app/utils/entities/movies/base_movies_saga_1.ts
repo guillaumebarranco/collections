@@ -1030,7 +1030,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: "L'arme fatale",
     director: 'Richard Donner',
-    actors: [{ name: 'Mel Gibson' }],
+    actors: [{ name: 'Mel Gibson' }, { name: 'Danny Glover' }],
     coverUrl:
       '/movies_pictures/mF2bTqJuxbZPeEJRIMrA2WeQVxu-0-150-0-225-crop.jpg',
     releaseDate: '1987-03-06',
@@ -1044,7 +1044,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: "L'arme fatale 2",
     director: 'Richard Donner',
-    actors: [{ name: 'Mel Gibson' }],
+    actors: [{ name: 'Mel Gibson' }, { name: 'Danny Glover' }],
     coverUrl: '/movies_pictures/51211-lethal-weapon-2-0-150-0-225-crop.jpg',
     releaseDate: '1989-07-07',
     length: 114,
@@ -1057,7 +1057,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: "L'arme fatale 3",
     director: 'Richard Donner',
-    actors: [{ name: 'Mel Gibson' }],
+    actors: [{ name: 'Mel Gibson' }, { name: 'Danny Glover' }],
     coverUrl: '/movies_pictures/arme_fatale_3.jpg',
     releaseDate: '1992-05-15',
     length: 118,
@@ -1070,7 +1070,11 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: "L'arme fatale 4",
     director: 'Richard Donner',
-    actors: [{ name: 'Mel Gibson' }],
+    actors: [
+      { name: 'Mel Gibson' },
+      { name: 'Danny Glover' },
+      { name: 'Jet Li' },
+    ],
     coverUrl: '/movies_pictures/51209-lethal-weapon-4-0-150-0-225-crop.jpg',
     releaseDate: '1998-07-10',
     length: 127,
@@ -1428,7 +1432,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     actors: [
       {
         name: 'Jennifer Lawrence',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/hunger_games_1.jpg',
     releaseDate: '2012-03-23',
@@ -1436,7 +1440,11 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     genre: 'Action',
     saga: 'Hunger Games',
     description: '',
-    fromEntity: { entityType: 'book', title: 'Hunger Games', secondEntityKey: 'Suzanne Collins' },
+    fromEntity: {
+      entityType: 'book',
+      title: 'Hunger Games',
+      secondEntityKey: 'Suzanne Collins',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -1451,7 +1459,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
       },
       {
         name: 'Liam Hemsworth',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/the_hunger_games_catching_fire.jpg',
     releaseDate: '2013-11-27',
@@ -1459,7 +1467,11 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: 'Hunger Games',
     description: '',
-    fromEntity: { entityType: 'book', title: 'Hunger Games', secondEntityKey: 'Suzanne Collins' },
+    fromEntity: {
+      entityType: 'book',
+      title: 'Hunger Games',
+      secondEntityKey: 'Suzanne Collins',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -1468,7 +1480,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     actors: [
       {
         name: 'Jennifer Lawrence',
-      }
+      },
     ],
     coverUrl:
       '/movies_pictures/101991-the-hunger-games-mockingjay-part-1-0-150-0-225-crop.jpg',
@@ -1477,7 +1489,11 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     genre: 'Action',
     saga: 'Hunger Games',
     description: '',
-    fromEntity: { entityType: 'book', title: 'Hunger Games', secondEntityKey: 'Suzanne Collins' },
+    fromEntity: {
+      entityType: 'book',
+      title: 'Hunger Games',
+      secondEntityKey: 'Suzanne Collins',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -1492,7 +1508,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
       },
       {
         name: 'Liam Hemsworth',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/the_hunger_games_mockingjay_part_2.jpg',
     releaseDate: '2015-11-18',
@@ -1500,7 +1516,11 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     genre: 'Science Fiction',
     saga: 'Hunger Games',
     description: '',
-    fromEntity: { entityType: 'book', title: 'Hunger Games', secondEntityKey: 'Suzanne Collins' },
+    fromEntity: {
+      entityType: 'book',
+      title: 'Hunger Games',
+      secondEntityKey: 'Suzanne Collins',
+    },
     countryOrigin: 'États-Unis',
   },
   {

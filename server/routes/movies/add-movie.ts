@@ -32,9 +32,13 @@ function formatBaseMovie(entity: any): string {
     entity.releaseDate || ''
   )}',\n    length: ${entity.length ?? 0},\n    genre: '${escapeString(
     entity.genre || ''
-  )}',\n    saga: '${escapeString(entity.saga || '')}',\n    description: '${escapeString(
+  )}',\n    saga: '${escapeString(
+    entity.saga || ''
+  )}',\n    description: '${escapeString(
     entity.description ?? ''
-  )}',\n    fromEntity: null,\n    countryOrigin: '${escapeString(entity.countryOrigin ?? '')}',\n  },`;
+  )}',\n    fromEntity: null,\n    countryOrigin: '${escapeString(
+    entity.countryOrigin ?? ''
+  )}',\n  },`;
 }
 
 function formatUserMovie(user: any): string {
@@ -52,9 +56,17 @@ function formatUserMovie(user: any): string {
     user.owned ?? false
   },\n    wantToSeeAgain: ${
     user.wantToSeeAgain ?? false
-  },\n    watchPriority: ${user.watchPriority ?? 1},\n    ratingComment: '${escapeString(
+  },\n    watchPriority: ${
+    user.watchPriority ?? 1
+  },\n    ratingComment: '${escapeString(
     user.ratingComment ?? ''
-  )}',\n  },`;
+  )}',\n    inList: ${
+    Array.isArray(user.inList) && user.inList.length > 0
+      ? '[' +
+        user.inList.map((s: any) => "'" + escapeString(s) + "'").join(', ') +
+        ']'
+      : '[]'
+  },\n  },`;
 }
 
 function getUserMoviesTargetFile(userId: string) {
@@ -116,7 +128,8 @@ router.post('/add', (req: any, res: any) => {
       genre: normalizeString(entity.genre, 'genre') || '',
       saga: normalizeString(entity.saga, 'saga') || '',
       description: normalizeString(entity.description, 'description') ?? '',
-      countryOrigin: normalizeString(entity.countryOrigin, 'countryOrigin') ?? '',
+      countryOrigin:
+        normalizeString(entity.countryOrigin, 'countryOrigin') ?? '',
     };
 
     const userPayload = {
@@ -134,8 +147,7 @@ router.post('/add', (req: any, res: any) => {
       wantToSeeAgain:
         normalizeBoolean(user.wantToSeeAgain, 'wantToSeeAgain') ?? false,
       watchPriority: normalizeNumber(user.watchPriority, 'watchPriority') ?? 1,
-      ratingComment:
-        normalizeString(user.ratingComment, 'ratingComment') ?? '',
+      ratingComment: normalizeString(user.ratingComment, 'ratingComment') ?? '',
     };
 
     const baseMovieContent = appendObjectToArrayFile(

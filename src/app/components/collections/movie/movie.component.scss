@@ -60,6 +60,45 @@
   @include components.component-date-base;
 }
 
+.movie-lists-wrap {
+  top: 40px;
+}
+
+.movie-lists-btn {
+  font-size: 0.85rem;
+}
+
+/* Tags listes sur la card (couleur + icône) */
+.movie-list-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 8px 0;
+  list-style: none;
+  padding: 0;
+}
+
+.movie-list-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  background-color: var(--list-color, #6b7280);
+  color: #fff;
+  text-wrap: nowrap;
+
+  &__icon {
+    flex-shrink: 0;
+  }
+
+  &__name {
+    min-width: 0;
+  }
+}
+
 .movie-times-watched {
   @include components.component-times-base;
 }

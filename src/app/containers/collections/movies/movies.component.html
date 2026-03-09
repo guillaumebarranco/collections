@@ -400,11 +400,14 @@
         [selectedView]="selectedView()"
         [showTopFiveSelector]="showTopFiveRank()"
         [topFiveRank]="getTopFiveRank(movie)"
+        [userLists]="userMoviesLists()"
         (movieUpdated)="refreshMovies()"
         (topFiveRankChange)="onTopFiveRankChange(movie, $event)"
         (wantToReWatch)="markMovieAsWantToReWatch($event)"
         (hasReWatched)="markMovieAsReWatched($event)"
         (watchPriorityUpdated)="updateWatchPriority($event)"
+        (addMovieToList)="onAddMovieToList($event.movie, $event.listName)"
+        (createListAndAddMovie)="onCreateListAndAddMovie($event)"
       ></app-movie>
     </div>
     }

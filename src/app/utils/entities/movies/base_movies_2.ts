@@ -1437,7 +1437,7 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Le Dîner de Cons',
     director: 'Francis Veber',
-    actors: [{ name: 'Thierry Lhermitte' }],
+    actors: [{ name: 'Thierry Lhermitte' }, { name: 'Jacques Villeret' }],
     coverUrl: '/movies_pictures/47176-the-dinner-game-0-150-0-225-crop.jpg',
     releaseDate: '1998-04-15',
     length: 80,

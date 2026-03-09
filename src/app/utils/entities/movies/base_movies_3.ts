@@ -1254,7 +1254,11 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'The Social Network',
     director: 'David Fincher',
-    actors: [{ name: 'Jesse Eisenberg' }],
+    actors: [
+      { name: 'Jesse Eisenberg' },
+      { name: 'Andrew Garfield' },
+      { name: 'Justin Timberlake' },
+    ],
     coverUrl: '/movies_pictures/the_social_network.jpg',
     releaseDate: '2010-10-01',
     length: 120,
@@ -1386,7 +1390,7 @@ export const baseMoviesPage3: BaseMovie[] = [
       },
       {
         name: 'Ben Kingsley',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/45409-shutter-island-0-150-0-225-crop.jpg',
     releaseDate: '2010-02-19',
@@ -1403,7 +1407,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     actors: [
       {
         name: 'Logan Lerman',
-      }
+      },
     ],
     coverUrl:
       '/movies_pictures/30264-percy-jackson-the-olympians-the-lightning-thief-0-150-0-225-crop.jpg',
@@ -1412,7 +1416,11 @@ export const baseMoviesPage3: BaseMovie[] = [
     genre: 'Fantasy',
     saga: 'Percy Jackson',
     description: '',
-    fromEntity: { entityType: 'book', title: 'Le Voleur de foudre', secondEntityKey: 'Rick Riordan' },
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le Voleur de foudre',
+      secondEntityKey: 'Rick Riordan',
+    },
     countryOrigin: 'États-Unis',
   },
   {

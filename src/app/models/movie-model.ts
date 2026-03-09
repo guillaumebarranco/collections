@@ -33,6 +33,7 @@ export interface UserMovie extends MandatoryMovieData {
   wantToSeeAgain: boolean;
   watchPriority: 1 | 2 | 3;
   ratingComment: string;
+  inList: string[];
 }
 
 export type UserMovies = UserMovie[];

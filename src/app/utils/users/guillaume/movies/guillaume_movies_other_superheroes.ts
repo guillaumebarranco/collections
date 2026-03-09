@@ -13,6 +13,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Deadpool 2',
@@ -26,6 +27,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Daredevil',
@@ -39,6 +41,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'X-Men',
@@ -52,6 +55,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'X-men 2',
@@ -65,6 +69,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "X-Men : L'Affrontement Final",
@@ -78,6 +83,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'X-Men Origins : Wolverine',
@@ -91,6 +97,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Wolverine',
@@ -104,6 +111,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Logan',
@@ -117,6 +125,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'X-Men : Le Commencement',
@@ -130,6 +139,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'X-Men : Days of Future Past',
@@ -143,6 +153,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'X-Men : Apocalypse',
@@ -156,6 +167,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'X-Men :Dark Phoenix',
@@ -169,6 +181,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Venom',
@@ -182,6 +195,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Venom : Let There Be Carnage',
@@ -195,6 +209,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Spider-Man',
@@ -208,6 +223,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Spider-Man 2',
@@ -221,6 +237,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Spider-Man 3',
@@ -234,6 +251,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Amazing Spider-Man',
@@ -247,6 +265,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "The Amazing Spider-Man : Le Destin d'un Héros",
@@ -260,6 +279,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Kick-Ass',
@@ -273,6 +293,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Kick-Ass 2',
@@ -286,6 +307,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hancock',
@@ -299,6 +321,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les 4 Fantastiques',
@@ -312,6 +335,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Les 4 Fantastiques et le Surfeur d'Argent",
@@ -325,6 +349,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Ghost Rider',
@@ -338,6 +363,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sky High',
@@ -351,6 +377,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hulk',
@@ -364,6 +391,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Punisher',
@@ -377,6 +405,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les 4 Fantastiques',
@@ -390,5 +419,6 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 ];

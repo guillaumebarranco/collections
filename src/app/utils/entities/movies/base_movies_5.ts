@@ -2047,10 +2047,13 @@ export const baseMoviesPage5: BaseMovie[] = [
     director: 'Aaron Nee, Adam Nee',
     actors: [
       {
-        name: 'Brad Pitt',
+        name: 'Sandra Bullock',
       },
       {
-        name: 'Sandra Bullock',
+        name: 'Channing Tatum',
+      },
+      {
+        name: 'Daniel Radcliffe',
       },
     ],
     coverUrl: '/movies_pictures/1445602.jpg',

@@ -13,6 +13,7 @@ export const williamMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Cars 2',
@@ -26,6 +27,7 @@ export const williamMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Cars 3',
@@ -39,6 +41,7 @@ export const williamMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Planes',
@@ -52,6 +55,7 @@ export const williamMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Planes 2',
@@ -65,6 +69,7 @@ export const williamMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le monde de Nemo',
@@ -78,6 +83,7 @@ export const williamMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le monde de Dory',
@@ -91,6 +97,7 @@ export const williamMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Ratatouille',
@@ -104,6 +111,7 @@ export const williamMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Zootopie',
@@ -117,5 +125,6 @@ export const williamMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 ];

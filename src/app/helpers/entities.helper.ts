@@ -226,6 +226,7 @@ export const getMovieDataFromUserMovieAndBaseMovie = (
   countryOrigin: baseMovie?.countryOrigin ?? '',
   fromEntity: baseMovie?.fromEntity ?? null,
   ratingComment: userMovie.ratingComment ?? '',
+  inList: userMovie.inList ?? [],
 });
 
 export const getSerieDataFromUserSerieAndBaseSerie = (

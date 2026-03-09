@@ -107,6 +107,23 @@ export const baseMoviesPage4: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
+    title: 'Gods of Egypt',
+    director: 'Alex Proyas',
+    actors: [
+      { name: 'Nikolaj Coster-Waldau' },
+      { name: 'Brenton Thwaites' },
+      { name: 'Gerard Butler' },
+    ],
+    coverUrl: '/movies_pictures/gods-of-egypt.jpg',
+    releaseDate: '2016-02-26',
+    length: 127,
+    genre: 'Action, Adventure, Fantasy',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Australie',
+  },
+  {
     title: 'Elysium',
     director: 'Neill Blomkamp',
     actors: [{ name: 'Matt Damon' }],

@@ -1,16 +1,26 @@
 <app-entity-card>
-  @if (!readOnly) {
-  <button
-    entity-edit
-    type="button"
-    class="edit-button"
-    aria-label="Éditer le film"
-    (click)="navigateToEdit()"
-    *appCanEdit
-  >
-    &#9998;
-  </button>
-  } @if (showTopFiveSelector && !readOnly) {
+  <div entity-edit>
+    <button
+      type="button"
+      aria-label="Éditer le film"
+      class="edit-button"
+      (click)="navigateToEdit()"
+      *appCanEdit
+    >
+      &#9998;
+    </button>
+    <button
+      *appCanEdit
+      type="button"
+      class="edit-button lists-button"
+      (click)="openMovieListsModal()"
+      aria-label="Ajouter à une liste"
+    >
+      📋
+    </button>
+  </div>
+
+  @if (showTopFiveSelector && !readOnly) {
   <span class="top-five-selector" entity-badges>
     <label
       [for]="'top5-movie-' + movie.title + '-' + movie.director"
@@ -41,7 +51,23 @@
   />
   <div entity-info>
     <h3 class="movie-title">{{ movie.title }}</h3>
-    @if (directorsList().length > 0) {
+    @if (movieListTags().length > 0) {
+    <div class="movie-list-tags" role="list">
+      @for (tag of movieListTags(); track tag.name) {
+      <span
+        class="movie-list-tag"
+        [style.--list-color]="tag.color"
+        role="listitem"
+        [attr.aria-label]="'Liste : ' + tag.name"
+      >
+        <span class="movie-list-tag__icon" aria-hidden="true">{{
+          tag.icon
+        }}</span>
+        <span class="movie-list-tag__name">{{ tag.name }}</span>
+      </span>
+      }
+    </div>
+    } @if (directorsList().length > 0) {
     <div class="movie-directors">
       @for (director of visibleDirectors(); track director) {
       <span class="movie-director-badge">{{ director }}</span>

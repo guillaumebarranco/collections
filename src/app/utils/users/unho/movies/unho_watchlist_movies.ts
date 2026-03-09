@@ -13,6 +13,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Ligne Verte',
@@ -26,6 +27,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Gladiator',
@@ -39,6 +41,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mulholland Drive',
@@ -52,6 +55,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Evadés',
@@ -65,6 +69,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'E.T. the Extra-Terrestrial',
@@ -78,9 +83,10 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
-    title: 'Le Fabuleux Destin d\'Amélie Poulain',
+    title: "Le Fabuleux Destin d'Amélie Poulain",
     director: 'Jean-Pierre Jeunet',
     rating: 0,
     timesWatched: 0,
@@ -91,6 +97,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Lost in Translation',
@@ -104,6 +111,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Top Gun : Maverick',
@@ -117,6 +125,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Top Gun',
@@ -130,6 +139,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Haine',
@@ -143,9 +153,10 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
-    title: '2001 : L\'Odyssée de l\'espace',
+    title: "2001 : L'Odyssée de l'espace",
     director: 'Yannick Rolandeau',
     rating: 0,
     timesWatched: 0,
@@ -156,6 +167,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Oppenheimer',
@@ -169,6 +181,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Prey',
@@ -182,6 +195,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Requiem for a Dream',
@@ -195,6 +209,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le silence des agneaux',
@@ -208,6 +223,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '28 jours plus tard',
@@ -221,6 +237,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Ready Player One',
@@ -234,9 +251,10 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
-    title: 'L\'exorciste',
+    title: "L'exorciste",
     director: 'William Friedkin',
     rating: 0,
     timesWatched: 0,
@@ -247,6 +265,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sixième Sens',
@@ -260,6 +279,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mrs. Doubtfire',
@@ -273,6 +293,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Big Lebowski',
@@ -286,6 +307,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Will Hunting',
@@ -299,6 +321,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Into the Wild',
@@ -312,6 +335,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'No Country for Old Men',
@@ -325,6 +349,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '127 Heures',
@@ -338,6 +363,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Black Swan',
@@ -351,6 +377,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Edge of Tomorrow',
@@ -364,6 +391,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Loup de Wall Street',
@@ -377,6 +405,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Prisoners',
@@ -390,6 +419,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Elysium',
@@ -403,6 +433,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Last Action Hero',
@@ -416,6 +447,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sinners',
@@ -429,6 +461,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '12 Years a Slave',
@@ -442,9 +475,10 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
-    title: 'Une bataille après l\'autre',
+    title: "Une bataille après l'autre",
     director: 'Paul Thomas Anderson',
     rating: 0,
     timesWatched: 0,
@@ -455,6 +489,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Règne du feu',
@@ -468,6 +503,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Northman',
@@ -481,6 +517,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Lady Vengeance',
@@ -494,6 +531,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Northman',
@@ -507,6 +545,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Super Mario Bros. le Film',
@@ -520,6 +559,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Cinq Légendes',
@@ -533,6 +573,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Toy Story 2',
@@ -546,6 +587,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Toy Story 3',
@@ -559,6 +601,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Tombeau des lucioles',
@@ -572,6 +615,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Kiki la petite sorcière',
@@ -585,9 +629,10 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
-    title: 'Le Prince d\'Égypte',
+    title: "Le Prince d'Égypte",
     director: 'Brenda Chapman, Steve Hickner',
     rating: 0,
     timesWatched: 0,
@@ -598,6 +643,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Coraline',
@@ -611,6 +657,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Orange mécanique',
@@ -624,6 +671,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Dernier Pub avant la fin du monde',
@@ -637,6 +685,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Batman',
@@ -650,6 +699,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Batman Returns',
@@ -663,6 +713,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Batman',
@@ -676,9 +727,10 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
-    title: 'La Revanche d\'une blonde',
+    title: "La Revanche d'une blonde",
     director: 'Robert Luketic',
     rating: 0,
     timesWatched: 0,
@@ -689,6 +741,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mars Attacks !',
@@ -702,6 +755,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Labyrinthe',
@@ -715,6 +769,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Wicked: For Good',
@@ -728,6 +783,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Anora',
@@ -741,6 +797,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Substance',
@@ -754,9 +811,10 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
-    title: 'Hunger Games : La Ballade du serpent et de l\'oiseau chanteur',
+    title: "Hunger Games : La Ballade du serpent et de l'oiseau chanteur",
     director: 'Francis Lawrence',
     rating: 0,
     timesWatched: 0,
@@ -767,6 +825,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Godzilla Minus One',
@@ -780,6 +839,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Killers of the Flower Moon',
@@ -793,6 +853,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'It Chapter Two',
@@ -806,6 +867,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Toy Story 4',
@@ -819,9 +881,10 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
-    title: 'La Forme de l\'eau',
+    title: "La Forme de l'eau",
     director: 'Guillermo del Toro',
     rating: 0,
     timesWatched: 0,
@@ -832,6 +895,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sicario',
@@ -845,6 +909,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Gatsby le Magnifique',
@@ -858,6 +923,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Incendies',
@@ -871,6 +937,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Dernier des Mohicans',
@@ -884,6 +951,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Rain Man',
@@ -897,6 +965,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Folle Journée de Ferris Bueller',
@@ -910,6 +979,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Goonies',
@@ -923,6 +993,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Evil Dead',
@@ -936,6 +1007,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Love Actually',
@@ -949,6 +1021,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Avengers',
@@ -962,9 +1035,10 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
-    title: 'Avengers : L\'Ère d\'Ultron',
+    title: "Avengers : L'Ère d'Ultron",
     director: 'Joss Whedon',
     rating: 0,
     timesWatched: 0,
@@ -975,6 +1049,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Avengers: Infinity War',
@@ -988,6 +1063,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Avengers: Endgame',
@@ -1001,6 +1077,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Star Wars : Episode 8 - Le dernier Jedi',
@@ -1014,9 +1091,10 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
-    title: 'Star Wars : Episode 9 - L\'ascension de Skywalker',
+    title: "Star Wars : Episode 9 - L'ascension de Skywalker",
     director: 'J.J. Abrams',
     rating: 0,
     timesWatched: 0,
@@ -1027,6 +1105,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Terminator 2: Judgment Day',
@@ -1040,6 +1119,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Matrix Reloaded',
@@ -1053,6 +1133,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Matrix Revolutions',
@@ -1066,6 +1147,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Alien : La Résurrection',
@@ -1079,6 +1161,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Animaux Fantastiques 3 : Les Secrets de Dumbledore',
@@ -1092,6 +1175,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'James Bond : Spectre',
@@ -1105,6 +1189,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'James Bond : Mourir Peut Attendre',
@@ -1118,6 +1203,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Resident Evil',
@@ -1131,6 +1217,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Resident Evil : Apocalypse',
@@ -1144,6 +1231,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Resident Evil : Extinction',
@@ -1157,6 +1245,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Resident Evil : Afterlife',
@@ -1170,6 +1259,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Resident Evil : Retribution',
@@ -1183,6 +1273,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Pirates des Caraïbes : La Vengeance de Salazar',
@@ -1196,5 +1287,6 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-  }
+    inList: [],
+  },
 ];

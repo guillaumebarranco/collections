@@ -135,6 +135,7 @@ export const getFullMovie = (movie: BaseMovie): Movie => ({
   watchPriority: 1,
   description: movie.description ?? '',
   ratingComment: '',
+  inList: [],
 });
 
 export const getFullSerie = (serie: BaseSerie): Serie => ({

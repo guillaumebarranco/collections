@@ -29,6 +29,7 @@ type AddMovieUserForm = {
   wantToSeeAgain: boolean;
   watchPriority: number;
   ratingComment: string;
+  inList: string[];
 };
 
 type AddMovieDialogData = {
@@ -75,6 +76,7 @@ export class AddMovieComponent {
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   });
 
   close() {

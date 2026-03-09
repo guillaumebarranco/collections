@@ -13,6 +13,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Princess Switch',
@@ -26,6 +27,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Petits coups montés',
@@ -39,6 +41,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The life list',
@@ -52,6 +55,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Champagne Problems',
@@ -65,6 +69,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'People We Meet on Vacation',
@@ -78,6 +83,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Tout le Bleu du Ciel',
@@ -91,6 +97,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Nos coeurs meurtris',
@@ -104,6 +111,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Au plaisir de se faire trahir',
@@ -117,6 +125,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "La Probabilité statistique de l'amour au premier regard",
@@ -130,6 +139,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Ce sera toi',
@@ -143,6 +153,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hello, goodbye and everything in between',
@@ -156,6 +167,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Un Accord Parfait',
@@ -169,6 +181,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The In-between',
@@ -182,6 +195,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'À Travers Ma Fenêtre',
@@ -195,6 +209,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Love Hard',
@@ -208,6 +223,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'Amour complexe",
@@ -221,6 +237,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Belle et la Bête',
@@ -234,6 +251,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Un choix',
@@ -247,6 +265,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'agence",
@@ -260,6 +279,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Un jour',
@@ -273,6 +293,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sex Friends',
@@ -286,6 +307,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Love & autres drogues',
@@ -299,6 +321,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sexy Dance',
@@ -312,6 +335,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sexy Dance 2',
@@ -325,6 +349,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sexy Dance 3D',
@@ -338,6 +363,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'Arnacœur",
@@ -351,6 +377,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Remember Me',
@@ -364,6 +391,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Valentine's Day",
@@ -377,6 +405,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La proposition',
@@ -390,6 +419,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '17 ans encore',
@@ -403,6 +433,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '(500) Jours Ensemble',
@@ -416,6 +447,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Jackpot',
@@ -429,6 +461,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Juno',
@@ -442,6 +475,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Orgueil et Préjugés',
@@ -455,6 +489,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Match Point',
@@ -468,6 +503,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hitch : Expert en Séduction',
@@ -481,6 +517,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'First Daughter',
@@ -494,6 +531,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Eternal Sunshine of the Spotless Mind',
@@ -507,6 +545,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Girl Next Door',
@@ -520,6 +559,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Amour & Amnésie',
@@ -533,6 +573,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Love Actually',
@@ -546,6 +587,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Le temps d'un automne",
@@ -559,6 +601,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Pearl Harbor',
@@ -572,6 +615,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Ce que Veulent les Femmes',
@@ -585,6 +629,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Coup de foudre à Notting Hill',
@@ -598,6 +643,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Rencontre avec Joe Black',
@@ -611,6 +657,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Pretty Woman',
@@ -624,6 +671,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'Amour puissance mille",
@@ -637,6 +685,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La La Land',
@@ -650,6 +699,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'amour ouf",
@@ -663,6 +713,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Princess Switch : Switched Again',
@@ -676,6 +727,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Holidate',
@@ -689,6 +741,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Rich in Love',
@@ -702,6 +755,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Isi & Ossi',
@@ -715,6 +769,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Last Christmas',
@@ -728,6 +783,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '40 jours et 40 nuits',
@@ -741,6 +797,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Coup de foudre à Manhattan',
@@ -754,6 +811,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Love again: un peu, beaucoup, passionnément',
@@ -767,5 +825,6 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 ];

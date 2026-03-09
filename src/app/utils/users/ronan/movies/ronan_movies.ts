@@ -13,6 +13,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sexe entre amis',
@@ -26,6 +27,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Une femme en jeu',
@@ -39,6 +41,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Oscar',
@@ -52,6 +55,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sixième Sens',
@@ -65,6 +69,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Target',
@@ -78,6 +83,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hypertension',
@@ -91,6 +97,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'Apprenti sorcier",
@@ -104,6 +111,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Casper',
@@ -117,6 +125,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Belle et le Clochard',
@@ -130,6 +139,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Sex List',
@@ -143,6 +153,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Evadés',
@@ -156,6 +167,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "20 ans d'écart",
@@ -169,6 +181,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Walter',
@@ -182,6 +195,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Prénom',
@@ -195,6 +209,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Malavita',
@@ -208,6 +223,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Punisher',
@@ -221,6 +237,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Moi, Moche et Méchant 2',
@@ -234,6 +251,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Jason Bourne',
@@ -247,6 +265,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Jungle Cruise',
@@ -260,6 +279,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'À tous les garçons : Pour toujours et à jamais',
@@ -273,6 +293,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "À tous les garçons : P.S. Je t'aime toujours",
@@ -286,6 +307,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Klaus',
@@ -299,6 +321,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Pokémon : Détective Pikachu',
@@ -312,6 +335,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Dumbo',
@@ -325,6 +349,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Le Crime de l'Orient-Express",
@@ -338,6 +363,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Miss Peregrine et les Enfants particuliers',
@@ -351,6 +377,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Le Monde fantastique d'Oz",
@@ -364,6 +391,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Warm Bodies',
@@ -377,6 +405,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Dark Shadows',
@@ -390,6 +419,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Chat Potté',
@@ -403,6 +433,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hugo',
@@ -416,6 +447,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Rango',
@@ -429,6 +461,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Jennifer's Body",
@@ -442,6 +475,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Bride Wars',
@@ -455,6 +489,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'Étrange Histoire de Benjamin Button",
@@ -468,6 +503,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Monde de Narnia : Le Prince Caspian',
@@ -481,6 +517,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Secret de Terabithia',
@@ -494,6 +531,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Happy Feet',
@@ -507,6 +545,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Constantine',
@@ -520,6 +559,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Lilo et Stitch',
@@ -533,6 +573,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Chicken Run',
@@ -546,6 +587,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Dinosaure',
@@ -559,6 +601,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Le Prince d'Égypte",
@@ -572,6 +615,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Le Roi Lion 2 : L'Honneur de la tribu",
@@ -585,6 +629,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mary à tout prix',
@@ -598,6 +643,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Flubber',
@@ -611,6 +657,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mars Attacks !',
@@ -624,6 +671,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Matilda',
@@ -637,6 +685,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Entretien avec un vampire',
@@ -650,6 +699,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'Étrange Noël de monsieur Jack",
@@ -663,6 +713,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '3 Ninjas',
@@ -676,6 +727,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Edward aux mains d'argent",
@@ -689,6 +741,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Kiki la petite sorcière',
@@ -702,6 +755,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Grease',
@@ -715,6 +769,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mary Poppins',
@@ -728,6 +783,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Bambi',
@@ -741,6 +797,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Dumbo',
@@ -754,6 +811,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Le Magicien d'Oz",
@@ -767,6 +825,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Blanche-Neige et les Sept Nains',
@@ -780,6 +839,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'Agence tous risques",
@@ -793,6 +853,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Benjamin Gates et le Livre des secrets',
@@ -806,6 +867,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Danny the Dog',
@@ -819,6 +881,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Fils du vent',
@@ -832,6 +895,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Street Dancers',
@@ -845,6 +909,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Plage',
@@ -858,6 +923,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Les Ailes de l'enfer",
@@ -871,6 +937,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'I, Robot',
@@ -884,6 +951,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Carry-On',
@@ -897,6 +965,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Road House',
@@ -910,6 +979,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Damsel',
@@ -923,6 +993,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sly',
@@ -936,6 +1007,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Arnold',
@@ -949,6 +1021,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Samaritan',
@@ -962,6 +1035,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Prey',
@@ -975,6 +1049,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Red Notice',
@@ -988,6 +1063,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Guilty',
@@ -1001,6 +1077,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Terminal',
@@ -1014,6 +1091,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Tanguy',
@@ -1027,6 +1105,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Wasabi',
@@ -1040,6 +1119,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Training Day',
@@ -1053,6 +1133,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Battle Royale',
@@ -1066,6 +1147,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Memento',
@@ -1079,6 +1161,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Snatch',
@@ -1092,6 +1175,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Gladiator',
@@ -1105,6 +1189,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Source Code',
@@ -1118,6 +1203,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Superman',
@@ -1131,6 +1217,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Superman II',
@@ -1144,6 +1231,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Superman Returns',
@@ -1157,6 +1245,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Enemy',
@@ -1170,6 +1259,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Chaos Walking',
@@ -1183,6 +1273,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Love and Monsters',
@@ -1196,6 +1287,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mulan',
@@ -1209,6 +1301,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Palm Springs',
@@ -1222,6 +1315,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Guns Akimbo',
@@ -1235,6 +1329,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Bird Box',
@@ -1248,6 +1343,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'E.T. the Extra-Terrestrial',
@@ -1261,6 +1357,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Shining',
@@ -1274,6 +1371,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Taxi Driver',
@@ -1287,6 +1385,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Gendarme de Saint-Tropez',
@@ -1300,6 +1399,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Yamakasi',
@@ -1313,6 +1413,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'DodgeBall: Même pas mal',
@@ -1326,6 +1427,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Garfield',
@@ -1339,6 +1441,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Harold & Kumar Go to White Castle',
@@ -1352,6 +1455,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Day After Tomorrow',
@@ -1365,6 +1469,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Van Helsing',
@@ -1378,6 +1483,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Man on Fire',
@@ -1391,6 +1497,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Shaun of the Dead',
@@ -1404,6 +1511,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'EuroTrip',
@@ -1417,6 +1525,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'RRRrrrr!!!',
@@ -1430,6 +1539,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Saw',
@@ -1443,6 +1553,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Oldboy',
@@ -1456,6 +1567,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Bruce tout-puissant',
@@ -1469,6 +1581,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Moi, Cesar, 10 ans et demi, 1m39',
@@ -1482,6 +1595,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Equilibrium',
@@ -1495,6 +1609,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Minority Report',
@@ -1508,6 +1623,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Panic Room',
@@ -1521,6 +1637,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Cinquième Élément',
@@ -1534,6 +1651,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'American Beauty',
@@ -1547,6 +1665,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Wild Wild West',
@@ -1560,6 +1679,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Armageddon',
@@ -1573,6 +1693,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Truman Show',
@@ -1586,6 +1707,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Godzilla',
@@ -1599,6 +1721,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Death Note',
@@ -1612,6 +1735,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Atomic Blonde',
@@ -1625,6 +1749,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Baby Driver',
@@ -1638,6 +1763,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Swiss Army Man',
@@ -1651,6 +1777,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Room',
@@ -1664,6 +1791,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Gone Girl',
@@ -1677,6 +1805,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Brice de Nice',
@@ -1690,6 +1819,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Dirty Dancing',
@@ -1703,6 +1833,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Scarface',
@@ -1716,6 +1847,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hors de Prix',
@@ -1729,6 +1861,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '300',
@@ -1742,6 +1875,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Camping',
@@ -1755,6 +1889,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Incontrôlable',
@@ -1768,6 +1903,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'King Kong',
@@ -1781,6 +1917,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Nanny McPhee',
@@ -1794,6 +1931,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mr. & Mrs. Smith',
@@ -1807,6 +1945,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Descent',
@@ -1820,6 +1959,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Million Dollar Baby',
@@ -1833,6 +1973,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Mask',
@@ -1846,6 +1987,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Forrest Gump',
@@ -1859,6 +2001,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Pulp Fiction',
@@ -1872,6 +2015,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mrs. Doubtfire',
@@ -1885,6 +2029,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Big Lebowski',
@@ -1898,6 +2043,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Edge of Tomorrow',
@@ -1911,6 +2057,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Prisoners',
@@ -1924,6 +2071,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Gravity',
@@ -1937,6 +2085,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'World War Z',
@@ -1950,6 +2099,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'After Earth',
@@ -1963,6 +2113,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Oblivion',
@@ -1976,6 +2127,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Django Unchained',
@@ -1989,6 +2141,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Dredd',
@@ -2002,6 +2155,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Dictator',
@@ -2015,6 +2169,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Lucky One',
@@ -2028,6 +2183,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Prometheus',
@@ -2041,6 +2197,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '21 Jump Street',
@@ -2054,6 +2211,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Chronicle',
@@ -2067,6 +2225,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Real Steel',
@@ -2080,6 +2239,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Intouchables',
@@ -2093,6 +2253,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Warrior',
@@ -2106,6 +2267,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Never Back Down 2: The Beatdown',
@@ -2119,6 +2281,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Raid',
@@ -2132,6 +2295,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Bloodsport',
@@ -2145,6 +2309,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'RoboCop',
@@ -2158,6 +2323,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'I Love You Phillip Morris',
@@ -2171,6 +2337,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Gran Torino',
@@ -2184,6 +2351,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Eagle Eye',
@@ -2197,6 +2365,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Slumdog Millionaire',
@@ -2210,6 +2379,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Wanted : Choisis ton Destin',
@@ -2223,6 +2393,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Never Back Down',
@@ -2236,6 +2407,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Jumper',
@@ -2249,6 +2421,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Paranormal Activity',
@@ -2262,6 +2435,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Into the Wild',
@@ -2275,6 +2449,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Evan tout-puissant',
@@ -2288,6 +2463,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'No Country for Old Men',
@@ -2301,6 +2477,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Zodiac',
@@ -2314,6 +2491,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Jumanji',
@@ -2327,6 +2505,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Judge Dredd',
@@ -2340,6 +2519,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Usual Suspects',
@@ -2353,6 +2533,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Un indien dans la ville',
@@ -2366,6 +2547,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Tuche',
@@ -2379,6 +2561,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Super 8',
@@ -2392,6 +2575,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sucker Punch',
@@ -2405,6 +2589,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Paul',
@@ -2418,6 +2603,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Social Network',
@@ -2431,6 +2617,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '127 Heures',
@@ -2444,6 +2631,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Black Swan',
@@ -2457,6 +2645,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Inception',
@@ -2470,6 +2659,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Fatal',
@@ -2483,6 +2673,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Karate Kid',
@@ -2496,6 +2687,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Shutter Island',
@@ -2509,6 +2701,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Brothers',
@@ -2522,6 +2715,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Lucky Luke',
@@ -2535,6 +2729,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '2012',
@@ -2548,6 +2743,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Zombieland',
@@ -2561,6 +2757,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mr. Nobody',
@@ -2574,6 +2771,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Inglourious Basterds',
@@ -2587,6 +2785,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Basic Instinct',
@@ -2600,6 +2799,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Reservoir Dogs',
@@ -2613,6 +2813,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Point Break',
@@ -2626,6 +2827,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Total Recall',
@@ -2639,6 +2841,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Last Action Hero',
@@ -2652,6 +2855,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Jurassic Park',
@@ -2665,6 +2869,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Demolition Man',
@@ -2678,6 +2883,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Stuart Little',
@@ -2691,6 +2897,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Cars 2',
@@ -2704,6 +2911,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '1001 Pattes',
@@ -2717,6 +2925,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Boss Level',
@@ -2730,6 +2939,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Parasite',
@@ -2743,6 +2953,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Iron Man',
@@ -2756,6 +2967,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Iron Man 2',
@@ -2769,6 +2981,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Batman',
@@ -2782,6 +2995,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Batman Returns',
@@ -2795,6 +3009,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Batman Forever',
@@ -2808,6 +3023,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Batman & Robin',
@@ -2821,6 +3037,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Batman Begins',
@@ -2834,6 +3051,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Zack Snyder's Justice League",
@@ -2847,6 +3065,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Catwoman',
@@ -2860,6 +3079,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Wonder Woman 1984',
@@ -2873,6 +3093,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Daredevil',
@@ -2886,6 +3107,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'X-Men',
@@ -2899,6 +3121,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Spider-Man',
@@ -2912,6 +3135,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Kick-Ass',
@@ -2925,6 +3149,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hancock',
@@ -2938,6 +3163,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sky High',
@@ -2951,6 +3177,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hulk',
@@ -2964,6 +3191,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'Arnacœur",
@@ -2977,6 +3205,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Remember Me',
@@ -2990,6 +3219,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Valentine's Day",
@@ -3003,6 +3233,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '(500) Jours Ensemble',
@@ -3016,6 +3247,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Juno',
@@ -3029,6 +3261,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hitch : Expert en Séduction',
@@ -3042,6 +3275,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Eternal Sunshine of the Spotless Mind',
@@ -3055,6 +3289,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Girl Next Door',
@@ -3068,6 +3303,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Love Actually',
@@ -3081,6 +3317,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Pearl Harbor',
@@ -3094,6 +3331,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Coup de foudre à Notting Hill',
@@ -3107,6 +3345,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Pretty Woman',
@@ -3120,6 +3359,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Holidate',
@@ -3133,6 +3373,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Dragons',
@@ -3146,6 +3387,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Ralph Breaks the Internet',
@@ -3159,6 +3401,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Encanto',
@@ -3172,6 +3415,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Cars',
@@ -3185,6 +3429,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Cars 3',
@@ -3198,6 +3443,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Nouveaux Héros',
@@ -3211,6 +3457,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Rebelle',
@@ -3224,6 +3471,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Kung Fu Panda',
@@ -3237,6 +3485,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Ratatouille',
@@ -3250,6 +3499,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Shrek',
@@ -3263,6 +3513,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Shrek 2',
@@ -3276,6 +3527,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Indestructibles',
@@ -3289,6 +3541,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Monstres et Cie',
@@ -3302,6 +3555,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Toy Story',
@@ -3315,6 +3569,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Toy Story 2',
@@ -3328,6 +3583,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'South Park, le Film',
@@ -3341,6 +3597,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Tarzan',
@@ -3354,6 +3611,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Princesse Mononoké',
@@ -3367,6 +3625,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hercule',
@@ -3380,6 +3639,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Pocahontas',
@@ -3393,6 +3653,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Space Jam',
@@ -3406,6 +3667,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Roi Lion',
@@ -3419,6 +3681,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Aladdin',
@@ -3432,6 +3695,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Peter Pan',
@@ -3445,6 +3709,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Pinocchio',
@@ -3459,6 +3724,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Raya et le Dernier Dragon',
@@ -3472,6 +3738,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '2 Fast 2 Furious',
@@ -3485,6 +3752,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Rocky',
@@ -3498,6 +3766,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Rocky II',
@@ -3511,6 +3780,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Rocky III',
@@ -3524,6 +3794,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Rocky IV',
@@ -3537,6 +3808,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Rocky V',
@@ -3550,6 +3822,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Rocky Balboa',
@@ -3563,6 +3836,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Terminator',
@@ -3576,6 +3850,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Terminator 2: Judgment Day',
@@ -3589,6 +3864,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Terminator 3: Rise of the Machines',
@@ -3602,6 +3878,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Terminator: Dark Fate',
@@ -3615,6 +3892,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Murder Mystery',
@@ -3628,6 +3906,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'John Wick',
@@ -3641,6 +3920,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Enola Holmes',
@@ -3654,6 +3934,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Wake up dead man : une histoire à couteaux tirés',
@@ -3667,6 +3948,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'James Bond : Casino Royale',
@@ -3680,6 +3962,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'James Bond : Skyfall',
@@ -3693,6 +3976,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'James Bond : Spectre',
@@ -3706,6 +3990,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Split',
@@ -3719,6 +4004,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Divergente',
@@ -3732,6 +4018,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Taken',
@@ -3745,6 +4032,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Underworld',
@@ -3758,6 +4046,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Banlieue 13',
@@ -3771,6 +4060,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Banlieue 13 : Ultimatum',
@@ -3784,6 +4074,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Rush Hour',
@@ -3797,6 +4088,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Ocean's Eleven",
@@ -3810,6 +4102,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Taxi',
@@ -3823,6 +4116,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Taxi 2',
@@ -3836,6 +4130,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Taxi 3',
@@ -3849,6 +4144,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Taxi 4',
@@ -3862,6 +4158,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Scary Movie',
@@ -3875,6 +4172,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Scary Movie 2',
@@ -3888,6 +4186,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Scary Movie 3',
@@ -3901,6 +4200,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Scary Movie 4',
@@ -3914,6 +4214,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Kill Bill: Vol. 1',
@@ -3927,6 +4228,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Kill Bill: Vol. 2',
@@ -3940,6 +4242,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hellboy',
@@ -3953,6 +4256,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Transporteur',
@@ -3966,6 +4270,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'xXx',
@@ -3979,6 +4284,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sin City',
@@ -3992,6 +4298,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Blade',
@@ -4005,6 +4312,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Blade II',
@@ -4018,6 +4326,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Scooby-Doo',
@@ -4031,6 +4340,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Scooby-Doo 2: Monsters Unleashed',
@@ -4044,6 +4354,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Matrix Reloaded',
@@ -4057,6 +4368,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Matrix Revolutions',
@@ -4070,6 +4382,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Spy Kids',
@@ -4083,6 +4396,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Spy Kids 3-D: Game Over',
@@ -4096,6 +4410,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Bad Boys',
@@ -4109,6 +4424,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Bad Boys II',
@@ -4122,6 +4438,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Men in Black',
@@ -4135,6 +4452,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Men in Black II',
@@ -4148,6 +4466,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Men in Black 3',
@@ -4161,6 +4480,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Lara Croft : Tomb Raider',
@@ -4174,6 +4494,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Predator',
@@ -4187,6 +4508,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Alien',
@@ -4200,6 +4522,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Independence Day',
@@ -4213,6 +4536,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Retour vers le futur',
@@ -4226,6 +4550,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Scream',
@@ -4239,6 +4564,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Scream 2',
@@ -4252,6 +4578,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Scream 3',
@@ -4265,6 +4592,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Scream 4',
@@ -4278,6 +4606,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'American Pie',
@@ -4291,6 +4620,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'American Pie 2',
@@ -4304,6 +4634,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'American Pie Presents: Beta House',
@@ -4317,6 +4648,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'American Pie Presents: The Naked Mile',
@@ -4330,6 +4662,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'American Pie Presents: Band Camp',
@@ -4343,6 +4676,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'American Pie Presents: The Book of Love',
@@ -4356,6 +4690,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Frankenstein',
@@ -4369,6 +4704,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Wicked',
@@ -4382,6 +4718,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Morbius',
@@ -4395,6 +4732,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'West Side Story',
@@ -4408,6 +4746,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Old',
@@ -4421,6 +4760,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Luca',
@@ -4434,6 +4774,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Gentlemen',
@@ -4447,6 +4788,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The King',
@@ -4460,6 +4802,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'BlacKkKlansman',
@@ -4473,6 +4816,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Lego Movie',
@@ -4486,6 +4830,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Snowpiercer',
@@ -4499,6 +4844,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Ted',
@@ -4512,6 +4858,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Kung Fu Panda 2',
@@ -4525,6 +4872,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Rio',
@@ -4538,6 +4886,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sherlock Holmes',
@@ -4551,6 +4900,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Là-haut',
@@ -4564,6 +4914,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mamma Mia!',
@@ -4577,6 +4928,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Alvin et les Chipmunks',
@@ -4590,6 +4942,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Stardust',
@@ -4603,6 +4956,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Madagascar',
@@ -4616,6 +4970,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Troy',
@@ -4629,6 +4984,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Big Fish',
@@ -4642,6 +4998,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '8 Mile',
@@ -4655,6 +5012,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Insomnia',
@@ -4668,6 +5026,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Voyage de Chihiro',
@@ -4681,6 +5040,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sleepy Hollow',
@@ -4694,6 +5054,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Fight Club',
@@ -4707,6 +5068,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mon voisin Totoro',
@@ -4720,6 +5082,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Beetlejuice',
@@ -4733,6 +5096,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Château dans le ciel',
@@ -4746,6 +5110,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Gremlins',
@@ -4759,6 +5124,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'West Side Story',
@@ -4772,6 +5138,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Cinq nuits chez Freddy 2',
@@ -4785,6 +5152,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Ballerina',
@@ -4798,6 +5166,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Destination Finale : Bloodlines',
@@ -4811,6 +5180,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Until Dawn : La mort sans fin',
@@ -4824,6 +5194,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Gladiator II',
@@ -4837,6 +5208,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Robot sauvage',
@@ -4850,6 +5222,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Anora',
@@ -4863,6 +5236,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Substance',
@@ -4876,6 +5250,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Marching Band',
@@ -4889,6 +5264,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Emilia Pérez',
@@ -4902,6 +5278,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Megalopolis',
@@ -4915,6 +5292,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Rebel Moon – Part Two: The Scargiver',
@@ -4928,6 +5306,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Godzilla × Kong: The New Empire',
@@ -4941,6 +5320,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Madame Web',
@@ -4954,6 +5334,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Argylle',
@@ -4967,6 +5348,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Rebel Moon - Partie 1 : Enfant du feu',
@@ -4980,6 +5362,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Trois Mousquetaires : Milady',
@@ -4993,6 +5376,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Wish : Asha et la Bonne Étoile',
@@ -5006,6 +5390,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Hunger Games : La Ballade du serpent et de l'oiseau chanteur",
@@ -5019,6 +5404,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Pauvres Créatures',
@@ -5032,6 +5418,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Equalizer 3',
@@ -5045,6 +5432,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Teenage Mutant Ninja Turtles: Mutant Mayhem',
@@ -5058,6 +5446,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Yannick',
@@ -5071,6 +5460,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Insidious: The Red Door',
@@ -5084,6 +5474,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Nimona',
@@ -5097,6 +5488,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Extraction 2',
@@ -5110,6 +5502,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mon crime',
@@ -5123,6 +5516,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Transformers: Rise of the Beasts',
@@ -5136,6 +5530,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Killers of the Flower Moon',
@@ -5149,6 +5544,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "The Three Musketeers: D'Artagnan",
@@ -5162,6 +5558,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Shazam! La Rage des Dieux',
@@ -5175,6 +5572,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Knock at the Cabin',
@@ -5188,6 +5586,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Past Lives – Nos vies d'avant",
@@ -5201,6 +5600,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Alibi.com 2',
@@ -5214,6 +5614,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Slumberland',
@@ -5227,6 +5628,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Werewolf by Night',
@@ -5240,6 +5642,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Fabelmans',
@@ -5253,6 +5656,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Whale',
@@ -5266,6 +5670,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Krypto et les Super-Animaux',
@@ -5279,6 +5684,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'One Piece Film: Red',
@@ -5292,6 +5698,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Princess',
@@ -5305,6 +5712,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Visiteur du Futur',
@@ -5318,6 +5726,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Jurassic World : Le Monde d'après",
@@ -5331,6 +5740,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Ténor',
@@ -5344,6 +5754,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Ambulance',
@@ -5357,19 +5768,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-  },
-  {
-    title: 'The Lost City',
-    director: 'Aaron Nee, Adam Nee',
-    rating: 2.5,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Matrix Resurrections',
@@ -5383,6 +5782,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'tick, tick... BOOM!',
@@ -5396,6 +5796,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Army of Thieves',
@@ -5409,6 +5810,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Last Duel',
@@ -5422,6 +5824,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Stronghold',
@@ -5435,6 +5838,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Trip',
@@ -5448,6 +5852,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Suicide Squad',
@@ -5461,6 +5866,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Space Jam : Nouvelle Ère',
@@ -5474,6 +5880,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Un papa hors pair',
@@ -5487,6 +5894,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hitman & Bodyguard 2',
@@ -5500,6 +5908,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Un homme en colère',
@@ -5513,6 +5922,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Godzilla vs. Kong',
@@ -5526,6 +5936,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Boîte noire',
@@ -5539,6 +5950,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Malcolm & Marie',
@@ -5552,6 +5964,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Little Things',
@@ -5565,6 +5978,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Soul',
@@ -5578,6 +5992,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Lost Bullet',
@@ -5591,6 +6006,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Da 5 Bloods : Frères de sang',
@@ -5604,6 +6020,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Extraction',
@@ -5617,6 +6034,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Nouveaux Mutants',
@@ -5630,6 +6048,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sans un bruit 2',
@@ -5643,6 +6062,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Bloodshot',
@@ -5656,6 +6076,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Invisible Man',
@@ -5669,6 +6090,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'En avant',
@@ -5682,6 +6104,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Bad Boys for Life',
@@ -5695,6 +6118,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Zombieland: Double Tap',
@@ -5708,6 +6132,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Gemini Man',
@@ -5721,6 +6146,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Mans 66',
@@ -5734,6 +6160,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Marriage Story',
@@ -5747,6 +6174,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Play',
@@ -5760,6 +6188,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'It Chapter Two',
@@ -5773,6 +6202,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Toy Story 4',
@@ -5786,6 +6216,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Specials',
@@ -5799,6 +6230,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Yesterday',
@@ -5812,6 +6244,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Tolkien',
@@ -5825,6 +6258,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hellboy',
@@ -5838,6 +6272,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Bumblebee',
@@ -5851,6 +6286,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Meg',
@@ -5864,6 +6300,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Skyscraper',
@@ -5877,6 +6314,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Astérix : Le Secret de la potion magique',
@@ -5890,6 +6328,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Pacific Rim: Uprising',
@@ -5903,6 +6342,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Justice League',
@@ -5916,6 +6356,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Blade Runner 2049',
@@ -5929,6 +6370,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Lady Bird',
@@ -5942,6 +6384,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Colle',
@@ -5955,6 +6398,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'American Assassin',
@@ -5968,6 +6412,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Transformers: The Last Knight',
@@ -5981,6 +6426,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Good Time',
@@ -5994,6 +6440,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Power Rangers',
@@ -6007,6 +6454,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Get Out',
@@ -6020,6 +6468,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Call Me by Your Name',
@@ -6033,6 +6482,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Alibi.com',
@@ -6046,6 +6496,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sing',
@@ -6059,6 +6510,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'War Dogs',
@@ -6072,6 +6524,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Nice Guys',
@@ -6085,6 +6538,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Kung Fu Panda 3',
@@ -6098,6 +6552,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Ip Man 3',
@@ -6111,6 +6566,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Crimson Peak',
@@ -6124,6 +6580,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hitman: Agent 47',
@@ -6137,6 +6594,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sicario',
@@ -6150,6 +6608,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Maggie',
@@ -6163,6 +6622,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Batman vs. Robin',
@@ -6176,6 +6636,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Chappie',
@@ -6189,6 +6650,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Astérix : Le Domaine des dieux',
@@ -6202,6 +6664,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Horrible Bosses 2',
@@ -6215,6 +6678,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Fury',
@@ -6228,6 +6692,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '22 Jump Street',
@@ -6241,6 +6706,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Grand Budapest Hotel',
@@ -6254,6 +6720,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Monuments Men',
@@ -6267,6 +6734,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Whiplash',
@@ -6280,6 +6748,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Paranormal Activity: The Marked Ones',
@@ -6293,6 +6762,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Her',
@@ -6306,6 +6776,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Dallas Buyers Club',
@@ -6319,6 +6790,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Star Trek Into Darkness',
@@ -6332,6 +6804,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Dragon Ball Z: Battle of Gods',
@@ -6345,6 +6818,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Evil Dead',
@@ -6358,6 +6832,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Jobs',
@@ -6371,6 +6846,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hansel & Gretel : Witch Hunters',
@@ -6384,6 +6860,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Gangster Squad',
@@ -6397,6 +6874,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Batman: The Dark Knight Returns, Part 2',
@@ -6410,6 +6888,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Astérix et Obélix : Au service de Sa Majesté',
@@ -6423,6 +6902,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Paranormal Activity 4',
@@ -6436,6 +6916,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Seven Psychopaths',
@@ -6449,6 +6930,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Batman: The Dark Knight Returns, Part 1',
@@ -6462,6 +6944,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Magic Mike',
@@ -6475,6 +6958,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Battleship',
@@ -6488,6 +6972,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sinister',
@@ -6501,6 +6986,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Paranormal Activity 3',
@@ -6514,6 +7000,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Batman: Year One',
@@ -6527,6 +7014,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Bad Teacher',
@@ -6540,6 +7028,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Paranormal Activity 2',
@@ -6553,6 +7042,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Incendies',
@@ -6566,6 +7056,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Piranha 3D',
@@ -6579,6 +7070,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Scott Pilgrim',
@@ -6592,6 +7084,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'One Piece Film: Strong World',
@@ -6605,6 +7098,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Saw VI',
@@ -6618,6 +7112,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Coco',
@@ -6631,6 +7126,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Star Trek',
@@ -6644,6 +7140,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Ip Man',
@@ -6657,6 +7154,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Saw V',
@@ -6670,6 +7168,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hitman',
@@ -6683,6 +7182,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Saw IV',
@@ -6696,6 +7196,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Funny Games U.S.',
@@ -6709,6 +7210,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '[REC]',
@@ -6722,6 +7224,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'High School Musical 2',
@@ -6735,6 +7238,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sunshine',
@@ -6748,6 +7252,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'TMNT : Les Tortues Ninja',
@@ -6761,6 +7266,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hot Fuzz',
@@ -6774,6 +7280,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Eragon',
@@ -6787,6 +7294,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Saw III',
@@ -6800,6 +7308,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Astérix et les Vikings',
@@ -6813,6 +7322,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Little Miss Sunshine',
@@ -6826,6 +7336,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Saw II',
@@ -6839,6 +7350,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Secret de Brokeback Mountain',
@@ -6852,6 +7364,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Kiss Kiss Bang Bang',
@@ -6865,6 +7378,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Château ambulant',
@@ -6878,6 +7392,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Lost in Translation',
@@ -6891,6 +7406,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mystic River',
@@ -6904,6 +7420,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Identity',
@@ -6917,6 +7434,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Gangs of New York',
@@ -6930,6 +7448,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hero',
@@ -6943,6 +7462,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Zoolander',
@@ -6956,6 +7476,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hannibal',
@@ -6969,6 +7490,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Pacte des loups',
@@ -6982,6 +7504,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Donnie Darko',
@@ -6995,6 +7518,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Kuzco, l'empereur mégalo",
@@ -7008,6 +7532,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Erin Brockovich, seule contre tous',
@@ -7021,6 +7546,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'American Psycho',
@@ -7034,6 +7560,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'American History X',
@@ -7047,6 +7574,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Game',
@@ -7060,6 +7588,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'George de la jungle',
@@ -7073,6 +7602,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Heat',
@@ -7086,6 +7616,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Crow',
@@ -7099,6 +7630,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Dragon Ball Z: Bojack Unbound',
@@ -7112,6 +7644,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sister Act',
@@ -7125,6 +7658,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Thelma et Louise',
@@ -7138,6 +7672,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Dragon Ball Z: The Tree of Might',
@@ -7151,6 +7686,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Rain Man',
@@ -7164,6 +7700,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Akira',
@@ -7177,6 +7714,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Big',
@@ -7190,6 +7728,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Willow',
@@ -7203,6 +7742,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Full Metal Jacket',
@@ -7216,6 +7756,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Evil Dead II',
@@ -7229,6 +7770,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Stand by Me',
@@ -7242,6 +7784,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Folle Journée de Ferris Bueller',
@@ -7255,6 +7798,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Top Gun',
@@ -7268,6 +7812,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Goonies',
@@ -7281,6 +7826,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Amadeus',
@@ -7294,6 +7840,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Risky Business',
@@ -7307,6 +7854,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Conan le Barbare',
@@ -7320,6 +7868,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Evil Dead',
@@ -7333,6 +7882,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Il était une fois dans l'Ouest",
@@ -7346,6 +7896,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Astérix et Cléopâtre',
@@ -7359,6 +7910,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Casablanca',
@@ -7372,6 +7924,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le haut du panier',
@@ -7385,6 +7938,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Premier contact',
@@ -7398,6 +7952,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le silence des agneaux',
@@ -7411,6 +7966,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le chant du loup',
@@ -7424,6 +7980,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les aventures de Rabbi Jacob',
@@ -7437,6 +7994,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Folie des grandeurs',
@@ -7450,6 +8008,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '12 hommes en colère',
@@ -7463,6 +8022,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les 11 commandements',
@@ -7476,6 +8036,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Arrête-moi si tu peux',
@@ -7489,6 +8050,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Ligne Verte',
@@ -7502,6 +8064,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La tour Montparnasse infernale',
@@ -7515,6 +8078,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Over the Top : Le bras de fer',
@@ -7528,6 +8092,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Karate Kid',
@@ -7541,6 +8106,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'À la Recherche du Bonheur',
@@ -7554,6 +8120,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Blood Diamond',
@@ -7567,6 +8134,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Prestige',
@@ -7580,6 +8148,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Admis à tout prix',
@@ -7593,6 +8162,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Nos Jours heureux',
@@ -7606,6 +8176,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Da Vinci Code',
@@ -7619,6 +8190,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '40 Ans, Toujours Puceau',
@@ -7632,6 +8204,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Charlie et la Chocolaterie',
@@ -7645,6 +8218,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Dîner de Cons',
@@ -7658,6 +8232,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Will Hunting',
@@ -7671,6 +8246,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Loup de Wall Street',
@@ -7684,6 +8260,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Vie Rêvée de Walter Mitty',
@@ -7697,6 +8274,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Conjuring : Les Dossiers Warren',
@@ -7710,6 +8288,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'No pain no gain',
@@ -7723,6 +8302,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Time Out',
@@ -7736,6 +8316,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Qui veut la peau de Roger Rabbit',
@@ -7749,6 +8330,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Voyage au Centre de la Terre',
@@ -7762,6 +8344,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Je Suis une Légende',
@@ -7775,6 +8358,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Supergrave',
@@ -7788,6 +8372,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Premonition',
@@ -7801,6 +8386,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Seven',
@@ -7814,6 +8400,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Comment tuer son boss',
@@ -7827,6 +8414,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Artist',
@@ -7840,6 +8428,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Percy Jackson : Le Voleur de Foudre',
@@ -7853,6 +8442,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Manoir hanté et les 999 Fantômes',
@@ -7866,6 +8456,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hook ou la Revanche du capitaine Crochet',
@@ -7879,6 +8470,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Fourmiz',
@@ -7892,6 +8484,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Eh mec, elle est où ma caisse ?',
@@ -7905,6 +8498,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Amour et turbulences',
@@ -7918,6 +8512,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'From Paris with Love',
@@ -7931,6 +8526,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Seul au monde',
@@ -7944,6 +8540,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Fighting',
@@ -7957,6 +8554,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Ali G',
@@ -7970,6 +8568,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Pas un bruit',
@@ -7983,6 +8582,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Adam à travers le temps',
@@ -7996,6 +8596,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Deux moi',
@@ -8009,6 +8610,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Watchmen : Les Gardiens',
@@ -8022,6 +8624,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'X-men 2',
@@ -8035,6 +8638,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'X-Men Origins : Wolverine',
@@ -8048,6 +8652,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Venom : Let There Be Carnage',
@@ -8061,6 +8666,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mon inconnue',
@@ -8074,6 +8680,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Un jour',
@@ -8087,6 +8694,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sexy Dance 3D',
@@ -8100,6 +8708,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La proposition',
@@ -8113,6 +8722,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '17 ans encore',
@@ -8126,6 +8736,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Ce que Veulent les Femmes',
@@ -8139,6 +8750,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Arthur et la Vengeance de Maltazard',
@@ -8152,6 +8764,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'WALL-E',
@@ -8165,6 +8778,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Shrek le Troisième',
@@ -8178,6 +8792,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Shrek 4 : Il Était une Fois',
@@ -8191,6 +8806,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Star Wars : Épisode 1 - La menace fantôme',
@@ -8204,6 +8820,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Star Wars : Episode 4 - Un nouvel espoir',
@@ -8217,6 +8834,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Star Wars : Episode 6 - Le retour du Jedi',
@@ -8230,6 +8848,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Fast and Furious',
@@ -8243,6 +8862,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Fast and Furious : Tokyo Drift',
@@ -8256,6 +8876,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Fast & Furious 4',
@@ -8269,6 +8890,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Terminator Renaissance',
@@ -8282,6 +8904,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'John Wick : Chapitre 2',
@@ -8295,6 +8918,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Jack Reacher : Never Go Back',
@@ -8308,6 +8932,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'A couteaux tirés 2 : Glass Onion',
@@ -8321,6 +8946,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'James Bond : Quantum of Solace',
@@ -8334,6 +8960,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'OSS 117 : Rio ne Répond Plus',
@@ -8347,6 +8974,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Labyrinthe',
@@ -8360,6 +8988,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Very Bad Trip',
@@ -8373,6 +9002,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Die Hard : Piège de cristal',
@@ -8386,6 +9016,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Die Hard 3 : une journée en enfer',
@@ -8399,6 +9030,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Die Hard 4 : Retour en Enfer',
@@ -8412,6 +9044,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Twilight : Chapitre 1 - Fascination',
@@ -8425,6 +9058,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Underworld : Évolution',
@@ -8438,6 +9072,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Destination Finale',
@@ -8451,6 +9086,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Pirates des Caraïbes : La malédiction du Black Pearl',
@@ -8464,6 +9100,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Pirates des Caraïbes 2 : Le Secret du Coffre Maudit',
@@ -8477,6 +9114,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Blade : Trinity',
@@ -8490,6 +9128,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Tomb Raider : le berceau de la vie',
@@ -8503,6 +9142,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Alien vs. Predator',
@@ -8516,6 +9156,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Independence Day : Resurgence',
@@ -8529,6 +9170,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Retour vers le futur 2',
@@ -8542,6 +9184,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Rambo : First Blood',
@@ -8555,6 +9198,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'American Pie 3 : Marions-les',
@@ -8568,6 +9212,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'American Pie 4',
@@ -8581,6 +9226,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Élémentaire',
@@ -8594,6 +9240,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Kissing Booth 2',
@@ -8607,6 +9254,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Rocketman',
@@ -8620,6 +9268,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Monsters University',
@@ -8633,6 +9282,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Gatsby le Magnifique',
@@ -8646,6 +9296,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hôtel Transylvanie',
@@ -8659,6 +9310,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'District 9',
@@ -8672,6 +9324,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Public Enemies',
@@ -8685,6 +9338,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Bolt',
@@ -8698,6 +9352,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Madagascar 2',
@@ -8711,6 +9366,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sex and the City',
@@ -8724,6 +9380,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Benjamin Gates et le Trésor des Templiers',
@@ -8737,6 +9394,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mulan 2',
@@ -8750,6 +9408,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '30 ans sinon rien',
@@ -8763,6 +9422,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Dernier Samouraï',
@@ -8776,6 +9436,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Frère des ours',
@@ -8789,6 +9450,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mon beau-père et moi',
@@ -8802,6 +9464,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Monde magique de la Belle et la Bête',
@@ -8815,6 +9478,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Austin Powers',
@@ -8828,6 +9492,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les 101 Dalmatiens',
@@ -8841,6 +9506,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Bossu de Notre-Dame',
@@ -8854,6 +9520,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Un jour sans fin',
@@ -8867,6 +9534,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Indiana Jones et la Dernière Croisade',
@@ -8880,6 +9548,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Indiana Jones et le Temple maudit',
@@ -8893,6 +9562,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Pierre et le Loup',
@@ -8906,6 +9576,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Escape Game',
@@ -8919,6 +9590,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mission : Impossible – Fallout',
@@ -8932,6 +9604,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Ne coupez pas !',
@@ -8945,6 +9618,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Ça',
@@ -8958,6 +9632,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Star Trek : Sans limites',
@@ -8971,6 +9646,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Dernier train pour Busan',
@@ -8984,6 +9660,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Conjuring 2 : Le Cas Enfield',
@@ -8997,6 +9674,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Insidious : Chapitre 2',
@@ -9010,6 +9688,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'New York Melody',
@@ -9023,6 +9702,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Percy Jackson : La Mer des monstres',
@@ -9036,6 +9716,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'G.I. Joe : Conspiration',
@@ -9049,6 +9730,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sexy Dance 4 : Miami Heat',
@@ -9062,6 +9744,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Happy New Year',
@@ -9075,6 +9758,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mission : Impossible - Protocole Fantôme',
@@ -9088,6 +9772,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '10 ans déjà !',
@@ -9101,6 +9786,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Saw 3D : Chapitre final',
@@ -9114,6 +9800,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Superman/Batman : Apocalypse',
@@ -9127,6 +9814,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Batman et Red Hood : Sous le masque rouge',
@@ -9140,6 +9828,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Ip Man 2 : Le Retour du grand maître',
@@ -9153,6 +9842,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Nanny McPhee et le Big Bang',
@@ -9166,6 +9856,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'G.I. Joe : Le Réveil du Cobra',
@@ -9179,6 +9870,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'High School Musical 3 : Nos années lycée',
@@ -9192,6 +9884,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hannibal Lecter : Les Origines du mal',
@@ -9205,6 +9898,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mission : Impossible III',
@@ -9218,6 +9912,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Treize à la douzaine 2',
@@ -9231,6 +9926,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Gang de requins',
@@ -9244,6 +9940,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Collatéral',
@@ -9257,6 +9954,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Rock Academy',
@@ -9270,6 +9968,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Comment se faire larguer en dix leçons',
@@ -9283,6 +9982,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Spy Kids 2 : Espions en herbe',
@@ -9296,6 +9996,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Légende de Tarzan et Jane',
@@ -9309,6 +10010,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Projet Blair Witch',
@@ -9322,6 +10024,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Monde perdu : Jurassic Park',
@@ -9335,6 +10038,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mission : Impossible',
@@ -9348,6 +10052,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Dragon Ball Z : Fusions',
@@ -9361,6 +10066,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Dragon Ball Z : Bio-Broly',
@@ -9374,6 +10080,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sister Act, acte 2',
@@ -9387,6 +10094,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Liste de Schindler',
@@ -9400,6 +10108,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Dragon Ball Z : Broly le super guerrier',
@@ -9413,6 +10122,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Tortues Ninja 2 : Les héros sont de retour',
@@ -9426,6 +10136,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Dragon Ball Z : Le Robot des glaces',
@@ -9439,6 +10150,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Superman IV : Le Face-à-face',
@@ -9452,6 +10164,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Breakfast Club',
@@ -9465,6 +10178,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Dents de la mer, 2ᵉ partie',
@@ -9478,6 +10192,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'exorciste",
@@ -9491,6 +10206,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les temps modernes',
@@ -9504,6 +10220,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'effet papillon",
@@ -9517,6 +10234,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '28 jours plus tard',
@@ -9530,6 +10248,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'Associé du diable",
@@ -9543,6 +10262,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La guerre des mondes',
@@ -9556,6 +10276,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Infiltrés',
@@ -9569,6 +10290,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Le Diable s'Habille en Prada",
@@ -9582,6 +10304,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'V pour Vendetta',
@@ -9595,6 +10318,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title:
@@ -9609,6 +10333,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La cité de la peur',
@@ -9622,6 +10347,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Je Sais ce que Vous Avez Fait l'Été Dernier",
@@ -9635,6 +10361,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Maléfique',
@@ -9648,6 +10375,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les seigneurs',
@@ -9661,6 +10389,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Expendables 2',
@@ -9674,6 +10403,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le cercle des poètes disparus',
@@ -9687,6 +10417,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sept Vies',
@@ -9700,6 +10431,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Course à la mort',
@@ -9713,6 +10445,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Rien que pour vos cheveux',
@@ -9726,6 +10459,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '28 Semaines Plus Tard',
@@ -9739,6 +10473,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Paranoïak',
@@ -9752,6 +10487,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Dumb & Dumber',
@@ -9765,6 +10501,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Expendables : Unité Spéciale',
@@ -9778,6 +10515,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Choc des Titans',
@@ -9791,6 +10529,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Alice au Pays des Merveilles',
@@ -9804,6 +10543,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les visiteurs',
@@ -9817,6 +10557,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Cendrillon',
@@ -9830,6 +10571,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Belle au bois dormant',
@@ -9843,6 +10585,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'Incroyable Hulk",
@@ -9856,6 +10599,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "X-Men : L'Affrontement Final",
@@ -9869,6 +10613,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'X-Men : Le Commencement',
@@ -9882,6 +10627,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les 4 Fantastiques',
@@ -9895,6 +10641,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Les 4 Fantastiques et le Surfeur d'Argent",
@@ -9908,6 +10655,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "La Probabilité statistique de l'amour au premier regard",
@@ -9921,6 +10669,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'agence",
@@ -9934,6 +10683,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Love & autres drogues',
@@ -9947,6 +10697,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sexy Dance',
@@ -9960,6 +10711,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sexy Dance 2',
@@ -9973,6 +10725,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Jackpot',
@@ -9986,6 +10739,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Amour & Amnésie',
@@ -9999,6 +10753,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '40 jours et 40 nuits',
@@ -10012,6 +10767,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Mondes de Ralph',
@@ -10025,6 +10781,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Reine des Neiges',
@@ -10038,6 +10795,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Moi, Moche et Méchant',
@@ -10051,6 +10809,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Cinq Légendes',
@@ -10064,6 +10823,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'Âge de Glace",
@@ -10077,6 +10837,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'Âge de Glace 2",
@@ -10090,6 +10851,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'Âge de Glace 4 : La Dérive des Continents",
@@ -10103,6 +10865,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Arthur 3 : La Guerre des Deux Mondes',
@@ -10116,6 +10879,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Princesse et la Grenouille',
@@ -10129,6 +10893,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Monstres contre Aliens',
@@ -10142,6 +10907,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Simpson, le Film',
@@ -10155,6 +10921,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le monde de Nemo',
@@ -10168,6 +10935,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La petite sirène',
@@ -10181,6 +10949,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Star Wars: Episode 2 - L'attaque des clones",
@@ -10194,6 +10963,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Star Wars : Episode 5 - L'empire contre-attaque",
@@ -10207,6 +10977,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Fast & Furious 5',
@@ -10220,6 +10991,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'A couteaux tirés',
@@ -10233,6 +11005,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "OSS 117 : Le Caire, Nid d'Espions",
@@ -10246,6 +11019,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'OSS 117 : Alerte Rouge en Afrique Noire',
@@ -10259,6 +11033,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Incassable',
@@ -10272,6 +11047,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La mémoire dans la peau',
@@ -10285,6 +11061,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Mort dans la Peau',
@@ -10298,6 +11075,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Vengeance dans la Peau',
@@ -10311,6 +11089,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Die Hard 2 : 58 minutes pour vivre',
@@ -10324,6 +11103,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Destination Finale 2',
@@ -10337,6 +11117,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Destination Finale 3',
@@ -10350,6 +11131,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Destination Finale 4',
@@ -10363,6 +11145,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Destination Finale 5',
@@ -10376,6 +11159,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La nuit au musée',
@@ -10389,6 +11173,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Nuit au musée 2',
@@ -10402,6 +11187,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Pirates des Caraïbes 3 : Jusqu'au Bout du Monde",
@@ -10415,6 +11201,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Hellboy 2 : Les Légions d'Or Maudites",
@@ -10428,6 +11215,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les bronzés',
@@ -10441,6 +11229,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les bronzés font du ski',
@@ -10454,6 +11243,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Transporteur 2',
@@ -10467,6 +11257,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Transporteur 3',
@@ -10480,6 +11271,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Sin City : J'ai Tué pour Elle",
@@ -10493,6 +11285,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Matrix',
@@ -10506,6 +11299,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Spy Kids 2: L'île des rêves perdus",
@@ -10519,6 +11313,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Momie',
@@ -10532,6 +11327,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Retour de la Momie',
@@ -10545,6 +11341,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "La momie : la tombe de l'empereur dragon",
@@ -10558,6 +11355,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'arme fatale",
@@ -10571,6 +11369,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Maman j'ai raté l'avion",
@@ -10584,6 +11383,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Retour vers le futur 3',
@@ -10597,6 +11397,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Rambo 2 : la mission',
@@ -10610,6 +11411,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Parrain',
@@ -10623,6 +11425,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Parrain 2',
@@ -10636,6 +11439,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le monde de Dory',
@@ -10649,6 +11453,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "S.O.S. Fantômes : L'Héritage",
@@ -10662,6 +11467,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Maléfique : Le Pouvoir du Mal',
@@ -10675,6 +11481,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Nouveau Stagiaire',
@@ -10688,6 +11495,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Aventures de Tintin',
@@ -10701,6 +11509,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Planète des singes : Les Origines',
@@ -10714,6 +11523,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Noces funèbres',
@@ -10727,6 +11537,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Comment se débarrasser d'un mec en 10 jours",
@@ -10740,6 +11551,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Planète au trésor',
@@ -10753,6 +11565,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Atlantis : L'Empire perdu",
@@ -10766,6 +11579,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Drôles de dames',
@@ -10779,6 +11593,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "La Route d'Eldorado",
@@ -10792,6 +11607,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'S.O.S. Fantômes',
@@ -10805,6 +11621,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Livre de la jungle',
@@ -10818,6 +11635,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Alice au pays des merveilles',
@@ -10831,6 +11649,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Sale temps à l'hôtel El Royale",
@@ -10844,6 +11663,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "À tous les garçons que j'ai aimés",
@@ -10857,6 +11677,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Equalizer 2',
@@ -10870,6 +11691,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -10884,6 +11706,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Tour sombre',
@@ -10897,6 +11720,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Dunkerque',
@@ -10910,6 +11734,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Le Roi Arthur : La Légende d'Excalibur",
@@ -10923,6 +11748,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Boyfriend : Pourquoi lui ?',
@@ -10936,6 +11762,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'American Nightmare 3 : Élections',
@@ -10949,6 +11776,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Alice de l'autre côté du miroir",
@@ -10962,6 +11790,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Chasseur et la Reine des glaces',
@@ -10975,6 +11804,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Livre de la jungle',
@@ -10988,6 +11818,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Huit Salopards',
@@ -11001,6 +11832,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Agents très spéciaux : Code U.N.C.L.E.',
@@ -11014,6 +11846,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Éternelle Adaline',
@@ -11027,6 +11860,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Hobbit : La Bataille des Cinq Armées',
@@ -11040,6 +11874,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'American Nightmare 2 : Anarchy',
@@ -11053,6 +11888,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Noé',
@@ -11066,6 +11902,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "300 : La Naissance d'un Empire",
@@ -11079,6 +11916,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Hobbit : La Désolation de Smaug',
@@ -11092,6 +11930,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Et (beaucoup) plus si affinités',
@@ -11105,6 +11944,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Miller, une famille en herbe',
@@ -11118,6 +11958,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Copains pour toujours 2',
@@ -11131,6 +11972,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Stagiaires',
@@ -11144,6 +11986,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "C'est la fin",
@@ -11157,6 +12000,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'American Nightmare',
@@ -11170,6 +12014,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Monde de Charlie',
@@ -11183,6 +12028,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Superman contre l'Élite",
@@ -11196,6 +12042,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Blanche-Neige et le Chasseur',
@@ -11209,6 +12056,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Madagascar 3 : Bons Baisers d'Europe",
@@ -11222,6 +12070,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Lorax',
@@ -11235,6 +12084,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Voyage au centre de la Terre 2 : L'Île mystérieuse",
@@ -11248,6 +12098,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Cabane dans les bois',
@@ -11261,6 +12112,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Sherlock Holmes : Jeu d'ombres",
@@ -11274,6 +12126,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Trois Mousquetaires',
@@ -11287,6 +12140,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Couleur des sentiments',
@@ -11300,6 +12154,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Colline aux coquelicots',
@@ -11313,6 +12168,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Copains pour toujours',
@@ -11326,6 +12182,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Superman/Batman : Ennemis publics',
@@ -11339,6 +12196,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Indiana Jones et le Royaume du crâne de cristal',
@@ -11352,6 +12210,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Chroniques de Spiderwick',
@@ -11365,6 +12224,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Astérix aux Jeux Olympiques',
@@ -11378,6 +12238,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "À la croisée des mondes : La Boussole d'or",
@@ -11391,6 +12252,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Boulevard de la mort',
@@ -11404,6 +12266,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Inside Man : L'Homme de l'intérieur",
@@ -11417,6 +12280,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'High School Musical : Premiers pas sur scène',
@@ -11430,6 +12294,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Fils du Mask',
@@ -11443,6 +12308,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Pôle Express',
@@ -11456,6 +12322,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Master and Commander : De l'autre côté du monde",
@@ -11469,6 +12336,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Batman : La Mystérieuse Batwoman',
@@ -11482,6 +12350,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Seigneur des anneaux : Les Deux Tours',
@@ -11495,6 +12364,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Le Seigneur des anneaux : La Communauté de l'anneau",
@@ -11508,6 +12378,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mission : Impossible 2',
@@ -11521,6 +12392,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Ghost Dog : La Voie du samouraï',
@@ -11534,6 +12406,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Dragon Ball Z : L'Attaque du dragon",
@@ -11547,6 +12420,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Dragon Ball Z : Rivaux dangereux',
@@ -11560,6 +12434,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Tortues Ninja 3',
@@ -11573,6 +12448,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Dragon Ball Z : L'Histoire de Trunks",
@@ -11586,6 +12462,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Bodyguard',
@@ -11599,6 +12476,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Dernier des Mohicans',
@@ -11612,6 +12490,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Dragon Ball Z : L'Offensive des cyborgs",
@@ -11625,6 +12504,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Dragon Ball Z : La Revanche de Cooler',
@@ -11638,6 +12518,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Dragon Ball Z : La Menace de Namek',
@@ -11651,6 +12532,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Dragon Ball Z : Le Père de Sangoku',
@@ -11664,6 +12546,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Tortues Ninja',
@@ -11677,6 +12560,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Dragon Ball Z : À la poursuite de Garlic',
@@ -11690,6 +12574,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Insaisissables 2',
@@ -11703,6 +12588,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Nicky Larson Private Eyes',
@@ -11716,6 +12602,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Beauté cachée',
@@ -11729,6 +12616,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Les Figures de l'ombre",
@@ -11742,6 +12630,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Secret de Charlie',
@@ -11755,6 +12644,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Dernier Exorcisme',
@@ -11768,6 +12658,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Rafle',
@@ -11781,6 +12672,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Le Livre d'Eli",
@@ -11794,6 +12686,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Route',
@@ -11807,6 +12700,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Les Fils de l'homme",
@@ -11820,6 +12714,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Colline a des yeux',
@@ -11833,6 +12728,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hooligans',
@@ -11846,6 +12742,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Dalton',
@@ -11859,6 +12756,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'F.B.I. : Fausses blondes infiltrées',
@@ -11872,6 +12770,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Deux Frères',
@@ -11885,6 +12784,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'Armée des morts",
@@ -11898,6 +12798,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Treize à la douzaine',
@@ -11911,6 +12812,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Seigneur des anneaux : Le Retour du roi',
@@ -11924,6 +12826,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Dragon rouge',
@@ -11937,6 +12840,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Charlie et ses drôles de dames',
@@ -11950,6 +12854,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Masque de Zorro',
@@ -11963,6 +12868,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Course au jouet',
@@ -11976,6 +12882,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Lancelot, le premier chevalier',
@@ -11989,6 +12896,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Astérix et les Indiens',
@@ -12002,6 +12910,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Dracula',
@@ -12015,6 +12924,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Dragon Ball Z : Cent Mille Guerriers de métal',
@@ -12028,6 +12938,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'S.O.S. Fantômes 2',
@@ -12041,6 +12952,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'Histoire sans fin",
@@ -12054,6 +12966,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Les Aventuriers de l'Arche perdue",
@@ -12067,6 +12980,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Dents de la mer',
@@ -12080,6 +12994,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Valseuses',
@@ -12093,6 +13008,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Rip',
@@ -12106,6 +13022,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Leon',
@@ -12119,6 +13036,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Prédictions',
@@ -12132,6 +13050,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Vice-Versa 2',
@@ -12145,6 +13064,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Furiosa',
@@ -12158,6 +13078,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mad Max: Fury Road',
@@ -12171,6 +13092,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sinners',
@@ -12184,6 +13106,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Predestination',
@@ -12197,6 +13120,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Looper',
@@ -12210,6 +13134,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Nobody',
@@ -12223,6 +13148,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Uncut Gems',
@@ -12236,6 +13162,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Once Upon a Time in Hollywood',
@@ -12249,6 +13176,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'Âge de Glace 3 : Le Temps des Dinosaures",
@@ -12262,6 +13190,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12276,6 +13205,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Choristes',
@@ -12289,6 +13219,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'arme fatale 2",
@@ -12302,6 +13233,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'arme fatale 3",
@@ -12315,6 +13247,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Maman j'ai raté l'avion 2",
@@ -12328,6 +13261,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Ocean's Twelve",
@@ -12341,6 +13275,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Ocean's Thirteen",
@@ -12354,6 +13289,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Greenland - Le Dernier Refuge',
@@ -12367,6 +13303,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Arco',
@@ -12380,6 +13317,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Cité de Dieu',
@@ -12393,6 +13331,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Gourou',
@@ -12406,6 +13345,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '28 ans plus tard',
@@ -12419,6 +13359,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'Amour, c'est surcoté ",
@@ -12432,6 +13373,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title:
@@ -12446,6 +13388,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Seigneur des Anneaux - Les Deux Tours - Version Longue',
@@ -12459,6 +13402,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Seigneur des Anneaux - Le Retour du Roi - Version Longue',
@@ -12472,6 +13416,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sonic 2, le film',
@@ -12485,6 +13430,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12499,6 +13445,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sonic 3, le film',
@@ -12512,6 +13459,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12526,6 +13474,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12540,6 +13489,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12554,6 +13504,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12568,6 +13519,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12582,6 +13534,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12596,6 +13549,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12610,6 +13564,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12624,6 +13579,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12638,6 +13594,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12652,6 +13609,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12666,6 +13624,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12680,6 +13639,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12694,6 +13654,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12708,6 +13669,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12722,6 +13684,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12736,6 +13699,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12750,6 +13714,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12764,6 +13729,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12778,6 +13744,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12792,6 +13759,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12806,6 +13774,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12820,6 +13789,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12834,6 +13804,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12848,6 +13819,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12862,6 +13834,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12876,6 +13849,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12890,6 +13864,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12904,6 +13879,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12918,6 +13894,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12932,6 +13909,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12946,6 +13924,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12960,6 +13939,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12974,6 +13954,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: true,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -12988,6 +13969,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13002,6 +13984,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13016,6 +13999,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13030,6 +14014,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13044,6 +14029,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13058,6 +14044,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: true,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13072,6 +14059,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13086,6 +14074,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13100,6 +14089,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13114,6 +14104,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13128,6 +14119,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13142,6 +14134,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13156,6 +14149,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13170,6 +14164,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13184,6 +14179,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13198,6 +14194,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13212,6 +14209,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13226,6 +14224,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13240,6 +14239,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13254,6 +14254,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13268,6 +14269,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13282,6 +14284,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13296,6 +14299,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13310,6 +14314,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13324,6 +14329,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13338,6 +14344,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13352,6 +14359,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13366,6 +14374,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13380,6 +14389,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13394,6 +14404,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13408,6 +14419,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13422,6 +14434,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13436,6 +14449,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13450,6 +14464,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13464,6 +14479,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13478,6 +14494,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13492,6 +14509,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13506,6 +14524,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13520,6 +14539,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13534,6 +14554,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13548,6 +14569,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13562,6 +14584,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13576,6 +14599,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13590,6 +14614,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13604,6 +14629,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13618,6 +14644,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13632,6 +14659,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13646,6 +14674,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13660,6 +14689,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13674,6 +14704,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13688,6 +14719,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13702,6 +14734,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13716,6 +14749,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13730,6 +14764,7 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -13744,5 +14779,6 @@ export const ronanMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 ];

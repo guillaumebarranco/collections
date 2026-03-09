@@ -47,6 +47,9 @@ router.post('/', (req: any, res: any) => {
       watchPriority: normalizeNumber(input.watchPriority, 'watchPriority'),
       ratingComment:
         normalizeString(input.ratingComment, 'ratingComment') ?? '',
+      inList: Array.isArray(input.inList)
+        ? input.inList.filter((s: any) => typeof s === 'string')
+        : [],
     };
 
     const entityPayload = input.entity || null;

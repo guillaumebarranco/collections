@@ -1,0 +1,47 @@
+<div class="movie-lists-modal">
+  <div class="movie-lists-modal__header">
+    <h2 class="movie-lists-modal__title">Ajouter à une liste</h2>
+    <button
+      type="button"
+      class="movie-lists-modal__close"
+      aria-label="Fermer"
+      (click)="close()"
+    >
+      ✕
+    </button>
+  </div>
+  <div class="movie-lists-modal__body">
+    <p class="movie-lists-modal__movie-title">{{ data.movie.title }}</p>
+    <div class="movie-lists-modal__lists" role="list">
+      @for (list of data.userLists; track list.name) {
+      <button
+        type="button"
+        class="movie-lists-modal__item"
+        [class.movie-lists-modal__item--in-list]="isInList(list.name)"
+        role="listitem"
+        (click)="selectList(list.name)"
+      >
+        <span class="movie-lists-modal__item-icon" aria-hidden="true">{{
+          list.icon
+        }}</span>
+        <span class="movie-lists-modal__item-name">{{ list.name }}</span>
+        @if (isInList(list.name)) {
+        <span class="movie-lists-modal__item-check" aria-hidden="true"> ✓</span>
+        }
+      </button>
+      }
+    </div>
+    <button
+      type="button"
+      class="movie-lists-modal__create"
+      (click)="createNew()"
+    >
+      + Créer une liste
+    </button>
+  </div>
+  <div class="movie-lists-modal__footer">
+    <button type="button" class="makya-btn-small" (click)="close()">
+      Fermer
+    </button>
+  </div>
+</div>

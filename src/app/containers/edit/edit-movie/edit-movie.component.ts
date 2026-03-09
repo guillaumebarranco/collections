@@ -35,6 +35,7 @@ type EditMovieForm = {
   wantToSeeAgain: boolean;
   watchPriority: number;
   ratingComment: string;
+  inList: string[];
 };
 
 type EditMovieEntityForm = {
@@ -264,6 +265,7 @@ export class EditMovieComponent {
           wantToSeeAgain: form.wantToSeeAgain,
           watchPriority: form.watchPriority,
           ratingComment: form.ratingComment ?? '',
+          inList: form.inList ?? [],
           entity: this.isAdminView()
             ? this.toEntityPayload(this.movieEntityForm())
             : undefined,
@@ -463,6 +465,7 @@ export class EditMovieComponent {
       wantToSeeAgain: movie.wantToSeeAgain ?? false,
       watchPriority: movie.watchPriority ?? 0,
       ratingComment: movie.ratingComment ?? '',
+      inList: movie.inList ?? [],
     };
   }
 

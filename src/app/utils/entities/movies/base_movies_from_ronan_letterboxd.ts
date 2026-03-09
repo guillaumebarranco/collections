@@ -3262,29 +3262,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
-    title: 'The Lost City',
-    director: 'Aaron Nee, Adam Nee',
-    actors: [
-      {
-        name: 'Sandra Bullock',
-      },
-      {
-        name: 'Channing Tatum',
-      },
-      {
-        name: 'Daniel Radcliffe',
-      },
-    ],
-    coverUrl: '/movies_pictures/the_lost_city.jpg',
-    releaseDate: '2022-01-01',
-    length: 112,
-    genre: '',
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
-  {
     title: 'Uncharted',
     director: 'Ruben Fleischer',
     actors: [

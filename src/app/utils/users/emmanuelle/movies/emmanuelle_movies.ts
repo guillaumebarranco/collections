@@ -13,6 +13,7 @@ export const emmanuelleMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -27,6 +28,7 @@ export const emmanuelleMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -41,6 +43,7 @@ export const emmanuelleMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -55,6 +58,7 @@ export const emmanuelleMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -69,6 +73,7 @@ export const emmanuelleMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -83,6 +88,7 @@ export const emmanuelleMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -97,6 +103,7 @@ export const emmanuelleMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -111,10 +118,11 @@ export const emmanuelleMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
-    title: 'L\'aile ou la cuisse',
+    title: "L'aile ou la cuisse",
     director: 'Claude Zidi',
     rating: 0,
     timesWatched: 1,
@@ -125,6 +133,7 @@ export const emmanuelleMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -139,6 +148,7 @@ export const emmanuelleMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -153,10 +163,11 @@ export const emmanuelleMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
-    title: 'Le Diable s\'Habille en Prada',
+    title: "Le Diable s'Habille en Prada",
     director: 'David Frankel',
     rating: 0,
     timesWatched: 1,
@@ -167,10 +178,12 @@ export const emmanuelleMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
-    title: 'Le Monde de Narnia : Le Lion, la Sorcière Blanche et l\'Armoire Magique',
+    title:
+      "Le Monde de Narnia : Le Lion, la Sorcière Blanche et l'Armoire Magique",
     director: 'Andrew Adamson',
     rating: 0,
     timesWatched: 1,
@@ -181,6 +194,7 @@ export const emmanuelleMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -195,6 +209,7 @@ export const emmanuelleMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -209,6 +224,7 @@ export const emmanuelleMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -223,6 +239,7 @@ export const emmanuelleMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -237,6 +254,7 @@ export const emmanuelleMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -251,6 +269,7 @@ export const emmanuelleMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -265,6 +284,7 @@ export const emmanuelleMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -279,6 +299,7 @@ export const emmanuelleMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -293,6 +314,7 @@ export const emmanuelleMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -307,6 +329,7 @@ export const emmanuelleMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 
   {
@@ -321,5 +344,6 @@ export const emmanuelleMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
 ];

@@ -78,6 +78,33 @@ function parseBooleanField(objectText: string, key: string) {
   return match[1] === 'true';
 }
 
+function parseStringArrayField(objectText: string, key: string) {
+  const keyIndex = objectText.indexOf(key);
+  if (keyIndex === -1) return null;
+  const afterKey = objectText.slice(keyIndex + key.length);
+  const bracketStart = afterKey.indexOf('[');
+  if (bracketStart === -1) return null;
+  let depth = 1;
+  let i = bracketStart + 1;
+  while (i < afterKey.length && depth > 0) {
+    const c = afterKey[i];
+    if (c === '[') depth += 1;
+    else if (c === ']') depth -= 1;
+    i += 1;
+  }
+  const inner = afterKey.slice(bracketStart + 1, i - 1);
+  if (!inner.trim()) return [];
+  const regex = /(['"])((?:\\\.|(?!\1).)*)\1/g;
+  const result: string[] = [];
+  let match = regex.exec(inner);
+  while (match) {
+    const quote = match[1];
+    result.push(unescapeString(match[2], quote));
+    match = regex.exec(inner);
+  }
+  return result;
+}
+
 const FROM_ENTITY_TYPES = ['book', 'game', 'comic', 'manga', 'manwha', 'serie'];
 
 function parsefromEntityField(objectText: string) {
@@ -161,6 +188,7 @@ function parseMoviesFromFile(content: string): any[] {
               parseBooleanField(objectText, 'wantToSeeAgain') ?? false,
             watchPriority: parseNumberField(objectText, 'watchPriority') ?? 1,
             ratingComment: parseStringField(objectText, 'ratingComment') ?? '',
+            inList: parseStringArrayField(objectText, 'inList') ?? [],
           });
         }
       }
@@ -369,6 +397,18 @@ function replaceField(objectText: string, key: string, value: any) {
   return next;
 }
 
+function upsertInListField(objectText: string, arr: string[]) {
+  const serialized =
+    arr.length === 0
+      ? '[]'
+      : '[' + arr.map((s) => "'" + escapeString(s) + "'").join(', ') + ']';
+  const existingRegex = /inList\s*:\s*\[[\s\S]*?\]/;
+  if (existingRegex.test(objectText)) {
+    return objectText.replace(existingRegex, `inList: ${serialized}`);
+  }
+  return objectText.replace(/\}\s*$/, `    inList: ${serialized},\n  }`);
+}
+
 function upsertField(objectText: string, key: string, value: any) {
   if (value === undefined) return objectText;
   let next = objectText;
@@ -498,6 +538,10 @@ function updateMovieInFile(content: string, payload: any) {
             updated,
             'ratingComment',
             payload.ratingComment ?? ''
+          );
+          updated = upsertInListField(
+            updated,
+            Array.isArray(payload.inList) ? payload.inList : []
           );
 
           return (
@@ -699,8 +743,16 @@ function removeMovieFromFile(content: string, payload: any) {
   }
 
   const newArrayContent = filtered
-    .map(
-      (movie) => `  {
+    .map((movie: any) => {
+      const inList =
+        Array.isArray(movie.inList) && movie.inList.length > 0
+          ? '[' +
+            movie.inList
+              .map((s: any) => "'" + escapeString(s) + "'")
+              .join(', ') +
+            ']'
+          : '[]';
+      return `  {
     title: '${escapeString(movie.title)}',
     director: '${escapeString(movie.director)}',
     rating: ${movie.rating ?? 0},
@@ -712,8 +764,9 @@ function removeMovieFromFile(content: string, payload: any) {
     wantToSeeAgain: ${movie.wantToSeeAgain ?? false},
     watchPriority: ${movie.watchPriority ?? 1},
     ratingComment: '${escapeString(movie.ratingComment || '')}',
-  }`
-    )
+    inList: ${inList},
+  }`;
+    })
     .join(',\n');
 
   return (

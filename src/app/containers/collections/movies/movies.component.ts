@@ -24,6 +24,7 @@ import {
 } from '../../../utils/stats.utils';
 import { normalizeSearchText } from '../../../utils/normalize-search-text';
 import { Movie } from '../../../models/movie-model';
+import type { UserMovieListItem } from '../../../models/movie-list.model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 
 import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
@@ -60,6 +61,9 @@ import {
   markMovieAsReWatched,
   markMovieAsWantToReWatch,
   addMovieToWatchlist,
+  getUserMoviesLists,
+  createUserMovieList,
+  addMovieToList,
 } from './movies.controller';
 
 type RecommendationDetail = { userId: string; rating: number };
@@ -342,6 +346,9 @@ export class MoviesComponent implements OnInit {
   isLoadingRecommendations = signal<boolean>(false);
   recommendationsUserId = signal<string>('');
 
+  /** Listes de films de l'utilisateur courant (pour "Ajouter à une liste" sur la card). */
+  userMoviesLists = signal<UserMovieListItem[]>([]);
+
   recommendedMovies = computed(() => {
     const term = this.searchTerm().trim().toLowerCase();
     const list = this.recommendations();
@@ -410,14 +417,16 @@ export class MoviesComponent implements OnInit {
     this.isLoadingMovies.set(true);
     try {
       const userId = this.getActiveUserId();
-      const [movies, watchlist, baseMovies] = await Promise.all([
+      const [movies, watchlist, baseMovies, lists] = await Promise.all([
         getAllMovies(userId),
         getAllWatchlistMovies(userId),
         getAllBaseMovies(),
+        getUserMoviesLists(userId),
       ]);
       this.moviesList.set(movies);
       this.watchingMoviesList.set(watchlist);
       this.baseMoviesList.set(baseMovies.map(getFullMovie));
+      this.userMoviesLists.set(lists);
     } finally {
       this.isLoadingMovies.set(false);
     }
@@ -827,6 +836,27 @@ export class MoviesComponent implements OnInit {
 
     if (updateSuccess) {
       await this.refreshMovies();
+    }
+  }
+
+  async onAddMovieToList(movie: Movie, listName: string): Promise<void> {
+    const ok = await addMovieToList(
+      movie,
+      listName,
+      this.getActiveUserId()
+    );
+    if (ok) await this.refreshMovies();
+  }
+
+  async onCreateListAndAddMovie(movie: Movie): Promise<void> {
+    const name = window.prompt('Nom de la nouvelle liste :');
+    if (!name?.trim()) return;
+    const userId = this.getActiveUserId();
+    const updatedLists = await createUserMovieList(userId, name.trim(), '📋', '#6b7280');
+    if (updatedLists) {
+      this.userMoviesLists.set(updatedLists);
+      const ok = await addMovieToList(movie, name.trim(), userId);
+      if (ok) await this.refreshMovies();
     }
   }
 }

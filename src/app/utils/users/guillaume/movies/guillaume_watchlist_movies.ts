@@ -13,6 +13,21 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
+  },
+  {
+    title: 'Gods of Egypt',
+    director: 'Alex Proyas',
+    rating: 0,
+    timesWatched: 0,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
   },
   {
     title: 'Pokémon : Détective Pikachu',
@@ -26,6 +41,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Greatest Showman',
@@ -39,6 +55,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Le Crime de l'Orient-Express",
@@ -52,6 +69,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'About Time',
@@ -65,6 +83,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sherlock Holmes',
@@ -78,6 +97,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Là-haut',
@@ -91,6 +111,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'Étrange Histoire de Benjamin Button",
@@ -104,6 +125,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Constantine',
@@ -117,6 +139,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Aviator',
@@ -130,6 +153,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Planète au trésor',
@@ -143,6 +167,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Atlantis : L'Empire perdu",
@@ -156,6 +181,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Gattaca',
@@ -169,6 +195,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Blues Brothers',
@@ -182,6 +209,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Vice-Versa 2',
@@ -195,6 +223,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Borat',
@@ -208,6 +237,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Furiosa',
@@ -221,6 +251,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mad Max: Fury Road',
@@ -234,6 +265,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Atonement',
@@ -247,6 +279,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Worst Person in the World',
@@ -260,6 +293,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'amour au présent",
@@ -273,6 +307,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sinners',
@@ -286,6 +321,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Novocaine',
@@ -299,6 +335,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Companion',
@@ -312,6 +349,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Princess Cursed in Time',
@@ -325,6 +363,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Predestination',
@@ -338,6 +377,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Triangle',
@@ -351,6 +391,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Looper',
@@ -364,6 +405,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Philadelphia',
@@ -377,6 +419,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sully',
@@ -390,6 +433,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Seul sur Mars',
@@ -403,6 +447,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Uncut Gems',
@@ -416,6 +461,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Once Upon a Time in Hollywood',
@@ -429,6 +475,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "À tous les garçons que j'ai aimés",
@@ -442,6 +489,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Avatar : De feu et de cendres',
@@ -455,6 +503,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Robot sauvage',
@@ -468,6 +517,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Running Man',
@@ -481,6 +531,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Whale',
@@ -494,6 +545,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Ballerina',
@@ -507,6 +559,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Mans 66',
@@ -520,6 +573,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Nobody 2',
@@ -533,6 +587,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 3,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Ennemi d'Etat",
@@ -546,6 +601,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Légende de Bagger Vance',
@@ -559,6 +615,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Ali',
@@ -572,6 +629,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Seul contre tous',
@@ -585,6 +643,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Bright',
@@ -598,6 +657,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Emancipation',
@@ -611,6 +671,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'Expert",
@@ -624,6 +685,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Copland',
@@ -637,6 +699,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Get Carter',
@@ -650,6 +713,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Maîtres du jeu',
@@ -663,6 +727,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mafia Love',
@@ -676,6 +741,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Rambo: Last Blood',
@@ -689,6 +755,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Fin des temps',
@@ -702,6 +769,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Dernier rempart',
@@ -715,6 +783,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hudson Hawk, gentleman et cambrioleur',
@@ -728,6 +797,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Piège en eaux troubles',
@@ -741,6 +811,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Chacal',
@@ -754,6 +825,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mon voisin le tueur 2',
@@ -767,6 +839,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Larmes du soleil',
@@ -780,6 +853,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '16 Blocs',
@@ -793,6 +867,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Slevin',
@@ -806,6 +881,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Top Cops',
@@ -819,6 +895,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sans issue',
@@ -832,6 +909,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Joueurs',
@@ -845,6 +923,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Talentueux Mr Ripley',
@@ -858,6 +937,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Invictus',
@@ -871,6 +951,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 3,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Spy game, jeu d'espions",
@@ -884,6 +965,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le stratège',
@@ -897,6 +979,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Tree of Life',
@@ -910,6 +993,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Big Short',
@@ -923,6 +1007,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Secret de la cité perdue',
@@ -936,6 +1021,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Pont des espions',
@@ -949,6 +1035,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Circle',
@@ -962,6 +1049,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Asteroid City',
@@ -975,6 +1063,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Jerry Maguire',
@@ -988,6 +1077,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Eyes Wide Shut',
@@ -1001,6 +1091,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Tonnerre sous les Tropiques',
@@ -1014,6 +1105,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Momie',
@@ -1027,6 +1119,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Noces rebelles',
@@ -1040,6 +1133,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'J. Edgar',
@@ -1053,6 +1147,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Revenant',
@@ -1066,6 +1161,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Une bataille après l'autre",
@@ -1079,6 +1175,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Night Call',
@@ -1092,6 +1189,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Okja',
@@ -1105,6 +1203,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Scoop',
@@ -1118,6 +1217,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Reminiscence',
@@ -1131,6 +1231,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '47 Ronin',
@@ -1144,6 +1245,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Serenity',
@@ -1157,6 +1259,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '6 Underground',
@@ -1170,6 +1273,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: '28 Jours en sursis',
@@ -1183,6 +1287,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'Amour sans préavis",
@@ -1196,6 +1301,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Zookeeper',
@@ -1209,6 +1315,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Happy Gilmore',
@@ -1222,6 +1329,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Empire du soleil',
@@ -1235,6 +1343,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Velvet Goldmine',
@@ -1248,6 +1357,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Shaft',
@@ -1261,6 +1371,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Règne du feu',
@@ -1274,6 +1385,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Machinist',
@@ -1287,6 +1399,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Exodus: Gods and Kings',
@@ -1300,6 +1413,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 3,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Island',
@@ -1313,6 +1427,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Scoop',
@@ -1326,6 +1441,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Deux Sœurs pour un roi',
@@ -1339,6 +1455,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Ghost in the Shell',
@@ -1352,6 +1469,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Scandale',
@@ -1365,6 +1483,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hurlevent',
@@ -1378,6 +1497,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Loi du Silence',
@@ -1391,6 +1511,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Collectionneur',
@@ -1404,6 +1525,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Deep Impact',
@@ -1417,6 +1539,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "L'impasse",
@@ -1430,6 +1553,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Pianiste',
@@ -1443,6 +1567,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Le Discours d'un roi",
@@ -1456,6 +1581,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Imitation Game',
@@ -1469,6 +1595,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'M le Maudit',
@@ -1482,6 +1609,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mad Max',
@@ -1495,6 +1623,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mad Max 2',
@@ -1508,6 +1637,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Signes',
@@ -1521,6 +1651,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Jane Got a Gun',
@@ -1534,6 +1665,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Jackie',
@@ -1547,6 +1679,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Monde de Charlie',
@@ -1560,6 +1693,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Bling Ring',
@@ -1573,6 +1707,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Colonia',
@@ -1586,6 +1721,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Régression',
@@ -1599,6 +1735,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Respire',
@@ -1612,6 +1749,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Irréprochable',
@@ -1625,6 +1763,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Eugénie Grandet',
@@ -1638,6 +1777,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Jack Mimoun et les Secrets de Val Verde',
@@ -1651,6 +1791,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Ma mère, Dieu et Sylvie Vartan',
@@ -1664,6 +1805,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La French',
@@ -1677,6 +1819,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'La Haine',
@@ -1690,6 +1833,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Grand bleu',
@@ -1703,6 +1847,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Zootopie',
@@ -1716,6 +1861,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Casablanca',
@@ -1729,6 +1875,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Rip',
@@ -1742,6 +1889,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Frankenstein',
@@ -1755,6 +1903,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Wonka',
@@ -1768,6 +1917,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Blonde',
@@ -1781,6 +1931,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Snowpiercer',
@@ -1794,6 +1945,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 3,
     ratingComment: '',
+    inList: [],
   },
   {
     title: "Jennifer's Body",
@@ -1807,6 +1959,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'District 9',
@@ -1820,6 +1973,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Public Enemies',
@@ -1833,6 +1987,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Troy',
@@ -1846,6 +2001,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Others',
@@ -1859,6 +2015,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Journal de Bridget Jones',
@@ -1872,6 +2029,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 3,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Grinch',
@@ -1885,6 +2043,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Fight Club',
@@ -1898,6 +2057,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Insaisissables 3',
@@ -1911,6 +2071,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'F1',
@@ -1924,6 +2085,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Anora',
@@ -1937,6 +2099,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Princess',
@@ -1950,6 +2113,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hitman & Bodyguard 2',
@@ -1963,6 +2127,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Sonic the Hedgehog',
@@ -1976,6 +2141,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Hellboy',
@@ -1989,6 +2155,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Nicky Larson Private Eyes',
@@ -2002,6 +2169,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Life : Origine inconnue',
@@ -2015,6 +2183,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Monuments Men',
@@ -2028,6 +2197,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Her',
@@ -2041,6 +2211,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Funny Games U.S.',
@@ -2054,6 +2225,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Secret de Brokeback Mountain',
@@ -2067,6 +2239,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Les Fils du vent',
@@ -2080,6 +2253,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Donnie Darko',
@@ -2093,6 +2267,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Risky Business',
@@ -2106,6 +2281,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Mise à prix',
@@ -2119,6 +2295,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Yoroï',
@@ -2132,6 +2309,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 3,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Dunkerque',
@@ -2145,6 +2323,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'The Game',
@@ -2158,6 +2337,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Un homme en colère',
@@ -2171,6 +2351,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Arnaques, crimes & botanique',
@@ -2184,6 +2365,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
   {
     title: 'Le Murder Club du jeudi',
@@ -2197,8 +2379,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Un flic à la maternelle',
     director: 'Ivan Reitman',
@@ -2211,8 +2393,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Braqueurs amateurs',
     director: 'Les Mayfield',
@@ -2225,8 +2407,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Apollo 13',
     director: 'Ron Howard',
@@ -2239,8 +2421,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'That Thing You Do!',
     director: 'Tom Hanks',
@@ -2253,8 +2435,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Cloud Atlas',
     director: 'Lana Wachowski, Lilly Wachowski, Tom Tykwer',
@@ -2267,8 +2449,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: "Des hommes d'honneur",
     director: 'Rob Reiner',
@@ -2281,8 +2463,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Barry Seal: American Traffic',
     director: 'Doug Liman',
@@ -2295,8 +2477,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: "L'Homme au masque de fer",
     director: 'Randall Wallace',
@@ -2309,8 +2491,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Feeling Minnesota',
     director: 'Steven Baigelman',
@@ -2323,8 +2505,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Sweet November',
     director: "Pat O'Connor",
@@ -2337,8 +2519,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Jane',
     director: 'Julian Jarrold',
@@ -2351,8 +2533,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Rachel se marie',
     director: 'Jonathan Demme',
@@ -2365,8 +2547,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Max la Menace',
     director: 'Peter Segal',
@@ -2379,8 +2561,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Un jour, peut-être',
     director: 'Marc Webb',
@@ -2393,8 +2575,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Le Droit de tuer ?',
     director: 'Joel Schumacher',
@@ -2407,8 +2589,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Ainsi va la vie',
     director: 'Forest Whitaker',
@@ -2421,8 +2603,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Les Ensorceleuses',
     director: 'Griffin Dunne',
@@ -2435,8 +2617,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Un Vent de folie',
     director: 'Callie Khouri',
@@ -2449,8 +2631,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Impardonnable',
     director: 'Nora Fingscheidt',
@@ -2463,8 +2645,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Famille recomposée',
     director: 'Dennis Dugan',
@@ -2477,8 +2659,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Sandy Wexler',
     director: 'Steven Brill',
@@ -2491,8 +2673,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'American Bluff',
     director: 'David O. Russell',
@@ -2505,8 +2687,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Vice',
     director: 'Adam McKay',
@@ -2519,8 +2701,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: "L'Homme qui murmurait à l'oreille des chevaux",
     director: 'Robert Redford',
@@ -2533,8 +2715,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Last Vegas',
     director: 'Jon Turteltaub',
@@ -2547,8 +2729,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Barry Lyndon',
     director: 'Stanley Kubrick',
@@ -2561,8 +2743,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Vivre',
     director: 'Akira Kurosawa',
@@ -2575,8 +2757,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Tchao Pantin',
     director: 'Claude Berri',
@@ -2589,8 +2771,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Un amour à New York',
     director: 'Peter Chelsom',
@@ -2603,8 +2785,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Ça chauffe au lycée Ridgemont',
     director: 'Amy Heckerling',
@@ -2617,8 +2799,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Sans aucun remords',
     director: 'Stefano Sollima',
@@ -2631,8 +2813,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Rupture fatale',
     director: 'Andrew Davis',
@@ -2645,8 +2827,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Ne Zha',
     director: 'Yu Yang',
@@ -2659,8 +2841,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'The Crow',
     director: 'Alex Proyas',
@@ -2673,22 +2855,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
-  {
-    title: 'Orgueil et Préjugés et Zombies',
-    director: 'Burr Steers',
-    rating: 0,
-    timesWatched: 0,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 3,
-    ratingComment: '',
-  },
-
   {
     title: 'Marty Supreme',
     director: 'Josh Safdie',
@@ -2701,8 +2869,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Le Château dans le ciel',
     director: 'Hayao Miyazaki',
@@ -2715,8 +2883,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Le Tombeau des lucioles',
     director: 'Isao Takahata',
@@ -2729,8 +2897,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Mon voisin Totoro',
     director: 'Hayao Miyazaki',
@@ -2743,8 +2911,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Le Voyage de Chihiro',
     director: 'Hayao Miyazaki',
@@ -2757,8 +2925,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Madagascar',
     director: 'Eric Darnell, Tom McGrath',
@@ -2771,8 +2939,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'The Predator',
     director: 'Shane Black',
@@ -2785,8 +2953,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: "À tous les garçons : P.S. Je t'aime toujours",
     director: 'Michael Fimognari',
@@ -2799,8 +2967,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'The King',
     director: 'David Michôd',
@@ -2813,8 +2981,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Tomb Raider',
     director: 'Roar Uthaug',
@@ -2827,8 +2995,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Lion',
     director: 'Garth Davis',
@@ -2841,8 +3009,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Jurassic World',
     director: 'Colin Trevorrow',
@@ -2855,8 +3023,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: '27 Robes',
     director: 'Anne Fletcher',
@@ -2869,8 +3037,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 3,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Roméo + Juliette',
     director: 'Baz Luhrmann',
@@ -2883,8 +3051,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'The Substance',
     director: 'Coralie Fargeat',
@@ -2897,8 +3065,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Monkey Man',
     director: 'Dev Patel',
@@ -2911,22 +3079,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
-  {
-    title: 'The Lost City',
-    director: 'Aaron Nee, Adam Nee',
-    rating: 0,
-    timesWatched: 0,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 3,
-    ratingComment: '',
-  },
-
   {
     title: 'Astérix : Le Secret de la potion magique',
     director: 'Louis Clichy, Alexandre Astier',
@@ -2939,8 +3093,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'KPop Demon Hunters',
     director: 'Maggie Kang, Chris Appelhans',
@@ -2953,8 +3107,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 2,
     ratingComment: '',
+    inList: [],
   },
-
   {
     title: 'Wedding Daze',
     director: 'Michael Ian Black',
@@ -2967,5 +3121,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 3,
     ratingComment: '',
+    inList: [],
   },
 ];
