@@ -121,13 +121,33 @@
     <ng-content select="[movies-filters]"></ng-content>
   </div>
 
-  <div class="entity-input-search">
-    <input
-      type="text"
-      placeholder="Rechercher par titre, réalisateur, acteur..."
-      [ngModel]="searchTerm()"
-      (ngModelChange)="onSearchChange.emit($event)"
-    />
+  <div class="movies-search-and-lists">
+    <div class="entity-input-search">
+      <input
+        type="text"
+        placeholder="Rechercher par titre, réalisateur, acteur..."
+        [ngModel]="searchTerm()"
+        (ngModelChange)="onSearchChange.emit($event)"
+      />
+    </div>
+    @if (selectedView() === 'watched' && userMoviesLists().length > 0) {
+    <div class="movies-list-filters" role="group" aria-label="Filtrer par liste">
+      @for (list of userMoviesLists(); track list.name) {
+      <button
+        type="button"
+        class="movies-list-filter-chip"
+        [class.movies-list-filter-chip--selected]="selectedListFilter() === list.name"
+        [style.--list-color]="list.color"
+        (click)="onListFilterChange.emit(selectedListFilter() === list.name ? null : list.name)"
+        [attr.aria-pressed]="selectedListFilter() === list.name"
+        [attr.aria-label]="'Filtrer par liste : ' + list.name"
+      >
+        <span class="movies-list-filter-chip__icon" aria-hidden="true">{{ list.icon }}</span>
+        <span class="movies-list-filter-chip__name">{{ list.name }}</span>
+      </button>
+      }
+    </div>
+    }
   </div>
   }
 </div>

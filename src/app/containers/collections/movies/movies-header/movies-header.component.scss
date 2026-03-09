@@ -38,6 +38,62 @@
   }
 }
 
+.movies-search-and-lists {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.movies-list-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.movies-list-filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 2px solid var(--list-color, #6b7280);
+  background: transparent;
+  color: var(--list-color, #6b7280);
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+
+  &:hover {
+    background: rgba(107, 114, 128, 0.15);
+    color: var(--list-color, #6b7280);
+  }
+
+  &--selected {
+    background-color: var(--list-color, #6b7280);
+    color: #fff;
+    border-color: var(--list-color, #6b7280);
+
+    &:hover {
+      background-color: var(--list-color, #6b7280);
+      color: #fff;
+      opacity: 0.9;
+    }
+  }
+
+  &__icon {
+    flex-shrink: 0;
+  }
+
+  &__name {
+    min-width: 0;
+    white-space: nowrap;
+  }
+}
+
 @include containers.responsive-base {
   .movies-stats-bloc {
     flex-direction: column;
@@ -53,5 +109,14 @@
     flex-direction: column;
     align-items: stretch;
     gap: 15px;
+  }
+
+  .movies-search-and-lists {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .movies-list-filters {
+    justify-content: center;
   }
 }

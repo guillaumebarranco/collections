@@ -12,6 +12,7 @@ import { ActivatedRoute, Params, RouterModule } from '@angular/router';
 import { MovieView } from '../movies.utils';
 import { FormsModule } from '@angular/forms';
 import { DEFAULT_USER_ID } from '../../../../utils/constants';
+import type { UserMovieListItem } from '../../../../models/movie-list.model';
 import { CanEditDirective } from '../../../../directives/can-edit.directive';
 
 @Component({
@@ -28,6 +29,7 @@ export class MoviesHeaderComponent {
   onSearchChange = output<string>();
   onSortChange = output<string>();
   onTopFiveRankChange = output<void>();
+  onListFilterChange = output<string | null>();
 
   selectedView = input<MovieView>('watched');
   showTopFiveRank = input<boolean>(false);
@@ -36,6 +38,10 @@ export class MoviesHeaderComponent {
   recommendedMoviesCount = input<number>(0);
   /** Afficher le bloc stats, filtres et la recherche (masqué quand l'utilisateur n'a pas de films). */
   showFiltersAndSearch = input<boolean>(true);
+  /** Listes de films de l'utilisateur (pour filtre par liste sur la vue "Films visionnés"). */
+  userMoviesLists = input<UserMovieListItem[]>([]);
+  /** Liste actuellement sélectionnée pour filtrer (null = pas de filtre). */
+  selectedListFilter = input<string | null>(null);
   visibleMovieViewOptions = input<
     {
       value: MovieView;

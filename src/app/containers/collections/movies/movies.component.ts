@@ -245,6 +245,9 @@ export class MoviesComponent implements OnInit {
       : this.allMovies().length > 0
   );
 
+  /** Liste sélectionnée pour filtrer les films vus (null = toutes les listes). */
+  selectedListFilter = signal<string | null>(null);
+
   filteredMovies = computed<Movie[]>(() => {
     let movies: Movie[] = [];
     if (this.selectedView() === 'watchlist') {
@@ -267,6 +270,11 @@ export class MoviesComponent implements OnInit {
       movies = this.allMovies();
     } else {
       movies = this.allMovies();
+    }
+
+    if (this.selectedView() === 'watched' && this.selectedListFilter()) {
+      const listName = this.selectedListFilter()!;
+      movies = movies.filter((m) => (m.inList ?? []).includes(listName));
     }
 
     const term = this.searchTerm().trim().toLowerCase();
@@ -472,6 +480,7 @@ export class MoviesComponent implements OnInit {
     // Réinitialiser les filtres et tris lors du changement de vue
     this.selectedYearFilter.set('all');
     this.searchTerm.set('');
+    this.selectedListFilter.set(null);
 
     // Réinitialiser le tri selon la vue
     if (
@@ -527,6 +536,10 @@ export class MoviesComponent implements OnInit {
 
   onSearchChange(value: string) {
     this.searchTerm.set(value);
+  }
+
+  onListFilterChange(listName: string | null): void {
+    this.selectedListFilter.set(listName);
   }
 
   readonly followedIdsForRecommendations = signal<string[]>([]);
