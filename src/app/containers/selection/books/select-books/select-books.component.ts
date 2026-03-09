@@ -47,26 +47,15 @@ export class SelectBooksComponent
     return new Set(userBooks.map((book) => this.getBookKey(book)));
   });
 
+  // Livres déjà en readlist (toujours exclus de la liste pour éviter les doublons)
   alreadyInReadlistBooks = computed<Set<string>>(() => {
-    if (!this.isWatchOrReadlistMode()) {
-      return new Set();
-    }
     const readlistBooks = this.readlistBooks();
     return new Set(readlistBooks.map((book) => this.getBookKey(book)));
   });
 
-  // Tous les livres de tous les utilisateurs, filtrés si mode readlist ou ajout
+  // Tous les livres proposés : ni déjà lus, ni déjà en readlist
   allBooks = computed<Book[]>(() => {
     const allBooksList = this.baseBooks().map(getEmptyBook);
-
-    if (!this.isWatchOrReadlistMode()) {
-      return allBooksList.filter(
-        (book) =>
-          !this.readBooks().has(this.getBookKey(book)) &&
-          !this.alreadyInReadlistBooks().has(this.getBookKey(book))
-      );
-    }
-
     return allBooksList.filter(
       (book) =>
         !this.readBooks().has(this.getBookKey(book)) &&

@@ -3371,20 +3371,6 @@ export const bastienMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title:
-      "Le Monde de Narnia : Le Lion, la Sorcière blanche et l'Armoire magique",
-    director: 'Andrew Adamson',
-    rating: 2.5,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-  },
-  {
     title: 'Le Seigneur des anneaux : Le Retour du roi',
     director: 'Peter Jackson',
     rating: 4,

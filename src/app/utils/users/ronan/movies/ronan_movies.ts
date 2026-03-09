@@ -6880,19 +6880,6 @@ export const ronanMovies: UserMovies = [
     ratingComment: '',
   },
   {
-    title: 'Les choristes',
-    director: 'Christophe Barratier',
-    rating: 3.5,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-  },
-  {
     title: 'Lost in Translation',
     director: 'Sofia Coppola',
     rating: 3.5,
@@ -12278,20 +12265,6 @@ export const ronanMovies: UserMovies = [
   },
 
   {
-    title:
-      "Le Monde de Narnia : Le Lion, la Sorcière blanche et l'Armoire magique",
-    director: 'Andrew Adamson',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-  },
-  {
     title: '40 ans, toujours puceau',
     director: 'Judd Apatow',
     rating: 0,
@@ -13760,7 +13733,7 @@ export const ronanMovies: UserMovies = [
   },
 
   {
-    title: 'La Venue de l\'Avenir',
+    title: "La Venue de l'Avenir",
     director: 'Cédric Klapisch',
     rating: 3.5,
     timesWatched: 1,

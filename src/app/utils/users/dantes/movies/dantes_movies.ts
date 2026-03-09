@@ -156,20 +156,6 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Les choristes',
-    director: 'Christophe Barratier',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-  },
-
-  {
     title: 'RRRrrrr!!!',
     director: 'Alain Chabat',
     rating: 0,
@@ -310,7 +296,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'L\'aile ou la cuisse',
+    title: "L'aile ou la cuisse",
     director: 'Claude Zidi',
     rating: 0,
     timesWatched: 1,
@@ -464,7 +450,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Astérix et Obélix : L\'Empire du Milieu',
+    title: "Astérix et Obélix : L'Empire du Milieu",
     director: 'Guillaume Canet',
     rating: 0,
     timesWatched: 1,
@@ -492,7 +478,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Le Diable s\'Habille en Prada',
+    title: "Le Diable s'Habille en Prada",
     director: 'David Frankel',
     rating: 0,
     timesWatched: 1,
@@ -688,7 +674,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'The King\'s Man : Première mission',
+    title: "The King's Man : Première mission",
     director: 'Matthew Vaughn',
     rating: 0,
     timesWatched: 1,
@@ -1192,7 +1178,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Fous d\'Irène',
+    title: "Fous d'Irène",
     director: 'Bobby Farrelly, Peter Farrelly',
     rating: 0,
     timesWatched: 1,
@@ -1304,7 +1290,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'L\'Amour sans préavis',
+    title: "L'Amour sans préavis",
     director: 'Marc Lawrence',
     rating: 0,
     timesWatched: 1,
@@ -1318,7 +1304,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Le Songe d\'une nuit d\'été',
+    title: "Le Songe d'une nuit d'été",
     director: 'Michael Hoffman',
     rating: 0,
     timesWatched: 1,
@@ -1346,7 +1332,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'La Ruée vers l\'or',
+    title: "La Ruée vers l'or",
     director: 'Charlie Chaplin',
     rating: 0,
     timesWatched: 1,
@@ -1402,7 +1388,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Le Fabuleux Destin d\'Amélie Poulain',
+    title: "Le Fabuleux Destin d'Amélie Poulain",
     director: 'Jean-Pierre Jeunet',
     rating: 0,
     timesWatched: 1,
@@ -1416,7 +1402,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'La vie d\'Adèle',
+    title: "La vie d'Adèle",
     director: 'Abdellatif Kechiche',
     rating: 0,
     timesWatched: 1,
@@ -1444,7 +1430,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Qu\'est-ce qu\'on a fait au bon dieu ?',
+    title: "Qu'est-ce qu'on a fait au bon dieu ?",
     director: 'Philippe de Chauveron',
     rating: 0,
     timesWatched: 1,
@@ -2172,7 +2158,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'L\'Étrange Noël de monsieur Jack',
+    title: "L'Étrange Noël de monsieur Jack",
     director: 'Henry Selick',
     rating: 0,
     timesWatched: 1,
@@ -2256,7 +2242,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Le Prince d\'Égypte',
+    title: "Le Prince d'Égypte",
     director: 'Brenda Chapman, Steve Hickner',
     rating: 0,
     timesWatched: 1,
@@ -2284,7 +2270,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Le Roi Lion 2 : L\'Honneur de la tribu',
+    title: "Le Roi Lion 2 : L'Honneur de la tribu",
     director: 'Darrell Rooney, Rob LaDuca',
     rating: 0,
     timesWatched: 1,
@@ -2312,7 +2298,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'La Route d\'Eldorado',
+    title: "La Route d'Eldorado",
     director: 'Bibo Bergeron, Don Paul',
     rating: 0,
     timesWatched: 1,
@@ -2326,7 +2312,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'La Petite Sirène 2 : Retour à l\'océan',
+    title: "La Petite Sirène 2 : Retour à l'océan",
     director: 'Jim Kammerud, Brian Smith',
     rating: 0,
     timesWatched: 1,
@@ -2340,7 +2326,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Kuzco, l\'Empereur mégalo',
+    title: "Kuzco, l'Empereur mégalo",
     director: 'Mark Dindal',
     rating: 0,
     timesWatched: 1,
@@ -2354,7 +2340,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Atlantis : L\'Empire perdu',
+    title: "Atlantis : L'Empire perdu",
     director: 'Gary Trousdale, Kirk Wise',
     rating: 0,
     timesWatched: 1,
@@ -2592,7 +2578,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'L\'Amour, c\'est surcoté ',
+    title: "L'Amour, c'est surcoté ",
     director: 'Mourad Winter',
     rating: 0,
     timesWatched: 1,
@@ -2606,7 +2592,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Le Seigneur des Anneaux - La Communauté de l\'Anneau - Version Longue',
+    title:
+      "Le Seigneur des Anneaux - La Communauté de l'Anneau - Version Longue",
     director: 'Peter Jackson',
     rating: 0,
     timesWatched: 1,
@@ -2662,7 +2649,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'N\'oublie Jamais',
+    title: "N'oublie Jamais",
     director: 'Nick Cassavetes',
     rating: 0,
     timesWatched: 1,
@@ -2690,7 +2677,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'L\'Auberge Espagnol',
+    title: "L'Auberge Espagnol",
     director: 'Cédric Klapisch',
     rating: 0,
     timesWatched: 1,
@@ -3110,7 +3097,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Le Magicien d\'Oz',
+    title: "Le Magicien d'Oz",
     director: 'Victor Fleming',
     rating: 0,
     timesWatched: 1,
@@ -3208,7 +3195,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'The Three Musketeers: D\'Artagnan',
+    title: "The Three Musketeers: D'Artagnan",
     director: 'Martin Bourboulon',
     rating: 0,
     timesWatched: 1,
@@ -3390,7 +3377,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: '300 : La Naissance d\'un Empire',
+    title: "300 : La Naissance d'un Empire",
     director: 'Noam Murro',
     rating: 0,
     timesWatched: 1,
@@ -3432,7 +3419,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'L\'Arnacœur',
+    title: "L'Arnacœur",
     director: 'Pascal Chaumeil',
     rating: 0,
     timesWatched: 1,
@@ -3502,7 +3489,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Le Monde de Narnia : Le Lion, la Sorcière blanche et l\'Armoire magique',
+    title:
+      "Le Monde de Narnia : Le Lion, la Sorcière Blanche et l'Armoire Magique",
     director: 'Andrew Adamson',
     rating: 0,
     timesWatched: 1,
@@ -3628,7 +3616,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'L\'Arnacœur',
+    title: "L'Arnacœur",
     director: 'Pascal Chaumeil',
     rating: 0,
     timesWatched: 1,
@@ -3740,7 +3728,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Harry Potter à l\'école des sorciers',
+    title: "Harry Potter à l'école des sorciers",
     director: 'Chris Columbus',
     rating: 0,
     timesWatched: 1,
@@ -3768,7 +3756,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Harry Potter et le prisonnier d\'Azkaban',
+    title: "Harry Potter et le prisonnier d'Azkaban",
     director: 'Alfonso Cuarón',
     rating: 0,
     timesWatched: 1,
@@ -3796,7 +3784,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Harry Potter et l\'ordre du phénix',
+    title: "Harry Potter et l'ordre du phénix",
     director: 'David Yates',
     rating: 0,
     timesWatched: 1,
@@ -3866,7 +3854,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Star Wars: Episode 2 - L\'attaque des clones',
+    title: "Star Wars: Episode 2 - L'attaque des clones",
     director: 'George Lucas',
     rating: 0,
     timesWatched: 1,
@@ -3908,7 +3896,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Star Wars : Episode 5 - L\'empire contre-attaque',
+    title: "Star Wars : Episode 5 - L'empire contre-attaque",
     director: 'Irvin Kershner',
     rating: 0,
     timesWatched: 1,
@@ -3936,7 +3924,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Maman j\'ai raté l\'avion',
+    title: "Maman j'ai raté l'avion",
     director: 'Chris Columbus',
     rating: 0,
     timesWatched: 1,
@@ -3950,7 +3938,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Maman j\'ai raté l\'avion 2',
+    title: "Maman j'ai raté l'avion 2",
     director: 'Chris Columbus',
     rating: 0,
     timesWatched: 1,
@@ -4244,7 +4232,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'OSS 117 : Le Caire, Nid d\'Espions',
+    title: "OSS 117 : Le Caire, Nid d'Espions",
     director: 'Michel Hazanavicius',
     rating: 0,
     timesWatched: 1,
@@ -4300,7 +4288,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Ocean\'s Eleven',
+    title: "Ocean's Eleven",
     director: 'Steven Soderbergh',
     rating: 0,
     timesWatched: 1,
@@ -4342,7 +4330,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Pirates des Caraïbes 3 : Jusqu\'au Bout du Monde',
+    title: "Pirates des Caraïbes 3 : Jusqu'au Bout du Monde",
     director: 'Gore Verbinski',
     rating: 0,
     timesWatched: 1,
@@ -4454,7 +4442,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Sin City : J\'ai Tué pour Elle',
+    title: "Sin City : J'ai Tué pour Elle",
     director: 'Frank Miller, Robert Rodriguez',
     rating: 0,
     timesWatched: 1,

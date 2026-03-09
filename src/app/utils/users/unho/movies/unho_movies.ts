@@ -184,7 +184,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Don\'t look up, déni cosmique',
+    title: "Don't look up, déni cosmique",
     director: 'Adam McKay',
     rating: 3.5,
     timesWatched: 1,
@@ -271,20 +271,6 @@ export const unhoMovies: UserMovie[] = [
     title: 'Shaun of the Dead',
     director: 'Edgar Wright',
     rating: 4.5,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-  },
-
-  {
-    title: 'Les choristes',
-    director: 'Christophe Barratier',
-    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -562,7 +548,8 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Le Monde de Narnia : Le Lion, la Sorcière Blanche et l\'Armoire Magique',
+    title:
+      "Le Monde de Narnia : Le Lion, la Sorcière Blanche et l'Armoire Magique",
     director: 'Andrew Adamson',
     rating: 0,
     timesWatched: 1,
@@ -688,7 +675,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'The King\'s Man : Première mission',
+    title: "The King's Man : Première mission",
     director: 'Matthew Vaughn',
     rating: 0,
     timesWatched: 1,
@@ -1388,7 +1375,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'L\'aile ou la cuisse',
+    title: "L'aile ou la cuisse",
     director: 'Claude Zidi',
     rating: 0,
     timesWatched: 1,
@@ -1458,7 +1445,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Maman je m\'occupe des méchants',
+    title: "Maman je m'occupe des méchants",
     director: 'Raja Gosnell',
     rating: 0,
     timesWatched: 1,
@@ -1808,7 +1795,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Qu\'est-ce qu\'on a fait au bon dieu ?',
+    title: "Qu'est-ce qu'on a fait au bon dieu ?",
     director: 'Philippe de Chauveron',
     rating: 0,
     timesWatched: 1,
@@ -1850,7 +1837,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Bienvenue chez les Ch\'tis',
+    title: "Bienvenue chez les Ch'tis",
     director: 'Dany Boon',
     rating: 0,
     timesWatched: 1,
@@ -2200,7 +2187,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'L\'Âge de Glace',
+    title: "L'Âge de Glace",
     director: 'Chris Wedge, Carlos Saldanha',
     rating: 0,
     timesWatched: 1,
@@ -2214,7 +2201,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'L\'Âge de Glace 2',
+    title: "L'Âge de Glace 2",
     director: 'Carlos Saldanha',
     rating: 0,
     timesWatched: 1,
@@ -2228,7 +2215,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'L\'Âge de Glace 3 : Le Temps des Dinosaures',
+    title: "L'Âge de Glace 3 : Le Temps des Dinosaures",
     director: 'Carlos Saldanha',
     rating: 0,
     timesWatched: 1,
@@ -2242,7 +2229,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'L\'Âge de Glace 4 : La Dérive des Continents',
+    title: "L'Âge de Glace 4 : La Dérive des Continents",
     director: 'Steve Martino, Mike Thurmeier',
     rating: 0,
     timesWatched: 1,
@@ -2509,7 +2496,8 @@ export const unhoMovies: UserMovie[] = [
 
   {
     title: 'Pinocchio',
-    director: 'Norman Ferguson, T. Hee, Wilfred Jackson, Jack Kinney, Hamilton Luske, Bill Roberts, Ben Sharpsteen',
+    director:
+      'Norman Ferguson, T. Hee, Wilfred Jackson, Jack Kinney, Hamilton Luske, Bill Roberts, Ben Sharpsteen',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2634,7 +2622,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'L\'Étrange Noël de monsieur Jack',
+    title: "L'Étrange Noël de monsieur Jack",
     director: 'Henry Selick',
     rating: 0,
     timesWatched: 1,
@@ -2704,7 +2692,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Kuzco, l\'Empereur mégalo',
+    title: "Kuzco, l'Empereur mégalo",
     director: 'Mark Dindal',
     rating: 0,
     timesWatched: 1,
@@ -2718,7 +2706,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Atlantis : L\'Empire perdu',
+    title: "Atlantis : L'Empire perdu",
     director: 'Gary Trousdale, Kirk Wise',
     rating: 0,
     timesWatched: 1,
@@ -2928,7 +2916,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'L\'Auberge Espagnol',
+    title: "L'Auberge Espagnol",
     director: 'Cédric Klapisch',
     rating: 0,
     timesWatched: 1,
@@ -3040,7 +3028,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Le Crime de l\'Orient-Express',
+    title: "Le Crime de l'Orient-Express",
     director: 'Kenneth Branagh',
     rating: 0,
     timesWatched: 1,
@@ -3194,7 +3182,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'L\'Étrange Histoire de Benjamin Button',
+    title: "L'Étrange Histoire de Benjamin Button",
     director: 'David Fincher',
     rating: 0,
     timesWatched: 1,
@@ -3460,7 +3448,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Edward aux mains d\'argent',
+    title: "Edward aux mains d'argent",
     director: 'Tim Burton',
     rating: 0,
     timesWatched: 1,
@@ -3642,7 +3630,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'The Three Musketeers: D\'Artagnan',
+    title: "The Three Musketeers: D'Artagnan",
     director: 'Martin Bourboulon',
     rating: 0,
     timesWatched: 1,
@@ -3838,7 +3826,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: '300 : La Naissance d\'un Empire',
+    title: "300 : La Naissance d'un Empire",
     director: 'Noam Murro',
     rating: 0,
     timesWatched: 1,
@@ -3936,7 +3924,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'À la croisée des mondes : La Boussole d\'or',
+    title: "À la croisée des mondes : La Boussole d'or",
     director: 'Chris Weitz',
     rating: 0,
     timesWatched: 1,
@@ -4006,7 +3994,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Inside Man : L\'Homme de l\'intérieur',
+    title: "Inside Man : L'Homme de l'intérieur",
     director: 'Spike Lee',
     rating: 0,
     timesWatched: 1,
@@ -4036,20 +4024,6 @@ export const unhoMovies: UserMovie[] = [
   {
     title: 'High School Musical : Premiers pas sur scène',
     director: 'Kenny Ortega',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-  },
-
-  {
-    title: 'Le Monde de Narnia : Le Lion, la Sorcière blanche et l\'Armoire magique',
-    director: 'Andrew Adamson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4230,7 +4204,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Le Seigneur des anneaux : La Communauté de l\'anneau',
+    title: "Le Seigneur des anneaux : La Communauté de l'anneau",
     director: 'Peter Jackson',
     rating: 0,
     timesWatched: 1,
@@ -4370,7 +4344,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Les Aventuriers de l\'Arche perdue',
+    title: "Les Aventuriers de l'Arche perdue",
     director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,
@@ -4510,7 +4484,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'L\'Incroyable Hulk',
+    title: "L'Incroyable Hulk",
     director: 'Louis Leterrier',
     rating: 0,
     timesWatched: 1,
@@ -4650,7 +4624,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'The Amazing Spider-Man : Le Destin d\'un Héros',
+    title: "The Amazing Spider-Man : Le Destin d'un Héros",
     director: 'Marc Webb',
     rating: 0,
     timesWatched: 1,
@@ -4692,7 +4666,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Harry Potter à l\'école des sorciers',
+    title: "Harry Potter à l'école des sorciers",
     director: 'Chris Columbus',
     rating: 0,
     timesWatched: 1,
@@ -4720,7 +4694,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Harry Potter et le prisonnier d\'Azkaban',
+    title: "Harry Potter et le prisonnier d'Azkaban",
     director: 'Alfonso Cuarón',
     rating: 0,
     timesWatched: 1,
@@ -4748,7 +4722,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Harry Potter et l\'ordre du phénix',
+    title: "Harry Potter et l'ordre du phénix",
     director: 'David Yates',
     rating: 0,
     timesWatched: 1,
@@ -4804,7 +4778,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Star Wars: Episode 2 - L\'attaque des clones',
+    title: "Star Wars: Episode 2 - L'attaque des clones",
     director: 'George Lucas',
     rating: 0,
     timesWatched: 1,
@@ -4846,7 +4820,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Star Wars : Episode 5 - L\'empire contre-attaque',
+    title: "Star Wars : Episode 5 - L'empire contre-attaque",
     director: 'Irvin Kershner',
     rating: 0,
     timesWatched: 1,
@@ -5126,7 +5100,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'La momie : la tombe de l\'empereur dragon',
+    title: "La momie : la tombe de l'empereur dragon",
     director: 'Rob Cohen',
     rating: 0,
     timesWatched: 1,
@@ -5224,7 +5198,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Maman j\'ai raté l\'avion',
+    title: "Maman j'ai raté l'avion",
     director: 'Chris Columbus',
     rating: 0,
     timesWatched: 1,
@@ -5238,7 +5212,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Maman j\'ai raté l\'avion 2',
+    title: "Maman j'ai raté l'avion 2",
     director: 'Chris Columbus',
     rating: 0,
     timesWatched: 1,
@@ -5392,7 +5366,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Hunger Games : L\'Embrasement',
+    title: "Hunger Games : L'Embrasement",
     director: 'Francis Lawrence',
     rating: 0,
     timesWatched: 1,
@@ -5658,7 +5632,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'OSS 117 : Le Caire, Nid d\'Espions',
+    title: "OSS 117 : Le Caire, Nid d'Espions",
     director: 'Michel Hazanavicius',
     rating: 0,
     timesWatched: 1,
@@ -5784,7 +5758,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Ocean\'s Eleven',
+    title: "Ocean's Eleven",
     director: 'Steven Soderbergh',
     rating: 0,
     timesWatched: 1,
@@ -5826,7 +5800,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Pirates des Caraïbes 3 : Jusqu\'au Bout du Monde',
+    title: "Pirates des Caraïbes 3 : Jusqu'au Bout du Monde",
     director: 'Gore Verbinski',
     rating: 0,
     timesWatched: 1,
@@ -5896,7 +5870,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Hellboy 2 : Les Légions d\'Or Maudites',
+    title: "Hellboy 2 : Les Légions d'Or Maudites",
     director: 'Guillermo del Toro',
     rating: 0,
     timesWatched: 1,
@@ -6106,7 +6080,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Avatar : La Voie de l\'Eau',
+    title: "Avatar : La Voie de l'Eau",
     director: 'James Cameron',
     rating: 0,
     timesWatched: 1,

@@ -44,29 +44,18 @@ export class SelectMoviesComponent
     return new Set(userMovies.map((movie) => this.getMovieKey(movie)));
   });
 
+  // Films déjà en watchlist (toujours exclus de la liste pour éviter les doublons)
   alreadyInWatchlistMovies = computed<Set<string>>(() => {
-    if (!this.isWatchOrReadlistMode()) {
-      return new Set();
-    }
     const watchlistMovies = this.watchlistMovies();
     return new Set(watchlistMovies.map((movie) => this.getMovieKey(movie)));
   });
 
-  // Tous les films de tous les utilisateurs, filtrés si mode watchlist ou ajout
+  // Tous les films proposés : ni déjà vus, ni déjà en watchlist
   allMovies = computed<Movie[]>(() => {
     if (this.isCinemaMode()) {
       return this.userMovies();
     }
     const allMoviesList = this.allMoviesMergedList();
-
-    if (!this.isWatchOrReadlistMode()) {
-      return allMoviesList.filter(
-        (movie) =>
-          !this.watchedMovies().has(this.getMovieKey(movie)) &&
-          !this.alreadyInWatchlistMovies().has(this.getMovieKey(movie))
-      );
-    }
-
     return allMoviesList.filter(
       (movie) =>
         !this.watchedMovies().has(this.getMovieKey(movie)) &&

@@ -1245,23 +1245,6 @@ export const baseMoviesPage8: BaseMovie[] = [
     countryOrigin: 'Irlande',
   },
   {
-    title: 'The Crow',
-    director: 'Alex Proyas',
-    actors: [
-      { name: 'Brandon Lee' },
-      { name: 'Michael Wincott' },
-      { name: 'Rochelle Davis' },
-    ],
-    coverUrl: '/movies_pictures/189f0a3cdb49.jpg',
-    releaseDate: '1994-05-13',
-    length: 102,
-    genre: 'Action, Crime, Drama',
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
-  {
     title: 'Papillon',
     director: 'Franklin J. Schaffner',
     actors: [
@@ -1801,23 +1784,6 @@ export const baseMoviesPage8: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Reviens-moi',
-    director: 'Joe Wright',
-    actors: [
-      { name: 'Keira Knightley' },
-      { name: 'James McAvoy' },
-      { name: 'Brenda Blethyn' },
-    ],
-    coverUrl: '/movies_pictures/0d86b8fcd2b0.jpg',
-    releaseDate: '2008-01-11',
-    length: 123,
-    genre: 'Drama, Mystery, Romance',
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Irréversible',

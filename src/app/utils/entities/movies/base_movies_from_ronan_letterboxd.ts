@@ -6130,7 +6130,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Toshio Furukawa',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/dragon_ball_z_resurrection_f.jpg',
     releaseDate: '2015-09-11',
@@ -7127,9 +7127,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
   {
     title: 'Dragon Ball Z: Battle of Gods',
     director: 'Masahiro Hosoda',
-    actors: [
-
-    ],
+    actors: [],
     coverUrl: '/movies_pictures/dragon_ball_z_battle_of_gods.jpg',
     releaseDate: '2015-02-11',
     length: 85,
@@ -8374,16 +8372,16 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
   },
   {
     title: 'Coco',
-    director: 'Lee Unkrich',
+    director: 'Gad Elmaleh',
     actors: [
       {
-        name: 'Anthony Gonzalez',
+        name: 'Gad Elmaleh',
       },
     ],
     coverUrl: '/movies_pictures/coco.jpg',
-    releaseDate: '2017-11-29',
+    releaseDate: '2009-11-29',
     length: 105,
-    genre: 'Animation',
+    genre: 'Comédie',
     saga: '',
     description: '',
     fromEntity: null,
@@ -8713,23 +8711,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
-    title: 'Paranoïak',
-    director: 'D.J. Caruso',
-    actors: [
-      {
-        name: 'Shia LaBeouf',
-      },
-    ],
-    coverUrl: '/movies_pictures/disturbia.jpg',
-    releaseDate: '2007-08-22',
-    length: 104,
-    genre: 'Thriller',
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
-  {
     title: 'Sunshine',
     director: 'Danny Boyle',
     actors: [
@@ -9053,7 +9034,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
   },
   {
     title:
-      "Le Monde de Narnia : Le Lion, la Sorcière blanche et l'Armoire magique",
+      "Le Monde de Narnia : Le Lion, la Sorcière Blanche et l'Armoire Magique",
     director: 'Andrew Adamson',
     actors: [
       {
@@ -10376,7 +10357,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Mayumi Tanaka',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/dragon_ball_z_wrath_of_the_dragon.jpg',
     releaseDate: '1995-10-31',
@@ -10422,7 +10403,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Takeshi Kusao',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/dragon_ball_z_fusion_reborn.jpg',
     releaseDate: '1995-03-04',
@@ -10468,7 +10449,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Daisuke Gôri',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/dragon_ball_z_bio_broly.jpg',
     releaseDate: '1994-07-09',
@@ -10514,7 +10495,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Yūko Minaguchi',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/dragon_ball_z_broly_second_coming.jpg',
     releaseDate: '1994-03-12',
@@ -10583,7 +10564,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Ryō Horikawa',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/dragon_ball_z_bojack_unbound.jpg',
     releaseDate: '1993-07-10',
@@ -10629,7 +10610,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Ryō Horikawa',
-      }
+      },
     ],
     coverUrl:
       '/movies_pictures/dragon_ball_z_broly_the_legendary_super_saiyan.jpg',
@@ -10653,7 +10634,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Hiromi Tsuru',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/dragon_ball_z_the_history_of_trunks.jpg',
     releaseDate: '1995-03-22',
@@ -10749,7 +10730,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Takeshi Kusao',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/dragon_ball_z_super_android_13.jpg',
     releaseDate: '1992-07-11',
@@ -10795,7 +10776,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Toshio Furukawa',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/dragon_ball_z_the_return_of_cooler.jpg',
     releaseDate: '1992-03-07',
@@ -10818,7 +10799,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Toshio Furukawa',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/dragon_ball_z_cooler_s_revenge.jpg',
     releaseDate: '1994-12-01',
@@ -10888,7 +10869,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Mayumi Tanaka',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/dragon_ball_z_lord_slug.jpg',
     releaseDate: '1994-09-01',
@@ -10911,7 +10892,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Shō Hayami',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/dragon_ball_z_bardock_the_father_of_goku.jpg',
     releaseDate: '1990-10-17',
@@ -10934,7 +10915,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Tōru Furuya',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/dragon_ball_z_the_tree_of_might.jpg',
     releaseDate: '1990-07-07',
@@ -10980,7 +10961,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Hiromi Tsuru',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/dragon_ball_z_the_world_s_strongest.jpg',
     releaseDate: '1994-10-17',
@@ -11003,7 +10984,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Mayumi Tanaka',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/dragon_ball_z_dead_zone.jpg',
     releaseDate: '1989-07-15',

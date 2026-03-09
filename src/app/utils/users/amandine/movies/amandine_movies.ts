@@ -1459,7 +1459,7 @@ export const amandineMovies1: UserMovies = [
     ratingComment: '',
   },
   {
-    title: 'Les choristes',
+    title: 'Les Choristes',
     director: 'Christophe Barratier',
     rating: 0,
     timesWatched: 25,

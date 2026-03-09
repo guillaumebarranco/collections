@@ -128,20 +128,6 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Les choristes',
-    director: 'Christophe Barratier',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-  },
-
-  {
     title: 'RRRrrrr!!!',
     director: 'Alain Chabat',
     rating: 0,
@@ -296,7 +282,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'L\'exorciste',
+    title: "L'exorciste",
     director: 'William Friedkin',
     rating: 0,
     timesWatched: 1,
@@ -422,7 +408,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Le Diable s\'Habille en Prada',
+    title: "Le Diable s'Habille en Prada",
     director: 'David Frankel',
     rating: 0,
     timesWatched: 1,
@@ -464,7 +450,8 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Le Monde de Narnia : Le Lion, la Sorcière Blanche et l\'Armoire Magique',
+    title:
+      "Le Monde de Narnia : Le Lion, la Sorcière Blanche et l'Armoire Magique",
     director: 'Andrew Adamson',
     rating: 0,
     timesWatched: 1,
@@ -534,7 +521,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Je Sais ce que Vous Avez Fait l\'Été Dernier',
+    title: "Je Sais ce que Vous Avez Fait l'Été Dernier",
     director: 'Jim Gillespie',
     rating: 0,
     timesWatched: 1,
@@ -1178,7 +1165,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'La vie d\'Adèle',
+    title: "La vie d'Adèle",
     director: 'Abdellatif Kechiche',
     rating: 0,
     timesWatched: 1,
@@ -1206,7 +1193,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Qu\'est-ce qu\'on a fait au bon dieu ?',
+    title: "Qu'est-ce qu'on a fait au bon dieu ?",
     director: 'Philippe de Chauveron',
     rating: 0,
     timesWatched: 1,
@@ -1220,7 +1207,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Bienvenue chez les Ch\'tis',
+    title: "Bienvenue chez les Ch'tis",
     director: 'Dany Boon',
     rating: 0,
     timesWatched: 1,
@@ -1388,7 +1375,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Anatomie d\'une chute',
+    title: "Anatomie d'une chute",
     director: 'Justine Triet',
     rating: 0,
     timesWatched: 1,
@@ -1668,7 +1655,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'L\'Âge de Glace',
+    title: "L'Âge de Glace",
     director: 'Chris Wedge, Carlos Saldanha',
     rating: 0,
     timesWatched: 1,
@@ -1682,7 +1669,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'L\'Âge de Glace 2',
+    title: "L'Âge de Glace 2",
     director: 'Carlos Saldanha',
     rating: 0,
     timesWatched: 1,
@@ -1696,7 +1683,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'L\'Âge de Glace 3 : Le Temps des Dinosaures',
+    title: "L'Âge de Glace 3 : Le Temps des Dinosaures",
     director: 'Carlos Saldanha',
     rating: 0,
     timesWatched: 1,
@@ -1710,7 +1697,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'L\'Âge de Glace 4 : La Dérive des Continents',
+    title: "L'Âge de Glace 4 : La Dérive des Continents",
     director: 'Steve Martino, Mike Thurmeier',
     rating: 0,
     timesWatched: 1,
@@ -1836,7 +1823,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Bee Movie : Drôle d\'Abeille',
+    title: "Bee Movie : Drôle d'Abeille",
     director: 'Steve Hickner, Simon J. Smith',
     rating: 0,
     timesWatched: 1,
@@ -2173,7 +2160,8 @@ export const marinaMovies: UserMovie[] = [
 
   {
     title: 'Pinocchio',
-    director: 'Norman Ferguson, T. Hee, Wilfred Jackson, Jack Kinney, Hamilton Luske, Bill Roberts, Ben Sharpsteen',
+    director:
+      'Norman Ferguson, T. Hee, Wilfred Jackson, Jack Kinney, Hamilton Luske, Bill Roberts, Ben Sharpsteen',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2452,7 +2440,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'L\'Étrange Noël de monsieur Jack',
+    title: "L'Étrange Noël de monsieur Jack",
     director: 'Henry Selick',
     rating: 0,
     timesWatched: 1,
@@ -2536,7 +2524,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Le Prince d\'Égypte',
+    title: "Le Prince d'Égypte",
     director: 'Brenda Chapman, Steve Hickner',
     rating: 0,
     timesWatched: 1,
@@ -2564,7 +2552,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Le Roi Lion 2 : L\'Honneur de la tribu',
+    title: "Le Roi Lion 2 : L'Honneur de la tribu",
     director: 'Darrell Rooney, Rob LaDuca',
     rating: 0,
     timesWatched: 1,
@@ -2592,7 +2580,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'La Route d\'Eldorado',
+    title: "La Route d'Eldorado",
     director: 'Bibo Bergeron, Don Paul',
     rating: 0,
     timesWatched: 1,
@@ -2606,7 +2594,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'La Petite Sirène 2 : Retour à l\'océan',
+    title: "La Petite Sirène 2 : Retour à l'océan",
     director: 'Jim Kammerud, Brian Smith',
     rating: 0,
     timesWatched: 1,
@@ -2634,7 +2622,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Kuzco, l\'Empereur mégalo',
+    title: "Kuzco, l'Empereur mégalo",
     director: 'Mark Dindal',
     rating: 0,
     timesWatched: 1,
@@ -2648,7 +2636,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Atlantis : L\'Empire perdu',
+    title: "Atlantis : L'Empire perdu",
     director: 'Gary Trousdale, Kirk Wise',
     rating: 0,
     timesWatched: 1,
@@ -3278,7 +3266,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Le Crime de l\'Orient-Express',
+    title: "Le Crime de l'Orient-Express",
     director: 'Kenneth Branagh',
     rating: 0,
     timesWatched: 1,
@@ -3601,7 +3589,7 @@ export const marinaMovies: UserMovie[] = [
 
   {
     title: 'Ella au pays enchanté',
-    director: 'Tommy O\'Haver',
+    director: "Tommy O'Haver",
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3656,7 +3644,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'La Revanche d\'une blonde',
+    title: "La Revanche d'une blonde",
     director: 'Robert Luketic',
     rating: 0,
     timesWatched: 1,
@@ -3782,7 +3770,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Souviens-toi... l\'été dernier',
+    title: "Souviens-toi... l'été dernier",
     director: 'Jim Gillespie',
     rating: 0,
     timesWatched: 1,
@@ -3852,7 +3840,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Edward aux mains d\'argent',
+    title: "Edward aux mains d'argent",
     director: 'Tim Burton',
     rating: 0,
     timesWatched: 1,
@@ -3950,7 +3938,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Conjuring : L\'Heure du jugement',
+    title: "Conjuring : L'Heure du jugement",
     director: 'Michael Chaves',
     rating: 0,
     timesWatched: 1,
@@ -4090,7 +4078,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Hunger Games : La Ballade du serpent et de l\'oiseau chanteur',
+    title: "Hunger Games : La Ballade du serpent et de l'oiseau chanteur",
     director: 'Francis Lawrence',
     rating: 0,
     timesWatched: 1,
@@ -4118,7 +4106,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'The Three Musketeers: D\'Artagnan',
+    title: "The Three Musketeers: D'Artagnan",
     director: 'Martin Bourboulon',
     rating: 0,
     timesWatched: 1,
@@ -4202,7 +4190,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Conjuring : Sous l\'emprise du diable',
+    title: "Conjuring : Sous l'emprise du diable",
     director: 'Michael Chaves',
     rating: 0,
     timesWatched: 1,
@@ -4314,7 +4302,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'À tous les garçons que j\'ai aimés',
+    title: "À tous les garçons que j'ai aimés",
     director: 'Susan Johnson',
     rating: 0,
     timesWatched: 1,
@@ -4426,7 +4414,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'La Forme de l\'eau',
+    title: "La Forme de l'eau",
     director: 'Guillermo del Toro',
     rating: 0,
     timesWatched: 1,
@@ -4510,7 +4498,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Alice de l\'autre côté du miroir',
+    title: "Alice de l'autre côté du miroir",
     director: 'James Bobin',
     rating: 0,
     timesWatched: 1,
@@ -4762,7 +4750,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Madagascar 3 : Bons Baisers d\'Europe',
+    title: "Madagascar 3 : Bons Baisers d'Europe",
     director: 'Eric Darnell, Tom McGrath, Conrad Vernon',
     rating: 0,
     timesWatched: 1,
@@ -4958,7 +4946,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'À la croisée des mondes : La Boussole d\'or',
+    title: "À la croisée des mondes : La Boussole d'or",
     director: 'Chris Weitz',
     rating: 0,
     timesWatched: 1,
@@ -5072,20 +5060,6 @@ export const marinaMovies: UserMovie[] = [
   {
     title: 'Treize à la douzaine 2',
     director: 'Adam Shankman',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-  },
-
-  {
-    title: 'Le Monde de Narnia : Le Lion, la Sorcière blanche et l\'Armoire magique',
-    director: 'Andrew Adamson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5350,7 +5324,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Valentine\'s Day',
+    title: "Valentine's Day",
     director: 'Garry Marshall',
     rating: 0,
     timesWatched: 1,
@@ -5476,7 +5450,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Avengers : L\'Ère d\'Ultron',
+    title: "Avengers : L'Ère d'Ultron",
     director: 'Joss Whedon',
     rating: 0,
     timesWatched: 1,
@@ -5532,7 +5506,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Captain America : Le Soldat de l\'Hiver',
+    title: "Captain America : Le Soldat de l'Hiver",
     director: 'Anthony Russo, Joe Russo',
     rating: 0,
     timesWatched: 1,
@@ -5756,7 +5730,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'The Amazing Spider-Man : Le Destin d\'un Héros',
+    title: "The Amazing Spider-Man : Le Destin d'un Héros",
     director: 'Marc Webb',
     rating: 0,
     timesWatched: 1,
@@ -5770,7 +5744,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Harry Potter à l\'école des sorciers',
+    title: "Harry Potter à l'école des sorciers",
     director: 'Chris Columbus',
     rating: 0,
     timesWatched: 1,
@@ -5798,7 +5772,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Harry Potter et le prisonnier d\'Azkaban',
+    title: "Harry Potter et le prisonnier d'Azkaban",
     director: 'Alfonso Cuarón',
     rating: 0,
     timesWatched: 1,
@@ -5826,7 +5800,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Harry Potter et l\'ordre du phénix',
+    title: "Harry Potter et l'ordre du phénix",
     director: 'David Yates',
     rating: 0,
     timesWatched: 1,
@@ -5952,7 +5926,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Maman j\'ai raté l\'avion',
+    title: "Maman j'ai raté l'avion",
     director: 'Chris Columbus',
     rating: 0,
     timesWatched: 1,
@@ -6008,7 +5982,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Hunger Games : L\'Embrasement',
+    title: "Hunger Games : L'Embrasement",
     director: 'Francis Lawrence',
     rating: 0,
     timesWatched: 1,
@@ -6148,7 +6122,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'OSS 117 : Le Caire, Nid d\'Espions',
+    title: "OSS 117 : Le Caire, Nid d'Espions",
     director: 'Michel Hazanavicius',
     rating: 0,
     timesWatched: 1,
@@ -6246,7 +6220,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Divergente 2 : L\'Insurrection',
+    title: "Divergente 2 : L'Insurrection",
     director: 'Robert Schwentke',
     rating: 0,
     timesWatched: 1,
@@ -6302,7 +6276,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Ocean\'s Eleven',
+    title: "Ocean's Eleven",
     director: 'Steven Soderbergh',
     rating: 0,
     timesWatched: 1,
@@ -6316,7 +6290,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Ocean\'s Eight',
+    title: "Ocean's Eight",
     director: 'Gary Ross',
     rating: 0,
     timesWatched: 1,
@@ -6358,7 +6332,7 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'Pirates des Caraïbes 3 : Jusqu\'au Bout du Monde',
+    title: "Pirates des Caraïbes 3 : Jusqu'au Bout du Monde",
     director: 'Gore Verbinski',
     rating: 0,
     timesWatched: 1,

@@ -328,8 +328,8 @@ export const guillaumeMoviesPage5: UserMovies = [
   },
   {
     title: 'Coco',
-    director: 'Lee Unkrich',
-    rating: 3,
+    director: 'Gad Elmaleh',
+    rating: 3.5,
     timesWatched: 2,
     firstViewedDate: '',
     lastViewedDate: '',
