@@ -643,7 +643,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes romances'],
   },
   {
     title: 'Les 4 fantastiques',
@@ -1445,7 +1445,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes romances'],
   },
   {
     title: "Souviens-toi... l'été dernier",
@@ -1867,7 +1867,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: ['Mes classiques'],
+    inList: ['Mes classiques', 'Mes romances'],
   },
 
   {

@@ -13,7 +13,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes romances'],
   },
   {
     title: 'The Princess Switch',
@@ -55,7 +55,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes romances'],
   },
   {
     title: 'Champagne Problems',
@@ -83,7 +83,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes romances'],
   },
   {
     title: 'Tout le Bleu du Ciel',
@@ -111,7 +111,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes romances'],
   },
   {
     title: 'Au plaisir de se faire trahir',
@@ -181,7 +181,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes romances'],
   },
   {
     title: 'The In-between',
@@ -265,7 +265,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes romances'],
   },
   {
     title: "L'agence",
@@ -307,7 +307,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: ['Mes classiques'],
+    inList: ['Mes classiques', 'Mes romances'],
   },
   {
     title: 'Love & autres drogues',
@@ -321,7 +321,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: ['Mes classiques'],
+    inList: ['Mes classiques', 'Mes romances'],
   },
   {
     title: 'Sexy Dance',
@@ -377,7 +377,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes romances'],
   },
   {
     title: 'Remember Me',
@@ -419,7 +419,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes romances'],
   },
   {
     title: '17 ans encore',
@@ -433,7 +433,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes romances'],
   },
   {
     title: '(500) Jours Ensemble',
@@ -461,7 +461,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes romances'],
   },
   {
     title: 'Juno',
@@ -517,7 +517,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: ['Mes classiques'],
+    inList: ['Mes classiques', 'Mes romances'],
   },
   {
     title: 'First Daughter',
@@ -559,7 +559,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: ['Mes classiques'],
+    inList: ['Mes classiques', 'Mes romances'],
   },
   {
     title: 'Amour & Amnésie',
@@ -573,7 +573,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: ['Mes classiques'],
+    inList: ['Mes classiques', 'Mes romances'],
   },
   {
     title: 'Love Actually',
@@ -601,7 +601,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes romances'],
   },
   {
     title: 'Pearl Harbor',
@@ -615,7 +615,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes romances'],
   },
   {
     title: 'Ce que Veulent les Femmes',
@@ -629,7 +629,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: ['Mes classiques'],
+    inList: ['Mes classiques', 'Mes romances'],
   },
   {
     title: 'Coup de foudre à Notting Hill',
@@ -671,7 +671,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes romances'],
   },
   {
     title: "L'Amour puissance mille",
@@ -755,7 +755,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes romances'],
   },
   {
     title: 'Isi & Ossi',
@@ -797,7 +797,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: ['Mes classiques'],
+    inList: ['Mes classiques', 'Mes romances'],
   },
   {
     title: 'Coup de foudre à Manhattan',

@@ -592,7 +592,7 @@ export const guillaumeMoviesPage3: UserMovies = [
   {
     title: 'Hors de Prix',
     director: 'Pierre Salvadori',
-    rating: 3,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',

@@ -83,7 +83,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes romances'],
   },
   {
     title: 'Guns Akimbo',

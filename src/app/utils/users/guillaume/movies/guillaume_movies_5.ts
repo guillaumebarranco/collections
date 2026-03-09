@@ -783,7 +783,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: ['Mes classiques'],
+    inList: ['Mes classiques', 'Mes romances'],
   },
   {
     title: 'The Do-Over',
@@ -1245,7 +1245,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes romances'],
   },
   {
     title: "L'Héritage",
@@ -1273,7 +1273,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes romances'],
   },
   {
     title: 'The Princess Switch 3: Romancing the Star',

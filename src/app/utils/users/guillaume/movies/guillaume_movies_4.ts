@@ -307,7 +307,7 @@ export const guillaumeMoviesPage4: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes romances'],
   },
   {
     title: 'Prometheus',
@@ -377,7 +377,7 @@ export const guillaumeMoviesPage4: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: ['Mes classiques'],
+    inList: ['Mes classiques', 'Mes romances'],
   },
   {
     title: 'Footloose',

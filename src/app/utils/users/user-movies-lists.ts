@@ -8,7 +8,16 @@ import type { UserMovieListItem } from '../../models/movie-list.model';
 
 export const usersMoviesLists: Record<string, UserMovieListItem[]> = {
   "guillaume": [
-    { "name": "Mes classiques", "icon": "⭐", "color": "#ca8a04" }
+    {
+      "name": "Mes classiques",
+      "icon": "⭐",
+      "color": "#ca8a04"
+    },
+    {
+      "name": "Mes romances",
+      "icon": "📋",
+      "color": "#6b7280"
+    }
   ],
   "ronan": [],
   "emmanuelle": [],
