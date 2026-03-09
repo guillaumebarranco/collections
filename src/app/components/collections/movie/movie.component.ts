@@ -31,8 +31,9 @@ import {
   EntityCardEntityData,
 } from '../../entity/entity-card-rating-and-buttons/entity-card-rating-and-buttons.component';
 import { CanEditDirective } from '../../../directives/can-edit.directive';
-import { getApiBaseUrl, isBaseEntityView } from '../../../core/config';
+import { getApiBaseUrl, isBaseEntityView, isLocalhost } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
+import { usersMoviesLists } from '../../../utils/users/user-movies-lists';
 import { MovieView } from '../../../containers/collections/movies/movies.utils';
 
 @Component({
@@ -80,13 +81,18 @@ export class MovieComponent {
   @Output() createListAndAddMovie = new EventEmitter<Movie>();
   isWatchList = input<boolean>(false);
 
-  /** Listes auxquelles ce film appartient (pour afficher les tags sur la card). */
+  /** Listes auxquelles ce film appartient (pour afficher les tags sur la card). En local, repli sur le fichier statique si userLists n'est pas fourni. */
   movieListTags = computed(() => {
-    const lists = this.userLists();
     const inList = this.movie?.inList ?? [];
+    if (!inList.length) return [];
+    let lists = this.userLists();
+    if (isLocalhost() && (!lists || lists.length === 0)) {
+      const userId = this.getActiveUserId();
+      lists = usersMoviesLists[userId.toLowerCase()] ?? [];
+    }
     if (!lists?.length) return [];
     return inList
-      .map((name) => lists.find((l) => l.name === name))
+      .map((name) => lists!.find((l) => l.name === name))
       .filter((x): x is UserMovieListItem => x != null);
   });
 

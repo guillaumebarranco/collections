@@ -1,6 +1,7 @@
-import { getApiBaseUrl } from '../../../core/config';
+import { getApiBaseUrl, isLocalhost } from '../../../core/config';
 import { Movie } from '../../../models/movie-model';
 import type { UserMovieListItem } from '../../../models/movie-list.model';
+import { usersMoviesLists } from '../../../utils/users/user-movies-lists';
 
 export async function updateWatchPriority(
   data: {
@@ -168,10 +169,14 @@ export async function addMovieToWatchlist(
   }
 }
 
-/** Récupère les listes de films de l'utilisateur (name, icon, color). */
+/** Récupère les listes de films de l'utilisateur (name, icon, color). En local, lit toujours depuis le fichier statique (comme les films). */
 export async function getUserMoviesLists(
   userId: string
 ): Promise<UserMovieListItem[]> {
+  if (isLocalhost()) {
+    const lists = usersMoviesLists[userId.toLowerCase()];
+    return Array.isArray(lists) ? [...lists] : [];
+  }
   try {
     const response = await fetch(
       `${getApiBaseUrl()}/users/${encodeURIComponent(userId)}/movies-lists`
