@@ -307,7 +307,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Love & autres drogues',
@@ -321,7 +321,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Sexy Dance',
@@ -363,7 +363,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: "L'Arnacœur",
@@ -517,7 +517,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'First Daughter',
@@ -559,7 +559,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Amour & Amnésie',
@@ -573,7 +573,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Love Actually',
@@ -629,7 +629,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Coup de foudre à Notting Hill',
@@ -797,7 +797,7 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Coup de foudre à Manhattan',

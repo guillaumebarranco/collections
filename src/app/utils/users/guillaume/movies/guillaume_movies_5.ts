@@ -181,7 +181,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'The Karate Kid',
@@ -587,7 +587,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Le fugitif',
@@ -783,7 +783,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'The Do-Over',
@@ -937,7 +937,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Pas un bruit',

@@ -139,7 +139,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Rush Hour 2',
@@ -181,7 +181,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: "Ocean's Twelve",
@@ -279,7 +279,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Taxi 2',
@@ -335,7 +335,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Scary Movie 2',
@@ -391,7 +391,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Kill Bill: Vol. 2',
@@ -783,7 +783,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Men in Black 3',
@@ -839,7 +839,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Le Retour de la Momie',
@@ -881,7 +881,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: "L'arme fatale 2",
@@ -1063,7 +1063,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: "Maman j'ai raté l'avion",
@@ -1315,7 +1315,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'American Pie 2',

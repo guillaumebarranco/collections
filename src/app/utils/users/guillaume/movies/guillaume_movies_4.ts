@@ -27,7 +27,7 @@ export const guillaumeMoviesPage4: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Robocop',
@@ -377,7 +377,7 @@ export const guillaumeMoviesPage4: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Footloose',
@@ -714,7 +714,7 @@ export const guillaumeMoviesPage4: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Slumdog Millionaire',
@@ -826,7 +826,7 @@ export const guillaumeMoviesPage4: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Jumper',
@@ -1176,7 +1176,7 @@ export const guillaumeMoviesPage4: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Dumb & Dumber',

@@ -685,7 +685,7 @@ export const guillaumeMoviesPage3: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: "Le Diable s'Habille en Prada",
@@ -1007,7 +1007,7 @@ export const guillaumeMoviesPage3: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'True Lies',
@@ -1035,7 +1035,7 @@ export const guillaumeMoviesPage3: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Speed',
@@ -1105,7 +1105,7 @@ export const guillaumeMoviesPage3: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Code mercury',
@@ -1147,7 +1147,7 @@ export const guillaumeMoviesPage3: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: "Je Sais ce que Vous Avez Fait l'Été Dernier",

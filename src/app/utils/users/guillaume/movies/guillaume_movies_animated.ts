@@ -279,7 +279,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: "L'Âge de Glace 2",
@@ -489,7 +489,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Ratatouille',
@@ -517,7 +517,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Shrek 2',
@@ -797,7 +797,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'La petite sirène',

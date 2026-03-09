@@ -461,7 +461,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Rocky V',
@@ -923,7 +923,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'OSS 117 : Rio ne Répond Plus',
@@ -965,7 +965,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Split',
@@ -1511,7 +1511,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Underworld : Évolution',

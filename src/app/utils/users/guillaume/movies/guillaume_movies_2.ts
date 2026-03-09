@@ -349,7 +349,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     wantToSeeAgain: true,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Le Gendarme de Saint-Tropez',
@@ -503,7 +503,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Garfield',
@@ -545,7 +545,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Van Helsing',
@@ -685,7 +685,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Moi, Cesar, 10 ans et demi, 1m39',
@@ -713,7 +713,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'La Beuze',
@@ -755,7 +755,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Equilibrium',
@@ -1049,7 +1049,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'The Truman Show',

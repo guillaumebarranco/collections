@@ -223,7 +223,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Spider-Man 2',
@@ -405,7 +405,7 @@ export const guillaumeMoviesOtherSuperheroes: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
-    inList: [],
+    inList: ['Mes classiques'],
   },
   {
     title: 'Les 4 Fantastiques',
