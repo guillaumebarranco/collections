@@ -1,0 +1,59 @@
+<div class="dashboard-records">
+  @if (isLoading()) {
+  <p class="dashboard-records__loading">Chargement des records…</p>
+  } @else if (!isAdmin()) {
+  <p class="dashboard-records__restricted">
+    Les records (top 3 par catégorie parmi tous les utilisateurs) sont visibles
+    par les administrateurs.
+  </p>
+  } @else if (recordsData()) {
+  <div class="top5-grid">
+    @for (key of categories; track key) {
+    <!-- Top 3 par nombre -->
+    <div class="top5-category">
+      <h3>{{ categoryLabels[key] }}</h3>
+      <div class="top5-list">
+        @for (entry of getTop3(key); track entry.username; let i = $index) {
+        <a
+          [routerLink]="getUserLink(entry.username)"
+          class="top5-item"
+          [class.top5-item--gold]="i === 0"
+          [class.top5-item--silver]="i === 1"
+          [class.top5-item--bronze]="i === 2"
+        >
+          <span class="rank">#{{ i + 1 }}</span>
+          <span class="title">{{ getUserName(entry.username) }}</span>
+          <span class="count">{{ entry.value }}</span>
+        </a>
+        } @if (getTop3(key).length === 0) {
+        <div class="dashboard-records__empty">Aucun record</div>
+        }
+      </div>
+    </div>
+    <!-- Top 3 par temps (lecture / visionnage / écoute) -->
+    <div class="top5-category top5-category--duration">
+      <h3>{{ categoryDurationLabels[key] }}</h3>
+      <div class="top5-list">
+        @for (entry of getTop3ByDuration(key); track entry.username; let i = $index) {
+        <a
+          [routerLink]="getUserLink(entry.username)"
+          class="top5-item"
+          [class.top5-item--gold]="i === 0"
+          [class.top5-item--silver]="i === 1"
+          [class.top5-item--bronze]="i === 2"
+        >
+          <span class="rank">#{{ i + 1 }}</span>
+          <span class="title">{{ getUserName(entry.username) }}</span>
+          <span class="count count--duration">{{ formatDays(entry.value) }}</span>
+        </a>
+        } @if (getTop3ByDuration(key).length === 0) {
+        <div class="dashboard-records__empty">Aucun record</div>
+        }
+      </div>
+    </div>
+    }
+  </div>
+  } @else {
+  <p class="dashboard-records__empty-state">Aucune donnée de records.</p>
+  }
+</div>

@@ -557,6 +557,7 @@ module.exports = {
   normalizeString,
   parseGamesFromFile,
   parseBaseGamesFullFromFile,
+  getBaseGamesFiles,
   escapeString,
   appendObjectToArrayFile,
   baseGameExists,

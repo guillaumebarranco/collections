@@ -1,0 +1,119 @@
+.dashboard-records {
+  padding: 0;
+}
+
+.dashboard-records__loading,
+.dashboard-records__restricted,
+.dashboard-records__empty-state {
+  margin: 0;
+  color: #6c757d;
+  font-size: 1rem;
+}
+
+// Aligné sur le Top 5 statistiques personnels (mêmes couleurs et mise en page)
+.top5-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.top5-category {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #e9ecef;
+
+  h3 {
+    margin: 0 0 15px 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #495057;
+    text-align: center;
+  }
+}
+
+.top5-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.top5-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+  text-decoration: none;
+  color: inherit;
+
+  &--gold {
+    background: linear-gradient(135deg, #f9e79f 0%, #f7dc6f 50%, #f4d03f 100%);
+    box-shadow: 0 2px 6px rgba(212, 175, 55, 0.35);
+  }
+
+  &--silver {
+    background: linear-gradient(135deg, #e5e8e8 0%, #bdc3c7 50%, #a6acaf 100%);
+    box-shadow: 0 2px 6px rgba(127, 140, 141, 0.3);
+  }
+
+  &--bronze {
+    background: linear-gradient(135deg, #f5d0b0 0%, #e8a857 50%, #d68910 100%);
+    box-shadow: 0 2px 6px rgba(205, 127, 50, 0.3);
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .rank {
+    font-weight: bold;
+    color: #6c757d;
+    min-width: 30px;
+    font-size: 0.9rem;
+  }
+
+  .title {
+    flex: 1;
+    margin: 0 10px;
+    font-weight: 500;
+    color: #212529;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .count {
+    font-weight: bold;
+    color: #007bff;
+    background: #e3f2fd;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    min-width: 35px;
+    text-align: center;
+  }
+
+  .duration {
+    margin-left: 8px;
+    font-size: 0.8rem;
+    color: #6c757d;
+    white-space: nowrap;
+  }
+
+  .count--duration {
+    background: transparent;
+    color: #495057;
+    font-weight: 600;
+  }
+}
+
+.dashboard-records__empty {
+  padding: 8px 0;
+  color: #6c757d;
+  font-size: 0.9rem;
+}

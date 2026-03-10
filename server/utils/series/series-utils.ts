@@ -133,8 +133,17 @@ function parseSeasonsDataField(objectText: string) {
   return seasonsData;
 }
 
+/** Index du '[' qui ouvre le tableau littéral (après " = ["), pas celui du type UserSerie[]. */
+function getArrayLiteralStartIndex(content: string, startIndex: number) {
+  const eqBracket = content.indexOf(' = [', startIndex);
+  if (eqBracket >= 0) {
+    return eqBracket + ' = ['.length - 1;
+  }
+  return content.indexOf('[', startIndex);
+}
+
 function getArrayBoundsFromIndex(content: string, startIndex: number) {
-  const arrayStart = content.indexOf('[', startIndex);
+  const arrayStart = getArrayLiteralStartIndex(content, startIndex);
   const arrayEnd = content.indexOf('];', arrayStart);
   if (arrayStart === -1 || arrayEnd === -1) {
     return null;
@@ -315,7 +324,7 @@ function appendObjectToArrayFile(filePath: string, objectText: string) {
   if (exportIndex === -1) {
     throw new Error('Array not found');
   }
-  const arrayStart = content.indexOf('[', exportIndex);
+  const arrayStart = getArrayLiteralStartIndex(content, exportIndex);
   const arrayEnd = content.indexOf('];', arrayStart);
   if (arrayStart === -1 || arrayEnd === -1) {
     throw new Error('Array bounds not found');

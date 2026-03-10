@@ -31,9 +31,39 @@ export type UserCollectionCounts = {
   musics: number;
 };
 
-async function safeCount(
-  fetchFn: () => Promise<unknown[]>
-): Promise<number> {
+/** value = nombre d'entités (mostReadSeen) ou jours (mostTimeReadWatched). */
+export type AdminRecordEntry = {
+  username: string;
+  value: number;
+};
+
+export type AdminRecordsCategory = {
+  mostReadSeen: AdminRecordEntry[];
+  mostTimeReadWatched: AdminRecordEntry[];
+};
+
+export type AdminRecordsCategoryKey =
+  | 'books'
+  | 'movies'
+  | 'series'
+  | 'games'
+  | 'mangas'
+  | 'manwhas'
+  | 'comics'
+  | 'bds'
+  | 'musics';
+
+/**
+ * Réponse de l'API GET /admin/records.
+ * Chaque catégorie : mostReadSeen (top 3 par nombre), mostTimeReadWatched (top 3 par temps, value en jours).
+ * @see docs/API_ADMIN_RECORDS.md
+ */
+export type AdminRecordsResponse = Record<
+  AdminRecordsCategoryKey,
+  AdminRecordsCategory
+>;
+
+async function safeCount(fetchFn: () => Promise<unknown[]>): Promise<number> {
   try {
     const list = await fetchFn();
     return Array.isArray(list) ? list.length : 0;
@@ -69,6 +99,70 @@ export async function getAdminUserStats(
     bds,
     musics,
   };
+}
+
+/**
+ * Récupère les records (top 3 par nombre et par temps) depuis l'API dédiée.
+ * Un seul appel HTTP : le backend agrège et renvoie directement la structure attendue.
+ * @param adminUserId - ID de l'admin (pour autorisation)
+ * @returns Données des records ou null si l'API n'est pas disponible / erreur
+ */
+export async function getAdminRecords(
+  adminUserId: string
+): Promise<AdminRecordsResponse | null> {
+  try {
+    const response = await fetch(
+      `${getApiBaseUrl()}/admin/records?userId=${encodeURIComponent(adminUserId)}`
+    );
+    if (!response.ok) {
+      return null;
+    }
+    const data = await response.json();
+    return normalizeAdminRecordsResponse(data);
+  } catch {
+    return null;
+  }
+}
+
+const RECORDS_CATEGORY_KEYS: AdminRecordsCategoryKey[] = [
+  'books',
+  'movies',
+  'series',
+  'games',
+  'mangas',
+  'manwhas',
+  'comics',
+  'bds',
+  'musics',
+];
+
+function normalizeEntry(entry: unknown): AdminRecordEntry {
+  const e = entry as Record<string, unknown>;
+  return {
+    username: String(e?.['username'] ?? ''),
+    value: Number(e?.['value'] ?? 0),
+  };
+}
+
+function normalizeCategory(rawCat: unknown): AdminRecordsCategory {
+  const cat = rawCat as Record<string, unknown>;
+  return {
+    mostReadSeen: Array.isArray(cat?.['mostReadSeen'])
+      ? (cat['mostReadSeen'] as unknown[]).map(normalizeEntry)
+      : [],
+    mostTimeReadWatched: Array.isArray(cat?.['mostTimeReadWatched'])
+      ? (cat['mostTimeReadWatched'] as unknown[]).map(normalizeEntry)
+      : [],
+  };
+}
+
+function normalizeAdminRecordsResponse(raw: unknown): AdminRecordsResponse {
+  const rawObj = raw as Record<string, unknown>;
+  const result = {} as AdminRecordsResponse;
+  for (const key of RECORDS_CATEGORY_KEYS) {
+    result[key] = normalizeCategory(rawObj?.[key] ?? {});
+  }
+  return result;
 }
 
 export async function getAdminUsers(

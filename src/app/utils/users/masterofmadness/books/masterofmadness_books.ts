@@ -1,6 +1,6 @@
 import { UserBook } from '../../../../models/book-model';
 
-export const masterofmadnessBooks: UserBook[
+export const masterofmadnessBooks: UserBook[] = [
   {
     title: 'The Shining',
     author: 'Stephen King',
