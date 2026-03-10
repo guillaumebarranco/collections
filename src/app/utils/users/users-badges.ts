@@ -65,7 +65,30 @@ export const usersBadges: Record<string, string[]> = {
     "cinephile-passionne",
     "petit-beguin-movies"
   ],
-  "bastien": [],
+  "bastien": [
+    "cinephile-amateur",
+    "cinephile-herbe",
+    "membre-de-l-ordre"
+  ],
   "xeryth": [],
-  "william": []
+  "william": [],
+  "emmanuelle": [],
+  "unho": [
+    "cinephile-amateur",
+    "cinephile-herbe"
+  ],
+  "dantes": [
+    "badges-des-trois-sorciers",
+    "cinephile-amateur",
+    "cinephile-herbe",
+    "cinephile-passionne",
+    "eleve-fantasy",
+    "graine-lecteur",
+    "lecteur-assidu",
+    "lecteur-chevronne",
+    "lecteur-passionne",
+    "petit-lecteur"
+  ],
+  "marina": [],
+  "masterofmadness": []
 };
