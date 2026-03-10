@@ -70,5 +70,11 @@ export const users = [
     passwordHash: '7227ccd04637c1c3d8fc2d11efe57f07c032fb24885c87cb0e35e674cedeed6e079fb6ad03b1694a73f30b640adcb932e6161f09e5d8cd0c7b63f2a32e48bc05',
     passwordSalt: '1a4d7d25eb30e26b882d081abaaad466',
     admin: false,
+  },
+  {
+    username: 'masterofmadness',
+    passwordHash: '9cd3dbd906f2808073e0d3c4c18b39b13a194ca03a322a11e47a1cf58c699de43c6ddfbe54a42171dc72adffc922e00c145799151b365f0a05b1bde82b5ccda8',
+    passwordSalt: 'ea7e3e460c63147979a4e0d665389145',
+    admin: false,
   }
 ];

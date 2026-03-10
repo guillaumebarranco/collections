@@ -656,4 +656,32 @@ export const baseBooksApi: BaseBook[] = [
     description: '',
     countryOrigin: 'Royaume-Uni',
   },
+
+  {
+    title: 'Pierre et Jean',
+    author: 'Guy de Maupassant',
+    coverUrl: '',
+    pages: 0,
+    genre: '',
+    saga: '',
+    sagaOrder: 0,
+    sagaFinished: true,
+    releaseDate: '',
+    description: '',
+    countryOrigin: '',
+  },
+
+  {
+    title: 'Mont-Oriol',
+    author: 'Guy de Maupassant',
+    coverUrl: 'https://www.livredepoche.com/livre/mont-oriol-nouvelle-edition-9782253183235/',
+    pages: 0,
+    genre: '',
+    saga: '',
+    sagaOrder: 0,
+    sagaFinished: true,
+    releaseDate: '',
+    description: '',
+    countryOrigin: 'France',
+  },
 ];
