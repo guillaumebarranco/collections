@@ -144,4 +144,52 @@ export const dantesMangas: UserManga[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: 'City Hunter',
+    author: 'Tsukasa Hōjō',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'OnePunch-Man',
+    author: 'Yûsuke Murata',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Détective Conan',
+    author: 'Gōshō Aoyama',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Fairy Tail',
+    author: 'Hiro Mashima',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
 ];
