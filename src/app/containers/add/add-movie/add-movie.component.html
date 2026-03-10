@@ -128,8 +128,14 @@
               [class.star-full]="
                 getStarType(userForm().rating || 0, star) === 'full'
               "
+              [class.star-threeQuarter]="
+                getStarType(userForm().rating || 0, star) === 'threeQuarter'
+              "
               [class.star-half]="
                 getStarType(userForm().rating || 0, star) === 'half'
+              "
+              [class.star-quarter]="
+                getStarType(userForm().rating || 0, star) === 'quarter'
               "
               [class.star-empty]="
                 getStarType(userForm().rating || 0, star) === 'empty'
@@ -138,6 +144,17 @@
               ★
             </span>
           </button>
+          <input
+            type="number"
+            min="0"
+            max="5"
+            step="0.25"
+            [ngModel]="userForm().rating"
+            (ngModelChange)="updateUserField('rating', $event)"
+            name="rating"
+            class="rating-input"
+            aria-label="Note numérique"
+          />
           <span class="rating-value">{{ userForm().rating }}/5</span>
         </div>
       </div>

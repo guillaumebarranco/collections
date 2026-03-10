@@ -149,6 +149,11 @@ app-edit-entity.edit-entity--light {
     display: flex;
     align-items: center;
     gap: 8px;
+
+    .rating-input {
+      width: 56px;
+      box-sizing: border-box;
+    }
   }
 
   .star-btn {
@@ -301,6 +306,11 @@ app-edit-entity.edit-entity--dark {
     display: flex;
     align-items: center;
     gap: 8px;
+
+    .rating-input {
+      width: 56px;
+      box-sizing: border-box;
+    }
   }
 
   .star-btn {

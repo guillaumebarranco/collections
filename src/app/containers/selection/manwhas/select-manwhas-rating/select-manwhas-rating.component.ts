@@ -6,7 +6,7 @@ import { getManwhasByUser } from '../../../../facades/manwhas/manwhas.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { getApiBaseUrl } from '../../../../core/config';
 import { StarInfo } from '../../../../models/various-model';
-import { getRatingStars, ratingOptions } from '../../../../utils/constants';
+import { getRatingStars, ratingOptionsSelectPages } from '../../../../utils/constants';
 
 @Component({
   selector: 'app-select-manwhas-rating',
@@ -32,7 +32,7 @@ export class SelectManwhasRatingComponent
 
   manwhasRatings = signal<Map<string, number>>(new Map());
 
-  readonly ratingOptions = ratingOptions;
+  readonly ratingOptions = ratingOptionsSelectPages;
 
   private getManwhaKey(manwha: Manwha): string {
     return `${manwha.title}-${manwha.author}`;

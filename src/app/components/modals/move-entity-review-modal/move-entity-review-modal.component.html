@@ -22,9 +22,9 @@
             type="button"
             class="move-entity-review-modal__star move-entity-review-modal__star--{{ star }}"
             [attr.aria-label]="'Note ' + ($index + 1) + ' sur 5'"
-            (click)="setRating($index + 1)"
+            (click)="setRatingFromStarClick($index + 1, $event)"
           >
-            {{ star === 'full' ? '★' : star === 'half' ? '½' : '☆' }}
+            <span class="move-entity-review-modal__star-inner move-entity-review-modal__star-inner--{{ star }}">★</span>
           </button>
         }
       </div>
@@ -33,7 +33,7 @@
         type="number"
         min="0"
         max="5"
-        step="0.5"
+        step="0.25"
         [value]="rating()"
         (input)="onRatingInput($event)"
         class="move-entity-review-modal__rating-input"

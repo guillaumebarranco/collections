@@ -6,7 +6,7 @@ import { getMoviesByUser } from '../../../../facades/movies/movies.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { getApiBaseUrl } from '../../../../core/config';
 import { StarInfo } from '../../../../models/various-model';
-import { getRatingStars, ratingOptions } from '../../../../utils/constants';
+import { getRatingStars, ratingOptionsSelectPages } from '../../../../utils/constants';
 
 @Component({
   selector: 'app-select-movies-rating',
@@ -35,7 +35,7 @@ export class SelectMoviesRatingComponent
   moviesRatings = signal<Map<string, number>>(new Map());
 
   // Valeurs possibles pour rating (0 à 5 avec incréments de 0.5)
-  readonly ratingOptions = ratingOptions;
+  readonly ratingOptions = ratingOptionsSelectPages;
 
   // Générer une clé unique pour un film
   private getMovieKey(movie: Movie): string {

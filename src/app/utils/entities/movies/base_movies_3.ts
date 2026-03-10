@@ -16,6 +16,19 @@ export const baseMoviesPage3: BaseMovie[] = [
     countryOrigin: 'Royaume-Uni',
   },
   {
+    title: 'Monster',
+    director: 'Patty Jenkins',
+    actors: [{ name: 'Charlize Theron' }],
+    coverUrl: '/movies_pictures/18375558.jpg',
+    releaseDate: '2003-12-24',
+    length: 109,
+    genre: 'Drama',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
     title: 'Kingsman: The Golden Circle',
     director: 'Matthew Vaughn',
     actors: [

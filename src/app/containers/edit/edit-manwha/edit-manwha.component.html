@@ -82,8 +82,14 @@
             [class.star-full]="
               getStarType(manwhaForm()?.rating || 0, star) === 'full'
             "
+            [class.star-threeQuarter]="
+              getStarType(manwhaForm()?.rating || 0, star) === 'threeQuarter'
+            "
             [class.star-half]="
               getStarType(manwhaForm()?.rating || 0, star) === 'half'
+            "
+            [class.star-quarter]="
+              getStarType(manwhaForm()?.rating || 0, star) === 'quarter'
             "
             [class.star-empty]="
               getStarType(manwhaForm()?.rating || 0, star) === 'empty'
@@ -92,6 +98,17 @@
             ★
           </span>
         </button>
+        <input
+          type="number"
+          min="0"
+          max="5"
+          step="0.25"
+          [ngModel]="manwhaForm()?.rating"
+          (ngModelChange)="updateField('rating', $event)"
+          name="rating"
+          class="rating-input"
+          aria-label="Note numérique"
+        />
         <span class="rating-value">{{ manwhaForm()?.rating }}/5</span>
       </div>
     </div>

@@ -48,18 +48,31 @@ export class MoveEntityReviewModalComponent {
 
   readonly stars = computed(() => {
     const r = this.rating();
-    const result: Array<'full' | 'half' | 'empty'> = [];
+    const result: Array<'full' | 'threeQuarter' | 'half' | 'quarter' | 'empty'> = [];
     for (let i = 1; i <= 5; i++) {
       if (r >= i) result.push('full');
+      else if (r >= i - 0.25) result.push('threeQuarter');
       else if (r >= i - 0.5) result.push('half');
+      else if (r >= i - 0.75) result.push('quarter');
       else result.push('empty');
     }
     return result;
   });
 
+  /** Arrondit la note au quart le plus proche (0, 0.25, 0.5, 0.75, 1, …). */
   setRating(value: number): void {
-    const v = Math.max(0, Math.min(5, Math.round(value * 2) / 2));
+    const v = Math.max(0, Math.min(5, Math.round(value * 4) / 4));
     this.rating.set(v);
+  }
+
+  setRatingFromStarClick(star: number, event: MouseEvent): void {
+    const target = event.currentTarget as HTMLElement | null;
+    if (!target) return;
+    const width = target.clientWidth;
+    const x = event.offsetX;
+    const ratio = x / width;
+    const offset = ratio < 0.25 ? 0.75 : ratio < 0.5 ? 0.5 : ratio < 0.75 ? 0.25 : 0;
+    this.setRating(star - offset);
   }
 
   onRatingInput(event: Event): void {

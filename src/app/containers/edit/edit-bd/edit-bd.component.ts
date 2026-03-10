@@ -195,18 +195,19 @@ export class EditBdComponent {
     const target = event.currentTarget as HTMLElement | null;
     if (!target) return;
 
-    const half = target.clientWidth / 2;
-    const nextValue = event.offsetX < half ? star - 0.5 : star;
-    this.updateField('rating', Math.max(0, nextValue));
+    const width = target.clientWidth;
+    const x = event.offsetX;
+    const ratio = x / width;
+    const offset = ratio < 0.25 ? 0.75 : ratio < 0.5 ? 0.5 : ratio < 0.75 ? 0.25 : 0;
+    const nextValue = Math.round((star - offset) * 4) / 4;
+    this.updateField('rating', Math.max(0, Math.min(5, nextValue)));
   }
 
-  getStarType(rating: number, star: number): 'full' | 'half' | 'empty' {
-    if (rating >= star) {
-      return 'full';
-    }
-    if (rating >= star - 0.5) {
-      return 'half';
-    }
+  getStarType(rating: number, star: number): 'full' | 'threeQuarter' | 'half' | 'quarter' | 'empty' {
+    if (rating >= star) return 'full';
+    if (rating >= star - 0.25) return 'threeQuarter';
+    if (rating >= star - 0.5) return 'half';
+    if (rating >= star - 0.75) return 'quarter';
     return 'empty';
   }
 

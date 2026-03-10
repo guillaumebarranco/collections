@@ -84,19 +84,53 @@
   padding: 0 2px;
   cursor: pointer;
   color: #bdc3c7;
+  position: relative;
+  width: 1em;
+  height: 1em;
 
   &:hover {
     color: #f1c40f;
     opacity: 0.9;
   }
 
+}
+
+.move-entity-review-modal__star-inner {
+  position: relative;
+  display: inline-block;
+  color: #bdc3c7;
+
   &--full {
     color: #f1c40f;
   }
 
-  &--half {
+  &--half,
+  &--quarter,
+  &--threeQuarter {
+    color: #bdc3c7;
+  }
+
+  &--half::after,
+  &--quarter::after,
+  &--threeQuarter::after {
+    content: "★";
+    position: absolute;
+    left: 0;
+    top: 0;
     color: #f1c40f;
-    opacity: 0.8;
+    overflow: hidden;
+  }
+
+  &--half::after {
+    clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+  }
+
+  &--quarter::after {
+    clip-path: polygon(0 0, 25% 0, 25% 100%, 0 100%);
+  }
+
+  &--threeQuarter::after {
+    clip-path: polygon(0 0, 75% 0, 75% 100%, 0 100%);
   }
 }
 

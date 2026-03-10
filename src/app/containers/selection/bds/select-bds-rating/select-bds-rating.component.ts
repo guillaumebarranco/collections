@@ -7,7 +7,7 @@ import { SelectEntitiesComponent } from '../../select-base.component';
 import { getApiBaseUrl } from '../../../../core/config';
 
 import { StarInfo } from '../../../../models/various-model';
-import { getRatingStars, ratingOptions } from '../../../../utils/constants';
+import { getRatingStars, ratingOptionsSelectPages } from '../../../../utils/constants';
 
 @Component({
   selector: 'app-select-bds-rating',
@@ -30,7 +30,7 @@ export class SelectBdsRatingComponent
 
   bdsRatings = signal<Map<string, number>>(new Map());
 
-  readonly ratingOptions = ratingOptions;
+  readonly ratingOptions = ratingOptionsSelectPages;
 
   private getBdKey(bd: Bd): string {
     return `${bd.title}-${bd.writer}`;

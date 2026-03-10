@@ -6,7 +6,7 @@ import { getComicsByUser } from '../../../../facades/comics/comics.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { getApiBaseUrl } from '../../../../core/config';
 import { StarInfo } from '../../../../models/various-model';
-import { getRatingStars, ratingOptions } from '../../../../utils/constants';
+import { getRatingStars, ratingOptionsSelectPages } from '../../../../utils/constants';
 
 @Component({
   selector: 'app-select-comics-rating',
@@ -32,7 +32,7 @@ export class SelectComicsRatingComponent
 
   comicsRatings = signal<Map<string, number>>(new Map());
 
-  readonly ratingOptions = ratingOptions;
+  readonly ratingOptions = ratingOptionsSelectPages;
 
   private getComicKey(comic: Comic): string {
     return `${comic.title}-${comic.writer}`;

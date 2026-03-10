@@ -5,7 +5,7 @@ import { Serie } from '../../../../models/serie-model';
 import { getSeriesByUser } from '../../../../facades/series/series.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { getApiBaseUrl } from '../../../../core/config';
-import { ratingOptions } from '../../../../utils/constants';
+import { ratingOptionsSelectPages } from '../../../../utils/constants';
 
 @Component({
   selector: 'app-select-series-rating',
@@ -31,7 +31,7 @@ export class SelectSeriesRatingComponent
 
   seriesSeasons = signal<Map<string, Serie['seasons']>>(new Map());
 
-  readonly ratingOptions = ratingOptions;
+  readonly ratingOptions = ratingOptionsSelectPages;
 
   private getSerieKey(serie: Serie): string {
     return `${serie.title}-${serie.director}`;

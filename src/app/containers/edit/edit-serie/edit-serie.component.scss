@@ -49,6 +49,11 @@
   display: flex;
   align-items: center;
   gap: 6px;
+
+  .rating-input {
+    width: 56px;
+    box-sizing: border-box;
+  }
 }
 
 .star-btn {

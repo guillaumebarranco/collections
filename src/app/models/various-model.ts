@@ -1,4 +1,4 @@
 export interface StarInfo {
-  type: 'full' | 'half' | 'empty';
+  type: 'full' | 'threeQuarter' | 'half' | 'quarter' | 'empty';
   value: number;
 }

@@ -6,7 +6,7 @@ import { getMusicsByUser } from '../../../../facades/musics/musics.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { getApiBaseUrl } from '../../../../core/config';
 import { StarInfo } from '../../../../models/various-model';
-import { getRatingStars, ratingOptions } from '../../../../utils/constants';
+import { getRatingStars, ratingOptionsSelectPages } from '../../../../utils/constants';
 
 @Component({
   selector: 'app-select-musics-rating',
@@ -32,7 +32,7 @@ export class SelectMusicsRatingComponent
 
   musicsRatings = signal<Map<string, number>>(new Map());
 
-  readonly ratingOptions = ratingOptions;
+  readonly ratingOptions = ratingOptionsSelectPages;
 
   private getMusicKey(music: Music): string {
     return `${music.title}-${music.artist}`;
