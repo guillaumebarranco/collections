@@ -832,19 +832,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Paranormal Activity',
-    director: 'Oren Peli',
-    actors: [{ name: 'Katie Featherston' }],
-    coverUrl: '/movies_pictures/paranormal_activity.jpg',
-    releaseDate: '2007-10-14',
-    length: 86,
-    genre: 'Horror',
-    saga: 'Paranormal Activity',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Gone Baby Gone',
     director: 'Ben Affleck',

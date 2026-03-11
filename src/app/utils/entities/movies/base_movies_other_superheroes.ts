@@ -546,4 +546,27 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
+  {
+    title: 'Les Nouveaux Mutants',
+    director: 'Josh Boone',
+    actors: [
+      {
+        name: 'Maisie Williams',
+      },
+      {
+        name: 'Anya Taylor-Joy',
+      },
+      {
+        name: 'Charlie Heaton',
+      },
+    ],
+    coverUrl: '/movies_pictures/les_nouveaux_mutants.jpg',
+    releaseDate: '2020-08-26',
+    length: 94,
+    genre: 'Action',
+    saga: 'X-Men',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
 ];

@@ -30,64 +30,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Avatar : De feu et de cendres',
-    director: 'James Cameron',
-    actors: [
-      {
-        name: 'Sam Worthington',
-      },
-      {
-        name: 'Zoe Saldana',
-      },
-      {
-        name: 'Sigourney Weaver',
-      },
-      {
-        name: 'Stephen Lang',
-      },
-      {
-        name: 'Kate Winslet',
-      },
-    ],
-    coverUrl: '/movies_pictures/avatar_de_feu_et_de_cendres.jpg',
-    releaseDate: '2025-12-17',
-    length: 195,
-    genre: 'Science Fiction',
-    saga: 'Avatar',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Zootopie 2',
-    director: 'Jared Bush, Byron Howard',
-    actors: [
-      {
-        name: 'Ginnifer Goodwin',
-      },
-      {
-        name: 'Jason Bateman',
-      },
-      {
-        name: 'Shakira',
-      },
-      {
-        name: 'Idris Elba',
-      },
-      {
-        name: 'Alan Tudyk',
-      },
-    ],
-    coverUrl: '/movies_pictures/zootopie_2.jpg',
-    releaseDate: '2025-11-26',
-    length: 108,
-    genre: 'Animation',
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Wicked: For Good',
     director: 'Jon M. Chu',
@@ -146,38 +89,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Insaisissables 3',
-    director: 'Ruben Fleischer',
-    actors: [
-      {
-        name: 'Ginnifer Goodwin',
-      },
-      {
-        name: 'Jason Bateman',
-      },
-      {
-        name: 'Shakira',
-      },
-      {
-        name: 'Idris Elba',
-      },
-      {
-        name: 'Alan Tudyk',
-      },
-      {
-        name: 'Morgan Freeman',
-      },
-    ],
-    coverUrl: '/movies_pictures/insaisissables_3.jpg',
-    releaseDate: '2025-11-12',
-    length: 113,
-    genre: 'Thriller',
-    saga: 'Insaisissable',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'TRON : Ares',
     director: 'Joachim Rønning',
@@ -242,41 +154,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: "Conjuring : L'Heure du jugement",
-    director: 'Michael Chaves',
-    actors: [
-      {
-        name: 'Jared Leto',
-      },
-      {
-        name: 'Greta Lee',
-      },
-      {
-        name: 'Evan Peters',
-      },
-      {
-        name: 'Jodie Turner-Smith',
-      },
-      {
-        name: 'Hasan Minhaj',
-      },
-      {
-        name: 'Gillian Anderson',
-      },
-      {
-        name: 'Jeff Bridges',
-      },
-    ],
-    coverUrl: '/movies_pictures/conjuring_l_heure_du_jugement.jpg',
-    releaseDate: '2025-09-10',
-    length: 135,
-    genre: 'Horreur',
-    saga: 'Conjuring',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Smashing Machine',
     director: 'Benny Safdie',
@@ -431,38 +309,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Jurassic World : Renaissance',
-    director: 'Gareth Edwards',
-    actors: [
-      {
-        name: 'Margot Robbie',
-      },
-      {
-        name: 'Colin Farrell',
-      },
-      {
-        name: 'Kevin Kline',
-      },
-      {
-        name: 'Phoebe Waller-Bridge',
-      },
-      {
-        name: 'Jodie Turner-Smith',
-      },
-      {
-        name: 'Scarlett Johansson',
-      },
-    ],
-    coverUrl: '/movies_pictures/jurassic_world_renaissance.jpg',
-    releaseDate: '2025-07-04',
-    length: 134,
-    genre: 'Action',
-    saga: 'Jurassic',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'F1',
     director: 'Joseph Kosinski',
@@ -2455,35 +2302,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Nimona',
-    director: 'Nick Bruno, Troy Quane',
-    actors: [
-      {
-        name: 'Chloë Grace Moretz',
-      },
-      {
-        name: 'Riz Ahmed',
-      },
-      {
-        name: 'Eugene Lee Yang',
-      },
-      {
-        name: 'Frances Conroy',
-      },
-      {
-        name: 'Beck Bennett',
-      },
-    ],
-    coverUrl: '/movies_pictures/nimona.jpg',
-    releaseDate: '2023-06-30',
-    length: 101,
-    genre: 'Animation',
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Extraction 2',
     director: 'Sam Hargrave',
@@ -2536,35 +2355,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'France',
   },
-  {
-    title: 'Transformers: Rise of the Beasts',
-    director: 'Steven Caple Jr.',
-    actors: [
-      {
-        name: 'Anthony Ramos',
-      },
-      {
-        name: 'Dominique Fishback',
-      },
-      {
-        name: 'Luna Lauren Velez',
-      },
-      {
-        name: 'Dean Scott Vazquez',
-      },
-      {
-        name: 'Peter Cullen',
-      },
-    ],
-    coverUrl: '/movies_pictures/transformers_rise_of_the_beasts.jpg',
-    releaseDate: '2023-01-01',
-    length: 117,
-    genre: '',
-    saga: 'Transformers',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Killers of the Flower Moon',
     director: 'Martin Scorsese',
@@ -2588,35 +2379,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Indiana Jones and the Dial of Destiny',
-    director: 'James Mangold',
-    actors: [
-      {
-        name: 'Harrison Ford',
-      },
-      {
-        name: 'Phoebe Waller-Bridge',
-      },
-      {
-        name: 'Mads Mikkelsen',
-      },
-      {
-        name: 'Antonio Banderas',
-      },
-      {
-        name: 'John Rhys-Davies',
-      },
-    ],
-    coverUrl: '/movies_pictures/indiana_jones_and_the_dial_of_destiny.jpg',
-    releaseDate: '2023-01-01',
-    length: 154,
-    genre: 'Fantastique',
-    saga: 'Indiana Jones',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'AKA',
     director: 'Morgan S. Dalibert',
@@ -3086,29 +2849,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: "Jurassic World : Le Monde d'après",
-    director: 'Colin Trevorrow',
-    actors: [
-      {
-        name: 'Chris Pratt',
-      },
-      {
-        name: 'Bryce Dallas Howard',
-      },
-      {
-        name: 'Laura Dern',
-      },
-    ],
-    coverUrl: '/movies_pictures/jurassic_world_le_monde_dapres.jpg',
-    releaseDate: '2022-06-08',
-    length: 146,
-    genre: 'Action',
-    saga: 'Jurassic',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'The Night of the 12th',
     director: 'Dominik Moll',
@@ -3206,29 +2947,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
 
-  {
-    title: 'The Matrix Resurrections',
-    director: 'Lana Wachowski',
-    actors: [
-      {
-        name: 'Keanu Reeves',
-      },
-      {
-        name: 'Carrie-Anne Moss',
-      },
-      {
-        name: 'Yahya Abdul-Mateen II',
-      },
-    ],
-    coverUrl: '/movies_pictures/the_matrix_resurrections.jpg',
-    releaseDate: '2021-01-01',
-    length: 148,
-    genre: '',
-    saga: 'Matrix',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
   {
     title: 'Super-héros malgré lui',
     director: 'Philippe Lacheau',
@@ -3462,29 +3180,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: "Conjuring : Sous l'emprise du diable",
-    director: 'Michael Chaves',
-    actors: [
-      {
-        name: 'Patrick Wilson',
-      },
-      {
-        name: 'Vera Farmiga',
-      },
-      {
-        name: "Ruairi O'Connor",
-      },
-    ],
-    coverUrl: '/movies_pictures/conjuring_sous_lemprise_du_diable.jpg',
-    releaseDate: '2021-06-09',
-    length: 112,
-    genre: 'Horreur',
-    saga: 'Conjuring',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'The Woman in the Window',
     director: 'Joe Wright',
@@ -3643,29 +3339,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Soul',
-    director: 'Pete Docter, Kemp Powers',
-    actors: [
-      {
-        name: 'Jamie Foxx',
-      },
-      {
-        name: 'Tina Fey',
-      },
-      {
-        name: 'Graham Norton',
-      },
-    ],
-    coverUrl: '/movies_pictures/soul.jpg',
-    releaseDate: '2020-12-25',
-    length: 100,
-    genre: 'Animation',
-    saga: 'Pixar',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Lost Bullet',
     director: 'Guillaume Pierret',
@@ -3735,29 +3409,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Les Nouveaux Mutants',
-    director: 'Josh Boone',
-    actors: [
-      {
-        name: 'Maisie Williams',
-      },
-      {
-        name: 'Anya Taylor-Joy',
-      },
-      {
-        name: 'Charlie Heaton',
-      },
-    ],
-    coverUrl: '/movies_pictures/les_nouveaux_mutants.jpg',
-    releaseDate: '2020-08-26',
-    length: 94,
-    genre: 'Action',
-    saga: 'X-Men',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Sans un bruit 2',
     director: 'John Krasinski',
@@ -3851,29 +3503,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
 
-  {
-    title: 'Bad Boys for Life',
-    director: 'Adil El Arbi, Bilall Fallah',
-    actors: [
-      {
-        name: 'Will Smith',
-      },
-      {
-        name: 'Martin Lawrence',
-      },
-      {
-        name: 'Vanessa Hudgens',
-      },
-    ],
-    coverUrl: '/movies_pictures/bad_boys_for_life.jpg',
-    releaseDate: '2020-01-22',
-    length: 124,
-    genre: 'Action',
-    saga: 'Bad Boys',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
   {
     title: 'Jumanji: Next Level',
     director: 'Jake Kasdan',
@@ -4269,29 +3898,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     },
     countryOrigin: 'France',
   },
-  {
-    title: 'Bumblebee',
-    director: 'Travis Knight',
-    actors: [
-      {
-        name: 'Hailee Steinfeld',
-      },
-      {
-        name: 'John Cena',
-      },
-      {
-        name: 'Jorge Lendeborg Jr.',
-      },
-    ],
-    coverUrl: '/movies_pictures/bumblebee.jpg',
-    releaseDate: '2018-12-26',
-    length: 114,
-    genre: 'Action',
-    saga: 'Transformers',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Le Grinch',
     director: 'Yarrow Cheney, Scott Mosier',
@@ -4920,29 +4527,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Transformers: The Last Knight',
-    director: 'Michael Bay',
-    actors: [
-      {
-        name: 'Mark Wahlberg',
-      },
-      {
-        name: 'Anthony Hopkins',
-      },
-      {
-        name: 'Laura Haddock',
-      },
-    ],
-    coverUrl: '/movies_pictures/transformers_the_last_knight.jpg',
-    releaseDate: '2017-06-28',
-    length: 154,
-    genre: 'Action',
-    saga: 'Transformers',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Good Time',
     director: 'Josh Safdie, Benny Safdie',
@@ -5250,29 +4835,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Les Trolls',
-    director: 'Mike Mitchell, Walt Dohrn',
-    actors: [
-      {
-        name: 'Anna Kendrick',
-      },
-      {
-        name: 'Justin Timberlake',
-      },
-      {
-        name: 'Zooey Deschanel',
-      },
-    ],
-    coverUrl: '/movies_pictures/trolls.jpg',
-    releaseDate: '2016-10-19',
-    length: 92,
-    genre: 'Animation',
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Sing',
     director: 'Garth Jennings',
@@ -5342,32 +4905,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Star Trek : Sans limites',
-    director: 'Justin Lin',
-    actors: [
-      {
-        name: 'Chris Pine',
-      },
-      {
-        name: 'Zachary Quinto',
-      },
-      {
-        name: 'Karl Urban',
-      },
-      {
-        name: 'Zoe Saldana',
-      },
-    ],
-    coverUrl: '/movies_pictures/star_trek_beyond.jpg',
-    releaseDate: '2016-08-17',
-    length: 123,
-    genre: 'Science Fiction',
-    saga: 'Star Trek',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'American Nightmare 3 : Élections',
     director: 'James DeMonaco',
@@ -5484,29 +5022,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'Corée du Sud',
   },
-  {
-    title: 'Conjuring 2 : Le Cas Enfield',
-    director: 'James Wan',
-    actors: [
-      {
-        name: 'Patrick Wilson',
-      },
-      {
-        name: 'Vera Farmiga',
-      },
-      {
-        name: "Frances O'Connor",
-      },
-    ],
-    coverUrl: '/movies_pictures/the_conjuring_2.jpg',
-    releaseDate: '2016-06-29',
-    length: 134,
-    genre: 'Horreur',
-    saga: 'Conjuring',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Money Monster',
     director: 'Jodie Foster',
@@ -5662,29 +5178,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Ip Man 3',
-    director: 'Wilson Yip',
-    actors: [
-      {
-        name: 'Donnie Yen',
-      },
-      {
-        name: 'Mike Tyson',
-      },
-      {
-        name: 'Zhang Jin',
-      },
-    ],
-    coverUrl: '/movies_pictures/ip_man_3.jpg',
-    releaseDate: '2015-12-24',
-    length: 105,
-    genre: 'Action',
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Les Huit Salopards',
     director: 'Quentin Tarantino',
@@ -5800,29 +5294,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Paranormal Activity 5 : Ghost Dimension',
-    director: 'Gregory Plotkin',
-    actors: [
-      {
-        name: 'Chris J. Murray',
-      },
-      {
-        name: 'Brit Shaw',
-      },
-      {
-        name: 'Ivy George',
-      },
-    ],
-    coverUrl: '/movies_pictures/paranormal_activity_the_ghost_dimension.jpg',
-    releaseDate: '2015-10-21',
-    length: 88,
-    genre: 'Horreur',
-    saga: 'Paranormal Activity',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Ted 2',
     director: 'Seth MacFarlane',
@@ -5964,29 +5436,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: "Dragon Ball Z : La Résurrection de 'F'",
-    director: 'Tadayoshi Yamamuro',
-    actors: [
-      {
-        name: 'Masako Nozawa',
-      },
-      {
-        name: 'Ryo Horikawa',
-      },
-      {
-        name: 'Toshio Furukawa',
-      },
-    ],
-    coverUrl: '/movies_pictures/dragon_ball_z_resurrection_f.jpg',
-    releaseDate: '2015-09-11',
-    length: 94,
-    genre: 'Animation',
-    saga: 'Dragon Ball',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
+
   {
     title: 'Éternelle Adaline',
     director: 'Lee Toland Krieger',
@@ -6547,29 +5997,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Paranormal Activity: The Marked Ones',
-    director: 'Christopher Landon',
-    actors: [
-      {
-        name: 'Andrew Jacobs',
-      },
-      {
-        name: 'Jorge Diaz',
-      },
-      {
-        name: 'Gabrielle Walsh',
-      },
-    ],
-    coverUrl: '/movies_pictures/paranormal_activity_the_marked_ones.jpg',
-    releaseDate: '2014-01-01',
-    length: 84,
-    genre: 'Horreur',
-    saga: 'Paranormal Activity',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
 
   {
     title: 'Les Brasiers de la colère',
@@ -6880,32 +6307,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Star Trek Into Darkness',
-    director: 'J.J. Abrams',
-    actors: [
-      {
-        name: 'Chris Pine',
-      },
-      {
-        name: 'Zachary Quinto',
-      },
-      {
-        name: 'Benedict Cumberbatch',
-      },
-      {
-        name: 'Zoe Saldana',
-      },
-    ],
-    coverUrl: '/movies_pictures/star_trek_into_darkness.jpg',
-    releaseDate: '2013-06-12',
-    length: 130,
-    genre: 'Science Fiction',
-    saga: 'Star Trek',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Gatsby le Magnifique',
     director: 'Baz Luhrmann',
@@ -6926,19 +6328,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Dragon Ball Z: Battle of Gods',
-    director: 'Masahiro Hosoda',
-    actors: [],
-    coverUrl: '/movies_pictures/dragon_ball_z_battle_of_gods.jpg',
-    releaseDate: '2015-02-11',
-    length: 85,
-    genre: 'Animation',
-    saga: 'Dragon Ball',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
+
   {
     title: 'G.I. Joe : Conspiration',
     director: 'Jon M. Chu',
@@ -7123,29 +6513,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'France',
   },
-  {
-    title: 'Paranormal Activity 4',
-    director: 'Henry Joost, Ariel Schulman',
-    actors: [
-      {
-        name: 'Kathryn Newton',
-      },
-      {
-        name: 'Matt Shively',
-      },
-      {
-        name: 'Aiden Lovekamp',
-      },
-    ],
-    coverUrl: '/movies_pictures/paranormal_activity_4.jpg',
-    releaseDate: '2012-10-31',
-    length: 95,
-    genre: 'Horreur',
-    saga: 'Paranormal Activity',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Le Monde de Charlie',
     director: 'Stephen Chbosky',
@@ -7491,29 +6859,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Paranormal Activity 3',
-    director: 'Henry Joost, Ariel Schulman',
-    actors: [
-      {
-        name: 'Christopher Nicholas Smith',
-      },
-      {
-        name: 'Lauren Bittner',
-      },
-      {
-        name: 'Chloe Csengery',
-      },
-    ],
-    coverUrl: '/movies_pictures/paranormal_activity_3.jpg',
-    releaseDate: '2011-10-19',
-    length: 84,
-    genre: 'Horreur',
-    saga: 'Paranormal Activity',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Un monstre à Paris',
     director: 'Bibo Bergeron',
@@ -7718,29 +7064,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Paranormal Activity 2',
-    director: 'Tod Williams',
-    actors: [
-      {
-        name: 'Katie Featherston',
-      },
-      {
-        name: 'Micah Sloat',
-      },
-      {
-        name: 'Sprague Grayden',
-      },
-    ],
-    coverUrl: '/movies_pictures/paranormal_activity_2.jpg',
-    releaseDate: '2010-10-20',
-    length: 91,
-    genre: 'Horreur',
-    saga: 'Paranormal Activity',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Superman/Batman : Apocalypse',
     director: 'Lauren Montgomery',
@@ -7971,29 +7295,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Ip Man 2 : Le Retour du grand maître',
-    director: 'Wilson Yip',
-    actors: [
-      {
-        name: 'Donnie Yen',
-      },
-      {
-        name: 'Sammo Hung',
-      },
-      {
-        name: 'Simon Yam',
-      },
-    ],
-    coverUrl: '/movies_pictures/ip_man_2.jpg',
-    releaseDate: '2011-08-09',
-    length: 108,
-    genre: 'Action',
-    saga: 'Ip Man',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Nanny McPhee et le Big Bang',
     director: 'Susanna White',
@@ -8189,52 +7491,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Star Trek',
-    director: 'J.J. Abrams',
-    actors: [
-      {
-        name: 'Chris Pine',
-      },
-      {
-        name: 'Zachary Quinto',
-      },
-      {
-        name: 'Zoe Saldana',
-      },
-    ],
-    coverUrl: '/movies_pictures/star_trek.jpg',
-    releaseDate: '2009-05-06',
-    length: 127,
-    genre: 'Science Fiction',
-    saga: 'Star Trek',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Ip Man',
-    director: 'Wilson Yip',
-    actors: [
-      {
-        name: 'Donnie Yen',
-      },
-      {
-        name: 'Simon Yam',
-      },
-      {
-        name: 'Lynn Hung',
-      },
-    ],
-    coverUrl: '/movies_pictures/ip_man.jpg',
-    releaseDate: '2010-10-05',
-    length: 106,
-    genre: 'Action',
-    saga: 'Ip Man',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Saw V',
     director: 'David Hackl',
@@ -8281,30 +7538,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Indiana Jones et le Royaume du crâne de cristal',
-    director: 'Steven Spielberg',
-    actors: [
-      {
-        name: 'Harrison Ford',
-      },
-      {
-        name: 'Shia LaBeouf',
-      },
-      {
-        name: 'Cate Blanchett',
-      },
-    ],
-    coverUrl:
-      '/movies_pictures/indiana_jones_and_the_kingdom_of_the_crystal_skull.jpg',
-    releaseDate: '2008-05-21',
-    length: 123,
-    genre: 'Aventure',
-    saga: 'Indiana Jones',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Les Chroniques de Spiderwick',
     director: 'Mark Waters',
@@ -8834,35 +8068,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title:
-      "Le Monde de Narnia : Le Lion, la Sorcière Blanche et l'Armoire Magique",
-    director: 'Andrew Adamson',
-    actors: [
-      {
-        name: 'Georgie Henley',
-      },
-      {
-        name: 'Skandar Keynes',
-      },
-      {
-        name: 'Tilda Swinton',
-      },
-    ],
-    coverUrl:
-      '/movies_pictures/the_chronicles_of_narnia_the_lion_the_witch_and_th.jpg',
-    releaseDate: '2005-12-21',
-    length: 140,
-    genre: 'Fantastique',
-    saga: '',
-    description: '',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Le Monde de Narnia (Tome 1) Le Neveu du Magicien',
-      secondEntityKey: 'C.S. Lewis',
-    },
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Saw II',
     director: 'Darren Lynn Bousman',
@@ -10079,29 +9285,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: "Dragon Ball Z : L'Attaque du dragon",
-    director: 'Mitsuo Hashimoto',
-    actors: [
-      {
-        name: 'Masako Nozawa',
-      },
-      {
-        name: 'Takeshi Kusao',
-      },
-      {
-        name: 'Mayumi Tanaka',
-      },
-    ],
-    coverUrl: '/movies_pictures/dragon_ball_z_wrath_of_the_dragon.jpg',
-    releaseDate: '1995-10-31',
-    length: 51,
-    genre: 'Animation',
-    saga: 'Dragon Ball',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
+
   {
     title: 'Lancelot, le premier chevalier',
     director: 'Jerry Zucker',
@@ -10125,29 +9309,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Dragon Ball Z : Fusions',
-    director: 'Shigeyasu Yamauchi',
-    actors: [
-      {
-        name: 'Masako Nozawa',
-      },
-      {
-        name: 'Ryô Horikawa',
-      },
-      {
-        name: 'Takeshi Kusao',
-      },
-    ],
-    coverUrl: '/movies_pictures/dragon_ball_z_fusion_reborn.jpg',
-    releaseDate: '1995-03-04',
-    length: 51,
-    genre: 'Animation',
-    saga: 'Dragon Ball',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
+
   {
     title: 'Astérix et les Indiens',
     director: 'Gerhard Hahn',
@@ -10171,29 +9333,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'France',
   },
-  {
-    title: 'Dragon Ball Z : Bio-Broly',
-    director: 'Yoshihiro Ueda',
-    actors: [
-      {
-        name: 'Masako Nozawa',
-      },
-      {
-        name: 'Takeshi Kusao',
-      },
-      {
-        name: 'Daisuke Gôri',
-      },
-    ],
-    coverUrl: '/movies_pictures/dragon_ball_z_bio_broly.jpg',
-    releaseDate: '1994-07-09',
-    length: 46,
-    genre: 'Animation',
-    saga: 'Dragon Ball',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
+
   {
     title: 'The Crow',
     director: 'Alex Proyas',
@@ -10217,29 +9357,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Dragon Ball Z : Rivaux dangereux',
-    director: 'Shigeyasu Yamauchi',
-    actors: [
-      {
-        name: 'Masako Nozawa',
-      },
-      {
-        name: 'Takeshi Kusao',
-      },
-      {
-        name: 'Yūko Minaguchi',
-      },
-    ],
-    coverUrl: '/movies_pictures/dragon_ball_z_broly_second_coming.jpg',
-    releaseDate: '1994-03-12',
-    length: 52,
-    genre: 'Animation',
-    saga: 'Dragon Ball',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
+
   {
     title: 'Sister Act, acte 2',
     director: 'Bill Duke',
@@ -10286,29 +9404,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Dragon Ball Z: Bojack Unbound',
-    director: 'Yoshihiro Ueda',
-    actors: [
-      {
-        name: 'Masako Nozawa',
-      },
-      {
-        name: 'Tesshō Genda',
-      },
-      {
-        name: 'Ryō Horikawa',
-      },
-    ],
-    coverUrl: '/movies_pictures/dragon_ball_z_bojack_unbound.jpg',
-    releaseDate: '1993-07-10',
-    length: 51,
-    genre: 'Animation',
-    saga: 'Dragon Ball',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
+
   {
     title: 'Les Tortues Ninja 3',
     director: 'Stuart Gillard',
@@ -10332,53 +9428,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Dragon Ball Z : Broly le super guerrier',
-    director: 'Shigeyasu Yamauchi',
-    actors: [
-      {
-        name: 'Bin Shimada',
-      },
-      {
-        name: 'Masako Nozawa',
-      },
-      {
-        name: 'Ryō Horikawa',
-      },
-    ],
-    coverUrl:
-      '/movies_pictures/dragon_ball_z_broly_the_legendary_super_saiyan.jpg',
-    releaseDate: '1993-03-06',
-    length: 72,
-    genre: 'Animation',
-    saga: 'Dragon Ball',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
-  {
-    title: "Dragon Ball Z : L'Histoire de Trunks",
-    director: 'Yoshihiro Ueda',
-    actors: [
-      {
-        name: 'Takeshi Kusao',
-      },
-      {
-        name: 'Masako Nozawa',
-      },
-      {
-        name: 'Hiromi Tsuru',
-      },
-    ],
-    coverUrl: '/movies_pictures/dragon_ball_z_the_history_of_trunks.jpg',
-    releaseDate: '1995-03-22',
-    length: 47,
-    genre: 'Animation',
-    saga: 'Dragon Ball',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
+
   {
     title: 'Bodyguard',
     director: 'Mick Jackson',
@@ -10452,29 +9502,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: "Dragon Ball Z : L'Offensive des cyborgs",
-    director: 'Kazuhito Kikuchi',
-    actors: [
-      {
-        name: 'Masako Nozawa',
-      },
-      {
-        name: 'Ryō Horikawa',
-      },
-      {
-        name: 'Takeshi Kusao',
-      },
-    ],
-    coverUrl: '/movies_pictures/dragon_ball_z_super_android_13.jpg',
-    releaseDate: '1992-07-11',
-    length: 46,
-    genre: 'Animation',
-    saga: 'Dragon Ball',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
+
   {
     title: 'Sister Act',
     director: 'Emile Ardolino',
@@ -10498,52 +9526,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Dragon Ball Z : Cent Mille Guerriers de métal',
-    director: 'Daisuke Nishio',
-    actors: [
-      {
-        name: 'Masako Nozawa',
-      },
-      {
-        name: 'Ryô Horikawa',
-      },
-      {
-        name: 'Toshio Furukawa',
-      },
-    ],
-    coverUrl: '/movies_pictures/dragon_ball_z_the_return_of_cooler.jpg',
-    releaseDate: '1992-03-07',
-    length: 44,
-    genre: 'Animation',
-    saga: 'Dragon Ball',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
-  {
-    title: 'Dragon Ball Z : La Revanche de Cooler',
-    director: 'Mitsuo Hashimoto',
-    actors: [
-      {
-        name: 'Masako Nozawa',
-      },
-      {
-        name: 'Ryūsei Nakao',
-      },
-      {
-        name: 'Toshio Furukawa',
-      },
-    ],
-    coverUrl: '/movies_pictures/dragon_ball_z_cooler_s_revenge.jpg',
-    releaseDate: '1994-12-01',
-    length: 48,
-    genre: 'Animation',
-    saga: 'Dragon Ball',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
+
   {
     title: 'Thelma et Louise',
     director: 'Ridley Scott',
@@ -10591,101 +9574,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Dragon Ball : Salut ! Son Goku et ses amis sont de retour !!',
-    director: ' Yoshihiro Ueda',
-    actors: [
-      {
-        name: 'Masako Nozawa',
-      },
-      {
-        name: 'Ryō Horikawa',
-      },
-      {
-        name: 'Mayumi Tanaka',
-      },
-      {
-        name: 'Toshio Furukawa',
-      },
-    ],
-    coverUrl: '/movies_pictures/fa9c940df3c7.jpg',
-    releaseDate: '2008-09-21',
-    length: 35,
-    genre: 'Anime',
-    saga: 'Dragon Ball',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
-  {
-    title: 'Dragon Ball Z : La Menace de Namek',
-    director: 'Mitsuo Hashimoto',
-    actors: [
-      {
-        name: 'Masako Nozawa',
-      },
-      {
-        name: 'Toshio Furukawa',
-      },
-      {
-        name: 'Mayumi Tanaka',
-      },
-    ],
-    coverUrl: '/movies_pictures/dragon_ball_z_lord_slug.jpg',
-    releaseDate: '1994-09-01',
-    length: 52,
-    genre: 'Animation',
-    saga: 'Dragon Ball',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
-  {
-    title: 'Dragon Ball Z : Le Père de Sangoku',
-    director: 'Mitsuo Hashimoto',
-    actors: [
-      {
-        name: 'Masako Nozawa',
-      },
-      {
-        name: 'Ryûsei Nakao',
-      },
-      {
-        name: 'Shō Hayami',
-      },
-    ],
-    coverUrl: '/movies_pictures/dragon_ball_z_bardock_the_father_of_goku.jpg',
-    releaseDate: '1990-10-17',
-    length: 48,
-    genre: 'Animation',
-    saga: 'Dragon Ball',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
-  {
-    title: 'Dragon Ball Z: The Tree of Might',
-    director: 'Daisuke Nishio',
-    actors: [
-      {
-        name: 'Masako Nozawa',
-      },
-      {
-        name: 'Mayumi Tanaka',
-      },
-      {
-        name: 'Tōru Furuya',
-      },
-    ],
-    coverUrl: '/movies_pictures/dragon_ball_z_the_tree_of_might.jpg',
-    releaseDate: '1990-07-07',
-    length: 61,
-    genre: 'Animation',
-    saga: 'Dragon Ball',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
+
   {
     title: 'Les Tortues Ninja',
     director: 'Steve Barron',
@@ -10709,73 +9598,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Dragon Ball Z : Le Robot des glaces',
-    director: 'Daisuke Nishio',
-    actors: [
-      {
-        name: 'Masako Nozawa',
-      },
-      {
-        name: 'Toshio Furukawa',
-      },
-      {
-        name: 'Hiromi Tsuru',
-      },
-    ],
-    coverUrl: '/movies_pictures/dragon_ball_z_the_world_s_strongest.jpg',
-    releaseDate: '1994-10-17',
-    length: 59,
-    genre: 'Animation',
-    saga: 'Dragon Ball',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
-  {
-    title: 'Dragon Ball Z : À la poursuite de Garlic',
-    director: 'Daisuke Nishio',
-    actors: [
-      {
-        name: 'Masako Nozawa',
-      },
-      {
-        name: 'Toshio Furukawa',
-      },
-      {
-        name: 'Mayumi Tanaka',
-      },
-    ],
-    coverUrl: '/movies_pictures/dragon_ball_z_dead_zone.jpg',
-    releaseDate: '1989-07-15',
-    length: 41,
-    genre: 'Animation',
-    saga: 'Dragon Ball',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
 
-  {
-    title: 'Indiana Jones et la Dernière Croisade',
-    director: 'Steven Spielberg',
-    actors: [
-      {
-        name: 'Harrison Ford',
-      },
-      {
-        name: 'Sean Connery',
-      },
-    ],
-    coverUrl: '/movies_pictures/indiana_jones_and_the_last_crusade.jpg',
-    releaseDate: '1989-10-18',
-    length: 127,
-    genre: 'Aventure',
-    saga: 'Indiana Jones',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
   {
     title: 'Rain Man',
     director: 'Barry Levinson',
@@ -10799,29 +9622,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Akira',
-    director: 'Katsuhiro Ōtomo',
-    actors: [
-      {
-        name: 'Mitsuo Iwata',
-      },
-      {
-        name: 'Nozomu Sasaki',
-      },
-      {
-        name: 'Mami Koyama',
-      },
-    ],
-    coverUrl: '/movies_pictures/akira.jpg',
-    releaseDate: '1991-05-08',
-    length: 124,
-    genre: 'Science Fiction',
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
+
   {
     title: 'Big',
     director: 'Penny Marshall',
@@ -10868,29 +9669,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Superman IV : Le Face-à-face',
-    director: 'Sidney J. Furie',
-    actors: [
-      {
-        name: 'Noriko Hidaka',
-      },
-      {
-        name: 'Chika Sakamoto',
-      },
-      {
-        name: 'Hitoshi Takagi',
-      },
-    ],
-    coverUrl: '/movies_pictures/superman_iv_the_quest_for_peace.jpg',
-    releaseDate: '1987-10-28',
-    length: 90,
-    genre: 'Action',
-    saga: 'Superman',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Full Metal Jacket',
     director: 'Stanley Kubrick',
@@ -10983,29 +9762,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Top Gun',
-    director: 'Tony Scott',
-    actors: [
-      {
-        name: 'Tom Cruise',
-      },
-      {
-        name: 'Kelly McGillis',
-      },
-      {
-        name: 'Val Kilmer',
-      },
-    ],
-    coverUrl: '/movies_pictures/top_gun.jpg',
-    releaseDate: '1986-09-17',
-    length: 110,
-    genre: 'Action',
-    saga: 'Top Gun',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Les Goonies',
     director: 'Richard Donner',
@@ -11076,26 +9833,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
 
-  {
-    title: 'Indiana Jones et le Temple maudit',
-    director: 'Steven Spielberg',
-    actors: [
-      {
-        name: 'Harrison Ford',
-      },
-      {
-        name: 'Kate Capshaw',
-      },
-    ],
-    coverUrl: '/movies_pictures/indiana_jones_and_the_temple_of_doom.jpg',
-    releaseDate: '1984-09-12',
-    length: 118,
-    genre: 'Aventure',
-    saga: 'Indiana Jones',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
   {
     title: "L'Histoire sans fin",
     director: 'Wolfgang Petersen',
@@ -11188,29 +9925,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: "Les Aventuriers de l'Arche perdue",
-    director: 'Steven Spielberg',
-    actors: [
-      {
-        name: 'Harrison Ford',
-      },
-      {
-        name: 'Karen Allen',
-      },
-      {
-        name: 'Paul Freeman',
-      },
-    ],
-    coverUrl: '/movies_pictures/raiders_of_the_lost_ark.jpg',
-    releaseDate: '1981-09-16',
-    length: 116,
-    genre: 'Aventure',
-    saga: 'Indiana Jones',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Les Dents de la mer, 2ᵉ partie',
     director: 'Jeannot Szwarc',

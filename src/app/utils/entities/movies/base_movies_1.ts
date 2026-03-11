@@ -339,6 +339,29 @@ export const baseMoviesPage1: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
+    title: 'Top Gun',
+    director: 'Tony Scott',
+    actors: [
+      {
+        name: 'Tom Cruise',
+      },
+      {
+        name: 'Kelly McGillis',
+      },
+      {
+        name: 'Val Kilmer',
+      },
+    ],
+    coverUrl: '/movies_pictures/top_gun.jpg',
+    releaseDate: '1986-09-17',
+    length: 110,
+    genre: 'Action',
+    saga: 'Top Gun',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
     title: 'Top Gun : Maverick',
     director: 'Joseph Kosinski',
     actors: [

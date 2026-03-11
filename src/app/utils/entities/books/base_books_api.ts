@@ -645,8 +645,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Le Monde de Narnia (Tome 4) Le Prince Caspian',
     author: 'C. S. Lewis',
-    coverUrl:
-      '/books_pictures/0636edfc34ef.png',
+    coverUrl: '/books_pictures/0636edfc34ef.png',
     pages: 240,
     genre: 'Fantasy',
     saga: 'Le Monde de Narnia',
@@ -655,33 +654,5 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '1951-10-15',
     description: '',
     countryOrigin: 'Royaume-Uni',
-  },
-
-  {
-    title: 'Pierre et Jean',
-    author: 'Guy de Maupassant',
-    coverUrl: '',
-    pages: 0,
-    genre: '',
-    saga: '',
-    sagaOrder: 0,
-    sagaFinished: true,
-    releaseDate: '',
-    description: '',
-    countryOrigin: '',
-  },
-
-  {
-    title: 'Mont-Oriol',
-    author: 'Guy de Maupassant',
-    coverUrl: 'https://www.livredepoche.com/livre/mont-oriol-nouvelle-edition-9782253183235/',
-    pages: 0,
-    genre: '',
-    saga: '',
-    sagaOrder: 0,
-    sagaFinished: true,
-    releaseDate: '',
-    description: '',
-    countryOrigin: 'France',
   },
 ];

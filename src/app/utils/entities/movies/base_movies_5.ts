@@ -149,29 +149,7 @@ export const baseMoviesPage5: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Bad Boys Ride or Die',
-    director: 'Adil El Arbi, Bilall Fallah',
-    actors: [
-      {
-        name: 'Will Smith',
-      },
-      {
-        name: 'Martin Lawrence',
-      },
-      {
-        name: 'Vanessa Hudgens',
-      },
-    ],
-    coverUrl: '/movies_pictures/efbbe86f093b0904258c8a9b1e60bae7.webp',
-    releaseDate: '2024-06-07',
-    length: 115,
-    genre: 'Action',
-    saga: 'Bad Boys',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Les Faucons de la nuit',
     director: 'Sylvester Stallone',

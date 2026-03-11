@@ -857,6 +857,35 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
+    title: 'Zootopie 2',
+    director: 'Jared Bush, Byron Howard',
+    actors: [
+      {
+        name: 'Ginnifer Goodwin',
+      },
+      {
+        name: 'Jason Bateman',
+      },
+      {
+        name: 'Shakira',
+      },
+      {
+        name: 'Idris Elba',
+      },
+      {
+        name: 'Alan Tudyk',
+      },
+    ],
+    coverUrl: '/movies_pictures/zootopie_2.jpg',
+    releaseDate: '2025-11-26',
+    length: 108,
+    genre: 'Animation',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
     title: 'Piper',
     director: 'Alan Barillaro',
     actors: [{ name: 'Piper' }, { name: 'Maman bécasseau' }],
@@ -997,5 +1026,511 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Soul',
+    director: 'Pete Docter, Kemp Powers',
+    actors: [
+      {
+        name: 'Jamie Foxx',
+      },
+      {
+        name: 'Tina Fey',
+      },
+      {
+        name: 'Graham Norton',
+      },
+    ],
+    coverUrl: '/movies_pictures/soul.jpg',
+    releaseDate: '2020-12-25',
+    length: 100,
+    genre: 'Animation',
+    saga: 'Pixar',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Nimona',
+    director: 'Nick Bruno, Troy Quane',
+    actors: [
+      {
+        name: 'Chloë Grace Moretz',
+      },
+      {
+        name: 'Riz Ahmed',
+      },
+      {
+        name: 'Eugene Lee Yang',
+      },
+      {
+        name: 'Frances Conroy',
+      },
+      {
+        name: 'Beck Bennett',
+      },
+    ],
+    coverUrl: '/movies_pictures/nimona.jpg',
+    releaseDate: '2023-06-30',
+    length: 101,
+    genre: 'Animation',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Les Trolls',
+    director: 'Mike Mitchell, Walt Dohrn',
+    actors: [
+      {
+        name: 'Anna Kendrick',
+      },
+      {
+        name: 'Justin Timberlake',
+      },
+      {
+        name: 'Zooey Deschanel',
+      },
+    ],
+    coverUrl: '/movies_pictures/trolls.jpg',
+    releaseDate: '2016-10-19',
+    length: 92,
+    genre: 'Animation',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Dragon Ball : Salut ! Son Goku et ses amis sont de retour !!',
+    director: ' Yoshihiro Ueda',
+    actors: [
+      {
+        name: 'Masako Nozawa',
+      },
+      {
+        name: 'Ryō Horikawa',
+      },
+      {
+        name: 'Mayumi Tanaka',
+      },
+      {
+        name: 'Toshio Furukawa',
+      },
+    ],
+    coverUrl: '/movies_pictures/fa9c940df3c7.jpg',
+    releaseDate: '2008-09-21',
+    length: 35,
+    genre: 'Anime',
+    saga: 'Dragon Ball',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Japon',
+  },
+  {
+    title: 'Dragon Ball Z : La Menace de Namek',
+    director: 'Mitsuo Hashimoto',
+    actors: [
+      {
+        name: 'Masako Nozawa',
+      },
+      {
+        name: 'Toshio Furukawa',
+      },
+      {
+        name: 'Mayumi Tanaka',
+      },
+    ],
+    coverUrl: '/movies_pictures/dragon_ball_z_lord_slug.jpg',
+    releaseDate: '1994-09-01',
+    length: 52,
+    genre: 'Animation',
+    saga: 'Dragon Ball',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Japon',
+  },
+  {
+    title: 'Dragon Ball Z : Le Père de Sangoku',
+    director: 'Mitsuo Hashimoto',
+    actors: [
+      {
+        name: 'Masako Nozawa',
+      },
+      {
+        name: 'Ryûsei Nakao',
+      },
+      {
+        name: 'Shō Hayami',
+      },
+    ],
+    coverUrl: '/movies_pictures/dragon_ball_z_bardock_the_father_of_goku.jpg',
+    releaseDate: '1990-10-17',
+    length: 48,
+    genre: 'Animation',
+    saga: 'Dragon Ball',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Japon',
+  },
+  {
+    title: 'Dragon Ball Z: The Tree of Might',
+    director: 'Daisuke Nishio',
+    actors: [
+      {
+        name: 'Masako Nozawa',
+      },
+      {
+        name: 'Mayumi Tanaka',
+      },
+      {
+        name: 'Tōru Furuya',
+      },
+    ],
+    coverUrl: '/movies_pictures/dragon_ball_z_the_tree_of_might.jpg',
+    releaseDate: '1990-07-07',
+    length: 61,
+    genre: 'Animation',
+    saga: 'Dragon Ball',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Japon',
+  },
+  {
+    title: "Dragon Ball Z : L'Attaque du dragon",
+    director: 'Mitsuo Hashimoto',
+    actors: [
+      {
+        name: 'Masako Nozawa',
+      },
+      {
+        name: 'Takeshi Kusao',
+      },
+      {
+        name: 'Mayumi Tanaka',
+      },
+    ],
+    coverUrl: '/movies_pictures/dragon_ball_z_wrath_of_the_dragon.jpg',
+    releaseDate: '1995-10-31',
+    length: 51,
+    genre: 'Animation',
+    saga: 'Dragon Ball',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Japon',
+  },
+  {
+    title: 'Dragon Ball Z : Fusions',
+    director: 'Shigeyasu Yamauchi',
+    actors: [
+      {
+        name: 'Masako Nozawa',
+      },
+      {
+        name: 'Ryô Horikawa',
+      },
+      {
+        name: 'Takeshi Kusao',
+      },
+    ],
+    coverUrl: '/movies_pictures/dragon_ball_z_fusion_reborn.jpg',
+    releaseDate: '1995-03-04',
+    length: 51,
+    genre: 'Animation',
+    saga: 'Dragon Ball',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Japon',
+  },
+  {
+    title: 'Dragon Ball Z : Bio-Broly',
+    director: 'Yoshihiro Ueda',
+    actors: [
+      {
+        name: 'Masako Nozawa',
+      },
+      {
+        name: 'Takeshi Kusao',
+      },
+      {
+        name: 'Daisuke Gôri',
+      },
+    ],
+    coverUrl: '/movies_pictures/dragon_ball_z_bio_broly.jpg',
+    releaseDate: '1994-07-09',
+    length: 46,
+    genre: 'Animation',
+    saga: 'Dragon Ball',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Japon',
+  },
+  {
+    title: 'Dragon Ball Z : Rivaux dangereux',
+    director: 'Shigeyasu Yamauchi',
+    actors: [
+      {
+        name: 'Masako Nozawa',
+      },
+      {
+        name: 'Takeshi Kusao',
+      },
+      {
+        name: 'Yūko Minaguchi',
+      },
+    ],
+    coverUrl: '/movies_pictures/dragon_ball_z_broly_second_coming.jpg',
+    releaseDate: '1994-03-12',
+    length: 52,
+    genre: 'Animation',
+    saga: 'Dragon Ball',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Japon',
+  },
+  {
+    title: 'Dragon Ball Z: Bojack Unbound',
+    director: 'Yoshihiro Ueda',
+    actors: [
+      {
+        name: 'Masako Nozawa',
+      },
+      {
+        name: 'Tesshō Genda',
+      },
+      {
+        name: 'Ryō Horikawa',
+      },
+    ],
+    coverUrl: '/movies_pictures/dragon_ball_z_bojack_unbound.jpg',
+    releaseDate: '1993-07-10',
+    length: 51,
+    genre: 'Animation',
+    saga: 'Dragon Ball',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Japon',
+  },
+  {
+    title: 'Dragon Ball Z : Broly le super guerrier',
+    director: 'Shigeyasu Yamauchi',
+    actors: [
+      {
+        name: 'Bin Shimada',
+      },
+      {
+        name: 'Masako Nozawa',
+      },
+      {
+        name: 'Ryō Horikawa',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/dragon_ball_z_broly_the_legendary_super_saiyan.jpg',
+    releaseDate: '1993-03-06',
+    length: 72,
+    genre: 'Animation',
+    saga: 'Dragon Ball',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Japon',
+  },
+  {
+    title: "Dragon Ball Z : L'Histoire de Trunks",
+    director: 'Yoshihiro Ueda',
+    actors: [
+      {
+        name: 'Takeshi Kusao',
+      },
+      {
+        name: 'Masako Nozawa',
+      },
+      {
+        name: 'Hiromi Tsuru',
+      },
+    ],
+    coverUrl: '/movies_pictures/dragon_ball_z_the_history_of_trunks.jpg',
+    releaseDate: '1995-03-22',
+    length: 47,
+    genre: 'Animation',
+    saga: 'Dragon Ball',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Japon',
+  },
+  {
+    title: "Dragon Ball Z : L'Offensive des cyborgs",
+    director: 'Kazuhito Kikuchi',
+    actors: [
+      {
+        name: 'Masako Nozawa',
+      },
+      {
+        name: 'Ryō Horikawa',
+      },
+      {
+        name: 'Takeshi Kusao',
+      },
+    ],
+    coverUrl: '/movies_pictures/dragon_ball_z_super_android_13.jpg',
+    releaseDate: '1992-07-11',
+    length: 46,
+    genre: 'Animation',
+    saga: 'Dragon Ball',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Japon',
+  },
+  {
+    title: 'Dragon Ball Z : Cent Mille Guerriers de métal',
+    director: 'Daisuke Nishio',
+    actors: [
+      {
+        name: 'Masako Nozawa',
+      },
+      {
+        name: 'Ryô Horikawa',
+      },
+      {
+        name: 'Toshio Furukawa',
+      },
+    ],
+    coverUrl: '/movies_pictures/dragon_ball_z_the_return_of_cooler.jpg',
+    releaseDate: '1992-03-07',
+    length: 44,
+    genre: 'Animation',
+    saga: 'Dragon Ball',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Japon',
+  },
+  {
+    title: 'Dragon Ball Z : La Revanche de Cooler',
+    director: 'Mitsuo Hashimoto',
+    actors: [
+      {
+        name: 'Masako Nozawa',
+      },
+      {
+        name: 'Ryūsei Nakao',
+      },
+      {
+        name: 'Toshio Furukawa',
+      },
+    ],
+    coverUrl: '/movies_pictures/dragon_ball_z_cooler_s_revenge.jpg',
+    releaseDate: '1994-12-01',
+    length: 48,
+    genre: 'Animation',
+    saga: 'Dragon Ball',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Japon',
+  },
+  {
+    title: 'Dragon Ball Z : Le Robot des glaces',
+    director: 'Daisuke Nishio',
+    actors: [
+      {
+        name: 'Masako Nozawa',
+      },
+      {
+        name: 'Toshio Furukawa',
+      },
+      {
+        name: 'Hiromi Tsuru',
+      },
+    ],
+    coverUrl: '/movies_pictures/dragon_ball_z_the_world_s_strongest.jpg',
+    releaseDate: '1994-10-17',
+    length: 59,
+    genre: 'Animation',
+    saga: 'Dragon Ball',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Japon',
+  },
+  {
+    title: 'Dragon Ball Z : À la poursuite de Garlic',
+    director: 'Daisuke Nishio',
+    actors: [
+      {
+        name: 'Masako Nozawa',
+      },
+      {
+        name: 'Toshio Furukawa',
+      },
+      {
+        name: 'Mayumi Tanaka',
+      },
+    ],
+    coverUrl: '/movies_pictures/dragon_ball_z_dead_zone.jpg',
+    releaseDate: '1989-07-15',
+    length: 41,
+    genre: 'Animation',
+    saga: 'Dragon Ball',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Japon',
+  },
+  {
+    title: 'Dragon Ball Z: Battle of Gods',
+    director: 'Masahiro Hosoda',
+    actors: [],
+    coverUrl: '/movies_pictures/dragon_ball_z_battle_of_gods.jpg',
+    releaseDate: '2015-02-11',
+    length: 85,
+    genre: 'Animation',
+    saga: 'Dragon Ball',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Japon',
+  },
+  {
+    title: "Dragon Ball Z : La Résurrection de 'F'",
+    director: 'Tadayoshi Yamamuro',
+    actors: [
+      {
+        name: 'Masako Nozawa',
+      },
+      {
+        name: 'Ryo Horikawa',
+      },
+      {
+        name: 'Toshio Furukawa',
+      },
+    ],
+    coverUrl: '/movies_pictures/dragon_ball_z_resurrection_f.jpg',
+    releaseDate: '2015-09-11',
+    length: 94,
+    genre: 'Animation',
+    saga: 'Dragon Ball',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Japon',
+  },
+  {
+    title: 'Akira',
+    director: 'Katsuhiro Ōtomo',
+    actors: [
+      {
+        name: 'Mitsuo Iwata',
+      },
+      {
+        name: 'Nozomu Sasaki',
+      },
+      {
+        name: 'Mami Koyama',
+      },
+    ],
+    coverUrl: '/movies_pictures/akira.jpg',
+    releaseDate: '1991-05-08',
+    length: 124,
+    genre: 'Science Fiction, Animation',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Japon',
   },
 ];

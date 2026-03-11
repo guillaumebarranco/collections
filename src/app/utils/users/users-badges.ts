@@ -44,6 +44,7 @@ export const usersBadges: Record<string, string[]> = {
     "membre-de-l-ordre",
     "nerd",
     "no-life",
+    "petit-beguin-movies",
     "petit-joueur",
     "petit-lecteur",
     "vengeurs-de-la-terre"

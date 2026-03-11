@@ -188,19 +188,7 @@ export const baseMoviesPage4: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'The Conjuring : Les Dossiers Warren',
-    director: 'James Wan',
-    actors: [{ name: 'Vera Farmiga' }],
-    coverUrl: '/movies_pictures/106262-the-conjuring-0-150-0-225-crop.jpg',
-    releaseDate: '2013-07-19',
-    length: 112,
-    genre: 'Horror',
-    saga: 'Conjuring',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'After Earth',
     director: 'M. Night Shyamalan',

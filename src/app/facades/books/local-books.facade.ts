@@ -7,6 +7,7 @@ import {
   baseFromReadlistBooks,
   baseBooksApi,
   baseBooksFromDantes,
+  baseBooksFromMom,
 } from '../../utils/entities/books';
 
 import {
@@ -25,6 +26,7 @@ import { williamBooks } from '../../utils/users/william/books/william_books';
 import { williamReadListBooks } from '../../utils/users/william/books/william_readlist_books';
 import { BaseBook, UserBook } from '../../models/book-model';
 import { dantesBooks } from '../../utils/users/dantes/books/dantes_books';
+import { masterofmadnessBooks } from '../../utils/users/masterofmadness/books/masterofmadness_books';
 
 export const allBaseBooks: BaseBook[] = [
   ...baseBooks,
@@ -35,6 +37,7 @@ export const allBaseBooks: BaseBook[] = [
   ...baseBooksFromRonan,
   ...baseFromReadlistBooks,
   ...baseBooksApi,
+  ...baseBooksFromMom,
 ];
 
 export function getLocalBooksByUser(userId: string): UserBook[] {
@@ -55,6 +58,8 @@ export function getLocalBooksByUser(userId: string): UserBook[] {
       return [...ronanBooks];
     case 'dantes':
       return [...dantesBooks];
+    case 'masterofmadness':
+      return [...masterofmadnessBooks];
     default:
       return [];
   }

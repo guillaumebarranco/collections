@@ -6,3 +6,4 @@ export { baseBooksFromDantes } from './base_books_from_dantes';
 export { baseBooksFromRonan } from './base_books_from_ronan';
 export { baseFromReadlistBooks } from './base_from_readlist_books';
 export { baseBooksApi } from './base_books_api';
+export { baseBooksFromMom } from './base_books_from_mom';

@@ -847,6 +847,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
+    title: 'The Matrix Resurrections',
+    director: 'Lana Wachowski',
+    actors: [
+      {
+        name: 'Keanu Reeves',
+      },
+      {
+        name: 'Carrie-Anne Moss',
+      },
+      {
+        name: 'Yahya Abdul-Mateen II',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_matrix_resurrections.jpg',
+    releaseDate: '2021-01-01',
+    length: 148,
+    genre: '',
+    saga: 'Matrix',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
     title: 'Spy Kids',
     director: 'Robert Rodriguez',
     actors: [{ name: 'Alexa Vega' }],
@@ -916,6 +939,52 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     coverUrl: '/movies_pictures/47473-bad-boys-ii-0-150-0-225-crop.jpg',
     releaseDate: '2003-07-18',
     length: 147,
+    genre: 'Action',
+    saga: 'Bad Boys',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Bad Boys for Life',
+    director: 'Adil El Arbi, Bilall Fallah',
+    actors: [
+      {
+        name: 'Will Smith',
+      },
+      {
+        name: 'Martin Lawrence',
+      },
+      {
+        name: 'Vanessa Hudgens',
+      },
+    ],
+    coverUrl: '/movies_pictures/bad_boys_for_life.jpg',
+    releaseDate: '2020-01-22',
+    length: 124,
+    genre: 'Action',
+    saga: 'Bad Boys',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Bad Boys Ride or Die',
+    director: 'Adil El Arbi, Bilall Fallah',
+    actors: [
+      {
+        name: 'Will Smith',
+      },
+      {
+        name: 'Martin Lawrence',
+      },
+      {
+        name: 'Vanessa Hudgens',
+      },
+    ],
+    coverUrl: '/movies_pictures/efbbe86f093b0904258c8a9b1e60bae7.webp',
+    releaseDate: '2024-06-07',
+    length: 115,
     genre: 'Action',
     saga: 'Bad Boys',
     description: '',
@@ -1581,6 +1650,81 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     releaseDate: '2014-07-16',
     length: 165,
     genre: 'Action',
+    saga: 'Transformers',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Transformers: The Last Knight',
+    director: 'Michael Bay',
+    actors: [
+      {
+        name: 'Mark Wahlberg',
+      },
+      {
+        name: 'Anthony Hopkins',
+      },
+      {
+        name: 'Laura Haddock',
+      },
+    ],
+    coverUrl: '/movies_pictures/transformers_the_last_knight.jpg',
+    releaseDate: '2017-06-28',
+    length: 154,
+    genre: 'Action',
+    saga: 'Transformers',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Bumblebee',
+    director: 'Travis Knight',
+    actors: [
+      {
+        name: 'Hailee Steinfeld',
+      },
+      {
+        name: 'John Cena',
+      },
+      {
+        name: 'Jorge Lendeborg Jr.',
+      },
+    ],
+    coverUrl: '/movies_pictures/bumblebee.jpg',
+    releaseDate: '2018-12-26',
+    length: 114,
+    genre: 'Action',
+    saga: 'Transformers',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Transformers: Rise of the Beasts',
+    director: 'Steven Caple Jr.',
+    actors: [
+      {
+        name: 'Anthony Ramos',
+      },
+      {
+        name: 'Dominique Fishback',
+      },
+      {
+        name: 'Luna Lauren Velez',
+      },
+      {
+        name: 'Dean Scott Vazquez',
+      },
+      {
+        name: 'Peter Cullen',
+      },
+    ],
+    coverUrl: '/movies_pictures/transformers_rise_of_the_beasts.jpg',
+    releaseDate: '2023-01-01',
+    length: 117,
+    genre: '',
     saga: 'Transformers',
     description: '',
     fromEntity: null,

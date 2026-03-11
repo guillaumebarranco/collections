@@ -409,6 +409,23 @@ export const baseMoviesDc: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
+    title: 'Superman IV : Le Face-à-face',
+    director: 'Sidney J. Furie',
+    actors: [
+      {
+        name: 'Christopher Reeve',
+      },
+    ],
+    coverUrl: '/movies_pictures/superman_iv_the_quest_for_peace.jpg',
+    releaseDate: '1987-10-28',
+    length: 90,
+    genre: 'Action',
+    saga: 'Superman',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
     title: 'Superman Returns',
     director: 'Bryan Singer',
     actors: [{ name: 'Brandon Routh' }, { name: 'Kate Bosworth' }],

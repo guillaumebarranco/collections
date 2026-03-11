@@ -654,6 +654,38 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
+    title: 'Insaisissables 3',
+    director: 'Ruben Fleischer',
+    actors: [
+      {
+        name: 'Ginnifer Goodwin',
+      },
+      {
+        name: 'Jason Bateman',
+      },
+      {
+        name: 'Shakira',
+      },
+      {
+        name: 'Idris Elba',
+      },
+      {
+        name: 'Alan Tudyk',
+      },
+      {
+        name: 'Morgan Freeman',
+      },
+    ],
+    coverUrl: '/movies_pictures/insaisissables_3.jpg',
+    releaseDate: '2025-11-12',
+    length: 113,
+    genre: 'Thriller',
+    saga: 'Insaisissable',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
     title: 'Divergente',
     director: 'Neil Burger',
     actors: [{ name: 'Shailene Woodley' }],
@@ -1710,6 +1742,35 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
+    title: 'Avatar : De feu et de cendres',
+    director: 'James Cameron',
+    actors: [
+      {
+        name: 'Sam Worthington',
+      },
+      {
+        name: 'Zoe Saldana',
+      },
+      {
+        name: 'Sigourney Weaver',
+      },
+      {
+        name: 'Stephen Lang',
+      },
+      {
+        name: 'Kate Winslet',
+      },
+    ],
+    coverUrl: '/movies_pictures/avatar_de_feu_et_de_cendres.jpg',
+    releaseDate: '2025-12-17',
+    length: 195,
+    genre: 'Science Fiction',
+    saga: 'Avatar',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
     title: 'American Pie',
     director: 'Paul Weitz, Chris Weitz',
     actors: [{ name: 'Jason Biggs' }],
@@ -1816,6 +1877,29 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
+    title: "Les Aventuriers de l'Arche perdue",
+    director: 'Steven Spielberg',
+    actors: [
+      {
+        name: 'Harrison Ford',
+      },
+      {
+        name: 'Karen Allen',
+      },
+      {
+        name: 'Paul Freeman',
+      },
+    ],
+    coverUrl: '/movies_pictures/raiders_of_the_lost_ark.jpg',
+    releaseDate: '1981-09-16',
+    length: 116,
+    genre: 'Aventure',
+    saga: 'Indiana Jones',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
     title: 'Indiana Jones et le Temple maudit',
     director: 'Steven Spielberg',
     actors: [{ name: 'Harrison Ford' }, { name: 'Kate Capshaw' }],
@@ -1836,6 +1920,59 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '1989-05-24',
     length: 127,
     genre: 'Adventure, Action',
+    saga: 'Indiana Jones',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Indiana Jones et le Royaume du crâne de cristal',
+    director: 'Steven Spielberg',
+    actors: [
+      {
+        name: 'Harrison Ford',
+      },
+      {
+        name: 'Shia LaBeouf',
+      },
+      {
+        name: 'Cate Blanchett',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/indiana_jones_and_the_kingdom_of_the_crystal_skull.jpg',
+    releaseDate: '2008-05-21',
+    length: 123,
+    genre: 'Aventure',
+    saga: 'Indiana Jones',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Indiana Jones and the Dial of Destiny',
+    director: 'James Mangold',
+    actors: [
+      {
+        name: 'Harrison Ford',
+      },
+      {
+        name: 'Phoebe Waller-Bridge',
+      },
+      {
+        name: 'Mads Mikkelsen',
+      },
+      {
+        name: 'Antonio Banderas',
+      },
+      {
+        name: 'John Rhys-Davies',
+      },
+    ],
+    coverUrl: '/movies_pictures/indiana_jones_and_the_dial_of_destiny.jpg',
+    releaseDate: '2023-01-01',
+    length: 154,
+    genre: 'Fantastique',
     saga: 'Indiana Jones',
     description: '',
     fromEntity: null,
@@ -2298,6 +2435,499 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     length: 124,
     genre: 'Fantasy, Comedy',
     saga: 'Ghostbusters',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title:
+      "Le Monde de Narnia : Le Lion, la Sorcière Blanche et l'Armoire Magique",
+    director: 'Andrew Adamson',
+    actors: [
+      {
+        name: 'Georgie Henley',
+      },
+      {
+        name: 'Skandar Keynes',
+      },
+      {
+        name: 'Tilda Swinton',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/the_chronicles_of_narnia_the_lion_the_witch_and_th.jpg',
+    releaseDate: '2005-12-21',
+    length: 140,
+    genre: 'Fantastique',
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le Monde de Narnia (Tome 1) Le Neveu du Magicien',
+      secondEntityKey: 'C.S. Lewis',
+    },
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Le Monde de Narnia : Le Prince Caspian',
+    director: 'Andrew Adamson',
+    actors: [{ name: 'Ben Barnes' }, { name: 'Georgie Henley' }],
+    coverUrl: '/movies_pictures/18943276.jpg',
+    releaseDate: '2008-05-16',
+    length: 150,
+    genre: 'Fantasy, Adventure',
+    saga: 'Narnia',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le Monde de Narnia (Tome 1) Le Neveu du Magicien',
+      secondEntityKey: 'C.S. Lewis',
+    },
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'The Conjuring : Les Dossiers Warren',
+    director: 'James Wan',
+    actors: [{ name: 'Vera Farmiga' }],
+    coverUrl: '/movies_pictures/106262-the-conjuring-0-150-0-225-crop.jpg',
+    releaseDate: '2013-07-19',
+    length: 112,
+    genre: 'Horror',
+    saga: 'Conjuring',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Conjuring 2 : Le Cas Enfield',
+    director: 'James Wan',
+    actors: [
+      {
+        name: 'Patrick Wilson',
+      },
+      {
+        name: 'Vera Farmiga',
+      },
+      {
+        name: "Frances O'Connor",
+      },
+    ],
+    coverUrl: '/movies_pictures/the_conjuring_2.jpg',
+    releaseDate: '2016-06-29',
+    length: 134,
+    genre: 'Horreur',
+    saga: 'Conjuring',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: "Conjuring : Sous l'emprise du diable",
+    director: 'Michael Chaves',
+    actors: [
+      {
+        name: 'Patrick Wilson',
+      },
+      {
+        name: 'Vera Farmiga',
+      },
+      {
+        name: "Ruairi O'Connor",
+      },
+    ],
+    coverUrl: '/movies_pictures/conjuring_sous_lemprise_du_diable.jpg',
+    releaseDate: '2021-06-09',
+    length: 112,
+    genre: 'Horreur',
+    saga: 'Conjuring',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: "Conjuring : L'Heure du jugement",
+    director: 'Michael Chaves',
+    actors: [
+      {
+        name: 'Jared Leto',
+      },
+      {
+        name: 'Greta Lee',
+      },
+      {
+        name: 'Evan Peters',
+      },
+      {
+        name: 'Jodie Turner-Smith',
+      },
+      {
+        name: 'Hasan Minhaj',
+      },
+      {
+        name: 'Gillian Anderson',
+      },
+      {
+        name: 'Jeff Bridges',
+      },
+    ],
+    coverUrl: '/movies_pictures/conjuring_l_heure_du_jugement.jpg',
+    releaseDate: '2025-09-10',
+    length: 135,
+    genre: 'Horreur',
+    saga: 'Conjuring',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Jurassic World',
+    director: 'Colin Trevorrow',
+    actors: [{ name: 'Chris Pratt' }, { name: 'Bryce Dallas Howard' }],
+    coverUrl: '/movies_pictures/422000.webp',
+    releaseDate: '2015-06-12',
+    length: 124,
+    genre: 'Action, Adventure',
+    saga: 'Jurassic',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Jurassic World: Fallen Kingdom',
+    director: 'J.A. Bayona',
+    actors: [{ name: 'Chris Pratt' }, { name: 'Bryce Dallas Howard' }],
+    coverUrl: '/movies_pictures/Jurassic_World_Fallen_Kingdom.png',
+    releaseDate: '2018-06-22',
+    length: 128,
+    genre: 'Action, Adventure',
+    saga: 'Jurassic',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: "Jurassic World : Le Monde d'après",
+    director: 'Colin Trevorrow',
+    actors: [
+      {
+        name: 'Chris Pratt',
+      },
+      {
+        name: 'Bryce Dallas Howard',
+      },
+      {
+        name: 'Laura Dern',
+      },
+    ],
+    coverUrl: '/movies_pictures/jurassic_world_le_monde_dapres.jpg',
+    releaseDate: '2022-06-08',
+    length: 146,
+    genre: 'Action',
+    saga: 'Jurassic',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Jurassic World : Renaissance',
+    director: 'Gareth Edwards',
+    actors: [
+      {
+        name: 'Margot Robbie',
+      },
+      {
+        name: 'Colin Farrell',
+      },
+      {
+        name: 'Kevin Kline',
+      },
+      {
+        name: 'Phoebe Waller-Bridge',
+      },
+      {
+        name: 'Jodie Turner-Smith',
+      },
+      {
+        name: 'Scarlett Johansson',
+      },
+    ],
+    coverUrl: '/movies_pictures/jurassic_world_renaissance.jpg',
+    releaseDate: '2025-07-04',
+    length: 134,
+    genre: 'Action',
+    saga: 'Jurassic',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Star Trek',
+    director: 'J.J. Abrams',
+    actors: [
+      {
+        name: 'Chris Pine',
+      },
+      {
+        name: 'Zachary Quinto',
+      },
+      {
+        name: 'Zoe Saldana',
+      },
+    ],
+    coverUrl: '/movies_pictures/star_trek.jpg',
+    releaseDate: '2009-05-06',
+    length: 127,
+    genre: 'Science Fiction',
+    saga: 'Star Trek',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Star Trek Into Darkness',
+    director: 'J.J. Abrams',
+    actors: [
+      {
+        name: 'Chris Pine',
+      },
+      {
+        name: 'Zachary Quinto',
+      },
+      {
+        name: 'Benedict Cumberbatch',
+      },
+      {
+        name: 'Zoe Saldana',
+      },
+    ],
+    coverUrl: '/movies_pictures/star_trek_into_darkness.jpg',
+    releaseDate: '2013-06-12',
+    length: 130,
+    genre: 'Science Fiction',
+    saga: 'Star Trek',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Star Trek : Sans limites',
+    director: 'Justin Lin',
+    actors: [
+      {
+        name: 'Chris Pine',
+      },
+      {
+        name: 'Zachary Quinto',
+      },
+      {
+        name: 'Karl Urban',
+      },
+      {
+        name: 'Zoe Saldana',
+      },
+    ],
+    coverUrl: '/movies_pictures/star_trek_beyond.jpg',
+    releaseDate: '2016-08-17',
+    length: 123,
+    genre: 'Science Fiction',
+    saga: 'Star Trek',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Ip Man',
+    director: 'Wilson Yip',
+    actors: [
+      {
+        name: 'Donnie Yen',
+      },
+      {
+        name: 'Simon Yam',
+      },
+      {
+        name: 'Lynn Hung',
+      },
+    ],
+    coverUrl: '/movies_pictures/ip_man.jpg',
+    releaseDate: '2010-10-05',
+    length: 106,
+    genre: 'Action',
+    saga: 'Ip Man',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Ip Man 2 : Le Retour du grand maître',
+    director: 'Wilson Yip',
+    actors: [
+      {
+        name: 'Donnie Yen',
+      },
+      {
+        name: 'Sammo Hung',
+      },
+      {
+        name: 'Simon Yam',
+      },
+    ],
+    coverUrl: '/movies_pictures/ip_man_2.jpg',
+    releaseDate: '2011-08-09',
+    length: 108,
+    genre: 'Action',
+    saga: 'Ip Man',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Ip Man 3',
+    director: 'Wilson Yip',
+    actors: [
+      {
+        name: 'Donnie Yen',
+      },
+      {
+        name: 'Mike Tyson',
+      },
+      {
+        name: 'Zhang Jin',
+      },
+    ],
+    coverUrl: '/movies_pictures/ip_man_3.jpg',
+    releaseDate: '2015-12-24',
+    length: 105,
+    genre: 'Action',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Paranormal Activity',
+    director: 'Oren Peli',
+    actors: [{ name: 'Katie Featherston' }],
+    coverUrl: '/movies_pictures/paranormal_activity.jpg',
+    releaseDate: '2007-10-14',
+    length: 86,
+    genre: 'Horror',
+    saga: 'Paranormal Activity',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Paranormal Activity 2',
+    director: 'Tod Williams',
+    actors: [
+      {
+        name: 'Katie Featherston',
+      },
+      {
+        name: 'Micah Sloat',
+      },
+      {
+        name: 'Sprague Grayden',
+      },
+    ],
+    coverUrl: '/movies_pictures/paranormal_activity_2.jpg',
+    releaseDate: '2010-10-20',
+    length: 91,
+    genre: 'Horreur',
+    saga: 'Paranormal Activity',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Paranormal Activity 3',
+    director: 'Henry Joost, Ariel Schulman',
+    actors: [
+      {
+        name: 'Christopher Nicholas Smith',
+      },
+      {
+        name: 'Lauren Bittner',
+      },
+      {
+        name: 'Chloe Csengery',
+      },
+    ],
+    coverUrl: '/movies_pictures/paranormal_activity_3.jpg',
+    releaseDate: '2011-10-19',
+    length: 84,
+    genre: 'Horreur',
+    saga: 'Paranormal Activity',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Paranormal Activity 4',
+    director: 'Henry Joost, Ariel Schulman',
+    actors: [
+      {
+        name: 'Kathryn Newton',
+      },
+      {
+        name: 'Matt Shively',
+      },
+      {
+        name: 'Aiden Lovekamp',
+      },
+    ],
+    coverUrl: '/movies_pictures/paranormal_activity_4.jpg',
+    releaseDate: '2012-10-31',
+    length: 95,
+    genre: 'Horreur',
+    saga: 'Paranormal Activity',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Paranormal Activity: The Marked Ones',
+    director: 'Christopher Landon',
+    actors: [
+      {
+        name: 'Andrew Jacobs',
+      },
+      {
+        name: 'Jorge Diaz',
+      },
+      {
+        name: 'Gabrielle Walsh',
+      },
+    ],
+    coverUrl: '/movies_pictures/paranormal_activity_the_marked_ones.jpg',
+    releaseDate: '2014-01-01',
+    length: 84,
+    genre: 'Horreur',
+    saga: 'Paranormal Activity',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Paranormal Activity 5 : Ghost Dimension',
+    director: 'Gregory Plotkin',
+    actors: [
+      {
+        name: 'Chris J. Murray',
+      },
+      {
+        name: 'Brit Shaw',
+      },
+      {
+        name: 'Ivy George',
+      },
+    ],
+    coverUrl: '/movies_pictures/paranormal_activity_the_ghost_dimension.jpg',
+    releaseDate: '2015-10-21',
+    length: 88,
+    genre: 'Horreur',
+    saga: 'Paranormal Activity',
     description: '',
     fromEntity: null,
     countryOrigin: 'États-Unis',
