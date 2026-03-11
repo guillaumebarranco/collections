@@ -926,19 +926,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: '28 Semaines Plus Tard',
-    director: 'Juan Carlos Fresnadillo',
-    actors: [{ name: 'Robert Carlyle' }],
-    coverUrl: '/movies_pictures/18795535.jpg',
-    releaseDate: '2007-05-11',
-    length: 99,
-    genre: 'Horror',
-    saga: '28... plus tard',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'Espagne',
-  },
+
   {
     title: 'Dangereuse séduction',
     director: 'James Foley',

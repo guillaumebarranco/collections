@@ -972,4 +972,30 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'France',
   },
+  {
+    title: 'KPop Demon Hunters',
+    director: 'Maggie Kang, Chris Appelhans',
+    actors: [
+      {
+        name: 'Arden Cho',
+      },
+      {
+        name: 'May Hong',
+      },
+      {
+        name: 'Ahn Hyo-seop',
+      },
+      {
+        name: 'Ji-young Yoo',
+      },
+    ],
+    coverUrl: '/movies_pictures/kpop-demon-hunters.jpg',
+    releaseDate: '2025-06-20',
+    length: 95,
+    genre: 'Animation',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
 ];

@@ -116,155 +116,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'France',
   },
-  {
-    title: '28 ans plus tard',
-    director: 'Danny Boyle',
-    actors: [
-      {
-        name: 'Aaron Taylor-Johnson',
-      },
-      {
-        name: 'Jodie Comer',
-      },
-      {
-        name: 'Ralph Fiennes',
-      },
-    ],
-    coverUrl: '/movies_pictures/28-ans-plus-tard.jpg',
-    releaseDate: '2025-06-18',
-    length: 115,
-    genre: 'Horreur',
-    saga: '28... plus tard',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
-  },
-  {
-    title: "L'Amour, c'est surcoté ",
-    director: 'Mourad Winter',
-    actors: [
-      {
-        name: 'Hakim Jemili',
-      },
-      {
-        name: 'Laura Felpin',
-      },
-    ],
-    coverUrl: '/movies_pictures/amour-surcote.jpg',
-    releaseDate: '2025-04-23',
-    length: 98,
-    genre: 'Comédie romantique',
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'France',
-  },
-  {
-    title:
-      "Le Seigneur des Anneaux - La Communauté de l'Anneau - Version Longue",
-    director: 'Peter Jackson',
-    actors: [
-      {
-        name: 'Elijah Wood',
-      },
-      {
-        name: 'Sean Astin',
-      },
-      {
-        name: 'Ian McKellen',
-      },
-    ],
-    coverUrl: '/movies_pictures/seigneur-anneaux-1.jpg',
-    releaseDate: '2002-08-06',
-    length: 228,
-    genre: 'Fantasy',
-    saga: 'Tolkien',
-    description: '',
-    fromEntity: {
-      entityType: 'book',
-      title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
-      secondEntityKey: 'J.R.R. Tolkien',
-    },
-    countryOrigin: 'Nouvelle-Zélande',
-  },
-  {
-    title: 'Le Seigneur des Anneaux - Les Deux Tours - Version Longue',
-    director: 'Peter Jackson',
-    actors: [
-      {
-        name: 'Elijah Wood',
-      },
-      {
-        name: 'Sean Astin',
-      },
-      {
-        name: 'Ian McKellen',
-      },
-    ],
-    coverUrl: '/movies_pictures/seigneur-anneaux-2.jpg',
-    releaseDate: '2003-08-26',
-    length: 235,
-    genre: 'Fantasy',
-    saga: 'Tolkien',
-    description: '',
-    fromEntity: {
-      entityType: 'book',
-      title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
-      secondEntityKey: 'J.R.R. Tolkien',
-    },
-    countryOrigin: 'Nouvelle-Zélande',
-  },
-  {
-    title: 'Le Seigneur des Anneaux - Le Retour du Roi - Version Longue',
-    director: 'Peter Jackson',
-    actors: [
-      {
-        name: 'Elijah Wood',
-      },
-      {
-        name: 'Sean Astin',
-      },
-      {
-        name: 'Ian McKellen',
-      },
-    ],
-    coverUrl: '/movies_pictures/seigneur-anneaux-3.jpg',
-    releaseDate: '2004-12-14',
-    length: 264,
-    genre: 'Fantasy',
-    saga: 'Tolkien',
-    description: '',
-    fromEntity: {
-      entityType: 'book',
-      title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
-      secondEntityKey: 'J.R.R. Tolkien',
-    },
-    countryOrigin: 'Nouvelle-Zélande',
-  },
-  {
-    title: 'Sonic 2, le film',
-    director: 'Jeff Fowler',
-    actors: [
-      {
-        name: 'Jim Carrey',
-      },
-      {
-        name: 'James Marsden',
-      },
-    ],
-    coverUrl: '/movies_pictures/sonic-2.jpg',
-    releaseDate: '2022-03-30',
-    length: 122,
-    genre: 'Aventure, Famille',
-    saga: 'Sonic',
-    description: '',
-    fromEntity: {
-      entityType: 'game',
-      title: 'Sonic the Hedgehog',
-      secondEntityKey: 'Sega',
-    },
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Avignon',
     director: 'Johann Dionnet',
@@ -288,89 +140,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'France',
   },
-  {
-    title: 'Sonic 3, le film',
-    director: 'Jeff Fowler',
-    actors: [
-      {
-        name: 'Jim Carrey',
-      },
-      {
-        name: 'James Marsden',
-      },
-      {
-        name: 'Idris Elba',
-      },
-      {
-        name: 'Keanu Reeves',
-      },
-    ],
-    coverUrl: '/movies_pictures/sonic-3.jpg',
-    releaseDate: '2024-12-25',
-    length: 110,
-    genre: 'Aventure, Famille',
-    saga: 'Sonic',
-    description: '',
-    fromEntity: {
-      entityType: 'game',
-      title: 'Sonic the Hedgehog',
-      secondEntityKey: 'Sega',
-    },
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: "N'oublie Jamais",
-    director: 'Nick Cassavetes',
-    actors: [
-      {
-        name: 'Ryan Gosling',
-      },
-      {
-        name: 'Rachel McAdams',
-      },
-      {
-        name: 'James Marsden',
-      },
-    ],
-    coverUrl: '/movies_pictures/n-oublie-jamais-film.jpg',
-    releaseDate: '2004-09-08',
-    length: 121,
-    genre: 'Comédie romantique',
-    saga: '',
-    description: '',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Les pages de notre amour',
-      secondEntityKey: 'Nicholas Sparks',
-    },
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'KPop Demon Hunters',
-    director: 'Maggie Kang, Chris Appelhans',
-    actors: [
-      {
-        name: 'Arden Cho',
-      },
-      {
-        name: 'May Hong',
-      },
-      {
-        name: 'Ahn Hyo-seop',
-      },
-      {
-        name: 'Ji-young Yoo',
-      },
-    ],
-    coverUrl: '/movies_pictures/kpop-demon-hunters.jpg',
-    releaseDate: '2025-06-20',
-    length: 95,
-    genre: 'Animation',
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Wedding Daze',
     director: 'Michael Ian Black',
@@ -459,35 +229,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'France',
   },
-  {
-    title: 'Kraven the Hunter',
-    director: 'J.C Chandor',
-    actors: [
-      {
-        name: 'Aaron Taylor-Johnson',
-      },
-      {
-        name: 'Russell Crowe',
-      },
-      {
-        name: 'Ariana DeBose',
-      },
-      {
-        name: 'Alessandro Nivola',
-      },
-      {
-        name: 'Fred Hechinger',
-      },
-    ],
-    coverUrl: '/movies_pictures/f89b822eddbd.webp',
-    releaseDate: '2024-12-18',
-    length: 125,
-    genre: 'Action',
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Nope',
     director: 'Jordan Peele',
@@ -807,29 +549,6 @@ export const baseMoviesApi: BaseMovie[] = [
   },
 
   {
-    title: 'Scream 7',
-    director: 'Kevin Williamson',
-    actors: [
-      {
-        name: 'Neve Campbell',
-      },
-      {
-        name: 'Isabel May',
-      },
-      {
-        name: 'Courteney Cox',
-      },
-    ],
-    coverUrl: '/movies_pictures/9ee7fe56e47a.jpg',
-    releaseDate: '2026-02-25',
-    length: 114,
-    genre: 'Horreur',
-    saga: 'Scream',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'France',
-  },
-  {
     title: 'Dragonball Evolution',
     director: 'James Wong',
     actors: [
@@ -900,34 +619,7 @@ export const baseMoviesApi: BaseMovie[] = [
   },
 
   {
-    title: 'Dragon Ball : Salut ! Son Goku et ses amis sont de retour !!',
-    director: ' Yoshihiro Ueda',
-    actors: [
-      {
-        name: 'Masako Nozawa',
-      },
-      {
-        name: 'Ryō Horikawa',
-      },
-      {
-        name: 'Mayumi Tanaka',
-      },
-      {
-        name: 'Toshio Furukawa',
-      },
-    ],
-    coverUrl: '/movies_pictures/fa9c940df3c7.jpg',
-    releaseDate: '2008-09-21',
-    length: 35,
-    genre: 'Anime',
-    saga: 'Dragon Ball',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'Japon',
-  },
-
-  {
-    title: 'La Venue de l\'Avenir',
+    title: "La Venue de l'Avenir",
     director: 'Cédric Klapisch',
     actors: [
       {
@@ -955,7 +647,8 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Sara Giraudeau',
       },
     ],
-    coverUrl: 'https://fr.web.img6.acsta.net/img/ff/a9/ffa9ece0041769e66fb572c6d8a458a3.jpg',
+    coverUrl:
+      'https://fr.web.img6.acsta.net/img/ff/a9/ffa9ece0041769e66fb572c6d8a458a3.jpg',
     releaseDate: '2025-05-22',
     length: 125,
     genre: 'Comédie dramatique',

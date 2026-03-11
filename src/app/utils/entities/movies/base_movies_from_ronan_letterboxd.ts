@@ -982,40 +982,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'The Lord of the Rings: The War of the Rohirrim',
-    director: 'Kenji Kamiyama',
-    actors: [
-      {
-        name: 'Joel Edgerton',
-      },
-      {
-        name: 'Felicity Jones',
-      },
-      {
-        name: 'Kerry Condon',
-      },
-      {
-        name: 'William H. Macy',
-      },
-      {
-        name: 'Nathaniel Arcand',
-      },
-    ],
-    coverUrl:
-      '/movies_pictures/the_lord_of_the_rings_the_war_of_the_rohirrim.jpg',
-    releaseDate: '2024-01-01',
-    length: 134,
-    genre: 'Fantasy',
-    saga: 'Tolkien',
-    description: '',
-    fromEntity: {
-      entityType: 'book',
-      title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
-      secondEntityKey: 'J.R.R. Tolkien',
-    },
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Vaiana 2',
     director: 'David G. Derrick Jr., Jason Hand, Dana Ledoux Miller',
@@ -1870,35 +1837,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'Canada',
   },
-  {
-    title: 'Madame Web',
-    director: 'S.J. Clarkson',
-    actors: [
-      {
-        name: 'Dakota Johnson',
-      },
-      {
-        name: 'Sydney Sweeney',
-      },
-      {
-        name: 'Isabela Merced',
-      },
-      {
-        name: "Celeste O'Connor",
-      },
-      {
-        name: 'Tahar Rahim',
-      },
-    ],
-    coverUrl: '/movies_pictures/madame_web.jpg',
-    releaseDate: '2024-01-01',
-    length: 116,
-    genre: '',
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Argylle',
     director: 'Matthew Vaughn',
@@ -2774,29 +2713,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Scream VI',
-    director: 'Matt Bettinelli-Olpin, Tyler Gillett',
-    actors: [
-      {
-        name: 'Jenna Ortega',
-      },
-      {
-        name: 'Melissa Barrera',
-      },
-      {
-        name: 'Courteney Cox',
-      },
-    ],
-    coverUrl: '/movies_pictures/scream_vi.jpg',
-    releaseDate: '2023-03-08',
-    length: 123,
-    genre: 'Horreur',
-    saga: 'Scream',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Knock at the Cabin',
     director: 'M. Night Shyamalan',
@@ -3288,29 +3205,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     },
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Scream',
-    director: 'Matt Bettinelli-Olpin, Tyler Gillett',
-    actors: [
-      {
-        name: 'Neve Campbell',
-      },
-      {
-        name: 'Courteney Cox',
-      },
-      {
-        name: 'David Arquette',
-      },
-    ],
-    coverUrl: '/movies_pictures/scream.jpg',
-    releaseDate: '2022-01-12',
-    length: 115,
-    genre: 'Horreur',
-    saga: 'Scream',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'The Matrix Resurrections',
     director: 'Lana Wachowski',
@@ -3955,33 +3850,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Sonic the Hedgehog',
-    director: 'Jeff Fowler',
-    actors: [
-      {
-        name: 'Ben Schwartz',
-      },
-      {
-        name: 'James Marsden',
-      },
-      {
-        name: 'Jim Carrey',
-      },
-    ],
-    coverUrl: '/movies_pictures/sonic_the_hedgehog.jpg',
-    releaseDate: '2020-01-01',
-    length: 99,
-    genre: '',
-    saga: 'Sonic',
-    description: '',
-    fromEntity: {
-      entityType: 'game',
-      title: 'Sonic the Hedgehog',
-      secondEntityKey: 'Sega',
-    },
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Bad Boys for Life',
     director: 'Adil El Arbi, Bilall Fallah',
@@ -6210,29 +6079,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Le Hobbit : La Bataille des Cinq Armées',
-    director: 'Peter Jackson',
-    actors: [
-      {
-        name: 'Martin Freeman',
-      },
-      {
-        name: 'Ian McKellen',
-      },
-      {
-        name: 'Richard Armitage',
-      },
-    ],
-    coverUrl: '/movies_pictures/the_hobbit_the_battle_of_the_five_armies.jpg',
-    releaseDate: '2014-12-10',
-    length: 144,
-    genre: 'Fantastique',
-    saga: 'Tolkien',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Astérix : Le Domaine des dieux',
     director: 'Louis Clichy, Alexandre Astier',
@@ -6723,29 +6570,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Le Hobbit : La Désolation de Smaug',
-    director: 'Peter Jackson',
-    actors: [
-      {
-        name: 'Martin Freeman',
-      },
-      {
-        name: 'Ian McKellen',
-      },
-      {
-        name: 'Richard Armitage',
-      },
-    ],
-    coverUrl: '/movies_pictures/the_hobbit_the_desolation_of_smaug.jpg',
-    releaseDate: '2013-12-11',
-    length: 161,
-    genre: 'Fantastique',
-    saga: 'Tolkien',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Les Brasiers de la colère',
     director: 'Scott Cooper',
@@ -9503,30 +9328,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Le Seigneur des anneaux : Le Retour du roi',
-    director: 'Peter Jackson',
-    actors: [
-      {
-        name: 'Elijah Wood',
-      },
-      {
-        name: 'Ian McKellen',
-      },
-      {
-        name: 'Viggo Mortensen',
-      },
-    ],
-    coverUrl:
-      '/movies_pictures/the_lord_of_the_rings_the_return_of_the_king.jpg',
-    releaseDate: '2003-12-17',
-    length: 201,
-    genre: 'Fantastique',
-    saga: 'Tolkien',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: "Master and Commander : De l'autre côté du monde",
     director: 'Peter Weir',
@@ -9689,29 +9491,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Le Seigneur des anneaux : Les Deux Tours',
-    director: 'Peter Jackson',
-    actors: [
-      {
-        name: 'Elijah Wood',
-      },
-      {
-        name: 'Ian McKellen',
-      },
-      {
-        name: 'Viggo Mortensen',
-      },
-    ],
-    coverUrl: '/movies_pictures/the_lord_of_the_rings_the_two_towers.jpg',
-    releaseDate: '2002-12-18',
-    length: 179,
-    genre: 'Fantastique',
-    saga: 'Tolkien',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Gangs of New York',
     director: 'Martin Scorsese',
@@ -9804,30 +9584,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: "Le Seigneur des anneaux : La Communauté de l'anneau",
-    director: 'Peter Jackson',
-    actors: [
-      {
-        name: 'Elijah Wood',
-      },
-      {
-        name: 'Ian McKellen',
-      },
-      {
-        name: 'Viggo Mortensen',
-      },
-    ],
-    coverUrl:
-      '/movies_pictures/the_lord_of_the_rings_the_fellowship_of_the_ring.jpg',
-    releaseDate: '2001-12-19',
-    length: 178,
-    genre: 'Fantastique',
-    saga: 'Tolkien',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Zoolander',
     director: 'Ben Stiller',
@@ -10835,6 +10592,32 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
+    title: 'Dragon Ball : Salut ! Son Goku et ses amis sont de retour !!',
+    director: ' Yoshihiro Ueda',
+    actors: [
+      {
+        name: 'Masako Nozawa',
+      },
+      {
+        name: 'Ryō Horikawa',
+      },
+      {
+        name: 'Mayumi Tanaka',
+      },
+      {
+        name: 'Toshio Furukawa',
+      },
+    ],
+    coverUrl: '/movies_pictures/fa9c940df3c7.jpg',
+    releaseDate: '2008-09-21',
+    length: 35,
+    genre: 'Anime',
+    saga: 'Dragon Ball',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Japon',
+  },
+  {
     title: 'Dragon Ball Z : La Menace de Namek',
     director: 'Mitsuo Hashimoto',
     actors: [
@@ -10972,29 +10755,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'Japon',
   },
-  {
-    title: 'S.O.S. Fantômes 2',
-    director: 'Ivan Reitman',
-    actors: [
-      {
-        name: 'Bill Murray',
-      },
-      {
-        name: 'Dan Aykroyd',
-      },
-      {
-        name: 'Sigourney Weaver',
-      },
-    ],
-    coverUrl: '/movies_pictures/ghostbusters_ii.jpg',
-    releaseDate: '1989-12-13',
-    length: 108,
-    genre: 'Comédie',
-    saga: 'Ghostbusters',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Indiana Jones et la Dernière Croisade',
     director: 'Steven Spielberg',
@@ -11314,29 +11075,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'S.O.S. Fantômes',
-    director: 'Ivan Reitman',
-    actors: [
-      {
-        name: 'Bill Murray',
-      },
-      {
-        name: 'Dan Aykroyd',
-      },
-      {
-        name: 'Sigourney Weaver',
-      },
-    ],
-    coverUrl: '/movies_pictures/ghostbusters.jpg',
-    releaseDate: '1984-12-12',
-    length: 107,
-    genre: 'Comédie',
-    saga: 'Ghostbusters',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Indiana Jones et le Temple maudit',
     director: 'Steven Spielberg',

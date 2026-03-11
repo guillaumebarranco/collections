@@ -475,4 +475,75 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
+  {
+    title: 'Kraven the Hunter',
+    director: 'J.C Chandor',
+    actors: [
+      {
+        name: 'Aaron Taylor-Johnson',
+      },
+      {
+        name: 'Russell Crowe',
+      },
+      {
+        name: 'Ariana DeBose',
+      },
+      {
+        name: 'Alessandro Nivola',
+      },
+      {
+        name: 'Fred Hechinger',
+      },
+    ],
+    coverUrl: '/movies_pictures/f89b822eddbd.webp',
+    releaseDate: '2024-12-18',
+    length: 125,
+    genre: 'Action',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Madame Web',
+    director: 'S.J. Clarkson',
+    actors: [
+      {
+        name: 'Dakota Johnson',
+      },
+      {
+        name: 'Sydney Sweeney',
+      },
+      {
+        name: 'Isabela Merced',
+      },
+      {
+        name: "Celeste O'Connor",
+      },
+      {
+        name: 'Tahar Rahim',
+      },
+    ],
+    coverUrl: '/movies_pictures/madame_web.jpg',
+    releaseDate: '2024-01-01',
+    length: 116,
+    genre: '',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Morbius',
+    director: 'Daniel Espinosa',
+    actors: [{ name: 'Jared Leto' }, { name: 'Matt Smith' }],
+    coverUrl: '/movies_pictures/5612671.jpg',
+    releaseDate: '2022-04-01',
+    length: 104,
+    genre: 'Action, Horror',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
 ];

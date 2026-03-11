@@ -1603,6 +1603,75 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
+    title: 'Scream',
+    director: 'Matt Bettinelli-Olpin, Tyler Gillett',
+    actors: [
+      {
+        name: 'Neve Campbell',
+      },
+      {
+        name: 'Courteney Cox',
+      },
+      {
+        name: 'David Arquette',
+      },
+    ],
+    coverUrl: '/movies_pictures/scream.jpg',
+    releaseDate: '2022-01-12',
+    length: 115,
+    genre: 'Horreur',
+    saga: 'Scream',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Scream VI',
+    director: 'Matt Bettinelli-Olpin, Tyler Gillett',
+    actors: [
+      {
+        name: 'Jenna Ortega',
+      },
+      {
+        name: 'Melissa Barrera',
+      },
+      {
+        name: 'Courteney Cox',
+      },
+    ],
+    coverUrl: '/movies_pictures/scream_vi.jpg',
+    releaseDate: '2023-03-08',
+    length: 123,
+    genre: 'Horreur',
+    saga: 'Scream',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Scream 7',
+    director: 'Kevin Williamson',
+    actors: [
+      {
+        name: 'Neve Campbell',
+      },
+      {
+        name: 'Isabel May',
+      },
+      {
+        name: 'Courteney Cox',
+      },
+    ],
+    coverUrl: '/movies_pictures/9ee7fe56e47a.jpg',
+    releaseDate: '2026-02-25',
+    length: 114,
+    genre: 'Horreur',
+    saga: 'Scream',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'France',
+  },
+  {
     title: 'Avatar',
     director: 'James Cameron',
     actors: [
@@ -1768,6 +1837,467 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     length: 127,
     genre: 'Adventure, Action',
     saga: 'Indiana Jones',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Big Mamma',
+    director: 'Raja Gosnell',
+    actors: [{ name: 'Martin Lawrence' }],
+    coverUrl: '/movies_pictures/big_mamma.jpg',
+    releaseDate: '2000-06-02',
+    length: 99,
+    genre: 'Comédie',
+    saga: 'Big Mamma',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Big Mamma 2',
+    director: 'John Whitesell',
+    actors: [{ name: 'Martin Lawrence' }],
+    coverUrl: '/movies_pictures/18475907.webp',
+    releaseDate: '2006-01-27',
+    length: 99,
+    genre: 'Comédie',
+    saga: 'Big Mamma',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: '28 jours plus tard',
+    director: 'Danny Boyle',
+    actors: [{ name: 'Cillian Murphy' }],
+    coverUrl: '/movies_pictures/28_jours_plus_tard.jpg',
+    releaseDate: '2002-11-01',
+    length: 113,
+    genre: 'Horror',
+    saga: '28... plus tard',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Royaume-Uni',
+  },
+  {
+    title: '28 Semaines Plus Tard',
+    director: 'Juan Carlos Fresnadillo',
+    actors: [{ name: 'Robert Carlyle' }],
+    coverUrl: '/movies_pictures/18795535.jpg',
+    releaseDate: '2007-05-11',
+    length: 99,
+    genre: 'Horror',
+    saga: '28... plus tard',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Espagne',
+  },
+  {
+    title: '28 ans plus tard',
+    director: 'Danny Boyle',
+    actors: [
+      {
+        name: 'Aaron Taylor-Johnson',
+      },
+      {
+        name: 'Jodie Comer',
+      },
+      {
+        name: 'Ralph Fiennes',
+      },
+    ],
+    coverUrl: '/movies_pictures/28-ans-plus-tard.jpg',
+    releaseDate: '2025-06-18',
+    length: 115,
+    genre: 'Horreur',
+    saga: '28... plus tard',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Royaume-Uni',
+  },
+  {
+    title: 'Sonic the Hedgehog',
+    director: 'Jeff Fowler',
+    actors: [
+      {
+        name: 'Ben Schwartz',
+      },
+      {
+        name: 'James Marsden',
+      },
+      {
+        name: 'Jim Carrey',
+      },
+    ],
+    coverUrl: '/movies_pictures/sonic_the_hedgehog.jpg',
+    releaseDate: '2020-01-01',
+    length: 99,
+    genre: '',
+    saga: 'Sonic',
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Sonic the Hedgehog',
+      secondEntityKey: 'Sega',
+    },
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Sonic 2, le film',
+    director: 'Jeff Fowler',
+    actors: [
+      {
+        name: 'Jim Carrey',
+      },
+      {
+        name: 'James Marsden',
+      },
+    ],
+    coverUrl: '/movies_pictures/sonic-2.jpg',
+    releaseDate: '2022-03-30',
+    length: 122,
+    genre: 'Aventure, Famille',
+    saga: 'Sonic',
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Sonic the Hedgehog',
+      secondEntityKey: 'Sega',
+    },
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Sonic 3, le film',
+    director: 'Jeff Fowler',
+    actors: [
+      {
+        name: 'Jim Carrey',
+      },
+      {
+        name: 'James Marsden',
+      },
+      {
+        name: 'Idris Elba',
+      },
+      {
+        name: 'Keanu Reeves',
+      },
+    ],
+    coverUrl: '/movies_pictures/sonic-3.jpg',
+    releaseDate: '2024-12-25',
+    length: 110,
+    genre: 'Aventure, Famille',
+    saga: 'Sonic',
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Sonic the Hedgehog',
+      secondEntityKey: 'Sega',
+    },
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: "Le Seigneur des anneaux : La Communauté de l'anneau",
+    director: 'Peter Jackson',
+    actors: [
+      {
+        name: 'Elijah Wood',
+      },
+      {
+        name: 'Ian McKellen',
+      },
+      {
+        name: 'Viggo Mortensen',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/the_lord_of_the_rings_the_fellowship_of_the_ring.jpg',
+    releaseDate: '2001-12-19',
+    length: 178,
+    genre: 'Fantastique',
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Le Seigneur des anneaux : Les Deux Tours',
+    director: 'Peter Jackson',
+    actors: [
+      {
+        name: 'Elijah Wood',
+      },
+      {
+        name: 'Ian McKellen',
+      },
+      {
+        name: 'Viggo Mortensen',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_lord_of_the_rings_the_two_towers.jpg',
+    releaseDate: '2002-12-18',
+    length: 179,
+    genre: 'Fantastique',
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Le Seigneur des anneaux : Le Retour du roi',
+    director: 'Peter Jackson',
+    actors: [
+      {
+        name: 'Elijah Wood',
+      },
+      {
+        name: 'Ian McKellen',
+      },
+      {
+        name: 'Viggo Mortensen',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/the_lord_of_the_rings_the_return_of_the_king.jpg',
+    releaseDate: '2003-12-17',
+    length: 201,
+    genre: 'Fantastique',
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title:
+      "Le Seigneur des Anneaux - La Communauté de l'Anneau - Version Longue",
+    director: 'Peter Jackson',
+    actors: [
+      {
+        name: 'Elijah Wood',
+      },
+      {
+        name: 'Sean Astin',
+      },
+      {
+        name: 'Ian McKellen',
+      },
+    ],
+    coverUrl: '/movies_pictures/seigneur-anneaux-1.jpg',
+    releaseDate: '2002-08-06',
+    length: 228,
+    genre: 'Fantasy',
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
+      secondEntityKey: 'J.R.R. Tolkien',
+    },
+    countryOrigin: 'Nouvelle-Zélande',
+  },
+  {
+    title: 'Le Seigneur des Anneaux - Les Deux Tours - Version Longue',
+    director: 'Peter Jackson',
+    actors: [
+      {
+        name: 'Elijah Wood',
+      },
+      {
+        name: 'Sean Astin',
+      },
+      {
+        name: 'Ian McKellen',
+      },
+    ],
+    coverUrl: '/movies_pictures/seigneur-anneaux-2.jpg',
+    releaseDate: '2003-08-26',
+    length: 235,
+    genre: 'Fantasy',
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
+      secondEntityKey: 'J.R.R. Tolkien',
+    },
+    countryOrigin: 'Nouvelle-Zélande',
+  },
+  {
+    title: 'Le Seigneur des Anneaux - Le Retour du Roi - Version Longue',
+    director: 'Peter Jackson',
+    actors: [
+      {
+        name: 'Elijah Wood',
+      },
+      {
+        name: 'Sean Astin',
+      },
+      {
+        name: 'Ian McKellen',
+      },
+    ],
+    coverUrl: '/movies_pictures/seigneur-anneaux-3.jpg',
+    releaseDate: '2004-12-14',
+    length: 264,
+    genre: 'Fantasy',
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
+      secondEntityKey: 'J.R.R. Tolkien',
+    },
+    countryOrigin: 'Nouvelle-Zélande',
+  },
+  {
+    title: 'The Lord of the Rings: The War of the Rohirrim',
+    director: 'Kenji Kamiyama',
+    actors: [
+      {
+        name: 'Joel Edgerton',
+      },
+      {
+        name: 'Felicity Jones',
+      },
+      {
+        name: 'Kerry Condon',
+      },
+      {
+        name: 'William H. Macy',
+      },
+      {
+        name: 'Nathaniel Arcand',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/the_lord_of_the_rings_the_war_of_the_rohirrim.jpg',
+    releaseDate: '2024-01-01',
+    length: 134,
+    genre: 'Fantasy',
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
+      secondEntityKey: 'J.R.R. Tolkien',
+    },
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Le Hobbit : Un voyage inattendu',
+    director: 'Peter Jackson',
+    actors: [{ name: 'Martin Freeman' }, { name: 'Ian McKellen' }],
+    coverUrl: '/movies_pictures/20273834.webp',
+    releaseDate: '2012-12-14',
+    length: 169,
+    genre: 'Fantasy, Adventure',
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Le Hobbit : La Désolation de Smaug',
+    director: 'Peter Jackson',
+    actors: [
+      {
+        name: 'Martin Freeman',
+      },
+      {
+        name: 'Ian McKellen',
+      },
+      {
+        name: 'Richard Armitage',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_hobbit_the_desolation_of_smaug.jpg',
+    releaseDate: '2013-12-11',
+    length: 161,
+    genre: 'Fantastique',
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Le Hobbit : La Bataille des Cinq Armées',
+    director: 'Peter Jackson',
+    actors: [
+      {
+        name: 'Martin Freeman',
+      },
+      {
+        name: 'Ian McKellen',
+      },
+      {
+        name: 'Richard Armitage',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_hobbit_the_battle_of_the_five_armies.jpg',
+    releaseDate: '2014-12-10',
+    length: 144,
+    genre: 'Fantastique',
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'S.O.S. Fantômes',
+    director: 'Ivan Reitman',
+    actors: [
+      {
+        name: 'Bill Murray',
+      },
+      {
+        name: 'Dan Aykroyd',
+      },
+      {
+        name: 'Sigourney Weaver',
+      },
+    ],
+    coverUrl: '/movies_pictures/ghostbusters.jpg',
+    releaseDate: '1984-12-12',
+    length: 107,
+    genre: 'Comédie',
+    saga: 'Ghostbusters',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'S.O.S. Fantômes 2',
+    director: 'Ivan Reitman',
+    actors: [
+      {
+        name: 'Bill Murray',
+      },
+      {
+        name: 'Dan Aykroyd',
+      },
+      {
+        name: 'Sigourney Weaver',
+      },
+    ],
+    coverUrl: '/movies_pictures/ghostbusters_ii.jpg',
+    releaseDate: '1989-12-13',
+    length: 108,
+    genre: 'Comédie',
+    saga: 'Ghostbusters',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: "S.O.S. Fantômes : L'Héritage",
+    director: 'Jason Reitman',
+    actors: [{ name: 'Mckenna Grace' }, { name: 'Finn Wolfhard' }],
+    coverUrl: '/movies_pictures/0365804.webp',
+    releaseDate: '2021-11-19',
+    length: 124,
+    genre: 'Fantasy, Comedy',
+    saga: 'Ghostbusters',
     description: '',
     fromEntity: null,
     countryOrigin: 'États-Unis',

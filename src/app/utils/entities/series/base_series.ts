@@ -217,7 +217,7 @@ export const baseSeries: BaseSerie[] = [
       },
       {
         name: 'David Ramsey',
-      }
+      },
     ],
     coverUrl: '/series_pictures/arrow-affiche_hd.jpg',
     releaseDate: '2012-10-10',
@@ -263,7 +263,7 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 8,
         nbEpisodes: 10,
         totalLength: 600,
-      }
+      },
     ],
     description: '',
     saga: 'ArrowVerse',
@@ -311,7 +311,7 @@ export const baseSeries: BaseSerie[] = [
       },
       {
         name: 'Jonathan Cohen',
-      }
+      },
     ],
     coverUrl: '/series_pictures/bloques.jpg',
     releaseDate: '2015-09-07',
@@ -322,7 +322,7 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 1,
         nbEpisodes: 121,
         totalLength: 246,
-      }
+      },
     ],
     description: '',
     saga: 'Bref',
@@ -717,7 +717,7 @@ export const baseSeries: BaseSerie[] = [
       },
       {
         name: 'Angélica Celaya',
-      }
+      },
     ],
     coverUrl: '/series_pictures/498691.webp',
     releaseDate: '2014-10-24',
@@ -728,7 +728,7 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 1,
         nbEpisodes: 13,
         totalLength: 780,
-      }
+      },
     ],
     description: '',
     saga: 'DC Comics',
@@ -904,7 +904,7 @@ export const baseSeries: BaseSerie[] = [
       },
       {
         name: 'David Zayas',
-      }
+      },
     ],
     coverUrl: '/series_pictures/81JKXT1j0OL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '2006-10-01',
@@ -950,7 +950,7 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 8,
         nbEpisodes: 12,
         totalLength: 720,
-      }
+      },
     ],
     description: '',
     saga: 'Dexter',
@@ -1150,7 +1150,7 @@ export const baseSeries: BaseSerie[] = [
       },
       {
         name: 'Emilia Clarke',
-      }
+      },
     ],
     coverUrl: '/series_pictures/Poster_Saison_1.webp',
     releaseDate: '2011-04-17',
@@ -1196,7 +1196,7 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 8,
         nbEpisodes: 6,
         totalLength: 447,
-      }
+      },
     ],
     description: '',
     saga: 'Game of Thrones',
@@ -1342,7 +1342,7 @@ export const baseSeries: BaseSerie[] = [
       },
       {
         name: 'Masi Oka',
-      }
+      },
     ],
     coverUrl:
       '/series_pictures/MV5BMjI3ODU0OTQ1MV5BMl5BanBnXkFtZTgwNzI0MTQ2MzE@._V1_.jpg',
@@ -1369,7 +1369,7 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 4,
         nbEpisodes: 19,
         totalLength: 1140,
-      }
+      },
     ],
     description: '',
     saga: 'Heroes',
@@ -1387,7 +1387,7 @@ export const baseSeries: BaseSerie[] = [
       },
       {
         name: 'Judith Shekoni',
-      }
+      },
     ],
     coverUrl: '/series_pictures/11246648-2194500920679885.avif',
     releaseDate: '2015-09-24',
@@ -1398,7 +1398,7 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 1,
         nbEpisodes: 13,
         totalLength: 780,
-      }
+      },
     ],
     description: '',
     saga: 'Heroes',
@@ -1902,7 +1902,7 @@ export const baseSeries: BaseSerie[] = [
       },
       {
         name: 'Kevin Alejandro',
-      }
+      },
     ],
     coverUrl:
       '/series_pictures/MV5BYzMwNzI3MWItZTIzYi00YjkxLThhOWQtYmUwYjg4NWM0ZWI1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
@@ -1939,7 +1939,7 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 6,
         nbEpisodes: 10,
         totalLength: 530,
-      }
+      },
     ],
     description: '',
     saga: 'DC Comics',
@@ -1957,7 +1957,7 @@ export const baseSeries: BaseSerie[] = [
       },
       {
         name: 'Simone Missick',
-      }
+      },
     ],
     coverUrl:
       '/series_pictures/MV5BMTcyMzc1MjI5MF5BMl5BanBnXkFtZTgwMzE4ODY2OTE@._V1_.jpg',
@@ -1974,7 +1974,7 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 2,
         nbEpisodes: 13,
         totalLength: 764,
-      }
+      },
     ],
     description: '',
     saga: 'Marvel Cinematic Universe',
@@ -2436,6 +2436,11 @@ export const baseSeries: BaseSerie[] = [
         nbEpisodes: 8,
         totalLength: 448,
       },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 8,
+        totalLength: 481,
+      },
     ],
     description: '',
     saga: '',
@@ -2675,7 +2680,7 @@ export const baseSeries: BaseSerie[] = [
       },
       {
         name: 'Kristin Kreuk',
-      }
+      },
     ],
     coverUrl:
       '/series_pictures/MV5BZDU0ZDVjOTItMDNkMy00YTI0LWFjYzItY2M1NjU5NjAzZGViXkEyXkFqcGc@._V1_.jpg',
@@ -2732,7 +2737,7 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 10,
         nbEpisodes: 22,
         totalLength: 1320,
-      }
+      },
     ],
     description: '',
     saga: 'DC Comics',
@@ -3106,7 +3111,7 @@ export const baseSeries: BaseSerie[] = [
       },
       {
         name: 'Jordan Elsass',
-      }
+      },
     ],
     coverUrl: '/series_pictures/3782519.webp',
     releaseDate: '2021-02-23',
@@ -3132,7 +3137,7 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 4,
         nbEpisodes: 10,
         totalLength: 600,
-      }
+      },
     ],
     description: '',
     saga: 'ArrowVerse',
@@ -3464,7 +3469,7 @@ export const baseSeries: BaseSerie[] = [
       },
       {
         name: 'Danielle Panabaker',
-      }
+      },
     ],
     coverUrl: '/series_pictures/81lGgNZx70L._UF894,1000_QL80_.jpg',
     releaseDate: '2014-10-07',
@@ -3515,7 +3520,7 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 9,
         nbEpisodes: 13,
         totalLength: 780,
-      }
+      },
     ],
     description: '',
     saga: 'ArrowVerse',
@@ -3603,7 +3608,7 @@ export const baseSeries: BaseSerie[] = [
       },
       {
         name: 'Claire Holt',
-      }
+      },
     ],
     coverUrl:
       '/series_pictures/do-you-think-the-originals-is-worth-watching-especially-v0-ywu6f4w796ke1.webp',
@@ -3635,7 +3640,7 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 5,
         nbEpisodes: 13,
         totalLength: 780,
-      }
+      },
     ],
     description: '',
     saga: 'Vampire Diaries',
@@ -3747,7 +3752,7 @@ export const baseSeries: BaseSerie[] = [
       },
       {
         name: 'Ian Somerhalder',
-      }
+      },
     ],
     coverUrl:
       '/series_pictures/MV5BMmNjOWQzYmYtNGYxOS00MjVkLTg1MWUtMTkzMGE0MDgwNzQ5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
@@ -3794,7 +3799,7 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 8,
         nbEpisodes: 16,
         totalLength: 960,
-      }
+      },
     ],
     description: '',
     saga: 'Vampire Diaries',
