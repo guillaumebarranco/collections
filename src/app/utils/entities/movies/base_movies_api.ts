@@ -648,7 +648,7 @@ export const baseMoviesApi: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://fr.web.img6.acsta.net/img/ff/a9/ffa9ece0041769e66fb572c6d8a458a3.jpg',
+      '/movies_pictures/a4314bd0a23f.jpg',
     releaseDate: '2025-05-22',
     length: 125,
     genre: 'Comédie dramatique',

@@ -4,7 +4,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Pierre et Jean',
     author: 'Guy de Maupassant',
-    coverUrl: '',
+    coverUrl: '/books_pictures/d3817323dfca.jpg',
     pages: 188,
     genre: 'Classiques',
     saga: '',
@@ -18,8 +18,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Mont-Oriol',
     author: 'Guy de Maupassant',
-    coverUrl:
-      'https://www.livredepoche.com/livre/mont-oriol-nouvelle-edition-9782253183235/',
+    coverUrl: '/books_pictures/e331835c2e7a.jpg',
     pages: 371,
     genre: 'Classiques',
     saga: '',
@@ -33,7 +32,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Fort comme la mort',
     author: 'Guy de Maupassant',
-    coverUrl: '',
+    coverUrl: '/books_pictures/30e3737f40a9.jpg',
     pages: 280,
     genre: 'Classiques',
     saga: '',
@@ -46,7 +45,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Notre Cœur',
     author: 'Guy de Maupassant',
-    coverUrl: '',
+    coverUrl: '/books_pictures/5c2b83c1e6b9.jpg',
     pages: 256,
     genre: 'Classiques',
     saga: '',
@@ -59,7 +58,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'La Maison Tellier',
     author: 'Guy de Maupassant',
-    coverUrl: '',
+    coverUrl: '/books_pictures/237c574533e5.jpg',
     pages: 192,
     genre: 'Classiques',
     saga: '',
@@ -72,7 +71,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "L'Inutile Beauté",
     author: 'Guy de Maupassant',
-    coverUrl: '',
+    coverUrl: '/books_pictures/c739c5639773.jpg',
     pages: 128,
     genre: 'Classiques',
     saga: '',
@@ -85,7 +84,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Au soleil',
     author: 'Guy de Maupassant',
-    coverUrl: '',
+    coverUrl: '/books_pictures/d85a64547bca.jpg',
     pages: 224,
     genre: 'Classiques',
     saga: '',
@@ -98,7 +97,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "Sur l'eau",
     author: 'Guy de Maupassant',
-    coverUrl: '',
+    coverUrl: '/books_pictures/14488d5168cf.jpg',
     pages: 176,
     genre: 'Classiques',
     saga: '',
@@ -111,7 +110,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'La Vie errante',
     author: 'Guy de Maupassant',
-    coverUrl: '',
+    coverUrl: '/books_pictures/c90a8f4e0151.jpg',
     pages: 288,
     genre: 'Classiques',
     saga: '',
@@ -124,7 +123,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Contes de la bécasse',
     author: 'Guy de Maupassant',
-    coverUrl: '',
+    coverUrl: '/books_pictures/8fb0aba4cc4c.jpg',
     pages: 192,
     genre: 'Classiques',
     saga: '',
@@ -137,7 +136,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "L'Education sentimentale",
     author: 'Gustave Flaubert',
-    coverUrl: '',
+    coverUrl: '/books_pictures/c951e8b9ddab.jpeg',
     pages: 480,
     genre: 'Classiques',
     saga: '',
@@ -150,7 +149,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Salammbô',
     author: 'Gustave Flaubert',
-    coverUrl: '',
+    coverUrl: '/books_pictures/ac3bb18c67a3.jpg',
     pages: 448,
     genre: 'Classiques',
     saga: '',
@@ -163,7 +162,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Trois contes',
     author: 'Gustave Flaubert',
-    coverUrl: '',
+    coverUrl: '/books_pictures/73d028dcf8f3.jpg',
     pages: 160,
     genre: 'Classiques',
     saga: '',
@@ -176,7 +175,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Bouvard et Pécuchet',
     author: 'Gustave Flaubert',
-    coverUrl: '',
+    coverUrl: '/books_pictures/40cbd195d0be.jpg',
     pages: 400,
     genre: 'Classiques',
     saga: '',
@@ -189,7 +188,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Dictionnaire des idées reçues',
     author: 'Gustave Flaubert',
-    coverUrl: '',
+    coverUrl: '/books_pictures/2ba6cf2070ef.jpg',
     pages: 128,
     genre: 'Classiques',
     saga: '',
@@ -202,7 +201,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Thérèse Raquin',
     author: 'Émile Zola',
-    coverUrl: '',
+    coverUrl: '/books_pictures/493faba2f07e.jpg',
     pages: 311,
     genre: 'Classiques',
     saga: '',
@@ -215,7 +214,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'La Fortune des Rougon',
     author: 'Émile Zola',
-    coverUrl: '',
+    coverUrl: '/books_pictures/bf2e2750e9d9.jpg',
     pages: 448,
     genre: 'Classiques',
     saga: 'Les Rougon-Macquart',
@@ -228,7 +227,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'La Curée',
     author: 'Émile Zola',
-    coverUrl: '',
+    coverUrl: '/books_pictures/796331b11e49.jpg',
     pages: 384,
     genre: 'Classiques',
     saga: 'Les Rougon-Macquart',
@@ -241,7 +240,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Le Ventre de Paris',
     author: 'Émile Zola',
-    coverUrl: '',
+    coverUrl: '/books_pictures/d7f7584759a0.jpg',
     pages: 384,
     genre: 'Classiques',
     saga: 'Les Rougon-Macquart',
@@ -254,7 +253,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'La Bête humaine',
     author: 'Émile Zola',
-    coverUrl: '',
+    coverUrl: '/books_pictures/342f1773a8da.jpg',
     pages: 448,
     genre: 'Classiques',
     saga: 'Les Rougon-Macquart',
@@ -267,7 +266,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Joyland',
     author: 'Stephen King',
-    coverUrl: '',
+    coverUrl: '/books_pictures/0bd2337764fb.jpg',
     pages: 288,
     genre: 'Horror',
     saga: '',
@@ -280,7 +279,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Salem',
     author: 'Stephen King',
-    coverUrl: '',
+    coverUrl: '/books_pictures/90d250f58068.jpg',
     pages: 439,
     genre: 'Horror',
     saga: '',
@@ -293,7 +292,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Simetierre',
     author: 'Stephen King',
-    coverUrl: '',
+    coverUrl: '/books_pictures/77bf0d05166d.jpg',
     pages: 416,
     genre: 'Horror',
     saga: '',
@@ -306,7 +305,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Misery',
     author: 'Stephen King',
-    coverUrl: '',
+    coverUrl: '/books_pictures/847dea961e8c.jpg',
     pages: 310,
     genre: 'Horror',
     saga: '',
@@ -319,7 +318,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'La Ligne verte',
     author: 'Stephen King',
-    coverUrl: '',
+    coverUrl: '/books_pictures/e56de663301e.jpg',
     pages: 496,
     genre: 'Horror',
     saga: '',
@@ -332,7 +331,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'La peau sur les os',
     author: 'Stephen King',
-    coverUrl: '',
+    coverUrl: '/books_pictures/e2a0538eeedc.jpg',
     pages: 416,
     genre: 'Horror',
     saga: '',
@@ -345,7 +344,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: '22/11/63',
     author: 'Stephen King',
-    coverUrl: '',
+    coverUrl: '/books_pictures/b7acaa774439.jpg',
     pages: 849,
     genre: 'Horror',
     saga: '',
@@ -358,7 +357,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Docteur Sleep',
     author: 'Stephen King',
-    coverUrl: '',
+    coverUrl: '/books_pictures/3d9f85842ec2.jpg',
     pages: 544,
     genre: 'Horror',
     saga: '',
@@ -371,7 +370,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Marche ou crève',
     author: 'Stephen King',
-    coverUrl: '',
+    coverUrl: '/books_pictures/811545e1be78.jpg',
     pages: 384,
     genre: 'Horror',
     saga: '',
@@ -384,7 +383,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Running man',
     author: 'Stephen King',
-    coverUrl: '',
+    coverUrl: '/books_pictures/9498990c7b1b.jpg',
     pages: 224,
     genre: 'Horror',
     saga: '',
@@ -397,7 +396,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Mr. Mercedes',
     author: 'Stephen King',
-    coverUrl: '',
+    coverUrl: '/books_pictures/3ffc2ff71e46.jpg',
     pages: 436,
     genre: 'Horror',
     saga: 'Trilogie Bill Hodges',
@@ -410,7 +409,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Carnets noirs',
     author: 'Stephen King',
-    coverUrl: '',
+    coverUrl: '/books_pictures/47d063659577.jpg',
     pages: 560,
     genre: 'Horror',
     saga: 'Trilogie Bill Hodges',
@@ -423,7 +422,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Fin de ronde',
     author: 'Stephen King',
-    coverUrl: '',
+    coverUrl: '/books_pictures/4e70c5a88d9c.jpg',
     pages: 496,
     genre: 'Horror',
     saga: 'Trilogie Bill Hodges',
@@ -436,7 +435,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Le Père Goriot',
     author: 'Honoré de Balzac',
-    coverUrl: '',
+    coverUrl: '/books_pictures/a0b7c2440be3.jpg',
     pages: 368,
     genre: 'Classiques',
     saga: 'La Comédie humaine',
@@ -449,7 +448,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "La Fille aux yeux d'or",
     author: 'Honoré de Balzac',
-    coverUrl: '',
+    coverUrl: '/books_pictures/d4dcc16fbe6f.jpg',
     pages: 192,
     genre: 'Classiques',
     saga: 'La Comédie humaine',
@@ -462,7 +461,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'À rebours',
     author: 'Joris-Karl Huysmans',
-    coverUrl: '',
+    coverUrl: '/books_pictures/dfcbfead5d0a.jpg',
     pages: 224,
     genre: 'Classiques',
     saga: '',
@@ -475,7 +474,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Le Drageoir aux épices',
     author: 'Joris-Karl Huysmans',
-    coverUrl: '',
+    coverUrl: '/books_pictures/89c3b0d9726a.jpg',
     pages: 160,
     genre: 'Classiques',
     saga: '',
@@ -488,7 +487,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Les Soirées de Médan',
     author: 'Émile Zola',
-    coverUrl: '',
+    coverUrl: '/books_pictures/7e408b551865.jpg',
     pages: 256,
     genre: 'Classiques',
     saga: '',
@@ -501,7 +500,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Les Travailleurs de la mer',
     author: 'Victor Hugo',
-    coverUrl: '',
+    coverUrl: '/books_pictures/6cbc4bf9c50e.jpg',
     pages: 496,
     genre: 'Classiques',
     saga: '',
@@ -514,7 +513,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Ruy Blas',
     author: 'Victor Hugo',
-    coverUrl: '',
+    coverUrl: '/books_pictures/967d9ea5b70d.jpg',
     pages: 256,
     genre: 'Classiques',
     saga: '',
@@ -527,7 +526,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Petits Poèmes en prose',
     author: 'Charles Baudelaire',
-    coverUrl: '',
+    coverUrl: '/books_pictures/ea6e6d99f3b0.jpg',
     pages: 192,
     genre: 'Classiques',
     saga: '',
@@ -540,7 +539,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Les Fleurs du Mal',
     author: 'Charles Baudelaire',
-    coverUrl: '',
+    coverUrl: '/books_pictures/e9fe982059d6.jpg',
     pages: 320,
     genre: 'Classiques',
     saga: '',
@@ -553,7 +552,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Fêtes galantes',
     author: 'Paul Verlaine',
-    coverUrl: '',
+    coverUrl: '/books_pictures/d7fb37d6def8.jpg',
     pages: 96,
     genre: 'Classiques',
     saga: '',
@@ -566,7 +565,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Poèmes saturniens',
     author: 'Paul Verlaine',
-    coverUrl: '',
+    coverUrl: '/books_pictures/bc9ea8bcefec.jpg',
     pages: 128,
     genre: 'Classiques',
     saga: '',
@@ -579,7 +578,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Romances sans paroles',
     author: 'Paul Verlaine',
-    coverUrl: '',
+    coverUrl: '/books_pictures/ba382ac2d438.jpg',
     pages: 96,
     genre: 'Classiques',
     saga: '',
@@ -592,7 +591,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Une saison en enfer',
     author: 'Arthur Rimbaud',
-    coverUrl: '',
+    coverUrl: '/books_pictures/6568a21c6542.jpg',
     pages: 96,
     genre: 'Classiques',
     saga: '',
@@ -605,7 +604,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Les Illuminations',
     author: 'Arthur Rimbaud',
-    coverUrl: '',
+    coverUrl: '/books_pictures/ac0aa5d17709.jpg',
     pages: 128,
     genre: 'Classiques',
     saga: '',
@@ -618,7 +617,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Méditations poétiques',
     author: 'Alphonse de Lamartine',
-    coverUrl: '',
+    coverUrl: '/books_pictures/63701820615a.jpg',
     pages: 256,
     genre: 'Classiques',
     saga: '',
@@ -631,7 +630,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Les Diaboliques',
     author: "Barbey d'Aurevilly",
-    coverUrl: '',
+    coverUrl: '/books_pictures/781b59f7ad05.jpg',
     pages: 320,
     genre: 'Classiques',
     saga: '',
@@ -644,7 +643,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Les Amours jaunes',
     author: 'Tristan Corbière',
-    coverUrl: '',
+    coverUrl: '/books_pictures/6bba8671d71e.jpg',
     pages: 192,
     genre: 'Classiques',
     saga: '',
@@ -657,7 +656,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'La Naissance de la tragédie',
     author: 'Friedrich Nietzsche',
-    coverUrl: '',
+    coverUrl: '/books_pictures/204143b96f15.jpg',
     pages: 192,
     genre: 'Classiques',
     saga: '',
@@ -670,7 +669,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "La Vénus d'Ille",
     author: 'Prosper Mérimée',
-    coverUrl: '',
+    coverUrl: '/books_pictures/293b64a6fec1.jpg',
     pages: 96,
     genre: 'Classiques',
     saga: '',
@@ -683,7 +682,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "Les Crimes de l'amour",
     author: 'Marquis de Sade',
-    coverUrl: '',
+    coverUrl: '/books_pictures/a8b35b9c0fa7.jpg',
     pages: 384,
     genre: 'Classiques',
     saga: '',
@@ -696,7 +695,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'La Philosophie dans le boudoir',
     author: 'Marquis de Sade',
-    coverUrl: '',
+    coverUrl: '/books_pictures/30f9c5f6456a.jpg',
     pages: 224,
     genre: 'Classiques',
     saga: '',
@@ -709,7 +708,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Les Rêveries du promeneur solitaire',
     author: 'Jean-Jacques Rousseau',
-    coverUrl: '',
+    coverUrl: '/books_pictures/8267b7ff5c52.jpg',
     pages: 128,
     genre: 'Classiques',
     saga: '',
@@ -722,7 +721,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'La Religieuse',
     author: 'Denis Diderot',
-    coverUrl: '',
+    coverUrl: '/books_pictures/b5eb03c0a733.jpg',
     pages: 288,
     genre: 'Classiques',
     saga: '',
@@ -735,7 +734,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Les Salons',
     author: 'Denis Diderot',
-    coverUrl: '',
+    coverUrl: '/books_pictures/3046329feee7.jpg',
     pages: 384,
     genre: 'Classiques',
     saga: '',
@@ -748,7 +747,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "Les Egarements du cœur et de l'esprit",
     author: 'Crébillon fils',
-    coverUrl: '',
+    coverUrl: '/books_pictures/f9de3a6f4204.jpg',
     pages: 288,
     genre: 'Classiques',
     saga: '',
@@ -761,7 +760,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Atala',
     author: 'François-René de Chateaubriand',
-    coverUrl: '',
+    coverUrl: '/books_pictures/b26ff3a4d0ec.jpg',
     pages: 128,
     genre: 'Classiques',
     saga: '',
@@ -774,7 +773,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Les Souffrances du jeune Werther',
     author: 'Johann Wolfgang von Goethe',
-    coverUrl: '',
+    coverUrl: '/books_pictures/2a8d83ca66a7.jpg',
     pages: 176,
     genre: 'Classiques',
     saga: '',
@@ -787,7 +786,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Manon Lescaut',
     author: 'Abbé Prévost',
-    coverUrl: '',
+    coverUrl: '/books_pictures/05bc5e6a881b.jpg',
     pages: 192,
     genre: 'Classiques',
     saga: '',
@@ -800,7 +799,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "Après m'avoir fait tant mourir",
     author: 'Théophile de Viau',
-    coverUrl: '',
+    coverUrl: '/books_pictures/344fb88f595c.jpg',
     pages: 128,
     genre: 'Classiques',
     saga: '',
@@ -813,7 +812,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Fables',
     author: 'Jean de La Fontaine',
-    coverUrl: '',
+    coverUrl: '/books_pictures/1cd6529ffca8.jpg',
     pages: 384,
     genre: 'Classiques',
     saga: '',
@@ -826,7 +825,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Les Amours de Psyché et de Cupidon',
     author: 'Jean de La Fontaine',
-    coverUrl: '',
+    coverUrl: '/books_pictures/9b6858a1abab.jpg',
     pages: 224,
     genre: 'Classiques',
     saga: '',
@@ -839,7 +838,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Contes',
     author: 'Charles Perrault',
-    coverUrl: '',
+    coverUrl: '/books_pictures/85e273ccd2fd.jpg',
     pages: 128,
     genre: 'Classiques',
     saga: '',
@@ -852,7 +851,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "L'Autre monde",
     author: 'Cyrano de Bergerac',
-    coverUrl: '',
+    coverUrl: '/books_pictures/6b3989ec820f.jpg',
     pages: 256,
     genre: 'Classiques',
     saga: '',
@@ -865,7 +864,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Le Médecin volant',
     author: 'Molière',
-    coverUrl: '',
+    coverUrl: 'https://images.epagine.fr/341/9782290234341_1_75.jpg',
     pages: 64,
     genre: 'Classiques',
     saga: '',

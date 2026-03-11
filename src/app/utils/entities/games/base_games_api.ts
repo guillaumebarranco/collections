@@ -814,7 +814,7 @@ export const baseGamesApi: BaseGame[] = [
     title: 'Sifu',
     editor: 'Kepler Interactive',
     hero: '',
-    coverUrl: 'https://upload.wikimedia.org/wikipedia/en/e/e3/Sifu_cover_art.jpg',
+    coverUrl: '/games_pictures/c3eeea9ecc47.jpg',
     releaseDate: '2022-11-08',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 0,
