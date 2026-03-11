@@ -2135,7 +2135,7 @@ export const masterofmadnessBooks: UserBook[] = [
   },
   {
     title: "L'Etoile d'Alger",
-    author: 'Abdelkader Chouaki',
+    author: 'Aziz Chouaki',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,

@@ -877,8 +877,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Le Médecin malgré lui',
     author: 'Molière',
-    coverUrl:
-      '/books_pictures/d63ced97812b.jpg',
+    coverUrl: '/books_pictures/d63ced97812b.jpg',
     pages: 128,
     genre: 'Classiques',
     saga: '',
@@ -891,8 +890,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'George Dandin',
     author: 'Molière',
-    coverUrl:
-      '/books_pictures/3538c880bf5a.jpg',
+    coverUrl: '/books_pictures/3538c880bf5a.jpg',
     pages: 96,
     genre: 'Classiques',
     saga: '',
@@ -905,8 +903,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Dom Juan',
     author: 'Molière',
-    coverUrl:
-      '/books_pictures/f4e44cd03f07.jpg',
+    coverUrl: '/books_pictures/f4e44cd03f07.jpg',
     pages: 176,
     genre: 'Classiques',
     saga: '',
@@ -919,8 +916,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Médée',
     author: 'Pierre Corneille',
-    coverUrl:
-      '/books_pictures/cfdeffd52486.jpg',
+    coverUrl: '/books_pictures/cfdeffd52486.jpg',
     pages: 128,
     genre: 'Classiques',
     saga: '',
@@ -933,8 +929,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Le Menteur',
     author: 'Pierre Corneille',
-    coverUrl:
-      '/books_pictures/7aa78049216a.jpg',
+    coverUrl: '/books_pictures/7aa78049216a.jpg',
     pages: 160,
     genre: 'Classiques',
     saga: '',
@@ -960,8 +955,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Phèdre',
     author: 'Jean Racine',
-    coverUrl:
-      '/books_pictures/21397ae82686.jpg',
+    coverUrl: '/books_pictures/21397ae82686.jpg',
     pages: 128,
     genre: 'Classiques',
     saga: '',
@@ -987,8 +981,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Britannicus',
     author: 'Jean Racine',
-    coverUrl:
-      '/books_pictures/7a445932caaa.jpg',
+    coverUrl: '/books_pictures/7a445932caaa.jpg',
     pages: 128,
     genre: 'Classiques',
     saga: '',
@@ -1001,8 +994,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Bérénice',
     author: 'Jean Racine',
-    coverUrl:
-      '/books_pictures/125c76d7034f.jpg',
+    coverUrl: '/books_pictures/125c76d7034f.jpg',
     pages: 96,
     genre: 'Classiques',
     saga: '',
@@ -1015,8 +1007,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Pour un nouveau roman',
     author: 'Alain Robbe-Grillet',
-    coverUrl:
-      '/books_pictures/4f4768d0aa86.jpg',
+    coverUrl: '/books_pictures/4f4768d0aa86.jpg',
     pages: 192,
     genre: 'Littérature',
     saga: '',
@@ -1042,8 +1033,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Djinn',
     author: 'Alain Robbe-Grillet',
-    coverUrl:
-      '/books_pictures/cf82f25834b4.jpg',
+    coverUrl: '/books_pictures/cf82f25834b4.jpg',
     pages: 192,
     genre: 'Littérature',
     saga: '',
@@ -1056,8 +1046,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'La Jalousie',
     author: 'Alain Robbe-Grillet',
-    coverUrl:
-      '/books_pictures/0a958eb202f4.jpg',
+    coverUrl: '/books_pictures/0a958eb202f4.jpg',
     pages: 224,
     genre: 'Littérature',
     saga: '',
@@ -1070,8 +1059,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'La Modification',
     author: 'Michel Butor',
-    coverUrl:
-      '/books_pictures/a482487bbd43.jpg',
+    coverUrl: '/books_pictures/a482487bbd43.jpg',
     pages: 256,
     genre: 'Littérature',
     saga: '',
@@ -1084,8 +1072,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "L'Emploi du temps",
     author: 'Michel Butor',
-    coverUrl:
-      '/books_pictures/16e639cc21f2.jpg',
+    coverUrl: '/books_pictures/16e639cc21f2.jpg',
     pages: 288,
     genre: 'Littérature',
     saga: '',
@@ -1098,8 +1085,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Petite histoire de la littérature française',
     author: 'Michel Butor',
-    coverUrl:
-      '/books_pictures/0e63183c7042.jpg',
+    coverUrl: '/books_pictures/0e63183c7042.jpg',
     pages: 256,
     genre: 'Littérature',
     saga: '',
@@ -1112,8 +1098,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Les Choses',
     author: 'Georges Perec',
-    coverUrl:
-      '/books_pictures/ac42acd501fd.jpg',
+    coverUrl: '/books_pictures/ac42acd501fd.jpg',
     pages: 160,
     genre: 'Littérature',
     saga: '',
@@ -1126,8 +1111,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Passacaille',
     author: 'Robert Pinget',
-    coverUrl:
-      '/books_pictures/66fb5349ff10.jpg',
+    coverUrl: '/books_pictures/66fb5349ff10.jpg',
     pages: 192,
     genre: 'Littérature',
     saga: '',
@@ -1140,8 +1124,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Aurélien',
     author: 'Louis Aragon',
-    coverUrl:
-      '/books_pictures/07b3302925a8.jpg',
+    coverUrl: '/books_pictures/07b3302925a8.jpg',
     pages: 576,
     genre: 'Littérature',
     saga: '',
@@ -1193,8 +1176,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Calligrammes',
     author: 'Guillaume Apollinaire',
-    coverUrl:
-      '/books_pictures/753fefd02b97.jpg',
+    coverUrl: '/books_pictures/753fefd02b97.jpg',
     pages: 208,
     genre: 'Littérature',
     saga: '',
@@ -1207,8 +1189,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "L'Eau et les Rêves",
     author: 'Gaston Bachelard',
-    coverUrl:
-      '/books_pictures/b4cc7eb3244a.jpg',
+    coverUrl: '/books_pictures/b4cc7eb3244a.jpg',
     pages: 256,
     genre: 'Littérature',
     saga: '',
@@ -1234,8 +1215,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "Fragments d'un discours amoureux",
     author: 'Roland Barthes',
-    coverUrl:
-      '/books_pictures/626389d648ee.jpg',
+    coverUrl: '/books_pictures/626389d648ee.jpg',
     pages: 256,
     genre: 'Littérature',
     saga: '',
@@ -1248,8 +1228,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Autobiographie des objets',
     author: 'François Bon',
-    coverUrl:
-      '/books_pictures/e4bc8f9e7c24.jpg',
+    coverUrl: '/books_pictures/e4bc8f9e7c24.jpg',
     pages: 256,
     genre: 'Littérature',
     saga: '',
@@ -1262,8 +1241,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "Sortie d'usine",
     author: 'François Bon',
-    coverUrl:
-      '/books_pictures/36e2d72d1abe.webp',
+    coverUrl: '/books_pictures/36e2d72d1abe.webp',
     pages: 128,
     genre: 'Littérature',
     saga: '',
@@ -1289,7 +1267,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Les Soleils des indépendances',
     author: 'Ahmadou Kourouma',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/ddfe57bc0c9e.jpg',
     pages: 224,
     genre: 'Littérature',
     saga: '',
@@ -1302,7 +1281,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "Allah n'est pas obligé",
     author: 'Ahmadou Kourouma',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/eca630a37166.jpg',
     pages: 208,
     genre: 'Littérature',
     saga: '',
@@ -1315,7 +1295,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "Cahier d'un retour au pays natal",
     author: 'Aimé Césaire',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/f3c9718b22e9.jpg',
     pages: 96,
     genre: 'Littérature',
     saga: '',
@@ -1328,7 +1309,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Texaco',
     author: 'Patrick Chamoiseau',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/68894e5278d1.jpg',
     pages: 448,
     genre: 'Littérature',
     saga: '',
@@ -1341,7 +1323,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Solibo magnifique',
     author: 'Patrick Chamoiseau',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/0f60d291e755.jpg',
     pages: 256,
     genre: 'Littérature',
     saga: '',
@@ -1354,7 +1337,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Pays rêvé, Pays réel',
     author: 'Édouard Glissant',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/6e7ff21a2f6b.jpg',
     pages: 192,
     genre: 'Littérature',
     saga: '',
@@ -1367,7 +1351,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Lettre à la femme aimée au sujet de la mort',
     author: 'Siméon',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/2b7dfcba0ae1.webp',
     pages: 64,
     genre: 'Littérature',
     saga: '',
@@ -1380,7 +1365,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Petite éloge de la poésie',
     author: 'Siméon',
-    coverUrl: '',
+    coverUrl: '/books_pictures/381fff280ef1.jpg',
     pages: 64,
     genre: 'Littérature',
     saga: '',
@@ -1393,7 +1378,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Du côté de chez Swan',
     author: 'Marcel Proust',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/3a82ad288ffb.jpg',
     pages: 528,
     genre: 'Littérature',
     saga: 'À la recherche du temps perdu',
@@ -1405,8 +1391,9 @@ export const baseBooksFromMom: BaseBook[] = [
   },
   {
     title: "L'Etoile d'Alger",
-    author: 'Abdelkader Chouaki',
-    coverUrl: '',
+    author: 'Aziz Chouaki',
+    coverUrl:
+      '/books_pictures/778df0662589.jpg',
     pages: 192,
     genre: 'Littérature',
     saga: '',
@@ -1419,7 +1406,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Nedjma',
     author: 'Kateb Yacine',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/486038417305.jpg',
     pages: 256,
     genre: 'Littérature',
     saga: '',
@@ -1432,7 +1420,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Le cercle des représailles',
     author: 'Kateb Yacine',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/77d5db8ae6e2.jpg',
     pages: 320,
     genre: 'Littérature',
     saga: '',
@@ -1445,7 +1434,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Pour un oui ou pour un non',
     author: 'Nathalie Sarraute',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/7b0a345a8baf.webp',
     pages: 64,
     genre: 'Littérature',
     saga: '',
@@ -1458,7 +1448,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Juste la fin du monde',
     author: 'Jean-Luc Lagarce',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/085f94b32c51.jpg',
     pages: 96,
     genre: 'Littérature',
     saga: '',
@@ -1471,7 +1462,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Roberto Zucco',
     author: 'Bernard-Marie Koltès',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/5099a91040f9.jpg',
     pages: 128,
     genre: 'Littérature',
     saga: '',
@@ -1484,7 +1476,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Ronce-Rose',
     author: 'Éric Chevillard',
-    coverUrl: '',
+    coverUrl: '/books_pictures/506fb8d909ef.jpg',
     pages: 160,
     genre: 'Littérature',
     saga: '',
@@ -1497,7 +1489,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Oreille rouge',
     author: 'Éric Chevillard',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/7a62e1100c91.jpg',
     pages: 176,
     genre: 'Littérature',
     saga: '',
@@ -1510,7 +1503,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Aurais-je été résistant ou bourreau ?',
     author: 'Pierre Bayard',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/20a4e69afac5.jpg',
     pages: 192,
     genre: 'Littérature',
     saga: '',
@@ -1523,7 +1517,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Huis clos',
     author: 'Jean-Paul Sartre',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/a0174c98fa00.jpg',
     pages: 96,
     genre: 'Littérature',
     saga: '',
@@ -1536,7 +1531,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Les Mots',
     author: 'Jean-Paul Sartre',
-    coverUrl: '',
+    coverUrl: '/books_pictures/51c9769c66d1.jpg',
     pages: 224,
     genre: 'Littérature',
     saga: '',
@@ -1549,7 +1544,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Je suis un écrivain japonais',
     author: 'Dany Laferrière',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/2c81f7ffc786.jpg',
     pages: 192,
     genre: 'Littérature',
     saga: '',
@@ -1562,7 +1558,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "Nous, l'Europe banquet des peuples",
     author: 'Laurent Gaudé',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/55d9d7eb8023.jpg',
     pages: 96,
     genre: 'Littérature',
     saga: '',
@@ -1575,7 +1572,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Chien 51',
     author: 'Laurent Gaudé',
-    coverUrl: '',
+    coverUrl: '/books_pictures/884a8e95162d.jpg',
     pages: 128,
     genre: 'Littérature',
     saga: '',
@@ -1588,7 +1585,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Zem',
     author: 'Laurent Gaudé',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/7ccf8ee8fa8c.jpg',
     pages: 128,
     genre: 'Littérature',
     saga: '',
@@ -1601,7 +1599,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Cahier de verdure',
     author: 'Philippe Jaccottet',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/a83b3c4033f9.jpg',
     pages: 128,
     genre: 'Littérature',
     saga: '',
@@ -1614,7 +1613,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Eupalinos',
     author: 'Paul Valéry',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/4e3c99d50046.jpg',
     pages: 128,
     genre: 'Littérature',
     saga: '',
@@ -1627,7 +1627,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "Connaissance de l'Est",
     author: 'Paul Claudel',
-    coverUrl: '',
+    coverUrl: '/books_pictures/491fa6bcb9fa.jpg',
     pages: 192,
     genre: 'Littérature',
     saga: '',
@@ -1640,7 +1640,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Clair-obscur',
     author: 'Jean Cocteau',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/bdd0a7dedd45.jpg',
     pages: 128,
     genre: 'Littérature',
     saga: '',
@@ -1653,7 +1654,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Le parti pris des choses',
     author: 'Francis Ponge',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/b5790b7385d3.jpg',
     pages: 128,
     genre: 'Littérature',
     saga: '',
@@ -1666,7 +1668,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'La Terre et le sang',
     author: 'Mouloud Feraoun',
-    coverUrl: '',
+    coverUrl: '/books_pictures/7c4fd5b4f247.jpg',
     pages: 256,
     genre: 'Littérature',
     saga: '',
@@ -1679,7 +1681,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Le Fils du pauvre',
     author: 'Mouloud Feraoun',
-    coverUrl: '',
+    coverUrl: '/books_pictures/be8a50596cfc.jpg',
     pages: 192,
     genre: 'Littérature',
     saga: '',
@@ -1692,7 +1694,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Les Hirondelles de Kaboul',
     author: 'Yasmina Khadra',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/1349dfdb28f1.jpg',
     pages: 256,
     genre: 'Littérature',
     saga: '',
@@ -1705,7 +1708,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Ce que le jour doit à la nuit',
     author: 'Yasmina Khadra',
-    coverUrl: '',
+    coverUrl: '/books_pictures/8cc5564fed26.jpg',
     pages: 448,
     genre: 'Littérature',
     saga: '',
@@ -1718,7 +1721,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "L'Attentat",
     author: 'Yasmina Khadra',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/77553e1feaa2.jpg',
     pages: 320,
     genre: 'Littérature',
     saga: '',
@@ -1731,7 +1735,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Comme un roman',
     author: 'Daniel Pennac',
-    coverUrl: '',
+    coverUrl: '/books_pictures/abad80761580.jpg',
     pages: 208,
     genre: 'Littérature',
     saga: '',
@@ -1744,7 +1748,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'La Fée Carabine',
     author: 'Daniel Pennac',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/4ba9051a663f.jpg',
     pages: 352,
     genre: 'Littérature',
     saga: 'Malaussène',
@@ -1757,7 +1762,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Des souris et des hommes',
     author: 'John Steinbeck',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/9591cfd27461.jpg',
     pages: 192,
     genre: 'Littérature',
     saga: '',
@@ -1770,7 +1776,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Vipère au poing',
     author: 'Hervé Bazin',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/86439493fe68.jpg',
     pages: 256,
     genre: 'Littérature',
     saga: '',
@@ -1783,7 +1790,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Terrienne',
     author: 'Jean-Claude Mourlevat',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/103a5ea6478a.jpg',
     pages: 384,
     genre: 'Jeunesse',
     saga: '',
@@ -1796,7 +1804,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Noire – la vie méconnue de Claudette Colvin',
     author: 'Tania de Montaigne',
-    coverUrl: '',
+    coverUrl: '/books_pictures/7151e5bc7644.jpg',
     pages: 128,
     genre: 'Nonfiction',
     saga: '',
@@ -1809,7 +1817,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Ravage',
     author: 'René Barjavel',
-    coverUrl: '',
+    coverUrl: '/books_pictures/bcdf3e58c5d5.jpg',
     pages: 288,
     genre: 'Science fiction',
     saga: '',
@@ -1822,7 +1830,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Rue Darwin',
     author: 'Boualem Sansal',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/8e86aabe52ad.jpg',
     pages: 320,
     genre: 'Littérature',
     saga: '',
@@ -1835,7 +1844,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Arthur Rimbaud le voleur de feu',
     author: 'Véronique Cohen-Scali',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/6dbfb3de815f.jpg',
     pages: 192,
     genre: 'Littérature',
     saga: '',
@@ -1848,7 +1858,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "Ça t'apprendra à vivre",
     author: 'Jeanne Benameur',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/355452ab8540.jpg',
     pages: 176,
     genre: 'Littérature',
     saga: '',
@@ -1861,7 +1872,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Le Terrier',
     author: 'Franz Kafka',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/3bedc1d25fcb.jpg',
     pages: 96,
     genre: 'Littérature',
     saga: '',
@@ -1874,7 +1886,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Peau noire masques blancs',
     author: 'Frantz Fanon',
-    coverUrl: '',
+    coverUrl: '/books_pictures/699473fa398d.jpg',
     pages: 192,
     genre: 'Littérature',
     saga: '',
@@ -1887,7 +1899,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "Je m'en vais",
     author: 'Jean Echenoz',
-    coverUrl: '',
+    coverUrl: '/books_pictures/31e1fef4364b.jpg',
     pages: 256,
     genre: 'Littérature',
     saga: '',
@@ -1900,7 +1912,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'En salle',
     author: 'Cécile Baglin',
-    coverUrl: '',
+    coverUrl: '/books_pictures/2c4017d57a25.jpg',
     pages: 160,
     genre: 'Littérature',
     saga: '',
@@ -1913,7 +1925,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Et la terre se transmet comme la langue',
     author: 'Mahmoud Darwich',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/8605126b0a65.jpg',
     pages: 128,
     genre: 'Littérature',
     saga: '',
@@ -1926,7 +1939,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Gravitations',
     author: 'Jules Supervielle',
-    coverUrl: '',
+    coverUrl: '/books_pictures/8a291675a510.jpg',
     pages: 192,
     genre: 'Littérature',
     saga: '',
@@ -1939,7 +1952,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Les Chevaliers du subjonctif',
     author: 'Erik Orsenna',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/35496e7e3d92.jpg',
     pages: 192,
     genre: 'Littérature',
     saga: '',
@@ -1952,7 +1966,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'La Grammaire est une chanson douce',
     author: 'Erik Orsenna',
-    coverUrl: '',
+    coverUrl: '/books_pictures/d5a28a81ca8e.jpg',
     pages: 176,
     genre: 'Littérature',
     saga: '',
@@ -1965,7 +1979,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Métamorphoses',
     author: 'Ovide',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/878b41197211.jpg',
     pages: 512,
     genre: 'Classiques',
     saga: '',
@@ -1978,7 +1993,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Œdipe roi',
     author: 'Sophocle',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/97e263f391eb.jpg',
     pages: 96,
     genre: 'Classiques',
     saga: '',
@@ -1991,7 +2007,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "Histoire d'un voyage fait en la terre du Brésil",
     author: 'Jean de Léry',
-    coverUrl: '',
+    coverUrl: '/books_pictures/2fed41d6f366.jpg',
     pages: 384,
     genre: 'Classiques',
     saga: '',
@@ -2004,7 +2020,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Les Regrets',
     author: 'Joachim du Bellay',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/78c3c3c28ea1.jpg',
     pages: 192,
     genre: 'Classiques',
     saga: '',
@@ -2017,7 +2034,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "L'Adolescence clémentine",
     author: 'Clément Marot',
-    coverUrl: '',
+    coverUrl: '/books_pictures/86d5e3b3d3f3.jpg',
     pages: 256,
     genre: 'Classiques',
     saga: '',

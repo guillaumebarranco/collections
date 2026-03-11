@@ -669,7 +669,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Mamoru Miyano',
       },
     ],
-    coverUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjnIMQ3UWBJSBsXYqHAoLcM5EuDMI0CedY5jo0_8eVx_T0ttpC',
+    coverUrl: '/movies_pictures/9938c6af328e.jpg',
     releaseDate: '2026-03-11',
     length: 118,
     genre: 'Anime',
