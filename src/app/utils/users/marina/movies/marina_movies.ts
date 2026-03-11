@@ -15,7 +15,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Comte de Monte-Cristo',
     director: 'Alexandre de La Patellière, Matthieu Delaporte',
@@ -30,7 +29,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Challengers',
     director: 'Luca Guadagnino',
@@ -45,7 +43,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Barbie',
     director: 'Greta Gerwig',
@@ -60,7 +57,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Bullet Train',
     director: 'David Leitch',
@@ -75,7 +71,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Battle Royale',
     director: 'Kinji Fukasaku',
@@ -90,7 +85,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Miss Détective',
     director: 'Donald Petrie',
@@ -105,7 +99,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Premier contact',
     director: 'Denis Villeneuve',
@@ -120,7 +113,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Shaun of the Dead',
     director: 'Edgar Wright',
@@ -135,7 +127,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'RRRrrrr!!!',
     director: 'Alain Chabat',
@@ -150,7 +141,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Saw',
     director: 'James Wan',
@@ -165,7 +155,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Oldboy',
     director: 'Park Chan-wook',
@@ -180,7 +169,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Bruce tout-puissant',
     director: 'Tom Shadyac',
@@ -195,7 +183,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Moi, Cesar, 10 ans et demi, 1m39',
     director: 'Richard Berry',
@@ -210,7 +197,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Arrête-moi si tu peux',
     director: 'Steven Spielberg',
@@ -225,7 +211,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le cercle : The ring',
     director: 'Gore Verbinski',
@@ -240,7 +225,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Mulan',
     director: 'Niki Caro',
@@ -255,7 +239,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Aladdin',
     director: 'Guy Ritchie',
@@ -270,7 +253,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Bird Box',
     director: 'Susanne Bier',
@@ -285,7 +267,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'The Shining',
     director: 'Stanley Kubrick',
@@ -300,9 +281,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "L'exorciste",
+    title: 'L\'exorciste',
     director: 'William Friedkin',
     rating: 0,
     timesWatched: 1,
@@ -315,7 +295,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les aventures de Rabbi Jacob',
     director: 'Gérard Oury',
@@ -330,7 +309,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'La Folie des grandeurs',
     director: 'Gérard Oury',
@@ -345,7 +323,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Gendarme de Saint-Tropez',
     director: 'Jean Girault',
@@ -360,7 +337,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Astérix et Obélix contre César',
     director: 'Claude Zidi',
@@ -375,7 +351,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Astérix & Obélix : Mission Cléopâtre',
     director: 'Alain Chabat',
@@ -390,7 +365,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Astérix aux Jeux Olympiques',
     director: 'Frédéric Forestier, Thomas Langmann',
@@ -405,7 +379,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'The Truman Show',
     director: 'Peter Weir',
@@ -420,7 +393,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'La Ligne Verte',
     director: 'Frank Darabont',
@@ -435,9 +407,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Le Diable s'Habille en Prada",
+    title: 'Le Diable s\'Habille en Prada',
     director: 'David Frankel',
     rating: 0,
     timesWatched: 1,
@@ -450,7 +421,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Camping',
     director: 'Fabien Onteniente',
@@ -465,7 +435,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Volver',
     director: 'Pedro Almodóvar',
@@ -480,10 +449,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title:
-      "Le Monde de Narnia : Le Lion, la Sorcière Blanche et l'Armoire Magique",
+    title: 'Le Monde de Narnia : Le Lion, la Sorcière Blanche et l\'Armoire Magique',
     director: 'Andrew Adamson',
     rating: 0,
     timesWatched: 1,
@@ -496,7 +463,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Charlie et la Chocolaterie',
     director: 'Tim Burton',
@@ -511,7 +477,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Forrest Gump',
     director: 'Robert Zemeckis',
@@ -526,7 +491,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Mrs. Doubtfire',
     director: 'Chris Columbus',
@@ -541,7 +505,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Dîner de Cons',
     director: 'Francis Veber',
@@ -556,9 +519,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Je Sais ce que Vous Avez Fait l'Été Dernier",
+    title: 'Je Sais ce que Vous Avez Fait l\'Été Dernier',
     director: 'Jim Gillespie',
     rating: 0,
     timesWatched: 1,
@@ -571,7 +533,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Kingsman : Services Secrets',
     director: 'Matthew Vaughn',
@@ -586,7 +547,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Baby Driver',
     director: 'Edgar Wright',
@@ -601,7 +561,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'The Visit',
     director: 'M. Night Shyamalan',
@@ -616,7 +575,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Labyrinthe : La Terre Brûlée',
     director: 'Wes Ball',
@@ -631,7 +589,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Cinquante Nuances de Grey',
     director: 'Sam Taylor-Johnson',
@@ -646,7 +603,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Gone Girl',
     director: 'David Fincher',
@@ -661,7 +617,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Lucy',
     director: 'Luc Besson',
@@ -676,7 +631,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le médaillon',
     director: 'Gordon Chan',
@@ -691,7 +645,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Brice de Nice',
     director: 'James Huth',
@@ -706,7 +659,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Yes Man',
     director: 'Peyton Reed',
@@ -721,7 +673,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Paranormal Activity',
     director: 'Oren Peli',
@@ -736,7 +687,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Evan tout-puissant',
     director: 'Tom Shadyac',
@@ -751,7 +701,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Jumanji',
     director: 'Joe Johnston',
@@ -766,7 +715,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Un indien dans la ville',
     director: 'Hervé Palud',
@@ -781,7 +729,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Black Swan',
     director: 'Darren Aronofsky',
@@ -796,7 +743,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'The Karate Kid',
     director: 'Harald Zwart',
@@ -811,7 +757,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Alice au Pays des Merveilles',
     director: 'Tim Burton',
@@ -826,7 +771,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Shutter Island',
     director: 'Martin Scorsese',
@@ -841,7 +785,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Percy Jackson : Le Voleur de Foudre',
     director: 'Chris Columbus',
@@ -856,7 +799,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Lucky Luke',
     director: 'James Huth',
@@ -871,7 +813,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le beau-père',
     director: 'Nelson McCormick',
@@ -886,7 +827,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: '2012',
     director: 'Roland Emmerich',
@@ -901,7 +841,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Zombieland',
     director: 'Ruben Fleischer',
@@ -916,7 +855,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Maléfique',
     director: 'Robert Stromberg',
@@ -931,7 +869,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'The Conjuring : Les Dossiers Warren',
     director: 'James Wan',
@@ -946,7 +883,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: '21 Jump Street',
     director: 'Phil Lord, Christopher Miller',
@@ -961,7 +897,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Intouchables',
     director: 'Olivier Nakache, Éric Toledano',
@@ -976,7 +911,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Jurassic Park',
     director: 'Steven Spielberg',
@@ -991,7 +925,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les visiteurs',
     director: 'Jean-Marie Poiré',
@@ -1006,7 +939,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Prénom',
     director: 'Alexandre de La Patellière, Matthieu Delaporte',
@@ -1021,7 +953,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Sous la Seine',
     director: 'Xavier Gens',
@@ -1036,7 +967,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Shotgun Wedding',
     director: 'Jason Moore',
@@ -1051,7 +981,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Furiosa',
     director: 'George Miller',
@@ -1066,7 +995,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Companion',
     director: 'Drew Hancock',
@@ -1081,7 +1009,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Drôle de Noël de Scrooge',
     director: 'Robert Zemeckis',
@@ -1096,7 +1023,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'M. Popper et ses pingouins',
     director: 'Mark Waters',
@@ -1111,7 +1037,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Secret de la cité perdue',
     director: 'Aaron Nee, Adam Nee',
@@ -1126,7 +1051,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'The Circle',
     director: 'James Ponsoldt',
@@ -1141,7 +1065,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Mise à prix',
     director: 'Howard Deutch',
@@ -1156,7 +1079,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Impardonnable',
     director: 'Nora Fingscheidt',
@@ -1171,7 +1093,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Mytho',
     director: 'Dennis Dugan',
@@ -1186,7 +1107,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Your Name',
     director: 'Makoto Shinkai',
@@ -1201,7 +1121,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Annihilation',
     director: 'Alex Garland',
@@ -1216,7 +1135,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les Filles du docteur March',
     director: 'Greta Gerwig',
@@ -1231,7 +1149,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Neuilly, sa mère !',
     director: 'Gabriel Julien-Laferrière',
@@ -1246,9 +1163,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "La vie d'Adèle",
+    title: 'La vie d\'Adèle',
     director: 'Abdellatif Kechiche',
     rating: 0,
     timesWatched: 1,
@@ -1261,7 +1177,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les trois frères',
     director: 'Didier Bourdon',
@@ -1276,9 +1191,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Qu'est-ce qu'on a fait au bon dieu ?",
+    title: 'Qu\'est-ce qu\'on a fait au bon dieu ?',
     director: 'Philippe de Chauveron',
     rating: 0,
     timesWatched: 1,
@@ -1291,9 +1205,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Bienvenue chez les Ch'tis",
+    title: 'Bienvenue chez les Ch\'tis',
     director: 'Dany Boon',
     rating: 0,
     timesWatched: 1,
@@ -1306,7 +1219,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'La vérité si je mens !',
     director: 'Thomas Gilou',
@@ -1321,7 +1233,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Speak No Evil',
     director: 'James Watkins',
@@ -1336,7 +1247,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Passengers',
     director: 'Morten Tyldum',
@@ -1351,7 +1261,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Chaperon rouge',
     director: 'Catherine Hardwicke',
@@ -1366,7 +1275,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Black/White',
     director: 'Kevin Rodney Sullivan',
@@ -1381,7 +1289,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Seven Sisters',
     director: 'Tommy Wirkola',
@@ -1396,7 +1303,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Vendredi 13',
     director: 'Sean S. Cunningham',
@@ -1411,7 +1317,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les Intrus',
     director: 'Alejandro Amenábar',
@@ -1426,7 +1331,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'La Nuit des masques',
     director: 'John Carpenter',
@@ -1441,7 +1345,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les Griffes de la nuit',
     director: 'Wes Craven',
@@ -1456,7 +1359,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Monde après nous',
     director: 'Sam Esmail',
@@ -1471,9 +1373,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Anatomie d'une chute",
+    title: 'Anatomie d\'une chute',
     director: 'Justine Triet',
     rating: 0,
     timesWatched: 1,
@@ -1486,7 +1387,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Dragons',
     director: 'Dean DeBlois, Chris Sanders',
@@ -1501,7 +1401,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Dragons 2',
     director: 'Dean DeBlois',
@@ -1516,7 +1415,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Dragons 3 : Le Monde caché',
     director: 'Dean DeBlois',
@@ -1531,7 +1429,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Spider-Man: Into the Spider-Verse',
     director: 'Bob Persichetti, Peter Ramsey, Rodney Rothman',
@@ -1546,7 +1443,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Spider-Man : À Travers le Spider-Verse',
     director: 'Joaquim Dos Santos, Kemp Powers, Justin K. Thompson',
@@ -1561,7 +1457,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les Mondes de Ralph',
     director: 'Rich Moore',
@@ -1576,7 +1471,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Ralph Breaks the Internet',
     director: 'Rich Moore, Phil Johnston',
@@ -1591,7 +1485,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Super Mario Bros. le Film',
     director: 'Aaron Horvath, Michael Jelenic',
@@ -1606,7 +1499,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Encanto',
     director: 'Jared Bush, Byron Howard',
@@ -1621,7 +1513,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Cars',
     director: 'John Lasseter',
@@ -1636,7 +1527,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Cars 3',
     director: 'Brian Fee',
@@ -1651,7 +1541,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Baby boss',
     director: 'Tom McGrath',
@@ -1666,7 +1555,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Vaiana',
     director: 'Ron Clements, John Musker',
@@ -1681,7 +1569,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Vice-Versa',
     director: 'Pete Docter',
@@ -1696,7 +1583,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les Nouveaux Héros',
     director: 'Don Hall, Chris Williams',
@@ -1711,7 +1597,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'La Reine des Neiges',
     director: 'Chris Buck, Jennifer Lee',
@@ -1726,7 +1611,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Moi, Moche et Méchant',
     director: 'Pierre Coffin, Chris Renaud',
@@ -1741,7 +1625,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Moi, Moche et Méchant 2',
     director: 'Pierre Coffin, Chris Renaud',
@@ -1756,7 +1639,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les Cinq Légendes',
     director: 'Peter Ramsey',
@@ -1771,9 +1653,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "L'Âge de Glace",
+    title: 'L\'Âge de Glace',
     director: 'Chris Wedge, Carlos Saldanha',
     rating: 0,
     timesWatched: 1,
@@ -1786,9 +1667,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "L'Âge de Glace 2",
+    title: 'L\'Âge de Glace 2',
     director: 'Carlos Saldanha',
     rating: 0,
     timesWatched: 1,
@@ -1801,9 +1681,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "L'Âge de Glace 3 : Le Temps des Dinosaures",
+    title: 'L\'Âge de Glace 3 : Le Temps des Dinosaures',
     director: 'Carlos Saldanha',
     rating: 0,
     timesWatched: 1,
@@ -1816,9 +1695,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "L'Âge de Glace 4 : La Dérive des Continents",
+    title: 'L\'Âge de Glace 4 : La Dérive des Continents',
     director: 'Steve Martino, Mike Thurmeier',
     rating: 0,
     timesWatched: 1,
@@ -1831,7 +1709,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Rebelle',
     director: 'Mark Andrews, Brenda Chapman',
@@ -1846,7 +1723,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Arthur et les Minimoys',
     director: 'Luc Besson',
@@ -1861,7 +1737,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Arthur et la Vengeance de Maltazard',
     director: 'Luc Besson',
@@ -1876,7 +1751,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'La Princesse et la Grenouille',
     director: 'Ron Clements, John Musker',
@@ -1891,7 +1765,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Tempête de Boulettes Géantes',
     director: 'Phil Lord, Christopher Miller',
@@ -1906,7 +1779,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Monstres contre Aliens',
     director: 'Rob Letterman, Conrad Vernon',
@@ -1921,7 +1793,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'WALL-E',
     director: 'Andrew Stanton',
@@ -1936,7 +1807,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Kung Fu Panda',
     director: 'Mark Osborne, John Stevenson',
@@ -1951,9 +1821,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Bee Movie : Drôle d'Abeille",
+    title: 'Bee Movie : Drôle d\'Abeille',
     director: 'Steve Hickner, Simon J. Smith',
     rating: 0,
     timesWatched: 1,
@@ -1966,7 +1835,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les Simpson, le Film',
     director: 'David Silverman',
@@ -1981,7 +1849,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Ratatouille',
     director: 'Brad Bird',
@@ -1996,7 +1863,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Shrek',
     director: 'Andrew Adamson, Vicky Jenson',
@@ -2011,7 +1877,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Shrek 2',
     director: 'Andrew Adamson, Kelly Asbury, Conrad Vernon',
@@ -2026,7 +1891,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Shrek le Troisième',
     director: 'Chris Miller',
@@ -2041,7 +1905,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Shrek 4 : Il Était une Fois',
     director: 'Mike Mitchell',
@@ -2056,7 +1919,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les Indestructibles',
     director: 'Brad Bird',
@@ -2071,7 +1933,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les Indestructibles 2',
     director: 'Brad Bird',
@@ -2086,7 +1947,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le monde de Nemo',
     director: 'Andrew Stanton',
@@ -2101,7 +1961,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le monde de Dory',
     director: 'Andrew Stanton, Angus MacLane',
@@ -2116,7 +1975,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Planes',
     director: 'Klay Hall',
@@ -2131,7 +1989,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Monstres et Cie',
     director: 'Pete Docter',
@@ -2146,7 +2003,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Toy Story',
     director: 'John Lasseter',
@@ -2161,7 +2017,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Toy Story 2',
     director: 'John Lasseter',
@@ -2176,7 +2031,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Toy Story 3',
     director: 'Lee Unkrich',
@@ -2191,7 +2045,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Tarzan',
     director: 'Chris Buck, Kevin Lima',
@@ -2206,7 +2059,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Fourmiz',
     director: 'Eric Darnell, Tim Johnson',
@@ -2221,7 +2073,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Hercule',
     director: 'Ron Clements, John Musker',
@@ -2236,7 +2087,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Pocahontas',
     director: 'Mike Gabriel, Eric Goldberg',
@@ -2251,7 +2101,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Roi Lion',
     director: 'Roger Allers, Rob Minkoff',
@@ -2266,7 +2115,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Aladdin',
     director: 'Ron Clements, John Musker',
@@ -2281,7 +2129,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'La petite sirène',
     director: 'Ron Clements, John Musker',
@@ -2296,7 +2143,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Peter Pan',
     director: 'Clyde Geronimi, Wilfred Jackson, Hamilton Luske',
@@ -2311,11 +2157,9 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Pinocchio',
-    director:
-      'Norman Ferguson, T. Hee, Wilfred Jackson, Jack Kinney, Hamilton Luske, Bill Roberts, Ben Sharpsteen',
+    director: 'Norman Ferguson, T. Hee, Wilfred Jackson, Jack Kinney, Hamilton Luske, Bill Roberts, Ben Sharpsteen',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2327,7 +2171,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Megamind',
     director: 'Tom McGrath',
@@ -2342,22 +2185,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
-  {
-    title: 'Raya et le Dernier Dragon',
-    director: 'Don Hall, Carlos López Estrada',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    inList: [],
-  },
-
   {
     title: 'Élémentaire',
     director: 'Peter Sohn',
@@ -2372,7 +2199,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Luca',
     director: 'Enrico Casarosa',
@@ -2387,7 +2213,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Blanche-Neige et les Sept Nains',
     director: 'David Hand',
@@ -2402,7 +2227,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Cendrillon',
     director: 'Clyde Geronimi, Wilfred Jackson',
@@ -2417,7 +2241,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Pierre et le Loup',
     director: 'Clyde Geronimi',
@@ -2432,7 +2255,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les Trois Caballeros',
     director: 'Norman Ferguson, Clyde Geronimi',
@@ -2447,7 +2269,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Saludos Amigos',
     director: 'Wilfred Jackson, Jack Kinney',
@@ -2462,7 +2283,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Bambi',
     director: 'David Hand',
@@ -2477,7 +2297,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Dumbo',
     director: 'Ben Sharpsteen',
@@ -2492,7 +2311,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Fantasia',
     director: 'James Algar, Samuel Armstrong',
@@ -2507,7 +2325,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Alice au pays des merveilles',
     director: 'Clyde Geronimi, Wilfred Jackson',
@@ -2522,7 +2339,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'La Belle au bois dormant',
     director: 'Clyde Geronimi',
@@ -2537,7 +2353,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'La Belle et le Clochard',
     director: 'Clyde Geronimi, Wilfred Jackson',
@@ -2552,7 +2367,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Livre de la jungle',
     director: 'Wolfgang Reitherman',
@@ -2567,7 +2381,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Oliver et Compagnie',
     director: 'George Scribner',
@@ -2582,7 +2395,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Tombeau des lucioles',
     director: 'Isao Takahata',
@@ -2597,7 +2409,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Kiki la petite sorcière',
     director: 'Hayao Miyazaki',
@@ -2612,9 +2423,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "L'Étrange Noël de monsieur Jack",
+    title: 'L\'Étrange Noël de monsieur Jack',
     director: 'Henry Selick',
     rating: 0,
     timesWatched: 1,
@@ -2627,7 +2437,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le retour de Jafar',
     director: 'Toby Shelton, Tad Stones',
@@ -2642,7 +2451,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Bossu de Notre-Dame',
     director: 'Gary Trousdale, Kirk Wise',
@@ -2657,7 +2465,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les 101 Dalmatiens',
     director: 'Stephen Herek',
@@ -2672,7 +2479,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Anastasia',
     director: 'Don Bluth, Gary Goldman',
@@ -2687,7 +2493,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Monde magique de la Belle et la Bête',
     director: 'Bob Kline',
@@ -2702,9 +2507,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Le Prince d'Égypte",
+    title: 'Le Prince d\'Égypte',
     director: 'Brenda Chapman, Steve Hickner',
     rating: 0,
     timesWatched: 1,
@@ -2717,7 +2521,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: '1001 Pattes',
     director: 'John Lasseter, Andrew Stanton',
@@ -2732,9 +2535,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Le Roi Lion 2 : L'Honneur de la tribu",
+    title: 'Le Roi Lion 2 : L\'Honneur de la tribu',
     director: 'Darrell Rooney, Rob LaDuca',
     rating: 0,
     timesWatched: 1,
@@ -2747,7 +2549,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Pocahontas 2 : Un monde nouveau',
     director: 'Tom Ellery, Bradley Raymond',
@@ -2762,9 +2563,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "La Route d'Eldorado",
+    title: 'La Route d\'Eldorado',
     director: 'Bibo Bergeron, Don Paul',
     rating: 0,
     timesWatched: 1,
@@ -2777,9 +2577,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "La Petite Sirène 2 : Retour à l'océan",
+    title: 'La Petite Sirène 2 : Retour à l\'océan',
     director: 'Jim Kammerud, Brian Smith',
     rating: 0,
     timesWatched: 1,
@@ -2792,7 +2591,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Fantasia 2000',
     director: 'James Algar, Gaëtan Brizzi',
@@ -2807,9 +2605,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Kuzco, l'Empereur mégalo",
+    title: 'Kuzco, l\'Empereur mégalo',
     director: 'Mark Dindal',
     rating: 0,
     timesWatched: 1,
@@ -2822,9 +2619,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Atlantis : L'Empire perdu",
+    title: 'Atlantis : L\'Empire perdu',
     director: 'Gary Trousdale, Kirk Wise',
     rating: 0,
     timesWatched: 1,
@@ -2837,7 +2633,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Voyage de Chihiro',
     director: 'Hayao Miyazaki',
@@ -2852,7 +2647,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Lilo et Stitch',
     director: 'Dean DeBlois, Chris Sanders',
@@ -2867,7 +2661,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'La Planète au trésor',
     director: 'Ron Clements, John Musker',
@@ -2882,7 +2675,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Frère des ours',
     director: 'Aaron Blaise, Robert Walker',
@@ -2897,7 +2689,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Mickey, Donald, Dingo : Les Trois Mousquetaires',
     director: 'Donovan Cook',
@@ -2912,7 +2703,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Mulan 2',
     director: 'Darrell Rooney, Lynne Southerland',
@@ -2927,7 +2717,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les Noces funèbres',
     director: 'Tim Burton, Mike Johnson',
@@ -2942,7 +2731,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Madagascar',
     director: 'Eric Darnell, Tom McGrath',
@@ -2957,7 +2745,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Happy Feet',
     director: 'George Miller',
@@ -2972,7 +2759,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Bolt',
     director: 'Chris Williams, Byron Howard',
@@ -2987,7 +2773,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Madagascar 2',
     director: 'Eric Darnell, Tom McGrath',
@@ -3002,7 +2787,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Là-haut',
     director: 'Pete Docter',
@@ -3017,7 +2801,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Coraline',
     director: 'Henry Selick',
@@ -3032,7 +2815,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Rio',
     director: 'Carlos Saldanha',
@@ -3047,7 +2829,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Rango',
     director: 'Gore Verbinski',
@@ -3062,7 +2843,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Raiponce',
     director: 'Byron Howard, Nathan Greno',
@@ -3077,7 +2857,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Kung Fu Panda 2',
     director: 'Jennifer Yuh Nelson',
@@ -3092,7 +2871,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Chat Potté',
     director: 'Chris Miller',
@@ -3107,7 +2885,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Hôtel Transylvanie',
     director: 'Genndy Tartakovsky',
@@ -3122,7 +2899,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Monsters University',
     director: 'Dan Scanlon',
@@ -3137,7 +2913,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Zootopie',
     director: 'Byron Howard, Rich Moore',
@@ -3152,7 +2927,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'La Reine des neiges 2',
     director: 'Chris Buck, Jennifer Lee',
@@ -3167,7 +2941,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Klaus',
     director: 'Sergio Pablos',
@@ -3182,7 +2955,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Chat Potté 2 : La Dernière Quête',
     director: 'Joel Crawford',
@@ -3197,7 +2969,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Vice-Versa 2',
     director: 'Kelsey Mann',
@@ -3212,7 +2983,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'KPop Demon Hunters',
     director: 'Maggie Kang, Chris Appelhans',
@@ -3227,7 +2997,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Nope',
     director: 'Jordan Peele',
@@ -3242,7 +3011,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Hannah Montana - Le Film',
     director: 'Peter Chelsom',
@@ -3257,7 +3025,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Aquaman',
     director: 'James Wan',
@@ -3272,7 +3039,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Suicide Squad',
     director: 'David Ayer',
@@ -3287,7 +3053,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Wonder Woman 1984',
     director: 'Patty Jenkins',
@@ -3302,7 +3067,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Wicked',
     director: 'Jon M. Chu',
@@ -3317,7 +3081,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Wonka',
     director: 'Paul King',
@@ -3332,7 +3095,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'La Petite Sirène',
     director: 'Rob Marshall',
@@ -3347,7 +3109,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Il était une fois 2',
     director: 'Adam Shankman',
@@ -3362,7 +3123,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Cruella',
     director: 'Craig Gillespie',
@@ -3377,7 +3137,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'À tous les garçons : Pour toujours et à jamais',
     director: 'Michael Fimognari',
@@ -3392,7 +3151,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Sacrées sorcières',
     director: 'Robert Zemeckis',
@@ -3407,7 +3165,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Parasite',
     director: 'Bong Joon-ho',
@@ -3422,7 +3179,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Dumbo',
     director: 'Tim Burton',
@@ -3437,7 +3193,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Retour de Mary Poppins',
     director: 'Rob Marshall',
@@ -3452,7 +3207,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Mamma Mia! Here We Go Again',
     director: 'Ol Parker',
@@ -3467,7 +3221,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Pitch Perfect 3',
     director: 'Trish Sie',
@@ -3482,7 +3235,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'The Greatest Showman',
     director: 'Michael Gracey',
@@ -3497,9 +3249,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Le Crime de l'Orient-Express",
+    title: 'Le Crime de l\'Orient-Express',
     director: 'Kenneth Branagh',
     rating: 0,
     timesWatched: 1,
@@ -3512,7 +3263,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Miss Peregrine et les Enfants particuliers',
     director: 'Tim Burton',
@@ -3527,7 +3277,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Pitch Perfect 2',
     director: 'Elizabeth Banks',
@@ -3542,7 +3291,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Cendrillon',
     director: 'Kenneth Branagh',
@@ -3557,7 +3305,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Paddington',
     director: 'Paul King',
@@ -3572,7 +3319,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Pitch Perfect',
     director: 'Jason Moore',
@@ -3587,7 +3333,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Dark Shadows',
     director: 'Tim Burton',
@@ -3602,7 +3347,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Lovely Bones',
     director: 'Peter Jackson',
@@ -3617,7 +3361,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Orphan',
     director: 'Jaume Collet-Serra',
@@ -3632,7 +3375,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Bride Wars',
     director: 'Gary Winick',
@@ -3647,7 +3389,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Mamma Mia!',
     director: 'Phyllida Lloyd',
@@ -3662,7 +3403,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Monde de Narnia : Le Prince Caspian',
     director: 'Andrew Adamson',
@@ -3677,7 +3417,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: '27 Robes',
     director: 'Anne Fletcher',
@@ -3692,7 +3431,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Alvin et les Chipmunks',
     director: 'Tim Hill',
@@ -3707,7 +3445,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Sweeney Todd : Le Diabolique Barbier de Fleet Street',
     director: 'Tim Burton',
@@ -3722,7 +3459,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Enchanted',
     director: 'Kevin Lima',
@@ -3737,7 +3473,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Hairspray',
     director: 'Adam Shankman',
@@ -3752,7 +3487,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Secret de Terabithia',
     director: 'Gábor Csupó',
@@ -3767,7 +3501,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Labyrinthe de Pan',
     director: 'Guillermo del Toro',
@@ -3782,7 +3515,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'The Princess Diaries 2: Royal Engagement',
     director: 'Garry Marshall',
@@ -3797,7 +3529,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Comme Cendrillon',
     director: 'Mark Rosman',
@@ -3812,7 +3543,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Lolita malgré moi',
     director: 'Mark Waters',
@@ -3827,7 +3557,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: '30 ans sinon rien',
     director: 'Gary Winick',
@@ -3842,10 +3571,9 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Ella au pays enchanté',
-    director: "Tommy O'Haver",
+    director: 'Tommy O\'Haver',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3857,7 +3585,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Manoir hanté et les 999 Fantômes',
     director: 'Rob Minkoff',
@@ -3872,7 +3599,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Princesse malgré elle',
     director: 'Garry Marshall',
@@ -3887,7 +3613,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'The Others',
     director: 'Alejandro Amenábar',
@@ -3902,9 +3627,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "La Revanche d'une blonde",
+    title: 'La Revanche d\'une blonde',
     director: 'Robert Luketic',
     rating: 0,
     timesWatched: 1,
@@ -3917,7 +3641,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Grinch',
     director: 'Ron Howard',
@@ -3932,7 +3655,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Mon beau-père et moi',
     director: 'Jay Roach',
@@ -3947,7 +3669,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Stuart Little',
     director: 'Rob Minkoff',
@@ -3962,7 +3683,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Sleepy Hollow',
     director: 'Tim Burton',
@@ -3977,7 +3697,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'À nous quatre',
     director: 'Nancy Meyers',
@@ -3992,7 +3711,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Mary à tout prix',
     director: 'Bobby Farrelly, Peter Farrelly',
@@ -4007,7 +3725,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Flubber',
     director: 'Les Mayfield',
@@ -4022,7 +3739,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Titanic',
     director: 'James Cameron',
@@ -4037,9 +3753,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Souviens-toi... l'été dernier",
+    title: 'Souviens-toi... l\'été dernier',
     director: 'Jim Gillespie',
     rating: 0,
     timesWatched: 1,
@@ -4052,7 +3767,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Roméo + Juliette',
     director: 'Baz Luhrmann',
@@ -4067,7 +3781,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Casper',
     director: 'Brad Silberling',
@@ -4082,7 +3795,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'La Famille Addams',
     director: 'Barry Sonnenfeld',
@@ -4097,7 +3809,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Hook ou la Revanche du capitaine Crochet',
     director: 'Steven Spielberg',
@@ -4112,9 +3823,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Edward aux mains d'argent",
+    title: 'Edward aux mains d\'argent',
     director: 'Tim Burton',
     rating: 0,
     timesWatched: 1,
@@ -4127,7 +3837,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Ghost',
     director: 'Jerry Zucker',
@@ -4142,7 +3851,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Beetlejuice',
     director: 'Tim Burton',
@@ -4157,7 +3865,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Gremlins',
     director: 'Joe Dante',
@@ -4172,7 +3879,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Halloween',
     director: 'John Carpenter',
@@ -4187,7 +3893,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Mary Poppins',
     director: 'Robert Stevenson',
@@ -4202,7 +3907,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Zootopie 2',
     director: 'Jared Bush, Byron Howard',
@@ -4217,9 +3921,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Conjuring : L'Heure du jugement",
+    title: 'Conjuring : L\'Heure du jugement',
     director: 'Michael Chaves',
     rating: 0,
     timesWatched: 1,
@@ -4232,7 +3935,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Dragons',
     director: 'Dean DeBlois',
@@ -4247,7 +3949,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Destination Finale : Bloodlines',
     director: 'Zach Lipovsky, Adam B. Stein',
@@ -4262,7 +3963,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Vaiana 2',
     director: 'David G. Derrick Jr., Jason Hand, Dana Ledoux Miller',
@@ -4277,7 +3977,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Juré n°2',
     director: 'Clint Eastwood',
@@ -4292,7 +3991,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Robot sauvage',
     director: 'Chris Sanders',
@@ -4307,7 +4005,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Beetlejuice Beetlejuice',
     director: 'Tim Burton',
@@ -4322,7 +4019,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'The Substance',
     director: 'Coralie Fargeat',
@@ -4337,7 +4033,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Kung Fu Panda 4',
     director: 'Mike Mitchell, Stephanie Ma Stine',
@@ -4352,7 +4047,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Wish : Asha et la Bonne Étoile',
     director: 'Chris Buck, Fawn Veerasunthorn',
@@ -4367,9 +4061,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Hunger Games : La Ballade du serpent et de l'oiseau chanteur",
+    title: 'Hunger Games : La Ballade du serpent et de l\'oiseau chanteur',
     director: 'Francis Lawrence',
     rating: 0,
     timesWatched: 1,
@@ -4382,7 +4075,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Cinq nuits chez Freddy',
     director: 'Emma Tammi',
@@ -4397,9 +4089,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "The Three Musketeers: D'Artagnan",
+    title: 'The Three Musketeers: D\'Artagnan',
     director: 'Martin Bourboulon',
     rating: 0,
     timesWatched: 1,
@@ -4412,7 +4103,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Scream VI',
     director: 'Matt Bettinelli-Olpin, Tyler Gillett',
@@ -4427,7 +4117,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Menu',
     director: 'Mark Mylod',
@@ -4442,7 +4131,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'The Whale',
     director: 'Darren Aronofsky',
@@ -4457,7 +4145,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Scream',
     director: 'Matt Bettinelli-Olpin, Tyler Gillett',
@@ -4472,9 +4159,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Conjuring : Sous l'emprise du diable",
+    title: 'Conjuring : Sous l\'emprise du diable',
     director: 'Michael Chaves',
     rating: 0,
     timesWatched: 1,
@@ -4487,7 +4173,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Soul',
     director: 'Pete Docter, Kemp Powers',
@@ -4502,7 +4187,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Sans un bruit 2',
     director: 'John Krasinski',
@@ -4517,7 +4201,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'The Invisible Man',
     director: 'Leigh Whannell',
@@ -4532,7 +4215,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Zombieland: Double Tap',
     director: 'Ruben Fleischer',
@@ -4547,7 +4229,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Toy Story 4',
     director: 'Josh Cooley',
@@ -4562,7 +4243,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Escape Game',
     director: 'Adam Robitel',
@@ -4577,7 +4257,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Grinch',
     director: 'Yarrow Cheney, Scott Mosier',
@@ -4592,9 +4271,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "À tous les garçons que j'ai aimés",
+    title: 'À tous les garçons que j\'ai aimés',
     director: 'Susan Johnson',
     rating: 0,
     timesWatched: 1,
@@ -4607,7 +4285,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Crazy Rich Asians',
     director: 'Jon M. Chu',
@@ -4622,7 +4299,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Mission : Impossible – Fallout',
     director: 'Christopher McQuarrie',
@@ -4637,7 +4313,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'American Nightmare 4 : Les Origines',
     director: 'Gerard McMurray',
@@ -4652,7 +4327,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Astérix : Le Secret de la potion magique',
     director: 'Louis Clichy, Alexandre Astier',
@@ -4667,7 +4341,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Sans un bruit',
     director: 'John Krasinski',
@@ -4682,7 +4355,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Hérédité',
     director: 'Ari Aster',
@@ -4697,7 +4369,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Ça',
     director: 'Andy Muschietti',
@@ -4712,9 +4383,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "La Forme de l'eau",
+    title: 'La Forme de l\'eau',
     director: 'Guillermo del Toro',
     rating: 0,
     timesWatched: 1,
@@ -4727,7 +4397,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'La Planète des singes : Suprématie',
     director: 'Matt Reeves',
@@ -4742,7 +4411,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Get Out',
     director: 'Jordan Peele',
@@ -4757,7 +4425,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Call Me by Your Name',
     director: 'Luca Guadagnino',
@@ -4772,7 +4439,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les Trolls',
     director: 'Mike Mitchell, Walt Dohrn',
@@ -4787,7 +4453,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Sing',
     director: 'Garth Jennings',
@@ -4802,9 +4467,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Alice de l'autre côté du miroir",
+    title: 'Alice de l\'autre côté du miroir',
     director: 'James Bobin',
     rating: 0,
     timesWatched: 1,
@@ -4817,7 +4481,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Dernier train pour Busan',
     director: 'Yeon Sang-ho',
@@ -4832,7 +4495,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Conjuring 2 : Le Cas Enfield',
     director: 'James Wan',
@@ -4847,7 +4509,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Kung Fu Panda 3',
     director: 'Jennifer Yuh Nelson, Alessandro Carloni',
@@ -4862,7 +4523,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Crimson Peak',
     director: 'Guillermo del Toro',
@@ -4877,7 +4537,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Astérix : Le Domaine des dieux',
     director: 'Louis Clichy, Alexandre Astier',
@@ -4892,7 +4551,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'American Nightmare 2 : Anarchy',
     director: 'James DeMonaco',
@@ -4907,7 +4565,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Insidious : Chapitre 2',
     director: 'James Wan',
@@ -4922,7 +4579,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Percy Jackson : La Mer des monstres',
     director: 'Thor Freudenthal',
@@ -4937,7 +4593,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les Miller, une famille en herbe',
     director: 'Rawson Marshall Thurber',
@@ -4952,7 +4607,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les Stagiaires',
     director: 'Shawn Levy',
@@ -4967,7 +4621,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'American Nightmare',
     director: 'James DeMonaco',
@@ -4982,7 +4635,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Gatsby le Magnifique',
     director: 'Baz Luhrmann',
@@ -4997,7 +4649,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Evil Dead',
     director: 'Fede Álvarez',
@@ -5012,7 +4663,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Hansel & Gretel : Witch Hunters',
     director: 'Tommy Wirkola',
@@ -5027,7 +4677,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Mama',
     director: 'Andrés Muschietti',
@@ -5042,7 +4691,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Astérix et Obélix : Au service de Sa Majesté',
     director: 'Laurent Tirard',
@@ -5057,7 +4705,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Blanche-Neige et le Chasseur',
     director: 'Rupert Sanders',
@@ -5072,9 +4719,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Madagascar 3 : Bons Baisers d'Europe",
+    title: 'Madagascar 3 : Bons Baisers d\'Europe',
     director: 'Eric Darnell, Tom McGrath, Conrad Vernon',
     rating: 0,
     timesWatched: 1,
@@ -5087,7 +4733,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Sinister',
     director: 'Scott Derrickson',
@@ -5102,7 +4747,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Happy New Year',
     director: 'Garry Marshall',
@@ -5117,7 +4761,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Un monstre à Paris',
     director: 'Bibo Bergeron',
@@ -5132,7 +4775,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les Trois Mousquetaires',
     director: 'Paul W.S. Anderson',
@@ -5147,7 +4789,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'La Couleur des sentiments',
     director: 'Tate Taylor',
@@ -5162,7 +4803,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Bad Teacher',
     director: 'Jake Kasdan',
@@ -5177,7 +4817,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Saw 3D : Chapitre final',
     director: 'Kevin Greutert',
@@ -5192,7 +4831,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Insidious',
     director: 'James Wan',
@@ -5207,7 +4845,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Dernier Exorcisme',
     director: 'Daniel Stamm',
@@ -5222,7 +4859,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Saw VI',
     director: 'Kevin Greutert',
@@ -5237,7 +4873,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Saw V',
     director: 'David Hackl',
@@ -5252,7 +4887,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'High School Musical 3 : Nos années lycée',
     director: 'Kenny Ortega',
@@ -5267,7 +4901,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les Chroniques de Spiderwick',
     director: 'Mark Waters',
@@ -5282,9 +4915,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "À la croisée des mondes : La Boussole d'or",
+    title: 'À la croisée des mondes : La Boussole d\'or',
     director: 'Chris Weitz',
     rating: 0,
     timesWatched: 1,
@@ -5297,7 +4929,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Saw IV',
     director: 'Darren Lynn Bousman',
@@ -5312,7 +4943,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'High School Musical 2',
     director: 'Kenny Ortega',
@@ -5327,7 +4957,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Hot Fuzz',
     director: 'Edgar Wright',
@@ -5342,7 +4971,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Saw III',
     director: 'Darren Lynn Bousman',
@@ -5357,7 +4985,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Astérix et les Vikings',
     director: 'Stefan Fjeldmark, Jesper Møller',
@@ -5372,7 +4999,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'La Colline a des yeux',
     director: 'Alexandre Aja',
@@ -5387,7 +5013,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'High School Musical : Premiers pas sur scène',
     director: 'Kenny Ortega',
@@ -5402,7 +5027,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Treize à la douzaine 2',
     director: 'Adam Shankman',
@@ -5417,7 +5041,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Saw II',
     director: 'Darren Lynn Bousman',
@@ -5432,7 +5055,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les Dalton',
     director: 'Philippe Haïm',
@@ -5447,7 +5069,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Pôle Express',
     director: 'Robert Zemeckis',
@@ -5462,7 +5083,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Gang de requins',
     director: 'Vicky Jenson, Bibo Bergeron, Rob Letterman',
@@ -5477,7 +5097,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Château ambulant',
     director: 'Hayao Miyazaki',
@@ -5492,7 +5111,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'F.B.I. : Fausses blondes infiltrées',
     director: 'Keenen Ivory Wayans',
@@ -5507,7 +5125,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les Choristes',
     director: 'Christophe Barratier',
@@ -5522,7 +5139,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Treize à la douzaine',
     director: 'Shawn Levy',
@@ -5537,7 +5153,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'La Légende de Tarzan et Jane',
     director: 'Steve Loter, Victor Cook',
@@ -5552,7 +5167,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Astérix et les Indiens',
     director: 'Gerhard Hahn',
@@ -5567,7 +5181,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Sister Act, acte 2',
     director: 'Bill Duke',
@@ -5582,7 +5195,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Sister Act',
     director: 'Emile Ardolino',
@@ -5597,7 +5209,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Evil Dead II',
     director: 'Sam Raimi',
@@ -5612,7 +5223,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Astérix et Cléopâtre',
     director: 'René Goscinny, Albert Uderzo',
@@ -5627,7 +5237,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'La Belle au bois dormant',
     director: 'Clyde Geronimi',
@@ -5642,7 +5251,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'The Princess Switch',
     director: 'Mike Rohl',
@@ -5657,7 +5265,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Love Hard',
     director: 'Hernán Jiménez',
@@ -5672,7 +5279,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'La Belle et la Bête',
     director: 'Bill Condon',
@@ -5687,9 +5293,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Valentine's Day",
+    title: 'Valentine\'s Day',
     director: 'Garry Marshall',
     rating: 0,
     timesWatched: 1,
@@ -5702,7 +5307,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'La proposition',
     director: 'Anne Fletcher',
@@ -5717,7 +5321,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: '17 ans encore',
     director: 'Burr Steers',
@@ -5732,7 +5335,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Orgueil et Préjugés',
     director: 'Joe Wright',
@@ -5747,7 +5349,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Hitch : Expert en Séduction',
     director: 'Andy Tennant',
@@ -5762,7 +5363,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'La La Land',
     director: 'Damien Chazelle',
@@ -5777,7 +5377,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Holidate',
     director: 'John Whitesell',
@@ -5792,7 +5391,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'LOL (Laughing Out Loud)',
     director: 'Lisa Azuelos',
@@ -5807,7 +5405,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Avengers',
     director: 'Joss Whedon',
@@ -5822,9 +5419,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Avengers : L'Ère d'Ultron",
+    title: 'Avengers : L\'Ère d\'Ultron',
     director: 'Joss Whedon',
     rating: 0,
     timesWatched: 1,
@@ -5837,7 +5433,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Avengers: Infinity War',
     director: 'Anthony Russo, Joe Russo',
@@ -5852,7 +5447,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Avengers: Endgame',
     director: 'Anthony Russo, Joe Russo',
@@ -5867,7 +5461,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Captain America : First Avenger',
     director: 'Joe Johnston',
@@ -5882,9 +5475,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Captain America : Le Soldat de l'Hiver",
+    title: 'Captain America : Le Soldat de l\'Hiver',
     director: 'Anthony Russo, Joe Russo',
     rating: 0,
     timesWatched: 1,
@@ -5897,7 +5489,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Captain America : Civil War',
     director: 'Anthony Russo, Joe Russo',
@@ -5912,7 +5503,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Iron Man',
     director: 'Jon Favreau',
@@ -5927,7 +5517,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Iron Man 2',
     director: 'Jon Favreau',
@@ -5942,7 +5531,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Captain Marvel',
     director: 'Anna Boden, Ryan Fleck',
@@ -5957,7 +5545,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les Gardiens de la Galaxie',
     director: 'James Gunn',
@@ -5972,7 +5559,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Ant-Man',
     director: 'Peyton Reed',
@@ -5987,7 +5573,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Ant-Man et la Guêpe',
     director: 'Peyton Reed',
@@ -6002,7 +5587,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Spider-Man: Homecoming',
     director: 'Jon Watts',
@@ -6017,7 +5601,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Spider-Man: Far From Home',
     director: 'Jon Watts',
@@ -6032,7 +5615,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Spider-Man : No Way Home',
     director: 'Jon Watts',
@@ -6047,7 +5629,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Deadpool',
     director: 'Tim Miller',
@@ -6062,7 +5643,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Spider-Man',
     director: 'Sam Raimi',
@@ -6077,7 +5657,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Spider-Man 2',
     director: 'Sam Raimi',
@@ -6092,7 +5671,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Spider-Man 3',
     director: 'Sam Raimi',
@@ -6107,7 +5685,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'The Amazing Spider-Man',
     director: 'Marc Webb',
@@ -6122,9 +5699,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "The Amazing Spider-Man : Le Destin d'un Héros",
+    title: 'The Amazing Spider-Man : Le Destin d\'un Héros',
     director: 'Marc Webb',
     rating: 0,
     timesWatched: 1,
@@ -6137,9 +5713,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Harry Potter à l'école des sorciers",
+    title: 'Harry Potter à l\'école des sorciers',
     director: 'Chris Columbus',
     rating: 0,
     timesWatched: 1,
@@ -6152,7 +5727,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Harry Potter et la chambre des secrets',
     director: 'Chris Columbus',
@@ -6167,9 +5741,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Harry Potter et le prisonnier d'Azkaban",
+    title: 'Harry Potter et le prisonnier d\'Azkaban',
     director: 'Alfonso Cuarón',
     rating: 0,
     timesWatched: 1,
@@ -6182,7 +5755,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Harry Potter et la coupe de feu',
     director: 'Mike Newell',
@@ -6197,9 +5769,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Harry Potter et l'ordre du phénix",
+    title: 'Harry Potter et l\'ordre du phénix',
     director: 'David Yates',
     rating: 0,
     timesWatched: 1,
@@ -6212,7 +5783,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Harry Potter et le prince de sang-mêlé',
     director: 'David Yates',
@@ -6227,7 +5797,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Harry Potter et les reliques de la mort - partie 1',
     director: 'David Yates',
@@ -6242,7 +5811,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Harry Potter et les reliques de la mort - partie 2',
     director: 'David Yates',
@@ -6257,7 +5825,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Scooby-Doo',
     director: 'Raja Gosnell',
@@ -6272,7 +5839,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Scooby-Doo 2: Monsters Unleashed',
     director: 'Raja Gosnell',
@@ -6287,7 +5853,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Men in Black',
     director: 'Barry Sonnenfeld',
@@ -6302,7 +5867,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'La Momie',
     director: 'Stephen Sommers',
@@ -6317,7 +5881,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Retour de la Momie',
     director: 'Stephen Sommers',
@@ -6332,9 +5895,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Maman j'ai raté l'avion",
+    title: 'Maman j\'ai raté l\'avion',
     director: 'Chris Columbus',
     rating: 0,
     timesWatched: 1,
@@ -6347,7 +5909,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Labyrinthe',
     director: 'Wes Ball',
@@ -6362,7 +5923,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Le Labyrinthe 2 : Le remède mortel',
     director: 'Wes Ball',
@@ -6377,7 +5937,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Hunger Games',
     director: 'Gary Ross',
@@ -6392,9 +5951,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Hunger Games : L'Embrasement",
+    title: 'Hunger Games : L\'Embrasement',
     director: 'Francis Lawrence',
     rating: 0,
     timesWatched: 1,
@@ -6407,7 +5965,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Hunger Games : La Révolte - Partie 1',
     director: 'Francis Lawrence',
@@ -6422,7 +5979,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Hunger Games : La Révolte, partie 2',
     director: 'Francis Lawrence',
@@ -6437,7 +5993,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'John Wick',
     director: 'Chad Stahelski',
@@ -6452,7 +6007,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les Animaux Fantastiques',
     director: 'David Yates',
@@ -6467,7 +6021,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les Animaux Fantastiques 2 : Les crimes de Grindelwald',
     director: 'David Yates',
@@ -6482,7 +6035,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les Animaux Fantastiques 3 : Les Secrets de Dumbledore',
     director: 'David Yates',
@@ -6497,7 +6049,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Enola Holmes',
     director: 'Harry Bradbeer',
@@ -6512,7 +6063,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'A couteaux tirés',
     director: 'Rian Johnson',
@@ -6527,7 +6077,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'James Bond : Skyfall',
     director: 'Sam Mendes',
@@ -6542,9 +6091,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "OSS 117 : Le Caire, Nid d'Espions",
+    title: 'OSS 117 : Le Caire, Nid d\'Espions',
     director: 'Michel Hazanavicius',
     rating: 0,
     timesWatched: 1,
@@ -6557,7 +6105,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'OSS 117 : Rio ne Répond Plus',
     director: 'Michel Hazanavicius',
@@ -6572,7 +6119,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Glass',
     director: 'M. Night Shyamalan',
@@ -6587,7 +6133,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'La Vengeance dans la Peau',
     director: 'Paul Greengrass',
@@ -6602,7 +6147,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Insaisissables',
     director: 'Louis Leterrier',
@@ -6617,7 +6161,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Insaisissables 2',
     director: 'Jon M. Chu',
@@ -6632,7 +6175,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Divergente',
     director: 'Neil Burger',
@@ -6647,9 +6189,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Divergente 2 : L'Insurrection",
+    title: 'Divergente 2 : L\'Insurrection',
     director: 'Robert Schwentke',
     rating: 0,
     timesWatched: 1,
@@ -6662,7 +6203,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Divergente 3 : Au-delà du Mur',
     director: 'Robert Schwentke',
@@ -6677,7 +6217,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'La nuit au musée',
     director: 'Shawn Levy',
@@ -6692,7 +6231,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'La Nuit au musée 2',
     director: 'Shawn Levy',
@@ -6707,9 +6245,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Ocean's Eleven",
+    title: 'Ocean\'s Eleven',
     director: 'Steven Soderbergh',
     rating: 0,
     timesWatched: 1,
@@ -6722,9 +6259,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Ocean's Eight",
+    title: 'Ocean\'s Eight',
     director: 'Gary Ross',
     rating: 0,
     timesWatched: 1,
@@ -6737,7 +6273,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Pirates des Caraïbes : La malédiction du Black Pearl',
     director: 'Gore Verbinski',
@@ -6752,7 +6287,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Pirates des Caraïbes 2 : Le Secret du Coffre Maudit',
     director: 'Gore Verbinski',
@@ -6767,9 +6301,8 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
-    title: "Pirates des Caraïbes 3 : Jusqu'au Bout du Monde",
+    title: 'Pirates des Caraïbes 3 : Jusqu\'au Bout du Monde',
     director: 'Gore Verbinski',
     rating: 0,
     timesWatched: 1,
@@ -6782,7 +6315,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Pirates des Caraïbes : La Vengeance de Salazar',
     director: 'Joachim Rønning, Espen Sandberg',
@@ -6797,7 +6329,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Scary Movie',
     director: 'Keenen Ivory Wayans',
@@ -6812,7 +6343,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Scary Movie 2',
     director: 'Keenen Ivory Wayans',
@@ -6827,7 +6357,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les bronzés',
     director: 'Patrice Leconte',
@@ -6842,7 +6371,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les bronzés font du ski',
     director: 'Patrice Leconte',
@@ -6857,7 +6385,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Les Bronzés 3 : Amis pour la Vie',
     director: 'Patrice Leconte',
@@ -6872,7 +6399,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Twilight : Chapitre 1 - Fascination',
     director: 'Catherine Hardwicke',
@@ -6887,7 +6413,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Twilight : Chapitre 2 - Tentation',
     director: 'Chris Weitz',
@@ -6902,7 +6427,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Twilight : Chapitre 3 - Hésitation',
     director: 'David Slade',
@@ -6917,7 +6441,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Twilight : Chapitre 4 - Révélation - Partie 1',
     director: 'Bill Condon',
@@ -6932,7 +6455,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Twilight : Chapitre 4 - Révélation - Partie 2',
     director: 'Bill Condon',
@@ -6947,7 +6469,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Destination Finale',
     director: 'James Wong',
@@ -6962,7 +6483,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Destination Finale 2',
     director: 'David R. Ellis',
@@ -6977,7 +6497,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Destination Finale 3',
     director: 'James Wong',
@@ -6992,7 +6511,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Destination Finale 4',
     director: 'David R. Ellis',
@@ -7007,7 +6525,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Destination Finale 5',
     director: 'Steven Quale',
@@ -7022,7 +6539,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Scream',
     director: 'Wes Craven',
@@ -7037,7 +6553,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Scream 2',
     director: 'Wes Craven',
@@ -7052,7 +6567,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Scream 3',
     director: 'Wes Craven',
@@ -7067,7 +6581,6 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Scream 4',
     director: 'Wes Craven',
@@ -7082,10 +6595,331 @@ export const marinaMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
-
   {
     title: 'Avatar',
     director: 'James Cameron',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
+  {
+    title: 'Eaux profondes',
+    director: 'Adrian Lyne',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
+  {
+    title: 'Panic Room',
+    director: 'David Fincher',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
+  {
+    title: 'Le Cinquième Élément',
+    director: 'Luc Besson',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
+  {
+    title: 'Knock Knock',
+    director: 'Eli Roth',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
+  {
+    title: 'Dangereuse séduction',
+    director: 'James Foley',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
+  {
+    title: 'The Artist',
+    director: 'Michel Hazanavicius',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
+  {
+    title: 'L\'Héritage',
+    director: 'Sylwester Jakimow',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
+  {
+    title: 'Le Cinquième Élément',
+    director: 'Luc Besson',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  }
+,
+  {
+    title: 'Mothers\' Instinct',
+    director: 'Benoît Delhomme',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
+
+  {
+    title: 'Amityville',
+    director: 'Andrew Douglas',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
+
+  {
+    title: 'L\'Échange',
+    director: 'Clint Eastwood',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
+
+  {
+    title: 'Le Secret des Marrowbone',
+    director: 'Sergio G. Sánchez',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
+
+  {
+    title: 'Gothika',
+    director: 'Mathieu Kassovitz',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
+
+  {
+    title: 'Le Garçon au pyjama rayé',
+    director: 'Mark Herman',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
+
+  {
+    title: 'Le Nouveau Stagiaire',
+    director: 'Nancy Meyers',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
+
+  {
+    title: 'Ted',
+    director: 'Seth MacFarlane',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
+
+  {
+    title: 'Les Aventures de Tintin',
+    director: 'Steven Spielberg',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
+
+  {
+    title: 'Heretic',
+    director: 'Scott Beck, Bryan Woods',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
+
+  {
+    title: 'The Fall Guy',
+    director: 'David Leitch',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
+
+  {
+    title: 'The Woman in the Window',
+    director: 'Joe Wright',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
+
+  {
+    title: 'American Nightmare 3 : Élections',
+    director: 'James DeMonaco',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
+
+  {
+    title: 'Evil Dead',
+    director: 'Sam Raimi',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',

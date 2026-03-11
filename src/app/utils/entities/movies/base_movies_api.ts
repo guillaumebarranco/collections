@@ -657,4 +657,25 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'France',
   },
+
+  {
+    title: 'Scarlet et l\'éternité',
+    director: 'Mamoru Hosoda',
+    actors: [
+      {
+        name: 'Mana Ashida',
+      },
+      {
+        name: 'Mamoru Miyano',
+      },
+    ],
+    coverUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjnIMQ3UWBJSBsXYqHAoLcM5EuDMI0CedY5jo0_8eVx_T0ttpC',
+    releaseDate: '2026-03-11',
+    length: 118,
+    genre: 'Anime',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Japon',
+  },
 ];

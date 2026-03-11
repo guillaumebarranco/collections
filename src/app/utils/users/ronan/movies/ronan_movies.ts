@@ -14781,4 +14781,19 @@ export const ronanMovies: UserMovies = [
     ratingComment: '',
     inList: [],
   },
+
+  {
+    title: 'Scarlet et l\'éternité',
+    director: 'Mamoru Hosoda',
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: '2026-03-11',
+    lastViewedDate: '2026-03-11',
+    seenAtCinema: true,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
 ];
