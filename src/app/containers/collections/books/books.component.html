@@ -99,10 +99,13 @@
               [showTopFiveSelector]="showTopFiveRank()"
               [selectedView]="selectedView()"
               [topFiveRank]="getTopFiveRank(book)"
+              [showAddToMyReadlist]="canShowAddToMyReadlist()"
+              [canAddToMyReadlist]="canAddBookToMyReadlist(book)"
               (editRequested)="openEditBookDialog(book)"
               (topFiveRankChange)="onTopFiveRankChange(book, $event)"
               (wantToReRead)="markBookAsWantToReRead($event)"
               (haveReRead)="markBookAsReRead($event)"
+              (addToMyReadlist)="addBookToConnectedUserReadlist($event)"
             ></app-book>
           </div>
           }
@@ -148,10 +151,13 @@
               [showTopFiveSelector]="showTopFiveRank()"
               [selectedView]="selectedView()"
               [topFiveRank]="getTopFiveRank(book)"
+              [showAddToMyReadlist]="canShowAddToMyReadlist()"
+              [canAddToMyReadlist]="canAddBookToMyReadlist(book)"
               (editRequested)="openEditBookDialog(book)"
               (topFiveRankChange)="onTopFiveRankChange(book, $event)"
               (wantToReRead)="markBookAsWantToReRead($event)"
               (haveReRead)="markBookAsReRead($event)"
+              (addToMyReadlist)="addBookToConnectedUserReadlist($event)"
             ></app-book>
           </div>
           }
@@ -200,10 +206,13 @@
               [showTopFiveSelector]="showTopFiveRank()"
               [selectedView]="selectedView()"
               [topFiveRank]="getTopFiveRank(book)"
+              [showAddToMyReadlist]="canShowAddToMyReadlist()"
+              [canAddToMyReadlist]="canAddBookToMyReadlist(book)"
               (editRequested)="openEditBookDialog(book)"
               (topFiveRankChange)="onTopFiveRankChange(book, $event)"
               (wantToReRead)="markBookAsWantToReRead($event)"
               (haveReRead)="markBookAsReRead($event)"
+              (addToMyReadlist)="addBookToConnectedUserReadlist($event)"
             ></app-book>
           </div>
           }
@@ -238,12 +247,15 @@
           [selectedView]="selectedView()"
           [isInReadlist]="bookAlreadyInUserReadlist(book)"
           [topFiveRank]="getTopFiveRank(book)"
+          [showAddToMyReadlist]="canShowAddToMyReadlist()"
+          [canAddToMyReadlist]="canAddBookToMyReadlist(book)"
           (editRequested)="openEditBookDialog(book)"
           (readPriorityUpdated)="updateReadPriority($event)"
           (bookUpdated)="refreshBooks()"
           (topFiveRankChange)="onTopFiveRankChange(book, $event)"
           (wantToReRead)="markBookAsWantToReRead($event)"
           (haveReRead)="markBookAsReRead($event)"
+          (addToMyReadlist)="addBookToConnectedUserReadlist($event)"
         ></app-book>
       </div>
       }

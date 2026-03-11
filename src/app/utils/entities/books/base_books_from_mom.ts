@@ -864,7 +864,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Le Médecin volant',
     author: 'Molière',
-    coverUrl: 'https://images.epagine.fr/341/9782290234341_1_75.jpg',
+    coverUrl: '/books_pictures/32f11a401ed7.jpg',
     pages: 64,
     genre: 'Classiques',
     saga: '',
@@ -877,7 +877,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Le Médecin malgré lui',
     author: 'Molière',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/d63ced97812b.jpg',
     pages: 128,
     genre: 'Classiques',
     saga: '',
@@ -890,7 +891,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'George Dandin',
     author: 'Molière',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/3538c880bf5a.jpg',
     pages: 96,
     genre: 'Classiques',
     saga: '',
@@ -901,22 +903,10 @@ export const baseBooksFromMom: BaseBook[] = [
     countryOrigin: 'France',
   },
   {
-    title: "L'Avare",
-    author: 'Molière',
-    coverUrl: '',
-    pages: 160,
-    genre: 'Classiques',
-    saga: '',
-    sagaOrder: 0,
-    sagaFinished: false,
-    releaseDate: '1668-09-01',
-    description: '',
-    countryOrigin: 'France',
-  },
-  {
     title: 'Dom Juan',
     author: 'Molière',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/f4e44cd03f07.jpg',
     pages: 176,
     genre: 'Classiques',
     saga: '',
@@ -929,7 +919,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Médée',
     author: 'Pierre Corneille',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/cfdeffd52486.jpg',
     pages: 128,
     genre: 'Classiques',
     saga: '',
@@ -942,7 +933,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Le Menteur',
     author: 'Pierre Corneille',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/7aa78049216a.jpg',
     pages: 160,
     genre: 'Classiques',
     saga: '',
@@ -955,7 +947,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "L'Illusion comique",
     author: 'Pierre Corneille',
-    coverUrl: '',
+    coverUrl: '/books_pictures/e9a0c079ab98.jpg',
     pages: 160,
     genre: 'Classiques',
     saga: '',
@@ -968,7 +960,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Phèdre',
     author: 'Jean Racine',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/21397ae82686.jpg',
     pages: 128,
     genre: 'Classiques',
     saga: '',
@@ -981,7 +974,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Iphigénie',
     author: 'Jean Racine',
-    coverUrl: '',
+    coverUrl: '/books_pictures/b5a77bbd4b5c.jpg',
     pages: 128,
     genre: 'Classiques',
     saga: '',
@@ -994,7 +987,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Britannicus',
     author: 'Jean Racine',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/7a445932caaa.jpg',
     pages: 128,
     genre: 'Classiques',
     saga: '',
@@ -1007,7 +1001,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Bérénice',
     author: 'Jean Racine',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/125c76d7034f.jpg',
     pages: 96,
     genre: 'Classiques',
     saga: '',
@@ -1020,7 +1015,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Pour un nouveau roman',
     author: 'Alain Robbe-Grillet',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/4f4768d0aa86.jpg',
     pages: 192,
     genre: 'Littérature',
     saga: '',
@@ -1033,7 +1029,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Les Gommes',
     author: 'Alain Robbe-Grillet',
-    coverUrl: '',
+    coverUrl: '/books_pictures/65e1984546d1.jpg',
     pages: 256,
     genre: 'Littérature',
     saga: '',
@@ -1046,7 +1042,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Djinn',
     author: 'Alain Robbe-Grillet',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/cf82f25834b4.jpg',
     pages: 192,
     genre: 'Littérature',
     saga: '',
@@ -1059,7 +1056,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'La Jalousie',
     author: 'Alain Robbe-Grillet',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/0a958eb202f4.jpg',
     pages: 224,
     genre: 'Littérature',
     saga: '',
@@ -1072,7 +1070,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'La Modification',
     author: 'Michel Butor',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/a482487bbd43.jpg',
     pages: 256,
     genre: 'Littérature',
     saga: '',
@@ -1085,7 +1084,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "L'Emploi du temps",
     author: 'Michel Butor',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/16e639cc21f2.jpg',
     pages: 288,
     genre: 'Littérature',
     saga: '',
@@ -1098,7 +1098,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Petite histoire de la littérature française',
     author: 'Michel Butor',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/0e63183c7042.jpg',
     pages: 256,
     genre: 'Littérature',
     saga: '',
@@ -1111,7 +1112,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Les Choses',
     author: 'Georges Perec',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/ac42acd501fd.jpg',
     pages: 160,
     genre: 'Littérature',
     saga: '',
@@ -1124,7 +1126,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Passacaille',
     author: 'Robert Pinget',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/66fb5349ff10.jpg',
     pages: 192,
     genre: 'Littérature',
     saga: '',
@@ -1137,7 +1140,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Aurélien',
     author: 'Louis Aragon',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/07b3302925a8.jpg',
     pages: 576,
     genre: 'Littérature',
     saga: '',
@@ -1150,7 +1154,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Le Bestiaire',
     author: 'Guillaume Apollinaire',
-    coverUrl: '',
+    coverUrl: '/books_pictures/78cc7c90e700.jpg',
     pages: 64,
     genre: 'Littérature',
     saga: '',
@@ -1163,7 +1167,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Alcools',
     author: 'Guillaume Apollinaire',
-    coverUrl: '',
+    coverUrl: '/books_pictures/7bc0091e357d.jpg',
     pages: 224,
     genre: 'Littérature',
     saga: '',
@@ -1176,7 +1180,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Poèmes à Lou',
     author: 'Guillaume Apollinaire',
-    coverUrl: '',
+    coverUrl: '/books_pictures/a5619aa4abde.jpg',
     pages: 192,
     genre: 'Littérature',
     saga: '',
@@ -1189,7 +1193,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Calligrammes',
     author: 'Guillaume Apollinaire',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/753fefd02b97.jpg',
     pages: 208,
     genre: 'Littérature',
     saga: '',
@@ -1202,7 +1207,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "L'Eau et les Rêves",
     author: 'Gaston Bachelard',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/b4cc7eb3244a.jpg',
     pages: 256,
     genre: 'Littérature',
     saga: '',
@@ -1215,7 +1221,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "Le degré zéro de l'écriture",
     author: 'Roland Barthes',
-    coverUrl: '',
+    coverUrl: '/books_pictures/78230575d63c.jpg',
     pages: 128,
     genre: 'Littérature',
     saga: '',
@@ -1228,7 +1234,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "Fragments d'un discours amoureux",
     author: 'Roland Barthes',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/626389d648ee.jpg',
     pages: 256,
     genre: 'Littérature',
     saga: '',
@@ -1241,7 +1248,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Autobiographie des objets',
     author: 'François Bon',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/e4bc8f9e7c24.jpg',
     pages: 256,
     genre: 'Littérature',
     saga: '',
@@ -1254,7 +1262,8 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "Sortie d'usine",
     author: 'François Bon',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/36e2d72d1abe.webp',
     pages: 128,
     genre: 'Littérature',
     saga: '',
@@ -1267,7 +1276,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Tous les matins du monde',
     author: 'Pascal Quignard',
-    coverUrl: '',
+    coverUrl: '/books_pictures/296f02002f68.jpg',
     pages: 160,
     genre: 'Littérature',
     saga: '',

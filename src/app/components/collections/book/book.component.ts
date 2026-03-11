@@ -54,9 +54,15 @@ export class BookComponent {
   @Input() sagaBadge: 'Saga terminée' | 'Saga en cours' | null = null;
   @Input() isReadlistView = false;
   @Input() selectedView: BookView = 'read';
+  /** Afficher le bouton "Je veux lire ce livre" (consultation du profil d'un autre utilisateur). */
+  @Input() showAddToMyReadlist = false;
+  /** Le livre peut être ajouté à la readlist de l'utilisateur connecté (pas encore lu ni en readlist). */
+  @Input() canAddToMyReadlist = false;
   @Output() editRequested = new EventEmitter<void>();
 
   @Output() addToReadlist = new EventEmitter<any>();
+  /** Émis quand l'utilisateur connecté clique sur "Je veux lire ce livre" (sur le profil d'un autre). */
+  @Output() addToMyReadlist = new EventEmitter<Book>();
   @Output() readPriorityUpdated = new EventEmitter<{
     book: any;
     priority: number;

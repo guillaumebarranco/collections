@@ -53,6 +53,7 @@ import { EditBookComponent } from '../../edit/edit-book/edit-book.component';
 import { LocalStorageService } from '../../../services/local-storage.service';
 import { TopFiveService } from '../../../services/top-five.service';
 import { FollowsService } from '../../../services/follows.service';
+import { AuthService } from '../../../core/auth.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
 
 import { capitalizeFirstLetter } from '../../../utils/stats.utils';
@@ -97,6 +98,7 @@ export class BooksComponent implements OnInit {
   private readonly localStorageService = inject(LocalStorageService);
   private readonly topFiveService = inject(TopFiveService);
   private readonly followsService = inject(FollowsService);
+  private readonly authService = inject(AuthService);
   private readonly dialog = inject(MatDialog);
   private readonly cdr = inject(ChangeDetectorRef);
   private isInitializing = false;
@@ -132,6 +134,10 @@ export class BooksComponent implements OnInit {
 
   booksList = signal<{ [key: string]: Book[] }>({});
   readlistBooksList = signal<{ [key: string]: Book[] }>({});
+  /** Livres lus par l'utilisateur connecté (rempli uniquement en consultation d'un autre profil). */
+  connectedUserBooks = signal<Book[]>([]);
+  /** Readlist de l'utilisateur connecté (rempli uniquement en consultation d'un autre profil). */
+  connectedUserReadlist = signal<Book[]>([]);
   baseBooksList = signal<Book[]>([]);
   recommendations = signal<RecommendedBook[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
@@ -214,15 +220,37 @@ export class BooksComponent implements OnInit {
   }
 
   async refreshBooks() {
-    const userId = this.getActiveUserId();
+    const displayedUserId = this.getActiveUserId();
+    const connectedUserId = this.authService.userId();
+    const isViewingOther = Boolean(
+      connectedUserId &&
+        displayedUserId &&
+        displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
+    );
+
     const [books, readlist, baseBooks] = await Promise.all([
-      getAllBooks(userId),
-      getAllReadlistBooks(userId),
+      getAllBooks(displayedUserId),
+      getAllReadlistBooks(displayedUserId),
       getAllBaseBooks(),
     ]);
     this.booksList.set(books);
     this.readlistBooksList.set(readlist);
     this.baseBooksList.set(baseBooks.map(getFullBook));
+
+    if (isViewingOther) {
+      const [connectedBooks, connectedReadlist] = await Promise.all([
+        getAllBooks(connectedUserId),
+        getAllReadlistBooks(connectedUserId),
+      ]);
+      const connectedBooksList = connectedBooks[connectedUserId] ?? [];
+      const connectedReadlistList = connectedReadlist[connectedUserId] ?? [];
+      this.connectedUserBooks.set(connectedBooksList);
+      this.connectedUserReadlist.set(connectedReadlistList);
+    } else {
+      this.connectedUserBooks.set([]);
+      this.connectedUserReadlist.set([]);
+    }
+
     // Forcer la détection des changements pour que le header (OnPush) affiche le bloc stats
     this.cdr.detectChanges();
   }
@@ -809,6 +837,46 @@ export class BooksComponent implements OnInit {
     return readlist.some(
       (b) => b.title === book.title && b.author === book.author
     );
+  }
+
+  /** True si on est connecté et qu'on consulte le profil d'un autre utilisateur. */
+  isViewingOtherProfile(): boolean {
+    const connected = this.authService.userId();
+    const displayed = this.getActiveUserId();
+    return Boolean(
+      connected &&
+        displayed &&
+        displayed.toLowerCase() !== connected.toLowerCase()
+    );
+  }
+
+  /** True si le bouton "Je veux lire ce livre" doit s'afficher pour ce livre (consultation autre profil). */
+  canShowAddToMyReadlist(): boolean {
+    return this.isViewingOtherProfile();
+  }
+
+  /** True si l'utilisateur connecté peut ajouter ce livre à sa readlist (ne l'a pas lu et ne l'a pas déjà en readlist). */
+  canAddBookToMyReadlist(book: Book): boolean {
+    const key = this.getBookIdentityKey(book);
+    const inReadlist = this.connectedUserReadlist().some(
+      (b) => this.getBookIdentityKey(b) === key
+    );
+    const alreadyRead = this.connectedUserBooks().some(
+      (b) =>
+        this.getBookIdentityKey(b) === key &&
+        Boolean(b.readTimes && b.readTimes > 0)
+    );
+    return !inReadlist && !alreadyRead;
+  }
+
+  /** Ajoute le livre à la readlist de l'utilisateur connecté (depuis la vue du profil d'un autre). */
+  async addBookToConnectedUserReadlist(book: Book) {
+    const connectedUserId = this.authService.userId();
+    if (!connectedUserId) return;
+    const success = await addBookToReadlistApi(book, connectedUserId);
+    if (success) {
+      await this.refreshBooks();
+    }
   }
 
   async addBookToReadlist(book: Book) {
