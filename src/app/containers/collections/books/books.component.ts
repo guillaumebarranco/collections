@@ -221,7 +221,7 @@ export class BooksComponent implements OnInit {
 
   async refreshBooks() {
     const displayedUserId = this.getActiveUserId();
-    const connectedUserId = this.authService.userId();
+    const connectedUserId = this.authService.userId() ?? undefined;
     const isViewingOther = Boolean(
       connectedUserId &&
         displayedUserId &&
@@ -237,7 +237,7 @@ export class BooksComponent implements OnInit {
     this.readlistBooksList.set(readlist);
     this.baseBooksList.set(baseBooks.map(getFullBook));
 
-    if (isViewingOther) {
+    if (isViewingOther && connectedUserId) {
       const [connectedBooks, connectedReadlist] = await Promise.all([
         getAllBooks(connectedUserId),
         getAllReadlistBooks(connectedUserId),
