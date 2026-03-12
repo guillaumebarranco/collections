@@ -60,9 +60,14 @@ export class SerieComponent {
   @Input() recommendationBadge = '';
   @Input() isWatchlistView = false;
   @Input() selectedView: SerieView = 'finished';
+  @Input() showAddToMyWatchlist = false;
+  @Input() canAddToMyWatchlist = false;
+  @Input() canAddAsWatched = false;
   @Output() serieUpdated = new EventEmitter<void>();
 
   @Output() addToWatchlist = new EventEmitter<Serie>();
+  @Output() addToMyWatchlist = new EventEmitter<Serie>();
+  @Output() addToMyWatched = new EventEmitter<Serie>();
   @Output() watchPriorityUpdated = new EventEmitter<{
     serie: Serie;
     priority: number;

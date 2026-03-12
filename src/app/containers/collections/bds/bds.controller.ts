@@ -109,3 +109,47 @@ export async function markBdAsReRead(
     return false;
   }
 }
+
+export async function addBdToReadlist(
+  bd: Bd,
+  userId: string
+): Promise<boolean> {
+  try {
+    const response = await fetch(`${getApiBaseUrl()}/bds/add-existing`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ userId, bds: [bd], readlist: true }),
+    });
+    if (!response.ok) {
+      const payload = await response.json().catch(() => ({}));
+      console.warn("Échec ajout BD à la readlist:", payload?.error || response.statusText);
+      return false;
+    }
+    return true;
+  } catch (error) {
+    console.warn("Erreur réseau ajout BD à la readlist.", error);
+    return false;
+  }
+}
+
+export async function addBdAsRead(
+  bd: Bd,
+  userId: string
+): Promise<boolean> {
+  try {
+    const response = await fetch(`${getApiBaseUrl()}/bds/add-existing`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ userId, bds: [bd], readlist: false }),
+    });
+    if (!response.ok) {
+      const payload = await response.json().catch(() => ({}));
+      console.warn("Échec ajout BD en « lue »:", payload?.error || response.statusText);
+      return false;
+    }
+    return true;
+  } catch (error) {
+    console.warn("Erreur réseau ajout BD en « lue ».", error);
+    return false;
+  }
+}

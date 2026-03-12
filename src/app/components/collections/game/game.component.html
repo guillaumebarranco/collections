@@ -80,6 +80,22 @@
         <p class="game-finished">Terminé {{ game.timesFinished }} fois</p>
       </div>
     </app-entity-card-rating-and-buttons>
+    } @if (showAddToMyGamelist && canAddToMyGamelist) {
+    <button
+      type="button"
+      class="makya-btn-small add-to-my-gamelist-btn"
+      (click)="addToMyGamelist.emit(game)"
+    >
+      Je veux jouer à ce jeu
+    </button>
+    } @if (showAddToMyGamelist && canAddAsPlayed) {
+    <button
+      type="button"
+      class="makya-btn-small add-to-my-played-btn"
+      (click)="addToMyPlayed.emit(game)"
+    >
+      Tiens, j'ai déjà joué à ce jeu !
+    </button>
     }
   </div>
 </app-entity-card>

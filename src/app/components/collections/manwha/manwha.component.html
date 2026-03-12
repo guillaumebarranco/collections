@@ -77,6 +77,22 @@
       (wantToReReadClick)="wantToReRead.emit(manwha)"
       (haveReReadClick)="haveReRead.emit(manwha)"
     />
+    } @if (showAddToMyReadlist && canAddToMyReadlist) {
+    <button
+      type="button"
+      class="makya-btn-small add-to-my-readlist-btn"
+      (click)="addToMyReadlist.emit(manwha)"
+    >
+      Je veux lire ce manwha
+    </button>
+    } @if (showAddToMyReadlist && canAddAsRead) {
+    <button
+      type="button"
+      class="makya-btn-small add-to-my-read-btn"
+      (click)="addToMyRead.emit(manwha)"
+    >
+      Tiens, j'ai déjà lu ce manwha !
+    </button>
     }
   </div>
 </app-entity-card>

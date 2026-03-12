@@ -53,7 +53,10 @@ import {
   updateWatchPriority as updateWatchPriorityApi,
   markSerieAsWantToReWatch as markSerieAsWantToReWatchApi,
   markSerieAsReWatched as markSerieAsReWatchedApi,
+  addSerieToWatchlist as addSerieToWatchlistApi,
+  addSerieAsWatched as addSerieAsWatchedApi,
 } from './series.controller';
+import { AuthService } from '../../../core/auth.service';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedSerie = Serie & {
@@ -80,6 +83,7 @@ export class SeriesComponent implements OnInit {
   private readonly localStorageService = inject(LocalStorageService);
   private readonly topFiveService = inject(TopFiveService);
   private readonly followsService = inject(FollowsService);
+  private readonly authService = inject(AuthService);
   private isLoadingPreferences = false;
   private isLoadingViewConfig = false;
   private readonly viewConfigStorageKey = 'series_view_config';
@@ -113,6 +117,8 @@ export class SeriesComponent implements OnInit {
 
   seriesList = signal<{ [key: string]: Serie[] }>({});
   watchingSeriesList = signal<{ [key: string]: Serie[] }>({});
+  connectedUserSeries = signal<Serie[]>([]);
+  connectedUserWatchlist = signal<Serie[]>([]);
   baseSeriesList = signal<Serie[]>([]);
   recommendations = signal<RecommendedSerie[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
@@ -300,15 +306,34 @@ export class SeriesComponent implements OnInit {
   }
 
   async refreshSeries() {
-    const userId = this.getActiveUserId();
+    const displayedUserId = this.getActiveUserId();
+    const connectedUserId = this.authService.userId() ?? undefined;
+    const isViewingOther = Boolean(
+      connectedUserId &&
+        displayedUserId &&
+        displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
+    );
+
     const [series, watchlist, baseSeries] = await Promise.all([
-      getAllSeries(userId),
-      getAllWatchlistSeries(userId),
+      getAllSeries(displayedUserId),
+      getAllWatchlistSeries(displayedUserId),
       getAllBaseSeries(),
     ]);
     this.seriesList.set(series);
     this.watchingSeriesList.set(watchlist);
     this.baseSeriesList.set(baseSeries.map(getFullSerie));
+
+    if (isViewingOther && connectedUserId) {
+      const [connectedSeries, connectedWatchlist] = await Promise.all([
+        getAllSeries(connectedUserId),
+        getAllWatchlistSeries(connectedUserId),
+      ]);
+      this.connectedUserSeries.set(connectedSeries[connectedUserId] ?? []);
+      this.connectedUserWatchlist.set(connectedWatchlist[connectedUserId] ?? []);
+    } else {
+      this.connectedUserSeries.set([]);
+      this.connectedUserWatchlist.set([]);
+    }
   }
 
   getActiveUserId(): string {
@@ -540,6 +565,53 @@ export class SeriesComponent implements OnInit {
     return watchlist.some(
       (s) => s.title === serie.title && s.director === serie.director
     );
+  }
+
+  isViewingOtherProfile(): boolean {
+    const connected = this.authService.userId();
+    const displayed = this.getActiveUserId();
+    return Boolean(
+      connected &&
+        displayed &&
+        displayed.toLowerCase() !== connected.toLowerCase()
+    );
+  }
+
+  canShowAddToMyWatchlist(): boolean {
+    return this.isViewingOtherProfile();
+  }
+
+  canAddSerieToMyWatchlist(serie: Serie): boolean {
+    const key = this.getSerieIdentityKey(serie);
+    const inWatchlist = this.connectedUserWatchlist().some(
+      (s) => this.getSerieIdentityKey(s) === key
+    );
+    const alreadyWatched = this.connectedUserSeries().some(
+      (s) => this.getSerieIdentityKey(s) === key
+    );
+    return !inWatchlist && !alreadyWatched;
+  }
+
+  canAddSerieToMyWatched(serie: Serie): boolean {
+    const key = this.getSerieIdentityKey(serie);
+    const alreadyWatched = this.connectedUserSeries().some(
+      (s) => this.getSerieIdentityKey(s) === key
+    );
+    return !alreadyWatched;
+  }
+
+  async addSerieToConnectedUserWatchlist(serie: Serie): Promise<void> {
+    const connectedUserId = this.authService.userId();
+    if (!connectedUserId) return;
+    const success = await addSerieToWatchlistApi(serie, connectedUserId);
+    if (success) await this.refreshSeries();
+  }
+
+  async addSerieToConnectedUserAsWatched(serie: Serie): Promise<void> {
+    const connectedUserId = this.authService.userId();
+    if (!connectedUserId) return;
+    const success = await addSerieAsWatchedApi(serie, connectedUserId);
+    if (success) await this.refreshSeries();
   }
 
   addSerieToWatchlist(serie: Serie) {

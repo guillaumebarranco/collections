@@ -112,3 +112,47 @@ export async function markManwhaAsReRead(
     return false;
   }
 }
+
+export async function addManwhaToReadlist(
+  manwha: Manwha,
+  userId: string
+): Promise<boolean> {
+  try {
+    const response = await fetch(`${getApiBaseUrl()}/manwhas/add-existing`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ userId, manwhas: [manwha], readlist: true }),
+    });
+    if (!response.ok) {
+      const payload = await response.json().catch(() => ({}));
+      console.warn("Échec ajout manwha à la readlist:", payload?.error || response.statusText);
+      return false;
+    }
+    return true;
+  } catch (error) {
+    console.warn("Erreur réseau ajout manwha à la readlist.", error);
+    return false;
+  }
+}
+
+export async function addManwhaAsRead(
+  manwha: Manwha,
+  userId: string
+): Promise<boolean> {
+  try {
+    const response = await fetch(`${getApiBaseUrl()}/manwhas/add-existing`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ userId, manwhas: [manwha], readlist: false }),
+    });
+    if (!response.ok) {
+      const payload = await response.json().catch(() => ({}));
+      console.warn("Échec ajout manwha en « lu »:", payload?.error || response.statusText);
+      return false;
+    }
+    return true;
+  } catch (error) {
+    console.warn("Erreur réseau ajout manwha en « lu ».", error);
+    return false;
+  }
+}

@@ -46,7 +46,12 @@
             : 'Recommandé'
         "
         [isInReadlist]="bdAlreadyInUserReadlist(bd)"
+        [showAddToMyReadlist]="canShowAddToMyReadlist()"
+        [canAddToMyReadlist]="canAddBdToMyReadlist(bd)"
+        [canAddAsRead]="canAddBdToMyRead(bd)"
         (addToReadlist)="addBdToReadlist($event)"
+        (addToMyReadlist)="addBdToConnectedUserReadlist($event)"
+        (addToMyRead)="addBdToConnectedUserAsRead($event)"
       ></app-bd>
     </div>
     } }
@@ -62,12 +67,17 @@
         [selectedView]="selectedView()"
         [showTopFiveSelector]="showTopFiveRank()"
         [topFiveRank]="getTopFiveRank(bd)"
+        [showAddToMyReadlist]="canShowAddToMyReadlist()"
+        [canAddToMyReadlist]="canAddBdToMyReadlist(bd)"
+        [canAddAsRead]="canAddBdToMyRead(bd)"
         (editRequested)="openEditBdDialog(bd)"
         (topFiveRankChange)="onTopFiveRankChange(bd, $event)"
         (readPriorityUpdated)="updateReadPriority($event)"
         (wantToReRead)="markBdAsWantToReRead($event)"
         (haveReRead)="markBdAsReRead($event)"
         (bdUpdated)="onBdUpdated()"
+        (addToMyReadlist)="addBdToConnectedUserReadlist($event)"
+        (addToMyRead)="addBdToConnectedUserAsRead($event)"
       ></app-bd>
     </div>
     }

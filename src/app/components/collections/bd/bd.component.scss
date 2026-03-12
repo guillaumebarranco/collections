@@ -19,3 +19,8 @@
 .book-genre {
   @include components.component-genre-base;
 }
+
+.add-to-my-readlist-btn,
+.add-to-my-read-btn {
+  margin-top: 0.5rem;
+}

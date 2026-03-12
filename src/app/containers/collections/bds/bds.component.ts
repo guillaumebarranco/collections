@@ -51,9 +51,12 @@ import {
   updateReadPriority as updateReadPriorityApi,
   markBdAsWantToReRead as markBdAsWantToReReadApi,
   markBdAsReRead as markBdAsReReadApi,
+  addBdToReadlist as addBdToReadlistApi,
+  addBdAsRead as addBdAsReadApi,
 } from './bds.controller';
 import { TopFiveService } from '../../../services/top-five.service';
 import { FollowsService } from '../../../services/follows.service';
+import { AuthService } from '../../../core/auth.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
 
 type RecommendationDetail = { userId: string; rating: number };
@@ -84,6 +87,7 @@ export class BdsComponent implements OnInit {
   private readonly localStorageService = inject(LocalStorageService);
   private readonly topFiveService = inject(TopFiveService);
   private readonly followsService = inject(FollowsService);
+  private readonly authService = inject(AuthService);
   private isLoadingPreferences = false;
   private isLoadingViewConfig = false;
   private readonly viewConfigStorageKey = 'bds_view_config';
@@ -111,6 +115,8 @@ export class BdsComponent implements OnInit {
 
   bdsList = signal<{ [key: string]: Bd[] }>({});
   readlistBdsList = signal<{ [key: string]: Bd[] }>({});
+  connectedUserBds = signal<Bd[]>([]);
+  connectedUserReadlist = signal<Bd[]>([]);
   baseBdsList = signal<Bd[]>([]);
   recommendations = signal<RecommendedBd[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
@@ -347,15 +353,34 @@ export class BdsComponent implements OnInit {
   }
 
   private async refreshBds() {
-    const userId = this.getActiveUserId();
+    const displayedUserId = this.getActiveUserId();
+    const connectedUserId = this.authService.userId() ?? undefined;
+    const isViewingOther = Boolean(
+      connectedUserId &&
+        displayedUserId &&
+        displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
+    );
+
     const [bds, readlist, baseBds] = await Promise.all([
-      getAllBds(userId),
-      getAllReadlistBds(userId),
+      getAllBds(displayedUserId),
+      getAllReadlistBds(displayedUserId),
       getAllBaseBds(),
     ]);
     this.bdsList.set(bds);
     this.readlistBdsList.set(readlist);
     this.baseBdsList.set(baseBds.map(getFullBd));
+
+    if (isViewingOther && connectedUserId) {
+      const [connectedBds, connectedReadlist] = await Promise.all([
+        getAllBds(connectedUserId),
+        getAllReadlistBds(connectedUserId),
+      ]);
+      this.connectedUserBds.set(connectedBds[connectedUserId] ?? []);
+      this.connectedUserReadlist.set(connectedReadlist[connectedUserId] ?? []);
+    } else {
+      this.connectedUserBds.set([]);
+      this.connectedUserReadlist.set([]);
+    }
   }
 
   openEditBdDialog(bd: Bd): void {
@@ -527,6 +552,57 @@ export class BdsComponent implements OnInit {
   bdAlreadyInUserReadlist(bd: Bd): boolean {
     const readlist = this.allReadlistBds();
     return readlist.some((b) => b.title === bd.title && b.writer === bd.writer);
+  }
+
+  isViewingOtherProfile(): boolean {
+    const connected = this.authService.userId();
+    const displayed = this.getActiveUserId();
+    return Boolean(
+      connected &&
+        displayed &&
+        displayed.toLowerCase() !== connected.toLowerCase()
+    );
+  }
+
+  canShowAddToMyReadlist(): boolean {
+    return this.isViewingOtherProfile();
+  }
+
+  canAddBdToMyReadlist(bd: Bd): boolean {
+    const key = this.getBdIdentityKey(bd);
+    const inReadlist = this.connectedUserReadlist().some(
+      (b) => this.getBdIdentityKey(b) === key
+    );
+    const alreadyRead = this.connectedUserBds().some(
+      (b) =>
+        this.getBdIdentityKey(b) === key &&
+        Boolean(b.readTimes && b.readTimes > 0)
+    );
+    return !inReadlist && !alreadyRead;
+  }
+
+  canAddBdToMyRead(bd: Bd): boolean {
+    const key = this.getBdIdentityKey(bd);
+    const alreadyRead = this.connectedUserBds().some(
+      (b) =>
+        this.getBdIdentityKey(b) === key &&
+        Boolean(b.readTimes && b.readTimes > 0)
+    );
+    return !alreadyRead;
+  }
+
+  async addBdToConnectedUserReadlist(bd: Bd): Promise<void> {
+    const connectedUserId = this.authService.userId();
+    if (!connectedUserId) return;
+    const success = await addBdToReadlistApi(bd, connectedUserId);
+    if (success) await this.refreshBds();
+  }
+
+  async addBdToConnectedUserAsRead(bd: Bd): Promise<void> {
+    const connectedUserId = this.authService.userId();
+    if (!connectedUserId) return;
+    const success = await addBdAsReadApi(bd, connectedUserId);
+    if (success) await this.refreshBds();
   }
 
   async updateReadPriority(data: { bd: Bd; priority: number }): Promise<void> {

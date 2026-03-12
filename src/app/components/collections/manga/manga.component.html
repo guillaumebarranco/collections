@@ -75,6 +75,22 @@
       (wantToReReadClick)="wantToReRead.emit(manga)"
       (haveReReadClick)="haveReRead.emit(manga)"
     />
+    } @if (showAddToMyReadlist && canAddToMyReadlist) {
+    <button
+      type="button"
+      class="makya-btn-small add-to-my-readlist-btn"
+      (click)="addToMyReadlist.emit(manga)"
+    >
+      Je veux lire ce manga
+    </button>
+    } @if (showAddToMyReadlist && canAddAsRead) {
+    <button
+      type="button"
+      class="makya-btn-small add-to-my-read-btn"
+      (click)="addToMyRead.emit(manga)"
+    >
+      Tiens, j'ai déjà lu ce manga !
+    </button>
     }
   </div>
 </app-entity-card>

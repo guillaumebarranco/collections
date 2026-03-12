@@ -47,7 +47,12 @@
             : 'Recommandé'
         "
         [isInReadlist]="mangaAlreadyInUserReadlist(manga)"
+        [showAddToMyReadlist]="canShowAddToMyReadlist()"
+        [canAddToMyReadlist]="canAddMangaToMyReadlist(manga)"
+        [canAddAsRead]="canAddMangaToMyRead(manga)"
         (addToReadlist)="addMangaToReadlist($event)"
+        (addToMyReadlist)="addMangaToConnectedUserReadlist($event)"
+        (addToMyRead)="addMangaToConnectedUserAsRead($event)"
       ></app-manga>
     </div>
     } }
@@ -63,12 +68,17 @@
         [selectedView]="selectedView()"
         [showTopFiveSelector]="showTopFiveRank()"
         [topFiveRank]="getTopFiveRank(manga)"
+        [showAddToMyReadlist]="canShowAddToMyReadlist()"
+        [canAddToMyReadlist]="canAddMangaToMyReadlist(manga)"
+        [canAddAsRead]="canAddMangaToMyRead(manga)"
         (editRequested)="openEditMangaDialog(manga)"
         (topFiveRankChange)="onTopFiveRankChange(manga, $event)"
         (readPriorityUpdated)="updateReadPriority($event)"
         (wantToReRead)="markMangaAsWantToReRead($event)"
         (haveReRead)="markMangaAsReRead($event)"
         (mangaUpdated)="onMangaUpdated()"
+        (addToMyReadlist)="addMangaToConnectedUserReadlist($event)"
+        (addToMyRead)="addMangaToConnectedUserAsRead($event)"
       ></app-manga>
     </div>
     }

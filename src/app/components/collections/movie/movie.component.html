@@ -128,6 +128,22 @@
       (wantToReReadClick)="wantToReWatch.emit(movie)"
       (haveReReadClick)="hasReWatched.emit(movie)"
     />
+    } @if (showAddToMyWatchlist && canAddToMyWatchlist) {
+    <button
+      type="button"
+      class="makya-btn-small add-to-my-watchlist-btn"
+      (click)="addToMyWatchlist.emit(movie)"
+    >
+      Je veux voir ce film
+    </button>
+    } @if (showAddToMyWatchlist && canAddAsWatched) {
+    <button
+      type="button"
+      class="makya-btn-small add-to-my-watched-btn"
+      (click)="addToMyWatched.emit(movie)"
+    >
+      Tiens, j'ai déjà vu ce film !
+    </button>
     } @if (isBaseEntityView) {
     <p class="movie-genre">{{ movie.genre }}</p>
     }

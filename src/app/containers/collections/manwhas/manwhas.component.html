@@ -59,7 +59,12 @@
             : 'Recommandé'
         "
         [isInReadlist]="manwhaAlreadyInUserReadlist(manwha)"
+        [showAddToMyReadlist]="canShowAddToMyReadlist()"
+        [canAddToMyReadlist]="canAddManwhaToMyReadlist(manwha)"
+        [canAddAsRead]="canAddManwhaToMyRead(manwha)"
         (addToReadlist)="addManwhaToReadlist($event)"
+        (addToMyReadlist)="addManwhaToConnectedUserReadlist($event)"
+        (addToMyRead)="addManwhaToConnectedUserAsRead($event)"
       ></app-manwha>
     </div>
     } }
@@ -75,12 +80,17 @@
         [selectedView]="selectedView()"
         [showTopFiveSelector]="showTopFiveRank()"
         [topFiveRank]="getTopFiveRank(manwha)"
+        [showAddToMyReadlist]="canShowAddToMyReadlist()"
+        [canAddToMyReadlist]="canAddManwhaToMyReadlist(manwha)"
+        [canAddAsRead]="canAddManwhaToMyRead(manwha)"
         (editRequested)="openEditManwhaDialog(manwha)"
         (topFiveRankChange)="onTopFiveRankChange(manwha, $event)"
         (readPriorityUpdated)="updateReadPriority($event)"
         (wantToReRead)="markManwhaAsWantToReRead($event)"
         (haveReRead)="markManwhaAsReRead($event)"
         (manwhaUpdated)="onManwhaUpdated()"
+        (addToMyReadlist)="addManwhaToConnectedUserReadlist($event)"
+        (addToMyRead)="addManwhaToConnectedUserAsRead($event)"
       ></app-manwha>
     </div>
     }

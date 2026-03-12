@@ -109,3 +109,47 @@ export async function markGameAsRePlayed(
     return false;
   }
 }
+
+export async function addGameToGamelist(
+  game: Game,
+  userId: string
+): Promise<boolean> {
+  try {
+    const response = await fetch(`${getApiBaseUrl()}/games/add-existing`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ userId, games: [game], gamelist: true }),
+    });
+    if (!response.ok) {
+      const payload = await response.json().catch(() => ({}));
+      console.warn("Échec ajout jeu à la gamelist:", payload?.error || response.statusText);
+      return false;
+    }
+    return true;
+  } catch (error) {
+    console.warn("Erreur réseau ajout jeu à la gamelist.", error);
+    return false;
+  }
+}
+
+export async function addGameAsPlayed(
+  game: Game,
+  userId: string
+): Promise<boolean> {
+  try {
+    const response = await fetch(`${getApiBaseUrl()}/games/add-existing`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ userId, games: [game], gamelist: false }),
+    });
+    if (!response.ok) {
+      const payload = await response.json().catch(() => ({}));
+      console.warn("Échec ajout jeu en « joué »:", payload?.error || response.statusText);
+      return false;
+    }
+    return true;
+  } catch (error) {
+    console.warn("Erreur réseau ajout jeu en « joué ».", error);
+    return false;
+  }
+}

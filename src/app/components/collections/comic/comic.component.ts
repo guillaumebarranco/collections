@@ -54,9 +54,14 @@ export class ComicComponent {
   @Input() recommendationBadge = '';
   @Input() isReadlistView = false;
   @Input() selectedView: ComicView = 'read';
+  @Input() showAddToMyReadlist = false;
+  @Input() canAddToMyReadlist = false;
+  @Input() canAddAsRead = false;
   @Output() editRequested = new EventEmitter<void>();
 
   @Output() addToReadlist = new EventEmitter<Comic>();
+  @Output() addToMyReadlist = new EventEmitter<Comic>();
+  @Output() addToMyRead = new EventEmitter<Comic>();
   @Output() readPriorityUpdated = new EventEmitter<{
     comic: Comic;
     priority: number;

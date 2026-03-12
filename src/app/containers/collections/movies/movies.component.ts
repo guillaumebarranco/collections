@@ -60,11 +60,13 @@ import {
   updateWatchPriority,
   markMovieAsReWatched,
   markMovieAsWantToReWatch,
-  addMovieToWatchlist,
+  addMovieToWatchlist as addMovieToWatchlistApi,
+  addMovieAsWatched,
   getUserMoviesLists,
   createUserMovieList,
   addMovieToList,
 } from './movies.controller';
+import { AuthService } from '../../../core/auth.service';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedMovie = Movie & {
@@ -94,6 +96,7 @@ export class MoviesComponent implements OnInit {
   private readonly localStorageService = inject(LocalStorageService);
   private readonly topFiveService = inject(TopFiveService);
   private readonly followsService = inject(FollowsService);
+  private readonly authService = inject(AuthService);
   private isInitializing = false;
   private isLoadingViewConfig = false;
   private isLoadingPreferences = false;
@@ -221,6 +224,10 @@ export class MoviesComponent implements OnInit {
   baseMoviesList = signal<Movie[]>([]);
 
   watchingMoviesList = signal<{ [key: string]: Movie[] }>({});
+  /** Films vus par l'utilisateur connecté (rempli uniquement en consultation d'un autre profil). */
+  connectedUserMovies = signal<Movie[]>([]);
+  /** Watchlist de l'utilisateur connecté (rempli uniquement en consultation d'un autre profil). */
+  connectedUserWatchlist = signal<Movie[]>([]);
 
   allWatchlistMovies = computed<Movie[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
@@ -424,17 +431,38 @@ export class MoviesComponent implements OnInit {
   async refreshMovies() {
     this.isLoadingMovies.set(true);
     try {
-      const userId = this.getActiveUserId();
+      const displayedUserId = this.getActiveUserId();
+      const connectedUserId = this.authService.userId() ?? undefined;
+      const isViewingOther = Boolean(
+        connectedUserId &&
+          displayedUserId &&
+          displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
+      );
+
       const [movies, watchlist, baseMovies, lists] = await Promise.all([
-        getAllMovies(userId),
-        getAllWatchlistMovies(userId),
+        getAllMovies(displayedUserId),
+        getAllWatchlistMovies(displayedUserId),
         getAllBaseMovies(),
-        getUserMoviesLists(userId),
+        getUserMoviesLists(displayedUserId),
       ]);
       this.moviesList.set(movies);
       this.watchingMoviesList.set(watchlist);
       this.baseMoviesList.set(baseMovies.map(getFullMovie));
       this.userMoviesLists.set(lists);
+
+      if (isViewingOther && connectedUserId) {
+        const [connectedMovies, connectedWatchlist] = await Promise.all([
+          getAllMovies(connectedUserId),
+          getAllWatchlistMovies(connectedUserId),
+        ]);
+        const connectedMoviesList = connectedMovies[connectedUserId] ?? [];
+        const connectedWatchlistList = connectedWatchlist[connectedUserId] ?? [];
+        this.connectedUserMovies.set(connectedMoviesList);
+        this.connectedUserWatchlist.set(connectedWatchlistList);
+      } else {
+        this.connectedUserMovies.set([]);
+        this.connectedUserWatchlist.set([]);
+      }
     } finally {
       this.isLoadingMovies.set(false);
     }
@@ -808,8 +836,65 @@ export class MoviesComponent implements OnInit {
     );
   }
 
+  /** True si on est connecté et qu'on consulte le profil d'un autre utilisateur. */
+  isViewingOtherProfile(): boolean {
+    const connected = this.authService.userId();
+    const displayed = this.getActiveUserId();
+    return Boolean(
+      connected &&
+        displayed &&
+        displayed.toLowerCase() !== connected.toLowerCase()
+    );
+  }
+
+  /** True si le bouton "Je veux voir ce film" doit s'afficher (consultation autre profil). */
+  canShowAddToMyWatchlist(): boolean {
+    return this.isViewingOtherProfile();
+  }
+
+  /** True si l'utilisateur connecté peut ajouter ce film à sa watchlist (ne l'a pas vu et ne l'a pas déjà en watchlist). */
+  canAddMovieToMyWatchlist(movie: Movie): boolean {
+    const key = this.getMovieIdentityKey(movie);
+    const inWatchlist = this.connectedUserWatchlist().some(
+      (m) => this.getMovieIdentityKey(m) === key
+    );
+    const alreadyWatched = this.connectedUserMovies().some(
+      (m) =>
+        this.getMovieIdentityKey(m) === key &&
+        Boolean(m.timesWatched && m.timesWatched > 0)
+    );
+    return !inWatchlist && !alreadyWatched;
+  }
+
+  /** True si l'utilisateur connecté peut ajouter ce film à ses films vus (ne l'a pas déjà vu). */
+  canAddMovieToMyWatched(movie: Movie): boolean {
+    const key = this.getMovieIdentityKey(movie);
+    const alreadyWatched = this.connectedUserMovies().some(
+      (m) =>
+        this.getMovieIdentityKey(m) === key &&
+        Boolean(m.timesWatched && m.timesWatched > 0)
+    );
+    return !alreadyWatched;
+  }
+
+  /** Ajoute le film à la watchlist de l'utilisateur connecté (depuis la vue du profil d'un autre). */
+  async addMovieToConnectedUserWatchlist(movie: Movie): Promise<void> {
+    const connectedUserId = this.authService.userId();
+    if (!connectedUserId) return;
+    const success = await addMovieToWatchlistApi(movie, connectedUserId);
+    if (success) await this.refreshMovies();
+  }
+
+  /** Ajoute le film aux films vus de l'utilisateur connecté (depuis la vue du profil d'un autre). */
+  async addMovieToConnectedUserAsWatched(movie: Movie): Promise<void> {
+    const connectedUserId = this.authService.userId();
+    if (!connectedUserId) return;
+    const success = await addMovieAsWatched(movie, connectedUserId);
+    if (success) await this.refreshMovies();
+  }
+
   async addMovieToWatchlist(movie: Movie): Promise<void> {
-    const addSuccess = await addMovieToWatchlist(movie, this.getActiveUserId());
+    const addSuccess = await addMovieToWatchlistApi(movie, this.getActiveUserId());
 
     if (addSuccess) {
       await this.refreshMovies();

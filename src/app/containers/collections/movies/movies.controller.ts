@@ -169,6 +169,40 @@ export async function addMovieToWatchlist(
   }
 }
 
+/** Ajoute le film parmi les films vus de l'utilisateur (watchlist: false). */
+export async function addMovieAsWatched(
+  movie: Movie,
+  userId: string
+): Promise<boolean> {
+  try {
+    const response = await fetch(`${getApiBaseUrl()}/movies/add-existing`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        userId,
+        movies: [movie],
+        watchlist: false,
+      }),
+    });
+
+    if (!response.ok) {
+      const payload = await response.json().catch(() => ({}));
+      console.warn(
+        "Échec de l'ajout du film en « vu » :",
+        payload?.error || response.statusText
+      );
+      return false;
+    }
+
+    return true;
+  } catch (error) {
+    console.warn("Erreur réseau lors de l'ajout du film en « vu ».", error);
+    return false;
+  }
+}
+
 /** Récupère les listes de films de l'utilisateur (name, icon, color). En local, lit toujours depuis le fichier statique (comme les films). */
 export async function getUserMoviesLists(
   userId: string

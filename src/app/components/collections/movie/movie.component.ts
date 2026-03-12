@@ -63,10 +63,18 @@ export class MovieComponent {
   @Input() isInWatchlist = false;
   @Input() selectedView: MovieView = 'watched';
   @Input() recommendationBadge = '';
+  /** Afficher les boutons "Je veux voir ce film" / "Tiens, j'ai déjà vu ce film !" (consultation du profil d'un autre). */
+  @Input() showAddToMyWatchlist = false;
+  @Input() canAddToMyWatchlist = false;
+  @Input() canAddAsWatched = false;
   @Output() movieUpdated = new EventEmitter<void>();
 
   @Output() wantToReWatch = new EventEmitter<Movie>();
   @Output() addToWatchlist = new EventEmitter<Movie>();
+  /** Émis quand l'utilisateur connecté clique sur "Je veux voir ce film" (sur le profil d'un autre). */
+  @Output() addToMyWatchlist = new EventEmitter<Movie>();
+  /** Émis quand l'utilisateur connecté clique sur "Tiens, j'ai déjà vu ce film !" (sur le profil d'un autre). */
+  @Output() addToMyWatched = new EventEmitter<Movie>();
   @Output() hasReWatched = new EventEmitter<Movie>();
   @Output() watchPriorityUpdated = new EventEmitter<{
     movie: Movie;

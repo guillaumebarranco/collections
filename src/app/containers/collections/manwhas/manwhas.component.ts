@@ -50,9 +50,12 @@ import {
   updateReadPriority as updateReadPriorityApi,
   markManwhaAsWantToReRead as markManwhaAsWantToReReadApi,
   markManwhaAsReRead as markManwhaAsReReadApi,
+  addManwhaToReadlist as addManwhaToReadlistApi,
+  addManwhaAsRead as addManwhaAsReadApi,
 } from './manwhas.controller';
 import { TopFiveService } from '../../../services/top-five.service';
 import { FollowsService } from '../../../services/follows.service';
+import { AuthService } from '../../../core/auth.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
 
 type RecommendationDetail = { userId: string; rating: number };
@@ -81,6 +84,7 @@ export class ManwhasComponent implements OnInit {
   private readonly localStorageService = inject(LocalStorageService);
   private readonly topFiveService = inject(TopFiveService);
   private readonly followsService = inject(FollowsService);
+  private readonly authService = inject(AuthService);
   private isLoadingPreferences = false;
   private isLoadingViewConfig = false;
   private readonly viewConfigStorageKey = 'manwhas_view_config';
@@ -108,6 +112,8 @@ export class ManwhasComponent implements OnInit {
 
   manwhasList = signal<{ [key: string]: Manwha[] }>({});
   readlistManwhasList = signal<{ [key: string]: Manwha[] }>({});
+  connectedUserManwhas = signal<Manwha[]>([]);
+  connectedUserReadlist = signal<Manwha[]>([]);
   baseManwhasList = signal<Manwha[]>([]);
   recommendations = signal<RecommendedManwha[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
@@ -383,15 +389,34 @@ export class ManwhasComponent implements OnInit {
   }
 
   private async refreshManwhas() {
-    const userId = this.getActiveUserId();
+    const displayedUserId = this.getActiveUserId();
+    const connectedUserId = this.authService.userId() ?? undefined;
+    const isViewingOther = Boolean(
+      connectedUserId &&
+        displayedUserId &&
+        displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
+    );
+
     const [manwhas, readlist, baseManwhas] = await Promise.all([
-      getAllManwhas(userId),
-      getAllReadlistManwhas(userId),
+      getAllManwhas(displayedUserId),
+      getAllReadlistManwhas(displayedUserId),
       getAllBaseManwhas(),
     ]);
     this.manwhasList.set(manwhas);
     this.readlistManwhasList.set(readlist);
     this.baseManwhasList.set(baseManwhas.map(getFullManwha));
+
+    if (isViewingOther && connectedUserId) {
+      const [connectedManwhas, connectedReadlist] = await Promise.all([
+        getAllManwhas(connectedUserId),
+        getAllReadlistManwhas(connectedUserId),
+      ]);
+      this.connectedUserManwhas.set(connectedManwhas[connectedUserId] ?? []);
+      this.connectedUserReadlist.set(connectedReadlist[connectedUserId] ?? []);
+    } else {
+      this.connectedUserManwhas.set([]);
+      this.connectedUserReadlist.set([]);
+    }
   }
 
   getActiveUserId(): string {
@@ -542,6 +567,57 @@ export class ManwhasComponent implements OnInit {
     return readlist.some(
       (m) => m.title === manwha.title && m.author === manwha.author
     );
+  }
+
+  isViewingOtherProfile(): boolean {
+    const connected = this.authService.userId();
+    const displayed = this.getActiveUserId();
+    return Boolean(
+      connected &&
+        displayed &&
+        displayed.toLowerCase() !== connected.toLowerCase()
+    );
+  }
+
+  canShowAddToMyReadlist(): boolean {
+    return this.isViewingOtherProfile();
+  }
+
+  canAddManwhaToMyReadlist(manwha: Manwha): boolean {
+    const key = this.getManwhaIdentityKey(manwha);
+    const inReadlist = this.connectedUserReadlist().some(
+      (m) => this.getManwhaIdentityKey(m) === key
+    );
+    const alreadyRead = this.connectedUserManwhas().some(
+      (m) =>
+        this.getManwhaIdentityKey(m) === key &&
+        Boolean(m.readTimes && m.readTimes > 0)
+    );
+    return !inReadlist && !alreadyRead;
+  }
+
+  canAddManwhaToMyRead(manwha: Manwha): boolean {
+    const key = this.getManwhaIdentityKey(manwha);
+    const alreadyRead = this.connectedUserManwhas().some(
+      (m) =>
+        this.getManwhaIdentityKey(m) === key &&
+        Boolean(m.readTimes && m.readTimes > 0)
+    );
+    return !alreadyRead;
+  }
+
+  async addManwhaToConnectedUserReadlist(manwha: Manwha): Promise<void> {
+    const connectedUserId = this.authService.userId();
+    if (!connectedUserId) return;
+    const success = await addManwhaToReadlistApi(manwha, connectedUserId);
+    if (success) await this.refreshManwhas();
+  }
+
+  async addManwhaToConnectedUserAsRead(manwha: Manwha): Promise<void> {
+    const connectedUserId = this.authService.userId();
+    if (!connectedUserId) return;
+    const success = await addManwhaAsReadApi(manwha, connectedUserId);
+    if (success) await this.refreshManwhas();
   }
 
   async updateReadPriority(data: {

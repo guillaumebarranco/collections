@@ -43,9 +43,12 @@ import {
   updateGamelistPriority as updateGamelistPriorityApi,
   markGameAsWantToRePlay as markGameAsWantToRePlayApi,
   markGameAsRePlayed as markGameAsRePlayedApi,
+  addGameToGamelist as addGameToGamelistApi,
+  addGameAsPlayed as addGameAsPlayedApi,
 } from './games.controller';
 import { TopFiveService } from '../../../services/top-five.service';
 import { FollowsService } from '../../../services/follows.service';
+import { AuthService } from '../../../core/auth.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
 
 type RecommendationDetail = { userId: string; rating: number };
@@ -80,6 +83,7 @@ export class GamesComponent implements OnInit {
   private readonly localStorageService = inject(LocalStorageService);
   private readonly topFiveService = inject(TopFiveService);
   private readonly followsService = inject(FollowsService);
+  private readonly authService = inject(AuthService);
   private isLoadingPreferences = false;
   private isLoadingViewConfig = false;
   private readonly viewConfigStorageKey = 'games_view_config';
@@ -119,6 +123,8 @@ export class GamesComponent implements OnInit {
 
   gamesList = signal<{ [key: string]: Game[] }>({});
   gamelistGamesList = signal<{ [key: string]: Game[] }>({});
+  connectedUserGames = signal<Game[]>([]);
+  connectedUserGamelist = signal<Game[]>([]);
   baseGamesList = signal<Game[]>([]);
   recommendations = signal<RecommendedGame[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
@@ -257,15 +263,34 @@ export class GamesComponent implements OnInit {
   }
 
   async refreshGames() {
-    const userId = this.getActiveUserId();
+    const displayedUserId = this.getActiveUserId();
+    const connectedUserId = this.authService.userId() ?? undefined;
+    const isViewingOther = Boolean(
+      connectedUserId &&
+        displayedUserId &&
+        displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
+    );
+
     const [games, gamelist, baseGames] = await Promise.all([
-      getAllGames(userId),
-      getAllGamelistGames(userId),
+      getAllGames(displayedUserId),
+      getAllGamelistGames(displayedUserId),
       getAllBaseGames(),
     ]);
     this.gamesList.set(games);
     this.gamelistGamesList.set(gamelist);
     this.baseGamesList.set(baseGames.map(getFullGame));
+
+    if (isViewingOther && connectedUserId) {
+      const [connectedGames, connectedGamelist] = await Promise.all([
+        getAllGames(connectedUserId),
+        getAllGamelistGames(connectedUserId),
+      ]);
+      this.connectedUserGames.set(connectedGames[connectedUserId] ?? []);
+      this.connectedUserGamelist.set(connectedGamelist[connectedUserId] ?? []);
+    } else {
+      this.connectedUserGames.set([]);
+      this.connectedUserGamelist.set([]);
+    }
   }
 
   getActiveUserId(): string {
@@ -505,6 +530,53 @@ export class GamesComponent implements OnInit {
     return gamelist.some(
       (g) => g.title === game.title && g.editor === game.editor
     );
+  }
+
+  isViewingOtherProfile(): boolean {
+    const connected = this.authService.userId();
+    const displayed = this.getActiveUserId();
+    return Boolean(
+      connected &&
+        displayed &&
+        displayed.toLowerCase() !== connected.toLowerCase()
+    );
+  }
+
+  canShowAddToMyGamelist(): boolean {
+    return this.isViewingOtherProfile();
+  }
+
+  canAddGameToMyGamelist(game: Game): boolean {
+    const key = this.getGameIdentityKey(game);
+    const inGamelist = this.connectedUserGamelist().some(
+      (g) => this.getGameIdentityKey(g) === key
+    );
+    const alreadyPlayed = this.connectedUserGames().some(
+      (g) => this.getGameIdentityKey(g) === key
+    );
+    return !inGamelist && !alreadyPlayed;
+  }
+
+  canAddGameToMyPlayed(game: Game): boolean {
+    const key = this.getGameIdentityKey(game);
+    const alreadyPlayed = this.connectedUserGames().some(
+      (g) => this.getGameIdentityKey(g) === key
+    );
+    return !alreadyPlayed;
+  }
+
+  async addGameToConnectedUserGamelist(game: Game): Promise<void> {
+    const connectedUserId = this.authService.userId();
+    if (!connectedUserId) return;
+    const success = await addGameToGamelistApi(game, connectedUserId);
+    if (success) await this.refreshGames();
+  }
+
+  async addGameToConnectedUserAsPlayed(game: Game): Promise<void> {
+    const connectedUserId = this.authService.userId();
+    if (!connectedUserId) return;
+    const success = await addGameAsPlayedApi(game, connectedUserId);
+    if (success) await this.refreshGames();
   }
 
   addGameToGamelist(game: Game) {

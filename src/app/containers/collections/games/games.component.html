@@ -49,7 +49,12 @@
             : 'Recommandé'
         "
         [isInGamelist]="gameAlreadyInUserGamelist(game)"
+        [showAddToMyGamelist]="canShowAddToMyGamelist()"
+        [canAddToMyGamelist]="canAddGameToMyGamelist(game)"
+        [canAddAsPlayed]="canAddGameToMyPlayed(game)"
         (addToGamelist)="addGameToGamelist($event)"
+        (addToMyGamelist)="addGameToConnectedUserGamelist($event)"
+        (addToMyPlayed)="addGameToConnectedUserAsPlayed($event)"
       ></app-game>
     </div>
     } }
@@ -66,11 +71,16 @@
         [selectedView]="selectedView()"
         [showTopFiveSelector]="showTopFiveRank()"
         [topFiveRank]="getTopFiveRank(game)"
+        [showAddToMyGamelist]="canShowAddToMyGamelist()"
+        [canAddToMyGamelist]="canAddGameToMyGamelist(game)"
+        [canAddAsPlayed]="canAddGameToMyPlayed(game)"
         (gameUpdated)="refreshGames()"
         (topFiveRankChange)="onTopFiveRankChange(game, $event)"
         (gamelistPriorityUpdated)="updateGamelistPriority($event)"
         (wantToRePlay)="markGameAsWantToRePlay($event)"
         (haveRePlayed)="markGameAsRePlayed($event)"
+        (addToMyGamelist)="addGameToConnectedUserGamelist($event)"
+        (addToMyPlayed)="addGameToConnectedUserAsPlayed($event)"
       ></app-game>
     </div>
     }

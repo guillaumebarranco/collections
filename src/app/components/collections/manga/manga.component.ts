@@ -54,9 +54,14 @@ export class MangaComponent {
   @Input() recommendationBadge = '';
   @Input() isReadlistView = false;
   @Input() selectedView: MangaView = 'read';
+  @Input() showAddToMyReadlist = false;
+  @Input() canAddToMyReadlist = false;
+  @Input() canAddAsRead = false;
   @Output() editRequested = new EventEmitter<void>();
 
   @Output() addToReadlist = new EventEmitter<Manga>();
+  @Output() addToMyReadlist = new EventEmitter<Manga>();
+  @Output() addToMyRead = new EventEmitter<Manga>();
   @Output() readPriorityUpdated = new EventEmitter<{
     manga: Manga;
     priority: number;

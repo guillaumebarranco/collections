@@ -112,3 +112,48 @@ export async function markMangaAsReRead(
     return false;
   }
 }
+
+export async function addMangaToReadlist(
+  manga: Manga,
+  userId: string
+): Promise<boolean> {
+  try {
+    const response = await fetch(`${getApiBaseUrl()}/mangas/add-existing`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ userId, mangas: [manga], readlist: true }),
+    });
+    if (!response.ok) {
+      const payload = await response.json().catch(() => ({}));
+      console.warn("Échec ajout manga à la readlist:", payload?.error || response.statusText);
+      return false;
+    }
+    return true;
+  } catch (error) {
+    console.warn("Erreur réseau ajout manga à la readlist.", error);
+    return false;
+  }
+}
+
+/** Ajoute le manga parmi les mangas lus de l'utilisateur (readlist: false). */
+export async function addMangaAsRead(
+  manga: Manga,
+  userId: string
+): Promise<boolean> {
+  try {
+    const response = await fetch(`${getApiBaseUrl()}/mangas/add-existing`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ userId, mangas: [manga], readlist: false }),
+    });
+    if (!response.ok) {
+      const payload = await response.json().catch(() => ({}));
+      console.warn("Échec ajout manga en « lu »:", payload?.error || response.statusText);
+      return false;
+    }
+    return true;
+  } catch (error) {
+    console.warn("Erreur réseau ajout manga en « lu ».", error);
+    return false;
+  }
+}

@@ -54,9 +54,14 @@ export class ManwhaComponent {
   @Input() recommendationBadge = '';
   @Input() isReadlistView = false;
   @Input() selectedView: ManwhaView = 'read';
+  @Input() showAddToMyReadlist = false;
+  @Input() canAddToMyReadlist = false;
+  @Input() canAddAsRead = false;
   @Output() editRequested = new EventEmitter<void>();
 
   @Output() addToReadlist = new EventEmitter<Manwha>();
+  @Output() addToMyReadlist = new EventEmitter<Manwha>();
+  @Output() addToMyRead = new EventEmitter<Manwha>();
   @Output() readPriorityUpdated = new EventEmitter<{
     manwha: Manwha;
     priority: number;

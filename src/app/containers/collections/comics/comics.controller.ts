@@ -112,3 +112,47 @@ export async function markComicAsReRead(
     return false;
   }
 }
+
+export async function addComicToReadlist(
+  comic: Comic,
+  userId: string
+): Promise<boolean> {
+  try {
+    const response = await fetch(`${getApiBaseUrl()}/comics/add-existing`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ userId, comics: [comic], readlist: true }),
+    });
+    if (!response.ok) {
+      const payload = await response.json().catch(() => ({}));
+      console.warn("Échec ajout comic à la readlist:", payload?.error || response.statusText);
+      return false;
+    }
+    return true;
+  } catch (error) {
+    console.warn("Erreur réseau ajout comic à la readlist.", error);
+    return false;
+  }
+}
+
+export async function addComicAsRead(
+  comic: Comic,
+  userId: string
+): Promise<boolean> {
+  try {
+    const response = await fetch(`${getApiBaseUrl()}/comics/add-existing`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ userId, comics: [comic], readlist: false }),
+    });
+    if (!response.ok) {
+      const payload = await response.json().catch(() => ({}));
+      console.warn("Échec ajout comic en « lu »:", payload?.error || response.statusText);
+      return false;
+    }
+    return true;
+  } catch (error) {
+    console.warn("Erreur réseau ajout comic en « lu ».", error);
+    return false;
+  }
+}

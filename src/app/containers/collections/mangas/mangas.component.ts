@@ -51,9 +51,12 @@ import {
   updateReadPriority as updateReadPriorityApi,
   markMangaAsWantToReRead as markMangaAsWantToReReadApi,
   markMangaAsReRead as markMangaAsReReadApi,
+  addMangaToReadlist as addMangaToReadlistApi,
+  addMangaAsRead as addMangaAsReadApi,
 } from './mangas.controller';
 import { TopFiveService } from '../../../services/top-five.service';
 import { FollowsService } from '../../../services/follows.service';
+import { AuthService } from '../../../core/auth.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
 
 type RecommendationDetail = { userId: string; rating: number };
@@ -84,6 +87,7 @@ export class MangasComponent implements OnInit {
   private readonly localStorageService = inject(LocalStorageService);
   private readonly topFiveService = inject(TopFiveService);
   private readonly followsService = inject(FollowsService);
+  private readonly authService = inject(AuthService);
   private isLoadingPreferences = false;
   private isLoadingViewConfig = false;
   private readonly viewConfigStorageKey = 'mangas_view_config';
@@ -111,6 +115,10 @@ export class MangasComponent implements OnInit {
 
   mangasList = signal<{ [key: string]: Manga[] }>({});
   readlistMangasList = signal<{ [key: string]: Manga[] }>({});
+  /** Mangas lus par l'utilisateur connecté (rempli uniquement en consultation d'un autre profil). */
+  connectedUserMangas = signal<Manga[]>([]);
+  /** Readlist de l'utilisateur connecté (rempli uniquement en consultation d'un autre profil). */
+  connectedUserReadlist = signal<Manga[]>([]);
   baseMangasList = signal<Manga[]>([]);
   recommendations = signal<RecommendedManga[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
@@ -352,14 +360,34 @@ export class MangasComponent implements OnInit {
 
   private async refreshMangas() {
     const userId = this.getActiveUserId();
+    const displayedUserId = userId;
+    const connectedUserId = this.authService.userId() ?? undefined;
+    const isViewingOther = Boolean(
+      connectedUserId &&
+        displayedUserId &&
+        displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
+    );
+
     const [mangas, readlist, baseMangas] = await Promise.all([
-      getAllMangas(userId),
-      getAllReadlistMangas(userId),
+      getAllMangas(displayedUserId),
+      getAllReadlistMangas(displayedUserId),
       getAllBaseMangas(),
     ]);
     this.mangasList.set(mangas);
     this.readlistMangasList.set(readlist);
     this.baseMangasList.set(baseMangas.map(getFullManga));
+
+    if (isViewingOther && connectedUserId) {
+      const [connectedMangas, connectedReadlist] = await Promise.all([
+        getAllMangas(connectedUserId),
+        getAllReadlistMangas(connectedUserId),
+      ]);
+      this.connectedUserMangas.set(connectedMangas[connectedUserId] ?? []);
+      this.connectedUserReadlist.set(connectedReadlist[connectedUserId] ?? []);
+    } else {
+      this.connectedUserMangas.set([]);
+      this.connectedUserReadlist.set([]);
+    }
   }
 
   openEditMangaDialog(manga: Manga): void {
@@ -537,6 +565,57 @@ export class MangasComponent implements OnInit {
     return readlist.some(
       (m) => m.title === manga.title && m.author === manga.author
     );
+  }
+
+  isViewingOtherProfile(): boolean {
+    const connected = this.authService.userId();
+    const displayed = this.getActiveUserId();
+    return Boolean(
+      connected &&
+        displayed &&
+        displayed.toLowerCase() !== connected.toLowerCase()
+    );
+  }
+
+  canShowAddToMyReadlist(): boolean {
+    return this.isViewingOtherProfile();
+  }
+
+  canAddMangaToMyReadlist(manga: Manga): boolean {
+    const key = this.getMangaIdentityKey(manga);
+    const inReadlist = this.connectedUserReadlist().some(
+      (m) => this.getMangaIdentityKey(m) === key
+    );
+    const alreadyRead = this.connectedUserMangas().some(
+      (m) =>
+        this.getMangaIdentityKey(m) === key &&
+        Boolean(m.readTimes && m.readTimes > 0)
+    );
+    return !inReadlist && !alreadyRead;
+  }
+
+  canAddMangaToMyRead(manga: Manga): boolean {
+    const key = this.getMangaIdentityKey(manga);
+    const alreadyRead = this.connectedUserMangas().some(
+      (m) =>
+        this.getMangaIdentityKey(m) === key &&
+        Boolean(m.readTimes && m.readTimes > 0)
+    );
+    return !alreadyRead;
+  }
+
+  async addMangaToConnectedUserReadlist(manga: Manga): Promise<void> {
+    const connectedUserId = this.authService.userId();
+    if (!connectedUserId) return;
+    const success = await addMangaToReadlistApi(manga, connectedUserId);
+    if (success) await this.refreshMangas();
+  }
+
+  async addMangaToConnectedUserAsRead(manga: Manga): Promise<void> {
+    const connectedUserId = this.authService.userId();
+    if (!connectedUserId) return;
+    const success = await addMangaAsReadApi(manga, connectedUserId);
+    if (success) await this.refreshMangas();
   }
 
   async updateReadPriority(data: {

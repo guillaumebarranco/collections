@@ -58,9 +58,14 @@ export class GameComponent {
   @Input() recommendationBadge = '';
   @Input() isGamelistView = false;
   @Input() selectedView: GameView = 'finished';
+  @Input() showAddToMyGamelist = false;
+  @Input() canAddToMyGamelist = false;
+  @Input() canAddAsPlayed = false;
   @Output() gameUpdated = new EventEmitter<void>();
 
   @Output() addToGamelist = new EventEmitter<Game>();
+  @Output() addToMyGamelist = new EventEmitter<Game>();
+  @Output() addToMyPlayed = new EventEmitter<Game>();
   @Output() gamelistPriorityUpdated = new EventEmitter<{
     game: Game;
     priority: number;

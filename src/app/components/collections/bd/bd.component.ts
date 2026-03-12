@@ -53,9 +53,14 @@ export class BdComponent {
   @Input() recommendationBadge = '';
   @Input() isReadlistView = false;
   @Input() selectedView: BdView = 'read';
+  @Input() showAddToMyReadlist = false;
+  @Input() canAddToMyReadlist = false;
+  @Input() canAddAsRead = false;
   @Output() editRequested = new EventEmitter<void>();
 
   @Output() addToReadlist = new EventEmitter<Bd>();
+  @Output() addToMyReadlist = new EventEmitter<Bd>();
+  @Output() addToMyRead = new EventEmitter<Bd>();
   @Output() readPriorityUpdated = new EventEmitter<{
     bd: Bd;
     priority: number;

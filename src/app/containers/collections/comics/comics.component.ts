@@ -49,9 +49,12 @@ import {
   updateReadPriority as updateReadPriorityApi,
   markComicAsWantToReRead as markComicAsWantToReReadApi,
   markComicAsReRead as markComicAsReReadApi,
+  addComicToReadlist as addComicToReadlistApi,
+  addComicAsRead as addComicAsReadApi,
 } from './comics.controller';
 import { TopFiveService } from '../../../services/top-five.service';
 import { FollowsService } from '../../../services/follows.service';
+import { AuthService } from '../../../core/auth.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedComic = Comic & {
@@ -81,6 +84,7 @@ export class ComicsComponent implements OnInit {
   private readonly localStorageService = inject(LocalStorageService);
   private readonly topFiveService = inject(TopFiveService);
   private readonly followsService = inject(FollowsService);
+  private readonly authService = inject(AuthService);
   private isLoadingPreferences = false;
   private isLoadingViewConfig = false;
   private readonly viewConfigStorageKey = 'comics_view_config';
@@ -108,6 +112,8 @@ export class ComicsComponent implements OnInit {
 
   comicsList = signal<{ [key: string]: Comic[] }>({});
   readlistComicsList = signal<{ [key: string]: Comic[] }>({});
+  connectedUserComics = signal<Comic[]>([]);
+  connectedUserReadlist = signal<Comic[]>([]);
   baseComicsList = signal<Comic[]>([]);
   recommendations = signal<RecommendedComic[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
@@ -338,15 +344,34 @@ export class ComicsComponent implements OnInit {
   }
 
   private async refreshComics() {
-    const userId = this.getActiveUserId();
+    const displayedUserId = this.getActiveUserId();
+    const connectedUserId = this.authService.userId() ?? undefined;
+    const isViewingOther = Boolean(
+      connectedUserId &&
+        displayedUserId &&
+        displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
+    );
+
     const [comics, readlist, baseComics] = await Promise.all([
-      getAllComics(userId),
-      getAllReadlistComics(userId),
+      getAllComics(displayedUserId),
+      getAllReadlistComics(displayedUserId),
       getAllBaseComics(),
     ]);
     this.comicsList.set(comics);
     this.readlistComicsList.set(readlist);
     this.baseComicsList.set(baseComics.map(getFullComic));
+
+    if (isViewingOther && connectedUserId) {
+      const [connectedComics, connectedReadlist] = await Promise.all([
+        getAllComics(connectedUserId),
+        getAllReadlistComics(connectedUserId),
+      ]);
+      this.connectedUserComics.set(connectedComics[connectedUserId] ?? []);
+      this.connectedUserReadlist.set(connectedReadlist[connectedUserId] ?? []);
+    } else {
+      this.connectedUserComics.set([]);
+      this.connectedUserReadlist.set([]);
+    }
   }
 
   openEditComicDialog(comic: Comic): void {
@@ -551,6 +576,57 @@ export class ComicsComponent implements OnInit {
     return readlist.some(
       (c) => c.title === comic.title && c.writer === comic.writer
     );
+  }
+
+  isViewingOtherProfile(): boolean {
+    const connected = this.authService.userId();
+    const displayed = this.getActiveUserId();
+    return Boolean(
+      connected &&
+        displayed &&
+        displayed.toLowerCase() !== connected.toLowerCase()
+    );
+  }
+
+  canShowAddToMyReadlist(): boolean {
+    return this.isViewingOtherProfile();
+  }
+
+  canAddComicToMyReadlist(comic: Comic): boolean {
+    const key = this.getComicIdentityKey(comic);
+    const inReadlist = this.connectedUserReadlist().some(
+      (c) => this.getComicIdentityKey(c) === key
+    );
+    const alreadyRead = this.connectedUserComics().some(
+      (c) =>
+        this.getComicIdentityKey(c) === key &&
+        Boolean(c.readTimes && c.readTimes > 0)
+    );
+    return !inReadlist && !alreadyRead;
+  }
+
+  canAddComicToMyRead(comic: Comic): boolean {
+    const key = this.getComicIdentityKey(comic);
+    const alreadyRead = this.connectedUserComics().some(
+      (c) =>
+        this.getComicIdentityKey(c) === key &&
+        Boolean(c.readTimes && c.readTimes > 0)
+    );
+    return !alreadyRead;
+  }
+
+  async addComicToConnectedUserReadlist(comic: Comic): Promise<void> {
+    const connectedUserId = this.authService.userId();
+    if (!connectedUserId) return;
+    const success = await addComicToReadlistApi(comic, connectedUserId);
+    if (success) await this.refreshComics();
+  }
+
+  async addComicToConnectedUserAsRead(comic: Comic): Promise<void> {
+    const connectedUserId = this.authService.userId();
+    if (!connectedUserId) return;
+    const success = await addComicAsReadApi(comic, connectedUserId);
+    if (success) await this.refreshComics();
   }
 
   addComicToReadlist(comic: Comic) {

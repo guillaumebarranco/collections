@@ -105,6 +105,22 @@
         }
       </div>
     </app-entity-card-rating-and-buttons>
+    } @if (showAddToMyWatchlist && canAddToMyWatchlist) {
+    <button
+      type="button"
+      class="makya-btn-small add-to-my-watchlist-btn"
+      (click)="addToMyWatchlist.emit(serie)"
+    >
+      Je veux voir cette série
+    </button>
+    } @if (showAddToMyWatchlist && canAddAsWatched) {
+    <button
+      type="button"
+      class="makya-btn-small add-to-my-watched-btn"
+      (click)="addToMyWatched.emit(serie)"
+    >
+      Tiens, j'ai déjà vu cette série !
+    </button>
     }
   </div>
 </app-entity-card>

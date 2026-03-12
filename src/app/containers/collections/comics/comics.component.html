@@ -47,7 +47,12 @@
             : 'Recommandé'
         "
         [isInReadlist]="comicAlreadyInUserReadlist(comic)"
+        [showAddToMyReadlist]="canShowAddToMyReadlist()"
+        [canAddToMyReadlist]="canAddComicToMyReadlist(comic)"
+        [canAddAsRead]="canAddComicToMyRead(comic)"
         (addToReadlist)="addComicToReadlist($event)"
+        (addToMyReadlist)="addComicToConnectedUserReadlist($event)"
+        (addToMyRead)="addComicToConnectedUserAsRead($event)"
       ></app-comic>
     </div>
     } }
@@ -63,12 +68,17 @@
         [selectedView]="selectedView()"
         [showTopFiveSelector]="showTopFiveRank()"
         [topFiveRank]="getTopFiveRank(comic)"
+        [showAddToMyReadlist]="canShowAddToMyReadlist()"
+        [canAddToMyReadlist]="canAddComicToMyReadlist(comic)"
+        [canAddAsRead]="canAddComicToMyRead(comic)"
         (editRequested)="openEditComicDialog(comic)"
         (topFiveRankChange)="onTopFiveRankChange(comic, $event)"
         (readPriorityUpdated)="updateReadPriority($event)"
         (wantToReRead)="markComicAsWantToReRead($event)"
         (haveReRead)="markComicAsReRead($event)"
         (comicUpdated)="onComicUpdated()"
+        (addToMyReadlist)="addComicToConnectedUserReadlist($event)"
+        (addToMyRead)="addComicToConnectedUserAsRead($event)"
       ></app-comic>
     </div>
     }
