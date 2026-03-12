@@ -58,11 +58,15 @@ export class BookComponent {
   @Input() showAddToMyReadlist = false;
   /** Le livre peut être ajouté à la readlist de l'utilisateur connecté (pas encore lu ni en readlist). */
   @Input() canAddToMyReadlist = false;
+  /** Le livre peut être ajouté aux livres lus de l'utilisateur connecté (pas encore lu). */
+  @Input() canAddAsRead = false;
   @Output() editRequested = new EventEmitter<void>();
 
   @Output() addToReadlist = new EventEmitter<any>();
   /** Émis quand l'utilisateur connecté clique sur "Je veux lire ce livre" (sur le profil d'un autre). */
   @Output() addToMyReadlist = new EventEmitter<Book>();
+  /** Émis quand l'utilisateur connecté clique sur "Tiens, j'ai déjà lu ce livre !" (sur le profil d'un autre). */
+  @Output() addToMyRead = new EventEmitter<Book>();
   @Output() readPriorityUpdated = new EventEmitter<{
     book: any;
     priority: number;

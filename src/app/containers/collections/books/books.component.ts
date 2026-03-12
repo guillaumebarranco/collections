@@ -60,6 +60,7 @@ import { capitalizeFirstLetter } from '../../../utils/stats.utils';
 import { getFullBook } from '../../../helpers/full-entities-helper';
 import {
   addBookToReadlist as addBookToReadlistApi,
+  addBookAsRead as addBookAsReadApi,
   markBookAsWantToReRead as markBookAsWantToReReadApi,
   markBookAsReRead as markBookAsReReadApi,
   updateReadPriority as updateReadPriorityApi,
@@ -869,11 +870,32 @@ export class BooksComponent implements OnInit {
     return !inReadlist && !alreadyRead;
   }
 
+  /** True si l'utilisateur connecté peut ajouter ce livre à ses livres lus (ne l'a pas déjà lu). */
+  canAddBookToMyRead(book: Book): boolean {
+    const key = this.getBookIdentityKey(book);
+    const alreadyRead = this.connectedUserBooks().some(
+      (b) =>
+        this.getBookIdentityKey(b) === key &&
+        Boolean(b.readTimes && b.readTimes > 0)
+    );
+    return !alreadyRead;
+  }
+
   /** Ajoute le livre à la readlist de l'utilisateur connecté (depuis la vue du profil d'un autre). */
   async addBookToConnectedUserReadlist(book: Book) {
     const connectedUserId = this.authService.userId();
     if (!connectedUserId) return;
     const success = await addBookToReadlistApi(book, connectedUserId);
+    if (success) {
+      await this.refreshBooks();
+    }
+  }
+
+  /** Ajoute le livre aux livres lus de l'utilisateur connecté (depuis la vue du profil d'un autre). */
+  async addBookToConnectedUserAsRead(book: Book) {
+    const connectedUserId = this.authService.userId();
+    if (!connectedUserId) return;
+    const success = await addBookAsReadApi(book, connectedUserId);
     if (success) {
       await this.refreshBooks();
     }

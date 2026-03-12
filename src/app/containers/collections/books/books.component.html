@@ -101,11 +101,13 @@
               [topFiveRank]="getTopFiveRank(book)"
               [showAddToMyReadlist]="canShowAddToMyReadlist()"
               [canAddToMyReadlist]="canAddBookToMyReadlist(book)"
+              [canAddAsRead]="canAddBookToMyRead(book)"
               (editRequested)="openEditBookDialog(book)"
               (topFiveRankChange)="onTopFiveRankChange(book, $event)"
               (wantToReRead)="markBookAsWantToReRead($event)"
               (haveReRead)="markBookAsReRead($event)"
               (addToMyReadlist)="addBookToConnectedUserReadlist($event)"
+              (addToMyRead)="addBookToConnectedUserAsRead($event)"
             ></app-book>
           </div>
           }
@@ -153,11 +155,13 @@
               [topFiveRank]="getTopFiveRank(book)"
               [showAddToMyReadlist]="canShowAddToMyReadlist()"
               [canAddToMyReadlist]="canAddBookToMyReadlist(book)"
+              [canAddAsRead]="canAddBookToMyRead(book)"
               (editRequested)="openEditBookDialog(book)"
               (topFiveRankChange)="onTopFiveRankChange(book, $event)"
               (wantToReRead)="markBookAsWantToReRead($event)"
               (haveReRead)="markBookAsReRead($event)"
               (addToMyReadlist)="addBookToConnectedUserReadlist($event)"
+              (addToMyRead)="addBookToConnectedUserAsRead($event)"
             ></app-book>
           </div>
           }
@@ -208,11 +212,13 @@
               [topFiveRank]="getTopFiveRank(book)"
               [showAddToMyReadlist]="canShowAddToMyReadlist()"
               [canAddToMyReadlist]="canAddBookToMyReadlist(book)"
+              [canAddAsRead]="canAddBookToMyRead(book)"
               (editRequested)="openEditBookDialog(book)"
               (topFiveRankChange)="onTopFiveRankChange(book, $event)"
               (wantToReRead)="markBookAsWantToReRead($event)"
               (haveReRead)="markBookAsReRead($event)"
               (addToMyReadlist)="addBookToConnectedUserReadlist($event)"
+              (addToMyRead)="addBookToConnectedUserAsRead($event)"
             ></app-book>
           </div>
           }
@@ -249,6 +255,7 @@
           [topFiveRank]="getTopFiveRank(book)"
           [showAddToMyReadlist]="canShowAddToMyReadlist()"
           [canAddToMyReadlist]="canAddBookToMyReadlist(book)"
+          [canAddAsRead]="canAddBookToMyRead(book)"
           (editRequested)="openEditBookDialog(book)"
           (readPriorityUpdated)="updateReadPriority($event)"
           (bookUpdated)="refreshBooks()"
@@ -256,6 +263,7 @@
           (wantToReRead)="markBookAsWantToReRead($event)"
           (haveReRead)="markBookAsReRead($event)"
           (addToMyReadlist)="addBookToConnectedUserReadlist($event)"
+          (addToMyRead)="addBookToConnectedUserAsRead($event)"
         ></app-book>
       </div>
       }

@@ -104,6 +104,14 @@
     >
       Je veux lire ce livre
     </button>
+    } @if (showAddToMyReadlist && canAddAsRead) {
+    <button
+      type="button"
+      class="makya-btn-small add-to-my-read-btn"
+      (click)="addToMyRead.emit(book)"
+    >
+      Tiens, j'ai déjà lu ce livre !
+    </button>
     } @if (isBaseEntityView) {
     <p class="book-genre">{{ book.genre }}</p>
     }

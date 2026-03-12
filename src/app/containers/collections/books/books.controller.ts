@@ -34,6 +34,40 @@ export async function addBookToReadlist(
   }
 }
 
+/** Ajoute le livre parmi les livres lus de l'utilisateur (readlist: false, lu une fois). */
+export async function addBookAsRead(
+  book: Book,
+  userId: string
+): Promise<boolean> {
+  try {
+    const response = await fetch(`${getApiBaseUrl()}/books/add-existing`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        userId,
+        books: [book],
+        readlist: false,
+      }),
+    });
+
+    if (!response.ok) {
+      const payload = await response.json().catch(() => ({}));
+      console.warn(
+        "Échec de l'ajout du livre en « lu » :",
+        payload?.error || response.statusText
+      );
+      return false;
+    }
+
+    return true;
+  } catch (error) {
+    console.warn("Erreur réseau lors de l'ajout du livre en « lu ».", error);
+    return false;
+  }
+}
+
 export async function markBookAsWantToReRead(
   book: Book,
   getActiveUserId: string
