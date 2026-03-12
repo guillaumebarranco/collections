@@ -1094,4 +1094,18 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: 'Le pouvoir des six',
+    author: 'Pittacus Lore',
+    firstReadDate: '2026-03-12',
+    lastReadDate: '2026-03-12',
+    rating: 3.25,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 3,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
 ];

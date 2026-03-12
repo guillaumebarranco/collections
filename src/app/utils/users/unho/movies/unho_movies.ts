@@ -6692,4 +6692,19 @@ export const unhoMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
+
+  {
+    title: 'La Revanche d\'une blonde',
+    director: 'Robert Luketic',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '2026-03-12',
+    lastViewedDate: '2026-03-12',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
 ];
