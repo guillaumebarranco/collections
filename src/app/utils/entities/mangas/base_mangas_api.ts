@@ -14,7 +14,7 @@ export const baseMangasApi: BaseManga[] = [
   {
     title: 'Ao no exorcist',
     author: 'Kazue Kato',
-    coverUrl: 'https://www.manga-news.com/public/images/series/.Blue-Exorcist-1-kaze_large.webp',
+    coverUrl: '/mangas_pictures/b79f758b5308.webp',
     genre: '',
     nbTomes: 0,
     isFinished: true,
@@ -24,7 +24,7 @@ export const baseMangasApi: BaseManga[] = [
   {
     title: 'Beck',
     author: 'Harold Sakuishi',
-    coverUrl: 'https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/TITELIVE/65_9782413043256_1_75.jpg',
+    coverUrl: '/mangas_pictures/e9a635ef1f2a.jpg',
     genre: '',
     nbTomes: 34,
     isFinished: true,
