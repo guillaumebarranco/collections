@@ -1593,6 +1593,40 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
+    title: "Hunger Games : La Ballade du serpent et de l'oiseau chanteur",
+    director: 'Francis Lawrence',
+    actors: [
+      {
+        name: 'Tom Blyth',
+      },
+      {
+        name: 'Rachel Zegler',
+      },
+      {
+        name: 'Peter Dinklage',
+      },
+      {
+        name: 'Hunter Schafer',
+      },
+      {
+        name: 'Jason Schwartzman',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/hunger_games_la_ballade_du_serpent_et_de_loiseau_chanteur.jpg',
+    releaseDate: '2023-11-15',
+    length: 157,
+    genre: 'Science Fiction',
+    saga: 'Hunger Games',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Hunger Games',
+      secondEntityKey: 'Suzanne Collins',
+    },
+    countryOrigin: 'États-Unis',
+  },
+  {
     title: 'Transformers',
     director: 'Michael Bay',
     actors: [{ name: 'Shia LaBeouf' }],

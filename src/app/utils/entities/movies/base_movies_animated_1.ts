@@ -215,6 +215,35 @@ export const baseMoviesAnimated: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
+    title: 'Vaiana 2',
+    director: 'David G. Derrick Jr., Jason Hand, Dana Ledoux Miller',
+    actors: [
+      {
+        name: 'Timothée Chalamet',
+      },
+      {
+        name: 'Edward Norton',
+      },
+      {
+        name: 'Elle Fanning',
+      },
+      {
+        name: 'Monica Barbaro',
+      },
+      {
+        name: 'Boyd Holbrook',
+      },
+    ],
+    coverUrl: '/movies_pictures/vaiana_2.jpg',
+    releaseDate: '2024-11-27',
+    length: 100,
+    genre: 'Animation',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
     title: 'Vice-Versa',
     director: 'Pete Docter',
     actors: [{ name: 'Amy Poehler' }],
@@ -466,20 +495,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Kung Fu Panda',
-    director: 'Mark Osborne, John Stevenson',
-    actors: [{ name: 'Jack Black' }],
-    coverUrl:
-      '/movies_pictures/mk3UyyaLyXhgIhmLji25OUPXvGR-0-150-0-225-crop.jpg',
-    releaseDate: '2008-06-06',
-    length: 92,
-    genre: 'Animation',
-    saga: 'Kung Fu Panda',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: "Bee Movie : Drôle d'Abeille",
     director: 'Steve Hickner, Simon J. Smith',
@@ -706,6 +722,29 @@ export const baseMoviesAnimated: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
+    title: 'Toy Story 4',
+    director: 'Josh Cooley',
+    actors: [
+      {
+        name: 'Tom Hanks',
+      },
+      {
+        name: 'Tim Allen',
+      },
+      {
+        name: 'Annie Potts',
+      },
+    ],
+    coverUrl: '/movies_pictures/toy_story_4.jpg',
+    releaseDate: '2019-06-26',
+    length: 100,
+    genre: 'Animation',
+    saga: 'Pixar',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
     title: 'South Park, le Film',
     director: 'Trey Parker',
     actors: [{ name: 'Trey Parker' }],
@@ -728,6 +767,29 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 88,
     genre: 'Animation',
     saga: 'Disney Classique',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'La Légende de Tarzan et Jane',
+    director: 'Steve Loter, Victor Cook',
+    actors: [
+      {
+        name: 'Michael T. Weiss',
+      },
+      {
+        name: "Olivia d'Abo",
+      },
+      {
+        name: 'Jim Cummings',
+      },
+    ],
+    coverUrl: '/movies_pictures/tarzan_jane.jpg',
+    releaseDate: '2002-07-03',
+    length: 72,
+    genre: 'Animation',
+    saga: '',
     description: '',
     fromEntity: null,
     countryOrigin: 'États-Unis',
@@ -1113,6 +1175,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'Japon',
   },
+
   {
     title: 'Élémentaire',
     director: 'Peter Sohn',
@@ -1122,6 +1185,608 @@ export const baseMoviesAnimated: BaseMovie[] = [
     length: 102,
     genre: 'Animation, Romance',
     saga: 'Pixar',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'La Colline aux coquelicots',
+    director: 'Gorō Miyazaki',
+    actors: [
+      {
+        name: 'James Franco',
+      },
+      {
+        name: 'Freida Pinto',
+      },
+      {
+        name: 'Andy Serkis',
+      },
+    ],
+    coverUrl: '/movies_pictures/from_up_on_poppy_hill.jpg',
+    releaseDate: '2012-01-11',
+    length: 91,
+    genre: 'Animation',
+    saga: 'Ghibli',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Japon',
+  },
+  {
+    title: 'Superman/Batman : Apocalypse',
+    director: 'Lauren Montgomery',
+    actors: [
+      {
+        name: 'Tim Daly',
+      },
+      {
+        name: 'Kevin Conroy',
+      },
+      {
+        name: 'Summer Glau',
+      },
+    ],
+    coverUrl: '/movies_pictures/superman_batman_apocalypse.jpg',
+    releaseDate: '2010-10-27',
+    length: 78,
+    genre: 'Animation',
+    saga: 'DC Animated Universe',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Batman et Red Hood : Sous le masque rouge',
+    director: 'Brandon Vietti',
+    actors: [
+      {
+        name: 'Bruce Greenwood',
+      },
+      {
+        name: 'Jensen Ackles',
+      },
+      {
+        name: 'Neil Patrick Harris',
+      },
+    ],
+    coverUrl: '/movies_pictures/batman_under_the_red_hood.jpg',
+    releaseDate: '2010-09-01',
+    length: 75,
+    genre: 'Animation',
+    saga: 'DC Animated Universe',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Superman/Batman : Ennemis publics',
+    director: 'Sam Liu',
+    actors: [
+      {
+        name: 'Tim Daly',
+      },
+      {
+        name: 'Kevin Conroy',
+      },
+      {
+        name: 'Clancy Brown',
+      },
+    ],
+    coverUrl: '/movies_pictures/superman_batman_public_enemies.jpg',
+    releaseDate: '2010-09-01',
+    length: 67,
+    genre: 'Animation',
+    saga: 'DC Animated Universe',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'TMNT : Les Tortues Ninja',
+    director: 'Kevin Munroe',
+    actors: [
+      {
+        name: 'James Arnold Taylor',
+      },
+      {
+        name: 'Nolan North',
+      },
+      {
+        name: 'Sarah Michelle Gellar',
+      },
+    ],
+    coverUrl: '/movies_pictures/tmnt.jpg',
+    releaseDate: '2007-04-11',
+    length: 86,
+    genre: 'Animation',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Astérix et les Vikings',
+    director: 'Stefan Fjeldmark, Jesper Møller',
+    actors: [
+      {
+        name: 'Roger Carel',
+      },
+      {
+        name: 'Jacques Frantz',
+      },
+      {
+        name: 'Lorànt Deutsch',
+      },
+    ],
+    coverUrl: '/movies_pictures/asterix_and_the_vikings.jpg',
+    releaseDate: '2006-04-12',
+    length: 78,
+    genre: 'Animation',
+    saga: 'Astérix',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'France',
+  },
+  {
+    title: 'Le Pôle Express',
+    director: 'Robert Zemeckis',
+    actors: [
+      {
+        name: 'Tom Hanks',
+      },
+      {
+        name: 'Nona Gaye',
+      },
+      {
+        name: 'Eddie Deezen',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_polar_express.jpg',
+    releaseDate: '2004-12-01',
+    length: 99,
+    genre: 'Animation',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Gang de requins',
+    director: 'Vicky Jenson, Bibo Bergeron, Rob Letterman',
+    actors: [
+      {
+        name: 'Will Smith',
+      },
+      {
+        name: 'Robert De Niro',
+      },
+      {
+        name: 'Renée Zellweger',
+      },
+    ],
+    coverUrl: '/movies_pictures/shark_tale.jpg',
+    releaseDate: '2004-10-13',
+    length: 90,
+    genre: 'Animation',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Le Château ambulant',
+    director: 'Hayao Miyazaki',
+    actors: [
+      {
+        name: 'Chieko Baishô',
+      },
+      {
+        name: 'Takuya Kimura',
+      },
+      {
+        name: 'Akihiro Miwa',
+      },
+    ],
+    coverUrl: '/movies_pictures/howl_s_moving_castle.jpg',
+    releaseDate: '2005-01-12',
+    length: 119,
+    genre: 'Animation',
+    saga: 'Ghibli',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Japon',
+  },
+  {
+    title: 'Batman : La Mystérieuse Batwoman',
+    director: 'Curt Geda',
+    actors: [
+      {
+        name: 'Kevin Conroy',
+      },
+      {
+        name: 'Kyra Sedgwick',
+      },
+      {
+        name: 'Kimberly Brooks',
+      },
+    ],
+    coverUrl: '/movies_pictures/batman_mystery_of_the_batwoman.jpg',
+    releaseDate: '2003-10-21',
+    length: 75,
+    genre: 'Animation',
+    saga: 'DC Animated Universe',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Le Robot sauvage',
+    director: 'Chris Sanders',
+    actors: [
+      {
+        name: "Lupita Nyong'o",
+      },
+      {
+        name: 'Pedro Pascal',
+      },
+      {
+        name: "Catherine O'Hara",
+      },
+      {
+        name: 'Bill Nighy',
+      },
+      {
+        name: 'Kit Connor',
+      },
+    ],
+    coverUrl: '/movies_pictures/le_robot_sauvage.jpg',
+    releaseDate: '2024-10-09',
+    length: 102,
+    genre: 'Animation',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Batman vs. Robin',
+    director: 'Jay Oliva',
+    actors: [
+      {
+        name: "Jason O'Mara",
+      },
+      {
+        name: 'Stuart Allan',
+      },
+      {
+        name: 'Jeremy Sisto',
+      },
+    ],
+    coverUrl: '/movies_pictures/batman_vs_robin.jpg',
+    releaseDate: '2015-04-22',
+    length: 76,
+    genre: 'Animation',
+    saga: 'DC Animated Universe',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Astérix : Le Domaine des dieux',
+    director: 'Louis Clichy, Alexandre Astier',
+    actors: [
+      {
+        name: 'Roger Carel',
+      },
+      {
+        name: 'Lorànt Deutsch',
+      },
+      {
+        name: 'Laurent Lafitte',
+      },
+    ],
+    coverUrl: '/movies_pictures/asterix_the_mansions_of_the_gods.jpg',
+    releaseDate: '2014-11-26',
+    length: 85,
+    genre: 'Animation',
+    saga: 'Astérix',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'France',
+  },
+  {
+    title: 'Batman: The Dark Knight Returns, Part 2',
+    director: 'Jay Oliva',
+    actors: [
+      {
+        name: 'Peter Weller',
+      },
+      {
+        name: 'Ariel Winter',
+      },
+      {
+        name: 'Michael Emerson',
+      },
+    ],
+    coverUrl: '/movies_pictures/batman_the_dark_knight_returns_part_2.jpg',
+    releaseDate: '2013-05-02',
+    length: 78,
+    genre: 'Animation',
+    saga: 'DC Animated Universe',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Batman: The Dark Knight Returns, Part 1',
+    director: 'Jay Oliva',
+    actors: [
+      {
+        name: 'Peter Weller',
+      },
+      {
+        name: 'Ariel Winter',
+      },
+      {
+        name: 'David Selby',
+      },
+    ],
+    coverUrl: '/movies_pictures/batman_the_dark_knight_returns_part_1.jpg',
+    releaseDate: '2013-05-02',
+    length: 76,
+    genre: 'Animation',
+    saga: 'DC Animated Universe',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: "Superman contre l'Élite",
+    director: 'Michael Chang',
+    actors: [
+      {
+        name: 'Kelly Macdonald',
+      },
+      {
+        name: 'Billy Connolly',
+      },
+      {
+        name: 'Emma Thompson',
+      },
+    ],
+    coverUrl: '/movies_pictures/superman_vs_the_elite.jpg',
+    releaseDate: '2012-07-04',
+    length: 76,
+    genre: 'Animation',
+    saga: 'DC Animated Universe',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Le Lorax',
+    director: 'Chris Renaud, Kyle Balda',
+    actors: [
+      {
+        name: 'Danny DeVito',
+      },
+      {
+        name: 'Zac Efron',
+      },
+      {
+        name: 'Taylor Swift',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_lorax.jpg',
+    releaseDate: '2012-07-18',
+    length: 86,
+    genre: 'Animation',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Batman: Year One',
+    director: 'Sam Liu, Lauren Montgomery',
+    actors: [
+      {
+        name: 'Ben McKenzie',
+      },
+      {
+        name: 'Bryan Cranston',
+      },
+      {
+        name: 'Eliza Dushku',
+      },
+    ],
+    coverUrl: '/movies_pictures/batman_year_one.jpg',
+    releaseDate: '2012-07-04',
+    length: 64,
+    genre: 'Animation',
+    saga: 'DC Animated Universe',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Wish : Asha et la Bonne Étoile',
+    director: 'Chris Buck, Fawn Veerasunthorn',
+    actors: [
+      {
+        name: 'Ariana DeBose',
+      },
+      {
+        name: 'Chris Pine',
+      },
+      {
+        name: 'Alan Tudyk',
+      },
+      {
+        name: 'Angelique Cabral',
+      },
+      {
+        name: 'Victor Garber',
+      },
+    ],
+    coverUrl: '/movies_pictures/wish_asha_et_la_bonne_etoile.jpg',
+    releaseDate: '2023-11-29',
+    length: 95,
+    genre: 'Animation',
+    saga: 'Disney Classique',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Teenage Mutant Ninja Turtles: Mutant Mayhem',
+    director: 'Jeff Rowe, Kyler Spears',
+    actors: [
+      {
+        name: 'Micah Abbey',
+      },
+      {
+        name: 'Shamon Brown Jr.',
+      },
+      {
+        name: 'Nicolas Cantu',
+      },
+      {
+        name: 'Brady Noon',
+      },
+      {
+        name: 'Jackie Chan',
+      },
+    ],
+    coverUrl: '/movies_pictures/teenage_mutant_ninja_turtles_mutant_mayhem.jpg',
+    releaseDate: '2023-08-09',
+    length: 99,
+    genre: 'Animation',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Krypto et les Super-Animaux',
+    director: 'Jared Stern, Sam Levine',
+    actors: [
+      {
+        name: 'Dwayne Johnson',
+      },
+      {
+        name: 'Kevin Hart',
+      },
+      {
+        name: 'Kate McKinnon',
+      },
+    ],
+    coverUrl: '/movies_pictures/krypto_et_les_super-animaux.jpg',
+    releaseDate: '2022-07-27',
+    length: 106,
+    genre: 'Animation',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Le Monstre des mers',
+    director: 'Chris Williams',
+    actors: [
+      {
+        name: 'Karl Urban',
+      },
+      {
+        name: 'Zaris-Angel Hator',
+      },
+      {
+        name: 'Jared Harris',
+      },
+    ],
+    coverUrl: '/movies_pictures/le_monstre_des_mers.jpg',
+    releaseDate: '2022-07-08',
+    length: 115,
+    genre: 'Animation',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Astérix : Le Secret de la potion magique',
+    director: 'Louis Clichy, Alexandre Astier',
+    actors: [
+      {
+        name: 'Christian Clavier',
+      },
+      {
+        name: 'Guillaume Briat',
+      },
+      {
+        name: 'Alexandre Astier',
+      },
+    ],
+    coverUrl: '/movies_pictures/asterix_the_secret_of_the_magic_potion.jpg',
+    releaseDate: '2018-12-05',
+    length: 85,
+    genre: 'Animation',
+    saga: 'Astérix',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Astérix le Gaulois',
+      secondEntityKey: 'René Goscinny',
+    },
+    countryOrigin: 'France',
+  },
+  {
+    title: 'Lego Batman, le film',
+    director: 'Chris McKay',
+    actors: [
+      {
+        name: 'Will Arnett',
+      },
+      {
+        name: 'Michael Cera',
+      },
+      {
+        name: 'Rosario Dawson',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_lego_batman_movie.jpg',
+    releaseDate: '2017-02-08',
+    length: 104,
+    genre: 'Animation',
+    saga: 'Lego',
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Sing',
+    director: 'Garth Jennings',
+    actors: [
+      {
+        name: 'Matthew McConaughey',
+      },
+      {
+        name: 'Reese Witherspoon',
+      },
+      {
+        name: 'Seth MacFarlane',
+      },
+    ],
+    coverUrl: '/movies_pictures/sing.jpg',
+    releaseDate: '2017-01-25',
+    length: 108,
+    genre: 'Animation',
+    saga: '',
     description: '',
     fromEntity: null,
     countryOrigin: 'États-Unis',

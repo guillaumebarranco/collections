@@ -176,30 +176,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     },
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'West Side Story',
-    director: 'Steven Spielberg',
-    actors: [
-      {
-        name: 'Rachel Zegler',
-      },
-      {
-        name: 'Ansel Elgort',
-      },
-    ],
-    coverUrl: '/movies_pictures/2324146.jpg',
-    releaseDate: '2021-12-10',
-    length: 156,
-    genre: 'Musical, Romance',
-    saga: '',
-    description: '',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Roméo et Juliette',
-      secondEntityKey: 'William Shakespeare',
-    },
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Cendrillon',
     director: 'Kay Cannon',
@@ -779,19 +756,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Les Aventures de Tintin',
-    director: 'Steven Spielberg',
-    actors: [{ name: 'Jamie Bell' }, { name: 'Andy Serkis' }],
-    coverUrl: '/movies_pictures/19798422.webp',
-    releaseDate: '2011-12-21',
-    length: 107,
-    genre: 'Adventure, Mystery',
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Hugo',
     director: 'Martin Scorsese',
@@ -840,6 +805,33 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2009-12-25',
     length: 128,
     genre: 'Action, Mystery',
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Une étude en rouge',
+      secondEntityKey: 'Arthur Conan Doyle',
+    },
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: "Sherlock Holmes : Jeu d'ombres",
+    director: 'Guy Ritchie',
+    actors: [
+      {
+        name: 'Robert Downey Jr.',
+      },
+      {
+        name: 'Jude Law',
+      },
+      {
+        name: 'Jared Harris',
+      },
+    ],
+    coverUrl: '/movies_pictures/sherlock_holmes_a_game_of_shadows.jpg',
+    releaseDate: '2012-01-25',
+    length: 129,
+    genre: 'Action',
     saga: '',
     description: '',
     fromEntity: {
@@ -1341,19 +1333,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'Espagne',
   },
-  {
-    title: 'La Planète des singes',
-    director: 'Tim Burton',
-    actors: [{ name: 'Mark Wahlberg' }, { name: 'Helena Bonham Carter' }],
-    coverUrl: '/movies_pictures/69214709_af.jpg',
-    releaseDate: '2001-07-27',
-    length: 119,
-    genre: 'Sci-Fi, Adventure',
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: "La Revanche d'une blonde",
     director: 'Robert Luketic',
@@ -1367,20 +1347,6 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'A.I. Intelligence artificielle',
-    director: 'Steven Spielberg',
-    actors: [{ name: 'Haley Joel Osment' }, { name: 'Jude Law' }],
-    coverUrl: '/movies_pictures/69216449_af.webp',
-    releaseDate: '2001-06-29',
-    length: 146,
-    genre: 'Sci-Fi, Drama',
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
-
   {
     title: 'Le Grinch',
     director: 'Ron Howard',
@@ -1719,19 +1685,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Hook ou la Revanche du capitaine Crochet',
-    director: 'Steven Spielberg',
-    actors: [{ name: 'Robin Williams' }, { name: 'Dustin Hoffman' }],
-    coverUrl: '/movies_pictures/435872.jpg',
-    releaseDate: '1991-12-11',
-    length: 142,
-    genre: 'Adventure, Fantasy',
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: "Edward aux mains d'argent",
     director: 'Tim Burton',

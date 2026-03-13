@@ -767,19 +767,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   // Films avec Christian Bale
-  {
-    title: 'Empire du soleil',
-    director: 'Steven Spielberg',
-    actors: [{ name: 'Christian Bale' }, { name: 'John Malkovich' }],
-    coverUrl: '/movies_pictures/empire-du-soleil-affiche-2.webp',
-    releaseDate: '1987-12-25',
-    length: 153,
-    genre: 'Drama',
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: "L'Île au trésor",
     director: 'Fraser Clarke Heston',
@@ -1762,24 +1750,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Amistad',
-    director: 'Steven Spielberg',
-    actors: [
-      { name: 'Morgan Freeman' },
-      { name: 'Anthony Hopkins' },
-      { name: 'Djimon Hounsou' },
-      { name: 'Matthew McConaughey' },
-    ],
-    coverUrl: '/movies_pictures/51VKJJGV2NL._AC_UF1000,1000_QL80_.jpg',
-    releaseDate: '1997-12-10',
-    length: 155,
-    genre: 'Drama',
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Deep Impact',
     director: 'Mimi Leder',
@@ -2545,32 +2516,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     countryOrigin: 'France',
   },
   // Mel Gibson
-  {
-    title: 'Mad Max',
-    director: 'George Miller',
-    actors: [{ name: 'Mel Gibson' }],
-    coverUrl: '/movies_pictures/18943123.webp',
-    releaseDate: '1979-01-01',
-    length: 88,
-    genre: 'Action',
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Mad Max 2',
-    director: 'George Miller',
-    actors: [{ name: 'Mel Gibson' }],
-    coverUrl: '/movies_pictures/91qplWiUsQL._AC_UF894,1000_QL80_.jpg',
-    releaseDate: '1981-01-01',
-    length: 96,
-    genre: 'Action',
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Maverick',
     director: 'Richard Donner',

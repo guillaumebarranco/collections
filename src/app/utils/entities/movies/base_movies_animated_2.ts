@@ -671,6 +671,29 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
+    title: "Madagascar 3 : Bons Baisers d'Europe",
+    director: 'Eric Darnell, Tom McGrath, Conrad Vernon',
+    actors: [
+      {
+        name: 'Ben Stiller',
+      },
+      {
+        name: 'Chris Rock',
+      },
+      {
+        name: 'David Schwimmer',
+      },
+    ],
+    coverUrl: '/movies_pictures/madagascar_3_europe_s_most_wanted.jpg',
+    releaseDate: '2012-06-06',
+    length: 93,
+    genre: 'Animation',
+    saga: 'Madagascar',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
     title: 'Ponyo',
     director: 'Hayao Miyazaki',
     actors: [{ name: 'Yuria Nara' }, { name: 'Hiroki Doi' }],
@@ -779,6 +802,20 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
+    title: 'Kung Fu Panda',
+    director: 'Mark Osborne, John Stevenson',
+    actors: [{ name: 'Jack Black' }],
+    coverUrl:
+      '/movies_pictures/mk3UyyaLyXhgIhmLji25OUPXvGR-0-150-0-225-crop.jpg',
+    releaseDate: '2008-06-06',
+    length: 92,
+    genre: 'Animation',
+    saga: 'Kung Fu Panda',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
     title: 'Kung Fu Panda 2',
     director: 'Jennifer Yuh Nelson',
     actors: [{ name: 'Jack Black' }, { name: 'Angelina Jolie' }],
@@ -786,6 +823,58 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     releaseDate: '2011-05-26',
     length: 90,
     genre: 'Animation, Action',
+    saga: 'Kung Fu Panda',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Kung Fu Panda 3',
+    director: 'Jennifer Yuh Nelson, Alessandro Carloni',
+    actors: [
+      {
+        name: 'Jack Black',
+      },
+      {
+        name: 'Angelina Jolie',
+      },
+      {
+        name: 'Dustin Hoffman',
+      },
+    ],
+    coverUrl: '/movies_pictures/kung_fu_panda_3.jpg',
+    releaseDate: '2016-03-30',
+    length: 95,
+    genre: 'Animation',
+    saga: 'Kung Fu Panda',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Kung Fu Panda 4',
+    director: 'Mike Mitchell, Stephanie Ma Stine',
+    actors: [
+      {
+        name: 'Jack Black',
+      },
+      {
+        name: 'Awkwafina',
+      },
+      {
+        name: 'Viola Davis',
+      },
+      {
+        name: 'Dustin Hoffman',
+      },
+      {
+        name: 'James Hong',
+      },
+    ],
+    coverUrl: '/movies_pictures/kung_fu_panda_4.jpg',
+    releaseDate: '2024-01-01',
+    length: 94,
+    genre: 'Animation',
     saga: 'Kung Fu Panda',
     description: '',
     fromEntity: null,
@@ -1532,5 +1621,114 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: 'Japon',
+  },
+  {
+    title: 'Astérix et les Indiens',
+    director: 'Gerhard Hahn',
+    actors: [
+      {
+        name: 'Roger Carel',
+      },
+      {
+        name: 'Pierre Tornade',
+      },
+      {
+        name: 'Henri Labussière',
+      },
+    ],
+    coverUrl: '/movies_pictures/asterix_conquers_america.jpg',
+    releaseDate: '1995-04-05',
+    length: 85,
+    genre: 'Animation',
+    saga: 'Astérix',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'France',
+  },
+  {
+    title: 'Le Livre de la jungle',
+    director: 'Wolfgang Reitherman',
+    actors: [
+      {
+        name: 'Phil Harris',
+      },
+      {
+        name: 'Bruce Reitherman',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_jungle_book.jpg',
+    releaseDate: '1968-12-11',
+    length: 78,
+    genre: 'Animation',
+    saga: 'Disney Classique',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'La Belle au bois dormant',
+    director: 'Clyde Geronimi',
+    actors: [
+      {
+        name: 'Mary Costa',
+      },
+      {
+        name: 'Eleanor Audley',
+      },
+    ],
+    coverUrl: '/movies_pictures/sleeping_beauty.jpg',
+    releaseDate: '1959-12-16',
+    length: 75,
+    genre: 'Animation',
+    saga: 'Disney Classique',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Astérix et Cléopâtre',
+    director: 'René Goscinny, Albert Uderzo',
+    actors: [
+      {
+        name: 'Roger Carel',
+      },
+      {
+        name: 'Jacques Morel',
+      },
+      {
+        name: 'Micheline Dax',
+      },
+    ],
+    coverUrl: '/movies_pictures/asterix_and_cleopatra.jpg',
+    releaseDate: '1968-12-19',
+    length: 72,
+    genre: 'Animation',
+    saga: 'Astérix',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'France',
+  },
+  {
+    title: 'Un monstre à Paris',
+    director: 'Bibo Bergeron',
+    actors: [
+      {
+        name: 'Mathieu Chedid',
+      },
+      {
+        name: 'Vanessa Paradis',
+      },
+      {
+        name: 'Gad Elmaleh',
+      },
+    ],
+    coverUrl: '/movies_pictures/a_monster_in_paris.jpg',
+    releaseDate: '2011-10-12',
+    length: 82,
+    genre: 'Animation',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
   },
 ];

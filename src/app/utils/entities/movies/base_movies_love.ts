@@ -833,6 +833,19 @@ export const baseMoviesLove: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
+    title: 'The Princess Switch 3: Romancing the Star',
+    director: 'Mike Rohl',
+    actors: [{ name: 'Vanessa Hudgens' }],
+    coverUrl: '/movies_pictures/The_Princess_Switch_3.jpg',
+    releaseDate: '2021-11-18',
+    length: 107,
+    genre: 'Romance',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
     title: 'Holidate',
     director: 'John Whitesell',
     actors: [

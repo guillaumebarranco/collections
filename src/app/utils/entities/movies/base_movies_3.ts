@@ -433,23 +433,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'France',
   },
-  {
-    title: 'La guerre des mondes',
-    director: 'Steven Spielberg',
-    actors: [{ name: 'Tom Cruise' }],
-    coverUrl: '/movies_pictures/war_of_the_worlds.jpg',
-    releaseDate: '2005-06-29',
-    length: 117,
-    genre: 'Science Fiction',
-    saga: '',
-    description: '',
-    fromEntity: {
-      entityType: 'book',
-      title: 'La guerre des mondes',
-      secondEntityKey: 'H.G. Wells',
-    },
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'La ligue des gentlemen extraordinaires',
     director: 'Stephen Norrington',
@@ -1283,24 +1267,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Expendables : Unité Spéciale',
-    director: 'Sylvester Stallone',
-    actors: [
-      { name: 'Sylvester Stallone' },
-      { name: 'Arnold Schwarzenegger' },
-      { name: 'Bruce Willis' },
-      { name: 'Jet Li' },
-    ],
-    coverUrl: '/movies_pictures/34395-the-expendables-0-150-0-225-crop.jpg',
-    releaseDate: '2010-08-13',
-    length: 103,
-    genre: 'Action',
-    saga: 'Expandables',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Inception',
     director: 'Christopher Nolan',

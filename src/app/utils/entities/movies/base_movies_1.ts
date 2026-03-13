@@ -525,19 +525,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'The Terminal',
-    director: 'Steven Spielberg',
-    actors: [{ name: 'Tom Hanks' }, { name: 'Zoe Saldana' }],
-    coverUrl: '/movies_pictures/51527-the-terminal-0-150-0-225-crop.jpg',
-    releaseDate: '2004-06-18',
-    length: 128,
-    genre: 'Drama',
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Tanguy',
     director: 'Étienne Chatiliez',
@@ -1065,19 +1053,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'France',
   },
-  {
-    title: 'Saw',
-    director: 'James Wan',
-    actors: [{ name: 'Cary Elwes' }],
-    coverUrl: '/movies_pictures/saw.jpg',
-    releaseDate: '2004-10-29',
-    length: 103,
-    genre: 'Horror',
-    saga: 'Saw',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: "L'effet papillon",
     director: 'Eric Bress, J. Mackye Gruber',
@@ -1195,23 +1171,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Arrête-moi si tu peux',
-    director: 'Steven Spielberg',
-    actors: [
-      { name: 'Leonardo DiCaprio' },
-      { name: 'Tom Hanks' },
-      { name: 'Amy Adams' },
-    ],
-    coverUrl: '/movies_pictures/51484-catch-me-if-you-can-0-150-0-225-crop.jpg',
-    releaseDate: '2002-12-25',
-    length: 141,
-    genre: 'Crime',
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Equilibrium',
     director: 'Kurt Wimmer',

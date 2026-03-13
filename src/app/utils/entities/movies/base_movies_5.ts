@@ -389,26 +389,7 @@ export const baseMoviesPage5: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Expendables 3',
-    director: 'Patrick Hughes',
-    actors: [
-      {
-        name: 'Sylvester Stallone',
-      },
-      {
-        name: 'Arnold Schwarzenegger',
-      },
-    ],
-    coverUrl: '/movies_pictures/285929.webp',
-    releaseDate: '2014-08-15',
-    length: 126,
-    genre: 'Action',
-    saga: 'Expendables',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Rambo: Last Blood',
     director: 'Adrian Grunberg',
@@ -422,23 +403,6 @@ export const baseMoviesPage5: BaseMovie[] = [
     length: 89,
     genre: 'Action',
     saga: 'Rambo',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Expend4bles',
-    director: 'Scott Waugh',
-    actors: [
-      {
-        name: 'Sylvester Stallone',
-      },
-    ],
-    coverUrl: '/movies_pictures/91OrZUqoMxL._AC_UF894,1000_QL80_.jpg',
-    releaseDate: '2023-09-22',
-    length: 103,
-    genre: 'Action',
-    saga: 'Expendables',
     description: '',
     fromEntity: null,
     countryOrigin: 'États-Unis',
@@ -1245,26 +1209,7 @@ export const baseMoviesPage5: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Il faut sauver le soldat Ryan',
-    director: 'Steven Spielberg',
-    actors: [
-      {
-        name: 'Tom Hanks',
-      },
-      {
-        name: 'Matt Damon',
-      },
-    ],
-    coverUrl: '/movies_pictures/GE9WD.jpg',
-    releaseDate: '1998-07-24',
-    length: 169,
-    genre: 'War',
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Les Joueurs',
     director: 'John Dahl',
@@ -2242,23 +2187,7 @@ export const baseMoviesPage5: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Le Pont des espions',
-    director: 'Steven Spielberg',
-    actors: [
-      {
-        name: 'Tom Hanks',
-      },
-    ],
-    coverUrl: '/movies_pictures/160047.jpg',
-    releaseDate: '2015-10-16',
-    length: 141,
-    genre: 'Thriller',
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Ithaca',
     director: 'Meg Ryan',
@@ -2310,23 +2239,7 @@ export const baseMoviesPage5: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Pentagon Papers',
-    director: 'Steven Spielberg',
-    actors: [
-      {
-        name: 'Tom Hanks',
-      },
-    ],
-    coverUrl: '/movies_pictures/4821419.webp',
-    releaseDate: '2017-12-22',
-    length: 116,
-    genre: 'Drama',
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'The Circle',
     director: 'James Ponsoldt',

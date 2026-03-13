@@ -601,4 +601,33 @@ export const baseMoviesDc: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
+  {
+    title: 'Blue Beetle',
+    director: 'Angel Manuel Soto',
+    actors: [
+      {
+        name: 'Xolo Maridueña',
+      },
+      {
+        name: 'Bruna Marquezine',
+      },
+      {
+        name: 'Belissa Escobedo',
+      },
+      {
+        name: 'George Lopez',
+      },
+      {
+        name: 'Adriana Barraza',
+      },
+    ],
+    coverUrl: '/movies_pictures/blue_beetle.jpg',
+    releaseDate: '2023-08-16',
+    length: 127,
+    genre: 'Action',
+    saga: 'DCEU',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
 ];

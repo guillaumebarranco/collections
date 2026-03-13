@@ -2007,7 +2007,7 @@ export const guillaumeMoviesPage1: UserMovies = [
   },
 
   {
-    title: 'Princess Cursed in Time',
+    title: 'La Princesse Enchantée',
     director: 'Petr Kubík',
     rating: 3.5,
     timesWatched: 1,

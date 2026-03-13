@@ -1,0 +1,1675 @@
+import { BaseMovie } from '../../../models/movie-model';
+
+export const baseMoviesSagaPage3: BaseMovie[] = [
+  {
+    title: "Les Aventuriers de l'Arche perdue",
+    director: 'Steven Spielberg',
+    actors: [
+      {
+        name: 'Harrison Ford',
+      },
+      {
+        name: 'Karen Allen',
+      },
+      {
+        name: 'Paul Freeman',
+      },
+    ],
+    coverUrl: '/movies_pictures/raiders_of_the_lost_ark.jpg',
+    releaseDate: '1981-09-16',
+    length: 116,
+    genre: 'Aventure',
+    saga: 'Indiana Jones',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Indiana Jones et le Temple maudit',
+    director: 'Steven Spielberg',
+    actors: [{ name: 'Harrison Ford' }, { name: 'Kate Capshaw' }],
+    coverUrl: '/movies_pictures/18931015.jpg',
+    releaseDate: '1984-05-23',
+    length: 118,
+    genre: 'Adventure, Action',
+    saga: 'Indiana Jones',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Indiana Jones et la Dernière Croisade',
+    director: 'Steven Spielberg',
+    actors: [{ name: 'Harrison Ford' }, { name: 'Sean Connery' }],
+    coverUrl: '/movies_pictures/18895516.jpg',
+    releaseDate: '1989-05-24',
+    length: 127,
+    genre: 'Adventure, Action',
+    saga: 'Indiana Jones',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Indiana Jones et le Royaume du crâne de cristal',
+    director: 'Steven Spielberg',
+    actors: [
+      {
+        name: 'Harrison Ford',
+      },
+      {
+        name: 'Shia LaBeouf',
+      },
+      {
+        name: 'Cate Blanchett',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/indiana_jones_and_the_kingdom_of_the_crystal_skull.jpg',
+    releaseDate: '2008-05-21',
+    length: 123,
+    genre: 'Aventure',
+    saga: 'Indiana Jones',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Indiana Jones and the Dial of Destiny',
+    director: 'James Mangold',
+    actors: [
+      {
+        name: 'Harrison Ford',
+      },
+      {
+        name: 'Phoebe Waller-Bridge',
+      },
+      {
+        name: 'Mads Mikkelsen',
+      },
+      {
+        name: 'Antonio Banderas',
+      },
+      {
+        name: 'John Rhys-Davies',
+      },
+    ],
+    coverUrl: '/movies_pictures/indiana_jones_and_the_dial_of_destiny.jpg',
+    releaseDate: '2023-01-01',
+    length: 154,
+    genre: 'Fantastique',
+    saga: 'Indiana Jones',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Big Mamma',
+    director: 'Raja Gosnell',
+    actors: [{ name: 'Martin Lawrence' }],
+    coverUrl: '/movies_pictures/big_mamma.jpg',
+    releaseDate: '2000-06-02',
+    length: 99,
+    genre: 'Comédie',
+    saga: 'Big Mamma',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Big Mamma 2',
+    director: 'John Whitesell',
+    actors: [{ name: 'Martin Lawrence' }],
+    coverUrl: '/movies_pictures/18475907.webp',
+    releaseDate: '2006-01-27',
+    length: 99,
+    genre: 'Comédie',
+    saga: 'Big Mamma',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: '28 jours plus tard',
+    director: 'Danny Boyle',
+    actors: [{ name: 'Cillian Murphy' }],
+    coverUrl: '/movies_pictures/28_jours_plus_tard.jpg',
+    releaseDate: '2002-11-01',
+    length: 113,
+    genre: 'Horror',
+    saga: '28... plus tard',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Royaume-Uni',
+  },
+  {
+    title: '28 Semaines Plus Tard',
+    director: 'Juan Carlos Fresnadillo',
+    actors: [{ name: 'Robert Carlyle' }],
+    coverUrl: '/movies_pictures/18795535.jpg',
+    releaseDate: '2007-05-11',
+    length: 99,
+    genre: 'Horror',
+    saga: '28... plus tard',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Espagne',
+  },
+  {
+    title: '28 ans plus tard',
+    director: 'Danny Boyle',
+    actors: [
+      {
+        name: 'Aaron Taylor-Johnson',
+      },
+      {
+        name: 'Jodie Comer',
+      },
+      {
+        name: 'Ralph Fiennes',
+      },
+    ],
+    coverUrl: '/movies_pictures/28-ans-plus-tard.jpg',
+    releaseDate: '2025-06-18',
+    length: 115,
+    genre: 'Horreur',
+    saga: '28... plus tard',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Royaume-Uni',
+  },
+  {
+    title: 'Sonic the Hedgehog',
+    director: 'Jeff Fowler',
+    actors: [
+      {
+        name: 'Ben Schwartz',
+      },
+      {
+        name: 'James Marsden',
+      },
+      {
+        name: 'Jim Carrey',
+      },
+    ],
+    coverUrl: '/movies_pictures/sonic_the_hedgehog.jpg',
+    releaseDate: '2020-01-01',
+    length: 99,
+    genre: '',
+    saga: 'Sonic',
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Sonic the Hedgehog',
+      secondEntityKey: 'Sega',
+    },
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Sonic 2, le film',
+    director: 'Jeff Fowler',
+    actors: [
+      {
+        name: 'Jim Carrey',
+      },
+      {
+        name: 'James Marsden',
+      },
+    ],
+    coverUrl: '/movies_pictures/sonic-2.jpg',
+    releaseDate: '2022-03-30',
+    length: 122,
+    genre: 'Aventure, Famille',
+    saga: 'Sonic',
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Sonic the Hedgehog',
+      secondEntityKey: 'Sega',
+    },
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Sonic 3, le film',
+    director: 'Jeff Fowler',
+    actors: [
+      {
+        name: 'Jim Carrey',
+      },
+      {
+        name: 'James Marsden',
+      },
+      {
+        name: 'Idris Elba',
+      },
+      {
+        name: 'Keanu Reeves',
+      },
+    ],
+    coverUrl: '/movies_pictures/sonic-3.jpg',
+    releaseDate: '2024-12-25',
+    length: 110,
+    genre: 'Aventure, Famille',
+    saga: 'Sonic',
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Sonic the Hedgehog',
+      secondEntityKey: 'Sega',
+    },
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: "Le Seigneur des anneaux : La Communauté de l'anneau",
+    director: 'Peter Jackson',
+    actors: [
+      {
+        name: 'Elijah Wood',
+      },
+      {
+        name: 'Ian McKellen',
+      },
+      {
+        name: 'Viggo Mortensen',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/the_lord_of_the_rings_the_fellowship_of_the_ring.jpg',
+    releaseDate: '2001-12-19',
+    length: 178,
+    genre: 'Fantastique',
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Le Seigneur des anneaux : Les Deux Tours',
+    director: 'Peter Jackson',
+    actors: [
+      {
+        name: 'Elijah Wood',
+      },
+      {
+        name: 'Ian McKellen',
+      },
+      {
+        name: 'Viggo Mortensen',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_lord_of_the_rings_the_two_towers.jpg',
+    releaseDate: '2002-12-18',
+    length: 179,
+    genre: 'Fantastique',
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Le Seigneur des anneaux : Le Retour du roi',
+    director: 'Peter Jackson',
+    actors: [
+      {
+        name: 'Elijah Wood',
+      },
+      {
+        name: 'Ian McKellen',
+      },
+      {
+        name: 'Viggo Mortensen',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/the_lord_of_the_rings_the_return_of_the_king.jpg',
+    releaseDate: '2003-12-17',
+    length: 201,
+    genre: 'Fantastique',
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title:
+      "Le Seigneur des Anneaux - La Communauté de l'Anneau - Version Longue",
+    director: 'Peter Jackson',
+    actors: [
+      {
+        name: 'Elijah Wood',
+      },
+      {
+        name: 'Sean Astin',
+      },
+      {
+        name: 'Ian McKellen',
+      },
+    ],
+    coverUrl: '/movies_pictures/seigneur-anneaux-1.jpg',
+    releaseDate: '2002-08-06',
+    length: 228,
+    genre: 'Fantasy',
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
+      secondEntityKey: 'J.R.R. Tolkien',
+    },
+    countryOrigin: 'Nouvelle-Zélande',
+  },
+  {
+    title: 'Le Seigneur des Anneaux - Les Deux Tours - Version Longue',
+    director: 'Peter Jackson',
+    actors: [
+      {
+        name: 'Elijah Wood',
+      },
+      {
+        name: 'Sean Astin',
+      },
+      {
+        name: 'Ian McKellen',
+      },
+    ],
+    coverUrl: '/movies_pictures/seigneur-anneaux-2.jpg',
+    releaseDate: '2003-08-26',
+    length: 235,
+    genre: 'Fantasy',
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
+      secondEntityKey: 'J.R.R. Tolkien',
+    },
+    countryOrigin: 'Nouvelle-Zélande',
+  },
+  {
+    title: 'Le Seigneur des Anneaux - Le Retour du Roi - Version Longue',
+    director: 'Peter Jackson',
+    actors: [
+      {
+        name: 'Elijah Wood',
+      },
+      {
+        name: 'Sean Astin',
+      },
+      {
+        name: 'Ian McKellen',
+      },
+    ],
+    coverUrl: '/movies_pictures/seigneur-anneaux-3.jpg',
+    releaseDate: '2004-12-14',
+    length: 264,
+    genre: 'Fantasy',
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
+      secondEntityKey: 'J.R.R. Tolkien',
+    },
+    countryOrigin: 'Nouvelle-Zélande',
+  },
+  {
+    title: 'The Lord of the Rings: The War of the Rohirrim',
+    director: 'Kenji Kamiyama',
+    actors: [
+      {
+        name: 'Joel Edgerton',
+      },
+      {
+        name: 'Felicity Jones',
+      },
+      {
+        name: 'Kerry Condon',
+      },
+      {
+        name: 'William H. Macy',
+      },
+      {
+        name: 'Nathaniel Arcand',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/the_lord_of_the_rings_the_war_of_the_rohirrim.jpg',
+    releaseDate: '2024-01-01',
+    length: 134,
+    genre: 'Fantasy',
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
+      secondEntityKey: 'J.R.R. Tolkien',
+    },
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Le Hobbit : Un voyage inattendu',
+    director: 'Peter Jackson',
+    actors: [{ name: 'Martin Freeman' }, { name: 'Ian McKellen' }],
+    coverUrl: '/movies_pictures/20273834.webp',
+    releaseDate: '2012-12-14',
+    length: 169,
+    genre: 'Fantasy, Adventure',
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Le Hobbit : La Désolation de Smaug',
+    director: 'Peter Jackson',
+    actors: [
+      {
+        name: 'Martin Freeman',
+      },
+      {
+        name: 'Ian McKellen',
+      },
+      {
+        name: 'Richard Armitage',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_hobbit_the_desolation_of_smaug.jpg',
+    releaseDate: '2013-12-11',
+    length: 161,
+    genre: 'Fantastique',
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Le Hobbit : La Bataille des Cinq Armées',
+    director: 'Peter Jackson',
+    actors: [
+      {
+        name: 'Martin Freeman',
+      },
+      {
+        name: 'Ian McKellen',
+      },
+      {
+        name: 'Richard Armitage',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_hobbit_the_battle_of_the_five_armies.jpg',
+    releaseDate: '2014-12-10',
+    length: 144,
+    genre: 'Fantastique',
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'S.O.S. Fantômes',
+    director: 'Ivan Reitman',
+    actors: [
+      {
+        name: 'Bill Murray',
+      },
+      {
+        name: 'Dan Aykroyd',
+      },
+      {
+        name: 'Sigourney Weaver',
+      },
+    ],
+    coverUrl: '/movies_pictures/ghostbusters.jpg',
+    releaseDate: '1984-12-12',
+    length: 107,
+    genre: 'Comédie',
+    saga: 'Ghostbusters',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'S.O.S. Fantômes 2',
+    director: 'Ivan Reitman',
+    actors: [
+      {
+        name: 'Bill Murray',
+      },
+      {
+        name: 'Dan Aykroyd',
+      },
+      {
+        name: 'Sigourney Weaver',
+      },
+    ],
+    coverUrl: '/movies_pictures/ghostbusters_ii.jpg',
+    releaseDate: '1989-12-13',
+    length: 108,
+    genre: 'Comédie',
+    saga: 'Ghostbusters',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: "S.O.S. Fantômes : L'Héritage",
+    director: 'Jason Reitman',
+    actors: [{ name: 'Mckenna Grace' }, { name: 'Finn Wolfhard' }],
+    coverUrl: '/movies_pictures/0365804.webp',
+    releaseDate: '2021-11-19',
+    length: 124,
+    genre: 'Fantasy, Comedy',
+    saga: 'Ghostbusters',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title:
+      "Le Monde de Narnia : Le Lion, la Sorcière Blanche et l'Armoire Magique",
+    director: 'Andrew Adamson',
+    actors: [
+      {
+        name: 'Georgie Henley',
+      },
+      {
+        name: 'Skandar Keynes',
+      },
+      {
+        name: 'Tilda Swinton',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/the_chronicles_of_narnia_the_lion_the_witch_and_th.jpg',
+    releaseDate: '2005-12-21',
+    length: 140,
+    genre: 'Fantastique',
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le Monde de Narnia (Tome 1) Le Neveu du Magicien',
+      secondEntityKey: 'C.S. Lewis',
+    },
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Le Monde de Narnia : Le Prince Caspian',
+    director: 'Andrew Adamson',
+    actors: [{ name: 'Ben Barnes' }, { name: 'Georgie Henley' }],
+    coverUrl: '/movies_pictures/18943276.jpg',
+    releaseDate: '2008-05-16',
+    length: 150,
+    genre: 'Fantasy, Adventure',
+    saga: 'Narnia',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le Monde de Narnia (Tome 1) Le Neveu du Magicien',
+      secondEntityKey: 'C.S. Lewis',
+    },
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'The Conjuring : Les Dossiers Warren',
+    director: 'James Wan',
+    actors: [{ name: 'Vera Farmiga' }],
+    coverUrl: '/movies_pictures/106262-the-conjuring-0-150-0-225-crop.jpg',
+    releaseDate: '2013-07-19',
+    length: 112,
+    genre: 'Horror',
+    saga: 'Conjuring',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Conjuring 2 : Le Cas Enfield',
+    director: 'James Wan',
+    actors: [
+      {
+        name: 'Patrick Wilson',
+      },
+      {
+        name: 'Vera Farmiga',
+      },
+      {
+        name: "Frances O'Connor",
+      },
+    ],
+    coverUrl: '/movies_pictures/the_conjuring_2.jpg',
+    releaseDate: '2016-06-29',
+    length: 134,
+    genre: 'Horreur',
+    saga: 'Conjuring',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: "Conjuring : Sous l'emprise du diable",
+    director: 'Michael Chaves',
+    actors: [
+      {
+        name: 'Patrick Wilson',
+      },
+      {
+        name: 'Vera Farmiga',
+      },
+      {
+        name: "Ruairi O'Connor",
+      },
+    ],
+    coverUrl: '/movies_pictures/conjuring_sous_lemprise_du_diable.jpg',
+    releaseDate: '2021-06-09',
+    length: 112,
+    genre: 'Horreur',
+    saga: 'Conjuring',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: "Conjuring : L'Heure du jugement",
+    director: 'Michael Chaves',
+    actors: [
+      {
+        name: 'Jared Leto',
+      },
+      {
+        name: 'Greta Lee',
+      },
+      {
+        name: 'Evan Peters',
+      },
+      {
+        name: 'Jodie Turner-Smith',
+      },
+      {
+        name: 'Hasan Minhaj',
+      },
+      {
+        name: 'Gillian Anderson',
+      },
+      {
+        name: 'Jeff Bridges',
+      },
+    ],
+    coverUrl: '/movies_pictures/conjuring_l_heure_du_jugement.jpg',
+    releaseDate: '2025-09-10',
+    length: 135,
+    genre: 'Horreur',
+    saga: 'Conjuring',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Jurassic World',
+    director: 'Colin Trevorrow',
+    actors: [{ name: 'Chris Pratt' }, { name: 'Bryce Dallas Howard' }],
+    coverUrl: '/movies_pictures/422000.webp',
+    releaseDate: '2015-06-12',
+    length: 124,
+    genre: 'Action, Adventure',
+    saga: 'Jurassic',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Jurassic World: Fallen Kingdom',
+    director: 'J.A. Bayona',
+    actors: [{ name: 'Chris Pratt' }, { name: 'Bryce Dallas Howard' }],
+    coverUrl: '/movies_pictures/Jurassic_World_Fallen_Kingdom.png',
+    releaseDate: '2018-06-22',
+    length: 128,
+    genre: 'Action, Adventure',
+    saga: 'Jurassic',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: "Jurassic World : Le Monde d'après",
+    director: 'Colin Trevorrow',
+    actors: [
+      {
+        name: 'Chris Pratt',
+      },
+      {
+        name: 'Bryce Dallas Howard',
+      },
+      {
+        name: 'Laura Dern',
+      },
+    ],
+    coverUrl: '/movies_pictures/jurassic_world_le_monde_dapres.jpg',
+    releaseDate: '2022-06-08',
+    length: 146,
+    genre: 'Action',
+    saga: 'Jurassic',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Jurassic World : Renaissance',
+    director: 'Gareth Edwards',
+    actors: [
+      {
+        name: 'Margot Robbie',
+      },
+      {
+        name: 'Colin Farrell',
+      },
+      {
+        name: 'Kevin Kline',
+      },
+      {
+        name: 'Phoebe Waller-Bridge',
+      },
+      {
+        name: 'Jodie Turner-Smith',
+      },
+      {
+        name: 'Scarlett Johansson',
+      },
+    ],
+    coverUrl: '/movies_pictures/jurassic_world_renaissance.jpg',
+    releaseDate: '2025-07-04',
+    length: 134,
+    genre: 'Action',
+    saga: 'Jurassic',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Star Trek',
+    director: 'J.J. Abrams',
+    actors: [
+      {
+        name: 'Chris Pine',
+      },
+      {
+        name: 'Zachary Quinto',
+      },
+      {
+        name: 'Zoe Saldana',
+      },
+    ],
+    coverUrl: '/movies_pictures/star_trek.jpg',
+    releaseDate: '2009-05-06',
+    length: 127,
+    genre: 'Science Fiction',
+    saga: 'Star Trek',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Star Trek Into Darkness',
+    director: 'J.J. Abrams',
+    actors: [
+      {
+        name: 'Chris Pine',
+      },
+      {
+        name: 'Zachary Quinto',
+      },
+      {
+        name: 'Benedict Cumberbatch',
+      },
+      {
+        name: 'Zoe Saldana',
+      },
+    ],
+    coverUrl: '/movies_pictures/star_trek_into_darkness.jpg',
+    releaseDate: '2013-06-12',
+    length: 130,
+    genre: 'Science Fiction',
+    saga: 'Star Trek',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Star Trek : Sans limites',
+    director: 'Justin Lin',
+    actors: [
+      {
+        name: 'Chris Pine',
+      },
+      {
+        name: 'Zachary Quinto',
+      },
+      {
+        name: 'Karl Urban',
+      },
+      {
+        name: 'Zoe Saldana',
+      },
+    ],
+    coverUrl: '/movies_pictures/star_trek_beyond.jpg',
+    releaseDate: '2016-08-17',
+    length: 123,
+    genre: 'Science Fiction',
+    saga: 'Star Trek',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Ip Man',
+    director: 'Wilson Yip',
+    actors: [
+      {
+        name: 'Donnie Yen',
+      },
+      {
+        name: 'Simon Yam',
+      },
+      {
+        name: 'Lynn Hung',
+      },
+    ],
+    coverUrl: '/movies_pictures/ip_man.jpg',
+    releaseDate: '2010-10-05',
+    length: 106,
+    genre: 'Action',
+    saga: 'Ip Man',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Ip Man 2 : Le Retour du grand maître',
+    director: 'Wilson Yip',
+    actors: [
+      {
+        name: 'Donnie Yen',
+      },
+      {
+        name: 'Sammo Hung',
+      },
+      {
+        name: 'Simon Yam',
+      },
+    ],
+    coverUrl: '/movies_pictures/ip_man_2.jpg',
+    releaseDate: '2011-08-09',
+    length: 108,
+    genre: 'Action',
+    saga: 'Ip Man',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Ip Man 3',
+    director: 'Wilson Yip',
+    actors: [
+      {
+        name: 'Donnie Yen',
+      },
+      {
+        name: 'Mike Tyson',
+      },
+      {
+        name: 'Zhang Jin',
+      },
+    ],
+    coverUrl: '/movies_pictures/ip_man_3.jpg',
+    releaseDate: '2015-12-24',
+    length: 105,
+    genre: 'Action',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Paranormal Activity',
+    director: 'Oren Peli',
+    actors: [{ name: 'Katie Featherston' }],
+    coverUrl: '/movies_pictures/paranormal_activity.jpg',
+    releaseDate: '2007-10-14',
+    length: 86,
+    genre: 'Horror',
+    saga: 'Paranormal Activity',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Paranormal Activity 2',
+    director: 'Tod Williams',
+    actors: [
+      {
+        name: 'Katie Featherston',
+      },
+      {
+        name: 'Micah Sloat',
+      },
+      {
+        name: 'Sprague Grayden',
+      },
+    ],
+    coverUrl: '/movies_pictures/paranormal_activity_2.jpg',
+    releaseDate: '2010-10-20',
+    length: 91,
+    genre: 'Horreur',
+    saga: 'Paranormal Activity',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Paranormal Activity 3',
+    director: 'Henry Joost, Ariel Schulman',
+    actors: [
+      {
+        name: 'Christopher Nicholas Smith',
+      },
+      {
+        name: 'Lauren Bittner',
+      },
+      {
+        name: 'Chloe Csengery',
+      },
+    ],
+    coverUrl: '/movies_pictures/paranormal_activity_3.jpg',
+    releaseDate: '2011-10-19',
+    length: 84,
+    genre: 'Horreur',
+    saga: 'Paranormal Activity',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Paranormal Activity 4',
+    director: 'Henry Joost, Ariel Schulman',
+    actors: [
+      {
+        name: 'Kathryn Newton',
+      },
+      {
+        name: 'Matt Shively',
+      },
+      {
+        name: 'Aiden Lovekamp',
+      },
+    ],
+    coverUrl: '/movies_pictures/paranormal_activity_4.jpg',
+    releaseDate: '2012-10-31',
+    length: 95,
+    genre: 'Horreur',
+    saga: 'Paranormal Activity',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Paranormal Activity: The Marked Ones',
+    director: 'Christopher Landon',
+    actors: [
+      {
+        name: 'Andrew Jacobs',
+      },
+      {
+        name: 'Jorge Diaz',
+      },
+      {
+        name: 'Gabrielle Walsh',
+      },
+    ],
+    coverUrl: '/movies_pictures/paranormal_activity_the_marked_ones.jpg',
+    releaseDate: '2014-01-01',
+    length: 84,
+    genre: 'Horreur',
+    saga: 'Paranormal Activity',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Paranormal Activity 5 : Ghost Dimension',
+    director: 'Gregory Plotkin',
+    actors: [
+      {
+        name: 'Chris J. Murray',
+      },
+      {
+        name: 'Brit Shaw',
+      },
+      {
+        name: 'Ivy George',
+      },
+    ],
+    coverUrl: '/movies_pictures/paranormal_activity_the_ghost_dimension.jpg',
+    releaseDate: '2015-10-21',
+    length: 88,
+    genre: 'Horreur',
+    saga: 'Paranormal Activity',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Expendables : Unité Spéciale',
+    director: 'Sylvester Stallone',
+    actors: [
+      { name: 'Sylvester Stallone' },
+      { name: 'Arnold Schwarzenegger' },
+      { name: 'Bruce Willis' },
+      { name: 'Jet Li' },
+    ],
+    coverUrl: '/movies_pictures/34395-the-expendables-0-150-0-225-crop.jpg',
+    releaseDate: '2010-08-13',
+    length: 103,
+    genre: 'Action',
+    saga: 'Expandables',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Expendables 2',
+    director: 'Simon West',
+    actors: [
+      { name: 'Sylvester Stallone' },
+      { name: 'Arnold Schwarzenegger' },
+      { name: 'Jet Li' },
+    ],
+    coverUrl: '/movies_pictures/62593-the-expendables-2-0-150-0-225-crop.jpg',
+    releaseDate: '2012-08-17',
+    length: 103,
+    genre: 'Action',
+    saga: 'Expandables',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Expendables 3',
+    director: 'Patrick Hughes',
+    actors: [
+      {
+        name: 'Sylvester Stallone',
+      },
+      {
+        name: 'Arnold Schwarzenegger',
+      },
+    ],
+    coverUrl: '/movies_pictures/285929.webp',
+    releaseDate: '2014-08-15',
+    length: 126,
+    genre: 'Action',
+    saga: 'Expendables',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Expend4bles',
+    director: 'Scott Waugh',
+    actors: [
+      {
+        name: 'Sylvester Stallone',
+      },
+    ],
+    coverUrl: '/movies_pictures/91OrZUqoMxL._AC_UF894,1000_QL80_.jpg',
+    releaseDate: '2023-09-22',
+    length: 103,
+    genre: 'Action',
+    saga: 'Expendables',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Jurassic Park',
+    director: 'Steven Spielberg',
+    actors: [{ name: 'Sam Neill' }],
+    coverUrl: '/movies_pictures/jurassic_park.jpg',
+    releaseDate: '1993-06-11',
+    length: 127,
+    genre: 'Adventure',
+    saga: 'Jurassic',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Le Monde perdu : Jurassic Park',
+    director: 'Steven Spielberg',
+    actors: [
+      {
+        name: 'Jeff Goldblum',
+      },
+      {
+        name: 'Julianne Moore',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_lost_world_jurassic_park.jpg',
+    releaseDate: '1997-10-22',
+    length: 129,
+    genre: 'Action',
+    saga: 'Jurassic',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Mad Max',
+    director: 'George Miller',
+    actors: [{ name: 'Mel Gibson' }],
+    coverUrl: '/movies_pictures/18943123.webp',
+    releaseDate: '1979-01-01',
+    length: 88,
+    genre: 'Action',
+    saga: 'Mad Max',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Mad Max 2',
+    director: 'George Miller',
+    actors: [{ name: 'Mel Gibson' }],
+    coverUrl: '/movies_pictures/91qplWiUsQL._AC_UF894,1000_QL80_.jpg',
+    releaseDate: '1981-01-01',
+    length: 96,
+    genre: 'Action',
+    saga: 'Mad Max',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Mad Max: Fury Road',
+    director: 'George Miller',
+    actors: [{ name: 'Tom Hardy' }, { name: 'Charlize Theron' }],
+    coverUrl: '/movies_pictures/furyroad.png',
+    releaseDate: '2015-05-15',
+    length: 120,
+    genre: 'Action',
+    saga: 'Mad Max',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Furiosa',
+    director: 'George Miller',
+    actors: [{ name: 'Anya Taylor-Joy' }, { name: 'Chris Hemsworth' }],
+    coverUrl: '/movies_pictures/furiosa-une-saga-mad-max-afff.jpg',
+    releaseDate: '2024-05-24',
+    length: 148,
+    genre: 'Action',
+    saga: 'Mad Max',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Saw',
+    director: 'James Wan',
+    actors: [{ name: 'Cary Elwes' }],
+    coverUrl: '/movies_pictures/saw.jpg',
+    releaseDate: '2004-10-29',
+    length: 103,
+    genre: 'Horror',
+    saga: 'Saw',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Saw II',
+    director: 'Darren Lynn Bousman',
+    actors: [
+      {
+        name: 'Tobin Bell',
+      },
+      {
+        name: 'Shawnee Smith',
+      },
+      {
+        name: 'Donnie Wahlberg',
+      },
+    ],
+    coverUrl: '/movies_pictures/saw_ii.jpg',
+    releaseDate: '2005-12-28',
+    length: 93,
+    genre: 'Horreur',
+    saga: 'Saw',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Saw III',
+    director: 'Darren Lynn Bousman',
+    actors: [
+      {
+        name: 'Tobin Bell',
+      },
+      {
+        name: 'Shawnee Smith',
+      },
+      {
+        name: 'Angus Macfadyen',
+      },
+    ],
+    coverUrl: '/movies_pictures/saw_iii.jpg',
+    releaseDate: '2006-11-22',
+    length: 109,
+    genre: 'Horreur',
+    saga: 'Saw',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Saw IV',
+    director: 'Darren Lynn Bousman',
+    actors: [
+      {
+        name: 'Tobin Bell',
+      },
+      {
+        name: 'Costas Mandylor',
+      },
+      {
+        name: 'Scott Patterson',
+      },
+    ],
+    coverUrl: '/movies_pictures/saw_iv.jpg',
+    releaseDate: '2007-11-21',
+    length: 90,
+    genre: 'Horreur',
+    saga: 'Saw',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Saw V',
+    director: 'David Hackl',
+    actors: [
+      {
+        name: 'Tobin Bell',
+      },
+      {
+        name: 'Costas Mandylor',
+      },
+      {
+        name: 'Scott Patterson',
+      },
+    ],
+    coverUrl: '/movies_pictures/saw_v.jpg',
+    releaseDate: '2008-11-05',
+    length: 92,
+    genre: 'Horreur',
+    saga: 'Saw',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Saw VI',
+    director: 'Kevin Greutert',
+    actors: [
+      {
+        name: 'Anika Noni Rose',
+      },
+      {
+        name: 'Bruno Campos',
+      },
+      {
+        name: 'Keith David',
+      },
+    ],
+    coverUrl: '/movies_pictures/saw_vi.jpg',
+    releaseDate: '2009-11-04',
+    length: 90,
+    genre: 'Horreur',
+    saga: 'Saw',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Saw 3D : Chapitre final',
+    director: 'Kevin Greutert',
+    actors: [
+      {
+        name: 'Tobin Bell',
+      },
+      {
+        name: 'Costas Mandylor',
+      },
+      {
+        name: 'Betsy Russell',
+      },
+    ],
+    coverUrl: '/movies_pictures/saw_3d.jpg',
+    releaseDate: '2010-11-10',
+    length: 90,
+    genre: 'Horreur',
+    saga: 'Saw',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Mission : Impossible',
+    director: 'Brian De Palma',
+    actors: [
+      {
+        name: 'Tom Cruise',
+      },
+      {
+        name: 'Jon Voight',
+      },
+      {
+        name: 'Emmanuelle Béart',
+      },
+    ],
+    coverUrl: '/movies_pictures/mission_impossible.jpg',
+    releaseDate: '1996-10-23',
+    length: 110,
+    genre: 'Action',
+    saga: 'Mission Impossible',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Mission : Impossible 2',
+    director: 'John Woo',
+    actors: [
+      {
+        name: 'Tom Cruise',
+      },
+      {
+        name: 'Dougray Scott',
+      },
+      {
+        name: 'Thandie Newton',
+      },
+    ],
+    coverUrl: '/movies_pictures/mission_impossible_ii.jpg',
+    releaseDate: '2000-07-26',
+    length: 126,
+    genre: 'Action',
+    saga: 'Mission Impossible',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Mission : Impossible III',
+    director: 'J.J. Abrams',
+    actors: [
+      {
+        name: 'Tom Cruise',
+      },
+      {
+        name: 'Philip Seymour Hoffman',
+      },
+      {
+        name: 'Ving Rhames',
+      },
+    ],
+    coverUrl: '/movies_pictures/mission_impossible_iii.jpg',
+    releaseDate: '2006-05-03',
+    length: 126,
+    genre: 'Action',
+    saga: 'Mission Impossible',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Mission : Impossible - Protocole Fantôme',
+    director: 'Brad Bird',
+    actors: [
+      {
+        name: 'Tom Cruise',
+      },
+      {
+        name: 'Jeremy Renner',
+      },
+      {
+        name: 'Paula Patton',
+      },
+    ],
+    coverUrl: '/movies_pictures/mission_impossible_ghost_protocol.jpg',
+    releaseDate: '2011-12-14',
+    length: 133,
+    genre: 'Action',
+    saga: 'Mission Impossible',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Mission : Impossible – Rogue Nation',
+    director: 'Christopher McQuarrie',
+    actors: [
+      {
+        name: 'Tom Cruise',
+      },
+      {
+        name: 'Rebecca Ferguson',
+      },
+      {
+        name: 'Simon Pegg',
+      },
+    ],
+    coverUrl: '/movies_pictures/mission_impossible_rogue_nation.jpg',
+    releaseDate: '2015-08-12',
+    length: 131,
+    genre: 'Action',
+    saga: 'Mission Impossible',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Mission : Impossible – Fallout',
+    director: 'Christopher McQuarrie',
+    actors: [
+      {
+        name: 'Tom Cruise',
+      },
+      {
+        name: 'Henry Cavill',
+      },
+      {
+        name: 'Rebecca Ferguson',
+      },
+    ],
+    coverUrl: '/movies_pictures/mission_impossible_fallout.jpg',
+    releaseDate: '2018-08-01',
+    length: 147,
+    genre: 'Action',
+    saga: 'Mission Impossible',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Mission: Impossible – Dead Reckoning Partie 1',
+    director: 'Christopher McQuarrie',
+    actors: [
+      {
+        name: 'Tom Cruise',
+      },
+      {
+        name: 'Hayley Atwell',
+      },
+      {
+        name: 'Ving Rhames',
+      },
+      {
+        name: 'Simon Pegg',
+      },
+      {
+        name: 'Rebecca Ferguson',
+      },
+    ],
+    coverUrl: '/movies_pictures/mission_impossible_dead_reckoning_partie_1.jpg',
+    releaseDate: '2023-07-12',
+    length: 163,
+    genre: 'Action',
+    saga: 'Mission Impossible',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Mission: Impossible – The Final Reckoning',
+    director: 'Christopher McQuarrie',
+    actors: [
+      {
+        name: 'Kaitlyn Santa Juana',
+      },
+      {
+        name: 'Teo Briones',
+      },
+      {
+        name: 'Richard Harmon',
+      },
+      {
+        name: 'Owen Patrick Joyner',
+      },
+      {
+        name: 'Anna Lore',
+      },
+      {
+        name: 'Tony Todd',
+      },
+    ],
+    coverUrl: '/movies_pictures/mission_impossible_the_final_reckoning.jpg',
+    releaseDate: '2025-05-21',
+    length: 169,
+    genre: 'Action',
+    saga: 'Mission Impossible',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'La Planète des singes',
+    director: 'Tim Burton',
+    actors: [{ name: 'Mark Wahlberg' }, { name: 'Helena Bonham Carter' }],
+    coverUrl: '/movies_pictures/69214709_af.jpg',
+    releaseDate: '2001-07-27',
+    length: 119,
+    genre: 'Sci-Fi, Adventure',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'La Planète des singes : Les Origines',
+    director: 'Rupert Wyatt',
+    actors: [
+      {
+        name: 'Andy Serkis',
+      },
+      {
+        name: 'James Franco',
+      },
+    ],
+    coverUrl: '/movies_pictures/rise_of_the_planet_of_the_apes.jpg',
+    releaseDate: '2011-08-10',
+    length: 105,
+    genre: 'Science Fiction',
+    saga: 'La Planète des Singes',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: "La Planète des singes : l'affrontement",
+    director: 'Matt Reeves',
+    actors: [
+      {
+        name: 'Andy Serkis',
+      },
+      {
+        name: 'Jason Clarke',
+      },
+      {
+        name: 'Gary Oldman',
+      },
+    ],
+    coverUrl: '/movies_pictures/dawn_of_the_planet_of_the_apes.jpg',
+    releaseDate: '2014-07-30',
+    length: 131,
+    genre: 'Science Fiction',
+    saga: 'La Planète des Singes',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'La Planète des singes : Suprématie',
+    director: 'Matt Reeves',
+    actors: [
+      {
+        name: 'Andy Serkis',
+      },
+      {
+        name: 'Woody Harrelson',
+      },
+      {
+        name: 'Steve Zahn',
+      },
+    ],
+    coverUrl: '/movies_pictures/war_for_the_planet_of_the_apes.jpg',
+    releaseDate: '2017-08-02',
+    length: 140,
+    genre: 'Science Fiction',
+    saga: 'La Planète des Singes',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Kingdom of the Planet of the Apes',
+    director: 'Wes Ball',
+    actors: [
+      {
+        name: 'Owen Teague',
+      },
+      {
+        name: 'Freya Allan',
+      },
+      {
+        name: 'Kevin Durand',
+      },
+      {
+        name: 'Peter Macon',
+      },
+      {
+        name: 'William H. Macy',
+      },
+    ],
+    coverUrl: '/movies_pictures/kingdom_of_the_planet_of_the_apes.jpg',
+    releaseDate: '2024-01-01',
+    length: 120,
+    genre: 'Science Fiction',
+    saga: 'La Planète des Singes',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+];

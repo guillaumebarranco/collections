@@ -1768,23 +1768,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Lincoln',
-    director: 'Steven Spielberg',
-    actors: [
-      { name: 'Daniel Day-Lewis' },
-      { name: 'Sally Field' },
-      { name: 'David Strathairn' },
-    ],
-    coverUrl: '/movies_pictures/68073f32b5f3.jpg',
-    releaseDate: '2012-11-16',
-    length: 150,
-    genre: 'Biography, Drama, History',
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Irréversible',
     director: 'Magdalena Malfray',
