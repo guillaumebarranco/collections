@@ -4597,4 +4597,18 @@ export const dantesBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: 'Le Silmarillon',
+    author: 'J.R.R. Tolkien',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
 ];
