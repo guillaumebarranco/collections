@@ -1267,8 +1267,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Les Soleils des indépendances',
     author: 'Ahmadou Kourouma',
-    coverUrl:
-      '/books_pictures/ddfe57bc0c9e.jpg',
+    coverUrl: '/books_pictures/ddfe57bc0c9e.jpg',
     pages: 224,
     genre: 'Littérature',
     saga: '',
@@ -1281,8 +1280,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "Allah n'est pas obligé",
     author: 'Ahmadou Kourouma',
-    coverUrl:
-      '/books_pictures/eca630a37166.jpg',
+    coverUrl: '/books_pictures/eca630a37166.jpg',
     pages: 208,
     genre: 'Littérature',
     saga: '',
@@ -1295,8 +1293,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "Cahier d'un retour au pays natal",
     author: 'Aimé Césaire',
-    coverUrl:
-      '/books_pictures/f3c9718b22e9.jpg',
+    coverUrl: '/books_pictures/f3c9718b22e9.jpg',
     pages: 96,
     genre: 'Littérature',
     saga: '',
@@ -1309,8 +1306,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Texaco',
     author: 'Patrick Chamoiseau',
-    coverUrl:
-      '/books_pictures/68894e5278d1.jpg',
+    coverUrl: '/books_pictures/68894e5278d1.jpg',
     pages: 448,
     genre: 'Littérature',
     saga: '',
@@ -1323,8 +1319,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Solibo magnifique',
     author: 'Patrick Chamoiseau',
-    coverUrl:
-      '/books_pictures/0f60d291e755.jpg',
+    coverUrl: '/books_pictures/0f60d291e755.jpg',
     pages: 256,
     genre: 'Littérature',
     saga: '',
@@ -1337,8 +1332,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Pays rêvé, Pays réel',
     author: 'Édouard Glissant',
-    coverUrl:
-      '/books_pictures/6e7ff21a2f6b.jpg',
+    coverUrl: '/books_pictures/6e7ff21a2f6b.jpg',
     pages: 192,
     genre: 'Littérature',
     saga: '',
@@ -1351,8 +1345,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Lettre à la femme aimée au sujet de la mort',
     author: 'Siméon',
-    coverUrl:
-      '/books_pictures/2b7dfcba0ae1.webp',
+    coverUrl: '/books_pictures/2b7dfcba0ae1.webp',
     pages: 64,
     genre: 'Littérature',
     saga: '',
@@ -1378,8 +1371,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Du côté de chez Swan',
     author: 'Marcel Proust',
-    coverUrl:
-      '/books_pictures/3a82ad288ffb.jpg',
+    coverUrl: '/books_pictures/3a82ad288ffb.jpg',
     pages: 528,
     genre: 'Littérature',
     saga: 'À la recherche du temps perdu',
@@ -1392,8 +1384,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "L'Etoile d'Alger",
     author: 'Aziz Chouaki',
-    coverUrl:
-      '/books_pictures/778df0662589.jpg',
+    coverUrl: '/books_pictures/778df0662589.jpg',
     pages: 192,
     genre: 'Littérature',
     saga: '',
@@ -1406,8 +1397,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Nedjma',
     author: 'Kateb Yacine',
-    coverUrl:
-      '/books_pictures/486038417305.jpg',
+    coverUrl: '/books_pictures/486038417305.jpg',
     pages: 256,
     genre: 'Littérature',
     saga: '',
@@ -1420,8 +1410,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Le cercle des représailles',
     author: 'Kateb Yacine',
-    coverUrl:
-      '/books_pictures/77d5db8ae6e2.jpg',
+    coverUrl: '/books_pictures/77d5db8ae6e2.jpg',
     pages: 320,
     genre: 'Littérature',
     saga: '',
@@ -1434,8 +1423,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Pour un oui ou pour un non',
     author: 'Nathalie Sarraute',
-    coverUrl:
-      '/books_pictures/7b0a345a8baf.webp',
+    coverUrl: '/books_pictures/7b0a345a8baf.webp',
     pages: 64,
     genre: 'Littérature',
     saga: '',
@@ -1448,8 +1436,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Juste la fin du monde',
     author: 'Jean-Luc Lagarce',
-    coverUrl:
-      '/books_pictures/085f94b32c51.jpg',
+    coverUrl: '/books_pictures/085f94b32c51.jpg',
     pages: 96,
     genre: 'Littérature',
     saga: '',
@@ -1462,8 +1449,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Roberto Zucco',
     author: 'Bernard-Marie Koltès',
-    coverUrl:
-      '/books_pictures/5099a91040f9.jpg',
+    coverUrl: '/books_pictures/5099a91040f9.jpg',
     pages: 128,
     genre: 'Littérature',
     saga: '',
@@ -1489,8 +1475,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Oreille rouge',
     author: 'Éric Chevillard',
-    coverUrl:
-      '/books_pictures/7a62e1100c91.jpg',
+    coverUrl: '/books_pictures/7a62e1100c91.jpg',
     pages: 176,
     genre: 'Littérature',
     saga: '',
@@ -1503,8 +1488,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Aurais-je été résistant ou bourreau ?',
     author: 'Pierre Bayard',
-    coverUrl:
-      '/books_pictures/20a4e69afac5.jpg',
+    coverUrl: '/books_pictures/20a4e69afac5.jpg',
     pages: 192,
     genre: 'Littérature',
     saga: '',
@@ -1517,8 +1501,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Huis clos',
     author: 'Jean-Paul Sartre',
-    coverUrl:
-      '/books_pictures/a0174c98fa00.jpg',
+    coverUrl: '/books_pictures/a0174c98fa00.jpg',
     pages: 96,
     genre: 'Littérature',
     saga: '',
@@ -1544,8 +1527,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Je suis un écrivain japonais',
     author: 'Dany Laferrière',
-    coverUrl:
-      '/books_pictures/2c81f7ffc786.jpg',
+    coverUrl: '/books_pictures/2c81f7ffc786.jpg',
     pages: 192,
     genre: 'Littérature',
     saga: '',
@@ -1558,8 +1540,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "Nous, l'Europe banquet des peuples",
     author: 'Laurent Gaudé',
-    coverUrl:
-      '/books_pictures/55d9d7eb8023.jpg',
+    coverUrl: '/books_pictures/55d9d7eb8023.jpg',
     pages: 96,
     genre: 'Littérature',
     saga: '',
@@ -1585,8 +1566,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Zem',
     author: 'Laurent Gaudé',
-    coverUrl:
-      '/books_pictures/7ccf8ee8fa8c.jpg',
+    coverUrl: '/books_pictures/7ccf8ee8fa8c.jpg',
     pages: 128,
     genre: 'Littérature',
     saga: '',
@@ -1599,8 +1579,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Cahier de verdure',
     author: 'Philippe Jaccottet',
-    coverUrl:
-      '/books_pictures/a83b3c4033f9.jpg',
+    coverUrl: '/books_pictures/a83b3c4033f9.jpg',
     pages: 128,
     genre: 'Littérature',
     saga: '',
@@ -1613,8 +1592,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Eupalinos',
     author: 'Paul Valéry',
-    coverUrl:
-      '/books_pictures/4e3c99d50046.jpg',
+    coverUrl: '/books_pictures/4e3c99d50046.jpg',
     pages: 128,
     genre: 'Littérature',
     saga: '',
@@ -1640,8 +1618,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Clair-obscur',
     author: 'Jean Cocteau',
-    coverUrl:
-      '/books_pictures/bdd0a7dedd45.jpg',
+    coverUrl: '/books_pictures/bdd0a7dedd45.jpg',
     pages: 128,
     genre: 'Littérature',
     saga: '',
@@ -1654,8 +1631,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Le parti pris des choses',
     author: 'Francis Ponge',
-    coverUrl:
-      '/books_pictures/b5790b7385d3.jpg',
+    coverUrl: '/books_pictures/b5790b7385d3.jpg',
     pages: 128,
     genre: 'Littérature',
     saga: '',
@@ -1694,8 +1670,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Les Hirondelles de Kaboul',
     author: 'Yasmina Khadra',
-    coverUrl:
-      '/books_pictures/1349dfdb28f1.jpg',
+    coverUrl: '/books_pictures/1349dfdb28f1.jpg',
     pages: 256,
     genre: 'Littérature',
     saga: '',
@@ -1721,8 +1696,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "L'Attentat",
     author: 'Yasmina Khadra',
-    coverUrl:
-      '/books_pictures/77553e1feaa2.jpg',
+    coverUrl: '/books_pictures/77553e1feaa2.jpg',
     pages: 320,
     genre: 'Littérature',
     saga: '',
@@ -1748,8 +1722,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'La Fée Carabine',
     author: 'Daniel Pennac',
-    coverUrl:
-      '/books_pictures/4ba9051a663f.jpg',
+    coverUrl: '/books_pictures/4ba9051a663f.jpg',
     pages: 352,
     genre: 'Littérature',
     saga: 'Malaussène',
@@ -1762,8 +1735,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Des souris et des hommes',
     author: 'John Steinbeck',
-    coverUrl:
-      '/books_pictures/9591cfd27461.jpg',
+    coverUrl: '/books_pictures/9591cfd27461.jpg',
     pages: 192,
     genre: 'Littérature',
     saga: '',
@@ -1776,8 +1748,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Vipère au poing',
     author: 'Hervé Bazin',
-    coverUrl:
-      '/books_pictures/86439493fe68.jpg',
+    coverUrl: '/books_pictures/86439493fe68.jpg',
     pages: 256,
     genre: 'Littérature',
     saga: '',
@@ -1790,8 +1761,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Terrienne',
     author: 'Jean-Claude Mourlevat',
-    coverUrl:
-      '/books_pictures/103a5ea6478a.jpg',
+    coverUrl: '/books_pictures/103a5ea6478a.jpg',
     pages: 384,
     genre: 'Jeunesse',
     saga: '',
@@ -1830,8 +1800,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Rue Darwin',
     author: 'Boualem Sansal',
-    coverUrl:
-      '/books_pictures/8e86aabe52ad.jpg',
+    coverUrl: '/books_pictures/8e86aabe52ad.jpg',
     pages: 320,
     genre: 'Littérature',
     saga: '',
@@ -1844,8 +1813,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Arthur Rimbaud le voleur de feu',
     author: 'Véronique Cohen-Scali',
-    coverUrl:
-      '/books_pictures/6dbfb3de815f.jpg',
+    coverUrl: '/books_pictures/6dbfb3de815f.jpg',
     pages: 192,
     genre: 'Littérature',
     saga: '',
@@ -1858,8 +1826,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "Ça t'apprendra à vivre",
     author: 'Jeanne Benameur',
-    coverUrl:
-      '/books_pictures/355452ab8540.jpg',
+    coverUrl: '/books_pictures/355452ab8540.jpg',
     pages: 176,
     genre: 'Littérature',
     saga: '',
@@ -1872,8 +1839,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Le Terrier',
     author: 'Franz Kafka',
-    coverUrl:
-      '/books_pictures/3bedc1d25fcb.jpg',
+    coverUrl: '/books_pictures/3bedc1d25fcb.jpg',
     pages: 96,
     genre: 'Littérature',
     saga: '',
@@ -1925,8 +1891,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Et la terre se transmet comme la langue',
     author: 'Mahmoud Darwich',
-    coverUrl:
-      '/books_pictures/8605126b0a65.jpg',
+    coverUrl: '/books_pictures/8605126b0a65.jpg',
     pages: 128,
     genre: 'Littérature',
     saga: '',
@@ -1952,8 +1917,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Les Chevaliers du subjonctif',
     author: 'Erik Orsenna',
-    coverUrl:
-      '/books_pictures/35496e7e3d92.jpg',
+    coverUrl: '/books_pictures/35496e7e3d92.jpg',
     pages: 192,
     genre: 'Littérature',
     saga: '',
@@ -1979,8 +1943,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Métamorphoses',
     author: 'Ovide',
-    coverUrl:
-      '/books_pictures/878b41197211.jpg',
+    coverUrl: '/books_pictures/878b41197211.jpg',
     pages: 512,
     genre: 'Classiques',
     saga: '',
@@ -1993,8 +1956,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Œdipe roi',
     author: 'Sophocle',
-    coverUrl:
-      '/books_pictures/97e263f391eb.jpg',
+    coverUrl: '/books_pictures/97e263f391eb.jpg',
     pages: 96,
     genre: 'Classiques',
     saga: '',
@@ -2020,8 +1982,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Les Regrets',
     author: 'Joachim du Bellay',
-    coverUrl:
-      '/books_pictures/78c3c3c28ea1.jpg',
+    coverUrl: '/books_pictures/78c3c3c28ea1.jpg',
     pages: 192,
     genre: 'Classiques',
     saga: '',
@@ -2044,42 +2005,254 @@ export const baseBooksFromMom: BaseBook[] = [
     description: '',
     countryOrigin: 'France',
   },
+  /* Journal d'un vampire – tomes 3 à 11 (L.J. Smith) */
   {
-    title: "Journal d'un vampire (tomes 3 à 11)",
-    author: 'Lisa J. Smith',
-    coverUrl: '',
-    pages: 2200,
+    title: "Le Retour (Journal d'un vampire, #3)",
+    author: 'L.J. Smith',
+    coverUrl: '/books_pictures/71qi2kNSThL._AC_UF1000,1000_QL80_.jpg',
+    pages: 522,
     genre: 'Paralittérature',
     saga: "Journal d'un vampire",
     sagaOrder: 3,
     sagaFinished: false,
-    releaseDate: '1991-01-01',
+    releaseDate: '2010-02-03',
     description: '',
     countryOrigin: 'États-Unis',
   },
   {
-    title: 'Oscar Pill (tomes 1 à 5)',
+    title: "Le Royaume des ombres (Journal d'un vampire, #4)",
+    author: 'L.J. Smith',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/502/journal_dun_vampire_tome_4_le_royaume_des_ombres-502011-264-432.webp',
+    pages: 576,
+    genre: 'Paralittérature',
+    saga: "Journal d'un vampire",
+    sagaOrder: 4,
+    sagaFinished: false,
+    releaseDate: '2010-09-01',
+    description: '',
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: "L'Ultime Crépuscule (Journal d'un vampire, #5)",
+    author: 'L.J. Smith',
+    coverUrl:
+      '/books_pictures/f3dd15f0cbf1.webp',
+    pages: 576,
+    genre: 'Paralittérature',
+    saga: "Journal d'un vampire",
+    sagaOrder: 5,
+    sagaFinished: false,
+    releaseDate: '2011-06-22',
+    description: '',
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: "Dévoreur (Journal d'un vampire, #6)",
+    author: 'L.J. Smith',
+    coverUrl:
+      'https://fr.shopping.rakuten.com/pictures/01999058-6261-7f73-9ac8-7127376ab2ea.jpg',
+    pages: 416,
+    genre: 'Paralittérature',
+    saga: "Journal d'un vampire",
+    sagaOrder: 6,
+    sagaFinished: false,
+    releaseDate: '2012-02-08',
+    description: '',
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: "Le Chant de la lune (Journal d'un vampire, #7)",
+    author: 'L.J. Smith',
+    coverUrl:
+      '/books_pictures/88c15b990990.jpg',
+    pages: 416,
+    genre: 'Paralittérature',
+    saga: "Journal d'un vampire",
+    sagaOrder: 7,
+    sagaFinished: false,
+    releaseDate: '2012-07-16',
+    description: '',
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: "Cruelle Destinée (Journal d'un vampire, #8)",
+    author: 'L.J. Smith',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/3435/full/journal-dun-vampire-tome-8-cruelle-destinee-3435463.jpg',
+    pages: 400,
+    genre: 'Paralittérature',
+    saga: "Journal d'un vampire",
+    sagaOrder: 8,
+    sagaFinished: false,
+    releaseDate: '2013-01-01',
+    description: '',
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: "Le Cauchemar (Journal d'un vampire, #9)",
+    author: 'L.J. Smith',
+    coverUrl:
+      '/books_pictures/29c37679841a.jpg',
+    pages: 400,
+    genre: 'Paralittérature',
+    saga: "Journal d'un vampire",
+    sagaOrder: 9,
+    sagaFinished: false,
+    releaseDate: '2013-01-01',
+    description: '',
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: "La Traque (Journal d'un vampire, #10)",
+    author: 'L.J. Smith',
+    coverUrl:
+      '/books_pictures/652b34f220ff.jpg',
+    pages: 400,
+    genre: 'Paralittérature',
+    saga: "Journal d'un vampire",
+    sagaOrder: 10,
+    sagaFinished: false,
+    releaseDate: '2014-01-01',
+    description: '',
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: "Rédemption (Journal d'un vampire, #11)",
+    author: 'L.J. Smith',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/469/full/journal-dun-vampire-tome-11-redemption-469098.jpg',
+    pages: 400,
+    genre: 'Paralittérature',
+    saga: "Journal d'un vampire",
+    sagaOrder: 11,
+    sagaFinished: true,
+    releaseDate: '2014-01-01',
+    description: '',
+    countryOrigin: 'États-Unis',
+  },
+  /* Saga Oscar Pill – Eli Anderson */
+  {
+    title: 'La Révélation des Médicus',
     author: 'Eli Anderson',
-    coverUrl: '',
-    pages: 1600,
+    coverUrl:
+      '/books_pictures/a25ee66ac002.jpg',
+    pages: 571,
     genre: 'Paralittérature',
     saga: 'Oscar Pill',
     sagaOrder: 1,
+    sagaFinished: false,
+    releaseDate: '2009-11-04',
+    description: '',
+    countryOrigin: 'France',
+  },
+  {
+    title: 'Les Deux Royaumes',
+    author: 'Eli Anderson',
+    coverUrl: '/books_pictures/c439227b8cdc.jpg',
+    pages: 445,
+    genre: 'Paralittérature',
+    saga: 'Oscar Pill',
+    sagaOrder: 2,
+    sagaFinished: false,
+    releaseDate: '2010-06-01',
+    description: '',
+    countryOrigin: 'France',
+  },
+  {
+    title: 'Le Secret des Éternels',
+    author: 'Eli Anderson',
+    coverUrl: '/books_pictures/bf19d7b8e2bf.jpg',
+    pages: 622,
+    genre: 'Paralittérature',
+    saga: 'Oscar Pill',
+    sagaOrder: 3,
+    sagaFinished: false,
+    releaseDate: '2010-10-27',
+    description: '',
+    countryOrigin: 'France',
+  },
+  {
+    title: "L'allié des ténèbres",
+    author: 'Eli Anderson',
+    coverUrl:
+      '/books_pictures/55a1e36b01c2.webp',
+    pages: 500,
+    genre: 'Paralittérature',
+    saga: 'Oscar Pill',
+    sagaOrder: 4,
+    sagaFinished: false,
+    releaseDate: '2011-01-01',
+    description: '',
+    countryOrigin: 'France',
+  },
+  {
+    title: "Cérébra, l'Ultime Voyage",
+    author: 'Eli Anderson',
+    coverUrl: '/books_pictures/c30f5b0d155c.jpg',
+    pages: 500,
+    genre: 'Paralittérature',
+    saga: 'Oscar Pill',
+    sagaOrder: 5,
     sagaFinished: true,
     releaseDate: '2012-01-01',
     description: '',
     countryOrigin: 'France',
   },
+  /* Saga L'Assistant du vampire – Darren Shan */
   {
-    title: "L'Assistant du vampire (tomes 1 à 4)",
+    title: "La Morsure de l'Araignée",
     author: 'Darren Shan',
-    coverUrl: '',
-    pages: 1200,
+    coverUrl:
+      '/books_pictures/66364a055299.jpg',
+    pages: 320,
     genre: 'Paralittérature',
     saga: "L'Assistant du vampire",
     sagaOrder: 1,
     sagaFinished: false,
-    releaseDate: '2000-01-01',
+    releaseDate: '2009-08-19',
+    description: '',
+    countryOrigin: 'Irlande',
+  },
+  {
+    title: 'Le Cauchemar Continue',
+    author: 'Darren Shan',
+    coverUrl:
+      '/books_pictures/039611f95065.jpg',
+    pages: 224,
+    genre: 'Paralittérature',
+    saga: "L'Assistant du vampire",
+    sagaOrder: 2,
+    sagaFinished: false,
+    releaseDate: '2012-04-17',
+    description: '',
+    countryOrigin: 'Irlande',
+  },
+  {
+    title: 'Jeux de Sang',
+    author: 'Darren Shan',
+    coverUrl:
+      '/books_pictures/88b9a72bc7a2.jpg',
+    pages: 210,
+    genre: 'Paralittérature',
+    saga: "L'Assistant du vampire",
+    sagaOrder: 3,
+    sagaFinished: false,
+    releaseDate: '2013-01-30',
+    description: '',
+    countryOrigin: 'Irlande',
+  },
+  {
+    title: 'La Montagne des Vampires',
+    author: 'Darren Shan',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/66/lassistant_du_vampire_tome_4_la_montagne_des_vampires-66085-264-432.webp',
+    pages: 187,
+    genre: 'Paralittérature',
+    saga: "L'Assistant du vampire",
+    sagaOrder: 4,
+    sagaFinished: true,
+    releaseDate: '2010-06-30',
     description: '',
     countryOrigin: 'Irlande',
   },

@@ -2050,4 +2050,19 @@ export const guillaumeMoviesPage1: UserMovies = [
     ratingComment: '',
     inList: [],
   },
+
+  {
+    title: 'Un amour à New York',
+    director: 'Peter Chelsom',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2026-03-13',
+    lastViewedDate: '2026-03-13',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: ['Mes romances'],
+  },
 ];

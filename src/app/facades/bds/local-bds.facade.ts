@@ -12,6 +12,7 @@ import { williamBds } from '../../utils/users/william/bds/william_bds';
 import { williamReadListBds } from '../../utils/users/william/bds/william_readlist_bds';
 import { xerythBds } from '../../utils/users/xeryth/bds/xeryth_bds';
 import { xerythReadListBds } from '../../utils/users/xeryth/bds/xeryth_readlist_bds';
+import { marinaBds } from '../../utils/users/marina/bds/marina_bds';
 
 export const allBaseBds: BaseBd[] = [...baseBds, ...baseBdsApi];
 
@@ -29,6 +30,8 @@ export function getLocalBdsByUser(userId: string): UserBd[] {
       return [...williamBds];
     case 'xeryth':
       return [...xerythBds];
+    case 'marina':
+      return [...marinaBds];
     default:
       return [];
   }
