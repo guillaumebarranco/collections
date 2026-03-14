@@ -1230,7 +1230,11 @@ export const baseMoviesPage2: BaseMovie[] = [
     genre: 'Thriller',
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le prestige',
+      secondEntityKey: 'Christopher Priest',
+    },
     countryOrigin: 'États-Unis',
   },
   {

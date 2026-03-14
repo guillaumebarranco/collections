@@ -1585,7 +1585,7 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Dans son silence',
     author: 'Alex Michaelides',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/867cd0a244cb.jpg',
     pages: 323,
     genre: 'Thriller',
     saga: '',
@@ -1598,7 +1598,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Katie',
     author: 'Michael McDowell',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      'https://dynamic.indigoimages.ca/v1/books/books/2896946586/1.jpg?width=810&maxHeight=810&quality=85',
     pages: 288,
     genre: 'Horror',
     saga: '',
@@ -1611,7 +1612,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Lune froide sur babylone',
     author: 'Michael McDowell',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      '/books_pictures/9abb137a91af.jpg',
     pages: 256,
     genre: 'Horror',
     saga: '',
@@ -1624,7 +1626,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: "Les aiguilles d'or",
     author: 'Michael McDowell',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      '/books_pictures/3b379f493cf7.jpg',
     pages: 304,
     genre: 'Horror',
     saga: '',
@@ -1637,7 +1640,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: "L'amulette",
     author: 'Michael McDowell',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/5778/lamulette-5777777-264-432.webp',
     pages: 256,
     genre: 'Horror',
     saga: '',
@@ -1650,7 +1654,7 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'La psy',
     author: 'Freida McFadden',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/17856c68797b.jpg',
     pages: 352,
     genre: 'Thriller',
     saga: '',
@@ -1663,7 +1667,7 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'La locataire',
     author: 'Freida McFadden',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/ce9fad06cef1.jpg',
     pages: 336,
     genre: 'Thriller',
     saga: '',
@@ -1676,7 +1680,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: "L'empire des Femmes tome 1 Sapentia",
     author: 'Cassandre Lambert',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/5013/lempire_des_femmes_tome_1_sapientia-5013468-264-432.webp',
     pages: 400,
     genre: 'Fantasy',
     saga: "L'empire des Femmes",
@@ -1689,7 +1694,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: "L'empire des femmes tome 2 Teneros",
     author: 'Cassandre Lambert',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      '/books_pictures/a56cc0e7e3d7.jpg',
     pages: 400,
     genre: 'Fantasy',
     saga: "L'empire des Femmes",
@@ -1702,7 +1708,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'La maison des mensonges',
     author: 'John Marrs',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/5362/full/la-maison-des-mensonges-5362086.jpg',
     pages: 416,
     genre: 'Thriller',
     saga: '',
@@ -1715,7 +1722,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Et si les chats disparaissaient du monde',
     author: 'Genki Kawamura',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/1140/et_si_les_chats_disparaissaient_du_monde-1139545-264-432.webp',
     pages: 202,
     genre: 'Roman',
     saga: '',
@@ -1728,7 +1736,7 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Meurtres et pépites de chocolat',
     author: 'Joanne Fluke',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/66d9e4831287.jpg',
     pages: 320,
     genre: 'Policier',
     saga: '',
@@ -1741,7 +1749,7 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Meurtres et cheesecake aux cerises',
     author: 'Joanne Fluke',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/f3d16f22cda7.jpg',
     pages: 352,
     genre: 'Policier',
     saga: '',
@@ -1754,7 +1762,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Le prince cruel',
     author: 'Holly Black',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      '/books_pictures/9987e3216f7b.jpg',
     pages: 384,
     genre: 'Fantasy',
     saga: 'Le prince cruel',
@@ -1767,7 +1776,7 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Le roi maléfique',
     author: 'Holly Black',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/618b131f845c.jpg',
     pages: 336,
     genre: 'Fantasy',
     saga: 'Le prince cruel',
@@ -1780,7 +1789,7 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'La reine sans royaume',
     author: 'Holly Black',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/32951c9711f8.jpg',
     pages: 320,
     genre: 'Fantasy',
     saga: 'Le prince cruel',
@@ -1793,7 +1802,7 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Le prestige',
     author: 'Christopher Priest',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/829e83208b81.jpg',
     pages: 404,
     genre: 'Science Fiction',
     saga: '',
@@ -1806,7 +1815,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Peter Pan',
     author: 'Simon Rousseau',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/967/les_contes_interdits_peter_pan-967147-264-432.webp',
     pages: 192,
     genre: 'Jeunesse',
     saga: '',
@@ -1819,7 +1829,7 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Réflexion',
     author: 'Elizabeth Lim',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/9dab0a6f9949.jpg',
     pages: 384,
     genre: 'Fantasy',
     saga: '',
@@ -1832,7 +1842,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Oser ses rêves',
     author: 'Elizabeth Lim',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/1415/twisted_tales_tome_9_oser_ses_reves-1415041-264-432.webp',
     pages: 384,
     genre: 'Fantasy',
     saga: '',
@@ -1845,7 +1856,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Le jeu du maître',
     author: 'James Dashner',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      '/books_pictures/1f039906337b.jpg',
     pages: 374,
     genre: 'Science Fiction',
     saga: "L'Épreuve",
@@ -1858,7 +1870,7 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Avant le labyrinthe',
     author: 'James Dashner',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/0abd09d14601.jpg',
     pages: 327,
     genre: 'Science Fiction',
     saga: "L'Épreuve",
@@ -1871,7 +1883,7 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'La braise',
     author: 'James Dashner',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/cae097bf5e1a.jpg',
     pages: 360,
     genre: 'Science Fiction',
     saga: "L'Épreuve",
@@ -1884,7 +1896,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Le labyrinthe : Le destin de Newt',
     author: 'James Dashner',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      '/books_pictures/1d27477cae50.jpg',
     pages: 325,
     genre: 'Science Fiction',
     saga: "L'Épreuve",
@@ -1897,7 +1910,7 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Le premier qui meurt à la fin',
     author: 'Adam Silvera',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/49b5076be04e.jpg',
     pages: 384,
     genre: 'Jeunesse',
     saga: '',
@@ -1910,7 +1923,7 @@ export const baseBooks: BaseBook[] = [
   {
     title: "Éclats d'étoiles",
     author: 'Neal Shusterman',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/cdfa986711bf.jpg',
     pages: 335,
     genre: 'Science Fiction',
     saga: '',
@@ -1923,7 +1936,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'La faucheuse tome 1',
     author: 'Neal Shusterman',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      '/books_pictures/db6b89f549f9.jpg',
     pages: 435,
     genre: 'Science Fiction',
     saga: 'La faucheuse',
@@ -1936,7 +1950,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'La faucheuse tome 2 Thunderhead',
     author: 'Neal Shusterman',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/1011/full/la-faucheuse-tome-2-thunderhead-1010536.jpg',
     pages: 504,
     genre: 'Science Fiction',
     saga: 'La faucheuse',
@@ -1949,7 +1964,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'La faucheuse tome 3 le glas',
     author: 'Neal Shusterman',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/1242/full/la-faucheuse-tome-3-le-glas-1242237.jpg',
     pages: 640,
     genre: 'Science Fiction',
     saga: 'La faucheuse',
@@ -1962,7 +1978,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Uglies',
     author: 'Scott Westerfeld',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      '/books_pictures/b202d8e15b45.jpg',
     pages: 425,
     genre: 'Science Fiction',
     saga: '',
@@ -1975,7 +1992,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: "King's Game",
     author: 'Nobuaki Kanazawa',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      '/books_pictures/52bd6971d8ce.jpg',
     pages: 256,
     genre: 'Thriller',
     saga: "King's Game",
@@ -1988,7 +2006,7 @@ export const baseBooks: BaseBook[] = [
   {
     title: "King's Game Spiral",
     author: 'Nobuaki Kanazawa',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/407b7ee27438.jpg',
     pages: 256,
     genre: 'Thriller',
     saga: "King's Game",
@@ -2001,7 +2019,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: "King's Game Origin",
     author: 'Nobuaki Kanazawa',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      '/books_pictures/357af132dbb8.webp',
     pages: 256,
     genre: 'Thriller',
     saga: "King's Game",
@@ -2014,7 +2033,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: "King's Game Extreme",
     author: 'Nobuaki Kanazawa',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      '/books_pictures/d246f58167fe.jpg',
     pages: 256,
     genre: 'Thriller',
     saga: "King's Game",
@@ -2027,7 +2047,7 @@ export const baseBooks: BaseBook[] = [
   {
     title: "King's Game Apocalypse",
     author: 'Nobuaki Kanazawa',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/958a5b02b4a7.jpg',
     pages: 256,
     genre: 'Thriller',
     saga: "King's Game",
@@ -2040,7 +2060,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Fandom tome 1',
     author: 'Ana Day',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/1130/full/fandom-tome-1-1129737.jpg',
     pages: 400,
     genre: 'Fantasy',
     saga: 'Fandom',
@@ -2053,7 +2074,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Fandom tome 2 la soulèvement',
     author: 'Ana Day',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/1297/full/fandom-tome-2-le-soulevement-1297068.jpg',
     pages: 400,
     genre: 'Fantasy',
     saga: 'Fandom',
@@ -2066,7 +2088,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'De sang et de Rage',
     author: 'Tomi Adeyemi',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      '/books_pictures/1680ad77c89a.jpg',
     pages: 544,
     genre: 'Fantasy',
     saga: '',
@@ -2079,7 +2102,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: "La guerre des elfes l'intégral",
     author: 'Herbie Brennan',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      '/books_pictures/9301412efe46.jpg',
     pages: 384,
     genre: 'Fantasy',
     saga: '',
@@ -2092,7 +2116,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: "Retour à l'état sauvage",
     author: 'Erin Hunter',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      '/books_pictures/2c3a2a58c599.jpg',
     pages: 320,
     genre: 'Jeunesse',
     saga: 'La guerre des clans',
@@ -2105,7 +2130,7 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'À feu et à sang',
     author: 'Erin Hunter',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/ea5491c90ffc.jpg',
     pages: 320,
     genre: 'Jeunesse',
     saga: 'La guerre des clans',
@@ -2118,7 +2143,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Les mystères de la forêt',
     author: 'Erin Hunter',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/650/full/la-guerre-des-clans-cycle-1-tome-3-les-mysteres-de-la-foret-650475.jpg',
     pages: 320,
     genre: 'Jeunesse',
     saga: 'La guerre des clans',
@@ -2131,7 +2157,7 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Avant la tempête',
     author: 'Erin Hunter',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/207c90e15f6f.jpg',
     pages: 320,
     genre: 'Jeunesse',
     saga: 'La guerre des clans',
@@ -2144,7 +2170,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Sur le sentier de la guerre',
     author: 'Erin Hunter',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      '/books_pictures/c57d90abd2a5.jpg',
     pages: 320,
     genre: 'Jeunesse',
     saga: 'La guerre des clans',
@@ -2157,7 +2184,7 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Une sombre prophétie',
     author: 'Erin Hunter',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/1b3c02f8f3e4.jpg',
     pages: 320,
     genre: 'Jeunesse',
     saga: 'La guerre des clans',
@@ -2170,7 +2197,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Minuit',
     author: 'Erin Hunter',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/812/la_guerre_des_clans_la_derniere_prophetie_tome_1_minuit-812495-264-432.webp',
     pages: 320,
     genre: 'Jeunesse',
     saga: 'La guerre des clans',
@@ -2183,7 +2211,7 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Clair de lune',
     author: 'Erin Hunter',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/0d2aecd1bc6a.jpg',
     pages: 320,
     genre: 'Jeunesse',
     saga: 'La guerre des clans',
@@ -2196,7 +2224,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Aurore',
     author: 'Erin Hunter',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/812/full/la-guerre-des-clans-la-derniere-prophetie-tome-3-aurore-812496.jpg',
     pages: 320,
     genre: 'Jeunesse',
     saga: 'La guerre des clans',
@@ -2209,7 +2238,8 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Nuit étoilée',
     author: 'Erin Hunter',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/812/la_guerre_des_clans_la_derniere_prophetie_tome_4_nuit_etoilee-812498-264-432.webp',
     pages: 320,
     genre: 'Jeunesse',
     saga: 'La guerre des clans',
@@ -2222,7 +2252,7 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Crépuscule',
     author: 'Erin Hunter',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/294c7bd7dece.jpg',
     pages: 320,
     genre: 'Jeunesse',
     saga: 'La guerre des clans',
@@ -2235,7 +2265,7 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Coucher de soleil',
     author: 'Erin Hunter',
-    coverUrl: '/books_pictures/617SHAEjKKL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/cc2f9311bd22.jpg',
     pages: 320,
     genre: 'Jeunesse',
     saga: 'La guerre des clans',
