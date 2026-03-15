@@ -14796,4 +14796,19 @@ export const ronanMovies: UserMovies = [
     ratingComment: '',
     inList: [],
   },
+
+  {
+    title: 'Valeur sentimentale (2025)',
+    director: 'Joachim Trier',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '2026-03-14',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
 ];
