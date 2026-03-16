@@ -1,0 +1,105 @@
+<div class="features-modal">
+  <h2 mat-dialog-title>Fonctionnalités de Makya</h2>
+  <mat-dialog-content>
+    <app-view-toggle
+      [toggleClass]="'features-modal-tabs'"
+      [options]="tabOptions"
+      [selected]="selectedTab()"
+      (selectedChange)="onTabChange($event)"
+    ></app-view-toggle>
+
+    @if (selectedTab() === 'base') {
+    <div class="features-modal__panel">
+      <p class="features-modal__intro">
+        Les fonctionnalités essentielles pour gérer vos œuvres et consulter vos
+        statistiques.
+      </p>
+      <ul class="features-modal__list">
+        <li>
+          <strong>Collections</strong> – Gérer vos livres, mangas, comics, BD,
+          manwhas, films, séries, jeux et musiques. Pour chaque type d’entité :
+          liste principale, listes d’envies (à lire, à voir, à jouer) et
+          statistiques.
+        </li>
+        <li>
+          <strong>Tableau de bord</strong> – Vue d’ensemble du temps passé
+          (lecture, visionnage, jeux, musique), statistiques par type d’œuvre et
+          liste « À faire » (œuvres en cours ou en attente).
+        </li>
+        <li>
+          <strong>Notes et avis</strong> – Noter vos œuvres et laisser des
+          commentaires. Gérer les priorités de lecture et les envies de relire.
+        </li>
+      </ul>
+    </div>
+    }
+
+    @if (selectedTab() === 'simplify') {
+    <div class="features-modal__panel">
+      <p class="features-modal__intro">
+        Des outils pour découvrir des œuvres et gagner du temps au quotidien.
+      </p>
+      <ul class="features-modal__list">
+        <li>
+          <strong>Comptes suivis</strong> – Suivre d’autres utilisateurs pour
+          voir leur profil et découvrir leurs collections.
+        </li>
+        <li>
+          <strong>Ajout depuis un profil</strong> – Depuis le profil d’un autre
+          utilisateur, ajoutez en un clic des œuvres à vos propres listes (à
+          lire, à voir, déjà lu, déjà vu, etc.) sans quitter la page.
+        </li>
+        <li>
+          <strong>Feed d’activité</strong> – Sur votre tableau de bord, consultez
+          les films vus, livres lus et séries vues par les personnes que vous
+          suivez (dernier mois).
+        </li>
+        <li>
+          <strong>À faire</strong> – Une vue regroupée de tout ce que vous
+          avez en cours ou en attente, pour ne rien oublier.
+        </li>
+      </ul>
+    </div>
+    }
+
+    @if (selectedTab() === 'advanced') {
+    <div class="features-modal__panel">
+      <p class="features-modal__intro">
+        Statistiques avancées, classements et gamification.
+      </p>
+      <ul class="features-modal__list">
+        <li>
+          <strong>Top 5 (statistiques)</strong> – Consulter automatiquement vos
+          œuvres les plus lues, vues ou jouées (livres, mangas, films, séries,
+          jeux, musiques).
+        </li>
+        <li>
+          <strong>Top 5 personnel</strong> – Définir votre propre Top 5 par
+          catégorie (livres, films, séries, jeux, etc.) depuis chaque
+          collection.
+        </li>
+        <li>
+          <strong>Badges</strong> – Débloquer des badges en lisant, regardant et
+          notant vos œuvres.
+        </li>
+        <li>
+          <strong>Records</strong> – Voir le classement des utilisateurs (top 3
+          par catégorie : nombre de livres lus, films vus, etc.).
+        </li>
+        <li>
+          <strong>Graphiques</strong> – Visualiser vos données sous forme de
+          graphiques par type d’entité.
+        </li>
+      </ul>
+    </div>
+    }
+
+    <p class="features-modal__outro">
+      Utilisez le menu pour accéder à chaque collection et à votre tableau de
+      bord.
+    </p>
+  </mat-dialog-content>
+  <mat-dialog-actions align="end">
+    <button type="button" class="makya-btn" (click)="close()">Fermer</button>
+  </mat-dialog-actions>
+</div>

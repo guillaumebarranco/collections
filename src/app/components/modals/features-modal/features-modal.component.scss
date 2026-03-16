@@ -1,0 +1,53 @@
+.features-modal {
+  min-width: 360px;
+
+  h2 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.25rem;
+  }
+
+  mat-dialog-content {
+    padding-top: 0.5rem;
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+}
+
+.features-modal-tabs {
+  margin-bottom: 1rem;
+}
+
+.features-modal__panel {
+  margin-bottom: 1rem;
+}
+
+.features-modal__intro {
+  margin: 0 0 1rem 0;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.features-modal__list {
+  margin: 0 0 1rem 0;
+  padding-left: 1.25rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+
+  li {
+    margin-bottom: 0.75rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  strong {
+    color: #333;
+  }
+}
+
+.features-modal__outro {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+}

@@ -703,7 +703,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'La ierre et le sabre',
     author: 'Eiji Yoshikawa',
-    coverUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-V3M1DJzAb1uQDt6u3cKVt9aNmJDtwVecsg&s',
+    coverUrl: '/books_pictures/c45e1ba4aa3f.jpg',
     pages: 0,
     genre: '',
     saga: '',
@@ -717,7 +717,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'La parfaite lumière',
     author: 'Eiji Yoshikawa',
-    coverUrl: 'https://m.media-amazon.com/images/I/61vqQXAFBmL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/7cdfe4439a8f.jpg',
     pages: 0,
     genre: '',
     saga: '',
@@ -731,7 +731,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Pensées',
     author: 'Pascal',
-    coverUrl: 'https://m.media-amazon.com/images/I/71DjerqD6mL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/e37ecee37017.jpg',
     pages: 0,
     genre: '',
     saga: '',
@@ -759,7 +759,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Extension du domaine de la lutte',
     author: 'Michel Houellebecq',
-    coverUrl: 'https://m.media-amazon.com/images/I/61AwRYCwMpL.jpg',
+    coverUrl: '/books_pictures/6f0b6ddd1bb1.jpg',
     pages: 0,
     genre: '',
     saga: '',

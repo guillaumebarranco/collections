@@ -954,4 +954,18 @@ export const guillaumeReadlistBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: 'La psy',
+    author: 'Freida McFadden',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: true,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
 ];

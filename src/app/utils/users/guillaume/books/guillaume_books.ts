@@ -1122,4 +1122,18 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: 'Dom Juan',
+    author: 'Molière',
+    firstReadDate: '2010-01-01',
+    lastReadDate: '2010-05-04',
+    rating: 3.5,
+    readTimes: 3,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
 ];

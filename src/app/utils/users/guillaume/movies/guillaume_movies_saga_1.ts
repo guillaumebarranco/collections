@@ -38,7 +38,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
-    wantToSeeAgain: true,
+    wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
     inList: [],

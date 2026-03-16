@@ -1681,7 +1681,7 @@ export const baseBooks: BaseBook[] = [
     title: "L'empire des Femmes tome 1 Sapentia",
     author: 'Cassandre Lambert',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/5013/lempire_des_femmes_tome_1_sapientia-5013468-264-432.webp',
+      '/books_pictures/53bd24fef54f.webp',
     pages: 400,
     genre: 'Fantasy',
     saga: "L'empire des Femmes",
@@ -1723,7 +1723,7 @@ export const baseBooks: BaseBook[] = [
     title: 'Et si les chats disparaissaient du monde',
     author: 'Genki Kawamura',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/1140/et_si_les_chats_disparaissaient_du_monde-1139545-264-432.webp',
+      '/books_pictures/a3b3200d336d.webp',
     pages: 202,
     genre: 'Roman',
     saga: '',
@@ -1843,7 +1843,7 @@ export const baseBooks: BaseBook[] = [
     title: 'Oser ses rêves',
     author: 'Elizabeth Lim',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/1415/twisted_tales_tome_9_oser_ses_reves-1415041-264-432.webp',
+      '/books_pictures/19a6293d585f.webp',
     pages: 384,
     genre: 'Fantasy',
     saga: '',
@@ -1965,7 +1965,7 @@ export const baseBooks: BaseBook[] = [
     title: 'La faucheuse tome 3 le glas',
     author: 'Neal Shusterman',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/1242/full/la-faucheuse-tome-3-le-glas-1242237.jpg',
+      '/books_pictures/c26fef816637.jpg',
     pages: 640,
     genre: 'Science Fiction',
     saga: 'La faucheuse',
@@ -2075,7 +2075,7 @@ export const baseBooks: BaseBook[] = [
     title: 'Fandom tome 2 la soulèvement',
     author: 'Ana Day',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/1297/full/fandom-tome-2-le-soulevement-1297068.jpg',
+      '/books_pictures/4981537d7376.jpg',
     pages: 400,
     genre: 'Fantasy',
     saga: 'Fandom',
@@ -2198,7 +2198,7 @@ export const baseBooks: BaseBook[] = [
     title: 'Minuit',
     author: 'Erin Hunter',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/812/la_guerre_des_clans_la_derniere_prophetie_tome_1_minuit-812495-264-432.webp',
+      '/books_pictures/13d59b13cae3.webp',
     pages: 320,
     genre: 'Jeunesse',
     saga: 'La guerre des clans',
@@ -2239,7 +2239,7 @@ export const baseBooks: BaseBook[] = [
     title: 'Nuit étoilée',
     author: 'Erin Hunter',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/812/la_guerre_des_clans_la_derniere_prophetie_tome_4_nuit_etoilee-812498-264-432.webp',
+      '/books_pictures/dac30b8d28d9.webp',
     pages: 320,
     genre: 'Jeunesse',
     saga: 'La guerre des clans',

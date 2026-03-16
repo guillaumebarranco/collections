@@ -5,6 +5,13 @@
   <div class="dashboard-header">
     <h1>Tableau de bord</h1>
     <div class="dashboard-header-actions">
+      <button
+        class="makya-btn makya-btn--secondary"
+        type="button"
+        (click)="openFeaturesModal()"
+      >
+        Fonctionnalités
+      </button>
       @if (isOwnUserDashboard()) {
       <button
         class="makya-btn makya-btn--secondary"
@@ -338,15 +345,24 @@
 <div class="dashboard-container dashboard-logged-user-no-data">
   <div class="dashboard-header">
     <h1>Tableau de bord</h1>
-    @if (isOwnUserDashboard()) {
-    <button
-      class="makya-btn makya-btn--secondary"
-      type="button"
-      (click)="openFollowsModal()"
-    >
-      Comptes suivis
-    </button>
-    }
+    <div class="dashboard-header-actions">
+      <button
+        class="makya-btn makya-btn--secondary"
+        type="button"
+        (click)="openFeaturesModal()"
+      >
+        Fonctionnalités
+      </button>
+      @if (isOwnUserDashboard()) {
+      <button
+        class="makya-btn makya-btn--secondary"
+        type="button"
+        (click)="openFollowsModal()"
+      >
+        Comptes suivis
+      </button>
+      }
+    </div>
   </div>
   <div class="dashboard-character">
     <img src="/logo.png" alt="Makya" class="character-image" />
@@ -369,6 +385,16 @@
     <img src="/logo.png" alt="Makya" class="character-image" />
   </div>
   <h1>Bienvenue sur Makya !</h1>
+
+  <div class="dashboard-header-actions" style="margin-bottom: 1rem;">
+    <button
+      class="makya-btn makya-btn--secondary"
+      type="button"
+      (click)="openFeaturesModal()"
+    >
+      Fonctionnalités
+    </button>
+  </div>
 
   @if(!isAuthenticated()) {
   <div class="already-user">

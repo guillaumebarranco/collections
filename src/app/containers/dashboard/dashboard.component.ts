@@ -88,6 +88,7 @@ import {
   FollowsModalComponent,
   type FollowsModalData,
 } from '../../components/modals/follows-modal/follows-modal.component';
+import { FeaturesModalComponent } from '../../components/modals/features-modal/features-modal.component';
 import { FollowsService } from '../../services/follows.service';
 import { FeedService } from '../../services/feed.service';
 import { ImpersonateService } from '../../services/impersonate.service';
@@ -140,6 +141,7 @@ interface TopManga extends Manga {
     DashboardFeedComponent,
     DashboardRecordsComponent,
     LoginComponent,
+    FeaturesModalComponent,
   ],
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.scss'],
@@ -786,6 +788,12 @@ export class DashboardComponent implements OnInit {
     this.dialog.open(FollowsModalComponent, {
       data: { userId: uid } satisfies FollowsModalData,
       width: '420px',
+    });
+  }
+
+  openFeaturesModal(): void {
+    this.dialog.open(FeaturesModalComponent, {
+      width: '1024px',
     });
   }
 

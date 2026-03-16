@@ -2121,7 +2121,7 @@ export const baseBooksFromMom: BaseBook[] = [
     title: "Rédemption (Journal d'un vampire, #11)",
     author: 'L.J. Smith',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/469/full/journal-dun-vampire-tome-11-redemption-469098.jpg',
+      '/books_pictures/a1e9cf074293.jpg',
     pages: 400,
     genre: 'Paralittérature',
     saga: "Journal d'un vampire",

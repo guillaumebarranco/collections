@@ -16,6 +16,7 @@ import {
   baseMoviesSagaPage2,
   baseMoviesSagaPage3,
   baseMoviesFromAmandine,
+  baseMoviesFromMarina,
   baseMoviesFromRonanLetterboxd,
   baseMoviesApi,
   baseMoviesPage8,
@@ -71,6 +72,7 @@ export const allBaseMovies: BaseMovie[] = [
   ...baseMoviesSagaPage2,
   ...baseMoviesSagaPage3,
   ...baseMoviesFromAmandine,
+  ...baseMoviesFromMarina,
   ...baseMoviesFromRonanLetterboxd,
   ...baseMoviesApi,
 ];
@@ -79,6 +81,7 @@ import { dantesMovies } from '../../utils/users/dantes/movies/dantes_movies';
 import { bastienMovies } from '../../utils/users/bastien/movies/bastien_movies';
 import { unhoMovies } from '../../utils/users/unho/movies/unho_movies';
 import { unhoWatchListMovies } from '../../utils/users/unho/movies/unho_watchlist_movies';
+import { marinaMovies } from '../../utils/users/marina/movies/marina_movies';
 
 export function getLocalMoviesByUser(userId: string): UserMovie[] {
   switch (userId) {
@@ -113,6 +116,8 @@ export function getLocalMoviesByUser(userId: string): UserMovie[] {
       return [...bastienMovies];
     case 'unho':
       return [...unhoMovies];
+    case 'marina':
+      return [...marinaMovies];
     default:
       return [];
   }
