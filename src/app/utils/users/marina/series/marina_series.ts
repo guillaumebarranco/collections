@@ -28,7 +28,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -45,7 +45,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -98,7 +98,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -157,7 +157,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -216,7 +216,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -251,7 +251,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -292,7 +292,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -321,7 +321,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -368,7 +368,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -421,7 +421,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -462,7 +462,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -479,7 +479,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -508,7 +508,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -549,7 +549,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -566,7 +566,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -589,7 +589,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -624,7 +624,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -665,7 +665,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -712,7 +712,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -741,7 +741,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -782,7 +782,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -817,7 +817,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -870,7 +870,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -879,7 +879,7 @@ export const marinaSeries: UserSerie[] = [
   },
 
   {
-    title: 'Les zinzins de l\'espace',
+    title: "Les zinzins de l'espace",
     director: 'Jean-Yves Raimbaud',
     seasons: [
       {
@@ -947,7 +947,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -976,7 +976,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -1029,7 +1029,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -1038,7 +1038,7 @@ export const marinaSeries: UserSerie[] = [
   },
 
   {
-    title: 'Bob l\'éponge',
+    title: "Bob l'éponge",
     director: 'Stephen Hillenburg',
     seasons: [
       {
@@ -1082,7 +1082,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -1105,7 +1105,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -1114,7 +1114,7 @@ export const marinaSeries: UserSerie[] = [
   },
 
   {
-    title: 'L\'Attaque des Titans',
+    title: "L'Attaque des Titans",
     director: 'Tetsurô Araki',
     seasons: [
       {
@@ -1140,7 +1140,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -1361,7 +1361,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -1378,7 +1378,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -1401,7 +1401,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -1436,7 +1436,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -1471,7 +1471,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -1494,7 +1494,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -1511,7 +1511,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -1528,7 +1528,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -1545,7 +1545,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -1568,7 +1568,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -1591,7 +1591,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -1662,7 +1662,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -1691,7 +1691,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -1714,7 +1714,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -1731,7 +1731,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -1748,7 +1748,7 @@ export const marinaSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
@@ -1757,57 +1757,852 @@ export const marinaSeries: UserSerie[] = [
   },
 
   /* Séries ajoutées depuis base_series_from_marina */
-  { title: 'Les maîtres de l\'horreur', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Les maîtres de la peur (Fear Itself)', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Gossip Girl', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Santa Clarita Diet', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Cassandra', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Good Doctor', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Apple cider vinegar', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'La chute de la maison Usher', director: 'Mike Flanagan', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Pretty Little Liars', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Orange is the New Black', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'The Good Place', director: 'Michael Schur', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Dead to Me', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Insatiable', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'The Haunting of Hill House', director: 'Mike Flanagan', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'The Haunting of Bly Manor', director: 'Mike Flanagan', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Sweet Home', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'I Am a Killer', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Les chroniques de la peur 2019', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Poupée russe 2022', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Mon petit renne 2024', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Slasher', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Scream Queens', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Hannah Montana', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Phénomène Raven', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Les sorciers de Waverly Place', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'La vie de palace de Zack et Cody', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'La vie de croisière de Zack et Cody', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Phineas et Ferb', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Jessie 2011', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Drôle de frère - La guerre des Stevens', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Lizzie McGuire', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Shake It Up', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Austin et Ally', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Phil du futur', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Cory est dans la place', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Sonny 2009', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Jonas L.A', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Bonne chance Charlie', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Section Genius', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Violetta', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'La petite sirène 1992', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Tic et Tac, les rangers du risque', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Aladdin 1994', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Timon et Pumbaa 1995', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'La cour de récré', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Hercule 1998', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Les aventures de Buzz l\'Éclair 2000', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'La légende de Tarzan 2001', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Kim Possible', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Lilo et Stitch la série', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'American Dragon Jake Long', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'W.I.T.C.H.', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
-  { title: 'Kuzco, un empereur à l\'école', director: '', seasons: [{ seasonNumber: 1, seasonRating: 0, seasonTimesWatched: 0, lastViewedDate: '' }], owned: false, watchPriority: 1, wantToWatchAgain: false, ratingComment: '' },
+  {
+    title: "Les maîtres de l'horreur",
+    director: 'Mick Garris',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Les maîtres de la peur (Fear Itself)',
+    director: 'Mick Garris',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Gossip Girl',
+    director: 'Josh Schwartz, Stephanie Savage',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Santa Clarita Diet',
+    director: 'Victor Fresco',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Cassandra',
+    director: 'Benjamin Gutsche',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Good Doctor',
+    director: 'David Shore',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Apple cider vinegar',
+    director: 'Samantha Strauss',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'La chute de la maison Usher',
+    director: 'Mike Flanagan',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Pretty Little Liars',
+    director: 'I. Marlene King',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Orange is the New Black',
+    director: 'Jenji Kohan',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'The Good Place',
+    director: 'Michael Schur',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Dead to Me',
+    director: 'Liz Feldman',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Insatiable',
+    director: 'Lauren Gussis',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'The Haunting of Hill House',
+    director: 'Mike Flanagan',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'The Haunting of Bly Manor',
+    director: 'Mike Flanagan',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Sweet Home',
+    director: 'Lee Eung-bok',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'I Am a Killer',
+    director: 'Ross Young',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Les chroniques de la peur',
+    director: 'Bede Blake',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Poupée russe',
+    director: 'Natasha Lyonne, Leslye Headland, Amy Poehler',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Mon petit renne',
+    director: 'Richard Gadd',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Slasher',
+    director: 'Aaron Martin',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Scream Queens',
+    director: 'Ryan Murphy, Brad Falchuk, Ian Brennan',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Hannah Montana',
+    director: "Michael Poryes, Rich Correll, Barry O'Brien",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Phénomène Raven',
+    director: 'Michael Poryes, Susan Sherman',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Les sorciers de Waverly Place',
+    director: 'Todd J. Greenwald',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'La vie de palace de Zack et Cody',
+    director: 'Danny Kallis, Jim Geoghan',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'La vie de croisière de Zack et Cody',
+    director: 'Danny Kallis, Jim Geoghan',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Phineas et Ferb',
+    director: 'Dan Povenmire, Jeff "Swampy" Marsh',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Jessie',
+    director: "Pamela Eells O'Connell",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Drôle de frère - La guerre des Stevens',
+    director: 'Matt Dearborn',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Lizzie McGuire',
+    director: 'Terri Minsky',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Shake It Up',
+    director: 'Chris Thompson',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Austin et Ally',
+    director: 'Kevin Kopelow, Heath Seifert',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Phil du futur',
+    director: 'Tim Maile, Douglas Tuber',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Cory est dans la place',
+    director: 'Dennis Rinsler, Marc Warren',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Sonny',
+    director: 'Steve Marmel',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Jonas L.A',
+    director: 'Michael Curtis, Roger S. H. Schulman',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Bonne chance Charlie',
+    director: 'Phil Baker, Drew Vaupen',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Section Genius',
+    director: 'Dan Signer',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Violetta',
+    director: 'Jorge Nisco, Martín Saban',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'La petite sirène',
+    director: 'Jamie Mitchell, Bob Hathcock',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Tic et Tac, les rangers du risque',
+    director: 'Tad Stones, Alan Zaslove',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Aladdin',
+    director: 'Alan Zaslove, Tad Stones',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Timon et Pumbaa',
+    director: 'Tony Craig, Roberts Gannaway',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'La cour de récré',
+    director: 'Paul Germain, Joe Ansolabehere',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Hercule',
+    director: 'Phil Weinstein, Bob Kline',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: "Les aventures de Buzz l'Éclair",
+    director: 'Mark McCorkle, Bob Schooley',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'La légende de Tarzan',
+    director: 'Victor Cook, Steve Loter',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Kim Possible',
+    director: 'Mark McCorkle, Bob Schooley',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Lilo et Stitch la série',
+    director: 'Tony Craig, Roberts Gannaway',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'American Dragon Jake Long',
+    director: 'Jeff Goode',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'W.I.T.C.H.',
+    director: 'Greg Weisman',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: "Kuzco, un empereur à l'école",
+    director: 'Mark Dindal',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
 ];

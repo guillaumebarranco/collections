@@ -2246,7 +2246,7 @@ export const baseBooksFromMom: BaseBook[] = [
     title: 'La Montagne des Vampires',
     author: 'Darren Shan',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/66/lassistant_du_vampire_tome_4_la_montagne_des_vampires-66085-264-432.webp',
+      '/books_pictures/550041220e41.webp',
     pages: 187,
     genre: 'Paralittérature',
     saga: "L'Assistant du vampire",

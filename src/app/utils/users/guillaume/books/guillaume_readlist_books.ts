@@ -897,22 +897,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-  }
-,
-  {
-    title: 'Un palais de colère et de brume',
-    author: 'Sarah J. Maas',
-    firstReadDate: '',
-    lastReadDate: '',
-    rating: 0,
-    readTimes: 1,
-    owned: false,
-    borrowed: false,
-    readPriority: 3,
-    wantToReadAgain: false,
-    ratingComment: '',
   },
-
   {
     title: 'Un palais de cendres et de ruines',
     author: 'Sarah J. Maas',
@@ -926,7 +911,6 @@ export const guillaumeReadlistBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Un palais de glace et de lumière',
     author: 'Sarah J. Maas',
@@ -940,7 +924,6 @@ export const guillaumeReadlistBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Un palais de flammes d\'argent',
     author: 'Sarah J. Maas',
@@ -954,7 +937,6 @@ export const guillaumeReadlistBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'La psy',
     author: 'Freida McFadden',
@@ -967,5 +949,5 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-  },
+  }
 ];

@@ -1709,7 +1709,7 @@ export const baseBooks: BaseBook[] = [
     title: 'La maison des mensonges',
     author: 'John Marrs',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/5362/full/la-maison-des-mensonges-5362086.jpg',
+      '/books_pictures/bda2da59dd65.jpg',
     pages: 416,
     genre: 'Thriller',
     saga: '',
@@ -1951,7 +1951,7 @@ export const baseBooks: BaseBook[] = [
     title: 'La faucheuse tome 2 Thunderhead',
     author: 'Neal Shusterman',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/1011/full/la-faucheuse-tome-2-thunderhead-1010536.jpg',
+      '/books_pictures/7a3d5bc45712.jpg',
     pages: 504,
     genre: 'Science Fiction',
     saga: 'La faucheuse',
@@ -2144,7 +2144,7 @@ export const baseBooks: BaseBook[] = [
     title: 'Les mystères de la forêt',
     author: 'Erin Hunter',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/650/full/la-guerre-des-clans-cycle-1-tome-3-les-mysteres-de-la-foret-650475.jpg',
+      '/books_pictures/24831538e454.jpg',
     pages: 320,
     genre: 'Jeunesse',
     saga: 'La guerre des clans',
