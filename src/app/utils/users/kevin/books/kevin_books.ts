@@ -1472,4 +1472,18 @@ export const kevinBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: 'Le second tome est largement meilleur que le premier. Les intrigues sont plus intéressantes, mieux développées, mais surtout la fin du tome est beaucoup plus poignante. Dommage que l\'œuvre manque de complexité.',
   },
+
+  {
+    title: 'L\'Ordre des Ecailleux',
+    author: 'Stephen Deas',
+    firstReadDate: '2026-03-15',
+    lastReadDate: '2026-03-15',
+    rating: 2.75,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 3,
+    wantToReadAgain: false,
+    ratingComment: 'La fin est incomplète, il manque un livre mais on peut s\'en satisfaire. Cela dit, beaucoup d\'intrigues non traitées et d\'éléments importants passés sous silence.',
+  },
 ];
