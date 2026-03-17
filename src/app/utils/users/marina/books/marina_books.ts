@@ -344,7 +344,7 @@ export const marinaBooks: UserBook[] = [
     lastReadDate: '',
     rating: 0,
     readTimes: 1,
-    owned: false,
+    owned: true,
     borrowed: false,
     readPriority: 1,
     wantToReadAgain: false,

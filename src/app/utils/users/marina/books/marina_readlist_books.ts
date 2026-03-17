@@ -14,4 +14,32 @@ export const marinaReadListBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: 'La femme de ménage se marie',
+    author: 'Freida McFadden',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'La femme de ménage voit tout',
+    author: 'Freida McFadden',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
 ];
