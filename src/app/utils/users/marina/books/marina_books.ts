@@ -1,6 +1,6 @@
 import { UserBook } from '../../../../models/book-model';
 
-export const marinaBooks: UserBook[
+export const marinaBooks: UserBook[] = [
   {
     title: 'Charlie et la Chocolaterie',
     author: 'Roald Dahl',
@@ -54,7 +54,7 @@ export const marinaBooks: UserBook[
     ratingComment: '',
   },
   {
-    title: 'L\'Odyssée',
+    title: "L'Odyssée",
     author: 'Homère',
     firstReadDate: '',
     lastReadDate: '',
@@ -119,7 +119,7 @@ export const marinaBooks: UserBook[
     ratingComment: '',
   },
   {
-    title: 'Un palais d\'épines et de roses',
+    title: "Un palais d'épines et de roses",
     author: 'Sarah J. Maas',
     firstReadDate: '',
     lastReadDate: '',
@@ -197,7 +197,7 @@ export const marinaBooks: UserBook[
     ratingComment: '',
   },
   {
-    title: 'L\'avare',
+    title: "L'avare",
     author: 'Molière',
     firstReadDate: '',
     lastReadDate: '',
@@ -236,7 +236,8 @@ export const marinaBooks: UserBook[
     ratingComment: '',
   },
   {
-    title: 'Le Monde de Narnia (Tome 2) Le Lion, la Sorcière blanche et l\'Armoire magique',
+    title:
+      "Le Monde de Narnia (Tome 2) Le Lion, la Sorcière blanche et l'Armoire magique",
     author: 'C.S. Lewis',
     firstReadDate: '',
     lastReadDate: '',
@@ -275,7 +276,7 @@ export const marinaBooks: UserBook[
     ratingComment: '',
   },
   {
-    title: 'L\'Embrasement',
+    title: "L'Embrasement",
     author: 'Suzanne Collins',
     firstReadDate: '',
     lastReadDate: '',
@@ -301,7 +302,7 @@ export const marinaBooks: UserBook[
     ratingComment: '',
   },
   {
-    title: 'La Ballade du serpent et de l\'oiseau chanteur',
+    title: "La Ballade du serpent et de l'oiseau chanteur",
     author: 'Suzanne Collins',
     firstReadDate: '',
     lastReadDate: '',
@@ -327,7 +328,7 @@ export const marinaBooks: UserBook[
     ratingComment: '',
   },
   {
-    title: 'Harry Potter à l\'école des sorciers',
+    title: "Harry Potter à l'école des sorciers",
     author: 'J.K. Rowling',
     firstReadDate: '',
     lastReadDate: '',
@@ -353,7 +354,7 @@ export const marinaBooks: UserBook[
     ratingComment: '',
   },
   {
-    title: 'Harry Potter et le Prisonnier d\'Azkaban',
+    title: "Harry Potter et le Prisonnier d'Azkaban",
     author: 'J.K. Rowling',
     firstReadDate: '',
     lastReadDate: '',
@@ -379,7 +380,7 @@ export const marinaBooks: UserBook[
     ratingComment: '',
   },
   {
-    title: 'Harry Potter et l\'Ordre du Phénix',
+    title: "Harry Potter et l'Ordre du Phénix",
     author: 'J.K. Rowling',
     firstReadDate: '',
     lastReadDate: '',
@@ -418,7 +419,7 @@ export const marinaBooks: UserBook[
     ratingComment: '',
   },
   {
-    title: 'Harry Potter et l\'Enfant maudit',
+    title: "Harry Potter et l'Enfant maudit",
     author: 'J.K. Rowling',
     firstReadDate: '',
     lastReadDate: '',
@@ -730,7 +731,7 @@ export const marinaBooks: UserBook[
     ratingComment: '',
   },
   {
-    title: 'Un palais de flammes d\'argent',
+    title: "Un palais de flammes d'argent",
     author: 'Sarah J. Maas',
     firstReadDate: '',
     lastReadDate: '',
@@ -834,7 +835,7 @@ export const marinaBooks: UserBook[
     ratingComment: '',
   },
   {
-    title: 'Les aiguilles d\'or',
+    title: "Les aiguilles d'or",
     author: 'Michael McDowell',
     firstReadDate: '',
     lastReadDate: '',
@@ -847,7 +848,7 @@ export const marinaBooks: UserBook[
     ratingComment: '',
   },
   {
-    title: 'L\'amulette',
+    title: "L'amulette",
     author: 'Michael McDowell',
     firstReadDate: '',
     lastReadDate: '',
@@ -886,7 +887,7 @@ export const marinaBooks: UserBook[
     ratingComment: '',
   },
   {
-    title: 'L\'empire des Femmes tome 1 Sapentia',
+    title: "L'empire des Femmes tome 1 Sapentia",
     author: 'Cassandre Lambert',
     firstReadDate: '',
     lastReadDate: '',
@@ -1107,7 +1108,7 @@ export const marinaBooks: UserBook[
     ratingComment: '',
   },
   {
-    title: 'Éclats d\'étoiles',
+    title: "Éclats d'étoiles",
     author: 'Neal Shusterman',
     firstReadDate: '',
     lastReadDate: '',
@@ -1172,7 +1173,7 @@ export const marinaBooks: UserBook[
     ratingComment: '',
   },
   {
-    title: 'King\'s Game',
+    title: "King's Game",
     author: 'Nobuaki Kanazawa',
     firstReadDate: '',
     lastReadDate: '',
@@ -1185,7 +1186,7 @@ export const marinaBooks: UserBook[
     ratingComment: '',
   },
   {
-    title: 'King\'s Game Spiral',
+    title: "King's Game Spiral",
     author: 'Nobuaki Kanazawa',
     firstReadDate: '',
     lastReadDate: '',
@@ -1198,7 +1199,7 @@ export const marinaBooks: UserBook[
     ratingComment: '',
   },
   {
-    title: 'King\'s Game Origin',
+    title: "King's Game Origin",
     author: 'Nobuaki Kanazawa',
     firstReadDate: '',
     lastReadDate: '',
@@ -1211,7 +1212,7 @@ export const marinaBooks: UserBook[
     ratingComment: '',
   },
   {
-    title: 'King\'s Game Extreme',
+    title: "King's Game Extreme",
     author: 'Nobuaki Kanazawa',
     firstReadDate: '',
     lastReadDate: '',
@@ -1224,7 +1225,7 @@ export const marinaBooks: UserBook[
     ratingComment: '',
   },
   {
-    title: 'King\'s Game Apocalypse',
+    title: "King's Game Apocalypse",
     author: 'Nobuaki Kanazawa',
     firstReadDate: '',
     lastReadDate: '',
@@ -1276,7 +1277,7 @@ export const marinaBooks: UserBook[
     ratingComment: '',
   },
   {
-    title: 'La guerre des elfes l\'intégral',
+    title: "La guerre des elfes l'intégral",
     author: 'Herbie Brennan',
     firstReadDate: '',
     lastReadDate: '',
@@ -1289,7 +1290,7 @@ export const marinaBooks: UserBook[
     ratingComment: '',
   },
   {
-    title: 'Retour à l\'état sauvage',
+    title: "Retour à l'état sauvage",
     author: 'Erin Hunter',
     firstReadDate: '',
     lastReadDate: '',
@@ -1456,5 +1457,5 @@ export const marinaBooks: UserBook[
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-  }
+  },
 ];
