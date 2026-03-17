@@ -1,4 +1,4 @@
-import { baseBds, baseBdsApi } from '../../utils/entities/bds';
+import { baseBds, baseBdsApi, baseBdsFromDantes } from '../../utils/entities/bds';
 import { BaseBd, UserBd } from '../../models/bd-model';
 import { guillaumeBds } from '../../utils/users/guillaume/bds/guillaume_bds';
 import { guillaumeReadListBds } from '../../utils/users/guillaume/bds/guillaume_readlist_bds';
@@ -13,8 +13,13 @@ import { williamReadListBds } from '../../utils/users/william/bds/william_readli
 import { xerythBds } from '../../utils/users/xeryth/bds/xeryth_bds';
 import { xerythReadListBds } from '../../utils/users/xeryth/bds/xeryth_readlist_bds';
 import { marinaBds } from '../../utils/users/marina/bds/marina_bds';
+import { dantesBds } from '../../utils/users/dantes/bds/dantes_bds';
 
-export const allBaseBds: BaseBd[] = [...baseBds, ...baseBdsApi];
+export const allBaseBds: BaseBd[] = [
+  ...baseBds,
+  ...baseBdsApi,
+  ...baseBdsFromDantes,
+];
 
 export function getLocalBdsByUser(userId: string): UserBd[] {
   switch (userId) {
@@ -32,6 +37,8 @@ export function getLocalBdsByUser(userId: string): UserBd[] {
       return [...xerythBds];
     case 'marina':
       return [...marinaBds];
+    case 'dantes':
+      return [...dantesBds];
     default:
       return [];
   }
