@@ -1,6 +1,6 @@
 import { UserBook } from '../../../../models/book-model';
 
-export const marinaBooks: UserBook[] = [
+export const marinaBooks: UserBook[
   {
     title: 'Charlie et la Chocolaterie',
     author: 'Roald Dahl',
@@ -14,7 +14,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Dracula',
     author: 'Bram Stoker',
@@ -28,7 +27,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Candide',
     author: 'Voltaire',
@@ -42,7 +40,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Gatsby le magnifique',
     author: 'F. Scott Fitzgerald',
@@ -56,7 +53,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'L\'Odyssée',
     author: 'Homère',
@@ -70,7 +66,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Roméo et Juliette',
     author: 'William Shakespeare',
@@ -84,7 +79,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Don Quichotte',
     author: 'Miguel de Cervantes',
@@ -98,7 +92,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Le meilleur des mondes',
     author: 'Aldous Huxley',
@@ -112,7 +105,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Le Petit Prince',
     author: 'Antoine de Saint-Exupéry',
@@ -126,7 +118,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Un palais d\'épines et de roses',
     author: 'Sarah J. Maas',
@@ -140,7 +131,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Les sortceliers',
     author: 'Sophie Audouin-Mamikonian',
@@ -154,7 +144,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Le livre interdit',
     author: 'Sophie Audouin-Mamikonian',
@@ -168,7 +157,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Dans le piège de Magister',
     author: 'Sophie Audouin-Mamikonian',
@@ -182,7 +170,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'La peste',
     author: 'Albert Camus',
@@ -196,7 +183,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Les fourberies de Scapin',
     author: 'Molière',
@@ -210,7 +196,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'L\'avare',
     author: 'Molière',
@@ -224,7 +209,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Tartuffe',
     author: 'Molière',
@@ -238,7 +222,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Le Monde de Narnia (Tome 1) Le Neveu du Magicien',
     author: 'C.S. Lewis',
@@ -252,7 +235,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Le Monde de Narnia (Tome 2) Le Lion, la Sorcière blanche et l\'Armoire magique',
     author: 'C.S. Lewis',
@@ -266,7 +248,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Et ils meurent tous les deux à la fin',
     author: 'Adam Silvera',
@@ -280,7 +261,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Hunger Games',
     author: 'Suzanne Collins',
@@ -294,7 +274,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'L\'Embrasement',
     author: 'Suzanne Collins',
@@ -308,7 +287,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'La Révolte',
     author: 'Suzanne Collins',
@@ -322,7 +300,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'La Ballade du serpent et de l\'oiseau chanteur',
     author: 'Suzanne Collins',
@@ -336,7 +313,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Lever de soleil sur la moisson',
     author: 'Suzanne Collins',
@@ -350,7 +326,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Harry Potter à l\'école des sorciers',
     author: 'J.K. Rowling',
@@ -364,7 +339,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Harry Potter et la Chambre des secrets',
     author: 'J.K. Rowling',
@@ -378,7 +352,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Harry Potter et le Prisonnier d\'Azkaban',
     author: 'J.K. Rowling',
@@ -392,7 +365,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Harry Potter et la Coupe de feu',
     author: 'J.K. Rowling',
@@ -406,7 +378,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Harry Potter et l\'Ordre du Phénix',
     author: 'J.K. Rowling',
@@ -420,7 +391,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Harry Potter et le Prince de sang-mêlé',
     author: 'J.K. Rowling',
@@ -434,7 +404,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Harry Potter et les Reliques de la Mort',
     author: 'J.K. Rowling',
@@ -448,7 +417,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Harry Potter et l\'Enfant maudit',
     author: 'J.K. Rowling',
@@ -462,7 +430,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Fascination',
     author: 'Stephenie Meyer',
@@ -476,7 +443,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Tentation',
     author: 'Stephenie Meyer',
@@ -490,7 +456,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Hésitation',
     author: 'Stephenie Meyer',
@@ -504,7 +469,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Révélation',
     author: 'Stephenie Meyer',
@@ -518,7 +482,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Midnight Sun',
     author: 'Stephenie Meyer',
@@ -532,7 +495,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Le Voleur de foudre',
     author: 'Rick Riordan',
@@ -546,7 +508,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'La Mer des monstres',
     author: 'Rick Riordan',
@@ -560,7 +521,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Le Sort du titan',
     author: 'Rick Riordan',
@@ -574,7 +534,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'La Bataille du labyrinthe',
     author: 'Rick Riordan',
@@ -588,7 +547,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Le Dernier Olympien',
     author: 'Rick Riordan',
@@ -602,7 +560,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Le Labyrinthe',
     author: 'James Dashner',
@@ -616,7 +573,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'La femme de ménage',
     author: 'Freida McFadden',
@@ -630,7 +586,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Les secrets de la femme de ménage',
     author: 'Freida McFadden',
@@ -644,7 +599,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Les Trois Mousquetaires',
     author: 'Alexandre Dumas',
@@ -658,7 +612,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Blackwater I : La crue',
     author: 'Michael McDowell',
@@ -672,7 +625,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Blackwater II : La digue',
     author: 'Michael McDowell',
@@ -686,7 +638,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Blackwater III : La maison',
     author: 'Michael McDowell',
@@ -700,7 +651,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Blackwater IV : La guerre',
     author: 'Michael McDowell',
@@ -714,7 +664,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Blackwater V : La fortune',
     author: 'Michael McDowell',
@@ -728,7 +677,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Blackwater VI : Pluie',
     author: 'Michael McDowell',
@@ -742,7 +690,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Un palais de colère et de brume',
     author: 'Sarah J. Maas',
@@ -756,7 +703,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Un palais de cendres et de ruines',
     author: 'Sarah J. Maas',
@@ -770,7 +716,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Un palais de glace et de lumière',
     author: 'Sarah J. Maas',
@@ -784,7 +729,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Un palais de flammes d\'argent',
     author: 'Sarah J. Maas',
@@ -798,7 +742,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Joyland',
     author: 'Stephen King',
@@ -812,7 +755,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Marche ou crève',
     author: 'Stephen King',
@@ -826,7 +768,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Contes',
     author: 'Charles Perrault',
@@ -840,7 +781,6 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Dom Juan',
     author: 'Molière',
@@ -854,60 +794,656 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
-  /* Livres extraits des captures d'écran (listes Marina) */
-  { title: 'Dans son silence', author: 'Alex Michaelides', firstReadDate: '', lastReadDate: '', rating: 0, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Katie', author: 'Michael McDowell', firstReadDate: '', lastReadDate: '', rating: 0, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Lune froide sur babylone', author: 'Michael McDowell', firstReadDate: '', lastReadDate: '', rating: 3.5, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: "Les aiguilles d'or", author: 'Michael McDowell', firstReadDate: '', lastReadDate: '', rating: 0, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: "L'amulette", author: 'Michael McDowell', firstReadDate: '', lastReadDate: '', rating: 0, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'La psy', author: 'Freida McFadden', firstReadDate: '', lastReadDate: '', rating: 2.25, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'La locataire', author: 'Freida McFadden', firstReadDate: '', lastReadDate: '', rating: 0, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: "L'empire des Femmes tome 1 Sapentia", author: 'Cassandre Lambert', firstReadDate: '', lastReadDate: '', rating: 3.75, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: "L'empire des femmes tome 2 Teneros", author: 'Cassandre Lambert', firstReadDate: '', lastReadDate: '', rating: 0, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'La maison des mensonges', author: 'John Marrs', firstReadDate: '', lastReadDate: '', rating: 2.75, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Et si les chats disparaissaient du monde', author: 'Genki Kawamura', firstReadDate: '', lastReadDate: '', rating: 4.5, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Meurtres et pépites de chocolat', author: 'Joanne Fluke', firstReadDate: '', lastReadDate: '', rating: 2.75, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Meurtres et cheesecake aux cerises', author: 'Joanne Fluke', firstReadDate: '', lastReadDate: '', rating: 2.75, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Le prince cruel', author: 'Holly Black', firstReadDate: '', lastReadDate: '', rating: 4, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Le roi maléfique', author: 'Holly Black', firstReadDate: '', lastReadDate: '', rating: 3.75, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'La reine sans royaume', author: 'Holly Black', firstReadDate: '', lastReadDate: '', rating: 3.75, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Le prestige', author: 'Christopher Priest', firstReadDate: '', lastReadDate: '', rating: 0, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Peter Pan', author: 'Simon Rousseau', firstReadDate: '', lastReadDate: '', rating: 0.1, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Réflexion', author: 'Elizabeth Lim', firstReadDate: '', lastReadDate: '', rating: 0, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Oser ses rêves', author: 'Elizabeth Lim', firstReadDate: '', lastReadDate: '', rating: 0, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Le jeu du maître', author: 'James Dashner', firstReadDate: '', lastReadDate: '', rating: 1.5, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Avant le labyrinthe', author: 'James Dashner', firstReadDate: '', lastReadDate: '', rating: 3.5, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'La braise', author: 'James Dashner', firstReadDate: '', lastReadDate: '', rating: 3.5, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Le labyrinthe : Le destin de Newt', author: 'James Dashner', firstReadDate: '', lastReadDate: '', rating: 3.5, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Le premier qui meurt à la fin', author: 'Adam Silvera', firstReadDate: '', lastReadDate: '', rating: 4, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: "Éclats d'étoiles", author: 'Neal Shusterman', firstReadDate: '', lastReadDate: '', rating: 3, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'La faucheuse tome 1', author: 'Neal Shusterman', firstReadDate: '', lastReadDate: '', rating: 4.75, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'La faucheuse tome 2 Thunderhead', author: 'Neal Shusterman', firstReadDate: '', lastReadDate: '', rating: 4.75, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'La faucheuse tome 3 le glas', author: 'Neal Shusterman', firstReadDate: '', lastReadDate: '', rating: 4.5, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Uglies', author: 'Scott Westerfeld', firstReadDate: '', lastReadDate: '', rating: 3.5, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: "King's Game", author: 'Nobuaki Kanazawa', firstReadDate: '', lastReadDate: '', rating: 5, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: "King's Game Spiral", author: 'Nobuaki Kanazawa', firstReadDate: '', lastReadDate: '', rating: 5, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: "King's Game Origin", author: 'Nobuaki Kanazawa', firstReadDate: '', lastReadDate: '', rating: 5, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: "King's Game Extreme", author: 'Nobuaki Kanazawa', firstReadDate: '', lastReadDate: '', rating: 5, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: "King's Game Apocalypse", author: 'Nobuaki Kanazawa', firstReadDate: '', lastReadDate: '', rating: 5, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Fandom tome 1', author: 'Ana Day', firstReadDate: '', lastReadDate: '', rating: 4.5, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Fandom tome 2 la soulèvement', author: 'Ana Day', firstReadDate: '', lastReadDate: '', rating: 4, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'De sang et de Rage', author: 'Tomi Adeyemi', firstReadDate: '', lastReadDate: '', rating: 3.75, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: "La guerre des elfes l'intégral", author: 'Herbie Brennan', firstReadDate: '', lastReadDate: '', rating: 4, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: "Retour à l'état sauvage", author: 'Erin Hunter', firstReadDate: '', lastReadDate: '', rating: 0, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'À feu et à sang', author: 'Erin Hunter', firstReadDate: '', lastReadDate: '', rating: 0, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Les mystères de la forêt', author: 'Erin Hunter', firstReadDate: '', lastReadDate: '', rating: 0, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Avant la tempête', author: 'Erin Hunter', firstReadDate: '', lastReadDate: '', rating: 0, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Sur le sentier de la guerre', author: 'Erin Hunter', firstReadDate: '', lastReadDate: '', rating: 0, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Une sombre prophétie', author: 'Erin Hunter', firstReadDate: '', lastReadDate: '', rating: 0, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Minuit', author: 'Erin Hunter', firstReadDate: '', lastReadDate: '', rating: 0, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Clair de lune', author: 'Erin Hunter', firstReadDate: '', lastReadDate: '', rating: 0, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Aurore', author: 'Erin Hunter', firstReadDate: '', lastReadDate: '', rating: 0, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Nuit étoilée', author: 'Erin Hunter', firstReadDate: '', lastReadDate: '', rating: 0, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Crépuscule', author: 'Erin Hunter', firstReadDate: '', lastReadDate: '', rating: 0, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-  { title: 'Coucher de soleil', author: 'Erin Hunter', firstReadDate: '', lastReadDate: '', rating: 0, readTimes: 1, owned: false, borrowed: false, readPriority: 1, wantToReadAgain: false, ratingComment: '' },
-
+  {
+    title: 'Dans son silence',
+    author: 'Alex Michaelides',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Katie',
+    author: 'Michael McDowell',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Lune froide sur babylone',
+    author: 'Michael McDowell',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 3.5,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Les aiguilles d\'or',
+    author: 'Michael McDowell',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'L\'amulette',
+    author: 'Michael McDowell',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'La psy',
+    author: 'Freida McFadden',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 2.25,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'La locataire',
+    author: 'Freida McFadden',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'L\'empire des Femmes tome 1 Sapentia',
+    author: 'Cassandre Lambert',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 3.75,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'La maison des mensonges',
+    author: 'John Marrs',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 2.75,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Et si les chats disparaissaient du monde',
+    author: 'Genki Kawamura',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 4.5,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Meurtres et pépites de chocolat',
+    author: 'Joanne Fluke',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 2.75,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Meurtres et cheesecake aux cerises',
+    author: 'Joanne Fluke',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 2.75,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Le prince cruel',
+    author: 'Holly Black',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 4,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Le roi maléfique',
+    author: 'Holly Black',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 3.75,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'La reine sans royaume',
+    author: 'Holly Black',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 3.75,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Le prestige',
+    author: 'Christopher Priest',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Peter Pan',
+    author: 'Simon Rousseau',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0.1,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Réflexion',
+    author: 'Elizabeth Lim',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Oser ses rêves',
+    author: 'Elizabeth Lim',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Le jeu du maître',
+    author: 'James Dashner',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 1.5,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Avant le labyrinthe',
+    author: 'James Dashner',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 3.5,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'La braise',
+    author: 'James Dashner',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 3.5,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Le labyrinthe : Le destin de Newt',
+    author: 'James Dashner',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 3.5,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Le premier qui meurt à la fin',
+    author: 'Adam Silvera',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 4,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Éclats d\'étoiles',
+    author: 'Neal Shusterman',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 3,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'La faucheuse tome 1',
+    author: 'Neal Shusterman',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 4.75,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'La faucheuse tome 2 Thunderhead',
+    author: 'Neal Shusterman',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 4.75,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'La faucheuse tome 3 le glas',
+    author: 'Neal Shusterman',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 4.5,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Uglies',
+    author: 'Scott Westerfeld',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 3.5,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'King\'s Game',
+    author: 'Nobuaki Kanazawa',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 5,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'King\'s Game Spiral',
+    author: 'Nobuaki Kanazawa',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 5,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'King\'s Game Origin',
+    author: 'Nobuaki Kanazawa',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 5,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'King\'s Game Extreme',
+    author: 'Nobuaki Kanazawa',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 5,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'King\'s Game Apocalypse',
+    author: 'Nobuaki Kanazawa',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 5,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Fandom tome 1',
+    author: 'Ana Day',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 4.5,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Fandom tome 2 la soulèvement',
+    author: 'Ana Day',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 4,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'De sang et de Rage',
+    author: 'Tomi Adeyemi',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 3.75,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'La guerre des elfes l\'intégral',
+    author: 'Herbie Brennan',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 4,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Retour à l\'état sauvage',
+    author: 'Erin Hunter',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'À feu et à sang',
+    author: 'Erin Hunter',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Les mystères de la forêt',
+    author: 'Erin Hunter',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Avant la tempête',
+    author: 'Erin Hunter',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Sur le sentier de la guerre',
+    author: 'Erin Hunter',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Une sombre prophétie',
+    author: 'Erin Hunter',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Minuit',
+    author: 'Erin Hunter',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Clair de lune',
+    author: 'Erin Hunter',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Aurore',
+    author: 'Erin Hunter',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Nuit étoilée',
+    author: 'Erin Hunter',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Crépuscule',
+    author: 'Erin Hunter',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Coucher de soleil',
+    author: 'Erin Hunter',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
   {
     title: 'Battle Royale ',
     author: 'Kōshun Takami',
@@ -920,5 +1456,5 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-  },
+  }
 ];
