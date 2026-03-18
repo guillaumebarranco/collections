@@ -79,12 +79,13 @@ function parseBooleanField(objectText: string, key: string) {
 }
 
 function parseBooksFromFile(content: string): any[] {
+  content = repairArrayDeclaration(content);
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     return [];
   }
 
-  const arrayStart = content.indexOf('[', exportIndex);
+  const arrayStart = getArrayLiteralStartIndex(content, exportIndex);
   const arrayEnd = content.indexOf('];', arrayStart);
   if (arrayStart === -1 || arrayEnd === -1) {
     return [];
@@ -134,12 +135,13 @@ function parseBooksFromFile(content: string): any[] {
 }
 
 function parseBaseBooksFromFile(content: string): any[] {
+  content = repairArrayDeclaration(content);
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     return [];
   }
 
-  const arrayStart = content.indexOf('[', exportIndex);
+  const arrayStart = getArrayLiteralStartIndex(content, exportIndex);
   const arrayEnd = content.indexOf('];', arrayStart);
   if (arrayStart === -1 || arrayEnd === -1) {
     return [];
@@ -179,12 +181,13 @@ function parseBaseBooksFromFile(content: string): any[] {
 }
 
 function parseBaseBooksFullFromFile(content: string): any[] {
+  content = repairArrayDeclaration(content);
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     return [];
   }
 
-  const arrayStart = content.indexOf('[', exportIndex);
+  const arrayStart = getArrayLiteralStartIndex(content, exportIndex);
   const arrayEnd = content.indexOf('];', arrayStart);
   if (arrayStart === -1 || arrayEnd === -1) {
     return [];
@@ -253,8 +256,24 @@ function getArrayLiteralStartIndex(content: string, exportIndex: number) {
   return content.indexOf('[', exportIndex);
 }
 
+/**
+ * Corrige une déclaration de tableau mal formée (ex: "UserBook[" au lieu de "UserBook[] = [").
+ * Cela peut arriver après un ajout via l'API si la déclaration a été corrompue.
+ */
+function repairArrayDeclaration(content: string): string {
+  const exportIndex = content.indexOf('export const');
+  if (exportIndex === -1) return content;
+  const hasCorrectDeclaration = content.indexOf(' = [', exportIndex) >= 0;
+  if (hasCorrectDeclaration) return content;
+  return content.replace(
+    /(export const \w+: (?:UserBook|BaseBook))\[(\s*\n)/,
+    '$1[] = [$2'
+  );
+}
+
 function appendObjectToArrayFile(filePath: string, objectText: string) {
-  const content = fs.readFileSync(filePath, 'utf8');
+  let content = fs.readFileSync(filePath, 'utf8');
+  content = repairArrayDeclaration(content);
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     throw new Error('Array not found');
@@ -359,14 +378,18 @@ function upsertField(objectText: string, key: string, value: any) {
 }
 
 function updateBookInFile(content: string, payload: any) {
+  content = repairArrayDeclaration(content);
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     throw new Error('Array not found');
   }
 
-  const arrayStart = content.indexOf('[', exportIndex);
+  const arrayStart = getArrayLiteralStartIndex(content, exportIndex);
+  if (arrayStart === -1) {
+    throw new Error('Array bounds not found');
+  }
   const arrayEnd = content.indexOf('];', arrayStart);
-  if (arrayStart === -1 || arrayEnd === -1) {
+  if (arrayEnd === -1) {
     throw new Error('Array bounds not found');
   }
 
@@ -420,6 +443,7 @@ function updateBookInFile(content: string, payload: any) {
 }
 
 function updateBookIdentityInFile(content: string, payload: any) {
+  content = repairArrayDeclaration(content);
   const matchTitle = payload.matchTitle ?? payload.title;
   const matchAuthor = payload.matchAuthor ?? payload.author;
   if (!matchTitle || !matchAuthor) {
@@ -431,7 +455,7 @@ function updateBookIdentityInFile(content: string, payload: any) {
     throw new Error('Array not found');
   }
 
-  const arrayStart = content.indexOf('[', exportIndex);
+  const arrayStart = getArrayLiteralStartIndex(content, exportIndex);
   const arrayEnd = content.indexOf('];', arrayStart);
   if (arrayStart === -1 || arrayEnd === -1) {
     throw new Error('Array bounds not found');
@@ -480,6 +504,7 @@ function updateBookIdentityInFile(content: string, payload: any) {
 }
 
 function updateBaseBookInFile(content: string, payload: any) {
+  content = repairArrayDeclaration(content);
   const matchTitle = payload.matchTitle ?? payload.title;
   const matchAuthor = payload.matchAuthor ?? payload.author;
   if (!matchTitle || !matchAuthor) {
@@ -490,7 +515,7 @@ function updateBaseBookInFile(content: string, payload: any) {
     throw new Error('Array not found');
   }
 
-  const arrayStart = content.indexOf('[', exportIndex);
+  const arrayStart = getArrayLiteralStartIndex(content, exportIndex);
   const arrayEnd = content.indexOf('];', arrayStart);
   if (arrayStart === -1 || arrayEnd === -1) {
     throw new Error('Array bounds not found');
@@ -565,12 +590,13 @@ function updateBaseBookInFiles(payload: any) {
 }
 
 function removeBookFromFile(content: string, payload: any) {
+  content = repairArrayDeclaration(content);
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     throw new Error('Array not found');
   }
 
-  const arrayStart = content.indexOf('[', exportIndex);
+  const arrayStart = getArrayLiteralStartIndex(content, exportIndex);
   const arrayEnd = content.indexOf('];', arrayStart);
   if (arrayStart === -1 || arrayEnd === -1) {
     throw new Error('Array bounds not found');

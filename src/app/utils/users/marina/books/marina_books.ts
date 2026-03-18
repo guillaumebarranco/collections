@@ -1,6 +1,6 @@
 import { UserBook } from '../../../../models/book-model';
 
-export const marinaBooks: UserBook[
+export const marinaBooks: UserBook[] = [
   {
     title: 'Charlie et la Chocolaterie',
     author: 'Roald Dahl',
