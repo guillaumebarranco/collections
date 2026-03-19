@@ -14811,4 +14811,19 @@ export const ronanMovies: UserMovies = [
     ratingComment: '',
     inList: [],
   },
+
+  {
+    title: 'Materialists',
+    director: 'Celine Song',
+    rating: 2,
+    timesWatched: 1,
+    firstViewedDate: '2026-03-18',
+    lastViewedDate: '2026-03-18',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
 ];

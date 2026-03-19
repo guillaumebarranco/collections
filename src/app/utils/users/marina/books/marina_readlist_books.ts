@@ -10,11 +10,10 @@ export const marinaReadListBooks: UserBook[] = [
     readTimes: 1,
     owned: false,
     borrowed: false,
-    readPriority: 1,
+    readPriority: 3,
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'La femme de ménage se marie',
     author: 'Freida McFadden',
@@ -22,13 +21,12 @@ export const marinaReadListBooks: UserBook[] = [
     lastReadDate: '',
     rating: 0,
     readTimes: 1,
-    owned: false,
+    owned: true,
     borrowed: false,
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'La femme de ménage voit tout',
     author: 'Freida McFadden',
@@ -36,13 +34,12 @@ export const marinaReadListBooks: UserBook[] = [
     lastReadDate: '',
     rating: 0,
     readTimes: 1,
-    owned: false,
+    owned: true,
     borrowed: false,
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'L\'empire des femmes tome 2 Teneros',
     author: 'Cassandre Lambert',
@@ -56,7 +53,6 @@ export const marinaReadListBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'Lever de soleil sur la moisson',
     author: 'Suzanne Collins',
@@ -64,27 +60,12 @@ export const marinaReadListBooks: UserBook[] = [
     lastReadDate: '',
     rating: 0,
     readTimes: 1,
-    owned: false,
+    owned: true,
     borrowed: false,
-    readPriority: 1,
+    readPriority: 5,
     wantToReadAgain: false,
     ratingComment: '',
   },
-
-  {
-    title: 'Dans son silence',
-    author: 'Alex Michaelides',
-    firstReadDate: '',
-    lastReadDate: '',
-    rating: 0,
-    readTimes: 1,
-    owned: false,
-    borrowed: false,
-    readPriority: 1,
-    wantToReadAgain: false,
-    ratingComment: '',
-  },
-
   {
     title: 'Les aiguilles d\'or',
     author: 'Michael McDowell',
@@ -98,7 +79,6 @@ export const marinaReadListBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
   {
     title: 'L\'amulette',
     author: 'Michael McDowell',
@@ -111,5 +91,5 @@ export const marinaReadListBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-  },
+  }
 ];

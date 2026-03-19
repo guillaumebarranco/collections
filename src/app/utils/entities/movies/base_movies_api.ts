@@ -678,4 +678,28 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'Japon',
   },
+
+  {
+    title: 'Materialists',
+    director: 'Celine Song',
+    actors: [
+      {
+        name: 'Dakota Johnson',
+      },
+      {
+        name: 'Chris Evans',
+      },
+      {
+        name: 'Pedro Pascal',
+      },
+    ],
+    coverUrl: 'https://www.watervillecreates.org/wp-content/uploads/2025/07/materialists-poster.webp',
+    releaseDate: '2025-07-02',
+    length: 127,
+    genre: 'Comédie romantique',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
 ];

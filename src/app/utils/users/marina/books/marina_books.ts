@@ -1405,4 +1405,18 @@ export const marinaBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   }
+,
+  {
+    title: 'Dans son silence',
+    author: 'Alex Michaelides',
+    firstReadDate: '2026-03-18',
+    lastReadDate: '2026-03-18',
+    rating: 4.5,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
 ];
