@@ -821,19 +821,6 @@ export const marinaBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'La locataire',
-    author: 'Freida McFadden',
-    firstReadDate: '',
-    lastReadDate: '',
-    rating: 0,
-    readTimes: 1,
-    owned: false,
-    borrowed: false,
-    readPriority: 1,
-    wantToReadAgain: false,
-    ratingComment: '',
-  },
-  {
     title: 'L\'empire des Femmes tome 1 Sapentia',
     author: 'Cassandre Lambert',
     firstReadDate: '',
@@ -1404,8 +1391,7 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-  }
-,
+  },
   {
     title: 'Dans son silence',
     author: 'Alex Michaelides',
@@ -1418,5 +1404,5 @@ export const marinaBooks: UserBook[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-  },
+  }
 ];

@@ -1150,4 +1150,18 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: 'Un palais de cendres et de ruines',
+    author: 'Sarah J. Maas',
+    firstReadDate: '2026-03-19',
+    lastReadDate: '2026-03-19',
+    rating: 4.5,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 3,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
 ];

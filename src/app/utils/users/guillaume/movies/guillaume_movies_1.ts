@@ -2065,4 +2065,19 @@ export const guillaumeMoviesPage1: UserMovies = [
     ratingComment: '',
     inList: ['Mes romances'],
   },
+
+  {
+    title: '27 Robes',
+    director: 'Anne Fletcher',
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: '2026-03-19',
+    lastViewedDate: '2026-03-19',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
 ];

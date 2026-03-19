@@ -1424,4 +1424,215 @@ export const dantesSeries: UserSerie[] = [
     wantToWatchAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: 'Daredevil',
+    director: 'Drew Goddard',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Desperate Housewives',
+    director: 'Marc Cherry',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 6,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 7,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 8,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Gotham',
+    director: 'Bruno Heller',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Mentalist',
+    director: 'Bruno Heller',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 6,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 7,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Squid Game',
+    director: 'Hwang Dong-hyuk',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
 ];
