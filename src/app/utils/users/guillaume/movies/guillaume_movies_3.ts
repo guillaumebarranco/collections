@@ -88,7 +88,7 @@ export const guillaumeMoviesPage3: UserMovies = [
   {
     title: 'Baby Driver',
     director: 'Edgar Wright',
-    rating: 4,
+    rating: 4.25,
     timesWatched: 5,
     firstViewedDate: '2018-05-23',
     lastViewedDate: '2025-09-23',
