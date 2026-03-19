@@ -95,6 +95,52 @@ export const baseMoviesLove: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
+    title: 'Charlie, les filles lui disent merci',
+    director: 'Mark Helfrich',
+    actors: [
+      {
+        name: 'Dane Cook',
+      },
+      {
+        name: 'Jessica Alba',
+      },
+      {
+        name: 'Dan Fogler',
+      },
+    ],
+    coverUrl: '/movies_pictures/9896-good-luck-chuck-0-150-0-225-crop.jpg',
+    releaseDate: '2007-09-21',
+    length: 101,
+    genre: 'Romance',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Le Chasseur de primes',
+    director: 'Andy Tennant',
+    actors: [
+      {
+        name: 'Gerard Butler',
+      },
+      {
+        name: 'Jennifer Aniston',
+      },
+      {
+        name: 'Jason Sudeikis',
+      },
+    ],
+    coverUrl: '/movies_pictures/27573-the-bounty-hunter-0-150-0-225-crop.jpg',
+    releaseDate: '2010-03-19',
+    length: 110,
+    genre: 'Romance',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
     title: 'People We Meet on Vacation',
     director: 'Brett Haley',
     actors: [
@@ -595,7 +641,7 @@ export const baseMoviesLove: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
-    title: 'First Daughter',
+    title: 'La fille du président',
     director: 'Forest Whitaker',
     actors: [{ name: 'Katie Holmes' }],
     coverUrl: '/movies_pictures/43443-first-daughter-0-150-0-225-crop.jpg',

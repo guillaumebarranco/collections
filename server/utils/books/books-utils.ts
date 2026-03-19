@@ -1,5 +1,13 @@
 const fs = require('fs');
 const path = require('path');
+const {
+  normalizeString,
+  normalizeBoolean,
+  normalizeNumber,
+  parseStringField,
+  parseNumberField,
+  parseBooleanField,
+} = require('../utils');
 
 const USERS_BOOKS_DIR = path.join(
   __dirname,
@@ -23,60 +31,6 @@ const BASE_BOOKS_DIR = path.join(
   'books'
 );
 const BASE_BOOKS_API_FILE = path.join(BASE_BOOKS_DIR, 'base_books_api.ts');
-
-function normalizeNumber(value: any, field: string) {
-  if (value === undefined || value === null) return undefined;
-  const parsed = Number(value);
-  if (Number.isNaN(parsed)) {
-    throw new Error(`Invalid number for ${field}`);
-  }
-  return parsed;
-}
-
-function normalizeBoolean(value: any, field: string) {
-  if (value === undefined || value === null) return undefined;
-  if (typeof value === 'boolean') return value;
-  if (value === 'true') return true;
-  if (value === 'false') return false;
-  throw new Error(`Invalid boolean for ${field}`);
-}
-
-function normalizeString(value: any, field: string) {
-  if (value === undefined || value === null) return undefined;
-  if (typeof value !== 'string') {
-    throw new Error(`Invalid string for ${field}`);
-  }
-  return value;
-}
-
-function parseStringField(objectText: string, key: string) {
-  const regex = new RegExp(`${key}\\s*:\\s*(['"])((?:\\\\.|(?!\\1).)*)\\1`);
-  const match = objectText.match(regex);
-  if (!match) return null;
-  const quote = match[1];
-  return unescapeString(match[2], quote);
-}
-
-function unescapeString(value: string, quote: string) {
-  return value
-    .replace(new RegExp(`\\\\${quote}`, 'g'), quote)
-    .replace(/\\\\/g, '\\');
-}
-
-function parseNumberField(objectText: string, key: string) {
-  const regex = new RegExp(`${key}\\s*:\\s*([^,\\n]+)`);
-  const match = objectText.match(regex);
-  if (!match) return null;
-  const parsed = Number(match[1]);
-  return Number.isNaN(parsed) ? null : parsed;
-}
-
-function parseBooleanField(objectText: string, key: string) {
-  const regex = new RegExp(`${key}\\s*:\\s*(true|false)`);
-  const match = objectText.match(regex);
-  if (!match) return null;
-  return match[1] === 'true';
-}
 
 function parseBooksFromFile(content: string): any[] {
   content = repairArrayDeclaration(content);
@@ -416,7 +370,11 @@ function updateBookInFile(content: string, payload: any) {
           let updated = objectText;
           updated = replaceField(updated, 'rating', payload.rating);
           updated = replaceField(updated, 'readTimes', payload.readTimes);
-          updated = replaceField(updated, 'firstReadDate', payload.firstReadDate);
+          updated = replaceField(
+            updated,
+            'firstReadDate',
+            payload.firstReadDate
+          );
           updated = replaceField(updated, 'lastReadDate', payload.lastReadDate);
           updated = replaceField(updated, 'owned', payload.owned);
           updated = upsertField(updated, 'borrowed', payload.borrowed);
@@ -426,7 +384,11 @@ function updateBookInFile(content: string, payload: any) {
             'wantToReadAgain',
             payload.wantToReadAgain
           );
-          updated = upsertField(updated, 'ratingComment', payload.ratingComment ?? '');
+          updated = upsertField(
+            updated,
+            'ratingComment',
+            payload.ratingComment ?? ''
+          );
 
           return (
             content.slice(0, objectStart) +
@@ -555,8 +517,16 @@ function updateBaseBookInFile(content: string, payload: any) {
           updated = upsertField(updated, 'sagaOrder', payload.sagaOrder);
           updated = upsertField(updated, 'sagaFinished', payload.sagaFinished);
           updated = upsertField(updated, 'releaseDate', payload.releaseDate);
-          updated = upsertField(updated, 'description', payload.description ?? '');
-          updated = upsertField(updated, 'countryOrigin', payload.countryOrigin ?? '');
+          updated = upsertField(
+            updated,
+            'description',
+            payload.description ?? ''
+          );
+          updated = upsertField(
+            updated,
+            'countryOrigin',
+            payload.countryOrigin ?? ''
+          );
 
           return (
             content.slice(0, objectStart) +

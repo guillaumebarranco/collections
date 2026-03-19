@@ -702,4 +702,28 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
+
+  {
+    title: 'Iznogoud',
+    director: 'Patrick Braoudé',
+    actors: [
+      {
+        name: 'Michaël Youn',
+      },
+      {
+        name: 'Jacques Villeret',
+      },
+      {
+        name: 'Franck Dubosc',
+      },
+    ],
+    coverUrl: '/movies_pictures/48916-iznogoud-0-150-0-225-crop.jpg',
+    releaseDate: '2005-01-19',
+    length: 95,
+    genre: 'Comédie',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'France',
+  },
 ];
