@@ -64,35 +64,29 @@
     </p>
     } @if (manwha.readTimes && manwha.readTimes > 1 && !isBaseEntityView) {
     <p class="book-read-times">Lu {{ manwha.readTimes }} fois</p>
-    } @if (!isBaseEntityView) {
+    } @if (
+      !isBaseEntityView ||
+      (showAddToMyReadlist &&
+        (canAddToMyReadlist || canAddAsRead))
+    ) {
     <app-entity-card-rating-and-buttons
       [entityData]="getEntityData()"
       [recommendationText]="recommendationText"
       [recommendationBadge]="recommendationBadge"
+      [showRating]="!isBaseEntityView"
       [selectedView]="selectedView"
+      [showAddToMyListActions]="showAddToMyReadlist"
+      [canAddToMyWishlist]="canAddToMyReadlist"
+      [canAddToMyDone]="canAddAsRead"
       (openReview)="openReviewModal()"
       (priorityUpdated)="updateReadPriority($event)"
       (addFromList)="addManwhaFromReadlist()"
       (addToList)="addToReadlist.emit(manwha)"
       (wantToReReadClick)="wantToReRead.emit(manwha)"
       (haveReReadClick)="haveReRead.emit(manwha)"
+      (addToMyWishlist)="addToMyReadlist.emit(manwha)"
+      (addToMyDone)="addToMyRead.emit(manwha)"
     />
-    } @if (showAddToMyReadlist && canAddToMyReadlist) {
-    <button
-      type="button"
-      class="makya-btn-small add-to-my-readlist-btn"
-      (click)="addToMyReadlist.emit(manwha)"
-    >
-      Je veux lire ce manwha
-    </button>
-    } @if (showAddToMyReadlist && canAddAsRead) {
-    <button
-      type="button"
-      class="makya-btn-small add-to-my-read-btn"
-      (click)="addToMyRead.emit(manwha)"
-    >
-      Tiens, j'ai déjà lu ce manwha !
-    </button>
     }
   </div>
 </app-entity-card>

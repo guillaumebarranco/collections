@@ -62,35 +62,29 @@
     </p>
     } @if (manga.readTimes && manga.readTimes > 1 && !isBaseEntityView) {
     <p class="book-read-times">Lu {{ manga.readTimes }} fois</p>
-    } @if (!isBaseEntityView) {
+    } @if (
+      !isBaseEntityView ||
+      (showAddToMyReadlist &&
+        (canAddToMyReadlist || canAddAsRead))
+    ) {
     <app-entity-card-rating-and-buttons
       [entityData]="getEntityData()"
       [recommendationText]="recommendationText"
       [recommendationBadge]="recommendationBadge"
+      [showRating]="!isBaseEntityView"
       [selectedView]="selectedView"
+      [showAddToMyListActions]="showAddToMyReadlist"
+      [canAddToMyWishlist]="canAddToMyReadlist"
+      [canAddToMyDone]="canAddAsRead"
       (openReview)="openReviewModal()"
       (priorityUpdated)="updateReadPriority($event)"
       (addFromList)="addMangaFromReadlist()"
       (addToList)="addToReadlist.emit(manga)"
       (wantToReReadClick)="wantToReRead.emit(manga)"
       (haveReReadClick)="haveReRead.emit(manga)"
+      (addToMyWishlist)="addToMyReadlist.emit(manga)"
+      (addToMyDone)="addToMyRead.emit(manga)"
     />
-    } @if (showAddToMyReadlist && canAddToMyReadlist) {
-    <button
-      type="button"
-      class="makya-btn-small add-to-my-readlist-btn"
-      (click)="addToMyReadlist.emit(manga)"
-    >
-      Je veux lire ce manga
-    </button>
-    } @if (showAddToMyReadlist && canAddAsRead) {
-    <button
-      type="button"
-      class="makya-btn-small add-to-my-read-btn"
-      (click)="addToMyRead.emit(manga)"
-    >
-      Tiens, j'ai déjà lu ce manga !
-    </button>
     }
   </div>
 </app-entity-card>

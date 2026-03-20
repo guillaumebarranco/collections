@@ -60,20 +60,30 @@
     <p class="serie-saga">Saga {{ serie.saga }}</p>
     } @if (serie.description) {
     <p class="serie-description">{{ serie.description }}</p>
-    } @if (!isBaseEntityView) {
+    } @if (
+      !isBaseEntityView ||
+      (showAddToMyWatchlist &&
+        (canAddToMyWatchlist || canAddAsWatched))
+    ) {
     <app-entity-card-rating-and-buttons
       [entityData]="getEntityData()"
       [recommendationText]="recommendationText"
       [recommendationBadge]="recommendationBadge"
       [showRating]="false"
       [selectedView]="selectedView"
+      [showAddToMyListActions]="showAddToMyWatchlist"
+      [canAddToMyWishlist]="canAddToMyWatchlist"
+      [canAddToMyDone]="canAddAsWatched"
       (openReview)="openReviewModal()"
       (priorityUpdated)="updateWatchPriority($event)"
       (addFromList)="addSerieFromWatchlist()"
       (addToList)="addToWatchlist.emit(serie)"
       (wantToReReadClick)="wantToReWatch.emit(serie)"
       (haveReReadClick)="haveReWatched.emit(serie)"
+      (addToMyWishlist)="addToMyWatchlist.emit(serie)"
+      (addToMyDone)="addToMyWatched.emit(serie)"
     >
+      @if (!isBaseEntityView) {
       <div entityCardRatingExtra class="serie-seasons-details">
         @for (season of getSerieSeasons(); track season.seasonNumber) {
         <div class="serie-season-row">
@@ -104,23 +114,8 @@
         </div>
         }
       </div>
+      }
     </app-entity-card-rating-and-buttons>
-    } @if (showAddToMyWatchlist && canAddToMyWatchlist) {
-    <button
-      type="button"
-      class="makya-btn-small add-to-my-watchlist-btn"
-      (click)="addToMyWatchlist.emit(serie)"
-    >
-      Je veux voir cette série
-    </button>
-    } @if (showAddToMyWatchlist && canAddAsWatched) {
-    <button
-      type="button"
-      class="makya-btn-small add-to-my-watched-btn"
-      (click)="addToMyWatched.emit(serie)"
-    >
-      Tiens, j'ai déjà vu cette série !
-    </button>
     }
   </div>
 </app-entity-card>

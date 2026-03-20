@@ -22,6 +22,12 @@
   @include components.component-rating-text-base;
 }
 
+.entity-card-my-profile-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
 .readlist-priority {
   display: flex;
   align-items: center;

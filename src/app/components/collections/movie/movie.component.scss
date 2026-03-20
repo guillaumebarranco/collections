@@ -106,8 +106,3 @@
 .movie-genre {
   @include components.component-genre-base;
 }
-
-.add-to-my-watchlist-btn,
-.add-to-my-watched-btn {
-  margin-top: 0.5rem;
-}

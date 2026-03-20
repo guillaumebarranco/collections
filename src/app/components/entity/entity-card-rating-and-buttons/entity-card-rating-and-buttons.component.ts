@@ -3,7 +3,6 @@ import {
   Component,
   computed,
   EventEmitter,
-  inject,
   Input,
   Output,
 } from '@angular/core';
@@ -14,7 +13,6 @@ import { EntityType } from '../../../models/quizz-model';
 import { StarInfo } from '../../../models/various-model';
 import { getRatingStars } from '../../../utils/constants';
 import { CanEditDirective } from '../../../directives/can-edit.directive';
-import { ActivatedRoute } from '@angular/router';
 
 /** Données communes à l’entité affichée dans la carte (note, priorité, type, etc.). */
 export interface EntityCardEntityData {
@@ -35,6 +33,10 @@ export interface EntityCardRatingLabels {
   wantToReRead: string;
   alreadyWantToReRead: string;
   haveReRead: string;
+  /** « Je veux voir/lire/jouer… » (profil d’un autre utilisateur) */
+  addToMyWishlist: string;
+  /** « Tiens, j’ai déjà vu/lu/joué… » */
+  addToMyDone: string;
 }
 @Component({
   selector: 'app-entity-card-rating-and-buttons',
@@ -55,14 +57,19 @@ export class EntityCardRatingAndButtonsComponent {
   /** Override optionnel des libellés par défaut (déduits de entityType). */
   @Input() labels: Partial<EntityCardRatingLabels> = {};
 
+  /** Afficher la paire de boutons « copier vers ma liste / déjà fait chez moi » (vue autre profil). */
+  @Input() showAddToMyListActions = false;
+  @Input() canAddToMyWishlist = false;
+  @Input() canAddToMyDone = false;
+
   @Output() openReview = new EventEmitter<void>();
   @Output() priorityUpdated = new EventEmitter<number>();
   @Output() addFromList = new EventEmitter<void>();
   @Output() addToList = new EventEmitter<void>();
   @Output() wantToReReadClick = new EventEmitter<void>();
   @Output() haveReReadClick = new EventEmitter<void>();
-
-  private readonly activatedRoute = inject(ActivatedRoute);
+  @Output() addToMyWishlist = new EventEmitter<void>();
+  @Output() addToMyDone = new EventEmitter<void>();
 
   showAddToListButton = computed(() => {
     if (this.entityData?.alreadySeenRead) {
@@ -130,6 +137,8 @@ export class EntityCardRatingAndButtonsComponent {
           wantToReRead: 'Je veux relire cette BD',
           alreadyWantToReRead: 'Déjà ajouté à vos BDs à relire',
           haveReRead: "J'ai relu cette BD",
+          addToMyWishlist: 'Je veux lire cette BD',
+          addToMyDone: "Tiens, j'ai déjà lu cette BD !",
         };
       case 'book':
         return {
@@ -140,6 +149,8 @@ export class EntityCardRatingAndButtonsComponent {
           wantToReRead: 'Je veux relire ce livre',
           alreadyWantToReRead: 'Déjà ajouté à vos livres à relire',
           haveReRead: "J'ai relu ce livre",
+          addToMyWishlist: 'Je veux lire ce livre',
+          addToMyDone: "Tiens, j'ai déjà lu ce livre !",
         };
       case 'manga':
         return {
@@ -150,6 +161,8 @@ export class EntityCardRatingAndButtonsComponent {
           wantToReRead: 'Je veux relire ce manga',
           alreadyWantToReRead: 'Déjà ajouté à vos mangas à relire',
           haveReRead: "J'ai relu ce manga",
+          addToMyWishlist: 'Je veux lire ce manga',
+          addToMyDone: "Tiens, j'ai déjà lu ce manga !",
         };
       case 'comic':
         return {
@@ -160,6 +173,8 @@ export class EntityCardRatingAndButtonsComponent {
           wantToReRead: 'Je veux relire ce comic',
           alreadyWantToReRead: 'Déjà ajouté à vos comics à relire',
           haveReRead: "J'ai relu ce comic",
+          addToMyWishlist: 'Je veux lire ce comic',
+          addToMyDone: "Tiens, j'ai déjà lu ce comic !",
         };
       case 'manwha':
         return {
@@ -170,6 +185,8 @@ export class EntityCardRatingAndButtonsComponent {
           wantToReRead: 'Je veux relire ce manwha',
           alreadyWantToReRead: 'Déjà ajouté à vos manwhas à relire',
           haveReRead: "J'ai relu ce manwha",
+          addToMyWishlist: 'Je veux lire ce manwha',
+          addToMyDone: "Tiens, j'ai déjà lu ce manwha !",
         };
       case 'movie':
         return {
@@ -180,6 +197,8 @@ export class EntityCardRatingAndButtonsComponent {
           wantToReRead: 'Je veux revoir ce film',
           alreadyWantToReRead: 'Déjà ajouté à vos films à revoir',
           haveReRead: "J'ai revu ce film",
+          addToMyWishlist: 'Je veux voir ce film',
+          addToMyDone: "Tiens, j'ai déjà vu ce film !",
         };
       case 'game':
         return {
@@ -190,6 +209,8 @@ export class EntityCardRatingAndButtonsComponent {
           wantToReRead: 'Je veux rejouer à ce jeu',
           alreadyWantToReRead: 'Déjà ajouté à vos jeux à rejouer',
           haveReRead: "J'ai rejoué à ce jeu",
+          addToMyWishlist: 'Je veux jouer à ce jeu',
+          addToMyDone: "Tiens, j'ai déjà joué à ce jeu !",
         };
       case 'serie':
         return {
@@ -200,6 +221,8 @@ export class EntityCardRatingAndButtonsComponent {
           wantToReRead: 'Je veux revoir cette série',
           alreadyWantToReRead: 'Déjà ajouté à vos séries à revoir',
           haveReRead: "J'ai revu cette série",
+          addToMyWishlist: 'Je veux voir cette série',
+          addToMyDone: "Tiens, j'ai déjà vu cette série !",
         };
       default:
         return {
@@ -210,6 +233,8 @@ export class EntityCardRatingAndButtonsComponent {
           wantToReRead: 'Je veux relire cette BD',
           alreadyWantToReRead: 'Déjà ajouté à vos BDs à relire',
           haveReRead: "J'ai relu cette BD",
+          addToMyWishlist: 'Je veux lire cette BD',
+          addToMyDone: "Tiens, j'ai déjà lu cette BD !",
         };
     }
   }
@@ -292,5 +317,35 @@ export class EntityCardRatingAndButtonsComponent {
 
   onHaveReReadClick(): void {
     this.haveReReadClick.emit();
+  }
+
+  addToMyWishlistBtnClass(): string {
+    const t = this.entityData?.entityType;
+    if (t === 'movie' || t === 'serie') {
+      return 'makya-btn-small add-to-my-watchlist-btn';
+    }
+    if (t === 'game') {
+      return 'makya-btn-small add-to-my-gamelist-btn';
+    }
+    return 'makya-btn-small add-to-my-readlist-btn';
+  }
+
+  addToMyDoneBtnClass(): string {
+    const t = this.entityData?.entityType;
+    if (t === 'movie' || t === 'serie') {
+      return 'makya-btn-small add-to-my-watched-btn';
+    }
+    if (t === 'game') {
+      return 'makya-btn-small add-to-my-played-btn';
+    }
+    return 'makya-btn-small add-to-my-read-btn';
+  }
+
+  onAddToMyWishlistClick(): void {
+    this.addToMyWishlist.emit();
+  }
+
+  onAddToMyDoneClick(): void {
+    this.addToMyDone.emit();
   }
 }

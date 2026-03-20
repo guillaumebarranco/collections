@@ -113,37 +113,30 @@
       Dernier visionnage le
       {{ movie.lastViewedDate | date : "dd/MM/yyyy" }}
     </p>
-    } @if (!isBaseEntityView) {
+    } @if (
+      !isBaseEntityView ||
+      (showAddToMyWatchlist &&
+        (canAddToMyWatchlist || canAddAsWatched))
+    ) {
     <app-entity-card-rating-and-buttons
       [entityData]="getEntityData()"
       [recommendationText]="recommendationText()"
       [recommendationBadge]="recommendationBadge"
-      [showRating]="!recommendationView()"
+      [showRating]="!isBaseEntityView && !recommendationView()"
       [selectedView]="selectedView"
-      [hideWantToReReadButton]="readOnly"
+      [hideWantToReReadButton]="readOnly || isBaseEntityView"
+      [showAddToMyListActions]="showAddToMyWatchlist"
+      [canAddToMyWishlist]="canAddToMyWatchlist"
+      [canAddToMyDone]="canAddAsWatched"
       (openReview)="openReviewModal()"
       (priorityUpdated)="updateWatchPriority($event)"
       (addFromList)="addMovieFromWatchlist()"
       (addToList)="addToWatchlist.emit(movie)"
       (wantToReReadClick)="wantToReWatch.emit(movie)"
       (haveReReadClick)="hasReWatched.emit(movie)"
+      (addToMyWishlist)="addToMyWatchlist.emit(movie)"
+      (addToMyDone)="addToMyWatched.emit(movie)"
     />
-    } @if (showAddToMyWatchlist && canAddToMyWatchlist) {
-    <button
-      type="button"
-      class="makya-btn-small add-to-my-watchlist-btn"
-      (click)="addToMyWatchlist.emit(movie)"
-    >
-      Je veux voir ce film
-    </button>
-    } @if (showAddToMyWatchlist && canAddAsWatched) {
-    <button
-      type="button"
-      class="makya-btn-small add-to-my-watched-btn"
-      (click)="addToMyWatched.emit(movie)"
-    >
-      Tiens, j'ai déjà vu ce film !
-    </button>
     } @if (isBaseEntityView) {
     <p class="movie-genre">{{ movie.genre }}</p>
     }

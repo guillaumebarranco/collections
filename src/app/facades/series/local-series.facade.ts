@@ -18,6 +18,7 @@ import { cassandreWatchListSeries } from '../../utils/users/cassandre/series/cas
 import { cassandreSeries } from '../../utils/users/cassandre/series/cassandre_series';
 import { marinaSeries } from '../../utils/users/marina/series/marina_series';
 import { marinaWatchListSeries } from '../../utils/users/marina/series/marina_watchlist_series';
+import { masterofmadnessSeries } from '../../utils/users/masterofmadness/series/masterofmadness_series';
 
 export const allBaseSeries: BaseSerie[] = [
   ...baseSeries,
@@ -42,6 +43,8 @@ export function getLocalSeriesByUser(userId: string): UserSerie[] {
       return [...cassandreSeries];
     case 'marina':
       return [...marinaSeries];
+    case 'masterofmadness':
+      return [...masterofmadnessSeries];
     default:
       return [];
   }

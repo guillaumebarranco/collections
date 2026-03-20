@@ -57,4 +57,28 @@
     {{ effectiveLabels.haveReRead }}
   </button>
   } </div>
+
+  @if (
+    showAddToMyListActions && (canAddToMyWishlist || canAddToMyDone)
+  ) {
+  <div class="entity-card-my-profile-actions">
+    @if (canAddToMyWishlist) {
+    <button
+      type="button"
+      [class]="addToMyWishlistBtnClass()"
+      (click)="onAddToMyWishlistClick()"
+    >
+      {{ effectiveLabels.addToMyWishlist }}
+    </button>
+    } @if (canAddToMyDone) {
+    <button
+      type="button"
+      [class]="addToMyDoneBtnClass()"
+      (click)="onAddToMyDoneClick()"
+    >
+      {{ effectiveLabels.addToMyDone }}
+    </button>
+    }
+  </div>
+  }
 </div>
