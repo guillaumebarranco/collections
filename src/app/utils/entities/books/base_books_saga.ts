@@ -1222,7 +1222,7 @@ export const baseBooksSaga: BaseBook[] = [
     title: 'Un palais de glace et de lumière',
     author: 'Sarah J. Maas',
     coverUrl: '/books_pictures/81dCmAMcPdL._AC_UF1000,1000_QL80_.jpg',
-    pages: 768,
+    pages: 330,
     genre: 'Fantasy',
     saga: "Un palais d'épines et de roses",
     sagaOrder: 4,

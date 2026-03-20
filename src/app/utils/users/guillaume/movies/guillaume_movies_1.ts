@@ -2095,4 +2095,19 @@ export const guillaumeMoviesPage1: UserMovies = [
     ratingComment: '',
     inList: [],
   },
+
+  {
+    title: 'Looper',
+    director: 'Rian Johnson',
+    rating: 3.75,
+    timesWatched: 1,
+    firstViewedDate: '2026-03-20',
+    lastViewedDate: '2026-03-20',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
 ];

@@ -2178,4 +2178,39 @@ export const masterofmadnessSeries: UserSerie[] = [
     wantToWatchAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: 'La Casa de Papel',
+    director: 'Álex Pina',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
 ];

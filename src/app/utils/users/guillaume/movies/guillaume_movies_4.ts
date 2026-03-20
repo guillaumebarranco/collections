@@ -747,7 +747,7 @@ export const guillaumeMoviesPage4: UserMovies = [
   {
     title: 'Voyage au Centre de la Terre',
     director: 'Eric Brevig',
-    rating: 3.5,
+    rating: 3.75,
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '2025-01-11',

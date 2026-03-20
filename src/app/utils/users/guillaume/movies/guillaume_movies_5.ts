@@ -187,7 +187,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     title: 'Iznogoud',
     director: 'Patrick Braoudé',
     rating: 3,
-    timesWatched: 1,
+    timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
