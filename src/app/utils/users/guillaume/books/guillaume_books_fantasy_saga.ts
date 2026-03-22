@@ -266,7 +266,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     author: 'Sophie Audouin-Mamikonian',
     firstReadDate: '2012-08-06',
     lastReadDate: '2012-08-06',
-    rating: 4,
+    rating: 4.25,
     readTimes: 5,
     owned: true,
     readPriority: 1,
