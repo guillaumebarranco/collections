@@ -3719,7 +3719,7 @@ export const ronanCinemaMovies: UserMovies = [
     rating: 4, // Guardians of the Galaxy (2014) ★★★★
     timesWatched: 10,
     firstViewedDate: '2014-08-01',
-    lastViewedDate: '',
+    lastViewedDate: '2026-03-19',
     seenAtCinema: true,
     owned: true,
     wantToSeeAgain: false,

@@ -825,4 +825,18 @@ export const baseBooksApi: BaseBook[] = [
     description: '',
     countryOrigin: '',
   },
+
+  {
+    title: 'Le Monde de Narnia (Tome 5) L\'Odyssée du Passeur d\'Aurore',
+    author: 'C. S. Lewis',
+    coverUrl: 'https://blfstore.com/cdn/shop/products/I-Grande-12339-le-monde-de-narnia-5-l-odyssee-du-passeur-d-aurore.net_487x700.jpg?v=1640039456',
+    pages: 272,
+    genre: 'Fantasy',
+    saga: 'Le Monde de Narnia',
+    sagaOrder: 5,
+    sagaFinished: true,
+    releaseDate: '1952-09-15',
+    description: '',
+    countryOrigin: 'Royaume-Uni',
+  },
 ];

@@ -691,9 +691,9 @@ export const baseMoviesApi: BaseMovie[] = [
       },
       {
         name: 'Pedro Pascal',
-      },
+      }
     ],
-    coverUrl: 'https://www.watervillecreates.org/wp-content/uploads/2025/07/materialists-poster.webp',
+    coverUrl: 'https://fr.web.img2.acsta.net/img/df/35/df353573cdf824b7cc00044ba6c9206d.jpg',
     releaseDate: '2025-07-02',
     length: 127,
     genre: 'Comédie romantique',
@@ -725,5 +725,38 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: 'France',
+  },
+
+  {
+    title: 'Peaky Blinders : L\'Immortel',
+    director: 'Tom Harper',
+    actors: [
+      {
+        name: 'Cillian Murphy',
+      },
+      {
+        name: 'Barry Keoghan',
+      },
+      {
+        name: 'Rebecca Ferguson',
+      },
+      {
+        name: 'Tim Roth',
+      },
+      {
+        name: 'Stephen Graham',
+      },
+      {
+        name: 'Sophie Rundle',
+      },
+    ],
+    coverUrl: 'https://m.media-amazon.com/images/M/MV5BNTdlNTNjNjctYTg2MC00NTFlLTliNTctODFiZjZmNWRkYTVlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2026-03-20',
+    length: 112,
+    genre: 'Drame',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Royaume-Uni',
   },
 ];

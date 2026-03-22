@@ -1277,4 +1277,18 @@ export const ronanBooks: UserBooks = [
     ratingComment: '',
     borrowed: false,
   },
+
+  {
+    title: 'Le Monde de Narnia (Tome 5) L\'Odyssée du Passeur d\'Aurore',
+    author: 'C. S. Lewis',
+    firstReadDate: '2026-03-20',
+    lastReadDate: '2026-03-20',
+    rating: 3,
+    readTimes: 1,
+    owned: true,
+    borrowed: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
 ];
