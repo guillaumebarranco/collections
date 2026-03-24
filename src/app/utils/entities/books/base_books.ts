@@ -2061,7 +2061,7 @@ export const baseBooks: BaseBook[] = [
     title: 'Fandom tome 1',
     author: 'Ana Day',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/1130/full/fandom-tome-1-1129737.jpg',
+      '/books_pictures/528df245f5ae.jpg',
     pages: 400,
     genre: 'Fantasy',
     saga: 'Fandom',

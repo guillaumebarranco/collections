@@ -14,7 +14,7 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: 'La Serpe d\'or',
+    title: "La Serpe d'or",
     writer: 'René Goscinny',
     readDate: '',
     rating: 0,
@@ -50,7 +50,7 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: 'Le Tour de Gaule d\'Astérix',
+    title: "Le Tour de Gaule d'Astérix",
     writer: 'René Goscinny',
     readDate: '',
     rating: 0,
@@ -302,7 +302,7 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: 'L\'Odyssée d\'Astérix',
+    title: "L'Odyssée d'Astérix",
     writer: 'René Goscinny',
     readDate: '',
     rating: 0,
@@ -314,7 +314,7 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: 'Le Fils d\'Astérix',
+    title: "Le Fils d'Astérix",
     writer: 'René Goscinny',
     readDate: '',
     rating: 0,
@@ -350,7 +350,7 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: 'La Galère d\'Obélix',
+    title: "La Galère d'Obélix",
     writer: 'René Goscinny',
     readDate: '',
     rating: 0,
@@ -398,7 +398,7 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: 'L\'Anniversaire d\'Astérix et Obélix - Le Livre d\'or',
+    title: "L'Anniversaire d'Astérix et Obélix - Le Livre d'or",
     writer: 'René Goscinny',
     readDate: '',
     rating: 0,
@@ -5306,7 +5306,7 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: 'Boules et Bill - 1',
+    title: 'Boule et Bill - 1',
     writer: 'Jean Roba',
     readDate: '',
     rating: 0,
@@ -5318,7 +5318,7 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: 'Boules et Bill - 2',
+    title: 'Boule et Bill - 2',
     writer: 'Jean Roba',
     readDate: '',
     rating: 0,
@@ -5330,7 +5330,7 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: 'Boules et Bill - 3',
+    title: 'Boule et Bill - 3',
     writer: 'Jean Roba',
     readDate: '',
     rating: 0,
@@ -5342,7 +5342,7 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: 'Boules et Bill - 4',
+    title: 'Boule et Bill - 4',
     writer: 'Jean Roba',
     readDate: '',
     rating: 0,
@@ -5354,7 +5354,7 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: 'Boules et Bill - 5',
+    title: 'Boule et Bill - 5',
     writer: 'Jean Roba',
     readDate: '',
     rating: 0,
@@ -5366,7 +5366,7 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: 'Boules et Bill - 6',
+    title: 'Boule et Bill - 6',
     writer: 'Jean Roba',
     readDate: '',
     rating: 0,
@@ -5378,7 +5378,7 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: 'Boules et Bill - 7',
+    title: 'Boule et Bill - 7',
     writer: 'Jean Roba',
     readDate: '',
     rating: 0,
@@ -5390,7 +5390,7 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: 'Boules et Bill - 8',
+    title: 'Boule et Bill - 8',
     writer: 'Jean Roba',
     readDate: '',
     rating: 0,
@@ -5402,7 +5402,7 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: 'Boules et Bill - 9',
+    title: 'Boule et Bill - 9',
     writer: 'Jean Roba',
     readDate: '',
     rating: 0,
@@ -5414,7 +5414,7 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: 'Boules et Bill - 10',
+    title: 'Boule et Bill - 10',
     writer: 'Jean Roba',
     readDate: '',
     rating: 0,
@@ -5426,7 +5426,7 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: 'Boules et Bill - 11',
+    title: 'Boule et Bill - 11',
     writer: 'Jean Roba',
     readDate: '',
     rating: 0,
@@ -5438,7 +5438,7 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: 'Boules et Bill - 12',
+    title: 'Boule et Bill - 12',
     writer: 'Jean Roba',
     readDate: '',
     rating: 0,
@@ -5450,7 +5450,7 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: 'Boules et Bill - 13',
+    title: 'Boule et Bill - 13',
     writer: 'Jean Roba',
     readDate: '',
     rating: 0,
@@ -5462,7 +5462,7 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: 'Boules et Bill - 14',
+    title: 'Boule et Bill - 14',
     writer: 'Jean Roba',
     readDate: '',
     rating: 0,
@@ -5474,7 +5474,7 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: 'Boules et Bill - 15',
+    title: 'Boule et Bill - 15',
     writer: 'Jean Roba',
     readDate: '',
     rating: 0,
@@ -5486,7 +5486,7 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: 'Boules et Bill - 16',
+    title: 'Boule et Bill - 16',
     writer: 'Jean Roba',
     readDate: '',
     rating: 0,
@@ -5498,7 +5498,7 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: 'Boules et Bill - 17',
+    title: 'Boule et Bill - 17',
     writer: 'Jean Roba',
     readDate: '',
     rating: 0,
@@ -5510,7 +5510,7 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: 'Boules et Bill - 18',
+    title: 'Boule et Bill - 18',
     writer: 'Jean Roba',
     readDate: '',
     rating: 0,
@@ -5522,7 +5522,7 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: 'Boules et Bill - 19',
+    title: 'Boule et Bill - 19',
     writer: 'Jean Roba',
     readDate: '',
     rating: 0,
@@ -5534,7 +5534,7 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: 'Boules et Bill - 20',
+    title: 'Boule et Bill - 20',
     writer: 'Jean Roba',
     readDate: '',
     rating: 0,
@@ -6227,5 +6227,5 @@ export const dantesBds: UserBd[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-  }
+  },
 ];
