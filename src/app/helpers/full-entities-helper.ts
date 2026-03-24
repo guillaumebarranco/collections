@@ -13,8 +13,6 @@ export const getFullBd = (bd: BaseBd): Bd => ({
   coverUrl: bd.coverUrl,
   pages: bd.pages,
   genre: bd.genre,
-  nbTomes: bd.nbTomes,
-  isFinished: bd.isFinished,
   designer: bd.designer,
   rating: 0,
   readDate: '',
@@ -24,6 +22,8 @@ export const getFullBd = (bd: BaseBd): Bd => ({
   wantToReadAgain: false,
   description: bd.description ?? '',
   ratingComment: '',
+  saga: bd.saga ?? '',
+  sagaOrder: bd.sagaOrder ?? 0,
 });
 
 export const getFullComic = (comic: BaseComic): Comic => ({
@@ -41,6 +41,8 @@ export const getFullComic = (comic: BaseComic): Comic => ({
   wantToReadAgain: false,
   description: comic.description ?? '',
   ratingComment: '',
+  saga: comic.saga ?? '',
+  sagaOrder: comic.sagaOrder ?? 0,
 });
 
 export const getFullBook = (book: BaseBook): Book => ({

@@ -34,6 +34,8 @@ type EditComicForm = {
 type EditComicEntityForm = {
   pages: number;
   genre: string;
+  saga: string;
+  sagaOrder: number;
   writer: string;
   coverUrl: string;
   description: string;
@@ -168,7 +170,13 @@ export class EditComicComponent {
     const current = this.comicEntityForm();
     if (!current) return;
     let nextValue: EditComicEntityForm[K] = value as EditComicEntityForm[K];
-    if (field !== 'genre' && field !== 'writer' && field !== 'coverUrl') {
+    if (
+      field !== 'genre' &&
+      field !== 'writer' &&
+      field !== 'coverUrl' &&
+      field !== 'description' &&
+      field !== 'saga'
+    ) {
       const asNumber = Number(value);
       nextValue = (
         Number.isNaN(asNumber) ? 0 : asNumber
@@ -426,6 +434,8 @@ export class EditComicComponent {
     return {
       pages: comic.pages || 0,
       genre: comic.genre || '',
+      saga: comic.saga || '',
+      sagaOrder: comic.sagaOrder || 0,
       writer: comic.writer || '',
       coverUrl: comic.coverUrl || '',
       description: comic.description ?? '',
@@ -437,6 +447,8 @@ export class EditComicComponent {
     return {
       pages: form.pages,
       genre: form.genre,
+      saga: form.saga,
+      sagaOrder: form.sagaOrder,
       writer: form.writer,
       coverUrl: form.coverUrl,
       description: form.description ?? '',

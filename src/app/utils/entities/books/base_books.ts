@@ -1816,7 +1816,7 @@ export const baseBooks: BaseBook[] = [
     title: 'Peter Pan',
     author: 'Simon Rousseau',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/967/les_contes_interdits_peter_pan-967147-264-432.webp',
+      '/books_pictures/0797da472eb0.webp',
     pages: 192,
     genre: 'Jeunesse',
     saga: '',
@@ -2225,7 +2225,7 @@ export const baseBooks: BaseBook[] = [
     title: 'Aurore',
     author: 'Erin Hunter',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/812/full/la-guerre-des-clans-la-derniere-prophetie-tome-3-aurore-812496.jpg',
+      '/books_pictures/d66fbc559361.jpg',
     pages: 320,
     genre: 'Jeunesse',
     saga: 'La guerre des clans',

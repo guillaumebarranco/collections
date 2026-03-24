@@ -1792,6 +1792,55 @@ export const baseSeries: BaseSerie[] = [
     countryOrigin: 'États-Unis',
   },
   {
+    title: "La vie secrète d'un ado ordinaire",
+    director: 'Brenda Hampton',
+    actors: [
+      {
+        name: 'Shailene Woodley',
+      },
+      {
+        name: 'Ken Baumann',
+      },
+      {
+        name: 'India Eisley',
+      },
+    ],
+    coverUrl: '/series_pictures/jYptmMaOCUBC71whlqJFxwe2K1k.webp',
+    releaseDate: '2008-07-01',
+    endDate: '2013-06-03',
+    genre: 'Drama, Romance',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 23,
+        totalLength: 990,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 24,
+        totalLength: 1040,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 26,
+        totalLength: 1124,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 24,
+        totalLength: 1040,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 24,
+        totalLength: 1040,
+      },
+    ],
+    description: '',
+    saga: '',
+    countryOrigin: 'États-Unis',
+  },
+  {
     title: 'Le Jeu de la Dame',
     director: 'Scott Frank',
     actors: [
@@ -2662,6 +2711,45 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 11,
         nbEpisodes: 12,
         totalLength: 720,
+      },
+    ],
+    description: '',
+    saga: '',
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Siren',
+    director: 'Eric Wald, Dean White',
+    actors: [
+      {
+        name: 'Alex Roe',
+      },
+      {
+        name: 'Eline Powell',
+      },
+      {
+        name: 'Fola Evans-Akingbola',
+      },
+    ],
+    coverUrl: '/series_pictures/1008746.jpg',
+    releaseDate: '2018-03-29',
+    endDate: '2020-05-28',
+    genre: 'Drama, Fantasy, Thriller',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 10,
+        totalLength: 420,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 16,
+        totalLength: 672,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 10,
+        totalLength: 420,
       },
     ],
     description: '',

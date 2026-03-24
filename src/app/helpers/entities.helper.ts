@@ -29,14 +29,14 @@ export const getBdDataFromUserBdAndBaseBd = (
   coverUrl: baseBd?.coverUrl || '',
   pages: baseBd?.pages || 0,
   genre: baseBd?.genre || '',
-  nbTomes: baseBd?.nbTomes || 0,
-  isFinished: baseBd?.isFinished || false,
   designer: baseBd?.designer || '',
   owned: userBd.owned,
   readPriority: userBd.readPriority,
   wantToReadAgain: userBd.wantToReadAgain,
   description: baseBd?.description ?? '',
   ratingComment: userBd.ratingComment ?? '',
+  saga: baseBd?.saga ?? '',
+  sagaOrder: baseBd?.sagaOrder ?? 0,
 });
 
 export const getBookDataFromUserBookAndBaseBook = (
@@ -83,6 +83,8 @@ export const getComicDataFromUserComicAndBaseComic = (
   wantToReadAgain: userComic.wantToReadAgain,
   description: baseComic?.description ?? '',
   ratingComment: userComic.ratingComment ?? '',
+  saga: baseComic?.saga ?? '',
+  sagaOrder: baseComic?.sagaOrder ?? 0,
 });
 
 /**

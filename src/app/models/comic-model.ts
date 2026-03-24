@@ -9,12 +9,14 @@ export interface BaseComic extends MandatoryComicData {
   genre: string;
   designer: string;
   description: string;
+  saga?: string;
+  sagaOrder?: number;
 }
 
 export interface UserComic extends MandatoryComicData {
   readDate: string;
   rating: number;
-  readTimes?: number;
+  readTimes: number;
   owned: boolean;
   readPriority: 1 | 2 | 3;
   wantToReadAgain: boolean;

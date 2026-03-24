@@ -15,8 +15,10 @@ export const bdsSortOptions: { value: string; label: string }[] = [
   { value: 'rating-asc', label: 'Note (faible)' },
   { value: 'readTimes', label: 'Relectures (élevé)' },
   { value: 'readTimes-asc', label: 'Relectures (faible)' },
-  { value: 'nbTomes', label: 'Nombre de tomes (élevé)' },
-  { value: 'nbTomes-asc', label: 'Nombre de tomes (faible)' },
+  { value: 'saga', label: 'Saga (A-Z)' },
+  { value: 'saga-desc', label: 'Saga (Z-A)' },
+  { value: 'sagaOrder', label: 'Ordre dans la saga (élevé)' },
+  { value: 'sagaOrder-asc', label: 'Ordre dans la saga (faible)' },
   { value: 'genre', label: 'Genre (A-Z)' },
   { value: 'genre-desc', label: 'Genre (Z-A)' },
   { value: 'readPriority', label: 'Priorité (élevée)' },
@@ -32,7 +34,13 @@ export const bdViewOptions: { value: BdView; label: string }[] = [
 ];
 
 export const getSortedBds = (bds: Bd[], selectedSort: string): Bd[] => {
-  switch (selectedSort) {
+  const sortKey =
+    selectedSort === 'nbTomes'
+      ? 'sagaOrder'
+      : selectedSort === 'nbTomes-asc'
+        ? 'sagaOrder-asc'
+        : selectedSort;
+  switch (sortKey) {
     case 'title':
       return bds.sort((a, b) => a.title.localeCompare(b.title));
     case 'title-desc':
@@ -77,10 +85,30 @@ export const getSortedBds = (bds: Bd[], selectedSort: string): Bd[] => {
       return bds.sort((a, b) => (b.readTimes || 0) - (a.readTimes || 0));
     case 'readTimes-asc':
       return bds.sort((a, b) => (a.readTimes || 0) - (b.readTimes || 0));
-    case 'nbTomes':
-      return bds.sort((a, b) => (b.nbTomes || 0) - (a.nbTomes || 0));
-    case 'nbTomes-asc':
-      return bds.sort((a, b) => (a.nbTomes || 0) - (b.nbTomes || 0));
+    case 'saga':
+      return bds.sort((a, b) =>
+        (a.saga || '').localeCompare(b.saga || '', undefined, {
+          sensitivity: 'base',
+        })
+      );
+    case 'saga-desc':
+      return bds.sort((a, b) =>
+        (b.saga || '').localeCompare(a.saga || '', undefined, {
+          sensitivity: 'base',
+        })
+      );
+    case 'sagaOrder':
+      return bds.sort((a, b) => {
+        const diff = (b.sagaOrder || 0) - (a.sagaOrder || 0);
+        if (diff !== 0) return diff;
+        return a.title.localeCompare(b.title);
+      });
+    case 'sagaOrder-asc':
+      return bds.sort((a, b) => {
+        const diff = (a.sagaOrder || 0) - (b.sagaOrder || 0);
+        if (diff !== 0) return diff;
+        return a.title.localeCompare(b.title);
+      });
     case 'genre':
       return bds.sort((a, b) => a.genre.localeCompare(b.genre));
     case 'genre-desc':

@@ -773,7 +773,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Bovary',
     author: 'Tiago Rodrigues',
-    coverUrl: 'https://static.fnac-static.com/multimedia/PE/Images/FR/NR/32/a7/ce/13543218/1540-1/tsp20260107072938/Bovary.jpg',
+    coverUrl: '/books_pictures/2855a1e4dff2.jpg',
     pages: 192,
     genre: 'Théâtre',
     saga: '',
@@ -787,7 +787,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Minerai noir',
     author: 'René Depestre',
-    coverUrl: 'https://static.fnac-static.com/multimedia/PE/Images/FR/NR/fc/bb/a1/10599420/1540-1/tsp20250428080356/Minerai-noir-Anthologie-personnelle.jpg',
+    coverUrl: '/books_pictures/3a503fe71522.jpg',
     pages: 192,
     genre: '',
     saga: '',
@@ -801,7 +801,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'La Prise d\'Orange',
     author: 'Anonyme',
-    coverUrl: 'https://www.honorechampion.com/products/25994-large/book-08532068.jpg',
+    coverUrl: '/books_pictures/4afc26b17e4d.jpg',
     pages: 304,
     genre: '',
     saga: '',
@@ -815,7 +815,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Le Roman de Merlin en prose',
     author: 'Anonyme',
-    coverUrl: 'https://static.fnac-static.com/multimedia/PE/Images/FR/NR/ca/c9/56/5687754/1507-1/tsp20250325084749/Le-Roman-de-Merlin-en-prose-bilingue.jpg',
+    coverUrl: '/books_pictures/6ac8a9556403.jpg',
     pages: 496,
     genre: '',
     saga: '',
@@ -829,7 +829,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Le Monde de Narnia (Tome 5) L\'Odyssée du Passeur d\'Aurore',
     author: 'C. S. Lewis',
-    coverUrl: 'https://blfstore.com/cdn/shop/products/I-Grande-12339-le-monde-de-narnia-5-l-odyssee-du-passeur-d-aurore.net_487x700.jpg?v=1640039456',
+    coverUrl: '/books_pictures/fa70fb199a78.jpg',
     pages: 272,
     genre: 'Fantasy',
     saga: 'Le Monde de Narnia',

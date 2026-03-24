@@ -575,6 +575,7 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Dave Bautista',
       },
+      { name: 'Djimon Hounsou' },
     ],
     coverUrl:
       '/movies_pictures/93676-guardians-of-the-galaxy-0-150-0-225-crop.jpg',

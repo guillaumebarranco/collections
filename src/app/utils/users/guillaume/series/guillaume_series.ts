@@ -2931,4 +2931,44 @@ export const guillaumeSeries: UserSeries = [
     wantToWatchAgain: false,
     ratingComment: '',
   },
+  {
+    title: "La vie secrète d'un ado ordinaire",
+    director: 'Brenda Hampton',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 3.5,
+        seasonTimesWatched: 3,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 3.25,
+        seasonTimesWatched: 2,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 3.25,
+        seasonTimesWatched: 2,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 3,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+  },
 ];

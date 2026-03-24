@@ -780,7 +780,13 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Never Back Down',
     director: 'Jeff Wadlow',
-    actors: [{ name: 'Sean Faris' }],
+    actors: [
+      { name: 'Sean Faris' },
+      { name: 'Djimon Hounsou' },
+      {
+        name: 'Amber Heard',
+      },
+    ],
     coverUrl: '/movies_pictures/47713-never-back-down-0-150-0-225-crop.jpg',
     releaseDate: '2008-03-14',
     length: 113,

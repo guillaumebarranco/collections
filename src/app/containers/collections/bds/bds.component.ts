@@ -29,9 +29,7 @@ import {
   getSortedBds,
 } from './bds.utils';
 import {
-  PAGES_PER_MANGA_TOME,
   getEstimatedBdReadingTime,
-  getTotalTomesBdRead,
   getTotalBdPages,
 } from '../../../utils/stats.utils';
 import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
@@ -204,30 +202,23 @@ export class BdsComponent implements OnInit {
   );
 
   stats = computed<StatItem[]>(() => {
-    const totalTomes = this.calculateTotalTomes();
-    const totalPages = this.calculateTotalPages();
-    const totalTomesRead = getTotalTomesBdRead(this.filteredBds());
+    const albumCount = this.filteredBds().length;
+    const totalPages = this.calculateTotalPagesOnce();
     const totalPagesRead = getTotalBdPages(this.filteredBds());
     const estimatedReadingTime = getEstimatedBdReadingTime(this.filteredBds());
 
     return [
       {
-        label: 'Total des tomes',
-        value: `${totalTomes.toLocaleString()} tomes`,
+        label: "Nombre d'albums",
+        value: `${albumCount.toLocaleString()}`,
         icon: '📚',
         color: StatItemColor.SUCCESS,
       },
       {
-        label: 'Total des pages',
+        label: 'Total des pages (albums)',
         value: `${totalPages.toLocaleString()} pages`,
         icon: '📖',
         color: StatItemColor.INFO,
-      },
-      {
-        label: 'Total des tomes lus (avec relectures)',
-        value: `${totalTomesRead.toLocaleString()} tomes`,
-        icon: '📚',
-        color: StatItemColor.SUCCESS,
       },
       {
         label: 'Total des pages lues (avec relectures)',
@@ -292,11 +283,16 @@ export class BdsComponent implements OnInit {
     if (parsed.view && ['read', 'readlist', 'owned'].includes(parsed.view)) {
       this.selectedView.set(parsed.view);
     }
-    if (
-      parsed.sort &&
-      this.sortOptions().some((opt) => opt.value === parsed.sort)
-    ) {
-      this.selectedSort.set(parsed.sort);
+    if (parsed.sort) {
+      const legacy =
+        parsed.sort === 'nbTomes'
+          ? 'sagaOrder'
+          : parsed.sort === 'nbTomes-asc'
+            ? 'sagaOrder-asc'
+            : parsed.sort;
+      if (this.sortOptions().some((opt) => opt.value === legacy)) {
+        this.selectedSort.set(legacy);
+      }
     }
     this.isLoadingPreferences = false;
   }
@@ -323,7 +319,7 @@ export class BdsComponent implements OnInit {
   }
 
   private matchesSearch(bd: Bd, term: string): boolean {
-    const haystack = [bd.title, bd.writer, bd.designer, bd.genre]
+    const haystack = [bd.title, bd.writer, bd.designer, bd.genre, bd.saga]
       .filter(Boolean)
       .join(' ');
 
@@ -332,21 +328,11 @@ export class BdsComponent implements OnInit {
     return normalizedHaystack.includes(normalizedTerm);
   }
 
-  private calculateTotalTomes(): number {
+  private calculateTotalPagesOnce(): number {
     let total = 0;
     for (const bd of this.filteredBds()) {
-      if (bd.nbTomes) {
-        total += bd.nbTomes;
-      }
-    }
-    return total;
-  }
-
-  private calculateTotalPages(): number {
-    let total = 0;
-    for (const bd of this.filteredBds()) {
-      if (bd.nbTomes) {
-        total += bd.nbTomes * PAGES_PER_MANGA_TOME;
+      if (bd.pages) {
+        total += bd.pages;
       }
     }
     return total;

@@ -53,12 +53,9 @@
     <p class="bd-description">{{ bd.description }}</p>
     } @if (bd.pages) {
     <p class="book-pages">{{ bd.pages }} pages</p>
-    } @if (bd.nbTomes) {
-    <p>
-      <span class="book-pages">{{ bd.nbTomes }} tomes</span>
-      @if(!bd.isFinished) {
-      <span class="book-pages"> (En cours)</span>
-      }
+    } @if (bd.saga) {
+    <p class="book-pages">
+      Saga : {{ bd.saga }}@if (bd.sagaOrder) { (n°{{ bd.sagaOrder }})}
     </p>
     } @if (bd.readDate.includes('-') && !isBaseEntityView) {
     <p class="book-read-times">Lu le {{ bd.readDate | date : "dd/MM/yyyy" }}</p>

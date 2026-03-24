@@ -3010,5 +3010,19 @@ export const guillaumeWatchlistMovies: UserMovies = [
     watchPriority: 2,
     ratingComment: '',
     inList: [],
-  }
+  },
+  {
+    title: 'Jane Austen a gâché ma vie',
+    director: 'Laura Piani',
+    rating: 0,
+    timesWatched: 0,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
 ];

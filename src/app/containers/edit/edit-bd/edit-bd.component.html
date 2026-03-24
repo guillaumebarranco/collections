@@ -27,10 +27,12 @@
       <p><strong>Writer :</strong> {{ bd()?.writer }}</p>
       } @if (bd()?.genre) {
       <p><strong>Genre :</strong> {{ bd()?.genre }}</p>
-      } @if (bd()?.nbTomes) {
-      <p><strong>Nombre de tomes :</strong> {{ bd()?.nbTomes }}</p>
-      } @if (bd()?.isFinished === false) {
-      <p><strong>Série :</strong> En cours</p>
+      } @if (bd()?.saga) {
+      <p>
+        <strong>Saga :</strong> {{ bd()?.saga }} @if (bd()?.sagaOrder) {
+        <span>(n°{{ bd()?.sagaOrder }})</span>
+        }
+      </p>
       } @if (bd()?.description) {
       <p><strong>Description :</strong> {{ bd()?.description }}</p>
       }
@@ -191,27 +193,25 @@
     </div>
 
     <div class="form-row">
-      <label for="entityNbTomes">Nombre de tomes</label>
+      <label for="entitySaga">Saga</label>
       <input
-        id="entityNbTomes"
-        type="number"
-        min="0"
-        [ngModel]="bdEntityForm()?.nbTomes"
-        (ngModelChange)="updateEntityField('nbTomes', $event)"
-        name="entityNbTomes"
+        id="entitySaga"
+        type="text"
+        [ngModel]="bdEntityForm()?.saga"
+        (ngModelChange)="updateEntityField('saga', $event)"
+        name="entitySaga"
       />
     </div>
 
-    <div class="form-row checkbox-row">
-      <label for="entityIsFinished">Série terminée</label>
+    <div class="form-row">
+      <label for="entitySagaOrder">Ordre dans la saga</label>
       <input
-        id="entityIsFinished"
-        type="checkbox"
-        [checked]="bdEntityForm()?.isFinished"
-        (change)="
-          updateEntityCheckbox('isFinished', $any($event).target.checked)
-        "
-        name="entityIsFinished"
+        id="entitySagaOrder"
+        type="number"
+        min="0"
+        [ngModel]="bdEntityForm()?.sagaOrder"
+        (ngModelChange)="updateEntityField('sagaOrder', $event)"
+        name="entitySagaOrder"
       />
     </div>
 

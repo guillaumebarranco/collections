@@ -5,18 +5,18 @@ export interface MandatoryBdData {
 
 export interface BaseBd extends MandatoryBdData {
   coverUrl: string;
-  pages?: number;
+  pages: number;
   genre: string;
-  nbTomes?: number;
-  isFinished?: boolean;
   designer: string;
   description: string;
+  saga?: string;
+  sagaOrder?: number;
 }
 
 export interface UserBd extends MandatoryBdData {
   readDate: string;
   rating: number;
-  readTimes?: number;
+  readTimes: number;
   owned: boolean;
   readPriority: 1 | 2 | 3;
   wantToReadAgain: boolean;

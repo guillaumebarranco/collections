@@ -1599,4 +1599,27 @@ export const baseMoviesLove: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
+  {
+    title: 'Jane Austen a gâché ma vie',
+    director: 'Laura Piani',
+    actors: [
+      {
+        name: 'Camille Rutherford',
+      },
+      {
+        name: 'Pablo Pauly',
+      },
+      {
+        name: 'Charlie Anson',
+      },
+    ],
+    coverUrl: '/movies_pictures/jane-austen-a-gache-ma-vie.jpg',
+    releaseDate: '2025-01-22',
+    length: 98,
+    genre: 'Comedy, Romance',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'France',
+  },
 ];

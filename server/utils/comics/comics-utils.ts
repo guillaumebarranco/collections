@@ -183,8 +183,8 @@ function parseBaseComicsFullFromFile(content: string): any[] {
           coverUrl: parseStringField(objectText, 'coverUrl') || '',
           pages: parseNumberField(objectText, 'pages') ?? 0,
           genre: parseStringField(objectText, 'genre') || '',
-          nbTomes: parseNumberField(objectText, 'nbTomes') ?? 0,
-          isFinished: parseBooleanField(objectText, 'isFinished') ?? false,
+          saga: parseStringField(objectText, 'saga') || '',
+          sagaOrder: parseNumberField(objectText, 'sagaOrder') ?? 0,
           description: parseStringField(objectText, 'description') || '',
         });
       }
@@ -382,8 +382,8 @@ function updateBaseComicInFile(filePath: string, comicData: any): boolean {
     coverUrl: '${escapeString(comic.coverUrl || '')}',
     pages: ${comic.pages ?? 0},
     genre: '${escapeString(comic.genre || '')}',
-    nbTomes: ${comic.nbTomes ?? 0},
-    isFinished: ${comic.isFinished ?? false},
+    saga: '${escapeString(comic.saga || '')}',
+    sagaOrder: ${comic.sagaOrder ?? 0},
     description: '${escapeString(comic.description || '')}',
   }`
     )

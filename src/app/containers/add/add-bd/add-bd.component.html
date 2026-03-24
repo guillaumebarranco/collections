@@ -67,25 +67,25 @@
       </div>
 
       <div class="form-row">
-        <label for="nbTomes">Nombre de tomes</label>
+        <label for="saga">Saga</label>
         <input
-          id="nbTomes"
-          type="number"
-          min="0"
-          [ngModel]="entityForm().nbTomes"
-          (ngModelChange)="updateEntityField('nbTomes', $event)"
-          name="nbTomes"
+          id="saga"
+          type="text"
+          [ngModel]="entityForm().saga"
+          (ngModelChange)="updateEntityField('saga', $event)"
+          name="saga"
         />
       </div>
 
-      <div class="form-row checkbox-row">
-        <label for="isFinished">Série terminée</label>
+      <div class="form-row">
+        <label for="sagaOrder">Ordre dans la saga</label>
         <input
-          id="isFinished"
-          type="checkbox"
-          [checked]="entityForm().isFinished"
-          (change)="updateCheckbox('isFinished', $any($event).target.checked)"
-          name="isFinished"
+          id="sagaOrder"
+          type="number"
+          min="0"
+          [ngModel]="entityForm().sagaOrder"
+          (ngModelChange)="updateEntityField('sagaOrder', $event)"
+          name="sagaOrder"
         />
       </div>
     </section>

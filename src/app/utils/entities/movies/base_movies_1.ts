@@ -149,6 +149,7 @@ export const baseMoviesPage1: BaseMovie[] = [
       {
         name: 'Archie Madekwe',
       },
+      { name: 'Djimon Hounsou' },
     ],
     coverUrl: '/movies_pictures/882718-gran-turismo-0-150-0-225-crop.jpg',
     releaseDate: '2023-08-25',
@@ -709,7 +710,11 @@ export const baseMoviesPage1: BaseMovie[] = [
   {
     title: 'Gladiator',
     director: 'Ridley Scott',
-    actors: [{ name: 'Russell Crowe' }],
+    actors: [
+      { name: 'Russell Crowe' },
+      { name: 'Djimon Hounsou' },
+      { name: 'Joaquin Phoenix' },
+    ],
     coverUrl: '/movies_pictures/51952-gladiator-2000-0-150-0-225-crop.jpg',
     releaseDate: '2000-05-05',
     length: 155,

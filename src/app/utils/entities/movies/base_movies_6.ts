@@ -1231,7 +1231,11 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'The Island',
     director: 'Michael Bay',
-    actors: [{ name: 'Scarlett Johansson' }, { name: 'Ewan McGregor' }],
+    actors: [
+      { name: 'Scarlett Johansson' },
+      { name: 'Ewan McGregor' },
+      { name: 'Djimon Hounsou' },
+    ],
     coverUrl: '/movies_pictures/71ugYlYCs0L._AC_UF894,1000_QL80_.jpg',
     releaseDate: '2005-07-22',
     length: 136,

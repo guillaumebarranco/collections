@@ -6709,6 +6709,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       {
         name: 'Sienna Guillory',
       },
+      { name: 'Djimon Hounsou' },
     ],
     coverUrl: '/movies_pictures/eragon.jpg',
     releaseDate: '2006-12-20',

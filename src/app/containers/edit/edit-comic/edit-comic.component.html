@@ -27,6 +27,12 @@
       <p><strong>Writer :</strong> {{ comic()?.writer }}</p>
       } @if (comic()?.genre) {
       <p><strong>Genre :</strong> {{ comic()?.genre }}</p>
+      } @if (comic()?.saga) {
+      <p>
+        <strong>Saga :</strong> {{ comic()?.saga }} @if (comic()?.sagaOrder) {
+        <span>(n°{{ comic()?.sagaOrder }})</span>
+        }
+      </p>
       } @if (comic()?.description) {
       <p><strong>Description :</strong> {{ comic()?.description }}</p>
       }
@@ -188,6 +194,29 @@
         [ngModel]="comicEntityForm()?.genre"
         (ngModelChange)="updateEntityField('genre', $event)"
         name="entityGenre"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entitySaga">Saga</label>
+      <input
+        id="entitySaga"
+        type="text"
+        [ngModel]="comicEntityForm()?.saga"
+        (ngModelChange)="updateEntityField('saga', $event)"
+        name="entitySaga"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entitySagaOrder">Ordre dans la saga</label>
+      <input
+        id="entitySagaOrder"
+        type="number"
+        min="0"
+        [ngModel]="comicEntityForm()?.sagaOrder"
+        (ngModelChange)="updateEntityField('sagaOrder', $event)"
+        name="entitySagaOrder"
       />
     </div>
 

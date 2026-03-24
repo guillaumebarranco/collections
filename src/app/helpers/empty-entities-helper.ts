@@ -51,10 +51,13 @@ export const getEmptyComic = (comic: BaseComic): Comic => ({
   owned: false,
   readDate: '',
   rating: 0,
+  readTimes: 0,
   readPriority: 1,
   wantToReadAgain: false,
   description: comic.description ?? '',
   ratingComment: '',
+  saga: comic.saga ?? '',
+  sagaOrder: comic.sagaOrder ?? 0,
 });
 
 export const getEmptyBd = (bd: BaseBd): Bd => ({
@@ -71,6 +74,9 @@ export const getEmptyBd = (bd: BaseBd): Bd => ({
   wantToReadAgain: false,
   description: bd.description ?? '',
   ratingComment: '',
+  readTimes: 0,
+  saga: bd.saga ?? '',
+  sagaOrder: bd.sagaOrder ?? 0,
 });
 
 export const getEmptyManga = (manga: BaseManga): Manga => ({

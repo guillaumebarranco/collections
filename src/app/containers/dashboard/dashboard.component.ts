@@ -127,7 +127,7 @@ interface TopManga extends Manga {
 }
 
 @Component({
-  selector: 'app-dashboard',
+  selector: 'app-daloard',
   standalone: true,
   imports: [
     RouterModule,
@@ -141,7 +141,6 @@ interface TopManga extends Manga {
     DashboardFeedComponent,
     DashboardRecordsComponent,
     LoginComponent,
-    FeaturesModalComponent,
   ],
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.scss'],

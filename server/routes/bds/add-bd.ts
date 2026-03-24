@@ -21,8 +21,8 @@ function formatBaseBd(entity: any): string {
     coverUrl: '${escapeString(entity.coverUrl || '')}',
     pages: ${entity.pages || 0},
     genre: '${escapeString(entity.genre || '')}',
-    nbTomes: ${entity.nbTomes || 0},
-    isFinished: ${entity.isFinished ?? true},
+    saga: '${escapeString(entity.saga || '')}',
+    sagaOrder: ${entity.sagaOrder ?? 0},
     description: '${escapeString(entity.description ?? '')}',
   },`;
 }
@@ -110,8 +110,8 @@ router.post('/add', (req: any, res: any) => {
       coverUrl: normalizeString(entity.coverUrl, 'coverUrl') || '',
       pages: normalizeNumber(entity.pages, 'pages') || 0,
       genre: normalizeString(entity.genre, 'genre') || '',
-      nbTomes: normalizeNumber(entity.nbTomes, 'nbTomes') || 0,
-      isFinished: normalizeBoolean(entity.isFinished, 'isFinished') ?? true,
+      saga: normalizeString(entity.saga, 'saga') || '',
+      sagaOrder: normalizeNumber(entity.sagaOrder, 'sagaOrder') ?? 0,
       description: normalizeString(entity.description, 'description') ?? '',
     };
 

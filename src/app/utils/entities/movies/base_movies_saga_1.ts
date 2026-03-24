@@ -549,7 +549,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Fast & Furious 7',
     director: 'James Wan',
-    actors: [{ name: 'Vin Diesel' }],
+    actors: [{ name: 'Vin Diesel' }, { name: 'Djimon Hounsou' }],
     coverUrl: '/movies_pictures/124133-furious-7-0-150-0-225-crop.jpg',
     releaseDate: '2015-04-03',
     length: 137,

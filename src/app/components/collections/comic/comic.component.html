@@ -52,6 +52,10 @@
     <p class="comic-description">{{ comic.description }}</p>
     } @if (comic.pages) {
     <p class="comic-pages">{{ comic.pages }} pages</p>
+    } @if (comic.saga) {
+    <p class="comic-pages">
+      Saga : {{ comic.saga }}@if (comic.sagaOrder) { (n°{{ comic.sagaOrder }})}
+    </p>
     } @if (comic.readDate.includes('-') && !isBaseEntityView) {
     <p class="comic-read-times">
       Lu le {{ comic.readDate | date : "dd/MM/yyyy" }}

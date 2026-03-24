@@ -96,6 +96,8 @@ router.post('/', (req: any, res: any) => {
         coverUrl: normalizeString(entityPayload.coverUrl, 'coverUrl'),
         pages: normalizeNumber(entityPayload.pages, 'pages'),
         genre: normalizeString(entityPayload.genre, 'genre'),
+        saga: normalizeString(entityPayload.saga, 'saga') ?? '',
+        sagaOrder: normalizeNumber(entityPayload.sagaOrder, 'sagaOrder') ?? 0,
         designer: normalizeString(entityPayload.designer, 'designer'),
         description: normalizeString(entityPayload.description, 'description') ?? '',
       });

@@ -183,8 +183,8 @@ function parseBaseBdsFullFromFile(content: string): any[] {
           coverUrl: parseStringField(objectText, 'coverUrl') || '',
           pages: parseNumberField(objectText, 'pages') ?? 0,
           genre: parseStringField(objectText, 'genre') || '',
-          nbTomes: parseNumberField(objectText, 'nbTomes') ?? 0,
-          isFinished: parseBooleanField(objectText, 'isFinished') ?? false,
+          saga: parseStringField(objectText, 'saga') || '',
+          sagaOrder: parseNumberField(objectText, 'sagaOrder') ?? 0,
           description: parseStringField(objectText, 'description') || '',
         });
       }
@@ -377,8 +377,8 @@ function updateBaseBdInFile(filePath: string, bdData: any): boolean {
     coverUrl: '${escapeString(bd.coverUrl || '')}',
     pages: ${bd.pages ?? 0},
     genre: '${escapeString(bd.genre || '')}',
-    nbTomes: ${bd.nbTomes ?? 0},
-    isFinished: ${bd.isFinished ?? false},
+    saga: '${escapeString(bd.saga || '')}',
+    sagaOrder: ${bd.sagaOrder ?? 0},
     description: '${escapeString(bd.description || '')}',
   }`
     )

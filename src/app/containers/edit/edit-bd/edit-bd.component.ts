@@ -34,8 +34,8 @@ type EditBdForm = {
 type EditBdEntityForm = {
   pages: number;
   genre: string;
-  nbTomes: number;
-  isFinished: boolean;
+  saga: string;
+  sagaOrder: number;
   writer: string;
   coverUrl: string;
   description: string;
@@ -170,7 +170,13 @@ export class EditBdComponent {
     const current = this.bdEntityForm();
     if (!current) return;
     let nextValue: EditBdEntityForm[K] = value as EditBdEntityForm[K];
-    if (field !== 'genre' && field !== 'writer' && field !== 'coverUrl') {
+    if (
+      field !== 'genre' &&
+      field !== 'writer' &&
+      field !== 'coverUrl' &&
+      field !== 'description' &&
+      field !== 'saga'
+    ) {
       const asNumber = Number(value);
       nextValue = (
         Number.isNaN(asNumber) ? 0 : asNumber
@@ -182,15 +188,6 @@ export class EditBdComponent {
     });
   }
 
-  updateEntityCheckbox(field: 'isFinished', checked: boolean) {
-    const current = this.bdEntityForm();
-    if (!current) return;
-    this.bdEntityForm.set({
-      ...current,
-      [field]: checked,
-    });
-  }
-
   setRatingFromClick(star: number, event: MouseEvent) {
     const target = event.currentTarget as HTMLElement | null;
     if (!target) return;
@@ -198,12 +195,16 @@ export class EditBdComponent {
     const width = target.clientWidth;
     const x = event.offsetX;
     const ratio = x / width;
-    const offset = ratio < 0.25 ? 0.75 : ratio < 0.5 ? 0.5 : ratio < 0.75 ? 0.25 : 0;
+    const offset =
+      ratio < 0.25 ? 0.75 : ratio < 0.5 ? 0.5 : ratio < 0.75 ? 0.25 : 0;
     const nextValue = Math.round((star - offset) * 4) / 4;
     this.updateField('rating', Math.max(0, Math.min(5, nextValue)));
   }
 
-  getStarType(rating: number, star: number): 'full' | 'threeQuarter' | 'half' | 'quarter' | 'empty' {
+  getStarType(
+    rating: number,
+    star: number
+  ): 'full' | 'threeQuarter' | 'half' | 'quarter' | 'empty' {
     if (rating >= star) return 'full';
     if (rating >= star - 0.25) return 'threeQuarter';
     if (rating >= star - 0.5) return 'half';
@@ -437,8 +438,8 @@ export class EditBdComponent {
     return {
       pages: bd.pages || 0,
       genre: bd.genre || '',
-      nbTomes: bd.nbTomes || 0,
-      isFinished: bd.isFinished !== false,
+      saga: bd.saga || '',
+      sagaOrder: bd.sagaOrder || 0,
       writer: bd.writer || '',
       coverUrl: bd.coverUrl || '',
       description: bd.description ?? '',
@@ -450,8 +451,8 @@ export class EditBdComponent {
     return {
       pages: form.pages,
       genre: form.genre,
-      nbTomes: form.nbTomes,
-      isFinished: form.isFinished,
+      saga: form.saga,
+      sagaOrder: form.sagaOrder,
       writer: form.writer,
       coverUrl: form.coverUrl,
       description: form.description ?? '',

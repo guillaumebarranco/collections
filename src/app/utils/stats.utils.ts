@@ -161,17 +161,6 @@ export function getTotalComicsTomesRead(items: ItemWithTomes[]): number {
   return totalTomes;
 }
 
-export function getTotalTomesBdRead(items: ItemWithTomes[]): number {
-  let totalTomes = 0;
-  for (const item of items) {
-    if (item.nbTomes) {
-      const readTimes = item.readTimes || 1;
-      totalTomes += item.nbTomes * readTimes;
-    }
-  }
-  return totalTomes;
-}
-
 export function getTotalManwhasPages(items: ItemWithPages[]): number {
   let totalPages = 0;
   for (const item of items) {

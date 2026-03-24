@@ -1206,7 +1206,11 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Blood Diamond',
     director: 'Edward Zwick',
-    actors: [{ name: 'Leonardo DiCaprio' }],
+    actors: [
+      { name: 'Leonardo DiCaprio' },
+      { name: 'Djimon Hounsou' },
+      { name: 'Jennifer Connelly' },
+    ],
     coverUrl: '/movies_pictures/51084-blood-diamond-0-150-0-225-crop.jpg',
     releaseDate: '2006-12-08',
     length: 143,

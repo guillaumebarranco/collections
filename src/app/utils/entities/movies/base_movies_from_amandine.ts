@@ -1047,7 +1047,11 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
   {
     title: 'Constantine',
     director: 'Francis Lawrence',
-    actors: [{ name: 'Keanu Reeves' }, { name: 'Rachel Weisz' }],
+    actors: [
+      { name: 'Keanu Reeves' },
+      { name: 'Rachel Weisz' },
+      { name: 'Djimon Hounsou' },
+    ],
     coverUrl: '/movies_pictures/18401439.webp',
     releaseDate: '2005-02-18',
     length: 121,

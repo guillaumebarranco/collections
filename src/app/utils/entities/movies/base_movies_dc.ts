@@ -277,6 +277,7 @@ export const baseMoviesDc: BaseMovie[] = [
       {
         name: 'Zachary Levi',
       },
+      { name: 'Djimon Hounsou' },
     ],
     coverUrl: '/movies_pictures/213190-shazam--0-150-0-225-crop.jpg',
     releaseDate: '2019-04-05',
@@ -294,6 +295,7 @@ export const baseMoviesDc: BaseMovie[] = [
       {
         name: 'Jason Momoa',
       },
+      { name: 'Djimon Hounsou' },
     ],
     coverUrl: '/movies_pictures/225060-aquaman-0-150-0-225-crop.jpg',
     releaseDate: '2018-12-21',

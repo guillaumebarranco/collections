@@ -11,8 +11,8 @@ type AddBdEntityForm = {
   writer: string;
   coverUrl: string;
   genre: string;
-  nbTomes: number;
-  isFinished: boolean;
+  saga: string;
+  sagaOrder: number;
   description: string;
 };
 
@@ -51,8 +51,8 @@ export class AddBdComponent {
     writer: '',
     coverUrl: '',
     genre: '',
-    nbTomes: 0,
-    isFinished: true,
+    saga: '',
+    sagaOrder: 0,
     description: '',
   });
 
@@ -74,7 +74,7 @@ export class AddBdComponent {
   ) {
     const current = this.entityForm();
     let nextValue: AddBdEntityForm[K] = value as AddBdEntityForm[K];
-    if (field === 'nbTomes') {
+    if (field === 'sagaOrder') {
       const asNumber = Number(value);
       nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as AddBdEntityForm[K];
     }
@@ -97,14 +97,6 @@ export class AddBdComponent {
     this.userForm.set({
       ...current,
       [field]: nextValue,
-    });
-  }
-
-  updateCheckbox(field: 'isFinished', checked: boolean) {
-    const current = this.entityForm();
-    this.entityForm.set({
-      ...current,
-      [field]: checked,
     });
   }
 

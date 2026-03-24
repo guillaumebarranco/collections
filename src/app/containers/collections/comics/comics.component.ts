@@ -212,13 +212,13 @@ export class ComicsComponent implements OnInit {
 
     return [
       {
-        label: 'Total des comics',
-        value: `${totalTomes.toLocaleString()} tomes`,
+        label: "Nombre d'albums",
+        value: `${totalTomes.toLocaleString()}`,
         icon: '📚',
         color: StatItemColor.SUCCESS,
       },
       {
-        label: 'Total des pages',
+        label: 'Total des pages (albums)',
         value: `${totalPages.toLocaleString()} pages`,
         icon: '📖',
         color: StatItemColor.INFO,
@@ -286,11 +286,16 @@ export class ComicsComponent implements OnInit {
     if (parsed.view && ['read', 'readlist', 'owned'].includes(parsed.view)) {
       this.selectedView.set(parsed.view);
     }
-    if (
-      parsed.sort &&
-      this.sortOptions().some((opt) => opt.value === parsed.sort)
-    ) {
-      this.selectedSort.set(parsed.sort);
+    if (parsed.sort) {
+      const legacy =
+        parsed.sort === 'nbTomes'
+          ? 'sagaOrder'
+          : parsed.sort === 'nbTomes-asc'
+            ? 'sagaOrder-asc'
+            : parsed.sort;
+      if (this.sortOptions().some((opt) => opt.value === legacy)) {
+        this.selectedSort.set(legacy);
+      }
     }
     this.isLoadingPreferences = false;
   }
@@ -317,7 +322,13 @@ export class ComicsComponent implements OnInit {
   }
 
   private matchesSearch(comic: Comic, term: string): boolean {
-    const haystack = [comic.title, comic.writer, comic.designer, comic.genre]
+    const haystack = [
+      comic.title,
+      comic.writer,
+      comic.designer,
+      comic.genre,
+      comic.saga,
+    ]
       .filter(Boolean)
       .join(' ');
 

@@ -11,8 +11,8 @@ type AddComicEntityForm = {
   writer: string;
   coverUrl: string;
   genre: string;
-  nbTomes: number;
-  isFinished: boolean;
+  saga: string;
+  sagaOrder: number;
   description: string;
 };
 
@@ -51,8 +51,8 @@ export class AddComicComponent {
     writer: '',
     coverUrl: '',
     genre: '',
-    nbTomes: 0,
-    isFinished: true,
+    saga: '',
+    sagaOrder: 0,
     description: '',
   });
 
@@ -74,7 +74,7 @@ export class AddComicComponent {
   ) {
     const current = this.entityForm();
     let nextValue: AddComicEntityForm[K] = value as AddComicEntityForm[K];
-    if (field === 'nbTomes') {
+    if (field === 'sagaOrder') {
       const asNumber = Number(value);
       nextValue = (
         Number.isNaN(asNumber) ? 0 : asNumber
@@ -101,14 +101,6 @@ export class AddComicComponent {
     this.userForm.set({
       ...current,
       [field]: nextValue,
-    });
-  }
-
-  updateCheckbox(field: 'isFinished', checked: boolean) {
-    const current = this.entityForm();
-    this.entityForm.set({
-      ...current,
-      [field]: checked,
     });
   }
 

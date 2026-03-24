@@ -241,8 +241,6 @@ function loadBaseManwhasNbChaptersMap(): Map<string, number> {
   return map;
 }
 
-const PAGES_PER_COMIC_BD_TOME = 46;
-
 function loadBaseComicsPagesMap(): Map<string, number> {
   const map = new Map<string, number>();
   try {
@@ -253,9 +251,7 @@ function loadBaseComicsPagesMap(): Map<string, number> {
       for (const c of list) {
         const key = `${normalizeKey(c.title || '')}|${normalizeKey(c.writer || '')}`;
         const pages = Number(c.pages) ?? 0;
-        const nbTomes = Number(c.nbTomes) ?? 0;
-        const totalPages = pages > 0 ? pages : nbTomes * PAGES_PER_COMIC_BD_TOME;
-        if (totalPages > 0) map.set(key, totalPages);
+        if (pages > 0) map.set(key, pages);
       }
     }
   } catch {
@@ -274,9 +270,7 @@ function loadBaseBdsPagesMap(): Map<string, number> {
       for (const b of list) {
         const key = `${normalizeKey(b.title || '')}|${normalizeKey(b.writer || '')}`;
         const pages = Number(b.pages) ?? 0;
-        const nbTomes = Number(b.nbTomes) ?? 0;
-        const totalPages = pages > 0 ? pages : nbTomes * PAGES_PER_COMIC_BD_TOME;
-        if (totalPages > 0) map.set(key, totalPages);
+        if (pages > 0) map.set(key, pages);
       }
     }
   } catch {

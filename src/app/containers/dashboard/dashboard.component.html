@@ -5,6 +5,7 @@
   <div class="dashboard-header">
     <h1>Tableau de bord</h1>
     <div class="dashboard-header-actions">
+      @if(!isAdmin()) {
       <button
         class="makya-btn makya-btn--secondary"
         type="button"
@@ -12,7 +13,7 @@
       >
         Fonctionnalités
       </button>
-      @if (isOwnUserDashboard()) {
+      } @if (isOwnUserDashboard()) {
       <button
         class="makya-btn makya-btn--secondary"
         type="button"
@@ -386,7 +387,7 @@
   </div>
   <h1>Bienvenue sur Makya !</h1>
 
-  <div class="dashboard-header-actions" style="margin-bottom: 1rem;">
+  <div class="dashboard-header-actions" style="margin-bottom: 1rem">
     <button
       class="makya-btn makya-btn--secondary"
       type="button"

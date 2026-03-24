@@ -8,6 +8,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/A1GQ8YsGz2L._UF1000,1000_QL80_.jpg',
     pages: 296,
     genre: 'Science-fiction',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -17,6 +19,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/watchmen.jpg',
     pages: 416,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -26,6 +30,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/justice-league-crise-d-rsquo-identite.jpg',
     pages: 344,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -35,6 +41,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/81UBDmKsKIL._UF1000,1000_QL80_.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -44,6 +52,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_226147.jpg',
     pages: 296,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -53,6 +63,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_229800.jpg',
     pages: 224,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -62,6 +74,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_234873.jpg',
     pages: 208,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -71,6 +85,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_258120.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -80,6 +96,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_392549.jpg',
     pages: 144,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -89,6 +107,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_290427.jpg',
     pages: 200,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -98,6 +118,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/61zUDB9gxOL._AC_UF1000,1000_QL80_.jpg',
     pages: 200,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -107,6 +129,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/superman-8211-requiem.jpg',
     pages: 200,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -117,6 +141,8 @@ export const baseComics: BaseComic[] = [
       '/comics_pictures/superman-president-lex-luthor-8211-edition-speciale-fnac.jpg',
     pages: 264,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -126,6 +152,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/superman-red-son-edition-black-label.jpg',
     pages: 144,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -135,6 +163,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_257713.jpg',
     pages: 112,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -144,6 +174,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_422741.jpg',
     pages: 204,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -153,6 +185,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_425400.jpg',
     pages: 204,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -162,6 +196,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/autre-terre-tome-1.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -171,6 +207,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_222294.jpg',
     pages: 160,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -180,6 +218,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_289242.jpg',
     pages: 160,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -189,6 +229,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_291173.jpg',
     pages: 176,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -198,6 +240,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/la-splendeur-du-pingouin.jpg',
     pages: 144,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -207,6 +251,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/91iFXgr4tjL._AC_UF1000,1000_QL80_.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -216,6 +262,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/batman-un-deuil-dans-la-famille.jpg',
     pages: 296,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -225,6 +273,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/30_9782365770439_1_75.jpg',
     pages: 176,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -234,6 +284,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_276636.jpg',
     pages: 148,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -243,6 +295,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -252,6 +306,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/batman-tome-3-le-deuil-de-la-famille.jpg',
     pages: 164,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -261,6 +317,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/412mQSGSUaL._AC_UF1000,1000_QL80_.jpg',
     pages: 528,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -270,6 +328,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_175489.jpg',
     pages: 160,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -279,6 +339,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_301744.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -288,6 +350,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_245351.jpg',
     pages: 176,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -298,6 +362,8 @@ export const baseComics: BaseComic[] = [
       '/comics_pictures/superman-brainiac-8211-edition-speciale-fnac.jpg',
     pages: 128,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -307,6 +373,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/les-patients-d-rsquo-arkham.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -316,6 +384,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_255397.jpg',
     pages: 160,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -325,6 +395,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_214887.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -334,6 +406,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/balade-de-lobo-la.jpg',
     pages: 208,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -343,6 +417,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/bdg-306514_1_75.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -352,6 +428,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/s-l1200.jpg',
     pages: 160,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -361,6 +439,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/912fD3KZUiL.jpg',
     pages: 144,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -370,6 +450,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_311835.jpg',
     pages: 144,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -379,6 +461,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/green-arrow-annee-un.jpg',
     pages: 160,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -388,6 +472,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/killing-joke.jpg',
     pages: 72,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -397,6 +483,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_220903.jpg',
     pages: 208,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -406,6 +494,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/superman-origines-secretes-2009.jpg',
     pages: 232,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -415,6 +505,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/batman-annee-un.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -424,6 +516,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_421406.jpg',
     pages: 204,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -433,6 +527,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_278424.jpg',
     pages: 204,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -442,6 +538,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/injustice-annee-un-1ere-partie.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -451,6 +549,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_279860.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -460,6 +560,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/robin-annee-un.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -469,6 +571,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_281595.jpg',
     pages: 194,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -478,6 +582,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_283165.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -487,6 +593,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_283166.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -496,6 +604,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -505,6 +615,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_311072.jpg',
     pages: 240,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -514,6 +626,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/batman-la-revanche-de-bane.jpg',
     pages: 160,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -523,6 +637,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/wonder-woman-dieux-et-mortels-tome-1.jpg',
     pages: 384,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -532,6 +648,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/kingdom-come-8212-nouvelle-edition.jpg',
     pages: 336,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -541,6 +659,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_173354.jpg',
     pages: 144,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -550,6 +670,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_242962.jpg',
     pages: 232,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -559,6 +681,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -568,6 +692,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/batman-cite-brisee.jpg',
     pages: 264,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -577,6 +703,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_250811.jpg',
     pages: 232,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -586,6 +714,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_319753.jpg',
     pages: 128,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -595,6 +725,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/1163577522_L.avif',
     pages: 128,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -604,6 +736,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/transmetropolitan-tome-1.jpg',
     pages: 300,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -613,6 +747,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/transmetropolitan-tome-2.jpg',
     pages: 320,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -622,6 +758,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/transmetropolitan-tome-3.jpg',
     pages: 296,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -632,6 +770,8 @@ export const baseComics: BaseComic[] = [
       '/comics_pictures/urban-comics-nomad-transmetropolitan-tome-4.jpg',
     pages: 296,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -641,6 +781,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/transmetropolitan-tome-5.jpg',
     pages: 400,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -650,6 +792,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 256,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -659,6 +803,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 256,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -668,6 +814,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 256,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -677,6 +825,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 256,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -686,6 +836,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 256,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -695,6 +847,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 256,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -704,6 +858,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -713,6 +869,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 432,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -722,6 +880,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 432,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -731,6 +891,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 432,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -740,6 +902,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 432,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -749,6 +913,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 392,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -758,6 +924,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 392,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -767,6 +935,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 392,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -776,6 +946,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 392,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -785,6 +957,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 240,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -794,6 +968,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/71mDEdjcyuL._UF1000,1000_QL80_.jpg',
     pages: 240,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -803,6 +979,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -813,6 +991,8 @@ export const baseComics: BaseComic[] = [
       '/comics_pictures/testurban-comics-nomad-les-seigneurs-de-bagdad.jpg',
     pages: 144,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -823,6 +1003,8 @@ export const baseComics: BaseComic[] = [
       '/comics_pictures/urban-comics-nomad-hellblazer-dependance-mortelle-garth-ennis.jpg',
     pages: 416,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -832,6 +1014,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/all-star-superman.jpg',
     pages: 300,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -841,6 +1025,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/81oWRTbEIaL._AC_UF1000,1000_QL80_.jpg',
     pages: 184,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -850,6 +1036,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/superman-ecrase-le-klan.jpg',
     pages: 248,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -859,6 +1047,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/superman-les-origines.jpg',
     pages: 352,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -868,6 +1058,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/superman-american-alien-nomad.jpg',
     pages: 224,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -878,6 +1070,8 @@ export const baseComics: BaseComic[] = [
       '/comics_pictures/urban-comics-nomad-batman-amp-robin-8211-tueur-ne.jpg',
     pages: 208,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -887,6 +1081,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/dceased.jpg',
     pages: 224,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -896,6 +1092,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/81H792QVGgL.jpg',
     pages: 320,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -905,6 +1103,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 432,
     genre: 'Fantastique',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -914,6 +1114,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 432,
     genre: 'Fantastique',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -923,6 +1125,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 432,
     genre: 'Fantastique',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -932,6 +1136,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 432,
     genre: 'Fantastique',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -941,6 +1147,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/flashpoint-edition-10-ans.jpg',
     pages: 176,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -950,6 +1158,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/batman-8211-l-rsquo-enigme-de-red-hood.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -959,6 +1169,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/absolute-superman-tome-1.jpg',
     pages: 144,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -969,6 +1181,8 @@ export const baseComics: BaseComic[] = [
       '/comics_pictures/absolute-batman-tome-1-edition-pulp-rsquo-s.jpg',
     pages: 184,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -978,6 +1192,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/justice-league-unlimited-tome-1.jpg',
     pages: 160,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -987,6 +1203,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/superman-dark-prophecy-tome-1.jpg',
     pages: 352,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -996,6 +1214,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/81AH2uqPEOL._AC_UF1000,1000_QL80_.jpg',
     pages: 544,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1005,6 +1225,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/supergirl-woman-of-tomorrow-tp-168602.webp',
     pages: 224,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1014,6 +1236,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/superman-lost.jpg',
     pages: 248,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1023,6 +1247,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/album-cover-large-52610.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1032,6 +1258,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_497600.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1041,6 +1269,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/dark-knights-of-steel-allwinter.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1050,6 +1280,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/joker-the-winning-card.jpg',
     pages: 112,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1059,6 +1291,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/81kN2LAxV5L._AC_UF1000,1000_QL80_.jpg',
     pages: 176,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1068,6 +1302,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/dc-univers-rebirth.jpg',
     pages: 592,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1077,6 +1313,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/trois-jokers.jpg',
     pages: 176,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1086,6 +1324,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/batman-imposter.jpg',
     pages: 176,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1095,6 +1335,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/batman-rebirth-1.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1104,6 +1346,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/9791026810940_1_75.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1113,6 +1357,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/batman-metal-tome-1.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1122,6 +1368,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/batman-metal-tome-2.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1131,6 +1379,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/71wO+4XWvaL._AC_UF1000,1000_QL80_.jpg',
     pages: 112,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1140,6 +1390,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/81QDOwXimKL._AC_UF1000,1000_QL80_.jpg',
     pages: 184,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1149,6 +1401,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/batman-terre-1.jpg',
     pages: 464,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1158,6 +1412,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Urban-Comics-Nomad-Batman-Sombre-Reflet.jpg',
     pages: 296,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1167,6 +1423,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/batman-annee-zero.jpg',
     pages: 400,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1176,6 +1434,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/batman-8211-curse-of-the-white-knight.jpg',
     pages: 272,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1185,6 +1445,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1194,6 +1456,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1203,6 +1467,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1212,6 +1478,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/batman-anthologie.jpg',
     pages: 368,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1221,6 +1489,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/dc-comics-anthologie.jpg',
     pages: 288,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1230,6 +1500,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/batman-beyond-the-white-knight.jpg',
     pages: 264,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1239,6 +1511,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/batman-vs-bane.jpg',
     pages: 224,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1248,6 +1522,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/batman-vs-deathstroke.jpg',
     pages: 200,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1257,6 +1533,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/batman-vs-le-pingouin.jpg',
     pages: 240,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1266,6 +1544,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/9791026827269_1_75.jpg',
     pages: 144,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1275,6 +1555,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/joker-8211-mauvaises-frequentations.jpg',
     pages: 192,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1284,6 +1566,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/harley-quinn-rebirth.jpg',
     pages: 224,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1293,6 +1577,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/les-sirenes-de-gotham.jpg',
     pages: 192,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1302,6 +1588,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/justice-league-forever-evil.jpg',
     pages: 424,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1311,6 +1599,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/suicide-squad-rebirth.jpg',
     pages: 200,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1320,6 +1610,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/justice-league-vs-suicide-squad.jpg',
     pages: 272,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1329,6 +1621,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/superman-anthologie.jpg',
     pages: 320,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1338,6 +1632,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/superman-identite-secrete.jpg',
     pages: 208,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1347,6 +1643,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1356,6 +1654,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1365,6 +1665,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/81fKW3DNYEL.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1374,6 +1676,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Wolverine-les-origines.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1383,6 +1687,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Couv_453769.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1392,6 +1698,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/9782809499278_1_75.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1401,6 +1709,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/8103CpXxHuL._AC_UF1000,1000_QL80_.jpg',
     pages: 184,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1410,6 +1720,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/1507-1.jpg',
     pages: 128,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1419,6 +1731,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/81Ti-OJv84L._AC_UF1000,1000_QL80_.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1428,6 +1742,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/34_9782809499315_1_75.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1437,6 +1753,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/daredevil-jaune-must-have.jpg',
     pages: 184,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1446,6 +1764,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/46_9791039115605_1_75.jpg',
     pages: 128,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1455,6 +1775,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1464,6 +1786,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/71n-NKeWz3L._AC_UF894,1000_QL80_.jpg',
     pages: 144,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1473,6 +1797,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/spider-man-reign-marvel-multiverse.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1482,6 +1808,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/spider-geddon-marvel-multiverse.jpg',
     pages: 232,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1491,6 +1819,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/71Ww2qOe9zL._AC_UF1000,1000_QL80_.jpg',
     pages: 120,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1501,6 +1831,8 @@ export const baseComics: BaseComic[] = [
       '/comics_pictures/les-nuits-de-wundagore-avengers-anniversaire.jpg',
     pages: 200,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1510,6 +1842,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/81IGmr3cZaL._AC_UF1000,1000_QL80_.jpg',
     pages: 200,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1519,6 +1853,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/avengers-ultron-unlimited-must-have.jpg',
     pages: 104,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1528,6 +1864,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/71zg80WW9IL._AC_UF1000,1000_QL80_.jpg',
     pages: 416,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1537,6 +1875,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/81HpuMhV-eL._AC_UF1000,1000_QL80_.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1546,6 +1886,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/captain-america-le-soldat-de-l-hiver.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1555,6 +1897,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1564,6 +1908,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/thor-renaissance-must-have.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1573,6 +1919,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/917392BsdxL._AC_UF1000,1000_QL80_.jpg',
     pages: 112,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1582,6 +1930,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/81EYeE5evbL._AC_UF1000,1000_QL80_.jpg',
     pages: 96,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1592,6 +1942,8 @@ export const baseComics: BaseComic[] = [
       '/comics_pictures/deadpool-il-faut-soigner-le-soldat-wilson-deluxe.jpg',
     pages: 104,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1602,6 +1954,8 @@ export const baseComics: BaseComic[] = [
       '/comics_pictures/wolverine-l-arme-x-autres-histoires-marvel-poche.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1612,6 +1966,8 @@ export const baseComics: BaseComic[] = [
       '/comics_pictures/Spider-Man-T01-Spider-Man-n-est-plus-La-collection-anniversaire-2022.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1621,6 +1977,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/43_9791039106160_1_75.jpg',
     pages: 176,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1630,6 +1988,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/31_9791039106184_1_75.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1639,6 +1999,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 112,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1648,6 +2010,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 152,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1657,6 +2021,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 112,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1666,6 +2032,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1675,6 +2043,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/81zBxNJ7qYL.jpg',
     pages: 352,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1684,6 +2054,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/81SpONNfbUL._AC_UF1000,1000_QL80_.jpg',
     pages: 400,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1693,6 +2065,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/55_9782809455397_1_75.jpg',
     pages: 352,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1702,6 +2076,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/9791039130837_1_75.jpg',
     pages: 368,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1711,6 +2087,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/81sPG51YO4L._UF1000,1000_QL80_.jpg',
     pages: 424,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1720,6 +2098,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/9791039134507.webp',
     pages: 328,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1729,6 +2109,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/81UD0XWE1jS._UF1000,1000_QL80_.jpg',
     pages: 192,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1738,6 +2120,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 96,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1747,6 +2131,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 312,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1756,6 +2142,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 232,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1765,6 +2153,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/libriweb.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1774,6 +2164,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/daredevil-end-of-days-must-have.jpg',
     pages: 208,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1783,6 +2175,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/Les-Guerres-Secretes.jpg',
     pages: 336,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1792,6 +2186,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/world-war-hulk-must-have.jpg',
     pages: 288,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1801,6 +2197,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/81h8JPLCtOL.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1810,6 +2208,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/71PNwypK26L._AC_UF1000,1000_QL80_.jpg',
     pages: 204,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1819,6 +2219,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/52_9782809489309_1_75.jpg',
     pages: 128,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1828,6 +2230,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/ascension-de-thanos.jpg',
     pages: 96,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1837,6 +2241,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/36_9782809496673_1_75.jpg',
     pages: 144,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1846,6 +2252,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/omnibus-le-gant-de-l-infini.jpg',
     pages: 256,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1855,6 +2263,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/thanos-guerre-infini.jpg',
     pages: 272,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1864,6 +2274,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/FGRNO00619_0.webp',
     pages: 264,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1873,6 +2285,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/la-mort-de-wolverine-must-have.jpg',
     pages: 472,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1882,6 +2296,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/wolverine-old-man-logan-deluxe.jpg',
     pages: 224,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1891,6 +2307,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 176,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1900,6 +2318,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 146,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1909,6 +2329,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1918,6 +2340,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 312,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1927,6 +2351,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 400,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1936,6 +2362,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 400,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1945,6 +2373,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 400,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1954,6 +2384,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1963,6 +2395,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 144,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1972,6 +2406,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 144,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1981,6 +2417,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 96,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1990,6 +2428,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -1999,6 +2439,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 200,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -2008,6 +2450,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/planete-hulk.jpg',
     pages: 400,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -2018,6 +2462,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/91JVr+CBSEL._AC_UF1000,1000_QL80_.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -2027,6 +2473,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -2036,6 +2484,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 312,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -2045,6 +2495,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -2054,6 +2506,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 352,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -2063,6 +2517,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 448,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -2072,6 +2528,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/astonishing-x-men-surdoues-must-have.jpg',
     pages: 320,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -2081,6 +2539,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/91maIYwDmJL._AC_UF1000,1000_QL80_.jpg',
     pages: 344,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -2090,6 +2550,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/spider-man-spider-island.jpg',
     pages: 300,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -2099,6 +2561,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -2108,6 +2572,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -2117,6 +2583,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -2126,6 +2594,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/test.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -2135,6 +2605,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/wolverine-ennemi-d-etat-must-have.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
   {
@@ -2144,6 +2616,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/A1FBfdg5mWL._UF1000,1000_QL80_.jpg',
     pages: 218,
     genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
     description: '',
   },
 ];
