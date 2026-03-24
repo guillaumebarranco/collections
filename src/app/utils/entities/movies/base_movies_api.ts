@@ -218,13 +218,13 @@ export const baseMoviesApi: BaseMovie[] = [
       },
       {
         name: 'Jean Reno',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/813c13b26a5c.jpg',
     releaseDate: '2026-02-04',
     length: 109,
     genre: 'Comédie',
-    saga: '',
+    saga: 'Marsupilami',
     description: '',
     fromEntity: null,
     countryOrigin: 'France',
@@ -758,5 +758,59 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: 'Royaume-Uni',
+  },
+
+  {
+    title: 'Projet Dernière Chance',
+    director: 'Phil Lord, Chris Miller',
+    actors: [
+      {
+        name: 'Ryan Gosling',
+      },
+      {
+        name: 'Sandra Hüller',
+      },
+      {
+        name: 'James Ortiz',
+      },
+    ],
+    coverUrl: 'https://www.franceinfo.fr/pictures/LBolG39JX_aWiIr5LYuEW_vtadA/0x0:864x1080/fit-in/720x/filters:format(jpg)/2026/03/13/projet-derniere-chance-affiche-69b3da8c86cc4809152158.jpg',
+    releaseDate: '2026-03-18',
+    length: 156,
+    genre: 'Science Fiction',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Sur la piste du Marsupilami',
+    director: 'Alain Chabat',
+    actors: [
+      {
+        name: 'Alain Chabat',
+      },
+      {
+        name: 'Jamel Debbouze',
+      },
+      {
+        name: 'Fred Testot',
+      },
+      {
+        name: 'Lambert Wilson',
+      },
+      {
+        name: 'Géraldine Nakache',
+      },
+    ],
+    coverUrl: 'https://fr.web.img6.acsta.net/medias/nmedia/18/86/13/20/20024574.jpg',
+    releaseDate: '2012-04-04',
+    length: 105,
+    genre: 'Comédie',
+    saga: 'Marsupilami',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'France',
   },
 ];

@@ -14841,4 +14841,19 @@ export const ronanMovies: UserMovies = [
     ratingComment: '',
     inList: [],
   },
+
+  {
+    title: 'Projet Dernière Chance',
+    director: 'Phil Lord, Chris Miller',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2026-03-23',
+    lastViewedDate: '2026-03-23',
+    seenAtCinema: true,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
 ];

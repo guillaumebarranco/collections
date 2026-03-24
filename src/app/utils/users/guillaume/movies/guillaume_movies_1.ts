@@ -2110,4 +2110,19 @@ export const guillaumeMoviesPage1: UserMovies = [
     ratingComment: '',
     inList: [],
   },
+
+  {
+    title: 'The Island',
+    director: 'Michael Bay',
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: '2026-03-23',
+    lastViewedDate: '2026-03-23',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
 ];

@@ -708,7 +708,7 @@ export const guillaumeBooks: UserBooks = [
     author: 'Nicholas Sparks',
     firstReadDate: '2025-09-06',
     lastReadDate: '2025-09-06',
-    rating: 4.75,
+    rating: 4.5,
     readTimes: 1,
     owned: true,
     borrowed: false,

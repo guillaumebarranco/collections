@@ -6722,4 +6722,19 @@ export const unhoMovies: UserMovie[] = [
     ratingComment: '',
     inList: [],
   },
+
+  {
+    title: 'Rain Man',
+    director: 'Barry Levinson',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '2026-03-22',
+    lastViewedDate: '2026-03-22',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+  },
 ];
