@@ -911,18 +911,4 @@ export const guillaumeReadlistBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   }
-,
-  {
-    title: 'Un palais de flammes d\'argent',
-    author: 'Sarah J. Maas',
-    firstReadDate: '',
-    lastReadDate: '',
-    rating: 0,
-    readTimes: 1,
-    owned: false,
-    borrowed: false,
-    readPriority: 3,
-    wantToReadAgain: false,
-    ratingComment: '',
-  },
 ];

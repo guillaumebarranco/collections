@@ -813,4 +813,28 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'France',
   },
+
+  {
+    title: 'Casse-tête Chinois',
+    director: 'Cédric Klapisch',
+    actors: [
+      {
+        name: 'Romain Duris',
+      },
+      {
+        name: 'Cécile de France',
+      },
+      {
+        name: 'Audrey Tautou',
+      },
+    ],
+    coverUrl: 'https://www.cine-feuilles.ch/storage/app/uploads/public/5a3/e67/3ff/5a3e673ff2de3103040041.jpg',
+    releaseDate: '2013-12-04',
+    length: 120,
+    genre: 'Comédie',
+    saga: 'Trilogie Cédric Klapisch',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'France',
+  },
 ];

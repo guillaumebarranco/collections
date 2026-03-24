@@ -1159,4 +1159,18 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: 'C\'est sympa mais c\'est plutôt une petite pause de Noël dans la saga. Pourquoi pas, mais aucun enjeu particulier.',
   },
+
+  {
+    title: 'Un palais de flammes d\'argent',
+    author: 'Sarah J. Maas',
+    firstReadDate: '2026-03-24',
+    lastReadDate: '2026-03-24',
+    rating: 4.75,
+    readTimes: 1,
+    owned: false,
+    borrowed: false,
+    readPriority: 3,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
 ];
