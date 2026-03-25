@@ -146,6 +146,72 @@
   @include containers.card-base;
 }
 
+.bds-by-saga {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.bds-empty-view-message {
+  margin: 20px 0;
+  padding: 16px 20px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  color: #5a6c7d;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.bds-saga-section {
+  padding: 12px 16px 4px;
+  background: #f9fafb;
+  border-radius: 14px;
+
+  .bds {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 16px;
+
+    @media (max-width: 768px) {
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    }
+  }
+}
+
+.bds-saga-title {
+  margin: 0 0 12px;
+  font-size: 1.35rem;
+  color: #2c3e50;
+}
+
+.bds-saga-toggle {
+  background: transparent;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bds-saga-toggle-icon {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+
+.bds-saga-missing {
+  margin-top: 12px;
+}
+
+.bds-saga-missing-label {
+  margin: 0 0 10px;
+  font-size: 0.95rem;
+  color: #7f8c8d;
+  font-weight: 600;
+}
+
 // Responsive
 @include containers.responsive-base {
   .bds-container {

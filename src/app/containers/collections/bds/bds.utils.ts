@@ -1,6 +1,12 @@
 import { Bd } from '../../../models/bd-model';
 
-export type BdView = 'read' | 'readlist' | 'owned' | 'toReRead' | 'recommendations';
+export type BdView =
+  | 'read'
+  | 'readlist'
+  | 'owned'
+  | 'toReRead'
+  | 'sagas'
+  | 'recommendations';
 
 export type OptionalBdView = Exclude<BdView, 'read' | 'readlist'>;
 
@@ -30,6 +36,7 @@ export const bdViewOptions: { value: BdView; label: string }[] = [
   { value: 'readlist', label: 'BD à lire' },
   { value: 'owned', label: 'BD possédées' },
   { value: 'toReRead', label: 'À relire' },
+  { value: 'sagas', label: 'Voir par saga' },
   { value: 'recommendations', label: 'Recommandations' },
 ];
 
@@ -120,4 +127,76 @@ export const getSortedBds = (bds: Bd[], selectedSort: string): Bd[] => {
     default:
       return bds.sort((a, b) => (b.rating || 0) - (a.rating || 0));
   }
+};
+
+const getBdIdentityKey = (bd: Pick<Bd, 'title' | 'writer'>): string =>
+  `${bd.title}__${bd.writer}`;
+
+export type BdsBySagaGroup = {
+  saga: string;
+  readBds: Bd[];
+  missingBds: Bd[];
+};
+
+export const getBdsBySaga = ({
+  sortedBds,
+  allBds,
+  baseBds,
+  selectedSort,
+}: {
+  sortedBds: Bd[];
+  allBds: Bd[];
+  baseBds: Bd[];
+  selectedSort: string;
+}): BdsBySagaGroup[] => {
+  const sagaMap = new Map<string, Bd[]>();
+  for (const bd of sortedBds) {
+    const sagaName = bd.saga?.trim();
+    if (!sagaName) continue;
+    const list = sagaMap.get(sagaName) ?? [];
+    list.push(bd);
+    sagaMap.set(sagaName, list);
+  }
+
+  const seenKeys = new Set(allBds.map((bd) => getBdIdentityKey(bd)));
+  const baseBySaga = new Map<string, Bd[]>();
+  for (const bd of baseBds) {
+    const sagaName = bd.saga?.trim();
+    if (!sagaName) continue;
+    if (seenKeys.has(getBdIdentityKey(bd))) continue;
+    const list = baseBySaga.get(sagaName) ?? [];
+    list.push(bd);
+    baseBySaga.set(sagaName, list);
+  }
+
+  const groups = Array.from(sagaMap.entries()).map(([saga, readBds]) => {
+    // Trier par sagaOrder, puis fallback sur le tri sélectionné
+    const sortedRead = [...readBds].sort((a, b) => {
+      const orderA = a.sagaOrder ?? 0;
+      const orderB = b.sagaOrder ?? 0;
+      if (orderA !== orderB) return orderA - orderB;
+      const sorted = getSortedBds([a, b], selectedSort);
+      return sorted[0] === a ? -1 : 1;
+    });
+
+    const missing = [...(baseBySaga.get(saga) ?? [])];
+    const sortedMissing = missing.sort((a, b) => {
+      const orderA = a.sagaOrder ?? 0;
+      const orderB = b.sagaOrder ?? 0;
+      if (orderA !== orderB) return orderA - orderB;
+      const sorted = getSortedBds([a, b], selectedSort);
+      return sorted[0] === a ? -1 : 1;
+    });
+
+    return { saga, readBds: sortedRead, missingBds: sortedMissing };
+  });
+
+  groups.sort((a, b) => {
+    const countA = a.readBds.length + a.missingBds.length;
+    const countB = b.readBds.length + b.missingBds.length;
+    if (countB !== countA) return countB - countA;
+    return a.saga.localeCompare(b.saga);
+  });
+
+  return groups;
 };

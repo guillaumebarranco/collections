@@ -1,6 +1,12 @@
 import { Comic } from '../../../models/comic-model';
 
-export type ComicView = 'read' | 'readlist' | 'owned' | 'toReRead' | 'recommendations';
+export type ComicView =
+  | 'read'
+  | 'readlist'
+  | 'owned'
+  | 'toReRead'
+  | 'sagas'
+  | 'recommendations';
 
 export type OptionalComicView = Exclude<ComicView, 'read' | 'readlist'>;
 
@@ -30,6 +36,7 @@ export const comicViewOptions: { value: ComicView; label: string }[] = [
   { value: 'readlist', label: 'Comics à lire' },
   { value: 'owned', label: 'Comics possédés' },
   { value: 'toReRead', label: 'À relire' },
+  { value: 'sagas', label: 'Voir par saga' },
   { value: 'recommendations', label: 'Recommandations' },
 ];
 
@@ -121,4 +128,75 @@ export const getSortedComics = (
     default:
       return comics.sort((a, b) => (b.rating || 0) - (a.rating || 0));
   }
+};
+
+const getComicIdentityKey = (comic: Pick<Comic, 'title' | 'writer'>): string =>
+  `${comic.title}__${comic.writer}`;
+
+export type ComicsBySagaGroup = {
+  saga: string;
+  readComics: Comic[];
+  missingComics: Comic[];
+};
+
+export const getComicsBySaga = ({
+  sortedComics,
+  allComics,
+  baseComics,
+  selectedSort,
+}: {
+  sortedComics: Comic[];
+  allComics: Comic[];
+  baseComics: Comic[];
+  selectedSort: string;
+}): ComicsBySagaGroup[] => {
+  const sagaMap = new Map<string, Comic[]>();
+  for (const comic of sortedComics) {
+    const sagaName = comic.saga?.trim();
+    if (!sagaName) continue;
+    const list = sagaMap.get(sagaName) ?? [];
+    list.push(comic);
+    sagaMap.set(sagaName, list);
+  }
+
+  const seenKeys = new Set(allComics.map((c) => getComicIdentityKey(c)));
+  const baseBySaga = new Map<string, Comic[]>();
+  for (const comic of baseComics) {
+    const sagaName = comic.saga?.trim();
+    if (!sagaName) continue;
+    if (seenKeys.has(getComicIdentityKey(comic))) continue;
+    const list = baseBySaga.get(sagaName) ?? [];
+    list.push(comic);
+    baseBySaga.set(sagaName, list);
+  }
+
+  const groups = Array.from(sagaMap.entries()).map(([saga, readComics]) => {
+    const sortedRead = [...readComics].sort((a, b) => {
+      const orderA = a.sagaOrder ?? 0;
+      const orderB = b.sagaOrder ?? 0;
+      if (orderA !== orderB) return orderA - orderB;
+      const sorted = getSortedComics([a, b], selectedSort);
+      return sorted[0] === a ? -1 : 1;
+    });
+
+    const missing = [...(baseBySaga.get(saga) ?? [])];
+    const sortedMissing = missing.sort((a, b) => {
+      const orderA = a.sagaOrder ?? 0;
+      const orderB = b.sagaOrder ?? 0;
+      if (orderA !== orderB) return orderA - orderB;
+      const sorted = getSortedComics([a, b], selectedSort);
+      return sorted[0] === a ? -1 : 1;
+    });
+
+    return { saga, readComics: sortedRead, missingComics: sortedMissing };
+  });
+
+  groups.sort((a, b) => {
+    const countA = a.readComics.length + a.missingComics.length;
+    const countB = b.readComics.length + b.missingComics.length;
+    if (countB !== countA) return countB - countA;
+    return a.saga.localeCompare(b.saga);
+  });
+
+  return groups;
 };

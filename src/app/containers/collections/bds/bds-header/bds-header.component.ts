@@ -78,6 +78,8 @@ export class BdsHeaderComponent {
       ? 'BD à lire'
       : this.selectedView() === 'owned'
       ? 'BD possédées'
+      : this.selectedView() === 'sagas'
+      ? 'BD par saga'
       : this.selectedView() === 'recommendations'
       ? 'Recommandations'
       : 'BD lues'

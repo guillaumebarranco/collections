@@ -56,6 +56,87 @@
     </div>
     } }
   </div>
+  } @else if(selectedView() === 'sagas') {
+  <div class="bds-by-saga">
+    @if (allBds().length > 0 && bdsBySaga().length === 0) {
+    <p class="bds-empty-view-message">
+      Vous devez ajouter des BD supplémentaires pour que cette vue contienne des
+      données
+    </p>
+    } @else { @for (sagaGroup of bdsBySaga(); track sagaGroup.saga) {
+    <section class="bds-saga-section">
+      <h2 class="bds-saga-title">
+        <button
+          type="button"
+          class="bds-saga-toggle"
+          [attr.aria-expanded]="!isSagaCollapsed(sagaGroup.saga)"
+          (click)="toggleSaga(sagaGroup.saga)"
+        >
+          <span class="bds-saga-toggle-icon">
+            {{ isSagaCollapsed(sagaGroup.saga) ? "▶" : "▼" }}
+          </span>
+          {{ sagaGroup.saga }} ({{ sagaGroup.readBds.length }} lus) ({{
+            sagaGroup.missingBds.length
+          }}
+          restants à lire)
+        </button>
+      </h2>
+
+      @if (!isSagaCollapsed(sagaGroup.saga)) {
+      <div class="bds">
+        @for (bd of sagaGroup.readBds; track `${bd.title}-${bd.writer}`) {
+        <div class="bd-card">
+          <app-bd
+            [bd]="bd"
+            [readOnly]="false"
+            [selectedView]="'read'"
+            [showTopFiveSelector]="showTopFiveRank()"
+            [topFiveRank]="getTopFiveRank(bd)"
+            [showAddToMyReadlist]="canShowAddToMyReadlist()"
+            [canAddToMyReadlist]="canAddBdToMyReadlist(bd)"
+            [canAddAsRead]="canAddBdToMyRead(bd)"
+            (editRequested)="openEditBdDialog(bd)"
+            (topFiveRankChange)="onTopFiveRankChange(bd, $event)"
+            (readPriorityUpdated)="updateReadPriority($event)"
+            (wantToReRead)="markBdAsWantToReRead($event)"
+            (haveReRead)="markBdAsReRead($event)"
+            (bdUpdated)="onBdUpdated()"
+            (addToMyReadlist)="addBdToConnectedUserReadlist($event)"
+            (addToMyRead)="addBdToConnectedUserAsRead($event)"
+          ></app-bd>
+        </div>
+        }
+      </div>
+
+      @if (sagaGroup.missingBds.length > 0) {
+      <div class="bds-saga-missing">
+        <p class="bds-saga-missing-label">BD pas encore lues</p>
+        <div class="bds">
+          @for (bd of sagaGroup.missingBds; track `${bd.title}-${bd.writer}`) {
+          <div class="bd-card bd-card--missing">
+            <app-bd
+              [bd]="bd"
+              [readOnly]="true"
+              [selectedView]="'read'"
+              [recommendationBadge]="
+                bdAlreadyInUserReadlist(bd) ? 'Déjà dans votre readlist' : 'Non lu'
+              "
+              [isInReadlist]="bdAlreadyInUserReadlist(bd)"
+              [showAddToMyReadlist]="canShowAddToMyReadlist()"
+              [canAddToMyReadlist]="canAddBdToMyReadlist(bd)"
+              [canAddAsRead]="canAddBdToMyRead(bd)"
+              (addToReadlist)="addBdToReadlist($event)"
+              (addToMyReadlist)="addBdToConnectedUserReadlist($event)"
+              (addToMyRead)="addBdToConnectedUserAsRead($event)"
+            ></app-bd>
+          </div>
+          }
+        </div>
+      </div>
+      } }
+    </section>
+    } }
+  </div>
   } @else {
   <div class="bds">
     @for (bd of sortedBds(); track bd.title) {
@@ -127,6 +208,14 @@
           "
         />
         Recommandations
+      </label>
+      <label class="bds-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().sagas"
+          (change)="onOptionalViewChange('sagas', $any($event.target).checked)"
+        />
+        Voir par saga
       </label>
       <p class="bds-config-hint">
         "BD lues" et "BD à lire" restent affichés par défaut.

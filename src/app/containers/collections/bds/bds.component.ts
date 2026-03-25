@@ -26,6 +26,7 @@ import {
   OptionalBdView,
   bdViewOptions,
   bdsSortOptions,
+  getBdsBySaga,
   getSortedBds,
 } from './bds.utils';
 import {
@@ -100,6 +101,7 @@ export class BdsComponent implements OnInit {
   optionalViewConfig = signal<Record<OptionalBdView, boolean>>({
     owned: true,
     toReRead: true,
+    sagas: true,
     recommendations: false,
   });
 
@@ -201,6 +203,29 @@ export class BdsComponent implements OnInit {
       : getSortedBds([...this.filteredBds()], this.selectedSort())
   );
 
+  bdsBySaga = computed(() => {
+    if (this.selectedView() !== 'sagas') return [];
+    return getBdsBySaga({
+      sortedBds: this.sortedBds(),
+      allBds: this.allBds(),
+      baseBds: this.baseBdsList(),
+      selectedSort: this.selectedSort(),
+    });
+  });
+
+  collapsedSagas = signal<Record<string, boolean>>({});
+
+  toggleSaga(saga: string): void {
+    this.collapsedSagas.update((current) => ({
+      ...current,
+      [saga]: !current[saga],
+    }));
+  }
+
+  isSagaCollapsed(saga: string): boolean {
+    return Boolean(this.collapsedSagas()[saga]);
+  }
+
   stats = computed<StatItem[]>(() => {
     const albumCount = this.filteredBds().length;
     const totalPages = this.calculateTotalPagesOnce();
@@ -266,6 +291,7 @@ export class BdsComponent implements OnInit {
     this.optionalViewConfig.set({
       owned: parsed.owned ?? true,
       toReRead: parsed.toReRead ?? true,
+      sagas: parsed.sagas ?? true,
       recommendations: parsed.recommendations ?? false,
     });
     this.isLoadingViewConfig = false;
@@ -274,14 +300,19 @@ export class BdsComponent implements OnInit {
   private loadViewPreferencesFromStorage(): void {
     const parsed = this.localStorageService.getItem<
       Partial<{
-        view: 'read' | 'readlist' | 'owned';
+        view: BdView;
         sort: string;
       }>
     >(this.viewPreferencesStorageKey);
     if (!parsed || typeof parsed !== 'object') return;
     this.isLoadingPreferences = true;
-    if (parsed.view && ['read', 'readlist', 'owned'].includes(parsed.view)) {
-      this.selectedView.set(parsed.view);
+    if (
+      parsed.view &&
+      ['read', 'readlist', 'owned', 'toReRead', 'sagas', 'recommendations'].includes(
+        parsed.view
+      )
+    ) {
+      this.selectedView.set(parsed.view as BdView);
     }
     if (parsed.sort) {
       const legacy =

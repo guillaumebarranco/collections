@@ -78,6 +78,8 @@ export class ComicsHeaderComponent {
       ? 'Comics à lire'
       : this.selectedView() === 'owned'
       ? 'Comics possédés'
+      : this.selectedView() === 'sagas'
+      ? 'Comics par saga'
       : this.selectedView() === 'recommendations'
       ? 'Recommandations'
       : 'Comics lus'

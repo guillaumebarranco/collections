@@ -57,6 +57,89 @@
     </div>
     } }
   </div>
+  } @else if(selectedView() === 'sagas') {
+  <div class="comics-by-saga">
+    @if (allComics().length > 0 && comicsBySaga().length === 0) {
+    <p class="comics-empty-view-message">
+      Vous devez ajouter des comics supplémentaires pour que cette vue contienne
+      des données
+    </p>
+    } @else { @for (sagaGroup of comicsBySaga(); track sagaGroup.saga) {
+    <section class="comics-saga-section">
+      <h2 class="comics-saga-title">
+        <button
+          type="button"
+          class="comics-saga-toggle"
+          [attr.aria-expanded]="!isSagaCollapsed(sagaGroup.saga)"
+          (click)="toggleSaga(sagaGroup.saga)"
+        >
+          <span class="comics-saga-toggle-icon">
+            {{ isSagaCollapsed(sagaGroup.saga) ? "▶" : "▼" }}
+          </span>
+          {{ sagaGroup.saga }} ({{ sagaGroup.readComics.length }} lus) ({{
+            sagaGroup.missingComics.length
+          }}
+          restants à lire)
+        </button>
+      </h2>
+
+      @if (!isSagaCollapsed(sagaGroup.saga)) {
+      <div class="comics">
+        @for (comic of sagaGroup.readComics; track `${comic.title}-${comic.writer}`) {
+        <div class="comic-card">
+          <app-comic
+            [comic]="comic"
+            [readOnly]="false"
+            [selectedView]="'read'"
+            [showTopFiveSelector]="showTopFiveRank()"
+            [topFiveRank]="getTopFiveRank(comic)"
+            [showAddToMyReadlist]="canShowAddToMyReadlist()"
+            [canAddToMyReadlist]="canAddComicToMyReadlist(comic)"
+            [canAddAsRead]="canAddComicToMyRead(comic)"
+            (editRequested)="openEditComicDialog(comic)"
+            (topFiveRankChange)="onTopFiveRankChange(comic, $event)"
+            (readPriorityUpdated)="updateReadPriority($event)"
+            (wantToReRead)="markComicAsWantToReRead($event)"
+            (haveReRead)="markComicAsReRead($event)"
+            (comicUpdated)="onComicUpdated()"
+            (addToMyReadlist)="addComicToConnectedUserReadlist($event)"
+            (addToMyRead)="addComicToConnectedUserAsRead($event)"
+          ></app-comic>
+        </div>
+        }
+      </div>
+
+      @if (sagaGroup.missingComics.length > 0) {
+      <div class="comics-saga-missing">
+        <p class="comics-saga-missing-label">Comics pas encore lus</p>
+        <div class="comics">
+          @for (comic of sagaGroup.missingComics; track `${comic.title}-${comic.writer}`) {
+          <div class="comic-card comic-card--missing">
+            <app-comic
+              [comic]="comic"
+              [readOnly]="true"
+              [selectedView]="'read'"
+              [recommendationBadge]="
+                comicAlreadyInUserReadlist(comic)
+                  ? 'Déjà dans votre readlist'
+                  : 'Non lu'
+              "
+              [isInReadlist]="comicAlreadyInUserReadlist(comic)"
+              [showAddToMyReadlist]="canShowAddToMyReadlist()"
+              [canAddToMyReadlist]="canAddComicToMyReadlist(comic)"
+              [canAddAsRead]="canAddComicToMyRead(comic)"
+              (addToReadlist)="addComicToReadlist($event)"
+              (addToMyReadlist)="addComicToConnectedUserReadlist($event)"
+              (addToMyRead)="addComicToConnectedUserAsRead($event)"
+            ></app-comic>
+          </div>
+          }
+        </div>
+      </div>
+      } }
+    </section>
+    } }
+  </div>
   } @else {
   <div class="comics">
     @for (comic of sortedComics(); track comic.title) {
@@ -128,6 +211,14 @@
           "
         />
         Recommandations
+      </label>
+      <label class="comics-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().sagas"
+          (change)="onOptionalViewChange('sagas', $any($event.target).checked)"
+        />
+        Voir par saga
       </label>
       <p class="comics-config-hint">
         "Comics lus" et "Comics à lire" restent affichés par défaut.
