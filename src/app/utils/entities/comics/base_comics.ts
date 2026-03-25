@@ -2252,8 +2252,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/omnibus-le-gant-de-l-infini.jpg',
     pages: 256,
     genre: 'Super-héros',
-    saga: '',
-    sagaOrder: 0,
+    saga: "Saga de l'infini",
+    sagaOrder: 1,
     description: '',
   },
   {
@@ -2263,8 +2263,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/thanos-guerre-infini.jpg',
     pages: 272,
     genre: 'Super-héros',
-    saga: '',
-    sagaOrder: 0,
+    saga: "Saga de l'infini",
+    sagaOrder: 2,
     description: '',
   },
   {
@@ -2274,8 +2274,8 @@ export const baseComics: BaseComic[] = [
     coverUrl: '/comics_pictures/FGRNO00619_0.webp',
     pages: 264,
     genre: 'Super-héros',
-    saga: '',
-    sagaOrder: 0,
+    saga: "Saga de l'infini",
+    sagaOrder: 3,
     description: '',
   },
   {
