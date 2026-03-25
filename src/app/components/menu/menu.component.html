@@ -1,3 +1,4 @@
+<div class="menu-shell">
 <nav class="menu">
   <div class="menu-container">
     <a class="menu-logo" [routerLink]="getRoute('dashboard')">
@@ -143,3 +144,23 @@
     </div>
   </div>
 </nav>
+@if (impersonateService.impersonatedUserId()) {
+<div
+  class="impersonation-banner"
+  role="status"
+  aria-live="polite"
+>
+  <p class="impersonation-banner__text">
+    Connecté en tant que <strong>{{ currentUser() }}</strong> — vous consultez
+    son tableau de bord et ses collections, pas les vôtres.
+  </p>
+  <button
+    type="button"
+    class="impersonation-banner__action"
+    (click)="goToDashboard()"
+  >
+    Revenir à mon espace
+  </button>
+</div>
+}
+</div>

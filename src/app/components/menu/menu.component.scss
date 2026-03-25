@@ -1,9 +1,64 @@
-.menu {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+:host {
+  display: block;
+}
+
+.menu-shell {
   position: sticky;
   top: 0;
   z-index: 1000;
+}
+
+.menu {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.impersonation-banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px 20px;
+  padding: 10px 20px;
+  background: #fff8e6;
+  color: #5c4a00;
+  border-bottom: 1px solid #e6cf7a;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.impersonation-banner__text {
+  margin: 0;
+  max-width: 52rem;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  text-align: center;
+
+  strong {
+    font-weight: 700;
+  }
+}
+
+.impersonation-banner__action {
+  flex-shrink: 0;
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid #b8860b;
+  background: #fff;
+  color: #5c4a00;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease;
+
+  &:hover {
+    background: #fffef5;
+    border-color: #8b6914;
+  }
+
+  &:focus-visible {
+    outline: 2px solid #764ba2;
+    outline-offset: 2px;
+  }
 }
 
 .logo-text {
