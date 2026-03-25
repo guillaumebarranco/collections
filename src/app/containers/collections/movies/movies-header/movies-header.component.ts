@@ -103,6 +103,37 @@ export class MoviesHeaderComponent {
       this.selectedListFilter() === null
   );
 
+  noDataMessageText = computed(() => {
+    switch (this.selectedView()) {
+      case 'watched':
+        return "Vous n'avez renseigné aucun film visionné";
+      case 'watchlist':
+        return 'Vous n\'avez marqué aucun film comme "à voir". Vous pouvez le faire via le bouton au-dessus.';
+      case 'toReWatch':
+        return 'Vous n\'avez marqué aucun film comme "à revoir". Rendez-vous sur vos films visionnés et éditez une fiche pour le marquer comme "à revoir".';
+      case 'cinema':
+        return 'Vous n\'avez indiqué aucun film vu au cinéma. Sélectionnez parmi vos films vus ceux vus au cinéma.';
+      case 'owned':
+        return 'Vous n\'avez marqué aucun film comme "possédé". Utilisez le bouton "Possédés" au-dessus.';
+      case 'borrowed':
+        return 'Vous n\'avez marqué aucun film comme "emprunté". Éditez une fiche pour indiquer l\'emprunt.';
+      case 'loaned':
+        return 'Vous n\'avez marqué aucun film comme "prêté". Éditez une fiche pour indiquer le prêt.';
+      case 'sagas':
+        return 'Aucun film à regrouper par saga pour l\'instant. Complétez les sagas sur vos films.';
+      case 'actors':
+        return 'Aucun film à afficher par acteur. Ajoutez des acteurs ou des films.';
+      case 'directors':
+        return 'Aucun film à afficher par réalisateur. Ajoutez des réalisateurs ou des films.';
+      case 'countries':
+        return 'Aucun film à afficher par pays. Complétez les pays sur vos films.';
+      case 'recommendations':
+        return 'Aucune recommandation pour le moment.';
+      default:
+        return "Vous n'avez aucun film à afficher pour cette sélection.";
+    }
+  });
+
   moviesPageTitle = computed(() =>
     this.selectedView() === 'watchlist'
       ? 'Films à voir'

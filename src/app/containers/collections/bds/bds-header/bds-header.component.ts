@@ -87,6 +87,48 @@ export class BdsHeaderComponent {
 
   canShowTopFiveRankButton = computed(() => this.selectedView() === 'read');
 
+  canShowSortDropdown = computed(
+    () => this.selectedView() === 'read' || this.selectedView() === 'readlist'
+  );
+
+  canShowFiltersAndSearch = computed(
+    () =>
+      this.filteredBdsCount() > 0 &&
+      this.searchTerm() === '' &&
+      (this.selectedView() === 'read' ||
+        this.selectedView() === 'readlist' ||
+        this.selectedView() === 'toReRead' ||
+        this.selectedView() === 'owned' ||
+        this.selectedView() === 'recommendations')
+  );
+
+  noDataForThisView = computed(
+    () => this.filteredBdsCount() === 0 && this.searchTerm() === ''
+  );
+
+  noDataMessageText = computed(() => {
+    switch (this.selectedView()) {
+      case 'read':
+        return "Vous n'avez renseigné aucune BD lue";
+      case 'readlist':
+        return 'Vous n\'avez marqué aucune BD comme "à lire". Vous pouvez le faire via le bouton au-dessus.';
+      case 'toReRead':
+        return 'Vous n\'avez marqué aucune BD comme "à relire". Rendez-vous sur vos BD lues et éditez une fiche pour la marquer comme "à relire".';
+      case 'owned':
+        return 'Vous n\'avez marqué aucune BD comme "possédée". Utilisez le bouton "Possédées" au-dessus.';
+      case 'borrowed':
+        return 'Vous n\'avez marqué aucune BD comme "empruntée". Sur vos BD lues ou à lire, éditez une fiche pour indiquer l\'emprunt.';
+      case 'loaned':
+        return 'Vous n\'avez marqué aucune BD comme "prêtée". Sur vos BD lues ou à lire, éditez une fiche pour indiquer le prêt.';
+      case 'sagas':
+        return 'Aucune BD à regrouper par saga pour l\'instant. Ajoutez des BD ou complétez le champ saga.';
+      case 'recommendations':
+        return 'Aucune recommandation pour le moment.';
+      default:
+        return "Vous n'avez aucune BD à afficher pour cette sélection.";
+    }
+  });
+
   constructor() {
     effect(() => {
       this.selectedSort.set(this.selectedSortInput());

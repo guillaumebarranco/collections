@@ -88,7 +88,7 @@
       Sélectionner mes séries
     </button>
   </div>
-  } @if (showFiltersAndSearch()) {
+  } @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
   <div class="series-stats-bloc">
     <app-stats-display
       [stats]="stats()"
@@ -97,6 +97,7 @@
     >
     </app-stats-display>
 
+    @if (canShowSortDropdown()) {
     <div class="series-filters">
       <app-sort-dropdown
         label="Trier par :"
@@ -106,6 +107,7 @@
       >
       </app-sort-dropdown>
     </div>
+    }
   </div>
 
   <div class="entity-input-search">
@@ -115,6 +117,10 @@
       [ngModel]="searchTerm()"
       (ngModelChange)="onSearchChange.emit($event)"
     />
+  </div>
+  } @if (noDataForThisView()) {
+  <div class="empty-state">
+    <p class="empty-message">{{ noDataMessageText() }}</p>
   </div>
   }
 </div>

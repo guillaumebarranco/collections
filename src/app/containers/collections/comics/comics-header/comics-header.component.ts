@@ -91,6 +91,48 @@ export class ComicsHeaderComponent {
 
   canShowTopFiveRankButton = computed(() => this.selectedView() === 'read');
 
+  canShowSortDropdown = computed(
+    () => this.selectedView() === 'read' || this.selectedView() === 'readlist'
+  );
+
+  canShowFiltersAndSearch = computed(
+    () =>
+      this.filteredComicsCount() > 0 &&
+      this.searchTerm() === '' &&
+      (this.selectedView() === 'read' ||
+        this.selectedView() === 'readlist' ||
+        this.selectedView() === 'toReRead' ||
+        this.selectedView() === 'owned' ||
+        this.selectedView() === 'recommendations')
+  );
+
+  noDataForThisView = computed(
+    () => this.filteredComicsCount() === 0 && this.searchTerm() === ''
+  );
+
+  noDataMessageText = computed(() => {
+    switch (this.selectedView()) {
+      case 'read':
+        return "Vous n'avez renseigné aucun comic lu";
+      case 'readlist':
+        return 'Vous n\'avez marqué aucun comic comme "à lire". Vous pouvez le faire via le bouton au-dessus.';
+      case 'toReRead':
+        return 'Vous n\'avez marqué aucun comic comme "à relire". Rendez-vous sur vos comics lus et éditez une fiche pour la marquer comme "à relire".';
+      case 'owned':
+        return 'Vous n\'avez marqué aucun comic comme "possédé". Utilisez le bouton "Possédés" au-dessus.';
+      case 'borrowed':
+        return 'Vous n\'avez marqué aucun comic comme "emprunté". Sur vos comics lus ou à lire, éditez une fiche pour indiquer l\'emprunt.';
+      case 'loaned':
+        return 'Vous n\'avez marqué aucun comic comme "prêté". Sur vos comics lus ou à lire, éditez une fiche pour indiquer le prêt.';
+      case 'sagas':
+        return 'Aucun comic à regrouper par saga pour l\'instant. Ajoutez des comics ou complétez le champ saga.';
+      case 'recommendations':
+        return 'Aucune recommandation pour le moment.';
+      default:
+        return "Vous n'avez aucun comic à afficher pour cette sélection.";
+    }
+  });
+
   constructor() {
     effect(() => {
       this.selectedSort.set(this.selectedSortInput());

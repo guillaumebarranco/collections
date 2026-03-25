@@ -85,7 +85,7 @@
       Sélectionner mes comics
     </button>
   </div>
-  } @if (showFiltersAndSearch()) {
+  } @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
   <div class="comics-stats-bloc">
     <app-stats-display
       [stats]="stats()"
@@ -94,12 +94,14 @@
     >
     </app-stats-display>
 
+    @if (canShowSortDropdown()) {
     <app-sort-dropdown
       [sortOptions]="sortOptions()"
       [selectedSort]="selectedSort()"
       (sortChange)="onSortChange.emit($event)"
     >
     </app-sort-dropdown>
+    }
   </div>
 
   <div class="entity-input-search">
@@ -109,6 +111,10 @@
       [ngModel]="searchTerm()"
       (ngModelChange)="onSearchChange.emit($event)"
     />
+  </div>
+  } @if (noDataForThisView()) {
+  <div class="empty-state">
+    <p class="empty-message">{{ noDataMessageText() }}</p>
   </div>
   }
 </div>

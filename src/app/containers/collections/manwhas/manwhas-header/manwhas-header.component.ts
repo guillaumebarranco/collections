@@ -91,6 +91,46 @@ export class ManwhasHeaderComponent {
 
   canShowTopFiveRankButton = computed(() => this.selectedView() === 'read');
 
+  canShowSortDropdown = computed(
+    () => this.selectedView() === 'read' || this.selectedView() === 'readlist'
+  );
+
+  canShowFiltersAndSearch = computed(
+    () =>
+      this.filteredManwhasCount() > 0 &&
+      this.searchTerm() === '' &&
+      (this.selectedView() === 'read' ||
+        this.selectedView() === 'readlist' ||
+        this.selectedView() === 'toReRead' ||
+        this.selectedView() === 'owned' ||
+        this.selectedView() === 'recommendations')
+  );
+
+  noDataForThisView = computed(
+    () => this.filteredManwhasCount() === 0 && this.searchTerm() === ''
+  );
+
+  noDataMessageText = computed(() => {
+    switch (this.selectedView()) {
+      case 'read':
+        return "Vous n'avez renseigné aucun manwha lu";
+      case 'readlist':
+        return 'Vous n\'avez marqué aucun manwha comme "à lire". Vous pouvez le faire via le bouton au-dessus.';
+      case 'toReRead':
+        return 'Vous n\'avez marqué aucun manwha comme "à relire". Rendez-vous sur vos manwhas lus et éditez une fiche pour le marquer comme "à relire".';
+      case 'owned':
+        return 'Vous n\'avez marqué aucun manwha comme "possédé". Utilisez le bouton "Possédés" au-dessus.';
+      case 'borrowed':
+        return 'Vous n\'avez marqué aucun manwha comme "emprunté". Sur vos manwhas lus ou à lire, éditez une fiche pour indiquer l\'emprunt.';
+      case 'loaned':
+        return 'Vous n\'avez marqué aucun manwha comme "prêté". Sur vos manwhas lus ou à lire, éditez une fiche pour indiquer le prêt.';
+      case 'recommendations':
+        return 'Aucune recommandation pour le moment.';
+      default:
+        return "Vous n'avez aucun manwha à afficher pour cette sélection.";
+    }
+  });
+
   constructor() {
     effect(() => {
       this.selectedSort.set(this.selectedSortInput());

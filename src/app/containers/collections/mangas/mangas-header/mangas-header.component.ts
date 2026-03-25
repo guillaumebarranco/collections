@@ -14,7 +14,7 @@ import {
   SortOption,
 } from '../../../../components/shared/sort-dropdown/sort-dropdown.component';
 import { StatsDisplayComponent } from '../../../../components/shared/stats-display/stats-display.component';
-import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
+import { ActivatedRoute, Params, RouterModule } from '@angular/router';
 import { MangaView } from '../mangas.utils';
 import { StatItem } from '../../../../components/shared/stats-display/stats-display.component';
 import { FormsModule } from '@angular/forms';
@@ -91,6 +91,46 @@ export class MangasHeaderComponent {
   );
 
   canShowTopFiveRankButton = computed(() => this.selectedView() === 'read');
+
+  canShowSortDropdown = computed(
+    () => this.selectedView() === 'read' || this.selectedView() === 'readlist'
+  );
+
+  canShowFiltersAndSearch = computed(
+    () =>
+      this.filteredMangasCount() > 0 &&
+      this.searchTerm() === '' &&
+      (this.selectedView() === 'read' ||
+        this.selectedView() === 'readlist' ||
+        this.selectedView() === 'toReRead' ||
+        this.selectedView() === 'owned' ||
+        this.selectedView() === 'recommendations')
+  );
+
+  noDataForThisView = computed(
+    () => this.filteredMangasCount() === 0 && this.searchTerm() === ''
+  );
+
+  noDataMessageText = computed(() => {
+    switch (this.selectedView()) {
+      case 'read':
+        return "Vous n'avez renseigné aucun manga lu";
+      case 'readlist':
+        return 'Vous n\'avez marqué aucun manga comme "à lire". Vous pouvez le faire via le bouton au-dessus.';
+      case 'toReRead':
+        return 'Vous n\'avez marqué aucun manga comme "à relire". Rendez-vous sur vos mangas lus et éditez une fiche pour le marquer comme "à relire".';
+      case 'owned':
+        return 'Vous n\'avez marqué aucun manga comme "possédé". Utilisez le bouton "Possédés" au-dessus.';
+      case 'borrowed':
+        return 'Vous n\'avez marqué aucun manga comme "emprunté". Sur vos mangas lus ou à lire, éditez une fiche pour indiquer l\'emprunt.';
+      case 'loaned':
+        return 'Vous n\'avez marqué aucun manga comme "prêté". Sur vos mangas lus ou à lire, éditez une fiche pour indiquer le prêt.';
+      case 'recommendations':
+        return 'Aucune recommandation pour le moment.';
+      default:
+        return "Vous n'avez aucun manga à afficher pour cette sélection.";
+    }
+  });
 
   constructor() {
     effect(() => {

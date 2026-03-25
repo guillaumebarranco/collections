@@ -14,7 +14,7 @@ import {
   SortOption,
 } from '../../../../components/shared/sort-dropdown/sort-dropdown.component';
 import { StatsDisplayComponent } from '../../../../components/shared/stats-display/stats-display.component';
-import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
+import { ActivatedRoute, Params, RouterModule } from '@angular/router';
 import { GameView } from '../games.utils';
 import { StatItem } from '../../../../components/shared/stats-display/stats-display.component';
 import { FormsModule } from '@angular/forms';
@@ -90,6 +90,50 @@ export class GamesHeaderComponent {
   );
 
   canShowTopFiveRankButton = computed(() => this.selectedView() === 'played');
+
+  canShowSortDropdown = computed(
+    () =>
+      this.selectedView() === 'played' || this.selectedView() === 'gamelist'
+  );
+
+  canShowFiltersAndSearch = computed(
+    () =>
+      this.filteredGamesCount() > 0 &&
+      this.searchTerm() === '' &&
+      (this.selectedView() === 'played' ||
+        this.selectedView() === 'gamelist' ||
+        this.selectedView() === 'owned' ||
+        this.selectedView() === 'recommendations')
+  );
+
+  noDataForThisView = computed(
+    () => this.filteredGamesCount() === 0 && this.searchTerm() === ''
+  );
+
+  noDataMessageText = computed(() => {
+    switch (this.selectedView()) {
+      case 'played':
+        return "Vous n'avez renseigné aucun jeu dans votre ludothèque jouée";
+      case 'gamelist':
+        return 'Vous n\'avez marqué aucun jeu comme "à jouer". Vous pouvez le faire via le bouton au-dessus.';
+      case 'platined':
+        return 'Vous n\'avez marqué aucun jeu comme "platiné".';
+      case 'owned':
+        return 'Vous n\'avez marqué aucun jeu comme "possédé". Utilisez le bouton "Possédés" au-dessus.';
+      case 'borrowed':
+        return 'Vous n\'avez marqué aucun jeu comme "emprunté". Éditez une fiche jeu pour indiquer l\'emprunt.';
+      case 'loaned':
+        return 'Vous n\'avez marqué aucun jeu comme "prêté". Éditez une fiche jeu pour indiquer le prêt.';
+      case 'finished':
+        return 'Vous n\'avez marqué aucun jeu comme "terminé".';
+      case 'toRePlay':
+        return 'Vous n\'avez marqué aucun jeu comme "à rejouer".';
+      case 'recommendations':
+        return 'Aucune recommandation pour le moment.';
+      default:
+        return "Vous n'avez aucun jeu à afficher pour cette sélection.";
+    }
+  });
 
   constructor() {
     effect(() => {

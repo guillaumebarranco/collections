@@ -115,6 +115,25 @@ export class BooksHeaderComponent {
     () => this.filteredBooksCount() === 0 && this.searchTerm() === ''
   );
 
+  noDataMessageText = computed(() => {
+    switch (this.selectedView()) {
+      case 'read':
+        return "Vous n'avez renseigné aucun livre lu";
+      case 'readlist':
+        return 'Vous n\'avez marqué aucun livre comme "à lire". Vous pouvez le faire via le bouton au-dessus.';
+      case 'toReRead':
+        return 'Vous n\'avez marqué aucun livre comme "à relire". Vous pouvez vous rendre sur vos livres lus et en cliquant sur le bouton d\'edit d\'un livre, le marqué comme "à relire".';
+      case 'owned':
+        return 'Vous n\'avez marqué aucun livre comme "possédé". Vous pouvez le faire via le bouton "Possédés" au-dessus.';
+      case 'borrowed':
+        return 'Vous n\'avez marqué aucun livre comme "emprunté". Vous pouvez vous rendre sur vos livres lus ou à lire et en cliquant sur le bouton d\'edit d\'un livre, le marqué comme "emprunté".';
+      case 'loaned':
+        return 'Vous n\'avez marqué aucun livre comme "prêté". Vous pouvez vous rendre sur vos livres lus ou à lire et en cliquant sur le bouton d\'edit d\'un livre, le marqué comme "emprunté".';
+      default:
+        return "Vous n'avez aucun livre à afficher pour cette sélection.";
+    }
+  });
+
   constructor() {
     // Synchroniser les inputs avec les signaux locaux
     effect(() => {
@@ -145,11 +164,6 @@ export class BooksHeaderComponent {
       ? 'Recommandations'
       : 'Livres lus'
   );
-
-  private userId(): string {
-    const params: Params = this.activatedRoute.snapshot.params;
-    return params['id'] ?? DEFAULT_USER_ID;
-  }
 
   getSelectBooksRoute(): string {
     const params: Params = this.activatedRoute.snapshot.params;
